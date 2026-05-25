@@ -35,5 +35,6 @@ def test_privacy_is_public(client):
 
     assert response.status_code == 200
     assert "개인정보 처리방침" in response.text
+    assert "https://gong-yak.sk14cj.dev/privacy" in response.text
+    assert "OpenAI API를 별도로 호출하지 않습니다" in response.text
     assert "제3자" in response.text
-

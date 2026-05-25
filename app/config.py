@@ -17,7 +17,26 @@ class Settings(BaseSettings):
         validation_alias="DATABASE_URL",
         description="SQLAlchemy database URL.",
     )
-    app_name: str = "Election Promise Context API"
+    app_name: str = Field(
+        default="Election Promise Context API",
+        validation_alias="APP_NAME",
+        description="Service name added to structured logs.",
+    )
+    environment: str = Field(
+        default="development",
+        validation_alias="ENVIRONMENT",
+        description="Deployment environment added to structured logs.",
+    )
+    log_level: str = Field(
+        default="INFO",
+        validation_alias="LOG_LEVEL",
+        description="Python logging level, for example DEBUG, INFO, WARNING, or ERROR.",
+    )
+    log_format: str = Field(
+        default="json",
+        validation_alias="LOG_FORMAT",
+        description="Log formatter. Use json for collectors or text for local debugging.",
+    )
 
     model_config = SettingsConfigDict(
         env_file=".env",
@@ -30,4 +49,3 @@ class Settings(BaseSettings):
 @lru_cache
 def get_settings() -> Settings:
     return Settings()
-
