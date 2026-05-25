@@ -4,7 +4,6 @@ from pydantic import BaseModel, ConfigDict, Field
 
 
 AnswerStatus = Literal["resolved", "ambiguous", "not_found", "error"]
-AnswerStyle = Literal["summary", "table", "detailed", "neutral_comparison"]
 
 
 class AnswerContextRequest(BaseModel):
@@ -31,13 +30,6 @@ class AnswerContextRequest(BaseModel):
         description="비교할 공약 주제입니다.",
         examples=["교통"],
     )
-    answer_style: AnswerStyle | None = Field(
-        default=None,
-        alias="answerStyle",
-        description="Custom GPT가 답변을 구성할 때 참고할 답변 형식입니다.",
-        examples=["table"],
-    )
-
     model_config = ConfigDict(
         populate_by_name=True,
         json_schema_extra={
@@ -47,7 +39,6 @@ class AnswerContextRequest(BaseModel):
                     "electionQuery": "제9회 전국동시지방선거",
                     "regionQuery": "인천시장",
                     "topic": "교통",
-                    "answerStyle": "table",
                 }
             ]
         },
@@ -113,4 +104,3 @@ class AnswerContextResponse(BaseModel):
     options: list[AmbiguousOption] | None = Field(default=None, description="ambiguous 상태일 때 가능한 선택지입니다.")
 
     model_config = ConfigDict(populate_by_name=True)
-

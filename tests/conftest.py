@@ -66,5 +66,4 @@ def base_payload() -> dict[str, str]:
         "electionQuery": "제9회 전국동시지방선거",
         "regionQuery": "인천시장",
         "topic": "교통",
-        "answerStyle": "table",
     }

@@ -112,8 +112,7 @@ curl -X POST "http://localhost:8000/answer-context" \
     "userQuestion": "제9회 지선 인천시장 후보들의 교통 공약 비교해줘",
     "electionQuery": "제9회 전국동시지방선거",
     "regionQuery": "인천시장",
-    "topic": "교통",
-    "answerStyle": "table"
+    "topic": "교통"
   }'
 ```
 

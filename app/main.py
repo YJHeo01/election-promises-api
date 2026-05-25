@@ -3,6 +3,9 @@ from time import perf_counter
 from uuid import uuid4
 
 from fastapi import FastAPI, Request
+from fastapi.encoders import jsonable_encoder
+from fastapi.exceptions import RequestValidationError
+from fastapi.responses import JSONResponse
 
 from app.config import get_settings
 from app.observability import (
@@ -27,6 +30,32 @@ app = FastAPI(
     ),
     version="0.1.0",
 )
+
+
+@app.exception_handler(RequestValidationError)
+async def request_validation_exception_handler(
+    request: Request,
+    exc: RequestValidationError,
+) -> JSONResponse:
+    body = await request.body()
+    logger.warning(
+        "HTTP request validation failed.",
+        extra={
+            "event": "http_request_validation_failed",
+            "http": {
+                "method": request.method,
+                "path": request.url.path,
+                "status_code": 422,
+            },
+            "client_host": request.client.host if request.client else None,
+            "validation_errors": exc.errors(),
+            "request_body": body.decode("utf-8", errors="replace"),
+        },
+    )
+    return JSONResponse(
+        status_code=422,
+        content={"detail": jsonable_encoder(exc.errors())},
+    )
 
 
 @app.middleware("http")
