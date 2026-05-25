@@ -14,7 +14,7 @@ from app.seed import seed_database
 
 
 @pytest.fixture
-def client() -> Generator[TestClient, None, None]:
+def db_session() -> Generator[Session, None, None]:
     database_url = "sqlite+pysqlite:///:memory:"
     engine = create_engine(
         database_url,
@@ -32,13 +32,16 @@ def client() -> Generator[TestClient, None, None]:
     Base.metadata.create_all(bind=engine)
     with testing_session_local() as db:
         seed_database(db)
+        yield db
+    engine.dispose()
+
+
+@pytest.fixture
+def client(db_session: Session) -> Generator[TestClient, None, None]:
+    database_url = "sqlite+pysqlite:///:memory:"
 
     def override_get_db() -> Generator[Session, None, None]:
-        db = testing_session_local()
-        try:
-            yield db
-        finally:
-            db.close()
+        yield db_session
 
     settings = Settings(custom_gpt_api_key="test-key", database_url=database_url)
 
