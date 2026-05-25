@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;구재용 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	서해구의 새로운 미래를 활짝 열겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="서해구의 새로운 미래를 활짝 열겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;AI,&nbsp;제조,&nbsp;물류,&nbsp;로봇&nbsp;연계&nbsp;피지컬&nbsp;AI&nbsp;혁신도시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;바이오,&nbsp;콘텐츠,&nbsp;금융산업&nbsp;육성으로&nbsp;지속가능한&nbsp;성장&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;AI,&nbsp;외국어&nbsp;미래&nbsp;역량&nbsp;교육&nbsp;강화<br><br>□&nbsp;이행방법<br>-&nbsp;24시간&nbsp;주민&nbsp;돕는&nbsp;AI&nbsp;상황실&nbsp;운영<br>-&nbsp;서해구형&nbsp;피지컬&nbsp;AI&nbsp;산업벨트&nbsp;구축<br>-&nbsp;중소기업·소상공인&nbsp;AI&nbsp;도입&nbsp;지원<br>-&nbsp;AI&nbsp;올인원&nbsp;프로그램&nbsp;도입&nbsp;(교육+인턴+취업)<br>-&nbsp;AI&nbsp;첨단산업단지&nbsp;조성&nbsp;(가좌석탄비축장·가좌IC&nbsp;일대)<br>-&nbsp;코스피&nbsp;상장&nbsp;로봇&nbsp;대기업&nbsp;유치<br>-&nbsp;커넥티드카&nbsp;클러스터&nbsp;조성<br>-&nbsp;K-콘텐츠&nbsp;영상문화복합단지&nbsp;조성<br>-&nbsp;K-POP&nbsp;전용공연장&nbsp;조성(아시아드주경기장)<br>-&nbsp;핀테크&nbsp;디지털&nbsp;금융산업&nbsp;육성<br>-&nbsp;영종-청라&nbsp;공항경제권&nbsp;구축&nbsp;(5성급&nbsp;호텔&nbsp;유치&nbsp;추진）<br>-&nbsp;의료&nbsp;·&nbsp;연구&nbsp;메디컬&nbsp;인프라&nbsp;조성<br>-&nbsp;도심항공교통&nbsp;(UAM)&nbsp;K-드론&nbsp;산업&nbsp;생태계&nbsp;육성<br>-&nbsp;해사국제상사법원&nbsp;유치&nbsp;추진<br>-&nbsp;명문&nbsp;국제학교&nbsp;유치(해외사립학교&nbsp;연계)<br>-&nbsp;서해구&nbsp;외국어마을&nbsp;조성<br>-&nbsp;초&nbsp;·&nbsp;중&nbsp;·&nbsp;고&nbsp;AI&nbsp;교육&nbsp;강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;계획&nbsp;수립&nbsp;후&nbsp;임기&nbsp;내&nbsp;연차별·단계별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·시비·구비·민간</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	전국으로 이어지는 교통망을 확대하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="전국으로 이어지는 교통망을 확대하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;자동차,&nbsp;지하철,&nbsp;버스&nbsp;타고&nbsp;서해구&nbsp;어디서든&nbsp;서울까지&nbsp;30분&nbsp;시대<br>&nbsp;&nbsp;○&nbsp;KTX&nbsp;타고&nbsp;전국&nbsp;1일&nbsp;섕활권&nbsp;구축<br><br>□&nbsp;이행방법<br>-&nbsp;인천대로&nbsp;·&nbsp;경인고속도로&nbsp;지하화<br>-&nbsp;검암역&nbsp;KTX&nbsp;정차&nbsp;추진<br>-&nbsp;GTX-D&nbsp;Y&nbsp;·&nbsp;E&nbsp;노선&nbsp;구축<br>-&nbsp;대장홍대선(서울2호선)&nbsp;가정&nbsp;·&nbsp;청라&nbsp;연장<br>-&nbsp;공항철도∼서울9호선&nbsp;직결<br>-&nbsp;인천3호선&nbsp;신설&nbsp;(송도∼청라∼검단)<br>-&nbsp;인천2호선&nbsp;배차&nbsp;시간&nbsp;단축<br>-&nbsp;부평연안부두선&nbsp;트램&nbsp;건설<br>-&nbsp;가좌송도선&nbsp;지하철&nbsp;건설<br>-&nbsp;서울7호선&nbsp;가정&nbsp;·&nbsp;청라&nbsp;연장&nbsp;적기&nbsp;개통<br>-&nbsp;청라IC&nbsp;진&nbsp;·&nbsp;출입구&nbsp;확대<br>-&nbsp;서구&nbsp;가좌동-부평&nbsp;장고개길&nbsp;개통<br>-&nbsp;골목까지&nbsp;촘촘한&nbsp;버스노선&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;계획&nbsp;수립&nbsp;후&nbsp;임기&nbsp;내&nbsp;연차별·단계별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·시비·구비·민간</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	아이를 함께 키우고 청년에게 희망을 드리겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="아이를 함께 키우고 청년에게 희망을 드리겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;일과&nbsp;생활의&nbsp;균형으로&nbsp;엄마와&nbsp;아빠,&nbsp;아이&nbsp;모두가&nbsp;행복한&nbsp;서해구<br>&nbsp;&nbsp;○&nbsp;청년이&nbsp;공정한&nbsp;기회를&nbsp;누리고&nbsp;내일을&nbsp;꿈꾸는&nbsp;서해구<br><br>□&nbsp;이행방법<br>-&nbsp;24시간&nbsp;365&nbsp;돌봄센터&nbsp;설치<br>-&nbsp;행정복지센터&nbsp;내&nbsp;유아차&nbsp;라운지&nbsp;설치<br>-&nbsp;공공산후조리원&nbsp;설치&nbsp;(키즈카페+장난감대여점)<br>-&nbsp;어린이행복센터&nbsp;건립<br>-&nbsp;어린이&nbsp;마음건강&nbsp;관리&nbsp;강화<br>-&nbsp;월&nbsp;10만&nbsp;원&nbsp;아동수당&nbsp;12세까지&nbsp;안정적&nbsp;확대<br>-&nbsp;어린이집&nbsp;·&nbsp;유치원&nbsp;·&nbsp;돌봄교사&nbsp;처우개선<br>-&nbsp;지역아동센터&nbsp;치원금&nbsp;확대<br>-&nbsp;특수학급&nbsp;확대&nbsp;및&nbsp;특수교사&nbsp;처우개선<br>-&nbsp;안전한&nbsp;어린이통학로&nbsp;조성&nbsp;(전봇대&nbsp;제거&nbsp;+&nbsp;보행길&nbsp;확대)<br>-&nbsp;구청장&nbsp;직속&nbsp;서해구&nbsp;청년청&nbsp;설치<br>-&nbsp;서해구청소년재단&nbsp;설립<br>-&nbsp;대학생&nbsp;·&nbsp;산단&nbsp;근로자&nbsp;천원의&nbsp;아침밥&nbsp;확대<br>-&nbsp;역세권&nbsp;청년임대주택&nbsp;공급<br>-&nbsp;청년&nbsp;월세&nbsp;및&nbsp;첫&nbsp;독립&nbsp;이사비&nbsp;지원<br>-&nbsp;청년&nbsp;공공기관&nbsp;일자리&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;계획&nbsp;수립&nbsp;후&nbsp;임기&nbsp;내&nbsp;연차별·&nbsp;단계별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·&nbsp;시비·&nbsp;구비·&nbsp;민간</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	어르신 잘 모시고 약자와 동행하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="어르신 잘 모시고 약자와 동행하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;어르신들이&nbsp;동네에서&nbsp;편안하게&nbsp;여가와&nbsp;의료를&nbsp;즐기는&nbsp;서해구<br>&nbsp;&nbsp;○&nbsp;누구도&nbsp;소외받지&nbsp;않고&nbsp;당당하게&nbsp;일어서는&nbsp;서해구<br><br>□&nbsp;이행방법<br>-&nbsp;집으로&nbsp;찾아가는&nbsp;동네약사&nbsp;도입<br>-&nbsp;가까운&nbsp;공원&nbsp;내&nbsp;소규모&nbsp;파크골프장&nbsp;설치<br>-&nbsp;여가&nbsp;·&nbsp;돌봄이&nbsp;있는&nbsp;시니어타운&nbsp;조성&nbsp;(어르신&nbsp;안심주택)<br>-&nbsp;간병비&nbsp;건강보험&nbsp;적용&nbsp;가능한&nbsp;요양병원&nbsp;치정&nbsp;추진<br>-&nbsp;경험과&nbsp;지혜를&nbsp;활용한&nbsp;어르신&nbsp;일자리&nbsp;확대<br>-&nbsp;경로당&nbsp;주5일&nbsp;급식&nbsp;및&nbsp;여가&nbsp;프로그램&nbsp;확대<br>-&nbsp;장애인&nbsp;복지정책&nbsp;강화&nbsp;(민생분야&nbsp;행복지수&nbsp;도입)<br>-&nbsp;다문화이음센터&nbsp;설립&nbsp;(한국어+문화&nbsp;교육)<br>-&nbsp;독거&nbsp;어르신&nbsp;·&nbsp;1인&nbsp;가구&nbsp;돌봄&nbsp;강화<br>-&nbsp;기후취약계층&nbsp;냉난방비&nbsp;지원<br>-&nbsp;자립&nbsp;·&nbsp;고립&nbsp;·&nbsp;은둔&nbsp;청년&nbsp;일상&nbsp;회복&nbsp;지원<br>-&nbsp;발달장애인&nbsp;지원&nbsp;정책&nbsp;강화<br>-&nbsp;치매안심누리&nbsp;센터&nbsp;건립<br>-&nbsp;행복드림타운&nbsp;장애인복지관&nbsp;건립<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;계획&nbsp;수립&nbsp;후&nbsp;임기&nbsp;내&nbsp;연차별·단계별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·시비·구비·민간</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	다함께 잘사는 서해구를 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="다함께 잘사는 서해구를 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;골목경제에&nbsp;돈이&nbsp;도는&nbsp;서해구형&nbsp;순환경제&nbsp;생태계&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;원도심&nbsp;재개발·&nbsp;재건축&nbsp;활성화로&nbsp;주거환경&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;기후위기와&nbsp;재난에&nbsp;안전한&nbsp;서해구<br><br>□&nbsp;이행방법<br>-&nbsp;이음카드&nbsp;캐시백&nbsp;한도&nbsp;확대&nbsp;(30만원&nbsp;→&nbsp;최대&nbsp;100만원）<br>-&nbsp;지역상품&nbsp;공공&nbsp;구매&nbsp;확대&nbsp;(연간&nbsp;300억원&nbsp;규모）<br>-&nbsp;소상공인&nbsp;창업&nbsp;·&nbsp;성장&nbsp;·&nbsp;재도전&nbsp;지원<br>-&nbsp;밖에서&nbsp;먹고&nbsp;즐기는&nbsp;테라스&nbsp;영업&nbsp;확대<br>-&nbsp;전통시장&nbsp;·&nbsp;골목형&nbsp;상점가&nbsp;치원&nbsp;확대<br>-&nbsp;소상공인시장진흥공단&nbsp;청라센터&nbsp;유치<br>-&nbsp;재개발&nbsp;·&nbsp;재건축&nbsp;신속지원팀&nbsp;운영<br>-&nbsp;원도심&nbsp;용도지역&nbsp;(용적률)&nbsp;상향&nbsp;추진<br>-&nbsp;서구청역&nbsp;·&nbsp;석남역&nbsp;·&nbsp;서부여성회관역&nbsp;역세권&nbsp;개발<br>-&nbsp;청라&nbsp;·&nbsp;루원&nbsp;전담지원팀&nbsp;운영<br>-&nbsp;K-기후테크&nbsp;혁신&nbsp;클러스터&nbsp;조성<br>-&nbsp;친환경&nbsp;자원순환센터&nbsp;건립&nbsp;(청라소각장&nbsp;폐쇄)<br>-&nbsp;가좌석탄비축장&nbsp;폐쇄&nbsp;(복합체육문화시설&nbsp;건립)<br>-&nbsp;노후&nbsp;LNG발전소&nbsp;폐쇄&nbsp;(친환경에너지&nbsp;전환)<br>-&nbsp;3폭&nbsp;(폭염&nbsp;·&nbsp;폭우&nbsp;·&nbsp;폭설)&nbsp;자연재난&nbsp;대비&nbsp;강화<br>-&nbsp;수도권매립지&nbsp;주민&nbsp;활용방안&nbsp;마련<br>-&nbsp;도심에서&nbsp;즐기는&nbsp;서해구&nbsp;수목원&nbsp;유치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;계획&nbsp;수립&nbsp;후&nbsp;임기&nbsp;내&nbsp;연차별·단계별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·시비·구비·민간</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

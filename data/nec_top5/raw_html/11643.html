@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김진규 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	어디서나 빠르게, 교통혁명 검단</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="어디서나 빠르게, 교통혁명 검단">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;광역철도망·광역버스노선&nbsp;확충과&nbsp;검단&nbsp;전체&nbsp;교통&nbsp;균형&nbsp;발전<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;서울지하철&nbsp;5호선&nbsp;검단연장선&nbsp;추진(인천시&nbsp;안&nbsp;반영)<br>&nbsp;&nbsp;○&nbsp;서부권광역급행철도(GTX-D)&nbsp;차질&nbsp;없는&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;인천지하철&nbsp;2호선&nbsp;고양연장선의&nbsp;조속한&nbsp;예비타당성조사&nbsp;통과<br>&nbsp;&nbsp;○&nbsp;인천지하철&nbsp;2호선&nbsp;산단연장&nbsp;및&nbsp;김포골드라인&nbsp;환승&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;인천&nbsp;순환3호선(송도~검단)&nbsp;신설&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;계양역&nbsp;평면환승&nbsp;연결통로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;대장홍대선&nbsp;검단&nbsp;연장&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;검단-경명대로의&nbsp;차질&nbsp;없는&nbsp;개통<br>&nbsp;&nbsp;○&nbsp;금곡동~대곡동&nbsp;간&nbsp;도로의&nbsp;차질&nbsp;없는&nbsp;개통<br>&nbsp;&nbsp;○&nbsp;국지도98호선(도계~마전)&nbsp;간&nbsp;도로&nbsp;차질&nbsp;없는&nbsp;개통<br>&nbsp;&nbsp;○&nbsp;계양~강화&nbsp;고속도로&nbsp;조기&nbsp;완공&nbsp;및&nbsp;검단&nbsp;관내&nbsp;IC&nbsp;명칭&nbsp;변경&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;한들구역&nbsp;한중로&nbsp;조기&nbsp;개통&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;안동포사거리&nbsp;지하차도&nbsp;차질&nbsp;없는&nbsp;개통<br>&nbsp;&nbsp;○&nbsp;검단산업단지&nbsp;진입도로&nbsp;확장공사&nbsp;조기&nbsp;준공<br>&nbsp;&nbsp;○&nbsp;중봉대로~왕길역&nbsp;연결도로&nbsp;조기&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;3번도로(예미지트리플에듀&nbsp;방면)&nbsp;추가&nbsp;접속로&nbsp;조기&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;검단사거리&nbsp;우회도로&nbsp;확보&nbsp;및&nbsp;교통체증&nbsp;완화<br>&nbsp;&nbsp;○&nbsp;광역버스(종로·마곡·여의도&nbsp;방면)&nbsp;및&nbsp;간선버스&nbsp;노선&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;공유&nbsp;주차장&nbsp;확보로&nbsp;주차대란,&nbsp;불법주차&nbsp;문제&nbsp;해결<br>&nbsp;&nbsp;○&nbsp;검단&nbsp;관내&nbsp;교통신호체계&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;상습&nbsp;결빙구간&nbsp;염수분사장치&nbsp;설치<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;계획수립&nbsp;후&nbsp;임기&nbsp;내&nbsp;중장기<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;및&nbsp;민간투자와&nbsp;연계하여&nbsp;세부추진계획&nbsp;마련&nbsp;재원규모&nbsp;확정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비·시비·구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	다니고 싶은 학교, 배움이 충족되는 검단</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="다니고 싶은 학교, 배움이 충족되는 검단">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;과밀학급&nbsp;해소로&nbsp;배움의&nbsp;질&nbsp;향상,&nbsp;아이들이&nbsp;행복하게&nbsp;배울&nbsp;수&nbsp;있는&nbsp;교육&nbsp;인프라&nbsp;확보<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;과밀학급으로&nbsp;인한&nbsp;교육여건&nbsp;저하&nbsp;해소&nbsp;및&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;검단신도시&nbsp;신규입주단지&nbsp;증가에&nbsp;맞춘&nbsp;통학구역&nbsp;재검토&nbsp;및&nbsp;학교&nbsp;적기&nbsp;개교&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;인천·서구영어마을&nbsp;부지&nbsp;활용&nbsp;및&nbsp;교육&nbsp;인프라&nbsp;재정비&nbsp;<br>&nbsp;&nbsp;○&nbsp;검단형&nbsp;영어교육&nbsp;프로그램&nbsp;운영&nbsp;추진(구&nbsp;서구영어마을&nbsp;기능&nbsp;보완)<br>&nbsp;&nbsp;○&nbsp;원당중학교&nbsp;급식실&nbsp;현대화&nbsp;사업&nbsp;차질&nbsp;없는&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;검단고등학교&nbsp;체육관&nbsp;개선&nbsp;사업&nbsp;차질&nbsp;없는&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;국회·교육청·지자체·학교·학부모&nbsp;상시&nbsp;소통&nbsp;및&nbsp;정례협의체&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;젊은&nbsp;맞벌이&nbsp;가정&nbsp;자녀를&nbsp;위한&nbsp;방과후&nbsp;돌봄시설&nbsp;확충과&nbsp;방과후교육의&nbsp;질&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;공공도서관&nbsp;및&nbsp;복합문화센터&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;및&nbsp;신산업&nbsp;특화학교&nbsp;설치&nbsp;및&nbsp;졸업생의&nbsp;지역&nbsp;내&nbsp;취업&nbsp;또는&nbsp;창업&nbsp;지원&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;검단&nbsp;관내&nbsp;아이들이&nbsp;뛰놀&nbsp;수&nbsp;있는&nbsp;실내외&nbsp;체육시설&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;불로중학교&nbsp;앞&nbsp;물놀이마당&nbsp;실시<br>&nbsp;&nbsp;○&nbsp;가현숲마을&nbsp;어린이&nbsp;물놀이터·생활체육시설&nbsp;설치<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;계획수립&nbsp;후&nbsp;임기&nbsp;내&nbsp;중장기<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;및&nbsp;민간투자와&nbsp;연계하여&nbsp;세부추진계획&nbsp;마련&nbsp;재원규모&nbsp;확정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비·시비·구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	튼튼한 의료체계, 즐거운 문화복지 검단</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="튼튼한 의료체계, 즐거운 문화복지 검단">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;상시·응급의료체계&nbsp;확립과&nbsp;남녀노소&nbsp;행복한&nbsp;문화도시&nbsp;건설<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대형&nbsp;종합병원&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;검단&nbsp;관내&nbsp;소아과&nbsp;순환당직제&nbsp;지원,&nbsp;달빛어린이병원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;보건소·건강생활지원센터&nbsp;등&nbsp;공공보건&nbsp;기능&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;인천&nbsp;북부권&nbsp;시립문화예술회관&nbsp;검단&nbsp;내&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;아라뱃길&nbsp;수변문화공원(야외공연장&nbsp;포함),&nbsp;수도권매립지&nbsp;부지를&nbsp;활용한&nbsp;종합문화&nbsp;테마파크&nbsp;등&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;미매각&nbsp;부지&nbsp;활용&nbsp;주민&nbsp;체육·문화공간&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;체육1호공원&nbsp;근린11호공원&nbsp;등&nbsp;체육시설&nbsp;차질&nbsp;없는&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;원당지구-맑은물빛공원&nbsp;연결도로&nbsp;보행로&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;매천&nbsp;산책로&nbsp;반려견&nbsp;배변봉투&nbsp;디스펜서&nbsp;설치,&nbsp;지역&nbsp;내&nbsp;공공&nbsp;반려동물&nbsp;휴양공원&nbsp;개설<br>&nbsp;&nbsp;○&nbsp;계양천~아라뱃길&nbsp;연결&nbsp;및&nbsp;수변환경&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;거첨도&nbsp;활용한&nbsp;정서진&nbsp;관광·랜드마크화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;원당동&nbsp;검단선사박물관&nbsp;건물&nbsp;주민&nbsp;편의시설&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;불로동&nbsp;차없는거리&nbsp;유지&nbsp;및&nbsp;여가시설&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;가현천~나진포천&nbsp;구간&nbsp;수변산책로&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;관내&nbsp;상점가&nbsp;상권&nbsp;활성화&nbsp;방안&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;관내&nbsp;행정복지센터&nbsp;문화프로그램&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;검단&nbsp;관내&nbsp;기존&nbsp;공원&nbsp;테마형&nbsp;리모델링<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;계획수립&nbsp;후&nbsp;임기&nbsp;내&nbsp;중장기<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;및&nbsp;민간투자와&nbsp;연계하여&nbsp;세부추진계획&nbsp;마련&nbsp;재원규모&nbsp;확정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비·시비·구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	행정부터 환경까지 살기 좋은 검단</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="행정부터 환경까지 살기 좋은 검단">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;7월&nbsp;검단구&nbsp;출범을&nbsp;대비한&nbsp;조속한&nbsp;행정&nbsp;안정화와&nbsp;검단&nbsp;관내&nbsp;환경&nbsp;개선<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;검단구&nbsp;출범에&nbsp;따른&nbsp;안정적&nbsp;자립예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;검단구&nbsp;임시청사&nbsp;안정적&nbsp;개청&nbsp;및&nbsp;행정서비스&nbsp;조기&nbsp;안정화<br>&nbsp;&nbsp;○&nbsp;검단구&nbsp;행정·생활SOC&nbsp;기반&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;검단구&nbsp;시대에&nbsp;맞는&nbsp;교육·교통·문화&nbsp;인프라&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;아라2동&nbsp;행정복지센터&nbsp;조기&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;공무원&nbsp;부족인원&nbsp;신속한&nbsp;확충&nbsp;및&nbsp;인건비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;검단경찰서&nbsp;조기&nbsp;준공&nbsp;및&nbsp;치안&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;검단·원당&nbsp;일대&nbsp;전선&nbsp;지중화&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;공유자전거·킥보드&nbsp;관리체계&nbsp;개선으로&nbsp;무단방치&nbsp;문제&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;원당대로&nbsp;도로&nbsp;분진&nbsp;및&nbsp;소음&nbsp;저감&nbsp;대책&nbsp;확립<br>&nbsp;&nbsp;○&nbsp;힐스테이트검단포레스트&nbsp;아파트&nbsp;일원&nbsp;교통환경&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;상습&nbsp;침수&nbsp;구역&nbsp;피해&nbsp;방지&nbsp;위한&nbsp;수도관&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;매천,&nbsp;검단천&nbsp;수질개선사업&nbsp;추진<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;계획수립&nbsp;후&nbsp;임기&nbsp;내&nbsp;중장기<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;및&nbsp;민간투자와&nbsp;연계하여&nbsp;세부추진계획&nbsp;마련&nbsp;재원규모&nbsp;확정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비·시비·구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	청년사업가들이 이끌어가는 자족도시 검단</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="청년사업가들이 이끌어가는 자족도시 검단">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;스타트업·벤처·중소기업&nbsp;지원&nbsp;활성화로&nbsp;미래&nbsp;먹거리&nbsp;확보<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;스마트산업&nbsp;클러스터&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;스마트위드업&nbsp;부지,&nbsp;검단&nbsp;경제활력의&nbsp;핵심거점으로&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;검단형&nbsp;청년창업·스타트업&nbsp;거점&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;정책과&nbsp;맞춰&nbsp;혁신벤처&nbsp;및&nbsp;중소기업&nbsp;성장&nbsp;활성화&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;검단1·2산단&nbsp;미래산업&nbsp;전환&nbsp;및&nbsp;첨단기업&nbsp;유치&nbsp;기반&nbsp;마련<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;계획수립&nbsp;후&nbsp;임기&nbsp;내&nbsp;중장기<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;및&nbsp;민간투자와&nbsp;연계하여&nbsp;세부추진계획&nbsp;마련&nbsp;재원규모&nbsp;확정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비·시비·구비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

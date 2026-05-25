@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;황종석 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	일자리·청년 특화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="일자리·청년 특화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목&nbsp;표&nbsp;;&nbsp;100년&nbsp;미래를&nbsp;위한&nbsp;혁신,&nbsp;일자리&nbsp;5,000개&nbsp;창출!&nbsp;&nbsp;<br><br>■&nbsp;이행방법<br>&nbsp;01.&nbsp;신내&nbsp;글로벌&nbsp;AI&nbsp;테크노벨리&nbsp;조성&nbsp;(강북&nbsp;최초-일자리&nbsp;3,000개&nbsp;창출)&nbsp;<br>&nbsp;&nbsp;○물리적&nbsp;기반&nbsp;:&nbsp;첨단&nbsp;인프라(5G/클라우드),&nbsp;R&D&nbsp;센터,&nbsp;협업&nbsp;공간(오픈&nbsp;이노베이션&nbsp;랩)<br>&nbsp;&nbsp;○인재&nbsp;생태계&nbsp;:&nbsp;국내외&nbsp;AI&nbsp;인재&nbsp;집적,&nbsp;대학-산업&nbsp;연계&nbsp;인재&nbsp;양성,&nbsp;스타트업&nbsp;창업자&nbsp;지원<br>&nbsp;02.&nbsp;패션·봉제&nbsp;혁신센터&nbsp;스마트&nbsp;특화<br>&nbsp;&nbsp;①봉제&nbsp;거리&nbsp;특화&nbsp;:&nbsp;관광벨트&nbsp;조성,&nbsp;패션&nbsp;체험형&nbsp;공간&nbsp;②서일대학교&nbsp;참여&nbsp;확대&nbsp;:&nbsp;패션&nbsp;융복합&nbsp;전공&nbsp;확&nbsp;대&nbsp;③상공인&nbsp;지원&nbsp;:&nbsp;공간&nbsp;임대,&nbsp;교육비,&nbsp;마케팅·판로&nbsp;개척,&nbsp;공동&nbsp;브랜드<br>&nbsp;03.&nbsp;일자리&nbsp;창출&nbsp;5대&nbsp;분야&nbsp;(2,000개&nbsp;창출)<br>&nbsp;&nbsp;①도시재생&nbsp;:&nbsp;소상공인&nbsp;취창업&nbsp;②웰니스&nbsp;산업&nbsp;:&nbsp;치유지도사,&nbsp;명상,&nbsp;요가,&nbsp;테라피&nbsp;등&nbsp;<br>&nbsp;&nbsp;③패션·봉제&nbsp;:&nbsp;디자인,&nbsp;마케팅,&nbsp;해외&nbsp;수출&nbsp;④평생교육&nbsp;:&nbsp;전공별&nbsp;⑤아이·어린이&nbsp;돌봄<br>&nbsp;04.&nbsp;청년&nbsp;통합&nbsp;패키지&nbsp;(주거에서&nbsp;출산까지)&nbsp;<br>&nbsp;&nbsp;①취·창업&nbsp;:&nbsp;전통시장&nbsp;청년&nbsp;소상공인&nbsp;육성&nbsp;및&nbsp;지원,&nbsp;패션&nbsp;스마트&nbsp;앵커(기획·디자인·마케팅),&nbsp;강소기업&nbsp;청년&nbsp;채용&nbsp;장려금&nbsp;②주거&nbsp;:&nbsp;안심&nbsp;주택&nbsp;및&nbsp;장기임대,&nbsp;육아&nbsp;친화형&nbsp;공공주택&nbsp;<br>&nbsp;&nbsp;③결혼&nbsp;:&nbsp;AI&nbsp;매칭&nbsp;플랫폼,&nbsp;결혼&nbsp;출발&nbsp;지원금&nbsp;④문화&nbsp;:&nbsp;소통&nbsp;플랫폼&nbsp;개발,&nbsp;경력&nbsp;단절&nbsp;여성&nbsp;사회참여&nbsp;⑤복지&nbsp;:&nbsp;출산·키움&nbsp;지원,&nbsp;난임&nbsp;부부&nbsp;치료비&nbsp;<br><br>■&nbsp;이행기간&nbsp;:&nbsp;민선&nbsp;9기&nbsp;임기내&nbsp;/&nbsp;AI&nbsp;테크노&nbsp;밸리(중장기&nbsp;지속)<br><br>■&nbsp;재원조달방안&nbsp;<br>&nbsp;&nbsp;○산업단지&nbsp;:&nbsp;국비(R&D&nbsp;특별예산,&nbsp;지역혁신펀드),&nbsp;민간(벤처캐피탈,&nbsp;기관투자,&nbsp;기업투자)<br>&nbsp;&nbsp;○거리특화&nbsp;:&nbsp;국비(도시재생&nbsp;뉴딜,&nbsp;지역균형개발기금),&nbsp;시·구비(지역발전기금)&nbsp;<br>&nbsp;&nbsp;○일자리·청년&nbsp;:&nbsp;국비(관련&nbsp;중앙&nbsp;예산)&nbsp;+&nbsp;시·구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	도시·교통 특화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="도시·교통 특화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목&nbsp;표&nbsp;:&nbsp;재개발·재건축·교통,&nbsp;도시의&nbsp;체계적&nbsp;혁신!<br><br>■&nbsp;이행방법<br>&nbsp;01.&nbsp;재개발·재건축&nbsp;통합&nbsp;신속&nbsp;추진&nbsp;<br>&nbsp;&nbsp;●추진&nbsp;방식&nbsp;:&nbsp;주거환경정비법의&nbsp;한계를&nbsp;도시계획&nbsp;차원으로&nbsp;복합화&nbsp;추진(지자체&nbsp;역할&nbsp;강화)<br>&nbsp;&nbsp;①민·관·산&nbsp;촉진지원단&nbsp;:&nbsp;국내&nbsp;최초&nbsp;구성&nbsp;②정비사업&nbsp;지원센터&nbsp;:&nbsp;상담,&nbsp;법률,&nbsp;행정&nbsp;지원&nbsp;<br>&nbsp;&nbsp;③재산가치&nbsp;특화&nbsp;:&nbsp;경관디자인,&nbsp;단지&nbsp;차별화&nbsp;④개발이익&nbsp;공유제&nbsp;도입&nbsp;:&nbsp;세입자,&nbsp;저소득층&nbsp;배려<br>&nbsp;02.&nbsp;면목동길&nbsp;핫플레이스&nbsp;테마거리&nbsp;조성&nbsp;<br>&nbsp;&nbsp;①조성&nbsp;모델&nbsp;:&nbsp;뉴욕&nbsp;소호,&nbsp;성수동·연남동&nbsp;②경관차별화&nbsp;:&nbsp;아트&nbsp;갤러리,&nbsp;글로컬&nbsp;브랜드&nbsp;구축&nbsp;<br>&nbsp;&nbsp;③목표&nbsp;:&nbsp;로컬크리에이터&nbsp;50인,&nbsp;맛&nbsp;집&nbsp;100곳&nbsp;육성&nbsp;④창업&nbsp;혜택&nbsp;:&nbsp;세제감면,&nbsp;공간정비<br>&nbsp;03.&nbsp;전통시장&nbsp;활성화&nbsp;패키지&nbsp;<br>&nbsp;&nbsp;①주차·노후시설&nbsp;확충&nbsp;②야간관광&nbsp;상권&nbsp;조성&nbsp;③소상공인&nbsp;통합지원&nbsp;④소상공인&nbsp;특례보증&nbsp;확대&nbsp;<br>&nbsp;04.&nbsp;도시재생&nbsp;주요&nbsp;사업<br>&nbsp;&nbsp;①취락지구&nbsp;주거&nbsp;재정비&nbsp;:&nbsp;다세대&nbsp;주택&nbsp;집수리&nbsp;지원(단열&nbsp;리모델링),&nbsp;난방비&nbsp;30%&nbsp;절감<br>&nbsp;&nbsp;②용마산역권역&nbsp;공공청사&nbsp;복합시설&nbsp;통합개발&nbsp;:&nbsp;도서관,&nbsp;공연·전시장,&nbsp;생활SOC&nbsp;<br>&nbsp;&nbsp;③망우역권역&nbsp;서울동북부&nbsp;핵심&nbsp;상권&nbsp;조성&nbsp;:&nbsp;복합청사&nbsp;건립&nbsp;및&nbsp;호텔,&nbsp;컨벤션,&nbsp;상업시설&nbsp;복합화<br>&nbsp;05.&nbsp;교통혁신&nbsp;주요&nbsp;사업<br>&nbsp;&nbsp;①경전철&nbsp;면목선,&nbsp;GTX-B&nbsp;조기착공&nbsp;:&nbsp;국토부,&nbsp;서울시&nbsp;협의&nbsp;후&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;②경춘선·경의중앙선&nbsp;및&nbsp;북부간선도로&nbsp;지하화&nbsp;:&nbsp;녹지벨트,&nbsp;관광·문화&nbsp;거리&nbsp;조성<br>&nbsp;&nbsp;③SH&nbsp;서울주택도시개발공사&nbsp;사옥&nbsp;:&nbsp;이전&nbsp;신속&nbsp;추진<br>&nbsp;06.&nbsp;탄소&nbsp;중립&nbsp;에너지·공간&nbsp;효율&nbsp;패키지<br>&nbsp;&nbsp;①에너지&nbsp;절감&nbsp;:&nbsp;에너지&nbsp;자립&nbsp;마을&nbsp;②재활용·리사이클&nbsp;③자투리땅&nbsp;마을정원&nbsp;:&nbsp;건물&nbsp;옥상녹화&nbsp;<br><br>■&nbsp;이행기간&nbsp;:&nbsp;민선&nbsp;9기&nbsp;임기내&nbsp;(중장기&nbsp;지속)<br><br>■&nbsp;재원조달방안&nbsp;<br>&nbsp;&nbsp;○재개발재건축&nbsp;:&nbsp;도시재생&nbsp;특별회계,&nbsp;지역·정책기금(주택도시·신용보증기금),&nbsp;민간&nbsp;PF<br>&nbsp;&nbsp;○도시재생&nbsp;:&nbsp;관련&nbsp;중앙&nbsp;예산&nbsp;+&nbsp;시·구비&nbsp;<br>&nbsp;&nbsp;○복합청사&nbsp;:&nbsp;행안부&nbsp;청사건설,&nbsp;국토부&nbsp;도시재생<br>&nbsp;&nbsp;○환경·안전&nbsp;:&nbsp;환경부,&nbsp;행안부,&nbsp;국토부&nbsp;관련&nbsp;예산&nbsp;+&nbsp;시·구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	교육·복지 특화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="교육·복지 특화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목&nbsp;표&nbsp;:&nbsp;미래&nbsp;노벨상&nbsp;수상자를&nbsp;키우는,&nbsp;교육&nbsp;혁신&nbsp;도시!&nbsp;<br><br>■&nbsp;이행방법<br>&nbsp;01.&nbsp;아이+슈타인&nbsp;프로젝트&nbsp;(대한민국&nbsp;최초&nbsp;인문·예술&nbsp;중심의&nbsp;방과후&nbsp;교육)<br>&nbsp;&nbsp;○개요&nbsp;:&nbsp;기존&nbsp;프로그램을&nbsp;넘어,&nbsp;"완전히&nbsp;새로운&nbsp;교육&nbsp;생태계&nbsp;창출”&nbsp;<br>&nbsp;&nbsp;○현&nbsp;교육&nbsp;중심&nbsp;:&nbsp;특목고(입시),&nbsp;대학센터(프로젝트),&nbsp;학원&nbsp;(경쟁)&nbsp;=&nbsp;불균형&nbsp;시스템<br>&nbsp;&nbsp;○아이+슈타인&nbsp;프로젝트&nbsp;:&nbsp;통합된&nbsp;거점,&nbsp;장기적&nbsp;커리큘럼,&nbsp;협력과&nbsp;창의성,&nbsp;포용적&nbsp;참가&nbsp;<br>&nbsp;&nbsp;①STEAM&nbsp;융합&nbsp;사고&nbsp;:&nbsp;다빈치&nbsp;랩,&nbsp;피카소&nbsp;랩,&nbsp;잡스&nbsp;랩&nbsp;=&nbsp;세계의&nbsp;천재들의&nbsp;교육&nbsp;방식<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;융합교육(STEAM)은&nbsp;과학기술&nbsp;기반의&nbsp;융합적&nbsp;사고와&nbsp;문제&nbsp;해결&nbsp;능력을&nbsp;함양하는&nbsp;교육.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Science(과학),&nbsp;Technology(기술),&nbsp;Engineering(공학),&nbsp;Arts(인문·예술),&nbsp;mathematics(수학)<br>&nbsp;&nbsp;②중랑형&nbsp;학습&nbsp;랩&nbsp;:&nbsp;다빈치,&nbsp;아인슈타인,&nbsp;잡스처럼&nbsp;생각하라!&nbsp;노벨상&nbsp;수상자를&nbsp;키운다!&nbsp;&nbsp;<br>&nbsp;02.&nbsp;모든&nbsp;구민,&nbsp;0세∼100세&nbsp;평생학습&nbsp;<br>&nbsp;&nbsp;①여성&nbsp;:&nbsp;경력단절,&nbsp;직업&nbsp;전환&nbsp;교육)&nbsp;②소상공인&nbsp;:&nbsp;경영,&nbsp;전문화,&nbsp;마케팅,&nbsp;직업&nbsp;맞춤&nbsp;교육&nbsp;제공&nbsp;③중장년&nbsp;:&nbsp;재도약&nbsp;과정,&nbsp;경력전환,&nbsp;창업,&nbsp;기술교육&nbsp;지원)&nbsp;④어르신&nbsp;:&nbsp;디지털&nbsp;교육&nbsp;강화(AI,&nbsp;스마트폰,&nbsp;온라인&nbsp;활용교육)&nbsp;⑤모든&nbsp;구민&nbsp;:&nbsp;웰니스&nbsp;프로그램&nbsp;⑥공무원&nbsp;역량강화&nbsp;:&nbsp;머리도&nbsp;똑똑!&nbsp;일도&nbsp;똑똑!<br>&nbsp;03.&nbsp;공공한방의료센터&nbsp;조성&nbsp;(서울시&nbsp;최초)&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;①의료&nbsp;관광&nbsp;클러스터&nbsp;거점&nbsp;②찾아가는&nbsp;한방버스&nbsp;운영&nbsp;:&nbsp;1:1&nbsp;의료서비스로&nbsp;사각지대&nbsp;해소&nbsp;③&nbsp;메디컬&nbsp;AI주치의&nbsp;④웰니스&nbsp;종합&nbsp;패키지&nbsp;:&nbsp;취약계층,&nbsp;1인&nbsp;가구&nbsp;돌봄<br><br>■&nbsp;이행기간&nbsp;:&nbsp;민선&nbsp;9기&nbsp;임기내<br><br>■&nbsp;재원조달방안&nbsp;<br>&nbsp;&nbsp;○교육복지&nbsp;:&nbsp;국비(교육부,&nbsp;고용노동부,&nbsp;행안부&nbsp;공모사업),&nbsp;시·구비(지방비)&nbsp;<br>&nbsp;&nbsp;○의료복지&nbsp;:&nbsp;국비(보건복지부&nbsp;공공보건의료기관&nbsp;확충,&nbsp;한의학&nbsp;진흥&nbsp;사업)&nbsp;+&nbsp;시·구비<br>&nbsp;&nbsp;○통합복지&nbsp;:&nbsp;중앙관련&nbsp;예산&nbsp;+&nbsp;시·구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	친환경·웰니스 특화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="친환경·웰니스 특화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목&nbsp;표&nbsp;:&nbsp;지구의&nbsp;허파&nbsp;아마존!&nbsp;서울의&nbsp;허파&nbsp;중랑구!&nbsp;<br><br>■&nbsp;이행방법<br>&nbsp;&nbsp;[치유&nbsp;산업]&nbsp;웰니스&nbsp;클러스터&nbsp;조성&nbsp;(국내&nbsp;최초&nbsp;-&nbsp;도시형)<br>&nbsp;&nbsp;●개요&nbsp;:&nbsp;의료와&nbsp;웰니스(치유/휴식)의&nbsp;융복합으로&nbsp;숲&nbsp;체조,&nbsp;명상,&nbsp;스파&nbsp;시설&nbsp;패키지화&nbsp;<br>&nbsp;&nbsp;●효과&nbsp;:&nbsp;주민건강,&nbsp;유니크베뉴,&nbsp;체험관광,&nbsp;반려동물&nbsp;동반까지&nbsp;중랑이&nbsp;서울&nbsp;웰니스의&nbsp;중심<br>&nbsp;&nbsp;①봉화산&nbsp;거점&nbsp;:&nbsp;순천만&nbsp;국가정원&nbsp;수준의&nbsp;치유정원&nbsp;조성<br>&nbsp;&nbsp;②용마폭포공원&nbsp;:&nbsp;K복합엔터테인먼트&nbsp;파크(인피니티&nbsp;폭포·전망대&nbsp;조성,&nbsp;치유프로그램)&nbsp;<br>&nbsp;&nbsp;③용마랜드&nbsp;:&nbsp;망우역사문화공원권역으로&nbsp;연계&nbsp;개발(테마공원,&nbsp;가족휴양시설&nbsp;등)<br>&nbsp;&nbsp;④글로벌&nbsp;MICE&nbsp;산업&nbsp;육성&nbsp;:&nbsp;친환경&nbsp;도시·웰니스&nbsp;국제&nbsp;포럼&nbsp;개최<br>&nbsp;&nbsp;⑤웰니스&nbsp;전문가&nbsp;육성&nbsp;:&nbsp;뷰티,&nbsp;테라피,&nbsp;요가&nbsp;등&nbsp;일자리&nbsp;300개&nbsp;창출<br>&nbsp;&nbsp;⑥4계절&nbsp;축제(패션쇼)&nbsp;육성&nbsp;:&nbsp;2월(웰니스),&nbsp;5월(장미),&nbsp;9월(용마),&nbsp;12월(빛)&nbsp;<br>&nbsp;&nbsp;⑦동네&nbsp;축제&nbsp;활성화&nbsp;:&nbsp;16개&nbsp;지역별&nbsp;차별화,&nbsp;주민주도&nbsp;주민참여형&nbsp;문화예술&nbsp;축제<br><br>■&nbsp;이행기간&nbsp;:&nbsp;민선&nbsp;9기&nbsp;임기내<br><br>■&nbsp;재원조달방안&nbsp;<br>&nbsp;&nbsp;○웰니스&nbsp;클러스터&nbsp;:&nbsp;국비(산업통상자원부,&nbsp;중기벤처부,&nbsp;환경부,&nbsp;보건복지부,&nbsp;문체부&nbsp;관련&nbsp;예산)&nbsp;민간(웰니스&nbsp;기업&nbsp;투자)&nbsp;+&nbsp;시·구비<br>&nbsp;&nbsp;○거점&nbsp;조성&nbsp;:&nbsp;국비(환경부,&nbsp;산업통상자원부,&nbsp;국토부&nbsp;-&nbsp;탄소중립&nbsp;예산)&nbsp;+&nbsp;민간&nbsp;투자&nbsp;+&nbsp;시·구비<br>&nbsp;&nbsp;○콘텐츠&nbsp;:&nbsp;문체부&nbsp;+&nbsp;시·구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	문화·예술·관광 특화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="문화·예술·관광 특화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목&nbsp;표&nbsp;:&nbsp;문화로&nbsp;연결되고,&nbsp;예술로&nbsp;빛나고,&nbsp;함께&nbsp;성장한다!<br><br>■&nbsp;이행방법<br>&nbsp;01.&nbsp;공간&nbsp;특화&nbsp;사업<br>&nbsp;&nbsp;①중랑천&nbsp;관광&nbsp;시설&nbsp;특화&nbsp;:&nbsp;○전망대,&nbsp;출렁다리&nbsp;조성&nbsp;○&nbsp;야시장&nbsp;생태계&nbsp;조성&nbsp;-&nbsp;푸드트럭,&nbsp;데크카페,&nbsp;문화공연&nbsp;○&nbsp;수변&nbsp;빛&nbsp;길&nbsp;조성&nbsp;-&nbsp;면목∼상봉(미디어&nbsp;아트),&nbsp;중화∼묵동생태&nbsp;테마),&nbsp;봉화산(프리미엄&nbsp;야경&nbsp;존)<br>&nbsp;&nbsp;②팻(견·묘)&nbsp;웰니스&nbsp;파크&nbsp;:&nbsp;중랑천변&nbsp;수변공원&nbsp;등에&nbsp;조성,&nbsp;팻&nbsp;의료·돌봄&nbsp;지원,&nbsp;주민&nbsp;갈등해소&nbsp;방안&nbsp;<br>&nbsp;&nbsp;③홈플러스&nbsp;면목점&nbsp;부지&nbsp;활용&nbsp;:&nbsp;면목유수지&nbsp;다목적&nbsp;문화체육공원&nbsp;조기&nbsp;착공.&nbsp;생활체육&nbsp;공간,&nbsp;공연&nbsp;및&nbsp;소통의&nbsp;광장,&nbsp;친환경&nbsp;친수&nbsp;광장으로&nbsp;조성<br>&nbsp;02.&nbsp;문화예술&nbsp;특화<br>&nbsp;&nbsp;①중랑구&nbsp;아트팩토리&nbsp;:&nbsp;K-컬처&nbsp;역사,&nbsp;예술,&nbsp;교육,&nbsp;체험&nbsp;<br>&nbsp;&nbsp;○거리로&nbsp;나온&nbsp;뮤지엄&nbsp;⇒&nbsp;마을&nbsp;미술관으로&nbsp;확대&nbsp;<br>&nbsp;&nbsp;○창작&nbsp;발전소&nbsp;-&nbsp;‘금천예술공장’,&nbsp;서교예술실험센터‘&nbsp;형&nbsp;청년&nbsp;작가&nbsp;+&nbsp;시민&nbsp;복합&nbsp;공간&nbsp;<br>&nbsp;&nbsp;②예술가&nbsp;레지던시&nbsp;확충&nbsp;:&nbsp;○워케이션&nbsp;-&nbsp;유휴공간&nbsp;리모델링&nbsp;후&nbsp;○디지털&nbsp;노마드&nbsp;-&nbsp;공유&nbsp;오피스&nbsp;및&nbsp;워케이션&nbsp;시설&nbsp;결합&nbsp;○마을별&nbsp;앵커&nbsp;조성&nbsp;-&nbsp;주민쉼터,&nbsp;조경,&nbsp;커뮤니티&nbsp;공간&nbsp;확보<br>&nbsp;&nbsp;③유네스코&nbsp;창의도시(음식)&nbsp;추진&nbsp;:&nbsp;글로벌&nbsp;다이닝&nbsp;미쉐린&nbsp;수준으로&nbsp;육성<br>&nbsp;&nbsp;④중랑&nbsp;독립&nbsp;영화제&nbsp;육성&nbsp;:&nbsp;단편·장르·국제영화·미디어&nbsp;아트&nbsp;등&nbsp;경계를&nbsp;넘는&nbsp;시도<br>&nbsp;&nbsp;⑤로컬라이제이션&nbsp;:&nbsp;○로컬크리에이터&nbsp;-&nbsp;시민&nbsp;유튜버&nbsp;100인&nbsp;육성&nbsp;○맛&nbsp;집&nbsp;-&nbsp;300곳&nbsp;육성&nbsp;<br><br>■&nbsp;이행기간&nbsp;:&nbsp;민선&nbsp;9기&nbsp;임기내&nbsp;/&nbsp;1.&nbsp;5.&nbsp;(중장기&nbsp;지속)<br><br>■&nbsp;재원조달방안&nbsp;<br>&nbsp;&nbsp;○관광지&nbsp;개발&nbsp;:&nbsp;국비(국토부,&nbsp;행안부,&nbsp;환경부,&nbsp;문체부&nbsp;관련&nbsp;예산)&nbsp;+&nbsp;시·구비<br>&nbsp;&nbsp;○문화&nbsp;콘텐츠&nbsp;:&nbsp;국비(국토부,&nbsp;행안부,&nbsp;문체부&nbsp;관련&nbsp;예산)&nbsp;+&nbsp;시·구비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

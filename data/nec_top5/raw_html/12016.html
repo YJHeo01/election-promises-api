@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김형우 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	원자력발전소(원전) 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="원자력발전소(원전) 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;ㅇ&nbsp;12조원&nbsp;규모&nbsp;원자력발전소&nbsp;2기를&nbsp;유치<br>&nbsp;&nbsp;ㅇ&nbsp;청년일자리&nbsp;3,000개&nbsp;창출,&nbsp;인구&nbsp;1만명&nbsp;이상이&nbsp;증가<br>&nbsp;&nbsp;ㅇ&nbsp;원전+방폐장&nbsp;유치시&nbsp;받는&nbsp;지원금으로&nbsp;전&nbsp;시민&nbsp;1인당&nbsp;200만원지급&nbsp;(지역화폐)<br>&nbsp;&nbsp;ㅇ&nbsp;지원금&nbsp;및&nbsp;투자금(10조예상)으로&nbsp;(주)삼척시민에너지발전소&nbsp;건설<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;수익금&nbsp;6,000억원/년으로&nbsp;전&nbsp;시민1인당&nbsp;30만원/월(3인가족&nbsp;1,000만원/년)&nbsp;지급&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;ㅇ&nbsp;2027년&nbsp;상반기&nbsp;원자력발전소&nbsp;2기&nbsp;공모(예정)&nbsp;신청&nbsp;⇒&nbsp;시장이&nbsp;신청하여야&nbsp;함<br>&nbsp;&nbsp;ㅇ&nbsp;시민들에게&nbsp;원전&nbsp;유치에&nbsp;대한&nbsp;필요성&nbsp;홍보<br>&nbsp;&nbsp;ㅇ&nbsp;원전&nbsp;유치&nbsp;주민&nbsp;지지율&nbsp;충분히&nbsp;확보<br>&nbsp;&nbsp;ㅇ&nbsp;한국수력원자력(주)&nbsp;(한수원)과&nbsp;긴밀한&nbsp;업무&nbsp;협조&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;정부(산업통상자원부,&nbsp;기후에너지환경부)와&nbsp;긴밀한&nbsp;업무&nbsp;협조<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;2026년7월&nbsp;~&nbsp;2027년12월&nbsp;<br>&nbsp;<br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;ㅇ&nbsp;국비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	고준위 방사성폐기물처리장 유치(방폐장)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="고준위 방사성폐기물처리장 유치(방폐장)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;ㅇ&nbsp;60조원&nbsp;규모&nbsp;고준위방사성폐기물&nbsp;처리장을&nbsp;유치<br>&nbsp;&nbsp;ㅇ&nbsp;청년일자리&nbsp;3,000개&nbsp;창출,&nbsp;인구1만명&nbsp;이상&nbsp;증가&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;원전+방폐장&nbsp;유치시&nbsp;받는&nbsp;지원금으로&nbsp;전&nbsp;시민&nbsp;1인당&nbsp;200만원지급&nbsp;(지역화폐)<br>&nbsp;&nbsp;ㅇ&nbsp;지원금&nbsp;및&nbsp;투자금(10조예상)으로&nbsp;(주)삼척시민에너지발전소&nbsp;건설<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;수익금&nbsp;6,000억원/년으로&nbsp;전&nbsp;시민1인당&nbsp;30만원/월(3인가족&nbsp;1,000만원/년)&nbsp;지급&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;ㅇ&nbsp;2027년&nbsp;하반기&nbsp;방폐장&nbsp;공모(예정)&nbsp;신청&nbsp;⇒&nbsp;시장이&nbsp;신청하여야&nbsp;함<br>&nbsp;&nbsp;ㅇ&nbsp;시민들에게&nbsp;방폐장&nbsp;유치에&nbsp;대한&nbsp;필요성&nbsp;홍보<br>&nbsp;&nbsp;ㅇ&nbsp;방폐장&nbsp;유치&nbsp;주민&nbsp;지지율&nbsp;충분히&nbsp;확보<br>&nbsp;&nbsp;ㅇ&nbsp;한국원자력환경공단&nbsp;긴밀한&nbsp;업무&nbsp;협조&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;정부(산업통상자원부,&nbsp;기후에너지환경부)와&nbsp;긴밀한&nbsp;업무&nbsp;협조<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;2026년7월&nbsp;~&nbsp;2027년&nbsp;12월&nbsp;<br>&nbsp;<br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;ㅇ&nbsp;국비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	그린수소생산 국가산업단지 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="그린수소생산 국가산업단지 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;ㅇ&nbsp;원자력발전소(원전)유치하여&nbsp;생산된&nbsp;전기&nbsp;이용&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;그린수소&nbsp;생산할&nbsp;수&nbsp;있는&nbsp;국가산업단지&nbsp;조성<br>&nbsp;&nbsp;ㅇ&nbsp;대기업&nbsp;6개&nbsp;협력업체&nbsp;90개&nbsp;유치<br>&nbsp;&nbsp;ㅇ&nbsp;일자리&nbsp;6,000개&nbsp;총&nbsp;고용효과&nbsp;1만명&nbsp;이상<br>&nbsp;&nbsp;ㅇ&nbsp;연간&nbsp;지방&nbsp;세수확보&nbsp;400억원&nbsp;이상<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;ㅇ&nbsp;1차&nbsp;원자력발전소(원전)을&nbsp;유치&nbsp;해야함<br>&nbsp;&nbsp;ㅇ&nbsp;2차&nbsp;원전+방폐장&nbsp;유치&nbsp;조건에&nbsp;수소국가산업단지&nbsp;조성&nbsp;정부에&nbsp;요청<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;2027년7월&nbsp;~&nbsp;2030년&nbsp;6월<br>&nbsp;<br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;ㅇ&nbsp;국비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	고속도로 도계  IC 추진,KTX삼척연장</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="고속도로 도계  IC 추진,KTX삼척연장">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;ㅇ&nbsp;지역균형발전을&nbsp;위해&nbsp;동서6축&nbsp;고속도로(평택↔삼척)&nbsp;건설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삼척↔영월&nbsp;구간에&nbsp;도계IC,&nbsp;태백&nbsp;IC가&nbsp;제외되어&nbsp;예타&nbsp;통과(2025년1월23일)됨<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도계IC,&nbsp;태백&nbsp;IC가&nbsp;포함되도록&nbsp;하겠음<br>&nbsp;&nbsp;ㅇ&nbsp;종점이&nbsp;근덕(예정)에서&nbsp;동해경계지역으로&nbsp;이동됨<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이대로&nbsp;완공되면&nbsp;사람도,&nbsp;물류도,&nbsp;관광도&nbsp;동해로&nbsp;빠져&nbsp;나가게됨<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삼척의&nbsp;경제는&nbsp;더욱심각한&nbsp;상태로&nbsp;빠져들게&nbsp;됨<br>&nbsp;&nbsp;ㅇ&nbsp;당초계획&nbsp;대로&nbsp;종점을&nbsp;근덕(예정)으로&nbsp;되도록&nbsp;하겠습니다.<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;ㅇ&nbsp;청와대,&nbsp;국토교통부,&nbsp;도로공사&nbsp;등&nbsp;관계기관을&nbsp;방문하여&nbsp;당초계획(안)&nbsp;대로&nbsp;될&nbsp;수&nbsp;있도록&nbsp;강력히&nbsp;요구<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전&nbsp;삼척시민&nbsp;대정부&nbsp;건의<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;2026년7월&nbsp;~&nbsp;2028년6월<br>&nbsp;&nbsp;<br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;ㅇ&nbsp;국비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	1,000만 관광객 방문 종합리조트 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="1,000만 관광객 방문 종합리조트 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;ㅇ&nbsp;1000만&nbsp;관광객&nbsp;방문을&nbsp;위한&nbsp;기반시설&nbsp;제2&nbsp;솔비치&nbsp;리조트&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;볼거리,&nbsp;먹거리,&nbsp;잠자리가&nbsp;편한&nbsp;전국&nbsp;제1의&nbsp;관광문화&nbsp;조성&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;대학로&nbsp;야시장&nbsp;개장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주중,&nbsp;주말,&nbsp;연휴&nbsp;등&nbsp;365일&nbsp;사계절&nbsp;관광객&nbsp;유치<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;ㅇ&nbsp;유치&nbsp;공모&nbsp;및&nbsp;유치&nbsp;설명회&nbsp;개최<br>&nbsp;&nbsp;ㅇ&nbsp;관련기관&nbsp;방문&nbsp;유치&nbsp;설명<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;2026년7월&nbsp;~&nbsp;2030년6월<br>&nbsp;&nbsp;<br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;ㅇ&nbsp;민자</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

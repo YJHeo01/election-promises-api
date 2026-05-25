@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김기서 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	세계인이 찾는 백마강 국가 예술 정원 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="세계인이 찾는 백마강 국가 예술 정원 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;유네스코&nbsp;세계문화유산인&nbsp;백제&nbsp;역사&nbsp;유적지구와&nbsp;연계하여,&nbsp;대한민국을&nbsp;대표하는&nbsp;제3호&nbsp;국가&nbsp;정원&nbsp;승격&nbsp;및&nbsp;세계적&nbsp;예술&nbsp;정원으로&nbsp;육성.<br>&nbsp;▶&nbsp;지역&nbsp;경제&nbsp;활성화,&nbsp;&nbsp;연간&nbsp;700만&nbsp;방문객&nbsp;유치를&nbsp;통해&nbsp;관광사업,&nbsp;숙박,&nbsp;음식&nbsp;등&nbsp;수익&nbsp;구조&nbsp;창출.<br><br>&nbsp;□&nbsp;이행방법&nbsp;<br>&nbsp;1)&nbsp;기반&nbsp;시설&nbsp;및&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;백마강변(규암면~부여읍&nbsp;구간)&nbsp;생태&nbsp;복원&nbsp;및&nbsp;친수&nbsp;공간&nbsp;정비.<br>&nbsp;&nbsp;-&nbsp;백마강&nbsp;수변&nbsp;테마&nbsp;정원&nbsp;조성,&nbsp;백제의&nbsp;여덟&nbsp;가지&nbsp;보물(백제팔문)을&nbsp;테마로&nbsp;한&nbsp;8개&nbsp;예술&nbsp;구역&nbsp;설계.<br>&nbsp;&nbsp;-&nbsp;대규모&nbsp;주차장&nbsp;및&nbsp;정원&nbsp;내&nbsp;친환경&nbsp;이동수단(전기&nbsp;셔틀,&nbsp;트램)&nbsp;도입.<br>&nbsp;2)&nbsp;예술&nbsp;콘텐츠&nbsp;도입&nbsp;및&nbsp;국제&nbsp;협력<br>&nbsp;&nbsp;-&nbsp;세계적인&nbsp;정원&nbsp;디자이너&nbsp;및&nbsp;아티스트와의&nbsp;협업을&nbsp;통한&nbsp;'아티스트&nbsp;가든'&nbsp;조성.<br>&nbsp;&nbsp;-&nbsp;디지털&nbsp;트윈&nbsp;기술을&nbsp;활용한&nbsp;야간&nbsp;미디어&nbsp;파사드&nbsp;및&nbsp;IT&nbsp;융합&nbsp;스마트&nbsp;정원&nbsp;시스템&nbsp;구축.<br>&nbsp;&nbsp;-&nbsp;국제&nbsp;정원&nbsp;박람회&nbsp;유치&nbsp;추진.<br>&nbsp;3)&nbsp;국가정원&nbsp;지정&nbsp;승격&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;지방정원&nbsp;운영&nbsp;실적(3년&nbsp;이상)&nbsp;확보&nbsp;및&nbsp;산림청&nbsp;지정&nbsp;기준&nbsp;충족을&nbsp;위한&nbsp;전문&nbsp;관리&nbsp;조직&nbsp;강화.<br>&nbsp;&nbsp;-&nbsp;정원문화&nbsp;활성화&nbsp;조례&nbsp;제정&nbsp;및&nbsp;민간&nbsp;정원사&nbsp;양성&nbsp;프로그램&nbsp;운영.<br><br>&nbsp;□&nbsp;이행기간<br>&nbsp;1)&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;타당성&nbsp;조사&nbsp;완료,&nbsp;국·도비&nbsp;확보를&nbsp;위한&nbsp;중앙정부&nbsp;협의(2026년).<br>&nbsp;2)&nbsp;단계별&nbsp;공사&nbsp;착공,&nbsp;'백마강&nbsp;지방정원'&nbsp;임시&nbsp;개장&nbsp;및&nbsp;홍보&nbsp;마케팅&nbsp;주력(2027년~2029년).<br>&nbsp;3)&nbsp;지방정원&nbsp;운영&nbsp;결과&nbsp;바탕으로&nbsp;국가정원&nbsp;지정&nbsp;신청,&nbsp;세계&nbsp;정원&nbsp;축제&nbsp;개최(2030년).<br>&nbsp;<br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;<br>&nbsp;1)&nbsp;국비&nbsp;및&nbsp;도비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;환경부의&nbsp;'생태하천&nbsp;복원사업'&nbsp;및&nbsp;산림청의&nbsp;'국가정원&nbsp;조성&nbsp;지원'&nbsp;예산&nbsp;적극&nbsp;확보.<br>&nbsp;2)&nbsp;충청남도와의&nbsp;전략적&nbsp;공조를&nbsp;통한&nbsp;지방전환사업&nbsp;예산&nbsp;배정.<br>&nbsp;3)&nbsp;민자&nbsp;유치<br>&nbsp;&nbsp;-&nbsp;정원&nbsp;내&nbsp;부대시설(카페,&nbsp;기념품점,&nbsp;숙박시설&nbsp;등)에&nbsp;대한&nbsp;민간&nbsp;투자(BOT&nbsp;방식&nbsp;등)&nbsp;유치.<br>&nbsp;&nbsp;-&nbsp;기업&nbsp;홍보용&nbsp;'기업&nbsp;참여형&nbsp;숲/정원'&nbsp;기부&nbsp;채납&nbsp;유도.<br>&nbsp;&nbsp;-&nbsp;특별회계&nbsp;및&nbsp;기금&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;지역균형발전기금&nbsp;및&nbsp;고향사랑기부금&nbsp;등을&nbsp;연계한&nbsp;특화&nbsp;사업비&nbsp;편성.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	100년 미래를 준비하는 굿뜨레</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="100년 미래를 준비하는 굿뜨레">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;부여&nbsp;브랜드&nbsp;세계화로&nbsp;'굿뜨래'&nbsp;브랜드의&nbsp;파워를&nbsp;강화하여&nbsp;국내외&nbsp;프리미엄&nbsp;시장&nbsp;점유율&nbsp;1위&nbsp;달성.<br>&nbsp;노동&nbsp;중심&nbsp;농업에서&nbsp;데이터와&nbsp;자동화&nbsp;기반의&nbsp;스마트&nbsp;팜&nbsp;중심&nbsp;체제로&nbsp;획기적&nbsp;전환.<br>&nbsp;▶&nbsp;생산,&nbsp;유통&nbsp;판매&nbsp;혁신으로&nbsp;1억&nbsp;소득&nbsp;2000&nbsp;농가&nbsp;육성.<br>&nbsp;<br>&nbsp;□&nbsp;이행방법&nbsp;<br>&nbsp;1)&nbsp;생산&nbsp;혁신:&nbsp;고효율·스마트&nbsp;생산&nbsp;기지&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;청년&nbsp;농업인과&nbsp;기존&nbsp;농가가&nbsp;협력하는&nbsp;대규모&nbsp;스마트팜&nbsp;복합&nbsp;단지&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;친환경·ICT&nbsp;기술&nbsp;보급으로&nbsp;에너지&nbsp;절감형&nbsp;냉난방&nbsp;시설&nbsp;및&nbsp;자동&nbsp;관수&nbsp;시스템&nbsp;지원을&nbsp;통한&nbsp;생산&nbsp;원가&nbsp;절감.<br>&nbsp;&nbsp;-&nbsp;부여형&nbsp;씨앗/종자&nbsp;주권&nbsp;확보,&nbsp;지역&nbsp;특화&nbsp;작물의&nbsp;고부가가치&nbsp;종자&nbsp;개량&nbsp;지원.<br>&nbsp;2)&nbsp;유통&nbsp;혁신:&nbsp;산지&nbsp;직송&nbsp;및&nbsp;물류&nbsp;선진화<br>&nbsp;&nbsp;-&nbsp;푸드&nbsp;통합지원센터&nbsp;고도화로&nbsp;복잡한&nbsp;유통&nbsp;단계를&nbsp;줄이고&nbsp;농민이&nbsp;직접&nbsp;가격&nbsp;결정권을&nbsp;갖는&nbsp;공공형&nbsp;유통&nbsp;플랫폼&nbsp;강화.<br>&nbsp;&nbsp;-&nbsp;콜드체인(저온유통망)&nbsp;완성,&nbsp;수확&nbsp;후&nbsp;신선도를&nbsp;최상으로&nbsp;유지하여&nbsp;상품&nbsp;가치를&nbsp;보존하는&nbsp;전&nbsp;과정&nbsp;저온&nbsp;물류&nbsp;시스템&nbsp;구축.<br>&nbsp;&nbsp;-&nbsp;수출&nbsp;전용&nbsp;단지&nbsp;지정:&nbsp;해외&nbsp;바이어&nbsp;맞춤형&nbsp;규격&nbsp;상품&nbsp;생산&nbsp;및&nbsp;수출&nbsp;물류비&nbsp;지원&nbsp;확대.<br>&nbsp;3)&nbsp;판매&nbsp;혁신:&nbsp;온·오프라인&nbsp;전방위&nbsp;마케팅<br>&nbsp;&nbsp;-&nbsp;굿뜨래&nbsp;전용&nbsp;플래그십&nbsp;스토어&nbsp;개관으로&nbsp;대도시&nbsp;및&nbsp;관광지에&nbsp;부여&nbsp;농특산물&nbsp;프리미엄&nbsp;체험&nbsp;및&nbsp;판매&nbsp;전시장&nbsp;운영.<br>&nbsp;4)&nbsp;스토리텔링&nbsp;마케팅으로&nbsp;'백제의&nbsp;유산이&nbsp;키운&nbsp;농산물'이라는&nbsp;콘셉트로&nbsp;브랜드&nbsp;스토리&nbsp;강화&nbsp;및&nbsp;고품격&nbsp;패키징&nbsp;개발.<br>&nbsp;<br>&nbsp;□&nbsp;이행기간<br>&nbsp;1)&nbsp;스마트&nbsp;팜&nbsp;실증&nbsp;단지&nbsp;착공&nbsp;및&nbsp;유통&nbsp;구조&nbsp;개선을&nbsp;위한&nbsp;조례&nbsp;정비（2026년）<br>&nbsp;2)&nbsp;스마트&nbsp;농업&nbsp;기술&nbsp;지원&nbsp;농가&nbsp;본격&nbsp;확대,&nbsp;온라인&nbsp;통합&nbsp;쇼핑몰&nbsp;고도화（2027~2028년）<br>&nbsp;3)&nbsp;농가소득&nbsp;1억&nbsp;달성&nbsp;농가&nbsp;수치&nbsp;지표&nbsp;관리&nbsp;및&nbsp;글로벌&nbsp;수출&nbsp;시장&nbsp;다변화（2029년）<br>&nbsp;<br>&nbsp;□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;<br>&nbsp;1）중앙정부&nbsp;공모사업&nbsp;유치　<br>　-&nbsp;농림축산식품부의&nbsp;'스마트&nbsp;원예단지&nbsp;조성'&nbsp;및&nbsp;'농산물&nbsp;산지유통센터(APC)&nbsp;건립'&nbsp;사업&nbsp;예산&nbsp;확보.<br>&nbsp;2）지방소멸대응기금&nbsp;활용<br>　-&nbsp;인구&nbsp;감소&nbsp;위기&nbsp;극복을&nbsp;위한&nbsp;청년&nbsp;농업인&nbsp;육성&nbsp;및&nbsp;정주&nbsp;여건&nbsp;개선&nbsp;사업비&nbsp;투입.<br>&nbsp;3）농업금융&nbsp;지원&nbsp;체계<br>&nbsp;&nbsp;-&nbsp;농협&nbsp;및&nbsp;지역&nbsp;금융권과&nbsp;연계하여&nbsp;스마트&nbsp;팜&nbsp;전환&nbsp;농가에&nbsp;대한&nbsp;저금리&nbsp;융자&nbsp;지원&nbsp;및&nbsp;이자&nbsp;보전.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	공동체 햇빛 발전과 바이오 가스 에너지 사업</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="공동체 햇빛 발전과 바이오 가스 에너지 사업">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;주민이&nbsp;직접&nbsp;참여하고&nbsp;수익을&nbsp;나누는&nbsp;'마을&nbsp;단위&nbsp;공동체&nbsp;발전소'&nbsp;확산.<br>&nbsp;방치되는&nbsp;농산물&nbsp;부산물과&nbsp;폐기물을&nbsp;친환경&nbsp;에너지(전기·열·가스)로&nbsp;전환.<br><br>&nbsp;□&nbsp;이행방법&nbsp;<br>&nbsp;1)&nbsp;주민&nbsp;참여형&nbsp;'공동체&nbsp;햇빛&nbsp;발전소'&nbsp;보급<br>&nbsp;&nbsp;-&nbsp;마을&nbsp;회관&nbsp;옥상,&nbsp;저수지&nbsp;수면,&nbsp;도로변&nbsp;성토면&nbsp;등&nbsp;공공&nbsp;유휴부지를&nbsp;활용한&nbsp;태양광&nbsp;발전소&nbsp;건립.<br>&nbsp;2)&nbsp;주민이&nbsp;지분&nbsp;투자를&nbsp;하고&nbsp;발전&nbsp;수익을&nbsp;배당받는&nbsp;'부여&nbsp;햇빛&nbsp;연금'&nbsp;제도&nbsp;도입.<br>&nbsp;3)&nbsp;농산물&nbsp;부산물&nbsp;및&nbsp;폐기물&nbsp;기반&nbsp;'바이오&nbsp;에너지&nbsp;센터'&nbsp;건립<br>&nbsp;&nbsp;-&nbsp;부여&nbsp;농업의&nbsp;핵심인&nbsp;축분과&nbsp;스마트&nbsp;팜&nbsp;부산물(토마토·수박&nbsp;잔재물&nbsp;등)을&nbsp;수거해&nbsp;메탄가스&nbsp;생산.<br>&nbsp;4)&nbsp;에너지&nbsp;순환&nbsp;시스템으로&nbsp;생산된&nbsp;바이오&nbsp;가스를&nbsp;인근&nbsp;스마트&nbsp;팜&nbsp;단지의&nbsp;난방&nbsp;연료로&nbsp;공급하여&nbsp;농가&nbsp;에너지&nbsp;비용&nbsp;절감.<br>&nbsp;5)&nbsp;가스&nbsp;추출&nbsp;후&nbsp;남은&nbsp;잔재물을&nbsp;고품질&nbsp;유기질&nbsp;비료(액비)로&nbsp;가공하여&nbsp;농가에&nbsp;저렴하게&nbsp;공급.<br><br>&nbsp;□&nbsp;이행기간<br>&nbsp;1)&nbsp;'부여군&nbsp;에너지&nbsp;조례'&nbsp;제정,&nbsp;에너지&nbsp;협동조합&nbsp;설립&nbsp;지원&nbsp;및&nbsp;바이오&nbsp;가스화&nbsp;타당성&nbsp;조사(2026).<br>&nbsp;2)&nbsp;권역별&nbsp;공동체&nbsp;태양광&nbsp;발전소&nbsp;착공&nbsp;및&nbsp;통합&nbsp;바이오&nbsp;에너지&nbsp;처리&nbsp;센터&nbsp;건립&nbsp;시작(2027~2028).<br>&nbsp;3)&nbsp;에너지&nbsp;자립&nbsp;마을&nbsp;30개소&nbsp;이상&nbsp;조성,&nbsp;생산&nbsp;에너지의&nbsp;지역&nbsp;내&nbsp;순환&nbsp;및&nbsp;주민&nbsp;배당&nbsp;실시(2029~).<br>&nbsp;<br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;<br>&nbsp;1)&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;산업통상자원부의&nbsp;'신재생에너지&nbsp;보급&nbsp;지원(융복합&nbsp;지원사업)'&nbsp;및&nbsp;환경부의&nbsp;'친환경&nbsp;에너지&nbsp;타운’&nbsp;공모사업&nbsp;신청.<br>&nbsp;２）지방소멸&nbsp;대응기금<br>&nbsp;&nbsp;농촌&nbsp;재생과&nbsp;인구&nbsp;유입을&nbsp;위한&nbsp;'에너지&nbsp;자립&nbsp;마을&nbsp;조성'&nbsp;사업비&nbsp;투입.<br>&nbsp;3)&nbsp;민관&nbsp;협력&nbsp;투자<br>&nbsp;&nbsp;&nbsp;에너지&nbsp;전문&nbsp;기업의&nbsp;기술&nbsp;투자와&nbsp;주민&nbsp;자본을&nbsp;결합한&nbsp;특수목적법인&nbsp;설립.<br>&nbsp;4)&nbsp;수익&nbsp;재투자<br>&nbsp;&nbsp;&nbsp;발생한&nbsp;발전&nbsp;수익의&nbsp;일부를&nbsp;'부여&nbsp;에너지&nbsp;복지&nbsp;기금'으로&nbsp;적립하여&nbsp;신규&nbsp;사업에&nbsp;재투입.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	스포츠 마케팅으로 지역경제 활성화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="스포츠 마케팅으로 지역경제 활성화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;전국&nbsp;단위&nbsp;스포츠&nbsp;거점화로&nbsp;전국&nbsp;최대&nbsp;규모의&nbsp;파크골프장,&nbsp;수상스포츠&nbsp;지구&nbsp;등을&nbsp;조성하여&nbsp;연중&nbsp;100만&nbsp;명&nbsp;이상의&nbsp;스포츠&nbsp;동호인&nbsp;유치.<br>&nbsp;체류형&nbsp;경제&nbsp;효과로&nbsp;단순&nbsp;방문이&nbsp;아닌&nbsp;숙박과&nbsp;식사로&nbsp;이어지는&nbsp;스포츠&nbsp;마케팅을&nbsp;통해&nbsp;지역&nbsp;소상공인&nbsp;매출&nbsp;증대.<br>&nbsp;▶&nbsp;역사&nbsp;문화&nbsp;도시&nbsp;부위에&nbsp;'스포츠&nbsp;활력'&nbsp;이미지를&nbsp;더해&nbsp;젊고&nbsp;역동적인&nbsp;도시&nbsp;브랜드&nbsp;구축.<br>&nbsp;<br>□&nbsp;이행방법&nbsp;<br>&nbsp;1)&nbsp;백마강&nbsp;둔치&nbsp;'명품&nbsp;스포츠&nbsp;인프라'&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;백마강&nbsp;둔치&nbsp;유휴지를&nbsp;활용하여&nbsp;국제&nbsp;대회가&nbsp;가능한&nbsp;규모의&nbsp;파크골프장을&nbsp;조성하고,&nbsp;시니어&nbsp;층의&nbsp;'성지'로&nbsp;육성.<br>&nbsp;&nbsp;-&nbsp;수상스포츠&nbsp;복합&nbsp;단지,&nbsp;백마강&nbsp;물길을&nbsp;활용한&nbsp;카누,&nbsp;조정,&nbsp;수상스키&nbsp;체험&nbsp;및&nbsp;훈련장&nbsp;고도화(엘리트&nbsp;선수단&nbsp;전지훈련&nbsp;유치).<br>&nbsp;&nbsp;-&nbsp;익스트림&nbsp;스포츠&nbsp;존:&nbsp;청년층&nbsp;유입을&nbsp;위해&nbsp;BMX,&nbsp;산악자전거&nbsp;연습&nbsp;코스,&nbsp;인공&nbsp;암벽&nbsp;등&nbsp;둔치&nbsp;지형을&nbsp;활용한&nbsp;공간&nbsp;조성.<br>&nbsp;2)&nbsp;스포츠&nbsp;마케팅&nbsp;및&nbsp;대회&nbsp;유치&nbsp;전략<br>&nbsp;&nbsp;-&nbsp;부여군수배&nbsp;전국&nbsp;대회&nbsp;브랜드화,&nbsp;파크골프,&nbsp;마라톤,&nbsp;야구&nbsp;등&nbsp;종목별&nbsp;전국&nbsp;대회를&nbsp;정례화하여&nbsp;연간&nbsp;상시&nbsp;유동&nbsp;인구&nbsp;확보.<br>&nbsp;&nbsp;-&nbsp;전지훈련&nbsp;팀&nbsp;유치&nbsp;및&nbsp;지원,&nbsp;쾌적한&nbsp;환경과&nbsp;지역&nbsp;숙박시설을&nbsp;연계한&nbsp;'스포츠&nbsp;스테이'&nbsp;패키지&nbsp;지원(훈련&nbsp;시설&nbsp;무료&nbsp;대여&nbsp;및&nbsp;지역&nbsp;화폐&nbsp;인센티브&nbsp;제공).<br>&nbsp;&nbsp;-&nbsp;스포츠+관광&nbsp;패키지:&nbsp;대회&nbsp;참가자들에게&nbsp;'국가&nbsp;예술&nbsp;정원'&nbsp;입장권&nbsp;및&nbsp;관내&nbsp;식당&nbsp;할인권을&nbsp;제공하는&nbsp;선순환&nbsp;구조<br><br>&nbsp;□&nbsp;이행기간<br>&nbsp;1)&nbsp;하천점용허가&nbsp;및&nbsp;환경영향평가&nbsp;등&nbsp;행정&nbsp;절차&nbsp;마무리,&nbsp;스포츠&nbsp;마케팅&nbsp;전담&nbsp;조직&nbsp;신설(2026)<br>&nbsp;2)&nbsp;파크골프장&nbsp;및&nbsp;기반&nbsp;시설&nbsp;준공,&nbsp;종목별&nbsp;전국&nbsp;대회&nbsp;3개&nbsp;이상&nbsp;신규&nbsp;유치(2027~2028).<br>&nbsp;3)&nbsp;글로벌&nbsp;스포츠&nbsp;페스티벌&nbsp;개최&nbsp;및&nbsp;스포츠&nbsp;테마&nbsp;관광&nbsp;상품&nbsp;상설&nbsp;운영(2029~).<br><br>&nbsp;□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;<br>&nbsp;1)&nbsp;국비&nbsp;및&nbsp;도비&nbsp;:&nbsp;문화체육관광부의&nbsp;'국민체육센터&nbsp;건립'&nbsp;및&nbsp;'지역&nbsp;특화&nbsp;스포츠&nbsp;관광산업&nbsp;육성'&nbsp;공모사업&nbsp;예산&nbsp;확보.<br>&nbsp;2)&nbsp;민간&nbsp;투자&nbsp;유치&nbsp;:&nbsp;대규모&nbsp;스포츠&nbsp;시설&nbsp;및&nbsp;편의시설에&nbsp;대한&nbsp;민간&nbsp;자본&nbsp;유치.<br>&nbsp;3)&nbsp;체육진흥기금&nbsp;및&nbsp;지방채&nbsp;:&nbsp;장기적&nbsp;수익성이&nbsp;보장되는&nbsp;시설에&nbsp;한해&nbsp;지방채&nbsp;발행&nbsp;검토&nbsp;및&nbsp;체육진흥기금&nbsp;집중&nbsp;투자.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	주택문제 완전 해결</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="주택문제 완전 해결">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;신혼부부,&nbsp;청년,&nbsp;귀농·귀촌인이&nbsp;초기&nbsp;비용&nbsp;부담&nbsp;없이&nbsp;정착할&nbsp;수&nbsp;있는&nbsp;주택&nbsp;공급.<br>&nbsp;고령층&nbsp;가구의&nbsp;노후&nbsp;주택&nbsp;리모델링&nbsp;및&nbsp;마을&nbsp;단위&nbsp;공동&nbsp;주거&nbsp;시설&nbsp;확충.<br>&nbsp;'스마트&nbsp;팜'&nbsp;등&nbsp;지역&nbsp;산업과&nbsp;연계한&nbsp;직주근접형&nbsp;공공주택&nbsp;보급으로&nbsp;외부&nbsp;인구&nbsp;유도.<br>&nbsp;▶&nbsp;부여형&nbsp;1,000호&nbsp;주택&nbsp;공급<br>&nbsp;<br>□&nbsp;이행방법&nbsp;<br>&nbsp;1)&nbsp;청년·신혼부부&nbsp;'반값&nbsp;아파트&nbsp;공급<br>&nbsp;&nbsp;-&nbsp;군유지를&nbsp;활용하여&nbsp;월&nbsp;임대료&nbsp;반값&nbsp;수준의&nbsp;청년&nbsp;주택을&nbsp;공급하여&nbsp;초기&nbsp;정착&nbsp;지원.<br>&nbsp;&nbsp;-&nbsp;첫&nbsp;집&nbsp;마련&nbsp;이자&nbsp;지원,&nbsp;&nbsp;부여군&nbsp;거주&nbsp;신혼부부&nbsp;및&nbsp;청년의&nbsp;주택&nbsp;구매/전세&nbsp;자금&nbsp;대출&nbsp;이자&nbsp;지원&nbsp;확대.<br>&nbsp;2)&nbsp;어르신을&nbsp;위한&nbsp;'효(孝)&nbsp;안심&nbsp;공동주택'&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;마을&nbsp;단위&nbsp;공동&nbsp;생활&nbsp;홈,&nbsp;&nbsp;홀몸&nbsp;어르신들이&nbsp;함께&nbsp;거주하며&nbsp;식사와&nbsp;돌봄을&nbsp;해결할&nbsp;수&nbsp;있는&nbsp;쉐어하우스형&nbsp;주택&nbsp;보급.<br>&nbsp;&nbsp;-&nbsp;고령자&nbsp;친화형&nbsp;리모델링,&nbsp;문턱&nbsp;제거,&nbsp;안전&nbsp;손잡이&nbsp;설치&nbsp;등&nbsp;'무장애(Barrier-Free)'&nbsp;주택&nbsp;개보수&nbsp;지원&nbsp;사업&nbsp;확대.<br>&nbsp;3)&nbsp;빈집&nbsp;및&nbsp;노후&nbsp;불량&nbsp;주택&nbsp;정비(빈집&nbsp;뱅크&nbsp;운영)<br>&nbsp;&nbsp;-&nbsp;빈집&nbsp;리모델링&nbsp;지원:&nbsp;방치된&nbsp;빈집을&nbsp;군에서&nbsp;매입·임차하여&nbsp;귀농인이나&nbsp;예술가들의&nbsp;임시&nbsp;거주&nbsp;및&nbsp;작업&nbsp;공간으로&nbsp;제공.<br>&nbsp;&nbsp;-&nbsp;노후&nbsp;주택&nbsp;철거&nbsp;지원:&nbsp;철거&nbsp;비용&nbsp;지원을&nbsp;통해&nbsp;도심&nbsp;내&nbsp;흉물을&nbsp;정비하고&nbsp;해당&nbsp;부지를&nbsp;쌈지&nbsp;공원이나&nbsp;주차장으로&nbsp;활용.<br>&nbsp;4)&nbsp;스마트&nbsp;팜&nbsp;연계&nbsp;'전원마을'&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;직주근접&nbsp;주거단지,&nbsp;스마트&nbsp;팜&nbsp;클러스터&nbsp;인근에&nbsp;에너지&nbsp;자립형&nbsp;친환경&nbsp;주거&nbsp;단지를&nbsp;조성하여&nbsp;종사자들에게&nbsp;우선&nbsp;공급.<br><br>&nbsp;□&nbsp;이행기간<br>&nbsp;1)&nbsp;부여군&nbsp;주택&nbsp;수급&nbsp;실태&nbsp;조사&nbsp;및&nbsp;빈집&nbsp;전수조사&nbsp;완료,&nbsp;'주거&nbsp;복지&nbsp;지원&nbsp;조례'&nbsp;제정(2026).<br>&nbsp;2)&nbsp;반값&nbsp;주택&nbsp;및&nbsp;고령자&nbsp;공동주택&nbsp;시범지구&nbsp;착공,&nbsp;빈집&nbsp;리모델링&nbsp;사업&nbsp;본격&nbsp;시행(2027~2028).<br>&nbsp;3)&nbsp;전방위적&nbsp;주거&nbsp;지원&nbsp;정책&nbsp;확대&nbsp;및&nbsp;인구&nbsp;증가&nbsp;추이에&nbsp;따른&nbsp;추가&nbsp;단지&nbsp;조성(2029~).<br><br>&nbsp;□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;<br>&nbsp;1)&nbsp;국비&nbsp;및&nbsp;도비&nbsp;:　국토교통부의&nbsp;'도시재생&nbsp;뉴딜사업'&nbsp;및&nbsp;'고령자&nbsp;복지주택'&nbsp;공모사업&nbsp;적극&nbsp;유치.<br>&nbsp;2)&nbsp;지방소멸대응기금&nbsp;:&nbsp;인구&nbsp;유입의&nbsp;핵심인&nbsp;주거&nbsp;인프라&nbsp;개선을&nbsp;위해&nbsp;기금을&nbsp;집중&nbsp;배정.<br>&nbsp;3)&nbsp;민간&nbsp;협력(LH/충남개발공사)　:&nbsp;공공기관과의&nbsp;협약을&nbsp;통해&nbsp;후보지&nbsp;제공&nbsp;및&nbsp;사업비&nbsp;분담&nbsp;추진.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

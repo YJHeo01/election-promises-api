@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;정문헌 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	살수록 좋아지는 종로, 재개발에 속도를 주거에 품격을</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="살수록 좋아지는 종로, 재개발에 속도를 주거에 품격을">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;종로&nbsp;주거&nbsp;혁신&nbsp;「재개발&nbsp;가속화&nbsp;프로젝트」<br>&nbsp;&nbsp;○&nbsp;31개&nbsp;정비사업,&nbsp;1만8천+α세대&nbsp;명품&nbsp;주거단지&nbsp;본격&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;자연경관·고도지구&nbsp;높이규제&nbsp;추가&nbsp;완화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;위반건축물&nbsp;양성화&nbsp;상담센터&nbsp;확대,&nbsp;특별법&nbsp;적극&nbsp;적용으로&nbsp;재산권&nbsp;보호&nbsp;완성<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;재개발&nbsp;가속화와&nbsp;재산권&nbsp;보호로&nbsp;종로의&nbsp;주거&nbsp;환경을&nbsp;탈바꿈하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;31개&nbsp;정비사업&nbsp;속도감&nbsp;있는&nbsp;인허가&nbsp;및&nbsp;사업&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;서울시와&nbsp;협조,&nbsp;자연경관·고도지구&nbsp;규제&nbsp;추가&nbsp;완화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;위반건축물&nbsp;양성화&nbsp;상담센터&nbsp;확대&nbsp;운영&nbsp;및&nbsp;특별법&nbsp;맞춤&nbsp;적용&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;지방비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	지갑이 두꺼워지는 종로, 골목에서 글로벌까지 경제 체력 강화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="지갑이 두꺼워지는 종로, 골목에서 글로벌까지 경제 체력 강화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;종로&nbsp;경제&nbsp;활력&nbsp;「소상공인·청년&nbsp;경제&nbsp;안전망」<br>&nbsp;&nbsp;○&nbsp;소상공인AI마케팅&nbsp;컨설팅&nbsp;무제한&nbsp;지원&nbsp;및&nbsp;종로사랑상품권&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;전통시장·상점가&nbsp;화재공제&nbsp;공제료&nbsp;지원(보장구간별80%~전액)<br>&nbsp;&nbsp;○&nbsp;주얼리·봉제산업&nbsp;종로‘마이스터&nbsp;아카데미’&nbsp;신설,&nbsp;글로벌&nbsp;이커머스&nbsp;입점&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;취업·창업·주거&nbsp;빈틈없는&nbsp;청년3대&nbsp;안전망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;종로&nbsp;청년채용500&nbsp;프로젝트(기업·대학·기관&nbsp;연계,&nbsp;임기&nbsp;내500명)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;창작&nbsp;예술문화&nbsp;콘텐츠&nbsp;제작&nbsp;공간&nbsp;및&nbsp;IP(지적재산권)화·수익화&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;빈집&nbsp;리모델링&nbsp;후&nbsp;청년&nbsp;셰어하우스로&nbsp;공급<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;골목상권부터&nbsp;글로벌&nbsp;시장까지,&nbsp;종로&nbsp;경제의&nbsp;체력을&nbsp;키우겠습니다<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;AI마케팅&nbsp;컨설팅&nbsp;지원&nbsp;체계&nbsp;구축&nbsp;및&nbsp;상품권&nbsp;발행&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;마이스터&nbsp;아카데미&nbsp;설립&nbsp;및&nbsp;글로벌&nbsp;이커머스&nbsp;입점&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;청년채용500&nbsp;프로젝트&nbsp;기업·대학·기관&nbsp;연계&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;지방비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	오늘이 편한 종로, 길도 안전도 새로고침</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="오늘이 편한 종로, 길도 안전도 새로고침">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;스마트&nbsp;교통·안전&nbsp;「AI&nbsp;기반&nbsp;생활&nbsp;인프라&nbsp;고도화」<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;실시간&nbsp;교통신호&nbsp;최적화,&nbsp;도로열선&nbsp;확충&nbsp;등&nbsp;스마트&nbsp;교통&nbsp;고도화<br>&nbsp;&nbsp;○&nbsp;주차&nbsp;전쟁&nbsp;종결,&nbsp;생활권&nbsp;맞춤&nbsp;공영주차&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부암동·신영동&nbsp;공공시설,&nbsp;부암취락지구,&nbsp;북촌로,&nbsp;창경궁로,&nbsp;대학로&nbsp;주차장&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트&nbsp;공유주차사업&nbsp;활성화&nbsp;및&nbsp;생활권&nbsp;맞춤형&nbsp;주차단속&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;통합안전망으로&nbsp;지키는&nbsp;중대재해ZERO&nbsp;종로<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;기반CCTV&nbsp;통합안전망&nbsp;및&nbsp;저지대&nbsp;침수·화재&nbsp;예측&nbsp;시스템&nbsp;고도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;종로비상벨&nbsp;추가&nbsp;확대<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;교통과&nbsp;안전,&nbsp;생활&nbsp;인프라를&nbsp;AI로&nbsp;새로고침하겠습니다<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;교통신호&nbsp;최적화&nbsp;시스템&nbsp;도입&nbsp;및&nbsp;도로열선&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;생활권별&nbsp;공영주차장&nbsp;개발&nbsp;및&nbsp;스마트&nbsp;공유주차&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;AI기반&nbsp;CCTV&nbsp;통합안전망&nbsp;고도화&nbsp;및&nbsp;종로비상벨&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	곁에 있는 종로, 돌봄·복지·건강 사각지대 제로</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="곁에 있는 종로, 돌봄·복지·건강 사각지대 제로">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;종로&nbsp;복지&nbsp;혁신&nbsp;「사각지대&nbsp;없는&nbsp;돌봄·건강&nbsp;안전망」<br>&nbsp;&nbsp;○&nbsp;70세&nbsp;이상&nbsp;부모&nbsp;동거&nbsp;부양&nbsp;또는&nbsp;3자녀&nbsp;이상&nbsp;다자녀&nbsp;1가구1주택자(9억&nbsp;이하)&nbsp;재산세&nbsp;100%&nbsp;면제<br>&nbsp;&nbsp;○&nbsp;만50세&nbsp;이상&nbsp;여성&nbsp;구청·도서관·공공시설&nbsp;등&nbsp;공공일자리100개&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;이용자&nbsp;중심&nbsp;무장애시설에&nbsp;세제&nbsp;등&nbsp;행정&nbsp;인센티브&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;다문화가정&nbsp;자녀&nbsp;학업·취업&nbsp;진로설계&nbsp;멘토링&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;서울대병원·삼성병원&nbsp;연계&nbsp;고혈압·고혈당·고도비만&nbsp;등&nbsp;맞춤AI&nbsp;헬스케어<br>&nbsp;&nbsp;○&nbsp;이동&nbsp;목욕·놀이터·행동교정·진료&nbsp;등&nbsp;찾아가는&nbsp;반려동물&nbsp;복지&nbsp;지원<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;돌봄·복지·건강의&nbsp;사각지대를&nbsp;없애겠습니다<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;재산세&nbsp;감면&nbsp;조례&nbsp;제·개정&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;공공일자리&nbsp;사업&nbsp;확대&nbsp;및&nbsp;무장애시설&nbsp;인센티브&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;대학병원&nbsp;연계&nbsp;AI&nbsp;헬스케어&nbsp;시스템&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	아이 키우고 싶은 종로, 미래형 맞춤 교육</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="아이 키우고 싶은 종로, 미래형 맞춤 교육">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;저출생&nbsp;대응·교육&nbsp;혁신&nbsp;「종로&nbsp;미래교육&nbsp;플랫폼&nbsp;완성」<br>&nbsp;&nbsp;○&nbsp;아빠&nbsp;육아휴직&nbsp;장려금,&nbsp;이웃&nbsp;공동·긴급&nbsp;아이돌봄&nbsp;네트워크&nbsp;등&nbsp;저출생&nbsp;종합&nbsp;대응&nbsp;패키지&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;종로&nbsp;미래교육&nbsp;플랫폼&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;종로국제서당&nbsp;학업&nbsp;연계&nbsp;프로그램&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울과학고&nbsp;연계&nbsp;과학영재육성&nbsp;프로젝트&nbsp;종로&nbsp;특별선발&nbsp;인원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육경비지원&nbsp;예산&nbsp;임기&nbsp;내&nbsp;20%&nbsp;이상&nbsp;확대<br>&nbsp;<br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;종로,&nbsp;최고의&nbsp;교육환경을&nbsp;만들겠습니다<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;아빠&nbsp;육아휴직&nbsp;장려금&nbsp;지원&nbsp;사업&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;아이돌봄&nbsp;네트워크&nbsp;구축&nbsp;및&nbsp;저출생&nbsp;대응&nbsp;패키지&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;교육경비지원&nbsp;예산&nbsp;확대&nbsp;및&nbsp;조례&nbsp;개정&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

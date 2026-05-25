@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박희정 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	철강산업 재부팅(전기요금 부담완화·수소환원제철 지원도시·그린수소 클러스터)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="철강산업 재부팅(전기요금 부담완화·수소환원제철 지원도시·그린수소 클러스터)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;철강&nbsp;위기&nbsp;대응을&nbsp;‘구호’가&nbsp;아니라&nbsp;국가과제·국비사업으로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;전기요금&nbsp;부담&nbsp;완화로&nbsp;공장&nbsp;가동·협력업체·일자리&nbsp;방어<br>&nbsp;&nbsp;○&nbsp;포항을&nbsp;수소환원제철&nbsp;국가전략&nbsp;거점도시(지원도시)로&nbsp;지정&nbsp;추진<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;‘철강산업&nbsp;전환&nbsp;비상대응&nbsp;TF’&nbsp;설치(30일&nbsp;내)&nbsp;→&nbsp;100일&nbsp;내&nbsp;「철강산업&nbsp;전환&nbsp;종합대책」&nbsp;발표<br>&nbsp;&nbsp;○&nbsp;정부와&nbsp;협의해&nbsp;철강산업&nbsp;전기요금&nbsp;감면·특례&nbsp;적극&nbsp;추진(산업용&nbsp;전력체계&nbsp;개선,&nbsp;전환기&nbsp;한시&nbsp;지원,&nbsp;에너지&nbsp;비용&nbsp;보전&nbsp;방안&nbsp;포함)<br>&nbsp;&nbsp;○&nbsp;‘수소환원제철&nbsp;지원도시’&nbsp;지정을&nbsp;위한&nbsp;국가사업&nbsp;패키지&nbsp;제출<br>&nbsp;&nbsp;&nbsp;&nbsp;-수소환원제철&nbsp;관련&nbsp;국가사업&nbsp;전담팀&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-산단·항만·배후부지&nbsp;연계&nbsp;입지계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-산업부·기재부·환경부&nbsp;상대&nbsp;국비사업&nbsp;패키지&nbsp;요구안&nbsp;제출<br>&nbsp;&nbsp;&nbsp;&nbsp;-경북도와&nbsp;규제특례·특화단지&nbsp;연계&nbsp;방안&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;‘포항형&nbsp;그린수소&nbsp;클러스터’&nbsp;착수(재생에너지&nbsp;연계&nbsp;그린전력&nbsp;계획&nbsp;포함)<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;초(취임~100일):&nbsp;TF&nbsp;출범,&nbsp;전기요금&nbsp;부담완화&nbsp;정부협의&nbsp;착수,&nbsp;종합대책&nbsp;발표<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내(1~4년):&nbsp;지원도시&nbsp;지정&nbsp;추진,&nbsp;국비&nbsp;패키지&nbsp;확보&nbsp;및&nbsp;단계별&nbsp;사업&nbsp;착수<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(산업전환·수소·에너지·R&D)&nbsp;중심&nbsp;+&nbsp;도비·시비&nbsp;매칭<br>&nbsp;&nbsp;○&nbsp;중앙부처&nbsp;공모·특별교부세·기금사업&nbsp;연계,&nbsp;민간투자(기업&nbsp;참여)&nbsp;병행<br>&nbsp;&nbsp;○&nbsp;(전기요금&nbsp;완화·특례&nbsp;관련)&nbsp;정부&nbsp;정책·제도&nbsp;개선&nbsp;협의로&nbsp;재정&nbsp;부담&nbsp;최소화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	시민주도 에너지전환 도시(주민소유·수익공유 RE100, 영농형 태양광·햇빛발전 협동조합)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="시민주도 에너지전환 도시(주민소유·수익공유 RE100, 영농형 태양광·햇빛발전 협동조합)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;에너지전환을&nbsp;‘비용’이&nbsp;아니라&nbsp;시민&nbsp;수익으로&nbsp;연결<br>&nbsp;&nbsp;○&nbsp;주민소유·수익공유&nbsp;RE100&nbsp;모델로&nbsp;산업&nbsp;경쟁력(RE100&nbsp;수요)과&nbsp;상생<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;절대농지&nbsp;보전형&nbsp;영농태양광&nbsp;도입&nbsp;+&nbsp;햇빛발전&nbsp;협동조합&nbsp;설립&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;발전수익&nbsp;주민&nbsp;환원(배당·기금)&nbsp;+&nbsp;지역기업&nbsp;RE100&nbsp;수요&nbsp;연계(장기&nbsp;PPA&nbsp;등)로&nbsp;상생&nbsp;구조&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;에너지전환&nbsp;관련&nbsp;인허가·입지·계통연계를&nbsp;원스톱으로&nbsp;조정하는&nbsp;시정체계&nbsp;구축(전담&nbsp;창구)<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;초(1년):&nbsp;시범지구&nbsp;선정,&nbsp;협동조합&nbsp;설립&nbsp;지원,&nbsp;1차&nbsp;사업&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내(2~4년):&nbsp;모델&nbsp;확산(복수&nbsp;지구),&nbsp;시민&nbsp;수익공유&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(신재생·분산에너지·탄소중립)&nbsp;공모&nbsp;+&nbsp;도비·시비&nbsp;매칭<br>&nbsp;&nbsp;○&nbsp;주민/협동조합&nbsp;참여(민간자본)&nbsp;+&nbsp;발전수익&nbsp;재투자(순환&nbsp;재원)<br>&nbsp;&nbsp;○&nbsp;공공기관·금융기관&nbsp;협력(저리융자/보증)&nbsp;연계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	북극항로 선도도시―국가 북극해운정보센터 유치 + 에너지기술평가원(2차 공공기관) 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="북극항로 선도도시―국가 북극해운정보센터 유치 + 에너지기술평가원(2차 공공기관) 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;포항을&nbsp;‘국가&nbsp;전략의&nbsp;한복판’으로:&nbsp;해양·물류·데이터&nbsp;기반의&nbsp;청년&nbsp;전문일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;1년&nbsp;내&nbsp;‘가시적&nbsp;성과’로&nbsp;북극해운정보센터·공공기관&nbsp;유치&nbsp;추진<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;해수부&nbsp;소관&nbsp;국가&nbsp;북극해운정보센터&nbsp;유치(해운·물류·기후·빙해·안보&nbsp;정보&nbsp;집적,&nbsp;연구·국제협력&nbsp;거점)<br>&nbsp;&nbsp;○&nbsp;에너지기술평가원(2차&nbsp;공공기관)&nbsp;유치&nbsp;추진(에너지전환·산업전환과&nbsp;연계)<br>&nbsp;&nbsp;○&nbsp;POSTECH·한동대&nbsp;등&nbsp;지역대학과&nbsp;연계한&nbsp;연구·인력양성·기업지원&nbsp;체계&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;초(1년):&nbsp;유치&nbsp;로드맵·부지/시설&nbsp;계획&nbsp;확정,&nbsp;중앙부처&nbsp;협의&nbsp;및&nbsp;공모&nbsp;대응(핵심&nbsp;성과&nbsp;목표)<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내(2~4년):&nbsp;센터/기관&nbsp;단계별&nbsp;구축·정착,&nbsp;연관기업·연구과제&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;(북극해운정보센터)&nbsp;총사업비·국비&nbsp;중심&nbsp;구조로&nbsp;국가사업화&nbsp;추진(국비·도비·시비&nbsp;매칭)<br>&nbsp;&nbsp;○&nbsp;(공공기관&nbsp;유치)&nbsp;이전·정착&nbsp;지원은&nbsp;시비/도비&nbsp;+&nbsp;국비&nbsp;지원사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;민간협력(산학연·기업)&nbsp;통한&nbsp;운영·연구비&nbsp;확대</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	원도심 재부팅(시장 집무실·개발전담조직·포항도시공사·천원주택 200호·철길숲 확장)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="원도심 재부팅(시장 집무실·개발전담조직·포항도시공사·천원주택 200호·철길숲 확장)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;원도심을&nbsp;“계획”이&nbsp;아니라&nbsp;시장과&nbsp;조직이&nbsp;직접&nbsp;들어가&nbsp;되살리는&nbsp;시정&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;주거회복(천원주택)+상권활성(1층&nbsp;상가·커뮤니티)화로&nbsp;사람이&nbsp;돌아오는&nbsp;포항<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;죽도시장&nbsp;인근&nbsp;원도심에&nbsp;시장&nbsp;집무실&nbsp;설치,&nbsp;오거리·육거리&nbsp;유휴건물에&nbsp;원도심&nbsp;개발&nbsp;전담조직&nbsp;상시&nbsp;근무<br>&nbsp;&nbsp;&nbsp;&nbsp;-시장&nbsp;주&nbsp;2~3일&nbsp;원도심&nbsp;근무,&nbsp;‘현장결재&nbsp;데이’&nbsp;정례화<br>&nbsp;&nbsp;&nbsp;&nbsp;-1년차:&nbsp;위치&nbsp;확정·리모델링&nbsp;후&nbsp;인허가&nbsp;패스트트랙&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;도시재생·공공주택·부지개발·주차·상가활성화&nbsp;집행기관&nbsp;포항도시공사&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-1년차:&nbsp;설립타당성·조례·조직설계&nbsp;완료,&nbsp;리모델링&nbsp;1~2동&nbsp;시범&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;천원주택&nbsp;연&nbsp;100호&nbsp;→&nbsp;2027년부터&nbsp;연&nbsp;200호&nbsp;확대,&nbsp;‘주거+상권&nbsp;패키지’&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;철길숲&nbsp;성공모델을&nbsp;원도심&nbsp;골목·학교·시장으로&nbsp;확장(그늘막·쿨링포그·쉼터,&nbsp;보도정비&nbsp;등)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;초(1년):&nbsp;집무실·전담조직&nbsp;가동,&nbsp;도시공사&nbsp;설립절차&nbsp;착수,&nbsp;천원주택&nbsp;확대&nbsp;준비·시범사업<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내(2~4년):&nbsp;도시공사&nbsp;본격&nbsp;집행,&nbsp;천원주택&nbsp;200호/년&nbsp;체계&nbsp;정착,&nbsp;생활숲&nbsp;확장&nbsp;단계별&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;도시공사(공기업)&nbsp;사업수익&nbsp;+&nbsp;시비·도비&nbsp;+&nbsp;국비(도시재생/주거/생활SOC)&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;민간참여(리노베이션·상가활성화)&nbsp;병행,&nbsp;국비&nbsp;공모사업&nbsp;적극&nbsp;대응</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	광역교통·생활체감 재부팅(대경선 포항 도심연결+청소년 무상교통+“동네 30분 해결”)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="광역교통·생활체감 재부팅(대경선 포항 도심연결+청소년 무상교통+“동네 30분 해결”)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;포항&nbsp;도심&nbsp;접근성을&nbsp;높여&nbsp;통근·통학·상권을&nbsp;살리고&nbsp;인구&nbsp;유출을&nbsp;막는&nbsp;교통체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;1년&nbsp;내&nbsp;시민이&nbsp;체감할&nbsp;청소년&nbsp;무상교통·민원처리&nbsp;속도&nbsp;혁신&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대경선&nbsp;광역전철을&nbsp;포항까지&nbsp;연결하는&nbsp;국가과제&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-제5차&nbsp;국가철도망&nbsp;구축계획&nbsp;반영&nbsp;목표로&nbsp;사전기획·타당성&nbsp;패키지&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-포항역&nbsp;진입,&nbsp;효자역·괴동역(괴동선)&nbsp;기능&nbsp;복원&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;청소년&nbsp;무상교통&nbsp;단계적&nbsp;도입(교통비&nbsp;부담&nbsp;완화,&nbsp;통학·교육&nbsp;기회&nbsp;보장)<br>&nbsp;&nbsp;○&nbsp;생활불편&nbsp;민원&nbsp;“동네&nbsp;30분&nbsp;해결”&nbsp;+&nbsp;민원별&nbsp;처리기한&nbsp;제도화(책임행정)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;초(1년):&nbsp;대경선&nbsp;반영을&nbsp;위한&nbsp;사전기획·협의체&nbsp;가동,&nbsp;청소년&nbsp;무상교통&nbsp;설계·시범,&nbsp;민원처리기한&nbsp;제도&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내(2~4년):&nbsp;광역전철&nbsp;연계사업&nbsp;단계&nbsp;추진,&nbsp;무상교통&nbsp;확대,&nbsp;생활행정&nbsp;시스템&nbsp;정착<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;(대경선)&nbsp;국비&nbsp;중심&nbsp;철도망&nbsp;구축사업&nbsp;+&nbsp;지자체&nbsp;분담(기재부·국토부&nbsp;협의)<br>&nbsp;&nbsp;○&nbsp;(무상교통)&nbsp;시비·도비&nbsp;매칭&nbsp;+&nbsp;교통운영&nbsp;효율화로&nbsp;재정&nbsp;부담&nbsp;완화<br>&nbsp;&nbsp;○&nbsp;(생활행정)&nbsp;제도&nbsp;개선&nbsp;중심(추가&nbsp;예산&nbsp;최소)&nbsp;+&nbsp;디지털/업무혁신&nbsp;예산&nbsp;활용</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

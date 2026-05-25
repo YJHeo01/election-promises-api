@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;신원주 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	38국도 상습 정체 해소 및 우회 도로망 확충</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="38국도 상습 정체 해소 및 우회 도로망 확충">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목표&nbsp;:&nbsp;스타필드&nbsp;안성&nbsp;및&nbsp;주거&nbsp;밀집지&nbsp;병목&nbsp;형상을&nbsp;해결하여&nbsp;교통&nbsp;복지실현&nbsp;및&nbsp;물류&nbsp;흐름&nbsp;개선<br><br>○&nbsp;이행방법&nbsp;:&nbsp;노선&nbsp;검토&nbsp;및&nbsp;타당성&nbsp;조사&nbsp;→&nbsp;광역교통개선대책&nbsp;반영&nbsp;협의&nbsp;→&nbsp;실시설계&nbsp;→&nbsp;보상&nbsp;및&nbsp;착공&nbsp;→&nbsp;준공<br><br>○&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;하반기&nbsp;설계착수&nbsp;~&nbsp;2030년&nbsp;준공&nbsp;목표<br><br>○&nbsp;재원조달방안&nbsp;:&nbsp;총&nbsp;약&nbsp;800억&nbsp;원(국·도비&nbsp;70%&nbsp;+&nbsp;시비&nbsp;30%&nbsp;/&nbsp;광역교통개선대책&nbsp;분담금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	공도24시공공 소아응급센터 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="공도24시공공 소아응급센터 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목표&nbsp;:&nbsp;야간&nbsp;휴일&nbsp;소아&nbsp;진료&nbsp;공백을&nbsp;완전히&nbsp;해소하고&nbsp;맞춤형&nbsp;공공&nbsp;의료&nbsp;인프라&nbsp;구축<br><br>○&nbsp;이행방법&nbsp;:&nbsp;부지&nbsp;및&nbsp;기본계획&nbsp;수립&nbsp;→&nbsp;경기도&nbsp;안성시&nbsp;협약&nbsp;체결&nbsp;→&nbsp;설계&nbsp;및&nbsp;착공&nbsp;→&nbsp;의료인력&nbsp;확보&nbsp;→&nbsp;개원<br><br>○&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;부지&nbsp;확정&nbsp;~&nbsp;2028년&nbsp;개원&nbsp;목표<br><br>○&nbsp;재원조달방안&nbsp;:&nbsp;총&nbsp;약&nbsp;200억&nbsp;원(경기도&nbsp;보건의료&nbsp;예산&nbsp;+&nbsp;지방소멸대응기금&nbsp;광역분)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	고삼호수 수변복합 관광 랜드마크 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="고삼호수 수변복합 관광 랜드마크 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목표&nbsp;:&nbsp;제2경인고속도로&nbsp;개통에&nbsp;따른&nbsp;접근성&nbsp;향상을&nbsp;기회로&nbsp;삼아&nbsp;수도권남부&nbsp;최대의&nbsp;수변&nbsp;관광지&nbsp;구축<br><br>○&nbsp;이행방법&nbsp;:&nbsp;관광지&nbsp;지정&nbsp;신청&nbsp;→&nbsp;환경영향평가&nbsp;협의&nbsp;→&nbsp;공모사업&nbsp;선정&nbsp;및&nbsp;예산&nbsp;확보&nbsp;→&nbsp;시설&nbsp;공사&nbsp;→&nbsp;준공<br><br>○&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;하반기&nbsp;착공&nbsp;~&nbsp;2028년&nbsp;준공(고속도로&nbsp;개통&nbsp;시점&nbsp;연계)<br><br>○&nbsp;재원조달방안&nbsp;:&nbsp;총&nbsp;약&nbsp;150억원&nbsp;(문체부&nbsp;관광자원개발&nbsp;공모&nbsp;+&nbsp;환경부&nbsp;수변구역&nbsp;지원금)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	추가 조성 반도체 배후 소부장 특화단지</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="추가 조성 반도체 배후 소부장 특화단지">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목표&nbsp;:&nbsp;삼성전자&nbsp;평택캠퍼스&nbsp;배후&nbsp;수요를&nbsp;흡수하여&nbsp;첨단&nbsp;산업&nbsp;생태계&nbsp;조성&nbsp;및&nbsp;양질의&nbsp;일자리&nbsp;창출<br><br>○&nbsp;이행방법&nbsp;:&nbsp;산업단지&nbsp;계획&nbsp;수립&nbsp;→&nbsp;경기도&nbsp;산단&nbsp;승인&nbsp;→&nbsp;토지&nbsp;보상&nbsp;협의&nbsp;→&nbsp;단지&nbsp;조성&nbsp;및&nbsp;기업&nbsp;유치&nbsp;→&nbsp;완공<br><br>○&nbsp;이행기간&nbsp;:&nbsp;2027년&nbsp;산단&nbsp;승인&nbsp;~&nbsp;2032년&nbsp;완공&nbsp;목표<br><br>○&nbsp;재원조달방안&nbsp;:&nbsp;총&nbsp;약&nbsp;2000억원(민관합동개발&nbsp;SPC방식&nbsp;활용,&nbsp;시비&nbsp;투입최소화)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	전국대회 규모 파크골프장 36홀 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="전국대회 규모 파크골프장 36홀 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목표&nbsp;:&nbsp;동부권&nbsp;어르신&nbsp;및&nbsp;시민의&nbsp;건강&nbsp;증진&nbsp;:&nbsp;노인&nbsp;인구&nbsp;비율일&nbsp;높은&nbsp;동부권에&nbsp;맞춤형&nbsp;생활&nbsp;체육&nbsp;인프라&nbsp;제공<br><br>○&nbsp;이행방법&nbsp;:&nbsp;준비단계&nbsp;→&nbsp;재원확보&nbsp;→&nbsp;행정절차&nbsp;→&nbsp;착공&nbsp;및&nbsp;준공<br><br>○&nbsp;이행기간&nbsp;:&nbsp;약2년6개월&nbsp;(2026년&nbsp;하반기&nbsp;~&nbsp;2028년&nbsp;상반기&nbsp;개방&nbsp;목표)<br><br>○&nbsp;재원조달방안&nbsp;:&nbsp;약&nbsp;25억원~35억원(부지&nbsp;매입비&nbsp;제외시)&nbsp;<br>도비(30~50%),&nbsp;‘경기도&nbsp;체육진흥시설&nbsp;지원&nbsp;사업’&nbsp;공모를&nbsp;통해&nbsp;확보.&nbsp;시비(50~70%),&nbsp;안성시&nbsp;균형발전&nbsp;특별회계&nbsp;및&nbsp;일반회계&nbsp;편성</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

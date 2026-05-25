@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김형찬 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	도시철도 하단~녹산선 책임완공</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="도시철도 하단~녹산선 책임완공">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표<br>명지국제신도시&nbsp;및&nbsp;녹산국가산업단지를&nbsp;연결하는&nbsp;핵심&nbsp;철도망&nbsp;조기&nbsp;구축&nbsp;<br>명지구간&nbsp;지하화&nbsp;추진을&nbsp;통한&nbsp;도시&nbsp;단절&nbsp;방지&nbsp;및&nbsp;정주&nbsp;여건&nbsp;극대화&nbsp;<br>서부산권&nbsp;만성&nbsp;교통&nbsp;정체&nbsp;해소&nbsp;및&nbsp;산단&nbsp;근로자&nbsp;출퇴근&nbsp;편의&nbsp;제공<br><br>2.&nbsp;이행방법&nbsp;<br>국토교통부&nbsp;기본계획&nbsp;승인에&nbsp;따른&nbsp;총사업비&nbsp;1조4845억원&nbsp;확보&nbsp;및&nbsp;조기&nbsp;집행&nbsp;<br>설계&nbsp;및&nbsp;시공&nbsp;발주&nbsp;시&nbsp;'패스트트랙'&nbsp;행정&nbsp;도입으로&nbsp;공기&nbsp;단축&nbsp;<br>강서구&nbsp;자체&nbsp;'도시철도&nbsp;지하화&nbsp;방안&nbsp;연구용역'&nbsp;결과를&nbsp;바탕으로&nbsp;부산시&nbsp;및&nbsp;중앙정부&nbsp;협의&nbsp;관철<br><br>3.&nbsp;이행기간<br>&nbsp;2028년:&nbsp;상반기&nbsp;착공&nbsp;및&nbsp;주요&nbsp;공구별&nbsp;공사&nbsp;본격화&nbsp;<br>2031년:&nbsp;시운전&nbsp;및&nbsp;개통&nbsp;추진<br><br>4.&nbsp;재원조달방안&nbsp;<br>확정된&nbsp;총사업비&nbsp;1조4845억&nbsp;원에&nbsp;대해&nbsp;국비&nbsp;60%,&nbsp;시비&nbsp;40%&nbsp;비율로&nbsp;매칭&nbsp;<br>증액된&nbsp;사업비에&nbsp;대한&nbsp;연도별&nbsp;국비&nbsp;확보&nbsp;전략&nbsp;수립</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	화전동~국제신도시 연결교량 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="화전동~국제신도시 연결교량 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표&nbsp;<br>화전일반산업단지와&nbsp;명지국제신도시&nbsp;간의&nbsp;물리적&nbsp;단절&nbsp;해소&nbsp;및&nbsp;직주근접성&nbsp;강화&nbsp;<br>산단&nbsp;근로자의&nbsp;이동&nbsp;동선&nbsp;최적화를&nbsp;통한&nbsp;사회적&nbsp;비용&nbsp;절감&nbsp;<br>지역&nbsp;내&nbsp;생활권&nbsp;통합&nbsp;및&nbsp;상권&nbsp;활성화&nbsp;유도&nbsp;<br>르노삼성대로&nbsp;및&nbsp;낙동남로&nbsp;만성&nbsp;정체&nbsp;경감<br><br>2.&nbsp;이행방법&nbsp;<br>부산진해경제자유구역청과&nbsp;협력하여&nbsp;경제자유구역&nbsp;기반시설&nbsp;확충&nbsp;사업으로&nbsp;추진&nbsp;<br>보행로와&nbsp;자전거&nbsp;도로를&nbsp;포함한&nbsp;주민&nbsp;친화적&nbsp;랜드마크&nbsp;교량&nbsp;설계&nbsp;<br>환경영향평가&nbsp;및&nbsp;소음&nbsp;저감&nbsp;대책(저소음&nbsp;포장&nbsp;등)&nbsp;선제적&nbsp;수립&nbsp;<br>B/C&nbsp;지수&nbsp;확보&nbsp;기반의&nbsp;중앙투자심사&nbsp;적기&nbsp;통과&nbsp;추진<br><br>3.&nbsp;이행기간&nbsp;<br>취임&nbsp;직후:&nbsp;타당성&nbsp;조사&nbsp;임기&nbsp;내&nbsp;&nbsp;설계&nbsp;및&nbsp;착공<br><br>4.&nbsp;재원조달방안&nbsp;<br>지방비(시비·구비)&nbsp;및&nbsp;경제자유구역청&nbsp;국비&nbsp;지원&nbsp;예산&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	가락대로~EDC~공항로 연결도로 책임완공</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="가락대로~EDC~공항로 연결도로 책임완공">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표&nbsp;<br>가락대로,&nbsp;에코델타시티(EDC),&nbsp;공항로를&nbsp;잇는&nbsp;광역&nbsp;간선도로망&nbsp;완성&nbsp;<br>에코델타시티&nbsp;입주민의&nbsp;광역&nbsp;접근성&nbsp;향상&nbsp;및&nbsp;물류&nbsp;수송&nbsp;효율화&nbsp;<br>가락IC&nbsp;무료화와&nbsp;연계한&nbsp;서부산권&nbsp;사통팔달&nbsp;교통망&nbsp;구축<br><br>2.&nbsp;이행방법&nbsp;<br>총연장&nbsp;3.72km&nbsp;왕복&nbsp;4차로&nbsp;도로&nbsp;건설&nbsp;사업의&nbsp;조속한&nbsp;추진&nbsp;<br>EDC~공항로&nbsp;및&nbsp;가락대로~EDC)&nbsp;구간별&nbsp;맞춤형&nbsp;이행&nbsp;전략&nbsp;수립&nbsp;<br>한국수자원공사와의&nbsp;광역교통개선대책&nbsp;재원&nbsp;분담&nbsp;협의&nbsp;마무리&nbsp;<br>상습&nbsp;정체&nbsp;구역&nbsp;해소를&nbsp;위한&nbsp;지능형&nbsp;교통체계(ITS)&nbsp;병행&nbsp;도입<br><br>3.&nbsp;이행기간&nbsp;<br>임기내&nbsp;타당성&nbsp;조사,&nbsp;설계&nbsp;및&nbsp;착공<br><br>4.&nbsp;재원조달방안&nbsp;<br>총사업비에&nbsp;대해&nbsp;국비&nbsp;지원(혼잡도로&nbsp;지정&nbsp;등)&nbsp;및&nbsp;시비&nbsp;매칭&nbsp;<br>수자원공사&nbsp;등&nbsp;사업&nbsp;시행자&nbsp;분담금&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	도시철도 강서선 트램 책임완공</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="도시철도 강서선 트램 책임완공">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표&nbsp;<br>대저역~EDC~명지오션시티를&nbsp;연결하는&nbsp;친환경&nbsp;저탄소&nbsp;교통수단&nbsp;도입&nbsp;<br>15분&nbsp;도시&nbsp;부산의&nbsp;핵심&nbsp;대중교통&nbsp;거점&nbsp;및&nbsp;부울경&nbsp;1시간&nbsp;생활권&nbsp;형성&nbsp;<br>5개&nbsp;철도&nbsp;노선&nbsp;환승&nbsp;체계&nbsp;구축을&nbsp;통한&nbsp;교통&nbsp;편의성&nbsp;혁명<br><br>2.&nbsp;이행방법&nbsp;<br>예비타당성조사&nbsp;조기통과&nbsp;등을&nbsp;통하여&nbsp;사업기간&nbsp;1~2년&nbsp;단축&nbsp;추진&nbsp;<br>에코델타시티&nbsp;구간&nbsp;내&nbsp;트램&nbsp;전용&nbsp;궤도&nbsp;및&nbsp;스마트&nbsp;정거장&nbsp;우선&nbsp;시공&nbsp;협의&nbsp;<br>최고&nbsp;속도&nbsp;시속&nbsp;60km,&nbsp;25개&nbsp;정거장&nbsp;규모의&nbsp;노면전차&nbsp;기본계획&nbsp;확정&nbsp;<br>통합&nbsp;모빌리티&nbsp;앱(마을버스·공공자전거&nbsp;연계)&nbsp;플랫폼&nbsp;구축과&nbsp;동시&nbsp;추진<br><br>3.&nbsp;이행기간&nbsp;<br>임기내&nbsp;설계&nbsp;&nbsp;및&nbsp;공사&nbsp;착공(목표&nbsp;시기&nbsp;앞당기기&nbsp;추진)<br><br>4.&nbsp;재원조달방안&nbsp;<br>국비&nbsp;,&nbsp;시비&nbsp;,&nbsp;분담금으로&nbsp;구성함&nbsp;<br>수자원공사&nbsp;에코델타시티&nbsp;광역교통개선대책&nbsp;분담금&nbsp;확정액&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	해양수산부 본청 및 유관기관, 기업 유치 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="해양수산부 본청 및 유관기관, 기업 유치 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표&nbsp;<br>해양수산부&nbsp;본청&nbsp;및&nbsp;산하&nbsp;유관기관의&nbsp;강서구&nbsp;내&nbsp;이전&nbsp;목표.&nbsp;<br>이전&nbsp;기관&nbsp;상주&nbsp;인력&nbsp;3,300명&nbsp;이상&nbsp;및&nbsp;연간&nbsp;예산&nbsp;1조&nbsp;원&nbsp;이상의&nbsp;지역&nbsp;유입을&nbsp;통한&nbsp;경제&nbsp;활성화&nbsp;<br>해양수도특별법에&nbsp;따른&nbsp;'해양특화지구'&nbsp;지정을&nbsp;통해&nbsp;이전&nbsp;직원&nbsp;4,000세대의&nbsp;정착&nbsp;안정화&nbsp;및&nbsp;직주근접&nbsp;실현&nbsp;<br>기회발전특구&nbsp;인센티브를&nbsp;활용한&nbsp;글로벌&nbsp;해양&nbsp;기업&nbsp;유치&nbsp;및&nbsp;1만&nbsp;명&nbsp;이상의&nbsp;양질의&nbsp;일자리&nbsp;창출<br><br>2.&nbsp;이행방법&nbsp;<br>해양수도특별법과&nbsp;기회발전특구&nbsp;제도를&nbsp;결합한&nbsp;'Two-Track&nbsp;유치&nbsp;전략'을&nbsp;통해&nbsp;실행력을&nbsp;담보함&nbsp;<br><br>&nbsp;·&nbsp;에코델타시티&nbsp;내&nbsp;미분양&nbsp;및&nbsp;시유지&nbsp;91만&nbsp;평&nbsp;중&nbsp;해양수산부&nbsp;신청사&nbsp;및&nbsp;유관기관&nbsp;통합&nbsp;사옥&nbsp;부지를&nbsp;최우선으로&nbsp;확정하고,&nbsp;해양수도특별법&nbsp;제8조에&nbsp;근거하여&nbsp;국공유지&nbsp;무상&nbsp;임대&nbsp;및&nbsp;영구&nbsp;시설물&nbsp;축조&nbsp;지원&nbsp;추진.&nbsp;<br><br>&nbsp;·&nbsp;해양수산부&nbsp;장관이&nbsp;지정하는&nbsp;'해양특화지구'를&nbsp;설정하여,&nbsp;이주&nbsp;직원을&nbsp;위한&nbsp;민영주택&nbsp;특별공급,&nbsp;이사비용&nbsp;및&nbsp;주택자금융자&nbsp;지원&nbsp;등&nbsp;세종시&nbsp;이상의&nbsp;파격적&nbsp;정착&nbsp;패키지&nbsp;제공&nbsp;<br><br>&nbsp;·&nbsp;부산시,&nbsp;강서구,&nbsp;지역&nbsp;국회의원이&nbsp;참여하는&nbsp;'해수부&nbsp;이전&nbsp;지원&nbsp;전담&nbsp;TF'를&nbsp;상설화하여,&nbsp;중앙&nbsp;정부의&nbsp;2차&nbsp;공공기관&nbsp;이전&nbsp;계획&nbsp;수립&nbsp;시&nbsp;강서구&nbsp;입지를&nbsp;최우선으로&nbsp;반영하도록&nbsp;행정력을&nbsp;집중.<br><br>3.&nbsp;이행기간<br>행정&nbsp;절차의&nbsp;신속한&nbsp;진행과&nbsp;건축&nbsp;기간을&nbsp;고려하여&nbsp;임기&nbsp;내&nbsp;가시적&nbsp;성과를&nbsp;도출하고&nbsp;완공을&nbsp;목표로&nbsp;함&nbsp;<br>해양수산부&nbsp;부산&nbsp;이전&nbsp;계획&nbsp;내&nbsp;강서구&nbsp;에코델타시티&nbsp;입지&nbsp;최종&nbsp;확정&nbsp;및&nbsp;해양특화지구&nbsp;지정&nbsp;신청&nbsp;<br>해양수산부&nbsp;신청사&nbsp;및&nbsp;유관기관&nbsp;통합&nbsp;사옥&nbsp;설계&nbsp;착수&nbsp;및&nbsp;부지&nbsp;조성&nbsp;공사&nbsp;본격화.이전&nbsp;직원&nbsp;대상&nbsp;주택&nbsp;특별공급&nbsp;실시&nbsp;및&nbsp;기회발전특구&nbsp;내&nbsp;글로벌&nbsp;기업&nbsp;1차&nbsp;입주&nbsp;개시&nbsp;<br>해양수산부&nbsp;본청&nbsp;및&nbsp;핵심&nbsp;유관기관&nbsp;입주&nbsp;완료&nbsp;및&nbsp;글로벌&nbsp;해양&nbsp;클러스터&nbsp;선포&nbsp;<br>:&nbsp;사업별로&nbsp;취임&nbsp;즉시&nbsp;추진&nbsp;또는&nbsp;중&nbsp;장기&nbsp;추진<br><br>4.&nbsp;재원조달방안<br>국가&nbsp;예산,&nbsp;특구&nbsp;지원금,&nbsp;그리고&nbsp;민간&nbsp;자본을&nbsp;효율적으로&nbsp;연계하여&nbsp;사업비를&nbsp;조달함&nbsp;<br>국비&nbsp;및&nbsp;예비비&nbsp;활용,&nbsp;특구&nbsp;인센티브&nbsp;예산,사업&nbsp;시행자&nbsp;분담&nbsp;및&nbsp;민간&nbsp;자본&nbsp;투자</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

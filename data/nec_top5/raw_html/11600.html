@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김광만 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	의료·보건 분야 (의료복지)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="의료·보건 분야 (의료복지)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;"30분&nbsp;내&nbsp;골든타임&nbsp;사수,&nbsp;환자와&nbsp;의료진&nbsp;중심의&nbsp;혁신"<br>&nbsp;&nbsp;○&nbsp;골든타임&nbsp;생명안전망&nbsp;구축:&nbsp;닥터헬기를&nbsp;추가&nbsp;확보하여&nbsp;동부권,&nbsp;무안권,&nbsp;서해북부권까지&nbsp;30분&nbsp;내&nbsp;이송&nbsp;체계&nbsp;정립.&nbsp;지방정부·소방청·거점병원&nbsp;간&nbsp;협력기구&nbsp;신설&nbsp;및&nbsp;119&nbsp;차량&nbsp;증차.<br>&nbsp;&nbsp;○&nbsp;도서·지방&nbsp;의료&nbsp;서비스&nbsp;확대:&nbsp;대형&nbsp;병원선박들을&nbsp;확보하여&nbsp;의료&nbsp;소외지역인&nbsp;섬·도서&nbsp;지방까지&nbsp;촘촘히&nbsp;관리.<br>&nbsp;&nbsp;○&nbsp;환자·간호사&nbsp;중심&nbsp;병원&nbsp;신축:&nbsp;대형병원을&nbsp;신축하고&nbsp;인근에&nbsp;'회복병원타운'을&nbsp;&nbsp;마련하되,&nbsp;특히&nbsp;간호사&nbsp;동선&nbsp;중심으로&nbsp;설계하여&nbsp;환자의&nbsp;편익과&nbsp;의료&nbsp;효율성을&nbsp;극대화.<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;3개월&nbsp;이내&nbsp;설계&nbsp;및&nbsp;쌍방향&nbsp;소통을&nbsp;통한&nbsp;공론화&nbsp;과정을&nbsp;걸쳐&nbsp;확정시킨&nbsp;후&nbsp;추진&nbsp;<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;1.&nbsp;이후&nbsp;단계별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비와&nbsp;지방비&nbsp;매칭&nbsp;사업&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	경제·유통·교통 및 주거·지방 정주 환경 개선 분야</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="경제·유통·교통 및 주거·지방 정주 환경 개선 분야">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;▷&nbsp;경제·유통·교통&nbsp;분야<br>○&nbsp;"전남&nbsp;생산-광주&nbsp;소비·유통의&nbsp;상생&nbsp;생태계&nbsp;조성"<br>○&nbsp;재래시장&nbsp;현대화:&nbsp;인구&nbsp;이동으로&nbsp;상권이&nbsp;변해버린&nbsp;재래시장(남광주시장&nbsp;어판장,&nbsp;농수산물시장&nbsp;등)을&nbsp;원형&nbsp;돔형&nbsp;구조로&nbsp;초현대화하고&nbsp;대형&nbsp;주차장을&nbsp;필수&nbsp;확보.<br>○&nbsp;대형&nbsp;유통&nbsp;경쟁력&nbsp;확보:&nbsp;광주에&nbsp;전남&nbsp;22개&nbsp;시·군에서&nbsp;생산한&nbsp;상품으로만&nbsp;채워진&nbsp;'스토리&nbsp;생활&nbsp;백화점'을&nbsp;건립.&nbsp;대형&nbsp;유통&nbsp;대기업과&nbsp;당당히&nbsp;경쟁하는&nbsp;'백화점&nbsp;사장&nbsp;같은&nbsp;시장'이&nbsp;되어&nbsp;지역&nbsp;부를&nbsp;사수.<br>○&nbsp;택시&nbsp;운송업&nbsp;공영화:&nbsp;택시를&nbsp;공영화하여&nbsp;시민의&nbsp;안전한&nbsp;교통권과&nbsp;편익을&nbsp;보장하고&nbsp;운송&nbsp;종사자의&nbsp;안정적&nbsp;삶을&nbsp;지원<br>&nbsp;<br>▷&nbsp;주거·지방&nbsp;정주&nbsp;환경&nbsp;개선&nbsp;분야<br>○&nbsp;시·군&nbsp;면&nbsp;단위를&nbsp;중심으로&nbsp;의료&nbsp;및&nbsp;교육&nbsp;시설을&nbsp;최우선으로&nbsp;확충하여,&nbsp;농어촌&nbsp;지역&nbsp;주민들이&nbsp;가장&nbsp;먼저&nbsp;1차적인&nbsp;복지&nbsp;혜택을&nbsp;누릴&nbsp;수&nbsp;있도록&nbsp;주거&nbsp;환경을&nbsp;전면&nbsp;개선.<br><br>□&nbsp;이행방법<br>○&nbsp;3개월&nbsp;이내&nbsp;설계,&nbsp;쌍방향&nbsp;소통을&nbsp;통한&nbsp;공론화&nbsp;과정을&nbsp;걸쳐&nbsp;확정시킨&nbsp;후&nbsp;추진.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;1.&nbsp;이후&nbsp;단계별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비와&nbsp;지방비&nbsp;매칭&nbsp;사업&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	문화·관광 분야</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="문화·관광 분야">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;"불&nbsp;꺼진&nbsp;광주를&nbsp;글로벌&nbsp;명품&nbsp;관광&nbsp;도시로"<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;거점&nbsp;유치&nbsp;및&nbsp;역사&nbsp;연계:&nbsp;세계적인&nbsp;테마파크&nbsp;디즈니랜드&nbsp;유치&nbsp;및&nbsp;5·18&nbsp;민주거리&nbsp;조성.<br>&nbsp;&nbsp;○&nbsp;도심&nbsp;수변&nbsp;환경&nbsp;개발:&nbsp;특정&nbsp;지역을&nbsp;매입하여&nbsp;경양방죽을&nbsp;복원·건설하고,&nbsp;사계절&nbsp;내내&nbsp;광주천변&nbsp;좌우에&nbsp;관광시설과&nbsp;야경&nbsp;시장을&nbsp;운영·개발.<br>&nbsp;&nbsp;○&nbsp;해양&nbsp;휴양지&nbsp;규제&nbsp;완화:&nbsp;바다와&nbsp;인접한&nbsp;전남&nbsp;휴양지에&nbsp;'스토리가&nbsp;있는&nbsp;관광지'&nbsp;테마로&nbsp;인허가&nbsp;규제를&nbsp;과감히&nbsp;풀어&nbsp;해외&nbsp;관광객&nbsp;유치.<br>&nbsp;&nbsp;○&nbsp;신뢰받는&nbsp;관광&nbsp;상품화:&nbsp;먹거리로&nbsp;인한&nbsp;부정적&nbsp;이미지를&nbsp;쇄신하기&nbsp;위해&nbsp;관광지&nbsp;음식값을&nbsp;철저히&nbsp;관리하여&nbsp;하나의&nbsp;우수한&nbsp;'상품'으로&nbsp;정립.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전남광주통합특별시의&nbsp;도시건설&nbsp;재생작업은&nbsp;각각의&nbsp;전문가&nbsp;집단의&nbsp;의견을&nbsp;취임&nbsp;3개월&nbsp;내에&nbsp;도면으로&nbsp;만들고,&nbsp;시도민과의&nbsp;쌍방향&nbsp;소통&nbsp;결과를&nbsp;입법으로&nbsp;보장한&nbsp;다음&nbsp;1차.2차.&nbsp;3차&nbsp;계획으로&nbsp;도시를&nbsp;완성시킬것으로&nbsp;1년6개월&nbsp;안에&nbsp;가시적&nbsp;성과를&nbsp;나타낼&nbsp;계획입니다&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;1.&nbsp;이후&nbsp;단계별&nbsp;추진<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비와&nbsp;지방비&nbsp;매칭&nbsp;사업&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	과학·식품·물류 및 농·어·축산 및 미래 농어촌 재건 분야 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="과학·식품·물류 및 농·어·축산 및 미래 농어촌 재건 분야 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;▷&nbsp;과학·식품·물류&nbsp;분야<br>○&nbsp;"통합시&nbsp;보증,&nbsp;국가&nbsp;인증을&nbsp;통한&nbsp;고부가가치&nbsp;수출"<br>○&nbsp;식품·실험&nbsp;연구원&nbsp;확보:&nbsp;식품연구원을&nbsp;확보하고&nbsp;실험연구원을&nbsp;설치하여&nbsp;농어촌&nbsp;생산&nbsp;제품의&nbsp;기술력과&nbsp;안전성을&nbsp;확보.<br>○&nbsp;무안공항&nbsp;활성화&nbsp;및&nbsp;상상&nbsp;이상의&nbsp;소득&nbsp;보장:&nbsp;통합특별시가&nbsp;품질을&nbsp;보증하고&nbsp;국가가&nbsp;인증한&nbsp;농수산&nbsp;제품을&nbsp;무안공항에서&nbsp;화물수송기를&nbsp;통해&nbsp;매일&nbsp;해외로&nbsp;수출하는&nbsp;물류&nbsp;체계&nbsp;구축&nbsp;<br>&nbsp;&nbsp;▷&nbsp;농·어·축산&nbsp;및&nbsp;미래&nbsp;농어촌&nbsp;재건&nbsp;분야&nbsp;<br>○&nbsp;"SPC(특수목적법인)&nbsp;도입과&nbsp;청년&nbsp;유입을&nbsp;통한&nbsp;농어촌&nbsp;공동체&nbsp;회복"<br>○&nbsp;농업&nbsp;(규모의&nbsp;경제):&nbsp;스마트팜&nbsp;등&nbsp;공동체&nbsp;공동&nbsp;운영을&nbsp;통해&nbsp;'규모의&nbsp;경제'를&nbsp;활성화하고,&nbsp;여기서&nbsp;발생한&nbsp;이익을&nbsp;다시&nbsp;시·군&nbsp;공동체에&nbsp;전액&nbsp;재투자.<br>○&nbsp;어업·해양&nbsp;미래산업:&nbsp;해양&nbsp;가두리,&nbsp;해태(김),&nbsp;전복,&nbsp;조개류&nbsp;등&nbsp;수산물&nbsp;가공을&nbsp;위해&nbsp;통합특별시가&nbsp;SPC(특수목적법인)를&nbsp;설립하여&nbsp;통조림&nbsp;공장&nbsp;등을&nbsp;적극&nbsp;지원.&nbsp;청년&nbsp;부부에게는&nbsp;양식장&nbsp;및&nbsp;해양&nbsp;스마트팜을&nbsp;무상&nbsp;지원하고&nbsp;수산물&nbsp;전량을&nbsp;공공&nbsp;매입·수출하는&nbsp;시스템&nbsp;구축.<br>○&nbsp;축산&nbsp;환경&nbsp;개선:&nbsp;분뇨&nbsp;냄새를&nbsp;획기적으로&nbsp;줄이는&nbsp;제품&nbsp;품질&nbsp;개선과&nbsp;괴질&nbsp;등&nbsp;가축&nbsp;전염병&nbsp;관리에&nbsp;중점&nbsp;투자.<br>○&nbsp;농기계·공공시설&nbsp;관리:&nbsp;농·수·축산&nbsp;공공시설&nbsp;및&nbsp;농기계&nbsp;보관·관리&nbsp;시설을&nbsp;SPC&nbsp;법인이&nbsp;공공으로&nbsp;운영.&nbsp;주민에게는&nbsp;소액의&nbsp;사용료만&nbsp;받아&nbsp;부담을&nbsp;줄이고,&nbsp;정비·관리&nbsp;기술자&nbsp;중심의&nbsp;양질의&nbsp;일자리&nbsp;창출.<br>○&nbsp;농촌과&nbsp;연계&nbsp;및&nbsp;직판&nbsp;체계:&nbsp;농촌&nbsp;생산&nbsp;상품을&nbsp;지역&nbsp;농촌고등학교&nbsp;학생들과&nbsp;연계(참여)&nbsp;시키고,&nbsp;우체국&nbsp;택배와&nbsp;결합한&nbsp;'온라인&nbsp;직판&nbsp;체계'를&nbsp;구축하여&nbsp;청년들이&nbsp;스스로&nbsp;돌아오고&nbsp;지키는&nbsp;농촌&nbsp;공동체&nbsp;육성.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;3개월&nbsp;이내&nbsp;설계,&nbsp;쌍방향&nbsp;소통을&nbsp;통한&nbsp;공론화&nbsp;과정을&nbsp;걸쳐&nbsp;확정시킨&nbsp;후&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;1.&nbsp;이후&nbsp;단계별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비와&nbsp;지방비&nbsp;매칭&nbsp;사업&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	위기의 지역 산업(기아차 등) 대책 분야</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="위기의 지역 산업(기아차 등) 대책 분야">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;대기업&nbsp;이탈&nbsp;방지와&nbsp;미래차&nbsp;생태계&nbsp;전환을&nbsp;위한&nbsp;시정의&nbsp;선제적&nbsp;대응"<br>○&nbsp;냉혹한&nbsp;현실&nbsp;진단:&nbsp;롯데칠성&nbsp;폐업,&nbsp;금호타이어&nbsp;폴란드&nbsp;이전&nbsp;추진&nbsp;등&nbsp;지역&nbsp;기반&nbsp;제조업의&nbsp;위기&nbsp;심화.<br>○&nbsp;미래&nbsp;기아차&nbsp;수호&nbsp;대책&nbsp;시급:&nbsp;전북&nbsp;새만금&nbsp;지역에&nbsp;20만&nbsp;평&nbsp;규모의&nbsp;'AI&nbsp;자동차&nbsp;공장'이&nbsp;들어설&nbsp;경우,&nbsp;광주&nbsp;기아자동차&nbsp;공장의&nbsp;생존이&nbsp;심각하게&nbsp;위협받는&nbsp;상황.<br>○&nbsp;적임자&nbsp;중심의&nbsp;대책&nbsp;수립:&nbsp;군공항&nbsp;이전&nbsp;부지&nbsp;활용&nbsp;등&nbsp;기아차&nbsp;공장의&nbsp;경쟁력을&nbsp;지키고&nbsp;미래차&nbsp;산업으로의&nbsp;안전한&nbsp;전환을&nbsp;이끌어낼&nbsp;강력하고&nbsp;전문성&nbsp;있는&nbsp;리더십(적임자)을&nbsp;시정에&nbsp;즉각&nbsp;배치<br>○&nbsp;지구별&nbsp;시도민&nbsp;학부모님들과&nbsp;대기업과&nbsp;학생들과의&nbsp;공론화&nbsp;과정을&nbsp;걸쳐&nbsp;확정시킨&nbsp;후&nbsp;추진.<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;3개월&nbsp;이내&nbsp;설계&nbsp;및&nbsp;쌍방향&nbsp;소통을&nbsp;통한&nbsp;공론화&nbsp;과정을&nbsp;걸쳐&nbsp;확정시킨&nbsp;후&nbsp;추진<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;1.&nbsp;이후&nbsp;단계별&nbsp;추진<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비와&nbsp;지방비&nbsp;매칭&nbsp;사업&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

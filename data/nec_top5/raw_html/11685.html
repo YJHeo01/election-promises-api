@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;남궁형 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	다시 뛰는 제물포 경제</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="다시 뛰는 제물포 경제">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표<br>&nbsp;○&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;소상공인·자영업자도&nbsp;살맛&nbsp;나는&nbsp;경제<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동인천역사&nbsp;및&nbsp;상상플랫폼&nbsp;등&nbsp;핵심&nbsp;거점&nbsp;개발을&nbsp;통해&nbsp;유입되는&nbsp;유동&nbsp;인구를&nbsp;재래시장&nbsp;및&nbsp;골목상권으로&nbsp;강제&nbsp;순환<br>&nbsp;○&nbsp;미래&nbsp;산업이&nbsp;모이는&nbsp;청년&nbsp;일자리&nbsp;도시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;내&nbsp;고부가가치&nbsp;일자리&nbsp;창출<br><br>□&nbsp;이행방법<br>&nbsp;○&nbsp;동인천&nbsp;민자역사&nbsp;철거&nbsp;후,&nbsp;제물포구&nbsp;복합청사&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;역사&nbsp;내&nbsp;청사&nbsp;유치로&nbsp;공공&nbsp;앵커&nbsp;시설&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행정·업무·상업·주거가&nbsp;결합된&nbsp;복합개발로&nbsp;사업성&nbsp;극대화&nbsp;및&nbsp;임기&nbsp;내&nbsp;착공<br>&nbsp;○&nbsp;상상플렛폼&nbsp;및&nbsp;내항1·8부두&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4계절&nbsp;러닝코스&nbsp;및&nbsp;부대시설&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상상플랫폼&nbsp;창업·문화·관광이&nbsp;어우러진&nbsp;경제&nbsp;플랫폼으로&nbsp;재편<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인천항만공사&nbsp;내항&nbsp;1.8부두&nbsp;이전&nbsp;추진<br>&nbsp;○&nbsp;글로벌&nbsp;AI오토밸리&nbsp;고도화&nbsp;및&nbsp;대전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인천시·인천항만공사&nbsp;주도&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;진단·검수를&nbsp;통해&nbsp;중고차를&nbsp;‘수출&nbsp;효자&nbsp;상품’으로&nbsp;고부가가치화<br>&nbsp;○&nbsp;제물포&nbsp;이음&nbsp;캐시백&nbsp;최대&nbsp;20%&nbsp;파격&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(상시)&nbsp;제물포구&nbsp;캐시백&nbsp;15%&nbsp;+&nbsp;(추가)&nbsp;재래시장&nbsp;및&nbsp;골목형상점가&nbsp;5%<br><br>□&nbsp;이행기간<br>&nbsp;○&nbsp;임기&nbsp;즉시&nbsp;:&nbsp;&nbsp;'제물포&nbsp;이음'&nbsp;캐시백&nbsp;20%&nbsp;상향,&nbsp;'동인천역사&nbsp;복합개발'&nbsp;및&nbsp;'글로벌&nbsp;AI&nbsp;오토밸리‘&nbsp;협의체&nbsp;구성<br>&nbsp;○&nbsp;임기&nbsp;전반기&nbsp;:&nbsp;동인천역사&nbsp;철거&nbsp;완료,&nbsp;상상플랫폼&nbsp;및&nbsp;1884&nbsp;러닝코스&nbsp;완공<br>&nbsp;○&nbsp;임기&nbsp;후반기&nbsp;:&nbsp;복합청사&nbsp;착공&nbsp;및&nbsp;글로벌&nbsp;AI오토밸리&nbsp;예산&nbsp;확보<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;○&nbsp;민간&nbsp;투자&nbsp;유치&nbsp;및&nbsp;국비&nbsp;지원(공기업&nbsp;재원&nbsp;분담)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동인천역사&nbsp;복합개발,&nbsp;글로벌&nbsp;AI오토밸리<br>&nbsp;○&nbsp;시비&nbsp;및&nbsp;구비<br>&nbsp;&nbsp;&nbsp;-&nbsp;상상플랫폼,&nbsp;런닝코스,&nbsp;제물포&nbsp;이음&nbsp;캐시백</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	문화를 힘으로, 지역을 활기로 ‘문화강구(文化强區) 제물포’</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="문화를 힘으로, 지역을 활기로 ‘문화강구(文化强區) 제물포’">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표<br>&nbsp;○&nbsp;문화와&nbsp;경제&nbsp;선순환&nbsp;생태계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화&nbsp;콘텐츠가&nbsp;청년&nbsp;일자리와&nbsp;주민&nbsp;소득으로&nbsp;직결<br>&nbsp;○&nbsp;머무는&nbsp;골목관광&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원도심&nbsp;골목&nbsp;상권&nbsp;매출&nbsp;증대로&nbsp;연결하는&nbsp;체류형&nbsp;관광<br>&nbsp;○&nbsp;제물포구만의&nbsp;독보적&nbsp;문화경쟁력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단절된&nbsp;해안과&nbsp;원도심을&nbsp;연결하는&nbsp;해안·역사&nbsp;관광&nbsp;브랜드화<br><br>□&nbsp;이행방법<br>&nbsp;○&nbsp;‘제물포&nbsp;마을호텔’&nbsp;활성화&nbsp;지구&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인천역·동인천역·도원역&nbsp;일대&nbsp;빈집·노후주택을&nbsp;리모델링하여&nbsp;골목&nbsp;전체를&nbsp;호텔화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;개항장부터&nbsp;싸리재,&nbsp;금창동을&nbsp;잇는&nbsp;골목상권&nbsp;연계&nbsp;체류형&nbsp;관광&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;‘제물포&nbsp;스토리워크’&nbsp;및&nbsp;통합&nbsp;축제&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;개항장~배다리&nbsp;역사&nbsp;자산을&nbsp;엮은&nbsp;‘제물포&nbsp;스토리워크’와&nbsp;야간&nbsp;관광&nbsp;‘문화야시장’&nbsp;상설화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;흩어져&nbsp;있는&nbsp;지역&nbsp;축제를&nbsp;통합·대형화하여&nbsp;대표&nbsp;문화콘텐츠로&nbsp;육성<br>&nbsp;○&nbsp;문화경제&nbsp;생태계&nbsp;구축&nbsp;(문화&nbsp;→&nbsp;일자리&nbsp;→&nbsp;지역경제)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역문화PD·로컬&nbsp;크리에이터&nbsp;등&nbsp;문화기획자&nbsp;양성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화콘텐츠&nbsp;제작부터&nbsp;유통-소비-소득으로&nbsp;이뤄지는&nbsp;선순환&nbsp;구조<br>&nbsp;○&nbsp;청년&nbsp;상가와&nbsp;빈&nbsp;점포의&nbsp;‘작업실’&nbsp;변신<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신포·현대시장에&nbsp;청년&nbsp;상인을&nbsp;위한&nbsp;공공안심상가&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;화수·신흥시장&nbsp;빈점포를&nbsp;작업실·상점으로&nbsp;리모델링+주거비&nbsp;지원&nbsp;결합<br>&nbsp;○&nbsp;제물포&nbsp;해안문화길&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연안부두~월미도~내항을&nbsp;잇는&nbsp;해안&nbsp;문화·관광&nbsp;보행축을&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;○&nbsp;임기&nbsp;즉시&nbsp;:&nbsp;제물포&nbsp;마을호텔&nbsp;활성화&nbsp;지구&nbsp;도입<br>&nbsp;○&nbsp;임기&nbsp;전반기&nbsp;:&nbsp;문화기획자&nbsp;양성,&nbsp;청년&nbsp;공공안심상가&nbsp;및&nbsp;작가&nbsp;작업실&nbsp;입주,&nbsp;마을호텔&nbsp;및&nbsp;스토리워크&nbsp;시범&nbsp;운영<br>&nbsp;○&nbsp;임기&nbsp;후반기&nbsp;:&nbsp;해안문화길&nbsp;보행축&nbsp;준공<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;○&nbsp;국비&nbsp;:&nbsp;(행안부)지방소멸대응기금,&nbsp;(국토부)도시재생사업,&nbsp;문체부&nbsp;등<br>&nbsp;○&nbsp;시비&nbsp;:&nbsp;원도심&nbsp;특별회계&nbsp;등,&nbsp;인천관광공사·인천도시공사&nbsp;협업<br>&nbsp;○&nbsp;구비&nbsp;및&nbsp;민간&nbsp;자본&nbsp;유치&nbsp;및&nbsp;사회공헌&nbsp;기금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	막힘없는 제물포, 사통팔달 교통혁명</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="막힘없는 제물포, 사통팔달 교통혁명">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표<br>&nbsp;○&nbsp;대중교통&nbsp;소외지역&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수인선·용현서창선&nbsp;연장으로&nbsp;원도심&nbsp;교통&nbsp;사각지대&nbsp;해소<br>&nbsp;○&nbsp;신도시와의&nbsp;상생&nbsp;발전<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인천3호선,&nbsp;송도·청라와&nbsp;인적·물적&nbsp;교류&nbsp;및&nbsp;지역&nbsp;경제&nbsp;활성화&nbsp;<br>&nbsp;○&nbsp;생활&nbsp;밀착형&nbsp;이동권&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공버스&nbsp;확대로&nbsp;행정·관광·거주지를&nbsp;잇는&nbsp;촘촘한&nbsp;혈맥&nbsp;완성<br><br>□&nbsp;이행방법<br>&nbsp;○&nbsp;수인선&nbsp;만석역&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인천역에서&nbsp;1km&nbsp;연장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국토부&nbsp;‘제5차&nbsp;국가철도망&nbsp;구축계획’&nbsp;반영&nbsp;추진<br>&nbsp;○&nbsp;용현서창선&nbsp;연안여객터미널역·연안종합어시장역&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;옹진군청역에서&nbsp;4km&nbsp;연장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인천시&nbsp;도시철도망구축계획&nbsp;반영&nbsp;및&nbsp;국토부&nbsp;승인<br>&nbsp;○&nbsp;인천&nbsp;3호선&nbsp;순환선&nbsp;조기착공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비&nbsp;지원을&nbsp;위한&nbsp;기획재정부&nbsp;예비타당성&nbsp;조사&nbsp;통과<br>&nbsp;○&nbsp;교통&nbsp;사각지대&nbsp;해소를&nbsp;위한&nbsp;공공버스&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제물포&nbsp;1·2청사&nbsp;연결&nbsp;등&nbsp;생활밀착형&nbsp;노선&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제물포&nbsp;남북&nbsp;연결,&nbsp;송림동~연안동<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;월미도&nbsp;~&nbsp;상상플랫폼&nbsp;~&nbsp;개항장&nbsp;~&nbsp;만석해안산책로&nbsp;<br>&nbsp;○&nbsp;부평연안부두선&nbsp;트램&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기획재정부&nbsp;예비타당성&nbsp;조사&nbsp;통과<br><br>□&nbsp;이행기간<br>&nbsp;○&nbsp;임기&nbsp;즉시&nbsp;:&nbsp;&nbsp;공공버스&nbsp;노선&nbsp;개설<br>&nbsp;○&nbsp;임기&nbsp;전반기&nbsp;:&nbsp;수인선&nbsp;만석역&nbsp;'제5차&nbsp;국가철도망&nbsp;구축계획'&nbsp;반영<br>&nbsp;○&nbsp;임기&nbsp;후반기&nbsp;:&nbsp;인천3호선&nbsp;조기&nbsp;착공,&nbsp;인천시&nbsp;도시철도망구축계획&nbsp;반영&nbsp;및&nbsp;국토부&nbsp;승인,&nbsp;부평연안부두선&nbsp;트램&nbsp;예비타당성&nbsp;조사<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;○&nbsp;구비&nbsp;:&nbsp;수인선&nbsp;및&nbsp;용현서창선&nbsp;연장을&nbsp;위한&nbsp;사업성분석&nbsp;용역<br>&nbsp;○&nbsp;시비&nbsp;:&nbsp;용현서창선&nbsp;연장에&nbsp;따른&nbsp;인천시&nbsp;도시철도망구축계획&nbsp;변경&nbsp;용역,&nbsp;부평연안부두선&nbsp;트램&nbsp;예비타당성&nbsp;조사&nbsp;용역<br>&nbsp;○&nbsp;시비&nbsp;및&nbsp;국비&nbsp;:&nbsp;인천3호선&nbsp;순환선</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	교육의 혁신! 제물포 AI 교육발전특구 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="교육의 혁신! 제물포 AI 교육발전특구 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표<br>&nbsp;○&nbsp;교육&nbsp;격차&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·디지털&nbsp;기반의&nbsp;첨단&nbsp;교육&nbsp;인프라를&nbsp;구축<br>&nbsp;○&nbsp;지역&nbsp;인재&nbsp;정주&nbsp;환경&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;초·중·고-대학-산업'이&nbsp;연결된&nbsp;지역&nbsp;인재&nbsp;선순환&nbsp;체계<br>&nbsp;○&nbsp;교육·창업·복지&nbsp;혁신&nbsp;거점&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;송림플라자&nbsp;부지를&nbsp;‘제물포&nbsp;혁신파크’로&nbsp;재탄생<br><br>□&nbsp;이행방법<br>&nbsp;○&nbsp;제물포&nbsp;AI&nbsp;교육발전특구&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육부&nbsp;‘교육혁신지원&nbsp;선도지역’&nbsp;지정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육발전특구&nbsp;지정&nbsp;조건&nbsp;완화&nbsp;제도&nbsp;개선<br>&nbsp;○&nbsp;‘제물포미래교육센터’&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래교육지원·진로체험&nbsp;기능&nbsp;통합&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학교·지역·기관을&nbsp;연결하는&nbsp;교육&nbsp;플랫폼&nbsp;구축<br>&nbsp;○&nbsp;초·중·고-대학-산업을&nbsp;잇는&nbsp;I-RISE&nbsp;로컬캠퍼스<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학·기업&nbsp;연계&nbsp;AI&nbsp;교육&nbsp;및&nbsp;진로체험&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역에서&nbsp;배우고&nbsp;성장하는&nbsp;연속형&nbsp;인재&nbsp;양성&nbsp;체계&nbsp;구축<br>&nbsp;○&nbsp;AI&nbsp;지·산·학&nbsp;캠퍼스타운&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학의&nbsp;자원을&nbsp;지역&nbsp;산업에&nbsp;이식<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4050&nbsp;재취업자를&nbsp;위한&nbsp;AI&nbsp;역량&nbsp;강화&nbsp;교육(재직자&nbsp;교육,&nbsp;구직&nbsp;지원)&nbsp;실시<br><br>□&nbsp;이행기간<br>&nbsp;○&nbsp;임기&nbsp;즉시&nbsp;:&nbsp;교육발전특구&nbsp;가이드라인&nbsp;개정&nbsp;건의&nbsp;및&nbsp;인천시-시교육청-대학&nbsp;간&nbsp;공동협력&nbsp;MOU&nbsp;체결,&nbsp;교육부&nbsp;교육혁신지원&nbsp;센도지역준비,&nbsp;송림플라자&nbsp;부지&nbsp;공공시설&nbsp;조성을&nbsp;위한&nbsp;매입&nbsp;협상&nbsp;및&nbsp;지구단위계획&nbsp;재정비<br>&nbsp;○&nbsp;임기&nbsp;전반기&nbsp;:&nbsp;제물포&nbsp;혁신파크&nbsp;리모델링,&nbsp;대학&nbsp;연계&nbsp;'I-RISE&nbsp;로컬캠퍼스'&nbsp;시범&nbsp;운영&nbsp;및&nbsp;AI&nbsp;교육&nbsp;장비&nbsp;확충<br>&nbsp;○&nbsp;임기&nbsp;후반기&nbsp;:&nbsp;&nbsp;AI&nbsp;교육&nbsp;수혜&nbsp;대상을&nbsp;전&nbsp;구민(4050&nbsp;재직자&nbsp;등)으로&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;○&nbsp;국비&nbsp;:&nbsp;(교육부)교육발전특구&nbsp;특별교부금,&nbsp;(고용노동부·중기부)창업&nbsp;및&nbsp;콘텐츠&nbsp;운영비&nbsp;확보,&nbsp;(행안부)지방소멸대응기금&nbsp;등&nbsp;<br>&nbsp;○&nbsp;인천시&nbsp;RISE&nbsp;및&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	든든한 일상, 품격 있는 복지 ‘기본사회 제물포’</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="든든한 일상, 품격 있는 복지 ‘기본사회 제물포’">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표<br>&nbsp;○&nbsp;보편적&nbsp;기본권&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역화폐&nbsp;기반&nbsp;기본소득&nbsp;도입으로&nbsp;경제적&nbsp;자립&nbsp;지원&nbsp;및&nbsp;골목상권&nbsp;활성화<br>&nbsp;○&nbsp;돌봄&nbsp;공공책임&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;초등&nbsp;돌봄&nbsp;공백&nbsp;제로화&nbsp;및&nbsp;AI&nbsp;기술을&nbsp;활용한&nbsp;2차&nbsp;안전망&nbsp;구축<br>&nbsp;○&nbsp;주거·건강·일자리가&nbsp;선순환하는&nbsp;자생적&nbsp;복지&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전국&nbsp;최초&nbsp;‘주거돌봄센터’를&nbsp;통해&nbsp;원도심&nbsp;복지&nbsp;모델&nbsp;선도<br><br>□&nbsp;이행방법<br>&nbsp;○&nbsp;지역화폐&nbsp;기반&nbsp;기본소득&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;품위유지비를&nbsp;기본소득으로&nbsp;전환하고,&nbsp;지급액&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청소년&nbsp;기본소득&nbsp;시범사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건강&nbsp;증진&nbsp;활동&nbsp;시&nbsp;지역화폐로&nbsp;보상하는&nbsp;‘제물포&nbsp;건강마일리지’&nbsp;도입<br>&nbsp;○&nbsp;초등&nbsp;통합돌봄&nbsp;및&nbsp;‘다함께돌봄센터’&nbsp;획기적&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학교·방과후·지역아동센터&nbsp;연계로&nbsp;틈새&nbsp;없는&nbsp;돌봄&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현행&nbsp;3개소인&nbsp;다함께돌봄센터를&nbsp;10개소로&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학교와&nbsp;돌봄시설&nbsp;사이의&nbsp;안전한&nbsp;이동을&nbsp;지원하는&nbsp;돌봄정거장&nbsp;3개소&nbsp;확대<br>&nbsp;○&nbsp;주거돌봄센터&nbsp;시범&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주택관리·생활돌봄·건강편의점·안전&nbsp;집수리를&nbsp;결합한&nbsp;복합&nbsp;돌봄&nbsp;모델<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을협동조합&nbsp;위탁&nbsp;운영으로&nbsp;거점&nbsp;활용&nbsp;극대화&nbsp;및&nbsp;지역&nbsp;일자리&nbsp;창출<br>&nbsp;○&nbsp;AI&nbsp;기반&nbsp;‘24시간&nbsp;스마트&nbsp;돌봄’&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소방서&nbsp;연계&nbsp;응급&nbsp;대응&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;활동감지·응급알림&nbsp;등&nbsp;고독사&nbsp;예방&nbsp;돌봄&nbsp;서비스&nbsp;도입<br><br>□&nbsp;이행기간<br>&nbsp;○&nbsp;임기&nbsp;즉시&nbsp;:&nbsp;&nbsp;지역화례&nbsp;연계&nbsp;기본소득&nbsp;시범운영,&nbsp;주거돌봄센터·돌봄정거장&nbsp;시범사업<br>&nbsp;○&nbsp;임기&nbsp;전반기&nbsp;:&nbsp;&nbsp;지역화폐-건강마일리지&nbsp;도입,&nbsp;AI&nbsp;스마트&nbsp;돌봄&nbsp;시스템,&nbsp;다함께&nbsp;돌봄센터&nbsp;확충,&nbsp;청소년&nbsp;기본소득&nbsp;대상&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;○&nbsp;국비&nbsp;:&nbsp;(행안부)지방소멸대응기금,&nbsp;(국토부)도시재생사업,&nbsp;보건복지부(노인의료·돌봄통합지원&nbsp;사업,&nbsp;(문체부)&nbsp;문화예술인&nbsp;기본소득·청년문화예술&nbsp;패스등&nbsp;<br>&nbsp;○&nbsp;시비&nbsp;:&nbsp;지역화폐&nbsp;발행&nbsp;지원금</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

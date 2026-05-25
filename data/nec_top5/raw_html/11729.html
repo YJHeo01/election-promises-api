@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;최상기 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	사람이 모이고, 관광객이 머무는 정원도시 인제</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="사람이 모이고, 관광객이 머무는 정원도시 인제">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;KTX가&nbsp;열립니다.<br>&nbsp;&nbsp;춘천&nbsp;-&nbsp;속초&nbsp;KTX&nbsp;총사업비&nbsp;3조&nbsp;131억원이&nbsp;착공되었고,&nbsp;인제IC에서&nbsp;KTX&nbsp;인&nbsp;제원통역까지의&nbsp;도로&nbsp;개선&nbsp;사업도&nbsp;2,085억원&nbsp;규모로&nbsp;착공되었습니다.&nbsp;인제에&nbsp;서&nbsp;KTX역까지,&nbsp;그리고&nbsp;서울까지&nbsp;1시간이면&nbsp;닿습니다.&nbsp;수도권이&nbsp;인제&nbsp;생활권&nbsp;안으로&nbsp;들어옵니다.<br>&nbsp;&nbsp;KTX&nbsp;개통은&nbsp;인제에&nbsp;결정적인&nbsp;전환점입니다.&nbsp;그러나&nbsp;그&nbsp;자체로&nbsp;인제가&nbsp;살아나는&nbsp;것은&nbsp;아닙니다.&nbsp;서울&nbsp;-&nbsp;양양&nbsp;고속도로&nbsp;개통&nbsp;당시&nbsp;44·46번&nbsp;국도&nbsp;상권이&nbsp;무너졌던&nbsp;경험을&nbsp;기억합니다.&nbsp;같은&nbsp;실수를&nbsp;반복하지&nbsp;않으려면,&nbsp;KTX&nbsp;개통에&nbsp;맞춰&nbsp;도시의&nbsp;틀을&nbsp;미리&nbsp;갖춰&nbsp;놓아야&nbsp;합니다.<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;도시가&nbsp;하나가&nbsp;됩니다.<br>&nbsp;&nbsp;인제읍·덕산리·원통을&nbsp;하나의&nbsp;생활권으로&nbsp;묶어&nbsp;정주인구&nbsp;3만명&nbsp;규모의&nbsp;콤팩트&nbsp;시티를&nbsp;만듭니다.&nbsp;KTX&nbsp;인제원통역&nbsp;앞에는&nbsp;은퇴자·청년&nbsp;지역활력타운&nbsp;‘인제부:터’,&nbsp;갈골지구에는&nbsp;청년·신혼부부를&nbsp;위한&nbsp;공공임대주택&nbsp;100호,&nbsp;월학리&nbsp;군부대&nbsp;부지에는&nbsp;청년·은퇴자&nbsp;복합공동체마을&nbsp;300세대가&nbsp;동시에&nbsp;들어섭니다.&nbsp;사람이&nbsp;모이는&nbsp;도시는&nbsp;KTX&nbsp;개통&nbsp;이전부터&nbsp;만들어&nbsp;둡니다.<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;정원도시&nbsp;인제가&nbsp;시작됩니다.<br>&nbsp;&nbsp;인제군&nbsp;전체를&nbsp;하나의&nbsp;거대한&nbsp;정원으로&nbsp;재설계합니다.&nbsp;순천은&nbsp;박람회로&nbsp;정원을&nbsp;만들었지만,&nbsp;인제는&nbsp;자연&nbsp;자체가&nbsp;정원입니다.&nbsp;백담사·자작나무숲·소양호·기린&nbsp;진동계곡·방태산까지&nbsp;인제의&nbsp;핵심&nbsp;자원을&nbsp;촘촘하게&nbsp;연결하는&nbsp;정원도&nbsp;시&nbsp;네트워크를&nbsp;만듭니다.&nbsp;용대&nbsp;지방정원·마을정원화&nbsp;사업이&nbsp;그&nbsp;시작입니다.<br>&nbsp;&nbsp;국내&nbsp;유일의&nbsp;그란폰도&nbsp;월드투어&nbsp;대회인&nbsp;설악그란폰도&nbsp;코스를&nbsp;한계령·내린천·소양호를&nbsp;잇는&nbsp;라이딩&nbsp;길도&nbsp;정원도시&nbsp;인제의&nbsp;또&nbsp;다른&nbsp;관광&nbsp;자원이&nbsp;됩니다.<br>&nbsp;&nbsp;KTX가&nbsp;열리고,&nbsp;도시가&nbsp;하나가&nbsp;되고,&nbsp;정원도시&nbsp;인제가&nbsp;시작됩니다.&nbsp;이&nbsp;세&nbsp;가지가&nbsp;동시에&nbsp;맞물려&nbsp;사람이&nbsp;모이고,&nbsp;관광객이&nbsp;머무는&nbsp;정원도시&nbsp;인제를&nbsp;완성합니다.&nbsp;인제&nbsp;경제의&nbsp;틀을&nbsp;바꿉니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;목표&nbsp;및&nbsp;우선순위&nbsp;:&nbsp;경제발전&nbsp;/&nbsp;최우선과제<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;이행절차&nbsp;및&nbsp;이행기간&nbsp;:&nbsp;조례제정&nbsp;/&nbsp;계속사업<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;재원조달&nbsp;:&nbsp;군비·도비·국비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	만든 시설을 제대로 쓰겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="만든 시설을 제대로 쓰겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시설은&nbsp;충분합니다.&nbsp;이제&nbsp;내용을&nbsp;채울&nbsp;차례입니다.<br>&nbsp;&nbsp;지난&nbsp;8년간&nbsp;도서관·체육센터·청년커뮤니티센터·복지시설을&nbsp;비롯한&nbsp;생활&nbsp;기반&nbsp;시설을&nbsp;곳곳에&nbsp;갖추었습니다.&nbsp;인제&nbsp;군민이&nbsp;일상에서&nbsp;누릴&nbsp;수&nbsp;있는&nbsp;공간은&nbsp;충분히&nbsp;마련되어&nbsp;있습니다.&nbsp;이제&nbsp;만든&nbsp;시설을&nbsp;군민이&nbsp;더&nbsp;많이,&nbsp;더&nbsp;자주,&nbsp;더&nbsp;편하게&nbsp;이용하도록&nbsp;만드는&nbsp;일이&nbsp;남았습니다.<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;도서관과&nbsp;체육센터는&nbsp;더&nbsp;많이,&nbsp;더&nbsp;길게&nbsp;엽니다.<br>&nbsp;&nbsp;명절&nbsp;당일만&nbsp;쉬고,&nbsp;정기&nbsp;휴관을&nbsp;줄이고,&nbsp;가능한&nbsp;시설은&nbsp;문을&nbsp;더&nbsp;오래&nbsp;열겠&nbsp;습니다.&nbsp;군민이&nbsp;찾고&nbsp;싶을&nbsp;때&nbsp;닫혀&nbsp;있지&nbsp;않도록&nbsp;운영&nbsp;방식을&nbsp;바꿉니다.&nbsp;공공&nbsp;시설은&nbsp;더&nbsp;많이&nbsp;이용할수록&nbsp;가치가&nbsp;커집니다.<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;교육과&nbsp;청년·군인&nbsp;프로그램을&nbsp;새로&nbsp;시작합니다.<br>&nbsp;&nbsp;청년커뮤니티센터와&nbsp;도서관,&nbsp;각&nbsp;지역&nbsp;공공시설을&nbsp;활용해&nbsp;군민&nbsp;누구나&nbsp;참여할&nbsp;수&nbsp;있는&nbsp;AI&nbsp;교육을&nbsp;새로&nbsp;시작합니다.&nbsp;청년과&nbsp;군인을&nbsp;위한&nbsp;프로그램도&nbsp;늘립니다.&nbsp;시설을&nbsp;채우는&nbsp;것은&nbsp;결국&nbsp;그&nbsp;안에서&nbsp;이루어지는&nbsp;사람들의&nbsp;활동입니&nbsp;다.<br>&nbsp;&nbsp;건물은&nbsp;사람&nbsp;때문에&nbsp;존재합니다.&nbsp;만들&nbsp;건&nbsp;많이&nbsp;만들었습니다.&nbsp;이제&nbsp;그&nbsp;안의&nbsp;내용을&nbsp;채워,&nbsp;군민이&nbsp;매일&nbsp;누리는&nbsp;자산으로&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;목표&nbsp;및&nbsp;우선순위&nbsp;:&nbsp;생활편의&nbsp;/&nbsp;단기<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;이행절차&nbsp;및&nbsp;이행기간&nbsp;:&nbsp;임기내&nbsp;순차추진<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;재원조달&nbsp;:&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	인제 전체를 하나의 정원도시로 만들겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="인제 전체를 하나의 정원도시로 만들겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;순천은&nbsp;박람회로&nbsp;국가정원을&nbsp;만들었습니다.&nbsp;인제는&nbsp;자연&nbsp;그&nbsp;자체가&nbsp;정원&nbsp;입니다.<br>&nbsp;&nbsp;소양호&nbsp;사계절&nbsp;관광지,&nbsp;가을꽃축제,&nbsp;자작나무숲,&nbsp;백담사…&nbsp;&nbsp;이미&nbsp;좋은&nbsp;자원&nbsp;이&nbsp;흩어져&nbsp;있습니다.&nbsp;인제군&nbsp;전체를&nbsp;하나의&nbsp;거대한&nbsp;정원도시로&nbsp;재설계해,&nbsp;이&nbsp;자원들을&nbsp;하나로&nbsp;엮습니다.&nbsp;박람회를&nbsp;만드는&nbsp;것이&nbsp;아니라,&nbsp;이미&nbsp;인제에&nbsp;있는&nbsp;것을&nbsp;잇는&nbsp;일입니다.<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;용대&nbsp;지방정원에서&nbsp;시작합니다.<br>&nbsp;&nbsp;용대&nbsp;지방정원·마을정원화&nbsp;사업을&nbsp;출발점으로&nbsp;삼아,&nbsp;정원도시&nbsp;인제의&nbsp;첫&nbsp;거점을&nbsp;만듭니다.&nbsp;마을정원화로&nbsp;일상에&nbsp;정원이&nbsp;스며들고,&nbsp;남에서&nbsp;북으로&nbsp;67km&nbsp;정원길로&nbsp;인제&nbsp;전체를&nbsp;잇습니다.&nbsp;백담사·자작나무숲·소양호·기린&nbsp;진동&nbsp;계곡·방태산까지&nbsp;정원&nbsp;네트워크로&nbsp;연결됩니다.<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;KTX로&nbsp;수도권&nbsp;1시간.&nbsp;풍경이&nbsp;돈이&nbsp;됩니다.<br>&nbsp;&nbsp;춘천-&nbsp;속초&nbsp;KTX&nbsp;개통과&nbsp;인제IC-&nbsp;KTX&nbsp;인제원통역&nbsp;도로&nbsp;개선이&nbsp;함께&nbsp;진행되면,&nbsp;수도권에서&nbsp;인제까지&nbsp;1시간&nbsp;안에&nbsp;닿습니다.&nbsp;사람이&nbsp;모이고,&nbsp;관광객이&nbsp;머무는&nbsp;정원도시&nbsp;인제가&nbsp;됩니다.&nbsp;머무는&nbsp;시간이&nbsp;곧&nbsp;인제&nbsp;군민의&nbsp;소득이&nbsp;됩니다.<br>&nbsp;&nbsp;인제는&nbsp;자연&nbsp;그&nbsp;자체가&nbsp;정원입니다.&nbsp;흩어져&nbsp;있는&nbsp;인제의&nbsp;자원을&nbsp;하나로&nbsp;엮어,&nbsp;인제군&nbsp;전체를&nbsp;하나의&nbsp;정원도시로&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;목표&nbsp;및&nbsp;우선순위&nbsp;:&nbsp;관광활성화&nbsp;/&nbsp;장기<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;이행절차&nbsp;및&nbsp;이행기간&nbsp;:&nbsp;조례제정&nbsp;/&nbsp;계속사업<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;재원조달&nbsp;:&nbsp;군비·도비·국비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	지역경제를 더 돌게 하겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="지역경제를 더 돌게 하겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;인제에서&nbsp;번&nbsp;돈이&nbsp;인제에서&nbsp;쓰이게&nbsp;합니다.<br>&nbsp;&nbsp;인제채워드림카드로&nbsp;소상공인&nbsp;매출을&nbsp;늘리고,&nbsp;관광객과&nbsp;군&nbsp;장병,&nbsp;군민이&nbsp;쓰는&nbsp;돈이&nbsp;골목골목&nbsp;상권으로&nbsp;이어지게&nbsp;합니다.<br>&nbsp;<br>&nbsp;○&nbsp;2028&nbsp;강원도민체전을&nbsp;인제에서&nbsp;엽니다.<br>&nbsp;&nbsp;사계절&nbsp;전국&nbsp;단위&nbsp;대회를&nbsp;유치해&nbsp;선수들이&nbsp;인제에서&nbsp;먹고,&nbsp;자고,&nbsp;쓰게&nbsp;합니다.&nbsp;경기장만&nbsp;짓는&nbsp;체전이&nbsp;아니라&nbsp;인제&nbsp;경제로&nbsp;흘러드는&nbsp;체전을&nbsp;만들겠습&nbsp;니다.<br>&nbsp;&nbsp;<br>&nbsp;○&nbsp;농민은&nbsp;생산에만&nbsp;전념하게&nbsp;합니다.<br>&nbsp;&nbsp;영농자재&nbsp;반값&nbsp;공급&nbsp;대상을&nbsp;넓히고,&nbsp;농업인&nbsp;수당을&nbsp;120만원으로&nbsp;올리겠습니다.&nbsp;인제가&nbsp;전국에&nbsp;먼저&nbsp;시작한&nbsp;영농자재&nbsp;반값&nbsp;공급은&nbsp;이미&nbsp;강원도지사&nbsp;후보의&nbsp;도&nbsp;단위&nbsp;공약으로&nbsp;채택되었습니다.<br>&nbsp;&nbsp;<br>&nbsp;○&nbsp;태양광&nbsp;햇빛소득,&nbsp;인제군이&nbsp;먼저&nbsp;나섭니다.<br>&nbsp;&nbsp;읍면마다&nbsp;인제군&nbsp;유휴지와&nbsp;군부대&nbsp;이전&nbsp;부지에&nbsp;태양광을&nbsp;설치하고,&nbsp;그&nbsp;수익을&nbsp;해당&nbsp;읍면&nbsp;군민에게&nbsp;돌려드립니다.<br>&nbsp;<br>&nbsp;○&nbsp;인제형&nbsp;농어촌기본소득&nbsp;모델을&nbsp;준비합니다.<br>&nbsp;&nbsp;인제&nbsp;실정에&nbsp;맞는&nbsp;농어촌기본소득&nbsp;모델을&nbsp;설계해,&nbsp;농촌&nbsp;인구가&nbsp;줄어들지&nbsp;않는&nbsp;인제를&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;목표&nbsp;및&nbsp;우선순위&nbsp;:&nbsp;경제발전&nbsp;/&nbsp;단기<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;이행절차&nbsp;및&nbsp;이행기간&nbsp;:&nbsp;조례제정&nbsp;/&nbsp;임기내<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;재원조달&nbsp;:&nbsp;군비·도비·국비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	군민과 군인가족의 생활을 더 편하게 하겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="군민과 군인가족의 생활을 더 편하게 하겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;○&nbsp;멀리&nbsp;가지&nbsp;마십시오.&nbsp;일상은&nbsp;인제&nbsp;안에서&nbsp;충분해야&nbsp;합니다.<br>&nbsp;&nbsp;가스통을&nbsp;없애고&nbsp;LPG&nbsp;배관망을&nbsp;마을까지&nbsp;연결해&nbsp;난방비를&nbsp;낮추겠습니다.&nbsp;버스&nbsp;요금도&nbsp;없애겠습니다.&nbsp;어르신만이&nbsp;아니라,&nbsp;인제&nbsp;군민&nbsp;모두에게&nbsp;적용합니다.<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;아픈&nbsp;데&nbsp;데려다줄&nbsp;사람도,&nbsp;차도&nbsp;없다면&nbsp;병원에&nbsp;함께&nbsp;가드립니다.<br>&nbsp;&nbsp;어르신과&nbsp;영유아를&nbsp;키우는&nbsp;군인가족,&nbsp;군민을&nbsp;위한&nbsp;병원동행서비스를&nbsp;시작&nbsp;하겠습니다.<br><br>&nbsp;&nbsp;○&nbsp;12사단&nbsp;의무대대를&nbsp;의원급&nbsp;병원으로&nbsp;새로&nbsp;짓습니다.<br>&nbsp;&nbsp;연면적&nbsp;2,613㎡,&nbsp;2027년&nbsp;착공.&nbsp;군인과&nbsp;군민이&nbsp;함께&nbsp;이용합니다.&nbsp;군부대와&nbsp;협의해&nbsp;소아과를&nbsp;포함한&nbsp;진료&nbsp;과목을&nbsp;늘리겠습니다.<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;군인&nbsp;가족&nbsp;한&nbsp;분&nbsp;한&nbsp;분이&nbsp;인제의&nbsp;자원입니다.<br>&nbsp;&nbsp;군인&nbsp;배우자&nbsp;취업&nbsp;매칭과&nbsp;경력&nbsp;지원을&nbsp;직접&nbsp;챙기겠습니다.&nbsp;인제에서&nbsp;군&nbsp;복무하는&nbsp;동안&nbsp;가족의&nbsp;일상도&nbsp;인제&nbsp;안에서&nbsp;단단해지도록&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;목표&nbsp;및&nbsp;우선순위&nbsp;:&nbsp;정주환경&nbsp;개선&nbsp;및&nbsp;복지&nbsp;/&nbsp;중단기<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;이행절차&nbsp;및&nbsp;이행기간&nbsp;:&nbsp;계속사업<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;재원조달&nbsp;:&nbsp;군비·도비·국비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

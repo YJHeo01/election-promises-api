@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김기재 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	도시철도 영도선(부산항선)사업 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="도시철도 영도선(부산항선)사업 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;활력을&nbsp;잃은&nbsp;원도심&nbsp;일대를&nbsp;부산의&nbsp;중심지로&nbsp;재탄생<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부산항,&nbsp;북항재개발지구,&nbsp;국제여객터미널,&nbsp;부산역&nbsp;등&nbsp;관문&nbsp;시설들의&nbsp;연결성을&nbsp;강화하여&nbsp;영도를&nbsp;찾아오는&nbsp;국내외&nbsp;방문객들에게&nbsp;친환경&nbsp;수소&nbsp;연료&nbsp;전지&nbsp;방식의&nbsp;무가선&nbsp;노면전차를&nbsp;적용한&nbsp;대중교통수단&nbsp;제공&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;역세권&nbsp;중심의&nbsp;활력있는&nbsp;도시경관을&nbsp;창출하고,&nbsp;원도심의&nbsp;상권&nbsp;활성화&nbsp;및&nbsp;일자리&nbsp;창출,&nbsp;경쟁력&nbsp;강화를&nbsp;도모<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;주요&nbsp;경유지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙역~부산대교~HJ중공업~해양로~동삼혁신지구~태종로~태종대&nbsp;입구&nbsp;<br>&nbsp;&nbsp;○&nbsp;추진계획<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2차&nbsp;부산시&nbsp;도시철도망&nbsp;구축계획&nbsp;반영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예비타당성&nbsp;조사를&nbsp;신청하여&nbsp;최우선&nbsp;사업으로&nbsp;신속하게&nbsp;추진<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2035년&nbsp;<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총사업비&nbsp;:&nbsp;2,479억원(민간투자사업)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	영도 K-팝 아레나(전용 공연장) 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="영도 K-팝 아레나(전용 공연장) 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;e스포츠&nbsp;경기,&nbsp;글로벌&nbsp;컨벤션&nbsp;등&nbsp;복합&nbsp;문화&nbsp;공간으로&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영도&nbsp;전역을&nbsp;관광특구로&nbsp;조성해&nbsp;교통·문화·산업&nbsp;기반&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;외국인&nbsp;1000만&nbsp;관광&nbsp;시대를&nbsp;견인<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영도를&nbsp;단순히&nbsp;거쳐&nbsp;가는&nbsp;곳이&nbsp;아닌,&nbsp;전&nbsp;세계&nbsp;팬들이&nbsp;머무르는&nbsp;‘체류형&nbsp;관광지’로&nbsp;전환하는&nbsp;핵심&nbsp;시설로&nbsp;기능<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연간&nbsp;수백만&nbsp;명의&nbsp;유동&nbsp;인구&nbsp;유입&nbsp;및&nbsp;원도심&nbsp;경제&nbsp;활성화&nbsp;기대<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;위치&nbsp;:&nbsp;부산남고(영도구&nbsp;동삼동&nbsp;소재)&nbsp;부지&nbsp;약&nbsp;3만㎡&nbsp;<br>&nbsp;&nbsp;○&nbsp;시설&nbsp;:&nbsp;2만석&nbsp;이상의&nbsp;&nbsp;K-팝&nbsp;전문&nbsp;공연장,&nbsp;K-콘텐츠&nbsp;체험관,&nbsp;상업&nbsp;및&nbsp;전시&nbsp;시설로&nbsp;조성<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2032년&nbsp;<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;약&nbsp;5,000억&nbsp;원&nbsp;규모의&nbsp;민간&nbsp;투자&nbsp;사업&nbsp;(BTL/BTO&nbsp;등)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	도심형 해양치유센터 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="도심형 해양치유센터 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;영도구민,&nbsp;부산시민&nbsp;및&nbsp;영도를&nbsp;방문하는&nbsp;관광객의&nbsp;치유와&nbsp;건강증진으로&nbsp;건강&nbsp;복지서비스&nbsp;향상&nbsp;및&nbsp;인구소멸지역의&nbsp;해양치유산업&nbsp;관광객&nbsp;유입으로&nbsp;생활인구&nbsp;증대<br>&nbsp;&nbsp;○&nbsp;신산업인&nbsp;해양치유산업과&nbsp;영도구&nbsp;관광산업을&nbsp;연계하는&nbsp;해양관광&nbsp;축을&nbsp;계획하여&nbsp;관광시너지&nbsp;효과&nbsp;및&nbsp;치유관광산업&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;해양치유관광&nbsp;활성화를&nbsp;통한&nbsp;기존&nbsp;산업구조인&nbsp;조선업&nbsp;침체와&nbsp;쇠퇴에&nbsp;대응하고&nbsp;부가가치&nbsp;및&nbsp;일자리&nbsp;창출&nbsp;등&nbsp;지역경제&nbsp;활성화&nbsp;기대<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시행주체&nbsp;:&nbsp;부산광역시&nbsp;영도구<br>&nbsp;&nbsp;○&nbsp;사업위치&nbsp;:&nbsp;영도구&nbsp;동삼동&nbsp;산32-10번지(태종대&nbsp;입구)<br>&nbsp;&nbsp;○&nbsp;사&nbsp;업&nbsp;량&nbsp;:&nbsp;지하2층,&nbsp;지상3층(연면적&nbsp;5,645㎡)<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.4&nbsp;:&nbsp;공공건축&nbsp;사업계획&nbsp;사전검토,&nbsp;공공건축&nbsp;심의<br>&nbsp;&nbsp;○&nbsp;2026.5&nbsp;:&nbsp;시설물&nbsp;운영&nbsp;및&nbsp;관리계획&nbsp;용역시행<br>&nbsp;&nbsp;○&nbsp;2026.5&nbsp;~&nbsp;8&nbsp;:&nbsp;해양치유센터&nbsp;설계&nbsp;공모&nbsp;및&nbsp;선정&nbsp;<br>&nbsp;&nbsp;○&nbsp;2026.9&nbsp;~&nbsp;2027.8&nbsp;:&nbsp;기본&nbsp;및&nbsp;실시설계&nbsp;용역<br>&nbsp;&nbsp;○&nbsp;2027.9&nbsp;~&nbsp;2029.11&nbsp;:&nbsp;공사&nbsp;착공&nbsp;및&nbsp;준공<br>&nbsp;&nbsp;○&nbsp;2029.2&nbsp;:&nbsp;개관&nbsp;및&nbsp;운영&nbsp;<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;375억원(2026년&nbsp;정부예산&nbsp;반영)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	AI 데이터센터 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="AI 데이터센터 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;국내&nbsp;AI&nbsp;산업&nbsp;발전&nbsp;및&nbsp;해양&nbsp;빅데이터,&nbsp;초소형&nbsp;위성,&nbsp;해양&nbsp;신산업&nbsp;육성&nbsp;등을&nbsp;위한&nbsp;인프라&nbsp;구축으로,&nbsp;AI&nbsp;산업&nbsp;기반&nbsp;조성&nbsp;및&nbsp;기업&nbsp;유치,&nbsp;지역경제&nbsp;활성화&nbsp;및&nbsp;일자리확보,&nbsp;청년&nbsp;및&nbsp;지역&nbsp;인재&nbsp;성장&nbsp;기회&nbsp;확보<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;위&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;치&nbsp;:&nbsp;영도구&nbsp;대평동(대평남로&nbsp;35번길)&nbsp;소재&nbsp;옛&nbsp;STX&nbsp;조선소&nbsp;및&nbsp;마스텍중공업&nbsp;부지<br>&nbsp;&nbsp;○&nbsp;건립규모&nbsp;:&nbsp;연면적&nbsp;약&nbsp;5만8155㎡(1만7623평),&nbsp;지상&nbsp;8층&nbsp;규모로&nbsp;80㎿급&nbsp;전력&nbsp;수용이&nbsp;가능한&nbsp;초대형&nbsp;데이터센터<br>&nbsp;&nbsp;○&nbsp;추진주체&nbsp;:&nbsp;창해&nbsp;개발(시행사),&nbsp;싱가포르&nbsp;펀드&nbsp;CCGI(금융자문,&nbsp;투자),&nbsp;포스코이앤씨(건설)<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2028년&nbsp;상반기&nbsp;완공을&nbsp;목표로&nbsp;조기&nbsp;추진<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;약&nbsp;1조원(싱가포르계&nbsp;기업금융전문&nbsp;투자은행&nbsp;및&nbsp;사모펀드운용사인&nbsp;CCGI)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	빈집(공가) 정비사업 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="빈집(공가) 정비사업 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;방치된&nbsp;빈집을&nbsp;효율적으로&nbsp;정비하고&nbsp;소규모&nbsp;주택정비&nbsp;활성화를&nbsp;위하여&nbsp;필요한&nbsp;사항을&nbsp;규정하여&nbsp;주거생활의&nbsp;질을&nbsp;높이며,<br>&nbsp;&nbsp;○&nbsp;안전사고,&nbsp;범죄&nbsp;발생,&nbsp;주거환경&nbsp;장애&nbsp;등&nbsp;빈집문제에&nbsp;대한&nbsp;체계적&nbsp;관리<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;2025.12.31&nbsp;현재&nbsp;관내&nbsp;빈집현황(무허가&nbsp;포함)&nbsp;:&nbsp;총&nbsp;1,520개소<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;부산광역시&nbsp;신규사업&nbsp;선제적&nbsp;대응<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;빈집&nbsp;전수조사&nbsp;:&nbsp;매년(상가&nbsp;등&nbsp;근린생활시설&nbsp;제외)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;빈집&nbsp;매입&nbsp;후&nbsp;철거&nbsp;또는&nbsp;리모델링으로&nbsp;생활SOC&nbsp;조성,&nbsp;호당&nbsp;최대&nbsp;3~4억원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;「빈집&nbsp;및&nbsp;소규모주택&nbsp;정비에&nbsp;관한&nbsp;특례법」상&nbsp;빈집&nbsp;및&nbsp;그&nbsp;부속&nbsp;토지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;빈집&nbsp;리모델링&nbsp;후&nbsp;공유숙박&nbsp;조성&nbsp;및&nbsp;문화관광&nbsp;인프라&nbsp;연계,&nbsp;호당&nbsp;최대&nbsp;30백만원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▷실태조사&nbsp;결과&nbsp;1.2등급&nbsp;빈집&nbsp;중&nbsp;관광&nbsp;수요가&nbsp;높은&nbsp;빈집<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;빈집&nbsp;플러스드림(문화예술인&nbsp;창작활동&nbsp;공간제공)&nbsp;사업,&nbsp;호당&nbsp;최대&nbsp;80백만원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▷소유자&nbsp;동의&nbsp;빈집(인구감소&nbsp;지역&nbsp;및&nbsp;감소&nbsp;관심&nbsp;지역)<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;계속<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재정여건,&nbsp;사업&nbsp;지속성&nbsp;등을&nbsp;종합적으로&nbsp;검토하여&nbsp;탄력적으로&nbsp;반영</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

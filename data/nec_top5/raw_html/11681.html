@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;최덕종 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	든든당당 재정혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="든든당당 재정혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;●&nbsp;예산&nbsp;구조&nbsp;개편을&nbsp;통한&nbsp;주민&nbsp;체감형&nbsp;행정&nbsp;실현<br>&nbsp;&nbsp;●&nbsp;생활&nbsp;밀착형&nbsp;일자리&nbsp;1만&nbsp;개&nbsp;구축<br>&nbsp;&nbsp;●&nbsp;돌봄·안전·지역관리&nbsp;중심의&nbsp;지속&nbsp;가능한&nbsp;지역&nbsp;일자리&nbsp;확대<br>&nbsp;&nbsp;●&nbsp;불필요·저효율&nbsp;예산&nbsp;조정을&nbsp;통한&nbsp;재정&nbsp;운영&nbsp;혁신<br>&nbsp;&nbsp;●&nbsp;주민&nbsp;생활&nbsp;중심의&nbsp;사람&nbsp;우선&nbsp;예산&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;●&nbsp;골목경제&nbsp;활성화&nbsp;및&nbsp;지역&nbsp;공동체&nbsp;회복<br>&nbsp;&nbsp;●&nbsp;주민&nbsp;참여형&nbsp;생활서비스&nbsp;확대를&nbsp;통한&nbsp;삶의&nbsp;질&nbsp;향상<br>&nbsp;&nbsp;●&nbsp;예산이&nbsp;실제&nbsp;생활&nbsp;변화로&nbsp;이어지는&nbsp;책임행정&nbsp;구현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;●&nbsp;남구&nbsp;예산&nbsp;전면&nbsp;재점검&nbsp;및&nbsp;구조조정&nbsp;추진<br>&nbsp;&nbsp;●&nbsp;불필요·중복&nbsp;사업&nbsp;정비&nbsp;후&nbsp;주민&nbsp;생활&nbsp;분야에&nbsp;재투자<br>&nbsp;&nbsp;●&nbsp;돌봄·안전·지역관리&nbsp;중심&nbsp;생활&nbsp;밀착형&nbsp;일자리&nbsp;확대<br>&nbsp;&nbsp;●&nbsp;주민&nbsp;참여&nbsp;기반의&nbsp;지속&nbsp;가능한&nbsp;일자리&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;●&nbsp;동별&nbsp;수요조사와&nbsp;지역&nbsp;협력을&nbsp;통한&nbsp;맞춤형&nbsp;사업&nbsp;운영<br>&nbsp;&nbsp;●&nbsp;정기적인&nbsp;성과평가를&nbsp;통한&nbsp;책임행정&nbsp;실현<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;●&nbsp;취임&nbsp;후&nbsp;6개월&nbsp;내&nbsp;예산&nbsp;구조&nbsp;개편&nbsp;추진<br>&nbsp;&nbsp;●&nbsp;1년&nbsp;차부터&nbsp;생활&nbsp;밀착형&nbsp;일자리&nbsp;사업&nbsp;확대&nbsp;시행<br>&nbsp;&nbsp;●&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;생활&nbsp;일자리&nbsp;1만&nbsp;개&nbsp;구축&nbsp;완료<br>&nbsp;&nbsp;●&nbsp;연차별&nbsp;성과평가를&nbsp;통한&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;●&nbsp;예산&nbsp;구조조정을&nbsp;통한&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;●&nbsp;불필요·중복&nbsp;사업&nbsp;정비로&nbsp;가용재원&nbsp;확대<br>&nbsp;&nbsp;●&nbsp;국·시비&nbsp;지원사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;●&nbsp;재정&nbsp;재배치를&nbsp;통한&nbsp;단계적&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	든든당당 주거혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="든든당당 주거혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;●&nbsp;재건축·재개발&nbsp;인허가&nbsp;혁신<br>&nbsp;&nbsp;●&nbsp;장기&nbsp;지연&nbsp;사업&nbsp;정상화<br>&nbsp;&nbsp;●&nbsp;인허가&nbsp;기간&nbsp;단축&nbsp;및&nbsp;사업성&nbsp;강화<br>&nbsp;&nbsp;●&nbsp;주민&nbsp;분담금&nbsp;부담&nbsp;완화<br>&nbsp;&nbsp;●&nbsp;투명하고&nbsp;신속한&nbsp;주거행정&nbsp;구현<br>&nbsp;&nbsp;●&nbsp;지역&nbsp;맞춤형&nbsp;주거환경&nbsp;개선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;●&nbsp;통합심의위원회&nbsp;상설화를&nbsp;통한&nbsp;인허가&nbsp;절차&nbsp;간소화<br>&nbsp;&nbsp;●&nbsp;인허가&nbsp;전담&nbsp;책임관&nbsp;및&nbsp;1단지&nbsp;1책임관&nbsp;제도&nbsp;운영<br>&nbsp;&nbsp;●&nbsp;사전&nbsp;컨설팅&nbsp;도입으로&nbsp;사업&nbsp;지연&nbsp;최소화<br>&nbsp;&nbsp;●&nbsp;디지털&nbsp;인허가&nbsp;모니터링&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;●&nbsp;용적률&nbsp;개선&nbsp;및&nbsp;종상향&nbsp;검토를&nbsp;통한&nbsp;사업성&nbsp;강화<br>&nbsp;&nbsp;●&nbsp;지역별&nbsp;맞춤형&nbsp;재건축·재개발&nbsp;지원&nbsp;추진<br>&nbsp;&nbsp;●&nbsp;분쟁&nbsp;조정&nbsp;기능&nbsp;강화를&nbsp;통한&nbsp;사업&nbsp;정상화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;●&nbsp;취임&nbsp;즉시&nbsp;통합심의&nbsp;및&nbsp;인허가&nbsp;혁신체계&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;●&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;인허가&nbsp;단축&nbsp;시스템&nbsp;단계적&nbsp;시행<br>&nbsp;&nbsp;●&nbsp;주요&nbsp;지연&nbsp;사업&nbsp;정상화&nbsp;및&nbsp;지역별&nbsp;주거혁신&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;●&nbsp;임기&nbsp;내&nbsp;디지털&nbsp;인허가&nbsp;관리체계&nbsp;구축&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;●&nbsp;기존&nbsp;도시·주거정비&nbsp;관련&nbsp;예산&nbsp;재편&nbsp;및&nbsp;효율화<br>&nbsp;&nbsp;●&nbsp;국·시비&nbsp;도시재생&nbsp;및&nbsp;정비사업&nbsp;지원사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;●&nbsp;디지털&nbsp;행정체계&nbsp;구축을&nbsp;통한&nbsp;행정&nbsp;효율&nbsp;개선<br>&nbsp;&nbsp;●&nbsp;민간&nbsp;정비사업과&nbsp;연계한&nbsp;단계적&nbsp;사업&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	든든당당 미래남구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="든든당당 미래남구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;●&nbsp;AI&nbsp;콘텐츠&nbsp;창작&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;●&nbsp;청년&nbsp;창작·창업&nbsp;기반&nbsp;확대<br>&nbsp;&nbsp;●&nbsp;AI&nbsp;영화제&nbsp;개최&nbsp;및&nbsp;콘텐츠&nbsp;산업&nbsp;육성<br>&nbsp;&nbsp;●&nbsp;청년&nbsp;일자리와&nbsp;미래산업&nbsp;기반&nbsp;조성<br>&nbsp;&nbsp;●&nbsp;AI&nbsp;기반&nbsp;교육·행정&nbsp;혁신&nbsp;추진<br>&nbsp;&nbsp;●&nbsp;콘텐츠&nbsp;생산도시&nbsp;남구&nbsp;구현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;●&nbsp;AI&nbsp;콘텐츠&nbsp;창작&nbsp;거점&nbsp;조성&nbsp;및&nbsp;장비·프로그램&nbsp;구축<br>&nbsp;&nbsp;●&nbsp;AI&nbsp;영화제&nbsp;및&nbsp;연중&nbsp;콘텐츠&nbsp;제작&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;●&nbsp;청년·학생&nbsp;대상&nbsp;AI&nbsp;창작&nbsp;교육&nbsp;정기&nbsp;추진<br>&nbsp;&nbsp;●&nbsp;우수&nbsp;창작팀&nbsp;제작비·공간·장비&nbsp;지원<br>&nbsp;&nbsp;●&nbsp;AI&nbsp;콘텐츠&nbsp;창업&nbsp;연계&nbsp;및&nbsp;기업&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;●&nbsp;공공데이터&nbsp;활용&nbsp;콘텐츠&nbsp;제작&nbsp;지원<br>&nbsp;&nbsp;●&nbsp;민원·생활정보&nbsp;등&nbsp;AI&nbsp;기반&nbsp;행정서비스&nbsp;단계적&nbsp;도입<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;●&nbsp;취임&nbsp;후&nbsp;단계적&nbsp;AI&nbsp;콘텐츠&nbsp;인프라&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;●&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;AI&nbsp;창작&nbsp;거점&nbsp;및&nbsp;영화제&nbsp;운영&nbsp;정착<br>&nbsp;&nbsp;●&nbsp;연차별&nbsp;교육·창작·창업&nbsp;지원사업&nbsp;확대&nbsp;시행<br>&nbsp;&nbsp;●&nbsp;AI&nbsp;기반&nbsp;행정서비스&nbsp;단계적&nbsp;도입&nbsp;및&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;●&nbsp;문화·청년·디지털&nbsp;분야&nbsp;기존&nbsp;예산&nbsp;재편&nbsp;및&nbsp;활용<br>&nbsp;&nbsp;●&nbsp;국·시비&nbsp;AI·콘텐츠산업&nbsp;지원사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;●&nbsp;민간기업·대학·콘텐츠기관&nbsp;협력사업&nbsp;추진<br>&nbsp;&nbsp;●&nbsp;단계별&nbsp;사업&nbsp;추진을&nbsp;통한&nbsp;재정&nbsp;부담&nbsp;분산</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	든든당당 생활환경</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="든든당당 생활환경">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;●&nbsp;생활권&nbsp;주차난&nbsp;해소&nbsp;및&nbsp;주차환경&nbsp;개선<br>&nbsp;&nbsp;●&nbsp;골목길·보행로&nbsp;중심&nbsp;생활안전&nbsp;강화<br>&nbsp;&nbsp;●&nbsp;어린이·여성·어르신&nbsp;안심&nbsp;보행환경&nbsp;조성<br>&nbsp;&nbsp;●&nbsp;반려친화&nbsp;생활&nbsp;인프라&nbsp;확대<br>&nbsp;&nbsp;●&nbsp;주민&nbsp;생활&nbsp;불편&nbsp;해소&nbsp;및&nbsp;삶의&nbsp;질&nbsp;향상<br>&nbsp;&nbsp;●&nbsp;안전하고&nbsp;쾌적한&nbsp;생활환경&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;●&nbsp;생활권&nbsp;주차&nbsp;실태조사&nbsp;및&nbsp;맞춤형&nbsp;주차대책&nbsp;추진<br>&nbsp;&nbsp;●&nbsp;유휴부지&nbsp;활용&nbsp;소규모&nbsp;주차타워&nbsp;및&nbsp;공영주차&nbsp;확대<br>&nbsp;&nbsp;●&nbsp;학교·공공시설&nbsp;주차장&nbsp;야간&nbsp;개방&nbsp;확대&nbsp;및&nbsp;스마트&nbsp;주차시스템&nbsp;도입<br>&nbsp;&nbsp;●&nbsp;CCTV·LED&nbsp;조명&nbsp;확충&nbsp;및&nbsp;보행환경&nbsp;정비<br>&nbsp;&nbsp;●&nbsp;여성&nbsp;안심귀갓길·생활안전&nbsp;집중관리구역&nbsp;운영<br>&nbsp;&nbsp;●&nbsp;도심형&nbsp;반려쉼터·펫놀이터&nbsp;및&nbsp;상설&nbsp;펫존&nbsp;조성<br>&nbsp;&nbsp;●&nbsp;반려생활&nbsp;편의시설&nbsp;및&nbsp;교육·입양지원&nbsp;프로그램&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;●&nbsp;취임&nbsp;후&nbsp;생활권&nbsp;주차·안전&nbsp;실태조사&nbsp;우선&nbsp;추진<br>&nbsp;&nbsp;●&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;주차·보행·안전&nbsp;개선사업&nbsp;단계적&nbsp;시행<br>&nbsp;&nbsp;●&nbsp;반려생활&nbsp;인프라&nbsp;및&nbsp;편의시설&nbsp;순차적&nbsp;확대&nbsp;구축<br>&nbsp;&nbsp;●&nbsp;연차별&nbsp;생활환경&nbsp;개선사업&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;●&nbsp;생활SOC&nbsp;및&nbsp;교통·안전&nbsp;분야&nbsp;예산&nbsp;재편&nbsp;활용<br>&nbsp;&nbsp;●&nbsp;국·시비&nbsp;생활환경&nbsp;개선&nbsp;및&nbsp;안전지원사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;●&nbsp;공공부지·유휴부지&nbsp;활용을&nbsp;통한&nbsp;사업비&nbsp;절감<br>&nbsp;&nbsp;●&nbsp;단계별&nbsp;사업&nbsp;추진을&nbsp;통한&nbsp;재정&nbsp;부담&nbsp;분산</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	든든당당 미래공간혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="든든당당 미래공간혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;●&nbsp;삼산터미널&nbsp;일대&nbsp;미래형&nbsp;복합공간&nbsp;전환<br>&nbsp;&nbsp;●&nbsp;청년·문화·미래산업&nbsp;중심&nbsp;도시공간&nbsp;조성<br>&nbsp;&nbsp;●&nbsp;교통체계&nbsp;재설계&nbsp;및&nbsp;환승&nbsp;기능&nbsp;강화<br>&nbsp;&nbsp;●&nbsp;동평초&nbsp;부지&nbsp;활용&nbsp;미래교육·평생학습&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;●&nbsp;세대별&nbsp;맞춤형&nbsp;교육·문화&nbsp;인프라&nbsp;확대<br>&nbsp;&nbsp;●&nbsp;도시&nbsp;경쟁력&nbsp;강화&nbsp;및&nbsp;미래도시&nbsp;기반&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;●&nbsp;삼산터미널&nbsp;기능·공간&nbsp;구조&nbsp;전면&nbsp;재검토&nbsp;추진<br>&nbsp;&nbsp;●&nbsp;터미널&nbsp;외곽&nbsp;이전&nbsp;가능성&nbsp;및&nbsp;교통체계&nbsp;개선&nbsp;검토<br>&nbsp;&nbsp;●&nbsp;현&nbsp;부지에&nbsp;청년창업·문화·AI&nbsp;미래산업&nbsp;복합공간&nbsp;조성<br>&nbsp;&nbsp;●&nbsp;트램&nbsp;연계&nbsp;환승체계&nbsp;및&nbsp;접근성&nbsp;강화&nbsp;추진<br>&nbsp;&nbsp;●&nbsp;동평초&nbsp;부지&nbsp;활용을&nbsp;위한&nbsp;교육청&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;●&nbsp;평생학습·디지털·취업·문화교육&nbsp;플랫폼&nbsp;단계적&nbsp;조성<br>&nbsp;&nbsp;●&nbsp;세대&nbsp;통합형&nbsp;미래교육&nbsp;프로그램&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;●&nbsp;취임&nbsp;후&nbsp;1년&nbsp;내&nbsp;기본구상&nbsp;및&nbsp;관계기관&nbsp;협의&nbsp;착수<br>&nbsp;&nbsp;●&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;타당성&nbsp;검토·기본계획&nbsp;수립&nbsp;및&nbsp;일부&nbsp;선행사업&nbsp;추진<br>&nbsp;&nbsp;●&nbsp;중장기적으로&nbsp;삼산터미널&nbsp;공간&nbsp;재편&nbsp;및&nbsp;미래복합공간&nbsp;단계별&nbsp;조성<br>&nbsp;&nbsp;●&nbsp;동평초&nbsp;활용&nbsp;평생학습·교육&nbsp;플랫폼은&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;운영&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;●&nbsp;도시재생·교통·교육&nbsp;분야&nbsp;국·시비&nbsp;공모사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;●&nbsp;민간투자&nbsp;및&nbsp;공공·민간&nbsp;협력방식&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;●&nbsp;기존&nbsp;공공부지&nbsp;활용을&nbsp;통한&nbsp;사업비&nbsp;절감<br>&nbsp;&nbsp;●&nbsp;단계별&nbsp;개발&nbsp;및&nbsp;연차별&nbsp;예산&nbsp;반영을&nbsp;통한&nbsp;재정&nbsp;부담&nbsp;분산</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

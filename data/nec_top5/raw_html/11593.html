@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이수찬 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	대구공항 도심존치 및 군공항 전액 국비 이전 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="대구공항 도심존치 및 군공항 전액 국비 이전 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;대구공항&nbsp;도심존치&nbsp;및&nbsp;군공항&nbsp;전액국비&nbsp;이전&nbsp;추진.<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;지자체&nbsp;재정파탄&nbsp;방지:&nbsp;기존의&nbsp;'기부&nbsp;대&nbsp;양여'&nbsp;방식이&nbsp;유발하는&nbsp;막대한&nbsp;금융비용과&nbsp;재정부담을&nbsp;대구시민에게&nbsp;떠넘기지&nbsp;않고,&nbsp;100%&nbsp;국비사업으로&nbsp;전환하여&nbsp;시&nbsp;재정건전성&nbsp;확보.<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;도심&nbsp;비즈니스&nbsp;허브&nbsp;구축:&nbsp;민간공항을&nbsp;외곽으로&nbsp;이전하는&nbsp;대신&nbsp;도심업무&nbsp;지구에서&nbsp;20분내&nbsp;접근&nbsp;가능한&nbsp;'콤팩트&nbsp;비즈니스&nbsp;도심공항'으로&nbsp;존치시켜&nbsp;청년과&nbsp;기업을&nbsp;유치함<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;보상&nbsp;및&nbsp;주거환경&nbsp;개선:&nbsp;수십년간&nbsp;소음피해를&nbsp;견뎌온&nbsp;대구시민들을&nbsp;위해&nbsp;군공항&nbsp;이전&nbsp;후&nbsp;남겨진&nbsp;부지를&nbsp;대구시로&nbsp;무상양도&nbsp;추진,<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;소음피해지&nbsp;사유지&nbsp;공공수용&nbsp;및&nbsp;생활안정기금&nbsp;지원으로&nbsp;소음피해주민보호<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;공공수용지:&nbsp;'항공물류특구'와&nbsp;'도심&nbsp;녹지'로&nbsp;재편하여&nbsp;산업적&nbsp;기회와&nbsp;쾌적한&nbsp;주거&nbsp;환경&nbsp;동시&nbsp;확보.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;군공항&nbsp;이전&nbsp;및&nbsp;보상재원&nbsp;전액&nbsp;국비부담원칙을&nbsp;담은&nbsp;특별법&nbsp;제개정<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;소음피해지&nbsp;사유지&nbsp;공공수용&nbsp;및&nbsp;생활안정기금&nbsp;전액&nbsp;국비부담&nbsp;추진은&nbsp;군공항&nbsp;이전사업&nbsp;진척에&nbsp;따라&nbsp;단계적으로&nbsp;국비예산을&nbsp;반영하여&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;후적지는&nbsp;국방부&nbsp;소유에서&nbsp;대구광역시로&nbsp;무상양도하는&nbsp;방식으로&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;~2036.&nbsp;7<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;전액국비&nbsp;지원&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;군공항&nbsp;이전&nbsp;전액&nbsp;국비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;후적지&nbsp;대구광역시에&nbsp;무상&nbsp;양도<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;소음피해지역&nbsp;공공수용비용은&nbsp;국비,&nbsp;지방비&nbsp;재정매칭&nbsp;방식으로&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(현&nbsp;소음피해보상금을&nbsp;선수령하는&nbsp;방식으로&nbsp;산정한&nbsp;국비지원도&nbsp;포함)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	매년 1조 원 규모 ‘청년창업 일자리 펀드’ 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="매년 1조 원 규모 ‘청년창업 일자리 펀드’ 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;혁신&nbsp;스타트업&nbsp;창업투자로&nbsp;인재&nbsp;유출&nbsp;방지&nbsp;및&nbsp;외부&nbsp;우수&nbsp;인재&nbsp;유입을&nbsp;위한&nbsp;‘청년&nbsp;창업&nbsp;메카’&nbsp;조성.<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;신산업(ABB,&nbsp;로봇,&nbsp;반도체&nbsp;등),&nbsp;문화예술,&nbsp;지식서비스&nbsp;중심의&nbsp;미래성장&nbsp;동력&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-.&nbsp;[1단계]&nbsp;펀드&nbsp;조성&nbsp;및&nbsp;운영을&nbsp;위한&nbsp;법적&nbsp;근거(조례)&nbsp;마련<br>&nbsp;&nbsp;-.&nbsp;[2단계]&nbsp;지자체&nbsp;출자예산&nbsp;확보&nbsp;및&nbsp;정부&nbsp;모태펀드,&nbsp;국부성장펀드,&nbsp;그리고&nbsp;민간투자&nbsp;매칭<br>&nbsp;&nbsp;-.&nbsp;[3단계]&nbsp;분야별(신산업,&nbsp;문화·지식)&nbsp;스타트업&nbsp;공모&nbsp;및&nbsp;투자&nbsp;개시<br><br>3.&nbsp;이행절차<br>&nbsp;-.&nbsp;임기&nbsp;1년차:&nbsp;‘청년창업&nbsp;펀드조성&nbsp;및&nbsp;운영조례’&nbsp;제정&nbsp;및&nbsp;지자체&nbsp;출자예산&nbsp;편성&nbsp;<br>&nbsp;-.&nbsp;임기&nbsp;2년차:&nbsp;중소벤처기업부&nbsp;모태펀드&nbsp;매칭&nbsp;및&nbsp;금융권·지역&nbsp;중견기업&nbsp;투자&nbsp;협약체결,&nbsp;국민성장펀드&nbsp;등&nbsp;유치<br>&nbsp;-.&nbsp;임기&nbsp;3~4년차:&nbsp;매년&nbsp;1조원&nbsp;규모씩&nbsp;총&nbsp;4조&nbsp;원&nbsp;펀드&nbsp;결성&nbsp;및&nbsp;본격적인&nbsp;기업&nbsp;투자&nbsp;실시<br>&nbsp;-.&nbsp;창업&nbsp;통합&nbsp;컨트롤타워&nbsp;설립을&nbsp;통한&nbsp;원스톱&nbsp;지원&nbsp;시스템&nbsp;상시&nbsp;운영<br>&nbsp;<br>□&nbsp;이행기한<br>&nbsp;&nbsp;-.&nbsp;조례제정&nbsp;및&nbsp;기반구축:&nbsp;2026년&nbsp;하반기까지&nbsp;완료<br>&nbsp;&nbsp;-.&nbsp;펀드조성&nbsp;및&nbsp;투자:&nbsp;2027년부터&nbsp;2030년(임기&nbsp;내)까지&nbsp;연차별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○.&nbsp;총&nbsp;소요예산:&nbsp;년&nbsp;1조&nbsp;원&nbsp;(펀드&nbsp;총&nbsp;결성액&nbsp;기준)&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;자체출자:&nbsp;행정통합&nbsp;또는&nbsp;세출&nbsp;구조조정을&nbsp;통해&nbsp;매년&nbsp;2,000억&nbsp;원&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;국비매칭:&nbsp;정부&nbsp;모태펀드&nbsp;및&nbsp;청년창업지원&nbsp;국비예산&nbsp;등&nbsp;4,000억&nbsp;원&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;민간자본:&nbsp;금융기관,&nbsp;벤처캐피탈,&nbsp;지역기업&nbsp;등&nbsp;민간투자&nbsp;약4,000억원&nbsp;매칭</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	대구 행정혁신, 생활권·경제권 중심의 '2대 통합구' 신설 및 자치분권 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="대구 행정혁신, 생활권·경제권 중심의 '2대 통합구' 신설 및 자치분권 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;인구규모&nbsp;및&nbsp;행정&nbsp;자원&nbsp;최적화,&nbsp;주민&nbsp;생활권과&nbsp;행정권의&nbsp;일치.<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;달성군&nbsp;다사·하빈지역과&nbsp;달서구&nbsp;성서지역을&nbsp;연계하여&nbsp;성서구를&nbsp;신설독립시겨&nbsp;낙동강&nbsp;스마트&nbsp;경제벨트&nbsp;및&nbsp;서부권&nbsp;친환경&nbsp;주거&nbsp;중심지로&nbsp;육성.<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;원도심인&nbsp;중·남·서구통합하여&nbsp;도심&nbsp;공동화&nbsp;현상을&nbsp;겪고&nbsp;있는&nbsp;3개구를&nbsp;하나의&nbsp;'통합&nbsp;원도심&nbsp;특구'로&nbsp;묶어&nbsp;행정효율과&nbsp;도시재생추진.<br><br>□&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;-.&nbsp;행정구역&nbsp;개편&nbsp;타격·타당성&nbsp;조사&nbsp;용역&nbsp;발주,&nbsp;해당&nbsp;지역&nbsp;구청장·군수&nbsp;및&nbsp;주민대표가&nbsp;참여하는&nbsp;'통합&nbsp;추진&nbsp;공동&nbsp;위원회'&nbsp;구성.<br>&nbsp;&nbsp;-.&nbsp;주민설명회,&nbsp;공청회,&nbsp;시민&nbsp;대토론회를&nbsp;거쳐&nbsp;여론을&nbsp;수렴하고&nbsp;관련&nbsp;지자체&nbsp;의회동의&nbsp;또는&nbsp;주민투표&nbsp;발의.<br>&nbsp;&nbsp;-.&nbsp;행정안전부&nbsp;건의&nbsp;및&nbsp;관련&nbsp;특별법(또는&nbsp;조례)&nbsp;제정&nbsp;추진,&nbsp;통합&nbsp;구청사&nbsp;위치&nbsp;선정&nbsp;및&nbsp;기능&nbsp;개편안&nbsp;확정.<br>&nbsp;&nbsp;-.&nbsp;전산시스템&nbsp;통합,&nbsp;조직개편&nbsp;및&nbsp;인사배치&nbsp;완료,&nbsp;통합행정&nbsp;체제&nbsp;공식출범.<br><br>□&nbsp;이행기한<br>&nbsp;&nbsp;-.&nbsp;2030년&nbsp;6월&nbsp;(임기&nbsp;내&nbsp;통합&nbsp;로드맵&nbsp;완성&nbsp;및&nbsp;기본&nbsp;출범완료)<br>&nbsp;&nbsp;-.&nbsp;2026년~&nbsp;민관&nbsp;실무협의체&nbsp;구성<br>&nbsp;&nbsp;-.&nbsp;2027년&nbsp;(주민&nbsp;공론화&nbsp;및&nbsp;의견&nbsp;수렴)<br>&nbsp;&nbsp;-.&nbsp;2028년&nbsp;(법제화&nbsp;및&nbsp;통합안&nbsp;확정)<br>&nbsp;&nbsp;-.&nbsp;2029년&nbsp;(통합&nbsp;행정동·구&nbsp;출범)<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;행정통합&nbsp;시스템&nbsp;구축&nbsp;및&nbsp;초기청사&nbsp;개보수&nbsp;비용&nbsp;등&nbsp;250억원&nbsp;예상<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;소요예산:&nbsp;행정통합&nbsp;시스템&nbsp;구축&nbsp;및&nbsp;초기청사&nbsp;개보수&nbsp;비용&nbsp;등&nbsp;250억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;국비유치:&nbsp;지방자치분권&nbsp;및&nbsp;지역균형발전에&nbsp;관한&nbsp;특별법에&nbsp;따른&nbsp;정부&nbsp;통합&nbsp;인센티브&nbsp;특별교부세&nbsp;확보&nbsp;150억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;시비확보:&nbsp;대구시&nbsp;일반회계&nbsp;운영&nbsp;효율화&nbsp;절감액&nbsp;및&nbsp;예비비&nbsp;활용&nbsp;100억원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	영천댐 1급수 상수원 확보 및 안전한 물 공급체계 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="영천댐 1급수 상수원 확보 및 안전한 물 공급체계 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;식수원&nbsp;다변화로&nbsp;영천댐&nbsp;1급수&nbsp;상수원&nbsp;확보&nbsp;및&nbsp;안전한&nbsp;물&nbsp;공급&nbsp;체계구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;낙동강&nbsp;하류(강창보&nbsp;등)&nbsp;중심의&nbsp;불안정한&nbsp;취수체계에서&nbsp;탈피,&nbsp;영천댐&nbsp;1급수를&nbsp;상수원으로&nbsp;확보하여&nbsp;시민&nbsp;건강권&nbsp;강화.<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;고도정수가&nbsp;필요한&nbsp;낙동강&nbsp;수원&nbsp;의존도를&nbsp;낮추고,&nbsp;정수과정이&nbsp;간소하고&nbsp;깨끗한&nbsp;청정수원을&nbsp;확보하여&nbsp;물&nbsp;복지를&nbsp;실현함.<br>&nbsp;&nbsp;&nbsp;&nbsp;-.&nbsp;현재&nbsp;공업용수&nbsp;위주인&nbsp;영천댐&nbsp;수원을&nbsp;생활용수로&nbsp;우선&nbsp;전환하는&nbsp;제도적&nbsp;기반을&nbsp;마련함.<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;-.&nbsp;용수목적&nbsp;전환협의:&nbsp;국토교통부,&nbsp;한국수자원공사(K-water)와&nbsp;협의하여&nbsp;영천댐&nbsp;용수&nbsp;배분&nbsp;계획상&nbsp;'공업용수'&nbsp;물량을&nbsp;'생활용수'로&nbsp;우선&nbsp;조정&nbsp;추진함.<br>&nbsp;&nbsp;-.&nbsp;도수관로&nbsp;신설&nbsp;및&nbsp;정비로&nbsp;영천댐에서&nbsp;대구권&nbsp;정수장까지&nbsp;직접&nbsp;연결되는&nbsp;전용&nbsp;도수관로를&nbsp;확충하여&nbsp;낙동강&nbsp;오염원&nbsp;유입을&nbsp;원천&nbsp;차단함.<br>&nbsp;&nbsp;-.&nbsp;상수원&nbsp;보호구역&nbsp;고도관리로&nbsp;？영천댐&nbsp;상류지역의&nbsp;환경&nbsp;기초시설(하수도&nbsp;등)을&nbsp;대폭&nbsp;보강하여&nbsp;1급수&nbsp;수질을&nbsp;영구적으로&nbsp;보존함.&nbsp;<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;-.&nbsp;협의단계&nbsp;(2026년~2027년):&nbsp;국가&nbsp;물관리위원회&nbsp;및&nbsp;수자원공사와&nbsp;'영천댐&nbsp;용수&nbsp;재배분'&nbsp;및&nbsp;'광역상수도&nbsp;정비계획'&nbsp;반영&nbsp;추진.<br>&nbsp;&nbsp;-.&nbsp;설계/착공&nbsp;(2027년~2028년):&nbsp;도수관로&nbsp;신설,&nbsp;배수지&nbsp;확장설계,&nbsp;공사착수.<br>&nbsp;&nbsp;-.&nbsp;완료단계&nbsp;(2030년):&nbsp;1급수&nbsp;공급개시,&nbsp;낙동강-영천댐&nbsp;이원화&nbsp;급수체계완성.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-.&nbsp;예산확보:&nbsp;국비&nbsp;70%(광역상수도&nbsp;사업&nbsp;전환),&nbsp;지방비&nbsp;30%&nbsp;비율로&nbsp;추진.<br>&nbsp;&nbsp;-.&nbsp;정부사업&nbsp;연계:&nbsp;환경부의&nbsp;'안전한&nbsp;수돗물&nbsp;공급&nbsp;대책'&nbsp;및&nbsp;'기후위기&nbsp;대응댐&nbsp;활용&nbsp;계획'과&nbsp;연계하여&nbsp;예타&nbsp;면제&nbsp;및&nbsp;국고&nbsp;보조금&nbsp;확보&nbsp;추진.&nbsp;<br>&nbsp;&nbsp;-.&nbsp;수계기금&nbsp;활용:&nbsp;낙동강&nbsp;수계관리기금을&nbsp;수질개선,&nbsp;관로정비&nbsp;사업비로&nbsp;유치.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	반려인과 공존하는 안심 반려문화 친화도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="반려인과 공존하는 안심 반려문화 친화도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표:&nbsp;반려인과&nbsp;공존하는&nbsp;안심&nbsp;반려문화&nbsp;친화도시&nbsp;조성<br>&nbsp;&nbsp;-.&nbsp;인프라&nbsp;구축:&nbsp;도시&nbsp;거점별&nbsp;반려동물&nbsp;전용&nbsp;공원&nbsp;및&nbsp;반려문화&nbsp;복합센터&nbsp;건립<br>&nbsp;&nbsp;-.&nbsp;제도적&nbsp;지원:&nbsp;취약계층&nbsp;반려동물&nbsp;의료비&nbsp;지원&nbsp;및&nbsp;권역별&nbsp;24시간&nbsp;응급&nbsp;반려&nbsp;공공병원&nbsp;지정.<br>&nbsp;&nbsp;-.&nbsp;성숙한&nbsp;문화정착:&nbsp;맹견사고&nbsp;예방교육&nbsp;및&nbsp;행동교정&nbsp;전문&nbsp;프로그램&nbsp;상설운영으로&nbsp;반려인과&nbsp;비반려인&nbsp;간의&nbsp;갈등&nbsp;최소화.<br><br>□&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;-.&nbsp;'반려문화친화&nbsp;도시&nbsp;조성&nbsp;및&nbsp;지원에&nbsp;관한&nbsp;조례'&nbsp;제정,&nbsp;관내&nbsp;국공유지&nbsp;중&nbsp;반려동물&nbsp;테마파크&nbsp;최적지&nbsp;선정&nbsp;및&nbsp;설계&nbsp;착수.<br>&nbsp;&nbsp;-.&nbsp;거점별&nbsp;반려동물&nbsp;놀이터&nbsp;3개소&nbsp;착공,&nbsp;취약계층&nbsp;반려동물&nbsp;의료비&nbsp;예산지원<br>&nbsp;&nbsp;-.&nbsp;'반려문화&nbsp;복합센터'&nbsp;준공,&nbsp;펫티켓&nbsp;전문&nbsp;강사&nbsp;양성&nbsp;및&nbsp;초·중등생&nbsp;대상&nbsp;동물보호&nbsp;인식&nbsp;교육&nbsp;프로그램&nbsp;전면&nbsp;도입.<br>&nbsp;&nbsp;-.&nbsp;24시간&nbsp;공공&nbsp;응급의료&nbsp;체계&nbsp;완비,&nbsp;'정부&nbsp;공인&nbsp;반려문화&nbsp;우수도시'&nbsp;인증&nbsp;획득&nbsp;및&nbsp;반려산업(펫테크·펫푸드)&nbsp;창업&nbsp;지원&nbsp;센터&nbsp;활성화.<br><br>□&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;-.&nbsp;2026년~&nbsp;관련조례&nbsp;제정과&nbsp;기존조례개정&nbsp;및&nbsp;부지&nbsp;확보<br>&nbsp;&nbsp;-.&nbsp;2027년~&nbsp;인프라&nbsp;착공&nbsp;및&nbsp;공공&nbsp;의료&nbsp;도입<br>&nbsp;&nbsp;-.&nbsp;2028년~&nbsp;발려동물&nbsp;복합센터&nbsp;준공&nbsp;등<br>&nbsp;&nbsp;-.&nbsp;2029년~&nbsp;임기내&nbsp;기본&nbsp;인프라,&nbsp;도시&nbsp;인증&nbsp;및&nbsp;시스템&nbsp;안착<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-.&nbsp;총&nbsp;소요예산:&nbsp;약&nbsp;300억&nbsp;원<br>&nbsp;&nbsp;-.&nbsp;국비&nbsp;유치:&nbsp;120억&nbsp;원&nbsp;(농림축산식품부&nbsp;'반려동물&nbsp;인프라&nbsp;구축&nbsp;공모사업'&nbsp;및&nbsp;지역밀착형&nbsp;생활&nbsp;SOC&nbsp;예산&nbsp;확보)<br>&nbsp;&nbsp;-.&nbsp;지방비:&nbsp;130억&nbsp;원&nbsp;(일반회계&nbsp;문화복지&nbsp;예산편성)<br>&nbsp;&nbsp;-.&nbsp;민간자본:&nbsp;50억&nbsp;원(복합&nbsp;테마파크&nbsp;내&nbsp;민간&nbsp;상업시설(펫카페,&nbsp;펫호텔&nbsp;등)&nbsp;유치</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;방인섭 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	열린구청·생활민원 72시간 책임처리제 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="열린구청·생활민원 72시간 책임처리제 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;주민이&nbsp;쉽게&nbsp;찾고,&nbsp;빠르게&nbsp;답을&nbsp;듣는&nbsp;열린구청을&nbsp;만들겠습니다.&nbsp;<br>도로&nbsp;파손,&nbsp;가로등&nbsp;고장,&nbsp;쓰레기&nbsp;적치,&nbsp;골목&nbsp;안전,&nbsp;보행&nbsp;불편&nbsp;등&nbsp;생활민원을&nbsp;신속하게&nbsp;처리하는&nbsp;행정체계를&nbsp;구축하겠습니다.&nbsp;<br>주민이&nbsp;여러&nbsp;부서를&nbsp;전전하지&nbsp;않도록&nbsp;민원&nbsp;접수부터&nbsp;처리&nbsp;결과까지&nbsp;한&nbsp;번에&nbsp;확인할&nbsp;수&nbsp;있는&nbsp;원스톱&nbsp;민원&nbsp;대응&nbsp;시스템을&nbsp;마련하겠습니다.&nbsp;<br>행정의&nbsp;문턱은&nbsp;낮추고,&nbsp;현장&nbsp;대응은&nbsp;빠르게&nbsp;하여&nbsp;주민이&nbsp;체감하는&nbsp;생활행정을&nbsp;실현하겠습니다.<br>□&nbsp;이행방법<br>○&nbsp;생활민원&nbsp;72시간&nbsp;책임처리&nbsp;시스템을&nbsp;구축하겠습니다.&nbsp;<br>생활불편&nbsp;민원을&nbsp;유형별로&nbsp;분류하고,&nbsp;담당부서&nbsp;지정&nbsp;및&nbsp;처리&nbsp;기한을&nbsp;명확히&nbsp;하겠습니다.&nbsp;<br>민원&nbsp;접수&nbsp;후&nbsp;현장&nbsp;확인,&nbsp;처리&nbsp;계획&nbsp;안내,&nbsp;결과&nbsp;통보까지&nbsp;단계별&nbsp;관리체계를&nbsp;마련하겠습&nbsp;니다.&nbsp;반복&nbsp;민원과&nbsp;장기&nbsp;미해결&nbsp;민원은&nbsp;구청장&nbsp;직속&nbsp;점검체계를&nbsp;통해&nbsp;직접&nbsp;관리하겠습니다.&nbsp;동&nbsp;행정복지센터와&nbsp;구청&nbsp;부서&nbsp;간&nbsp;협업체계를&nbsp;강화하여&nbsp;주민&nbsp;생활현장&nbsp;중심의&nbsp;행정을&nbsp;추진하겠습니다.&nbsp;주민이&nbsp;직접&nbsp;동네&nbsp;문제를&nbsp;제안하고&nbsp;해결&nbsp;과정에&nbsp;참여할&nbsp;수&nbsp;있도록&nbsp;남구형&nbsp;주민자율예산제와&nbsp;연계하겠습니다.<br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;내&nbsp;단계적으로&nbsp;추진하겠습니다.&nbsp;2026년&nbsp;:&nbsp;생활민원&nbsp;처리&nbsp;실태&nbsp;점검&nbsp;및&nbsp;전담&nbsp;관리체계&nbsp;구축&nbsp;2027년&nbsp;:&nbsp;생활민원&nbsp;72시간&nbsp;책임처리제&nbsp;시범&nbsp;운영&nbsp;및&nbsp;시스템&nbsp;보완&nbsp;2028년&nbsp;:&nbsp;전&nbsp;동&nbsp;확대&nbsp;시행&nbsp;및&nbsp;주민자율예산제&nbsp;연계&nbsp;추진&nbsp;2029년&nbsp;이후&nbsp;:&nbsp;민원&nbsp;처리&nbsp;결과&nbsp;공개&nbsp;및&nbsp;주민&nbsp;만족도&nbsp;평가를&nbsp;통한&nbsp;지속&nbsp;개선<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;기존&nbsp;행정&nbsp;운영&nbsp;예산을&nbsp;우선&nbsp;활용하고,&nbsp;필요한&nbsp;경우&nbsp;구비를&nbsp;단계적으로&nbsp;반영하겠습니다.&nbsp;기존&nbsp;민원처리,&nbsp;도로·조명·환경·안전&nbsp;관련&nbsp;부서&nbsp;예산을&nbsp;효율적으로&nbsp;재조정하겠습니다.&nbsp;<br>생활환경&nbsp;개선,&nbsp;보행안전,&nbsp;주민참여예산&nbsp;등&nbsp;관련&nbsp;국·시비&nbsp;공모사업과&nbsp;연계하겠습니다.&nbsp;<br>대규모&nbsp;토목사업보다&nbsp;주민&nbsp;생활에&nbsp;직접&nbsp;닿는&nbsp;소규모&nbsp;민생사업을&nbsp;우선&nbsp;배정하여&nbsp;예산의&nbsp;체감도를&nbsp;높이겠습니다.&nbsp;<br>사업&nbsp;추진&nbsp;과정에서&nbsp;주민&nbsp;의견을&nbsp;반영하고,&nbsp;처리&nbsp;결과를&nbsp;투명하게&nbsp;관리하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	청년들이 살고 싶은 남구 만들기 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="청년들이 살고 싶은 남구 만들기 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;청년이&nbsp;떠나는&nbsp;남구가&nbsp;아니라,&nbsp;청년이&nbsp;머무르고&nbsp;다시&nbsp;찾아오는&nbsp;남구를&nbsp;만들겠습니다.&nbsp;청년&nbsp;일자리,&nbsp;주거,&nbsp;문화,&nbsp;창업&nbsp;기반을&nbsp;함께&nbsp;마련해&nbsp;청년들의&nbsp;정착&nbsp;여건을&nbsp;높이겠습니다.&nbsp;남구의&nbsp;산업&nbsp;기반과&nbsp;지역&nbsp;상권을&nbsp;연계해&nbsp;청년에게&nbsp;실질적인&nbsp;일자리&nbsp;기회를&nbsp;제공하겠습니다.&nbsp;청년들이&nbsp;지역&nbsp;안에서&nbsp;일하고,&nbsp;살고,&nbsp;즐길&nbsp;수&nbsp;있는&nbsp;생활권&nbsp;중심의&nbsp;청년정책을&nbsp;추진하겠습니다.<br>□&nbsp;이행방법<br>○&nbsp;청년&nbsp;일자리·주거·문화가&nbsp;연결되는&nbsp;종합&nbsp;청년정책을&nbsp;추진하겠습니다.&nbsp;<br>남구&nbsp;특성에&nbsp;맞는&nbsp;기업&nbsp;유치와&nbsp;지역&nbsp;청년&nbsp;고용&nbsp;연계&nbsp;방안을&nbsp;마련하겠습니다.&nbsp;<br>청년&nbsp;창업자와&nbsp;예비&nbsp;창업자를&nbsp;위한&nbsp;상담,&nbsp;교육,&nbsp;공간,&nbsp;행정&nbsp;지원&nbsp;체계를&nbsp;강화하겠습니다.&nbsp;<br>기존&nbsp;건물과&nbsp;유휴공간을&nbsp;활용한&nbsp;청년&nbsp;주거&nbsp;지원&nbsp;방안을&nbsp;검토하겠습니다.&nbsp;<br>청년들이&nbsp;모이고&nbsp;활동할&nbsp;수&nbsp;있는&nbsp;문화·커뮤니티&nbsp;공간을&nbsp;확대하겠습니다.&nbsp;<br>청년정책&nbsp;수립&nbsp;과정에&nbsp;청년&nbsp;당사자가&nbsp;직접&nbsp;참여할&nbsp;수&nbsp;있는&nbsp;소통&nbsp;창구를&nbsp;마련하겠습니다.<br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;내&nbsp;단계적으로&nbsp;추진하겠습니다.&nbsp;<br>2026년&nbsp;:&nbsp;청년정책&nbsp;실태조사&nbsp;및&nbsp;청년&nbsp;의견수렴&nbsp;창구&nbsp;구성&nbsp;<br>2027년&nbsp;:&nbsp;청년&nbsp;일자리·창업&nbsp;지원&nbsp;프로그램&nbsp;시범&nbsp;운영&nbsp;<br>2028년&nbsp;:&nbsp;청년&nbsp;주거·문화공간&nbsp;지원사업&nbsp;확대&nbsp;<br>2029년&nbsp;이후&nbsp;:&nbsp;청년정책&nbsp;성과&nbsp;점검&nbsp;및&nbsp;지속&nbsp;보완<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;구비와&nbsp;국·시비&nbsp;청년정책&nbsp;사업을&nbsp;연계해&nbsp;추진하겠습니다.&nbsp;<br>기존&nbsp;청년,&nbsp;일자리,&nbsp;창업,&nbsp;주거&nbsp;관련&nbsp;예산을&nbsp;효율적으로&nbsp;연계하겠습니다.&nbsp;<br>고용노동부,&nbsp;중소벤처기업부,&nbsp;울산광역시&nbsp;청년지원&nbsp;사업과&nbsp;연계하겠습니다.&nbsp;<br>민간기업,&nbsp;지역대학,&nbsp;창업지원기관과&nbsp;협력해&nbsp;재정&nbsp;부담을&nbsp;줄이고&nbsp;정책&nbsp;효과를&nbsp;높이겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	주차 전쟁 없는 남구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="주차 전쟁 없는 남구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;주차난으로&nbsp;인한&nbsp;주민&nbsp;불편과&nbsp;상권&nbsp;침체를&nbsp;줄이고,&nbsp;생활권&nbsp;곳곳에&nbsp;실질적인&nbsp;주차공간을&nbsp;확충하겠습니다.&nbsp;대형&nbsp;주차장&nbsp;중심의&nbsp;방식에서&nbsp;벗어나&nbsp;동네&nbsp;구석구석&nbsp;필요한&nbsp;곳에&nbsp;작은&nbsp;주차공간을&nbsp;마련하겠습니다.&nbsp;<br>주택가,&nbsp;전통시장,&nbsp;골목상권,&nbsp;학교&nbsp;주변&nbsp;등&nbsp;주차&nbsp;수요가&nbsp;높은&nbsp;지역을&nbsp;우선적으로&nbsp;개선하겠습니다.&nbsp;주차&nbsp;문제&nbsp;해결을&nbsp;통해&nbsp;주민&nbsp;생활&nbsp;편의와&nbsp;지역&nbsp;상권&nbsp;활성화를&nbsp;함께&nbsp;추진하겠습니다.<br>□&nbsp;이행방법<br>○&nbsp;유휴부지,&nbsp;공공부지,&nbsp;민간&nbsp;유휴공간을&nbsp;활용한&nbsp;생활권&nbsp;주차장을&nbsp;확대하겠습니다.&nbsp;동별&nbsp;주차&nbsp;수요와&nbsp;민원&nbsp;현황을&nbsp;조사해&nbsp;우선&nbsp;개선지역을&nbsp;선정하겠습니다.&nbsp;자투리땅,&nbsp;유휴부지,&nbsp;공공시설&nbsp;부설주차장&nbsp;등을&nbsp;활용한&nbsp;소규모&nbsp;공영주차장을&nbsp;조성하겠습니다.&nbsp;학교,&nbsp;종교시설,&nbsp;공공기관,&nbsp;민간건물&nbsp;등과&nbsp;협의해&nbsp;야간·주말&nbsp;공유주차장을&nbsp;확대하겠습니다.&nbsp;전통시장과&nbsp;골목상권&nbsp;주변에는&nbsp;상권&nbsp;이용객을&nbsp;위한&nbsp;단기&nbsp;주차공간&nbsp;확보를&nbsp;추진하겠습니다.&nbsp;불법주정차가&nbsp;반복되는&nbsp;지역은&nbsp;주차공간&nbsp;확보와&nbsp;보행안전&nbsp;개선을&nbsp;함께&nbsp;추진하겠습니다.<br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;내&nbsp;단계적으로&nbsp;추진하겠습니다.&nbsp;<br>2026년&nbsp;:&nbsp;동별&nbsp;주차&nbsp;수요&nbsp;조사&nbsp;및&nbsp;우선지역&nbsp;선정&nbsp;<br>2027년&nbsp;:&nbsp;유휴부지&nbsp;활용&nbsp;소규모&nbsp;주차장&nbsp;조성&nbsp;시작&nbsp;<br>2028년&nbsp;:&nbsp;공유주차장&nbsp;확대&nbsp;및&nbsp;상권&nbsp;주변&nbsp;주차환경&nbsp;개선&nbsp;<br>2029년&nbsp;이후&nbsp;:&nbsp;주차&nbsp;수요&nbsp;재점검&nbsp;및&nbsp;추가&nbsp;확충<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;구비와&nbsp;시비,&nbsp;주차환경&nbsp;개선&nbsp;관련&nbsp;공모사업을&nbsp;연계하겠습니다.&nbsp;<br>공영주차장&nbsp;조성&nbsp;및&nbsp;주차환경&nbsp;개선&nbsp;예산을&nbsp;우선&nbsp;활용하겠습니다.&nbsp;<br>국·시비&nbsp;공모사업,&nbsp;전통시장&nbsp;및&nbsp;상권&nbsp;활성화&nbsp;사업과&nbsp;연계하겠습니다.&nbsp;<br>민간&nbsp;유휴공간&nbsp;활용&nbsp;시&nbsp;협약을&nbsp;통해&nbsp;예산&nbsp;부담을&nbsp;줄이고&nbsp;효율성을&nbsp;높이겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	남구형 주민자율예산제 도입</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="남구형 주민자율예산제 도입">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;우리&nbsp;동네에&nbsp;필요한&nbsp;예산을&nbsp;주민이&nbsp;직접&nbsp;제안하고&nbsp;결정하는&nbsp;남구를&nbsp;만들겠습니다.&nbsp;행정이&nbsp;일방적으로&nbsp;정하는&nbsp;예산이&nbsp;아니라,&nbsp;주민&nbsp;생활현장에서&nbsp;필요한&nbsp;사업을&nbsp;우선&nbsp;반영하겠습니다.&nbsp;골목&nbsp;조명,&nbsp;보행환경,&nbsp;안전시설,&nbsp;녹지&nbsp;정비,&nbsp;생활편의시설&nbsp;등&nbsp;주민&nbsp;체감형&nbsp;사업을&nbsp;확대하겠습니다.&nbsp;동별&nbsp;특성과&nbsp;주민&nbsp;의견을&nbsp;반영한&nbsp;생활밀착형&nbsp;예산&nbsp;운영&nbsp;체계를&nbsp;만들겠습니다.<br>□&nbsp;이행방법<br>○&nbsp;남구&nbsp;전&nbsp;동에&nbsp;주민자율예산제를&nbsp;단계적으로&nbsp;도입하겠습니다.&nbsp;<br>각&nbsp;동별로&nbsp;주민이&nbsp;직접&nbsp;생활불편&nbsp;사항과&nbsp;필요한&nbsp;사업을&nbsp;제안할&nbsp;수&nbsp;있도록&nbsp;하겠습니다.&nbsp;<br>주민회의,&nbsp;온라인&nbsp;접수,&nbsp;현장&nbsp;간담회&nbsp;등을&nbsp;통해&nbsp;다양한&nbsp;의견을&nbsp;수렴하겠습니다.&nbsp;<br>제안된&nbsp;사업은&nbsp;필요성,&nbsp;시급성,&nbsp;실현&nbsp;가능성&nbsp;등을&nbsp;검토해&nbsp;우선순위를&nbsp;정하겠습니다.&nbsp;<br>선정된&nbsp;사업은&nbsp;예산&nbsp;편성,&nbsp;집행,&nbsp;결과&nbsp;공개까지&nbsp;주민이&nbsp;확인할&nbsp;수&nbsp;있도록&nbsp;하겠습니다.&nbsp;<br>생활민원&nbsp;72시간&nbsp;책임처리제와&nbsp;연계해&nbsp;반복되는&nbsp;동네&nbsp;문제를&nbsp;예산사업으로&nbsp;해결하겠습니다.<br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;내&nbsp;전&nbsp;동&nbsp;확대를&nbsp;목표로&nbsp;추진하겠습니다.&nbsp;<br>2026년&nbsp;:&nbsp;제도&nbsp;설계&nbsp;및&nbsp;시범&nbsp;동&nbsp;선정&nbsp;<br>2027년&nbsp;:&nbsp;시범사업&nbsp;운영&nbsp;및&nbsp;주민&nbsp;의견&nbsp;반영&nbsp;<br>2028년&nbsp;:&nbsp;남구&nbsp;전&nbsp;동&nbsp;확대&nbsp;시행&nbsp;<br>2029년&nbsp;이후&nbsp;:&nbsp;사업&nbsp;평가&nbsp;및&nbsp;주민&nbsp;참여&nbsp;방식&nbsp;개선<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;기존&nbsp;주민참여예산과&nbsp;생활환경&nbsp;개선&nbsp;예산을&nbsp;연계해&nbsp;추진하겠습니다.&nbsp;<br>구비를&nbsp;중심으로&nbsp;추진하되,&nbsp;사업&nbsp;성격에&nbsp;따라&nbsp;시비&nbsp;지원사업과&nbsp;연계하겠습니다.&nbsp;<br>대규모&nbsp;개발사업보다&nbsp;주민&nbsp;체감도가&nbsp;높은&nbsp;소규모&nbsp;생활개선사업을&nbsp;우선&nbsp;반영하겠습니다.&nbsp;<br>예산&nbsp;편성&nbsp;및&nbsp;집행&nbsp;결과를&nbsp;투명하게&nbsp;공개해&nbsp;주민&nbsp;신뢰를&nbsp;높이겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	소상공인·골목상권 회복 지원체계 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="소상공인·골목상권 회복 지원체계 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;남구&nbsp;소상공인과&nbsp;골목상권이&nbsp;다시&nbsp;살아날&nbsp;수&nbsp;있도록&nbsp;현장&nbsp;중심의&nbsp;지원체계를&nbsp;만들겠습니다.&nbsp;창업,&nbsp;경영,&nbsp;세무,&nbsp;노무,&nbsp;홍보,&nbsp;판로&nbsp;지원을&nbsp;한&nbsp;번에&nbsp;연결하는&nbsp;체계를&nbsp;마련하겠습니다.&nbsp;어려움을&nbsp;겪는&nbsp;소상공인이&nbsp;행정기관을&nbsp;전전하지&nbsp;않도록&nbsp;실질적인&nbsp;상담과&nbsp;지원을&nbsp;강화하겠습니다.&nbsp;지역&nbsp;상권별&nbsp;특성에&nbsp;맞는&nbsp;맞춤형&nbsp;활성화&nbsp;정책을&nbsp;추진하겠습니다.<br>□&nbsp;이행방법<br>○&nbsp;소상공인&nbsp;지원&nbsp;전담창구를&nbsp;강화하고,&nbsp;골목상권별&nbsp;맞춤형&nbsp;지원사업을&nbsp;추진하겠습니다.&nbsp;<br>소상공인&nbsp;경영&nbsp;애로사항을&nbsp;상담하고&nbsp;지원사업을&nbsp;안내하는&nbsp;원스톱&nbsp;창구를&nbsp;운영하겠습니다.&nbsp;<br>세무,&nbsp;노무,&nbsp;법률,&nbsp;마케팅,&nbsp;온라인&nbsp;홍보&nbsp;교육을&nbsp;정기적으로&nbsp;추진하겠습니다.&nbsp;전통시장,&nbsp;먹자골목,&nbsp;골목상권별&nbsp;상인회와&nbsp;협력해&nbsp;상권별&nbsp;활성화&nbsp;계획을&nbsp;수립하겠습니다.&nbsp;지역&nbsp;축제,&nbsp;문화행사,&nbsp;소비촉진&nbsp;캠페인과&nbsp;상권을&nbsp;연계해&nbsp;방문객&nbsp;유입을&nbsp;늘리겠습니다.&nbsp;<br>폐업&nbsp;위기&nbsp;소상공인과&nbsp;재도전&nbsp;희망자를&nbsp;위한&nbsp;상담&nbsp;및&nbsp;연계&nbsp;지원을&nbsp;강화하겠습니다.<br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;내&nbsp;단계적으로&nbsp;추진하겠습니다.&nbsp;<br>2026년&nbsp;:&nbsp;소상공인&nbsp;애로사항&nbsp;조사&nbsp;및&nbsp;전담&nbsp;지원체계&nbsp;정비&nbsp;<br>2027년&nbsp;:&nbsp;경영·홍보·세무·노무&nbsp;지원&nbsp;프로그램&nbsp;운영&nbsp;<br>2028년&nbsp;:&nbsp;골목상권별&nbsp;맞춤형&nbsp;활성화&nbsp;사업&nbsp;확대&nbsp;<br>2029년&nbsp;이후&nbsp;:&nbsp;상권별&nbsp;성과&nbsp;평가&nbsp;및&nbsp;지속&nbsp;지원<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;기존&nbsp;소상공인&nbsp;지원&nbsp;예산과&nbsp;국·시비&nbsp;사업을&nbsp;연계하겠습니다.&nbsp;<br>구비를&nbsp;중심으로&nbsp;하되,&nbsp;중소벤처기업부,&nbsp;울산광역시,&nbsp;소상공인시장진흥공단&nbsp;사업과&nbsp;연계하겠습니다.&nbsp;전통시장&nbsp;활성화,&nbsp;지역상권&nbsp;회복,&nbsp;골목경제&nbsp;지원사업&nbsp;등&nbsp;외부&nbsp;재원을&nbsp;적극&nbsp;확보하겠습니다.&nbsp;<br>상인회,&nbsp;민간기관,&nbsp;지역기업과&nbsp;협력해&nbsp;공동사업&nbsp;방식으로&nbsp;추진하겠습니다.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;허태정 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	민생경제 회복</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="민생경제 회복">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;고유가로부터&nbsp;시민&nbsp;부담을&nbsp;줄이고&nbsp;민생경제&nbsp;회복의&nbsp;마중물&nbsp;제공&nbsp;&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;더&nbsp;좋은&nbsp;온통대전&nbsp;2.0&nbsp;부활&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통환급,&nbsp;탄소감축&nbsp;인센티브&nbsp;등&nbsp;정책수당&nbsp;통합<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소비촉진의&nbsp;핵심인&nbsp;캐시백&nbsp;일관성&nbsp;확보&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소비데이터&nbsp;분석자료를&nbsp;소상공인에게&nbsp;경영활용&nbsp;정보로&nbsp;제공&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인간&nbsp;B2B&nbsp;거래&nbsp;시범도입을&nbsp;통해&nbsp;지역순환경제&nbsp;플랫폼&nbsp;구축&nbsp;<br>&nbsp;&nbsp;○&nbsp;대전형&nbsp;고유가&nbsp;피해지원금&nbsp;지급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부지원과&nbsp;연계한&nbsp;대전형&nbsp;고유가&nbsp;피해지원금&nbsp;지급&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지원&nbsp;사각지대,&nbsp;피해가&nbsp;큰&nbsp;소상공인에게&nbsp;두텁게&nbsp;지원&nbsp;<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;안전망&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여성,&nbsp;어르신,&nbsp;청년&nbsp;등&nbsp;1인&nbsp;점포&nbsp;위기&nbsp;상황&nbsp;대응을&nbsp;위한&nbsp;소상공인&nbsp;365안심콜<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재고관리,&nbsp;상권분석,마케팅이&nbsp;가능한&nbsp;AI매장관리비서&nbsp;보급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취약계층과&nbsp;소상공인을&nbsp;위한&nbsp;대전형&nbsp;에너지바우처&nbsp;지원&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;더&nbsp;좋은&nbsp;온통대전&nbsp;2.0&nbsp;부활&nbsp;:&nbsp;2026년~2030년<br>&nbsp;&nbsp;○&nbsp;대전형&nbsp;고유가&nbsp;피해지원금&nbsp;지급&nbsp;:&nbsp;2026년&nbsp;즉시&nbsp;추경<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;안전망&nbsp;구축&nbsp;:&nbsp;2026년~2030년&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;더&nbsp;좋은&nbsp;온통대전&nbsp;2.0&nbsp;부활&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국토부&nbsp;대중교통&nbsp;이용&nbsp;지원,&nbsp;환경부&nbsp;탄소포인트&nbsp;등&nbsp;개별&nbsp;국비&nbsp;사업을&nbsp;플랫폼에&nbsp;통합&nbsp;+&nbsp;행안부&nbsp;지역사랑상품권&nbsp;발행&nbsp;지원&nbsp;국비·시비<br>&nbsp;&nbsp;○&nbsp;대전형&nbsp;고유가&nbsp;피해지원금&nbsp;지급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;사업&nbsp;세출&nbsp;조정,&nbsp;시비<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;안전망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중기부&nbsp;소상공인&nbsp;디지털&nbsp;전환&nbsp;국비·시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	청년특별시 대전</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="청년특별시 대전">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청년이&nbsp;배우고&nbsp;일하며,&nbsp;살고&nbsp;즐기는&nbsp;청년특별시&nbsp;대전&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청년이&nbsp;교육받고&nbsp;일하는&nbsp;도시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;내&nbsp;모든&nbsp;청년에게&nbsp;필요한&nbsp;취업&nbsp;정보&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;ABCDEF(AI,&nbsp;Bio,&nbsp;Contents,&nbsp;Defense,&nbsp;Energy,&nbsp;Factory)&nbsp;기반“중부권&nbsp;인재&nbsp;양성&nbsp;앵커도시”&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방산&nbsp;특화,&nbsp;공공기관&nbsp;특화&nbsp;계약학과&nbsp;등&nbsp;대학별&nbsp;특화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;R&D,&nbsp;딥테크&nbsp;중심&nbsp;창업지원으로&nbsp;대전형&nbsp;실리콘밸리&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년기술창업펀드&nbsp;조성을&nbsp;통한&nbsp;자금지원,&nbsp;멘토링&nbsp;지원&nbsp;<br>&nbsp;&nbsp;○&nbsp;청년이&nbsp;사는&nbsp;도시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;역세권,&nbsp;도심융합특구&nbsp;등&nbsp;정주여건이&nbsp;좋은&nbsp;곳에&nbsp;청년주택&nbsp;5,000호&nbsp;공급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대전도시공사&nbsp;다가온&nbsp;확대,&nbsp;LH연계,&nbsp;공공지원&nbsp;청년민간임대&nbsp;활용&nbsp;<br>&nbsp;&nbsp;○&nbsp;청년이&nbsp;즐기는&nbsp;도시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;만&nbsp;14세~23세&nbsp;미래세대에게&nbsp;문화바우처&nbsp;지급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공연,전시,영화,도서,체험&nbsp;등에&nbsp;사용&nbsp;가능<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;청년이&nbsp;교육받고&nbsp;일하는&nbsp;도시&nbsp;:&nbsp;2026년~2030년&nbsp;<br>&nbsp;&nbsp;○&nbsp;청년이&nbsp;사는&nbsp;도시&nbsp;:&nbsp;2026년~2030년&nbsp;<br>&nbsp;&nbsp;○&nbsp;청년이&nbsp;즐기는&nbsp;도시&nbsp;:&nbsp;2026년~2030년&nbsp;<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비확보&nbsp;:&nbsp;각종&nbsp;국비&nbsp;지원사업&nbsp;연계&nbsp;및&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;시비&nbsp;및&nbsp;기존&nbsp;예산&nbsp;재구조화<br>&nbsp;&nbsp;○&nbsp;공공기관·민간&nbsp;협력&nbsp;확대&nbsp;:&nbsp;LH·민간건설사&nbsp;협업&nbsp;확대,&nbsp;지역&nbsp;금융기관&nbsp;청년&nbsp;펀드&nbsp;조성,&nbsp;출연연&nbsp;기술사업화&nbsp;연계&nbsp;투자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	기후위기 대응을 위한 탄소중립 도시 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="기후위기 대응을 위한 탄소중립 도시 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;기후위기에&nbsp;대응하고&nbsp;지속가능한&nbsp;성장을&nbsp;실현하는&nbsp;탄소중립&nbsp;도시로&nbsp;전환<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;에너지&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;RE100&nbsp;대응&nbsp;역량&nbsp;강화를&nbsp;위한&nbsp;분산에너지&nbsp;특구&nbsp;지정&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민이&nbsp;생산하고&nbsp;이익을&nbsp;공유하는&nbsp;햇빛발전소와&nbsp;햇빛연금&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후&nbsp;공동주택&nbsp;저탄소&nbsp;재건축&nbsp;시&nbsp;인센티브(용적률&nbsp;상향)&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제로에너지&nbsp;공공건축물&nbsp;신축을&nbsp;통한&nbsp;생활형&nbsp;탄소&nbsp;중립도시&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;에너지&nbsp;정책의&nbsp;플랫폼인&nbsp;대전에너지공사&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;대중교통&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대중교통&nbsp;중심도시로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시철도와&nbsp;생활권&nbsp;연계&nbsp;교통망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;타슈,&nbsp;공유킥보드,&nbsp;안전장비를&nbsp;포함하는&nbsp;스마트&nbsp;모빌리티&nbsp;허브&nbsp;설치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;에너지&nbsp;전환&nbsp;:&nbsp;2026년~2035년&nbsp;중장기<br>&nbsp;&nbsp;○&nbsp;대중교통&nbsp;혁신&nbsp;:&nbsp;2026년~2030년&nbsp;&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;에너지&nbsp;전환&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업부&nbsp;분산에너지&nbsp;특구&nbsp;지정&nbsp;공모,&nbsp;주민참여형&nbsp;재생에너지&nbsp;발전사업,&nbsp;그린&nbsp;리모델링&nbsp;지원,&nbsp;탄소중립도시&nbsp;시범사업&nbsp;국비·시비·민간투자&nbsp;<br>&nbsp;&nbsp;○&nbsp;대중교통&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국토부&nbsp;스마트시티&nbsp;모빌리티&nbsp;공모사업,&nbsp;환경부&nbsp;친환경&nbsp;교통수단&nbsp;보급&nbsp;국비·시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	대한민국 대표 AI 선도도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="대한민국 대표 AI 선도도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;연구가&nbsp;산업으로&nbsp;이어지고&nbsp;미래&nbsp;먹거리를&nbsp;창출하는&nbsp;AI&nbsp;선도&nbsp;도시&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GPU&nbsp;거점센터&nbsp;구축&nbsp;추진,&nbsp;AI&nbsp;실증단지&nbsp;조성을&nbsp;통한&nbsp;AI&nbsp;산업&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;전략산업&nbsp;성장&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방산&nbsp;AX&nbsp;클러스터&nbsp;구축,&nbsp;AI반도체,&nbsp;첨단센서&nbsp;거점<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;바이오,&nbsp;헬스&nbsp;혁신&nbsp;허브&nbsp;조성&nbsp;<br>&nbsp;&nbsp;○&nbsp;연구성과&nbsp;기업이전·사업화를&nbsp;통한&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연구성과&nbsp;1,000건&nbsp;사업화,&nbsp;첨단&nbsp;벤처기업&nbsp;2,000개&nbsp;육성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연구,&nbsp;기술사업화를&nbsp;위한&nbsp;사이언즈비니지스&nbsp;메카&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;과학이&nbsp;바꾸는&nbsp;일상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;기반&nbsp;재난안전&nbsp;대응체계&nbsp;구축,&nbsp;AI&nbsp;스마트&nbsp;행정혁신<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;인프라&nbsp;구축&nbsp;:&nbsp;2026년~2030년&nbsp;<br>&nbsp;&nbsp;○&nbsp;전략산업&nbsp;성장&nbsp;지원&nbsp;:&nbsp;2026년~2035년&nbsp;중장기<br>&nbsp;&nbsp;○&nbsp;연구성과&nbsp;기업이전·사업화를&nbsp;통한&nbsp;일자리&nbsp;창출&nbsp;:&nbsp;2026년~2030년&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;과학이&nbsp;바꾸는&nbsp;일상&nbsp;:&nbsp;2026년~2030년&nbsp;&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;인프라&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중기부&nbsp;규제자유특구&nbsp;공모,&nbsp;산업부&nbsp;AI융합&nbsp;규제샌드박스&nbsp;국비·민간투자<br>&nbsp;&nbsp;○&nbsp;전략산업&nbsp;성장&nbsp;지원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방위사업청&nbsp;방산혁신클러스터,&nbsp;산업부&nbsp;첨단전략산업&nbsp;특화단지,&nbsp;복지부&nbsp;바이오헬스&nbsp;혁신&nbsp;R&D&nbsp;공모&nbsp;국비&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;연구성과&nbsp;기업이전·사업화를&nbsp;통한&nbsp;일자리&nbsp;창출&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;과기부&nbsp;기술사업화&nbsp;촉진,&nbsp;중기부&nbsp;TIPS&nbsp;프로그램&nbsp;국비·시비·민간투자&nbsp;<br>&nbsp;&nbsp;○&nbsp;과학이&nbsp;바꾸는&nbsp;일상&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행안부&nbsp;스마트&nbsp;재난안전&nbsp;공모,&nbsp;소방청&nbsp;AI&nbsp;현장&nbsp;대응&nbsp;시범사업&nbsp;국비·시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	촘촘한 복지도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="촘촘한 복지도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;아이의&nbsp;미래부터&nbsp;어르신의&nbsp;노후까지&nbsp;책임지는&nbsp;촘촘한&nbsp;복지&nbsp;완성&nbsp;&nbsp;&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대전형&nbsp;통합&nbsp;돌봄&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시&nbsp;전담&nbsp;조직&nbsp;신설,&nbsp;동&nbsp;신청-구&nbsp;처리-시&nbsp;지원의&nbsp;통합돌봄체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;4050&nbsp;소득공백&nbsp;징검다리&nbsp;연금제도&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;40세&nbsp;이상&nbsp;55세&nbsp;미만&nbsp;가입자&nbsp;월&nbsp;10만원,&nbsp;대전시&nbsp;5만원&nbsp;납입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;10년&nbsp;납입시&nbsp;만&nbsp;60세부터&nbsp;5년간&nbsp;매월&nbsp;30~35만원&nbsp;수령&nbsp;<br>&nbsp;&nbsp;○&nbsp;공공산후조리비와&nbsp;진료비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공의료기관과&nbsp;보건소&nbsp;연계한&nbsp;산후&nbsp;건강관리&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;영유아&nbsp;365일&nbsp;24시간&nbsp;돌봄체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생후&nbsp;6개월부터&nbsp;취학전&nbsp;아동&nbsp;대상&nbsp;긴급돌봄&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;5개&nbsp;자치구별&nbsp;거점센터를&nbsp;통해&nbsp;긴급돌봄&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;청소년&nbsp;통합지원체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예체능·기술·창업·공공부문&nbsp;등&nbsp;특성에&nbsp;맞는&nbsp;맞춤형&nbsp;진로설계&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;진로탐색,&nbsp;심리상담,&nbsp;사회적&nbsp;위기지원,&nbsp;문화활동을&nbsp;한&nbsp;공간에서&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;경로당&nbsp;확대,&nbsp;통합복합커뮤니티센터&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;대전형&nbsp;통합&nbsp;돌봄&nbsp;체계&nbsp;구축&nbsp;:&nbsp;2026년~2030년<br>&nbsp;&nbsp;○&nbsp;4050&nbsp;소득공백&nbsp;징검다리&nbsp;연금제도&nbsp;도입&nbsp;:&nbsp;2026년~2030년<br>&nbsp;&nbsp;○&nbsp;공공산후조리비와&nbsp;진료비&nbsp;지원&nbsp;:&nbsp;2026년~2030년<br>&nbsp;&nbsp;○&nbsp;영유아&nbsp;365일&nbsp;24시간&nbsp;돌봄체계&nbsp;구축&nbsp;:&nbsp;2026년~2030년<br>&nbsp;&nbsp;○&nbsp;청소년&nbsp;통합지원체계&nbsp;구축&nbsp;:&nbsp;2026년~2030년<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;경로당&nbsp;확대,&nbsp;통합복합커뮤니티센터&nbsp;추진&nbsp;:&nbsp;2026년~2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;복지부&nbsp;지역사회&nbsp;통합돌봄&nbsp;사업비,&nbsp;복지부·교육부&nbsp;「다함께돌봄」사업비,&nbsp;여가부&nbsp;청소년&nbsp;특화시설&nbsp;사업비&nbsp;등&nbsp;국비,&nbsp;기존&nbsp;사업&nbsp;세출&nbsp;조정,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

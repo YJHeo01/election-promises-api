@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;윤정현 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	민주구민위원회 설치로 주민직접정치 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="민주구민위원회 설치로 주민직접정치 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;강북구민의&nbsp;지역정치·강북행정에&nbsp;대한&nbsp;민주적&nbsp;참여와&nbsp;결정권&nbsp;보장&nbsp;<br>&nbsp;&nbsp;○&nbsp;진정한&nbsp;내란청산은&nbsp;지방정부에서&nbsp;부터&nbsp;민주주의를&nbsp;강화하는&nbsp;것<br>&nbsp;&nbsp;○&nbsp;구청장&nbsp;독단과&nbsp;불통의&nbsp;폐단을&nbsp;근절하고&nbsp;주민&nbsp;직접&nbsp;정치를&nbsp;지방정부에서&nbsp;구현<br>&nbsp;&nbsp;○&nbsp;구민을&nbsp;정치의&nbsp;주체로,&nbsp;민주주의의&nbsp;실행자로&nbsp;세우는&nbsp;시스템을&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;민주구민위원회<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북구청장&nbsp;직속&nbsp;기구로서&nbsp;강북구&nbsp;행정의&nbsp;최고의사결정&nbsp;기구임&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민주구민위원회는&nbsp;강북구의&nbsp;노동자·영세상인·여성·청년·학부모·청소년·장애인·이주민&nbsp;등&nbsp;직능과&nbsp;계층별&nbsp;대표로&nbsp;구성함<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민주구민위원회는&nbsp;강북구청의&nbsp;사업기획·예산편성·집행관리·인사&nbsp;등의&nbsp;권한을&nbsp;구민이&nbsp;직접&nbsp;행사함<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북구의회의&nbsp;권한을&nbsp;침해하지&nbsp;않고&nbsp;구청장의&nbsp;권한을&nbsp;구민과&nbsp;함께&nbsp;행사<br>&nbsp;&nbsp;○&nbsp;구민의&nbsp;민주적&nbsp;참여&nbsp;제도화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북구민&nbsp;삶에&nbsp;직접적&nbsp;영향을&nbsp;미치는&nbsp;주거,&nbsp;보건의료,&nbsp;돌봄,&nbsp;노동,&nbsp;교통,&nbsp;평등/인권,&nbsp;기후&nbsp;정책의&nbsp;결정과&nbsp;집행에&nbsp;지역주민의&nbsp;민주적인&nbsp;참여를&nbsp;보장(노동위원회,&nbsp;주거위원회,&nbsp;보건의료위원회,&nbsp;교통위원회,&nbsp;돌봄위원회)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민감사&nbsp;청구&nbsp;시&nbsp;주민&nbsp;연서&nbsp;기준&nbsp;하향,&nbsp;조례를&nbsp;통한&nbsp;주민감사제도의&nbsp;실효성&nbsp;제고&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민조례&nbsp;청구제도&nbsp;요건&nbsp;완화&nbsp;건의&nbsp;<br>&nbsp;&nbsp;○&nbsp;강북구청&nbsp;예산과&nbsp;결산의&nbsp;실질적인&nbsp;정보&nbsp;공개<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;월별&nbsp;예산집행률&nbsp;공개로&nbsp;수요와&nbsp;공급의&nbsp;불일치&nbsp;감소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;순세계잉여금,&nbsp;재정안정화기금,&nbsp;출연금&nbsp;구체적&nbsp;결산&nbsp;공개<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민참여예산제&nbsp;현실화(연&nbsp;약&nbsp;1,685만원.&nbsp;2026년&nbsp;기준)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부동산&nbsp;개발이익&nbsp;환수&nbsp;방안&nbsp;마련과&nbsp;잉여예산의&nbsp;재배정을&nbsp;통해&nbsp;재원&nbsp;마련&nbsp;검토<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;즉시</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	건강주치의제 도입·동별 공공통합돌봄센터 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="건강주치의제 도입·동별 공공통합돌봄센터 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;구민들의&nbsp;건강과&nbsp;돌봄,&nbsp;강북구청의&nbsp;책임성&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;동별&nbsp;공공통합돌봄센터&nbsp;설치로&nbsp;강북구&nbsp;돌봄&nbsp;시스템&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;의료,&nbsp;돌봄,&nbsp;가사를&nbsp;통합적으로&nbsp;연결하는&nbsp;새로운&nbsp;공공시스템&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;강북구민&nbsp;건강주치의제도&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북구&nbsp;국공립병원&nbsp;0개,&nbsp;보건소&nbsp;1개,&nbsp;보건지소&nbsp;2개로&nbsp;의료/돌봄의&nbsp;공백이&nbsp;심각함<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구민의&nbsp;건강관리와&nbsp;예방을&nbsp;중심으로&nbsp;구청이&nbsp;나서서&nbsp;주민&nbsp;건강권&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북구청-병·의원-주민&nbsp;3자협약&nbsp;방식,&nbsp;협약의원당&nbsp;운영비&nbsp;보조&nbsp;상담&nbsp;건당&nbsp;정액&nbsp;지원&nbsp;방식&nbsp;병행&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동별&nbsp;2~3개&nbsp;협약의원&nbsp;→&nbsp;우선&nbsp;대상(65세&nbsp;이상·10세&nbsp;이하·장애인·1인&nbsp;가구)&nbsp;등록&nbsp;신청&nbsp;→&nbsp;정기&nbsp;진료상담<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건강권위원회(병의원/&nbsp;의료단체/&nbsp;노동조합)&nbsp;설치로&nbsp;실행방안&nbsp;마련과&nbsp;집행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수&nbsp;년째&nbsp;공약으로만&nbsp;남은&nbsp;어린이병원도&nbsp;중요.&nbsp;하지만&nbsp;지금&nbsp;당장&nbsp;구민의&nbsp;건강을&nbsp;위한&nbsp;건강주치의제도로&nbsp;구청이&nbsp;책임지는&nbsp;공공의료시스템&nbsp;만들기&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제주도특별자치도에서&nbsp;시범사업&nbsp;중,&nbsp;강북구&nbsp;상황에&nbsp;맞게&nbsp;재설계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구비&nbsp;독자편성을&nbsp;우선&nbsp;추진,&nbsp;서울시&nbsp;공공의료&nbsp;지원&nbsp;연계&nbsp;및&nbsp;예방사업비&nbsp;매칭&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;동별&nbsp;공공돌봄/가사센터&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄과&nbsp;가사는&nbsp;필수&nbsp;사회서비스로서&nbsp;시장화된&nbsp;돌봄/가사를&nbsp;공공&nbsp;시스템으로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄/가사서비스&nbsp;노동자의&nbsp;노동기본권&nbsp;보장/&nbsp;구민의&nbsp;존엄한&nbsp;삶&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북구&nbsp;13개&nbsp;행정동&nbsp;중&nbsp;돌봄&nbsp;수요&nbsp;및&nbsp;취약계층&nbsp;밀집도를&nbsp;기준으로&nbsp;우선&nbsp;동&nbsp;선정,&nbsp;최종&nbsp;동별&nbsp;1개소&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우리동네&nbsp;공공식당&nbsp;설치로&nbsp;안전하고&nbsp;건강한&nbsp;먹거리&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;운영&nbsp;주체:&nbsp;초기에는&nbsp;강북도시관리공단&nbsp;위탁&nbsp;→&nbsp;직영&nbsp;전환을&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄노동자의&nbsp;노동기본권과&nbsp;생활임금&nbsp;보장을&nbsp;위한&nbsp;조례&nbsp;제정<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;상반기부터&nbsp;순차적&nbsp;시행</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	강북구에서 일하는 모든 노동자의 노동권보장과 구청의 책임 강화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="강북구에서 일하는 모든 노동자의 노동권보장과 구청의 책임 강화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;강북구&nbsp;전체&nbsp;노동자의&nbsp;노동권을&nbsp;보장하는&nbsp;지역&nbsp;노동행정&nbsp;구현<br>&nbsp;&nbsp;○&nbsp;구청이&nbsp;솔선해서&nbsp;노동자의&nbsp;직접고용과&nbsp;원청의&nbsp;책임을&nbsp;실천<br>&nbsp;&nbsp;○&nbsp;5인&nbsp;미만&nbsp;사업장&nbsp;노동자부터&nbsp;이주노동자까지&nbsp;일하는&nbsp;모든&nbsp;사람이&nbsp;사회보험과&nbsp;노동기본권의&nbsp;울타리&nbsp;안으로&nbsp;들어오도록&nbsp;제도적&nbsp;방안&nbsp;마련&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;구청&nbsp;필수업무&nbsp;노동자&nbsp;직접고용&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북구를&nbsp;위해&nbsp;일하는&nbsp;필수&nbsp;노동자는&nbsp;구청이&nbsp;책임<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;필수업무&nbsp;범위:&nbsp;청소·경비·시설관리·재활용&nbsp;수거·폐기물&nbsp;수거&nbsp;포함.&nbsp;조례에&nbsp;명시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;직접고용&nbsp;전환&nbsp;절차:&nbsp;위탁계약&nbsp;종료&nbsp;시&nbsp;직접고용&nbsp;전환&nbsp;원칙&nbsp;/&nbsp;잔여&nbsp;계약기간&nbsp;중&nbsp;협약&nbsp;전환&nbsp;허용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고용승계&nbsp;보장&nbsp;조항:&nbsp;전환&nbsp;시&nbsp;기존&nbsp;노동자&nbsp;전원&nbsp;고용&nbsp;승계,&nbsp;임금·근로조건&nbsp;저하&nbsp;금지&nbsp;명시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전환대상&nbsp;필수업무&nbsp;조례&nbsp;개정&nbsp;→&nbsp;계약종료&nbsp;업무부터&nbsp;순차&nbsp;직영&nbsp;전환&nbsp;→&nbsp;임기내&nbsp;주요&nbsp;필수&nbsp;업무&nbsp;직영화&nbsp;완료<br>&nbsp;&nbsp;○&nbsp;원청사용자로서&nbsp;구청의&nbsp;의무&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북구도시관리공단&nbsp;노동조합에&nbsp;대한&nbsp;탄압은&nbsp;원청사용자인&nbsp;구청장의&nbsp;잘못임.<br>&nbsp;&nbsp;&nbsp;&nbsp;-「강북구&nbsp;용역·민간위탁&nbsp;사무&nbsp;관리&nbsp;지침」개정으로&nbsp;원청의&nbsp;사용자성&nbsp;명문화:&nbsp;구청이&nbsp;하청노동자에&nbsp;대한&nbsp;노동조건&nbsp;협의&nbsp;의무&nbsp;보유&nbsp;조항&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;계약서&nbsp;표준&nbsp;조항&nbsp;삽입:&nbsp;수탁기관&nbsp;소속&nbsp;노동자의&nbsp;임금·안전·단체교섭에&nbsp;구청이&nbsp;성실히&nbsp;응할&nbsp;의무&nbsp;명시<br>&nbsp;&nbsp;○&nbsp;5인&nbsp;미만&nbsp;사업장&nbsp;노동자&nbsp;4대&nbsp;보험&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;작은&nbsp;사업장&nbsp;사장/노동자&nbsp;모두&nbsp;일할&nbsp;맛&nbsp;나는&nbsp;강북구&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북구&nbsp;관내&nbsp;5인&nbsp;미만&nbsp;사업장의&nbsp;노동자에게&nbsp;사회보험료&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;식당,&nbsp;미용실,&nbsp;주유소,&nbsp;의류제작업체&nbsp;노동자&nbsp;지원.&nbsp;이주노동자까지&nbsp;확대</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	마을버스 공영화 - 공공순환버스도입으로 편리한 이동권 보장</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="마을버스 공영화 - 공공순환버스도입으로 편리한 이동권 보장">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;강북구&nbsp;내&nbsp;교통사각지대&nbsp;해소로&nbsp;누구나&nbsp;어디든&nbsp;이동할&nbsp;수&nbsp;있는&nbsp;강북구&nbsp;만들기<br>&nbsp;&nbsp;○&nbsp;민간업체의&nbsp;마을버스를&nbsp;공공교통체계로&nbsp;편입시켜&nbsp;주민의&nbsp;안전과&nbsp;노동자의&nbsp;생존권&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;공공·무상&nbsp;대중교통시스템&nbsp;도입으로&nbsp;구민의&nbsp;이동권&nbsp;보장과&nbsp;지역&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;강북구&nbsp;관내&nbsp;마을버스&nbsp;공영화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구민의&nbsp;필수교통수단인&nbsp;마을버스는&nbsp;돈벌이&nbsp;대상이&nbsp;되어서는&nbsp;안됨<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이용객의&nbsp;안전과&nbsp;노동자의&nbsp;권리가&nbsp;보장되어야&nbsp;함<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;윤행률&nbsp;미준수&nbsp;업체,&nbsp;적자&nbsp;업체부터&nbsp;공영화&nbsp;추진(서울시와&nbsp;협의)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북도시관리공단&nbsp;버스사업부&nbsp;신설로&nbsp;운영과&nbsp;관리<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통&nbsp;사각지대에&nbsp;노선&nbsp;신설로&nbsp;출퇴근&nbsp;편의성&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을버스&nbsp;노동자&nbsp;노동기본권&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;공공순환버스&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북구&nbsp;내에서&nbsp;옆&nbsp;동네를&nbsp;가려면&nbsp;버스를&nbsp;계속&nbsp;환승해야&nbsp;하는&nbsp;상황<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;관공서&nbsp;및&nbsp;문화시설,&nbsp;자연시설을&nbsp;연결해&nbsp;이용의&nbsp;편리성&nbsp;증가<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관내&nbsp;이동&nbsp;인프라&nbsp;구축으로&nbsp;지역&nbsp;활성화에&nbsp;기여&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우이동→번동→삼양동을&nbsp;순환하는&nbsp;무료셔틀버스&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노선&nbsp;확정&nbsp;기준:&nbsp;교통&nbsp;사각지대&nbsp;및&nbsp;주민&nbsp;이동&nbsp;수요&nbsp;실태조사&nbsp;결과&nbsp;기반&nbsp;/&nbsp;주민&nbsp;의견&nbsp;수렴&nbsp;절차&nbsp;의무화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북도시관리공단&nbsp;버스사업부&nbsp;신설&nbsp;근거&nbsp;조항&nbsp;명시:&nbsp;조례&nbsp;내&nbsp;공단&nbsp;위탁&nbsp;운영&nbsp;법적&nbsp;근거&nbsp;확보<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년부터&nbsp;임기내&nbsp;완료</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	평등 강북을 위한 성평등 정책 패키지</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="평등 강북을 위한 성평등 정책 패키지">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;성별·장애·이주&nbsp;배경·성적지향&nbsp;등에&nbsp;따른&nbsp;차별을&nbsp;구정에서&nbsp;철저히&nbsp;배제하고,&nbsp;모든&nbsp;구민이&nbsp;권리의&nbsp;주체로&nbsp;존중받는&nbsp;인권&nbsp;행정&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;여성에&nbsp;대한&nbsp;모든&nbsp;폭력&nbsp;중지와&nbsp;여성의&nbsp;재생산권리&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;사회&nbsp;표준과&nbsp;맞지&nbsp;않아&nbsp;행정에서&nbsp;소외되는&nbsp;소수자의&nbsp;인권&nbsp;보장<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;여성이&nbsp;살&nbsp;수&nbsp;있는&nbsp;강북<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성평등국&nbsp;설치로&nbsp;성평등&nbsp;실현을&nbsp;위한&nbsp;비전,&nbsp;정책,&nbsp;사업의&nbsp;집중화&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북여성문화센터&nbsp;건립으로&nbsp;다양한&nbsp;교육/상담/지역&nbsp;커뮤니티&nbsp;허브&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북구&nbsp;내&nbsp;성평등&nbsp;임금공시제&nbsp;실시,&nbsp;일터&nbsp;내&nbsp;차별금지&nbsp;조례&nbsp;재정&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여성폭력&nbsp;예방과&nbsp;피해자&nbsp;회복&nbsp;지원&nbsp;체계마련&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이주·장애&nbsp;여성&nbsp;배제없는&nbsp;여성&nbsp;재생산권리&nbsp;통합지원&nbsp;방안&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;차별과&nbsp;배제없는&nbsp;모두가&nbsp;존엄한&nbsp;강북구민&nbsp;실현&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;차별금지법&nbsp;없는&nbsp;한국,&nbsp;포괄적&nbsp;차별금지조례가&nbsp;있는&nbsp;강북구<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양성평등기본조례&nbsp;→&nbsp;성평등기본조례로&nbsp;개정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북인권조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;차별금지·인권상담센터&nbsp;설치&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;다양한&nbsp;가족형태도&nbsp;행정의&nbsp;보호를&nbsp;받을&nbsp;수&nbsp;있게&nbsp;생활동반자조례&nbsp;제정<br>&nbsp;&nbsp;○&nbsp;장애인도&nbsp;이주민도&nbsp;모두가&nbsp;우리의&nbsp;이웃<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인의&nbsp;지역사회&nbsp;자립생활&nbsp;지원체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인의&nbsp;이동권과&nbsp;권리중심공공일자리&nbsp;적극&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이주민&nbsp;노동·생활&nbsp;실태조사와&nbsp;행정에&nbsp;반영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이주민&nbsp;차별&nbsp;없는&nbsp;공공서비스&nbsp;제공</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

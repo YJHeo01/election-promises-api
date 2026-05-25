@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박상준 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	강서 교통망 통합 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="강서 교통망 통합 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;국책사업인&nbsp;각종&nbsp;대교&nbsp;건설지연,&nbsp;도시철도&nbsp;착공지연,&nbsp;대중교통의&nbsp;노선중복&nbsp;등&nbsp;불편한&nbsp;교통,&nbsp;최우선&nbsp;해결로&nbsp;행복한&nbsp;교통문화를&nbsp;정착하고자&nbsp;노력하겠음<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;구청장&nbsp;직속&nbsp;교통문제&nbsp;해결&nbsp;TF&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통정책&nbsp;전문가,&nbsp;지역&nbsp;대표,&nbsp;이해관계자,&nbsp;주민대표,&nbsp;공무원이&nbsp;참여하는&nbsp;교통문제&nbsp;해결을&nbsp;위한&nbsp;정책팀&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;장낙,&nbsp;엄궁,&nbsp;사상,&nbsp;대저대교&nbsp;건설&nbsp;강력추진과&nbsp;(가칭)화전대교를&nbsp;건설하여&nbsp;열악한&nbsp;교통난&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;도시철도&nbsp;하단&nbsp;-&nbsp;녹산선&nbsp;과&nbsp;강서선을&nbsp;조기&nbsp;착공&nbsp;단계적인&nbsp;교통문제&nbsp;해결<br>&nbsp;&nbsp;○&nbsp;대중교통(버스,&nbsp;다람쥐,&nbsp;타바라)&nbsp;노선&nbsp;및&nbsp;운영실태&nbsp;분석,&nbsp;주민편의위주&nbsp;전면&nbsp;개편<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;‘26년&nbsp;~‘30년&nbsp;단계적,&nbsp;적극적&nbsp;진행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;도시철도&nbsp;및&nbsp;각종대교&nbsp;건설사업&nbsp;은&nbsp;국.시비&nbsp;사업,&nbsp;구비&nbsp;부담&nbsp;없이&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;교통문제&nbsp;해결&nbsp;TF구성은&nbsp;정상적인&nbsp;행정&nbsp;절차로&nbsp;진행,&nbsp;예산부담&nbsp;없이&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;대중교통&nbsp;운영실태&nbsp;분석&nbsp;및&nbsp;노선조정&nbsp;관련사항&nbsp;용역비는&nbsp;약&nbsp;1억원&nbsp;정도&nbsp;예상</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	해양수도 부산의 핵심도시, 강서해양혁신지구 선포</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="해양수도 부산의 핵심도시, 강서해양혁신지구 선포">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;해수부&nbsp;청사유치,&nbsp;해양관련&nbsp;대기업&nbsp;유치,&nbsp;강서해양&nbsp;혁신지구&nbsp;지정으로&nbsp;해양수도&nbsp;부산의&nbsp;중심으로&nbsp;변화시켜&nbsp;부산경제의&nbsp;중심지로&nbsp;발전시키고자&nbsp;함<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;해양수산부&nbsp;및&nbsp;해양패키지&nbsp;유치&nbsp;전담&nbsp;TF구성<br>&nbsp;&nbsp;○&nbsp;해수부&nbsp;청사유치를&nbsp;위해&nbsp;부산시,&nbsp;중앙정부등과&nbsp;긴밀한&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;중앙정부의&nbsp;기회발전특구&nbsp;정책&nbsp;추진과&nbsp;연계,&nbsp;강서해양&nbsp;혁신지구로&nbsp;지정&nbsp;추진<br><br>□&nbsp;이행기간&nbsp;:‘27년&nbsp;~‘30년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;강서&nbsp;해양혁신&nbsp;지구는&nbsp;강서구내&nbsp;별도&nbsp;특구를&nbsp;지정하는&nbsp;것으로&nbsp;별도&nbsp;재원조달&nbsp;방안을&nbsp;필요하지&nbsp;않으나,&nbsp;행정적인&nbsp;지원과&nbsp;절차가&nbsp;필요&nbsp;함<br>&nbsp;&nbsp;○&nbsp;각종&nbsp;규제특례,&nbsp;파격적인&nbsp;세제지원,&nbsp;정주여건&nbsp;개선&nbsp;같은&nbsp;패키지&nbsp;지원으로&nbsp;기업투자&nbsp;활성화로&nbsp;&nbsp;지역균형&nbsp;발전이&nbsp;촉진될&nbsp;것으로&nbsp;기대&nbsp;함</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	부울경메가시티의 중심! 광역 거점 도시 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="부울경메가시티의 중심! 광역 거점 도시 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;부울경&nbsp;메가시티의&nbsp;거점도시로&nbsp;육성,&nbsp;&nbsp;상대적으로&nbsp;열악한&nbsp;강서의&nbsp;균형적&nbsp;발전과&nbsp;산업인프라&nbsp;및&nbsp;교통여건&nbsp;개선으로&nbsp;양질의&nbsp;일자리&nbsp;창출을&nbsp;목표로&nbsp;함<br><br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;경남도,&nbsp;울산시,&nbsp;부산시&nbsp;광역단체의&nbsp;부울경&nbsp;행정통합&nbsp;추진&nbsp;및&nbsp;부울경&nbsp;메가시티&nbsp;지정&nbsp;협의&nbsp;시&nbsp;부터&nbsp;관련기관의&nbsp;협의&nbsp;중재자로서&nbsp;역할을&nbsp;다&nbsp;할&nbsp;것이며,<br>&nbsp;&nbsp;○&nbsp;부울경&nbsp;메가시티&nbsp;지정을&nbsp;위한&nbsp;기업,&nbsp;자생단체,&nbsp;정책전문가,&nbsp;시민사회단체&nbsp;등이&nbsp;참여하는&nbsp;지역협의체를&nbsp;구성&nbsp;운영&nbsp;할&nbsp;것이며<br>&nbsp;&nbsp;○&nbsp;행정적,&nbsp;정책적&nbsp;제반&nbsp;뒷받침을&nbsp;적극&nbsp;지원&nbsp;할&nbsp;것임<br><br>□&nbsp;이행기간&nbsp;:&nbsp;‘26년&nbsp;~‘30년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;기준,&nbsp;정부는&nbsp;수도권&nbsp;일극&nbsp;체제에&nbsp;대응하고&nbsp;지방&nbsp;소멸&nbsp;위기를&nbsp;극복하기&nbsp;위해&nbsp;광역지자체간&nbsp;행정통합&nbsp;(5극&nbsp;3특&nbsp;체제)을&nbsp;핵심균형발전&nbsp;전략으로&nbsp;추진&nbsp;중임<br>&nbsp;&nbsp;○&nbsp;특히&nbsp;통합&nbsp;특별시에&nbsp;4년간&nbsp;최대&nbsp;20조&nbsp;원&nbsp;규모의&nbsp;재정&nbsp;지원과&nbsp;서울시&nbsp;수준의&nbsp;권한&nbsp;이양,&nbsp;공공기관&nbsp;우선&nbsp;배치&nbsp;등&nbsp;파격적인&nbsp;인센티브를&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;강서구&nbsp;차원의&nbsp;예산&nbsp;확보는&nbsp;필요치&nbsp;않을것으로&nbsp;판단되며,&nbsp;인력과&nbsp;행정적&nbsp;지원&nbsp;필요</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	구민의 곁으로! 강서구청사 이전 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="구민의 곁으로! 강서구청사 이전 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;강서구의&nbsp;지리적&nbsp;여건이&nbsp;장&nbsp;방향으로&nbsp;가덕도,&nbsp;녹산동&nbsp;등에서&nbsp;구청&nbsp;접근성&nbsp;불편<br>&nbsp;&nbsp;○&nbsp;가덕신공항,&nbsp;부산&nbsp;신항,&nbsp;진해&nbsp;신항&nbsp;등&nbsp;인접해있으며,&nbsp;인구가&nbsp;밀집해있는&nbsp;지역으로&nbsp;구&nbsp;청사를&nbsp;이전하여&nbsp;교통,&nbsp;산업,&nbsp;교육&nbsp;인프라와&nbsp;일자리&nbsp;창출을&nbsp;기대하며<br>&nbsp;&nbsp;○&nbsp;현재&nbsp;청사&nbsp;주변은&nbsp;부울경메가시티의&nbsp;중심축으로&nbsp;개발하여&nbsp;균형적인&nbsp;지역&nbsp;발전을&nbsp;추진하고자&nbsp;함<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청사&nbsp;이전을&nbsp;위한&nbsp;전문가,&nbsp;주민대표&nbsp;등이&nbsp;참여하는&nbsp;구청장&nbsp;직속&nbsp;TF팀을&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;이전에&nbsp;따른&nbsp;여론수렴,&nbsp;행정절차,&nbsp;이전&nbsp;위치,&nbsp;재원마련&nbsp;방안&nbsp;등&nbsp;제반사항을&nbsp;용역으로&nbsp;검토&nbsp;할&nbsp;것임<br>&nbsp;&nbsp;○&nbsp;대저1동&nbsp;주민들의&nbsp;상대적&nbsp;허탈감,&nbsp;불안한&nbsp;상권,&nbsp;구정업무&nbsp;불편&nbsp;등&nbsp;해소대책을&nbsp;마련하고자<br>&nbsp;&nbsp;○&nbsp;부울경&nbsp;메가시티의&nbsp;중심도시로&nbsp;지정받아&nbsp;관련&nbsp;행정기관&nbsp;및&nbsp;공기업&nbsp;유치&nbsp;등으로&nbsp;주민불편&nbsp;해소는&nbsp;물론&nbsp;지역&nbsp;상권&nbsp;활성화를&nbsp;위해&nbsp;최선을&nbsp;다&nbsp;할&nbsp;것임.<br><br>□&nbsp;이행기간&nbsp;:‘26년&nbsp;~‘30년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;청사이전을&nbsp;위한&nbsp;용역&nbsp;실시&nbsp;후&nbsp;위치&nbsp;선정에&nbsp;따른&nbsp;부지매입비,&nbsp;건축&nbsp;및&nbsp;제반부대시설비등&nbsp;소요예산&nbsp;잠정적&nbsp;확정&nbsp;후&nbsp;소요재원&nbsp;확정&nbsp;가능하며<br>&nbsp;&nbsp;○&nbsp;청사이전&nbsp;용역비는&nbsp;약&nbsp;10억원&nbsp;정도&nbsp;예상<br>&nbsp;&nbsp;○&nbsp;이전을&nbsp;위한&nbsp;총&nbsp;사업비&nbsp;확정&nbsp;후&nbsp;지방채&nbsp;발행,&nbsp;금융&nbsp;차입&nbsp;등의&nbsp;방법을&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;현&nbsp;청사&nbsp;매각을&nbsp;통한&nbsp;이전비용&nbsp;확보&nbsp;방안을&nbsp;찾을&nbsp;것&nbsp;임</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	강서구 교육국제화특구 추진 (교육부)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="강서구 교육국제화특구 추진 (교육부)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;인재&nbsp;양성&nbsp;및&nbsp;경쟁력&nbsp;있는&nbsp;교육환경&nbsp;조성과&nbsp;교육역량&nbsp;강화를&nbsp;위한&nbsp;특화&nbsp;교육을&nbsp;선도하기&nbsp;위해&nbsp;강서구에&nbsp;맞는&nbsp;교육국제화&nbsp;특구로&nbsp;지정<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;균형발전을&nbsp;위한&nbsp;외국어&nbsp;교육&nbsp;및&nbsp;국제화&nbsp;교육기반&nbsp;정착을&nbsp;선도하는&nbsp;강서&nbsp;교육&nbsp;분위기&nbsp;조성을&nbsp;목적으로&nbsp;함<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;현재&nbsp;5년&nbsp;단위&nbsp;교육국제화&nbsp;특구&nbsp;지정,‘27년까지&nbsp;3기&nbsp;특구가&nbsp;운영되고&nbsp;있음<br>&nbsp;&nbsp;○&nbsp;‘27년&nbsp;말부터&nbsp;4기&nbsp;지정&nbsp;신청&nbsp;접수예상,&nbsp;철저한&nbsp;행정적&nbsp;준비로&nbsp;교육특구로&nbsp;지정&nbsp;받기&nbsp;위해&nbsp;최선을&nbsp;다&nbsp;할&nbsp;것임<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;‘27년&nbsp;말&nbsp;교육국제화특구&nbsp;4기&nbsp;지정&nbsp;신청,‘28년초&nbsp;지정&nbsp;확정<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지정&nbsp;후&nbsp;5년간&nbsp;운영하는&nbsp;사업과&nbsp;사업비는&nbsp;사업목적별&nbsp;예산을&nbsp;달리&nbsp;함<br>&nbsp;&nbsp;○&nbsp;재원조달&nbsp;방안은&nbsp;총&nbsp;사업비&nbsp;중&nbsp;국비&nbsp;50%&nbsp;(국고&nbsp;40,&nbsp;특교10),&nbsp;지방비&nbsp;50%&nbsp;(시&nbsp;15,&nbsp;교육청&nbsp;15,&nbsp;구&nbsp;20)&nbsp;임</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

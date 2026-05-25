@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김창규 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	1인당 GRDP 6,000만원 달성(2배 더 잘사는 제천 실현)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="1인당 GRDP 6,000만원 달성(2배 더 잘사는 제천 실현)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역내&nbsp;총생산&nbsp;구조&nbsp;고도화를&nbsp;통해&nbsp;1인당&nbsp;GRDP&nbsp;6,000만원&nbsp;달성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;두&nbsp;배&nbsp;더&nbsp;잘&nbsp;사는&nbsp;제천&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;투자유치&nbsp;10조원&nbsp;달성을&nbsp;통한&nbsp;일자리&nbsp;20,000개&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;전략산업(투자유치·바이오·천연물·관광·스마트농업)&nbsp;집중&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;산업단지&nbsp;고도화&nbsp;및&nbsp;기업&nbsp;맞춤형&nbsp;입지&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;중소기업&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;청년창업&nbsp;및&nbsp;지역&nbsp;인재&nbsp;정착&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;사계절&nbsp;관광콘텐츠&nbsp;개발&nbsp;및&nbsp;전국&nbsp;규모&nbsp;스포츠·문화행사&nbsp;유치를&nbsp;통한&nbsp;관광객&nbsp;2,000만명&nbsp;달성&nbsp;<br>&nbsp;&nbsp;○&nbsp;청소년수련관&nbsp;및&nbsp;청풍호&nbsp;리조트&nbsp;완공<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;4년&nbsp;단계적&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연차별&nbsp;성장&nbsp;목표&nbsp;설정<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(기재부,&nbsp;산업부,&nbsp;중기부&nbsp;등&nbsp;공모사업&nbsp;포함)&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;도비&nbsp;및&nbsp;민간투자&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;예산&nbsp;구조조정&nbsp;및&nbsp;성장투자&nbsp;재편</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	투자유치 10조원 달성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="투자유치 10조원 달성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;대규모&nbsp;투자유치로&nbsp;양질의&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;인구&nbsp;증가&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일자리&nbsp;20,000개&nbsp;창출&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인구&nbsp;5,000명&nbsp;증가<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;기업유치&nbsp;전담&nbsp;조직&nbsp;및&nbsp;원스톱&nbsp;지원센터&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;수도권&nbsp;이전기업&nbsp;및&nbsp;우량기업&nbsp;타깃&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;세제·입지·인허가&nbsp;패키지&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;정주여건&nbsp;개선(주거·교육·의료)으로&nbsp;인구&nbsp;유입&nbsp;유도<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;투자유치&nbsp;중심<br>&nbsp;&nbsp;○&nbsp;투자유치&nbsp;인센티브는&nbsp;국·도비&nbsp;매칭&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;산업단지&nbsp;개발은&nbsp;민관합동&nbsp;방식&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	도심 랜드마크화 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="도심 랜드마크화 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;원도심을&nbsp;체류형&nbsp;상권으로&nbsp;전환하는&nbsp;도시&nbsp;재생&nbsp;핵심&nbsp;프로젝트&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙시장&nbsp;K뷰티&nbsp;힐링타워&nbsp;40층규모&nbsp;랜드마크로&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;용두천&nbsp;복원<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중앙시장&nbsp;40층규모&nbsp;랜드마크로&nbsp;개발(K뷰티&nbsp;힐링타워,&nbsp;복합상업·문화·청년창업&nbsp;공간&nbsp;조성)<br>&nbsp;&nbsp;○&nbsp;용두천&nbsp;생태복원&nbsp;및&nbsp;수변&nbsp;문화공간&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;야간경제&nbsp;활성화(야시장·문화공연)<br>&nbsp;&nbsp;○&nbsp;도시디자인&nbsp;개선&nbsp;및&nbsp;보행&nbsp;중심&nbsp;환경&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;착공&nbsp;및&nbsp;핵심구간&nbsp;완공<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국토부&nbsp;도시재생뉴딜사업&nbsp;및&nbsp;기후에너지환경부&nbsp;지구&nbsp;지정&nbsp;사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;공공개발&nbsp;+&nbsp;민간참여(상업시설)&nbsp;방식<br>&nbsp;&nbsp;○&nbsp;물순환촉진지구&nbsp;예산&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	관광객 2,000만명 시대 개막</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="관광객 2,000만명 시대 개막">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;체류형&nbsp;관광도시로&nbsp;전환하여&nbsp;연간&nbsp;관광객&nbsp;2,000만명&nbsp;달성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;4개&nbsp;관광권역별&nbsp;전략적인&nbsp;관광인프라&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;사계절&nbsp;관광콘텐츠&nbsp;개발(힐링·레저·스포츠&nbsp;대회&nbsp;유치)<br>&nbsp;&nbsp;○&nbsp;전국&nbsp;규모&nbsp;스포츠·문화행사&nbsp;적극&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;관광&nbsp;동선&nbsp;통합(청풍호·케이블카·도심&nbsp;연결)<br>&nbsp;&nbsp;○&nbsp;숙박·음식·체험&nbsp;패키지&nbsp;상품&nbsp;개발&nbsp;및&nbsp;플랫폼&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;관광객&nbsp;단계적&nbsp;확대&nbsp;(연평균&nbsp;증가율&nbsp;관리)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;문화체육관광부&nbsp;공모사업&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;관광투자&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;상권과&nbsp;연계한&nbsp;수익&nbsp;재투자&nbsp;구조&nbsp;구축</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	65세 이상 어르신 시내버스 요금 전면 무료화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="65세 이상 어르신 시내버스 요금 전면 무료화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;이동권&nbsp;보장&nbsp;및&nbsp;복지&nbsp;체감도&nbsp;획기적&nbsp;향상<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;교통카드&nbsp;기반&nbsp;무임승차&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;버스업체&nbsp;손실&nbsp;보전&nbsp;체계&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;이용&nbsp;데이터&nbsp;기반&nbsp;노선&nbsp;효율화&nbsp;병행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;초&nbsp;1년&nbsp;내&nbsp;전면&nbsp;시행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시비&nbsp;+&nbsp;국·도비&nbsp;지원&nbsp;병행<br>&nbsp;&nbsp;○&nbsp;교통복지&nbsp;예산&nbsp;구조조정<br>&nbsp;&nbsp;○&nbsp;일부&nbsp;국비(고령자&nbsp;복지·교통&nbsp;지원사업)&nbsp;연계&nbsp;확보</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김재선 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	삼성전자-SK하이닉스  반도체  공장  유치로  청년             </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="삼성전자-SK하이닉스  반도체  공장  유치로  청년             ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;법인&nbsp;35년경영·45년&nbsp;정치&nbsp;경력을&nbsp;바탕으로&nbsp;삼성·SK하이닉스에&nbsp;최대&nbsp;500만&nbsp;평&nbsp;부지&nbsp;무상&nbsp;제공&nbsp;및&nbsp;세금감면&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;물(우물&nbsp;정)과&nbsp;전기&nbsp;인프라를&nbsp;활용해&nbsp;대기업&nbsp;및&nbsp;협력업체&nbsp;100개&nbsp;유치&nbsp;및&nbsp;정읍&nbsp;상권&nbsp;부활<br>&nbsp;&nbsp;○&nbsp;양질의&nbsp;청년&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;인구&nbsp;15만&nbsp;자족도시&nbsp;도약<br><br>□&nbsp;&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;인프라&nbsp;구축&nbsp;및&nbsp;특구지정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반도체&nbsp;유치&nbsp;추진위&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가&nbsp;첨단&nbsp;전략산업&nbsp;특화단지&nbsp;신청<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대기업&nbsp;MOU&nbsp;체결<br>&nbsp;&nbsp;○&nbsp;배후단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업단지&nbsp;착공<br><br>□&nbsp;&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;착수&nbsp;및&nbsp;앵커기업&nbsp;유치&nbsp;확정&nbsp;(지속&nbsp;추진&nbsp;사업)<br><br>□&nbsp;&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(첨단산업&nbsp;육성&nbsp;지원금),&nbsp;도비,&nbsp;시비&nbsp;및&nbsp;민간자본(기업&nbsp;직접&nbsp;투자)&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	내장산  국립공원  관리권  이관  추진  및 ‘3계절 특화 관광지’  및  파크골프장  108홀  조성, 구시장  먹거리 존 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="내장산  국립공원  관리권  이관  추진  및 ‘3계절 특화 관광지’  및  파크골프장  108홀  조성, 구시장  먹거리 존 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;환경부로부터&nbsp;내장산&nbsp;관리권을&nbsp;환원&nbsp;및&nbsp;규제&nbsp;안화<br>&nbsp;&nbsp;○&nbsp;삼계절&nbsp;(여름·가을·겨울)&nbsp;&nbsp;특화&nbsp;&nbsp;관광&nbsp;&nbsp;벨트&nbsp;&nbsp;구축으로&nbsp;지역&nbsp;상권&nbsp;활성&nbsp;화<br><br>□&nbsp;&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;관리권&nbsp;환원&nbsp;및&nbsp;규제&nbsp;안화&nbsp;협의<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;환경부·국립공원공단&nbsp;협의&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;내장산&nbsp;특별법&nbsp;정비&nbsp;및&nbsp;규제완화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;계절별&nbsp;관광&nbsp;인프라&nbsp;구측<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수상레저&nbsp;및&nbsp;설경&nbsp;축제&nbsp;인프라&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;광역&nbsp;교통망&nbsp;연계&nbsp;마케팅<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;KTX·직행버스&nbsp;연계&nbsp;&nbsp;상품&nbsp;출시<br><br>□&nbsp;&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;관리권&nbsp;전환&nbsp;착수&nbsp;및&nbsp;3계절&nbsp;축제&nbsp;브랜드화&nbsp;완성<br><br>□&nbsp;&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(관광거점도시&nbsp;지원금),&nbsp;도비,&nbsp;시비&nbsp;및&nbsp;민간유치(파크골프장,&nbsp;수상&nbsp;레저&nbsp;시설&nbsp;등)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	농민들  농산물  푸드  플랜  도입,  시  지원 운영 축산 폐수처리장  신설,  육소  경매장  활성화 농축산  소득 극대화 시행</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="농민들  농산물  푸드  플랜  도입,  시  지원 운영 축산 폐수처리장  신설,  육소  경매장  활성화 농축산  소득 극대화 시행">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;정읍형&nbsp;푸드플랜&nbsp;구축을&nbsp;통한&nbsp;농산물&nbsp;판로&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;무상&nbsp;축산폐수&nbsp;철기장&nbsp;신설&nbsp;및&nbsp;사료값&nbsp;지원으로&nbsp;축산가&nbsp;경영&nbsp;안정화<br><br>□&nbsp;&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;축산&nbsp;폐수처리장&nbsp;부지&nbsp;선정&nbsp;및&nbsp;사료값&nbsp;지원&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동·서부권&nbsp;무상&nbsp;축산폐수처리장&nbsp;부지&nbsp;확보&nbsp;및&nbsp;착공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사료&nbsp;구매&nbsp;자금&nbsp;이차보전&nbsp;및&nbsp;직접&nbsp;지원&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;정읍형&nbsp;푸드플랜&nbsp;유통망&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;로컬푸드&nbsp;연계&nbsp;푸드플랜&nbsp;유통&nbsp;체계&nbsp;고도화<br>&nbsp;&nbsp;○&nbsp;육소경매장&nbsp;활성화&nbsp;및&nbsp;브랜드화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;육소&nbsp;경매장&nbsp;시설&nbsp;보강&nbsp;및&nbsp;마케팅&nbsp;지원<br><br>□&nbsp;&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;시설&nbsp;착공&nbsp;및&nbsp;사료값,&nbsp;농약,&nbsp;비료값&nbsp;지원&nbsp;즉시&nbsp;시행&nbsp;(계속&nbsp;사업)<br><br>□&nbsp;&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(농촌신활력플러스&nbsp;사업&nbsp;등)<br>&nbsp;&nbsp;○&nbsp;시비(농업&nbsp;발전&nbsp;기금)<br>&nbsp;&nbsp;○&nbsp;축산&nbsp;발전&nbsp;기금</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	지방계약법  시행령 제57조  ‘주민참여감독제’ 법률 시행하여  이통장,  부녀회,  새마을  부녀회,  노인 경력인 일자리 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="지방계약법  시행령 제57조  ‘주민참여감독제’ 법률 시행하여  이통장,  부녀회,  새마을  부녀회,  노인 경력인 일자리 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;반납되는&nbsp;국비·도비&nbsp;&nbsp;예산&nbsp;전액&nbsp;확보&nbsp;및&nbsp;재배정<br>&nbsp;&nbsp;○&nbsp;‘주민참여감독관’&nbsp;및&nbsp;‘주니어&nbsp;돌보미’&nbsp;도입을&nbsp;통한&nbsp;실질적&nbsp;노인&nbsp;소득&nbsp;보장<br><br>□&nbsp;&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;반납&nbsp;예산&nbsp;전수조사&nbsp;및&nbsp;재정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예산&nbsp;반납&nbsp;방지&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;주민참여감독제&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시행령&nbsp;제57조&nbsp;기반‘정읍형&nbsp;주민참여감독제’운영&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;○&nbsp;주니어&nbsp;돌보미&nbsp;인력&nbsp;매칭&nbsp;및&nbsp;수당지급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시니어&nbsp;일자리(돌보미·감독관)모집&nbsp;및&nbsp;교육<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;매월&nbsp;100만원&nbsp;수준&nbsp;수당&nbsp;지급&nbsp;개시<br><br>□&nbsp;&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;즉시&nbsp;시행&nbsp;및&nbsp;매년&nbsp;확대&nbsp;추진<br><br>□&nbsp;&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;반납&nbsp;예산(약&nbsp;칠백오십육억칠천오백팔십이만원)&nbsp;정상&nbsp;집행<br>&nbsp;&nbsp;○&nbsp;국비·도비&nbsp;매칭&nbsp;펀드&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;지방소멸대응기금&nbsp;전환&nbsp;편성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	수의계약 한도 확대로 지역 기업 매출 증대 및 시청 구내식당 폐쇄</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="수의계약 한도 확대로 지역 기업 매출 증대 및 시청 구내식당 폐쇄">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;수의계약&nbsp;한도&nbsp;전문&nbsp;건설사&nbsp;1억원,&nbsp;종합&nbsp;건설사&nbsp;2억원으로&nbsp;확대로&nbsp;기업&nbsp;매출&nbsp;증대<br>&nbsp;&nbsp;○&nbsp;계약&nbsp;균등&nbsp;배분을&nbsp;통한&nbsp;지역&nbsp;경제&nbsp;선순환&nbsp;구조&nbsp;확립<br>&nbsp;<br>□&nbsp;&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;수의계약&nbsp;관련&nbsp;조례&nbsp;계정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방계약법&nbsp;근거&nbsp;조례&nbsp;개정안&nbsp;발의<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시의회&nbsp;협의&nbsp;및&nbsp;의결<br>&nbsp;&nbsp;○&nbsp;수의계약&nbsp;희망업체&nbsp;전수조사&nbsp;및&nbsp;데이터베이스화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수의계약&nbsp;배분&nbsp;총량제&nbsp;및&nbsp;순위제&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;업체&nbsp;우선&nbsp;발주제&nbsp;정착<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;기업,&nbsp;청년&nbsp;일자리&nbsp;창출&nbsp;연계&nbsp;점검<br><br>□&nbsp;&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;조례&nbsp;개정&nbsp;완료&nbsp;및&nbsp;즉시&nbsp;시행<br><br>□&nbsp;&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;별도&nbsp;재원&nbsp;필요&nbsp;없음(기존&nbsp;시&nbsp;예산&nbsp;집행&nbsp;방식의&nbsp;제도적&nbsp;개선)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

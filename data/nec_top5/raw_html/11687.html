@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김기현 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	인재가 꿈을 이루는 ‘창업중심도시’ 경산</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="인재가 꿈을 이루는 ‘창업중심도시’ 경산">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;경산에서&nbsp;배우고&nbsp;성장한&nbsp;청년이&nbsp;지역에&nbsp;정주해&nbsp;꿈을&nbsp;이루고&nbsp;지역발전에&nbsp;기여할&nbsp;수&nbsp;있는&nbsp;창업생태계&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;로봇·AI&nbsp;등&nbsp;미래산업&nbsp;‘메가특구’&nbsp;유치&nbsp;통한&nbsp;규제특례&nbsp;창업&nbsp;환경&nbsp;마련&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대구·경북&nbsp;주요거점도시로&nbsp;유치해&nbsp;우수인재에게&nbsp;정책패키지&nbsp;등&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;테크창업&nbsp;핵심&nbsp;거점인&nbsp;‘창업도시’&nbsp;유치로&nbsp;스타트업&nbsp;창업생태계&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역산업&nbsp;연계&nbsp;기획창업&nbsp;지원,&nbsp;창업기업에&nbsp;사업화자금&nbsp;지원&nbsp;등&nbsp;인재·R&D·규제특례·투자·공간&nbsp;집중&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;창업진흥원&nbsp;분원&nbsp;설립&nbsp;및&nbsp;창업펀드&nbsp;확대&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영남권&nbsp;창업자&nbsp;육성·지원의&nbsp;주요&nbsp;거점으로&nbsp;창업진흥원&nbsp;분원&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창업·벤처펀드&nbsp;확대&nbsp;조성해&nbsp;스타트업&nbsp;기업들의&nbsp;투자&nbsp;기회&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;글로벌인재&nbsp;참여형&nbsp;멘토&nbsp;대학&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;글로벌&nbsp;기업과&nbsp;함께&nbsp;경산&nbsp;소재&nbsp;대학(원)생이&nbsp;글로벌&nbsp;첨단&nbsp;산업&nbsp;리더로&nbsp;성장해&nbsp;창업&nbsp;역량을&nbsp;갖출&nbsp;수&nbsp;있도록&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;‘메가특구’,&nbsp;‘창업도시’&nbsp;선정&nbsp;위한&nbsp;기업·대학&nbsp;계획&nbsp;수립&nbsp;및&nbsp;신청&nbsp;:&nbsp;’26.7월~<br>&nbsp;&nbsp;○&nbsp;창업진흥원&nbsp;분원&nbsp;설립을&nbsp;위한&nbsp;정부부처(중기부)&nbsp;협의&nbsp;및&nbsp;추진&nbsp;:&nbsp;’26.7월~<br>&nbsp;&nbsp;○&nbsp;‘지역성장펀드’&nbsp;등&nbsp;‘모두의&nbsp;창업’&nbsp;펀드&nbsp;출자&nbsp;및&nbsp;조성&nbsp;추진&nbsp;:&nbsp;’26.7월~<br>&nbsp;&nbsp;○&nbsp;글로벌인재&nbsp;참여형&nbsp;멘토&nbsp;대학&nbsp;설립&nbsp;및&nbsp;프로그램&nbsp;진행&nbsp;:&nbsp;’26.7월~<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;‘메가특구’,&nbsp;‘창업도시’&nbsp;건은&nbsp;별도&nbsp;재원&nbsp;투입&nbsp;없음.<br>&nbsp;&nbsp;○&nbsp;‘지역성장펀드’&nbsp;출자&nbsp;및&nbsp;창업&nbsp;관련&nbsp;추가&nbsp;펀드&nbsp;출자&nbsp;:&nbsp;4년간&nbsp;총&nbsp;40억원<br>&nbsp;&nbsp;○&nbsp;글로벌인재&nbsp;참여형&nbsp;멘토&nbsp;대학&nbsp;설립&nbsp;추진&nbsp;:&nbsp;4년간&nbsp;총&nbsp;4억8천만원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	대구·경북 남부권 ‘문화거점도시’ 경산</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="대구·경북 남부권 ‘문화거점도시’ 경산">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;문화향유를&nbsp;넘어&nbsp;문화를&nbsp;지역경제&nbsp;활성화의&nbsp;핵심산업&nbsp;전략으로&nbsp;추진해&nbsp;대구·경북&nbsp;남부권의&nbsp;대체&nbsp;불가능한&nbsp;문화거점도시로&nbsp;발전<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국립현대미술관&nbsp;경산관&nbsp;건립&nbsp;및&nbsp;웹툰거리&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경산의&nbsp;문화적&nbsp;상징공간으로&nbsp;국립현대미술관&nbsp;경산관&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서상길&nbsp;청년문화거리&nbsp;및&nbsp;영남대&nbsp;인근을&nbsp;‘웹툰&nbsp;거리’로&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;문화선도산단&nbsp;유치&nbsp;및&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경산1산단&nbsp;등&nbsp;노후산단을&nbsp;문화선도산단으로&nbsp;유치해&nbsp;문화·콘텐츠&nbsp;사업&nbsp;집중지원하고,&nbsp;문화&nbsp;클러스터&nbsp;조성&nbsp;통해&nbsp;지역산업&nbsp;발전&nbsp;및&nbsp;브랜딩<br>&nbsp;&nbsp;○&nbsp;디자인소재은행&nbsp;유치&nbsp;통한&nbsp;지역산업의&nbsp;문화적&nbsp;부가가치&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;디자인&nbsp;소재&nbsp;정보를&nbsp;기업&nbsp;맞춤형으로&nbsp;컨설팅을&nbsp;제공함으로써&nbsp;지역에서&nbsp;생산되는&nbsp;상품의&nbsp;부가가치&nbsp;극대화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;국립현대미술관&nbsp;경산관&nbsp;건립&nbsp;위한&nbsp;정부부처&nbsp;등&nbsp;협의&nbsp;및&nbsp;추진&nbsp;:&nbsp;’26.7월~<br>&nbsp;&nbsp;○&nbsp;서상길&nbsp;만화벽화골목&nbsp;등&nbsp;웹툰특화거리&nbsp;지정&nbsp;및&nbsp;정비&nbsp;:&nbsp;’26.9월~’27.12월<br>&nbsp;&nbsp;○&nbsp;문화선도산단&nbsp;유치&nbsp;위한&nbsp;공모&nbsp;신청&nbsp;및&nbsp;클러스터&nbsp;조성&nbsp;추진&nbsp;:&nbsp;’26.7월~<br>&nbsp;&nbsp;○&nbsp;디자인소재은행&nbsp;유치&nbsp;위한&nbsp;연구용역&nbsp;및&nbsp;사업&nbsp;추진&nbsp;:&nbsp;’26.7월~<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국립현대미술관&nbsp;경산관&nbsp;건립은&nbsp;국비확보계획이라&nbsp;별도&nbsp;재원&nbsp;투입&nbsp;없음.<br>&nbsp;&nbsp;○&nbsp;웹툰특화거리&nbsp;조성&nbsp;및&nbsp;정비&nbsp;:&nbsp;총&nbsp;2억원<br>&nbsp;&nbsp;○&nbsp;문화선도산단&nbsp;유치&nbsp;및&nbsp;클러스터&nbsp;조성&nbsp;:&nbsp;4년간&nbsp;총&nbsp;220억<br>&nbsp;&nbsp;○&nbsp;디자인소재은행&nbsp;유치&nbsp;연구용역&nbsp;및&nbsp;사업&nbsp;:&nbsp;총&nbsp;5천만원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	자연과 사람을 잇는 ‘생태·관광·치유도시’ 경산</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="자연과 사람을 잇는 ‘생태·관광·치유도시’ 경산">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;생태환경&nbsp;및&nbsp;자연의&nbsp;생명력이&nbsp;시민의&nbsp;풍요로운&nbsp;삶으로&nbsp;이어질&nbsp;수&nbsp;있도록&nbsp;생태·관광·치유&nbsp;중심으로&nbsp;도시&nbsp;전환&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;금호강&nbsp;국가정원&nbsp;지정&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대구시와&nbsp;협력하여&nbsp;금호강&nbsp;문화관광&nbsp;자원화&nbsp;및&nbsp;지방정원&nbsp;지정·운영&nbsp;후&nbsp;국가정원&nbsp;지정&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;치유농업&nbsp;활성화&nbsp;및&nbsp;치유농업&nbsp;기반&nbsp;바이오&nbsp;산업&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경상북도&nbsp;치유농업센터&nbsp;이전&nbsp;추진&nbsp;및&nbsp;치유농장&nbsp;육성지원&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지·산·학&nbsp;협력을&nbsp;강화해&nbsp;수준&nbsp;높은&nbsp;치유농장&nbsp;및&nbsp;산업&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;자연의&nbsp;가치를&nbsp;자산화하는&nbsp;웰니스(치유)&nbsp;관광&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;치료와&nbsp;회복,&nbsp;체험을&nbsp;결합시켜&nbsp;치유농장을&nbsp;중심으로&nbsp;웰니스(치유)&nbsp;관광&nbsp;사업&nbsp;활성화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;대구시와&nbsp;협력&nbsp;통한&nbsp;금호강&nbsp;지방정원&nbsp;지정&nbsp;및&nbsp;운영&nbsp;:&nbsp;’26.7월~‘29.6월<br>&nbsp;&nbsp;○&nbsp;금호강&nbsp;국가정원&nbsp;지정&nbsp;추진&nbsp;:&nbsp;’29.1월~‘30.1월<br>&nbsp;&nbsp;○&nbsp;경상북도&nbsp;치유농업센터&nbsp;경산&nbsp;이전&nbsp;추진&nbsp;및&nbsp;치유농장&nbsp;육성지원&nbsp;:&nbsp;‘26.7월~<br>&nbsp;&nbsp;○&nbsp;치유농업&nbsp;활성&nbsp;위한&nbsp;지원단&nbsp;구성&nbsp;및&nbsp;지·산·학&nbsp;MOU&nbsp;확대&nbsp;:&nbsp;‘26.7월~<br>&nbsp;&nbsp;○&nbsp;치유농장&nbsp;중심으로&nbsp;한&nbsp;웰니스(치유)&nbsp;관광&nbsp;사업&nbsp;활성화&nbsp;:&nbsp;‘26.7월~<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;금호강&nbsp;지방정원&nbsp;조성&nbsp;:&nbsp;3년간&nbsp;총&nbsp;32억원<br>&nbsp;&nbsp;○&nbsp;치유농장&nbsp;육성지원&nbsp;사업&nbsp;:&nbsp;개소당&nbsp;5천만원씩&nbsp;매년&nbsp;5개소,&nbsp;4년간&nbsp;총&nbsp;10억원<br>&nbsp;&nbsp;○&nbsp;웰니스&nbsp;관광지&nbsp;확충&nbsp;:&nbsp;총&nbsp;10억원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	시민 모두의 이동권이 보장되는 ‘사통팔달도시’ 경산</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="시민 모두의 이동권이 보장되는 ‘사통팔달도시’ 경산">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;거주&nbsp;지역과&nbsp;연령·장애유무와&nbsp;관계&nbsp;없이&nbsp;시민&nbsp;모두가&nbsp;언제든&nbsp;안전하게&nbsp;이동할&nbsp;수&nbsp;있는&nbsp;교통환경&nbsp;개선&nbsp;및&nbsp;교통문제&nbsp;해결<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대구&nbsp;공동배차노선버스&nbsp;배차&nbsp;문제&nbsp;해결&nbsp;및&nbsp;읍면지역&nbsp;버스&nbsp;노선&nbsp;개편<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;기반&nbsp;수요·이동패턴&nbsp;분석&nbsp;시스템을&nbsp;도입하여&nbsp;배차&nbsp;및&nbsp;노선&nbsp;분석하고,&nbsp;‘총&nbsp;운행거리·생활권&nbsp;연결성·교통약자&nbsp;접근성’을&nbsp;종합적으로&nbsp;고려해&nbsp;개편<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;읍면지역의&nbsp;경우&nbsp;수요응답형(DRT)&nbsp;시골버스&nbsp;도입&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경산&nbsp;관내&nbsp;시내버스&nbsp;운전원&nbsp;인건비&nbsp;및&nbsp;수당&nbsp;등&nbsp;처우&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;행복택시&nbsp;및&nbsp;교통약자&nbsp;바우처&nbsp;택시&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행복택시&nbsp;및&nbsp;교통약자&nbsp;바우처&nbsp;택시&nbsp;월&nbsp;이용횟수&nbsp;확대(10회→15회)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통약자&nbsp;바우처&nbsp;택시&nbsp;운영대수&nbsp;확대(50대→100대)<br>&nbsp;&nbsp;○&nbsp;경산&nbsp;관내&nbsp;등·하교&nbsp;및&nbsp;출·퇴근&nbsp;교통&nbsp;불편&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;등·하교&nbsp;시간&nbsp;전용&nbsp;중·고교&nbsp;통학순환버스&nbsp;시범사업&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지능형&nbsp;교통체계(ITS)&nbsp;활용한&nbsp;출·퇴근&nbsp;신호주기·신호연동&nbsp;최적화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기반&nbsp;교통&nbsp;편의&nbsp;분석&nbsp;시스템&nbsp;개발&nbsp;및&nbsp;적용&nbsp;:&nbsp;’26.7월~’27.12월<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;참여형&nbsp;버스정책&nbsp;거버넌스&nbsp;운영&nbsp;및&nbsp;배차·노선&nbsp;개편&nbsp;:&nbsp;’27.1월~12월<br>&nbsp;&nbsp;○&nbsp;행복택시&nbsp;및&nbsp;교통약자&nbsp;바우처택시&nbsp;월&nbsp;이용횟수·운영대수&nbsp;확대&nbsp;:&nbsp;’27.1월~<br>&nbsp;&nbsp;○&nbsp;등·하교&nbsp;시간&nbsp;전용&nbsp;중·고교&nbsp;통학순환버스&nbsp;시범사업&nbsp;운영&nbsp;:&nbsp;’27.1월~<br>&nbsp;&nbsp;○&nbsp;지능형&nbsp;교통체계&nbsp;활용&nbsp;출·퇴근&nbsp;불편&nbsp;해소&nbsp;:&nbsp;’27.1월~<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기반&nbsp;교통&nbsp;편의&nbsp;분석&nbsp;:&nbsp;총&nbsp;8천5백만원<br>&nbsp;&nbsp;○&nbsp;행복택시&nbsp;및&nbsp;교통약자&nbsp;바우처&nbsp;택시&nbsp;확대&nbsp;:&nbsp;3년간&nbsp;총&nbsp;49억원<br>&nbsp;&nbsp;○&nbsp;등·하교&nbsp;시간&nbsp;전용&nbsp;중·고교&nbsp;통학순환버스&nbsp;시범사업&nbsp;:&nbsp;총&nbsp;6억6천만원<br>&nbsp;&nbsp;○&nbsp;지능형&nbsp;교통체계(ITS)&nbsp;활용&nbsp;신호체계&nbsp;최적화&nbsp;:&nbsp;총&nbsp;9억5천만원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	지역 특성 맞춤형 교육지원으로 만드는 ‘교육도시’ 경산</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="지역 특성 맞춤형 교육지원으로 만드는 ‘교육도시’ 경산">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;특성을&nbsp;고려한&nbsp;교육환경&nbsp;개선&nbsp;및&nbsp;돌봄&nbsp;확대,&nbsp;교육&nbsp;프로그램&nbsp;개발을&nbsp;통해&nbsp;교육의&nbsp;접근성과&nbsp;질&nbsp;제고<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중산지구&nbsp;중·고등학교&nbsp;신설&nbsp;추진&nbsp;및&nbsp;초·중·고&nbsp;환경개선사업&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중산지구&nbsp;중·고등학교&nbsp;신설&nbsp;사업&nbsp;중앙투자심사&nbsp;재추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;초·중·고&nbsp;노후&nbsp;시설&nbsp;개선&nbsp;및&nbsp;안전강화&nbsp;등&nbsp;환경개선사업&nbsp;확대&nbsp;<br>&nbsp;&nbsp;○&nbsp;온동네&nbsp;초등돌봄·교육&nbsp;확대&nbsp;및&nbsp;청소년&nbsp;방과후아카데미&nbsp;사업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학교와&nbsp;지역사회&nbsp;자원을&nbsp;함께&nbsp;활용한&nbsp;온동네&nbsp;초등돌봄·교육&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청소년&nbsp;수련시설을&nbsp;기반으로&nbsp;방과후&nbsp;돌봄&nbsp;필요한&nbsp;청소년&nbsp;지원하는&nbsp;청소년&nbsp;방과후아카데미&nbsp;사업&nbsp;실시<br>&nbsp;&nbsp;○&nbsp;RISE&nbsp;사업&nbsp;연계한&nbsp;지역&nbsp;특성&nbsp;반영&nbsp;프로그램&nbsp;개발&nbsp;및&nbsp;공급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래산업&nbsp;및&nbsp;지역특화&nbsp;산업과&nbsp;연계한&nbsp;교육과정·연구&nbsp;프로그램&nbsp;개발<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;중산지구&nbsp;중·고등학교&nbsp;신설&nbsp;추진&nbsp;:&nbsp;’27.1월~<br>&nbsp;&nbsp;○&nbsp;초·중·고&nbsp;노후&nbsp;시설&nbsp;개선&nbsp;및&nbsp;환경개선사업&nbsp;:&nbsp;’26.7월~<br>&nbsp;&nbsp;○&nbsp;온동네&nbsp;초등돌봄·교육&nbsp;확대&nbsp;및&nbsp;청소년&nbsp;방과후아카데미&nbsp;사업&nbsp;:&nbsp;’27.1월~<br>&nbsp;&nbsp;○&nbsp;RISE&nbsp;사업&nbsp;연계한&nbsp;지역&nbsp;특성&nbsp;반영&nbsp;프로그램&nbsp;개발&nbsp;:&nbsp;’27.1월~<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;중산지구&nbsp;중·고등학교&nbsp;신설&nbsp;사업&nbsp;재추진은&nbsp;별도&nbsp;재원&nbsp;투입&nbsp;없음.<br>&nbsp;&nbsp;○&nbsp;초·중·고&nbsp;노후&nbsp;시설&nbsp;개선&nbsp;및&nbsp;환경개선사업&nbsp;:&nbsp;4년간&nbsp;총&nbsp;28억<br>&nbsp;&nbsp;○&nbsp;온동네&nbsp;초등돌봄·교육&nbsp;확대는&nbsp;교육부&nbsp;사업으로&nbsp;별도&nbsp;재원&nbsp;투입&nbsp;없음.<br>&nbsp;&nbsp;○&nbsp;RISE&nbsp;사업&nbsp;연계한&nbsp;지역&nbsp;특성&nbsp;반영&nbsp;프로그램&nbsp;개발&nbsp;:&nbsp;총&nbsp;10억원</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

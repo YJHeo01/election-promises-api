@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김진태 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	강원형 4대 도민연금</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="강원형 4대 도민연금">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;인구감소·고령화&nbsp;대응을&nbsp;위한&nbsp;전국&nbsp;최초「광역형&nbsp;통합연금체계」구축<br>&nbsp;&nbsp;○&nbsp;생애주기별&nbsp;소득보장으로&nbsp;“태어나서&nbsp;노후까지&nbsp;책임지는&nbsp;강원도”&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;기본&nbsp;방향&nbsp;:&nbsp;강원형&nbsp;4대&nbsp;도민연금&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;디딤돌연금(월&nbsp;22만원),&nbsp;바람연금(월&nbsp;25만원),&nbsp;햇빛연금(월&nbsp;25만원),&nbsp;살림연금(월&nbsp;15만원+@)<br>&nbsp;&nbsp;○&nbsp;이행&nbsp;전략&nbsp;:&nbsp;연금별&nbsp;차별화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;디딤돌연금&nbsp;:&nbsp;개인형&nbsp;퇴직연금계좌(IRP)&nbsp;방식(10년&nbsp;납입후&nbsp;60~64세&nbsp;지급)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;바람연금·햇빛연금&nbsp;:&nbsp;풍력·태양광&nbsp;발전수익&nbsp;공유형&nbsp;주민연금&nbsp;방식<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;살림연금&nbsp;:&nbsp;농어촌&nbsp;기본소득&nbsp;기반&nbsp;정주기간&nbsp;비례&nbsp;인센티브&nbsp;지급&nbsp;방식<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;디딤돌연금&nbsp;:&nbsp;2027년부터&nbsp;연간&nbsp;3천명씩&nbsp;2036년까지&nbsp;10년간&nbsp;3만명<br>&nbsp;&nbsp;○&nbsp;바람연금·햇빛연금&nbsp;:&nbsp;2026년&nbsp;시범사업&nbsp;착수&nbsp;후&nbsp;단계적&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;살림연금&nbsp;:&nbsp;2026년&nbsp;시행중&nbsp;→&nbsp;도내&nbsp;인구감소지역&nbsp;단계적&nbsp;확대&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;디딤돌연금&nbsp;:&nbsp;가입자&nbsp;월&nbsp;7만원&nbsp;+&nbsp;도·시군&nbsp;월&nbsp;3만원&nbsp;매칭&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연간&nbsp;3천명&nbsp;가입&nbsp;기준&nbsp;연&nbsp;10억&nbsp;8천만원(도비·시군비)&nbsp;소요<br>&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;10년&nbsp;후&nbsp;최대&nbsp;3만명&nbsp;확대&nbsp;시&nbsp;연&nbsp;108억원(도비·시군비)&nbsp;소요<br>&nbsp;&nbsp;○&nbsp;바람·햇빛연금&nbsp;:&nbsp;민간&nbsp;PF&nbsp;및&nbsp;주민참여형&nbsp;투자방식&nbsp;병행<br>&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;태백&nbsp;가덕산&nbsp;풍력단지&nbsp;모델&nbsp;:&nbsp;주민참여,&nbsp;이익공유형&nbsp;모델&nbsp;<br>&nbsp;&nbsp;○&nbsp;살림연금&nbsp;:&nbsp;2026년&nbsp;정선군&nbsp;시범사업&nbsp;기준&nbsp;연간&nbsp;사업비&nbsp;587억원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비&nbsp;40%(235억원),&nbsp;지방비&nbsp;60%(352억원&nbsp;:&nbsp;도비30%,&nbsp;시군비70%)&nbsp;분담<br>&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;현재의&nbsp;과소한&nbsp;국비&nbsp;지원&nbsp;비율&nbsp;상향&nbsp;지속&nbsp;건의(타&nbsp;시도와&nbsp;공조)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	반값 육아용품 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="반값 육아용품 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;육아비용&nbsp;부담을&nbsp;획기적으로&nbsp;경감하여&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;강원도&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출산&nbsp;직후&nbsp;반복&nbsp;지출로&nbsp;부담이&nbsp;큰&nbsp;필수&nbsp;육아용품&nbsp;비용&nbsp;부담&nbsp;경감<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부&nbsp;기저귀&nbsp;바우처&nbsp;제도를&nbsp;확대하여&nbsp;도민&nbsp;육아&nbsp;사각지대&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;출산·양육&nbsp;친화&nbsp;환경&nbsp;적극&nbsp;조성으로&nbsp;출산율&nbsp;반등기반&nbsp;마련<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;강원도민&nbsp;전용&nbsp;온라인&nbsp;“반값&nbsp;육아몰”&nbsp;구축·운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도&nbsp;주관&nbsp;온라인&nbsp;플랫폼에&nbsp;시군&nbsp;공동&nbsp;참여<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;육아용품&nbsp;제조·유통사&nbsp;등&nbsp;민간기업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;기저귀·분유&nbsp;등&nbsp;필수&nbsp;육아용품&nbsp;구입&nbsp;시&nbsp;지방비&nbsp;50%&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강원형&nbsp;육아&nbsp;바우처&nbsp;및&nbsp;지역상품권&nbsp;연계&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;:&nbsp;사업&nbsp;세부계획&nbsp;수립&nbsp;및&nbsp;육아몰&nbsp;구축&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;:&nbsp;사업&nbsp;시행(지원품목·지원가구·지원지역의&nbsp;단계적&nbsp;확대)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연간&nbsp;도내&nbsp;출생아&nbsp;7천명&nbsp;중&nbsp;인구감소지역,&nbsp;저소득층·한부모·장애인·다자녀&nbsp;가구&nbsp;등으로&nbsp;단계적&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;2030년&nbsp;:&nbsp;도내&nbsp;전&nbsp;출생아&nbsp;대상&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;도비&nbsp;30%,&nbsp;시군비&nbsp;30%,&nbsp;지방소멸대응기금&nbsp;40%&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단계적&nbsp;확대에&nbsp;따른&nbsp;예산&nbsp;증액&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;출산·보육사업&nbsp;통합&nbsp;조정을&nbsp;통한&nbsp;재정&nbsp;효율화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;온라인&nbsp;플랫폼&nbsp;할인에&nbsp;민간기업&nbsp;참여&nbsp;유도로&nbsp;공공재정&nbsp;절감</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	대학생 무상교육 전면 실시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="대학생 무상교육 전면 실시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;도&nbsp;출신&nbsp;도내소재&nbsp;대학&nbsp;재학생을&nbsp;대상으로&nbsp;한&nbsp;대학등록금&nbsp;지원으로&nbsp;경제적&nbsp;부담&nbsp;경감&nbsp;및&nbsp;학업&nbsp;전념&nbsp;기회&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;고등교육&nbsp;기회&nbsp;확대&nbsp;및&nbsp;청년&nbsp;인재&nbsp;유출&nbsp;방지,&nbsp;지역&nbsp;정착&nbsp;촉진&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대학등록금&nbsp;지원&nbsp;대상&nbsp;확대&nbsp;:&nbsp;현행&nbsp;5구간&nbsp;이하에서&nbsp;단계적&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;등록금&nbsp;지원구간&nbsp;확대에&nbsp;따른&nbsp;보건복지부&nbsp;사회보장협의회&nbsp;협의&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;6구간까지는&nbsp;정부와&nbsp;협의&nbsp;완료(2023.12.14)<br>&nbsp;&nbsp;○&nbsp;국가장학금&nbsp;등과&nbsp;연계한&nbsp;전국&nbsp;최초의&nbsp;대학등록금&nbsp;지원체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;등록금&nbsp;고지액에서&nbsp;국가·대학장학금&nbsp;등을&nbsp;공제한&nbsp;잔여금액&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;:&nbsp;학자금&nbsp;지원구간&nbsp;6구간&nbsp;이하&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;2028년&nbsp;:&nbsp;학자금&nbsp;지원구간&nbsp;7구간&nbsp;이하&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;2029년&nbsp;:&nbsp;학자금&nbsp;지원구간&nbsp;8구간&nbsp;이하&nbsp;확대<br>&nbsp;&nbsp;*&nbsp;2027년&nbsp;정부&nbsp;국가장학금&nbsp;지원구간&nbsp;개편(5구간)과&nbsp;연계&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지원대상&nbsp;구간별&nbsp;자부담&nbsp;전면해소&nbsp;:&nbsp;전액지원(&nbsp;1인&nbsp;300만원&nbsp;한도&nbsp;폐지)<br>&nbsp;&nbsp;○&nbsp;사업확대에&nbsp;따른&nbsp;연차별&nbsp;소요&nbsp;사업비&nbsp;증액&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업비&nbsp;추계&nbsp;:&nbsp;2027년&nbsp;33억원&nbsp;→&nbsp;2028년&nbsp;53억원→&nbsp;2029년&nbsp;91억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재원분담&nbsp;:&nbsp;도비&nbsp;100%<br>&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;향후&nbsp;시군비&nbsp;매칭&nbsp;방안&nbsp;협의&nbsp;추진<br>&nbsp;&nbsp;(참고)&nbsp;2025년도&nbsp;등록금&nbsp;지원실적&nbsp;:&nbsp;2,435명,&nbsp;1,716백만원(도비)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	반값 농업+어업+임업 자재 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="반값 농업+어업+임업 자재 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;2023년&nbsp;전국&nbsp;최초로&nbsp;시행한&nbsp;반값&nbsp;농자재&nbsp;보급정책&nbsp;확대&nbsp;및&nbsp;어업·임업분야까지&nbsp;확대&nbsp;추진으로&nbsp;생산비&nbsp;절감을&nbsp;통한&nbsp;농어민&nbsp;소득&nbsp;안정&nbsp;도모&nbsp;<br>&nbsp;&nbsp;○&nbsp;농어민&nbsp;부담&nbsp;대폭&nbsp;경감&nbsp;및&nbsp;외지&nbsp;청년&nbsp;농업인&nbsp;도내&nbsp;귀농&nbsp;촉진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;반값&nbsp;농자재&nbsp;:&nbsp;농업&nbsp;필수&nbsp;자재&nbsp;구입비&nbsp;50%&nbsp;이상&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대상농가&nbsp;:&nbsp;67,436&nbsp;농가<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대상농가의&nbsp;논·밭&nbsp;기준&nbsp;경작면적별&nbsp;7구간으로&nbsp;구분·차등&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;반값&nbsp;어업자재&nbsp;:&nbsp;어업&nbsp;필수&nbsp;자재&nbsp;구입비&nbsp;50%&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대상&nbsp;어선&nbsp;:&nbsp;2,440&nbsp;척<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어업&nbsp;형태별,&nbsp;어선&nbsp;톤급별&nbsp;4구간으로&nbsp;구분·차등&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;반값&nbsp;임업자재&nbsp;:&nbsp;임업&nbsp;필수&nbsp;자재&nbsp;구입비&nbsp;50%&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대상임가&nbsp;:&nbsp;4,006&nbsp;임가<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대상임가의&nbsp;재배면적&nbsp;등을&nbsp;고려,&nbsp;6구간으로&nbsp;구분·차등&nbsp;지원<br>&nbsp;&nbsp;*&nbsp;비료·농약·종자·종묘·시설자재&nbsp;및&nbsp;어선&nbsp;기관소모품·어구부자재&nbsp;등&nbsp;농업,&nbsp;어업,&nbsp;임업&nbsp;자재&nbsp;품목&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;:&nbsp;농자재&nbsp;반값&nbsp;확대&nbsp;및&nbsp;어업·임업자재&nbsp;신규&nbsp;지원&nbsp;개시<br>&nbsp;&nbsp;○&nbsp;2028년&nbsp;:&nbsp;실질적&nbsp;반값&nbsp;농업·어업·임업&nbsp;자재&nbsp;지원체계&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;분야별&nbsp;소요예산&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업자재&nbsp;:&nbsp;1,191억원(추계)&nbsp;*2028년&nbsp;완성시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어업자재&nbsp;:&nbsp;50억원&nbsp;(추계)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임업자재&nbsp;:&nbsp;54억원&nbsp;(추계)<br>&nbsp;&nbsp;○&nbsp;사업비&nbsp;분담(현행&nbsp;비율&nbsp;적용)&nbsp;:&nbsp;도비&nbsp;15%,&nbsp;시군비&nbsp;35%,&nbsp;자부담&nbsp;50%<br>&nbsp;&nbsp;*&nbsp;농식품부·해수부·산림청&nbsp;국비사업&nbsp;및&nbsp;지방소멸대응기금&nbsp;연계&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	소상공인 경영자금 2배 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="소상공인 경영자금 2배 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;고물가·고금리&nbsp;및&nbsp;최근의&nbsp;고유가&nbsp;등으로&nbsp;어려움을&nbsp;겪고&nbsp;있는&nbsp;도내&nbsp;소상공인&nbsp;금융부담&nbsp;완화&nbsp;및&nbsp;경영안정&nbsp;도모<br>&nbsp;&nbsp;○&nbsp;강원형&nbsp;민생경제&nbsp;회복&nbsp;촉진&nbsp;및&nbsp;어려운&nbsp;지역&nbsp;상권&nbsp;활성화&nbsp;도모<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;경영안정자금&nbsp;규모&nbsp;단계적&nbsp;확대&nbsp;:&nbsp;현재&nbsp;2,000억원&nbsp;→&nbsp;4,000억원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;업체당&nbsp;대출&nbsp;한도&nbsp;확대(최대&nbsp;1억원)<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;이자&nbsp;지원&nbsp;:&nbsp;현재&nbsp;2%&nbsp;→&nbsp;3%<br>&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;연평균&nbsp;도내&nbsp;소상공인&nbsp;약&nbsp;6,000개&nbsp;업체&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;경영안정자금&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년부터&nbsp;매년&nbsp;500억원씩&nbsp;확대하여&nbsp;2030년에&nbsp;자금조성&nbsp;완료<br>&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;‘27년&nbsp;2,500억원,&nbsp;’28년&nbsp;3,000억원,&nbsp;‘29년&nbsp;3,500억원,&nbsp;’30년&nbsp;4,000억원&nbsp;<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;이자&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자금난&nbsp;등&nbsp;어려운&nbsp;형편을&nbsp;감안&nbsp;2027년부터&nbsp;3%이자&nbsp;지원&nbsp;시행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;경영안정자금&nbsp;조성&nbsp;:&nbsp;시중은행&nbsp;등과&nbsp;출연&nbsp;협의<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대상&nbsp;금융기관&nbsp;:&nbsp;NH농협·신한·국민·카카오뱅크&nbsp;등&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강원신용보증재단&nbsp;보증&nbsp;및&nbsp;중기부&nbsp;정책자금&nbsp;등과&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;참여&nbsp;은행,&nbsp;강원신용보증재단&nbsp;등과&nbsp;협약&nbsp;체결<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;이자지원&nbsp;예산&nbsp;:&nbsp;현재&nbsp;78억원&nbsp;→&nbsp;117억원(도비)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

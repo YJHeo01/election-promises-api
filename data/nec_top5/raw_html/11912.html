@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;정영철 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	영동형 농어촌기본소득 지급(월 최대15만원 +@)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="영동형 농어촌기본소득 지급(월 최대15만원 +@)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;민생경제의&nbsp;핵심공약,&nbsp;현재&nbsp;농림축산식품부&nbsp;주관&nbsp;시범사업&nbsp;2차공모에&nbsp;영동군도&nbsp;신청중이나&nbsp;선정이&nbsp;안될&nbsp;경우,&nbsp;본사업&nbsp;시행전이라도&nbsp;군비&nbsp;부담액분부터&nbsp;지급을&nbsp;할&nbsp;계획임<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전담조직을&nbsp;신설하여&nbsp;정부에산확보와&nbsp;자체&nbsp;경상예산&nbsp;절감을&nbsp;통해&nbsp;재원&nbsp;확보&nbsp;가능<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;:&nbsp;2026년&nbsp;하반기~&nbsp;&nbsp;2027.12<br>&nbsp;&nbsp;○&nbsp;2단계&nbsp;:&nbsp;2028년&nbsp;~&nbsp;&nbsp;계속사업<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;소요예산액(추정)&nbsp;:&nbsp;348억(농어촌기본소득금,&nbsp;군비)&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년도:&nbsp;약&nbsp;116억<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년도:&nbsp;약&nbsp;232억</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	힐링 온 허브센터 (군립목욕탕) 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="힐링 온 허브센터 (군립목욕탕) 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전통시장을&nbsp;군민&nbsp;또는&nbsp;관광객&nbsp;대기,&nbsp;안내,&nbsp;휴식&nbsp;등의&nbsp;관광과&nbsp;주민생활,&nbsp;소비를&nbsp;연결하는&nbsp;지역소비기반&nbsp;조성&nbsp;<br>&nbsp;&nbsp;○&nbsp;목욕탕&nbsp;시설을&nbsp;갖춤으로써&nbsp;외부&nbsp;관광객과&nbsp;소비자를&nbsp;전통시장으로&nbsp;유인,&nbsp;지역상권&nbsp;회복&nbsp;기대<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;어르신들을&nbsp;위한&nbsp;낮은&nbsp;단계의&nbsp;복지관&nbsp;역할(일하는&nbsp;밥퍼&nbsp;사업&nbsp;및&nbsp;휴게공간&nbsp;등)&nbsp;기대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전통시장내&nbsp;(지하1층,&nbsp;지상4층)&nbsp;힐링&nbsp;허브센터&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~2030년(5년간)<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;소요예산액(추정)&nbsp;:&nbsp;135억원&nbsp;정도(도비&nbsp;81억원,&nbsp;군비&nbsp;54억원)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	과수거점 산지유통센터(APC) 건립(경매기능포함)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="과수거점 산지유통센터(APC) 건립(경매기능포함)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;주산지&nbsp;경매&nbsp;기능을&nbsp;포함한&nbsp;농산물의&nbsp;집하,&nbsp;선별,&nbsp;포장,&nbsp;저온저장&nbsp;및&nbsp;출하&nbsp;등의&nbsp;복합&nbsp;기능을&nbsp;갖춘&nbsp;농산물&nbsp;유통시설&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;고품위&nbsp;농산물의&nbsp;평균이상의&nbsp;가격확보와&nbsp;저품위&nbsp;등외&nbsp;상품의&nbsp;가공확대를&nbsp;통해&nbsp;농가소득&nbsp;증대&nbsp;기대<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;영동군조합공동사업법인&nbsp;등&nbsp;전문&nbsp;유통법인에&nbsp;위탁운영(안)<br>&nbsp;&nbsp;○&nbsp;관내&nbsp;경매업체&nbsp;및&nbsp;가공시설&nbsp;입점&nbsp;유도<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;~2029년(3년간)<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;○소요예산액(추정)&nbsp;:&nbsp;150억원&nbsp;정도(국비&nbsp;75억원,&nbsp;지방비&nbsp;75억원)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	소상공인 발전기금 200억원 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="소상공인 발전기금 200억원 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;소상공인과&nbsp;전통시장&nbsp;상인&nbsp;등을&nbsp;지원하기&nbsp;위한&nbsp;200억원&nbsp;기금조성<br>&nbsp;&nbsp;○&nbsp;전통시장과&nbsp;골목상권에&nbsp;활력을&nbsp;불어넣고&nbsp;지역내&nbsp;소비를&nbsp;촉진하여&nbsp;지역자금의&nbsp;역외&nbsp;유출을&nbsp;방지<br>&nbsp;&nbsp;○&nbsp;소상공인의&nbsp;경영안정을&nbsp;지원하고&nbsp;청년&nbsp;창업과&nbsp;소상공인&nbsp;자립을&nbsp;지원<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;군&nbsp;출연금:&nbsp;매년&nbsp;50억원씩&nbsp;4년간&nbsp;일반회계&nbsp;출연<br>&nbsp;&nbsp;○&nbsp;공모사업을&nbsp;통한&nbsp;재원&nbsp;확대&nbsp;(국도비&nbsp;지원)<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;소상공인&nbsp;지원사업&nbsp;기금사업으로&nbsp;전환<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;~2030년(4년간)<br><br>□재원조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;소요예산액(추정)&nbsp;:&nbsp;200억원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일반회계&nbsp;기금출연&nbsp;:&nbsp;50억원씩&nbsp;4년간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;소상공인&nbsp;지원사업의&nbsp;기금전환</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	농업예산 2000억원 달성 목표</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="농업예산 2000억원 달성 목표">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농업예산을&nbsp;현재&nbsp;1,600억원&nbsp;정도로&nbsp;확대되었으나&nbsp;단계적으로&nbsp;2000억원까지&nbsp;확대&nbsp;지원목표<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;농업&nbsp;보급사업,&nbsp;청년농&nbsp;육성사업,&nbsp;농산물&nbsp;유통혁신사업,&nbsp;기후위기대응&nbsp;등&nbsp;각종&nbsp;농업&nbsp;보조지원&nbsp;사업을&nbsp;확대&nbsp;농업의&nbsp;경쟁력을&nbsp;높임<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;공모사업에&nbsp;총력&nbsp;대응하여&nbsp;농업예산의&nbsp;규모&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;매년&nbsp;단계적으로&nbsp;예산을&nbsp;증액(단순&nbsp;행사성&nbsp;예산&nbsp;절감)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;~2030년(4년간)<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;소요예산액(추정)&nbsp;:&nbsp;400억원&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;매년&nbsp;10억원씩&nbsp;4년간&nbsp;단계적&nbsp;농업예산&nbsp;증액<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공모사업&nbsp;발굴&nbsp;국도비&nbsp;확보&nbsp;적극대응</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

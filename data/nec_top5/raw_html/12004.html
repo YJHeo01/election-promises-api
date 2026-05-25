@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이미선 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	주거 및 민생 경제의 안전망</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="주거 및 민생 경제의 안전망">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;전국&nbsp;최대&nbsp;전세사기&nbsp;피해&nbsp;지역의&nbsp;오명을&nbsp;벗고,&nbsp;구민의&nbsp;주거권을&nbsp;인권으로&nbsp;보장하며,&nbsp;거대&nbsp;플랫폼으로부터&nbsp;소상공인의&nbsp;생존권을&nbsp;지키는&nbsp;지역&nbsp;선순환&nbsp;경제&nbsp;구축.<br><br>□&nbsp;이행방법<br>○&nbsp;전세사기&nbsp;피해&nbsp;전폭&nbsp;지원:&nbsp;<br>-&nbsp;구청&nbsp;내&nbsp;'전세사기&nbsp;피해&nbsp;회복&nbsp;전담팀'을&nbsp;상설화하여&nbsp;법률·심리·이사비(최대&nbsp;200만원)를&nbsp;원스톱&nbsp;지원합니다.<br>○&nbsp;정주권&nbsp;보장형&nbsp;공공재개발:&nbsp;<br>-&nbsp;화곡동&nbsp;등&nbsp;원도심&nbsp;재개발&nbsp;시&nbsp;공공임대&nbsp;20%&nbsp;의무화&nbsp;및&nbsp;원주민&nbsp;재정착률&nbsp;50%&nbsp;목표제를&nbsp;조례로&nbsp;명시합니다.<br>○&nbsp;그린&nbsp;리모델링:&nbsp;<br>-&nbsp;노후&nbsp;빌라&nbsp;단열·창호&nbsp;교체&nbsp;비용을&nbsp;80%까지&nbsp;지원하여&nbsp;주거&nbsp;질을&nbsp;높이고&nbsp;에너지&nbsp;비용을&nbsp;절감합니다.<br>○&nbsp;민생&nbsp;경제&nbsp;활성화:&nbsp;<br>-&nbsp;'강서사랑상품권'&nbsp;발행&nbsp;규모를&nbsp;800억&nbsp;원(현재의&nbsp;2배)으로&nbsp;확대&nbsp;및&nbsp;10%&nbsp;상시&nbsp;할인을&nbsp;복원합니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>○&nbsp;2026년~2030년&nbsp;(임기&nbsp;내&nbsp;지속&nbsp;추진,&nbsp;지원&nbsp;조례&nbsp;제정은&nbsp;2026년&nbsp;하반기&nbsp;완료)<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;순세계잉여금&nbsp;활용:&nbsp;매년&nbsp;발생하는&nbsp;약&nbsp;400억&nbsp;원&nbsp;규모의&nbsp;순세계잉여금&nbsp;중&nbsp;일부를&nbsp;민생&nbsp;예산으로&nbsp;우선&nbsp;편성합니다.<br>○&nbsp;구금고&nbsp;활용:&nbsp;강서구&nbsp;구금고&nbsp;운영&nbsp;수익&nbsp;및&nbsp;예치금을&nbsp;활용하여&nbsp;지역순환,&nbsp;활성화&nbsp;재원을&nbsp;마련합니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	돌봄의 공공성 강화망</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="돌봄의 공공성 강화망">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;파편화된&nbsp;돌봄&nbsp;서비스를&nbsp;하나로&nbsp;묶어&nbsp;'구청이&nbsp;책임지는&nbsp;통합돌봄'&nbsp;체계를&nbsp;구축하고,&nbsp;돌봄&nbsp;노동자의&nbsp;처우를&nbsp;획기적으로&nbsp;개선함.<br><br>□&nbsp;이행방법<br>○&nbsp;공공&nbsp;통합돌봄&nbsp;거점센터&nbsp;설치<br>-&nbsp;가양·등촌·방화&nbsp;등&nbsp;임대단지&nbsp;밀집&nbsp;지역&nbsp;및&nbsp;화곡권역에&nbsp;'원스톱&nbsp;거점센터'를&nbsp;설치하여&nbsp;의료-요양-복지를&nbsp;통합&nbsp;관리합니다.<br>○&nbsp;의료-돌봄&nbsp;연계<br>-&nbsp;퇴원&nbsp;후&nbsp;방문&nbsp;진료&nbsp;및&nbsp;재활&nbsp;서비스를&nbsp;제공하는&nbsp;'가가호호&nbsp;공공&nbsp;의료&nbsp;네트워크'를&nbsp;구축합니다.<br>○&nbsp;돌봄&nbsp;권리&nbsp;보장<br>-&nbsp;가족&nbsp;돌봄자(영케어러&nbsp;등)를&nbsp;위한&nbsp;'사회적&nbsp;돌봄&nbsp;수당'을&nbsp;신설하고,&nbsp;돌봄&nbsp;노동자&nbsp;전용&nbsp;쉼터&nbsp;및&nbsp;심리&nbsp;상담을&nbsp;지원합니다.<br>○&nbsp;교육&nbsp;돌봄&nbsp;혁신<br>-&nbsp;'강서구&nbsp;교육돌봄지원센터'를&nbsp;설립하여&nbsp;학교와&nbsp;마을을&nbsp;잇는&nbsp;촘촘한&nbsp;방과&nbsp;후&nbsp;돌봄망을&nbsp;조성합니다.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>○&nbsp;2027년까지&nbsp;거점센터&nbsp;2개소&nbsp;우선&nbsp;개소,&nbsp;2029년까지&nbsp;전&nbsp;구역&nbsp;네트워크&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국·시비&nbsp;매칭&nbsp;및&nbsp;구비&nbsp;편성<br>-&nbsp;정부의&nbsp;통합돌봄&nbsp;시범사업&nbsp;예산&nbsp;확보&nbsp;및&nbsp;구&nbsp;일반회계&nbsp;돌봄&nbsp;예산&nbsp;비중&nbsp;확대.<br>○&nbsp;사회서비스원&nbsp;연계<br>-&nbsp;서울시&nbsp;사회서비스원과의&nbsp;협력을&nbsp;통해&nbsp;인건비&nbsp;및&nbsp;운영비&nbsp;효율화.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	이동권 및 노동권 보장</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="이동권 및 노동권 보장">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;&nbsp;지형적&nbsp;소외&nbsp;지역&nbsp;없는&nbsp;교통&nbsp;복지를&nbsp;실현하고,&nbsp;모든&nbsp;일터에서&nbsp;생명과&nbsp;안전이&nbsp;보장되는&nbsp;'생명&nbsp;존중&nbsp;강서'&nbsp;실현.<br><br>□&nbsp;이행방법<br>○&nbsp;마을버스&nbsp;노선&nbsp;혁신<br>-&nbsp;화곡·방화동&nbsp;고지대&nbsp;중심&nbsp;노선&nbsp;개편&nbsp;및&nbsp;'마을버스&nbsp;공공관리제(준공영제)'&nbsp;도입으로&nbsp;안정적&nbsp;배차를&nbsp;보장합니다.<br>○&nbsp;강서&nbsp;똑버스(DRT)&nbsp;도입<br>-&nbsp;교통&nbsp;소외&nbsp;지역에&nbsp;주민&nbsp;호출형&nbsp;소형&nbsp;버스를&nbsp;운행합니다.<br>○&nbsp;노동&nbsp;안전망&nbsp;구축<br>&nbsp;-&nbsp;플랫폼&nbsp;노동자&nbsp;산재보험료&nbsp;지원&nbsp;및&nbsp;'강서&nbsp;허브(쉼터)'&nbsp;확대.<br>○&nbsp;안전&nbsp;예산&nbsp;10%&nbsp;의무제<br>-&nbsp;구청&nbsp;발주&nbsp;모든&nbsp;사업에&nbsp;안전&nbsp;예산을&nbsp;10%&nbsp;의무&nbsp;편성하고&nbsp;노동자&nbsp;작업중지권을&nbsp;실질화합니다.<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>○&nbsp;&nbsp;2026년&nbsp;하반기&nbsp;'똑버스'&nbsp;시범&nbsp;운영,&nbsp;2027년&nbsp;마을버스&nbsp;공공관리제&nbsp;단계적&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;교통유발부담금&nbsp;및&nbsp;주차장&nbsp;특별회계<br>-&nbsp;해당&nbsp;세입을&nbsp;대중교통&nbsp;인프라&nbsp;개선에&nbsp;최우선&nbsp;재배정합니다.<br>○&nbsp;재난관리기금&nbsp;및&nbsp;일반예산<br>-&nbsp;안전&nbsp;예산&nbsp;10%&nbsp;의무&nbsp;편성을&nbsp;위해&nbsp;불요불급한&nbsp;토목·전시성&nbsp;사업&nbsp;예산을&nbsp;조정합니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	맞춤형 권리 보장 (여성·청년·장애인)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="맞춤형 권리 보장 (여성·청년·장애인)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;계층별&nbsp;삶의&nbsp;특성에&nbsp;맞는&nbsp;핀셋&nbsp;지원으로&nbsp;차별과&nbsp;배제&nbsp;없는&nbsp;평등&nbsp;도시&nbsp;강서&nbsp;조성.<br><br>□&nbsp;이행방법<br>○&nbsp;여성<br>-&nbsp;'여성경력인정조례'&nbsp;제정&nbsp;및&nbsp;가사·돌봄&nbsp;노동&nbsp;가치&nbsp;인정&nbsp;수당&nbsp;지급.&nbsp;안심존&nbsp;전면&nbsp;구축.<br>○&nbsp;청년<br>-&nbsp;'강서형&nbsp;청년월세&nbsp;지원'&nbsp;사업&nbsp;신설&nbsp;및&nbsp;청년&nbsp;마음건강&nbsp;센터&nbsp;운영.<br>○&nbsp;장애인<br>-&nbsp;저상버스&nbsp;100%&nbsp;도입,&nbsp;권리중심&nbsp;공공일자리&nbsp;대폭&nbsp;확대,&nbsp;AAC(보완대체의사소통)&nbsp;친화&nbsp;마을&nbsp;조성.<br>○&nbsp;빈민<br>-&nbsp;영구임대아파트&nbsp;현대화&nbsp;및&nbsp;'에너지&nbsp;기본권'&nbsp;예산(냉난방비&nbsp;추가&nbsp;지원)&nbsp;신설.<br>&nbsp;<br>□&nbsp;이행기간<br>○&nbsp;&nbsp;2026년&nbsp;조례&nbsp;제정&nbsp;및&nbsp;수당&nbsp;지급&nbsp;개시,&nbsp;2030년까지&nbsp;장애인&nbsp;이동권&nbsp;완전&nbsp;보장<br>&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;사회복지기금&nbsp;및&nbsp;청년정책기금&nbsp;활용<br>-&nbsp;적립된&nbsp;기금을&nbsp;활용하여&nbsp;수당&nbsp;및&nbsp;월세&nbsp;지원&nbsp;재원&nbsp;마련.<br>○&nbsp;기업&nbsp;사회공헌기금(CSR)&nbsp;유치<br>-&nbsp;마곡지구&nbsp;내&nbsp;대기업들과&nbsp;연계하여&nbsp;장애인&nbsp;및&nbsp;청년&nbsp;일자리&nbsp;사업&nbsp;공동&nbsp;추진.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	미래를 대비하는 기후와 민주주의</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="미래를 대비하는 기후와 민주주의">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;주민이&nbsp;예산의&nbsp;주인이&nbsp;되는&nbsp;직접&nbsp;민주주의를&nbsp;실현하고,&nbsp;기후위기에&nbsp;선제적으로&nbsp;대응하는&nbsp;탄소중립&nbsp;선도&nbsp;도시&nbsp;도약.<br>&nbsp;<br>□&nbsp;이행방법<br>○&nbsp;순세계잉여금&nbsp;주민결정제<br>-&nbsp;매년&nbsp;남는&nbsp;예산의&nbsp;사용처를&nbsp;주민&nbsp;투표로&nbsp;결정하는&nbsp;'주민대회'를&nbsp;상설화합니다.<br>○&nbsp;주민자치&nbsp;복원<br>-&nbsp;마을공동체&nbsp;및&nbsp;시민사회&nbsp;지원&nbsp;예산&nbsp;원상회복&nbsp;및&nbsp;'민주시민교육센터'&nbsp;설립.<br>○&nbsp;강서구민&nbsp;햇빛발전소<br>-&nbsp;공공부지에&nbsp;주민&nbsp;투자형&nbsp;태양광&nbsp;발전소를&nbsp;건립하여&nbsp;수익을&nbsp;배당합니다.<br>○&nbsp;녹색&nbsp;인프라<br>마곡-한강-원도심을&nbsp;잇는&nbsp;자전거&nbsp;전용도로망&nbsp;및&nbsp;보행자&nbsp;중심&nbsp;거리&nbsp;재설계.<br>□&nbsp;이행기간<br>○&nbsp;2026년&nbsp;주민대회&nbsp;최초&nbsp;개최,&nbsp;2028년&nbsp;햇빛발전소&nbsp;1호기&nbsp;준공&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;주민참여예산&nbsp;확대<br>-&nbsp;기존&nbsp;참여예산&nbsp;범위를&nbsp;순세계잉여금&nbsp;영역까지&nbsp;대폭&nbsp;확장.<br>○&nbsp;녹색금융&nbsp;및&nbsp;주민&nbsp;펀딩<br>-&nbsp;햇빛발전소&nbsp;건립&nbsp;시&nbsp;주민&nbsp;펀딩을&nbsp;통해&nbsp;재원을&nbsp;조달하고&nbsp;수익을&nbsp;환원하는&nbsp;공유경제&nbsp;델&nbsp;도입.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

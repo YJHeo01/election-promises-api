@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이정훈 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	한국마사회 본사 영천 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="한국마사회 본사 영천 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;한국마사회&nbsp;본사를&nbsp;영천으로&nbsp;유치하여&nbsp;대한민국&nbsp;말산업&nbsp;수도&nbsp;실현<br>-&nbsp;과천&nbsp;경마장&nbsp;부지&nbsp;주택개발(9,800호)&nbsp;확정으로&nbsp;마사회&nbsp;이전&nbsp;불가피&nbsp;→&nbsp;영천&nbsp;유치&nbsp;선점<br>-&nbsp;경제파급효과&nbsp;1조&nbsp;8,000억원,&nbsp;신규&nbsp;일자리&nbsp;7,500개&nbsp;창출,&nbsp;직원&nbsp;수천&nbsp;명&nbsp;이주&nbsp;정착<br>□&nbsp;이행방법<br>○&nbsp;유치&nbsp;인프라:&nbsp;렛츠런파크&nbsp;영천(2026&nbsp;개장)&nbsp;기반&nbsp;확보<br>-&nbsp;145만㎡&nbsp;부지에&nbsp;경마장·트레이닝센터·승마장·공연장·말박물관&nbsp;완비(총&nbsp;3,657억원&nbsp;투입)<br>-&nbsp;유휴&nbsp;부지&nbsp;20만평에&nbsp;본사·연구소&nbsp;입지&nbsp;부지&nbsp;확보&nbsp;가능<br>○&nbsp;유치&nbsp;경쟁력:&nbsp;전국&nbsp;유일&nbsp;말산업&nbsp;풀체인&nbsp;도시<br>-말산업&nbsp;특구(2015),&nbsp;운주산&nbsp;승마조련센터(전국&nbsp;최초),&nbsp;말문화체험관,&nbsp;렛츠런파크&nbsp;4개소&nbsp;집적<br>-대구·경북&nbsp;메가시티&nbsp;공공기관&nbsp;이전&nbsp;우선권&nbsp;+&nbsp;2차&nbsp;공공기관&nbsp;지방이전&nbsp;적극&nbsp;활용<br>○&nbsp;유치&nbsp;추진:&nbsp;중앙정부·국회·경북도&nbsp;협력체계&nbsp;가동<br>-농림축산식품부·국회&nbsp;농해수위&nbsp;유치&nbsp;건의,&nbsp;경북도&nbsp;전략&nbsp;유치&nbsp;40개&nbsp;기관에&nbsp;마사회&nbsp;포함<br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;내&nbsp;유치&nbsp;확정&nbsp;목표<br>-1년차:&nbsp;렛츠런파크&nbsp;영천&nbsp;시범&nbsp;운영(2026.9~12)&nbsp;성공&nbsp;안착,&nbsp;유치위원회&nbsp;구성,&nbsp;정부&nbsp;공식&nbsp;건의<br>-2년차:&nbsp;2차&nbsp;공공기관&nbsp;이전&nbsp;로드맵&nbsp;반영&nbsp;추진,&nbsp;마사회&nbsp;이사회&nbsp;이전&nbsp;결의&nbsp;유도<br>-3~4년차:&nbsp;유치&nbsp;확정&nbsp;및&nbsp;본사&nbsp;이전&nbsp;준비(부지&nbsp;조성·정주여건&nbsp;확보),&nbsp;직원&nbsp;이주&nbsp;지원<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;유치&nbsp;비용&nbsp;최소화&nbsp;구조<br>-기확보&nbsp;인프라:&nbsp;렛츠런파크&nbsp;건설비&nbsp;3,657억원(마사회&nbsp;3,057억+도·시&nbsp;각&nbsp;300억)&nbsp;이미&nbsp;투입·완공&nbsp;예정<br>-본사&nbsp;건설비:&nbsp;마사회&nbsp;자체&nbsp;이전&nbsp;비용(공공기관&nbsp;이전&nbsp;원칙상&nbsp;기관&nbsp;부담)<br>-시&nbsp;부담분:&nbsp;정주여건&nbsp;조성(도로·생활인프라)&nbsp;→&nbsp;기존&nbsp;도시개발&nbsp;예산&nbsp;활용&nbsp;+&nbsp;국비&nbsp;매칭<br>-&nbsp;레저세&nbsp;환원:&nbsp;경북도와&nbsp;레저세&nbsp;조정교부금&nbsp;가중&nbsp;배분&nbsp;협약&nbsp;→&nbsp;시&nbsp;재정자립도&nbsp;획기적&nbsp;개선</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	완산동 통합 교육·청소년 캠퍼스 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="완산동 통합 교육·청소년 캠퍼스 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;완산동&nbsp;133,570㎡&nbsp;부지에&nbsp;전국&nbsp;최초&nbsp;교육·청소년&nbsp;통합&nbsp;캠퍼스&nbsp;조성<br>-&nbsp;학교&nbsp;3개교(영천초·영천중·영천여중)&nbsp;+&nbsp;청소년시설&nbsp;3개소(수련관·문화의집·상담복지센터)&nbsp;통합&nbsp;이전<br>-&nbsp;한국마사회&nbsp;본사&nbsp;유치&nbsp;연계&nbsp;정주여건&nbsp;확보&nbsp;및&nbsp;교육도시&nbsp;영천&nbsp;브랜드&nbsp;구축<br><br>□&nbsp;이행방법<br>○&nbsp;교육부·경상북도교육청&nbsp;협의를&nbsp;통한&nbsp;학교&nbsp;이전·신설&nbsp;인가&nbsp;및&nbsp;신축&nbsp;추진<br>○&nbsp;도심&nbsp;분산&nbsp;청소년시설을&nbsp;캠퍼스&nbsp;내&nbsp;통합&nbsp;배치,&nbsp;잔여&nbsp;부지&nbsp;공원·녹지&nbsp;조성<br>○&nbsp;마사회&nbsp;유치&nbsp;국책사업&nbsp;연동&nbsp;국비&nbsp;확보&nbsp;및&nbsp;캠퍼스형&nbsp;마스터플랜&nbsp;일괄&nbsp;발주<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;내&nbsp;4년&nbsp;완공&nbsp;목표<br>-&nbsp;1년차:&nbsp;마스터플랜&nbsp;수립,&nbsp;교육청&nbsp;협의,&nbsp;기본·실시설계,&nbsp;인허가<br>-&nbsp;2~3년차:&nbsp;학교·청소년시설&nbsp;착공&nbsp;및&nbsp;시공,&nbsp;녹지·공원&nbsp;조성<br>-&nbsp;4년차:&nbsp;준공·개교·개소,&nbsp;기존&nbsp;시설&nbsp;부지&nbsp;활용&nbsp;계획&nbsp;수립<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;총사업비&nbsp;약&nbsp;1,000억원&nbsp;―&nbsp;6개&nbsp;재원&nbsp;분담구조<br>-&nbsp;국비:&nbsp;마사회&nbsp;유치&nbsp;연계&nbsp;정주여건&nbsp;조성비&nbsp;+&nbsp;교육부&nbsp;학교시설&nbsp;보조<br>-&nbsp;도비:&nbsp;경상북도&nbsp;교육환경&nbsp;개선&nbsp;보조,&nbsp;지방소멸대응기금<br>-&nbsp;교육청:&nbsp;학교&nbsp;이전·신설&nbsp;사업비&nbsp;분담(교육청&nbsp;소관)<br>-&nbsp;시비:&nbsp;영천시&nbsp;일반회계&nbsp;분담분<br>-&nbsp;민간·기타:&nbsp;BTL&nbsp;방식&nbsp;일부&nbsp;시설&nbsp;조성&nbsp;+&nbsp;기존&nbsp;시설&nbsp;부지&nbsp;매각&nbsp;수익&nbsp;재투입</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	미래산업의 심장, 영천 경제 3대축 전환전략</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="미래산업의 심장, 영천 경제 3대축 전환전략">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;영천&nbsp;산업구조를&nbsp;3대&nbsp;미래산업&nbsp;축으로&nbsp;전환하여&nbsp;일자리&nbsp;1,000명+&nbsp;창출<br>-&nbsp;①&nbsp;고경산단&nbsp;이차전지&nbsp;클러스터:&nbsp;포항&nbsp;12.1조&nbsp;특화단지&nbsp;후방공급망&nbsp;거점화<br>-&nbsp;②&nbsp;금호산단&nbsp;로봇&nbsp;산학협력&nbsp;클러스터:&nbsp;폴리텍&nbsp;로봇캠퍼스·국가로봇테스트필드&nbsp;연계<br>-&nbsp;③&nbsp;K-방산&nbsp;테크노밸리:&nbsp;제2탄약창&nbsp;기부대양여&nbsp;통한&nbsp;방산&nbsp;혁신거점&nbsp;조성<br>□&nbsp;이행방법<br>○&nbsp;고경산단(47만&nbsp;평):&nbsp;이차전지&nbsp;특화단지&nbsp;연계&nbsp;지정&nbsp;추진<br>-&nbsp;포항&nbsp;양극재&nbsp;앵커기업&nbsp;협력사&nbsp;유치,&nbsp;기존&nbsp;송전선로&nbsp;활용&nbsp;전력&nbsp;인프라&nbsp;확보<br>-&nbsp;기회발전특구&nbsp;지정&nbsp;병행,&nbsp;RE100&nbsp;산업단지&nbsp;전환<br>○&nbsp;금호산단(8.5만&nbsp;평):&nbsp;로봇&nbsp;산학협력&nbsp;기반&nbsp;기업&nbsp;유치<br>-&nbsp;폴리텍&nbsp;로봇캠퍼스(취업률&nbsp;91.4%)&nbsp;채용연계형&nbsp;교육&nbsp;+&nbsp;대구&nbsp;로봇기업&nbsp;협력사&nbsp;유치<br>-&nbsp;국가로봇테스트필드(2028&nbsp;개소)&nbsp;실증사업&nbsp;연계<br>○&nbsp;K-방산&nbsp;테크노밸리(100만&nbsp;평+):&nbsp;기부대양여&nbsp;사업&nbsp;본격&nbsp;추진<br>-&nbsp;이재명&nbsp;정부&nbsp;임기&nbsp;내&nbsp;이전건의→국방부&nbsp;협의→기재부&nbsp;확정&nbsp;완수&nbsp;목표<br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;내&nbsp;착수&nbsp;및&nbsp;단계별&nbsp;추진<br>-&nbsp;1년차:&nbsp;고경산단&nbsp;특화단지&nbsp;지정&nbsp;신청,&nbsp;금호산단&nbsp;기업&nbsp;입주&nbsp;개시,&nbsp;탄약창&nbsp;이전협의&nbsp;요청서&nbsp;제출<br>-&nbsp;2~3년차:&nbsp;고경&nbsp;기업&nbsp;유치·분양,&nbsp;금호&nbsp;산학협력&nbsp;본격화,&nbsp;기부대양여&nbsp;합의각서&nbsp;체결<br>-&nbsp;4년차:&nbsp;고경·금호&nbsp;가시적&nbsp;성과(일자리&nbsp;창출),&nbsp;기부대양여&nbsp;기재부&nbsp;확정&nbsp;추진<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;축별&nbsp;재원&nbsp;분담구조<br>-&nbsp;고경산단:&nbsp;민간&nbsp;주도&nbsp;개발(총&nbsp;2,200억원)&nbsp;+&nbsp;국비(특화단지&nbsp;보조)&nbsp;+&nbsp;기회발전특구&nbsp;세제혜택<br>-&nbsp;금호산단:&nbsp;공영개발&nbsp;시비&nbsp;695억원(기집행)&nbsp;+&nbsp;산학협력&nbsp;국비(고용부·산업부)&nbsp;매칭<br>-&nbsp;K-방산:&nbsp;기부대양여&nbsp;국비&nbsp;사업&nbsp;+&nbsp;방산혁신클러스터&nbsp;국비(5년간&nbsp;490억원&nbsp;규모)&nbsp;확보&nbsp;추진<br>○&nbsp;3대축&nbsp;합산&nbsp;민간투자&nbsp;유치&nbsp;및&nbsp;국비·도비&nbsp;매칭으로&nbsp;시&nbsp;재정&nbsp;부담&nbsp;최소화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	스쳐가는 50만을 머무는 50만으로 영천 생활인구 경제권 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="스쳐가는 50만을 머무는 50만으로 영천 생활인구 경제권 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;영천&nbsp;생활인구&nbsp;50만을&nbsp;'체류·소비·재방문'하는&nbsp;경제인구로&nbsp;전환<br>-&nbsp;현재&nbsp;생활인구&nbsp;50만&nbsp;5,941명(주민등록인구의&nbsp;4.9배)이나&nbsp;체류시간&nbsp;11.4시간,&nbsp;원도심&nbsp;소비&nbsp;연결&nbsp;미흡<br>-&nbsp;생활인구&nbsp;70만명·재방문율&nbsp;60%·체류시간&nbsp;15시간&nbsp;달성,&nbsp;생활시민증&nbsp;10만명&nbsp;발급<br>□&nbsp;이행방법<br>○&nbsp;5대&nbsp;전략&nbsp;추진<br>-&nbsp;①&nbsp;데이터&nbsp;행정:&nbsp;통계청·행안부&nbsp;생활인구&nbsp;공공데이터+통신·카드사&nbsp;빅데이터&nbsp;결합&nbsp;전담팀&nbsp;구성,&nbsp;권역별&nbsp;분기&nbsp;분석<br>-&nbsp;②&nbsp;유입&nbsp;관문:&nbsp;금호역(대구1호선&nbsp;연장&nbsp;확정)+렛츠런파크(2026&nbsp;개장)&nbsp;서쪽관문,&nbsp;고경&nbsp;동쪽&nbsp;산업관문&nbsp;조성<br>-&nbsp;③&nbsp;체류&nbsp;전환:&nbsp;워케이션·두&nbsp;지역살이&nbsp;프로그램&nbsp;운영(연&nbsp;5,000명&nbsp;유치),&nbsp;4계절&nbsp;문화공연&nbsp;플랫폼&nbsp;조성<br>-&nbsp;④&nbsp;재방문&nbsp;락인:&nbsp;영천&nbsp;생활시민증&nbsp;발급(할인·적립·지역화폐&nbsp;연계),&nbsp;정기&nbsp;방문&nbsp;유도<br>-&nbsp;⑤&nbsp;소비&nbsp;연결:&nbsp;관광객→원도심&nbsp;골목상권&nbsp;소비&nbsp;루트&nbsp;설계,&nbsp;생활쿠폰·연계&nbsp;할인&nbsp;시스템<br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;내&nbsp;단계별&nbsp;추진<br>-&nbsp;1년차:&nbsp;데이터&nbsp;전담팀&nbsp;출범,&nbsp;생활시민증&nbsp;시스템&nbsp;구축,&nbsp;렛츠런파크&nbsp;개장&nbsp;연계&nbsp;관광&nbsp;루트&nbsp;설계<br>-&nbsp;2년차:&nbsp;금호&nbsp;역세권&nbsp;생활상권&nbsp;착수,&nbsp;워케이션&nbsp;프로그램&nbsp;본격&nbsp;운영,&nbsp;4계절&nbsp;공연&nbsp;시작<br>-&nbsp;3~4년차:&nbsp;생활인구&nbsp;70만&nbsp;달성,&nbsp;원도심&nbsp;연계&nbsp;소비&nbsp;30%&nbsp;증가,&nbsp;성과&nbsp;기반&nbsp;확대<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;단계별&nbsp;재원&nbsp;확보<br>-국비:&nbsp;행안부&nbsp;인구감소지역&nbsp;생활인구&nbsp;활성화&nbsp;사업비,&nbsp;문체부&nbsp;관광거점도시&nbsp;사업&nbsp;연계<br>-&nbsp;도비:&nbsp;경상북도&nbsp;관광진흥&nbsp;보조,&nbsp;지방소멸대응기금<br>-&nbsp;시비:&nbsp;기존&nbsp;관광·문화&nbsp;예산&nbsp;구조조정&nbsp;+&nbsp;생활인구&nbsp;전담&nbsp;예산&nbsp;신설<br>-&nbsp;민간:&nbsp;렛츠런파크&nbsp;한국마사회&nbsp;협력,&nbsp;워케이션&nbsp;시설&nbsp;민간투자(PPP)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	복지·교통·기본소득 ― 영천의 일상이 바뀝니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="복지·교통·기본소득 ― 영천의 일상이 바뀝니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;복지·교통·기본소득&nbsp;3대&nbsp;생활정책으로&nbsp;시민&nbsp;일상의&nbsp;체감&nbsp;변화&nbsp;실현<br>-&nbsp;①&nbsp;복지:&nbsp;농촌&nbsp;어르신&nbsp;의료·돌봄·영농&nbsp;통합&nbsp;생활안전망&nbsp;구축<br>-&nbsp;②&nbsp;교통:&nbsp;읍면동&nbsp;이동&nbsp;사각지대&nbsp;해소,&nbsp;교통&nbsp;소외&nbsp;제로&nbsp;도시&nbsp;실현<br>-&nbsp;③&nbsp;기본소득:&nbsp;마사회&nbsp;레저세&nbsp;연계&nbsp;시민배당&nbsp;단계적&nbsp;실현(월&nbsp;3만→10만원)<br>□&nbsp;이행방법<br>○&nbsp;복지:&nbsp;시니어&nbsp;생활안전망&nbsp;3축&nbsp;추진<br>-&nbsp;찾아가는&nbsp;건강센터&nbsp;상시화(현행&nbsp;연&nbsp;6회→읍면&nbsp;순환&nbsp;월&nbsp;2회&nbsp;이상),&nbsp;복지교통&nbsp;정례화<br>-&nbsp;고령&nbsp;농업인&nbsp;영농케어단&nbsp;운영(영농&nbsp;도우미+건강관리&nbsp;연계,&nbsp;포도·복숭아&nbsp;농번기&nbsp;집중&nbsp;지원)<br>○&nbsp;교통:&nbsp;이동권&nbsp;보장&nbsp;체계&nbsp;구축<br>-&nbsp;수요응답형(DRT)&nbsp;택시&nbsp;도입,&nbsp;심야택시&nbsp;운영,&nbsp;통합&nbsp;콜&nbsp;시스템&nbsp;구축<br>-&nbsp;병원&nbsp;연계&nbsp;정기&nbsp;셔틀·장보기&nbsp;동행버스&nbsp;운행으로&nbsp;면&nbsp;지역&nbsp;이동&nbsp;사각지대&nbsp;100%&nbsp;해소<br>○&nbsp;기본소득:&nbsp;시민배당&nbsp;단계적&nbsp;확대<br>-&nbsp;1단계(취임&nbsp;즉시)&nbsp;전&nbsp;시민&nbsp;월&nbsp;3만원,&nbsp;2단계(렛츠런파크+도&nbsp;협약)&nbsp;월&nbsp;5~7만원,&nbsp;3단계<br>(국비&nbsp;확보)&nbsp;월&nbsp;10만원<br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;내&nbsp;단계별&nbsp;추진<br>-1년차:&nbsp;DRT&nbsp;택시&nbsp;시범&nbsp;운영,&nbsp;찾아가는&nbsp;건강센터&nbsp;상시&nbsp;전환,&nbsp;시민배당&nbsp;월&nbsp;3만원&nbsp;개시<br>-2년차:&nbsp;DRT&nbsp;전&nbsp;읍면&nbsp;확대,&nbsp;영농케어단&nbsp;본격&nbsp;운영,&nbsp;렛츠런파크&nbsp;개장&nbsp;연계&nbsp;배당&nbsp;확대<br>-3~4년차:&nbsp;교통&nbsp;소외&nbsp;제로&nbsp;달성,&nbsp;경북도&nbsp;레저세&nbsp;환원&nbsp;협약·국비&nbsp;확보&nbsp;통한&nbsp;배당&nbsp;10만원&nbsp;추진<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;분야별&nbsp;재원&nbsp;확보<br>-복지:&nbsp;보건복지부&nbsp;통합돌봄&nbsp;국비&nbsp;+&nbsp;경북도&nbsp;고령화&nbsp;대응&nbsp;보조&nbsp;+&nbsp;시비<br>-교통:&nbsp;국토부&nbsp;DRT&nbsp;시범사업&nbsp;국비&nbsp;+&nbsp;시비(기존&nbsp;교통&nbsp;예산&nbsp;재편)<br>-기본소득:&nbsp;기존&nbsp;농민수당·상품권&nbsp;통합&nbsp;재편(연&nbsp;330억)&nbsp;+&nbsp;렛츠런파크&nbsp;레저세&nbsp;도&nbsp;환원&nbsp;협약&nbsp;+&nbsp;도농복합시&nbsp;특례&nbsp;국비&nbsp;추진<br>○&nbsp;1단계&nbsp;월&nbsp;3만원은&nbsp;기존&nbsp;예산&nbsp;재편으로&nbsp;즉시&nbsp;가능,&nbsp;이후&nbsp;마사회&nbsp;세수&nbsp;연동&nbsp;확대</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

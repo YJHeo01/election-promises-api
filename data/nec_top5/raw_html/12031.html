@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박필순 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	시민의 삶을 해결하는 민생 경제 회복</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="시민의 삶을 해결하는 민생 경제 회복">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시민의&nbsp;생존권&nbsp;보장과&nbsp;지역&nbsp;경제&nbsp;회복을&nbsp;위한&nbsp;민생지원금&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;경제의&nbsp;선순환&nbsp;구조&nbsp;개편<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민&nbsp;체감형&nbsp;책임&nbsp;행정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소비&nbsp;진작을&nbsp;통해&nbsp;지역경제&nbsp;활성화<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;광양시&nbsp;예산의&nbsp;10%,&nbsp;1,000억&nbsp;원&nbsp;매년&nbsp;편성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민복지국&nbsp;분리를&nbsp;통한&nbsp;복지업무&nbsp;전담&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광양시&nbsp;거주&nbsp;연도&nbsp;별&nbsp;차등&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광양사랑&nbsp;상품권&nbsp;및&nbsp;지역화폐&nbsp;지급<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;예산편성&nbsp;후&nbsp;이행<br><br>□&nbsp;재원&nbsp;조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국도비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;전시성&nbsp;사업&nbsp;재검토&nbsp;및&nbsp;우선순위&nbsp;조정<br>&nbsp;&nbsp;○&nbsp;불요불급&nbsp;예산&nbsp;구조조정<br>&nbsp;&nbsp;○&nbsp;예비비&nbsp;및&nbsp;재난&nbsp;관리기금&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;적극적인&nbsp;세원&nbsp;발굴&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	서울대학교 백운산 대학병원 설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="서울대학교 백운산 대학병원 설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;광양을&nbsp;남해안&nbsp;의료&nbsp;중심도시로<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업·교통&nbsp;거점&nbsp;역할에&nbsp;더해&nbsp;의료·힐링&nbsp;기능&nbsp;결합<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;남해안&nbsp;남중권&nbsp;책임&nbsp;의료&nbsp;체제&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료·힐링&nbsp;특구(치유산업&nbsp;클러스터)&nbsp;조성<br><br>□&nbsp;핵심&nbsp;내용<br>&nbsp;&nbsp;○&nbsp;광양시에&nbsp;대한&nbsp;서울대학교&nbsp;공적&nbsp;책임&nbsp;요구<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울대학교와&nbsp;협력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울대학교&nbsp;광양시&nbsp;면적&nbsp;24%(3,300만평)&nbsp;보유<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공형&nbsp;대학병원&nbsp;유치로&nbsp;의료&nbsp;불균형&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료관광&nbsp;프로그램&nbsp;개발<br><br>□&nbsp;추진&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;서울대학교와&nbsp;국가&nbsp;전략&nbsp;사업으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;백운산&nbsp;일대&nbsp;의료단지&nbsp;개발<br><br>□&nbsp;재원&nbsp;조달방안<br>&nbsp;&nbsp;○&nbsp;전액&nbsp;국도비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;전시성&nbsp;사업&nbsp;재검토&nbsp;및&nbsp;우선순위&nbsp;조정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	포스코와 함께하는 산업 대전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="포스코와 함께하는 산업 대전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;“산업·일자리,&nbsp;삶의&nbsp;질을&nbsp;향상”<br><br>□&nbsp;핵심&nbsp;내용<br>&nbsp;&nbsp;○&nbsp;포스코&nbsp;광양제철소&nbsp;중심&nbsp;산업&nbsp;지원을&nbsp;위한&nbsp;협의체&nbsp;구성<br><br>□&nbsp;추진&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;광양시&nbsp;거주&nbsp;인프라&nbsp;및&nbsp;거버넌스&nbsp;정책&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래소재&nbsp;산업&nbsp;규제&nbsp;완화&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신규산업을&nbsp;담을&nbsp;수&nbsp;있는&nbsp;행정&nbsp;플랫폼&nbsp;역할&nbsp;수행<br><br>□&nbsp;장기적&nbsp;고용&nbsp;효과<br>&nbsp;&nbsp;○&nbsp;청장년&nbsp;양질의&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;투자와&nbsp;생산&nbsp;유발효과로&nbsp;지방세&nbsp;증가<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;및&nbsp;서비스업&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;도시&nbsp;브랜드&nbsp;제고와&nbsp;지역경제&nbsp;긍정적&nbsp;파급&nbsp;효과</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	광양항 산업·물류 혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="광양항 산업·물류 혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;“항만을&nbsp;「생산&nbsp;거점」으로&nbsp;전환”<br><br>□&nbsp;핵심&nbsp;내용<br>&nbsp;&nbsp;○&nbsp;광양항을&nbsp;산업·물류&nbsp;복합기지로&nbsp;전환<br><br>□&nbsp;추진&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;항만&nbsp;배후부지&nbsp;제조기업&nbsp;유치(컨테이너)<br>&nbsp;&nbsp;○&nbsp;수소·저탄소&nbsp;소재&nbsp;산업&nbsp;집중&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;생산→가공→수출&nbsp;원스톱&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;북극&nbsp;항로&nbsp;준비&nbsp;기획단&nbsp;설치<br><br>□&nbsp;장기적&nbsp;고용&nbsp;효과와&nbsp;주요&nbsp;이점<br>&nbsp;&nbsp;○&nbsp;항만&nbsp;-&nbsp;산업&nbsp;연계가&nbsp;제조·수출&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;북극&nbsp;항로&nbsp;시대에&nbsp;에너지·물류&nbsp;허브로&nbsp;도약을&nbsp;위한&nbsp;준비<br>&nbsp;&nbsp;○&nbsp;신산업&nbsp;유치로&nbsp;고부가가치&nbsp;창출</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	황금지구와 율촌 공단 교량 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="황금지구와 율촌 공단 교량 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;물류경로&nbsp;단축과&nbsp;산업단지&nbsp;연계성&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광양만권의&nbsp;물류&nbsp;효율화와&nbsp;지역&nbsp;경제&nbsp;활성화<br><br>□&nbsp;주요&nbsp;효과<br>&nbsp;&nbsp;○&nbsp;황금지구와&nbsp;율촌산업단지&nbsp;직통으로&nbsp;물류&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;산단&nbsp;직원&nbsp;황금지구&nbsp;인구&nbsp;유입<br>&nbsp;&nbsp;○&nbsp;광양만권&nbsp;경쟁력&nbsp;제고<br><br>□&nbsp;추진&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;정부,&nbsp;국회,&nbsp;경제자유구역청(특별시)&nbsp;사업&nbsp;필요성&nbsp;설득<br>&nbsp;&nbsp;○&nbsp;국토교통부·기획재정부&nbsp;설득을&nbsp;위해&nbsp;물동량&nbsp;자료&nbsp;보완<br>&nbsp;&nbsp;○&nbsp;광양만권경제자유구역청을&nbsp;통해&nbsp;전액&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;광양·여수&nbsp;공동&nbsp;추진으로&nbsp;예산&nbsp;분담</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

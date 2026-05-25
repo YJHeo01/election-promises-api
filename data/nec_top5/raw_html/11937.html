@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김동근 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	반환공여구역(미군기지) 경제자유구역 지정 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="반환공여구역(미군기지) 경제자유구역 지정 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;반환공여구역인&nbsp;캠프&nbsp;레드클라우드(CRC)와&nbsp;캠프&nbsp;카일을&nbsp;경제자유구역으로&nbsp;지정하고,&nbsp;의정부를&nbsp;미래&nbsp;첨단산업·일자리&nbsp;중심&nbsp;자족도시로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;디자인·미디어콘텐츠·AI·바이오메디컬&nbsp;등&nbsp;미래산업&nbsp;유치&nbsp;기반을&nbsp;마련하고,&nbsp;과밀억제권역&nbsp;등&nbsp;중첩규제를&nbsp;극복한&nbsp;기업하기&nbsp;좋은&nbsp;투자환경&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;거점별&nbsp;전략산업&nbsp;특화&nbsp;등&nbsp;개발계획&nbsp;구체화&nbsp;및&nbsp;관계기관&nbsp;협의&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;CRC는&nbsp;디자인·미디어콘텐츠·AI&nbsp;중심,&nbsp;캠프&nbsp;카일은&nbsp;바이오&nbsp;첨단의료&nbsp;중심으로&nbsp;특화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;토양정화,&nbsp;기반시설&nbsp;구축,&nbsp;토지이용계획&nbsp;수립&nbsp;등&nbsp;단계별&nbsp;개발&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업통상자원부&nbsp;지정&nbsp;신청&nbsp;및&nbsp;심사&nbsp;대응(경기도&nbsp;등&nbsp;상급기관&nbsp;협력)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;외국인&nbsp;투자기업,&nbsp;국내&nbsp;유망기업&nbsp;등&nbsp;타깃&nbsp;업종&nbsp;맞춤형&nbsp;투자유치&nbsp;설명회&nbsp;개최<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;내&nbsp;경제자유구역&nbsp;지정&nbsp;및&nbsp;실행&nbsp;가시화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단기/중기&nbsp;:&nbsp;지정&nbsp;추진&nbsp;용역,&nbsp;개발계획&nbsp;구체화,&nbsp;지정&nbsp;신청&nbsp;및&nbsp;심사&nbsp;대응<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장기&nbsp;:&nbsp;기반시설&nbsp;조성&nbsp;본격화&nbsp;및&nbsp;글로벌&nbsp;앵커기업&nbsp;유치<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·민간투자를&nbsp;연계한&nbsp;복합&nbsp;재원&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;토양정화&nbsp;및&nbsp;기반시설&nbsp;구축은&nbsp;국가&nbsp;및&nbsp;경기도&nbsp;지원사업과&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;세제혜택,&nbsp;입지&nbsp;인센티브,&nbsp;규제&nbsp;완화를&nbsp;활용한&nbsp;민간자본&nbsp;투자&nbsp;유치&nbsp;극대화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	반환공여구역(미군기지) 내 대기업 유치 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="반환공여구역(미군기지) 내 대기업 유치 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;캠프&nbsp;잭슨,&nbsp;캠프&nbsp;카일,&nbsp;CRC&nbsp;등&nbsp;반환공여구역을&nbsp;중심으로&nbsp;대기업&nbsp;및&nbsp;앵커&nbsp;기업을&nbsp;유치하여&nbsp;의정부를&nbsp;첨단산업과&nbsp;양질의&nbsp;일자리&nbsp;중심&nbsp;자족&nbsp;도시로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대웅그룹&nbsp;유치를&nbsp;계기로&nbsp;제약·바이오&nbsp;중심&nbsp;첨단&nbsp;산업생태계를&nbsp;구축하고&nbsp;연관기업을&nbsp;집적하여&nbsp;전문인력&nbsp;중심의&nbsp;일자리&nbsp;창출<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대웅그룹&nbsp;유치를&nbsp;기반으로&nbsp;한&nbsp;거점별&nbsp;융복합&nbsp;산업단지&nbsp;집중&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;캠프&nbsp;잭슨(제약·바이오·헬스케어),&nbsp;캠프&nbsp;카일(바이오&nbsp;첨단의료),&nbsp;CRC(AI·미디어콘텐츠·디자인)&nbsp;등&nbsp;기능&nbsp;특화<br>&nbsp;&nbsp;○&nbsp;기업이&nbsp;실제&nbsp;입주&nbsp;가능한&nbsp;부지&nbsp;및&nbsp;제도적&nbsp;기반&nbsp;선제&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GB&nbsp;해제,&nbsp;도시개발구역&nbsp;지정,&nbsp;토양정화&nbsp;및&nbsp;기반시설&nbsp;구축&nbsp;등&nbsp;행정절차&nbsp;조기&nbsp;가시화<br>&nbsp;&nbsp;○&nbsp;실질적&nbsp;투자유치&nbsp;실행력&nbsp;및&nbsp;민관&nbsp;협력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대웅그룹&nbsp;및&nbsp;타깃&nbsp;연관기업&nbsp;대상&nbsp;맞춤형&nbsp;인센티브,&nbsp;규제완화,&nbsp;입지&nbsp;지원&nbsp;패키지&nbsp;제공&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의정부도시공사와&nbsp;연계한&nbsp;사업성&nbsp;분석&nbsp;및&nbsp;민간참여&nbsp;유치&nbsp;구조&nbsp;본격화&nbsp;&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;내&nbsp;핵심&nbsp;행정절차&nbsp;가시화&nbsp;및&nbsp;대기업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단기·중기&nbsp;:&nbsp;핵심&nbsp;기업&nbsp;투자&nbsp;협의,&nbsp;캠프&nbsp;잭슨&nbsp;개발계획&nbsp;확정&nbsp;및&nbsp;기반&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장기&nbsp;:&nbsp;기업&nbsp;집적&nbsp;및&nbsp;산업클러스터&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·민간투자를&nbsp;연계한&nbsp;대규모&nbsp;복합&nbsp;재원구조&nbsp;확립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시비(행정),&nbsp;국·도비(기반시설),&nbsp;민간투자(기업),&nbsp;도시공사&nbsp;참여<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경제자유구역&nbsp;특례,&nbsp;세제·입지&nbsp;인센티브,&nbsp;100억&nbsp;미래산업&nbsp;펀드&nbsp;연계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	지하철8호선 의정부역 연장 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="지하철8호선 의정부역 연장 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;의정부·남양주&nbsp;등&nbsp;수도권&nbsp;동·북부지역&nbsp;주민들의&nbsp;철도&nbsp;사각지대&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;의정부시에&nbsp;최근&nbsp;건설된&nbsp;고산&nbsp;및&nbsp;민락&nbsp;신도시&nbsp;광역교통문제&nbsp;완화<br>&nbsp;&nbsp;○&nbsp;지하철&nbsp;1호선,&nbsp;GTX-C,&nbsp;SRT&nbsp;등&nbsp;수도권&nbsp;광역철도망&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;경기남부에&nbsp;비해&nbsp;상대적으로&nbsp;부족한&nbsp;경기북부권의&nbsp;광역교통&nbsp;격차를&nbsp;줄이고,&nbsp;균형발전&nbsp;촉진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;경기도/의정부시/남양주시&nbsp;지하철&nbsp;8호선&nbsp;연장(안)&nbsp;마련&nbsp;<br>&nbsp;&nbsp;○&nbsp;제5차&nbsp;광역교통시행계획에&nbsp;반영(대도시권광역교통위원회)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2022년부터&nbsp;계속&nbsp;추진&nbsp;중<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;사업비:&nbsp;1.8조&nbsp;원(개략&nbsp;추정치)<br>&nbsp;&nbsp;○&nbsp;사업비&nbsp;분담:&nbsp;국비&nbsp;70%,&nbsp;지방비&nbsp;30%(경기도/의정부/남양주시)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	의정부역세권 사업 (UBC) 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="의정부역세권 사업 (UBC) 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;도시공사&nbsp;주도&nbsp;BTO&nbsp;방식으로&nbsp;SPC&nbsp;설립&nbsp;조기&nbsp;이행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경기북부&nbsp;대표&nbsp;경제혁신&nbsp;거점&nbsp;조성,&nbsp;의정부시&nbsp;생태,&nbsp;문화,&nbsp;청년&nbsp;일자리의&nbsp;핵심거점으로&nbsp;조성&nbsp;<br>&nbsp;&nbsp;○&nbsp;UBC&nbsp;타당성&nbsp;및&nbsp;기본계획&nbsp;수립&nbsp;조기&nbsp;완료&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;상반기&nbsp;수립&nbsp;완료&nbsp;<br>&nbsp;&nbsp;○&nbsp;UBC&nbsp;공공시설&nbsp;조성&nbsp;추진협의체&nbsp;설립&nbsp;및&nbsp;공공기관&nbsp;유치&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공기관&nbsp;및&nbsp;복합환승센터&nbsp;등&nbsp;공공시설&nbsp;이전을&nbsp;위한&nbsp;민관협력&nbsp;추진&nbsp;협의체&nbsp;설립&nbsp;/&nbsp;공공기관&nbsp;유치&nbsp;조기&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역상인&nbsp;상생협의체&nbsp;공동추진&nbsp;&nbsp;&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;도시공사·경기도·의정부시&nbsp;공동&nbsp;대응<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시공사와&nbsp;민간사업자&nbsp;공모&nbsp;및&nbsp;선정&nbsp;조치&nbsp;추진&nbsp;(2027년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시계획변경&nbsp;절차&nbsp;조기&nbsp;추진&nbsp;(2027년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행정안전부&nbsp;투자심사&nbsp;및&nbsp;투자&nbsp;유치&nbsp;추진&nbsp;SPC&nbsp;설립&nbsp;(2028년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건축인허가&nbsp;및&nbsp;공사착공&nbsp;(2029년&nbsp;하반기)<br>&nbsp;&nbsp;○&nbsp;UBC&nbsp;공공시설&nbsp;조성&nbsp;추진협의체&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의정부시,&nbsp;도시공사,&nbsp;경기도,&nbsp;지역상인으로&nbsp;구성된&nbsp;추진협의체&nbsp;구성&nbsp;및&nbsp;운영&nbsp;(2027년)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~2033년&nbsp;까지<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;사업비:&nbsp;1조&nbsp;3,086억&nbsp;원<br>&nbsp;&nbsp;○&nbsp;사업비&nbsp;분담:&nbsp;민간투자,&nbsp;재정(국비,&nbsp;지방비)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	GTX-C 조기 개통 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="GTX-C 조기 개통 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;GTX-C&nbsp;착공(2024.&nbsp;1.)&nbsp;이후&nbsp;국토부와&nbsp;사업시행자&nbsp;간&nbsp;공사비&nbsp;문제로&nbsp;개통시점이&nbsp;3년&nbsp;정도&nbsp;늦어진&nbsp;기간&nbsp;회복<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;당초&nbsp;개통계획:&nbsp;2028년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;변경&nbsp;개통계획:&nbsp;2031년<br>&nbsp;&nbsp;○&nbsp;GTX-C&nbsp;조기&nbsp;개통은&nbsp;의정부·양주&nbsp;등&nbsp;경기북부&nbsp;지역에서&nbsp;서울권&nbsp;및&nbsp;수도권&nbsp;광역교통문제&nbsp;완화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국토부와&nbsp;서울시·경기도&nbsp;공동&nbsp;대응<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시(자치구)와&nbsp;경기도(의정부시,&nbsp;양주시,&nbsp;안양시,&nbsp;군포시,&nbsp;의왕시,&nbsp;수원시)의&nbsp;노선&nbsp;통과&nbsp;지자체와&nbsp;GTX-C&nbsp;조기개통을&nbsp;위한&nbsp;공동대응<br>&nbsp;&nbsp;○&nbsp;(가칭)&nbsp;서울시와&nbsp;경기도&nbsp;GTX-C&nbsp;조기&nbsp;개통&nbsp;추진위원회&nbsp;등&nbsp;구성&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~2031년&nbsp;까지<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;사업비:&nbsp;4조&nbsp;3,875억&nbsp;원<br>&nbsp;&nbsp;○&nbsp;사업비&nbsp;분담:&nbsp;민간투자,&nbsp;재정(국비,&nbsp;지방비)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

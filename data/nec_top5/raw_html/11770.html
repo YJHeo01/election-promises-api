@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;우성빈 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	정관선 초스피드 착공 및 기장일광선 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="정관선 초스피드 착공 및 기장일광선 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;정관선&nbsp;착공까지&nbsp;행정절차&nbsp;최대한&nbsp;압축으로&nbsp;조기착공<br>2.&nbsp;기장일광선&nbsp;예타면제&nbsp;통한&nbsp;유치<br>3.&nbsp;원전소재지&nbsp;연계&nbsp;비상교통망&nbsp;확보<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;기장군&nbsp;지역의&nbsp;교통망&nbsp;획기적&nbsp;개선으로&nbsp;지역발전과&nbsp;삶의질&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;원전10기&nbsp;밀집,&nbsp;기장군의&nbsp;특별한&nbsp;희생에&nbsp;특별한&nbsp;보답<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;정관선은&nbsp;부산시&nbsp;등&nbsp;상급기관과의&nbsp;협의를&nbsp;통해&nbsp;패스트트랙&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;기장일광선&nbsp;예타면제는&nbsp;취임직후&nbsp;기획예산처&nbsp;장관,&nbsp;청와대&nbsp;정책실장,&nbsp;국무총리&nbsp;면담하고,&nbsp;예타면제&nbsp;추진&nbsp;요청<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이후&nbsp;민주당&nbsp;차원에서&nbsp;전국적으로&nbsp;예타면제&nbsp;필요한&nbsp;사업&nbsp;모아서&nbsp;고위당정협의&nbsp;통해&nbsp;각&nbsp;시도별&nbsp;주요&nbsp;예타면제&nbsp;사업&nbsp;확정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;과거&nbsp;문재인&nbsp;정부시절에도&nbsp;1시·도&nbsp;1건씩&nbsp;예타면제&nbsp;실시&nbsp;전례있음<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(예&nbsp;경남&nbsp;내륙고속철도&nbsp;등)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;정관선&nbsp;현재&nbsp;28년&nbsp;착공예정,&nbsp;행정절차&nbsp;패스트트랙으로&nbsp;조기착공<br>&nbsp;&nbsp;○&nbsp;취임직후&nbsp;추진하여&nbsp;26년말까지&nbsp;확정<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정관선&nbsp;조기착공은&nbsp;총사업비&nbsp;변경&nbsp;없음<br>&nbsp;&nbsp;○&nbsp;기장일광선&nbsp;예타면제&nbsp;사업은&nbsp;별도&nbsp;예산&nbsp;수반&nbsp;없음</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	장안읍 글로벌 AI 데이터센터 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="장안읍 글로벌 AI 데이터센터 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;AI데이터센터의&nbsp;협력연계산업까지&nbsp;유치<br>2.&nbsp;장안&nbsp;AI데이터센터&nbsp;효도일자리,&nbsp;효도연금제&nbsp;실시<br>3.&nbsp;장안에&nbsp;AI·4차산업·IT&nbsp;등&nbsp;특성화고&nbsp;유치&nbsp;<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;탄탄한&nbsp;산업셍태계&nbsp;조성&nbsp;및&nbsp;일자리창출&nbsp;통해&nbsp;향후&nbsp;부울경의&nbsp;미래산업&nbsp;거점으로&nbsp;장안읍을&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;첨단산업&nbsp;이익&nbsp;지역공유<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;AI데이터센터&nbsp;운영에&nbsp;필요한&nbsp;용전,&nbsp;용수에&nbsp;있어&nbsp;기장군의&nbsp;강점을&nbsp;적극&nbsp;활용하여&nbsp;유치전에&nbsp;뛰어들&nbsp;경우&nbsp;유치에&nbsp;결정적으로&nbsp;유리할&nbsp;것으로&nbsp;전망<br>&nbsp;&nbsp;○&nbsp;전기료&nbsp;차등제의&nbsp;구간을&nbsp;현행&nbsp;3구간에서&nbsp;5구간으로&nbsp;개편하거나&nbsp;최소한&nbsp;전기를&nbsp;생산하는&nbsp;지역에&nbsp;대해서는&nbsp;별도의&nbsp;차등&nbsp;특례&nbsp;조항을&nbsp;신설하는&nbsp;전기요금&nbsp;관련법&nbsp;개정을&nbsp;국회&nbsp;172석의&nbsp;압도적&nbsp;다수의석을&nbsp;보유하고&nbsp;있는&nbsp;집권당&nbsp;민주당의&nbsp;힘으로&nbsp;법개정&nbsp;추진하여,&nbsp;AI&nbsp;업체가&nbsp;기장군에&nbsp;들어오기에&nbsp;결정적으로&nbsp;유리한&nbsp;환경&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;27년까지<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부산시와&nbsp;협력하여&nbsp;부지제공</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	동남권 거점병원 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="동남권 거점병원 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;동남권&nbsp;원자력&nbsp;병원과&nbsp;기장병원을&nbsp;동남권&nbsp;거점병원으로&nbsp;육성<br>2.&nbsp;응급,&nbsp;안전,&nbsp;생활의료망&nbsp;강화로&nbsp;‘의료안심&nbsp;기장’&nbsp;조성<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;부산을&nbsp;비롯한&nbsp;중증환자들의&nbsp;경우&nbsp;삼성의료원,&nbsp;현대아산병원,&nbsp;서울대병원,&nbsp;세브란스&nbsp;병원&nbsp;등&nbsp;환자와&nbsp;보호자가&nbsp;모두&nbsp;서울로&nbsp;가서&nbsp;진료받고,&nbsp;입원하는&nbsp;불편한&nbsp;현상을&nbsp;타파하기&nbsp;위해,&nbsp;지방에&nbsp;국립거점병원을&nbsp;설치하여&nbsp;서울로&nbsp;가지&nbsp;않아도&nbsp;암&nbsp;등&nbsp;중증질병을&nbsp;치료할&nbsp;수&nbsp;있도록&nbsp;하기&nbsp;위함<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;보건복지부장관,&nbsp;기획예산처장관,&nbsp;청와대&nbsp;정책실장,&nbsp;국무총리&nbsp;등과&nbsp;면담하여&nbsp;동남권&nbsp;거점병원의&nbsp;필요성을&nbsp;적극&nbsp;설득하고&nbsp;관철시켜낼것임<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;그&nbsp;과정에서&nbsp;동남권&nbsp;원자력병원이라는&nbsp;첨단의료기관이&nbsp;기장에&nbsp;소재하고&nbsp;있는&nbsp;것을&nbsp;최대한&nbsp;강점으로&nbsp;활용하여&nbsp;설득<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현대의학은&nbsp;단순한&nbsp;환자치료를&nbsp;넘어&nbsp;AI,&nbsp;바이오&nbsp;등&nbsp;미래산업&nbsp;육성에&nbsp;필요한&nbsp;융합연구로&nbsp;그&nbsp;범위가&nbsp;확대되고&nbsp;있어,&nbsp;부울경의&nbsp;미래산업&nbsp;중심로&nbsp;나아가야할&nbsp;기장군의&nbsp;비젼에&nbsp;동남권&nbsp;거점병원은&nbsp;정확히&nbsp;부합함<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;그런&nbsp;차원에서&nbsp;부울경&nbsp;동남권&nbsp;거점병원의&nbsp;최적지인&nbsp;기장으로&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서부산권과&nbsp;경남에는&nbsp;부산대,&nbsp;동아대병원,&nbsp;경상대병원등&nbsp;대형병원&nbsp;소재하고&nbsp;있으나,&nbsp;기장을&nbsp;비롯한&nbsp;동부산권,&nbsp;울산&nbsp;등에는&nbsp;대형병원이&nbsp;부족한&nbsp;상태임을&nbsp;적극&nbsp;강조<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;28년까지<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부산시와&nbsp;협력하여&nbsp;부지제공</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	청년이 떠나지 않는 기장</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="청년이 떠나지 않는 기장">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;청년이&nbsp;돌아오는&nbsp;기장을&nbsp;위한&nbsp;‘청년행복패키지’&nbsp;구축<br>2.&nbsp;일자리,&nbsp;창업,&nbsp;주거,&nbsp;문화까지&nbsp;원스톱&nbsp;지원<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지방소멸의&nbsp;핵심인&nbsp;청년인재&nbsp;유출을&nbsp;방지하고,&nbsp;청년이&nbsp;돌아오는&nbsp;기장을&nbsp;만들기&nbsp;위해&nbsp;획기적인&nbsp;청년지원&nbsp;정책&nbsp;실시<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;이재명정부의&nbsp;청년창업&nbsp;활성화&nbsp;정책을&nbsp;적극&nbsp;활용하여,&nbsp;창업하기&nbsp;좋은&nbsp;기장을&nbsp;만들기&nbsp;위해&nbsp;기장군수&nbsp;직속&nbsp;청년전담지원단&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중소벤처기업공단,&nbsp;기술보증기금&nbsp;등&nbsp;부산지역&nbsp;소재&nbsp;창업관련&nbsp;중앙정부&nbsp;산하기관과&nbsp;협업시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부산신용보증재단,&nbsp;부산테크노파크,&nbsp;부산&nbsp;창조경제혁신센터와&nbsp;협업통해&nbsp;유망&nbsp;창업기업&nbsp;발굴&nbsp;및&nbsp;창업컨설팅&nbsp;등&nbsp;각종&nbsp;지원책&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기장군내&nbsp;유휴부지&nbsp;활용을&nbsp;통해&nbsp;청년창업&nbsp;인큐베이터&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;군수직속&nbsp;청년전담지원단&nbsp;주도로&nbsp;창업&nbsp;뿐&nbsp;아니라,&nbsp;청년&nbsp;일자리,&nbsp;청년&nbsp;주거,&nbsp;청년&nbsp;문화&nbsp;등&nbsp;청년의&nbsp;삶&nbsp;전반을&nbsp;보살피고&nbsp;지원하는&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;LH,&nbsp;부산도시공사&nbsp;등과&nbsp;협업&nbsp;통해&nbsp;청년&nbsp;행복주택,&nbsp;임대아파트&nbsp;등을&nbsp;역세권에&nbsp;집중건립&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이재명&nbsp;정부는&nbsp;역세권&nbsp;등&nbsp;접근성이&nbsp;편리한&nbsp;지역에&nbsp;청년임대주택&nbsp;대거&nbsp;공급을&nbsp;주요&nbsp;정책과제로&nbsp;삼고&nbsp;있는바,&nbsp;이를&nbsp;적극&nbsp;활용<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;군비,&nbsp;민자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	머물고 싶은 관광기장 구현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="머물고 싶은 관광기장 구현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;오시리아&nbsp;-&nbsp;해안권&nbsp;-&nbsp;전통시장&nbsp;-&nbsp;어촌체험-&nbsp;야간컨테츠를&nbsp;연결<br>2.&nbsp;기장군&nbsp;문화관광단지&nbsp;조성&nbsp;‘정관&nbsp;문화르네상스’&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기장읍성&nbsp;대복원&nbsp;+&nbsp;독립기념관&nbsp;건립&nbsp;+&nbsp;기장시장&nbsp;현대화&nbsp;등&nbsp;3축을&nbsp;융합하여,&nbsp;‘기장읍&nbsp;문화관광단지’&nbsp;조성<br>3.&nbsp;일광해변&nbsp;야간시장&nbsp;상설화로&nbsp;1박2일&nbsp;체류형&nbsp;관광인프라&nbsp;개선<br>4.&nbsp;정관에&nbsp;파크골프장&nbsp;36홀&nbsp;신설로&nbsp;파크골프&nbsp;전국대회&nbsp;유치<br>5.&nbsp;장안읍&nbsp;자연휴양림&nbsp;시네마&nbsp;캠핑숲&nbsp;조성으로&nbsp;힐링·여가&nbsp;특화&nbsp;공간&nbsp;확보<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;구경만&nbsp;하고&nbsp;가는&nbsp;기장이&nbsp;아닌&nbsp;일자리와&nbsp;소비를&nbsp;남기는&nbsp;관광기장으로&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;볼거리,&nbsp;먹거리&nbsp;관광을&nbsp;넘어&nbsp;파크골프,&nbsp;캠핑&nbsp;숲&nbsp;등&nbsp;테마&nbsp;관광&nbsp;도입<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;한국관광공사,&nbsp;부산관광공사&nbsp;등과&nbsp;협업&nbsp;통해&nbsp;동부산&nbsp;관광거점&nbsp;기장에&nbsp;대한&nbsp;집중&nbsp;지원&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;해운대에서&nbsp;넘어오는&nbsp;기장관광이&nbsp;아니라,&nbsp;기장에서&nbsp;해운대와&nbsp;울산,&nbsp;경주로&nbsp;뻗어가는&nbsp;관광거점으로&nbsp;전환<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;군비,&nbsp;민자유치</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

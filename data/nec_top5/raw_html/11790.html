@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김한종 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	장성호 제3출렁다리 주변 산림휴양시설 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="장성호 제3출렁다리 주변 산림휴양시설 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;장성호&nbsp;관광자원과&nbsp;산림휴양시설을&nbsp;연계한&nbsp;관광지&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;산림관광&nbsp;시너지&nbsp;효과&nbsp;창출<br>&nbsp;&nbsp;-&nbsp;장성&nbsp;지역경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;타당성&nbsp;평가&nbsp;용역<br>&nbsp;&nbsp;-&nbsp;기본계획,&nbsp;실시계획&nbsp;및&nbsp;사업추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;2026~2027(2년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	도시재생사업(공모)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="도시재생사업(공모)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;-&nbsp;방치된&nbsp;산업&nbsp;유산을&nbsp;문화자산으로&nbsp;재생&nbsp;지역거점&nbsp;공간확충<br>&nbsp;&nbsp;-&nbsp;주민들의&nbsp;삶의&nbsp;질&nbsp;향상&nbsp;기여<br>&nbsp;&nbsp;-&nbsp;지역경제&nbsp;활성화로&nbsp;지역공동체&nbsp;회복<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;도시재생&nbsp;인정사업&nbsp;계획수립<br>&nbsp;&nbsp;-&nbsp;사전&nbsp;컨설팅<br>&nbsp;&nbsp;-&nbsp;적격성&nbsp;검증<br>&nbsp;&nbsp;-&nbsp;중앙평가<br>&nbsp;&nbsp;-&nbsp;사업선정<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;2027~2029(3년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	장성군 RE100 산업단지 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="장성군 RE100 산업단지 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;-&nbsp;주요&nbsp;RE100&nbsp;수요기업&nbsp;유치를&nbsp;통한&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;-&nbsp;일자리&nbsp;창출기여<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;사업계획&nbsp;수립<br>&nbsp;&nbsp;-&nbsp;타당성&nbsp;조사&nbsp;용역<br>&nbsp;&nbsp;-&nbsp;RE100&nbsp;산업단지&nbsp;지정<br>&nbsp;&nbsp;-&nbsp;기본&nbsp;및&nbsp;실시설계&nbsp;용역<br>&nbsp;&nbsp;-&nbsp;사업추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;2026~2029(3년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	대상포진 예방 접종비 지원 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="대상포진 예방 접종비 지원 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;-&nbsp;예방&nbsp;접종&nbsp;지원으로&nbsp;경제적&nbsp;부담&nbsp;경감<br>&nbsp;&nbsp;-&nbsp;대상포진&nbsp;질병&nbsp;조기&nbsp;예방으로&nbsp;주민건강&nbsp;증진&nbsp;도모<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;60세이상&nbsp;장성군민(6개월&nbsp;이상&nbsp;장성군에&nbsp;주소를&nbsp;둔)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※(기존)&nbsp;65세&nbsp;이상<br>&nbsp;&nbsp;-&nbsp;1인당&nbsp;10만원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;26년&nbsp;3월~<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	마을 회관 및 주민공동시설 개선 지원사업</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="마을 회관 및 주민공동시설 개선 지원사업">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;-&nbsp;안전하고&nbsp;쾌적한&nbsp;마을환경&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;주민공동체&nbsp;활성화<br>&nbsp;&nbsp;-&nbsp;재난&nbsp;대피&nbsp;주민&nbsp;쉼터&nbsp;기능강화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;사전&nbsp;조사&nbsp;및&nbsp;우선순위&nbsp;선정<br>&nbsp;&nbsp;-&nbsp;단계별&nbsp;시설개선&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;2026~2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;군비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

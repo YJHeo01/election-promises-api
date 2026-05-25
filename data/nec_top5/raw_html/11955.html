@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;신계용 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	지식정보타운과 3기 신도시를 연결하는 과천 형 AX클러스터 조성(지정타·갈현지구 첨단산업 - 막계지구 바이오산업 - 3기 신도시 AI 산업 연계)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="지식정보타운과 3기 신도시를 연결하는 과천 형 AX클러스터 조성(지정타·갈현지구 첨단산업 - 막계지구 바이오산업 - 3기 신도시 AI 산업 연계)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;과천의&nbsp;미래&nbsp;먹거리와&nbsp;양질의&nbsp;일자리를&nbsp;만들기&nbsp;위해&nbsp;AI·바이오·첨단산업이&nbsp;융합된&nbsp;과천&nbsp;형&nbsp;AX&nbsp;클러스터를&nbsp;구축한다.<br>&nbsp;&nbsp;-&nbsp;산업,&nbsp;연구,&nbsp;창업,&nbsp;교육이&nbsp;연결되는&nbsp;첨단산업&nbsp;생태계를&nbsp;조성해&nbsp;미래&nbsp;성장동력을&nbsp;확보한다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;지식정보타운&nbsp;첨단산업,&nbsp;막계지구&nbsp;바이오산업,&nbsp;3기&nbsp;신도시&nbsp;AI&nbsp;산업을&nbsp;연계하는&nbsp;산업벨트&nbsp;조성&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;-&nbsp;AI,&nbsp;빅데이터,&nbsp;바이오,&nbsp;헬스&nbsp;케어&nbsp;분야의&nbsp;우수&nbsp;기업&nbsp;및&nbsp;연구&nbsp;기관&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;창업지원센터,&nbsp;실증&nbsp;테스트베드,&nbsp;산학연&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;청년·미래인재를&nbsp;위한&nbsp;AI·디지털&nbsp;교육,&nbsp;창업&nbsp;프로그램,&nbsp;취업&nbsp;연계&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;과천&nbsp;형&nbsp;스마트&nbsp;행정&nbsp;플랫폼과&nbsp;연계한&nbsp;AX&nbsp;도시&nbsp;실증사업&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;기업&nbsp;투자&nbsp;유치와&nbsp;산업&nbsp;인프라&nbsp;확충을&nbsp;위한&nbsp;전담&nbsp;행정지원체계&nbsp;마련<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;산업벨트&nbsp;조성&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;단계적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;국비&nbsp;+&nbsp;도비&nbsp;+&nbsp;시비&nbsp;+&nbsp;개발이익환수금&nbsp;+&nbsp;민간협력</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	위례·과천선 연장선 지식정보타운 주거지역 유치 및 신림선 연장 추진 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="위례·과천선 연장선 지식정보타운 주거지역 유치 및 신림선 연장 추진 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;지식정보타운과&nbsp;원도심,&nbsp;광역교통망을&nbsp;촘촘히&nbsp;연결해&nbsp;시민&nbsp;이동&nbsp;편의와&nbsp;출퇴근&nbsp;접근성을&nbsp;획기적으로&nbsp;개선한다.<br>&nbsp;&nbsp;-&nbsp;과천의&nbsp;교통&nbsp;인프라를&nbsp;확충해&nbsp;미래&nbsp;도시&nbsp;성장에&nbsp;선제적으로&nbsp;대응한다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;위례·과천선&nbsp;연장선이&nbsp;지식정보타운&nbsp;주거지역까지&nbsp;연결될&nbsp;수&nbsp;있도록&nbsp;노선&nbsp;반영&nbsp;적극&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;신림선&nbsp;연장&nbsp;필요성에&nbsp;대한&nbsp;타당성&nbsp;검토&nbsp;및&nbsp;관계기관&nbsp;협의&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;지식정보타운&nbsp;입주&nbsp;증가에&nbsp;따른&nbsp;교통&nbsp;수요&nbsp;분석&nbsp;및&nbsp;선제&nbsp;대응<br>&nbsp;&nbsp;-&nbsp;국토교통부,&nbsp;경기도,&nbsp;서울시&nbsp;등&nbsp;관계기관과&nbsp;공동&nbsp;대응&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;광역철도와&nbsp;버스,&nbsp;도로망을&nbsp;연계한&nbsp;환승&nbsp;체계&nbsp;개선&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;시민&nbsp;불편이&nbsp;큰&nbsp;구간에&nbsp;대해&nbsp;단계별&nbsp;교통&nbsp;대책&nbsp;병행&nbsp;마련<br><br>□&nbsp;이행기간<br>&nbsp;-&nbsp;임기&nbsp;내&nbsp;국가철도망&nbsp;사업&nbsp;반영&nbsp;추진&nbsp;및&nbsp;중장기&nbsp;사업&nbsp;연계<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;국비&nbsp;+&nbsp;도비&nbsp;+&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	과천의 미래를 잇는 문화 콘텐츠 빌리지 조성(경마공원-서울대공원-국립현대미술관-과천과학관 연계)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="과천의 미래를 잇는 문화 콘텐츠 빌리지 조성(경마공원-서울대공원-국립현대미술관-과천과학관 연계)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;정부의&nbsp;일방적인&nbsp;경마공원&nbsp;이전과&nbsp;9800세대&nbsp;계획을&nbsp;막고,&nbsp;과천다움의&nbsp;완성을&nbsp;위해,&nbsp;과천시가&nbsp;선제적으로,&nbsp;경마공원,&nbsp;서울대공원,&nbsp;서울랜드,&nbsp;국립현대미술관,&nbsp;과천과학관의&nbsp;대표&nbsp;문화·관광&nbsp;자원을&nbsp;유기적으로&nbsp;연결하고자&nbsp;한다.<br>&nbsp;&nbsp;-&nbsp;과천시민의&nbsp;여가&nbsp;및&nbsp;문화&nbsp;향유&nbsp;기회를&nbsp;확대하고,&nbsp;과천만의&nbsp;상징적인&nbsp;문화&nbsp;콘텐츠&nbsp;벨트를&nbsp;조성한다.<br>&nbsp;&nbsp;-&nbsp;체류형&nbsp;문화관광&nbsp;기반을&nbsp;마련해&nbsp;지역경제&nbsp;활성화와&nbsp;과천만의&nbsp;도시브랜드&nbsp;가치를&nbsp;높인다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;경마공원,&nbsp;서울대공원,&nbsp;서울랜드,&nbsp;국립현대미술관,&nbsp;과천과학관을&nbsp;연결하는&nbsp;통합&nbsp;문화관광&nbsp;기본구상&nbsp;및&nbsp;단계별&nbsp;추진계획&nbsp;수립<br>&nbsp;&nbsp;-&nbsp;가족&nbsp;체험형,&nbsp;청소년&nbsp;교육형,&nbsp;야간&nbsp;문화형&nbsp;콘텐츠를&nbsp;연계한&nbsp;과천&nbsp;형&nbsp;문화&nbsp;콘텐츠&nbsp;빌리지&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;상호&nbsp;연결&nbsp;동선,&nbsp;교통&nbsp;및&nbsp;안내&nbsp;체계&nbsp;개선&nbsp;등&nbsp;접근성&nbsp;개선으로&nbsp;시민과&nbsp;관광객이&nbsp;함께&nbsp;찾는&nbsp;레저,&nbsp;문화,&nbsp;과학&nbsp;복합&nbsp;클러스터로&nbsp;육성<br>&nbsp;&nbsp;-&nbsp;축제,&nbsp;공연,&nbsp;과학&nbsp;체험,&nbsp;미디어아트,&nbsp;시민참여형&nbsp;행사&nbsp;등&nbsp;복합&nbsp;콘텐츠&nbsp;운영<br>&nbsp;&nbsp;-&nbsp;민간&nbsp;및&nbsp;유관&nbsp;기관&nbsp;협력을&nbsp;통한&nbsp;단계별&nbsp;개발&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;단계적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;-&nbsp;국비&nbsp;+&nbsp;도비&nbsp;+&nbsp;시비&nbsp;+&nbsp;개발이익환수금&nbsp;+&nbsp;민간협력</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	정부청사 앞 유휴지 과천시민 광장으로 확보·유지 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="정부청사 앞 유휴지 과천시민 광장으로 확보·유지 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;정부청사&nbsp;앞&nbsp;유휴지를&nbsp;과천시민의&nbsp;공간으로&nbsp;지키고,&nbsp;시민&nbsp;누구나&nbsp;자유롭게&nbsp;이용할&nbsp;수&nbsp;있는&nbsp;열린&nbsp;광장으로&nbsp;확보·유지&nbsp;및&nbsp;활용한다.<br>&nbsp;&nbsp;-&nbsp;과천의&nbsp;중심&nbsp;공간을&nbsp;시민&nbsp;소통과&nbsp;문화,&nbsp;휴식,&nbsp;공동체&nbsp;활동의&nbsp;거점으로&nbsp;조성하여&nbsp;시민에게&nbsp;환원한다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;정부청사&nbsp;앞&nbsp;유휴지의&nbsp;시민광장&nbsp;기능&nbsp;유지&nbsp;및&nbsp;공공성&nbsp;확보&nbsp;방안&nbsp;마련<br>&nbsp;&nbsp;-&nbsp;시민&nbsp;의견&nbsp;수렴을&nbsp;통해&nbsp;광장&nbsp;활용계획&nbsp;수립&nbsp;및&nbsp;주민참여형&nbsp;운영체계&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;문화행사,&nbsp;소규모&nbsp;공연,&nbsp;시민축제,&nbsp;가족&nbsp;휴식이&nbsp;가능한&nbsp;열린&nbsp;공간&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;무분별한&nbsp;개발이나&nbsp;일방적&nbsp;용도&nbsp;전환에&nbsp;대해&nbsp;시민&nbsp;뜻을&nbsp;반영한&nbsp;대응&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;녹지,&nbsp;휴식,&nbsp;보행,&nbsp;경관&nbsp;기능을&nbsp;살린&nbsp;과천&nbsp;대표&nbsp;시민광장으로&nbsp;특화<br>&nbsp;&nbsp;-&nbsp;중앙정부&nbsp;및&nbsp;관계기관과&nbsp;지속&nbsp;협의해&nbsp;시민&nbsp;활용&nbsp;중심&nbsp;원칙&nbsp;관철<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;국비&nbsp;협의&nbsp;+&nbsp;도비&nbsp;+&nbsp;시비&nbsp;+&nbsp;시민참여&nbsp;펀드</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	신천지 건물 용도 변경 불허로 시민 생활과 지역공동체 보호 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="신천지 건물 용도 변경 불허로 시민 생활과 지역공동체 보호 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;지역사회&nbsp;갈등을&nbsp;유발하고&nbsp;시민&nbsp;불안을&nbsp;초래하는&nbsp;신천지&nbsp;건물의&nbsp;용도&nbsp;변경을&nbsp;불허하여&nbsp;지역&nbsp;공동체의&nbsp;안정과&nbsp;공공질서를&nbsp;지킨다.<br>&nbsp;&nbsp;-&nbsp;과천시민의&nbsp;안전과&nbsp;생활환경을&nbsp;우선하는&nbsp;원칙&nbsp;행정을&nbsp;실현한다.&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;관련&nbsp;법령과&nbsp;행정절차에&nbsp;따라&nbsp;신천지&nbsp;건물&nbsp;용도&nbsp;변경&nbsp;신청에&nbsp;대한&nbsp;엄정&nbsp;대응<br>&nbsp;&nbsp;-&nbsp;시민&nbsp;의견을&nbsp;충분히&nbsp;수렴하고&nbsp;지역사회&nbsp;영향&nbsp;검토를&nbsp;강화<br>&nbsp;&nbsp;-&nbsp;공공성,&nbsp;주민&nbsp;수용성,&nbsp;지역사회&nbsp;안정성&nbsp;기준에&nbsp;입각한&nbsp;행정&nbsp;판단&nbsp;유지<br>&nbsp;&nbsp;-&nbsp;관계&nbsp;부서&nbsp;및&nbsp;법률&nbsp;검토를&nbsp;통한&nbsp;대응&nbsp;체계&nbsp;강화<br>&nbsp;&nbsp;-&nbsp;지역사회&nbsp;갈등&nbsp;예방과&nbsp;시민&nbsp;보호를&nbsp;위한&nbsp;지속적인&nbsp;모니터링&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;시민에게&nbsp;관련&nbsp;진행&nbsp;상황을&nbsp;투명하게&nbsp;알리고&nbsp;소통&nbsp;강화&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;임기기간&nbsp;내&nbsp;지속&nbsp;대응&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;시비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

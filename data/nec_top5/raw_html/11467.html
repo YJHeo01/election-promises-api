@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;안찬 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	군민의 일상이 즐거운 행복 도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="군민의 일상이 즐거운 행복 도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;군민의&nbsp;소소한&nbsp;일상까지도&nbsp;행복한&nbsp;소/확/행&nbsp;군정(생활&nbsp;정치)&nbsp;펼치기&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행&nbsp;방법&nbsp;:&nbsp;임기&nbsp;내&nbsp;3대&nbsp;중점&nbsp;사업&nbsp;시행<br>&nbsp;&nbsp;①&nbsp;공공시설&nbsp;관리&nbsp;일원화&nbsp;→&nbsp;지방공기업&nbsp;설립<br>&nbsp;&nbsp;②&nbsp;봉황천&nbsp;‘천내습지’&nbsp;→&nbsp;&nbsp;‘람사르’&nbsp;습지로&nbsp;승격<br>&nbsp;&nbsp;③&nbsp;금산읍&nbsp;중앙공원(광장)&nbsp;조성&nbsp;→&nbsp;&nbsp;공장&nbsp;부지&nbsp;매입<br><br>&nbsp;※&nbsp;사업별&nbsp;타&nbsp;지자체&nbsp;유사&nbsp;성공사례(Best&nbsp;Practice)&nbsp;벤치마킹&nbsp;<br>&nbsp;<br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;∼&nbsp;2030.&nbsp;6.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업별/연차별&nbsp;연동계획&nbsp;수립<br><br>□&nbsp;재원&nbsp;조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;자체,&nbsp;국/도비&nbsp;민자유치&nbsp;등&nbsp;현실적/합리적&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;수립&nbsp;<br><br>&nbsp;※&nbsp;중앙정부&nbsp;및&nbsp;광역(충남)자치단체&nbsp;재정&nbsp;여건과&nbsp;연동<br><br>&nbsp;※&nbsp;단체장이&nbsp;직접&nbsp;국회&nbsp;예결위&nbsp;및&nbsp;소관&nbsp;상임위&nbsp;국회의원과&nbsp;소통&nbsp;협력&nbsp;강화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	청년들이 꿈을 키우는 희망 도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="청년들이 꿈을 키우는 희망 도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청년들의&nbsp;정주&nbsp;여건&nbsp;획기적&nbsp;개선&nbsp;및&nbsp;좋은&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행&nbsp;방법&nbsp;:&nbsp;임기&nbsp;내&nbsp;3대&nbsp;중점&nbsp;사업&nbsp;시행<br>&nbsp;&nbsp;①&nbsp;‘금산형&nbsp;사회권&nbsp;선진군’(郡)&nbsp;기반&nbsp;조성<br>&nbsp;&nbsp;②&nbsp;동네&nbsp;목욕탕(스파시설)&nbsp;건립&nbsp;→&nbsp;&nbsp;기존시설(10개&nbsp;읍면)&nbsp;리뉴얼<br>&nbsp;&nbsp;③&nbsp;‘세계인삼기념관’&nbsp;건립&nbsp;→&nbsp;&nbsp;‘이세돌과&nbsp;알파고’&nbsp;바둑판&nbsp;전시<br><br>&nbsp;&nbsp;※&nbsp;사업별&nbsp;타&nbsp;지자체&nbsp;유사&nbsp;성공사례(Best&nbsp;Practice)&nbsp;벤치마킹&nbsp;<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;∼&nbsp;2030.&nbsp;6.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업별/연차별&nbsp;연동계획&nbsp;수립<br><br>□&nbsp;재원&nbsp;조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;자체,&nbsp;국/도비&nbsp;민자유치&nbsp;등&nbsp;현실적/합리적&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;수립&nbsp;<br><br>&nbsp;&nbsp;※&nbsp;중앙정부&nbsp;및&nbsp;광역(충남)자치단체&nbsp;재정&nbsp;여건과&nbsp;연동<br><br>&nbsp;&nbsp;※&nbsp;단체장이&nbsp;직접&nbsp;국회&nbsp;예결위&nbsp;및&nbsp;소관&nbsp;상임위&nbsp;국회의원과&nbsp;소통&nbsp;협력&nbsp;강화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	생활 인구가 늘어나는 활력 도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="생활 인구가 늘어나는 활력 도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>&nbsp;&nbsp;○&nbsp;정주&nbsp;인구&nbsp;증가의&nbsp;한계&nbsp;극복&nbsp;대안으로&nbsp;생활&nbsp;인구&nbsp;늘리기<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행&nbsp;방법&nbsp;:&nbsp;임기&nbsp;내&nbsp;3대&nbsp;중점&nbsp;사업&nbsp;시행<br>&nbsp;&nbsp;①&nbsp;복합환승터미널&nbsp;개발(민자유치)<br>&nbsp;&nbsp;②&nbsp;공공청사&nbsp;전면&nbsp;재배치&nbsp;→&nbsp;통폐합&nbsp;이전(읍사무소)<br>&nbsp;&nbsp;③&nbsp;(가칭)국립&nbsp;‘한국인삼종자원’&nbsp;분리(신설)&nbsp;유치&nbsp;<br>&nbsp;&nbsp;<br>&nbsp;※&nbsp;사업별&nbsp;타&nbsp;지자체&nbsp;유사&nbsp;성공사례(Best&nbsp;Practice)&nbsp;벤치마킹&nbsp;<br>&nbsp;&nbsp;<br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;∼&nbsp;2030.&nbsp;6.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업별/연차별&nbsp;연동계획&nbsp;수립<br><br>□&nbsp;재원&nbsp;조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;자체,&nbsp;국/도비&nbsp;민자유치&nbsp;등&nbsp;현실적/합리적&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;수립&nbsp;<br><br>&nbsp;&nbsp;※&nbsp;중앙정부&nbsp;및&nbsp;광역(충남)자치단체&nbsp;재정&nbsp;여건과&nbsp;연동<br><br>&nbsp;&nbsp;※&nbsp;단체장이&nbsp;직접&nbsp;국회&nbsp;예결위&nbsp;및&nbsp;소관&nbsp;상임위&nbsp;국회의원과&nbsp;소통&nbsp;협력&nbsp;강화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	좋은 일자리가 넘치는 경제 도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="좋은 일자리가 넘치는 경제 도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;성장&nbsp;동력인&nbsp;인삼.약초&nbsp;산업의&nbsp;부흥을&nbsp;통한&nbsp;민생&nbsp;경제&nbsp;살리기&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행&nbsp;방법&nbsp;:&nbsp;임기&nbsp;내&nbsp;3대&nbsp;중점&nbsp;사업&nbsp;시행<br>&nbsp;&nbsp;①&nbsp;공설&nbsp;‘클레이사격장’(꿩&nbsp;사냥터)&nbsp;건립<br>&nbsp;&nbsp;②&nbsp;기존&nbsp;인삼엑스포&nbsp;광장&nbsp;재개발(인삼약초&nbsp;랜드마크)<br>&nbsp;&nbsp;③&nbsp;전국&nbsp;최대&nbsp;규모&nbsp;‘공설&nbsp;수삼경매장’&nbsp;건립&nbsp;<br><br>&nbsp;※&nbsp;사업별&nbsp;타&nbsp;지자체&nbsp;유사&nbsp;성공사례(Best&nbsp;Practice)&nbsp;벤치마킹&nbsp;<br>&nbsp;&nbsp;<br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2026.7.&nbsp;∼&nbsp;2030.6.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업별/연차별&nbsp;연동계획&nbsp;수립<br><br>□&nbsp;재원&nbsp;조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;자체,&nbsp;국/도비&nbsp;민자유치&nbsp;등&nbsp;현실적/합리적&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;수립&nbsp;<br>&nbsp;<br>&nbsp;※&nbsp;중앙정부&nbsp;및&nbsp;광역(충남)자치단체&nbsp;재정&nbsp;여건과&nbsp;연동<br>&nbsp;<br>&nbsp;※&nbsp;단체장이&nbsp;직접&nbsp;국회&nbsp;예결위&nbsp;및&nbsp;소관&nbsp;상임위&nbsp;국회의원과&nbsp;소통&nbsp;협력&nbsp;강화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	누구나 고르게 잘사는 균형 도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="누구나 고르게 잘사는 균형 도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;읍/면&nbsp;간,&nbsp;금산읍&nbsp;수북/수남권&nbsp;균형&nbsp;발전&nbsp;및&nbsp;기업&nbsp;하기&nbsp;좋은&nbsp;여건&nbsp;조성&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행&nbsp;방법&nbsp;:&nbsp;임기&nbsp;내&nbsp;3대&nbsp;중점&nbsp;사업&nbsp;시행<br>&nbsp;&nbsp;①&nbsp;추부I.C&nbsp;인접,&nbsp;1천&nbsp;세대급&nbsp;아파트&nbsp;대단지&nbsp;조성<br>&nbsp;&nbsp;②&nbsp;복합의료센터&nbsp;건립&nbsp;→&nbsp;의료원+요양병원+장례식장<br>&nbsp;&nbsp;③&nbsp;IB교육시스템&nbsp;도입&nbsp;→&nbsp;교육지원청과&nbsp;협업&nbsp;<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;※&nbsp;사업별&nbsp;타&nbsp;지자체&nbsp;유사&nbsp;성공사례(Best&nbsp;Practice)&nbsp;벤치마킹&nbsp;<br>&nbsp;&nbsp;<br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2026.7.&nbsp;∼&nbsp;2030.6.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업별/연차별&nbsp;연동계획&nbsp;수립<br><br>□&nbsp;재원&nbsp;조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;자체,&nbsp;국/도비&nbsp;민자유치&nbsp;등&nbsp;현실적/합리적&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;수립&nbsp;<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;※&nbsp;중앙정부&nbsp;및&nbsp;광역(충남)자치단체&nbsp;재정&nbsp;여건과&nbsp;연동<br>&nbsp;<br>&nbsp;&nbsp;※&nbsp;단체장이&nbsp;직접&nbsp;국회&nbsp;예결위&nbsp;및&nbsp;소관&nbsp;상임위&nbsp;국회의원과&nbsp;소통&nbsp;협력&nbsp;강화</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

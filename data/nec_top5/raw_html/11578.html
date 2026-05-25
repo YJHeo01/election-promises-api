@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;양향자 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	AI·반도체 중심 대전환으로 도민 1인당 GRDP 1억원 시대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="AI·반도체 중심 대전환으로 도민 1인당 GRDP 1억원 시대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;경기도&nbsp;1인당&nbsp;GRDP&nbsp;1억원&nbsp;시대&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현재&nbsp;4,700만원&nbsp;수준인&nbsp;1인당&nbsp;GRDP를&nbsp;첨단산업·AI&nbsp;기반의&nbsp;생산성&nbsp;혁신을&nbsp;통해&nbsp;1억원&nbsp;수준으로&nbsp;단계적&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;초광역&nbsp;AI·반도체&nbsp;클러스터&nbsp;K-벨트&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;용인&nbsp;반도체&nbsp;국가산단&nbsp;조성을&nbsp;흔들림&nbsp;없이&nbsp;추진하고,&nbsp;수원·성남·용인·평택·화성·이천·오산·안성&nbsp;등을&nbsp;중심으로&nbsp;R&D-설계-제조-소부장-실증&nbsp;생태계를&nbsp;완비한&nbsp;반도체&nbsp;메가&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;경기도&nbsp;권역별&nbsp;미래&nbsp;신성장&nbsp;거점&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경기&nbsp;서부·북부·동부&nbsp;등&nbsp;권역별로&nbsp;피지컬&nbsp;AI&nbsp;첨단산업단지,&nbsp;바이오·의료·K-콘텐츠·방산·첨단물류·모빌리티&nbsp;등&nbsp;신성장&nbsp;거점과&nbsp;실증단지를&nbsp;조성해&nbsp;경기&nbsp;남부와&nbsp;연계되는&nbsp;미래산업&nbsp;혁신벨트&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;규제&nbsp;완화&nbsp;및&nbsp;기업&nbsp;유치&nbsp;파격&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;용수,&nbsp;전력&nbsp;등&nbsp;첨단산업&nbsp;필수&nbsp;인프라&nbsp;확보를&nbsp;위한&nbsp;행·재정적&nbsp;지원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수도권정비계획법&nbsp;완화&nbsp;및&nbsp;경제자유구역·기회발전특구·평화경제특구&nbsp;지정&nbsp;추진으로&nbsp;실질적인&nbsp;성장&nbsp;특례&nbsp;관철<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장기간&nbsp;토지&nbsp;무상임대,&nbsp;시설&nbsp;투자&nbsp;및&nbsp;고용&nbsp;보조금,&nbsp;세제&nbsp;혜택&nbsp;등&nbsp;지원해&nbsp;기업&nbsp;유치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민선&nbsp;9기&nbsp;:&nbsp;산업구조&nbsp;전환,&nbsp;생산성&nbsp;혁신&nbsp;기반&nbsp;구축,&nbsp;반도체&nbsp;메가&nbsp;클러스터&nbsp;조성,&nbsp;권역별&nbsp;미래산업&nbsp;거점&nbsp;등&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2030~&nbsp;:&nbsp;첨단산업&nbsp;성장&nbsp;가속화로&nbsp;1인당&nbsp;GRDP&nbsp;1억원&nbsp;경제구조&nbsp;전환<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국가산단·전력·용수·광역교통&nbsp;등&nbsp;기반시설을&nbsp;국비&nbsp;및&nbsp;민간투자&nbsp;중심으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;전략산업&nbsp;육성&nbsp;예산과&nbsp;투자유치&nbsp;인센티브를&nbsp;단계적으로&nbsp;확대하고,&nbsp;경제자유구역·기회발전특구&nbsp;지정&nbsp;등을&nbsp;통해&nbsp;민간투자&nbsp;활성화&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	첨단산업을 이끌 글로벌 과학기술 인재 양성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="첨단산업을 이끌 글로벌 과학기술 인재 양성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;세계&nbsp;최고&nbsp;수준의&nbsp;반도체·AI&nbsp;인재&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업이&nbsp;원하는&nbsp;실무형&nbsp;고급인재,&nbsp;미래&nbsp;첨단산업&nbsp;우수인재,&nbsp;글로벌&nbsp;인재를&nbsp;육성·유치&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;경기&nbsp;반도체&nbsp;아카데미&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삼성전자,&nbsp;SK하이닉스&nbsp;퇴직&nbsp;임원&nbsp;등&nbsp;기술장인이&nbsp;직접&nbsp;실전형&nbsp;고수&nbsp;양성<br>&nbsp;&nbsp;○&nbsp;해외&nbsp;유수&nbsp;대학&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공학·AI·반도체·전자&nbsp;분야&nbsp;유력&nbsp;대학인&nbsp;싱가포르&nbsp;난양공대(NTU),&nbsp;홍콩&nbsp;과기대(HKUST)&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;미래산업&nbsp;특화&nbsp;고등학교&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경기도교육청과&nbsp;협력해&nbsp;권역별로&nbsp;AI고,&nbsp;반도체고,&nbsp;로보틱스고&nbsp;등&nbsp;전문고를&nbsp;설치하거나&nbsp;특성화고를&nbsp;전문고로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;전문교육과정&nbsp;비용&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·반도체·첨단제조&nbsp;관련&nbsp;전문교육과정(NVIDIA,&nbsp;ASML&nbsp;등)&nbsp;이수에&nbsp;필요한&nbsp;비용을&nbsp;지원하는&nbsp;‘미래기술&nbsp;바우처’&nbsp;도입<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경기&nbsp;반도체&nbsp;아카데미&nbsp;및&nbsp;미래산업&nbsp;전문교육과정&nbsp;도입&nbsp;우선&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;권역별&nbsp;미래산업&nbsp;특화&nbsp;고등학교&nbsp;및&nbsp;전문교육과정&nbsp;단계적&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해외&nbsp;유수&nbsp;대학&nbsp;및&nbsp;글로벌&nbsp;기업과의&nbsp;협력&nbsp;기반&nbsp;조성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;반도체·AI&nbsp;인재양성&nbsp;사업은&nbsp;교육부·산업통상자원부&nbsp;등&nbsp;국비사업과&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;경기도교육청&nbsp;협력을&nbsp;통해&nbsp;미래산업&nbsp;특화&nbsp;교육&nbsp;인프라&nbsp;단계적&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;삼성전자·SK하이닉스·글로벌기업·대학과의&nbsp;산학협력을&nbsp;통한&nbsp;민간&nbsp;참여&nbsp;확대</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	빠르고 편리한 Door-to-Door 교통체계 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="빠르고 편리한 Door-to-Door 교통체계 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;광역교통망&nbsp;확충으로&nbsp;수도권&nbsp;출퇴근&nbsp;30분&nbsp;시대를&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;대중교통&nbsp;이용의&nbsp;불편함을&nbsp;최소화해&nbsp;대중교통&nbsp;이용률&nbsp;제고<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;GTX&nbsp;사업의&nbsp;조속한&nbsp;추진&nbsp;등&nbsp;광역교통망&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX-A노선&nbsp;완전&nbsp;개통,&nbsp;B·C노선의&nbsp;조속한&nbsp;완공,&nbsp;D·E·F노선의&nbsp;국가철도망&nbsp;계획&nbsp;반영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광역버스노선&nbsp;신설&nbsp;및&nbsp;광역버스&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신도시&nbsp;등&nbsp;주요&nbsp;광역교통&nbsp;거점에&nbsp;BRT(간선급행버스)·자율주행버스&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;대중교통&nbsp;편의성&nbsp;개선과&nbsp;교통복지&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자전거&nbsp;등&nbsp;개인&nbsp;이동장치(PM)&nbsp;이동권&nbsp;확보,&nbsp;수요응답형교통(DRT)과&nbsp;자율주행&nbsp;셔틀&nbsp;확충,&nbsp;환승센터·환승주차장&nbsp;확충으로&nbsp;집에서&nbsp;역까지&nbsp;이동과&nbsp;환승의&nbsp;불편함&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;6~18세/70세&nbsp;이상&nbsp;어르신&nbsp;교통비&nbsp;지원,&nbsp;조조&nbsp;할인&nbsp;확대로&nbsp;교통복지&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;버스공공관리제&nbsp;개선&nbsp;및&nbsp;버스&nbsp;전용차선&nbsp;개선&nbsp;추진으로&nbsp;버스운영&nbsp;효율화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지능형&nbsp;교통체계(ITS)&nbsp;확대·고도화로&nbsp;교통혼잡&nbsp;완화<br>&nbsp;&nbsp;○&nbsp;산업·물류&nbsp;전용&nbsp;도로망&nbsp;‘실리콘&nbsp;하이웨이’<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반도체&nbsp;등&nbsp;첨단산업&nbsp;물류&nbsp;전용&nbsp;도로(전용&nbsp;트랙)을&nbsp;구축해&nbsp;신속한&nbsp;물류시스템&nbsp;구축하고&nbsp;교통혼잡&nbsp;완화<br>&nbsp;&nbsp;○&nbsp;‘경기&nbsp;스테이션&nbsp;+’&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대중교통이&nbsp;끊긴&nbsp;시간,&nbsp;안전하게&nbsp;머물&nbsp;수&nbsp;있는&nbsp;공공휴식·업무공간&nbsp;설치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;광역교통&nbsp;혁신체계&nbsp;순차적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX,&nbsp;광역철도&nbsp;및&nbsp;버스,&nbsp;BRT&nbsp;등&nbsp;핵심&nbsp;광역교통망&nbsp;우선&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;DRT·자율주행&nbsp;셔틀·환승체계&nbsp;등&nbsp;‘Door-to-Door’&nbsp;교통서비스&nbsp;순차&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;ITS·버스체계&nbsp;개편&nbsp;및&nbsp;교통복지&nbsp;정책&nbsp;우선&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘경기&nbsp;스테이션+’&nbsp;시범&nbsp;도입&nbsp;후&nbsp;주요&nbsp;거점&nbsp;중심&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·시군비·민간투자를&nbsp;연계한&nbsp;광역교통&nbsp;투자체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX·광역철도&nbsp;등&nbsp;국가사업은&nbsp;국비&nbsp;중심으로&nbsp;추진,&nbsp;생활교통·환승체계·교통복지&nbsp;사업은&nbsp;도비·시군비&nbsp;및&nbsp;민간투자를&nbsp;연계해&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	‘살고 싶은 집’, 수요 맞춤형 주거 공급과 서민 주거안정 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="‘살고 싶은 집’, 수요 맞춤형 주거 공급과 서민 주거안정 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;중산층과&nbsp;청년이&nbsp;원하는&nbsp;일자리·주거·문화가&nbsp;결합된&nbsp;직주락(職住樂)&nbsp;자족도시&nbsp;‘올인원&nbsp;시티’&nbsp;공급<br>&nbsp;&nbsp;○&nbsp;저렴한&nbsp;공공임대주택&nbsp;공급과&nbsp;전월세&nbsp;시장&nbsp;안정으로&nbsp;서민주거&nbsp;안정<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;신도시&nbsp;공급·재정비&nbsp;차질없는&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자족기능,&nbsp;교통·교육인프라가&nbsp;갖춰진&nbsp;3기&nbsp;신도시&nbsp;적기&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘경기도&nbsp;재건축&nbsp;패스트트랙’&nbsp;운영으로&nbsp;1기&nbsp;신도시&nbsp;재정비&nbsp;적극&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;직주락의&nbsp;자족&nbsp;복합공간&nbsp;G-타운&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX&nbsp;역세권&nbsp;중심&nbsp;초고밀&nbsp;복합개발로&nbsp;직주근접의&nbsp;콤팩트&nbsp;주거&nbsp;공급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지하&nbsp;교통망과&nbsp;지상&nbsp;주거·업무·상업시설이&nbsp;결합된&nbsp;입체형&nbsp;복합도시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;저렴한&nbsp;공공임대주택&nbsp;공급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년,&nbsp;신혼부부&nbsp;등을&nbsp;위한&nbsp;공공임대주택&nbsp;공급&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;빈집&nbsp;리모델링을&nbsp;통한&nbsp;저렴한&nbsp;맞춤형&nbsp;공공전세&nbsp;공급<br>&nbsp;&nbsp;○&nbsp;믿을&nbsp;수&nbsp;있는&nbsp;전월세&nbsp;시장&nbsp;조성&nbsp;및&nbsp;공동주택&nbsp;관리&nbsp;지원시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘경기도형&nbsp;신뢰&nbsp;빌라&nbsp;인증제’,&nbsp;‘전세&nbsp;사기&nbsp;사전&nbsp;진단&nbsp;시스템’&nbsp;도입&nbsp;등&nbsp;서민주거&nbsp;안전망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후&nbsp;공동주택의&nbsp;시설&nbsp;교체,&nbsp;안전&nbsp;관리&nbsp;등&nbsp;지원하는&nbsp;전담기관&nbsp;설치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;주거&nbsp;안정과&nbsp;미래형&nbsp;주거공급체계&nbsp;본격&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3기&nbsp;신도시&nbsp;조성,&nbsp;1기&nbsp;신도시&nbsp;재정비,&nbsp;전세사기&nbsp;예방체계&nbsp;구축&nbsp;등&nbsp;시급한&nbsp;주거&nbsp;현안&nbsp;우선&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX&nbsp;역세권&nbsp;중심&nbsp;복합개발,&nbsp;첨단산업&nbsp;클러스터&nbsp;조성,&nbsp;공공주택&nbsp;공급&nbsp;계획&nbsp;등과&nbsp;연계한&nbsp;직주락&nbsp;자족도시&nbsp;단계적&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공동주택&nbsp;관리&nbsp;지원체계&nbsp;및&nbsp;서민&nbsp;주거안전&nbsp;시스템&nbsp;구축<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·GH·LH·민간투자를&nbsp;연계한&nbsp;주거공급&nbsp;투자체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신도시·재정비·공공임대&nbsp;사업은&nbsp;공공기관과&nbsp;민간의&nbsp;협력개발&nbsp;방식으로&nbsp;추진,&nbsp;주거안전·공동주택&nbsp;지원사업은&nbsp;도비&nbsp;및&nbsp;시군&nbsp;협력사업으로&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	성장·전환·재도전 등 ‘삶을 바꾸는 복지’ 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="성장·전환·재도전 등 ‘삶을 바꾸는 복지’ 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;시대&nbsp;일자리&nbsp;변화에&nbsp;대응하기&nbsp;위해&nbsp;성장·전환·재도전과&nbsp;자립을&nbsp;지원하는&nbsp;복지체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;돌봄·의료·안전&nbsp;인프라를&nbsp;혁신해&nbsp;도민&nbsp;삶의&nbsp;질&nbsp;제고와&nbsp;사각지대&nbsp;해소<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;복지&nbsp;플랫폼&nbsp;‘G-카드’&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;분산신원인증(DID)&nbsp;기반의&nbsp;스마트도민증&nbsp;G-카드를&nbsp;통해&nbsp;도민&nbsp;생애주기와&nbsp;맞는&nbsp;맞춤형&nbsp;복지를&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;거점형&nbsp;스마트&nbsp;공유&nbsp;보육&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;직장어린이집&nbsp;의무&nbsp;설치&nbsp;대상이&nbsp;아닌&nbsp;중소기업·영세사업장&nbsp;근로자를&nbsp;위한&nbsp;스마트&nbsp;보육시설&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;성장형&nbsp;청년&nbsp;투자&nbsp;‘경기&nbsp;청년패스’<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·디지털&nbsp;교육,&nbsp;자격증&nbsp;취득,&nbsp;봉사활동,&nbsp;창업·프로젝트&nbsp;참여&nbsp;등&nbsp;청년의&nbsp;자기계발과&nbsp;직무역량을&nbsp;지원하는&nbsp;성장형&nbsp;청년투자&nbsp;프로젝트&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;시대&nbsp;디지털&nbsp;접근권과&nbsp;온라인&nbsp;문화향유권&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년,&nbsp;소상공인,&nbsp;중소기업의&nbsp;AI&nbsp;활용&nbsp;교육&nbsp;및&nbsp;활용비용&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;온라인&nbsp;공연,&nbsp;OTT&nbsp;등&nbsp;디지털&nbsp;문화콘텐츠&nbsp;접근비용&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;경험과&nbsp;재능을&nbsp;지역사회와&nbsp;나누고&nbsp;보상받는&nbsp;‘누구나&nbsp;선생님’&nbsp;프로젝트&nbsp;<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기반&nbsp;맞춤형&nbsp;돌봄,&nbsp;스마트&nbsp;건강관리시스템,&nbsp;AI&nbsp;재난&nbsp;안전망&nbsp;확충&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;경기북부&nbsp;등&nbsp;의료취약지역&nbsp;공공의료인프라&nbsp;확충<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;AI시대&nbsp;맞춤형&nbsp;복지·돌봄&nbsp;혁신체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;G-카드&nbsp;기반&nbsp;맞춤형&nbsp;복지&nbsp;플랫폼&nbsp;및&nbsp;성장형&nbsp;청년지원체계&nbsp;우선&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트&nbsp;보육·AI&nbsp;돌봄·디지털&nbsp;접근권&nbsp;지원&nbsp;등&nbsp;생활밀착형&nbsp;복지서비스&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료취약지역&nbsp;공공의료&nbsp;인프라&nbsp;및&nbsp;AI&nbsp;기반&nbsp;안전·건강관리&nbsp;체계&nbsp;구축<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;복지·돌봄·의료·디지털&nbsp;지원사업은&nbsp;국비사업과&nbsp;연계&nbsp;추진하고,&nbsp;AI&nbsp;기반&nbsp;플랫폼·스마트&nbsp;돌봄&nbsp;사업은&nbsp;민간협력을&nbsp;통해&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

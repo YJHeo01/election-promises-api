@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;윤위영 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	햇빛 ·풍력 자산화 -시민배당 도시 모델</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="햇빛 ·풍력 자산화 -시민배당 도시 모델">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○“상주&nbsp;시민이라면&nbsp;누구나,&nbsp;매월&nbsp;35만원&nbsp;배당으로”<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;에너지&nbsp;주권&nbsp;확립&nbsp;:&nbsp;상주의&nbsp;풍부한&nbsp;자연&nbsp;자원을&nbsp;상주&nbsp;시민의&nbsp;공동자산으로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;실질적&nbsp;민생지원&nbsp;:&nbsp;연간&nbsp;420만원(1인)의&nbsp;배당을&nbsp;통해&nbsp;지역순환경제실현&nbsp;및&nbsp;인구&nbsp;소멸&nbsp;위기&nbsp;대응&nbsp;및&nbsp;강력한&nbsp;복지&nbsp;엔진&nbsp;가동<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○고효율·저점유&nbsp;(풍력90:햇빛10)&nbsp;모델로&nbsp;환경&nbsp;파괴&nbsp;우려&nbsp;해소&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;토지&nbsp;점유&nbsp;최소화&nbsp;(면적의&nbsp;0.4%,&nbsp;138만&nbsp;평)<br>&nbsp;&nbsp;○(재)&nbsp;상주&nbsp;햇빛·풍력에너지재단&nbsp;설립&nbsp;및&nbsp;조례&nbsp;제정&nbsp;(발전사업·수익관리·시민&nbsp;배당&nbsp;일원화)<br>&nbsp;&nbsp;○한국수력원자력·한국전력&nbsp;협력&nbsp;모델&nbsp;구축<br>&nbsp;&nbsp;○태양광의&nbsp;스마트한&nbsp;배치&nbsp;(10%)<br>&nbsp;&nbsp;&nbsp;&nbsp;-산지&nbsp;개간&nbsp;지양,&nbsp;공공기관&nbsp;지붕,&nbsp;산업단지&nbsp;옥상,&nbsp;주차장,&nbsp;유휴지&nbsp;면적을&nbsp;활용하는&nbsp;‘zero-loss’태양광&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○2026년~2030년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027~2028&nbsp;:&nbsp;재단설립.&nbsp;조례&nbsp;제정,&nbsp;대상지&nbsp;1차&nbsp;선정,&nbsp;발전시설&nbsp;착공(1~14세,&nbsp;65세&nbsp;이상&nbsp;우선&nbsp;지급&nbsp;월&nbsp;15만원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2028~2029&nbsp;:&nbsp;풍력&nbsp;거점&nbsp;단지&nbsp;및&nbsp;지붕형&nbsp;태양광&nbsp;가동(설비&nbsp;40%&nbsp;전&nbsp;시민&nbsp;월&nbsp;15만원&nbsp;지급)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2029~2030&nbsp;:&nbsp;2.5GW&nbsp;설비&nbsp;완공&nbsp;에너지&nbsp;자산화&nbsp;완성(전&nbsp;시민&nbsp;35만원&nbsp;지원)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○“6700억&nbsp;원의&nbsp;마중물로&nbsp;4조원의&nbsp;자산을&nbsp;구축”<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시&nbsp;출연금으로&nbsp;에너지재단&nbsp;설립&nbsp;선도&nbsp;사업&nbsp;초기자본&nbsp;투입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;에너지&nbsp;이행이&nbsp;시급한&nbsp;RE100기업&nbsp;투자유치,&nbsp;시민&nbsp;지분&nbsp;50%&nbsp;이상&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비·도비&nbsp;매칭&nbsp;정부&nbsp;신재생에너지&nbsp;확대&nbsp;정책&nbsp;기조에&nbsp;맞춘&nbsp;국가&nbsp;지원금&nbsp;극대화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	도시가스 보급률 29% → 55% 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="도시가스 보급률 29% → 55% 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○전국&nbsp;최하위&nbsp;도시가스&nbsp;보급률을&nbsp;임기내&nbsp;55%로&nbsp;상향,&nbsp;도농&nbsp;에너지&nbsp;복지&nbsp;격차&nbsp;해소&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취약계층·고령&nbsp;농가의&nbsp;에너지&nbsp;빈곤&nbsp;문제&nbsp;해결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농촌&nbsp;가구&nbsp;난방비&nbsp;30~40%&nbsp;절감을&nbsp;통한&nbsp;실질&nbsp;생활비&nbsp;부담&nbsp;완화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○전&nbsp;읍면&nbsp;도시가스&nbsp;배관시설&nbsp;가능&nbsp;구역과&nbsp;LPG&nbsp;배관망&nbsp;대체&nbsp;구역&nbsp;구분&nbsp;정밀&nbsp;실태조사<br>&nbsp;&nbsp;○산업&nbsp;통산&nbsp;자원부&nbsp;중규모&nbsp;LPG&nbsp;배관망&nbsp;구축&nbsp;사업&nbsp;예비&nbsp;타당성&nbsp;조사&nbsp;조기&nbsp;신청,&nbsp;매년&nbsp;국비&nbsp;공모참여<br>&nbsp;&nbsp;○오지·소규모&nbsp;마을&nbsp;LPG&nbsp;소형·중규모&nbsp;배관망&nbsp;병행&nbsp;구축<br>&nbsp;&nbsp;○취약계층·저소득&nbsp;농촌&nbsp;가구&nbsp;초기&nbsp;배관&nbsp;연결&nbsp;공사비&nbsp;전액&nbsp;또는&nbsp;일부&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○2026년~2030년&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단계&nbsp;(2026)&nbsp;:&nbsp;전&nbsp;읍면&nbsp;실태조사,&nbsp;산업통상부&nbsp;예비&nbsp;타당성&nbsp;신청,&nbsp;국비&nbsp;공모<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2단계&nbsp;(2027~2028)&nbsp;:&nbsp;국비&nbsp;확보&nbsp;구역&nbsp;우선&nbsp;배관망&nbsp;설치&nbsp;(29%？40%)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3단계&nbsp;(2029~2030)&nbsp;:&nbsp;LPG&nbsp;중규모&nbsp;배관망&nbsp;병행&nbsp;완료&nbsp;(40%？45%)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○총&nbsp;사업비&nbsp;:&nbsp;약&nbsp;200억원&nbsp;(국비&nbsp;도비&nbsp;중심)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비&nbsp;:&nbsp;약&nbsp;110억원&nbsp;(산업&nbsp;통산&nbsp;자원부&nbsp;LPG&nbsp;배관망&nbsp;구축&nbsp;사업,&nbsp;국비&nbsp;45%&nbsp;내외<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도비&nbsp;:&nbsp;약&nbsp;30억원&nbsp;(경북도&nbsp;에너지&nbsp;복지&nbsp;지원&nbsp;사업&nbsp;매칭)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시비&nbsp;:&nbsp;약&nbsp;50억원&nbsp;(배관망&nbsp;매칭,&nbsp;취약계층&nbsp;연결&nbsp;공사비)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;부담금&nbsp;:&nbsp;약&nbsp;10억원&nbsp;(세대별&nbsp;연결&nbsp;공사비&nbsp;일부)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	건물만 짓는 행정 끝! 시민이 주인인 ‘상주형 의료안심 생태계’</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="건물만 짓는 행정 끝! 시민이 주인인 ‘상주형 의료안심 생태계’">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○적십자병원&nbsp;신축&nbsp;및&nbsp;현대화로&nbsp;공공의료&nbsp;확대,&nbsp;상주형&nbsp;의료&nbsp;안심&nbsp;생태계구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료&nbsp;주권&nbsp;확립&nbsp;:&nbsp;상주적십자병원을&nbsp;대학병원&nbsp;거점&nbsp;병원으로&nbsp;격상하여&nbsp;‘원정진료’없는&nbsp;상주&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;운영주권&nbsp;시민&nbsp;참여&nbsp;:&nbsp;상주시가&nbsp;제공한&nbsp;부지가&nbsp;있는&nbsp;만큼&nbsp;그&nbsp;대가로&nbsp;시민이&nbsp;참여하는&nbsp;형태&nbsp;구조&nbsp;만듬<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄&nbsp;자치&nbsp;실현&nbsp;:&nbsp;상주의료사협&nbsp;지원을&nbsp;통해&nbsp;병원이&nbsp;찾아오는&nbsp;‘밀착형&nbsp;의료&nbsp;생태계’완성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○적십자병원&nbsp;현대화&nbsp;및&nbsp;‘시민참여&nbsp;명문화“<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;350병상&nbsp;규모&nbsp;확보,&nbsp;24시&nbsp;응급의료센터,&nbsp;심뇌혈관센터,&nbsp;분만&nbsp;산부인과&nbsp;등&nbsp;필수&nbsp;의료시설&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;’상주시&nbsp;공공의료&nbsp;자치&nbsp;협약‘&nbsp;체결&nbsp;:&nbsp;부지&nbsp;무상&nbsp;임대&nbsp;조건,&nbsp;병원&nbsp;운영위&nbsp;상주시민&nbsp;및&nbsp;의료사협&nbsp;협동조합&nbsp;참여&nbsp;<br>&nbsp;&nbsp;○‘상주의료사협중심’&nbsp;중심의&nbsp;상주형&nbsp;의료&nbsp;생태계&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민&nbsp;건강&nbsp;거점&nbsp;확보&nbsp;:&nbsp;신축병원내&nbsp;일정&nbsp;면적&nbsp;‘상주형&nbsp;의료안심센터’제공,&nbsp;방문진료&nbsp;거점&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;찾아가는&nbsp;주치의&nbsp;:&nbsp;거동블편의&nbsp;어르신,&nbsp;장애인을&nbsp;위한&nbsp;의료사협과&nbsp;연계한&nbsp;‘방문의료·간호&nbsp;시스템’&nbsp;에&nbsp;예산을&nbsp;집중<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존의&nbsp;흩어진&nbsp;방문&nbsp;복지&nbsp;예산을&nbsp;의료사협으로&nbsp;통합&nbsp;위탁,&nbsp;행정&nbsp;효율성&nbsp;제고<br>&nbsp;&nbsp;○부대사업&nbsp;수익의&nbsp;시민&nbsp;환원&nbsp;기금화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주차장,&nbsp;매점,&nbsp;장례식장&nbsp;등&nbsp;부대사업에&nbsp;일정&nbsp;부분&nbsp;시민의&nbsp;참여‘&nbsp;상주&nbsp;의료복지기금’&nbsp;적립,&nbsp;저소득층&nbsp;의료비&nbsp;및&nbsp;의료사협&nbsp;활동&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○2026년~2030년&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(2026)&nbsp;:&nbsp;상주형&nbsp;의료안심제&nbsp;조례&nbsp;제정&nbsp;및&nbsp;적십자와&nbsp;신규&nbsp;운영&nbsp;협약&nbsp;체결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(2027)&nbsp;:&nbsp;적십자병원&nbsp;현대화사업&nbsp;착공&nbsp;및&nbsp;의료사협&nbsp;기반&nbsp;‘동네주의치사업’&nbsp;시범&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(2028~2029)&nbsp;:&nbsp;병원&nbsp;내&nbsp;시민&nbsp;돌봄&nbsp;공간&nbsp;설계&nbsp;및&nbsp;전문&nbsp;인력&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(2030)&nbsp;:&nbsp;현대화된&nbsp;적십자병원&nbsp;개원&nbsp;및&nbsp;상주형&nbsp;통합&nbsp;의료&nbsp;안심&nbsp;생태계&nbsp;전면&nbsp;가동<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○적십자병원&nbsp;건축비&nbsp;(2,500억~3,000억))<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비&nbsp;:&nbsp;(보건복지부&nbsp;지방소멸&nbsp;대응기금)&nbsp;70%<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도비&nbsp;:&nbsp;20%&nbsp;확보추진(거점의료체계&nbsp;강화&nbsp;명분)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시비&nbsp;:&nbsp;기&nbsp;매입부지&nbsp;(200억&nbsp;규모)&nbsp;현물&nbsp;제공으로&nbsp;갈음</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	신혼부부 임대주택 200호 공급</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="신혼부부 임대주택 200호 공급">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○임기&nbsp;내&nbsp;신혼부부&nbsp;전용&nbsp;임대주택&nbsp;200호&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;및&nbsp;신혼부부&nbsp;유입을&nbsp;위한&nbsp;거주&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유휴&nbsp;공공자산의&nbsp;가치&nbsp;재창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공동체&nbsp;중심의&nbsp;정주&nbsp;여건&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○유휴자산&nbsp;매입&nbsp;및&nbsp;민간&nbsp;위탁운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활권별&nbsp;분산배치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;커뮤니티&nbsp;거점화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;파격적인&nbsp;주거&nbsp;지원&nbsp;혜택<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○2026년~2030년&nbsp;임기&nbsp;내&nbsp;완공&nbsp;및&nbsp;입주&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(2026)&nbsp;:&nbsp;시&nbsp;전체&nbsp;관련&nbsp;유휴자산&nbsp;실태조사&nbsp;및&nbsp;매입·자산화를&nbsp;위한&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(2027~2028)&nbsp;:&nbsp;우선&nbsp;사업지&nbsp;선정‘&nbsp;후보자&nbsp;선정,&nbsp;100호&nbsp;우선&nbsp;매입&nbsp;리모델링<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(2029~2030)&nbsp;:&nbsp;잔여&nbsp;100호&nbsp;공급&nbsp;및&nbsp;공동체&nbsp;운영&nbsp;프로그램&nbsp;장착<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○총&nbsp;사업비&nbsp;:&nbsp;약&nbsp;200억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국·도비&nbsp;:&nbsp;100억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시비&nbsp;:&nbsp;80억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민자유치&nbsp;:&nbsp;20억원&nbsp;(사회&nbsp;공헌기업&nbsp;참여&nbsp;및&nbsp;민관&nbsp;협력&nbsp;사업&nbsp;추진)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	빅데이터 기반 600만 체류 관광</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="빅데이터 기반 600만 체류 관광">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○스쳐&nbsp;지나가는&nbsp;관광에서&nbsp;‘머무는&nbsp;체류&nbsp;관광’으로의&nbsp;패러다임&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경천섬&nbsp;일대를&nbsp;사계절&nbsp;관광&nbsp;거점으로&nbsp;조성,&nbsp;시&nbsp;직영&nbsp;수익&nbsp;자산화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기내&nbsp;체류관광&nbsp;빅데이터&nbsp;기반&nbsp;600만명&nbsp;달성,&nbsp;k-관광,&nbsp;거점도시&nbsp;상주로&nbsp;도약<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○경천섬&nbsp;테마정원&nbsp;+소형&nbsp;유리온실&nbsp;형식&nbsp;？&nbsp;재래시장&nbsp;？&nbsp;체험&nbsp;？&nbsp;숙박&nbsp;패키지&nbsp;개발&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상주&nbsp;DMO(지역관광&nbsp;추진조직)설립&nbsp;-&nbsp;시·민간&nbsp;공동&nbsp;운영체&nbsp;구성&nbsp;통합&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광&nbsp;순환&nbsp;지상&nbsp;버스&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;관광&nbsp;창업&nbsp;원스톱&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;외국&nbsp;여행사&nbsp;연계,&nbsp;k-농촌&nbsp;관광&nbsp;패키지&nbsp;상품화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○2026년~2030년&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(2026~2027)&nbsp;:&nbsp;상주&nbsp;DMO&nbsp;설립.&nbsp;통합&nbsp;플랫폼&nbsp;구축,&nbsp;지방&nbsp;정원&nbsp;조성&nbsp;사업&nbsp;공모<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(2027~2028)&nbsp;:&nbsp;경천섬&nbsp;일대&nbsp;테마정원+소형유리온실&nbsp;건립(소프트웨어)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(2026~2030)&nbsp;:&nbsp;청년&nbsp;관광·체험&nbsp;창업&nbsp;원스톱&nbsp;지원,&nbsp;지상&nbsp;버스&nbsp;운행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○총&nbsp;사업비&nbsp;:&nbsp;약&nbsp;300억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비&nbsp;:&nbsp;100억원(환경부,&nbsp;도시생태축&nbsp;복원사업)+&nbsp;지방정원조성사업&nbsp;50억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도·시비&nbsp;:&nbsp;50억원&nbsp;(지방정원&nbsp;조성사업&nbsp;도비&nbsp;15%,&nbsp;시비&nbsp;35%)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문체부&nbsp;:&nbsp;20억원&nbsp;상주&nbsp;DMO문체부&nbsp;공모&nbsp;+수익형&nbsp;모델<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시비&nbsp;:&nbsp;100억원</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

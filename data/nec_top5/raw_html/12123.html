@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김병욱 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	사통팔달 쾌속 철도망 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="사통팔달 쾌속 철도망 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지하철&nbsp;8호선&nbsp;연장(모란~판교~오포)&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;성남메트로&nbsp;1·2호선&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;경기남부광역철도&nbsp;제5차국가철도망구축계획&nbsp;반영<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;지하철&nbsp;8호선&nbsp;연장&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(모란-판교&nbsp;구간)&nbsp;사업의&nbsp;경제성&nbsp;및&nbsp;타당성을&nbsp;입증하여&nbsp;예비타당성조사&nbsp;신속&nbsp;통과&nbsp;적극&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(판교-오포&nbsp;구간)&nbsp;광주·오포&nbsp;방면&nbsp;교통&nbsp;수요를&nbsp;반영한&nbsp;노선&nbsp;연장&nbsp;사전타당성조사&nbsp;실시<br>&nbsp;&nbsp;○&nbsp;성남메트로&nbsp;1·2호선&nbsp;사전타당성&nbsp;조사&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;제5차국가철도망구축계획&nbsp;승인&nbsp;및&nbsp;고시<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년(장기사업)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;8호선&nbsp;연장(모란-판교)&nbsp;사업비(예상):&nbsp;4,239억&nbsp;원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비&nbsp;2,543억,&nbsp;도비&nbsp;85억&nbsp;원,&nbsp;시비&nbsp;1,611억&nbsp;원<br>&nbsp;&nbsp;○&nbsp;성남메트로&nbsp;1·2호선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민간투자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	신속한 재건축, 재개발 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="신속한 재건축, 재개발 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;재건축·재개발,&nbsp;리모델링&nbsp;신속&nbsp;추진을&nbsp;통한&nbsp;분당구,&nbsp;수정구,&nbsp;중원구의&nbsp;조화로운&nbsp;균형&nbsp;발전&nbsp;실현&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;지역별&nbsp;정비사업&nbsp;주민&nbsp;협의체&nbsp;구성&nbsp;및&nbsp;맞춤형&nbsp;마스터플랜&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국토교통부&nbsp;협의를&nbsp;통한&nbsp;물량제한&nbsp;해제<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민제안방식&nbsp;적극&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이주비&nbsp;대출이자&nbsp;지원&nbsp;및&nbsp;세입자&nbsp;안정&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;리모델링&nbsp;공공지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민부담최소화&nbsp;및&nbsp;공공기여&nbsp;축소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정비계획수립&nbsp;용역비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재건축&nbsp;진단비용&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재건축&nbsp;관련&nbsp;조직을&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2030(장기사업)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시비<br>&nbsp;&nbsp;○&nbsp;관련&nbsp;법령에&nbsp;따라&nbsp;집행</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	경제 산업 일자리 이니셔티브</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="경제 산업 일자리 이니셔티브">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;분당&nbsp;판교&nbsp;지식기반&nbsp;산업,&nbsp;수정&nbsp;위례&nbsp;AI&nbsp;소프트웨어&nbsp;거점,&nbsp;중원&nbsp;상대원&nbsp;첨단&nbsp;제조공단을&nbsp;잇는&nbsp;성남형&nbsp;미래&nbsp;산업&nbsp;벨트&nbsp;완성&nbsp;및&nbsp;양질의&nbsp;일자리&nbsp;창출&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;권역별&nbsp;특화&nbsp;산업&nbsp;현장&nbsp;수요&nbsp;파악&nbsp;및&nbsp;민관&nbsp;기업&nbsp;거버넌스&nbsp;구축,&nbsp;AI&nbsp;허브&nbsp;등&nbsp;핵심&nbsp;인프라&nbsp;행정&nbsp;지원&nbsp;연계,&nbsp;첨단산업&nbsp;생태계&nbsp;정착&nbsp;및&nbsp;시민&nbsp;중심&nbsp;일자리&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양자&nbsp;AI&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제4테크노밸리&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;백현마이스&nbsp;신속&nbsp;추진<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년(지속사업)<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;(양자&nbsp;AI&nbsp;클러스터),&nbsp;시비,&nbsp;민간투자<br>&nbsp;&nbsp;○&nbsp;관련&nbsp;법령에&nbsp;따라&nbsp;집행</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	의료·복지·문화·관광·체육 이니셔티브</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="의료·복지·문화·관광·체육 이니셔티브">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청년의&nbsp;미래&nbsp;자립과&nbsp;취약계층의&nbsp;일상을&nbsp;모두&nbsp;보호하는&nbsp;빈틈없는&nbsp;사회적&nbsp;안전망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘청년기본소득’을&nbsp;복원하여&nbsp;청년&nbsp;복지&nbsp;권리를&nbsp;회복<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;발달장애인&nbsp;가족이&nbsp;겪는&nbsp;막대한&nbsp;배상&nbsp;책임과&nbsp;심리적&nbsp;불안감을&nbsp;해소하는&nbsp;보호&nbsp;체계&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;탄천&nbsp;수변&nbsp;공간을&nbsp;적극&nbsp;활용한&nbsp;일상&nbsp;속&nbsp;문화·축제&nbsp;개최<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도심&nbsp;속&nbsp;공공미술&nbsp;활성화로&nbsp;시민의&nbsp;문화&nbsp;접근성을&nbsp;높이고&nbsp;지역&nbsp;예술가에게&nbsp;창작의&nbsp;장&nbsp;제공<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;모두를&nbsp;아우르는&nbsp;‘맞춤형&nbsp;포용&nbsp;복지’&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성남시&nbsp;24세&nbsp;청년&nbsp;전원에게&nbsp;연&nbsp;100만&nbsp;원&nbsp;한도&nbsp;지역화폐&nbsp;지급&nbsp;(기존&nbsp;방식&nbsp;준용으로&nbsp;신속&nbsp;집행)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관내&nbsp;발달장애인&nbsp;전원&nbsp;단체보험&nbsp;지자체&nbsp;자동&nbsp;가입.&nbsp;사고&nbsp;발생&nbsp;시&nbsp;대인·대물&nbsp;피해&nbsp;최대&nbsp;1억&nbsp;원&nbsp;배상&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;문화·축제가&nbsp;일상이&nbsp;되는&nbsp;도시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성남&nbsp;출신&nbsp;조각가&nbsp;작품&nbsp;전시,&nbsp;야간&nbsp;테마&nbsp;조명&nbsp;연출&nbsp;및&nbsp;시민&nbsp;참여형&nbsp;체험,&nbsp;어린이&nbsp;예술&nbsp;존&nbsp;운영<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;~&nbsp;2030년(지속사업)<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;청년기본소득:&nbsp;연간&nbsp;약&nbsp;100억&nbsp;원&nbsp;(경기도&nbsp;매칭&nbsp;사업,&nbsp;도비&nbsp;70%,&nbsp;시비&nbsp;30%)<br>&nbsp;&nbsp;○&nbsp;발달장애인안심배상&nbsp;책임보험&nbsp;지원:&nbsp;연간&nbsp;약&nbsp;1억&nbsp;4천만&nbsp;원(시비)<br>&nbsp;&nbsp;○&nbsp;탄천조각축제:&nbsp;약&nbsp;10억&nbsp;원(시비)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	교육·청소년 이니셔티브</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="교육·청소년 이니셔티브">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;AI시대&nbsp;미래인재&nbsp;육성을&nbsp;위한&nbsp;독서&nbsp;교육&nbsp;활성화&nbsp;및&nbsp;보편적&nbsp;교육&nbsp;복지&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI가&nbsp;일상화된&nbsp;환경&nbsp;속에서&nbsp;학생들의&nbsp;기초&nbsp;사고력과&nbsp;문해력을&nbsp;증진하기&nbsp;위해&nbsp;중·고교&nbsp;신입생에&nbsp;도서구입비&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;성장기&nbsp;전체를&nbsp;아우르는&nbsp;‘성장형&nbsp;급식’&nbsp;체계&nbsp;완성으로&nbsp;학생들의&nbsp;건강권과&nbsp;학습권&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신체&nbsp;성장이&nbsp;절정에&nbsp;달하고&nbsp;학업&nbsp;스트레스가&nbsp;큰&nbsp;고등학생부터&nbsp;양질의&nbsp;식단을&nbsp;제공하여&nbsp;정서적&nbsp;안정과&nbsp;집중력&nbsp;향상&nbsp;도모<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중·고등학교&nbsp;신입생&nbsp;도서구입비&nbsp;연&nbsp;10만&nbsp;원&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;매년&nbsp;3월&nbsp;신학기&nbsp;입학생&nbsp;전원에게&nbsp;도서구입비&nbsp;지급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제도권&nbsp;학교뿐만&nbsp;아니라&nbsp;대안교육기관(비인가&nbsp;대안학교)&nbsp;및&nbsp;학교&nbsp;밖&nbsp;청소년까지&nbsp;사각지대&nbsp;없이&nbsp;촘촘하게&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;고·중·초·유치원&nbsp;순차적&nbsp;급식비&nbsp;추가&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고등학교&nbsp;급식의&nbsp;질을&nbsp;획기적으로&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중학교,&nbsp;초등학교,&nbsp;유치원&nbsp;순으로&nbsp;단계적&nbsp;인상&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;~&nbsp;2030년(지속사업)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;중·고등학교&nbsp;신입생&nbsp;도서구입비&nbsp;지원&nbsp;:&nbsp;약&nbsp;17억&nbsp;원(시비)<br>&nbsp;&nbsp;○&nbsp;고교&nbsp;급식&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경기도교육청,&nbsp;도비,&nbsp;시비(100억&nbsp;원)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

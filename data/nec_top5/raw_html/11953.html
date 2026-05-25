@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;최재구 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	미래산업 기업과 일자리 증가로 도약하는 예산</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="미래산업 기업과 일자리 증가로 도약하는 예산">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;민간자본&nbsp;투자와&nbsp;미래산업&nbsp;육성을&nbsp;통한&nbsp;양질의&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;내포혁신도시&nbsp;공공기관&nbsp;유치와&nbsp;산업·교통&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;농생명·그린바이오·스마트농업&nbsp;육성과&nbsp;소상공인&nbsp;경쟁력&nbsp;강화를&nbsp;통한&nbsp;지속가능한&nbsp;성장기반&nbsp;구축&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;민간투자&nbsp;확대와&nbsp;미래형&nbsp;산업기반&nbsp;구축을&nbsp;통한&nbsp;기업유치&nbsp;및&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간자본&nbsp;1조원&nbsp;투자유치와&nbsp;산업·관광&nbsp;연계형&nbsp;대규모&nbsp;투자사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기능성식품·메디푸드·그린바이오·스마트농업&nbsp;중심&nbsp;미래전략&nbsp;신산업&nbsp;앵커기업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예산관작·신양·오가·고덕예당제2산단·신소재&nbsp;등&nbsp;친환경&nbsp;미래형&nbsp;산업·농공단지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;충남혁신도시&nbsp;공공기관&nbsp;유치와&nbsp;자족형&nbsp;경제도시&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공기관&nbsp;2차&nbsp;이전&nbsp;대응&nbsp;및&nbsp;기후에너지·환경·국방&nbsp;분야&nbsp;핵심기관&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;내포혁신도시&nbsp;단계별&nbsp;확장과&nbsp;상업·물류·생활SOC&nbsp;기능&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이전&nbsp;공공기관·기업&nbsp;직원&nbsp;대상&nbsp;주거·보육·교통·교육&nbsp;등&nbsp;정착&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;광역교통망&nbsp;구축과&nbsp;내포혁신도시&nbsp;성장동력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;내포역세권&nbsp;도시개발사업과&nbsp;광역교통망&nbsp;구축을&nbsp;통한&nbsp;충남혁신도시&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;내포역&nbsp;중심&nbsp;주거·상업·교통&nbsp;복합개발과&nbsp;미래형&nbsp;도시기반&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;농생명·그린바이오&nbsp;중심&nbsp;미래산업&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;셀트리온&nbsp;연계&nbsp;그린바이오&nbsp;벤처캠퍼스·메디푸드&nbsp;연구지원센터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;펫푸드&nbsp;지원센터&nbsp;및&nbsp;기능성&nbsp;식품산업&nbsp;육성을&nbsp;통한&nbsp;고부가가치&nbsp;산업&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트원예단지&nbsp;및&nbsp;친환경&nbsp;농기계&nbsp;전동화&nbsp;기반&nbsp;구축을&nbsp;통한&nbsp;미래농업&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;소상공인·중소기업&nbsp;경쟁력&nbsp;강화와&nbsp;지역상권&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;배달수수료·이차보전금&nbsp;지원&nbsp;및&nbsp;노후점포&nbsp;시설개선&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전통시장&nbsp;문화관광형&nbsp;특성화사업과&nbsp;지역상권&nbsp;활성화&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;맞춤형&nbsp;일자리&nbsp;지원과&nbsp;균형발전&nbsp;기반&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업체·청년·여성·장애인·다문화·외국인&nbsp;통합&nbsp;일자리&nbsp;지원체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;읍·면별&nbsp;맞춤형&nbsp;균형발전&nbsp;전략사업과&nbsp;지역특화&nbsp;성장기반&nbsp;마련<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;조례·규칙&nbsp;등&nbsp;제도&nbsp;개선사항은&nbsp;2026년&nbsp;7월부터&nbsp;준비하여&nbsp;단계적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;재정사업은&nbsp;2027년&nbsp;예산&nbsp;수립부터&nbsp;반영&nbsp;민선9기&nbsp;임기&nbsp;내&nbsp;단계별&nbsp;추진&nbsp;및&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·도비&nbsp;확보와&nbsp;민간투자를&nbsp;병행한&nbsp;재정&nbsp;운영&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부&nbsp;공모사업&nbsp;및&nbsp;국비&nbsp;지원사업&nbsp;적극&nbsp;확보&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간기업&nbsp;투자유치&nbsp;및&nbsp;공공·민간&nbsp;협력사업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방비&nbsp;및&nbsp;특별교부세&nbsp;등&nbsp;연계&nbsp;재원&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	군민 모두를 위한 복지서비스로 행복하고 따뜻한 예산</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="군민 모두를 위한 복지서비스로 행복하고 따뜻한 예산">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;어르신·아동·청년·장애인&nbsp;등&nbsp;모든&nbsp;세대가&nbsp;함께&nbsp;누리는&nbsp;촘촘한&nbsp;맞춤형&nbsp;복지체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;돌봄·의료·교육·주거&nbsp;지원&nbsp;강화로&nbsp;아이&nbsp;키우기&nbsp;좋고&nbsp;청년이&nbsp;정착하는&nbsp;행복도시&nbsp;조성&nbsp;<br>&nbsp;&nbsp;○&nbsp;생활밀착형&nbsp;복지서비스&nbsp;확대와&nbsp;평생학습&nbsp;기반&nbsp;구축을&nbsp;통한&nbsp;군민&nbsp;삶의&nbsp;질&nbsp;향상<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;맞춤형&nbsp;돌봄·건강복지&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;거동불편&nbsp;어르신&nbsp;이동보조기기·전동보조기&nbsp;보험&nbsp;및&nbsp;수리&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행복경로당&nbsp;무료급식·도시락&nbsp;배달과&nbsp;로컬푸드&nbsp;연계&nbsp;경로식당&nbsp;운영&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건강백세교실·순회&nbsp;건강관리·무릎&nbsp;인공관절&nbsp;수술비&nbsp;및&nbsp;간병&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·IoT&nbsp;기반&nbsp;독거노인&nbsp;안부살핌과&nbsp;위기&nbsp;대응형&nbsp;돌봄체계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시니어&nbsp;액티브파크&nbsp;조성을&nbsp;통한&nbsp;체육·여가·힐링&nbsp;복합공간&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;돌봄·의료환경&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;내포&nbsp;365×24&nbsp;어린이집&nbsp;및&nbsp;아동돌봄&nbsp;거점센터&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;초등&nbsp;방과후학교·다함께돌봄센터&nbsp;연계&nbsp;통합돌봄체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;충남혁신도시&nbsp;복합혁신센터&nbsp;건립과&nbsp;영유아·청소년&nbsp;돌봄기능&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료·요양·돌봄&nbsp;통합지원과&nbsp;찾아가는&nbsp;방문진료&nbsp;기반&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임산부·영유아·소아&nbsp;야간진료&nbsp;및&nbsp;가족친화형&nbsp;생활환경&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;정착&nbsp;지원과&nbsp;미래인재&nbsp;육성&nbsp;기반&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년정착기금·창업·자산형성&nbsp;지원&nbsp;확대&nbsp;및&nbsp;정착기반&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장학사업·해외연수·국제교류&nbsp;확대를&nbsp;통한&nbsp;미래인재&nbsp;육성&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년친화도시&nbsp;조성과&nbsp;신활력&nbsp;UP-타운&nbsp;기반&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공주대학교&nbsp;연계&nbsp;청년·농업·지역&nbsp;상생협력체계&nbsp;구축&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;장애인·보훈&nbsp;상생복지&nbsp;기반&nbsp;조성&nbsp;및&nbsp;사회참여&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인&nbsp;자립형&nbsp;일자리&nbsp;및&nbsp;민간취업&nbsp;연계&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보훈공원&nbsp;조성을&nbsp;통한&nbsp;보훈문화·안보교육&nbsp;기반&nbsp;조성&nbsp;<br>&nbsp;&nbsp;○&nbsp;평생학습&nbsp;확대와&nbsp;생활밀착형&nbsp;주거복지&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문해교육·AI·실버&nbsp;특화&nbsp;평생학습&nbsp;프로그램&nbsp;확대&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;조례·규칙&nbsp;등&nbsp;제도&nbsp;개선사항은&nbsp;2026년&nbsp;7월부터&nbsp;준비하여&nbsp;단계적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;재정사업은&nbsp;2027년&nbsp;예산&nbsp;수립부터&nbsp;반영&nbsp;민선9기&nbsp;임기&nbsp;내&nbsp;단계별&nbsp;추진&nbsp;및&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·도비&nbsp;확보와&nbsp;민간투자를&nbsp;병행한&nbsp;재정&nbsp;운영&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부&nbsp;공모사업&nbsp;및&nbsp;국비&nbsp;지원사업&nbsp;적극&nbsp;확보&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간기업&nbsp;투자유치&nbsp;및&nbsp;공공·민간&nbsp;협력사업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방비&nbsp;및&nbsp;특별교부세&nbsp;등&nbsp;연계&nbsp;재원&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	경쟁력 있는 농업·농촌과 살기좋은 정주 환경 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="경쟁력 있는 농업·농촌과 살기좋은 정주 환경 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;스마트농업과&nbsp;지역특화산업&nbsp;육성을&nbsp;통한&nbsp;지속가능한&nbsp;미래농업&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;농산물&nbsp;생산·가공·유통·관광&nbsp;연계를&nbsp;통한&nbsp;농가소득&nbsp;증대&nbsp;및&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;농촌&nbsp;정주환경&nbsp;개선과&nbsp;생활인프라&nbsp;확충을&nbsp;통한&nbsp;살기&nbsp;좋은&nbsp;농촌공동체&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;미래형&nbsp;스마트농업&nbsp;기반&nbsp;구축과&nbsp;농업재해&nbsp;대응체계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;축사&nbsp;화재안전시설&nbsp;개선&nbsp;및&nbsp;IoT&nbsp;기반&nbsp;축산악취&nbsp;스마트&nbsp;관리체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후&nbsp;시설하우스&nbsp;개선과&nbsp;스마트·에너지&nbsp;절감형&nbsp;농업시설&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농작물&nbsp;재해보험·농업인&nbsp;안전보험&nbsp;확대&nbsp;및&nbsp;재해복구&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소형농기계&nbsp;지원&nbsp;확대와&nbsp;고령·여성농업인&nbsp;임대&nbsp;배달서비스&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;지역특화&nbsp;농산업&nbsp;육성과&nbsp;농식품&nbsp;고부가가치&nbsp;산업화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사과·쪽파&nbsp;특화산업&nbsp;육성과&nbsp;스마트팜·가공·관광&nbsp;연계&nbsp;6차산업화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사과·쌀&nbsp;기반&nbsp;명품주&nbsp;클러스터&nbsp;조성과&nbsp;체험·관광&nbsp;연계&nbsp;산업화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예산쌀&nbsp;브랜드화와&nbsp;RPC&nbsp;현대화·온라인&nbsp;유통망&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농산물&nbsp;공동가공센터&nbsp;확장과&nbsp;HACCP&nbsp;기반&nbsp;상품개발&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;농특산물&nbsp;유통혁신과&nbsp;지역&nbsp;먹거리&nbsp;선순환체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;로컬푸드&nbsp;직매장·관광형&nbsp;판매거점·온라인&nbsp;판매망&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;직매장·가공센터·공공급식&nbsp;연계&nbsp;지역농산물&nbsp;소비&nbsp;활성화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;청년농·귀농귀촌&nbsp;정착지원과&nbsp;농촌&nbsp;활력&nbsp;기반&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년농업인&nbsp;교육·창업·유통&nbsp;연계&nbsp;원스톱&nbsp;영농정착&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;후계농&nbsp;정책자금&nbsp;이차보전&nbsp;및&nbsp;금융부담&nbsp;완화&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업근로자&nbsp;기숙사&nbsp;조성과&nbsp;외국인&nbsp;근로자&nbsp;복지·안전관리&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;귀농인&nbsp;인큐베이팅센터&nbsp;및&nbsp;체류형&nbsp;정착&nbsp;프로그램&nbsp;운영&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;읍·면별&nbsp;특화작목&nbsp;육성과&nbsp;생산·유통·관광&nbsp;연계&nbsp;지역특화&nbsp;전략&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농촌&nbsp;빈집&nbsp;정비와&nbsp;귀농귀촌·외국인&nbsp;근로자&nbsp;주거&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예산군&nbsp;동물보호센터&nbsp;건립과&nbsp;반려동물&nbsp;보호·문화기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산성1·2리&nbsp;및&nbsp;신례원2리&nbsp;취약지역&nbsp;생활여건&nbsp;개조<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;조례·규칙&nbsp;등&nbsp;제도&nbsp;개선사항은&nbsp;2026년&nbsp;7월부터&nbsp;준비하여&nbsp;단계적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;재정사업은&nbsp;2027년&nbsp;예산&nbsp;수립부터&nbsp;반영&nbsp;민선9기&nbsp;임기&nbsp;내&nbsp;단계별&nbsp;추진&nbsp;및&nbsp;완료<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·도비&nbsp;확보와&nbsp;민간투자를&nbsp;병행한&nbsp;재정&nbsp;운영&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부&nbsp;공모사업&nbsp;및&nbsp;국비&nbsp;지원사업&nbsp;적극&nbsp;확보&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간기업&nbsp;투자유치&nbsp;및&nbsp;공공·민간&nbsp;협력사업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방비&nbsp;및&nbsp;특별교부세&nbsp;등&nbsp;연계&nbsp;재원&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	건강한 힐링관광 시설 확충으로 체류형 관광도시 도약 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="건강한 힐링관광 시설 확충으로 체류형 관광도시 도약 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;역사·문화·생태·관광자원을&nbsp;연계한&nbsp;체류형&nbsp;힐링관광도시&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;원도심·관광지&nbsp;활성화와&nbsp;생활체육&nbsp;인프라&nbsp;확충을&nbsp;통한&nbsp;지역경제&nbsp;활력&nbsp;제고<br>&nbsp;&nbsp;○&nbsp;문화·관광·미식·반려동물&nbsp;콘텐츠&nbsp;육성을&nbsp;통한&nbsp;전국&nbsp;대표&nbsp;관광도시&nbsp;도약<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;원도심&nbsp;재생과&nbsp;청년창업&nbsp;기반&nbsp;문화관광&nbsp;활성화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구)삽교프라자&nbsp;지역활력타운·역전시장&nbsp;청년상생센터&nbsp;조성과&nbsp;청년창업&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예산읍&nbsp;원도심&nbsp;활력&nbsp;관광&nbsp;체류형&nbsp;르네상스&nbsp;조성으로&nbsp;&nbsp;문화·창업·체험형&nbsp;관광기반&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;빈집·유휴공간&nbsp;활용&nbsp;‘예산&nbsp;스테이’&nbsp;등&nbsp;체류형&nbsp;숙박·창업공간&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;복합문화·체류형&nbsp;관광거점&nbsp;조성&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구)충남방적&nbsp;활용&nbsp;K-773&nbsp;문화복합단지와&nbsp;체류형&nbsp;문화·관광·창업거점&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;로컬푸드·전통주·브루어리·공연·숙박&nbsp;연계&nbsp;복합문화&nbsp;콘텐츠&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;예당호·덕산권&nbsp;힐링관광벨트&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예당호&nbsp;체류형&nbsp;관광벨트와&nbsp;숙박·체험형&nbsp;관광콘텐츠&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;덕산권&nbsp;힐링·웰니스·메디컬&nbsp;관광&nbsp;활성화와&nbsp;워케이션&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수암산·내포&nbsp;힐링트레일&nbsp;및&nbsp;대술&nbsp;천방산&nbsp;산림치유&nbsp;복합단지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;역사·문화유산&nbsp;기반&nbsp;체험형&nbsp;관광도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삽교&nbsp;배나드리&nbsp;성지와&nbsp;내포&nbsp;천주교&nbsp;순례관광&nbsp;거점화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대흥&nbsp;임존성&nbsp;역사·문화&nbsp;체험관광과&nbsp;탐방·교육&nbsp;콘텐츠&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한국전통건축&nbsp;아카이브센터&nbsp;건립&nbsp;및&nbsp;전통문화&nbsp;교육·체험&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민참여형&nbsp;1읍면&nbsp;1축제·화합&nbsp;패키지&nbsp;사업&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;광시&nbsp;황새마을·한우마을&nbsp;연계&nbsp;숙박·체험·미식&nbsp;관광모델&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;황새쌀·광시한우&nbsp;등&nbsp;지역농특산물&nbsp;활용&nbsp;로컬&nbsp;미식관광&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;생활체육·가족친화&nbsp;건강도시&nbsp;기반&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;오가·응봉&nbsp;국민체육센터와&nbsp;반다비&nbsp;체육관&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;내포신도시&nbsp;종합스포츠타운·파크골프장·어린이물놀이&nbsp;시설&nbsp;등&nbsp;생활체육&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;무한천&nbsp;신암&nbsp;굴포공원&nbsp;수변산책로&nbsp;및&nbsp;반려문화&nbsp;프로그램&nbsp;운영&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;조례·규칙&nbsp;등&nbsp;제도&nbsp;개선사항은&nbsp;2026년&nbsp;7월부터&nbsp;준비하여&nbsp;단계적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;재정사업은&nbsp;2027년&nbsp;예산&nbsp;수립부터&nbsp;반영&nbsp;민선9기&nbsp;임기&nbsp;내&nbsp;단계별&nbsp;추진&nbsp;및&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·도비&nbsp;확보와&nbsp;민간투자를&nbsp;병행한&nbsp;재정&nbsp;운영&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부&nbsp;공모사업&nbsp;및&nbsp;국비&nbsp;지원사업&nbsp;적극&nbsp;확보&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간기업&nbsp;투자유치&nbsp;및&nbsp;공공·민간&nbsp;협력사업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방비&nbsp;및&nbsp;특별교부세&nbsp;등&nbsp;연계&nbsp;재원&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	군민이 만족하는 편리하고 안전한 예산건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="군민이 만족하는 편리하고 안전한 예산건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;재난·기후위기&nbsp;대응체계&nbsp;강화와&nbsp;생활안전&nbsp;인프라&nbsp;구축을&nbsp;통한&nbsp;안전한&nbsp;도시&nbsp;구현<br>&nbsp;&nbsp;○&nbsp;광역교통망&nbsp;확충과&nbsp;교통복지&nbsp;강화로&nbsp;군민&nbsp;누구나&nbsp;편리하게&nbsp;이동하는&nbsp;교통환경&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;에너지복지&nbsp;확대와&nbsp;주민참여&nbsp;중심&nbsp;행정혁신을&nbsp;통한&nbsp;살기&nbsp;좋은&nbsp;공동체&nbsp;기반&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;재난&nbsp;대응과&nbsp;생활밀착형&nbsp;안전체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;기반&nbsp;스마트&nbsp;통합관제시스템&nbsp;구축과&nbsp;범죄·재난&nbsp;자동감지&nbsp;체계&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재난안전상황실&nbsp;전문인력&nbsp;확충과&nbsp;24시간&nbsp;통합&nbsp;재난대응체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국립&nbsp;서해안권&nbsp;산불방지센터&nbsp;유치&nbsp;및&nbsp;예산소방서&nbsp;청사&nbsp;이전&nbsp;신축<br>&nbsp;&nbsp;○&nbsp;풍수해·침수&nbsp;예방&nbsp;중심&nbsp;재해안전&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삽교천·무한천&nbsp;국가하천&nbsp;하도정비와&nbsp;집중호우·침수&nbsp;대응능력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상습&nbsp;침수&nbsp;농경지&nbsp;배수개선사업&nbsp;및&nbsp;전국&nbsp;최초&nbsp;수해취약지역&nbsp;구명조끼&nbsp;보급<br>&nbsp;&nbsp;○&nbsp;화재취약시설&nbsp;소방시설&nbsp;설치&nbsp;지원과&nbsp;경로당·돌봄시설&nbsp;안전환경&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;군민안전보험&nbsp;보장성&nbsp;전국&nbsp;최고&nbsp;수준&nbsp;확대와&nbsp;지역특화&nbsp;안전보장&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;고령운전자&nbsp;페달오조작&nbsp;방지장치&nbsp;지원과&nbsp;교통사고&nbsp;예방체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;광역철도·도로망&nbsp;중심&nbsp;교통혁신&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수도권&nbsp;전철&nbsp;1호선&nbsp;예산·삽교역&nbsp;연장&nbsp;및&nbsp;서해선&nbsp;복선전철&nbsp;내포역&nbsp;조기&nbsp;신설&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;충청내륙철도·서해안&nbsp;내포철도·중부권&nbsp;동서횡단철도&nbsp;국가계획&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;내포신도시~정안IC&nbsp;연결도로·오가~신암&nbsp;지방도·서부내륙고속도로&nbsp;IC&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;충의대로&nbsp;회전교차로&nbsp;조성과&nbsp;군도2호선&nbsp;선형개량&nbsp;등&nbsp;<br>&nbsp;&nbsp;○&nbsp;교통약자&nbsp;중심&nbsp;편리한&nbsp;대중교통&nbsp;환경&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통약자&nbsp;섬김택시·바우처택시·장애인콜택시&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공영&nbsp;저상버스&nbsp;확대와&nbsp;수요응답형(DRT)&nbsp;셔틀버스&nbsp;도입&nbsp;및&nbsp;&nbsp;버스종합터미널&nbsp;공영화<br>&nbsp;&nbsp;○&nbsp;에너지복지&nbsp;확대와&nbsp;지속가능한&nbsp;기후위기&nbsp;대응체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예산형&nbsp;햇빛소득&nbsp;에너지&nbsp;자립마을&nbsp;조성과&nbsp;주민참여형&nbsp;재생에너지&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;탄소저감·자원순환·수질개선&nbsp;등&nbsp;기후위기&nbsp;대응&nbsp;및&nbsp;친환경&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;중심&nbsp;생활행정과&nbsp;주민참여&nbsp;공동체&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활불편&nbsp;바로바로서비스&nbsp;운영과&nbsp;현장&nbsp;즉시&nbsp;해결형&nbsp;민원체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;맞춤형&nbsp;주민자치&nbsp;활성화,&nbsp;새마을지도자·부녀회장&nbsp;및&nbsp;자원봉사&nbsp;처우&nbsp;개선&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신례원&nbsp;출장소&nbsp;승격&nbsp;및&nbsp;여성회관&nbsp;기능보강.예산읍&nbsp;복지회관&nbsp;리모델링<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;조례·규칙&nbsp;등&nbsp;제도&nbsp;개선사항은&nbsp;2026년&nbsp;7월부터&nbsp;준비하여&nbsp;단계적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;재정사업은&nbsp;2027년&nbsp;예산&nbsp;수립부터&nbsp;반영&nbsp;민선9기&nbsp;임기&nbsp;내&nbsp;단계별&nbsp;추진&nbsp;및&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·도비&nbsp;확보와&nbsp;민간투자를&nbsp;병행한&nbsp;재정&nbsp;운영&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부&nbsp;공모사업&nbsp;및&nbsp;국비&nbsp;지원사업&nbsp;적극&nbsp;확보&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간기업&nbsp;투자유치&nbsp;및&nbsp;공공·민간&nbsp;협력사업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방비&nbsp;및&nbsp;특별교부세&nbsp;등&nbsp;연계&nbsp;재원&nbsp;확보</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

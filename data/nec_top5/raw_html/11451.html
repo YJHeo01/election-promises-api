@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이성진 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	천안 2.0 경제·일자리</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="천안 2.0 경제·일자리">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;○&nbsp;천안의&nbsp;산업·대학·청년·창업&nbsp;기반을&nbsp;하나로&nbsp;연결하여,&nbsp;천안을&nbsp;다음&nbsp;단계의&nbsp;경제·일자리&nbsp;도시로&nbsp;전환&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;천안은&nbsp;일자리가&nbsp;없는&nbsp;도시가&nbsp;아니라,&nbsp;기존&nbsp;자산을&nbsp;미래산업과&nbsp;좋은&nbsp;일자리로&nbsp;연결하는&nbsp;방향이&nbsp;부족했던&nbsp;도시임&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첨단제조,&nbsp;창업,&nbsp;생활서비스,&nbsp;공공서비스&nbsp;산업이&nbsp;함께&nbsp;성장하는&nbsp;천안&nbsp;2.0&nbsp;경제&nbsp;기반&nbsp;마련<br><br>□&nbsp;이행방법&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;천안형&nbsp;경제전환&nbsp;체계&nbsp;구축&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학·기업·청년·행정을&nbsp;연결하는&nbsp;창업·취업·성장&nbsp;지원체계&nbsp;마련&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첨단제조,&nbsp;반도체&nbsp;연계&nbsp;산업,&nbsp;소셜스타트업&nbsp;등&nbsp;미래산업&nbsp;육성&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄,&nbsp;이동,&nbsp;도시관리,&nbsp;생활서비스&nbsp;등&nbsp;사회문제&nbsp;해결&nbsp;분야를&nbsp;새로운&nbsp;산업과&nbsp;일자리로&nbsp;전환&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;천안형&nbsp;생활서비스&nbsp;투명시장&nbsp;조성으로&nbsp;시민&nbsp;생활경제의&nbsp;신뢰&nbsp;회복<br><br>□&nbsp;이행기간&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단계:&nbsp;경제전환&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;추진체계&nbsp;구성&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2단계:&nbsp;창업·생활서비스·공공서비스&nbsp;산업&nbsp;시범사업&nbsp;추진&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3단계:&nbsp;성과&nbsp;평가&nbsp;후&nbsp;권역별·분야별&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;국비·도비&nbsp;공모사업,&nbsp;시비,&nbsp;민간투자,&nbsp;대학·기업&nbsp;협력사업을&nbsp;연계하여&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	복합도시 천안, 균형 있게 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="복합도시 천안, 균형 있게 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;원도심,&nbsp;신도심,&nbsp;농촌권,&nbsp;산업권이&nbsp;각자의&nbsp;역할을&nbsp;갖는&nbsp;균형&nbsp;있는&nbsp;복합도시&nbsp;조성&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;균형발전은&nbsp;모든&nbsp;지역에&nbsp;똑같은&nbsp;사업을&nbsp;나누는&nbsp;것이&nbsp;아니라,&nbsp;지역마다&nbsp;필요한&nbsp;역할과&nbsp;기능을&nbsp;분명히&nbsp;하는&nbsp;것임&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사는&nbsp;사람이&nbsp;편하고&nbsp;좋아하는&nbsp;도시가&nbsp;자연스럽게&nbsp;찾고&nbsp;싶은&nbsp;도시가&nbsp;되도록&nbsp;생활권&nbsp;중심의&nbsp;도시&nbsp;재설계&nbsp;추진<br><br>□&nbsp;이행방법&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;4대&nbsp;권역·13개&nbsp;생활권&nbsp;중심의&nbsp;균형발전&nbsp;전략&nbsp;추진&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원도심은&nbsp;상권·문화·창업&nbsp;기능을&nbsp;회복하는&nbsp;회복권으로&nbsp;재정비&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신도심은&nbsp;교육·돌봄·문화·보행&nbsp;등&nbsp;정주&nbsp;기능&nbsp;강화&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농촌·동남부권은&nbsp;로컬산업,&nbsp;관광,&nbsp;생활서비스&nbsp;거점으로&nbsp;역할&nbsp;강화&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;북부산업권은&nbsp;첨단제조·물류·청년일자리&nbsp;성장축으로&nbsp;육성&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활권&nbsp;간&nbsp;이동과&nbsp;접근성을&nbsp;높이는&nbsp;교통·보행·생활SOC&nbsp;개선<br><br>□&nbsp;이행기간&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단계:&nbsp;권역별&nbsp;진단&nbsp;및&nbsp;생활권별&nbsp;우선과제&nbsp;선정&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2단계:&nbsp;원도심·신도심·농촌권·산업권별&nbsp;시범사업&nbsp;추진&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3단계:&nbsp;권역별&nbsp;성과를&nbsp;바탕으로&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;도시재생,&nbsp;생활SOC,&nbsp;교통·지역개발&nbsp;관련&nbsp;국도비&nbsp;사업과&nbsp;시&nbsp;자체&nbsp;예산을&nbsp;연계하여&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	고령화 시대 사회구조 재설계</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="고령화 시대 사회구조 재설계">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;고령사회를&nbsp;단순한&nbsp;노인복지&nbsp;확대가&nbsp;아니라,&nbsp;건강·돌봄·일·관계·이동을&nbsp;함께&nbsp;설계하는&nbsp;도시&nbsp;구조의&nbsp;문제로&nbsp;대응&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신을&nbsp;돌봄의&nbsp;대상만이&nbsp;아니라&nbsp;경험과&nbsp;사회적&nbsp;관계를&nbsp;가진&nbsp;도시의&nbsp;자산으로&nbsp;보고,&nbsp;계속&nbsp;역할을&nbsp;가질&nbsp;수&nbsp;있는&nbsp;천안&nbsp;조성&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄과&nbsp;건강,&nbsp;이동,&nbsp;생활지원&nbsp;서비스를&nbsp;공공서비스&nbsp;산업과&nbsp;지역&nbsp;일자리로&nbsp;연결<br><br>□&nbsp;이행방법&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;고령사회&nbsp;대응형&nbsp;생활서비스&nbsp;체계&nbsp;구축&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;건강관리,&nbsp;돌봄,&nbsp;이동지원,&nbsp;사회참여&nbsp;프로그램&nbsp;강화&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;은퇴세대의&nbsp;경험과&nbsp;역량을&nbsp;지역사회&nbsp;활동,&nbsp;교육,&nbsp;멘토링,&nbsp;사회서비스와&nbsp;연결&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인·어르신&nbsp;이동권&nbsp;개선&nbsp;및&nbsp;생활권&nbsp;접근성&nbsp;강화&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄·건강·생활지원&nbsp;분야의&nbsp;사회적창업&nbsp;및&nbsp;공공서비스&nbsp;기업&nbsp;육성<br><br>□&nbsp;이행기간&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단계:&nbsp;기존&nbsp;복지·돌봄사업&nbsp;진단&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2단계:&nbsp;건강·이동·사회참여&nbsp;중심&nbsp;시범사업&nbsp;추진&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3단계:&nbsp;생활권별&nbsp;공공서비스&nbsp;모델&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;보건복지부·충남도&nbsp;관련&nbsp;사업,&nbsp;시&nbsp;복지예산,&nbsp;민관협력사업,&nbsp;사회서비스&nbsp;분야&nbsp;공모사업을&nbsp;연계하여&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	아이와 청년이 행복한 천안</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="아이와 청년이 행복한 천안">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;아이&nbsp;키우기&nbsp;좋고,&nbsp;청년이&nbsp;떠나지&nbsp;않으며,&nbsp;가족이&nbsp;생활하기&nbsp;좋은&nbsp;천안&nbsp;조성&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아이·청년&nbsp;문제는&nbsp;각각의&nbsp;복지사업이&nbsp;아니라,&nbsp;돌봄·교육·놀이·일자리·문화·주거가&nbsp;연결된&nbsp;생활구조의&nbsp;문제임&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울을&nbsp;따라&nbsp;하는&nbsp;도시가&nbsp;아니라,&nbsp;천안의&nbsp;규모와&nbsp;생활권에&nbsp;맞는&nbsp;아이·청년&nbsp;도시&nbsp;모델&nbsp;마련<br><br>□&nbsp;이행방법&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;아이·청년·가족&nbsp;중심의&nbsp;생활환경&nbsp;개선&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아이들이&nbsp;실제로&nbsp;이용할&nbsp;수&nbsp;있는&nbsp;놀이·문화·돌봄&nbsp;공간&nbsp;확대&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부모가&nbsp;혼자&nbsp;돌봄을&nbsp;감당하지&nbsp;않도록&nbsp;생활권&nbsp;기반&nbsp;돌봄체계&nbsp;강화&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학·기업·청년을&nbsp;연결한&nbsp;지역&nbsp;정주형&nbsp;일자리·창업&nbsp;지원&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;문화활동,&nbsp;주거안정,&nbsp;지역&nbsp;참여&nbsp;기회&nbsp;확대&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아이와&nbsp;청년&nbsp;정책을&nbsp;경제·문화·교통·생활권&nbsp;정책과&nbsp;함께&nbsp;추진<br><br>□&nbsp;이행기간&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단계:&nbsp;생활권별&nbsp;아이·청년&nbsp;수요조사&nbsp;및&nbsp;우선과제&nbsp;선정&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2단계:&nbsp;돌봄·놀이·청년활동&nbsp;거점&nbsp;시범운영&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3단계:&nbsp;성과&nbsp;평가&nbsp;후&nbsp;권역별&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;교육·보육·청년정책&nbsp;관련&nbsp;국도비&nbsp;사업,&nbsp;시비,&nbsp;대학·기업·민간&nbsp;협력사업을&nbsp;연계하여&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	체감하는 실행행정</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="체감하는 실행행정">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;시민이&nbsp;실제&nbsp;생활에서&nbsp;변화를&nbsp;느낄&nbsp;수&nbsp;있는&nbsp;실행&nbsp;중심&nbsp;행정&nbsp;구현&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;좋은&nbsp;공약은&nbsp;말에서&nbsp;끝나는&nbsp;것이&nbsp;아니라,&nbsp;일정·예산·책임·성과가&nbsp;관리될&nbsp;때&nbsp;시민이&nbsp;체감할&nbsp;수&nbsp;있음&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;천안시청을&nbsp;AI와&nbsp;데이터를&nbsp;이해하고&nbsp;책임&nbsp;있게&nbsp;활용하는&nbsp;행정조직으로&nbsp;전환&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민원&nbsp;대응형&nbsp;행정을&nbsp;넘어,&nbsp;문제를&nbsp;먼저&nbsp;발견하고&nbsp;해결하는&nbsp;행정체계&nbsp;구축<br><br>□&nbsp;이행방법&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;시장&nbsp;책임형&nbsp;실행행정&nbsp;체계&nbsp;마련&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;공약별&nbsp;추진&nbsp;일정,&nbsp;예산,&nbsp;담당부서,&nbsp;성과지표&nbsp;관리&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부서&nbsp;칸막이를&nbsp;줄이고&nbsp;시민&nbsp;생활문제&nbsp;중심의&nbsp;협업체계&nbsp;구축&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공직자의&nbsp;AI&nbsp;이해도와&nbsp;활용역량을&nbsp;높이는&nbsp;교육·업무체계&nbsp;마련&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI를&nbsp;활용한&nbsp;민원&nbsp;분석,&nbsp;반복&nbsp;업무&nbsp;개선,&nbsp;정책&nbsp;검토&nbsp;지원,&nbsp;행정서비스&nbsp;품질&nbsp;향상&nbsp;추진&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;활용&nbsp;과정에서&nbsp;개인정보&nbsp;보호,&nbsp;책임성,&nbsp;공정성&nbsp;기준&nbsp;마련&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민&nbsp;체감도가&nbsp;높은&nbsp;생활민원·교통·복지·도시관리&nbsp;분야부터&nbsp;우선&nbsp;적용<br><br>□&nbsp;이행기간&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;추진체계&nbsp;정비&nbsp;후&nbsp;임기&nbsp;내&nbsp;지속&nbsp;관리&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단계:&nbsp;공약·행정업무&nbsp;진단&nbsp;및&nbsp;AI&nbsp;활용&nbsp;기준&nbsp;마련&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2단계:&nbsp;공직자&nbsp;교육&nbsp;및&nbsp;시범사업&nbsp;추진&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3단계:&nbsp;시민&nbsp;체감&nbsp;분야로&nbsp;단계적&nbsp;확대&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;매년&nbsp;추진상황&nbsp;점검&nbsp;및&nbsp;시민&nbsp;공개<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;행정예산의&nbsp;효율적&nbsp;재배분,&nbsp;디지털&nbsp;행정·스마트&nbsp;행정&nbsp;관련&nbsp;국도비&nbsp;사업,&nbsp;시&nbsp;자체&nbsp;예산을&nbsp;활용하여&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

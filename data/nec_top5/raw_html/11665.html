@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;류삼영 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	최고의 속도로 주민이 원하는 도시정비 사업 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="최고의 속도로 주민이 원하는 도시정비 사업 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;구역별&nbsp;사업촉진TFT&nbsp;구성으로&nbsp;재개발&nbsp;소요기간&nbsp;단축<br>&nbsp;&nbsp;○&nbsp;30년&nbsp;이상&nbsp;공동주택&nbsp;노후정밀안전진단비&nbsp;지원으로&nbsp;재건축&nbsp;진입&nbsp;장벽&nbsp;완화<br>&nbsp;&nbsp;○&nbsp;갈등조정위원회·전담관&nbsp;운영으로&nbsp;갈등&nbsp;최소화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;패스트트랙&nbsp;확대&nbsp;적용으로&nbsp;인허가&nbsp;절차&nbsp;신속화<br>&nbsp;&nbsp;○&nbsp;재개발·재건축·리모델링&nbsp;구역별&nbsp;TFT&nbsp;구성&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이해당사자+공무원+전문가+서울시&nbsp;파견매니저<br>&nbsp;&nbsp;○&nbsp;구청장&nbsp;직속&nbsp;이해관계자&nbsp;갈등조정관리위원회&nbsp;구성&nbsp;및&nbsp;전담관&nbsp;지정&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;정비사업&nbsp;통합지원&nbsp;창구&nbsp;운영&nbsp;및&nbsp;온라인&nbsp;교육콘텐츠&nbsp;제작&nbsp;배포<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기:&nbsp;TFT&nbsp;구성&nbsp;및&nbsp;갈등조정위원회&nbsp;출범<br>&nbsp;&nbsp;○&nbsp;2027년:&nbsp;패스트트랙&nbsp;적용&nbsp;구역&nbsp;확대&nbsp;및&nbsp;정보공개&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;2027~2030년:&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진(단계별&nbsp;사업&nbsp;가속화)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;사업촉진TFT운영:&nbsp;구비(예산변경&nbsp;또는&nbsp;추경으로&nbsp;운영예산&nbsp;확보)<br>&nbsp;&nbsp;○&nbsp;안전진단비&nbsp;지원&nbsp;&nbsp;:&nbsp;구비(추경&nbsp;또는&nbsp;2027년&nbsp;본예산&nbsp;반영)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	한강변 랜드마크 및 수변공원 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="한강변 랜드마크 및 수변공원 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;노량진&nbsp;수협·수도자재센터&nbsp;부지&nbsp;고밀도&nbsp;복합개발로&nbsp;수변&nbsp;랜드마크&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;노량진&nbsp;수산시장에서&nbsp;여의도를&nbsp;잇는&nbsp;다기능&nbsp;보행육교·연결차도&nbsp;건설<br>&nbsp;&nbsp;○&nbsp;한강변&nbsp;생활체육시설·파크골프장·산책로&nbsp;대대적&nbsp;확충<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;수협부지&nbsp;고밀도&nbsp;복합개발&nbsp;안&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동작구+수협중앙회(해양수산부)+서울시&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;수협&nbsp;주관,&nbsp;개발&nbsp;참여기업&nbsp;선정&nbsp;및&nbsp;복합개발&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;노량진&nbsp;↔&nbsp;여의도&nbsp;간&nbsp;다기능&nbsp;보행육교&nbsp;및&nbsp;연결차도&nbsp;건설<br>&nbsp;&nbsp;○&nbsp;한강&nbsp;수변공원&nbsp;및&nbsp;생활체육·문화시설&nbsp;확충<br><br>□&nbsp;이행기간&nbsp;-&nbsp;임기&nbsp;중&nbsp;<br>&nbsp;&nbsp;&lt;&nbsp;수협&nbsp;부지&nbsp;복합&nbsp;개발><br>&nbsp;&nbsp;○&nbsp;2027년:&nbsp;동작구+수협중앙회(해양수산부)+서울시&nbsp;간&nbsp;수협부지&nbsp;개발협력MOU<br>&nbsp;&nbsp;○&nbsp;2028~2029년:&nbsp;개발협력MOU를&nbsp;반영한&nbsp;도시계획&nbsp;변경<br>&nbsp;&nbsp;○&nbsp;2030년&nbsp;이후:&nbsp;수협부지&nbsp;복합개발·보행육교&nbsp;착공(민간투자&nbsp;사업)&nbsp;<br>&nbsp;&nbsp;&lt;수변공원,&nbsp;체육&nbsp;및&nbsp;문화시설&nbsp;조성><br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기:&nbsp;구민의견&nbsp;&nbsp;수렴&nbsp;및&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;2027년:&nbsp;실시설계&nbsp;안&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;2028~2029년:&nbsp;노량진&nbsp;및&nbsp;흑석권&nbsp;한강&nbsp;수변공원&nbsp;및&nbsp;생활체육·문화시설&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;수협부지&nbsp;고밀도&nbsp;개발:&nbsp;비예산(민간자본&nbsp;추진)<br>&nbsp;&nbsp;○&nbsp;수변공원&nbsp;조성&nbsp;등:&nbsp;구비&nbsp;및&nbsp;시비(특별교부금)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	동작타워 건립 및 동작8경 명소화 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="동작타워 건립 및 동작8경 명소화 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;용양봉저정&nbsp;공원,&nbsp;동작타워&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;동작8경&nbsp;개발&nbsp;및&nbsp;명소화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;지역명소&nbsp;개발로&nbsp;주민들의&nbsp;애향심&nbsp;및&nbsp;지역공동체&nbsp;의식&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;8경&nbsp;소재&nbsp;굿즈·문화산업&nbsp;사업&nbsp;발굴·지원으로&nbsp;지역&nbsp;경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;동작타워:&nbsp;공모&nbsp;후&nbsp;민간&nbsp;투자사업으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;동작8경&nbsp;선정:&nbsp;구민추천&nbsp;→&nbsp;온라인&nbsp;투표→&nbsp;위원회&nbsp;심의→&nbsp;8경&nbsp;확정<br>&nbsp;&nbsp;○&nbsp;선정된8경지역에&nbsp;대한&nbsp;포토존,&nbsp;진입로&nbsp;등&nbsp;시설개선<br>&nbsp;&nbsp;○&nbsp;8경지역에&nbsp;대한&nbsp;사진&nbsp;컨테스트&nbsp;및&nbsp;굿즈&nbsp;등&nbsp;특화사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;8경&nbsp;포토존·문화해설사·스탬프투어·전통시장&nbsp;연계&nbsp;쿠폰&nbsp;등&nbsp;체험&nbsp;콘텐츠&nbsp;제공<br><br>□&nbsp;이행기간-임기&nbsp;중&nbsp;<br>&nbsp;&nbsp;&lt;&nbsp;동작타워&nbsp;건립><br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기:&nbsp;동작타워&nbsp;건립&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;2027년:&nbsp;동작타워&nbsp;민간투자사업&nbsp;공모<br>&nbsp;&nbsp;○&nbsp;2028년:&nbsp;동작타워&nbsp;도시계획&nbsp;시설&nbsp;결정&nbsp;및&nbsp;설계<br>&nbsp;&nbsp;○&nbsp;2029년:&nbsp;동작타워&nbsp;착공&nbsp;<br>&nbsp;&nbsp;&lt;동작8경&nbsp;명소화><br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기:&nbsp;주민의견&nbsp;수렴을&nbsp;통한&nbsp;동작8경&nbsp;명소화&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;2027년:&nbsp;주민참여&nbsp;동작8경&nbsp;대상지&nbsp;선정&nbsp;및&nbsp;실시설계안&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;2028년:&nbsp;공사착공&nbsp;및&nbsp;준공<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;동작타워:&nbsp;비예산(민간&nbsp;투자사업)<br>&nbsp;&nbsp;○&nbsp;동작8경:&nbsp;행정안전부&nbsp;특별교부세&nbsp;활용(일부&nbsp;구비&nbsp;활용)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	어르신이 행복한 동작! 권역별 시니어 문화센터 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="어르신이 행복한 동작! 권역별 시니어 문화센터 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시니어&nbsp;문화센터&nbsp;확충(1개소&nbsp;→&nbsp;5개소)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;확충대상:&nbsp;노량진권,&nbsp;대방신대방권,&nbsp;사당권,&nbsp;흑석권<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;조성시설:&nbsp;경로당/회의장/교육장/쉼터/스크린파크골프장&nbsp;등<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;노후&nbsp;경로당&nbsp;신축/증축&nbsp;및&nbsp;리모델링으로&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4개권역&nbsp;신규&nbsp;조성(상도권은&nbsp;기조성,&nbsp;은빛어르신복지관&nbsp;사례)<br>&nbsp;&nbsp;○&nbsp;보건복지부&nbsp;시니어&nbsp;문화센터&nbsp;매뉴얼+&nbsp;어르신대표(노인회&nbsp;등)&nbsp;의견수렴&nbsp;후&nbsp;시설조성<br>&nbsp;&nbsp;○&nbsp;대상&nbsp;권역별&nbsp;우선순위에&nbsp;따라&nbsp;연차별&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;권역별&nbsp;어르신&nbsp;수요에&nbsp;맞는&nbsp;맟줌형&nbsp;특성화&nbsp;시설&nbsp;설치<br><br>□&nbsp;이행기간-임기중<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기:&nbsp;권역별&nbsp;시니어&nbsp;문화센터&nbsp;조성&nbsp;기본계획수립<br>&nbsp;&nbsp;○&nbsp;2027년~30년:&nbsp;매도별1개소씩&nbsp;조성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원:&nbsp;구비+&nbsp;시비+&nbsp;국비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구비:&nbsp;신규&nbsp;예산&nbsp;반영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시비:&nbsp;보조금+특별교부금<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비:&nbsp;보조금+&nbsp;특별교부세</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	역세권 용도지역 상향 및 상업기능지역 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="역세권 용도지역 상향 및 상업기능지역 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;동작대로변&nbsp;용도지역&nbsp;상향&nbsp;및&nbsp;대규모&nbsp;상업벨트&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;사당이수지구&nbsp;지구단위계획에&nbsp;따른&nbsp;상업시설&nbsp;조기&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;상권&nbsp;브랜드화&nbsp;및&nbsp;유동인구&nbsp;유입&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;주요&nbsp;역세권(동작역·이수역·노량진역·상도역&nbsp;등)&nbsp;상업&nbsp;기능지역&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;역세권&nbsp;활성화&nbsp;사업과&nbsp;연계,&nbsp;종상향을&nbsp;통한&nbsp;상업기능&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;대학가&nbsp;및&nbsp;역세권에&nbsp;테마거리&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상도전통시장&nbsp;및&nbsp;사당1동&nbsp;까페·공방거리에&nbsp;대한&nbsp;활성화&nbsp;사업추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중소벤처기업부의&nbsp;골목시장활성화&nbsp;공모사업과&nbsp;연계추진<br>&nbsp;&nbsp;○&nbsp;상권&nbsp;브랜드화:&nbsp;먹자골목,&nbsp;공방거리,&nbsp;맛집&nbsp;등&nbsp;활용&nbsp;브랜드&nbsp;개발<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○2026년&nbsp;하반기:&nbsp;대학가&nbsp;및&nbsp;역세권에&nbsp;테마거리&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;○2027년:&nbsp;테마거리&nbsp;사업내용&nbsp;선정&nbsp;및&nbsp;설계안&nbsp;마련<br>&nbsp;&nbsp;○2028년:&nbsp;테마거리&nbsp;조성공사&nbsp;시행&nbsp;및&nbsp;준공<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원:&nbsp;구비+&nbsp;시비+&nbsp;국비&nbsp;매칭<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구비:&nbsp;신규&nbsp;예산&nbsp;반영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시비:&nbsp;골목상권&nbsp;활성화&nbsp;사업과&nbsp;연계한&nbsp;시비&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비:&nbsp;중소벤처기업부&nbsp;골목상권&nbsp;활성화&nbsp;사업과&nbsp;연계한&nbsp;국비&nbsp;활용</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

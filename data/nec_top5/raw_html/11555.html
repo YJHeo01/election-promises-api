@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김부겸 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	인공지능(AI)로봇 수도, 인공지능 전환(AX) 중심도시 대구, 산업대전환 프로젝트 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="인공지능(AI)로봇 수도, 인공지능 전환(AX) 중심도시 대구, 산업대전환 프로젝트 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;2035년까지&nbsp;향후&nbsp;10년간&nbsp;지역내총생산&nbsp;2배,&nbsp;신규&nbsp;일자리&nbsp;10만&nbsp;개&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;대한민국&nbsp;제2산업화(디지털산업화)이&nbsp;중심도시로&nbsp;도약<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;AI로봇&nbsp;스타트업&nbsp;생태계&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육·연구·주거·생활·취업까지&nbsp;원스톱&nbsp;지원&nbsp;체계&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI로봇&nbsp;신생기업&nbsp;발굴·육성을&nbsp;위한&nbsp;연구개발&nbsp;공간&nbsp;확보&nbsp;및&nbsp;대학·연구기관·기업&nbsp;간&nbsp;네트워크&nbsp;구축과&nbsp;산학연&nbsp;공동R&D&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;협동로봇·정밀제어부품&nbsp;개발사업&nbsp;등&nbsp;AI로봇&nbsp;생산기반&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;‘AX&nbsp;중심도시&nbsp;대구’&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역거점&nbsp;AX&nbsp;혁신&nbsp;기술개발&nbsp;사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가첨단전략산업&nbsp;특화단지&nbsp;지정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AX&nbsp;전략&nbsp;부품&nbsp;특구&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대구형&nbsp;제조&nbsp;AX혁신&nbsp;프로젝트&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계(2026년~2030년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역거점&nbsp;AX&nbsp;혁신&nbsp;기술개발&nbsp;사업,&nbsp;AX&nbsp;창업도시,&nbsp;국가첨단전략산업&nbsp;특화단지,&nbsp;AX&nbsp;전략&nbsp;부품&nbsp;특구,&nbsp;AX&nbsp;실증산단&nbsp;구축&nbsp;등&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2단계(2030년~2035년)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단계&nbsp;추진&nbsp;사업의&nbsp;현장화&nbsp;및&nbsp;고도화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;펀드&nbsp;15조&nbsp;원&nbsp;유치&nbsp;지원&nbsp;및&nbsp;1조&nbsp;원&nbsp;규모&nbsp;대구성장펀드&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙정부의&nbsp;재정&nbsp;지원이&nbsp;필요한&nbsp;사업은&nbsp;협의를&nbsp;통해&nbsp;27년도&nbsp;예산부터&nbsp;반영&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	행정통합과 신공항으로 완성되는 더 큰 대구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="행정통합과 신공항으로 완성되는 더 큰 대구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;대구·경북&nbsp;행정통합과&nbsp;민·군&nbsp;통합신공항을&nbsp;성공적으로&nbsp;추진해&nbsp;기업이&nbsp;모이고&nbsp;사람이&nbsp;찾아오는&nbsp;대구를&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대구경북&nbsp;행정통합&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공동&nbsp;통합추진위원회&nbsp;출범&nbsp;후&nbsp;주민투표를&nbsp;통한&nbsp;민주적&nbsp;정당성&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합특별법&nbsp;국회&nbsp;통과&nbsp;강력&nbsp;추진&nbsp;및&nbsp;2028년&nbsp;총선에서&nbsp;통합단체장&nbsp;선출&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;대구·경북&nbsp;통합신공항&nbsp;건설&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1조원&nbsp;확보로&nbsp;부지매입,&nbsp;설계&nbsp;등&nbsp;공항&nbsp;이전&nbsp;사업&nbsp;착수&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신공항이&nbsp;들어서는&nbsp;군위권역을&nbsp;대구&nbsp;경제의&nbsp;새로운&nbsp;축으로&nbsp;발전<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현&nbsp;공항부지는&nbsp;청년창업,&nbsp;첨단산업단지와&nbsp;어우러진&nbsp;미래형&nbsp;기업도시&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;대구경북&nbsp;행정통합&nbsp;추진:&nbsp;2026년~2028년<br>&nbsp;&nbsp;○&nbsp;대구·경북&nbsp;통합신공항&nbsp;건설&nbsp;:2026년~2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;공공자금관리기금&nbsp;5,000억&nbsp;원과&nbsp;정부&nbsp;재정지원&nbsp;5,000억&nbsp;원을&nbsp;통해&nbsp;공항&nbsp;이전&nbsp;부지&nbsp;매입&nbsp;및&nbsp;설계&nbsp;시작<br>&nbsp;&nbsp;○&nbsp;대구경북신공항&nbsp;특별법&nbsp;개정추진을&nbsp;통한&nbsp;국가지원사업으로&nbsp;전환하여&nbsp;국비&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	내 집 앞 10분 역세권, 30분 국제공항세권</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="내 집 앞 10분 역세권, 30분 국제공항세권">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;내&nbsp;집&nbsp;앞&nbsp;10분&nbsp;역세권부터,&nbsp;30분&nbsp;국제공항세권까지,&nbsp;성장동력과&nbsp;시민의&nbsp;행복이&nbsp;어우러지는&nbsp;영남권&nbsp;교통허브&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대구&nbsp;어디서나&nbsp;도시철도가&nbsp;닿는&nbsp;내&nbsp;집&nbsp;앞&nbsp;10분&nbsp;역세권도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시철도&nbsp;3호선&nbsp;신서혁신도시&nbsp;연장선&nbsp;건설&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시철도&nbsp;4호선(엑스코선)조속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3·4호선을&nbsp;모노레일&nbsp;방식으로&nbsp;단일화&nbsp;방안&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시철도&nbsp;5호선&nbsp;구간&nbsp;순환선&nbsp;건설계획&nbsp;조속히&nbsp;확정<br>&nbsp;&nbsp;○&nbsp;신공항&nbsp;기반&nbsp;초광역교통망을&nbsp;구축해&nbsp;대구&nbsp;어디서나&nbsp;공항에&nbsp;가기&nbsp;편한&nbsp;30분&nbsp;국제공항세권&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기&nbsp;시작과&nbsp;동시에&nbsp;대구경북&nbsp;신공항광역철도&nbsp;예비타당성조사&nbsp;통과&nbsp;및&nbsp;설계&nbsp;등&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신설될&nbsp;광역교통망과&nbsp;도시철도&nbsp;간의&nbsp;환승&nbsp;체계를&nbsp;구축,&nbsp;이와&nbsp;연계한&nbsp;‘도심공항터미널’&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;대구형&nbsp;대중교통비&nbsp;환급&nbsp;제도「대구로패스」를&nbsp;신설,&nbsp;교통비&nbsp;부담을&nbsp;실질적완화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;월&nbsp;4만5천&nbsp;원(청년&nbsp;4만&nbsp;원)을&nbsp;초과하는&nbsp;대중교통비를&nbsp;대구로페이로&nbsp;전액&nbsp;환급<br>&nbsp;&nbsp;○&nbsp;교통소외지역&nbsp;이동여건&nbsp;개선과&nbsp;AI&nbsp;신호&nbsp;체계&nbsp;구축해&nbsp;이동&nbsp;편의&nbsp;도모<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통&nbsp;사각지대&nbsp;수요응답형&nbsp;교통체계(DRT)를&nbsp;확대&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인공지능기술(AI)을&nbsp;활용한&nbsp;신호&nbsp;최적화&nbsp;시스템을&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;택시업계&nbsp;목소리를&nbsp;경청하고&nbsp;어려움을&nbsp;덜어드리겠습니다<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;택시요금&nbsp;카드수수료&nbsp;지원&nbsp;및&nbsp;노후&nbsp;차량&nbsp;대·폐차&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;개인택시조합원&nbsp;복지회관&nbsp;건립&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신용보증재단&nbsp;대출&nbsp;지원&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;타&nbsp;시·도와&nbsp;형평성을&nbsp;고려한&nbsp;감차&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기존사업&nbsp;세출조정,&nbsp;국비·시비·구비<br>&nbsp;&nbsp;○&nbsp;중앙정부의&nbsp;재정&nbsp;지원이&nbsp;필요한&nbsp;사업은&nbsp;협의를&nbsp;통해&nbsp;27년도&nbsp;예산부터&nbsp;반영&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	대구 민생경제를 살리고 소상공인과 자영업자의 든든한 버팀목이 되겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="대구 민생경제를 살리고 소상공인과 자영업자의 든든한 버팀목이 되겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;촘촘한&nbsp;지원으로&nbsp;골목&nbsp;구석구석에&nbsp;돈이&nbsp;돌아&nbsp;대구&nbsp;민생경제를&nbsp;살리고&nbsp;소상공인과&nbsp;자영업자의&nbsp;든든한&nbsp;버팀목이&nbsp;되겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대구로페이&nbsp;2배&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대구로페이&nbsp;예산을&nbsp;기존&nbsp;3천억&nbsp;원에서&nbsp;6천억&nbsp;원으로&nbsp;단계적으로&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;고유가&nbsp;버팀목&nbsp;3종&nbsp;세트&nbsp;정책&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;금융기관과&nbsp;연계하여&nbsp;현재&nbsp;연간&nbsp;2조&nbsp;2천억&nbsp;원&nbsp;규모의&nbsp;소상공인&nbsp;금융지원을&nbsp;2배로&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자영업자&nbsp;고용보험·산재보험&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;폐업&nbsp;정리부터&nbsp;재창업까지&nbsp;재출발&nbsp;지원&nbsp;체계&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;대구상권도약&nbsp;프로젝트<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대구역,&nbsp;중앙로,&nbsp;동성로,&nbsp;교동을&nbsp;잇는&nbsp;상권벨트&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;디지털&nbsp;및&nbsp;인공지능&nbsp;전환을&nbsp;돕고&nbsp;상권&nbsp;분석&nbsp;AI&nbsp;컨설팅,&nbsp;소상공인&nbsp;법률지원&nbsp;서비스&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;대구형&nbsp;통합물류서비스(풀필먼트)&nbsp;구축&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;대구형&nbsp;소상공인&nbsp;병가&nbsp;지원사업을&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;병가&nbsp;7일,&nbsp;회복&nbsp;휴식&nbsp;2일,&nbsp;총&nbsp;9일간&nbsp;하루에&nbsp;약&nbsp;82,560원&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선9기&nbsp;임기&nbsp;내(2026∼2030년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기존사업&nbsp;세출조정,&nbsp;국비·시비·구비<br>&nbsp;&nbsp;○&nbsp;중앙정부의&nbsp;재정&nbsp;지원이&nbsp;필요한&nbsp;사업은&nbsp;협의를&nbsp;통해&nbsp;27년도&nbsp;예산부터&nbsp;반영&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	청년에게는 더 특별한 지원을 아이와 어르신, 장애인에게는 더 따뜻한 돌봄을, 내 삶을 지키는 대구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="청년에게는 더 특별한 지원을 아이와 어르신, 장애인에게는 더 따뜻한 돌봄을, 내 삶을 지키는 대구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청년들이&nbsp;대구에서&nbsp;배우고,&nbsp;일하고,&nbsp;자산을&nbsp;만들고,&nbsp;미래를&nbsp;설계할&nbsp;수&nbsp;있게&nbsp;하겠습니다.<br>&nbsp;&nbsp;○&nbsp;아이들은&nbsp;마음껏&nbsp;뛰어놀고,&nbsp;어르신은&nbsp;존엄한&nbsp;노년을&nbsp;맞고,&nbsp;장애가&nbsp;장벽이&nbsp;되지&nbsp;않는&nbsp;모두의&nbsp;대구를&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;기회도시&nbsp;대구를&nbsp;만들겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아시아&nbsp;글로벌&nbsp;청년창업·문화융합&nbsp;특구&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취업준비패키지,&nbsp;청소년·청년&nbsp;노동&nbsp;옴부즈만&nbsp;제도&nbsp;도입으로&nbsp;청년&nbsp;일자리&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보증&nbsp;안심전세&nbsp;제도&nbsp;시행과&nbsp;홀로서기&nbsp;청년&nbsp;월세&nbsp;지원&nbsp;확대로&nbsp;청년&nbsp;주거안전망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;문화생활&nbsp;지원&nbsp;대구문화누림패스&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;어르신의&nbsp;노후를&nbsp;더&nbsp;든든하게&nbsp;지키겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;일자리&nbsp;단계적으로&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경로당을&nbsp;AI를&nbsp;활용한&nbsp;어르신&nbsp;건강누림터로&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기억돌봄학교&nbsp;이용금&nbsp;지원,&nbsp;대구&nbsp;특화형&nbsp;단디돌봄사업&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;아이&nbsp;키우는&nbsp;부담을&nbsp;대구가&nbsp;함께&nbsp;나누겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아이가&nbsp;성인이&nbsp;되었을&nbsp;때&nbsp;첫&nbsp;출발&nbsp;자금을&nbsp;정부,&nbsp;보호자,&nbsp;대구시가&nbsp;함께&nbsp;적립하는&nbsp;우리아이자립펀드&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부모가&nbsp;마음&nbsp;놓고&nbsp;일할&nbsp;수&nbsp;있도록&nbsp;아이&nbsp;돌봄에&nbsp;참여하는&nbsp;조부모,&nbsp;친인척에&nbsp;월&nbsp;최대&nbsp;30만원&nbsp;돌봄비&nbsp;온&nbsp;가족&nbsp;돌봄&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;24시간&nbsp;긴급&nbsp;어린이집&nbsp;운영센터’를&nbsp;시&nbsp;전역으로&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소아의료&nbsp;24시간&nbsp;응급체계를&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전국&nbsp;최초&nbsp;공공형&nbsp;시범·거점&nbsp;창의발달지원센터를&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;장애인이&nbsp;차별&nbsp;없이&nbsp;살아갈&nbsp;권리&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;포괄적&nbsp;탈시설과&nbsp;자립생활&nbsp;지원체계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;나드리콜과&nbsp;저상버스를&nbsp;확대해&nbsp;이동권&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애친화&nbsp;및&nbsp;장애전문&nbsp;병원&nbsp;단계적&nbsp;확충<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선9기&nbsp;임기&nbsp;내(2026∼2030년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기존사업&nbsp;세출조정,&nbsp;국비·시비·구비<br>&nbsp;&nbsp;○&nbsp;중앙정부의&nbsp;재정&nbsp;지원이&nbsp;필요한&nbsp;사업은&nbsp;협의를&nbsp;통해&nbsp;27년도&nbsp;예산부터&nbsp;반영&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

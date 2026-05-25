@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;강동원 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	모노레일 손해배상금 525억원 구상권 청구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="모노레일 손해배상금 525억원 구상권 청구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;행정실패의&nbsp;진상규명과&nbsp;재발&nbsp;방지<br>&nbsp;&nbsp;○&nbsp;남원시&nbsp;재정&nbsp;손실&nbsp;보전<br>&nbsp;&nbsp;○&nbsp;민간개발사업&nbsp;손해배상&nbsp;관련&nbsp;재발방지를&nbsp;위한&nbsp;제도&nbsp;개선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;1안&nbsp;:&nbsp;주민&nbsp;감사청구&nbsp;~&nbsp;주민소송&nbsp;~&nbsp;구상권&nbsp;청구<br>&nbsp;&nbsp;○&nbsp;2안&nbsp;:&nbsp;업무상&nbsp;배임,&nbsp;직권남용&nbsp;권리&nbsp;방해행사&nbsp;등으로&nbsp;형사고발&nbsp;~&nbsp;구상권&nbsp;청구<br>&nbsp;&nbsp;○&nbsp;백서&nbsp;발간,&nbsp;민간개발사업&nbsp;손해배상&nbsp;관련&nbsp;재발방지를&nbsp;위한&nbsp;백서&nbsp;발간,&nbsp;공청회&nbsp;제도&nbsp;도입,&nbsp;정보&nbsp;공개,&nbsp;행정&nbsp;감시&nbsp;기능&nbsp;도입,&nbsp;재발방지&nbsp;위한&nbsp;조례&nbsp;제정&nbsp;등&nbsp;후속&nbsp;조치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월부터(취임&nbsp;즉시)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시비(소송비용&nbsp;등)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	청년과 자녀에 투자하는 도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="청년과 자녀에 투자하는 도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;○&nbsp;육아,&nbsp;보육,&nbsp;교육&nbsp;생애주기별&nbsp;지원을&nbsp;통한&nbsp;소득&nbsp;보전,&nbsp;실질&nbsp;구매력&nbsp;증가&nbsp;<br>&nbsp;○&nbsp;청년이&nbsp;떠나는&nbsp;도시에서&nbsp;청년이&nbsp;찾아오는&nbsp;도시로&nbsp;전환,&nbsp;인구유입&nbsp;순증가<br>&nbsp;○&nbsp;교육&nbsp;환경과&nbsp;인프라&nbsp;개선으로&nbsp;가족이&nbsp;머물&nbsp;수&nbsp;있는&nbsp;여건&nbsp;조성<br>&nbsp;○&nbsp;남원에서도&nbsp;명문대를&nbsp;보낼&nbsp;수&nbsp;있는&nbsp;교육&nbsp;주도&nbsp;성장,&nbsp;교육&nbsp;유학&nbsp;도시<br><br>□&nbsp;이행방법<br>&nbsp;○&nbsp;0세&nbsp;~&nbsp;12세&nbsp;:&nbsp;(자녀&nbsp;1명당)&nbsp;육아,보육,교육비&nbsp;월&nbsp;50만원&nbsp;지원&nbsp;(연&nbsp;600만원)<br>&nbsp;○&nbsp;13세&nbsp;~&nbsp;18세&nbsp;:&nbsp;(자녀&nbsp;1명당)&nbsp;교육비&nbsp;월&nbsp;30만원&nbsp;지원&nbsp;(연&nbsp;360만원)<br>&nbsp;○&nbsp;보육,&nbsp;교육,&nbsp;문화&nbsp;복합커뮤니티센터&nbsp;건립&nbsp;및&nbsp;운영하여&nbsp;도서관,&nbsp;돌봄,&nbsp;문화교육,&nbsp;공영주차장&nbsp;등&nbsp;인프라&nbsp;여건&nbsp;개선<br>&nbsp;○&nbsp;IB&nbsp;교육을&nbsp;남원&nbsp;주요&nbsp;초·중·고등학교에&nbsp;도입,&nbsp;국제&nbsp;인증을&nbsp;위한&nbsp;교원&nbsp;확보&nbsp;지원과&nbsp;국제&nbsp;교류&nbsp;지원(스위스,&nbsp;미국&nbsp;대학&nbsp;등)<br>&nbsp;○&nbsp;구암지구&nbsp;활용하여&nbsp;39세&nbsp;미만&nbsp;무주택&nbsp;청년&nbsp;주거&nbsp;책임제&nbsp;도입하여&nbsp;장기&nbsp;주거권&nbsp;보장&nbsp;&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;○&nbsp;2026년부터&nbsp;계속사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;○&nbsp;국비(정책사업,&nbsp;공모사업),&nbsp;도비,&nbsp;시비,&nbsp;기부금</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	남원 전북도립대학교 설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="남원 전북도립대학교 설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전국&nbsp;유일&nbsp;도립대학&nbsp;부재&nbsp;전북의&nbsp;교육불평등&nbsp;해소&nbsp;<br>&nbsp;&nbsp;○&nbsp;국악에술고&nbsp;졸업&nbsp;이후&nbsp;학업을&nbsp;위해&nbsp;외지로&nbsp;진학하는&nbsp;학생&nbsp;유출&nbsp;방지<br>&nbsp;&nbsp;○&nbsp;K-컬쳐,&nbsp;K-팝의&nbsp;교육도시로&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;도립대학성립추진위&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;전북특자도와&nbsp;정책협약&nbsp;체결<br>&nbsp;&nbsp;○&nbsp;한국&nbsp;문화의&nbsp;세계화&nbsp;트렌드에&nbsp;맞춰&nbsp;도립예술대학&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;초기&nbsp;정원&nbsp;300명을&nbsp;목표로&nbsp;국악·전통&nbsp;예술학과,&nbsp;문화콘텐츠학과,&nbsp;옻칠기학과,&nbsp;단청학과,&nbsp;관광경영학과,&nbsp;산림·생태·치유학과&nbsp;등&nbsp;설치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;계속사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;기부금</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	남원의 문화와 역사를 세계로</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="남원의 문화와 역사를 세계로">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;한국을&nbsp;찾는&nbsp;국제&nbsp;관광객&nbsp;수요&nbsp;증가에&nbsp;맞추어&nbsp;남원을&nbsp;세계로&nbsp;알리는&nbsp;기반&nbsp;조성&nbsp;<br>&nbsp;&nbsp;○&nbsp;춘향제를&nbsp;국가&nbsp;프로젝트로&nbsp;격상하여&nbsp;대표&nbsp;K-컨텐츠화<br>&nbsp;&nbsp;○&nbsp;남원에&nbsp;방치된&nbsp;문화재,&nbsp;컨텐츠&nbsp;등을&nbsp;조사·기록·관리<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;춘향제&nbsp;100주년&nbsp;기념사업회&nbsp;설립<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;프로젝트로&nbsp;춘향제&nbsp;100주년&nbsp;기념관&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;K-웹툰,&nbsp;K-웹소설,&nbsp;K-드라마에&nbsp;맞춰&nbsp;춘향전,&nbsp;흥부전&nbsp;등&nbsp;남원&nbsp;기반&nbsp;전통&nbsp;컨텐츠&nbsp;창작&nbsp;(플랫폼과&nbsp;협업하여&nbsp;공모)<br>&nbsp;&nbsp;○&nbsp;춘향전&nbsp;100년사&nbsp;사료&nbsp;기록,&nbsp;소설,&nbsp;만화,&nbsp;연구논문,&nbsp;연극,&nbsp;영화&nbsp;등&nbsp;방대한&nbsp;컨텐츠&nbsp;사료&nbsp;기록전시관&nbsp;설치하여&nbsp;문화&nbsp;보존<br>&nbsp;&nbsp;○&nbsp;시립&nbsp;역사문화재단&nbsp;설립하여&nbsp;국가,&nbsp;전북도&nbsp;지정문화재&nbsp;조사,&nbsp;발굴,&nbsp;복원&nbsp;정비&nbsp;및&nbsp;남원을&nbsp;세계로&nbsp;알리는&nbsp;문화·역사·관광&nbsp;마케팅&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;K-팝의&nbsp;원조&nbsp;판소리&nbsp;등&nbsp;전통예술&nbsp;학술&nbsp;연구,&nbsp;관리하여&nbsp;전세계로&nbsp;홍보<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;계속사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;기부금</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	농민이 웃는 풍요로운 남원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="농민이 웃는 풍요로운 남원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;매년&nbsp;100억씩&nbsp;삭감된&nbsp;남원시&nbsp;농업&nbsp;예산&nbsp;원상회복<br>&nbsp;&nbsp;○&nbsp;농민&nbsp;실질&nbsp;소득&nbsp;증대를&nbsp;위한&nbsp;생산비,&nbsp;소모품비&nbsp;등&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;로컬&nbsp;브랜드&nbsp;파워&nbsp;강화를&nbsp;통한&nbsp;농가&nbsp;소득&nbsp;증대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;남원시&nbsp;농업&nbsp;예산을&nbsp;2027년부터&nbsp;단계적으로&nbsp;원상회복<br>&nbsp;&nbsp;○&nbsp;필수농자재&nbsp;지원&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;○&nbsp;양파&nbsp;재배농&nbsp;지원&nbsp;확대,&nbsp;남원&nbsp;대표&nbsp;브랜드로&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;친환경&nbsp;농가&nbsp;500호&nbsp;육성,&nbsp;생산장려금&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;외국인&nbsp;계절근로자&nbsp;인력&nbsp;지원센터&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;여성&nbsp;농업인&nbsp;생생카드&nbsp;지원금&nbsp;100%&nbsp;인상&nbsp;(13만원에서&nbsp;30만원으로&nbsp;인상)<br>&nbsp;&nbsp;○&nbsp;스마트팜&nbsp;단지&nbsp;조성사업&nbsp;연계&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;계속사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

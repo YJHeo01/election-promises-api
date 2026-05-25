@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;최영일 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	순창군 햇빛소득마을 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="순창군 햇빛소득마을 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;재정&nbsp;의존형&nbsp;기본소득을&nbsp;자쳬&nbsp;수익&nbsp;창출형&nbsp;'&nbsp;지속가능&nbsp;기븐소득&nbsp;구조&nbsp;'&nbsp;로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을&nbsp;단위&nbsp;태양광&nbsp;발전을&nbsp;통해&nbsp;안정적&nbsp;소득원&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;에너지&nbsp;·&nbsp;소득&nbsp;·&nbsp;복지를&nbsp;켤합한&nbsp;순창형&nbsp;순환경제&nbsp;모델&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;에너지&nbsp;생산&nbsp;→&nbsp;소득&nbsp;창출&nbsp;→&nbsp;지역&nbsp;재투자&nbsp;→&nbsp;정주여건&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인구소멸&nbsp;대응&nbsp;및&nbsp;생활인구&nbsp;확대&nbsp;기반&nbsp;마련<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;(사업구조)&nbsp;마을&nbsp;공동체&nbsp;중심&nbsp;태양광&nbsp;발전사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을협동조합&nbsp;설립&nbsp;→&nbsp;공동&nbsp;출자&nbsp;→&nbsp;공동&nbsp;수익&nbsp;활용&nbsp;구조&nbsp;정착<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;발전수익은&nbsp;개인&nbsp;배당이&nbsp;아닌&nbsp;마을&nbsp;공동기금&nbsp;및&nbsp;공동사업에&nbsp;활경〈&nbsp;마을&nbsp;규약）<br>&nbsp;&nbsp;○&nbsp;(사업규모)&nbsp;100개&nbsp;마을&nbsp;단계적&nbsp;조성&nbsp;（총&nbsp;30MW&nbsp;내외）<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;100kW&nbsp;~&nbsp;1MW&nbsp;미만&nbsp;분산형&nbsp;발전소&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유휴부지(마을&nbsp;공용부지&nbsp;,&nbsp;공공시설&nbsp;등)&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;(지원체계)&nbsp;'&nbsp;햇빛소득마을&nbsp;지원단&nbsp;'&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;순창군&nbsp;+&nbsp;한전&nbsp;+&nbsp;농어촌공사&nbsp;+&nbsp;금융기콴&nbsp;+&nbsp;전문가&nbsp;협력<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인허가&nbsp;,&nbsp;금융&nbsp;,&nbsp;기술지원&nbsp;등&nbsp;원스톱&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;(에너지&nbsp;연계)&nbsp;전력판매&nbsp;및&nbsp;ESS&nbsp;단계적&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한전&nbsp;계통&nbsp;연계&nbsp;통한&nbsp;안정적&nbsp;수익&nbsp;구조&nbsp;확토(중장기&nbsp;에너지&nbsp;자립&nbsp;기반&nbsp;구축)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;∼&nbsp;2030년&nbsp;(5개년&nbsp;단계적&nbsp;추진）<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단계&nbsp;(&nbsp;'26&nbsp;~&nbsp;'27)&nbsp;:&nbsp;시범마을&nbsp;모집&nbsp;및&nbsp;제도&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2단계&nbsp;(&nbsp;'27&nbsp;~&nbsp;'29)&nbsp;:&nbsp;시범마을&nbsp;조성&nbsp;및&nbsp;수익모델&nbsp;발굴<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3단계&nbsp;(&nbsp;'29&nbsp;~&nbsp;'30)&nbsp;:&nbsp;마을&nbsp;확배&nbsp;및&nbsp;햇빛연금&nbsp;체계&nbsp;정착<br><br>□&nbsp;재원조달방안&nbsp;둥<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;출자&nbsp;+&nbsp;정책금융&nbsp;(농협&nbsp;·&nbsp;신협&nbsp;등)&nbsp;융자&nbsp;활용&nbsp;+&nbsp;군비지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국&nbsp;·&nbsp;도비&nbsp;공모사업&nbsp;(재생에너지&nbsp;,&nbsp;ESS&nbsp;둥）&nbsp;연계&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	순창 강천산 K- 웰니스 힐링 관쾅지 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="순창 강천산 K- 웰니스 힐링 관쾅지 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;강천산&nbsp;·&nbsp;발효&nbsp;·&nbsp;온천&nbsp;자원을&nbsp;연계한&nbsp;대한민국&nbsp;대표&nbsp;웰니스&nbsp;관쾅&nbsp;거점&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;당일&nbsp;방문형&nbsp;관광&nbsp;→&nbsp;체류형&nbsp;관광(1박&nbsp;이상)&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광소비&nbsp;확대&nbsp;및&nbsp;지역경제&nbsp;선순환&nbsp;구조&nbsp;확립<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;(거점&nbsp;조성）&nbsp;온자실&nbsp;일원&nbsp;힐링&nbsp;관광지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;명상&nbsp;·&nbsp;치유공간&nbsp;,&nbsp;숙박시설&nbsp;,&nbsp;힐링정원&nbsp;,&nbsp;웰컴센터&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;(관광벨트&nbsp;구축)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;「쉴랜드-발효테마파크-강천산-힐링스파」&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합&nbsp;예약&nbsp;시스템&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;(프로그램&nbsp;운영)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산림명상,&nbsp;치유농업,&nbsp;발효식단&nbsp;체험&nbsp;프로그램&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;∼&nbsp;2030년&nbsp;(4개년）<br>&nbsp;&nbsp;&nbsp;&nbsp;-1단계&nbsp;:&nbsp;기반시설&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-2단계&nbsp;:&nbsp;쳬류시설&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-3단계&nbsp;:&nbsp;콘텐츠&nbsp;고도화<br><br>□&nbsp;재원조달방안&nbsp;둥<br>&nbsp;&nbsp;○&nbsp;총사업비&nbsp;198억원(도비&nbsp;50%&nbsp;+&nbsp;군비&nbsp;50%&nbsp;)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이후&nbsp;연계&nbsp;국가&nbsp;공모사업&nbsp;발굴</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	발효 · 장류기반 ' 미식관광 일번지 순창 ' 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="발효 · 장류기반 ' 미식관광 일번지 순창 ' 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전통&nbsp;장류산업을&nbsp;고부가가치&nbsp;미식관쾅&nbsp;산업으로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;순창올&nbsp;대한민국&nbsp;대표&nbsp;발효&nbsp;미식&nbsp;관광도시로&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;(인프라&nbsp;구축)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미식체험관&nbsp;조성&nbsp;(요리·체험·교육&nbsp;복합공간）<br>&nbsp;&nbsp;○&nbsp;(콘텐츠&nbsp;운영)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미식투어,&nbsp;푸드페어,&nbsp;발효체험&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;(산업&nbsp;연계)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;미식창업&nbsp;지원&nbsp;및&nbsp;외식기업&nbsp;협업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;농가·식당·관광시설&nbsp;통합&nbsp;플랫폼&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;∼&nbsp;2030년&nbsp;(4개년&nbsp;단계&nbsp;추진）<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비&nbsp;군비,&nbsp;민자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	순창 미생물 농생명산업지구 조성사업</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="순창 미생물 농생명산업지구 조성사업">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;장류&nbsp;중심&nbsp;산업을&nbsp;미생물&nbsp;·&nbsp;바이오&nbsp;기반&nbsp;미래산업으로&nbsp;고도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;순창을&nbsp;국가&nbsp;거점&nbsp;농생명&nbsp;바이오&nbsp;산업지구로&nbsp;육성<br><br>□&nbsp;&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;(산업지구&nbsp;조성）<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장류특구&nbsp;및&nbsp;농공단지&nbsp;중심&nbsp;산업벨트&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;(핵심사업&nbsp;추진）<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전통&nbsp;장문화&nbsp;천수관&nbsp;(가칭&nbsp;'&nbsp;장문화&nbsp;스테이션&nbsp;'&nbsp;)&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;발효&nbsp;토굴&nbsp;기반&nbsp;양조산업&nbsp;육셩<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Al&nbsp;기반&nbsp;미섕물&nbsp;바이오파운드리(특화&nbsp;기업단지)&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;(기업유치）<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마이크로바이옴&nbsp;특화산단&nbsp;조성&nbsp;및&nbsp;관련&nbsp;미생물，&nbsp;바이오&nbsp;기업&nbsp;기업&nbsp;유치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;~&nbsp;2031년&nbsp;(5개년）<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;공모사업&nbsp;및&nbsp;산업부&nbsp;·&nbsp;농식품부&nbsp;·&nbsp;전북도&nbsp;특화&nbsp;사업&nbsp;연계&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	교통약자 이동권 보장을 위한 맞춤형 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="교통약자 이동권 보장을 위한 맞춤형 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농촌형&nbsp;교통쳬계&nbsp;개선을&nbsp;통한&nbsp;군민&nbsp;이동권&nbsp;완전&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통비&nbsp;부담&nbsp;완화&nbsp;및&nbsp;생활&nbsp;접근성&nbsp;강화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;(교통복지&nbsp;확대）<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌버스&nbsp;무료화&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;읍내&nbsp;순환버스&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;(맞춤형&nbsp;서비스&nbsp;강화）<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을택시&nbsp;이용횟수&nbsp;확대&nbsp;（월&nbsp;4회&nbsp;→&nbsp;6회&nbsp;이상）<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통&nbsp;소외지역&nbsp;중심&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;(운영&nbsp;개선）<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;데이터&nbsp;기반&nbsp;노선&nbsp;조정&nbsp;및&nbsp;서비스&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;택시업계와&nbsp;상생&nbsp;협약&nbsp;쳬결<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○2027년&nbsp;∼&nbsp;2031년&nbsp;(5개년）<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;,&nbsp;도비&nbsp;,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

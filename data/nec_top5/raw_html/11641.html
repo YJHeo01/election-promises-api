@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;유동균 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	AI로 똑똑한 행정, 안전은 미리미리 - 행정시스템·안전·도시관리 혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="AI로 똑똑한 행정, 안전은 미리미리 - 행정시스템·안전·도시관리 혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;마포구&nbsp;행정을&nbsp;사후&nbsp;대응&nbsp;행정에서&nbsp;미리준비하는&nbsp;행정으로&nbsp;바꾸는&nbsp;것이다.&nbsp;민원이&nbsp;생기면&nbsp;처리하는&nbsp;행정이&nbsp;아니라,&nbsp;민원이&nbsp;생기지&nbsp;않게&nbsp;관리하는&nbsp;구조로&nbsp;바꾼다.&nbsp;AI와&nbsp;데이터&nbsp;기반&nbsp;행정,&nbsp;산하기관&nbsp;혁신을&nbsp;통해&nbsp;민원&nbsp;처리를&nbsp;빠르고&nbsp;정확하게&nbsp;하고,&nbsp;재난·사고는&nbsp;발생&nbsp;전에&nbsp;위험을&nbsp;찾아내는&nbsp;체계로&nbsp;전환한다.&nbsp;또한&nbsp;강변북로&nbsp;지하화,&nbsp;군부대&nbsp;이전,&nbsp;대장-홍대선&nbsp;DMC역&nbsp;신설,&nbsp;재개발·재건축처럼&nbsp;구민&nbsp;삶에&nbsp;큰&nbsp;영향을&nbsp;미치는&nbsp;사업에서,&nbsp;구청이&nbsp;단순한&nbsp;협조자가&nbsp;아니라&nbsp;주민&nbsp;편에서&nbsp;조정하고&nbsp;관철하는&nbsp;주체가&nbsp;되도록&nbsp;행정&nbsp;역량을&nbsp;강화한다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기반&nbsp;행정비서&nbsp;‘마포&nbsp;브레인’&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인공지능(AI)&nbsp;기본조례&nbsp;제정,&nbsp;민원&nbsp;안내,&nbsp;반복&nbsp;질문&nbsp;자동응답,&nbsp;절차&nbsp;설명을&nbsp;표준화<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;AI보건소&nbsp;기반&nbsp;통합돌봄&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방문간호,&nbsp;건강&nbsp;모니터링,&nbsp;만성질환&nbsp;관리,&nbsp;병원&nbsp;동행<br>&nbsp;&nbsp;○&nbsp;산하기관&nbsp;AI&nbsp;기반으로&nbsp;운영&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성과&nbsp;중심&nbsp;책임경영&nbsp;도입과&nbsp;구청-산하기관&nbsp;협력&nbsp;거버넌스&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민관&nbsp;합동&nbsp;T/F&nbsp;구성으로&nbsp;산하기관&nbsp;전반&nbsp;진단&nbsp;및&nbsp;기능&nbsp;재정비<br>&nbsp;&nbsp;○&nbsp;안전정책을&nbsp;사후&nbsp;대응에서&nbsp;예방&nbsp;중심으로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;안전체험관&nbsp;건립,&nbsp;AI&nbsp;CCTV&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;장애인&nbsp;이동권&nbsp;원스톱&nbsp;개선&nbsp;추진&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;재개발·재건축&nbsp;조합전문가&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;1일&nbsp;~&nbsp;지속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재임기간&nbsp;동안<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	사는 동네가 달라집니다. 주거환경·생활인프라 개선</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="사는 동네가 달라집니다. 주거환경·생활인프라 개선">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;마포구&nbsp;정책의&nbsp;우선순위를&nbsp;대규모&nbsp;개발이&nbsp;아니라,&nbsp;일상의&nbsp;불편&nbsp;해결로&nbsp;바꾸는&nbsp;것이다.&nbsp;눈에&nbsp;띄는&nbsp;사업보다,&nbsp;매일&nbsp;불편한&nbsp;것부터&nbsp;고친다는&nbsp;원칙을&nbsp;세운다.&nbsp;주차,&nbsp;보행,&nbsp;골목&nbsp;환경,&nbsp;생활체육,&nbsp;커뮤니티&nbsp;공간을&nbsp;하나의&nbsp;생활&nbsp;인프라로&nbsp;보고,&nbsp;동네&nbsp;단위로&nbsp;체감할&nbsp;수&nbsp;있는&nbsp;변화를&nbsp;만든다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;강변북로&nbsp;지하화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;합정동&nbsp;군부대&nbsp;이전&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;단독·다세대&nbsp;밀집지역&nbsp;환경&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;아파트&nbsp;커뮤니티센터&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;반려동물&nbsp;테마파크&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;복합문화체육센터&nbsp;및&nbsp;국제규모의&nbsp;수영장&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;파크골프장&nbsp;신설&nbsp;및&nbsp;셔틀버스&nbsp;제공,&nbsp;스크린&nbsp;파크골프장&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;노상주차장&nbsp;체계적&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;망원유수지&nbsp;운동장에&nbsp;’비닐하우스&nbsp;트랙’&nbsp;조성으로&nbsp;겨울철,&nbsp;우기시&nbsp;운동조건&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;대장-홍대선&nbsp;DMC&nbsp;환승역,&nbsp;신안산선&nbsp;‘만리재로역’&nbsp;신설&nbsp;적극&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;서부선&nbsp;경전철&nbsp;조속한&nbsp;착공&nbsp;추진,&nbsp;강북횡단선&nbsp;조속한&nbsp;재&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;경의선&nbsp;가좌역~수색교&nbsp;구간&nbsp;지하화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;연남동&nbsp;가로벚꽃길&nbsp;지하에&nbsp;공영주차장&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;서부면허시험장&nbsp;부지&nbsp;첨단관광문화&nbsp;거점&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;상암&nbsp;복합쇼핑몰&nbsp;조속한&nbsp;칙공&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;1일&nbsp;~&nbsp;지속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재임기간&nbsp;동안<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	돌봄은 제도가 아니라 일상! 생애주기형 복지 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="돌봄은 제도가 아니라 일상! 생애주기형 복지 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;마포구&nbsp;복지를&nbsp;조각난&nbsp;지원이&nbsp;아니라,&nbsp;하나로&nbsp;이어진&nbsp;돌봄&nbsp;체계로&nbsp;바꾸는&nbsp;것이다.&nbsp;아이로&nbsp;태어나서&nbsp;자라고,&nbsp;청소년이&nbsp;되고,&nbsp;어른이&nbsp;되고,&nbsp;노년을&nbsp;맞이하는&nbsp;전&nbsp;과정에서&nbsp;끊김&nbsp;없이&nbsp;이어지는&nbsp;지원&nbsp;구조를&nbsp;만든다.&nbsp;단순히&nbsp;돈을&nbsp;주는&nbsp;복지가&nbsp;아니라,&nbsp;생활을&nbsp;지탱해&nbsp;주는&nbsp;복지로&nbsp;전환한다.&nbsp;또한&nbsp;의료·돌봄·이동·식사·여가를&nbsp;따로&nbsp;떼어&nbsp;보지&nbsp;않고,&nbsp;한&nbsp;사람의&nbsp;삶을&nbsp;중심으로&nbsp;묶어서&nbsp;지원하는&nbsp;방식을&nbsp;도입한다.&nbsp;이를&nbsp;통해&nbsp;“어디에&nbsp;문의해야&nbsp;하는지&nbsp;몰라서&nbsp;놓치는&nbsp;복지”를&nbsp;없애는&nbsp;것이&nbsp;목표다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;마포<br>&nbsp;&nbsp;○&nbsp;‘마포&nbsp;아이행복&nbsp;여행비’&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;무료&nbsp;예방접종&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;그냥&nbsp;다&nbsp;해드림센터&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;장애인&nbsp;가족&nbsp;돌봄&nbsp;쉼표센터&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;서로돌봄하우스&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;‘어르신행복&nbsp;효도카드’&nbsp;지원&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;효도밥상을&nbsp;기부에&nbsp;의한&nbsp;사업에서&nbsp;제도화&nbsp;추진(가칭&nbsp;장수마포밥상)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이용&nbsp;대상자&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합돌봄시스템&nbsp;적용으로&nbsp;어르신&nbsp;공공급식&nbsp;제도화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;경로당&nbsp;현대화,&nbsp;지원금&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;어르신,&nbsp;장애인&nbsp;전용&nbsp;헬스장&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;마포&nbsp;추모누리(공공형&nbsp;봉안당·수목장)&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;1일&nbsp;~&nbsp;지속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재임기간&nbsp;동안<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	공부도, 시작도 마포에서, 교육·청년 지원 강화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="공부도, 시작도 마포에서, 교육·청년 지원 강화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;교육,&nbsp;진로,&nbsp;취업,&nbsp;창업,&nbsp;정착을&nbsp;하나의&nbsp;흐름으로&nbsp;연결하는&nbsp;것이다.&nbsp;단순히&nbsp;학생을&nbsp;지원하는&nbsp;정책이&nbsp;아니라,&nbsp;한&nbsp;사람이&nbsp;성장해&nbsp;가는&nbsp;전&nbsp;과정을&nbsp;지역&nbsp;안에서&nbsp;이어주는&nbsp;구조를&nbsp;만든다.&nbsp;마포에서&nbsp;배우고,&nbsp;마포에서&nbsp;경험을&nbsp;쌓고,&nbsp;마포에서&nbsp;일하고,&nbsp;마포에&nbsp;정착할&nbsp;수&nbsp;있도록&nbsp;교육·청년·일자리&nbsp;정책을&nbsp;따로&nbsp;운영하지&nbsp;않고,&nbsp;하나의&nbsp;정책&nbsp;체계로&nbsp;묶는다.&nbsp;이를&nbsp;통해&nbsp;청년이&nbsp;지역을&nbsp;‘거쳐&nbsp;가는&nbsp;곳’이&nbsp;아니라,&nbsp;‘머무는&nbsp;곳’으로&nbsp;인식하도록&nbsp;바꾼다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;미래형&nbsp;원스톱&nbsp;교육특구&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄,&nbsp;진로,&nbsp;진학,&nbsp;체험,&nbsp;상담을&nbsp;한&nbsp;공간에서&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;교육경비보조금&nbsp;지원&nbsp;확대로&nbsp;초중고&nbsp;시설&nbsp;개선,&nbsp;다양한&nbsp;교육&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;청소년&nbsp;문화의&nbsp;집&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;고교&nbsp;통학버스&nbsp;운영&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;취·창업&nbsp;지원&nbsp;“청년의&nbsp;일을&nbsp;지원하고,&nbsp;실제&nbsp;일을&nbsp;만든다”<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구청사&nbsp;유휴공간을&nbsp;활용한&nbsp;창업지원&nbsp;공유오피스&nbsp;확대&nbsp;등<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;도전·재기&nbsp;지원시스템&nbsp;구축&nbsp;“청년의&nbsp;도전을&nbsp;함께&nbsp;한다”<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;창업&nbsp;초기&nbsp;실패&nbsp;안전망&nbsp;구축&nbsp;등<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;사회적&nbsp;안전망&nbsp;강화&nbsp;“청년&nbsp;혼자가&nbsp;아닌,&nbsp;우리&nbsp;청년구”<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고립&nbsp;청년&nbsp;전담&nbsp;코디네이터&nbsp;매칭&nbsp;등<br><br>&nbsp;&nbsp;&nbsp;※&nbsp;이&nbsp;모든&nbsp;정책을&nbsp;분절적으로&nbsp;운영하지&nbsp;않고,&nbsp;교육-청년-일자리-정착으로&nbsp;이어지는&nbsp;하나의&nbsp;흐름으로&nbsp;관리<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;1일&nbsp;~&nbsp;지속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재임기간&nbsp;동안<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	사람이 모이고 다시 찾는 마포, 환경·관광도시 브랜드 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="사람이 모이고 다시 찾는 마포, 환경·관광도시 브랜드 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;마포의&nbsp;환경과&nbsp;문화를&nbsp;개별&nbsp;사업이&nbsp;아니라,&nbsp;도시의&nbsp;핵심&nbsp;경쟁력으로&nbsp;재정의하는&nbsp;것이다.&nbsp;단순히&nbsp;행사를&nbsp;늘리고&nbsp;시설을&nbsp;짓는&nbsp;것이&nbsp;아니라,&nbsp;마포가&nbsp;어떤&nbsp;도시인지,&nbsp;어떤&nbsp;가치로&nbsp;기억되는지를&nbsp;분명히&nbsp;한다.&nbsp;환경은&nbsp;개발의&nbsp;걸림돌이&nbsp;아니라,&nbsp;도시의&nbsp;품격을&nbsp;만드는&nbsp;요소로&nbsp;관리한다.&nbsp;문화와&nbsp;관광은&nbsp;소비용&nbsp;콘텐츠가&nbsp;아니라,&nbsp;지역경제와&nbsp;주민&nbsp;삶을&nbsp;함께&nbsp;살리는&nbsp;구조로&nbsp;설계한다.&nbsp;이를&nbsp;통해&nbsp;마포를&nbsp;“지나가는&nbsp;동네”가&nbsp;아니라,&nbsp;“머물고&nbsp;싶은&nbsp;도시”로&nbsp;만든다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;‘마포&nbsp;힐링숲&nbsp;프로젝트’&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활권&nbsp;중심의&nbsp;녹지&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;홍대-합정-망원-한강을&nbsp;잇는&nbsp;문화벨트&nbsp;조성.(마포&nbsp;홍대거리&nbsp;르네상스)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공연,&nbsp;전시,&nbsp;거리문화,&nbsp;축제를&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민과&nbsp;예술가가&nbsp;함께&nbsp;만드는&nbsp;참여형&nbsp;축제&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한강,&nbsp;절두산,&nbsp;월드컵공원&nbsp;등&nbsp;기존&nbsp;자산을&nbsp;연결한&nbsp;관광&nbsp;동선&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;당산철교&nbsp;지하화&nbsp;이후&nbsp;공간을&nbsp;새로운&nbsp;관광·문화&nbsp;명소로&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;마포&nbsp;걷기(달리기)좋은&nbsp;10선&nbsp;완비<br>&nbsp;&nbsp;○&nbsp;마포&nbsp;웹툰&nbsp;축제&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;‘김대중대통령&nbsp;사저&nbsp;기념관’&nbsp;조성&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;1일&nbsp;~&nbsp;지속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재임기간&nbsp;동안<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

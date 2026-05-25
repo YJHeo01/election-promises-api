@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김보라 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	철도시대 개막 프로젝트 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="철도시대 개막 프로젝트 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;▶&nbsp;JTX,&nbsp;중부권&nbsp;광역급행철도&nbsp;조속추진과&nbsp;평택-부발선&nbsp;제5차&nbsp;국가철도망&nbsp;구축계획&nbsp;반영을&nbsp;통해&nbsp;안성&nbsp;철도시대&nbsp;개막<br>&nbsp;&nbsp;▶&nbsp;철도,&nbsp;고속도로,&nbsp;광역버스를&nbsp;연계한&nbsp;사통팔달&nbsp;교통망&nbsp;구축으로&nbsp;중부내륙&nbsp;핵심&nbsp;교통허브&nbsp;도약<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;▶&nbsp;JTX&nbsp;민자적격성&nbsp;조사&nbsp;결과&nbsp;발표에&nbsp;맞춰&nbsp;국토교통부,&nbsp;경기도,&nbsp;민간사업자&nbsp;등&nbsp;관계기관과&nbsp;후속&nbsp;행정절차&nbsp;협의<br>&nbsp;&nbsp;▶&nbsp;평택-부발선의&nbsp;제5차&nbsp;국가철도망&nbsp;구축계획&nbsp;반영을&nbsp;위해&nbsp;수요논리,&nbsp;경제성,&nbsp;지역균형&nbsp;발전&nbsp;논리&nbsp;등&nbsp;정책자료&nbsp;보강<br>&nbsp;&nbsp;▶&nbsp;철도역&nbsp;신설,&nbsp;역세권&nbsp;개발,&nbsp;광역버스,&nbsp;도로망,&nbsp;환승체계를&nbsp;연계한&nbsp;안성형&nbsp;철도교통&nbsp;종합계획&nbsp;수립<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;▶&nbsp;2026년&nbsp;:&nbsp;JTX&nbsp;민자적격성&nbsp;조사&nbsp;결과&nbsp;대응&nbsp;및&nbsp;평택-부발선&nbsp;국가철도망&nbsp;반영&nbsp;건의<br>&nbsp;&nbsp;▶&nbsp;2027년~2028년&nbsp;:&nbsp;JTX&nbsp;후속&nbsp;행정절차&nbsp;대응&nbsp;및&nbsp;평택-부발선&nbsp;관계기관&nbsp;협의&nbsp;지속<br>&nbsp;&nbsp;▶&nbsp;2029년~2030년&nbsp;:&nbsp;역세권·환승체계·광역버스·도로망&nbsp;연계계획&nbsp;구체화<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;▶&nbsp;JTX&nbsp;는&nbsp;민간투자사업,&nbsp;평택-부발선은&nbsp;국비&nbsp;중심&nbsp;국가철도사업으로&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;정책자료&nbsp;보강,&nbsp;연구용역,&nbsp;역세권·연계교통계획은&nbsp;시비로&nbsp;지원하고,&nbsp;연계&nbsp;기반시설은&nbsp;국비·도비·시비&nbsp;매칭사업으로&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	안성 도시공사 설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="안성 도시공사 설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;▶&nbsp;공공이&nbsp;&nbsp;개발을&nbsp;&nbsp;주도하고&nbsp;개발이익을&nbsp;&nbsp;시민에게&nbsp;&nbsp;돌려주는&nbsp;&nbsp;안성형&nbsp;&nbsp;공영개발&nbsp;&nbsp;체계&nbsp;&nbsp;구축<br>&nbsp;&nbsp;▶&nbsp;안성&nbsp;도시공사&nbsp;설립을&nbsp;통해&nbsp;산업단지,&nbsp;역세권,&nbsp;주거복지,&nbsp;생활SOC,&nbsp;균형개발&nbsp;사업을&nbsp;체계적으로&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;무분별한&nbsp;민간개발을&nbsp;방지하고&nbsp;개발이익을&nbsp;기반시설,&nbsp;공공임대,&nbsp;시민복지,&nbsp;지역균형&nbsp;발전에&nbsp;재투자하는&nbsp;구조&nbsp;확립<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;▶&nbsp;관련&nbsp;조례&nbsp;제정,&nbsp;출자계획&nbsp;수립,&nbsp;조직·인력·재정운영&nbsp;방안&nbsp;마련<br>&nbsp;&nbsp;▶&nbsp;행정안전부&nbsp;등&nbsp;관계기관&nbsp;협의와&nbsp;법정&nbsp;절차&nbsp;이행<br>&nbsp;&nbsp;▶&nbsp;역세권&nbsp;복합개발,&nbsp;청년주택,&nbsp;산업단지&nbsp;조성&nbsp;등&nbsp;대형&nbsp;도시개발&nbsp;과제와&nbsp;연계<br>&nbsp;&nbsp;▶&nbsp;개발이익&nbsp;시민환원&nbsp;원칙&nbsp;명문화,&nbsp;기반시설·생활SOC·교통·복지&nbsp;재투자&nbsp;체계&nbsp;구축<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;▶&nbsp;2026년&nbsp;:&nbsp;조례&nbsp;제정,&nbsp;관계기관&nbsp;협의,&nbsp;출자&nbsp;및&nbsp;조직설계<br>&nbsp;&nbsp;▶&nbsp;2027년&nbsp;:&nbsp;도시공사&nbsp;설립&nbsp;추진&nbsp;및&nbsp;초기&nbsp;사업&nbsp;선정<br>&nbsp;&nbsp;▶&nbsp;2028년~2030년&nbsp;:&nbsp;공공개발사업&nbsp;단계적&nbsp;추진&nbsp;및&nbsp;개발이익&nbsp;환원체계&nbsp;운영<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;▶&nbsp;설립&nbsp;초기&nbsp;출자금&nbsp;및&nbsp;운영준비&nbsp;비용은&nbsp;시비&nbsp;반영<br>&nbsp;&nbsp;▶&nbsp;공영개발사업&nbsp;수익을&nbsp;기반시설과&nbsp;시민복지에&nbsp;재투자<br>&nbsp;&nbsp;▶&nbsp;국비·도비&nbsp;도시개발,&nbsp;도시재생,&nbsp;산업단지,&nbsp;주거복지&nbsp;사업&nbsp;연계<br>&nbsp;&nbsp;▶&nbsp;민관협력사업,&nbsp;공공기관&nbsp;&nbsp;협력사업,&nbsp;개발사업&nbsp;수익환원&nbsp;방식&nbsp;병행</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	농업 생산·가공·유통·소비 선순환 체계 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="농업 생산·가공·유통·소비 선순환 체계 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;▶&nbsp;안성&nbsp;농업을&nbsp;생산&nbsp;중심에서&nbsp;고부가가치&nbsp;농식품&nbsp;산업으로&nbsp;전환<br>&nbsp;&nbsp;▶&nbsp;생산·가공·유통·소비를&nbsp;하나로&nbsp;연결하여&nbsp;농가소득&nbsp;안정,&nbsp;지역&nbsp;먹거리&nbsp;순환,&nbsp;농식품&nbsp;산업&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;▶&nbsp;청년농,&nbsp;스마트농업,&nbsp;공공급식(로컬푸드),&nbsp;식품산업&nbsp;클러스터를&nbsp;연계해&nbsp;지속가능한&nbsp;미래농업&nbsp;도시&nbsp;조성<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;▶&nbsp;공공급식&nbsp;생산·가공·유통&nbsp;체계&nbsp;구축&nbsp;및&nbsp;공급망&nbsp;확대<br>&nbsp;&nbsp;▶&nbsp;지역&nbsp;농산물&nbsp;가공·브랜드화·판로&nbsp;확대&nbsp;지원<br>&nbsp;&nbsp;▶&nbsp;로컬푸드,&nbsp;학교급식,&nbsp;공공급식,&nbsp;지역상권을&nbsp;연결하는&nbsp;지역&nbsp;먹거리&nbsp;소비체계&nbsp;강화<br>&nbsp;&nbsp;▶&nbsp;농협,&nbsp;생산자단체,&nbsp;가공업체,&nbsp;유통조직,&nbsp;공공기관&nbsp;간&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;▶&nbsp;수도권&nbsp;식품산업&nbsp;클러스터와&nbsp;연계하여&nbsp;농업의&nbsp;산업화&nbsp;기반&nbsp;확대<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;▶&nbsp;2026년&nbsp;:&nbsp;기본계획&nbsp;수립,&nbsp;생산·가공·유통&nbsp;실태조사,&nbsp;협력체계&nbsp;구성<br>&nbsp;&nbsp;▶&nbsp;2027년~2028년&nbsp;:&nbsp;공공급식·가공유통&nbsp;기반&nbsp;확충,&nbsp;청년농·스마트농업&nbsp;연계사업&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;2029년~2030년&nbsp;:&nbsp;농식품&nbsp;선순환&nbsp;체계&nbsp;정착&nbsp;및&nbsp;수도권&nbsp;식품산업&nbsp;클러스터&nbsp;연계&nbsp;확대<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;▶&nbsp;국비·도비&nbsp;&nbsp;농식품산업,&nbsp;공공급식(로컬푸드)&nbsp;스마트농업&nbsp;사업&nbsp;확보<br>&nbsp;&nbsp;▶&nbsp;시비&nbsp;매칭&nbsp;및&nbsp;농업&nbsp;관련&nbsp;기금&nbsp;활용<br>&nbsp;&nbsp;▶&nbsp;농협,&nbsp;생산자단체,&nbsp;민간&nbsp;가공·유통기업&nbsp;협력사업&nbsp;연계<br>&nbsp;&nbsp;▶&nbsp;공모사업,&nbsp;민관협력사업,&nbsp;지역농산물&nbsp;유통&nbsp;수익구조&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	청년 친화도시 지정</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="청년 친화도시 지정">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;▶&nbsp;청년이&nbsp;배우고,&nbsp;일하고,&nbsp;살고,&nbsp;도전할&nbsp;수&nbsp;있는&nbsp;젊은&nbsp;안성&nbsp;조성<br>&nbsp;&nbsp;▶&nbsp;교육·진로·일자리·창업·주거·문화&nbsp;참여를&nbsp;유기적으로&nbsp;연결하는&nbsp;청년&nbsp;성장&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;▶&nbsp;청년이&nbsp;떠나는&nbsp;도시가&nbsp;아니라,&nbsp;청년이&nbsp;찾아오고&nbsp;정착하는&nbsp;청년친화도시&nbsp;지정&nbsp;추진<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;▶&nbsp;청년친화도시&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;청년정책&nbsp;실태조사&nbsp;실시<br>&nbsp;&nbsp;▶&nbsp;청년&nbsp;&nbsp;당사자,&nbsp;대학,&nbsp;기업,&nbsp;지역사회가&nbsp;참여하는&nbsp;청년정책&nbsp;협의체&nbsp;운영<br>&nbsp;&nbsp;▶&nbsp;청년&nbsp;일자리&nbsp;창업·주거·교육·문화정책을&nbsp;통합&nbsp;패키지로&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;관내&nbsp;기업,&nbsp;산업단지,&nbsp;대학,&nbsp;평생학습&nbsp;체계를&nbsp;연결하여&nbsp;청년&nbsp;취업·창업&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;▶&nbsp;중앙정부와&nbsp;경기도의&nbsp;청년정책&nbsp;공모&nbsp;및&nbsp;인증사업&nbsp;적극&nbsp;대응<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;▶&nbsp;2026년&nbsp;:&nbsp;&nbsp;청년친화도시&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;청년&nbsp;의견&nbsp;수렴<br>&nbsp;&nbsp;▶&nbsp;2027년&nbsp;:&nbsp;&nbsp;청년정책&nbsp;통합사업&nbsp;본격&nbsp;추진&nbsp;및&nbsp;지정&nbsp;신청&nbsp;준비<br>&nbsp;&nbsp;▶&nbsp;2028년~2030년&nbsp;:&nbsp;&nbsp;청년친화도시&nbsp;지정&nbsp;추진청년&nbsp;정착성장&nbsp;기반&nbsp;확충<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;▶&nbsp;정부&nbsp;유관부서&nbsp;연계&nbsp;청년정책&nbsp;공모사업&nbsp;확보<br>&nbsp;&nbsp;▶&nbsp;시비를&nbsp;통한&nbsp;청년정책&nbsp;통합사업&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;대학,&nbsp;기업,&nbsp;공공기관과&nbsp;협력사업&nbsp;발굴<br>&nbsp;&nbsp;▶&nbsp;청년창업,&nbsp;청년주거,&nbsp;일자리,&nbsp;교육훈련&nbsp;관련&nbsp;국도비&nbsp;사업&nbsp;연계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	안성형 햇빛연금 프로젝트 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="안성형 햇빛연금 프로젝트 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;▶&nbsp;햇빛에너지&nbsp;수익을&nbsp;시민과&nbsp;공유하는&nbsp;안성형&nbsp;에너지&nbsp;복지&nbsp;모델&nbsp;구축<br>&nbsp;&nbsp;▶&nbsp;재생에너지&nbsp;생산과&nbsp;수익&nbsp;환원을&nbsp;결합하여&nbsp;시민&nbsp;배당소득&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;▶&nbsp;탄소중립,&nbsp;RE100,&nbsp;청정에너지&nbsp;전환을&nbsp;선도하는&nbsp;햇빛청정&nbsp;에너지도시&nbsp;조성<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;▶&nbsp;안성형&nbsp;햇빛연금&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;대상&nbsp;부지&nbsp;조사<br>&nbsp;&nbsp;▶&nbsp;공공부지,&nbsp;유휴부지,&nbsp;마을단위,&nbsp;산업단지&nbsp;태양광&nbsp;가능&nbsp;&nbsp;검토<br>&nbsp;&nbsp;▶&nbsp;시민참여형&nbsp;발전사업,&nbsp;협동조합형&nbsp;모델,&nbsp;공공주도형&nbsp;모델&nbsp;도입&nbsp;검토<br>&nbsp;&nbsp;▶&nbsp;발전수익의&nbsp;시민환원&nbsp;방식과&nbsp;배당체계&nbsp;설계<br>&nbsp;&nbsp;▶&nbsp;반도체&nbsp;특화단지&nbsp;전용&nbsp;RE100&nbsp;에너지&nbsp;허브&nbsp;조성과&nbsp;연계<br>&nbsp;&nbsp;▶&nbsp;에너지&nbsp;취약계층&nbsp;지원,&nbsp;마을공동체&nbsp;수익사업,&nbsp;시민&nbsp;배당형&nbsp;모델&nbsp;단계적&nbsp;확대<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;▶&nbsp;2026년&nbsp;:&nbsp;&nbsp;기본계획&nbsp;수립&nbsp;대상&nbsp;부지&nbsp;조사&nbsp;사업모델&nbsp;설계<br>&nbsp;&nbsp;▶&nbsp;2027년&nbsp;:&nbsp;&nbsp;시범사업&nbsp;추진&nbsp;및&nbsp;시민참여&nbsp;모델&nbsp;구축<br>&nbsp;&nbsp;▶&nbsp;2028년~2030년&nbsp;:&nbsp;&nbsp;햇빛연금&nbsp;사업&nbsp;확대&nbsp;및&nbsp;시민환원&nbsp;체계&nbsp;정착<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;▶&nbsp;정부&nbsp;유관부서&nbsp;및&nbsp;경기도&nbsp;재생에너지&nbsp;관련&nbsp;사업&nbsp;확보<br>&nbsp;&nbsp;▶&nbsp;시비&nbsp;매칭&nbsp;&nbsp;및&nbsp;공공부지&nbsp;&nbsp;활용<br>&nbsp;&nbsp;▶&nbsp;민간투자,&nbsp;에너지협동조합,&nbsp;시민펀드&nbsp;등&nbsp;시민참여형&nbsp;재원&nbsp;활용<br>&nbsp;&nbsp;▶&nbsp;발전수익&nbsp;재투자&nbsp;및&nbsp;관련&nbsp;기업&nbsp;협력사업&nbsp;연계</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

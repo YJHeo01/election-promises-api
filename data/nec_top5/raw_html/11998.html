@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;여인두 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	K-목포 국제문화도시 목포</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="K-목포 국제문화도시 목포">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;항구·원도심·목포역·해안을&nbsp;연결하는&nbsp;국제문화도시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;사람이&nbsp;머물고&nbsp;다시&nbsp;찾는&nbsp;체류형&nbsp;도시&nbsp;전환<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;목포역&nbsp;국제문화&nbsp;관문지구&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;목포역&nbsp;대개조&nbsp;사업과&nbsp;연계한&nbsp;역세권&nbsp;재편<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화·관광·상업·교통&nbsp;기능&nbsp;통합&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;항구&nbsp;중심&nbsp;해양문화벨트&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원도심·근대역사·해안&nbsp;관광자원&nbsp;연결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간관광&nbsp;및&nbsp;체류형&nbsp;관광콘텐츠&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;국제&nbsp;창작도시&nbsp;프로젝트&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;빈집·유휴공간&nbsp;활용&nbsp;문화창작&nbsp;거점&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년예술인·로컬콘텐츠&nbsp;창작&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;K&nbsp;-컬처&nbsp;기반&nbsp;국제교류&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국제문화행사&nbsp;및&nbsp;글로벌&nbsp;네트워크&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;목포형&nbsp;로컬브랜드&nbsp;육성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;단계적&nbsp;추진<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;문화체육관광부·국토교통부·해양수산부&nbsp;등&nbsp;관련&nbsp;국비&nbsp;공모사업&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;전라남도&nbsp;문화·관광·도시재생&nbsp;예산&nbsp;연계&nbsp;및&nbsp;시비&nbsp;단계적&nbsp;반영<br>&nbsp;&nbsp;○&nbsp;숙박·상업·문화콘텐츠&nbsp;분야&nbsp;민간투자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	시민의 하루를 연결하는 이동혁신도시 목포</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="시민의 하루를 연결하는 이동혁신도시 목포">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;버스·보행·자전거가&nbsp;연결되는&nbsp;15분&nbsp;생활권&nbsp;도시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;이동권&nbsp;중심&nbsp;교통체계&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시내버스&nbsp;완전공영제&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공&nbsp;중심&nbsp;노선체계&nbsp;개편<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;배차간격&nbsp;및&nbsp;환승체계&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;청소년&nbsp;100원&nbsp;버스&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청소년&nbsp;교통비&nbsp;부담&nbsp;완화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통복지&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;보행&nbsp;중심&nbsp;도시환경&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보행약자&nbsp;안전&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활권&nbsp;중심&nbsp;보행환경&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;자전거·대중교통&nbsp;연계체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활형&nbsp;자전거&nbsp;인프라&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;친환경&nbsp;이동체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;심야&nbsp;및&nbsp;공공교통&nbsp;사각지대&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통약자&nbsp;이동&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공형&nbsp;교통서비스&nbsp;도입<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;계속사업&nbsp;추진<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;국토교통부&nbsp;대중교통·교통약자&nbsp;이동지원&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;전라남도&nbsp;교통복지&nbsp;예산&nbsp;및&nbsp;기존&nbsp;시내버스&nbsp;보조금&nbsp;재구조화<br>&nbsp;&nbsp;○&nbsp;보행·자전거&nbsp;인프라는&nbsp;생활SOC·교통안전&nbsp;개선사업과&nbsp;연계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	골목이 살아나는 지역순환경제 목포</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="골목이 살아나는 지역순환경제 목포">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;목포에서&nbsp;번&nbsp;돈이&nbsp;목포&nbsp;안에서&nbsp;돌게&nbsp;하는&nbsp;지역경제&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;골목상권과&nbsp;전통시장&nbsp;중심&nbsp;지역경제&nbsp;회복<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;지역화폐&nbsp;확대&nbsp;및&nbsp;공공구매&nbsp;지역우선제&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;내&nbsp;소비&nbsp;선순환&nbsp;구조&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공기관&nbsp;지역제품&nbsp;우선&nbsp;구매&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;골목상권&nbsp;및&nbsp;전통시장&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;골목상권&nbsp;특화거리&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전통시장&nbsp;문화·관광&nbsp;연계&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;체류형&nbsp;관광&nbsp;기반&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을호텔&nbsp;및&nbsp;로컬숙박&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;골목상권&nbsp;연계&nbsp;관광코스&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;청년·소상공인&nbsp;창업지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;빈점포&nbsp;활용&nbsp;창업공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;로컬브랜드&nbsp;및&nbsp;사회적경제&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;노동이&nbsp;존중받는&nbsp;지역경제&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;플랫폼·비정규&nbsp;노동&nbsp;보호&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활임금&nbsp;및&nbsp;노동권&nbsp;보호&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;&nbsp;2026년부터&nbsp;계속사업&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;<br>&nbsp;&nbsp;○&nbsp;중소벤처기업부&nbsp;전통시장·상점가&nbsp;활성화&nbsp;공모사업&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;행정안전부&nbsp;지역경제&nbsp;활성화&nbsp;및&nbsp;고용노동부&nbsp;일자리&nbsp;예산&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;소상공인·전통시장·관광마케팅&nbsp;예산&nbsp;재구조화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	아이부터 어르신까지 함께 사는 통합돌봄도시 목포</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="아이부터 어르신까지 함께 사는 통합돌봄도시 목포">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;생애주기별&nbsp;돌봄체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;누구도&nbsp;배제되지&nbsp;않는&nbsp;포용도시&nbsp;실현<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;공공돌봄&nbsp;및&nbsp;방문의료&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;중심&nbsp;통합돌봄체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방문의료&nbsp;및&nbsp;생활지원&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;공공보육&nbsp;및&nbsp;아동돌봄&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국공립&nbsp;보육&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;365일&nbsp;소아진료체계&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;정주&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;공공주거&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;일자리&nbsp;및&nbsp;창업지원&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;장애인&nbsp;이동권·교육권·자립지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인&nbsp;맞춤형&nbsp;이동환경&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자립생활&nbsp;지원체계&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;반려동물&nbsp;공존도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공동물병원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유기동물&nbsp;보호&nbsp;및&nbsp;반려공원&nbsp;조성<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원&nbsp;조달방안&nbsp;<br>&nbsp;&nbsp;○&nbsp;보건복지부&nbsp;통합돌봄·방문의료·노인복지&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;교육부·여성가족부&nbsp;아동·청소년·가족지원&nbsp;사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;복지·보육·노인·장애인&nbsp;예산&nbsp;재구조화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	시민이 결정하는 시민주권도시 목포</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="시민이 결정하는 시민주권도시 목포">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;행정&nbsp;중심이&nbsp;아닌&nbsp;시민&nbsp;중심&nbsp;도시&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;참여와&nbsp;투명성이&nbsp;강화된&nbsp;지방정부&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시민참여&nbsp;예산&nbsp;및&nbsp;정책결정&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민참여예산&nbsp;실질화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민&nbsp;공론장&nbsp;정례화<br>&nbsp;&nbsp;○&nbsp;민원·행정&nbsp;통합소통체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;온라인&nbsp;시민소통&nbsp;플랫폼&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활민원&nbsp;처리체계&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;정보공개&nbsp;및&nbsp;예산&nbsp;투명성&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;사업&nbsp;시민&nbsp;공개&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예산&nbsp;감시&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;주민자치&nbsp;및&nbsp;마을공동체&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동&nbsp;단위&nbsp;주민자치&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활권&nbsp;중심&nbsp;주민협의체&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;중심&nbsp;행정개혁&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불필요한&nbsp;행정&nbsp;절차&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민&nbsp;체감형&nbsp;행정서비스&nbsp;확대&nbsp;&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;<br>&nbsp;&nbsp;○&nbsp;행정안전부&nbsp;주민참여·디지털정부·지방자치&nbsp;활성화&nbsp;사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;시민참여예산&nbsp;및&nbsp;주민자치&nbsp;예산&nbsp;단계적&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;행정정보화·민원소통&nbsp;예산&nbsp;재조정으로&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

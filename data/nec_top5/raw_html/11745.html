@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;조용호 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	K-AI 스마트시티 조성으로 AI·반도체 기업 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="K-AI 스마트시티 조성으로 AI·반도체 기업 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;AI·반도체&nbsp;기업&nbsp;유치와&nbsp;좋은&nbsp;일자리&nbsp;창출을&nbsp;통해&nbsp;자족형&nbsp;강소도시&nbsp;오산&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;산업·연구·교육&nbsp;생태계가&nbsp;유기적으로&nbsp;연결되는&nbsp;미래산업&nbsp;거점도시로&nbsp;도약<br>&nbsp;&nbsp;○&nbsp;시민이&nbsp;체감하는&nbsp;AI데이터&nbsp;기반&nbsp;스마트&nbsp;행정·복지&nbsp;서비스&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;경기도와&nbsp;협력하여&nbsp;AI특구&nbsp;지정&nbsp;및&nbsp;K-AI&nbsp;스마트시티&nbsp;시범지구&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기업·연구기관·교육기관·창업공간&nbsp;기능이&nbsp;결합된&nbsp;복합거점&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국내외&nbsp;AI&nbsp;선도기업&nbsp;유치&nbsp;및&nbsp;스타트업&nbsp;입주공간·액셀러레이팅&nbsp;기능&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;전시·회의·비즈니스&nbsp;교류가&nbsp;가능한&nbsp;AI&nbsp;플랫폼&nbsp;도시&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;주거·상업·교통·의료·교육·치안을&nbsp;데이터&nbsp;기반으로&nbsp;연결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트&nbsp;교통신호,&nbsp;에너지&nbsp;관리,&nbsp;공공안전&nbsp;모니터링,&nbsp;재난대응&nbsp;체계&nbsp;고도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민&nbsp;체감형&nbsp;생활용&nbsp;공공&nbsp;AI&nbsp;서비스&nbsp;우선&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;독거노인·장애인·1인가구&nbsp;대상&nbsp;AI&nbsp;안부확인·응급&nbsp;대응&nbsp;서비스&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공의료&nbsp;스마트&nbsp;건강관리·원격&nbsp;모니터링&nbsp;실증사업&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;[4年]&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;2030년&nbsp;6월&nbsp;(임기&nbsp;내&nbsp;관계기관&nbsp;협의&nbsp;및&nbsp;단계적&nbsp;추진)&nbsp;<br>&nbsp;&nbsp;○&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;관계기관&nbsp;협의&nbsp;후&nbsp;중장기&nbsp;사업으로&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;과학기술정보통신부·국토교통부&nbsp;스마트시티&nbsp;및&nbsp;AI&nbsp;관련&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;경기도&nbsp;미래산업·디지털&nbsp;전환&nbsp;사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;민간투자&nbsp;및&nbsp;앵커기업&nbsp;참여&nbsp;유도<br>&nbsp;&nbsp;○&nbsp;시비는&nbsp;초기&nbsp;기획·기반조성·실증사업&nbsp;중심으로&nbsp;단계적&nbsp;투입<br>&nbsp;&nbsp;&nbsp;&nbsp;※세부금액은&nbsp;국·도·시&nbsp;협의&nbsp;진행&nbsp;후&nbsp;결정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	광역 교통망 확충 및 교통체계 개편으로 출퇴근시간 단축 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="광역 교통망 확충 및 교통체계 개편으로 출퇴근시간 단축 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;오산의&nbsp;광역교통망을&nbsp;확충하여&nbsp;수도권&nbsp;남부&nbsp;교통&nbsp;중심도시로&nbsp;위상&nbsp;제고<br>&nbsp;&nbsp;○&nbsp;오산IC&nbsp;입체화로&nbsp;도심&nbsp;교통정체&nbsp;해소&nbsp;및&nbsp;시민&nbsp;이동&nbsp;편의성&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;광역철도·고속도로가&nbsp;유기적으로&nbsp;연결되는&nbsp;스마트&nbsp;교통체계&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;GTX-C&nbsp;오산&nbsp;연결&nbsp;및&nbsp;분당선&nbsp;기흥~오산&nbsp;국가계획&nbsp;반영&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;KTX&nbsp;오산역&nbsp;정차&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;오산IC&nbsp;입체화&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국토부·한국도로공사&nbsp;LH&nbsp;사업본부&nbsp;협의&nbsp;및&nbsp;사업&nbsp;착수<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경부선&nbsp;상·하행선&nbsp;오산휴게소·금곡지구·가장동·반도체&nbsp;단지&nbsp;등&nbsp;주변&nbsp;고속도로&nbsp;하이패스&nbsp;IC&nbsp;설치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;도심&nbsp;도로망&nbsp;정비&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경부선&nbsp;횡단도로,&nbsp;대원지하차도&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;광역·시내버스&nbsp;개편&nbsp;및&nbsp;스마트&nbsp;교통체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울행&nbsp;광역버스&nbsp;확충&nbsp;및&nbsp;버스&nbsp;노선&nbsp;개편<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수요응답형&nbsp;똑버스&nbsp;도입<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;2030년&nbsp;6월&nbsp;(임기&nbsp;내&nbsp;관계기관&nbsp;협의&nbsp;및&nbsp;단계적&nbsp;추진)&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;철도·고속도로&nbsp;사업은&nbsp;국가계획&nbsp;반영을&nbsp;통해&nbsp;중장기&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국토교통부&nbsp;광역교통예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;경기도&nbsp;도로예산&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;한국도로공사·국가철도공단&nbsp;등&nbsp;관계기관&nbsp;재원&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;시비는&nbsp;도시계획·기본설계·시범사업&nbsp;중심으로&nbsp;단계적&nbsp;투입<br>&nbsp;&nbsp;&nbsp;&nbsp;※세부금액은&nbsp;국·도·시&nbsp;및&nbsp;관계기관&nbsp;협의&nbsp;후&nbsp;결정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	명품 교육도시 조성을 위한 교육도시 강화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="명품 교육도시 조성을 위한 교육도시 강화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;시대에&nbsp;부응하는&nbsp;창의융합형&nbsp;인재&nbsp;양성을&nbsp;위한&nbsp;교육환경&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;영유아부터&nbsp;중장년까지&nbsp;생애&nbsp;교육&nbsp;안전망&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;학교시설&nbsp;개선과&nbsp;평생교육&nbsp;연계로&nbsp;명품&nbsp;교육도시&nbsp;오산&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;초·중·고&nbsp;및&nbsp;평생교육&nbsp;연계&nbsp;AI&nbsp;리터러시&nbsp;교육&nbsp;프로그램&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;교육특구&nbsp;조성&nbsp;및&nbsp;대기업&nbsp;연계&nbsp;오산&nbsp;AI&nbsp;특성화고&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;미래교육지원센터&nbsp;설립&nbsp;및&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중장년층&nbsp;디지털&nbsp;교육&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;느린학습자&nbsp;지원&nbsp;확대&nbsp;및&nbsp;기초학력&nbsp;보장&nbsp;전문학습지도사&nbsp;배치&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;4차&nbsp;산업혁명&nbsp;직업체험프로그램&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;드론·3D프린터·로봇·IoT·AR/VR·코딩&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관련&nbsp;사업장&nbsp;및&nbsp;직업체험센터&nbsp;MOU<br>&nbsp;&nbsp;○&nbsp;학교시설&nbsp;개선&nbsp;지원으로&nbsp;안전하고&nbsp;쾌적한&nbsp;교육환경&nbsp;조성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;화장실,&nbsp;급식시설,&nbsp;교실&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;운동장&nbsp;및&nbsp;체육시설,&nbsp;정원&nbsp;조경&nbsp;등&nbsp;학교&nbsp;외부&nbsp;환경&nbsp;개선&nbsp;등<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;이행&nbsp;기간&nbsp;:&nbsp;[4年]&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;2030년&nbsp;6월&nbsp;(임기&nbsp;내&nbsp;단계적&nbsp;추진)<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;특성화고·미래&nbsp;교육지원센터는&nbsp;교육청·교육부&nbsp;협의&nbsp;후&nbsp;중장기&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비&nbsp;교육&nbsp;공모사업,&nbsp;경기도교육청&nbsp;협력사업,&nbsp;시비&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;세부금액은&nbsp;국·도·시&nbsp;및&nbsp;교육청&nbsp;협의&nbsp;후&nbsp;결정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	맞춤형 책임돌봄, 아이 키우기 좋은 미래교육도시 오산</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="맞춤형 책임돌봄, 아이 키우기 좋은 미래교육도시 오산">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;임신·출산·육아·응급의료까지&nbsp;생애&nbsp;초기&nbsp;공공&nbsp;안전망&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;보육·돌봄·의료&nbsp;인프라&nbsp;도보권&nbsp;확충으로&nbsp;양육부담&nbsp;완화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;임신·출산&nbsp;공공&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;오산형&nbsp;공공산후조리원&nbsp;1개소&nbsp;건립&nbsp;(부지&nbsp;선정&nbsp;및&nbsp;운영방식&nbsp;결정)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공키즈카페&nbsp;권역별&nbsp;확대&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어린이집·유치원&nbsp;종사자&nbsp;처우&nbsp;개선&nbsp;및&nbsp;보육&nbsp;품질&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;소아·응급&nbsp;의료&nbsp;안전망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;달빛어린이병원&nbsp;지정·운영&nbsp;및&nbsp;야간&nbsp;진료&nbsp;권역&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;24시간&nbsp;심야&nbsp;공공약국&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;양육친화&nbsp;행정·정책&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임신·출산·육아&nbsp;원스톱&nbsp;행정지원&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사회복지&nbsp;종사자&nbsp;처우&nbsp;개선&nbsp;및&nbsp;인력&nbsp;확충<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;2030년&nbsp;6월&nbsp;(임기&nbsp;내&nbsp;단계적&nbsp;추진)<br>&nbsp;&nbsp;○&nbsp;공공산후조리원&nbsp;건립은&nbsp;임기&nbsp;내&nbsp;완료&nbsp;목표<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;보건복지부&nbsp;공모사업<br>(지역사회&nbsp;통합돌봄·산모신생아&nbsp;건강관리·달빛어린이병원&nbsp;야간진료&nbsp;지원사업)<br>&nbsp;&nbsp;○&nbsp;경기도&nbsp;출산·육아&nbsp;지원사업&nbsp;및&nbsp;공공보건의료&nbsp;협력사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;의료법인·민간&nbsp;운영기관&nbsp;협력&nbsp;운영&nbsp;모델&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;시비는&nbsp;부지&nbsp;매입·운영비·실증사업&nbsp;중심으로&nbsp;단계적&nbsp;투입<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;세부금액은&nbsp;국·도·시&nbsp;협의&nbsp;후&nbsp;결정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	축제로 머무는 오산, 체류형 관광코스 개발</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="축제로 머무는 오산, 체류형 관광코스 개발">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;야맥축제&nbsp;등&nbsp;일회성&nbsp;이벤트를&nbsp;지역&nbsp;관광&nbsp;인프라로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;역사문화관광벨트&nbsp;조성&nbsp;및&nbsp;독립영화제&nbsp;연계로&nbsp;상권·관광·문화가&nbsp;함께&nbsp;살아나는&nbsp;축제도시&nbsp;오산&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;야맥축제&nbsp;글로벌화&nbsp;및&nbsp;상설&nbsp;운영&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;독산성&nbsp;문화축제&nbsp;및&nbsp;고인돌&nbsp;축제&nbsp;재추진<br>&nbsp;&nbsp;○&nbsp;도심&nbsp;거점&nbsp;야간&nbsp;독립영화제&nbsp;연계&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;독산성~오산천~오색시장을&nbsp;연결하여&nbsp;역사문화관광벨트&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;오산형&nbsp;도시숲&nbsp;정원길&nbsp;조성(마등산·필봉산·여계산·서랑저수지·독산성)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;이행&nbsp;기간&nbsp;:&nbsp;[4年]&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;2030년&nbsp;6월(임기&nbsp;내&nbsp;단계적&nbsp;추진)<br>&nbsp;&nbsp;○&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;관계기관&nbsp;협의&nbsp;후&nbsp;중장기&nbsp;사업으로&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;경기도&nbsp;지원금,&nbsp;문화체육관광부&nbsp;공모사업&nbsp;<br>&nbsp;&nbsp;○&nbsp;시비,&nbsp;민간&nbsp;기술협력&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;세부금액은&nbsp;국·도·시&nbsp;협의&nbsp;후&nbsp;결정</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

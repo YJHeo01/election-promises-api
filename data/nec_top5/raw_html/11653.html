@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박정권 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	AI 신도시 제2의 판교 프로젝트 - 자생적 수성특별시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="AI 신도시 제2의 판교 프로젝트 - 자생적 수성특별시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;산업도시&nbsp;대전환&nbsp;:&nbsp;수성에&nbsp;일자리를&nbsp;만듭니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;산업도시로의&nbsp;대전환:&nbsp;수성구를&nbsp;인공지능&nbsp;중심의&nbsp;미래형&nbsp;산업&nbsp;기반&nbsp;도시로&nbsp;탈바꿈<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양질의&nbsp;일자리&nbsp;창출:&nbsp;청년&nbsp;AI&nbsp;취·창업&nbsp;일자리&nbsp;1만&nbsp;개&nbsp;창출을&nbsp;통해&nbsp;기업과&nbsp;사람이&nbsp;모이는&nbsp;활력&nbsp;넘치는&nbsp;도시&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자생적&nbsp;수성특별시&nbsp;조성:&nbsp;생산(일자리)과&nbsp;소비(민생·경제)가&nbsp;한&nbsp;지역&nbsp;내에서&nbsp;선순환되는&nbsp;'원스톱'&nbsp;자생&nbsp;경제&nbsp;구조&nbsp;확립<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;AX(AI&nbsp;Transformation)&nbsp;파운드리&nbsp;벨트&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수성알파시티,&nbsp;연호지구,&nbsp;군부대&nbsp;이전&nbsp;부지를&nbsp;하나의&nbsp;축으로&nbsp;연결,&nbsp;인공지능&nbsp;전환(AX)을&nbsp;지원하는&nbsp;산업&nbsp;클러스터&nbsp;조성&nbsp;및&nbsp;관련&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인프라&nbsp;연계:&nbsp;물리적으로&nbsp;떨어진&nbsp;거점들을&nbsp;유기적으로&nbsp;연결하여&nbsp;시너지&nbsp;효과&nbsp;극대화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부&nbsp;및&nbsp;시(市)의&nbsp;드론실증센터,&nbsp;수성알파시&nbsp;투자,&nbsp;DGIST&nbsp;글로벌&nbsp;캠퍼스&nbsp;등&nbsp;공약&nbsp;연계<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현재&nbsp;수성알파시티는&nbsp;고도화&nbsp;단계에&nbsp;있으며,&nbsp;연호지구&nbsp;개발&nbsp;및&nbsp;군부대&nbsp;이전&nbsp;부지확보&nbsp;등은&nbsp;관계&nbsp;기관과의&nbsp;협의&nbsp;및&nbsp;행정&nbsp;절차에&nbsp;따라&nbsp;중장기적인&nbsp;로드맵으로&nbsp;진행될&nbsp;예정<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;시비,&nbsp;민간&nbsp;투자&nbsp;유치,&nbsp;구비&nbsp;편성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비&nbsp;및&nbsp;시비&nbsp;확보:&nbsp;이재명&nbsp;정부&nbsp;AI&nbsp;3대&nbsp;강국&nbsp;국가&nbsp;거점&nbsp;사업&nbsp;연계&nbsp;등&nbsp;정부&nbsp;공모&nbsp;사업&nbsp;유치를&nbsp;통한&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;투자&nbsp;유치:&nbsp;AX&nbsp;파운드리&nbsp;벨트&nbsp;내&nbsp;기업&nbsp;유치를&nbsp;통한&nbsp;민간&nbsp;자본&nbsp;투입&nbsp;유도<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구비&nbsp;편성:&nbsp;수성구&nbsp;자체&nbsp;예산을&nbsp;통한&nbsp;기반&nbsp;시설&nbsp;조성&nbsp;및&nbsp;기업&nbsp;지원&nbsp;프로그램&nbsp;운영</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	교육 1번지 수성 - 수준 높은 교육도시 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="교육 1번지 수성 - 수준 높은 교육도시 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;입시&nbsp;위주&nbsp;교육을&nbsp;넘어&nbsp;AI·코딩&nbsp;등&nbsp;미래&nbsp;역량&nbsp;강화와&nbsp;돌봄/학습&nbsp;공간의&nbsp;획기적&nbsp;접근성&nbsp;향상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수준&nbsp;높은&nbsp;교육도시&nbsp;완성:&nbsp;'교육&nbsp;1번지'라는&nbsp;명성에&nbsp;걸맞게&nbsp;교육의&nbsp;질과&nbsp;수준을&nbsp;획기적으로&nbsp;향상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육격차&nbsp;해소:&nbsp;소외받는&nbsp;미래세대가&nbsp;없는&nbsp;보편적&nbsp;교육&nbsp;복지&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학습&nbsp;접근성&nbsp;강화:&nbsp;집&nbsp;근처&nbsp;어디서든&nbsp;편리하게&nbsp;학습할&nbsp;수&nbsp;있는&nbsp;환경&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;교육&nbsp;인프라&nbsp;확충&nbsp;(집&nbsp;앞&nbsp;5분&nbsp;거리)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합&nbsp;교육&nbsp;프로그램&nbsp;운영:&nbsp;방과&nbsp;후&nbsp;수업,&nbsp;AI,&nbsp;코딩,&nbsp;예체능을&nbsp;아우르는&nbsp;통합&nbsp;교육&nbsp;과정&nbsp;제공&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학습&nbsp;보충&nbsp;시스템&nbsp;구축:&nbsp;'수성&nbsp;ON'&nbsp;교과보충교실&nbsp;운영을&nbsp;통해&nbsp;학생들의&nbsp;학업&nbsp;역량&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;'에듀스테이'&nbsp;조성:&nbsp;안전하고&nbsp;수준&nbsp;높은&nbsp;교육/돌봄&nbsp;공간&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;'스터디라운지'&nbsp;조성:&nbsp;쾌적한&nbsp;자기주도&nbsp;학습&nbsp;공간&nbsp;마련<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존의&nbsp;교육&nbsp;지원&nbsp;사업을&nbsp;'수성&nbsp;ON',&nbsp;'에듀스테이'&nbsp;등의&nbsp;브랜드로&nbsp;통합&nbsp;및&nbsp;고도화하여&nbsp;임기&nbsp;중&nbsp;순차적으로&nbsp;권역별&nbsp;거점을&nbsp;확보하고&nbsp;운영을&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;시비,&nbsp;민간&nbsp;투자&nbsp;유치,&nbsp;구비&nbsp;편성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수성구&nbsp;교육재정&nbsp;활용:&nbsp;수성구청의&nbsp;자체&nbsp;교육&nbsp;지원&nbsp;예산&nbsp;및&nbsp;교육경비&nbsp;보조금&nbsp;편성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육청&nbsp;협력:&nbsp;대구시&nbsp;교육청과의&nbsp;협력을&nbsp;통한&nbsp;예산&nbsp;분담&nbsp;및&nbsp;공동&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공시설&nbsp;활용:&nbsp;기존의&nbsp;주민센터,&nbsp;도서관&nbsp;등&nbsp;공공&nbsp;유휴&nbsp;공간을&nbsp;리모델링하여&nbsp;'에듀스테이'&nbsp;및&nbsp;'스터디라운지'&nbsp;조성&nbsp;비용&nbsp;절감</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	구민이 주인인 행정, 기다림 없는 구청</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="구민이 주인인 행정, 기다림 없는 구청">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;구민&nbsp;중심의&nbsp;행정&nbsp;실현으로&nbsp;구청의&nbsp;문턱을&nbsp;낮춤<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신속·투명·책임&nbsp;행정&nbsp;구현:&nbsp;대기&nbsp;없는&nbsp;신속한&nbsp;민원&nbsp;처리와&nbsp;재정&nbsp;및&nbsp;행정&nbsp;정보의&nbsp;전면&nbsp;공개를&nbsp;통한&nbsp;구민&nbsp;신뢰&nbsp;회복<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재정&nbsp;효율성&nbsp;극대화:&nbsp;구청&nbsp;금고&nbsp;운영의&nbsp;경쟁&nbsp;체제&nbsp;도입을&nbsp;통한&nbsp;이자&nbsp;수익&nbsp;및&nbsp;금융&nbsp;혜택&nbsp;최적화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;신속·투명·책임&nbsp;행정&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘제로&nbsp;웨이팅(Zero-Waiting)’&nbsp;시스템&nbsp;도입:&nbsp;민원&nbsp;접수&nbsp;후&nbsp;24시간&nbsp;이내&nbsp;현장&nbsp;확인&nbsp;실시,&nbsp;72시간&nbsp;이내&nbsp;문제&nbsp;해결&nbsp;또는&nbsp;구체적인&nbsp;처리&nbsp;계획&nbsp;답변&nbsp;완료<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행정·재정&nbsp;투명&nbsp;전광판&nbsp;운영:&nbsp;구청의&nbsp;예산&nbsp;집행&nbsp;내역&nbsp;및&nbsp;주요&nbsp;행정&nbsp;절차를&nbsp;구민이&nbsp;상시&nbsp;확인할&nbsp;수&nbsp;있도록&nbsp;온·오프라인&nbsp;전광판을&nbsp;통해&nbsp;전면&nbsp;공개<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구청&nbsp;금고&nbsp;금리&nbsp;경쟁입찰제&nbsp;시행:&nbsp;기존의&nbsp;관행적인&nbsp;금고&nbsp;지정&nbsp;방식에서&nbsp;벗어나,&nbsp;시중&nbsp;은행&nbsp;간의&nbsp;금리&nbsp;경쟁입찰을&nbsp;통해&nbsp;구&nbsp;재정&nbsp;수익을&nbsp;높이고&nbsp;금융&nbsp;서비스의&nbsp;질&nbsp;향상<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;시작&nbsp;즉시&nbsp;착수<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1년&nbsp;차:&nbsp;제로&nbsp;웨이팅&nbsp;운영&nbsp;조례&nbsp;제정&nbsp;및&nbsp;전용&nbsp;시스템(전광판&nbsp;등)&nbsp;인프라&nbsp;구축.&nbsp;금고&nbsp;운영&nbsp;규정&nbsp;개정&nbsp;및&nbsp;입찰&nbsp;준비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2년&nbsp;차~임기&nbsp;내:&nbsp;시스템&nbsp;상시&nbsp;운영&nbsp;및&nbsp;분기별&nbsp;투명성&nbsp;평가&nbsp;보고서&nbsp;발간<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;기존&nbsp;예산&nbsp;효율화:&nbsp;불필요한&nbsp;홍보성&nbsp;예산&nbsp;및&nbsp;전시&nbsp;행정&nbsp;비용을&nbsp;절감하여&nbsp;시스템&nbsp;구축&nbsp;및&nbsp;운영비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자체&nbsp;예산&nbsp;편성:&nbsp;구&nbsp;일반&nbsp;회계&nbsp;내&nbsp;'스마트&nbsp;행정&nbsp;구축'&nbsp;및&nbsp;'민원&nbsp;처리&nbsp;강화'항목으로&nbsp;예산&nbsp;편성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수익&nbsp;증대분&nbsp;활용:&nbsp;금고&nbsp;금리&nbsp;경쟁입찰을&nbsp;통해&nbsp;발생하는&nbsp;추가&nbsp;이자&nbsp;수익을&nbsp;해당&nbsp;행정&nbsp;시스템&nbsp;유지&nbsp;관리&nbsp;비용으로&nbsp;재투자.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	막힘없는 교통, 생활권이 빨라집니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="막힘없는 교통, 생활권이 빨라집니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;출퇴근&nbsp;시간의&nbsp;획기적&nbsp;단축:&nbsp;주요&nbsp;도시철도망&nbsp;확충과&nbsp;도로&nbsp;개설을&nbsp;통해&nbsp;구민의&nbsp;이동권&nbsp;보장&nbsp;및&nbsp;교통&nbsp;정체&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지능형&nbsp;교통&nbsp;체계&nbsp;구축:&nbsp;AI&nbsp;기술을&nbsp;도입하여&nbsp;지역&nbsp;내&nbsp;고질적인&nbsp;교통&nbsp;불편을&nbsp;근본적으로&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;간&nbsp;연결성&nbsp;강화:&nbsp;수성구&nbsp;전역을&nbsp;잇는&nbsp;촘촘한&nbsp;교통망&nbsp;형성을&nbsp;통한&nbsp;지역&nbsp;균형&nbsp;발전&nbsp;도모<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;철도망&nbsp;확충&nbsp;및&nbsp;조기&nbsp;추진:&nbsp;3호선&nbsp;연장&nbsp;및&nbsp;6호선(수성남부선)&nbsp;신설,&nbsp;엑스코선(도시철도&nbsp;4호선)&nbsp;조기&nbsp;착공&nbsp;지원을&nbsp;추진하여&nbsp;교통&nbsp;사각지대&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트&nbsp;교통&nbsp;인프라&nbsp;도입:&nbsp;실시간&nbsp;교통량&nbsp;분석을&nbsp;통한&nbsp;AI&nbsp;교통신호&nbsp;시스템&nbsp;도입으로&nbsp;신호&nbsp;체계&nbsp;최적화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;직결&nbsp;도로&nbsp;및&nbsp;터널&nbsp;개설:&nbsp;황금동&nbsp;~&nbsp;범안삼거리&nbsp;구간의&nbsp;도로&nbsp;개설(터널&nbsp;포함)을&nbsp;통해&nbsp;상습&nbsp;정체&nbsp;구간&nbsp;분산&nbsp;및&nbsp;우회&nbsp;도로&nbsp;확보<br><br>□&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진&nbsp;(단기/중장기&nbsp;병행)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단기(1~2년&nbsp;차):&nbsp;AI&nbsp;교통신호&nbsp;시스템&nbsp;시범&nbsp;도입&nbsp;및&nbsp;황금동~범안삼거리&nbsp;도로&nbsp;개설을&nbsp;위한&nbsp;대구시&nbsp;협의&nbsp;및&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중장기(임기&nbsp;내):&nbsp;엑스코선&nbsp;조기&nbsp;착공을&nbsp;위한&nbsp;행정&nbsp;지원&nbsp;강화,&nbsp;3호선&nbsp;연장&nbsp;및&nbsp;6호선&nbsp;신설&nbsp;국비&nbsp;시비&nbsp;확보를&nbsp;위한&nbsp;정부&nbsp;및&nbsp;대구시&nbsp;협의&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;시비&nbsp;확보:&nbsp;도시철도&nbsp;건설(엑스코선,&nbsp;3호선&nbsp;연장,&nbsp;6호선)&nbsp;및&nbsp;주요&nbsp;도로&nbsp;건설은&nbsp;대규모&nbsp;예산이&nbsp;소요되므로&nbsp;중앙정부&nbsp;및&nbsp;대구시의&nbsp;협력을&nbsp;통한&nbsp;국가통합교통체계&nbsp;효율화&nbsp;사업&nbsp;등&nbsp;국고&nbsp;보조금&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방비&nbsp;편성:&nbsp;구&nbsp;예산&nbsp;중&nbsp;도로&nbsp;건설&nbsp;및&nbsp;유지&nbsp;보수&nbsp;관련&nbsp;항목의&nbsp;예산을&nbsp;우선&nbsp;순위에&nbsp;따라&nbsp;배정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민관&nbsp;협력&nbsp;및&nbsp;공모&nbsp;사업:&nbsp;AI&nbsp;교통&nbsp;시스템&nbsp;도입을&nbsp;위한&nbsp;국토교통부&nbsp;'스마트시티'&nbsp;관련&nbsp;공모&nbsp;사업&nbsp;참여&nbsp;및&nbsp;민간&nbsp;기술&nbsp;협력&nbsp;추진.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	청년 U턴 대작전 - 청년이 돌아오는 수성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="청년 U턴 대작전 - 청년이 돌아오는 수성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;인구&nbsp;유입&nbsp;및&nbsp;정착&nbsp;유도:&nbsp;청년들이&nbsp;떠나지&nbsp;않고&nbsp;다시&nbsp;돌아오는&nbsp;역동적인&nbsp;지역&nbsp;사회&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경제적&nbsp;자립&nbsp;기반&nbsp;마련:&nbsp;청년&nbsp;기본소득과&nbsp;이자&nbsp;부담&nbsp;없는&nbsp;지원을&nbsp;통해&nbsp;안정적인&nbsp;미래&nbsp;설계&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;친화적&nbsp;생태계&nbsp;구축:&nbsp;창업,&nbsp;주거,&nbsp;일자리가&nbsp;유기적으로&nbsp;연결되는&nbsp;통합&nbsp;지원&nbsp;체계&nbsp;확립<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경제적&nbsp;자산&nbsp;형성&nbsp;지원:&nbsp;청년&nbsp;기본소득&nbsp;개념의&nbsp;‘꿈틀&nbsp;계좌’&nbsp;도입으로&nbsp;초기&nbsp;자산&nbsp;형성&nbsp;및&nbsp;활동비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주거&nbsp;및&nbsp;금융&nbsp;부담&nbsp;완화:&nbsp;청년&nbsp;행복주택&nbsp;공급&nbsp;확대를&nbsp;통해&nbsp;주거&nbsp;안정성&nbsp;확보.&nbsp;창업&nbsp;및&nbsp;주거&nbsp;자금&nbsp;대출&nbsp;시&nbsp;이자&nbsp;부담&nbsp;제로(Zero)를&nbsp;위한&nbsp;이차보전&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일자리&nbsp;및&nbsp;취·창업&nbsp;활성화:&nbsp;취·창업&nbsp;지원과&nbsp;연계한&nbsp;지역&nbsp;특화&nbsp;일자리&nbsp;창출.&nbsp;청년&nbsp;창업가를&nbsp;위한&nbsp;공간&nbsp;지원&nbsp;및&nbsp;맞춤형&nbsp;컨설팅&nbsp;제공<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1년&nbsp;차:&nbsp;‘꿈틀&nbsp;계좌’&nbsp;및&nbsp;이자&nbsp;지원&nbsp;사업을&nbsp;위한&nbsp;조례&nbsp;제정&nbsp;및&nbsp;대상자&nbsp;수요&nbsp;조사<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2~3년&nbsp;차:&nbsp;청년&nbsp;행복주택&nbsp;부지확보&nbsp;및&nbsp;착공,&nbsp;이자&nbsp;지원&nbsp;사업&nbsp;본격&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4년&nbsp;차:&nbsp;일자리&nbsp;창출&nbsp;성과&nbsp;분석&nbsp;및&nbsp;청년&nbsp;정착&nbsp;통합&nbsp;서비스&nbsp;센터&nbsp;고도화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구비&nbsp;및&nbsp;매칭&nbsp;펀드&nbsp;조성:&nbsp;구&nbsp;예산의&nbsp;‘청년&nbsp;발전&nbsp;기금’을&nbsp;확충하고,&nbsp;시비&nbsp;및&nbsp;국비&nbsp;매칭&nbsp;사업을&nbsp;적극&nbsp;발굴<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민관&nbsp;협력&nbsp;및&nbsp;금융권&nbsp;협약:&nbsp;이자&nbsp;부담&nbsp;없는&nbsp;대출&nbsp;지원을&nbsp;위해&nbsp;시중&nbsp;은행과&nbsp;업무&nbsp;협약(MOU)을&nbsp;체결하고,&nbsp;구청이&nbsp;이자&nbsp;차액을&nbsp;보전하는&nbsp;방식&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시재생&nbsp;및&nbsp;공공기여금&nbsp;활용:&nbsp;청년&nbsp;행복주택&nbsp;건립&nbsp;시&nbsp;도시재생&nbsp;사업비나&nbsp;개발&nbsp;이익에&nbsp;따른&nbsp;공공기여금을&nbsp;연계하여&nbsp;건설&nbsp;비용&nbsp;절감.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

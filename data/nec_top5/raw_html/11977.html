@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이수희 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	서울시 최초 IB교육 국제화특구 지정</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="서울시 최초 IB교육 국제화특구 지정">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            강동을&nbsp;명문&nbsp;학군으로&nbsp;발전시키겠습니다.&nbsp;<br>IB(인터내셔널&nbsp;바칼로레아)는&nbsp;토론·논술·자기주도&nbsp;학습&nbsp;중심의&nbsp;글로벌&nbsp;교육&nbsp;프로그램입니다.&nbsp;앞으로의&nbsp;대입&nbsp;제도가&nbsp;논술과&nbsp;주관식&nbsp;위주로&nbsp;변해갈&nbsp;것에&nbsp;대비해&nbsp;강동형&nbsp;초·중등&nbsp;글로벌&nbsp;교육&nbsp;프로그램을&nbsp;개발하겠습니다.&nbsp;IB교육국제화&nbsp;3개년&nbsp;계획을&nbsp;추진해&nbsp;서울시&nbsp;최초&nbsp;IB교육국제화특구&nbsp;지정을&nbsp;받아내고,&nbsp;고교&nbsp;학점제에&nbsp;대비해&nbsp;이미&nbsp;본&nbsp;궤도에&nbsp;오른&nbsp;‘더&nbsp;베스트&nbsp;강동&nbsp;교육벨트’와&nbsp;함께&nbsp;명문&nbsp;학군&nbsp;강동을&nbsp;만들겠습니다.&nbsp;<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;강동형&nbsp;초·중등&nbsp;글로벌&nbsp;자기주도&nbsp;프로그램&nbsp;개발로&nbsp;교육국제화<br><br>□&nbsp;이행순서<br>&nbsp;&nbsp;○&nbsp;최우선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○①&nbsp;구청&nbsp;내&nbsp;국제화특구&nbsp;추진&nbsp;팀&nbsp;구성&nbsp;②&nbsp;교육청&nbsp;협의&nbsp;추진.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○구비·교육청&nbsp;예산</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	가속도 붙은 재개발·재건축 속도</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="가속도 붙은 재개발·재건축 속도">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            2022년&nbsp;둔촌주동&nbsp;공사중단&nbsp;사태&nbsp;당시&nbsp;TF&nbsp;팀을&nbsp;꾸려&nbsp;공사&nbsp;재개를&nbsp;이끌었듯,&nbsp;구청장&nbsp;직속&nbsp;도시개발&nbsp;TF를&nbsp;통해&nbsp;재개발·재건축을&nbsp;계속해서&nbsp;신속하게&nbsp;지원하겠습니다.&nbsp;행정이&nbsp;민간의&nbsp;발목을&nbsp;잡는&nbsp;일이&nbsp;없도록,&nbsp;이미&nbsp;운영&nbsp;중인&nbsp;명일&nbsp;재건축&nbsp;TF팀처럼&nbsp;적극적으로&nbsp;강동구&nbsp;내&nbsp;다양한&nbsp;지역에서&nbsp;추진되고&nbsp;있는&nbsp;재개발과&nbsp;재건축·&nbsp;리모델링&nbsp;사업을&nbsp;지원해&nbsp;강동의&nbsp;가치를&nbsp;높이겠습니다.&nbsp;&nbsp;<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○강동구&nbsp;주거환경&nbsp;개선&nbsp;및&nbsp;정비사업&nbsp;신속&nbsp;지원.<br><br>□&nbsp;이행순서<br>&nbsp;&nbsp;○&nbsp;최우선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;①&nbsp;구청장&nbsp;직속&nbsp;도시개발&nbsp;TF&nbsp;설치&nbsp;→②&nbsp;재개발·재건축·리모델링&nbsp;행정&nbsp;신속&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;비예산&nbsp;사업/사업자&nbsp;부담(단,&nbsp;기반시설&nbsp;정비는&nbsp;시비·구비&nbsp;협력&nbsp;추진)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	더 빠르게 여는 GTX-D 강동 시대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="더 빠르게 여는 GTX-D 강동 시대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            GTX-D&nbsp;노선의&nbsp;강동&nbsp;경유가&nbsp;2024년&nbsp;확정됐습니다.&nbsp;2026년&nbsp;하반기&nbsp;발표&nbsp;예정인&nbsp;제5차&nbsp;국가철도망&nbsp;구축계획(2026~2035)에&nbsp;강동구&nbsp;경유&nbsp;안이&nbsp;공식&nbsp;반영될&nbsp;수&nbsp;있도록&nbsp;하고,&nbsp;2035년에&nbsp;GTX-D가&nbsp;강동을&nbsp;경유해&nbsp;개통되기까지&nbsp;계속해서&nbsp;지원하겠습니다.&nbsp;아울러&nbsp;9호선&nbsp;4단계&nbsp;공사가&nbsp;제때&nbsp;마무리&nbsp;될&nbsp;수&nbsp;있도록&nbsp;계속&nbsp;지원하고,&nbsp;5·8·9&nbsp;호선의&nbsp;배차&nbsp;간격&nbsp;조정을&nbsp;통해&nbsp;혼잡도를&nbsp;개선하고,&nbsp;강동구&nbsp;내&nbsp;버스노선&nbsp;정비를&nbsp;통해&nbsp;관내&nbsp;이동편의성을&nbsp;높이겠습니다.&nbsp;<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○광역·도시철도&nbsp;확충과&nbsp;버스&nbsp;노선&nbsp;정비로&nbsp;강동&nbsp;교통&nbsp;편의&nbsp;실현<br><br>□&nbsp;이행&nbsp;순서<br>&nbsp;&nbsp;○최우선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;①&nbsp;국토부·서울시&nbsp;지속&nbsp;협의&nbsp;및&nbsp;사업&nbsp;추진&nbsp;촉구,&nbsp;②&nbsp;구비&nbsp;소관&nbsp;사업의&nbsp;경우&nbsp;예산&nbsp;편성·집행.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○국비·시비&nbsp;중심,&nbsp;구비&nbsp;보완&nbsp;편성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	강동 한강 그린웨이 사업으로, 강동 한강변을 주민에게</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="강동 한강 그린웨이 사업으로, 강동 한강변을 주민에게">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            일자산&nbsp;숲길에서&nbsp;출발해&nbsp;한강까지&nbsp;이어지는&nbsp;강동&nbsp;한강&nbsp;그린웨이&nbsp;사업을&nbsp;완성합니다.&nbsp;고덕산에&nbsp;그린&nbsp;브릿지(전망대)를&nbsp;설치해&nbsp;고덕산과&nbsp;한강을&nbsp;잇고,&nbsp;암사&nbsp;생태공원에서&nbsp;암사취수장,&nbsp;고덕천,&nbsp;가래여울마을까지&nbsp;4단계&nbsp;구간을&nbsp;연결해,&nbsp;강동&nbsp;한강변&nbsp;전&nbsp;구간을&nbsp;잇습니다.&nbsp;구민들이&nbsp;걸어서&nbsp;한강에&nbsp;닿는&nbsp;길을&nbsp;완성하고,&nbsp;한강&nbsp;노을맛집을&nbsp;즐길&nbsp;수&nbsp;있게&nbsp;하겠습니다.&nbsp;그밖에&nbsp;암사역사공원&nbsp;조성,&nbsp;일자산&nbsp;무장애&nbsp;숲길,&nbsp;반려견&nbsp;놀이터&nbsp;설치까지&nbsp;강동의&nbsp;자연을&nbsp;주민&nbsp;모두가&nbsp;함께&nbsp;누릴&nbsp;수&nbsp;있도록&nbsp;만들겠습니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○강동의&nbsp;숲과&nbsp;한강을&nbsp;잇는&nbsp;생태환경&nbsp;조성&nbsp;사업<br><br>□&nbsp;이행&nbsp;순서<br>&nbsp;&nbsp;○최우선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;①&nbsp;서울시·국토부·관계기관&nbsp;협의&nbsp;→&nbsp;예산&nbsp;편성·단계적&nbsp;집행.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○구비·시비·국비&nbsp;연계.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	영유아부터 어르신까지 3대가 행복한 복지 강동</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="영유아부터 어르신까지 3대가 행복한 복지 강동">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            어르신&nbsp;대상포진&nbsp;무료&nbsp;접종&nbsp;단계적&nbsp;확대,&nbsp;길동역&nbsp;에스컬레이터의&nbsp;빠른&nbsp;완공을&nbsp;비롯한&nbsp;지하철&nbsp;E/S사업&nbsp;추진으로&nbsp;어르신의&nbsp;보행권을&nbsp;지킵니다.&nbsp;서울형&nbsp;공공산후조리원&nbsp;개원,&nbsp;영어&nbsp;키즈카페&nbsp;신설,&nbsp;청년&nbsp;월세&nbsp;지원과&nbsp;이사비&nbsp;지원,&nbsp;발달장애인&nbsp;자립&nbsp;프로그램&nbsp;지원,&nbsp;보훈예우수당&nbsp;인상&nbsp;등&nbsp;전&nbsp;세대를&nbsp;꼼꼼히&nbsp;챙기는&nbsp;촘촘한&nbsp;강동형&nbsp;복지망을&nbsp;확대합니다.&nbsp;<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;강동구민의&nbsp;세대별&nbsp;복지&nbsp;확충&nbsp;및&nbsp;보훈&nbsp;예우&nbsp;강화.<br><br>□&nbsp;이행&nbsp;순서<br>&nbsp;&nbsp;○임기&nbsp;내&nbsp;계속<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;①&nbsp;대상별&nbsp;현황&nbsp;파악&nbsp;및&nbsp;사업별&nbsp;계획&nbsp;수립,&nbsp;②&nbsp;단계적&nbsp;추진.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구비&nbsp;중심,&nbsp;시비&nbsp;협력&nbsp;확대</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

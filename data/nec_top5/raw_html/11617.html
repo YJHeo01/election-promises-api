@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이동권 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	생활비 절감 혁신 (아이·가정·청년 지원)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="생활비 절감 혁신 (아이·가정·청년 지원)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;아동·청소년·출산&nbsp;가정의&nbsp;생활비&nbsp;부담을&nbsp;경감하고,&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;북구&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아동&nbsp;간식&nbsp;바우처&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공산후조리원&nbsp;이용료&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중·고등학생&nbsp;교통비&nbsp;지원<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;북구형&nbsp;생활지원&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;가맹점&nbsp;연계&nbsp;바우처&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;울산시&nbsp;및&nbsp;교육청&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;교통카드&nbsp;기반&nbsp;지원&nbsp;시스템&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;공공산후조리원&nbsp;협약&nbsp;확대<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;1년차&nbsp;:&nbsp;조례&nbsp;제정&nbsp;및&nbsp;시범사업&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;2~3년차&nbsp;:&nbsp;전면&nbsp;확대&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;4년차&nbsp;이후&nbsp;:&nbsp;지원&nbsp;안정화&nbsp;및&nbsp;대상&nbsp;확대&nbsp;검토<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구비&nbsp;+&nbsp;시비&nbsp;매칭사업<br>&nbsp;&nbsp;○&nbsp;보건복지부·교육부&nbsp;공모사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;유사사업&nbsp;통합&nbsp;조정<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;가맹점&nbsp;연계&nbsp;통한&nbsp;지역경제&nbsp;순환&nbsp;구조&nbsp;구축<br>□&nbsp;기대효과<br>&nbsp;&nbsp;○&nbsp;부모&nbsp;세대&nbsp;생활비&nbsp;부담&nbsp;완화<br>&nbsp;&nbsp;○&nbsp;출산·양육&nbsp;친화도시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;상권&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;청소년&nbsp;교육·이동권&nbsp;확대</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	교통·도시 혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="교통·도시 혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;북구&nbsp;교통체계&nbsp;개선과&nbsp;도시&nbsp;연결성&nbsp;회복을&nbsp;통해&nbsp;출퇴근&nbsp;시간&nbsp;단축&nbsp;및&nbsp;도시&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;트램&nbsp;및&nbsp;대중교통&nbsp;연계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농소~강동&nbsp;연결도로&nbsp;조기&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도로망&nbsp;확충&nbsp;및&nbsp;병목구간&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;그린벨트&nbsp;합리적&nbsp;조정<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주거·산업&nbsp;복합개발&nbsp;추진<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;울산시·국토교통부&nbsp;협의체&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;광역교통망&nbsp;연계&nbsp;계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;도시관리계획&nbsp;재정비&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;단계별&nbsp;교통&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;민관&nbsp;협력형&nbsp;개발&nbsp;추진<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;1년차&nbsp;:&nbsp;기본계획&nbsp;및&nbsp;타당성&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;2~3년차&nbsp;:&nbsp;핵심구간&nbsp;착공&nbsp;및&nbsp;단계별&nbsp;개통<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;4년차&nbsp;이후&nbsp;:&nbsp;광역교통망&nbsp;연계&nbsp;확대<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(국토부&nbsp;광역교통사업)<br>&nbsp;&nbsp;○&nbsp;울산시비&nbsp;매칭<br>&nbsp;&nbsp;○&nbsp;민간투자&nbsp;및&nbsp;공공개발&nbsp;병행<br>&nbsp;&nbsp;○&nbsp;특별교부세&nbsp;확보&nbsp;추진<br>□&nbsp;기대효과<br>&nbsp;&nbsp;○&nbsp;출퇴근&nbsp;시간&nbsp;단축<br>&nbsp;&nbsp;○&nbsp;생활권&nbsp;연결&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;교통&nbsp;혼잡&nbsp;완화<br>&nbsp;&nbsp;○&nbsp;산업·주거&nbsp;균형&nbsp;발전</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	일자리·산업 혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="일자리·산업 혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;미래산업&nbsp;육성과&nbsp;공공기관&nbsp;유치를&nbsp;통해&nbsp;양질의&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;북구&nbsp;성장&nbsp;동력&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;EV·수소&nbsp;산업&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공기관&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;울산&nbsp;공공의료원&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업단지&nbsp;고도화<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;산업부·울산시&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;투자유치&nbsp;전담&nbsp;TF&nbsp;운영기업&nbsp;유치&nbsp;인센티브&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;북울산역&nbsp;중심&nbsp;산업거점&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;의료·산업&nbsp;연계&nbsp;전략&nbsp;추진<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;1년차&nbsp;:&nbsp;유치&nbsp;대상기관&nbsp;선정&nbsp;및&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;2~3년차&nbsp;:&nbsp;기업·기관&nbsp;유치&nbsp;및&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;4년차&nbsp;이후&nbsp;:&nbsp;산업&nbsp;집적화&nbsp;및&nbsp;확대&nbsp;추진<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(산업부·중기부·보건복지부)<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;투자&nbsp;유치울산시&nbsp;공동&nbsp;재원&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;산업단지&nbsp;개발&nbsp;연계사업&nbsp;활용<br>□&nbsp;기대효과<br>&nbsp;&nbsp;○&nbsp;일자리&nbsp;5,000개&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;정착&nbsp;기반&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;미래산업&nbsp;경쟁력&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;의료서비스&nbsp;확대</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	힐링·문화도시 혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="힐링·문화도시 혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;삶의&nbsp;질&nbsp;향상과&nbsp;역사·문화·생태&nbsp;기반&nbsp;도시&nbsp;브랜드&nbsp;구축<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;울산숲&nbsp;연계&nbsp;녹지축&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;제2수목원&nbsp;및&nbsp;생태공원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;달천철장·기박산성&nbsp;관광자원화<br>&nbsp;&nbsp;○&nbsp;시민대학&nbsp;및&nbsp;문화교육&nbsp;인프라&nbsp;구축<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계별&nbsp;추진&nbsp;(1단계&nbsp;기본계획&nbsp;→&nbsp;2단계&nbsp;조성&nbsp;→&nbsp;3단계&nbsp;확대&nbsp;운영)<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;산림청·문화체육관광부&nbsp;공모사업<br>&nbsp;&nbsp;○&nbsp;지방정원&nbsp;조성사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;국·시비&nbsp;매칭사업&nbsp;활용<br>□&nbsp;기대효과<br>&nbsp;&nbsp;○&nbsp;정주&nbsp;만족도&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;관광·문화&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;도시&nbsp;브랜드&nbsp;가치&nbsp;상승</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	사람중심·노동존중 혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="사람중심·노동존중 혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;노동이&nbsp;존중받고&nbsp;주민이&nbsp;참여하는&nbsp;안전한&nbsp;북구&nbsp;조성<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;버스노선&nbsp;개편&nbsp;및&nbsp;이동권&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;공영주차장·소방도로&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;산업재해&nbsp;예방체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;노동복지&nbsp;및&nbsp;의료서비스&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;주민참여&nbsp;정책플랫폼&nbsp;운영<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;1년차&nbsp;:&nbsp;실태조사&nbsp;및&nbsp;시범사업<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;2~3년차&nbsp;:&nbsp;본격&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;4년차&nbsp;이후&nbsp;:&nbsp;정책&nbsp;안정화<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(고용노동부·행안부)<br>&nbsp;&nbsp;○&nbsp;울산시&nbsp;협력사업<br>&nbsp;&nbsp;○&nbsp;생활SOC&nbsp;및&nbsp;특별교부세&nbsp;활용<br>□&nbsp;기대효과<br>&nbsp;&nbsp;○&nbsp;노동환경&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;생활&nbsp;불편&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;참여행정&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;안전도시&nbsp;구축</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

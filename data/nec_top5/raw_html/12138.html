@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;전희영 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	지역순환 경제체계 마련</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="지역순환 경제체계 마련">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;지역공공서비스의&nbsp;공영화·재공영화<br>○&nbsp;지역공동체의&nbsp;자산으로&nbsp;전환하는&nbsp;과정에서&nbsp;생성된&nbsp;이익을&nbsp;지역으로&nbsp;축적,&nbsp;발전시키는&nbsp;지역순환경제&nbsp;실현&nbsp;<br>&nbsp;<br>□&nbsp;이행방법<br>○&nbsp;지역이&nbsp;소유하고,&nbsp;지역으로&nbsp;이익이&nbsp;돌아가는&nbsp;지역공공재생에너지&nbsp;전환<br>-&nbsp;법&nbsp;개정으로&nbsp;지역&nbsp;재생에너지&nbsp;자립,&nbsp;자연력을&nbsp;활용한&nbsp;재생에너지는&nbsp;공공&nbsp;소유&nbsp;및&nbsp;운영,&nbsp;주민&nbsp;참여&nbsp;의무화&nbsp;및&nbsp;지역사회&nbsp;환원&nbsp;원칙&nbsp;명시&nbsp;<br>-&nbsp;정의로운&nbsp;전환과&nbsp;공공&nbsp;일자리&nbsp;창출<br>-&nbsp;지역공공에너지공사(공단)&nbsp;설립&nbsp;<br><br>○&nbsp;지역경제를&nbsp;살릴&nbsp;대안금융,&nbsp;지역공공은행&nbsp;설립&nbsp;<br>-&nbsp;지자체&nbsp;금고&nbsp;기능&nbsp;수행<br>-&nbsp;공공서비스의&nbsp;안정적&nbsp;공급&nbsp;및&nbsp;공영화를&nbsp;위한&nbsp;자금&nbsp;지원<br>-&nbsp;서민&nbsp;지원&nbsp;및&nbsp;금융소외&nbsp;해소&nbsp;위해&nbsp;지역금융기관과&nbsp;협력<br>-&nbsp;지역&nbsp;공공은행&nbsp;운영에&nbsp;주민,&nbsp;노동자,&nbsp;전문가&nbsp;참여&nbsp;보장<br><br>○&nbsp;지역의&nbsp;돈이&nbsp;지역을&nbsp;돌게!&nbsp;지역순환경제&nbsp;구축&nbsp;&nbsp;&nbsp;<br>-&nbsp;「지역재투자법」제정&nbsp;및&nbsp;‘지역재투자기금’설치&nbsp;&nbsp;<br>-&nbsp;지역화폐&nbsp;확대&nbsp;<br>-&nbsp;공공조달&nbsp;활성화&nbsp;<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;시작&nbsp;시부터~&nbsp;<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;조례&nbsp;개정,&nbsp;일반회계·특별회계(교통시설&nbsp;특별회계,&nbsp;에너지&nbsp;및&nbsp;자원사업&nbsp;특별회계,&nbsp;도시재생&nbsp;특별회계&nbsp;등)·기금의&nbsp;재편&nbsp;및&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	노동중심 경남도정 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="노동중심 경남도정 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>&nbsp;&nbsp;○&nbsp;노동자의&nbsp;협상력&nbsp;강화,&nbsp;일하는&nbsp;모든&nbsp;사람의&nbsp;노동권&nbsp;보장,&nbsp;성평등하고&nbsp;안전한&nbsp;일터&nbsp;실현,&nbsp;사람중심의&nbsp;AI전환,&nbsp;질&nbsp;좋은&nbsp;일자리&nbsp;확대로&nbsp;노동중심&nbsp;지방정부&nbsp;실현&nbsp;<br><br>□&nbsp;이행방법<br>○&nbsp;초기업교섭·노정교섭&nbsp;활성화&nbsp;<br>-&nbsp;지방정부부터&nbsp;모범사용자가&nbsp;되어&nbsp;노정교섭&nbsp;전개,&nbsp;노동조합의&nbsp;실질적&nbsp;참여,&nbsp;협의권&nbsp;<br>보장&nbsp;<br>-&nbsp;산업단지·플랫폼·서비스업&nbsp;등&nbsp;영역별&nbsp;초기업&nbsp;교섭&nbsp;모델&nbsp;발굴&nbsp;지원&nbsp;&nbsp;<br><br>○&nbsp;일하는&nbsp;모든&nbsp;사람의&nbsp;노동권&nbsp;보장&nbsp;<br>-&nbsp;공공서비스&nbsp;민간위탁&nbsp;단계적&nbsp;직영화,&nbsp;위험의&nbsp;외주화&nbsp;금지&nbsp;<br>-&nbsp;5인&nbsp;미만&nbsp;사업장&nbsp;보호:&nbsp;근로기준법&nbsp;개정,&nbsp;지자체가&nbsp;먼저&nbsp;5인&nbsp;미만&nbsp;사업장&nbsp;노동자의&nbsp;휴일·연장·야간근무수당&nbsp;지원,&nbsp;영세사업장&nbsp;행정&nbsp;및&nbsp;재정&nbsp;지원&nbsp;<br>-&nbsp;프리랜서·온라인&nbsp;플랫폼&nbsp;노동자&nbsp;경력인정&nbsp;및&nbsp;권리보장&nbsp;및&nbsp;하청노동자지원&nbsp;조례&nbsp;제정&nbsp;&nbsp;-&nbsp;조례&nbsp;제정으로&nbsp;돌봄노동자&nbsp;권리&nbsp;보장&nbsp;및&nbsp;돌봄노동자지원센터&nbsp;설치,&nbsp;사회서비스원&nbsp;직고용&nbsp;확대&nbsp;<br>-&nbsp;청년&nbsp;이직&nbsp;안전망&nbsp;구축:&nbsp;청년이직준비급여&nbsp;제공&nbsp;&nbsp;<br><br>○&nbsp;채용부터&nbsp;퇴직까지&nbsp;성평등한&nbsp;일터&nbsp;<br>-&nbsp;성평등임금공시제&nbsp;도입으로&nbsp;성별임금격차&nbsp;해소&nbsp;<br>-&nbsp;채용&nbsp;시&nbsp;결혼·임신·출산&nbsp;계획&nbsp;질문&nbsp;성차별&nbsp;행위&nbsp;규정,&nbsp;징벌적&nbsp;손해배상제&nbsp;도입<br>-&nbsp;배제없는&nbsp;육아휴직제와&nbsp;남성육아휴직&nbsp;할당제(40%)&nbsp;도입&nbsp;<br>-&nbsp;출산과&nbsp;육아휴직&nbsp;후&nbsp;‘바로복직제’&nbsp;도입과&nbsp;여성&nbsp;대표성&nbsp;제고&nbsp;&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;시작&nbsp;시부터~&nbsp;<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;조례&nbsp;개정,&nbsp;일반·특별회계·기금의&nbsp;전면&nbsp;재편과&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	공공이 책임지는 돌봄 의료 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="공공이 책임지는 돌봄 의료 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>○&nbsp;돌봄받을&nbsp;권리,&nbsp;돌볼&nbsp;권리가&nbsp;보장되는&nbsp;돌봄도시&nbsp;건설&nbsp;<br>○&nbsp;지역&nbsp;간&nbsp;의료&nbsp;격차&nbsp;해소,&nbsp;공공의료&nbsp;강화로&nbsp;시민의&nbsp;건강권&nbsp;보장&nbsp;<br>&nbsp;<br>□&nbsp;이행방법<br>○&nbsp;돌봄받을&nbsp;권리,&nbsp;돌볼&nbsp;권리가&nbsp;보장되는&nbsp;돌봄&nbsp;도시&nbsp;<br>-&nbsp;공공&nbsp;주도로&nbsp;집에서&nbsp;의료·돌봄받는&nbsp;지역사회&nbsp;통합돌봄&nbsp;실현,&nbsp;통합돌봄&nbsp;예산&nbsp;확대&nbsp;돌봄노동자&nbsp;권리&nbsp;보장&nbsp;및&nbsp;처우&nbsp;개선&nbsp;<br>-&nbsp;우리동네&nbsp;아이돌봄센터(22시까지&nbsp;연장돌봄,&nbsp;야간·주말&nbsp;긴급&nbsp;돌봄,&nbsp;아픈아이&nbsp;돌봄&nbsp;등&nbsp;다양한&nbsp;형태&nbsp;돌봄&nbsp;운영)설립으로&nbsp;돌봄&nbsp;공백&nbsp;해소&nbsp;<br><br>○&nbsp;공공의료&nbsp;강화&nbsp;<br>-&nbsp;공공병원&nbsp;확대&nbsp;및&nbsp;시·군에&nbsp;한&nbsp;개&nbsp;이상의&nbsp;공공산후조리원&nbsp;확충,&nbsp;공공산후조리원과&nbsp;연계된&nbsp;공공산부인과의원&nbsp;운영&nbsp;<br>-&nbsp;응급의료&nbsp;전문의&nbsp;확대와&nbsp;공공응급센터&nbsp;설립,&nbsp;지역응급상담센터&nbsp;설치<br><br>○&nbsp;의료인력확충으로&nbsp;질&nbsp;좋은&nbsp;의료&nbsp;보장&nbsp;<br>-&nbsp;국립대&nbsp;의대&nbsp;정원&nbsp;확대,&nbsp;공공의료&nbsp;사관학교(공공의대)&nbsp;신설&nbsp;확대,&nbsp;지역의사제&nbsp;30%&nbsp;의무&nbsp;&nbsp;<br>-&nbsp;간호사&nbsp;1인당&nbsp;환자&nbsp;수&nbsp;법제화&nbsp;및&nbsp;간호인력확충으로&nbsp;간호간병통합서비스&nbsp;전면화&nbsp;<br><br>○&nbsp;우리동네&nbsp;빈틈없는&nbsp;어린이&nbsp;응급·야간&nbsp;진료&nbsp;<br>-&nbsp;달빛어린이병원&nbsp;및&nbsp;지자체형&nbsp;야간&nbsp;지정&nbsp;의료기관&nbsp;확대<br>-&nbsp;지역&nbsp;맞춤형&nbsp;소아&nbsp;야간상담센터&nbsp;운영&nbsp;&nbsp;<br>-&nbsp;어린이&nbsp;전문&nbsp;공공병원&nbsp;설립,&nbsp;어린이&nbsp;전문&nbsp;공공병원&nbsp;내&nbsp;어린이&nbsp;재활센터&nbsp;설치&nbsp;&nbsp;<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;시작&nbsp;시부터~&nbsp;<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;조례&nbsp;개정,&nbsp;일반·특별회계·기금의&nbsp;전면&nbsp;재편과&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	농민이 웃을 수 있는 ‘농업 공공성 강화 및 농민 생존권 보장’</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="농민이 웃을 수 있는 ‘농업 공공성 강화 및 농민 생존권 보장’">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;인구&nbsp;감소와&nbsp;고령화로&nbsp;소멸&nbsp;위기에&nbsp;놓인&nbsp;농촌의&nbsp;소득을&nbsp;올리고&nbsp;지역경제를&nbsp;활성화시킵니다.&nbsp;&nbsp;<br>○&nbsp;자식처럼&nbsp;키운&nbsp;농작물을&nbsp;보며&nbsp;농민이&nbsp;웃을&nbsp;수&nbsp;있는&nbsp;생존권을&nbsp;지켜냅니다.&nbsp;&nbsp;<br><br>□&nbsp;이행방법<br>○&nbsp;농업이&nbsp;가진&nbsp;공익적&nbsp;기능에&nbsp;대해&nbsp;국가와&nbsp;경남도가&nbsp;책임지는&nbsp;사회적&nbsp;보상을&nbsp;강화합니다.&nbsp;&nbsp;<br>○&nbsp;경남&nbsp;농민수당을&nbsp;대폭&nbsp;인상하여&nbsp;농가의&nbsp;실질&nbsp;소득을&nbsp;보장합니다.&nbsp;&nbsp;<br>○&nbsp;기후&nbsp;위기에&nbsp;대응하여&nbsp;기후재난&nbsp;지원금&nbsp;제도를&nbsp;적극&nbsp;시행합니다.&nbsp;&nbsp;<br>○&nbsp;농자재&nbsp;가격&nbsp;상승으로&nbsp;인한&nbsp;농민&nbsp;부담을&nbsp;줄이기&nbsp;위해&nbsp;필수농자재&nbsp;지원제도를&nbsp;도입&nbsp;및&nbsp;시행합니다.&nbsp;&nbsp;<br><br>□&nbsp;이행기간<br>○&nbsp;제9회&nbsp;민선&nbsp;경상남도지사&nbsp;임기&nbsp;내&nbsp;(2026년&nbsp;~&nbsp;2030년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;경상남도&nbsp;농업&nbsp;지원&nbsp;예산&nbsp;증액&nbsp;및&nbsp;국고보조금&nbsp;매칭</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	땀 흘려 일하는 사람들을 위한 '경남형 일자리 보장제' 및 '부울경 일자리 동맹' 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="땀 흘려 일하는 사람들을 위한 '경남형 일자리 보장제' 및 '부울경 일자리 동맹' 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;청년들이&nbsp;나쁜&nbsp;일자리로&nbsp;인해&nbsp;떠나는&nbsp;지역&nbsp;유출&nbsp;문제를&nbsp;해결하고&nbsp;양질의&nbsp;일자리를&nbsp;창출합니다.&nbsp;&nbsp;<br>○&nbsp;땀&nbsp;흘려&nbsp;일하는&nbsp;노동자들의&nbsp;고용안정과&nbsp;실질&nbsp;소득을&nbsp;높여&nbsp;지역&nbsp;민생과&nbsp;경제를&nbsp;밑바닥&nbsp;부터&nbsp;살려냅니다.&nbsp;&nbsp;<br><br>□&nbsp;이행방법<br>○&nbsp;일시적&nbsp;고용이&nbsp;아닌,&nbsp;제대로&nbsp;대우받으며&nbsp;공익을&nbsp;위해&nbsp;일할&nbsp;수&nbsp;있도록&nbsp;돌봄,&nbsp;요양,&nbsp;복지,&nbsp;보건의료,&nbsp;기후환경&nbsp;등&nbsp;사회&nbsp;필수&nbsp;일자리&nbsp;중심의&nbsp;공공일자리를&nbsp;확대합니다.&nbsp;&nbsp;<br>○&nbsp;경상남도&nbsp;산하기관부터&nbsp;좋은&nbsp;일자리&nbsp;창출을&nbsp;책임지며,&nbsp;지역&nbsp;전체&nbsp;일자리의&nbsp;질을&nbsp;바꾸는&nbsp;토대를&nbsp;만듭니다.&nbsp;&nbsp;<br>○&nbsp;단순&nbsp;행정통합을&nbsp;넘어선&nbsp;'부울경&nbsp;일자리&nbsp;동맹'을&nbsp;제안하여,&nbsp;부산의&nbsp;인프라와&nbsp;울산·경남의&nbsp;산업&nbsp;역량을&nbsp;실질적으로&nbsp;연결합니다.&nbsp;&nbsp;<br>○&nbsp;청년이&nbsp;모일&nbsp;수&nbsp;있는&nbsp;환경을&nbsp;위해&nbsp;지역&nbsp;대학을&nbsp;육성하고&nbsp;지역&nbsp;특화산업을&nbsp;주도하며,&nbsp;대기업&nbsp;본사의&nbsp;지역&nbsp;이전을&nbsp;적극&nbsp;추진합니다.&nbsp;&nbsp;<br>○&nbsp;원하청&nbsp;격차&nbsp;해소를&nbsp;위해&nbsp;공정&nbsp;계약&nbsp;구조를&nbsp;정비하고&nbsp;광역자치단체의&nbsp;행정력을&nbsp;활용하여&nbsp;하청노동자&nbsp;지원&nbsp;및&nbsp;노동환경&nbsp;개선에&nbsp;나섭니다.&nbsp;&nbsp;<br><br>□&nbsp;이행기간<br>○&nbsp;제9회&nbsp;민선&nbsp;경상남도지사&nbsp;임기&nbsp;내&nbsp;(2026년&nbsp;~&nbsp;2030년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;경상남도&nbsp;예산&nbsp;우선&nbsp;배정&nbsp;및&nbsp;부울경&nbsp;경제&nbsp;협력을&nbsp;통한&nbsp;산업&nbsp;자본&nbsp;유치</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

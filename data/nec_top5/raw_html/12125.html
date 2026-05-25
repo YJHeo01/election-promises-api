@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박병일 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	원전 사업 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="원전 사업 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            지난해&nbsp;대형&nbsp;산불로&nbsp;인한&nbsp;상처가&nbsp;채&nbsp;아물기도&nbsp;전에&nbsp;동해안&nbsp;어족&nbsp;자원&nbsp;고갈로&nbsp;어업과&nbsp;지역&nbsp;경제는&nbsp;심각한&nbsp;위기를&nbsp;맞고&nbsp;있습니다.<br>이대로&nbsp;간다면&nbsp;영덕은&nbsp;‘소멸&nbsp;위기&nbsp;지역’이라는&nbsp;꼬리표를&nbsp;넘어&nbsp;대한민국&nbsp;지도에서&nbsp;사라질&nbsp;수&nbsp;있다는&nbsp;냉혹한&nbsp;경고와&nbsp;마주하게&nbsp;될&nbsp;것입니다.<br>영덕이&nbsp;다시&nbsp;살아나기&nbsp;위해&nbsp;원전&nbsp;유치는&nbsp;반드시&nbsp;필요합니다.<br>우리나라&nbsp;원전&nbsp;기술은&nbsp;세계&nbsp;최고&nbsp;수준의&nbsp;안전성과&nbsp;경쟁력을&nbsp;갖추고&nbsp;있습니다<br>AI&nbsp;시대,&nbsp;첨단&nbsp;산업&nbsp;시대로&nbsp;접어들수록&nbsp;전력&nbsp;수요는&nbsp;급격히&nbsp;증가하고&nbsp;있으며&nbsp;안정적인&nbsp;에너지&nbsp;공급&nbsp;없이는&nbsp;지역&nbsp;발전도&nbsp;국가&nbsp;경쟁력도&nbsp;유지될&nbsp;수&nbsp;없습니다.<br>원전은&nbsp;더&nbsp;이상&nbsp;막연한&nbsp;두려움의&nbsp;대상이&nbsp;아니라&nbsp;지역&nbsp;산업을&nbsp;살리고&nbsp;인구를&nbsp;지탱할&nbsp;수&nbsp;있는&nbsp;핵심&nbsp;기반&nbsp;시설입니다.<br>원전을&nbsp;중심으로&nbsp;연관&nbsp;산업과&nbsp;기업이&nbsp;유치되고&nbsp;양질의&nbsp;일자리가&nbsp;만들어질&nbsp;때&nbsp;영덕은&nbsp;다시&nbsp;사람과&nbsp;희망이&nbsp;모이는&nbsp;지역으로&nbsp;거듭날&nbsp;수&nbsp;있습니다.<br>원전이&nbsp;유치되면&nbsp;이렇게&nbsp;하겠습니다.<br><br>첫째,&nbsp;군민&nbsp;안전을&nbsp;최우선&nbsp;가치로&nbsp;두겠습니다.<br>둘째,&nbsp;영덕군민이&nbsp;우선&nbsp;혜택을&nbsp;누리도록&nbsp;하겠습니다.<br>셋째,&nbsp;원전을&nbsp;중심으로&nbsp;연관&nbsp;산업과&nbsp;기업을&nbsp;유치하겠습니다.<br>넷째,&nbsp;늘어난&nbsp;재정으로&nbsp;군민&nbsp;삶의&nbsp;질을&nbsp;높이겠습니다.<br>다섯째,&nbsp;지역&nbsp;균형발전과&nbsp;인구&nbsp;증가&nbsp;정책을&nbsp;본격화하겠습니다.<br><br>저는&nbsp;영덕군민이&nbsp;잘살&nbsp;수&nbsp;있는&nbsp;길이라면&nbsp;군민을&nbsp;바라보고&nbsp;군민을&nbsp;우선하는&nbsp;행정으로&nbsp;영덕의&nbsp;재도약을&nbsp;반드시&nbsp;이뤄내겠습니다.<br><br>두려움이&nbsp;아닌&nbsp;미래를&nbsp;보고,&nbsp;과거가&nbsp;아닌&nbsp;다음&nbsp;세대를&nbsp;바라보며&nbsp;영덕이&nbsp;다시&nbsp;일어설&nbsp;수&nbsp;있는&nbsp;선택에&nbsp;함께해&nbsp;주십시오.<br><br>영덕의&nbsp;내일을&nbsp;군민&nbsp;여러분과&nbsp;함께&nbsp;만들겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	영덕 타워 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="영덕 타워 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            그동안&nbsp;사실&nbsp;영덕에서&nbsp;전국적으로&nbsp;내&nbsp;세울&nbsp;만한&nbsp;상품으로&nbsp;대게와&nbsp;송이를&nbsp;꼽았었습니다.<br><br>그러나&nbsp;이젠&nbsp;이마저도&nbsp;인근&nbsp;각&nbsp;지자체&nbsp;간&nbsp;홍보&nbsp;경쟁으로&nbsp;인해&nbsp;마냥&nbsp;영덕의&nbsp;상품이라고&nbsp;고집할&nbsp;명분의&nbsp;힘마저&nbsp;빠져가는&nbsp;상황으로&nbsp;치닫고&nbsp;있는&nbsp;처지입니다.<br><br>현재&nbsp;지역&nbsp;어촌계에&nbsp;따르면&nbsp;바다&nbsp;어족&nbsp;고갈&nbsp;등으로&nbsp;대게잡이와&nbsp;고기잡이&nbsp;등이&nbsp;시원찮은&nbsp;실정입니다.<br><br>이러한&nbsp;걱정은&nbsp;급기야&nbsp;영덕&nbsp;지역의&nbsp;경제에도&nbsp;상당한&nbsp;영향을&nbsp;미치고&nbsp;있는&nbsp;요즘입니다.<br><br>군민들이&nbsp;영덕군을&nbsp;떠나지&nbsp;않고&nbsp;오늘&nbsp;그리고&nbsp;내일도&nbsp;계속해&nbsp;행복하게&nbsp;잘&nbsp;살아갈&nbsp;수&nbsp;있도록&nbsp;하겠습니다.<br><br>영덕군은&nbsp;전국&nbsp;최고의&nbsp;관광&nbsp;상품들이&nbsp;있습니다.<br><br>영덕에서&nbsp;동해안&nbsp;바다&nbsp;절경과&nbsp;울릉도를&nbsp;볼&nbsp;수&nbsp;있는&nbsp;공간으로&nbsp;영덕타워를&nbsp;건설하도록&nbsp;하겠습니다.<br><br>전국&nbsp;최고의&nbsp;동해안&nbsp;관광&nbsp;명소가&nbsp;될&nbsp;영덕으로&nbsp;만들겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	고래불 권 관광특구개발</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="고래불 권 관광특구개발">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            영덕군&nbsp;병곡면&nbsp;고래불&nbsp;해수욕장&nbsp;일대를&nbsp;휴양&nbsp;힐링&nbsp;관광&nbsp;도시를&nbsp;위한&nbsp;콘도&nbsp;팬션&nbsp;호텔&nbsp;숙박&nbsp;시설&nbsp;등이&nbsp;있는&nbsp;특구로&nbsp;개발하겠습니다.<br><br>동해안&nbsp;최대의&nbsp;해수욕장과&nbsp;휴식공간이&nbsp;있는&nbsp;관광&nbsp;힐링공간으로&nbsp;만들겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	9개 읍. 면 특화 지역 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="9개 읍. 면 특화 지역 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            농촌이&nbsp;잘사는&nbsp;영덕,&nbsp;사계절&nbsp;관광명소가&nbsp;있는&nbsp;영덕으로&nbsp;동해권&nbsp;중심도시로&nbsp;발돋음하기&nbsp;위한&nbsp;9개&nbsp;읍.&nbsp;면&nbsp;별&nbsp;특화지역을&nbsp;조성하는&nbsp;차별화&nbsp;전략으로&nbsp;잘&nbsp;사는&nbsp;영덕을&nbsp;만들겠습니다.<br><br>&lt;9개&nbsp;읍.&nbsp;면&nbsp;특화&nbsp;지역&nbsp;조성>&nbsp;가나&nbsp;다&nbsp;순<br><br>1)&nbsp;강구-&nbsp;대게&nbsp;관광특구&nbsp;활성화&nbsp;사업&nbsp;(삼사&nbsp;공원&nbsp;포함)&nbsp;계획,&nbsp;강구&nbsp;내&nbsp;외항&nbsp;정비사업,&nbsp;관광&nbsp;공원화&nbsp;사업&nbsp;계획.<br>2)&nbsp;남정-&nbsp;휴양&nbsp;전통&nbsp;체험&nbsp;힐링&nbsp;문화권&nbsp;조성(전승기념관&nbsp;포함)&nbsp;및&nbsp;영일&nbsp;신항&nbsp;근접&nbsp;물류&nbsp;단지&nbsp;조성&nbsp;계획&nbsp;등<br>3)&nbsp;달산-&nbsp;옥계&nbsp;문화권&nbsp;개발&nbsp;및&nbsp;군민&nbsp;생활&nbsp;휴양&nbsp;터&nbsp;조성&nbsp;계획.<br>4)&nbsp;병곡-&nbsp;고래불&nbsp;권&nbsp;관광&nbsp;휴양&nbsp;특구&nbsp;조성(백석.&nbsp;금곡리&nbsp;해양포함)&nbsp;계획.<br>5)&nbsp;영덕-&nbsp;영덕&nbsp;타워&nbsp;건설,&nbsp;시내&nbsp;도심&nbsp;공원화&nbsp;관광&nbsp;문화&nbsp;사업,&nbsp;문화거리&nbsp;조성,&nbsp;관광&nbsp;역사&nbsp;테마공원&nbsp;조성(꽃.&nbsp;나무.&nbsp;역사&nbsp;예술.&nbsp;포함).&nbsp;군민&nbsp;생활&nbsp;공원&nbsp;계획&nbsp;등.<br>6)&nbsp;영해-&nbsp;예주&nbsp;전통&nbsp;문화학교&nbsp;설립&nbsp;등&nbsp;특수&nbsp;대학&nbsp;설립(AI,&nbsp;전기,&nbsp;반도체&nbsp;등)&nbsp;계획,&nbsp;대진리&nbsp;상대산&nbsp;권&nbsp;관광&nbsp;공원화&nbsp;사업&nbsp;계획,&nbsp;한국&nbsp;역사&nbsp;체험관&nbsp;건립,<br>7)&nbsp;지품-산불&nbsp;송이산&nbsp;활용&nbsp;및&nbsp;주민&nbsp;치유산업과&nbsp;관련한&nbsp;대책&nbsp;행정&nbsp;계획등&nbsp;공단&nbsp;등&nbsp;산촌&nbsp;힐링타운&nbsp;조성<br>8)&nbsp;창수-&nbsp;나옹대사&nbsp;관광공원(탑&nbsp;공원&nbsp;등)&nbsp;조성.&nbsp;동학&nbsp;역사관&nbsp;조성.&nbsp;힐링&nbsp;체험&nbsp;마을&nbsp;조성&nbsp;계획.<br>9)&nbsp;축산-&nbsp;죽도산&nbsp;관광&nbsp;공원(차유ㅡ죽도산&nbsp;ㅡ와우산&nbsp;ㅡ봉화산&nbsp;ㅡ블루로드&nbsp;연결길&nbsp;)계획.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	박병일의 영덕군민 복지 시리즈 5대 공약</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="박병일의 영덕군민 복지 시리즈 5대 공약">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1)&nbsp;군민&nbsp;1인당&nbsp;30만&nbsp;원(원전&nbsp;유치시&nbsp;실&nbsp;거주자)<br><br>2)&nbsp;출산&nbsp;아이&nbsp;1인당&nbsp;5000만&nbsp;원(일정&nbsp;기간&nbsp;내)<br><br>3)&nbsp;대학&nbsp;입학금&nbsp;지원(입학&nbsp;당해)<br><br>4)&nbsp;군내&nbsp;시내버스&nbsp;교통비&nbsp;전액&nbsp;무료(전&nbsp;군민)<br><br>5)&nbsp;전기세&nbsp;등&nbsp;인하(원전&nbsp;유치&nbsp;시)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

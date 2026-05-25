@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;전성수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	경부간선도로 및 반포대로 지하화 추진 하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="경부간선도로 및 반포대로 지하화 추진 하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목표&nbsp;및&nbsp;필요성<br>&nbsp;&nbsp;-&nbsp;단절을&nbsp;넘어선&nbsp;연결,&nbsp;회색&nbsp;도로를&nbsp;녹색&nbsp;정원으로&nbsp;만들어&nbsp;건강하고&nbsp;쾌적한&nbsp;주거&nbsp;환경을&nbsp;조성하여&nbsp;구민의&nbsp;건강권과&nbsp;주거&nbsp;가치&nbsp;제고<br><br>○&nbsp;이행방법(민자유치&nbsp;중심)<br>&nbsp;&nbsp;-&nbsp;경부간선도로(양재~한남)&nbsp;지하화&nbsp;및&nbsp;동서&nbsp;연결망&nbsp;복원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;끊어졌던&nbsp;동서&nbsp;도로를&nbsp;평면으로&nbsp;연결하여&nbsp;만성적인&nbsp;교통&nbsp;체증을&nbsp;해소하고&nbsp;지역&nbsp;간&nbsp;균형&nbsp;발전&nbsp;도모.<br>&nbsp;&nbsp;-&nbsp;반포대로&nbsp;지하화&nbsp;및&nbsp;문화거리&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;반포대로의&nbsp;차량&nbsp;흐름을&nbsp;지하로&nbsp;내리고,&nbsp;지상은&nbsp;보행자&nbsp;중심의&nbsp;‘문화&nbsp;예술&nbsp;거리’로&nbsp;탈바꿈.<br>&nbsp;&nbsp;-&nbsp;스마트&nbsp;교통&nbsp;관리&nbsp;및&nbsp;환경&nbsp;기술&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;AI&nbsp;기반&nbsp;지능형&nbsp;교통&nbsp;시스템(ITS)과&nbsp;친환경&nbsp;환기&nbsp;및&nbsp;정화&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지상&nbsp;공원&nbsp;및&nbsp;주변&nbsp;주거지의&nbsp;공기질을&nbsp;최고&nbsp;수준으로&nbsp;유지.<br><br>○&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;2026&nbsp;~&nbsp;2028&nbsp;:&nbsp;민간투자&nbsp;우선협상대상자&nbsp;선정&nbsp;및&nbsp;실시계획&nbsp;승인<br>&nbsp;&nbsp;-&nbsp;2029&nbsp;~&nbsp;2030&nbsp;:&nbsp;민간&nbsp;투자사업자&nbsp;지정&nbsp;및&nbsp;실시&nbsp;협약&nbsp;추진<br><br>○&nbsp;재원조달방안&nbsp;(민자유치&nbsp;및&nbsp;공공기여)<br>&nbsp;&nbsp;-&nbsp;범정부&nbsp;차원의&nbsp;민간주도의&nbsp;투자사업으로&nbsp;추진&nbsp;과정에서&nbsp;중앙정부&nbsp;및&nbsp;서울시와&nbsp;서초구간&nbsp;역할&nbsp;분담하여&nbsp;안정적&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;마련<br>&nbsp;&nbsp;-&nbsp;공공기여(기부채납)&nbsp;및&nbsp;민간&nbsp;투자&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	약자와 동행, 서초형 촘촘한 복지 구현하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="약자와 동행, 서초형 촘촘한 복지 구현하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목표&nbsp;및&nbsp;필요성<br>&nbsp;&nbsp;-&nbsp;사각지대&nbsp;없는&nbsp;촘촘한&nbsp;안전망&nbsp;:&nbsp;AI와&nbsp;지역&nbsp;공동체를&nbsp;결합하여&nbsp;위기&nbsp;가구를&nbsp;선제적으로&nbsp;발굴하고,&nbsp;서초형&nbsp;스마트&nbsp;안부&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;생애주기별&nbsp;맞춤형&nbsp;밀착&nbsp;지원&nbsp;:&nbsp;영유아부터&nbsp;어르신까지&nbsp;생애주기별&nbsp;필요를&nbsp;정확히&nbsp;채워주는&nbsp;체감형&nbsp;복지&nbsp;구현<br>&nbsp;&nbsp;-&nbsp;약자와의&nbsp;따뜻한&nbsp;동행&nbsp;:&nbsp;장애인,&nbsp;자립준비청년,&nbsp;저소득층&nbsp;등&nbsp;사회적&nbsp;약자가&nbsp;당당한&nbsp;서초구민으로서&nbsp;자립할&nbsp;수&nbsp;있는&nbsp;환경&nbsp;조성<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;서초형&nbsp;스마트&nbsp;안전망으로&nbsp;고독사&nbsp;및&nbsp;위기&nbsp;가구&nbsp;제로화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;AI&nbsp;돌봄&nbsp;서비스&nbsp;및&nbsp;스마트&nbsp;플러그&nbsp;확대,&nbsp;사회적&nbsp;고립&nbsp;가구&nbsp;통합&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;아이&nbsp;키우기&nbsp;가장&nbsp;좋은&nbsp;도시&nbsp;서초&nbsp;프리미엄&nbsp;보육&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;국공립·민간·가정&nbsp;상생하는&nbsp;서초형&nbsp;보육체계&nbsp;구축,&nbsp;서리풀노리학교&nbsp;권역별&nbsp;랜드마크화,&nbsp;취약계층&nbsp;아동&nbsp;건강한&nbsp;성장을&nbsp;전폭&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;어르신이&nbsp;존경받는&nbsp;효도&nbsp;행정&nbsp;전성시대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;치매안심경로당&nbsp;및&nbsp;안심마을&nbsp;확대,&nbsp;시니어&nbsp;라운지&nbsp;및&nbsp;느티나무센터&nbsp;확충,&nbsp;찾아가는&nbsp;효도&nbsp;서비스&nbsp;강화,&nbsp;65세&nbsp;이상&nbsp;대중교통비·대상포진&nbsp;예방접종비&nbsp;지원&nbsp;등<br>&nbsp;&nbsp;-&nbsp;사회적&nbsp;약자의&nbsp;자립을&nbsp;돕는&nbsp;희망&nbsp;사다리&nbsp;복지<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;자립&nbsp;준비&nbsp;청년&nbsp;‘꿈찾기’&nbsp;프로젝트&nbsp;등&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;구민이&nbsp;참여하는&nbsp;‘서초코인’&nbsp;기반&nbsp;나눔&nbsp;문화&nbsp;확산<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;자원봉사,&nbsp;탄소중립&nbsp;실천&nbsp;등&nbsp;구민&nbsp;모두가&nbsp;복지&nbsp;증진의&nbsp;주체가&nbsp;되는&nbsp;거버넌스&nbsp;추진<br><br>○&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;2026년&nbsp;~&nbsp;2027년&nbsp;:&nbsp;AI&nbsp;기반&nbsp;스마트&nbsp;복지&nbsp;시스템&nbsp;구축&nbsp;계획수립<br>&nbsp;&nbsp;-&nbsp;2028년&nbsp;~&nbsp;2030년&nbsp;:&nbsp;사각지대&nbsp;없는&nbsp;도시&nbsp;서초&nbsp;구현<br><br>○&nbsp;재원조달방안<br>&nbsp;&nbsp;-&nbsp;국비·시비·구비&nbsp;매칭&nbsp;및&nbsp;구&nbsp;예산&nbsp;추진&nbsp;:&nbsp;85%<br>&nbsp;&nbsp;-&nbsp;민관&nbsp;CSR(사회공헌활동)협력&nbsp;및&nbsp;서초복지돌봄재단&nbsp;활용&nbsp;:&nbsp;15%</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	녹지 보행 네트워크(서초행복길)를 구축하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="녹지 보행 네트워크(서초행복길)를 구축하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목표&nbsp;:&nbsp;15분&nbsp;보행&nbsp;친화&nbsp;도시,&nbsp;서초&nbsp;완성<br>&nbsp;&nbsp;-&nbsp;단순한&nbsp;산책로&nbsp;조성을&nbsp;넘어,&nbsp;어르신·장애인·어린이&nbsp;등&nbsp;보행&nbsp;약자가&nbsp;제약&nbsp;없이&nbsp;이동할&nbsp;수&nbsp;있는&nbsp;무장애&nbsp;보행로(Barrier-Free)&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;단절된&nbsp;숲길과&nbsp;물길을&nbsp;잇고,&nbsp;그&nbsp;위에&nbsp;문화를&nbsp;입혀&nbsp;구민의&nbsp;삶의&nbsp;질을&nbsp;획기적으로&nbsp;높이는&nbsp;하드웨어,&nbsp;소프트웨어&nbsp;융합&nbsp;행정&nbsp;실천<br>&nbsp;&nbsp;-&nbsp;관내&nbsp;주요&nbsp;산(우면산,&nbsp;청계산,&nbsp;인릉산)과&nbsp;하천(반포천,&nbsp;양재천,&nbsp;여의천)을&nbsp;하나의&nbsp;보행축으로&nbsp;묶어&nbsp;주민&nbsp;건강과&nbsp;힐링을&nbsp;도모<br><br>○&nbsp;이행방법&nbsp;:&nbsp;서초&nbsp;서행길(서초행복길)&nbsp;5대&nbsp;코스&nbsp;고도화&nbsp;및&nbsp;연결<br>&nbsp;&nbsp;-&nbsp;고속터미널~잠원나들목&nbsp;구간의&nbsp;한강&nbsp;연결성&nbsp;강화&nbsp;및&nbsp;야간&nbsp;경관&nbsp;정비<br>&nbsp;&nbsp;-&nbsp;길마중길&nbsp;한강까지&nbsp;논스톱&nbsp;보행로&nbsp;완성(황토&nbsp;맨발길&nbsp;및&nbsp;세족장&nbsp;확충)<br>&nbsp;&nbsp;-&nbsp;양재천길&nbsp;상권(양재아트살롱)과&nbsp;연계한&nbsp;문화&nbsp;보행길&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;우면산&nbsp;무장애&nbsp;숲길&nbsp;및&nbsp;서리풀공원&nbsp;전망대&nbsp;접근성&nbsp;개선<br>&nbsp;&nbsp;-&nbsp;방배역~서리풀공원~몽마르뜨&nbsp;공원을&nbsp;잇는&nbsp;도심&nbsp;속&nbsp;테마&nbsp;보행길&nbsp;육성<br><br>○&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;2026년&nbsp;~&nbsp;2027년&nbsp;:&nbsp;길마중&nbsp;초록숲길&nbsp;3단계&nbsp;완공&nbsp;및&nbsp;한강&nbsp;연결.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;서행길&nbsp;5개&nbsp;코스&nbsp;스마트&nbsp;안내&nbsp;시스템&nbsp;정비&nbsp;완료<br>&nbsp;&nbsp;-&nbsp;2028년&nbsp;~&nbsp;2030년&nbsp;:&nbsp;정보사&nbsp;부지&nbsp;문화컴플렉스~서리풀공원&nbsp;보행교&nbsp;완공.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;양재&nbsp;AI&nbsp;혁신&nbsp;허브&nbsp;지구&nbsp;내&nbsp;보행&nbsp;환경&nbsp;개선<br>&nbsp;&nbsp;-&nbsp;2029년&nbsp;~&nbsp;2030년&nbsp;:&nbsp;서행길&nbsp;네트워크&nbsp;최종&nbsp;통합<br><br>○&nbsp;재원조달방안<br>&nbsp;&nbsp;-&nbsp;서울시&nbsp;보조금&nbsp;및&nbsp;구&nbsp;일반회계&nbsp;:&nbsp;시·구&nbsp;협력&nbsp;예산&nbsp;확보&nbsp;100%</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	양재 AICT 허브 및 도시 첨단 물류단지 조성하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="양재 AICT 허브 및 도시 첨단 물류단지 조성하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목표<br>&nbsp;&nbsp;-&nbsp;양재동&nbsp;일대를&nbsp;첨단&nbsp;기술이&nbsp;결합한&nbsp;글로벌&nbsp;혁신&nbsp;허브로&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;AI·로봇&nbsp;기반의&nbsp;스마트&nbsp;물류&nbsp;단지를&nbsp;구축하고&nbsp;도시&nbsp;물류의&nbsp;패러다임&nbsp;전환<br>&nbsp;&nbsp;-&nbsp;일터와&nbsp;삶터,&nbsp;휴식&nbsp;공간이&nbsp;공존하는&nbsp;직주락&nbsp;콤팩트&nbsp;시티&nbsp;구현<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;양재&nbsp;AICT&nbsp;혁신&nbsp;허브&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;양재&nbsp;ICT&nbsp;특정개발진흥지구&nbsp;내&nbsp;기업&nbsp;유치&nbsp;인센티브를&nbsp;강화하고,&nbsp;글로벌&nbsp;유니콘기업&nbsp;육성을&nbsp;위한&nbsp;전용&nbsp;지원&nbsp;센터&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;산·학·연&nbsp;협력&nbsp;생태계&nbsp;구축을&nbsp;위한&nbsp;KAIST&nbsp;AI&nbsp;대학원&nbsp;등&nbsp;인근&nbsp;연구기관과&nbsp;협력하여&nbsp;4차&nbsp;산업&nbsp;핵심&nbsp;기술&nbsp;R&D&nbsp;지원&nbsp;및&nbsp;실전형&nbsp;인재&nbsp;양성&nbsp;프로그램&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;유망&nbsp;스타트업에&nbsp;입주&nbsp;공간과&nbsp;고성능&nbsp;컴퓨팅&nbsp;인프라를&nbsp;제공하고,&nbsp;서초&nbsp;AICT펀드를&nbsp;통해&nbsp;성장&nbsp;단계별&nbsp;자금&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;도시&nbsp;첨단&nbsp;물류단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;스마트&nbsp;지하&nbsp;물류&nbsp;시스템&nbsp;:&nbsp;지하에는&nbsp;AI·로봇&nbsp;기반의&nbsp;최첨단&nbsp;자동화&nbsp;물류&nbsp;시설을&nbsp;배치하여&nbsp;도시&nbsp;물류의&nbsp;효율성을&nbsp;극대화하고&nbsp;지상&nbsp;교통&nbsp;체증&nbsp;완화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지상부&nbsp;복합&nbsp;랜드마크&nbsp;조성&nbsp;:&nbsp;지상에는&nbsp;주거,&nbsp;쇼핑,&nbsp;문화,&nbsp;녹지&nbsp;공간이&nbsp;어우러진랜드마크를&nbsp;설계하여&nbsp;24시간&nbsp;활력이&nbsp;넘치는&nbsp;'직주락'&nbsp;공간&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;디지털&nbsp;물류&nbsp;실증&nbsp;특구&nbsp;:&nbsp;자율주행&nbsp;배송&nbsp;로봇,&nbsp;드론&nbsp;택배&nbsp;등&nbsp;미래형&nbsp;물류&nbsp;기술을실제&nbsp;도심&nbsp;환경에서&nbsp;테스트하고&nbsp;상용화하는&nbsp;선도&nbsp;지역으로&nbsp;육성<br><br>○&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;2026&nbsp;~&nbsp;2030&nbsp;:&nbsp;AICT&nbsp;단계별&nbsp;인프라&nbsp;구축&nbsp;및&nbsp;글로벌&nbsp;기업&nbsp;유치<br>&nbsp;<br>○&nbsp;재원조달방안<br>&nbsp;&nbsp;-&nbsp;AICT&nbsp;혁신&nbsp;허브&nbsp;:&nbsp;국·시비&nbsp;공모사업&nbsp;및&nbsp;민간&nbsp;R&D&nbsp;투자&nbsp;유치&nbsp;100%<br>&nbsp;&nbsp;-&nbsp;첨단물류단지&nbsp;조성&nbsp;:&nbsp;민간자본&nbsp;추진&nbsp;100%&nbsp;및&nbsp;공공기여&nbsp;인프라&nbsp;조성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	서초 전 세대 미래 일자리 창출하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="서초 전 세대 미래 일자리 창출하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목표&nbsp;<br>&nbsp;&nbsp;-&nbsp;KAIST&nbsp;등&nbsp;최고&nbsp;기관과&nbsp;협력하여&nbsp;실전형&nbsp;AI&nbsp;인재&nbsp;연간&nbsp;500명&nbsp;이상&nbsp;육성<br>&nbsp;&nbsp;-&nbsp;어르신들의&nbsp;숙련된&nbsp;경험을&nbsp;스타트업의&nbsp;자산으로&nbsp;연결하고,&nbsp;디지털&nbsp;격차&nbsp;해소를&nbsp;위한&nbsp;AI&nbsp;문해교육&nbsp;등&nbsp;<br>&nbsp;&nbsp;-&nbsp;양재&nbsp;AICT&nbsp;혁신&nbsp;허브&nbsp;내&nbsp;기업&nbsp;1,000개&nbsp;집적&nbsp;및&nbsp;함께&nbsp;일하는&nbsp;공유&nbsp;오피스&nbsp;확산<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;KAIST&nbsp;협력&nbsp;서초&nbsp;AI&nbsp;칼리지&nbsp;및&nbsp;청년&nbsp;취업&nbsp;연계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;기업&nbsp;맞춤형&nbsp;프로젝트,&nbsp;인턴십&nbsp;급여&nbsp;지원&nbsp;등<br>&nbsp;&nbsp;-&nbsp;시니어&nbsp;디지털·경험&nbsp;기반&nbsp;맞춤형&nbsp;일자리&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;시니어&nbsp;디지털&nbsp;서포터즈(디지털&nbsp;안내사),&nbsp;AI&nbsp;데이터&nbsp;라벨링&nbsp;시니어&nbsp;인력&nbsp;양성,&nbsp;시니어&nbsp;창업&nbsp;멘토단&nbsp;운영,&nbsp;스마트&nbsp;헬스케어&nbsp;매니저&nbsp;등<br>&nbsp;&nbsp;-&nbsp;양재&nbsp;AICT&nbsp;벨트&nbsp;고도화&nbsp;및&nbsp;스타트업&nbsp;스케일업<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;AI&nbsp;미래융합혁신특구&nbsp;완성,&nbsp;스타트업&nbsp;펀드&nbsp;운용<br>&nbsp;&nbsp;-&nbsp;청년&nbsp;디지털&nbsp;커리어&nbsp;및&nbsp;미래&nbsp;직무&nbsp;다변화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;AI&nbsp;디자인&nbsp;및&nbsp;뉴미디어&nbsp;산업&nbsp;등&nbsp;추진<br><br>○&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;2026년&nbsp;~&nbsp;2027년&nbsp;:&nbsp;시니어&nbsp;디지털&nbsp;서포터즈&nbsp;운영,&nbsp;AI&nbsp;칼리지&nbsp;프로젝트&nbsp;멘토&nbsp;기업&nbsp;확대,&nbsp;AICT&nbsp;스타트업&nbsp;2호&nbsp;펀드&nbsp;투자&nbsp;개시<br>&nbsp;&nbsp;-&nbsp;2027년&nbsp;~&nbsp;2029년&nbsp;:&nbsp;양재&nbsp;AICT&nbsp;벨트&nbsp;내&nbsp;세대&nbsp;융합형&nbsp;공유&nbsp;오피스&nbsp;개소,&nbsp;시니어&nbsp;데이터&nbsp;라벨러&nbsp;전문&nbsp;교육&nbsp;센터&nbsp;설립<br>&nbsp;&nbsp;-&nbsp;2029년&nbsp;~&nbsp;2030년&nbsp;:&nbsp;미래산업분야&nbsp;통합&nbsp;일자리&nbsp;3,700개&nbsp;달성,&nbsp;양재&nbsp;AI&nbsp;특구&nbsp;내&nbsp;기업&nbsp;1,000개&nbsp;집적&nbsp;완료<br><br>○&nbsp;재원조달방안<br>&nbsp;&nbsp;-&nbsp;정부와&nbsp;서울시&nbsp;및&nbsp;구예산&nbsp;확보&nbsp;추진&nbsp;:&nbsp;80%<br>&nbsp;&nbsp;-&nbsp;공공기여(기부채납)&nbsp;활용,&nbsp;기업의&nbsp;CSR(사회공헌활동)과&nbsp;연계&nbsp;:&nbsp;20%</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;하학열 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	우주항공·방산 첨단산업 클러스터 및 배후도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="우주항공·방산 첨단산업 클러스터 및 배후도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표<br>&nbsp;&nbsp;·&nbsp;사천&nbsp;우주항공청&nbsp;개청에&nbsp;따른&nbsp;AI&nbsp;기반&nbsp;제조실증단지&nbsp;및&nbsp;물류&nbsp;거점구축<br>&nbsp;&nbsp;·&nbsp;경제자유구역(FEZ)&nbsp;고성&nbsp;포함&nbsp;지정을&nbsp;통한&nbsp;글로벌&nbsp;앵커&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;·&nbsp;산학연&nbsp;연계&nbsp;특성화&nbsp;교육센터&nbsp;운영으로&nbsp;지역&nbsp;인재&nbsp;양성&nbsp;및&nbsp;청년&nbsp;정착&nbsp;유도<br><br>2.&nbsp;이행방법<br>&nbsp;&nbsp;·&nbsp;단지&nbsp;조성:&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우주항공청과의&nbsp;우주항공·방산&nbsp;부품&nbsp;테스트베드&nbsp;및&nbsp;첨단&nbsp;제조실증단지&nbsp;구축을&nbsp;위한&nbsp;MOU&nbsp;체결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고성군,&nbsp;기반&nbsp;시설(도로,&nbsp;용수&nbsp;등)&nbsp;선제적&nbsp;구축&nbsp;및&nbsp;기업유치&nbsp;박람회&nbsp;참여<br>&nbsp;&nbsp;·&nbsp;지정&nbsp;추진:&nbsp;경상남도·산업부&nbsp;협의를&nbsp;통해&nbsp;경제자유구역&nbsp;확대&nbsp;지정&nbsp;추진&nbsp;및&nbsp;고성형&nbsp;기업&nbsp;지원&nbsp;인센티브&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;·&nbsp;인력&nbsp;양성:&nbsp;경상국립대,&nbsp;한국폴리텍&nbsp;대학&nbsp;등과&nbsp;협력하여&nbsp;기업&nbsp;수요&nbsp;맞춤형&nbsp;'전문직업교육센터'&nbsp;설치&nbsp;운영<br><br>3.&nbsp;이행기간<br>&nbsp;&nbsp;·&nbsp;전담&nbsp;TF&nbsp;구성,&nbsp;기본계획&nbsp;수립&nbsp;용역&nbsp;및&nbsp;경제자유구역&nbsp;지정&nbsp;신청:&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;2027.&nbsp;12.&nbsp;<br>&nbsp;&nbsp;·&nbsp;제조실증단지&nbsp;입지선정,&nbsp;기업&nbsp;투자&nbsp;유치(MOU)&nbsp;및&nbsp;교육센터&nbsp;개소:&nbsp;2028.&nbsp;01.&nbsp;~&nbsp;2029.&nbsp;12.&nbsp;<br>&nbsp;&nbsp;·&nbsp;&nbsp;단지&nbsp;착공,&nbsp;주요&nbsp;기업&nbsp;입주&nbsp;완료&nbsp;및&nbsp;산학연&nbsp;클러스터&nbsp;본격&nbsp;가동:&nbsp;2030.&nbsp;01.&nbsp;~&nbsp;&nbsp;<br><br>4.&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;·&nbsp;국·도비:&nbsp;국가균형발전특별회계&nbsp;및&nbsp;경남도&nbsp;전략산업&nbsp;육성&nbsp;지원금&nbsp;우선&nbsp;확보<br>&nbsp;&nbsp;·&nbsp;군비:&nbsp;세출&nbsp;구조조정&nbsp;및&nbsp;중기지방재정계획&nbsp;반영을&nbsp;통한&nbsp;연차별&nbsp;사업비&nbsp;편성<br>&nbsp;&nbsp;·&nbsp;민자:&nbsp;산업단지&nbsp;조성을&nbsp;위한&nbsp;민관합동개발(SPC)&nbsp;추진&nbsp;및&nbsp;기업&nbsp;직접&nbsp;투자&nbsp;유도</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	농림축수산 스마트 가공·유통 혁신 및 ‘G-푸드’ 글로벌화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="농림축수산 스마트 가공·유통 혁신 및 ‘G-푸드’ 글로벌화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표<br>&nbsp;&nbsp;·&nbsp;가공·유통&nbsp;고도화:&nbsp;10만&nbsp;평&nbsp;규모의&nbsp;친환경&nbsp;가공유통클러스터&nbsp;조성으로&nbsp;생산&nbsp;중심에서&nbsp;가공·수출&nbsp;중심으로&nbsp;농어업&nbsp;구조&nbsp;개편<br>&nbsp;&nbsp;·&nbsp;미래&nbsp;인력&nbsp;확보:&nbsp;고품격&nbsp;귀농·귀어·귀촌&nbsp;패키지&nbsp;지원을&nbsp;통한&nbsp;농어촌&nbsp;인구&nbsp;유입&nbsp;및&nbsp;세대교체&nbsp;가속화<br>&nbsp;&nbsp;·&nbsp;수출&nbsp;경쟁력&nbsp;강화:&nbsp;고성군&nbsp;통합&nbsp;브랜드‘G(고성)-푸드’육성&nbsp;및&nbsp;전략적&nbsp;해외&nbsp;마케팅을&nbsp;통한&nbsp;수출&nbsp;판로&nbsp;확대<br><br>2.&nbsp;이행방법<br>&nbsp;&nbsp;·&nbsp;클러스터&nbsp;구축:&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;클러스터&nbsp;입주&nbsp;희망&nbsp;기업체&nbsp;수요조사&nbsp;및&nbsp;주민&nbsp;의견&nbsp;수렴<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해양수산부&nbsp;및&nbsp;관계기관&nbsp;남포항&nbsp;매립계획&nbsp;협의(10만평&nbsp;규모)&nbsp;절차&nbsp;&nbsp;진행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;친환경&nbsp;농축수산물&nbsp;가공&nbsp;공장,&nbsp;저온&nbsp;저장고,&nbsp;물류센터&nbsp;등&nbsp;유통&nbsp;인프라&nbsp;집적화<br>&nbsp;&nbsp;·&nbsp;정착&nbsp;지원:&nbsp;귀농·귀어·귀촌인을&nbsp;위한&nbsp;‘고성&nbsp;살기’&nbsp;체험&nbsp;주거지&nbsp;제공&nbsp;및&nbsp;현장&nbsp;밀착형&nbsp;기술&nbsp;교육&nbsp;시행,&nbsp;초기&nbsp;창업&nbsp;자금&nbsp;지원<br>&nbsp;&nbsp;·&nbsp;수출&nbsp;활성화:&nbsp;‘G-푸드’수출&nbsp;전용&nbsp;물류비&nbsp;지원,&nbsp;해외&nbsp;현지&nbsp;판촉전&nbsp;개최&nbsp;및&nbsp;온라인&nbsp;글로벌&nbsp;마켓&nbsp;입점&nbsp;지원&nbsp;시스템&nbsp;구축<br><br>3.&nbsp;이행기간<br>&nbsp;&nbsp;·&nbsp;입주기업&nbsp;수요조사&nbsp;및&nbsp;기본계획&nbsp;수립,&nbsp;귀농·귀촌&nbsp;통합&nbsp;지원&nbsp;조례&nbsp;개정:&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;2027.&nbsp;06.&nbsp;<br>&nbsp;&nbsp;·&nbsp;해양수산부&nbsp;등&nbsp;남포항&nbsp;매립기본계획&nbsp;협의&nbsp;및&nbsp;절차&nbsp;진행,&nbsp;G-푸드’브랜드&nbsp;표준화&nbsp;및&nbsp;수출&nbsp;거점&nbsp;확보&nbsp;:&nbsp;2027.&nbsp;07.&nbsp;~&nbsp;2029.&nbsp;12.<br>&nbsp;&nbsp;·&nbsp;클러스터&nbsp;착공,&nbsp;귀농·귀촌&nbsp;정착률&nbsp;분석&nbsp;및&nbsp;글로벌&nbsp;수출&nbsp;성과&nbsp;확산:&nbsp;2030.&nbsp;01&nbsp;~<br><br>4.&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;·&nbsp;국·도비:&nbsp;농림축산식품부&nbsp;‘농촌융복합산업&nbsp;지구조성’및&nbsp;산지유통가공&nbsp;공모사업비&nbsp;및&nbsp;해양수산부&nbsp;‘수산식품&nbsp;클러스터’&nbsp;공모사업비&nbsp;확보<br>&nbsp;&nbsp;·&nbsp;군비:&nbsp;농어업&nbsp;육성기금&nbsp;및&nbsp;세출&nbsp;구조조정을&nbsp;통한&nbsp;특별회계&nbsp;편성<br>&nbsp;&nbsp;·&nbsp;민자:&nbsp;가공&nbsp;공장&nbsp;및&nbsp;물류&nbsp;기업&nbsp;유치를&nbsp;통한&nbsp;민간&nbsp;투자&nbsp;유도</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	교육복지 강화 및 미래 인재 육성 ‘고성형 교육 투자’</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="교육복지 강화 및 미래 인재 육성 ‘고성형 교육 투자’">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표<br>&nbsp;&nbsp;·&nbsp;교육비&nbsp;부담&nbsp;제로화:&nbsp;고성&nbsp;출신&nbsp;대학생&nbsp;대상&nbsp;4년&nbsp;등록금&nbsp;전액&nbsp;지원으로&nbsp;학부모&nbsp;경제적&nbsp;부담&nbsp;경감&nbsp;및&nbsp;인구&nbsp;유출&nbsp;방지<br>&nbsp;&nbsp;·&nbsp;진로&nbsp;격차&nbsp;해소:&nbsp;중학교&nbsp;2학년부터&nbsp;맞춤형&nbsp;진로·진학&nbsp;컨설팅을&nbsp;제공하여&nbsp;지역적&nbsp;한계를&nbsp;극복한&nbsp;공평한&nbsp;교육&nbsp;기회&nbsp;보장<br>&nbsp;&nbsp;·&nbsp;미래형&nbsp;인재&nbsp;양성:&nbsp;AI&nbsp;진학&nbsp;시스템&nbsp;및&nbsp;인적&nbsp;네트워크(멘토링)를&nbsp;활용한&nbsp;입체적&nbsp;교육&nbsp;지원&nbsp;체계&nbsp;구축<br><br>2.&nbsp;이행방법<br>&nbsp;&nbsp;·&nbsp;등록금&nbsp;지원:「고성군&nbsp;인재&nbsp;양성&nbsp;지원&nbsp;조례」&nbsp;개정&nbsp;및&nbsp;대학생&nbsp;등록금&nbsp;지원&nbsp;가이드라인&nbsp;수립,&nbsp;소득&nbsp;무관&nbsp;고성&nbsp;출신&nbsp;대학생&nbsp;전액&nbsp;지원<br>&nbsp;&nbsp;·&nbsp;컨설팅&nbsp;도입:&nbsp;'고성전용&nbsp;AI&nbsp;진학&nbsp;코디네이터'&nbsp;플랫폼&nbsp;구축을&nbsp;통해&nbsp;실시간&nbsp;입시&nbsp;정보&nbsp;및&nbsp;데이터&nbsp;기반&nbsp;맞춤형&nbsp;진로&nbsp;설계&nbsp;지원<br>&nbsp;&nbsp;·&nbsp;멘토링&nbsp;운영:&nbsp;사회&nbsp;각계각층의&nbsp;고성&nbsp;출신&nbsp;전문가로&nbsp;구성된&nbsp;'고성선배단'을&nbsp;조직하여&nbsp;진로&nbsp;상담&nbsp;및&nbsp;정서적&nbsp;멘토링&nbsp;프로그램&nbsp;상시&nbsp;운영<br><br>3.&nbsp;이행기간<br>&nbsp;&nbsp;·&nbsp;지원&nbsp;대상&nbsp;수요조사,&nbsp;관련&nbsp;조례&nbsp;개정&nbsp;및&nbsp;교육청과&nbsp;협의(MOU&nbsp;체결)&nbsp;:&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;2026.&nbsp;12.&nbsp;<br>&nbsp;&nbsp;·&nbsp;고성출신&nbsp;인적&nbsp;네트워크(선배단)&nbsp;및&nbsp;진학코디네이터&nbsp;플랫폼&nbsp;구축&nbsp;:&nbsp;2027.&nbsp;01&nbsp;~&nbsp;2028.&nbsp;01<br>&nbsp;&nbsp;·&nbsp;대학등록금&nbsp;지원&nbsp;및&nbsp;AI&nbsp;진학&nbsp;코디네이터&nbsp;서비스&nbsp;시행&nbsp;:&nbsp;2028.&nbsp;01.&nbsp;~&nbsp;<br><br>4.&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;·&nbsp;군비:&nbsp;군&nbsp;자체&nbsp;교육발전기금&nbsp;적립&nbsp;및&nbsp;일반회계&nbsp;예산&nbsp;편성&nbsp;(세출&nbsp;구조조정&nbsp;우선&nbsp;반영)<br>&nbsp;&nbsp;·&nbsp;기부금:&nbsp;(재)고성군교육발전위원회&nbsp;장학금&nbsp;및&nbsp;지역&nbsp;기업·출향인&nbsp;대상&nbsp;고향사랑기부금&nbsp;적극&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	전 생애 맞춤형 의료 돌봄 및 ‘고성형 안심 복지’ 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="전 생애 맞춤형 의료 돌봄 및 ‘고성형 안심 복지’ 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표<br>&nbsp;&nbsp;·&nbsp;출산&nbsp;친화&nbsp;환경&nbsp;조성:&nbsp;준공영제&nbsp;산후조리원&nbsp;운영을&nbsp;통해&nbsp;원거리&nbsp;원정&nbsp;산후조리의&nbsp;불편&nbsp;해소&nbsp;및&nbsp;경제적&nbsp;부담&nbsp;경감<br>&nbsp;&nbsp;·&nbsp;신중년&nbsp;건강권&nbsp;보장:&nbsp;5064&nbsp;중장년&nbsp;의료비&nbsp;지원으로&nbsp;질병&nbsp;조기&nbsp;발견&nbsp;및&nbsp;활기찬&nbsp;노후&nbsp;준비&nbsp;지원<br>&nbsp;&nbsp;·&nbsp;돌봄&nbsp;사각지대&nbsp;해소:&nbsp;상시&nbsp;안심&nbsp;동행&nbsp;서비스와&nbsp;경로당&nbsp;무상급식&nbsp;확대로&nbsp;고립&nbsp;방지&nbsp;및&nbsp;공동체&nbsp;돌봄&nbsp;기능&nbsp;강화<br><br>2.&nbsp;이행방법<br>&nbsp;&nbsp;·&nbsp;산후조리&nbsp;인프라:&nbsp;관내&nbsp;기존&nbsp;시설&nbsp;연계&nbsp;또는&nbsp;신규&nbsp;지정을&nbsp;통한&nbsp;준공영제&nbsp;산후조리원&nbsp;운영(이용료&nbsp;감면&nbsp;및&nbsp;고품질&nbsp;서비스&nbsp;표준화)<br>&nbsp;&nbsp;·&nbsp;의료비&nbsp;지원:&nbsp;고성군&nbsp;거주&nbsp;50~64세&nbsp;군민&nbsp;대상&nbsp;본인부담&nbsp;의료비&nbsp;지원(연&nbsp;최대&nbsp;100만&nbsp;원)을&nbsp;위한&nbsp;사회보장제도&nbsp;신설&nbsp;보건복지부와&nbsp;협의<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관내&nbsp;병·의원&nbsp;이용자&nbsp;현황&nbsp;및&nbsp;본인부담금&nbsp;납부&nbsp;현황&nbsp;파악<br>&nbsp;&nbsp;·&nbsp;&nbsp;안심동행&nbsp;및&nbsp;급식:&nbsp;거동&nbsp;불편자&nbsp;대상&nbsp;병·의원&nbsp;방문&nbsp;전&nbsp;과정을&nbsp;돕는&nbsp;전담&nbsp;매니저&nbsp;운영&nbsp;및&nbsp;지역순회형&nbsp;경로당&nbsp;건강&nbsp;무상급식&nbsp;전면&nbsp;확대&nbsp;시행<br><br>3.&nbsp;이행기간<br>&nbsp;&nbsp;·&nbsp;정책&nbsp;타당성&nbsp;용역&nbsp;및&nbsp;지원&nbsp;대상&nbsp;수요조사&nbsp;:&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;2027.&nbsp;07&nbsp;<br>&nbsp;&nbsp;·&nbsp;보건복지부&nbsp;등&nbsp;관계기관&nbsp;협의&nbsp;및&nbsp;관련&nbsp;보건·복지&nbsp;조례&nbsp;제·개정&nbsp;:&nbsp;2027.&nbsp;08&nbsp;~&nbsp;2028.&nbsp;03<br>&nbsp;&nbsp;·&nbsp;&nbsp;안심동행서비스&nbsp;및&nbsp;경로당&nbsp;무상급식&nbsp;확대&nbsp;시행,&nbsp;의료비&nbsp;및&nbsp;산후조리원&nbsp;지원&nbsp;체계&nbsp;본격&nbsp;가동&nbsp;:&nbsp;2028.&nbsp;04.&nbsp;~<br><br>4.&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;·&nbsp;군·도비:&nbsp;경상남도&nbsp;‘공공산후조리원&nbsp;지원사업’&nbsp;및&nbsp;군&nbsp;자체&nbsp;의료급여&nbsp;특별회계&nbsp;예산&nbsp;편성<br>&nbsp;&nbsp;·&nbsp;기부금:&nbsp;고향사랑기부금&nbsp;복지사업&nbsp;분야&nbsp;지정&nbsp;기탁&nbsp;및&nbsp;지역&nbsp;내&nbsp;사회공헌&nbsp;기금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	기업 유치 및 청년·소상공인 맞춤형 일자리 창출</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="기업 유치 및 청년·소상공인 맞춤형 일자리 창출">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표<br>&nbsp;&nbsp;·&nbsp;파격적&nbsp;기업&nbsp;유치:&nbsp;부지&nbsp;무상&nbsp;임대&nbsp;등&nbsp;전국&nbsp;최고&nbsp;수준의&nbsp;인센티브를&nbsp;제공하여&nbsp;우량&nbsp;기업&nbsp;유치&nbsp;및&nbsp;장기&nbsp;고용&nbsp;기반&nbsp;확보<br>&nbsp;&nbsp;·&nbsp;청년&nbsp;창업&nbsp;생태계&nbsp;구축:&nbsp;무자본&nbsp;청년창업&nbsp;지원을&nbsp;통해&nbsp;아이디어만&nbsp;있으면&nbsp;고성에서&nbsp;성공할&nbsp;수&nbsp;있는&nbsp;청년&nbsp;주인공&nbsp;시대&nbsp;실현<br>&nbsp;&nbsp;·&nbsp;민생&nbsp;경제&nbsp;회복:&nbsp;경영&nbsp;위기&nbsp;소상공인의&nbsp;성공적&nbsp;재기와&nbsp;업종&nbsp;다각화를&nbsp;지원하여&nbsp;지역&nbsp;상권의&nbsp;자생력&nbsp;강화<br><br>2.&nbsp;이행방법<br>&nbsp;&nbsp;·&nbsp;부지&nbsp;지원:&nbsp;일자리&nbsp;창출&nbsp;우수&nbsp;기업&nbsp;대상&nbsp;군유지&nbsp;등&nbsp;최대&nbsp;20년&nbsp;무상임대를&nbsp;위한&nbsp;조례&nbsp;개정&nbsp;및&nbsp;공유재산&nbsp;관리계획&nbsp;수립<br>&nbsp;&nbsp;·&nbsp;창업&nbsp;금융:&nbsp;고성군&nbsp;전용&nbsp;창업&nbsp;펀드&nbsp;조성&nbsp;또는&nbsp;보증&nbsp;지원을&nbsp;통해&nbsp;청년&nbsp;예비&nbsp;창업자에게&nbsp;최대&nbsp;1억&nbsp;원의&nbsp;초기&nbsp;자금&nbsp;및&nbsp;컨설팅&nbsp;지원<br>&nbsp;&nbsp;·&nbsp;소상공인&nbsp;케어:&nbsp;폐업&nbsp;위기&nbsp;소상공인&nbsp;대상&nbsp;철거·재창업&nbsp;비용&nbsp;지원&nbsp;및&nbsp;고성읍&nbsp;등&nbsp;상권&nbsp;분석&nbsp;및&nbsp;트렌드&nbsp;변화에&nbsp;맞춘&nbsp;디지털&nbsp;전환,&nbsp;업종&nbsp;변경&nbsp;교육&nbsp;시행<br><br>3.&nbsp;이행기간<br>&nbsp;&nbsp;·&nbsp;일자리&nbsp;TF&nbsp;구성,&nbsp;지원&nbsp;대상&nbsp;수요조사&nbsp;및&nbsp;유휴&nbsp;부지&nbsp;전수&nbsp;점검&nbsp;:&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;2027.&nbsp;06&nbsp;<br>&nbsp;&nbsp;·&nbsp;창업&nbsp;펀드&nbsp;조성&nbsp;및&nbsp;상권&nbsp;분석을&nbsp;위한&nbsp;용역&nbsp;시행&nbsp;:&nbsp;2027.&nbsp;01&nbsp;~&nbsp;2028.&nbsp;01&nbsp;<br>&nbsp;&nbsp;·&nbsp;기업&nbsp;유치&nbsp;본격화&nbsp;및&nbsp;부지&nbsp;임대차&nbsp;계약&nbsp;체결,&nbsp;무자본&nbsp;창업&nbsp;지원&nbsp;및&nbsp;소상공인&nbsp;재기&nbsp;지원&nbsp;사업&nbsp;시행&nbsp;:&nbsp;2028.&nbsp;02.&nbsp;~<br><br>4.&nbsp;재원조달방안&nbsp;등&nbsp;<br>&nbsp;&nbsp;·&nbsp;국·도비:&nbsp;고용노동부&nbsp;‘지역산업&nbsp;맞춤형&nbsp;일자리&nbsp;창출&nbsp;사업’&nbsp;및&nbsp;중소벤처기업부&nbsp;소상공인&nbsp;지원&nbsp;공모&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;·&nbsp;군비&nbsp;및&nbsp;민자:&nbsp;군&nbsp;자체&nbsp;일자리&nbsp;기금&nbsp;활용&nbsp;및&nbsp;금융기관&nbsp;협약(금융지원&nbsp;매칭),&nbsp;기업&nbsp;직접&nbsp;투자&nbsp;유도</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

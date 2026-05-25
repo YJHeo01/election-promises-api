@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;최철규 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	KTX로 수도권 90분대 생활권 실현(태백-영동선, 평창역-정선선 신설)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="KTX로 수도권 90분대 생활권 실현(태백-영동선, 평창역-정선선 신설)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;:&nbsp;수도권&nbsp;접근성&nbsp;혁명:&nbsp;현재3시간&nbsp;이상&nbsp;소요되는&nbsp;서울~정선&nbsp;구간을&nbsp;90분대로&nbsp;단축하여&nbsp;수도권&nbsp;일일&nbsp;생활권을&nbsp;구축.<br><br>○&nbsp;이행방법&nbsp;:<br>&nbsp;&nbsp;1.&nbsp;제천~삼척&nbsp;구간&nbsp;선로&nbsp;직선화&nbsp;추진:&nbsp;제5차&nbsp;국가철도망&nbsp;구축계획에&nbsp;본&nbsp;사업을&nbsp;최우선&nbsp;순위로&nbsp;반영하여&nbsp;물리적&nbsp;주행&nbsp;거리를&nbsp;단축.<br>&nbsp;&nbsp;2.&nbsp;평창역~정선선&nbsp;연결&nbsp;노선&nbsp;신설:&nbsp;KTX-이음이&nbsp;정차하는&nbsp;평창역과&nbsp;기존&nbsp;정선선을&nbsp;잇는&nbsp;지선을&nbsp;신설하여&nbsp;고속열차의&nbsp;직접&nbsp;진입을&nbsp;유도.<br>&nbsp;&nbsp;3.&nbsp;노후&nbsp;열차&nbsp;전량&nbsp;교체:&nbsp;2030년까지&nbsp;노후&nbsp;무궁화호&nbsp;객차를&nbsp;퇴역시키고,&nbsp;신형&nbsp;열차인&nbsp;ITX-마음으로&nbsp;100%&nbsp;대체하여&nbsp;운행&nbsp;효율을&nbsp;극대화.<br><br>○&nbsp;이행기간&nbsp;:<br>&nbsp;&nbsp;2026년&nbsp;&nbsp;~&nbsp;&nbsp;2027년:&nbsp;제5차&nbsp;국가철도망&nbsp;구축계획&nbsp;반영<br>&nbsp;&nbsp;2028년&nbsp;&nbsp;~&nbsp;&nbsp;2030년:&nbsp;노선별&nbsp;기본&nbsp;설계&nbsp;및&nbsp;노후&nbsp;열차(ITX-마음)&nbsp;단계적&nbsp;교체&nbsp;완료<br>&nbsp;&nbsp;2031년&nbsp;&nbsp;~&nbsp;&nbsp;2035년:&nbsp;본격적인&nbsp;직선화&nbsp;공사<br><br>○&nbsp;재원조달방안&nbsp;등&nbsp;:<br>&nbsp;&nbsp;국비&nbsp;중심&nbsp;확보:&nbsp;국가철도망&nbsp;구축계획에&nbsp;따른&nbsp;국책사업&nbsp;추진으로&nbsp;전액&nbsp;국비확보.<br><br>○&nbsp;기대효과&nbsp;:<br>&nbsp;&nbsp;1.&nbsp;관광객&nbsp;유입&nbsp;증가<br>&nbsp;&nbsp;2.&nbsp;기업&nbsp;유치&nbsp;증가로&nbsp;일자리가&nbsp;창출.<br>&nbsp;&nbsp;3.&nbsp;정주&nbsp;인구&nbsp;급증</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	대체산업 육성 등을 통한 일자리 창출 3000개</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="대체산업 육성 등을 통한 일자리 창출 3000개">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표	:&nbsp;석탄산업&nbsp;이후의&nbsp;자립경제&nbsp;기반&nbsp;구축:&nbsp;폐광&nbsp;이후의&nbsp;위기를&nbsp;선제적으로&nbsp;대응하여&nbsp;정선의&nbsp;신성장&nbsp;동력&nbsp;확보&nbsp;및&nbsp;일자리	3000개를&nbsp;임기&nbsp;내&nbsp;창출.<br><br>○&nbsp;이행방법&nbsp;:<br>&nbsp;&nbsp;1.&nbsp;산자부&nbsp;주도&nbsp;대체산업&nbsp;발굴&nbsp;및&nbsp;육성&nbsp;마스터플랜&nbsp;용역&nbsp;추진&nbsp;하여&nbsp;임기&nbsp;초반,&nbsp;정선의&nbsp;지형·자원·인프라를&nbsp;정밀&nbsp;분석하는&nbsp;전문&nbsp;용역을&nbsp;실시&nbsp;및&nbsp;정선&nbsp;대전환&nbsp;대체산업&nbsp;로드맵을&nbsp;수립.<br>&nbsp;&nbsp;2.&nbsp;임기&nbsp;내&nbsp;국책사업으로&nbsp;대체산업을&nbsp;발굴하고&nbsp;강원랜드&nbsp;글로벌&nbsp;복합&nbsp;리조트&nbsp;조성,&nbsp;가리왕산&nbsp;산림복원&nbsp;정선형&nbsp;뉴딜&nbsp;사업&nbsp;등으로&nbsp;양질의&nbsp;일자리&nbsp;3000개를&nbsp;창출&nbsp;하여&nbsp;소멸&nbsp;위기를&nbsp;극복.<br><br>○&nbsp;이행기간&nbsp;:&nbsp;임기&nbsp;내&nbsp;즉시&nbsp;착수&nbsp;및&nbsp;가시적&nbsp;성과&nbsp;달성<br><br>○&nbsp;재원조달방안&nbsp;등&nbsp;:&nbsp;대체산업&nbsp;발굴&nbsp;전액&nbsp;국책사업으로&nbsp;유치(국비)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;일자리&nbsp;창출,&nbsp;민간과&nbsp;공공분야&nbsp;협력으로&nbsp;확보<br><br>○&nbsp;기대효과&nbsp;:<br>&nbsp;&nbsp;1.&nbsp;관광에&nbsp;치중된&nbsp;구조를&nbsp;넘어&nbsp;IT,&nbsp;물류,&nbsp;제조&nbsp;등&nbsp;대체산업&nbsp;육성으로&nbsp;경제&nbsp;성장.<br>&nbsp;&nbsp;2.&nbsp;대규모&nbsp;신규&nbsp;고용에&nbsp;따른&nbsp;인구&nbsp;유입과&nbsp;소득&nbsp;증대가&nbsp;소상공인&nbsp;매출로&nbsp;이어지는&nbsp;지역&nbsp;경제의&nbsp;선순환&nbsp;구조가&nbsp;완성<br>&nbsp;&nbsp;3.&nbsp;유치&nbsp;기업이&nbsp;납부하는&nbsp;지방세수를&nbsp;군민&nbsp;기본소득과&nbsp;의료·교육&nbsp;인프라&nbsp;강화에&nbsp;재투입하여&nbsp;삶의&nbsp;질&nbsp;향상</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	정선아리랑 시장 실크로드 사업</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="정선아리랑 시장 실크로드 사업">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;:&nbsp;날씨와&nbsp;교통&nbsp;체증에&nbsp;구애받지&nbsp;않고&nbsp;언제든&nbsp;쾌적하게&nbsp;방문할&nbsp;수&nbsp;있는&nbsp;'실크로드(보행&nbsp;터널)'를&nbsp;구축&nbsp;및&nbsp;주차난과&nbsp;교통&nbsp;혼잡을&nbsp;완전히&nbsp;해소<br><br>○&nbsp;이행방법&nbsp;:<br>&nbsp;&nbsp;1.&nbsp;조양강변&nbsp;대형&nbsp;주차장에서&nbsp;시장&nbsp;중심부까지&nbsp;날씨&nbsp;걱정&nbsp;없이&nbsp;이동할&nbsp;수&nbsp;있는&nbsp;무빙워크형&nbsp;지하&nbsp;통로를&nbsp;조성.<br>&nbsp;&nbsp;2.&nbsp;시장&nbsp;주변의&nbsp;꼬인&nbsp;교통&nbsp;흐름을&nbsp;정리하기&nbsp;위해&nbsp;주요&nbsp;진입로를&nbsp;일방통행으로&nbsp;지정하고,&nbsp;보행자&nbsp;중심의&nbsp;거리로&nbsp;재편.<br>&nbsp;&nbsp;3.&nbsp;정선아리랑&nbsp;시장을&nbsp;전문&nbsp;시장으로&nbsp;확대&nbsp;육성.<br><br>○&nbsp;이행기간&nbsp;:&nbsp;임기&nbsp;내&nbsp;착수&nbsp;및&nbsp;기반&nbsp;시설&nbsp;완공<br><br>○&nbsp;재원조달방안&nbsp;등&nbsp;:	전통시장&nbsp;현대화&nbsp;및&nbsp;주차환경&nbsp;개선&nbsp;사업비를&nbsp;통해&nbsp;국비&nbsp;확보,&nbsp;도비와&nbsp;지방비&nbsp;활용<br><br>○&nbsp;기대효과&nbsp;:<br>&nbsp;&nbsp;1.&nbsp;강변&nbsp;주차장과&nbsp;시장이&nbsp;직접&nbsp;연결되어&nbsp;시장&nbsp;입구의&nbsp;고질적인&nbsp;주차난과&nbsp;불법&nbsp;주정차&nbsp;문제가&nbsp;완벽히&nbsp;해소.<br>&nbsp;&nbsp;2.&nbsp;쾌적한&nbsp;이동&nbsp;통로와&nbsp;문화&nbsp;공간&nbsp;확충으로&nbsp;관광객의&nbsp;시장&nbsp;체류&nbsp;시간&nbsp;및&nbsp;매출&nbsp;증가.<br>&nbsp;&nbsp;3.&nbsp;시장의&nbsp;활력이&nbsp;주변&nbsp;도심&nbsp;상권으로&nbsp;확산되어&nbsp;정선읍&nbsp;전체&nbsp;경제&nbsp;발전.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	고한·사북 관광특구 지정 및 강원랜드 글로벌 복합 리조트 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="고한·사북 관광특구 지정 및 강원랜드 글로벌 복합 리조트 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;:&nbsp;고한·사북&nbsp;지역을&nbsp;대한민국을&nbsp;대표하는&nbsp;'글로벌&nbsp;관광특구'로&nbsp;지정하여&nbsp;강원랜드와&nbsp;동반성장의&nbsp;기틀을&nbsp;마련&nbsp;강원랜드&nbsp;글로벌&nbsp;복합&nbsp;리조트(K-HIT)에&nbsp;대한&nbsp;행정적&nbsp;지원강화.<br><br>○&nbsp;이행방법&nbsp;:<br>&nbsp;&nbsp;1.&nbsp;고한·사북&nbsp;일대를&nbsp;관광특구로&nbsp;지정하여&nbsp;건축물&nbsp;고도&nbsp;제한&nbsp;완화&nbsp;옥외광고물&nbsp;규제&nbsp;해제&nbsp;등&nbsp;파격적인&nbsp;행정&nbsp;지원을&nbsp;실시.<br>&nbsp;&nbsp;2.&nbsp;강원랜드의&nbsp;K-HIT&nbsp;프로젝트가&nbsp;차질&nbsp;없이&nbsp;진행되도록&nbsp;인허가&nbsp;등&nbsp;행정절차를&nbsp;원스톱으로&nbsp;지원.<br>&nbsp;&nbsp;3.&nbsp;특구&nbsp;지역&nbsp;내&nbsp;야간&nbsp;경관&nbsp;특화&nbsp;거리&nbsp;조성,&nbsp;주차시설건립에&nbsp;주차난&nbsp;완전해소&nbsp;등&nbsp;활력이&nbsp;넘치는&nbsp;관광&nbsp;도시&nbsp;조성.<br><br><br>○&nbsp;이행기간&nbsp;:&nbsp;임기&nbsp;내&nbsp;계획&nbsp;수립&nbsp;및&nbsp;가시적&nbsp;성과&nbsp;달성<br><br>○&nbsp;재원조달방안&nbsp;등&nbsp;:&nbsp;국·도비&nbsp;확보,&nbsp;민간&nbsp;자본&nbsp;유치,&nbsp;폐광지역개발기금<br><br>○&nbsp;기대효과&nbsp;:<br>&nbsp;&nbsp;1.&nbsp;규제&nbsp;없는&nbsp;자유로운&nbsp;투자가&nbsp;가능해져&nbsp;고한&nbsp;사북이&nbsp;세계적&nbsp;수준의&nbsp;관광도시로&nbsp;도약.<br>&nbsp;&nbsp;2.&nbsp;복합&nbsp;리조트와&nbsp;특구&nbsp;지정을&nbsp;통해&nbsp;국내외&nbsp;관광객&nbsp;유입이&nbsp;비약적으로&nbsp;증가하여&nbsp;지역&nbsp;상권에&nbsp;활력&nbsp;증진.<br>&nbsp;&nbsp;3.&nbsp;글로벌&nbsp;리조트&nbsp;운영&nbsp;및&nbsp;관련&nbsp;관광&nbsp;서비스&nbsp;산업&nbsp;확대로&nbsp;고임금&nbsp;전문직&nbsp;일자리가&nbsp;대폭&nbsp;증가.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	정선아이 미래 1억원 성장 바우처 도입</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="정선아이 미래 1억원 성장 바우처 도입">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;:&nbsp;아이를&nbsp;낳고&nbsp;키우는&nbsp;것이&nbsp;경제적&nbsp;부담이&nbsp;아닌&nbsp;축복이&nbsp;되도록,&nbsp;출생부터&nbsp;성인&nbsp;자립&nbsp;시까지&nbsp;총&nbsp;1억&nbsp;원&nbsp;수준의&nbsp;지원&nbsp;체계를&nbsp;구축,&nbsp;파격적인&nbsp;교육·돌봄&nbsp;지원.<br><br>○&nbsp;이행방법&nbsp;:<br>&nbsp;&nbsp;1.&nbsp;출산&nbsp;축하금&nbsp;아동수당(군비&nbsp;추가분),&nbsp;초·중·고&nbsp;입학&nbsp;축하금&nbsp;및&nbsp;꿈드림&nbsp;바우처&nbsp;등을&nbsp;통합하여&nbsp;생애주기별&nbsp;지원&nbsp;로드맵을&nbsp;설계.<br>&nbsp;&nbsp;2.&nbsp;산후조리원&nbsp;비용&nbsp;전액지원,&nbsp;어린이집&nbsp;무상급식&nbsp;및&nbsp;간식비&nbsp;지원확대,&nbsp;방과&nbsp;후&nbsp;교육비&nbsp;전액&nbsp;확대지원.<br>&nbsp;&nbsp;3.&nbsp;출생부터&nbsp;대학&nbsp;졸업까지&nbsp;양육과&nbsp;교육에&nbsp;드는&nbsp;모든&nbsp;비용을&nbsp;정선군이&nbsp;함께&nbsp;책임.<br><br>○&nbsp;이행기간&nbsp;:&nbsp;임기&nbsp;내&nbsp;즉시&nbsp;착수&nbsp;및&nbsp;단계적&nbsp;확대<br><br>○&nbsp;재원조달방안&nbsp;등&nbsp;:&nbsp;지방소멸대응기금&nbsp;우선&nbsp;배정,&nbsp;강원랜드&nbsp;배당금<br><br>○&nbsp;기대효과&nbsp;:<br>&nbsp;&nbsp;1.&nbsp;출산부터&nbsp;교육까지&nbsp;드는&nbsp;필수&nbsp;비용을&nbsp;군이&nbsp;분담함으로써,&nbsp;경제적&nbsp;이유로&nbsp;출산을&nbsp;주저하는&nbsp;가구의&nbsp;고민을&nbsp;근본적으로&nbsp;해결.<br>&nbsp;&nbsp;2.&nbsp;부모의&nbsp;경제력과&nbsp;상관없이&nbsp;정선의&nbsp;아이라면&nbsp;누구나&nbsp;원하는&nbsp;공부를&nbsp;끝까지&nbsp;할&nbsp;수&nbsp;있는&nbsp;'평등한&nbsp;교육&nbsp;기회'&nbsp;가&nbsp;보장.<br>&nbsp;&nbsp;3.&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;환경이&nbsp;조성되면&nbsp;자연스럽게&nbsp;출산율이&nbsp;높아지고&nbsp;유동&nbsp;인구가&nbsp;정착&nbsp;인구로&nbsp;전환.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

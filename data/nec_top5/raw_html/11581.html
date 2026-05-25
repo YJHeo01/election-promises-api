@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;권영국 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	모든 시민이 노동권의 주체가 되는 서울</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="모든 시민이 노동권의 주체가 되는 서울">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;서울시가&nbsp;지방정부·모범&nbsp;사용자·최후의&nbsp;고용주로&nbsp;모든&nbsp;시민의&nbsp;노동권&nbsp;보장<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;노동법&nbsp;사각지대&nbsp;해소&nbsp;:&nbsp;서울시&nbsp;‘노동권&nbsp;보장&nbsp;조례‘와&nbsp;‘플랫폼&nbsp;최저보수‘&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;5인&nbsp;미만&nbsp;사업장&nbsp;등에&nbsp;대한&nbsp;근로기준법&nbsp;확대적용하는&nbsp;‘서울시&nbsp;노동권&nbsp;보장&nbsp;조례’&nbsp;제정&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특고·프리랜서·플랫폼&nbsp;노동자&nbsp;건당&nbsp;공정&nbsp;단가&nbsp;도입으로&nbsp;‘최저보수’&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년부터&nbsp;이양되는&nbsp;노동감독권&nbsp;활용&nbsp;임금체불&nbsp;완전&nbsp;근절&nbsp;및&nbsp;대지급&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불안정&nbsp;노동자를&nbsp;위한&nbsp;‘맞춤형&nbsp;복지카드’&nbsp;도입(건강검진,&nbsp;휴가,&nbsp;문화생활&nbsp;등)<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;시대&nbsp;일자리&nbsp;전환&nbsp;보장(일자리보장제)과&nbsp;노동시간&nbsp;단축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;빅테크&nbsp;기업&nbsp;‘AI&nbsp;전환&nbsp;기금’&nbsp;납부&nbsp;의무화로&nbsp;일자리&nbsp;전환&nbsp;및&nbsp;청년&nbsp;일자리&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;도입시&nbsp;노동영향평가제&nbsp;도입,&nbsp;사전&nbsp;노사&nbsp;교섭&nbsp;의무화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공기관부터&nbsp;주4일제&nbsp;시작,&nbsp;민간기업&nbsp;노동시간&nbsp;단축&nbsp;지원,&nbsp;포괄임금&nbsp;금지<br>&nbsp;&nbsp;○&nbsp;기후위기&nbsp;시대&nbsp;기후수당(폭염·한파&nbsp;수당&nbsp;등)&nbsp;지급&nbsp;시범실시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야외·이동·물류&nbsp;노동자&nbsp;등&nbsp;대상으로&nbsp;기후로&nbsp;인한&nbsp;작업중지시&nbsp;임금&nbsp;일부&nbsp;보상<br>&nbsp;&nbsp;○&nbsp;서울시장이&nbsp;진짜&nbsp;사장&nbsp;:&nbsp;공공부문&nbsp;노정교섭&nbsp;및&nbsp;나쁜일자리&nbsp;퇴출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노조법&nbsp;제2·3조&nbsp;근거&nbsp;공공기관(민간위탁&nbsp;포함)&nbsp;노정교섭&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시와&nbsp;전국공공운수노동조합과의&nbsp;정례&nbsp;정책협의&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;쪼개기,&nbsp;부당한&nbsp;기간제,&nbsp;무책임한&nbsp;외주·용역,&nbsp;3대&nbsp;나쁜&nbsp;일자리&nbsp;퇴출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울신용보증재단&nbsp;콜센터&nbsp;등&nbsp;상시업무&nbsp;직고용&nbsp;정규직&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;노동자를&nbsp;권리의&nbsp;주체로&nbsp;:&nbsp;단체교섭&nbsp;활성화,&nbsp;노조&nbsp;조직률&nbsp;20%&nbsp;달성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간부문&nbsp;초기업교섭&nbsp;중재를&nbsp;위한&nbsp;‘초기업&nbsp;교섭&nbsp;촉진&nbsp;조례’&nbsp;제정&nbsp;<br>&nbsp;&nbsp;○&nbsp;노동&nbsp;중심&nbsp;서울&nbsp;시정&nbsp;:&nbsp;노동부시장과&nbsp;노동정책국&nbsp;신설,&nbsp;노동안전감시단&nbsp;등&nbsp;운영&nbsp;<br>&nbsp;&nbsp;○&nbsp;자영업자도&nbsp;노동자다,&nbsp;백년상권&nbsp;보장&nbsp;및&nbsp;안전망&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;코로나19&nbsp;손실보상법&nbsp;이전&nbsp;소급&nbsp;보상,&nbsp;자영업자&nbsp;고용보험&nbsp;및&nbsp;산재.상병수당&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상가&nbsp;환산보증금&nbsp;폐지&nbsp;및&nbsp;임대료&nbsp;상한제(인상율&nbsp;제한)로&nbsp;상가임차인&nbsp;보호<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;<br>&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;전환기금&nbsp;조성,&nbsp;고용노동부&nbsp;협력사업비&nbsp;조달&nbsp;확대,&nbsp;기존&nbsp;예산&nbsp;구조조정(외주·용역의&nbsp;직고용&nbsp;전환시&nbsp;순비용&nbsp;감소&nbsp;추정&nbsp;등)&nbsp;및&nbsp;재정영향평가&nbsp;강화&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	주거·교통·의료·먹거리 기본서비스를 공공이 책임지는 서울 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="주거·교통·의료·먹거리 기본서비스를 공공이 책임지는 서울 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;생활필수재를&nbsp;공공이&nbsp;보장함으로써&nbsp;불평등&nbsp;해소와&nbsp;시민&nbsp;생활비&nbsp;절감&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;기본서비스&nbsp;선언&nbsp;및&nbsp;보장&nbsp;체계&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘서울시&nbsp;기본서비스&nbsp;보장&nbsp;조례’&nbsp;제정하여&nbsp;주거·먹거리·교통·의료를&nbsp;시민의&nbsp;기본권으로&nbsp;명시하고&nbsp;서울시의&nbsp;보장&nbsp;책임과&nbsp;체계&nbsp;규정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민·전문가·노동자&nbsp;대표로&nbsp;기본서비스&nbsp;보장위원회&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소득분위별&nbsp;생활비&nbsp;절감&nbsp;효과&nbsp;목표&nbsp;수립&nbsp;및&nbsp;관리&nbsp;<br>&nbsp;&nbsp;○&nbsp;[주거&nbsp;보장]&nbsp;공공임대주택&nbsp;확대&nbsp;및&nbsp;임대료&nbsp;통제,&nbsp;계속거주권&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공임대주택&nbsp;20%&nbsp;확보를&nbsp;장기&nbsp;목표로&nbsp;임기&nbsp;내&nbsp;10만호&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울형&nbsp;표준&nbsp;임대료와&nbsp;관리비,&nbsp;이에&nbsp;기반한&nbsp;인상률&nbsp;기준&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘서울시&nbsp;주택임대차&nbsp;조례’&nbsp;제정,&nbsp;2회&nbsp;계약갱신&nbsp;넘어&nbsp;세입자&nbsp;계속거주&nbsp;<br>&nbsp;&nbsp;○&nbsp;[교통&nbsp;보장]&nbsp;대중교통&nbsp;무상화와&nbsp;확대,&nbsp;버스&nbsp;완전&nbsp;공영제<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대중교통&nbsp;무상화&nbsp;:&nbsp;아동.청소년.어르신부터,&nbsp;마을버스와&nbsp;시내버스부터,&nbsp;비혼잡&nbsp;시간부터&nbsp;시작하여,&nbsp;2030년&nbsp;대중교통&nbsp;완전&nbsp;무상화&nbsp;달성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;버스&nbsp;완전&nbsp;공영제,&nbsp;교통&nbsp;사각지대&nbsp;잇는&nbsp;이음버스&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;[의료&nbsp;보장]&nbsp;공공병원&nbsp;확대,&nbsp;주치의제와&nbsp;병원비&nbsp;100만원&nbsp;상한제<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공병원&nbsp;및&nbsp;달빛어린이병원&nbsp;확대로&nbsp;25개&nbsp;자치구&nbsp;공공의료&nbsp;공백&nbsp;제로<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아동·청소년부터&nbsp;병원비&nbsp;100만원&nbsp;상한&nbsp;초과분&nbsp;서울시가&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동네의원과&nbsp;보건소를&nbsp;시민과&nbsp;연결하는&nbsp;서울형&nbsp;동네&nbsp;주치의&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신부터&nbsp;만성질환&nbsp;관리비와&nbsp;필수&nbsp;약값&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;[먹거리&nbsp;보장]&nbsp;공공조식과&nbsp;공공식당&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년,&nbsp;1인가구,&nbsp;맞벌이,&nbsp;새벽노동자&nbsp;등부터&nbsp;서울시가&nbsp;공공조식&nbsp;제공,&nbsp;저소득층은&nbsp;무상으로,&nbsp;일반시민에게는&nbsp;‘천원의&nbsp;아침밥’&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아파트와&nbsp;대학&nbsp;등의&nbsp;시설을&nbsp;공공식당,&nbsp;공유부엌으로&nbsp;활용&nbsp;및&nbsp;신설<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재산세&nbsp;탄력세율&nbsp;조정,&nbsp;광역교통시설부담금&nbsp;부과율&nbsp;조정,&nbsp;주택기금&nbsp;등&nbsp;조달&nbsp;확대,&nbsp;기존&nbsp;예산&nbsp;구조조정&nbsp;및&nbsp;재정영향평가&nbsp;강화&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	돌봄의 무게를 덜고, 돌봄이 활력이 되는 공공돌봄도시 서울</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="돌봄의 무게를 덜고, 돌봄이 활력이 되는 공공돌봄도시 서울">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;돌봄의&nbsp;사회화를&nbsp;통해&nbsp;개인과&nbsp;가족의&nbsp;부담을&nbsp;덜고,&nbsp;생애&nbsp;맞춤형으로&nbsp;질&nbsp;좋은&nbsp;돌봄을&nbsp;제공하며,&nbsp;일자리&nbsp;창출&nbsp;등&nbsp;지역의&nbsp;활력&nbsp;창출<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;돌봄의&nbsp;사회화,&nbsp;돌봄&nbsp;공동체&nbsp;서울<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울사회서비스원&nbsp;즉각&nbsp;복원,&nbsp;자치구별&nbsp;공공통합돌봄센터&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘서울형&nbsp;돌봄&nbsp;노동&nbsp;가이드라인’&nbsp;제정&nbsp;:&nbsp;직접고용&nbsp;확대,&nbsp;민간에도&nbsp;생활임금&nbsp;적용,&nbsp;야간근무&nbsp;등&nbsp;2인1조&nbsp;의무화,&nbsp;휴게&nbsp;시간&nbsp;보장&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄&nbsp;인력&nbsp;확대&nbsp;:&nbsp;가용재정&nbsp;우선투입,&nbsp;신규&nbsp;채용&nbsp;50%를&nbsp;현장전문가로&nbsp;충원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공병원&nbsp;간호간병통합서비스&nbsp;100%&nbsp;실시&nbsp;및&nbsp;민간병원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시&nbsp;직영&nbsp;간병인&nbsp;공공&nbsp;플랫폼&nbsp;‘서울&nbsp;간병지원센터’&nbsp;설립<br>&nbsp;&nbsp;○&nbsp;돌봄이&nbsp;지역의&nbsp;활력이&nbsp;되는&nbsp;서울<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄&nbsp;일자리보장제(지역&nbsp;돌봄&nbsp;사관학교&nbsp;운영)&nbsp;:&nbsp;기초돌봄부터&nbsp;전문&nbsp;간호·심리&nbsp;상담까지&nbsp;체계적&nbsp;교육&nbsp;무상&nbsp;제공&nbsp;후&nbsp;돌봄&nbsp;일자리로&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이웃돌봄,&nbsp;반찬나눔&nbsp;등&nbsp;돌봄·공동체&nbsp;활동에&nbsp;참여소득&nbsp;지급(지역화폐&nbsp;활용)<br>&nbsp;&nbsp;○&nbsp;아동&nbsp;돌봄,&nbsp;부모의&nbsp;삶과&nbsp;아동의&nbsp;성장이&nbsp;조화롭게&nbsp;공존하는&nbsp;서울<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육청과&nbsp;협약을&nbsp;통해&nbsp;초등돌봄교사&nbsp;채용,&nbsp;국공립어린이집&nbsp;우선&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을공간&nbsp;활용&nbsp;마을학교와&nbsp;주민이&nbsp;참여하는&nbsp;마을교사&nbsp;제도&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아빠&nbsp;육아휴직&nbsp;3개월&nbsp;의무&nbsp;할당제,&nbsp;‘서울형&nbsp;대체인력지원센터’&nbsp;설립<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;돌봄,&nbsp;자식들의&nbsp;짐이&nbsp;되지&nbsp;않는&nbsp;건강하고&nbsp;즐거운&nbsp;노후<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;살던&nbsp;곳에서&nbsp;노후를&nbsp;보내도록&nbsp;의료·복지&nbsp;결합된&nbsp;공공실버주택&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경로당을&nbsp;어르신건강문화센터로&nbsp;개편,&nbsp;반찬배달&nbsp;및&nbsp;함께식사&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;약국과&nbsp;편의점을&nbsp;‘돌봄&nbsp;보안관’으로&nbsp;지정하여&nbsp;위기&nbsp;신호&nbsp;조기&nbsp;발견<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘서울형&nbsp;기초연금&nbsp;보조’와&nbsp;전문성·공익성&nbsp;갖춘&nbsp;어르신&nbsp;일자리&nbsp;신설<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;전환기금&nbsp;조성,&nbsp;재산세&nbsp;탄력세율&nbsp;조정,&nbsp;보건복지부·서울시교육청&nbsp;등&nbsp;유관기관과&nbsp;협약,&nbsp;기존&nbsp;예산&nbsp;구조조정&nbsp;및&nbsp;재정영향평가&nbsp;강화&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	에너지자립과 자원순환으로 기후위기에 대응하고, 지역과 상생하는 서울</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="에너지자립과 자원순환으로 기후위기에 대응하고, 지역과 상생하는 서울">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;에너지&nbsp;자립과&nbsp;탈탄소&nbsp;전환으로&nbsp;기후위기에&nbsp;맞서고,&nbsp;서울이&nbsp;쓰는&nbsp;에너지·자원은&nbsp;서울이&nbsp;책임지는&nbsp;자기&nbsp;책임&nbsp;도시&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;&nbsp;지산지소&nbsp;에너지&nbsp;자립,&nbsp;시민을&nbsp;에너지의&nbsp;주인으로.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울에너지공사를&nbsp;공공&nbsp;재생에너지&nbsp;사업&nbsp;중심으로&nbsp;개편&nbsp;및&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울의&nbsp;전력&nbsp;자립도,&nbsp;재생에너지&nbsp;비율&nbsp;목표와&nbsp;로드맵을&nbsp;조례로&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1가구&nbsp;1태양광&nbsp;및&nbsp;서울시내&nbsp;곳곳&nbsp;에너지저장장치&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공기관&nbsp;및&nbsp;공공유휴부지&nbsp;등에&nbsp;태양광&nbsp;발전소&nbsp;전면&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;에너지&nbsp;협동조합&nbsp;등&nbsp;주민참여형&nbsp;이익공유&nbsp;모델&nbsp;도입&nbsp;및&nbsp;설립&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;탈탄소&nbsp;건물과&nbsp;교통으로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;15년&nbsp;이상된&nbsp;공공임대주택&nbsp;56만호&nbsp;포함&nbsp;노후주택&nbsp;그린리모델링&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공건축물과&nbsp;신축건물은&nbsp;제로에너지빌딩&nbsp;의무화(단열,&nbsp;히트펌프&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘주택에너지복지&nbsp;조례’&nbsp;로&nbsp;취약계층&nbsp;기후재난&nbsp;대비,&nbsp;에너지&nbsp;효율화&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대중교통&nbsp;무상화,&nbsp;생계형&nbsp;내연기관차의&nbsp;40%&nbsp;이상을&nbsp;친환경차로&nbsp;전환&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도심&nbsp;차량&nbsp;속도&nbsp;다이어트,&nbsp;자전거&nbsp;전용도로와&nbsp;넓은&nbsp;보행로&nbsp;조성&nbsp;<br>&nbsp;&nbsp;○&nbsp;쓰레기는&nbsp;줄이고,&nbsp;자원은&nbsp;재사용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;쓰레기&nbsp;재활용율&nbsp;80%로&nbsp;확대(일회용품&nbsp;규제,&nbsp;분리시설&nbsp;신설&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;수리센터&nbsp;확대&nbsp;및&nbsp;공공구매시&nbsp;수리&nbsp;용이&nbsp;제품&nbsp;우대로&nbsp;수리권&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;다회용기&nbsp;수거&nbsp;및&nbsp;리필·수리&nbsp;거점&nbsp;조성,&nbsp;일회용품&nbsp;사용&nbsp;단계적&nbsp;전면&nbsp;금지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;건물을&nbsp;고쳐&nbsp;쓰는&nbsp;순환형&nbsp;건축&nbsp;확대,&nbsp;건축자재&nbsp;재사용&nbsp;시장&nbsp;구축&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;지역에&nbsp;떠넘기지&nbsp;않는,&nbsp;책임지는&nbsp;서울<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘수도권-지역&nbsp;상생협의체’&nbsp;상설화로&nbsp;에너지·폐기물·산업시설&nbsp;등&nbsp;지역&nbsp;자원&nbsp;활용에&nbsp;관한&nbsp;주요&nbsp;사안을&nbsp;수도권과&nbsp;지역이&nbsp;함께&nbsp;숙의&nbsp;결정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;폐기물&nbsp;처리&nbsp;자립&nbsp;전까지&nbsp;폐기물&nbsp;외부이전&nbsp;‘수도권-지역&nbsp;상생기금’운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재생에너지,&nbsp;기후재난&nbsp;전문&nbsp;일자리&nbsp;창출,&nbsp;생태한계인지&nbsp;예산제&nbsp;도입<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재생에너지&nbsp;사업&nbsp;수익&nbsp;활용,&nbsp;기후대응기금&nbsp;적극&nbsp;확보,&nbsp;기존&nbsp;예산&nbsp;구조조정(토건&nbsp;등)&nbsp;및&nbsp;재정영향평가&nbsp;강화&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	당신이 누구이든 상관없이 평등과 안전으로 혐오와 차별 없는 서울</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="당신이 누구이든 상관없이 평등과 안전으로 혐오와 차별 없는 서울">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;평등과&nbsp;안전을&nbsp;제도로&nbsp;보장하여&nbsp;모든&nbsp;시민이&nbsp;성별·장애·국적·성적지향·가족형태에&nbsp;관계없이&nbsp;존엄하게&nbsp;살고,&nbsp;동물과&nbsp;생명을&nbsp;중시하는&nbsp;도시<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;평등과&nbsp;안전의&nbsp;제도화&nbsp;:&nbsp;차별금지조례,&nbsp;성평등&nbsp;임금공시제&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;포괄적&nbsp;차별금지조례&nbsp;제정&nbsp;및&nbsp;전담센터&nbsp;설치(현장출동,&nbsp;조사,&nbsp;법적&nbsp;대응&nbsp;등&nbsp;종합대응),&nbsp;공공조달&nbsp;및&nbsp;입찰,&nbsp;공공채용&nbsp;등에서&nbsp;차별&nbsp;퇴출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성평등&nbsp;임금공시제&nbsp;공공기관과&nbsp;50인&nbsp;이상&nbsp;민간기업에&nbsp;전면&nbsp;도입,&nbsp;성별&nbsp;임금&nbsp;격차&nbsp;해소&nbsp;우수기업&nbsp;공공조달&nbsp;등에&nbsp;우선권&nbsp;부여&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여성폭력&nbsp;예방&nbsp;및&nbsp;피해자&nbsp;지원을&nbsp;위한&nbsp;‘서울&nbsp;경찰·의료·교육·복지기관&nbsp;상설&nbsp;협의체’&nbsp;가동,&nbsp;가해자&nbsp;접근금지를&nbsp;위한&nbsp;전자감독&nbsp;연계,&nbsp;반복신고에는&nbsp;선제적&nbsp;개입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여성안전&nbsp;실태조사&nbsp;정례화,&nbsp;디지털&nbsp;성범죄&nbsp;피해자&nbsp;지원센터&nbsp;등&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;다양한&nbsp;시민,&nbsp;다양한&nbsp;가족<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;혼인·혈연이&nbsp;아니어도&nbsp;가족으로&nbsp;인정하는&nbsp;‘생활동반자&nbsp;인증제’도입,&nbsp;의료현장&nbsp;보호자&nbsp;지정,&nbsp;SH공공주택&nbsp;입주&nbsp;자격&nbsp;부여&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동성부부&nbsp;혼인신고&nbsp;수리&nbsp;및&nbsp;관련&nbsp;법&nbsp;개정&nbsp;촉구,&nbsp;퀴어축제도&nbsp;평등한&nbsp;광장&nbsp;사용권&nbsp;부여,&nbsp;시청·자치구&nbsp;공무원&nbsp;등&nbsp;대상&nbsp;성소수자&nbsp;인권&nbsp;교육&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이주민인권통합센터&nbsp;설치,&nbsp;국적이&nbsp;아닌&nbsp;거주&nbsp;기준&nbsp;복지서비스&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성소수자와&nbsp;이주민을&nbsp;포괄하는&nbsp;지역사회&nbsp;포용&nbsp;통계&nbsp;작성&nbsp;<br>&nbsp;&nbsp;○&nbsp;동물과&nbsp;공존하는&nbsp;서울<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘서울시&nbsp;동물권&nbsp;조례’&nbsp;제정으로&nbsp;동물을&nbsp;생명으로&nbsp;규정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동물학대&nbsp;전담팀(공무원,&nbsp;수의사,&nbsp;경찰)&nbsp;구성,&nbsp;신고&nbsp;즉시&nbsp;출동,&nbsp;임시&nbsp;격리,&nbsp;긴급보호,&nbsp;동물학대&nbsp;요소가&nbsp;있는&nbsp;행사&nbsp;및&nbsp;축제&nbsp;중단(가이드라인&nbsp;마련)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공&nbsp;동물센터,&nbsp;공공&nbsp;동물병원,&nbsp;공공&nbsp;동물장례식장&nbsp;및&nbsp;동물의료공제회&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;전환기금&nbsp;조성,&nbsp;여성가족부&nbsp;협력사업비&nbsp;확대,&nbsp;기존&nbsp;예산&nbsp;구조조정및&nbsp;재정영향&nbsp;평가&nbsp;강화&nbsp;등</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

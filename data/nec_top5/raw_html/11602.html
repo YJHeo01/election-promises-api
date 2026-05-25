@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박관열 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	주택 3만 호 AI 스마트도시 대전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="주택 3만 호 AI 스마트도시 대전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;이제는&nbsp;‘특별한&nbsp;희생’에&nbsp;합당한&nbsp;‘특별한&nbsp;보상(신도시&nbsp;개발&nbsp;및&nbsp;규제&nbsp;완화)’이&nbsp;주어져야&nbsp;할&nbsp;때임.<br>&nbsp;&nbsp;○&nbsp;단순한&nbsp;아파트가&nbsp;아닌,&nbsp;AI&nbsp;관제&nbsp;시스템·에너지&nbsp;자립형(RE100)&nbsp;기술이&nbsp;적용된&nbsp;미래형&nbsp;주거&nbsp;단지&nbsp;조성으로&nbsp;주거&nbsp;안정과&nbsp;인구&nbsp;유입&nbsp;동시&nbsp;달성.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;홈:&nbsp;세대별&nbsp;AI&nbsp;비서,&nbsp;헬스케어&nbsp;시스템,&nbsp;통합&nbsp;보안&nbsp;관제&nbsp;기본&nbsp;탑재.<br>&nbsp;&nbsp;○&nbsp;‘에너지&nbsp;플러스’&nbsp;주택:&nbsp;태양광·지열&nbsp;등을&nbsp;활용한&nbsp;관리비&nbsp;제로화&nbsp;도전&nbsp;(이재명표&nbsp;에너지고속도로&nbsp;연계).<br>&nbsp;&nbsp;○&nbsp;공공성&nbsp;강화:&nbsp;3만호&nbsp;중&nbsp;일정&nbsp;비율을&nbsp;'기본주택(장기임대)'&nbsp;및&nbsp;'청년/신혼부부&nbsp;역세권&nbsp;첫집'으로&nbsp;배정.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년:&nbsp;도시기본계획&nbsp;변경(안)&nbsp;수립&nbsp;및&nbsp;후보지&nbsp;타당성&nbsp;조사<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(용도지역&nbsp;변경,&nbsp;그린벨트&nbsp;해제&nbsp;가능&nbsp;물량&nbsp;등&nbsp;검토).<br>&nbsp;&nbsp;○&nbsp;2027년:&nbsp;용도변경&nbsp;등&nbsp;변경&nbsp;신청(국토부/경기도)&nbsp;및&nbsp;지구&nbsp;지정&nbsp;제안.<br>&nbsp;&nbsp;○&nbsp;2028년:&nbsp;실시계획&nbsp;승인&nbsp;및&nbsp;토지&nbsp;보상&nbsp;착수&nbsp;(선도&nbsp;기업&nbsp;MOU&nbsp;체결&nbsp;병행).<br>&nbsp;&nbsp;○&nbsp;2029년:&nbsp;부지&nbsp;조성&nbsp;공사&nbsp;착공&nbsp;및&nbsp;1단계&nbsp;아파트&nbsp;분양.<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;사업&nbsp;방식:&nbsp;공영개발(GH&nbsp;경기주택도시공사&nbsp;주도)&nbsp;+&nbsp;민관합동개발(SPC)&nbsp;혼용.<br>&nbsp;&nbsp;○&nbsp;초기&nbsp;자금:&nbsp;민간&nbsp;자본&nbsp;유치&nbsp;및&nbsp;도시개발채권&nbsp;발행.<br>&nbsp;&nbsp;○&nbsp;기반&nbsp;시설:&nbsp;개발이익&nbsp;환수금(공공기여)을&nbsp;활용하여&nbsp;R&D&nbsp;센터&nbsp;및&nbsp;도로&nbsp;등&nbsp;인프라&nbsp;재투자.<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;지원:&nbsp;국토부&nbsp;‘스마트시티&nbsp;챌린지&nbsp;사업’&nbsp;등&nbsp;공모&nbsp;참여.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	태전-분당간 직동 제2터널 신설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="태전-분당간 직동 제2터널 신설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;‘분당&nbsp;10분&nbsp;생활권’&nbsp;완성:&nbsp;광주&nbsp;태전·직동&nbsp;↔&nbsp;성남&nbsp;분당(야탑)간&nbsp;이동&nbsp;시간&nbsp;을&nbsp;획기적으로&nbsp;단축하여&nbsp;직주근접&nbsp;실현.<br>&nbsp;&nbsp;○&nbsp;만성&nbsp;정체&nbsp;구간&nbsp;해소:&nbsp;태재고개&nbsp;및&nbsp;국도&nbsp;43호선으로&nbsp;집중되는&nbsp;교통량을&nbsp;분산시켜&nbsp;광주시&nbsp;전체&nbsp;도로망&nbsp;소통&nbsp;원활화.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;노선&nbsp;및&nbsp;행정&nbsp;절차:&nbsp;태전지구~영장산~분당&nbsp;야탑을&nbsp;잇는&nbsp;최적&nbsp;노선(안)&nbsp;수립.<br>&nbsp;&nbsp;○&nbsp;‘광주시&nbsp;도로건설관리계획(5개년)’&nbsp;최우선&nbsp;순위&nbsp;반영&nbsp;및&nbsp;타당성조사&nbsp;용역&nbsp;즉시&nbsp;발주.<br>&nbsp;&nbsp;○&nbsp;지자체&nbsp;간&nbsp;협력&nbsp;체계&nbsp;구축:&nbsp;터널&nbsp;출구인&nbsp;성남시와의&nbsp;원활한&nbsp;연결을&nbsp;위해&nbsp;‘광주&nbsp;-&nbsp;성남&nbsp;도로개설&nbsp;공동협약(MOU)’&nbsp;체결&nbsp;추진.<br>&nbsp;&nbsp;○&nbsp;더불어민주당&nbsp;소속&nbsp;광주시,&nbsp;성남시&nbsp;국회의원,&nbsp;시장,&nbsp;기초/광역의원들과&nbsp;정책&nbsp;연대&nbsp;강화.<br>&nbsp;&nbsp;○&nbsp;광역&nbsp;도로망&nbsp;연계:&nbsp;해당&nbsp;노선의&nbsp;지방도&nbsp;또는&nbsp;국지도&nbsp;승격&nbsp;검토를&nbsp;통해&nbsp;국비·도비&nbsp;지원&nbsp;근거&nbsp;마련.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년:&nbsp;사전&nbsp;타당성&nbsp;조사&nbsp;용역&nbsp;및&nbsp;환경&nbsp;영향&nbsp;평가&nbsp;실시&nbsp;및&nbsp;성남시와&nbsp;노선&nbsp;협의.<br>&nbsp;&nbsp;○&nbsp;2027년:&nbsp;지방재정&nbsp;투자심사&nbsp;및&nbsp;실시설계&nbsp;예산&nbsp;확보.<br>&nbsp;&nbsp;○&nbsp;2028년:&nbsp;실시설계&nbsp;완료,&nbsp;토지&nbsp;보상&nbsp;착수&nbsp;및&nbsp;공사&nbsp;착공.<br>&nbsp;&nbsp;○&nbsp;2029년~:&nbsp;본&nbsp;공사&nbsp;추진.<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;[1순위]&nbsp;광주시&nbsp;자체&nbsp;가용&nbsp;예산(순세계잉여금&nbsp;등)&nbsp;우선&nbsp;배정&nbsp;및&nbsp;경기도&nbsp;특별조정교부금&nbsp;적극&nbsp;확보.<br>&nbsp;&nbsp;○&nbsp;[2순위]&nbsp;재정&nbsp;부담&nbsp;완화를&nbsp;위해&nbsp;필요시&nbsp;민간투자사업(BTO)&nbsp;방식&nbsp;병행&nbsp;검토.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	GTX-D정차 ＆ 오포-판교 직통철도망 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="GTX-D정차 ＆ 오포-판교 직통철도망 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;‘동서&nbsp;내부&nbsp;순환&nbsp;철도망’&nbsp;신설:&nbsp;[판교~오포(신현/능평)~태전역~광주역&nbsp;~곤지암]을&nbsp;잇는&nbsp;동서&nbsp;철도축을&nbsp;완성하여&nbsp;‘판교&nbsp;-&nbsp;광주&nbsp;20분&nbsp;산업&nbsp;생활권’&nbsp;실현.<br>&nbsp;&nbsp;○&nbsp;비즈니스&nbsp;벨트&nbsp;완성:&nbsp;판교의&nbsp;R&D&nbsp;기능(두뇌)과&nbsp;곤지암의&nbsp;피지컬&nbsp;AI&nbsp;실증단지(몸체)를&nbsp;철도로&nbsp;연결하여&nbsp;물류와&nbsp;인력이&nbsp;자유롭게&nbsp;오가는&nbsp;첨단&nbsp;산업&nbsp;벨트&nbsp;구축.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[1단계]&nbsp;판교~오포(신현·능평)&nbsp;도시철도&nbsp;조기&nbsp;확정:&nbsp;‘신현·능평~판교&nbsp;도시철도(8호선&nbsp;연장&nbsp;등)’&nbsp;노선을&nbsp;우선&nbsp;확정&nbsp;후,&nbsp;이를&nbsp;광주역까지&nbsp;연장하는&nbsp;방안을&nbsp;‘제2차&nbsp;경기도&nbsp;도시철도망&nbsp;구축계획’에&nbsp;반영.<br>&nbsp;&nbsp;○&nbsp;[2단계]&nbsp;GTX-D&nbsp;노선과의&nbsp;연계:&nbsp;GTX-D&nbsp;노선(곤지암역&nbsp;정차)과&nbsp;본&nbsp;비즈니스&nbsp;철도를&nbsp;환승&nbsp;체계로&nbsp;묶어&nbsp;광역&nbsp;접근성&nbsp;극대화.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년:&nbsp;‘광주시&nbsp;동서&nbsp;횡단&nbsp;철도망&nbsp;구축’&nbsp;사전&nbsp;타당성&nbsp;조사&nbsp;용역&nbsp;발주.<br>&nbsp;&nbsp;○&nbsp;2027년:&nbsp;경기도&nbsp;도시철도망&nbsp;구축계획&nbsp;변경&nbsp;승인&nbsp;신청&nbsp;및&nbsp;GTX&nbsp;-&nbsp;D&nbsp;연계&nbsp;환승&nbsp;체계&nbsp;수립.<br>&nbsp;&nbsp;○&nbsp;2028년:&nbsp;기재부&nbsp;예비타당성&nbsp;조사&nbsp;대상&nbsp;사업&nbsp;선정&nbsp;총력(지역&nbsp;국회의원&nbsp;공조).<br>&nbsp;&nbsp;○&nbsp;2030년:&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;단계적&nbsp;착공&nbsp;목표(판교~오포&nbsp;구간&nbsp;우선).<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;광역교통개선대책&nbsp;분담금:&nbsp;오포&nbsp;및&nbsp;곤지암&nbsp;역세권&nbsp;개발&nbsp;이익금을&nbsp;철도&nbsp;건설비로&nbsp;우선&nbsp;투입.<br>&nbsp;&nbsp;○&nbsp;민간투자사업(BTO-rs):&nbsp;민자&nbsp;유치를&nbsp;통해&nbsp;재정&nbsp;부담&nbsp;완화&nbsp;및&nbsp;조기&nbsp;착공&nbsp;유도.<br>&nbsp;&nbsp;○&nbsp;국비/도비:&nbsp;‘제5차&nbsp;국가철도망&nbsp;구축계획’&nbsp;반영을&nbsp;통한&nbsp;국비&nbsp;60%&nbsp;확보&nbsp;추진.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	광주형 올빼미 버스 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="광주형 올빼미 버스 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;귀가&nbsp;전쟁:&nbsp;광주시민의&nbsp;서울&nbsp;통근&nbsp;비율이&nbsp;높음에도&nbsp;불구하고,&nbsp;막차&nbsp;시간&nbsp;(자정&nbsp;전후)&nbsp;이후에는&nbsp;택시&nbsp;외에&nbsp;대안이&nbsp;없어&nbsp;‘심야&nbsp;교통&nbsp;난민’&nbsp;발생.<br>&nbsp;&nbsp;○&nbsp;「광주형&nbsp;올빼미&nbsp;버스」도입:&nbsp;자정부터&nbsp;새벽&nbsp;4시까지&nbsp;운행하는&nbsp;심야&nbsp;전용&nbsp;버스&nbsp;를&nbsp;신설하여&nbsp;‘24시간&nbsp;대중교통&nbsp;시대’&nbsp;개막.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;심야&nbsp;핫라인(N-Bus)&nbsp;구축.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노선&nbsp;1&nbsp;(강남축):&nbsp;강남역/양재역&nbsp;↔&nbsp;태전·고산&nbsp;↔&nbsp;경기광주역&nbsp;↔&nbsp;송정·경안&nbsp;(일&nbsp;4회&nbsp;왕복).<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노선&nbsp;2&nbsp;(송파축):&nbsp;잠실역/가락시장&nbsp;↔&nbsp;초월&nbsp;↔&nbsp;곤지암&nbsp;(일&nbsp;2회&nbsp;왕복).<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;광역버스와&nbsp;디자인을&nbsp;차별화(LED&nbsp;번호판&nbsp;등)하여&nbsp;시인성&nbsp;확보.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년:&nbsp;‘심야&nbsp;이동&nbsp;수요’&nbsp;빅데이터&nbsp;분석,&nbsp;행정절차&nbsp;이행,&nbsp;등.<br>&nbsp;&nbsp;○&nbsp;2027년:&nbsp;「올빼미&nbsp;버스」&nbsp;시범&nbsp;운행(강남&nbsp;노선).<br>&nbsp;&nbsp;○&nbsp;2028년:&nbsp;「올빼미&nbsp;버스」&nbsp;전&nbsp;노선&nbsp;확대.<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;수익성&nbsp;없는&nbsp;'복지&nbsp;노선'이므로&nbsp;순수&nbsp;시비(교통사업특별회계)로&nbsp;100%&nbsp;지원&nbsp;하되,&nbsp;심야&nbsp;요금을&nbsp;주간보다&nbsp;소폭&nbsp;상향(약&nbsp;10~20%)하여&nbsp;수익성&nbsp;일부&nbsp;보전.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	달빛어린이병원 및 공공 심야 약국 확대 운영</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="달빛어린이병원 및 공공 심야 약국 확대 운영">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;권역별&nbsp;3각&nbsp;거점&nbsp;완성:&nbsp;기존&nbsp;시내권(1호,&nbsp;미켈란젤로,&nbsp;송정동)&nbsp;외에&nbsp;②오포권&nbsp;(신현/능평/고산),&nbsp;③초월·곤지암권에&nbsp;각각&nbsp;1개소씩&nbsp;추가&nbsp;지정하여&nbsp;총&nbsp;3개소&nbsp;운영.<br>&nbsp;&nbsp;○&nbsp;‘주말&nbsp;밤’도&nbsp;안심:&nbsp;주말/공휴일&nbsp;진료&nbsp;시간을&nbsp;현재&nbsp;18시에서&nbsp;밤&nbsp;11시(23:00)까지&nbsp;연장하도록&nbsp;지원&nbsp;강화.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[권역&nbsp;확대]&nbsp;오포·곤지암&nbsp;필수&nbsp;지정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단독&nbsp;운영이&nbsp;어려운&nbsp;경우,&nbsp;지역&nbsp;내&nbsp;소아과&nbsp;3~4곳이&nbsp;요일별로&nbsp;당번을&nbsp;서는&nbsp;‘연합형&nbsp;달빛병원’&nbsp;모델&nbsp;도입.<br>&nbsp;&nbsp;○&nbsp;[시간&nbsp;연장]&nbsp;주말&nbsp;심야(18시→23시)&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;1호점(미켈란젤로)&nbsp;및&nbsp;신규&nbsp;지정&nbsp;병원에&nbsp;'주말&nbsp;심야&nbsp;특별&nbsp;수당'을&nbsp;시비로&nbsp;추가&nbsp;지원하여,&nbsp;주말&nbsp;진료&nbsp;시간을&nbsp;평일과&nbsp;동일하게&nbsp;밤&nbsp;11시까지&nbsp;연장&nbsp;유도.<br>&nbsp;&nbsp;○&nbsp;[약국]&nbsp;'공공&nbsp;심야약국'&nbsp;동시&nbsp;매칭<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;병원&nbsp;문&nbsp;여는&nbsp;시간에&nbsp;맞춰&nbsp;약국도&nbsp;반드시&nbsp;문을&nbsp;열도록&nbsp;1:1&nbsp;매칭&nbsp;지정&nbsp;및&nbsp;운영비&nbsp;지원&nbsp;현실화.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년:&nbsp;제1호점(미켈란젤로)&nbsp;운영&nbsp;모니터링&nbsp;및&nbsp;주말&nbsp;심야&nbsp;연장&nbsp;협의.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;오포/곤지암&nbsp;권역&nbsp;수요&nbsp;조사.<br>&nbsp;&nbsp;○&nbsp;2027년:&nbsp;오포권(인구&nbsp;밀집지)&nbsp;제2호&nbsp;달빛어린이병원&nbsp;추가&nbsp;지정&nbsp;및&nbsp;운영&nbsp;개시.<br>&nbsp;&nbsp;○&nbsp;2028년:&nbsp;초월·곤지암권&nbsp;제3호&nbsp;병원&nbsp;지정&nbsp;및&nbsp;권역별&nbsp;응급&nbsp;이송&nbsp;체계&nbsp;구축.<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;[전략]&nbsp;정부&nbsp;지원금만으로는&nbsp;병원&nbsp;참여를&nbsp;이끌어내기&nbsp;부족함.&nbsp;‘광주시&nbsp;소아&nbsp;야간&nbsp;진료&nbsp;지원&nbsp;조례’를&nbsp;제정.<br>&nbsp;&nbsp;○&nbsp;의료진&nbsp;야간&nbsp;인건비&nbsp;차액을&nbsp;시비로&nbsp;100%&nbsp;보전해주는&nbsp;파격&nbsp;조건&nbsp;제시.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

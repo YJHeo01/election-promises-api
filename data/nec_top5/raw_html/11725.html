@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;장세용 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	신공항 시대 교통·행정 대전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="신공항 시대 교통·행정 대전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>&nbsp;&nbsp;○&nbsp;&nbsp;국비&nbsp;유치를&nbsp;통해&nbsp;통합신공항&nbsp;완공에&nbsp;발맞춘&nbsp;교통·행정&nbsp;대전환&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;13조원&nbsp;국비&nbsp;지원&nbsp;실현&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;KTX&nbsp;구미산단역&nbsp;및&nbsp;신공항철도&nbsp;동구미역&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구미역-동구미역을&nbsp;잇는&nbsp;도심&nbsp;트램&nbsp;건설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출퇴근&nbsp;교통체증&nbsp;및&nbsp;물류이동&nbsp;혁신을&nbsp;위한&nbsp;제&nbsp;3구미대교&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;대구경북&nbsp;통합&nbsp;시대,&nbsp;구미&nbsp;미래를&nbsp;담을&nbsp;통합형&nbsp;행정체계&nbsp;개편<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;칠곡군과의&nbsp;소통합&nbsp;강력&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소통합&nbsp;전제&nbsp;신행정타운&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중장기&nbsp;:&nbsp;임기&nbsp;내&nbsp;착공&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;&nbsp;중앙정부와의&nbsp;긴밀한&nbsp;협조를&nbsp;통한&nbsp;필요&nbsp;국비&nbsp;예산&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	제6공단과 신성장, 든든한 지역 순환 경제</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="제6공단과 신성장, 든든한 지역 순환 경제">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;5공단&nbsp;포함&nbsp;기존&nbsp;공단&nbsp;전략&nbsp;산업&nbsp;투자&nbsp;유치,&nbsp;산업&nbsp;전환&nbsp;지원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6공단&nbsp;조성&nbsp;사업을&nbsp;통해&nbsp;구미&nbsp;100년&nbsp;먹거리&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;미래&nbsp;신성장&nbsp;산업&nbsp;유치와&nbsp;에너지&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반도체&nbsp;소부장&nbsp;기업&nbsp;5공단&nbsp;대폭&nbsp;투자&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양포/장천&nbsp;6공단&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구미&nbsp;신성장&nbsp;역량&nbsp;확장&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;1)&nbsp;AI/양자/데이터/우주항공&nbsp;산업&nbsp;전환&nbsp;지원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;2)&nbsp;반도체&nbsp;융합&nbsp;부품&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;3)&nbsp;항공산업&nbsp;(MRO)&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;LG-BCM&nbsp;연계&nbsp;이차전지&nbsp;특화단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구미형&nbsp;RE-100&nbsp;인프라&nbsp;구축&nbsp;및&nbsp;전력예비율&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;골목&nbsp;경제&nbsp;살리는&nbsp;지역&nbsp;순환&nbsp;경제&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사회적&nbsp;경제&nbsp;혁신타운&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구미&nbsp;본사&nbsp;기업&nbsp;적극&nbsp;세제&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;로컬푸드&nbsp;사업&nbsp;확대&nbsp;및&nbsp;양포&nbsp;지점&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취수원&nbsp;상생&nbsp;협약&nbsp;지원금&nbsp;활용한&nbsp;태양광&nbsp;시설&nbsp;설치<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단기&nbsp;:&nbsp;구미&nbsp;본사&nbsp;기업&nbsp;적극&nbsp;세제&nbsp;지원&nbsp;등&nbsp;적극&nbsp;행정을&nbsp;통한&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중장기&nbsp;:&nbsp;구미&nbsp;신성장&nbsp;역량&nbsp;확장&nbsp;및&nbsp;첨단산업&nbsp;특화단지&nbsp;조성<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;중앙정부와의&nbsp;긴밀한&nbsp;협조를&nbsp;통해&nbsp;국비/도비&nbsp;예산&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	시민 정주여건 개선</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="시민 정주여건 개선">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>&nbsp;&nbsp;○&nbsp;생활&nbsp;환경,&nbsp;문화&nbsp;인프라&nbsp;조성을&nbsp;통해&nbsp;구미&nbsp;시민&nbsp;및&nbsp;노동자들이&nbsp;머물고&nbsp;싶은&nbsp;정주도시&nbsp;구축<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;중심&nbsp;문화·관광·체육&nbsp;인프라&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제1공단&nbsp;문화공단&nbsp;재생&nbsp;&&nbsp;제2차&nbsp;도시재생사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복합&nbsp;쇼핑-레저타운&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;왕산&nbsp;기념&nbsp;공원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;새마을&nbsp;테마파크&nbsp;연계&nbsp;산업화&nbsp;유산&nbsp;관광&nbsp;체계화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스포츠&nbsp;종합시설&nbsp;건립&nbsp;및&nbsp;경북체육고&nbsp;이전&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동&nbsp;별&nbsp;주민참여형&nbsp;인문교양센터&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;시민이&nbsp;체감하는&nbsp;생활&nbsp;인프라&nbsp;혁신&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;낙동강&nbsp;수변&nbsp;문화제&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이계천&nbsp;도심&nbsp;하천&nbsp;생태&nbsp;복원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주거지&nbsp;공영주차장&nbsp;/&nbsp;도심지&nbsp;승용·화물&nbsp;주차장&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도량·봉곡/상모·사곡/인동·진미&nbsp;청소년&nbsp;문화센터&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임오&nbsp;/&nbsp;선주·원남&nbsp;/&nbsp;양포&nbsp;/&nbsp;인동&nbsp;/&nbsp;비산&nbsp;행정복지센터&nbsp;신축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노인종합복지관&nbsp;인동분관&nbsp;건립<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단기&nbsp;:&nbsp;스포츠&nbsp;시설&nbsp;건립&nbsp;/&nbsp;주민참여형&nbsp;인문교양센터&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중장기&nbsp;:&nbsp;제&nbsp;2차&nbsp;도시재생사업&nbsp;추진&nbsp;/&nbsp;복합&nbsp;쇼핑-레저타운&nbsp;조성<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;&nbsp;중앙정부와의&nbsp;긴밀한&nbsp;협조를&nbsp;통해&nbsp;국비/도비&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;&nbsp;시&nbsp;복지&nbsp;예산&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	청년·근로자 희망 도시 “구미”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="청년·근로자 희망 도시 “구미”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>&nbsp;&nbsp;○&nbsp;구미시&nbsp;근간이&nbsp;되는&nbsp;청년과&nbsp;근로자&nbsp;중심의&nbsp;젊고&nbsp;역동적인&nbsp;정주도시&nbsp;조성<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청년의&nbsp;출발과&nbsp;도약을&nbsp;끝까지&nbsp;책임지는&nbsp;창업·일자리&nbsp;도시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;스타트업&nbsp;오피스&nbsp;대폭&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부&nbsp;주도&nbsp;창업&nbsp;도시&nbsp;선정&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창조적&nbsp;아이디어&nbsp;구현&nbsp;‘시제품&nbsp;제작&nbsp;센터’&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;맞춤형&nbsp;일자리&nbsp;지원&nbsp;‘청년일자리지원단’&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;부부&nbsp;자립&nbsp;지원체계&nbsp;도입<br><br>&nbsp;&nbsp;○&nbsp;일하는&nbsp;모든&nbsp;시민을&nbsp;감싸는&nbsp;노동친화도시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;비정규직&nbsp;/&nbsp;플랫폼노동자(대리기사,&nbsp;퀵서비스)&nbsp;휴게시설&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중소기업&nbsp;노동자&nbsp;간식비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노동자&nbsp;세탁소&nbsp;사업&nbsp;확장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구미형&nbsp;일자리&nbsp;상생기금&nbsp;지속&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;2년&nbsp;내&nbsp;조기&nbsp;추진<br>&nbsp;&nbsp;<br>&nbsp;□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;&nbsp;중앙정부와의&nbsp;긴밀한&nbsp;협조를&nbsp;통해&nbsp;국비/도비&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;&nbsp;효율적인&nbsp;시&nbsp;예산&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	1세~100세, 우리 아이 돌봄 & 어르신 孝프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="1세~100세, 우리 아이 돌봄 & 어르신 孝프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>&nbsp;&nbsp;○&nbsp;우리&nbsp;아이들이&nbsp;살기&nbsp;좋고,&nbsp;어르신들이&nbsp;편하게&nbsp;지낼&nbsp;수&nbsp;있는&nbsp;취약&nbsp;계층&nbsp;중심의&nbsp;돌봄도시&nbsp;조성<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;부모의&nbsp;짐을&nbsp;덜어주는&nbsp;출산·보육·교육&nbsp;혁명<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;난임&nbsp;부부&nbsp;지원&nbsp;&&nbsp;장애아동&nbsp;발달&nbsp;지원&nbsp;무상&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유치원&nbsp;보육비용&nbsp;전면&nbsp;무상&nbsp;/&nbsp;공동육아&nbsp;나눔터&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI/글로벌&nbsp;인재&nbsp;양성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)&nbsp;미래인재형&nbsp;특별학교(국제,체육)&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2)&nbsp;AI&nbsp;활용&nbsp;방과&nbsp;후&nbsp;프로그램&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;어르신을&nbsp;가장&nbsp;잘&nbsp;모시는&nbsp;따뜻한“효(孝)케어”프로젝트<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;파크&nbsp;골프장&nbsp;시설&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화&nbsp;강좌&nbsp;콘텐츠&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을경로당&nbsp;복지&nbsp;서비스&nbsp;인력&nbsp;증원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;2년&nbsp;내&nbsp;조기&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;&nbsp;중앙정부와의&nbsp;긴밀한&nbsp;협조를&nbsp;통해&nbsp;국비/도비&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;&nbsp;효율적인&nbsp;시&nbsp;예산&nbsp;활용</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

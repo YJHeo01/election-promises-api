@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;강원덕 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	의령형 기본소득</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="의령형 기본소득">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;○&nbsp;&nbsp;의령군의&nbsp;인구감소&nbsp;및&nbsp;지역소멸위기를&nbsp;극복하기&nbsp;위한&nbsp;모든&nbsp;군민을&nbsp;대상으로&nbsp;매월&nbsp;10만원(연간120만원)의&nbsp;지역화폐(지역사랑상품권)를&nbsp;지급<br>&nbsp;○&nbsp;에너지,&nbsp;교통,&nbsp;주거,&nbsp;의료,&nbsp;교육&nbsp;등&nbsp;필수&nbsp;공공서비스와&nbsp;긴밀히&nbsp;연결되는&nbsp;의령형&nbsp;기본&nbsp;사회의&nbsp;핵심&nbsp;연결&nbsp;축으로,&nbsp;생활&nbsp;안정을&nbsp;돕고&nbsp;소상공인과&nbsp;골목상권&nbsp;활성화&nbsp;<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;○&nbsp;법적&nbsp;제도&nbsp;마련&nbsp;및&nbsp;전담&nbsp;조직&nbsp;운영을&nbsp;위해&nbsp;기본소득&nbsp;조례&nbsp;제정으로&nbsp;사업의&nbsp;안정적이고&nbsp;지속적인&nbsp;시행을&nbsp;위해&nbsp;“의령군&nbsp;농어촌&nbsp;기본소득&nbsp;지원&nbsp;조례”&nbsp;&nbsp;제정을&nbsp;추진하여&nbsp;법적&nbsp;근거를&nbsp;구축<br>&nbsp;○&nbsp;국비&nbsp;확보&nbsp;및&nbsp;정부&nbsp;시범사업&nbsp;연계(핵심&nbsp;재원&nbsp;마련)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌&nbsp;기본소득&nbsp;시범사업공모&nbsp;:&nbsp;정부(농립축산식품부)가&nbsp;인구감소지역을&nbsp;대상으로&nbsp;추진하는&nbsp;“농어촌&nbsp;기본소득&nbsp;시범사업”&nbsp;공모에&nbsp;최종&nbsp;선정되어&nbsp;국비&nbsp;지원&nbsp;확보<br><br>&nbsp;○&nbsp;범군민&nbsp;서명운동&nbsp;연계&nbsp;:&nbsp;군민들의&nbsp;적극적인&nbsp;동참과&nbsp;공감대&nbsp;형성하여&nbsp;정부&nbsp;공모&nbsp;심사에서&nbsp;유리한&nbsp;고지를&nbsp;선점하고자&nbsp;“범군민&nbsp;서명운동”을&nbsp;활발히&nbsp;전개<br><br>&nbsp;○&nbsp;지역&nbsp;소상공인&nbsp;상생&nbsp;및&nbsp;소비&nbsp;유도<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역사랑상품권(지역화폐)&nbsp;발행&nbsp;:&nbsp;예산을&nbsp;일반&nbsp;현금으로&nbsp;지급하는&nbsp;대신&nbsp;‘의령군&nbsp;관내에서만&nbsp;사용&nbsp;가능한&nbsp;지역&nbsp;상품권’&nbsp;지급<br><br>□&nbsp;이행기간<br>&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;○&nbsp;체계적인&nbsp;군정&nbsp;페러다임&nbsp;전환&nbsp;:&nbsp;불필요하거나&nbsp;낭비되는&nbsp;행정&nbsp;예산을&nbsp;효율화하여&nbsp;재원을&nbsp;마련.<br>&nbsp;○&nbsp;정부&nbsp;공모사업&nbsp;및&nbsp;국도비&nbsp;확보&nbsp;연계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	대규모 스포츠센터 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="대규모 스포츠센터 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;○&nbsp;군민의&nbsp;건강&nbsp;증진&nbsp;및&nbsp;여가&nbsp;선용&nbsp;:&nbsp;문화.&nbsp;체육&nbsp;인프라가&nbsp;부족한&nbsp;의령군에&nbsp;현대식&nbsp;대규모&nbsp;복합&nbsp;스포츠센터를&nbsp;건립하여,&nbsp;군민의&nbsp;삶의&nbsp;질&nbsp;향상&nbsp;도모<br>&nbsp;○&nbsp;생활체육&nbsp;활성화&nbsp;및&nbsp;저변&nbsp;확대&nbsp;:&nbsp;정규&nbsp;규격을&nbsp;갖춘&nbsp;축구장,&nbsp;야구장,&nbsp;종합&nbsp;실내&nbsp;체육관,&nbsp;수영장&nbsp;등을&nbsp;구축하여&nbsp;전&nbsp;연령층이&nbsp;소외&nbsp;없이&nbsp;생활체육을&nbsp;누릴&nbsp;&nbsp;수&nbsp;있는&nbsp;환경&nbsp;조성<br>&nbsp;○&nbsp;전국&nbsp;단위&nbsp;대회&nbsp;유치&nbsp;및&nbsp;전지훈련&nbsp;메카&nbsp;도약&nbsp;:&nbsp;공인&nbsp;규격&nbsp;시설을&nbsp;기반으로&nbsp;스포츠&nbsp;마케팅을&nbsp;전개하여&nbsp;스포츠&nbsp;동호인&nbsp;및&nbsp;프로,&nbsp;아마추어&nbsp;팀의&nbsp;전지훈련을&nbsp;유치하고,&nbsp;이를&nbsp;통해&nbsp;인구&nbsp;소멸&nbsp;위기&nbsp;극복과&nbsp;지역&nbsp;경제&nbsp;활성화&nbsp;도모<br><br>□&nbsp;이행방법<br>&nbsp;○&nbsp;부지&nbsp;확보&nbsp;및&nbsp;타당성&nbsp;조사&nbsp;:&nbsp;접근성이&nbsp;뛰어나고&nbsp;확장이&nbsp;용이한&nbsp;의령읍&nbsp;인근&nbsp;서동행정타운&nbsp;배후&nbsp;부지&nbsp;또는&nbsp;군유지를&nbsp;우선&nbsp;검토하여&nbsp;전문&nbsp;기관을&nbsp;통한&nbsp;타당성&nbsp;조사&nbsp;연구용역을&nbsp;발주하여&nbsp;최적의&nbsp;규모와&nbsp;시설&nbsp;배치<br>&nbsp;○&nbsp;기반&nbsp;시설&nbsp;확충(기본&nbsp;및&nbsp;실시설계)&nbsp;:&nbsp;주요시설로는&nbsp;야간조명&nbsp;시설을&nbsp;갖춘&nbsp;천연.인조&nbsp;잔디&nbsp;축구장(복수&nbsp;규격),&nbsp;사회인&nbsp;및&nbsp;청소년&nbsp;활용이&nbsp;가능한&nbsp;야구장,&nbsp;다목적&nbsp;실내체육관(베트민턴,&nbsp;농구,&nbsp;배구&nbsp;등),&nbsp;실내&nbsp;수영장&nbsp;&nbsp;및&nbsp;시니어&nbsp;친화형&nbsp;편의시설&nbsp;계획으로&nbsp;군민&nbsp;기호&nbsp;조사&nbsp;및&nbsp;체육&nbsp;단체&nbsp;간담회를&nbsp;개최하여&nbsp;주민&nbsp;의견을&nbsp;적극&nbsp;반영하는&nbsp;맞춤형&nbsp;설계&nbsp;추진<br>&nbsp;○&nbsp;행정절차&nbsp;이행&nbsp;:&nbsp;경상남도&nbsp;및&nbsp;중앙정부와의&nbsp;긴밀한&nbsp;협력을&nbsp;통해&nbsp;도시계획&nbsp;시설&nbsp;결정,&nbsp;환경영향평가,&nbsp;등으로&nbsp;행정절차를&nbsp;패스트트랙으로&nbsp;추진<br><br>□&nbsp;이행기간&nbsp;:총&nbsp;사업기간&nbsp;:착공일로부터&nbsp;약3년(임기&nbsp;내&nbsp;완공)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;○&nbsp;국·도비&nbsp;공모사업&nbsp;적극&nbsp;활용<br>&nbsp;○&nbsp;연차별&nbsp;분산&nbsp;투자<br>&nbsp;○&nbsp;규모는&nbsp;단계적으로&nbsp;확대<br>&nbsp;○&nbsp;민간&nbsp;투자&nbsp;협력&nbsp;방안&nbsp;모색</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	의령군 육아종합지원센터 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="의령군 육아종합지원센터 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;○&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;환경을&nbsp;만들기&nbsp;위함<br>&nbsp;○&nbsp;흩어져&nbsp;있는&nbsp;보육환경을&nbsp;통합적으로&nbsp;관리하기&nbsp;위함<br>&nbsp;○&nbsp;안심&nbsp;돌봄&nbsp;서비스&nbsp;지원<br>&nbsp;○&nbsp;시간제&nbsp;보육&nbsp;안내를&nbsp;통한&nbsp;육아편의성&nbsp;증대&nbsp;&nbsp;<br>&nbsp;○&nbsp;가정&nbsp;연계&nbsp;양육&nbsp;정보&nbsp;제공<br>&nbsp;○&nbsp;아이&nbsp;발달&nbsp;행동&nbsp;상담&nbsp;연계<br>&nbsp;○&nbsp;놀이체험실&nbsp;운영을&nbsp;통한&nbsp;미래&nbsp;진로적성&nbsp;탐구<br><br>□&nbsp;이행방법<br>&nbsp;○&nbsp;실내,외&nbsp;놀이터&nbsp;공간&nbsp;제공,&nbsp;장난감&nbsp;도서관&nbsp;증대<br>&nbsp;○&nbsp;육아&nbsp;상담&nbsp;및&nbsp;부모&nbsp;교육&nbsp;환경&nbsp;마련<br>&nbsp;○&nbsp;0~13세를&nbsp;위한&nbsp;다양한&nbsp;프로그램&nbsp;제공<br><br>□&nbsp;이행기간<br>&nbsp;○&nbsp;2026.&nbsp;07.&nbsp;~<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;○&nbsp;기존&nbsp;예산&nbsp;조정&nbsp;및&nbsp;경남도&nbsp;및&nbsp;행안부&nbsp;지원&nbsp;예산&nbsp;확보<br>&nbsp;○&nbsp;보건복지부&nbsp;육아종합지원센터&nbsp;지원사업&nbsp;활용<br>&nbsp;○&nbsp;저출산·인구감소&nbsp;대응&nbsp;국책사업&nbsp;연계&nbsp;방안<br>&nbsp;○&nbsp;경남도&nbsp;보육·육아&nbsp;인프라&nbsp;확충&nbsp;사업&nbsp;유치<br>&nbsp;○&nbsp;기존&nbsp;공공&nbsp;시설&nbsp;활용<br>&nbsp;○&nbsp;민간·공공&nbsp;협력&nbsp;재원&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	장애인종합복지관 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="장애인종합복지관 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;○&nbsp;분절된&nbsp;복지&nbsp;서비스&nbsp;통합<br>&nbsp;○&nbsp;장애인의&nbsp;시설보호에서&nbsp;지역생활로&nbsp;전환<br>&nbsp;○&nbsp;함께&nbsp;사는&nbsp;삶을&nbsp;지향<br>&nbsp;○&nbsp;가족&nbsp;돌봄&nbsp;부담&nbsp;경감<br>&nbsp;○&nbsp;농촌&nbsp;고령화에&nbsp;따른&nbsp;장애&nbsp;중복&nbsp;문제&nbsp;해결<br>&nbsp;○&nbsp;맞춤형&nbsp;재활·일상생활&nbsp;지원&nbsp;강화<br>&nbsp;○&nbsp;복지는&nbsp;‘비용이&nbsp;아니라&nbsp;지역&nbsp;안전망’&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;○&nbsp;수요&nbsp;조사&nbsp;및&nbsp;기본&nbsp;계획&nbsp;수립<br>&nbsp;○&nbsp;기존&nbsp;시설과&nbsp;연계&nbsp;가능성&nbsp;검토<br>&nbsp;○&nbsp;기존&nbsp;공공부지&nbsp;활용&nbsp;또는&nbsp;유휴&nbsp;시설&nbsp;리모델링&nbsp;검토<br>&nbsp;○&nbsp;단순&nbsp;건물이&nbsp;아닌&nbsp;기능&nbsp;중심&nbsp;복지관&nbsp;운영<br>&nbsp;○&nbsp;장애·비장애&nbsp;통합&nbsp;프로그램&nbsp;운영<br>&nbsp;○&nbsp;응급·위기&nbsp;상황&nbsp;시&nbsp;즉각&nbsp;대응&nbsp;가능한&nbsp;지역&nbsp;돌봄&nbsp;거점&nbsp;확보<br><br>□&nbsp;이행기간<br>&nbsp;○&nbsp;2026.&nbsp;07.&nbsp;~<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;○&nbsp;국비·도비&nbsp;공모사업&nbsp;적극&nbsp;유치<br>&nbsp;○&nbsp;보건복지부&nbsp;장애인&nbsp;복지시설&nbsp;확충&nbsp;사업&nbsp;확보<br>&nbsp;○&nbsp;단계별&nbsp;건립으로&nbsp;군비&nbsp;부담&nbsp;최소화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	대규모 파크골프장 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="대규모 파크골프장 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;○&nbsp;고령&nbsp;친화&nbsp;스포츠로&nbsp;고령층&nbsp;건강&nbsp;증진과&nbsp;의료비&nbsp;절감<br>&nbsp;○&nbsp;전국&nbsp;광역대회&nbsp;유치로&nbsp;지역&nbsp;경제&nbsp;활성화<br>&nbsp;○&nbsp;농어촌&nbsp;여가&nbsp;인프라&nbsp;확충<br>&nbsp;○&nbsp;초보·여성·중장년&nbsp;참여를&nbsp;통한&nbsp;생활체육&nbsp;활성화<br>&nbsp;○&nbsp;환경훼손&nbsp;최소화를&nbsp;통한&nbsp;유휴부지의&nbsp;생산적&nbsp;활용<br><br>□&nbsp;이행방법<br>&nbsp;○&nbsp;수요조사&nbsp;및&nbsp;기본&nbsp;계획&nbsp;수립<br>&nbsp;○&nbsp;기본&nbsp;코스&nbsp;정비&nbsp;및&nbsp;대회용&nbsp;코스&nbsp;확장<br>&nbsp;○&nbsp;하천&nbsp;부지·국공유지&nbsp;우선&nbsp;검토<br>&nbsp;○&nbsp;침수·환경&nbsp;영향&nbsp;사전&nbsp;검토<br>&nbsp;○&nbsp;읍내·면&nbsp;지역&nbsp;균형&nbsp;배치<br>&nbsp;○&nbsp;주차·보행&nbsp;동선&nbsp;확보<br><br>□&nbsp;이행기간<br>○&nbsp;2026.&nbsp;07.&nbsp;~<br>&nbsp;&nbsp;&nbsp;&nbsp;-<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;○&nbsp;국·도비&nbsp;공모&nbsp;적극&nbsp;활용<br>&nbsp;○&nbsp;문화체육관광부&nbsp;생활체육&nbsp;인프라&nbsp;사업&nbsp;활용<br>&nbsp;○&nbsp;경남도&nbsp;고령친화&nbsp;체육&nbsp;시설&nbsp;지원&nbsp;사업&nbsp;확보<br>&nbsp;○&nbsp;연차별&nbsp;분산&nbsp;투자<br>&nbsp;○&nbsp;유지관리비&nbsp;최소&nbsp;설계</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

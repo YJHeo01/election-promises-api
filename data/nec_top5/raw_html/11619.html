@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;유보화 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	(경제) 동북권 글로벌 비즈니스 허브</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="(경제) 동북권 글로벌 비즈니스 허브">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;동북권&nbsp;글로벌&nbsp;비즈니스&nbsp;허브<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성수-삼표부지-왕십리-마장을&nbsp;잇는&nbsp;경제&nbsp;엔진<br><br>□&nbsp;주요내용<br>&nbsp;&nbsp;&nbsp;①왕십리역&nbsp;비즈니스&nbsp;거점&nbsp;:&nbsp;공공기관&nbsp;이전&nbsp;후&nbsp;기업유치,&nbsp;상업공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구청·경찰서·교육청&nbsp;등을&nbsp;소월아트홀&nbsp;부지로&nbsp;이전하여&nbsp;‘신행정타운’&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX-C&nbsp;왕십리역사를&nbsp;지하에&nbsp;조성,&nbsp;지상은&nbsp;시민소통을&nbsp;위한&nbsp;광장기능&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;버스,&nbsp;지하철&nbsp;등&nbsp;통합환승센터&nbsp;조성<br>&nbsp;&nbsp;②&nbsp;서울숲&nbsp;공영주차장&nbsp;일대&nbsp;2,000석이상의&nbsp;공연장&nbsp;조성하여,&nbsp;문화콘텐츠&nbsp;생산·유통·향유&nbsp;거점&nbsp;조성&nbsp;및&nbsp;서울숲·한강&nbsp;일대&nbsp;명소화<br>&nbsp;&nbsp;③&nbsp;성수&nbsp;업그레이드&nbsp;:&nbsp;IT산업·유통개발진흥지구&nbsp;확장으로&nbsp;AI·디자인·패션·콘텐츠&nbsp;산업&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;④&nbsp;마장&nbsp;대전환&nbsp;:&nbsp;한전부지&nbsp;랜드마크&nbsp;복합&nbsp;개발과&nbsp;노후&nbsp;정비사업&nbsp;가속화로&nbsp;주거·상업&nbsp;공존&nbsp;생활권&nbsp;완성<br><br>□&nbsp;이행방법&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;관련&nbsp;용역시행,&nbsp;계획서&nbsp;수립,&nbsp;공청회&nbsp;실시,&nbsp;서울시&nbsp;등&nbsp;관련기관&nbsp;협의,&nbsp;관련&nbsp;인허가&nbsp;처리,&nbsp;사업추진&nbsp;&nbsp;&nbsp;&nbsp;<br><br>□&nbsp;이행기간&nbsp;:&nbsp;중장기&nbsp;사업<br>&nbsp;&nbsp;○&nbsp;2026년부터~2029년까지<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;구비,&nbsp;민자&nbsp;등&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	신속하고 투명한 정비사업 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="신속하고 투명한 정비사업 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;70여개의&nbsp;재개발.&nbsp;재건축&nbsp;정비사업을&nbsp;신속하고&nbsp;투명하게&nbsp;추진하여&nbsp;구민의&nbsp;재산권&nbsp;보호,&nbsp;노후된&nbsp;주거인프라&nbsp;확충&nbsp;등을&nbsp;통한&nbsp;주민&nbsp;삶의&nbsp;질&nbsp;향상<br><br>□&nbsp;주요내용<br>&nbsp;&nbsp;①&nbsp;신속관리추진단&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단&nbsp;:&nbsp;관련조례&nbsp;제정으로&nbsp;법적&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2단&nbsp;:&nbsp;도시계획·재생&nbsp;분야&nbsp;외부&nbsp;전문가&nbsp;위원회<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3단&nbsp;:&nbsp;외부&nbsp;전문가를&nbsp;영입하여&nbsp;신속관리추진단&nbsp;설치<br>&nbsp;&nbsp;②&nbsp;500세대&nbsp;미만&nbsp;소규모&nbsp;정비사업&nbsp;구&nbsp;이관&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소규모&nbsp;정비사업&nbsp;구&nbsp;이관으로&nbsp;신속결정·집행체계&nbsp;확보<br>&nbsp;&nbsp;③&nbsp;공동주택지원센터&nbsp;설립추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;층간소음,&nbsp;공동구매,&nbsp;종사자&nbsp;보험&nbsp;등&nbsp;지원<br><br>□&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;○&nbsp;관련조례&nbsp;제정,&nbsp;위원회&nbsp;구성,&nbsp;공청회&nbsp;실시,&nbsp;서울시&nbsp;및&nbsp;관련기관&nbsp;협의,&nbsp;계획수립,&nbsp;관련부서&nbsp;신설,&nbsp;사업추진<br><br>□&nbsp;이행기간&nbsp;:&nbsp;중장기&nbsp;사업<br>&nbsp;&nbsp;○&nbsp;2026년부터~2029년까지<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;구비,&nbsp;민자&nbsp;등&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	(교통) 구민의 시간을 아끼는 성동 교통</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="(교통) 구민의 시간을 아끼는 성동 교통">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;대중교통&nbsp;접근성&nbsp;개선으로&nbsp;주민의&nbsp;교통편의&nbsp;혁신적&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;주차장&nbsp;확보&nbsp;및&nbsp;효율적인&nbsp;주차시스템&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;언덕길,&nbsp;좁은&nbsp;보도&nbsp;등을&nbsp;개선하여&nbsp;보도편의&nbsp;개선<br><br>□&nbsp;주요내용<br>&nbsp;&nbsp;○&nbsp;동북선&nbsp;금호역&nbsp;연장&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;왕십리역&nbsp;종점&nbsp;계획인&nbsp;동북선을&nbsp;금호역까지&nbsp;연장하여,&nbsp;3호선과&nbsp;연결하여&nbsp;옥수·금호지역&nbsp;대중교통&nbsp;접근성&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;신강남선&nbsp;성수역&nbsp;신설&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;잠실종합운동장&nbsp;종점예정인&nbsp;신강남선을&nbsp;청담&nbsp;→&nbsp;성수&nbsp;→&nbsp;4.19&nbsp;및&nbsp;수유리&nbsp;등&nbsp;동북지역까지&nbsp;연장하여,&nbsp;성수에서&nbsp;강남접근성&nbsp;혁신적&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;노후한&nbsp;옥수역&nbsp;외부&nbsp;환경개선<br>&nbsp;&nbsp;○&nbsp;주차문제&nbsp;근본&nbsp;해결&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공영주차장&nbsp;확충과&nbsp;스마트&nbsp;주차시스템&nbsp;도입으로&nbsp;생활&nbsp;주차&nbsp;불편&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;성수역·뚝섬역&nbsp;출입구&nbsp;증설&nbsp;및&nbsp;에스컬레이터&nbsp;확충&nbsp;<br>&nbsp;&nbsp;○&nbsp;언덕지역에&nbsp;무빙워크,&nbsp;에스컬레이터&nbsp;등을&nbsp;설치하고,&nbsp;젊은&nbsp;부모들이&nbsp;유모차를&nbsp;끌&nbsp;수&nbsp;있는&nbsp;보도환경&nbsp;조성<br><br>□&nbsp;이행기간&nbsp;:&nbsp;중장기사업<br>&nbsp;&nbsp;○&nbsp;2026년부터~2029년까지<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;구비,&nbsp;민자&nbsp;등&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	(교육) 이제 교육도 성동입니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="(교육) 이제 교육도 성동입니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;교육환경&nbsp;개선&nbsp;및&nbsp;학교&nbsp;재배치&nbsp;등을&nbsp;통해&nbsp;교육&nbsp;때문에&nbsp;이사가지&nbsp;않는&nbsp;성동&nbsp;구현<br><br>□&nbsp;주요내용<br>&nbsp;&nbsp;○&nbsp;교육지원센터&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄·진로·진학·AI교육·정보제공&nbsp;등&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;노후된&nbsp;학교&nbsp;인프라&nbsp;재정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학교담장&nbsp;개선&nbsp;및&nbsp;방음벽&nbsp;설치,&nbsp;전자칠판&nbsp;지원&nbsp;등&nbsp;교육환경&nbsp;개선&nbsp;<br>&nbsp;&nbsp;○&nbsp;교육청&nbsp;협력으로&nbsp;학교&nbsp;재배치&nbsp;신속&nbsp;확정&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;도서관&nbsp;현대화&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후&nbsp;도서관&nbsp;현대화,&nbsp;작은도서관&nbsp;테마&nbsp;연계하여&nbsp;특화추진<br>&nbsp;&nbsp;○&nbsp;돌봄&nbsp;사각지대&nbsp;제로화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;워킹스쿨버스&nbsp;등하교&nbsp;안전지도사&nbsp;동행&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지하철역&nbsp;인근&nbsp;어린이&nbsp;돌봄센터&nbsp;시범사업으로&nbsp;출퇴근길&nbsp;등하원&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행당동&nbsp;‘수학·과학&nbsp;박물관&nbsp;유치’와&nbsp;한양대&nbsp;연계&nbsp;청년&nbsp;창작공간&nbsp;및&nbsp;창업허브로&nbsp;성동형&nbsp;교육생태계&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도서관&nbsp;현대화&nbsp;사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어린이&nbsp;안전을&nbsp;위한&nbsp;스쿨존&nbsp;전면&nbsp;재정비<br><br>□&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정책수립,&nbsp;서울시,&nbsp;교육청&nbsp;등&nbsp;관련기관&nbsp;협의,&nbsp;공청회&nbsp;등&nbsp;의견수립,&nbsp;추진<br><br>□&nbsp;이행기간&nbsp;:&nbsp;중장기사업<br>&nbsp;&nbsp;○&nbsp;2026년부터~2029년까지<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;구비,&nbsp;민자&nbsp;등&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	(문화·체육) 도보 10분안에 체육·문화 향유공간 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="(문화·체육) 도보 10분안에 체육·문화 향유공간 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;도보&nbsp;10분안에&nbsp;체육·문화&nbsp;향유공간<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(체육)&nbsp;집&nbsp;앞까지&nbsp;찾아가는&nbsp;우리&nbsp;동네&nbsp;활력&nbsp;거점<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(문화)&nbsp;일상이&nbsp;무대가&nbsp;되는&nbsp;동네방네&nbsp;문화&nbsp;아지트<br><br>□&nbsp;주요내용&nbsp;<br>&nbsp;&nbsp;①집&nbsp;앞까지&nbsp;찾아가는&nbsp;우리&nbsp;동네&nbsp;활력&nbsp;거점<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트&nbsp;복합&nbsp;체육센터&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후&nbsp;공공시설&nbsp;리모델링으로&nbsp;요가·필라테스&nbsp;등&nbsp;체육시설&nbsp;동별&nbsp;배치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학교·공공기관&nbsp;체육시설&nbsp;개방&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활권별&nbsp;소규모&nbsp;운동&nbsp;공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자투리&nbsp;공간&nbsp;활용해&nbsp;동네&nbsp;단위&nbsp;실내&nbsp;체육&nbsp;공간&nbsp;확충<br>&nbsp;&nbsp;②&nbsp;파크골프장&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;타&nbsp;지자체와&nbsp;MOU체결,&nbsp;기초교육시설&nbsp;조성&nbsp;등<br>&nbsp;&nbsp;②&nbsp;일상이&nbsp;무대가&nbsp;되는&nbsp;동네방네&nbsp;문화&nbsp;아지트<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1동&nbsp;1문화&nbsp;거점&nbsp;공간&nbsp;:&nbsp;아파트&nbsp;동별&nbsp;소규모&nbsp;공연·전시&nbsp;가능한&nbsp;복합문화&nbsp;아지트&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역밀착형&nbsp;도서관&nbsp;현대화&nbsp;:&nbsp;단계적&nbsp;현대화로&nbsp;전시·워크숍이&nbsp;가능한&nbsp;커뮤니티&nbsp;문화센터로&nbsp;탈바꿈<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;찾아가는&nbsp;문화&nbsp;배달&nbsp;서비스&nbsp;:&nbsp;아파트&nbsp;단지&nbsp;등&nbsp;거점에&nbsp;버스킹공연·낭독회&nbsp;등&nbsp;소규모&nbsp;공연&nbsp;정례화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화가&nbsp;산업이&nbsp;되는&nbsp;창작&nbsp;거점&nbsp;:&nbsp;작가·음악가·영상&nbsp;창작자&nbsp;작업&nbsp;공간&nbsp;마련,&nbsp;구립&nbsp;갤러리로&nbsp;수준&nbsp;높은&nbsp;전시&nbsp;일상화<br><br>□&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;용역시행,&nbsp;정책수립,&nbsp;관련기관&nbsp;협의,&nbsp;사업추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터~2029년까지<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;구비,&nbsp;민자&nbsp;등&nbsp;활용</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

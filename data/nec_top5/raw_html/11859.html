@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;원강수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	꿈이룸바우처 지원 대상 전면 확대 및 교육비 지원 강화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="꿈이룸바우처 지원 대상 전면 확대 및 교육비 지원 강화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;교육&nbsp;지원&nbsp;대상의&nbsp;전면적&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;초등학생에게만&nbsp;지급되던&nbsp;‘꿈이룸바우처’를&nbsp;미취학&nbsp;아동(만&nbsp;5~6세)부터&nbsp;중학생,&nbsp;고등학생까지&nbsp;전체&nbsp;연령으로&nbsp;확대하여&nbsp;공백&nbsp;없는&nbsp;지원&nbsp;체계&nbsp;구축.<br>&nbsp;&nbsp;○&nbsp;실질적&nbsp;학원비&nbsp;부담&nbsp;경감<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연령별&nbsp;특성에&nbsp;맞춘&nbsp;학원비&nbsp;지원을&nbsp;통해&nbsp;원주시&nbsp;학부모들의&nbsp;경제적&nbsp;부담을&nbsp;직접적으로&nbsp;해결.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;지원&nbsp;대상&nbsp;및&nbsp;범위의&nbsp;명확화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미취학&nbsp;아동(만&nbsp;5~6세)&nbsp;및&nbsp;초등학생:&nbsp;예체능&nbsp;학원비&nbsp;지원.<br>&nbsp;&nbsp;○&nbsp;중학생&nbsp;및&nbsp;고등학생<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교과목&nbsp;포함&nbsp;전&nbsp;과목&nbsp;학원비로&nbsp;지원&nbsp;범위&nbsp;확대.<br>&nbsp;&nbsp;○&nbsp;사용처&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;초등학생&nbsp;대상에서&nbsp;미취학&nbsp;아동(만&nbsp;5~6세)과&nbsp;중·고등학생까지&nbsp;전&nbsp;연령층이&nbsp;각자&nbsp;필요한&nbsp;교육을&nbsp;받을&nbsp;수&nbsp;있도록&nbsp;사용처를&nbsp;전면&nbsp;확대.<br>&nbsp;&nbsp;○&nbsp;운영&nbsp;시스템&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현재&nbsp;시행&nbsp;중인&nbsp;바우처&nbsp;시스템에&nbsp;미취학&nbsp;아동과&nbsp;중·고등학생&nbsp;대상을&nbsp;추가하여&nbsp;신속히&nbsp;이용&nbsp;가능하도록&nbsp;조치.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관련&nbsp;예산을&nbsp;편성하여&nbsp;신속하게&nbsp;사업&nbsp;착수&nbsp;및&nbsp;시행.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지방세수&nbsp;확대분&nbsp;투입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원주시의&nbsp;적극적인&nbsp;기업&nbsp;유치&nbsp;성과로&nbsp;인해&nbsp;확장되고&nbsp;있는&nbsp;지방세&nbsp;수익을&nbsp;교육&nbsp;지원&nbsp;예산으로&nbsp;편성.<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;확보&nbsp;강력&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보건복지부&nbsp;시범&nbsp;운영&nbsp;결과,&nbsp;이용자&nbsp;만족도가&nbsp;96.8%에&nbsp;달하는&nbsp;검증된&nbsp;사업임을&nbsp;내세워&nbsp;국가&nbsp;지원금(국비)을&nbsp;적극적으로&nbsp;확보.<br>&nbsp;&nbsp;○&nbsp;예산&nbsp;구조조정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원주시&nbsp;일반회계&nbsp;예산&nbsp;중&nbsp;불요불급한&nbsp;사업의&nbsp;조정을&nbsp;통해&nbsp;가용&nbsp;재원을&nbsp;안정적으로&nbsp;뒷받침.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	시내버스 무상요금·10분대 배차간격</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="시내버스 무상요금·10분대 배차간격">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;이동권&nbsp;기본권&nbsp;확립.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통을&nbsp;단순한&nbsp;수단이&nbsp;아닌&nbsp;'복지이자&nbsp;권리'로&nbsp;재정립하여&nbsp;돈&nbsp;걱정&nbsp;없이&nbsp;원주&nbsp;전역을&nbsp;자유롭게&nbsp;이동하는&nbsp;환경&nbsp;조성.<br>&nbsp;&nbsp;○&nbsp;지역경제&nbsp;및&nbsp;구도심&nbsp;활성화.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;무상요금을&nbsp;통해&nbsp;시민&nbsp;외출을&nbsp;유도하여&nbsp;전통시장과&nbsp;구도심&nbsp;상권에&nbsp;활력을&nbsp;불어넣고&nbsp;지역&nbsp;내&nbsp;유기적&nbsp;성장을&nbsp;도모.<br>&nbsp;&nbsp;○&nbsp;교통&nbsp;문제의&nbsp;근본적&nbsp;해결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;버스&nbsp;이용률&nbsp;제고를&nbsp;통해&nbsp;도심&nbsp;주차난을&nbsp;완화하고&nbsp;탄소&nbsp;중립&nbsp;달성에&nbsp;기여.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;10분대&nbsp;배차간격&nbsp;단축.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;남북·동서&nbsp;권역별&nbsp;인구&nbsp;밀도를&nbsp;고려한&nbsp;과학적&nbsp;노선&nbsp;정비로&nbsp;주요&nbsp;노선&nbsp;배차간격을&nbsp;10분&nbsp;이내로&nbsp;단축.<br>&nbsp;&nbsp;○&nbsp;단계적&nbsp;무상요금&nbsp;도입.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시내버스&nbsp;무상요금을&nbsp;전격&nbsp;도입하고,&nbsp;이를&nbsp;마을버스&nbsp;및&nbsp;수요응답형&nbsp;버스(DRT)까지&nbsp;확대&nbsp;검토.<br>&nbsp;&nbsp;○&nbsp;버스&nbsp;운영&nbsp;체제&nbsp;개편(준공영제·공영제&nbsp;추진)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현재&nbsp;진행&nbsp;중인&nbsp;관련&nbsp;용역&nbsp;결과를&nbsp;바탕으로&nbsp;시&nbsp;여건에&nbsp;최적화된&nbsp;운영&nbsp;모델(준공영제&nbsp;또는&nbsp;공영제)&nbsp;확정.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노선권&nbsp;확보를&nbsp;통해&nbsp;수익성&nbsp;위주가&nbsp;아닌&nbsp;시민&nbsp;편의&nbsp;위주의&nbsp;노선&nbsp;재설계.<br>&nbsp;&nbsp;○&nbsp;종사자&nbsp;고용&nbsp;안정.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;버스&nbsp;기사의&nbsp;처우&nbsp;개선과&nbsp;고용&nbsp;안정을&nbsp;통해&nbsp;서비스&nbsp;질&nbsp;향상&nbsp;및&nbsp;안전&nbsp;운행&nbsp;확보.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;1년&nbsp;차<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;운영&nbsp;체제(준공영제&nbsp;등)&nbsp;확정&nbsp;및&nbsp;무상요금&nbsp;시행을&nbsp;위한&nbsp;조례&nbsp;개정.<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노선&nbsp;전면&nbsp;개편&nbsp;및&nbsp;연차별&nbsp;무상요금&nbsp;대상&nbsp;확대&nbsp;시행.<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;지방세수&nbsp;선순환&nbsp;구조&nbsp;구축.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;적극적인&nbsp;기업&nbsp;유치를&nbsp;통해&nbsp;확장되는&nbsp;지방세&nbsp;수익을&nbsp;교통&nbsp;복지&nbsp;예산으로&nbsp;편성하여&nbsp;안정적인&nbsp;운영&nbsp;재원&nbsp;확보.<br>&nbsp;&nbsp;○&nbsp;예산의&nbsp;효율적&nbsp;재배분.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주차장&nbsp;조성&nbsp;및&nbsp;도로&nbsp;유지보수&nbsp;비용&nbsp;등&nbsp;자가용&nbsp;중심&nbsp;예산의&nbsp;일부를&nbsp;대중교통&nbsp;활성화&nbsp;예산으로&nbsp;전환.<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;도비&nbsp;지원&nbsp;협의.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강원특별자치도&nbsp;및&nbsp;국토교통부의&nbsp;대중교통&nbsp;지원&nbsp;정책과&nbsp;연계하여&nbsp;재원&nbsp;확보&nbsp;노력&nbsp;병행.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	수도권 광역전철 원주 연장 (강남~판교~양평~원주, 청양리~양평~원주)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="수도권 광역전철 원주 연장 (강남~판교~양평~원주, 청양리~양평~원주)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;수도권&nbsp;1시간&nbsp;생활권&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경강선&nbsp;및&nbsp;중앙선&nbsp;수도권&nbsp;전철을&nbsp;원주까지&nbsp;연장하여&nbsp;서울&nbsp;강남권&nbsp;및&nbsp;동북권&nbsp;접근성을&nbsp;획기적으로&nbsp;개선하고&nbsp;시민&nbsp;삶의&nbsp;질&nbsp;향상.<br>&nbsp;&nbsp;○&nbsp;교통&nbsp;인프라&nbsp;기반&nbsp;경제&nbsp;도약<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수도권&nbsp;접근성&nbsp;강화를&nbsp;통해&nbsp;우수&nbsp;인력을&nbsp;확보하고,&nbsp;이를&nbsp;바탕으로&nbsp;반도체,&nbsp;AI,&nbsp;의료기기&nbsp;등&nbsp;첨단&nbsp;산업&nbsp;중심의&nbsp;우량&nbsp;기업&nbsp;100개&nbsp;이상&nbsp;유치.<br>&nbsp;&nbsp;○&nbsp;도시&nbsp;브랜드&nbsp;재정립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강원도&nbsp;원주를&nbsp;넘어&nbsp;‘수도권&nbsp;전철&nbsp;중심&nbsp;도시’로&nbsp;도시&nbsp;경쟁력을&nbsp;근본적으로&nbsp;강화.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;경강선&nbsp;수도권&nbsp;전철&nbsp;연장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현재&nbsp;여주까지&nbsp;운행&nbsp;중인&nbsp;수도권&nbsp;전철을&nbsp;원주역까지&nbsp;연장&nbsp;운행.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;여주~원주&nbsp;복선전철&nbsp;개통(2027년&nbsp;말&nbsp;예정)과&nbsp;동시에&nbsp;전철이&nbsp;원주까지&nbsp;직접&nbsp;운행될&nbsp;수&nbsp;있도록&nbsp;열차&nbsp;반복선&nbsp;구축&nbsp;등&nbsp;기반&nbsp;시설&nbsp;마련.<br>&nbsp;&nbsp;○&nbsp;중앙선&nbsp;수도권&nbsp;전철&nbsp;연장:<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현재&nbsp;양평역까지&nbsp;운행&nbsp;중인&nbsp;중앙선&nbsp;전철을&nbsp;원주까지&nbsp;연장&nbsp;추진.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;양평군과&nbsp;긴밀히&nbsp;협력하여&nbsp;경제성(B/C)&nbsp;타당성을&nbsp;보완하고&nbsp;국토교통부·&nbsp;코레일과&nbsp;조기&nbsp;실현&nbsp;협의.<br>&nbsp;&nbsp;○&nbsp;이동권&nbsp;및&nbsp;상권&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전철&nbsp;연장을&nbsp;통해&nbsp;어르신&nbsp;등&nbsp;교통약자의&nbsp;이동권을&nbsp;확대하고,&nbsp;수도권&nbsp;인구&nbsp;유입을&nbsp;유도하여&nbsp;전통시장&nbsp;및&nbsp;지역&nbsp;관광지&nbsp;활성화.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년&nbsp;말&nbsp;여주~원주&nbsp;복선전철&nbsp;완공&nbsp;시점에&nbsp;맞춘&nbsp;전동차&nbsp;운행&nbsp;개시를&nbsp;목표로&nbsp;즉시&nbsp;관계&nbsp;기관&nbsp;협의&nbsp;착수.<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;도비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가철도망&nbsp;구축계획&nbsp;등&nbsp;정부&nbsp;상위&nbsp;계획&nbsp;반영을&nbsp;통해&nbsp;국비&nbsp;지원을&nbsp;이끌어내고&nbsp;강원특별자치도와&nbsp;재정&nbsp;분담&nbsp;협의.<br>&nbsp;&nbsp;○&nbsp;민관&nbsp;협력&nbsp;및&nbsp;효율적&nbsp;예산&nbsp;집행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;열차&nbsp;반복선&nbsp;구축&nbsp;등&nbsp;비교적&nbsp;적은&nbsp;비용으로&nbsp;실현&nbsp;가능한&nbsp;방안을&nbsp;우선&nbsp;채택하여&nbsp;시&nbsp;재정&nbsp;부담&nbsp;최소화.<br>&nbsp;&nbsp;○&nbsp;기업&nbsp;유치&nbsp;세수&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전철&nbsp;연장에&nbsp;따른&nbsp;기업&nbsp;유치&nbsp;가속화로&nbsp;발생하는&nbsp;지방세&nbsp;수익을&nbsp;교통&nbsp;인프라&nbsp;유지&nbsp;및&nbsp;확충에&nbsp;재투자.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	시민 놀이공원 ‘원주형 미니 에버랜드’ 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="시민 놀이공원 ‘원주형 미니 에버랜드’ 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;"매일이&nbsp;소풍!"&nbsp;같은&nbsp;일상&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어린이부터&nbsp;어르신까지&nbsp;모든&nbsp;세대가&nbsp;함께&nbsp;즐길&nbsp;수&nbsp;있는&nbsp;원주만의&nbsp;차별화된&nbsp;테마파크&nbsp;조성.<br>&nbsp;&nbsp;○&nbsp;포용적&nbsp;여가&nbsp;공간&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신체적&nbsp;제약&nbsp;없이&nbsp;누구나&nbsp;이용&nbsp;가능한&nbsp;유니버설&nbsp;디자인을&nbsp;도입하여&nbsp;사회통합&nbsp;선도&nbsp;도시&nbsp;위상&nbsp;확립.<br>&nbsp;&nbsp;○&nbsp;정주&nbsp;여건&nbsp;개선&nbsp;및&nbsp;경제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;가족&nbsp;단위&nbsp;여가&nbsp;인프라&nbsp;확충으로&nbsp;삶의&nbsp;질을&nbsp;높이고,&nbsp;연간&nbsp;50만&nbsp;명&nbsp;이상의&nbsp;방문객을&nbsp;유치하여&nbsp;지역&nbsp;상권에&nbsp;활력&nbsp;부여.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;자연&nbsp;친화형&nbsp;모험&nbsp;놀이공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기계식&nbsp;놀이기구&nbsp;대신&nbsp;'나무·흙·돌·물'&nbsp;자연&nbsp;소재&nbsp;중심의&nbsp;모험놀이터&nbsp;(트리하우스,&nbsp;로프코스&nbsp;등)&nbsp;조성.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여름철&nbsp;물놀이&nbsp;시설과&nbsp;겨울철&nbsp;자연&nbsp;눈썰매장&nbsp;운영으로&nbsp;사계절&nbsp;내내&nbsp;즐길&nbsp;수&nbsp;있는&nbsp;콘텐츠&nbsp;제공.<br>&nbsp;&nbsp;○&nbsp;무장애&nbsp;유니버설&nbsp;힐링&nbsp;공간&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전&nbsp;구간&nbsp;경사도&nbsp;5%&nbsp;이내의&nbsp;무장애&nbsp;산책로와&nbsp;휠체어·유모차&nbsp;전용&nbsp;동선&nbsp;확보.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;계절별&nbsp;테마&nbsp;꽃&nbsp;정원(수국,&nbsp;코스모스&nbsp;등)과&nbsp;50개소&nbsp;이상의&nbsp;그늘&nbsp;쉼터,&nbsp;수유실&nbsp;등&nbsp;편의시설&nbsp;완비.<br>&nbsp;&nbsp;○&nbsp;작은&nbsp;동물&nbsp;교감&nbsp;정원&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;토끼,&nbsp;다람쥐&nbsp;등&nbsp;소형&nbsp;동물&nbsp;20종&nbsp;이상을&nbsp;관찰하고&nbsp;교감할&nbsp;수&nbsp;있는&nbsp;생태&nbsp;교육&nbsp;공간&nbsp;마련.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신을&nbsp;위한&nbsp;동물매개&nbsp;치유&nbsp;프로그램&nbsp;및&nbsp;아동&nbsp;대상&nbsp;생명교육&nbsp;프로그램&nbsp;상설&nbsp;운영.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;완료<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취임&nbsp;후&nbsp;즉시&nbsp;부지&nbsp;선정&nbsp;및&nbsp;타당성&nbsp;조사&nbsp;착수,&nbsp;임기&nbsp;내&nbsp;준공&nbsp;및&nbsp;개장&nbsp;추진.<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;시&nbsp;재정&nbsp;및&nbsp;공모사업&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원주시&nbsp;일반회계&nbsp;예산&nbsp;편성&nbsp;및&nbsp;환경부·국토교통부의&nbsp;'자연환경&nbsp;복원사업',&nbsp;'도시재생&nbsp;사업'&nbsp;등&nbsp;국비&nbsp;공모사업과&nbsp;연계하여&nbsp;재원&nbsp;확보.<br>&nbsp;&nbsp;○&nbsp;기업&nbsp;유치&nbsp;세수&nbsp;투입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;활발한&nbsp;기업&nbsp;유치로&nbsp;확보된&nbsp;확장&nbsp;세수를&nbsp;시민들의&nbsp;휴식권&nbsp;보장을&nbsp;위한&nbsp;인프라&nbsp;구축&nbsp;예산으로&nbsp;편성.<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;협력&nbsp;모델&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;필요&nbsp;시&nbsp;일부&nbsp;수익&nbsp;시설(카페,&nbsp;체험&nbsp;프로그램&nbsp;등)에&nbsp;민간&nbsp;참여를&nbsp;유도하여&nbsp;운영비&nbsp;부담&nbsp;경감&nbsp;및&nbsp;서비스&nbsp;질&nbsp;향상.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	6,000억 원 지역화폐 발행 (할인율 10%~15%)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="6,000억 원 지역화폐 발행 (할인율 10%~15%)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;지갑을&nbsp;채우는&nbsp;‘먹사니즘’&nbsp;실현.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역화폐&nbsp;발행&nbsp;규모를&nbsp;획기적으로&nbsp;확대하여&nbsp;고물가&nbsp;시대&nbsp;가계&nbsp;생활비&nbsp;부담을&nbsp;직접적으로&nbsp;경감.<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;상권이&nbsp;살아나는&nbsp;‘잘사니즘’&nbsp;구현.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자금의&nbsp;역외&nbsp;유출을&nbsp;방지하고&nbsp;시내&nbsp;자금&nbsp;순환을&nbsp;극대화하여&nbsp;1만&nbsp;8,000여&nbsp;가맹점의&nbsp;매출&nbsp;증대와&nbsp;활기찬&nbsp;지역&nbsp;경제&nbsp;조성.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;원주사랑상품권&nbsp;발행&nbsp;규모&nbsp;6배&nbsp;확대.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현행&nbsp;연간&nbsp;1,000억&nbsp;원&nbsp;수준인&nbsp;발행량을&nbsp;6,000억&nbsp;원&nbsp;규모로&nbsp;대폭&nbsp;확대.<br>&nbsp;&nbsp;○&nbsp;가구당&nbsp;생활비&nbsp;절감&nbsp;혜택&nbsp;극대화.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역화폐&nbsp;구매&nbsp;할인율(10%&nbsp;등)을&nbsp;유지·강화하여,&nbsp;최대&nbsp;활용&nbsp;시&nbsp;가구당&nbsp;연간&nbsp;최대&nbsp;240만&nbsp;원의&nbsp;생활비&nbsp;절감&nbsp;효과&nbsp;체감.<br>&nbsp;&nbsp;○&nbsp;가맹점&nbsp;매출&nbsp;증대&nbsp;지원.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;확대된&nbsp;발행&nbsp;규모만큼&nbsp;지역&nbsp;내&nbsp;소비를&nbsp;유도하여&nbsp;가맹점당&nbsp;평균&nbsp;매출액&nbsp;상승&nbsp;견인.<br>&nbsp;&nbsp;○&nbsp;유통&nbsp;시스템&nbsp;고도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;모바일·카드형&nbsp;지역화폐&nbsp;사용&nbsp;편의성을&nbsp;높이고&nbsp;가맹점&nbsp;확대를&nbsp;통해&nbsp;시&nbsp;민들이&nbsp;어디서나&nbsp;불편&nbsp;없이&nbsp;사용할&nbsp;수&nbsp;있는&nbsp;환경&nbsp;구축.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;확대:&nbsp;취임&nbsp;첫해부터&nbsp;발행&nbsp;규모를&nbsp;연차별로&nbsp;확대하여&nbsp;임기&nbsp;내&nbsp;6,000억&nbsp;원&nbsp;달성.<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;기업&nbsp;유치&nbsp;세수&nbsp;환원.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;적극적인&nbsp;기업&nbsp;유치로&nbsp;확보된&nbsp;지방세&nbsp;수익을&nbsp;지역화폐&nbsp;할인&nbsp;발행&nbsp;지원금(인센티브)&nbsp;재원으로&nbsp;투입하여&nbsp;시민&nbsp;혜택으로&nbsp;환원.<br>&nbsp;&nbsp;○&nbsp;일반회계&nbsp;예산&nbsp;편성.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시&nbsp;자체&nbsp;예산&nbsp;구조조정을&nbsp;통해&nbsp;지역&nbsp;경제&nbsp;활성화를&nbsp;위한&nbsp;마중물&nbsp;예산&nbsp;우선&nbsp;확보.<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;도비&nbsp;확보&nbsp;.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부의&nbsp;지역사랑상품권&nbsp;지원&nbsp;예산과&nbsp;강원특별자치도&nbsp;지원금을&nbsp;적극적으로&nbsp;확보하여&nbsp;시&nbsp;재정&nbsp;부담&nbsp;완화.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

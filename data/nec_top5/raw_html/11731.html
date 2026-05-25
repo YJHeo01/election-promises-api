@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;변광용 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	KTX 2030 조기 개통, 신공항, 고속도로 등 대형 SOC 완성 통한 거제 대도약 기반 마련 추진, 반값 거가대교 통행료 인하</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="KTX 2030 조기 개통, 신공항, 고속도로 등 대형 SOC 완성 통한 거제 대도약 기반 마련 추진, 반값 거가대교 통행료 인하">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;KTX&nbsp;개통에&nbsp;따른&nbsp;역세권,&nbsp;산업,&nbsp;물류,&nbsp;유동&nbsp;인구&nbsp;등&nbsp;경제&nbsp;상황의&nbsp;변화에&nbsp;대비한&nbsp;체계적&nbsp;시스템&nbsp;구축&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;가덕신공항&nbsp;시대&nbsp;대비한&nbsp;배후&nbsp;도시&nbsp;등&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;고속도로&nbsp;거제&nbsp;연장&nbsp;등&nbsp;광역&nbsp;도로망&nbsp;구축을&nbsp;통한&nbsp;동남권&nbsp;중심도시&nbsp;도약&nbsp;기반&nbsp;마련(산업&nbsp;물류,&nbsp;관광&nbsp;휴양,&nbsp;교통&nbsp;인프라&nbsp;조성)<br>&nbsp;&nbsp;○&nbsp;거가대교&nbsp;통행료&nbsp;인하를&nbsp;통한&nbsp;시민&nbsp;부담&nbsp;경감&nbsp;및&nbsp;산업물류,&nbsp;관광&nbsp;등&nbsp;거제&nbsp;발전&nbsp;기반&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;KTX&nbsp;2030&nbsp;임기&nbsp;내&nbsp;개통&nbsp;및&nbsp;KTX&nbsp;역세권&nbsp;개발사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;가덕신공항&nbsp;2035년&nbsp;적기&nbsp;개항을&nbsp;통한&nbsp;물류,&nbsp;해양&nbsp;관광&nbsp;휴양,&nbsp;MICE&nbsp;컨벤션,&nbsp;신성장&nbsp;산업&nbsp;등&nbsp;복합&nbsp;배후&nbsp;거제신도시&nbsp;건설<br>&nbsp;&nbsp;○&nbsp;가덕신공항&nbsp;철도&nbsp;연결로&nbsp;교통,&nbsp;물류&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;고속도로&nbsp;거제&nbsp;연장&nbsp;2027년&nbsp;착수,&nbsp;국도&nbsp;5호선&nbsp;조기&nbsp;착공&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;거가대교&nbsp;통행료&nbsp;반값&nbsp;인하&nbsp;통행료&nbsp;인하&nbsp;추진(부울경&nbsp;메가시티&nbsp;1순위&nbsp;추진)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;중&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	조선업 외국인력 축소·적정수 도입, 내국인, 청년 채용 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="조선업 외국인력 축소·적정수 도입, 내국인, 청년 채용 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;무분별하게&nbsp;급증하는&nbsp;조선업&nbsp;외국인&nbsp;노동자&nbsp;적정수&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;조선업&nbsp;청년,&nbsp;내국인&nbsp;노동자&nbsp;채용&nbsp;확대를&nbsp;통한&nbsp;조선업&nbsp;지속&nbsp;성장과&nbsp;지역&nbsp;경제&nbsp;동반성장&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;조선업&nbsp;외국인&nbsp;노동자&nbsp;쿼터제&nbsp;재검토·적정&nbsp;수&nbsp;도입&nbsp;<br>&nbsp;&nbsp;○&nbsp;조선산업기본법&nbsp;제정&nbsp;추진(임금,&nbsp;단가&nbsp;현실화,&nbsp;권익&nbsp;확대,&nbsp;고용구조&nbsp;개선&nbsp;등)<br>&nbsp;&nbsp;○&nbsp;내국인,&nbsp;청년&nbsp;채용&nbsp;확대&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;의료,&nbsp;복지,&nbsp;주거,&nbsp;교육&nbsp;등&nbsp;내국인,&nbsp;청년&nbsp;정주&nbsp;기반&nbsp;강화&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;교육기관&nbsp;연계&nbsp;맞춤형&nbsp;인재&nbsp;육성&nbsp;및&nbsp;채용&nbsp;강화&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;중&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	기업과 지역의 상생발전, 조선해양방산MRO 국가 핵심 전략도시 도약 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="기업과 지역의 상생발전, 조선해양방산MRO 국가 핵심 전략도시 도약 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;기업의&nbsp;성과가&nbsp;노동자,&nbsp;지역경제로&nbsp;이어지는&nbsp;선순환&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;기업과&nbsp;지역사회의&nbsp;상생&nbsp;발전,&nbsp;협력&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;통합기금조성을&nbsp;통한&nbsp;노동자&nbsp;복지향상,&nbsp;처우개선&nbsp;기반&nbsp;마련&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;선박&nbsp;MRO&nbsp;컨트롤타워&nbsp;거제&nbsp;도약&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;조선해양방산&nbsp;산업의&nbsp;지속&nbsp;성장&nbsp;추진<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;거제시-양대조선&nbsp;상생발전&nbsp;지속&nbsp;협의&nbsp;및&nbsp;이행&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;거제시-양대조선이&nbsp;함께&nbsp;만드는&nbsp;문화선도산단&nbsp;조성&nbsp;(1500억&nbsp;규모,&nbsp;정부&nbsp;공모&nbsp;추진)<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;정책&nbsp;연계&nbsp;탈탄소,&nbsp;친환경&nbsp;스마트&nbsp;조선산업&nbsp;기술&nbsp;지원&nbsp;강화,&nbsp;MRO&nbsp;등&nbsp;다각적&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;선박해양플랜트연구소&nbsp;등&nbsp;공공기관&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;북극항로&nbsp;개설&nbsp;경남,&nbsp;부산&nbsp;협력&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;기업과&nbsp;지역사회의&nbsp;상생&nbsp;발전과&nbsp;협력&nbsp;추진,&nbsp;지역&nbsp;상권&nbsp;활성화&nbsp;연계&nbsp;강화<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;중&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	기업혁신파크 스마트 관광도시, 신공항 배후 국제도시, KTX 역세권 등 신성장 산업 성공적 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="기업혁신파크 스마트 관광도시, 신공항 배후 국제도시, KTX 역세권 등 신성장 산업 성공적 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;기업혁신파크,&nbsp;신공항&nbsp;배후&nbsp;국제도시,&nbsp;KTX&nbsp;역세권&nbsp;사업&nbsp;등&nbsp;신성장&nbsp;산업의&nbsp;중단없는&nbsp;추진,&nbsp;발굴로&nbsp;거제&nbsp;미래&nbsp;성장&nbsp;동력&nbsp;확보&nbsp;및&nbsp;일자리&nbsp;증대<br>&nbsp;&nbsp;○&nbsp;KTX,&nbsp;가덕신공항&nbsp;시대&nbsp;동남권&nbsp;중심도시&nbsp;도약&nbsp;기반&nbsp;마련<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;기업혁신파크&nbsp;스마트&nbsp;관광도시&nbsp;2027년&nbsp;착공&nbsp;추진,&nbsp;의료,&nbsp;바이오,&nbsp;문화예술,&nbsp;IT&nbsp;정보통신,&nbsp;관광산업&nbsp;등&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;기업혁신파크&nbsp;통합개발계획&nbsp;적기&nbsp;추진(`26.03.수립,&nbsp;거제시&nbsp;제출&nbsp;>&nbsp;`26.06.국토부&nbsp;제출&nbsp;계획)<br>&nbsp;&nbsp;○&nbsp;KTX&nbsp;역세권&nbsp;개발(해양관광&nbsp;레포츠타운,&nbsp;선셋리조트,&nbsp;비즈니스&nbsp;복합&nbsp;상업&nbsp;시설)<br>&nbsp;&nbsp;○&nbsp;경제자유구역&nbsp;거제&nbsp;확대&nbsp;지속&nbsp;추진,&nbsp;신공항&nbsp;배후&nbsp;국제도시&nbsp;개발로&nbsp;신산업,&nbsp;해양휴양,&nbsp;관광&nbsp;MICE&nbsp;등&nbsp;산업&nbsp;육성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;중&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	한아세안 국가정원, 야간 관광명소 활성화 등 글로벌 관광도시 도약</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="한아세안 국가정원, 야간 관광명소 활성화 등 글로벌 관광도시 도약">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;한·아세안&nbsp;국가정원의&nbsp;성공적&nbsp;조성으로&nbsp;동남권&nbsp;국제적&nbsp;관광&nbsp;중심도시&nbsp;도약&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;거제만의&nbsp;특징과&nbsp;색깔을&nbsp;입힌&nbsp;차별화된&nbsp;체류형&nbsp;거제&nbsp;관광&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;야간&nbsp;관광명소&nbsp;활성화로&nbsp;지역&nbsp;상권&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;내&nbsp;역사,&nbsp;문화,&nbsp;예술,&nbsp;전통과&nbsp;관광&nbsp;접목,&nbsp;콘텐츠&nbsp;개발&nbsp;및&nbsp;관광&nbsp;상품화&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;완성도&nbsp;높은&nbsp;한아세안&nbsp;국가정원&nbsp;성공적&nbsp;추진(`26.04.&nbsp;산림청&nbsp;재기획&nbsp;기본구상&nbsp;용역&nbsp;착수)<br>&nbsp;&nbsp;○&nbsp;거제&nbsp;야간관광&nbsp;추진,&nbsp;관광과&nbsp;지역상권&nbsp;연계&nbsp;강화(고현항,&nbsp;옥포항&nbsp;등&nbsp;야간&nbsp;명소화,&nbsp;지역상권&nbsp;야간&nbsp;테마&nbsp;경관&nbsp;조성)<br>&nbsp;&nbsp;○&nbsp;거제만의&nbsp;차별화된&nbsp;관광문화도시&nbsp;추진(세계&nbsp;최대&nbsp;규모&nbsp;포로수용소,&nbsp;대통령&nbsp;2명&nbsp;배출&nbsp;도시,&nbsp;섬과&nbsp;자연&nbsp;경관&nbsp;및&nbsp;역사&nbsp;문화,&nbsp;세계&nbsp;최고&nbsp;조선소&nbsp;2곳&nbsp;등)<br>&nbsp;&nbsp;○&nbsp;국립&nbsp;해양과학관&nbsp;거제&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;제2정글돔,&nbsp;기후변화&nbsp;체험&nbsp;관광정원(사막관,&nbsp;극지관&nbsp;등)&nbsp;조성&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;중&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

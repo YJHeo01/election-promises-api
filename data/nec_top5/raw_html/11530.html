@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이행섭 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	SOC 사업 최근 3년치 전수 감사 및 정보공개 모두 수용</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="SOC 사업 최근 3년치 전수 감사 및 정보공개 모두 수용">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            함평군청이&nbsp;발주하고&nbsp;시행한&nbsp;최근&nbsp;3년치&nbsp;SOC&nbsp;사업의&nbsp;적절성과&nbsp;필요성,&nbsp;시행주체&nbsp;선정의&nbsp;공정성에&nbsp;대해&nbsp;내부&nbsp;감사를&nbsp;실시합니다.&nbsp;감사시행에&nbsp;있어서&nbsp;주민&nbsp;모니터링&nbsp;참여를&nbsp;보장하여&nbsp;주민입장에서&nbsp;필요한&nbsp;내용으로&nbsp;감사가&nbsp;제대로&nbsp;이루어질&nbsp;수&nbsp;있도록&nbsp;합니다.&nbsp;감사를&nbsp;마친&nbsp;후에는&nbsp;주민보고회를&nbsp;통해&nbsp;주민들이&nbsp;보기&nbsp;편한&nbsp;형태로&nbsp;자료를&nbsp;작성해서&nbsp;보고하고,&nbsp;SOC&nbsp;사업&nbsp;전반의&nbsp;문제와&nbsp;개선점을&nbsp;논의하여&nbsp;도출합니다.&nbsp;불투명한&nbsp;SOC&nbsp;예산&nbsp;집행&nbsp;등에&nbsp;대한&nbsp;상시적인&nbsp;주민&nbsp;감시가&nbsp;가능하도록&nbsp;주민들의&nbsp;정보공개&nbsp;신청을&nbsp;모두&nbsp;수용하며&nbsp;주민들의&nbsp;문의&nbsp;사항을&nbsp;충분히&nbsp;설명하는&nbsp;정보공개가&nbsp;이루어지도록&nbsp;정보공개제도&nbsp;운영방식을&nbsp;바꾸겠습니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;불필요한&nbsp;SOC&nbsp;지출&nbsp;요소&nbsp;파악<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;낭비적이거나&nbsp;불필요한&nbsp;SOC&nbsp;사업을&nbsp;파악한다<br>&nbsp;&nbsp;○&nbsp;SOC&nbsp;예산&nbsp;집행&nbsp;과정의&nbsp;공정성&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;낭비적이거나&nbsp;불필요한&nbsp;SOC&nbsp;사업을&nbsp;파악한다<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;민관&nbsp;합동&nbsp;감사반&nbsp;구성과&nbsp;감사시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군청&nbsp;관련&nbsp;공무원과&nbsp;SOC&nbsp;사업에&nbsp;대한&nbsp;이해도가&nbsp;있는&nbsp;주민을&nbsp;감사위원으로&nbsp;선정하여&nbsp;합동으로&nbsp;구성하고&nbsp;감사를&nbsp;실시하며&nbsp;민간&nbsp;감사위원<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;친화적&nbsp;보고서&nbsp;작성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행정절차와&nbsp;예산&nbsp;실무에&nbsp;대한&nbsp;이해도가&nbsp;낮은&nbsp;주민들이&nbsp;쉽게&nbsp;이해할&nbsp;수&nbsp;있도록&nbsp;보고서의&nbsp;용어를&nbsp;주민&nbsp;친화적으로&nbsp;사용하고,&nbsp;지나치게&nbsp;세부적인&nbsp;내용보다는&nbsp;주요한&nbsp;내용&nbsp;중심으로&nbsp;읽기&nbsp;쉬운&nbsp;보고서로&nbsp;작성한다<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;하반기&nbsp;동안&nbsp;감사반을&nbsp;구성하고&nbsp;시행한&nbsp;후&nbsp;2026년&nbsp;말&nbsp;주민보고회&nbsp;개최<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원&nbsp;들지&nbsp;않음.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	함평공사 설립으로 정규직 일자리 100명 마련</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="함평공사 설립으로 정규직 일자리 100명 마련">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            평공사를&nbsp;설립하고&nbsp;돌봄사업부,&nbsp;농산물유통부,&nbsp;사회적경제부&nbsp;3개&nbsp;사업부를&nbsp;설치하겠습니다.&nbsp;지역주민,&nbsp;청년,&nbsp;요양보호사&nbsp;등&nbsp;100명을&nbsp;정규직으로&nbsp;고용하겠습니다.&nbsp;아울러&nbsp;노인일자리&nbsp;사업등이&nbsp;수행기관로&nbsp;지정하여&nbsp;노인일자리&nbsp;약&nbsp;1700명&nbsp;중&nbsp;300명&nbsp;이상을&nbsp;계약직으로&nbsp;고용하겠습니다.&nbsp;국비로&nbsp;지급되는&nbsp;활동비에&nbsp;10만원&nbsp;내외의&nbsp;함평공사에서&nbsp;지급하는&nbsp;급여를&nbsp;포함하여&nbsp;40만원&nbsp;전후의&nbsp;임금을&nbsp;지급하여,&nbsp;생산적이고&nbsp;공익적인&nbsp;수요기반형&nbsp;봉사업무,&nbsp;수익형&nbsp;저강도&nbsp;노동에&nbsp;투입하겠습니다.&nbsp;농산물유통부는&nbsp;농민들과&nbsp;계약재배를&nbsp;체결하고&nbsp;사업부&nbsp;인건비&nbsp;등&nbsp;운영비용을&nbsp;확보할&nbsp;정도의&nbsp;마진으로&nbsp;대량거래처를&nbsp;직접&nbsp;납품계약을&nbsp;체결합니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;농민들의&nbsp;농업소독&nbsp;증대<br>&nbsp;&nbsp;○&nbsp;수요기반형&nbsp;복지&nbsp;시스템&nbsp;구축<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;함평군청에서&nbsp;100%&nbsp;출자한&nbsp;공기업&nbsp;법인&nbsp;설립<br>&nbsp;&nbsp;○&nbsp;100%&nbsp;주민&nbsp;채용(경력없는&nbsp;주민도&nbsp;관련교육&nbsp;후&nbsp;채용)<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년에&nbsp;설립&nbsp;및&nbsp;채용완료<br>&nbsp;&nbsp;○&nbsp;2027년부터&nbsp;농산물&nbsp;수매&nbsp;등&nbsp;지속&nbsp;시행<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;출자&nbsp;및&nbsp;투자에&nbsp;필요한&nbsp;규모로&nbsp;매년&nbsp;30억으로&nbsp;추산되고&nbsp;지출구조조정(SOC&nbsp;예산&nbsp;삭감)으로&nbsp;군비&nbsp;마련하여&nbsp;투입</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	농업인소득 10% 증대 및 보조사업 공정성 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="농업인소득 10% 증대 및 보조사업 공정성 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            농민들은&nbsp;농업소득이&nbsp;부족해&nbsp;농업외소득을&nbsp;얻기&nbsp;위한&nbsp;노동에&nbsp;시달리고&nbsp;있습니다.<br>첫째,&nbsp;군청에서&nbsp;실시하는&nbsp;농업&nbsp;보조사업과&nbsp;같은&nbsp;이전소득&nbsp;지원이&nbsp;군수&nbsp;측근&nbsp;등&nbsp;특수관계인에게&nbsp;독점되는&nbsp;등&nbsp;공정하게&nbsp;분배되지&nbsp;않고&nbsp;왜곡되는&nbsp;것을&nbsp;시정하겠습니다.&nbsp;둘째,&nbsp;농업보조가&nbsp;장비/시설&nbsp;업체로&nbsp;지급되어&nbsp;보조&nbsp;단가가&nbsp;부풀려지고&nbsp;정작&nbsp;농민들에게&nbsp;직접&nbsp;전달되지&nbsp;못한&nbsp;채&nbsp;보조사업이&nbsp;또다른&nbsp;부담으로&nbsp;작용하는&nbsp;문제를&nbsp;해결하겠습니다.&nbsp;셋째&nbsp;농산물을&nbsp;판매한&nbsp;수익인&nbsp;농업소득을&nbsp;늘리기&nbsp;위해&nbsp;함평공사를&nbsp;통해&nbsp;생산비보장&nbsp;단가를&nbsp;산정하여&nbsp;직접&nbsp;수매하겠습니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농업인&nbsp;소득&nbsp;10%&nbsp;증대<br>&nbsp;&nbsp;○&nbsp;보조사업&nbsp;분배&nbsp;왜곡&nbsp;시정&nbsp;및&nbsp;공정성&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;보조금&nbsp;농민&nbsp;직접&nbsp;전달&nbsp;및&nbsp;보조사업단가&nbsp;부풀리기&nbsp;억제<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;설립된&nbsp;함평공사에서&nbsp;양파&nbsp;등&nbsp;농산물&nbsp;10종에&nbsp;대한&nbsp;생산비&nbsp;보장&nbsp;가격으로&nbsp;수매&nbsp;및&nbsp;유통&nbsp;사업&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;이재명&nbsp;정부의&nbsp;농지&nbsp;전수조사를&nbsp;철저히&nbsp;수행해&nbsp;실거주,&nbsp;실경작&nbsp;농민만을&nbsp;농업보조&nbsp;대상으로&nbsp;지정(위장농업인&nbsp;배제)<br>&nbsp;&nbsp;○&nbsp;농업보조금&nbsp;선정기준&nbsp;공청회&nbsp;실시&nbsp;및&nbsp;선정후&nbsp;채점표&nbsp;공개<br>&nbsp;&nbsp;○&nbsp;군비&nbsp;100%&nbsp;사업부터&nbsp;농업보조금&nbsp;지급대상으로&nbsp;업체가&nbsp;아닌&nbsp;농민&nbsp;직접&nbsp;지급&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비,도비&nbsp;매칭&nbsp;사업도&nbsp;지급대상으로&nbsp;농민으로&nbsp;변경&nbsp;추진<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년부터&nbsp;계속<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;함평공사&nbsp;수매자금은&nbsp;농협&nbsp;수매자금&nbsp;융자등을&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;나머지&nbsp;사업들은&nbsp;재원&nbsp;소요되지&nbsp;않음</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	매년 학생수 1%씩 늘리겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="매년 학생수 1%씩 늘리겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            현재&nbsp;유초중고&nbsp;총&nbsp;2300명에&nbsp;미치지&nbsp;못하는&nbsp;학생수를&nbsp;기준으로&nbsp;학생으로&nbsp;진입,&nbsp;졸업등으로&nbsp;제외되는&nbsp;등&nbsp;변동사항을&nbsp;모두&nbsp;포함하여&nbsp;순증가&nbsp;학생수가&nbsp;매년&nbsp;25명씩&nbsp;되도록&nbsp;하겠습니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;교육도시로서&nbsp;위상&nbsp;확립<br>&nbsp;&nbsp;○&nbsp;젊은&nbsp;학부모,&nbsp;예비학부모&nbsp;인구&nbsp;유입<br>&nbsp;&nbsp;○&nbsp;학생들의&nbsp;사회적&nbsp;성장,&nbsp;신체적&nbsp;성장,&nbsp;지적&nbsp;성장을&nbsp;포괄하는&nbsp;성장발달&nbsp;지원체계&nbsp;확립<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;공공도서관&nbsp;이전하고&nbsp;도서관을&nbsp;교육력&nbsp;확대&nbsp;거점으로서&nbsp;아동/청소년&nbsp;복합문화&nbsp;공간으로&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;청소년들의&nbsp;사회적&nbsp;역량&nbsp;향상을&nbsp;위한&nbsp;청소년위원회&nbsp;구성&nbsp;및&nbsp;예산&nbsp;10억&nbsp;청소년&nbsp;직접&nbsp;결정&nbsp;권한&nbsp;부여<br>&nbsp;&nbsp;○&nbsp;스포츠클럽&nbsp;개설&nbsp;및&nbsp;운영&nbsp;전폭&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;수기&nbsp;독후감에&nbsp;대해&nbsp;1회당&nbsp;3만원&nbsp;독서수당&nbsp;지급(월&nbsp;15만원&nbsp;한도)<br>&nbsp;&nbsp;○&nbsp;오케스트라,&nbsp;미술&nbsp;등&nbsp;예술교육&nbsp;운영&nbsp;전폭&nbsp;지원<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;도서관&nbsp;이전은&nbsp;목표&nbsp;시기를&nbsp;앞당기기&nbsp;위한&nbsp;행정지원으로&nbsp;2028년&nbsp;내&nbsp;완료&nbsp;목표로&nbsp;시행하고&nbsp;나머지&nbsp;사업은&nbsp;2027년부터&nbsp;시행하여&nbsp;지속<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지출구조조정(SOC예산&nbsp;절감)으로&nbsp;군비&nbsp;마련하여&nbsp;총&nbsp;100억&nbsp;예산&nbsp;배정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	공공부문 쪼개기 계약 근절 및 상시,지속업무 공무직 전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="공공부문 쪼개기 계약 근절 및 상시,지속업무 공무직 전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            함평군청은&nbsp;소속&nbsp;비정규직&nbsp;노동자에&nbsp;대해서&nbsp;편법적이고&nbsp;불법적인&nbsp;요소가&nbsp;다분힌&nbsp;쪼개기&nbsp;계약을&nbsp;남발하고&nbsp;있습니다.&nbsp;아울로&nbsp;정부&nbsp;시책상&nbsp;상시,지속&nbsp;업무&nbsp;공무직&nbsp;전원이&nbsp;원칙임에도&nbsp;공무직&nbsp;전환&nbsp;조건이&nbsp;됨에도&nbsp;이를&nbsp;무시하는&nbsp;고용관행을&nbsp;유지하고&nbsp;있습니다.&nbsp;이는&nbsp;농협등의&nbsp;준&nbsp;공적&nbsp;기관의&nbsp;고용관행으로&nbsp;이어지기도&nbsp;합니다.&nbsp;따라서&nbsp;첫째,&nbsp;쪼개기&nbsp;계약을&nbsp;완전&nbsp;금지하겠습니다.&nbsp;둘째,&nbsp;상시,&nbsp;지속&nbsp;업무를&nbsp;수행하는&nbsp;비정규직&nbsp;노동자들을&nbsp;공무직으로&nbsp;즉시&nbsp;전환하겠습니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;비정규직&nbsp;처우&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;공공서비스의&nbsp;질&nbsp;향상<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;비정규직&nbsp;고용현황&nbsp;전수&nbsp;조사&nbsp;후&nbsp;쪼개기&nbsp;탈법&nbsp;고용,&nbsp;공무직&nbsp;전환&nbsp;대상&nbsp;파악<br>&nbsp;&nbsp;○&nbsp;공공운수노조함평군청지회&nbsp;등&nbsp;관련&nbsp;단체&nbsp;및&nbsp;미가입&nbsp;노동자,&nbsp;주민&nbsp;중&nbsp;참여&nbsp;희망자로&nbsp;협의회를&nbsp;구성하여&nbsp;고용&nbsp;계약서&nbsp;수정&nbsp;및&nbsp;공무직&nbsp;전환&nbsp;대상&nbsp;선정&nbsp;범위를&nbsp;확정<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;당선&nbsp;직후부터&nbsp;관련&nbsp;업무를&nbsp;시작하여&nbsp;2026년&nbsp;안에&nbsp;완료<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;불용예산&nbsp;누적분에서&nbsp;예산&nbsp;배정</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

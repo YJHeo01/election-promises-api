@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김진선 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	“임대주택 분산이 최고의 주거복지”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="“임대주택 분산이 최고의 주거복지”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>-&nbsp;강서구&nbsp;임대주택&nbsp;과밀&nbsp;해소<br>-&nbsp;주거&nbsp;복지의&nbsp;질적&nbsp;향상&nbsp;&nbsp;<br>-&nbsp;지역&nbsp;가치&nbsp;회복<br><br>○&nbsp;이행방법<br>□&nbsp;‘임대주택&nbsp;총량제’&nbsp;도입&nbsp;추진&nbsp;<br>&nbsp;&nbsp;-&nbsp;자치구별&nbsp;공공임대주택&nbsp;상한선을&nbsp;설정하여&nbsp;특정&nbsp;지역&nbsp;집중을&nbsp;방지하는&nbsp;제도를&nbsp;서울시와&nbsp;협의하여&nbsp;시행&nbsp;<br>□&nbsp;상한선&nbsp;설정&nbsp;및&nbsp;동결&nbsp;<br>&nbsp;&nbsp;-&nbsp;서울시&nbsp;평균의&nbsp;일정&nbsp;배수를&nbsp;초과하는&nbsp;자치구(강서구&nbsp;등)는&nbsp;신규&nbsp;배정을&nbsp;즉시&nbsp;동결&nbsp;<br>□&nbsp;의무&nbsp;분산&nbsp;수용<br>&nbsp;&nbsp;-&nbsp;임대주택&nbsp;비율이&nbsp;낮은&nbsp;자치구(강남,&nbsp;서초&nbsp;등)에&nbsp;신규&nbsp;물량을&nbsp;의무적으로&nbsp;배정하여&nbsp;서울&nbsp;전체의&nbsp;형평성&nbsp;맞춥&nbsp;&nbsp;<br>□&nbsp;노후&nbsp;물량&nbsp;관리<br>&nbsp;&nbsp;-&nbsp;상한&nbsp;초과&nbsp;지역의&nbsp;노후&nbsp;임대주택&nbsp;재건축&nbsp;시,&nbsp;물량을&nbsp;타&nbsp;자치구로&nbsp;이전하거나&nbsp;분양&nbsp;전환&nbsp;추진&nbsp;&nbsp;<br>□&nbsp;구조적&nbsp;원인&nbsp;차단<br>&nbsp;&nbsp;-&nbsp;마곡지구&nbsp;행복주택&nbsp;추가&nbsp;계획&nbsp;및&nbsp;방화동&nbsp;차량기지&nbsp;공공주택&nbsp;계획&nbsp;등&nbsp;강서구에&nbsp;집중된&nbsp;신규&nbsp;공급&nbsp;계획의&nbsp;전면&nbsp;재검토&nbsp;및&nbsp;조정&nbsp;요구&nbsp;&nbsp;<br><br>○&nbsp;이행기간<br>□&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;당선&nbsp;즉시&nbsp;서울시&nbsp;및&nbsp;국토교통부와&nbsp;‘임대주택&nbsp;총량제’&nbsp;법제화&nbsp;및&nbsp;조례&nbsp;개정을&nbsp;위한&nbsp;협의에&nbsp;착수하고,&nbsp;임기&nbsp;내&nbsp;신규&nbsp;배정&nbsp;동결&nbsp;실현&nbsp;&nbsp;<br><br>○&nbsp;재원조달방안&nbsp;등<br>□&nbsp;서울시&nbsp;및&nbsp;중앙정부&nbsp;협력<br>&nbsp;&nbsp;-&nbsp;제도적&nbsp;장치&nbsp;마련이&nbsp;핵심이므로&nbsp;별도의&nbsp;대규모&nbsp;구&nbsp;예산보다는&nbsp;정책&nbsp;협의를&nbsp;통한&nbsp;행정적&nbsp;절차로&nbsp;추진&nbsp;&nbsp;<br>□&nbsp;사회적&nbsp;비용&nbsp;절감<br>&nbsp;&nbsp;-&nbsp;지역&nbsp;간&nbsp;격차&nbsp;해소&nbsp;및&nbsp;사회적&nbsp;낙인&nbsp;방지에&nbsp;따른&nbsp;장기적인&nbsp;사회&nbsp;통합&nbsp;비용&nbsp;절감&nbsp;효과를&nbsp;바탕으로&nbsp;정책&nbsp;정당성&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	“공항 도시에서 공항 도심으로”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="“공항 도시에서 공항 도심으로”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>-&nbsp;지역&nbsp;가치&nbsp;회복<br>-&nbsp;혁신&nbsp;도시&nbsp;조성&nbsp;&nbsp;<br>-&nbsp;공항-지역&nbsp;상생<br><br>○&nbsp;이행방법<br>□&nbsp;고도제한&nbsp;규제&nbsp;합리화&nbsp;(차폐&nbsp;효과&nbsp;적용)<br>&nbsp;&nbsp;-&nbsp;개화산(132m)&nbsp;등&nbsp;기존&nbsp;자연&nbsp;장애물&nbsp;높이&nbsp;이하의&nbsp;건축물에&nbsp;대해서는&nbsp;항공&nbsp;안전에&nbsp;위해가&nbsp;없음을&nbsp;근거로&nbsp;규제를&nbsp;완화하는&nbsp;‘공항시설법’&nbsp;개정&nbsp;추진<br>□&nbsp;공항&nbsp;연계&nbsp;복합도심&nbsp;조성&nbsp;<br>&nbsp;&nbsp;-&nbsp;싱가포르&nbsp;주얼&nbsp;창이공항&nbsp;모델을&nbsp;벤치마킹하여&nbsp;공항&nbsp;인프라와&nbsp;지역&nbsp;상권이&nbsp;결합된&nbsp;생활,비즈니스&nbsp;플랫폼&nbsp;구축<br>□&nbsp;소음피해&nbsp;주민&nbsp;종합&nbsp;보상,지원&nbsp;체계&nbsp;강화<br>&nbsp;&nbsp;-&nbsp;30년&nbsp;된&nbsp;소음&nbsp;등급&nbsp;기준을&nbsp;재산정하고,&nbsp;냉방비&nbsp;50%&nbsp;지원,&nbsp;연&nbsp;1회&nbsp;무료&nbsp;건강검진,&nbsp;재산세&nbsp;최대&nbsp;50%&nbsp;감면&nbsp;등&nbsp;실질적인&nbsp;보상책&nbsp;마련&nbsp;<br>□&nbsp;한국공항공사&nbsp;유휴부지&nbsp;공동개발<br>&nbsp;&nbsp;-&nbsp;‘한국공항공사법’&nbsp;개정을&nbsp;통해&nbsp;공항&nbsp;내&nbsp;저활용&nbsp;부지(구&nbsp;화물터미널&nbsp;등)를&nbsp;강서구,공항공사,민간이&nbsp;공동&nbsp;개발하여&nbsp;일자리와&nbsp;세수&nbsp;확보&nbsp;&nbsp;<br>□&nbsp;남부순환도로&nbsp;지하화&nbsp;및&nbsp;지상&nbsp;공원화<br>&nbsp;&nbsp;-&nbsp;단절된&nbsp;공항-마곡-화곡&nbsp;지역을&nbsp;지하화로&nbsp;연결하고,&nbsp;상부&nbsp;공간에&nbsp;15만㎡&nbsp;규모의&nbsp;선형공원을&nbsp;조성&nbsp;<br><br>○&nbsp;이행기간<br>□&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;당선&nbsp;즉시&nbsp;법&nbsp;개정(고도제한,&nbsp;공항공사법)&nbsp;및&nbsp;특별법&nbsp;제정&nbsp;착수,&nbsp;소음&nbsp;보상&nbsp;조례&nbsp;개정&nbsp;등을&nbsp;즉시&nbsp;시작하여&nbsp;사업의&nbsp;기틀&nbsp;마련&nbsp;<br><br>○&nbsp;재원조달방안&nbsp;등<br>□&nbsp;국비&nbsp;및&nbsp;민간&nbsp;자본&nbsp;유치<br>&nbsp;&nbsp;-&nbsp;도시재생혁신지구&nbsp;국비&nbsp;지원&nbsp;및&nbsp;한국공항공사,민간&nbsp;투자&nbsp;협력을&nbsp;통한&nbsp;공동개발(JV)&nbsp;방식으로&nbsp;재원&nbsp;마련&nbsp;&nbsp;<br>□&nbsp;특별법&nbsp;제정<br>&nbsp;&nbsp;-&nbsp;‘강서구&nbsp;공항주변&nbsp;도시재생혁신지구&nbsp;및&nbsp;남부순환도로&nbsp;지하화&nbsp;특별법(가칭)’을&nbsp;통해&nbsp;사업&nbsp;추진력과&nbsp;예산&nbsp;확보&nbsp;근거&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	“마곡과 화곡·방화동의 균형발전”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="“마곡과 화곡·방화동의 균형발전”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>-&nbsp;주거&nbsp;양극화&nbsp;해소<br>-&nbsp;주민&nbsp;안전&nbsp;확보&nbsp;&nbsp;<br>-&nbsp;정비사업&nbsp;활성화<br><br>○&nbsp;이행방법<br>□&nbsp;“중간&nbsp;규모&nbsp;노후주거지”&nbsp;특별정비법&nbsp;제정<br>&nbsp;&nbsp;-&nbsp;준공&nbsp;30년&nbsp;이상,&nbsp;도로율&nbsp;20%&nbsp;미만&nbsp;지역을&nbsp;대상으로&nbsp;2,000~15,000㎡&nbsp;블록&nbsp;단위의&nbsp;특별정비구역&nbsp;신설<br>&nbsp;&nbsp;-&nbsp;주민&nbsp;동의&nbsp;요건을&nbsp;75%에서&nbsp;65%로&nbsp;완화하고,&nbsp;용적률(최대&nbsp;300%)&nbsp;및&nbsp;층수&nbsp;인센티브를&nbsp;부여하며&nbsp;기부채납&nbsp;비율을&nbsp;대폭&nbsp;축소(5%&nbsp;이하)<br>□&nbsp;노후주거지&nbsp;정비&nbsp;관련&nbsp;세법&nbsp;패키지&nbsp;개정&nbsp;<br>&nbsp;&nbsp;-&nbsp;원주민&nbsp;재입주&nbsp;시&nbsp;취득세&nbsp;50%&nbsp;감면,&nbsp;특별정비구역&nbsp;내&nbsp;양도소득세&nbsp;거주&nbsp;요건&nbsp;면제,&nbsp;사업&nbsp;기간&nbsp;중&nbsp;종합부동산세&nbsp;과세&nbsp;유예&nbsp;등을&nbsp;추진&nbsp;<br>&nbsp;&nbsp;-&nbsp;준공&nbsp;30년&nbsp;이상&nbsp;노후&nbsp;주택에&nbsp;대한&nbsp;재산세를&nbsp;30~50%&nbsp;경감하여&nbsp;주민의&nbsp;정비&nbsp;사업&nbsp;참여&nbsp;의지를&nbsp;높임<br>□&nbsp;마곡지구&nbsp;개발이익&nbsp;환류&nbsp;법제화<br>&nbsp;&nbsp;-&nbsp;「개발이익환수법」&nbsp;개정을&nbsp;통해&nbsp;마곡지구와&nbsp;같은&nbsp;대규모&nbsp;개발사업&nbsp;부담금의&nbsp;20%를&nbsp;인접한&nbsp;노후주거지&nbsp;재생에&nbsp;의무적으로&nbsp;배분<br>&nbsp;&nbsp;-&nbsp;&nbsp;환류된&nbsp;이익은&nbsp;인근&nbsp;지역의&nbsp;도로·인프라&nbsp;정비,&nbsp;주민&nbsp;이주&nbsp;지원&nbsp;및&nbsp;생활환경&nbsp;개선을&nbsp;위한&nbsp;별도&nbsp;기금으로&nbsp;관리<br><br>○&nbsp;이행기간<br>□&nbsp;임기&nbsp;내&nbsp;제도적&nbsp;기반&nbsp;완성<br>&nbsp;&nbsp;-&nbsp;당선&nbsp;직후&nbsp;특별정비법&nbsp;및&nbsp;세법&nbsp;개정안&nbsp;건의를&nbsp;시작으로,&nbsp;마곡&nbsp;개발이익&nbsp;환류를&nbsp;위한&nbsp;조례&nbsp;및&nbsp;기금&nbsp;설치를&nbsp;추진<br><br>○&nbsp;재원조달방안&nbsp;등<br>□&nbsp;개발이익&nbsp;환수금&nbsp;활용<br>&nbsp;&nbsp;-&nbsp;마곡지구&nbsp;등&nbsp;관내&nbsp;대규모&nbsp;개발사업에서&nbsp;발생하는&nbsp;이익을&nbsp;직접적인&nbsp;정비&nbsp;사업비로&nbsp;환류하여&nbsp;구&nbsp;예산&nbsp;부담&nbsp;최소화&nbsp;&nbsp;<br>□&nbsp;중앙정부&nbsp;및&nbsp;서울시&nbsp;협의<br>&nbsp;&nbsp;-&nbsp;세제&nbsp;혜택&nbsp;및&nbsp;법&nbsp;개정을&nbsp;위해&nbsp;국회와&nbsp;행정안전부,&nbsp;기획재정부&nbsp;등&nbsp;유관&nbsp;기관과</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	“방화차량기지 이전 및 5호선 연장”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="“방화차량기지 이전 및 5호선 연장”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>-&nbsp;지역&nbsp;단절&nbsp;해소<br>-&nbsp;주거&nbsp;및&nbsp;생활&nbsp;환경&nbsp;개선&nbsp;&nbsp;<br>-&nbsp;미래형&nbsp;수변도시&nbsp;조성<br>&nbsp;<br>○&nbsp;이행방법<br>□&nbsp;방화차량기지&nbsp;조기&nbsp;이전&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;5호선&nbsp;김포&nbsp;연장&nbsp;사업과&nbsp;연계하여&nbsp;20,3만㎡&nbsp;규모의&nbsp;방화차량기지를&nbsp;김포로&nbsp;완전&nbsp;이전<br>□&nbsp;“방화&nbsp;한강&nbsp;신도시”&nbsp;전면&nbsp;개발<br>&nbsp;&nbsp;-&nbsp;부지&nbsp;203,000㎡에&nbsp;용적률&nbsp;250~300%를&nbsp;적용하여&nbsp;주거와&nbsp;일자리가&nbsp;공존하는&nbsp;복합&nbsp;도시&nbsp;조성&nbsp;<br>&nbsp;&nbsp;-&nbsp;약&nbsp;1,5만~2만&nbsp;명의&nbsp;인구&nbsp;유입과&nbsp;8천~1만&nbsp;개의&nbsp;신규&nbsp;일자리&nbsp;창출을&nbsp;목표<br>&nbsp;&nbsp;-&nbsp;김포공항&nbsp;도시재생혁신지구&nbsp;종합계획과&nbsp;연계하여&nbsp;공항과&nbsp;한강을&nbsp;품은&nbsp;고품격&nbsp;공항도시&nbsp;완성<br>□&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;-&nbsp;차량기지&nbsp;이전&nbsp;후&nbsp;생기는&nbsp;공간을&nbsp;통해&nbsp;한강&nbsp;생태공원&nbsp;접근성을&nbsp;획기적으로&nbsp;개선하고&nbsp;보행로&nbsp;및&nbsp;안전&nbsp;조명&nbsp;설치&nbsp;&nbsp;<br>&nbsp;<br>○&nbsp;이행기간<br>□&nbsp;지속적&nbsp;행정&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;예비타당성&nbsp;조사&nbsp;통과라는&nbsp;성과를&nbsp;바탕으로,&nbsp;임기&nbsp;내&nbsp;차량기지&nbsp;이전&nbsp;착공&nbsp;및&nbsp;부지&nbsp;개발&nbsp;계획&nbsp;확정을&nbsp;위해&nbsp;총력&nbsp;지원<br>&nbsp;<br>○&nbsp;재원조달방안&nbsp;등<br>□&nbsp;국비&nbsp;및&nbsp;광역&nbsp;교통&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;-&nbsp;5호선&nbsp;김포&nbsp;연장&nbsp;사업의&nbsp;일환으로&nbsp;추진되는&nbsp;만큼&nbsp;국회&nbsp;및&nbsp;중앙정부의&nbsp;전폭적인&nbsp;예산&nbsp;지원&nbsp;확보<br>□&nbsp;민간&nbsp;투자&nbsp;유치<br>&nbsp;&nbsp;-&nbsp;방화&nbsp;한강&nbsp;신도시&nbsp;개발&nbsp;시&nbsp;민간&nbsp;자본을&nbsp;적극&nbsp;유치하여&nbsp;사업의&nbsp;효율성을&nbsp;높이고&nbsp;구&nbsp;재정&nbsp;부담&nbsp;완화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	“가장 접근성 좋은 K-컬처 허브”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="“가장 접근성 좋은 K-컬처 허브”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>-&nbsp;K-컬처&nbsp;글로벌&nbsp;거점&nbsp;구축<br>-&nbsp;공항&nbsp;경제권&nbsp;활성화&nbsp;&nbsp;<br>-&nbsp;지역&nbsp;문화&nbsp;인프라&nbsp;확충<br><br>○&nbsp;이행방법<br>□&nbsp;김포공항&nbsp;인근&nbsp;아레나&nbsp;및&nbsp;복합문화시설&nbsp;건설<br>&nbsp;&nbsp;-&nbsp;전국&nbsp;및&nbsp;동아시아&nbsp;어디서든&nbsp;접근이&nbsp;용이한&nbsp;“트리플&nbsp;교통&nbsp;허브”의&nbsp;이점&nbsp;극대화&nbsp;(도쿄&nbsp;팬&nbsp;3시간,&nbsp;부산&nbsp;팬&nbsp;1시간&nbsp;30분&nbsp;소요)<br>&nbsp;&nbsp;-&nbsp;기존&nbsp;잠실&nbsp;실내체육관이나&nbsp;고척돔&nbsp;대비&nbsp;공항&nbsp;접근성(10분&nbsp;내외)&nbsp;면에서&nbsp;절대적&nbsp;우위를&nbsp;점하는&nbsp;공연&nbsp;시설&nbsp;구축<br>□&nbsp;규제&nbsp;완화&nbsp;및&nbsp;제도적&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;-&nbsp;산악&nbsp;차폐효과(OAS)&nbsp;적용의&nbsp;법적&nbsp;근거를&nbsp;마련하고&nbsp;비항공&nbsp;장애물&nbsp;심의&nbsp;기준을&nbsp;완화하는&nbsp;입법&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;환경,교통영향평가&nbsp;등&nbsp;복잡한&nbsp;절차를&nbsp;단축하기&nbsp;위한&nbsp;‘원스톱&nbsp;인허가&nbsp;특례법’&nbsp;제정&nbsp;건의<br>□&nbsp;부지&nbsp;및&nbsp;인프라&nbsp;협의<br>&nbsp;&nbsp;-&nbsp;공항&nbsp;인접&nbsp;부지&nbsp;확보를&nbsp;위해&nbsp;국토교통부,&nbsp;국방부와&nbsp;긴밀히&nbsp;협의하고&nbsp;특별법을&nbsp;통한&nbsp;용도&nbsp;지정&nbsp;추진&nbsp;&nbsp;<br><br>○&nbsp;이행기간<br>□&nbsp;중장기&nbsp;핵심&nbsp;과제&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;부지&nbsp;확보&nbsp;및&nbsp;예비타당성&nbsp;조사&nbsp;통과를&nbsp;목표로&nbsp;하며,&nbsp;국회&nbsp;및&nbsp;관련&nbsp;부처와의&nbsp;협의를&nbsp;즉시&nbsp;시작하여&nbsp;사업&nbsp;기반&nbsp;구축&nbsp;<br><br>○&nbsp;재원조달방안&nbsp;등<br>□&nbsp;국비&nbsp;확보&nbsp;및&nbsp;예산&nbsp;배정<br>&nbsp;&nbsp;-&nbsp;문화체육관광부와&nbsp;한국관광공사&nbsp;등을&nbsp;통해&nbsp;약&nbsp;2,000억~3,000억&nbsp;원&nbsp;규모의&nbsp;국비를&nbsp;확보할&nbsp;수&nbsp;있도록&nbsp;국회&nbsp;예결위&nbsp;심의에&nbsp;적극&nbsp;대응<br>□&nbsp;민관&nbsp;협력&nbsp;모델<br>&nbsp;&nbsp;-&nbsp;대규모&nbsp;공연&nbsp;시장의&nbsp;성장성(2028년&nbsp;5조&nbsp;원&nbsp;전망)을&nbsp;바탕으로&nbsp;민간&nbsp;자본&nbsp;유치를&nbsp;병행하여&nbsp;사업의&nbsp;안정성&nbsp;확보</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

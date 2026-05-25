@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;조병옥 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	우량기업 투자유치(10조원) 및 양질의 일자리 창출(10,000명)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="우량기업 투자유치(10조원) 및 양질의 일자리 창출(10,000명)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;우량기업&nbsp;10조원의&nbsp;투자유치와&nbsp;10,000개의&nbsp;양질의&nbsp;일자리&nbsp;창출로&nbsp;인해&nbsp;경제&nbsp;성장의&nbsp;선순환&nbsp;구조&nbsp;구축하고&nbsp;산업&nbsp;구조의&nbsp;고도화&nbsp;및&nbsp;청년들이&nbsp;돌아오는&nbsp;음성군을&nbsp;만들겠음<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;투자유치:&nbsp;민선8기&nbsp;성과를&nbsp;뛰어넘는&nbsp;10조원의&nbsp;우량기업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일자리:&nbsp;신사업&nbsp;기반의&nbsp;양질의&nbsp;일자리&nbsp;10,000개&nbsp;창출&nbsp;및&nbsp;고용률&nbsp;도내&nbsp;1위&nbsp;유지<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;핵심가치:&nbsp;에너지·반도체·이차전지&nbsp;등&nbsp;미래&nbsp;먹거리&nbsp;산업&nbsp;선점을&nbsp;통한&nbsp;지역&nbsp;경제&nbsp;규모&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶기업유치→일자리&nbsp;창출→세수증대→인구&nbsp;유입→지역경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;4+1&nbsp;신성산산업&nbsp;육성을&nbsp;통한&nbsp;우량기업&nbsp;투자유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시스템반도체,&nbsp;이차전지,&nbsp;수소&nbsp;등&nbsp;신성장산업&nbsp;적극&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상우산업단지&nbsp;기회발전특구&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;기업&nbsp;맞춤형&nbsp;행정서비&nbsp;제공&nbsp;및&nbsp;산업단지&nbsp;등&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원스톱&nbsp;투자&nbsp;지원,&nbsp;기업&nbsp;애로사항&nbsp;즉각&nbsp;해결&nbsp;등&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;투자유치부터&nbsp;공장&nbsp;착공·준공까지&nbsp;행정적&nbsp;지원&nbsp;완비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업이&nbsp;입주할&nbsp;수&nbsp;있는&nbsp;산업단지&nbsp;적기&nbsp;공급<br>&nbsp;&nbsp;○&nbsp;정주여건&nbsp;개선&nbsp;및&nbsp;투자&nbsp;인센티브&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;투자유치보조금&nbsp;및&nbsp;기업&nbsp;근로자를&nbsp;위한&nbsp;정주여건&nbsp;개선&nbsp;사업&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전략산업별&nbsp;타깃&nbsp;기업&nbsp;선정&nbsp;및&nbsp;투자&nbsp;유치&nbsp;실시<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;산업단지&nbsp;인프라(도로,&nbsp;용수&nbsp;등)는&nbsp;정부예산을&nbsp;통한&nbsp;국도비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;투자유치&nbsp;보조금은&nbsp;「음성군&nbsp;기업&nbsp;및&nbsp;투자유치&nbsp;촉진&nbsp;조례」조례에&nbsp;따라&nbsp;도·군비&nbsp;매칭&nbsp;지급</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	365일 걱정 없는 스마트 안전도시 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="365일 걱정 없는 스마트 안전도시 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;군민의&nbsp;생명과&nbsp;재산을&nbsp;지키는&nbsp;지능형&nbsp;안전망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;비전:&nbsp;사고를&nbsp;미리&nbsp;예측하고,&nbsp;발생&nbsp;시&nbsp;즉각대응하는&nbsp;스마트&nbsp;안전도시&nbsp;건설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원칙:&nbsp;선제적&nbsp;예방,&nbsp;지능형&nbsp;감지,&nbsp;즉각적&nbsp;대응<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[민·관·군·경]&nbsp;협력기반&nbsp;음성군&nbsp;통합&nbsp;재난안전&nbsp;관리&nbsp;체계&nbsp;고도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&#10122음성군&nbsp;재난&nbsp;통합&nbsp;표준&nbsp;매뉴얼&nbsp;제작(군청,&nbsp;소방,&nbsp;경찰,&nbsp;군부대,&nbsp;민간&nbsp;참여)하고&nbsp;실행&nbsp;기반&nbsp;체크리스트&nbsp;도입,&nbsp;&#10123민·관·군·경&nbsp;통합&nbsp;안전&nbsp;거버넌스&nbsp;구축하여&nbsp;재난대응&nbsp;상설&nbsp;협의체&nbsp;운영하고&nbsp;정기적&nbsp;합동&nbsp;훈련&nbsp;실시,&nbsp;&#10124환경안전&nbsp;지도점검&nbsp;체계&nbsp;강화&nbsp;&#10125소규모&nbsp;사업장&nbsp;소방시설&nbsp;설치&nbsp;지원&nbsp;&#10126외국인&nbsp;근로자&nbsp;전용&nbsp;다국어&nbsp;안전&nbsp;매뉴얼&nbsp;보급&nbsp;및&nbsp;교육<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재난&nbsp;예방&nbsp;체계&nbsp;구축&nbsp;및&nbsp;사고&nbsp;대응&nbsp;능력&nbsp;향상과&nbsp;즉각적인&nbsp;초동조치&nbsp;실시<br>&nbsp;&nbsp;○&nbsp;24시간&nbsp;AI&nbsp;재난종합상황실&nbsp;고도화(통합관제센터&nbsp;운영)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;24시간&nbsp;재난종합상황실&nbsp;운영에&nbsp;따른&nbsp;통합관제센터&nbsp;상시모니터링&nbsp;쳬계를&nbsp;구축하며,&nbsp;AI&nbsp;기술을&nbsp;결합한&nbsp;신속한&nbsp;상황&nbsp;보고&nbsp;및&nbsp;전파&nbsp;시간&nbsp;단축,&nbsp;종합&nbsp;상활&nbsp;관리&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지켜보는&nbsp;상황실에서&nbsp;먼저&nbsp;찾아내고&nbsp;대응하는&nbsp;지능형&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재난&nbsp;대응&nbsp;골드타임&nbsp;사수,&nbsp;사회적&nbsp;비용절감(복구비용),&nbsp;24시간&nbsp;군민&nbsp;안전<br>&nbsp;&nbsp;○&nbsp;산업단지&nbsp;맞춤형&nbsp;AI·IoT&nbsp;스마트&nbsp;안전망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후화된&nbsp;산업단지의&nbsp;재난·사고&nbsp;위험을&nbsp;AI와&nbsp;IoT(사물인터넷)&nbsp;기술을&nbsp;활용해&nbsp;실시간으로&nbsp;감시하고,&nbsp;사고&nbsp;발생&nbsp;시&nbsp;골든타임&nbsp;확보와&nbsp;디지털&nbsp;기반의&nbsp;안전관리체계&nbsp;구축&nbsp;필요<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;24시간&nbsp;AI&nbsp;재난종합상황실과&nbsp;연동하여&nbsp;시너지&nbsp;효과<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년&nbsp;연차별&nbsp;고도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026~2027:&nbsp;통합&nbsp;매뉴얼&nbsp;구축&nbsp;및&nbsp;AI&nbsp;상황실&nbsp;하드웨어&nbsp;고도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2028~2029:&nbsp;산업단지&nbsp;등&nbsp;스마트&nbsp;시스템&nbsp;설치&nbsp;등<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;행정안전부&nbsp;스마트안전도시&nbsp;및&nbsp;산업통산자원부&nbsp;노후산업단지&nbsp;기능개선&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후산단&nbsp;및&nbsp;취약지역&nbsp;안전&nbsp;인프라&nbsp;투자&nbsp;집중</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	음성형 기본사회 서비스 지원 확대(음성형 햇빛마을 소득 등)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="음성형 기본사회 서비스 지원 확대(음성형 햇빛마을 소득 등)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;모두의&nbsp;기본권이&nbsp;보장되는&nbsp;자족도시&nbsp;음성&nbsp;건설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;목적:&nbsp;이재명&nbsp;정부의&nbsp;기본사회&nbsp;정책은&nbsp;앞으로&nbsp;AI&nbsp;사회로&nbsp;가기&nbsp;위한&nbsp;필수적인&nbsp;요소가&nbsp;될&nbsp;것임.&nbsp;따라서&nbsp;지방정부에서&nbsp;기본사회에&nbsp;대한&nbsp;정책&nbsp;고민이&nbsp;필요하여&nbsp;나온&nbsp;것이&nbsp;기본서비스임<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;비전:&nbsp;누구나&nbsp;최소한의&nbsp;삶을&nbsp;넘어&nbsp;품격&nbsp;있는&nbsp;삶을&nbsp;누리는&nbsp;'지방&nbsp;행정의&nbsp;새로운&nbsp;표준'<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원칙:&nbsp;보편적&nbsp;권리,&nbsp;경제적&nbsp;순환,&nbsp;에너지&nbsp;기본권&nbsp;등<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;음성형&nbsp;햇빛마을&nbsp;소득&nbsp;도입&nbsp;및&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;각&nbsp;마을에&nbsp;있는&nbsp;유휴토지를&nbsp;활용하여&nbsp;마을&nbsp;태양광&nbsp;발전소를&nbsp;설치하고&nbsp;이를&nbsp;통해&nbsp;발생한&nbsp;수익을&nbsp;마을연금으로&nbsp;마을공동체에서&nbsp;활용하여&nbsp;주민&nbsp;복지&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업량/총사업비:&nbsp;349개&nbsp;전&nbsp;마을&nbsp;/&nbsp;27,920백만원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(마을별&nbsp;80백만원/군비&nbsp;25,158백만원/자담&nbsp;2,792백만원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을공동&nbsp;소유&nbsp;유휴부지&nbsp;및&nbsp;건물에&nbsp;태양광발전소&nbsp;설치&nbsp;지원하여&nbsp;마을&nbsp;공동&nbsp;기금&nbsp;확보로&nbsp;경로당&nbsp;운영비&nbsp;또는&nbsp;주민&nbsp;복지비&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;누구나&nbsp;지출을&nbsp;줄이로&nbsp;삶의&nbsp;질을&nbsp;높이는&nbsp;기본서비스&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2030&nbsp;음성시&nbsp;건설을&nbsp;위해&nbsp;현금&nbsp;지원을&nbsp;통한&nbsp;소득&nbsp;증대가&nbsp;아닌,&nbsp;생활비를&nbsp;줄여주는&nbsp;기본서비를&nbsp;강화하여&nbsp;‘불편함&nbsp;없는&nbsp;일상’을&nbsp;보장하고&nbsp;지역간,&nbsp;세대간,&nbsp;계층간&nbsp;격차&nbsp;해소와&nbsp;생활&nbsp;영역에서&nbsp;실질적인&nbsp;서비스&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶대상포진&nbsp;무료&nbsp;예방접종&nbsp;확대(60세),&nbsp;백일해&nbsp;무료&nbsp;예방접종<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶음성형&nbsp;어르신&nbsp;통합돌봄,&nbsp;노인일자리&nbsp;및&nbsp;사회활동지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶농어촌&nbsp;버스&nbsp;무료화&nbsp;및&nbsp;노선&nbsp;확대,&nbsp;행복택시&nbsp;확대,&nbsp;급행버스&nbsp;노선<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶농작업&nbsp;대행,&nbsp;필수&nbsp;농자재&nbsp;지원&nbsp;확대,&nbsp;농기계&nbsp;임대&nbsp;서비스&nbsp;확대&nbsp;등<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년&nbsp;연차별&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026~2029:&nbsp;연차별&nbsp;음성형&nbsp;햇빛소득마을&nbsp;사업&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026~2030:&nbsp;기본서비스&nbsp;지원&nbsp;확대&nbsp;시행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정부의&nbsp;햇빛소득마을&nbsp;사업과&nbsp;연계&nbsp;및&nbsp;각종&nbsp;공모사업&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지원대상&nbsp;확대&nbsp;사업은&nbsp;세출예산&nbsp;조정을&nbsp;통한&nbsp;예산&nbsp;투입</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	교육발전특별도시 음성 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="교육발전특별도시 음성 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;아이&nbsp;키우기&nbsp;좋고,&nbsp;배움이&nbsp;일자리로&nbsp;이어지는&nbsp;교육&nbsp;도시&nbsp;음성&nbsp;건설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;목적:&nbsp;음성의&nbsp;미래를&nbsp;결정짓는&nbsp;것은&nbsp;교육으로&nbsp;미래&nbsp;세대의&nbsp;꿈을&nbsp;이루는&nbsp;선순환&nbsp;교육&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;비전:&nbsp;지역이&nbsp;함께&nbsp;키우고(Care),&nbsp;지역에서&nbsp;배우며(Learn),&nbsp;지역에&nbsp;정착하는(Stay)&nbsp;교육&nbsp;생태계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원칙:&nbsp;&#10122공백&nbsp;없는&nbsp;늘봄&nbsp;환경&nbsp;조성&nbsp;&#10123지역&nbsp;산업&nbsp;맞춤형&nbsp;인재&nbsp;양성&nbsp;&#10124글로벌&nbsp;창의&nbsp;교육&nbsp;강화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;교육발전특구&nbsp;지정&nbsp;및&nbsp;지역고등학교&nbsp;명문화&nbsp;사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육발전특구&nbsp;시범&nbsp;선도지역&nbsp;고도화&nbsp;및&nbsp;교육발전특구&nbsp;지정으로&nbsp;음성-진천&nbsp;공교육&nbsp;선도&nbsp;모델을&nbsp;구축과&nbsp;음성고의&nbsp;자공고&nbsp;2.0&nbsp;등&nbsp;지역&nbsp;고등학교&nbsp;명문화&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶음성형&nbsp;진로진학&nbsp;전문&nbsp;지원&nbsp;솔루션&nbsp;운영으로&nbsp;입시&nbsp;정보&nbsp;격차를&nbsp;해소하고&nbsp;맞춤형&nbsp;입시&nbsp;컨설팅&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;음성형&nbsp;거점&nbsp;늘봄센터&nbsp;운영&nbsp;및&nbsp;학교-지역사회&nbsp;연계&nbsp;돌봄&nbsp;프로그램&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;음성장학회&nbsp;연계&nbsp;인재&nbsp;양성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;음성장학회&nbsp;연계&nbsp;학력&nbsp;신장&nbsp;프로그램&nbsp;및&nbsp;글로벌&nbsp;리더&nbsp;문화탐방과&nbsp;인재양석&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;음성장학회&nbsp;기능&nbsp;강화로&nbsp;우수대학생&nbsp;특별장학금&nbsp;확대&nbsp;및&nbsp;초중등&nbsp;인재&nbsp;조기&nbsp;발굴&nbsp;등&nbsp;기존의&nbsp;단순&nbsp;지원을&nbsp;넘어&nbsp;인재&nbsp;성장의&nbsp;든든한&nbsp;파트러로&nbsp;역할을&nbsp;재정립<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;군민&nbsp;일만인&nbsp;프로젝트&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전&nbsp;군민&nbsp;AI&nbsp;활용&nbsp;능력&nbsp;향상을&nbsp;위한&nbsp;AI&nbsp;군민&nbsp;일만인&nbsp;프로젝트&nbsp;추진&nbsp;등으로&nbsp;AI&nbsp;인재양성을&nbsp;위한&nbsp;전문&nbsp;교육&nbsp;강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년&nbsp;연차별&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026~2028:&nbsp;교육발전특구&nbsp;지정&nbsp;및&nbsp;지역&nbsp;공교육&nbsp;강화&nbsp;프로그램&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026~2030:&nbsp;음성장학회&nbsp;연계&nbsp;인재&nbsp;양성&nbsp;및&nbsp;AI&nbsp;군민&nbsp;일만인&nbsp;프로젝트&nbsp;연차별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;교육부&nbsp;교육발전특구&nbsp;지정&nbsp;시&nbsp;30~100억원&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;음성장학회&nbsp;성금&nbsp;및&nbsp;군비&nbsp;출연금&nbsp;등&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	청년친화도시 지정(청년인구 비율 5% 확대)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="청년친화도시 지정(청년인구 비율 5% 확대)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청년친화도시&nbsp;지정&nbsp;및&nbsp;청년&nbsp;인구&nbsp;비율&nbsp;5%&nbsp;확대&nbsp;및&nbsp;정착&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;목적:&nbsp;청년친화도시&nbsp;지정으로&nbsp;청년&nbsp;정책을&nbsp;고도화&nbsp;하고&nbsp;청년&nbsp;친화적&nbsp;생태계를&nbsp;조성하여&nbsp;청년&nbsp;인구&nbsp;비율을&nbsp;5%&nbsp;확대를&nbsp;통해&nbsp;지속가능한&nbsp;음성&nbsp;건설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;비전:&nbsp;청년이&nbsp;살고&nbsp;싶고,&nbsp;청년이&nbsp;일하기&nbsp;좋고,&nbsp;청년이&nbsp;즐거운&nbsp;‘청년&nbsp;활력&nbsp;도시&nbsp;음성’<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지표:&nbsp;청년친화도시&nbsp;지정&nbsp;및&nbsp;청년인구&nbsp;비율&nbsp;5%&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청년친화도시&nbsp;지정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;법적근거/지정기간:&nbsp;청년기본법&nbsp;제24조의&nbsp;2&nbsp;/&nbsp;5년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지정주체:&nbsp;국무조정실(중앙청년정책조정위원회&nbsp;심의)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;평가지표:&nbsp;청년참여&nbsp;및&nbsp;거버넌스,&nbsp;청년&nbsp;인프라&nbsp;및&nbsp;커뮤니티&nbsp;구축,&nbsp;청년&nbsp;정책&nbsp;추진&nbsp;체계&nbsp;및&nbsp;역량,&nbsp;지역&nbsp;특화&nbsp;청년&nbsp;사업&nbsp;등<br>&nbsp;&nbsp;○&nbsp;청년인구&nbsp;비율&nbsp;5%&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현재&nbsp;청년&nbsp;인구&nbsp;비율은&nbsp;19.6%로&nbsp;24.6%까지&nbsp;청년&nbsp;인구&nbsp;비율&nbsp;향상&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶꿈을&nbsp;실현하는&nbsp;‘청년&nbsp;일자리·창업’&nbsp;생태계<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶걱정&nbsp;없이&nbsp;머무는&nbsp;‘청년&nbsp;안심&nbsp;주거’&nbsp;안착<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶퇴근&nbsp;후가&nbsp;즐거운&nbsp;‘청년&nbsp;문화·활력’&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(상상대로&nbsp;청년복합문화센터&nbsp;건립/165억원/지상3층/청년&nbsp;전용&nbsp;커뮤니티&nbsp;및&nbsp;자기계발&nbsp;공간&nbsp;등)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년&nbsp;단계적&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026~2030:&nbsp;민선9기&nbsp;내에&nbsp;청년친화도시&nbsp;지정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026~2030:&nbsp;2030년까지&nbsp;청년인구비율&nbsp;5%&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;행정안전부의&nbsp;청년&nbsp;관련&nbsp;공모사업&nbsp;등&nbsp;활용&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일자리&nbsp;및&nbsp;정주여건&nbsp;분야는&nbsp;기존&nbsp;타&nbsp;사업들과&nbsp;중복</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

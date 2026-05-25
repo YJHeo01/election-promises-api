@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김현기 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	강남 재건축 재개발을 임기 내 속도전으로 완성하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="강남 재건축 재개발을 임기 내 속도전으로 완성하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;강남구&nbsp;전역&nbsp;재건축,&nbsp;재개발&nbsp;사업의&nbsp;인허가&nbsp;처리&nbsp;기간&nbsp;단축&nbsp;및&nbsp;신속&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;구청장&nbsp;직속&nbsp;'재건축&nbsp;재개발&nbsp;행정&nbsp;지원&nbsp;조직'&nbsp;신속&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재건축&nbsp;재개발&nbsp;인허가&nbsp;관련&nbsp;행정&nbsp;지원&nbsp;조직&nbsp;운영&nbsp;및&nbsp;전담&nbsp;공무원&nbsp;배치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;단지별&nbsp;전담&nbsp;지원팀&nbsp;배치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후&nbsp;저층&nbsp;주거지&nbsp;고밀&nbsp;재개발&nbsp;적극&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정비구역&nbsp;주거환경&nbsp;고도화&nbsp;및&nbsp;도시&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인허가&nbsp;처리&nbsp;기간&nbsp;임기&nbsp;내&nbsp;대폭&nbsp;단축&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;조합&nbsp;역량&nbsp;강화&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;갈등&nbsp;중재&nbsp;전문가&nbsp;파견,&nbsp;총회&nbsp;운영&nbsp;컨설팅&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;법무·회계&nbsp;전문가&nbsp;매칭&nbsp;서비스&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;구청장&nbsp;직접&nbsp;서울시·국토부&nbsp;협의&nbsp;채널&nbsp;가동<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;종상향·용적률&nbsp;협의&nbsp;필요&nbsp;사업지&nbsp;구청장&nbsp;직접&nbsp;협상&nbsp;참여<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시의회&nbsp;의장&nbsp;재임&nbsp;시&nbsp;구축한&nbsp;정치&nbsp;네트워크&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;재건축&nbsp;초과이익환수제&nbsp;완화,&nbsp;안전진단&nbsp;기준&nbsp;정상화&nbsp;지속&nbsp;건의<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년&nbsp;:&nbsp;취임&nbsp;첫날&nbsp;즉시&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재건축&nbsp;재개발&nbsp;행정&nbsp;지원&nbsp;조직&nbsp;운영&nbsp;:&nbsp;구비<br>&nbsp;&nbsp;○&nbsp;조합&nbsp;전문가&nbsp;지원&nbsp;서비스&nbsp;:&nbsp;구비<br>&nbsp;&nbsp;○&nbsp;서울시·국토부&nbsp;협의·제도&nbsp;개선&nbsp;건의&nbsp;:&nbsp;비예산</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	수서역 환승센터 및 역세권개발과 영동대로 지하화로 강남 미래 성장축을 완성하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="수서역 환승센터 및 역세권개발과 영동대로 지하화로 강남 미래 성장축을 완성하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;수서역&nbsp;광역&nbsp;교통&nbsp;허브&nbsp;복합개발&nbsp;완성&nbsp;및&nbsp;영동대로&nbsp;지하&nbsp;공간&nbsp;개발&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;수서역&nbsp;환승센터&nbsp;및&nbsp;역세권&nbsp;개발&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX-A·3호선·SRT·수광선&nbsp;연계&nbsp;환승&nbsp;허브&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;MICE·주거·첨단산업&nbsp;복합&nbsp;거점&nbsp;조성&nbsp;사업자&nbsp;공모·선정&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수서~경기광주&nbsp;복선전철(수광선)&nbsp;민원&nbsp;조정을&nbsp;위한&nbsp;주민·국토부·코레일·서울시&nbsp;4자&nbsp;협의체&nbsp;구성&nbsp;주도<br>&nbsp;&nbsp;○&nbsp;영동대로&nbsp;지하&nbsp;공간&nbsp;개발&nbsp;구청장&nbsp;직접&nbsp;협의&nbsp;참여<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시·현대차&nbsp;GBC&nbsp;연계&nbsp;교통체계&nbsp;정비&nbsp;계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삼성역&nbsp;일대&nbsp;마이스(MICE)&nbsp;산업&nbsp;클러스터&nbsp;조성&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지하&nbsp;공간&nbsp;조성&nbsp;시&nbsp;편익시설(문화예술,&nbsp;체육&nbsp;등)&nbsp;우선&nbsp;배치&nbsp;요구<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;확보를&nbsp;위한&nbsp;국회&nbsp;예결산&nbsp;채널&nbsp;및&nbsp;정치&nbsp;네트워크&nbsp;적극&nbsp;활용<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년&nbsp;:&nbsp;취임&nbsp;즉시&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;수서역&nbsp;환승&nbsp;복합개발&nbsp;:&nbsp;국비·시비·민간자본<br>&nbsp;&nbsp;○&nbsp;영동대로&nbsp;지하화&nbsp;:&nbsp;시비·공공기여금<br>&nbsp;&nbsp;○&nbsp;협의&nbsp;조정&nbsp;:&nbsp;비예산</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	강남 역차별을 종식하고 구민이 낸 세금을 구민에게 돌려드리겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="강남 역차별을 종식하고 구민이 낸 세금을 구민에게 돌려드리겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;공시가격&nbsp;급등으로&nbsp;폭증한&nbsp;재산세·종부세&nbsp;1주택&nbsp;실거주자&nbsp;부담&nbsp;실질적&nbsp;완화<br>&nbsp;&nbsp;○&nbsp;강남구&nbsp;개발이익인&nbsp;공공기여금&nbsp;역외&nbsp;유출&nbsp;차단<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;공공기여금&nbsp;역차별&nbsp;시정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시에&nbsp;공공기여금&nbsp;운용&nbsp;기준&nbsp;명확화&nbsp;및&nbsp;강남구&nbsp;환원&nbsp;비율&nbsp;확대&nbsp;요구<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강남구&nbsp;기여금으로&nbsp;조성된&nbsp;시설·인프라의&nbsp;강남구민&nbsp;우선&nbsp;활용&nbsp;원칙&nbsp;관철<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공기여금&nbsp;용처&nbsp;전면&nbsp;공개&nbsp;및&nbsp;투명&nbsp;감시&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;구청장&nbsp;권한&nbsp;내&nbsp;즉시&nbsp;조치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재산세&nbsp;분할납부&nbsp;제도&nbsp;적극&nbsp;홍보&nbsp;및&nbsp;신청&nbsp;절차&nbsp;간소화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1주택&nbsp;고령자·저소득층&nbsp;재산세&nbsp;납부유예&nbsp;제도&nbsp;행정&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재산세&nbsp;세입&nbsp;증가분을&nbsp;어르신&nbsp;돌봄·청년&nbsp;주거·생활&nbsp;밀착&nbsp;복지로&nbsp;환류<br>&nbsp;&nbsp;○&nbsp;정부·서울시&nbsp;대상&nbsp;제도&nbsp;개선&nbsp;건의<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공시가격&nbsp;현실화율&nbsp;속도&nbsp;조절&nbsp;촉구<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1주택&nbsp;장기보유&nbsp;실거주자&nbsp;재산세&nbsp;상한&nbsp;제도&nbsp;법제화&nbsp;요구<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재산세&nbsp;공정시장가액비율&nbsp;탄력&nbsp;운용&nbsp;권한&nbsp;자치구&nbsp;위임&nbsp;요구<br>&nbsp;&nbsp;○&nbsp;고세부담&nbsp;자치구(서초·송파·용산&nbsp;등)&nbsp;공동&nbsp;연대&nbsp;건의<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년&nbsp;:&nbsp;취임&nbsp;첫날&nbsp;즉시&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;납부유예·복지&nbsp;환류&nbsp;사업&nbsp;:&nbsp;구비<br>&nbsp;&nbsp;○&nbsp;제도&nbsp;개선&nbsp;건의&nbsp;:&nbsp;비예산</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	강남 경제의 부흥을 이끌어 상권을 살리고 일자리를 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="강남 경제의 부흥을 이끌어 상권을 살리고 일자리를 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;강남&nbsp;상권&nbsp;활성화&nbsp;및&nbsp;미래&nbsp;산업&nbsp;생태계&nbsp;조성으로&nbsp;지역&nbsp;경제&nbsp;부흥<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;침체&nbsp;상권&nbsp;부활&nbsp;프로젝트<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;논현·신사·역삼&nbsp;등&nbsp;공실&nbsp;증가&nbsp;상권&nbsp;맞춤형&nbsp;활성화&nbsp;계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강남구&nbsp;상권&nbsp;빅데이터&nbsp;분석&nbsp;기반&nbsp;업종&nbsp;다양화·유망&nbsp;업종&nbsp;유치&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;착한&nbsp;임대인&nbsp;인센티브&nbsp;제도&nbsp;확대&nbsp;및&nbsp;소상공인&nbsp;임대료&nbsp;경감&nbsp;협약&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;나이트타임&nbsp;이코노미(야간&nbsp;경제)&nbsp;활성화&nbsp;특화거리&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;테헤란로&nbsp;벤처·스타트업&nbsp;생태계&nbsp;복원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·바이오·로봇&nbsp;스타트업&nbsp;유치를&nbsp;위한&nbsp;계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;빈&nbsp;오피스·상가&nbsp;활용&nbsp;저렴한&nbsp;창업&nbsp;공간&nbsp;공급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;투자자·창업가&nbsp;연결&nbsp;강남형&nbsp;매칭&nbsp;플랫폼&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강남구&nbsp;소재&nbsp;대기업·중견기업과&nbsp;스타트업&nbsp;상생&nbsp;협력&nbsp;프로그램&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;전통시장·소상공인&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전통시장&nbsp;시설&nbsp;현대화&nbsp;및&nbsp;온라인&nbsp;판로&nbsp;개척&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;디지털&nbsp;전환(배달·예약&nbsp;플랫폼)&nbsp;교육·컨설팅&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;경영&nbsp;위기&nbsp;시&nbsp;긴급&nbsp;자금&nbsp;연계&nbsp;지원&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;MICE·관광&nbsp;경제&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현대차&nbsp;GBC·코엑스·잠실&nbsp;MICE&nbsp;단지&nbsp;연계&nbsp;강남&nbsp;관광&nbsp;패키지&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강남구&nbsp;외국인&nbsp;관광객&nbsp;유치&nbsp;마케팅&nbsp;강화(K뷰티·K푸드·K팝&nbsp;등&nbsp;연계)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강남구&nbsp;특화&nbsp;축제·문화&nbsp;이벤트&nbsp;연중&nbsp;운영으로&nbsp;유동인구&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년&nbsp;:&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;상권&nbsp;활성화&nbsp;사업&nbsp;:&nbsp;시비·구비<br>&nbsp;&nbsp;○&nbsp;창업&nbsp;생태계&nbsp;지원&nbsp;:&nbsp;국비·시비·구비·민간자본<br>&nbsp;&nbsp;○&nbsp;전통시장&nbsp;현대화&nbsp;:&nbsp;국비·시비·구비<br>&nbsp;&nbsp;○&nbsp;MICE·관광&nbsp;마케팅&nbsp;:&nbsp;시비·구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	강남이 책임지는 평생 복지 구축과 경쟁력 있는 인재를 양성하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="강남이 책임지는 평생 복지 구축과 경쟁력 있는 인재를 양성하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;어르신·청년·아동·장애인&nbsp;등&nbsp;세대별&nbsp;맞춤&nbsp;복지&nbsp;및&nbsp;지원&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;공교육&nbsp;경쟁력&nbsp;강화&nbsp;및&nbsp;노후&nbsp;학교&nbsp;시설&nbsp;개선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;복지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동별&nbsp;어르신&nbsp;전용&nbsp;건강·문화&nbsp;복합센터&nbsp;단계적&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1인&nbsp;고령&nbsp;가구&nbsp;IoT&nbsp;안전&nbsp;모니터링&nbsp;시스템&nbsp;및&nbsp;치매·노인돌봄&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경로당&nbsp;리모델링&nbsp;및&nbsp;시설&nbsp;현대화&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강남구&nbsp;청년&nbsp;주거&nbsp;지원&nbsp;프로그램&nbsp;신설(청년&nbsp;전세&nbsp;이자&nbsp;지원&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;창업&nbsp;지원&nbsp;공간&nbsp;및&nbsp;투자&nbsp;매칭&nbsp;플랫폼&nbsp;및&nbsp;멘토링&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;아동·보육<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국공립&nbsp;공동육아&nbsp;어린이집&nbsp;확충&nbsp;및&nbsp;리모델링&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;맞벌이&nbsp;가정&nbsp;대상&nbsp;긴급&nbsp;돌봄&nbsp;서비스&nbsp;24시간&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;장애인·사회적&nbsp;약자<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애&nbsp;유형별&nbsp;맞춤형&nbsp;서비스&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복지&nbsp;사각지대&nbsp;발굴을&nbsp;위한&nbsp;촘촘한&nbsp;모니터링&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;기초학력&nbsp;보장&nbsp;및&nbsp;학습&nbsp;격차&nbsp;해소와&nbsp;시설&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;책&nbsp;읽는&nbsp;학교&nbsp;및&nbsp;문해력·수리력&nbsp;평가학교&nbsp;교육예산&nbsp;우선&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방과&nbsp;후&nbsp;돌봄·학습&nbsp;통합&nbsp;프로그램&nbsp;운영&nbsp;시간&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학교&nbsp;시설&nbsp;개선&nbsp;사업&nbsp;구비&nbsp;지원&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년&nbsp;:&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;복지&nbsp;:&nbsp;국비·시비·구비<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;주거·창업&nbsp;지원&nbsp;:&nbsp;국비·시비·구비<br>&nbsp;&nbsp;○&nbsp;아동·보육&nbsp;:&nbsp;국비·시비·구비<br>&nbsp;&nbsp;○&nbsp;기초학력&nbsp;보장&nbsp;및&nbsp;학습격차&nbsp;해소&nbsp;및&nbsp;시설&nbsp;개선&nbsp;:&nbsp;시비·구비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

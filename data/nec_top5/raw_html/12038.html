@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;한현구 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	뇌과학 기반의 생애주기별 뇌교육 도입</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="뇌과학 기반의 생애주기별 뇌교육 도입">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;뇌과학이&nbsp;밝혀낸&nbsp;두뇌의&nbsp;구조와&nbsp;기능&nbsp;및&nbsp;뇌가소성을&nbsp;기반으로&nbsp;하는&nbsp;생애주기별&nbsp;뇌교육&nbsp;도입&nbsp;(※&nbsp;뇌가소성&nbsp;:&nbsp;뇌가&nbsp;일생&nbsp;동안&nbsp;자극,&nbsp;경험,&nbsp;학습&nbsp;등에&nbsp;의해&nbsp;구조적·기능적으로&nbsp;변화하고&nbsp;재조직화되는&nbsp;성질)<br>&nbsp;&nbsp;○&nbsp;유아&nbsp;두뇌발달(전뇌ㆍ중뇌ㆍ후뇌의&nbsp;고른&nbsp;발달,&nbsp;기초사고력)과&nbsp;아동청소년&nbsp;두뇌&nbsp;훈련(주의·집중·감정조절),&nbsp;성인&nbsp;역량계발(마인드컨트롤,&nbsp;업무능력&nbsp;향상)&nbsp;및&nbsp;중장년&nbsp;치매&nbsp;예방(신체·정서·인지)을&nbsp;도와&nbsp;자기&nbsp;주도적인&nbsp;삶을&nbsp;영위하도록&nbsp;함&nbsp;&nbsp;&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;뇌교육&nbsp;프로그램&nbsp;운영&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;운영&nbsp;장소&nbsp;:&nbsp;태교랜드,&nbsp;어린이집,&nbsp;유치원,&nbsp;학교,&nbsp;학습관,&nbsp;보건소,&nbsp;도서관&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강&nbsp;사&nbsp;진&nbsp;:&nbsp;뇌교육&nbsp;전문가(뇌교육지도사,&nbsp;브레인트레이너,&nbsp;뇌교육학&nbsp;전공자외)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;프로그램&nbsp;:&nbsp;태교,&nbsp;유아뇌교육,&nbsp;방과후&nbsp;과정,&nbsp;성인&nbsp;뇌교육,&nbsp;치매예방교육&nbsp;등<br>&nbsp;&nbsp;○&nbsp;뇌교육&nbsp;축제((Brain&nbsp;Festival)&nbsp;개최<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;헹사&nbsp;개요&nbsp;:&nbsp;매년&nbsp;1회(5일&nbsp;정도),&nbsp;청주예술의전당&nbsp;일원,&nbsp;가을(9~11월)에&nbsp;개최<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;축제&nbsp;내용&nbsp;:&nbsp;뇌전문가와&nbsp;상담,&nbsp;뇌체조&nbsp;체험,&nbsp;각종&nbsp;공연,&nbsp;두뇌&nbsp;강좌,&nbsp;학술회&nbsp;등&nbsp;<br>&nbsp;&nbsp;○&nbsp;관내&nbsp;대학교의&nbsp;뇌교육학&nbsp;관련&nbsp;과목&nbsp;도입&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인공지능이&nbsp;중시됨에&nbsp;따라&nbsp;사람이&nbsp;가진&nbsp;뇌(자연지능)의&nbsp;소중함이&nbsp;높아짐<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;뇌교육학과&nbsp;관련한&nbsp;교양&nbsp;과목&nbsp;도입을&nbsp;위한&nbsp;협의&nbsp;진행&nbsp;및&nbsp;지원&nbsp;&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;뇌교육&nbsp;프로그램&nbsp;운영&nbsp;및&nbsp;뇌교육&nbsp;축제&nbsp;:&nbsp;2026년&nbsp;~&nbsp;2030년(4년간)<br>&nbsp;&nbsp;○&nbsp;대학교내&nbsp;뇌교육학&nbsp;관련&nbsp;교양과목&nbsp;도입&nbsp;지원&nbsp;:&nbsp;2년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;사업비&nbsp;전액&nbsp;시비로&nbsp;조달(18억원&nbsp;예상)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시청내&nbsp;뇌교육진흥과&nbsp;신설&nbsp;:&nbsp;5억&nbsp;4천만(9명,&nbsp;인건비)&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;뇌교육&nbsp;프로그램&nbsp;운영&nbsp;:&nbsp;1억&nbsp;6천만(20개소,&nbsp;40주,&nbsp;4시간,&nbsp;50,000원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;뇌교육&nbsp;축제&nbsp;개최&nbsp;:&nbsp;2억(5일,&nbsp;4천만원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;뇌교육학&nbsp;관련&nbsp;교양과목&nbsp;도입&nbsp;:&nbsp;9억(3개대학,&nbsp;3과목,&nbsp;5천만,&nbsp;2년)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	전통과 문화가 숨쉬는 제2한국민속촌 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="전통과 문화가 숨쉬는 제2한국민속촌 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;사업일반<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;위치와&nbsp;규모&nbsp;:&nbsp;청원구&nbsp;오창읍(신평리&nbsp;일원),&nbsp;부지&nbsp;25만평,&nbsp;건물&nbsp;150채<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업비&nbsp;및&nbsp;추진기간&nbsp;:&nbsp;2,750억원(부지&nbsp;1,250억,&nbsp;건물&nbsp;1,500억),&nbsp;9~13년<br>&nbsp;&nbsp;○&nbsp;사업목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민을&nbsp;비롯한&nbsp;타지인,&nbsp;외국인이&nbsp;즐겨찾는&nbsp;전통과&nbsp;문화가&nbsp;숨쉬는&nbsp;공간&nbsp;창조<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;K-전통문화의&nbsp;산실로&nbsp;국내외&nbsp;영화,&nbsp;드라마,&nbsp;작품&nbsp;등의&nbsp;활동&nbsp;및&nbsp;촬영지로&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;공공주도형&nbsp;민관합동&nbsp;개발(SPC)&nbsp;방식으로&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청주시가&nbsp;부지&nbsp;일부나&nbsp;인허가를&nbsp;출자(행정적&nbsp;권한과&nbsp;사업권을&nbsp;가치로&nbsp;환산하여&nbsp;사업에&nbsp;참여)하고,&nbsp;민간이&nbsp;자금을&nbsp;조달하는&nbsp;특수목적&nbsp;법인을&nbsp;설립하여&nbsp;사업&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;법적&nbsp;근거&nbsp;및&nbsp;입지&nbsp;검토(제도적&nbsp;접근)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광진흥법에&nbsp;의한&nbsp;관광단지&nbsp;지정&nbsp;:&nbsp;시도지사,&nbsp;환경부,&nbsp;국토부,&nbsp;문체부&nbsp;등과&nbsp;사전&nbsp;협의하여&nbsp;지정,&nbsp;관계&nbsp;세제&nbsp;혜택과&nbsp;인허가&nbsp;의제&nbsp;규정&nbsp;적용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시계획시설(문화시설)&nbsp;결정&nbsp;:&nbsp;국토의&nbsp;계획&nbsp;및&nbsp;이용에&nbsp;관한&nbsp;법률에&nbsp;따라&nbsp;해당&nbsp;부지를&nbsp;문화시설로&nbsp;지정,&nbsp;개발행위&nbsp;근거&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화재보호법&nbsp;검토&nbsp;:&nbsp;사전&nbsp;지표조사를&nbsp;통해&nbsp;문화재&nbsp;보존구역과의&nbsp;간섭여부&nbsp;확인<br>&nbsp;&nbsp;○&nbsp;주요&nbsp;행정&nbsp;절차<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;타당성&nbsp;조사&nbsp;:시설&nbsp;규모,&nbsp;도입시설(한옥촌,&nbsp;공연장,&nbsp;체험관&nbsp;등)&nbsp;결정,&nbsp;청주시&nbsp;자체의&nbsp;정책적&nbsp;타당성&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙정부&nbsp;심사(핵심&nbsp;단계)&nbsp;:&nbsp;지방재정&nbsp;중앙투자심사,&nbsp;예비타당성&nbsp;조사<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인허가&nbsp;및&nbsp;용도변경&nbsp;:&nbsp;도시관리계획&nbsp;결정(변경),&nbsp;환경·재해·교통&nbsp;영향평가&nbsp;&nbsp;&nbsp;&nbsp;<br><br>□&nbsp;이행기간(9~13년)&nbsp;<br>&nbsp;&nbsp;○&nbsp;기본구상&nbsp;및&nbsp;타당성&nbsp;조사용역,&nbsp;중앙부처&nbsp;심사&nbsp;및&nbsp;인허가,&nbsp;관광단지&nbsp;지정,&nbsp;보상,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;설계,&nbsp;착공,&nbsp;준공<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;(국&nbsp;30%&nbsp;:&nbsp;시도&nbsp;10%&nbsp;:&nbsp;시&nbsp;30%&nbsp;:&nbsp;민간&nbsp;30%)<br>&nbsp;&nbsp;○&nbsp;사업비&nbsp;2,750억원(국비&nbsp;825억&nbsp;시도비&nbsp;275억,&nbsp;시비&nbsp;825억,&nbsp;민간&nbsp;825억)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	자연과 휴식이 함께 하는 시민대공원 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="자연과 휴식이 함께 하는 시민대공원 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;사업일반&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;위치와&nbsp;규모&nbsp;:&nbsp;상당구&nbsp;가덕면&nbsp;일원,&nbsp;부지&nbsp;30만평(1㎢)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업비&nbsp;및&nbsp;사업기간&nbsp;:&nbsp;3천억(부지&nbsp;1500억,&nbsp;시설&nbsp;1500억),&nbsp;10~17년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업&nbsp;내용&nbsp;:&nbsp;천문대,&nbsp;습지공원,&nbsp;놀이공원,&nbsp;동식물원,&nbsp;야구장&nbsp;등&nbsp;<br>&nbsp;&nbsp;○&nbsp;사업목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자연,&nbsp;휴식,&nbsp;놀이를&nbsp;테마로&nbsp;지역주민을&nbsp;비롯한&nbsp;중부권을&nbsp;겨냥한&nbsp;대공원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시설의&nbsp;일부를&nbsp;수익&nbsp;사업으로&nbsp;운영하여&nbsp;관리&nbsp;비용&nbsp;회수<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;(시)타당성&nbsp;조사,&nbsp;기본계획&nbsp;수립,&nbsp;중앙투자심사,&nbsp;기획예산처&nbsp;심사(1~3년)<br>&nbsp;&nbsp;○&nbsp;도시계획시설&nbsp;결정,&nbsp;환경·교통&nbsp;영향평가,&nbsp;기본설계&nbsp;및&nbsp;실시설계(2~3년)<br>&nbsp;&nbsp;○&nbsp;토지&nbsp;및&nbsp;지장물&nbsp;보상(2~4년)<br>&nbsp;&nbsp;○&nbsp;기반시설,&nbsp;조경,&nbsp;건축물&nbsp;공사,&nbsp;단계별&nbsp;개장(5~7년)<br><br>□&nbsp;이행기간(10~17년)<br>&nbsp;&nbsp;○&nbsp;타당서&nbsp;조사,&nbsp;기본계획,&nbsp;중앙행정기관&nbsp;심사,&nbsp;도시계획시설&nbsp;결정,&nbsp;각종&nbsp;영향평가,&nbsp;설계,&nbsp;보상,&nbsp;기반시설,&nbsp;공사,&nbsp;개장<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;확보(보조금)&nbsp;:&nbsp;도시공원은&nbsp;원칙적으로&nbsp;지자체의&nbsp;사무로,&nbsp;국가정원&nbsp;지정(산림청)을&nbsp;받거나&nbsp;특정&nbsp;공모&nbsp;사업(도시재생,&nbsp;생태복원&nbsp;등)과&nbsp;연계하여&nbsp;국비&nbsp;일부&nbsp;지원을&nbsp;이끌어냄<br>&nbsp;&nbsp;○&nbsp;지방정원으로&nbsp;조성한&nbsp;뒤&nbsp;실적을&nbsp;쌓아&nbsp;국가정원으로&nbsp;지정받는&nbsp;것이&nbsp;전국적인&nbsp;추세(예:&nbsp;울산&nbsp;태화강)이므로,&nbsp;차후&nbsp;승격에&nbsp;힘써&nbsp;시설&nbsp;확충시&nbsp;국비&nbsp;지원&nbsp;이끌어냄<br>&nbsp;&nbsp;○&nbsp;지방비(잠정적으로&nbsp;지자체&nbsp;예산으로&nbsp;사업비&nbsp;전액&nbsp;조달)&nbsp;:&nbsp;3000억(시도비&nbsp;900억,&nbsp;시비&nbsp;2100억)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	LG그룹의 반도체 사업 부활·지역 유치 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="LG그룹의 반도체 사업 부활·지역 유치 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;사업일반<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;위치와&nbsp;규모&nbsp;:&nbsp;서원구&nbsp;성화개신죽림동&nbsp;일원,&nbsp;부지&nbsp;1만평<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업비&nbsp;및&nbsp;추진기간:&nbsp;6.5조원(부지&nbsp;2백억,&nbsp;시설비&nbsp;5.5조),&nbsp;5~8년<br>&nbsp;&nbsp;○&nbsp;사업목표<br>&nbsp;&nbsp;&nbsp;-&nbsp;2개&nbsp;클린룸&nbsp;건설&nbsp;및&nbsp;등급&nbsp;유지,&nbsp;가스·케미컬·초순수&nbsp;등&nbsp;공급&nbsp;장치(1조)<br>&nbsp;&nbsp;&nbsp;-&nbsp;8인치&nbsp;라인&nbsp;1개&nbsp;구축(1조),&nbsp;12인치&nbsp;레거시&nbsp;라인&nbsp;1개(4.5조)&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;8인치&nbsp;라인&nbsp;:&nbsp;100nm,&nbsp;12인치&nbsp;라인&nbsp;:&nbsp;28nm&nbsp;이상&nbsp;성숙&nbsp;공정)<br>&nbsp;&nbsp;&nbsp;-&nbsp;범용&nbsp;반도체&nbsp;국내&nbsp;생산으로&nbsp;세&nbsp;마리&nbsp;토끼&nbsp;잡기(수급,&nbsp;산업,&nbsp;안보)&nbsp;&nbsp;<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청주시의&nbsp;타당성&nbsp;검토&nbsp;및&nbsp;LG그룹(LG전자)와&nbsp;사전&nbsp;협의로&nbsp;반도체&nbsp;생산&nbsp;의사&nbsp;타진&nbsp;<br>&nbsp;&nbsp;○&nbsp;삼성전자,&nbsp;SK하이닉스,&nbsp;LG전자,&nbsp;청주시,&nbsp;충청북도&nbsp;간&nbsp;대화&nbsp;및&nbsp;협력&nbsp;방안&nbsp;마련<br>&nbsp;&nbsp;&nbsp;-&nbsp;청주시와&nbsp;3개사&nbsp;사이&nbsp;범용&nbsp;반도체&nbsp;생산에&nbsp;관한&nbsp;MOU&nbsp;체결&nbsp;<br>&nbsp;&nbsp;&nbsp;-&nbsp;SK하이닉스와&nbsp;삼성전자에서&nbsp;기술&nbsp;제공,&nbsp;LG전자에서&nbsp;반도체&nbsp;공장&nbsp;건설<br>&nbsp;&nbsp;○&nbsp;3사간&nbsp;긴밀한&nbsp;협업&nbsp;아래&nbsp;LG의&nbsp;반도체&nbsp;사업&nbsp;착수&nbsp;및&nbsp;생산<br>&nbsp;&nbsp;&nbsp;-&nbsp;인허가&nbsp;및&nbsp;부지&nbsp;확보(2~4년)&nbsp;:&nbsp;산업단지&nbsp;지정,&nbsp;용수&nbsp;및&nbsp;전력&nbsp;공급&nbsp;협의,&nbsp;보상<br>&nbsp;&nbsp;&nbsp;-&nbsp;기반공사,&nbsp;공장&nbsp;건축(1.5~2년)&nbsp;:&nbsp;기반공사,&nbsp;팹(Fab)&nbsp;건물,&nbsp;클린룸&nbsp;및&nbsp;설비&nbsp;배관<br>&nbsp;&nbsp;&nbsp;-&nbsp;장비&nbsp;반입&nbsp;및&nbsp;셋업(0.5~1년)&nbsp;:&nbsp;노광기&nbsp;등&nbsp;핵심공정&nbsp;장비&nbsp;설치,&nbsp;시운전&nbsp;및&nbsp;테스트<br>&nbsp;&nbsp;&nbsp;-&nbsp;양산&nbsp;승인&nbsp;및&nbsp;가동(1년)&nbsp;:&nbsp;수율확보,&nbsp;고객사&nbsp;품질인증&nbsp;<br>&nbsp;&nbsp;○&nbsp;패스트트랙(행정절차&nbsp;간소화)&nbsp;적용&nbsp;노력&nbsp;:&nbsp;전체&nbsp;기간&nbsp;수년&nbsp;앞당기기&nbsp;&nbsp;<br><br>□&nbsp;이행기간&nbsp;:&nbsp;5년~8년<br>&nbsp;&nbsp;&nbsp;-&nbsp;인허가부터&nbsp;양산&nbsp;승인&nbsp;및&nbsp;가동까지<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정부의&nbsp;보조금&nbsp;지원&nbsp;및&nbsp;세액공제&nbsp;혜택&nbsp;보기(K-반도체&nbsp;전략,&nbsp;지원액&nbsp;미정)<br>&nbsp;&nbsp;○&nbsp;LG전자를&nbsp;비롯한&nbsp;LG그룹에서&nbsp;출연&nbsp;등&nbsp;자체&nbsp;사업비(5.5조원)로&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	삼성 과학기술대학교 설립 및 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="삼성 과학기술대학교 설립 및 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;사업일반&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;위치&nbsp;및&nbsp;규모&nbsp;:&nbsp;흥덕구&nbsp;옥산면&nbsp;일원,&nbsp;캠퍼스&nbsp;부지&nbsp;33만평<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업비&nbsp;및&nbsp;추진기간&nbsp;:&nbsp;2조&nbsp;1,650억(토지&nbsp;1,650억&nbsp;시설&nbsp;2조원),&nbsp;7~10년<br>&nbsp;&nbsp;○&nbsp;사업목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;오송&nbsp;바이오산업단지와&nbsp;오창&nbsp;과학산업단지가&nbsp;좌우에&nbsp;위치한&nbsp;요지에&nbsp;유수한&nbsp;과학기술대학을&nbsp;유치,&nbsp;설립함으로써&nbsp;유능한&nbsp;인재의&nbsp;배출&nbsp;및&nbsp;공급&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업소,&nbsp;연구소,&nbsp;대학&nbsp;등이&nbsp;함께&nbsp;첨단&nbsp;기술을&nbsp;연구·개발하여&nbsp;시너지&nbsp;효과&nbsp;거양<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청주시에서&nbsp;삼성그룹(삼성전자&nbsp;포함)과&nbsp;접촉하여,&nbsp;그룹(기업)의&nbsp;백년대계와&nbsp;함께&nbsp;국내외적인&nbsp;기업&nbsp;이미지를&nbsp;확고히&nbsp;할&nbsp;수&nbsp;있다는&nbsp;당위성을&nbsp;펴서&nbsp;설립,&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;삼성에서&nbsp;법인&nbsp;설립&nbsp;및&nbsp;계획&nbsp;수립(1~2년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학교법인&nbsp;설립&nbsp;:&nbsp;대학을&nbsp;운영할&nbsp;주체(비영리&nbsp;학교법인)를&nbsp;구성하고&nbsp;출연자산&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학&nbsp;설립계획서&nbsp;제출&nbsp;:&nbsp;교육부에&nbsp;대학의&nbsp;명칭,&nbsp;위치,&nbsp;학과,&nbsp;정원,&nbsp;교수&nbsp;및&nbsp;건물&nbsp;확보&nbsp;계획&nbsp;등을&nbsp;담은&nbsp;계획서&nbsp;제출<br>&nbsp;&nbsp;○&nbsp;부지확보&nbsp;및&nbsp;인허가(2~3년)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시계획시설&nbsp;결정&nbsp;:&nbsp;옥산면의&nbsp;특정부지를&nbsp;‘학교용지’로&nbsp;변경하기&nbsp;위한&nbsp;도시&nbsp;관리계획&nbsp;결정&nbsp;절차(청주시와&nbsp;충청북도&nbsp;협의)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학교&nbsp;부지에&nbsp;대한&nbsp;환경·교통·재해&nbsp;등&nbsp;영향&nbsp;평가<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;토지&nbsp;매입&nbsp;:&nbsp;사유지에&nbsp;대한&nbsp;보상&nbsp;및&nbsp;협의&nbsp;진행,&nbsp;국공유지·공공택지의&nbsp;경우&nbsp;분양&nbsp;절차에&nbsp;따름<br>&nbsp;&nbsp;○&nbsp;대학설립심사위원회&nbsp;심의&nbsp;및&nbsp;착공(2~4년)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;설립심사&nbsp;:&nbsp;교육부&nbsp;산하&nbsp;‘대학설립심사위원회’에서&nbsp;교사,&nbsp;교지,&nbsp;교원,&nbsp;수익용&nbsp;기본&nbsp;재산&nbsp;등&nbsp;4대&nbsp;요건&nbsp;충족&nbsp;여부&nbsp;확인<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건축허가&nbsp;및&nbsp;공사&nbsp;:&nbsp;캠퍼스&nbsp;건축공사&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;설립인가&nbsp;및&nbsp;개교(1년)&nbsp;&nbsp;<br><br>□&nbsp;이행기간&nbsp;:&nbsp;7년~10년<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;:<br>&nbsp;&nbsp;○&nbsp;비영리법인&nbsp;사립대학교&nbsp;설립으로&nbsp;자체적으로&nbsp;재원&nbsp;확보(2조원&nbsp;1,650억)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김광명 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	남구청 재개발촉진센터 신설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="남구청 재개발촉진센터 신설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;재개발·재건축&nbsp;사업&nbsp;속도&nbsp;단축으로&nbsp;주거환경&nbsp;개선&nbsp;가속화<br>&nbsp;&nbsp;○&nbsp;분산된&nbsp;행정&nbsp;기능&nbsp;통합으로&nbsp;원스톱&nbsp;민원처리&nbsp;및&nbsp;의사결정&nbsp;<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;갈등&nbsp;해소&nbsp;및&nbsp;사업&nbsp;지연&nbsp;리스크&nbsp;최소화<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;구청&nbsp;내&nbsp;기능&nbsp;통합&nbsp;및&nbsp;(가칭)재개발촉진센터&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;내부&nbsp;인력&nbsp;재배치&nbsp;및&nbsp;실무형&nbsp;팀&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;사업별&nbsp;담당&nbsp;관리자(PM)&nbsp;지정,&nbsp;도시정비,&nbsp;건축,&nbsp;교통&nbsp;등&nbsp;각종&nbsp;민원&nbsp;대응&nbsp;원스톱&nbsp;처리<br>&nbsp;&nbsp;○&nbsp;사업성&nbsp;분석,&nbsp;인허가&nbsp;패스트트랙,&nbsp;갈등&nbsp;조정,&nbsp;금융컨설팅&nbsp;등&nbsp;진행<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;3개월&nbsp;이내&nbsp;조직&nbsp;신설&nbsp;및&nbsp;임기&nbsp;중&nbsp;지속&nbsp;운영&nbsp;예정<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;인력&nbsp;재배치로&nbsp;신규&nbsp;예산&nbsp;편성&nbsp;불필요<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일부&nbsp;외부&nbsp;자문&nbsp;비용은&nbsp;구청&nbsp;예산으로&nbsp;해결</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	부산항선 트램 조속 착공, 오륙도SK뷰까지 지선 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="부산항선 트램 조속 착공, 오륙도SK뷰까지 지선 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;문현역을&nbsp;기점으로&nbsp;우암,&nbsp;감만,&nbsp;용당,&nbsp;용호동을&nbsp;거쳐,&nbsp;부경대까지&nbsp;연결되는&nbsp;부산항선&nbsp;트램&nbsp;조속한&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;부산항선&nbsp;지선을&nbsp;용당동에서&nbsp;오륙도SK뷰아파트&nbsp;까지&nbsp;연결,&nbsp;사업성을&nbsp;확보하여&nbsp;오륙도&nbsp;트램을&nbsp;넘어서는&nbsp;남구의&nbsp;교통&nbsp;혁신&nbsp;추진(노선도:&nbsp;용당동~오륙도SK뷰&nbsp;아파트)<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;제2차&nbsp;도시철도망&nbsp;구축&nbsp;트램&nbsp;1순위&nbsp;선정,&nbsp;부산항선&nbsp;트램에&nbsp;대해&nbsp;국토부,&nbsp;부산시&nbsp;등과&nbsp;조속한&nbsp;협의&nbsp;및&nbsp;착공&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;부산항선&nbsp;트램&nbsp;노선&nbsp;중&nbsp;용당동에서&nbsp;오륙도SK뷰&nbsp;아파트까지&nbsp;지선&nbsp;확장&nbsp;추진&nbsp;및&nbsp;사업성&nbsp;검토·확보(현재&nbsp;부산항선&nbsp;트램&nbsp;B/C&nbsp;0.893)&nbsp;<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;연내&nbsp;연구용역&nbsp;및&nbsp;사업성&nbsp;확보&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;부산시ㆍ국토부&nbsp;철도망구축계획&nbsp;변경&nbsp;반영<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;지원&nbsp;및&nbsp;시비&nbsp;매칭</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	금융자사고 조속 착공, 임기 내 개교</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="금융자사고 조속 착공, 임기 내 개교">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;치열한&nbsp;경쟁&nbsp;끝에&nbsp;2025년에&nbsp;유치한&nbsp;금융자율형사립고등학교(금융자사고)의&nbsp;조속한&nbsp;착공&nbsp;및&nbsp;임기&nbsp;내&nbsp;개교<br>&nbsp;&nbsp;○&nbsp;남구를&nbsp;교육·금융&nbsp;특화&nbsp;거점으로&nbsp;육성하며,&nbsp;글로벌&nbsp;금융&nbsp;인재를&nbsp;육성하며&nbsp;지역&nbsp;정주&nbsp;여건&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;문현금융단지와&nbsp;연계한&nbsp;산학연계&nbsp;교육생태계&nbsp;구축&nbsp;통하&nbsp;남구의&nbsp;지역&nbsp;가치&nbsp;및&nbsp;도시&nbsp;브랜드&nbsp;상승<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;시작&nbsp;즉시&nbsp;구청의&nbsp;전담&nbsp;TF&nbsp;조직과&nbsp;협의체를&nbsp;신설,&nbsp;조속한&nbsp;행정&nbsp;처리&nbsp;통한&nbsp;빠른&nbsp;착공과&nbsp;개교&nbsp;준비<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;의견&nbsp;최우선&nbsp;청취&nbsp;및&nbsp;교육청&nbsp;및&nbsp;부산시,&nbsp;중앙정부&nbsp;등과&nbsp;긴밀하게&nbsp;소통하며&nbsp;논란과&nbsp;잡음&nbsp;없는&nbsp;절차&nbsp;진행<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(취임&nbsp;6개월~1년):&nbsp;조속한&nbsp;착공과&nbsp;개교&nbsp;추진&nbsp;위한&nbsp;TF&nbsp;및&nbsp;협의체&nbsp;구성,&nbsp;주민&nbsp;의견&nbsp;청취,&nbsp;유관기관&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;중장기(1년~4년):&nbsp;조속한&nbsp;인허가&nbsp;실시&nbsp;등&nbsp;행정&nbsp;협조&nbsp;및&nbsp;주민&nbsp;의견&nbsp;청취&nbsp;통한&nbsp;조속한&nbsp;개교&nbsp;완료<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;한국거래소(KRX)&nbsp;예산&nbsp;예정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	권역별 수요응답형 교통수단 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="권역별 수요응답형 교통수단 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;대동골,&nbsp;용호동,&nbsp;문현동&nbsp;언덕길&nbsp;등&nbsp;대중교통&nbsp;부족&nbsp;지역&nbsp;및&nbsp;경사지&nbsp;거주민&nbsp;대상&nbsp;수요응답형&nbsp;버스‘(가칭)콜버스’추진<br>&nbsp;&nbsp;○&nbsp;대중교통&nbsp;사각지대&nbsp;해소&nbsp;및&nbsp;노령층&nbsp;등&nbsp;교통&nbsp;약자&nbsp;생활&nbsp;이동&nbsp;편의&nbsp;개선으로&nbsp;주민&nbsp;이동권&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;저수요&nbsp;노선&nbsp;비효율&nbsp;해소&nbsp;및&nbsp;맞춤형&nbsp;교통체계&nbsp;확충<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;대중교통&nbsp;미운행·저빈도&nbsp;지역&nbsp;중심&nbsp;권역&nbsp;설정<br>&nbsp;&nbsp;○&nbsp;모바일&nbsp;앱·전화&nbsp;호출&nbsp;기반&nbsp;탄력&nbsp;운행<br>&nbsp;&nbsp;○&nbsp;경사지·노약자&nbsp;밀집&nbsp;지역&nbsp;우선&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;플랫폼·운수사&nbsp;협업&nbsp;방식으로&nbsp;시범사업&nbsp;이후&nbsp;성과&nbsp;기반&nbsp;단계적&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(취임&nbsp;3~6개월):&nbsp;대상&nbsp;지역&nbsp;선정,&nbsp;운영모델&nbsp;설계,&nbsp;시범구역&nbsp;1~2곳&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;중기(1~2년):&nbsp;데이터&nbsp;기반&nbsp;노선&nbsp;최적화,&nbsp;이용률·만족도&nbsp;평가<br>&nbsp;&nbsp;○&nbsp;장기(2~4년)&nbsp;남구&nbsp;교통&nbsp;취약지역&nbsp;대상&nbsp;노선&nbsp;확대<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;마을버스·저수요&nbsp;노선&nbsp;운영보조금&nbsp;재배분&nbsp;및&nbsp;국토교통부,&nbsp;부산광역시&nbsp;교통정책&nbsp;연계&nbsp;재정&nbsp;지원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	맞춤형 365 의료·돌봄·생활편의 제공 및 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="맞춤형 365 의료·돌봄·생활편의 제공 및 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;간호사·영양사&nbsp;등&nbsp;전문가들의&nbsp;찾아가는&nbsp;건강검진&nbsp;및&nbsp;상담&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;복지관,&nbsp;경로당&nbsp;등에&nbsp;대한&nbsp;전문가&nbsp;정기적&nbsp;방문,&nbsp;검진&nbsp;및&nbsp;상담&nbsp;<br>&nbsp;&nbsp;○&nbsp;방문&nbsp;검진,&nbsp;건강관리,&nbsp;가사지원&nbsp;등&nbsp;노환·장애·질병&nbsp;어르신&nbsp;대상&nbsp;통합&nbsp;돌봄&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;가정&nbsp;전문가&nbsp;방문&nbsp;통한&nbsp;산모ㆍ신생아&nbsp;건강점검&nbsp;<br>&nbsp;&nbsp;○&nbsp;이른둥이&nbsp;등&nbsp;고위험군&nbsp;영유아&nbsp;만2세까지&nbsp;월별&nbsp;발달&nbsp;상담&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;어린이집,&nbsp;유치원&nbsp;식판세척&nbsp;등&nbsp;부대지원&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;스포츠&nbsp;융복합(메포츠)&nbsp;건강관리&nbsp;지원<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;의료&nbsp;및&nbsp;돌봄&nbsp;관련&nbsp;주민의견&nbsp;청취&nbsp;및&nbsp;맞춤&nbsp;돌봄&nbsp;시스템&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;간호사,&nbsp;사회복지사&nbsp;등&nbsp;권역별&nbsp;돌봄인력&nbsp;혼합&nbsp;인력반&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;건강·소득·고립도&nbsp;기준&nbsp;대상자&nbsp;선정해&nbsp;정기&nbsp;방문&nbsp;및&nbsp;즉시&nbsp;출동<br>&nbsp;&nbsp;○&nbsp;구청과&nbsp;지역&nbsp;병·의원,&nbsp;약국,&nbsp;돌봄기관과&nbsp;네트워크형&nbsp;협업&nbsp;및&nbsp;자원봉사·민간&nbsp;돌봄&nbsp;연계로&nbsp;공백&nbsp;최소화<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(취임&nbsp;3개월):&nbsp;시범&nbsp;권역&nbsp;선정,&nbsp;전담팀&nbsp;구성,&nbsp;대상자&nbsp;1차&nbsp;발굴&nbsp;<br>&nbsp;&nbsp;○&nbsp;중기(1~2년):&nbsp;대상자&nbsp;확대&nbsp;및&nbsp;정기&nbsp;방문&nbsp;체계&nbsp;정착,&nbsp;고위험군&nbsp;집중관리<br>&nbsp;&nbsp;○&nbsp;장기&nbsp;(2~4년):&nbsp;상시&nbsp;365&nbsp;운영&nbsp;체계&nbsp;완성,&nbsp;지역&nbsp;돌봄&nbsp;체계&nbsp;고도화<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;보건소&nbsp;및&nbsp;돌봄사업&nbsp;예산&nbsp;통합&nbsp;운용&nbsp;및&nbsp;보건복지부·부산광역시&nbsp;협업&nbsp;매칭&nbsp;사업&nbsp;활용</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김회수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	화순군민연금 - 6만 군민에게 평생 월 50만 원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="화순군민연금 - 6만 군민에게 평생 월 50만 원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;화순군이&nbsp;직접&nbsp;출자&nbsp;·&nbsp;운영하는&nbsp;「화순축산공사」&nbsp;설립&nbsp;→&nbsp;친환경&nbsp;양돈&nbsp;·&nbsp;산란계&nbsp;사업&nbsp;공공&nbsp;모델로&nbsp;운영&nbsp;,&nbsp;발생&nbsp;수익을&nbsp;6만&nbsp;군민&nbsp;전원에게&nbsp;평생&nbsp;월&nbsp;50만&nbsp;원(축산단지&nbsp;인근&nbsp;60만&nbsp;원)&nbsp;연금으로&nbsp;배분<br>-&nbsp;대한민국&nbsp;최초&nbsp;「기본소득형&nbsp;군민배당」&nbsp;모델&nbsp;정립&nbsp;-&nbsp;인구&nbsp;유입&nbsp;·&nbsp;지방소멸&nbsp;위기&nbsp;정면&nbsp;대응<br>○&nbsp;2027.&nbsp;9&nbsp;.&nbsp;산란계&nbsp;사육밀도&nbsp;기준&nbsp;강화에&nbsp;따른&nbsp;국가&nbsp;식량안보&nbsp;공백을&nbsp;화순이&nbsp;정먼&nbsp;충당<br>-&nbsp;화순을&nbsp;국가&nbsp;식량기지&nbsp;거점으로&nbsp;격상&nbsp;,&nbsp;정부&nbsp;지원&nbsp;명분&nbsp;확보<br>□&nbsp;이&nbsp;행&nbsp;방&nbsp;법&nbsp;<br>○&nbsp;두&nbsp;법인&nbsp;분리&nbsp;운영&nbsp;(위험&nbsp;·&nbsp;분배&nbsp;분리）<br>-「화순축산공사」(지방출자출연법&nbsp;§&nbsp;5&nbsp;,&nbsp;자본금&nbsp;3,&nbsp;000억)&nbsp;:&nbsp;모돈&nbsp;6만&nbsp;두&nbsp;+&nbsp;산란계&nbsp;1,&nbsp;000만&nbsp;수&nbsp;운영&nbsp;,&nbsp;사업&nbsp;리스크&nbsp;전담<br>-「군민연금조합」（협동조합기본법&nbsp;,&nbsp;출자금&nbsp;1만&nbsp;원/&nbsp;1좌)&nbsp;:&nbsp;수익&nbsp;수령&nbsp;·&nbsp;배분&nbsp;전담,&nbsp;1인&nbsp;1표&nbsp;민주적&nbsp;운영<br>○&nbsp;친환경&nbsp;첨단&nbsp;시설&nbsp;-&nbsp;악취&nbsp;ZERO&nbsp;+&nbsp;환경자산화<br>-&nbsp;100%&nbsp;밀폐형&nbsp;자동화&nbsp;축사&nbsp;+&nbsp;다단계&nbsp;탈취&nbsp;+&nbsp;Al&nbsp;환기&nbsp;/&nbsp;메탄가스&nbsp;발전&nbsp;연&nbsp;1.&nbsp;2억&nbsp;kWh&nbsp;/&nbsp;폐수&nbsp;정화&nbsp;일&nbsp;4,&nbsp;000톤&nbsp;/&nbsp;고품질&nbsp;퇴비&nbsp;군내&nbsp;농가&nbsp;시중가&nbsp;절반&nbsp;공급<br>○&nbsp;3단계&nbsp;위기&nbsp;대응(주의&nbsp;·&nbsp;경고&nbsp;·&nbsp;위기)&nbsp;정관&nbsp;명시&nbsp;+&nbsp;연금안정기금&nbsp;적립(월&nbsp;잉여&nbsp;50억&nbsp;→&nbsp;6개월∼1년치&nbsp;1,&nbsp;800∼3,&nbsp;600억&nbsp;비축）<br>□&nbsp;이&nbsp;행&nbsp;기&nbsp;간<br>○&nbsp;2026.&nbsp;7&nbsp;.&nbsp;취임&nbsp;즉시&nbsp;:&nbsp;국가축산클러스터&nbsp;「식량기지」&nbsp;지정&nbsp;신청&nbsp;+&nbsp;군의회&nbsp;조례&nbsp;의결&nbsp;+&nbsp;지방채&nbsp;1,&nbsp;000억&nbsp;발행&nbsp;의결<br>○&nbsp;2026&nbsp;하반기&nbsp;:&nbsp;축산공사&nbsp;·&nbsp;연금조합&nbsp;설립,&nbsp;부지&nbsp;매입,&nbsp;환경영향평가,&nbsp;주민&nbsp;동의&nbsp;절차<br>○&nbsp;2027-&nbsp;2028&nbsp;:&nbsp;1단계&nbsp;착공&nbsp;→&nbsp;가동(산란계&nbsp;500만&nbsp;수）→&nbsp;1만&nbsp;5천&nbsp;명&nbsp;연금&nbsp;개시&nbsp;/&nbsp;2단계&nbsp;동시&nbsp;착공<br>○&nbsp;2029-&nbsp;2030&nbsp;:&nbsp;자쳬&nbsp;PF&nbsp;1.5조&nbsp;조달&nbsp;→&nbsp;양돈&nbsp;모돈&nbsp;6만&nbsp;두&nbsp;단지&nbsp;완성<br>○&nbsp;2031~&nbsp;:&nbsp;6만&nbsp;군민&nbsp;전원&nbsp;평생&nbsp;연금&nbsp;본격&nbsp;지급&nbsp;/&nbsp;잉여금&nbsp;연&nbsp;2,&nbsp;000억＋&nbsp;자쳬&nbsp;사업&nbsp;·&nbsp;복지&nbsp;재투자<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;1차(최선)&nbsp;:&nbsp;국가축산클러스터&nbsp;식량기지&nbsp;지정&nbsp;→&nbsp;1.&nbsp;8조&nbsp;전액&nbsp;국비&nbsp;(지정&nbsp;시&nbsp;2-&nbsp;3년&nbsp;내전&nbsp;군민&nbsp;연금&nbsp;가능）<br>○&nbsp;2차&nbsp;(확실)&nbsp;:&nbsp;군&nbsp;지방채&nbsp;1,&nbsp;000억&nbsp;(군의회&nbsp;의결&nbsp;,&nbsp;행안부&nbsp;승인&nbsp;불필요)&nbsp;+&nbsp;통합특별시&nbsp;특별재정&nbsp;2,&nbsp;000억&nbsp;+&nbsp;축산공사&nbsp;자쳬&nbsp;PF&nbsp;1.&nbsp;5조<br>○&nbsp;군&nbsp;직접&nbsp;부채는&nbsp;1,&nbsp;000억뿐&nbsp;-&nbsp;SPC차입은&nbsp;독립법인&nbsp;차입으로&nbsp;군&nbsp;부채&nbsp;미산입(지방재&nbsp;정법&nbsp;미적용&nbsp;·&nbsp;채무보증&nbsp;無）</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	호남권 최대 복합 관광 · 문화단지 유치 - 민간투자 8,000억, 직접고용 5,00명</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="호남권 최대 복합 관광 · 문화단지 유치 - 민간투자 8,000억, 직접고용 5,00명">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;테마파크&nbsp;+&nbsp;리조트&nbsp;호텔&nbsp;（500실）&nbsp;+&nbsp;프리미엄&nbsp;아울렛&nbsp;（200개＋&nbsp;브랜드）&nbsp;+&nbsp;멀티플렉스&nbsp;시네마&nbsp;15개관&nbsp;+&nbsp;공연장&nbsp;5개관&nbsp;결합&nbsp;호남권&nbsp;최대&nbsp;복합&nbsp;관광&nbsp;·&nbsp;문화단지&nbsp;유치<br>-&nbsp;전남&nbsp;최초&nbsp;·&nbsp;유일&nbsp;대형&nbsp;테마파크&nbsp;-&nbsp;쾅주&nbsp;·&nbsp;전남&nbsp;·&nbsp;전북&nbsp;합산&nbsp;500만&nbsp;+&nbsp;무안국제공항&nbsp;외국인&nbsp;관광객&nbsp;유입<br>○&nbsp;직접고용&nbsp;5,&nbsp;000명＋&nbsp;（군민&nbsp;우선&nbsp;채용）&nbsp;-&nbsp;화순&nbsp;역사상&nbsp;최대&nbsp;일자리&nbsp;창출&nbsp;사업<br>-&nbsp;고인돌&nbsp;（유네스코)&nbsp;·&nbsp;적벽&nbsp;·&nbsp;도곡온천과&nbsp;결합한&nbsp;「화순&nbsp;관쾅&nbsp;3종&nbsp;세트」&nbsp;패키지&nbsp;상품화<br>□&nbsp;이&nbsp;행&nbsp;방&nbsp;법<br>○&nbsp;부지&nbsp;「올인&nbsp;패키지」&nbsp;무상&nbsp;공급<br>-&nbsp;군이&nbsp;농지&nbsp;10만&nbsp;평을&nbsp;300억에&nbsp;매입&nbsp;→&nbsp;통합특별시&nbsp;특별법&nbsp;§&nbsp;164&nbsp;투자진흥지구&nbsp;+§&nbsp;368&nbsp;관광특구&nbsp;동시&nbsp;지정<br>-&nbsp;§&nbsp;157&nbsp;인허가&nbsp;의제(농지전용&nbsp;·&nbsp;용도변경&nbsp;·&nbsp;건축허가&nbsp;등&nbsp;40여&nbsp;건&nbsp;일괄),&nbsp;§&nbsp;162&nbsp;부담금&nbsp;감경&nbsp;·&nbsp;면제&nbsp;→&nbsp;1년&nbsp;내&nbsp;대지&nbsp;전환<br>-&nbsp;약정&nbsp;이행&nbsp;시&nbsp;무상&nbsp;공급,&nbsp;미이행&nbsp;시&nbsp;환수&nbsp;조항(군민&nbsp;세금&nbsp;보호）<br>○&nbsp;인프라&nbsp;일괄&nbsp;정비&nbsp;:&nbsp;단지&nbsp;진입&nbsp;4차로&nbsp;100억&nbsp;+&nbsp;상하수도&nbsp;100억&nbsp;+&nbsp;5.&nbsp;000대&nbsp;주차장&nbsp;100억<br>○&nbsp;문화향유&nbsp;보조&nbsp;·.&nbsp;영화&nbsp;·&nbsp;공연&nbsp;관람료&nbsp;1만&nbsp;5천&nbsp;원&nbsp;중&nbsp;6천&nbsp;원&nbsp;군&nbsp;지원(연&nbsp;250만&nbsp;명&nbsp;×6천&nbsp;원&nbsp;=&nbsp;150억)&nbsp;→&nbsp;연&nbsp;750억＋&nbsp;지역소비<br>○&nbsp;군수&nbsp;직속&nbsp;「전담&nbsp;추진단」&nbsp;구성&nbsp;-&nbsp;인허가&nbsp;원스톱(기존&nbsp;2-&nbsp;3년&nbsp;→&nbsp;1년&nbsp;이내）<br>□&nbsp;이&nbsp;행&nbsp;기&nbsp;간<br>○2026.&nbsp;7.&nbsp;취임&nbsp;즉시&nbsp;:&nbsp;전담&nbsp;추진단&nbsp;구성,&nbsp;통합특별시와&nbsp;투자진흥지구&nbsp;·&nbsp;관광특구&nbsp;협의착수<br>○&nbsp;2026&nbsp;하반기&nbsp;:&nbsp;농지&nbsp;10만&nbsp;평&nbsp;매입,&nbsp;군의회&nbsp;지방채&nbsp;200억&nbsp;의결,&nbsp;운영사&nbsp;JR<br>○&nbsp;2027&nbsp;:&nbsp;지구&nbsp;지정&nbsp;확정,&nbsp;인허가&nbsp;의제&nbsp;처리,&nbsp;부지&nbsp;조성&nbsp;착공<br>○&nbsp;2028-&nbsp;2029&nbsp;:&nbsp;인프라&nbsp;완공&nbsp;,&nbsp;부지&nbsp;무상&nbsp;공급&nbsp;,&nbsp;6대&nbsp;시설&nbsp;단계적&nbsp;착공<br>○&nbsp;2030~&nbsp;:&nbsp;시네마&nbsp;.&nbsp;공연장&nbsp;·&nbsp;아울렛&nbsp;우선&nbsp;개관&nbsp;→&nbsp;테마파크&nbsp;·&nbsp;호텔&nbsp;순차&nbsp;개관&nbsp;(연&nbsp;300만&nbsp;방문&nbsp;/&nbsp;연&nbsp;7,&nbsp;000억＋&nbsp;파급）<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;민간&nbsp;투자금&nbsp;8,&nbsp;000억&nbsp;-&nbsp;테마파크&nbsp;·&nbsp;호텔&nbsp;·&nbsp;아울렛&nbsp;·&nbsp;시네마&nbsp;운영사&nbsp;자체&nbsp;자본(군&nbsp;부담&nbsp;無）<br>○&nbsp;군&nbsp;투입&nbsp;600억&nbsp;:&nbsp;군&nbsp;지방채&nbsp;200억(부지&nbsp;100&nbsp;+&nbsp;인프라&nbsp;100)&nbsp;+&nbsp;통합특별시&nbsp;특별재정&nbsp;400억(특별법&nbsp;§54&nbsp;·&nbsp;56)<br>○&nbsp;문화향유&nbsp;보조&nbsp;연&nbsp;150억&nbsp;:&nbsp;특별법&nbsp;§365&nbsp;관광진흥개발기금&nbsp;+&nbsp;§&nbsp;390&nbsp;문화&nbsp;.&nbsp;관광인프라&nbsp;활용,&nbsp;250만&nbsp;관광객&nbsp;유입에&nbsp;따른&nbsp;지방세입&nbsp;증가로&nbsp;자체&nbsp;충당</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	사우스랜드(Southland) - 능주면 대한민국 최대 스마트팜 단치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="사우스랜드(Southland) - 능주면 대한민국 최대 스마트팜 단치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;능주면에&nbsp;유리온실&nbsp;50동(건평&nbsp;10만&nbsp;평）&nbsp;+&nbsp;배후&nbsp;복합시설&nbsp;10만&nbsp;평&nbsp;-&nbsp;전국&nbsp;단일&nbsp;단지&nbsp;최대&nbsp;규모&nbsp;스마트팜&nbsp;복합단지<br>○&nbsp;관내&nbsp;6개&nbsp;농협&nbsp;（화순&nbsp;·&nbsp;능주&nbsp;·&nbsp;도곡&nbsp;·&nbsp;이양&nbsp;·&nbsp;동복&nbsp;·&nbsp;한천）&nbsp;에&nbsp;온실&nbsp;전용&nbsp;구역&nbsp;공정&nbsp;분배<br>→&nbsp;「우리&nbsp;농협&nbsp;사업」&nbsp;으로&nbsp;농가소득&nbsp;2배<br>○&nbsp;청년&nbsp;농부&nbsp;250명&nbsp;（온실&nbsp;1동당&nbsp;5명）&nbsp;유입&nbsp;→&nbsp;청년&nbsp;·&nbsp;인구&nbsp;·&nbsp;능업&nbsp;3중&nbsp;효과<br>○&nbsp;바닐라&nbsp;·&nbsp;와사비&nbsp;·&nbsp;사프란&nbsp;·&nbsp;수경삼&nbsp;등&nbsp;「화순에서만&nbsp;나는&nbsp;것」&nbsp;으로&nbsp;대한민국&nbsp;농업혁신의&nbsp;표준&nbsp;정립<br>□&nbsp;이&nbsp;행&nbsp;방&nbsp;법<br>○&nbsp;스마트&nbsp;유리온실&nbsp;50동&nbsp;（1동&nbsp;2,&nbsp;000평&nbsp;×&nbsp;50동）&nbsp;-IoT&nbsp;자동&nbsp;제어&nbsp;+&nbsp;네덜란드식&nbsp;하와이어&nbsp;시스템(노지&nbsp;대비&nbsp;5-&nbsp;10배&nbsp;수확）<br>○&nbsp;50동&nbsp;6대&nbsp;권역&nbsp;작목&nbsp;배치&nbsp;→&nbsp;연&nbsp;매출&nbsp;485억＋<br>-A&nbsp;과채류&nbsp;.&nbsp;딸기&nbsp;/&nbsp;B&nbsp;프리미엄&nbsp;과일&nbsp;/&nbsp;C&nbsp;엽채&nbsp;·&nbsp;허브&nbsp;/&nbsp;D&nbsp;절화&nbsp;.&nbsp;화훼&nbsp;/&nbsp;E&nbsp;특수&nbsp;희소작목&nbsp;/&nbsp;FK-&nbsp;채소&nbsp;·&nbsp;약용<br>○&nbsp;배후&nbsp;10만&nbsp;평&nbsp;복합시설<br>「온실&nbsp;예식장」(절화&nbsp;5동&nbsp;활용,&nbsp;월&nbsp;150회&nbsp;·&nbsp;연&nbsp;60만&nbsp;명）&nbsp;-&nbsp;전국&nbsp;유일&nbsp;사계절&nbsp;꽃밭&nbsp;결혼식<br>-&nbsp;통합&nbsp;로컬푸드&nbsp;매장&nbsp;+&nbsp;팜투테이블&nbsp;레스토랑&nbsp;·&nbsp;카페&nbsp;+&nbsp;농산물&nbsp;가공&nbsp;공방<br>-&nbsp;라이브&nbsp;커머스&nbsp;스튜디오&nbsp;3개소&nbsp;+&nbsp;5,&nbsp;000평&nbsp;컨벤션센터&nbsp;+&nbsp;스마트팜&nbsp;견학로(MICE&nbsp;·&nbsp;교육관광&nbsp;동시&nbsp;도시）<br>□&nbsp;이&nbsp;행&nbsp;기&nbsp;간<br>○&nbsp;2026&nbsp;하반기&nbsp;:&nbsp;농식품부&nbsp;스마트팜&nbsp;혁신사업&nbsp;국비&nbsp;신청,&nbsp;통합특별시&nbsp;특별재정&nbsp;신청,&nbsp;6개&nbsp;농협&nbsp;협약,&nbsp;능주면&nbsp;부지&nbsp;확보<br>○&nbsp;2027&nbsp;:&nbsp;1단계&nbsp;부지조성&nbsp;+&nbsp;온실&nbsp;10동&nbsp;착공,&nbsp;청년&nbsp;농부&nbsp;1차&nbsp;모집&nbsp;50명,&nbsp;운영조합&nbsp;구성<br>○&nbsp;2028-&nbsp;2029&nbsp;:&nbsp;2-&nbsp;3단계&nbsp;30동&nbsp;추가&nbsp;착공&nbsp;,&nbsp;배후&nbsp;복합시설&nbsp;단계적&nbsp;개관&nbsp;,&nbsp;청년&nbsp;농부&nbsp;누적&nbsp;150명<br>○&nbsp;2030&nbsp;:&nbsp;50동&nbsp;전&nbsp;동&nbsp;가동&nbsp;,&nbsp;컨벤션센터&nbsp;·&nbsp;견학로&nbsp;개관&nbsp;,&nbsp;청년&nbsp;농부&nbsp;250명&nbsp;정원&nbsp;도달<br>○&nbsp;2031~&nbsp;:&nbsp;연&nbsp;매출&nbsp;485억&nbsp;안착,&nbsp;농가소득&nbsp;2배,&nbsp;연&nbsp;60만&nbsp;명&nbsp;방문&nbsp;-&nbsp;능주면&nbsp;농업혁신메카<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비&nbsp;1,&nbsp;050억(70%)&nbsp;-&nbsp;농식품부&nbsp;스마트팜&nbsp;혁신사업&nbsp;보조<br>○&nbsp;통합특별시비&nbsp;225억(15%)&nbsp;-&nbsp;2026.&nbsp;7.&nbsp;1&nbsp;.&nbsp;출범&nbsp;통합특별시&nbsp;특별재정(특별법&nbsp;§54&nbsp;·&nbsp;56)<br>○&nbsp;군비&nbsp;225억(15%&nbsp;)&nbsp;-&nbsp;지방채&nbsp;+&nbsp;자체&nbsp;재원&nbsp;/&nbsp;합계&nbsp;1,&nbsp;500억&nbsp;（5년）&nbsp;-&nbsp;매출&nbsp;발생&nbsp;후&nbsp;5년&nbsp;내&nbsp;군&nbsp;투입&nbsp;자체&nbsp;회수</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	화순읍 도심 인프라 3대 대개조 - 주차장 · 빛의 거리 · 전선 지중화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="화순읍 도심 인프라 3대 대개조 - 주차장 · 빛의 거리 · 전선 지중화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;공영주차장&nbsp;30개소&nbsp;3,&nbsp;000대&nbsp;+&nbsp;전기차&nbsp;충전&nbsp;인프라&nbsp;-&nbsp;「화순&nbsp;주차&nbsp;치옥」&nbsp;SNS&nbsp;오명&nbsp;종식<br>○&nbsp;핵심&nbsp;3개&nbsp;도로&nbsp;4.&nbsp;5km&nbsp;（만연로&nbsp;·&nbsp;광덕로&nbsp;·&nbsp;중앙로）&nbsp;에&nbsp;파리&nbsp;샹젤리제급&nbsp;트리&nbsp;조명&nbsp;+LED&nbsp;5,&nbsp;000기&nbsp;·&nbsp;솔라&nbsp;1,&nbsp;000기&nbsp;-&nbsp;어둠&nbsp;사각지대&nbsp;완전&nbsp;해소<br>○&nbsp;4.&nbsp;5km&nbsp;전선&nbsp;지중화로&nbsp;거미줄&nbsp;전선&nbsp;·&nbsp;전봇대&nbsp;제거&nbsp;→&nbsp;「하늘이&nbsp;보이는&nbsp;도시」&nbsp;완성<br>○&nbsp;3대&nbsp;사업&nbsp;시너지(차를&nbsp;세우고&nbsp;→&nbsp;걸어서&nbsp;즐기고&nbsp;→하늘까지&nbsp;아름다운）&nbsp;--&nbsp;야간경제&nbsp;활성화&nbsp;·&nbsp;보행안전&nbsp;·&nbsp;상권&nbsp;부활<br>○&nbsp;총&nbsp;460억&nbsp;중&nbsp;군비&nbsp;부담&nbsp;26%&nbsp;(120억）-&nbsp;한전&nbsp;50억&nbsp;+&nbsp;통합특별시비&nbsp;290억&nbsp;확보&nbsp;구조<br>□&nbsp;이&nbsp;행&nbsp;방&nbsp;법<br>○&nbsp;Part&nbsp;A&nbsp;주차장&nbsp;:&nbsp;지상&nbsp;20개소(2,&nbsp;000대）&nbsp;+&nbsp;입쳬&nbsp;10개소&nbsp;（1,&nbsp;000대）&nbsp;+&nbsp;전&nbsp;주차장&nbsp;전기차충전기&nbsp;+&nbsp;야간조명&nbsp;·&nbsp;CCTV(특별법&nbsp;§&nbsp;137)<br>-&nbsp;민간&nbsp;유휴&nbsp;토지&nbsp;주차장&nbsp;전환&nbsp;시&nbsp;재산세&nbsp;감면&nbsp;인센티브<br>○&nbsp;Part&nbsp;B&nbsp;빛의&nbsp;거리&nbsp;:&nbsp;만연로(1.&nbsp;4km)&nbsp;+&nbsp;광덕로(1.4km)&nbsp;+&nbsp;중앙로(1.&nbsp;7km)&nbsp;트리&nbsp;조명&nbsp;+LED&nbsp;5.&nbsp;000기/&nbsp;솔라&nbsp;1,&nbsp;000기&nbsp;+&nbsp;스마트&nbsp;가로등(CPTED&nbsp;적용）<br>-「밝은&nbsp;마을&nbsp;만들기」&nbsp;주민&nbsp;신청제&nbsp;-&nbsp;어두운&nbsp;마을&nbsp;·&nbsp;골목&nbsp;직접&nbsp;신청&nbsp;→&nbsp;군이&nbsp;현장&nbsp;조사&nbsp;후&nbsp;설치<br>○&nbsp;Part&nbsp;C&nbsp;전선&nbsp;지중화&nbsp;4.5km&nbsp;전&nbsp;구간&nbsp;전력&nbsp;·&nbsp;통신&nbsp;·&nbsp;CATY&nbsp;관로&nbsp;매설&nbsp;+&nbsp;전봇대&nbsp;철거<br>-&nbsp;Part&nbsp;B와&nbsp;동시&nbsp;시공&nbsp;→&nbsp;도로&nbsp;굴착&nbsp;1회로&nbsp;비용&nbsp;·&nbsp;민원&nbsp;절감&nbsp;+&nbsp;트리조명&nbsp;경관&nbsp;완성도&nbsp;극대화<br>○&nbsp;특별법&nbsp;활용&nbsp;:&nbsp;§&nbsp;57&nbsp;균형발전기금&nbsp;,&nbsp;§&nbsp;119&nbsp;도로사업&nbsp;,&nbsp;§&nbsp;351&nbsp;문화지구&nbsp;,&nbsp;§&nbsp;365&nbsp;관광진흥기금&nbsp;,&nbsp;§389&nbsp;낙후지역,&nbsp;§390&nbsp;문화관광인프라<br>□&nbsp;이&nbsp;행&nbsp;기&nbsp;간<br>○&nbsp;2026&nbsp;하반기&nbsp;:&nbsp;전담&nbsp;TF&nbsp;구성,&nbsp;부지&nbsp;확보&nbsp;·&nbsp;설계&nbsp;용역,&nbsp;한전&nbsp;·&nbsp;통합특별시&nbsp;협의<br>○&nbsp;2027&nbsp;:&nbsp;Part&nbsp;A&nbsp;주차장&nbsp;10개소&nbsp;착공&nbsp;,&nbsp;가로등&nbsp;2,&nbsp;500+&nbsp;500기&nbsp;설치&nbsp;,&nbsp;빛의&nbsp;거리&nbsp;1단계(만연로）+&nbsp;동시&nbsp;지중화<br>○&nbsp;2028&nbsp;:&nbsp;주차장&nbsp;누적&nbsp;20개소,&nbsp;가로등&nbsp;누적&nbsp;5,&nbsp;000+&nbsp;1,&nbsp;000기,&nbsp;광덕로&nbsp;+&nbsp;동시&nbsp;지중화<br>○&nbsp;2029&nbsp;:&nbsp;주차장&nbsp;30개소&nbsp;·&nbsp;전기차&nbsp;충전&nbsp;전면&nbsp;가동&nbsp;,&nbsp;중앙로&nbsp;+&nbsp;지중화&nbsp;→&nbsp;4.&nbsp;5km&nbsp;지중화&nbsp;완공<br>○&nbsp;2030&nbsp;:&nbsp;3대&nbsp;사업&nbsp;전면&nbsp;완료&nbsp;-&nbsp;「주차+빛+&nbsp;하늘」&nbsp;완결형&nbsp;도심<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;Part&nbsp;A&nbsp;주차장&nbsp;·&nbsp;전기차&nbsp;충전&nbsp;200억&nbsp;（통합특별시비&nbsp;150&nbsp;+&nbsp;군비&nbsp;50)<br>○&nbsp;Part&nbsp;B&nbsp;빛의&nbsp;거리&nbsp;·&nbsp;가로등&nbsp;160억&nbsp;（통합특별시비&nbsp;100[균형발전&nbsp;30＋&nbsp;관광진흥&nbsp;20＋&nbsp;일반50]&nbsp;+&nbsp;군비&nbsp;60)<br>○&nbsp;Part&nbsp;C&nbsp;전선&nbsp;지중화&nbsp;100억&nbsp;(한전&nbsp;50&nbsp;+&nbsp;통합특별시비&nbsp;40&nbsp;+&nbsp;군비&nbsp;10)&nbsp;/&nbsp;합계&nbsp;460억&nbsp;-&nbsp;군비&nbsp;26%&nbsp;최소&nbsp;부담</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	사람 중심 행정혁신과 안전한 화순 - 공무원과 함께하는 군민</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="사람 중심 행정혁신과 안전한 화순 - 공무원과 함께하는 군민">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;「공무원&nbsp;보호센터」&nbsp;+&nbsp;「악성민원&nbsp;3진&nbsp;아읏제」&nbsp;-&nbsp;공무원&nbsp;안전&nbsp;+&nbsp;민원행정&nbsp;품질동시&nbsp;향상<br>○&nbsp;「화순형&nbsp;재난관리&nbsp;앱」&nbsp;-&nbsp;재난&nbsp;대응&nbsp;실시간&nbsp;기록&nbsp;·&nbsp;증거&nbsp;체계&nbsp;구축&nbsp;,&nbsp;오송&nbsp;참사형비극&nbsp;방지&nbsp;·&nbsp;공무원&nbsp;형사책임&nbsp;방어<br>○&nbsp;인사&nbsp;4대&nbsp;제도&nbsp;도입&nbsp;-&nbsp;「군수가&nbsp;바뀌어도&nbsp;흔들리지&nbsp;않는」&nbsp;투명&nbsp;인사&nbsp;시스템<br>○&nbsp;점심시간&nbsp;전면&nbsp;휴무제&nbsp;단계적&nbsp;도입&nbsp;+&nbsp;무인민원&nbsp;확충으로&nbsp;공무원&nbsp;휴식권&nbsp;·&nbsp;군민&nbsp;접근성&nbsp;동시&nbsp;보장<br>○&nbsp;공직&nbsp;생애주기&nbsp;5&nbsp;·&nbsp;10&nbsp;·&nbsp;15&nbsp;·&nbsp;20&nbsp;·&nbsp;30년&nbsp;해외연수&nbsp;5회&nbsp;보장&nbsp;+&nbsp;화순군&nbsp;캠핑카&nbsp;10대&nbsp;+복지포인트&nbsp;평균&nbsp;이상&nbsp;인상<br>□&nbsp;이&nbsp;행&nbsp;방&nbsp;법<br>○&nbsp;공무원&nbsp;보호센터(부군수&nbsp;직속）+&nbsp;악성민원&nbsp;3진&nbsp;아웃&nbsp;-&nbsp;1차&nbsp;공식&nbsp;경고&nbsp;·&nbsp;증거&nbsp;보존&nbsp;/&nbsp;2차&nbsp;면담&nbsp;거부&nbsp;·&nbsp;기관&nbsp;출입&nbsp;제한&nbsp;/&nbsp;3차&nbsp;군수&nbsp;명의&nbsp;즉시&nbsp;고소&nbsp;·&nbsp;고발&nbsp;(법률비용&nbsp;전액&nbsp;군&nbsp;부담&nbsp;,&nbsp;PTSD&nbsp;치료&nbsp;의무）<br>○&nbsp;화순형&nbsp;재난관리&nbsp;앱&nbsp;-&nbsp;의사결정&nbsp;·&nbsp;지시&nbsp;·&nbsp;대응&nbsp;·&nbsp;판단&nbsp;근거&nbsp;자동&nbsp;타임스탬프&nbsp;기록,&nbsp;부서장&nbsp;·&nbsp;부군수&nbsp;·&nbsp;군수&nbsp;실시간&nbsp;화면&nbsp;공유&nbsp;,&nbsp;경찰&nbsp;·&nbsp;소방&nbsp;·&nbsp;도청&nbsp;·&nbsp;수자원공사&nbsp;통신일원화&nbsp;→&nbsp;사후&nbsp;객관&nbsp;증거&nbsp;확보<br>○&nbsp;인사&nbsp;4대&nbsp;제도&nbsp;-&nbsp;①&nbsp;노조&nbsp;의견청취&nbsp;제도화&nbsp;(2)&nbsp;인사&nbsp;예고제&nbsp;（이의제기&nbsp;·&nbsp;소명）&nbsp;③&nbsp;희망보직제&nbsp;④&nbsp;직렬별&nbsp;인사간담회&nbsp;연&nbsp;3회&nbsp;/&nbsp;인사위원회&nbsp;노조위원장&nbsp;위촉&nbsp;+&nbsp;회의록&nbsp;투명&nbsp;공개<br>○&nbsp;점심시간&nbsp;휴무&nbsp;-&nbsp;1단계&nbsp;준비&nbsp;（6개월）&nbsp;→&nbsp;2단계&nbsp;시범&nbsp;→&nbsp;3단계&nbsp;전면&nbsp;시행&nbsp;,&nbsp;무인민원기&nbsp;·&nbsp;온라인&nbsp;신청&nbsp;확충<br>○&nbsp;복지&nbsp;--&nbsp;해외연수&nbsp;생애주기&nbsp;5회&nbsp;보장,&nbsp;캠핑카&nbsp;10대(부서&nbsp;·&nbsp;가족&nbsp;예약),&nbsp;복지포인트&nbsp;평균&nbsp;이상&nbsp;인상&nbsp;,&nbsp;건강검진비&nbsp;·&nbsp;문화체력단련비&nbsp;각&nbsp;50만&nbsp;원&nbsp;,&nbsp;포상휴가&nbsp;5-→10일&nbsp;조례&nbsp;개정<br>□&nbsp;이&nbsp;행&nbsp;기&nbsp;간<br>○&nbsp;2026.&nbsp;7&nbsp;.&nbsp;취임&nbsp;즉시&nbsp;:&nbsp;공무원&nbsp;보호센터&nbsp;설치&nbsp;,&nbsp;3진&nbsp;아웃&nbsp;매뉴얼&nbsp;,&nbsp;노사&nbsp;핫라인&nbsp;,&nbsp;포상휴가&nbsp;조례&nbsp;개정&nbsp;추진<br>○&nbsp;2026&nbsp;하반기&nbsp;:&nbsp;재난관리&nbsp;앱&nbsp;개발&nbsp;착수&nbsp;,&nbsp;인사&nbsp;4대&nbsp;제도&nbsp;조례&nbsp;정비&nbsp;,&nbsp;점심시간&nbsp;휴무&nbsp;1단계&nbsp;준비&nbsp;,&nbsp;캠핑카&nbsp;도입&nbsp;예산&nbsp;편성<br>○&nbsp;2027&nbsp;:&nbsp;재난관리&nbsp;앱&nbsp;시범&nbsp;가동&nbsp;,&nbsp;인사&nbsp;예고제&nbsp;·&nbsp;희망보직제&nbsp;시행&nbsp;,&nbsp;점심시간&nbsp;2단계&nbsp;시범&nbsp;,「재난대응&nbsp;공무원&nbsp;법률지원&nbsp;조례」&nbsp;제정<br>○&nbsp;2028&nbsp;..&nbsp;재난관리&nbsp;앱&nbsp;전면&nbsp;가동&nbsp;,&nbsp;점심시간&nbsp;3단계&nbsp;전면&nbsp;시행&nbsp;,&nbsp;해외연수&nbsp;5회&nbsp;보장&nbsp;단계적&nbsp;시행&nbsp;,&nbsp;복지포인트&nbsp;평균&nbsp;이상&nbsp;인상<br>○&nbsp;2029~&nbsp;:&nbsp;공약&nbsp;이행&nbsp;평가&nbsp;공개(연&nbsp;1회),&nbsp;미이행&nbsp;사유&nbsp;·&nbsp;대안&nbsp;투병&nbsp;공개<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;공무원&nbsp;보호센터&nbsp;·&nbsp;CCTV&nbsp;·&nbsp;비상장비&nbsp;30억&nbsp;/&nbsp;재난관리&nbsp;앱&nbsp;20억&nbsp;/&nbsp;인사&nbsp;·&nbsp;복무&nbsp;제도&nbsp;정비&nbsp;5억<br>○&nbsp;복지(해외연수&nbsp;·&nbsp;캠핑카&nbsp;·&nbsp;복지포인트&nbsp;등）&nbsp;100억&nbsp;/&nbsp;무인민원&nbsp;·&nbsp;디지털&nbsp;행정&nbsp;15억<br>○&nbsp;합계&nbsp;약&nbsp;170억(5년）-&nbsp;연평균&nbsp;34억,&nbsp;군&nbsp;일반회계&nbsp;가용재원&nbsp;내&nbsp;단계적&nbsp;추진&nbsp;/&nbsp;재난관리&nbsp;앱은&nbsp;행안부&nbsp;재난&nbsp;·&nbsp;안전관리&nbsp;특별교부세&nbsp;신</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

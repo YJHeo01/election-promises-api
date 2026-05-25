@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김성환 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	AI디지털 헬스케어 클러스터 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="AI디지털 헬스케어 클러스터 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;AI와&nbsp;바이오&nbsp;·&nbsp;의료&nbsp;데이터를&nbsp;융합한&nbsp;디지털&nbsp;헬스케어&nbsp;산업&nbsp;생태계를&nbsp;구축하여&nbsp;지역의&nbsp;미래&nbsp;성장동력을&nbsp;확보하고,&nbsp;시민&nbsp;건강&nbsp;증진과&nbsp;양질의&nbsp;일자리&nbsp;창출을&nbsp;동시에&nbsp;실현한다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;디지털&nbsp;헬스케어&nbsp;혁신센터&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료기관,&nbsp;대학,&nbsp;기업이&nbsp;공동&nbsp;활용할&nbsp;공동&nbsp;연구개발(R&D)&nbsp;허브&nbsp;조성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건강&nbsp;·&nbsp;의료&nbsp;빅데이터&nbsp;통합&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;산학병연&nbsp;협력&nbsp;생태계&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;대학(의과대학&nbsp;·&nbsp;공대),&nbsp;병원,&nbsp;기업&nbsp;간&nbsp;컨소시엄&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임상데이터&nbsp;기반&nbsp;AI&nbsp;솔루션&nbsp;공동&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;창업&nbsp;및&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;헬스케어&nbsp;스타트업&nbsp;입주공간&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;초기&nbsp;창업펀드&nbsp;및&nbsp;사업화&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;규제샌드박스&nbsp;활용을&nbsp;통한&nbsp;신속&nbsp;실증&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;체감형&nbsp;서비스&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;기반&nbsp;만성질환&nbsp;관리<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고령자&nbsp;원격&nbsp;건강&nbsp;모니터링<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;(1~2년)&nbsp;:&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;부지&nbsp;확보,&nbsp;협력기관&nbsp;MOU&nbsp;체결,&nbsp;국비공모사업&nbsp;선정&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2단계&nbsp;(3~5년)&nbsp;:&nbsp;혁신센터&nbsp;건립&nbsp;및&nbsp;데이터&nbsp;플랫폼&nbsp;구축,&nbsp;기업&nbsp;유치&nbsp;및&nbsp;연구개발&nbsp;본격화,&nbsp;시민&nbsp;대상&nbsp;시범&nbsp;서비스&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;3단계&nbsp;(5년&nbsp;이후)&nbsp;:&nbsp;국내&nbsp;대표&nbsp;AI&nbsp;헬스케어&nbsp;클러스터&nbsp;완성,&nbsp;해외&nbsp;진출<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;보건복지부&nbsp;공모사업&nbsp;등&nbsp;국비&nbsp;및&nbsp;지방비,&nbsp;대기업과&nbsp;병원&nbsp;등&nbsp;민간투자&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	주차가 편한 동구 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="주차가 편한 동구 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;주민과&nbsp;방문객&nbsp;누구나&nbsp;쉽고&nbsp;편리하게&nbsp;주차할&nbsp;수&nbsp;있는&nbsp;동구를&nbsp;조성하여,&nbsp;생활&nbsp;불편을&nbsp;줄이고&nbsp;지역&nbsp;상권을&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;공영주차장&nbsp;확충&nbsp;및&nbsp;입체화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전통시장,&nbsp;상가&nbsp;밀집지역,&nbsp;주거&nbsp;밀집지역&nbsp;중심&nbsp;공영주차장&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후&nbsp;평면주차장을&nbsp;복층&nbsp;·&nbsp;타워형&nbsp;주차장으로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공청사&nbsp;·&nbsp;복지시설&nbsp;지하공간&nbsp;주차장&nbsp;활용&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;공유주차제&nbsp;도입&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학교,&nbsp;교회,&nbsp;민간&nbsp;건물의&nbsp;유휴&nbsp;주차면을&nbsp;주민에게&nbsp;개방<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간&nbsp;·&nbsp;주말&nbsp;시간대&nbsp;거주자&nbsp;우선주차&nbsp;공유&nbsp;시스템&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공유&nbsp;참여&nbsp;시설에&nbsp;인센티브(세제&nbsp;감면&nbsp;·&nbsp;시설&nbsp;개선비&nbsp;지원)&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;주차&nbsp;질서&nbsp;개선&nbsp;및&nbsp;상권연계주차&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불법주정차&nbsp;단속&nbsp;효율화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단기&nbsp;정차구역(픽업존&nbsp;·&nbsp;배달존)&nbsp;지정&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구매&nbsp;고객&nbsp;대상&nbsp;주차&nbsp;할인&nbsp;연계<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;(1~2년):&nbsp;긴급&nbsp;주차난&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주차&nbsp;수요&nbsp;조사&nbsp;및&nbsp;지역별&nbsp;문제&nbsp;진단,&nbsp;소규모&nbsp;공영주차장&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;2단계&nbsp;(3~5년):&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공영주차장&nbsp;신설&nbsp;및&nbsp;입체화,&nbsp;AI&nbsp;주차정보&nbsp;시스템&nbsp;본격&nbsp;운영,&nbsp;상권&nbsp;연계&nbsp;주차지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;3단계&nbsp;(5년&nbsp;이후):&nbsp;스마트&nbsp;주차도시&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국토교통부&nbsp;공모사업&nbsp;등&nbsp;국비&nbsp;및&nbsp;지방비,&nbsp;민간투자&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	온라인 허브도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="온라인 허브도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;광주&nbsp;동구를&nbsp;오프라인&nbsp;상권과&nbsp;디지털&nbsp;경제가&nbsp;결합된&nbsp;대한민국&nbsp;대표&nbsp;온라인&nbsp;허브도시로&nbsp;조성하여,&nbsp;침체된&nbsp;원도심&nbsp;상권을&nbsp;회복하고&nbsp;청년&nbsp;·&nbsp;소상공인&nbsp;중심의&nbsp;지속가능한&nbsp;경제&nbsp;생태계를&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;디지털&nbsp;전환&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;라이브커머스&nbsp;및&nbsp;SNS&nbsp;기반&nbsp;판매&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;온라인&nbsp;창업특구&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;콘텐츠&nbsp;·&nbsp;AI&nbsp;·&nbsp;영상&nbsp;기반&nbsp;창업&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;:&nbsp;기반&nbsp;구축기&nbsp;(2026~2027년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합&nbsp;플랫폼&nbsp;구축,&nbsp;상인&nbsp;디지털&nbsp;교육&nbsp;실시,&nbsp;온라인몰&nbsp;시범&nbsp;운영,&nbsp;라이브커머스&nbsp;스튜디오&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;2단계&nbsp;:&nbsp;성장&nbsp;확산기&nbsp;(2028~2029년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년창업특구&nbsp;확대,&nbsp;관광&nbsp;·&nbsp;문화&nbsp;플랫폼&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;3단계&nbsp;:&nbsp;자립&nbsp;완성기&nbsp;(2030년&nbsp;이후)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;글로벌&nbsp;판매&nbsp;플랫폼&nbsp;확대,&nbsp;민간&nbsp;중심&nbsp;운영체계&nbsp;전환<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;중소벤처기업부,&nbsp;과학기술정보통신부&nbsp;공모사업&nbsp;등&nbsp;국비&nbsp;및&nbsp;지방비,&nbsp;민간투자&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	무등산 케이블카 등 관광랜드마크 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="무등산 케이블카 등 관광랜드마크 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;광주&nbsp;동구를&nbsp;체류형&nbsp;관광&nbsp;·&nbsp;문화&nbsp;·&nbsp;자연이&nbsp;결합된&nbsp;문화관광도시로&nbsp;육성하여&nbsp;관광객&nbsp;증가와&nbsp;지역상권&nbsp;활성화를&nbsp;동시에&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;기본구상&nbsp;및&nbsp;타당성&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;타당성조사,&nbsp;경제성분석,&nbsp;환경영향검토,&nbsp;주민공청회<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;열기구,&nbsp;드론&nbsp;등&nbsp;대체&nbsp;관광수단&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;공사&nbsp;및&nbsp;기반조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국립공원&nbsp;협의,&nbsp;케이블카&nbsp;설치,&nbsp;관광복합단지&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계(기본구상&nbsp;및&nbsp;타당성&nbsp;검토)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2028년까지<br>&nbsp;&nbsp;○&nbsp;2단계(투자유치)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2029년까지<br>&nbsp;&nbsp;○&nbsp;3단계(공사&nbsp;및&nbsp;기반조성)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2030년&nbsp;이후<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;문화체육관광부&nbsp;국비확보&nbsp;및&nbsp;지방비,&nbsp;민간투자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	파크골프장 최대 27홀 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="파크골프장 최대 27홀 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;광주&nbsp;동구에&nbsp;친환경&nbsp;파크골프장(최대&nbsp;27홀)을&nbsp;조성하여&nbsp;시민&nbsp;건강증진과&nbsp;고령친화&nbsp;여가환경을&nbsp;구축하고,&nbsp;생활체육&nbsp;·관광&nbsp;·&nbsp;지역상권&nbsp;활성화를&nbsp;연계한&nbsp;복합&nbsp;체육관광&nbsp;거점으로&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;취임즉시&nbsp;18홀규모&nbsp;파크골프장&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;매립지&nbsp;2만여평에&nbsp;대한&nbsp;복토&nbsp;및&nbsp;설계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체육회&nbsp;등&nbsp;지역기관&nbsp;협력<br>&nbsp;&nbsp;○&nbsp;추가&nbsp;토지&nbsp;취득&nbsp;및&nbsp;27홀로&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;기본계획수립&nbsp;-&nbsp;2026년<br>&nbsp;&nbsp;○&nbsp;18홀&nbsp;조성&nbsp;-&nbsp;2028년<br>&nbsp;&nbsp;○&nbsp;27홀&nbsp;확대&nbsp;-&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;문화체육관광부&nbsp;공모&nbsp;등&nbsp;국비&nbsp;및&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

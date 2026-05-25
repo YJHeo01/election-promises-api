@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;양윤녕 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	도민이 돈 버는 제주형 지역순환경제 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="도민이 돈 버는 제주형 지역순환경제 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;제주에서&nbsp;발생하는&nbsp;관광·농수산·건설·공공사업&nbsp;등&nbsp;다양한&nbsp;경제적&nbsp;가치가&nbsp;외부&nbsp;자본과&nbsp;외부&nbsp;유통구조로&nbsp;빠져나가지&nbsp;않고&nbsp;제주도민의&nbsp;소득과&nbsp;지역경제&nbsp;활성화로&nbsp;연결되는&nbsp;제주형&nbsp;지역순환경제&nbsp;구축<br>○&nbsp;골목상권과&nbsp;전통시장,&nbsp;소상공인,&nbsp;자영업자,&nbsp;농어민&nbsp;중심의&nbsp;민생경제&nbsp;회복을&nbsp;통해&nbsp;도민이&nbsp;실제&nbsp;생활&nbsp;속에서&nbsp;체감할&nbsp;수&nbsp;있는&nbsp;경제&nbsp;활성화&nbsp;기반&nbsp;마련&nbsp;및&nbsp;지역경제&nbsp;선순환&nbsp;구조&nbsp;강화<br>○&nbsp;제주&nbsp;안에서&nbsp;생산·유통·소비가&nbsp;함께&nbsp;연결되는&nbsp;지역순환형&nbsp;경제체계를&nbsp;구축하여&nbsp;청년·중장년·소상공인·농어민이&nbsp;함께&nbsp;살아갈&nbsp;수&nbsp;있는&nbsp;지속가능한&nbsp;제주경제&nbsp;실현<br>○&nbsp;단순&nbsp;성장&nbsp;중심&nbsp;정책이&nbsp;아니라&nbsp;제주에서&nbsp;번&nbsp;돈이&nbsp;다시&nbsp;제주도민의&nbsp;삶과&nbsp;지역공동체로&nbsp;이어지는&nbsp;경제&nbsp;구조를&nbsp;만들어&nbsp;민생경제와&nbsp;지역&nbsp;균형발전을&nbsp;함께&nbsp;추진<br><br>□&nbsp;이행방법<br>○&nbsp;도내기업&nbsp;참여&nbsp;확대&nbsp;및&nbsp;공공예산&nbsp;지역환류&nbsp;강화<br>○&nbsp;관광&nbsp;소비의&nbsp;지역경제&nbsp;환류&nbsp;확대&nbsp;및&nbsp;골목상권&nbsp;활성화&nbsp;추진<br>○&nbsp;농수산물&nbsp;유통구조&nbsp;개선&nbsp;및&nbsp;생산자&nbsp;중심&nbsp;가격&nbsp;안정체계&nbsp;구축<br>○&nbsp;지역순환형&nbsp;소비·유통·생산&nbsp;구조&nbsp;확대&nbsp;및&nbsp;지역경제&nbsp;연계&nbsp;정책&nbsp;강화<br><br>□&nbsp;이행기간<br>○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;기존&nbsp;공공예산&nbsp;구조조정&nbsp;및&nbsp;지역경제&nbsp;환류&nbsp;중심&nbsp;재편&nbsp;추진<br>○&nbsp;중앙정부&nbsp;공모사업&nbsp;및&nbsp;국비&nbsp;지원사업&nbsp;적극&nbsp;활용<br>○&nbsp;민관협력&nbsp;방식과&nbsp;지역경제&nbsp;연계사업&nbsp;확대를&nbsp;통한&nbsp;재정&nbsp;효율성&nbsp;강화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	제주 1차산업 대전환 및 미래형 농어촌 산업 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="제주 1차산업 대전환 및 미래형 농어촌 산업 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;제주&nbsp;1차산업의&nbsp;경쟁력&nbsp;강화와&nbsp;농어민&nbsp;소득&nbsp;안정&nbsp;기반&nbsp;구축을&nbsp;통해&nbsp;지속가능한&nbsp;제주형&nbsp;미래&nbsp;농어촌&nbsp;산업&nbsp;체계&nbsp;마련<br>○&nbsp;단순&nbsp;생산&nbsp;중심&nbsp;구조에서&nbsp;벗어나&nbsp;생산·유통·가공·관광·체험·미래산업이&nbsp;함께&nbsp;연결되는&nbsp;고부가가치&nbsp;산업&nbsp;구조&nbsp;구축<br>○&nbsp;농수산물&nbsp;유통구조&nbsp;개선과&nbsp;생산자&nbsp;중심&nbsp;가격&nbsp;안정체계&nbsp;구축을&nbsp;통해&nbsp;농어민&nbsp;실질소득&nbsp;향상&nbsp;및&nbsp;지역경제&nbsp;활성화&nbsp;추진<br>○&nbsp;청년농·청년어업인&nbsp;육성과&nbsp;스마트농업,&nbsp;미래형&nbsp;친환경&nbsp;농업&nbsp;확대를&nbsp;통해&nbsp;농어촌&nbsp;지역&nbsp;활력&nbsp;회복&nbsp;및&nbsp;정착&nbsp;기반&nbsp;강화<br>○&nbsp;제주산&nbsp;농수산물의&nbsp;지역&nbsp;내&nbsp;소비&nbsp;확대와&nbsp;공공급식&nbsp;연계&nbsp;강화를&nbsp;통해&nbsp;지역순환형&nbsp;농어촌&nbsp;경제체계&nbsp;구축<br><br>□&nbsp;이행방법<br>○&nbsp;농수산물&nbsp;유통구조&nbsp;개선&nbsp;및&nbsp;공공수매체계&nbsp;단계적&nbsp;검토&nbsp;추진<br>○&nbsp;생산자&nbsp;중심&nbsp;가격&nbsp;안정체계&nbsp;구축&nbsp;및&nbsp;농어민&nbsp;소득&nbsp;안정&nbsp;정책&nbsp;강화<br>○&nbsp;스마트농업&nbsp;및&nbsp;미래형&nbsp;친환경&nbsp;농업&nbsp;기술&nbsp;도입&nbsp;확대<br>○&nbsp;농식품&nbsp;가공산업,&nbsp;체험형&nbsp;관광,&nbsp;로컬푸드&nbsp;산업&nbsp;등&nbsp;연계산업&nbsp;육성<br>○&nbsp;청년농·청년어업인&nbsp;지원&nbsp;확대&nbsp;및&nbsp;농어촌&nbsp;정착&nbsp;기반&nbsp;강화<br>○&nbsp;공공급식&nbsp;및&nbsp;지역&nbsp;소비&nbsp;연계&nbsp;확대를&nbsp;통한&nbsp;제주형&nbsp;지역순환&nbsp;농업체계&nbsp;구축<br><br>□&nbsp;이행기간<br>○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;농림축산식품부·해양수산부&nbsp;국비사업&nbsp;및&nbsp;지방비&nbsp;단계적&nbsp;연계&nbsp;확대<br>○&nbsp;농촌융복합산업&nbsp;및&nbsp;스마트농업&nbsp;지원사업&nbsp;적극&nbsp;활용<br>○&nbsp;공공급식&nbsp;및&nbsp;지역유통&nbsp;연계사업&nbsp;확대를&nbsp;통한&nbsp;재정&nbsp;효율성&nbsp;강화<br>○&nbsp;중앙정부&nbsp;공모사업&nbsp;및&nbsp;민관협력&nbsp;방식&nbsp;연계를&nbsp;통한&nbsp;단계적&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	미래산업 집중육성 및 바이오도시 서귀포 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="미래산업 집중육성 및 바이오도시 서귀포 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;관광&nbsp;중심&nbsp;산업&nbsp;구조에서&nbsp;벗어나&nbsp;미래산업과&nbsp;첨단&nbsp;바이오산업이&nbsp;함께&nbsp;성장하는&nbsp;제주형&nbsp;미래산업&nbsp;생태계&nbsp;구축<br>○&nbsp;서귀포를&nbsp;중심으로&nbsp;레드바이오(의료·제약),&nbsp;그린바이오(농축산·식품),&nbsp;화이트바이오(산업·환경)&nbsp;중심의&nbsp;미래산업&nbsp;거점도시&nbsp;육성<br>○&nbsp;제주&nbsp;청정&nbsp;자연환경과&nbsp;생물자원,&nbsp;해양자원&nbsp;등을&nbsp;활용한&nbsp;고부가가치&nbsp;미래산업&nbsp;기반&nbsp;구축&nbsp;및&nbsp;양질의&nbsp;청년&nbsp;일자리&nbsp;창출<br>○&nbsp;연구기관과&nbsp;기업&nbsp;유치,&nbsp;전문인력&nbsp;양성&nbsp;확대를&nbsp;통해&nbsp;지속가능한&nbsp;제주형&nbsp;미래산업&nbsp;성장체계&nbsp;마련<br>○&nbsp;제주자연자산공사와&nbsp;연계한&nbsp;환경·ESG·생물자원&nbsp;기반&nbsp;산업&nbsp;생태계&nbsp;구축&nbsp;및&nbsp;지역경제&nbsp;활성화&nbsp;추진<br><br>□&nbsp;이행방법<br>○&nbsp;바이오산업&nbsp;중심&nbsp;미래산업&nbsp;클러스터&nbsp;단계적&nbsp;조성&nbsp;추진<br>○&nbsp;제주테크노파크&nbsp;및&nbsp;연구기관&nbsp;연계&nbsp;연구개발&nbsp;기반&nbsp;강화<br>○&nbsp;바이오기업&nbsp;및&nbsp;미래산업&nbsp;관련&nbsp;기업&nbsp;유치&nbsp;확대<br>○&nbsp;청년&nbsp;전문인력&nbsp;양성&nbsp;및&nbsp;산업&nbsp;연계형&nbsp;일자리&nbsp;확대&nbsp;추진<br>○&nbsp;환경·ESG·생물자원&nbsp;기반&nbsp;미래산업&nbsp;육성&nbsp;및&nbsp;연계사업&nbsp;확대<br>○&nbsp;관광·환경·미래산업이&nbsp;함께&nbsp;연결되는&nbsp;제주형&nbsp;산업&nbsp;생태계&nbsp;구축<br><br>□&nbsp;이행기간<br>○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국가&nbsp;연구개발사업&nbsp;및&nbsp;국비&nbsp;지원사업&nbsp;적극&nbsp;연계&nbsp;추진<br>○&nbsp;제주테크노파크&nbsp;및&nbsp;정부&nbsp;미래산업&nbsp;지원사업&nbsp;활용<br>○&nbsp;민관협력&nbsp;투자유치&nbsp;및&nbsp;단계적&nbsp;산업단지&nbsp;조성을&nbsp;통한&nbsp;재정&nbsp;부담&nbsp;분산<br>○&nbsp;중앙정부&nbsp;공모사업&nbsp;및&nbsp;기업&nbsp;투자&nbsp;연계를&nbsp;통한&nbsp;지속가능한&nbsp;산업&nbsp;기반&nbsp;구축</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	제주형 대중교통 전면 개편 및 단계적 공영제 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="제주형 대중교통 전면 개편 및 단계적 공영제 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;제주&nbsp;버스체계의&nbsp;구조적&nbsp;한계를&nbsp;개선하고&nbsp;이동&nbsp;효율성과&nbsp;도민&nbsp;편의&nbsp;중심의&nbsp;제주형&nbsp;대중교통&nbsp;체계&nbsp;구축<br>○&nbsp;급행노선&nbsp;확대와&nbsp;환승체계&nbsp;개편을&nbsp;통해&nbsp;지역&nbsp;간&nbsp;이동시간&nbsp;단축&nbsp;및&nbsp;교통&nbsp;사각지대&nbsp;해소&nbsp;추진<br>○&nbsp;중산간&nbsp;및&nbsp;읍면지역&nbsp;교통&nbsp;접근성&nbsp;강화와&nbsp;노인·중장년층·교통약자&nbsp;중심&nbsp;이동권&nbsp;보장&nbsp;확대<br>○&nbsp;노선권&nbsp;공공관리&nbsp;강화와&nbsp;단계적&nbsp;공영제&nbsp;확대를&nbsp;통해&nbsp;안정적인&nbsp;공공교통&nbsp;운영체계&nbsp;마련<br>○&nbsp;기존&nbsp;버스업계&nbsp;종사자&nbsp;고용승계와&nbsp;노동&nbsp;안정&nbsp;등을&nbsp;함께&nbsp;고려한&nbsp;지속가능한&nbsp;제주형&nbsp;교통개혁&nbsp;추진<br><br>□&nbsp;이행방법<br>○&nbsp;북산록도로&nbsp;등을&nbsp;활용한&nbsp;동서&nbsp;간&nbsp;급행체계&nbsp;구축&nbsp;추진<br>○&nbsp;급행노선&nbsp;및&nbsp;환승체계&nbsp;확대를&nbsp;통한&nbsp;이동&nbsp;효율성&nbsp;강화<br>○&nbsp;읍면지역&nbsp;및&nbsp;중산간&nbsp;지역&nbsp;생활권&nbsp;교통서비스&nbsp;확대<br>○&nbsp;단계적&nbsp;공영제&nbsp;추진&nbsp;및&nbsp;노선권&nbsp;공공관리&nbsp;강화<br>○&nbsp;노인·교통약자&nbsp;중심&nbsp;생활교통&nbsp;및&nbsp;이동지원&nbsp;서비스&nbsp;확대<br>○&nbsp;교통&nbsp;빅데이터&nbsp;및&nbsp;운영&nbsp;효율화&nbsp;기반&nbsp;제주형&nbsp;교통체계&nbsp;개편&nbsp;추진<br><br>□&nbsp;이행기간<br>○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;기존&nbsp;교통보조금&nbsp;및&nbsp;재정지원&nbsp;체계&nbsp;단계적&nbsp;재구조화&nbsp;추진<br>○&nbsp;국토교통부&nbsp;지원사업&nbsp;및&nbsp;친환경&nbsp;교통&nbsp;관련&nbsp;국비사업&nbsp;적극&nbsp;활용<br>○&nbsp;단계적&nbsp;공영화&nbsp;방식을&nbsp;통한&nbsp;재정&nbsp;부담&nbsp;분산&nbsp;및&nbsp;운영&nbsp;효율성&nbsp;강화<br>○&nbsp;민관협력&nbsp;및&nbsp;공공교통&nbsp;연계사업&nbsp;확대를&nbsp;통한&nbsp;지속가능한&nbsp;운영체계&nbsp;구축</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	청년·새도민 정착 및 제주시 원도심 주거·상권 복합개발 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="청년·새도민 정착 및 제주시 원도심 주거·상권 복합개발 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;청년·신혼부부·중장년층·새도민이&nbsp;안정적으로&nbsp;제주에&nbsp;정착할&nbsp;수&nbsp;있는&nbsp;생활밀착형&nbsp;정착&nbsp;기반&nbsp;구축<br>○&nbsp;높은&nbsp;주거비와&nbsp;생활비&nbsp;부담&nbsp;완화&nbsp;및&nbsp;실수요&nbsp;중심&nbsp;주거정책&nbsp;강화를&nbsp;통한&nbsp;정주환경&nbsp;개선&nbsp;추진<br>○&nbsp;제주시&nbsp;원도심&nbsp;내&nbsp;2~3개&nbsp;지역&nbsp;시범&nbsp;복합개발을&nbsp;통한&nbsp;주거·상권·생활SOC&nbsp;연계형&nbsp;도시재생&nbsp;모델&nbsp;구축<br>○&nbsp;골목상권과&nbsp;생활문화,&nbsp;지역공동체&nbsp;기능&nbsp;회복을&nbsp;통한&nbsp;원도심&nbsp;활성화&nbsp;및&nbsp;민생경제&nbsp;회복&nbsp;추진<br>○&nbsp;용적률&nbsp;상향과&nbsp;입체적&nbsp;개발&nbsp;방식을&nbsp;활용한&nbsp;사업성&nbsp;확보&nbsp;및&nbsp;민간&nbsp;참여&nbsp;확대를&nbsp;통해&nbsp;지속가능한&nbsp;원도심&nbsp;재생체계&nbsp;마련<br><br>□&nbsp;이행방법<br>○&nbsp;청년&nbsp;일자리·주거·창업&nbsp;연계&nbsp;지원&nbsp;확대&nbsp;및&nbsp;정착지원&nbsp;체계&nbsp;강화<br>○&nbsp;새도민&nbsp;생활·교육·지역공동체&nbsp;연계&nbsp;정책&nbsp;확대&nbsp;추진<br>○&nbsp;제주시&nbsp;원도심&nbsp;시범지역&nbsp;단계적&nbsp;복합개발&nbsp;사업&nbsp;추진<br>○&nbsp;주거·상권·생활SOC가&nbsp;결합된&nbsp;제주형&nbsp;도시재생&nbsp;모델&nbsp;구축<br>○&nbsp;청년·신혼부부·중장년층&nbsp;중심&nbsp;생활형&nbsp;주거환경&nbsp;조성<br>○&nbsp;골목상권&nbsp;활성화&nbsp;및&nbsp;생활문화·지역공동체&nbsp;회복&nbsp;정책&nbsp;강화<br><br>□&nbsp;이행기간<br>○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;기존&nbsp;도시재생사업&nbsp;및&nbsp;국토교통부&nbsp;공모사업&nbsp;연계&nbsp;추진<br>○&nbsp;용적률&nbsp;상향을&nbsp;통한&nbsp;사업성&nbsp;확보&nbsp;및&nbsp;민관협력&nbsp;개발&nbsp;방식&nbsp;활용<br>○&nbsp;청년·주거&nbsp;관련&nbsp;기존&nbsp;예산&nbsp;통합&nbsp;운영&nbsp;및&nbsp;국비사업&nbsp;적극&nbsp;활용<br>○&nbsp;단계적&nbsp;시범사업&nbsp;추진을&nbsp;통한&nbsp;재정&nbsp;부담&nbsp;최소화&nbsp;및&nbsp;안정적&nbsp;확대&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

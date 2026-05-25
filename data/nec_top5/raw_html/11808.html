@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박근영 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	경주시민 가정용 전기세 전면 무료</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="경주시민 가정용 전기세 전면 무료">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;약&nbsp;1000억&nbsp;내외의&nbsp;가정용&nbsp;전기세를&nbsp;면제<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○위험물인&nbsp;원전,&nbsp;맥스터,&nbsp;방폐장&nbsp;등에&nbsp;대한&nbsp;위험물에&nbsp;대한&nbsp;국책보조&nbsp;한수원&nbsp;경주&nbsp;시내&nbsp;이전에서&nbsp;생기는&nbsp;승수효과를&nbsp;시민들에게&nbsp;나누어&nbsp;줌<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○시장&nbsp;당선&nbsp;초기부터&nbsp;부지런히&nbsp;시행&nbsp;시작<br>&nbsp;&nbsp;&nbsp;&nbsp;원전&nbsp;존속,&nbsp;맥스터&nbsp;존속&nbsp;기간&nbsp;동안&nbsp;계속<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○한수원&nbsp;이전으로&nbsp;생기는&nbsp;효과를&nbsp;피드백<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업유치&nbsp;효과&nbsp;주변&nbsp;경제활성화&nbsp;효과&nbsp;등의&nbsp;지표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경주시내&nbsp;상가&nbsp;세수&nbsp;증대&nbsp;효과&nbsp;등을&nbsp;추적해&nbsp;재원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	중심상가 문화예술인촌으로 활력충전</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="중심상가 문화예술인촌으로 활력충전">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;중심상가&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중심상가&nbsp;빈&nbsp;점포를&nbsp;매입&nbsp;혹은&nbsp;임대해&nbsp;전국의&nbsp;문화예술인을&nbsp;위해&nbsp;제공한다&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이들이&nbsp;중심상가에&nbsp;활력을&nbsp;일으키고&nbsp;각종&nbsp;전시회&nbsp;공연&nbsp;등을&nbsp;통해&nbsp;주변&nbsp;상가들을&nbsp;활성화&nbsp;한다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;시장&nbsp;당선&nbsp;후&nbsp;정지작업을&nbsp;거쳐&nbsp;1년&nbsp;후부터&nbsp;시행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;점포&nbsp;100개&nbsp;구입&nbsp;또는&nbsp;임대하는데&nbsp;전체&nbsp;150억&nbsp;예상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미술인&nbsp;정착&nbsp;자금&nbsp;1인당&nbsp;3천만원&nbsp;X&nbsp;100인&nbsp;30억&nbsp;예상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기본적인&nbsp;수리비&nbsp;지원&nbsp;1인당&nbsp;3천만원&nbsp;X&nbsp;100인&nbsp;30억&nbsp;예상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공연장&nbsp;수리&nbsp;및&nbsp;건설&nbsp;40억&nbsp;예상&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;총&nbsp;250억&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불필요한&nbsp;건설을&nbsp;줄이면&nbsp;충분히&nbsp;나올&nbsp;수&nbsp;있는&nbsp;재원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	대릉원-동부사적지구 타지역 차 없는 거리 확립 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="대릉원-동부사적지구 타지역 차 없는 거리 확립 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;이&nbsp;지역&nbsp;교통&nbsp;흐름의&nbsp;정상화&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;차량등록제로&nbsp;외부차량&nbsp;진입&nbsp;저감<br>&nbsp;&nbsp;&nbsp;&nbsp;외부차량에게는&nbsp;고가의&nbsp;통행세&nbsp;징수<br>&nbsp;&nbsp;&nbsp;&nbsp;주민차량&nbsp;스트레스&nbsp;감소<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;시장취임&nbsp;후&nbsp;정지작업&nbsp;거쳐&nbsp;6개월&nbsp;후부터<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;전기차&nbsp;재원&nbsp;대당&nbsp;4억&nbsp;x&nbsp;20대&nbsp;80억&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;전기차&nbsp;기사&nbsp;1인당&nbsp;년봉&nbsp;6천만원&nbsp;x&nbsp;40명&nbsp;24억<br>&nbsp;&nbsp;&nbsp;&nbsp;전기차&nbsp;전기비&nbsp;및&nbsp;관리비&nbsp;대당&nbsp;1억원&nbsp;:&nbsp;20억&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;기타&nbsp;관리원&nbsp;및&nbsp;기술적&nbsp;관리&nbsp;비용&nbsp;10억&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;거주자용&nbsp;주차장&nbsp;증설&nbsp;:&nbsp;10억&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;전체&nbsp;144억<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불필요한&nbsp;건설경비&nbsp;줄이면&nbsp;충분히&nbsp;가능&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;참고로&nbsp;봉황로&nbsp;경관&nbsp;공사가&nbsp;모두&nbsp;230억&nbsp;들어감</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	동국대학교와 함께 가기 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="동국대학교와 함께 가기 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;동국대학교의&nbsp;이전&nbsp;불안&nbsp;해소<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;동국대학교&nbsp;병원을&nbsp;상급병원으로&nbsp;만들기&nbsp;위해&nbsp;시-대학&nbsp;협력<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부족&nbsp;의료진에&nbsp;대한&nbsp;장기적&nbsp;지원&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료진&nbsp;이탈을&nbsp;막는&nbsp;범위에서&nbsp;다양한&nbsp;혜택&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;동국대학교&nbsp;교육&nbsp;개발&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동국대학교에&nbsp;외국인&nbsp;다문화&nbsp;가족을&nbsp;위한&nbsp;평생교육기관&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일명&nbsp;대안교육&nbsp;대학을&nbsp;동국대&nbsp;내에&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;각종&nbsp;조치로&nbsp;동국대학교의&nbsp;경주친화성을&nbsp;고정<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;시장취임&nbsp;후&nbsp;바로&nbsp;가동&nbsp;후&nbsp;지속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재임시까지&nbsp;보강&nbsp;및&nbsp;제도적&nbsp;개선<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;연간&nbsp;1천억&nbsp;원의&nbsp;재원&nbsp;조달<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어떤&nbsp;돈도&nbsp;건강보다&nbsp;중요하지&nbsp;않다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건강을&nbsp;살리면&nbsp;정부가&nbsp;지출할&nbsp;의료비용이&nbsp;대폭&nbsp;줄어든다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취약한&nbsp;의료복지를&nbsp;살리는&nbsp;데&nbsp;더&nbsp;주력해야!<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학&nbsp;주변&nbsp;상가&nbsp;활성화로&nbsp;보상</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	한수원 본사 경주시내 이전</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="한수원 본사 경주시내 이전">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;한수원&nbsp;본사&nbsp;경주로&nbsp;이전&nbsp;후&nbsp;시내&nbsp;경제활성화<br>&nbsp;&nbsp;○&nbsp;형식적인&nbsp;동해&nbsp;3면에&nbsp;대한&nbsp;지원&nbsp;아닌&nbsp;계획적인&nbsp;상생안&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;한수원&nbsp;본사를&nbsp;경주대학교&nbsp;부지&nbsp;또는&nbsp;그에&nbsp;준하는&nbsp;대학이나&nbsp;부지로&nbsp;이전<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현재&nbsp;한수원&nbsp;본사는&nbsp;리조트로&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한수원&nbsp;이전에&nbsp;따른&nbsp;세수&nbsp;증대&nbsp;효과&nbsp;및&nbsp;시내&nbsp;경제&nbsp;상승&nbsp;효과는&nbsp;동해안&nbsp;3개&nbsp;면&nbsp;상생자금으로&nbsp;활용<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;시장&nbsp;취임&nbsp;후&nbsp;바로&nbsp;시작<br>&nbsp;&nbsp;&nbsp;&nbsp;-임기&nbsp;안에&nbsp;이전&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원조달이&nbsp;아닌&nbsp;국책사업비로&nbsp;충당</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

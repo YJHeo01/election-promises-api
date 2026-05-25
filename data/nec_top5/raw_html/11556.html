@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김상욱 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	시민의 이동권을 지키겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="시민의 이동권을 지키겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;울산&nbsp;시민&nbsp;누구나&nbsp;대중교통·도로·철도를&nbsp;편리하게&nbsp;이용할&nbsp;수&nbsp;있도록&nbsp;교통&nbsp;인프라&nbsp;전면&nbsp;개편<br>&nbsp;&nbsp;○&nbsp;이동&nbsp;불편&nbsp;없는&nbsp;광역교통&nbsp;도시&nbsp;울산&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;버스&nbsp;노선을&nbsp;즉시&nbsp;확충하고,&nbsp;공영제로&nbsp;전면&nbsp;개편&nbsp;<br>&nbsp;&nbsp;○&nbsp;문수로&nbsp;우회도로,&nbsp;제2명촌교,&nbsp;울산외곽순환도로,&nbsp;송정지하차도,&nbsp;광역철도&nbsp;사업&nbsp;등&nbsp;사업&nbsp;속도&nbsp;제고<br>&nbsp;&nbsp;○&nbsp;트램&nbsp;2호선&nbsp;조기착공하고,&nbsp;트램&nbsp;1호선&nbsp;재검토하여&nbsp;입체화(지하화&nbsp;등)<br>&nbsp;&nbsp;○&nbsp;저상버스&nbsp;·&nbsp;자율주행버스&nbsp;등&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;공용주차장의&nbsp;효율성을&nbsp;높이고,&nbsp;신규&nbsp;주차장&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;산업단지&nbsp;출퇴근&nbsp;광역교통망&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;태화강역의&nbsp;KTX&nbsp;이용성을&nbsp;높이고,&nbsp;복합환승기능&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;울산공업탑로터리&nbsp;입체화하여&nbsp;교통혼잡&nbsp;완화&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;민자&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	노동이 존중받는 산업AX전환을 이루어내겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="노동이 존중받는 산업AX전환을 이루어내겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;AI·디지털&nbsp;기술을&nbsp;기반으로&nbsp;울산&nbsp;주력산업의&nbsp;AX(AI&nbsp;전환)를&nbsp;선도하여&nbsp;글로벌&nbsp;스마트&nbsp;제조&nbsp;거점&nbsp;도시로&nbsp;도약<br>&nbsp;&nbsp;○&nbsp;노동자의&nbsp;직업전환·역량강화를&nbsp;체계적으로&nbsp;지원하여&nbsp;산업&nbsp;전환&nbsp;과정에서&nbsp;단&nbsp;한&nbsp;명의&nbsp;노동자도&nbsp;소외되지&nbsp;않도록&nbsp;함<br>&nbsp;&nbsp;○&nbsp;노사민정&nbsp;협력과&nbsp;규제&nbsp;혁신을&nbsp;통해&nbsp;중소기업을&nbsp;포함한&nbsp;울산&nbsp;산업&nbsp;생태계&nbsp;전반의&nbsp;AX&nbsp;경쟁력&nbsp;제고<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;부울경을&nbsp;대표할&nbsp;수&nbsp;있는&nbsp;산업AX&nbsp;실증연구단지&nbsp;준비&nbsp;<br>&nbsp;&nbsp;○&nbsp;유니스트와&nbsp;울산대&nbsp;·&nbsp;울산과학대를&nbsp;연계하여&nbsp;산업&nbsp;AX&nbsp;연구벨트&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;AX&nbsp;실증을&nbsp;위해&nbsp;과감히&nbsp;규제를&nbsp;완화한&nbsp;특구&nbsp;준비<br>&nbsp;&nbsp;○&nbsp;울산테크노파크의&nbsp;사업과&nbsp;기능에&nbsp;중소기업에&nbsp;대한&nbsp;산업&nbsp;AX&nbsp;전환&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;울산형&nbsp;직업전환&nbsp;보장제,&nbsp;청년&nbsp;AX아카데미,&nbsp;숙련노동자&nbsp;AI&nbsp;동행사업&nbsp;등&nbsp;준비<br>&nbsp;&nbsp;○&nbsp;노사민정&nbsp;협의체와&nbsp;울산발전연구원의&nbsp;인력과&nbsp;기능을&nbsp;강화하여,&nbsp;변화에&nbsp;대한&nbsp;대응&nbsp;제고<br>&nbsp;&nbsp;○&nbsp;산업&nbsp;각&nbsp;기능별&nbsp;특화&nbsp;SLLM&nbsp;모델&nbsp;개발&nbsp;및&nbsp;개발모델&nbsp;상용화(중소기업포함)&nbsp;지원(울산테크노파크)<br>&nbsp;&nbsp;○&nbsp;석유화학산업&nbsp;운영&nbsp;및&nbsp;관리&nbsp;안전진단에&nbsp;특화된&nbsp;SLLM모델&nbsp;개발&nbsp;및&nbsp;상용화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;민자&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	동북아 에너지 물류 허브 울산을 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="동북아 에너지 물류 허브 울산을 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;석유·LNG·신재생에너지를&nbsp;아우르는&nbsp;에너지&nbsp;공급망을&nbsp;강화하여&nbsp;울산을&nbsp;대한민국&nbsp;에너지&nbsp;안보의&nbsp;핵심&nbsp;거점으로&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;부유식&nbsp;해상풍력&nbsp;등&nbsp;미래&nbsp;에너지&nbsp;산업을&nbsp;육성하고,&nbsp;국내외&nbsp;에너지&nbsp;기업&nbsp;유치를&nbsp;통해&nbsp;울산의&nbsp;에너지&nbsp;산업&nbsp;경쟁력을&nbsp;제고<br>&nbsp;&nbsp;○&nbsp;울산항의&nbsp;액화화물&nbsp;처리역량을&nbsp;확충하여&nbsp;에너지&nbsp;물류&nbsp;허브로서의&nbsp;위상&nbsp;강화&nbsp;&nbsp;&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;울산의&nbsp;석유&nbsp;·&nbsp;LNG&nbsp;·&nbsp;나프타&nbsp;등&nbsp;비축&nbsp;기능&nbsp;강화&nbsp;<br>&nbsp;&nbsp;○&nbsp;울산에&nbsp;더&nbsp;많은&nbsp;에너지&nbsp;기업&nbsp;유치&nbsp;<br>&nbsp;&nbsp;○&nbsp;국내기업&nbsp;참여가&nbsp;보장된&nbsp;단계적&nbsp;공공개발&nbsp;방식&nbsp;부유식&nbsp;해상풍력사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;중앙정부와&nbsp;함께&nbsp;자원수입선&nbsp;다변화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;울산항의&nbsp;액화화물&nbsp;처리역량&nbsp;AI기반&nbsp;강화,&nbsp;시설&nbsp;증설&nbsp;&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;민자&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	시민의 기본 삶을 지키겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="시민의 기본 삶을 지키겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;보육·돌봄·의료·안전&nbsp;등&nbsp;시민&nbsp;생활&nbsp;전반의&nbsp;공공서비스를&nbsp;확충하여&nbsp;누구도&nbsp;소외되지&nbsp;않는&nbsp;촘촘한&nbsp;복지&nbsp;안전망&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;울산형&nbsp;보육·어르신&nbsp;돌봄&nbsp;모델을&nbsp;개발하고,&nbsp;공공의료&nbsp;기능을&nbsp;강화하여&nbsp;생애주기별&nbsp;맞춤&nbsp;돌봄&nbsp;체계&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;안전한&nbsp;물&nbsp;공급,&nbsp;AI&nbsp;기반&nbsp;침수예측,&nbsp;문화예술&nbsp;인프라&nbsp;확대를&nbsp;통해&nbsp;시민이&nbsp;안전하고&nbsp;풍요롭게&nbsp;살&nbsp;수&nbsp;있는&nbsp;도시환경&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;‘울산형&nbsp;보육모델’&nbsp;개발,&nbsp;보육지원&nbsp;강화&nbsp;<br>&nbsp;&nbsp;○&nbsp;‘안전한&nbsp;물&nbsp;공급’과&nbsp;반구대를&nbsp;지키기&nbsp;위한&nbsp;‘물&nbsp;공급&nbsp;문제’&nbsp;해결<br>&nbsp;&nbsp;○&nbsp;의료취약지역&nbsp;중심으로&nbsp;공공의료&nbsp;기능&nbsp;보완&nbsp;및&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;‘통합돌봄’&nbsp;시행에&nbsp;맞춰&nbsp;울산형&nbsp;어르신&nbsp;돌봄체계&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;교육청과&nbsp;연계하여&nbsp;방과&nbsp;후&nbsp;아이돌봄&nbsp;내실&nbsp;제고<br>&nbsp;&nbsp;○&nbsp;시민공동체와&nbsp;함께하는&nbsp;문화예술인프라(물적,&nbsp;인적)&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;AI기반&nbsp;침수예측&nbsp;플랫폼&nbsp;구축을&nbsp;통한&nbsp;시민안전&nbsp;강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;민자&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	도시개발의 균형을 맞추겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="도시개발의 균형을 맞추겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;수년째&nbsp;표류&nbsp;중인&nbsp;지역개발사업의&nbsp;난제를&nbsp;해소하고,&nbsp;주거·교통·상권·교육이&nbsp;연계된&nbsp;생태계&nbsp;관점의&nbsp;균형&nbsp;있는&nbsp;도시개발을&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;재정·시설이&nbsp;취약한&nbsp;기초지방자치단체를&nbsp;두텁게&nbsp;지원하고,&nbsp;유휴&nbsp;공공부지를&nbsp;청년창업·공공인프라&nbsp;거점으로&nbsp;전환하여&nbsp;도시&nbsp;활력&nbsp;제고<br>&nbsp;&nbsp;○&nbsp;울산공항&nbsp;고도제한&nbsp;완화&nbsp;등&nbsp;도시&nbsp;성장을&nbsp;가로막는&nbsp;제도적&nbsp;장벽을&nbsp;걷어내어&nbsp;울산의&nbsp;미래&nbsp;발전&nbsp;가능성&nbsp;확장<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;북구진장명촌지구,&nbsp;B04재개발지구,&nbsp;웅촌택지개발지구,&nbsp;울산역&nbsp;KTX역세권&nbsp;개발사업&nbsp;등&nbsp;수년째&nbsp;표류하고&nbsp;있는&nbsp;지역개발사업&nbsp;난제&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;주거단지&nbsp;·&nbsp;교통&nbsp;·&nbsp;상권&nbsp;·&nbsp;교육&nbsp;등&nbsp;연계하여&nbsp;‘생태계’&nbsp;관점에서&nbsp;도시개발&nbsp;관리&nbsp;<br>&nbsp;&nbsp;○&nbsp;재정과&nbsp;시설이&nbsp;부족한&nbsp;기초지방자치단체에&nbsp;더&nbsp;많은&nbsp;시(市)의&nbsp;지원과&nbsp;관심&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;옥동군부대부지&nbsp;및&nbsp;울주군청사부지를&nbsp;미래산업에&nbsp;특화된&nbsp;청년창업생태계가&nbsp;안착하고,&nbsp;공공인프라&nbsp;기능이&nbsp;강화되도록&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;ICAO&nbsp;규정&nbsp;개정을&nbsp;활용하여,&nbsp;울산공항고도제한&nbsp;완화&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;민자&nbsp;등</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

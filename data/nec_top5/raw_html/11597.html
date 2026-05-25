@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김성수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	전북 경제 자산 주권 확보 (7조 전북 자산 펀드 구축)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="전북 경제 자산 주권 확보 (7조 전북 자산 펀드 구축)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;새만금·재생에너지&nbsp;등&nbsp;전북&nbsp;핵심&nbsp;자산을&nbsp;전북이&nbsp;직접&nbsp;확보·운영하는&nbsp;‘자산&nbsp;주권&nbsp;경제’&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;‘7조&nbsp;전북&nbsp;자산&nbsp;펀드’를&nbsp;조성하여&nbsp;중앙정부&nbsp;보조금&nbsp;의존형&nbsp;경제에서&nbsp;투자·수익형&nbsp;경제로&nbsp;전환<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;새만금&nbsp;자산&nbsp;확보&nbsp;및&nbsp;가치&nbsp;증대&nbsp;전략<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;토지&nbsp;용도&nbsp;변경과&nbsp;기반시설&nbsp;연계를&nbsp;통해&nbsp;자산&nbsp;가치를&nbsp;극대화(Value-up)하고&nbsp;장기&nbsp;수익&nbsp;자산화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;수익형&nbsp;자산&nbsp;구조&nbsp;및&nbsp;전북&nbsp;자산&nbsp;펀드&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;용도&nbsp;전환된&nbsp;산업용지를&nbsp;글로벌&nbsp;기업&nbsp;및&nbsp;전략&nbsp;산업에&nbsp;장기&nbsp;임대하여&nbsp;안정적&nbsp;임대&nbsp;수익&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;발생한&nbsp;임대·운영&nbsp;수익을&nbsp;기반으로&nbsp;‘7조&nbsp;전북&nbsp;자산&nbsp;펀드’를&nbsp;단계적으로&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;자산&nbsp;금융화&nbsp;및&nbsp;지역&nbsp;순환&nbsp;투자&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;재생에너지&nbsp;사업권,&nbsp;산업단지&nbsp;수익권,&nbsp;공공&nbsp;인프라&nbsp;자산&nbsp;등을&nbsp;연계한&nbsp;자산&nbsp;금융화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;자산&nbsp;유동화&nbsp;및&nbsp;투자&nbsp;구조&nbsp;설계를&nbsp;통해&nbsp;민간&nbsp;자본과&nbsp;정책금융을&nbsp;유치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~2027&nbsp;:&nbsp;자산&nbsp;확보&nbsp;및&nbsp;제도&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;2028~2029&nbsp;:&nbsp;기업&nbsp;생태계&nbsp;조성&nbsp;투자&nbsp;및&nbsp;7조&nbsp;펀드&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;2029~&nbsp;:&nbsp;지역&nbsp;산업&nbsp;재투자&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재생에너지&nbsp;투자시&nbsp;지방채·민간&nbsp;투자·공공&nbsp;SPC를&nbsp;활용한&nbsp;단계적&nbsp;재원&nbsp;조달<br>&nbsp;&nbsp;○&nbsp;재생에너지·산업단지&nbsp;수익권&nbsp;기반&nbsp;자산&nbsp;유동화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;자산&nbsp;수익&nbsp;기반의&nbsp;지속&nbsp;가능한&nbsp;투자&nbsp;구조&nbsp;구축</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	국가 균형발전을 선도하는「전북 4대 권역시」 운영 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="국가 균형발전을 선도하는「전북 4대 권역시」 운영 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;정부의&nbsp;‘5극&nbsp;3특’&nbsp;체계를&nbsp;넘어서는&nbsp;전북형&nbsp;초광역&nbsp;경제&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;행정경계&nbsp;넘어&nbsp;산업·교통·생활·재정이&nbsp;연결되는&nbsp;‘권역&nbsp;경제체계’&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;국가지원금&nbsp;20조&nbsp;원&nbsp;중&nbsp;5조&nbsp;원&nbsp;규모를&nbsp;‘전북산업출자계정’으로&nbsp;전환&nbsp;확보하여&nbsp;전북&nbsp;경제&nbsp;자립&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;간&nbsp;갈등과&nbsp;소모적&nbsp;통합&nbsp;논쟁을&nbsp;넘어,&nbsp;성과와&nbsp;실익&nbsp;중심의&nbsp;상생형&nbsp;권역&nbsp;발전&nbsp;모델&nbsp;정착<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;갈등&nbsp;중심&nbsp;통합이&nbsp;아닌&nbsp;‘성과&nbsp;기반&nbsp;권역&nbsp;협력’&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;행정구역은&nbsp;유지하되&nbsp;산업·교통·생활권&nbsp;연계&nbsp;‘기능형&nbsp;권역&nbsp;체계’&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;권역별&nbsp;공동&nbsp;사업의&nbsp;성과&nbsp;결과&nbsp;후&nbsp;주민&nbsp;공감대&nbsp;형성&nbsp;후&nbsp;통합논의.<br>&nbsp;&nbsp;○&nbsp;4대&nbsp;권역별&nbsp;기능&nbsp;특화&nbsp;및&nbsp;전략&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;전북산업출자계정&nbsp;및&nbsp;전북7조&nbsp;펀드&nbsp;운용<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;2027.&nbsp;06.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;4대&nbsp;권역&nbsp;운영&nbsp;기본계획&nbsp;및&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;권역별&nbsp;공동사업&nbsp;발굴&nbsp;및&nbsp;주민&nbsp;협의체&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;전북산업출자계정&nbsp;설치&nbsp;협의&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2027.&nbsp;07.&nbsp;~&nbsp;2028.&nbsp;12.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;권역별&nbsp;특화&nbsp;산업&nbsp;투자&nbsp;및&nbsp;앵커&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;권역&nbsp;연계&nbsp;교통·산업·생활&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공동&nbsp;수익사업&nbsp;시범&nbsp;운영&nbsp;및&nbsp;성과&nbsp;검증<br>&nbsp;&nbsp;○&nbsp;2029.&nbsp;01.&nbsp;~<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;권역&nbsp;간&nbsp;경제&nbsp;선순환&nbsp;체계&nbsp;본격&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;주민&nbsp;체감형&nbsp;성과&nbsp;확대&nbsp;및&nbsp;권역&nbsp;협력&nbsp;모델&nbsp;고도화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;국가&nbsp;균형발전&nbsp;선도&nbsp;모델로&nbsp;발전&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;균형발전&nbsp;예산&nbsp;및&nbsp;국가&nbsp;공모사업&nbsp;지원금을&nbsp;소모성&nbsp;재정이&nbsp;아닌&nbsp;‘전북&nbsp;산업&nbsp;출자금’으로&nbsp;전환하여&nbsp;전북의&nbsp;장기&nbsp;자산화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;공공-민간&nbsp;합동&nbsp;SPC&nbsp;및&nbsp;민간&nbsp;투자&nbsp;유치를&nbsp;통해&nbsp;추가&nbsp;재정&nbsp;부담&nbsp;최소화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	자산 금융화(STO)를 통한 전북 경제 시스템 혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="자산 금융화(STO)를 통한 전북 경제 시스템 혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;건물과&nbsp;기관&nbsp;유치&nbsp;중심의&nbsp;토건형&nbsp;금융도시를&nbsp;넘어,&nbsp;자산과&nbsp;수익&nbsp;흐름을&nbsp;설계하는&nbsp;‘금융&nbsp;시스템&nbsp;중심&nbsp;경제’로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;전북&nbsp;자산&nbsp;확보와&nbsp;&nbsp;4대&nbsp;권역&nbsp;운영&nbsp;체계를&nbsp;금융&nbsp;시스템으로&nbsp;연결<br>&nbsp;&nbsp;○&nbsp;실물&nbsp;자산&nbsp;기반&nbsp;STO(토큰증권)&nbsp;플랫폼&nbsp;구축을&nbsp;통해&nbsp;지역&nbsp;자본의&nbsp;순환·투자·재투자&nbsp;체계&nbsp;확립<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전북형&nbsp;자산&nbsp;금융화(STO)&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;새만금&nbsp;수익권,&nbsp;재생에너지&nbsp;사업권,&nbsp;산업단지&nbsp;임대수익권&nbsp;등을&nbsp;실물자산(RWA)&nbsp;기반&nbsp;디지털&nbsp;자산으로&nbsp;금융화<br>&nbsp;&nbsp;○&nbsp;금융&nbsp;시스템&nbsp;기반&nbsp;지역&nbsp;경제&nbsp;활성화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;STO&nbsp;수익&nbsp;일부를&nbsp;지역화폐&nbsp;및&nbsp;상권&nbsp;활성화&nbsp;펀드로&nbsp;환원하여&nbsp;소상공인&nbsp;매출&nbsp;확대와&nbsp;지역&nbsp;내&nbsp;소비&nbsp;순환&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;4대&nbsp;권역&nbsp;경제와&nbsp;연계한&nbsp;금융&nbsp;순환&nbsp;구조&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;디지털&nbsp;금융&nbsp;특구&nbsp;및&nbsp;제도&nbsp;기반&nbsp;선점<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;전북을&nbsp;실물자산(RWA)·STO&nbsp;기반&nbsp;디지털&nbsp;금융&nbsp;특구로&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;블록체인·디지털&nbsp;자산·정책금융&nbsp;분야&nbsp;전문&nbsp;기업과&nbsp;인력&nbsp;유입&nbsp;기반&nbsp;마련<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;2027.&nbsp;06.&nbsp;(시스템&nbsp;구축&nbsp;단계)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;STO&nbsp;통합&nbsp;플랫폼&nbsp;구축&nbsp;및&nbsp;자산&nbsp;금융화&nbsp;모델&nbsp;설계<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;자산&nbsp;금융화&nbsp;수익의&nbsp;복지&nbsp;환원&nbsp;조례&nbsp;제정&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2027.&nbsp;07.&nbsp;~&nbsp;2028.&nbsp;12.&nbsp;(실행&nbsp;및&nbsp;운영&nbsp;단계)<br>&nbsp;&nbsp;&nbsp;·&nbsp;지역&nbsp;상권&nbsp;활성화&nbsp;펀드&nbsp;운영&nbsp;및&nbsp;권역별&nbsp;복지&nbsp;사업&nbsp;시행<br>&nbsp;&nbsp;&nbsp;·&nbsp;디지털&nbsp;금융&nbsp;특구&nbsp;및&nbsp;금융&nbsp;기업&nbsp;유치&nbsp;본격화<br>&nbsp;&nbsp;○&nbsp;2029.&nbsp;01.&nbsp;~&nbsp;(확산&nbsp;및&nbsp;정착&nbsp;단계)<br>&nbsp;&nbsp;&nbsp;·&nbsp;전북형&nbsp;금융&nbsp;시스템&nbsp;안정화&nbsp;및&nbsp;투자&nbsp;순환&nbsp;확대<br>&nbsp;&nbsp;&nbsp;·&nbsp;금융&nbsp;전문&nbsp;인력&nbsp;및&nbsp;관련&nbsp;산업&nbsp;집적화&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;새만금&nbsp;수익권,&nbsp;재생에너지&nbsp;사업권&nbsp;등&nbsp;실물&nbsp;자산의&nbsp;금융화를&nbsp;통한&nbsp;선제적&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;중앙정부&nbsp;균형발전&nbsp;지원금(전북산업출자계정)과&nbsp;자산&nbsp;금융화&nbsp;자금을&nbsp;연계한&nbsp;재정&nbsp;부담&nbsp;최소화&nbsp;구조&nbsp;설계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	왕궁 생태-아레나13 프로젝트 및 공공형 카지노 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="왕궁 생태-아레나13 프로젝트 및 공공형 카지노 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;익산&nbsp;왕궁의&nbsp;생태&nbsp;복원과&nbsp;문화·관광·금융&nbsp;산업을&nbsp;결합<br>&nbsp;&nbsp;○&nbsp;공연·관광&nbsp;인프라와&nbsp;연계한&nbsp;유동&nbsp;인구&nbsp;확대&nbsp;및&nbsp;지역&nbsp;상권&nbsp;활성화&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;13년&nbsp;한시적&nbsp;공공형&nbsp;카지노&nbsp;운영을&nbsp;통해&nbsp;발생한&nbsp;수익을&nbsp;전북&nbsp;경제·복지·자산&nbsp;펀드에&nbsp;재투자하는&nbsp;선순환&nbsp;구조&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;왕궁&nbsp;생태복원과&nbsp;아레나&nbsp;복합&nbsp;개발&nbsp;추진<br>&nbsp;&nbsp;&nbsp;·&nbsp;생태·문화·관광·금융이&nbsp;결합된&nbsp;복합&nbsp;경제&nbsp;플랫폼으로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;·&nbsp;저층&nbsp;압축&nbsp;개발&nbsp;방식으로&nbsp;지역&nbsp;건설업체&nbsp;참여&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;·&nbsp;왕궁&nbsp;내부&nbsp;숙박시설은&nbsp;소규모&nbsp;체류형&nbsp;중심으로&nbsp;제한하여&nbsp;주변&nbsp;지역&nbsp;상권과&nbsp;연계&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;금융&nbsp;시스템&nbsp;및&nbsp;자산&nbsp;순환&nbsp;구조&nbsp;연계<br>&nbsp;&nbsp;&nbsp;·&nbsp;수익을&nbsp;&nbsp;‘7조&nbsp;전북&nbsp;자산&nbsp;펀드’&nbsp;및&nbsp;STO&nbsp;금융&nbsp;시스템과&nbsp;연계<br>&nbsp;&nbsp;&nbsp;·&nbsp;청년&nbsp;창업·상권&nbsp;활성화·생활&nbsp;복지·재생에너지&nbsp;투자&nbsp;등으로&nbsp;재투자<br>&nbsp;&nbsp;&nbsp;·&nbsp;블록체인&nbsp;기반&nbsp;지역&nbsp;결제&nbsp;및&nbsp;수익&nbsp;관리&nbsp;시스템&nbsp;도입&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;2027.&nbsp;06.&nbsp;(공론화&nbsp;및&nbsp;기반&nbsp;구축&nbsp;단계)<br>&nbsp;&nbsp;&nbsp;·&nbsp;주민&nbsp;공청회&nbsp;및&nbsp;지역&nbsp;상생&nbsp;협약&nbsp;추진<br>&nbsp;&nbsp;&nbsp;·&nbsp;공공형&nbsp;카지노&nbsp;특별법&nbsp;및&nbsp;제도&nbsp;개선&nbsp;협의<br>&nbsp;&nbsp;&nbsp;·&nbsp;왕궁&nbsp;생태·문화&nbsp;복합&nbsp;개발&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;2027.&nbsp;07.&nbsp;~&nbsp;2029.&nbsp;12.&nbsp;(조성&nbsp;및&nbsp;운영&nbsp;단계)<br>&nbsp;&nbsp;&nbsp;·&nbsp;아레나&nbsp;및&nbsp;생태공원&nbsp;조성&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;‘7조&nbsp;전북&nbsp;자산&nbsp;펀드’와&nbsp;민간&nbsp;투자&nbsp;및&nbsp;공공&nbsp;SPC를&nbsp;연계한&nbsp;단계적&nbsp;재원&nbsp;조달<br>&nbsp;&nbsp;○&nbsp;초기&nbsp;투자&nbsp;비용은&nbsp;민관&nbsp;협력&nbsp;방식으로&nbsp;조성하되,&nbsp;운영&nbsp;수익을&nbsp;통한&nbsp;자체&nbsp;회수(Self-Funding)&nbsp;구조&nbsp;구축</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	지역순환경제시스템</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="지역순환경제시스템">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전북의&nbsp;자산과&nbsp;수익이&nbsp;지역&nbsp;안에서&nbsp;순환·재투자되는&nbsp;‘지역순환경제(Circular&nbsp;Economy)’&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;1~4순위&nbsp;공약에서&nbsp;확보·운영·금융화된&nbsp;자산&nbsp;수익을&nbsp;도민과&nbsp;지역&nbsp;상권에&nbsp;환류<br>&nbsp;&nbsp;○&nbsp;블록체인&nbsp;기반의&nbsp;투명하고&nbsp;신뢰받는&nbsp;금융·복지&nbsp;생태계&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;PEPC·지역상권&nbsp;SPC&nbsp;기반&nbsp;지역순환경제&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지역&nbsp;소상공인·상인·도민이&nbsp;참여하는&nbsp;‘지역상권&nbsp;SPC’를&nbsp;단계적으로&nbsp;육성하여&nbsp;지역&nbsp;중심&nbsp;상권&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;블록체인&nbsp;기반&nbsp;투명&nbsp;자금&nbsp;관리&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;생활&nbsp;밀착형&nbsp;복지&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;새만금&nbsp;임대수익·재생에너지&nbsp;수익·공공형&nbsp;카지노&nbsp;수익&nbsp;등을&nbsp;기반으로&nbsp;교통·돌봄·생활&nbsp;복지&nbsp;우선&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;창업&nbsp;및&nbsp;미래세대&nbsp;투자&nbsp;구조&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;‘7조&nbsp;전북&nbsp;자산&nbsp;펀드’를&nbsp;청년&nbsp;창업&nbsp;및&nbsp;미래&nbsp;산업&nbsp;투자&nbsp;계정으로&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;2027.&nbsp;06.&nbsp;(기반&nbsp;구축&nbsp;단계)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;블록체인&nbsp;기반&nbsp;배당&nbsp;및&nbsp;지역순환경제&nbsp;플랫폼&nbsp;설계<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지역상권&nbsp;SPC&nbsp;시범&nbsp;사업&nbsp;및&nbsp;지역화폐&nbsp;연계&nbsp;모델&nbsp;착수<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공공&nbsp;자금&nbsp;투명&nbsp;관리&nbsp;시스템&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2027.&nbsp;07.&nbsp;~&nbsp;2028.&nbsp;12.&nbsp;(운영&nbsp;및&nbsp;확산&nbsp;단계)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;자산&nbsp;금융화&nbsp;및&nbsp;공공형&nbsp;카지노&nbsp;수익&nbsp;기반&nbsp;지역&nbsp;환류&nbsp;시작<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;상권&nbsp;활성화&nbsp;펀드&nbsp;및&nbsp;생활&nbsp;밀착형&nbsp;복지&nbsp;사업&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;2029.&nbsp;01.&nbsp;~&nbsp;(정착&nbsp;및&nbsp;고도화&nbsp;단계)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;전북형&nbsp;지역순환경제&nbsp;체계&nbsp;본격&nbsp;정착<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;청년&nbsp;창업&nbsp;및&nbsp;지역&nbsp;경제&nbsp;선순환&nbsp;구조&nbsp;안정화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;1~4순위&nbsp;공약에서&nbsp;발생하는&nbsp;새만금&nbsp;임대수익·재생에너지&nbsp;수익·공공형&nbsp;카지노&nbsp;수익&nbsp;등을&nbsp;지역순환경제&nbsp;재원으로&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;블록체인&nbsp;기반&nbsp;자동화&nbsp;시스템을&nbsp;활용하여&nbsp;행정&nbsp;비용을&nbsp;절감하고&nbsp;절감&nbsp;재원을&nbsp;복지와&nbsp;상권&nbsp;활성화에&nbsp;재투자</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

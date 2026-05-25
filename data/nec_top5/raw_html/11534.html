@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;오기원 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	 군수월급 4년간 전액 환원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title=" 군수월급 4년간 전액 환원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;군수월급&nbsp;4년간&nbsp;전액&nbsp;환원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;무보수,&nbsp;명예직,&nbsp;청렴한&nbsp;군수,&nbsp;변치&nbsp;않는&nbsp;약속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;처음&nbsp;마음&nbsp;그대로,&nbsp;4년&nbsp;동안&nbsp;꾸준히&nbsp;쌓아&nbsp;올릴&nbsp;영광의&nbsp;복지&nbsp;자산<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1회성이&nbsp;아닌&nbsp;임기&nbsp;내내&nbsp;아이와&nbsp;어르신을&nbsp;위한&nbsp;고정&nbsp;재원&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;군수&nbsp;월급&nbsp;전액&nbsp;환원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;4년간<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;군수&nbsp;월급</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	신재생 에너지 이익 공유제 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="신재생 에너지 이익 공유제 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;신재생&nbsp;에너지&nbsp;이익&nbsp;공유제&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소형&nbsp;태양광.풍력&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신재생&nbsp;에너지&nbsp;수익으로&nbsp;가구당&nbsp;월&nbsp;최대&nbsp;50~100만원&nbsp;지급&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민이&nbsp;매월&nbsp;실질적인&nbsp;혜택을&nbsp;체감하는&nbsp;‘에너지&nbsp;기본소득&nbsp;시대’<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;태양광.소형&nbsp;풍력&nbsp;수익으로&nbsp;가구당&nbsp;월&nbsp;50&nbsp;~&nbsp;100만원&nbsp;지급&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민이&nbsp;매월&nbsp;실직적인&nbsp;혜택을&nbsp;체감할&nbsp;수&nbsp;있도록&nbsp;에너지&nbsp;기본소득시대&nbsp;만들겠다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;4년간,&nbsp;그&nbsp;이후까지&nbsp;지속<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;태양광.소형&nbsp;풍력&nbsp;기업의&nbsp;영광군&nbsp;이전&nbsp;사업&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고정재원&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	하우스 · 축사 지붕 태양광 필름 우선 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="하우스 · 축사 지붕 태양광 필름 우선 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;하우스&nbsp;.&nbsp;축사&nbsp;지붕&nbsp;태양광&nbsp;필름&nbsp;우선&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영광읍.묘량.불갑.대마.군남.군서면&nbsp;하우스.축사&nbsp;지붕&nbsp;태양광&nbsp;필름&nbsp;우선&nbsp;지원<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;하우스.축사&nbsp;지붕&nbsp;태양광&nbsp;필름&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군&nbsp;전체를&nbsp;통틀어&nbsp;하우스나&nbsp;축산&nbsp;농가들이&nbsp;많습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;하우스나&nbsp;축사&nbsp;지붕에&nbsp;태양광&nbsp;필름을&nbsp;씌우게&nbsp;되면&nbsp;100평당&nbsp;매월&nbsp;100만원의&nbsp;수익이&nbsp;발생<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후가&nbsp;되면&nbsp;그&nbsp;위에&nbsp;다시&nbsp;씌울&nbsp;수&nbsp;있도록&nbsp;함.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;4년간,&nbsp;그&nbsp;이후까지&nbsp;지속<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;태양광.소형&nbsp;풍력&nbsp;기업의&nbsp;영광군&nbsp;이전&nbsp;사업&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고정재원&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	영광군 경로당 지붕 태양광 발전 설비 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="영광군 경로당 지붕 태양광 발전 설비 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;영광군&nbsp;경로당&nbsp;지붕&nbsp;태양광&nbsp;발전&nbsp;설비&nbsp;설치<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;‘청정&nbsp;쉼터’&nbsp;조성&nbsp;및&nbsp;경로당&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을&nbsp;공동체&nbsp;자립화&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지붕&nbsp;태양광으로&nbsp;매월&nbsp;쏟아지는&nbsp;자원은&nbsp;경로당&nbsp;발전과&nbsp;이익을&nbsp;위해&nbsp;쓰여질&nbsp;것임.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;4년간,&nbsp;그&nbsp;이후까지&nbsp;지속<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;태양광.소형&nbsp;풍력&nbsp;기업의&nbsp;영광군&nbsp;이전&nbsp;사업&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고정재원&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	 불갑면 일원 ‘관상식물 테마 종합 관광단지’ 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title=" 불갑면 일원 ‘관상식물 테마 종합 관광단지’ 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;불갑면&nbsp;일원&nbsp;‘관상식물&nbsp;테마&nbsp;종합&nbsp;관광단지’&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1회성&nbsp;관광을&nbsp;넘어선&nbsp;‘체류형&nbsp;산업&nbsp;관광’&nbsp;정착으로&nbsp;지역&nbsp;경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;어린이.노인&nbsp;식물&nbsp;테마공원&nbsp;및&nbsp;난초,&nbsp;풍란,&nbsp;다육이,&nbsp;야생화&nbsp;전시판매장&nbsp;설치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;4년간,&nbsp;그&nbsp;이후까지&nbsp;지속<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비&nbsp;1500억</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

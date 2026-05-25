@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이병철 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	김제 시민 기본소득 지급</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="김제 시민 기본소득 지급">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표<br>-시민&nbsp;체감형&nbsp;복지&nbsp;실현&nbsp;:&nbsp;모든&nbsp;시민에게&nbsp;최소한의&nbsp;생활비를&nbsp;지원하여&nbsp;경제적&nbsp;안정&nbsp;도모.<br>-지역&nbsp;경제&nbsp;활성화&nbsp;:&nbsp;지역&nbsp;내에서&nbsp;소비되도록&nbsp;유도하여&nbsp;소상공인과&nbsp;자영업자의&nbsp;매출&nbsp;증대.<br>-지역소멸&nbsp;대응&nbsp;:&nbsp;기본소득&nbsp;지급을&nbsp;통한&nbsp;인구&nbsp;유입&nbsp;촉진&nbsp;및&nbsp;인구&nbsp;유출&nbsp;방지.<br><br>2.&nbsp;이행&nbsp;방법<br>-지급&nbsp;대상&nbsp;:&nbsp;김제시에&nbsp;주소를&nbsp;둔&nbsp;모든&nbsp;시민.<br>-지급&nbsp;형태&nbsp;:&nbsp;현금이&nbsp;아닌&nbsp;'김제사랑상품권'&nbsp;또는&nbsp;'지역화폐&nbsp;카드'로&nbsp;지급.<br>-지급&nbsp;횟수&nbsp;:&nbsp;연간&nbsp;분기별&nbsp;배분&nbsp;또는&nbsp;반기별&nbsp;배분<br><br>3.&nbsp;이행&nbsp;기간<br>-1단계(2026.7-2026.12)&nbsp;:&nbsp;기본소득&nbsp;지급을&nbsp;위한&nbsp;조례&nbsp;제정&nbsp;및&nbsp;관련&nbsp;예산&nbsp;편성.<br>-2단계(2027.1-2027.12)&nbsp;:&nbsp;1차&nbsp;지급&nbsp;시행&nbsp;및&nbsp;소비효과&nbsp;및&nbsp;매출&nbsp;분석<br>-3단계(2028.1-2030.6)&nbsp;:&nbsp;김제형&nbsp;기본소득&nbsp;모델&nbsp;구축<br><br>4.&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;<br>-불필요한&nbsp;행사&nbsp;조정&nbsp;및&nbsp;유사·중복&nbsp;사업&nbsp;통폐합:&nbsp;대규모&nbsp;일회성&nbsp;행사&nbsp;축소<br>-국·도비&nbsp;매칭&nbsp;확보:&nbsp;중앙정부&nbsp;지역소멸&nbsp;대응기금&nbsp;활용,&nbsp;전북특별자치도&nbsp;민생회복정책과&nbsp;연계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	365 어린이 방과 후 및 주말 센터 운영 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="365 어린이 방과 후 및 주말 센터 운영 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄&nbsp;사각지대&nbsp;해소&nbsp;:&nbsp;맞벌이&nbsp;부부,&nbsp;한부모&nbsp;가정&nbsp;등이&nbsp;겪는&nbsp;퇴근&nbsp;시간&nbsp;이후&nbsp;및&nbsp;주말&nbsp;돌봄&nbsp;공백을&nbsp;100%&nbsp;충당.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;김제&nbsp;조성&nbsp;:&nbsp;“김제에서는&nbsp;안심하고&nbsp;아이를&nbsp;키울&nbsp;수&nbsp;있다”는&nbsp;도시&nbsp;이미지&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공동육아형&nbsp;지역사회&nbsp;구축&nbsp;:&nbsp;학교·마을·복지기관&nbsp;연계,&nbsp;은퇴교사·지역인재&nbsp;참여&nbsp;확대<br><br>2.&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;거점형&nbsp;돌봄&nbsp;센터&nbsp;지정&nbsp;:&nbsp;관내&nbsp;유휴&nbsp;공공시설,&nbsp;복지관,&nbsp;아파트&nbsp;단지&nbsp;내&nbsp;커뮤니티&nbsp;공간을&nbsp;리모델링하여&nbsp;'365&nbsp;돌봄&nbsp;거점'을&nbsp;확보.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;운영&nbsp;시간의&nbsp;획기적&nbsp;확대&nbsp;:&nbsp;평일&nbsp;저녁(22시까지)&nbsp;및&nbsp;토·일요일,&nbsp;공휴일에도&nbsp;운영하는&nbsp;‘연중무휴'&nbsp;체계를&nbsp;도입.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전문&nbsp;인력&nbsp;배치&nbsp;:&nbsp;보육교사,&nbsp;사회복지사&nbsp;등&nbsp;전문&nbsp;자격을&nbsp;갖춘&nbsp;인력을&nbsp;채용하고,&nbsp;지역&nbsp;내&nbsp;경력단절&nbsp;여성을&nbsp;우선&nbsp;고용하여&nbsp;일자리&nbsp;창출&nbsp;도모.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;맞춤형&nbsp;프로그램&nbsp;운영&nbsp;:&nbsp;단순&nbsp;대기형&nbsp;돌봄이&nbsp;아닌&nbsp;예체능,&nbsp;코딩,&nbsp;독서&nbsp;지도&nbsp;등&nbsp;아이들의&nbsp;창의성을&nbsp;기르는&nbsp;양질의&nbsp;교육&nbsp;프로그램을&nbsp;병행.<br><br>3.&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단계(2026.7.-2026.12)&nbsp;:&nbsp;돌봄&nbsp;수요&nbsp;전수조사&nbsp;실시,&nbsp;운영&nbsp;조례&nbsp;제정&nbsp;및&nbsp;거점&nbsp;시설&nbsp;선정.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2단계(202.1-2027.12)&nbsp;:&nbsp;거점별&nbsp;센터&nbsp;리모델링&nbsp;및&nbsp;인력&nbsp;채용,&nbsp;시범&nbsp;운영&nbsp;센터(2~3개소)&nbsp;개소.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3단계(2028.1-2030.12)&nbsp;:&nbsp;김제시&nbsp;전역으로&nbsp;거점&nbsp;센터&nbsp;확대&nbsp;운영&nbsp;및&nbsp;고도화.<br><br>4.&nbsp;재원&nbsp;조달&nbsp;방안<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국·도비&nbsp;지원사업&nbsp;활용:&nbsp;보건복지부의&nbsp;'다함께&nbsp;돌봄센터'&nbsp;및&nbsp;전북특별자치도&nbsp;지원&nbsp;사업비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전북특별자치도&nbsp;매칭사업&nbsp;연계:&nbsp;농촌형&nbsp;돌봄모델&nbsp;시범사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시비&nbsp;우선&nbsp;편성:&nbsp;시&nbsp;예산&nbsp;중&nbsp;불요불급한&nbsp;홍보비나&nbsp;행사비&nbsp;절감을&nbsp;통해&nbsp;돌봄&nbsp;운영비&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	김제문화관광재단 설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="김제문화관광재단 설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;문화&nbsp;자치&nbsp;실현:&nbsp;지역&nbsp;예술인과&nbsp;시민이&nbsp;주도하는&nbsp;문화생태계&nbsp;조성.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;문화&nbsp;콘텐츠&nbsp;컨트롤&nbsp;타워&nbsp;역할:&nbsp;김제&nbsp;지평선&nbsp;축제를&nbsp;비롯한&nbsp;향후&nbsp;김제시립미술관&nbsp;설립&nbsp;등&nbsp;지역&nbsp;대표&nbsp;콘텐츠의&nbsp;일관성과&nbsp;전문성&nbsp;확보.<br><br>2.&nbsp;필요성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전문성&nbsp;확보&nbsp;:&nbsp;순환보직제&nbsp;중심의&nbsp;공무원&nbsp;조직만으로는&nbsp;급변하는&nbsp;글로벌&nbsp;관광&nbsp;트렌드와&nbsp;콘텐츠&nbsp;기획에&nbsp;대응하는&nbsp;데&nbsp;한계가&nbsp;있음.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;소멸&nbsp;위기&nbsp;대응&nbsp;:&nbsp;김제의&nbsp;강점인&nbsp;인문학&nbsp;자산의&nbsp;문화관광&nbsp;자원화를&nbsp;통해&nbsp;관광&nbsp;생활인구&nbsp;확대&nbsp;및&nbsp;지역&nbsp;예술&nbsp;문화&nbsp;경쟁력&nbsp;제고<br><br>3.&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;설립&nbsp;근거&nbsp;마련&nbsp;:&nbsp;김제문화관광재단&nbsp;설립&nbsp;및&nbsp;운영에&nbsp;관한&nbsp;조례’&nbsp;제정&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전문인력&nbsp;확보&nbsp;:&nbsp;축제&nbsp;기획,&nbsp;관광&nbsp;마케팅,&nbsp;문화예술&nbsp;지원&nbsp;등&nbsp;분야별&nbsp;외부&nbsp;전문가&nbsp;영입을&nbsp;통해&nbsp;조직&nbsp;경쟁력&nbsp;강화.<br><br>4.&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단계(2026.7-2026.12)&nbsp;:&nbsp;타당성&nbsp;검토&nbsp;용역&nbsp;시행,&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;전북특별자치도&nbsp;협의&nbsp;완료.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2단계(2027.1-2027.12)&nbsp;:&nbsp;조례&nbsp;제정&nbsp;및&nbsp;사무국&nbsp;구성,&nbsp;재단&nbsp;공식&nbsp;출범.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3단계(2028.1-2030.12)&nbsp;:&nbsp;김제&nbsp;특화&nbsp;문화？관광&nbsp;구축&nbsp;및&nbsp;브랜드&nbsp;강화<br><br>5.&nbsp;재원조달방안<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기본재산&nbsp;출연&nbsp;:&nbsp;김제시&nbsp;예산을&nbsp;투입하여&nbsp;초기&nbsp;자본금&nbsp;조성.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지속적&nbsp;예산&nbsp;지원&nbsp;:&nbsp;매년&nbsp;시비&nbsp;지원을&nbsp;통해&nbsp;인건비&nbsp;및&nbsp;사업비&nbsp;확보.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국·도비&nbsp;공모사업&nbsp;유치&nbsp;:&nbsp;문화체육관광부의&nbsp;‘관광거점도시’？‘‘문화도시’&nbsp;지정&nbsp;등을&nbsp;통한&nbsp;대규모&nbsp;국비&nbsp;확보.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	어르신 행복 돌봄 서비스 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="어르신 행복 돌봄 서비스 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표<br>-&nbsp;정부&nbsp;정책&nbsp;실현&nbsp;:&nbsp;이재명&nbsp;정부의&nbsp;가&nbsp;핵심적으로&nbsp;추진하고&nbsp;있는&nbsp;국가적&nbsp;차원의&nbsp;핵심&nbsp;복지정책의&nbsp;추진<br>-&nbsp;돌봄의&nbsp;공공성&nbsp;강화&nbsp;:&nbsp;돌봄&nbsp;책임을&nbsp;가족에서&nbsp;국가와&nbsp;사회로&nbsp;전환하여&nbsp;'돌봄&nbsp;독박'&nbsp;문제&nbsp;해결.<br><br>2.&nbsp;이행&nbsp;방법<br>-&nbsp;통합지원센터&nbsp;설치&nbsp;:&nbsp;읍·면·동&nbsp;단위에&nbsp;돌봄&nbsp;창구를&nbsp;단일화하여&nbsp;접수부터&nbsp;서비스&nbsp;연계까지&nbsp;한&nbsp;번에&nbsp;처리<br>-&nbsp;재택의료&nbsp;센터&nbsp;및&nbsp;방문간호&nbsp;확대&nbsp;:&nbsp;거동&nbsp;불편&nbsp;어르신을&nbsp;위해&nbsp;의사와&nbsp;간호사가&nbsp;직접&nbsp;가정을&nbsp;방문하는&nbsp;의료&nbsp;서비스&nbsp;강화.<br>-&nbsp;케어안심주택&nbsp;확충&nbsp;:&nbsp;돌봄&nbsp;서비스가&nbsp;결합&nbsp;된&nbsp;고령자&nbsp;맞춤형&nbsp;공공임대주택&nbsp;보급.<br><br>3.&nbsp;이행기간<br>-&nbsp;1단계(2026.1-2026.12)&nbsp;:&nbsp;통합&nbsp;돌봄&nbsp;표준&nbsp;모델&nbsp;개발,&nbsp;<br>-&nbsp;2단계(2027.1-2027.12)&nbsp;:&nbsp;통합지원센터&nbsp;구축&nbsp;및&nbsp;돌봄&nbsp;인력&nbsp;전문&nbsp;교육·배치.<br>-&nbsp;3단계(2028.1-2030.12&nbsp;)&nbsp;:&nbsp;서비스&nbsp;고도화&nbsp;및&nbsp;민간&nbsp;돌봄&nbsp;영역과의&nbsp;연계&nbsp;체계&nbsp;완성<br><br>4.&nbsp;재원조달&nbsp;방안&nbsp;<br>-&nbsp;국고&nbsp;및&nbsp;지방비&nbsp;매칭&nbsp;:&nbsp;정부의&nbsp;사회복지&nbsp;예산&nbsp;증액과&nbsp;지자체&nbsp;자체&nbsp;재원을&nbsp;결합한&nbsp;공동&nbsp;부담&nbsp;원칙.<br>-&nbsp;사회보장기금&nbsp;활용&nbsp;:&nbsp;국민건강보험&nbsp;및&nbsp;노인장기요양보험&nbsp;재정의&nbsp;효율적&nbsp;재배분을&nbsp;통한&nbsp;시범&nbsp;사업&nbsp;예산&nbsp;확보.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	김제성산 랜드마크 조성 사업</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="김제성산 랜드마크 조성 사업">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표<br>-&nbsp;역사적&nbsp;정체성&nbsp;회복&nbsp;:&nbsp;성산이&nbsp;가진&nbsp;역사적&nbsp;가치를&nbsp;복원하여&nbsp;김제&nbsp;시민의&nbsp;자긍심을&nbsp;고취하고&nbsp;교육의&nbsp;장으로&nbsp;활용.<br>-&nbsp;관광&nbsp;랜드마크&nbsp;조성&nbsp;:&nbsp;노후화된&nbsp;공원&nbsp;시설을&nbsp;전면&nbsp;개보수하고&nbsp;차별화된&nbsp;콘텐츠를&nbsp;도입하여&nbsp;외지&nbsp;관광객이&nbsp;찾아오는&nbsp;명소로&nbsp;육성.<br>-&nbsp;시민&nbsp;복합&nbsp;휴식&nbsp;공간&nbsp;확충&nbsp;:&nbsp;도심&nbsp;속&nbsp;녹지&nbsp;공간을&nbsp;안전하고&nbsp;쾌적하게&nbsp;정비하여&nbsp;시민들의&nbsp;삶의&nbsp;질&nbsp;향상&nbsp;및&nbsp;정주&nbsp;여건&nbsp;개선.<br><br>2.&nbsp;이행방법<br>-&nbsp;역사문화&nbsp;복원&nbsp;및&nbsp;정비&nbsp;:&nbsp;성산산성&nbsp;유적지의&nbsp;체계적인&nbsp;보존&nbsp;관리&nbsp;및&nbsp;안내&nbsp;체계&nbsp;정비,&nbsp;김제&nbsp;관아와&nbsp;향교를&nbsp;잇는&nbsp;역사&nbsp;탐방로&nbsp;조성.<br>-&nbsp;성산&nbsp;관광&nbsp;인프라&nbsp;구축&nbsp;:&nbsp;성산&nbsp;순환&nbsp;산책로&nbsp;조성,&nbsp;전통정원·조성,&nbsp;어린이&nbsp;맞춤형&nbsp;숲&nbsp;놀이터&nbsp;등<br>-&nbsp;시민&nbsp;친화&nbsp;공간&nbsp;확대&nbsp;:&nbsp;가족형&nbsp;피크닉&nbsp;공간,&nbsp;황톳길&nbsp;조성,&nbsp;어린이&nbsp;자연체험&nbsp;공간&nbsp;설치,&nbsp;시민&nbsp;야외공연장&nbsp;운영<br><br>3.&nbsp;이행기간<br>-&nbsp;1단계(20206.7-2026.12)&nbsp;:&nbsp;성산&nbsp;일대&nbsp;마스터플랜&nbsp;수립,&nbsp;문화재&nbsp;현상변경&nbsp;협의&nbsp;및&nbsp;실시설계&nbsp;용역&nbsp;추진.<br>-&nbsp;2단계(2027.1-2028.6)&nbsp;:&nbsp;노후&nbsp;시설물&nbsp;철거,&nbsp;진입로&nbsp;및&nbsp;주차장&nbsp;정비,&nbsp;산책로&nbsp;정비&nbsp;등&nbsp;기초&nbsp;공사&nbsp;착수.<br>-&nbsp;3단계(2028.7-2030.12)&nbsp;:&nbsp;전망대&nbsp;리모델링,&nbsp;야간&nbsp;조명&nbsp;설치,&nbsp;테마&nbsp;정원&nbsp;및&nbsp;휴게&nbsp;시설&nbsp;완공&nbsp;후&nbsp;본격&nbsp;개장.<br><br>4.&nbsp;재원조달방안<br>-&nbsp;국·도비&nbsp;지원&nbsp;확보&nbsp;:&nbsp;문화체육관광부의&nbsp;'관광자원개발사업'&nbsp;및&nbsp;국가유산청의&nbsp;'역사문화환경&nbsp;정비사업'&nbsp;공모를&nbsp;통한&nbsp;예산&nbsp;확보.<br>-&nbsp;지방비&nbsp;매칭&nbsp;:&nbsp;김제시와&nbsp;전북특별자치도의&nbsp;예산을&nbsp;연차별&nbsp;사업&nbsp;계획에&nbsp;따라&nbsp;편성하여&nbsp;안정적&nbsp;공사비&nbsp;집행.<br>-&nbsp;지역발전특별회계&nbsp;활용&nbsp;:&nbsp;인구소멸대응&nbsp;기금&nbsp;및&nbsp;지역&nbsp;균형&nbsp;발전을&nbsp;위한&nbsp;특별&nbsp;회계&nbsp;자금&nbsp;우선&nbsp;배정&nbsp;검토.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

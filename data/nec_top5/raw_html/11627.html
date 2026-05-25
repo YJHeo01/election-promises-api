@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;조지훈 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	재정·인구 문제 극복과 해결</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="재정·인구 문제 극복과 해결">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;(재정&nbsp;상황)&nbsp;전주시&nbsp;채무관리&nbsp;계획&nbsp;기준으로&nbsp;2026년&nbsp;연말&nbsp;부채&nbsp;금액은&nbsp;6,891억&nbsp;원으로&nbsp;전국&nbsp;기초자치단체&nbsp;중&nbsp;최대&nbsp;규모<br>&nbsp;&nbsp;○&nbsp;(인구&nbsp;현황)&nbsp;전주시&nbsp;인구는&nbsp;2026년&nbsp;3월&nbsp;62만&nbsp;2,915명으로&nbsp;2020년&nbsp;65만&nbsp;7,432명과&nbsp;비교해&nbsp;3만&nbsp;명&nbsp;이상의&nbsp;급격한&nbsp;인구&nbsp;감소<br>&nbsp;&nbsp;○&nbsp;(정책&nbsp;배경)&nbsp;재정과&nbsp;인구는&nbsp;도시의&nbsp;지속&nbsp;가능한&nbsp;구조를&nbsp;지탱하는&nbsp;가장&nbsp;중요한&nbsp;바탕으로&nbsp;막대한&nbsp;부채와&nbsp;급격한&nbsp;인구&nbsp;감소&nbsp;문제를&nbsp;해결하지&nbsp;않고는&nbsp;전주의&nbsp;발전과&nbsp;번영을&nbsp;이룰&nbsp;수&nbsp;없음<br>&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;목표&nbsp;:&nbsp;부채&nbsp;감축과&nbsp;인구&nbsp;절벽&nbsp;해소<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;재정&nbsp;문제<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방향&nbsp;:&nbsp;정확한&nbsp;진단과&nbsp;투명한&nbsp;공개,&nbsp;시민과&nbsp;함께&nbsp;해결<br>&nbsp;&nbsp;&nbsp;&nbsp;①&nbsp;비상재정&nbsp;TF&nbsp;구성&nbsp;:&nbsp;재정진단과&nbsp;실행&nbsp;계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;②&nbsp;시급성&nbsp;·&nbsp;중요도&nbsp;·&nbsp;필요성에&nbsp;기반한&nbsp;'재정&nbsp;집행&nbsp;원칙'&nbsp;정립<br>&nbsp;&nbsp;&nbsp;&nbsp;③&nbsp;세출&nbsp;혁신&nbsp;:&nbsp;국·도비&nbsp;사업&nbsp;전면&nbsp;점검&nbsp;·&nbsp;선택과&nbsp;집중<br>&nbsp;&nbsp;&nbsp;&nbsp;④&nbsp;세입&nbsp;확대&nbsp;:&nbsp;교부세&nbsp;·&nbsp;고향&nbsp;사랑&nbsp;기부금&nbsp;·&nbsp;미납금&nbsp;징수&nbsp;등<br>&nbsp;&nbsp;○&nbsp;인구&nbsp;문제<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방향&nbsp;:&nbsp;분야별&nbsp;·&nbsp;세대별&nbsp;맞춤형&nbsp;정책의&nbsp;종합행정&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;①&nbsp;시장&nbsp;직속&nbsp;인구&nbsp;전략위원회로&nbsp;정책&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;②&nbsp;전주의&nbsp;아이를&nbsp;함께&nbsp;키우는&nbsp;'아이&nbsp;수당'&nbsp;신설&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;③&nbsp;어린이와&nbsp;청소년&nbsp;'100원&nbsp;버스'&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;④&nbsp;AI&nbsp;기반&nbsp;경제&nbsp;일자리&nbsp;확대&nbsp;·&nbsp;신중년&nbsp;종합&nbsp;계획&nbsp;수립&nbsp;<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년&nbsp;계속&nbsp;사업<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·도·시비&nbsp;편성의&nbsp;예산&nbsp;계획</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	피지컬AI 특별도시 전주</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="피지컬AI 특별도시 전주">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;(정책&nbsp;배경)&nbsp;역사적&nbsp;반도체&nbsp;호황은&nbsp;AI&nbsp;기반&nbsp;경제로의&nbsp;급격한&nbsp;전환을&nbsp;상징하고&nbsp;전주는&nbsp;실물&nbsp;AI로&nbsp;불리는&nbsp;피지컬AI&nbsp;투자의&nbsp;선두로&nbsp;부상&nbsp;중<br>&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;목표&nbsp;:&nbsp;로봇·드론·자율주행&nbsp;등&nbsp;미래를&nbsp;주도할&nbsp;피지컬AI&nbsp;산업&nbsp;선도<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전주와&nbsp;새만금을&nbsp;잇는&nbsp;피지컬AI&nbsp;벨트&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방향&nbsp;:&nbsp;연구·생산·실증이&nbsp;순환하는&nbsp;산업&nbsp;생태계<br>&nbsp;&nbsp;&nbsp;&nbsp;①&nbsp;산·학·방(미디어)&nbsp;연계한&nbsp;산업&nbsp;기획과&nbsp;인재&nbsp;양성<br>&nbsp;&nbsp;&nbsp;&nbsp;②&nbsp;로봇과&nbsp;드론&nbsp;등을&nbsp;통한&nbsp;교통,&nbsp;안전,&nbsp;돌봄&nbsp;뒷받침<br>&nbsp;&nbsp;&nbsp;&nbsp;③&nbsp;지역기업을&nbsp;키우는&nbsp;AI&nbsp;펀드&nbsp;·&nbsp;데이터플랫폼&nbsp;센터&nbsp;조성<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;세계에서&nbsp;AI를&nbsp;가장&nbsp;잘&nbsp;쓰는&nbsp;전주시민<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방향&nbsp;:&nbsp;AI&nbsp;격차&nbsp;없이&nbsp;모두가&nbsp;누리는&nbsp;AI&nbsp;기본사회<br>&nbsp;&nbsp;&nbsp;&nbsp;①&nbsp;AI&nbsp;시민대학&nbsp;개설<br>&nbsp;&nbsp;&nbsp;&nbsp;②&nbsp;폭우·폭설&nbsp;대비&nbsp;AI&nbsp;안심&nbsp;지도&nbsp;조성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;③&nbsp;AI&nbsp;기반&nbsp;스마트&nbsp;시니어&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;④&nbsp;AI의&nbsp;언어인&nbsp;수학에&nbsp;강한,&nbsp;수학&nbsp;특별도시&nbsp;전주&nbsp;<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년&nbsp;계속&nbsp;사업<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·도·시비&nbsp;편성의&nbsp;예산&nbsp;계획<br>&nbsp;&nbsp;○&nbsp;현대차그룹에&nbsp;이은&nbsp;후속&nbsp;민간&nbsp;투자<br>&nbsp;&nbsp;○&nbsp;정부와&nbsp;금융기관&nbsp;중심의&nbsp;'성장&nbsp;펀드'&nbsp;조성·유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	아시아 5대 문화산업 도시 전주</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="아시아 5대 문화산업 도시 전주">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;(정책&nbsp;배경)&nbsp;일천&nbsp;년&nbsp;이상의&nbsp;역사와&nbsp;서사가&nbsp;깃든&nbsp;전주의&nbsp;문화는&nbsp;단순한&nbsp;기억과&nbsp;기록이&nbsp;아닌,&nbsp;우리&nbsp;시대&nbsp;최고의&nbsp;산업&nbsp;자원으로&nbsp;가치가&nbsp;높음<br>&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;목표&nbsp;:&nbsp;전주의&nbsp;역사·서사·문화가&nbsp;산업으로&nbsp;정립되어&nbsp;시민의&nbsp;삶을&nbsp;책임지는&nbsp;먹거리가&nbsp;되는&nbsp;K-문화산업의&nbsp;중심지<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;후백제·조선·동학혁명을&nbsp;관통하는&nbsp;역사&nbsp;도시&nbsp;전주<br>&nbsp;&nbsp;&nbsp;&nbsp;①&nbsp;후백제&nbsp;고도&nbsp;지정과&nbsp;역사문화센터<br>&nbsp;&nbsp;&nbsp;&nbsp;②&nbsp;동학혁명&nbsp;특화&nbsp;사업&nbsp;:&nbsp;아시아&nbsp;민중혁명&nbsp;문화제&nbsp;·&nbsp;전주화약&nbsp;공원&nbsp;추진<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;지역과&nbsp;함께&nbsp;성장하는&nbsp;영화&nbsp;도시&nbsp;전주<br>&nbsp;&nbsp;&nbsp;&nbsp;①&nbsp;민관협력의&nbsp;'지역&nbsp;영화위원회'&nbsp;구성으로&nbsp;거버넌스&nbsp;재편<br>&nbsp;&nbsp;&nbsp;&nbsp;②&nbsp;전주&nbsp;영화인의&nbsp;활동&nbsp;거점&nbsp;조성과&nbsp;운용&nbsp;계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;③&nbsp;전주&nbsp;콘텐츠&nbsp;중심의&nbsp;지역&nbsp;장편영화&nbsp;유통배급&nbsp;지원&nbsp;강화<br><br>○&nbsp;한옥마을을&nbsp;지키고&nbsp;확대하는&nbsp;문화관광&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;①&nbsp;한옥마을을&nbsp;시작으로&nbsp;전북&nbsp;곳곳을&nbsp;오가는&nbsp;도심&nbsp;항공&nbsp;[드론&nbsp;택시]<br>&nbsp;&nbsp;&nbsp;&nbsp;②&nbsp;불이&nbsp;꺼지지&nbsp;않는&nbsp;K-콘텐츠&nbsp;제작&nbsp;거리&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;③&nbsp;백반과&nbsp;가맥&nbsp;등&nbsp;전주&nbsp;음식을&nbsp;살린&nbsp;콘텐츠·산업화<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년&nbsp;계속&nbsp;사업<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·도·시비&nbsp;편성의&nbsp;예산&nbsp;계획</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	시민 돌봄 책임 도시 전주</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="시민 돌봄 책임 도시 전주">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;시민의&nbsp;온전한&nbsp;삶을&nbsp;지키고&nbsp;책임지는&nbsp;전주<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;아이를&nbsp;함께&nbsp;키우는&nbsp;전주<br>&nbsp;&nbsp;&nbsp;&nbsp;①&nbsp;전주형&nbsp;'아이&nbsp;수당'&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;②&nbsp;어린이·청소년&nbsp;100원&nbsp;버스<br>&nbsp;&nbsp;&nbsp;&nbsp;③&nbsp;모든&nbsp;청소년&nbsp;나이&nbsp;여성에게&nbsp;'생리용품&nbsp;바우처'&nbsp;지급&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;당당한&nbsp;전주&nbsp;청년과&nbsp;함께<br>&nbsp;&nbsp;&nbsp;&nbsp;①&nbsp;이재명&nbsp;정부의&nbsp;청년&nbsp;주택&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;②&nbsp;어학&nbsp;18종,&nbsp;국가자격증&nbsp;884종&nbsp;응시&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;③&nbsp;통신비&nbsp;절감,&nbsp;전주&nbsp;곳곳&nbsp;데이터&nbsp;프리존&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;어르신과&nbsp;행복한&nbsp;전주<br>&nbsp;&nbsp;&nbsp;&nbsp;①&nbsp;병원&nbsp;동행&nbsp;서비스&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;②&nbsp;공공형·사회&nbsp;참여&nbsp;일자리&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;③&nbsp;틀니·임플란트·보청기&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;성평등&nbsp;전주<br>&nbsp;&nbsp;&nbsp;&nbsp;①&nbsp;성평등&nbsp;전문행정&nbsp;도입&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;②&nbsp;성별&nbsp;임금&nbsp;격차&nbsp;해소를&nbsp;위한&nbsp;조례와&nbsp;공시제<br>&nbsp;&nbsp;○&nbsp;장애인,&nbsp;지금&nbsp;사는&nbsp;곳에서&nbsp;누리는&nbsp;전주<br>&nbsp;&nbsp;&nbsp;&nbsp;①&nbsp;장애&nbsp;유형별&nbsp;맞춤형&nbsp;건강&nbsp;프로그램&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;②&nbsp;당사자&nbsp;중심의&nbsp;지원&nbsp;협의체&nbsp;참여&nbsp;보장<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년&nbsp;계속&nbsp;사업<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·도·시비&nbsp;편성의&nbsp;예산&nbsp;계획</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	전주, 신속한 개발</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="전주, 신속한 개발">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;신속한&nbsp;전주&nbsp;개발로&nbsp;시민의&nbsp;이익&nbsp;보장<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;마이스&nbsp;산업단지,&nbsp;터미널&nbsp;부지&nbsp;복합개발<br>&nbsp;&nbsp;&nbsp;&nbsp;①&nbsp;마이스&nbsp;산업단지&nbsp;신속&nbsp;추진과&nbsp;완공<br>&nbsp;&nbsp;&nbsp;&nbsp;②&nbsp;고속과&nbsp;시외를&nbsp;하나로&nbsp;묶는&nbsp;통합&nbsp;개발&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;③&nbsp;마이스&nbsp;단지·터미널·천변&nbsp;연계한&nbsp;보행과&nbsp;관광&nbsp;중심지&nbsp;조성<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;주민과&nbsp;전주를&nbsp;살리는&nbsp;신속한&nbsp;재건축·재개발<br>&nbsp;&nbsp;&nbsp;&nbsp;①&nbsp;신속·통합&nbsp;행정&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;②&nbsp;공공,&nbsp;전문가,&nbsp;시민참여의&nbsp;민관협력&nbsp;시스템&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;③&nbsp;공적인&nbsp;책임을&nbsp;다하는&nbsp;'금융·행정&nbsp;지원위원회'&nbsp;설립<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;위기의&nbsp;소상공인,&nbsp;같이&nbsp;극복하는&nbsp;상생&nbsp;전주<br>&nbsp;&nbsp;&nbsp;&nbsp;①&nbsp;소상공인&nbsp;특례보증&nbsp;금액&nbsp;증액<br>&nbsp;&nbsp;&nbsp;&nbsp;②&nbsp;수수료&nbsp;부담&nbsp;줄이는&nbsp;공공애플리케이션&nbsp;개발·보급<br>&nbsp;&nbsp;&nbsp;&nbsp;③&nbsp;업종별&nbsp;브랜딩과&nbsp;마케팅&nbsp;지원사업<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;돈이&nbsp;모이고&nbsp;흐르는&nbsp;금융중심지&nbsp;전주<br>&nbsp;&nbsp;&nbsp;&nbsp;①&nbsp;민간&nbsp;금융기관&nbsp;집적&nbsp;촉진,&nbsp;금융허브&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;②&nbsp;신축&nbsp;전주역을&nbsp;금융중심역으로&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;③&nbsp;한국투자공사&nbsp;등&nbsp;금융&nbsp;공공기관&nbsp;이전·유치<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년&nbsp;계속&nbsp;사업<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·도·시비&nbsp;편성의&nbsp;예산&nbsp;계획</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김광직 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	단양군민 농촌기본소득 시행</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="단양군민 농촌기본소득 시행">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>단양군민&nbsp;농촌기본소득을&nbsp;즉시&nbsp;시행하겠습니다.<br><br>&nbsp;&nbsp;○&nbsp;마을마다&nbsp;돈이&nbsp;도는&nbsp;단양&nbsp;만들기&nbsp;<br>&nbsp;&nbsp;○&nbsp;인구감소에&nbsp;따른&nbsp;소멸&nbsp;위기&nbsp;단양을&nbsp;구하기&nbsp;위해&nbsp;지역민&nbsp;소득증대<br>&nbsp;&nbsp;○&nbsp;지역화폐&nbsp;형태로&nbsp;지급&nbsp;지역경제활성화&nbsp;도모<br>&nbsp;&nbsp;○&nbsp;인구의&nbsp;유출&nbsp;방지&nbsp;및&nbsp;유입&nbsp;유도<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;단양군민&nbsp;모두에게&nbsp;1인당&nbsp;연&nbsp;60만원을&nbsp;지역화폐로&nbsp;지급(부부연간&nbsp;120만원)<br>&nbsp;&nbsp;○&nbsp;지역화폐&nbsp;형태로&nbsp;지급,&nbsp;단양&nbsp;안에서&nbsp;쓰여&nbsp;시장과&nbsp;식당&nbsp;상점으로&nbsp;돌아&nbsp;지역경제&nbsp;활성화에&nbsp;기여<br>&nbsp;&nbsp;○&nbsp;국회&nbsp;농어촌기본법&nbsp;통과&nbsp;시&nbsp;국·도비&nbsp;추가지급(1인당&nbsp;180만원&nbsp;지급)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2026년부터~(임기&nbsp;이내)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;소요예산&nbsp;:&nbsp;국비·도비·군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	마을마다 햇빛 연금 지급</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="마을마다 햇빛 연금 지급">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>마을마다&nbsp;단계적으로&nbsp;태양광&nbsp;발전소&nbsp;설치하여&nbsp;수익을&nbsp;마을&nbsp;또는&nbsp;주민에게&nbsp;배당하겠습니다.<br><br>&nbsp;&nbsp;○&nbsp;마을&nbsp;수입원&nbsp;창출을&nbsp;통한&nbsp;농가&nbsp;수입&nbsp;증대&nbsp;도모<br>&nbsp;&nbsp;○&nbsp;재생에너지&nbsp;활용에&nbsp;대한&nbsp;시대적&nbsp;요구&nbsp;부응&nbsp;<br>&nbsp;&nbsp;○&nbsp;인구의&nbsp;유출&nbsp;방지&nbsp;및&nbsp;유입&nbsp;유도<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;준비된&nbsp;마을&nbsp;단계적&nbsp;태양광&nbsp;발전소&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;생산&nbsp;전기&nbsp;송배전&nbsp;시설&nbsp;설치(한전협의),&nbsp;이재명&nbsp;정부&nbsp;정책&nbsp;적극수용<br>&nbsp;&nbsp;○&nbsp;수익&nbsp;발생&nbsp;시&nbsp;마을&nbsp;또는&nbsp;주민에게&nbsp;배당<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2026년부터~(임기&nbsp;이내)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;소요예산&nbsp;:&nbsp;국비·도비·군비·중앙부처·민간&nbsp;공모사업</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	단양을 국가보상형 국제복합관광 특구지정 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="단양을 국가보상형 국제복합관광 특구지정 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>단양을&nbsp;국가보상형&nbsp;국제복합관광특구&nbsp;지정을&nbsp;추진하겠습니다.<br><br>&nbsp;&nbsp;○&nbsp;국가&nbsp;보상형&nbsp;국제복합관광특구지정&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;체류·체험형&nbsp;관광객&nbsp;증가&nbsp;유도&nbsp;<br>&nbsp;&nbsp;○&nbsp;지역경제&nbsp;활성화&nbsp;도모<br>&nbsp;&nbsp;○&nbsp;인구의&nbsp;유출&nbsp;방지&nbsp;및&nbsp;유입&nbsp;유도<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국제복합관광단지&nbsp;지정을&nbsp;충북도지사와&nbsp;정부&nbsp;제안<br>&nbsp;&nbsp;○&nbsp;카지노&nbsp;등&nbsp;단양이&nbsp;국가로부터&nbsp;받아야&nbsp;할&nbsp;정당한&nbsp;보상&nbsp;수익모델&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;카지노&nbsp;시설&nbsp;설치&nbsp;(단양군민&nbsp;의견수렴&nbsp;후&nbsp;추진)<br>&nbsp;&nbsp;○&nbsp;해당&nbsp;사업&nbsp;수익&nbsp;일부&nbsp;주민&nbsp;배당&nbsp;실시<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2026년부터~(임기&nbsp;이내)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;소요예산&nbsp;:&nbsp;국비·도비·민간공모사업</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	단양 관광대혁명 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="단양 관광대혁명 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>단양&nbsp;관광대혁명을&nbsp;시작합니다.<br>돈과&nbsp;사람이&nbsp;머무는&nbsp;관광이&nbsp;농민을&nbsp;살리고&nbsp;자영업자를&nbsp;살리고&nbsp;단양경제를&nbsp;살립니다.<br><br>&nbsp;&nbsp;○&nbsp;돈과&nbsp;사람이&nbsp;머무는&nbsp;단양&nbsp;관광<br>&nbsp;&nbsp;○&nbsp;농민과&nbsp;지역민&nbsp;살리는&nbsp;관광&nbsp;<br>&nbsp;&nbsp;○&nbsp;지역경제&nbsp;활성화&nbsp;기여<br>&nbsp;&nbsp;○&nbsp;인구의&nbsp;유출&nbsp;방지&nbsp;및&nbsp;유입&nbsp;유도<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;단양강과&nbsp;산을&nbsp;잇는&nbsp;트레킹&nbsp;길,&nbsp;치유의&nbsp;흙길,&nbsp;숲길&nbsp;조성&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;인공지능과&nbsp;자연환경이&nbsp;결합한&nbsp;AR-VR체험관광<br>&nbsp;&nbsp;○&nbsp;걷고,&nbsp;보고,&nbsp;타고,&nbsp;즐기고,&nbsp;먹고,&nbsp;자는&nbsp;치유하는&nbsp;체험·체류형&nbsp;국제관광도시&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2026년부터~(임기&nbsp;이내)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;소요예산&nbsp;:&nbsp;국비·도비·중앙부처,&nbsp;민간사업&nbsp;공모</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	농업·의료·교육·생활 등 안전망 구축 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="농업·의료·교육·생활 등 안전망 구축 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>농업·의료·교육·생활&nbsp;등&nbsp;10대&nbsp;안전망을&nbsp;구축하여&nbsp;군민의&nbsp;삶을&nbsp;바꿉니다.<br><br>&nbsp;&nbsp;○&nbsp;AI를&nbsp;활용한&nbsp;기본사회&nbsp;안전망&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;단양&nbsp;군민의&nbsp;삶&nbsp;향상&nbsp;도모&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;인구의&nbsp;유출&nbsp;방지&nbsp;및&nbsp;유입&nbsp;유도<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;응급헬기&nbsp;이·착륙장&nbsp;건설,&nbsp;응급차량&nbsp;증차&nbsp;등&nbsp;응급&nbsp;이송&nbsp;체계를&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생명의&nbsp;골든타임&nbsp;지킴&nbsp;<br>&nbsp;&nbsp;○&nbsp;AI를&nbsp;활용한&nbsp;영어,&nbsp;수학,&nbsp;과학&nbsp;등&nbsp;학습지원<br>&nbsp;&nbsp;○&nbsp;AI를&nbsp;활용한&nbsp;다양한&nbsp;테이터&nbsp;분석을&nbsp;통해&nbsp;농산물&nbsp;가격&nbsp;안정과&nbsp;판로&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;지능형&nbsp;교통&nbsp;시스템&nbsp;구축&nbsp;교통&nbsp;흐름과&nbsp;주차,&nbsp;사고관리&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;어르신과&nbsp;장애인&nbsp;등&nbsp;이동권&nbsp;보장,&nbsp;무장애&nbsp;단양&nbsp;실현<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2026년부터~(임기&nbsp;이내)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;소요예산&nbsp;:&nbsp;국비·도비·중앙부처·민간사업&nbsp;공모</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

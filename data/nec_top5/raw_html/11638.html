@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;서태경 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	사상 크리에이티브 벨리 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="사상 크리에이티브 벨리 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;산업과&nbsp;문화가&nbsp;공존하는「사상&nbsp;크리에이티브&nbsp;밸리」조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;괘법동&nbsp;카페거리와&nbsp;유휴공간·노후&nbsp;공장&nbsp;일대를&nbsp;활용해&nbsp;문화·콘텐츠·AI기반의&nbsp;창업생태계를&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;창업과&nbsp;콘텐츠&nbsp;산업&nbsp;육성을&nbsp;통해&nbsp;미래형&nbsp;일자리를&nbsp;창출하고,&nbsp;사상구를&nbsp;서부산권&nbsp;창업·문화&nbsp;혁신거점으로&nbsp;성장시키겠음.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;①&nbsp;괘법동&nbsp;창업문화혁신지구&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;괘법동&nbsp;카페거리&nbsp;일대를&nbsp;창업·문화&nbsp;복합지구로&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;창업공간,&nbsp;전시·공연·문화&nbsp;콘텐츠&nbsp;연계&nbsp;활성화<br>&nbsp;&nbsp;②&nbsp;유휴공간&nbsp;리모델링<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후&nbsp;공장과&nbsp;유휴공간을&nbsp;창업·영상·디자인·AI&nbsp;산업&nbsp;공간으로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공유오피스&nbsp;및&nbsp;창업지원&nbsp;공간&nbsp;조성<br>&nbsp;&nbsp;③&nbsp;창업앵커시설&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창업&nbsp;인큐베이팅,&nbsp;투자연계,&nbsp;기술지원&nbsp;기능을&nbsp;갖춘&nbsp;창업허브&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학·민간기업·투자기관&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;④&nbsp;AI·콘텐츠&nbsp;산업&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·영상·디자인·디지털콘텐츠&nbsp;스타트업&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;창업교육&nbsp;및&nbsp;실무형&nbsp;프로그램&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1년차&nbsp;:&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;관계기관&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;2~3년차&nbsp;:&nbsp;창업공간&nbsp;조성&nbsp;및&nbsp;앵커시설&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;4년차&nbsp;:&nbsp;창업문화혁신지구&nbsp;본격&nbsp;운영<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시비&nbsp;공모사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;부산시&nbsp;및&nbsp;사상구&nbsp;예산&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;투자&nbsp;및&nbsp;산학협력&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;부산테크노파크·부산경제진흥원&nbsp;등&nbsp;관계기관&nbsp;협력&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	사상형 키즈카페 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="사상형 키즈카페 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;사상을&nbsp;만들기&nbsp;위해&nbsp;「사상형&nbsp;키즈카페」를&nbsp;설치하고,&nbsp;저렴하고&nbsp;안전한&nbsp;공공형&nbsp;실내&nbsp;놀이공간으로&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미세먼지·폭염·한파&nbsp;등&nbsp;기후환경&nbsp;변화에도&nbsp;아이들이&nbsp;안전하게&nbsp;뛰어놀&nbsp;수&nbsp;있는&nbsp;실내&nbsp;돌봄·놀이공간을&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;키즈카페&nbsp;대비&nbsp;저렴한&nbsp;이용료&nbsp;운영으로&nbsp;육아&nbsp;부담&nbsp;완화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;①&nbsp;사상형키즈카페&nbsp;1호점&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공&nbsp;유휴공간&nbsp;및&nbsp;생활SOC&nbsp;시설을&nbsp;활용한&nbsp;구립&nbsp;키즈카페&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영유아·초등&nbsp;저학년&nbsp;중심&nbsp;놀이시설&nbsp;및&nbsp;휴게공간&nbsp;마련<br>&nbsp;&nbsp;②&nbsp;안전한&nbsp;실내&nbsp;놀이환경&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;친환경&nbsp;놀이시설&nbsp;및&nbsp;안전관리&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미세먼지·폭염·한파에도&nbsp;이용&nbsp;가능한&nbsp;실내&nbsp;공공&nbsp;놀이공간&nbsp;운영<br>&nbsp;&nbsp;③&nbsp;저렴한&nbsp;이용료&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;키즈카페&nbsp;대비&nbsp;낮은&nbsp;이용료&nbsp;체계&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;다자녀·취약계층&nbsp;이용료&nbsp;감면&nbsp;추진<br>&nbsp;&nbsp;④&nbsp;부모와&nbsp;아이가&nbsp;함께&nbsp;이용하는&nbsp;복합공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보호자&nbsp;휴게공간&nbsp;및&nbsp;육아&nbsp;커뮤니티&nbsp;기능&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;놀이·돌봄·문화&nbsp;프로그램&nbsp;운영&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1년차&nbsp;:&nbsp;설치&nbsp;대상지&nbsp;선정&nbsp;및&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;2~3년차&nbsp;:&nbsp;사상형&nbsp;키즈카페&nbsp;본격&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;4년차&nbsp;:&nbsp;운영&nbsp;효과&nbsp;및&nbsp;개선필요&nbsp;사항&nbsp;검토&nbsp;후&nbsp;확대&nbsp;설치<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시비&nbsp;생활SOC&nbsp;및&nbsp;돌봄지원&nbsp;공모사업&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;부산시&nbsp;및&nbsp;사상구&nbsp;아동·보육&nbsp;예산&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;공공시설&nbsp;리모델링을&nbsp;통한&nbsp;예산&nbsp;절감<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;협력&nbsp;및&nbsp;지역사회&nbsp;후원&nbsp;연계&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	‘공공인강’ 학습지원 사업 및 방학 스포츠 캠프 운영</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="‘공공인강’ 학습지원 사업 및 방학 스포츠 캠프 운영">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;중·고등학생의&nbsp;교육격차를&nbsp;완화하고&nbsp;사교육비&nbsp;부담을&nbsp;줄이기&nbsp;위해&nbsp;「공공인강&nbsp;학습지원사업」추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우수&nbsp;온라인&nbsp;강의&nbsp;수강권을&nbsp;지원하여&nbsp;지역&nbsp;학생들의&nbsp;학습기회&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;인터넷&nbsp;강의&nbsp;대비&nbsp;저렴한&nbsp;비용으로&nbsp;이용<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방학기간&nbsp;스포츠&nbsp;캠프를&nbsp;운영하여&nbsp;청소년의&nbsp;건강한&nbsp;성장과&nbsp;체육활동&nbsp;기회&nbsp;제공<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;①&nbsp;공공인강&nbsp;수강권&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중·고등학생&nbsp;대상&nbsp;인강&nbsp;수강권&nbsp;지원&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;인터넷&nbsp;강의&nbsp;대비&nbsp;저렴한&nbsp;비용으로&nbsp;이용<br>&nbsp;&nbsp;②&nbsp;교육격차&nbsp;완화&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;온라인&nbsp;학습&nbsp;접근성&nbsp;확대를&nbsp;통한&nbsp;사교육비&nbsp;부담&nbsp;완화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학습&nbsp;취약계층&nbsp;우선&nbsp;지원체계&nbsp;마련<br>&nbsp;&nbsp;③&nbsp;방학&nbsp;스포츠&nbsp;캠프&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여름·겨울방학&nbsp;기간&nbsp;체육&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;축구·농구·배드민턴&nbsp;등&nbsp;생활체육&nbsp;중심&nbsp;프로그램&nbsp;확대<br>&nbsp;&nbsp;④&nbsp;학교·지역사회&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학교&nbsp;및&nbsp;체육시설과&nbsp;협력&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청소년&nbsp;참여형&nbsp;프로그램&nbsp;지속&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1년차&nbsp;:&nbsp;운영계획&nbsp;수립&nbsp;및&nbsp;교육기관&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;2년차&nbsp;:&nbsp;공공인강&nbsp;지원&nbsp;및&nbsp;스포츠&nbsp;캠프&nbsp;시범&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;3~4년차&nbsp;:&nbsp;대상&nbsp;확대&nbsp;및&nbsp;프로그램&nbsp;고도화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;사상구&nbsp;교육지원&nbsp;예산&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;부산시&nbsp;교육협력&nbsp;사업&nbsp;및&nbsp;청소년&nbsp;지원사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;기업&nbsp;및&nbsp;지역사회&nbsp;협력&nbsp;후원&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;공공시설&nbsp;활용을&nbsp;통한&nbsp;운영비&nbsp;절감</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	사상 어르신 품위유지비 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="사상 어르신 품위유지비 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;75세&nbsp;이상&nbsp;어르신에게&nbsp;월&nbsp;2만&nbsp;원의&nbsp;「사상&nbsp;어르신&nbsp;품위유지비」를&nbsp;지원하여&nbsp;기본적인&nbsp;위생·건강관리와&nbsp;품위&nbsp;있는&nbsp;노후생활&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이·미용실&nbsp;및&nbsp;목욕탕&nbsp;이용&nbsp;지원을&nbsp;통해&nbsp;어르신&nbsp;복지&nbsp;체감도를&nbsp;높임<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;소상공인&nbsp;매출&nbsp;증대와&nbsp;지역경제&nbsp;활성화에&nbsp;기여<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;①&nbsp;어르신&nbsp;품위유지비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;75세&nbsp;이상&nbsp;어르신&nbsp;대상&nbsp;월&nbsp;2만&nbsp;원&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역화폐&nbsp;또는&nbsp;바우처&nbsp;방식&nbsp;검토&nbsp;추진<br>&nbsp;&nbsp;②&nbsp;사용처&nbsp;지정&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관내&nbsp;이발소·미용실·목욕탕&nbsp;등&nbsp;지정&nbsp;가맹점&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;이용&nbsp;편의를&nbsp;위한&nbsp;가맹점&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;③&nbsp;지역상권&nbsp;연계&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동네&nbsp;소상공인&nbsp;이용&nbsp;활성화를&nbsp;통한&nbsp;지역경제&nbsp;선순환&nbsp;구조&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전통시장&nbsp;및&nbsp;골목상권과&nbsp;연계&nbsp;확대&nbsp;검토<br>&nbsp;&nbsp;④&nbsp;복지&nbsp;체감형&nbsp;정책&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단순&nbsp;현금지원이&nbsp;아닌&nbsp;실질적&nbsp;생활복지&nbsp;중심&nbsp;정책&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;건강·위생관리&nbsp;및&nbsp;사회활동&nbsp;지원&nbsp;효과&nbsp;강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1년차&nbsp;:&nbsp;지원&nbsp;기준&nbsp;및&nbsp;운영체계&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;2년차&nbsp;:&nbsp;가맹점&nbsp;모집&nbsp;및&nbsp;시범&nbsp;운영&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;3~4년차&nbsp;:&nbsp;본격&nbsp;시행&nbsp;및&nbsp;확대&nbsp;운영<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;사상구&nbsp;복지예산&nbsp;단계적&nbsp;반영<br>&nbsp;&nbsp;○&nbsp;부산시&nbsp;노인복지&nbsp;지원사업&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;지역화폐&nbsp;및&nbsp;정책수당&nbsp;운영체계&nbsp;활용&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;불필요한&nbsp;예산&nbsp;조정&nbsp;및&nbsp;효율화를&nbsp;통한&nbsp;재원&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	사상구1370 바로 민원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="사상구1370 바로 민원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;구청&nbsp;대표&nbsp;전용&nbsp;휴대폰&nbsp;번호를&nbsp;공개하여&nbsp;문자로&nbsp;간편하게&nbsp;민원을&nbsp;접수할&nbsp;수&nbsp;있는&nbsp;「사상구&nbsp;1370&nbsp;바로&nbsp;민원」시스템&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민원&nbsp;접수부터&nbsp;현장&nbsp;확인,&nbsp;결과&nbsp;보고까지&nbsp;처리기한을&nbsp;명확히&nbsp;하는&nbsp;신속&nbsp;대응&nbsp;시스템을&nbsp;구축하여,&nbsp;구민이&nbsp;체감하는&nbsp;책임행정&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘1일&nbsp;내&nbsp;접수&nbsp;회신,&nbsp;3일&nbsp;내&nbsp;현장&nbsp;확인,&nbsp;7일&nbsp;내&nbsp;결과&nbsp;보고’를&nbsp;원칙으로&nbsp;“신뢰·신속·정확·시원한&nbsp;행정”을&nbsp;제공하는&nbsp;‘0(제로)&nbsp;민원&nbsp;사상’<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;①&nbsp;1370&nbsp;바로민원&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구청&nbsp;대표&nbsp;전용&nbsp;휴대폰&nbsp;번호&nbsp;공개,&nbsp;문자&nbsp;및&nbsp;모바일&nbsp;기반&nbsp;민원&nbsp;접수&nbsp;시스템&nbsp;운영<br>&nbsp;&nbsp;②&nbsp;신속&nbsp;민원&nbsp;처리체계&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1일&nbsp;내&nbsp;접수&nbsp;회신&nbsp;및&nbsp;담당부서&nbsp;지정,&nbsp;처리&nbsp;예정&nbsp;일정&nbsp;및&nbsp;진행상황&nbsp;안내<br>&nbsp;&nbsp;③&nbsp;현장&nbsp;중심&nbsp;행정&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3일&nbsp;내&nbsp;담당&nbsp;공무원&nbsp;현장&nbsp;방문&nbsp;확인&nbsp;원칙,&nbsp;생활밀착형&nbsp;민원&nbsp;즉시&nbsp;대응체계&nbsp;구축<br>&nbsp;&nbsp;④&nbsp;결과보고&nbsp;책임행정&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;7일&nbsp;내&nbsp;처리결과&nbsp;구민&nbsp;안내,&nbsp;조치완료·예산필요·장기검토&nbsp;등&nbsp;구체적&nbsp;설명&nbsp;제공<br>&nbsp;&nbsp;⑤&nbsp;민원&nbsp;빅데이터&nbsp;관리<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반복&nbsp;민원&nbsp;및&nbsp;지역&nbsp;현안&nbsp;데이터화,&nbsp;민원&nbsp;다발지역&nbsp;집중&nbsp;개선&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1년차&nbsp;:&nbsp;운영계획&nbsp;수립&nbsp;및&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;2년차&nbsp;:&nbsp;시범&nbsp;운영&nbsp;및&nbsp;민원처리&nbsp;체계&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;3~4년차&nbsp;:&nbsp;시스템&nbsp;고도화&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;민원행정&nbsp;예산&nbsp;활용&nbsp;및&nbsp;행정&nbsp;효율화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;디지털&nbsp;행정·스마트행정&nbsp;관련&nbsp;국·시비&nbsp;사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;모바일&nbsp;민원&nbsp;시스템&nbsp;구축&nbsp;예산&nbsp;단계적&nbsp;반영<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;행정인력&nbsp;및&nbsp;조직&nbsp;활용&nbsp;중심&nbsp;운영</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

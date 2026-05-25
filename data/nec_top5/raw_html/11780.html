@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;권익현 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	부안형 신바람 · 햇빛소득 시대 개막</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="부안형 신바람 · 햇빛소득 시대 개막">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;ㅇ&nbsp;대&nbsp;&nbsp;&nbsp;&nbsp;상&nbsp;:&nbsp;부안군민&nbsp;전체&nbsp;(약&nbsp;5만명&nbsp;기준)&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;사업구축&nbsp;:&nbsp;4단계&nbsp;로드맵<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단계(‘26)&nbsp;:&nbsp;농어촌&nbsp;기본소득&nbsp;준비금&nbsp;지급&nbsp;⇒&nbsp;30만원&nbsp;지급(1회)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2단계(’27~‘29)&nbsp;:&nbsp;농어촌&nbsp;기본소득&nbsp;지급&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⇒&nbsp;월15만원(+@)/년&nbsp;180만원&nbsp;지급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3단계(’30이후)&nbsp;:&nbsp;농어촌&nbsp;기본소득+신바람&nbsp;햇빛소득(2GW)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⇒&nbsp;월30만원(+@)/년&nbsp;360만원&nbsp;지급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4단계(5GW이상확대시)&nbsp;:&nbsp;월50만원(+@)/년600만원&nbsp;지급&nbsp;기반&nbsp;마련<br><br>&nbsp;□&nbsp;이행방법&nbsp;:&nbsp;부안군,&nbsp;발전사,&nbsp;지역&nbsp;주민이&nbsp;참여하는&nbsp;'수익&nbsp;공유형'&nbsp;민관&nbsp;협력<br><br>&nbsp;□&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;하반기&nbsp;이후~<br><br>&nbsp;□&nbsp;재원조달&nbsp;:&nbsp;서남권&nbsp;해상풍력(2GW)&nbsp;발전&nbsp;수익금&nbsp;및&nbsp;국·도·군비&nbsp;매칭</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	서남권 해상풍력 연계 새만금 RE100 국가산단 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="서남권 해상풍력 연계 새만금 RE100 국가산단 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;ㅇ&nbsp;위치/면적&nbsp;:&nbsp;새만금&nbsp;농생명용지&nbsp;7공구&nbsp;일원&nbsp;/&nbsp;약&nbsp;545만&nbsp;평&nbsp;(18.0㎢)&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;사업내용&nbsp;:&nbsp;서남권&nbsp;해상풍력(2.46GW)&nbsp;전력을&nbsp;직접&nbsp;공급받는&nbsp;첨단&nbsp;산업&nbsp;집적지&nbsp;조성&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;총사업비&nbsp;:&nbsp;약&nbsp;3조&nbsp;7,000억&nbsp;원&nbsp;(2026년~2035년)&nbsp;<br><br>&nbsp;□&nbsp;이행방법<br>&nbsp;&nbsp;ㅇ&nbsp;(사업구축)&nbsp;2026년&nbsp;새만금&nbsp;기본계획(MP)&nbsp;재수립&nbsp;시&nbsp;'농생명용지'를&nbsp;'산업용지'로&nbsp;용도&nbsp;전환&nbsp;강력&nbsp;추진&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;(고도화)&nbsp;AI&nbsp;데이터센터,&nbsp;클라우드&nbsp;등&nbsp;고전력&nbsp;수요&nbsp;산업을&nbsp;우선&nbsp;유치하여&nbsp;RE100&nbsp;실무&nbsp;모델&nbsp;완성<br><br>&nbsp;□&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;하반기&nbsp;이후~<br><br>&nbsp;□&nbsp;재원조달&nbsp;:&nbsp;국·도비&nbsp;및&nbsp;민간자본&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	이재명정부 기본사회 선도 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="이재명정부 기본사회 선도 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표&nbsp;:&nbsp;기본사회&nbsp;8대&nbsp;정책&nbsp;추진<br>&nbsp;&nbsp;&nbsp;①&nbsp;기본소득<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신바람&nbsp;햇빛소득&nbsp;시대&nbsp;개막&nbsp;:&nbsp;전군민&nbsp;월30만원+@<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부안사랑상품권&nbsp;800억규모&nbsp;발행확대(현&nbsp;약370억원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;읍면&nbsp;기본사회센터&nbsp;설립,&nbsp;영농형&nbsp;태양광&nbsp;전면&nbsp;보급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;새만금&nbsp;수상&nbsp;태양광&nbsp;지역주도형&nbsp;발전사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아동&nbsp;발달지원&nbsp;계좌(디딤씨앗통장사업)<br>&nbsp;&nbsp;&nbsp;②&nbsp;기본의료<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;임플란트&nbsp;시술비&nbsp;지원,&nbsp;당뇨합병증&nbsp;검사비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부안형&nbsp;태아보험&nbsp;지원,&nbsp;골든타임&nbsp;사각지대&nbsp;제로,&nbsp;응급의료&nbsp;대응체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;③&nbsp;기본생활서비스<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행복드림서비스&nbsp;전군민&nbsp;확대,&nbsp;통합돌봄서비스<br>&nbsp;&nbsp;&nbsp;④&nbsp;기본문화체육<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화패스&nbsp;이용권&nbsp;도입,&nbsp;파크골프장&nbsp;확충(심성제)<br>&nbsp;&nbsp;&nbsp;⑤&nbsp;기본교통<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전군민&nbsp;무료버스&nbsp;운행,&nbsp;통행택시·행복택시&nbsp;병행&nbsp;운행<br>&nbsp;&nbsp;&nbsp;⑥&nbsp;기본교육<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부안군&nbsp;근농육성장학재단,&nbsp;노인대학&nbsp;운영&nbsp;및&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전북대학교&nbsp;부안캠퍼스&nbsp;대학교육&nbsp;지원&nbsp;영아(1~2세&nbsp;필요경비&nbsp;지원)<br>&nbsp;&nbsp;&nbsp;⑦&nbsp;기본일자리<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노인&nbsp;일자리&nbsp;및&nbsp;장애인&nbsp;일자리&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;후계농&nbsp;및&nbsp;귀농귀촌&nbsp;정책자금&nbsp;이차&nbsp;보전<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인·중소기업&nbsp;400억&nbsp;희망자금&nbsp;투입<br>&nbsp;&nbsp;&nbsp;⑧&nbsp;기본먹거리<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부안형&nbsp;푸드플랜&nbsp;실현,&nbsp;농식품&nbsp;바우처&nbsp;지원,&nbsp;부안&nbsp;로컬푸드&nbsp;인증식당&nbsp;지원<br><br>&nbsp;□&nbsp;이행방법&nbsp;:&nbsp;계획수립,&nbsp;예산확보,&nbsp;관련&nbsp;조례&nbsp;제·개정<br><br>&nbsp;□&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;하반기&nbsp;이후~<br><br>&nbsp;□&nbsp;재원조달&nbsp;:&nbsp;국·도비&nbsp;매칭</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	피지컬AI · 방산 ·수소 복합 제조기지 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="피지컬AI · 방산 ·수소 복합 제조기지 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;ㅇ&nbsp;위&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;치&nbsp;:&nbsp;부안&nbsp;제3농공단지&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;면&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;적&nbsp;:&nbsp;101,836㎡<br>&nbsp;&nbsp;ㅇ&nbsp;투자규모&nbsp;:&nbsp;1,500억원<br>&nbsp;&nbsp;ㅇ&nbsp;투자내용&nbsp;:&nbsp;피지컬AI&nbsp;·방산&nbsp;·수소&nbsp;복합&nbsp;제조기지<br>&nbsp;&nbsp;ㅇ&nbsp;투자기업&nbsp;:&nbsp;DH그룹<br>&nbsp;&nbsp;ㅇ&nbsp;고용효과&nbsp;:&nbsp;직접고용&nbsp;310명,&nbsp;간접고용&nbsp;900명&nbsp;일자리&nbsp;창출<br><br>□&nbsp;이행방법&nbsp;:&nbsp;3단계&nbsp;투자(스마트팩토리,&nbsp;수소공장,&nbsp;R&D단지&nbsp;수차조성)&nbsp;&nbsp;<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;하반기&nbsp;이후~<br><br>□&nbsp;재원조달&nbsp;:&nbsp;민간자본&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	부안 철도시대 개막(T자형 철도망)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="부안 철도시대 개막(T자형 철도망)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;ㅇ&nbsp;서해안&nbsp;철도:&nbsp;새만금공항~부안~목포&nbsp;(L=110.0km,&nbsp;약&nbsp;4.8조&nbsp;원)&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;영호남&nbsp;내륙철도:&nbsp;부안~전주~김천&nbsp;(L=72.0km,&nbsp;약&nbsp;3.7조&nbsp;원)&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;ㅇ&nbsp;(사업구축)&nbsp;'제5차&nbsp;국가철도망&nbsp;구축계획'에&nbsp;2개&nbsp;노선&nbsp;동시&nbsp;반영을&nbsp;핵심&nbsp;목표로&nbsp;설정&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;(고도화)&nbsp;'부안역'&nbsp;신설을&nbsp;통해&nbsp;서해안권의&nbsp;철도&nbsp;교통&nbsp;허브&nbsp;기능&nbsp;강화<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;하반기&nbsp;이후~<br><br>□&nbsp;재원조달&nbsp;:&nbsp;국가&nbsp;투자사업&nbsp;반영</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

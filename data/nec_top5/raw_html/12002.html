@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;노정현 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	파격예산 혁신! 좋은 공공일자리 창출</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="파격예산 혁신! 좋은 공공일자리 창출">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;좋은&nbsp;공공일자리&nbsp;창출&nbsp;:<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년,&nbsp;경력보유여성,&nbsp;시니어일자리&nbsp;창출이&nbsp;구청장&nbsp;1호&nbsp;공약<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;10년간&nbsp;늘어난&nbsp;연제구&nbsp;예산은&nbsp;2배.&nbsp;제대로&nbsp;쓰는&nbsp;것이&nbsp;중요.<br>&nbsp;&nbsp;○&nbsp;파격&nbsp;예산&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1천억짜리&nbsp;체육센터&nbsp;대신&nbsp;주민의&nbsp;삶을&nbsp;설계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;실익없는&nbsp;토목공사&nbsp;중단<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;주민의견수렴,&nbsp;기본계획수립,&nbsp;유관기관&nbsp;협의,&nbsp;사업이행<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임즉시,&nbsp;임기내&nbsp;지속<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비&nbsp;및&nbsp;구비&nbsp;예산확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	주민이 직접 결정하는 ‘진짜 풀뿌리 민주주의’</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="주민이 직접 결정하는 ‘진짜 풀뿌리 민주주의’">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;구청&nbsp;주관으로「연제&nbsp;주민대회」상설화&nbsp;추진.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;예산학교를&nbsp;운영,&nbsp;예산&nbsp;전문가를&nbsp;양성하고&nbsp;주민&nbsp;정책&nbsp;발의를&nbsp;촉진<br><br>&nbsp;&nbsp;○&nbsp;주민&nbsp;참여예산제&nbsp;양질적으로&nbsp;파격&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연제구&nbsp;자체&nbsp;재원인&nbsp;지방세와&nbsp;세외수입의&nbsp;20%를&nbsp;주민&nbsp;요구안으로&nbsp;우선&nbsp;배&nbsp;정하여&nbsp;정책이&nbsp;실질적으로&nbsp;집행될&nbsp;수&nbsp;있도록&nbsp;함.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;주민의견수렴,&nbsp;기본계획수립,&nbsp;조례제정,&nbsp;사업이행<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임즉시,&nbsp;임기내&nbsp;지속<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;통합재정안정화&nbsp;기금,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	파격적인 청년 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="파격적인 청년 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;연제형&nbsp;청년&nbsp;인턴&nbsp;확장&nbsp;및&nbsp;창업지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;청년&nbsp;공공일자리,&nbsp;분기단위&nbsp;고용&nbsp;기간을&nbsp;최소&nbsp;1년이상으로&nbsp;보장.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단순&nbsp;행정보조&nbsp;업무&nbsp;지양하고&nbsp;실무&nbsp;능력&nbsp;함양을&nbsp;위한&nbsp;양질&nbsp;일자리&nbsp;사업&nbsp;발굴<br>&nbsp;&nbsp;○&nbsp;구청장&nbsp;1호&nbsp;조례로&nbsp;청년지원&nbsp;특별조례&nbsp;제정<br>&nbsp;&nbsp;○&nbsp;구청장&nbsp;직속&nbsp;‘직장갑질&nbsp;119센터’&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;전세사기&nbsp;제로!&nbsp;구청장&nbsp;직속&nbsp;‘연제&nbsp;안심&nbsp;전세센터’<br>&nbsp;&nbsp;○&nbsp;원룸타운&nbsp;‘르네상스’&nbsp;프로젝트&nbsp;시행<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청년일자리&nbsp;TF구성(청년&nbsp;직접&nbsp;참여)&nbsp;실시계획&nbsp;수립,&nbsp;조례제정,&nbsp;사업이행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임즉시,&nbsp;임기내&nbsp;지속<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비&nbsp;및&nbsp;구비&nbsp;예산확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	연제 상권 활성화, 상인 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="연제 상권 활성화, 상인 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;연제발&nbsp;부산형&nbsp;공공배달&nbsp;앱<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부산시장과&nbsp;손잡고&nbsp;수수료제로&nbsp;배달앱&nbsp;성공시켜&nbsp;배민과&nbsp;쿠팡&nbsp;퇴출.<br>&nbsp;&nbsp;○&nbsp;전통시장&nbsp;주차단속문제&nbsp;해결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시장앞&nbsp;주차단속&nbsp;대신&nbsp;주차관리&nbsp;(시니어&nbsp;일자리&nbsp;창출)<br>&nbsp;&nbsp;○&nbsp;구청장&nbsp;직속&nbsp;연제상권발전소&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연제구&nbsp;관내&nbsp;거의&nbsp;모든&nbsp;상가를&nbsp;골목형&nbsp;상가로&nbsp;지정하여&nbsp;체계적&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상인민원&nbsp;원스톱&nbsp;해결&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;연제&nbsp;지역상품&nbsp;우선구매&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공기관이&nbsp;많은&nbsp;연제구&nbsp;장점&nbsp;살려&nbsp;공공기관의&nbsp;지역상가&nbsp;우선구매&nbsp;대폭&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;상권활성화&nbsp;TF구성&nbsp;(상인직접&nbsp;참여),&nbsp;기본계획수립,&nbsp;유관기관&nbsp;협의,&nbsp;사업이행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임즉시,&nbsp;임기내&nbsp;지속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비&nbsp;및&nbsp;구비&nbsp;예산확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	보육과 교육 하기 좋은 연제</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="보육과 교육 하기 좋은 연제">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;통학로&nbsp;100%&nbsp;안신보장&nbsp;:&nbsp;워킹스쿨버스&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;연제&nbsp;맞춤형&nbsp;진로,진학&nbsp;센터&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;10대들의&nbsp;스마트폰&nbsp;중독완화&nbsp;‘문해력&nbsp;혁신&nbsp;도서관&nbsp;프로그램’운영<br>&nbsp;&nbsp;○&nbsp;부모-자녀&nbsp;마음을&nbsp;잇는&nbsp;‘마음이음&nbsp;119’<br>&nbsp;&nbsp;○&nbsp;아픈아이&nbsp;돌봄센터<br>&nbsp;&nbsp;○&nbsp;달빛어린이병원&nbsp;재시행<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;주민의견수렴,&nbsp;기본계획수립,&nbsp;유관기관&nbsp;협의,&nbsp;사업이행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임즉시,&nbsp;임기내&nbsp;지속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비&nbsp;및&nbsp;구비&nbsp;예산확보</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;갈상돈 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	소통으로 착착, 시민이 직접 만드는 ‘열린 진주 시정’</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="소통으로 착착, 시민이 직접 만드는 ‘열린 진주 시정’">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;행정&nbsp;전&nbsp;과정을&nbsp;시민에게&nbsp;투명하게&nbsp;보고하는&nbsp;‘소통&nbsp;적극&nbsp;행정’&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불통&nbsp;밀실&nbsp;행정을&nbsp;타파하고&nbsp;시민이&nbsp;시정의&nbsp;주인으로&nbsp;참여하는&nbsp;직접&nbsp;민주주의&nbsp;가치&nbsp;구현&nbsp;<br>&nbsp;&nbsp;○&nbsp;시민의&nbsp;아이디어가&nbsp;즉시&nbsp;정책이&nbsp;되는&nbsp;‘체감형&nbsp;소통&nbsp;행정’&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시정의&nbsp;투명성&nbsp;강화&nbsp;및&nbsp;실시간&nbsp;소통<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;정책&nbsp;결정&nbsp;과정&nbsp;및&nbsp;국장급&nbsp;회의&nbsp;실시간&nbsp;중계:&nbsp;행정의&nbsp;시작부터&nbsp;결정까지&nbsp;시민과&nbsp;공유하여&nbsp;시정의&nbsp;신뢰도&nbsp;제고<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시장&nbsp;휴대폰&nbsp;번호&nbsp;공개&nbsp;및&nbsp;실시간&nbsp;민원&nbsp;플랫폼&nbsp;‘응답하라,&nbsp;진주시장&nbsp;센터’&nbsp;상설&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;주도형&nbsp;정책&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민&nbsp;공모&nbsp;공약제&nbsp;도입:&nbsp;시민&nbsp;제안&nbsp;아이디어를&nbsp;심의하여&nbsp;‘시장&nbsp;제1호&nbsp;약속’으로&nbsp;즉시&nbsp;집행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;30개&nbsp;읍면동&nbsp;‘타운홀&nbsp;미팅’&nbsp;정례화&nbsp;및&nbsp;현장&nbsp;원스톱&nbsp;행정&nbsp;‘찾아가는&nbsp;시장실’&nbsp;운영&nbsp;&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;당선&nbsp;즉시(2026.&nbsp;07.)&nbsp;~&nbsp;임기&nbsp;내&nbsp;상설&nbsp;운영&nbsp;&nbsp;<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시&nbsp;일반회계&nbsp;내&nbsp;시정운영비&nbsp;및&nbsp;주민참여예산&nbsp;확대&nbsp;편성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불요불급한&nbsp;지출&nbsp;구조조정&nbsp;및&nbsp;전시성&nbsp;예산&nbsp;절감을&nbsp;통해&nbsp;운영&nbsp;재원&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	2030 통합진주시(사천) 출범 및 우주항공방산 클러스터 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="2030 통합진주시(사천) 출범 및 우주항공방산 클러스터 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;2030년&nbsp;서부경남&nbsp;경제&nbsp;수도&nbsp;‘통합진주시’&nbsp;출범으로&nbsp;인구&nbsp;100만&nbsp;메가시티&nbsp;도약<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제조(사천)와&nbsp;연구(진주)가&nbsp;결합한&nbsp;대한민국&nbsp;우주항공&nbsp;경제&nbsp;중심지&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;상호&nbsp;존중과&nbsp;소통을&nbsp;전제로&nbsp;한&nbsp;‘사천-진주&nbsp;상생&nbsp;공동체’&nbsp;구축<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;사천시와의&nbsp;신뢰&nbsp;구축&nbsp;및&nbsp;행정&nbsp;통합&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;진주-사천&nbsp;상생&nbsp;협력&nbsp;실무위원회&nbsp;구성:&nbsp;통합&nbsp;전&nbsp;교통·환경·산업&nbsp;등&nbsp;실무적&nbsp;소통&nbsp;채널을&nbsp;우선&nbsp;가동하여&nbsp;통합의&nbsp;실익&nbsp;공유<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부울경&nbsp;특별법&nbsp;기반&nbsp;통합&nbsp;추진위&nbsp;구성&nbsp;및&nbsp;통합&nbsp;시&nbsp;특례&nbsp;자치권(광역&nbsp;사무&nbsp;권한&nbsp;등)&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;거점&nbsp;기관&nbsp;유치&nbsp;및&nbsp;정주&nbsp;여건&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;항공안전기술원,&nbsp;우주항공산업&nbsp;진흥원&nbsp;등&nbsp;핵심&nbsp;기관&nbsp;유치&nbsp;및&nbsp;남중권&nbsp;국가연구단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국제학교,&nbsp;스마트&nbsp;종합병원&nbsp;유치&nbsp;등&nbsp;우주항공청&nbsp;연계&nbsp;글로벌&nbsp;정주&nbsp;인프라&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;통합&nbsp;로드맵&nbsp;확정&nbsp;및&nbsp;상생&nbsp;협력&nbsp;과제&nbsp;우선&nbsp;이행<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;부울경&nbsp;초광역&nbsp;협력&nbsp;특별계정&nbsp;및&nbsp;국가균형발전특별회계&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우주항공청&nbsp;연계&nbsp;사업비&nbsp;및&nbsp;경상남도&nbsp;특별교부세&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	진주 예산 4조 시대를 여는 ‘세일즈 시장’</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="진주 예산 4조 시대를 여는 ‘세일즈 시장’">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시장이&nbsp;직접&nbsp;발로&nbsp;뛰는&nbsp;‘세일즈&nbsp;시장’으로&nbsp;진주&nbsp;예산&nbsp;4조&nbsp;원&nbsp;시대&nbsp;조기&nbsp;달성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공기관&nbsp;유치&nbsp;및&nbsp;대기업&nbsp;생산기지&nbsp;유치를&nbsp;통한&nbsp;진주&nbsp;경제&nbsp;지형&nbsp;대개조<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전략적&nbsp;기업&nbsp;및&nbsp;기관&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;에너지·국방·항공&nbsp;핵심&nbsp;공공기관&nbsp;10개&nbsp;및&nbsp;관련&nbsp;협력업체&nbsp;패키지&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;LG·GS·효성&nbsp;등&nbsp;연고&nbsp;대기업&nbsp;계열사&nbsp;및&nbsp;연구소&nbsp;시장&nbsp;직접&nbsp;담판&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공기관&nbsp;2차&nbsp;이전과&nbsp;연계한&nbsp;‘혁신도시&nbsp;시즌2’&nbsp;적극&nbsp;대응<br>&nbsp;&nbsp;○&nbsp;민생&nbsp;자본&nbsp;선순환&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역사랑상품권&nbsp;2,000억&nbsp;원&nbsp;확대&nbsp;발행&nbsp;및&nbsp;‘진주&nbsp;성장펀드’&nbsp;조성&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;연차별&nbsp;유치&nbsp;목표&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국정과제&nbsp;연계&nbsp;국비&nbsp;확보&nbsp;및&nbsp;기업유치&nbsp;촉진&nbsp;특별기금&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;투자&nbsp;유치&nbsp;및&nbsp;투자&nbsp;인센티브&nbsp;예산&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	‘글로벌 인재육성 재단’ 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="‘글로벌 인재육성 재단’ 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;우주항공&nbsp;특화&nbsp;교육을&nbsp;통한&nbsp;교육-산업-양질의&nbsp;일자리&nbsp;선순환&nbsp;구조&nbsp;확립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자녀&nbsp;교육&nbsp;때문에&nbsp;찾아오는&nbsp;‘글로벌&nbsp;교육&nbsp;도시&nbsp;진주’&nbsp;브랜드&nbsp;확립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연암공대&nbsp;등&nbsp;지역&nbsp;대학과&nbsp;대기업이&nbsp;결합한&nbsp;맞춤형&nbsp;인재&nbsp;육성&nbsp;체계&nbsp;구축<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;인재육성&nbsp;재단&nbsp;설립&nbsp;및&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;필리핀,&nbsp;미국·프랑스&nbsp;우주항공&nbsp;거점(NASA&nbsp;등)&nbsp;시&nbsp;직영&nbsp;캠퍼스&nbsp;및&nbsp;인재&nbsp;하우스&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해외&nbsp;거점을&nbsp;활용하여&nbsp;외국&nbsp;유수&nbsp;대학&nbsp;캠퍼스&nbsp;및&nbsp;국제학교&nbsp;진주&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;진주형&nbsp;특성화&nbsp;대학&nbsp;육성&nbsp;(산학&nbsp;밀착형)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연암공대-LG&nbsp;협력&nbsp;모델&nbsp;등&nbsp;특성화&nbsp;확대:&nbsp;대기업&nbsp;맞춤형&nbsp;교육&nbsp;및&nbsp;취업&nbsp;직결&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경상국립대&nbsp;등을&nbsp;우주항공&nbsp;특화&nbsp;대학으로&nbsp;육성하기&nbsp;위한&nbsp;R&D&nbsp;시설&nbsp;및&nbsp;연구&nbsp;정주&nbsp;패키지&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;1~2년&nbsp;차&nbsp;재단&nbsp;설립&nbsp;및&nbsp;특화&nbsp;대학&nbsp;육성&nbsp;로드맵&nbsp;착수<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;교육부&nbsp;RISE&nbsp;사업&nbsp;및&nbsp;교육발전특구&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;협력&nbsp;기금&nbsp;및&nbsp;부울경&nbsp;초광역&nbsp;교육협력&nbsp;예산&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	역사와 자부심이 흐르는 ‘진주 테마길’ 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="역사와 자부심이 흐르는 ‘진주 테마길’ 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;역사·문화&nbsp;자원을&nbsp;활용한&nbsp;원도심&nbsp;활성화&nbsp;및&nbsp;세계적&nbsp;관광도시&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;진주의&nbsp;정신(역사·인물)과&nbsp;상권을&nbsp;결합하여&nbsp;‘걷고&nbsp;싶은&nbsp;문화도시’&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상권&nbsp;활성화를&nbsp;통해&nbsp;시민의&nbsp;삶에&nbsp;활력을&nbsp;불어넣는&nbsp;체감형&nbsp;관광&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;스토리가&nbsp;있는&nbsp;5대&nbsp;테마길&nbsp;및&nbsp;상권&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성곽유등길,&nbsp;형평운동길,&nbsp;김시민대첩길,&nbsp;어른&nbsp;김장하&nbsp;테마길&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성북동&nbsp;차&nbsp;없는&nbsp;거리&nbsp;지정&nbsp;및&nbsp;중앙시장&nbsp;일대&nbsp;‘놀·볼·먹’&nbsp;테마&nbsp;관광&nbsp;자원화<br>&nbsp;&nbsp;○&nbsp;진주문화도시&nbsp;대표&nbsp;문화관광&nbsp;축제&nbsp;지역&nbsp;확대&nbsp;및&nbsp;기간&nbsp;분산<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;축제&nbsp;행사지원&nbsp;확대,&nbsp;기간&nbsp;분산&nbsp;(축제위원회&nbsp;구성)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동네&nbsp;축제&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;완공&nbsp;추진<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국토교통부&nbsp;도시재생사업&nbsp;및&nbsp;문화체육관광부&nbsp;국비&nbsp;지원사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시&nbsp;일반회계&nbsp;관광기금&nbsp;및&nbsp;도시개발&nbsp;수익금&nbsp;재투자<br>&nbsp;&nbsp;○&nbsp;주민참여예산&nbsp;확대&nbsp;편성</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

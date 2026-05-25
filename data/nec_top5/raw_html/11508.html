@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;고기영 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	사통팔달 수도권 1시간 시대, 실현하겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="사통팔달 수도권 1시간 시대, 실현하겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;길이&nbsp;열려야&nbsp;철원의&nbsp;미래가&nbsp;열립니다.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;철원의&nbsp;가장&nbsp;큰&nbsp;숙원사업인&nbsp;교통&nbsp;인프라&nbsp;확충입니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;포천~철원&nbsp;고속도로&nbsp;조기&nbsp;착공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경원선&nbsp;운행&nbsp;재개&nbsp;및&nbsp;연천&nbsp;전철&nbsp;철원&nbsp;연장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동송&nbsp;사문안~&nbsp;연천&nbsp;대광리&nbsp;도로&nbsp;연결&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고속도로<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;국토교통부·기획재정부·강원특별자치도와&nbsp;상시&nbsp;협의체&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;경제성(B/C)&nbsp;중심이&nbsp;아닌&nbsp;안보·균형발전·관광·산업&nbsp;효과를&nbsp;포함한&nbsp;정책성&nbsp;평가&nbsp;강화&nbsp;추진.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경원선&nbsp;운행&nbsp;재개&nbsp;및&nbsp;연천&nbsp;전철&nbsp;철원&nbsp;연장<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;동두천~연천&nbsp;전철공사로&nbsp;중단되었던&nbsp;경원선&nbsp;재운행&nbsp;촉구&nbsp;(재운행&nbsp;전까지&nbsp;대체교통수단&nbsp;운행&nbsp;촉구)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;철원&nbsp;연장&nbsp;타당성&nbsp;연구&nbsp;및&nbsp;사전&nbsp;행정절차&nbsp;선제&nbsp;대응<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;관광·군부대·정주&nbsp;인구&nbsp;증가&nbsp;효과를&nbsp;포함한&nbsp;수요&nbsp;논리&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동송&nbsp;사문안~&nbsp;연천&nbsp;대광리&nbsp;도로<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;경기도·강원도&nbsp;공동협력&nbsp;사업으로&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;접경지역&nbsp;발전사업&nbsp;및&nbsp;특별교부세&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;군부&nbsp;협의와&nbsp;환경영향&nbsp;검토&nbsp;조기&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통은&nbsp;기다림의&nbsp;정치가&nbsp;아니라&nbsp;실행의&nbsp;정치입니다.&nbsp;저&nbsp;고기영은&nbsp;임기&nbsp;내&nbsp;반드시&nbsp;가시적&nbsp;성과를&nbsp;만들겠습니다<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;접경지역&nbsp;특별지원사업&nbsp;적극&nbsp;활용하고&nbsp;정부&nbsp;특별재원을&nbsp;최대한&nbsp;확보하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;안보&nbsp;희생에&nbsp;대한&nbsp;국가&nbsp;보상을&nbsp;반드시&nbsp;이끌어내겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	철원의 첫 번째 경제 군수 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="철원의 첫 번째 경제 군수 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>저&nbsp;고기영이&nbsp;제일&nbsp;잘&nbsp;하는&nbsp;일&nbsp;“세일즈”,&nbsp;철원의&nbsp;대표영업사원이&nbsp;되어&nbsp;군수실&nbsp;직속&nbsp;“희망경제&nbsp;협력단”&nbsp;설치를&nbsp;통해&nbsp;기업&nbsp;유치와&nbsp;투자&nbsp;유치를&nbsp;직접&nbsp;챙기고&nbsp;기존&nbsp;산업단지&nbsp;활성화를&nbsp;통해&nbsp;양질의&nbsp;일자리와&nbsp;미래산업&nbsp;기반을&nbsp;만들겠다는&nbsp;구상입니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업유치&nbsp;전담&nbsp;TF&nbsp;운영,&nbsp;수도권&nbsp;기업&nbsp;대상&nbsp;군수가&nbsp;직접&nbsp;세일즈<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;맞춤형&nbsp;입지·행정&nbsp;지원&nbsp;패키지&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;맞춤형&nbsp;인력&nbsp;연계&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트농업·식품가공&nbsp;특화&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;“경제는&nbsp;속도”&nbsp;입니다.&nbsp;저&nbsp;고기영은&nbsp;취임&nbsp;즉시&nbsp;뛰겠습니다.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;군수가&nbsp;직접&nbsp;기업을&nbsp;만나고,&nbsp;직접&nbsp;투자&nbsp;유치에&nbsp;나서&nbsp;철원&nbsp;경제를&nbsp;조기에&nbsp;반드시&nbsp;회복·안정화&nbsp;시키겠습니다.”<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;해당&nbsp;공약은&nbsp;“적은&nbsp;예산으로&nbsp;큰&nbsp;투자를&nbsp;끌어오는&nbsp;세일즈&nbsp;행정”&nbsp;이라는&nbsp;점입니다.&nbsp;따라서&nbsp;군&nbsp;재정&nbsp;부담은&nbsp;최소화하면서&nbsp;국비·도비·민간투자를&nbsp;최대한&nbsp;끌어오는&nbsp;방식으로&nbsp;추진하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	농업 활성화 및 농축산물 유통 혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="농업 활성화 및 농축산물 유통 혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업은&nbsp;철원의&nbsp;뿌리이자&nbsp;미래입니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유통혁신으로&nbsp;농산물&nbsp;판로를&nbsp;넓히고,&nbsp;농민수당과&nbsp;농자재&nbsp;지원&nbsp;확대를&nbsp;통해&nbsp;농가&nbsp;부담을&nbsp;줄이겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;외국인&nbsp;근로자&nbsp;숙소를&nbsp;체계적으로&nbsp;구축해&nbsp;지속가능한&nbsp;철원&nbsp;농업을&nbsp;반드시&nbsp;만들겠습니다.”<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;철원&nbsp;농산물&nbsp;우선&nbsp;구매&nbsp;협약<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;계약재배&nbsp;품목&nbsp;확대&nbsp;(오대쌀,&nbsp;파프리카,&nbsp;토마토,&nbsp;한우,&nbsp;돼지고기)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농민수당&nbsp;현실화&nbsp;(단계적&nbsp;이행)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;1단계&nbsp;:&nbsp;70만원&nbsp;→&nbsp;85만원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;2단계&nbsp;:&nbsp;100만원&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농자재비&nbsp;50%&nbsp;지원확대<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;농협·생산자단체&nbsp;공동구매<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;군&nbsp;단위&nbsp;대량구매&nbsp;단가&nbsp;인하<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;권역별&nbsp;외국인&nbsp;근로자&nbsp;전용&nbsp;숙소&nbsp;신축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;농가&nbsp;수요조사,&nbsp;관내&nbsp;유휴&nbsp;부지&nbsp;확보,&nbsp;각종&nbsp;국비&nbsp;공모&nbsp;신청<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;농업경제&nbsp;혁신에&nbsp;착수하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1~2년&nbsp;내&nbsp;농민이&nbsp;체감할&nbsp;수&nbsp;있는&nbsp;농민수당&nbsp;인상과&nbsp;농자재&nbsp;지원&nbsp;확대를&nbsp;완료하고,&nbsp;4년&nbsp;안에&nbsp;농축산물&nbsp;유통혁신과&nbsp;외국인&nbsp;근로자&nbsp;숙소&nbsp;체계를&nbsp;완성하겠습니다.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;농민&nbsp;지원은&nbsp;비용이&nbsp;아니라&nbsp;미래에&nbsp;대한&nbsp;투자입니다.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;국비와&nbsp;도비를&nbsp;최대한&nbsp;확보하고,&nbsp;불필요한&nbsp;예산은&nbsp;과감히&nbsp;조정해&nbsp;농민이&nbsp;체감하는&nbsp;지원을&nbsp;반드시&nbsp;확대하겠습니다.”</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	교육의 도시, 철원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="교육의 도시, 철원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아이&nbsp;한&nbsp;명을&nbsp;키우기&nbsp;위해&nbsp;온&nbsp;마을이&nbsp;함께하는&nbsp;철원을&nbsp;만들겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;놀이·돌봄·교육&nbsp;지원을&nbsp;강화해&nbsp;부모&nbsp;부담은&nbsp;줄이겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아이와&nbsp;청년이&nbsp;머무르는&nbsp;미래형&nbsp;철원을&nbsp;반드시&nbsp;실현하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고석정&nbsp;관광권과&nbsp;연계한&nbsp;가족형&nbsp;관광벨트&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아이돌봄&nbsp;시니어&nbsp;일자리&nbsp;연계,&nbsp;자원봉사&nbsp;네트워크&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;장학회&nbsp;기능&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육지원기금&nbsp;확대&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취임&nbsp;즉시&nbsp;돌봄과&nbsp;교육&nbsp;지원을&nbsp;시작하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기&nbsp;안에&nbsp;아이사랑&nbsp;비전센터와&nbsp;교육지원&nbsp;체계를&nbsp;단계적으로&nbsp;완성하겠습니다.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방소멸대응기금과&nbsp;국·도비를&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장학재단&nbsp;및&nbsp;교육발전기금&nbsp;확대&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역기업&nbsp;및&nbsp;출향인&nbsp;장학후원&nbsp;체계&nbsp;구축&nbsp;강화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	빈틈 없는 촘촘한 복지서비스</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="빈틈 없는 촘촘한 복지서비스">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복지는&nbsp;선택이&nbsp;아니라&nbsp;군정의&nbsp;기본책임입니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신과&nbsp;국가유공자,&nbsp;장애인과&nbsp;복지종사자까지&nbsp;모두가&nbsp;존중받는&nbsp;철원을&nbsp;만들겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;누구도&nbsp;소외되지&nbsp;않는&nbsp;따뜻한&nbsp;공동체&nbsp;철원을&nbsp;반드시&nbsp;실현하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;75세&nbsp;이상&nbsp;어르신&nbsp;월&nbsp;30만원&nbsp;철원상품권&nbsp;지급,<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;24시간&nbsp;앰뷸런스&nbsp;비용&nbsp;50%&nbsp;지원.&nbsp;(차상위계층&nbsp;무료),<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가유공자&nbsp;및&nbsp;무공수훈자&nbsp;등&nbsp;수당&nbsp;현실화&nbsp;,<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복지관련&nbsp;종사자&nbsp;처우개선,<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인&nbsp;종합&nbsp;복지관&nbsp;건립.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;지원과&nbsp;의료비&nbsp;지원은&nbsp;취임&nbsp;즉시&nbsp;추진하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보훈과&nbsp;복지체계&nbsp;개선도&nbsp;임기&nbsp;안에&nbsp;단계적으로&nbsp;완성하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인&nbsp;종합복지관&nbsp;건립은&nbsp;임기&nbsp;내&nbsp;책임&nbsp;있게&nbsp;추진하겠습니다.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보여주기식&nbsp;예산은&nbsp;줄이고&nbsp;생활복지는&nbsp;확대하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역경제와&nbsp;연계되는&nbsp;복지정책으로&nbsp;선순환&nbsp;구조를&nbsp;만들겠습니다.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

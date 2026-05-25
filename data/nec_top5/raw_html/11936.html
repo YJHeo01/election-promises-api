@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;천영기 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	통영 든든 패키지 : 올케어(All-Care) 4U</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="통영 든든 패키지 : 올케어(All-Care) 4U">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;경제·생활·건강·명예를&nbsp;책임지는&nbsp;‘체감형&nbsp;36.5℃’&nbsp;복지&nbsp;안전망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;이자&nbsp;제로화,&nbsp;배당연금,&nbsp;의료비&nbsp;지원,&nbsp;시민&nbsp;역사&nbsp;기록&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;공공자원&nbsp;수익의&nbsp;시민&nbsp;환원을&nbsp;통한&nbsp;가계&nbsp;소득&nbsp;안정화&nbsp;및&nbsp;자부심&nbsp;고취<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정당한&nbsp;배당&nbsp;행정&nbsp;실천&nbsp;및&nbsp;시민의&nbsp;삶을&nbsp;존중하는&nbsp;예우&nbsp;중심&nbsp;복지&nbsp;구현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[경제/생활]&nbsp;민생&nbsp;경제&nbsp;회복&nbsp;및&nbsp;직접&nbsp;배당&nbsp;제도&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어민·소상공인&nbsp;대출(1천만원限)&nbsp;이자&nbsp;전액&nbsp;지원&nbsp;및&nbsp;분기별&nbsp;10~30만원&nbsp;배당연금&nbsp;지급<br>&nbsp;&nbsp;○&nbsp;[건강/명예]&nbsp;고령화&nbsp;대비&nbsp;의료&nbsp;복지&nbsp;및&nbsp;시민&nbsp;선양&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;5064&nbsp;신중년&nbsp;본인부담&nbsp;의료비(연&nbsp;30만원限)&nbsp;지원&nbsp;및&nbsp;시민&nbsp;영상&nbsp;자서전&nbsp;제작·상영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진&nbsp;(2026.&nbsp;07.&nbsp;~&nbsp;2030.&nbsp;06.)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;하반기&nbsp;조례&nbsp;제·개정&nbsp;및&nbsp;2027년&nbsp;사업&nbsp;본격&nbsp;시행&nbsp;목표<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;예산&nbsp;확보&nbsp;및&nbsp;수익&nbsp;모델&nbsp;연계로&nbsp;안정적&nbsp;재원&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복지&nbsp;예산&nbsp;36.5%&nbsp;확보,&nbsp;풍력&nbsp;등&nbsp;공공자원&nbsp;수익금&nbsp;및&nbsp;시비&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	통영 미식 관광 경제 르네상스</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="통영 미식 관광 경제 르네상스">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;미식&nbsp;브랜드&nbsp;확립&nbsp;및&nbsp;지역&nbsp;재생&nbsp;연계&nbsp;관광&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어부장터&nbsp;세계화,&nbsp;로컬&nbsp;푸드빌리지&nbsp;구축으로&nbsp;청년&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;생활&nbsp;인구&nbsp;유입<br>&nbsp;&nbsp;○&nbsp;예술·과학&nbsp;융합형&nbsp;랜드마크&nbsp;조성을&nbsp;통한&nbsp;남해안&nbsp;관광&nbsp;거점&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수산미래과학관의&nbsp;아트&nbsp;사이언스화로&nbsp;차별화된&nbsp;고품격&nbsp;미식·관광&nbsp;인프라&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[브랜드/거점]&nbsp;세계적&nbsp;미식&nbsp;축제&nbsp;육성&nbsp;및&nbsp;미식&nbsp;마을&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;「통영&nbsp;어부장터」&nbsp;하이엔드&nbsp;레시피&nbsp;도입&nbsp;및&nbsp;빈집&nbsp;활용&nbsp;「로컬&nbsp;푸드빌리지」&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;[지원/혁신]&nbsp;청년&nbsp;창업&nbsp;인큐베이팅&nbsp;및&nbsp;과학관&nbsp;리모델링<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;외식산업개발센터&nbsp;신축&nbsp;및&nbsp;수산미래과학관&nbsp;스마트&nbsp;리모델링<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진&nbsp;(2026.&nbsp;07.&nbsp;~&nbsp;2030.&nbsp;06.)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;하반기&nbsp;세부&nbsp;실행계획&nbsp;수립&nbsp;및&nbsp;2027년&nbsp;거점&nbsp;조성&nbsp;사업&nbsp;본격&nbsp;착수<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·도비&nbsp;공모사업&nbsp;연계&nbsp;및&nbsp;대규모&nbsp;민간&nbsp;투자&nbsp;유치&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민선&nbsp;9기&nbsp;민간&nbsp;투자&nbsp;1.5조&nbsp;원&nbsp;유치&nbsp;계획&nbsp;연계&nbsp;및&nbsp;시&nbsp;예산&nbsp;집중&nbsp;투입</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	통영 수(水)·숲 도심재생 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="통영 수(水)·숲 도심재생 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;녹지·수변&nbsp;공간&nbsp;확충을&nbsp;통한&nbsp;친환경&nbsp;도시&nbsp;환경&nbsp;조성&nbsp;및&nbsp;삶의&nbsp;질&nbsp;향상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통영운동장&nbsp;정원화&nbsp;및&nbsp;죽림천&nbsp;물길&nbsp;복원으로&nbsp;미세먼지&nbsp;저감&nbsp;및&nbsp;시민&nbsp;휴식처&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;거점&nbsp;재생을&nbsp;통한&nbsp;원도심&nbsp;상권&nbsp;활성화&nbsp;및&nbsp;신도심&nbsp;정주&nbsp;여건&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;힐링파크&nbsp;유동&nbsp;인구&nbsp;유입으로&nbsp;주변&nbsp;시장(서호·중앙)&nbsp;활력&nbsp;제고&nbsp;및&nbsp;명품&nbsp;수변&nbsp;도시&nbsp;완성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[원도심&nbsp;그린축]&nbsp;통영운동장&nbsp;‘시민&nbsp;힐링파크&nbsp;&&nbsp;만남의&nbsp;광장’&nbsp;재개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후&nbsp;운동장&nbsp;부지를&nbsp;도심&nbsp;숲&nbsp;정원&nbsp;및&nbsp;전&nbsp;세대&nbsp;소통형&nbsp;문화&nbsp;거점으로&nbsp;전면&nbsp;재개발<br>&nbsp;&nbsp;○&nbsp;[신도심&nbsp;블루축]&nbsp;죽림천&nbsp;생태&nbsp;복원&nbsp;‘제2의&nbsp;청계천’&nbsp;프로젝트<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복개&nbsp;구간(0.88km)&nbsp;개방&nbsp;및&nbsp;2.7km&nbsp;수변&nbsp;산책로·교량&nbsp;정비로&nbsp;생태&nbsp;하천&nbsp;복원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진&nbsp;(2026.&nbsp;07.&nbsp;~&nbsp;2030.&nbsp;06.)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;하반기&nbsp;마스터플랜&nbsp;수립&nbsp;및&nbsp;2027년&nbsp;용역&nbsp;발주&nbsp;등<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;공모사업(도시재생,&nbsp;생태하천복원)&nbsp;연계&nbsp;및&nbsp;시비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국·도비&nbsp;확보를&nbsp;위한&nbsp;정무적&nbsp;노력&nbsp;병행&nbsp;및&nbsp;민선&nbsp;9기&nbsp;예산&nbsp;1.5조&nbsp;원&nbsp;달성과&nbsp;연계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	사통팔달 광속(光速) 교통망 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="사통팔달 광속(光速) 교통망 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;KTX&nbsp;개통&nbsp;연계&nbsp;남해안&nbsp;교통·관광&nbsp;거점&nbsp;확보&nbsp;및&nbsp;도심&nbsp;10분&nbsp;생활권&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;역세권&nbsp;투자선도지구&nbsp;개발로&nbsp;신도시&nbsp;조성&nbsp;및&nbsp;고질적&nbsp;정체&nbsp;구간의&nbsp;획기적&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;디자인과&nbsp;기능이&nbsp;결합된&nbsp;역사(驛舍)&nbsp;구축으로&nbsp;통영의&nbsp;새로운&nbsp;관문&nbsp;랜드마크화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;'바다를&nbsp;품은&nbsp;역사'&nbsp;디자인&nbsp;및&nbsp;복합환승센터&nbsp;건립을&nbsp;통한&nbsp;광역&nbsp;교통&nbsp;편의&nbsp;극대화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[외부연결]&nbsp;KTX&nbsp;통영&nbsp;역세권&nbsp;‘투자선도지구’&nbsp;본격&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상업·의료·관광&nbsp;배후단지&nbsp;조성(약&nbsp;6,565억&nbsp;원&nbsp;규모)&nbsp;및&nbsp;복합환승센터&nbsp;조기&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;[내부순환]&nbsp;‘관문터널’&nbsp;4차선&nbsp;확장&nbsp;및&nbsp;도심&nbsp;직결&nbsp;도로망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원문고개&nbsp;병목현상&nbsp;제거&nbsp;및&nbsp;역세권~무전동&nbsp;관문사거리&nbsp;최단&nbsp;거리&nbsp;터널·도로&nbsp;개설<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진&nbsp;및&nbsp;KTX&nbsp;개통&nbsp;시기(2031년&nbsp;예정)&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;하반기&nbsp;터널&nbsp;확장&nbsp;실시설계&nbsp;착수&nbsp;및&nbsp;역세권&nbsp;배후단지&nbsp;토지&nbsp;보상&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국책&nbsp;사업(남부내륙철도)&nbsp;연계&nbsp;예산&nbsp;및&nbsp;투자선도지구&nbsp;민간&nbsp;자본&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비·도비&nbsp;확보를&nbsp;위한&nbsp;정무적&nbsp;역량&nbsp;집중&nbsp;및&nbsp;민간&nbsp;투자&nbsp;1.5조&nbsp;원&nbsp;유치&nbsp;계획과&nbsp;연동</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	“대한민국 예술 수도” 통영 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="“대한민국 예술 수도” 통영 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;예술인&nbsp;정착&nbsp;인프라&nbsp;구축&nbsp;및&nbsp;일상&nbsp;속&nbsp;문화&nbsp;향유&nbsp;생태계&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아트-스테이&nbsp;및&nbsp;오픈&nbsp;스튜디오&nbsp;활성화로&nbsp;‘지붕&nbsp;없는&nbsp;미술관’&nbsp;도시&nbsp;브랜드&nbsp;확립<br>&nbsp;&nbsp;○&nbsp;예술의&nbsp;산업화와&nbsp;경제적&nbsp;자립&nbsp;지원을&nbsp;통한&nbsp;미래&nbsp;지속가능한&nbsp;문화&nbsp;도시&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공작품&nbsp;구입&nbsp;확대&nbsp;및&nbsp;도시&nbsp;브랜드의&nbsp;예술&nbsp;자산화로&nbsp;예술인의&nbsp;실질적&nbsp;소득&nbsp;보장<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[정주/창작]&nbsp;예술인&nbsp;유입을&nbsp;위한&nbsp;‘통영&nbsp;아트-스테이’&nbsp;및&nbsp;‘열린&nbsp;작업실’&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;빈집&nbsp;활용&nbsp;주거+작업&nbsp;통합&nbsp;공간&nbsp;공급&nbsp;및&nbsp;시민·관광객&nbsp;소통형&nbsp;창작&nbsp;거점&nbsp;배치<br>&nbsp;&nbsp;○&nbsp;[자생/산업]&nbsp;지역&nbsp;예술인&nbsp;작품&nbsp;구매를&nbsp;통한&nbsp;'예술&nbsp;수도'&nbsp;브랜드&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시(市)&nbsp;차원의&nbsp;전략적&nbsp;작품&nbsp;구매&nbsp;확대를&nbsp;통해&nbsp;지역&nbsp;예술가의&nbsp;경제적&nbsp;자립을&nbsp;돕고,&nbsp;예술&nbsp;자원을&nbsp;통영만의&nbsp;독보적인&nbsp;미래&nbsp;브랜드&nbsp;산업으로&nbsp;육성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진&nbsp;(2026.&nbsp;07.&nbsp;~&nbsp;2030.&nbsp;06.)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;하반기&nbsp;시범&nbsp;사업지&nbsp;선정&nbsp;및&nbsp;2027년부터&nbsp;연차별&nbsp;공간&nbsp;리모델링&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시비(문화예술&nbsp;예산&nbsp;확대)&nbsp;및&nbsp;국·도비&nbsp;공모사업(대한민국&nbsp;문화도시&nbsp;등)&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부의&nbsp;문화&nbsp;특구&nbsp;지원금&nbsp;및&nbsp;민간&nbsp;투자&nbsp;1.5조&nbsp;원&nbsp;유치&nbsp;계획&nbsp;내&nbsp;문화&nbsp;기반&nbsp;투자&nbsp;유도</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

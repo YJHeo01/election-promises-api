@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;조원휘 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	대덕연구개발특구와 연계한 초일류 과학산업단지 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="대덕연구개발특구와 연계한 초일류 과학산업단지 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            정책방향<br>·&nbsp;첨단&nbsp;전략산업(반도체·우주항공·바이오&nbsp;등)&nbsp;중심의&nbsp;특화단지&nbsp;구축과&nbsp;KAIST&nbsp;등&nbsp;연구기관과의&nbsp;협력을&nbsp;통한&nbsp;R&D를&nbsp;강화하여&nbsp;기술개발·인재양성·기업유치를&nbsp;연계&nbsp;추진<br><br>정책목표&nbsp;<br>·&nbsp;미래&nbsp;핵심&nbsp;첨단산업&nbsp;집적화를&nbsp;통한&nbsp;글로벌&nbsp;경쟁력&nbsp;확보·&nbsp;R&D&nbsp;기반&nbsp;일자리&nbsp;창출과&nbsp;지역경제&nbsp;성장&nbsp;견인<br><br>정책비전<br>&nbsp;·&nbsp;첨단&nbsp;전략산업을&nbsp;통한&nbsp;유성지역&nbsp;혁신&nbsp;생태계&nbsp;구축<br><br>기대효과&nbsp;<br>·&nbsp;청년&nbsp;역량&nbsp;강화와&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;지역경제&nbsp;활성화<br><br>추진계획<br>▣유성&nbsp;첨단&nbsp;전략산업&nbsp;특화단지<br>○유성&nbsp;첨단&nbsp;전략산업&nbsp;특화단지&nbsp;조성<br>·내&nbsp;&nbsp;&nbsp;&nbsp;용:&nbsp;첨단&nbsp;전략산업&nbsp;특화단지&nbsp;조성&nbsp;및&nbsp;R&D&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;유성&nbsp;U자형&nbsp;혁신벨트로&nbsp;미래&nbsp;100년&nbsp;먹거리&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;대덕특구-스타트업&nbsp;연계로&nbsp;기술·일자리&nbsp;확대<br>·지&nbsp;&nbsp;&nbsp;&nbsp;역:&nbsp;국방(안산),&nbsp;바이오(원촌),&nbsp;첨단(대동·탑립·전민)<br>·실행기간:&nbsp;2026년~2030년<br><br>▣청년창업&nbsp;스타트업&nbsp;스트리트&nbsp;활성화<br>○스타트업&nbsp;거리&nbsp;조성으로&nbsp;청년창업·일자리&nbsp;활성화<br>·내&nbsp;&nbsp;&nbsp;&nbsp;용:&nbsp;청년창업&nbsp;지원·기술실증·창업성장&nbsp;프로그램&nbsp;운영<br>·지&nbsp;&nbsp;&nbsp;&nbsp;역:&nbsp;궁동·어은동&nbsp;일원(대덕특구·KAIST·충남대&nbsp;연계)<br>·예&nbsp;&nbsp;&nbsp;&nbsp;산:&nbsp;약&nbsp;42억&nbsp;원(대전시&nbsp;32억+유성구&nbsp;10억)<br>·실행기간:&nbsp;2026년&nbsp;~&nbsp;2030년<br><br>▣유성의&nbsp;첫&nbsp;관문,&nbsp;‘어린이&nbsp;과학&nbsp;테마파크’&nbsp;조성<br>○과학체험·휴식&nbsp;결합&nbsp;‘어린이&nbsp;과학&nbsp;테마공원’&nbsp;조성<br>·내&nbsp;&nbsp;&nbsp;&nbsp;용:&nbsp;과학체험·전시·교육을&nbsp;결합한&nbsp;테마공원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;주차장&nbsp;정비<br>·지&nbsp;&nbsp;&nbsp;&nbsp;역:&nbsp;북대전IC&nbsp;공원&nbsp;일원<br>·예&nbsp;&nbsp;&nbsp;&nbsp;산:&nbsp;약&nbsp;200억&nbsp;원(국·시비)<br>·실행기간:&nbsp;2026년&nbsp;~&nbsp;2029년</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	삶의 질 향상, 복지와 교육인프라 강화로 행복한 유성 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="삶의 질 향상, 복지와 교육인프라 강화로 행복한 유성 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            정책방향&nbsp;<br>·&nbsp;유성&nbsp;특성&nbsp;기반&nbsp;인프라&nbsp;확충&nbsp;및&nbsp;도시&nbsp;브랜드&nbsp;강화<br><br>정책목표&nbsp;<br>·&nbsp;복지·교육&nbsp;중심의&nbsp;삶의&nbsp;질&nbsp;향상&nbsp;도시&nbsp;구현<br><br>정책비전&nbsp;<br>·&nbsp;복지·교육&nbsp;1등&nbsp;도시&nbsp;유성&nbsp;실현<br><br>기대효과&nbsp;<br>·&nbsp;삶의&nbsp;질&nbsp;향상&nbsp;및&nbsp;복지&nbsp;체감도&nbsp;증가와&nbsp;도시&nbsp;경쟁력&nbsp;강화<br><br>추진계획<br>▣촘촘&nbsp;복지,&nbsp;‘대전형&nbsp;통합돌봄’추진<br>·내&nbsp;&nbsp;&nbsp;&nbsp;용:&nbsp;통합서비스&nbsp;및&nbsp;경로당&nbsp;운영비&nbsp;추가&nbsp;지원&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;베리어프리&nbsp;환경&nbsp;및&nbsp;장애인&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;어린이집&nbsp;만&nbsp;2세&nbsp;필요경비&nbsp;지원&nbsp;및&nbsp;건강&nbsp;간식비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;유성치매관리사&nbsp;제도&nbsp;추진&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>·예&nbsp;&nbsp;&nbsp;&nbsp;산:&nbsp;운영비&nbsp;및&nbsp;사업비(국·시비)<br>·실행기간:&nbsp;2026년~2028년&nbsp;(구축·운영·확대)<br><br>▣유성人“출산장려금&nbsp;+&nbsp;생애&nbsp;단계별&nbsp;연계”지원<br>·내&nbsp;&nbsp;&nbsp;&nbsp;용:&nbsp;임신·출산·양육&nbsp;전주기별&nbsp;지원<br>·지&nbsp;&nbsp;&nbsp;&nbsp;역:&nbsp;유성구<br>·예&nbsp;&nbsp;&nbsp;&nbsp;산:&nbsp;약40억원<br>·실행기간:&nbsp;2026년부터&nbsp;<br><br>▣남부권&nbsp;‘유성구&nbsp;가족센터’건립<br>·내&nbsp;&nbsp;&nbsp;&nbsp;용:&nbsp;다양한&nbsp;맞춤형&nbsp;원스톱&nbsp;서비스&nbsp;프로그램&nbsp;지원<br>·지&nbsp;&nbsp;&nbsp;&nbsp;역:&nbsp;진잠동&nbsp;일원<br>·예&nbsp;&nbsp;&nbsp;&nbsp;산:&nbsp;약200억원(여성가족부+대전시·유성구&nbsp;매칭)<br>·실행기간:&nbsp;2026년~2029년(계획·건립·운영)<br><br>▣펫&nbsp;가족과&nbsp;함께하는,‘반려동물&nbsp;돌봄센터’운영<br>·내&nbsp;&nbsp;&nbsp;&nbsp;용:&nbsp;돌봄·행동교정·미용&nbsp;등&nbsp;동물복지&nbsp;서비스&nbsp;및&nbsp;민간시설<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;활용&nbsp;센터&nbsp;운영<br>·지&nbsp;&nbsp;&nbsp;&nbsp;역:&nbsp;유성구(시범지역&nbsp;선정)<br>·예&nbsp;&nbsp;&nbsp;&nbsp;산:&nbsp;약5억원(대전시·유성구)<br>·실행기간:&nbsp;2026년(단기시범&nbsp;후&nbsp;확대</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	AI·디지털 기반 스마트 안전도시 구축, 교통정체 해소</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="AI·디지털 기반 스마트 안전도시 구축, 교통정체 해소">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            정책방향&nbsp;<br>·&nbsp;교통&nbsp;인프라&nbsp;확충과&nbsp;스마트&nbsp;기술&nbsp;기반&nbsp;안전도시&nbsp;구축<br><br>정책목표&nbsp;<br>·&nbsp;교통정체&nbsp;해소&nbsp;및&nbsp;시민&nbsp;체감&nbsp;안전도&nbsp;향상&nbsp;<br><br>정책비전&nbsp;<br>·&nbsp;빠르고&nbsp;안전한&nbsp;첨단&nbsp;스마트&nbsp;안전도시<br><br>기대효과&nbsp;<br>-&nbsp;상습&nbsp;교통정체&nbsp;해소와&nbsp;주차난&nbsp;완화<br>-&nbsp;지역&nbsp;활성화&nbsp;및&nbsp;도시&nbsp;경쟁력&nbsp;향상<br><br>추진계획<br>▣출퇴근&nbsp;10분&nbsp;단축,&nbsp;미래교통&nbsp;시스템&nbsp;구축<br>①&nbsp;꽉&nbsp;막힌&nbsp;북유성대로,&nbsp;‘노은로&nbsp;우회도로’개설<br>○북유성대로&nbsp;상습&nbsp;정체&nbsp;해소를&nbsp;위한&nbsp;노은로&nbsp;우회도로&nbsp;개설<br>·내&nbsp;&nbsp;&nbsp;&nbsp;용:&nbsp;노은로&nbsp;우회도로&nbsp;신설&nbsp;및&nbsp;교차로&nbsp;체계&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;북유성대로&nbsp;교통&nbsp;분산&nbsp;및&nbsp;정체구간&nbsp;근본&nbsp;해결<br>·지&nbsp;&nbsp;&nbsp;&nbsp;역:&nbsp;반석역&nbsp;3거리~하기동&nbsp;603일원(연장930m,&nbsp;폭20m)<br>·예&nbsp;&nbsp;&nbsp;&nbsp;산:&nbsp;약250억원(대전시·유성구&nbsp;매칭)<br>·실행기간:&nbsp;2026~2029년(타당성&nbsp;검토&nbsp;및&nbsp;기본계획~준공·개통)<br>②&nbsp;멈춰&nbsp;선,&nbsp;‘지족터널&nbsp;도로’개설<br>○지족터널&nbsp;도로&nbsp;개설&nbsp;재추진으로&nbsp;교통&nbsp;연결&nbsp;회복<br>·내&nbsp;&nbsp;&nbsp;&nbsp;용:&nbsp;지족터널&nbsp;도로&nbsp;개설&nbsp;및&nbsp;교통&nbsp;정체&nbsp;해소&nbsp;<br>·지&nbsp;&nbsp;&nbsp;&nbsp;역:&nbsp;지족터널~노은지구&nbsp;구간(연장&nbsp;약840m,&nbsp;4차로)<br>·예&nbsp;&nbsp;&nbsp;&nbsp;산:&nbsp;약&nbsp;457억&nbsp;원&nbsp;(국비&nbsp;+&nbsp;시비)<br>·실행기간:&nbsp;2026~2030년(기본계획&nbsp;수립~준공·개통)&nbsp;<br>③&nbsp;신교통수단‘&nbsp;3칸&nbsp;굴절차량&nbsp;도입<br>○3칸&nbsp;굴절차량(무궤도&nbsp;트램)&nbsp;도입으로&nbsp;대중교통&nbsp;수송력&nbsp;강화<br>·내&nbsp;&nbsp;&nbsp;&nbsp;용:&nbsp;신교통수단(3칸&nbsp;굴절차량)&nbsp;도입으로,&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;출퇴근&nbsp;혼잡&nbsp;완화&nbsp;및&nbsp;대중교통&nbsp;이용&nbsp;확대<br>·지&nbsp;&nbsp;&nbsp;&nbsp;역:&nbsp;신성,구즉,관평,전민동<br>·예&nbsp;&nbsp;&nbsp;&nbsp;산:&nbsp;약185억원(대전시비)<br>·실행기간:&nbsp;2026년(시범사업사업&nbsp;단계,&nbsp;도입&nbsp;및&nbsp;운영&nbsp;추진)&nbsp;<br><br>▣AI&nbsp;Free&nbsp;Zone&nbsp;조성<br>○AI를&nbsp;통한&nbsp;행정·복지·안전·교육·일자리까지&nbsp;혁신하는&nbsp;스마트&nbsp;&nbsp;미래&nbsp;&nbsp;<br>&nbsp;도시&nbsp;유성구&nbsp;조성<br>·내&nbsp;&nbsp;&nbsp;&nbsp;용:&nbsp;청내&nbsp;AI전담조직&nbsp;신설,&nbsp;24시간&nbsp;AI&nbsp;민원서비스,복지&nbsp;사각<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;지대&nbsp;발굴,&nbsp;AI&nbsp;도시안전망&nbsp;구축,&nbsp;공무원&nbsp;업무&nbsp;자동화,&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;구민&nbsp;AI&nbsp;교육,&nbsp;청년&nbsp;AI&nbsp;일자리&nbsp;및&nbsp;창업&nbsp;지원<br>·지&nbsp;&nbsp;&nbsp;&nbsp;역:&nbsp;유성구&nbsp;전역<br>·예&nbsp;&nbsp;&nbsp;&nbsp;산:&nbsp;총&nbsp;약110~200억원&nbsp;규모<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(사업별&nbsp;단계적&nbsp;투자&nbsp;및&nbsp;연차&nbsp;운영&nbsp;포함)<br>·실행기간:&nbsp;2026년&nbsp;취임&nbsp;후&nbsp;즉시&nbsp;착수(단계적&nbsp;확대)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	협력과 소통중심의 자치 모델 구축 , 주민참여확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="협력과 소통중심의 자치 모델 구축 , 주민참여확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            정책방향&nbsp;<br>·&nbsp;현장중심&nbsp;소통·참여&nbsp;행정&nbsp;강화(현장행정)<br>·&nbsp;공정·청렴&nbsp;및&nbsp;지속가능&nbsp;행정체계&nbsp;구축<br><br>정책목표&nbsp;<br>·&nbsp;생활밀착형&nbsp;문제&nbsp;해결&nbsp;및&nbsp;행정&nbsp;신뢰도&nbsp;제고<br><br>정책비전&nbsp;<br>·&nbsp;주민과&nbsp;함께하는&nbsp;소통·참여·스마트&nbsp;행정&nbsp;도시<br><br>기대효과<br>·&nbsp;주민&nbsp;체감&nbsp;행정&nbsp;향상&nbsp;및&nbsp;주민&nbsp;참여&nbsp;확대와&nbsp;행정&nbsp;신뢰&nbsp;구축<br><br>추진계획<br>▣구청장과의&nbsp;기분&nbsp;좋은&nbsp;동행,‘생활&nbsp;속&nbsp;문제&nbsp;해결’<br>·내&nbsp;&nbsp;&nbsp;&nbsp;용:&nbsp;주민참여&nbsp;예산확대,&nbsp;주민센터&nbsp;프로그램&nbsp;예산&nbsp;확대,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;공정·청렴·책임&nbsp;행정&nbsp;구현<br>·지&nbsp;&nbsp;&nbsp;&nbsp;역:&nbsp;유성구&nbsp;전역<br>·예&nbsp;&nbsp;&nbsp;&nbsp;산:&nbsp;기존&nbsp;행정&nbsp;인력&nbsp;및&nbsp;사업&nbsp;연계&nbsp;활용<br>·실행기간:&nbsp;2026년부터&nbsp;상시&nbsp;추진<br><br>▣발로&nbsp;뛰는&nbsp;洞長&nbsp;(1일&nbsp;1회)&nbsp;1가구&nbsp;&&nbsp;현장&nbsp;소통으로&nbsp;사각지대&nbsp;해소&nbsp;<br>○현장&nbsp;중심&nbsp;행정으로&nbsp;복지·민원&nbsp;사각지대&nbsp;해소<br>·내&nbsp;&nbsp;&nbsp;&nbsp;용:&nbsp;주민&nbsp;만남의&nbsp;날&nbsp;운영<br>·지&nbsp;&nbsp;&nbsp;&nbsp;역:&nbsp;유성구&nbsp;관내&nbsp;13개&nbsp;동&nbsp;전역(동별&nbsp;현장&nbsp;순회)<br>·예&nbsp;&nbsp;&nbsp;&nbsp;산:&nbsp;동장&nbsp;재량사업비&nbsp;및&nbsp;소규모&nbsp;사업비&nbsp;활용<br>·실행기간:&nbsp;상시&nbsp;추진(매일&nbsp;현장&nbsp;방문/월&nbsp;1회&nbsp;정례&nbsp;보고)<br><br>▣“예비군&nbsp;훈련&nbsp;참가&nbsp;보상금”&nbsp;지원&nbsp;<br>○예비군&nbsp;훈련&nbsp;참가자에&nbsp;대한&nbsp;실질적&nbsp;보상금&nbsp;5만원&nbsp;지원<br>·내&nbsp;&nbsp;&nbsp;&nbsp;용:&nbsp;예비군&nbsp;훈련&nbsp;참가&nbsp;보상금&nbsp;지원&nbsp;조례&nbsp;제정과&nbsp;기존&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;여비&nbsp;외&nbsp;훈련수당&nbsp;실비&nbsp;보상&nbsp;추가&nbsp;지원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>·지&nbsp;&nbsp;&nbsp;&nbsp;역:&nbsp;유성구&nbsp;관내&nbsp;예비군&nbsp;대상<br>·예&nbsp;&nbsp;&nbsp;&nbsp;산:&nbsp;약14억원&nbsp;규모(국비/시비:추가&nbsp;보상금&nbsp;지원)<br>·실행기간:&nbsp;2026년이후&nbsp;조례&nbsp;제정&nbsp;후&nbsp;연중&nbsp;지속&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	탄소중립 정책과 도시환경 개선 및 문화·관광·체육 활성화를 통한 도시 품격 향상 브랜드 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="탄소중립 정책과 도시환경 개선 및 문화·관광·체육 활성화를 통한 도시 품격 향상 브랜드 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            정책방향&nbsp;<br>·&nbsp;친환경&nbsp;녹색&nbsp;인프라&nbsp;확대와&nbsp;주민&nbsp;체감형&nbsp;힐링·건강&nbsp;공간&nbsp;조성<br>·&nbsp;야간경제·관광·체육&nbsp;인프라를&nbsp;결합한&nbsp;체류형&nbsp;문화관광도시&nbsp;조성<br><br>정책목표&nbsp;<br>·&nbsp;유성&nbsp;관광특구&nbsp;활성화와&nbsp;계룡스파텔·공공체육시설&nbsp;재편으로&nbsp;도시&nbsp;경쟁력&nbsp;강화<br><br>정책비전&nbsp;<br>·&nbsp;밤과&nbsp;낮이&nbsp;모두&nbsp;즐거운’&nbsp;문화·관광·스포츠&nbsp;중심도시&nbsp;유성&nbsp;실현<br>·&nbsp;체류형&nbsp;관광과&nbsp;스포츠&nbsp;명소가&nbsp;공존하는&nbsp;명품&nbsp;도시&nbsp;구현<br><br>기대효과&nbsp;<br>·&nbsp;관광객&nbsp;증가&nbsp;및&nbsp;지역경제&nbsp;활성화,&nbsp;상권&nbsp;회복,&nbsp;도시&nbsp;브랜드&nbsp;가치&nbsp;상승<br><br>추진계획<br>▣북대전&nbsp;IC&nbsp;주변“만남의&nbsp;광장&nbsp;및&nbsp;경관&nbsp;숲”조성&nbsp;지원<br>·내&nbsp;&nbsp;&nbsp;&nbsp;용:&nbsp;친환경&nbsp;경관숲&nbsp;조성,&nbsp;주차장·안전체험·편의시설&nbsp;확충<br>·지&nbsp;&nbsp;&nbsp;&nbsp;역:&nbsp;화암동&nbsp;일원&nbsp;(약&nbsp;96천㎡)<br>·예&nbsp;&nbsp;&nbsp;&nbsp;산:&nbsp;총560억원&nbsp;규모(국비130/시비330/민자100)<br>·실행기간:&nbsp;2026년&nbsp;GB&nbsp;도시관리계획&nbsp;결정&nbsp;및&nbsp;사업&nbsp;추진<br><br>▣맨발의&nbsp;유성,&nbsp;집&nbsp;앞에서&nbsp;누리는“명품&nbsp;황톳길&nbsp;조성”<br>·내&nbsp;&nbsp;&nbsp;&nbsp;용:&nbsp;걷기&nbsp;특화공원&nbsp;조성,&nbsp;황톳길&nbsp;및&nbsp;맨발&nbsp;흙길&nbsp;네트워크&nbsp;구축<br>·지&nbsp;&nbsp;&nbsp;&nbsp;역:&nbsp;유성구&nbsp;관내<br>·예&nbsp;&nbsp;&nbsp;&nbsp;산:&nbsp;총&nbsp;약12.4억원(시비2.4억+구비10억,&nbsp;단계적&nbsp;추진)<br>·실행기간:&nbsp;2026년~2028년&nbsp;추진&nbsp;(2026년&nbsp;발굴,&nbsp;2027년&nbsp;단계&nbsp;추진,&nbsp;2028년&nbsp;이후&nbsp;계속사업)<br><br>▣탄소중립&nbsp;친환경도시&nbsp;유성&nbsp;실현&nbsp;<br>·내&nbsp;&nbsp;&nbsp;&nbsp;용:&nbsp;음식업,&nbsp;상업시설,&nbsp;공공&nbsp;및&nbsp;학교&nbsp;중심으로&nbsp;도시환경&nbsp;개선<br>·지&nbsp;&nbsp;&nbsp;&nbsp;역:&nbsp;유성구&nbsp;전역<br>·예&nbsp;&nbsp;&nbsp;&nbsp;산:&nbsp;약&nbsp;20~50억원(단계적&nbsp;도입&nbsp;및&nbsp;확산)<br>·실행기간:&nbsp;2026년부터&nbsp;1년내&nbsp;시범사업(2년~4년&nbsp;단계적&nbsp;확대)<br><br>▣신야간경제&nbsp;도입으로&nbsp;유성관광특구&nbsp;활성화&nbsp;추진<br>&nbsp;-&nbsp;‘유성&nbsp;야몽(夜夢)&nbsp;프로젝트’&nbsp;추진<br>·내&nbsp;&nbsp;&nbsp;&nbsp;용:&nbsp;야몽&nbsp;프로젝트,젊음의&nbsp;거리&nbsp;조성(몽리단길·탕리단길)<br>·지&nbsp;&nbsp;&nbsp;&nbsp;역:&nbsp;유성온천·엑스포&nbsp;및&nbsp;궁동·유림공원&nbsp;일원<br>·예&nbsp;&nbsp;&nbsp;&nbsp;산:&nbsp;약8.6억원(국·시5.6억+구비3억,&nbsp;용역비&nbsp;별도)<br>·실행기간:&nbsp;2026년&nbsp;이후(야간관광특화도시&nbsp;조성&nbsp;및&nbsp;축제&nbsp;연계사업)<br><br>▣생활체육&nbsp;동호인&nbsp;체육관&nbsp;건립<br>·내&nbsp;&nbsp;&nbsp;&nbsp;용:&nbsp;공공&nbsp;체육시설&nbsp;확충&nbsp;및&nbsp;개보수,&nbsp;근린&nbsp;체육공간&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;성북동&nbsp;108홀&nbsp;조성,&nbsp;금고동&nbsp;체육시설,&nbsp;갑천&nbsp;파크골프장&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;리뉴얼(1구장&nbsp;18홀&nbsp;？&nbsp;36홀),&nbsp;카이스트&nbsp;앞(18홀)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;수영장·체육시설·문화공간&nbsp;통합&nbsp;제공<br>·지&nbsp;&nbsp;&nbsp;&nbsp;역:&nbsp;유성구&nbsp;일대<br>·예&nbsp;&nbsp;&nbsp;&nbsp;산:&nbsp;시비&nbsp;1,900억&nbsp;원<br>·실행기간:&nbsp;2026년&nbsp;이후</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

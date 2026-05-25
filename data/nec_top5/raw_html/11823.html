@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;안교재 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	비상경제 태스크포스 가동</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="비상경제 태스크포스 가동">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;경제&nbsp;안정화:&nbsp;민생경제·기회경제·자생경제&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고물가·고금리&nbsp;등&nbsp;복합&nbsp;경제&nbsp;위기에&nbsp;신속&nbsp;대응하는&nbsp;시장&nbsp;직속&nbsp;컨트롤타워&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;안정적인&nbsp;수익&nbsp;구조&nbsp;확보와&nbsp;지역경제&nbsp;재투자&nbsp;및&nbsp;시민&nbsp;배당&nbsp;환원&nbsp;체계&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수원시&nbsp;공유자산&nbsp;및&nbsp;도시사업을&nbsp;기업형으로&nbsp;운영하는&nbsp;'주식회사&nbsp;수원'&nbsp;설립<br>&nbsp;<br>&nbsp;□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;비상경제&nbsp;태스크포스(TF)&nbsp;가동<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;외부&nbsp;전문가·소상공인·시민&nbsp;대표&nbsp;참여&nbsp;및&nbsp;민생경제&nbsp;모니터링&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;긴급&nbsp;민생&nbsp;대책&nbsp;패키지&nbsp;발굴&nbsp;및&nbsp;신속&nbsp;집행&nbsp;(금융&nbsp;지원,&nbsp;상권&nbsp;활성화,&nbsp;일자리&nbsp;매칭&nbsp;등)<br>&nbsp;&nbsp;○&nbsp;주식회사&nbsp;수원&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공유자산전수조사&nbsp;및&nbsp;시&nbsp;100%&nbsp;출자&nbsp;또는&nbsp;시&nbsp;주도&nbsp;공기업&nbsp;형태의&nbsp;법인&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;운영&nbsp;수익은&nbsp;도시&nbsp;인프라&nbsp;사각지대&nbsp;개선&nbsp;및&nbsp;시민배당기금으로&nbsp;환원<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;비상경제&nbsp;태스크포스<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;1단계&nbsp;(2026~2027)&nbsp;:&nbsp;TFT&nbsp;출범,&nbsp;운영&nbsp;조례&nbsp;제정,&nbsp;민생&nbsp;모니터링&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2단계&nbsp;(2028~2029)&nbsp;:&nbsp;정책&nbsp;효과&nbsp;평가·환류,&nbsp;분야별&nbsp;상설&nbsp;분과&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;3단계&nbsp;(2030~):&nbsp;상시&nbsp;운영&nbsp;체계로&nbsp;정착,&nbsp;시정&nbsp;경제정책&nbsp;컨트롤타워로&nbsp;제도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주식회사&nbsp;수원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;1단계&nbsp;(2026~2027):&nbsp;타당성&nbsp;조사·법률&nbsp;검토,&nbsp;설립&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2단계&nbsp;(2027~2028):&nbsp;공유자산&nbsp;전수조사,&nbsp;주민&nbsp;의견&nbsp;수렴<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;3단계&nbsp;(2028~2029):&nbsp;관련&nbsp;법령&nbsp;제·개정,&nbsp;출자&nbsp;대상&nbsp;선별,&nbsp;법인&nbsp;설립&nbsp;등기<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;4단계&nbsp;(2030~):&nbsp;사업&nbsp;추진&nbsp;및&nbsp;시민배당&nbsp;환원&nbsp;본격화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	모두에게 열린, 기회의 수원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="모두에게 열린, 기회의 수원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;누구에게나&nbsp;동등한&nbsp;기회가&nbsp;주어지는&nbsp;열린&nbsp;행정&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이권&nbsp;개입&nbsp;구조&nbsp;차단,&nbsp;보은&nbsp;인사&nbsp;금지,&nbsp;행정&nbsp;투명성&nbsp;강화,&nbsp;특혜&nbsp;계약&nbsp;근절<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관권&nbsp;선거&nbsp;방지&nbsp;및&nbsp;‘원칙이&nbsp;바로&nbsp;선&nbsp;공정한&nbsp;수원’&nbsp;실현<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;&nbsp;이권·특혜&nbsp;구조&nbsp;차단<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수원시&nbsp;산하기관·위탁사업&nbsp;계약&nbsp;전&nbsp;과정&nbsp;외부&nbsp;공개&nbsp;의무화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특혜성&nbsp;수의계약&nbsp;전면&nbsp;재검토&nbsp;및&nbsp;공개경쟁&nbsp;입찰&nbsp;원칙&nbsp;확립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동일업체&nbsp;1인견적&nbsp;수의계약&nbsp;연간&nbsp;3회&nbsp;초과&nbsp;금지&nbsp;-&nbsp;수의계약&nbsp;운영&nbsp;개선안&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시장&nbsp;직속&nbsp;‘공정계약감시단’&nbsp;운영&nbsp;(시민·전문가&nbsp;참여)<br>&nbsp;&nbsp;○&nbsp;&nbsp;보은&nbsp;인사&nbsp;금지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산하기관·공기업&nbsp;임원&nbsp;인사&nbsp;시&nbsp;공개검증&nbsp;절차&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인사&nbsp;기준&nbsp;사전&nbsp;공개&nbsp;및&nbsp;결과&nbsp;이유&nbsp;공시&nbsp;의무화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정치적&nbsp;연줄이&nbsp;아닌&nbsp;전문성·성과&nbsp;중심&nbsp;인사&nbsp;원칙&nbsp;조례화<br>&nbsp;&nbsp;○&nbsp;&nbsp;행정&nbsp;투명성&nbsp;강화·관권&nbsp;선거&nbsp;방지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;정책&nbsp;결정&nbsp;과정&nbsp;실시간&nbsp;공개&nbsp;(홈페이지&nbsp;내&nbsp;정보&nbsp;접근성&nbsp;강화)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시&nbsp;예산·보조금&nbsp;집행&nbsp;결과&nbsp;분기별&nbsp;공개&nbsp;의무화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;선거&nbsp;시기&nbsp;공무원&nbsp;동원·관권&nbsp;개입&nbsp;차단&nbsp;-&nbsp;내부&nbsp;고발&nbsp;보호제&nbsp;강화&nbsp;<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;&nbsp;단기&nbsp;~&nbsp;중기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취임&nbsp;즉시&nbsp;착수,&nbsp;조례·제도&nbsp;정비&nbsp;임기&nbsp;내&nbsp;완료<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	반도체 생태계 1시간 생활권 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="반도체 생태계 1시간 생활권 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;수원·화성·용인·이천&nbsp;반도체&nbsp;산업&nbsp;생태계&nbsp;1시간&nbsp;생활권&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삼성전자(수원·화성)~SK하이닉스(이천)&nbsp;및&nbsp;용인&nbsp;반도체&nbsp;클러스터를&nbsp;단일&nbsp;광역&nbsp;교통망&nbsp;연결,&nbsp;연구·설계·생산·협력사&nbsp;1시간&nbsp;내&nbsp;이동&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시철도&nbsp;수원&nbsp;1·2호선&nbsp;연계로&nbsp;산업&nbsp;교통과&nbsp;시민&nbsp;교통의&nbsp;이중&nbsp;효과&nbsp;달성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고급&nbsp;인력&nbsp;정주&nbsp;확대&nbsp;→&nbsp;협력사&nbsp;동반&nbsp;이전&nbsp;→&nbsp;지역&nbsp;상권&nbsp;소비&nbsp;증가&nbsp;→&nbsp;지방세&nbsp;기반&nbsp;확충<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;&nbsp;AI&nbsp;반도체&nbsp;산업축&nbsp;광역&nbsp;교통망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국토부·경기도·해당&nbsp;지자체&nbsp;합동&nbsp;추진협의체&nbsp;구성&nbsp;후&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;&nbsp;수원1호선&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울부터&nbsp;연결되는&nbsp;광역철도망을&nbsp;행궁역&nbsp;거치는&nbsp;노선으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;&nbsp;수원2호선&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존의&nbsp;철도&nbsp;인프라를&nbsp;연결하는&nbsp;수원&nbsp;내&nbsp;순환&nbsp;철도&nbsp;신설&nbsp;추진<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;&nbsp;중장기&nbsp;단계별&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단계(2026~2027):&nbsp;추진협의체&nbsp;구성,&nbsp;사전타당성&nbsp;용역&nbsp;착수,&nbsp;기업&nbsp;인센티브&nbsp;체계&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2단계(2028~2029):&nbsp;국가철도망&nbsp;계획&nbsp;반영,&nbsp;실시설계&nbsp;착수,&nbsp;산업지원청&nbsp;유치&nbsp;확정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3단계(2030~):&nbsp;일부&nbsp;사업&nbsp;착공&nbsp;및&nbsp;구간별&nbsp;순차&nbsp;개통,&nbsp;1시간&nbsp;생활권&nbsp;완성<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·민간자본</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	군공항, 소각장 폐쇄 및 피해 보상 현실화 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="군공항, 소각장 폐쇄 및 피해 보상 현실화 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;군공항·소각장&nbsp;등&nbsp;기피시설로부터&nbsp;시민&nbsp;일상의&nbsp;회복<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장기간&nbsp;누적된&nbsp;소음·대기오염&nbsp;등&nbsp;환경&nbsp;피해로부터&nbsp;시민&nbsp;건강권과&nbsp;정주&nbsp;환경&nbsp;보호<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시&nbsp;균형&nbsp;발전을&nbsp;저해해&nbsp;온&nbsp;기피시설의&nbsp;폐쇄&nbsp;추진으로&nbsp;미래를&nbsp;위한&nbsp;공간&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;주민등록&nbsp;주소지&nbsp;중심의&nbsp;낡은&nbsp;보상체계&nbsp;전면개편<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현행&nbsp;‘주민등록&nbsp;주소지’&nbsp;기준의&nbsp;피해&nbsp;보상&nbsp;대상을&nbsp;‘생활권&nbsp;체류&nbsp;인구’까지&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소음대책지역&nbsp;내&nbsp;거주하지는&nbsp;않으나&nbsp;출퇴근·등하교로&nbsp;하루의&nbsp;대부분을&nbsp;해당&nbsp;지역에서&nbsp;보내는&nbsp;시민이&nbsp;보상에서&nbsp;제외되는&nbsp;모순&nbsp;전면&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;낮&nbsp;시간대&nbsp;피해&nbsp;인구까지&nbsp;포함하는&nbsp;보상&nbsp;기준&nbsp;마련으로&nbsp;형평성&nbsp;제고<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;관계&nbsp;법령&nbsp;재개정&nbsp;:&nbsp;보상&nbsp;기준의&nbsp;‘주민등록&nbsp;주소지’&nbsp;→&nbsp;‘생활권’<br>&nbsp;&nbsp;○&nbsp;‘피해보상&nbsp;현실화&nbsp;분과'&nbsp;신설&nbsp;및&nbsp;전담&nbsp;TF&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;군공항·소각장&nbsp;인근&nbsp;생활권&nbsp;체류&nbsp;인구(근로자,&nbsp;등하교&nbsp;학생&nbsp;등)&nbsp;실태조사&nbsp;연구용역&nbsp;<br>&nbsp;&nbsp;○&nbsp;일부&nbsp;권역&nbsp;대상&nbsp;피해&nbsp;보상&nbsp;시범&nbsp;사업&nbsp;실시&nbsp;후&nbsp;시범&nbsp;결과&nbsp;평가&nbsp;및&nbsp;보완&nbsp;방안&nbsp;도출<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;(2026~2027):&nbsp;실태조사&nbsp;및&nbsp;제도&nbsp;정비&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;2단계&nbsp;(2028~2029):&nbsp;법령&nbsp;개정&nbsp;추진&nbsp;및&nbsp;시범사업&nbsp;실시<br>&nbsp;&nbsp;○&nbsp;3단계&nbsp;(2030~):&nbsp;전면&nbsp;확대&nbsp;시행<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;국비·도비·시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	난방비 지원, 수원페이 형평성 개선</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="난방비 지원, 수원페이 형평성 개선">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;&nbsp;주거&nbsp;형태와&nbsp;연료&nbsp;종류에&nbsp;따른&nbsp;난방비&nbsp;불평등&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시가스&nbsp;미공급&nbsp;지역&nbsp;및&nbsp;LPG·기름보일러&nbsp;사용&nbsp;가구&nbsp;실질&nbsp;난방비&nbsp;격차&nbsp;보전<br>&nbsp;&nbsp;○&nbsp;&nbsp;사각지대&nbsp;없이&nbsp;누구나&nbsp;혜택받을&nbsp;수&nbsp;있는&nbsp;수원페이&nbsp;인센티브<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수원시민&nbsp;100%가&nbsp;누구나&nbsp;원할&nbsp;때&nbsp;수원페이&nbsp;혜택을&nbsp;체감할&nbsp;수&nbsp;있도록&nbsp;인센티브제&nbsp;개선<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;&nbsp;연료별&nbsp;단가&nbsp;차액을&nbsp;보전<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관련&nbsp;법령&nbsp;재·개정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시가스에&nbsp;비해&nbsp;상대적으로&nbsp;단가가&nbsp;비싼&nbsp;LPG,&nbsp;기름보일러를&nbsp;사용하는&nbsp;소외&nbsp;가구&nbsp;및&nbsp;노후&nbsp;주택&nbsp;가구에&nbsp;격차만큼의&nbsp;차액을&nbsp;동절기(11월~2월)&nbsp;동안&nbsp;선별&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관내&nbsp;주거&nbsp;형태별&nbsp;사용&nbsp;연료(도시가스·LPG·등유)&nbsp;실태조사&nbsp;실시<br>&nbsp;&nbsp;○&nbsp;&nbsp;모두가&nbsp;체감하는&nbsp;'수원페이&nbsp;인센티브'&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관련&nbsp;법령&nbsp;재·개정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수원페이&nbsp;운영&nbsp;대행사와&nbsp;협의를&nbsp;통한&nbsp;시스템&nbsp;고도화&nbsp;설계&nbsp;착수<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;계층별&nbsp;인센티브&nbsp;효과&nbsp;평가&nbsp;및&nbsp;지속&nbsp;개선<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;&nbsp;1단계&nbsp;(2026~2027):&nbsp;실태조사&nbsp;및&nbsp;제도&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;&nbsp;2단계&nbsp;(2028~2029):&nbsp;시범&nbsp;운영&nbsp;및&nbsp;인센티브&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;&nbsp;3단계&nbsp;(2030~):&nbsp;전면&nbsp;시행&nbsp;및&nbsp;정착<br>&nbsp;<br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;&nbsp;국비·도비·시비·민간자본</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

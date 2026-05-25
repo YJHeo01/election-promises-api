@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김광수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	창동차량기지·면허시험장 부지, 서울시 제2청사 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="창동차량기지·면허시험장 부지, 서울시 제2청사 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;창동차량기지&nbsp;및&nbsp;도봉면허시험장&nbsp;이전&nbsp;부지를&nbsp;노원&nbsp;미래성장의&nbsp;핵심&nbsp;거점으로&nbsp;조성하고,&nbsp;서울시&nbsp;제2청사&nbsp;유치를&nbsp;통해&nbsp;노원을&nbsp;동북권&nbsp;행정·경제&nbsp;중심도시로&nbsp;도약시키겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단순&nbsp;개발이&nbsp;아닌&nbsp;행정,&nbsp;일자리,&nbsp;교통,&nbsp;상권이&nbsp;함께&nbsp;살아나는&nbsp;자족형&nbsp;경제도시&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울&nbsp;동북권&nbsp;균형발전의&nbsp;상징사업으로&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노원구&nbsp;재정자립도&nbsp;개선과&nbsp;지역경제&nbsp;활성화의&nbsp;핵심&nbsp;동력&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;서울시와&nbsp;긴밀한&nbsp;협의체계를&nbsp;구축하여&nbsp;제2청사&nbsp;유치의&nbsp;당위성과&nbsp;실행계획을&nbsp;제시하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창동차량기지·면허시험장&nbsp;부지&nbsp;활용계획에&nbsp;서울시&nbsp;제2청사&nbsp;유치&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동북권&nbsp;행정수요,&nbsp;교통&nbsp;접근성,&nbsp;균형발전&nbsp;필요성&nbsp;등을&nbsp;근거로&nbsp;유치&nbsp;논리&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시,&nbsp;노원구,&nbsp;지역&nbsp;정치권,&nbsp;주민대표가&nbsp;함께하는&nbsp;유치&nbsp;추진협의체&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제2청사와&nbsp;연계한&nbsp;업무시설,&nbsp;청년일자리,&nbsp;상권활성화,&nbsp;교통개선&nbsp;종합계획&nbsp;수립<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;유치&nbsp;기반&nbsp;조성&nbsp;및&nbsp;서울시&nbsp;협의&nbsp;본격&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;:&nbsp;유치&nbsp;추진계획&nbsp;수립&nbsp;및&nbsp;서울시&nbsp;협의&nbsp;착수<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년&nbsp;:&nbsp;타당성&nbsp;검토,&nbsp;주민공론화,&nbsp;유치추진협의체&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2028년&nbsp;이후&nbsp;:&nbsp;서울시&nbsp;계획&nbsp;반영&nbsp;및&nbsp;단계별&nbsp;사업&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;제2청사&nbsp;건립&nbsp;및&nbsp;관련&nbsp;기반시설은&nbsp;서울시&nbsp;재정사업으로&nbsp;추진하도록&nbsp;협의하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기본&nbsp;사업비&nbsp;:&nbsp;시비&nbsp;중심&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노원구는&nbsp;유치전략&nbsp;수립,&nbsp;주민공론화,&nbsp;행정협의&nbsp;등&nbsp;필요한&nbsp;범위에서&nbsp;구비&nbsp;반영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙정부&nbsp;및&nbsp;서울시&nbsp;균형발전&nbsp;관련&nbsp;재원&nbsp;연계&nbsp;검토</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	노원 재개발 · 재건축 지원센터 설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="노원 재개발 · 재건축 지원센터 설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;노후&nbsp;주거지와&nbsp;공동주택이&nbsp;많은&nbsp;노원의&nbsp;재개발·재건축&nbsp;문제를&nbsp;구청이&nbsp;적극적으로&nbsp;지원하는&nbsp;체계로&nbsp;전환하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민들이&nbsp;복잡한&nbsp;절차와&nbsp;정보&nbsp;부족으로&nbsp;어려움을&nbsp;겪지&nbsp;않도록&nbsp;전문&nbsp;지원체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정비사업의&nbsp;속도,&nbsp;투명성,&nbsp;주민소통&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노원&nbsp;주거환경&nbsp;개선과&nbsp;도시경쟁력&nbsp;회복<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;구청&nbsp;내&nbsp;또는&nbsp;산하기관&nbsp;형태로&nbsp;재개발·재건축&nbsp;지원센터를&nbsp;설치하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정비사업&nbsp;절차&nbsp;안내,&nbsp;법률&nbsp;·&nbsp;세무&nbsp;·&nbsp;건축&nbsp;상담&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;추진위원회&nbsp;및&nbsp;조합&nbsp;설립&nbsp;단계&nbsp;행정지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민설명회,&nbsp;찾아가는&nbsp;상담,&nbsp;갈등&nbsp;조정&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시&nbsp;신속통합기획,&nbsp;모아타운,&nbsp;재건축&nbsp;안전진단,&nbsp;정비계획&nbsp;수립&nbsp;등&nbsp;관련&nbsp;제도&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업&nbsp;지연&nbsp;원인&nbsp;분석&nbsp;및&nbsp;구청&nbsp;차원의&nbsp;행정지원&nbsp;체계&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;초&nbsp;센터&nbsp;설치&nbsp;및&nbsp;단계별&nbsp;서비스&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년:&nbsp;센터&nbsp;설치계획&nbsp;수립,&nbsp;전담인력&nbsp;배치,&nbsp;상담창구&nbsp;개설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년:&nbsp;동별·단지별&nbsp;찾아가는&nbsp;설명회&nbsp;및&nbsp;전문상담&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2028년&nbsp;이후:&nbsp;정비사업&nbsp;유형별&nbsp;맞춤&nbsp;지원&nbsp;및&nbsp;갈등조정&nbsp;기능&nbsp;강화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구비를&nbsp;중심으로&nbsp;추진하되,&nbsp;서울시&nbsp;주거정비&nbsp;관련&nbsp;공모·지원사업과&nbsp;연계하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;센터&nbsp;운영비,&nbsp;전문상담비,&nbsp;주민설명회&nbsp;운영비&nbsp;등은&nbsp;구비&nbsp;편성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시&nbsp;정비사업&nbsp;지원제도,&nbsp;도시정비&nbsp;관련&nbsp;보조사업&nbsp;적극&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;부서&nbsp;기능과&nbsp;연계하여&nbsp;중복&nbsp;예산을&nbsp;줄이고&nbsp;실효성&nbsp;중심으로&nbsp;운영</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	노원 청렴·비리감사센터 설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="노원 청렴·비리감사센터 설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;노원&nbsp;청렴·비리감사센터&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구민이&nbsp;신뢰할&nbsp;수&nbsp;있는&nbsp;깨끗한&nbsp;노원구정&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인사,&nbsp;계약,&nbsp;보조금,&nbsp;인허가&nbsp;등&nbsp;주요&nbsp;행정&nbsp;분야의&nbsp;투명성&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청렴도&nbsp;상위권&nbsp;노원구&nbsp;도약<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;독립성과&nbsp;전문성을&nbsp;갖춘&nbsp;청렴&nbsp;·&nbsp;비리감사센터를&nbsp;설치하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구청&nbsp;계약,&nbsp;보조금,&nbsp;인허가,&nbsp;위탁사업&nbsp;등에&nbsp;대한&nbsp;상시&nbsp;점검체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;가족·측근&nbsp;특혜,&nbsp;이해충돌,&nbsp;부당한&nbsp;이권개입&nbsp;의혹에&nbsp;대한&nbsp;신고&nbsp;및&nbsp;조사체계&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;외부&nbsp;전문가,&nbsp;법률·회계&nbsp;전문가,&nbsp;주민감시단&nbsp;등과&nbsp;연계한&nbsp;투명한&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공직자&nbsp;이해충돌&nbsp;예방교육,&nbsp;청렴교육,&nbsp;내부신고&nbsp;보호체계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;감사&nbsp;결과&nbsp;및&nbsp;개선사항을&nbsp;법령&nbsp;범위&nbsp;내에서&nbsp;구민에게&nbsp;투명하게&nbsp;공개<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;초&nbsp;설치&nbsp;후&nbsp;상시&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;:&nbsp;센터&nbsp;설치&nbsp;및&nbsp;운영규정&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년&nbsp;:&nbsp;주요&nbsp;행정&nbsp;분야&nbsp;상시&nbsp;점검&nbsp;및&nbsp;신고체계&nbsp;정착<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2028년&nbsp;이후&nbsp;:&nbsp;청렴도&nbsp;평가&nbsp;개선,&nbsp;제도개선&nbsp;권고,&nbsp;재발방지&nbsp;시스템&nbsp;강화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구비를&nbsp;중심으로&nbsp;추진하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;감사&nbsp;기능과&nbsp;연계하여&nbsp;조직&nbsp;효율성을&nbsp;높이고&nbsp;별도&nbsp;운영비&nbsp;최소화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;외부전문가&nbsp;자문,&nbsp;신고시스템&nbsp;운영,&nbsp;청렴교육&nbsp;등에&nbsp;필요한&nbsp;예산을&nbsp;구비로&nbsp;편성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불필요한&nbsp;예산낭비와&nbsp;부정수급을&nbsp;줄여&nbsp;구&nbsp;재정의&nbsp;건전성&nbsp;제고</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	노원 주택지원센터 설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="노원 주택지원센터 설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;주거&nbsp;문제가&nbsp;곧&nbsp;민생&nbsp;문제라는&nbsp;인식&nbsp;아래,&nbsp;공동주택·일반주택&nbsp;·&nbsp;노후주택&nbsp;주민들이&nbsp;겪는&nbsp;생활&nbsp;불편과&nbsp;관리&nbsp;문제를&nbsp;원스톱으로&nbsp;지원하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공동주택&nbsp;관리&nbsp;투명성&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후주택&nbsp;유지보수&nbsp;및&nbsp;주거환경&nbsp;개선&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;층간소음,&nbsp;누수,&nbsp;관리비,&nbsp;주차&nbsp;등&nbsp;생활형&nbsp;주거민원&nbsp;해결&nbsp;지원<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;노원&nbsp;주택지원센터를&nbsp;설치하여&nbsp;주거&nbsp;관련&nbsp;행정서비스를&nbsp;통합&nbsp;제공하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공동주택&nbsp;관리비,&nbsp;장기수선충당금,&nbsp;입주자대표회의&nbsp;운영&nbsp;관련&nbsp;상담&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후주택&nbsp;안전점검,&nbsp;소규모&nbsp;수선,&nbsp;에너지&nbsp;효율&nbsp;개선사업&nbsp;안내<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;층간소음,&nbsp;누수,&nbsp;주차분쟁&nbsp;등&nbsp;생활민원&nbsp;조정&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공동주택&nbsp;지원사업,&nbsp;집수리&nbsp;지원사업,&nbsp;취약계층&nbsp;주거개선&nbsp;사업&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전문가&nbsp;상담단을&nbsp;구성하여&nbsp;법률·건축·관리&nbsp;분야&nbsp;자문&nbsp;제공<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;설치&nbsp;및&nbsp;권역별&nbsp;서비스&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년:&nbsp;센터&nbsp;설치계획&nbsp;수립&nbsp;및&nbsp;상담창구&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년:&nbsp;공동주택·노후주택&nbsp;맞춤형&nbsp;지원사업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2028년&nbsp;이후:&nbsp;권역별&nbsp;찾아가는&nbsp;주택상담&nbsp;및&nbsp;생활민원&nbsp;조정기능&nbsp;강화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구비를&nbsp;중심으로&nbsp;추진하되,&nbsp;서울시&nbsp;및&nbsp;중앙정부&nbsp;주거복지·주택관리&nbsp;지원사업과&nbsp;연계하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;센터&nbsp;운영비&nbsp;및&nbsp;상담·점검&nbsp;지원비는&nbsp;구비&nbsp;편성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시&nbsp;공동주택&nbsp;지원사업,&nbsp;주거복지사업,&nbsp;에너지효율&nbsp;개선사업&nbsp;등&nbsp;외부재원&nbsp;적극&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;주택&nbsp;관련&nbsp;행정서비스를&nbsp;통합해&nbsp;예산&nbsp;효율성&nbsp;제고</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	노원 소상공인 활성화센터 설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="노원 소상공인 활성화센터 설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;소상공인이&nbsp;살아야&nbsp;노원경제가&nbsp;살아납니다.&nbsp;노원&nbsp;소상공인활성화센터를&nbsp;설립하여&nbsp;상권분석,&nbsp;경영컨설팅,&nbsp;세무&nbsp;·&nbsp;노무&nbsp;·&nbsp;법률&nbsp;상담,&nbsp;마케팅,&nbsp;배달비&nbsp;지원&nbsp;등&nbsp;실질적인&nbsp;지원을&nbsp;원스톱으로&nbsp;제공&nbsp;하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장사하기&nbsp;좋은&nbsp;노원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역상권&nbsp;회복과&nbsp;골목경제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;매출&nbsp;증대와&nbsp;지속가능한&nbsp;경영환경&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;소상공인활성화센터를&nbsp;설치하여&nbsp;현장&nbsp;중심의&nbsp;지원체계를&nbsp;만들겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상권분석&nbsp;및&nbsp;점포별&nbsp;맞춤&nbsp;경영컨설팅&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;세무,&nbsp;노무,&nbsp;법률,&nbsp;행정&nbsp;민원&nbsp;상담&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;온라인&nbsp;홍보,&nbsp;SNS&nbsp;마케팅,&nbsp;배달앱&nbsp;활용,&nbsp;디자인·브랜딩&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;배달비&nbsp;및&nbsp;배달앱&nbsp;수수료&nbsp;부담&nbsp;완화&nbsp;지원방안&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년기업,&nbsp;전통시장,&nbsp;골목상권,&nbsp;자영업자&nbsp;지원사업과&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시&nbsp;·&nbsp;노원구&nbsp;소상공인&nbsp;지원사업을&nbsp;한&nbsp;곳에서&nbsp;안내하고&nbsp;신청&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;초&nbsp;센터&nbsp;설치&nbsp;후&nbsp;단계별&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;:&nbsp;센터&nbsp;설치,&nbsp;전담창구&nbsp;개설,&nbsp;기초상담&nbsp;및&nbsp;지원사업&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년&nbsp;:&nbsp;권역별&nbsp;상권분석,&nbsp;맞춤형&nbsp;컨설팅,&nbsp;마케팅&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2028년&nbsp;이후&nbsp;:&nbsp;배달비·수수료&nbsp;부담&nbsp;완화,&nbsp;상권별&nbsp;공동브랜드&nbsp;및&nbsp;공동마케팅&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구비를&nbsp;중심으로&nbsp;추진하되,&nbsp;중소벤처기업부,&nbsp;소상공인시장진흥공단,&nbsp;서울시&nbsp;소상공인&nbsp;지원사업과&nbsp;적극&nbsp;연계하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;센터&nbsp;운영비,&nbsp;컨설팅비,&nbsp;홍보마케팅&nbsp;지원비&nbsp;등은&nbsp;구비&nbsp;편성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시&nbsp;공모사업&nbsp;및&nbsp;보조사업을&nbsp;적극&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;소상공인&nbsp;지원예산을&nbsp;통합&nbsp;·&nbsp;조정하여&nbsp;체감도&nbsp;높은&nbsp;직접지원&nbsp;중심으로&nbsp;운영</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

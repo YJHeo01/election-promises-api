@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;강태웅 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	속도감 있는 도시정비 사업 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="속도감 있는 도시정비 사업 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;각종&nbsp;인허가&nbsp;절차&nbsp;통합처리로&nbsp;속도&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;조합&nbsp;내&nbsp;갈등&nbsp;조정&nbsp;및&nbsp;사전&nbsp;컨설팅으로&nbsp;장기표류&nbsp;방지<br>&nbsp;&nbsp;○&nbsp;각종&nbsp;규제&nbsp;완화&nbsp;및&nbsp;부담&nbsp;개선으로&nbsp;사업성&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;첫날&nbsp;‘정비사업&nbsp;지체제로(ZERO)&nbsp;TF’&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;인허가&nbsp;업무를&nbsp;통합&nbsp;처리할&nbsp;수&nbsp;있는&nbsp;임시조직<br>&nbsp;&nbsp;○&nbsp;행정절차&nbsp;통합으로&nbsp;착공까지&nbsp;10년&nbsp;이내&nbsp;완료&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시&nbsp;관련부서와&nbsp;협업,&nbsp;보완사항&nbsp;신속히&nbsp;조치하여&nbsp;각종&nbsp;심의기간&nbsp;단축<br>&nbsp;&nbsp;○&nbsp;고도제한,&nbsp;조망권&nbsp;등&nbsp;과도한&nbsp;규제는&nbsp;개선하고,&nbsp;부담은&nbsp;경감<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임대주택&nbsp;매입&nbsp;가격&nbsp;산정&nbsp;기준을&nbsp;상향<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국공유지&nbsp;무상&nbsp;귀속&nbsp;범위를&nbsp;확대해&nbsp;기부채납&nbsp;손실을&nbsp;보전<br>&nbsp;&nbsp;○&nbsp;조합갈등&nbsp;중재,&nbsp;인허가&nbsp;돕는&nbsp;‘매니저’&nbsp;제도&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관련&nbsp;전문가&nbsp;확보,&nbsp;요청하는&nbsp;추진위원회에&nbsp;컨설팅&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;500세대&nbsp;미만&nbsp;지구지정&nbsp;권한&nbsp;자치구로&nbsp;이양받아&nbsp;더욱&nbsp;신속히&nbsp;추진<br><br>□&nbsp;이행기간&nbsp;:&nbsp;임기중<br>&nbsp;&nbsp;○&nbsp;‘26.7&nbsp;‘정비사업&nbsp;지체제로(ZERO)&nbsp;TF’&nbsp;설치&nbsp;및&nbsp;업무&nbsp;재분장<br>&nbsp;&nbsp;○&nbsp;‘26.8&nbsp;각&nbsp;사업장별&nbsp;현황&nbsp;및&nbsp;문제점&nbsp;분석<br>&nbsp;&nbsp;○&nbsp;‘26.9~&nbsp;속도감&nbsp;있는&nbsp;도시정비사업&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;TF&nbsp;운영&nbsp;:&nbsp;비예산(조직개편&nbsp;또는&nbsp;임시조직&nbsp;설치)<br>&nbsp;&nbsp;○&nbsp;‘행정&nbsp;닥터’&nbsp;운영&nbsp;:&nbsp;구비(예산변경&nbsp;또는&nbsp;추경으로&nbsp;운영예산&nbsp;확보)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	생활체육시설 획기적 확충</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="생활체육시설 획기적 확충">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;제대로된&nbsp;구민체육관&nbsp;건립&nbsp;<br>&nbsp;&nbsp;○&nbsp;야외&nbsp;파크골프장&nbsp;및&nbsp;스크린&nbsp;파크골프장&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;서울시와&nbsp;협력&nbsp;한강공원&nbsp;체육시설&nbsp;개선&nbsp;및&nbsp;재배치<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;제대로된&nbsp;구민체육관&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;가용부지&nbsp;검토,&nbsp;수영장,&nbsp;체육관&nbsp;등이&nbsp;구비된&nbsp;종합체육관&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어린이,&nbsp;장애인&nbsp;등&nbsp;모든&nbsp;구민이&nbsp;이용할&nbsp;수&nbsp;있도록&nbsp;유니버셜&nbsp;디자인&nbsp;적용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;체육시설과&nbsp;연계,&nbsp;프로그램&nbsp;차별화<br>&nbsp;&nbsp;○&nbsp;야외&nbsp;파크골프장&nbsp;및&nbsp;스크린&nbsp;파크골프장&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구립&nbsp;야외&nbsp;파크골프장&nbsp;건립(공원,&nbsp;한강변&nbsp;등&nbsp;가용부지&nbsp;확보)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;각동별&nbsp;1개소&nbsp;이상&nbsp;스크린&nbsp;파크골프장&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;서울시와&nbsp;협력&nbsp;한강공원&nbsp;체육시설&nbsp;개선&nbsp;및&nbsp;재배치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;15년된&nbsp;이촌한강공원&nbsp;시설&nbsp;대폭&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;각종&nbsp;체육시설,&nbsp;이용&nbsp;시민&nbsp;수요&nbsp;반영&nbsp;재배치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;그늘막,&nbsp;음수대,&nbsp;화장실&nbsp;등&nbsp;시민&nbsp;편의시설&nbsp;확충<br><br>□&nbsp;이행기간&nbsp;:&nbsp;임기중<br>&nbsp;&nbsp;○&nbsp;‘26년:&nbsp;각종&nbsp;현황&nbsp;조사&nbsp;및&nbsp;문제점&nbsp;분석,&nbsp;관련기관&nbsp;협의,&nbsp;예산반영<br>&nbsp;&nbsp;○&nbsp;‘27년:&nbsp;사업계획&nbsp;수립,&nbsp;타당성&nbsp;조사,&nbsp;설계&nbsp;등&nbsp;사전절차&nbsp;이행<br>&nbsp;&nbsp;○&nbsp;‘28년~:&nbsp;건립공사&nbsp;착공&nbsp;및&nbsp;시행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구민체육관&nbsp;건립&nbsp;:&nbsp;구비,&nbsp;공사비&nbsp;일부&nbsp;서울시·행안부&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;파크골프장&nbsp;건립&nbsp;:&nbsp;구비,&nbsp;공사비&nbsp;일부&nbsp;서울시&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;한강공원&nbsp;체육시설&nbsp;개선&nbsp;:&nbsp;시비(시의원과&nbsp;협력),&nbsp;일부&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	예방 최우선, 안전사각지대 최소화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="예방 최우선, 안전사각지대 최소화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;과학적&nbsp;예방&nbsp;시스템&nbsp;도입으로&nbsp;구민&nbsp;안전&nbsp;만족도&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;어린이,&nbsp;어르신,&nbsp;장애인&nbsp;등&nbsp;약자를&nbsp;위한&nbsp;안전시설&nbsp;대폭&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;위험&nbsp;요소를&nbsp;실시간으로&nbsp;관리하는&nbsp;촘촘한&nbsp;안전망&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;첨단&nbsp;ICT&nbsp;기술을&nbsp;활용한&nbsp;24시간&nbsp;스마트&nbsp;안전&nbsp;감시&nbsp;체계&nbsp;완성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;교통&nbsp;및&nbsp;생활&nbsp;약자&nbsp;맞춤형&nbsp;안전&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어린이·노인보호구역&nbsp;내&nbsp;‘스마트&nbsp;횡단보도’&nbsp;설치&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인&nbsp;보행&nbsp;편의를&nbsp;위한&nbsp;보도&nbsp;턱&nbsp;낮추기&nbsp;확대&nbsp;및&nbsp;점자&nbsp;블록&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;‘구민&nbsp;안전관’&nbsp;임명&nbsp;및&nbsp;민관&nbsp;합동&nbsp;위험시설&nbsp;사전&nbsp;점검<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;각&nbsp;동별&nbsp;지역&nbsp;사정에&nbsp;밝은&nbsp;주민을&nbsp;‘구민&nbsp;안전관’으로&nbsp;임명<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;분기별&nbsp;전문가&nbsp;합동&nbsp;정기&nbsp;점검을&nbsp;통해&nbsp;옹벽,&nbsp;노후&nbsp;건축물&nbsp;등&nbsp;재난&nbsp;취약&nbsp;시설&nbsp;선제적&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기반&nbsp;‘지능형&nbsp;인파관리시스템’&nbsp;고도화&nbsp;및&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이태원&nbsp;등&nbsp;다중&nbsp;밀집&nbsp;지역에&nbsp;실시간&nbsp;밀도&nbsp;분석&nbsp;AI&nbsp;카메라&nbsp;추가&nbsp;배치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이상&nbsp;징후&nbsp;발견&nbsp;시&nbsp;구청&nbsp;상황실-경찰-소방&nbsp;연결,&nbsp;최첨단&nbsp;핫라인&nbsp;시스템&nbsp;가동<br>&nbsp;&nbsp;○&nbsp;주택가&nbsp;CCTV&nbsp;사각지대&nbsp;제로화&nbsp;및&nbsp;지능형&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;저층&nbsp;주거지&nbsp;및&nbsp;어두운&nbsp;골목길을&nbsp;중심으로&nbsp;지능형&nbsp;CCTV&nbsp;설치&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;비명&nbsp;소리나&nbsp;이상&nbsp;행동을&nbsp;스스로&nbsp;감지하는&nbsp;‘지능형&nbsp;분석&nbsp;엔진’&nbsp;도입<br><br>□&nbsp;이행기간&nbsp;:&nbsp;임기중<br>&nbsp;&nbsp;○&nbsp;‘26년:&nbsp;구&nbsp;안전시설&nbsp;현황&nbsp;조사&nbsp;및&nbsp;문제점&nbsp;분석<br>&nbsp;&nbsp;○&nbsp;‘27년~:&nbsp;연차별&nbsp;계획에&nbsp;의거&nbsp;시설&nbsp;정비&nbsp;및&nbsp;신규시설&nbsp;설치<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시설정비&nbsp;및&nbsp;설치비&nbsp;:&nbsp;구비(재난관리기금&nbsp;포함)<br>&nbsp;&nbsp;○&nbsp;국비지원&nbsp;추진&nbsp;:&nbsp;행정안전부&nbsp;특별교부세&nbsp;지원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	용산 청년 자립 및 주거안정 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="용산 청년 자립 및 주거안정 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;취업준비&nbsp;단계부터&nbsp;취업&nbsp;후&nbsp;적응시까지&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;각종&nbsp;피해청년&nbsp;자립과&nbsp;회복을&nbsp;위한&nbsp;법률&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;청년시설&nbsp;확대&nbsp;및&nbsp;문화체험을&nbsp;위한&nbsp;기회&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;주거비용&nbsp;저감을&nbsp;위해&nbsp;각종&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;밤길에도&nbsp;안전한&nbsp;귀가를&nbsp;위한&nbsp;시설&nbsp;개선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;취업준비비,&nbsp;교통비,&nbsp;월세&nbsp;및&nbsp;보증금&nbsp;이자&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;지원제도&nbsp;분석,&nbsp;추가로&nbsp;필요한&nbsp;부분이나&nbsp;발굴하여&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;사기피해&nbsp;청년&nbsp;원스톱&nbsp;법률구제서비스&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;피해&nbsp;청년이&nbsp;이곳&nbsp;저곳&nbsp;문의하지&nbsp;않도록,&nbsp;1회&nbsp;방문으로&nbsp;처리<br>&nbsp;&nbsp;○&nbsp;청년시설&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존시설&nbsp;확대&nbsp;및&nbsp;지역별&nbsp;소규모&nbsp;공유주방&nbsp;및&nbsp;커뮤니티&nbsp;시설&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;용산전자상가&nbsp;등을&nbsp;활용&nbsp;용산구를&nbsp;서울청년창업&nbsp;허브로&nbsp;육성(서울시&nbsp;협업)<br>&nbsp;&nbsp;○&nbsp;문화체육시설&nbsp;이용할인&nbsp;’청년문화패스‘&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년문화비&nbsp;지원&nbsp;품목&nbsp;및&nbsp;규모&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;CCTV,&nbsp;스마트&nbsp;가로등&nbsp;등&nbsp;스마트&nbsp;안심&nbsp;골목&nbsp;조성<br><br>□&nbsp;이행기간&nbsp;:&nbsp;임기중<br>&nbsp;&nbsp;○&nbsp;‘26년:&nbsp;각종&nbsp;현황&nbsp;조사&nbsp;및&nbsp;문제점&nbsp;분석,&nbsp;사업계획&nbsp;수립,&nbsp;예산반영<br>&nbsp;&nbsp;○&nbsp;‘27년:&nbsp;사업시행&nbsp;이행(일부&nbsp;사업은&nbsp;’26년&nbsp;하반기&nbsp;시행)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구비&nbsp;증액&nbsp;및&nbsp;신규편성,&nbsp;대규모&nbsp;시설&nbsp;확충은&nbsp;일부&nbsp;시비&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;국·시비&nbsp;매칭사업은&nbsp;국·시비&nbsp;지원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	어르신 복지 획기적 개선</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="어르신 복지 획기적 개선">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;교통비&nbsp;지원&nbsp;및&nbsp;일자리&nbsp;확대로&nbsp;경제부담&nbsp;완화,&nbsp;자긍심&nbsp;고취<br>&nbsp;&nbsp;○&nbsp;경로당&nbsp;시설,&nbsp;프로그램&nbsp;개선&nbsp;및&nbsp;중식여건&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;안전사고&nbsp;발생률&nbsp;인하<br>&nbsp;&nbsp;○&nbsp;학생-어르신&nbsp;매칭을&nbsp;통한&nbsp;통합복지&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;(마을)버스&nbsp;이용&nbsp;교통비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현재&nbsp;무료&nbsp;이용중인&nbsp;지하철과의&nbsp;연계교통&nbsp;수단인&nbsp;(마을)버스비&nbsp;이용지원으로&nbsp;교통복지&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;일자리&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일자리&nbsp;수&nbsp;확대&nbsp;및&nbsp;가급적&nbsp;주거지&nbsp;근거리&nbsp;비치<br>&nbsp;&nbsp;○&nbsp;경로당&nbsp;시설,&nbsp;프로그램&nbsp;개선&nbsp;및&nbsp;중식여건&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경로당&nbsp;시설&nbsp;획기적&nbsp;개선,&nbsp;프로그램&nbsp;재조정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경로당&nbsp;중식&nbsp;재료비&nbsp;인상<br>&nbsp;&nbsp;○&nbsp;안전시설&nbsp;확충을&nbsp;통한&nbsp;어르신&nbsp;사고&nbsp;예방<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경사지&nbsp;도로&nbsp;미끄럼&nbsp;방지시설,&nbsp;안전손잡이&nbsp;등&nbsp;안전시설&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;1인&nbsp;가정&nbsp;내&nbsp;안전시설&nbsp;설치비&nbsp;일부&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;학생-어르신&nbsp;매칭,&nbsp;봉사활동&nbsp;학생에게&nbsp;지역화폐&nbsp;제공<br><br>□&nbsp;이행기간&nbsp;:&nbsp;임기중<br>&nbsp;&nbsp;○&nbsp;‘26년:&nbsp;각종&nbsp;현황&nbsp;조사&nbsp;및&nbsp;문제점&nbsp;분석&nbsp;시행계획&nbsp;수립,&nbsp;예산반영<br>&nbsp;&nbsp;○&nbsp;‘27년:&nbsp;사업시행(일부&nbsp;사업은&nbsp;’26년&nbsp;후반기&nbsp;시행)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구비&nbsp;증액&nbsp;및&nbsp;신규&nbsp;편성<br>&nbsp;&nbsp;○&nbsp;국·시비&nbsp;매칭사업은&nbsp;국·시비&nbsp;지원금도&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;신규&nbsp;복지사업은&nbsp;보건복지부&nbsp;사전&nbsp;협의&nbsp;후&nbsp;시행</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

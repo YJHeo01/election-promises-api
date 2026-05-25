@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;민형배 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	(성장통합) 신산업 성장으로 일자리와 소득을 키우겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="(성장통합) 신산업 성장으로 일자리와 소득을 키우겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전남광주통합특별시를&nbsp;대한민국&nbsp;남부권&nbsp;신산업&nbsp;수도로&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI,&nbsp;재생에너지,&nbsp;미래차,&nbsp;반도체,&nbsp;바이오,&nbsp;K-푸드,&nbsp;문화관광&nbsp;산업을&nbsp;권역별&nbsp;특성과&nbsp;연결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;유치,&nbsp;산업&nbsp;전환,&nbsp;청년&nbsp;일자리&nbsp;창출,&nbsp;지역&nbsp;소득&nbsp;증대를&nbsp;동시에&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전남의&nbsp;재생에너지·농수산&nbsp;자원과&nbsp;광주의&nbsp;AI·모빌리티·문화&nbsp;역량을&nbsp;결합<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;권역별&nbsp;신성장&nbsp;산업벨트&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광주권:&nbsp;AI,&nbsp;미래모빌리티,&nbsp;반도체&nbsp;패키징,&nbsp;바이오,&nbsp;문화콘텐츠&nbsp;산업&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동부권:&nbsp;여수·광양&nbsp;산단&nbsp;대개조,&nbsp;이차전지·수소·우주·해양바이오&nbsp;산업&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서부권:&nbsp;해상풍력·태양광·데이터센터·공항·항만&nbsp;물류&nbsp;기반&nbsp;에너지&nbsp;산업&nbsp;거점&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중남권:&nbsp;농생명·바이오·치유·K-푸드&nbsp;산업&nbsp;집중&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;전남광주&nbsp;전략산업&nbsp;실행기관&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전남광주전력공사,&nbsp;K-푸드산업공사,&nbsp;신산업수도개발청&nbsp;등&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;RE100&nbsp;산업단지,&nbsp;산업용&nbsp;전기요금&nbsp;경쟁력&nbsp;확보,&nbsp;기업&nbsp;맞춤형&nbsp;인재양성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;지역대학·기업·연구기관&nbsp;연계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;계약학과,&nbsp;현장실습,&nbsp;공동연구,&nbsp;청년&nbsp;창업&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·에너지·미래차·반도체&nbsp;분야&nbsp;실무형&nbsp;인재&nbsp;양성<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1년&nbsp;차:&nbsp;권역별&nbsp;산업&nbsp;실행계획&nbsp;수립,&nbsp;전담&nbsp;추진단&nbsp;구성,&nbsp;국가사업&nbsp;협의&nbsp;착수<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2~3년&nbsp;차:&nbsp;RE100&nbsp;산단,&nbsp;광역&nbsp;산업&nbsp;인프라,&nbsp;인재양성&nbsp;사업&nbsp;본격&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4년&nbsp;차:&nbsp;기업&nbsp;유치&nbsp;성과&nbsp;창출,&nbsp;권역별&nbsp;산업거점&nbsp;가시화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;특별시&nbsp;예산,&nbsp;지방채,&nbsp;정책금융,&nbsp;민간투자,&nbsp;공공기관&nbsp;이전&nbsp;재원&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업통상자원부,&nbsp;과학기술정보통신부,&nbsp;국토교통부,&nbsp;농림축산식품부&nbsp;등&nbsp;중앙&nbsp;부처&nbsp;공모·국가사업&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업은행,&nbsp;정책금융,&nbsp;연기금,&nbsp;민간투자를&nbsp;결합한&nbsp;혼합형&nbsp;투자&nbsp;방식&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특별시&nbsp;산하&nbsp;공공투자기관&nbsp;또는&nbsp;특수목적법인&nbsp;설립&nbsp;검토</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	(균형통합) 광주·동부·서부·중남권이 함께 크는 특별시를 만들겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="(균형통합) 광주·동부·서부·중남권이 함께 크는 특별시를 만들겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;통합&nbsp;이후&nbsp;특정&nbsp;지역&nbsp;집중과&nbsp;소외&nbsp;우려를&nbsp;해소하고,&nbsp;27개&nbsp;시군구가&nbsp;함께&nbsp;성장하는&nbsp;균형통합&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광주권,&nbsp;동부권,&nbsp;서부권,&nbsp;중남권&nbsp;4대&nbsp;권역별&nbsp;발전축&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농산어촌·섬·군&nbsp;단위&nbsp;지역에&nbsp;대한&nbsp;최소&nbsp;보장과&nbsp;우선&nbsp;지원&nbsp;원칙&nbsp;확립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활권&nbsp;교통,&nbsp;의료,&nbsp;교육,&nbsp;돌봄,&nbsp;일자리&nbsp;격차&nbsp;완화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;4대&nbsp;권역별&nbsp;특화&nbsp;발전전략&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광주권:&nbsp;AI·모빌리티·바이오·문화·스마트시티&nbsp;중심&nbsp;미래도시권&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동부권:&nbsp;제조&nbsp;전환·수출·우주·미래산업&nbsp;중심&nbsp;남부권&nbsp;신산업&nbsp;전진기지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서부권:&nbsp;해양·에너지·물류·수산·방산&nbsp;중심축&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중남권:&nbsp;농생명·바이오·치유·공공서비스&nbsp;중심&nbsp;생활경제권&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;10-30-60&nbsp;생활권&nbsp;교통체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;집에서&nbsp;10분&nbsp;내&nbsp;대중교통&nbsp;접근,&nbsp;생활권&nbsp;30분,&nbsp;권역&nbsp;간&nbsp;60분&nbsp;이동을&nbsp;목표로&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광역&nbsp;BRT,&nbsp;광역철도,&nbsp;수요응답형&nbsp;교통,&nbsp;복합환승거점&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광주송정역·순천역·목포역&nbsp;중심&nbsp;3대&nbsp;환승거점&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;지역균형발전&nbsp;회계&nbsp;및&nbsp;권역별&nbsp;점검체계&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합&nbsp;재정에서&nbsp;균형발전&nbsp;재원을&nbsp;별도&nbsp;관리<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;권역별&nbsp;부시장&nbsp;또는&nbsp;권역&nbsp;책임체계를&nbsp;통해&nbsp;지역별&nbsp;정책&nbsp;이행&nbsp;점검<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1년&nbsp;차:&nbsp;권역별&nbsp;발전계획&nbsp;및&nbsp;생활권&nbsp;교통계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2~3년&nbsp;차:&nbsp;광역&nbsp;BRT,&nbsp;복합환승거점,&nbsp;생활SOC&nbsp;우선사업&nbsp;착수<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4년&nbsp;차:&nbsp;권역별&nbsp;대표사업&nbsp;성과&nbsp;점검&nbsp;및&nbsp;후속사업&nbsp;확정<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;특별시&nbsp;균형발전&nbsp;예산,&nbsp;교통시설특별회계,&nbsp;지방소멸대응기금,&nbsp;민간투자&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대도시권광역교통위원회,&nbsp;국토교통부,&nbsp;행정안전부,&nbsp;보건복지부&nbsp;등&nbsp;중앙정부&nbsp;사업과&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;권역별&nbsp;SOC,&nbsp;생활서비스,&nbsp;교통망&nbsp;개선사업을&nbsp;패키지로&nbsp;묶어&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특별시&nbsp;균형발전&nbsp;회계&nbsp;신설&nbsp;검토</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	(시민주권) 시민이 제안하고 결정하는 시민주권정부를 만들겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="(시민주권) 시민이 제안하고 결정하는 시민주권정부를 만들겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;통합특별시&nbsp;운영의&nbsp;주체를&nbsp;행정과&nbsp;정치권이&nbsp;아니라&nbsp;시민으로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;27개&nbsp;시군구&nbsp;자치권&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;393개&nbsp;읍면동&nbsp;마을자치&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민참여&nbsp;정책결정,&nbsp;주민참여예산,&nbsp;행정정보&nbsp;공개&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;5·18&nbsp;민주주의&nbsp;정신을&nbsp;일상&nbsp;행정으로&nbsp;구현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시민참여&nbsp;정책결정&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;온라인&nbsp;시민참여플랫폼&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민&nbsp;제안,&nbsp;공론장,&nbsp;숙의토론,&nbsp;정책&nbsp;반영,&nbsp;평가까지&nbsp;이어지는&nbsp;참여&nbsp;절차&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;정책과&nbsp;예산사업에&nbsp;시민참여&nbsp;절차&nbsp;의무화&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;393개&nbsp;읍면동&nbsp;마을자치&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민자치회&nbsp;실질화,&nbsp;마을계획&nbsp;수립&nbsp;지원,&nbsp;마을&nbsp;예산&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민세&nbsp;일부의&nbsp;읍면동&nbsp;환원&nbsp;및&nbsp;마을&nbsp;단위&nbsp;자치재정&nbsp;확대&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;읍면동장&nbsp;주민선택제&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;27개&nbsp;시군구&nbsp;자치권&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기초정부의&nbsp;인사·조직·재정&nbsp;자율성&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광역은&nbsp;조정과&nbsp;지원,&nbsp;기초는&nbsp;생활정책&nbsp;실행을&nbsp;담당하도록&nbsp;권한&nbsp;배분&nbsp;명확화<br>&nbsp;&nbsp;○&nbsp;정보공개와&nbsp;정책평가&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합&nbsp;과정의&nbsp;비용,&nbsp;이익,&nbsp;갈등,&nbsp;조정&nbsp;과정을&nbsp;시민에게&nbsp;투명하게&nbsp;공개<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민평가단&nbsp;운영&nbsp;및&nbsp;주요&nbsp;공약&nbsp;이행상황&nbsp;정기&nbsp;공개<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1년&nbsp;차:&nbsp;시민참여플랫폼&nbsp;구축,&nbsp;자치권&nbsp;강화&nbsp;조례&nbsp;및&nbsp;제도&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2~3년&nbsp;차:&nbsp;읍면동&nbsp;마을계획·주민참여예산&nbsp;확대,&nbsp;시민평가제&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4년&nbsp;차:&nbsp;시민주권형&nbsp;통합특별시&nbsp;운영&nbsp;모델&nbsp;정착<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;특별시&nbsp;일반회계,&nbsp;주민참여예산,&nbsp;디지털&nbsp;행정&nbsp;전환&nbsp;예산,&nbsp;행정안전부&nbsp;자치&nbsp;분권&nbsp;관련&nbsp;공모사업&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;주민자치·마을공동체·디지털&nbsp;행정&nbsp;예산을&nbsp;통합&nbsp;관리<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;플랫폼&nbsp;구축은&nbsp;특별시&nbsp;정보화&nbsp;예산과&nbsp;국비&nbsp;공모사업&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을자치&nbsp;재원은&nbsp;주민세&nbsp;환원,&nbsp;특별시&nbsp;보조금,&nbsp;시군구&nbsp;매칭&nbsp;방식&nbsp;검토</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	(녹색도시) 숲·강·바다와 재생에너지로 지속가능한 미래를 만들겠습니다!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="(녹색도시) 숲·강·바다와 재생에너지로 지속가능한 미래를 만들겠습니다!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전남광주통합특별시를&nbsp;탄소중립&nbsp;선도도시이자&nbsp;생태문명&nbsp;도시로&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영산강,&nbsp;섬,&nbsp;갯벌,&nbsp;바다,&nbsp;산림을&nbsp;연결한&nbsp;광역&nbsp;생태축&nbsp;회복<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해상풍력·태양광·수소·RE100&nbsp;산업을&nbsp;지역경제의&nbsp;핵심&nbsp;경쟁력으로&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기후위기&nbsp;대응,&nbsp;생물다양성&nbsp;보전,&nbsp;재난안전,&nbsp;녹색산업을&nbsp;동시에&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;영산강&nbsp;300리&nbsp;생태전환&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영산강&nbsp;유역을&nbsp;나무,&nbsp;습지,&nbsp;정원,&nbsp;생태학습,&nbsp;탐조,&nbsp;시민&nbsp;휴식공간으로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;침수&nbsp;위험지역은&nbsp;개발&nbsp;중심이&nbsp;아니라&nbsp;물순환·생태복원·재난예방&nbsp;관점&nbsp;으로&nbsp;관리<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가정원,&nbsp;습지보호구역,&nbsp;람사르&nbsp;등재&nbsp;등&nbsp;국가·국제사업&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;재생에너지&nbsp;기반&nbsp;녹색산업&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서부권&nbsp;해상풍력·태양광,&nbsp;동부권&nbsp;수소·산단&nbsp;전환,&nbsp;광주권&nbsp;RE100&nbsp;미래&nbsp;산업&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;RE100&nbsp;산업단지,&nbsp;직접&nbsp;PPA,&nbsp;ESS,&nbsp;에너지저장·운송&nbsp;기반&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업의&nbsp;재생에너지&nbsp;사용&nbsp;확대와&nbsp;지역&nbsp;주민&nbsp;수익공유&nbsp;모델&nbsp;제도화<br>&nbsp;&nbsp;○&nbsp;저탄소&nbsp;교통&nbsp;및&nbsp;녹색&nbsp;생활권&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전기·수소버스&nbsp;확대,&nbsp;광역&nbsp;BRT,&nbsp;자전거·보행&nbsp;친화&nbsp;정책&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시숲,&nbsp;하천복원,&nbsp;녹지축&nbsp;연결,&nbsp;생활권&nbsp;공원&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;기후·생태&nbsp;예산&nbsp;관리체계&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;온실가스&nbsp;감축,&nbsp;기후적응,&nbsp;생물다양성,&nbsp;생태복원&nbsp;관련&nbsp;예산을&nbsp;통합적으로&nbsp;점검<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진&nbsp;및&nbsp;중장기&nbsp;계속사업화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1년&nbsp;차:&nbsp;영산강·갯벌·산림·재생에너지&nbsp;종합계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2~3년&nbsp;차:&nbsp;RE100&nbsp;산단,&nbsp;생태복원&nbsp;선도사업,&nbsp;저탄소&nbsp;교통사업&nbsp;착수<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4년&nbsp;차:&nbsp;녹색산업·생태전환&nbsp;대표사업&nbsp;성과&nbsp;창출&nbsp;및&nbsp;국가사업&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;기후대응기금,&nbsp;환경부·산업통상자원부·국토교통부&nbsp;공모사업,&nbsp;특별시&nbsp;예산,&nbsp;민간투자&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재생에너지&nbsp;사업은&nbsp;공공·민간·주민협동조합&nbsp;참여&nbsp;방식&nbsp;병행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생태복원&nbsp;사업은&nbsp;국가하천,&nbsp;습지,&nbsp;산림,&nbsp;재난안전&nbsp;예산과&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;RE100&nbsp;산업단지는&nbsp;기업&nbsp;투자,&nbsp;정책금융,&nbsp;지방정부&nbsp;기반시설&nbsp;투자&nbsp;결합</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	(기본소득) 돌봄·의료·이동·교육·주거·소득의 기본을 책임지겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="(기본소득) 돌봄·의료·이동·교육·주거·소득의 기본을 책임지겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;누구나&nbsp;최소한의&nbsp;삶을&nbsp;보장받는&nbsp;전남광주형&nbsp;기본사회&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄,&nbsp;의료,&nbsp;이동,&nbsp;교육,&nbsp;주거,&nbsp;소득의&nbsp;기본권&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌·섬·고령지역·청년·아동·장애인·1인가구의&nbsp;생활&nbsp;불안&nbsp;완화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기본소득,&nbsp;돌봄&nbsp;기본사회,&nbsp;해상교통&nbsp;공영제,&nbsp;청년&nbsp;지원,&nbsp;공공서비스&nbsp;확대&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;돌봄&nbsp;기본사회&nbsp;특별시&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특별시&nbsp;사회서비스원을&nbsp;강화해&nbsp;돌봄&nbsp;정책의&nbsp;통합&nbsp;실행기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시에는&nbsp;시·구&nbsp;사회서비스원,&nbsp;농촌에는&nbsp;군&nbsp;기본사회센터&nbsp;설치&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;읍면동&nbsp;돌봄&nbsp;사회적협동조합&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄&nbsp;대상자와&nbsp;돌봄매니저를&nbsp;연결하는&nbsp;책임관리체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;이동권&nbsp;기본&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌·섬&nbsp;지역&nbsp;수요응답형&nbsp;교통&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해상교통&nbsp;공영제&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통비&nbsp;부담&nbsp;완화와&nbsp;통합교통플랫폼&nbsp;‘올타’&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;의료·교육·주거&nbsp;기본&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌&nbsp;공공의료,&nbsp;방문건강관리,&nbsp;응급의료&nbsp;접근성&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청소년&nbsp;활동시간&nbsp;보장,&nbsp;지역&nbsp;전체를&nbsp;배움터로&nbsp;활용하는&nbsp;교육정책&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;주거·창업·교육·이사비&nbsp;등을&nbsp;묶은&nbsp;정착&nbsp;패키지&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;기본소득&nbsp;및&nbsp;지역소득&nbsp;모델&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;햇빛·바람&nbsp;등&nbsp;재생에너지&nbsp;수익을&nbsp;주민&nbsp;배당과&nbsp;마을기금으로&nbsp;환류<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌&nbsp;마을&nbsp;월급,&nbsp;햇빛&nbsp;기본소득마을,&nbsp;청년&nbsp;자산형성&nbsp;지원&nbsp;등&nbsp;단계적&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1년&nbsp;차:&nbsp;기본사회&nbsp;종합계획&nbsp;수립,&nbsp;돌봄·교통·청년·에너지&nbsp;기본소득&nbsp;선도&nbsp;지역&nbsp;선정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2~3년&nbsp;차:&nbsp;사회서비스원·기본사회센터·해상교통&nbsp;공영제·청년&nbsp;정착사업&nbsp;본격&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4년&nbsp;차:&nbsp;기본사회&nbsp;대표사업&nbsp;전역&nbsp;확대&nbsp;및&nbsp;성과평가<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;특별시&nbsp;복지·교통·청년&nbsp;예산,&nbsp;지방소멸대응기금,&nbsp;사회서비스&nbsp;재정,&nbsp;재생에너지&nbsp;수익,&nbsp;공공기금&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보건복지부,&nbsp;국토교통부,&nbsp;해양수산부,&nbsp;고용노동부,&nbsp;행정안전부&nbsp;사업과&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재생에너지&nbsp;수익공유,&nbsp;마을기금,&nbsp;사회적경제&nbsp;방식으로&nbsp;지역&nbsp;자체&nbsp;재원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;복지·교통·청년·돌봄&nbsp;사업을&nbsp;통합&nbsp;조정해&nbsp;중복&nbsp;지출을&nbsp;줄이고&nbsp;체감효과&nbsp;확대</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

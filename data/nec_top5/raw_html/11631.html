@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;정덕영 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	경기북부 교통중심도시 양주 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="경기북부 교통중심도시 양주 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;철도·도로·광역버스&nbsp;확충을&nbsp;통해&nbsp;양주시의&nbsp;서울&nbsp;접근성과&nbsp;경기북부&nbsp;교통&nbsp;중심성을&nbsp;획기적으로&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1호선&nbsp;직결&nbsp;증차&nbsp;및&nbsp;배차간격&nbsp;단축,&nbsp;7호선&nbsp;도봉산~옥정&nbsp;적기&nbsp;개통,&nbsp;옥정중앙역&nbsp;조기&nbsp;개통,&nbsp;옥정~덕정&nbsp;연장&nbsp;추진,&nbsp;3호선&nbsp;양주&nbsp;연장,&nbsp;GTX-C&nbsp;적기&nbsp;추진으로&nbsp;시민&nbsp;출퇴근&nbsp;불편&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울-양주&nbsp;고속도로&nbsp;추진,&nbsp;주요&nbsp;정체구간&nbsp;개선,&nbsp;광역버스&nbsp;노선&nbsp;확대를&nbsp;통해&nbsp;빠르고&nbsp;편리한&nbsp;교통도시&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;철도·도로·대중교통&nbsp;3축을&nbsp;중심으로&nbsp;중앙정부,&nbsp;경기도,&nbsp;관계기관과&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1호선&nbsp;증차&nbsp;및&nbsp;배차&nbsp;조정은&nbsp;국토교통부·코레일과&nbsp;협의하여&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;7호선&nbsp;사업은&nbsp;경기도와&nbsp;협력&nbsp;및&nbsp;정부재정&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3호선&nbsp;지축~장흥~백석·광적&nbsp;연장은&nbsp;국가철도망계획&nbsp;반영&nbsp;및&nbsp;타당성&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX-C는&nbsp;덕정역&nbsp;중심&nbsp;광역복합환승체계와&nbsp;연계&nbsp;및&nbsp;양주역&nbsp;정차&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울-양주&nbsp;고속도로,&nbsp;회암·고암IC,&nbsp;옥정톨게이트&nbsp;등&nbsp;상습정체&nbsp;구간&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;회천·옥정신도시~강남,&nbsp;서울서부권,&nbsp;공항버스,&nbsp;동부권&nbsp;순환버스&nbsp;등&nbsp;생활권별&nbsp;광역교통&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;2030년까지&nbsp;단계별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·시비,&nbsp;민자사업,&nbsp;광역교통개선대책&nbsp;재원&nbsp;등을&nbsp;연계하여&nbsp;사업별&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;철도사업은&nbsp;국가철도망계획,&nbsp;광역교통개선대책,&nbsp;관계기관&nbsp;협의를&nbsp;통해&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고속도로&nbsp;및&nbsp;도로망&nbsp;확충은&nbsp;민자사업,&nbsp;국비,&nbsp;도비,&nbsp;시비&nbsp;매칭&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광역버스는&nbsp;경기도&nbsp;광역버스&nbsp;보조금,&nbsp;대광위&nbsp;지원,&nbsp;시비&nbsp;매칭을&nbsp;통해&nbsp;운영&nbsp;재원&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	AI 첨단산업 기반의 자족도시 양주 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="AI 첨단산업 기반의 자족도시 양주 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;AI·바이오·로봇·드론·방산&nbsp;등&nbsp;첨단산업을&nbsp;육성하여&nbsp;일자리와&nbsp;기업이&nbsp;모이는&nbsp;자족도시&nbsp;양주&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;테크노밸리와&nbsp;은남산업단지를&nbsp;중심으로&nbsp;앵커기업을&nbsp;유치하고,&nbsp;기존&nbsp;제조업과&nbsp;AI·디지털&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;주거,&nbsp;창업,&nbsp;일자리&nbsp;지원을&nbsp;연계하여&nbsp;청년이&nbsp;머물고&nbsp;일할&nbsp;수&nbsp;있는&nbsp;도시&nbsp;기반&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;산업단지&nbsp;조성,&nbsp;기업유치,&nbsp;청년정착,&nbsp;행정지원의&nbsp;4대&nbsp;축으로&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시장직속&nbsp;기업투자유치단&nbsp;신설로&nbsp;원스톱&nbsp;인허가,&nbsp;기업애로&nbsp;해소,&nbsp;투자유치&nbsp;전담<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·제조융복합&nbsp;혁신지원센터&nbsp;건립으로&nbsp;중소&nbsp;제조기업의&nbsp;디지털&nbsp;전환&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;데이터센터,&nbsp;로봇·드론&nbsp;실증사업,&nbsp;K-방산&nbsp;클러스터,&nbsp;수소도시&nbsp;조성&nbsp;등&nbsp;미래산업&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역기업&nbsp;연계&nbsp;청년&nbsp;인턴십,&nbsp;청년창업&nbsp;지원,&nbsp;역세권&nbsp;청년·신혼부부&nbsp;주택&nbsp;공급과&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양주형&nbsp;AI&nbsp;스마트행정,&nbsp;24시&nbsp;AI&nbsp;민원응대,&nbsp;AI&nbsp;복지·교통안전&nbsp;시스템을&nbsp;도입으로&nbsp;행정서비스&nbsp;혁신&nbsp;병행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;2030년까지&nbsp;단계별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;산업단지&nbsp;분양수입,&nbsp;민간투자,&nbsp;국비&nbsp;공모,&nbsp;경기도&nbsp;산업정책&nbsp;재원,&nbsp;시비&nbsp;매칭&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업단지&nbsp;조성비는&nbsp;분양수입과&nbsp;민간투자&nbsp;유치로&nbsp;재정&nbsp;부담&nbsp;최소화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·제조융복합,&nbsp;드론·로봇,&nbsp;방산&nbsp;관련&nbsp;사업은&nbsp;중앙부처&nbsp;및&nbsp;경기도&nbsp;공모사업연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;유치&nbsp;인센티브는&nbsp;투자&nbsp;규모,&nbsp;고용&nbsp;창출&nbsp;효과,&nbsp;지방세&nbsp;수입&nbsp;증가를&nbsp;고려하여&nbsp;단계적&nbsp;지원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	명품 교육도시 양주 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="명품 교육도시 양주 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;교육지원청&nbsp;신설,&nbsp;학교&nbsp;신설,&nbsp;과밀학급&nbsp;해소,&nbsp;무상통학버스&nbsp;도입,&nbsp;AI·디지털&nbsp;교육&nbsp;인프라&nbsp;확충을&nbsp;통해&nbsp;교육&nbsp;때문에&nbsp;찾아오는&nbsp;명품&nbsp;교육도시&nbsp;양주&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양주교육지원청&nbsp;신설을&nbsp;통해&nbsp;동두천양주교육지원청&nbsp;관할&nbsp;체계에서&nbsp;벗어나&nbsp;양주&nbsp;맞춤형&nbsp;교육행정&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인구증가와&nbsp;신도시&nbsp;개발에&nbsp;따른&nbsp;학교부족,&nbsp;통학불편,&nbsp;교육행정&nbsp;공백을&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래세대&nbsp;AI·디지털·외국어&nbsp;역량을&nbsp;강화하고&nbsp;지역&nbsp;정착형&nbsp;진로교육&nbsp;체계&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;교육행정&nbsp;독립,&nbsp;학교&nbsp;공급,&nbsp;통학&nbsp;지원,&nbsp;미래교육&nbsp;기반을&nbsp;함께&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양주교육지원청&nbsp;신설을&nbsp;위해&nbsp;경기도교육청·교육부와&nbsp;협의체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학교&nbsp;신설,&nbsp;모듈러&nbsp;교실,&nbsp;교실&nbsp;증축&nbsp;등&nbsp;과밀학급&nbsp;긴급대책&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학생&nbsp;무상통학버스와&nbsp;통학로&nbsp;안전시설을&nbsp;확대하여&nbsp;원거리&nbsp;통학&nbsp;부담&nbsp;완화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;초등학생&nbsp;원어민&nbsp;영어교실,&nbsp;영어교육&nbsp;전용&nbsp;AI&nbsp;로봇,&nbsp;디지털역량강화센터&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고등학교·대학·기업&nbsp;연계&nbsp;진로&nbsp;교육을&nbsp;통해&nbsp;지역&nbsp;인재&nbsp;양성과&nbsp;청년정착&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경기학교예술창작소,&nbsp;학교복합시설&nbsp;등과&nbsp;연계하여&nbsp;문화예술교육&nbsp;거점&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;2030년까지&nbsp;단계별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;교육부,&nbsp;경기도교육청,&nbsp;경기도,&nbsp;양주시&nbsp;재원을&nbsp;연계하고&nbsp;공모사업&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육지원청&nbsp;신설과&nbsp;학교&nbsp;신설은&nbsp;교육청&nbsp;및&nbsp;교육부&nbsp;협의를&nbsp;통해&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;과밀학급&nbsp;해소는&nbsp;교육청&nbsp;예산과&nbsp;시&nbsp;협력사업을&nbsp;병행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통학버스와&nbsp;통학로&nbsp;안전은&nbsp;도비·시비&nbsp;매칭&nbsp;및&nbsp;교육협력사업&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·디지털&nbsp;교육은&nbsp;교육부·과기부·고용노동부&nbsp;등&nbsp;관련&nbsp;공모사업과&nbsp;연계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	경기북부 문화·관광 중심도시 양주 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="경기북부 문화·관광 중심도시 양주 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;양주의&nbsp;역사문화&nbsp;자산과&nbsp;공연·축제·관광&nbsp;인프라를&nbsp;연계하여&nbsp;경기북부&nbsp;대표&nbsp;문화·관광&nbsp;중심도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양주아트센터,&nbsp;대모산성&nbsp;역사공원,&nbsp;회암사지&nbsp;세계문화유산&nbsp;등재&nbsp;추진을&nbsp;통해&nbsp;문화도시&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;감악산,&nbsp;광백저수지,&nbsp;조소앙기념관,&nbsp;관아지,&nbsp;별산대놀이&nbsp;등&nbsp;지역&nbsp;자원을&nbsp;활용한&nbsp;관광벨트&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;문화시설,&nbsp;역사유산,&nbsp;관광콘텐츠,&nbsp;지역상권을&nbsp;연계하여&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양주아트센터&nbsp;건립으로&nbsp;시민문화향유와&nbsp;공연예술기반&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양주대모산성&nbsp;발굴&nbsp;및&nbsp;역사공원&nbsp;조성,&nbsp;회암사지&nbsp;세계문화유산&nbsp;등재기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양주별산대놀이,&nbsp;관아지&nbsp;프리마켓,&nbsp;회암사지,&nbsp;감악산,&nbsp;광백저수지&nbsp;등&nbsp;권역별&nbsp;관광자원&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민참여형&nbsp;문화축제와&nbsp;지역문화유산&nbsp;활용&nbsp;관광콘텐츠&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양주시&nbsp;디지털&nbsp;기록공유&nbsp;사업을&nbsp;통해&nbsp;지역의&nbsp;역사·문화·인물&nbsp;자산을&nbsp;콘텐츠화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교외선&nbsp;관광&nbsp;네트워크,&nbsp;수변공원,&nbsp;자전거도로,&nbsp;캠핑장&nbsp;등&nbsp;생활여가&nbsp;인프라와&nbsp;관광사업&nbsp;연계<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;2030년까지&nbsp;단계별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;문체부,&nbsp;국가유산청,&nbsp;경기도,&nbsp;양주시&nbsp;재원과&nbsp;공모사업을&nbsp;연계하여&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화시설은&nbsp;복합문화시설&nbsp;공모,&nbsp;지방재정투자사업,&nbsp;도비&nbsp;지원사업&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대모산성·회암사지&nbsp;관련&nbsp;사업은&nbsp;국가유산&nbsp;조사·정비·세계유산&nbsp;등재&nbsp;지원사업과&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;축제와&nbsp;관광콘텐츠는&nbsp;관광진흥기금,&nbsp;지역관광개발사업,&nbsp;도시재생사업&nbsp;등과&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활여가&nbsp;인프라는&nbsp;도시공원,&nbsp;수변공간,&nbsp;산림·관광&nbsp;관련&nbsp;국도비&nbsp;사업&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	의료·복지 확대로 더 살기 좋은 도시 양주 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="의료·복지 확대로 더 살기 좋은 도시 양주 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;공공의료,&nbsp;보건,&nbsp;돌봄,&nbsp;복지,&nbsp;생활체육&nbsp;인프라&nbsp;확충으로&nbsp;시민&nbsp;모두가&nbsp;안심하고&nbsp;사는&nbsp;도시&nbsp;양주&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경기북부&nbsp;혁신형&nbsp;공공의료원,&nbsp;서부&nbsp;보건소,&nbsp;달빛어린이병원&nbsp;확대를&nbsp;통해&nbsp;의료사각지대&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합돌봄,&nbsp;스마트케어,&nbsp;중장년&nbsp;일자리,&nbsp;장애인·어르신&nbsp;복지&nbsp;확대를&nbsp;통해&nbsp;걱정&nbsp;없는&nbsp;노후와&nbsp;함께&nbsp;사는&nbsp;도시&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;의료·돌봄·복지·생활체육·생활인프라를&nbsp;통합적으로&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경기북부&nbsp;혁신형&nbsp;공공의료원&nbsp;설립과&nbsp;서부&nbsp;보건소&nbsp;신설을&nbsp;관계기관&nbsp;협의하여&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;달빛어린이병원&nbsp;확대,&nbsp;24시&nbsp;응급의료체계&nbsp;강화,&nbsp;학생&nbsp;건강권&nbsp;보장을&nbsp;위한&nbsp;보건의료&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양주종합사회복지센터를&nbsp;복지&nbsp;컨트롤타워로&nbsp;구축,&nbsp;장애인·어르신&nbsp;스마트케어&nbsp;사업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중장년층&nbsp;일자리,&nbsp;취약계층&nbsp;지원,&nbsp;보행약자&nbsp;이동편의,&nbsp;무장애&nbsp;둘레길&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;덕계지구&nbsp;스포츠센터,&nbsp;남면&nbsp;실내체육관,&nbsp;파크골프장,&nbsp;자전거&nbsp;전용도로,&nbsp;권역별&nbsp;공영주차장&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업인&nbsp;고령화&nbsp;대응,&nbsp;농업용&nbsp;드론,&nbsp;도시농업·치유원예&nbsp;등&nbsp;농촌복지와&nbsp;건강정책&nbsp;연계<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;2030년까지&nbsp;단계별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;보건복지부,&nbsp;경기도,&nbsp;국비&nbsp;공모,&nbsp;도비·시비&nbsp;매칭,&nbsp;민간협력&nbsp;방식을&nbsp;종합&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공의료원은&nbsp;경기도&nbsp;및&nbsp;중앙정부&nbsp;협의,&nbsp;예비타당성&nbsp;검토,&nbsp;재정분담&nbsp;구조&nbsp;마련을&nbsp;통해&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보건소와&nbsp;달빛어린이병원은&nbsp;보건의료&nbsp;관련&nbsp;국비·도비&nbsp;지원사업과&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합돌봄과&nbsp;스마트케어는&nbsp;중앙정부&nbsp;복지사업,&nbsp;경기도&nbsp;사업,&nbsp;시비&nbsp;매칭&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활체육시설과&nbsp;공영주차장은&nbsp;생활SOC,&nbsp;도시재생,&nbsp;체육시설&nbsp;확충&nbsp;공모사업과&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자전거도로,&nbsp;무장애&nbsp;둘레길,&nbsp;농촌치유관광은&nbsp;관련&nbsp;국도비&nbsp;사업과&nbsp;연계하여&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

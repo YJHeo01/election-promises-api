@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이차영 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	농업기반의 ‘기본소득 보장형 경제’로 전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="농업기반의 ‘기본소득 보장형 경제’로 전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;괴산군민&nbsp;월급통장:&nbsp;기본소득과&nbsp;연금을&nbsp;월급처럼&nbsp;지급하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농촌기본소득&nbsp;지급&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;괴산형&nbsp;군민연금&nbsp;도입&nbsp;(햇빛연금,&nbsp;풍력,&nbsp;수자원&nbsp;연금&nbsp;자원화)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을기업&nbsp;운영&nbsp;수익&nbsp;배분<br><br>○&nbsp;군민소득보장기반&nbsp;강화&nbsp;:&nbsp;안정적인&nbsp;기본생활을&nbsp;보장하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농산물가격안정기금&nbsp;확충:&nbsp;2028년부터&nbsp;가격안정사업&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재해보험&nbsp;확대&nbsp;및&nbsp;새로운&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;경영안정&nbsp;지원&nbsp;확대<br><br>○&nbsp;농축산업&nbsp;보조·지원&nbsp;확대&nbsp;:&nbsp;농사비용을&nbsp;줄이고&nbsp;소득을&nbsp;높이겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업인력&nbsp;안정적&nbsp;공급체계&nbsp;구축&nbsp;및&nbsp;지원&nbsp;확대(외국노동자,&nbsp;시간제&nbsp;근로인력&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농축산업&nbsp;보조금&nbsp;지원&nbsp;확대&nbsp;및&nbsp;농업농촌&nbsp;종합발전전략&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;친환경·유기농업&nbsp;지원&nbsp;확대&nbsp;및&nbsp;글로벌&nbsp;경쟁력&nbsp;강화<br><br>○&nbsp;지역순환경제시스템&nbsp;구축:&nbsp;지역의&nbsp;돈이&nbsp;빠져&nbsp;나가지&nbsp;않게&nbsp;하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;사업·자금·인력&nbsp;유출&nbsp;최소화를&nbsp;위한&nbsp;지역순환경제&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역제한경쟁&nbsp;입찰기준&nbsp;상향&nbsp;추진&nbsp;및&nbsp;관내&nbsp;하도급&nbsp;의무화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을기업,&nbsp;협동조합&nbsp;등&nbsp;사회적기업&nbsp;창업&nbsp;및&nbsp;정착지원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	집걱정·병원걱정 없는 '살기 좋은 괴산' 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="집걱정·병원걱정 없는 '살기 좋은 괴산' 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;만원둥지&nbsp;:&nbsp;월&nbsp;임대료&nbsp;1만원으로&nbsp;살&nbsp;수&nbsp;있는&nbsp;집을&nbsp;보급하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;모듈러주택&nbsp;500호&nbsp;건축&nbsp;-&nbsp;월&nbsp;임대료&nbsp;1만원&nbsp;청년주택&nbsp;보급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;귀농·귀촌&nbsp;체류형&nbsp;주거단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;은퇴자&nbsp;전원마을,&nbsp;예술가&nbsp;레지던시&nbsp;조성<br><br>○&nbsp;우리&nbsp;집이&nbsp;곧&nbsp;병원&nbsp;:&nbsp;댁으로&nbsp;찾아가서&nbsp;보살피겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첨단&nbsp;AI&nbsp;왕진버스,&nbsp;효도택시,&nbsp;심야약국&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역과&nbsp;도시&nbsp;병원간&nbsp;의료&nbsp;협진&nbsp;및&nbsp;소아과&nbsp;응급이송체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;치매&nbsp;통합관리체계&nbsp;고도화<br><br>○&nbsp;촘촘한&nbsp;세대별&nbsp;안전망&nbsp;:&nbsp;모두가&nbsp;안심하는&nbsp;생활환경을&nbsp;조성하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;괴산형&nbsp;안심&nbsp;최적&nbsp;보육시스템&nbsp;및&nbsp;아동&nbsp;통합돌봄체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경로당&nbsp;반찬배달&nbsp;및&nbsp;식탁·탁자&nbsp;입식으로&nbsp;교체<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인&nbsp;활동&nbsp;지원&nbsp;및&nbsp;사회복지분야&nbsp;종사자&nbsp;처우&nbsp;개선<br><br>○&nbsp;일상이&nbsp;모두&nbsp;교육:&nbsp;지역특화&nbsp;교육을&nbsp;육성하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특성화학교&nbsp;육성&nbsp;및&nbsp;글로벌&nbsp;체험학습&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역대학과의&nbsp;연계·협력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청소년&nbsp;교육·문화&nbsp;복합시설&nbsp;확충</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	농업과 첨단산업 융합으로 'K-농촌의 표준' 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="농업과 첨단산업 융합으로 'K-농촌의 표준' 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;유통·판매·인프라&nbsp;준공영제:&nbsp;농산물&nbsp;판매를&nbsp;군이&nbsp;책임지겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합유통&nbsp;플랫폼과&nbsp;연계한&nbsp;농산물&nbsp;전량판매&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3자&nbsp;물류시스템&nbsp;구축으로&nbsp;택배비&nbsp;3분의&nbsp;2&nbsp;수준으로&nbsp;인하<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농기계&nbsp;임대사업&nbsp;고도화&nbsp;-&nbsp;농기계&nbsp;배달·수거&nbsp;서비스&nbsp;제공<br><br>○&nbsp;첨단농업기반&nbsp;확충&nbsp;:&nbsp;최첨단&nbsp;농업기반&nbsp;구축으로&nbsp;새로운&nbsp;미래를&nbsp;열겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유기농&nbsp;바이오&nbsp;헬스케어산업&nbsp;및&nbsp;푸드테크&nbsp;산업&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유기농&nbsp;스마트팜&nbsp;복합단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;기반&nbsp;디지털&nbsp;농정&nbsp;종합시스템&nbsp;구축<br><br>○&nbsp;괴산팩토리&nbsp;4.0&nbsp;:&nbsp;첨단산업을&nbsp;유치하고&nbsp;양질의&nbsp;일자리를&nbsp;창출하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첨단산업&nbsp;특화단지&nbsp;조성&nbsp;및&nbsp;기업지원정책&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산학관&nbsp;협력체계&nbsp;강화&nbsp;및&nbsp;맞춤형&nbsp;인재&nbsp;양성&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;골목상권&nbsp;살리기&nbsp;종합대책&nbsp;추진&nbsp;및&nbsp;장터&nbsp;온라인몰&nbsp;개설<br><br>○&nbsp;교통·물류&nbsp;고도화:&nbsp;먼길은&nbsp;신속하게,&nbsp;가까운&nbsp;곳을&nbsp;안전하게&nbsp;만들겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국도&nbsp;19호선&nbsp;단절구간&nbsp;등&nbsp;간선도로망&nbsp;확충&nbsp;및&nbsp;신설&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불편없는&nbsp;대중교통체계&nbsp;구축&nbsp;-&nbsp;마을순환버스&nbsp;운영,&nbsp;행복택시&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관내&nbsp;연결도로망&nbsp;확충&nbsp;및&nbsp;교통·보행환경&nbsp;획기적&nbsp;개선</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	군민의 뜻을 받드는 '군민중심 행정구조'로 전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="군민의 뜻을 받드는 '군민중심 행정구조'로 전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;백세건강&nbsp;생활환경&nbsp;:&nbsp;깨끗하고&nbsp;건강한&nbsp;생활인프라를&nbsp;조성하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;맞춤형&nbsp;생활체육&nbsp;시스템&nbsp;및&nbsp;고령친화형&nbsp;건강지킴체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우리동네&nbsp;생활환경&nbsp;청정화&nbsp;및&nbsp;영농폐기물·음식물쓰레기&nbsp;수거&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상수도&nbsp;급수지역&nbsp;및&nbsp;공공하수도&nbsp;처리구역&nbsp;확대<br><br>○&nbsp;문화·관광&nbsp;주권&nbsp;확립&nbsp;:&nbsp;지역&nbsp;정체성을&nbsp;반영하여&nbsp;문화주권을&nbsp;확립하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체험·체류형&nbsp;관광체계&nbsp;구축을&nbsp;위한&nbsp;시설&nbsp;확충&nbsp;및&nbsp;콘텐츠&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역자원을&nbsp;주제로&nbsp;하는&nbsp;글로벌&nbsp;축제&nbsp;및&nbsp;대한민국&nbsp;대표축제&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역정체성을&nbsp;반영한&nbsp;문화·예술&nbsp;활성화정책&nbsp;추진<br><br>○&nbsp;군민주권시대&nbsp;실현:&nbsp;주민주권,&nbsp;여성주권,&nbsp;청년주권을&nbsp;강화하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공동체의&nbsp;현안해결를&nbsp;위한&nbsp;민관협력&nbsp;거버넌스&nbsp;제도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여성의&nbsp;행복을&nbsp;위한&nbsp;여성주권,&nbsp;청년의&nbsp;희망을&nbsp;이루는&nbsp;청년주권&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;읍·면장&nbsp;주민추천제&nbsp;및&nbsp;공공사업&nbsp;주민대표&nbsp;명예감독관&nbsp;제도&nbsp;운영<br><br>○&nbsp;군민중심으로의&nbsp;행정혁신&nbsp;:&nbsp;균형행정,&nbsp;군민&nbsp;맞춤형&nbsp;행정을&nbsp;실현하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;찾아가는&nbsp;소통행정&nbsp;강화&nbsp;및&nbsp;민원후견&nbsp;전담부서&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전국에서&nbsp;가장&nbsp;빠르고&nbsp;친절한&nbsp;민원처리시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인사혁신과&nbsp;공무원후생시설&nbsp;확충으로&nbsp;일할&nbsp;맛&nbsp;나는&nbsp;직장분위기&nbsp;조성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	지역특화전략으로 활기 넘치는 괴산 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="지역특화전략으로 활기 넘치는 괴산 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            [괴산읍]&nbsp;&nbsp;미니복합타운&nbsp;등&nbsp;주택건설&nbsp;조기&nbsp;완료&nbsp;및&nbsp;모듈러주택단지&nbsp;조성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;상권&nbsp;활성화&nbsp;종합계획&nbsp;추진&nbsp;:&nbsp;북적이는&nbsp;괴산&nbsp;만들기<br><br>[감물면]&nbsp;&nbsp;느릅재-박달산&nbsp;연계&nbsp;관광&nbsp;활성화&nbsp;및&nbsp;귀산촌마을&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;박달산&nbsp;임도를&nbsp;활용한&nbsp;레포츠&nbsp;육성(등산,승마,자전거,마라톤&nbsp;등)<br><br>[장연면]&nbsp;&nbsp;박달산&nbsp;활용&nbsp;복합리조트단지&nbsp;유치,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;산림바이오매스&nbsp;산업단지&nbsp;조성&nbsp;및&nbsp;에너지자립마을&nbsp;조성<br><br>[연풍면]&nbsp;&nbsp;연풍생활체육공원&nbsp;조성,&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;자전거&nbsp;테마파크&nbsp;조성&nbsp;및&nbsp;자전거용품&nbsp;엑스포&nbsp;개최<br><br>[칠성면]&nbsp;&nbsp;산막이옛길&nbsp;부흥시대&nbsp;만들기&nbsp;및&nbsp;괴산댐&nbsp;주변&nbsp;생태&nbsp;관광지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;쌍곡계곡&nbsp;생태탐방로&nbsp;전&nbsp;구간&nbsp;조기&nbsp;개통,&nbsp;갈은구곡&nbsp;사계절&nbsp;명소화<br><br>[문광면]&nbsp;&nbsp;호국원&nbsp;진입도로&nbsp;괴산중-문광초&nbsp;간&nbsp;도로확장&nbsp;조기&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;호국원&nbsp;연계&nbsp;평화&nbsp;테마파크&nbsp;조성<br><br>[청천면]&nbsp;&nbsp;화양구곡·선유구곡&nbsp;정비&nbsp;-&nbsp;선비문화의&nbsp;메카로&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;송면&nbsp;교육특구&nbsp;육성&nbsp;및&nbsp;송면어린이집&nbsp;재정비<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;산막이옛길&nbsp;유람선&nbsp;운교선착장&nbsp;설치<br><br>[청안면]&nbsp;&nbsp;신규&nbsp;산업단지&nbsp;조성&nbsp;-&nbsp;반도체&nbsp;후공정산업&nbsp;중심지로&nbsp;육성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;첨단산업단지&nbsp;배후&nbsp;근로자&nbsp;주거단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;질마재&nbsp;교통불편&nbsp;해소&nbsp;종합대책&nbsp;추진<br><br>[사리면]&nbsp;&nbsp;사리면&nbsp;중심지활성화&nbsp;사업&nbsp;추진&nbsp;-&nbsp;상권&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;백마권역&nbsp;겨울축제&nbsp;-&nbsp;중부권&nbsp;대표&nbsp;겨울축제로&nbsp;육성<br><br>[소수면]&nbsp;&nbsp;우리씨앗농장,&nbsp;눈비산마을&nbsp;연계&nbsp;테마&nbsp;귀산촌마을&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소수&nbsp;~&nbsp;괴산&nbsp;간&nbsp;천변&nbsp;산책로&nbsp;연결&nbsp;정비&nbsp;<br><br>[불정면]&nbsp;&nbsp;괴산&nbsp;~&nbsp;목도&nbsp;간&nbsp;위험도로&nbsp;개선&nbsp;조기완료<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;목도강수욕장&nbsp;정비&nbsp;및&nbsp;활성화</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

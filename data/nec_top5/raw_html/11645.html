@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김태석 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	구민과 함께하는 스마트 행정 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="구민과 함께하는 스마트 행정 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▣&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;행정과&nbsp;주민의&nbsp;쌍방향&nbsp;소통구조&nbsp;확대로&nbsp;정책추진의&nbsp;민주성&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;데이터&nbsp;기반&nbsp;AI를&nbsp;활용한&nbsp;스마트&nbsp;행정역량&nbsp;제고<br><br>▣&nbsp;이행방안<br>&nbsp;&nbsp;○&nbsp;사하구TV&nbsp;유튜브&nbsp;채널&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;（행정정보&nbsp;및&nbsp;정책공개,&nbsp;구정홍보&nbsp;등&nbsp;쌍방향&nbsp;소통채널로&nbsp;활용）<br>&nbsp;&nbsp;○&nbsp;구청장&nbsp;문자전용&nbsp;전화&nbsp;운용,&nbsp;이동&nbsp;구청장실&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;통합데이터&nbsp;플랫폼&nbsp;구축으로&nbsp;데이터&nbsp;기반&nbsp;행정<br>&nbsp;&nbsp;&nbsp;&nbsp;（환경,&nbsp;교통,&nbsp;상권,&nbsp;복지&nbsp;등&nbsp;데이터&nbsp;지속&nbsp;축적,&nbsp;통합분석,&nbsp;맞춤정책）<br><br>▣&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~2030(임기&nbsp;내&nbsp;지속&nbsp;추진)<br>&nbsp;&nbsp;○&nbsp;당선&nbsp;후&nbsp;즉시&nbsp;공약사업&nbsp;추진단을&nbsp;구성하여&nbsp;지속&nbsp;추진<br><br>▣&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;사하구&nbsp;TV&nbsp;채널&nbsp;운영&nbsp;영상장비&nbsp;등&nbsp;시스템&nbsp;구축(20백만원,&nbsp;구비)<br>&nbsp;&nbsp;○&nbsp;구청장&nbsp;문자전용&nbsp;전화&nbsp;운용(모바일&nbsp;구입&nbsp;및&nbsp;요금&nbsp;등&nbsp;연평균150만원)<br>&nbsp;&nbsp;○&nbsp;통합테이터&nbsp;플랫폼&nbsp;구축&nbsp;및&nbsp;운영(플랫폼구축&nbsp;30억원&nbsp;내외,&nbsp;운영비&nbsp;연3억원&nbsp;이내)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부&nbsp;공모사업&nbsp;응모&nbsp;및&nbsp;구비&nbsp;매칭,&nbsp;운영비&nbsp;구비)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	청소년이 미래를 꿈꾸게 하는 사하</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="청소년이 미래를 꿈꾸게 하는 사하">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▣&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;사하의&nbsp;미래인&nbsp;창소년세대가&nbsp;사하에서&nbsp;자리&nbsp;잡고&nbsp;성공할&nbsp;수&nbsp;있는&nbsp;기반&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;청년문화&nbsp;활성화와&nbsp;창업&nbsp;공간&nbsp;제공&nbsp;등&nbsp;실질적인&nbsp;지원사업&nbsp;운염<br><br>▣&nbsp;이행방안<br>&nbsp;&nbsp;○&nbsp;청소년&nbsp;시내버스&nbsp;무료사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;청년+스마트로&nbsp;살아나는&nbsp;골목상권&nbsp;만들기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;골목상권&nbsp;청년장업지원,&nbsp;공공형&nbsp;배달앱&nbsp;구축(민간주도+공공지원)<br>&nbsp;&nbsp;○&nbsp;청소년&nbsp;체험문화&nbsp;시설&nbsp;건립(괴정∼하단지역&nbsp;내)<br><br>▣&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;∼2030(임기내&nbsp;추진)<br>&nbsp;&nbsp;○&nbsp;당선&nbsp;후&nbsp;즉시&nbsp;공약사업&nbsp;추진단을&nbsp;구상하여&nbsp;추진<br><br>▣&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;청소년&nbsp;시내버스&nbsp;무료사업&nbsp;추진(15천명×(월)32천원×10개월=연4,800백만원,&nbsp;구비)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;저소득계층&nbsp;청소년부터&nbsp;단계별&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;부산시&nbsp;전체&nbsp;추진&nbsp;시&nbsp;구비&nbsp;절감&nbsp;가능<br>&nbsp;&nbsp;○&nbsp;청년+스마트로&nbsp;살아나는&nbsp;골목상권&nbsp;만들기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년창업지원(임대료&nbsp;연30개소×월300천원×12월&nbsp;=108백만원,&nbsp;구비)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공형&nbsp;배달앱&nbsp;민간투자+공공&nbsp;행정지원으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;청소년&nbsp;체험문화&nbsp;시설&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;추정&nbsp;50억원~100억원,&nbsp;국시비,&nbsp;단독형&nbsp;or&nbsp;복합형에&nbsp;따른&nbsp;소요예산&nbsp;차이）</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	생활밀착형 복지·안전 도시 사하 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="생활밀착형 복지·안전 도시 사하 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▣&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;취약계층&nbsp;맞춤형&nbsp;복지&nbsp;확대&nbsp;및&nbsp;지역&nbsp;중심&nbsp;통합&nbsp;돌봄&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;생활불편&nbsp;해소를&nbsp;통한&nbsp;체감형&nbsp;행정&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;가술&nbsp;기반&nbsp;사회&nbsp;안전망&nbsp;구축<br><br>▣&nbsp;이행방안<br>&nbsp;&nbsp;○&nbsp;치매환자&nbsp;기저귀&nbsp;등&nbsp;지원사업&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;최고수준의&nbsp;어르신&nbsp;안심돌봄&nbsp;제공(의료·요양·돌봄&nbsp;패키지&nbsp;제공)<br>&nbsp;&nbsp;○&nbsp;생활불편은&nbsp;'그냥&nbsp;해드림'&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;그냥&nbsp;해드림&nbsp;사업은&nbsp;홀로&nbsp;사는&nbsp;노인&nbsp;외&nbsp;경로당과&nbsp;독거&nbsp;장애인&nbsp;포함&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;착용형(웨어)&nbsp;로봇&nbsp;등&nbsp;장애&nbsp;재활기구&nbsp;추가&nbsp;도입&nbsp;지원<br><br>▣&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;∼2030(임기내&nbsp;지속&nbsp;추진)<br>&nbsp;&nbsp;○&nbsp;당선&nbsp;후&nbsp;즉시&nbsp;공약사업&nbsp;추진단을&nbsp;구성하여&nbsp;추진<br><br>▣&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;치매환자&nbsp;기저귀&nbsp;등&nbsp;지원사업(90백만원&nbsp;▷&nbsp;1팩&nbsp;7,500원×600명×1인&nbsp;평균20팩)<br>&nbsp;&nbsp;○&nbsp;최고수준의&nbsp;어르신&nbsp;안심돌봄(의료·돌봄·요양&nbsp;패키지)&nbsp;제공(비예산사업)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사하구&nbsp;내&nbsp;의료·&nbsp;돌봄·&nbsp;요양&nbsp;패키지&nbsp;제공을&nbsp;위한&nbsp;제공기관&nbsp;간&nbsp;연계망&nbsp;구축운영<br>&nbsp;&nbsp;○&nbsp;그냥&nbsp;해드림&nbsp;사업(500백만원&nbsp;추정)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국/시/구비(26년&nbsp;하반기&nbsp;정부시범사업&nbsp;참여&nbsp;추진,&nbsp;미선정시&nbsp;'27년&nbsp;본사업&nbsp;실시)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자제사업으로&nbsp;시행&nbsp;시&nbsp;인건비,&nbsp;재료비,&nbsp;운영비&nbsp;등&nbsp;연500백만원&nbsp;추정<br>&nbsp;&nbsp;○&nbsp;착용형(웨어)로봇&nbsp;장애&nbsp;재활기구&nbsp;추가&nbsp;도입(300백만원,&nbsp;구비or공모사업&nbsp;추진)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	땅의 가치 UP, 삶의 질 향상 '명품 주거도시' 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="땅의 가치 UP, 삶의 질 향상 '명품 주거도시' 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▣&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;재개발사업&nbsp;공공지원&nbsp;강화로&nbsp;신속한&nbsp;사업&nbsp;추진&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;주민참여&nbsp;및&nbsp;갈등&nbsp;최소화로&nbsp;효율적인&nbsp;사업&nbsp;추진&nbsp;지원<br><br>▣&nbsp;이행방안<br>&nbsp;&nbsp;○&nbsp;정비사업&nbsp;코디네이터&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;정비사업&nbsp;원스톱&nbsp;지원센터&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;법정의무교육&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;고지대&nbsp;주민&nbsp;이동&nbsp;편의시설&nbsp;지원<br><br>▣&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;∼2030(임기내&nbsp;지속&nbsp;추진)<br>&nbsp;&nbsp;○&nbsp;당선&nbsp;후&nbsp;즉시&nbsp;공약사업&nbsp;추진단을&nbsp;구성하여&nbsp;추진<br><br>▣&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정비사업코디네이터&nbsp;운영(20백만원,&nbsp;구비,&nbsp;코디네이터&nbsp;활동비&nbsp;실비지급)<br>&nbsp;&nbsp;○&nbsp;정비사업&nbsp;원스톱&nbsp;지원센터&nbsp;운영(비예산)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재개발&nbsp;구역지정·사업시행인가&nbsp;등&nbsp;단계별&nbsp;행정절차&nbsp;원스톱&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;법정의무교육&nbsp;제공(5백만원,&nbsp;교육강사&nbsp;수당&nbsp;등&nbsp;운영비)<br>&nbsp;&nbsp;○&nbsp;고지대&nbsp;주민&nbsp;이동&nbsp;편의시설&nbsp;지원(개소당&nbsp;평균20억원&nbsp;내외)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	산과 강, 바다가 어울리는 친환경 생태도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="산과 강, 바다가 어울리는 친환경 생태도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▣&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;낙동강과&nbsp;바다가&nbsp;만들어낸&nbsp;천혜의&nbsp;자연을&nbsp;사람과&nbsp;자연이&nbsp;어울리는&nbsp;생태도시로&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;일상&nbsp;속&nbsp;걷기·휴식·치유가&nbsp;가능한&nbsp;생활밀착형&nbsp;산림공원&nbsp;조성<br><br>▣&nbsp;이행방안<br>&nbsp;&nbsp;○&nbsp;낙동강&nbsp;하구(을숙도)&nbsp;국가도시공원&nbsp;지정&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;제석골·동매산&nbsp;산림공원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제석골&nbsp;산림공원&nbsp;:&nbsp;계곡물놀이장,&nbsp;하늘전망대,&nbsp;모험놀이장&nbsp;등&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동매산&nbsp;산림공원&nbsp;:&nbsp;산책로,&nbsp;쉼터&nbsp;및&nbsp;체육시설&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;승학산&nbsp;치유의&nbsp;숲&nbsp;도시형&nbsp;힐링허브로&nbsp;발전<br><br>▣&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~2030(임기내&nbsp;지속&nbsp;추진)<br>&nbsp;&nbsp;○&nbsp;당선&nbsp;후&nbsp;즉시&nbsp;공약사업&nbsp;추진단을&nbsp;구성하여&nbsp;추진<br><br>▣&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;낙동강&nbsp;하구&nbsp;국가도시공원&nbsp;지정(부산시&nbsp;등&nbsp;관계기관과&nbsp;협력&nbsp;추진,&nbsp;비예산)<br>&nbsp;&nbsp;○&nbsp;제석골&nbsp;산림공원&nbsp;조성(130억원,&nbsp;구비,&nbsp;특교세&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;동매산&nbsp;산림공원&nbsp;조성(20억원,&nbsp;구비&nbsp;또는&nbsp;공모사업&nbsp;추진)<br>&nbsp;&nbsp;○&nbsp;승학산&nbsp;치유의&nbsp;숲&nbsp;도시형&nbsp;힐링허브로&nbsp;발전(50억원,&nbsp;공모사업&nbsp;추진)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

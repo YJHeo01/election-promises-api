@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;정성환 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	여객선 공영제 시행 및 전 국민 주중 운임 할인</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="여객선 공영제 시행 및 전 국민 주중 운임 할인">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;울릉군의&nbsp;교통·항만&nbsp;인프라를&nbsp;획기적으로&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;군민의&nbsp;이동권과&nbsp;생활&nbsp;편의&nbsp;향상과&nbsp;관광객&nbsp;확대로&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;도로환경&nbsp;조성과&nbsp;물류비&nbsp;절감을&nbsp;통해&nbsp;정주&nbsp;여건을&nbsp;개선하고&nbsp;지속가능한&nbsp;지역&nbsp;발전&nbsp;기반&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;경상북도·해양수산부&nbsp;협의를&nbsp;통한&nbsp;공영제&nbsp;도입&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;공공치원&nbsp;항로&nbsp;지정&nbsp;및&nbsp;운영&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;주중&nbsp;관광객&nbsp;운임&nbsp;할인제&nbsp;도입&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;여객선&nbsp;운영사와&nbsp;협약&nbsp;체결&nbsp;및&nbsp;지원체계&nbsp;마련<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년):&nbsp;제도&nbsp;검토&nbsp;및&nbsp;관계기관&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;중기(3~4년):&nbsp;시범&nbsp;운영&nbsp;및&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;장기(5년&nbsp;이상):&nbsp;공영제&nbsp;정착&nbsp;및&nbsp;상시&nbsp;할인체계&nbsp;구축<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;50%(해양수산부&nbsp;공공항로&nbsp;지원사업)<br>&nbsp;&nbsp;○&nbsp;경상북도비&nbsp;30%&nbsp;및&nbsp;울릉군비&nbsp;20%&nbsp;매칭<br>&nbsp;&nbsp;○&nbsp;공공운영&nbsp;지원사업&nbsp;연계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	지구단위계획 규제 완화 및 불법 건축물 양성화 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="지구단위계획 규제 완화 및 불법 건축물 양성화 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;정주환경&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;개발&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;재산권&nbsp;보호<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;규제특구&nbsp;도시지역&nbsp;특례법&nbsp;적용&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;불합리한&nbsp;건축&nbsp;규제&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;장기&nbsp;미정비&nbsp;건축물&nbsp;실태조사&nbsp;실시<br>&nbsp;&nbsp;○&nbsp;조건부&nbsp;양성화&nbsp;및&nbsp;행정절차&nbsp;간소화&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년):&nbsp;실태조사&nbsp;및&nbsp;제도&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;중기(3~4년):&nbsp;단계별&nbsp;규제&nbsp;완화&nbsp;시행<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;군비&nbsp;20&nbsp;%<br>&nbsp;&nbsp;○&nbsp;도비&nbsp;30&nbsp;%<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;50&nbsp;%&nbsp;<br>&nbsp;&nbsp;(국토교통부&nbsp;도시재생·지역활성화&nbsp;사업&nbsp;연계)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	저동·도동 야시장 개설 및 주차장 확보</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="저동·도동 야시장 개설 및 주차장 확보">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;야간&nbsp;관광&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;매출&nbsp;증대<br>&nbsp;&nbsp;○&nbsp;체류형&nbsp;관광&nbsp;기반&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;상권&nbsp;우선&nbsp;참여&nbsp;방식&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;특산물·먹거리&nbsp;중심&nbsp;야시장&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;공영주차장&nbsp;확충&nbsp;및&nbsp;교통체계&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;문화공연·야간&nbsp;콘텐츠&nbsp;연계&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1년&nbsp;이내):&nbsp;시범&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;중기(2~3년):&nbsp;상설화&nbsp;및&nbsp;확대&nbsp;운영<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;지방비(도비20%,&nbsp;군비10%)<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;50%<br>&nbsp;&nbsp;○&nbsp;민간참여&nbsp;20%<br>&nbsp;&nbsp;(전통시장&nbsp;활성화&nbsp;공모사업&nbsp;연계)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	깃대봉 모노레일 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="깃대봉 모노레일 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;관광&nbsp;접근성&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;체류형&nbsp;관광&nbsp;확대&nbsp;<br>&nbsp;&nbsp;○&nbsp;신규&nbsp;관광명소&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;관광개발&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;민간투자&nbsp;방식(BTO등)&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;전망대·체험시설&nbsp;연계&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;친환경&nbsp;관광&nbsp;인프라&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1년&nbsp;이내):&nbsp;계획안&nbsp;용역<br>&nbsp;&nbsp;○&nbsp;중기∼장기(3~6년):&nbsp;설계·착공·운영<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;민간투자&nbsp;60&nbsp;%<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;20&nbsp;%&nbsp;<br>&nbsp;&nbsp;○&nbsp;치방비(도비10&nbsp;%,&nbsp;군비10&nbsp;%)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	주택 건설 총 1,000호 공급(공공임대 500호·민간분양 500호)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="주택 건설 총 1,000호 공급(공공임대 500호·민간분양 500호)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;주거&nbsp;안정&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;청년·신혼부부&nbsp;정착&nbsp;치원<br>&nbsp;&nbsp;○&nbsp;인구&nbsp;유입&nbsp;기반&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;공공임대주택&nbsp;단계별&nbsp;공급<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;건설사&nbsp;투자&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;정주형&nbsp;주거단지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;기반시설&nbsp;및&nbsp;생활&nbsp;SOC&nbsp;연계&nbsp;개발<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;중기∼장기(3∼8):&nbsp;단계별&nbsp;공급&nbsp;추진<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;LH&nbsp;및&nbsp;공공기관&nbsp;투자&nbsp;40&nbsp;%<br>&nbsp;&nbsp;○&nbsp;민간투자&nbsp;40&nbsp;%<br>&nbsp;&nbsp;○&nbsp;국비·지방비&nbsp;20&nbsp;%</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;고제철 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	지구별 특화단지 조성으로 관광인프라 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="지구별 특화단지 조성으로 관광인프라 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;“양양의&nbsp;천혜&nbsp;자원을&nbsp;활용하여&nbsp;지역에&nbsp;적합한&nbsp;최고의&nbsp;관광인프라를&nbsp;구축하겠습니다.”<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;지구별&nbsp;특색에&nbsp;맞춘&nbsp;차별화된&nbsp;정책&nbsp;시행과&nbsp;복합관광단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;오색지구&nbsp;:&nbsp;오색케이블카&nbsp;착공에&nbsp;맞춰&nbsp;글로벌&nbsp;휴양&nbsp;거점&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;낙산지구&nbsp;:&nbsp;명품&nbsp;문화의&nbsp;거리&nbsp;조성&nbsp;및&nbsp;다양한&nbsp;관광시설&nbsp;유치로&nbsp;브랜드&nbsp;가치&nbsp;제고<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;남&nbsp;대&nbsp;천&nbsp;:&nbsp;자연과&nbsp;문화가&nbsp;공존하는&nbsp;생태관광&nbsp;명소화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동해해변&nbsp;:&nbsp;양양공항과&nbsp;연계한&nbsp;해양레포츠,&nbsp;컨밴션&nbsp;등&nbsp;복합관광단지&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기부터&nbsp;2027년&nbsp;까지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;오색지구&nbsp;:&nbsp;2027년부터<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;낙산지구&nbsp;:&nbsp;2027년부터<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;남&nbsp;대&nbsp;천&nbsp;:&nbsp;2027년부터<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동해해변&nbsp;:&nbsp;2027년부터<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(도비)와&nbsp;군비,&nbsp;군민주로&nbsp;병행하여&nbsp;재원&nbsp;조달<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;오색지구&nbsp;:&nbsp;도비와&nbsp;군비&nbsp;매칭과&nbsp;군민주<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;낙산지구&nbsp;:&nbsp;도비와&nbsp;군비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;남&nbsp;대&nbsp;천&nbsp;:&nbsp;국비(도비)와&nbsp;군비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동해해변&nbsp;:&nbsp;2027년부터</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	어르신 복지 및 의료 서비스 획기적 강화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="어르신 복지 및 의료 서비스 획기적 강화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;“초고령&nbsp;사회에&nbsp;대비하여&nbsp;어르신들의&nbsp;건강하고&nbsp;품위&nbsp;있는&nbsp;노후를&nbsp;보장하겠읍니다.”<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;문화·복지·의료·일자리창출&nbsp;등&nbsp;어르신&nbsp;정주여건&nbsp;개선사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공목욕탕&nbsp;건립&nbsp;:&nbsp;양양형&nbsp;공공&nbsp;목욕탕&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료&nbsp;지원&nbsp;확대&nbsp;:&nbsp;거동이&nbsp;불편한&nbsp;어르신들을&nbsp;위한&nbsp;방문&nbsp;진료&nbsp;및&nbsp;보건소&nbsp;가정의학과&nbsp;인력&nbsp;보강<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노인&nbsp;일자리&nbsp;창출&nbsp;:&nbsp;사회&nbsp;참여형&nbsp;및&nbsp;맞춤형&nbsp;공공일자리&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기부터&nbsp;2027년&nbsp;까지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공목욕탕&nbsp;건립&nbsp;:&nbsp;2027년부터<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료&nbsp;지원&nbsp;확대&nbsp;:&nbsp;2027년부터<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노인&nbsp;일자리&nbsp;창출&nbsp;:&nbsp;2028년부터<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(도비)와&nbsp;군비로&nbsp;병행하여&nbsp;재원&nbsp;조달<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공목욕탕&nbsp;건립&nbsp;:&nbsp;도비와&nbsp;군비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료&nbsp;지원&nbsp;확대&nbsp;:&nbsp;국비(도비)와&nbsp;군비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노인&nbsp;일자리&nbsp;창출&nbsp;:&nbsp;국비(도비)와&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	청년 정착 여건 개선 및 보육 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="청년 정착 여건 개선 및 보육 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;“젊은&nbsp;세대가&nbsp;돌아오고&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;양양을&nbsp;만들겠습니다.”<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;주거&nbsp;환경&nbsp;개선&nbsp;및&nbsp;출산·양육제도&nbsp;강화와&nbsp;지역&nbsp;인재&nbsp;육성&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;주거&nbsp;지원&nbsp;:&nbsp;청년&nbsp;주택&nbsp;공급&nbsp;및&nbsp;정착지원금&nbsp;정책&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출산·양육지원&nbsp;확대&nbsp;:&nbsp;출산&nbsp;장려금&nbsp;인상&nbsp;및&nbsp;공공&nbsp;산후조리원&nbsp;연계서비스&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;인재&nbsp;육성&nbsp;:&nbsp;지역&nbsp;대학&nbsp;및&nbsp;산업체와&nbsp;연계한&nbsp;취업지원&nbsp;프로그램&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기부터&nbsp;2027년&nbsp;까지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;주거&nbsp;지원&nbsp;:&nbsp;2027년부터<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출산·양육지원&nbsp;확대&nbsp;:&nbsp;2027년부터<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;인재&nbsp;육성&nbsp;:&nbsp;2028년부터<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(도비)와&nbsp;군비로&nbsp;병행하여&nbsp;재원&nbsp;조달<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;주거&nbsp;지원&nbsp;:&nbsp;국비(도비)와&nbsp;군비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출산·양육지원&nbsp;확대&nbsp;:&nbsp;국비(도비)와&nbsp;군비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;인재&nbsp;육성&nbsp;:&nbsp;국비(도비)와&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	투명하고 깨끗한 군정 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="투명하고 깨끗한 군정 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;“군민의&nbsp;신뢰를&nbsp;회복하기&nbsp;위해&nbsp;공정하고&nbsp;투명한&nbsp;군정시스템을&nbsp;구축하겠습니다.”<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;의견&nbsp;수렴을&nbsp;통한&nbsp;절차적&nbsp;정당성&nbsp;확보와&nbsp;투명한&nbsp;군정&nbsp;공개로&nbsp;군민&nbsp;중심의&nbsp;군정&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;절차적&nbsp;정당성&nbsp;확보&nbsp;:&nbsp;대규모&nbsp;사업&nbsp;추진&nbsp;시&nbsp;주민&nbsp;의견&nbsp;수렴&nbsp;및&nbsp;환경영향&nbsp;평가의&nbsp;철저한&nbsp;준수<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군정&nbsp;공개&nbsp;확대&nbsp;:&nbsp;주요&nbsp;정책&nbsp;결정&nbsp;과정&nbsp;및&nbsp;예산&nbsp;집행&nbsp;내역의&nbsp;투명한&nbsp;공개<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민원&nbsp;해결&nbsp;중심&nbsp;군정&nbsp;:&nbsp;현장&nbsp;중심의&nbsp;소통으로&nbsp;군민의&nbsp;목소리를&nbsp;군정에&nbsp;즉각&nbsp;반영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기부터<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;절차적&nbsp;정당성&nbsp;확보&nbsp;:&nbsp;2026년&nbsp;하반기부터<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군정&nbsp;공개&nbsp;확대&nbsp;:&nbsp;2026년&nbsp;하반기부터<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민원&nbsp;해결&nbsp;중심&nbsp;군정&nbsp;:&nbsp;2026년&nbsp;하반기부터<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	지역경제 활성화 및 소득 증대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="지역경제 활성화 및 소득 증대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;“관광산업의&nbsp;결실이&nbsp;군민의&nbsp;실질적인&nbsp;소득으로&nbsp;이어지도록&nbsp;하겠습니다.”<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전통시장&nbsp;및&nbsp;골목상권&nbsp;활성화와&nbsp;지역&nbsp;특산물&nbsp;브랜드화로&nbsp;고부가가치화&nbsp;유도와&nbsp;체류형&nbsp;관광콘텐츠&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전통시장&nbsp;및&nbsp;골목상권&nbsp;활성화&nbsp;:&nbsp;지역화폐&nbsp;지원&nbsp;확대&nbsp;및&nbsp;소상공인&nbsp;마케팅지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌&nbsp;소득증대&nbsp;사업&nbsp;추진&nbsp;:&nbsp;농어민&nbsp;수당&nbsp;현실화&nbsp;및&nbsp;고부가가치&nbsp;특산물&nbsp;브랜드화&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체류형&nbsp;관광&nbsp;콘텐츠&nbsp;개발&nbsp;:&nbsp;단순&nbsp;방문형이&nbsp;아닌&nbsp;체류형&nbsp;관광&nbsp;콘텐츠&nbsp;개발로&nbsp;지역내&nbsp;소비&nbsp;촉진&nbsp;유도<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기부터&nbsp;2027년&nbsp;까지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전통시장&nbsp;및&nbsp;골목상권&nbsp;활성화&nbsp;:&nbsp;2027년부터<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌&nbsp;소득증대&nbsp;사업&nbsp;추진&nbsp;:&nbsp;2027년부터<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체류형&nbsp;관광&nbsp;콘텐츠&nbsp;개발&nbsp;:&nbsp;2028년부터<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(도비)와&nbsp;군비로&nbsp;병행하여&nbsp;재원&nbsp;조달<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전통시장&nbsp;및&nbsp;골목상권&nbsp;활성화&nbsp;:&nbsp;국비(도비)와&nbsp;군비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌&nbsp;소득증대&nbsp;사업&nbsp;추진&nbsp;:&nbsp;국비(도비)와&nbsp;군비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체류형&nbsp;관광&nbsp;콘텐츠&nbsp;개발&nbsp;:&nbsp;국비(도비)와&nbsp;군비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박태완 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	중구 미래 100년 경제지도, ‘산학연 클러스터’ 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="중구 미래 100년 경제지도, ‘산학연 클러스터’ 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▣&nbsp;중구&nbsp;미래&nbsp;100년&nbsp;경제지도,&nbsp;‘산학연&nbsp;클러스터’&nbsp;구축&nbsp;<br>&nbsp;&nbsp;■&nbsp;미래&nbsp;신산업&nbsp;거점&nbsp;조성:&nbsp;제2혁신도시(에너지&nbsp;공기업유치)&nbsp;+&nbsp;성안성동지구&nbsp;(35만평&nbsp;스마트시티)&nbsp;+&nbsp;약사장현지구(30만&nbsp;평&nbsp;첨단기술·R&D&nbsp;시설)&nbsp;+&nbsp;탄소중립특구&nbsp;+&nbsp;도심융합특구&nbsp;통합&nbsp;<br>&nbsp;&nbsp;■&nbsp;혁신&nbsp;성장&nbsp;동력&nbsp;확보:&nbsp;첨단기술집약형&nbsp;기업&nbsp;및&nbsp;대학원&nbsp;유치,&nbsp;장현첨단산업&nbsp;단지&nbsp;조기&nbsp;활성화를&nbsp;통한&nbsp;일자리&nbsp;창출<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주거-산업-연구-공공기관이&nbsp;유기적으로&nbsp;결합된&nbsp;산학연&nbsp;클러스터를&nbsp;구축하여&nbsp;시너지를&nbsp;극대화하여&nbsp;중구의&nbsp;미래먹거리&nbsp;확보로&nbsp;지속가능한&nbsp;중구건설<br><br>□&nbsp;이행방법&nbsp;및&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;1단계:&nbsp;기반&nbsp;구축&nbsp;및&nbsp;인허가&nbsp;(2026년&nbsp;~&nbsp;2028년)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;개발계획&nbsp;수립&nbsp;및&nbsp;그린벨트&nbsp;해제&nbsp;절차&nbsp;마무리<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제2혁신도시&nbsp;유치&nbsp;추진위원회&nbsp;구성&nbsp;및&nbsp;부지&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;2단계:&nbsp;부지&nbsp;조성&nbsp;및&nbsp;앵커시설&nbsp;유치&nbsp;(2028년&nbsp;~&nbsp;2030년)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장현첨단산업단지&nbsp;조기&nbsp;완공&nbsp;및&nbsp;기업&nbsp;입주&nbsp;개시(2029년)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;에너지&nbsp;공기업&nbsp;유치&nbsp;확정&nbsp;및&nbsp;공공기관&nbsp;이전&nbsp;착수<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트시티&nbsp;기반&nbsp;인프라&nbsp;공사&nbsp;진행<br>&nbsp;&nbsp;○&nbsp;3단계:&nbsp;클러스터&nbsp;완성&nbsp;및&nbsp;운영&nbsp;활성화&nbsp;(2031년&nbsp;~&nbsp;2032년)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국내외&nbsp;첨단기업&nbsp;본사&nbsp;및&nbsp;대학원&nbsp;연구소&nbsp;입주&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기&nbsp;지정된&nbsp;국토교통부의&nbsp;'첨단산업단지&nbsp;조성&nbsp;사업'&nbsp;및&nbsp;'스마트시티&nbsp;국가&nbsp;시범사업'에&nbsp;대한&nbsp;원활한&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;울산광역시&nbsp;'전략산업&nbsp;육성&nbsp;예산'&nbsp;및&nbsp;'지역균형발전기금'&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;에너지&nbsp;및&nbsp;4차&nbsp;산업혁명&nbsp;관련&nbsp;정부&nbsp;부처&nbsp;공모사업(중기부,&nbsp;산업부&nbsp;등)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	전구민 AI교육실시 및 생활문화프로그램 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="전구민 AI교육실시 및 생활문화프로그램 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▣&nbsp;전구민&nbsp;AI교육<br>&nbsp;&nbsp;-&nbsp;동별&nbsp;빈점포&nbsp;임대후&nbsp;생활문화센터&nbsp;건립하여&nbsp;전구민&nbsp;AI교육,&nbsp;자격증교육,&nbsp;은퇴자교육<br>&nbsp;&nbsp;-&nbsp;생활문화&nbsp;프로그램&nbsp;센터&nbsp;및&nbsp;공유&nbsp;회의실&nbsp;운영(봉사단체&nbsp;등)<br>&nbsp;&nbsp;-&nbsp;문화&nbsp;프로그램&nbsp;공간&nbsp;확충을&nbsp;통한&nbsp;유동&nbsp;인구&nbsp;증대&nbsp;->&nbsp;상권&nbsp;회복&nbsp;지원&nbsp;->지역경제&nbsp;활성화&nbsp;효과<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;동별&nbsp;빈점포를&nbsp;임대하여&nbsp;생활문화센터&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전구민&nbsp;AI교육,&nbsp;자격증교육,&nbsp;은퇴자교육<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활문화&nbsp;프로그램&nbsp;운영&nbsp;및&nbsp;공유&nbsp;회의실&nbsp;운영(봉사단체&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유동&nbsp;인구&nbsp;증대&nbsp;->&nbsp;상권&nbsp;회복&nbsp;지원&nbsp;->지역경제&nbsp;활성화&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;조례&nbsp;재개정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예산확보&nbsp;및&nbsp;공간확보<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;계획수립&nbsp;및&nbsp;조례재개정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년~2028년&nbsp;예산확보&nbsp;및&nbsp;시행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	영남권 최대 ‘중구형 키자니아’ 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="영남권 최대 ‘중구형 키자니아’ 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            “주말마다&nbsp;타지&nbsp;원정은&nbsp;끝!&nbsp;아이가&nbsp;행복한&nbsp;‘유잼&nbsp;중구’가&nbsp;시작됩니다.”&nbsp;<br><br>&nbsp;&nbsp;▣&nbsp;영남권&nbsp;최대&nbsp;‘중구형&nbsp;키자니아’&nbsp;조성&nbsp;<br>&nbsp;&nbsp;■&nbsp;세계적&nbsp;브랜드&nbsp;유치:&nbsp;서울&nbsp;성동구&nbsp;모델을&nbsp;벤치마킹하여&nbsp;‘키자니아’&nbsp;등&nbsp;전문&nbsp;기관과&nbsp;강력한&nbsp;협력&nbsp;<br>&nbsp;&nbsp;■&nbsp;울산형&nbsp;특화&nbsp;체험:&nbsp;자동차·에너지는&nbsp;물론&nbsp;유튜버,&nbsp;AI&nbsp;전문가&nbsp;등&nbsp;미래&nbsp;신산업을&nbsp;직접&nbsp;경험하는&nbsp;‘체험형&nbsp;작은&nbsp;도시’&nbsp;건설&nbsp;<br>&nbsp;&nbsp;■&nbsp;영남권&nbsp;관광&nbsp;거점:&nbsp;전국의&nbsp;가족&nbsp;단위&nbsp;방문객이&nbsp;모여드는&nbsp;‘영남권&nbsp;관광&nbsp;1번지’로&nbsp;도약&nbsp;<br>&nbsp;&nbsp;■&nbsp;중구상권&nbsp;부활:&nbsp;유입된&nbsp;유동&nbsp;인구가&nbsp;소상공인과&nbsp;전통시장에&nbsp;활력을&nbsp;불어&nbsp;넣는&nbsp;강력한&nbsp;경제&nbsp;엔진<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;울산&nbsp;중구에서&nbsp;어린이와&nbsp;청소년의&nbsp;직업체험으로&nbsp;미래&nbsp;설계<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고용노동부(한국잡월드)&nbsp;공모사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;키자니아&nbsp;업무협약&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;계획확정,&nbsp;2027년&nbsp;국비공모,&nbsp;2028년&nbsp;설계,&nbsp;착공,&nbsp;2030년&nbsp;준공<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;키자니아&nbsp;업무협약(MOU),&nbsp;한국잡월드(고용노동부&nbsp;산하)&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	규제철폐로 투명하고 신속한 ‘ 주거정비사업지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="규제철폐로 투명하고 신속한 ‘ 주거정비사업지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ‘규제철폐로&nbsp;중구민의&nbsp;재산은&nbsp;지키고,&nbsp;생활의&nbsp;품격은&nbsp;높이겠습니다!’<br><br>&nbsp;&nbsp;▣&nbsp;투명하고&nbsp;신속한&nbsp;‘주거&nbsp;정비&nbsp;사업’&nbsp;지원<br>&nbsp;&nbsp;■&nbsp;태화지구&nbsp;도심복합개발:&nbsp;명정초&nbsp;일대&nbsp;상업지역&nbsp;상향으로&nbsp;쇼핑·문화·비즈니스&nbsp;복합거점조성&nbsp;지원<br>&nbsp;&nbsp;■&nbsp;다운·태화&nbsp;규제&nbsp;해제로&nbsp;재산권&nbsp;보호:&nbsp;SK사택&nbsp;주변&nbsp;등&nbsp;제2종&nbsp;일반주거지역의&nbsp;지구단위계획으로&nbsp;묶인&nbsp;5층&nbsp;높이제한&nbsp;사슬을&nbsp;끊고&nbsp;프리미엄&nbsp;단지로&nbsp;재탄생<br>&nbsp;&nbsp;■&nbsp;재개발·재건축·주택조합&nbsp;‘실시간&nbsp;정보공개&nbsp;시스템(클라이업)’&nbsp;구축<br>&nbsp;&nbsp;■&nbsp;주택조합&nbsp;전담&nbsp;부서(계)&nbsp;신설:&nbsp;‘주택조합&nbsp;관리위원회’를&nbsp;통해&nbsp;부실조합&nbsp;진단,&nbsp;상담&nbsp;지원<br>&nbsp;&nbsp;■&nbsp;적극&nbsp;행정&nbsp;지원:&nbsp;B-04,&nbsp;우정,&nbsp;태화,&nbsp;학성,&nbsp;학산&nbsp;등&nbsp;주요&nbsp;재개발&nbsp;지역&nbsp;행정절차&nbsp;간소화<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불합리한&nbsp;규제철폐로&nbsp;주민재산권&nbsp;보호<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;태화지구&nbsp;도심복합개발&nbsp;적극행정지원<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;불합리한&nbsp;규제&nbsp;정비&nbsp;및&nbsp;철폐제안,&nbsp;도심복합개발사업&nbsp;입안제안&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년~2028년&nbsp;태화지구&nbsp;도심복합개발&nbsp;사업을&nbsp;울산시에&nbsp;구역지정신청-지정&nbsp;후&nbsp;사업시행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민간개발,&nbsp;구비&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	중구형 ‘365 OK 통합돌봄’ 시행</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="중구형 ‘365 OK 통합돌봄’ 시행">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            “시설,&nbsp;병원이&nbsp;아닌&nbsp;내집에서&nbsp;누구나가&nbsp;필요한&nbsp;돌봄서비스제공!”&nbsp;<br>&nbsp;<br>&nbsp;&nbsp;▣&nbsp;중구형&nbsp;‘365&nbsp;OK&nbsp;통합돌봄’&nbsp;시행&nbsp;<br>‘365&nbsp;OK&nbsp;중구통합돌봄센터’를&nbsp;설립하여&nbsp;서비스&nbsp;일원화하여&nbsp;돌봄&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수요자&nbsp;중심의&nbsp;정교한&nbsp;‘밀착형&nbsp;사례관리’&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일원화된&nbsp;창구에서&nbsp;‘내&nbsp;집&nbsp;중심의&nbsp;통합&nbsp;서비스’를&nbsp;완결<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;노인·장애인·아동&nbsp;누구나&nbsp;도움이&nbsp;필요할&nbsp;때&nbsp;즉시&nbsp;의료·요양·주거·동행&nbsp;등&nbsp;맞춤형&nbsp;서비스&nbsp;제공하여&nbsp;돌봄이&nbsp;필요한&nbsp;사람이&nbsp;시설이&nbsp;아닌&nbsp;‘살던&nbsp;곳’에서&nbsp;안전하고&nbsp;존엄하게&nbsp;생활하도록&nbsp;함.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중구형&nbsp;통합돌봄&nbsp;계획재수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;365&nbsp;OK&nbsp;중구통합돌봄센터’를&nbsp;설립&nbsp;후&nbsp;시행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;하반기&nbsp;계획&nbsp;재수립<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년&nbsp;365&nbsp;OK&nbsp;중구통합돌봄센터’&nbsp;설립<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

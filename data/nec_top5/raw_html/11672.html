@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박시선 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	규제합리화혁신도시 여주</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="규제합리화혁신도시 여주">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;여주시&nbsp;수자원&nbsp;보호&nbsp;공익적&nbsp;가치를&nbsp;경제적&nbsp;보상·규제&nbsp;완화로&nbsp;환원받아&nbsp;여주&nbsp;도약&nbsp;토대&nbsp;마련<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;사업계획<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;여주시&nbsp;규제피해&nbsp;실태조사&nbsp;및&nbsp;보상근거&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;「수자원상생권」제도화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;여주형&nbsp;수질보전&nbsp;협약마을&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;수질부하&nbsp;저감형&nbsp;스마트농업·청년농&nbsp;창업단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;생태관광·로컬푸드·신재생에너지&nbsp;연계&nbsp;특구&nbsp;추진<br><br>□&nbsp;이행절차&nbsp;및&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;시장&nbsp;직속&nbsp;「규제합리화혁신도시&nbsp;추진단」설치<br>&nbsp;&nbsp;○&nbsp;여주시,&nbsp;환경부,&nbsp;경기도,&nbsp;한강유역환경청,&nbsp;한강수계관리위원회&nbsp;,&nbsp;농민단체,&nbsp;청년농,&nbsp;시민단체,&nbsp;전문가가&nbsp;참여하는&nbsp;「민관정책협의체」구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;1년차&nbsp;:&nbsp;규제피해&nbsp;실태조사,&nbsp;시범마을&nbsp;선정,&nbsp;중앙정부&nbsp;건의안&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;2년차&nbsp;:&nbsp;수질보전&nbsp;협약마을,&nbsp;청년&nbsp;스마트농업&nbsp;시범단지,&nbsp;로컬푸드&nbsp;브랜드&nbsp;사업&nbsp;착수<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;3~4년차&nbsp;:&nbsp;생태관광·친환경농업·신재생에너지&nbsp;연계&nbsp;특구&nbsp;확장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;임기&nbsp;내&nbsp;:&nbsp;여주형&nbsp;수자원상생권&nbsp;제도화&nbsp;및&nbsp;국가·도비&nbsp;지원사업&nbsp;상시&nbsp;확보&nbsp;체계&nbsp;구축<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;국·도·시비,&nbsp;한강수계기금·상생협력기금&nbsp;확대&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;한강수계관리기금&nbsp;주민지원사업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;환경부&nbsp;수질개선·비점오염&nbsp;저감사업&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;농립축산식품부&nbsp;스마트농업·청년농&nbsp;지원사업&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;중소벤처기업부&nbsp;로컬크리에이터·마을기업·청년창업&nbsp;지원사업&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;문화체육관광부&nbsp;생태관광·지역관광개발사업&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;경기도&nbsp;특별조정교부금&nbsp;및&nbsp;균형발전사업&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;여주시&nbsp;자체예산&nbsp;매칭을&nbsp;통한&nbsp;선도사업&nbsp;우선&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	청년특별시 여주</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="청년특별시 여주">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청년과&nbsp;함께&nbsp;여주의&nbsp;미래를&nbsp;만들고&nbsp;인구소멸지역&nbsp;탈피<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;사업계획<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학(學)&nbsp;:&nbsp;여주형&nbsp;등록금책임제<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이(移)&nbsp;:&nbsp;여주형&nbsp;일자리책임제<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정(定)&nbsp;:&nbsp;여주형&nbsp;주거책임제<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;직(直)&nbsp;:&nbsp;청년정책담당관&nbsp;청년직선제<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;권(權)&nbsp;:&nbsp;시장&nbsp;직속&nbsp;청년권익센터·청년119&nbsp;설치<br><br>□&nbsp;이행절차&nbsp;및&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;이행절차<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업계획&nbsp;수립→예산확보→사업&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;7월부터<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;국·도·시비,&nbsp;민간&nbsp;매칭&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;청년사업&nbsp;통폐합&nbsp;및&nbsp;재구조화&nbsp;병행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국토교통부&nbsp;지역&nbsp;제안형&nbsp;공공임대주택&nbsp;공모<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고향사랑기부금(목적사업)&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	세종한글문화산업 클러스터 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="세종한글문화산업 클러스터 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;세종대왕과&nbsp;한글을&nbsp;여주의&nbsp;미래성장동력으로&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;사업계획<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한글수도&nbsp;여주&nbsp;2030&nbsp;마스터플랜&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;세종대왕릉&nbsp;연계&nbsp;세종한글문화산업&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한글수도&nbsp;인증상품&nbsp;100선&nbsp;발굴<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여주&nbsp;한글수도&nbsp;주간&nbsp;개최<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;세종한글캠프&nbsp;운영<br><br>□&nbsp;이행절차&nbsp;및&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;:&nbsp;2026년&nbsp;하반기,&nbsp;비전&nbsp;선포&nbsp;및&nbsp;시범&nbsp;사업&nbsp;착수<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한글수도&nbsp;여주&nbsp;프로젝트의&nbsp;공식&nbsp;비전&nbsp;제시<br>&nbsp;&nbsp;○&nbsp;2단계&nbsp;:&nbsp;2027~2028년,&nbsp;클러스터&nbsp;형성&nbsp;및&nbsp;관광상품화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한글문화산업&nbsp;클러스터&nbsp;기본구조&nbsp;형성<br>&nbsp;&nbsp;○&nbsp;3단계&nbsp;:&nbsp;2029~2023년,&nbsp;산업화·브랜드화&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한글수도&nbsp;여주의&nbsp;전국적&nbsp;브랜드화<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;국·도·시비,&nbsp;민간&nbsp;협력&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여주시&nbsp;자체예산&nbsp;매칭을&nbsp;통한&nbsp;선도사업&nbsp;우선&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화체육관광부&nbsp;한글문화&nbsp;관련&nbsp;사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전통문화·공예·디자인&nbsp;지원사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경기도&nbsp;문화관광&nbsp;활성화&nbsp;사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경기&nbsp;공예·디자인&nbsp;상품화&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;후원&nbsp;및&nbsp;ESG&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학·전문기관&nbsp;협약</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	가남산업단지 연계 가남역세권 개발 조기추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="가남산업단지 연계 가남역세권 개발 조기추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;가남역&nbsp;중심&nbsp;산업·주거·일자리가&nbsp;함께&nbsp;성장하는&nbsp;자족도시&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;사업계획<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;가남역<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업단지&nbsp;전용&nbsp;순환&nbsp;셔틀버스&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;가남역&nbsp;앞&nbsp;청년·근로자&nbsp;주거단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;가남산단&nbsp;스마트산업단지&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;가남역세권&nbsp;복합&nbsp;상업·창업&nbsp;허브&nbsp;조성,&nbsp;15분&nbsp;생활권&nbsp;인프라&nbsp;구축<br><br>□&nbsp;이행절차&nbsp;및&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;구역&nbsp;지정&nbsp;:&nbsp;2026년&nbsp;하반기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시개발구역&nbsp;공식&nbsp;지정고시,&nbsp;주민설명회&nbsp;완료,&nbsp;토지주&nbsp;동의&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;개발계획&nbsp;인가&nbsp;:&nbsp;2027년&nbsp;상반기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;개발계획&nbsp;및&nbsp;실시계획&nbsp;인가,&nbsp;경기도&nbsp;협의&nbsp;완료<br>&nbsp;&nbsp;○&nbsp;기반시설&nbsp;착공&nbsp;:&nbsp;2027년&nbsp;하반기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;환지&nbsp;계획&nbsp;획정,&nbsp;기반시설(상하수도·도로·전기)&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;1차&nbsp;주거&nbsp;공급&nbsp;:&nbsp;2028~2029년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공동주택&nbsp;1,000세대&nbsp;이상&nbsp;1차&nbsp;공급,&nbsp;산단&nbsp;근로자&nbsp;우선&nbsp;분양<br>&nbsp;&nbsp;○&nbsp;완성&nbsp;:&nbsp;2030년~<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;총&nbsp;2,700~3,500세대&nbsp;완성,&nbsp;7,500~9,600명&nbsp;인구&nbsp;유입&nbsp;달성<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;국·도·시비,&nbsp;민간&nbsp;투자&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	남한강 수변 국가정원 지정 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="남한강 수변 국가정원 지정 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;남한강을&nbsp;여주의&nbsp;생태관광과&nbsp;치유관광&nbsp;브랜드로&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;사업계획<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강천섬~이포보~세종대왕릉&nbsp;수변축&nbsp;국가정원&nbsp;지정&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수변&nbsp;산책로·안내판·편의시설&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생태관광·치유관광&nbsp;전국적&nbsp;브랜드화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산림청&nbsp;국가정원&nbsp;조성&nbsp;지원사업&nbsp;국비&nbsp;확보<br><br>□&nbsp;이행절차&nbsp;및&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;이행절차<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;타당성&nbsp;용역&nbsp;및&nbsp;지정&nbsp;신청&nbsp;준비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기초&nbsp;인프라&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;:&nbsp;지정&nbsp;신청·타당성&nbsp;용역&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산림청&nbsp;국가정원&nbsp;조성&nbsp;지원사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가정원&nbsp;지정&nbsp;확정시&nbsp;국비&nbsp;비중&nbsp;70%&nbsp;이상으로&nbsp;확대</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

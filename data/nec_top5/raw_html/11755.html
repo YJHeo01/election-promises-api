@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김경호 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	서울 30분대 교통혁신과 광역도로망 확충</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="서울 30분대 교통혁신과 광역도로망 확충">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;서울&nbsp;접근성을&nbsp;획기적으로&nbsp;높이고&nbsp;생활권&nbsp;내&nbsp;이동&nbsp;불편을&nbsp;줄여&nbsp;군민의&nbsp;정주&nbsp;만족도를&nbsp;높임<br>&nbsp;&nbsp;○&nbsp;읍·면&nbsp;간&nbsp;생활교통과&nbsp;광역교통을&nbsp;함께&nbsp;개선하여&nbsp;어디에&nbsp;살든&nbsp;불편하지&nbsp;않은&nbsp;가평&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;서울~양평고속도로&nbsp;가평읍&nbsp;연장&nbsp;추진으로&nbsp;서울&nbsp;30분대&nbsp;생활권&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;GTX-B&nbsp;노선&nbsp;가평&nbsp;연장을&nbsp;국가철도망&nbsp;기본계획에&nbsp;반영하고,&nbsp;군비&nbsp;부담이&nbsp;아닌&nbsp;국비&nbsp;추진&nbsp;방식으로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;제2경춘국도&nbsp;덕현리&nbsp;IC&nbsp;개설&nbsp;및&nbsp;상색구간&nbsp;교량화&nbsp;추진,&nbsp;37번&nbsp;국도&nbsp;호명산&nbsp;터널&nbsp;개설,&nbsp;국지도&nbsp;86호선&nbsp;홍천&nbsp;동막~위곡리&nbsp;구간&nbsp;널미재&nbsp;터널&nbsp;조기&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;광역버스&nbsp;증설&nbsp;및&nbsp;가평역·청평역&nbsp;환승체계&nbsp;개선과&nbsp;수요응답형(DRT)&nbsp;공공&nbsp;교통&nbsp;확대,&nbsp;교통약자&nbsp;이동지원&nbsp;강화로&nbsp;군민&nbsp;중심&nbsp;교통체계&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;생활교통&nbsp;개선은&nbsp;임기&nbsp;초부터&nbsp;우선&nbsp;추진,&nbsp;광역교통망은&nbsp;국가계획&nbsp;반영과&nbsp;병행&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국토교통부&nbsp;교통·도로·철도&nbsp;인프라&nbsp;관련&nbsp;국비사업&nbsp;및&nbsp;국가계획&nbsp;반영을&nbsp;통한&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;국토교통부&nbsp;지역개발&nbsp;공모사업,&nbsp;광역교통&nbsp;개선사업,&nbsp;도로망&nbsp;확충사업과&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;행정안전부&nbsp;특별교부세,&nbsp;경기도&nbsp;특별조정교부금,&nbsp;도비&nbsp;지원사업과&nbsp;군비&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;생활도로·보행환경·환승체계&nbsp;개선&nbsp;등&nbsp;생활교통&nbsp;사업은&nbsp;특별교부세&nbsp;및&nbsp;도비&nbsp;보조사업&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	사계절 체류형 관광도시 가평 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="사계절 체류형 관광도시 가평 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;한&nbsp;철&nbsp;스쳐가는&nbsp;관광에서&nbsp;사계절&nbsp;머무는&nbsp;관광으로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;관광객&nbsp;유입이&nbsp;군민&nbsp;소득으로&nbsp;이어지는&nbsp;체류형&nbsp;관광&nbsp;기반&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청평역-호명산-호명호수-고성리-자라섬을&nbsp;연결하는&nbsp;체류형&nbsp;관광벨트&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;자라섬&nbsp;국가정원&nbsp;추진으로&nbsp;가평&nbsp;대표&nbsp;관광&nbsp;거점&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;운악산·유명산·용소폭포·북한강&nbsp;수변권역을&nbsp;연계한&nbsp;자연·치유·레저&nbsp;관광&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;루미나&nbsp;나이트&nbsp;워크&nbsp;등&nbsp;야간관광,&nbsp;빙벽축제·얼음낚시·산천어축제&nbsp;등&nbsp;겨울관광&nbsp;콘텐츠&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;반려동물&nbsp;동반&nbsp;관광,&nbsp;수상레저·청소년&nbsp;해양체험,&nbsp;펜션·캠핑장&nbsp;연계&nbsp;숙박관광으로&nbsp;체류시간&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;관광지와&nbsp;지역상권,&nbsp;전통시장,&nbsp;농특산물&nbsp;판매장을&nbsp;연계하여&nbsp;관광소비가&nbsp;지역소득으로&nbsp;이어지는&nbsp;구조&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;관광패스·투어패스&nbsp;도입으로&nbsp;주요&nbsp;관광지,&nbsp;숙박,&nbsp;음식점,&nbsp;체험시설을&nbsp;연계한&nbsp;통합&nbsp;관광체계&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;권역별&nbsp;선도사업부터&nbsp;우선&nbsp;착수&nbsp;후&nbsp;연차적으로&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;문화체육관광부&nbsp;관광기금,&nbsp;관광콘텐츠·야간관광&nbsp;공모사업,&nbsp;경기도&nbsp;관광&nbsp;지원&nbsp;사업&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;지방소멸대응기금,&nbsp;생활인구&nbsp;확대&nbsp;사업,&nbsp;체류형&nbsp;관광&nbsp;활성화&nbsp;사업과&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;환경부&nbsp;탄소중립·생태&nbsp;기금,&nbsp;생태관광&nbsp;및&nbsp;수변환경&nbsp;개선사업&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;민간투자,&nbsp;지역&nbsp;관광사업자&nbsp;협력,&nbsp;공공·민간&nbsp;협력사업을&nbsp;통한&nbsp;사업별&nbsp;재원&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	돈이 돌고 사람이 머무는 지역순환경제 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="돈이 돌고 사람이 머무는 지역순환경제 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;관광&nbsp;소비가&nbsp;지역상권과&nbsp;주민소득으로&nbsp;이어지는&nbsp;순환경제&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;소상공인·전통시장·농업이&nbsp;함께&nbsp;살아나는&nbsp;지역경제&nbsp;기반&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;관광패스·투어패스와&nbsp;지역화폐&nbsp;페이백&nbsp;제도를&nbsp;연계하여&nbsp;관광객&nbsp;소비가&nbsp;지역상권으로&nbsp;이어지는&nbsp;구조&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;골목형상점가&nbsp;확대,&nbsp;공영주차장&nbsp;확충,&nbsp;온누리상품권·지역화폐&nbsp;활성화로&nbsp;상권&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;전통시장&nbsp;재정비,&nbsp;청년&nbsp;공방·창업공간&nbsp;조성,&nbsp;디지털&nbsp;판로&nbsp;확대,&nbsp;대표&nbsp;먹거리&nbsp;개발&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;군&nbsp;발주사업의&nbsp;지역업체&nbsp;우선&nbsp;참여를&nbsp;확대하고&nbsp;장비대금&nbsp;체불방지&nbsp;등&nbsp;공정한&nbsp;거래&nbsp;환경&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;농민은&nbsp;생산에&nbsp;전념하고,&nbsp;가평군은&nbsp;유통·판로를&nbsp;지원하는&nbsp;농산물&nbsp;유통센터&nbsp;설치,&nbsp;공공형&nbsp;영농대행단&nbsp;운영,&nbsp;청년농업인&nbsp;정착지원으로&nbsp;농업경제&nbsp;강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;지역화폐·상권&nbsp;활성화&nbsp;사업은&nbsp;임기&nbsp;초부터&nbsp;우선&nbsp;시행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;중소벤처기업부&nbsp;지역창업&nbsp;지원사업,&nbsp;소상공인시장진흥공단,&nbsp;경기도&nbsp;상권&nbsp;활성화&nbsp;사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;농림축산식품부&nbsp;농촌협약·농촌공간정비,&nbsp;스마트농업,&nbsp;청년농&nbsp;육성사업&nbsp;및&nbsp;군비&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;골목형상점가&nbsp;확대,&nbsp;전통시장&nbsp;재정비,&nbsp;지역화폐&nbsp;활성화&nbsp;사업은&nbsp;중소벤처기업&nbsp;부·경기도&nbsp;지원사업&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;농산물&nbsp;유통센터,&nbsp;공공형&nbsp;영농대행단,&nbsp;청년농업인&nbsp;정착지원은&nbsp;농림축산식품부&nbsp;공모사업과&nbsp;연계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	아이부터 어르신까지 함께 돌보는 복지·의료 안심가평</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="아이부터 어르신까지 함께 돌보는 복지·의료 안심가평">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;출산·양육·돌봄·의료&nbsp;공백을&nbsp;줄여&nbsp;군민&nbsp;누구나&nbsp;안심하고&nbsp;살&nbsp;수&nbsp;있는&nbsp;가평&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;어르신과&nbsp;장애인,&nbsp;의료취약지역&nbsp;주민까지&nbsp;촘촘히&nbsp;돌보는&nbsp;통합복지&nbsp;체계&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;출산지원금,&nbsp;공공산후조리&nbsp;지원,&nbsp;산모&nbsp;건강관리,&nbsp;초등&nbsp;돌봄·방과&nbsp;후·긴급돌봄&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;맞벌이·한부모·다문화가정&nbsp;지원과&nbsp;경력단절&nbsp;여성&nbsp;재취업&nbsp;지원으로&nbsp;생활밀착형&nbsp;복지&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;어르신·장애인&nbsp;통합돌봄체계&nbsp;구축,&nbsp;경로당&nbsp;운영비&nbsp;현실화,&nbsp;경로당&nbsp;전용&nbsp;이동&nbsp;지원&nbsp;버스&nbsp;운행,&nbsp;건강·여가&nbsp;프로그램&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;치매&nbsp;조기검진,&nbsp;방문&nbsp;건강관리,&nbsp;스마트&nbsp;안부&nbsp;확인&nbsp;서비스&nbsp;확대로&nbsp;어르신&nbsp;돌봄&nbsp;사각지대&nbsp;해소&nbsp;및&nbsp;노후&nbsp;돌봄&nbsp;체계&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;보건진료소&nbsp;확대,&nbsp;찾아가는&nbsp;마을주간호사&nbsp;제도&nbsp;도입,&nbsp;공유병원·원격협진·응급&nbsp;이송체계&nbsp;강화로&nbsp;지역의료&nbsp;공백&nbsp;축소<br>&nbsp;&nbsp;○&nbsp;의료복지사회적협동조합&nbsp;설립&nbsp;지원을&nbsp;통한&nbsp;예방의학&nbsp;중심&nbsp;지역의료체계&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;돌봄·보건&nbsp;서비스는&nbsp;임기&nbsp;초부터&nbsp;우선&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;보건복지부·여성가족부·교육부·경기도&nbsp;복지·돌봄·보건의료&nbsp;지원사업과&nbsp;군비&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;보건복지부&nbsp;공공보건&nbsp;공모사업,&nbsp;지역사회&nbsp;통합돌봄&nbsp;사업,&nbsp;치매관리&nbsp;사업&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;초등돌봄·방과후·긴급돌봄&nbsp;사업은&nbsp;교육부·여성가족부·경기도&nbsp;돌봄&nbsp;지원사업과&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;보건·돌봄&nbsp;시설&nbsp;개선,&nbsp;이동&nbsp;편의,&nbsp;응급&nbsp;대응&nbsp;인프라는&nbsp;특별교부세·특별조정&nbsp;교부금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	청년이 정착하고 미래인재가 성장하는 교육·청년정책 혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="청년이 정착하고 미래인재가 성장하는 교육·청년정책 혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청년이&nbsp;떠나지&nbsp;않고&nbsp;정착하는&nbsp;가평,&nbsp;아이들이&nbsp;지역에서&nbsp;미래를&nbsp;준비하는&nbsp;가평&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;교육·주거·일자리·문화가&nbsp;연결된&nbsp;청년&nbsp;성장&nbsp;생태계&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;초·중·고&nbsp;교육환경&nbsp;개선과&nbsp;AI·디지털&nbsp;특화&nbsp;교육체계&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;청소년&nbsp;정신건강·상담·치유&nbsp;지원과&nbsp;지역맞춤형&nbsp;교육&nbsp;프로그램&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;공공임대,&nbsp;신혼부부&nbsp;주거지원,&nbsp;청년&nbsp;창업공간·공유오피스·공동작업장&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;취업·창업·주거를&nbsp;연계한&nbsp;청년&nbsp;지역정착&nbsp;패키지와&nbsp;청년마을&nbsp;조성사업을&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;농업인&nbsp;정착지원과&nbsp;귀농·생활안정&nbsp;지원으로&nbsp;지역에&nbsp;뿌리내리는&nbsp;청년&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;관내&nbsp;중·고교&nbsp;진학·입시&nbsp;컨설팅&nbsp;지원&nbsp;확대로&nbsp;지역&nbsp;학생의&nbsp;진로·진학&nbsp;역량&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;초·중학교&nbsp;수학여행비&nbsp;지원과&nbsp;폐교시설&nbsp;활용&nbsp;돌봄·교육공간&nbsp;조성으로&nbsp;교육&nbsp;복지&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;주거·창업지원&nbsp;사업은&nbsp;임기&nbsp;초부터&nbsp;우선&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;교육부·고용노동부·농림축산식품부·경기도&nbsp;청년정책&nbsp;재원과&nbsp;군비&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;중앙부처&nbsp;공모사업,&nbsp;지방소멸대응기금,&nbsp;공공시설&nbsp;활용을&nbsp;통한&nbsp;효율적&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;창업공간·공유오피스·공동작업장&nbsp;조성은&nbsp;중소벤처기업부&nbsp;지역창업&nbsp;지원&nbsp;사업과&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;주거·정착공간&nbsp;조성은&nbsp;국토교통부&nbsp;지역개발&nbsp;공모사업,&nbsp;지역활력타운,&nbsp;공공임대주택&nbsp;관련&nbsp;사업&nbsp;활용</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

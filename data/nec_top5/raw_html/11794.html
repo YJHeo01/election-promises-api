@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;한득수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	임실형 농촌기본소득 프로젝트 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="임실형 농촌기본소득 프로젝트 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농촌기본소득의&nbsp;현실화:&nbsp;군민&nbsp;1인당&nbsp;연&nbsp;200만&nbsp;원의&nbsp;실질&nbsp;소득&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;공유자산의&nbsp;수익화:&nbsp;임실의&nbsp;햇빛,&nbsp;산림자원을&nbsp;군민의&nbsp;‘공유재산’으로&nbsp;전환하여&nbsp;직접&nbsp;소득으로&nbsp;연결<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;&nbsp;에너지·산림&nbsp;기반의&nbsp;‘자산배당형’&nbsp;기본소득&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공&nbsp;ESS(에너지저장장치)&nbsp;뱅크&nbsp;구축:&nbsp;한전과&nbsp;협력하여&nbsp;임실&nbsp;내&nbsp;재생에너지&nbsp;손실을&nbsp;제로화하고,&nbsp;판매&nbsp;수익을&nbsp;‘햇빛연금’&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;선도&nbsp;산림경영단지&nbsp;유치&nbsp;및&nbsp;분수림&nbsp;계약:&nbsp;국비&nbsp;지원을&nbsp;통해&nbsp;산림&nbsp;경제&nbsp;토대를&nbsp;구축하고,&nbsp;산림청과의&nbsp;분수림&nbsp;계약으로&nbsp;국유림&nbsp;수익의&nbsp;90%를&nbsp;주민에게&nbsp;‘나무연금’으로&nbsp;지급<br>&nbsp;&nbsp;○&nbsp;대한민국&nbsp;제1호&nbsp;‘기본사회&nbsp;추진&nbsp;특구’&nbsp;지정&nbsp;및&nbsp;시범사업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부&nbsp;농어촌기본소득&nbsp;시범사업(2026년)&nbsp;유치:&nbsp;기본소득(월&nbsp;15만&nbsp;원/연&nbsp;180만&nbsp;원)에&nbsp;햇빛·나무연금을&nbsp;결합한&nbsp;패키지형&nbsp;모델&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;대통령&nbsp;직속&nbsp;‘기본사회위원회’와&nbsp;긴밀한&nbsp;협력:&nbsp;임실을&nbsp;국가&nbsp;차원의&nbsp;기본사회&nbsp;모델&nbsp;거점으로&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;임실&nbsp;AI&nbsp;유가공&nbsp;단지&nbsp;조성을&nbsp;통한&nbsp;수익&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-‘유청(Whey)’의&nbsp;고부가가치&nbsp;산업화:&nbsp;버려지는&nbsp;유청을&nbsp;양돈&nbsp;사료,&nbsp;단백질&nbsp;보충제,&nbsp;코스메틱&nbsp;등으로&nbsp;가공하여&nbsp;지역&nbsp;경제&nbsp;수익&nbsp;극대화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년:&nbsp;정부&nbsp;시범사업&nbsp;선정&nbsp;및&nbsp;공공&nbsp;ESS&nbsp;뱅크·선도&nbsp;산림경영단지&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;2027년:&nbsp;AI&nbsp;유가공&nbsp;단지&nbsp;완공&nbsp;및&nbsp;유청&nbsp;기반&nbsp;제품&nbsp;양산&nbsp;시작<br>&nbsp;&nbsp;○&nbsp;2028년:&nbsp;군민&nbsp;1인당&nbsp;연&nbsp;200만&nbsp;원&nbsp;농촌기본소득&nbsp;지급&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총&nbsp;소요&nbsp;예산:&nbsp;약&nbsp;450억&nbsp;원&nbsp;(국비&nbsp;40%,&nbsp;도비&nbsp;30%,&nbsp;군비&nbsp;30%)<br>&nbsp;&nbsp;○&nbsp;군비&nbsp;부담분(135억)&nbsp;확보&nbsp;방안:<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임실군청&nbsp;예산&nbsp;재구조화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공&nbsp;ESS&nbsp;뱅크를&nbsp;통한&nbsp;에너지&nbsp;판매&nbsp;수익&nbsp;및&nbsp;산림&nbsp;수익금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	365일 농가소득 안정실현, 월급받는 농민시대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="365일 농가소득 안정실현, 월급받는 농민시대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농업&nbsp;예산&nbsp;비중&nbsp;25%&nbsp;달성&nbsp;및&nbsp;자원순환형&nbsp;농업모델&nbsp;구축:.&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;스마트팜&nbsp;조성&nbsp;등&nbsp;고수익을&nbsp;올릴&nbsp;수&nbsp;있는&nbsp;농업&nbsp;환경&nbsp;조성<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;농업&nbsp;예산&nbsp;전략적&nbsp;편성&nbsp;및&nbsp;구조조정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일반회계&nbsp;증가분의&nbsp;일정&nbsp;비율을&nbsp;농업예산에&nbsp;우선&nbsp;배정하는&nbsp;정책&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;선심성·전시성&nbsp;행사&nbsp;및&nbsp;중복&nbsp;사업을&nbsp;전면&nbsp;재검토하여&nbsp;‘농업예산&nbsp;전환&nbsp;재원’&nbsp;확보&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;‘자원순환형농업’시스템&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;-&nbsp;축산분뇨&nbsp;자원화:&nbsp;광역유기질비료&nbsp;생산시설&nbsp;현대화&nbsp;및&nbsp;액체비료&nbsp;유통&nbsp;센터&nbsp;활성화.<br>&nbsp;&nbsp;&nbsp;-&nbsp;산림&nbsp;바이오매스&nbsp;활용:&nbsp;버려지는&nbsp;산림&nbsp;부산물을&nbsp;활용한&nbsp;연료화&nbsp;또는&nbsp;토양&nbsp;개량제&nbsp;개발.<br>&nbsp;&nbsp;&nbsp;-&nbsp;경종-축산&nbsp;연계:&nbsp;축산&nbsp;농가와&nbsp;경종(재배)&nbsp;농가를&nbsp;잇는&nbsp;협력&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;미래농업&nbsp;기반&nbsp;조성<br>&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;농업인&nbsp;육성&nbsp;및&nbsp;스마트팜&nbsp;보급&nbsp;확대를&nbsp;통해&nbsp;예산&nbsp;투입&nbsp;대비&nbsp;생산&nbsp;효율&nbsp;극대화.<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단계(도입기):&nbsp;관련&nbsp;조례&nbsp;정비&nbsp;및&nbsp;자원순환&nbsp;시설&nbsp;확충&nbsp;(임기&nbsp;1~2년차)<br>&nbsp;&nbsp;○&nbsp;2단계(확산기):&nbsp;농업&nbsp;예산&nbsp;비중&nbsp;단계적&nbsp;상향(매년&nbsp;1~2%p↑)&nbsp;및&nbsp;순환&nbsp;모델&nbsp;시범&nbsp;운영&nbsp;(임기&nbsp;3년차)<br>&nbsp;&nbsp;○&nbsp;3단계(정착기):&nbsp;예산&nbsp;비중&nbsp;25%&nbsp;달성&nbsp;및&nbsp;자원순환&nbsp;농업&nbsp;브랜드화&nbsp;(임기&nbsp;4년차~지속)&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지자체&nbsp;일반회계&nbsp;중&nbsp;가용&nbsp;재원을&nbsp;농업&nbsp;분야에&nbsp;우선&nbsp;배정&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;불요불급한&nbsp;토목·전시성&nbsp;행정&nbsp;예산&nbsp;구조조정을&nbsp;통해&nbsp;확보된&nbsp;재원을&nbsp;농업예산으로&nbsp;전환</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	임실형 어르신 일자리 통합 플랫폼</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="임실형 어르신 일자리 통합 플랫폼">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;보편적&nbsp;‘일할&nbsp;권리’&nbsp;보장&nbsp;및&nbsp;노인&nbsp;빈곤&nbsp;완화<br>&nbsp;&nbsp;○&nbsp;사회적&nbsp;고립&nbsp;방지&nbsp;및&nbsp;삶의&nbsp;질&nbsp;향상&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;일본의&nbsp;성공&nbsp;모델&nbsp;벤치마킹&nbsp;및&nbsp;임실형&nbsp;플랫폼&nbsp;제작<br>&nbsp;&nbsp;&nbsp;-&nbsp;초단기&nbsp;매칭:&nbsp;이력서와&nbsp;면접&nbsp;없이&nbsp;즉시&nbsp;투입&nbsp;가능한&nbsp;단순&nbsp;업무(물품&nbsp;정리,&nbsp;청소,&nbsp;분류&nbsp;등)&nbsp;시스템&nbsp;도입<br>&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;밀착형&nbsp;매칭:&nbsp;지자체&nbsp;연계를&nbsp;통해&nbsp;건강&nbsp;상태와&nbsp;경험을&nbsp;고려한&nbsp;봉사&nbsp;성격의&nbsp;일자리&nbsp;발굴<br>&nbsp;&nbsp;&nbsp;-&nbsp;숙련형&nbsp;매칭:&nbsp;전문&nbsp;경력을&nbsp;가진&nbsp;은퇴자를&nbsp;위한&nbsp;사무&nbsp;보조,&nbsp;조사&nbsp;업무&nbsp;등&nbsp;숙련도&nbsp;기반&nbsp;일자리&nbsp;분류<br>&nbsp;&nbsp;○&nbsp;민·관&nbsp;협업&nbsp;거버넌스&nbsp;구축<br>&nbsp;&nbsp;&nbsp;-&nbsp;관내&nbsp;사업체(슈퍼마켓,&nbsp;숙박시설,&nbsp;농가&nbsp;등)와의&nbsp;업무협약(MOU)을&nbsp;통해&nbsp;상시&nbsp;일자리&nbsp;확보<br>&nbsp;&nbsp;&nbsp;-&nbsp;디지털&nbsp;기기&nbsp;사용이&nbsp;서툰&nbsp;어르신들을&nbsp;위한&nbsp;전담&nbsp;매니저&nbsp;배치&nbsp;및&nbsp;교육&nbsp;지원<br><br>&nbsp;□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기&nbsp;(1년차):&nbsp;플랫폼&nbsp;시스템&nbsp;설계&nbsp;및&nbsp;관내&nbsp;구인&nbsp;수요&nbsp;일제&nbsp;조사,&nbsp;시범&nbsp;운영(1~2개&nbsp;읍·면)<br>&nbsp;&nbsp;○&nbsp;중기&nbsp;(2~3년차):&nbsp;임실군&nbsp;전역&nbsp;확대&nbsp;운영,&nbsp;일본&nbsp;플랫폼과의&nbsp;기술&nbsp;제휴&nbsp;및&nbsp;한국형&nbsp;UI/UX&nbsp;고도화<br>&nbsp;&nbsp;○&nbsp;장기&nbsp;(4년차~):&nbsp;일자리&nbsp;데이터를&nbsp;활용한&nbsp;노인&nbsp;복지&nbsp;정책&nbsp;연계&nbsp;및&nbsp;성과&nbsp;분석을&nbsp;통한&nbsp;모델&nbsp;정착&nbsp;<br><br>&nbsp;□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·도비&nbsp;공모사업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;-&nbsp;고령자&nbsp;친화&nbsp;기업&nbsp;지원&nbsp;및&nbsp;지자체&nbsp;혁신&nbsp;성과&nbsp;확산&nbsp;사업&nbsp;신청<br>&nbsp;&nbsp;○&nbsp;군비&nbsp;편성&nbsp;<br>&nbsp;&nbsp;&nbsp;-&nbsp;플랫폼&nbsp;유지&nbsp;보수비,&nbsp;어르신&nbsp;일자리&nbsp;전담&nbsp;인력&nbsp;인건비&nbsp;및&nbsp;홍보&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;기업&nbsp;사회공헌기금(CSR)&nbsp;활용&nbsp;<br>&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;내&nbsp;기업체와의&nbsp;협업을&nbsp;통한&nbsp;일자리&nbsp;매칭&nbsp;장려금&nbsp;및&nbsp;인센티브&nbsp;제도&nbsp;운용<br>&nbsp;&nbsp;○&nbsp;기금&nbsp;조성<br>&nbsp;&nbsp;&nbsp;-&nbsp;노인&nbsp;복지&nbsp;기금&nbsp;및&nbsp;고향사랑기부금&nbsp;등을&nbsp;활용한&nbsp;초기&nbsp;구축&nbsp;비용&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	KTX 임실 정차 및 임실역사 리모델링</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="KTX 임실 정차 및 임실역사 리모델링">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;임실&nbsp;및&nbsp;동부권&nbsp;광역&nbsp;교통&nbsp;접근성&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;인구&nbsp;유입&nbsp;효과&nbsp;및&nbsp;정주&nbsp;여건&nbsp;개선&nbsp;등&nbsp;지방소멸&nbsp;위기&nbsp;대응<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국토교통부&nbsp;및&nbsp;국가철도공단&nbsp;관계&nbsp;기관과&nbsp;협의<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙부처와&nbsp;상설&nbsp;협의&nbsp;채널을&nbsp;가동하고,&nbsp;지역&nbsp;국회의원과&nbsp;공조를&nbsp;통해&nbsp;중앙&nbsp;정부&nbsp;설득&nbsp;및&nbsp;예산확보&nbsp;<br>&nbsp;&nbsp;○&nbsp;전북특별자치도와&nbsp;사업에&nbsp;관한&nbsp;사전&nbsp;협의&nbsp;진행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전북특별자치도&nbsp;관련&nbsp;부서와&nbsp;사전&nbsp;협의&nbsp;진행<br>&nbsp;&nbsp;○&nbsp;임실군청&nbsp;자체&nbsp;용역&nbsp;및&nbsp;사업&nbsp;타당성&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임실군청&nbsp;자체&nbsp;용역&nbsp;자료&nbsp;업데이트&nbsp;및&nbsp;관련&nbsp;대응&nbsp;예산&nbsp;편성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계(2026~2027):&nbsp;설계&nbsp;및&nbsp;행정절차&nbsp;이행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기&nbsp;확보된&nbsp;설계비를&nbsp;바탕으로&nbsp;기본&nbsp;및&nbsp;실시설계&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;2단계(2027~2029):&nbsp;착공&nbsp;및&nbsp;역사&nbsp;신축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;역사&nbsp;리모델링&nbsp;및&nbsp;KTX&nbsp;정차를&nbsp;위한&nbsp;승강장&nbsp;연장&nbsp;공사&nbsp;진행<br>&nbsp;&nbsp;○&nbsp;3단계(2030~):&nbsp;완공&nbsp;및&nbsp;개통<br>&nbsp;&nbsp;&nbsp;&nbsp;-역세권&nbsp;개발&nbsp;및&nbsp;인근&nbsp;시군&nbsp;연계&nbsp;셔틀버스망&nbsp;구축&nbsp;등&nbsp;운영&nbsp;본격화<br><br>□&nbsp;재원조달방안&nbsp;:&nbsp;국비&nbsp;100%&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;-본&nbsp;사업은&nbsp;국가&nbsp;철도망&nbsp;구축&nbsp;계획&nbsp;및&nbsp;국책&nbsp;사업의&nbsp;일환으로&nbsp;추진<br>&nbsp;&nbsp;&nbsp;-이미&nbsp;2026년&nbsp;예산에&nbsp;설계비&nbsp;4억&nbsp;원이&nbsp;반영되어&nbsp;재정적&nbsp;출발선을&nbsp;확보한&nbsp;상태임<br>&nbsp;&nbsp;&nbsp;-역사&nbsp;리모델링,&nbsp;승강장&nbsp;확장,&nbsp;지하통로&nbsp;개설&nbsp;등&nbsp;정차&nbsp;기반&nbsp;시설&nbsp;정비&nbsp;비용을&nbsp;전액&nbsp;국가&nbsp;예산으로&nbsp;확보하여&nbsp;지자체&nbsp;재정&nbsp;부담&nbsp;최소화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	전국 이·통장 연수원 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="전국 이·통장 연수원 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전국&nbsp;이통장들을&nbsp;체계적으로&nbsp;교육시키고&nbsp;지역&nbsp;리더로&nbsp;만들어&nbsp;내는&nbsp;교육&nbsp;시설&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;전국&nbsp;10만명에&nbsp;이르는&nbsp;이통장에&nbsp;대한&nbsp;표준화된&nbsp;연수&nbsp;시스템&nbsp;개발&nbsp;등<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;행정안전부&nbsp;등&nbsp;중앙정부와의&nbsp;유기적인&nbsp;협조체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행정안전부&nbsp;등&nbsp;유관기관과&nbsp;사업에&nbsp;대한&nbsp;공감대&nbsp;형성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업&nbsp;추진을&nbsp;위한&nbsp;용역&nbsp;발주<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공무원&nbsp;교육원&nbsp;등&nbsp;관계&nbsp;기관과&nbsp;사업&nbsp;추진&nbsp;방법&nbsp;벤치마킹<br>&nbsp;&nbsp;○&nbsp;전북특별자치도와&nbsp;사업&nbsp;공감대&nbsp;형성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관계&nbsp;부서와&nbsp;사업에&nbsp;대한&nbsp;공감대&nbsp;형성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도내&nbsp;유사기관인&nbsp;지방자치인재개발원과&nbsp;사업&nbsp;모델&nbsp;공유<br>&nbsp;&nbsp;○&nbsp;사업&nbsp;추진을&nbsp;위한&nbsp;타당성&nbsp;용역&nbsp;발주<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업의&nbsp;타당성&nbsp;및&nbsp;추진방안에&nbsp;대한&nbsp;전문기관에&nbsp;용역&nbsp;발주<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;주민&nbsp;사업&nbsp;설명회&nbsp;통해&nbsp;공감대&nbsp;형성<br><br>□&nbsp;이행기간(2027-2030)<br>&nbsp;&nbsp;○&nbsp;1단계(준비기)&nbsp;:&nbsp;행안부&nbsp;등과&nbsp;협력체계를&nbsp;구축하고&nbsp;교육콘텐츠(민원소통,&nbsp;재난&nbsp;안전&nbsp;등)&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;2단계(실행기):&nbsp;임실군&nbsp;관촌면에&nbsp;교육동,&nbsp;체험동,&nbsp;숙소등을&nbsp;갖춘&nbsp;연수원&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;3단계(안착기~):&nbsp;연간&nbsp;10만여명에&nbsp;이르는&nbsp;이통장&nbsp;연수생&nbsp;모집&nbsp;및&nbsp;교육<br><br>□&nbsp;재원조달방안&nbsp;:&nbsp;총&nbsp;사업비&nbsp;400억<br>&nbsp;&nbsp;○&nbsp;국·도비&nbsp;공모사업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비(40%):도비(30%):군비(30%)&nbsp;비율로&nbsp;군비&nbsp;예산&nbsp;최소화로&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;정책형&nbsp;필수&nbsp;교육과정&nbsp;설계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이통장&nbsp;필수&nbsp;연수프로그램으로&nbsp;설계해&nbsp;안정적인&nbsp;교육생&nbsp;모집&nbsp;안정화<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;상권&nbsp;및&nbsp;관광&nbsp;사업&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관계&nbsp;인구&nbsp;유입을&nbsp;통해&nbsp;임실&nbsp;지역&nbsp;경제활성화에&nbsp;기여</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

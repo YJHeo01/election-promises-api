@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이희권 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	부영부지에 금천메디· 비즈 복합허브 미니코엑스 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="부영부지에 금천메디· 비즈 복합허브 미니코엑스 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1)&nbsp;메디컬허브&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;종합메디컬센터(검진,&nbsp;전문클리닉)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;재활&nbsp;고령권화&nbsp;의료시설<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;바이오&nbsp;헬스케어&nbsp;스타트업&nbsp;입주<br>2)&nbsp;비즈니스허브&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;스타트업&nbsp;IT기업&nbsp;입주공간<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공유오피스/창업지원센터<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;기업연수-교육시설<br>3)&nbsp;미니코엑스&nbsp;상업·문화시설<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;컨벤션홀(중소형&nbsp;전시,행사)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;쇼핑&nbsp;F&B&nbsp;푸드코트<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공연,문화공간<br>4)&nbsp;생활인프라&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;비즈니스&nbsp;호텔<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;청년,&nbsp;직장인&nbsp;주거시설<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공원&nbsp;휴식공간<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;1)&nbsp;지역경제&nbsp;활성화&nbsp;:&nbsp;유동인구&nbsp;증가·소비증가·상권부활<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2)&nbsp;기업인재&nbsp;유입&nbsp;:&nbsp;스타트업&nbsp;집적·의료·바이오&nbsp;산업유치<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3)&nbsp;도시브랜드&nbsp;상승&nbsp;:&nbsp;서울&nbsp;서남권&nbsp;랜드마크<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4)&nbsp;교통호재연계&nbsp;:&nbsp;신안산선,&nbsp;역세권&nbsp;개발&nbsp;시너지<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;·&nbsp;민간투자&nbsp;+공공지원(PPP방식)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;서울시&nbsp;국비&nbsp;연계추진<br>&nbsp;&nbsp;·&nbsp;단계별&nbsp;개발(1단계상업/2단계&nbsp;메디컬등)&nbsp;·&nbsp;앵커기업·의료기관&nbsp;유치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;부영건설과&nbsp;협상진행<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2027~2030&nbsp;완공(단기&nbsp;:중기:장기)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;1.&nbsp;민간&nbsp;투자유치<br>&nbsp;&nbsp;2.&nbsp;용도지역상향을&nbsp;통한&nbsp;개발이익&nbsp;환수<br>&nbsp;&nbsp;3.&nbsp;서울시&nbsp;국비&nbsp;공모사업&nbsp;연계<br>&nbsp;&nbsp;4.&nbsp;앵커기업&nbsp;선유치전략<br>&nbsp;&nbsp;5.단계별&nbsp;개발(1,2,3단계)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	공군부대부지 초고층 스카이타워, 스포츠과학, AI 특성화 대학산학연 캠퍼스추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="공군부대부지 초고층 스카이타워, 스포츠과학, AI 특성화 대학산학연 캠퍼스추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1)&nbsp;초고층&nbsp;스카이타워(랜드마크)<br>2)&nbsp;AI&nbsp;스포츠과학&nbsp;특성화&nbsp;대학<br>3)&nbsp;산학연&nbsp;클러스터<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;·&nbsp;청년일자리&nbsp;창출<br>&nbsp;&nbsp;·&nbsp;첨단산업유치<br>&nbsp;&nbsp;·&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;·&nbsp;금천&nbsp;미래&nbsp;성장동력&nbsp;확보<br>&nbsp;&nbsp;·&nbsp;서남권&nbsp;랜드마크&nbsp;조성<br>&nbsp;&nbsp;·&nbsp;AI,&nbsp;스포츠과학,&nbsp;바이오&nbsp;헬스케어,&nbsp;미래&nbsp;모빌리티,&nbsp;창업산업<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;1)&nbsp;공군부대&nbsp;이전&nbsp;및&nbsp;국가사업&nbsp;연계추진<br>&nbsp;&nbsp;2)&nbsp;산학연&nbsp;융합캠퍼스&nbsp;조성<br>&nbsp;&nbsp;3)&nbsp;초고층&nbsp;스카이타워&nbsp;랜드마크&nbsp;조성<br>&nbsp;&nbsp;4)&nbsp;스포츠과학,&nbsp;헬스케어&nbsp;산업육성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;단기(취임후&nbsp;1년이내):&nbsp;추진기반&nbsp;구축<br>&nbsp;&nbsp;중기(1~3년)&nbsp;:&nbsp;행정절차&nbsp;및&nbsp;사업&nbsp;확정<br>&nbsp;&nbsp;장기&nbsp;(3~7년)&nbsp;:&nbsp;단계별&nbsp;개발&nbsp;및&nbsp;착공<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;1)&nbsp;민간&nbsp;합동개발(TF,&nbsp;컨소시엄)<br>&nbsp;&nbsp;2)&nbsp;개발이익&nbsp;환수&nbsp;활용<br>&nbsp;&nbsp;3)&nbsp;국비,&nbsp;시비&nbsp;지원확보<br>&nbsp;&nbsp;4)&nbsp;대학,&nbsp;기업&nbsp;투자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	신안산선 역세권과 연계하여 금천경제 재도약 추구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="신안산선 역세권과 연계하여 금천경제 재도약 추구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1)&nbsp;역세권&nbsp;고밀&nbsp;복합개발(TOD)<br>2)&nbsp;가산-역세권&nbsp;경제&nbsp;벨트&nbsp;구축<br>3)&nbsp;역세권&nbsp;상권&nbsp;특화<br>4)&nbsp;체류형&nbsp;도시전환<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;·&nbsp;서울&nbsp;서남권&nbsp;경제&nbsp;중심도시&nbsp;육성<br>&nbsp;&nbsp;·&nbsp;청년창업&nbsp;활성화<br>&nbsp;&nbsp;·&nbsp;역세권&nbsp;중심&nbsp;상권&nbsp;활성화<br>&nbsp;&nbsp;·&nbsp;지역균형&nbsp;발전실현<br>&nbsp;&nbsp;·&nbsp;기업유치&nbsp;및&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;·&nbsp;부동산&nbsp;지역&nbsp;가치&nbsp;상승<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;1)&nbsp;신안산선&nbsp;역세권&nbsp;복합개발&nbsp;추진<br>&nbsp;&nbsp;2)&nbsp;G밸리&nbsp;첨단산업&nbsp;고도화&nbsp;연계<br>&nbsp;&nbsp;3)&nbsp;골목상권,&nbsp;전통시장&nbsp;활성화<br>&nbsp;&nbsp;4)&nbsp;교통,&nbsp;보행,&nbsp;생활인프라&nbsp;개선<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;·&nbsp;단기&nbsp;(취임후1년이내)&nbsp;:&nbsp;추진기반&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;중기&nbsp;(1~3년)&nbsp;:&nbsp;본격&nbsp;개발&nbsp;및&nbsp;투자유치<br>&nbsp;&nbsp;·&nbsp;장기&nbsp;(3~5년)&nbsp;:&nbsp;경제거점&nbsp;완성단계<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;1)&nbsp;민관합동&nbsp;개발&nbsp;방식&nbsp;추진<br>&nbsp;&nbsp;2)&nbsp;역세권&nbsp;개발이익&nbsp;활용<br>&nbsp;&nbsp;3)&nbsp;국비,&nbsp;시비&nbsp;공모&nbsp;사업&nbsp;확보<br>&nbsp;&nbsp;4)&nbsp;민간기업&nbsp;투자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	금천형 상권, 생활경제 활성화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="금천형 상권, 생활경제 활성화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1)&nbsp;퇴근후&nbsp;소비잡기&nbsp;프로젝트<br>2)&nbsp;골목상권&nbsp;회복&nbsp;패키지<br>3)&nbsp;상시형&nbsp;축제,&nbsp;야시장&nbsp;경제<br>4)&nbsp;지역소비&nbsp;순환&nbsp;시스템<br>5)&nbsp;체류형&nbsp;상권&nbsp;전환<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;·&nbsp;소상공인&nbsp;매출증대<br>&nbsp;&nbsp;·&nbsp;자영업&nbsp;생존율&nbsp;향상<br>&nbsp;&nbsp;·&nbsp;지역내&nbsp;소비&nbsp;활성화<br>&nbsp;&nbsp;·&nbsp;청년&nbsp;중장년&nbsp;창업확대<br>&nbsp;&nbsp;·&nbsp;전통시장&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;·&nbsp;지역&nbsp;일자리&nbsp;창출<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;1)&nbsp;금천형&nbsp;상권활성화&nbsp;프로젝트&nbsp;추진<br>&nbsp;&nbsp;2)&nbsp;소상공인&nbsp;긴급지원&nbsp;및&nbsp;경영안정&nbsp;강화<br>&nbsp;&nbsp;3)&nbsp;전통시장&nbsp;현대화&nbsp;추진<br>&nbsp;&nbsp;4)&nbsp;청년창업,&nbsp;생활창업&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;5)&nbsp;지역순환&nbsp;소비경제구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;·&nbsp;단기&nbsp;(취임후1년이내)&nbsp;:&nbsp;긴급회복&nbsp;및&nbsp;기반조성&nbsp;단계<br>&nbsp;&nbsp;·&nbsp;중기&nbsp;(1~3년)&nbsp;:&nbsp;본격&nbsp;활성화&nbsp;단계<br>&nbsp;&nbsp;·&nbsp;장기&nbsp;(3~5년)&nbsp;:&nbsp;지속&nbsp;성장단계<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;1)&nbsp;국비,&nbsp;시비&nbsp;공모사업&nbsp;적극유치<br>&nbsp;&nbsp;2)&nbsp;지역개발사업&nbsp;연계&nbsp;재원확보<br>&nbsp;&nbsp;3)&nbsp;민관&nbsp;협력&nbsp;및&nbsp;상생펀드&nbsp;조성<br>&nbsp;&nbsp;4)&nbsp;구&nbsp;예산&nbsp;구조조정&nbsp;및&nbsp;효율화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	재개발, 재건축 지연건 강력추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="재개발, 재건축 지연건 강력추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1)&nbsp;낮은&nbsp;용적률&nbsp;상향<br>2)&nbsp;과도한&nbsp;규제&nbsp;해제<br>3)&nbsp;행정지연에관한&nbsp;T/F&nbsp;구성<br>4)&nbsp;주민갈등&nbsp;문제해결<br>5)&nbsp;소규모&nbsp;분산구조&nbsp;해결<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;·&nbsp;노후주거&nbsp;환경개선<br>&nbsp;&nbsp;·&nbsp;지역균형&nbsp;발전실현<br>&nbsp;&nbsp;·&nbsp;주차,&nbsp;교통,&nbsp;생활&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;·&nbsp;청년,&nbsp;신혼부부&nbsp;주거&nbsp;공급확대<br>&nbsp;&nbsp;·&nbsp;주민&nbsp;재산가치&nbsp;상승<br>&nbsp;&nbsp;·&nbsp;침체된&nbsp;지역경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;·재개발,&nbsp;재건축&nbsp;신속추진&nbsp;TF&nbsp;설치<br>&nbsp;&nbsp;·정비사업&nbsp;원스톱&nbsp;행정지원<br>&nbsp;&nbsp;·사업성&nbsp;개선&nbsp;적극추진<br>&nbsp;&nbsp;·&nbsp;기반시설&nbsp;동시&nbsp;확충<br>&nbsp;&nbsp;·&nbsp;주민&nbsp;소통강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;·&nbsp;단기&nbsp;(취임후1년이내)&nbsp;:&nbsp;추진기반&nbsp;구축&nbsp;단계<br>&nbsp;&nbsp;·&nbsp;중기&nbsp;(1~3년)&nbsp;:&nbsp;사업가속화&nbsp;단계<br>&nbsp;&nbsp;·&nbsp;장기&nbsp;(3~5년)&nbsp;:&nbsp;주거환경&nbsp;개선단계<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;1)&nbsp;민간&nbsp;정비사업중심추진<br>&nbsp;&nbsp;2)&nbsp;개발이익&nbsp;활용<br>&nbsp;&nbsp;3)&nbsp;국비&nbsp;시비&nbsp;지원&nbsp;확보<br>&nbsp;&nbsp;4)&nbsp;기반시설&nbsp;민관&nbsp;협력&nbsp;확대</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

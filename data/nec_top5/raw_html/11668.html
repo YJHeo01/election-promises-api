@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이삼걸 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	국립 경국대학교 의과대학 신설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="국립 경국대학교 의과대학 신설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;ㅇ&nbsp;경북&nbsp;북부지역은&nbsp;상급종합병원도&nbsp;없고,&nbsp;의사&nbsp;수도&nbsp;턱없이&nbsp;부족한&nbsp;의료사각지대로&nbsp;최소한의&nbsp;의료서비스&nbsp;부족&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;지역&nbsp;간&nbsp;의료격차&nbsp;해소를&nbsp;위해서는&nbsp;경국대학교&nbsp;의과대학&nbsp;신설과&nbsp;상급종합병원&nbsp;유치가&nbsp;필요&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;ㅇ&nbsp;이재명대통령&nbsp;공약(의과대학&nbsp;설립&nbsp;검토&nbsp;및&nbsp;상급종합병원&nbsp;유치&nbsp;지원)&nbsp;사항임을&nbsp;강조하며&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;청와대&nbsp;및&nbsp;보건복지부&nbsp;직접&nbsp;방문(후보자,&nbsp;경국대학교&nbsp;총장&nbsp;등)하여&nbsp;공약사항&nbsp;이행&nbsp;설득&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;경북도지사,&nbsp;경북시장·군수협의회,&nbsp;지역국회의원&nbsp;등과&nbsp;협의하여&nbsp;공동&nbsp;건의서&nbsp;제출<br><br>□&nbsp;이행기간&nbsp;:&nbsp;임기내<br>&nbsp;&nbsp;ㅇ&nbsp;경국대학교&nbsp;의대&nbsp;신설&nbsp;국가계획&nbsp;조기&nbsp;발표토록&nbsp;적극&nbsp;노력<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;ㅇ&nbsp;국가가&nbsp;직접&nbsp;시행하는&nbsp;전액&nbsp;국비&nbsp;사업</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	산불 피해지역 리조트 등 초대형 프로젝트 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="산불 피해지역 리조트 등 초대형 프로젝트 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;ㅇ&nbsp;산불&nbsp;피해지역&nbsp;등&nbsp;낙후된&nbsp;지역의&nbsp;균형발전을&nbsp;위해&nbsp;리조트&nbsp;개발,&nbsp;기업&nbsp;유치&nbsp;등&nbsp;필요<br>&nbsp;&nbsp;ㅇ&nbsp;양질의&nbsp;일자리&nbsp;창출,&nbsp;상주인구&nbsp;유입,&nbsp;지역경제&nbsp;활성화<br>&nbsp;《공약내용》<br>&nbsp;&nbsp;&nbsp;&nbsp;◇&nbsp;풍산그룹&nbsp;본사,&nbsp;방산&nbsp;생산라인&nbsp;일부&nbsp;안동&nbsp;이전<br>&nbsp;&nbsp;&nbsp;&nbsp;◇&nbsp;산불피해&nbsp;지역&nbsp;내&nbsp;호텔,&nbsp;콘도&nbsp;등&nbsp;대규모&nbsp;리조트&nbsp;개발&nbsp;추진<br><br>□&nbsp;이행방법&nbsp;및&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;기업&nbsp;유치를&nbsp;시정&nbsp;최우선&nbsp;과제로&nbsp;선정하여&nbsp;시장&nbsp;직속기업&nbsp;유치&nbsp;TF팀&nbsp;및&nbsp;기업유치&nbsp;사절단&nbsp;구성·운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방세&nbsp;감면,&nbsp;각종규제&nbsp;완화&nbsp;등&nbsp;필요한&nbsp;관련&nbsp;조례·규칙&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙정부,&nbsp;관련&nbsp;대기업&nbsp;방문하여&nbsp;기업&nbsp;유치&nbsp;활동&nbsp;및&nbsp;지원<br>&nbsp;&nbsp;&nbsp;※&nbsp;기업&nbsp;지방이전시&nbsp;국세&nbsp;감면&nbsp;추진&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;기업&nbsp;지방이전&nbsp;애로사항&nbsp;“원스톱&nbsp;창구”&nbsp;설치·운영<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;민자&nbsp;유치로&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	동서남북 사통팔달 광역교통망 구축 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="동서남북 사통팔달 광역교통망 구축 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;ㅇ&nbsp;경북&nbsp;북부지역은&nbsp;호남·충청권에&nbsp;비해&nbsp;교통망이&nbsp;열악함으로&nbsp;주민과&nbsp;관광객의&nbsp;이동&nbsp;편의를&nbsp;위해&nbsp;사통팔달&nbsp;광역교통망&nbsp;구축<br>&nbsp;&nbsp;ㅇ&nbsp;수도권·대도시권의&nbsp;접근성&nbsp;제고&nbsp;및&nbsp;지역&nbsp;균형발전에&nbsp;기여&nbsp;<br>&nbsp;《공약내용》<br>&nbsp;&nbsp;&nbsp;&nbsp;◇&nbsp;문경~도청신도시~안동&nbsp;철도&nbsp;신설&nbsp;및&nbsp;ITX&nbsp;노선&nbsp;확보&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;◇&nbsp;통합신공항&nbsp;직통&nbsp;철도&nbsp;노선변경&nbsp;추진(의성-영덕→안동-영덕)<br>&nbsp;&nbsp;&nbsp;&nbsp;◇&nbsp;국도&nbsp;34호선(교리~괴정)&nbsp;확장&nbsp;및&nbsp;국도&nbsp;35호선(와룡~도산~봉화)&nbsp;준&nbsp;고속도로화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;◇&nbsp;지방도&nbsp;933·935호선을&nbsp;조사·검토하여&nbsp;국도&nbsp;승격&nbsp;및&nbsp;안동호&nbsp;횡단교량(도산면&nbsp;동부리~예안면&nbsp;부포리)&nbsp;건설&nbsp;추진<br><br>□&nbsp;이행방법&nbsp;및&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;시장&nbsp;직속&nbsp;광역교통망&nbsp;구축&nbsp;전담&nbsp;T/F팀&nbsp;구성&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국토부,&nbsp;기재부,&nbsp;KDI&nbsp;등&nbsp;관계자&nbsp;초청&nbsp;설명회&nbsp;등&nbsp;개최<br>&nbsp;&nbsp;ㅇ&nbsp;국가&nbsp;철도망&nbsp;및&nbsp;도로망종합계획&nbsp;포함토록&nbsp;적극&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;ㅇ&nbsp;철도·국도는&nbsp;전액&nbsp;국비&nbsp;사업으로&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	대구·경북 통합특별시청사 현 경북청사 사용</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="대구·경북 통합특별시청사 현 경북청사 사용">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;ㅇ&nbsp;대구·경북&nbsp;통합&nbsp;시(時)&nbsp;대구&nbsp;중심&nbsp;인력·예산&nbsp;쏠림&nbsp;현상으로&nbsp;지역&nbsp;균형발전&nbsp;및&nbsp;통합&nbsp;실효성에&nbsp;대한&nbsp;우려&nbsp;가중<br>&nbsp;&nbsp;ㅇ&nbsp;균형발전&nbsp;차원에서&nbsp;상대적으로&nbsp;낙후된&nbsp;경북&nbsp;북부지역에&nbsp;위치한&nbsp;현&nbsp;경북도청사를&nbsp;통합특별시&nbsp;청사로&nbsp;사용<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;ㅇ&nbsp;대구·경북&nbsp;행정통합&nbsp;추진&nbsp;T/F팀&nbsp;및&nbsp;협의체&nbsp;구성&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시·군의원,&nbsp;도의원,&nbsp;대학교수,&nbsp;연구원,&nbsp;시민단체&nbsp;등&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;특별법에&nbsp;통합청사&nbsp;위치를&nbsp;현&nbsp;도청청사로&nbsp;명문화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합에&nbsp;따른&nbsp;정부지원금(4년&nbsp;20조),&nbsp;안동을&nbsp;비롯한&nbsp;북부지역&nbsp;우선&nbsp;배정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대구는&nbsp;경제수도,&nbsp;안동은&nbsp;행정수도&nbsp;역할&nbsp;분담<br>&nbsp;&nbsp;ㅇ&nbsp;행정통합&nbsp;목적이&nbsp;수도권&nbsp;일극에&nbsp;대한&nbsp;균형발전을&nbsp;위한&nbsp;것이므로&nbsp;지역내&nbsp;균형발전도&nbsp;실현하는&nbsp;것이&nbsp;당연&nbsp;설득<br><br>□&nbsp;이행기간&nbsp;:&nbsp;임기내<br>&nbsp;&nbsp;ㅇ&nbsp;대구광역시,&nbsp;행정안전부&nbsp;협의한&nbsp;후,&nbsp;특별법&nbsp;제정시&nbsp;통합&nbsp;특별시&nbsp;청사를&nbsp;안동에&nbsp;유지토록&nbsp;명문화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;ㅇ&nbsp;비예산&nbsp;사업</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	원도심 재구조화 및 도심기능 회복</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="원도심 재구조화 및 도심기능 회복">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;ㅇ&nbsp;상주인구&nbsp;감소,&nbsp;도심시설&nbsp;노후화&nbsp;등으로&nbsp;공동화&nbsp;초래<br>&nbsp;&nbsp;ㅇ&nbsp;원도심&nbsp;교통·상권·생활인프라&nbsp;재정비로&nbsp;도심&nbsp;기능&nbsp;회복<br>&nbsp;&nbsp;《공약내용》<br>&nbsp;&nbsp;&nbsp;&nbsp;◇&nbsp;주상복합&nbsp;아파트&nbsp;건립&nbsp;등&nbsp;구시장·신시장&nbsp;현대화&nbsp;추진,&nbsp;법흥교·천리교&nbsp;고가차도&nbsp;개선&nbsp;검토,&nbsp;주차공간&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;◇&nbsp;천리천·안기천&nbsp;복원&nbsp;안동형&nbsp;수상도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;◇&nbsp;구&nbsp;역사부지&nbsp;활용,&nbsp;청소년&nbsp;복합시설&nbsp;건립&nbsp;추진<br><br>□&nbsp;이행방법&nbsp;및&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;댐&nbsp;주변&nbsp;지역&nbsp;발전&nbsp;지원을&nbsp;위한&nbsp;특별법&nbsp;제정,&nbsp;수자원&nbsp;공사위탁&nbsp;시행<br>&nbsp;&nbsp;ㅇ&nbsp;국가재정·수자원공사&nbsp;지원,&nbsp;역할&nbsp;강화&nbsp;근거&nbsp;마련<br>&nbsp;&nbsp;ㅇ&nbsp;도시&nbsp;재개발&nbsp;사업,&nbsp;관광시설&nbsp;설치·관리,&nbsp;수익사업&nbsp;추진&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;ㅇ&nbsp;국가&nbsp;및&nbsp;수자원공사&nbsp;지원&nbsp;사업으로&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

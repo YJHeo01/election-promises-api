@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;윤영주 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	 보성형 햇빛연금 기본소득제 (월 25만원·연 300만원)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title=" 보성형 햇빛연금 기본소득제 (월 25만원·연 300만원)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;정량:&nbsp;임기&nbsp;4년차&nbsp;전&nbsp;군민&nbsp;매월&nbsp;25만원·연&nbsp;300만원&nbsp;햇빛연금&nbsp;영구&nbsp;지급&nbsp;(2027년&nbsp;민생안정지원금&nbsp;지급,&nbsp;연도별&nbsp;단계&nbsp;상향)&nbsp;+&nbsp;18세&nbsp;이하&nbsp;햇빛아동수당&nbsp;별도&nbsp;지급<br>&nbsp;&nbsp;○&nbsp;재원&nbsp;구조:&nbsp;자체수익재원(에너지솔라단지&nbsp;발전수익)&nbsp;+&nbsp;군&nbsp;일반회계&nbsp;결합,&nbsp;보성사랑상품권&nbsp;분기별&nbsp;지급(군&nbsp;외부&nbsp;자금&nbsp;유출&nbsp;방지·지역&nbsp;상권&nbsp;활성화)<br>&nbsp;&nbsp;○&nbsp;거버넌스:&nbsp;보성신재생에너지재단(공익)·주민군협동조합·보성솔라SPC&nbsp;3개&nbsp;법인&nbsp;분리,&nbsp;PF대출&nbsp;최종&nbsp;상환은&nbsp;발전사업자가&nbsp;부담하여&nbsp;군민·협동조합&nbsp;채무&nbsp;부담&nbsp;없는&nbsp;구조&nbsp;설계<br>&nbsp;&nbsp;○&nbsp;인프라:&nbsp;한국수자원공사&nbsp;등&nbsp;협력으로&nbsp;주암호·간척지·영농지&nbsp;등&nbsp;대규모&nbsp;공유지&nbsp;약&nbsp;200만평&nbsp;활용&nbsp;태양광&nbsp;단지&nbsp;조성&nbsp;추진(임기&nbsp;후속&nbsp;단계&nbsp;확장),&nbsp;양면형&nbsp;추적식·수상·영농형·ESS·VPP&nbsp;통합&nbsp;및&nbsp;AI&nbsp;자동화&nbsp;운영,&nbsp;차세대&nbsp;고효율&nbsp;패널&nbsp;단계&nbsp;적용&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;에너지+관광+체험&nbsp;융복합&nbsp;클러스터:&nbsp;차밭·태양광&nbsp;결합,&nbsp;수상태양광·호수&nbsp;보트투어,&nbsp;영농형·농촌체험,&nbsp;발전소&nbsp;견학·청소년&nbsp;RE100&nbsp;체험관&nbsp;등&nbsp;수익원&nbsp;다각화&nbsp;추진(공약&nbsp;③&nbsp;연계)<br>&nbsp;&nbsp;○&nbsp;정책&nbsp;정합:&nbsp;이재명&nbsp;정부&nbsp;「햇빛·바람연금」·「농어촌&nbsp;기본소득」·「햇빛소득마을」·「AI&nbsp;기본사회」&nbsp;정책과&nbsp;정합,&nbsp;전남광주통합특별시&nbsp;「AI&nbsp;클러스터」·「균형발전기금」&nbsp;연계&nbsp;추진<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;(2026&nbsp;하반기)&nbsp;-&nbsp;재단·협동조합&nbsp;설립,&nbsp;관련&nbsp;조례&nbsp;제정,&nbsp;부처·한국수자원공사·통합특별시&nbsp;협력&nbsp;추진,&nbsp;분산에너지&nbsp;특화지역·햇빛소득마을&nbsp;시범사업&nbsp;신청<br>&nbsp;&nbsp;○&nbsp;2단계&nbsp;(2027)&nbsp;-&nbsp;SPC&nbsp;설립,&nbsp;환경영향평가·인허가&nbsp;추진,&nbsp;시민&nbsp;햇빛펀드&nbsp;발행,&nbsp;민생안정지원금&nbsp;단계&nbsp;지급&nbsp;시작<br>&nbsp;&nbsp;○&nbsp;3단계&nbsp;(2028~2029)&nbsp;-&nbsp;1차&nbsp;단지&nbsp;가동,&nbsp;광주전남통합특별시&nbsp;RE100·AI&nbsp;데이터센터&nbsp;직접&nbsp;PPA&nbsp;협의,&nbsp;관광·견학&nbsp;코스&nbsp;단계&nbsp;조성,&nbsp;민생안정지원금&nbsp;단계&nbsp;상향<br>&nbsp;&nbsp;○&nbsp;4단계&nbsp;(2030)&nbsp;-&nbsp;단지&nbsp;가동&nbsp;확대,&nbsp;정식&nbsp;햇빛연금&nbsp;월&nbsp;25만원·연&nbsp;300만원&nbsp;지급,임기&nbsp;후속&nbsp;단지&nbsp;확장&nbsp;로드맵&nbsp;수립<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기&nbsp;~&nbsp;2030년&nbsp;(4년&nbsp;단계&nbsp;추진)&nbsp;+&nbsp;임기&nbsp;후속&nbsp;단지&nbsp;단계&nbsp;확장<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;①&nbsp;단지&nbsp;사업비:&nbsp;다중&nbsp;채널&nbsp;외부&nbsp;자본&nbsp;단계&nbsp;조달을&nbsp;통해&nbsp;군민·군&nbsp;일반회계&nbsp;발전사업&nbsp;직접&nbsp;부담&nbsp;최소화&nbsp;-&nbsp;정책금융·녹색채권·시민&nbsp;햇빛펀드·지역&nbsp;금융·공기업&nbsp;출자·민간&nbsp;발전사업자&nbsp;및&nbsp;RE100&nbsp;기업&nbsp;참여·국비&nbsp;보조·도비·군비&nbsp;등&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;②&nbsp;햇빛연금&nbsp;지급&nbsp;재원:&nbsp;초기에는&nbsp;군&nbsp;일반회계&nbsp;기반&nbsp;민생안정지원금&nbsp;단계&nbsp;지급,단지&nbsp;가동&nbsp;후에는&nbsp;자체수익재원(발전수익·관광&nbsp;수익)과&nbsp;군&nbsp;일반회계&nbsp;결합,&nbsp;단지&nbsp;확장에&nbsp;따라&nbsp;자체수익재원&nbsp;비중&nbsp;점진&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;③&nbsp;부지&nbsp;인근&nbsp;주민&nbsp;별도&nbsp;보상:&nbsp;이격거리별&nbsp;환경&nbsp;보상·마을발전기금·영농형태양광&nbsp;농가&nbsp;임대료&nbsp;등&nbsp;군&nbsp;일반회계&nbsp;별도&nbsp;편성&nbsp;검토</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	농축수산업 소득 3조원 시대 개막</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="농축수산업 소득 3조원 시대 개막">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;정량:&nbsp;임기&nbsp;4년차&nbsp;농축수산업&nbsp;소득&nbsp;3조원&nbsp;시대&nbsp;개막(식품&nbsp;가공,&nbsp;6차산업&nbsp;연계&nbsp;등&nbsp;소득&nbsp;다각화),&nbsp;농가·어가·축산농가&nbsp;소득&nbsp;증대<br>&nbsp;&nbsp;○&nbsp;핵심&nbsp;품목&nbsp;R&D·가공·브랜드화:&nbsp;녹차·쌀(웅치&nbsp;올벼쌀)·쪽파·감자·키위·토마토·꼬막&nbsp;등&nbsp;단일품목&nbsp;R&D&nbsp;가공시설&nbsp;권역별&nbsp;분산&nbsp;조성(벌교&nbsp;수산·보성&nbsp;차·기타&nbsp;읍면농산),&nbsp;녹차&nbsp;결합&nbsp;가공품&nbsp;및&nbsp;단일품목&nbsp;가공품&nbsp;차별화<br>&nbsp;&nbsp;○&nbsp;축산&nbsp;가공공장&nbsp;(축협&nbsp;위탁):&nbsp;소·돼지·염소·닭&nbsp;가공공장&nbsp;조성&nbsp;및&nbsp;축협&nbsp;위탁&nbsp;운영추진,&nbsp;보성&nbsp;한우·녹돈&nbsp;프리미엄&nbsp;브랜드화<br>&nbsp;&nbsp;○&nbsp;스마트팜·스마트양식&nbsp;확대:&nbsp;농촌진흥청·해양수산부&nbsp;협력&nbsp;청년&nbsp;스마트팜&nbsp;단지(공약&nbsp;④&nbsp;귀농&nbsp;트랙&nbsp;연계)&nbsp;검토,&nbsp;득량만&nbsp;스마트양식(꼬막&nbsp;가공&nbsp;결합)&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;유통·판로&nbsp;다각화:&nbsp;권역별&nbsp;직판장,&nbsp;온라인&nbsp;라이브커머스·SNS&nbsp;마케팅·새벽배송,&nbsp;K-Food&nbsp;글로벌&nbsp;수출(aT·농협·수협&nbsp;협력)<br>&nbsp;&nbsp;○&nbsp;농민&nbsp;기본소득·가격안정·재해보상:&nbsp;이재명&nbsp;정부&nbsp;「농어촌&nbsp;주민수당」&nbsp;연계,&nbsp;가격안정기금·재해보험&nbsp;군&nbsp;보조&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;친환경·6차산업&nbsp;결합:&nbsp;친환경·유기농&nbsp;전환&nbsp;인센티브(탄소중립&nbsp;정합)&nbsp;검토,&nbsp;농수산&nbsp;체험관광&nbsp;결합(공약&nbsp;③&nbsp;클러스터·공약&nbsp;①&nbsp;영농형태양광&nbsp;견학)<br>&nbsp;&nbsp;○&nbsp;거버넌스:&nbsp;농수산은&nbsp;농수산주민참여협동조합&nbsp;직접&nbsp;운영(소득&nbsp;협동조합&nbsp;귀속),&nbsp;축산은&nbsp;축협&nbsp;위탁<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;(2026&nbsp;하반기)&nbsp;-&nbsp;협동조합&nbsp;설립&nbsp;준비,&nbsp;조례&nbsp;제·개정,&nbsp;농식품부·해수부·축협·aT·농촌진흥청&nbsp;협력&nbsp;추진,&nbsp;농민&nbsp;기본소득&nbsp;시범사업&nbsp;신청<br>&nbsp;&nbsp;○&nbsp;2단계&nbsp;(2027)&nbsp;-&nbsp;1차&nbsp;가공&nbsp;거점&nbsp;착공,&nbsp;축산&nbsp;가공공장&nbsp;축협&nbsp;위탁&nbsp;협의,&nbsp;직판장&nbsp;조성,&nbsp;가격안정기금&nbsp;조성,&nbsp;스마트팜·스마트양식&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;3단계&nbsp;(2028)&nbsp;-&nbsp;2차&nbsp;가공&nbsp;거점&nbsp;추진,&nbsp;가공품&nbsp;출시,&nbsp;축산&nbsp;가공공장&nbsp;가동,&nbsp;온라인라이브커머스&nbsp;확대,&nbsp;K-Food&nbsp;수출&nbsp;추진,&nbsp;친환경&nbsp;전환&nbsp;인센티브&nbsp;가동<br>&nbsp;&nbsp;○&nbsp;4단계&nbsp;(2029~2030)&nbsp;-&nbsp;가공&nbsp;거점&nbsp;조성&nbsp;마무리,&nbsp;판로&nbsp;통합,&nbsp;6차산업&nbsp;체험&nbsp;조성,&nbsp;임기&nbsp;4년차&nbsp;소득&nbsp;3조원&nbsp;시대&nbsp;개막<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기&nbsp;~&nbsp;2030년&nbsp;(4년&nbsp;단계&nbsp;추진)<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;다중&nbsp;채널&nbsp;단계&nbsp;조달을&nbsp;통해&nbsp;군&nbsp;직접&nbsp;부담&nbsp;최소화&nbsp;-&nbsp;농식품부&nbsp;농촌혁신·고부가가치화·농민&nbsp;기본소득&nbsp;시범사업,&nbsp;해수부&nbsp;어촌뉴딜·수산식품&nbsp;클러스터·스마트양식,&nbsp;한국식품연구원·aT·농촌진흥청&nbsp;R&D&nbsp;협력,&nbsp;농협·수협·축협·농어촌상생협력기금&nbsp;정책&nbsp;융자,&nbsp;K-Food&nbsp;수출&nbsp;진흥기금·민간&nbsp;가공시설&nbsp;투자,&nbsp;전남광주통합특별시&nbsp;농수산혁신기금·균형발전기금&nbsp;등&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;협동조합&nbsp;운영비&nbsp;일부&nbsp;군&nbsp;지원,&nbsp;소득은&nbsp;협동조합에&nbsp;귀속되어&nbsp;농민·어민에게&nbsp;직접&nbsp;환원되는&nbsp;구조&nbsp;설계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	보성 1조원 관광벨트 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="보성 1조원 관광벨트 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;관광&nbsp;매출&nbsp;1조원:&nbsp;임기&nbsp;4년차&nbsp;관광&nbsp;매출&nbsp;1조원&nbsp;시대&nbsp;개막,&nbsp;체류형&nbsp;관광&nbsp;전환으로&nbsp;1인당&nbsp;소비&nbsp;증대<br>&nbsp;&nbsp;○&nbsp;투자&nbsp;유치&nbsp;(매출과&nbsp;별도):&nbsp;관광&nbsp;인프라&nbsp;조성에&nbsp;민간&nbsp;자본·정부&nbsp;사업비·통합특별시&nbsp;기금·군&nbsp;재원&nbsp;단계&nbsp;조달,&nbsp;임기&nbsp;후속&nbsp;추가&nbsp;확장<br>&nbsp;&nbsp;○&nbsp;3대&nbsp;권역&nbsp;관광벨트:&nbsp;차밭&nbsp;권역(보성·회천&nbsp;공유지&nbsp;활용&nbsp;펜션·카페·다도&nbsp;글로벌화),&nbsp;해변&nbsp;권역(회천·득량만&nbsp;공유수면·기존&nbsp;시설&nbsp;활용&nbsp;해양관광체험타운·율포&nbsp;리모델링),&nbsp;역사&nbsp;권역(벌교&nbsp;태백산맥&nbsp;문학관·꼬막거리,&nbsp;순천&nbsp;낙안읍성&nbsp;광역&nbsp;연계·득량역&nbsp;옛&nbsp;시대&nbsp;거리)&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;5대&nbsp;융합&nbsp;콘텐츠:&nbsp;에너지&nbsp;관광(공약&nbsp;①&nbsp;솔라단지&nbsp;견학·청소년&nbsp;RE100&nbsp;체험관),헬스·웰니스&nbsp;관광(공약&nbsp;⑤&nbsp;의료관광&nbsp;결합&nbsp;차밭&nbsp;명상·해변&nbsp;요양·한방&nbsp;웰니스),&nbsp;농촌체험&nbsp;6차산업(공약&nbsp;②&nbsp;농가민박·K-Food&nbsp;쿠킹),&nbsp;K-콘텐츠&nbsp;촬영지&nbsp;유치,&nbsp;MICE&nbsp;컨벤션(차밭·해변&nbsp;리조트&nbsp;결합)&nbsp;등&nbsp;설계<br>&nbsp;&nbsp;○&nbsp;광역&nbsp;협력:&nbsp;고흥(우주·항공)·장흥(문림·한방)·순천(만국박람회·낙안읍성)&nbsp;인근시군&nbsp;광역&nbsp;관광권&nbsp;구축,&nbsp;체류형&nbsp;광역&nbsp;코스&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;운영&nbsp;사단법인&nbsp;(공약&nbsp;④&nbsp;연계):&nbsp;「보성청년관광사단법인」이&nbsp;해양관광체험타운·차밭&nbsp;카페·역사&nbsp;콘텐츠&nbsp;공간&nbsp;위탁&nbsp;운영,&nbsp;청년이&nbsp;관광&nbsp;산업&nbsp;주체로&nbsp;참여<br>&nbsp;&nbsp;○&nbsp;글로벌·고용:&nbsp;외국인&nbsp;관광객&nbsp;유치&nbsp;확대,&nbsp;관광&nbsp;직·간접&nbsp;일자리&nbsp;창출<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;(2026&nbsp;하반기)&nbsp;-&nbsp;관광&nbsp;마스터플랜&nbsp;수립,&nbsp;투자유치단·보성청년관광사단법인&nbsp;설립&nbsp;준비,&nbsp;인근&nbsp;시군&nbsp;광역&nbsp;협력&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2단계&nbsp;(2027)&nbsp;-&nbsp;차밭&nbsp;권역&nbsp;펜션·카페·특산품&nbsp;판매장&nbsp;조성,&nbsp;청년&nbsp;사단법인&nbsp;위탁운영,&nbsp;벌교&nbsp;역사&nbsp;콘텐츠&nbsp;개발,&nbsp;민간&nbsp;자본&nbsp;유치,&nbsp;에너지&nbsp;견학&nbsp;코스&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;3단계&nbsp;(2028)&nbsp;-&nbsp;해양관광체험타운&nbsp;조성,&nbsp;헬스·웰니스&nbsp;관광&nbsp;추진,&nbsp;K-콘텐츠&nbsp;촬영지&nbsp;유치,&nbsp;MICE&nbsp;컨벤션&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;4단계&nbsp;(2029~2030)&nbsp;-&nbsp;3대&nbsp;권역&nbsp;통합&nbsp;관광벨트&nbsp;조성,&nbsp;체류형&nbsp;광역&nbsp;코스&nbsp;완성추진,&nbsp;임기&nbsp;4년차&nbsp;관광&nbsp;매출&nbsp;1조원&nbsp;시대&nbsp;개막<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기&nbsp;~&nbsp;2030년&nbsp;(4년&nbsp;단계&nbsp;추진)<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;다중&nbsp;채널&nbsp;단계&nbsp;조달을&nbsp;통해&nbsp;군&nbsp;직접&nbsp;부담&nbsp;최소화&nbsp;-&nbsp;민간&nbsp;자본&nbsp;유치(체류형&nbsp;리조트·MICE·외식·관광·웰니스&nbsp;사업자,&nbsp;광주특별시&nbsp;인접·교통망&nbsp;개선·외국인&nbsp;유치효과),&nbsp;문체부&nbsp;관광&nbsp;인프라·한국관광공사·중기진흥공단&nbsp;융자,&nbsp;전남광주통합특별시관광혁신기금·균형발전기금·AI&nbsp;클러스터&nbsp;연계&nbsp;기금,&nbsp;보성군&nbsp;지방소멸대응기금·관광개발기금,&nbsp;환경부&nbsp;해양관광·국토부&nbsp;도로&nbsp;인프라,&nbsp;인근&nbsp;시군&nbsp;광역&nbsp;협력&nbsp;사업비&nbsp;등&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;공유지·공유수면·기존&nbsp;시설&nbsp;활용으로&nbsp;부지·신규&nbsp;투자&nbsp;비용&nbsp;절감,&nbsp;1차&nbsp;거점&nbsp;성과가&nbsp;추가&nbsp;투자유치&nbsp;근거가&nbsp;되는&nbsp;단계&nbsp;확장&nbsp;구조</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	청년 귀농·귀촌 1000가구 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="청년 귀농·귀촌 1000가구 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            목&nbsp;표<br>○&nbsp;정량:&nbsp;임기&nbsp;4년차&nbsp;청년·신혼&nbsp;1000&nbsp;가구&nbsp;유치,&nbsp;관계인구·청년&nbsp;일자리·청년&nbsp;창업&nbsp;보육&nbsp;확대를&nbsp;통한&nbsp;보성&nbsp;인구&nbsp;회복<br>○&nbsp;3단계&nbsp;인구&nbsp;전환&nbsp;구조:&nbsp;관계인구(워케이션·5도2촌·세컨하우스·차밭&nbsp;멤버십·정기&nbsp;방문자)&nbsp;→&nbsp;체류인구(장기체류·디지털노마드)&nbsp;→&nbsp;정주인구(청년·신혼&nbsp;영구&nbsp;정착)로&nbsp;이어지는&nbsp;단계&nbsp;전환&nbsp;구조<br>○&nbsp;귀농&nbsp;패키지&nbsp;(스마트팜&nbsp;트랙):&nbsp;농지은행,&nbsp;스마트팜,&nbsp;영농정착지원금,&nbsp;농수축산&nbsp;협동조합(공약&nbsp;②),&nbsp;햇빛연금(공약&nbsp;①)&nbsp;등&nbsp;연계<br>○&nbsp;귀촌&nbsp;패키지&nbsp;(생활&nbsp;트랙):&nbsp;빈집&nbsp;리모델링,&nbsp;관광&nbsp;사단법인(공약&nbsp;③)&nbsp;일자리,&nbsp;청년창업&nbsp;보육,&nbsp;의료(공약&nbsp;⑤)·교육&nbsp;인프라&nbsp;-&nbsp;군&nbsp;자체&nbsp;청년주택·빈집&nbsp;활용·도시재생&nbsp;뉴딜&nbsp;등&nbsp;활용<br>○&nbsp;빈집&nbsp;자산화:&nbsp;보성&nbsp;다수&nbsp;빈집의&nbsp;단계&nbsp;리모델링을&nbsp;통해&nbsp;청년&nbsp;정착·관계인구&nbsp;거점으로&nbsp;전환<br>○&nbsp;청년&nbsp;창업&nbsp;인큐베이팅&nbsp;(보성청년창업캠퍼스):&nbsp;관광·농축수산·디지털·에너지&nbsp;분야&nbsp;청년창업&nbsp;보육&nbsp;-&nbsp;시드&nbsp;투자·창업자금,&nbsp;액셀러레이팅,&nbsp;멘토링,&nbsp;공유오피스·메이커스페이스,&nbsp;「보성청년관광사단법인」(공약&nbsp;③)&nbsp;연계,&nbsp;통합특별시&nbsp;청년기금·창업진흥원·중기부&nbsp;청년창업사관학교&nbsp;매칭&nbsp;등&nbsp;추진<br>○&nbsp;산업&nbsp;연계:&nbsp;햇빛연금(①)·농축수산(②)·관광&nbsp;사단법인(③)·생애주기&nbsp;의료(⑤)를&nbsp;<br>통합&nbsp;결합하여&nbsp;청년&nbsp;정착&nbsp;생태계&nbsp;조성<br>□&nbsp;이행방법<br>○&nbsp;1단계&nbsp;(2026&nbsp;하반기)&nbsp;-&nbsp;청년·관계인구지원방안&nbsp;확립,&nbsp;조례&nbsp;제·개정,&nbsp;빈집&nbsp;실태조사·정비&nbsp;계획,&nbsp;워케이션&nbsp;거점&nbsp;검토<br>○&nbsp;2단계&nbsp;(2027)&nbsp;-&nbsp;보성청년창업캠퍼스&nbsp;설립&nbsp;운영&nbsp;추진(공약&nbsp;②③&nbsp;인프라&nbsp;조성&nbsp;진척에&nbsp;따라),&nbsp;빈집&nbsp;리모델링&nbsp;단계&nbsp;추진,&nbsp;시범&nbsp;정착(귀농·귀촌&nbsp;분리&nbsp;트랙),&nbsp;관계인구&nbsp;확대<br>○&nbsp;3단계&nbsp;(2028)&nbsp;-&nbsp;관광벨트&nbsp;조성&nbsp;진척에&nbsp;따라&nbsp;「보성청년관광사단법인」(공약&nbsp;③)&nbsp;청년&nbsp;위탁&nbsp;확대,&nbsp;빈집&nbsp;리모델링&nbsp;누적,&nbsp;청년&nbsp;창업·일자리&nbsp;확대<br>○&nbsp;4단계&nbsp;(2029~2030)&nbsp;-&nbsp;빈집&nbsp;리모델링&nbsp;지속&nbsp;추진,&nbsp;임기&nbsp;4년차&nbsp;청년&nbsp;귀농·귀촌&nbsp;1000가구&nbsp;유치<br>□&nbsp;이행기간<br>○&nbsp;2026년&nbsp;하반기&nbsp;~&nbsp;2030년&nbsp;(4년&nbsp;단계&nbsp;분산&nbsp;추진)<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;다중&nbsp;채널&nbsp;단계&nbsp;조달을&nbsp;통해&nbsp;군&nbsp;직접&nbsp;부담&nbsp;최소화&nbsp;-&nbsp;농식품부&nbsp;청년농어업인&nbsp;영농정착지원·농지은행·스마트팜&nbsp;보급,&nbsp;행안부&nbsp;인구감소지역지원단·생활인구&nbsp;확대&nbsp;사업·도시재생&nbsp;뉴딜,&nbsp;고용부&nbsp;청년&nbsp;일자리·중기부&nbsp;청년창업사관학교·창업진흥원&nbsp;매칭,&nbsp;농협·수협·신협&nbsp;청년&nbsp;융자,&nbsp;전남광주통합특별시&nbsp;청년기금·균형발전기금,&nbsp;보성군&nbsp;지방소멸대응기금&nbsp;등&nbsp;활용<br>○&nbsp;청년&nbsp;정착·관계인구&nbsp;소비에&nbsp;따른&nbsp;지방세&nbsp;수입&nbsp;증가로&nbsp;재원&nbsp;일부&nbsp;회수&nbsp;가능</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	 어르신 의료 복지 시스템 구축 (보성종합병원 거점화)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title=" 어르신 의료 복지 시스템 구축 (보성종합병원 거점화)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;정량:&nbsp;임기&nbsp;4년차&nbsp;전&nbsp;군민&nbsp;응급의료&nbsp;접근성&nbsp;개선&nbsp;및&nbsp;24시&nbsp;의료&nbsp;보장&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;보성종합병원&nbsp;거점화·진료과&nbsp;보강:&nbsp;기존&nbsp;보성종합병원&nbsp;거점의료시설&nbsp;기능&nbsp;강화,응급의학·정형·외과·산부인과·소아청소년과&nbsp;등&nbsp;진료과&nbsp;인력·시설&nbsp;보강,&nbsp;「지역필수의료법」&nbsp;특별회계&nbsp;우선&nbsp;신청<br>&nbsp;&nbsp;○&nbsp;의사&nbsp;확보·보상체계:&nbsp;「지역의사법」·「계약형&nbsp;지역의사」&nbsp;활용,&nbsp;전남대&nbsp;의대등&nbsp;협력&nbsp;추진(보성&nbsp;우선&nbsp;배정&nbsp;건의),&nbsp;군&nbsp;자체&nbsp;인센티브(주거·자녀&nbsp;교육비·진료수당가산·연구비)&nbsp;검토,&nbsp;계약형·민간&nbsp;채용&nbsp;의사&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;생애주기&nbsp;통합&nbsp;의료:&nbsp;어르신(무료&nbsp;검진·비대면진료·방문진료·호스피스·완화의료·치매안심·통합돌봄),&nbsp;아동·청소년(진료과&nbsp;보강),&nbsp;여성(산부인과·출산&nbsp;인프라,&nbsp;공약&nbsp;④&nbsp;연계),&nbsp;정신건강(자살예방·우울증),&nbsp;보건진료&nbsp;전담공무원&nbsp;확대&nbsp;등<br>&nbsp;&nbsp;○&nbsp;AI·디지털&nbsp;헬스·광역&nbsp;협력:&nbsp;이재명&nbsp;정부&nbsp;「AI&nbsp;기본사회」&nbsp;정합&nbsp;AI&nbsp;진단·디지털헬스&nbsp;도입&nbsp;검토,&nbsp;전남대학교병원&nbsp;등&nbsp;분원·협력&nbsp;추진(국립대병원&nbsp;보건복지부&nbsp;이관활용),&nbsp;전남도&nbsp;닥터헬기&nbsp;보성&nbsp;출동기지&nbsp;추가&nbsp;지정&nbsp;추진,&nbsp;「글로벌&nbsp;의료관광특구」지정&nbsp;건의&nbsp;및&nbsp;차밭·해변&nbsp;웰니스&nbsp;결합&nbsp;등&nbsp;검토(공약&nbsp;③)<br>&nbsp;&nbsp;○&nbsp;아동·청년&nbsp;보강:&nbsp;「아동수당법」&nbsp;개정에&nbsp;따른&nbsp;인구소멸지역&nbsp;추가&nbsp;지급&nbsp;활용,&nbsp;햇빛아동수당(공약&nbsp;①)&nbsp;결합<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;(2026&nbsp;하반기)&nbsp;-&nbsp;보성종합병원&nbsp;보강&nbsp;마스터플랜&nbsp;수립,&nbsp;조례&nbsp;제·개정,&nbsp;보건복지부·전남대학교병원·통합특별시&nbsp;협력&nbsp;추진,&nbsp;지역필수의료&nbsp;특별회계&nbsp;신청<br>&nbsp;&nbsp;○&nbsp;2단계&nbsp;(2027)&nbsp;-&nbsp;진료과&nbsp;단계&nbsp;신설,&nbsp;계약형&nbsp;지역의사&nbsp;채용&nbsp;추진(군&nbsp;자체&nbsp;인센티브),&nbsp;시설&nbsp;단계&nbsp;보강,&nbsp;닥터헬기&nbsp;출동기지&nbsp;협의,&nbsp;비대면진료·AI&nbsp;진단&nbsp;인프라&nbsp;설계,보건진료&nbsp;전담공무원&nbsp;확대,&nbsp;어르신&nbsp;무료&nbsp;검진&nbsp;단계&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;3단계&nbsp;(2028)&nbsp;-&nbsp;진료과·의료진&nbsp;보강,&nbsp;시설&nbsp;보강,&nbsp;산부인과·정신건강·호스피스운영&nbsp;추진,&nbsp;비대면진료·원격의료·AI&nbsp;진단&nbsp;단계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;4단계&nbsp;(2029~2030)&nbsp;-&nbsp;생애주기&nbsp;통합&nbsp;의료체계&nbsp;구축,&nbsp;의료관광&nbsp;연계&nbsp;추진,&nbsp;응급의료&nbsp;접근성&nbsp;개선&nbsp;목표&nbsp;추진<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년(4년&nbsp;단계&nbsp;추진)&nbsp;+임기&nbsp;후속&nbsp;지역의사·공공의대&nbsp;인력&nbsp;연계<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;다중&nbsp;채널&nbsp;단계&nbsp;조달을&nbsp;통해&nbsp;군&nbsp;직접&nbsp;부담&nbsp;최소화&nbsp;-&nbsp;「지역필수의료법」&nbsp;특별회계&nbsp;우선&nbsp;배정&nbsp;신청,&nbsp;보건복지부&nbsp;공공보건의료·농어촌의료&nbsp;보조,&nbsp;응급의료기금(응급의료법&nbsp;§35),&nbsp;「지역의사법」&nbsp;인력&nbsp;양성&nbsp;사업비,&nbsp;전남대학교병원&nbsp;분원·국립의학전문대학원&nbsp;협력&nbsp;사업비,&nbsp;과기정통부&nbsp;디지털&nbsp;헬스·AI&nbsp;의료,&nbsp;전남광주통합특별시&nbsp;보건의료기금·균형발전기금,&nbsp;보성군&nbsp;보건예산·지방소멸대응기금,&nbsp;민간&nbsp;의료법인&nbsp;협력&nbsp;등&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;보성종합병원&nbsp;활용으로&nbsp;신규&nbsp;인프라&nbsp;투자&nbsp;부담&nbsp;최소화,&nbsp;의사&nbsp;확보&nbsp;인센티브&nbsp;등은&nbsp;군&nbsp;일반회계&nbsp;별도&nbsp;편성&nbsp;검토</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

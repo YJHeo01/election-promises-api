@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;문정우 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	빚(부채)없는 금산을 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="빚(부채)없는 금산을 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ·&nbsp;금산&nbsp;사랑&nbsp;상품권&nbsp;발행&nbsp;확대<br>&nbsp;&nbsp;·&nbsp;중소기업&nbsp;시설&nbsp;및&nbsp;근무환경&nbsp;개선&nbsp;지원<br>&nbsp;&nbsp;·&nbsp;마을별&nbsp;LPG&nbsp;소형&nbsp;저장탱크&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;·&nbsp;마을기업·사회적&nbsp;기업&nbsp;육성&nbsp;지원<br>&nbsp;&nbsp;·&nbsp;신재생&nbsp;에너지&nbsp;보급&nbsp;사업&nbsp;확대<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;경제&nbsp;활성화&nbsp;및&nbsp;삶의&nbsp;질&nbsp;향상<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;조례&nbsp;개정&nbsp;및&nbsp;국가&nbsp;충남도&nbsp;협의<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026~2029&nbsp;(임기&nbsp;내&nbsp;지속추진)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비+도비(공모사업)+군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	인구 5만 시대를 다시 활짝 열겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="인구 5만 시대를 다시 활짝 열겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            신혼·청년&nbsp;고품질&nbsp;공공&nbsp;임대주택&nbsp;및&nbsp;고품격&nbsp;소규모&nbsp;마을(신도시)&nbsp;조성<br>&nbsp;&nbsp;·&nbsp;친환경RE-100&nbsp;산업단지&nbsp;조성&nbsp;및&nbsp;친환경&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;·&nbsp;신혼·청년·근로자&nbsp;공공&nbsp;임대주택&nbsp;1,000호&nbsp;건설<br>&nbsp;&nbsp;·&nbsp;택지&nbsp;개발&nbsp;및&nbsp;공장입주&nbsp;시&nbsp;진입로&nbsp;개설&nbsp;지원<br>&nbsp;&nbsp;·&nbsp;은퇴자들을&nbsp;위한&nbsp;귀농,&nbsp;귀촌&nbsp;지원&nbsp;정책&nbsp;추진<br><br>청년&nbsp;창업농&nbsp;육성&nbsp;및&nbsp;귀농·귀촌&nbsp;지원<br>&nbsp;&nbsp;·&nbsp;금산&nbsp;인삼&nbsp;명맥&nbsp;유지를&nbsp;위한&nbsp;‘세계&nbsp;중요&nbsp;농업&nbsp;유산’&nbsp;지원&nbsp;복원&nbsp;및&nbsp;&nbsp;청년&nbsp;농가&nbsp;육성<br>&nbsp;&nbsp;·&nbsp;청년&nbsp;농업인&nbsp;기반&nbsp;시설&nbsp;지원&nbsp;및&nbsp;체류형&nbsp;귀농&nbsp;멘토링,&nbsp;농업&nbsp;창업&nbsp;지원센터&nbsp;운영<br>&nbsp;&nbsp;·&nbsp;금산&nbsp;스테이(Stay)프로그램&nbsp;운영:&nbsp;체험&nbsp;주택·텃밭&nbsp;제공으로&nbsp;금산&nbsp;정착&nbsp;지원<br>&nbsp;&nbsp;·&nbsp;여성&nbsp;농업&nbsp;행복바우처&nbsp;복원<br>&nbsp;&nbsp;·&nbsp;깻잎&nbsp;농가&nbsp;지원&nbsp;확대<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인구&nbsp;증가&nbsp;및&nbsp;일거리&nbsp;창출<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;조례&nbsp;개정&nbsp;및&nbsp;국가&nbsp;충남도&nbsp;협의<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026~2029&nbsp;(임기&nbsp;내&nbsp;지속추진)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비+도비(공모사업)+군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	우리 아이들이 살기좋은 교육도시로 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="우리 아이들이 살기좋은 교육도시로 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ·&nbsp;스무살&nbsp;첫걸음&nbsp;지원금&nbsp;신설<br>&nbsp;&nbsp;·&nbsp;장학기금&nbsp;200억&nbsp;조성으로&nbsp;지역&nbsp;인재&nbsp;육성<br>&nbsp;&nbsp;·&nbsp;대안학교&nbsp;특성화&nbsp;지원<br>&nbsp;&nbsp;·&nbsp;교육발전&nbsp;특구&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;군민맞춤형&nbsp;평생학습&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;·&nbsp;해외어학연수&nbsp;인원&nbsp;확대<br>&nbsp;&nbsp;·&nbsp;대입&nbsp;경쟁력&nbsp;강화사업&nbsp;확대<br>&nbsp;&nbsp;·&nbsp;보육&nbsp;서비스&nbsp;강화<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육&nbsp;여건&nbsp;개선&nbsp;및&nbsp;교육도시로&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;조례&nbsp;개정&nbsp;및&nbsp;국가&nbsp;충남도&nbsp;협의<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026~2029&nbsp;(임기&nbsp;내&nbsp;지속추진)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비+도비(공모사업)+군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	인삼 엑스포 개최를 통해 침체된 인삼산업 활성화를  이끌겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="인삼 엑스포 개최를 통해 침체된 인삼산업 활성화를  이끌겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ·&nbsp;중단된&nbsp;금산세계인삼&nbsp;엑스포&nbsp;재&nbsp;개최&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;인삼&nbsp;품질·유통·선별&nbsp;표준&nbsp;기준&nbsp;마련&nbsp;및&nbsp;농가&nbsp;지원<br>&nbsp;&nbsp;·&nbsp;해외&nbsp;인삼&nbsp;축제&nbsp;박람회·전시회&nbsp;참가로&nbsp;세계&nbsp;시장&nbsp;인삼&nbsp;홍보·판로&nbsp;개척&nbsp;및&nbsp;수출&nbsp;확대<br>&nbsp;&nbsp;·&nbsp;고려인삼&nbsp;테마파크&nbsp;조성으로&nbsp;세계농업유산&nbsp;브랜드&nbsp;활성화<br>&nbsp;&nbsp;·&nbsp;스파(휴)복원으로&nbsp;금산&nbsp;힐링&nbsp;관광&nbsp;거점&nbsp;조성<br>&nbsp;&nbsp;·&nbsp;군수&nbsp;품질&nbsp;인증제&nbsp;도입<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인삼&nbsp;산업&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;조례&nbsp;개정&nbsp;및&nbsp;국가&nbsp;충남도&nbsp;협의<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026~2029&nbsp;(임기&nbsp;내&nbsp;지속추진)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비+도비(공모사업)+군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	“금산 맞춤형 햇빛 연금”을 시행하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="“금산 맞춤형 햇빛 연금”을 시행하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ·&nbsp;데크길·광장·주차장&nbsp;등&nbsp;군&nbsp;소유지에&nbsp;태양광&nbsp;설치로&nbsp;햇빛,&nbsp;비가림&nbsp;편의를&nbsp;제공하고,&nbsp;수익은&nbsp;군민&nbsp;민생&nbsp;지원금으로&nbsp;돌려드리겠습니다.<br>&nbsp;&nbsp;·&nbsp;노인&nbsp;일자리&nbsp;확대로&nbsp;활기찬&nbsp;노후&nbsp;보장<br>&nbsp;&nbsp;·&nbsp;노후&nbsp;경로당&nbsp;새단장&nbsp;및&nbsp;복합&nbsp;돌봄&nbsp;서비스&nbsp;강화<br>&nbsp;&nbsp;·&nbsp;민생&nbsp;안전&nbsp;지원금&nbsp;기금&nbsp;조성&nbsp;및&nbsp;소상공인&nbsp;특례&nbsp;보증지원&nbsp;확대<br>&nbsp;&nbsp;·&nbsp;여성&nbsp;취·창업&nbsp;지원&nbsp;<br>&nbsp;&nbsp;·&nbsp;다문화가족&nbsp;맞춤&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;·&nbsp;지역&nbsp;아동센터&nbsp;365일&nbsp;24시간&nbsp;돌봄&nbsp;지원<br>&nbsp;&nbsp;·&nbsp;혼자&nbsp;사시는&nbsp;어르신&nbsp;안전망&nbsp;구축<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민&nbsp;복지&nbsp;향상&nbsp;및&nbsp;햇빛연금&nbsp;시행<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;조례&nbsp;개정&nbsp;및&nbsp;국가&nbsp;충남도&nbsp;협의<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026~2029&nbsp;(임기&nbsp;내&nbsp;지속추진)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비+도비(공모사업)+군비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

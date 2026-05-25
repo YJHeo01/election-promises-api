@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김덕현 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	서울~연천 고속도로 조기 착공</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="서울~연천 고속도로 조기 착공">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;연천에서&nbsp;서울까지&nbsp;45분&nbsp;내로&nbsp;주파하는&nbsp;연천&nbsp;고속도로&nbsp;개통을&nbsp;위해&nbsp;민선&nbsp;9기&nbsp;핵심&nbsp;공약으로&nbsp;설정합니다.&nbsp;사통팔달&nbsp;교통&nbsp;인프라&nbsp;구축으로&nbsp;물류&nbsp;비용이&nbsp;절감되어야&nbsp;기업이&nbsp;들어올&nbsp;수&nbsp;있다.&nbsp;연천군민을&nbsp;위한&nbsp;양질의&nbsp;일자리가&nbsp;청년세대에&nbsp;마련되어야&nbsp;연천군&nbsp;발전의&nbsp;시금석을&nbsp;마련할&nbsp;수가&nbsp;있습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;현재&nbsp;서울에서&nbsp;양주까지&nbsp;계획된&nbsp;민자&nbsp;고속도로에&nbsp;연천까지&nbsp;연장하는&nbsp;방안을&nbsp;위해&nbsp;지난&nbsp;2년&nbsp;노력한&nbsp;결과,&nbsp;정부의&nbsp;국정과제로&nbsp;채택되었습니다.&nbsp;사전&nbsp;타당성&nbsp;조사를&nbsp;마치고,&nbsp;이제&nbsp;예타&nbsp;포함&nbsp;여부만&nbsp;남은&nbsp;상태입니다.&nbsp;앞으로&nbsp;4년&nbsp;서울&nbsp;연천&nbsp;고속도로&nbsp;조기&nbsp;착공을&nbsp;위해&nbsp;최선을&nbsp;다하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울에서&nbsp;양주까지&nbsp;21.6km&nbsp;는&nbsp;민자&nbsp;사업으로&nbsp;포스코&nbsp;이엔씨가&nbsp;2026년&nbsp;착공하여&nbsp;2030년&nbsp;개통&nbsp;예정입니다.&nbsp;양주에서&nbsp;연천까지&nbsp;29km&nbsp;구간을&nbsp;연장하기&nbsp;위한&nbsp;방안으로&nbsp;예비타당성&nbsp;조사&nbsp;대상사업&nbsp;미&nbsp;선정을&nbsp;위하여&nbsp;노력하고&nbsp;있습니다.&nbsp;지난해&nbsp;12월,&nbsp;기획재정부&nbsp;국장&nbsp;면담을&nbsp;했다.&nbsp;최근까지&nbsp;국토&nbsp;교통부&nbsp;도로정책&nbsp;과장은&nbsp;만나&nbsp;연천고속도로&nbsp;조기&nbsp;착공을&nbsp;위한&nbsp;준비를&nbsp;하고&nbsp;있습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2021~2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;서울에서&nbsp;연천까지&nbsp;총&nbsp;사업비는&nbsp;2조&nbsp;8,051억원.&nbsp;사업량은&nbsp;50.7km,&nbsp;4차선&nbsp;도로로&nbsp;건설될&nbsp;예정입니다.&nbsp;국토교통부&nbsp;“양주~연천&nbsp;고속도로&nbsp;구간”의&nbsp;사전&nbsp;타당성&nbsp;연구용역&nbsp;추진에&nbsp;따라&nbsp;국가&nbsp;재정사업으로&nbsp;추진할&nbsp;수&nbsp;있도록&nbsp;협업체계를&nbsp;구축하고&nbsp;있습니다.&nbsp;이를&nbsp;통해&nbsp;국비&nbsp;50%,&nbsp;도비&nbsp;30%,&nbsp;지방비&nbsp;20%&nbsp;부담을&nbsp;목표로&nbsp;준비하고&nbsp;있습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	2029, 전곡 에듀 헬스 케어센터 개관  </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="2029, 전곡 에듀 헬스 케어센터 개관  ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전곡읍의&nbsp;인구&nbsp;19,300명이&nbsp;거주하는&nbsp;연천군의&nbsp;대표&nbsp;도시이다.&nbsp;교육과&nbsp;체육,&nbsp;레저,&nbsp;커뮤니티&nbsp;등의&nbsp;다목적&nbsp;센터를&nbsp;건설하고자&nbsp;한다.&nbsp;이를&nbsp;통해&nbsp;주민&nbsp;편의시설인&nbsp;목욕탕,&nbsp;수영장,&nbsp;볼링장,&nbsp;교육&nbsp;돌봄&nbsp;시설&nbsp;등&nbsp;전곡읍&nbsp;주민들의&nbsp;삶의&nbsp;질을&nbsp;향상시켜&nbsp;살고&nbsp;싶은&nbsp;연천군을&nbsp;만들고자&nbsp;한다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중앙정부의&nbsp;국비&nbsp;공모사업에&nbsp;선정되어&nbsp;연천군청의&nbsp;군비는&nbsp;최소화.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;전곡읍&nbsp;전곡리&nbsp;241-3번지&nbsp;일원&nbsp;(대지면적&nbsp;6,022m2,&nbsp;온골&nbsp;유치원&nbsp;인근부지)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;복합&nbsp;교육문화체육시설&nbsp;(지하&nbsp;1층/지상&nbsp;3층,&nbsp;연면적&nbsp;7,561m2)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2022.&nbsp;09&nbsp;~&nbsp;2029.&nbsp;06<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2025.&nbsp;04&nbsp;예듀헬스케어센터&nbsp;실시설계용역&nbsp;착수&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2025.&nbsp;09&nbsp;경기도&nbsp;제&nbsp;3차&nbsp;지역균형&nbsp;발전사업&nbsp;사업계획&nbsp;의결&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2025.&nbsp;10&nbsp;부지조성&nbsp;공사&nbsp;착공&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2026.&nbsp;06&nbsp;건축공사&nbsp;착공&nbsp;및&nbsp;기공식&nbsp;개최<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2029.&nbsp;06&nbsp;공사&nbsp;준공&nbsp;및&nbsp;센터&nbsp;개관<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총&nbsp;사업비&nbsp;360억원.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;국비&nbsp;(행안부&nbsp;46억)&nbsp;(교육부&nbsp;180억),&nbsp;도비&nbsp;100억,&nbsp;군비33억.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	2029, AI 기반 그린 바이오 클로스터 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="2029, AI 기반 그린 바이오 클로스터 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>&nbsp;&nbsp;○&nbsp;연천군의&nbsp;기간산업인&nbsp;농업을&nbsp;기반으로&nbsp;첨단&nbsp;생명공학&nbsp;기술을&nbsp;융합하는&nbsp;그린&nbsp;바이오&nbsp;산업의&nbsp;거점으로&nbsp;발전시키겠습니다.&nbsp;전국&nbsp;생량&nbsp;55%인&nbsp;율무와&nbsp;귀리,&nbsp;인삼,&nbsp;햄프&nbsp;등&nbsp;지역&nbsp;특화작물을&nbsp;기반으로&nbsp;기능성&nbsp;식품,&nbsp;바이오&nbsp;소재,&nbsp;의약,&nbsp;화장품&nbsp;산업으로&nbsp;확장시키겠습니다.&nbsp;이를&nbsp;통해&nbsp;향후&nbsp;바이오&nbsp;기업&nbsp;50개&nbsp;이상&nbsp;유치와&nbsp;1,000개&nbsp;이상의&nbsp;일자리를&nbsp;창출하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;연천읍&nbsp;통현리&nbsp;1069-4번지&nbsp;외&nbsp;1필지.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;지상&nbsp;3층/대지면적&nbsp;7,856m2,&nbsp;연면적&nbsp;2,538m2<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2024년&nbsp;~&nbsp;2029년<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2026.&nbsp;06&nbsp;건축설계&nbsp;완료&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2026.&nbsp;07&nbsp;건축공사&nbsp;착공을&nbsp;위한&nbsp;행정절차&nbsp;이행<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2026.&nbsp;09&nbsp;건축공사&nbsp;착공&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2029.&nbsp;06&nbsp;완공<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총&nbsp;사업비&nbsp;190억원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;도비&nbsp;119억,&nbsp;군비&nbsp;41억,&nbsp;인구소멸대응기금&nbsp;30억.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	2029, 세계 구석기 엑스포 개최</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="2029, 세계 구석기 엑스포 개최">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;30만&nbsp;년&nbsp;전&nbsp;인류가&nbsp;살았던&nbsp;유적지가&nbsp;연천군&nbsp;전곡읍&nbsp;전곡리에&nbsp;있습니다.&nbsp;동아시아에서&nbsp;유일하게&nbsp;구석기&nbsp;문명을&nbsp;지닌&nbsp;유적지로&nbsp;올해&nbsp;33회&nbsp;축제를&nbsp;맞이했습니다.&nbsp;이제는&nbsp;연천군과&nbsp;대한민국을&nbsp;넘어&nbsp;세계인을&nbsp;향한&nbsp;창으로&nbsp;발전되어야&nbsp;합니다.&nbsp;이를&nbsp;통해&nbsp;세계&nbsp;속에&nbsp;연천을&nbsp;알리고,&nbsp;나아가&nbsp;연천군의&nbsp;지역경제도&nbsp;살리겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;“손&nbsp;안의&nbsp;혁명,&nbsp;미래를&nbsp;깨우다”를&nbsp;메인&nbsp;테마로&nbsp;연천&nbsp;전곡리&nbsp;유적&nbsp;및&nbsp;연천군&nbsp;일원에서&nbsp;2029년&nbsp;4월&nbsp;14일부터&nbsp;5월&nbsp;13일까지&nbsp;30일&nbsp;동안&nbsp;세계인을&nbsp;위한&nbsp;엑스포를&nbsp;개최하고자&nbsp;합니다.&nbsp;그동안&nbsp;연천군은&nbsp;개최를&nbsp;위한&nbsp;준비단계로&nbsp;국가&nbsp;유산청에&nbsp;엑스포&nbsp;개최의&nbsp;타당성을&nbsp;인정받는&nbsp;행정적&nbsp;절차를&nbsp;마쳤습니다.&nbsp;기재부에&nbsp;국제행사&nbsp;정책성&nbsp;등급평가를&nbsp;받았고,&nbsp;자치단체인&nbsp;연천군이&nbsp;단독으로&nbsp;할&nbsp;수는&nbsp;없었습니다.&nbsp;경기도와&nbsp;공동개최를&nbsp;위해&nbsp;지난해&nbsp;10월&nbsp;업무협약을&nbsp;체결했습니다.&nbsp;이제&nbsp;행정적&nbsp;절차는&nbsp;마쳤습니다.&nbsp;앞으로&nbsp;3년,&nbsp;엑스포&nbsp;조직위원회&nbsp;설림을&nbsp;통하여&nbsp;세계&nbsp;속에&nbsp;연천군을&nbsp;위한&nbsp;손님맞이에&nbsp;만전을&nbsp;기하도록&nbsp;하겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2024&nbsp;~&nbsp;2029.&nbsp;05&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2024.&nbsp;12&nbsp;엑스포&nbsp;타당성&nbsp;조사&nbsp;및&nbsp;기본계획&nbsp;수립&nbsp;용역&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2025.&nbsp;05&nbsp;2029년&nbsp;연천&nbsp;세계&nbsp;구석기&nbsp;엑스포&nbsp;개최&nbsp;선포식&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2025.&nbsp;11&nbsp;세계&nbsp;구석기&nbsp;엑스포&nbsp;사업계획서&nbsp;제출(경기도>>>국가유산청)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2025.&nbsp;12&nbsp;국제행사&nbsp;심사&nbsp;및&nbsp;정책성&nbsp;등급평가&nbsp;신청서&nbsp;제출<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(국가&nbsp;유산청>>>기재부)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2026.&nbsp;02&nbsp;국제행사&nbsp;심의&nbsp;및&nbsp;승인(기재부)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2026.&nbsp;09&nbsp;~&nbsp;12&nbsp;구석기&nbsp;엑스포&nbsp;조직위원회&nbsp;설립&nbsp;준비<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총&nbsp;사업비&nbsp;202억원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(국비&nbsp;60억,&nbsp;도비&nbsp;40억,&nbsp;군비&nbsp;42억,&nbsp;기타&nbsp;60억)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	연천 세계 평화정원 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="연천 세계 평화정원 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;세계&nbsp;유일의&nbsp;분단현장&nbsp;상징인&nbsp;DMZ의&nbsp;생태적&nbsp;가치와&nbsp;평화적&nbsp;가치를&nbsp;활용한&nbsp;세계인을&nbsp;위한&nbsp;힐링&nbsp;생태정원을&nbsp;조성하고자&nbsp;합니다.&nbsp;임진강&nbsp;홍수&nbsp;조절용&nbsp;군남댐&nbsp;건설로&nbsp;상류지역인&nbsp;중면의&nbsp;홍수터가&nbsp;방치되었습니다.&nbsp;이를&nbsp;중면&nbsp;주민들이&nbsp;맨&nbsp;손으로&nbsp;정원을&nbsp;가꾸어&nbsp;매년&nbsp;9월&nbsp;10월&nbsp;두&nbsp;달간&nbsp;댑싸리&nbsp;정&nbsp;원으로&nbsp;수도권&nbsp;주민들에게&nbsp;사진명소인&nbsp;핫스팟&nbsp;지역이&nbsp;되었습니다.&nbsp;댑싸리&nbsp;정원을&nbsp;기반으로&nbsp;국가&nbsp;정원을&nbsp;만들겠습니다.&nbsp;더&nbsp;나아가&nbsp;지구촌&nbsp;사람들&nbsp;에게&nbsp;힐링과&nbsp;평화의&nbsp;메시지를&nbsp;전달하는&nbsp;세계&nbsp;평화정원을&nbsp;조성할&nbsp;계획입니다.&nbsp;기존&nbsp;그리팅&nbsp;맨과&nbsp;군남댐&nbsp;두루미&nbsp;공원과&nbsp;연계하는&nbsp;관광벨트를&nbsp;조성하여&nbsp;연천군의&nbsp;미래&nbsp;먹거리인&nbsp;관광보존의&nbsp;연천군을&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;연천군&nbsp;중면&nbsp;삼곶리&nbsp;380번지&nbsp;일원(333,000m2)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;댑싸리&nbsp;정원&nbsp;정비&nbsp;및&nbsp;주제&nbsp;정원&nbsp;조성&nbsp;1식<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2025.&nbsp;01~&nbsp;2027.&nbsp;12&nbsp;(1단계&nbsp;조성사업)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2025.&nbsp;05&nbsp;정원&nbsp;조성&nbsp;기본계획&nbsp;수립&nbsp;용역&nbsp;착수&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2025.&nbsp;07&nbsp;재해&nbsp;영양평가&nbsp;용역&nbsp;착수&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2025.&nbsp;10&nbsp;브랜딩&nbsp;개발&nbsp;용역&nbsp;착수<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2025.&nbsp;12&nbsp;관련&nbsp;기관&nbsp;협의(군부대&nbsp;협의,&nbsp;문화재&nbsp;현상변경&nbsp;허가)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2026.&nbsp;03&nbsp;재해&nbsp;영향평가&nbsp;용역,&nbsp;브랜딩&nbsp;개발&nbsp;용역&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2026.&nbsp;04&nbsp;정원조성&nbsp;기본계획&nbsp;수립&nbsp;용역&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2026.&nbsp;06~&nbsp;2029.&nbsp;12&nbsp;정원&nbsp;조성공사&nbsp;1단계&nbsp;사업&nbsp;시행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총&nbsp;40억원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(도비&nbsp;34억,&nbsp;군비&nbsp;6억)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;조주홍 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	예산 1조원 시대 개막</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="예산 1조원 시대 개막">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            &#9702;&nbsp;지방자치단체의&nbsp;지방소멸위기&nbsp;극복을&nbsp;위한&nbsp;재정확대정책의&nbsp;일환으로써,&nbsp;2030년까지&nbsp;본예산&nbsp;1조원&nbsp;시대&nbsp;진입으로&nbsp;영덕군&nbsp;경제규모&nbsp;확대와&nbsp;정주환경개선을&nbsp;위한&nbsp;도전적인&nbsp;예산확보에&nbsp;경주.<br><br>▣&nbsp;목&nbsp;표<br>&nbsp;&nbsp;·&nbsp;2027년&nbsp;7000억&nbsp;확보&nbsp;시작으로&nbsp;연도별·단계별&nbsp;접근<br><br>▣&nbsp;이행방법<br>&nbsp;&nbsp;·&nbsp;국·도비&nbsp;비중이&nbsp;큰&nbsp;신규·공모사업&nbsp;치중<br>&nbsp;&nbsp;·&nbsp;공직자&nbsp;특수&nbsp;시책&nbsp;및&nbsp;아이디어&nbsp;발굴,&nbsp;성과·인센티브&nbsp;제공<br>&nbsp;&nbsp;·&nbsp;신규&nbsp;세원&nbsp;발굴,&nbsp;체납세&nbsp;적극&nbsp;징수<br>&nbsp;&nbsp;·&nbsp;효율적인&nbsp;공유재산&nbsp;관리와&nbsp;적극적&nbsp;처분·임대&nbsp;조치로&nbsp;세원&nbsp;확보<br><br>▣&nbsp;이행기간<br>&nbsp;&nbsp;·&nbsp;2027년&nbsp;~&nbsp;2030년<br><br>▣&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;·&nbsp;기업·민자·기관의&nbsp;적극적&nbsp;유치와&nbsp;관련한&nbsp;재정재원&nbsp;마련&nbsp;제고<br>&nbsp;&nbsp;·&nbsp;국·도비&nbsp;적극적&nbsp;예산확보와&nbsp;신규&nbsp;공모사업에&nbsp;대한&nbsp;선제적&nbsp;대응책&nbsp;강구<br>&nbsp;&nbsp;·&nbsp;공유재산의&nbsp;효율적&nbsp;자산&nbsp;활용책&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	영덕에너지개발공사 설립추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="영덕에너지개발공사 설립추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            &#9702;에너지믹스&nbsp;개념을&nbsp;도입한&nbsp;‘에너지&nbsp;믹스&nbsp;위원회’와&nbsp;신재생·탄소중립의&nbsp;태양광,&nbsp;해상풍력,&nbsp;육상풍력&nbsp;발전을&nbsp;통한&nbsp;군민&nbsp;수익공유형&nbsp;에너지&nbsp;연금&nbsp;모델의&nbsp;실현을&nbsp;위한&nbsp;총괄&nbsp;관리&nbsp;기관의&nbsp;필요성&nbsp;제기<br><br>▣&nbsp;목&nbsp;표<br>&nbsp;&nbsp;·&nbsp;고령화와&nbsp;인구감소,&nbsp;지역소멸위기&nbsp;극복<br>&nbsp;&nbsp;·&nbsp;햇빛·바람·영덕군민연금&nbsp;지급<br>&nbsp;&nbsp;·&nbsp;해양과&nbsp;산림과의&nbsp;관광자원화로&nbsp;복합&nbsp;에너지&nbsp;관광도시로의&nbsp;이미지&nbsp;재고<br><br>▣&nbsp;이행방법<br>&nbsp;&nbsp;·&nbsp;범군민&nbsp;에너지&nbsp;믹스위원회&nbsp;구성<br>&nbsp;&nbsp;·&nbsp;에너지&nbsp;투자기업과의&nbsp;지역공헌도&nbsp;참여유도<br><br>▣&nbsp;이행기간<br>&nbsp;&nbsp;·&nbsp;2027년&nbsp;~&nbsp;2030년<br><br>▣&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;·&nbsp;국가·정부의&nbsp;에너지관련기금&nbsp;활용<br>&nbsp;&nbsp;·&nbsp;기업·민자&nbsp;유치와&nbsp;관련한&nbsp;재원&nbsp;협조&nbsp;도모<br>&nbsp;&nbsp;·&nbsp;지자체&nbsp;자체&nbsp;관련한&nbsp;연간&nbsp;운영비의&nbsp;예산&nbsp;배정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	스마트 실버 클러스터 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="스마트 실버 클러스터 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            &#9702;&nbsp;‘살던&nbsp;곳’에서&nbsp;의료·요양·생활&nbsp;지원의&nbsp;일괄&nbsp;통합돌봄지원법이&nbsp;2026년&nbsp;3월부터&nbsp;전격&nbsp;시행되고,&nbsp;65세이상&nbsp;인구가&nbsp;46%&nbsp;이상인&nbsp;초고령사회에&nbsp;걸맞는&nbsp;맞춤형&nbsp;실버돌봄&nbsp;산업을&nbsp;선도해&nbsp;나갈&nbsp;인프라&nbsp;공급단지를&nbsp;선제적으로&nbsp;조성하고자&nbsp;함.<br><br>▣&nbsp;목&nbsp;표<br>&nbsp;&nbsp;·&nbsp;통합돌봄의&nbsp;점진적&nbsp;확대에&nbsp;대비한&nbsp;돌봄용역,&nbsp;시설,&nbsp;교육&nbsp;개발&nbsp;등의&nbsp;전반적&nbsp;실버&nbsp;산업의&nbsp;거점단지&nbsp;조성<br><br>▣&nbsp;이행방법<br>&nbsp;&nbsp;·&nbsp;국책공모사업으로의&nbsp;정부&nbsp;건의<br>&nbsp;&nbsp;·&nbsp;지방산업단지&nbsp;조성&nbsp;지원책&nbsp;전방위&nbsp;활용<br><br>▣&nbsp;이행기간<br>&nbsp;&nbsp;·&nbsp;2027년&nbsp;~&nbsp;2030년<br><br>▣&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;·&nbsp;통합돌봄지원법&nbsp;상&nbsp;최대한&nbsp;국비지원의&nbsp;적극적&nbsp;대처<br>&nbsp;&nbsp;·&nbsp;지방소멸대응기금,&nbsp;지역균특발전기금,&nbsp;기회특구기금&nbsp;등의&nbsp;적극적&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	700억 기채 상환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="700억 기채 상환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            &#9702;위험한&nbsp;지방소멸&nbsp;위기와&nbsp;전국&nbsp;최하위&nbsp;수준의&nbsp;열악한&nbsp;재정자립도의&nbsp;현실과&nbsp;지난해&nbsp;3.25&nbsp;대형&nbsp;산불로&nbsp;누적된&nbsp;700억&nbsp;기채&nbsp;부담을&nbsp;타개하기&nbsp;위해&nbsp;자산&nbsp;구조&nbsp;조정과&nbsp;철저한&nbsp;예산&nbsp;절감을&nbsp;위한&nbsp;특별&nbsp;세출·입&nbsp;구조조정으로&nbsp;부채&nbsp;탕감에&nbsp;대한&nbsp;각고의&nbsp;노력이&nbsp;절실함.<br><br>▣&nbsp;목&nbsp;표<br>&nbsp;&nbsp;·&nbsp;불요불급한&nbsp;경상경비,&nbsp;전시성·낭비성&nbsp;예산&nbsp;과감히&nbsp;축소<br>&nbsp;&nbsp;·&nbsp;건전&nbsp;재정&nbsp;운용을&nbsp;위한&nbsp;효율적인&nbsp;예산절감&nbsp;정책&nbsp;시행<br><br>▣&nbsp;이행방법<br>&nbsp;&nbsp;·&nbsp;사업&nbsp;우선순위&nbsp;재조정과&nbsp;시기&nbsp;조절<br>&nbsp;&nbsp;·&nbsp;신규&nbsp;국·도비&nbsp;사업과&nbsp;공모사업의&nbsp;적극적&nbsp;재원&nbsp;발굴<br><br>▣&nbsp;이행기간<br>&nbsp;&nbsp;·&nbsp;2027년&nbsp;~&nbsp;2030년<br><br>▣&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;·&nbsp;대규모&nbsp;외부자본&nbsp;유치를&nbsp;통한&nbsp;재정&nbsp;확대<br>&nbsp;&nbsp;·&nbsp;공적자금,&nbsp;지방활성화기금,&nbsp;고향사랑기부제&nbsp;확대&nbsp;요구와&nbsp;적극적&nbsp;활용<br>&nbsp;&nbsp;·&nbsp;불필요한&nbsp;사업&nbsp;정리,&nbsp;공유재산의&nbsp;적극적&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	2,000만 관광객 시대, 고래불 · 삼사 호텔 & 리조트 조성        민자유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="2,000만 관광객 시대, 고래불 · 삼사 호텔 & 리조트 조성        민자유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            &#9702;영덕&nbsp;대표&nbsp;관광지인&nbsp;고래불해수욕장과&nbsp;삼사해상공원&nbsp;내&nbsp;민자를&nbsp;이용한&nbsp;가족호텔과&nbsp;리조트&nbsp;건립으로&nbsp;양질의&nbsp;일자리&nbsp;창출,&nbsp;관광객&nbsp;유치&nbsp;및&nbsp;지역&nbsp;관광&nbsp;산업&nbsp;발전에&nbsp;기여.<br>&nbsp;<br>▣&nbsp;목&nbsp;표<br>&nbsp;&nbsp;·&nbsp;영덕관광&nbsp;2,000만&nbsp;시대&nbsp;개막<br>&nbsp;&nbsp;·&nbsp;7,000억원&nbsp;규모&nbsp;민간자본&nbsp;유치,&nbsp;신규&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;<br>▣&nbsp;이행방법<br>&nbsp;&nbsp;·&nbsp;민·관·학&nbsp;추진위원회&nbsp;구성<br>&nbsp;&nbsp;·&nbsp;기본&nbsp;및&nbsp;실시설계(2027년&nbsp;하반기)<br>&nbsp;&nbsp;·&nbsp;민간&nbsp;투융자&nbsp;유치&nbsp;홍보,&nbsp;광고<br>&nbsp;&nbsp;·&nbsp;인허가&nbsp;편의&nbsp;위한&nbsp;전담T.F팀&nbsp;구성<br>&nbsp;&nbsp;·&nbsp;한국관광공사&nbsp;등&nbsp;외부&nbsp;전문기관&nbsp;자문·협조<br>&nbsp;<br>▣&nbsp;이행기간<br>&nbsp;&nbsp;·&nbsp;2027년&nbsp;~&nbsp;2030년<br>&nbsp;&nbsp;&nbsp;<br>▣&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;·&nbsp;국·도비,&nbsp;지방활성화&nbsp;펀드<br>&nbsp;&nbsp;·&nbsp;민자투자조성&nbsp;유치</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

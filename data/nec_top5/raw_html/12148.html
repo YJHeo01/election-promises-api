@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;최재형 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	제3산업단지 완료 및 제4 AI기반산업단지 준비</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="제3산업단지 완료 및 제4 AI기반산업단지 준비">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;국토&nbsp;중심에&nbsp;위치하여&nbsp;교통&nbsp;여건&nbsp;개선,&nbsp;상대적으로&nbsp;저렴한&nbsp;지가로&nbsp;보은군&nbsp;내&nbsp;계획&nbsp;입지(산업단지)&nbsp;100%&nbsp;분양&nbsp;완료된&nbsp;상태<br>&nbsp;&nbsp;※&nbsp;보은&nbsp;제3산업단지&nbsp;조기&nbsp;완공(보은군&nbsp;탄부면&nbsp;고승,&nbsp;자직리&nbsp;일원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업규모&nbsp;:&nbsp;산업단지조성&nbsp;755천㎡<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사&nbsp;업&nbsp;비&nbsp;:&nbsp;1,362억원(국비&nbsp;359,&nbsp;도비&nbsp;130,&nbsp;군비&nbsp;623,&nbsp;기타&nbsp;250)<br>&nbsp;&nbsp;※&nbsp;제4지역특화&nbsp;AI기반&nbsp;산업단지&nbsp;조성(위치:&nbsp;보은읍&nbsp;삼승면&nbsp;일원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업규모&nbsp;:&nbsp;산업단지&nbsp;조성&nbsp;800천㎡,&nbsp;사업비&nbsp;:&nbsp;1,600억원<br><br>○&nbsp;지방&nbsp;소멸&nbsp;대응을&nbsp;위해서는&nbsp;일자리&nbsp;제공이&nbsp;절실한&nbsp;상황<br><br>○&nbsp;양질의&nbsp;일자리는&nbsp;민간부분에서&nbsp;창출하고&nbsp;공공부분에서는&nbsp;정주&nbsp;여건&nbsp;개선에&nbsp;집중하기로&nbsp;함<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지방&nbsp;소멸&nbsp;대응,&nbsp;양질의&nbsp;일자리&nbsp;창출,&nbsp;정주&nbsp;여건&nbsp;개선,&nbsp;인구&nbsp;4만&nbsp;회복<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일자리&nbsp;1,000개&nbsp;창출,&nbsp;지역내&nbsp;총생산(GRDP)&nbsp;상승(충북내&nbsp;3위&nbsp;달성)<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;관련&nbsp;조례제정&nbsp;및&nbsp;이행&nbsp;/&nbsp;자문위원회&nbsp;자문&nbsp;/&nbsp;공청회<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;보은&nbsp;제3산업단지&nbsp;:&nbsp;2022~2028<br>&nbsp;&nbsp;○&nbsp;제4지역특화&nbsp;AI기반&nbsp;산업단지&nbsp;:&nbsp;2026~2033<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;359억원,&nbsp;도비&nbsp;130억원,&nbsp;군비&nbsp;623억원,&nbsp;기타&nbsp;250억원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	AI방산 클러스터 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="AI방산 클러스터 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;러-우&nbsp;전쟁,&nbsp;중동사태&nbsp;이후&nbsp;국내&nbsp;방산부분(한화,&nbsp;LIG넥스원,&nbsp;현대로템&nbsp;등)실적&nbsp;단군&nbsp;이래&nbsp;최대&nbsp;실적&nbsp;창출<br><br>○&nbsp;보은군은&nbsp;국가산업단지&nbsp;내&nbsp;한화&nbsp;방산부분이&nbsp;위치해&nbsp;있으나,&nbsp;산업단지구역&nbsp;면적이&nbsp;2008년&nbsp;이래&nbsp;4,178㎡로&nbsp;묶여&nbsp;있음<br><br>○&nbsp;방산물자&nbsp;특성(고중량,&nbsp;고위험)상&nbsp;물자&nbsp;이동&nbsp;수단이&nbsp;주로&nbsp;철도로&nbsp;제5차&nbsp;국가&nbsp;철도망&nbsp;계획에&nbsp;청주공항&nbsp;­&nbsp;보은&nbsp;­&nbsp;김천&nbsp;노선&nbsp;반영&nbsp;시&nbsp;방산기업의&nbsp;획기적&nbsp;유인책이&nbsp;될&nbsp;수&nbsp;있음<br><br>□&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;일자리&nbsp;창출(현재&nbsp;1,013명→2,000명)<br>&nbsp;&nbsp;○&nbsp;투자금&nbsp;1조&nbsp;유치로&nbsp;지역경제&nbsp;활성화<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;관련&nbsp;조례제정&nbsp;및&nbsp;이행&nbsp;/&nbsp;방산&nbsp;분야&nbsp;공공기관&nbsp;협의<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;중단기&nbsp;사업으로&nbsp;분류,&nbsp;임기&nbsp;내&nbsp;이행&nbsp;및&nbsp;사업&nbsp;기반&nbsp;조성<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비,&nbsp;기타</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	스마트 농업으로의 농업 대전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="스마트 농업으로의 농업 대전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;기후변화와&nbsp;노동력&nbsp;감소로&nbsp;인해&nbsp;농업경영이&nbsp;점점&nbsp;어려워지고&nbsp;있는&nbsp;시점에서&nbsp;매년&nbsp;농업재해(저온,&nbsp;병충해,&nbsp;폭우&nbsp;등)로&nbsp;농업&nbsp;생산성이&nbsp;현저히&nbsp;저하<br><br>○&nbsp;선진농업기술&nbsp;및&nbsp;농업기반시설&nbsp;보급,&nbsp;확대,&nbsp;지원으로&nbsp;양질의&nbsp;농산물&nbsp;생산으로&nbsp;경쟁력을&nbsp;높일&nbsp;수&nbsp;있도록&nbsp;스마트&nbsp;농업&nbsp;확산&nbsp;<br>&nbsp;&nbsp;※&nbsp;스마트&nbsp;농업&nbsp;육성&nbsp;핵심지구(보은군&nbsp;탄부면&nbsp;고승,&nbsp;사직리&nbsp;일원)&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업규모&nbsp;:&nbsp;15.3ha(임대형스마트팜&nbsp;4.5ha,&nbsp;스마트원예단지&nbsp;5.7ha,&nbsp;기타&nbsp;5.3ha),&nbsp;사&nbsp;업&nbsp;비&nbsp;:&nbsp;480억원<br>&nbsp;&nbsp;※&nbsp;보은형&nbsp;스마트(보은군&nbsp;일원)&nbsp;농업&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업규모&nbsp;:&nbsp;1,500ha&nbsp;농가,&nbsp;600ha&nbsp;보급,&nbsp;사업비&nbsp;:&nbsp;400억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원예&nbsp;:&nbsp;시설하우스,&nbsp;스마트팜시설,&nbsp;양액재배시설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;과수&nbsp;:&nbsp;스마트&nbsp;과원&nbsp;정비,&nbsp;환경센서,&nbsp;제어장치&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기후&nbsp;위기&nbsp;:&nbsp;방상팬,&nbsp;차광막,&nbsp;미세살수&nbsp;등<br><br>□&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;기후변화&nbsp;신속한&nbsp;대응,&nbsp;지속&nbsp;가능한&nbsp;농업경영&nbsp;향상,&nbsp;농업재해&nbsp;예방,&nbsp;농산물&nbsp;생산성&nbsp;향상<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;관련&nbsp;조례제정&nbsp;및&nbsp;이행&nbsp;/&nbsp;전문농업경영&nbsp;단체&nbsp;자문&nbsp;/&nbsp;공청회<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;농업&nbsp;육성&nbsp;핵심지구&nbsp;:&nbsp;2026~2029<br>&nbsp;&nbsp;○&nbsp;보은형&nbsp;스마트(보은군&nbsp;일원)&nbsp;농업&nbsp;:&nbsp;2026~2030<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비,&nbsp;기타</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	속리산 비룡호수 관광단지 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="속리산 비룡호수 관광단지 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;속리산관광,&nbsp;200만&nbsp;달성,&nbsp;속리산비룡호수&nbsp;관광단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1,500억/1단계&nbsp;비룡수변풍경길,&nbsp;2단계&nbsp;플레이프스,&nbsp;3단계&nbsp;관광단지<br><br>○&nbsp;속리산말티재&nbsp;산림레져타운&nbsp;조성(패러글라이딩,&nbsp;루지)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;200억/행정,&nbsp;의료,&nbsp;복지,&nbsp;문화,&nbsp;교육&nbsp;서비스&nbsp;통합&nbsp;지원<br><br>○&nbsp;민자유치를&nbsp;통한&nbsp;구병산&nbsp;관광지&nbsp;활성화&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마로면&nbsp;적암리/800억/관광호텔&nbsp;54실,&nbsp;콘도&nbsp;30실,&nbsp;스포츠센터&nbsp;등<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;보는관광&nbsp;→&nbsp;체험관광,&nbsp;가족단위&nbsp;관광&nbsp;→&nbsp;개별관광으로&nbsp;관광&nbsp;페러다임&nbsp;전환을&nbsp;위해&nbsp;대규모&nbsp;민자유치를&nbsp;통해&nbsp;보은관광&nbsp;300만&nbsp;시대&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;대규모&nbsp;민자유치를&nbsp;통한&nbsp;숙박,&nbsp;레저기능이&nbsp;복합된&nbsp;제2의&nbsp;관광거점&nbsp;조성하여&nbsp;체류형&nbsp;관광지&nbsp;조성,&nbsp;생활인구&nbsp;대폭&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;관련&nbsp;조례제정&nbsp;및&nbsp;이행&nbsp;/&nbsp;자문위원회&nbsp;자문&nbsp;/&nbsp;공청회<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;속리산비룡호수&nbsp;관광단지&nbsp;:&nbsp;2022~2034<br>&nbsp;&nbsp;○&nbsp;4차&nbsp;공원구역&nbsp;해제(공원구역&nbsp;교환)&nbsp;:&nbsp;2030년&nbsp;예정<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비,&nbsp;기타(국립공원관리공단&nbsp;등)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	삶이 행복한 보은교육</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="삶이 행복한 보은교육">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;도&nbsp;-&nbsp;농간&nbsp;교육격차&nbsp;개선을&nbsp;통한&nbsp;교육&nbsp;여건&nbsp;개선과&nbsp;지원&nbsp;등&nbsp;다양한&nbsp;교육정책을&nbsp;개발하여&nbsp;삶이&nbsp;행복한&nbsp;보은교육&nbsp;향상<br>&nbsp;&nbsp;-&nbsp;AI&nbsp;방산기계과&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;충북생명산업고(전&nbsp;보은농고)에&nbsp;AI&nbsp;방산기계과&nbsp;신설(학년당&nbsp;20~25명/총&nbsp;60~75명),&nbsp;한화방산(글로벌,&nbsp;에어로스페이스)를&nbsp;통한&nbsp;지역인재&nbsp;우선&nbsp;채용&nbsp;명문화<br>&nbsp;&nbsp;-&nbsp;1인&nbsp;1기&nbsp;다재다능&nbsp;보은교육<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;만&nbsp;5세~&nbsp;만&nbsp;14세(중&nbsp;3학년까지)&nbsp;군비&nbsp;32억원(군비&nbsp;100%,&nbsp;8억/년)을&nbsp;투입하여&nbsp;승마,&nbsp;골프,&nbsp;축구,&nbsp;야구,&nbsp;수영,&nbsp;탁구,&nbsp;밴드,&nbsp;악기,&nbsp;미술&nbsp;등&nbsp;1인&nbsp;1기의&nbsp;다재다능한&nbsp;보은만의&nbsp;교육으로&nbsp;삶을&nbsp;풍요롭게&nbsp;해줄&nbsp;여가&nbsp;활동&nbsp;지원<br><br>□&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;보은&nbsp;만의&nbsp;교육으로&nbsp;보은을&nbsp;찾고,&nbsp;다양한&nbsp;교육으로&nbsp;보은에&nbsp;머무는&nbsp;배움의&nbsp;도시로&nbsp;탈바꿈<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;관련&nbsp;조례제정&nbsp;및&nbsp;이행&nbsp;/&nbsp;교육전기관&nbsp;자문&nbsp;/&nbsp;공청회<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;충북생명산업고(전&nbsp;보은농고)에&nbsp;AI&nbsp;방산기계과&nbsp;신설&nbsp;:&nbsp;2027&nbsp;~&nbsp;계속<br>&nbsp;&nbsp;○&nbsp;1인&nbsp;1기&nbsp;다재다능&nbsp;보은교육&nbsp;:&nbsp;2026&nbsp;~&nbsp;계속<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비,&nbsp;기타</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

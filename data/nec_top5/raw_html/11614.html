@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;서은숙 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	통합돌봄지원센터 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="통합돌봄지원센터 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;통합돌봄전담창구&nbsp;읍면동&nbsp;100%&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을&nbsp;전체가&nbsp;돌봄의&nbsp;주체가&nbsp;되어&nbsp;지역&nbsp;일자리를&nbsp;창출하고&nbsp;공동체&nbsp;신뢰&nbsp;회복<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불필요한&nbsp;장기입원&nbsp;감소로&nbsp;사회적&nbsp;비용(의료비,&nbsp;요양비)&nbsp;절감,&nbsp;복지행정의&nbsp;효율성&nbsp;제고<br>&nbsp;&nbsp;○&nbsp;재가서비스&nbsp;이용만족도&nbsp;95%&nbsp;달성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;필요한&nbsp;서비스를&nbsp;생활공간에서&nbsp;원스텝으로&nbsp;받음으로써&nbsp;심리적&nbsp;안정과&nbsp;삶의&nbsp;질&nbsp;개선<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;:&nbsp;통합돌봄대응체계&nbsp;정밀진단<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;실태조사&nbsp;등&nbsp;반영&nbsp;확대&nbsp;재편<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;:&nbsp;지역사회&nbsp;통합돌봄&nbsp;지원&nbsp;조례&nbsp;고도화&nbsp;개정<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(민관&nbsp;협력&nbsp;및&nbsp;스마트&nbsp;돌봄지원&nbsp;근거&nbsp;명시)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관련&nbsp;법&nbsp;발효에&nbsp;맞춰&nbsp;안정적인&nbsp;예산&nbsp;확보&nbsp;근거&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;행정동별&nbsp;돌봄전담팀설치:&nbsp;보건소,&nbsp;복지관,&nbsp;동주민센터&nbsp;유기적&nbsp;결합<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;순차적으로&nbsp;<br>&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;보건복지부&nbsp;통합지원시범사업&nbsp;공모&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;지역돌봄&nbsp;조례&nbsp;및&nbsp;법규&nbsp;정비를&nbsp;통한&nbsp;예산&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	신중년 일자리 창출을 위한 50플러스 센터 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="신중년 일자리 창출을 위한 50플러스 센터 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;은퇴자&nbsp;재취업&nbsp;및&nbsp;창업성공율&nbsp;40%&nbsp;달성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경제적&nbsp;안전망&nbsp;확보와&nbsp;사회적&nbsp;소속감&nbsp;유지&nbsp;및&nbsp;자아실현&nbsp;도모<br>&nbsp;&nbsp;○&nbsp;지역사회공헌&nbsp;활동&nbsp;참여자&nbsp;2배&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행정&nbsp;모니터링,&nbsp;안전&nbsp;점검&nbsp;등&nbsp;은퇴자&nbsp;전문지식을&nbsp;활용한&nbsp;공공서비스&nbsp;질&nbsp;향상&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;세대간&nbsp;멘토링&nbsp;활성화로&nbsp;지역&nbsp;공동체&nbsp;화합<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;:&nbsp;부산진구&nbsp;내&nbsp;조기은퇴자&nbsp;숙련도&nbsp;전수조사&nbsp;및&nbsp;경력뱅크&nbsp;DB&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;:&nbsp;장년층&nbsp;생애재설계&nbsp;지원&nbsp;및&nbsp;사회참여촉진&nbsp;조례&nbsp;개정<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(활동비&nbsp;지원&nbsp;및&nbsp;공간&nbsp;제공&nbsp;근거&nbsp;마련)<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;08&nbsp;~&nbsp;:&nbsp;부산진구형&nbsp;50플러스&nbsp;센터&nbsp;고도화&nbsp;및&nbsp;은퇴자·청년&nbsp;매칭&nbsp;경험&nbsp;공유&nbsp;위크&nbsp;개최<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;&nbsp;임기&nbsp;내&nbsp;순차적으로&nbsp;&nbsp;<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;고용노동부&nbsp;고령자&nbsp;고용안정&nbsp;공모사업&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;구비:&nbsp;조례개정을&nbsp;통한&nbsp;예산&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	스마트 안심도시 사업</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="스마트 안심도시 사업">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지능형&nbsp;CCTV&nbsp;및&nbsp;스마트&nbsp;셉테드(CPTED)&nbsp;적용률&nbsp;80%&nbsp;달성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;빅데이터&nbsp;기반의&nbsp;효율적&nbsp;자원배분으로&nbsp;치안,&nbsp;소방&nbsp;골든타임&nbsp;단축&nbsp;및&nbsp;예산&nbsp;집행의&nbsp;투명성&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;체감&nbsp;안전도&nbsp;1위&nbsp;확보&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간&nbsp;통행시&nbsp;디지털&nbsp;안전망을&nbsp;통한&nbsp;심리적&nbsp;안심&nbsp;및&nbsp;만족도&nbsp;향상<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;:&nbsp;부산진구&nbsp;내&nbsp;안전&nbsp;취약지구&nbsp;전수&nbsp;조사&nbsp;및&nbsp;안심마을&nbsp;대상지&nbsp;선정<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;:&nbsp;주민참여&nbsp;생활안전&nbsp;증진&nbsp;및&nbsp;셉테드&nbsp;지원&nbsp;조례&nbsp;개정<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;순차적으로&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;행안부&nbsp;스마트&nbsp;안전도시&nbsp;공모&nbsp;사업&nbsp;유치&nbsp;:&nbsp;국비&nbsp;인센티브&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;부산시&nbsp;자치구별&nbsp;안전지수&nbsp;인센티브&nbsp;예산&nbsp;:&nbsp;안전등급&nbsp;개선&nbsp;성과에&nbsp;따른&nbsp;포상금을&nbsp;기금으로&nbsp;전환</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	기후적응센터 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="기후적응센터 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;‘재난&nbsp;사후&nbsp;복구’에서&nbsp;‘선제적&nbsp;기후&nbsp;적응’으로&nbsp;행정&nbsp;패러다임&nbsp;전환&nbsp;및&nbsp;기후&nbsp;격차&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기후&nbsp;재난에&nbsp;대한&nbsp;지방정부의&nbsp;책임성&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;내&nbsp;삶을&nbsp;지키는&nbsp;지방정부로서의&nbsp;신뢰도&nbsp;확보&nbsp;및&nbsp;자치&nbsp;역량&nbsp;강화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;:&nbsp;부산진구&nbsp;기후적응&nbsp;범시민협의회&nbsp;구성,&nbsp;관내&nbsp;기후재난&nbsp;사례&nbsp;발굴&nbsp;및&nbsp;사전대응&nbsp;워크숍<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘스마트&nbsp;차수판’,&nbsp;‘쿨링&nbsp;로드’&nbsp;등&nbsp;고도화된&nbsp;방재시설&nbsp;도입&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;:&nbsp;기후&nbsp;주권&nbsp;보장&nbsp;조례&nbsp;제정&nbsp;및&nbsp;기후적응센터&nbsp;거점&nbsp;선정<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내&nbsp;순차적으로&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;중앙정부&nbsp;공모&nbsp;및&nbsp;국비&nbsp;지원&nbsp;:&nbsp;환경부&nbsp;기후위기&nbsp;적응&nbsp;대책&nbsp;지원&nbsp;사업&nbsp;등&nbsp;국비&nbsp;매칭&nbsp;펀드&nbsp;적극&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;부산시&nbsp;기후위기&nbsp;대응&nbsp;기금&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;재난관리기금&nbsp;및&nbsp;성인지&nbsp;예산&nbsp;연동</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	재개발·재건축 신속 대응 및 주거권리 보장 사업</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="재개발·재건축 신속 대응 및 주거권리 보장 사업">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;‘규제’에서&nbsp;‘지원’으로&nbsp;행정&nbsp;패러다임&nbsp;전환&nbsp;및&nbsp;사업&nbsp;기간&nbsp;1년&nbsp;이상&nbsp;단축&nbsp;실현&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건축,&nbsp;교통,&nbsp;경관&nbsp;등&nbsp;이원화된&nbsp;심의를&nbsp;통합하여&nbsp;사업기간&nbsp;단축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공의&nbsp;적극적&nbsp;개입으로&nbsp;투명한&nbsp;정보공개를&nbsp;통해&nbsp;조합&nbsp;비리&nbsp;또는&nbsp;분쟁을&nbsp;사전&nbsp;차단<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업&nbsp;지연에&nbsp;따른&nbsp;분담금&nbsp;상승&nbsp;억제&nbsp;및&nbsp;소송&nbsp;등의&nbsp;사회적&nbsp;손실&nbsp;방지<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;&nbsp;:&nbsp;정비사업&nbsp;우수&nbsp;행정&nbsp;사례(절차&nbsp;간소화&nbsp;등)&nbsp;전수&nbsp;조사&nbsp;및&nbsp;표준&nbsp;모델&nbsp;확정<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;&nbsp;:‘정비사업&nbsp;신속지원조례’제·개정(통합심의&nbsp;및&nbsp;공공관리제&nbsp;시행&nbsp;근거&nbsp;마련)<br>&nbsp;&nbsp;<br>□&nbsp;이행기간&nbsp;:&nbsp;임기&nbsp;내&nbsp;순차적으로&nbsp;<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;부산시‘정비사업기금’및&nbsp;특별교부금&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;재건축·재개발&nbsp;안전진단&nbsp;비용&nbsp;지원&nbsp;예산&nbsp;:&nbsp;2026년&nbsp;대폭&nbsp;강화된&nbsp;지자체&nbsp;정비사업&nbsp;지원&nbsp;예산&nbsp;활용</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

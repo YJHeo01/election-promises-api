@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김동구 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	영월~삼척 고속도로 태백나들목(IC) 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="영월~삼척 고속도로 태백나들목(IC) 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;2028&nbsp;년&nbsp;실시설계&nbsp;완료&nbsp;전,&nbsp;태백&nbsp;IC&nbsp;를&nbsp;고속도로&nbsp;노선에&nbsp;공식&nbsp;반영<br>&nbsp;&nbsp;○&nbsp;IC&nbsp;위치:&nbsp;태백&nbsp;도심(황지:삼수동)&nbsp;15&nbsp;분&nbsp;이내&nbsp;접근&nbsp;가능한&nbsp;최적&nbsp;지점&nbsp;선정<br>&nbsp;&nbsp;○&nbsp;IC&nbsp;확보로&nbsp;물류.관광.의료&nbsp;접근성&nbsp;개선&nbsp;-→&nbsp;지역경제&nbsp;활성화&nbsp;기반&nbsp;마련<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STEP&nbsp;1&nbsp;당선&nbsp;즉시&nbsp;국토교통부.강원도&nbsp;면담&nbsp;-→&nbsp;태백&nbsp;IC&nbsp;설치&nbsp;공식&nbsp;건의서&nbsp;제출<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STEP&nbsp;2&nbsp;지역구&nbsp;국회의원.강원도지사&nbsp;공동&nbsp;대응&nbsp;-→&nbsp;국회&nbsp;국토교통위원회&nbsp;청원.&nbsp;질의&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STEP&nbsp;3&nbsp;시민.단체&nbsp;서명운동&nbsp;전개,&nbsp;전문&nbsp;용역으로&nbsp;태백IC&nbsp;경제성&nbsp;분석보고서&nbsp;독자&nbsp;작성.제출<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STEP&nbsp;4&nbsp;폐광지역&nbsp;특별법&nbsp;개정&nbsp;추진&nbsp;-→&nbsp;IC&nbsp;설치를&nbsp;법률로&nbsp;뒷받침하는&nbsp;근거&nbsp;조항&nbsp;신설<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2026&nbsp;년:&nbsp;즉각&nbsp;건의.면담.서명운동&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2027&nbsp;년:&nbsp;독자&nbsp;용역&nbsp;보고서&nbsp;제출,&nbsp;입법&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2028&nbsp;년:&nbsp;실시설계&nbsp;반영&nbsp;최종&nbsp;확정&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2034~35&nbsp;년:&nbsp;고속도로&nbsp;개통&nbsp;(태백&nbsp;IC&nbsp;포함)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;국비&nbsp;(국토부&nbsp;고속도로&nbsp;건설비)&nbsp;:&nbsp;주재원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;폐광지역개발기금&nbsp;:&nbsp;IC&nbsp;추가비용&nbsp;보전&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;강원특별자치도&nbsp;지역균형발전&nbsp;특별회계&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;태백시&nbsp;분담:&nbsp;접근도로.주변&nbsp;개발비&nbsp;일부</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	정부주도형 주민참여 신재생에너지 개발 통한 “태백형 기본소득”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="정부주도형 주민참여 신재생에너지 개발 통한 “태백형 기본소득”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;신재생에너지(풍력&nbsp;300MW+&nbsp;태양광&nbsp;100MW&nbsp;=&nbsp;총&nbsp;400MW)&nbsp;개발로&nbsp;태백&nbsp;시민&nbsp;모두에게&nbsp;매년&nbsp;기본소득&nbsp;제공<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;풍력발전&nbsp;:&nbsp;매봉산·가덕산·백병산·함백산&nbsp;등&nbsp;태백&nbsp;능선&nbsp;전역에&nbsp;풍력발전기&nbsp;300MW&nbsp;설치.&nbsp;기존&nbsp;64MW에&nbsp;추가로&nbsp;노후&nbsp;발전기&nbsp;리파워링(대형&nbsp;교체)&nbsp;+&nbsp;미개발&nbsp;능선&nbsp;신규&nbsp;허가&nbsp;추진.&nbsp;연간&nbsp;약&nbsp;74만MWh&nbsp;전기&nbsp;생산&nbsp;-&nbsp;태백&nbsp;시&nbsp;전체&nbsp;전&nbsp;력&nbsp;소비의&nbsp;약&nbsp;2.4배.<br>&nbsp;&nbsp;○&nbsp;태양광&nbsp;:　폐광지·유휴&nbsp;부지에&nbsp;태양광&nbsp;패널&nbsp;100MW&nbsp;설치.&nbsp;저수지&nbsp;수상태&nbsp;양광,&nbsp;공공건물&nbsp;옥상,&nbsp;임야&nbsp;활용&nbsp;병행.&nbsp;연간&nbsp;약&nbsp;13만MWh&nbsp;추가&nbsp;생산.&nbsp;탄소제로&nbsp;에너지&nbsp;도시&nbsp;전환&nbsp;가속<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;풍력발전&nbsp;:&nbsp;2026&nbsp;~&nbsp;2035년&nbsp;(3단계&nbsp;추진)<br>&nbsp;&nbsp;○&nbsp;태양광&nbsp;:&nbsp;2027&nbsp;~&nbsp;2033년&nbsp;(단계적&nbsp;설치)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;풍력발전&nbsp;:&nbsp;국비보존&nbsp;30%(약2700억),&nbsp;정책금융&nbsp;50%(약4500억),&nbsp;시·시민&nbsp;투&nbsp;자&nbsp;20%&nbsp;(약&nbsp;1800억)<br>&nbsp;&nbsp;○&nbsp;태양광&nbsp;:&nbsp;국비·도비&nbsp;보조&nbsp;35%&nbsp;(약540억),&nbsp;녹색금융&nbsp;45%&nbsp;(700억),&nbsp;시·시민&nbsp;투자&nbsp;20%&nbsp;(약&nbsp;310억)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	K-방산산업 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="K-방산산업 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;폐광으로&nbsp;침체된&nbsp;태백을&nbsp;'K-방산&nbsp;거점&nbsp;도시'로&nbsp;탈바꿈시켜&nbsp;청년이&nbsp;돌아오는&nbsp;활기찬&nbsp;태백으로&nbsp;만들어&nbsp;경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;드론방산&nbsp;시험장&nbsp;유치&nbsp;:&nbsp;▶&nbsp;방위사업청에&nbsp;드론&nbsp;시험장&nbsp;▶&nbsp;강원도.국방부와&nbsp;즉시&nbsp;TF&nbsp;팀&nbsp;▶&nbsp;한화·LIG&nbsp;등&nbsp;대기업연구소&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;폐광&nbsp;-&nbsp;군사시설&nbsp;재탄생&nbsp;:&nbsp;▶&nbsp;폐광&nbsp;갱도&nbsp;안전&nbsp;정밀&nbsp;조사&nbsp;▶&nbsp;국방부와&nbsp;지하&nbsp;군사시설&nbsp;협약&nbsp;▶&nbsp;건설비&nbsp;절반&nbsp;이상&nbsp;국가가&nbsp;부담<br>&nbsp;&nbsp;○&nbsp;훈련장-기업&nbsp;클러스터&nbsp;:&nbsp;▶&nbsp;지역내&nbsp;훈련장&nbsp;가능부지&nbsp;▶&nbsp;특수전사령부와&nbsp;MOU&nbsp;체결&nbsp;▶&nbsp;방산기업&nbsp;10&nbsp;개사&nbsp;이상&nbsp;입주<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1년차&nbsp;2026&nbsp;-&nbsp;준비&nbsp;:&nbsp;TF구성,&nbsp;타당성조사,&nbsp;MOU&nbsp;체결<br>&nbsp;&nbsp;○&nbsp;2년차&nbsp;2027&nbsp;-&nbsp;지정&nbsp;:&nbsp;클러스터지정,&nbsp;인허가완료,&nbsp;기업&nbsp;R개최<br>&nbsp;&nbsp;○&nbsp;3년차&nbsp;2028&nbsp;-&nbsp;착공&nbsp;:&nbsp;드론시험장착공,&nbsp;지하시설착공,&nbsp;10개사&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;4년차&nbsp;2029~30&nbsp;-&nbsp;완성&nbsp;:&nbsp;시험장&nbsp;운영,&nbsp;일자리&nbsp;3천명,&nbsp;인구반등달성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총사업비&nbsp;약&nbsp;5000억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국방부,방위사업청(국비)&nbsp;66%&nbsp;(약&nbsp;3300억원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강원도비&nbsp;10%&nbsp;(약&nbsp;500억원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;기업&nbsp;투자&nbsp;및&nbsp;폐광기금&nbsp;등&nbsp;기타&nbsp;24%&nbsp;(약&nbsp;1200억원)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	동·서 직결도로 개설 / 시내버스 완전공영제</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="동·서 직결도로 개설 / 시내버스 완전공영제">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;동.서&nbsp;직결도로&nbsp;개설&nbsp;(1주공건널목&nbsp;+동백산역,&nbsp;터널&nbsp;포함&nbsp;3.5km)&nbsp;:&nbsp;지금&nbsp;황지동(서쪽)에서&nbsp;동백산역(동쪽)까지&nbsp;터널&nbsp;포함&nbsp;직결도로를&nbsp;새로&nbsp;뚫어&nbsp;10분&nbsp;안에&nbsp;주파.&nbsp;낙후된&nbsp;동쪽(통동.황연동)&nbsp;주민도&nbsp;서쪽&nbsp;주민과&nbsp;똑같이&nbsp;병원.시장.관공서를&nbsp;편리하게&nbsp;이용하게하고&nbsp;동.서&nbsp;지역균형발전의&nbsp;기반&nbsp;마련.<br>&nbsp;&nbsp;○&nbsp;시내버스&nbsp;완전공영제&nbsp;(어르신.청소년.장애인&nbsp;버스&nbsp;무료!)&nbsp;:&nbsp;지금&nbsp;민간회사(영암.화성고속)가&nbsp;운영하는&nbsp;시내버스를&nbsp;태백시가&nbsp;직접&nbsp;운영하여&nbsp;시민&nbsp;모두에게&nbsp;공평한&nbsp;교통복지&nbsp;제공.&nbsp;65세&nbsp;이상&nbsp;어르신,&nbsp;19세&nbsp;미만&nbsp;청소년,&nbsp;장애인,&nbsp;기초수급자&nbsp;버스&nbsp;완전&nbsp;무료.&nbsp;일반&nbsp;시민&nbsp;요금&nbsp;1,300원&nbsp;-500원으로&nbsp;인하,&nbsp;배차간격&nbsp;30분&nbsp;이내,&nbsp;막차&nbsp;밤&nbsp;11시,&nbsp;전기&nbsp;저상버스&nbsp;도입으로&nbsp;서비스&nbsp;개선.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;동.서&nbsp;직결도로&nbsp;개설<br>사업내용:&nbsp;터널&nbsp;1.9km&nbsp;+일반도로&nbsp;1.6km&nbsp;(왕복&nbsp;2차로)&nbsp;신설<br>추진절차&nbsp;:타당성&nbsp;조사→기본.실시설계→환경영향평가→토지보상→착공→&nbsp;개통<br>&nbsp;&nbsp;○&nbsp;시내버스&nbsp;완전공영제<br>운영조직:&nbsp;태백시교통공단(가칭)설립-시가&nbsp;직접&nbsp;차량,&nbsp;기사,&nbsp;노선&nbsp;결정(현&nbsp;기사&nbsp;전원&nbsp;공무직&nbsp;전환)<br>노선조직:&nbsp;동서횡단&nbsp;직결노선&nbsp;신설포함&nbsp;전&nbsp;노선&nbsp;시민수요&nbsp;중심으로&nbsp;완전재편<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;동.서&nbsp;직결도로&nbsp;개설&nbsp;:&nbsp;2026년&nbsp;타당성&nbsp;조사주민공청회&nbsp;▶&nbsp;2027~2028년&nbsp;설&nbsp;계.인허가.토지보상&nbsp;▶&nbsp;2029~2031년&nbsp;터널&nbsp;도로&nbsp;공사&nbsp;▶&nbsp;2032년&nbsp;개통!<br>&nbsp;&nbsp;○&nbsp;시내버스&nbsp;완전공영제&nbsp;:&nbsp;2026년&nbsp;하반기&nbsp;조례&nbsp;제정.준비&nbsp;▶&nbsp;2027년&nbsp;교통공&nbsp;단&nbsp;설립.전기버스&nbsp;발주&nbsp;▶&nbsp;2028년&nbsp;시범운행&nbsp;▶&nbsp;2028년&nbsp;하반기&nbsp;전면&nbsp;시행!<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;동.서&nbsp;직결도로&nbsp;개설&nbsp;-총&nbsp;사업비&nbsp;약&nbsp;800억원&nbsp;:&nbsp;국비&nbsp;400억원(50%)+&nbsp;강원&nbsp;도비&nbsp;240억원(30%)&nbsp;+&nbsp;태백시비&nbsp;160억원(20%)<br>&nbsp;&nbsp;○&nbsp;완전공영제&nbsp;-초기&nbsp;비용&nbsp;약&nbsp;120억원&nbsp;:&nbsp;전기버스&nbsp;환경부&nbsp;보조금.국비.도비로&nbsp;절반&nbsp;조달&nbsp;-&nbsp;태백시&nbsp;실부담&nbsp;약&nbsp;60억원(연간&nbsp;운영&nbsp;순부담&nbsp;약&nbsp;17~20억원.&nbsp;시&nbsp;연&nbsp;간&nbsp;예산의&nbsp;2.5~3%&nbsp;수준으로&nbsp;감당&nbsp;가능)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	첨단농업 전환 및 계절근로자 확충</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="첨단농업 전환 및 계절근로자 확충">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>:&nbsp;공공임대형&nbsp;스마트팜&nbsp;생산단지&nbsp;조성(시가&nbsp;짓고,&nbsp;농민이&nbsp;경작)<br>▶&nbsp;입주&nbsp;농가60&nbsp;호,&nbsp;농민&nbsp;초기&nbsp;투자0원으로&nbsp;연&nbsp;소득&nbsp;3,000~6,000만원&nbsp;실현&nbsp;<br>:&nbsp;계절근로자&nbsp;공공지원&nbsp;체계&nbsp;구축<br>▶연간&nbsp;200명&nbsp;안정&nbsp;유치,&nbsp;농번기&nbsp;인력&nbsp;공백&nbsp;완전&nbsp;해소&nbsp;·비자.행정&nbsp;처리기간&nbsp;50%&nbsp;단축,&nbsp;농가가&nbsp;직접&nbsp;서류&nbsp;낼&nbsp;필요&nbsp;없음<br><br>□&nbsp;이행방법<br>첨단농업:&nbsp;▶&nbsp;시가&nbsp;시설&nbsp;건설,&nbsp;농민은&nbsp;임대료만&nbsp;내고&nbsp;입주ㅡ투자&nbsp;부담&nbsp;제로&nbsp;<br>▶&nbsp;AI&nbsp;자동&nbsp;환경제어로&nbsp;하루&nbsp;2~3&nbsp;시간&nbsp;관리만으로&nbsp;1동&nbsp;운영&nbsp;가능&nbsp;(고령&nbsp;농민도&nbsp;0K)<br>계절근로자&nbsp;:&nbsp;시청&nbsp;전담&nbsp;부서신설,&nbsp;공공기숙사(50-100인)&nbsp;건설　<br><br>□&nbsp;이행기간<br>========================================================================================<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;첨단농업&nbsp;전환&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;계절근로자&nbsp;지원&nbsp;<br>--------------------------------------------------------------------------------------------------------------------------------------------<br>2026&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;사업&nbsp;계획&nbsp;부지&nbsp;확정,&nbsp;국비&nbsp;공모&nbsp;신청&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;외국인농업인력센터&nbsp;신설,&nbsp;베트남&nbsp;등&nbsp;MOU&nbsp;체결<br>--------------------------------------------------------------------------------------------------------------------------------------------<br>2027&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;시범&nbsp;온실&nbsp;5동&nbsp;완공,&nbsp;첫&nbsp;입주&nbsp;농가&nbsp;10&nbsp;호&nbsp;영농&nbsp;개시&nbsp;&nbsp;|&nbsp;&nbsp;기숙사&nbsp;완공,&nbsp;첫&nbsp;계절근로자&nbsp;50&nbsp;명&nbsp;입국&nbsp;배치<br>--------------------------------------------------------------------------------------------------------------------------------------------<br>2028&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;10동&nbsp;추가&nbsp;확장,&nbsp;공동&nbsp;브랜드&nbsp;출시&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;AI&nbsp;매칭&nbsp;플랫폼&nbsp;가동,&nbsp;150&nbsp;명&nbsp;체계&nbsp;완성<br>--------------------------------------------------------------------------------------------------------------------------------------------<br>2029&nbsp;-&nbsp;2030&nbsp;&nbsp;|&nbsp;&nbsp;15동&nbsp;전체&nbsp;완공,&nbsp;60&nbsp;호&nbsp;입주&nbsp;목표&nbsp;달성&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;연&nbsp;200명&nbsp;안정&nbsp;유치,&nbsp;재방문률&nbsp;70%&nbsp;달성<br>========================================================================================<br><br>□&nbsp;재원조달방안&nbsp;등<br>첨단농업&nbsp;전환&nbsp;<br>▶&nbsp;총사업비&nbsp;60억&nbsp;원ㅡ시자체&nbsp;부담은&nbsp;9&nbsp;억&nbsp;원(15%)에&nbsp;불과&nbsp;▶&nbsp;국비&nbsp;36&nbsp;억(60%):&nbsp;농식품부&nbsp;스마트팜&nbsp;혁신밸리&nbsp;사업&nbsp;공모&nbsp;&nbsp;▶&nbsp;도비&nbsp;12&nbsp;억(20%):&nbsp;강원도&nbsp;고랭지&nbsp;농업&nbsp;특화&nbsp;지원&nbsp;▶&nbsp;나머지&nbsp;3&nbsp;억:&nbsp;농협&nbsp;저리&nbsp;융자&nbsp;활용.&nbsp;임대료&nbsp;수입으로&nbsp;유지비&nbsp;자체&nbsp;충당<br><br>계절근로자&nbsp;지원<br>▶&nbsp;총사업비&nbsp;15억&nbsp;원&nbsp;:&nbsp;시&nbsp;자체&nbsp;부담은&nbsp;4.5&nbsp;억원(30%)&nbsp;▶&nbsp;국비&nbsp;6&nbsp;억(40%):&nbsp;고용부&nbsp;외국인력&nbsp;지원사업&nbsp;공모&nbsp;▶&nbsp;도비&nbsp;3&nbsp;억(20%):&nbsp;강원도&nbsp;농촌&nbsp;인력지원사업&nbsp;▶&nbsp;기숙사&nbsp;건설비:&nbsp;LH&nbsp;농촌&nbsp;공공임대주택&nbsp;사업&nbsp;별도&nbsp;연계</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김민수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	충남권 최초, 국립호국원 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="충남권 최초, 국립호국원 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;국가에&nbsp;헌신한&nbsp;유공자에&nbsp;대한&nbsp;마지막&nbsp;예우&nbsp;강화&nbsp;<br>&nbsp;&nbsp;○&nbsp;유족&nbsp;편의&nbsp;제공&nbsp;<br>&nbsp;&nbsp;○&nbsp;관계&nbsp;인구&nbsp;증가에&nbsp;따른&nbsp;지역경제&nbsp;활성화&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;부여군의&nbsp;유치&nbsp;제안&nbsp;및&nbsp;부지&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예정지&nbsp;:&nbsp;홍산면&nbsp;홍양리&nbsp;산19-1번지&nbsp;일원<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;예산&nbsp;확보를&nbsp;위한&nbsp;정치권의&nbsp;협력&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년도&nbsp;타당성&nbsp;연구&nbsp;용역비&nbsp;2억원&nbsp;정부&nbsp;예산&nbsp;반영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군수.지역구&nbsp;국회의원.도지사와&nbsp;협력하여&nbsp;기획재정부와&nbsp;국가보훈부&nbsp;설득<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;동의를&nbsp;얻기&nbsp;위한&nbsp;홍보&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민설명회&nbsp;→&nbsp;정원과&nbsp;휴식공간이&nbsp;어우러진&nbsp;‘메모리얼&nbsp;파크’임을&nbsp;강조<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유치추진위원회&nbsp;구성&nbsp;<br><br>□&nbsp;이행기간&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;2026~2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;500억(국비&nbsp;100%)&nbsp;→&nbsp;국가보훈부&nbsp;직접&nbsp;사업</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	공주의료원 부여분원 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="공주의료원 부여분원 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;종합병원이&nbsp;없어서&nbsp;중증&nbsp;치료나&nbsp;응급상황에서&nbsp;골든타임&nbsp;확보가&nbsp;어려운&nbsp;부여.&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;서천&nbsp;서남부권의&nbsp;필수&nbsp;의료&nbsp;사각지대&nbsp;해소<br>&nbsp;○&nbsp;135&nbsp;병상의&nbsp;종합병원&nbsp;규모로&nbsp;건립&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;타당성&nbsp;조사&nbsp;용역&nbsp;완료&nbsp;후&nbsp;충남도와&nbsp;중앙정부의&nbsp;지원&nbsp;요청<br>&nbsp;&nbsp;○&nbsp;건립&nbsp;기본&nbsp;계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;규모(135&nbsp;병상),&nbsp;진료&nbsp;과목.&nbsp;필요&nbsp;인력&nbsp;등을&nbsp;고려하여&nbsp;총사업비&nbsp;확정&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부여군이&nbsp;중심의료기관을&nbsp;매입&nbsp;후&nbsp;시설&nbsp;확충하거나&nbsp;접근성이&nbsp;좋고&nbsp;관련&nbsp;법규상&nbsp;의료시설&nbsp;건립이&nbsp;가능한&nbsp;부지를&nbsp;선정하고&nbsp;매입&nbsp;계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;지방의료원법&nbsp;및&nbsp;관련&nbsp;조례에&nbsp;의거한&nbsp;법적·행정적&nbsp;절차&nbsp;이행<br>&nbsp;&nbsp;○&nbsp;설계&nbsp;및&nbsp;시공&nbsp;→&nbsp;설계&nbsp;공모·실시&nbsp;및&nbsp;착공&nbsp;및&nbsp;준공<br>&nbsp;&nbsp;○&nbsp;의료&nbsp;인력&nbsp;확보&nbsp;및&nbsp;의료기관&nbsp;개설&nbsp;허가&nbsp;후&nbsp;공주의료원에&nbsp;위탁<br>&nbsp;<br>□&nbsp;이행기간&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;2026~2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;1,000억(국비&nbsp;50%,&nbsp;지방비&nbsp;50%)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	농민 기본소득 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="농민 기본소득 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농업의&nbsp;공익적&nbsp;가치를&nbsp;보존하고&nbsp;농가의&nbsp;경영&nbsp;안정&nbsp;도모<br>&nbsp;&nbsp;○&nbsp;인구&nbsp;감소&nbsp;및&nbsp;지역소멸&nbsp;위기&nbsp;심화에&nbsp;따른&nbsp;대응&nbsp;필요<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;내&nbsp;소비&nbsp;기반&nbsp;강화로&nbsp;경제&nbsp;활력&nbsp;도모<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○「농민수당」지속&nbsp;추진<br>&nbsp;&nbsp;○「농어촌&nbsp;기본소득&nbsp;시범사업」공모에&nbsp;지속&nbsp;참여<br>&nbsp;<br>□&nbsp;이행기간&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;2026~2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;농민수당&nbsp;:&nbsp;112억&nbsp;5천만원(도비&nbsp;40%,&nbsp;군비&nbsp;60%)<br>&nbsp;&nbsp;○&nbsp;농어촌&nbsp;기본소득<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;:&nbsp;약&nbsp;523억원(국비&nbsp;40%,&nbsp;도비&nbsp;30%,&nbsp;군비&nbsp;30%)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년&nbsp;:&nbsp;약&nbsp;1,046억원(국비&nbsp;40%,&nbsp;도비&nbsp;30%,&nbsp;군비&nbsp;30%)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	재해에 강한 농업 구현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="재해에 강한 농업 구현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;최근&nbsp;기후&nbsp;변화로&nbsp;인한&nbsp;집중&nbsp;호우,&nbsp;홍수,&nbsp;고온에&nbsp;따른&nbsp;자연&nbsp;재해에&nbsp;대한&nbsp;대응력&nbsp;제고<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;배수장&nbsp;신설&nbsp;및&nbsp;개보수&nbsp;사업&nbsp;및&nbsp;지능형&nbsp;스마트&nbsp;배수&nbsp;체계&nbsp;구축&nbsp;적극&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;기후&nbsp;적응형&nbsp;작물&nbsp;전환&nbsp;<br>&nbsp;&nbsp;○&nbsp;시설&nbsp;원예의&nbsp;구조적&nbsp;보강&nbsp;→&nbsp;강풍·폭설과&nbsp;이상&nbsp;고온에&nbsp;대비한&nbsp;내재해형&nbsp;하우스로&nbsp;개보수&nbsp;<br>&nbsp;<br>□&nbsp;이행기간&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;2027년~2034년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;배수장&nbsp;신설&nbsp;및&nbsp;개보수&nbsp;사업&nbsp;및&nbsp;지능형&nbsp;스마트&nbsp;배수&nbsp;체계&nbsp;구축&nbsp;:&nbsp;국비&nbsp;2,000억&nbsp;<br>&nbsp;&nbsp;○&nbsp;기후&nbsp;적응형&nbsp;작물&nbsp;전환&nbsp;및&nbsp;시설&nbsp;원예의&nbsp;구조적&nbsp;보강&nbsp;:&nbsp;지방비&nbsp;500백만원/연간</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	서부내륙고속도로(부여 ~ 익산) 남부여 IC 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="서부내륙고속도로(부여 ~ 익산) 남부여 IC 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;주변&nbsp;산업단지의&nbsp;진출입&nbsp;불편&nbsp;해소로&nbsp;물류비용&nbsp;절감<br>&nbsp;&nbsp;○&nbsp;주변&nbsp;관광지&nbsp;접근성&nbsp;개선으로&nbsp;관광객&nbsp;증가&nbsp;도모&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;타당성&nbsp;검토&nbsp;→&nbsp;기초&nbsp;조사&nbsp;및&nbsp;사전&nbsp;타당성&nbsp;조사&nbsp;용역<br>&nbsp;&nbsp;&nbsp;○&nbsp;설치&nbsp;건의&nbsp;및&nbsp;국토교통부&nbsp;협의<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;충남도와&nbsp;지역&nbsp;국회의원&nbsp;및&nbsp;도의원&nbsp;협조&nbsp;유도&nbsp;<br>&nbsp;&nbsp;&nbsp;○&nbsp;경제성&nbsp;및&nbsp;기술적&nbsp;타당성&nbsp;조사<br>&nbsp;&nbsp;&nbsp;○&nbsp;비용&nbsp;분담&nbsp;협의<br>&nbsp;&nbsp;&nbsp;○&nbsp;설계&nbsp;변경&nbsp;및&nbsp;인허가&nbsp;절차&nbsp;협조<br>&nbsp;<br>□&nbsp;이행기간&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;2026년&nbsp;~2030년&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;약&nbsp;150억원(국비&nbsp;50%,&nbsp;지방비&nbsp;50%)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

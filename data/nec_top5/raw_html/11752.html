@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;심덕섭 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	로봇이 농사짓고, 농어촌기본소득이 효도합니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="로봇이 농사짓고, 농어촌기본소득이 효도합니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;농어민이&nbsp;편안한&nbsp;부자&nbsp;농어촌<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;◈&nbsp;인구&nbsp;5만&nbsp;도시&nbsp;최초,농어촌&nbsp;기본소득&nbsp;조기&nbsp;시행&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;농어촌기본소득&nbsp;시범지역&nbsp;추진(월&nbsp;15만원),&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5만&nbsp;도시&nbsp;최초&nbsp;시범사업&nbsp;선점으로&nbsp;농어민&nbsp;소득&nbsp;안정망구축<br><br>&nbsp;&nbsp;◈&nbsp;농산품&nbsp;명품화&nbsp;전략,농업소득&nbsp;획기적&nbsp;향상<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;지리적&nbsp;표시제&nbsp;작물&nbsp;확대,&nbsp;저탄소＇고창청춘한우’&nbsp;브랜드&nbsp;육성,&nbsp;명품&nbsp;소나무,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;고창&nbsp;지주식김·바지락브랜드화,&nbsp;수산자원(주꾸미&nbsp;등)&nbsp;산란·서식장조성<br><br>&nbsp;&nbsp;◈&nbsp;스마트팜·스마트양식&nbsp;기반&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;노지&nbsp;스마트농업&nbsp;육성지구&nbsp;본격&nbsp;가동&nbsp;(전국&nbsp;최초&nbsp;선정)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;스마트팜청년농육성&nbsp;및&nbsp;단지&nbsp;확대&nbsp;지속,&nbsp;전통&nbsp;수산업&nbsp;스마트&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;수산물&nbsp;업사이클&nbsp;순환경제&nbsp;모델<br><br>&nbsp;&nbsp;◈&nbsp;농업로봇과·방제드론으로&nbsp;농작업&nbsp;혁명&nbsp;거점<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;농업용&nbsp;로봇&nbsp;보급&nbsp;-&nbsp;로봇경작&nbsp;청년농&nbsp;지원,&nbsp;전&nbsp;농업인&nbsp;대상&nbsp;‘논&nbsp;무상&nbsp;드론&nbsp;방제’&nbsp;(연&nbsp;2회)<br><br>&nbsp;&nbsp;◈&nbsp;군민과&nbsp;함께&nbsp;외국인&nbsp;근로자도&nbsp;행복지수&nbsp;1위&nbsp;도시&nbsp;고창<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;외국인&nbsp;계절근로자&nbsp;4,000명&nbsp;안정&nbsp;공급,&nbsp;외국인&nbsp;근로자&nbsp;맞춤형&nbsp;숙소&nbsp;및&nbsp;기숙사&nbsp;건립&nbsp;<br><br>&nbsp;&nbsp;◈&nbsp;꽃정원+노동저수지+자연마당이&nbsp;지방정원에서&nbsp;국가정원으로&nbsp;대도약<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;역사와&nbsp;풍류의&nbsp;정원,&nbsp;생태와&nbsp;치유의&nbsp;정원,&nbsp;수변과&nbsp;사색의&nbsp;정원<br><br>&nbsp;&nbsp;◈&nbsp;오고·먹고·즐기는&nbsp;농업&nbsp;6차&nbsp;산업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;농식품&nbsp;전환랩(6차산업&nbsp;혁신&nbsp;모델)&nbsp;조성,&nbsp;김치산업&nbsp;클러스터&nbsp;6차&nbsp;산업화&nbsp;완성,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;상하농원&nbsp;학원농&nbsp;&nbsp;장&nbsp;등&nbsp;경관농업&nbsp;전주기&nbsp;생태계&nbsp;완성,&nbsp;복분자&nbsp;6차&nbsp;산업&nbsp;재건<br><br>&nbsp;&nbsp;◈&nbsp;명품&nbsp;고창&nbsp;농특산품&nbsp;경쟁력&nbsp;강화를&nbsp;위한&nbsp;유통판매&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;고창읍&nbsp;로컬푸드&nbsp;직매장&nbsp;건립,&nbsp;고창마켓&nbsp;통합쇼핑몰&nbsp;고도화,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;산지유통센터(APC)&nbsp;선진화&nbsp;지원<br><br>□&nbsp;이행기간&nbsp;:&nbsp;임기내,&nbsp;임기외<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;:&nbsp;국비·도비·군비·민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	삼성이 가동되고,  바람과 햇빛이 군민연금이 되어 골목상권이 살아납니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="삼성이 가동되고,  바람과 햇빛이 군민연금이 되어 골목상권이 살아납니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표:&nbsp;첨단&nbsp;에너지,&nbsp;순환&nbsp;경제도시<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;◈&nbsp;주민참여형&nbsp;에너지기본소득공단&nbsp;설립·(햇빛·바람&nbsp;연금)지급<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;주민참여형&nbsp;에너지&nbsp;기본&nbsp;소득공단&nbsp;설립&nbsp;추진,&nbsp;500억원&nbsp;규모&nbsp;기금&nbsp;조성<br><br>&nbsp;&nbsp;◈&nbsp;소상공인&nbsp;1억&nbsp;무이자&nbsp;대출&nbsp;및&nbsp;지역상품권&nbsp;1,000억&nbsp;발행<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소상공인&nbsp;무이자&nbsp;융자&nbsp;최대&nbsp;1억원,&nbsp;고창사랑상품권&nbsp;1,000억원&nbsp;발행&nbsp;지원<br><br>&nbsp;&nbsp;◈&nbsp;RE100&nbsp;전력산업&nbsp;클러스터&nbsp;구축,기회발전특구&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RE100&nbsp;국가산단&nbsp;102만평&nbsp;조성(중기계획),&nbsp;신활력산단부가세&nbsp;100%&nbsp;면제<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;기회발전특구&nbsp;지정,&nbsp;신활력산단분양&nbsp;완료&nbsp;후&nbsp;일반산단30만평&nbsp;추가&nbsp;조성,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;삼성전자&nbsp;스마트허브&nbsp;물류센터&nbsp;일자리&nbsp;500개&nbsp;이상&nbsp;창출<br><br>&nbsp;&nbsp;◈&nbsp;삼성전자&nbsp;스마트허브물류센터<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;일자리&nbsp;500개&nbsp;이상&nbsp;창출,&nbsp;신활력산단분양&nbsp;완료&nbsp;후&nbsp;일반산단30만평&nbsp;추가&nbsp;조성,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;삼성전자&nbsp;스마트허브물류센터&nbsp;일자리&nbsp;500개&nbsp;이상&nbsp;창출<br><br>&nbsp;&nbsp;◈&nbsp;전&nbsp;읍면중규모(면&nbsp;단위)LPG&nbsp;배관망구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;면&nbsp;단위&nbsp;LPG&nbsp;가스망확충&nbsp;위한&nbsp;62억원&nbsp;투입,&nbsp;생활&nbsp;난방비&nbsp;30%&nbsp;영구&nbsp;절감&nbsp;목표&nbsp;달성<br><br>&nbsp;&nbsp;◈&nbsp;골목상권&nbsp;활성화&nbsp;지원&nbsp;및&nbsp;군&nbsp;발주&nbsp;관내&nbsp;업체&nbsp;최우선&nbsp;계약<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;골목형&nbsp;상점가&nbsp;지정&nbsp;추진,&nbsp;디지털&nbsp;전통시장&nbsp;지원사업,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;페이백쿠폰&nbsp;시행으로&nbsp;골목상권&nbsp;활성화&nbsp;추진,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;군&nbsp;발주&nbsp;공사,&nbsp;물품구입&nbsp;관내&nbsp;업체&nbsp;최우선&nbsp;추진<br><br>&nbsp;&nbsp;◈&nbsp;숲·갯벌&nbsp;탄소거래제도&nbsp;현금화&nbsp;및&nbsp;영농형&nbsp;태양광&nbsp;보급<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;갯벌·야산숲탄소&nbsp;흡수,&nbsp;탄소거래소&nbsp;등록&nbsp;녹색연금&nbsp;배당&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;영농형&nbsp;태양광&nbsp;설치사업&nbsp;지원<br><br>&nbsp;&nbsp;◈&nbsp;국가&nbsp;드론거점&nbsp;완공&nbsp;및&nbsp;항공&nbsp;방산으로&nbsp;확산<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;호남권&nbsp;최고&nbsp;비행시험인증센터인&nbsp;‘국가드론허브’&nbsp;완공,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;기회발전특구&nbsp;지정&nbsp;및&nbsp;5,000억원대&nbsp;민간투자유치&nbsp;실현<br><br>&nbsp;&nbsp;◈&nbsp;청년&nbsp;창업보육&nbsp;펀드&nbsp;및&nbsp;일자리연계형&nbsp;지원주택&nbsp;200호&nbsp;공급<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;고창터미널&nbsp;도시재생&nbsp;혁신지구&nbsp;창업보육센터&nbsp;내&nbsp;청년창업&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;무상&nbsp;오피스·투자펀드&nbsp;지원,&nbsp;산단근로자&nbsp;프리미엄&nbsp;주택&nbsp;200호&nbsp;지원<br><br>□&nbsp;이행기간&nbsp;:&nbsp;임기내,&nbsp;임기외<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;:&nbsp;국비·도비·군비·민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	2,000만 체류형 관광 경제시대로 대도약합니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="2,000만 체류형 관광 경제시대로 대도약합니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;군민&nbsp;모두가&nbsp;밝고&nbsp;행복한&nbsp;복지도시<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;◈&nbsp;고창종합테마파크&nbsp;생태복합&nbsp;리조트&nbsp;클러스터<br>　　465객실&nbsp;대형리조트&nbsp;완공,&nbsp;고창갯벌&nbsp;세계유산&nbsp;지역센터(170억원)&nbsp;조성,<br>　　노을&nbsp;생태갯벌&nbsp;플랫폼(196억원)&nbsp;조성,&nbsp;국제카누슬라럼경기장(197억원)　조성<br><br>&nbsp;&nbsp;◈&nbsp;명사십리&nbsp;해양치유·레저&nbsp;클러스터<br>　　노을대교&nbsp;조기&nbsp;완공&nbsp;추진,&nbsp;명사십리&nbsp;명품관광지&nbsp;조성사업,　<br>　　해양복합관광&nbsp;레저·스포츠타운&nbsp;민간투자&nbsp;유치,　<br>　　고창JC에서&nbsp;상하간&nbsp;고속도로&nbsp;연결&nbsp;추진<br><br>&nbsp;&nbsp;◈&nbsp;고인돌·운곡·선운산권역&nbsp;생태·역사&nbsp;통합&nbsp;클러스터<br>　　고인돌박물관&nbsp;권역&nbsp;선사문화&nbsp;체험&nbsp;관광&nbsp;거점화,　<br>　　구름골&nbsp;산림휴양&nbsp;복합단지(휴양림&nbsp;94억원,&nbsp;산림레포츠&nbsp;58억원)&nbsp;조성,<br>　　선운산&nbsp;최고급&nbsp;프리미엄&nbsp;숙박시설&nbsp;민자유치<br><br>&nbsp;&nbsp;◈&nbsp;고창읍성&nbsp;역사·문화·쉼&nbsp;클러스터<br>　　고창읍성&nbsp;일원&nbsp;야간경관&nbsp;보수,&nbsp;한옥복합문화센터&nbsp;조성,<br>　　고창읍성&nbsp;풍류체험시설&nbsp;조성,&nbsp;모양성-노동저수&nbsp;일원&nbsp;지방정원&nbsp;지정&nbsp;추진<br><br>&nbsp;&nbsp;◈&nbsp;방장산·암치석산&nbsp;웰니스·산악치유&nbsp;통합&nbsp;클러스터<br>&nbsp;　&nbsp;&nbsp;방장산&nbsp;친환경&nbsp;산악관광진흥&nbsp;지구&nbsp;추진,&nbsp;암치석산&nbsp;소규모관광지&nbsp;추진&nbsp;<br><br>&nbsp;&nbsp;◈&nbsp;전국&nbsp;최고&nbsp;수학여행&nbsp;필수코스&nbsp;관광지&nbsp;추진<br>　　이재명정부&nbsp;수학여행&nbsp;재개&nbsp;정책&nbsp;핵심&nbsp;관광지화&nbsp;추진,&nbsp;무장기포&nbsp;역사공원&nbsp;및&nbsp;<br>　　전봉준&nbsp;기념공원(242억원)&nbsp;조성,&nbsp;K-민주주의&nbsp;성지화로&nbsp;전국&nbsp;수학여행&nbsp;필수코스&nbsp;등록&nbsp;추진<br><br>□&nbsp;이행기간:임기내,&nbsp;임기외<br><br>□&nbsp;재원조달방안&nbsp;등:국비·도비·군비·민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	길이 뚫리면 사람이 오고, 돈이 옵니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="길이 뚫리면 사람이 오고, 돈이 옵니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;세계가&nbsp;찾아오는&nbsp;관광객&nbsp;2천만&nbsp;시대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;◈&nbsp;서해안&nbsp;철도&nbsp;건설&nbsp;(광역&nbsp;거점화)<br>　&nbsp;&nbsp;&nbsp;제&nbsp;5차&nbsp;국가철도망&nbsp;구축계획&nbsp;관철,&nbsp;서해안철도&nbsp;고창역&nbsp;신설,&nbsp;KTX&nbsp;서울&nbsp;90분&nbsp;시대<br><br>&nbsp;&nbsp;◈&nbsp;고창&nbsp;~&nbsp;상하간&nbsp;고속도로&nbsp;연결추진<br>　　제&nbsp;7차&nbsp;고속도로&nbsp;기본계획에&nbsp;반영&nbsp;추진,&nbsp;원전&nbsp;비상계획구역내&nbsp;최단&nbsp;대피로&nbsp;구축,&nbsp;<br>　　서해안&nbsp;관광시대에&nbsp;선제적&nbsp;대비&nbsp;<br><br>&nbsp;&nbsp;◈&nbsp;광역&nbsp;교통망&nbsp;확충&nbsp;(4차선&nbsp;확포장)<br>　　흥덕&nbsp;~&nbsp;부안군&nbsp;국도&nbsp;22호선&nbsp;4차로&nbsp;확장,　상하&nbsp;~&nbsp;해리간&nbsp;선형&nbsp;개량,<br>　　노을대교&nbsp;연결&nbsp;동호&nbsp;~&nbsp;해리&nbsp;선형개선사업(150억원),　<br>　　국지도로&nbsp;승격된&nbsp;무장&nbsp;~&nbsp;공음간&nbsp;15호선&nbsp;4차선&nbsp;확장&nbsp;추진&nbsp;<br><br>&nbsp;&nbsp;◈&nbsp;노을대교&nbsp;조기&nbsp;완공&nbsp;및&nbsp;국도&nbsp;연계<br>　　노을대교&nbsp;조기&nbsp;완공,&nbsp;고창-부안간&nbsp;30번-77번&nbsp;국도&nbsp;연결&nbsp;<br><br>&nbsp;&nbsp;◈&nbsp;전선&nbsp;지중화와&nbsp;공영주차장&nbsp;확대<br>　　고창읍&nbsp;스마트&nbsp;공영&nbsp;주차장&nbsp;확대,&nbsp;고창읍&nbsp;지중화&nbsp;사업&nbsp;3단계&nbsp;진행<br><br>&nbsp;&nbsp;◈&nbsp;대중교통&nbsp;약자&nbsp;복지&nbsp;극대화&nbsp;(천원택시&nbsp;및&nbsp;DRT)<br>　　집앞까지&nbsp;오는&nbsp;수요응답형&nbsp;버스&nbsp;실시,&nbsp;1,000원&nbsp;행복&nbsp;택시&nbsp;확대<br><br>&nbsp;&nbsp;◈&nbsp;지역·생활권&nbsp;단위&nbsp;종합&nbsp;재해&nbsp;예방&nbsp;사업<br>　　상하·와촌지구&nbsp;풍수해&nbsp;생활권&nbsp;정비,&nbsp;대동·고창·대산지구&nbsp;자연재해&nbsp;위험개선지구&nbsp;정비<br><br>&nbsp;&nbsp;◈&nbsp;개별&nbsp;방재&nbsp;기반시설&nbsp;보강&nbsp;및&nbsp;정비&nbsp;사업<br>　　고창천·성남천·내기소하천&nbsp;하천&nbsp;정비,&nbsp;재해위험저수지&nbsp;수리시설&nbsp;보강,<br>　　강남지구&nbsp;배수개선,&nbsp;해안선&nbsp;방재&nbsp;인프라&nbsp;확충<br><br>□&nbsp;이행기간:임기내,&nbsp;임기<br><br>□&nbsp;재원조달방안&nbsp;등:국비·도비·군비·민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	태어날 때부터 눈 감을 때까지 책임집니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="태어날 때부터 눈 감을 때까지 책임집니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;안전하고&nbsp;편리한&nbsp;열린&nbsp;고창<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;◈&nbsp;[출산·영유아]&nbsp;태어남이&nbsp;축복이&nbsp;되는&nbsp;고창<br>　　출산&nbsp;축하금&nbsp;첫째&nbsp;500만원&nbsp;~&nbsp;다섯째&nbsp;1억원까지,&nbsp;산후조리원&nbsp;200만원&nbsp;지원,&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;워킹맘&nbsp;안심&nbsp;인프라&nbsp;‘둥지센터’&nbsp;건립<br><br>&nbsp;&nbsp;◈&nbsp;[아동·청소년]&nbsp;창의와&nbsp;행복이&nbsp;자라나는&nbsp;고창<br>　&nbsp;&nbsp;교육발전구&nbsp;383억원&nbsp;투자,　학교복합문화센터&nbsp;건립<br><br>&nbsp;&nbsp;◈&nbsp;[청년&nbsp;복지]&nbsp;자립하고&nbsp;꿈을&nbsp;펼치는&nbsp;청년&nbsp;친화도시　　　<br>　　고창출신&nbsp;대학생&nbsp;등록금·생활비&nbsp;지원&nbsp;최대&nbsp;300만원,　청년&nbsp;공공임대주택&nbsp;496세대&nbsp;지원<br><br>&nbsp;&nbsp;◈&nbsp;[여성·다문화]&nbsp;일과&nbsp;가정이&nbsp;양립하는&nbsp;양성평등&nbsp;고창<br>　　군정&nbsp;여성&nbsp;참여율&nbsp;50%&nbsp;이상&nbsp;의무화,　다문화&nbsp;가족&nbsp;지원&nbsp;‘행복나누미’&nbsp;지원&nbsp;상향,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;신활력산단&nbsp;육아&nbsp;주거&nbsp;지원&nbsp;‘행동둥지센터’&nbsp;건립　<br><br>&nbsp;&nbsp;◈&nbsp;[어르신&nbsp;복지]&nbsp;노후가&nbsp;편안하고&nbsp;활력&nbsp;넘치는&nbsp;고창　　　<br>　　어르신&nbsp;일자리&nbsp;최대&nbsp;5,000명&nbsp;확대,&nbsp;사회복지&nbsp;종사자&nbsp;정년&nbsp;연장과&nbsp;처우개선&nbsp;추진<br><br>&nbsp;&nbsp;◈&nbsp;[보건·의료]&nbsp;100세&nbsp;시대,&nbsp;아프면&nbsp;돌봐드리는&nbsp;고창<br>　　65세&nbsp;이상&nbsp;어르신&nbsp;관내&nbsp;보건소&nbsp;진료비&nbsp;100%&nbsp;무료,&nbsp;치과&nbsp;임플란트&nbsp;비용<br>&nbsp;&nbsp;　&nbsp;최대&nbsp;2대까지&nbsp;지원,　무의촌&nbsp;마을&nbsp;찾아가는&nbsp;‘마을&nbsp;주치의사제’&nbsp;전면&nbsp;확대<br><br>&nbsp;&nbsp;◈&nbsp;[장애인·보훈]&nbsp;장벽과&nbsp;차별&nbsp;없는&nbsp;동행&nbsp;고창<br>　　장애인&nbsp;복지&nbsp;‘개인&nbsp;예산제’&nbsp;도입,&nbsp;장애인체육센터&nbsp;‘반다비&nbsp;체육센터’&nbsp;개관,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;국가유공자에&nbsp;대한&nbsp;예우&nbsp;강화<br><br>&nbsp;&nbsp;◈&nbsp;[보편·기초생활]&nbsp;단&nbsp;한&nbsp;명도&nbsp;소외&nbsp;없는&nbsp;맞춤형&nbsp;복지망<br>　　취약계층&nbsp;주거환경&nbsp;개선비&nbsp;지원&nbsp;750만원&nbsp;상향,&nbsp;AI로봇과&nbsp;200명의&nbsp;복지보안관&nbsp;가동,&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;각&nbsp;마을&nbsp;부녀회장&nbsp;활동수당(월&nbsp;5만원)&nbsp;지급<br>&nbsp;<br>□&nbsp;이행기간:임기내,&nbsp;임기외<br><br>□&nbsp;재원조달방안&nbsp;등:국비·도비·군비·민자</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

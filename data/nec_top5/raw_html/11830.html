@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;남기정 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	GTX-A 중심 교통혁신 은평</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="GTX-A 중심 교통혁신 은평">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>서울&nbsp;서북권&nbsp;교통&nbsp;중심지로서&nbsp;은평의&nbsp;광역교통&nbsp;경쟁력&nbsp;강화<br>생활권&nbsp;중심&nbsp;교통체계&nbsp;개선을&nbsp;통한&nbsp;구민&nbsp;이동&nbsp;편의&nbsp;증진<br>대중교통·도로·주차환경&nbsp;개선을&nbsp;통한&nbsp;생활밀착형&nbsp;교통도시&nbsp;구현<br><br>○&nbsp;이행방법<br>①&nbsp;GTX-A&nbsp;연신내역&nbsp;중심&nbsp;광역&nbsp;교통망&nbsp;연계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GTX-A를&nbsp;중심으로&nbsp;서부선·고양은평선·버스체계&nbsp;간&nbsp;유기적&nbsp;연계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;환승체계&nbsp;개선을&nbsp;통한&nbsp;이동시간&nbsp;단축&nbsp;및&nbsp;교통&nbsp;접근성&nbsp;강화<br>②&nbsp;생활권&nbsp;중심&nbsp;대중교통체계&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;마을버스&nbsp;노선&nbsp;개편&nbsp;및&nbsp;교통&nbsp;사각지대&nbsp;해소&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;주요&nbsp;생활거점과&nbsp;지하철역&nbsp;간&nbsp;연계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;출퇴근&nbsp;시간대&nbsp;혼잡&nbsp;노선&nbsp;증차&nbsp;및&nbsp;운영&nbsp;효율화&nbsp;추진<br>③&nbsp;교통혼잡&nbsp;완화를&nbsp;위한&nbsp;도로환경&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;상습&nbsp;정체구간&nbsp;교통체계&nbsp;개선&nbsp;및&nbsp;도로&nbsp;운영&nbsp;효율화<br>&nbsp;&nbsp;&nbsp;&nbsp;보행자&nbsp;안전&nbsp;중심&nbsp;교통환경&nbsp;정비&nbsp;및&nbsp;스마트&nbsp;교통체계&nbsp;확대<br>④&nbsp;주차환경&nbsp;개선&nbsp;및&nbsp;스마트&nbsp;주차&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;공영주차장&nbsp;확충&nbsp;및&nbsp;공유주차&nbsp;활성화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;스마트&nbsp;주차&nbsp;시스템&nbsp;도입을&nbsp;통한&nbsp;주차&nbsp;편의성&nbsp;향상<br>&nbsp;&nbsp;&nbsp;&nbsp;주택가&nbsp;주차난&nbsp;해소를&nbsp;위한&nbsp;생활권&nbsp;중심&nbsp;주차공간&nbsp;확보<br>⑤&nbsp;보행자&nbsp;중심&nbsp;안전&nbsp;교통환경&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;어린이·고령자&nbsp;보호구역&nbsp;안전시설&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;스마트&nbsp;횡단보도&nbsp;및&nbsp;지능형&nbsp;CCTV&nbsp;설치&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;누구나&nbsp;안전하게&nbsp;이동&nbsp;가능한&nbsp;보행환경&nbsp;조성<br><br>○&nbsp;이행기간<br>임기&nbsp;내&nbsp;계속사업<br><br>○&nbsp;재원조달방안&nbsp;등<br>국비·시비&nbsp;확보&nbsp;및&nbsp;서울시&nbsp;광역교통계획&nbsp;연계&nbsp;추진<br>일반회계&nbsp;및&nbsp;교통특별회계&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	불광천 수변감성도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="불광천 수변감성도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>불광천&nbsp;중심&nbsp;수변문화생활축&nbsp;조성<br>생활·문화·휴식·체육&nbsp;기능이&nbsp;결합된&nbsp;복합&nbsp;수변공간&nbsp;구축<br>주민과&nbsp;방문객이&nbsp;함께&nbsp;머무는&nbsp;은평&nbsp;대표&nbsp;명소&nbsp;조성<br><br>○&nbsp;이행방법<br>①&nbsp;수변&nbsp;중심&nbsp;보행·휴식공간&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;산책로·휴게공간·쉼터&nbsp;등&nbsp;생활밀착형&nbsp;수변환경&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;누구나&nbsp;편하게&nbsp;이용&nbsp;가능한&nbsp;보행친화&nbsp;공간&nbsp;확대<br>②&nbsp;워터프런트&nbsp;기반&nbsp;문화·관광&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;야간경관&nbsp;및&nbsp;미디어파사드&nbsp;조성을&nbsp;통한&nbsp;야간&nbsp;명소화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;문화행사·체험형&nbsp;콘텐츠&nbsp;확대를&nbsp;통한&nbsp;체류형&nbsp;공간&nbsp;조성<br>③&nbsp;생활체육&nbsp;및&nbsp;건강도시&nbsp;기능&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;스마트&nbsp;러닝트랙&nbsp;및&nbsp;야외&nbsp;운동시설&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;수변공간을&nbsp;활용한&nbsp;생활체육&nbsp;프로그램&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;건강·휴식&nbsp;기능이&nbsp;결합된&nbsp;생활형&nbsp;수변공간&nbsp;구축<br>④&nbsp;친환경&nbsp;수변도시&nbsp;기반&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;수변&nbsp;녹지&nbsp;및&nbsp;친환경&nbsp;휴식공간&nbsp;지속&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;친수공간&nbsp;정비&nbsp;및&nbsp;생태환경&nbsp;개선&nbsp;추진<br>⑤&nbsp;지역상권&nbsp;연계&nbsp;경제활성화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;불광천&nbsp;이용객과&nbsp;연계한&nbsp;골목상권&nbsp;활성화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;지역축제&nbsp;및&nbsp;문화행사를&nbsp;통한&nbsp;소비&nbsp;활성화&nbsp;기반&nbsp;마련<br><br>○&nbsp;이행기간<br>임기&nbsp;내&nbsp;단계별&nbsp;추진<br><br>○&nbsp;재원조달방안&nbsp;등<br>서울형&nbsp;수변감성도시&nbsp;사업&nbsp;연계&nbsp;추진<br>시비&nbsp;확보&nbsp;및&nbsp;민관협력사업&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	문화·관광도시 은평 구현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="문화·관광도시 은평 구현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>국립한국문학관&nbsp;중심&nbsp;문화거점&nbsp;조성<br>생활문화와&nbsp;창작산업이&nbsp;공존하는&nbsp;문화도시&nbsp;구축<br>문화예술&nbsp;기반&nbsp;지역경제&nbsp;활성화&nbsp;및&nbsp;도시&nbsp;브랜드&nbsp;강화<br><br>○&nbsp;이행방법<br>①&nbsp;국립한국문학관&nbsp;중심&nbsp;문학문화벨트&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;문학관·기자촌·진관사&nbsp;연계&nbsp;문화관광&nbsp;프로그램&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;문학·전시·체험&nbsp;중심&nbsp;시민&nbsp;참여형&nbsp;콘텐츠&nbsp;운영<br>②&nbsp;서울창조타운&nbsp;기반&nbsp;창작산업&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;창작·문화·콘텐츠&nbsp;산업&nbsp;집적을&nbsp;통한&nbsp;미래형&nbsp;문화거점&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;청년·예술인&nbsp;창작활동&nbsp;지원&nbsp;및&nbsp;창작공간&nbsp;확대<br>③&nbsp;생활&nbsp;속&nbsp;문화향유&nbsp;기회&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;동별&nbsp;생활문화&nbsp;프로그램&nbsp;및&nbsp;주민&nbsp;참여형&nbsp;문화행사&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;생활권&nbsp;중심&nbsp;문화시설&nbsp;운영&nbsp;확대&nbsp;및&nbsp;접근성&nbsp;강화<br>④&nbsp;지역&nbsp;자산&nbsp;기반&nbsp;문화콘텐츠&nbsp;개발을&nbsp;통한&nbsp;관광&nbsp;유입&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;한옥마을·은평&nbsp;역사문화자원&nbsp;연계&nbsp;체험형&nbsp;콘텐츠&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;지역&nbsp;특색을&nbsp;반영한&nbsp;문화관광&nbsp;브랜드&nbsp;구축<br>⑤&nbsp;문화예술&nbsp;기반&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;문화행사·축제&nbsp;연계를&nbsp;통한&nbsp;지역상권&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;문화예술&nbsp;콘텐츠&nbsp;기반&nbsp;관광객&nbsp;유입&nbsp;확대&nbsp;추진<br><br>○&nbsp;이행기간<br>임기&nbsp;내&nbsp;계속사업<br><br>○&nbsp;재원조달방안&nbsp;등<br>국비·시비&nbsp;확보&nbsp;및&nbsp;문화공모사업&nbsp;연계&nbsp;추진<br>민관협력&nbsp;기반&nbsp;문화사업&nbsp;확대</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	재개발·노후주택 정비 가속화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="재개발·노후주택 정비 가속화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>노후&nbsp;주거환경&nbsp;개선&nbsp;및&nbsp;주거안정&nbsp;강화<br>정비사업&nbsp;활성화를&nbsp;통한&nbsp;도시&nbsp;경쟁력&nbsp;확보<br>누구나&nbsp;안심하고&nbsp;거주&nbsp;가능한&nbsp;생활환경&nbsp;조성<br><br>○&nbsp;이행방법<br>①&nbsp;재개발·재건축&nbsp;사업&nbsp;추진&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;불광·갈현·수색·증산&nbsp;등&nbsp;정비사업&nbsp;신속&nbsp;추진&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;행정절차&nbsp;간소화&nbsp;및&nbsp;사업&nbsp;추진&nbsp;협의체&nbsp;운영<br>②&nbsp;노후주택&nbsp;정비&nbsp;및&nbsp;생활환경&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;노후주택&nbsp;리모델링&nbsp;및&nbsp;집수리&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;골목길·생활도로·노후&nbsp;기반시설&nbsp;정비&nbsp;추진<br>③&nbsp;주거취약계층&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;반지하&nbsp;등&nbsp;취약주거&nbsp;환경&nbsp;개선&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;공공임대주택&nbsp;품질&nbsp;향상&nbsp;및&nbsp;주거복지&nbsp;강화<br>④&nbsp;생활&nbsp;SOC&nbsp;및&nbsp;정주환경&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;공원·주차장·생활편의시설&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;생활권&nbsp;중심&nbsp;정주환경&nbsp;개선사업&nbsp;확대<br>⑤&nbsp;안전&nbsp;중심&nbsp;주거환경&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;범죄예방&nbsp;환경설계&nbsp;및&nbsp;스마트&nbsp;안전&nbsp;인프라&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;재난·화재&nbsp;대응&nbsp;기반&nbsp;생활안전&nbsp;체계&nbsp;강화<br><br>○&nbsp;이행기간<br>임기&nbsp;내&nbsp;계속사업<br><br>○&nbsp;재원조달방안&nbsp;등<br>도시정비기금&nbsp;및&nbsp;국비·시비&nbsp;확보&nbsp;추진<br>공공·민간&nbsp;협력&nbsp;기반&nbsp;정비사업&nbsp;연계&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	북한산 웰니스 건강도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="북한산 웰니스 건강도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>건강·치유&nbsp;중심&nbsp;생활체육도시&nbsp;구축<br>북한산과&nbsp;연계한&nbsp;웰니스&nbsp;건강&nbsp;인프라&nbsp;확대<br>누구나&nbsp;쉽게&nbsp;누리는&nbsp;생활체육&nbsp;환경&nbsp;조성<br><br>○&nbsp;이행방법<br>①&nbsp;북한산&nbsp;연계&nbsp;웰니스센터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;건강·치유·휴식&nbsp;프로그램&nbsp;운영&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;연령별&nbsp;맞춤형&nbsp;건강관리&nbsp;서비스&nbsp;확대<br>②&nbsp;생활체육&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;파크골프장&nbsp;및&nbsp;생활체육시설&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;주민&nbsp;접근성&nbsp;중심&nbsp;체육시설&nbsp;확충&nbsp;및&nbsp;개선<br>③&nbsp;생활&nbsp;속&nbsp;건강&nbsp;프로그램&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;걷기·운동·건강&nbsp;증진&nbsp;프로그램&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;고령층·1인가구&nbsp;대상&nbsp;건강관리&nbsp;프로그램&nbsp;확대<br>④&nbsp;자연과&nbsp;연계한&nbsp;건강도시&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;북한산·불광천&nbsp;연계&nbsp;건강·여가&nbsp;공간&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;친환경&nbsp;운동&nbsp;및&nbsp;힐링&nbsp;공간&nbsp;확대&nbsp;조성<br>⑤&nbsp;주민&nbsp;참여형&nbsp;건강문화&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;생활체육&nbsp;동호회&nbsp;및&nbsp;주민&nbsp;참여&nbsp;프로그램&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;건강도시&nbsp;은평&nbsp;브랜드&nbsp;기반&nbsp;건강문화&nbsp;확산<br><br>○&nbsp;이행기간<br>임기&nbsp;내&nbsp;단계별&nbsp;추진<br><br>○&nbsp;재원조달방안&nbsp;등<br>생활SOC&nbsp;사업&nbsp;및&nbsp;국비·시비&nbsp;확보&nbsp;추진<br>공공체육시설&nbsp;확충사업&nbsp;연계&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

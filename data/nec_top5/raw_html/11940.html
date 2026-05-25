@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김경호 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	재개발사업을 속도감있게 완성하겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="재개발사업을 속도감있게 완성하겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;중곡동.자양동&nbsp;등&nbsp;주거정비사업&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;원주민과&nbsp;함께&nbsp;사는&nbsp;사람&nbsp;중심의&nbsp;명품주거도시&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;원주민&nbsp;재정착&nbsp;적극&nbsp;지원(주거안정기금),&nbsp;세입자&nbsp;보호&nbsp;인센티브제&nbsp;시행<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;주거정비사업&nbsp;총&nbsp;49개소&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;착공&nbsp;19개소&nbsp;16,796세대→&nbsp;준공&nbsp;9개소&nbsp;1,714세대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주택&nbsp;재개발·재건축사업&nbsp;15개소(중곡동&nbsp;6,&nbsp;자양동&nbsp;5,&nbsp;구의동&nbsp;2,&nbsp;광장동&nbsp;2)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소규모&nbsp;주택정비사업&nbsp;19개소(자양동&nbsp;6,&nbsp;중곡동&nbsp;4,&nbsp;화양·군자동&nbsp;6,&nbsp;구의도&nbsp;2,&nbsp;광장동&nbsp;1)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공동주택&nbsp;리모델링&nbsp;3개소,&nbsp;모아타운&nbsp;12개소(자양동&nbsp;7,&nbsp;구의동&nbsp;4,&nbsp;광장동&nbsp;1)<br>&nbsp;&nbsp;○&nbsp;광진구&nbsp;재개발&nbsp;가능&nbsp;면적&nbsp;90배&nbsp;확대로&nbsp;발전&nbsp;기반&nbsp;구축(3만㎡&nbsp;→&nbsp;271만㎡)<br>&nbsp;&nbsp;○&nbsp;신속통합기획·모아타운&nbsp;등&nbsp;주민&nbsp;동의를&nbsp;확보한&nbsp;사업은&nbsp;적극&nbsp;지원하여&nbsp;사전절차&nbsp;기간을&nbsp;확&nbsp;단축(2030년&nbsp;내&nbsp;1만&nbsp;세대&nbsp;착공)<br>&nbsp;&nbsp;○&nbsp;정비구역&nbsp;원주민&nbsp;재정착률&nbsp;확대를&nbsp;위한&nbsp;융자지원·이차보전&nbsp;확대,&nbsp;세입자&nbsp;보호대책&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;재개발·재건축&nbsp;공공기여를&nbsp;통해&nbsp;노인복지시설,&nbsp;아동·청소년&nbsp;시설,&nbsp;공영주차장,&nbsp;도서관,&nbsp;119안전센터&nbsp;등&nbsp;주민&nbsp;편의·안전&nbsp;시설&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;구역별&nbsp;‘정비사업&nbsp;갈등&nbsp;조정관’&nbsp;배치하여&nbsp;기존&nbsp;주민&nbsp;갈등&nbsp;최소화&nbsp;<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;중&nbsp;신속통합기획,&nbsp;모아주택,&nbsp;재개발.재건축&nbsp;등&nbsp;주거정비사업&nbsp;총&nbsp;49개소&nbsp;추진(2026년&nbsp;~2030년)<br>&nbsp;&nbsp;○&nbsp;2040&nbsp;광진플랜&nbsp;2.0&nbsp;지속&nbsp;추진&nbsp;완성(임기중)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;사업추진(비예산,&nbsp;민간사업)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	동서울터미널 재건축을 지원하고, 교통 혁신을 이루겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="동서울터미널 재건축을 지원하고, 교통 혁신을 이루겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;동서울터미널&nbsp;현대화사업(2026년&nbsp;착공,&nbsp;2031년&nbsp;준공)<br>&nbsp;&nbsp;○&nbsp;교통·문화·상업이&nbsp;결합된&nbsp;서울&nbsp;동북권의&nbsp;랜드마크&nbsp;조성&nbsp;적극&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;상습&nbsp;정체와&nbsp;주차난을&nbsp;해결<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중단없는&nbsp;재건축을&nbsp;위해&nbsp;중간&nbsp;절차&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;공사장&nbsp;소음·분진·공사차량&nbsp;동선&nbsp;등&nbsp;주민&nbsp;불편&nbsp;예방을&nbsp;위한&nbsp;협의체&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;강변역-터미널-한강공원&nbsp;연결하는&nbsp;한강&nbsp;조망&nbsp;보행데크&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;서울&nbsp;전역&nbsp;조망하는&nbsp;전망대&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;공사&nbsp;기간&nbsp;‘함바집&nbsp;없는&nbsp;날’&nbsp;및&nbsp;준공&nbsp;후&nbsp;‘지역&nbsp;상생의&nbsp;날’&nbsp;협약&nbsp;체결하여&nbsp;골목상권&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;스타필드&nbsp;및&nbsp;이마트&nbsp;본사&nbsp;등&nbsp;10,000여개&nbsp;좋은&nbsp;일자리&nbsp;창출로&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;지하철&nbsp;2호선&nbsp;지하화&nbsp;본격&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;동부간선도로&nbsp;지하화&nbsp;신속&nbsp;추진&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;공영주차장&nbsp;확충&nbsp;:&nbsp;3,140면(민선&nbsp;8기)&nbsp;→&nbsp;5,000면(민선9기&nbsp;목표)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;착공&nbsp;및&nbsp;2031년&nbsp;준공&nbsp;목표<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;사업추진(비예산,&nbsp;민간사업)<br>&nbsp;&nbsp;○&nbsp;추진과정에서&nbsp;서울시&nbsp;협의&nbsp;등&nbsp;적극&nbsp;지원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	아이 키우기 가장 좋은 도시를 만들겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="아이 키우기 가장 좋은 도시를 만들겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;의료·복지&nbsp;통합돌봄&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;부모는&nbsp;안심하고,&nbsp;아이들은&nbsp;꿈을&nbsp;키우는&nbsp;교육&nbsp;환경&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;유치원·초·중·고&nbsp;교육경비&nbsp;지원사업&nbsp;연&nbsp;120억원으로&nbsp;확대(현&nbsp;85억원)<br>&nbsp;&nbsp;○&nbsp;어린이집&nbsp;급식·특별활동비&nbsp;지원&nbsp;<br>&nbsp;&nbsp;○&nbsp;종일&nbsp;돌봄&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;시립어린이병원&nbsp;유치&nbsp;및&nbsp;24시간&nbsp;소아&nbsp;진료체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;중곡동&nbsp;진로진학지원센터&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;어린이&nbsp;AI기초능력&nbsp;함양을&nbsp;위한&nbsp;특화도서관&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;키즈카페&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;어린이&nbsp;문화센터&nbsp;신규&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;어린이집&nbsp;종일&nbsp;돌봄&nbsp;지원&nbsp;강화&nbsp;및&nbsp;아침·저녁&nbsp;급식&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;통학로&nbsp;도로열선·방호시설&nbsp;신설&nbsp;등&nbsp;안전한&nbsp;통학로&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;학교-주택가-학원가&nbsp;연결&nbsp;버스노선&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;24시간&nbsp;소아&nbsp;진료체계&nbsp;구축&nbsp;및&nbsp;시립어린이병원&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;중·고등학생&nbsp;안심&nbsp;야간&nbsp;자습실·독서실&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기중&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시·구비&nbsp;사업&nbsp;추진&nbsp;및&nbsp;민간자본</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	어르신을 가장 잘 모시는 광진입니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="어르신을 가장 잘 모시는 광진입니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;의료·요양·돌봄&nbsp;통합지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;생활과&nbsp;건강을&nbsp;지키는&nbsp;활동공간을&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;일자리도&nbsp;더욱&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;살던&nbsp;집에서&nbsp;편안하게&nbsp;의료·요양·돌봄&nbsp;통합지원<br>&nbsp;&nbsp;○&nbsp;생활과&nbsp;건강을&nbsp;지키는&nbsp;활동공간&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(중곡동&nbsp;노인복지센터&nbsp;준공)<br>&nbsp;&nbsp;○&nbsp;어르신·장애인&nbsp;일자리&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;1인가구&nbsp;병원동행서비스&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;재개발·재건축&nbsp;공공기여&nbsp;시&nbsp;경로당·어르신재가복지시설&nbsp;우선&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;중곡동&nbsp;노인복지센터&nbsp;조기&nbsp;준공<br>&nbsp;&nbsp;○&nbsp;치매안심센터&nbsp;신축&nbsp;및&nbsp;치매예방&nbsp;프로그램&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;시니어&nbsp;맞춤&nbsp;일자리&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;옛&nbsp;청사&nbsp;부지&nbsp;어르신&nbsp;여가·복지시설&nbsp;조성(서울시&nbsp;거점시설)<br>&nbsp;&nbsp;○&nbsp;경로당&nbsp;식사지원&nbsp;및&nbsp;외식데이&nbsp;확대&nbsp;운영(주1회/1만원)<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;1인가구&nbsp;병원&nbsp;동행&nbsp;서비스&nbsp;확대&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기중&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시·구비&nbsp;사업&nbsp;추진&nbsp;및&nbsp;민간자본</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	청년과 경제가 살아나는 광진을 만들겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="청년과 경제가 살아나는 광진을 만들겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;기업을&nbsp;유치하고,&nbsp;좋은&nbsp;일자리를&nbsp;확대&nbsp;발굴<br>&nbsp;&nbsp;○&nbsp;좋은&nbsp;일자리,&nbsp;좋은&nbsp;집,&nbsp;즐거운&nbsp;휴식이&nbsp;있는&nbsp;행복광진&nbsp;완성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;월세·이사비&nbsp;지원&nbsp;확대,&nbsp;청년&nbsp;취·창업&nbsp;지원&nbsp;공간&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;광진형&nbsp;특별융자(1%대&nbsp;초저금리,&nbsp;연&nbsp;400억원)&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;전통시장·골목형&nbsp;상점가&nbsp;활성화&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;월세·이사비&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;1인가구를&nbsp;위한&nbsp;생활지원센터&nbsp;구축&nbsp;및&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;대학&nbsp;연계&nbsp;광진&nbsp;AI&nbsp;페스티벌&nbsp;창업주간&nbsp;개최<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;특화캠퍼스&nbsp;및&nbsp;AI&nbsp;프롬프트&nbsp;라이브러리&nbsp;구축&nbsp;등&nbsp;AI&nbsp;특화&nbsp;청년&nbsp;인재&nbsp;양성<br>&nbsp;&nbsp;○&nbsp;취·창업&nbsp;준비&nbsp;청년을&nbsp;위한&nbsp;TOP3&nbsp;AI&nbsp;구독료<br>&nbsp;&nbsp;○&nbsp;어학·자격시험&nbsp;응시료&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;역세권&nbsp;청년주택,&nbsp;청년&nbsp;안심주택&nbsp;등&nbsp;저임대료&nbsp;주택&nbsp;공급&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;찾아가는&nbsp;청년&nbsp;소통&nbsp;및&nbsp;대학교&nbsp;앞&nbsp;설문조사를&nbsp;통해&nbsp;청년이&nbsp;원하는&nbsp;버스노선&nbsp;신설,&nbsp;청소·안전&nbsp;대책,&nbsp;경관개선&nbsp;등&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;특별융자&nbsp;및&nbsp;지역사랑상품권&nbsp;발행&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;전통시장·골목상권&nbsp;로컬브랜드&nbsp;구축&nbsp;및&nbsp;배달앱&nbsp;연계&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;쿠팡(4,500개),&nbsp;이마트·스타필드(10,000개)&nbsp;등&nbsp;좋은&nbsp;일자리&nbsp;유치&nbsp;및&nbsp;대기업&nbsp;협력사&nbsp;광진구&nbsp;이전&nbsp;편의&nbsp;지원(사업자&nbsp;이전&nbsp;절차&nbsp;원스톱&nbsp;서비스&nbsp;등)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기중&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시·구비&nbsp;사업&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

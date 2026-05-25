@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;오인환 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	모든 시민의 인간다운 삶이 보장되는 기본사회 도시 논산</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="모든 시민의 인간다운 삶이 보장되는 기본사회 도시 논산">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;시내버스&nbsp;무료&nbsp;승차로&nbsp;교통복지&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;24시간&nbsp;응급의료(소아·청소년&nbsp;포함)&nbsp;가동률&nbsp;100%<br>&nbsp;&nbsp;○&nbsp;전&nbsp;생애·전&nbsp;계층(어르신·아이·청년·장애우)&nbsp;생활&nbsp;기반&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;발달장애·중증장애&nbsp;특화&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;농촌&nbsp;맞춤형&nbsp;AI&nbsp;안전망·CCTV&nbsp;통합관제&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;생애주기별&nbsp;AI·디지털&nbsp;역량&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;다문화가정&nbsp;취학&nbsp;전&nbsp;교육&nbsp;및&nbsp;주말&nbsp;돌봄&nbsp;공백&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;읍면동&nbsp;생활공동체&nbsp;복원으로&nbsp;지역소멸&nbsp;대응<br>&nbsp;&nbsp;○&nbsp;시설공단,&nbsp;중장비&nbsp;주기장,&nbsp;화물차량&nbsp;전용&nbsp;주차장&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;보건소&nbsp;물리치료실&nbsp;복원<br>&nbsp;&nbsp;○&nbsp;공동주택&nbsp;조경&nbsp;공간&nbsp;정기&nbsp;소독-&nbsp;쾌적한&nbsp;환경조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;교통:&nbsp;단계적&nbsp;무료화(시범→전면),&nbsp;노선개편·환승개선,&nbsp;데이터&nbsp;정산<br>&nbsp;&nbsp;○&nbsp;의료:&nbsp;지역응급의료센터&nbsp;확충,&nbsp;소아전담&nbsp;야간진료,&nbsp;119-병원&nbsp;이송연계&nbsp;표준화<br>&nbsp;&nbsp;○&nbsp;약자보장:&nbsp;이동&nbsp;동행·무장애&nbsp;시설&nbsp;개선,&nbsp;돌봄·식사·약배달&nbsp;통합,&nbsp;케어코디&nbsp;배치<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;안전망:&nbsp;스마트센서·웨어러블·AI&nbsp;CCTV&nbsp;연계,&nbsp;통합관제센터&nbsp;24시&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;교육:&nbsp;유·초·중·고·성인&nbsp;맞춤&nbsp;커리큘럼,&nbsp;학교·평생학습관·대학&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;돌봄:&nbsp;다문화&nbsp;유아&nbsp;기초언어·적응&nbsp;프로그램,&nbsp;주말·야간&nbsp;돌봄&nbsp;거점&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;공동체:&nbsp;읍면동&nbsp;생활공동체&nbsp;위원회,&nbsp;상호돌봄·안전망&nbsp;네트워크<br>&nbsp;&nbsp;○&nbsp;중장비·화물&nbsp;전용&nbsp;공영주차장&nbsp;단계적&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;공동주택조경&nbsp;:&nbsp;예찰,&nbsp;표적살포,&nbsp;사전&nbsp;안내,&nbsp;안전수칙&nbsp;준수&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월~2030년&nbsp;6월&nbsp;(임기내&nbsp;지속)<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시&nbsp;일반·특별회계(교통·복지·보건·평생학습)<br>&nbsp;&nbsp;○&nbsp;충남도&nbsp;매칭,&nbsp;국비(보건복지·행안·국토·과기·교육부&nbsp;공모)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	미래 먹거리 창출 ― 로봇·드론·방산 클러스터 조성, 방산 메카로 도약</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="미래 먹거리 창출 ― 로봇·드론·방산 클러스터 조성, 방산 메카로 도약">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;국방국가산단을&nbsp;AI·IT·드론·무인체계&nbsp;융합&nbsp;클러스터로&nbsp;고도화<br>&nbsp;&nbsp;○&nbsp;국방벤처센터~미래기술연구소&nbsp;축으로&nbsp;R&D&nbsp;핵심거점&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;군&nbsp;공공기관·방산체계기업·자율기동시험장&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;100만평&nbsp;규모&nbsp;일반산업단지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;RE100·탄소중립&nbsp;실현(산단·공공·주차장&nbsp;신재생&nbsp;보급&nbsp;확대)<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;산단&nbsp;고도화:&nbsp;AI&nbsp;테스트베드,&nbsp;무인체계·로봇&nbsp;실증구역,&nbsp;데이터센터·공동장비&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;R&D&nbsp;거점:&nbsp;국방벤처센터&nbsp;확장,&nbsp;미래기술연구소&nbsp;설립·공동연구&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;유치전략:&nbsp;맞춤형&nbsp;인센티브(입지·세제·인력·실증),&nbsp;군·정부&nbsp;유관기관&nbsp;MOU<br>&nbsp;&nbsp;○&nbsp;일반산단:&nbsp;입지선정·예타·지구지정&nbsp;후&nbsp;단계별&nbsp;분양,&nbsp;물류·생활&nbsp;SOC&nbsp;동시&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;RE100:&nbsp;산단&nbsp;지붕형·영농형&nbsp;태양광,&nbsp;ESS,&nbsp;PPA&nbsp;도입,&nbsp;공공시설&nbsp;연계&nbsp;탄소중립&nbsp;인프라<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027:&nbsp;기본구상·타당성·예타&nbsp;착수,&nbsp;산단&nbsp;고도화&nbsp;마스터플랜,&nbsp;유치패키지&nbsp;설계<br>&nbsp;&nbsp;○&nbsp;2027:&nbsp;국방국가산단&nbsp;단계적&nbsp;고도화&nbsp;착공,&nbsp;연구소&nbsp;설립,&nbsp;자율기동시험장&nbsp;부지&nbsp;확정<br>&nbsp;&nbsp;○&nbsp;2028~2029:&nbsp;기업·기관&nbsp;순차&nbsp;유치·가동,&nbsp;일반산단&nbsp;인허가·조성,&nbsp;RE100&nbsp;설비&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;2030:&nbsp;클러스터&nbsp;전면&nbsp;가동,&nbsp;시험·인증&nbsp;생태계&nbsp;완성,&nbsp;탄소중립&nbsp;운영체계&nbsp;정착<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비:&nbsp;산업부·국토부·국방부&nbsp;공모·특별회계,&nbsp;지역균형뉴딜·R&D&nbsp;사업<br>&nbsp;&nbsp;○&nbsp;시&nbsp;재원:&nbsp;산업단지개발특별회계,&nbsp;기반시설&nbsp;연계&nbsp;예산<br>&nbsp;&nbsp;○&nbsp;정책금융·민자:&nbsp;산은·기은·모태·지역펀드,&nbsp;PF·리츠·PPP,&nbsp;기업투자&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;녹색금융:&nbsp;RE100&nbsp;PPA,&nbsp;녹색채권·탄소감축&nbsp;인센티브,&nbsp;신재생&nbsp;보조·융자&nbsp;프로그램</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	기본이 튼튼한 미래형 농업도시 ― 돈 버는 농업, 스마트한 농촌</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="기본이 튼튼한 미래형 농업도시 ― 돈 버는 농업, 스마트한 농촌">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;필수농자재&nbsp;반값&nbsp;지원·여성농업인&nbsp;행복바우처&nbsp;전면&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;청년창업농·귀농·귀촌&nbsp;인력양성(논산농업&nbsp;사관학교&nbsp;설립)<br>&nbsp;&nbsp;○&nbsp;논산형&nbsp;스마트팜&nbsp;표준모델&nbsp;보급&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;전업·소규모&nbsp;맞춤지원,&nbsp;수도권·대전&nbsp;로컬푸드&nbsp;직매장&nbsp;개설·학교급식&nbsp;납품&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;논산세계딸기&nbsp;산업엑스포&nbsp;성공&nbsp;개최·논산딸기&nbsp;명품화로&nbsp;전국&nbsp;1등&nbsp;모델&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;농업예산&nbsp;임기&nbsp;내&nbsp;30%&nbsp;증액<br>&nbsp;&nbsp;○&nbsp;동·서·남부&nbsp;현장&nbsp;상담소&nbsp;3개소&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;농업&nbsp;부산물·폐자재&nbsp;무방치,&nbsp;깨끗한&nbsp;농촌환경&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;비용경감:&nbsp;공동구매·바우처·가격연동제,&nbsp;여성농업인&nbsp;돌봄·건강·문화&nbsp;바우처<br>&nbsp;&nbsp;○&nbsp;인재양성:&nbsp;사관학교(이론+실습,&nbsp;창업보육,&nbsp;시험포장·멘토링)&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;스마트화:&nbsp;표준모델&nbsp;시범지구→패키지&nbsp;보급(ICT·관수·에너지),&nbsp;데이터기반&nbsp;컨설팅<br>&nbsp;&nbsp;○&nbsp;판로:&nbsp;광역&nbsp;직매장(수도권·대전)&nbsp;단계&nbsp;개설,&nbsp;공공·학교급식&nbsp;연계,&nbsp;공동브랜드·물류센터<br>&nbsp;&nbsp;○&nbsp;딸기특화:&nbsp;품종·선별·저온유통·수출컨설팅,&nbsp;엑스포&nbsp;B2B·해외바이어&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;현장지원:&nbsp;전업·소농&nbsp;맞춤&nbsp;컨설팅,&nbsp;찾아가는&nbsp;상담소&nbsp;3개소&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;환경:&nbsp;부산물&nbsp;자원화(퇴비),&nbsp;폐자재&nbsp;회수&nbsp;처리&nbsp;<br><br>□&nbsp;&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월~2030년&nbsp;6월&nbsp;(임기내&nbsp;지속)<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시&nbsp;예산:&nbsp;농업·유통·스마트농업·환경&nbsp;전담계정,&nbsp;임기&nbsp;내&nbsp;30%&nbsp;증액<br>&nbsp;&nbsp;○&nbsp;국·도비:&nbsp;농식품부·농진청·환경부·충남도&nbsp;공모(스마트팜·로컬푸드·자원화·인력양성)<br>&nbsp;&nbsp;○&nbsp;정책금융:&nbsp;농신보·농협·정책자금(창업·시설·저리융자)<br>&nbsp;&nbsp;○&nbsp;민관협력:&nbsp;농협·APC·유통사·기업&nbsp;CSR,&nbsp;PPA·에너지절감&nbsp;사업</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	머물고 싶고, 다시 오고 싶은 힐링 도시 논산</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="머물고 싶고, 다시 오고 싶은 힐링 도시 논산">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;탑정호&nbsp;친환경&nbsp;관광&nbsp;랜드마크&nbsp;조성(수상레저·글램핑/오토캠핑·먹거리타운·&nbsp;아마존체험)<br>&nbsp;&nbsp;○&nbsp;강경&nbsp;근대문화&nbsp;역사거리·밀리터리·선샤인랜드&nbsp;연계&nbsp;콘텐츠&nbsp;체류형&nbsp;관광&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;순환형&nbsp;자율주행&nbsp;셔틀·관광&nbsp;통합플랫폼&nbsp;등&nbsp;스마트&nbsp;관광&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;지역문화예술&nbsp;지원&nbsp;확대,&nbsp;파크골프장&nbsp;미설치&nbsp;면&nbsp;순차&nbsp;실시<br>&nbsp;&nbsp;○&nbsp;호남선&nbsp;폐선로(개태사역~부황역)&nbsp;레일바이크&nbsp;관광&nbsp;명소화<br>&nbsp;&nbsp;○&nbsp;금강&nbsp;해수유통으로&nbsp;자연생태계&nbsp;복원&nbsp;및&nbsp;생태관광&nbsp;기반&nbsp;마련<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;탑정호:&nbsp;친환경&nbsp;부표·전기레저,&nbsp;야간경관·수변&nbsp;상권,&nbsp;안전·수질관리&nbsp;표준화<br>&nbsp;&nbsp;○&nbsp;콘텐츠:&nbsp;역사·밀리터리&nbsp;테마루트,&nbsp;야간축제·AR체험,&nbsp;상점가&nbsp;브랜딩<br>&nbsp;&nbsp;○&nbsp;문화예술:&nbsp;생활문화센터·기금·레지던시·거리공원&nbsp;상설화<br>&nbsp;&nbsp;○&nbsp;파크골프:&nbsp;면지역&nbsp;초등학교&nbsp;폐교&nbsp;중심&nbsp;순차적&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;레일바이크:&nbsp;호남선&nbsp;직선화&nbsp;사업&nbsp;추진&nbsp;경과에&nbsp;따른&nbsp;안전진단,&nbsp;노선정비,&nbsp;<br>&nbsp;&nbsp;○&nbsp;생태복원:&nbsp;금강&nbsp;해수유통&nbsp;협의&nbsp;생태모니터링·탐방데코·교육프로그램<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월~2030년&nbsp;6월&nbsp;(임기내&nbsp;지속)<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시·도비:&nbsp;관광,&nbsp;문화,&nbsp;교통,&nbsp;지역활성화&nbsp;특별회계<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;국비:&nbsp;문체부,&nbsp;국토부,&nbsp;환경부,&nbsp;해수부&nbsp;공모사업&nbsp;<br>&nbsp;&nbsp;○&nbsp;민자&nbsp;PPP:&nbsp;컨벤션센터,&nbsp;레일바이크,&nbsp;캠핑,&nbsp;상권(수익형&nbsp;민자,&nbsp;리츠·PF)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	청년+민생경제 - “떠나지 않아도 되는 도시, 돈이 도는 논산”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="청년+민생경제 - “떠나지 않아도 되는 도시, 돈이 도는 논산”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;채용조건형&nbsp;인재양성·지역인재&nbsp;우선채용으로&nbsp;청년&nbsp;정주·양질&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;청년·신혼&nbsp;행복주택과&nbsp;바우처로&nbsp;주거·문화·학습&nbsp;격차&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;지역화폐(캐시백&nbsp;15%)&nbsp;전통시장&nbsp;혁신·소상공인&nbsp;금융지원으로&nbsp;골목경제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;공공배달&nbsp;연계&nbsp;배달비&nbsp;반값으로&nbsp;자영업&nbsp;비용&nbsp;절감<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;인재양성:&nbsp;지역대학·특성화고&nbsp;연계&nbsp;채용&nbsp;조건형&nbsp;과정(방산·AI·드론),&nbsp;인턴→정규직<br>&nbsp;&nbsp;○&nbsp;일자리:&nbsp;기업유치시&nbsp;지역인재&nbsp;우선채용&nbsp;의무·인센티브<br>&nbsp;&nbsp;○&nbsp;주거·학습:&nbsp;청년·신혼·행복주택,&nbsp;초·중·고&nbsp;현장체험학습비&nbsp;전액,&nbsp;전&nbsp;시민&nbsp;평생학습&nbsp;문화바우처<br>&nbsp;&nbsp;○&nbsp;청년지원:&nbsp;취업준비&nbsp;활동비·정착금,&nbsp;청년미디어&nbsp;센터(AI콘텐츠&nbsp;장착)운영<br>&nbsp;&nbsp;○&nbsp;지역경제:&nbsp;논산사랑상품권&nbsp;월&nbsp;한도&nbsp;상향·캐시백&nbsp;15%&nbsp;가맹점&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;전통시장:&nbsp;청결하고&nbsp;안전한&nbsp;시장&nbsp;환경&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;소상공인:&nbsp;무이자&nbsp;특례보증·대환,&nbsp;공공배달&nbsp;앱&nbsp;연계&nbsp;배달비&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월~2030년&nbsp;6월&nbsp;(임기내&nbsp;지속)<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시&nbsp;도비:&nbsp;청년·주거·교통·교육지역계정&nbsp;특별회계&nbsp;충남도&nbsp;매칭<br>&nbsp;&nbsp;○&nbsp;국비:&nbsp;고용부,&nbsp;교육부,&nbsp;국토부,&nbsp;문체부,&nbsp;중기부,&nbsp;행안부&nbsp;공모사업<br>&nbsp;&nbsp;○&nbsp;정책금융&nbsp;:&nbsp;신용보증재단·지역보증&nbsp;저리융자</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;장영수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	전 군민 월 30만 원 ‘장수형 연금’ 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="전 군민 월 30만 원 ‘장수형 연금’ 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년까지&nbsp;시범사업&nbsp;보완&nbsp;후&nbsp;2028년&nbsp;안정적&nbsp;본&nbsp;사업&nbsp;정착<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장수형&nbsp;연금&nbsp;15만&nbsp;원&nbsp;추가&nbsp;지급으로&nbsp;전&nbsp;군민&nbsp;월&nbsp;30만&nbsp;원&nbsp;시대&nbsp;개막<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연간&nbsp;300억&nbsp;원&nbsp;이상&nbsp;지역&nbsp;내&nbsp;선순환으로&nbsp;장수&nbsp;경제&nbsp;활성화<br>○&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시범사업&nbsp;보완&nbsp;및&nbsp;본&nbsp;사업&nbsp;전환&nbsp;(2026~2027):&nbsp;시범사업&nbsp;2년의&nbsp;사각지대를&nbsp;해소하고&nbsp;성과를&nbsp;가시화하여&nbsp;중앙정부·전북자치도&nbsp;협의&nbsp;하에&nbsp;2028년&nbsp;본&nbsp;사업으로&nbsp;확정&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장수형&nbsp;연금&nbsp;15만&nbsp;원&nbsp;추가(2028~):&nbsp;기존&nbsp;지원금&nbsp;15만&nbsp;원에&nbsp;군비&nbsp;15만&nbsp;원을&nbsp;추가하여&nbsp;총&nbsp;30만&nbsp;원&nbsp;지급&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;추가분은&nbsp;전액&nbsp;장수사랑상품권으로&nbsp;지급하여&nbsp;지역&nbsp;내&nbsp;소비&nbsp;의무화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사용&nbsp;편의성&nbsp;및&nbsp;상가&nbsp;활성화:&nbsp;모든&nbsp;상가에서&nbsp;누구나&nbsp;편리하게&nbsp;결제하도록&nbsp;시스템을&nbsp;간소화하고,&nbsp;연간&nbsp;300억&nbsp;원&nbsp;이상의&nbsp;자금이&nbsp;지역&nbsp;상권에&nbsp;상시&nbsp;흐르도록&nbsp;유도<br><br>○&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026~2027년:&nbsp;시범사업&nbsp;문제점&nbsp;보완&nbsp;및&nbsp;본&nbsp;사업&nbsp;전환&nbsp;기반&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2028년:&nbsp;장수형&nbsp;연금&nbsp;추가&nbsp;및&nbsp;‘전&nbsp;군민&nbsp;월&nbsp;30만&nbsp;원&nbsp;시대’&nbsp;전면&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기내:&nbsp;300만&nbsp;평&nbsp;농업&nbsp;산단&nbsp;및&nbsp;자원(산림,&nbsp;에너지)&nbsp;수익&nbsp;환원형&nbsp;기반&nbsp;구축<br>○&nbsp;재원조달방안<br>&nbsp;-&nbsp;국비,&nbsp;도비,&nbsp;군비(지방교부세&nbsp;인상분&nbsp;활용)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	300만 평 농업 산단 조성 및 농산물 ‘판매 군 책임제’ </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="300만 평 농업 산단 조성 및 농산물 ‘판매 군 책임제’ ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목표<br>&nbsp;-&nbsp;스마트&nbsp;경매소&nbsp;및&nbsp;유통공사를&nbsp;통한&nbsp;농가&nbsp;소득&nbsp;2배&nbsp;증대<br>&nbsp;-&nbsp;영농비(사료비,&nbsp;농자재)&nbsp;반값&nbsp;실현으로&nbsp;경영&nbsp;부담&nbsp;경감<br>&nbsp;-&nbsp;못난이&nbsp;농산물&nbsp;가공&nbsp;산업&nbsp;육성으로&nbsp;판매&nbsp;군&nbsp;책임제&nbsp;완성<br><br>○&nbsp;이행방법<br>&nbsp;-&nbsp;영농비&nbsp;반값&nbsp;시대&nbsp;실현:&nbsp;사료비&nbsp;30%&nbsp;절감&nbsp;지원,&nbsp;필수&nbsp;농자재&nbsp;지원&nbsp;확대,&nbsp;드론&nbsp;등&nbsp;첨단&nbsp;농기계&nbsp;마을별&nbsp;순회&nbsp;수리&nbsp;서비스&nbsp;강화로&nbsp;생산&nbsp;원가&nbsp;절감.<br>&nbsp;-&nbsp;장수&nbsp;스마트&nbsp;경매소&nbsp;및&nbsp;유통공사&nbsp;운영:&nbsp;관내&nbsp;직접&nbsp;경매&nbsp;시스템을&nbsp;구축&nbsp;사과·토마토등&nbsp;못난이&nbsp;농산물&nbsp;수매·가공을&nbsp;통한&nbsp;고부가&nbsp;가치화<br>&nbsp;-&nbsp;민관&nbsp;협력&nbsp;300만&nbsp;평&nbsp;산단&nbsp;및&nbsp;명품&nbsp;축산:&nbsp;강한&nbsp;장수한우&nbsp;유전자&nbsp;보급기업&nbsp;유치&nbsp;및&nbsp;민간&nbsp;투자를&nbsp;통한&nbsp;과수·축산&nbsp;전략&nbsp;산업단지&nbsp;인프라&nbsp;구축<br><br>○이행기간<br>&nbsp;-&nbsp;2026~2027년:&nbsp;농업&nbsp;산단&nbsp;기반&nbsp;조성&nbsp;및&nbsp;영농비&nbsp;지원&nbsp;체계&nbsp;확대.<br>&nbsp;-&nbsp;2028년:&nbsp;스마트&nbsp;경매소&nbsp;및&nbsp;농산물유통공사&nbsp;본격&nbsp;가동으로&nbsp;판매&nbsp;책임제&nbsp;전면&nbsp;시행<br>&nbsp;-&nbsp;임기내&nbsp;지속&nbsp;추진:&nbsp;기업&nbsp;유치&nbsp;및&nbsp;산단&nbsp;조성<br><br>○&nbsp;재원조달방안<br>&nbsp;-&nbsp;국비(농식품부&nbsp;공모),&nbsp;도비,&nbsp;군비<br>&nbsp;-&nbsp;민간&nbsp;투자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	365일 돈이 도는 ‘장수 영수증’ 혁명"</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="365일 돈이 도는 ‘장수 영수증’ 혁명"">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목표<br>&nbsp;-&nbsp;장수형&nbsp;연금의&nbsp;상품권&nbsp;지급으로&nbsp;기본권&nbsp;보장&nbsp;및&nbsp;경제&nbsp;활력&nbsp;제고<br>&nbsp;-&nbsp;지역&nbsp;내&nbsp;소비&nbsp;선순환&nbsp;극대화로&nbsp;소상공인&nbsp;매출&nbsp;증대<br>&nbsp;-&nbsp;상가&nbsp;영수증&nbsp;페이백&nbsp;및&nbsp;공공&nbsp;플랫폼&nbsp;수수료&nbsp;제로화로&nbsp;경영&nbsp;부담&nbsp;완화.<br><br>○&nbsp;이행방법<br>&nbsp;-&nbsp;장수형&nbsp;연금&nbsp;월&nbsp;15만&nbsp;원&nbsp;지역화폐&nbsp;지급:&nbsp;연간&nbsp;300억&nbsp;원&nbsp;규모의&nbsp;자금이&nbsp;관내&nbsp;상권에서&nbsp;소비되도록&nbsp;제도적&nbsp;장치&nbsp;마련.<br>&nbsp;-&nbsp;소상공인&nbsp;전용&nbsp;플랫폼&nbsp;및&nbsp;수수료&nbsp;제로화:&nbsp;‘장수군&nbsp;공공&nbsp;예약&nbsp;시스템’&nbsp;구축&nbsp;및&nbsp;운영&nbsp;지원으로&nbsp;소상공인&nbsp;수익성&nbsp;개선.<br>&nbsp;-&nbsp;장수&nbsp;영수증&nbsp;페이백’&nbsp;제도&nbsp;상설화:&nbsp;관내&nbsp;상가&nbsp;이용&nbsp;영수증&nbsp;결제액의&nbsp;일부를&nbsp;장수사랑상품권으로&nbsp;환급하고,&nbsp;영수증&nbsp;지참&nbsp;시&nbsp;주요&nbsp;공공시설&nbsp;이용&nbsp;혜택을&nbsp;부여하는&nbsp;‘장수&nbsp;승리&nbsp;패스’&nbsp;시행.<br>&nbsp;-&nbsp;야간&nbsp;경제&nbsp;활성화&nbsp;‘10시&nbsp;상회’&nbsp;지원:&nbsp;밤&nbsp;10시까지&nbsp;운영하는&nbsp;점포를&nbsp;지정&nbsp;운영비&nbsp;및&nbsp;경관&nbsp;조명을&nbsp;지원으로&nbsp;소비시간&nbsp;연장&nbsp;및&nbsp;상권&nbsp;활력&nbsp;제고.<br>&nbsp;<br>○&nbsp;이행기간<br>&nbsp;-&nbsp;2026~2027년:&nbsp;관련&nbsp;조례&nbsp;제정&nbsp;및&nbsp;수수료&nbsp;0%&nbsp;공공&nbsp;플랫폼&nbsp;구축.<br>&nbsp;-&nbsp;2028년:&nbsp;장수사랑상품권&nbsp;유통&nbsp;및&nbsp;영수증&nbsp;경제&nbsp;모델&nbsp;전면&nbsp;시행<br>&nbsp;-&nbsp;임기내<br>&nbsp;&nbsp;<br>○&nbsp;재원조달방안<br>&nbsp;&nbsp;-&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	3대가 행복한 ‘문턱 없는’ 장수형 기본사회 구현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="3대가 행복한 ‘문턱 없는’ 장수형 기본사회 구현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목표<br>&nbsp;-&nbsp;이동권·건강권·교육권을&nbsp;보편적&nbsp;기본권으로&nbsp;보장,&nbsp;<br>&nbsp;-&nbsp;신체적·경제적·사회적&nbsp;문턱을&nbsp;제거하여&nbsp;영유아부터&nbsp;어르신까지&nbsp;행복한&nbsp;장수형&nbsp;공동체&nbsp;구현.<br><br>○&nbsp;이행방법<br>&nbsp;[어르신:&nbsp;이동권&nbsp;문턱&nbsp;제거]&nbsp;전&nbsp;군민&nbsp;무료버스&nbsp;및&nbsp;의료&nbsp;동행&nbsp;<br>&nbsp;&nbsp;완전&nbsp;버스공영제를&nbsp;통해&nbsp;전&nbsp;군민&nbsp;버스&nbsp;무료화&nbsp;및&nbsp;병원&nbsp;이용,&nbsp;오지&nbsp;마을&nbsp;이동&nbsp;편의를&nbsp;위한&nbsp;행복콜택시&nbsp;운영&nbsp;확대.<br>&nbsp;<br>[중장년:&nbsp;부양&nbsp;문턱&nbsp;제거]&nbsp;장수&nbsp;생명&nbsp;의료&nbsp;책임제:<br>&nbsp;&nbsp;전&nbsp;군민&nbsp;검진&nbsp;지원&nbsp;및&nbsp;장수의료원&nbsp;전문의&nbsp;확충을&nbsp;통해&nbsp;자녀&nbsp;세대의&nbsp;간병&nbsp;및&nbsp;의료비&nbsp;부담을&nbsp;행정이&nbsp;직접&nbsp;책임짐.<br><br>[청소년·아동:&nbsp;교육&nbsp;문턱&nbsp;제거]&nbsp;파격적&nbsp;교육&nbsp;복지<br>&nbsp;&nbsp;모든&nbsp;아동·청소년&nbsp;연&nbsp;30만&nbsp;원&nbsp;교육&nbsp;바우처를&nbsp;지급하고,&nbsp;입학&nbsp;축하금&nbsp;시행.<br>&nbsp;&nbsp;모든&nbsp;여성&nbsp;청소년을&nbsp;대상으로&nbsp;생리대&nbsp;바우처를&nbsp;지원.<br>&nbsp;[공통:&nbsp;관광·생활&nbsp;문턱&nbsp;제거]&nbsp;무장애&nbsp;관광&nbsp;메카&nbsp;조성:<br><br>○&nbsp;이행기간<br>&nbsp;-&nbsp;2026.&nbsp;07.&nbsp;:&nbsp;전&nbsp;군민&nbsp;무료버스&nbsp;및&nbsp;생리대&nbsp;지원&nbsp;조례&nbsp;제정&nbsp;등&nbsp;착수.&nbsp;&nbsp;<br>&nbsp;-&nbsp;2027.&nbsp;01.&nbsp;:&nbsp;의료동행·간병&nbsp;지원&nbsp;본격&nbsp;시행&nbsp;및&nbsp;교육&nbsp;바우처&nbsp;지급&nbsp;개시.&nbsp;&nbsp;<br>&nbsp;-&nbsp;임기&nbsp;내&nbsp;완료&nbsp;:&nbsp;3대&nbsp;맞춤형&nbsp;보편&nbsp;복지&nbsp;시스템&nbsp;정착&nbsp;및&nbsp;무장애&nbsp;스포츠·관광&nbsp;인프라&nbsp;구축&nbsp;완료.<br><br>○&nbsp;재원조달방안<br>&nbsp;-&nbsp;국비,&nbsp;도비,&nbsp;군비(애향교육진흥재단&nbsp;기금&nbsp;등).</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	체류형 관광객 100만 시대, ‘돈 되는 관광 장수’ 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="체류형 관광객 100만 시대, ‘돈 되는 관광 장수’ 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목표<br>&nbsp;-&nbsp;관광&nbsp;산업의&nbsp;수익성&nbsp;극대화로&nbsp;지역&nbsp;소득&nbsp;증대.<br>&nbsp;-&nbsp;생활인구&nbsp;20만&nbsp;명&nbsp;확보를&nbsp;통한&nbsp;지역&nbsp;활력&nbsp;제고.<br>&nbsp;-&nbsp;60~70대&nbsp;은퇴&nbsp;세대를&nbsp;위한&nbsp;생산적&nbsp;일자리&nbsp;창출.<br><br>○&nbsp;이행방법<br>&nbsp;-&nbsp;장수의&nbsp;관문을&nbsp;바꾸는&nbsp;‘만남의&nbsp;광장’&nbsp;대확장&nbsp;및&nbsp;상권&nbsp;연계<br>&nbsp;&nbsp;&nbsp;이종무&nbsp;역사공원,&nbsp;한우&nbsp;먹거리촌,&nbsp;로컬푸드&nbsp;직매장,&nbsp;축구장&nbsp;3면&nbsp;신설을&nbsp;통한&nbsp;관광객&nbsp;및&nbsp;스포츠&nbsp;동우회등&nbsp;유치.<br>&nbsp;-&nbsp;관광객&nbsp;소비를&nbsp;지역&nbsp;상가로&nbsp;유도하는&nbsp;‘영수증&nbsp;페이백’&nbsp;확대<br>&nbsp;&nbsp;&nbsp;장수&nbsp;상가&nbsp;영수증&nbsp;지참&nbsp;시&nbsp;주요&nbsp;시설&nbsp;입장료&nbsp;면제,&nbsp;결제액의&nbsp;일부를&nbsp;장수사랑상품권으로&nbsp;환급하여&nbsp;장수&nbsp;내&nbsp;재소비를&nbsp;유도함.<br>&nbsp;-&nbsp;누리파크&nbsp;테마파크와&nbsp;지역&nbsp;시장의&nbsp;상생&nbsp;모델&nbsp;구축<br>&nbsp;&nbsp;&nbsp;누리파크&nbsp;이용객에게&nbsp;장수상가&nbsp;전용&nbsp;할인권을&nbsp;배부하고,&nbsp;사계절&nbsp;테마&nbsp;시설운영&nbsp;시&nbsp;상인들이&nbsp;참여하는&nbsp;먹거리&nbsp;장터를&nbsp;개설함.<br>&nbsp;-&nbsp;대한민국&nbsp;대표&nbsp;무장애&nbsp;관광&nbsp;및&nbsp;6070&nbsp;일자리&nbsp;지원<br>&nbsp;&nbsp;&nbsp;무장애&nbsp;시설&nbsp;확대로&nbsp;장애인&nbsp;포함&nbsp;가족&nbsp;단위&nbsp;관광객의&nbsp;장기&nbsp;체류&nbsp;유도<br>&nbsp;&nbsp;&nbsp;관광&nbsp;시설&nbsp;관리&nbsp;및&nbsp;시장&nbsp;안내&nbsp;매니저로&nbsp;지역&nbsp;어르신을&nbsp;채용<br><br>○&nbsp;이행기간<br>&nbsp;-&nbsp;2026.&nbsp;07.&nbsp;:&nbsp;구성,&nbsp;상권&nbsp;연계&nbsp;페이백&nbsp;조례&nbsp;제정&nbsp;등&nbsp;즉시&nbsp;착수<br>&nbsp;-&nbsp;2027.&nbsp;01.&nbsp;:&nbsp;만남의&nbsp;광장&nbsp;및&nbsp;누리파크&nbsp;수익형&nbsp;시설&nbsp;리모델링&nbsp;착공<br>&nbsp;-&nbsp;임기&nbsp;내&nbsp;완료&nbsp;:&nbsp;기반&nbsp;시설&nbsp;구축&nbsp;완료<br><br>○&nbsp;재원조달방안<br>&nbsp;-&nbsp;국비(국토부·문체부&nbsp;공모사업),&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

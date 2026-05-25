@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;황의돈 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	테마파크 진상조사 후 252억 구상권 청구 및 사법고발</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="테마파크 진상조사 후 252억 구상권 청구 및 사법고발">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;남원시민의&nbsp;혈세인&nbsp;525억은&nbsp;반드시&nbsp;시민품으로&nbsp;회수&nbsp;조치함.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전)시장,&nbsp;현)시장,&nbsp;전)시의원,&nbsp;현)시의원들에게&nbsp;진상조사&nbsp;후,&nbsp;모든&nbsp;법적조치를&nbsp;취하고&nbsp;꼭&nbsp;회수조치를&nbsp;하겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;시장취임&nbsp;후,&nbsp;3년안에&nbsp;실행하겠습니다.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원은&nbsp;뜻&nbsp;있는&nbsp;시민모금운동으로&nbsp;일정액을&nbsp;조달하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	제2 경찰종합학교 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="제2 경찰종합학교 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;남원&nbsp;시민들의&nbsp;소망인&nbsp;제2&nbsp;경찰종합학교를&nbsp;시장의&nbsp;주도족&nbsp;역할로&nbsp;남원시에&nbsp;유치하도록&nbsp;하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;남원시기관&nbsp;사회단체와&nbsp;시민들의&nbsp;담합된&nbsp;힘과&nbsp;중앙&nbsp;인맥을&nbsp;총동원하여&nbsp;실현&nbsp;하겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;시장&nbsp;임기시작&nbsp;1년&nbsp;안에&nbsp;반드시&nbsp;유치를&nbsp;성사&nbsp;시킬것입니다.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;남원시&nbsp;예비비를&nbsp;사용하도록&nbsp;하겠습니다</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	복합스포츠센타를 건립하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="복합스포츠센타를 건립하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;수영장,&nbsp;스크린골프장,&nbsp;볼링장,&nbsp;탁구장,&nbsp;당구장,&nbsp;필라테스,&nbsp;극장&nbsp;등을&nbsp;설치하여&nbsp;시민들에게&nbsp;반값으로&nbsp;이용하도록&nbsp;하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중앙정부와&nbsp;정치권의&nbsp;절대적&nbsp;도움을&nbsp;받기위해&nbsp;서울&nbsp;사무소에&nbsp;국비&nbsp;확보팀을&nbsp;구축하여&nbsp;피나는&nbsp;노력을&nbsp;하겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;시장임기&nbsp;2년&nbsp;안에&nbsp;성사시키겠습니다.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비와&nbsp;도비,&nbsp;시비를&nbsp;비례하여&nbsp;재원을&nbsp;조달하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	청와대를 남원 지리산으로 유치하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="청와대를 남원 지리산으로 유치하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지금&nbsp;대한민국은&nbsp;3대&nbsp;명산이&nbsp;있습니다.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;백두산,&nbsp;한라산,&nbsp;지리산입니다.&nbsp;현존하는&nbsp;남북대치&nbsp;속에&nbsp;남한의&nbsp;중심은&nbsp;지리산입니다.&nbsp;수도권의&nbsp;집값&nbsp;해결과&nbsp;영호남지역&nbsp;공동화로&nbsp;해결되는&nbsp;효과가&nbsp;있습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;이재명대통령님과&nbsp;정치권의&nbsp;당위성을&nbsp;설명하고&nbsp;시장직을&nbsp;걸고&nbsp;실행에&nbsp;옮기겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;시장&nbsp;임기중에&nbsp;꼭&nbsp;실현하겠습니다.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원은&nbsp;남원시&nbsp;예비비를&nbsp;사용하도록&nbsp;하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	삼성 반도체, 전자 등 대기업 남원 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="삼성 반도체, 전자 등 대기업 남원 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;대기업을&nbsp;유치하여&nbsp;낙후되&nbsp;남원시를&nbsp;실기좋은&nbsp;동네로&nbsp;만들어보겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시장으로써&nbsp;대기업&nbsp;회장님들의&nbsp;마음을&nbsp;움직일수&nbsp;있는&nbsp;마당쇠&nbsp;사장이되어&nbsp;남은&nbsp;인생을&nbsp;대기업&nbsp;유치에&nbsp;건다면&nbsp;좋은&nbsp;결과로&nbsp;최선의&nbsp;노력을&nbsp;하겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;시장&nbsp;4년&nbsp;임기중에&nbsp;실행하겠습니다.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;남원&nbsp;시청에&nbsp;기업하기&nbsp;좋은&nbsp;남원&nbsp;추진팀을&nbsp;민,&nbsp;관&nbsp;합동으로&nbsp;백년전으로&nbsp;돌아간&nbsp;남원시를&nbsp;20만&nbsp;인구도시로&nbsp;만들것입니다.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

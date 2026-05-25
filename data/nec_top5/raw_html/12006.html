@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박문옥 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	울산대교 통행료 인하</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="울산대교 통행료 인하">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;울산대교&nbsp;통행료&nbsp;인하를&nbsp;통한&nbsp;주민의&nbsp;경제적&nbsp;부담완화&nbsp;및&nbsp;동구&nbsp;균형발전&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;울산대교&nbsp;통행료&nbsp;책정의&nbsp;문제점&nbsp;인식&nbsp;및&nbsp;공론화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가산단&nbsp;간&nbsp;연결도로로서&nbsp;국도로&nbsp;볼&nbsp;수&nbsp;있음(여수산단&nbsp;이순신대교&nbsp;국비)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민자도로라도&nbsp;생활적&nbsp;필요가&nbsp;높을&nbsp;경우,&nbsp;공적&nbsp;자본&nbsp;투입(청라하늘대교&nbsp;인천시민&nbsp;무료)<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;의견&nbsp;수렴&nbsp;및&nbsp;정책&nbsp;정당성&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;울산시&nbsp;건의서&nbsp;제출&nbsp;및&nbsp;국토부·기재부&nbsp;협의&nbsp;요청<br>&nbsp;&nbsp;○&nbsp;울산시&nbsp;정책&nbsp;집행&nbsp;시&nbsp;행정&nbsp;협력&nbsp;강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;중기:&nbsp;취임&nbsp;후&nbsp;2년&nbsp;내&nbsp;반값&nbsp;인하<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;울산광역시&nbsp;전액&nbsp;부담<br>&nbsp;&nbsp;○&nbsp;(필요시)&nbsp;기업&nbsp;협상&nbsp;및&nbsp;행정&nbsp;협력&nbsp;제공</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	구청장 직속 원스톱 통합민원실 운영</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="구청장 직속 원스톱 통합민원실 운영">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;비용&nbsp;및&nbsp;시간&nbsp;절감&nbsp;및&nbsp;행정&nbsp;효율성&nbsp;향상<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;통합민원실&nbsp;운영에&nbsp;관한&nbsp;조례제정을&nbsp;통한&nbsp;법적&nbsp;근거&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;부서간&nbsp;협업&nbsp;프로세스&nbsp;구축&nbsp;및&nbsp;통합민원실&nbsp;조직&nbsp;개편<br>&nbsp;&nbsp;○&nbsp;운영방식&nbsp;설계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건축·교통·복지·환경&nbsp;등&nbsp;부서별&nbsp;민원을&nbsp;한&nbsp;곳에서&nbsp;접수<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복잡한&nbsp;민원&nbsp;및&nbsp;취약계층&nbsp;민원은&nbsp;전담&nbsp;매니저가&nbsp;처음부터&nbsp;끝까지&nbsp;처리<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;행정&nbsp;도입으로&nbsp;행정&nbsp;속도&nbsp;제고<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;챗봇·음성&nbsp;안내&nbsp;시스템&nbsp;도입,&nbsp;간단&nbsp;민원은&nbsp;자동&nbsp;응대&nbsp;처리<br>&nbsp;&nbsp;○&nbsp;온라인&nbsp;민원&nbsp;접수&nbsp;시스템과&nbsp;오프라인&nbsp;통합민원실&nbsp;연동<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대기시간&nbsp;단축을&nbsp;위해&nbsp;예약제·알림제&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;주민참여&nbsp;및&nbsp;피드백&nbsp;실시&nbsp;후&nbsp;성과&nbsp;반영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기:&nbsp;취임&nbsp;즉시~7개월&nbsp;이내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구비:&nbsp;구청&nbsp;예산&nbsp;내&nbsp;행정운영비&nbsp;조정<br>&nbsp;&nbsp;○&nbsp;국비:&nbsp;정부의&nbsp;‘행정서비스&nbsp;혁신&nbsp;지원사업’&nbsp;등&nbsp;공모사업&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;인력&nbsp;배치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;민원&nbsp;담당&nbsp;인력을&nbsp;통합&nbsp;배치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전문&nbsp;상담&nbsp;인력(법률·복지·교통·건축&nbsp;등)을&nbsp;순환&nbsp;파견</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	조선산업 좋은 일자리 위원회 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="조선산업 좋은 일자리 위원회 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;조선산업&nbsp;노동자&nbsp;임금인상과&nbsp;원하청&nbsp;노동자·기업·지역&nbsp;상생&nbsp;도모<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;위원회&nbsp;설치를&nbsp;위한&nbsp;관련&nbsp;조례제정으로&nbsp;제도적&nbsp;기반&nbsp;마련&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;구성:&nbsp;노동자&nbsp;대표(원하청),&nbsp;기업&nbsp;대표,&nbsp;전문가,&nbsp;지역사회&nbsp;대표,&nbsp;지역&nbsp;소상공인&nbsp;대표,&nbsp;행정&nbsp;담당자&nbsp;등<br>&nbsp;&nbsp;○&nbsp;분기별&nbsp;정례회의로&nbsp;상생&nbsp;과제&nbsp;논의<br>&nbsp;&nbsp;○&nbsp;노동자&nbsp;생활임금,&nbsp;청년&nbsp;인력&nbsp;안정성&nbsp;확보,&nbsp;지역&nbsp;활성화&nbsp;방안&nbsp;제안<br>&nbsp;&nbsp;○&nbsp;기업과&nbsp;노동자&nbsp;간&nbsp;상생협약을&nbsp;위한&nbsp;위원회&nbsp;중재&nbsp;및&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;위원회&nbsp;활동&nbsp;결과를&nbsp;주민에게&nbsp;공개해&nbsp;투명성&nbsp;확보&nbsp;및&nbsp;주민지지&nbsp;획득<br>&nbsp;&nbsp;○&nbsp;연계사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;인력&nbsp;유입을&nbsp;위한&nbsp;교육·훈련&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노동자&nbsp;가족&nbsp;지원(주거·복지·문화)&nbsp;사업과&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역경제&nbsp;활성화를&nbsp;위한&nbsp;산업-지역&nbsp;상생&nbsp;프로젝트&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기:&nbsp;취임&nbsp;후&nbsp;7개월&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구비:&nbsp;일반회계&nbsp;내&nbsp;고용·복지&nbsp;관련&nbsp;예산&nbsp;일부&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;국비:&nbsp;고용노동부,&nbsp;산자부의&nbsp;산업인력·청년고용촉진사업&nbsp;공모&nbsp;참여<br>&nbsp;&nbsp;○&nbsp;기업협력:&nbsp;원하청&nbsp;기업의&nbsp;사회공헌기금,&nbsp;상생협력기금&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;지원:&nbsp;지역&nbsp;대학&nbsp;및&nbsp;연구기관&nbsp;협력&nbsp;연구비·프로젝트비&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	동구바닷길 3대 해양관광 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="동구바닷길 3대 해양관광 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;동구&nbsp;바다를&nbsp;새로운&nbsp;경제동력으로&nbsp;전환!<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동구바닷길&nbsp;3대&nbsp;해양관광&nbsp;프로젝트&nbsp;목표&nbsp;및&nbsp;사업&nbsp;소개&nbsp;<br><br>&nbsp;==========================================================================================<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;유형&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;목표&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;세부사업&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;------------------------------------------------------------------------------------------------------------------------------------------------<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;일산진&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;웰니스형&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사계절&nbsp;해양레저관광&nbsp;거점&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;해양스파·요가·숲길&nbsp;연계&nbsp;웰니스&nbsp;투어<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;해변맨발걷기·오션러닝&nbsp;웰니스&nbsp;건강&nbsp;등<br>&nbsp;------------------------------------------------------------------------------------------------------------------------------------------------<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;방어진항&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;미식형&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;k-씨푸드&nbsp;미식항&nbsp;브랜드화&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;방어진회축제,&nbsp;방어진씨푸드야시장<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;어촌&nbsp;푸드랩,&nbsp;루프탑&nbsp;야간포차,&nbsp;선상탐조&nbsp;등&nbsp;<br>&nbsp;------------------------------------------------------------------------------------------------------------------------------------------------<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;주전항&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;아트&힐링형&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;체류형&nbsp;아트힐링항&nbsp;특화&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;문화공장2호점·청년예술체험패키지<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;몽돌사운드피크닉,&nbsp;펜션연계&nbsp;체류민박&nbsp;등<br>&nbsp;==========================================================================================<br><br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;(현황분석)&nbsp;항구별&nbsp;인구,&nbsp;산업,&nbsp;관광자원,&nbsp;시설&nbsp;상태&nbsp;조사&nbsp;및&nbsp;쇠퇴원인&nbsp;진단<br>&nbsp;&nbsp;○&nbsp;(주민참여)&nbsp;어민·상인·청년·예술인&nbsp;주민협의체&nbsp;구성,&nbsp;기획단계부터&nbsp;참여&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;(콘텐츠&nbsp;기획)&nbsp;항구별&nbsp;웰니스·미식·아트힐링&nbsp;프로그램&nbsp;설계<br>&nbsp;&nbsp;○&nbsp;(재원확보)&nbsp;이미&nbsp;확보된&nbsp;일산진부터&nbsp;시작.&nbsp;국비·지방비·민간협력&nbsp;구조&nbsp;마련&nbsp;등&nbsp;안정적인&nbsp;추진&nbsp;기반&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;(조례제정)&nbsp;사업&nbsp;추진&nbsp;근거와&nbsp;예산&nbsp;안정성&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;(시범운영)&nbsp;시범사업을&nbsp;운영해&nbsp;주민·관광객&nbsp;반응&nbsp;조사&nbsp;및&nbsp;개선점&nbsp;도출<br>&nbsp;&nbsp;○&nbsp;(브랜드화)&nbsp;항구별&nbsp;브랜드&nbsp;구축&nbsp;및&nbsp;통합&nbsp;홍보를&nbsp;통해&nbsp;‘동구&nbsp;바다’&nbsp;이미지&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;(성과관리)&nbsp;관광객수,&nbsp;주민참여율,&nbsp;경제효과&nbsp;등&nbsp;평가&nbsp;및&nbsp;환류에&nbsp;반영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;장기:&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;일산항:&nbsp;국시비&nbsp;490억&nbsp;원&nbsp;확보,&nbsp;해양관광·치유&nbsp;지원&nbsp;사업&nbsp;추가&nbsp;공모&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;방어진항:&nbsp;국비(중기부&nbsp;시장지원사업_로컬테마상권&nbsp;40억원)&nbsp;공모&nbsp;등<br>&nbsp;&nbsp;○&nbsp;주전항:&nbsp;시비(문화도시&nbsp;문화공장&nbsp;2호점)&nbsp;공모&nbsp;및&nbsp;주민참여예산&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	동구형 공공버스 도입</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="동구형 공공버스 도입">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;동구&nbsp;주민&nbsp;교통&nbsp;불편&nbsp;해소&nbsp;및&nbsp;교통약자&nbsp;경제적&nbsp;부담&nbsp;완화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학문로&nbsp;등하교&nbsp;공공셔틀버스&nbsp;운행&nbsp;및&nbsp;공공시설&nbsp;순환버스&nbsp;운행<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;주민·학부모·교통약자&nbsp;대상&nbsp;수요조사&nbsp;실시<br>&nbsp;&nbsp;○&nbsp;등하교·공공시설&nbsp;이용&nbsp;패턴&nbsp;분석을&nbsp;통한&nbsp;최적&nbsp;노선&nbsp;및&nbsp;시간대&nbsp;도출<br>&nbsp;&nbsp;○&nbsp;운영방식&nbsp;결정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;등하교&nbsp;셔틀:&nbsp;학기중&nbsp;평일&nbsp;운행(방학&nbsp;제외)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공시설&nbsp;순환:&nbsp;평일&nbsp;주간&nbsp;운행(주요&nbsp;공공시설·병원·문화시설&nbsp;연결)<br>&nbsp;&nbsp;○&nbsp;차량·인력확보&nbsp;및&nbsp;운영비&nbsp;산출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광버스&nbsp;계약&nbsp;또는&nbsp;차량&nbsp;리스&nbsp;방식&nbsp;및&nbsp;직영&nbsp;운영&nbsp;검토&nbsp;후&nbsp;결정<br>&nbsp;&nbsp;○&nbsp;지방비·국비·민간협력&nbsp;등&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;‘동구형&nbsp;공공버스&nbsp;운영&nbsp;및&nbsp;지원&nbsp;조례’&nbsp;제정<br>&nbsp;&nbsp;○&nbsp;시범운영&nbsp;후,&nbsp;정상운영&nbsp;및&nbsp;홍보를&nbsp;통한&nbsp;브랜드화&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기:&nbsp;취임&nbsp;후&nbsp;1년&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구비:&nbsp;구&nbsp;일반회계(교통·복지&nbsp;예산)&nbsp;및&nbsp;주차장&nbsp;특별회계&nbsp;편성<br>&nbsp;&nbsp;○&nbsp;국·시비:&nbsp;국토부,&nbsp;환경부,&nbsp;광역시&nbsp;지원&nbsp;신청(저상버스·전기버스&nbsp;보급&nbsp;지원금&nbsp;및&nbsp;교통복지&nbsp;시범사업)<br>&nbsp;&nbsp;○&nbsp;기타:&nbsp;민간&nbsp;협력·광고&nbsp;수익·공공기관(목적지&nbsp;기관&nbsp;비용분담)&nbsp;협력&nbsp;등</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

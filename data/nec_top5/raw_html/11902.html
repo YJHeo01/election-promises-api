@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;민병웅 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	내부순환로, 북부간선도로 지하화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="내부순환로, 북부간선도로 지하화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>&nbsp;&nbsp;○&nbsp;성북구&nbsp;전체를&nbsp;횡단하고&nbsp;있는&nbsp;고가도로인&nbsp;내부순환로,&nbsp;북부간선도로는&nbsp;30년간&nbsp;성북발전의&nbsp;결정적&nbsp;장애&nbsp;요소로&nbsp;기능하고&nbsp;있음.&nbsp;극심한&nbsp;교통체증,&nbsp;지역&nbsp;단절,&nbsp;열악한&nbsp;주거환경,&nbsp;소음,&nbsp;분진&nbsp;등의&nbsp;직접적&nbsp;피해를&nbsp;일으키고&nbsp;있음.<br>&nbsp;&nbsp;○&nbsp;만성적인&nbsp;교통정체와&nbsp;지역&nbsp;간&nbsp;단절&nbsp;등의&nbsp;문제를&nbsp;근본적으로&nbsp;해결하기&nbsp;위해,&nbsp;내부순환로와&nbsp;북부간선도로를&nbsp;지하화하고,&nbsp;지상&nbsp;차로&nbsp;확대&nbsp;및&nbsp;주변&nbsp;지역&nbsp;정비를&nbsp;목표로&nbsp;함.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;서울시의&nbsp;발표에&nbsp;따르면&nbsp;성산&nbsp;나들목(IC)부터&nbsp;신내&nbsp;나들목(IC)까지&nbsp;서울&nbsp;강북권을&nbsp;가로지르는&nbsp;내부순환로·북부간선도로&nbsp;지하&nbsp;약&nbsp;20.5㎞&nbsp;구간에&nbsp;왕복&nbsp;6차로의&nbsp;지하&nbsp;도로를&nbsp;신설하고,&nbsp;개통&nbsp;이후&nbsp;기존&nbsp;고가도로를&nbsp;철거한다는&nbsp;계획임.<br>&nbsp;&nbsp;○&nbsp;성북구에서는&nbsp;국민대&nbsp;입구에서&nbsp;석계역까지&nbsp;약&nbsp;7km&nbsp;구간을&nbsp;지하화하는&nbsp;것이고,&nbsp;사업&nbsp;진행&nbsp;경과에&nbsp;따라서&nbsp;자체적으로&nbsp;부수적인&nbsp;사업추진&nbsp;예정<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2029년&nbsp;:&nbsp;세부&nbsp;실행방안&nbsp;마련&nbsp;및&nbsp;설계&nbsp;등&nbsp;사전&nbsp;절차<br>&nbsp;&nbsp;○&nbsp;2030년&nbsp;:&nbsp;지하도로&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;2035년&nbsp;:&nbsp;지하도로&nbsp;개통&nbsp;및&nbsp;기존&nbsp;고가도로&nbsp;철거&nbsp;시작<br>&nbsp;&nbsp;○&nbsp;2037년&nbsp;:&nbsp;사업&nbsp;최종&nbsp;마무리<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;서울시에&nbsp;따르면&nbsp;성산IC부터&nbsp;신내IC까지의&nbsp;1단계&nbsp;구간에서&nbsp;지하도시고속도로&nbsp;건설,&nbsp;기존&nbsp;고가도로&nbsp;철거&nbsp;및&nbsp;지상&nbsp;도로&nbsp;정비에&nbsp;소요되는&nbsp;총사업비를&nbsp;약&nbsp;3조&nbsp;4,000억&nbsp;원으로&nbsp;추산<br>&nbsp;&nbsp;○&nbsp;대부분의&nbsp;재원은&nbsp;서울시&nbsp;주관으로&nbsp;국고보조금,&nbsp;민간투자,&nbsp;시비&nbsp;등으로&nbsp;조달<br>&nbsp;&nbsp;○&nbsp;사업추진&nbsp;경과에&nbsp;따라서&nbsp;성북구만의&nbsp;부수적인&nbsp;사업에&nbsp;구비를&nbsp;탄력적으로&nbsp;책정할&nbsp;예정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	적극적인 정비사업 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="적극적인 정비사업 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>&nbsp;&nbsp;○&nbsp;성북구는&nbsp;상대적으로&nbsp;노후되고&nbsp;열악한&nbsp;주거환경을&nbsp;가지고&nbsp;있어,&nbsp;재개발로&nbsp;대표되는&nbsp;노후&nbsp;주거지&nbsp;정비사업&nbsp;추진이&nbsp;다른&nbsp;어떤&nbsp;지역보다도&nbsp;많음.<br>&nbsp;&nbsp;○&nbsp;장위뉴타운의&nbsp;해체&nbsp;등&nbsp;과거&nbsp;민주당&nbsp;정책에&nbsp;의해서&nbsp;성북구의&nbsp;노후&nbsp;주거지&nbsp;정비사업도&nbsp;커다란&nbsp;타격을&nbsp;받았고,&nbsp;현재&nbsp;많은&nbsp;구역에서&nbsp;사업추진이&nbsp;진행되고&nbsp;있음.<br>&nbsp;&nbsp;○&nbsp;과거&nbsp;구역&nbsp;해제의&nbsp;아픔을&nbsp;딛고&nbsp;다시&nbsp;추진되는&nbsp;구역을&nbsp;포함하여&nbsp;신통기획,&nbsp;재개발,&nbsp;소규모정비사업&nbsp;등&nbsp;다양한&nbsp;정비사업의&nbsp;성공적인&nbsp;진행을&nbsp;적극&nbsp;지원하는&nbsp;것을&nbsp;목표로&nbsp;함.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;적극적인&nbsp;정비사업&nbsp;지원정책&nbsp;:&nbsp;주민들과&nbsp;업체들이&nbsp;알아서&nbsp;하기만을&nbsp;바라고,&nbsp;저절로&nbsp;감&nbsp;떨어지는&nbsp;것을&nbsp;기다리기만&nbsp;하는&nbsp;것은&nbsp;정치와&nbsp;정책의&nbsp;역할이&nbsp;없는&nbsp;것임.&nbsp;적극적으로&nbsp;주민들의&nbsp;정비사업&nbsp;추진을&nbsp;지원하고&nbsp;갈등을&nbsp;조정하는&nbsp;방향으로&nbsp;구정의&nbsp;목표를&nbsp;설정<br>&nbsp;&nbsp;○&nbsp;실효적인&nbsp;정비사업지원단&nbsp;설치&nbsp;:&nbsp;정비사업&nbsp;지원의&nbsp;중요성에&nbsp;걸맞게&nbsp;외부&nbsp;민간전문가를&nbsp;책임자로&nbsp;하는&nbsp;실효적인&nbsp;조직을&nbsp;만들어서&nbsp;기계적인&nbsp;공무원의&nbsp;마인드에서&nbsp;벗어나&nbsp;실질적인&nbsp;지원이&nbsp;가능할&nbsp;수&nbsp;있도록&nbsp;조치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;계속<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정비사업지원단의&nbsp;외부&nbsp;전문가&nbsp;채용&nbsp;등의&nbsp;비용을&nbsp;구비로&nbsp;책정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	강북횡단선 재추진 및 동북선 신속추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="강북횡단선 재추진 및 동북선 신속추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>&nbsp;&nbsp;○&nbsp;2024년&nbsp;예비타당성&nbsp;조사&nbsp;탈락은&nbsp;성북&nbsp;구민들에게&nbsp;많은&nbsp;실망과&nbsp;좌절감을&nbsp;주었음.<br>&nbsp;&nbsp;○&nbsp;최근&nbsp;정부는&nbsp;서울시의&nbsp;요구를&nbsp;받아들여&nbsp;경제성&nbsp;항목을&nbsp;줄이고&nbsp;지역균형발전과&nbsp;대중교통체계&nbsp;효율화&nbsp;항목을&nbsp;포함하는&nbsp;예타&nbsp;제도&nbsp;개편방안을&nbsp;내놓았고,&nbsp;서울시는&nbsp;그에&nbsp;맞추어&nbsp;강북횡단선&nbsp;사업을&nbsp;재추진할&nbsp;예정<br>&nbsp;&nbsp;○&nbsp;성북구도&nbsp;강북횡단선&nbsp;재추진을&nbsp;서울시와&nbsp;정부에&nbsp;강력하게&nbsp;요구하여&nbsp;신속하게&nbsp;재추진하는&nbsp;것을&nbsp;목표로&nbsp;함.<br>&nbsp;&nbsp;○&nbsp;동시에&nbsp;완공이&nbsp;한차례&nbsp;미뤄졌던&nbsp;동북선&nbsp;경전철이&nbsp;예정된&nbsp;기간&nbsp;안에&nbsp;신속한&nbsp;개통을&nbsp;목표로&nbsp;함.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;서울시는&nbsp;예타&nbsp;제도&nbsp;개편안에&nbsp;따라&nbsp;강북횡단선&nbsp;노선에&nbsp;대한&nbsp;사전타당성조사&nbsp;용역을&nbsp;진행할&nbsp;계획이고,&nbsp;내년&nbsp;중에&nbsp;재신청을&nbsp;추진할&nbsp;예정임.<br>&nbsp;&nbsp;○&nbsp;강북횡단선&nbsp;재추진과&nbsp;동북선&nbsp;신속&nbsp;추진을&nbsp;위하여&nbsp;성북&nbsp;구민과&nbsp;함께&nbsp;성북구가&nbsp;앞장설&nbsp;예정임.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;동북선&nbsp;경전철&nbsp;:&nbsp;2027년&nbsp;11월&nbsp;이전&nbsp;완공&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;강북횡단선&nbsp;:&nbsp;임기&nbsp;내&nbsp;신속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;경전철&nbsp;사업은&nbsp;서울시&nbsp;주관&nbsp;사업으로서&nbsp;민간투자,&nbsp;국비,&nbsp;시비&nbsp;등으로&nbsp;구성되어&nbsp;있음.<br>&nbsp;&nbsp;○&nbsp;사업&nbsp;자체를&nbsp;위한&nbsp;성북구의&nbsp;직접&nbsp;부담은&nbsp;없으나,&nbsp;부수&nbsp;사업&nbsp;및&nbsp;업무추진비·캠페인&nbsp;비용&nbsp;등을&nbsp;구비로&nbsp;책정&nbsp;예정임.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	안암 AI·게임문화거리 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="안암 AI·게임문화거리 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;비전&nbsp;“안암을&nbsp;대한민국&nbsp;대표&nbsp;AI·게임·청년창업&nbsp;거리로&nbsp;조성”<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방문객:&nbsp;연&nbsp;300만&nbsp;명&nbsp;유치,&nbsp;공실률:&nbsp;20%&nbsp;→&nbsp;5%&nbsp;이하<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;창업:&nbsp;120개&nbsp;이상,&nbsp;민간&nbsp;투자&nbsp;유치:&nbsp;300억&nbsp;이상<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;추진체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성북구,&nbsp;민간&nbsp;게임기업,&nbsp;관내&nbsp;참여&nbsp;대학과&nbsp;투자기관&nbsp;참여<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;역할&nbsp;:&nbsp;콘텐츠&nbsp;기획&nbsp;및&nbsp;운영,&nbsp;상권&nbsp;관리&nbsp;및&nbsp;임대&nbsp;조정,&nbsp;행사·마케팅&nbsp;총괄<br>&nbsp;&nbsp;○&nbsp;공간&nbsp;조성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;거리&nbsp;조성&nbsp;(600m&nbsp;구간)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LED&nbsp;미디어파사드&nbsp;거리,&nbsp;AR&nbsp;캐릭터&nbsp;체험존,&nbsp;AI&nbsp;인터랙티브&nbsp;쇼윈도우<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;스마트&nbsp;안내·결제&nbsp;시스템,&nbsp;외국어&nbsp;자동통역&nbsp;키오스크,&nbsp;AI&nbsp;CCTV&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;랜드마크&nbsp;구축&nbsp;(K-게임&nbsp;컬처&nbsp;타워)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;게임·캐릭터&nbsp;전시&nbsp;및&nbsp;팝업스토어,&nbsp;게임&nbsp;체험&nbsp;및&nbsp;e스포츠&nbsp;경기장<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VR·AI·메타버스&nbsp;체험&nbsp;공간<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;(착수기&nbsp;/&nbsp;0~12개월)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;타당성&nbsp;조사,&nbsp;민간&nbsp;게임사·대학&nbsp;협약&nbsp;체결<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;거리&nbsp;디자인&nbsp;및&nbsp;콘텐츠&nbsp;공모&nbsp;<br>&nbsp;&nbsp;○&nbsp;2단계&nbsp;(확장기&nbsp;/&nbsp;1~2년)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;미디어파사드&nbsp;및&nbsp;스마트&nbsp;거리&nbsp;인프라&nbsp;구축,&nbsp;AI&nbsp;체험&nbsp;콘텐츠&nbsp;상설화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;야간&nbsp;축제&nbsp;등&nbsp;대학&nbsp;연합&nbsp;프로그램&nbsp;운영&nbsp;<br>&nbsp;&nbsp;○&nbsp;3단계&nbsp;(완성기&nbsp;/&nbsp;2~3년)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;K-게임&nbsp;컬처&nbsp;타워&nbsp;준공&nbsp;및&nbsp;운영&nbsp;개시&nbsp;국제&nbsp;e스포츠&nbsp;대회&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;글로벌&nbsp;관광&nbsp;코스화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;약&nbsp;500억&nbsp;소요&nbsp;예상&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비&nbsp;200억&nbsp;(중기부,&nbsp;문체부,&nbsp;과기부&nbsp;관련사업)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시&nbsp;150억(관광특구,&nbsp;스마트시티&nbsp;조성사업),&nbsp;민간투자&nbsp;150억</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	성북형 청년 창업 정착 생태계 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="성북형 청년 창업 정착 생태계 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>&nbsp;&nbsp;○&nbsp;대학이&nbsp;많음에도&nbsp;졸업&nbsp;후&nbsp;청년들이&nbsp;빠져나가&nbsp;지역&nbsp;경제&nbsp;기여가&nbsp;낮고,&nbsp;기존의&nbsp;단순&nbsp;창업&nbsp;지원금이나&nbsp;공간&nbsp;제공&nbsp;방식은&nbsp;실제&nbsp;정착률이&nbsp;낮다는&nbsp;한계가&nbsp;있음.<br>&nbsp;&nbsp;○&nbsp;성북구&nbsp;내&nbsp;8개&nbsp;대학의&nbsp;청년&nbsp;인재가&nbsp;졸업&nbsp;후&nbsp;타&nbsp;지역으로&nbsp;유출되지&nbsp;않고,&nbsp;성북구&nbsp;내에서&nbsp;창업하고&nbsp;정착하도록&nbsp;‘공간-실전경험-멘토링’을&nbsp;연계한&nbsp;창업&nbsp;생태계&nbsp;구축을&nbsp;목표로&nbsp;함.<br><br>□&nbsp;이행방법&nbsp;:&nbsp;3대&nbsp;핵심&nbsp;정책<br>&nbsp;&nbsp;○&nbsp;보증금&nbsp;일부&nbsp;지원&nbsp;또는&nbsp;보증보험&nbsp;연계&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘저비용&nbsp;창업&nbsp;성지’로&nbsp;인식&nbsp;변화<br>&nbsp;&nbsp;○&nbsp;대학과&nbsp;지역&nbsp;상권&nbsp;연계&nbsp;실전&nbsp;프로젝트&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학의&nbsp;학술·전공&nbsp;동아리와&nbsp;지역&nbsp;상점을&nbsp;매칭해&nbsp;콘텐츠&nbsp;제작,&nbsp;마케팅,<br>공연&nbsp;기획&nbsp;등&nbsp;실전&nbsp;경험&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성과에&nbsp;따라&nbsp;수익&nbsp;공유&nbsp;및&nbsp;구청&nbsp;인증서&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;시니어-청년&nbsp;협업&nbsp;멘토링&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;은퇴&nbsp;시니어&nbsp;DB를&nbsp;구축해&nbsp;청년&nbsp;창업팀과&nbsp;산업별&nbsp;매칭<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;세대&nbsp;간&nbsp;협업으로&nbsp;창업&nbsp;실패율&nbsp;감소&nbsp;도모<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시니어에겐&nbsp;재취업의&nbsp;기회를&nbsp;청년에겐&nbsp;어른의&nbsp;지식과&nbsp;경험을&nbsp;제공<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;중&nbsp;계속<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시비,&nbsp;구비,&nbsp;기금&nbsp;등</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

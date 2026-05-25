@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김찬술 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	노후 대전산단의 스마트 그린 산단 전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="노후 대전산단의 스마트 그린 산단 전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>“노후된&nbsp;대전산단을&nbsp;AI·탄소중립&nbsp;기반의&nbsp;미래형&nbsp;스마트&nbsp;그린&nbsp;산단으로&nbsp;대개조”&nbsp;방치된&nbsp;폐업&nbsp;공장&nbsp;부지를&nbsp;재활용하여&nbsp;산업&nbsp;구조를&nbsp;고도화하고,&nbsp;대덕연구단지의&nbsp;첨단&nbsp;기술을&nbsp;현장에&nbsp;접목합니다.&nbsp;신산업&nbsp;유치를&nbsp;통해&nbsp;청년들이&nbsp;찾아오는&nbsp;역동적인&nbsp;일자리&nbsp;생태계를&nbsp;조성하여&nbsp;지역&nbsp;경제의&nbsp;심장을&nbsp;다시&nbsp;뛰게&nbsp;하겠습니다.<br><br>□&nbsp;이행방법<br>①&nbsp;폐업&nbsp;공장&nbsp;재활용&nbsp;및&nbsp;업종&nbsp;고도화&nbsp;추진&nbsp;<br>산단&nbsp;내&nbsp;장기&nbsp;방치된&nbsp;폐업&nbsp;공장&nbsp;부지를&nbsp;지자체가&nbsp;매입하거나&nbsp;민간&nbsp;참여를&nbsp;유도하는&nbsp;제도&nbsp;개선&nbsp;추진.&nbsp;<br>기존&nbsp;제조&nbsp;중심에서&nbsp;AI(인공지능),&nbsp;ICT,&nbsp;탄소중립&nbsp;기술이&nbsp;결합된&nbsp;4차&nbsp;산업&nbsp;중심&nbsp;첨단&nbsp;업종으로&nbsp;전환&nbsp;지원.<br>②&nbsp;대덕연구단지&nbsp;기술-&nbsp;산업&nbsp;현장&nbsp;매칭&nbsp;시스템&nbsp;구축&nbsp;<br>대덕연구단지의&nbsp;연구&nbsp;실적과&nbsp;원천&nbsp;기술이&nbsp;대전산단&nbsp;기업들로&nbsp;이전될&nbsp;수&nbsp;있도록&nbsp;‘민관학&nbsp;기술협력&nbsp;플랫폼’&nbsp;운영.&nbsp;<br>연구소&nbsp;기업&nbsp;및&nbsp;첨단&nbsp;기술&nbsp;기반&nbsp;제조&nbsp;기업의&nbsp;산단&nbsp;입주&nbsp;시&nbsp;세제&nbsp;혜택&nbsp;및&nbsp;인센티브&nbsp;강화.<br>③&nbsp;청년&nbsp;창업&nbsp;및&nbsp;스타트업&nbsp;클러스터&nbsp;조성&nbsp;<br>산단&nbsp;내&nbsp;‘청년&nbsp;창업&nbsp;허브’를&nbsp;건립하여&nbsp;저렴한&nbsp;임대료의&nbsp;사무&nbsp;공간과&nbsp;시제품&nbsp;제작실&nbsp;제공.&nbsp;<br>청년들이&nbsp;선호하는&nbsp;정주&nbsp;여건(문화,&nbsp;복지,&nbsp;주거&nbsp;시설)을&nbsp;확충하여&nbsp;‘일하고&nbsp;싶은&nbsp;스마트&nbsp;산단’&nbsp;환경&nbsp;조성.<br>④&nbsp;스마트&nbsp;그린&nbsp;인프라&nbsp;구축&nbsp;<br>에너지&nbsp;효율을&nbsp;극대화하는&nbsp;스마트&nbsp;그리드&nbsp;도입&nbsp;및&nbsp;공정&nbsp;디지털화&nbsp;지원.&nbsp;<br>산단&nbsp;내&nbsp;오염물질&nbsp;배출&nbsp;저감&nbsp;시설&nbsp;설치&nbsp;및&nbsp;녹지&nbsp;공간&nbsp;확충을&nbsp;통한&nbsp;친환경&nbsp;산단&nbsp;구현.<br><br>□&nbsp;이행기간&nbsp;<br>민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진&nbsp;(2026.&nbsp;07.&nbsp;~&nbsp;2030.&nbsp;06.)&nbsp;<br>임기&nbsp;1~2년차&nbsp;(2026~2027):&nbsp;스마트&nbsp;그린&nbsp;산단&nbsp;전환을&nbsp;위한&nbsp;마스터플랜&nbsp;수립,&nbsp;관련&nbsp;조례&nbsp;개정&nbsp;및&nbsp;국비&nbsp;공모사업&nbsp;신청.&nbsp;<br>임기&nbsp;3~4년차&nbsp;(2028~2030):&nbsp;폐업&nbsp;부지&nbsp;리모델링&nbsp;완료,&nbsp;AI·신산업&nbsp;기업&nbsp;본격&nbsp;유치,&nbsp;청년&nbsp;창업지원센터&nbsp;개소&nbsp;및&nbsp;일자리&nbsp;매칭&nbsp;활성화.<br><br>□&nbsp;재원조달방안&nbsp;등<br>①&nbsp;국비&nbsp;확보&nbsp;(정부&nbsp;지원&nbsp;사업)&nbsp;<br>산업통상자원부의&nbsp;‘스마트&nbsp;그린&nbsp;산단&nbsp;촉진&nbsp;사업’&nbsp;및&nbsp;‘노후&nbsp;거점산업단지&nbsp;경쟁력&nbsp;강화&nbsp;사업’&nbsp;공모를&nbsp;통한&nbsp;대규모&nbsp;국비&nbsp;확보.&nbsp;<br>중소벤처기업부의&nbsp;‘스타트업&nbsp;파크&nbsp;조성&nbsp;사업’&nbsp;연계.<br>②&nbsp;시비&nbsp;및&nbsp;구비&nbsp;매칭&nbsp;<br>대전광역시와의&nbsp;전략적&nbsp;협력을&nbsp;통해&nbsp;산단&nbsp;재생&nbsp;사업&nbsp;예산&nbsp;확보&nbsp;및&nbsp;구&nbsp;자체&nbsp;일반회계&nbsp;편성.<br>③&nbsp;민간&nbsp;자본&nbsp;유치&nbsp;및&nbsp;기금&nbsp;활용&nbsp;<br>민간&nbsp;지식산업센터&nbsp;건립&nbsp;유치&nbsp;등&nbsp;민간&nbsp;투자&nbsp;활성화.&nbsp;<br>지역상생발전기금&nbsp;및&nbsp;산단&nbsp;재생&nbsp;특별회계&nbsp;운영을&nbsp;통한&nbsp;안정적&nbsp;사업비&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	대청호-계족산 생태관광문화도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="대청호-계족산 생태관광문화도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>대덕의&nbsp;천혜&nbsp;자원을&nbsp;하나로&nbsp;잇는&nbsp;365일&nbsp;체류형&nbsp;생태관광&nbsp;거점&nbsp;구축&nbsp;<br>계족산과&nbsp;대청호를&nbsp;연계한&nbsp;독보적인&nbsp;생태관광&nbsp;브랜드를&nbsp;확립하여&nbsp;대덕구를&nbsp;중부권&nbsp;최고의&nbsp;문화관광&nbsp;도시로&nbsp;도약시킵니다.&nbsp;<br>관광&nbsp;인프라&nbsp;확충을&nbsp;통해&nbsp;지역&nbsp;경제를&nbsp;활성화하고,&nbsp;주민&nbsp;참여형&nbsp;모델(협동조합&nbsp;등)을&nbsp;통해&nbsp;실질적인&nbsp;가계&nbsp;소득&nbsp;증대와&nbsp;일자리&nbsp;창출을&nbsp;실현합니다.&nbsp;<br>기후위기&nbsp;대응을&nbsp;위한&nbsp;산림&nbsp;안전망&nbsp;구축&nbsp;및&nbsp;시민&nbsp;휴식&nbsp;공간의&nbsp;질적&nbsp;개선을&nbsp;도모합니다.<br><br>□&nbsp;이행방법<br>①&nbsp;계족산&nbsp;경관농업&nbsp;및&nbsp;주민&nbsp;주도형&nbsp;수익&nbsp;모델&nbsp;구축&nbsp;<br>계족산&nbsp;임도&nbsp;주변&nbsp;유휴지를&nbsp;활용하여&nbsp;계절별&nbsp;꽃밭(경관농업)&nbsp;조성.&nbsp;<br>지역&nbsp;주민&nbsp;중심의&nbsp;'경관마을&nbsp;협동조합'&nbsp;육성&nbsp;및&nbsp;로컬푸드&nbsp;판매장,&nbsp;카페&nbsp;운영&nbsp;지원.<br>②&nbsp;체류형&nbsp;관광&nbsp;인프라:&nbsp;장동&nbsp;글램핑장&nbsp;조성&nbsp;<br>장동&nbsp;일원에&nbsp;자연&nbsp;친화적&nbsp;프리미엄&nbsp;글램핑장&nbsp;및&nbsp;오토캠핑장&nbsp;조성.&nbsp;<br>인근&nbsp;관광지(황톳길,&nbsp;산림욕장)와&nbsp;연계한&nbsp;야간&nbsp;경관&nbsp;조명&nbsp;및&nbsp;문화&nbsp;프로그램&nbsp;운영.<br>③&nbsp;접근성&nbsp;혁신:&nbsp;관광형&nbsp;DRT(수요응답형)&nbsp;도입&nbsp;<br>대중교통&nbsp;사각지대인&nbsp;계족산~대청호&nbsp;구간을&nbsp;연결하는&nbsp;수요응답형&nbsp;버스(DRT)&nbsp;운영.&nbsp;<br>스마트폰&nbsp;앱&nbsp;및&nbsp;콜센터를&nbsp;통한&nbsp;실시간&nbsp;호출&nbsp;시스템&nbsp;구축으로&nbsp;방문객&nbsp;이동&nbsp;편의&nbsp;극대화.<br>④&nbsp;안전&nbsp;및&nbsp;환경&nbsp;정비:&nbsp;임도&nbsp;현대화&nbsp;및&nbsp;수변&nbsp;공간&nbsp;개선&nbsp;<br>산불&nbsp;진화&nbsp;차량&nbsp;진입로&nbsp;확보&nbsp;및&nbsp;노후&nbsp;임도&nbsp;포장/정비를&nbsp;통한&nbsp;산불&nbsp;대응력&nbsp;강화.&nbsp;<br>갑천·금강변&nbsp;산책로&nbsp;및&nbsp;자전거&nbsp;도로&nbsp;전면&nbsp;보수,&nbsp;시민&nbsp;쉼터&nbsp;및&nbsp;화장실&nbsp;등&nbsp;편의시설&nbsp;확충.<br><br>□&nbsp;이행기간&nbsp;<br>민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;추진&nbsp;(2026.&nbsp;07.&nbsp;~&nbsp;2030.&nbsp;06.)&nbsp;<br>임기&nbsp;1~2년차&nbsp;(2026~2027):&nbsp;조례&nbsp;제·개정,&nbsp;부지&nbsp;확보,&nbsp;관광형&nbsp;DRT&nbsp;시범&nbsp;운영&nbsp;및&nbsp;경관농업&nbsp;단지&nbsp;착공.&nbsp;<br>임기&nbsp;3~4년차&nbsp;(2028~2030):&nbsp;장동&nbsp;글램핑장&nbsp;준공,&nbsp;임도&nbsp;및&nbsp;수변&nbsp;정비&nbsp;완료,&nbsp;주민&nbsp;협동조합&nbsp;활성화를&nbsp;통한&nbsp;관광&nbsp;상품&nbsp;정착.<br><br>□&nbsp;재원조달방안&nbsp;등<br>①&nbsp;국비&nbsp;및&nbsp;시비&nbsp;확보&nbsp;(메인&nbsp;재원)&nbsp;<br>문화체육관광부&nbsp;‘특화&nbsp;관광도시&nbsp;조성사업’&nbsp;및&nbsp;행정안전부&nbsp;‘지역&nbsp;소멸&nbsp;대응&nbsp;기금’&nbsp;공모를&nbsp;통한&nbsp;국비&nbsp;확보.&nbsp;<br>대전광역시&nbsp;‘생태관광&nbsp;활성화&nbsp;사업’&nbsp;및&nbsp;‘산림휴양시설&nbsp;확충&nbsp;사업’과&nbsp;연계한&nbsp;시비&nbsp;매칭.<br>②&nbsp;구비(일반회계)&nbsp;<br>구&nbsp;자체&nbsp;예산&nbsp;편성을&nbsp;통해&nbsp;시설&nbsp;유지&nbsp;보수&nbsp;및&nbsp;DRT&nbsp;운영&nbsp;보조금&nbsp;지원.<br>③&nbsp;민간&nbsp;자본&nbsp;및&nbsp;주민&nbsp;참여&nbsp;(민관&nbsp;협력)&nbsp;<br>글램핑장&nbsp;등&nbsp;일부&nbsp;수익&nbsp;시설에&nbsp;대한&nbsp;민자&nbsp;유치&nbsp;검토.&nbsp;<br>주민&nbsp;협동조합&nbsp;출자금&nbsp;및&nbsp;사회적&nbsp;기업&nbsp;지원금을&nbsp;통한&nbsp;경관농업&nbsp;수익&nbsp;사업&nbsp;운영.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	재건축·재개발 적극 지원을 통한 주거 안심 도시 대덕</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="재건축·재개발 적극 지원을 통한 주거 안심 도시 대덕">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>“멈춰선&nbsp;재건축·재개발에&nbsp;속도를&nbsp;더하고,&nbsp;주민의&nbsp;재정착을&nbsp;보장하는&nbsp;상생&nbsp;정비&nbsp;모델&nbsp;구축”<br>준비위원회&nbsp;단계부터&nbsp;밀착&nbsp;행정&nbsp;지원을&nbsp;통해&nbsp;사업의&nbsp;불확실성을&nbsp;제거하고&nbsp;사업&nbsp;기간을&nbsp;획기적으로&nbsp;단축하겠습니다.<br>단순한&nbsp;아파트&nbsp;공급을&nbsp;넘어&nbsp;공공시설이&nbsp;확충된&nbsp;기능적&nbsp;도시,&nbsp;원주민이&nbsp;소외되지&nbsp;않는&nbsp;따뜻한&nbsp;주거&nbsp;공동체를&nbsp;만듭니다.<br><br>□&nbsp;이행방법<br>①&nbsp;준비위원회&nbsp;단계부터&nbsp;전담&nbsp;행정지원단&nbsp;파견<br>사업&nbsp;초기부터&nbsp;전문가(정비사업&nbsp;코디네이터)를&nbsp;파견하여&nbsp;복잡한&nbsp;절차&nbsp;안내&nbsp;및&nbsp;투명한&nbsp;사업&nbsp;운영&nbsp;컨설팅&nbsp;제공.<br>정확한&nbsp;사업성&nbsp;분석&nbsp;자료를&nbsp;사전에&nbsp;제공하여&nbsp;주민들의&nbsp;합리적&nbsp;의사결정을&nbsp;돕고&nbsp;불필요한&nbsp;분쟁&nbsp;사전&nbsp;차단.<br>②&nbsp;대덕형&nbsp;갈등&nbsp;조정&nbsp;시스템&nbsp;및&nbsp;상담&nbsp;창구&nbsp;운영<br>구청&nbsp;직속&nbsp;'도시정비&nbsp;갈등조정위원회'를&nbsp;설치하여&nbsp;주민&nbsp;간&nbsp;이해관계&nbsp;충돌&nbsp;시&nbsp;지자체가&nbsp;제3자로서&nbsp;적극&nbsp;중재.<br>상시&nbsp;상담&nbsp;창구를&nbsp;운영하여&nbsp;법률,&nbsp;세무,&nbsp;행정&nbsp;절차에&nbsp;대한&nbsp;주민&nbsp;궁금증&nbsp;즉각&nbsp;해소.<br>③&nbsp;원주민&nbsp;재정착&nbsp;및&nbsp;주거&nbsp;안정&nbsp;지원&nbsp;프로그램<br>이주비&nbsp;융자&nbsp;지원&nbsp;확대&nbsp;및&nbsp;사업&nbsp;기간&nbsp;내&nbsp;거주할&nbsp;수&nbsp;있는&nbsp;'순환&nbsp;이주용&nbsp;주택'&nbsp;확보&nbsp;추진.<br>청년&nbsp;및&nbsp;신혼부부를&nbsp;위한&nbsp;합리적&nbsp;가격의&nbsp;공공주택&nbsp;공급&nbsp;물량&nbsp;확보&nbsp;및&nbsp;우선&nbsp;배정&nbsp;협의.<br>④&nbsp;공공기여&nbsp;인센티브&nbsp;및&nbsp;인프라&nbsp;확충<br>공원,&nbsp;도서관,&nbsp;주차장&nbsp;등&nbsp;공공시설&nbsp;기부채납&nbsp;시&nbsp;용적률&nbsp;상향&nbsp;등&nbsp;법령이&nbsp;허용하는&nbsp;최대&nbsp;인센티브&nbsp;부여.<br>노후&nbsp;기반시설&nbsp;정비&nbsp;예산을&nbsp;우선&nbsp;투입하여&nbsp;정비구역&nbsp;주변&nbsp;환경&nbsp;동시&nbsp;개선.<br><br>□&nbsp;이행기간<br>민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진&nbsp;(2026.&nbsp;07.&nbsp;~&nbsp;2030.&nbsp;06.)<br>임기&nbsp;1년차&nbsp;(2026):&nbsp;도시정비&nbsp;지원&nbsp;조례&nbsp;제정&nbsp;및&nbsp;전담&nbsp;조직(행정지원단)&nbsp;구성,&nbsp;갈등조정&nbsp;시스템&nbsp;구축.<br>임기&nbsp;2~4년차&nbsp;(2027~2030):&nbsp;주요&nbsp;노후&nbsp;단지별&nbsp;맞춤형&nbsp;컨설팅&nbsp;실시&nbsp;및&nbsp;인허가&nbsp;절차&nbsp;간소화&nbsp;적용,&nbsp;순환&nbsp;이주&nbsp;대책&nbsp;마련.<br><br>□&nbsp;재원조달방안&nbsp;등<br>①&nbsp;국비&nbsp;및&nbsp;시비&nbsp;지원&nbsp;활용<br>국토교통부의&nbsp;'도시재생&nbsp;및&nbsp;정비사업&nbsp;활성화'&nbsp;관련&nbsp;국비&nbsp;공모사업&nbsp;추진.<br>대전광역시&nbsp;'도시정비기금'&nbsp;및&nbsp;'주거환경개선사업'&nbsp;예산&nbsp;적극&nbsp;확보.<br>②&nbsp;구비(일반회계&nbsp;및&nbsp;특별회계)<br>전문가&nbsp;파견&nbsp;및&nbsp;갈등&nbsp;조정&nbsp;시스템&nbsp;운영비&nbsp;등&nbsp;행정&nbsp;비용은&nbsp;구&nbsp;일반회계에서&nbsp;편성.<br>정비구역&nbsp;내&nbsp;기반시설&nbsp;설치비용&nbsp;등은&nbsp;도시계획&nbsp;관련&nbsp;특별회계&nbsp;활용.<br>③&nbsp;민간&nbsp;자본&nbsp;유치&nbsp;및&nbsp;기부채납<br>공공기여&nbsp;인센티브&nbsp;제도를&nbsp;활용하여&nbsp;민간&nbsp;사업자가&nbsp;공공시설(도로,&nbsp;공원&nbsp;등)을&nbsp;건립하도록&nbsp;유도함으로써&nbsp;구&nbsp;재정&nbsp;부담&nbsp;최소화.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	누구도 소외되지 않는 무장애 미래도시 & 탄소중립 대덕 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="누구도 소외되지 않는 무장애 미래도시 & 탄소중립 대덕 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>“이동의&nbsp;자유가&nbsp;보장되는&nbsp;따뜻한&nbsp;무장애&nbsp;도시,&nbsp;기후위기에&nbsp;앞장서는&nbsp;탄소중립&nbsp;대덕&nbsp;구현”&nbsp;장애인,&nbsp;어르신,&nbsp;어린이&nbsp;등&nbsp;교통약자를&nbsp;포함한&nbsp;모든&nbsp;구민이&nbsp;이동의&nbsp;제약&nbsp;없이&nbsp;안전하게&nbsp;생활할&nbsp;수&nbsp;있는&nbsp;'배리어&nbsp;프리(Barrier-Free)'&nbsp;인프라를&nbsp;구축합니다.&nbsp;<br>첨단&nbsp;스마트&nbsp;기술과&nbsp;친환경&nbsp;정책을&nbsp;결합하여&nbsp;인간과&nbsp;자연이&nbsp;공존하는&nbsp;지속&nbsp;가능한&nbsp;미래형&nbsp;도시&nbsp;모델을&nbsp;제시합니다.<br><br>□&nbsp;이행방법<br>①&nbsp;교통약자를&nbsp;위한&nbsp;무장애&nbsp;교통망&nbsp;구축&nbsp;<br>저상버스&nbsp;도입&nbsp;전면&nbsp;확대:&nbsp;대덕구&nbsp;내&nbsp;운행되는&nbsp;시내버스의&nbsp;저상버스&nbsp;교체율을&nbsp;대폭&nbsp;상향하여&nbsp;휠체어&nbsp;이용자&nbsp;및&nbsp;유모차&nbsp;이용객의&nbsp;접근성&nbsp;강화.&nbsp;<br>교통약자&nbsp;전용&nbsp;이동&nbsp;수단&nbsp;확충:&nbsp;특별교통수단(DRT&nbsp;등)&nbsp;지원&nbsp;확대&nbsp;및&nbsp;대기&nbsp;시간&nbsp;단축을&nbsp;위한&nbsp;운영&nbsp;시스템&nbsp;개선.<br>②&nbsp;보행&nbsp;환경&nbsp;혁신:&nbsp;'배리어&nbsp;프리'&nbsp;보행로&nbsp;정비&nbsp;<br>보도&nbsp;턱&nbsp;낮추기&nbsp;및&nbsp;보도&nbsp;정비:&nbsp;주요&nbsp;간선도로&nbsp;및&nbsp;주택가&nbsp;보행로의&nbsp;단차를&nbsp;제거하고&nbsp;보도&nbsp;폭을&nbsp;확장하여&nbsp;'걷기&nbsp;편한&nbsp;도시'&nbsp;조성.&nbsp;<br>스마트&nbsp;무장애&nbsp;인프라:&nbsp;시각장애인을&nbsp;위한&nbsp;스마트&nbsp;음성&nbsp;안내&nbsp;점자블록&nbsp;및&nbsp;고령자를&nbsp;위한&nbsp;횡단보도&nbsp;장수&nbsp;의자,&nbsp;스마트&nbsp;쉼터&nbsp;설치.<br>③&nbsp;기후위기&nbsp;대응&nbsp;탄소중립&nbsp;실천&nbsp;도시&nbsp;<br>친환경&nbsp;에너지&nbsp;전환:&nbsp;공공건축물&nbsp;태양광&nbsp;발전&nbsp;설비&nbsp;설치&nbsp;및&nbsp;민간&nbsp;주택&nbsp;미니&nbsp;태양광&nbsp;보급&nbsp;지원&nbsp;확대.&nbsp;<br>에코&nbsp;모빌리티&nbsp;인프라:&nbsp;전기차&nbsp;충전소&nbsp;및&nbsp;수소차&nbsp;충전&nbsp;인프라&nbsp;확충,&nbsp;자전거&nbsp;도로&nbsp;정비를&nbsp;통한&nbsp;친환경&nbsp;이동&nbsp;수단&nbsp;활성화.<br>④&nbsp;스마트&nbsp;기술&nbsp;기반의&nbsp;복지&nbsp;서비스&nbsp;<br>배리어&nbsp;프리&nbsp;맵(Barrier-Free&nbsp;Map)&nbsp;개발:&nbsp;대덕구&nbsp;내&nbsp;무장애&nbsp;시설&nbsp;및&nbsp;보행&nbsp;경로&nbsp;정보를&nbsp;제공하는&nbsp;모바일&nbsp;앱&nbsp;개발·보급.&nbsp;<br>독거&nbsp;어르신&nbsp;스마트&nbsp;케어:&nbsp;AI(인공지능)&nbsp;스피커&nbsp;및&nbsp;IoT&nbsp;기기를&nbsp;활용한&nbsp;24시간&nbsp;안전&nbsp;확인&nbsp;서비스&nbsp;고도화.<br><br>□&nbsp;이행기간&nbsp;<br>민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;상시&nbsp;및&nbsp;단계적&nbsp;추진&nbsp;(2026.&nbsp;07.&nbsp;~&nbsp;2030.&nbsp;06.)&nbsp;<br>임기&nbsp;1~2년차&nbsp;(2026~2027):&nbsp;무장애&nbsp;도시&nbsp;조성을&nbsp;위한&nbsp;기본&nbsp;계획&nbsp;수립&nbsp;및&nbsp;조례&nbsp;제정,&nbsp;보행&nbsp;환경&nbsp;실태&nbsp;조사.&nbsp;<br>임기&nbsp;3~4년차&nbsp;(2028~2030):&nbsp;주요&nbsp;보행로&nbsp;정비&nbsp;완료,&nbsp;저상버스&nbsp;목표치&nbsp;달성,&nbsp;탄소중립&nbsp;테마&nbsp;공원&nbsp;및&nbsp;스마트&nbsp;복지&nbsp;시스템&nbsp;정착.<br><br>□&nbsp;재원조달방안&nbsp;등<br>①&nbsp;국비&nbsp;및&nbsp;시비&nbsp;확보&nbsp;<br>국토교통부의&nbsp;‘교통약자&nbsp;이동편의&nbsp;증진&nbsp;사업’&nbsp;및&nbsp;‘스마트시티&nbsp;조성&nbsp;사업’&nbsp;국비&nbsp;공모.&nbsp;<br>환경부의&nbsp;‘탄소중립&nbsp;선도도시’&nbsp;공모&nbsp;및&nbsp;대전광역시&nbsp;‘기후위기&nbsp;대응&nbsp;기금’&nbsp;활용.<br>②&nbsp;구비(일반회계)&nbsp;<br>구&nbsp;자체&nbsp;예산을&nbsp;편성하여&nbsp;무장애&nbsp;보행로&nbsp;유지&nbsp;보수&nbsp;및&nbsp;스마트&nbsp;복지&nbsp;인프라&nbsp;운영비&nbsp;확보.<br>③&nbsp;민관&nbsp;협력&nbsp;및&nbsp;기금&nbsp;활용&nbsp;<br>탄소중립&nbsp;실천에&nbsp;참여하는&nbsp;기업과의&nbsp;사회공헌활동(CSR)&nbsp;연계&nbsp;및&nbsp;민간&nbsp;자본&nbsp;유치를&nbsp;통한&nbsp;친환경&nbsp;충전&nbsp;인프라&nbsp;확충.&nbsp;<br>교통안전기금&nbsp;및&nbsp;사회복지기금을&nbsp;활용한&nbsp;교통약자&nbsp;지원&nbsp;프로그램&nbsp;운영.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	막힘없는 도로, 촘촘한 대중교통 '교통 선진 도시 대덕</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="막힘없는 도로, 촘촘한 대중교통 '교통 선진 도시 대덕">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>“빠르고&nbsp;편리하며&nbsp;안전한&nbsp;대덕,&nbsp;사각지대&nbsp;없는&nbsp;교통&nbsp;복지&nbsp;실현”&nbsp;<br>광역&nbsp;교통망&nbsp;확충과&nbsp;상습&nbsp;정체&nbsp;해소를&nbsp;통해&nbsp;주민의&nbsp;출퇴근&nbsp;시간을&nbsp;돌려드리고,&nbsp;지역&nbsp;경제의&nbsp;활력을&nbsp;불어넣겠습니다.&nbsp;<br>대중교통&nbsp;접근성&nbsp;강화와&nbsp;첨단&nbsp;안전&nbsp;시스템&nbsp;고도화로&nbsp;누구도&nbsp;소외되지&nbsp;않는&nbsp;'교통&nbsp;선진&nbsp;도시&nbsp;대덕'을&nbsp;만듭니다.<br><br>□&nbsp;이행방법<br>①&nbsp;광역&nbsp;및&nbsp;간선&nbsp;도로망&nbsp;효율화&nbsp;<br>천변고속화도로&nbsp;통행료&nbsp;폐지&nbsp;추진:&nbsp;대전시와의&nbsp;적극적인&nbsp;협의를&nbsp;통해&nbsp;단계적&nbsp;통행료&nbsp;폐지&nbsp;로드맵을&nbsp;수립하고&nbsp;주민&nbsp;경제&nbsp;부담&nbsp;경감.&nbsp;<br>신탄진IC&nbsp;교통혼잡&nbsp;개선:&nbsp;IC&nbsp;주변&nbsp;도로&nbsp;확장&nbsp;및&nbsp;진출입로&nbsp;구조&nbsp;개선&nbsp;사업을&nbsp;조기&nbsp;착공하여&nbsp;상습&nbsp;정체&nbsp;구간&nbsp;해소.<br>②&nbsp;대중교통&nbsp;인프라&nbsp;획기적&nbsp;확충&nbsp;<br>도시철도&nbsp;2호선(트램)&nbsp;회덕역&nbsp;연장:&nbsp;회덕동&nbsp;및&nbsp;배후&nbsp;지역의&nbsp;접근성&nbsp;향상을&nbsp;위해&nbsp;트램&nbsp;노선&nbsp;연장을&nbsp;국정과제&nbsp;및&nbsp;시책&nbsp;사업에&nbsp;반영&nbsp;추진.&nbsp;<br>충청권&nbsp;광역철도&nbsp;조기&nbsp;완공&nbsp;지원:&nbsp;공정&nbsp;관리&nbsp;및&nbsp;예산&nbsp;확보&nbsp;지원을&nbsp;통해&nbsp;적기&nbsp;완공을&nbsp;도모,&nbsp;메가시티&nbsp;교통&nbsp;요충지로&nbsp;도약.<br>③&nbsp;수요자&nbsp;맞춤형&nbsp;교통&nbsp;서비스(DRT)&nbsp;및&nbsp;안전&nbsp;인프라&nbsp;<br>수요응답형&nbsp;교통(DRT)&nbsp;도입:&nbsp;교통&nbsp;소외&nbsp;지역에&nbsp;호출형&nbsp;버스를&nbsp;배치하여&nbsp;대중교통&nbsp;사각지대&nbsp;해소&nbsp;및&nbsp;이동권&nbsp;보장.&nbsp;<br>스마트&nbsp;교통&nbsp;안전&nbsp;도시:&nbsp;AI&nbsp;기반&nbsp;교통&nbsp;관제&nbsp;및&nbsp;스마트&nbsp;횡단보도&nbsp;설치로&nbsp;교통사고&nbsp;발생률을&nbsp;줄이고&nbsp;주민&nbsp;보행&nbsp;안전&nbsp;강화.<br><br>□&nbsp;이행기간&nbsp;<br>민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;완료&nbsp;(2026.&nbsp;07.&nbsp;~&nbsp;2030.&nbsp;06.)&nbsp;<br>임기&nbsp;1~2년차&nbsp;(2026~2027):&nbsp;통행료&nbsp;폐지&nbsp;협의체&nbsp;구성,&nbsp;DRT&nbsp;시범&nbsp;운영,&nbsp;도시철도&nbsp;연장&nbsp;타당성&nbsp;검토&nbsp;착수.&nbsp;<br>임기&nbsp;3~4년차&nbsp;(2028~2030):&nbsp;신탄진IC&nbsp;주변&nbsp;정비&nbsp;완료,&nbsp;스마트&nbsp;교통&nbsp;시스템&nbsp;전역&nbsp;확대,&nbsp;광역철도&nbsp;개통&nbsp;지원&nbsp;및&nbsp;트램&nbsp;연장&nbsp;확정.<br><br>□&nbsp;재원조달방안&nbsp;등<br>①&nbsp;국비&nbsp;및&nbsp;시비&nbsp;확보&nbsp;(핵심&nbsp;재원)&nbsp;<br>국토교통부의&nbsp;'대도시권&nbsp;광역교통&nbsp;시행계획'&nbsp;및&nbsp;'스마트시티&nbsp;조성&nbsp;사업'&nbsp;연계를&nbsp;통한&nbsp;국비&nbsp;확보.&nbsp;<br>대전광역시&nbsp;일반회계&nbsp;및&nbsp;교통시설특별회계&nbsp;예산&nbsp;매칭&nbsp;요청&nbsp;(천변고속화도로&nbsp;통행료&nbsp;손실&nbsp;보전&nbsp;및&nbsp;트램&nbsp;연장&nbsp;사업비).<br>②&nbsp;구비&nbsp;및&nbsp;기타&nbsp;기금&nbsp;<br>DRT&nbsp;운영&nbsp;및&nbsp;스마트&nbsp;안전&nbsp;시설&nbsp;설치를&nbsp;위해&nbsp;구&nbsp;일반회계&nbsp;예산&nbsp;편성&nbsp;및&nbsp;지역상생발전기금&nbsp;활용.<br>③&nbsp;수익형&nbsp;민자&nbsp;사업&nbsp;재구조화&nbsp;<br>천변고속화도로&nbsp;운영&nbsp;방식&nbsp;재검토&nbsp;및&nbsp;민간&nbsp;투자자와의&nbsp;협상(재구조화)을&nbsp;통한&nbsp;재무적&nbsp;부담&nbsp;경감&nbsp;방안&nbsp;마련.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

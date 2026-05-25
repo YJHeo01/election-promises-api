@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;오성환 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	시민의 생명을 지키고 삶을 든든히 지켜내는 당진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="시민의 생명을 지키고 삶을 든든히 지켜내는 당진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;시민의&nbsp;일상이&nbsp;편리하고&nbsp;안전하며,&nbsp;청년부터&nbsp;어르신까지&nbsp;전&nbsp;생애주기에&nbsp;걸쳐&nbsp;고른&nbsp;&nbsp;혜택을&nbsp;누리는&nbsp;살기&nbsp;좋은&nbsp;당진을&nbsp;만드는&nbsp;것입니다.<br>&nbsp;→&nbsp;시민의&nbsp;일상을&nbsp;정책으로,&nbsp;삶의&nbsp;순간을&nbsp;복지로!&nbsp;내일이&nbsp;설레는&nbsp;당진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;○&nbsp;시민이&nbsp;시장입니다,&nbsp;365&nbsp;소통&nbsp;당진<br>&nbsp;&nbsp;&nbsp;○&nbsp;당진의&nbsp;모든&nbsp;소식이&nbsp;한눈에!&nbsp;다-모아&nbsp;통합&nbsp;플랫폼<br>&nbsp;&nbsp;&nbsp;○&nbsp;당진&nbsp;의료독립&nbsp;24시&nbsp;종합병원&nbsp;실현<br>&nbsp;&nbsp;&nbsp;○&nbsp;어르신&nbsp;대상포진&nbsp;무료&nbsp;접종&nbsp;및&nbsp;시내버스&nbsp;요금&nbsp;감면&nbsp;대상&nbsp;확대<br>&nbsp;&nbsp;&nbsp;○&nbsp;요양병원&nbsp;스마트&nbsp;기져귀&nbsp;지급&nbsp;및&nbsp;AI&nbsp;스마트&nbsp;등하교&nbsp;시스템<br>&nbsp;&nbsp;&nbsp;○&nbsp;AI&nbsp;수어&nbsp;통역&nbsp;시스템&nbsp;도입&nbsp;및&nbsp;지체장애인&nbsp;희망&nbsp;일터&nbsp;지원사업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;○&nbsp;당진형&nbsp;맞춤&nbsp;진로·진학&nbsp;컨설팅&nbsp;상설&nbsp;운영(연중)<br>&nbsp;&nbsp;&nbsp;○&nbsp;대학생&nbsp;기숙사·자취비&nbsp;지원&nbsp;및&nbsp;청년&nbsp;취업&nbsp;기업&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;○&nbsp;청년&nbsp;네트워크&nbsp;구성&nbsp;운영&nbsp;<br>&nbsp;&nbsp;&nbsp;○&nbsp;청소년&nbsp;통학환경&nbsp;개선&nbsp;및&nbsp;안전망&nbsp;구축&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;○&nbsp;임기내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	탄소중립 선도도시 당진, 환경이 산업이 되고 에너지가 일자리가 되는 도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="탄소중립 선도도시 당진, 환경이 산업이 되고 에너지가 일자리가 되는 도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;물류·철강&nbsp;산업의&nbsp;혁신과&nbsp;수소&nbsp;기반&nbsp;그린에너지&nbsp;생태계&nbsp;구축을&nbsp;통해,&nbsp;투자&nbsp;유치를&nbsp;극대화하고&nbsp;지속&nbsp;가능한&nbsp;미래&nbsp;경제&nbsp;도시를&nbsp;완성하는&nbsp;것입니다.<br>&nbsp;→&nbsp;그린에너지로&nbsp;뛰는&nbsp;경제,&nbsp;활력&nbsp;넘치는&nbsp;일상!&nbsp;모두가&nbsp;살고&nbsp;싶은&nbsp;자립형&nbsp;명품&nbsp;도시<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전국&nbsp;최고의&nbsp;투자유치·기업유치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;물류허브&nbsp;조시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;철강산업&nbsp;위기&nbsp;선제&nbsp;대응&nbsp;지역&nbsp;지정&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;분산에너지&nbsp;활용&nbsp;등&nbsp;전기료&nbsp;감면&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;수소도시&nbsp;조성사업&nbsp;완료&nbsp;추진&nbsp;및&nbsp;수소·암모니아&nbsp;부두&nbsp;건설&nbsp;완공&nbsp;<br>&nbsp;&nbsp;○&nbsp;탄소&nbsp;포집형&nbsp;수소생산&nbsp;기지&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;당진&nbsp;그린에너지&nbsp;허브산단&nbsp;완성&nbsp;<br>&nbsp;&nbsp;○&nbsp;수소에너지&nbsp;특화대학&nbsp;학과&nbsp;신설&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;LNG&nbsp;냉열&nbsp;활용&nbsp;전국&nbsp;최고&nbsp;스마트&nbsp;양식장&nbsp;조성&nbsp;<br>&nbsp;&nbsp;○&nbsp;LNG&nbsp;저장용기&nbsp;안전&nbsp;검사&nbsp;비용&nbsp;지원&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	기후 위기에도 흔들리지 않는 스마트 농·축·수산 당진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="기후 위기에도 흔들리지 않는 스마트 농·축·수산 당진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;첨단&nbsp;스마트&nbsp;기술과&nbsp;그린&nbsp;에너지를&nbsp;기반으로&nbsp;생태를&nbsp;복원하고&nbsp;농어민의&nbsp;소득을&nbsp;&nbsp;보장하는,&nbsp;지속&nbsp;가능한&nbsp;글로벌&nbsp;스마트&nbsp;생태&nbsp;농어촌&nbsp;당진을&nbsp;실현한다<br>&nbsp;→&nbsp;지속&nbsp;가능한&nbsp;미래,&nbsp;풍요로운&nbsp;당진,&nbsp;스마트&nbsp;생태&nbsp;경제&nbsp;도시로의&nbsp;도약<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;벼&nbsp;재배&nbsp;신품종(골드퀸)&nbsp;보급<br>&nbsp;&nbsp;○&nbsp;당진&nbsp;호풍고구마&nbsp;특화사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;농어촌&nbsp;RE100&nbsp;마을조성<br>&nbsp;&nbsp;○&nbsp;농어민&nbsp;소득안정제&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;해양·농지&nbsp;생태복원&nbsp;프로젝트&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;기후대응&nbsp;스마트&nbsp;축산단자로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;항만구역&nbsp;내&nbsp;어업활동&nbsp;허용&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;농·축·수산&nbsp;직거래&nbsp;체험<br>&nbsp;&nbsp;○&nbsp;폐열&nbsp;이용&nbsp;전국&nbsp;최고&nbsp;스마트팜&nbsp;조성&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	막힘없이 연결되는 쾌적한 안심 명품도시 당진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="막힘없이 연결되는 쾌적한 안심 명품도시 당진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;기후&nbsp;위기에&nbsp;강한&nbsp;탄소중립&nbsp;선도&nbsp;도시를&nbsp;구현하고,&nbsp;촘촘한&nbsp;녹색&nbsp;교통망과&nbsp;시민&nbsp;중심의&nbsp;명품&nbsp;환경을&nbsp;조성,&nbsp;지속&nbsp;가능한&nbsp;저탄소&nbsp;그린&nbsp;안전&nbsp;도시&nbsp;당진을&nbsp;완성하고자&nbsp;합니다.<br>&nbsp;→&nbsp;안전&nbsp;위에&nbsp;혁신을,&nbsp;일상&nbsp;속에&nbsp;그린을&nbsp;-&nbsp;시민의&nbsp;꿈을&nbsp;잇는&nbsp;미래도시&nbsp;당진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;읍내동&nbsp;도시&nbsp;침수&nbsp;예방&nbsp;사업&nbsp;완벽&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;지방&nbsp;하천&nbsp;스마트&nbsp;홍수관리시스템&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;탄소중립&nbsp;선도&nbsp;도시(2045년&nbsp;달성)&nbsp;완벽한&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;텀블러&nbsp;참여&nbsp;확대&nbsp;추진&nbsp;및&nbsp;친환경자동차&nbsp;확대&nbsp;보급<br>&nbsp;&nbsp;○&nbsp;도심속&nbsp;명품&nbsp;호수공원&nbsp;조성&nbsp;<br>&nbsp;&nbsp;○&nbsp;도시&nbsp;온도를&nbsp;낮추는&nbsp;녹색&nbsp;방패&nbsp;숲&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;당진-화성&nbsp;제2&nbsp;서해대교&nbsp;개설&nbsp;및&nbsp;32호&nbsp;국도&nbsp;우회도로&nbsp;지정<br>&nbsp;&nbsp;○&nbsp;난지도&nbsp;연육교&nbsp;설치&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;행복버스&nbsp;확대&nbsp;보급&nbsp;및&nbsp;강남&nbsp;고속&nbsp;터미널&nbsp;버스&nbsp;증차<br>&nbsp;&nbsp;○&nbsp;APT&nbsp;단지별&nbsp;공용주차장&nbsp;및&nbsp;유휴지&nbsp;활용&nbsp;공용주차장&nbsp;확보<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	발길 닿는 곳 마다 즐거움을 만드는 문화 관광도시 당진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="발길 닿는 곳 마다 즐거움을 만드는 문화 관광도시 당진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;수소&nbsp;기반의&nbsp;혁신&nbsp;경제와&nbsp;고품격&nbsp;문화&nbsp;관광의&nbsp;융합을&nbsp;통해,&nbsp;시민의&nbsp;자부심이&nbsp;되는&nbsp;안심&nbsp;정착&nbsp;명품&nbsp;자생도시를&nbsp;만드는&nbsp;것입니다.<br>&nbsp;→&nbsp;혁신&nbsp;산업으로&nbsp;풍요롭고,&nbsp;고품격&nbsp;문화로&nbsp;설레는&nbsp;'글로벌&nbsp;자생&nbsp;도시'&nbsp;완성"<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시립미술관&nbsp;건립&nbsp;본격화<br>&nbsp;&nbsp;○&nbsp;충남&nbsp;최고의&nbsp;문화&nbsp;도시&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;도비도-난지도&nbsp;특구&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;지속&nbsp;가능한&nbsp;영상&nbsp;콘텐츠&nbsp;산업&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;남부&nbsp;권역&nbsp;6차&nbsp;산업&nbsp;관광밸트조성&nbsp;<br>&nbsp;&nbsp;○&nbsp;행담도-도비도-삽교호&nbsp;관광지&nbsp;연계&nbsp;관광밸트화&nbsp;조성<br>&nbsp;&nbsp;○청소년&nbsp;수련관&nbsp;임기내&nbsp;완공&nbsp;<br>&nbsp;&nbsp;○&nbsp;생활체육시설&nbsp;대폭&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;원도심&nbsp;스타거리&nbsp;조성&nbsp;<br>&nbsp;&nbsp;○지역별&nbsp;뮤지컬&nbsp;아트홀&nbsp;조성&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자유치</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

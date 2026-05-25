@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김동일 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	농어촌기본소득 및 접경지역 민생지원 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="농어촌기본소득 및 접경지역 민생지원 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;농어촌기본소득&nbsp;및&nbsp;접경지역&nbsp;민생지원&nbsp;추진<br>*&nbsp;군민&nbsp;생활&nbsp;안정과&nbsp;지역경제&nbsp;회복&nbsp;기반&nbsp;마련<br>*&nbsp;접경지역&nbsp;규제로&nbsp;인한&nbsp;경제적&nbsp;피해&nbsp;지원&nbsp;강화<br>*&nbsp;철원사랑상품권&nbsp;지급을&nbsp;통한&nbsp;지역&nbsp;내&nbsp;소비&nbsp;활성화<br>*&nbsp;군민이&nbsp;체감할&nbsp;수&nbsp;있는&nbsp;실질적&nbsp;민생&nbsp;지원&nbsp;정책&nbsp;추진<br><br>□&nbsp;이행방법<br>○&nbsp;농어촌기본소득&nbsp;공모사업&nbsp;적극&nbsp;추진<br>○&nbsp;공모사업&nbsp;미선정&nbsp;시&nbsp;별도&nbsp;민생지원&nbsp;대책&nbsp;추진<br>-&nbsp;접경지역&nbsp;피해&nbsp;철원군&nbsp;민생지원금&nbsp;지급&nbsp;추진<br>-&nbsp;철원사랑상품권&nbsp;등&nbsp;지역&nbsp;내&nbsp;소비&nbsp;방식으로&nbsp;지급하여&nbsp;골목상권·전통시장&nbsp;활성화&nbsp;유도<br>-&nbsp;재정&nbsp;여건을&nbsp;고려한&nbsp;책임&nbsp;있는&nbsp;재정&nbsp;운영&nbsp;추진<br><br>□&nbsp;이행기간<br>○&nbsp;단계적&nbsp;추진<br>*&nbsp;단기&nbsp;:&nbsp;농어촌기본소득&nbsp;공모&nbsp;및&nbsp;미선정시&nbsp;접경지역&nbsp;피해&nbsp;철원군&nbsp;민생지원금&nbsp;지급추진<br>*&nbsp;중기&nbsp;:&nbsp;접경지역&nbsp;피해&nbsp;민생지원&nbsp;정책&nbsp;확대&nbsp;추진<br>*&nbsp;장기&nbsp;:&nbsp;지속가능한&nbsp;철원형&nbsp;기본소득·지역경제&nbsp;선순환&nbsp;구조&nbsp;정착<br><br>□&nbsp;재원조달방안&nbsp;<br>○&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	경제기반 구축을 위한 실행 계획 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="경제기반 구축을 위한 실행 계획 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;일자리&nbsp;창출&nbsp;기반&nbsp;확립<br>*&nbsp;경제과를&nbsp;산업경제실로&nbsp;개편하여&nbsp;산업과&nbsp;일자리&nbsp;기능&nbsp;통합&nbsp;관리<br>*&nbsp;공단&nbsp;내&nbsp;유휴부지에&nbsp;적극적인&nbsp;기업&nbsp;유치와&nbsp;지역산업&nbsp;육성을&nbsp;통한&nbsp;양질의&nbsp;일자리&nbsp;확대<br>*&nbsp;모든&nbsp;예산사업에&nbsp;일자리&nbsp;심사제도를&nbsp;도입하여&nbsp;고용&nbsp;창출&nbsp;효과&nbsp;강화<br><br>□&nbsp;이행방법<br>○&nbsp;경제과의&nbsp;산업경제실&nbsp;개편&nbsp;추진<br>○&nbsp;일자리&nbsp;중심의&nbsp;예산&nbsp;운영체계&nbsp;구축<br>○&nbsp;공단&nbsp;유휴부지&nbsp;활용&nbsp;및&nbsp;기업&nbsp;유치&nbsp;활성화<br>○&nbsp;청년·중장년·노인&nbsp;맞춤형&nbsp;일자리&nbsp;지원사업&nbsp;확대<br><br>□&nbsp;이행기간<br>○&nbsp;단계적&nbsp;추진<br>*&nbsp;단기&nbsp;:&nbsp;조직개편&nbsp;및&nbsp;일자리&nbsp;심사체계&nbsp;도입<br>*&nbsp;중기&nbsp;:&nbsp;기업유치&nbsp;및&nbsp;일자리&nbsp;지원사업&nbsp;확대<br>*&nbsp;장기&nbsp;:&nbsp;지속가능한&nbsp;지역산업·고용&nbsp;기반&nbsp;정착<br><br>□&nbsp;재원조달방안&nbsp;<br>○&nbsp;국비,&nbsp;도비,&nbsp;군비,&nbsp;민간유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	농가소득 안정 기반 마련  </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="농가소득 안정 기반 마련  ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;농가소득&nbsp;안정&nbsp;기반&nbsp;마련<br>*&nbsp;쌀값&nbsp;안정화와&nbsp;농업&nbsp;경영&nbsp;부담&nbsp;완화를&nbsp;통한&nbsp;안정적&nbsp;농가소득&nbsp;보장<br>*&nbsp;권역별&nbsp;특성에&nbsp;맞는&nbsp;철원&nbsp;농산물&nbsp;다품목&nbsp;생산&nbsp;기반&nbsp;확대<br>*&nbsp;원예·특작&nbsp;분야&nbsp;경쟁력&nbsp;강화를&nbsp;통한&nbsp;농업&nbsp;소득&nbsp;다양화&nbsp;추진<br>*&nbsp;지속가능한&nbsp;철원형&nbsp;농업&nbsp;성장&nbsp;기반&nbsp;구축<br><br>□&nbsp;이행방법<br>○&nbsp;농가소득&nbsp;안정&nbsp;정책&nbsp;추진<br>*&nbsp;쌀값&nbsp;안정화&nbsp;상설기구&nbsp;설치&nbsp;및&nbsp;운영<br>*&nbsp;농협과&nbsp;협업체계&nbsp;구축을&nbsp;통한&nbsp;수급·가격&nbsp;안정&nbsp;대응&nbsp;강화<br>*&nbsp;권역별&nbsp;맞춤형&nbsp;농산물&nbsp;생산체계&nbsp;확대&nbsp;추진<br>*&nbsp;원예·특작&nbsp;시범사업&nbsp;및&nbsp;스마트농업&nbsp;지원&nbsp;확대<br>*&nbsp;철원&nbsp;농산물&nbsp;브랜드&nbsp;경쟁력&nbsp;강화&nbsp;및&nbsp;판로&nbsp;확대&nbsp;지원<br>*&nbsp;청년농업인&nbsp;및&nbsp;소규모&nbsp;농가&nbsp;지원&nbsp;확대<br><br>□&nbsp;이행기간<br>○&nbsp;단계적&nbsp;추진<br>*&nbsp;단기&nbsp;:&nbsp;쌀값&nbsp;안정화&nbsp;상설기구&nbsp;설치&nbsp;및&nbsp;시범사업&nbsp;확대<br>*&nbsp;중기&nbsp;:&nbsp;권역별&nbsp;다품목&nbsp;생산&nbsp;기반&nbsp;구축<br>*&nbsp;장기&nbsp;:&nbsp;지속가능한&nbsp;농가소득&nbsp;안정체계&nbsp;정착<br><br>□&nbsp;재원조달방안&nbsp;<br>○&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	생애주기 1억 지원 프로젝트 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="생애주기 1억 지원 프로젝트 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;생애주기&nbsp;1억&nbsp;지원&nbsp;프로젝트&nbsp;추진<br>*&nbsp;결혼·출산·보육·교육·취업·정착까지&nbsp;생애주기별&nbsp;지원체계&nbsp;구축<br>*&nbsp;청년과&nbsp;신혼부부의&nbsp;경제적&nbsp;부담&nbsp;완화&nbsp;및&nbsp;안정적&nbsp;정착&nbsp;기반&nbsp;마련<br>*&nbsp;아이&nbsp;낳고&nbsp;키우기&nbsp;좋은&nbsp;철원&nbsp;조성<br>*&nbsp;청년&nbsp;인구&nbsp;유출&nbsp;방지와&nbsp;지속가능한&nbsp;지역공동체&nbsp;기반&nbsp;강화<br><br>□&nbsp;이행방법<br>○&nbsp;생애주기&nbsp;맞춤형&nbsp;지원체계&nbsp;구축<br>*&nbsp;결혼·출산&nbsp;지원&nbsp;확대&nbsp;및&nbsp;양육&nbsp;부담&nbsp;경감&nbsp;정책&nbsp;추진<br>*&nbsp;보육·교육·대학&nbsp;진학&nbsp;관련&nbsp;지원&nbsp;강화<br>*&nbsp;청년&nbsp;주거·창업·취업&nbsp;연계&nbsp;정책&nbsp;확대<br>*&nbsp;졸업&nbsp;후&nbsp;철원&nbsp;정착&nbsp;청년&nbsp;대상&nbsp;정착지원&nbsp;확대<br>*&nbsp;정부·강원특별자치도·철원군&nbsp;지원사업&nbsp;연계&nbsp;통합&nbsp;지원체계&nbsp;구축<br>*&nbsp;생애주기별&nbsp;누적&nbsp;지원을&nbsp;통한&nbsp;1억&nbsp;지원&nbsp;프로젝트&nbsp;단계적&nbsp;추진<br><br>□&nbsp;이행기간<br>○&nbsp;단계적&nbsp;추진<br>*&nbsp;단기&nbsp;:&nbsp;지원사업&nbsp;통합&nbsp;및&nbsp;생애주기&nbsp;지원체계&nbsp;구축<br>*&nbsp;중기&nbsp;:&nbsp;청년·신혼부부·출산가정&nbsp;지원&nbsp;확대<br>*&nbsp;장기&nbsp;:&nbsp;철원형&nbsp;생애주기&nbsp;통합지원&nbsp;정책&nbsp;정착<br><br>□&nbsp;재원조달방안<br>○&nbsp;국비,&nbsp;도비,&nbsp;군비,&nbsp;기관&nbsp;및&nbsp;민간&nbsp;협조</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	철원군 숙원사업 적극 추진 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="철원군 숙원사업 적극 추진 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;세종포천&nbsp;고속도로&nbsp;철원&nbsp;연장을&nbsp;통한&nbsp;지역경제&nbsp;활성화<br>*&nbsp;철원군&nbsp;숙원사업의&nbsp;조기&nbsp;추진으로&nbsp;교통&nbsp;접근성&nbsp;개선<br>*&nbsp;물류·관광·기업&nbsp;유입&nbsp;확대를&nbsp;통한&nbsp;지역&nbsp;성장&nbsp;기반&nbsp;마련<br>*&nbsp;기다리는&nbsp;행정이&nbsp;아닌&nbsp;직접&nbsp;뛰는&nbsp;적극행정&nbsp;추진<br>*&nbsp;철원&nbsp;구간&nbsp;공기&nbsp;단축을&nbsp;위한&nbsp;선제적&nbsp;행정&nbsp;지원&nbsp;강화<br><br>□&nbsp;이행방법<br>○&nbsp;세종포천&nbsp;고속도로&nbsp;철원&nbsp;연장&nbsp;추진&nbsp;강화<br>*&nbsp;중앙정부·국회·강원특별자치도와&nbsp;협력체계&nbsp;구축<br>*&nbsp;철원&nbsp;연장&nbsp;필요성에&nbsp;대한&nbsp;정책&nbsp;건의&nbsp;및&nbsp;대응&nbsp;강화<br>*&nbsp;군&nbsp;전담&nbsp;TF&nbsp;구성&nbsp;및&nbsp;지속적인&nbsp;추진상황&nbsp;관리<br>*&nbsp;철원&nbsp;구간&nbsp;우선&nbsp;추진&nbsp;시&nbsp;행정절차&nbsp;신속&nbsp;지원<br>*&nbsp;관련&nbsp;기반시설&nbsp;및&nbsp;연계&nbsp;도로망&nbsp;확충&nbsp;추진<br><br>□&nbsp;이행기간<br>○&nbsp;단계적&nbsp;추진<br>*&nbsp;단기&nbsp;:&nbsp;추진협의체&nbsp;및&nbsp;전담&nbsp;대응체계&nbsp;구축<br>*&nbsp;중기&nbsp;:&nbsp;노선&nbsp;반영&nbsp;및&nbsp;행정절차&nbsp;지원&nbsp;강화<br>*&nbsp;장기&nbsp;:&nbsp;세종포천&nbsp;고속도로&nbsp;철원&nbsp;연장&nbsp;완공&nbsp;추진<br><br>□&nbsp;재원조달방안<br>○&nbsp;국비,&nbsp;도비,&nbsp;군비,&nbsp;민간유치</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

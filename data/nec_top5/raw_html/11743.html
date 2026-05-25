@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;최호림 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	농어촌 기본소득 및 재생에너지 연금 배당 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="농어촌 기본소득 및 재생에너지 연금 배당 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>&nbsp;지역&nbsp;소멸을&nbsp;막는&nbsp;가장&nbsp;확실한&nbsp;방법은&nbsp;군민의&nbsp;지갑을&nbsp;직접&nbsp;채워&nbsp;지역&nbsp;내&nbsp;돈이&nbsp;돌게하는&nbsp;것입니다.&nbsp;재생에너지&nbsp;이익을&nbsp;소수가&nbsp;독점하지&nbsp;않고&nbsp;군민&nbsp;모두의&nbsp;연금으로&nbsp;돌려드립니다.&nbsp;한가구당(4인기준)&nbsp;연소득&nbsp;천만원&nbsp;시대를&nbsp;열겠습니다,<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전&nbsp;군민&nbsp;대상&nbsp;농어촌&nbsp;기본소득을&nbsp;'산청사랑상품권'으로&nbsp;지급하여&nbsp;골목상권&nbsp;매출&nbsp;증대&nbsp;유도.<br>&nbsp;&nbsp;○&nbsp;산청&nbsp;관내&nbsp;소와&nbsp;돼지&nbsp;등&nbsp;가축&nbsp;분뇨를&nbsp;취사&nbsp;및&nbsp;난방용&nbsp;바이오가스로&nbsp;자원화하는&nbsp;시설을&nbsp;대폭&nbsp;확충하고,&nbsp;마을&nbsp;단위&nbsp;영농형&nbsp;태양광&nbsp;발전소&nbsp;건립.<br>&nbsp;&nbsp;○&nbsp;위&nbsp;신재생에너지&nbsp;발전&nbsp;사업에&nbsp;군민&nbsp;지분&nbsp;참여를&nbsp;보장하고,&nbsp;발생한&nbsp;수익을&nbsp;매월&nbsp;'재생에너지&nbsp;연금'&nbsp;형태로&nbsp;배당.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월부터<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;①재정구조&nbsp;조정&nbsp;+②&nbsp;재생에너지수익&nbsp;+&nbsp;③&nbsp;외부재원(국비+민간)&nbsp;<br>&nbsp;&nbsp;①재정구조&nbsp;조정&nbsp;:&nbsp;효과낮은사업정리,&nbsp;중복복지통합(옥천군사례)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군예산조정&nbsp;:&nbsp;100억원~130억원&nbsp;(중복&nbsp;복지통합,&nbsp;행사보조금&nbsp;정리&nbsp;등&nbsp;삭감이&nbsp;아니라&nbsp;재편성으로&nbsp;조정)&nbsp;<br>&nbsp;&nbsp;②&nbsp;재생에너지수익:&nbsp;태양광설치사업으로&nbsp;약&nbsp;90MW~110MW(임야형+영농형+유휴부지병행,&nbsp;주민참여발전소&nbsp;등)설치&nbsp;:&nbsp;150억원~180억원/1MW당&nbsp;연&nbsp;1.5억원~2억원의&nbsp;수익&nbsp;구조&nbsp;<br>&nbsp;&nbsp;③&nbsp;외부재원(국비+민간):&nbsp;국도비(국비+도비)&nbsp;230억원~280억원&nbsp;시범사업으로&nbsp;선정&nbsp;/민간투자&nbsp;배당&nbsp;환수(재생에너지)&nbsp;:&nbsp;40억원~70억원<br>&nbsp;&nbsp;○&nbsp;국내&nbsp;:&nbsp;전남&nbsp;신안군&nbsp;'햇빛·바람&nbsp;연금'&nbsp;(주민&nbsp;참여형&nbsp;태양광·풍력&nbsp;이익공유제로&nbsp;1&nbsp;인당&nbsp;연간&nbsp;수십만&nbsp;원&nbsp;배당금&nbsp;지급).<br>&nbsp;&nbsp;○&nbsp;가구당&nbsp;천만원&nbsp;재원조달&nbsp;방안&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;1인당기본소득&nbsp;15만원&nbsp;X&nbsp;4&nbsp;+&nbsp;햇빛연금&nbsp;100만원&nbsp;(+알파)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	“경호강 백리길” 르네상스</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="“경호강 백리길” 르네상스">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>&nbsp;산청의&nbsp;미래&nbsp;자산&nbsp;가치&nbsp;혁신:&nbsp;경호강을&nbsp;'대한민국&nbsp;No.1&nbsp;화강암&nbsp;명품&nbsp;강'으로&nbsp;브랜드화하여&nbsp;산청군&nbsp;전체의&nbsp;지가&nbsp;상승을&nbsp;유도하고,&nbsp;이를&nbsp;산청의&nbsp;미래&nbsp;100년을&nbsp;책임질&nbsp;핵심&nbsp;자산으로&nbsp;전환.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;거점&nbsp;연결&nbsp;인프라&nbsp;구축:&nbsp;생초-금서-오부-산청읍-신안면&nbsp;등&nbsp;5개&nbsp;읍·면을&nbsp;하나로&nbsp;잇는&nbsp;**약&nbsp;40km의&nbsp;'경호강&nbsp;백리길'**을&nbsp;조성하고,&nbsp;단절된&nbsp;구간에&nbsp;무장애&nbsp;둘레길과&nbsp;프리미엄&nbsp;자전거&nbsp;도로&nbsp;완공.<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;지질공원&nbsp;브랜드화:&nbsp;전국&nbsp;최대&nbsp;규모의&nbsp;화강암&nbsp;지반과&nbsp;자연&nbsp;여과&nbsp;기능을&nbsp;강조하여&nbsp;국가&nbsp;지질공원&nbsp;수준의&nbsp;브랜드를&nbsp;구축하고&nbsp;'대한민국에서&nbsp;가장&nbsp;맑은&nbsp;강'&nbsp;이미지&nbsp;선점.<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;이벤트&nbsp;및&nbsp;생태&nbsp;관리:&nbsp;국제&nbsp;은어&nbsp;낚시&nbsp;대회를&nbsp;정례화하여&nbsp;외화&nbsp;수입을&nbsp;창출하고,&nbsp;가마우지&nbsp;등&nbsp;포식&nbsp;조수&nbsp;퇴치&nbsp;시스템을&nbsp;도입하여&nbsp;내수면&nbsp;생태계를&nbsp;강력히&nbsp;보호합니다<br>&nbsp;&nbsp;○&nbsp;권역별&nbsp;특화&nbsp;개발:&nbsp;생초면의&nbsp;예술촌,&nbsp;산청읍의&nbsp;레포츠&nbsp;타운,&nbsp;신안면의&nbsp;수변&nbsp;공원&nbsp;등&nbsp;각&nbsp;지역의&nbsp;특성에&nbsp;맞는&nbsp;거점&nbsp;사업을&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027.&nbsp;1월부터<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;(중앙정부):&nbsp;70%&nbsp;(약&nbsp;700억&nbsp;원)&nbsp;-&nbsp;대통령&nbsp;라인을&nbsp;통해&nbsp;MLIT,&nbsp;MCST,&nbsp;ME&nbsp;등&nbsp;관련&nbsp;부처의&nbsp;대규모&nbsp;국책&nbsp;사업으로&nbsp;격상시켜&nbsp;확보.<br>&nbsp;&nbsp;○&nbsp;도비&nbsp;(경상남도):&nbsp;15%&nbsp;(약&nbsp;150억&nbsp;원)&nbsp;-&nbsp;도지사와의&nbsp;원스톱&nbsp;라인을&nbsp;통해&nbsp;경남도의&nbsp;관광벨트&nbsp;사업&nbsp;예산을&nbsp;연계.<br>&nbsp;&nbsp;○&nbsp;군비&nbsp;및&nbsp;민자&nbsp;(산청군):&nbsp;15%&nbsp;(약&nbsp;150억&nbsp;원)&nbsp;-&nbsp;군&nbsp;자체&nbsp;예산&nbsp;투입&nbsp;및&nbsp;수변&nbsp;상권&nbsp;개발을&nbsp;통한&nbsp;민간&nbsp;자본&nbsp;유치를&nbsp;추진.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	수도권 핵심 거점 '산청군 직매장 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="수도권 핵심 거점 '산청군 직매장 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>&nbsp;생산보다&nbsp;중요한&nbsp;것은&nbsp;판매입니다.&nbsp;산청의&nbsp;우수한&nbsp;농산물이&nbsp;중간&nbsp;유통망에&nbsp;뺏기던&nbsp;마진을&nbsp;없애고&nbsp;농가&nbsp;순수익을&nbsp;극대화하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;구매력이&nbsp;높고&nbsp;인구가&nbsp;밀집된&nbsp;수도권&nbsp;핵심&nbsp;핫플레이스(광명,&nbsp;성남&nbsp;등)에&nbsp;모듈러&nbsp;또는&nbsp;안테나숍&nbsp;형태의&nbsp;직영&nbsp;'산청&nbsp;파머스&nbsp;마켓'&nbsp;설치.<br>&nbsp;&nbsp;○&nbsp;지자체&nbsp;보증하에&nbsp;중간&nbsp;유통&nbsp;단계를&nbsp;생략하는&nbsp;소비자&nbsp;직접&nbsp;판매(D2C)&nbsp;원칙&nbsp;적용.<br>&nbsp;&nbsp;○&nbsp;못난이(파지)&nbsp;농산물&nbsp;수매&nbsp;및&nbsp;가공식품&nbsp;병행&nbsp;판매로&nbsp;재고&nbsp;부담&nbsp;완화.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;1월부터<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원조달방법&nbsp;:&nbsp;&nbsp;①정부공모사업+②민간협업&nbsp;및&nbsp;농협출자+③지방소멸대응기금&nbsp;<br>&nbsp;&nbsp;①&nbsp;정부부처공모사업&nbsp;(우선&nbsp;추진)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농림축산식품부&nbsp;“직거래&nbsp;장터&nbsp;및&nbsp;안테나숍&nbsp;구축”사업추진&nbsp;:&nbsp;국비지원&nbsp;30%~50%지원&nbsp;받을&nbsp;수&nbsp;있는&nbsp;공모사업으로&nbsp;“로컬푸드&nbsp;복합문화센터&nbsp;설치사업”과&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경상남도&nbsp;농수산물&nbsp;유통지원금&nbsp;:&nbsp;경남도의&nbsp;“수도권&nbsp;농특산물&nbsp;홍보관&nbsp;운영”지원&nbsp;정책과&nbsp;연계하여&nbsp;도비&nbsp;확보&nbsp;<br>&nbsp;&nbsp;②&nbsp;민간협력&nbsp;또는&nbsp;농협공동출자(차선책)&nbsp;:&nbsp;산청군내&nbsp;지역농협들과&nbsp;공동출자하여&nbsp;법인을&nbsp;세우거나,&nbsp;운영은&nbsp;민간전문업체에&nbsp;맡겨&nbsp;초기자본&nbsp;부담을&nbsp;나누는&nbsp;방식으로&nbsp;추진&nbsp;<br>&nbsp;&nbsp;③&nbsp;지방소멸대응기금(가능여부타진)&nbsp;:&nbsp;지역소득창출사업,&nbsp;농촌경제&nbsp;활력&nbsp;항목&nbsp;활용&nbsp;신청<br>&nbsp;&nbsp;○&nbsp;국내&nbsp;:&nbsp;전북&nbsp;완주군&nbsp;로컬푸드&nbsp;직매장&nbsp;혁신&nbsp;사례(수도권&nbsp;진출형&nbsp;모델로&nbsp;고도화),&nbsp;해남군&nbsp;직영&nbsp;수도권&nbsp;팝업&nbsp;스토어.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	디지털 헬스케어 기반 '경로당 3.0' 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="디지털 헬스케어 기반 '경로당 3.0' 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;단순히&nbsp;모여서&nbsp;텔레비전을&nbsp;보는&nbsp;경로당의&nbsp;시대는&nbsp;끝났습니다.&nbsp;의료와&nbsp;복지가&nbsp;결합된&nbsp;최첨단&nbsp;어르신&nbsp;통합&nbsp;돌봄&nbsp;센터로&nbsp;전면&nbsp;개편하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;치료가&nbsp;있는&nbsp;경로당&nbsp;:&nbsp;스마트&nbsp;혈압,&nbsp;혈당계&nbsp;및&nbsp;원격&nbsp;화상&nbsp;진료&nbsp;부스를&nbsp;설치하여&nbsp;보건의료원과&nbsp;실시간&nbsp;연결.<br>&nbsp;&nbsp;○&nbsp;돈&nbsp;버는&nbsp;경로당&nbsp;:&nbsp;소일거리(단순&nbsp;임가공,&nbsp;농산물&nbsp;소포장&nbsp;등)&nbsp;공간을&nbsp;마련해&nbsp;자존감&nbsp;향상&nbsp;및&nbsp;소소한&nbsp;수익&nbsp;창출.&nbsp;(마을기업화&nbsp;사업추진)<br>&nbsp;&nbsp;○&nbsp;내&nbsp;방이&nbsp;있는&nbsp;경로당&nbsp;:&nbsp;공동생활&nbsp;속에서도&nbsp;프라이버시가&nbsp;보장되는&nbsp;1인&nbsp;휴게&nbsp;모듈&nbsp;설치.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;1월부터<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;*&nbsp;재원조달방법&nbsp;:&nbsp;&nbsp;①&nbsp;지방소멸기금&nbsp;+②&nbsp;보건복지부(경남)공모&nbsp;+&nbsp;③&nbsp;고향사랑기부&nbsp;제+&nbsp;④&nbsp;기업&nbsp;사회공헌&nbsp;협력&nbsp;<br>&nbsp;&nbsp;①&nbsp;지방소멸대응기금(핵심사업&nbsp;선정&nbsp;필요)&nbsp;:&nbsp;약&nbsp;60억원&nbsp;규모<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;핵심사업&nbsp;:&nbsp;정주인구유지와&nbsp;노인복지&nbsp;인프라구축으로&nbsp;디지털&nbsp;헬스캐어사업&nbsp;신청&nbsp;<br>&nbsp;&nbsp;②&nbsp;보건복지부&nbsp;및&nbsp;경상남도&nbsp;공모사업&nbsp;:&nbsp;약&nbsp;30억원&nbsp;규모<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI기반&nbsp;어르신&nbsp;건강관리&nbsp;사업&nbsp;및&nbsp;농촌맞춤형&nbsp;통합돌봄&nbsp;서비스&nbsp;등&nbsp;정부공모사업에&nbsp;참여하여&nbsp;국비&nbsp;확보&nbsp;<br>&nbsp;&nbsp;③&nbsp;고향사랑기부제&nbsp;:&nbsp;약&nbsp;5억원&nbsp;규모<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산청군으로&nbsp;기탁되는&nbsp;“고향사랑기부금을&nbsp;경로당&nbsp;환경개선&nbsp;및&nbsp;디지털&nbsp;기기&nbsp;보급을&nbsp;위한&nbsp;특정목적&nbsp;기금사업으로&nbsp;지정하여&nbsp;운영&nbsp;<br>&nbsp;&nbsp;④&nbsp;기업&nbsp;사회공헌&nbsp;협력&nbsp;:&nbsp;약&nbsp;28.5억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;디지털&nbsp;헬스케어&nbsp;기기&nbsp;업체와&nbsp;파트너십을&nbsp;통한&nbsp;기기&nbsp;리스비용을&nbsp;절감하거나&nbsp;시범사업&nbsp;모델을&nbsp;공동개발&nbsp;하여&nbsp;초기&nbsp;투자비를&nbsp;낮춤<br>&nbsp;&nbsp;○&nbsp;국내&nbsp;:&nbsp;부천시,&nbsp;대전&nbsp;유성구&nbsp;등의&nbsp;'스마트&nbsp;경로당'&nbsp;시범&nbsp;사업(화상&nbsp;플랫폼&nbsp;및&nbsp;건강&nbsp;측정기기&nbsp;도입).</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	산청의료원 종합병원 위탁운영 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="산청의료원 종합병원 위탁운영 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;아파서&nbsp;진주나&nbsp;서울로&nbsp;원정&nbsp;진료를&nbsp;떠나야&nbsp;하는&nbsp;군민의&nbsp;서러움을&nbsp;끝내겠습니다.&nbsp;건물이&nbsp;아닌&nbsp;'우수한&nbsp;의료진'을&nbsp;산청으로&nbsp;모셔&nbsp;오겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;산청&nbsp;공공의료원을&nbsp;2차&nbsp;종합병원급으로&nbsp;시설&nbsp;및&nbsp;장비&nbsp;격상.<br>&nbsp;&nbsp;○&nbsp;서울&nbsp;및&nbsp;수도권의&nbsp;명문&nbsp;대학병원(또는&nbsp;종합병원)과&nbsp;업무협약(MOU)을&nbsp;체결하여&nbsp;실질적인&nbsp;위탁운영&nbsp;및&nbsp;의료진&nbsp;파견&nbsp;진료&nbsp;실시.<br>&nbsp;&nbsp;○&nbsp;비뇨기과,&nbsp;피부과,&nbsp;신경과,&nbsp;부인과&nbsp;등&nbsp;고령층&nbsp;및&nbsp;농촌&nbsp;지역&nbsp;필수&nbsp;부족&nbsp;진료&nbsp;과목&nbsp;전문의&nbsp;월&nbsp;1~2회&nbsp;정기&nbsp;산청의료원&nbsp;방문&nbsp;진료.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;<br>&nbsp;&nbsp;*&nbsp;재원조달방법&nbsp;:&nbsp;&nbsp;①&nbsp;국비공모&nbsp;+②&nbsp;군비재원&nbsp;+&nbsp;③&nbsp;민간&nbsp;및&nbsp;기타협력&nbsp;<br>&nbsp;&nbsp;①&nbsp;국비&nbsp;및&nbsp;도비&nbsp;공모:&nbsp;약&nbsp;70억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공보건의료&nbsp;협력체계&nbsp;구축사업&nbsp;:&nbsp;보건복지부의&nbsp;”지방의료원&nbsp;기능강화&nbsp;사업“을&nbsp;통해&nbsp;시설비와&nbsp;장비비의&nbsp;최대&nbsp;50%&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방소멸대응기금&nbsp;:&nbsp;종합병원급&nbsp;의료기반&nbsp;구축사업으로&nbsp;신청&nbsp;<br>&nbsp;&nbsp;②&nbsp;지방자치단체&nbsp;재원&nbsp;:&nbsp;약&nbsp;70억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일반회계&nbsp;및&nbsp;특별회계&nbsp;재원&nbsp;:&nbsp;산청군&nbsp;예산중&nbsp;보건/복지&nbsp;분야&nbsp;예산을&nbsp;우선&nbsp;편성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;조례제정을&nbsp;통한&nbsp;안정적&nbsp;지원&nbsp;:&nbsp;”산청군보건의료원&nbsp;위탁운영&nbsp;및&nbsp;지원조례“를&nbsp;제정하여&nbsp;위탁의료기관에&nbsp;대한&nbsp;재정&nbsp;지원&nbsp;근거를&nbsp;명확히&nbsp;할&nbsp;예정&nbsp;<br>&nbsp;&nbsp;③&nbsp;민간&nbsp;및&nbsp;기타&nbsp;협력:&nbsp;약&nbsp;10억원&nbsp;(현물&nbsp;및&nbsp;인력지원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학병원과의&nbsp;협력&nbsp;:&nbsp;위탁운영을&nbsp;맡은&nbsp;대학병원(예,&nbsp;경상국립대학병원&nbsp;등)과의&nbsp;협약을&nbsp;통해&nbsp;인적자원을&nbsp;공유하고,&nbsp;공공의료파견&nbsp;인력에&nbsp;대한&nbsp;인건비&nbsp;지원사업(보건복지부&nbsp;주관)을&nbsp;연계&nbsp;예정<br>&nbsp;&nbsp;○&nbsp;국내&nbsp;(정선군):군이&nbsp;100%&nbsp;출자한&nbsp;'정선군립병원'&nbsp;모델.&nbsp;중앙대&nbsp;의료원과&nbsp;협약하여&nbsp;진료&nbsp;과목이&nbsp;없는&nbsp;분야의&nbsp;교수진&nbsp;파견&nbsp;진료&nbsp;및&nbsp;은퇴&nbsp;의료진&nbsp;스카우트&nbsp;성공.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

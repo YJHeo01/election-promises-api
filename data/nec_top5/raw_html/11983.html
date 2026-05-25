@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박천동 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	북울산역 역세권 복합신도시 조성(GB해제)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="북울산역 역세권 복합신도시 조성(GB해제)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>KTX-이음&nbsp;북울산역&nbsp;정차&nbsp;확정을&nbsp;계기로&nbsp;북울산역&nbsp;중심의&nbsp;미래형&nbsp;복합신도시를&nbsp;조성해&nbsp;북구의&nbsp;새로운&nbsp;성장축을&nbsp;구축하겠습니다.&nbsp;<br>주거·상업·산업·교통&nbsp;기능이&nbsp;어우러진&nbsp;자족형&nbsp;도시&nbsp;기반을&nbsp;마련하고,&nbsp;청년과&nbsp;기업이&nbsp;함께&nbsp;모이는&nbsp;미래&nbsp;성장거점으로&nbsp;육성하겠습니다.&nbsp;<br>또한&nbsp;광역교통망&nbsp;확충과&nbsp;정주여건&nbsp;개선,&nbsp;기업&nbsp;유치와&nbsp;일자리&nbsp;확대를&nbsp;통해&nbsp;북구의&nbsp;도시&nbsp;경쟁력을&nbsp;높이고&nbsp;울산&nbsp;북부권&nbsp;균형발전과&nbsp;지역경제&nbsp;활성화를&nbsp;실현하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;▶&nbsp;개발제한구역(GB)&nbsp;해제&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;국토교통부&nbsp;및&nbsp;울산시&nbsp;협의&nbsp;강화<br>&nbsp;&nbsp;▶&nbsp;역세권&nbsp;중심&nbsp;교통·주거·산업&nbsp;연계&nbsp;개발계획&nbsp;수립<br>&nbsp;&nbsp;▶&nbsp;민간투자&nbsp;및&nbsp;공공개발&nbsp;병행&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;광역교통망&nbsp;및&nbsp;생활SOC&nbsp;확충&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;청년·기업&nbsp;유입을&nbsp;위한&nbsp;자족형&nbsp;도시&nbsp;기반&nbsp;조성<br>&nbsp;&nbsp;▶&nbsp;단계별&nbsp;도시개발&nbsp;및&nbsp;정주여건&nbsp;개선&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2032년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;▶&nbsp;국비&nbsp;및&nbsp;시비&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;LH&nbsp;등&nbsp;공공기관&nbsp;협력&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;민간투자&nbsp;유치&nbsp;및&nbsp;도시개발사업&nbsp;재원&nbsp;활용<br>&nbsp;&nbsp;▶&nbsp;공공·민간&nbsp;공동개발&nbsp;방식&nbsp;단계별&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;정부&nbsp;도시개발&nbsp;및&nbsp;광역교통&nbsp;지원사업&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;개발이익&nbsp;재투자를&nbsp;통한&nbsp;기반시설&nbsp;확충&nbsp;추진국비&nbsp;및&nbsp;시비&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	어린이 치료특화 울산의료원 건립 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="어린이 치료특화 울산의료원 건립 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;소아·청소년&nbsp;전문&nbsp;공공의료체계를&nbsp;강화하여&nbsp;아이들이&nbsp;지역&nbsp;안에서&nbsp;안전하고&nbsp;신속하게&nbsp;치료받을&nbsp;수&nbsp;있는&nbsp;의료환경을&nbsp;구축하겠습니다.&nbsp;<br>응급·재활·발달치료&nbsp;기능까지&nbsp;아우르는&nbsp;어린이&nbsp;특화&nbsp;의료&nbsp;인프라를&nbsp;확충해&nbsp;부모님들이&nbsp;안심하고&nbsp;아이를&nbsp;키울&nbsp;수&nbsp;있는&nbsp;북구,&nbsp;아이들의&nbsp;건강한&nbsp;미래를&nbsp;책임지는&nbsp;울산을&nbsp;만들겠습니다.&nbsp;<br>또한&nbsp;공공의료의&nbsp;부족으로&nbsp;불편과&nbsp;불안을&nbsp;겪는&nbsp;의료&nbsp;사각지대를&nbsp;해소하고,&nbsp;아이&nbsp;한&nbsp;명,&nbsp;한&nbsp;명의&nbsp;건강과&nbsp;생명을&nbsp;끝까지&nbsp;지켜내는&nbsp;촘촘한&nbsp;공공의료&nbsp;안전망을&nbsp;구축하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;▶&nbsp;울산의료원&nbsp;내&nbsp;‘어린이&nbsp;치료특화센터’&nbsp;기능&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;소아응급&nbsp;진료체계&nbsp;및&nbsp;야간·휴일&nbsp;진료&nbsp;기능&nbsp;강화<br>&nbsp;&nbsp;▶&nbsp;소아&nbsp;재활치료·발달치료&nbsp;공공의료&nbsp;기능&nbsp;확대<br>&nbsp;&nbsp;▶&nbsp;장애아동·고위험군&nbsp;아동&nbsp;맞춤형&nbsp;공공재활&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;▶&nbsp;북구권&nbsp;소아전문&nbsp;의료&nbsp;접근성&nbsp;개선&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;울산시·보건복지부와&nbsp;국비&nbsp;지원&nbsp;및&nbsp;운영체계&nbsp;협의&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;지역&nbsp;대학병원·전문기관&nbsp;연계&nbsp;협력체계&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2032년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;▶&nbsp;보건복지부&nbsp;공공의료&nbsp;확충사업&nbsp;및&nbsp;지방의료원&nbsp;지원사업&nbsp;적극&nbsp;연계<br>&nbsp;&nbsp;▶&nbsp;울산시와&nbsp;협력을&nbsp;통한&nbsp;시비&nbsp;매칭&nbsp;예산&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;국비&nbsp;공모사업&nbsp;및&nbsp;특별교부세&nbsp;확보&nbsp;적극&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;소아·청소년&nbsp;공공의료&nbsp;및&nbsp;필수의료&nbsp;지원&nbsp;국책사업&nbsp;연계<br>&nbsp;&nbsp;▶&nbsp;울산의료원&nbsp;건립&nbsp;및&nbsp;운영&nbsp;예산과&nbsp;단계별&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;민간의료기관·대학병원&nbsp;협력체계를&nbsp;통한&nbsp;운영&nbsp;효율화&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;중장기&nbsp;재정계획&nbsp;반영을&nbsp;통한&nbsp;안정적&nbsp;예산&nbsp;확보&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	청년·신혼부부 주택 대출이자 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="청년·신혼부부 주택 대출이자 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청년과&nbsp;신혼부부가&nbsp;가장&nbsp;크게&nbsp;체감하는&nbsp;주거비&nbsp;부담을&nbsp;완화하여&nbsp;북구에서&nbsp;안정적으로&nbsp;삶을&nbsp;시작하고&nbsp;미래를&nbsp;설계할&nbsp;수&nbsp;있는&nbsp;기반을&nbsp;마련하겠습니다.&nbsp;<br>주택&nbsp;대출이자&nbsp;지원&nbsp;등&nbsp;실질적인&nbsp;주거&nbsp;지원을&nbsp;통해&nbsp;결혼·출산·양육으로&nbsp;이어지는&nbsp;생활&nbsp;안정&nbsp;기반을&nbsp;강화하고,&nbsp;청년&nbsp;세대가&nbsp;북구를&nbsp;떠나지&nbsp;않고&nbsp;정착할&nbsp;수&nbsp;있는&nbsp;환경을&nbsp;조성하겠습니다.&nbsp;<br>이를&nbsp;통해&nbsp;인구&nbsp;유출을&nbsp;막고&nbsp;젊은&nbsp;세대가&nbsp;모이는&nbsp;활력&nbsp;있는&nbsp;정주도시&nbsp;북구를&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;▶&nbsp;주택&nbsp;구입&nbsp;및&nbsp;전세자금&nbsp;대출이자&nbsp;일부&nbsp;지원<br>&nbsp;&nbsp;▶&nbsp;지원&nbsp;기준&nbsp;및&nbsp;소득&nbsp;기준&nbsp;체계적&nbsp;마련<br>&nbsp;&nbsp;▶&nbsp;북구&nbsp;거주&nbsp;청년·신혼부부&nbsp;대상&nbsp;단계적&nbsp;시행<br>&nbsp;&nbsp;▶&nbsp;청년&nbsp;정착&nbsp;및&nbsp;출산·양육&nbsp;연계&nbsp;주거지원&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;울산시&nbsp;주거지원&nbsp;정책과&nbsp;연계한&nbsp;지원체계&nbsp;구축<br>&nbsp;&nbsp;▶&nbsp;실수요자&nbsp;중심&nbsp;맞춤형&nbsp;주거복지&nbsp;지원&nbsp;강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;계속사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;▶&nbsp;북구&nbsp;자체&nbsp;예산&nbsp;단계적&nbsp;편성&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;울산시&nbsp;청년정책&nbsp;및&nbsp;주거지원사업&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;국토교통부&nbsp;청년·신혼부부&nbsp;주거지원&nbsp;정책&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;지방비·시비&nbsp;매칭을&nbsp;통한&nbsp;재정&nbsp;부담&nbsp;분산<br>&nbsp;&nbsp;▶&nbsp;중장기&nbsp;재정계획&nbsp;반영을&nbsp;통한&nbsp;안정적&nbsp;사업&nbsp;운영</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	퇴직자 지원센터 설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="퇴직자 지원센터 설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;산업현장&nbsp;퇴직자와&nbsp;중장년층의&nbsp;재취업과&nbsp;인생2막을&nbsp;체계적으로&nbsp;지원하여&nbsp;안정적인&nbsp;일자리&nbsp;안전망을&nbsp;구축하겠습니다.&nbsp;<br>퇴직&nbsp;이후에도&nbsp;오랜&nbsp;현장&nbsp;경험과&nbsp;기술이&nbsp;지역사회와&nbsp;산업현장에&nbsp;다시&nbsp;연결될&nbsp;수&nbsp;있도록&nbsp;지원하고,&nbsp;재취업·직업전환·기술창업까지&nbsp;연계한&nbsp;맞춤형&nbsp;지원체계를&nbsp;마련하겠습니다.&nbsp;<br>특히&nbsp;현대자동차와&nbsp;협력업체&nbsp;등&nbsp;산업도시&nbsp;북구의&nbsp;특성을&nbsp;반영한&nbsp;중장년&nbsp;일자리&nbsp;지원&nbsp;기반을&nbsp;강화하여&nbsp;노동의&nbsp;가치와&nbsp;삶의&nbsp;존엄이&nbsp;존중받는&nbsp;북구를&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;▶&nbsp;재취업&nbsp;상담&nbsp;및&nbsp;직업전환&nbsp;교육&nbsp;운영<br>&nbsp;&nbsp;▶&nbsp;자격증&nbsp;취득&nbsp;및&nbsp;기술창업&nbsp;지원&nbsp;프로그램&nbsp;확대<br>&nbsp;&nbsp;▶&nbsp;현대자동차&nbsp;및&nbsp;지역기업&nbsp;연계&nbsp;맞춤형&nbsp;일자리&nbsp;발굴<br>&nbsp;&nbsp;▶&nbsp;중장년·퇴직자&nbsp;재취업&nbsp;지원센터&nbsp;운영&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;심리상담·근골격계&nbsp;등&nbsp;건강지원&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;▶&nbsp;퇴직&nbsp;예정자&nbsp;대상&nbsp;인생2막&nbsp;설계&nbsp;및&nbsp;취업&nbsp;컨설팅&nbsp;지원<br>&nbsp;&nbsp;▶&nbsp;시니어&nbsp;기술인력&nbsp;매칭&nbsp;및&nbsp;현장경험&nbsp;활용체계&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;▶&nbsp;고용노동부&nbsp;공모사업&nbsp;및&nbsp;국비&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;북구&nbsp;일자리&nbsp;예산&nbsp;및&nbsp;울산시&nbsp;일자리정책&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;중장년·신중년&nbsp;고용지원&nbsp;국책사업&nbsp;적극&nbsp;활용<br>&nbsp;&nbsp;▶&nbsp;기업&nbsp;협력형&nbsp;일자리사업&nbsp;및&nbsp;민관협력&nbsp;프로그램&nbsp;연계<br>&nbsp;&nbsp;▶&nbsp;단계별&nbsp;예산&nbsp;편성을&nbsp;통한&nbsp;지속&nbsp;가능한&nbsp;운영&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	영어키즈카페를 품은 북구대표도서관 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="영어키즈카페를 품은 북구대표도서관 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;영어키즈카페를&nbsp;품은&nbsp;북구대표도서관을&nbsp;건립하여&nbsp;아이와&nbsp;부모가&nbsp;함께&nbsp;배우고&nbsp;즐길&nbsp;수&nbsp;있는&nbsp;미래형&nbsp;교육·문화공간을&nbsp;조성하겠습니다.&nbsp;<br>영어체험과&nbsp;독서,&nbsp;놀이와&nbsp;돌봄&nbsp;기능이&nbsp;결합된&nbsp;복합문화공간을&nbsp;통해&nbsp;아이들의&nbsp;창의력과&nbsp;글로벌&nbsp;감각을&nbsp;키우고,&nbsp;부모와&nbsp;아이가&nbsp;일상&nbsp;속에서&nbsp;함께&nbsp;성장할&nbsp;수&nbsp;있는&nbsp;교육환경을&nbsp;마련하겠습니다.&nbsp;<br>또한&nbsp;단순한&nbsp;도서관을&nbsp;넘어&nbsp;가족&nbsp;중심의&nbsp;생활문화&nbsp;플랫폼으로&nbsp;발전시켜&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;북구,&nbsp;교육과&nbsp;문화가&nbsp;살아있는&nbsp;북구를&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;▶&nbsp;영어체험형&nbsp;키즈공간과&nbsp;북구대표도서관&nbsp;복합&nbsp;조성<br>&nbsp;&nbsp;▶&nbsp;독서·놀이·체험·돌봄&nbsp;기능이&nbsp;결합된&nbsp;복합문화공간&nbsp;구축<br>&nbsp;&nbsp;▶&nbsp;연령별&nbsp;맞춤형&nbsp;영어·독서·창의체험&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;▶&nbsp;가족&nbsp;중심&nbsp;문화·교육&nbsp;프로그램&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;▶&nbsp;아이와&nbsp;부모가&nbsp;함께&nbsp;참여하는&nbsp;체험형&nbsp;콘텐츠&nbsp;강화<br>&nbsp;&nbsp;▶&nbsp;방과후·주말&nbsp;연계&nbsp;돌봄&nbsp;및&nbsp;문화활동&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;▶&nbsp;주민&nbsp;접근성과&nbsp;이용&nbsp;편의를&nbsp;고려한&nbsp;생활밀착형&nbsp;공간&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;▶&nbsp;국·시비&nbsp;공모사업&nbsp;적극&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;교육부·문화체육관광부&nbsp;생활SOC&nbsp;사업&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;울산시&nbsp;교육·문화지원사업과&nbsp;연계한&nbsp;시비&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;▶&nbsp;북구&nbsp;자체&nbsp;예산&nbsp;단계적&nbsp;투입&nbsp;및&nbsp;중장기&nbsp;재정계획&nbsp;반영<br>&nbsp;&nbsp;▶&nbsp;공공시설&nbsp;복합화&nbsp;사업&nbsp;및&nbsp;가족친화&nbsp;공간&nbsp;조성사업&nbsp;연계&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

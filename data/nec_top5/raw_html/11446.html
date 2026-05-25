@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;조순자 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	[경제] 에너지 혁신을 통한 기업 유치 및 산업 재건</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="[경제] 에너지 혁신을 통한 기업 유치 및 산업 재건">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;에너지&nbsp;자립형&nbsp;산업&nbsp;생태계구축:&nbsp;분산에너지&nbsp;특구&nbsp;지정을&nbsp;통해&nbsp;지역&nbsp;내에서&nbsp;생산된&nbsp;전기를&nbsp;지역기업에&nbsp;직접&nbsp;공급하여&nbsp;기업의&nbsp;원가경쟁력&nbsp;확보.&nbsp;핵심&nbsp;기업유치&nbsp;및&nbsp;고용창출:&nbsp;에너지&nbsp;저비용&nbsp;구조를&nbsp;바탕으로&nbsp;데이터센터,&nbsp;반도체,&nbsp;이차전지&nbsp;등&nbsp;전력&nbsp;다소비&nbsp;기업의&nbsp;제2·3공장&nbsp;집중&nbsp;유치.&nbsp;지역&nbsp;산업재건:&nbsp;쇠퇴한&nbsp;기존&nbsp;산단을&nbsp;스마트·그린&nbsp;산단으로&nbsp;전환하여&nbsp;지역&nbsp;경제성장률&nbsp;제고.<br>□&nbsp;이행방법<br>①&nbsp;분산에너지특구&nbsp;지정&nbsp;및&nbsp;차등요금제&nbsp;적용&nbsp;분산법&nbsp;활용:&nbsp;지자체별&nbsp;특구&nbsp;지정&nbsp;신청을&nbsp;통해&nbsp;'지역별&nbsp;차등&nbsp;전기요금제'&nbsp;.&nbsp;직접&nbsp;거래허용:&nbsp;발전사업자와&nbsp;기업간의&nbsp;직접&nbsp;전력구매계약(PPA)을&nbsp;허용하여&nbsp;한전망을&nbsp;거치지&nbsp;않는&nbsp;저렴한&nbsp;전기공급.&nbsp;②&nbsp;기업&nbsp;전담&nbsp;'패스트트랙(Fast-Track)'&nbsp;운영원스톱&nbsp;행정&nbsp;서비스:&nbsp;인허가,&nbsp;환경영향평가,&nbsp;용수&nbsp;확보&nbsp;등&nbsp;복잡한&nbsp;절차를&nbsp;통합&nbsp;처리하는&nbsp;전담&nbsp;조직(TF)&nbsp;구성.&nbsp;③&nbsp;제2·3공장&nbsp;안착을&nbsp;위한&nbsp;부지확보&nbsp;유휴&nbsp;부지&nbsp;및&nbsp;국공유지&nbsp;활용:&nbsp;기존&nbsp;산단내&nbsp;유휴부지매입&nbsp;또는&nbsp;국공유지&nbsp;장기&nbsp;임대(50년&nbsp;등)&nbsp;혜택&nbsp;제공.&nbsp;신규&nbsp;특화산단&nbsp;조성:&nbsp;기업&nbsp;수요에&nbsp;맞춘&nbsp;맞춤형&nbsp;'기회발전특구'&nbsp;연계&nbsp;산단&nbsp;조기&nbsp;준공.<br>□&nbsp;이행기간<br>&nbsp;단기&nbsp;(1~2년차):&nbsp;관련&nbsp;조례&nbsp;제정,&nbsp;분산에너지&nbsp;특구&nbsp;신청&nbsp;및&nbsp;지정,&nbsp;기업전담&nbsp;패스트트랙&nbsp;조직&nbsp;신설.&nbsp;중기(3~4년차):&nbsp;특구&nbsp;내&nbsp;에너지&nbsp;인프라(ESS,&nbsp;마이크로그리드등)&nbsp;구축,&nbsp;타겟&nbsp;기업(제2·3공장)&nbsp;유치&nbsp;및&nbsp;부지공급.&nbsp;장기(5년차이후):&nbsp;기업입주완료&nbsp;및&nbsp;공장가동,&nbsp;지역에너지&nbsp;자립률&nbsp;목표달성&nbsp;및&nbsp;전후방&nbsp;연관&nbsp;산업&nbsp;확산.<br>□&nbsp;재원조달방안<br>국비:&nbsp;정부의&nbsp;'분산에너지&nbsp;활성화'&nbsp;및&nbsp;'기회발전특구'관련&nbsp;공모사업&nbsp;선정&nbsp;추진.&nbsp;지방비:&nbsp;지자체&nbsp;특별회계&nbsp;및&nbsp;통합재정안정화기금&nbsp;활용,&nbsp;기업&nbsp;이전&nbsp;보조금&nbsp;편성&nbsp;민간&nbsp;투자(SOC)발전사&nbsp;및&nbsp;민간&nbsp;에너지&nbsp;기업과의&nbsp;협력을&nbsp;통한&nbsp;SPC(특수목적법인)&nbsp;설립&nbsp;및&nbsp;민자&nbsp;유치금융지원'지역&nbsp;활성화&nbsp;펀드'&nbsp;조성&nbsp;및&nbsp;저금리&nbsp;융자&nbsp;지원,&nbsp;세제&nbsp;혜택(취득세·재산세&nbsp;감면)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	[사회] 시민의 일상을 지키는 ‘안심·밀착형’ 복지 및 교통</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="[사회] 시민의 일상을 지키는 ‘안심·밀착형’ 복지 및 교통">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;교통&nbsp;혁신&nbsp;및&nbsp;광역화:&nbsp;2032년&nbsp;KTX-이음&nbsp;개통에&nbsp;발맞춘&nbsp;허브&nbsp;구축으로&nbsp;수도권&nbsp;1시간대&nbsp;생활권을&nbsp;실현하고&nbsp;지역&nbsp;접근성&nbsp;극대화.&nbsp;관광경제&nbsp;활성화:&nbsp;철도&nbsp;개통과&nbsp;연계한&nbsp;체류형&nbsp;관광&nbsp;인프라를&nbsp;구축하여&nbsp;연간&nbsp;외지방문객&nbsp;유입&nbsp;및&nbsp;지역소득&nbsp;증대&nbsp;도모.&nbsp;반려동물&nbsp;안심케어:&nbsp;공공병원&nbsp;제휴를&nbsp;통해&nbsp;반려동물&nbsp;의료비&nbsp;부담을&nbsp;획기적으로&nbsp;낮추고,&nbsp;시민과&nbsp;동물이&nbsp;공존하는&nbsp;'밀착형&nbsp;복지&nbsp;환경'&nbsp;조성.<br>□&nbsp;이행방법<br>KTX-이음&nbsp;복합환승센터&nbsp;건립:&nbsp;구미역을&nbsp;중심으로&nbsp;버스,&nbsp;택시,&nbsp;공유&nbsp;모빌리티가&nbsp;결합된&nbsp;스마트&nbsp;환승체계를&nbsp;구축하여&nbsp;교통망&nbsp;완성.&nbsp;철도연계&nbsp;'스마트&nbsp;관광&nbsp;벨트&nbsp;'&nbsp;조성:&nbsp;KTX&nbsp;정차역과&nbsp;주요&nbsp;관광지(금오산,&nbsp;낙동강&nbsp;등)를&nbsp;잇는&nbsp;셔틀운행&nbsp;및&nbsp;역세권내&nbsp;비즈니스·테마숙박시설확충.&nbsp;애완동물&nbsp;공공병원제휴&nbsp;및&nbsp;바우처:&nbsp;권역별&nbsp;민간동물병원을&nbsp;'안심&nbsp;거점병원'으로&nbsp;지정하고,&nbsp;필수&nbsp;진료비(예방접종,&nbsp;중성화&nbsp;등)&nbsp;지원을&nbsp;위한&nbsp;전용&nbsp;바우처&nbsp;도입.<br>□&nbsp;이행기간<br>1단계&nbsp;(2026년):&nbsp;KTX&nbsp;역사&nbsp;주변&nbsp;개발&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;부지&nbsp;확보,&nbsp;반려동물&nbsp;지원조례&nbsp;제정&nbsp;및&nbsp;거점병원&nbsp;시범선정.&nbsp;2단계(2027~2029년):&nbsp;공공&nbsp;제휴&nbsp;병원&nbsp;시스템전역&nbsp;확대,&nbsp;복합환승센터&nbsp;및&nbsp;연계도로망&nbsp;착공,&nbsp;체류형&nbsp;관광&nbsp;콘텐츠(패키지상품&nbsp;등)&nbsp;개발.&nbsp;3단계&nbsp;(2032년):&nbsp;KTX-이음개통에&nbsp;맞춰&nbsp;복합환승센터&nbsp;및&nbsp;관광&nbsp;인프라&nbsp;전면&nbsp;가동,&nbsp;'철도-복지-관광'이&nbsp;결합된&nbsp;통합플랫폼&nbsp;완성.<br>□&nbsp;재원조달방안<br>국비:&nbsp;국토교통부&nbsp;'광역교통망&nbsp;연계'&nbsp;및&nbsp;농림부&nbsp;'반려동물&nbsp;서비스&nbsp;산업'공모&nbsp;선정.&nbsp;·지방비(시·도비):&nbsp;구미시&nbsp;관광진흥기금,&nbsp;복지&nbsp;특별회계&nbsp;및&nbsp;도시계획&nbsp;특별예산&nbsp;활용.&nbsp;·민간자본:&nbsp;대형건설사/호텔체인민간투자(PPP)&nbsp;및&nbsp;모빌리티기업협력.&nbsp;자체예산:&nbsp;고향사랑기부금(동물복지전용)&nbsp;및&nbsp;관광시설입장료/수익&nbsp;환원.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	[환경] 친환경 모빌리티 및 탄소중립 수변 공간 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="[환경] 친환경 모빌리티 및 탄소중립 수변 공간 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>탄소중립&nbsp;도시&nbsp;실현:&nbsp;자동차&nbsp;중심에서&nbsp;자전거&nbsp;및&nbsp;보행중심으로&nbsp;도심교통&nbsp;패러다임을&nbsp;전환하여&nbsp;탄소&nbsp;배출&nbsp;저감.&nbsp;도시&nbsp;경쟁력&nbsp;강화:&nbsp;방치된&nbsp;하천과&nbsp;수변을&nbsp;시민&nbsp;휴식과&nbsp;문화가&nbsp;공존하는&nbsp;'워터로드'로&nbsp;개조하여&nbsp;삶의질&nbsp;향상.&nbsp;생태&nbsp;복원을&nbsp;통한&nbsp;힐링&nbsp;공간&nbsp;제공:&nbsp;오염된&nbsp;원평하천을&nbsp;생태하천으로&nbsp;복원하여&nbsp;도심&nbsp;내&nbsp;열섬&nbsp;현상을&nbsp;완화하고&nbsp;시민&nbsp;힐링공간&nbsp;확보.<br>□&nbsp;이행방법<br>자전거&nbsp;도로&nbsp;'전면&nbsp;재설계':&nbsp;기존의&nbsp;단절된&nbsp;자전거&nbsp;도로를&nbsp;연결하고,&nbsp;차로를&nbsp;조정하여&nbsp;보행자와&nbsp;분리된&nbsp;'자전거고속도로'&nbsp;및&nbsp;스마트거치대등&nbsp;인프라&nbsp;확충.&nbsp;워터로드&nbsp;수변도시&nbsp;조성:&nbsp;낙동강과&nbsp;도심&nbsp;하천을&nbsp;잇는&nbsp;수변산책로,&nbsp;카페거리,&nbsp;야간&nbsp;경관&nbsp;조명을&nbsp;설치하여&nbsp;문화와&nbsp;경제가&nbsp;흐르는&nbsp;'수변&nbsp;경제권'&nbsp;구축.&nbsp;원평하천&nbsp;복원&nbsp;및&nbsp;생태화:&nbsp;복개&nbsp;구간&nbsp;철거&nbsp;및&nbsp;수질개선을&nbsp;통해&nbsp;자연형&nbsp;호안을&nbsp;조성하고,&nbsp;하천변을&nbsp;따라&nbsp;습지&nbsp;공원&nbsp;및&nbsp;생태학습장&nbsp;조성.<br>□&nbsp;이행기간<br>1단계&nbsp;(2026년):&nbsp;자전거&nbsp;도로&nbsp;전수&nbsp;조사&nbsp;및&nbsp;설계착수,&nbsp;원평하천&nbsp;복원&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;환경영향평가&nbsp;실시.&nbsp;2단계&nbsp;(2027년):&nbsp;자전거&nbsp;도로&nbsp;주요&nbsp;간선망&nbsp;준공,&nbsp;원평하천&nbsp;생태&nbsp;복원&nbsp;공사착공&nbsp;및&nbsp;워터로드주요&nbsp;거점(광장&nbsp;등)&nbsp;조성.&nbsp;3단계(2028년):&nbsp;전&nbsp;구간&nbsp;연결&nbsp;및&nbsp;스마트&nbsp;모빌리티&nbsp;시스템도입,&nbsp;원평하천&nbsp;생태화&nbsp;완료&nbsp;및&nbsp;수변도시&nbsp;브랜드&nbsp;런칭.<br>□&nbsp;재원조달방안<br>·국비:&nbsp;환경부&nbsp;'생태하천&nbsp;복원사업'&nbsp;및&nbsp;국토교통부&nbsp;'자전거&nbsp;이용&nbsp;활성화&nbsp;사업'&nbsp;공모하천&nbsp;복원&nbsp;공사비&nbsp;및&nbsp;자전거전용&nbsp;도로&nbsp;구축비.&nbsp;·지방비:&nbsp;경상북도&nbsp;탄소중립&nbsp;실천&nbsp;예산&nbsp;및&nbsp;구미시&nbsp;도시재생특별회계&nbsp;활용&nbsp;설계비,&nbsp;용지&nbsp;보상비&nbsp;및&nbsp;수변&nbsp;산책로&nbsp;유지보수.&nbsp;·민간&nbsp;자본:&nbsp;민간&nbsp;모빌리티&nbsp;기업(공유&nbsp;자전거&nbsp;등)&nbsp;협력&nbsp;및&nbsp;수변&nbsp;상업&nbsp;시설&nbsp;민자유치&nbsp;스마트&nbsp;거치대&nbsp;설치&nbsp;및&nbsp;워터로드&nbsp;상업시설&nbsp;조성.&nbsp;·기금&nbsp;및&nbsp;기타:&nbsp;기후위기대응기금&nbsp;및&nbsp;수계관리기금&nbsp;활용수질개선&nbsp;시설운영&nbsp;및&nbsp;생태&nbsp;프로그램&nbsp;운영비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	[거버넌스] 권위주의를 탈피한 ‘시민 중심’ 열린 행정</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="[거버넌스] 권위주의를 탈피한 ‘시민 중심’ 열린 행정">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>공간의&nbsp;민주화:&nbsp;권위의&nbsp;상징이었던&nbsp;시청&nbsp;광장을&nbsp;시민&nbsp;중심의&nbsp;'도심&nbsp;속&nbsp;휴식처'로&nbsp;개방하여&nbsp;소통하는&nbsp;행정문화&nbsp;정착.&nbsp;행정&nbsp;신뢰도&nbsp;제고:&nbsp;디지털기술을&nbsp;활용한&nbsp;투명한&nbsp;행정시스템을&nbsp;도입하여&nbsp;시정운영의&nbsp;객관성과&nbsp;신뢰성을&nbsp;확보.&nbsp;자원활용&nbsp;극대화:&nbsp;비어있는&nbsp;공공시설을&nbsp;시민의&nbsp;문화·활동공간으로&nbsp;전환하여&nbsp;공공자산의&nbsp;실질적&nbsp;가치&nbsp;증대.<br>□&nbsp;이행방법<br>시청&nbsp;광장의&nbsp;'시민&nbsp;공원'&nbsp;개방:&nbsp;시청&nbsp;앞&nbsp;담장을&nbsp;허물고&nbsp;주차장을&nbsp;지하화(또는&nbsp;재배치)하여&nbsp;잔디&nbsp;광장,&nbsp;분수대,&nbsp;숲&nbsp;산책로&nbsp;등&nbsp;시민&nbsp;친화적&nbsp;공원조성.&nbsp;블록체인기반&nbsp;'투명&nbsp;행정&nbsp;시스템':&nbsp;시정&nbsp;주요&nbsp;결정에&nbsp;대한&nbsp;실시간투표&nbsp;플랫폼&nbsp;구축&nbsp;및&nbsp;예산집행과정을&nbsp;실시간&nbsp;공개하는&nbsp;디지털예산지도&nbsp;운영.&nbsp;공공시설&nbsp;'시민&nbsp;공유제'&nbsp;확대:&nbsp;업무&nbsp;시간&nbsp;이후의&nbsp;시청사,&nbsp;읍면동&nbsp;복지센터&nbsp;회의실&nbsp;및&nbsp;강당을&nbsp;스마트폰앱으로&nbsp;간편예약하여&nbsp;동아리방&nbsp;및&nbsp;강연장으로&nbsp;개방.<br>□&nbsp;이행기간<br>1단계&nbsp;(2026년):&nbsp;광장&nbsp;공원화&nbsp;설계&nbsp;착수,&nbsp;통합&nbsp;공유&nbsp;플랫폼&nbsp;시스템&nbsp;구축,&nbsp;공공시설&nbsp;개방&nbsp;관련&nbsp;조례&nbsp;정비.&nbsp;2단계&nbsp;(2027년):&nbsp;시청&nbsp;광장&nbsp;공사&nbsp;준공&nbsp;및&nbsp;개방,&nbsp;투명&nbsp;행정&nbsp;시스템(예산&nbsp;공개&nbsp;등)&nbsp;시범&nbsp;운영&nbsp;및&nbsp;시민&nbsp;감사관제&nbsp;확대.&nbsp;3단계&nbsp;(2028년):&nbsp;전&nbsp;공공시설&nbsp;공유&nbsp;시스템&nbsp;전면&nbsp;시행,&nbsp;디지털&nbsp;민주주의&nbsp;플랫폼&nbsp;안착&nbsp;및&nbsp;시민&nbsp;만족도&nbsp;피드백을&nbsp;통한&nbsp;고도화.<br>□&nbsp;재원조달방안<br>·국비:&nbsp;행정안전부&nbsp;'디지털&nbsp;정부&nbsp;혁신'&nbsp;및&nbsp;'공공자원&nbsp;개방공유'&nbsp;공모&nbsp;사업&nbsp;선정·지방비:&nbsp;구미시&nbsp;도시&nbsp;재생&nbsp;및&nbsp;녹지&nbsp;조성예산,&nbsp;공유&nbsp;경제&nbsp;활성화&nbsp;기금&nbsp;활용<br>·민간&nbsp;자본:&nbsp;IT&nbsp;전문&nbsp;기업과의&nbsp;기술협력(MOU)&nbsp;및&nbsp;시민&nbsp;펀딩&nbsp;기반의&nbsp;상징물&nbsp;조성<br>·자체예산:&nbsp;기존&nbsp;시설유지비&nbsp;재편성&nbsp;및&nbsp;유휴&nbsp;공간&nbsp;대관료&nbsp;수익의&nbsp;재투자.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	[지속가능 문화] 과거와 미래가 공존하는 ‘K-레트로’ 경제</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="[지속가능 문화] 과거와 미래가 공존하는 ‘K-레트로’ 경제">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>연간&nbsp;유지비만&nbsp;소요되는&nbsp;전시관을&nbsp;상업적&nbsp;이용이&nbsp;가능한&nbsp;수익형&nbsp;모델로&nbsp;전환.&nbsp;7080&nbsp;세대에게는&nbsp;향수를,&nbsp;MZ&nbsp;세대에게는&nbsp;이색적인&nbsp;'레트로&nbsp;감성'을&nbsp;제공하는&nbsp;체류형&nbsp;관광지&nbsp;조성.&nbsp;청년&nbsp;창업가와&nbsp;시니어&nbsp;전문가가&nbsp;협력하는&nbsp;세대&nbsp;통합형&nbsp;운영&nbsp;모델정착.<br>□&nbsp;이행방법<br>①&nbsp;전시시설의&nbsp;수익형&nbsp;상업공간전환&nbsp;레트로스튜디오:&nbsp;전시용&nbsp;미용실,&nbsp;사진관을&nbsp;실제&nbsp;80년대&nbsp;의상&nbsp;대여&nbsp;및&nbsp;복고풍&nbsp;사진촬영이&nbsp;가능한&nbsp;영업장으로&nbsp;개조.&nbsp;라이브&nbsp;LP&nbsp;카페:&nbsp;박제된&nbsp;음악감상실&nbsp;모형을&nbsp;실제&nbsp;LP&nbsp;청취와공연이&nbsp;가능한&nbsp;카페로&nbsp;전환하여&nbsp;야간&nbsp;문화&nbsp;명소화.&nbsp;②&nbsp;'K-레트로'&nbsp;테마숙박(스테이)&nbsp;도입체험형&nbsp;숙소:&nbsp;공원&nbsp;내&nbsp;조성된&nbsp;과거&nbsp;주택&nbsp;모형(초가집,슬레이트집&nbsp;등)의&nbsp;내부를&nbsp;현대적&nbsp;편의시설과&nbsp;결합한&nbsp;숙박시설로&nbsp;리모델링.&nbsp;스토리텔링&nbsp;숙박:&nbsp;단순히&nbsp;잠만&nbsp;자는&nbsp;곳이&nbsp;아니라,&nbsp;당시의&nbsp;생활상을&nbsp;체험하고&nbsp;새마을&nbsp;도시락&nbsp;등&nbsp;특화먹거리를&nbsp;제공하는&nbsp;패키지운영.&nbsp;③시민·청년&nbsp;주도의&nbsp;운영&nbsp;주체&nbsp;선정공유&nbsp;경제모델:&nbsp;공간&nbsp;기획과&nbsp;마케팅은&nbsp;청년&nbsp;창업팀에&nbsp;맡겨&nbsp;트렌디한&nbsp;콘텐츠&nbsp;개발.&nbsp;시니어&nbsp;도슨트:&nbsp;해당&nbsp;시대를&nbsp;실제&nbsp;경험한&nbsp;어르신들을&nbsp;숙박&nbsp;관리인&nbsp;및&nbsp;스토리텔러로&nbsp;채용하여&nbsp;전문성&nbsp;강화&nbsp;및&nbsp;노인&nbsp;일자리해결.<br>□&nbsp;이행기간<br>1단계&nbsp;(2026년):&nbsp;시설&nbsp;리모델링&nbsp;설계&nbsp;및&nbsp;관련&nbsp;조례&nbsp;개정,&nbsp;운영&nbsp;주체(청년/시니어)&nbsp;공모&nbsp;및&nbsp;선발.&nbsp;2단계&nbsp;(2027년):&nbsp;숙박&nbsp;시설&nbsp;및&nbsp;상업&nbsp;공간&nbsp;시범운영,&nbsp;국내외&nbsp;홍보&nbsp;마케팅(K-레트로&nbsp;브랜드화).&nbsp;3단계&nbsp;(2028년):&nbsp;전면&nbsp;개장&nbsp;및&nbsp;수익모델&nbsp;안정화,&nbsp;지역축제와&nbsp;연계한&nbsp;대규모&nbsp;체류형&nbsp;상품정착.<br>□&nbsp;재원조달방안<br>국비:&nbsp;문화체육관광부‘노후&nbsp;관광지&nbsp;재생사업’&nbsp;및&nbsp;행정안전부‘지역&nbsp;일자리사업’&nbsp;공모.&nbsp;·지방비:&nbsp;경상북도&nbsp;‘이색&nbsp;숙박시설&nbsp;조성&nbsp;사업’&nbsp;매칭&nbsp;및&nbsp;구미시도시재생&nbsp;특별회계&nbsp;활용.&nbsp;·민간자본:&nbsp;사회적&nbsp;기업,&nbsp;지역&nbsp;대학&nbsp;창업팀,&nbsp;공공-민간&nbsp;호텔체인&nbsp;파트너십&nbsp;(PPP).&nbsp;·자체&nbsp;수익&nbsp;숙박료,&nbsp;스튜디오&nbsp;임대료,&nbsp;특화&nbsp;먹거리(새마을도시락&nbsp;등)&nbsp;판매수익.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;정인화 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	반도체 산업 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="반도체 산업 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;광양의&nbsp;철강·이차전지·항만과&nbsp;연계한&nbsp;전력반도체&nbsp;팹과&nbsp;소부장(소재·부품·장비)&nbsp;기업을&nbsp;유치하여&nbsp;남부권&nbsp;미래첨단산업&nbsp;중심도시로&nbsp;도약<br>&nbsp;&nbsp;○&nbsp;반도체&nbsp;산업&nbsp;생태계&nbsp;조성을&nbsp;통해&nbsp;양질의&nbsp;청년&nbsp;일자리를&nbsp;창출하고,&nbsp;인구&nbsp;유입&nbsp;및&nbsp;지역경제&nbsp;지속&nbsp;성장의&nbsp;선순환&nbsp;구조&nbsp;마련<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;광양&nbsp;세풍,&nbsp;순천&nbsp;해룡&nbsp;일원의&nbsp;미래첨단&nbsp;국가산단&nbsp;부지를&nbsp;활용하여&nbsp;전력반도체&nbsp;앵커&nbsp;기업&nbsp;및&nbsp;소부장&nbsp;업체&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;전력반도체&nbsp;팹,&nbsp;공정소재,&nbsp;소부장의&nbsp;단계적&nbsp;반도체&nbsp;산업&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;에너지&nbsp;고속도로와&nbsp;연계한&nbsp;RE100&nbsp;기반&nbsp;친환경&nbsp;첨단산업&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;광양항을&nbsp;통한&nbsp;소재·장비의&nbsp;수입&nbsp;및&nbsp;완성품의&nbsp;수출&nbsp;경쟁력&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;입주&nbsp;기업체,&nbsp;순천대&nbsp;광양&nbsp;지산학캠퍼스,&nbsp;연구소&nbsp;및&nbsp;연구기관과&nbsp;연계한&nbsp;산·학·연&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;반도체&nbsp;전문인력&nbsp;양성&nbsp;및&nbsp;기업&nbsp;맞춤형&nbsp;인력&nbsp;공급체계&nbsp;마련&nbsp;<br>&nbsp;&nbsp;○&nbsp;중앙정부·전남광주통합특별시와&nbsp;협력하여&nbsp;국가첨단전략산업&nbsp;특화단지&nbsp;지정&nbsp;추진<br><br>□&nbsp;이행기간(2026~2030년)<br>&nbsp;&nbsp;○&nbsp;2026년(도입기)&nbsp;기본계획&nbsp;수립,&nbsp;중앙정부·전남광주통합특별시&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;2027년(도약기)&nbsp;국가첨단전략산업&nbsp;특화단지&nbsp;지정&nbsp;추진&nbsp;및&nbsp;기업&nbsp;유치&nbsp;활동&nbsp;<br>&nbsp;&nbsp;○&nbsp;2028년(조성기)&nbsp;기반시설&nbsp;조성,&nbsp;산·학·연&nbsp;협력&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;2029년~2030년(정착기)&nbsp;기업&nbsp;입주&nbsp;및&nbsp;양산,&nbsp;전후방&nbsp;산업생태계&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;전남광주통합특별시비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;광양시&nbsp;자체&nbsp;사업비&nbsp;반영<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;공모사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;산·학·연&nbsp;협력사업,&nbsp;정책&nbsp;금융&nbsp;및&nbsp;국민성장펀드&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;반도체&nbsp;기업의&nbsp;직접&nbsp;투자&nbsp;유치&nbsp;및&nbsp;SPC&nbsp;방식의&nbsp;공동투자&nbsp;검토</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	이차전지 리사이클링 기반조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="이차전지 리사이클링 기반조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;사용후&nbsp;배터리&nbsp;수집·보관·재활용&nbsp;체계를&nbsp;구축해&nbsp;광양을&nbsp;이차전지&nbsp;전주기&nbsp;순환경제&nbsp;거점으로&nbsp;육성&nbsp;<br>&nbsp;&nbsp;○&nbsp;자원순환&nbsp;기반&nbsp;미래산업&nbsp;육성과&nbsp;친환경&nbsp;산업구조&nbsp;전환&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;사용후&nbsp;배터리&nbsp;수집·보관·분류·재활용&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;이차전지&nbsp;리사이클링&nbsp;기업&nbsp;및&nbsp;전문&nbsp;연구기관&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;이차전지&nbsp;국가첨단전략산업&nbsp;특화단지&nbsp;지정과&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;광양항과&nbsp;연계한&nbsp;원료소재·재활용·&nbsp;물류체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;친환경·안전관리&nbsp;기준&nbsp;마련&nbsp;및&nbsp;지역&nbsp;산업과&nbsp;연계&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;대학&nbsp;및&nbsp;기업과&nbsp;협력한&nbsp;전문인력&nbsp;양성&nbsp;추진<br><br>□&nbsp;이행기간(2026년&nbsp;~&nbsp;2030년)<br>&nbsp;&nbsp;○&nbsp;2026년(도입기)&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;입지&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;2027년(도약기)&nbsp;특화단지&nbsp;지정&nbsp;및&nbsp;관련&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;2028년(조성기)&nbsp;리사이클링&nbsp;기반시설&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;2029년~2030년(정착기)&nbsp;산업&nbsp;생태계&nbsp;확대&nbsp;및&nbsp;운영&nbsp;안정화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;보조금&nbsp;+&nbsp;전남광주통합시&nbsp;보조금&nbsp;+&nbsp;광양시비<br>&nbsp;&nbsp;○&nbsp;민간기업&nbsp;투자&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;산업통상자원부·환경부&nbsp;등&nbsp;관련&nbsp;부처&nbsp;공모사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;기회발전특구&nbsp;및&nbsp;국가첨단전략산업&nbsp;지원사업&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	AI 사관학교 개설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="AI 사관학교 개설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;산업수요에&nbsp;대응하는&nbsp;AI&nbsp;전문인력을&nbsp;양성과&nbsp;기업의&nbsp;AI전환(AX)을&nbsp;전주기로&nbsp;지원하여&nbsp;광양형&nbsp;AI&nbsp;산업&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;교육(인재양성)&nbsp;→&nbsp;실증(AX)지원&nbsp;→&nbsp;창업·지원(일자리)까지&nbsp;연계된&nbsp;순환형&nbsp;지원체계&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;사관학교를&nbsp;개설하여&nbsp;제조AI,&nbsp;스마트항만,&nbsp;산업안전,&nbsp;데이터&nbsp;분석,&nbsp;행정AI&nbsp;등&nbsp;산업&nbsp;현장&nbsp;중심의&nbsp;실무형&nbsp;교육과정&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;대학,&nbsp;연구기관,&nbsp;기업과&nbsp;협력한&nbsp;산학연&nbsp;연계&nbsp;교육체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;헬프센터와&nbsp;연계해&nbsp;중소기업의&nbsp;AI&nbsp;전환(AX)&nbsp;지원&nbsp;및&nbsp;현장&nbsp;실증&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;대상&nbsp;AI&nbsp;리터러시&nbsp;교육과&nbsp;디지털&nbsp;역량&nbsp;강화&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;청년·재직자·구직자&nbsp;대상&nbsp;맞춤형&nbsp;교육&nbsp;및&nbsp;취업&nbsp;연계&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기반&nbsp;창업&nbsp;및&nbsp;스타트업&nbsp;육성을&nbsp;위한&nbsp;실험·테스트&nbsp;환경&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기술공유제&nbsp;및&nbsp;AI&nbsp;행정비서&nbsp;서비스&nbsp;도입&nbsp;검토<br><br>□&nbsp;이행기간(2026년&nbsp;~&nbsp;2030년)<br>&nbsp;&nbsp;○&nbsp;2026년(도입기)&nbsp;기본&nbsp;운영계획&nbsp;수립,&nbsp;협력기관&nbsp;구성,&nbsp;트랙별&nbsp;추진체계&nbsp;확정<br>&nbsp;&nbsp;○&nbsp;2027년(도약기)&nbsp;시범&nbsp;교육과정&nbsp;개설,&nbsp;시민교육&nbsp;추진,&nbsp;AI헬프센터&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;2028년(조성기)&nbsp;기업&nbsp;연계형&nbsp;전문과정&nbsp;확대,&nbsp;취업&nbsp;연계&nbsp;강화,&nbsp;AX&nbsp;실증&nbsp;확산<br>&nbsp;&nbsp;○&nbsp;2029년~2030년(정착기)&nbsp;AI&nbsp;행정.사무.생활&nbsp;플랫폼&nbsp;본격&nbsp;운영,&nbsp;전주기&nbsp;지원체계&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;공모사업&nbsp;확보(과기부.고용부.중기부&nbsp;등&nbsp;복수&nbsp;부처&nbsp;활용)<br>&nbsp;&nbsp;○&nbsp;전남광주통합특별시&nbsp;및&nbsp;광양시&nbsp;예산&nbsp;반영<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;대학·기업·연구기관&nbsp;협력사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;기업&nbsp;참여형&nbsp;교육·채용&nbsp;연계&nbsp;프로그램&nbsp;운영</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	 광양해드림센터 설치 운영</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title=" 광양해드림센터 설치 운영">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;장애인,&nbsp;어르신,&nbsp;여성&nbsp;등&nbsp;생활&nbsp;불편을&nbsp;겪는&nbsp;시민을&nbsp;대상으로&nbsp;전구교체,&nbsp;수도&nbsp;수리,&nbsp;간단한&nbsp;주거불편&nbsp;등을&nbsp;전화&nbsp;한&nbsp;통으로&nbsp;해결하는&nbsp;생활밀착형&nbsp;행정서비스&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;생활&nbsp;속&nbsp;작은&nbsp;불편까지&nbsp;시정이&nbsp;직접&nbsp;챙기는&nbsp;촘촘한&nbsp;복지·생활지원&nbsp;체계&nbsp;마련<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○‘광양&nbsp;해드림센터’&nbsp;설치&nbsp;및&nbsp;전담&nbsp;상담·처리&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;現‘광양시&nbsp;주민불편사항&nbsp;기동처리반’을&nbsp;확대&nbsp;개편&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;읍면동행정복지센터.자원봉사단체.전문수리업체와&nbsp;연계한&nbsp;현장&nbsp;지원체계&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;취약계층(기초수급자,&nbsp;독거노인,&nbsp;장애인&nbsp;등)&nbsp;무상지원,&nbsp;일반시민&nbsp;재료비&nbsp;본인&nbsp;부담<br>&nbsp;&nbsp;○&nbsp;전화·모바일&nbsp;기반&nbsp;원스톱&nbsp;접수&nbsp;시스템&nbsp;구축&nbsp;⇒&nbsp;해결&nbsp;서비스&nbsp;단계적&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;간단한&nbsp;주거수리,&nbsp;생활안전&nbsp;점검,&nbsp;긴급&nbsp;생활불편&nbsp;해결&nbsp;서비스&nbsp;단계적&nbsp;확대<br>&nbsp;&nbsp;○‘MY광양’&nbsp;플랫폼과&nbsp;연계한&nbsp;AI&nbsp;기반&nbsp;민원접수&nbsp;및&nbsp;처리체계&nbsp;고도화<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;자원봉사&nbsp;인력과&nbsp;사회공헌&nbsp;연계&nbsp;확대&nbsp;추진<br><br>□&nbsp;이행기간(2026년&nbsp;~&nbsp;2030년)<br>&nbsp;&nbsp;○&nbsp;2026년(도입기)&nbsp;해드림센터&nbsp;설치&nbsp;및&nbsp;관련&nbsp;조례&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;2027년(도약기)&nbsp;전&nbsp;읍면동&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;2028년(정착기)&nbsp;생활지원&nbsp;서비스&nbsp;분야&nbsp;확대&nbsp;및&nbsp;운영&nbsp;안정화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;광양시&nbsp;자체&nbsp;예산&nbsp;반영<br>&nbsp;&nbsp;○&nbsp;복지·생활지원&nbsp;관련&nbsp;국도비&nbsp;사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;자원봉사센터&nbsp;및&nbsp;민간&nbsp;협력체계&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;업체&nbsp;사회공헌&nbsp;협약&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;복지&nbsp;전달체계와&nbsp;연계해&nbsp;재정&nbsp;부담&nbsp;최소화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	주민 이익공유 재생에너지 사업</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="주민 이익공유 재생에너지 사업">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;공영주차장,&nbsp;시유지,&nbsp;유휴부지&nbsp;등을&nbsp;활용한&nbsp;주민참여형&nbsp;태양광·재생에너지&nbsp;사업을&nbsp;추진하고,&nbsp;발전수익을&nbsp;시민과&nbsp;지역&nbsp;공동체에&nbsp;환원하는&nbsp;에너지&nbsp;복지&nbsp;모델&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;탄소중립과&nbsp;지역&nbsp;에너지&nbsp;자립&nbsp;기반&nbsp;구축&nbsp;및&nbsp;주민&nbsp;소득&nbsp;확대&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;공영주차장&nbsp;및&nbsp;시유지&nbsp;대상&nbsp;태양광&nbsp;설치&nbsp;가능지&nbsp;조사&nbsp;및&nbsp;단계별&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;주민협동조합,&nbsp;시민참여펀드,&nbsp;민간사업자&nbsp;참여&nbsp;방식&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;발전수익&nbsp;일부를&nbsp;주민·마을&nbsp;공동기금&nbsp;및&nbsp;시민&nbsp;환원&nbsp;재원으로&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;영농형.마을공한지&nbsp;태양광&nbsp;등&nbsp;지역&nbsp;여건에&nbsp;맞는&nbsp;재생에너지&nbsp;사업&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;설명회&nbsp;및&nbsp;이익공유&nbsp;기준&nbsp;마련을&nbsp;통한&nbsp;주민수용성&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;RE100&nbsp;산업단지&nbsp;및&nbsp;에너지&nbsp;고속도로&nbsp;정책과&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;에너지&nbsp;생산·저장·활용을&nbsp;연계한&nbsp;분산에너지&nbsp;모델&nbsp;구축&nbsp;검토<br><br>□&nbsp;이행기간(2026년&nbsp;~&nbsp;2030년)<br>&nbsp;&nbsp;○&nbsp;2026년(도입기)&nbsp;대상지&nbsp;조사&nbsp;및&nbsp;시범사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2027년(도약기)&nbsp;주민참여형&nbsp;모델&nbsp;구축&nbsp;및&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;2028년(조성기)&nbsp;이후&nbsp;마을·농촌·공공부지&nbsp;재생에너지&nbsp;사업&nbsp;단계적&nbsp;확산<br>&nbsp;&nbsp;○&nbsp;2029년~2030년(정착기)&nbsp;지역&nbsp;에너지&nbsp;자립&nbsp;기반&nbsp;강화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;전남광주통합특별시&nbsp;재생에너지&nbsp;지원사업&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;광양시&nbsp;예산&nbsp;일부&nbsp;반영<br>&nbsp;&nbsp;○&nbsp;민간투자&nbsp;및&nbsp;주민참여펀드&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;한국에너지공단&nbsp;등&nbsp;관련&nbsp;공모사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;발전수익&nbsp;재투자를&nbsp;통한&nbsp;지속&nbsp;운영&nbsp;구조&nbsp;마련</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

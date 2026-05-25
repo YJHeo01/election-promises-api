@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이두원 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	홍성형 에너지 기본수당 연 300만 원 지급</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="홍성형 에너지 기본수당 연 300만 원 지급">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표<br>AI&nbsp;및&nbsp;로봇&nbsp;시대의&nbsp;일자리&nbsp;감소에&nbsp;대비하고,&nbsp;탄소중립&nbsp;실천을&nbsp;통해&nbsp;홍성군민의&nbsp;'에너지&nbsp;주권'을&nbsp;확립하겠습니다.&nbsp;단순히&nbsp;에너지를&nbsp;생산하는&nbsp;것에&nbsp;그치지&nbsp;않고,&nbsp;그&nbsp;발생&nbsp;수익을&nbsp;군민에게&nbsp;직접&nbsp;환원하여&nbsp;가계&nbsp;실질소득을&nbsp;획기적으로&nbsp;높이겠습니다.<br><br>2.&nbsp;이행방법<br>▶&nbsp;홍성군&nbsp;에너지&nbsp;공공&nbsp;법인&nbsp;설립:&nbsp;군민이&nbsp;직접&nbsp;1인&nbsp;1주&nbsp;갖기&nbsp;운동&nbsp;등을&nbsp;통해&nbsp;참여하고&nbsp;수익을&nbsp;투명하게&nbsp;배분하는&nbsp;주식회사&nbsp;형태의&nbsp;공공&nbsp;법인&nbsp;설립<br>▶&nbsp;마을단위&nbsp;태양광&nbsp;및&nbsp;거점형&nbsp;바이오가스&nbsp;발전:&nbsp;군유지,&nbsp;축사&nbsp;지붕,&nbsp;유휴지를&nbsp;활용한&nbsp;태양광&nbsp;발전&nbsp;및&nbsp;가축분뇨&nbsp;기반&nbsp;바이오가스&nbsp;전력&nbsp;생산&nbsp;체계&nbsp;구축<br>▶&nbsp;에너지&nbsp;수익금&nbsp;분기별&nbsp;지급:&nbsp;전력&nbsp;판매(SMP),&nbsp;신재생에너지&nbsp;공급인증서(REC),&nbsp;탄소배출권&nbsp;매각&nbsp;수익을&nbsp;재원으로&nbsp;하여&nbsp;지역화폐&nbsp;'홍성사랑상품권'으로&nbsp;지급(1인당&nbsp;월&nbsp;25만원&nbsp;수준)<br>▶&nbsp;기업&nbsp;유치&nbsp;연계:&nbsp;내포신도시&nbsp;및&nbsp;산업단지에&nbsp;RE100(재생에너지&nbsp;100%)&nbsp;전력을&nbsp;저렴하게&nbsp;공급하여&nbsp;구글,&nbsp;삼성&nbsp;등&nbsp;글로벌&nbsp;기업의&nbsp;데이터센터&nbsp;및&nbsp;첨단&nbsp;제조&nbsp;공장&nbsp;유인<br><br>3.&nbsp;이행기간<br>1년차&nbsp;(2026):&nbsp;에너지&nbsp;공사&nbsp;조례&nbsp;제정,&nbsp;군민&nbsp;펀드&nbsp;모집&nbsp;및&nbsp;시범&nbsp;마을&nbsp;선정<br>2~3년차&nbsp;(2027~2028):&nbsp;거점별&nbsp;바이오가스&nbsp;플랜트&nbsp;및&nbsp;마을별&nbsp;발전&nbsp;단지&nbsp;완공<br>4년차&nbsp;(2029~):&nbsp;수익&nbsp;정산&nbsp;및&nbsp;전&nbsp;군민&nbsp;기본수당&nbsp;지급&nbsp;본격&nbsp;실시<br><br>4.&nbsp;재원조달방안<br>행안부&nbsp;햇빛소득&nbsp;마을,&nbsp;에너지&nbsp;자립마을&nbsp;정책&nbsp;연계&nbsp;및&nbsp;환경부&nbsp;바이오가스화&nbsp;사업비(국비&nbsp;70%&nbsp;지원),&nbsp;군민&nbsp;참여&nbsp;펀드&nbsp;자본금&nbsp;및&nbsp;에너지&nbsp;수익&nbsp;재&nbsp;투자금</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	홍성 농산물유통공사 설립 및 100만 도시소비자 플랫폼 구축 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="홍성 농산물유통공사 설립 및 100만 도시소비자 플랫폼 구축 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.목표<br>▶&nbsp;농가&nbsp;소득의&nbsp;획기적&nbsp;증대&nbsp;:&nbsp;농업인&nbsp;고품질&nbsp;생산에만&nbsp;전념하고,&nbsp;판매와&nbsp;유통은&nbsp;공공이&nbsp;책임지는&nbsp;선진&nbsp;농업&nbsp;구조&nbsp;확립&nbsp;&nbsp;&nbsp;<br>▶&nbsp;유통&nbsp;단계&nbsp;축소&nbsp;및&nbsp;부가가치&nbsp;창출&nbsp;:&nbsp;복잡한&nbsp;유통&nbsp;단계를&nbsp;줄여&nbsp;농가&nbsp;수취가격을&nbsp;높이고&nbsp;소비자에게는&nbsp;신선한&nbsp;농산물을&nbsp;적정&nbsp;가격에&nbsp;공급&nbsp;&nbsp;&nbsp;<br>▶&nbsp;지역&nbsp;경제&nbsp;활성화&nbsp;:&nbsp;대규모&nbsp;도시&nbsp;소비처를&nbsp;안정적으로&nbsp;확보하여&nbsp;농촌&nbsp;소멸&nbsp;위기를&nbsp;극복하고&nbsp;활력&nbsp;넘치는&nbsp;홍성&nbsp;구현&nbsp;<br>&nbsp;&nbsp;<br>2.&nbsp;이행방법<br>▶&nbsp;'홍성&nbsp;농산물유통공사'&nbsp;설립&nbsp;및&nbsp;운영&nbsp;:&nbsp;관내&nbsp;생산&nbsp;농산물의&nbsp;수집,&nbsp;세척,&nbsp;선별,&nbsp;포장&nbsp;전&nbsp;과정을&nbsp;전담하는&nbsp;공공&nbsp;물류&nbsp;시스템&nbsp;구축&nbsp;품목별&nbsp;강소&nbsp;브랜드화&nbsp;사업&nbsp;추진&nbsp;&nbsp;&nbsp;<br>▶&nbsp;'100만&nbsp;도시소비자&nbsp;플랫폼'&nbsp;구축&nbsp;:&nbsp;40만에&nbsp;이르는&nbsp;출향인을&nbsp;중심으로&nbsp;대도시&nbsp;소비자&nbsp;단체와&nbsp;연계한&nbsp;직거래&nbsp;온라인/오프라인&nbsp;플랫폼&nbsp;운영&nbsp;&nbsp;&nbsp;<br>▶&nbsp;체류형&nbsp;축제와&nbsp;연계한&nbsp;마케팅&nbsp;강화:&nbsp;유통공사&nbsp;주도로&nbsp;11월&nbsp;말~12월&nbsp;초&nbsp;'전국&nbsp;규모&nbsp;김장문화&nbsp;페스티벌'&nbsp;개최&nbsp;(1일&nbsp;1천&nbsp;가구&nbsp;참여&nbsp;목표)를&nbsp;통해&nbsp;도시소비자를&nbsp;홍성농산물&nbsp;플랫폼&nbsp;회원으로&nbsp;유입시키는&nbsp;선순환&nbsp;구조&nbsp;마련&nbsp;&nbsp;<br>&nbsp;<br>3.&nbsp;이행기간<br>2026.&nbsp;07.&nbsp;~&nbsp;2027.&nbsp;06.:&nbsp;유통공사&nbsp;설립&nbsp;조례&nbsp;제정&nbsp;및&nbsp;물류센터&nbsp;부지확보,&nbsp;플랫폼&nbsp;시스템&nbsp;개발<br>2027.&nbsp;07.&nbsp;~&nbsp;2028.&nbsp;12.:&nbsp;유통공사&nbsp;출범,&nbsp;거점별&nbsp;산지유통센터(APC)&nbsp;연계&nbsp;및&nbsp;도시소비자&nbsp;플랫폼&nbsp;본격&nbsp;가동<br>2029.&nbsp;01.&nbsp;~&nbsp;임기&nbsp;내&nbsp;지속:&nbsp;브랜드&nbsp;고도화&nbsp;및&nbsp;전국규모&nbsp;축제&nbsp;정례화를&nbsp;통한&nbsp;플랫폼&nbsp;확장<br><br>4.&nbsp;재원조달방안&nbsp;등<br>▶&nbsp;국·도비&nbsp;확보:&nbsp;농림축산식품부&nbsp;'농산물&nbsp;산지유통시설(APC)&nbsp;지원사업'&nbsp;등&nbsp;국비&nbsp;공모사업&nbsp;적극&nbsp;유치<br>▶&nbsp;지방비&nbsp;편성:&nbsp;홍성군&nbsp;자체&nbsp;예산&nbsp;및&nbsp;지방소멸대응기금을&nbsp;활용한&nbsp;유통공사&nbsp;설립&nbsp;자본금&nbsp;및&nbsp;운영비&nbsp;출연<br>▶&nbsp;민관&nbsp;협력:&nbsp;생산자&nbsp;단체(농협&nbsp;등)와의&nbsp;공동&nbsp;출자&nbsp;또는&nbsp;파트너십을&nbsp;통한&nbsp;초기&nbsp;투자&nbsp;비용&nbsp;절감&nbsp;및&nbsp;수익금&nbsp;재투자&nbsp;구조&nbsp;확립</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	홍성군 산업 엑스포' 정례 개최</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="홍성군 산업 엑스포' 정례 개최">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표<br>“있는&nbsp;기업부터&nbsp;키운다.”는&nbsp;정책&nbsp;철학&nbsp;실행으로&nbsp;기존&nbsp;관내&nbsp;기업의&nbsp;마케팅&nbsp;여건&nbsp;조성을&nbsp;위한&nbsp;한상&nbsp;등&nbsp;외국&nbsp;바이어&nbsp;초청&nbsp;및&nbsp;수출&nbsp;상담의&nbsp;장&nbsp;역할로&nbsp;홍성군&nbsp;주력&nbsp;산업을&nbsp;망라하는&nbsp;B2B·B2C&nbsp;융합형&nbsp;엑스포&nbsp;추진<br><br>3.&nbsp;이행방법<br>▶&nbsp;기업&nbsp;유인(Attraction)&nbsp;정책&nbsp;추진&nbsp;:&nbsp;엑스포를&nbsp;통해&nbsp;홍성의&nbsp;우수한&nbsp;산업&nbsp;인프라와&nbsp;지원&nbsp;혜택(RE100&nbsp;전력&nbsp;공급&nbsp;등)을&nbsp;시연하여&nbsp;우량&nbsp;기업들이&nbsp;스스로&nbsp;찾아오는&nbsp;환경&nbsp;조성<br>▶&nbsp;지역&nbsp;기업&nbsp;스케일업(Scale-up)&nbsp;지원&nbsp;:&nbsp;엑스포&nbsp;참여&nbsp;기업을&nbsp;대상으로&nbsp;경영&nbsp;컨설팅,&nbsp;브랜드&nbsp;마케팅,&nbsp;R&D&nbsp;지원금을&nbsp;우선&nbsp;배정하여&nbsp;내실&nbsp;있는&nbsp;성장&nbsp;지원<br><br>3..&nbsp;이행기간&nbsp;<br>2026.&nbsp;07.&nbsp;~&nbsp;2027.&nbsp;06&nbsp;:&nbsp;엑스포&nbsp;개최&nbsp;타당성&nbsp;검토&nbsp;및&nbsp;실행계획&nbsp;수립,&nbsp;관련&nbsp;조례&nbsp;제정<br>2027.&nbsp;07.&nbsp;~&nbsp;2028.&nbsp;06&nbsp;:&nbsp;제1회&nbsp;홍성군&nbsp;산업&nbsp;엑스포&nbsp;개최&nbsp;및&nbsp;성과&nbsp;분석<br>2028.&nbsp;07.&nbsp;~&nbsp;임기&nbsp;내&nbsp;:&nbsp;엑스포&nbsp;규모&nbsp;확대&nbsp;및&nbsp;지역&nbsp;기업&nbsp;전담&nbsp;지원&nbsp;체계&nbsp;고도화<br><br>4.&nbsp;재원조달방안&nbsp;등&nbsp;&nbsp;&nbsp;<br>▶&nbsp;예산&nbsp;편성&nbsp;:&nbsp;홍성군&nbsp;자체&nbsp;산업&nbsp;진흥&nbsp;예산&nbsp;및&nbsp;충청남도&nbsp;기업&nbsp;지원&nbsp;기금&nbsp;확보<br>▶&nbsp;중앙예산확보&nbsp;:&nbsp;중소벤처&nbsp;기업부&nbsp;및&nbsp;산업통상&nbsp;자원부의&nbsp;'지역&nbsp;특화&nbsp;산업&nbsp;육성'&nbsp;관련&nbsp;공모사업비&nbsp;유치<br>▶&nbsp;민간&nbsp;참여:&nbsp;참여&nbsp;기업&nbsp;분담금&nbsp;및&nbsp;기업&nbsp;후원,&nbsp;전시&nbsp;부스&nbsp;운영&nbsp;수익금&nbsp;등을&nbsp;통한&nbsp;자부담&nbsp;비율&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	평택~부여 간 고속도로 장곡면 IC 신설 및 광천까지 4차선 도로 개설  </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="평택~부여 간 고속도로 장곡면 IC 신설 및 광천까지 4차선 도로 개설  ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표<br>▶&nbsp;지역&nbsp;경제의&nbsp;생존권&nbsp;확보:&nbsp;단순한&nbsp;교통&nbsp;편의를&nbsp;넘어,&nbsp;'광천&nbsp;푸드벨리'의&nbsp;성공과&nbsp;지역&nbsp;경제의&nbsp;활성화를&nbsp;위한&nbsp;필수적인&nbsp;생존&nbsp;기반&nbsp;마련&nbsp;&nbsp;&nbsp;<br>▶&nbsp;물류&nbsp;인프라&nbsp;혁신:&nbsp;고속도로&nbsp;접근성&nbsp;향상을&nbsp;통한&nbsp;기업&nbsp;물류비용&nbsp;절감&nbsp;및&nbsp;산업&nbsp;경쟁력&nbsp;강화&nbsp;&nbsp;&nbsp;<br>▶&nbsp;지역&nbsp;균형&nbsp;발전:&nbsp;장곡면과&nbsp;광천읍을&nbsp;잇는&nbsp;사통팔달&nbsp;교통망&nbsp;확충으로&nbsp;소외&nbsp;지역&nbsp;없는&nbsp;균형&nbsp;발전&nbsp;실현&nbsp;<br>&nbsp;&nbsp;<br>2.&nbsp;이행방법<br>▶&nbsp;범&nbsp;지역&nbsp;협력&nbsp;체계&nbsp;구축&nbsp;:&nbsp;이해관계&nbsp;지역인&nbsp;청양군과&nbsp;긴밀히&nbsp;협력하여&nbsp;공동&nbsp;대응&nbsp;전략&nbsp;수립&nbsp;및&nbsp;중앙정부&nbsp;설득&nbsp;&nbsp;&nbsp;<br>▶&nbsp;국가&nbsp;도로망&nbsp;계획&nbsp;반영&nbsp;추진&nbsp;:&nbsp;국토교통부&nbsp;및&nbsp;한국도로공사와&nbsp;협의하여&nbsp;평택~부여&nbsp;간&nbsp;고속도로&nbsp;노선&nbsp;내&nbsp;장곡면&nbsp;IC&nbsp;신설&nbsp;수정&nbsp;명문화&nbsp;&nbsp;&nbsp;<br>▶&nbsp;광천~홍성&nbsp;간&nbsp;도로&nbsp;확장&nbsp;조기&nbsp;실현:&nbsp;광천&nbsp;푸드벨리의&nbsp;성공적&nbsp;안착을&nbsp;위해&nbsp;광천까지&nbsp;연결되는&nbsp;4차선&nbsp;도로&nbsp;개설&nbsp;사업을&nbsp;최우선&nbsp;행정&nbsp;과제로&nbsp;추진&nbsp;&nbsp;<br><br>3.&nbsp;이행기간<br>2026.&nbsp;07.&nbsp;~&nbsp;2027.&nbsp;06&nbsp;:&nbsp;청양군&nbsp;및&nbsp;관계&nbsp;부처&nbsp;협의체&nbsp;구성,&nbsp;타당성&nbsp;조사&nbsp;및&nbsp;계획&nbsp;반영추진<br>2027.&nbsp;07.&nbsp;~&nbsp;2028.&nbsp;12&nbsp;:&nbsp;고속도로&nbsp;IC&nbsp;신설&nbsp;확정&nbsp;및&nbsp;4차선&nbsp;도로&nbsp;확장&nbsp;공사&nbsp;설계&nbsp;착수<br>2029.&nbsp;01.&nbsp;~&nbsp;임기&nbsp;내&nbsp;:&nbsp;4차선&nbsp;도로&nbsp;개설&nbsp;공사&nbsp;완공&nbsp;및&nbsp;IC&nbsp;신설&nbsp;사업&nbsp;조기&nbsp;착공&nbsp;추진<br><br>4.&nbsp;재원조달방안&nbsp;등<br>▶&nbsp;국비&nbsp;확보:&nbsp;국가&nbsp;고속도로&nbsp;건설&nbsp;계획&nbsp;반영을&nbsp;통한&nbsp;국토교통부&nbsp;국비&nbsp;지원&nbsp;확보<br>▶&nbsp;도비&nbsp;및&nbsp;지방비&nbsp;매칭:&nbsp;충청남도와의&nbsp;협의를&nbsp;통한&nbsp;도로&nbsp;확장&nbsp;사업&nbsp;도비&nbsp;지원&nbsp;유치&nbsp;및&nbsp;홍성군&nbsp;자체&nbsp;예산&nbsp;편성<br>▶&nbsp;지방소멸대응기금&nbsp;활용:&nbsp;인프라&nbsp;확충을&nbsp;통한&nbsp;인구&nbsp;유입&nbsp;및&nbsp;산업&nbsp;활성화&nbsp;목적의&nbsp;기금&nbsp;전략적&nbsp;배분</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	홍주 쇼핑센터 철거 및 공간 재배치를 통한 '전국 10대 전통시장' 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="홍주 쇼핑센터 철거 및 공간 재배치를 통한 '전국 10대 전통시장' 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표<br>▶&nbsp;지역&nbsp;경제의&nbsp;고질적&nbsp;난제&nbsp;해결&nbsp;:&nbsp;홍성군의&nbsp;'계륵'과&nbsp;같은&nbsp;존재인&nbsp;노후화된&nbsp;홍주&nbsp;쇼핑센터를&nbsp;과감히&nbsp;철거하여&nbsp;원도심&nbsp;공동화&nbsp;문제를&nbsp;근본적으로&nbsp;해결하는&nbsp;시작이&nbsp;될것임&nbsp;&nbsp;&nbsp;<br>▶&nbsp;전통시장의&nbsp;현대적&nbsp;재탄생&nbsp;:&nbsp;단순한&nbsp;재래시장을&nbsp;넘어&nbsp;대도시의&nbsp;유명&nbsp;시장과&nbsp;어깨를&nbsp;나란히&nbsp;할&nbsp;수&nbsp;있는&nbsp;전국&nbsp;단위의&nbsp;랜드마크&nbsp;전통시장으로&nbsp;도약함&nbsp;&nbsp;&nbsp;<br>▶&nbsp;문화&nbsp;관광형&nbsp;시장&nbsp;구축:&nbsp;인근&nbsp;홍주읍성&nbsp;한옥마을&nbsp;조성사업과&nbsp;연계하여&nbsp;먹거리,&nbsp;볼거리,&nbsp;즐길&nbsp;거리가&nbsp;완비된&nbsp;체류형&nbsp;관광&nbsp;명소로&nbsp;육성함<br><br>2.&nbsp;이행방법<br>▶&nbsp;과감한&nbsp;행정&nbsp;결단&nbsp;및&nbsp;철거&nbsp;추진&nbsp;:&nbsp;지체&nbsp;없는&nbsp;정책&nbsp;결정을&nbsp;통해&nbsp;홍주&nbsp;쇼핑센터&nbsp;철거&nbsp;공론화&nbsp;및&nbsp;상인회와&nbsp;상생&nbsp;협약&nbsp;체결&nbsp;및&nbsp;임시&nbsp;영업&nbsp;공간&nbsp;확보&nbsp;등&nbsp;이주&nbsp;대책&nbsp;마련<br>▶&nbsp;공간&nbsp;재배치&nbsp;및&nbsp;인프라&nbsp;혁신&nbsp;:&nbsp;철거부지&nbsp;및&nbsp;주변&nbsp;공간을&nbsp;전면&nbsp;재배치하여&nbsp;광장,&nbsp;주차장,&nbsp;상징&nbsp;조형물&nbsp;등&nbsp;쾌적한&nbsp;전통시장&nbsp;환경&nbsp;조성<br>▶&nbsp;스마트&nbsp;물류&nbsp;시스템&nbsp;및&nbsp;온라인&nbsp;배송&nbsp;플랫폼을&nbsp;도입&nbsp;하여&nbsp;전국적&nbsp;유통망&nbsp;확보<br>▶&nbsp;전통시장&nbsp;브랜드화&nbsp;및&nbsp;콘텐츠&nbsp;강화&nbsp;:&nbsp;전국&nbsp;10대&nbsp;시장&nbsp;진입을&nbsp;위한&nbsp;특화&nbsp;먹거리&nbsp;개발&nbsp;및&nbsp;야시장&nbsp;운영<br>▶&nbsp;문화체육관광부&nbsp;및&nbsp;중소벤처기업부의&nbsp;문화&nbsp;관광형&nbsp;시장&nbsp;육성&nbsp;사업&nbsp;공모&nbsp;추진&nbsp;<br><br>3.&nbsp;이행기간<br>2026.&nbsp;07.&nbsp;~&nbsp;2027.&nbsp;06.:&nbsp;철거&nbsp;및&nbsp;공간&nbsp;재배치&nbsp;마스터플랜&nbsp;수립,&nbsp;상인&nbsp;보상&nbsp;협의&nbsp;체계&nbsp;가동<br>2027.&nbsp;07.&nbsp;~&nbsp;2028.&nbsp;12.:&nbsp;홍주&nbsp;쇼핑센터&nbsp;철거&nbsp;공사&nbsp;진행&nbsp;및&nbsp;시장&nbsp;현대화&nbsp;기반&nbsp;시설&nbsp;착공<br>2029.&nbsp;01.&nbsp;~&nbsp;임기&nbsp;내:&nbsp;전국&nbsp;10대&nbsp;전통시장&nbsp;선포&nbsp;및&nbsp;대규모&nbsp;홍보&nbsp;마케팅,&nbsp;관광객&nbsp;유치&nbsp;본격화<br><br>4.&nbsp;재원조달방안&nbsp;등<br>▶&nbsp;중앙정부&nbsp;공모사업&nbsp;:&nbsp;중소벤처기업부&nbsp;'전통시장&nbsp;시설&nbsp;현대화&nbsp;사업'&nbsp;및&nbsp;'주차환경&nbsp;개선사업'&nbsp;국비&nbsp;확보<br>▶&nbsp;지방비&nbsp;및&nbsp;기금&nbsp;:&nbsp;충청남도&nbsp;원도심&nbsp;활성화&nbsp;기금&nbsp;및&nbsp;홍성군&nbsp;자체&nbsp;예산&nbsp;적극&nbsp;편성<br>▶&nbsp;민관&nbsp;협력&nbsp;투자&nbsp;:&nbsp;민간&nbsp;자본&nbsp;유치를&nbsp;통한&nbsp;상업시설&nbsp;및&nbsp;편의시설&nbsp;확보,&nbsp;수익형&nbsp;운영&nbsp;모델&nbsp;개발</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;윤선웅 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	윈도심 중심 도시 재생</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="윈도심 중심 도시 재생">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;원도심&nbsp;자생력&nbsp;확보&nbsp;및&nbsp;근대문화&nbsp;기반&nbsp;관광&nbsp;브랜드화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;근대문화유산의&nbsp;관광&nbsp;상품화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;무가선&nbsp;트램&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;목포역사&nbsp;부지를&nbsp;활용한&nbsp;주거&nbsp;단지&nbsp;및&nbsp;공원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;목포역&nbsp;부지&nbsp;1만&nbsp;세대&nbsp;주거&nbsp;공간&nbsp;및&nbsp;도심&nbsp;숲공원&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;대불산업단지,&nbsp;사호&nbsp;기업도시,&nbsp;해남&nbsp;기업도시&nbsp;연결을&nbsp;위한&nbsp;도로&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삼학도와&nbsp;용당&nbsp;부두간&nbsp;개방교&nbsp;설치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027상반기∼2036<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;무가선&nbsp;트램&nbsp;구축&nbsp;:&nbsp;2030상반기∼2036<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;목포역&nbsp;주거&nbsp;단지&nbsp;및&nbsp;공원&nbsp;조성&nbsp;:&nbsp;2030상반기∼2036<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삼학도와&nbsp;용당&nbsp;부두간&nbsp;개&nbsp;방교&nbsp;설치&nbsp;:&nbsp;2027상반기∼&nbsp;2030<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시&nbsp;재생&nbsp;뉴딜<br>&nbsp;&nbsp;○&nbsp;민자&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주거&nbsp;단지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;지&nbsp;방채&nbsp;발행</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	하당, 남악, 옥암, 임성지구 역세권 개발 및 친환경 스마트시티 조성 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="하당, 남악, 옥암, 임성지구 역세권 개발 및 친환경 스마트시티 조성 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;역세권&nbsp;중심&nbsp;미래형&nbsp;정주&nbsp;여건&nbsp;조성&nbsp;및&nbsp;도심&nbsp;간&nbsp;연결<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;목포역&nbsp;이전과&nbsp;함께&nbsp;인근&nbsp;지역&nbsp;역세권&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;하당&nbsp;,&nbsp;남악&nbsp;,&nbsp;옥암&nbsp;,&nbsp;임성지구&nbsp;일대&nbsp;<br>&nbsp;&nbsp;○&nbsp;신도심과&nbsp;원도심간의&nbsp;스마트&nbsp;무가선&nbsp;트램&nbsp;라인&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;무가선&nbsp;트램&nbsp;건설<br><br>□&nbsp;이&nbsp;행기&nbsp;간<br>&nbsp;&nbsp;○&nbsp;2027상반기∼2036<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;목포역&nbsp;이전&nbsp;;&nbsp;2027상반기∼2029<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;하당,&nbsp;남악&nbsp;옥암&nbsp;,&nbsp;임성지구&nbsp;일대&nbsp;개발&nbsp;공사&nbsp;:&nbsp;2030&nbsp;~&nbsp;2033<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;무가선&nbsp;트램&nbsp;구축&nbsp;:&nbsp;2030&nbsp;~2036<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트&nbsp;시&nbsp;티&nbsp;공모&nbsp;사업<br>&nbsp;&nbsp;○&nbsp;지방비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;하당,&nbsp;남악,&nbsp;옥암,&nbsp;임성지구&nbsp;개&nbsp;발&nbsp;공사<br>&nbsp;&nbsp;○&nbsp;개발이익환수금<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;목포역&nbsp;이전</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	제 2의 대양사단 조성을 통한 지역 일자리 해결 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="제 2의 대양사단 조성을 통한 지역 일자리 해결 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;미&nbsp;래&nbsp;신성&nbsp;장&nbsp;동력&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;신재생에너지,&nbsp;자동차,&nbsp;선박&nbsp;관련&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;미래&nbsp;먹거리&nbsp;산업&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;기업유치를&nbsp;위한&nbsp;규제&nbsp;완화&nbsp;및&nbsp;조례&nbsp;개정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방&nbsp;이전&nbsp;기업&nbsp;특혜&nbsp;신설&nbsp;및&nbsp;규제&nbsp;완화<br><br>□&nbsp;이&nbsp;행기&nbsp;간<br>&nbsp;&nbsp;○&nbsp;2027&nbsp;~&nbsp;2031<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;규제완화&nbsp;및&nbsp;조례&nbsp;개정&nbsp;:&nbsp;2027&nbsp;~&nbsp;2028<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산단&nbsp;조성&nbsp;및&nbsp;기&nbsp;업&nbsp;유치&nbsp;:&nbsp;2027&nbsp;~&nbsp;2031<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지&nbsp;방비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;규제&nbsp;완화&nbsp;및&nbsp;조례&nbsp;개정&nbsp;에&nbsp;따른&nbsp;비용<br>&nbsp;&nbsp;○&nbsp;산단&nbsp;분양&nbsp;수입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산단&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;투자(PF)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산단&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;투자유치&nbsp;보조금</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	사회적 취약계층을 위한 현실적 지원책 마련</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="사회적 취약계층을 위한 현실적 지원책 마련">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;사회적&nbsp;약자의&nbsp;주거&nbsp;권리&nbsp;및&nbsp;생활&nbsp;안전망&nbsp;보장<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;무주택&nbsp;사회적&nbsp;취약&nbsp;계층을&nbsp;위&nbsp;한&nbsp;무상&nbsp;주택&nbsp;보급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원도심&nbsp;1&nbsp;만&nbsp;세대&nbsp;주거&nbsp;공간&nbsp;조성시&nbsp;편성<br>&nbsp;&nbsp;○&nbsp;노인&nbsp;돌봄&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전기&nbsp;온수&nbsp;보일러&nbsp;교체&nbsp;사업&nbsp;（연탄&nbsp;,&nbsp;석유&nbsp;보일러&nbsp;교체）<br>&nbsp;&nbsp;○&nbsp;참전&nbsp;유공자&nbsp;등을&nbsp;위한&nbsp;사회&nbsp;복지&nbsp;기금&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027&nbsp;~2036<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노인&nbsp;돌봄&nbsp;및&nbsp;사회복지기금&nbsp;조성&nbsp;:&nbsp;2027&nbsp;~&nbsp;2029<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;목포역&nbsp;주거&nbsp;단지&nbsp;조성&nbsp;시&nbsp;무상&nbsp;주택&nbsp;보급&nbsp;:&nbsp;2030&nbsp;~&nbsp;2036.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취약&nbsp;계층&nbsp;에너지&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;민자&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주거단지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;일반&nbsp;회계&nbsp;예산<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노인&nbsp;돌봄&nbsp;예산<br>&nbsp;&nbsp;○&nbsp;복지&nbsp;기금&nbsp;출연</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	다음 세대 도약 방안 강구 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="다음 세대 도약 방안 강구 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;특화&nbsp;청년&nbsp;인재&nbsp;양성&nbsp;및&nbsp;정착&nbsp;선순환&nbsp;구조&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;성적,&nbsp;기술&nbsp;우수&nbsp;청년&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;선진&nbsp;국가&nbsp;유학비&nbsp;지원&nbsp;및&nbsp;기술역량강화지원&nbsp;사업<br>&nbsp;&nbsp;○&nbsp;관내&nbsp;중소기업&nbsp;취업&nbsp;청년&nbsp;인센티브지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-교통비,&nbsp;기숙사비&nbsp;등&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;관내&nbsp;청년&nbsp;고용&nbsp;제조업&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;세금&nbsp;감면&nbsp;및&nbsp;고용장려금&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027&nbsp;~&nbsp;2030<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3년＋1&nbsp;년(우수기업&nbsp;특별지원）지원<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일자리&nbsp;매칭&nbsp;사업<br>&nbsp;&nbsp;○&nbsp;지&nbsp;방비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청&nbsp;년&nbsp;발전&nbsp;기금<br>&nbsp;&nbsp;○&nbsp;기&nbsp;업&nbsp;분담금</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;최영열 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	영암 스마트 물류 단지 구축 및 수익 100% 군민 환원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="영암 스마트 물류 단지 구축 및 수익 100% 군민 환원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;물류효과&nbsp;1조원&nbsp;규모의&nbsp;경제&nbsp;효과&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;2,000명&nbsp;이상의&nbsp;대규모&nbsp;직고용&nbsp;일자리&nbsp;창출&nbsp;통한&nbsp;인구&nbsp;유입&nbsp;대전환<br>&nbsp;&nbsp;○&nbsp;물류&nbsp;단지&nbsp;운영&nbsp;수익&nbsp;및&nbsp;세수(취득세&nbsp;등)를&nbsp;복지·농민&nbsp;수당으로&nbsp;100%&nbsp;환원<br><br>■&nbsp;현황&nbsp;및&nbsp;문제점<br>&nbsp;&nbsp;○&nbsp;단순&nbsp;생산&nbsp;중심&nbsp;농업&nbsp;구조&nbsp;→&nbsp;영암군&nbsp;실질&nbsp;소득&nbsp;정체<br>&nbsp;&nbsp;○&nbsp;양질의&nbsp;일자리&nbsp;부족&nbsp;→&nbsp;청년&nbsp;인구&nbsp;유출&nbsp;가속화<br>&nbsp;&nbsp;○&nbsp;투자&nbsp;성과가&nbsp;군민&nbsp;혜택으로&nbsp;이어지는&nbsp;선순환&nbsp;구조&nbsp;부재<br><br>■&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;기업&nbsp;유치&nbsp;및&nbsp;고용&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;글로벌&nbsp;유통기업유치및영암거주자우선채용&nbsp;→&nbsp;고용생태계조성<br>&nbsp;&nbsp;○&nbsp;영암&nbsp;스마트&nbsp;물류&nbsp;단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;콜드체인&nbsp;물류센터&nbsp;건립&nbsp;→&nbsp;호남권&nbsp;농수산물&nbsp;물류&nbsp;거점화<br>&nbsp;&nbsp;○&nbsp;인구&nbsp;증대&nbsp;인센티브<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역기업&nbsp;취업&nbsp;시&nbsp;주거비·교통비·근속장려금&nbsp;파격지원&nbsp;→&nbsp;청년층&nbsp;정착&nbsp;유도<br>&nbsp;&nbsp;○&nbsp;수익&nbsp;환원의&nbsp;실질화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;물류단지&nbsp;운영&nbsp;수익&nbsp;및&nbsp;세수&nbsp;→&nbsp;군민&nbsp;복지와&nbsp;농민&nbsp;수당으로&nbsp;100%&nbsp;활용<br><br>■&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;∼&nbsp;2030년<br><br>■&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비&nbsp;및&nbsp;민자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	데이터 농정 대전환 및 연 소득 1억 부농 시대 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="데이터 농정 대전환 및 연 소득 1억 부농 시대 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;연&nbsp;120만&nbsp;원&nbsp;농민수당&nbsp;지급&nbsp;추진을&nbsp;통한&nbsp;농가&nbsp;소득&nbsp;안정화<br>&nbsp;&nbsp;○&nbsp;스마트팜&nbsp;확대로&nbsp;연&nbsp;소득&nbsp;1억원&nbsp;이상의&nbsp;부농&nbsp;농가&nbsp;육성<br><br>■&nbsp;현황&nbsp;및&nbsp;문제점<br>&nbsp;&nbsp;○&nbsp;기후&nbsp;위기&nbsp;및&nbsp;노동력&nbsp;부족&nbsp;→&nbsp;전통적&nbsp;생산&nbsp;체계의&nbsp;불안정성&nbsp;심화<br>&nbsp;&nbsp;○&nbsp;복잡한&nbsp;유통&nbsp;단계&nbsp;→&nbsp;농업&nbsp;마진율&nbsp;저조&nbsp;및&nbsp;실질&nbsp;소득&nbsp;저하<br>&nbsp;&nbsp;○&nbsp;현장과&nbsp;괴리된&nbsp;농정<br><br>■&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;농민&nbsp;소득의&nbsp;실질적&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;농민수당에&nbsp;‘영암&nbsp;스마트&nbsp;물류&nbsp;단지’&nbsp;운영&nbsp;수익금(세수)추가&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;농민수당&nbsp;연&nbsp;120만&nbsp;원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기반&nbsp;첨단&nbsp;농업&nbsp;대전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트팜&nbsp;클러스터&nbsp;조성&nbsp;및&nbsp;AI·로봇&nbsp;농기계&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;노동력&nbsp;절감&nbsp;및&nbsp;효율&nbsp;극대화<br>&nbsp;&nbsp;○&nbsp;현장&nbsp;중심의&nbsp;협치&nbsp;농정&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업인&nbsp;·&nbsp;농협&nbsp;·&nbsp;행정이&nbsp;참여하는&nbsp;‘협치&nbsp;농정위원회’&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;유통망&nbsp;판로&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;글로벌&nbsp;유통망에&nbsp;지역&nbsp;농특산물(무화과,&nbsp;고구마&nbsp;등)&nbsp;연결하여&nbsp;수출&nbsp;지원<br>■&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;～&nbsp;2030년<br><br>■&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비<br>&nbsp;&nbsp;○&nbsp;영암&nbsp;스마트&nbsp;물류&nbsp;단지&nbsp;수익금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	삼호 생활권 혁신 및 삼호 제2청사 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="삼호 생활권 혁신 및 삼호 제2청사 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;삼호읍&nbsp;권역별&nbsp;공영주차장&nbsp;600면&nbsp;확충&nbsp;및&nbsp;보행자&nbsp;중심&nbsp;도로&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;삼호&nbsp;제2청사&nbsp;건립&nbsp;통한&nbsp;서부권&nbsp;행정&nbsp;접근성&nbsp;개선<br><br>■&nbsp;현황&nbsp;및&nbsp;문제점<br>&nbsp;&nbsp;○&nbsp;만성적&nbsp;주차난&nbsp;심화&nbsp;및&nbsp;노후&nbsp;보행로에&nbsp;따른&nbsp;주민&nbsp;안전사고&nbsp;위험<br>&nbsp;&nbsp;○&nbsp;군청&nbsp;원거리&nbsp;소재에&nbsp;따른&nbsp;서부권&nbsp;행정&nbsp;서비스&nbsp;소외&nbsp;및&nbsp;불편&nbsp;지속<br><br>■&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;생활&nbsp;밀착형&nbsp;주차&nbsp;공간&nbsp;및&nbsp;교통&nbsp;안전망&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삼호읍&nbsp;3개&nbsp;권역&nbsp;공영주차장&nbsp;600면&nbsp;조성&nbsp;및&nbsp;안심&nbsp;신호등&nbsp;전면&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;쾌적한&nbsp;생활&nbsp;인프라&nbsp;및&nbsp;가로&nbsp;환경&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삼호도서관&nbsp;확장(숲길&nbsp;도서관)&nbsp;및&nbsp;노후&nbsp;도로·보행로&nbsp;전면&nbsp;재정비<br>&nbsp;&nbsp;○&nbsp;서부권&nbsp;행정&nbsp;거점화&nbsp;및&nbsp;서비스&nbsp;고도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;핵심&nbsp;행정&nbsp;기능&nbsp;삼호&nbsp;제2청사&nbsp;배치&nbsp;→&nbsp;현장&nbsp;완결형&nbsp;행정&nbsp;실현<br><br>■&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;∼&nbsp;2030년<br><br>■&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	월출산 명품 관광 랜드마크 조성 및 골목상권 활성화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="월출산 명품 관광 랜드마크 조성 및 골목상권 활성화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;월출산&nbsp;중심&nbsp;‘체류형&nbsp;관광객&nbsp;300만&nbsp;시대’&nbsp;개막<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;자생력&nbsp;강화&nbsp;및&nbsp;골목상권&nbsp;활력&nbsp;실현<br><br>■&nbsp;현황&nbsp;및&nbsp;문제점<br>&nbsp;&nbsp;○&nbsp;체험·체류형&nbsp;관광&nbsp;시설&nbsp;부족&nbsp;→&nbsp;관광객이&nbsp;머물지&nbsp;않고&nbsp;스쳐&nbsp;지나가는&nbsp;구조<br>&nbsp;&nbsp;○&nbsp;고물가·경기&nbsp;침체&nbsp;→&nbsp;소상공인&nbsp;경영&nbsp;악화&nbsp;및&nbsp;골목상권&nbsp;자생력&nbsp;위축<br><br>■&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;월출산&nbsp;중심&nbsp;체류형&nbsp;관광&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;월출산&nbsp;전망대&nbsp;건립&nbsp;및&nbsp;기찬묏길&nbsp;모노레일&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;월출산&nbsp;드론&nbsp;라이트&nbsp;쇼&nbsp;등&nbsp;야간&nbsp;관광&nbsp;콘텐츠&nbsp;경쟁력&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;가족형&nbsp;명소&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;호남권&nbsp;최대&nbsp;‘영암&nbsp;키즈&nbsp;1004&nbsp;랜드’&nbsp;및&nbsp;‘아르떼&nbsp;뮤지엄’&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;자생력&nbsp;강화&nbsp;및&nbsp;경영&nbsp;안정&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;전담&nbsp;지원센터&nbsp;설치(금융·법률&nbsp;상담)&nbsp;및&nbsp;택배비&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공기관의&nbsp;소상공인&nbsp;제품&nbsp;우선&nbsp;구매제&nbsp;시행으로&nbsp;안정적&nbsp;판로&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;지역화폐&nbsp;혜택&nbsp;확대를&nbsp;통한&nbsp;자금&nbsp;선순환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘월출페이’&nbsp;상시&nbsp;할인율&nbsp;상향&nbsp;및&nbsp;가맹점&nbsp;추가&nbsp;적립·캐시백&nbsp;혜택&nbsp;확대&nbsp;3<br><br>■&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;∼&nbsp;2030년<br><br>■&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비&nbsp;및&nbsp;민자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	전 생애 맞춤형 ‘행복 도시 영암’</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="전 생애 맞춤형 ‘행복 도시 영암’">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;‘물리치료&nbsp;무료&nbsp;쿠폰제’&nbsp;도입&nbsp;및&nbsp;어르신&nbsp;건강권&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;출산·교육비&nbsp;파격&nbsp;지원을&nbsp;통한&nbsp;‘양육&nbsp;및&nbsp;교육비&nbsp;부담&nbsp;제로화’&nbsp;실현<br><br>■&nbsp;현황&nbsp;및&nbsp;문제점<br>&nbsp;&nbsp;○&nbsp;초고령화&nbsp;대비&nbsp;체감형&nbsp;의료·돌봄&nbsp;인프라&nbsp;부족<br>&nbsp;&nbsp;○&nbsp;양육&nbsp;부담&nbsp;및&nbsp;교육&nbsp;여건&nbsp;미흡에&nbsp;따른&nbsp;학부모&nbsp;인구&nbsp;유출&nbsp;심화<br><br>■&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;맞춤형&nbsp;실속&nbsp;복지&nbsp;및&nbsp;의료&nbsp;지원&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;물리치료&nbsp;무료&nbsp;쿠폰&nbsp;지급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;만&nbsp;70세&nbsp;이상&nbsp;건강검진비&nbsp;50%&nbsp;지원&nbsp;및&nbsp;어르신&nbsp;맞춤형&nbsp;동행&nbsp;서비스<br>&nbsp;&nbsp;○&nbsp;혁신적&nbsp;양육&nbsp;환경&nbsp;및&nbsp;공공&nbsp;돌봄&nbsp;인프라&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출산장려금&nbsp;확대&nbsp;지급(첫째&nbsp;500만&nbsp;원&nbsp;~&nbsp;넷째&nbsp;이상&nbsp;최대&nbsp;1,500만&nbsp;원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농번기·야간·주말&nbsp;긴급&nbsp;돌봄&nbsp;가능한&nbsp;공공형&nbsp;돌봄&nbsp;센터&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;디지털&nbsp;교육&nbsp;혁신&nbsp;및&nbsp;미래&nbsp;인재&nbsp;육성&nbsp;기반&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관내&nbsp;초·중·고·대&nbsp;전&nbsp;입학생&nbsp;대상&nbsp;‘생애&nbsp;첫&nbsp;학습용&nbsp;노트북’&nbsp;지급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영암중·고교&nbsp;통합&nbsp;추진&nbsp;및&nbsp;지역&nbsp;명문&nbsp;교육&nbsp;환경&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;정주&nbsp;환경&nbsp;개선을&nbsp;위한&nbsp;마을&nbsp;중심&nbsp;주거&nbsp;복지&nbsp;고도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후&nbsp;마을&nbsp;쉼터&nbsp;리모델링&nbsp;및&nbsp;빈집&nbsp;정비를&nbsp;통한&nbsp;공공&nbsp;임대&nbsp;주택&nbsp;활용<br><br>■&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;∼&nbsp;2030년<br><br>■&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

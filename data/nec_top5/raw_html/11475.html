@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;정진백 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	혁신 대중교통망 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="혁신 대중교통망 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;직행&nbsp;셔틀버스&nbsp;도입으로&nbsp;대중교통망&nbsp;재구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정관,&nbsp;일광신도시와&nbsp;주요&nbsp;거점(도시철도,&nbsp;동해선,&nbsp;해운대)을&nbsp;연결하는&nbsp;직행&nbsp;‘셔틀버스’&nbsp;도입으로&nbsp;이동시간&nbsp;단축<br><br>&nbsp;&nbsp;○&nbsp;타바라와&nbsp;순환버스&nbsp;도입&nbsp;확대로&nbsp;교통편의&nbsp;증진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정관,&nbsp;일광신도시에&nbsp;다람쥐&nbsp;버스&nbsp;또는&nbsp;‘수요응답형&nbsp;교통(DRT)&nbsp;타바라’&nbsp;도입,&nbsp;출퇴근&nbsp;스트레스&nbsp;제로&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;직행&nbsp;셔틀버스&nbsp;도입&nbsp;:<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정관&nbsp;↔&nbsp;도시철도/동해선,&nbsp;일광신도시&nbsp;↔&nbsp;해운대&nbsp;최단&nbsp;거리&nbsp;직행노선&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;타바라(DRT)&nbsp;확대&nbsp;:&nbsp;정관,&nbsp;일광신도시에&nbsp;군비&nbsp;매칭으로&nbsp;차량&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;인프라&nbsp;개선&nbsp;:&nbsp;AI&nbsp;배차&nbsp;시스템&nbsp;도입&nbsp;및&nbsp;냉난방&nbsp;시설을&nbsp;갖춘&nbsp;다목적&nbsp;복지&nbsp;공간&nbsp;‘스마트&nbsp;쉘트’&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.07&nbsp;~&nbsp;2027.06&nbsp;:&nbsp;조례제정,&nbsp;시범노선&nbsp;확정&nbsp;및&nbsp;차량&nbsp;15대&nbsp;내외&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;2027.07&nbsp;~&nbsp;2028.12&nbsp;:&nbsp;정식&nbsp;운행&nbsp;개시&nbsp;및&nbsp;5분&nbsp;대기&nbsp;시스템&nbsp;구축&nbsp;완료<br>&nbsp;&nbsp;○&nbsp;2029.01&nbsp;~&nbsp;임기&nbsp;내&nbsp;:&nbsp;기장군&nbsp;전역&nbsp;소규모&nbsp;마을까지&nbsp;DRT&nbsp;서비스&nbsp;단계적&nbsp;확산<br><br>□&nbsp;재원조달방안(약&nbsp;150억원)<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;확보(약&nbsp;75억원)&nbsp;:&nbsp;국토교통부&nbsp;‘수요응답형&nbsp;교통수단(DRT)&nbsp;활성화&nbsp;사업’&nbsp;공모를&nbsp;통해&nbsp;총사업비의&nbsp;50%&nbsp;확보<br><br>&nbsp;&nbsp;○&nbsp;시/군비&nbsp;매칭(약&nbsp;60억원)&nbsp;:&nbsp;부산시&nbsp;‘스마트&nbsp;모빌리티&nbsp;지원금’&nbsp;및&nbsp;기장군&nbsp;일반&nbsp;회계&nbsp;내&nbsp;교통복지&nbsp;증진&nbsp;예산&nbsp;편성&nbsp;<br><br>&nbsp;&nbsp;○&nbsp;기금&nbsp;활용(약&nbsp;15억원)&nbsp;:&nbsp;지방소멸대응기금&nbsp;중&nbsp;‘정주&nbsp;여건&nbsp;개선’&nbsp;분야&nbsp;예산&nbsp;투입</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	남부권 통합암센터 유치 및 메디컬 특구 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="남부권 통합암센터 유치 및 메디컬 특구 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;남부권&nbsp;대표&nbsp;의료&nbsp;허브&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중입자치료센터와&nbsp;양성자치료기&nbsp;등&nbsp;방사선치료뿐만&nbsp;아니라&nbsp;수술과&nbsp;항암,&nbsp;요양에&nbsp;이르기까지&nbsp;치료와&nbsp;치유가&nbsp;기장에서&nbsp;가능하도록&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;의료&nbsp;휴양&nbsp;관광&nbsp;도시&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;좌천역&nbsp;일원을&nbsp;의료&nbsp;비즈니스와&nbsp;관광이&nbsp;결합된&nbsp;복합&nbsp;특구로&nbsp;개발<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;서울대병원&nbsp;암센터&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울대병원과&nbsp;협력,&nbsp;방사선치료,&nbsp;수술,&nbsp;항암까지&nbsp;가능하도록&nbsp;통합암센터&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;의료&nbsp;휴양&nbsp;복합&nbsp;타운&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;메디컬&nbsp;호텔,&nbsp;치유센터,&nbsp;휴양&nbsp;시설&nbsp;및&nbsp;관련&nbsp;기업&nbsp;오피스&nbsp;집적화<br>&nbsp;&nbsp;○&nbsp;산단&nbsp;등과&nbsp;연계&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의과학&nbsp;산단&nbsp;연구시설&nbsp;및&nbsp;구축&nbsp;계획인&nbsp;메디컬&nbsp;AI&nbsp;데이터센터와&nbsp;임상&nbsp;연구&nbsp;협력&nbsp;네트워크&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.07&nbsp;~&nbsp;2027.06&nbsp;:&nbsp;도시계획&nbsp;재정비,&nbsp;타당성&nbsp;조사,&nbsp;서울대병원과&nbsp;협력&nbsp;협약(MOU)&nbsp;체결<br>&nbsp;&nbsp;○&nbsp;2027.07&nbsp;~&nbsp;2029.06&nbsp;:&nbsp;기반&nbsp;시설&nbsp;조성&nbsp;및&nbsp;민간&nbsp;의료&nbsp;자본&nbsp;투자&nbsp;유치(LOI)<br>&nbsp;&nbsp;○&nbsp;2029.07&nbsp;~&nbsp;임기&nbsp;내&nbsp;:&nbsp;원스탑&nbsp;연계&nbsp;시스템&nbsp;구축,&nbsp;글로벌&nbsp;의료관광&nbsp;플랫폼&nbsp;가동<br><br>□&nbsp;재원조달방안(약&nbsp;2,500억원)<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;예산(약&nbsp;800억원)&nbsp;:&nbsp;보건복지부&nbsp;‘국가암관리&nbsp;종합계획’에&nbsp;따른&nbsp;국고&nbsp;보조&nbsp;및&nbsp;과기부&nbsp;‘방사선&nbsp;융합&nbsp;기술’연구&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;민간자본&nbsp;유치(약&nbsp;1,500억원)&nbsp;:&nbsp;‘지역활성화&nbsp;투자펀드’를&nbsp;활용하여&nbsp;대형&nbsp;건설사,&nbsp;보험사,&nbsp;의료법인&nbsp;컨소시엄&nbsp;유치(PPP&nbsp;방식)<br>&nbsp;&nbsp;○&nbsp;지방비&nbsp;및&nbsp;상생&nbsp;기금(약&nbsp;200억원):&nbsp;군비&nbsp;매칭&nbsp;및&nbsp;관내&nbsp;공공기관(한수원&nbsp;등)의&nbsp;협력기금&nbsp;출연&nbsp;유도</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	소상공인 통합지원센터 설립 및 자영업자 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="소상공인 통합지원센터 설립 및 자영업자 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;소상공인&nbsp;경영&nbsp;안전망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고령,&nbsp;나홀로&nbsp;자영업자&nbsp;디지털&nbsp;전환&nbsp;지원&nbsp;및&nbsp;마케팅&nbsp;사각지대&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;상권&nbsp;고부가가치화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;협력사업과&nbsp;지역&nbsp;통합&nbsp;브랜드&nbsp;개발,&nbsp;전통시장&nbsp;현대화&nbsp;추진&nbsp;등<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;통합지원센터&nbsp;설립&nbsp;:&nbsp;마케팅·노무·세무&nbsp;전담팀&nbsp;상주&nbsp;및&nbsp;온라인&nbsp;판로&nbsp;개척&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;기장시장&nbsp;스마트화&nbsp;:&nbsp;시설&nbsp;현대화,&nbsp;디지털&nbsp;배송&nbsp;시스템&nbsp;도입&nbsp;및&nbsp;관광&nbsp;루트&nbsp;접목&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;브랜드&nbsp;인증제&nbsp;:&nbsp;기장&nbsp;청정&nbsp;이미지&nbsp;브랜드화&nbsp;및&nbsp;소상공인&nbsp;협동조합&nbsp;설립&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.07&nbsp;~&nbsp;2027.06&nbsp;:&nbsp;조례&nbsp;제정,&nbsp;센터&nbsp;공간&nbsp;확보&nbsp;및&nbsp;전문&nbsp;인력&nbsp;채용<br>&nbsp;&nbsp;○&nbsp;2027.07&nbsp;~&nbsp;2028.12&nbsp;:&nbsp;디지털&nbsp;전환&nbsp;교육&nbsp;정례화&nbsp;및&nbsp;시장&nbsp;현대화&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;2029.01&nbsp;~&nbsp;임기&nbsp;내&nbsp;:&nbsp;통합&nbsp;브랜드&nbsp;점포&nbsp;확대&nbsp;및&nbsp;대규모&nbsp;소비&nbsp;촉진&nbsp;이벤트<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;(예상&nbsp;소요&nbsp;예산:&nbsp;약&nbsp;120억원)<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;공모(약&nbsp;70억원):&nbsp;중소벤처기업부&nbsp;'상권&nbsp;활성화&nbsp;사업(최대&nbsp;60억)'&nbsp;및&nbsp;'디지털&nbsp;전통시장&nbsp;육성'&nbsp;공모&nbsp;사업비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;지방비&nbsp;및&nbsp;기금&nbsp;(약&nbsp;40억원):&nbsp;기장군&nbsp;'중소기업&nbsp;및&nbsp;소상공인&nbsp;육성기금'&nbsp;활용&nbsp;및&nbsp;일반회계&nbsp;예산&nbsp;편성<br>&nbsp;&nbsp;○&nbsp;금융권&nbsp;협약(약&nbsp;10억원):&nbsp;부산은행,&nbsp;부산신용보증재단&nbsp;등&nbsp;지역&nbsp;금융기관과&nbsp;협약&nbsp;체결,&nbsp;'기장&nbsp;소상공인&nbsp;전용&nbsp;저금리&nbsp;융자'&nbsp;이차보전&nbsp;재원&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	원스탑 창업지원센터 설립과 크리에이티브 플라자 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="원스탑 창업지원센터 설립과 크리에이티브 플라자 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;창업&nbsp;'기장&nbsp;드림’&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;골목&nbsp;창업에서부터&nbsp;IT&nbsp;기업&nbsp;창업에&nbsp;이르기까지&nbsp;노하우와&nbsp;금융&nbsp;등&nbsp;토탈&nbsp;지원으로&nbsp;청년&nbsp;창업&nbsp;성공&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;창의적인&nbsp;지역인재&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정관&nbsp;에듀파크&nbsp;공간을&nbsp;창의적인&nbsp;인재&nbsp;배출의&nbsp;요람으로&nbsp;활용&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;성공&nbsp;창업&nbsp;토탈솔루션&nbsp;제공&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;법무,&nbsp;세무&nbsp;컨설팅&nbsp;및&nbsp;기술/금융&nbsp;지원연계,&nbsp;시제품&nbsp;제작&nbsp;등&nbsp;밀착&nbsp;멘토링<br>&nbsp;&nbsp;○&nbsp;창의&nbsp;공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;에듀파크&nbsp;내&nbsp;1인&nbsp;스튜디오,&nbsp;창작실,&nbsp;공유&nbsp;오피스&nbsp;등&nbsp;청년&nbsp;친화&nbsp;공간&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;전용&nbsp;펀드&nbsp;조성&nbsp;:&nbsp;지자체와&nbsp;민간이&nbsp;매칭&nbsp;하는&nbsp;'기장&nbsp;청년&nbsp;드림&nbsp;펀드'&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.07&nbsp;~&nbsp;2027.06&nbsp;:&nbsp;공간&nbsp;확보,&nbsp;창업&nbsp;기획,&nbsp;멘토단&nbsp;및&nbsp;전문&nbsp;운영진&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;2027.07&nbsp;~&nbsp;2028.12&nbsp;:&nbsp;청년창업&nbsp;펀드&nbsp;조성(제1호)&nbsp;및&nbsp;스타트업&nbsp;발굴&nbsp;경진대회<br>&nbsp;&nbsp;○&nbsp;2029.01&nbsp;~&nbsp;임기&nbsp;내&nbsp;:&nbsp;정관-장안-일광&nbsp;창업&nbsp;벨트&nbsp;안착&nbsp;및&nbsp;성공&nbsp;사례&nbsp;도출<br><br>□&nbsp;재원조달방안(예상&nbsp;소요&nbsp;예산&nbsp;:&nbsp;약&nbsp;100억원)<br>&nbsp;&nbsp;○&nbsp;기금&nbsp;활용(약&nbsp;50억원)&nbsp;:&nbsp;지방소멸대응기금(청년&nbsp;정착&nbsp;분야)을&nbsp;창업&nbsp;펀드의&nbsp;종잣돈(Anchor&nbsp;Funding)으로&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;확보&nbsp;(약&nbsp;30억원)&nbsp;:&nbsp;고용노동부&nbsp;'청년&nbsp;도전&nbsp;지원사업'&nbsp;및&nbsp;중기부&nbsp;'지역&nbsp;창업&nbsp;허브'&nbsp;조성&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;지방비&nbsp;및&nbsp;민간(약&nbsp;20억원)&nbsp;:&nbsp;기장군&nbsp;'청년&nbsp;육성기금'&nbsp;전입금&nbsp;및&nbsp;벤처캐피털(VC)&nbsp;투자&nbsp;매칭&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	자립형 상호돌봄 마을 조성(시범사업)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="자립형 상호돌봄 마을 조성(시범사업)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;세대&nbsp;통합&nbsp;기장모델&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;일자리와&nbsp;경제적&nbsp;자립&nbsp;및&nbsp;아이&nbsp;돌봄을&nbsp;연결하여&nbsp;공동체&nbsp;활력&nbsp;회복<br>&nbsp;&nbsp;○&nbsp;선순환&nbsp;경제&nbsp;모델&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기장의&nbsp;청정&nbsp;먹거리와&nbsp;어르신&nbsp;일자리&nbsp;및&nbsp;돌봄&nbsp;수요를&nbsp;결합한&nbsp;자립형&nbsp;복지&nbsp;시스템&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;상호돌봄&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;재배&nbsp;청정농산물&nbsp;각급학교&nbsp;급식&nbsp;및&nbsp;공공기관&nbsp;공급,&nbsp;지역에서&nbsp;'아이돌보미'&nbsp;사업에도&nbsp;참여<br>&nbsp;&nbsp;○&nbsp;시범&nbsp;마을&nbsp;지정&nbsp;및&nbsp;MOU&nbsp;체결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;철마면과&nbsp;장안읍&nbsp;등&nbsp;농업기반이&nbsp;큰&nbsp;지역&nbsp;중심&nbsp;시범&nbsp;마을&nbsp;지정,&nbsp;MOU&nbsp;체결<br>&nbsp;&nbsp;○&nbsp;유통망&nbsp;확대:&nbsp;공공기관&nbsp;급식&nbsp;및&nbsp;로컬푸드&nbsp;직매장과&nbsp;연계한&nbsp;판로&nbsp;확보<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.07&nbsp;~&nbsp;2027.06&nbsp;:&nbsp;시범&nbsp;마을&nbsp;주민&nbsp;협의체&nbsp;구성,&nbsp;MOU&nbsp;체결,&nbsp;전문&nbsp;교육&nbsp;과정&nbsp;개설&nbsp;및&nbsp;센터&nbsp;설계<br>&nbsp;&nbsp;○&nbsp;2027.07&nbsp;~&nbsp;2028.12&nbsp;:&nbsp;돌봄센터&nbsp;건립&nbsp;완료&nbsp;및&nbsp;먹거리&nbsp;납품/돌봄&nbsp;서비스&nbsp;시범&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;2029.01&nbsp;~&nbsp;임기&nbsp;내&nbsp;:&nbsp;성공&nbsp;모델을&nbsp;기장&nbsp;전역(농촌형)으로&nbsp;단계적&nbsp;확대<br><br>□&nbsp;재원조달방안(예상&nbsp;소요&nbsp;예산:&nbsp;약&nbsp;80억원)<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;보조금(약&nbsp;40억원)&nbsp;:&nbsp;보건복지부&nbsp;'지역사회&nbsp;통합돌봄(커뮤니티&nbsp;케어)’시범&nbsp;사업비&nbsp;및&nbsp;농림부&nbsp;'농촌&nbsp;협약'&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;일자리&nbsp;예산&nbsp;연계(약&nbsp;20억원)&nbsp;:&nbsp;정부의&nbsp;'공공형&nbsp;노인&nbsp;일자리&nbsp;및&nbsp;사회활동&nbsp;지원'&nbsp;인건비를&nbsp;본&nbsp;사업으로&nbsp;우선&nbsp;배정<br>&nbsp;&nbsp;○&nbsp;지방비&nbsp;및&nbsp;수익(약&nbsp;20억원)&nbsp;:&nbsp;군&nbsp;사회복지&nbsp;예산&nbsp;편성&nbsp;및&nbsp;로컬푸드&nbsp;직매장&nbsp;운영&nbsp;수익금&nbsp;재투입</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김문근 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	미래 신도시 못골 개발 및 구) KBS중계소 부지 개발</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="미래 신도시 못골 개발 및 구) KBS중계소 부지 개발">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;못골개발&nbsp;:&nbsp;신도시&nbsp;개발로&nbsp;미래세대&nbsp;골든타운&nbsp;조성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;1985년&nbsp;신단양&nbsp;이주&nbsp;후&nbsp;대단위&nbsp;신도시&nbsp;건설이&nbsp;전무한&nbsp;상황에서&nbsp;단양읍&nbsp;못골지역에&nbsp;약&nbsp;15만평&nbsp;규모의&nbsp;신도시를&nbsp;조성한다.&nbsp;이를&nbsp;통해&nbsp;&nbsp;신단양&nbsp;4단지&nbsp;개념의&nbsp;새로운&nbsp;주거·관광·상업지구인“단양의&nbsp;강남”으로&nbsp;발전시킨다.&nbsp;<br><br>&nbsp;○&nbsp;구)&nbsp;KBS중계소&nbsp;부지&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;소노벨&nbsp;리조트&nbsp;인근&nbsp;약&nbsp;4천&nbsp;평&nbsp;규모&nbsp;군유지를&nbsp;대상으로,&nbsp;근린공원&nbsp;용도를&nbsp;해제해&nbsp;상업·주거&nbsp;기능을&nbsp;도입하는&nbsp;사업으로&nbsp;상업시설과&nbsp;주거지를&nbsp;입체적으로&nbsp;배치하고&nbsp;주변&nbsp;산허리&nbsp;도로를&nbsp;연결해&nbsp;단양읍의&nbsp;공간&nbsp;연계성과&nbsp;차량&nbsp;흐름을&nbsp;개선한다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;정주&nbsp;여건과&nbsp;관광&nbsp;경쟁력&nbsp;강화를&nbsp;동시에&nbsp;견인<br>&nbsp;&nbsp;○&nbsp;상진&nbsp;공업단지&nbsp;이전&nbsp;및&nbsp;신단양&nbsp;4단지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;단순한&nbsp;택지&nbsp;조성을&nbsp;넘어&nbsp;단양의&nbsp;미래를&nbsp;재설계<br>&nbsp;&nbsp;○&nbsp;청년층을&nbsp;포함한&nbsp;군민&nbsp;의견을&nbsp;폭넓게&nbsp;수렴<br>&nbsp;&nbsp;○&nbsp;관광·주상&nbsp;복합단지&nbsp;조성을&nbsp;통한&nbsp;랜드마크&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2026년부터(임기&nbsp;중&nbsp;추진)&nbsp;<br><br>□&nbsp;재원조달<br>&nbsp;&nbsp;○&nbsp;소요예산&nbsp;:&nbsp;국비,&nbsp;도비,&nbsp;군비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	단양읍내 주차난 해소</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="단양읍내 주차난 해소">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;단양읍내&nbsp;주차난&nbsp;문제는&nbsp;"일상적인&nbsp;주차&nbsp;불편을&nbsp;넘어&nbsp;도시&nbsp;기능을&nbsp;저해하는&nbsp;수준”으로&nbsp;단순&nbsp;주차&nbsp;시설&nbsp;확대를&nbsp;넘어&nbsp;지역&nbsp;교통&nbsp;구조&nbsp;전반의&nbsp;개선을&nbsp;목표로&nbsp;추진한다.&nbsp;<br>&nbsp;<br>&nbsp;○&nbsp;별곡,&nbsp;단양시장,&nbsp;수변로,&nbsp;중앙공원,&nbsp;상진초&nbsp;등에&nbsp;총&nbsp;800면&nbsp;이상의&nbsp;신규&nbsp;주차&nbsp;공간&nbsp;확보는&nbsp;"군민의&nbsp;일상&nbsp;편의뿐&nbsp;아니라&nbsp;지역&nbsp;경제&nbsp;활성화를&nbsp;좌우하는&nbsp;핵심&nbsp;과제”이다.&nbsp;<br><br>&nbsp;□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대형&nbsp;주차타워&nbsp;5개소&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;별곡주차장&nbsp;:&nbsp;군청마당,&nbsp;113면,&nbsp;2025년&nbsp;10월&nbsp;준공<br>&nbsp;&nbsp;○&nbsp;단양시장주차타워&nbsp;:&nbsp;나루공연장,&nbsp;150면,&nbsp;2028년&nbsp;완공&nbsp;예정&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;수변로&nbsp;공영주차장&nbsp;:&nbsp;수변로,&nbsp;142면,&nbsp;2026년&nbsp;12월&nbsp;완공&nbsp;예정<br>&nbsp;&nbsp;○&nbsp;중앙공원주차장&nbsp;:&nbsp;중앙공원,&nbsp;122면,&nbsp;2027년&nbsp;완공&nbsp;예정<br>&nbsp;&nbsp;○&nbsp;상진초&nbsp;복합시설&nbsp;:&nbsp;상진초등학교,&nbsp;131면,&nbsp;2029년&nbsp;완공&nbsp;예정&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;주차관리&nbsp;운영&nbsp;:&nbsp;단양군&nbsp;교통관제실&nbsp;(주차관리&nbsp;전담팀&nbsp;운영)&nbsp;<br><br>&nbsp;□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2026년부터(&nbsp;임기&nbsp;중&nbsp;추진&nbsp;)&nbsp;<br>&nbsp;<br>&nbsp;□&nbsp;재원조달&nbsp;<br>&nbsp;&nbsp;○&nbsp;소요예산&nbsp;:&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	노인복지 3대 사업 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="노인복지 3대 사업 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;○&nbsp;경로당&nbsp;현대화&nbsp;5개년&nbsp;사업을&nbsp;통해&nbsp;2029년까지&nbsp;노후&nbsp;경로당을&nbsp;대상으로&nbsp;신축&nbsp;또는&nbsp;리모델링을&nbsp;진행하여&nbsp;생활&nbsp;중심&nbsp;공간으로&nbsp;재정비하고&nbsp;내부&nbsp;설비와&nbsp;물품을&nbsp;확충해&nbsp;나간다.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;관내&nbsp;경로당에&nbsp;구축된&nbsp;스마트&nbsp;경로당&nbsp;시스템을&nbsp;중심으로&nbsp;건강관리와&nbsp;여가·문화&nbsp;프로그램을&nbsp;제공해&nbsp;노인들의&nbsp;신체·정서적&nbsp;활력을&nbsp;동시에&nbsp;높여&nbsp;나간다.<br>&nbsp;<br>&nbsp;○&nbsp;주민들의&nbsp;생활&nbsp;불편&nbsp;처리를&nbsp;위해&nbsp;2024년&nbsp;7월부터&nbsp;전기·수도&nbsp;등&nbsp;소규모&nbsp;수리와&nbsp;교체를&nbsp;무료로&nbsp;지원해오는&nbsp;사업으로&nbsp;향후&nbsp;복지차원의&nbsp;실질적인&nbsp;지원을&nbsp;대폭&nbsp;확대한다.<br>&nbsp;○&nbsp;시내버스&nbsp;무료&nbsp;승차제를&nbsp;2027년부터&nbsp;제천&nbsp;등&nbsp;인접&nbsp;지역까지&nbsp;연계&nbsp;확대하고&nbsp;장애인,&nbsp;학생&nbsp;등&nbsp;취약계층에게도&nbsp;혜택을&nbsp;부여한다.<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;경로당&nbsp;현대화&nbsp;5개년&nbsp;계획&nbsp;수립&nbsp;및&nbsp;실행<br>&nbsp;&nbsp;○&nbsp;생활불편처리반&nbsp;확대&nbsp;실시&nbsp;및&nbsp;만족도&nbsp;제고&nbsp;<br>&nbsp;&nbsp;○&nbsp;시내버스&nbsp;무료&nbsp;승차&nbsp;제천으로&nbsp;확대&nbsp;실시&nbsp;&nbsp;&nbsp;<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2026년부터(&nbsp;임기&nbsp;중&nbsp;추진&nbsp;)&nbsp;<br>&nbsp;<br>&nbsp;□&nbsp;재원조달&nbsp;<br>&nbsp;&nbsp;○&nbsp;소요예산&nbsp;:&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	단양읍 공공용지 미래공간으로 재창조 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="단양읍 공공용지 미래공간으로 재창조 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;단양읍의&nbsp;노후화된&nbsp;공공시설을&nbsp;재편해&nbsp;단계적으로&nbsp;재배치·고도화하는&nbsp;미래세대를&nbsp;위한&nbsp;공간혁신&nbsp;사업을&nbsp;추진한다.<br>○&nbsp;“효율적인&nbsp;공간구성은&nbsp;곧&nbsp;도시의&nbsp;미래&nbsp;경쟁력”이며&nbsp;“단양읍&nbsp;공공용지&nbsp;재구성은&nbsp;단순한&nbsp;개발을&nbsp;넘어&nbsp;단양&nbsp;군민의&nbsp;일상과&nbsp;도시의&nbsp;품격을&nbsp;함께&nbsp;끌어올리는&nbsp;장기적인&nbsp;프로젝트이다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;1단계(임기내)&nbsp;:&nbsp;농업기술센터,&nbsp;노인복지관,&nbsp;CCTV관제센터<br>&nbsp;&nbsp;○&nbsp;2단계(기반구축)&nbsp;:&nbsp;군청,&nbsp;문화예술회관,&nbsp;지적공사,&nbsp;우체국&nbsp;등<br>&nbsp;&nbsp;○&nbsp;고층&nbsp;복합화와&nbsp;여유부지&nbsp;확보를&nbsp;통한&nbsp;주차&nbsp;기능과&nbsp;생활&nbsp;편의시설을&nbsp;확충하고&nbsp;문화·복지&nbsp;기능을&nbsp;집약한&nbsp;복합&nbsp;공공공간으로&nbsp;변경<br>&nbsp;&nbsp;○&nbsp;저층&nbsp;위주의&nbsp;분산형&nbsp;구조를&nbsp;집약·입체형&nbsp;공간으로&nbsp;전환<br><br>&nbsp;□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2026년부터(&nbsp;임기&nbsp;중&nbsp;추진&nbsp;)&nbsp;<br>&nbsp;<br>&nbsp;□&nbsp;재원조달&nbsp;<br>&nbsp;&nbsp;○&nbsp;소요예산&nbsp;:&nbsp;국비,&nbsp;도비,&nbsp;군비,&nbsp;기타</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	단양, 매포 민영아파트 유치 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="단양, 매포 민영아파트 유치 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;○&nbsp;기업&nbsp;근로자의&nbsp;외지&nbsp;통근&nbsp;문제를&nbsp;해소하고&nbsp;인구&nbsp;유입을&nbsp;유도함과&nbsp;동시에&nbsp;지역의&nbsp;주거&nbsp;환경을&nbsp;개선하여&nbsp;정주&nbsp;기반을&nbsp;확충한다.<br>&nbsp;○&nbsp;분양&nbsp;리스크를&nbsp;줄이기&nbsp;위한&nbsp;사전&nbsp;수요&nbsp;조사에서는&nbsp;관내&nbsp;주민과&nbsp;기업체&nbsp;등을&nbsp;중심으로&nbsp;150세대가&nbsp;넘는&nbsp;입주&nbsp;희망&nbsp;수요를&nbsp;파악했으며,&nbsp;주거&nbsp;문제&nbsp;해결은&nbsp;인구&nbsp;유입과&nbsp;지역경제&nbsp;활성화를&nbsp;위한&nbsp;필수&nbsp;조건이다.<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;단양과&nbsp;매포&nbsp;지역에&nbsp;민영아파트를&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;토지&nbsp;확보와&nbsp;함께&nbsp;LH&nbsp;및&nbsp;민간사업자와&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;전담&nbsp;조직&nbsp;구성,&nbsp;주민설명회를&nbsp;통해&nbsp;지역&nbsp;의견&nbsp;수렴&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;분양&nbsp;리스크를&nbsp;줄이기&nbsp;위한&nbsp;사전&nbsp;수요&nbsp;조사&nbsp;실시&nbsp;및&nbsp;관내&nbsp;주민과&nbsp;기업체&nbsp;등&nbsp;150세대가&nbsp;넘는&nbsp;입주&nbsp;수요&nbsp;파악<br>&nbsp;&nbsp;○&nbsp;아파트&nbsp;건립&nbsp;타당성과&nbsp;기본계획&nbsp;수립을&nbsp;위한&nbsp;용역&nbsp;진행&nbsp;&nbsp;<br><br>&nbsp;□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2026년부터(&nbsp;임기&nbsp;중&nbsp;추진&nbsp;)&nbsp;<br>&nbsp;<br>&nbsp;□&nbsp;재원조달&nbsp;<br>&nbsp;&nbsp;○&nbsp;소요예산&nbsp;:&nbsp;민자,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

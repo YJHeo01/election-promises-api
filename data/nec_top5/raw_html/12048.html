@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박정임 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	과학기술도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="과학기술도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전통&nbsp;제조업의&nbsp;디지털&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창원의&nbsp;뿌리&nbsp;산업인&nbsp;전통&nbsp;제조업에&nbsp;'피지컬&nbsp;AI(Physical&nbsp;AI)'&nbsp;기술을&nbsp;접목하여&nbsp;생산성을&nbsp;극대화합니다.<br>&nbsp;&nbsp;○&nbsp;미래형&nbsp;산업&nbsp;구조&nbsp;재편<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단순&nbsp;제조&nbsp;중심에서&nbsp;벗어나&nbsp;인공지능과&nbsp;로봇&nbsp;기술이&nbsp;융합된&nbsp;첨단&nbsp;과학기술&nbsp;도시로&nbsp;창원의&nbsp;위상을&nbsp;재정립합니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;피지컬&nbsp;AI&nbsp;통합&nbsp;관제&nbsp;센터&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제조&nbsp;현장의&nbsp;물리적&nbsp;장비와&nbsp;AI를&nbsp;실시간으로&nbsp;연결하는&nbsp;기술&nbsp;지원&nbsp;센터를&nbsp;설립합니다.<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;팩토리&nbsp;고도화&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관내&nbsp;중소·중견&nbsp;기업의&nbsp;공정&nbsp;자동화를&nbsp;위한&nbsp;AI&nbsp;솔루션&nbsp;도입&nbsp;비용&nbsp;및&nbsp;컨설팅을&nbsp;지원합니다.<br>&nbsp;&nbsp;○&nbsp;R&D&nbsp;전문&nbsp;인력&nbsp;양성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;대학&nbsp;및&nbsp;연구소와&nbsp;연계하여&nbsp;AI&nbsp;제조&nbsp;전문가&nbsp;양성&nbsp;프로그램을&nbsp;운영하고&nbsp;일자리를&nbsp;창출합니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진&nbsp;(2026년&nbsp;~&nbsp;2030년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1년차&nbsp;:&nbsp;피지컬&nbsp;AI&nbsp;전환을&nbsp;위한&nbsp;조례&nbsp;제정&nbsp;및&nbsp;기반&nbsp;시설&nbsp;설계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2~3년차&nbsp;:&nbsp;시범&nbsp;사업&nbsp;대상&nbsp;기업&nbsp;선정&nbsp;및&nbsp;AI&nbsp;솔루션&nbsp;적용&nbsp;시작<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4년차&nbsp;:&nbsp;성과&nbsp;분석&nbsp;및&nbsp;창원&nbsp;전역&nbsp;제조&nbsp;단지로&nbsp;모델&nbsp;확산<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;도비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부의&nbsp;'디지털&nbsp;뉴딜'&nbsp;및&nbsp;첨단&nbsp;제조&nbsp;관련&nbsp;공모&nbsp;사업&nbsp;참여를&nbsp;통해&nbsp;예산을&nbsp;확보합니다.<br>&nbsp;&nbsp;○&nbsp;시&nbsp;예산&nbsp;편성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창원특례시&nbsp;전략&nbsp;산업&nbsp;육성&nbsp;기금을&nbsp;우선&nbsp;배정합니다.<br>&nbsp;&nbsp;○&nbsp;민관&nbsp;합작&nbsp;투자(PPP)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;IT&nbsp;기업과의&nbsp;기술&nbsp;협력&nbsp;및&nbsp;투자를&nbsp;유치하여&nbsp;재원&nbsp;부담을&nbsp;분산하고&nbsp;기술&nbsp;전문성을&nbsp;확보합니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	공학명문도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="공학명문도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;미래&nbsp;공학&nbsp;인재&nbsp;양성&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창원판&nbsp;KAIST&nbsp;유치를&nbsp;통해&nbsp;대한민국&nbsp;최고의&nbsp;공학&nbsp;교육&nbsp;메카로&nbsp;도약합니다.<br>&nbsp;&nbsp;○&nbsp;연구<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업&nbsp;생태계&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;강소연구단지를&nbsp;첨단&nbsp;제조산업&nbsp;중심으로&nbsp;개편하여&nbsp;연구&nbsp;성과가&nbsp;즉각&nbsp;산업&nbsp;현장에&nbsp;적용되는&nbsp;선순환&nbsp;구조를&nbsp;구축합니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;창원판&nbsp;KAIST'&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;과학기술정보통신부&nbsp;및&nbsp;교육부와&nbsp;협력하여&nbsp;창원&nbsp;특화형&nbsp;과학기술원&nbsp;설립&nbsp;또는&nbsp;분원&nbsp;유치를&nbsp;추진합니다.<br>&nbsp;&nbsp;○&nbsp;강소연구단지&nbsp;고도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지능형&nbsp;로봇,&nbsp;차세대&nbsp;에너지&nbsp;등&nbsp;첨단&nbsp;제조&nbsp;분야로&nbsp;연구&nbsp;테마를&nbsp;확장하고,&nbsp;관련&nbsp;유망&nbsp;스타트업&nbsp;유치를&nbsp;위한&nbsp;인센티브를&nbsp;강화합니다.<br>&nbsp;&nbsp;○&nbsp;산학연&nbsp;클러스터&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;내&nbsp;공과대학과&nbsp;기업&nbsp;간의&nbsp;공동&nbsp;연구&nbsp;프로젝트&nbsp;지원을&nbsp;확대하여&nbsp;실무형&nbsp;공학&nbsp;인재를&nbsp;배출합니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1년차&nbsp;:&nbsp;과학기술원&nbsp;유치&nbsp;타당성&nbsp;검토&nbsp;및&nbsp;강소연구단지&nbsp;개편&nbsp;로드맵&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2~3년차&nbsp;:&nbsp;중앙&nbsp;부처&nbsp;협의&nbsp;및&nbsp;관련&nbsp;부지&nbsp;확보,&nbsp;첨단&nbsp;제조&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4년차&nbsp;:&nbsp;교육&nbsp;기관&nbsp;설립&nbsp;가시화&nbsp;및&nbsp;첨단&nbsp;제조&nbsp;산업&nbsp;생태계&nbsp;조성&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;예산&nbsp;및&nbsp;국책&nbsp;사업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특례시&nbsp;지위를&nbsp;활용하여&nbsp;교육&nbsp;및&nbsp;과학기술&nbsp;관련&nbsp;대규모&nbsp;국비&nbsp;지원을&nbsp;요청합니다.<br>&nbsp;&nbsp;○&nbsp;지방비&nbsp;및&nbsp;교육청&nbsp;협력<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시&nbsp;예산과&nbsp;경상남도&nbsp;교육청과의&nbsp;협력&nbsp;기금을&nbsp;조성하여&nbsp;인프라&nbsp;구축에&nbsp;투자합니다.<br>&nbsp;&nbsp;○&nbsp;기업&nbsp;매칭&nbsp;펀드<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창원&nbsp;국가산단&nbsp;내&nbsp;대기업들의&nbsp;기여금과&nbsp;공동&nbsp;투자&nbsp;펀드를&nbsp;조성하여&nbsp;연구&nbsp;인프라를&nbsp;확충합니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	문화스포츠도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="문화스포츠도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;관광&nbsp;랜드마크&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창원&nbsp;출신&nbsp;및&nbsp;관련&nbsp;스타들을&nbsp;기념하는&nbsp;공간을&nbsp;조성하여&nbsp;팬덤&nbsp;경제를&nbsp;활성화하고&nbsp;관광객을&nbsp;유치합니다.<br>&nbsp;&nbsp;○&nbsp;도시&nbsp;정체성&nbsp;확립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창원의&nbsp;고유한&nbsp;역사를&nbsp;복원하고&nbsp;문화&nbsp;자산화하여&nbsp;시민의&nbsp;자부심을&nbsp;높이고&nbsp;역사&nbsp;교육의&nbsp;장으로&nbsp;활용합니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;스타기념공원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창원을&nbsp;빛낸&nbsp;예술인,&nbsp;스포츠&nbsp;스타,&nbsp;연예인들의&nbsp;기념관&nbsp;및&nbsp;조형물을&nbsp;설치하고,&nbsp;팬들과&nbsp;소통할&nbsp;수&nbsp;있는&nbsp;상설&nbsp;공연/전시&nbsp;인프라를&nbsp;구축합니다.<br>&nbsp;&nbsp;○&nbsp;역사복원사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;내&nbsp;주요&nbsp;역사적&nbsp;유적지와&nbsp;상징적&nbsp;장소를&nbsp;복원&nbsp;및&nbsp;정비하여&nbsp;'스토리가&nbsp;있는&nbsp;역사&nbsp;탐방로'를&nbsp;개발합니다.<br>&nbsp;&nbsp;○&nbsp;스포츠<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화&nbsp;융합&nbsp;콘텐츠&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창원&nbsp;연고&nbsp;프로팀들과&nbsp;연계한&nbsp;스포츠&nbsp;테마&nbsp;관광&nbsp;상품을&nbsp;활성화하고,&nbsp;시민들을&nbsp;위한&nbsp;생활&nbsp;체육&nbsp;및&nbsp;문화&nbsp;향유&nbsp;기회를&nbsp;대폭&nbsp;확대합니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1년차&nbsp;:&nbsp;스타기념공원&nbsp;부지&nbsp;선정&nbsp;및&nbsp;역사복원&nbsp;대상지&nbsp;정밀&nbsp;조사/연구&nbsp;용역&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2~3년차&nbsp;:&nbsp;기념공원&nbsp;착공&nbsp;및&nbsp;주요&nbsp;역사&nbsp;유적지&nbsp;복원&nbsp;공사&nbsp;진행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4년차&nbsp;:&nbsp;문화스포츠&nbsp;복합&nbsp;테마파크&nbsp;완공&nbsp;및&nbsp;관광&nbsp;브랜드화&nbsp;홍보&nbsp;강화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;문화체육관광부&nbsp;국비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시재생&nbsp;뉴딜'&nbsp;및&nbsp;'관광거점도시'&nbsp;관련&nbsp;공모&nbsp;사업을&nbsp;통해&nbsp;재원을&nbsp;확보합니다.<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;자본&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스타기념공원&nbsp;내&nbsp;상업&nbsp;시설&nbsp;및&nbsp;테마파크&nbsp;운영에&nbsp;민간&nbsp;투자를&nbsp;유치하여&nbsp;예산&nbsp;효율성을&nbsp;높입니다.<br>&nbsp;&nbsp;○&nbsp;시비&nbsp;및&nbsp;기금&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창원시&nbsp;문화예술진흥기금을&nbsp;집중&nbsp;투입하고&nbsp;관련&nbsp;조례&nbsp;개정을&nbsp;통해&nbsp;안정적인&nbsp;예산&nbsp;지원&nbsp;근거를&nbsp;마련합니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	여성이 숨쉬는 도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="여성이 숨쉬는 도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;여성&nbsp;안전망&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여성이&nbsp;밤낮으로&nbsp;안심하고&nbsp;생활할&nbsp;수&nbsp;있는&nbsp;도시&nbsp;환경을&nbsp;조성하여&nbsp;체감&nbsp;안전도를&nbsp;획기적으로&nbsp;높입니다.<br>&nbsp;&nbsp;○&nbsp;여성&nbsp;친화적&nbsp;도시&nbsp;설계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여성의&nbsp;삶의&nbsp;질을&nbsp;높이는&nbsp;세심한&nbsp;정책을&nbsp;통해&nbsp;일과&nbsp;삶이&nbsp;조화로운&nbsp;'여성&nbsp;행복&nbsp;도시'를&nbsp;구현합니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;여성안심골목'&nbsp;집중&nbsp;지정&nbsp;및&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;범죄&nbsp;취약&nbsp;지역을&nbsp;중심으로&nbsp;CPTED(범죄예방환경설계)를&nbsp;적용한&nbsp;안심&nbsp;골목을&nbsp;확대하고,&nbsp;조명&nbsp;교체,&nbsp;비상벨&nbsp;설치,&nbsp;로고젝트&nbsp;등을&nbsp;보강합니다.<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;안심&nbsp;귀가&nbsp;서비스&nbsp;고도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지능형&nbsp;CCTV와&nbsp;연계한&nbsp;스마트폰&nbsp;앱&nbsp;서비스를&nbsp;강화하여&nbsp;위급&nbsp;상황&nbsp;시&nbsp;즉각적인&nbsp;경찰&nbsp;출동&nbsp;체계를&nbsp;구축합니다.<br>&nbsp;&nbsp;○&nbsp;여성&nbsp;커뮤니티&nbsp;공간&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경력단절&nbsp;여성의&nbsp;재취업&nbsp;지원,&nbsp;육아&nbsp;소통,&nbsp;문화&nbsp;활동이&nbsp;가능한&nbsp;거점별&nbsp;여성&nbsp;전용&nbsp;복합&nbsp;공간을&nbsp;조성합니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;상시&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1년차&nbsp;:&nbsp;관내&nbsp;범죄&nbsp;취약&nbsp;지역&nbsp;전수&nbsp;조사&nbsp;및&nbsp;여성안심골목&nbsp;시범&nbsp;지구&nbsp;선정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2~3년차&nbsp;:&nbsp;안심골목&nbsp;인프라&nbsp;확충&nbsp;및&nbsp;스마트&nbsp;안전&nbsp;시스템&nbsp;구축&nbsp;완료<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4년차&nbsp;:&nbsp;여성&nbsp;친화&nbsp;도시&nbsp;인증&nbsp;추진&nbsp;및&nbsp;성과&nbsp;환류를&nbsp;통한&nbsp;고도화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;중앙정부&nbsp;지원금<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여성가족부의&nbsp;'여성친화도시'&nbsp;관련&nbsp;예산&nbsp;및&nbsp;행정안전부의&nbsp;재난안전관리&nbsp;특별&nbsp;교부세를&nbsp;확보합니다.<br>&nbsp;&nbsp;○&nbsp;지방비&nbsp;우선&nbsp;편성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창원시&nbsp;일반&nbsp;회계&nbsp;예산&nbsp;중&nbsp;사회복지&nbsp;및&nbsp;안전&nbsp;분야&nbsp;예산을&nbsp;우선적으로&nbsp;배정합니다.<br>&nbsp;&nbsp;○&nbsp;사회적&nbsp;기업&nbsp;및&nbsp;지역&nbsp;공헌&nbsp;협력<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;내&nbsp;보안&nbsp;업체&nbsp;및&nbsp;IT&nbsp;기업과의&nbsp;사회공헌&nbsp;사업(CSR)&nbsp;연계를&nbsp;통해&nbsp;스마트&nbsp;안전&nbsp;장비&nbsp;설치&nbsp;및&nbsp;유지보수&nbsp;비용을&nbsp;절감합니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	어르신 행복도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="어르신 행복도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;선진형&nbsp;노후&nbsp;주거&nbsp;모델&nbsp;정립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고령화&nbsp;시대에&nbsp;발맞추어&nbsp;주거와&nbsp;의료,&nbsp;돌봄이&nbsp;결합된&nbsp;새로운&nbsp;형태의&nbsp;실버타운&nbsp;모델을&nbsp;제시하고&nbsp;선도합니다.<br>&nbsp;&nbsp;○&nbsp;활기찬&nbsp;노후&nbsp;생활&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신들의&nbsp;건강&nbsp;증진과&nbsp;여가&nbsp;활동을&nbsp;위해&nbsp;파크골프<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;신요양모델&nbsp;실버타운&nbsp;개발&nbsp;및&nbsp;시범지구&nbsp;지정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료&nbsp;서비스가&nbsp;연계된&nbsp;시니어&nbsp;맞춤형&nbsp;주거&nbsp;단지를&nbsp;조성하고,&nbsp;이를&nbsp;창원의&nbsp;대표적인&nbsp;노인&nbsp;복지&nbsp;모델로&nbsp;육성합니다.<br>&nbsp;&nbsp;○&nbsp;파크골프장&nbsp;확충&nbsp;및&nbsp;시설&nbsp;대폭&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신들의&nbsp;선호도가&nbsp;높은&nbsp;파크골프장을&nbsp;권역별로&nbsp;추가&nbsp;신설하고,&nbsp;기존&nbsp;시설의&nbsp;편의시설(그늘집,&nbsp;휴게공간&nbsp;등)을&nbsp;현대화합니다.<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;맞춤형&nbsp;건강&nbsp;관리&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;실버타운&nbsp;및&nbsp;지역&nbsp;커뮤니티&nbsp;센터를&nbsp;중심으로&nbsp;IT&nbsp;기술을&nbsp;활용한&nbsp;스마트&nbsp;헬스케어&nbsp;서비스를&nbsp;보급합니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1년차&nbsp;:&nbsp;실버타운&nbsp;시범지구&nbsp;입지&nbsp;선정&nbsp;및&nbsp;파크골프장&nbsp;확충&nbsp;부지&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2~3년차&nbsp;:&nbsp;실버타운&nbsp;착공&nbsp;및&nbsp;파크골프장&nbsp;신설·보수&nbsp;공사&nbsp;집중&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4년차&nbsp;:&nbsp;신요양모델&nbsp;실버타운&nbsp;입주시작&nbsp;및&nbsp;전&nbsp;권역&nbsp;생활체육&nbsp;인프라&nbsp;구축&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민관&nbsp;협력&nbsp;개발(PPP)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;실버타운&nbsp;조성&nbsp;시&nbsp;민간&nbsp;자본을&nbsp;유치하여&nbsp;시&nbsp;예산&nbsp;부담을&nbsp;줄이고&nbsp;운영의&nbsp;효율성을&nbsp;높입니다.<br>&nbsp;&nbsp;○&nbsp;보건복지부&nbsp;및&nbsp;국토교통부&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고령자&nbsp;복지주택&nbsp;및&nbsp;지역&nbsp;밀착형&nbsp;생활&nbsp;SOC&nbsp;확충&nbsp;관련&nbsp;공모&nbsp;사업을&nbsp;통해&nbsp;예산을&nbsp;지원받습니다.<br>&nbsp;&nbsp;○&nbsp;특별교부세&nbsp;및&nbsp;시비&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;여가&nbsp;시설&nbsp;개선을&nbsp;위해&nbsp;행정안전부&nbsp;특별교부세를&nbsp;신청하고&nbsp;창원시&nbsp;노인복지기금을&nbsp;적극&nbsp;활용합니다.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;황인홍 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	‘대한민국 기본사회 1번지’ 무주 실현 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="‘대한민국 기본사회 1번지’ 무주 실현 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;소득,&nbsp;주거,&nbsp;이동권&nbsp;등&nbsp;인간다운&nbsp;삶을&nbsp;영위하기&nbsp;위한&nbsp;핵심&nbsp;권리를&nbsp;지방정부가&nbsp;책임지고&nbsp;보장하는&nbsp;‘무주형&nbsp;기본사회’를&nbsp;구현하여,&nbsp;전국에서&nbsp;가장&nbsp;앞서가는&nbsp;보편적인&nbsp;복지&nbsp;모델을&nbsp;확립하고&nbsp;군민&nbsp;모두가&nbsp;경제적&nbsp;안정과&nbsp;행복을&nbsp;누리는&nbsp;복지&nbsp;공동체를&nbsp;완성함<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;무주형&nbsp;기본소득의&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;햇빛소득마을&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;이동권이&nbsp;기본이&nbsp;되는&nbsp;무주!&nbsp;군민도&nbsp;관광객도&nbsp;당당하게&nbsp;0원&nbsp;버스&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;‘고장난&nbsp;전기.보일러,&nbsp;무주군이&nbsp;책임집니다.’&nbsp;65세&nbsp;이상&nbsp;가구&nbsp;‘주거&nbsp;응급&nbsp;119’로&nbsp;주거&nbsp;기본권&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;우리&nbsp;아이자립펀드&nbsp;단계적&nbsp;도입으로&nbsp;자산&nbsp;형성&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;체계적인&nbsp;사업&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	현대로템의 조기 안착과 첨단 우주항공산업 생태계 구축 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="현대로템의 조기 안착과 첨단 우주항공산업 생태계 구축 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;대기업&nbsp;현대로템의&nbsp;성공적인&nbsp;안착을&nbsp;기반으로&nbsp;우주항공&nbsp;투자선도지구&nbsp;지정&nbsp;및&nbsp;민간산업단지&nbsp;조성을&nbsp;병행하여,&nbsp;농업과&nbsp;관광&nbsp;중심의&nbsp;무주의&nbsp;산업&nbsp;구조를&nbsp;첨단&nbsp;미래&nbsp;산업으로&nbsp;확장하고&nbsp;우주항공&nbsp;생태계를&nbsp;구축하여&nbsp;미래&nbsp;무주의&nbsp;100년&nbsp;먹거리&nbsp;완성함<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;우주항공&nbsp;투자선도지구&nbsp;지정<br>&nbsp;&nbsp;○&nbsp;우주항공&nbsp;민간산업단지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;우주항공&nbsp;관련&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;우주항공&nbsp;특성화&nbsp;학교&nbsp;유치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;체계적인&nbsp;사업&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민자,&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	세계 태권도의 중심지 무주 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="세계 태권도의 중심지 무주 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;무주가&nbsp;가진&nbsp;세계&nbsp;유일의&nbsp;태권도&nbsp;성지라는&nbsp;상징적&nbsp;가치를&nbsp;넘어,&nbsp;글로벌&nbsp;인재&nbsp;양성과&nbsp;국제적&nbsp;네트워크를&nbsp;총결집한&nbsp;‘글로벌&nbsp;태권도&nbsp;시티’를&nbsp;완성함으로써&nbsp;무주를&nbsp;전&nbsp;세계&nbsp;태권도인의&nbsp;교육·문화·산업&nbsp;거점으로&nbsp;대도약&nbsp;시킴<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;태권도&nbsp;인재양성센터&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;국제태권도고등학교의&nbsp;안착&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;태권도&nbsp;관련&nbsp;기관&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;국제대회&nbsp;유치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;체계적인&nbsp;사업&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민자,&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	걱정 없는 농업, 돈 되는 무주농업 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="걱정 없는 농업, 돈 되는 무주농업 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;기후&nbsp;위기와&nbsp;고령화,&nbsp;인력&nbsp;부족이라는&nbsp;농촌의&nbsp;현실적&nbsp;한계를&nbsp;스마트&nbsp;농업&nbsp;기술과&nbsp;선진적인&nbsp;인력수급&nbsp;시스템으로&nbsp;정면&nbsp;돌파하여,&nbsp;농업인이&nbsp;생산에만&nbsp;전념해도&nbsp;고소득을&nbsp;올릴&nbsp;수&nbsp;있는&nbsp;지속&nbsp;가능한&nbsp;첨단&nbsp;농업&nbsp;기반을&nbsp;구축함<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;기술을&nbsp;접목한&nbsp;사과원&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;이상기후&nbsp;피해&nbsp;경감&nbsp;기술&nbsp;개발과&nbsp;보급<br>&nbsp;&nbsp;○&nbsp;산지유통센터에&nbsp;스마트&nbsp;시스템&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;일손&nbsp;걱정&nbsp;없는&nbsp;계절근로자&nbsp;인력수급&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;공모사업으로&nbsp;농업&nbsp;근로자&nbsp;기숙사&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;미래형&nbsp;스마트팜&nbsp;확충<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;체계적인&nbsp;사업&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	‘며칠 더 머무는 무주’로 사계절 수익형 관광모델 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="‘며칠 더 머무는 무주’로 사계절 수익형 관광모델 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;단발성&nbsp;관광에서&nbsp;벗어나&nbsp;무주&nbsp;전역을&nbsp;하나의&nbsp;관광벨트로&nbsp;연결하고&nbsp;콘텐츠의&nbsp;질을&nbsp;높여,&nbsp;365일&nbsp;관광객의&nbsp;발길이&nbsp;끊이지&nbsp;않고&nbsp;지역민의&nbsp;실질적인&nbsp;수익으로&nbsp;연결되는&nbsp;‘사계절&nbsp;체류형&nbsp;수익&nbsp;관광’&nbsp;체계를&nbsp;완성함&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;무주&nbsp;전역의&nbsp;관광자원을&nbsp;하나로&nbsp;잇는&nbsp;관광벨트&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;반딧불축제&nbsp;30주년의&nbsp;성공적인&nbsp;개최와&nbsp;글로벌&nbsp;환경축제로&nbsp;격상<br>&nbsp;&nbsp;○&nbsp;골든&nbsp;트레일&nbsp;월드시리즈&nbsp;성공적인&nbsp;개최와&nbsp;매년&nbsp;시행하는&nbsp;연례화<br>&nbsp;&nbsp;○&nbsp;사계절&nbsp;스포츠&nbsp;마케팅&nbsp;활성화&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;구천동&nbsp;33경&nbsp;국가&nbsp;생태탐방로&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;체계적인&nbsp;사업&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

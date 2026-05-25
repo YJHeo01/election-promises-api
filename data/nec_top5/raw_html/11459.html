@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이주현 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	경제산업 파트 "전북의 경제 수도, 군산을 디자인하다"</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="경제산업 파트 "전북의 경제 수도, 군산을 디자인하다"">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;미래&nbsp;첨단산업&nbsp;클러스터&nbsp;조성&nbsp;및&nbsp;현대자동차9조&nbsp;투자&nbsp;안착<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;RE100&nbsp;첨단산업단지&nbsp;유치&nbsp;및&nbsp;글로벌&nbsp;필수&nbsp;기업(인텔&nbsp;등)&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현대자동차&nbsp;제2&nbsp;자동화(로봇)&nbsp;승용차&nbsp;공장&nbsp;유치&nbsp;및&nbsp;부품&nbsp;협력사&nbsp;50개&nbsp;동반&nbsp;입주&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;새만금&nbsp;재생에너지&nbsp;수익을&nbsp;시민에게&nbsp;직접&nbsp;환원하는&nbsp;'군산시민&nbsp;월급제(시민배당)'&nbsp;도입<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시장&nbsp;직속&nbsp;기업유치단&nbsp;구성→&nbsp;국비&nbsp;확보&nbsp;및&nbsp;인허가&nbsp;패스트트랙&nbsp;가동→&nbsp;인프라&nbsp;구축&nbsp;및&nbsp;기업&nbsp;입주<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;+&nbsp;도비&nbsp;+&nbsp;시비&nbsp;+&nbsp;민간&nbsp;자본&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	문화관광 파트 "자고 가는 군산, 글로벌 해양 관광도시"</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="문화관광 파트 "자고 가는 군산, 글로벌 해양 관광도시"">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;당일치기를&nbsp;넘어선&nbsp;2.5일&nbsp;체류형&nbsp;국제&nbsp;관광&nbsp;벨트&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고군산군도&nbsp;해상&nbsp;케이블카&nbsp;설치&nbsp;및&nbsp;마리나항·해양레저센터&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;새만금&nbsp;내&nbsp;대규모&nbsp;복합&nbsp;테마파크(동물원,&nbsp;아쿠아리움)&nbsp;및&nbsp;K-콘텐츠&nbsp;상설&nbsp;공연장&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원도심&nbsp;근대문화유산&nbsp;미디어아트&nbsp;리노베이션&nbsp;및&nbsp;야간관광&nbsp;특구&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서해대학교&nbsp;‘복합문화&nbsp;랜드마크“&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;해상풍력&nbsp;전용&nbsp;항만&nbsp;및&nbsp;배후단지&nbsp;조성&nbsp;사업&nbsp;추진&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;관광&nbsp;활성화TF&nbsp;구성→&nbsp;마스터플랜&nbsp;용역→&nbsp;민간&nbsp;투자&nbsp;심의→&nbsp;시설&nbsp;착공<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;+&nbsp;시비&nbsp;+&nbsp;민간&nbsp;자산&nbsp;투입(PPP&nbsp;방식)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	보육교육 파트"미래를 준비하는 도시, AI 리터러시 대도약"</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="보육교육 파트"미래를 준비하는 도시, AI 리터러시 대도약"">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전&nbsp;시민&nbsp;100%&nbsp;‘AI&nbsp;비서&nbsp;보급’&nbsp;및&nbsp;지식&nbsp;도시&nbsp;군산&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전&nbsp;시민&nbsp;및&nbsp;소상공인&nbsp;대상&nbsp;'군산형AI&nbsp;코파일럿'&nbsp;무료&nbsp;접근&nbsp;권한&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민센터와&nbsp;학교를&nbsp;활용한&nbsp;세대별&nbsp;맞춤형&nbsp;'우리&nbsp;동네AI&nbsp;학교'&nbsp;상설&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;대학(군산대&nbsp;등)과&nbsp;연계한&nbsp;'현대차&nbsp;미래&nbsp;모빌리티&nbsp;계약학과'&nbsp;신설&nbsp;및&nbsp;인재&nbsp;양성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;교육지원청&nbsp;협의→&nbsp;시&nbsp;전용AI&nbsp;플랫폼&nbsp;개발→&nbsp;세대별&nbsp;교육&nbsp;커리큘럼&nbsp;보급<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○2026년~2028년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시비&nbsp;+&nbsp;도&nbsp;교육청&nbsp;협력&nbsp;예산</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	평생복지 파트 "누구도 소외되지 않는 따뜻한 동행"</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="평생복지 파트 "누구도 소외되지 않는 따뜻한 동행"">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;요람에서&nbsp;무덤까지,&nbsp;전&nbsp;생애주기&nbsp;맞춤형All-Care&nbsp;시스템<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;'아이플러스1억&nbsp;드림':&nbsp;출생부터&nbsp;결혼까지&nbsp;단계별&nbsp;정책&nbsp;패키지&nbsp;지원(바우처&nbsp;포함)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;70세&nbsp;이상&nbsp;어르신&nbsp;시내버스&nbsp;무료&nbsp;이용&nbsp;및&nbsp;동네&nbsp;지정&nbsp;목욕탕&nbsp;무료&nbsp;이용권&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;쌍천&nbsp;이영춘·가천&nbsp;이길녀&nbsp;의료단지&nbsp;조성&nbsp;및&nbsp;공공&nbsp;의료&nbsp;안전망&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인&nbsp;복지관&nbsp;기능보강&nbsp;지원<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;보건복지부&nbsp;사회보장제도&nbsp;협의→&nbsp;조례&nbsp;제정→&nbsp;바우처&nbsp;시스템&nbsp;도입<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2027년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시비&nbsp;+&nbsp;새만금&nbsp;에너지&nbsp;수익&nbsp;시민&nbsp;펀드&nbsp;재원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	투명행정 파트: "유리병처럼 맑은 청렴도1등급 군산"</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="투명행정 파트: "유리병처럼 맑은 청렴도1등급 군산"">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기술&nbsp;도입을&nbsp;통한&nbsp;행정&nbsp;혁신&nbsp;및&nbsp;인사&nbsp;투명성&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보안이&nbsp;강화된&nbsp;폐쇄형'로컬AI&nbsp;행정망'&nbsp;구축으로&nbsp;업무&nbsp;효율70%&nbsp;증대&nbsp;및&nbsp;기밀&nbsp;보호<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;외부&nbsp;전문가&nbsp;참여'인사검증위원회'&nbsp;신설&nbsp;및'부정부패&nbsp;원아웃제'&nbsp;즉각&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예산&nbsp;집행&nbsp;내역&nbsp;실시간&nbsp;공개&nbsp;및&nbsp;시장&nbsp;직통'스마트&nbsp;시민&nbsp;소통&nbsp;핫라인'&nbsp;상설화<br>&nbsp;&nbsp;○&nbsp;군산시&nbsp;제2청사&nbsp;새만금&nbsp;건립&nbsp;임기&nbsp;내&nbsp;추진&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;인사&nbsp;규정&nbsp;및&nbsp;조례&nbsp;개정→&nbsp;AI&nbsp;행정망&nbsp;서버&nbsp;구축→&nbsp;실시간&nbsp;공개&nbsp;대시보드&nbsp;오픈<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2027년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시비(자체&nbsp;구조조정&nbsp;예산)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

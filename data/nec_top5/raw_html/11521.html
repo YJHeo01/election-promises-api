@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;양정건 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	4년간 무보수 봉사 및 ‘고성희망기금’ 기반 마련</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="4년간 무보수 봉사 및 ‘고성희망기금’ 기반 마련">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;정치&nbsp;혁신을&nbsp;통한&nbsp;고성&nbsp;상표(Brand)&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;지속가능한발전&nbsp;재원&nbsp;마련<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;보수&nbsp;기부&nbsp;지역&nbsp;사회&nbsp;환원<br>&nbsp;&nbsp;○‘고성희망기금’설치:&nbsp;인구소멸&nbsp;대응&nbsp;및&nbsp;미래&nbsp;세대&nbsp;육성&nbsp;사업&nbsp;전개<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;군수&nbsp;보수&nbsp;전액<br>&nbsp;&nbsp;○&nbsp;선출직&nbsp;공무원,&nbsp;출향인과&nbsp;지역&nbsp;기업,&nbsp;군민&nbsp;자발적&nbsp;기부금</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	군수 직통‘군민 핫라인’개설과 13개 면사무소 출근 정례화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="군수 직통‘군민 핫라인’개설과 13개 면사무소 출근 정례화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;직접&nbsp;소통&nbsp;시대&nbsp;개막<br>&nbsp;&nbsp;○&nbsp;현장과&nbsp;협치의&nbsp;행정&nbsp;구현<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;군수&nbsp;전화번호&nbsp;공개&nbsp;및&nbsp;직접&nbsp;민원&nbsp;접수<br>&nbsp;&nbsp;○&nbsp;군수실&nbsp;1층&nbsp;이전&nbsp;개방,&nbsp;군청내&nbsp;기자실&nbsp;복원<br>&nbsp;&nbsp;○&nbsp;1달&nbsp;최소&nbsp;하루&nbsp;이상&nbsp;13개면&nbsp;면사무소&nbsp;출근<br>&nbsp;&nbsp;○&nbsp;주요&nbsp;현안&nbsp;및&nbsp;사업&nbsp;민관&nbsp;협치&nbsp;제도화<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;예산&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	인구 유출과 고성 경제의 심폐소생술,‘농어촌기본소득’조속 시행</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="인구 유출과 고성 경제의 심폐소생술,‘농어촌기본소득’조속 시행">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;인구&nbsp;감소&nbsp;대응<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;경제&nbsp;활성화<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;인당&nbsp;월&nbsp;15만원&nbsp;지역화페&nbsp;지급<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;예산&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	교통 혁신과 스포츠 휴양 도시 전환 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="교통 혁신과 스포츠 휴양 도시 전환 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;이동권&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;경제&nbsp;활성화<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;14개&nbsp;읍·면&nbsp;버스&nbsp;무료화<br>&nbsp;&nbsp;○&nbsp;KTX&nbsp;역사&nbsp;연계&nbsp;친환경&nbsp;자율주행&nbsp;교통수단&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;생활스포츠&nbsp;시설&nbsp;인프라&nbsp;+&nbsp;문화·역사·자연&nbsp;결합&nbsp;관광상품&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;저비용&nbsp;고효율&nbsp;숙박&nbsp;인프라&nbsp;확충<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;예산&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	미래 발전을 위한 AI 고성 만들기</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="미래 발전을 위한 AI 고성 만들기">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;미래형&nbsp;농어촌&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;미래&nbsp;세대&nbsp;육성&nbsp;<br>&nbsp;&nbsp;○&nbsp;행정&nbsp;서비스&nbsp;질&nbsp;제고&nbsp;<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;스마트팜,&nbsp;스마트양식&nbsp;기술&nbsp;보급&nbsp;확대,&nbsp;고성&nbsp;농수산물&nbsp;직거래&nbsp;플랫폼&nbsp;고도화<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;정책&nbsp;전담&nbsp;조직&nbsp;신설:&nbsp;어린이,&nbsp;청년,&nbsp;여성,&nbsp;소상공인&nbsp;등&nbsp;맞춤형&nbsp;AI&nbsp;교육&nbsp;실시<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기반&nbsp;복지&nbsp;서비스&nbsp;제공&nbsp;시스템&nbsp;구축<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;예산&nbsp;활용</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

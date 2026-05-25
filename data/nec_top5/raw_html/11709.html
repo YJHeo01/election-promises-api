@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;차준택 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	미래로 이어지는 굴포천</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="미래로 이어지는 굴포천">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;굴포천&nbsp;생태하천&nbsp;복원사업&nbsp;2단계&nbsp;구상&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;굴포천&nbsp;생태하천&nbsp;복원사업&nbsp;1단계&nbsp;구간의&nbsp;안정적&nbsp;관리<br>&nbsp;&nbsp;○&nbsp;굴포천&nbsp;부평구청∼삼산동&nbsp;구간&nbsp;악취·&nbsp;수질·&nbsp;환경개선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;굴포천&nbsp;생태하천&nbsp;복원사업&nbsp;2단계&nbsp;구상을&nbsp;위한&nbsp;용역&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대상구간&nbsp;:&nbsp;부평1동&nbsp;행정복지센터∼백운쌍굴&nbsp;1.45km<br>&nbsp;&nbsp;○&nbsp;굴포천&nbsp;섕태하천&nbsp;복원사업&nbsp;1단계&nbsp;구간&nbsp;모니터링&nbsp;및&nbsp;유지관리&nbsp;설계<br>&nbsp;&nbsp;○&nbsp;중앙부처&nbsp;연구기관과&nbsp;굴포천&nbsp;관리&nbsp;.&nbsp;연구&nbsp;.&nbsp;홍보&nbsp;협력&nbsp;<br>&nbsp;&nbsp;○&nbsp;지방하천&nbsp;관리개선&nbsp;용역을&nbsp;통한&nbsp;오염&nbsp;원인&nbsp;파악&nbsp;및&nbsp;환경개선&nbsp;실시<br>&nbsp;&nbsp;○&nbsp;굴포천&nbsp;2지구&nbsp;하천정비사업(부평구청∼삼산동&nbsp;포함)&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산책로&nbsp;조성,&nbsp;하천&nbsp;준설&nbsp;등&nbsp;악취·수질·환경&nbsp;개선,&nbsp;교량&nbsp;재가설&nbsp;및&nbsp;신설&nbsp;등<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;+&nbsp;시비＋&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	재개발· 재건축 원스탑 지원센터 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="재개발· 재건축 원스탑 지원센터 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;재개발·재건축&nbsp;등&nbsp;민간&nbsp;개발사업&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;속도감&nbsp;있는&nbsp;민간&nbsp;개발을&nbsp;통한&nbsp;지역&nbsp;주거&nbsp;환경&nbsp;개선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;재개발·&nbsp;재건축&nbsp;원스탑&nbsp;지원센터&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시계획·건축·정비사업(법률)·환경·교통·경관·행정&nbsp;등&nbsp;분야별&nbsp;전문가&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;재개발·재건축사업,&nbsp;가로주택정비사업,&nbsp;도시개발사업,&nbsp;노후계획도시정비사업&nbsp;등&nbsp;민간&nbsp;개발사업을&nbsp;대상으로&nbsp;분야별&nbsp;컨설팅&nbsp;및&nbsp;지원&nbsp;실시<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	부평역 GTX- B 복합환승센터 조성 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="부평역 GTX- B 복합환승센터 조성 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;편리한&nbsp;환승체계를&nbsp;통한&nbsp;교통&nbsp;중심도시&nbsp;부평&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;부평역&nbsp;교통쾅장을&nbsp;활용한&nbsp;대중교통연계&nbsp;수송형&nbsp;환승센터&nbsp;건립&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;부평역&nbsp;GTX-&nbsp;B&nbsp;복합환승센터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년&nbsp;착공,&nbsp;대지면적&nbsp;18,000㎡,&nbsp;연면적&nbsp;9,970㎡&nbsp;규모&nbsp;건설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지하광장,&nbsp;GTX&nbsp;로비,&nbsp;환승주차장,&nbsp;GTX-B·&nbsp;버스·경인선·인천1호선&nbsp;등&nbsp;대중교통별&nbsp;연계&nbsp;등<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비+시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	부평 서북권역 랜드마크, 1113공병단 대형복합시설 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="부평 서북권역 랜드마크, 1113공병단 대형복합시설 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;문화와&nbsp;상업기능을&nbsp;담은&nbsp;제1113공병단&nbsp;이전부지&nbsp;개발&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;지역경제&nbsp;활성화&nbsp;및&nbsp;구민&nbsp;펀의&nbsp;도모<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;제1113공병단&nbsp;부지&nbsp;도시개발구역&nbsp;지정&nbsp;및&nbsp;개발계획&nbsp;수립&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;지속적인&nbsp;관계기관&nbsp;협의&nbsp;실시<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	부평의 거대한 변화, 캠프마켓 공원 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="부평의 거대한 변화, 캠프마켓 공원 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;역사와&nbsp;문화가&nbsp;어우러지는&nbsp;캠프마켓&nbsp;공원&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;구민&nbsp;의견이&nbsp;반영된&nbsp;캠프마켓&nbsp;공원&nbsp;조성&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;캠프마켓&nbsp;부지&nbsp;반환&nbsp;완료에&nbsp;따른&nbsp;공원조성&nbsp;후속절차&nbsp;이행<br>&nbsp;&nbsp;○&nbsp;구민&nbsp;의견이&nbsp;반영된&nbsp;공원&nbsp;조성&nbsp;계획&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;대형도서관,&nbsp;문화시설&nbsp;등&nbsp;주요&nbsp;앵커시설&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;캠프마켓&nbsp;D구역&nbsp;토양정화&nbsp;지속&nbsp;실시<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비+시비+구비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김정섭 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	행정수도 완성 대비 송선·등현 지구 「공주 혁신도시」 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="행정수도 완성 대비 송선·등현 지구 「공주 혁신도시」 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;행정·R&D·정주&nbsp;여건이&nbsp;융합된&nbsp;광역&nbsp;자족형&nbsp;혁신도시&nbsp;완성<br>-&nbsp;행정&nbsp;수도&nbsp;세종시와&nbsp;상생&nbsp;발전&nbsp;촉진하고&nbsp;직주근접형&nbsp;스마트&nbsp;도시&nbsp;구현<br>○&nbsp;공공주도&nbsp;계획적&nbsp;개발을&nbsp;추진하여&nbsp;공주-세종&nbsp;지역&nbsp;난개말&nbsp;방지&nbsp;및&nbsp;인구&nbsp;유입으로&nbsp;공주시의&nbsp;지속가능한&nbsp;발전&nbsp;추진<br>○&nbsp;고품격&nbsp;교육·문화&nbsp;인프라를&nbsp;동시&nbsp;구축하여&nbsp;세종시의&nbsp;배후도시를&nbsp;넘어&nbsp;자립&nbsp;가능한&nbsp;충남권&nbsp;핵심&nbsp;행정&nbsp;거점으로&nbsp;도약<br><br>□&nbsp;이행방법<br>○&nbsp;「송선·동현지구&nbsp;도시개발사업」&nbsp;의&nbsp;조속한&nbsp;추진&nbsp;지원<br>-&nbsp;충남개발공사의&nbsp;시행하는&nbsp;사업이&nbsp;조속하게&nbsp;완공될&nbsp;수&nbsp;있도록&nbsp;최대&nbsp;지원<br>○&nbsp;「동현지구&nbsp;스마트창조도시」&nbsp;확장&nbsp;추진<br>-&nbsp;정부의&nbsp;제2차&nbsp;공공기관&nbsp;이전을&nbsp;위해&nbsp;기존&nbsp;구역&nbsp;확장&nbsp;및&nbsp;신규&nbsp;부지&nbsp;발굴<br>-&nbsp;이미&nbsp;추진된&nbsp;기관의&nbsp;연계&nbsp;유치&nbsp;및&nbsp;연구개발&nbsp;클러스터&nbsp;구축하여&nbsp;미래&nbsp;첨단산업&nbsp;거점으로&nbsp;육성<br>○&nbsp;공공기관&nbsp;임대&nbsp;청사&nbsp;건립<br>-&nbsp;수도권&nbsp;소재&nbsp;행정&nbsp;기관,&nbsp;준정&nbsp;부기관,&nbsp;공공기관,&nbsp;전국단위&nbsp;협회·전문단체·조합의&nbsp;중앙회·본부&nbsp;등&nbsp;유치할&nbsp;때&nbsp;공공임대형&nbsp;청사&nbsp;모델&nbsp;선제적&nbsp;제시<br>-&nbsp;기획&nbsp;예산처의&nbsp;특별&nbsp;인프라펀드&nbsp;활용하여&nbsp;재정&nbsp;부담&nbsp;없이&nbsp;추진<br>-&nbsp;이재명&nbsp;정부&nbsp;제2차&nbsp;공공기관&nbsp;이전&nbsp;로드맵에&nbsp;대응<br><br>□&nbsp;이&nbsp;행&nbsp;기&nbsp;간<br>○&nbsp;임기&nbsp;내<br>-&nbsp;당선&nbsp;후&nbsp;우선순위로&nbsp;실행<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	원도심 에 「문화유산 및 K-콘덴츠 창의산업 클러스터」 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="원도심 에 「문화유산 및 K-콘덴츠 창의산업 클러스터」 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;역사문화도시&nbsp;정체성을&nbsp;유지하면서&nbsp;원도심&nbsp;활성화&nbsp;추진하여&nbsp;주민의&nbsp;지속가능한&nbsp;혜택이&nbsp;귀속되도록&nbsp;함<br>○&nbsp;백제왕도&nbsp;및&nbsp;충청&nbsp;지역의&nbsp;중심이라는&nbsp;역사적&nbsp;정체성과&nbsp;제민천&nbsp;중심&nbsp;근현대적&nbsp;감성이&nbsp;공존하는&nbsp;매력적인&nbsp;공간에&nbsp;문화유산을&nbsp;기반으로&nbsp;전통-현대-기술이&nbsp;융합된&nbsp;생태계&nbsp;구축<br>○&nbsp;로컬크리에이터&nbsp;친화적&nbsp;원도심&nbsp;문화&nbsp;조성으로&nbsp;보다&nbsp;많은&nbsp;청년로컬크리에이터가&nbsp;원도심&nbsp;에&nbsp;정착하는&nbsp;계기&nbsp;마련<br><br>□&nbsp;이행방법<br>○&nbsp;원도심&nbsp;에&nbsp;「문화유산&nbsp;및&nbsp;K-콘텐츠&nbsp;창의산업&nbsp;클러스터」&nbsp;조성<br>-&nbsp;도시재생&nbsp;뉴딜사업으로&nbsp;이미&nbsp;조성&nbsp;한&nbsp;거점&nbsp;공간을&nbsp;문화공유&nbsp;플랫폼으로&nbsp;활용<br>-&nbsp;공주&nbsp;문화유산을&nbsp;현대적으로&nbsp;재해석&nbsp;하여&nbsp;콘텐츠&nbsp;산업&nbsp;으로&nbsp;육성<br>○&nbsp;원도심&nbsp;유휴&nbsp;학교부지&nbsp;등&nbsp;활용한&nbsp;K-콘텐츠&nbsp;창의산업&nbsp;공간&nbsp;조성<br>-&nbsp;유휴&nbsp;학교시설&nbsp;리모델링&nbsp;으로&nbsp;콘텐츠&nbsp;창작자와&nbsp;로컬크리에이터들이&nbsp;활동할&nbsp;수&nbsp;있는&nbsp;공간&nbsp;제공<br>○&nbsp;원도심&nbsp;에&nbsp;계룡산&nbsp;철화분청사기&nbsp;제작&nbsp;체험&nbsp;및&nbsp;홍보관&nbsp;조성<br>-&nbsp;600년&nbsp;도자도시&nbsp;공주&nbsp;이미지&nbsp;정립&nbsp;및&nbsp;공주의&nbsp;문화정체성&nbsp;제시<br><br>□&nbsp;이&nbsp;행&nbsp;기&nbsp;간<br>○&nbsp;임기&nbsp;내<br>-&nbsp;임기&nbsp;내&nbsp;계획과&nbsp;실행&nbsp;추진<br>-&nbsp;임기&nbsp;후에도&nbsp;지속될&nbsp;수&nbsp;있도록&nbsp;기반&nbsp;마련<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	공주시 주요농산물 가격안정 제도 마련 및 필수 능자재 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="공주시 주요농산물 가격안정 제도 마련 및 필수 능자재 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;기후변화와&nbsp;경제상황&nbsp;등으로&nbsp;작황&nbsp;현황의&nbsp;변동이&nbsp;심한&nbsp;주요&nbsp;농산물&nbsp;가격변동에&nbsp;대한&nbsp;농업&nbsp;인&nbsp;위험부담의&nbsp;감소와&nbsp;소비자&nbsp;혜택&nbsp;증진<br>-&nbsp;주요&nbsp;농작물&nbsp;가격의&nbsp;폭락에&nbsp;대한&nbsp;농업&nbsp;인의&nbsp;단기&nbsp;손실&nbsp;보전&nbsp;및&nbsp;지속&nbsp;가능한&nbsp;농업&nbsp;실현을&nbsp;위한&nbsp;최소한&nbsp;보장&nbsp;대책<br>○&nbsp;농업&nbsp;생산과&nbsp;관련&nbsp;필수&nbsp;농자재에&nbsp;대한&nbsp;지원으로&nbsp;생산자와&nbsp;소비자의&nbsp;비용&nbsp;부담&nbsp;감소로&nbsp;원활한&nbsp;농산물&nbsp;수급&nbsp;지원<br>-&nbsp;공주시&nbsp;필수&nbsp;농자재&nbsp;지원&nbsp;조례의&nbsp;개정으로&nbsp;구체적&nbsp;내용&nbsp;보강<br><br>□&nbsp;이행방법<br>○&nbsp;「주요&nbsp;농산물&nbsp;가격안정&nbsp;기금&nbsp;조성」&nbsp;조례&nbsp;제정<br>-&nbsp;기금&nbsp;조성의&nbsp;조례&nbsp;제정으로&nbsp;법적&nbsp;근거&nbsp;마련<br>-&nbsp;기금이&nbsp;당해연도&nbsp;신속하게&nbsp;집행되도록&nbsp;관련&nbsp;제도&nbsp;정&nbsp;비<br>○&nbsp;관련&nbsp;농민단체,&nbsp;이해관계자&nbsp;등의&nbsp;의견&nbsp;청취로&nbsp;실질적&nbsp;지원&nbsp;구조&nbsp;확립<br>-&nbsp;공주시&nbsp;농업회의소(별도공약)에서&nbsp;집&nbsp;적&nbsp;된&nbsp;농업&nbsp;인의&nbsp;의견을&nbsp;바탕으로&nbsp;적절한&nbsp;지원&nbsp;구조&nbsp;확립&nbsp;및&nbsp;실행<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;내<br>-&nbsp;당선&nbsp;후&nbsp;바로&nbsp;관련&nbsp;조례&nbsp;제정과&nbsp;기금&nbsp;조성&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자&nbsp;등<br>-&nbsp;시비와&nbsp;민자를&nbsp;우선으로&nbsp;하되&nbsp;관련된&nbsp;국비,&nbsp;도비로도&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	소상공인 성장 지원 제도 구축 및 90주년 전통시장 혁신 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="소상공인 성장 지원 제도 구축 및 90주년 전통시장 혁신 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □목&nbsp;표<br>○&nbsp;소상공인들의&nbsp;애로&nbsp;해소와&nbsp;체계적&nbsp;성장을&nbsp;지원<br>○&nbsp;공주의&nbsp;역사와&nbsp;문화,&nbsp;공동체&nbsp;정서가&nbsp;녹아있는&nbsp;공간이면서&nbsp;공주&nbsp;원도심에&nbsp;위치한&nbsp;90년&nbsp;전통의&nbsp;산성시장과&nbsp;100년&nbsp;전통의&nbsp;유구시장과&nbsp;같은&nbsp;전통시장의&nbsp;혁신을&nbsp;통해&nbsp;상인·상가의&nbsp;유지와&nbsp;지속적&nbsp;번영을&nbsp;추구<br><br>□&nbsp;이행방법<br>○&nbsp;공주시&nbsp;소상공인지원센터를&nbsp;설&nbsp;립<br>-&nbsp;현행&nbsp;공주시&nbsp;소상공인&nbsp;지원에&nbsp;관한&nbsp;조례에&nbsp;센터의&nbsp;근거&nbsp;규정이&nbsp;있으므로&nbsp;바로&nbsp;설립하여&nbsp;실행&nbsp;추진<br>-&nbsp;구체적인&nbsp;금융,&nbsp;경영,&nbsp;교육&nbsp;및&nbsp;훈련,&nbsp;분석&nbsp;등&nbsp;다양한&nbsp;현실적&nbsp;상황에&nbsp;대해&nbsp;체계적이고&nbsp;원스톱인&nbsp;해결책&nbsp;제시<br>-&nbsp;이&nbsp;외에도&nbsp;법령에&nbsp;따른&nbsp;상인회에&nbsp;대한&nbsp;추가&nbsp;지원<br>○&nbsp;전통시장&nbsp;내&nbsp;테마(특화)&nbsp;골목&nbsp;조성<br>-&nbsp;알밤&nbsp;및&nbsp;떡,&nbsp;청년&nbsp;특화거리&nbsp;조성<br>-&nbsp;디지털&nbsp;기술&nbsp;등&nbsp;활용으로&nbsp;기존&nbsp;대형쇼핑몰과는&nbsp;다른&nbsp;모델&nbsp;제시<br>○&nbsp;산성&nbsp;시장&nbsp;내&nbsp;노후·정체된&nbsp;공간을&nbsp;청년창업&nbsp;골목으로&nbsp;조성<br>-&nbsp;노후화된&nbsp;점포가&nbsp;집적&nbsp;된&nbsp;공간을&nbsp;청년창업&nbsp;골목으로&nbsp;조성하여&nbsp;기반시설&nbsp;및&nbsp;입주&nbsp;지원하고&nbsp;지속가능한&nbsp;경영을&nbsp;위한&nbsp;금융·행정&nbsp;지원도&nbsp;병행&nbsp;추진<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;내<br>-&nbsp;당선&nbsp;후&nbsp;바로&nbsp;관련&nbsp;절차&nbsp;및&nbsp;제도&nbsp;정비하여&nbsp;실행<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	「공주시 청년정책담당 특별보좌관」제도 도입 및 청년센터 설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="「공주시 청년정책담당 특별보좌관」제도 도입 및 청년센터 설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;청년의&nbsp;입장과&nbsp;판단으로&nbsp;공주시&nbsp;청년정책&nbsp;사업을&nbsp;검토하여,&nbsp;청년의&nbsp;목소리와&nbsp;의지가&nbsp;반영되는&nbsp;역동적인&nbsp;거버넌스&nbsp;완성<br>○&nbsp;청년들의&nbsp;다변화된&nbsp;요구에&nbsp;대응하는&nbsp;공간의&nbsp;제공뿐만&nbsp;아니라&nbsp;전문적&nbsp;상담,&nbsp;고용지원,&nbsp;복지&nbsp;연계&nbsp;등&nbsp;청년이&nbsp;실제&nbsp;원하는&nbsp;내용의&nbsp;청년정책&nbsp;사업&nbsp;지원&nbsp;시스템과&nbsp;공간을&nbsp;제공<br><br>□&nbsp;이행방법<br>○&nbsp;「공주시&nbsp;청&nbsp;년정&nbsp;책담당&nbsp;특별보좌관」&nbsp;조례&nbsp;제정하여&nbsp;제도&nbsp;도입<br>-&nbsp;조례의&nbsp;제정을&nbsp;통해&nbsp;법적&nbsp;근거&nbsp;마련<br>-&nbsp;청년&nbsp;참여예산제의&nbsp;실질적&nbsp;권한&nbsp;부여하여&nbsp;청년&nbsp;주도형&nbsp;재정&nbsp;민주주의&nbsp;실현<br>○&nbsp;「공주시&nbsp;청년센터&nbsp;강북관」&nbsp;설립&nbsp;및&nbsp;운영<br>-&nbsp;원도심에&nbsp;이미&nbsp;설립된&nbsp;청년센터를&nbsp;대학생&nbsp;등&nbsp;청년이&nbsp;많이&nbsp;거주하는&nbsp;강북&nbsp;지역&nbsp;에&nbsp;확대&nbsp;설립하여&nbsp;접근성을&nbsp;강화<br>-&nbsp;관련된&nbsp;조례&nbsp;및&nbsp;규칙의&nbsp;제정으로&nbsp;법적&nbsp;근거&nbsp;확보<br>-&nbsp;청년정&nbsp;책&nbsp;담당&nbsp;특별보좌관이&nbsp;공주시&nbsp;청년센터&nbsp;강북관에&nbsp;상주<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;내<br>-&nbsp;당선&nbsp;후&nbsp;관련&nbsp;조례&nbsp;및&nbsp;규칙&nbsp;제정&nbsp;조속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자&nbsp;등</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

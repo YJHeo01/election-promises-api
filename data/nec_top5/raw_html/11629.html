@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;강성휘 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	청년청 신설, 청년정책 컨트롤타워 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="청년청 신설, 청년정책 컨트롤타워 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;'청년이&nbsp;다시&nbsp;돌아오는&nbsp;도시&nbsp;목포'&nbsp;실현&nbsp;-&nbsp;청년&nbsp;유출을&nbsp;멈추고&nbsp;정주&nbsp;기반을&nbsp;갖춘&nbsp;활력&nbsp;도시로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;청년정책&nbsp;전담&nbsp;'&nbsp;칭년청&nbsp;'&nbsp;신설로&nbsp;흩어진&nbsp;청년정책을&nbsp;일원화하고&nbsp;정책&nbsp;사각지대&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;창업-&nbsp;취업-&nbsp;주거보육-&nbsp;문화를&nbsp;아우르는&nbsp;청년&nbsp;생애주기&nbsp;통합&nbsp;지원&nbsp;체계&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시장&nbsp;직속&nbsp;'청년청'&nbsp;신설&nbsp;및&nbsp;칭년정책&nbsp;전담조직&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년정책위원회&nbsp;청례화로&nbsp;정책&nbsp;결정&nbsp;단계에&nbsp;청년의&nbsp;직접&nbsp;참여&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;정착&nbsp;5대&nbsp;패키지&nbsp;운영&nbsp;-&nbsp;일자리&nbsp;·&nbsp;주거&nbsp;·&nbsp;보육&nbsp;·&nbsp;교육&nbsp;·&nbsp;문화&nbsp;통합&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년수당&nbsp;·&nbsp;만원주택&nbsp;·&nbsp;24시&nbsp;보육&nbsp;·&nbsp;리스킬링&nbsp;아카데미&nbsp;·&nbsp;청년라운지를&nbsp;묶어&nbsp;패키치로&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;스타트업&nbsp;클러스터&nbsp;구축&nbsp;(창업&nbsp;·&nbsp;투자&nbsp;·&nbsp;네트워크&nbsp;일체형&nbsp;거점）<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사무공간&nbsp;·&nbsp;시제품&nbsp;제작&nbsp;·&nbsp;투자&nbsp;매칭&nbsp;·&nbsp;멘토링을&nbsp;원스톱으로&nbsp;지원하는&nbsp;청년&nbsp;창업&nbsp;거점&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;'목포&nbsp;스타트업&nbsp;패스'&nbsp;도입&nbsp;-&nbsp;성장단계별&nbsp;맞춤&nbsp;지원&nbsp;체계&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예비창업-&nbsp;초기-&nbsp;성장&nbsp;단계별로&nbsp;자금&nbsp;·&nbsp;교육&nbsp;·&nbsp;판로개척&nbsp;패키지를&nbsp;단계적&nbsp;제공<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;청년청&nbsp;신설을&nbsp;시작으로&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;확대<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;국비·도비·시비&nbsp;및&nbsp;사업성격에&nbsp;따라&nbsp;민간자본&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	김 산업 메카 구축 · 수산식품 글로벌 전진기지 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="김 산업 메카 구축 · 수산식품 글로벌 전진기지 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;'&nbsp;생산&nbsp;중심&nbsp;'&nbsp;김&nbsp;산업을&nbsp;'&nbsp;가공&nbsp;·&nbsp;수출&nbsp;중심&nbsp;'&nbsp;고부가가치&nbsp;산업으로&nbsp;대전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김&nbsp;수출&nbsp;강국의&nbsp;핵심&nbsp;거점&nbsp;도시&nbsp;도약<br>&nbsp;&nbsp;○&nbsp;국제김거래소&nbsp;유치와&nbsp;마른김검사소&nbsp;연계로&nbsp;목포를&nbsp;김&nbsp;수출&nbsp;컨트롤타워이자&nbsp;산업&nbsp;메카로&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;K-&nbsp;블루푸드&nbsp;수출&nbsp;전진기지&nbsp;조성으로&nbsp;양질의&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;어업인&nbsp;소득&nbsp;안정&nbsp;도모<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국제김거래소&nbsp;유치&nbsp;및&nbsp;마른김검사소&nbsp;연계&nbsp;수출&nbsp;전진기지&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원초&nbsp;거래&nbsp;·&nbsp;인중&nbsp;·&nbsp;물류가&nbsp;한&nbsp;곳에서&nbsp;이뤄지는&nbsp;거래&nbsp;허브&nbsp;조성으로&nbsp;가격&nbsp;안정과&nbsp;수출&nbsp;확대&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;자동화&nbsp;광역&nbsp;공동가공센터&nbsp;설립&nbsp;（가공&nbsp;·&nbsp;포장&nbsp;·&nbsp;물류&nbsp;일체화）<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영세&nbsp;가공업쳬가&nbsp;공동&nbsp;활용&nbsp;가능한&nbsp;자동화&nbsp;가공&nbsp;·&nbsp;포장&nbsp;·&nbsp;콜드체인&nbsp;인프라로&nbsp;단가&nbsp;경챙력&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;HACCP&nbsp;·&nbsp;FSSC22000&nbsp;등&nbsp;국제&nbsp;인증&nbsp;지원&nbsp;및&nbsp;품질관리&nbsp;체계&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;K-&nbsp;블루푸드테크&nbsp;산업&nbsp;육성&nbsp;-&nbsp;AI&nbsp;·&nbsp;빅데이터&nbsp;기반&nbsp;R&&nbsp;D&nbsp;및&nbsp;고부가&nbsp;제품&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김&nbsp;스낵&nbsp;·&nbsp;시즈닝&nbsp;·&nbsp;바이오&nbsp;등&nbsp;신소재&nbsp;개발과&nbsp;푸드테크&nbsp;스타트업&nbsp;유치로&nbsp;산업&nbsp;외연&nbsp;확장<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단&nbsp;·&nbsp;중&nbsp;·&nbsp;장기계획으로&nbsp;협의&nbsp;우선순위에&nbsp;따라&nbsp;단계적&nbsp;추진<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;국비·도비·시비&nbsp;및&nbsp;사업성격에&nbsp;따라&nbsp;민간자본&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	상가 · 주거지 공영주차장 확충</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="상가 · 주거지 공영주차장 확충">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;공영주차장&nbsp;대폭&nbsp;확충으로&nbsp;시민&nbsp;섕활편의와&nbsp;상권&nbsp;활성화를&nbsp;동시에&nbsp;실현하는&nbsp;'살기&nbsp;편한&nbsp;도시&nbsp;목포&nbsp;'&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;골목상권&nbsp;·&nbsp;전통시장&nbsp;주차난&nbsp;해소로&nbsp;방문객&nbsp;접근성을&nbsp;높여&nbsp;골목경제&nbsp;활력&nbsp;회복<br>&nbsp;&nbsp;○&nbsp;주거지역&nbsp;야간&nbsp;주차난&nbsp;완화로&nbsp;시민&nbsp;일상&nbsp;스트레스&nbsp;해소&nbsp;및&nbsp;정주&nbsp;만족도&nbsp;제고<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중도심&nbsp;주차환경&nbsp;대폭&nbsp;개선&nbsp;및&nbsp;구&nbsp;진마트&nbsp;주변&nbsp;주차환경&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민&nbsp;체감도가&nbsp;높은&nbsp;권역부터&nbsp;우선&nbsp;개선해&nbsp;가시적&nbsp;변화&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;상가&nbsp;밀집지역&nbsp;·&nbsp;주거지&nbsp;중심&nbsp;공영주차장&nbsp;단계적&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;권역별&nbsp;수요조사를&nbsp;바탕으로&nbsp;부족&nbsp;지역&nbsp;우선&nbsp;확보&nbsp;및&nbsp;균형&nbsp;배치<br>&nbsp;&nbsp;○&nbsp;유휴부지&nbsp;·&nbsp;공공부지&nbsp;활용&nbsp;복합주차장&nbsp;(지하·입쳬형)&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;좁은&nbsp;도심&nbsp;부지&nbsp;한계&nbsp;극복을&nbsp;위해&nbsp;지하·기계식·복합주차장&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;주차시스템&nbsp;도입&nbsp;-&nbsp;실시간&nbsp;정보&nbsp;제공&nbsp;및&nbsp;효율적&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단·중·장기계획으로&nbsp;협의&nbsp;우선순위에&nbsp;따라&nbsp;단계적&nbsp;추진<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;국비·도비·시비&nbsp;및&nbsp;사업성격에&nbsp;따라&nbsp;민간자본&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	 목포사랑상품권 1,000억 발행 · 골목경제 회복</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title=" 목포사랑상품권 1,000억 발행 · 골목경제 회복">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;목포사랑상품권&nbsp;발행규모&nbsp;1,000억&nbsp;원&nbsp;확대로&nbsp;골목상권에&nbsp;강력한&nbsp;소비&nbsp;활력&nbsp;공급<br>&nbsp;&nbsp;○&nbsp;복지와&nbsp;소비를&nbsp;연결하는&nbsp;'목포형&nbsp;복지-&nbsp;경제&nbsp;선순환&nbsp;모델'&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;내&nbsp;자금&nbsp;순환&nbsp;구조&nbsp;정착으로&nbsp;외부&nbsp;유출을&nbsp;막고&nbsp;자생적&nbsp;골목경제&nbsp;회복<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;'&nbsp;목포사랑상품권&nbsp;'&nbsp;발행규모&nbsp;1,&nbsp;000억&nbsp;원으로&nbsp;단계적&nbsp;확대&nbsp;및&nbsp;할인율&nbsp;유지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;시민&nbsp;구매력&nbsp;강화와&nbsp;가맹점&nbsp;매출&nbsp;직접&nbsp;증대&nbsp;효과&nbsp;동시&nbsp;도모<br>&nbsp;&nbsp;○&nbsp;노인·돌봄수당&nbsp;일부를&nbsp;상품권으로&nbsp;지급&nbsp;확대&nbsp;(복지소비&nbsp;연계）<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;복지급여가&nbsp;지역상권으로&nbsp;환류되는&nbsp;구조&nbsp;설계로&nbsp;정책&nbsp;효과&nbsp;극대화<br>&nbsp;&nbsp;○&nbsp;전통시장·소상공인&nbsp;중심&nbsp;소비&nbsp;촉진&nbsp;정책&nbsp;병행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;페이백&nbsp;테이·할인&nbsp;캠페인·시장&nbsp;활성화&nbsp;이벤트와&nbsp;결합해&nbsp;소비&nbsp;진작&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;디지털상품권&nbsp;비중&nbsp;확대로&nbsp;사용&nbsp;펀의성&nbsp;제고&nbsp;및&nbsp;가맹점&nbsp;정산&nbsp;부담&nbsp;경감<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;시행<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	무안반도 광역섕활권 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="무안반도 광역섕활권 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;무안반도&nbsp;쾅역생활권&nbsp;지정으로&nbsp;행정&nbsp;·&nbsp;경제&nbsp;통합&nbsp;기반&nbsp;마련,&nbsp;인구&nbsp;·&nbsp;산업&nbsp;분산&nbsp;구조의&nbsp;한계&nbsp;극복<br>&nbsp;&nbsp;○&nbsp;서남권&nbsp;50만&nbsp;규모&nbsp;거점도시&nbsp;건설로&nbsp;호남&nbsp;서남권&nbsp;발전을&nbsp;견인할&nbsp;'서남권&nbsp;메가&nbsp;허브'&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;단계적&nbsp;통합&nbsp;추진-&nbsp;생활권&nbsp;통합&nbsp;→&nbsp;기능&nbsp;통합&nbsp;→&nbsp;행정&nbsp;통합으로&nbsp;안정적&nbsp;·&nbsp;실효적&nbsp;광역화&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;무안반도&nbsp;광역생활권&nbsp;단계적&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;목포&nbsp;·&nbsp;신안의&nbsp;행정&nbsp;·&nbsp;생활권&nbsp;연계를&nbsp;우선&nbsp;강화하고,&nbsp;이후&nbsp;무안까지&nbsp;포함한&nbsp;무안반도&nbsp;쾅역섕활권&nbsp;체계&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;광역행정협의회&nbsp;정례화&nbsp;및&nbsp;시&nbsp;·&nbsp;군의회&nbsp;합동분과&nbsp;상설&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;해양·조선·에너지&nbsp;·&nbsp;AI&nbsp;산업&nbsp;결합&nbsp;쾅역&nbsp;경제권&nbsp;형성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신안&nbsp;해상풍력·목포&nbsp;신항·무안&nbsp;공항을&nbsp;잇는&nbsp;산업&nbsp;트라이앵글&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;교통&nbsp;·&nbsp;물류망&nbsp;광역&nbsp;연계&nbsp;(항만·공항·철도)로&nbsp;외연&nbsp;확장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;KTX&nbsp;무안공항역&nbsp;·&nbsp;광역&nbsp;BRT&nbsp;등&nbsp;광역&nbsp;교통망&nbsp;추진으로&nbsp;50만&nbsp;섕활권&nbsp;통행시간&nbsp;단축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2035&nbsp;단계적&nbsp;추진<br><br>□&nbsp;재원조달방안둥<br>&nbsp;&nbsp;○&nbsp;국비·도비·시비&nbsp;및&nbsp;사업성격에&nbsp;따라&nbsp;민간자본&nbsp;유치</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

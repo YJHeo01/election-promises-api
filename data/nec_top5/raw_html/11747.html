@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;황규철 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	전국 제일 교육복지 천국 옥천 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="전국 제일 교육복지 천국 옥천 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;옥천의&nbsp;백년&nbsp;미래를&nbsp;위한&nbsp;교육복지에&nbsp;중점&nbsp;투자<br>○&nbsp;차별화된&nbsp;교육복지&nbsp;정책&nbsp;전환으로&nbsp;인구&nbsp;유출방지&nbsp;및&nbsp;지역경제&nbsp;활성화&nbsp;도모<br>○&nbsp;안정적&nbsp;교육경비&nbsp;지원&nbsp;및&nbsp;촘촘한&nbsp;청소년&nbsp;복지&nbsp;환경&nbsp;조성을&nbsp;통한&nbsp;교육&nbsp;만족도&nbsp;제고&nbsp;<br>○&nbsp;요람에서&nbsp;무덤까지&nbsp;누구나&nbsp;행복한&nbsp;교육복지&nbsp;천국&nbsp;옥천<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>○&nbsp;교육복지&nbsp;천국,&nbsp;옥천&nbsp;완성<br>&nbsp;&nbsp;-&nbsp;안정적&nbsp;교육경비&nbsp;지원(방과후&nbsp;학교,&nbsp;체육인재&nbsp;육성,&nbsp;해외문화탐방&nbsp;등)&nbsp;<br>&nbsp;&nbsp;-&nbsp;촘촘한&nbsp;교육복지&nbsp;환경조성(통학교통비,&nbsp;진로체험,&nbsp;진학컨설팅&nbsp;등)&nbsp;<br>○&nbsp;안전하고&nbsp;건강한&nbsp;청소년&nbsp;성장&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;청소년&nbsp;맞춤형&nbsp;복지지원(꿈키움&nbsp;바우처,&nbsp;여성청소년&nbsp;위생용품&nbsp;지원&nbsp;등)<br>&nbsp;&nbsp;-&nbsp;청소년&nbsp;행복&nbsp;프로그램&nbsp;운영(삼삼오오&nbsp;학습동아리&nbsp;지원,&nbsp;비전교육&nbsp;등)<br>○&nbsp;구읍지역&nbsp;작은도서관&nbsp;신설<br>&nbsp;&nbsp;-&nbsp;상대적으로&nbsp;열악한&nbsp;구읍&nbsp;지역&nbsp;도서&nbsp;기반&nbsp;확충(연면적&nbsp;330㎡&nbsp;규모)<br>○&nbsp;초중고&nbsp;학생&nbsp;입학&nbsp;축하금&nbsp;지급(중·고등학교&nbsp;확대)<br>&nbsp;&nbsp;-&nbsp;학부모&nbsp;교육부담&nbsp;경감&nbsp;및&nbsp;자긍심&nbsp;고취로&nbsp;다함께&nbsp;누리는&nbsp;교육복지&nbsp;실현<br>&nbsp;&nbsp;-&nbsp;초등학교(20만원/인),&nbsp;중학교(30만원/인),&nbsp;고등학교(50만원/인)&nbsp;<br>○&nbsp;수요자&nbsp;중심&nbsp;평생교육&nbsp;활성화<br>&nbsp;&nbsp;-&nbsp;평생교육원&nbsp;준공을&nbsp;통한&nbsp;평생교육&nbsp;지원&nbsp;확대(세대별&nbsp;맞춤형&nbsp;교육,&nbsp;생애주기별&nbsp;전문인력&nbsp;양성&nbsp;등)<br>&nbsp;&nbsp;-&nbsp;누구나&nbsp;참여하는&nbsp;평생교육&nbsp;활성화(삼삼오오&nbsp;학습동아리,&nbsp;평생학습도시&nbsp;등)<br><br>□&nbsp;이행기간<br>○&nbsp;교육복지&nbsp;천국,&nbsp;옥천&nbsp;완성&nbsp;:&nbsp;2026~2030년<br>○&nbsp;구읍지역&nbsp;작은도서관&nbsp;신설&nbsp;:&nbsp;2026~2028년(타당성&nbsp;용역,&nbsp;2028년&nbsp;공사완료)<br>○&nbsp;전국&nbsp;제일&nbsp;교육복지&nbsp;천국&nbsp;옥천(5대&nbsp;주요사업)&nbsp;:&nbsp;2026&nbsp;~&nbsp;2030년&nbsp;<br>○&nbsp;초중고&nbsp;학생&nbsp;입학&nbsp;축하금&nbsp;지급(중·고등학교&nbsp;확대)&nbsp;:&nbsp;2026~2030년<br>○&nbsp;안전하고&nbsp;건강한&nbsp;청소년&nbsp;성장&nbsp;지원&nbsp;:&nbsp;2026~2030년<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;교육복지&nbsp;천국,&nbsp;옥천&nbsp;완성(4년지원)&nbsp;:&nbsp;100억원(군비)<br>○&nbsp;수요자&nbsp;중심&nbsp;평생교육&nbsp;활성화(4년지원)&nbsp;:&nbsp;32억원(군비)<br>○&nbsp;안전하고&nbsp;건강한&nbsp;청소년&nbsp;성장&nbsp;지원&nbsp;:&nbsp;40억원(군비)<br>○&nbsp;구읍지역&nbsp;작은도서관&nbsp;신설(1개소)&nbsp;:&nbsp;30억원(도비,&nbsp;군비)<br>○&nbsp;초중고&nbsp;학생&nbsp;입학&nbsp;축하금&nbsp;지급(4년지원)&nbsp;:&nbsp;12억원(군비)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	균형있게 발전하는 지속 가능한 옥천 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="균형있게 발전하는 지속 가능한 옥천 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;읍면&nbsp;낙후&nbsp;지역에&nbsp;집중&nbsp;투자로&nbsp;균형발전을&nbsp;도모하여&nbsp;다&nbsp;같이&nbsp;잘사는&nbsp;옥천실현<br>○&nbsp;살기&nbsp;좋은&nbsp;정주기반&nbsp;확충과&nbsp;편리하고&nbsp;안전한&nbsp;지역사회&nbsp;구현&nbsp;<br>○&nbsp;농어촌버스&nbsp;전면&nbsp;무료화로&nbsp;어르신들의&nbsp;이동권&nbsp;보장&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>○&nbsp;농어촌버스&nbsp;전면&nbsp;무료화&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;초고령사회&nbsp;교통&nbsp;불편&nbsp;주민&nbsp;이동권&nbsp;보장과&nbsp;기본소득&nbsp;상권&nbsp;확장&nbsp;도모&nbsp;<br>○&nbsp;청년임대주택&nbsp;단지&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;옥천읍&nbsp;시가지&nbsp;일원(옥천경찰서&nbsp;부지&nbsp;등&nbsp;개발),&nbsp;100세대&nbsp;규모<br>○&nbsp;옥천읍&nbsp;시가지&nbsp;전선&nbsp;지중화&nbsp;사업<br>&nbsp;&nbsp;-&nbsp;삼금로&nbsp;일원(옥천군&nbsp;보건소&nbsp;~&nbsp;시내버스&nbsp;종점,&nbsp;L=0.6km)<br>○&nbsp;(옛)동이중학교&nbsp;활용&nbsp;지역활력공간&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;복합문화공간&nbsp;및&nbsp;캠핑장,&nbsp;체육시설&nbsp;등을&nbsp;갖춘&nbsp;지역활력공간으로&nbsp;조성<br>○&nbsp;금강IC이설(동이IC신설)&nbsp;기반구축<br>&nbsp;&nbsp;-&nbsp;옥천IC&nbsp;대형&nbsp;화물차량&nbsp;및&nbsp;금강IC&nbsp;일원&nbsp;침수&nbsp;등에&nbsp;따른&nbsp;이용불편&nbsp;해소<br>&nbsp;&nbsp;-&nbsp;신규&nbsp;산업단지&nbsp;조성&nbsp;등을&nbsp;위한&nbsp;접근성&nbsp;강화&nbsp;필요<br>○&nbsp;중소벤처기업&nbsp;충북연수원&nbsp;또는&nbsp;전국이통장연수원&nbsp;유치&nbsp;<br>&nbsp;&nbsp;-&nbsp;(옛)충북인력개발원&nbsp;부지(45,704㎡)&nbsp;등을&nbsp;활용해&nbsp;중소벤처기업&nbsp;충북연수원&nbsp;또는&nbsp;전국이통장연수원&nbsp;등을&nbsp;유치하여&nbsp;인구유입&nbsp;및&nbsp;지역활력&nbsp;도모&nbsp;<br>&nbsp;<br>□&nbsp;이행기간<br>○&nbsp;농어촌버스&nbsp;전면&nbsp;무료화&nbsp;추진&nbsp;:&nbsp;2026~2030년<br>○&nbsp;청년임대주택&nbsp;단지&nbsp;조성&nbsp;:&nbsp;2027~2030년(토지매입,&nbsp;공사)<br>○&nbsp;옥천읍&nbsp;시가지&nbsp;전선지중화&nbsp;사업&nbsp;:&nbsp;2027~2028년<br>○&nbsp;(옛)동이중학교&nbsp;활용&nbsp;지역활력공간&nbsp;조성&nbsp;:&nbsp;2027~2030년<br>○&nbsp;금강IC이설(동이IC신설)&nbsp;기반구축&nbsp;:&nbsp;2027~2030년<br>○&nbsp;중소벤처기업&nbsp;충북연수원&nbsp;또는&nbsp;전국이통장연수원&nbsp;유치&nbsp;:&nbsp;2026~2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;농어촌버스&nbsp;전면&nbsp;무료화&nbsp;추진(4년)&nbsp;:&nbsp;36억원&nbsp;(군비)<br>○&nbsp;청년임대주택&nbsp;단지&nbsp;조성&nbsp;:&nbsp;300억원(부지매입&nbsp;100억원,&nbsp;공사비&nbsp;200억원)<br>○&nbsp;옥천읍&nbsp;시가지&nbsp;전선지중화&nbsp;완성&nbsp;:&nbsp;48억원(한전부담금,&nbsp;군비)<br>○&nbsp;(옛)동이중학교&nbsp;활용&nbsp;지역활력공간&nbsp;조성&nbsp;:&nbsp;100억원(공모사업)<br>○&nbsp;금강IC이설(동이IC신설)&nbsp;기반구축&nbsp;:&nbsp;350억원(한국도로공사,&nbsp;군비)<br>○&nbsp;중소벤처기업&nbsp;충북연수원&nbsp;또는&nbsp;전국이통장연수원&nbsp;유치&nbsp;:&nbsp;70억원(군비)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	 활기차고 역동적인 농업·경제도시 옥천</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title=" 활기차고 역동적인 농업·경제도시 옥천">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;귀농·귀촌&nbsp;장려와&nbsp;청년&nbsp;농업인&nbsp;유치로&nbsp;인구&nbsp;감소와&nbsp;농가&nbsp;일자리&nbsp;지원<br>○&nbsp;농업과&nbsp;산업이&nbsp;조화롭게&nbsp;발전하는&nbsp;활력&nbsp;넘치는&nbsp;지역경제&nbsp;자립기반&nbsp;완성&nbsp;<br>○&nbsp;지역경제&nbsp;활성화를&nbsp;위한&nbsp;유망&nbsp;중소기업&nbsp;육성&nbsp;및&nbsp;투자유치<br><br>□&nbsp;이행방법<br>○&nbsp;농어촌&nbsp;기본소득&nbsp;시범사업&nbsp;안착<br>&nbsp;&nbsp;-&nbsp;옥천사랑상품권&nbsp;활용을&nbsp;통한&nbsp;선순환&nbsp;경제체계&nbsp;구축&nbsp;및&nbsp;자립기반&nbsp;강화&nbsp;&nbsp;<br>○&nbsp;미래성장&nbsp;산업단지&nbsp;조성&nbsp;기반구축<br>&nbsp;&nbsp;-&nbsp;약&nbsp;19만평&nbsp;산업용지&nbsp;공급으로&nbsp;양질의&nbsp;일자리&nbsp;및&nbsp;소득&nbsp;창출&nbsp;기반&nbsp;마련&nbsp;(공영개발&nbsp;추진)<br>○&nbsp;로컬푸드&nbsp;2호점&nbsp;개설<br>&nbsp;&nbsp;-&nbsp;옥천로컬푸드&nbsp;2호점을&nbsp;개설로&nbsp;지역&nbsp;농가의&nbsp;안정적&nbsp;판로&nbsp;확보&nbsp;및&nbsp;소득증대&nbsp;도모<br>○&nbsp;친환경농업&nbsp;및&nbsp;스마트농업&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;친환경농업&nbsp;확대&nbsp;지원(진입&nbsp;장려금&nbsp;등),&nbsp;스마트팜&nbsp;실증플랫폼&nbsp;구축(58,000㎡)<br>&nbsp;&nbsp;-&nbsp;스마트농업&nbsp;특화사업&nbsp;확대(경관농업,&nbsp;청년농업,&nbsp;스마트농업,&nbsp;지역특화)<br>○&nbsp;지역대표&nbsp;농특산물(포도·복숭아&nbsp;등)&nbsp;육성<br>&nbsp;&nbsp;-&nbsp;지역대표&nbsp;농특산물(포도·복숭아&nbsp;등)의&nbsp;생산,&nbsp;유통,&nbsp;판매&nbsp;등&nbsp;경쟁력&nbsp;제고를&nbsp;위한&nbsp;체계적&nbsp;관리&nbsp;및&nbsp;지원시스템&nbsp;구축<br>○&nbsp;여성농어업인&nbsp;행복바우처사업&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;여가&nbsp;및&nbsp;문화활동을&nbsp;위한&nbsp;행복바우처&nbsp;확대(현재&nbsp;18만원&nbsp;→&nbsp;확대&nbsp;20만원)&nbsp;&nbsp;<br>○&nbsp;옥천사랑상품권&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;지역&nbsp;내&nbsp;소비촉진&nbsp;등을&nbsp;통한&nbsp;지역경제&nbsp;활성화&nbsp;기반&nbsp;마련&nbsp;<br><br>□&nbsp;이행기간<br>○&nbsp;미래성장&nbsp;산업단지&nbsp;조성&nbsp;:&nbsp;2026~2033년<br>○&nbsp;로컬푸드&nbsp;2호점&nbsp;개설&nbsp;:&nbsp;2026~2028년<br>○&nbsp;활기차고&nbsp;역동적인&nbsp;농업·경제도시&nbsp;옥천&nbsp;4대&nbsp;사업&nbsp;:&nbsp;2026~2030년<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;농어촌&nbsp;기본소득&nbsp;시범사업&nbsp;안착&nbsp;:&nbsp;1,744억원(국도비,&nbsp;군비)<br>○&nbsp;미래성장&nbsp;산업단지&nbsp;조성&nbsp;기반구축&nbsp;:&nbsp;2,000억원(국도비,&nbsp;군비)<br>○&nbsp;로컬푸드&nbsp;2호점&nbsp;개설&nbsp;:&nbsp;60억원(국도비,&nbsp;군비)<br>○&nbsp;친환경농업&nbsp;및&nbsp;스마트농업&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;-&nbsp;친환경농업&nbsp;확대&nbsp;:&nbsp;10억원(군비),&nbsp;스마트팜&nbsp;실증플랫폼&nbsp;:&nbsp;110억원(도비,&nbsp;군비)<br>&nbsp;&nbsp;&nbsp;-&nbsp;스마트농업&nbsp;특화사업&nbsp;확대&nbsp;:&nbsp;300억원(도비,&nbsp;군비,&nbsp;자부담)<br>○&nbsp;지역대표&nbsp;농특산물(포도·복숭아&nbsp;등)&nbsp;육성&nbsp;:&nbsp;40억원(도비,&nbsp;군비,&nbsp;자부담)<br>○&nbsp;여성농어업인&nbsp;행복바우처&nbsp;확대(4년&nbsp;3,000명)&nbsp;:&nbsp;24억원(도비,&nbsp;군비)<br>○&nbsp;옥천사랑상품권&nbsp;지원&nbsp;확대(4년)&nbsp;:&nbsp;160억원(군비)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	자연이 머물고 쉬어가는 생태·문화도시 옥천</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="자연이 머물고 쉬어가는 생태·문화도시 옥천">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;생태와&nbsp;쉼,&nbsp;문화와&nbsp;예술이&nbsp;일상이&nbsp;되는&nbsp;옥천&nbsp;구현&nbsp;<br>○&nbsp;옥천&nbsp;어디서나&nbsp;군민이&nbsp;건강하게&nbsp;운동하고&nbsp;예술을&nbsp;향유하며,&nbsp;자부심을&nbsp;느낄&nbsp;수&nbsp;있는&nbsp;예향의&nbsp;고장,&nbsp;문향의&nbsp;고장&nbsp;옥천&nbsp;완성<br>○&nbsp;전국에서&nbsp;찾아오는&nbsp;문화·관광·생활체육&nbsp;도시&nbsp;옥천&nbsp;<br>&nbsp;<br>□&nbsp;이행방법<br>○&nbsp;대청호&nbsp;생태&nbsp;군립공원&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;장계관광지와&nbsp;연계한&nbsp;충청북도&nbsp;제1호&nbsp;군립공원&nbsp;조성,&nbsp;약&nbsp;15만평&nbsp;규모&nbsp;<br>○&nbsp;청산별곡&nbsp;은하수&nbsp;숲&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;자연휴양림(약&nbsp;80ha),&nbsp;치유의&nbsp;숲(약&nbsp;75ha)&nbsp;등&nbsp;산림휴양시설&nbsp;조성&nbsp;통한&nbsp;지역경제&nbsp;활성화<br>○&nbsp;가드닝센터&nbsp;조성&nbsp;및&nbsp;정원문화&nbsp;확산<br>&nbsp;&nbsp;-&nbsp;옥천묘목공원(약&nbsp;23ha)내&nbsp;가드닝센터&nbsp;조성으로&nbsp;묘목&nbsp;홍보&nbsp;및&nbsp;정원문화&nbsp;교육장으로&nbsp;활용&nbsp;<br>○&nbsp;옥천묘목공원&nbsp;보도교&nbsp;신설&nbsp;<br>&nbsp;&nbsp;-&nbsp;철로로&nbsp;단절된&nbsp;옥천묘목공원과&nbsp;주차장을&nbsp;연결하는&nbsp;보도교(L=30m)&nbsp;신설<br>○&nbsp;문화예술&nbsp;및&nbsp;생활체육&nbsp;활성화<br>&nbsp;&nbsp;-&nbsp;문화기금(당초&nbsp;30억원→50억원)&nbsp;및&nbsp;체육기금(당초&nbsp;30억원→50억원)&nbsp;확대&nbsp;<br>○&nbsp;문화예술&nbsp;소극장&nbsp;건립<br>&nbsp;&nbsp;-&nbsp;문화예술인&nbsp;등이&nbsp;폭넓게&nbsp;활용할&nbsp;수&nbsp;있는&nbsp;소극장&nbsp;건립(연면적&nbsp;330㎡&nbsp;규모)<br>○&nbsp;파크골프장&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;파크골프장&nbsp;조성(동이,&nbsp;청산·청성,&nbsp;군서,&nbsp;군북)을&nbsp;통한&nbsp;생활체육&nbsp;활성화&nbsp;<br>○&nbsp;옥천군&nbsp;향수&nbsp;문화예술&nbsp;창작마을&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;관내&nbsp;폐교를&nbsp;활용해&nbsp;청년&nbsp;예술인과&nbsp;주민이&nbsp;함께하는&nbsp;체류형&nbsp;문화예술&nbsp;창작공간&nbsp;조성<br>&nbsp;<br>□&nbsp;이행기간<br>○&nbsp;대청호&nbsp;생태&nbsp;군립공원&nbsp;조성&nbsp;:&nbsp;2026~2030년<br>○&nbsp;청산별곡&nbsp;은하수&nbsp;숲&nbsp;조성&nbsp;:&nbsp;2026~2030년<br>○&nbsp;가드닝센터&nbsp;조성&nbsp;및&nbsp;정원문화&nbsp;확산&nbsp;:&nbsp;2026~2030년<br>○&nbsp;옥천묘목공원&nbsp;보도교&nbsp;신설&nbsp;:&nbsp;2026~2030년<br>○&nbsp;문화예술&nbsp;소극장&nbsp;건립&nbsp;:&nbsp;2026~2030년<br>○&nbsp;파크골프장&nbsp;조성&nbsp;:&nbsp;2027~2030년<br>○&nbsp;옥천군&nbsp;향수&nbsp;문화예술&nbsp;창작마을&nbsp;조성&nbsp;:&nbsp;2027~2030년<br>&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;대청호&nbsp;생태&nbsp;군립공원&nbsp;조성&nbsp;:&nbsp;200억원(국도비,&nbsp;군비)<br>○&nbsp;청산별곡&nbsp;은하수&nbsp;숲&nbsp;조성&nbsp;:&nbsp;170억원(국도비,&nbsp;군비)<br>○&nbsp;가드닝센터&nbsp;조성&nbsp;및&nbsp;정원문화&nbsp;확산&nbsp;:&nbsp;50억원(도비,&nbsp;군비)<br>○&nbsp;옥천묘목공원&nbsp;보도교&nbsp;신설&nbsp;:&nbsp;30억원(도비,&nbsp;군비)<br>○&nbsp;문화예술&nbsp;및&nbsp;생활체육&nbsp;활성화&nbsp;:&nbsp;40억원(군비)<br>○&nbsp;문화예술&nbsp;소극장&nbsp;건립&nbsp;:&nbsp;40억원(도비,&nbsp;군비)<br>○&nbsp;파크골프장&nbsp;조성(4개소)&nbsp;:&nbsp;80억원(도비,&nbsp;군비)<br>○&nbsp;옥천군&nbsp;향수&nbsp;문화예술&nbsp;창작마을&nbsp;조성&nbsp;:&nbsp;80억원&nbsp;(국도비,&nbsp;군비)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	군민이 만족하는 믿음 행정 옥천</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="군민이 만족하는 믿음 행정 옥천">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;군민참여&nbsp;믿음행정&nbsp;및&nbsp;신뢰받는&nbsp;책임행정&nbsp;구현으로&nbsp;주민&nbsp;밀착형&nbsp;복지서비스&nbsp;강화<br>○&nbsp;누구도&nbsp;소외되지&nbsp;않는&nbsp;촘촘한&nbsp;복지망을&nbsp;구축<br>○&nbsp;옥천형&nbsp;노인일자리&nbsp;발굴과&nbsp;장애인&nbsp;통합&nbsp;돌봄&nbsp;SOC&nbsp;구축을&nbsp;통해&nbsp;어르신과&nbsp;장애인이&nbsp;함께&nbsp;살아갈&nbsp;수&nbsp;있는&nbsp;옥천형&nbsp;복지&nbsp;모델을&nbsp;완성<br>&nbsp;<br>□&nbsp;이행방법<br>○&nbsp;여성친화도시&nbsp;지정&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;지역정책과&nbsp;발전과정에&nbsp;여성과&nbsp;남성이&nbsp;평등하게&nbsp;참여할&nbsp;수&nbsp;있도록&nbsp;정책&nbsp;운영<br>○&nbsp;옥천형&nbsp;노인일자리&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;기존&nbsp;노인일자리에&nbsp;참여할&nbsp;수&nbsp;없는&nbsp;어르신을&nbsp;위한&nbsp;맞춤형&nbsp;일자리를&nbsp;발굴&nbsp;확대&nbsp;<br>○&nbsp;청년&nbsp;취업&nbsp;및&nbsp;근속수당&nbsp;확대&nbsp;지급<br>&nbsp;&nbsp;-&nbsp;청년&nbsp;취업&nbsp;수당&nbsp;및&nbsp;근속수당&nbsp;1인&nbsp;당&nbsp;현재&nbsp;50만원&nbsp;→&nbsp;확대&nbsp;100만원&nbsp;<br>○&nbsp;24시간&nbsp;어린이집&nbsp;도입&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;야간&nbsp;등&nbsp;시간&nbsp;외&nbsp;보육수요&nbsp;증가에&nbsp;따른&nbsp;보육&nbsp;사각지대&nbsp;발생&nbsp;해소<br>○&nbsp;옥천형&nbsp;아이돌봄서비스&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;아이돌봄서비스&nbsp;이용&nbsp;가정의&nbsp;경제적&nbsp;부담&nbsp;경감(본인&nbsp;부담금&nbsp;50%&nbsp;지원)<br>○&nbsp;대상포진&nbsp;무료접종&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;지역주민&nbsp;대상포진&nbsp;무료접종&nbsp;확대(현재&nbsp;50세&nbsp;이상&nbsp;→&nbsp;확대&nbsp;40세&nbsp;이상)<br>○&nbsp;청소년&nbsp;독감(인플루엔자)&nbsp;무료접종<br>&nbsp;&nbsp;-&nbsp;청소년(15~19세)&nbsp;대상&nbsp;독감(인플루엔자)&nbsp;무료&nbsp;접종&nbsp;시행<br>○&nbsp;옥천군&nbsp;장애인&nbsp;자립·돌봄&nbsp;통합&nbsp;SOC&nbsp;구축&nbsp;<br>&nbsp;&nbsp;-&nbsp;장애인&nbsp;자립&nbsp;지원과&nbsp;가족돌봄&nbsp;기능&nbsp;통합한&nbsp;지역&nbsp;거점&nbsp;복지&nbsp;플랫폼&nbsp;구축&nbsp;<br>&nbsp;<br>□&nbsp;이행기간<br>○&nbsp;여성친화도시&nbsp;지정&nbsp;추진&nbsp;:&nbsp;2027~2029년<br>○&nbsp;옥천형&nbsp;노인일자리&nbsp;사업&nbsp;추진&nbsp;:&nbsp;2026~2030년<br>○&nbsp;청년&nbsp;취업&nbsp;및&nbsp;근속수당&nbsp;확대&nbsp;지급&nbsp;:&nbsp;2026~2030년<br>○&nbsp;24시간&nbsp;어린이집&nbsp;도입&nbsp;확대&nbsp;:&nbsp;2026~2030년<br>○&nbsp;대상포진&nbsp;무료접종&nbsp;확대&nbsp;:&nbsp;2027~2030년<br>○&nbsp;청소년&nbsp;독감(인플루엔자)&nbsp;무료접종&nbsp;:&nbsp;2027~2030년<br>○&nbsp;옥천군&nbsp;장애인&nbsp;자립·돌봄&nbsp;통합&nbsp;SOC&nbsp;구축&nbsp;:&nbsp;2027~2030년&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;여성친화도시&nbsp;지정&nbsp;추진&nbsp;:&nbsp;0.1억원(군비)<br>○&nbsp;옥천형&nbsp;노인일자리&nbsp;사업&nbsp;추진(4년)&nbsp;:&nbsp;12억원(군비)<br>○&nbsp;청년&nbsp;취업&nbsp;및&nbsp;근속수당&nbsp;확대&nbsp;지급(100명,&nbsp;4년)&nbsp;:&nbsp;8억원(군비)<br>○&nbsp;24시간&nbsp;어린이집&nbsp;도입&nbsp;확대(4년)&nbsp;:&nbsp;4억원(군비)<br>○&nbsp;옥천형&nbsp;아이돌봄서비스&nbsp;지원&nbsp;확대(4년)&nbsp;:&nbsp;6억원(군비)<br>○&nbsp;대상포진&nbsp;무료접종&nbsp;확대(5,000명,&nbsp;평생&nbsp;1회)&nbsp;:&nbsp;6억원(군비)<br>○&nbsp;청소년&nbsp;독감(인플루엔자)&nbsp;무료접종(2,000명,&nbsp;매년&nbsp;1회)&nbsp;:&nbsp;2억원(군비)<br>○&nbsp;옥천군&nbsp;장애인&nbsp;자립·돌봄&nbsp;통합&nbsp;SOC&nbsp;구축&nbsp;:&nbsp;100억원&nbsp;(국도비,&nbsp;군비)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

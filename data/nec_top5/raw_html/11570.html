@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;오세훈 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	[주택1] 멈췄던 공급에 속도를! 압도적 주택공급</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="멈췄던 공급에 속도를! 압도적 주택공급">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;:&nbsp;‘신속통합기획&nbsp;2.0’으로&nbsp;'31년까지&nbsp;31만&nbsp;호&nbsp;착공<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;핵심전략정비구역&nbsp;지정으로&nbsp;3년&nbsp;내&nbsp;8.5만호&nbsp;신속&nbsp;착공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이주·착공&nbsp;단계에&nbsp;있는&nbsp;주요&nbsp;사업지를&nbsp;'핵심전략정비구역'으로&nbsp;관리<br>&nbsp;&nbsp;○&nbsp;정비사업&nbsp;규제&nbsp;혁파&nbsp;:&nbsp;쾌속통합,&nbsp;신통AI기획,&nbsp;신통120,&nbsp;신통확산<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;쾌속통합&nbsp;:&nbsp;추진위&nbsp;없이&nbsp;바로&nbsp;조합설립,&nbsp;사업시행인가-관리처분계획인가&nbsp;병행처리&nbsp;위한&nbsp;초단기&nbsp;트랙&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신통AI기획&nbsp;:&nbsp;복잡한&nbsp;법령&nbsp;검토&nbsp;및&nbsp;정비계획&nbsp;반려없이&nbsp;빠르게&nbsp;진행시키는&nbsp;인공지능&nbsp;시스템<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신통120&nbsp;:&nbsp;전화&nbsp;한&nbsp;통으로&nbsp;AI가&nbsp;재개발에&nbsp;관한&nbsp;모든&nbsp;문제를&nbsp;맞춤형으로&nbsp;컨설팅<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신통확산&nbsp;:　구역지정에서&nbsp;착공까지&nbsp;모든&nbsp;단계로,&nbsp;정비사업&nbsp;외&nbsp;대규모&nbsp;사업까지&nbsp;모든&nbsp;사업으로,&nbsp;자치구의&nbsp;업무까지&nbsp;모든&nbsp;단계로&nbsp;신속통합기획을&nbsp;표준으로&nbsp;확산<br>&nbsp;&nbsp;○&nbsp;강북&nbsp;주거&nbsp;개선&nbsp;쾌속질주를&nbsp;위한&nbsp;초강력&nbsp;인센티브&nbsp;6종&nbsp;세트<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성장잠재권&nbsp;용도상향&nbsp;:&nbsp;주요&nbsp;간선도로변을&nbsp;일반상업지역으로&nbsp;바꿔&nbsp;일자리·주거&nbsp;창출(대상지&nbsp;73%가&nbsp;강북+서남권)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사전협상제&nbsp;확대&nbsp;:&nbsp;개발잠재력이&nbsp;높지만&nbsp;방치되어&nbsp;있는&nbsp;민간&nbsp;부지개발로&nbsp;지역의&nbsp;성장동력&nbsp;창출(대상지&nbsp;136곳&nbsp;중&nbsp;강북&nbsp;51곳)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북형&nbsp;역세권사업&nbsp;확대&nbsp;:&nbsp;대상역세권을&nbsp;확대(153→325개)하고,&nbsp;강북+서남권에는&nbsp;공공기여&nbsp;부담을&nbsp;완화&nbsp;(증가용적률의&nbsp;50%→30%)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도심복합개발&nbsp;특례&nbsp;:&nbsp;환승&nbsp;역세권&nbsp;중심으로&nbsp;용적률&nbsp;최대&nbsp;1,300%까지&nbsp;허용하는&nbsp;미래형&nbsp;'콤팩트&nbsp;시티'&nbsp;구현(대상지의&nbsp;70%가&nbsp;강북+서남권)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업성&nbsp;보정계수&nbsp;도입&nbsp;:&nbsp;상대적으로&nbsp;사업성&nbsp;낮은&nbsp;강북·서남권의&nbsp;일반분양&nbsp;물량&nbsp;증가,&nbsp;임대물량&nbsp;축소(허용용적률&nbsp;추가&nbsp;20%→40%)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고도지구&nbsp;높이규제&nbsp;혁파&nbsp;:&nbsp;유연한&nbsp;강북스카이라인을&nbsp;위한&nbsp;경관보호&nbsp;규제&nbsp;해소(3,533세대)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;시작&nbsp;3년&nbsp;내&nbsp;8.5만&nbsp;호&nbsp;착공,&nbsp;'31년까지&nbsp;31만&nbsp;호&nbsp;착공<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민간정비사업이므로&nbsp;시&nbsp;재원&nbsp;투입&nbsp;불요.<br>&nbsp;&nbsp;○&nbsp;다만,&nbsp;신통AI기획,&nbsp;신통120&nbsp;실현에&nbsp;필요한&nbsp;시스템&nbsp;구축&nbsp;비용은&nbsp;시&nbsp;재정으로&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	[주택2] 무너진 주거이동 안전망을 복원하겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="무너진 주거이동 안전망을 복원하겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;’31년까지&nbsp;공공주택&nbsp;13만호&nbsp;공급과&nbsp;부담&nbsp;가능한&nbsp;민간임대&nbsp;지원&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;'31년까지&nbsp;공공주택&nbsp;약&nbsp;13만호&nbsp;공급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공임대주택&nbsp;12.3만&nbsp;호(장기전세주택&nbsp;재고&nbsp;10.6만&nbsp;호로&nbsp;확대&nbsp;포함)&nbsp;<br>건설형&nbsp;23천호,&nbsp;매입형(정비사업)&nbsp;47.8천호,&nbsp;매입형(역세권사업&nbsp;등)&nbsp;21.9천호,&nbsp;임차형&nbsp;30천호<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공분양주택(바로내집)&nbsp;6,500&nbsp;호<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;‘토지임대형’&nbsp;아파트&nbsp;6천호:&nbsp;비싼&nbsp;지가는&nbsp;서울시가&nbsp;안고,&nbsp;주택만&nbsp;분양해&nbsp;주변&nbsp;시세&nbsp;50%&nbsp;이하로&nbsp;내집&nbsp;마련,&nbsp;최대&nbsp;40년(1회&nbsp;연장&nbsp;가능)&nbsp;동안&nbsp;거주&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;‘할부형’&nbsp;아파트&nbsp;500호&nbsp;:&nbsp;집값의&nbsp;20%만&nbsp;내고&nbsp;먼저&nbsp;입주하고,&nbsp;나머지&nbsp;잔금은&nbsp;20년에&nbsp;걸쳐&nbsp;저리로&nbsp;갚아나가는&nbsp;신개념&nbsp;할부&nbsp;주택<br>&nbsp;&nbsp;○&nbsp;부담&nbsp;가능한&nbsp;민간임대&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;빌라,&nbsp;다세대&nbsp;건설&nbsp;지원&nbsp;매년&nbsp;1만&nbsp;호&nbsp;:&nbsp;주택진흥기금을&nbsp;활용해&nbsp;비아파트&nbsp;건설업자에&nbsp;14년&nbsp;만기,&nbsp;2%대&nbsp;고정금리로&nbsp;자금&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;리츠를&nbsp;통해&nbsp;정비사업&nbsp;이주자용&nbsp;빌라·다세대&nbsp;'31년까지&nbsp;10만&nbsp;호&nbsp;공급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주거비&nbsp;금융지원&nbsp;및&nbsp;월세&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;장기안심주택&nbsp;보증금&nbsp;무이자&nbsp;대출&nbsp;파격&nbsp;확대&nbsp;:&nbsp;보증금의&nbsp;30%→40%(최대&nbsp;7천만원),&nbsp;청년·신혼부부&nbsp;중심에서&nbsp;저소득&nbsp;중장년층,&nbsp;등록임대&nbsp;만료가구로&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;대출이자&nbsp;지원&nbsp;대상&nbsp;대폭&nbsp;확대&nbsp;:&nbsp;신혼부부&nbsp;입주&nbsp;부담&nbsp;완화를&nbsp;위한&nbsp;보증금&nbsp;분할납부제&nbsp;시행,&nbsp;계약갱신요구권&nbsp;만료자&nbsp;및&nbsp;중장년&nbsp;무주택&nbsp;세대주&nbsp;지원대상으로&nbsp;추가<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;주거바우처&nbsp;확대&nbsp;:&nbsp;대상에&nbsp;‘주거용&nbsp;오피스텔’&nbsp;거주&nbsp;가구&nbsp;전격&nbsp;추가<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;중장년&nbsp;월세&nbsp;지원&nbsp;도입&nbsp;:&nbsp;중위소득&nbsp;100%&nbsp;이하&nbsp;만&nbsp;40~64세&nbsp;무주택자에&nbsp;1년간&nbsp;월&nbsp;20만원&nbsp;+&nbsp;2년간&nbsp;월&nbsp;25만원씩&nbsp;적금&nbsp;납부시&nbsp;서울시가&nbsp;15만원&nbsp;추가&nbsp;적립해&nbsp;1천만원&nbsp;목돈&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;청년월세&nbsp;지원&nbsp;확대&nbsp;:&nbsp;지원기간&nbsp;10→12개월,&nbsp;한부모가족·전세사기피해자·무자녀&nbsp;청년&nbsp;신혼부부·청년안심주택&nbsp;거주자&nbsp;추가,&nbsp;미선정자도&nbsp;최대&nbsp;12개월,&nbsp;관리비&nbsp;월&nbsp;8만원&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;'31년까지&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;'서울시&nbsp;주택진흥기금'&nbsp;등&nbsp;시&nbsp;예산&nbsp;및&nbsp;기금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	[교통] 이동의 답답함을 풀어내는 서울 교통 대전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="이동의 답답함을 풀어내는 서울 교통 대전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;출·퇴근은&nbsp;더&nbsp;빠르게&nbsp;교통비는&nbsp;더&nbsp;가볍게<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;강북+서남권&nbsp;교통&nbsp;대동맥&nbsp;연결에&nbsp;총&nbsp;20.8조&nbsp;원&nbsp;투입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북횡단&nbsp;지하도시고속도로(~'37년&nbsp;3.4조원)·남부순환지하고속도로(~'37년&nbsp;1.7조원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시철도&nbsp;7개&nbsp;노선&nbsp;조기&nbsp;완공에&nbsp;9.2조원&nbsp;투입<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;예비타당성조사&nbsp;조속&nbsp;통과(사업성&nbsp;제고,&nbsp;예타제도&nbsp;개선)&nbsp;:&nbsp;강북횡단선,&nbsp;목동선,&nbsp;난곡선&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;민자&nbsp;&&nbsp;재정사업&nbsp;병행&nbsp;추진&nbsp;:&nbsp;서부선<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;충분한&nbsp;자금&nbsp;투입으로&nbsp;완공&nbsp;:&nbsp;우이신설연장선,&nbsp;동북선,&nbsp;면목선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동부간선도로&nbsp;지하화&nbsp;등&nbsp;6개&nbsp;사업&nbsp;완공에&nbsp;6.5조원&nbsp;투입<br>&nbsp;&nbsp;○&nbsp;소통하며&nbsp;달리는&nbsp;똑똑한&nbsp;간격&nbsp;유지&nbsp;시스템(CBTC)으로&nbsp;지하철&nbsp;배차간격&nbsp;단축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단계적&nbsp;확대&nbsp;:&nbsp;우이신설선('26년~)&nbsp;→&nbsp;혼잡도&nbsp;높은&nbsp;9호선&nbsp;및&nbsp;2호선&nbsp;→&nbsp;전&nbsp;노선&nbsp;적용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;배차간격&nbsp;단축으로&nbsp;열차&nbsp;혼잡도&nbsp;20%p&nbsp;이상,&nbsp;대기시간&nbsp;0.5분~1분&nbsp;감축<br>&nbsp;&nbsp;○&nbsp;기후동행카드를&nbsp;‘서울기후동행패스’로&nbsp;업그레이드해&nbsp;교통복지&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기후동행카드는&nbsp;'26년&nbsp;1월&nbsp;전국화되었으므로,&nbsp;K-패스와&nbsp;결합&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;70세&nbsp;이상의&nbsp;K패스&nbsp;적용되지&nbsp;않는&nbsp;월&nbsp;15회&nbsp;미만&nbsp;이용자에&nbsp;대해&nbsp;교통비&nbsp;100%&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX-A,&nbsp;신분당선의&nbsp;서울구간&nbsp;기후동행패스&nbsp;적용<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;~&nbsp;'37년&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;:&nbsp;서울시·서울교통공사&nbsp;및&nbsp;기금&nbsp;조성을&nbsp;통한&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;교통대동맥&nbsp;20.8조원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공기여분·공공부지&nbsp;매각수입&nbsp;등을&nbsp;재원으로&nbsp;하는&nbsp;'강북전성시대기금'&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;무선통신시스템&nbsp;:&nbsp;시비&nbsp;및&nbsp;서울교통공사&nbsp;예산<br>&nbsp;&nbsp;○&nbsp;서울기후동행패스(국고지원&nbsp;및&nbsp;시비)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	[복지] 더 따뜻한 서울, 약자와의 동행 시즌 2</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="더 따뜻한 서울, 약자와의 동행 시즌 2">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;생애주기별&nbsp;맞춤형&nbsp;안심돌봄체계&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;디딤돌&nbsp;소득&nbsp;2.0&nbsp;:&nbsp;돌봄취약계층에&nbsp;소득&nbsp;지원부터&nbsp;자산&nbsp;형성까지&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;가족돌봄청년,&nbsp;청년&nbsp;저소득&nbsp;한부모,&nbsp;발달장애아동&nbsp;가구&nbsp;1천&nbsp;가구<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2년간&nbsp;돌봄수요&nbsp;및&nbsp;소득수준에&nbsp;따라&nbsp;매월&nbsp;80만원~110만원&nbsp;소득&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래디딤돌&nbsp;통장&nbsp;=&nbsp;수급기간&nbsp;2년(의무)&nbsp;+&nbsp;수급&nbsp;종료&nbsp;후&nbsp;2년(선택)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;저축액&nbsp;1:1매칭(월&nbsp;최대&nbsp;20만원)&nbsp;→&nbsp;4년간&nbsp;2천만원&nbsp;자산&nbsp;형성&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;‘서울런’&nbsp;초중고&nbsp;학생&nbsp;소득기준&nbsp;하위&nbsp;70%까지&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;EBS&nbsp;및&nbsp;교육&nbsp;전문&nbsp;플랫폼에서&nbsp;제공되는&nbsp;누구나&nbsp;듣고&nbsp;싶어하는&nbsp;고품질&nbsp;인강과&nbsp;교재<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학원생&nbsp;매칭&nbsp;1:1&nbsp;멘토링&nbsp;및&nbsp;코칭,&nbsp;AI&nbsp;학습진단,&nbsp;진로특강,&nbsp;인문소양강좌&nbsp;등<br>&nbsp;&nbsp;○&nbsp;내&nbsp;집&nbsp;근처&nbsp;초등돌봄&nbsp;시설&nbsp;130개&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우리동네&nbsp;키움플러스+&nbsp;100개,&nbsp;지역아동센터&nbsp;30개<br>&nbsp;&nbsp;○&nbsp;낀세대&nbsp;연금(서울형&nbsp;IRP)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;10년간&nbsp;월&nbsp;8만원&nbsp;+&nbsp;시&nbsp;지원&nbsp;2만원(매년&nbsp;2만명)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;은퇴&nbsp;후&nbsp;국민연금&nbsp;수령&nbsp;전까지&nbsp;월&nbsp;21~26만원(운용수익률&nbsp;2~6%)<br>&nbsp;&nbsp;○&nbsp;‘살던&nbsp;동네서&nbsp;품격&nbsp;노후’(AIP)를&nbsp;위한&nbsp;주거·여가·의료&nbsp;등&nbsp;통합지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방문진료&nbsp;:&nbsp;非요양등급자의&nbsp;본인부담금&nbsp;80%&nbsp;지원,&nbsp;장기요양&nbsp;초기·재가&nbsp;고위험군&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄&nbsp;SOS서비스&nbsp;이용한도&nbsp;20만원&nbsp;확대,&nbsp;동네&nbsp;일자리&nbsp;연&nbsp;15만개&nbsp;제공,&nbsp;고령친화&nbsp;리모델링&nbsp;지원,&nbsp;우리동네&nbsp;활력충전소&nbsp;120개&nbsp;설치,&nbsp;파크골프장&nbsp;120개로&nbsp;확충,&nbsp;고지대·급경사&nbsp;지역에&nbsp;수직·경사형&nbsp;엘리베이터·모노레일&nbsp;설치<br><br>□&nbsp;이행기간&nbsp;:&nbsp;민선&nbsp;9기&nbsp;임기(일부사업은&nbsp;사회보장협의&nbsp;완료&nbsp;이후부터)<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;:&nbsp;서울시&nbsp;재정으로&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	[산업일자리] 매년 100만 기회, 내일이 더 기대되는 서울</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="매년 100만 기회, 내일이 더 기대되는 서울">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;매년&nbsp;100만&nbsp;서울&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;고용&nbsp;유발<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;'넥스트이코노미&nbsp;서울'&nbsp;전략으로&nbsp;연간&nbsp;일자리&nbsp;15.1만개&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;[동북권]&nbsp;강북의&nbsp;내일을&nbsp;바이오와&nbsp;하이테크로&nbsp;설계<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[서북권]&nbsp;상상이&nbsp;직업이&nbsp;되는&nbsp;곳,&nbsp;K-콘텐츠의&nbsp;본산으로&nbsp;도약<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[도심권]&nbsp;글로벌&nbsp;자본과&nbsp;문화가&nbsp;교차하는&nbsp;서울의&nbsp;중심을&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[동남권]&nbsp;AI와&nbsp;로봇,&nbsp;퀀텀이&nbsp;숨&nbsp;쉬는&nbsp;미래&nbsp;기술의&nbsp;최전선<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[서남권]&nbsp;전통&nbsp;제조와&nbsp;미래&nbsp;AI가&nbsp;만나는&nbsp;대한민국&nbsp;산업의&nbsp;뿌리<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4조원&nbsp;규모(2천억원&nbsp;서울시&nbsp;출자)의&nbsp;투자펀드&nbsp;'넥스트이코노미&nbsp;서울펀드'&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울투자진흥재단을&nbsp;통한&nbsp;연&nbsp;5천억원&nbsp;해외&nbsp;투자&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;직업훈련·일자리알선으로&nbsp;연간&nbsp;고용&nbsp;10.9만명&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년취업사관학교,&nbsp;중장년취업사관학교,&nbsp;기술인재사관학교&nbsp;등&nbsp;미래&nbsp;산업&nbsp;중심&nbsp;직업&nbsp;훈련&nbsp;및&nbsp;스마트&nbsp;고용&nbsp;서비스&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;약자동행&nbsp;공공일자리&nbsp;사업으로&nbsp;연간&nbsp;일자리&nbsp;26.2만개&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;관광산업&nbsp;활성화를&nbsp;통해&nbsp;연간&nbsp;고용&nbsp;유발&nbsp;46.3만명&nbsp;유발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;'30년까지&nbsp;관광객&nbsp;3천만명&nbsp;달성을&nbsp;위한&nbsp;서울관광&nbsp;미래비전&nbsp;3·3·7·7&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;외래관광객&nbsp;수&nbsp;3천만명,&nbsp;1인당&nbsp;지출액&nbsp;3백만원,&nbsp;체류일&nbsp;수&nbsp;7일,&nbsp;관광객&nbsp;재방문율&nbsp;70%<br>&nbsp;<br>□&nbsp;이행기간&nbsp;:&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;중&nbsp;매년<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;:&nbsp;서울시&nbsp;재정&nbsp;및&nbsp;펀드&nbsp;조성으로&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

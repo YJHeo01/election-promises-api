@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김성수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	농가소득 혁명 ‘영농형 태양광&스마트팜’</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="농가소득 혁명 ‘영농형 태양광&스마트팜’">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농가마다&nbsp;‘꼬박꼬박&nbsp;100만&nbsp;원’&nbsp;소득&nbsp;보장&nbsp;(연&nbsp;1,200만&nbsp;원&nbsp;추가&nbsp;수익)<br>&nbsp;&nbsp;○&nbsp;외지&nbsp;자본&nbsp;배제!&nbsp;‘농민·마을&nbsp;주도형’&nbsp;수익&nbsp;모델&nbsp;확립<br>&nbsp;&nbsp;○&nbsp;'AI&nbsp;스마트팜'&nbsp;결합으로&nbsp;대한민국&nbsp;농업의&nbsp;미래&nbsp;선도<br>&nbsp;&nbsp;○&nbsp;다툼&nbsp;없는&nbsp;태양광,&nbsp;‘이익&nbsp;공유제’&nbsp;제도화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;햇빛&nbsp;연금&nbsp;시대&nbsp;:&nbsp;영농형&nbsp;태양광(100KW&nbsp;기준)&nbsp;도입&nbsp;시,&nbsp;농사를&nbsp;그대로&nbsp;지으면서도&nbsp;연간&nbsp;약&nbsp;1,200만&nbsp;원(월평균&nbsp;100만&nbsp;원&nbsp;수준)의&nbsp;추가&nbsp;수익을&nbsp;올릴&nbsp;수&nbsp;있도록&nbsp;지원하겠습니다.<br>&nbsp;&nbsp;○&nbsp;우리&nbsp;마을&nbsp;SPC(특수목적법인)&nbsp;육성&nbsp;:&nbsp;농민과&nbsp;마을&nbsp;주민이&nbsp;주인이&nbsp;되는&nbsp;협동조합과&nbsp;마을&nbsp;기업을&nbsp;세우겠습니다.&nbsp;사업의&nbsp;주도권과&nbsp;수익의&nbsp;전권을&nbsp;우리&nbsp;부안&nbsp;농민들이&nbsp;직접&nbsp;쥐도록&nbsp;행정·금융&nbsp;지원을&nbsp;아끼지&nbsp;않겠습니다.<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;결합&nbsp;스마트&nbsp;단지&nbsp;:&nbsp;태양광&nbsp;시설과&nbsp;AI(인공지능)&nbsp;기반&nbsp;스마트팜&nbsp;기술을&nbsp;결합하겠습니다.&nbsp;기후&nbsp;변화에&nbsp;영향받지&nbsp;않고&nbsp;최적의&nbsp;생육&nbsp;환경을&nbsp;유지하여,&nbsp;노동력은&nbsp;줄이고&nbsp;수확량은&nbsp;늘리는&nbsp;'스마트&nbsp;부안&nbsp;농업'의&nbsp;표준을&nbsp;만들겠습니다.<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;수용성&nbsp;최우선&nbsp;:&nbsp;사업&nbsp;시작&nbsp;전&nbsp;주민&nbsp;의견&nbsp;수렴을&nbsp;법적&nbsp;절차보다&nbsp;더&nbsp;까다롭게&nbsp;의무화하겠습니다.&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;마을&nbsp;발전기금&nbsp;조성&nbsp;:&nbsp;발전&nbsp;수익의&nbsp;일부를&nbsp;반드시&nbsp;마을&nbsp;발전기금으로&nbsp;환원하여,&nbsp;태양광이&nbsp;들어온&nbsp;마을&nbsp;전체의&nbsp;복지(경로당&nbsp;지원,&nbsp;공동&nbsp;취사&nbsp;등)가&nbsp;함께&nbsp;좋아지는&nbsp;구조를&nbsp;만들겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	 부안형 청년 유입 모델 구축 (젊은 부안 만들기)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title=" 부안형 청년 유입 모델 구축 (젊은 부안 만들기)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;인구&nbsp;유입을&nbsp;통해&nbsp;지역&nbsp;소멸&nbsp;위기&nbsp;대응<br>&nbsp;&nbsp;○&nbsp;정착&nbsp;중심의&nbsp;지속&nbsp;가능한&nbsp;청년&nbsp;생태계&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;일자리·주거·커뮤니티가&nbsp;결합된&nbsp;정착&nbsp;모델&nbsp;실험<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;(1년차&nbsp;시범운영)&nbsp;:&nbsp;청년&nbsp;100명&nbsp;전입&nbsp;시범사업&nbsp;추진(단계별&nbsp;규모&nbsp;확대)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만&nbsp;19세~39세&nbsp;청년&nbsp;100명&nbsp;유치:&nbsp;개인&nbsp;및&nbsp;팀&nbsp;단위&nbsp;선발&nbsp;(창업·취업·프리랜서&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공개&nbsp;모집&nbsp;→&nbsp;선발&nbsp;→&nbsp;사전&nbsp;교육&nbsp;→&nbsp;전입&nbsp;및&nbsp;정착&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;2단계&nbsp;(2~3년차)&nbsp;:&nbsp;사람&nbsp;끌어오기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;핵심정책<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;청년&nbsp;정착&nbsp;패키지&nbsp;구성:&nbsp;주거&nbsp;+&nbsp;일자리&nbsp;+&nbsp;생활&nbsp;지원&nbsp;묶음&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;원격근무&nbsp;기업&nbsp;20개&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;농식품&nbsp;창업&nbsp;50팀&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;연&nbsp;1,000명&nbsp;규모&nbsp;체류형&nbsp;관광(워케이션)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;목표:&nbsp;연간&nbsp;500~800명&nbsp;유입<br>&nbsp;&nbsp;&nbsp;○&nbsp;3단계&nbsp;(3~5년차)&nbsp;:&nbsp;정착&nbsp;유도<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;핵심정책<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;소아과·교육&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지역&nbsp;커뮤니티&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;장기&nbsp;거주&nbsp;인센티브&nbsp;(3년&nbsp;이상&nbsp;거주&nbsp;시&nbsp;추가&nbsp;지원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;목표&nbsp;:&nbsp;유입&nbsp;인구의&nbsp;50%&nbsp;이상&nbsp;정착<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2031년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;5년&nbsp;총&nbsp;:&nbsp;약&nbsp;1,000억~2,000억&nbsp;원&nbsp;규모(국가&nbsp;및&nbsp;전북도&nbsp;기존&nbsp;예산으로&nbsp;가능)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	특혜 없는‘공정 부안’(반칙 제로)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="특혜 없는‘공정 부안’(반칙 제로)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;‘부안&nbsp;업체&nbsp;우선&nbsp;계약제’&nbsp;전격&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;‘성과&nbsp;중심’&nbsp;인사&nbsp;혁신<br>&nbsp;&nbsp;○&nbsp;‘군수&nbsp;친인척·측근’&nbsp;수의계약&nbsp;원천&nbsp;봉쇄<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;우선&nbsp;배정&nbsp;:&nbsp;군에서&nbsp;발주하는&nbsp;모든&nbsp;공사와&nbsp;물품&nbsp;구매&nbsp;시,&nbsp;실력있는&nbsp;부안&nbsp;지역&nbsp;업체와&nbsp;소상공인에게&nbsp;최우선권을&nbsp;부여하겠습니다.&nbsp;신규·영세업체&nbsp;참여&nbsp;가점제&nbsp;도입,&nbsp;분야별&nbsp;업체를&nbsp;데이터베이스화&nbsp;하겠습니다.<br>&nbsp;&nbsp;○&nbsp;외지&nbsp;업체&nbsp;배제&nbsp;및&nbsp;주민&nbsp;참여&nbsp;:&nbsp;지역&nbsp;사정을&nbsp;가장&nbsp;잘&nbsp;아는&nbsp;우리&nbsp;주민들이&nbsp;공사&nbsp;과정에&nbsp;직접&nbsp;참여하고&nbsp;감시할&nbsp;수&nbsp;있도록&nbsp;‘주민참여&nbsp;의무화&nbsp;제도’를&nbsp;도입해&nbsp;예산의&nbsp;외부&nbsp;유출을&nbsp;철저히&nbsp;막겠습니다.<br>&nbsp;&nbsp;○&nbsp;승진&nbsp;시스템&nbsp;대개혁&nbsp;:&nbsp;학연,&nbsp;지연,&nbsp;정치적&nbsp;줄서기는&nbsp;더&nbsp;이상&nbsp;승진의&nbsp;도구가&nbsp;될&nbsp;수&nbsp;없습니다.&nbsp;오직&nbsp;군민&nbsp;만족도와&nbsp;업무&nbsp;성과로만&nbsp;평가받는&nbsp;투명한&nbsp;인사시스템을&nbsp;구축하겠습니다.<br>&nbsp;&nbsp;○&nbsp;무관용&nbsp;원칙&nbsp;:&nbsp;군수의&nbsp;친인척이나&nbsp;측근이&nbsp;운영하는&nbsp;업체는&nbsp;이유&nbsp;여하를&nbsp;막론하고&nbsp;모든&nbsp;수의계약에서&nbsp;원천&nbsp;배제하겠습니다.&nbsp;계약&nbsp;편중&nbsp;발생&nbsp;시&nbsp;내부&nbsp;감사&nbsp;강화,&nbsp;감사결과&nbsp;군민&nbsp;공개&nbsp;원칙&nbsp;확립하겠습니다.<br>&nbsp;&nbsp;○&nbsp;투명한&nbsp;계약&nbsp;공공&nbsp;감시&nbsp;:&nbsp;모든&nbsp;계약&nbsp;과정을&nbsp;군민에게&nbsp;실시간으로&nbsp;공개하여,&nbsp;단&nbsp;1원의&nbsp;세금도&nbsp;사적인&nbsp;이익을&nbsp;위해&nbsp;사용되지&nbsp;않도록&nbsp;‘유리창&nbsp;행정’을&nbsp;구현하겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;○&nbsp;2026년~</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	「주식회사 부안군청」“군민 소득 2배, 일자리 중심 행정혁신”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="「주식회사 부안군청」“군민 소득 2배, 일자리 중심 행정혁신”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;‘군민의&nbsp;실질소득&nbsp;증대와&nbsp;양질의&nbsp;일자리&nbsp;창출’을&nbsp;행정의&nbsp;목표로&nbsp;확립<br>&nbsp;&nbsp;○&nbsp;무분별한&nbsp;전시행정(행사·시설유지)&nbsp;대폭&nbsp;축소,&nbsp;군민&nbsp;소득증대&nbsp;행정으로&nbsp;재설계<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;조직구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군수&nbsp;직속「소득·일자리&nbsp;전략본부」신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;데이터&nbsp;기반&nbsp;성과관리&nbsp;시스템&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;승진&nbsp;심사&nbsp;시&nbsp;“군민&nbsp;소득증대&nbsp;기여도”반영<br>&nbsp;&nbsp;○&nbsp;협력&nbsp;구조&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농협·수협·상공회의소·청년단체와&nbsp;공동&nbsp;목표&nbsp;설정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;금융기관과&nbsp;연계한&nbsp;투자&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;고도화&nbsp;전략<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소득통계&nbsp;데이터화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업별&nbsp;매출&nbsp;추적&nbsp;시스템&nbsp;구축,&nbsp;성과평가&nbsp;외부전문가&nbsp;참여<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~&nbsp;<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;행정예산&nbsp;구조조정&nbsp;중심(별도&nbsp;대규모&nbsp;신규&nbsp;재정투입&nbsp;최소화)<br>&nbsp;&nbsp;○&nbsp;성과&nbsp;보상&nbsp;체계&nbsp;개편&nbsp;및&nbsp;인센티브&nbsp;예산&nbsp;일부&nbsp;조정<br><br>□&nbsp;보완사항<br>&nbsp;&nbsp;○&nbsp;승진·성과급&nbsp;제도&nbsp;법적&nbsp;한계&nbsp;:&nbsp;지방공무원법&nbsp;범위&nbsp;내&nbsp;인사&nbsp;평가&nbsp;세부&nbsp;지표&nbsp;개편&nbsp;중앙정부&nbsp;협의&nbsp;통한&nbsp;성과평가&nbsp;자율성&nbsp;확대&nbsp;요청<br>&nbsp;&nbsp;○&nbsp;성과&nbsp;수치화의&nbsp;어려움&nbsp;:&nbsp;단기성과&nbsp;+&nbsp;중장기지표&nbsp;병행,&nbsp;정성+정량평가&nbsp;혼합모델&nbsp;도입</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	 곰소젓갈‘전국 점유율 5%’달성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title=" 곰소젓갈‘전국 점유율 5%’달성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;[인프라]&nbsp;국가&nbsp;차원의&nbsp;‘K-젓갈&nbsp;복합문화센터’&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;[유통]&nbsp;대기업(CJ·풀무원&nbsp;등)&nbsp;파트너십&nbsp;및&nbsp;OEM&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;[브랜딩]&nbsp;‘곰소&nbsp;천일염’이&nbsp;만든&nbsp;명품&nbsp;젓갈의&nbsp;자부심<br>&nbsp;&nbsp;○&nbsp;[디지털]&nbsp;‘곰소&nbsp;라이브&nbsp;커머스’&nbsp;및&nbsp;온라인&nbsp;통합몰&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;체험형&nbsp;관광&nbsp;상품화&nbsp;:&nbsp;‘K-젓갈&nbsp;복합문화센터’를&nbsp;세우겠습니다.&nbsp;인근&nbsp;곰소염전과&nbsp;연계해&nbsp;‘직접&nbsp;구운&nbsp;소금으로&nbsp;담그는&nbsp;명품&nbsp;젓갈&nbsp;체험’&nbsp;등&nbsp;가족&nbsp;단위&nbsp;관광객을&nbsp;유치하는&nbsp;킬러&nbsp;콘텐츠를&nbsp;개발하겠습니다.<br>&nbsp;&nbsp;○&nbsp;대기업&nbsp;전략적&nbsp;제휴&nbsp;:&nbsp;CJ제일제당,&nbsp;풀무원&nbsp;등&nbsp;국내&nbsp;유수의&nbsp;식품&nbsp;기업과&nbsp;원료&nbsp;공급&nbsp;및&nbsp;OEM(주문자&nbsp;상표&nbsp;부착&nbsp;생산)&nbsp;협약을&nbsp;추진하겠습니다.<br>&nbsp;&nbsp;○&nbsp;B2B&nbsp;시장&nbsp;공략&nbsp;:&nbsp;전국&nbsp;유명&nbsp;프랜차이즈&nbsp;식당&nbsp;및&nbsp;식자재&nbsp;마트와의&nbsp;직거래망을&nbsp;구축해&nbsp;안정적인&nbsp;판로를&nbsp;확보하겠습니다.<br>&nbsp;&nbsp;○&nbsp;염전-젓갈&nbsp;클러스터&nbsp;:&nbsp;곰소염전에서&nbsp;생산된&nbsp;고품질&nbsp;천일염을&nbsp;사용하는&nbsp;업체에&nbsp;‘부안&nbsp;군수&nbsp;인증&nbsp;골드&nbsp;마크’를&nbsp;부여하겠습니다.&nbsp;프리미엄&nbsp;브랜딩으로&nbsp;타지역&nbsp;제품보다&nbsp;20%&nbsp;더&nbsp;비싸게&nbsp;팔리는&nbsp;명품화를&nbsp;추진하겠습니다.<br>&nbsp;&nbsp;○&nbsp;온라인&nbsp;영토&nbsp;확장&nbsp;:&nbsp;곰소젓갈&nbsp;전용&nbsp;온라인&nbsp;통합&nbsp;플랫폼을&nbsp;구축하고,&nbsp;전문쇼&nbsp;호스트를&nbsp;초빙해&nbsp;상설&nbsp;라이브&nbsp;커머스를&nbsp;운영하겠습니다.<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;배송&nbsp;시스템&nbsp;:&nbsp;전국&nbsp;어디서나&nbsp;오늘&nbsp;주문하면&nbsp;내일&nbsp;아침&nbsp;식탁에&nbsp;오르는&nbsp;콜드체인(저온&nbsp;유통)&nbsp;배송망&nbsp;지원&nbsp;사업을&nbsp;실시하겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~&nbsp;<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;농림식품부와&nbsp;협의하여&nbsp;국비&nbsp;확보</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

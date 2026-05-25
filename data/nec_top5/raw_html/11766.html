@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;장신상 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	매월 20만원 소득이 내통장으로!!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="매월 20만원 소득이 내통장으로!!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            정부의&nbsp;농어촌&nbsp;기본소득&nbsp;시범&nbsp;공모사업&nbsp;참여<br>마을단위&nbsp;‘햇빛소득마을’&nbsp;태양광&nbsp;사업&nbsp;추진<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;정부의&nbsp;농어촌&nbsp;기본소득&nbsp;시범&nbsp;공모사업&nbsp;참여&nbsp;및&nbsp;유치를&nbsp;통한&nbsp;횡성군민&nbsp;기본소득&nbsp;매월&nbsp;20만원&nbsp;지급&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부의&nbsp;농어촌&nbsp;기본소득&nbsp;시범&nbsp;공모사업(15만원)&nbsp;+&nbsp;군비&nbsp;5만원<br>&nbsp;&nbsp;○&nbsp;마을단위&nbsp;햇빛소득&nbsp;태양광&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;햇빛소득마을&nbsp;사업을&nbsp;통한&nbsp;마을&nbsp;단위&nbsp;부가가치&nbsp;창출<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;농어촌&nbsp;기본소득&nbsp;추가&nbsp;공모사업&nbsp;참여<br>&nbsp;&nbsp;○&nbsp;마을단위&nbsp;햇빛소득마을&nbsp;태양광&nbsp;사업&nbsp;민관&nbsp;공조&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정부의&nbsp;농어촌&nbsp;기본소득&nbsp;시범&nbsp;공모사업을&nbsp;통한&nbsp;전&nbsp;횡성군민&nbsp;매월&nbsp;20만원&nbsp;지급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비(15만원)&nbsp;및&nbsp;군비(5만원)<br>&nbsp;&nbsp;○&nbsp;햇빛소득마을&nbsp;태양광&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비&nbsp;및&nbsp;민간자본</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	모두가 함께 부유해지는 500만 관광 도시 횡성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="모두가 함께 부유해지는 500만 관광 도시 횡성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            500만&nbsp;관광도시&nbsp;육성을&nbsp;통해&nbsp;관광산업&nbsp;성과로&nbsp;지역&nbsp;경제&nbsp;활성화<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;500만&nbsp;관광산업&nbsp;성과로&nbsp;자영업자/소상공인과&nbsp;농민들의&nbsp;소득으로&nbsp;연결,&nbsp;지역경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;이재명&nbsp;정부&nbsp;‘지역관광&nbsp;대도약’&nbsp;정책과&nbsp;공조/추진<br>&nbsp;&nbsp;○&nbsp;횡성호수정원을&nbsp;횡성&nbsp;관광의&nbsp;허브(중심축)로&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;분야별(자연,&nbsp;역사,&nbsp;인문&nbsp;등)&nbsp;지역&nbsp;관광&nbsp;상품&nbsp;콘텐츠&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동치악&nbsp;인문관광의&nbsp;성지화,&nbsp;달빛&nbsp;섬강&nbsp;정원길(가든웨이)&nbsp;벨트&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;태기산과&nbsp;청정&nbsp;청일의&nbsp;웰니스&nbsp;관광<br>&nbsp;&nbsp;○&nbsp;횡성을&nbsp;상징할&nbsp;수&nbsp;있는&nbsp;랜드마크&nbsp;조성사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;횡성&nbsp;8대&nbsp;명품의&nbsp;맛집&nbsp;발굴&nbsp;및&nbsp;육성으로&nbsp;관광&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;지역축제의&nbsp;콘텐츠&nbsp;강화와&nbsp;지역&nbsp;관광의&nbsp;연계로&nbsp;관광객&nbsp;유인&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;관광객&nbsp;및&nbsp;스포츠마케팅을&nbsp;위한&nbsp;숙박&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;농촌관광&nbsp;새마을운동으로&nbsp;관광산업&nbsp;추진&nbsp;구심체&nbsp;마련&nbsp;및&nbsp;농촌경제&nbsp;구조의&nbsp;전환<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;·&nbsp;도비&nbsp;·&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	묵계리 전기차 산업(이모빌리티) 생태계 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="묵계리 전기차 산업(이모빌리티) 생태계 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            묵계리&nbsp;전기차(이모빌리티)&nbsp;산업&nbsp;생태계&nbsp;완전&nbsp;구축을&nbsp;통한&nbsp;거점도시로&nbsp;확대<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;묵계리&nbsp;전기차(이모빌리티)&nbsp;산업&nbsp;생태계&nbsp;완전&nbsp;구축을&nbsp;통한&nbsp;거점도시로&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;이모빌리티&nbsp;지식산업센터&nbsp;및&nbsp;연구실증단지&nbsp;활성화&nbsp;적극&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;유관기업의&nbsp;유치와&nbsp;창업지원&nbsp;등&nbsp;이모빌리티&nbsp;집적화&nbsp;단지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;피지컬&nbsp;AI로봇&nbsp;산업으로&nbsp;확장&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;관련&nbsp;산업&nbsp;종사자들을&nbsp;위한&nbsp;배후&nbsp;정주환경&nbsp;마련<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;·&nbsp;도비&nbsp;·&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	더 편리한 대중교통 운영</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="더 편리한 대중교통 운영">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            부르면&nbsp;오는&nbsp;콜택시&nbsp;개념의&nbsp;시내버스·마을버스·택시&nbsp;운영<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;부르면&nbsp;오는&nbsp;콜택시&nbsp;개념의&nbsp;시내버스·마을버스·택시&nbsp;운영&nbsp;시스템으로&nbsp;개선&nbsp;및&nbsp;확충을&nbsp;통한&nbsp;교통&nbsp;편리&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;수요자&nbsp;응답형&nbsp;&&nbsp;거점&nbsp;환승&nbsp;체계&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;·&nbsp;도비&nbsp;·&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	건강한 100세 시대를 여는 군민체육시설 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="건강한 100세 시대를 여는 군민체육시설 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            건강한&nbsp;100세&nbsp;시대를&nbsp;여는&nbsp;군민체육시설&nbsp;확대로&nbsp;활기&nbsp;넘치는&nbsp;횡성&nbsp;문화&nbsp;조성<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;남녀노소&nbsp;누구나&nbsp;건강한&nbsp;생활을&nbsp;영위할&nbsp;수&nbsp;있도록&nbsp;생활&nbsp;체육&nbsp;인프라&nbsp;구축&nbsp;및&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;36홀&nbsp;파크골프장&nbsp;마련&nbsp;및&nbsp;9개&nbsp;읍면별&nbsp;순차적&nbsp;파크골프장&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;게이트볼,&nbsp;그라운드&nbsp;골프&nbsp;인프라&nbsp;보강<br>&nbsp;&nbsp;○&nbsp;장애인&nbsp;체육관&nbsp;건립&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;·&nbsp;도비&nbsp;·&nbsp;군비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

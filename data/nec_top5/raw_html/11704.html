@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;오영준 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	생산과 소비가 함께하는 동성로 ― 중구형 중심업무지구 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="생산과 소비가 함께하는 동성로 ― 중구형 중심업무지구 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;&nbsp;중구&nbsp;도심의&nbsp;문제는&nbsp;'소비만&nbsp;하는&nbsp;도시'.&nbsp;동성로를&nbsp;생산하고&nbsp;소비하는&nbsp;공간으로&nbsp;전환<br>-&nbsp;금융·의료·창업·행정&nbsp;기능을&nbsp;중구에&nbsp;집적해&nbsp;평일에도&nbsp;사람이&nbsp;일하고&nbsp;소비하는&nbsp;원도심&nbsp;조성<br>-&nbsp;대백&nbsp;본점·동성로·경북대병원·시청권을&nbsp;연결하는&nbsp;중구형&nbsp;중심업무지구&nbsp;조성<br>-&nbsp;공실&nbsp;상가와&nbsp;유휴&nbsp;건물을&nbsp;업무·창업·생활서비스&nbsp;공간으로&nbsp;전환<br>-&nbsp;도심&nbsp;일자리와&nbsp;평일&nbsp;유동인구를&nbsp;회복해&nbsp;동성로&nbsp;상권이&nbsp;스스로&nbsp;살아나는&nbsp;구조&nbsp;마련<br><br>□&nbsp;이행방법<br>○&nbsp;대구시·중구·지역&nbsp;국회의원·민간전문가&nbsp;협의체를&nbsp;구성해&nbsp;유치기관과&nbsp;후보지&nbsp;확정<br>-&nbsp;IBK·KIC·KOTRA·K-SURE&nbsp;등&nbsp;금융·통상&nbsp;공공기관&nbsp;유치&nbsp;가능성을&nbsp;단계별로&nbsp;검토<br>-&nbsp;대백&nbsp;본점&nbsp;블록,&nbsp;동성로&nbsp;공실,&nbsp;경북대병원&nbsp;주변&nbsp;환경정비를&nbsp;권역별&nbsp;실행계획으로&nbsp;관리<br>-&nbsp;대백&nbsp;본점&nbsp;장기&nbsp;공백&nbsp;구간은&nbsp;임시활용,&nbsp;민간투자,&nbsp;공공기능&nbsp;유치&nbsp;시나리오를&nbsp;병행&nbsp;검토<br>-&nbsp;청년&nbsp;창업·도심캠퍼스·보행환경&nbsp;개선사업을&nbsp;중심업무지구&nbsp;활성화&nbsp;사업과&nbsp;연동<br>-&nbsp;건물주·상인회·대학·병원&nbsp;협약을&nbsp;통해&nbsp;임대·입주·운영&nbsp;조건&nbsp;사전&nbsp;조율<br>-&nbsp;공실률,&nbsp;입주기관,&nbsp;유동인구,&nbsp;신규&nbsp;창업공간을&nbsp;분기별&nbsp;관리지표로&nbsp;설정<br>-&nbsp;추진상황은&nbsp;주민과&nbsp;상인회에&nbsp;정례&nbsp;보고하고&nbsp;지연&nbsp;사유와&nbsp;보완계획을&nbsp;공개<br><br>□&nbsp;이행기간<br>○&nbsp;2026년&nbsp;~&nbsp;2030년<br>-&nbsp;2026년&nbsp;후보지·협의체&nbsp;구성,&nbsp;2027년&nbsp;실행계획&nbsp;수립,&nbsp;2028년&nbsp;이후&nbsp;단계&nbsp;추진<br>-&nbsp;2027년&nbsp;유치기관&nbsp;협의와&nbsp;공실&nbsp;활용&nbsp;시범사업&nbsp;착수<br>-&nbsp;2028년&nbsp;~&nbsp;2030년&nbsp;중심업무지구&nbsp;기반시설·입주·상권&nbsp;회복사업&nbsp;단계별&nbsp;확대<br><br>□&nbsp;재원조달방법&nbsp;등<br>○&nbsp;국비&nbsp;공모사업,&nbsp;시비·구비&nbsp;매칭,&nbsp;도시재생·상권활성화·공공기관&nbsp;이전&nbsp;관련&nbsp;재원&nbsp;연계<br>-&nbsp;민간&nbsp;건물주·상인회·대학·기관&nbsp;협약을&nbsp;통한&nbsp;민간투자&nbsp;및&nbsp;운영재원&nbsp;병행<br>-&nbsp;사전타당성·기본계획은&nbsp;구비로&nbsp;우선&nbsp;착수하고&nbsp;본사업은&nbsp;단계별&nbsp;매칭&nbsp;확보<br>-&nbsp;공실&nbsp;활용·시설개선은&nbsp;중소벤처기업부&nbsp;상권활성화&nbsp;및&nbsp;도시재생&nbsp;재원과&nbsp;연계<br>-&nbsp;기관&nbsp;이전·입주&nbsp;공간&nbsp;조성은&nbsp;대구시&nbsp;투자계획과&nbsp;민간&nbsp;임대·매입&nbsp;방식을&nbsp;병행&nbsp;검토</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	중구형 마을버스</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="중구형 마을버스">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;집&nbsp;앞·시장·역을&nbsp;잇는&nbsp;생활교통망&nbsp;구축<br>-&nbsp;고령자·학생·상인·관광객의&nbsp;마지막&nbsp;1km&nbsp;이동&nbsp;부담&nbsp;완화<br>-&nbsp;대중교통&nbsp;사각지대와&nbsp;전통시장·주거지&nbsp;사이의&nbsp;짧은&nbsp;이동수요&nbsp;해소<br>-&nbsp;재개발·재건축으로&nbsp;변하는&nbsp;주거지와&nbsp;기존&nbsp;골목&nbsp;생활권의&nbsp;교통&nbsp;불편&nbsp;선제&nbsp;대응<br>-&nbsp;걷기&nbsp;어려운&nbsp;구간은&nbsp;마을버스,&nbsp;걷기&nbsp;좋은&nbsp;구간은&nbsp;보행환경&nbsp;개선으로&nbsp;함께&nbsp;관리<br><br>□&nbsp;이행방법<br>○&nbsp;12개&nbsp;동별&nbsp;통학·통원·시장·역세권&nbsp;이동수요를&nbsp;조사해&nbsp;우선&nbsp;시범권역&nbsp;선정<br>-&nbsp;소형&nbsp;전기버스&nbsp;또는&nbsp;수요응답형&nbsp;교통&nbsp;시범노선&nbsp;검토&nbsp;및&nbsp;교통취약지역&nbsp;우선&nbsp;선정<br>-&nbsp;원대역·달성공원역·서문시장·남산권·동성로&nbsp;등&nbsp;환승&nbsp;거점&nbsp;연계<br>-&nbsp;동별&nbsp;수요조사,&nbsp;교통약자&nbsp;이용자료,&nbsp;시장·학교·병원&nbsp;이동동선을&nbsp;반영해&nbsp;노선&nbsp;조정<br>-&nbsp;재개발&nbsp;예정지·골목&nbsp;안전·주차관리와&nbsp;함께&nbsp;정류장&nbsp;위치와&nbsp;운행시간&nbsp;점검<br>-&nbsp;시범운행&nbsp;후&nbsp;이용자&nbsp;수,&nbsp;환승률,&nbsp;민원&nbsp;감소,&nbsp;교통약자&nbsp;이용률을&nbsp;기준으로&nbsp;노선&nbsp;조정<br>-&nbsp;앱&nbsp;호출형·정시형·시장순환형을&nbsp;구간&nbsp;특성에&nbsp;맞게&nbsp;나누어&nbsp;과잉운행을&nbsp;방지<br>-&nbsp;안전&nbsp;승하차&nbsp;공간,&nbsp;안내&nbsp;표지,&nbsp;교통약자&nbsp;이용&nbsp;안내를&nbsp;함께&nbsp;정비<br><br>□&nbsp;이행기간<br>○&nbsp;2026년&nbsp;~&nbsp;2028년<br>-&nbsp;2026년&nbsp;노선&nbsp;수요조사·시범계획,&nbsp;2027년&nbsp;시범운행,&nbsp;2028년&nbsp;확대·조정<br>-&nbsp;2026년&nbsp;하반기&nbsp;동별&nbsp;설명회와&nbsp;시범노선&nbsp;후보&nbsp;공개<br>-&nbsp;2027년&nbsp;운행성과&nbsp;평가&nbsp;후&nbsp;2028년&nbsp;정규노선&nbsp;또는&nbsp;수요응답형&nbsp;확대&nbsp;여부&nbsp;결정<br><br>□&nbsp;재원조달방법&nbsp;등<br>○&nbsp;국토교통부·대구시&nbsp;교통복지&nbsp;및&nbsp;친환경&nbsp;교통&nbsp;공모,&nbsp;시비·구비&nbsp;매칭<br>-&nbsp;기존&nbsp;버스정책·교통약자&nbsp;이동지원·탄소중립&nbsp;교통사업&nbsp;연계<br>-&nbsp;시범운행&nbsp;단계는&nbsp;임차·위탁&nbsp;방식으로&nbsp;비용을&nbsp;낮추고&nbsp;성과&nbsp;확인&nbsp;후&nbsp;확대<br>-&nbsp;전기차량·충전시설은&nbsp;친환경&nbsp;교통&nbsp;전환사업과&nbsp;연계해&nbsp;초기비용을&nbsp;분산<br>-&nbsp;정류장·안내체계·보행연계&nbsp;시설은&nbsp;생활SOC·보행안전&nbsp;예산과&nbsp;함께&nbsp;편성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	육아 특성화 지구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="육아 특성화 지구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;출산·산후조리·필수의료·돌봄·방과후·청소년&nbsp;진로를&nbsp;한&nbsp;생활권에서&nbsp;연결<br>-&nbsp;청년·신혼·아이&nbsp;키우는&nbsp;가정이&nbsp;중구에&nbsp;정착할&nbsp;수&nbsp;있는&nbsp;생활기반&nbsp;강화<br>-&nbsp;보건·교육·복지&nbsp;시설을&nbsp;묶어&nbsp;중구형&nbsp;육아&nbsp;원스톱&nbsp;생활권&nbsp;조성<br>-&nbsp;출산&nbsp;이후&nbsp;비용&nbsp;부담과&nbsp;돌봄&nbsp;공백을&nbsp;줄여&nbsp;중구&nbsp;거주&nbsp;지속성을&nbsp;높임<br>-&nbsp;아이와&nbsp;보호자가&nbsp;가까운&nbsp;곳에서&nbsp;안전하게&nbsp;이용할&nbsp;수&nbsp;있는&nbsp;공공&nbsp;돌봄공간&nbsp;확충<br><br>□&nbsp;이행방법<br>○&nbsp;공공산후조리원·필수의료·야간긴급돌봄&nbsp;후보지와&nbsp;운영방식&nbsp;검토<br>-&nbsp;경북대병원&nbsp;등&nbsp;의료자원과&nbsp;보건소&nbsp;기능을&nbsp;연계해&nbsp;산모·영유아&nbsp;건강관리&nbsp;체계&nbsp;구축<br>-&nbsp;공공&nbsp;키즈카페,&nbsp;방과후학교,&nbsp;청소년&nbsp;문화진로&nbsp;체험센터를&nbsp;동별&nbsp;수요에&nbsp;맞춰&nbsp;배치<br>-&nbsp;학교·보건소·병원·도서관·복지관&nbsp;협력체계를&nbsp;구성해&nbsp;이용절차&nbsp;통합&nbsp;안내<br>-&nbsp;임신·출산·영유아·초등돌봄&nbsp;정보를&nbsp;한&nbsp;곳에서&nbsp;안내하는&nbsp;구청&nbsp;통합창구&nbsp;운영<br>-&nbsp;야간·주말&nbsp;긴급돌봄,&nbsp;방학&nbsp;돌봄,&nbsp;맞벌이&nbsp;가정&nbsp;돌봄&nbsp;수요를&nbsp;별도&nbsp;조사<br>-&nbsp;유휴&nbsp;공공시설·학교&nbsp;주변&nbsp;공간을&nbsp;우선&nbsp;검토하고&nbsp;민간위탁&nbsp;운영기준을&nbsp;마련<br>-&nbsp;이용대상,&nbsp;감면기준,&nbsp;예약방식,&nbsp;안전관리&nbsp;매뉴얼을&nbsp;조례·지침으로&nbsp;정비<br><br>□&nbsp;이행기간<br>○&nbsp;2026년&nbsp;~&nbsp;2030년<br>-&nbsp;2026년&nbsp;수요조사·후보지&nbsp;선정,&nbsp;2027년&nbsp;시범사업,&nbsp;2028년&nbsp;이후&nbsp;단계&nbsp;확대<br>-&nbsp;2027년&nbsp;공공&nbsp;키즈카페·통합안내&nbsp;창구&nbsp;우선&nbsp;운영<br>-&nbsp;2028년&nbsp;~&nbsp;2030년&nbsp;산후조리·긴급돌봄·청소년&nbsp;진로공간&nbsp;순차&nbsp;확충<br><br>□&nbsp;재원조달방법&nbsp;등<br>○&nbsp;저출생&nbsp;대응,&nbsp;보육·돌봄,&nbsp;교육·청소년,&nbsp;보건의료&nbsp;국·시비&nbsp;공모&nbsp;및&nbsp;매칭<br>-&nbsp;공공&nbsp;유휴공간&nbsp;활용,&nbsp;민간위탁·의료기관&nbsp;협약,&nbsp;구비&nbsp;단계&nbsp;투입<br>-&nbsp;신규&nbsp;건립보다&nbsp;리모델링·공동운영을&nbsp;우선&nbsp;검토해&nbsp;초기&nbsp;재정&nbsp;부담&nbsp;완화<br>-&nbsp;운영비는&nbsp;이용료&nbsp;감면,&nbsp;민간위탁,&nbsp;시비&nbsp;보조,&nbsp;구비&nbsp;부담을&nbsp;구분해&nbsp;산정<br>-&nbsp;의료·교육기관&nbsp;협약사업은&nbsp;시설비보다&nbsp;프로그램&nbsp;운영비&nbsp;중심으로&nbsp;편성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	4계절 축제가 끊이지 않는 중구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="4계절 축제가 끊이지 않는 중구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;동성로·약령시·서문시장·김광석길·경상감영·달성공원을&nbsp;잇는&nbsp;체류형&nbsp;관광축&nbsp;조성<br>-&nbsp;축제로&nbsp;사람을&nbsp;부르고,&nbsp;상권으로&nbsp;돈이&nbsp;돌게&nbsp;한다&nbsp;―&nbsp;방문에서&nbsp;소비로&nbsp;이어지는&nbsp;구조&nbsp;설계<br>-&nbsp;축제·상권·역사문화&nbsp;콘텐츠로&nbsp;원도심&nbsp;방문과&nbsp;소비&nbsp;회복<br>-&nbsp;봄·여름·가을·겨울&nbsp;대표행사를&nbsp;정례화해&nbsp;상권&nbsp;매출과&nbsp;방문&nbsp;흐름&nbsp;안정화<br>-&nbsp;단기&nbsp;행사보다&nbsp;계절별&nbsp;방문&nbsp;이유가&nbsp;반복되는&nbsp;연중&nbsp;관광·소비&nbsp;구조&nbsp;구축<br>-&nbsp;청년·가족·어르신·관광객이&nbsp;함께&nbsp;찾는&nbsp;골목별&nbsp;대표&nbsp;콘텐츠&nbsp;육성<br><br>□&nbsp;이행방법<br>○&nbsp;계절별&nbsp;대표축제와&nbsp;골목상권·전통시장·역사문화&nbsp;자원을&nbsp;묶은&nbsp;연중&nbsp;콘텐츠&nbsp;운영<br>-&nbsp;봄&nbsp;약령시·역사문화,&nbsp;여름&nbsp;야간상권,&nbsp;가을&nbsp;서문시장·골목축제,&nbsp;겨울&nbsp;빛·공연&nbsp;축으로&nbsp;구성<br>-&nbsp;동성로&nbsp;공실·대백&nbsp;공백&nbsp;구간을&nbsp;팝업·야간경관·청년셀러&nbsp;공간으로&nbsp;활용<br>-&nbsp;서문시장&nbsp;4지구&nbsp;재생,&nbsp;약령시·북성로&nbsp;역사산업,&nbsp;달성공원&nbsp;역사벨트&nbsp;사업과&nbsp;연계<br>-&nbsp;상인회·문화예술단체·대학과&nbsp;프로그램을&nbsp;공동기획해&nbsp;행사&nbsp;후&nbsp;상권&nbsp;재방문&nbsp;유도<br>-&nbsp;행사별&nbsp;방문객,&nbsp;매출효과,&nbsp;SNS&nbsp;확산,&nbsp;상인&nbsp;만족도를&nbsp;측정해&nbsp;다음&nbsp;행사에&nbsp;반영<br>-&nbsp;지역&nbsp;예술인·청년셀러·전통시장&nbsp;상인을&nbsp;우선&nbsp;참여시켜&nbsp;지역경제&nbsp;환류&nbsp;강화<br>-&nbsp;교통·안전·청소·야간귀가&nbsp;대책을&nbsp;사전&nbsp;매뉴얼화해&nbsp;주민&nbsp;불편을&nbsp;최소화<br><br>□&nbsp;이행기간<br>○&nbsp;2026년&nbsp;~&nbsp;2029년<br>-&nbsp;2026년&nbsp;축제축&nbsp;재정비,&nbsp;2027년&nbsp;계절별&nbsp;프로그램&nbsp;정착,&nbsp;2028년&nbsp;이후&nbsp;권역&nbsp;확대<br>-&nbsp;2026년&nbsp;기존&nbsp;축제·상권행사&nbsp;통합&nbsp;점검&nbsp;및&nbsp;중복행사&nbsp;정리<br>-&nbsp;2027년&nbsp;4계절&nbsp;대표행사&nbsp;운영,&nbsp;2028년&nbsp;~&nbsp;2029년&nbsp;관광상품·야간콘텐츠&nbsp;확대<br><br>□&nbsp;재원조달방법&nbsp;등<br>○&nbsp;문화체육관광부·중소벤처기업부·대구시&nbsp;축제·관광·상권활성화&nbsp;공모사업<br>-&nbsp;구비,&nbsp;시비&nbsp;매칭,&nbsp;상인회·민간협찬·지역대학&nbsp;및&nbsp;기관&nbsp;협력재원<br>-&nbsp;기존&nbsp;축제&nbsp;예산을&nbsp;권역별&nbsp;대표행사&nbsp;중심으로&nbsp;재정렬하고&nbsp;민간협찬을&nbsp;병행<br>-&nbsp;팝업·야간경관·안전관리&nbsp;비용은&nbsp;상권활성화와&nbsp;관광수용태세&nbsp;개선사업으로&nbsp;분리&nbsp;편성<br>-&nbsp;성과가&nbsp;낮은&nbsp;일회성&nbsp;행사는&nbsp;축소하고&nbsp;방문·매출&nbsp;효과가&nbsp;큰&nbsp;프로그램에&nbsp;재투입</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	중구형 공약 책임관리제 ― 12개 동 공약 이행·점검·공개의 제도화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="중구형 공약 책임관리제 ― 12개 동 공약 이행·점검·공개의 제도화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;12개&nbsp;동&nbsp;공약&nbsp;이행&nbsp;여부를&nbsp;주민이&nbsp;직접&nbsp;확인할&nbsp;수&nbsp;있는&nbsp;상시&nbsp;점검체계&nbsp;구축<br>-&nbsp;공약별&nbsp;담당부서·일정·진행상황을&nbsp;취임&nbsp;후&nbsp;100일&nbsp;안에&nbsp;공개<br>-&nbsp;6개월·1년&nbsp;단위&nbsp;공개점검을&nbsp;정례화해&nbsp;구정&nbsp;운영과&nbsp;공약의&nbsp;끊김&nbsp;방지<br>-&nbsp;미이행·지연&nbsp;공약은&nbsp;사유와&nbsp;보완계획을&nbsp;함께&nbsp;공개해&nbsp;책임&nbsp;소재를&nbsp;명확히<br>-&nbsp;주민이&nbsp;제안하고,&nbsp;후보가&nbsp;답하고,&nbsp;구청이&nbsp;실행하는&nbsp;순환&nbsp;구조&nbsp;정착<br><br>□&nbsp;이행방법<br>○&nbsp;12개&nbsp;동&nbsp;공약별&nbsp;담당부서·추진일정·예산·협의현황을&nbsp;구청&nbsp;홈페이지와&nbsp;동&nbsp;행정복지센터에&nbsp;상시&nbsp;공개<br>-&nbsp;동인·삼덕·성내·대신·남산·대봉권을&nbsp;생활권별로&nbsp;묶어&nbsp;공통과제와&nbsp;동별과제&nbsp;구분<br>-&nbsp;착수&nbsp;여부·예산확보·협의완료·현장조치·주민보고를&nbsp;단계별&nbsp;지표로&nbsp;관리<br>-&nbsp;동별&nbsp;주민대표·상인회·학교·복지기관&nbsp;의견을&nbsp;수렴해&nbsp;이행현황&nbsp;정기&nbsp;갱신<br>-&nbsp;미이행·지연&nbsp;공약은&nbsp;사유·대안·다음&nbsp;조치기한을&nbsp;함께&nbsp;공개<br>-&nbsp;주민제안·민원&nbsp;결과를&nbsp;분기별로&nbsp;정리해&nbsp;공약&nbsp;수정·보완사항에&nbsp;반영<br>-&nbsp;취임&nbsp;100일·6개월·1년&nbsp;단위&nbsp;이행보고회를&nbsp;현장&nbsp;중심으로&nbsp;정례&nbsp;개최<br><br>□&nbsp;이행기간<br>○&nbsp;2026년&nbsp;~&nbsp;2027년&nbsp;우선관리<br>-&nbsp;취임&nbsp;후&nbsp;100일·6개월·1년&nbsp;단위&nbsp;공개점검,&nbsp;이후&nbsp;매년&nbsp;갱신<br>-&nbsp;2026년&nbsp;12개&nbsp;동&nbsp;생활공약&nbsp;카드&nbsp;작성&nbsp;및&nbsp;담당부서&nbsp;지정<br>-&nbsp;2027년&nbsp;1년&nbsp;이행보고회&nbsp;후&nbsp;미완료&nbsp;과제는&nbsp;연차별&nbsp;구정계획으로&nbsp;이관<br><br>□&nbsp;재원조달방법&nbsp;등<br>○&nbsp;비예산&nbsp;관리사업을&nbsp;기본으로&nbsp;하되&nbsp;설명회·현장점검·온라인&nbsp;공개자료&nbsp;운영비는&nbsp;구비&nbsp;편성<br>-&nbsp;개별&nbsp;동별&nbsp;사업은&nbsp;해당&nbsp;공약별&nbsp;국·시비&nbsp;공모,&nbsp;구비&nbsp;매칭,&nbsp;민간협력&nbsp;재원과&nbsp;연계<br>-&nbsp;공약관리&nbsp;시스템은&nbsp;기존&nbsp;구정&nbsp;홍보·민원·주민참여&nbsp;예산과&nbsp;연계해&nbsp;최소비용&nbsp;운영<br>-&nbsp;주민설명회·자료&nbsp;제작·현장점검비는&nbsp;주민참여·구정홍보&nbsp;예산&nbsp;범위에서&nbsp;우선&nbsp;편성<br>-&nbsp;동별&nbsp;사업비는&nbsp;신규&nbsp;총액을&nbsp;별도&nbsp;고정하지&nbsp;않고&nbsp;사업별&nbsp;확정&nbsp;단계에서&nbsp;재원표로&nbsp;관리</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

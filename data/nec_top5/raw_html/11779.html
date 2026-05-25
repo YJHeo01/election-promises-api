@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;우승희 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	영암형 농촌기본소득 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="영암형 농촌기본소득 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;농촌기본소득(월15만원)에&nbsp;영암형&nbsp;에너지기본소득을&nbsp;더한&nbsp;지급체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;농촌소멸&nbsp;위기&nbsp;대응&nbsp;및&nbsp;농가&nbsp;실질소득&nbsp;보장으로&nbsp;군민&nbsp;삶의&nbsp;질&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;재생에너지&nbsp;발전&nbsp;수익을&nbsp;군민에게&nbsp;환원하는'햇빛·바람연금형'&nbsp;모델&nbsp;정착<br><br>□&nbsp;현황과&nbsp;문제점<br>&nbsp;&nbsp;○&nbsp;영암군&nbsp;인구&nbsp;5만&nbsp;명대&nbsp;지속&nbsp;감소,&nbsp;65세&nbsp;이상&nbsp;고령인구&nbsp;비중&nbsp;30%대로&nbsp;농촌소멸&nbsp;가속화<br>&nbsp;&nbsp;○&nbsp;농가소득은&nbsp;도시근로자&nbsp;가구&nbsp;대비&nbsp;60%&nbsp;수준,&nbsp;농산물&nbsp;가격&nbsp;변동·생산비&nbsp;상승으로&nbsp;실질소득&nbsp;정체<br>&nbsp;&nbsp;○&nbsp;관내&nbsp;태양광·풍력&nbsp;발전시설&nbsp;입지로&nbsp;환경&nbsp;부담은&nbsp;군민이&nbsp;지지만,&nbsp;수익은&nbsp;외부&nbsp;자본에&nbsp;귀속<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;'26년&nbsp;하반기:&nbsp;정부&nbsp;농촌기본소득&nbsp;시범사업&nbsp;공모&nbsp;신청&nbsp;및&nbsp;선정&nbsp;(월15만원,&nbsp;전&nbsp;군민&nbsp;대상)<br>&nbsp;&nbsp;○&nbsp;'27년:&nbsp;영암형&nbsp;에너지기본소득&nbsp;조례&nbsp;제정&nbsp;및&nbsp;재원조달&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관내&nbsp;신재생에너지&nbsp;발전사업자&nbsp;지원금·이익공유제&nbsp;수익금·공공은행&nbsp;천사펀드&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전&nbsp;군민&nbsp;대상&nbsp;연1회&nbsp;또는&nbsp;분기별&nbsp;월출페이(영암사랑상품권)&nbsp;지급<br>&nbsp;&nbsp;○&nbsp;'28년&nbsp;이후:&nbsp;정부&nbsp;보편화&nbsp;단계에&nbsp;맞춰&nbsp;지급액&nbsp;단계적&nbsp;상향,&nbsp;영암&nbsp;모델&nbsp;전국&nbsp;확산<br>&nbsp;&nbsp;○&nbsp;군수&nbsp;직속&nbsp;'기본소득추진단'&nbsp;신설,&nbsp;군의회·농민단체·전문가&nbsp;협치위원회&nbsp;운영<br><br>□이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년<br><br>□재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;시비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	영암형 통합돌봄 전국화 모델</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="영암형 통합돌봄 전국화 모델">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;통합&nbsp;사례관리에&nbsp;기초한&nbsp;영암형&nbsp;통합돌봄&nbsp;모델을&nbsp;전국&nbsp;표준화,&nbsp;全&nbsp;생애주기&nbsp;돌봄체계&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;노인·장애인·아동·청년이&nbsp;살던&nbsp;곳에서&nbsp;끝까지&nbsp;살&nbsp;수&nbsp;있는'커뮤니티&nbsp;케어&nbsp;도시'&nbsp;구현<br>&nbsp;&nbsp;○&nbsp;민·관·공&nbsp;협치&nbsp;기반&nbsp;사회보장체계로&nbsp;복지&nbsp;사각지대&nbsp;제로화<br><br>□&nbsp;현황과&nbsp;문제점<br>&nbsp;&nbsp;○&nbsp;영암군&nbsp;65세&nbsp;이상&nbsp;고령인구&nbsp;비중30%&nbsp;상회,&nbsp;독거노인·노인부부&nbsp;가구&nbsp;지속&nbsp;증가<br>&nbsp;&nbsp;○&nbsp;의료기관·요양시설&nbsp;도시&nbsp;집중으로&nbsp;농촌지역&nbsp;접근성&nbsp;취약,&nbsp;11개&nbsp;읍·면&nbsp;간&nbsp;복지&nbsp;격차&nbsp;존재<br>&nbsp;&nbsp;○&nbsp;복지서비스(보건·요양·돌봄·주거)&nbsp;분산&nbsp;운영으로&nbsp;이용자&nbsp;체감도&nbsp;낮고&nbsp;행정&nbsp;비효율&nbsp;발생<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;영암형&nbsp;통합돌봄&nbsp;3개년&nbsp;계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;보건소·요양·재가서비스·복지관&nbsp;통합&nbsp;플랫폼&nbsp;구축,&nbsp;읍·면&nbsp;거점&nbsp;돌봄센터&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료·요양·주거·이동&nbsp;통합ICT&nbsp;플랫폼&nbsp;'영암케어넷'&nbsp;개발&nbsp;및&nbsp;1인1돌봄매니저&nbsp;배치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보건복지부&nbsp;'돌봄통합지원법'&nbsp;시범지자체&nbsp;지정&nbsp;추진→&nbsp;정부&nbsp;재정&nbsp;매칭<br>&nbsp;&nbsp;○&nbsp;펀드&nbsp;규모&nbsp;단계적&nbsp;증액,&nbsp;군민&nbsp;자율&nbsp;기부+공공은행&nbsp;운용수익&nbsp;결합<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복지&nbsp;사각지대&nbsp;긴급지원·청년·다문화·1인가구&nbsp;등&nbsp;신복지&nbsp;수요&nbsp;대응<br>&nbsp;&nbsp;○&nbsp;11개&nbsp;읍·면&nbsp;단위&nbsp;협의체&nbsp;활성화,&nbsp;민간&nbsp;복지자원&nbsp;발굴·연계&nbsp;의무화<br>&nbsp;&nbsp;○&nbsp;'통합돌봄정책관'&nbsp;신설,&nbsp;광역·전국지자체&nbsp;협력&nbsp;네트워크&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;「영암군&nbsp;돌봄&nbsp;통합지원에&nbsp;관한&nbsp;조례」,&nbsp;「사회복지기금&nbsp;설치&nbsp;및&nbsp;운용에&nbsp;관한&nbsp;조례」정비<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;시비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	영암형 공공은행 설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="영암형 공공은행 설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;자금의&nbsp;역외유출을&nbsp;막고&nbsp;군민에게&nbsp;환류,&nbsp;기능통합형&nbsp;공공금융&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;농지·빈집·지역경제·기부·복지를&nbsp;아우르는'영암&nbsp;공공은행'&nbsp;전국&nbsp;최초&nbsp;설립<br>&nbsp;&nbsp;○&nbsp;농민·청년·소상공인·취약계층에&nbsp;보편적&nbsp;금융서비스&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;사회적경제를&nbsp;기반한&nbsp;사회연대경제&nbsp;모델&nbsp;선도<br><br>□&nbsp;현황과&nbsp;문제점<br>&nbsp;&nbsp;○&nbsp;농지&nbsp;매매·임대&nbsp;정보&nbsp;부족&nbsp;및&nbsp;청년농&nbsp;진입&nbsp;장벽&nbsp;높음,&nbsp;빈집&nbsp;방치&nbsp;경관&nbsp;훼손<br>&nbsp;&nbsp;○&nbsp;지역화폐·기부·복지기금이&nbsp;분산&nbsp;운용되어&nbsp;시너지&nbsp;부족<br>&nbsp;&nbsp;○&nbsp;자금의&nbsp;지역&nbsp;내&nbsp;재투자&nbsp;구조&nbsp;미비<br>&nbsp;&nbsp;○&nbsp;지자체&nbsp;직접&nbsp;금융기관&nbsp;설립&nbsp;사례&nbsp;부재로&nbsp;행정안전부·금융위&nbsp;협의&nbsp;등&nbsp;제도적&nbsp;난제&nbsp;존재<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[기능&nbsp;통합&nbsp;설계]<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농지은행&nbsp;:&nbsp;은퇴농&nbsp;농지&nbsp;매입·임대→&nbsp;청년농·귀농인에&nbsp;장기&nbsp;저리&nbsp;임대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;빈집은행&nbsp;:&nbsp;빈집&nbsp;매입·리모델링→&nbsp;청년·신혼부부&nbsp;임대주택,&nbsp;마을&nbsp;공동시설로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역은행&nbsp;:&nbsp;지역화폐(영암사랑상품권)&nbsp;발행·운영,&nbsp;소상공인&nbsp;저리&nbsp;대출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;천사펀드&nbsp;:&nbsp;군민·기업&nbsp;자율&nbsp;출연&nbsp;임팩트&nbsp;투자펀드,&nbsp;사회적기업·청년창업&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복지희망펀드&nbsp;:&nbsp;긴급복지·사각지대&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;'26년&nbsp;TF&nbsp;구성·법률검토→&nbsp;'27년&nbsp;공공은행&nbsp;설립조례&nbsp;제정·기금&nbsp;출연<br>&nbsp;&nbsp;○&nbsp;추진체계&nbsp;:&nbsp;'공공은행설립추진단'&nbsp;신설,&nbsp;학계·금융전문가·시민사회&nbsp;자문위원회&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;「영암군&nbsp;공공은행&nbsp;설립&nbsp;및&nbsp;운영에&nbsp;관한&nbsp;조례」,&nbsp;행안부&nbsp;협의&nbsp;통한&nbsp;특례&nbsp;확보<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;군비&nbsp;출연금+&nbsp;신재생에너지&nbsp;이익공유금+&nbsp;군민&nbsp;기부금+&nbsp;정부·광역&nbsp;매칭사업</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	청년 등록금·주거·일자리 책임제</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="청년 등록금·주거·일자리 책임제">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;청년이&nbsp;영암에서&nbsp;태어나&nbsp;배우고&nbsp;일하고&nbsp;정착하는'청년&nbsp;인생주기&nbsp;책임제'&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;교육비·주거비·일자리3대&nbsp;부담&nbsp;군이&nbsp;책임지는&nbsp;청년친화도시&nbsp;영암&nbsp;구현<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;순유출&nbsp;감소&nbsp;및&nbsp;인구활력&nbsp;회복으로&nbsp;지역&nbsp;지속가능성&nbsp;확보<br><br>□&nbsp;현황과&nbsp;문제점<br>&nbsp;&nbsp;○&nbsp;영암&nbsp;청년(19~39세)&nbsp;인구&nbsp;지속&nbsp;순유출,&nbsp;진학·취업으로&nbsp;매년&nbsp;수백&nbsp;명&nbsp;외부&nbsp;이탈<br>&nbsp;&nbsp;○&nbsp;등록금&nbsp;부담으로&nbsp;학업&nbsp;중도포기·휴학&nbsp;사례&nbsp;증가,&nbsp;학자금&nbsp;대출&nbsp;부채&nbsp;청년&nbsp;빈곤&nbsp;심화<br>&nbsp;&nbsp;○&nbsp;청년·신혼부부&nbsp;주거&nbsp;공급&nbsp;부족,&nbsp;주거비&nbsp;부담·정주&nbsp;여건&nbsp;취약<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;선호&nbsp;양질&nbsp;일자리&nbsp;부족<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[등록금&nbsp;책임제]&nbsp;영암&nbsp;거주&nbsp;대학생&nbsp;대학납부금&nbsp;전액&nbsp;지원(학기당&nbsp;등록금+&nbsp;입학금)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지원조건:&nbsp;영암&nbsp;주민등록&nbsp;3년&nbsp;이상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재원:&nbsp;군비+&nbsp;향토장학회+&nbsp;공공은행&nbsp;천사펀드&nbsp;연계,&nbsp;단계적&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;[청년&nbsp;주거300호]&nbsp;청년·신혼부부&nbsp;공공임대주택&nbsp;임기&nbsp;내&nbsp;300호&nbsp;공급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;빈집은행&nbsp;리모델링&nbsp;100호+&nbsp;신축&nbsp;공공임대&nbsp;200호(LH·전남개발공사&nbsp;협업)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보증금·월세&nbsp;시세&nbsp;50%&nbsp;이하,&nbsp;최장&nbsp;10년&nbsp;거주&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;[청년씨앗통장]&nbsp;만19~34세&nbsp;청년&nbsp;매월&nbsp;저축+군&nbsp;매칭&nbsp;지원,&nbsp;3년&nbsp;만기시&nbsp;목돈&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;[대학&nbsp;창업·일자리&nbsp;연계]&nbsp;인근&nbsp;대학&nbsp;산학협력,&nbsp;청년창업지원센터&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관내&nbsp;기업&nbsp;청년채용&nbsp;인센티브,&nbsp;농촌형&nbsp;사회적기업·로컬크리에이터&nbsp;100개&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;'청년정책관'&nbsp;신설,&nbsp;청년정책위원회&nbsp;청년&nbsp;당사자&nbsp;과반&nbsp;참여<br>&nbsp;&nbsp;○&nbsp;「영암군&nbsp;청년기본조례」&nbsp;전면&nbsp;개정,&nbsp;「대학생&nbsp;학자금&nbsp;지원&nbsp;조례」&nbsp;제정<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;시비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	영암형 버스·택시 통합교통서비스 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="영암형 버스·택시 통합교통서비스 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;고령화·인구감소로&nbsp;인한&nbsp;농촌&nbsp;교통&nbsp;사각지대&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;버스,&nbsp;택시,&nbsp;교통약자&nbsp;콜택시를&nbsp;하나의&nbsp;예약·운영체계<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;11개&nbsp;읍·면&nbsp;전&nbsp;권역에&nbsp;통합교통서비스&nbsp;적용<br>&nbsp;&nbsp;○&nbsp;의료·복지·시장·문화시설&nbsp;접근성을&nbsp;높여&nbsp;기본사회&nbsp;영암의&nbsp;이동권&nbsp;보장<br><br>□&nbsp;현황과&nbsp;문제점<br>&nbsp;&nbsp;○&nbsp;영암은&nbsp;면적이&nbsp;넓고&nbsp;마을이&nbsp;분산되어&nbsp;정시&nbsp;노선버스만으로는&nbsp;효율적&nbsp;운행&nbsp;한계<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;스마트폰&nbsp;앱&nbsp;이용&nbsp;어려움,&nbsp;디지털&nbsp;기반&nbsp;교통서비스&nbsp;접근성이&nbsp;낮음<br>&nbsp;&nbsp;○&nbsp;버스&nbsp;운수업체&nbsp;경영난과&nbsp;기사&nbsp;고령화로&nbsp;비수익&nbsp;노선&nbsp;감축&nbsp;우려<br>&nbsp;&nbsp;○&nbsp;병원,&nbsp;시장,&nbsp;관공서&nbsp;등&nbsp;주요&nbsp;목적지&nbsp;접근성이&nbsp;지역별로&nbsp;달라&nbsp;교통복지&nbsp;격차&nbsp;발생<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;군청&nbsp;직속&nbsp;영암형&nbsp;통합교통서비스&nbsp;추진단&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;영암형&nbsp;통합교통서비스&nbsp;기본&nbsp;계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;「영암군&nbsp;통합교통서비스&nbsp;운영&nbsp;조례」&nbsp;제정&nbsp;및&nbsp;기존&nbsp;교통복지사업&nbsp;통합&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;통합&nbsp;콜센터&nbsp;및&nbsp;교통플랫폼&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전화&nbsp;한&nbsp;통으로&nbsp;버스·택시·교통약자&nbsp;차량&nbsp;호출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;앱,&nbsp;전화,&nbsp;마을&nbsp;거점&nbsp;예약을&nbsp;함께&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;친화&nbsp;음성호출&nbsp;및&nbsp;마을&nbsp;안내인&nbsp;제도&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;국토부·광역&nbsp;공모사업,&nbsp;농어촌버스&nbsp;보조,&nbsp;지방소멸대응기금&nbsp;활용&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;운수업체와&nbsp;협의체를&nbsp;운영하고,&nbsp;수익&nbsp;배분&nbsp;모델을&nbsp;마련해&nbsp;상생&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;시비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이창원 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	85세이상 무료급식카드 발급과 요식업소 매출증가</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="85세이상 무료급식카드 발급과 요식업소 매출증가">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            논산시에&nbsp;거주하는&nbsp;85세&nbsp;이상&nbsp;어르신에게는&nbsp;논산시내&nbsp;요식업소&nbsp;어느곳에서나&nbsp;하루&nbsp;한끼를&nbsp;식사할&nbsp;수&nbsp;있는&nbsp;평생복지카드를&nbsp;드림으로서&nbsp;어르신이&nbsp;취사의&nbsp;어려움을&nbsp;해결하고,&nbsp;불경기로&nbsp;인하여&nbsp;영업이&nbsp;부진한&nbsp;요식업소들의&nbsp;매상액이&nbsp;늘어나&nbsp;논산지역의&nbsp;경제가&nbsp;활성화되고&nbsp;어르신복지가&nbsp;함께&nbsp;해결되는&nbsp;일석이조의&nbsp;효과가&nbsp;있을&nbsp;것입니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○어르신&nbsp;복지와&nbsp;경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;평생복지카드&nbsp;발급<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;85세이상&nbsp;평생카드<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;논산시&nbsp;예산의&nbsp;1%로&nbsp;충당</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	4대축제기간 온누리 상품권 지급(구매금액의 20%~30%)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="4대축제기간 온누리 상품권 지급(구매금액의 20%~30%)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            논산시의&nbsp;딸기,젓갈,곳감,대추의&nbsp;축제기간에는&nbsp;일반&nbsp;소비자가&nbsp;구매금액의&nbsp;20%~30%에&nbsp;해당하는&nbsp;온누리상품권을&nbsp;추가&nbsp;지급함으로써&nbsp;지역농가의&nbsp;특산품의&nbsp;판매를&nbsp;늘리고,&nbsp;추가&nbsp;지급한&nbsp;온누리상품권으로&nbsp;논산시내&nbsp;전통시장에서&nbsp;사용하게&nbsp;하므로&nbsp;2차소비로&nbsp;인한&nbsp;논산지역의&nbsp;경제가&nbsp;살아날&nbsp;것입니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;특산물판매증가와&nbsp;상품권추가&nbsp;지급으로&nbsp;인한&nbsp;논산지역경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;축제기간동안&nbsp;판매금액&nbsp;확인후&nbsp;상품권지급<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;4대&nbsp;축제기간중<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;4대축제기간의&nbsp;소모성&nbsp;경비를&nbsp;줄이고&nbsp;나머지&nbsp;예산으로&nbsp;충당</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	8개 공영목욕탕 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="8개 공영목욕탕 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            논산시의&nbsp;15개&nbsp;읍,면,동의&nbsp;절반인&nbsp;8곳에&nbsp;공영&nbsp;목욕탕을&nbsp;지어&nbsp;생활보호대상자,&nbsp;연로자,&nbsp;장애인등&nbsp;취약계층의&nbsp;주민들에게는&nbsp;무료로&nbsp;이용하게&nbsp;하고&nbsp;&nbsp;논산시민은&nbsp;저렴한&nbsp;가격으로&nbsp;이용하게&nbsp;하여&nbsp;다른&nbsp;지역의&nbsp;복지보다&nbsp;앞서&nbsp;나가는&nbsp;논산시를&nbsp;만들겠습니다.&nbsp;그&nbsp;운영은&nbsp;읍,면,동&nbsp;주민자치센터나&nbsp;공익법인을&nbsp;만들어서&nbsp;운영케하고&nbsp;주민들의&nbsp;호응도와&nbsp;예산을&nbsp;봐&nbsp;가며&nbsp;제&nbsp;임기중에는&nbsp;각읍,면,동에&nbsp;한&nbsp;개씩&nbsp;건립하도록&nbsp;하겠습니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;주민복지사업<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;공영목욕탕&nbsp;건립&nbsp;8개<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기중<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;논산시의&nbsp;예산증가액이&nbsp;매년&nbsp;350억원에서&nbsp;500억원으로&nbsp;예상되어&nbsp;예산증가의&nbsp;금액을&nbsp;우선적으로&nbsp;시행할&nbsp;것&nbsp;입니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	논산시 관광의 날 제정(인구감소지역 여행비용 50%환급제도 활용)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="논산시 관광의 날 제정(인구감소지역 여행비용 50%환급제도 활용)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            딸기축제(봄)와&nbsp;젓갈축제(가을)기간을&nbsp;논산시&nbsp;관광의&nbsp;날로&nbsp;만들겠습니다.&nbsp;논산을&nbsp;찾는&nbsp;외지인들에게는&nbsp;축제장&nbsp;방문은&nbsp;물론&nbsp;탑정호&nbsp;관람,&nbsp;화지전통시장,&nbsp;기호학문의&nbsp;유산,강경문화유산,&nbsp;연무대군문화&nbsp;등&nbsp;논산시내의&nbsp;관광명소를&nbsp;체계적으로&nbsp;관광할&nbsp;수&nbsp;있도록&nbsp;연계된&nbsp;교통대책(무료순환버스운행)과&nbsp;프로그램을&nbsp;만들어&nbsp;축제장&nbsp;뿐아니라&nbsp;논산시의&nbsp;문화유산을&nbsp;모두&nbsp;홍보하여&nbsp;인구감소로&nbsp;인한&nbsp;생활인구를&nbsp;늘려&nbsp;지역경제를&nbsp;살릴&nbsp;수&nbsp;있도록&nbsp;논산시&nbsp;관광의&nbsp;날을&nbsp;제정하겠습니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;관광산업활성화와&nbsp;지역경제활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;문화체육관광부와&nbsp;한국관광공사에서&nbsp;인구소멸지역&nbsp;지원정책(인구감소지역&nbsp;50%환급제도&nbsp;활용)을&nbsp;딸기축제기간과&nbsp;젓갈축제기간동안&nbsp;활용<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;딸기축제기간&nbsp;및&nbsp;젓갈축제기간중<br>&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정부의&nbsp;인구소멸정책의&nbsp;일환임으로&nbsp;논산시에서는&nbsp;정부정책과&nbsp;연계된&nbsp;별도의&nbsp;예산을&nbsp;세울것입니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	고용지원금 월 100만원 지급</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="고용지원금 월 100만원 지급">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            70세&nbsp;이상&nbsp;농민이&nbsp;청년등(외국인&nbsp;근로자포함)&nbsp;농업에&nbsp;필요한&nbsp;인력을&nbsp;고용할&nbsp;경우에는&nbsp;인건비의&nbsp;부담을&nbsp;지원하기&nbsp;위래&nbsp;월100만원의&nbsp;고용지원금을&nbsp;지급하여&nbsp;농민의&nbsp;부담을&nbsp;덜어&nbsp;드리겠습니다.&nbsp;이런&nbsp;정책을&nbsp;시행하게&nbsp;되면&nbsp;청년등이&nbsp;월급을&nbsp;타면서&nbsp;미래&nbsp;먹거리인&nbsp;특수작물을&nbsp;재배하는&nbsp;기술을&nbsp;현장에서&nbsp;배워&nbsp;창업&nbsp;할수&nbsp;있는&nbsp;여건을&nbsp;만들고&nbsp;고령화와&nbsp;기계화로&nbsp;인한&nbsp;농민의&nbsp;최대&nbsp;어려움인&nbsp;인력난을&nbsp;해결할&nbsp;수&nbsp;있습니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농민의&nbsp;인력난&nbsp;해결<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;고용지원급&nbsp;지급<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;근로자의&nbsp;근로기간동안<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;근로자를&nbsp;고용&nbsp;하는&nbsp;농민들도&nbsp;다른&nbsp;기업인들과&nbsp;같이&nbsp;고용보험을&nbsp;들게&nbsp;하고&nbsp;논산시에서는&nbsp;고용보험료의&nbsp;50%를&nbsp;지원하겠습니다.&nbsp;그&nbsp;예산은&nbsp;논산시의&nbsp;일반예산으로&nbsp;사용하겠습니다.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

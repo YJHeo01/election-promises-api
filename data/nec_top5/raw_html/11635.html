@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;양충모 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	사람이 모이는 인구도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="사람이 모이는 인구도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;기업유치&nbsp;및&nbsp;창업지원을&nbsp;통한&nbsp;양질의&nbsp;청년&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;교육&nbsp;및&nbsp;정주여건&nbsp;개선을&nbsp;통한&nbsp;생활인구&nbsp;증가<br>&nbsp;&nbsp;○&nbsp;AI,&nbsp;의료,&nbsp;교육을&nbsp;결합한&nbsp;지식기반&nbsp;미래산업&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국립의학전문대학원&nbsp;설립&nbsp;및&nbsp;2030년&nbsp;개교&nbsp;인프라&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;의과학&nbsp;연구기반의&nbsp;카이스트&nbsp;AI&nbsp;공공의료&nbsp;캠퍼스&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;공공의료,&nbsp;원격진료의&nbsp;연구성과&nbsp;실증도시,&nbsp;스타트업&nbsp;창업&nbsp;육성&nbsp;<br>&nbsp;&nbsp;○&nbsp;초,중,고교과정을&nbsp;연계한&nbsp;IB&nbsp;교육벨트&nbsp;구축&nbsp;및&nbsp;남원형&nbsp;농촌유학&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;전북대&nbsp;남원글로컬캠퍼스&nbsp;한국인&nbsp;학생정원&nbsp;확보<br><br>&nbsp;&nbsp;○&nbsp;남원의&nbsp;장점을&nbsp;살린&nbsp;체류형&nbsp;문화관광사업&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;교육,&nbsp;보육,&nbsp;문화,&nbsp;지원확대&nbsp;및&nbsp;청년주거&nbsp;안정대책&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;귀농&nbsp;귀촌&nbsp;+&nbsp;청년창업&nbsp;정착,&nbsp;원스톱&nbsp;지원체제&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정착자금&nbsp;및&nbsp;창업&nbsp;지원,&nbsp;회복프로그램<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;계속사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;민자유치,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	기본소득이 가능한 경제도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="기본소득이 가능한 경제도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역투자와&nbsp;고용을&nbsp;창출하는&nbsp;민간자본,&nbsp;중견앵커기업&nbsp;발굴&nbsp;육성&nbsp;<br>&nbsp;&nbsp;○&nbsp;남원형&nbsp;5극&nbsp;3특의&nbsp;성장거점&nbsp;기반조성,&nbsp;거점사업&nbsp;집중&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;남원일반산업단지내&nbsp;데이터&nbsp;센터&nbsp;및&nbsp;AI&nbsp;영상스튜디오&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;지리산&nbsp;의료기반&nbsp;힐링&nbsp;치유&nbsp;라이프&nbsp;타운&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;남원&nbsp;BIO산업의&nbsp;전북&nbsp;5극&nbsp;3특&nbsp;성장엔진&nbsp;대표사업&nbsp;선정&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;바이오&nbsp;화장품&nbsp;산업의&nbsp;R&D&nbsp;지원,&nbsp;인프라&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;식물&nbsp;엑소좀&nbsp;기술개발,&nbsp;천연물&nbsp;소재&nbsp;첨단&nbsp;헬스케어&nbsp;산업&nbsp;허브&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;농업관련&nbsp;예산&nbsp;정상화,&nbsp;농산물&nbsp;가격안정기금&nbsp;확대&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유류&nbsp;전기료&nbsp;등&nbsp;농업생산비&nbsp;급등에&nbsp;따른&nbsp;필수농자재&nbsp;지원제도&nbsp;도입&nbsp;<br>&nbsp;&nbsp;○&nbsp;소규모&nbsp;농가,&nbsp;여성농업인의&nbsp;자율형&nbsp;보조사업&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;기후적응형&nbsp;농업,&nbsp;스마트팜&nbsp;추가조성,&nbsp;안정적인&nbsp;농산물&nbsp;생산&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재해예측&nbsp;고도화,&nbsp;농배수로&nbsp;개선,&nbsp;저수시설&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;권역별&nbsp;(고산,&nbsp;중산간,&nbsp;평야하천벨트)&nbsp;원예작물&nbsp;전략품목&nbsp;육성&nbsp;<br>&nbsp;&nbsp;○&nbsp;공공형&nbsp;계절근로자&nbsp;지원제도&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;미래농업을&nbsp;선도하는&nbsp;청년농업인&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년창업형&nbsp;영농정착자금&nbsp;지원,&nbsp;청년후계농&nbsp;농업기술&nbsp;역량강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;계속사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(정책사업,&nbsp;공모사업),&nbsp;민자(기업유치)&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	시민주권시대를 여는 참여도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="시민주권시대를 여는 참여도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시민주권시대를&nbsp;여는&nbsp;남원시&nbsp;행정<br>&nbsp;&nbsp;○&nbsp;시민이&nbsp;주인되는&nbsp;주민자치&nbsp;경제공동체&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;모노레일&nbsp;사태&nbsp;해결,&nbsp;재정건전성&nbsp;회복&nbsp;시민위원회&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;책임소재&nbsp;규명,&nbsp;구상권&nbsp;청구,&nbsp;운영방안,&nbsp;재정건전성&nbsp;회복<br>&nbsp;&nbsp;○&nbsp;제2중앙경찰학교&nbsp;남원&nbsp;유치&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;남원시&nbsp;공공기관&nbsp;청렴도&nbsp;및&nbsp;행정신뢰도&nbsp;회복을&nbsp;위한&nbsp;제도개선<br>&nbsp;&nbsp;○&nbsp;주요정책의&nbsp;시민참여형&nbsp;의사결정&nbsp;시스템&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시장이&nbsp;확인하는&nbsp;시민소통&nbsp;플랫폼,&nbsp;행정정보의&nbsp;공개&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;원스톱&nbsp;민원처리&nbsp;시스템&nbsp;구축,&nbsp;생활밀착형&nbsp;행정규제&nbsp;개혁<br>&nbsp;&nbsp;○&nbsp;시민참여&nbsp;자원봉사&nbsp;활성화&nbsp;및&nbsp;전문인력&nbsp;협업&nbsp;네트워크&nbsp;구축<br><br>&nbsp;&nbsp;○&nbsp;자치분권형&nbsp;농업정책&nbsp;추진,&nbsp;남원시&nbsp;자율편성&nbsp;농정&nbsp;사업&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;광한루&nbsp;경외상가는&nbsp;시민&nbsp;품으로,&nbsp;남원대표상품&nbsp;브랜드관,&nbsp;청년창업공간<br>&nbsp;&nbsp;○&nbsp;광한루원-예촌-공설시장을&nbsp;연계하는,&nbsp;걷고&nbsp;싶은&nbsp;남원도심길&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기초&nbsp;이행과제<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시비(정책사업)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	전통과 미래가 함께 하는 문화도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="전통과 미래가 함께 하는 문화도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;문화와&nbsp;관광으로&nbsp;미래를&nbsp;준비하는&nbsp;문화도시<br>&nbsp;&nbsp;○&nbsp;남원의&nbsp;장점을&nbsp;살리는&nbsp;체류형&nbsp;문화&nbsp;관광산업&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;남원&nbsp;문화관광재단&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;남원의&nbsp;역사,&nbsp;문화,&nbsp;관광&nbsp;산업의&nbsp;전문적이고&nbsp;체계적인&nbsp;정책&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가&nbsp;공모사업,&nbsp;국내외&nbsp;네트워크&nbsp;협력&nbsp;글로벌&nbsp;행사기획&nbsp;및&nbsp;유통<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역소재&nbsp;콘텐츠&nbsp;발굴&nbsp;및&nbsp;경제자산&nbsp;산업화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;춘향제전&nbsp;100주년&nbsp;기념사업회&nbsp;출범<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유네스코&nbsp;세계문화유산&nbsp;등재,&nbsp;대한민국&nbsp;대표축제&nbsp;위상&nbsp;회복<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;참여중심의&nbsp;지역&nbsp;축제활성화&nbsp;및&nbsp;계절별&nbsp;축제&nbsp;리브랜딩<br><br>&nbsp;&nbsp;○&nbsp;교룡산성,&nbsp;남원읍성&nbsp;복원사업&nbsp;및&nbsp;시내관광&nbsp;연계코스&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;지리산과&nbsp;섬진강을&nbsp;잇는&nbsp;‘산들강&nbsp;남원&nbsp;500리길’&nbsp;복원&nbsp;및&nbsp;정비&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;남원&nbsp;역사&nbsp;문화길,&nbsp;섬진강&nbsp;요천&nbsp;수변길,&nbsp;힐링과&nbsp;치유의길,&nbsp;지리산&nbsp;둘레길<br>&nbsp;&nbsp;○&nbsp;역사문화&nbsp;사적&nbsp;복원&nbsp;및&nbsp;구도심권&nbsp;유휴&nbsp;공공부지&nbsp;공원화&nbsp;사업<br>&nbsp;&nbsp;○&nbsp;판소리&nbsp;문화의&nbsp;산업화,&nbsp;K-컬춰&nbsp;산업화&nbsp;중심도시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동편제&nbsp;중심도시&nbsp;회복&nbsp;사업,&nbsp;영화&nbsp;창극제작,&nbsp;공연유통&nbsp;전문인력&nbsp;양성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국악공연&nbsp;연회장&nbsp;및&nbsp;전통식당,&nbsp;국악카페&nbsp;개설,&nbsp;관광코스&nbsp;연계&nbsp;<br>&nbsp;&nbsp;○&nbsp;남원전통음식&nbsp;브랜드&nbsp;산업화,&nbsp;전략농산물&nbsp;수출,&nbsp;K-푸드산업&nbsp;성장&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;부터&nbsp;계속사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(공모사업),&nbsp;지방비,&nbsp;시비(정책사업)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	시민이 행복한 복지도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="시민이 행복한 복지도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;맞춤형&nbsp;복지정책으로&nbsp;남원시민&nbsp;삶의&nbsp;질&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;공공의료와&nbsp;자연환경이&nbsp;결합된&nbsp;건강한&nbsp;복지도시&nbsp;<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;사는&nbsp;곳에서&nbsp;도움받고&nbsp;치료받는&nbsp;지역사회&nbsp;통합&nbsp;돌봄,&nbsp;의료&nbsp;체계&nbsp;확립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;남원의료원&nbsp;진료역량&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;공공의료&nbsp;선도,&nbsp;전북&nbsp;동부권역&nbsp;의료,&nbsp;산후조리,&nbsp;돌봄&nbsp;거점&nbsp;도시로&nbsp;육성&nbsp;<br>&nbsp;&nbsp;○&nbsp;주민자치&nbsp;경제&nbsp;공동체&nbsp;활성화&nbsp;<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;자영업자의&nbsp;현장밀착형&nbsp;지원으로&nbsp;지역경제&nbsp;회복<br>&nbsp;&nbsp;○&nbsp;파크골프,&nbsp;사회인&nbsp;야구&nbsp;등&nbsp;생활체육시설&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;유소년&nbsp;스포츠&nbsp;콤플렉스&nbsp;신속추진&nbsp;및&nbsp;지역&nbsp;체육&nbsp;기반&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;사회복지시설&nbsp;종사자&nbsp;처우개선,&nbsp;장애인&nbsp;자립지원&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;공동주택&nbsp;및&nbsp;구도심권&nbsp;주차장&nbsp;확충&nbsp;<br>&nbsp;&nbsp;○&nbsp;에너지&nbsp;취약계층&nbsp;복지사업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을&nbsp;단위&nbsp;LPG,&nbsp;도시가스&nbsp;공급망,&nbsp;공동주택&nbsp;태양광&nbsp;에너지&nbsp;설치&nbsp;지원&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;계속사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

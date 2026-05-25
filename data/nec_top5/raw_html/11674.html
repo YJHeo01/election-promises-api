@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김정식 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	걷는 즐거움이 이어지는 도시정원길을 조성하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="걷는 즐거움이 이어지는 도시정원길을 조성하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;인천대로&nbsp;일반화&nbsp;구간&nbsp;숲길&nbsp;조성(인천기점&nbsp;~서인천IC)<br>○&nbsp;집&nbsp;앞에서&nbsp;숲을&nbsp;누리는&nbsp;숲세권&nbsp;도시재생,&nbsp;미추홀&nbsp;사계절&nbsp;정원길&nbsp;벨드&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;현재&nbsp;인천대로&nbsp;옹벽·방음벽&nbsp;인근&nbsp;지역의&nbsp;소음과&nbsp;분진&nbsp;등&nbsp;생활불편&nbsp;해소<br>&nbsp;&nbsp;-&nbsp;인천대로&nbsp;중앙부&nbsp;숲길&nbsp;조성으로&nbsp;용현동,&nbsp;주안동,&nbsp;도화동&nbsp;일대&nbsp;숲세권&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;수인선&nbsp;바람길숲~주인수봉근린공원~석바위근린공원~승기천~승학산~미추홀공원을&nbsp;잇는&nbsp;미추홀&nbsp;사계절&nbsp;정원길&nbsp;벨트&nbsp;조성<br><br>□&nbsp;이행방법<br>○&nbsp;인천시&nbsp;및&nbsp;관계기관과&nbsp;적극&nbsp;협의해&nbsp;인천대로&nbsp;일반화&nbsp;사업과&nbsp;연계한&nbsp;중앙부&nbsp;숲길&nbsp;조성계획을&nbsp;단계적으로&nbsp;추진<br>○&nbsp;수인선&nbsp;바람길숲부터&nbsp;주안수봉근린공원~미추홀공원을&nbsp;연결하는&nbsp;사계절&nbsp;정원길&nbsp;벨트를&nbsp;단계적으로&nbsp;조성해&nbsp;도심&nbsp;녹지축과&nbsp;보행&nbsp;네트워크를&nbsp;구축&nbsp;<br><br>□&nbsp;이행기간<br>○&nbsp;기간&nbsp;:&nbsp;임기내<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국/시/구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	미추홀구 신청사 구민 행복공간으로 건립하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="미추홀구 신청사 구민 행복공간으로 건립하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;DCRE&nbsp;개발이익금의&nbsp;기부채납&nbsp;방식에&nbsp;대해&nbsp;인천시와&nbsp;적극&nbsp;협의하여&nbsp;주민복합문화공간&nbsp;확충&nbsp;추진<br>○&nbsp;민관협의체와&nbsp;주민&nbsp;공론화를&nbsp;통해&nbsp;주민&nbsp;의견이&nbsp;반영되는&nbsp;참여형&nbsp;신청사&nbsp;조성<br>○&nbsp;공무원&nbsp;중심의&nbsp;행정청사를&nbsp;넘어&nbsp;주민&nbsp;누구나&nbsp;자유롭게&nbsp;이용한&nbsp;열린&nbsp;복합공간&nbsp;구현<br>○&nbsp;주민·행정·지역단체가&nbsp;함께&nbsp;만드는&nbsp;소통형&nbsp;문화복합청사&nbsp;조성으로&nbsp;공공성&nbsp;강화<br><br>□&nbsp;이행방법<br>○&nbsp;민관협의체&nbsp;및&nbsp;주민&nbsp;공론화&nbsp;과정을&nbsp;통해&nbsp;신청사&nbsp;공간&nbsp;구성과&nbsp;운영&nbsp;방향에대한&nbsp;주민&nbsp;의견&nbsp;적극&nbsp;반영<br>○&nbsp;신청사를&nbsp;행정&nbsp;기능&nbsp;중심이&nbsp;아닌&nbsp;공연장·주민&nbsp;커뮤니티&nbsp;시설·문화교육&nbsp;공간이결합된&nbsp;열린&nbsp;복합공간으로&nbsp;건립&nbsp;추진<br>○&nbsp;DCRE&nbsp;개발이익금&nbsp;활용&nbsp;방안에&nbsp;대해&nbsp;인천시와&nbsp;재협의를&nbsp;추진<br>○&nbsp;용현·학익지구&nbsp;개발이익이&nbsp;지역사회에&nbsp;환원될&nbsp;수&nbsp;있도록&nbsp;공공시설&nbsp;투자&nbsp;확대&nbsp;및&nbsp;재원&nbsp;배분의&nbsp;공공성&nbsp;강화<br>○&nbsp;신청사와&nbsp;주변&nbsp;생활SOC·공원·교통체계를&nbsp;연계해&nbsp;주민&nbsp;접근성과&nbsp;활용도를&nbsp;높이는&nbsp;복합&nbsp;생활플랫폼&nbsp;구축<br>○&nbsp;주민&nbsp;의견수렴,&nbsp;설명회,&nbsp;공청회&nbsp;등을&nbsp;정례화하여&nbsp;신청사&nbsp;조성과&nbsp;운영&nbsp;과정의&nbsp;투명성과&nbsp;주민&nbsp;참여&nbsp;보장<br><br>□&nbsp;이행기간<br>○&nbsp;기간&nbsp;:&nbsp;임기내<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;민간/시/구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	㈜ DCRE 기부채납 10만평, 모두의 운동장으로 바꾸겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="㈜ DCRE 기부채납 10만평, 모두의 운동장으로 바꾸겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;시민&nbsp;모두가&nbsp;누리는&nbsp;자연친화형&nbsp;체육공원&nbsp;조성&nbsp;<br>&nbsp;&nbsp;-&nbsp;생활권&nbsp;내&nbsp;누구나&nbsp;쉽게&nbsp;이용할&nbsp;수&nbsp;있는&nbsp;자연친화형&nbsp;체육공간을&nbsp;확충하여&nbsp;주민&nbsp;건강&nbsp;증진과&nbsp;삶의&nbsp;질&nbsp;향상<br>&nbsp;&nbsp;-&nbsp;배드민턴장,&nbsp;테니스장,&nbsp;농구장&nbsp;등&nbsp;기본&nbsp;동네체육시설과&nbsp;연계한&nbsp;체육&nbsp;인프라개선으로&nbsp;주민&nbsp;체육복지&nbsp;수준&nbsp;향상<br>&nbsp;&nbsp;-&nbsp;친환경&nbsp;녹지와&nbsp;체육시설이&nbsp;어우러진&nbsp;복합공간&nbsp;조성으로&nbsp;미추홀구&nbsp;도시&nbsp;브랜드&nbsp;가치&nbsp;제고&nbsp;<br><br>□&nbsp;이행방법<br>○&nbsp;미추홀구,&nbsp;인천시,&nbsp;환경시민단체,&nbsp;DCRE&nbsp;4자&nbsp;협의체&nbsp;구성&nbsp;및&nbsp;기본구상&nbsp;수립<br>○&nbsp;주민을&nbsp;위한&nbsp;자연친환경&nbsp;설계&nbsp;반영&nbsp;설계&nbsp;및&nbsp;인허가&nbsp;절차&nbsp;진행&nbsp;&nbsp;&nbsp;<br>○&nbsp;단계별&nbsp;조성&nbsp;공사&nbsp;진행<br>&nbsp;&nbsp;-&nbsp;숲길,&nbsp;황톳길,&nbsp;녹지축&nbsp;등&nbsp;자연공간&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;인공호수&nbsp;및&nbsp;휴식공간&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;축구장,&nbsp;야구장,&nbsp;배드민턴장,&nbsp;농구장,&nbsp;파크골프장&nbsp;등&nbsp;체육시설&nbsp;조성<br>○&nbsp;주민&nbsp;참여형&nbsp;운영체계&nbsp;구축&nbsp;및&nbsp;친환경&nbsp;유지관리<br><br>□&nbsp;이행기간<br>○기간&nbsp;:&nbsp;임기내<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국/시/구비/민간</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	승기천 물길 복원 사업 추진하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="승기천 물길 복원 사업 추진하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;승기천&nbsp;복개구간(승기사거리~용일사거리)&nbsp;2Km&nbsp;일대&nbsp;물길복원<br>&nbsp;&nbsp;-&nbsp;해당지역&nbsp;일대&nbsp;상습침수&nbsp;문제&nbsp;해소<br>&nbsp;&nbsp;-&nbsp;복원에&nbsp;따른&nbsp;원도심&nbsp;시민휴식공간&nbsp;및&nbsp;문화공원&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;승기천&nbsp;상류&nbsp;복원&nbsp;통한&nbsp;하류구간&nbsp;악취&nbsp;및&nbsp;수질문제&nbsp;개선<br>&nbsp;&nbsp;-&nbsp;역대&nbsp;시정부&nbsp;원도심&nbsp;정책&nbsp;부진&nbsp;전환할&nbsp;핵심&nbsp;원도심&nbsp;활성화&nbsp;사업&nbsp;기대<br><br>□&nbsp;이행방법<br>○&nbsp;타당성조사&nbsp;및&nbsp;기본계획&nbsp;수립<br>○&nbsp;국비&nbsp;확보&nbsp;위한&nbsp;제도개선방안&nbsp;건의&nbsp;등<br>○&nbsp;해당구간&nbsp;도로하부&nbsp;노후하수관로&nbsp;정비사업&nbsp;병행&nbsp;추진<br>○&nbsp;원도심&nbsp;활성화를&nbsp;위한&nbsp;도시재생&nbsp;사업&nbsp;및&nbsp;방재예산&nbsp;투입<br><br>□&nbsp;이행기간<br>○&nbsp;기간&nbsp;:&nbsp;취임&nbsp;후&nbsp;~&nbsp;2032년<br>&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;:&nbsp;타당성조사&nbsp;및&nbsp;기본계획&nbsp;수립,&nbsp;실시설계,&nbsp;사업추진&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;-&nbsp;임기&nbsp;후&nbsp;:&nbsp;시공&nbsp;및&nbsp;준공<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국/시/구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	승학산 예비군 훈련장 조속 이전 및 부지를 활용한 도시정원을 조성하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="승학산 예비군 훈련장 조속 이전 및 부지를 활용한 도시정원을 조성하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;승학산&nbsp;예비군&nbsp;훈련장&nbsp;조속&nbsp;이전을&nbsp;통해&nbsp;주민&nbsp;생활불편과&nbsp;안전&nbsp;문제를&nbsp;해소<br>○&nbsp;이전&nbsp;부지를&nbsp;활용한&nbsp;대규모&nbsp;도시정원&nbsp;및&nbsp;시민&nbsp;휴식공간&nbsp;조성<br>○&nbsp;승학산·미추홀공원·승기천과&nbsp;연계한&nbsp;녹지축&nbsp;확대&nbsp;및&nbsp;친환경&nbsp;도시환경&nbsp;구축&nbsp;<br><br>□&nbsp;이행방법<br>○&nbsp;국방부·인천시&nbsp;등&nbsp;관계기관과&nbsp;협의해&nbsp;승학산&nbsp;예비군&nbsp;훈련장&nbsp;이전을&nbsp;조속&nbsp;추진<br>○&nbsp;이전&nbsp;부지에&nbsp;숲·정원·산책로·문화쉼터를&nbsp;갖춘&nbsp;시민친화형&nbsp;도시정원&nbsp;조성<br>○&nbsp;미추홀&nbsp;사계절&nbsp;정원길&nbsp;벨트와&nbsp;연계한&nbsp;녹지&nbsp;네트워크&nbsp;구축&nbsp;및&nbsp;보행환경&nbsp;개선<br>○&nbsp;국·시비&nbsp;및&nbsp;공모사업&nbsp;확보를&nbsp;통해&nbsp;단계별&nbsp;개발과&nbsp;지속가능한&nbsp;관리체계&nbsp;추진<br><br>□&nbsp;이행기간<br>○기간&nbsp;:&nbsp;임기내<br><br>□&nbsp;재원조달방안&nbsp;등<br>○국/시/구비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

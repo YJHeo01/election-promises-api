@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김왕근 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	동탄형 미래 신도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="동탄형 미래 신도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청년,&nbsp;신혼부부&nbsp;공공주택&nbsp;공급<br>&nbsp;&nbsp;○&nbsp;첨단&nbsp;농식품&nbsp;데이터산업&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;아이키우기&nbsp;좋은&nbsp;교육&nbsp;문화&nbsp;인프라&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;신혼부부&nbsp;청년&nbsp;행복주택&nbsp;공급사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;농업&nbsp;데이터를&nbsp;수집·분석하는&nbsp;전담&nbsp;기관&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;데이터&nbsp;분석,&nbsp;드론&nbsp;운용,&nbsp;AI&nbsp;농업&nbsp;교육“스마트&nbsp;농업&nbsp;교육센터”&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;귀농·귀촌&nbsp;지원금&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;청년비서관&nbsp;채용&nbsp;및&nbsp;청년정책부서&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;지역기업과&nbsp;연계,&nbsp;저렴한&nbsp;청년&nbsp;창업공간&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;통합광역시&nbsp;북부권&nbsp;종합청사&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;장성군&nbsp;-&nbsp;광주권&nbsp;연계&nbsp;광역버스,&nbsp;환승체계&nbsp;및&nbsp;도로망&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;지방&nbsp;경쟁력&nbsp;강화를&nbsp;통한&nbsp;양질의&nbsp;청년&nbsp;일자리&nbsp;창출<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;중장기<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	농업인프라 확대 및 스마트 농업 중심 도시로 개발</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="농업인프라 확대 및 스마트 농업 중심 도시로 개발">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농가소득&nbsp;안정<br>&nbsp;&nbsp;○&nbsp;농업구조개선&nbsp;및&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;유통·판매&nbsp;구조&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;친환경·지속가능&nbsp;농업<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;스마트팜&nbsp;등&nbsp;시설원예&nbsp;첨단화로(ICT기술접목)&nbsp;농가&nbsp;실질소득&nbsp;증대<br>&nbsp;&nbsp;○&nbsp;양파재배&nbsp;농업인&nbsp;영농자재비&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;농작물재해보험&nbsp;및&nbsp;농기계종합보험&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;공공급식&nbsp;연계&nbsp;학교·군부대·공공기관&nbsp;식자재를&nbsp;지역&nbsp;농산물로&nbsp;우선&nbsp;공급<br>&nbsp;&nbsp;○&nbsp;탄소중립&nbsp;농업&nbsp;정책&nbsp;및&nbsp;친환경&nbsp;인증농가&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;로컬푸드&nbsp;직매장&nbsp;확대&nbsp;및&nbsp;온라인&nbsp;판매&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;작물,&nbsp;시설,&nbsp;축사&nbsp;등&nbsp;맟춤형&nbsp;스마트팜&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;농작업&nbsp;대행&nbsp;사업&nbsp;확대&nbsp;등&nbsp;영농활동&nbsp;지원&nbsp;시스템&nbsp;강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;취임&nbsp;후&nbsp;조기추진&nbsp;및&nbsp;중장기&nbsp;계획수립<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	투명하고 공정한 행정의 가치실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="투명하고 공정한 행정의 가치실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;디지털&nbsp;행정&nbsp;혁신<br>&nbsp;&nbsp;○&nbsp;투명성과&nbsp;청렴성&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;조직&nbsp;및&nbsp;인사&nbsp;혁신<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;찾아가는&nbsp;현장&nbsp;행정으로&nbsp;소통하는&nbsp;군민과의&nbsp;대화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;민원&nbsp;즉시&nbsp;대응&nbsp;체계,&nbsp;‘찾아가는&nbsp;행정&nbsp;서비스<br>&nbsp;&nbsp;○&nbsp;예산·사업&nbsp;정보&nbsp;공개&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;공무원&nbsp;부패&nbsp;방지&nbsp;시스템&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;능력&nbsp;중심의&nbsp;공정하고&nbsp;투명한&nbsp;인사&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;공무원&nbsp;인사위원회&nbsp;민간인&nbsp;과반수&nbsp;이상&nbsp;참여<br>&nbsp;&nbsp;○&nbsp;청년·여성,&nbsp;노인&nbsp;등&nbsp;계층별&nbsp;참여&nbsp;정책<br>&nbsp;&nbsp;○&nbsp;관급&nbsp;계약&nbsp;및&nbsp;보조사업&nbsp;공정심의회&nbsp;구성&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;참여&nbsp;예산제&nbsp;활성화<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;취임후&nbsp;조기추진&nbsp;및&nbsp;중장기&nbsp;계획수립<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	따뜻한 복지, 교통혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="따뜻한 복지, 교통혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;의료·돌봄&nbsp;서비스&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;교육·문화&nbsp;복지&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;고령&nbsp;농업인&nbsp;돌봄&nbsp;센터&nbsp;및&nbsp;공동&nbsp;생활&nbsp;시설&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;치매·노인&nbsp;질환&nbsp;관리&nbsp;프로그램&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;농번기&nbsp;공동급식,&nbsp;겨울철&nbsp;경로당&nbsp;급식비&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;방문&nbsp;진료·이동&nbsp;의료&nbsp;서비스&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;다문화가정&nbsp;직업훈련&nbsp;교육지원<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;무상&nbsp;교통&nbsp;단계적&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;24시간&nbsp;응급의료&nbsp;체계&nbsp;구축&nbsp;및&nbsp;의료&nbsp;사각지대&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;국립심뇌혈관센터&nbsp;연계&nbsp;종합병원&nbsp;유치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;취임&nbsp;후&nbsp;조기추진&nbsp;및&nbsp;중장기&nbsp;계획수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	힐링, 교육, 문화, 관광정책</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="힐링, 교육, 문화, 관광정책">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역학교&nbsp;교육지원&nbsp;예산&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;지역축제&nbsp;및&nbsp;이벤트&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;관내&nbsp;초등학교&nbsp;입학시&nbsp;축하금&nbsp;지급<br>&nbsp;&nbsp;○&nbsp;방과후·돌봄&nbsp;교실&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;문화·체육&nbsp;시설&nbsp;확충&nbsp;및&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;장성&nbsp;황룡강&nbsp;길동무&nbsp;꽃길&nbsp;축제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;장성&nbsp;황룡강&nbsp;가을꽃&nbsp;축제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;장성군&nbsp;"남창,&nbsp;가인&nbsp;고로쇠&nbsp;축제&nbsp;부활&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;장성&nbsp;백양사&nbsp;아기&nbsp;단풍&nbsp;축제&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;취임&nbsp;후&nbsp;조기추진&nbsp;및&nbsp;중장기&nbsp;계획수립<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

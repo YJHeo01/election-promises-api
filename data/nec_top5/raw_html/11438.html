@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이용우 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	전국 최초 ‘강동형 도시재난 안심보험’ 도입</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="전국 최초 ‘강동형 도시재난 안심보험’ 도입">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;싱크홀·침수·도로파손&nbsp;등&nbsp;도시형&nbsp;재난&nbsp;피해에&nbsp;대한&nbsp;선제적&nbsp;보상체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;구민&nbsp;과실&nbsp;여부와&nbsp;무관한&nbsp;신속·공정&nbsp;보상&nbsp;시스템&nbsp;확립<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;구민안전보험&nbsp;한계를&nbsp;보완한&nbsp;실질적&nbsp;생활안전망&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;재난&nbsp;발생&nbsp;시&nbsp;행정&nbsp;대응&nbsp;지연·책임&nbsp;회피&nbsp;구조&nbsp;해소<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;강동형&nbsp;도시재난&nbsp;안심보험&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;싱크홀(지반침하),&nbsp;침수&nbsp;피해까지&nbsp;보장&nbsp;범위&nbsp;확대&nbsp;기존&nbsp;구민안전보험·<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;책임보험&nbsp;체계&nbsp;전면&nbsp;개편<br>&nbsp;&nbsp;○&nbsp;‘즉시&nbsp;대응-즉시&nbsp;보상’&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지정&nbsp;손해사정법인&nbsp;사전&nbsp;선정&nbsp;및&nbsp;상시&nbsp;대기체계&nbsp;구축사고&nbsp;발생&nbsp;시&nbsp;현장&nbsp;즉시&nbsp;출동&nbsp;및&nbsp;피해&nbsp;산정&nbsp;복잡한&nbsp;입증&nbsp;절차&nbsp;없이&nbsp;신속&nbsp;보상&nbsp;진행<br>&nbsp;&nbsp;○&nbsp;선보상&nbsp;원칙&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;책임소재&nbsp;여부&nbsp;무관하게&nbsp;일정&nbsp;기준&nbsp;충족&nbsp;시&nbsp;보상&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이후&nbsp;책임여부&nbsp;검토,&nbsp;상계&nbsp;또는&nbsp;구상&nbsp;방식으로&nbsp;책임&nbsp;처리<br>&nbsp;&nbsp;○&nbsp;도시재난&nbsp;통합관리&nbsp;데이터&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;싱크홀·침수&nbsp;취약지역&nbsp;DB화&nbsp;및&nbsp;사전&nbsp;위험관리&nbsp;반복&nbsp;사고&nbsp;지역&nbsp;집중&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정비&nbsp;및&nbsp;예방&nbsp;투자&nbsp;연계<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제도&nbsp;설계&nbsp;및&nbsp;보험사&nbsp;협약&nbsp;체결:&nbsp;취임&nbsp;즉시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시범&nbsp;운영(우선&nbsp;위험지역):&nbsp;취임&nbsp;후&nbsp;6개월&nbsp;이내<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전&nbsp;구민&nbsp;대상&nbsp;전면&nbsp;시행:&nbsp;취임&nbsp;후&nbsp;1년&nbsp;이내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;구민안전보험&nbsp;예산&nbsp;재구조화&nbsp;및&nbsp;통합&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보험사&nbsp;재원으로&nbsp;현장&nbsp;출동&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시&nbsp;및&nbsp;재난안전&nbsp;특별교부금&nbsp;일부&nbsp;연계&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	‘에듀-테크 진로·학점 설계 컨설팅 센터’ 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="‘에듀-테크 진로·학점 설계 컨설팅 센터’ 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;고교학점제&nbsp;전면&nbsp;시행에&nbsp;대응한&nbsp;맞춤형&nbsp;진로·과목&nbsp;설계&nbsp;지원체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;사교육&nbsp;의존&nbsp;없이도&nbsp;가능한&nbsp;공공형&nbsp;입시·진로&nbsp;컨설팅&nbsp;인프라&nbsp;확립<br>&nbsp;&nbsp;○&nbsp;고덕비즈밸리&nbsp;IT기업&nbsp;연계를&nbsp;통한&nbsp;실무형&nbsp;진로탐색·인턴십&nbsp;기회&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;간&nbsp;교육격차&nbsp;해소&nbsp;및&nbsp;강동형&nbsp;교육&nbsp;경쟁력&nbsp;강화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;‘강동&nbsp;에듀-테크&nbsp;컨설팅&nbsp;센터(팀)’&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고교학점제&nbsp;전용&nbsp;진로·과목&nbsp;설계&nbsp;지원&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학생별&nbsp;성향·적성&nbsp;기반&nbsp;AI&nbsp;진로&nbsp;진단&nbsp;시스템&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;1:1&nbsp;맞춤형&nbsp;학점&nbsp;설계&nbsp;및&nbsp;진로&nbsp;컨설팅&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;과목&nbsp;선택·대입&nbsp;전략·진로&nbsp;로드맵&nbsp;통합&nbsp;설계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전문&nbsp;컨설턴트&nbsp;+&nbsp;교사&nbsp;+&nbsp;AI&nbsp;분석&nbsp;결합형&nbsp;상담&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;고덕비즈밸리&nbsp;기업&nbsp;연계&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;전문가&nbsp;멘토링&nbsp;정례화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단기&nbsp;프로젝트·체험형&nbsp;인턴십&nbsp;프로그램&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;공공-사교육&nbsp;연계형&nbsp;정보&nbsp;플랫폼&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;컨설팅&nbsp;데이터를&nbsp;표준화하여&nbsp;학부모·학생에&nbsp;공개<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;교육기관과&nbsp;정보&nbsp;공유를&nbsp;통해&nbsp;교육&nbsp;접근성&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;센터(팀)&nbsp;설계&nbsp;및&nbsp;조직개편:&nbsp;취임&nbsp;즉시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;진로진단&nbsp;시스템&nbsp;및&nbsp;시범&nbsp;컨설팅&nbsp;운영:&nbsp;취임&nbsp;후&nbsp;6개월&nbsp;이내<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고덕비즈밸리&nbsp;기업&nbsp;연계&nbsp;프로그램&nbsp;본격&nbsp;시행:&nbsp;취임&nbsp;후&nbsp;1년&nbsp;이내<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전면&nbsp;확대&nbsp;및&nbsp;안정화:&nbsp;취임&nbsp;후&nbsp;2년&nbsp;이내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육·청년·디지털&nbsp;예산&nbsp;통합&nbsp;활용&nbsp;및&nbsp;구조조정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고덕비즈밸리&nbsp;기업&nbsp;협력&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육청&nbsp;협력사업&nbsp;및&nbsp;국비사업&nbsp;공모&nbsp;연계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	고덕~강일 ‘수변공원 재구조화·랜드마크화’</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="고덕~강일 ‘수변공원 재구조화·랜드마크화’">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;단순&nbsp;보존형&nbsp;생태공원을&nbsp;이용&nbsp;중심&nbsp;시민공원으로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;고덕비즈밸리~한강&nbsp;연결을&nbsp;통한&nbsp;수변&nbsp;경제·상권&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;야간&nbsp;조명·경관&nbsp;특화를&nbsp;통한&nbsp;강동&nbsp;대표&nbsp;명소&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;급증하는&nbsp;신도시&nbsp;인구에&nbsp;대응한&nbsp;생활형&nbsp;여가&nbsp;인프라&nbsp;확충<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;수변공원&nbsp;전면&nbsp;재구조화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;생태&nbsp;보존&nbsp;구역은&nbsp;유지하되,&nbsp;이용&nbsp;가능&nbsp;구간은&nbsp;명확히&nbsp;구분하여&nbsp;재설계<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;테마&nbsp;산책로(러닝·야경·가족형&nbsp;코스)&nbsp;및&nbsp;휴식·편의시설&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;‘강동형&nbsp;한강&nbsp;시민공원’&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;카페형&nbsp;쉼터,&nbsp;전망데크,&nbsp;문화·소규모&nbsp;공연&nbsp;공간&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;계절별&nbsp;콘텐츠(야외&nbsp;영화,&nbsp;플리마켓&nbsp;등)&nbsp;운영으로&nbsp;체류형&nbsp;공간&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;고덕비즈밸리~한강&nbsp;보행&nbsp;연결&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;보행교&nbsp;설치&nbsp;또는&nbsp;동선&nbsp;개선으로&nbsp;접근성&nbsp;획기적&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;직장인·주민&nbsp;유입을&nbsp;유도하는&nbsp;‘퇴근길&nbsp;한강’&nbsp;동선&nbsp;설계<br>&nbsp;&nbsp;○&nbsp;야간&nbsp;경관&nbsp;특화&nbsp;및&nbsp;명소화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;조명&nbsp;디자인(미디어·경관&nbsp;조명)&nbsp;도입으로&nbsp;야간&nbsp;이용&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;안전&nbsp;조명&nbsp;및&nbsp;스마트&nbsp;CCTV&nbsp;연계로&nbsp;야간&nbsp;안전성&nbsp;강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;관계기관&nbsp;협의&nbsp;착수:&nbsp;취임&nbsp;즉시<br>&nbsp;&nbsp;&nbsp;&nbsp;시범&nbsp;구간(핵심&nbsp;동선·야간&nbsp;조명)&nbsp;우선&nbsp;조성:&nbsp;취임&nbsp;후&nbsp;~22년&nbsp;이내<br>&nbsp;&nbsp;&nbsp;&nbsp;보행&nbsp;연결&nbsp;및&nbsp;주요&nbsp;시설&nbsp;단계적&nbsp;완공:&nbsp;임기내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;한강사업본부·서울시&nbsp;공원녹지&nbsp;예산&nbsp;연계&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;고덕비즈밸리&nbsp;개발&nbsp;공공기여&nbsp;및&nbsp;민간&nbsp;참여&nbsp;유도<br>&nbsp;&nbsp;&nbsp;&nbsp;단계별&nbsp;조성(핵심&nbsp;구간&nbsp;우선)으로&nbsp;초기&nbsp;재정&nbsp;부담&nbsp;최소화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	천호 ‘강동의 성수동’ 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="천호 ‘강동의 성수동’ 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;노후화된&nbsp;천호&nbsp;상권을&nbsp;체류형&nbsp;문화·상업&nbsp;복합공간으로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;걷기&nbsp;불편한&nbsp;환경을&nbsp;개선한&nbsp;보행&nbsp;중심&nbsp;상권&nbsp;구조&nbsp;재편<br>&nbsp;&nbsp;○&nbsp;야간&nbsp;콘텐츠&nbsp;확충을&nbsp;통한&nbsp;‘밤에도&nbsp;살아있는&nbsp;상권’&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;강동을&nbsp;대표하는&nbsp;청년·문화&nbsp;중심&nbsp;상권&nbsp;브랜드&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;로데오거리&nbsp;중심&nbsp;보행환경&nbsp;전면&nbsp;재정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보행로&nbsp;내&nbsp;가스시설&nbsp;등&nbsp;지장물&nbsp;정비&nbsp;및&nbsp;지중화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보행자&nbsp;중심&nbsp;동선&nbsp;재설계로&nbsp;‘걷고&nbsp;싶은&nbsp;거리’&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;문화·상업&nbsp;결합&nbsp;복합공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유휴공간&nbsp;및&nbsp;저활용&nbsp;상가&nbsp;리모델링을&nbsp;통한&nbsp;복합문화공간&nbsp;유도<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전시·공연·팝업스토어&nbsp;등&nbsp;청년·창업&nbsp;콘텐츠&nbsp;유입&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;‘강동형&nbsp;골목&nbsp;콘텐츠’&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소규모&nbsp;브랜드·로컬상권&nbsp;창업&nbsp;지원&nbsp;및&nbsp;거리&nbsp;특화&nbsp;테마&nbsp;기획<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성수동형&nbsp;골목&nbsp;감성&nbsp;상권으로&nbsp;단계적&nbsp;브랜딩&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;야간경제&nbsp;활성화&nbsp;프로그램&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정기&nbsp;야시장·플리마켓&nbsp;개최로&nbsp;유동인구&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간&nbsp;경관·조명&nbsp;개선으로&nbsp;안전하고&nbsp;매력적인&nbsp;밤거리&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;상인·주민&nbsp;협의체&nbsp;구성:&nbsp;취임&nbsp;즉시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보행환경&nbsp;개선&nbsp;및&nbsp;시범구간&nbsp;정비&nbsp;완료:&nbsp;취임&nbsp;후&nbsp;1년&nbsp;이내<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복합공간&nbsp;조성&nbsp;및&nbsp;야간&nbsp;콘텐츠&nbsp;본격&nbsp;운영:&nbsp;취임&nbsp;후&nbsp;2년&nbsp;이내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시재생·상권활성화&nbsp;관련&nbsp;서울시&nbsp;공모사업&nbsp;및&nbsp;예산&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;투자&nbsp;및&nbsp;상인&nbsp;참여형&nbsp;리모델링&nbsp;유도(매칭&nbsp;방식)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단계별&nbsp;정비를&nbsp;통한&nbsp;초기&nbsp;재정&nbsp;부담&nbsp;최소화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	‘청결 강동’ 도심 동물 관리 시스템 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="‘청결 강동’ 도심 동물 관리 시스템 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;비둘기·길고양이&nbsp;등&nbsp;도심&nbsp;동물로&nbsp;인한&nbsp;위생·안전&nbsp;문제&nbsp;체계적&nbsp;관리&nbsp;<br>&nbsp;&nbsp;○&nbsp;무분별한&nbsp;개체&nbsp;증가&nbsp;억제를&nbsp;통한&nbsp;지속가능한&nbsp;공존&nbsp;환경&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;배설물·소음&nbsp;등&nbsp;생활&nbsp;민원&nbsp;감소로&nbsp;쾌적한&nbsp;도시환경&nbsp;회복<br>&nbsp;&nbsp;○&nbsp;관리&nbsp;사각지대&nbsp;해소를&nbsp;위한&nbsp;과학적·통합&nbsp;관리체계&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;도심&nbsp;동물&nbsp;개체수&nbsp;관리&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;비둘기·길고양이&nbsp;서식&nbsp;실태&nbsp;조사&nbsp;및&nbsp;데이터&nbsp;기반&nbsp;관리<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중성화(TNR)·산란억제&nbsp;등&nbsp;개체수&nbsp;조절&nbsp;정책&nbsp;확대&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;위생&nbsp;취약지역&nbsp;집중&nbsp;관리<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;배설물&nbsp;집중&nbsp;구역&nbsp;지정&nbsp;및&nbsp;정기&nbsp;청소·소독&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공원·주거&nbsp;밀집지역&nbsp;중심&nbsp;위생&nbsp;관리&nbsp;인력·장비&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;먹이&nbsp;공급&nbsp;및&nbsp;관리&nbsp;기준&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공장소&nbsp;내&nbsp;무분별한&nbsp;먹이&nbsp;공급&nbsp;행위&nbsp;관리&nbsp;기준&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일정&nbsp;구역&nbsp;지정&nbsp;관리&nbsp;및&nbsp;위반&nbsp;시&nbsp;과태료&nbsp;등&nbsp;제도&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;참여형&nbsp;관리&nbsp;시스템&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신고·관리&nbsp;앱&nbsp;또는&nbsp;핫라인&nbsp;구축으로&nbsp;신속&nbsp;대응<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동물보호&nbsp;단체와&nbsp;협력한&nbsp;갈등&nbsp;완화&nbsp;및&nbsp;공존&nbsp;프로그램&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;실태조사&nbsp;및&nbsp;관리계획&nbsp;수립:&nbsp;취임&nbsp;즉시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관리&nbsp;기준&nbsp;제도화&nbsp;및&nbsp;전면&nbsp;시행:&nbsp;취임&nbsp;후&nbsp;1년&nbsp;이내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;환경·위생&nbsp;관리&nbsp;예산&nbsp;재배분&nbsp;및&nbsp;효율화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동물보호·공공위생&nbsp;관련&nbsp;국·시비&nbsp;지원사업&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민관&nbsp;협력(동물단체·자원봉사)으로&nbsp;운영비&nbsp;절감<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민원&nbsp;감소에&nbsp;따른&nbsp;행정&nbsp;비용&nbsp;절감&nbsp;효과&nbsp;기대</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

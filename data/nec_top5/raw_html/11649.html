@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김성태 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	공간혁명 : 회색 도시 → 녹색 문화도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="공간혁명 : 회색 도시 → 녹색 문화도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;산업·교통&nbsp;중심&nbsp;회색&nbsp;도시를&nbsp;친환경&nbsp;녹색&nbsp;문화도시로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;도심&nbsp;속&nbsp;생태·휴식·문화&nbsp;공간&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지역&nbsp;관광&nbsp;및&nbsp;도시&nbsp;브랜드&nbsp;가치&nbsp;향상<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;상화로&nbsp;입체화&nbsp;이후&nbsp;지상&nbsp;공간에&nbsp;진천천&nbsp;생태&nbsp;문화&nbsp;하천&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;하천&nbsp;복원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산책로·공연장·문화광장&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;두류공원로&nbsp;지하화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공원·이월드·신청사&nbsp;연결&nbsp;녹지축&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;월배차량기지&nbsp;후적지&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;난개발&nbsp;제한<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화·창업·공공시설&nbsp;중심&nbsp;복합개발&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2026~2027&nbsp;:&nbsp;기본계획·용역·국비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2027~2029&nbsp;:&nbsp;공사&nbsp;및&nbsp;단계별&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2030&nbsp;이후&nbsp;&nbsp;&nbsp;:&nbsp;문화&nbsp;녹색&nbsp;도시&nbsp;완성&nbsp;및&nbsp;운영&nbsp;안정화<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;국비·시비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;도시재생·환경&nbsp;관련&nbsp;공모사업&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;민간투자&nbsp;및&nbsp;민관협력&nbsp;개발방식&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;특별교부세&nbsp;및&nbsp;지방채&nbsp;일부&nbsp;검토</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	성서 경제 부활 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="성서 경제 부활 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;침체된&nbsp;성서산업단지&nbsp;경쟁력&nbsp;회복<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;첨단산업&nbsp;중심&nbsp;경제구조&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;청년&nbsp;일자리&nbsp;확대&nbsp;및&nbsp;지역경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;AI&nbsp;스마트산단&nbsp;전환&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;디지털&nbsp;기반&nbsp;산업환경&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첨단기업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공공기관&nbsp;유치&nbsp;활동&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;성서&nbsp;쇼핑월드&nbsp;공용주차장&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주차난&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상권&nbsp;접근성&nbsp;개선<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2026~2027&nbsp;:&nbsp;산업진단·유치전략&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2027~2029&nbsp;:&nbsp;기업유치·기반시설&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2030&nbsp;이후&nbsp;&nbsp;&nbsp;:&nbsp;산업생태계&nbsp;안정화<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;산업통상자원부&nbsp;스마트산단&nbsp;사업&nbsp;국비<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;대구시&nbsp;산업예산&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;민간기업&nbsp;투자&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공공기관&nbsp;이전&nbsp;관련&nbsp;정부지원&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	문화·경제도시 달서</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="문화·경제도시 달서">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;문화가&nbsp;지역경제를&nbsp;이끄는&nbsp;도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;주민&nbsp;문화&nbsp;향유&nbsp;기회&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;예술·체육&nbsp;기반&nbsp;생활&nbsp;복지&nbsp;강화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;달서형&nbsp;참여&nbsp;기본소득&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예술·체육&nbsp;전문가&nbsp;활동&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;대상&nbsp;문화&nbsp;교육&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;동네&nbsp;공연&nbsp;및&nbsp;생활체육&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;문화광장·축제도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연중&nbsp;문화행사&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광객&nbsp;유입&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2026~2027&nbsp;:&nbsp;시범사업&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2027~2029&nbsp;:&nbsp;프로그램&nbsp;확대&nbsp;및&nbsp;제도&nbsp;정착<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2030&nbsp;이후&nbsp;&nbsp;&nbsp;:&nbsp;문화&nbsp;경제&nbsp;도시&nbsp;모델&nbsp;완성<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;문화체육관광부&nbsp;공모사업<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지방문화재단&nbsp;협력<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;기업&nbsp;메세나&nbsp;및&nbsp;후원&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;축제·관광&nbsp;연계&nbsp;수익&nbsp;재투자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	관광·상권 활성화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="관광·상권 활성화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;체류형&nbsp;관광도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;골목상권&nbsp;및&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;청년창업&nbsp;기반&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;경주·안동·고령&nbsp;연계&nbsp;관광벨트&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;숙박·먹거리·공연&nbsp;연계&nbsp;관광상품&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;문화관광형&nbsp;상권&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;골목상권&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년창업&nbsp;지원&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2026~2027&nbsp;:&nbsp;관광자원&nbsp;연계&nbsp;및&nbsp;상품기획<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2027~2029&nbsp;:&nbsp;관광코스·상권사업&nbsp;본격&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2030&nbsp;이후&nbsp;&nbsp;&nbsp;:&nbsp;체류형&nbsp;관광도시&nbsp;정착<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;관광진흥기금&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;중소벤처기업부·소상공인&nbsp;지원사업&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;민간&nbsp;관광기업&nbsp;투자유치<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지역축제&nbsp;및&nbsp;관광수익&nbsp;재투자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	아이 키우기 좋은 달서</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="아이 키우기 좋은 달서">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;출산·육아&nbsp;친화도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;안전하고&nbsp;편리한&nbsp;교육환경&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;아동·학부모&nbsp;삶의&nbsp;질&nbsp;향상<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;임산부&nbsp;핑크라이트&nbsp;시스템&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;IoT&nbsp;기반&nbsp;배려&nbsp;서비스&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;출산·육아&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산후&nbsp;조리&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보육비&nbsp;경감<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아동&nbsp;건강&nbsp;관리&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;교육&nbsp;환경&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;초등학교&nbsp;휴대폰&nbsp;프리존&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;과밀학급&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학교&nbsp;신설&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2026~2027&nbsp;:&nbsp;시범사업&nbsp;및&nbsp;제도&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2027~2029&nbsp;:&nbsp;지원&nbsp;확대&nbsp;및&nbsp;시설&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2030&nbsp;이후&nbsp;&nbsp;&nbsp;:&nbsp;정착&nbsp;및&nbsp;안정&nbsp;운영<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;보건복지부·교육부&nbsp;국비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지방&nbsp;교육&nbsp;재정&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;출산장려&nbsp;정책예산&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공공·민간&nbsp;협력사업&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

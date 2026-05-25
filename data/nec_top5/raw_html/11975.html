@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김병수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	서울 지하철 5호선 조기 개통</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="서울 지하철 5호선 조기 개통">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;‘조기&nbsp;착공’을&nbsp;넘어선&nbsp;‘조기&nbsp;개통’<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예비타당성조사&nbsp;통과&nbsp;이후의&nbsp;행정&nbsp;절차를&nbsp;압축하여,&nbsp;시민들이&nbsp;체감할&nbsp;수&nbsp;있는&nbsp;실제&nbsp;개통&nbsp;시기를&nbsp;최대한&nbsp;단축<br>&nbsp;&nbsp;○&nbsp;환승&nbsp;없는&nbsp;서울&nbsp;직결&nbsp;노선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통진(마송)에서&nbsp;여의도,&nbsp;광화문&nbsp;등&nbsp;서울&nbsp;도심까지&nbsp;환승&nbsp;없이&nbsp;도달<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;내&nbsp;교통&nbsp;사각지대&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;노선안에&nbsp;풍무2역,&nbsp;김포경찰서역,&nbsp;통진(마송)역&nbsp;등&nbsp;3개&nbsp;역을&nbsp;신설<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;5호선&nbsp;조기&nbsp;개통&nbsp;공법&nbsp;적용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전체&nbsp;노선을&nbsp;여러&nbsp;공구로&nbsp;나누어&nbsp;동시&nbsp;착공&nbsp;하고,&nbsp;설계와&nbsp;시공을&nbsp;일괄&nbsp;진행하는&nbsp;‘턴키(Turn-&nbsp;Key)’&nbsp;방식을&nbsp;도입하여&nbsp;개통&nbsp;시기를&nbsp;대폭&nbsp;앞당김<br>&nbsp;&nbsp;○&nbsp;행정&nbsp;절차&nbsp;병행&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;환경영향평가,&nbsp;교통영향평가&nbsp;등&nbsp;필수적인&nbsp;행정&nbsp;절차를&nbsp;순차적이&nbsp;아닌&nbsp;병렬적으로&nbsp;진행하여&nbsp;사업&nbsp;확정부터&nbsp;착공까지의&nbsp;공백을&nbsp;최소화<br>&nbsp;&nbsp;○&nbsp;현직&nbsp;시장의&nbsp;행정&nbsp;연속성&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;5호선&nbsp;예타&nbsp;통과를&nbsp;직접&nbsp;이끌어낸&nbsp;경험과&nbsp;중앙정부와의&nbsp;협의&nbsp;채널을&nbsp;활용해&nbsp;노선&nbsp;변경&nbsp;등&nbsp;불필요한&nbsp;논쟁&nbsp;없이&nbsp;기존&nbsp;노선을&nbsp;흔들림&nbsp;없이&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2033년&nbsp;이전&nbsp;개통&nbsp;추진<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;국비·도비·시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	서울 지하철 2호선 신정지선 김포 연장</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="서울 지하철 2호선 신정지선 김포 연장">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;고촌·풍무&nbsp;지역의&nbsp;교통&nbsp;사각지대&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김포골드라인의&nbsp;혼잡도가&nbsp;극심하고&nbsp;광역&nbsp;교통망에서&nbsp;상대적으로&nbsp;소외되었던&nbsp;고촌&nbsp;남측&nbsp;및&nbsp;풍무동&nbsp;지역에&nbsp;철도&nbsp;서비스&nbsp;직접&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;목동&nbsp;교육&nbsp;인프라&nbsp;접근성&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2호선&nbsp;신정지선을&nbsp;서울&nbsp;양천구에서&nbsp;김포로&nbsp;직결함으로써,&nbsp;목동의&nbsp;우수한&nbsp;학원가&nbsp;및&nbsp;교육&nbsp;인프라를&nbsp;김포&nbsp;학생들이&nbsp;빠르고&nbsp;편리하게&nbsp;누릴&nbsp;수&nbsp;있는&nbsp;생활권&nbsp;통합<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;광역교통법정계획&nbsp;반영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양천구와&nbsp;공동으로&nbsp;진행한&nbsp;‘신정지선&nbsp;김포&nbsp;연장&nbsp;사전타당성&nbsp;조사’&nbsp;결과를&nbsp;토대로,&nbsp;‘제5차&nbsp;대도시권&nbsp;광역교통시행계획’에&nbsp;본&nbsp;사업&nbsp;최종&nbsp;반영<br>&nbsp;&nbsp;○&nbsp;최적&nbsp;노선&nbsp;확정&nbsp;및&nbsp;조기&nbsp;착공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고촌과&nbsp;풍무를&nbsp;거치는&nbsp;최적의&nbsp;대안&nbsp;노선을&nbsp;조기에&nbsp;확정하고,&nbsp;행정&nbsp;절차를&nbsp;간소화하여&nbsp;착공&nbsp;시점을&nbsp;최대한&nbsp;앞당길&nbsp;예정<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	집 앞까지 빈틈없는 생활교통</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="집 앞까지 빈틈없는 생활교통">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;교통&nbsp;사각지대&nbsp;제로&nbsp;:&nbsp;김포&nbsp;어디서든&nbsp;소외되지&nbsp;않는&nbsp;이동권&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;안심&nbsp;통학로&nbsp;완성&nbsp;:&nbsp;학부모의&nbsp;걱정을&nbsp;덜고&nbsp;학생의&nbsp;아침을&nbsp;여유롭게<br>&nbsp;&nbsp;○&nbsp;출퇴근&nbsp;스트레스&nbsp;해소&nbsp;:&nbsp;수도권&nbsp;최고&nbsp;수준의&nbsp;광역버스&nbsp;밀집&nbsp;투입<br>&nbsp;&nbsp;○&nbsp;광역&nbsp;철도망&nbsp;연계&nbsp;극대화&nbsp;:&nbsp;GTX-A&nbsp;등&nbsp;핵심&nbsp;광역&nbsp;철도망과의&nbsp;접근성&nbsp;높여&nbsp;더&nbsp;빠른&nbsp;서울&nbsp;진입&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;수상&nbsp;교통&nbsp;혁명&nbsp;:&nbsp;도로&nbsp;위&nbsp;정체를&nbsp;피해&nbsp;한강을&nbsp;가로지르는&nbsp;새로운&nbsp;이동&nbsp;패러다임<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;북부권&nbsp;순환&nbsp;버스망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통&nbsp;소외지역인&nbsp;북부권&nbsp;5개&nbsp;읍·면을&nbsp;촘촘히&nbsp;잇는&nbsp;순환&nbsp;버스&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;학생전용&nbsp;통학순환버스&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;주거단지와&nbsp;학교를&nbsp;연결하는&nbsp;학생전용&nbsp;순환버스를&nbsp;도입해&nbsp;통학&nbsp;시간을&nbsp;줄이고&nbsp;등하교&nbsp;안전&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;고촌-대곡역(GTX-&nbsp;A)&nbsp;연계&nbsp;버스&nbsp;노선&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;70번&nbsp;버스&nbsp;집중&nbsp;배차<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;70번&nbsp;버스&nbsp;출퇴근&nbsp;핵심&nbsp;시간대&nbsp;증차&nbsp;투입<br>&nbsp;&nbsp;○&nbsp;한강&nbsp;‘하버&nbsp;크래프트’&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;70번&nbsp;버스&nbsp;출퇴근&nbsp;핵심&nbsp;시간대&nbsp;증차&nbsp;및&nbsp;시간대&nbsp;확대&nbsp;투입<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;+&nbsp;도비&nbsp;+&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	명문 국제학교 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="명문 국제학교 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;교육&nbsp;목적의&nbsp;인구&nbsp;유출&nbsp;방지&nbsp;및&nbsp;역유입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고품격&nbsp;교육&nbsp;인프라가&nbsp;갖춰지면&nbsp;인근&nbsp;수도권의&nbsp;전문직&nbsp;및&nbsp;고소득&nbsp;세대&nbsp;김포&nbsp;유입&nbsp;가능<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;기업&nbsp;및&nbsp;투자&nbsp;유치&nbsp;위한&nbsp;핵심&nbsp;인프라<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;베드타운을&nbsp;벗어나&nbsp;글로벌&nbsp;비즈니스가&nbsp;이루어지기&nbsp;위한&nbsp;필수&nbsp;기반&nbsp;시설<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;김포한강2&nbsp;콤팩트시티&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한강2지구&nbsp;내&nbsp;학교&nbsp;부지&nbsp;반영.&nbsp;LH&nbsp;등&nbsp;공공주택사업자와의&nbsp;협의를&nbsp;통해&nbsp;토지&nbsp;공급&nbsp;조건&nbsp;최적화<br>&nbsp;&nbsp;○&nbsp;MOU&nbsp;조기&nbsp;체결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영국,&nbsp;미국이나&nbsp;캐나다의&nbsp;우수&nbsp;커리큘럼을&nbsp;보유한&nbsp;학교법인과&nbsp;조기&nbsp;MOU&nbsp;체결<br>&nbsp;&nbsp;○&nbsp;인센티브&nbsp;패키지&nbsp;제시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;설립&nbsp;준비금&nbsp;지원,&nbsp;초기&nbsp;운영&nbsp;결손금&nbsp;보전&nbsp;방안&nbsp;등&nbsp;타&nbsp;지자체&nbsp;대비&nbsp;경쟁력&nbsp;있는&nbsp;인센티브를&nbsp;검토하여&nbsp;제안서에&nbsp;포함<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;비예산(조성토지&nbsp;매각을&nbsp;통한&nbsp;사업비&nbsp;확보),&nbsp;민간&nbsp;투자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	한강 수변과 백마도의 관광명소화와 시민공원 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="한강 수변과 백마도의 관광명소화와 시민공원 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;한강을&nbsp;시민의&nbsp;품으로<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;철책에&nbsp;가로막혔던&nbsp;한강&nbsp;수변을&nbsp;개방하여&nbsp;접근성&nbsp;극대화<br>&nbsp;&nbsp;○&nbsp;일상&nbsp;속&nbsp;수변&nbsp;문화&nbsp;향유<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단순한&nbsp;통행로를&nbsp;넘어&nbsp;휴식,&nbsp;레저,&nbsp;문화가&nbsp;공존하는&nbsp;명품&nbsp;시민공원&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;도시&nbsp;브랜드의&nbsp;글로벌화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘접경&nbsp;도시’의&nbsp;이미지를&nbsp;탈피하고,&nbsp;싱가포르&nbsp;센토사를&nbsp;뛰어넘는&nbsp;랜드마크&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;미래&nbsp;먹거리&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;글로벌&nbsp;테마파크&nbsp;유치를&nbsp;통해&nbsp;양질의&nbsp;일자리&nbsp;창출과&nbsp;지역&nbsp;경제의&nbsp;퀀텀&nbsp;점프&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;한강&nbsp;철책&nbsp;완전&nbsp;제거<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;잔여&nbsp;구간(한강·염하)&nbsp;철책&nbsp;철거&nbsp;스케줄을&nbsp;확정하고,&nbsp;경계&nbsp;시스템을&nbsp;첨단&nbsp;장비로&nbsp;100%&nbsp;대체<br>&nbsp;&nbsp;○&nbsp;한강&nbsp;수변&nbsp;시민공원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;테마별&nbsp;산책로,&nbsp;자전거&nbsp;도로,&nbsp;시민공원을&nbsp;확충하고&nbsp;소규모&nbsp;공연장&nbsp;및&nbsp;카페&nbsp;등&nbsp;시민&nbsp;편의시설&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;백마도&nbsp;랜드마크화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;환경&nbsp;정비와&nbsp;함께&nbsp;선제적&nbsp;시민&nbsp;개방&nbsp;행사를&nbsp;상설화하고,&nbsp;백마도&nbsp;진입을&nbsp;위한&nbsp;친환경&nbsp;보행교&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;싱가포르&nbsp;센토사형&nbsp;‘글로벌&nbsp;브랜드&nbsp;테마파크’&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유니버설&nbsp;스튜디오,&nbsp;디즈니급&nbsp;글로벌&nbsp;브랜드&nbsp;혹은&nbsp;차세대&nbsp;실감형&nbsp;테마파크&nbsp;운영사와&nbsp;유치&nbsp;MOU&nbsp;체결&nbsp;및&nbsp;파격적&nbsp;인센티브(부지&nbsp;제공,&nbsp;세제&nbsp;혜택)&nbsp;패키지&nbsp;제안<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~2035년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·시비·도비,&nbsp;민간투자유치</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

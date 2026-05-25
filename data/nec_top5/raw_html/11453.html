@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박일하 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	세계최초 냉난방비 ZERO 아파트단지 구현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="세계최초 냉난방비 ZERO 아파트단지 구현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;세계&nbsp;최초로&nbsp;‘냉방비&nbsp;0원,&nbsp;난방비&nbsp;0원’&nbsp;에너지&nbsp;혁명을&nbsp;실현하여&nbsp;전세계에&nbsp;혁신적인&nbsp;에너지시스템&nbsp;기술을&nbsp;수출하는&nbsp;것이&nbsp;목표&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;재개발·재건축&nbsp;냉난방비&nbsp;제로화를&nbsp;위한&nbsp;양녕주택&nbsp;시범사업&nbsp;MOU&nbsp;체결(‘26.4.17.)<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;동작구,&nbsp;대한민국동작㈜&nbsp;㈜유브이씨,&nbsp;㈜두산모빌리티이노베이션,&nbsp;㈜경동나비엔,&nbsp;㈜에너지서베이&nbsp;등&nbsp;6개기관&nbsp;참여&nbsp;연료전지&nbsp;기반&nbsp;친환경&nbsp;냉·난방&nbsp;시범사업&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;양녕주택&nbsp;공실&nbsp;1개소&nbsp;활용&nbsp;’냉·난방비&nbsp;제로‘&nbsp;에너지&nbsp;기술&nbsp;실증(26.&nbsp;5~7월)<br>&nbsp;&nbsp;○&nbsp;향후&nbsp;에너지&nbsp;기술을&nbsp;관내&nbsp;재개발·재건축&nbsp;단지에&nbsp;상용화(27년&nbsp;~)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;(’26.&nbsp;5.)&nbsp;냉·난방비&nbsp;제로&nbsp;기술&nbsp;실증&nbsp;※&nbsp;3개월&nbsp;소요&nbsp;예정&nbsp;<br>&nbsp;&nbsp;○&nbsp;(‘26.&nbsp;6.)&nbsp;제로&nbsp;에너지&nbsp;시스템&nbsp;관련&nbsp;법인&nbsp;설립&nbsp;<br>&nbsp;&nbsp;○&nbsp;(’26.&nbsp;8.)&nbsp;국내·외&nbsp;특허&nbsp;출원&nbsp;<br>&nbsp;&nbsp;○&nbsp;(‘27.)&nbsp;관내&nbsp;재개발·재건축&nbsp;단지&nbsp;적용&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;비예산&nbsp;(동작구에서&nbsp;적극적인&nbsp;민간투자유치&nbsp;및&nbsp;협업으로&nbsp;조성)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;초기&nbsp;실증&nbsp;비용은&nbsp;대한민국동작(주)&nbsp;자체사업비로&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이후&nbsp;재개발·재건축&nbsp;사업지&nbsp;적용은&nbsp;개발사업비에&nbsp;포함하여&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	동작구 주요 간선도로망 확장</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="동작구 주요 간선도로망 확장">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;사당로·상도로·서달로·성대로·흑석로·장승배기로&nbsp;등&nbsp;관내&nbsp;주요&nbsp;간선도로&nbsp;확장&nbsp;추진&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;①&nbsp;사당로(숭실대입구역~솔밭로)&nbsp;:&nbsp;왕복&nbsp;4차로&nbsp;→&nbsp;6차로&nbsp;(L=1.8km)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재정사업(시비)&nbsp;추진&nbsp;및&nbsp;일부&nbsp;구간&nbsp;재개발사업&nbsp;연계&nbsp;확장&nbsp;<br>&nbsp;&nbsp;②&nbsp;상도로(보라매역~상도역)&nbsp;:&nbsp;왕복&nbsp;4차로&nbsp;→&nbsp;8차로&nbsp;(L=2.7km)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상도권역&nbsp;재개발사업과&nbsp;연계하여&nbsp;확장&nbsp;추진&nbsp;<br>&nbsp;&nbsp;③&nbsp;서달로(흑석어린이집~상현중)&nbsp;:&nbsp;왕복&nbsp;2차로&nbsp;→&nbsp;3~4차로&nbsp;(L=0.58km)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;흑석역~흑석어린이집&nbsp;구간&nbsp;재개발사업&nbsp;연계&nbsp;순차적&nbsp;도로&nbsp;확장&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;흑석어린이집~상현중&nbsp;구간&nbsp;재정사업(구비)&nbsp;추진&nbsp;<br>&nbsp;&nbsp;④&nbsp;성대로(성대시장입구~장승배기로)&nbsp;:&nbsp;왕복&nbsp;1~2차로&nbsp;→&nbsp;4차로&nbsp;(L=1km)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상도권&nbsp;일대&nbsp;개발사업&nbsp;연계하여&nbsp;확장&nbsp;추진&nbsp;<br>&nbsp;&nbsp;⑤&nbsp;장승배기로(노량진역~장승배기역)&nbsp;:&nbsp;왕복&nbsp;4~6차로&nbsp;→&nbsp;6~8차로&nbsp;&nbsp;(L=0.92km)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노량진&nbsp;재정비촉진구역&nbsp;재개발사업과&nbsp;연계하여&nbsp;확장&nbsp;추진&nbsp;<br>&nbsp;&nbsp;⑥&nbsp;흑석로(흑석로128-1~서달로15길24)&nbsp;:&nbsp;왕복2차로&nbsp;&nbsp;→&nbsp;3~4차로&nbsp;(L=1.4km)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;흑석&nbsp;재정비촉진구역&nbsp;재개발사업과&nbsp;연계하여&nbsp;확장&nbsp;추진&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;①&nbsp;사당로&nbsp;:&nbsp;(’27.)&nbsp;타당성&nbsp;심사&nbsp;및&nbsp;투자심사&nbsp;→&nbsp;(‘28.)&nbsp;기본&nbsp;및&nbsp;실시설계&nbsp;→&nbsp;(’29.)&nbsp;착공&nbsp;<br>&nbsp;&nbsp;②&nbsp;상도로&nbsp;:&nbsp;(‘26.)&nbsp;타당성&nbsp;용역&nbsp;→&nbsp;(’27.)&nbsp;타당성&nbsp;심사&nbsp;및&nbsp;투자심사&nbsp;→&nbsp;(‘28.)&nbsp;기본&nbsp;및&nbsp;실시설계&nbsp;→&nbsp;(’29.)&nbsp;착공&nbsp;<br>&nbsp;&nbsp;③&nbsp;서달로&nbsp;:&nbsp;(‘26.)&nbsp;기본&nbsp;및&nbsp;실시설계&nbsp;→&nbsp;(’27.)&nbsp;투자심사&nbsp;및&nbsp;보상&nbsp;&nbsp;→&nbsp;(‘28.)&nbsp;착공&nbsp;&nbsp;<br>&nbsp;&nbsp;④&nbsp;성대로&nbsp;:&nbsp;(‘27.~)&nbsp;개발계획&nbsp;연계&nbsp;순차적&nbsp;확장&nbsp;<br>&nbsp;&nbsp;⑤&nbsp;장승배기로&nbsp;:&nbsp;(‘26.~)&nbsp;노량진2구역&nbsp;재정비촉진구역&nbsp;개발사업&nbsp;연계&nbsp;확장&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;⑥&nbsp;흑석로&nbsp;:&nbsp;(‘27.~)&nbsp;흑석2구역&nbsp;재정비촉진구역&nbsp;개발사업&nbsp;연계&nbsp;확장&nbsp;&nbsp;&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재정사업&nbsp;추진&nbsp;구간&nbsp;:&nbsp;구·시비&nbsp;예산&nbsp;확보&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;개발사업&nbsp;연계&nbsp;구간&nbsp;:&nbsp;공공기여&nbsp;확보&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	랜드마크 복합쇼핑몰 유치 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="랜드마크 복합쇼핑몰 유치 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;동작구에&nbsp;전무했던&nbsp;대형마트&nbsp;등&nbsp;복합쇼핑몰을&nbsp;개발사업과&nbsp;연계하여&nbsp;유치&nbsp;&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;노량진&nbsp;일대&nbsp;복합쇼핑몰&nbsp;유치&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;최고&nbsp;60층&nbsp;(지상&nbsp;150m&nbsp;이상)&nbsp;규모로&nbsp;추진되는&nbsp;수협&nbsp;부지&nbsp;2단계&nbsp;개발계획에&nbsp;대형마트&nbsp;등&nbsp;대규모&nbsp;상업시설이&nbsp;포함될&nbsp;수&nbsp;있도록&nbsp;행정&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;동작구&nbsp;-&nbsp;수협&nbsp;노량진&nbsp;수협부지&nbsp;복합개발&nbsp;협력&nbsp;MOU&nbsp;(’24.12.26.)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;동작구&nbsp;-&nbsp;이마트&nbsp;콤팩트시티&nbsp;개발&nbsp;MOU&nbsp;(’25.4.14.)&nbsp;기&nbsp;협약&nbsp;완료&nbsp;<br>&nbsp;&nbsp;○&nbsp;노량진&nbsp;권역&nbsp;외에도&nbsp;상도동,&nbsp;사당동&nbsp;등&nbsp;관내&nbsp;주요&nbsp;개발&nbsp;지역을&nbsp;중심으로&nbsp;대형&nbsp;상업시설(이마트&nbsp;등)&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;사당-이수&nbsp;지구단위계획&nbsp;변경으로&nbsp;용적률&nbsp;최대&nbsp;800%,&nbsp;최고높이&nbsp;150m&nbsp;상향&nbsp;가능&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;(‘26.)&nbsp;민간개발사업자&nbsp;공모·선정&nbsp;및&nbsp;개발계획(안)&nbsp;확정&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;(’27.&nbsp;~&nbsp;’28.)&nbsp;서울시&nbsp;사전협상&nbsp;등&nbsp;각종&nbsp;인허가&nbsp;절차&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;(‘29.)&nbsp;착공&nbsp;&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;비예산&nbsp;(동작구에서&nbsp;적극적인&nbsp;민간투자유치&nbsp;및&nbsp;협업으로&nbsp;조성)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	노량진 옛 구청사 복합개발로 유니콘·유망기업 유치 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="노량진 옛 구청사 복합개발로 유니콘·유망기업 유치 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;노량진&nbsp;청사부지&nbsp;복합개발을&nbsp;통해&nbsp;유니콘·유망기업&nbsp;유치&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;IMM인베스트먼트&nbsp;컨소시엄에&nbsp;청사부지&nbsp;매매계약&nbsp;(‘25.11.20.)<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;당초&nbsp;LH에&nbsp;신청사&nbsp;건립비를&nbsp;舊&nbsp;청사부지로&nbsp;대물변제할&nbsp;예정이었으나,&nbsp;현금정산&nbsp;및&nbsp;부지&nbsp;매각으로&nbsp;변경하여&nbsp;1,000억원의&nbsp;예산&nbsp;절감&nbsp;성과&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;지하&nbsp;7층,&nbsp;지상&nbsp;49층&nbsp;규모의&nbsp;복합개발로&nbsp;랜드마크&nbsp;시설&nbsp;조성&nbsp;<br>&nbsp;&nbsp;○&nbsp;사업&nbsp;주체인&nbsp;노드원PFV주식회사&nbsp;(IMM인베스트먼트*&nbsp;등&nbsp;포함)와&nbsp;적극적인&nbsp;협업으로&nbsp;해당&nbsp;복합시설에&nbsp;선도적&nbsp;유니콘기업&nbsp;유치&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;IMM&nbsp;인베스트먼트는&nbsp;셀트리온,&nbsp;무신사,&nbsp;에코프로&nbsp;등&nbsp;유니콘기업에&nbsp;투자&nbsp;실적을&nbsp;보유한&nbsp;국내&nbsp;최대&nbsp;규모&nbsp;벤처캐피털이기&nbsp;때문에&nbsp;향후&nbsp;투자·유치&nbsp;연계&nbsp;가능&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;(‘26.上)&nbsp;노량진&nbsp;청사부지&nbsp;특별계획구역&nbsp;결정&nbsp;및&nbsp;세부개발계획&nbsp;수립&nbsp;<br>&nbsp;&nbsp;○&nbsp;(‘26.12.)&nbsp;서울시&nbsp;건축&nbsp;통합심의&nbsp;<br>&nbsp;&nbsp;○&nbsp;(‘27.6.)&nbsp;건축허가&nbsp;<br>&nbsp;&nbsp;○&nbsp;(‘27.12.)&nbsp;복합타운&nbsp;착공&nbsp;<br>&nbsp;&nbsp;○&nbsp;(‘31.)&nbsp;복합타운&nbsp;준공&nbsp;및&nbsp;유니콘기업&nbsp;유치<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;비예산&nbsp;(동작구에서&nbsp;적극적인&nbsp;민간투자유치&nbsp;및&nbsp;협업으로&nbsp;조성)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	영국 빅토리아 앨버트 박물관 한국분관 유치 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="영국 빅토리아 앨버트 박물관 한국분관 유치 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;세계&nbsp;최고&nbsp;수준의&nbsp;영국&nbsp;빅토리아&nbsp;앨버트(V&A)&nbsp;박물관&nbsp;한국&nbsp;분관을&nbsp;사당동에&nbsp;유치<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;동작구청장-빅토리아&nbsp;앨버트&nbsp;박물관장&nbsp;분관유치&nbsp;MOU&nbsp;체결&nbsp;완료&nbsp;(‘26.1.16.)<br>&nbsp;&nbsp;○&nbsp;사당15구역&nbsp;신속통합기획&nbsp;정비계획&nbsp;수립&nbsp;시&nbsp;박물관&nbsp;부지를&nbsp;공공기여&nbsp;시설로&nbsp;반영하여&nbsp;조성&nbsp;추진&nbsp;&nbsp;※&nbsp;신속통합기획&nbsp;후보지&nbsp;선정&nbsp;완료(’25.8.)&nbsp;<br>&nbsp;&nbsp;○&nbsp;공공기여&nbsp;외에&nbsp;민간의&nbsp;대규모&nbsp;투자유치를&nbsp;확보하여&nbsp;사업성&nbsp;극대화&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;(‘26.)&nbsp;사당15구역&nbsp;신속통합기획&nbsp;정비계획&nbsp;입안&nbsp;<br>&nbsp;&nbsp;○&nbsp;(’27.6.)&nbsp;사당15구역&nbsp;정비구역&nbsp;고시&nbsp;<br>&nbsp;&nbsp;○&nbsp;(’27.10.)&nbsp;분관유치&nbsp;MOU에&nbsp;따른&nbsp;본계약서&nbsp;체결&nbsp;<br>&nbsp;&nbsp;○&nbsp;(‘29.)&nbsp;운영법인&nbsp;설립&nbsp;<br>&nbsp;&nbsp;○&nbsp;(’30.)&nbsp;빅토리아&nbsp;앨버트&nbsp;박물관&nbsp;한국분관&nbsp;개관&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;비예산&nbsp;(동작구에서&nbsp;적극적인&nbsp;민간투자유치&nbsp;및&nbsp;협업으로&nbsp;조성)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사당15구역만&nbsp;하더라도&nbsp;제3종&nbsp;종상향&nbsp;시&nbsp;의무순부담이&nbsp;8.1%<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;박물관&nbsp;등&nbsp;기반시설&nbsp;건립비용은&nbsp;의무순부담&nbsp;7.0%로&nbsp;기존&nbsp;의무순부담&nbsp;내에&nbsp;들어오기&nbsp;때문에&nbsp;주민&nbsp;추가&nbsp;부담&nbsp;없이&nbsp;재원&nbsp;조달이&nbsp;가능</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

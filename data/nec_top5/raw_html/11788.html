@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김철우 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	군민 누구나 매월 20만원, 보성형 농어촌 기본소득 도입</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="군민 누구나 매월 20만원, 보성형 농어촌 기본소득 도입">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;기본소득을&nbsp;통한&nbsp;보편적&nbsp;복지&nbsp;실현&nbsp;및&nbsp;선순환&nbsp;자생&nbsp;경제&nbsp;구조&nbsp;확립<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;소멸&nbsp;위기&nbsp;대응을&nbsp;위한&nbsp;정주&nbsp;여건&nbsp;강화&nbsp;및&nbsp;인구&nbsp;유입&nbsp;유도<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;보성형&nbsp;기본소득&nbsp;추진&nbsp;기반&nbsp;및&nbsp;제도적&nbsp;장치&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광역·기초&nbsp;자치법규&nbsp;정비를&nbsp;통해&nbsp;지속&nbsp;가능한&nbsp;법적&nbsp;근거&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;지역경제&nbsp;선순환형&nbsp;지급&nbsp;시스템&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(지역화폐&nbsp;지급)&nbsp;사용처를&nbsp;관내&nbsp;소상공인&nbsp;점포로&nbsp;제한하여&nbsp;지역&nbsp;자본&nbsp;유출&nbsp;차단<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(카드&nbsp;및&nbsp;모바일&nbsp;시스템&nbsp;도입)&nbsp;간편한&nbsp;신청&nbsp;및&nbsp;결제를&nbsp;위한&nbsp;디지털&nbsp;플랫폼&nbsp;구축&nbsp;및&nbsp;어르신&nbsp;전용&nbsp;카드&nbsp;발급<br>&nbsp;&nbsp;○&nbsp;단계적·보편적&nbsp;지급&nbsp;로드맵&nbsp;실행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(1단계)&nbsp;통합특별시&nbsp;출범과&nbsp;발맞추어&nbsp;농어민,&nbsp;청년,&nbsp;고령층&nbsp;대상&nbsp;우선&nbsp;지급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(2단계)&nbsp;임기&nbsp;내&nbsp;보성군에&nbsp;주소를&nbsp;둔&nbsp;모든&nbsp;군민으로&nbsp;지급&nbsp;대상&nbsp;전면&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;기본소득&nbsp;관리&nbsp;및&nbsp;모니터링&nbsp;체계&nbsp;가동<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재정&nbsp;집행의&nbsp;투명성&nbsp;확보&nbsp;및&nbsp;지역&nbsp;경제&nbsp;활성화&nbsp;효과,&nbsp;주민&nbsp;만족도&nbsp;상시&nbsp;분석<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;(2026~2027)&nbsp;법적&nbsp;근거&nbsp;마련&nbsp;및&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;(임기&nbsp;내)&nbsp;단계별&nbsp;지급&nbsp;시행&nbsp;및&nbsp;정착<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비(통합특별시)&nbsp;확보&nbsp;및&nbsp;세원&nbsp;다각화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;선심성·일회성&nbsp;사업&nbsp;폐지를&nbsp;통한&nbsp;세출&nbsp;구조조정으로&nbsp;가용&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합재정안정화기금&nbsp;활용&nbsp;및&nbsp;세외수입&nbsp;신규&nbsp;발굴을&nbsp;통한&nbsp;세입&nbsp;발굴</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	전국 최대 규모 ‘주월산 복합 실버 시니어타운’ 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="전국 최대 규모 ‘주월산 복합 실버 시니어타운’ 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;주월산의&nbsp;청정&nbsp;자연환경과&nbsp;관광자원을&nbsp;활용한&nbsp;프리미엄&nbsp;주거&nbsp;단지&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;단순&nbsp;주거를&nbsp;넘어&nbsp;의료·요양·레저가&nbsp;결합된&nbsp;복합타운&nbsp;브랜드화<br>&nbsp;&nbsp;○&nbsp;전남광주통합특별시&nbsp;광역&nbsp;프로젝트로&nbsp;‘전남형&nbsp;실버&nbsp;랜드마크’&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;주월산&nbsp;숲세권&nbsp;연계&nbsp;프리미엄&nbsp;주거&nbsp;단지&nbsp;건설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(주거&nbsp;시설)&nbsp;단독형·공동주택형&nbsp;등&nbsp;다양한&nbsp;친환경&nbsp;실버&nbsp;주택&nbsp;공급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(조경·시설)&nbsp;치유의&nbsp;숲&nbsp;정원&nbsp;및&nbsp;무장애(Barrier-&nbsp;Free)&nbsp;보행로&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;첨단&nbsp;의료&nbsp;및&nbsp;맞춤형&nbsp;케어&nbsp;서비스&nbsp;시스템&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;타운&nbsp;내&nbsp;전문&nbsp;의료&nbsp;인력이&nbsp;상주하는&nbsp;‘스마트&nbsp;헬스케어&nbsp;센터’&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;개인별&nbsp;건강&nbsp;상태에&nbsp;맞춘&nbsp;식이요법&nbsp;및&nbsp;재활&nbsp;프로그램&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;레저·문화&nbsp;복합&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주변&nbsp;관광&nbsp;자원을&nbsp;활용한&nbsp;시니어&nbsp;특화&nbsp;레저&nbsp;활동&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;실버&nbsp;세대의&nbsp;재능&nbsp;기부&nbsp;및&nbsp;소통&nbsp;프로그램(문화,&nbsp;예술,&nbsp;교육)&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;치유의&nbsp;숲,&nbsp;산림레포츠&nbsp;단지&nbsp;육성을&nbsp;통한&nbsp;숲속&nbsp;힐링&nbsp;체험&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;(2026~2027)&nbsp;타운&nbsp;조성을&nbsp;위한&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;민간&nbsp;사업자&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;(임기&nbsp;내)&nbsp;기반&nbsp;시설&nbsp;착공&nbsp;및&nbsp;시범&nbsp;단지&nbsp;준공,&nbsp;입주&nbsp;모집&nbsp;개시<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민관&nbsp;협력(PPP)&nbsp;및&nbsp;통합특별시&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전남광주통합특별시의&nbsp;지역&nbsp;균형&nbsp;발전&nbsp;사업비&nbsp;및&nbsp;광역&nbsp;관광&nbsp;개발&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;자본&nbsp;투자를&nbsp;통한&nbsp;대규모&nbsp;시설&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비(통합특별시)&nbsp;확보&nbsp;및&nbsp;세원&nbsp;다각화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	전국 최초 ‘체류형 스마트팜 관광단지’ 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="전국 최초 ‘체류형 스마트팜 관광단지’ 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;첨단&nbsp;ICT&nbsp;스마트팜과&nbsp;고품격&nbsp;숙박&nbsp;시설을&nbsp;결합한&nbsp;신개념&nbsp;관광&nbsp;모델&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;단순&nbsp;생산&nbsp;중심&nbsp;농업에서&nbsp;6차&nbsp;산업&nbsp;전환을&nbsp;통한&nbsp;군민&nbsp;소득&nbsp;증대에&nbsp;기여<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;스마트팜과&nbsp;관광이&nbsp;결합된&nbsp;복합&nbsp;테마파크&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(생산·체험)&nbsp;지역&nbsp;농특산물&nbsp;기반&nbsp;스마트&nbsp;온실&nbsp;조성&nbsp;및&nbsp;체험&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(체류&nbsp;시설)&nbsp;프리미엄&nbsp;스테이,&nbsp;글램핑장&nbsp;등&nbsp;체류형&nbsp;숙박&nbsp;단지&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(교육·전시)&nbsp;스마트팜&nbsp;홍보관&nbsp;및&nbsp;미래&nbsp;농업&nbsp;교육&nbsp;센터&nbsp;운영&nbsp;등<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;농업인&nbsp;정착&nbsp;지원&nbsp;및&nbsp;주민&nbsp;소득&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년을&nbsp;위한&nbsp;‘임대형&nbsp;스마트팜’&nbsp;구축으로&nbsp;주거&nbsp;및&nbsp;일자리를&nbsp;동시&nbsp;해결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광객이&nbsp;함께&nbsp;어우러지는&nbsp;로컬푸드&nbsp;마켓&nbsp;및&nbsp;스마트팜&nbsp;카페&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;첨단&nbsp;인프라&nbsp;및&nbsp;운영&nbsp;시스템&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;데이터&nbsp;기반&nbsp;자동&nbsp;제어&nbsp;시설&nbsp;및&nbsp;지능형&nbsp;생육&nbsp;관리&nbsp;시스템&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인근&nbsp;관광&nbsp;자원과&nbsp;연계한&nbsp;‘보성&nbsp;올인원&nbsp;투어&nbsp;패키지’&nbsp;개발<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;(2026~2027)&nbsp;마스터플랜&nbsp;수립&nbsp;및&nbsp;통합특별시&nbsp;협력&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;(임기&nbsp;내)&nbsp;단계별&nbsp;시설&nbsp;착공&nbsp;및&nbsp;스마트팜&nbsp;관광단지&nbsp;조성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비(통합특별시)&nbsp;등&nbsp;광역예산&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙부처&nbsp;공모를&nbsp;통한&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;투자&nbsp;유치를&nbsp;통한&nbsp;숙박&nbsp;및&nbsp;편의시설&nbsp;조성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	KTX 보성역 및 벌교역 주변 역세권 복합 개발</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="KTX 보성역 및 벌교역 주변 역세권 복합 개발">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;경전선&nbsp;개통에&nbsp;대비하여&nbsp;보성역·벌교역&nbsp;주변을&nbsp;주거·상업·문화&nbsp;복합지구로&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;역세권&nbsp;중심의&nbsp;복합지구&nbsp;조성으로&nbsp;신규&nbsp;인구&nbsp;유입&nbsp;및&nbsp;지역&nbsp;경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;(보성역)&nbsp;역세권&nbsp;복합개발&nbsp;및&nbsp;철도&nbsp;테마거리&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화·관광&nbsp;복합시설,&nbsp;보행친화형&nbsp;가로공간&nbsp;정비를&nbsp;통한&nbsp;랜드마크&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;친수공원,&nbsp;산책로,&nbsp;휴게공간&nbsp;조성으로&nbsp;체류형&nbsp;도심&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;폐선&nbsp;철도부지&nbsp;내&nbsp;역사성을&nbsp;반영한&nbsp;테마거리&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;열선루&nbsp;공원과&nbsp;이어지는&nbsp;도시재생&nbsp;보행동선&nbsp;구축&nbsp;및&nbsp;생활인프라&nbsp;현대화<br>&nbsp;&nbsp;○&nbsp;(벌교역)&nbsp;수변연계&nbsp;광장&nbsp;개발&nbsp;및&nbsp;로컬상권·문화특구&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;역세권&nbsp;및&nbsp;수변공간&nbsp;연계&nbsp;여가공간&nbsp;조성을&nbsp;위한&nbsp;광장&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상권&nbsp;경영&nbsp;환경&nbsp;개선&nbsp;및&nbsp;로컬푸드·농특산물&nbsp;판매장&nbsp;등과&nbsp;연계한&nbsp;상점거리&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;로컬&nbsp;문화체험&nbsp;및&nbsp;야간&nbsp;경관&nbsp;명소화&nbsp;사업으로&nbsp;체류형&nbsp;관광&nbsp;콘텐츠&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;환승주차장&nbsp;확충,&nbsp;연결&nbsp;보행로&nbsp;확장&nbsp;등&nbsp;역세권&nbsp;기반시설&nbsp;정비<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;(2026~2027)&nbsp;역세권&nbsp;개발&nbsp;계획수립&nbsp;및&nbsp;토지&nbsp;이용&nbsp;계획&nbsp;변경&nbsp;등<br>&nbsp;&nbsp;○&nbsp;(임기&nbsp;내)&nbsp;단계별&nbsp;기반&nbsp;시설&nbsp;착공&nbsp;및&nbsp;랜드마크&nbsp;조성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비(통합특별시)&nbsp;확보&nbsp;및&nbsp;세원&nbsp;다각화<br>&nbsp;&nbsp;○&nbsp;한국철도공사와&nbsp;공동&nbsp;개발&nbsp;협약을&nbsp;통한&nbsp;부지&nbsp;확보&nbsp;및&nbsp;사업비&nbsp;분담</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	보성군 농축산물 가격안정기금 150억 원 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="보성군 농축산물 가격안정기금 150억 원 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농축산물&nbsp;가격&nbsp;하락&nbsp;시&nbsp;최저&nbsp;가격을&nbsp;보장하여&nbsp;농가&nbsp;경영의&nbsp;안정성&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;농가&nbsp;소득&nbsp;불균형&nbsp;해소&nbsp;및&nbsp;농업인의&nbsp;지속&nbsp;가능한&nbsp;영농&nbsp;여건&nbsp;마련<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;기금&nbsp;운용을&nbsp;위한&nbsp;조례&nbsp;개정을&nbsp;통한&nbsp;제도적&nbsp;장치&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광역·기초&nbsp;자치법규&nbsp;정비를&nbsp;통해&nbsp;지속&nbsp;가능한&nbsp;법적&nbsp;근거&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;가격&nbsp;하락&nbsp;시&nbsp;차액&nbsp;지원&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농가&nbsp;피해&nbsp;발생&nbsp;시&nbsp;복잡한&nbsp;절차&nbsp;없이&nbsp;적기에&nbsp;지원금이&nbsp;지급될&nbsp;수&nbsp;있도록&nbsp;행정&nbsp;절차&nbsp;간소화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전문가&nbsp;및&nbsp;농업인&nbsp;단체가&nbsp;직접&nbsp;참여하는&nbsp;위원회&nbsp;운영을&nbsp;통한&nbsp;최저가격의&nbsp;객관적인&nbsp;기준&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;농가&nbsp;맞춤형&nbsp;소득&nbsp;보전&nbsp;프로그램&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;농산물&nbsp;브랜드&nbsp;가치&nbsp;제고를&nbsp;위한&nbsp;마케팅&nbsp;지원&nbsp;프로그램과&nbsp;병합&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;기금&nbsp;관리의&nbsp;투명성&nbsp;및&nbsp;건전성&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연차별&nbsp;기금&nbsp;적립&nbsp;및&nbsp;집행&nbsp;내역&nbsp;공개를&nbsp;통한&nbsp;정책&nbsp;신뢰도&nbsp;제고<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기금&nbsp;운용&nbsp;수익의&nbsp;재적립을&nbsp;통한&nbsp;기금&nbsp;규모의&nbsp;안정적&nbsp;유지<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;(2026~2027)&nbsp;기금&nbsp;설치&nbsp;조례&nbsp;개정&nbsp;및&nbsp;초기&nbsp;자금&nbsp;추가&nbsp;적립<br>&nbsp;&nbsp;○&nbsp;(임기&nbsp;내)&nbsp;연차별&nbsp;적립을&nbsp;통한&nbsp;기금&nbsp;조성&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비(통합특별시)&nbsp;확보&nbsp;및&nbsp;세원&nbsp;다각화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;선심성·일회성&nbsp;사업&nbsp;폐지를&nbsp;통한&nbsp;세출&nbsp;구조조정으로&nbsp;가용&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;신재생에너지&nbsp;이익공유&nbsp;모델을&nbsp;활용한&nbsp;자체&nbsp;세입&nbsp;창출</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

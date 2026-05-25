@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;한덕희 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	강북특별사치구 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="강북특별사치구 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;:&nbsp;강남&nbsp;중심&nbsp;서울에서&nbsp;벗어나&nbsp;강북&nbsp;스스로&nbsp;결정권을&nbsp;갖자!<br>&nbsp;&nbsp;1.&nbsp;GRDP&nbsp;서울&nbsp;꼴찌&nbsp;강북&nbsp;탈출<br>&nbsp;&nbsp;2.&nbsp;강븍&nbsp;개발&nbsp;규제&nbsp;완화<br>&nbsp;&nbsp;3.&nbsp;교육인프라&nbsp;확대<br>&nbsp;&nbsp;4.&nbsp;국가지원&nbsp;확대<br>&nbsp;&nbsp;5.&nbsp;균형발전&nbsp;특별예산<br>&nbsp;&nbsp;6.&nbsp;GTX·교통망&nbsp;확대추진<br><br>□&nbsp;이행방법&nbsp;:&nbsp;서울시,&nbsp;정부,&nbsp;국회에&nbsp;적극&nbsp;협조&nbsp;추신<br><br>□&nbsp;이행기간&nbsp;:&nbsp;당선일부터&nbsp;될&nbsp;때까지&nbsp;적극&nbsp;추진<br>□&nbsp;재원조달방안&nbsp;:&nbsp;별도&nbsp;재원&nbsp;필요&nbsp;없음</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	재개발 재건축 신속 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="재개발 재건축 신속 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;:&nbsp;낡은&nbsp;강북을&nbsp;새&nbsp;강북으로!<br><br>□&nbsp;이행방법&nbsp;:&nbsp;신속통합개발&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;노후주택&nbsp;정비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소규모&nbsp;재건축&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;주민부담&nbsp;최소화&nbsp;추진<br><br>□&nbsp;이행기간&nbsp;:&nbsp;당선일부터&nbsp;즉시&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;：구비,&nbsp;시비,&nbsp;국비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	구립 학원 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="구립 학원 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;:&nbsp;공부&nbsp;잘하는&nbsp;강북!&nbsp;젊은&nbsp;강북!<br><br>□&nbsp;이행방법&nbsp;:&nbsp;각&nbsp;동별로&nbsp;순차적으로&nbsp;구립학원&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;초,&nbsp;중,&nbsp;고&nbsp;학습&nbsp;중심,&nbsp;일반인과&nbsp;노인들까지&nbsp;평생교육<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;수강료&nbsp;무료<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;구에서&nbsp;특별팀&nbsp;운영&nbsp;관리<br><br>□&nbsp;이행기간&nbsp;:&nbsp;당선일부터&nbsp;즉시&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;：구비,&nbsp;시비,&nbsp;국비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	대형 공영주차장 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="대형 공영주차장 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;:&nbsp;주차&nbsp;위반&nbsp;딱지&nbsp;없는&nbsp;강북구!<br><br>□&nbsp;이행방법&nbsp;:&nbsp;각&nbsp;동별로&nbsp;순차적으로&nbsp;주차장&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.&nbsp;19&nbsp;주차장&nbsp;지하화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;구민운동장,&nbsp;학교운동장,&nbsp;교회주차장,&nbsp;공원&nbsp;등&nbsp;주차장<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;확대&nbsp;및&nbsp;지하화&nbsp;추진<br><br>□&nbsp;이행기간&nbsp;:&nbsp;당선일부터&nbsp;즉시&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;：구비,&nbsp;시비,&nbsp;국비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	서울 꼴찌 강북, 호화 신청사 반대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="서울 꼴찌 강북, 호화 신청사 반대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;:&nbsp;사업비4,&nbsp;000&nbsp;신청사&nbsp;건립은&nbsp;주민&nbsp;위한&nbsp;행정이&nbsp;아니다.&nbsp;그&nbsp;사업비로&nbsp;100억짜리&nbsp;주차장&nbsp;40개를&nbsp;지을&nbsp;수&nbsp;있는&nbsp;호화&nbsp;청사이기에&nbsp;과감하게&nbsp;축소하여&nbsp;청사의&nbsp;기능만&nbsp;할&nbsp;수&nbsp;있도록&nbsp;재검토해야&nbsp;한다<br><br>□&nbsp;이행방법&nbsp;:&nbsp;적극&nbsp;재검토하고&nbsp;주민들의&nbsp;의견을&nbsp;참고해야&nbsp;한다.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;축소&nbsp;절약된&nbsp;사업비는&nbsp;주차장&nbsp;건설,&nbsp;야외&nbsp;생활쳬육시설(배드민턴장,&nbsp;헬스장,&nbsp;게이트볼장,&nbsp;파크골프장&nbsp;등)으로&nbsp;전용토록&nbsp;하겠다．<br><br>□&nbsp;이행기간&nbsp;:&nbsp;당선일부터&nbsp;즉시&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;:&nbsp;구비,&nbsp;시비,&nbsp;국비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

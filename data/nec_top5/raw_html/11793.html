@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;최기찬 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	금천구-서울 착착 연결, ‘30분 통근 도시’ 프로젝트 참여</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="금천구-서울 착착 연결, ‘30분 통근 도시’ 프로젝트 참여">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;핵심&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구민&nbsp;평균&nbsp;출퇴근&nbsp;시간의&nbsp;대폭&nbsp;단축,&nbsp;“30분&nbsp;생활권”&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대중교통(마을버스)·보행·환승&nbsp;체계&nbsp;개선,&nbsp;생활&nbsp;이동&nbsp;편의&nbsp;증대<br>&nbsp;&nbsp;○&nbsp;세부&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;역세권&nbsp;접근시간&nbsp;단축,&nbsp;환승체계&nbsp;개편으로&nbsp;출퇴근&nbsp;시간대&nbsp;혼잡&nbsp;완화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신안산선&nbsp;등&nbsp;광역교통망과의&nbsp;연계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통&nbsp;취약시설(마을버스&nbsp;미배차&nbsp;지역)&nbsp;주민&nbsp;이동권&nbsp;보장<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;“30분&nbsp;생활권”을&nbsp;위한&nbsp;스마트&nbsp;교통&nbsp;행정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통&nbsp;빅데이터&nbsp;기반&nbsp;혼잡&nbsp;분석,&nbsp;실시간&nbsp;교통&nbsp;데이터&nbsp;기반&nbsp;신호체계&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;생활권&nbsp;중심&nbsp;교통&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통&nbsp;사각지역&nbsp;노선&nbsp;조정,&nbsp;마을버스&nbsp;노선&nbsp;현실화&nbsp;및&nbsp;심야·출근&nbsp;시간&nbsp;증차<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;금천&nbsp;순환&nbsp;교통체계&nbsp;구축(시흥-독산-가산&nbsp;연결&nbsp;순환버스&nbsp;도입&nbsp;추진)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출퇴근&nbsp;시간대&nbsp;집중&nbsp;수송계획&nbsp;수립&nbsp;및&nbsp;배차&nbsp;확대,&nbsp;지하철역&nbsp;연계&nbsp;강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1년&nbsp;이내)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통&nbsp;실태조사,&nbsp;혼잡&nbsp;데이터&nbsp;분석&nbsp;연구용역,&nbsp;출퇴근&nbsp;혼잡구간&nbsp;긴급개선<br>&nbsp;&nbsp;○&nbsp;중기(2~3년&nbsp;이내)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;금천&nbsp;순환&nbsp;교통체계&nbsp;단계적&nbsp;시행&nbsp;및&nbsp;주요&nbsp;환승&nbsp;거점&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트&nbsp;교통&nbsp;플랫폼&nbsp;구축,&nbsp;G밸리&nbsp;연계&nbsp;교통&nbsp;개선사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;장기(4년&nbsp;이상~)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;“30분&nbsp;생활권&nbsp;금천”&nbsp;정착&nbsp;및&nbsp;생활권별&nbsp;평균&nbsp;이동시간&nbsp;단축&nbsp;성과&nbsp;확보<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시·국비&nbsp;연계&nbsp;및&nbsp;단계별&nbsp;추진을&nbsp;통한&nbsp;재정&nbsp;부담&nbsp;분산<br>&nbsp;&nbsp;○&nbsp;민관&nbsp;협력&nbsp;모델&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;G밸리&nbsp;셔틀버스&nbsp;등&nbsp;기업·직원&nbsp;니즈에&nbsp;부합하는&nbsp;정책의&nbsp;공동&nbsp;시행</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	달빛 어린이 의료체계 구축도시 금천</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="달빛 어린이 의료체계 구축도시 금천">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;핵심&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간·휴일에도&nbsp;소아&nbsp;진료가&nbsp;가능한&nbsp;“24시간&nbsp;어린이&nbsp;진료체계”&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소아&nbsp;의료&nbsp;공백&nbsp;해소로&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;금천으로의&nbsp;도약<br>&nbsp;&nbsp;○&nbsp;세부&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간·심야&nbsp;소아진료&nbsp;접근성&nbsp;강화&nbsp;및&nbsp;경증&nbsp;소아환자&nbsp;응급실&nbsp;집중&nbsp;완화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소아&nbsp;의료&nbsp;인프라&nbsp;부족&nbsp;문제&nbsp;대응,&nbsp;긴급&nbsp;상황&nbsp;시&nbsp;골든타임&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;“금천형&nbsp;달빛&nbsp;어린이병원”&nbsp;지정&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보건복지부&nbsp;달빛어린이병원&nbsp;사업&nbsp;참여&nbsp;추진&nbsp;및&nbsp;의료기관&nbsp;지정&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;단계적&nbsp;24시간&nbsp;소아진료&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단계:&nbsp;평일&nbsp;야간&nbsp;진료&nbsp;확대,&nbsp;주말·공휴일&nbsp;운영&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2단계:&nbsp;심야시간&nbsp;진료체계&nbsp;구축,&nbsp;권역&nbsp;응급의료기관&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3단계:&nbsp;24시간&nbsp;공공형&nbsp;소아진료체계&nbsp;완성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;의료&nbsp;접근&nbsp;시스템&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI기반&nbsp;야간&nbsp;진료&nbsp;안내,&nbsp;실시간&nbsp;운영&nbsp;상황&nbsp;정보&nbsp;제공,&nbsp;안내체계&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1년&nbsp;이내)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료기관&nbsp;협의체&nbsp;구성,&nbsp;주민·의료기관&nbsp;수요조사,&nbsp;1단계&nbsp;사업&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;중기(2~3년&nbsp;이내)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간·휴일&nbsp;소아진료&nbsp;본격&nbsp;시행&nbsp;및&nbsp;참여&nbsp;의료기관&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;장기(4년&nbsp;이상~)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;24시간&nbsp;소아진료체계&nbsp;완성,&nbsp;“아이가&nbsp;건강한&nbsp;금천”&nbsp;지원체계&nbsp;정착<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;보건복지부&nbsp;달빛어린이병원,&nbsp;서울시&nbsp;공공의료&nbsp;사업&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;구&nbsp;예산&nbsp;우선&nbsp;투입,&nbsp;추후&nbsp;정부&nbsp;예산&nbsp;등&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단계적&nbsp;확대를&nbsp;통한&nbsp;재정의&nbsp;안정&nbsp;및&nbsp;시스템&nbsp;구축&nbsp;시간&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	교육, 기회의 평등 과정의 혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="교육, 기회의 평등 과정의 혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;핵심&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;“사는&nbsp;곳&nbsp;때문에&nbsp;교육이&nbsp;달라지지&nbsp;않는&nbsp;금천”&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학생부종합전형이&nbsp;강한&nbsp;구로의&nbsp;도약,&nbsp;진학&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;세부&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학습&nbsp;격차&nbsp;조기&nbsp;진단&nbsp;및&nbsp;맞춤&nbsp;지원&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;입시,&nbsp;진로,&nbsp;컨설팅&nbsp;체계&nbsp;구축&nbsp;및&nbsp;청소년&nbsp;진로&nbsp;성장&nbsp;지원<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;“금천&nbsp;학습진단성장센터”&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학생별&nbsp;학습&nbsp;수준&nbsp;진단&nbsp;시스템&nbsp;구축,&nbsp;학습&nbsp;로드맵&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;금천형&nbsp;진학지원&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학생부종합전형&nbsp;전문&nbsp;컨설팅&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;입시&nbsp;전략&nbsp;설명회&nbsp;정례화,&nbsp;온라인&nbsp;설명회,&nbsp;찾아가는&nbsp;설명회&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;금천구&nbsp;출신&nbsp;대학생,&nbsp;전문가의&nbsp;멘토링&nbsp;서비스&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;“교육&nbsp;때문에&nbsp;떠나지&nbsp;않는&nbsp;금천구”&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육&nbsp;특화&nbsp;브랜드&nbsp;구축,&nbsp;청소년·학부모&nbsp;체감형&nbsp;교육&nbsp;정책&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1년&nbsp;이내)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육&nbsp;실태&nbsp;조사,&nbsp;학습진단성장센터&nbsp;기본계획&nbsp;수립,&nbsp;학교&nbsp;현장&nbsp;니즈&nbsp;수렴<br>&nbsp;&nbsp;○&nbsp;중기(2~3년&nbsp;이내)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학습진단&nbsp;시스템&nbsp;운영,&nbsp;진학&nbsp;컨설팅&nbsp;체계&nbsp;확대&nbsp;및&nbsp;피드백&nbsp;수렴<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소규모&nbsp;집중&nbsp;지원&nbsp;학생&nbsp;선발,&nbsp;체계&nbsp;수행&nbsp;및&nbsp;환류체계&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;장기(4년&nbsp;이상~)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;“교육도시&nbsp;금천”&nbsp;브랜드&nbsp;구축,&nbsp;지역&nbsp;교육&nbsp;경쟁력&nbsp;강화,&nbsp;진학체계&nbsp;다변화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;서울시,&nbsp;서울시교육청의&nbsp;예산&nbsp;적극적&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;단계별&nbsp;투자&nbsp;확대&nbsp;추진,&nbsp;프로그램&nbsp;중심&nbsp;투자로&nbsp;효율성&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	생활의 혁신, 생활 중심 공약</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="생활의 혁신, 생활 중심 공약">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;핵심&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;생활&nbsp;속&nbsp;불편과&nbsp;불안을&nbsp;줄이는&nbsp;생활밀착형&nbsp;행정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;안전·환경·생활편의&nbsp;개선을&nbsp;통한&nbsp;체감&nbsp;만족도&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;세부&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;밤에도&nbsp;안전한&nbsp;금천,&nbsp;우범지대&nbsp;대상&nbsp;CCTV&nbsp;집중&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;생활&nbsp;만족도&nbsp;향상,&nbsp;생활&nbsp;속&nbsp;안전&nbsp;사각지대&nbsp;해소<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;생활안전&nbsp;CCTV&nbsp;확대&nbsp;설치,&nbsp;LED&nbsp;조명&nbsp;등&nbsp;범죄예방&nbsp;설계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우범지역,&nbsp;골목길,&nbsp;통학로&nbsp;중심&nbsp;노후&nbsp;CCTV&nbsp;교체&nbsp;및&nbsp;화질&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;안전&nbsp;산책로&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간&nbsp;조명&nbsp;확대,&nbsp;미끄럼&nbsp;방지&nbsp;손잡이&nbsp;설치,&nbsp;여성·어르신&nbsp;보호&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;생활소음&nbsp;관리&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활소음&nbsp;민원&nbsp;대응,&nbsp;층간소음,&nbsp;배달&nbsp;오토바이&nbsp;소음&nbsp;등&nbsp;완화&nbsp;캠페인<br>&nbsp;&nbsp;○&nbsp;생활&nbsp;불편&nbsp;즉시&nbsp;대응&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활&nbsp;불편&nbsp;바로&nbsp;신고&nbsp;체계&nbsp;운영,&nbsp;주민&nbsp;참여형&nbsp;현장&nbsp;점검&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활&nbsp;불편&nbsp;민원&nbsp;신고&nbsp;신속&nbsp;대응&nbsp;체계&nbsp;구축&nbsp;및&nbsp;우선순위&nbsp;상향<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1년&nbsp;이내)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활불편&nbsp;실태&nbsp;조사,&nbsp;민원&nbsp;즉각&nbsp;대응&nbsp;시스템&nbsp;구축,&nbsp;CCTV&nbsp;예산&nbsp;확보&nbsp;<br>&nbsp;&nbsp;○&nbsp;중기(2~3년&nbsp;이내)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동별&nbsp;생활안전&nbsp;인프라&nbsp;확대&nbsp;및&nbsp;스마트&nbsp;민원&nbsp;대응체계&nbsp;구축&nbsp;완료<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;참여형&nbsp;생활행정&nbsp;정착,&nbsp;골목환경&nbsp;개선사업&nbsp;본격&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;장기(4년&nbsp;이상~)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활&nbsp;안전망&nbsp;전&nbsp;지역&nbsp;확대&nbsp;및&nbsp;상시&nbsp;대응체계&nbsp;구축<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시비&nbsp;생활&nbsp;SOC&nbsp;사업&nbsp;활용,&nbsp;단계별&nbsp;우선&nbsp;투자&nbsp;사업&nbsp;시행</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	날로 변하는 스카이라인, 금천 도시개발 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="날로 변하는 스카이라인, 금천 도시개발 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;핵심&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재개발·재건축&nbsp;활성화를&nbsp;통한&nbsp;도시&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;금천&nbsp;스카이라인과&nbsp;도시&nbsp;이미지를&nbsp;현대적으로&nbsp;변화<br>&nbsp;&nbsp;○&nbsp;세부&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공군부대&nbsp;축소&nbsp;이전&nbsp;부지&nbsp;개발&nbsp;사업&nbsp;가속화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;역세권&nbsp;중심&nbsp;청년,&nbsp;신혼부부&nbsp;대상&nbsp;고밀·복합개발&nbsp;추진,&nbsp;유입&nbsp;기반&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;재개발·재건축&nbsp;행정지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신속&nbsp;개발&nbsp;지원&nbsp;TF&nbsp;구성&nbsp;및&nbsp;정비사업&nbsp;인허가&nbsp;절차&nbsp;적극&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;설명회&nbsp;수시&nbsp;개최&nbsp;등&nbsp;갈등&nbsp;조정&nbsp;시스템&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;노후&nbsp;주거지역&nbsp;정비&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시흥,&nbsp;독산권&nbsp;노후&nbsp;주거지&nbsp;정비사업&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소규모&nbsp;재건축,&nbsp;모아타운&nbsp;등&nbsp;다양한&nbsp;개발방식&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;‘값’이&nbsp;아니라&nbsp;‘가치’를&nbsp;높이는&nbsp;개발방식&nbsp;추구<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1년&nbsp;이내)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현행&nbsp;개발&nbsp;가능&nbsp;구역,&nbsp;추진&nbsp;구역에&nbsp;대한&nbsp;행정적&nbsp;지원&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구청&nbsp;내&nbsp;절차&nbsp;완화&nbsp;및&nbsp;서울시&nbsp;절차&nbsp;진행&nbsp;시&nbsp;행정&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;중기(2~3년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활&nbsp;SOC&nbsp;연계&nbsp;개발&nbsp;확대(청년,&nbsp;신혼부부&nbsp;대상)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;협의체&nbsp;운영&nbsp;정착<br>&nbsp;&nbsp;○&nbsp;장기(4년~)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시환경&nbsp;개선&nbsp;성과&nbsp;창출&nbsp;목표(1개&nbsp;소&nbsp;이상)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;투자&nbsp;중심&nbsp;개발&nbsp;추진,&nbsp;민간&nbsp;자본&nbsp;활용으로&nbsp;공공&nbsp;재정&nbsp;부담&nbsp;최소화<br>&nbsp;&nbsp;○&nbsp;시비·국비&nbsp;연계,&nbsp;광역교통과&nbsp;SOC&nbsp;국비사업&nbsp;활용</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

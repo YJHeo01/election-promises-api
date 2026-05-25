@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박형우 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	미래경제 계양테크노밸리‘제2의 판교’로 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="미래경제 계양테크노밸리‘제2의 판교’로 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;테크노밸리를&nbsp;AI·IT·미래산업&nbsp;중심의&nbsp;첨단산업&nbsp;거점으로&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;ICT,&nbsp;로봇,&nbsp;디지털콘텐츠&nbsp;등&nbsp;첨단기업&nbsp;유치&nbsp;및&nbsp;10만개&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;서운산업단지,&nbsp;계양산업단지와&nbsp;연계된&nbsp;‘첨단산업&nbsp;클러스터’&nbsp;기반구축<br>&nbsp;&nbsp;○&nbsp;편리한&nbsp;교통과&nbsp;자족성을&nbsp;갖춘&nbsp;스마트&nbsp;도시&nbsp;및&nbsp;문화·여가공간&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;양질의&nbsp;일자리&nbsp;창출을&nbsp;통한&nbsp;청년인구&nbsp;유입과&nbsp;지역경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;앵커기업&nbsp;및&nbsp;첨단기업&nbsp;유치를&nbsp;통한&nbsp;산업&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;기업&nbsp;유치&nbsp;전담체계&nbsp;구축&nbsp;및&nbsp;인허가&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;창업지원&nbsp;및&nbsp;연구개발(R&D)&nbsp;기반&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;교육·보육·공공서비스&nbsp;등&nbsp;생활환경을&nbsp;갖춘&nbsp;직주근접형&nbsp;인프라&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;생산-연구-창업-주거가&nbsp;연결된&nbsp;완결형&nbsp;산업&nbsp;생태계&nbsp;형성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계(2026~2027)&nbsp;:&nbsp;기업유치&nbsp;전략&nbsp;수립&nbsp;및&nbsp;기반&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;2단계(2028~2029)&nbsp;:&nbsp;산업&nbsp;클러스터&nbsp;구축&nbsp;및&nbsp;기업&nbsp;입주&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;3단계(2030~&nbsp;)&nbsp;:&nbsp;지속&nbsp;성장&nbsp;체계&nbsp;구축&nbsp;및&nbsp;자족형&nbsp;경제도시&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;공공사업&nbsp;연계를&nbsp;통한&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;지방비·구비&nbsp;및&nbsp;LH&nbsp;등&nbsp;공공기관&nbsp;협력&nbsp;사업비<br>&nbsp;&nbsp;○&nbsp;민간투자&nbsp;유치(PF&nbsp;등)&nbsp;및&nbsp;개발이익금</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	GTX-D·E  및 대장홍대선 연장 조속 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="GTX-D·E  및 대장홍대선 연장 조속 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;GTX<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;D·E&nbsp;노선&nbsp;구축으로&nbsp;계양을&nbsp;수도권&nbsp;서북부&nbsp;교통&nbsp;중심도시로&nbsp;도약<br>&nbsp;&nbsp;○&nbsp;대장홍대선&nbsp;계양,&nbsp;청라&nbsp;연장&nbsp;및&nbsp;계양테크노밸리&nbsp;연계&nbsp;교통망&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국가계획&nbsp;반영&nbsp;및&nbsp;사업&nbsp;추진&nbsp;기반&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;「국가철도망&nbsp;구축계획」&nbsp;및&nbsp;「대도시권&nbsp;광역교통계획」&nbsp;반영&nbsp;적극&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국토교통부·인천시·수도권&nbsp;지자체&nbsp;협의체&nbsp;구성&nbsp;및&nbsp;공동&nbsp;대응<br>&nbsp;&nbsp;○&nbsp;핵심&nbsp;노선&nbsp;및&nbsp;연계교통망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;D·E&nbsp;Y자&nbsp;노선&nbsp;계양&nbsp;경유&nbsp;적극&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대장홍대선&nbsp;등&nbsp;서운→작전→효성을&nbsp;연계한&nbsp;지하철&nbsp;교통망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시첨단산단역&nbsp;신설&nbsp;및&nbsp;계양테크노밸리&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;환승체계&nbsp;및&nbsp;교통&nbsp;인프라&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;계양역·작전역&nbsp;복합환승센터&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계(2026~2027)&nbsp;:&nbsp;국가계획&nbsp;반영&nbsp;및&nbsp;추진&nbsp;기반&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;2단계(2027~2030)&nbsp;:&nbsp;예비타당성조사&nbsp;및&nbsp;노선&nbsp;확정<br>&nbsp;&nbsp;○&nbsp;3단계(2030년&nbsp;이후)&nbsp;:&nbsp;설계&nbsp;및&nbsp;단계적&nbsp;착공<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;중심&nbsp;광역철도&nbsp;사업&nbsp;추진(국가&nbsp;재정사업&nbsp;반영)<br>&nbsp;&nbsp;○&nbsp;지방비,&nbsp;구비&nbsp;및&nbsp;수도권&nbsp;지자체&nbsp;공동&nbsp;재정&nbsp;분담<br>&nbsp;&nbsp;○&nbsp;민자사업(BTO&nbsp;등)&nbsp;및&nbsp;공공기관(LH&nbsp;등)&nbsp;협력&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	지속 가능한 도시균형 발전</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="지속 가능한 도시균형 발전">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;효성·계산·작전·계양(원도심)의&nbsp;주거환경&nbsp;개선&nbsp;및&nbsp;생활인프라&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;문화·상권·주거가&nbsp;결합된&nbsp;지속&nbsp;가능한&nbsp;도시재생으로&nbsp;지역발전<br>&nbsp;&nbsp;○&nbsp;계양산&nbsp;역사·문화시설&nbsp;자원&nbsp;활용을&nbsp;통한&nbsp;지역&nbsp;브랜드&nbsp;가치&nbsp;제고<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;도시재생&nbsp;종합계획&nbsp;수립&nbsp;및&nbsp;대상지&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;노후&nbsp;주건환경의&nbsp;안전한&nbsp;생활SOS&nbsp;기반시설&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;참여형(원도심)&nbsp;도시재생&nbsp;추진체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;계양산성&nbsp;사적&nbsp;복원사업&nbsp;지속&nbsp;추진&nbsp;및&nbsp;미발굴&nbsp;구간&nbsp;정밀조사<br>&nbsp;&nbsp;○&nbsp;계양산&nbsp;문화재&nbsp;탐방로&nbsp;조성&nbsp;및&nbsp;군사시설&nbsp;규제&nbsp;해결<br>&nbsp;&nbsp;○&nbsp;경인고속도로&nbsp;지하화&nbsp;추진과&nbsp;연계한&nbsp;상부공간&nbsp;녹지문화&nbsp;공간&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계(2026~2027)&nbsp;:&nbsp;도시재생조례&nbsp;제정&nbsp;및&nbsp;종합계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;2단계(2027~2030)&nbsp;:&nbsp;국가사적&nbsp;복원을&nbsp;위한&nbsp;프로젝트&nbsp;격상<br>&nbsp;&nbsp;○&nbsp;3단계(2030년&nbsp;이후)&nbsp;:&nbsp;도시재생&nbsp;사업&nbsp;본격&nbsp;추진&nbsp;및&nbsp;지속확산<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;도시재생&nbsp;뉴딜사업&nbsp;공모사업&nbsp;및&nbsp;문화재청을&nbsp;통한&nbsp;국비<br>&nbsp;&nbsp;○&nbsp;LH&nbsp;등&nbsp;공공기관&nbsp;협력&nbsp;및&nbsp;공공개발사업<br>&nbsp;&nbsp;○&nbsp;재개발·재건축에&nbsp;따른&nbsp;기부채납&nbsp;및&nbsp;공공기여금<br>&nbsp;&nbsp;○&nbsp;지방비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	전통시장 및 골목상권 보호·육성 강화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="전통시장 및 골목상권 보호·육성 강화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;전통시장과&nbsp;골목상권&nbsp;활성화를&nbsp;통한&nbsp;지역경제&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;경영&nbsp;안정&nbsp;및&nbsp;매출&nbsp;증대를&nbsp;통한&nbsp;지역경제&nbsp;회복<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;내&nbsp;소비&nbsp;확대를&nbsp;통한&nbsp;‘지역경제&nbsp;선순환&nbsp;구조’&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;즉시&nbsp;시행&nbsp;가능한&nbsp;소상공인&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;경영안정자금&nbsp;및&nbsp;특례보증&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;전통시장&nbsp;및&nbsp;골목상권&nbsp;경쟁력&nbsp;강화&nbsp;사업<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전통시장&nbsp;시설&nbsp;현대화(주차장·아케이드·화장실·안전시설&nbsp;개선)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;골목상권&nbsp;특화거리&nbsp;조성(먹거리·문화·청년창업&nbsp;테마거리)<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;소비&nbsp;촉진&nbsp;및&nbsp;매출&nbsp;증대<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역화폐(계양사랑상품권)&nbsp;발행&nbsp;확대&nbsp;및&nbsp;인센티브&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대형유통시설과&nbsp;상생협약&nbsp;체결&nbsp;및&nbsp;보호&nbsp;정책&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상인회&nbsp;중심&nbsp;자율&nbsp;경쟁력&nbsp;강화&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계(2026~2027)&nbsp;:&nbsp;소상공인&nbsp;지원&nbsp;확대&nbsp;및&nbsp;지역화폐&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;2단계(2027~2028)&nbsp;:&nbsp;상권&nbsp;활성화&nbsp;사업&nbsp;본격&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;3단계(2029~2030)&nbsp;:&nbsp;성과&nbsp;확산&nbsp;및&nbsp;자립&nbsp;기반&nbsp;구축<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;전통시장·소상공인&nbsp;지원&nbsp;국비사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;지역화폐&nbsp;발행&nbsp;및&nbsp;공공구매&nbsp;확대를&nbsp;통한&nbsp;간접&nbsp;재정&nbsp;투입<br>&nbsp;&nbsp;○&nbsp;민간참여(상인회·금융기관)&nbsp;및&nbsp;사업&nbsp;수익&nbsp;재투자<br>&nbsp;&nbsp;○&nbsp;지방비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	작은배려, 큰울림의 지역복지 강화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="작은배려, 큰울림의 지역복지 강화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;아동·청년·중장년·어르신·장애인을&nbsp;아우르는&nbsp;통합돌봄&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;돌봄&nbsp;사각지대&nbsp;해소&nbsp;및&nbsp;생활밀착형&nbsp;복지&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;교육·문화·체육·에술에&nbsp;대한&nbsp;전방위적&nbsp;체계&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;통합돌봄&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘계양형&nbsp;통합돌봄’&nbsp;플랫폼&nbsp;구축(복지·의료·돌봄&nbsp;연계)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동&nbsp;행정복지센터&nbsp;중심&nbsp;원스톱&nbsp;상담·지원&nbsp;체계&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;어르신·취약계층&nbsp;돌봄&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방문&nbsp;건강관리,&nbsp;고독사&nbsp;예방&nbsp;및&nbsp;재가돌봄&nbsp;서비스&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;저출산&nbsp;극복을&nbsp;위한&nbsp;지속적인&nbsp;시스템&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출산병원&nbsp;및&nbsp;산후조리원&nbsp;유치·건립&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임신.출산&nbsp;전&nbsp;성인여성&nbsp;건강검진&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;공공보육&nbsp;및&nbsp;아동돌봄&nbsp;확대(체감도&nbsp;높은&nbsp;사업)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공립&nbsp;어린이집&nbsp;및&nbsp;초등&nbsp;돌봄&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;다자녀&nbsp;가정에&nbsp;대한&nbsp;세제혜택&nbsp;및&nbsp;맞벌이&nbsp;가정&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;교육·문화·체육·예술에&nbsp;대한&nbsp;전방위적&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전&nbsp;세대를&nbsp;아우르는&nbsp;교육&nbsp;생태계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일상속&nbsp;문화예술&nbsp;및&nbsp;스포츠가&nbsp;살아&nbsp;숨쉬는&nbsp;환경조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계(2026~2027)&nbsp;:&nbsp;통합돌봄&nbsp;체계&nbsp;구축&nbsp;및&nbsp;시범&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;2단계(2027~2029)&nbsp;:&nbsp;돌봄서비스&nbsp;확대&nbsp;및&nbsp;전&nbsp;동(洞)&nbsp;적용<br>&nbsp;&nbsp;○&nbsp;3단계(2029~2030)&nbsp;:&nbsp;서비스&nbsp;안정화&nbsp;및&nbsp;품질&nbsp;고도화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;보건복지부&nbsp;통합돌봄&nbsp;및&nbsp;사회서비스&nbsp;지원&nbsp;국비<br>&nbsp;&nbsp;○&nbsp;공공기관&nbsp;및&nbsp;민관협력&nbsp;자원&nbsp;연계&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;지방비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

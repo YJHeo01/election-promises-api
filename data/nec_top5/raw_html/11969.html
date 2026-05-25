@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;서철모 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	노후계획도시 선도지구 및 도마변동 재정비 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="노후계획도시 선도지구 및 도마변동 재정비 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▲&nbsp;현황<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후계획도시&nbsp;선도지구의&nbsp;경우&nbsp;17개&nbsp;지구를&nbsp;순차적으로&nbsp;추진할&nbsp;수&nbsp;있는&nbsp;여건이&nbsp;마련되어있으며&nbsp;국토부의&nbsp;승인과&nbsp;시의&nbsp;선도지구&nbsp;지정의&nbsp;절차가&nbsp;남아있는&nbsp;상태<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도마변동은&nbsp;서구&nbsp;서남권의&nbsp;오랜&nbsp;단독주택지역으로&nbsp;각종&nbsp;인프라&nbsp;및&nbsp;생활&nbsp;인프라&nbsp;및&nbsp;주거&nbsp;환경&nbsp;낙후에&nbsp;대한&nbsp;불만이&nbsp;극에&nbsp;달하고&nbsp;있는&nbsp;상태.<br><br>▲&nbsp;필요성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;둔산지구노후택지&nbsp;재건축이&nbsp;시급한&nbsp;상황.&nbsp;개별&nbsp;단지의&nbsp;도시정비사업이&nbsp;아닌&nbsp;‘지구&nbsp;전체의&nbsp;노후&nbsp;개선과&nbsp;정비를&nbsp;위한&nbsp;체계적&nbsp;관리’&nbsp;시급.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도마·변동은&nbsp;타&nbsp;지역에&nbsp;비하여&nbsp;주거&nbsp;환경이&nbsp;낙후되었고&nbsp;이에&nbsp;따른&nbsp;생활&nbsp;인프라&nbsp;마저&nbsp;점차적으로&nbsp;소멸되어가고&nbsp;있음.&nbsp;도마·변동&nbsp;재정비촉진지구&nbsp;추진으로&nbsp;지역간&nbsp;불균형&nbsp;해소&nbsp;계기&nbsp;마련<br><br>▲&nbsp;내용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재건축·선도지구&nbsp;지원&nbsp;T/F&nbsp;신설로&nbsp;추진을&nbsp;위한&nbsp;행정&nbsp;지원&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후계획도시&nbsp;선도지구&nbsp;17개&nbsp;지구&nbsp;순차적&nbsp;추진을&nbsp;위한&nbsp;도시&nbsp;설계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시설계에&nbsp;맞는&nbsp;재건축&nbsp;계획&nbsp;수립&nbsp;및&nbsp;주민&nbsp;의견&nbsp;수렴<br><br>○&nbsp;목&nbsp;표&nbsp;-&nbsp;주거&nbsp;환경&nbsp;개선을&nbsp;통한&nbsp;삶의&nbsp;질&nbsp;향상<br><br>○&nbsp;이행방법&nbsp;-&nbsp;선도지구&nbsp;지정&nbsp;후&nbsp;주민&nbsp;의견&nbsp;수렴<br><br>○&nbsp;이행기간&nbsp;-&nbsp;장기<br><br>○&nbsp;재원조달방안&nbsp;등&nbsp;-&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	방위사업청 등 민선8기 성과와 연계한 경제 활성화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="방위사업청 등 민선8기 성과와 연계한 경제 활성화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▲&nbsp;현황<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방위사업청은&nbsp;부분&nbsp;이전&nbsp;상태이며&nbsp;노루벌국가정원은&nbsp;중앙투자심사&nbsp;통과,&nbsp;특수영상콘텐츠특구는&nbsp;고도화방안을&nbsp;찾고&nbsp;있는&nbsp;상황<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이와&nbsp;같이&nbsp;서구&nbsp;곳곳의&nbsp;대형&nbsp;사업이&nbsp;시작됐지만&nbsp;정착되지는&nbsp;못한&nbsp;상태로&nbsp;이후&nbsp;지속적인&nbsp;관리와&nbsp;방향&nbsp;설정이&nbsp;필요<br><br>▲&nbsp;필요성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방위사업청,&nbsp;특수영상콘텐츠특구,&nbsp;노루벌국가정원&nbsp;등&nbsp;민선8기&nbsp;핵심&nbsp;성과를&nbsp;차질&nbsp;없이&nbsp;완성해야&nbsp;지역&nbsp;경제&nbsp;발전&nbsp;효과를&nbsp;누릴&nbsp;수&nbsp;있음<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;완성&nbsp;하는&nbsp;과정에서&nbsp;이러한&nbsp;성과들에&nbsp;대한&nbsp;효과적&nbsp;연계&nbsp;시스템을&nbsp;구축해야&nbsp;산업과&nbsp;문화,&nbsp;관광과&nbsp;정주&nbsp;여건이&nbsp;선순환하는&nbsp;구조를&nbsp;만들어&nbsp;지속가능한&nbsp;경제&nbsp;생태계&nbsp;구축&nbsp;가능<br><br>▲&nbsp;내용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방위사업청&nbsp;신축에&nbsp;맞춰&nbsp;방위산업클러스터&nbsp;구축&nbsp;및&nbsp;방위사업청&nbsp;중심&nbsp;행정기관의&nbsp;추가&nbsp;이전<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노루벌국가정원&nbsp;추진과&nbsp;함께&nbsp;정원도시바람회&nbsp;등을&nbsp;추진하여&nbsp;산업화하고&nbsp;충청권광역철도&nbsp;등&nbsp;기반시설&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특수영상콘텐츠&nbsp;특구와&nbsp;창업&nbsp;활성화&nbsp;프로그램을&nbsp;연계하고,&nbsp;주민이&nbsp;체감할&nbsp;수&nbsp;있는&nbsp;특구&nbsp;프로그램&nbsp;운영<br><br>○&nbsp;목&nbsp;표&nbsp;-&nbsp;지역경제&nbsp;활성화,&nbsp;관광&nbsp;자원&nbsp;확충<br><br>○&nbsp;이행방법&nbsp;-&nbsp;사업&nbsp;확대&nbsp;및&nbsp;연계&nbsp;방안&nbsp;마련<br><br>○&nbsp;이행기간&nbsp;-&nbsp;장기<br><br>○&nbsp;재원조달방안&nbsp;등&nbsp;-국&nbsp;/&nbsp;시&nbsp;/&nbsp;구비&nbsp;/&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	CTX 둔산복합환승터미널 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="CTX 둔산복합환승터미널 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▲&nbsp;현황<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민자적격성&nbsp;조사&nbsp;통과<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년&nbsp;초&nbsp;민간투자&nbsp;사업자&nbsp;선정&nbsp;시작&nbsp;계획<br><br>▲&nbsp;필요성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서구를&nbsp;대전의&nbsp;중심을&nbsp;넘어&nbsp;충청의&nbsp;중심으로&nbsp;성장시키는&nbsp;기반<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상권과&nbsp;문화,&nbsp;편의&nbsp;기능을&nbsp;키워&nbsp;지역경제&nbsp;활성화에&nbsp;기여<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;둔산권&nbsp;재도약과&nbsp;노후계획도시&nbsp;정비&nbsp;효과<br><br>▲&nbsp;내용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;철도와&nbsp;도로,&nbsp;대중교통이&nbsp;유기적으로&nbsp;연결되는&nbsp;복합환승체계를&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화·상업·편의&nbsp;기능이&nbsp;어우러진&nbsp;복합공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미디어파사드&nbsp;등을&nbsp;통한&nbsp;둔산&nbsp;상권&nbsp;연계로&nbsp;지역&nbsp;상권&nbsp;활성화&nbsp;유도<br><br>○&nbsp;목&nbsp;표&nbsp;-&nbsp;서구의&nbsp;새로운&nbsp;성장축이자&nbsp;도시&nbsp;경쟁력의&nbsp;상징으로&nbsp;랜드마크화<br><br>○&nbsp;이행방법&nbsp;-&nbsp;CTX&nbsp;계획에&nbsp;맞춰&nbsp;터미널&nbsp;조성&nbsp;계획&nbsp;추진<br><br>○&nbsp;이행기간&nbsp;-&nbsp;장기<br><br>○&nbsp;재원조달방안&nbsp;등&nbsp;-&nbsp;국&nbsp;/&nbsp;시&nbsp;/&nbsp;구비&nbsp;/&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	아이와 어르신의 일상이 편안한 서구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="아이와 어르신의 일상이 편안한 서구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▲&nbsp;현황<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인구&nbsp;구조를&nbsp;보면&nbsp;아이들의&nbsp;비중은&nbsp;점점&nbsp;얇아지고&nbsp;있음.&nbsp;아이를&nbsp;낳고&nbsp;키우는&nbsp;부담이&nbsp;사회&nbsp;전반에&nbsp;크게&nbsp;작용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반면&nbsp;노인&nbsp;인구는&nbsp;빠르게&nbsp;늘고&nbsp;있음.&nbsp;우리&nbsp;사회가&nbsp;사실상&nbsp;초고령사회로&nbsp;진입.<br><br>▲&nbsp;필요성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아이도&nbsp;어르신도&nbsp;건강하고&nbsp;안전하게&nbsp;지내실&nbsp;수&nbsp;있어야&nbsp;가족의&nbsp;돌봄&nbsp;부담도&nbsp;줄고,&nbsp;지역&nbsp;공동체의&nbsp;불안도&nbsp;낮아지게&nbsp;됨<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;결국&nbsp;아이에&nbsp;대한&nbsp;공약은&nbsp;‘아이를&nbsp;더&nbsp;낳으라’는&nbsp;이야기가&nbsp;아니라,&nbsp;아이를&nbsp;키우기&nbsp;좋은&nbsp;생활&nbsp;환경을&nbsp;만드는&nbsp;정책이되어야&nbsp;함<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고령인구&nbsp;비중이&nbsp;빠르게&nbsp;늘고,&nbsp;독거노인과&nbsp;빈곤,&nbsp;건강&nbsp;문제,&nbsp;돌봄&nbsp;공백이&nbsp;함께&nbsp;커지는&nbsp;상황에서는&nbsp;의료·돌봄·식사·주거·교통을&nbsp;하나로&nbsp;묶어&nbsp;보는&nbsp;접근&nbsp;필요<br><br>▲&nbsp;내용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;다함께돌봄센터&nbsp;24시간&nbsp;추가&nbsp;개소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공도서관&nbsp;및&nbsp;마을도서관&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서구노인지회&nbsp;신축&nbsp;이전<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경로당&nbsp;노후물품지원비&nbsp;확대<br><br>○&nbsp;목&nbsp;표&nbsp;-&nbsp;아이&nbsp;돌봄&nbsp;환경&nbsp;및&nbsp;어르신&nbsp;생활&nbsp;환경&nbsp;개선<br><br>○&nbsp;이행방법&nbsp;-&nbsp;예산&nbsp;확보,&nbsp;여론수렴<br><br>○&nbsp;이행기간&nbsp;-&nbsp;중장기<br><br>○&nbsp;재원조달방안&nbsp;등&nbsp;-국&nbsp;/&nbsp;시&nbsp;/&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	청년 창업 및 일자리 장출</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="청년 창업 및 일자리 장출">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▲&nbsp;현황<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서구는&nbsp;대전&nbsp;전체&nbsp;인구의&nbsp;32.&nbsp;2%,&nbsp;약&nbsp;46만&nbsp;명대가&nbsp;사는&nbsp;가장&nbsp;큰&nbsp;자치구라서&nbsp;청년&nbsp;취업&nbsp;문제가&nbsp;지역&nbsp;전체&nbsp;활력에&nbsp;미치는&nbsp;영향도&nbsp;큼<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;하지만&nbsp;대전에서&nbsp;현재&nbsp;청년&nbsp;일자리는&nbsp;부족하고&nbsp;창업은&nbsp;부담이&nbsp;크며,&nbsp;지역에&nbsp;오래&nbsp;머물&nbsp;기반은&nbsp;아직&nbsp;더&nbsp;보강돼야&nbsp;하는&nbsp;상황<br><br>▲&nbsp;필요성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년들이&nbsp;지역&nbsp;안에서&nbsp;일자리를&nbsp;찾지&nbsp;못하면&nbsp;수도권이나&nbsp;다른&nbsp;도시로&nbsp;떠날&nbsp;수밖에&nbsp;없고,&nbsp;이는&nbsp;곧&nbsp;지역의&nbsp;인구&nbsp;감소와&nbsp;소비&nbsp;위축,&nbsp;성장동력&nbsp;약화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;산업만으로는&nbsp;지역경제에&nbsp;활력을&nbsp;불어넣는&nbsp;데&nbsp;한계가&nbsp;있는&nbsp;만큼,&nbsp;청년들의&nbsp;도전이&nbsp;새로운&nbsp;일자리와&nbsp;상권,&nbsp;산업&nbsp;생태계를&nbsp;만드는&nbsp;출발점<br><br>▲&nbsp;내용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육-창업-상권&nbsp;조성까지&nbsp;연계된&nbsp;청년&nbsp;창업&nbsp;생태계를&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년창업&nbsp;교육기술&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년창업&nbsp;상권&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년창업&nbsp;특화&nbsp;공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년창업&nbsp;지원&nbsp;시스템&nbsp;구축<br><br>○&nbsp;목&nbsp;표&nbsp;-&nbsp;청년&nbsp;창업&nbsp;생태계&nbsp;구축<br><br>○&nbsp;이행방법&nbsp;-&nbsp;예산확보,&nbsp;프로그램&nbsp;구축<br><br>○&nbsp;이행기간&nbsp;-&nbsp;중장기<br><br>○&nbsp;재원조달방안&nbsp;등&nbsp;-&nbsp;국&nbsp;/&nbsp;시&nbsp;/&nbsp;구비&nbsp;/&nbsp;민자</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

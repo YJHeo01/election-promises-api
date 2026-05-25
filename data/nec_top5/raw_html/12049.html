@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;송수연 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	제천시 정책·행정 재정비 및 책임행정 체계 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="제천시 정책·행정 재정비 및 책임행정 체계 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;민선&nbsp;지방자치&nbsp;기간&nbsp;동안&nbsp;제천시에는&nbsp;다양한&nbsp;정책과&nbsp;사업,&nbsp;보조금,&nbsp;출자·출연&nbsp;사업이&nbsp;누적되어&nbsp;왔다.&nbsp;새로운&nbsp;사업을&nbsp;계속&nbsp;더하는&nbsp;방식만으로는&nbsp;미래정책을&nbsp;<br>추진하기&nbsp;어렵고,&nbsp;기존&nbsp;정책과&nbsp;행정을&nbsp;정리해&nbsp;재정의&nbsp;여유와&nbsp;행정의&nbsp;빈&nbsp;공간을&nbsp;만들어야&nbsp;한다.<br><br>&nbsp;이에&nbsp;제천시의&nbsp;주요&nbsp;사업을&nbsp;전면&nbsp;점검하고,&nbsp;반복·중복되거나&nbsp;성과가&nbsp;불분명한&nbsp;사업은&nbsp;조정하여&nbsp;시민에게&nbsp;필요한&nbsp;정책에&nbsp;재원을&nbsp;다시&nbsp;배분한다.&nbsp;공직자가&nbsp;시민&nbsp;이익과&nbsp;원칙에&nbsp;따라&nbsp;일할&nbsp;수&nbsp;있는&nbsp;책임행정&nbsp;체계를&nbsp;구축한다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;제천시&nbsp;정책·사업&nbsp;전면진단&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;보조금,&nbsp;위탁사업,&nbsp;출자·출연사업&nbsp;단계적&nbsp;점검<br>&nbsp;&nbsp;○&nbsp;반복·중복·저성과(低成果)&nbsp;사업&nbsp;통합·조정<br>&nbsp;&nbsp;○&nbsp;정비&nbsp;결과를&nbsp;중기지방재정계획과&nbsp;예산편성에&nbsp;반영<br>&nbsp;&nbsp;○&nbsp;확보&nbsp;재원을&nbsp;미래자산기금과&nbsp;시민&nbsp;우선사업에&nbsp;재배분<br><br>□&nbsp;이행기간<br>&nbsp;사업기간&nbsp;:&nbsp;2026년부터&nbsp;임기&nbsp;중&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;소요예산&nbsp;:&nbsp;기존&nbsp;예산&nbsp;범위&nbsp;내&nbsp;추진<br>&nbsp;재원조달&nbsp;:&nbsp;예산절감,&nbsp;사업&nbsp;구조조정,&nbsp;투자&nbsp;우선순위&nbsp;조정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	제천형 미래자산기금 조성 및 공공목적사업 재투자</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="제천형 미래자산기금 조성 및 공공목적사업 재투자">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;아동&nbsp;성장,&nbsp;청년&nbsp;정착,&nbsp;중장년&nbsp;재도전,&nbsp;지역&nbsp;공공투자는&nbsp;장기적이고&nbsp;안정적인&nbsp;재원&nbsp;운용이&nbsp;필요한&nbsp;정책이다.&nbsp;한&nbsp;해&nbsp;편성하고&nbsp;한&nbsp;해&nbsp;집행하는&nbsp;예산만으로는&nbsp;지속성과&nbsp;확장성에&nbsp;한계가&nbsp;있다.<br><br>&nbsp;이에&nbsp;제천형&nbsp;미래자산기금&nbsp;조성을&nbsp;추진하여&nbsp;시민&nbsp;자산형성과&nbsp;공공목적사업&nbsp;재투자를&nbsp;연결한다.&nbsp;시민&nbsp;납입금과&nbsp;시&nbsp;매칭금은&nbsp;개인별&nbsp;적립계정으로&nbsp;안정적으로&nbsp;분리&nbsp;관리하고,&nbsp;공공목적사업&nbsp;재투자는&nbsp;별도&nbsp;계정&nbsp;재원으로&nbsp;추진한다.<br><br>&nbsp;기금&nbsp;운용수익,&nbsp;융자상환금,&nbsp;공공사업&nbsp;수익금이&nbsp;다시&nbsp;시민과&nbsp;지역에&nbsp;돌아가는&nbsp;재정순환&nbsp;구조를&nbsp;만든다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;제천형&nbsp;미래자산기금&nbsp;설치&nbsp;조례&nbsp;제정&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;아동·청년·중장년&nbsp;계정과&nbsp;공공목적사업&nbsp;투자계정&nbsp;분리&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;개인별&nbsp;적립금은&nbsp;안정적으로&nbsp;분리&nbsp;관리<br>&nbsp;&nbsp;○&nbsp;공공시설,&nbsp;지역행사,&nbsp;창업지원,&nbsp;소상공인&nbsp;회전융자&nbsp;등&nbsp;공익사업과&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;외부&nbsp;회계감사와&nbsp;시민공시를&nbsp;통한&nbsp;투명성&nbsp;확보<br><br>□&nbsp;이행기간<br>&nbsp;사업기간:2026년부터&nbsp;임기&nbsp;중&nbsp;단계적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;시민&nbsp;납입금,&nbsp;제천시&nbsp;매칭금,&nbsp;중기지방재정계획&nbsp;내&nbsp;재원&nbsp;조정&nbsp;및&nbsp;단계적&nbsp;반영,&nbsp;금융기관&nbsp;협약&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	0~18세 「요람에서 고딩까지」 자산형성 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="0~18세 「요람에서 고딩까지」 자산형성 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;아이들이&nbsp;고등학교를&nbsp;졸업하고&nbsp;사회에&nbsp;첫발을&nbsp;내딛는&nbsp;시점에는&nbsp;등록금,&nbsp;학자금,&nbsp;주거보증금,&nbsp;자격취득,&nbsp;취업준비&nbsp;등&nbsp;큰&nbsp;비용이&nbsp;필요하다.&nbsp;가정의&nbsp;경제적&nbsp;부담을&nbsp;줄이고&nbsp;아이들이&nbsp;학업과&nbsp;진로&nbsp;준비에&nbsp;집중할&nbsp;수&nbsp;있도록&nbsp;성장기&nbsp;자산형성&nbsp;지원이&nbsp;필요하다.<br><br>&nbsp;이에&nbsp;제천에서&nbsp;자라는&nbsp;아이들이&nbsp;고등학교&nbsp;졸업&nbsp;시점에&nbsp;사회진입&nbsp;자산을&nbsp;마련할&nbsp;수&nbsp;있도록&nbsp;지원한다.&nbsp;기존&nbsp;아동&nbsp;자산형성&nbsp;지원제도의&nbsp;취지를&nbsp;참고하여&nbsp;제천형&nbsp;모델로&nbsp;설계하고,&nbsp;제천형&nbsp;미래자산기금의&nbsp;아동·청소년&nbsp;계정과&nbsp;연계한다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;보호자가&nbsp;자녀&nbsp;명의로&nbsp;매월&nbsp;납입하면&nbsp;제천시가&nbsp;일정&nbsp;비율&nbsp;매칭&nbsp;지원&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;대상,&nbsp;납입한도,&nbsp;매칭기준,&nbsp;지급조건은&nbsp;조례와&nbsp;재정여건에&nbsp;따라&nbsp;단계적&nbsp;설계<br>&nbsp;&nbsp;○&nbsp;개인별&nbsp;적립금은&nbsp;안정적으로&nbsp;분리&nbsp;관리<br>&nbsp;&nbsp;○&nbsp;적립금은&nbsp;학업,&nbsp;진학,&nbsp;주거,&nbsp;자격취득,&nbsp;취업준비&nbsp;등에&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;운용수익&nbsp;발생&nbsp;시&nbsp;적립금&nbsp;보강과&nbsp;다음&nbsp;세대&nbsp;지원에&nbsp;활용<br><br>□&nbsp;이행기간<br>사업기간&nbsp;:&nbsp;2026년부터&nbsp;임기&nbsp;중&nbsp;단계적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;소요예산:대상과&nbsp;매칭비율&nbsp;확정&nbsp;후&nbsp;단계적&nbsp;반영<br>&nbsp;재원조달:대상자&nbsp;납입금,&nbsp;중기지방재정계획&nbsp;내&nbsp;재원&nbsp;조정&nbsp;및&nbsp;단계적&nbsp;반영,&nbsp;제천형&nbsp;미래자산기금&nbsp;운용수익&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	19~45세 「청년 부스터」 자산형성 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="19~45세 「청년 부스터」 자산형성 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;청년들은&nbsp;취업,&nbsp;창업,&nbsp;주거,&nbsp;결혼,&nbsp;학자금,&nbsp;자격취득&nbsp;등&nbsp;여러&nbsp;전환기마다&nbsp;목돈이&nbsp;필요하다.&nbsp;그러나&nbsp;기존&nbsp;청년&nbsp;자산형성&nbsp;지원은&nbsp;대상과&nbsp;조건이&nbsp;제한적인&nbsp;경우가&nbsp;많아&nbsp;제천&nbsp;청년들이&nbsp;스스로&nbsp;목적과&nbsp;기간을&nbsp;선택할&nbsp;수&nbsp;있는&nbsp;맞춤형&nbsp;지원이&nbsp;필요하다.<br><br>&nbsp;이에&nbsp;청년이&nbsp;기간·금액·용도를&nbsp;설정하는&nbsp;제천형&nbsp;자산형성&nbsp;지원을&nbsp;추진한다.「요람에서&nbsp;고딩까지」&nbsp;이후&nbsp;청년기로&nbsp;이어지는&nbsp;생애주기형&nbsp;지원체계를&nbsp;구축하고,&nbsp;청년이&nbsp;제천에서&nbsp;일하고&nbsp;도전하고&nbsp;정착할&nbsp;수&nbsp;있는&nbsp;기반을&nbsp;만든다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;목적별&nbsp;적립계좌&nbsp;개설&nbsp;및&nbsp;제천시&nbsp;매칭&nbsp;지원&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;단기·중기·장기&nbsp;적립을&nbsp;선택할&nbsp;수&nbsp;있도록&nbsp;단계적&nbsp;설계<br>&nbsp;&nbsp;○&nbsp;취업,&nbsp;창업,&nbsp;주거,&nbsp;결혼,&nbsp;교육훈련&nbsp;등&nbsp;용도별&nbsp;활용&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;창업지원,&nbsp;취업지원,&nbsp;소상공인&nbsp;회전융자,&nbsp;금융기관&nbsp;협약사업과&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;개인별&nbsp;적립금은&nbsp;안정적으로&nbsp;분리&nbsp;관리<br><br>□&nbsp;이행기간<br>&nbsp;사업기간&nbsp;:&nbsp;2026년부터&nbsp;임기&nbsp;중&nbsp;단계적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;소요예산&nbsp;:&nbsp;대상과&nbsp;매칭비율&nbsp;확정&nbsp;후&nbsp;단계적&nbsp;반영<br>&nbsp;재원조달&nbsp;:&nbsp;대상자&nbsp;납입금,&nbsp;중기지방재정계획&nbsp;내&nbsp;재원&nbsp;조정&nbsp;및&nbsp;단계적&nbsp;반영,&nbsp;제천형&nbsp;미래자산기금&nbsp;운용수익&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	46~64세 「노을빛드림」 자산형성 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="46~64세 「노을빛드림」 자산형성 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;중장년층은&nbsp;주된&nbsp;일자리&nbsp;퇴직&nbsp;이후&nbsp;연금&nbsp;수급&nbsp;전까지&nbsp;소득공백을&nbsp;겪을&nbsp;수&nbsp;있다.&nbsp;재취업,&nbsp;창업,&nbsp;직업훈련,&nbsp;자격취득,&nbsp;생활안정에&nbsp;필요한&nbsp;지원은&nbsp;상대적으로&nbsp;부족하며,&nbsp;제천&nbsp;경제의&nbsp;중심세대가&nbsp;다시&nbsp;일하고&nbsp;배우고&nbsp;도전할&nbsp;수&nbsp;있는&nbsp;기반<br>이&nbsp;필요하다.&nbsp;<br><br>&nbsp;이에&nbsp;46~64세&nbsp;중장년&nbsp;시민을&nbsp;위한&nbsp;자산형성&nbsp;지원을&nbsp;추진한다.&nbsp;재취업과&nbsp;창업,&nbsp;교육훈련,&nbsp;생활안정에&nbsp;활용할&nbsp;수&nbsp;있도록&nbsp;하고,&nbsp;아동·청년·중장년을&nbsp;잇는&nbsp;제천형&nbsp;생애주기&nbsp;자산지원&nbsp;체계를&nbsp;완성한다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중장년&nbsp;목적별&nbsp;적립계좌&nbsp;개설&nbsp;및&nbsp;제천시&nbsp;매칭&nbsp;지원&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;재취업,&nbsp;창업,&nbsp;교육훈련,&nbsp;생활안정&nbsp;등&nbsp;용도별&nbsp;적립&nbsp;허용&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;창업·취업&nbsp;바우처,&nbsp;재교육&nbsp;프로그램,&nbsp;소상공인&nbsp;회전융자와&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;개인별&nbsp;적립금은&nbsp;안정적으로&nbsp;분리&nbsp;관리<br>&nbsp;&nbsp;○&nbsp;운용수익&nbsp;발생&nbsp;시&nbsp;중장년&nbsp;지원&nbsp;확대에&nbsp;활용<br><br>□&nbsp;이행기간<br>&nbsp;사업기간:2026년부터&nbsp;임기&nbsp;중&nbsp;단계적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;소요예산:대상과&nbsp;매칭비율&nbsp;확정&nbsp;후&nbsp;단계적&nbsp;반영<br>&nbsp;재원조달:대상자&nbsp;납입금,&nbsp;중기지방재정계획&nbsp;내&nbsp;재원&nbsp;조정&nbsp;및&nbsp;단계적&nbsp;반영,&nbsp;제천형&nbsp;미래자산기금&nbsp;운용수익&nbsp;등</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박운기 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	서북권 중심도시 서대문</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="서북권 중심도시 서대문">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;서울시와&nbsp;긴밀한&nbsp;협치를&nbsp;기반으로&nbsp;꽉&nbsp;막힌&nbsp;교통문제를&nbsp;해결하고&nbsp;주민이&nbsp;원하는&nbsp;재개발&nbsp;재건축을&nbsp;추진하여&nbsp;주민들의&nbsp;삶의&nbsp;질&nbsp;개선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;서부선&nbsp;조기&nbsp;착공,&nbsp;강북횡단선&nbsp;재추진(간호대역&nbsp;설치)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관련부처,&nbsp;서울시&nbsp;긴밀한&nbsp;협의를&nbsp;통한&nbsp;서부선&nbsp;조기&nbsp;착공&nbsp;노력<br>&nbsp;&nbsp;○&nbsp;주민이&nbsp;원하는&nbsp;신속한&nbsp;재개발·재건축&nbsp;추진,&nbsp;원하지&nbsp;않으면&nbsp;해제<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;북아현뉴타운(2·3구역)에&nbsp;대한&nbsp;신속한&nbsp;지원을&nbsp;통한&nbsp;사업&nbsp;가속화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;홍제4·홍은15구역,&nbsp;개미마을&nbsp;정비사업&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현저동&nbsp;모아타운&nbsp;정비사업&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미동·충정·서소문&nbsp;아파트&nbsp;재건축&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민이&nbsp;원하지&nbsp;않을&nbsp;시&nbsp;과감하게&nbsp;정비사업&nbsp;지구&nbsp;해제<br>&nbsp;&nbsp;○&nbsp;서울시와&nbsp;함께&nbsp;신촌&nbsp;문화산업진흥지구&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;K콘텐츠스튜디오,&nbsp;IP관리시설,&nbsp;글로벌&nbsp;투자채널&nbsp;집적공간&nbsp;확보)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;상위&nbsp;우선순위<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시비,&nbsp;구비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	청년과 더불어 성장하는 서대문</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="청년과 더불어 성장하는 서대문">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;9개의&nbsp;지역&nbsp;대학&nbsp;청년들이&nbsp;머물지&nbsp;못하고&nbsp;떠나는&nbsp;현재&nbsp;상황에서&nbsp;미래세대의&nbsp;취업,&nbsp;주거&nbsp;여건의&nbsp;개선등&nbsp;서울시와&nbsp;함께&nbsp;청년이&nbsp;머무는&nbsp;도시를&nbsp;만들기&nbsp;위하여&nbsp;실질적으로&nbsp;필요한&nbsp;부문을&nbsp;개선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;서대문구(명지대,&nbsp;연세대,&nbsp;이화여대&nbsp;등)&nbsp;마포구(서강대,&nbsp;홍익대&nbsp;등)를&nbsp;연계하여&nbsp;Ai&nbsp;특구&nbsp;조성을&nbsp;위한&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙부처,&nbsp;서울시&nbsp;긴밀한&nbsp;협의를&nbsp;통한&nbsp;인프라&nbsp;구축&nbsp;<br>&nbsp;&nbsp;○&nbsp;청년창업&nbsp;클러스터&nbsp;‘서대문캠퍼스’&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시장&nbsp;후보&nbsp;서울&nbsp;글로벌&nbsp;경제&nbsp;문화도시&nbsp;G2&nbsp;공약에&nbsp;따라&nbsp;청년창업&nbsp;클러스터&nbsp;콘텐츠&nbsp;분야&nbsp;중심으로&nbsp;거점&nbsp;역할&nbsp;수행<br>&nbsp;&nbsp;○&nbsp;청년종합지원센터&nbsp;신설,&nbsp;권역별&nbsp;청년커뮤니티&nbsp;공간&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년이&nbsp;떠나는&nbsp;것이&nbsp;아니라&nbsp;머물&nbsp;수&nbsp;있도록&nbsp;청년에게&nbsp;필요한&nbsp;문제를&nbsp;해결하기&nbsp;위한&nbsp;청년종합지원센터를&nbsp;설치하고,&nbsp;권역별&nbsp;청년커뮤니티&nbsp;공간을&nbsp;확보하여&nbsp;청년들의&nbsp;실제&nbsp;문제를&nbsp;해결할&nbsp;수&nbsp;있는&nbsp;공간&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;신촌역세권&nbsp;공실&nbsp;상가&nbsp;활용&nbsp;청년창업기숙사&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;문화의&nbsp;허브&nbsp;신촌을&nbsp;활성화하고&nbsp;주거&nbsp;및&nbsp;창업의&nbsp;근본적인&nbsp;문제를&nbsp;해결하기&nbsp;위하여&nbsp;창업과&nbsp;주거가&nbsp;동시에&nbsp;가능한&nbsp;청년창업기숙사&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;상위&nbsp;우선순위<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시비,&nbsp;구비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	기후위기에 대응하는 서대문</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="기후위기에 대응하는 서대문">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;세계적으로&nbsp;문제가&nbsp;되는&nbsp;기후위기에&nbsp;대응하기&nbsp;위하여&nbsp;기초자치단체부터&nbsp;실질적인&nbsp;주민의&nbsp;생활&nbsp;속에서&nbsp;실천&nbsp;가능하고&nbsp;환경을&nbsp;살리는&nbsp;방식의&nbsp;대응&nbsp;대책&nbsp;마련<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;안산,&nbsp;북한산,&nbsp;홍제천,&nbsp;불광천&nbsp;생태축&nbsp;복원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;각종&nbsp;개발로&nbsp;훼손된&nbsp;자연의&nbsp;생태축을&nbsp;복원하여&nbsp;자연의&nbsp;보전,&nbsp;동·식물과&nbsp;사람이&nbsp;공존하는&nbsp;환경&nbsp;조성&nbsp;<br>&nbsp;&nbsp;○&nbsp;홍제천·불광천&nbsp;수변&nbsp;생태계&nbsp;회복&nbsp;및&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;홍제천,&nbsp;불광천을&nbsp;자연형&nbsp;하천으로&nbsp;되살리기&nbsp;위해&nbsp;수변&nbsp;생태계를&nbsp;복원하고&nbsp;개선하여&nbsp;사람과&nbsp;자연이&nbsp;더불어&nbsp;살아갈&nbsp;수&nbsp;있도록&nbsp;친수공간&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;둘레길&nbsp;정비&nbsp;및&nbsp;숲속&nbsp;문화공간,&nbsp;친환경&nbsp;휴식공간&nbsp;조성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자연환경과&nbsp;더불어&nbsp;주민들이&nbsp;자연을&nbsp;친숙하게&nbsp;이용할&nbsp;수&nbsp;있도록&nbsp;친환경&nbsp;문화공간&nbsp;및&nbsp;휴식공간을&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;‘우리&nbsp;마을&nbsp;햇빛발전소’&nbsp;재생에너지&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기후위기에&nbsp;대응하기&nbsp;위하여&nbsp;재생에너지&nbsp;사용을&nbsp;위한&nbsp;우리&nbsp;마을&nbsp;햇빛발전소를&nbsp;운영하여&nbsp;서울시&nbsp;자치구&nbsp;최초로&nbsp;태양광&nbsp;에너지를&nbsp;활용한&nbsp;이익을&nbsp;공공으로&nbsp;환수하여&nbsp;복지에&nbsp;재투자하는&nbsp;선순환의&nbsp;구조&nbsp;구축<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;상위&nbsp;우선순위<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시비,&nbsp;구비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	아이와 어르신이 함께 웃는 서대문</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="아이와 어르신이 함께 웃는 서대문">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;서울시와&nbsp;긴밀한&nbsp;네트워크를&nbsp;기반으로&nbsp;신속한&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;영·유아&nbsp;보육&nbsp;기관&nbsp;건강&nbsp;돌봄&nbsp;맞춤형&nbsp;지원(에어컨&nbsp;청소,&nbsp;냉·난방비&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보육&nbsp;기관에&nbsp;다니는&nbsp;영·유아기&nbsp;아이들의&nbsp;건강과&nbsp;직결되는&nbsp;에어컨&nbsp;필터&nbsp;청소,&nbsp;냉·난방비를&nbsp;연중&nbsp;지원하여&nbsp;아이들이&nbsp;건강하게&nbsp;성장할&nbsp;수&nbsp;있는&nbsp;토대&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;아이들&nbsp;통학&nbsp;안전을&nbsp;위한&nbsp;‘통학안전지원센터’&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전국&nbsp;최초로&nbsp;통학안전지원센터를&nbsp;설치하여&nbsp;아이들의&nbsp;통학에&nbsp;관한&nbsp;어렴움을&nbsp;최소화하고&nbsp;운전원&nbsp;교육&nbsp;및&nbsp;소개를&nbsp;통하여&nbsp;불평등한&nbsp;관계가&nbsp;발생하지&nbsp;않도록&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;서대문구가&nbsp;빈틈없이&nbsp;돌보는&nbsp;‘틈새돌봄지원센터’&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;맞벌이&nbsp;부부,&nbsp;야간&nbsp;긴급&nbsp;상황&nbsp;발생&nbsp;등&nbsp;응급&nbsp;상황에서도&nbsp;돌봄의&nbsp;공백이&nbsp;생기지&nbsp;않도록&nbsp;틈새까지&nbsp;막을&nbsp;수&nbsp;있는&nbsp;돌봄&nbsp;지원센터&nbsp;설립으로&nbsp;돌봄&nbsp;사각지대&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;경로당&nbsp;지원&nbsp;확대(냉난방비·양곡비·시설개선비&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역별&nbsp;경로당의&nbsp;노후&nbsp;시설&nbsp;개선을&nbsp;포함하여&nbsp;실질적으로&nbsp;어르신들이&nbsp;생활하는데&nbsp;필요한&nbsp;부분에&nbsp;대한&nbsp;예산을&nbsp;확대&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;상위&nbsp;우선순위<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	무너진 지방자치·얼룩진 청렴, 정상화되는 서대문</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="무너진 지방자치·얼룩진 청렴, 정상화되는 서대문">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지난&nbsp;4년간&nbsp;풀뿌리&nbsp;민주주의&nbsp;주민자치회가&nbsp;없어지고&nbsp;의회와의&nbsp;갈등으로&nbsp;준예산이라는&nbsp;어처구니없는&nbsp;예산&nbsp;공백&nbsp;사태가&nbsp;발생하였으며&nbsp;구청&nbsp;산하&nbsp;공단에서는&nbsp;노동&nbsp;탄압과&nbsp;함께&nbsp;방수&nbsp;공사&nbsp;비리&nbsp;혐의가&nbsp;포착되었으며,&nbsp;구청&nbsp;보좌관의&nbsp;사기&nbsp;혐의,&nbsp;문화원장의&nbsp;재개발&nbsp;관여&nbsp;의심&nbsp;등&nbsp;무너진&nbsp;지방자치와&nbsp;청렴의&nbsp;정상화<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;풀뿌리&nbsp;자치의&nbsp;실천&nbsp;‘주민자치회’&nbsp;완전&nbsp;복원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민자치회를&nbsp;완전히&nbsp;복원하여&nbsp;주민의&nbsp;자율성을&nbsp;보장하며&nbsp;예산집행의&nbsp;투명성을&nbsp;강화하여&nbsp;주민이&nbsp;주인인&nbsp;주민주권&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;스스로&nbsp;결정하는&nbsp;‘주민참여예산제’&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방재정법&nbsp;제39조·제46조에&nbsp;근거해,&nbsp;예산편성&nbsp;과정에&nbsp;주민이&nbsp;직접&nbsp;참여해&nbsp;사업을&nbsp;제안하고&nbsp;의견을&nbsp;반영하는&nbsp;제도를&nbsp;확대하여&nbsp;예산편성&nbsp;과정에서&nbsp;주민의&nbsp;참여를&nbsp;보장하고&nbsp;예산의&nbsp;투명성을&nbsp;증대하도록&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;주민이&nbsp;참여하는&nbsp;‘동장직선제’&nbsp;시범&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행정의&nbsp;주권을&nbsp;주민에&nbsp;돌려준다는&nbsp;강력한&nbsp;의지의&nbsp;표현으로&nbsp;주민&nbsp;책임성&nbsp;강화,&nbsp;주민참여&nbsp;확대,&nbsp;행정의&nbsp;민주성&nbsp;제고를&nbsp;위하여&nbsp;동작직선제&nbsp;시범&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;측근&nbsp;비리&nbsp;방지를&nbsp;위한&nbsp;독립&nbsp;‘윤리감찰관제’&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민에게&nbsp;위임받은&nbsp;권력은&nbsp;오직&nbsp;주민을&nbsp;위해&nbsp;사용해야&nbsp;함에도&nbsp;개인의&nbsp;권력으로&nbsp;사유화하고&nbsp;그&nbsp;주변&nbsp;사람들의&nbsp;비리가&nbsp;발생하는&nbsp;구조로서&nbsp;이러한&nbsp;비리&nbsp;발생을&nbsp;차단하기&nbsp;위하여&nbsp;독립된&nbsp;윤리감찰관제를&nbsp;신설하여&nbsp;권력이&nbsp;오로지&nbsp;주민에게&nbsp;있음을&nbsp;제도로&nbsp;개선<br>&nbsp;<br>&nbsp;□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;상위&nbsp;우선순위<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

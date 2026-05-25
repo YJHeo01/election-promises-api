@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이종욱 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	500+100만 호남특별시 건설!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="500+100만 호남특별시 건설!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전남광주통합을&nbsp;넘어서&nbsp;호남대통합&nbsp;추진&nbsp;(전남광주통합특별시+전북특별자치도까지&nbsp;포함)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;7월1일&nbsp;전남광주통합특별시&nbsp;출범,&nbsp;320만명&nbsp;규모로&nbsp;확대됨<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수도권&nbsp;일극체제에&nbsp;맞서&nbsp;지방균형&nbsp;발전의&nbsp;선도적&nbsp;모델&nbsp;창출이라는&nbsp;의도에&nbsp;맞게&nbsp;인구&nbsp;규모,&nbsp;경제&nbsp;규모를&nbsp;더욱&nbsp;확대해야&nbsp;함<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반면&nbsp;대전,&nbsp;충남권&nbsp;통합이&nbsp;추진되면서&nbsp;호남권으로&nbsp;분류되는&nbsp;전북특별자치도는&nbsp;고립화&nbsp;될&nbsp;우려가&nbsp;커지고&nbsp;있음.&nbsp;<br><br>□&nbsp;이행방법&nbsp;및&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;1차로&nbsp;전남광주통합특별시&nbsp;출범,&nbsp;2차로&nbsp;전북특별자치도까지&nbsp;포함되는&nbsp;행정통합을&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;호남대통합&nbsp;추진을&nbsp;위한&nbsp;실무기구를&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2029년까지의&nbsp;구체적&nbsp;실행&nbsp;로드맵을&nbsp;세우고,&nbsp;2030년&nbsp;10회&nbsp;지방선거&nbsp;전까지&nbsp;통합&nbsp;절차&nbsp;완료</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	20조 시민배당·투자위원회 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="20조 시민배당·투자위원회 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;이재명정부가&nbsp;약속한&nbsp;전남광주통합과&nbsp;4년간&nbsp;5조,&nbsp;총&nbsp;20조&nbsp;규모&nbsp;특별교부금&nbsp;활용&nbsp;방안을&nbsp;시민이&nbsp;직접&nbsp;결정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래&nbsp;산업에&nbsp;대한&nbsp;투자&nbsp;방향과&nbsp;가장&nbsp;시급한&nbsp;해결&nbsp;과제&nbsp;등을&nbsp;결정하는&nbsp;과정에서&nbsp;시민들이&nbsp;직접&nbsp;결정함<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;20조&nbsp;시민배당·투자위원회를&nbsp;설치하고&nbsp;주요&nbsp;정책결정과&nbsp;집행에&nbsp;시민이&nbsp;직접&nbsp;참여하는&nbsp;시민공동정부&nbsp;모델을&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;블록체인&nbsp;기반&nbsp;온라인&nbsp;투표&nbsp;시스템을&nbsp;도입하여&nbsp;시의&nbsp;주요&nbsp;정책&nbsp;결정과&nbsp;집행과정에서&nbsp;시민이&nbsp;직접&nbsp;참여하는&nbsp;직접&nbsp;민주주의&nbsp;실현</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	RE100 반도체·피지컬 AI 산업 유치, 중소벤처 창업지원기금 10조 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="RE100 반도체·피지컬 AI 산업 유치, 중소벤처 창업지원기금 10조 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;용인&nbsp;삼성반도체&nbsp;국가산단을&nbsp;전남광주&nbsp;동부권과&nbsp;서부권으로&nbsp;분산&nbsp;배치하여&nbsp;대한민국&nbsp;초격차&nbsp;반도체&nbsp;산업을&nbsp;선도<br>&nbsp;&nbsp;○&nbsp;전남광주를&nbsp;피지컬AI의&nbsp;세계적&nbsp;메카로&nbsp;조성&nbsp;&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;반도체&nbsp;산업&nbsp;특성상&nbsp;물과&nbsp;전기&nbsp;공급이&nbsp;풍부한&nbsp;전남에&nbsp;반도체&nbsp;산단을&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;송전탑&nbsp;건설을&nbsp;통한&nbsp;수도권&nbsp;전기&nbsp;공급&nbsp;계획은&nbsp;자연과&nbsp;마을&nbsp;문명을&nbsp;파괴하는&nbsp;범죄와&nbsp;다름&nbsp;없음<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘지산지소’원칙에&nbsp;맞게&nbsp;호남에&nbsp;반도체&nbsp;산업을&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전남&nbsp;동부권과&nbsp;서부권에&nbsp;RE100&nbsp;산단&nbsp;조성&nbsp;관련&nbsp;산업을&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;피지컬AI<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전남광주의&nbsp;이미&nbsp;조성된&nbsp;AI&nbsp;산업&nbsp;기반&nbsp;바탕으로&nbsp;첨단&nbsp;제조업을&nbsp;결합하여&nbsp;로봇,&nbsp;드론,&nbsp;UAM(Urban&nbsp;Air&nbsp;Mobility,&nbsp;도심항공교통)&nbsp;등&nbsp;피지컬AI&nbsp;산업의&nbsp;세계적&nbsp;중심지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관련&nbsp;중소벤처&nbsp;창업기금&nbsp;10조&nbsp;조성<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;전남광주통합&nbsp;특별교부금&nbsp;20조에서&nbsp;일부&nbsp;출연&nbsp;+&nbsp;국민성장펀드&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	신생아 1억 미래펀드 적립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="신생아 1억 미래펀드 적립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;신생아&nbsp;미래펀드는&nbsp;출생&nbsp;정책이&nbsp;아닌&nbsp;혁명적&nbsp;보편&nbsp;복지&nbsp;정책으로,&nbsp;특별시에서&nbsp;태어났다는&nbsp;것&nbsp;만으로도&nbsp;행복감을&nbsp;주는&nbsp;특별시로&nbsp;변화<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;신생아&nbsp;1명이&nbsp;태어날&nbsp;때&nbsp;일정액을&nbsp;적립,&nbsp;18세&nbsp;청년으로&nbsp;사회에&nbsp;나갈&nbsp;깨&nbsp;최소&nbsp;1억을&nbsp;청년&nbsp;도전&nbsp;자금으로&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일정액을&nbsp;적립하여&nbsp;수익률이&nbsp;보장된&nbsp;연기금에&nbsp;18년간&nbsp;투자&nbsp;(현재&nbsp;연기금은&nbsp;&nbsp;6~7%의&nbsp;안정적인&nbsp;수익을&nbsp;올리고&nbsp;있음)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;펀드&nbsp;기금을&nbsp;기반으로&nbsp;18세&nbsp;청년으로&nbsp;사회에&nbsp;나갈&nbsp;때&nbsp;최소&nbsp;1억을&nbsp;청년&nbsp;도전&nbsp;자금으로&nbsp;보장<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정부가&nbsp;약속한&nbsp;20조&nbsp;인센티브의&nbsp;10%&nbsp;정도&nbsp;연&nbsp;5천억&nbsp;원을&nbsp;장기적,&nbsp;전략적&nbsp;관점으로&nbsp;미래를&nbsp;위해&nbsp;적립,&nbsp;투자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	호남 1시간 생활권 광역 교통망 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="호남 1시간 생활권 광역 교통망 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역경쟁력&nbsp;강화를&nbsp;위한&nbsp;호남권&nbsp;광역교통망의&nbsp;유기적&nbsp;연계는&nbsp;미룰&nbsp;수&nbsp;없는&nbsp;과제,&nbsp;전남광주과&nbsp;거대&nbsp;경제권&nbsp;도약을&nbsp;위해&nbsp;단절된&nbsp;교통망의&nbsp;물리적&nbsp;연계가&nbsp;반드시&nbsp;필요<br>&nbsp;&nbsp;○&nbsp;산업·교통&nbsp;거점&nbsp;간&nbsp;연계를&nbsp;강화해&nbsp;1시간&nbsp;광역&nbsp;교통망을&nbsp;완성하고,&nbsp;생활권&nbsp;통합을&nbsp;촉진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광주-나주(화순)-목포,&nbsp;광주-순천-여수-광양,&nbsp;광주-전주-익산-군산을&nbsp;잇는&nbsp;호남권&nbsp;광역철도망을&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광주-완도&nbsp;고속도로&nbsp;개통시기를&nbsp;앞당기고,&nbsp;광주-영암-진도,&nbsp;고흥-광주-전주-완주,&nbsp;무안공항-나주-순천&nbsp;고속도로를&nbsp;우선&nbsp;추진하여&nbsp;호남&nbsp;메가시키&nbsp;고속도로망을&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사는&nbsp;곳에서&nbsp;철도와&nbsp;고속도로&nbsp;접근을&nbsp;30분&nbsp;이내로&nbsp;완성하고,&nbsp;복합환승체계를&nbsp;구축,&nbsp;광역철도와&nbsp;버스,&nbsp;지하철&nbsp;등&nbsp;대중교통을&nbsp;환승&nbsp;시간&nbsp;제한&nbsp;없는&nbsp;무료&nbsp;환승을&nbsp;실현</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

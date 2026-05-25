@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김희수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	“바람연금과 함께, 인구감소 대응 총력 추진!”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="“바람연금과 함께, 인구감소 대응 총력 추진!”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;바람연금과&nbsp;함께한&nbsp;지방소멸·인구감소&nbsp;대응&nbsp;총력&nbsp;추진<br><br>□&nbsp;이행방법<br>&lt;&nbsp;신재생&nbsp;에너지&nbsp;분야&nbsp;><br>&nbsp;&nbsp;○&nbsp;3.6GW&nbsp;대규모&nbsp;해상풍력&nbsp;집적화단지&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;전&nbsp;군민&nbsp;대상&nbsp;“바람연금·이익공유제”&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;진도항&nbsp;서남해&nbsp;해상풍력&nbsp;운영·정비&nbsp;(O&M)거점항&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;지역경제&nbsp;활성화의&nbsp;시작&nbsp;“345kv급&nbsp;변전소&nbsp;신설”<br>&nbsp;&nbsp;○&nbsp;지역경제의&nbsp;새바람&nbsp;“해상풍력&nbsp;배후도시”&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;해상풍력&nbsp;특화농공단지&nbsp;조성&nbsp;및&nbsp;단계적&nbsp;확대(군내면)<br>&nbsp;&nbsp;○&nbsp;햇빛으로&nbsp;만드는&nbsp;공공주도형&nbsp;신재생&nbsp;에너지&nbsp;대전환<br>&nbsp;&nbsp;○&nbsp;군민과&nbsp;함께&nbsp;만드는&nbsp;“진도형&nbsp;햇빛소득마을”&nbsp;조성<br>&lt;&nbsp;인구감소&nbsp;대응&nbsp;분야&nbsp;><br>&nbsp;&nbsp;○&nbsp;청년에게&nbsp;집을,&nbsp;지역에&nbsp;활력을&nbsp;“공공임대주택&nbsp;확대&nbsp;공급”<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;정착&nbsp;패키지(일자리·주거·소득)&nbsp;지원&nbsp;정책&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;부부&nbsp;주거환경&nbsp;개선&nbsp;“보배섬&nbsp;신혼&nbsp;보금자리&nbsp;사업”&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;농어촌&nbsp;기본소득&nbsp;시범사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;국제결혼&nbsp;지원조례&nbsp;제정&nbsp;추진&nbsp;(결혼비용,&nbsp;주거지원&nbsp;등)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비,&nbsp;민자&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	살기좋은 농어촌 조성! 풍요로운 미래실현!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="살기좋은 농어촌 조성! 풍요로운 미래실현!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;살기&nbsp;좋은&nbsp;농어촌&nbsp;조성!&nbsp;풍요로운&nbsp;미래&nbsp;실현!<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;매년&nbsp;전&nbsp;군민&nbsp;생활안정지원금&nbsp;지급<br>&nbsp;&nbsp;○&nbsp;진도군&nbsp;서망항&nbsp;국가어항&nbsp;확장<br>&nbsp;&nbsp;○&nbsp;물김&nbsp;1번지,&nbsp;김산업&nbsp;중심지&nbsp;도약&nbsp;(해조류&nbsp;전담부서&nbsp;신설)<br>&nbsp;&nbsp;○&nbsp;지산면&nbsp;농기계&nbsp;임대사업소&nbsp;건립(총&nbsp;4개소)&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;농산물&nbsp;가격안정제&nbsp;시행&nbsp;및&nbsp;벼&nbsp;수매장려금&nbsp;확대&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;농수특산물&nbsp;통합&nbsp;물류&nbsp;센터&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;농수산물&nbsp;가공산업&nbsp;육성&nbsp;및&nbsp;해외&nbsp;판로&nbsp;개척&nbsp;(성경식품)<br>&nbsp;&nbsp;○&nbsp;전복&nbsp;가격&nbsp;안정시스템&nbsp;구축&nbsp;및&nbsp;판로&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;진도~조도&nbsp;연결&nbsp;新조도대교&nbsp;건설을&nbsp;위한&nbsp;지방도(국도)&nbsp;승격&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;영암&nbsp;~&nbsp;진도항&nbsp;고속도로&nbsp;신설&nbsp;(57km)<br>&nbsp;&nbsp;○&nbsp;해상풍력&nbsp;기회발전&nbsp;특구지정으로&nbsp;“지역경제&nbsp;대전환”&nbsp;고속철도(KTX)&nbsp;진도연장&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;군도&nbsp;17호선&nbsp;해창교&nbsp;건설&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;풍수해로&nbsp;군민을&nbsp;지키는&nbsp;“소포지구&nbsp;생활권&nbsp;정비사업”&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	대한민국 대표 문화도시 발돋음</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="대한민국 대표 문화도시 발돋음">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;역사와&nbsp;예술,&nbsp;자연과&nbsp;관광이&nbsp;어우러진&nbsp;대한민국&nbsp;대표&nbsp;문화도시&nbsp;도약!<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;남도&nbsp;어울림&nbsp;진도&nbsp;민속예술&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;문화·관광·예술을&nbsp;하나로&nbsp;가칭&nbsp;“진도문화관광예술재단”&nbsp;설립<br>&nbsp;&nbsp;○&nbsp;스포츠&nbsp;휴양·관광&nbsp;클러스터&nbsp;결합한&nbsp;아리랑베이스볼타운&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;공공부지&nbsp;활용한&nbsp;파크골프장&nbsp;확대&nbsp;조성&nbsp;27홀·36홀<br>&nbsp;&nbsp;○&nbsp;체류형&nbsp;관광&nbsp;활성화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;건강증진과&nbsp;생활체육&nbsp;활성화,&nbsp;공공형&nbsp;골프&nbsp;연습장&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;자연·문화·휴식이&nbsp;어우러진&nbsp;동외호수공원·편백숲&nbsp;명소화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;상·장례문화&nbsp;유네스코&nbsp;인류무형유산&nbsp;등재&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	사각지대 없는 진도형 맞춤복지·의료서비스 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="사각지대 없는 진도형 맞춤복지·의료서비스 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;아이부터&nbsp;어른까지&nbsp;사각지대&nbsp;없는&nbsp;진도형&nbsp;맞춤복지&nbsp;의료서비스&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전남병원&nbsp;투석환자&nbsp;확대운영(40명&nbsp;->&nbsp;50명)<br>&nbsp;&nbsp;○&nbsp;찾아가는&nbsp;물리치료실,&nbsp;주치의제&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;보건·복지인력&nbsp;처우개선으로&nbsp;지속&nbsp;가능한&nbsp;근무환경&nbsp;확립<br>&nbsp;&nbsp;○&nbsp;생명을&nbsp;살리는&nbsp;“복지&nbsp;사각지대&nbsp;ZERO&nbsp;시스템”&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;장애인복지관&nbsp;식당&nbsp;증축으로&nbsp;안전하고&nbsp;편안한&nbsp;복지환경&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;“행복한&nbsp;다문화&nbsp;가족”&nbsp;맞춤형&nbsp;지원&nbsp;정책&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;“보배섬&nbsp;다문화&nbsp;강사&nbsp;아카데미”&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;이주여성&nbsp;건강검진비&nbsp;지원&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	전 군민이 화합하고 참여하는 군정 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="전 군민이 화합하고 참여하는 군정 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전&nbsp;군민이&nbsp;함께&nbsp;참여하고&nbsp;화합하는&nbsp;열린&nbsp;군정&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;열린행정을&nbsp;위한&nbsp;읍면&nbsp;순회&nbsp;이동&nbsp;집무실&nbsp;정례화<br>&nbsp;&nbsp;○&nbsp;군청과&nbsp;마을회관을&nbsp;실시간으로&nbsp;연결하는&nbsp;영상소통방&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;공무원노동조합&nbsp;합법적&nbsp;활동&nbsp;보장&nbsp;등&nbsp;소통과&nbsp;상생&nbsp;행정&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;신재생&nbsp;에너지(해상풍력&nbsp;등)&nbsp;전담부서&nbsp;신설&nbsp;및&nbsp;확대&nbsp;개편<br>&nbsp;&nbsp;○&nbsp;청년,&nbsp;지역인재&nbsp;등을&nbsp;활용한&nbsp;홍보대사&nbsp;육성&nbsp;및&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;“군민이&nbsp;주인”&nbsp;참여형&nbsp;군정&nbsp;혁신&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1일&nbsp;군수,&nbsp;공무원&nbsp;체험제&nbsp;정례&nbsp;운영(매월&nbsp;1~2명&nbsp;공개모집)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정례조회,&nbsp;회의&nbsp;등을&nbsp;주민참여,&nbsp;공개형으로&nbsp;전환,&nbsp;투명행정,&nbsp;열린행정&nbsp;실현<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비&nbsp;등</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

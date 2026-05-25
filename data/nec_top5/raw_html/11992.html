@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;백경현 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	구리토평한강 스마트 도시 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="구리토평한강 스마트 도시 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>구리시&nbsp;토평동&nbsp;일원등에&nbsp;최첨단&nbsp;친환경&nbsp;‘스마트그린시티’&nbsp;조성을&nbsp;<br>통해&nbsp;문화.사람.자연이&nbsp;조화를&nbsp;이루는&nbsp;살기좋은&nbsp;도시건설<br>(83만평,&nbsp;22,000&nbsp;세대)<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;택지개발지구&nbsp;지정을&nbsp;통한&nbsp;공공&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;2023,11,15&nbsp;&nbsp;:&nbsp;신규택지&nbsp;후보지&nbsp;발표&nbsp;(국토부)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;지구지정&nbsp;및&nbsp;사업&nbsp;인정의제에&nbsp;관한&nbsp;주민등&nbsp;의견청취<br>&nbsp;&nbsp;○&nbsp;2024,03,07&nbsp;&nbsp;:&nbsp;구리시&nbsp;-&nbsp;LH간&nbsp;개발사업&nbsp;특화발전을&nbsp;위한&nbsp;공동&nbsp;업무협약<br>&nbsp;&nbsp;○&nbsp;2024,06,17&nbsp;&nbsp;:&nbsp;컨셉마스터플랜&nbsp;및&nbsp;기본계획수립&nbsp;용역착수<br>&nbsp;&nbsp;○&nbsp;2025,12,31&nbsp;&nbsp;:&nbsp;구리토평2&nbsp;공공주택지구&nbsp;지정<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;지구계획수립&nbsp;및&nbsp;보상절차&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2029&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;조성공사&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;2034&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;사업준공<br><br>□&nbsp;이행기간:&nbsp;&nbsp;‘2026&nbsp;~&nbsp;2034년<br><br>□&nbsp;재원조달방안&nbsp;등<br>사업주관인&nbsp;LH의&nbsp;사업부지&nbsp;개발후&nbsp;토지분양등을&nbsp;통한&nbsp;재원조달&nbsp;<br>구리시의&nbsp;참여로&nbsp;구리시의&nbsp;요구사항&nbsp;적극반영</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	구리를 서울로 편입추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="구리를 서울로 편입추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>구리시와&nbsp;서울특별시의&nbsp;주민생활권과&nbsp;행정구역&nbsp;불일치를&nbsp;해소하고,&nbsp;메가시티&nbsp;서울을&nbsp;통한&nbsp;하나의&nbsp;생활권,&nbsp;상생의&nbsp;경제권,&nbsp;지속가능한&nbsp;미래도시&nbsp;구리시의&nbsp;비전을&nbsp;실현&nbsp;함으로써&nbsp;자족도시로의&nbsp;전환을&nbsp;목표로&nbsp;하고&nbsp;있음.<br><br>□&nbsp;이행방법&nbsp;:&nbsp;지방자치법&nbsp;제5조에&nbsp;따라<br>&nbsp;&nbsp;1,&nbsp;구리시의회&nbsp;의견청취<br>&nbsp;&nbsp;2,&nbsp;구리시가&nbsp;경기도와&nbsp;서울시에&nbsp;관할구역&nbsp;변경건의<br>&nbsp;&nbsp;3,&nbsp;경기도&nbsp;및&nbsp;서울시&nbsp;의회의&nbsp;의견청취<br>&nbsp;&nbsp;4,&nbsp;경기도&nbsp;및&nbsp;서울시에서&nbsp;행정안전부&nbsp;에&nbsp;관할구역&nbsp;변경건의<br>&nbsp;&nbsp;5,&nbsp;행정안전부&nbsp;심사후&nbsp;주민투표여부&nbsp;결정<br>&nbsp;&nbsp;6,&nbsp;행정안전부&nbsp;법률안&nbsp;입법예고&nbsp;및&nbsp;법제처&nbsp;심의<br>&nbsp;&nbsp;7,&nbsp;국회&nbsp;법률안&nbsp;심의&nbsp;의결&nbsp;⇒&nbsp;국무회의심의&nbsp;⇒&nbsp;법률안제정,&nbsp;공포&nbsp;&nbsp;<br>&nbsp;<br>&nbsp;&nbsp;○&nbsp;2023,&nbsp;11,&nbsp;02&nbsp;&nbsp;:&nbsp;서울시&nbsp;편입에&nbsp;대한&nbsp;구리시&nbsp;입장문발표<br>&nbsp;&nbsp;○&nbsp;2023,&nbsp;11,&nbsp;13&nbsp;&nbsp;;&nbsp;구리시장(배경현)&nbsp;과&nbsp;서울시장(오세훈)&nbsp;면담<br>&nbsp;&nbsp;○&nbsp;2023,&nbsp;11,&nbsp;29&nbsp;&nbsp;;&nbsp;서울-구리시&nbsp;공동연구반&nbsp;구성(4차회의개최)<br>&nbsp;&nbsp;○&nbsp;2024,&nbsp;02,&nbsp;07&nbsp;&nbsp;:&nbsp;구리가&nbsp;서울되는&nbsp;범시민추진위원회&nbsp;발족<br>&nbsp;&nbsp;○&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(전체회원수&nbsp;:&nbsp;2,172명)<br>&nbsp;&nbsp;○&nbsp;2024,&nbsp;07,&nbsp;25&nbsp;&nbsp;:&nbsp;구리시&nbsp;서울편입&nbsp;대시민여론조사&nbsp;실시(찬성&nbsp;66.9%)<br>&nbsp;&nbsp;○&nbsp;2025,&nbsp;12,&nbsp;29&nbsp;&nbsp;:&nbsp;구리시의회&nbsp;경기도와&nbsp;서울시간&nbsp;관할구역&nbsp;변경안&nbsp;시의회&nbsp;의견제시(안)&nbsp;원안가결<br>&nbsp;&nbsp;○&nbsp;2026,&nbsp;01&nbsp;~&nbsp;현재&nbsp;:&nbsp;구리시&nbsp;↔&nbsp;경기도,&nbsp;서울시&nbsp;실무협의추진<br><br>□&nbsp;이행기간&nbsp;:&nbsp;&nbsp;&nbsp;2023,&nbsp;11&nbsp;~&nbsp;현재&nbsp;추진중<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;:&nbsp;재원조달&nbsp;해당없음</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	GTX-B  노선 갈매역 정차</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="GTX-B  노선 갈매역 정차">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>GTX-B노선&nbsp;갈매역&nbsp;정차를&nbsp;통해&nbsp;갈매지역&nbsp;주민들의&nbsp;출퇴근&nbsp;교통난을&nbsp;해소&nbsp;및&nbsp;교통복지향상<br><br>□&nbsp;이행방법<br>추진기관인&nbsp;국토부&nbsp;및&nbsp;민간사업자&nbsp;와의&nbsp;협의를&nbsp;통한&nbsp;요구사항&nbsp;반영.&nbsp;<br>손실보전방안&nbsp;마련,&nbsp;갈매역&nbsp;정차의&nbsp;당위성&nbsp;적극&nbsp;설득<br>&nbsp;&nbsp;○&nbsp;2023,&nbsp;09&nbsp;:&nbsp;GTX-B&nbsp;환경영향평가&nbsp;주민설명회&nbsp;및&nbsp;공청회&nbsp;개최<br>&nbsp;&nbsp;○&nbsp;2024,&nbsp;03&nbsp;;&nbsp;구리시&nbsp;철도망&nbsp;확충을&nbsp;위한&nbsp;사전타당성조사&nbsp;용역&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;2024,&nbsp;06&nbsp;:&nbsp;GTX-B&nbsp;갈매역정차&nbsp;타당성조사&nbsp;결과&nbsp;국토부&nbsp;제출<br>&nbsp;&nbsp;○&nbsp;2025,&nbsp;02&nbsp;:&nbsp;타당성&nbsp;검증용역착수&nbsp;(국가철도&nbsp;공단)<br>&nbsp;&nbsp;○&nbsp;2025,&nbsp;12&nbsp;:&nbsp;국토부&nbsp;타당성&nbsp;검증결과회신&nbsp;(타당성부족)&nbsp;<br>&nbsp;&nbsp;○&nbsp;2026,&nbsp;03&nbsp;:&nbsp;GTX-B&nbsp;갈매역추가정차&nbsp;대응전략&nbsp;수립용역&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;2026,&nbsp;04&nbsp;:&nbsp;갈매역&nbsp;추가정차&nbsp;B/C&nbsp;재검토<br>&nbsp;&nbsp;○&nbsp;2026,&nbsp;06&nbsp;:&nbsp;승강장&nbsp;공용에&nbsp;대한&nbsp;운임손실보전방안등&nbsp;민간사업자와&nbsp;지속협의<br><br>□&nbsp;이행기간&nbsp;:&nbsp;&nbsp;’2022&nbsp;~&nbsp;2030&nbsp;년<br><br>□&nbsp;재원조달방안&nbsp;등<br>전액시비&nbsp;또는&nbsp;광역교통비&nbsp;부담기관인&nbsp;LH&nbsp;의&nbsp;시설비&nbsp;부담</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	지하철6호선 구리시 연장</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="지하철6호선 구리시 연장">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>주변&nbsp;신도시&nbsp;개발로&nbsp;발생되는&nbsp;교통난을&nbsp;해소하고&nbsp;서울&nbsp;접근성&nbsp;개선을&nbsp;통한&nbsp;시민의&nbsp;교통복지&nbsp;향상을&nbsp;위해&nbsp;지하철6호선의&nbsp;구리시&nbsp;연장을&nbsp;추진&nbsp;(신내동&nbsp;-&nbsp;동구릉역-&nbsp;교문사거리-토평2지구)<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;국가철도망&nbsp;구축계획에&nbsp;반영후&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2024,&nbsp;03&nbsp;:&nbsp;구리시&nbsp;철도망&nbsp;확충을&nbsp;위한&nbsp;사전타당성&nbsp;용역착수<br>&nbsp;&nbsp;○&nbsp;2024,&nbsp;11&nbsp;:&nbsp;제5차&nbsp;대도시권&nbsp;광역교통시행계획&nbsp;신규사업반영건의<br>&nbsp;&nbsp;○&nbsp;2025,&nbsp;12&nbsp;:&nbsp;토평2지구&nbsp;광역교통개선대책&nbsp;반영협조&nbsp;요청&nbsp;(국토교통부,&nbsp;LH)&nbsp;<br>&nbsp;&nbsp;○&nbsp;2026,&nbsp;상반기&nbsp;:&nbsp;6호선연장&nbsp;당위성&nbsp;설명&nbsp;등&nbsp;관계기관&nbsp;지속협의&nbsp;<br><br>□&nbsp;이행기간&nbsp;:&nbsp;&nbsp;2022&nbsp;~&nbsp;2032<br><br>□&nbsp;재원조달방안&nbsp;등<br>광역교통&nbsp;사업추진시&nbsp;국비&nbsp;70%,&nbsp;지방비&nbsp;30%&nbsp;부담<br>(그중&nbsp;도비&nbsp;15%,&nbsp;시비&nbsp;15%)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	첨단순환트램 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="첨단순환트램 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>주변&nbsp;신도시&nbsp;개발로&nbsp;발생되는&nbsp;교통난을&nbsp;해소하고&nbsp;서울&nbsp;접근성&nbsp;개선을&nbsp;통한&nbsp;시민의&nbsp;교통복지&nbsp;향상과&nbsp;지역의&nbsp;균형발전&nbsp;도모<br>&nbsp;&nbsp;-&nbsp;1단계&nbsp;:&nbsp;구리역&nbsp;~&nbsp;광나루역&nbsp;(9.36㎞)<br>&nbsp;&nbsp;-&nbsp;2단계&nbsp;:&nbsp;신내역&nbsp;~&nbsp;사노동역&nbsp;:&nbsp;면목선&nbsp;연장&nbsp;연계<br>&nbsp;&nbsp;-&nbsp;3단계&nbsp;:&nbsp;구리역&nbsp;~&nbsp;사노동역&nbsp;(3.81㎞)<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;경기도&nbsp;도시철도망&nbsp;구축계획에&nbsp;반영후&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2023,&nbsp;04&nbsp;:&nbsp;사전타당성&nbsp;용역&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;2025,&nbsp;01&nbsp;:&nbsp;토평2지구&nbsp;광역교통대책&nbsp;수립시&nbsp;트램사업반영&nbsp;협의<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(구리시-LH)&nbsp;<br>&nbsp;&nbsp;○&nbsp;2025,&nbsp;05&nbsp;:&nbsp;면목선&nbsp;구리연장을&nbsp;고려한&nbsp;첨단순환트램&nbsp;노선(안)&nbsp;확정<br>&nbsp;&nbsp;○&nbsp;2025,&nbsp;06&nbsp;:&nbsp;국토부협의&nbsp;관련&nbsp;사전타당성&nbsp;조사결과&nbsp;제출&nbsp;(LH)<br>&nbsp;&nbsp;○&nbsp;2025,&nbsp;12&nbsp;:&nbsp;토평2지구&nbsp;광역교통개선대책&nbsp;반영&nbsp;협조요청<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(국토교통부,&nbsp;LH)<br>&nbsp;&nbsp;○&nbsp;2026,&nbsp;상반기&nbsp;:&nbsp;제2차&nbsp;경기도&nbsp;도시철도망&nbsp;구축계획&nbsp;반영&nbsp;건의<br><br>□&nbsp;이행기간&nbsp;:&nbsp;&nbsp;2022&nbsp;~&nbsp;2032<br><br>□&nbsp;재원조달방안&nbsp;등<br>광역교통&nbsp;사업추진시&nbsp;국비&nbsp;60%,&nbsp;지방비&nbsp;40%&nbsp;부담</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

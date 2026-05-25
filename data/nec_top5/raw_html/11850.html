@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;주낙영 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	관광객 6천만명 시대, 세계 100대 관광도시 도약</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="관광객 6천만명 시대, 세계 100대 관광도시 도약">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신라왕경&nbsp;복원과&nbsp;세계유산&nbsp;활용을&nbsp;통해&nbsp;세계적인&nbsp;역사문화관광도시로&nbsp;도약<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;포스트&nbsp;APEC&nbsp;프로젝트를&nbsp;기반으로&nbsp;국제관광·문화·평화&nbsp;중심도시&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체류형&nbsp;관광도시&nbsp;조성으로&nbsp;지역경제&nbsp;활성화와&nbsp;시민소득&nbsp;증대<br><br>□&nbsp;이행방법<br><br>○&nbsp;관광·문화&nbsp;인프라&nbsp;확충&nbsp;및&nbsp;세계유산&nbsp;관광&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신라왕경&nbsp;14개&nbsp;핵심유적&nbsp;복원·정비&nbsp;조기&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신라문화관광단지(신라역사문화대공원)&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경주&nbsp;역사문화관광&nbsp;특례시&nbsp;지정&nbsp;(국가유산청&nbsp;이전&nbsp;추진)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문무대왕릉&nbsp;성역화&nbsp;사업,&nbsp;경주읍성&nbsp;복원&nbsp;조기&nbsp;마무리<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대한민국&nbsp;역사박물관&nbsp;경주분관&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구&nbsp;경마장&nbsp;부지&nbsp;역사&nbsp;유적공원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서경주&nbsp;폴로파크&nbsp;관광단지,&nbsp;북경주&nbsp;웰니스&nbsp;관광단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동해안&nbsp;내셔널&nbsp;트레일,&nbsp;해양레저관광거점단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고운&nbsp;최치원&nbsp;선생&nbsp;기념관&nbsp;건립,&nbsp;해월&nbsp;최시형&nbsp;선생&nbsp;생가&nbsp;복원&nbsp;<br><br>○&nbsp;포스트&nbsp;APEC&nbsp;글로벌&nbsp;프로젝트&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보문관광단지&nbsp;아태지역&nbsp;거점&nbsp;국제관광단지로&nbsp;大리노베이션<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;APEC&nbsp;정상회의&nbsp;기념관&nbsp;및&nbsp;기념숲&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경주&nbsp;국제&nbsp;역사문화관광포럼&nbsp;창설·정례화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신라통일평화정원,&nbsp;한반도&nbsp;통일미래센터&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;중점&nbsp;추진,&nbsp;중장기사업은&nbsp;단계별&nbsp;추진<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전략적&nbsp;국·도비&nbsp;확보&nbsp;및&nbsp;특별법&nbsp;연계&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민자&nbsp;유치&nbsp;및&nbsp;관광기업&nbsp;투자&nbsp;확대</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	차세대 원전 및 미래차 산업의 혁신거점으로 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="차세대 원전 및 미래차 산업의 혁신거점으로 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;유치와&nbsp;산업혁신을&nbsp;통한&nbsp;양질의&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년이&nbsp;지역에&nbsp;정착할&nbsp;수&nbsp;있는&nbsp;산업&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첨단산업과&nbsp;지역대학&nbsp;연계를&nbsp;통한&nbsp;미래인재&nbsp;양성<br><br>□&nbsp;이행방법<br><br>○&nbsp;K-원자역&nbsp;에너지&nbsp;혁신클러스터&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문무대왕&nbsp;과학연구소&nbsp;2단계&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;SMR&nbsp;국가산업단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;I-SMR&nbsp;초도호기&nbsp;경주&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중수로&nbsp;해체기술연구소&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;글로벌&nbsp;원자력&nbsp;공동캠퍼스&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양성자가속기센터&nbsp;성능&nbsp;확장(100→200MeV)<br>○&nbsp;미래차&nbsp;부품&nbsp;산업&nbsp;및&nbsp;기업지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건천읍&nbsp;경제자유구역&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;안강읍&nbsp;Re100&nbsp;e-모빌리티&nbsp;전용산단&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;외동읍&nbsp;미래차&nbsp;소재부품장비&nbsp;특화단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;외동공단&nbsp;문화선도단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역대학&nbsp;미래자동차&nbsp;계약학과&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업지원&nbsp;원스톱&nbsp;종합서비스&nbsp;창구&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;데이터센터&nbsp;유치,&nbsp;시민&nbsp;AI&nbsp;센터&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;중점&nbsp;추진,&nbsp;중장기사업은&nbsp;순차&nbsp;추진<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공모사업&nbsp;및&nbsp;전략적&nbsp;국·도비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민자&nbsp;유치&nbsp;및&nbsp;세출&nbsp;구조조정을&nbsp;통한&nbsp;재원&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	미래 도시 발전 기반 구축과 동남권 허브도시로 도약</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="미래 도시 발전 기반 구축과 동남권 허브도시로 도약">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경주의&nbsp;백년대계를&nbsp;좌우할&nbsp;도시인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사통팔달&nbsp;교통망&nbsp;구축으로&nbsp;시민&nbsp;생활편의&nbsp;증진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;균형&nbsp;있는&nbsp;도시개발로&nbsp;지속가능한&nbsp;미래도시&nbsp;실현<br><br>□&nbsp;이행방법<br><br>○&nbsp;미래도시&nbsp;발전을&nbsp;위한&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경주역세권&nbsp;투자선도지구&nbsp;개발,&nbsp;복합환승센터&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(구)경주역사&nbsp;도심&nbsp;뉴타운&nbsp;건설,&nbsp;랜드마크(전망타워)&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;폐철도(80.4km)&nbsp;및&nbsp;폐역사(17개)&nbsp;리모델링<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;황성공원&nbsp;제모습&nbsp;찾기&nbsp;및&nbsp;동천~황성&nbsp;천년숲길&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;형산강&nbsp;하천환경정비사업&nbsp;추진(총&nbsp;36km&nbsp;중&nbsp;경주구간&nbsp;27km)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경주&nbsp;하수처리장&nbsp;현대화(천북)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;읍·면·동별&nbsp;주차공간&nbsp;대폭&nbsp;확충<br>○&nbsp;사통팔달&nbsp;광역교통망&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동남권&nbsp;광역&nbsp;전철망&nbsp;구축(울산-경주-대구·포항)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경주~울산&nbsp;광역철도(수소트램)&nbsp;건설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경부선~동해선&nbsp;고속도로&nbsp;연결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국도&nbsp;7호선&nbsp;확장&nbsp;등&nbsp;외동지역&nbsp;교통난&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;흥무로(동국대~동대교),&nbsp;보불로(보문단지~구정동)&nbsp;개설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강동~천북~보문&nbsp;국지도&nbsp;19호선&nbsp;확장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;안강~강동&nbsp;간&nbsp;지방도&nbsp;/&nbsp;칠평로&nbsp;확·포장<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;중점&nbsp;추진,&nbsp;광역&nbsp;SOC사업은&nbsp;단계별&nbsp;추진<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가계획&nbsp;반영을&nbsp;통한&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교부세&nbsp;확충&nbsp;및&nbsp;지방재정의&nbsp;탄력적&nbsp;운용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	온(溫, ALL)가족이 행복한 살기 좋은 복지도시 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="온(溫, ALL)가족이 행복한 살기 좋은 복지도시 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아이부터&nbsp;어르신까지&nbsp;모두가&nbsp;행복한&nbsp;시민복지&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년이&nbsp;정착하고&nbsp;머물고&nbsp;싶은&nbsp;활력도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화·체육·복지가&nbsp;어우러진&nbsp;시민행복도시&nbsp;구현<br><br>□&nbsp;이행방법<br><br>○&nbsp;생애주기별&nbsp;맞춤형&nbsp;복지&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아동친화도시&nbsp;및&nbsp;여성친화도시&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;다함께돌봄센터&nbsp;및&nbsp;공동육아나눔터&nbsp;설치&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출생통합지원센터&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;24시간&nbsp;소아과·산부인과&nbsp;병원&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공산후조리원&nbsp;등&nbsp;의료지원&nbsp;체계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;치매안심도시&nbsp;조성&nbsp;및&nbsp;노인일자리&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;무료택시·버스&nbsp;지원&nbsp;확대,&nbsp;AI&nbsp;기반&nbsp;건강관리&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;무장애도시&nbsp;조성,&nbsp;장애인가족&nbsp;복합힐링센터&nbsp;건립<br><br>○&nbsp;젊은이가&nbsp;살고&nbsp;싶은&nbsp;매력적인&nbsp;정주환경<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임대주택&nbsp;및&nbsp;공유주거&nbsp;조성&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전세자금·월세·이사비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년센터&nbsp;및&nbsp;신골든창업특구&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년예술인&nbsp;전시공간&nbsp;및&nbsp;청년감성상점&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복합문화도서관·시립미술관&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;권역별&nbsp;국민체육센터&nbsp;건립,&nbsp;파크골프장&nbsp;2배&nbsp;증설<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;중점&nbsp;추진<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전략적&nbsp;국·도비&nbsp;확보&nbsp;및&nbsp;기금&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방세수&nbsp;확충&nbsp;및&nbsp;민간&nbsp;협력사업&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	살기 좋은 농어촌 조성과 경쟁력 있는 농어업 기반 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="살기 좋은 농어촌 조성과 경쟁력 있는 농어업 기반 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첨단&nbsp;농어업&nbsp;기반&nbsp;구축과&nbsp;정주여건&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;젊은이가&nbsp;돌아오는&nbsp;활기찬&nbsp;농어촌&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌&nbsp;생활환경&nbsp;개선으로&nbsp;살기&nbsp;좋은&nbsp;정주도시&nbsp;조성<br><br>□&nbsp;이행방법<br><br>○&nbsp;농어업&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농촌협약사업(안강,&nbsp;현곡,&nbsp;내남,&nbsp;산내,&nbsp;서면...&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어촌신활력증진사업(감포·가곡·대본·연동·모곡항)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;친환경축산단지(지구)&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신농업혁신타운&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첨단기술&nbsp;보급&nbsp;확대&nbsp;스마트&nbsp;농축산업&nbsp;육성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공동영농&nbsp;혁신농업타운&nbsp;조성&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농·축·수산물&nbsp;수출&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;농·어부&nbsp;희망디딤돌&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;외국인&nbsp;계절&nbsp;근로자를&nbsp;위한&nbsp;기숙형교육관&nbsp;건립<br><br>○&nbsp;농어촌&nbsp;정주환경&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌지역&nbsp;도시가스&nbsp;공급&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌지역&nbsp;광역·지방상수도&nbsp;보급&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;하수처리장&nbsp;확장&nbsp;및&nbsp;신설(서면,&nbsp;내남,&nbsp;건대(양남)&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;풍수해&nbsp;생활권&nbsp;종합정비사업(안강,&nbsp;모아3지구,&nbsp;내남&nbsp;이조지구&nbsp;등)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;중점&nbsp;추진<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공모사업&nbsp;및&nbsp;국·도비&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방비&nbsp;투자&nbsp;및&nbsp;세출&nbsp;구조조정을&nbsp;통한&nbsp;재원&nbsp;마련</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

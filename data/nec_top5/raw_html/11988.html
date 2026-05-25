@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이응우 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	AI 첨단국방 클러스터 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="AI 첨단국방 클러스터 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;계룡시의&nbsp;지리적&nbsp;강점(3군&nbsp;본부&nbsp;소재지)을&nbsp;활용하여&nbsp;AI·지능형&nbsp;센서·로봇&nbsp;중심의&nbsp;국방산업&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;연구개발&nbsp;→&nbsp;실증&nbsp;→&nbsp;생산&nbsp;→&nbsp;사업화가&nbsp;선순환하는&nbsp;민·군·산·학&nbsp;협력&nbsp;모델&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;대한민국을&nbsp;대표하는&nbsp;첨단&nbsp;국방기술&nbsp;허브&nbsp;도시&nbsp;도약<br><br>&nbsp;□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;특화산업단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제3산단&nbsp;조성을&nbsp;통한&nbsp;AI·센서·로봇&nbsp;등&nbsp;첨단&nbsp;국방기업&nbsp;유치&nbsp;및&nbsp;생산기반&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;지식산업센터&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국방&nbsp;벤처·스타트업입주공간,&nbsp;시제품&nbsp;제작시설&nbsp;등&nbsp;공공임대형&nbsp;창업지원체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;지능형센서&nbsp;지원센터<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Spin-on(민간기술의&nbsp;국방&nbsp;도입)&nbsp;지원체계&nbsp;마련,&nbsp;시험평가&nbsp;및&nbsp;성능&nbsp;인증/실증&nbsp;수행<br>&nbsp;&nbsp;○&nbsp;융합&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대전·논산&nbsp;등&nbsp;인접&nbsp;국방기관과&nbsp;연계한&nbsp;충청권&nbsp;국방클러스터&nbsp;협력&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;통합&nbsp;운영체계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기술개발부터&nbsp;사업화까지&nbsp;연계하여&nbsp;지속&nbsp;가능한&nbsp;성장과&nbsp;청년&nbsp;일자리&nbsp;창출<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;준비기&nbsp;(2026~2027):&nbsp;기본계획&nbsp;수립,&nbsp;행정절차&nbsp;이행&nbsp;및&nbsp;시설&nbsp;설계&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;구축기&nbsp;(2027~2029):&nbsp;제3산단&nbsp;조성,&nbsp;지식산업센터&nbsp;건립&nbsp;및&nbsp;기업유치&nbsp;본격화<br>&nbsp;&nbsp;○&nbsp;고도화기&nbsp;(2029~2031):&nbsp;지능형&nbsp;센서&nbsp;지원센터&nbsp;구축&nbsp;및&nbsp;시험·실증&nbsp;체계&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;정착기&nbsp;(2031~2032):&nbsp;클러스터&nbsp;통합운영&nbsp;및&nbsp;민·군·산·학&nbsp;협력체계&nbsp;본격&nbsp;가동<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총사업비:&nbsp;약&nbsp;700억&nbsp;원<br>&nbsp;&nbsp;○&nbsp;조달&nbsp;방식:&nbsp;국비,&nbsp;도비,&nbsp;시비&nbsp;및&nbsp;민간투자의&nbsp;입체적&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공재정:&nbsp;산단&nbsp;조성&nbsp;및&nbsp;기반시설(국비+지방비&nbsp;매칭),&nbsp;정부&nbsp;공모사업&nbsp;유치(국방부,&nbsp;산업통상부&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간협력:&nbsp;지식산업센터&nbsp;조성&nbsp;시&nbsp;민간투자&nbsp;병행,&nbsp;R&D&nbsp;국책사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;전략:&nbsp;단계별&nbsp;사업&nbsp;추진을&nbsp;통해&nbsp;재정부담을&nbsp;분산하고,&nbsp;안정적인&nbsp;국비확보&nbsp;활동전개</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	계룡 어린이 별마루 놀이터</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="계룡 어린이 별마루 놀이터">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;아동친화도시&nbsp;구현:&nbsp;계룡시&nbsp;내&nbsp;어린이&nbsp;전용&nbsp;복합문화공간을&nbsp;조성하여&nbsp;안전하고&nbsp;창의적인&nbsp;성장&nbsp;환경&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;미래형&nbsp;놀이환경&nbsp;구축:&nbsp;AI·VR·AR&nbsp;등&nbsp;첨단기술&nbsp;기반의&nbsp;스마트&nbsp;놀이터와&nbsp;자연&nbsp;친화형&nbsp;테마놀이터,&nbsp;독서공간&nbsp;융합<br>&nbsp;&nbsp;○&nbsp;정주&nbsp;여건&nbsp;강화:&nbsp;부모와&nbsp;아이가&nbsp;함께&nbsp;누리는&nbsp;돌봄·문화&nbsp;인프라&nbsp;확충을&nbsp;통해&nbsp;"아이&nbsp;키우기&nbsp;좋은&nbsp;도시"&nbsp;브랜드&nbsp;확립<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;공간조성:&nbsp;하대실지구&nbsp;시유지(15,000㎡)&nbsp;부지를&nbsp;활용하여&nbsp;단계적&nbsp;시설구축<br>&nbsp;&nbsp;○&nbsp;실내형&nbsp;AI&nbsp;스마트&nbsp;놀이터:&nbsp;미세먼지·기후&nbsp;변화와&nbsp;관계없이&nbsp;안전한&nbsp;VR·AR·디지털&nbsp;체험존&nbsp;및&nbsp;연령별&nbsp;맞춤형&nbsp;놀이공간&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;별마루&nbsp;테마놀이터:&nbsp;실외&nbsp;놀이시설,&nbsp;공원,&nbsp;자연·모험형&nbsp;시설&nbsp;등&nbsp;가족휴식기능&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;복합문화&nbsp;서비스:&nbsp;어린이&nbsp;공연장,&nbsp;테마도서관,&nbsp;장난감&nbsp;도서관&nbsp;등&nbsp;놀이와&nbsp;배움이&nbsp;결합된&nbsp;교육&nbsp;콘텐츠&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;협력체계:&nbsp;충청남도와&nbsp;국·도비&nbsp;확보를&nbsp;위해&nbsp;협력하고,&nbsp;시민&nbsp;의견을&nbsp;수렴하여&nbsp;지역&nbsp;맞춤형&nbsp;인프라&nbsp;완성<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년:&nbsp;기본계획&nbsp;수립,&nbsp;실시설계&nbsp;및&nbsp;주요&nbsp;행정절차&nbsp;이행<br>&nbsp;&nbsp;○&nbsp;2027년:&nbsp;부지&nbsp;조성&nbsp;착공&nbsp;및&nbsp;스마트&nbsp;놀이&nbsp;콘텐츠&nbsp;세부&nbsp;설계<br>&nbsp;&nbsp;○&nbsp;2028년:&nbsp;시설물&nbsp;건축&nbsp;공사&nbsp;및&nbsp;내부&nbsp;콘텐츠(AI·디지털&nbsp;시설&nbsp;등)&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;2029년:&nbsp;시설&nbsp;준공,&nbsp;시범&nbsp;운영을&nbsp;거쳐&nbsp;정식&nbsp;개관<br><br>&nbsp;□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총사업비:&nbsp;약&nbsp;200억&nbsp;원<br>&nbsp;&nbsp;○&nbsp;재원&nbsp;구성:<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부&nbsp;재정:&nbsp;국비&nbsp;공모사업&nbsp;및&nbsp;생활SOC·아동친화도시&nbsp;관련&nbsp;예산&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방비:&nbsp;충청남도&nbsp;도비&nbsp;지원&nbsp;및&nbsp;계룡시&nbsp;자체&nbsp;예산의&nbsp;단계적&nbsp;투입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민관협력:&nbsp;공공기관&nbsp;및&nbsp;민간협력사업&nbsp;연계를&nbsp;통한&nbsp;스마트&nbsp;콘텐츠&nbsp;및&nbsp;프로그램&nbsp;운영&nbsp;재원&nbsp;다각화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	계룡형 컨벤션센터 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="계룡형 컨벤션센터 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;국방&nbsp;MICE&nbsp;허브&nbsp;도약:&nbsp;3군&nbsp;본부가&nbsp;집결한&nbsp;계룡시의&nbsp;특수성을&nbsp;살려&nbsp;방산전시·회의·비즈니스·관광이&nbsp;융합된&nbsp;국방특화&nbsp;MICE&nbsp;생태계&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;국방외교&nbsp;거점화:&nbsp;국제&nbsp;방산&nbsp;교류와&nbsp;국방외교의&nbsp;핵심거점으로&nbsp;육성하여&nbsp;계룡시를&nbsp;글로벌&nbsp;K-Defense의&nbsp;중심지로&nbsp;발전시킴<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;인프라&nbsp;구축:<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연면적&nbsp;약&nbsp;20,927㎡&nbsp;규모의&nbsp;K-국방&nbsp;국제컨벤션센터&nbsp;건립(전시장,&nbsp;컨벤션홀,&nbsp;다목적&nbsp;회의실,&nbsp;군문화&nbsp;체험존,&nbsp;웨딩홀&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;컨벤션&nbsp;특화&nbsp;호텔&nbsp;유치&nbsp;및&nbsp;스마트&nbsp;전시&nbsp;시스템&nbsp;도입으로&nbsp;국제&nbsp;수준의&nbsp;시설&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;산업&nbsp;생태계&nbsp;활성화:<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방산수출지원:&nbsp;K-ADEX와&nbsp;연계한&nbsp;글로벌&nbsp;플랫폼화,&nbsp;상설전시,&nbsp;수출상담공간&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;클러스터연계:&nbsp;국방R&D,&nbsp;민·군&nbsp;융합연구,&nbsp;기술교류,&nbsp;스타트업&nbsp;투자프로그램&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;연계&nbsp;및&nbsp;협력:<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광&nbsp;연계:&nbsp;안보관광·군문화와&nbsp;연계한&nbsp;체류형&nbsp;콘텐츠&nbsp;개발&nbsp;및&nbsp;지역&nbsp;상권&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;협력거버넌스:&nbsp;중앙정부,&nbsp;충남도,&nbsp;국방기관,&nbsp;민간기업과&nbsp;협력하여&nbsp;국가사업으로&nbsp;추진<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;(2026년):&nbsp;기본계획&nbsp;수립,&nbsp;타당성&nbsp;검토&nbsp;및&nbsp;국가사업&nbsp;건의<br>&nbsp;&nbsp;○&nbsp;2단계&nbsp;(2027년~2028년):&nbsp;실시설계,&nbsp;국비&nbsp;확보&nbsp;및&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;3단계&nbsp;(2029년~2030년):&nbsp;준공&nbsp;및&nbsp;시범&nbsp;운영시행<br>&nbsp;&nbsp;○&nbsp;4단계&nbsp;(2030년&nbsp;이후):&nbsp;국제&nbsp;방산전시&nbsp;및&nbsp;국방포럼&nbsp;확대,&nbsp;운영&nbsp;고도화<br><br>&nbsp;□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총사업비:&nbsp;약&nbsp;1,569억&nbsp;원<br>&nbsp;&nbsp;○&nbsp;조달&nbsp;전략:&nbsp;공공재원:&nbsp;국방&nbsp;MICE&nbsp;육성을&nbsp;명분으로&nbsp;한&nbsp;국비&nbsp;확보를&nbsp;최우선,&nbsp;충남도와&nbsp;계룡시의&nbsp;지방비를&nbsp;단계적&nbsp;투입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간투자:&nbsp;기반시설&nbsp;및&nbsp;운영시설&nbsp;일부에&nbsp;대해&nbsp;PPP(민관협력사업),&nbsp;민자유치&nbsp;병행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자체&nbsp;수익:&nbsp;컨벤션&nbsp;운영수익,&nbsp;전시유치&nbsp;등&nbsp;지속&nbsp;가능한&nbsp;운영&nbsp;재원&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	향적산 명품 힐링밸리 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="향적산 명품 힐링밸리 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;체류형&nbsp;힐링관광벨트&nbsp;구축:&nbsp;향적산의&nbsp;산림자원과&nbsp;향적산길&nbsp;상권을&nbsp;연계하여&nbsp;산림치유·문화체험·감성&nbsp;상권이&nbsp;결합한&nbsp;대한민국&nbsp;대표&nbsp;관광거점&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;도시&nbsp;브랜드&nbsp;완성:&nbsp;시민에게는&nbsp;여가&nbsp;공간을,&nbsp;관광객에게는&nbsp;숙박과&nbsp;체험을&nbsp;제공하여&nbsp;‘힐링&nbsp;도시&nbsp;계룡’&nbsp;브랜드&nbsp;확립으로&nbsp;사계절관광이&nbsp;가능한&nbsp;지속가능한&nbsp;경제구조&nbsp;마련<br><br>&nbsp;□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;향적산&nbsp;힐링밸리(산림휴양/치유)&nbsp;조성:<br>&nbsp;&nbsp;&nbsp;-&nbsp;약&nbsp;50.4ha&nbsp;규모에&nbsp;웰에이징센터,&nbsp;숲속의&nbsp;집(숙박),&nbsp;수국단지,&nbsp;생태주차장&nbsp;등&nbsp;구축<br>&nbsp;&nbsp;&nbsp;-&nbsp;목재문화체험장,&nbsp;등산학교,&nbsp;어린이&nbsp;숲&nbsp;체험&nbsp;등&nbsp;융복합&nbsp;체험시설&nbsp;및&nbsp;콘텐츠&nbsp;운영<br>&nbsp;&nbsp;&nbsp;-&nbsp;힐링&nbsp;페스티벌,&nbsp;명상·요가,&nbsp;숲속&nbsp;음악회&nbsp;등&nbsp;사계절&nbsp;관광콘텐츠&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;향리단길(감성&nbsp;관광상권)&nbsp;특화:<br>&nbsp;&nbsp;&nbsp;-&nbsp;향적산길&nbsp;약&nbsp;1.5km&nbsp;구간에&nbsp;통합&nbsp;브랜드(BI)&nbsp;개발,&nbsp;간판과&nbsp;야간경관&nbsp;디자인&nbsp;개선<br>&nbsp;&nbsp;&nbsp;-&nbsp;보행&nbsp;중심&nbsp;거리환경&nbsp;개선&nbsp;및&nbsp;쉼터·녹지&nbsp;확충<br>&nbsp;&nbsp;&nbsp;-&nbsp;주말&nbsp;버스킹,&nbsp;거리공연,&nbsp;커피·문화&nbsp;페스티벌&nbsp;등&nbsp;상권&nbsp;활성화&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;통합연계체계:&nbsp;힐링밸리와&nbsp;향리단길을&nbsp;연결하는&nbsp;통합&nbsp;관광벨트&nbsp;구축,&nbsp;공동&nbsp;마케팅·숙박&nbsp;연계&nbsp;프로그램&nbsp;운영<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;(준비기):&nbsp;기본계획&nbsp;및&nbsp;실시설계,&nbsp;관계기관&nbsp;협의,&nbsp;관광브랜드(BI)&nbsp;개발&nbsp;등<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;(추진기):&nbsp;웰에이징센터·체험시설·야간경관&nbsp;등&nbsp;핵심&nbsp;업&nbsp;본격&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2028년&nbsp;(완성기):&nbsp;조성&nbsp;완료&nbsp;및&nbsp;통합&nbsp;관광벨트&nbsp;운영&nbsp;본격화,&nbsp;축제·마케팅&nbsp;정례화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기본&nbsp;재원:&nbsp;총사업비&nbsp;약&nbsp;130억&nbsp;원&nbsp;규모&nbsp;(도비&nbsp;75%,&nbsp;시비&nbsp;25%&nbsp;확보)<br>&nbsp;&nbsp;○&nbsp;국·도비&nbsp;확보&nbsp;전략:<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산림청&nbsp;산림복지&nbsp;공모사업&nbsp;및&nbsp;충청남도&nbsp;관광자원개발사업&nbsp;적극&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시재생,&nbsp;골목상권&nbsp;활성화,&nbsp;문화관광축제지원&nbsp;등&nbsp;정부·광역&nbsp;공모사업&nbsp;병행&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;및&nbsp;선순환&nbsp;구조:<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간투자&nbsp;및&nbsp;지역&nbsp;상인&nbsp;참여&nbsp;유도로&nbsp;지속가능한&nbsp;운영체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광&nbsp;수입증대&nbsp;및&nbsp;지역상권&nbsp;활성화를&nbsp;통한&nbsp;경제&nbsp;선순환&nbsp;유도</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	2029년 계룡 세계 軍문화엑스포 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="2029년 계룡 세계 軍문화엑스포 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;위상강화:&nbsp;계룡시를&nbsp;대한민국&nbsp;국방수도를&nbsp;넘어&nbsp;세계적&nbsp;군문화중심도시로&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;K-국방홍보:&nbsp;첨단미래국방산업(AI·드론·로봇&nbsp;등),&nbsp;K-방산의&nbsp;우수성을&nbsp;세계에&nbsp;전파<br>&nbsp;&nbsp;○&nbsp;융합플랫폼&nbsp;구축:&nbsp;군문화,&nbsp;방산,&nbsp;관광,&nbsp;MICE산업이&nbsp;결합된&nbsp;글로벌&nbsp;군문화플랫폼조성<br>&nbsp;&nbsp;○&nbsp;경제활성화:&nbsp;국내외&nbsp;관람객&nbsp;182만&nbsp;명&nbsp;유치를&nbsp;통한&nbsp;지역경제활성화,&nbsp;브랜드가치&nbsp;제고<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;행정절차&nbsp;추진:&nbsp;2022년의&nbsp;성공&nbsp;경험을&nbsp;바탕으로&nbsp;국제행사&nbsp;승인&nbsp;및&nbsp;국가공모&nbsp;절차를&nbsp;체계적으로&nbsp;이행<br>&nbsp;&nbsp;○&nbsp;콘텐츠&nbsp;고도화:<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전시·학술:&nbsp;미래국방기술관&nbsp;운영&nbsp;및&nbsp;세계&nbsp;안보평화포럼&nbsp;개최<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공연·체험:&nbsp;블랙이글스&nbsp;에어쇼,&nbsp;세계&nbsp;군악·의장공연,&nbsp;VR·AR가상전장,&nbsp;병영체험<br>&nbsp;&nbsp;○&nbsp;산업연계&nbsp;강화:&nbsp;KADEX(국제방위산업전시회)와&nbsp;연계하여&nbsp;수출상담회&nbsp;개최,&nbsp;글로벌&nbsp;수출&nbsp;플랫폼&nbsp;역할&nbsp;수행<br>&nbsp;&nbsp;○&nbsp;협력체계&nbsp;구축:&nbsp;충남도·국방부와&nbsp;협력하여&nbsp;전담조직&nbsp;신설&nbsp;및&nbsp;숙박·교통&nbsp;등&nbsp;관광&nbsp;인프라&nbsp;확충<br><br>&nbsp;□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;사업&nbsp;전체&nbsp;기간:&nbsp;2026년&nbsp;~&nbsp;2029년<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;01.&nbsp;~&nbsp;07.:&nbsp;국제행사심사위원회&nbsp;심의&nbsp;대응&nbsp;및&nbsp;개최&nbsp;승인&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;11.:&nbsp;국제행사&nbsp;승인&nbsp;신청,&nbsp;전담조직&nbsp;구성&nbsp;및&nbsp;세부&nbsp;실행계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;2027.&nbsp;~&nbsp;2028.:&nbsp;행사장&nbsp;조성,&nbsp;콘텐츠&nbsp;개발,&nbsp;국내외&nbsp;홍보&nbsp;및&nbsp;참가국&nbsp;유치&nbsp;활동<br>&nbsp;&nbsp;○&nbsp;2029.&nbsp;09.&nbsp;~&nbsp;10.:&nbsp;2029&nbsp;계룡&nbsp;세계軍문화엑스포&nbsp;본&nbsp;행사&nbsp;개최<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총사업비:&nbsp;약&nbsp;190억&nbsp;원<br>&nbsp;&nbsp;○&nbsp;조달&nbsp;구성:<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비&nbsp;(30%):&nbsp;국제행사&nbsp;승인에&nbsp;따른&nbsp;정부&nbsp;지원금&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도비&nbsp;(20%):&nbsp;충청남도&nbsp;광역관광&nbsp;및&nbsp;MICE&nbsp;사업비&nbsp;반영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시비&nbsp;(20%):&nbsp;연차별&nbsp;예산&nbsp;편성을&nbsp;통한&nbsp;안정적&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수익사업·민간&nbsp;(30%):&nbsp;입장권&nbsp;판매,&nbsp;기업후원,&nbsp;전시·체험프로그램운영,&nbsp;민간협찬<br>&nbsp;&nbsp;○&nbsp;추가방안:&nbsp;공공·민간협력(PPP)방식도입,&nbsp;관련분야&nbsp;공모사업연계를&nbsp;통한&nbsp;재원&nbsp;다각화</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

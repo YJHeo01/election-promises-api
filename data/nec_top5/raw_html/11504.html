@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;전화식 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	참외농가 실질소득 향상을 위한 대 중국 참외수출</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="참외농가 실질소득 향상을 위한 대 중국 참외수출">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표;&nbsp;참외농가&nbsp;소득의&nbsp;실질적&nbsp;향상=>&nbsp;참외&nbsp;중국&nbsp;수출<br>&nbsp;&nbsp;·&nbsp;「참외유통과」신설;&nbsp;대&nbsp;중국&nbsp;참외&nbsp;수출&nbsp;업무&nbsp;전담<br>&nbsp;&nbsp;·&nbsp;AI기반&nbsp;스마트&nbsp;참외단지&nbsp;조성;&nbsp;수출&nbsp;주도형&nbsp;스마트&nbsp;농업&nbsp;단지&nbsp;5개소<br>&nbsp;&nbsp;·&nbsp;「농촌인력과」신설;&nbsp;계절근로자&nbsp;인력&nbsp;수급&nbsp;조절,&nbsp;근로자&nbsp;합숙소&nbsp;운영<br>&nbsp;&nbsp;·&nbsp;참외&nbsp;불량과·저급과&nbsp;전량&nbsp;수매&nbsp;및&nbsp;액비&nbsp;무상&nbsp;공급<br>&nbsp;&nbsp;·&nbsp;참외&nbsp;모종&nbsp;접목기술&nbsp;후계&nbsp;인력&nbsp;체계적&nbsp;육성<br>&nbsp;&nbsp;·&nbsp;참외&nbsp;보조사업(부직포,&nbsp;개폐기&nbsp;등)&nbsp;구조&nbsp;개선과&nbsp;실질적&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;·&nbsp;참외&nbsp;문화콘텐츠&nbsp;개발&nbsp;및&nbsp;참외축제&nbsp;국제적&nbsp;관광&nbsp;브랜드화&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;참외유통과,&nbsp;농촌인력과&nbsp;신설;&nbsp;임기시작과&nbsp;동시&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;AI기반&nbsp;스마트&nbsp;참외단지&nbsp;조성;&nbsp;3개년&nbsp;추진&nbsp;계획으로&nbsp;실질적&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;불량과,&nbsp;저급과&nbsp;전량&nbsp;수매&nbsp;및&nbsp;액비&nbsp;무상공급;&nbsp;연차적&nbsp;계획/&nbsp;조기&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;참외&nbsp;접목&nbsp;기술&nbsp;후계인력;&nbsp;참외&nbsp;관련&nbsp;연구기관과&nbsp;협력&nbsp;100/연&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;참외보조사업&nbsp;구조개선&nbsp;지원;&nbsp;농가&nbsp;혜택&nbsp;중심의&nbsp;실질적&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;2030년&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;참외농가&nbsp;소득향상&nbsp;실질적&nbsp;보장&nbsp;추정&nbsp;소요예산;&nbsp;약480억원/연<br>&nbsp;&nbsp;-&nbsp;AI기반&nbsp;스마트&nbsp;참외단지&nbsp;조성;&nbsp;국고&nbsp;교부세&nbsp;매칭&nbsp;투자<br>&nbsp;&nbsp;-&nbsp;불량과,&nbsp;저급과&nbsp;전량&nbsp;수매&nbsp;및&nbsp;액비&nbsp;무상공급;&nbsp;일반회계<br>&nbsp;&nbsp;-&nbsp;참외&nbsp;접목&nbsp;기술&nbsp;후계인력&nbsp;육성;&nbsp;일반회계<br>&nbsp;&nbsp;-&nbsp;참외보조사업&nbsp;구조개선&nbsp;지원;&nbsp;일반회계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	24시간 돌봄체제 완비로 어르신 이·미용 해결/경로당 실질 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="24시간 돌봄체제 완비로 어르신 이·미용 해결/경로당 실질 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표;&nbsp;어르신들이&nbsp;편안하게&nbsp;지낼&nbsp;수&nbsp;있는&nbsp;환경&nbsp;제공<br>&nbsp;&nbsp;·&nbsp;24시간&nbsp;어르신&nbsp;돌봄&nbsp;시스템&nbsp;구축으로&nbsp;긴급상황&nbsp;대비<br>&nbsp;&nbsp;·&nbsp;경로당&nbsp;회장&nbsp;월정&nbsp;수당&nbsp;지급&nbsp;및&nbsp;경로당&nbsp;무상&nbsp;급식&nbsp;체제&nbsp;완비<br>&nbsp;&nbsp;·&nbsp;어르신&nbsp;이·미용&nbsp;및&nbsp;생활&nbsp;환경&nbsp;개선&nbsp;도우미제&nbsp;운영<br>&nbsp;&nbsp;·&nbsp;파크골프장&nbsp;실버쉼터&nbsp;설치;&nbsp;건강체크,&nbsp;동호회&nbsp;활성화&nbsp;공간&nbsp;제공<br>&nbsp;&nbsp;·&nbsp;성주군립병원&nbsp;건립&nbsp;및&nbsp;부대&nbsp;복지시설&nbsp;확충;&nbsp;가천면&nbsp;도립병원&nbsp;재구조화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;24시간&nbsp;어르신&nbsp;돌봄&nbsp;시스템;&nbsp;관내&nbsp;병·의원&nbsp;연계&nbsp;24시간&nbsp;긴급돌봄&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;경로당&nbsp;회장&nbsp;수당&nbsp;지급&nbsp;및&nbsp;경로당&nbsp;무상급식&nbsp;;&nbsp;임기&nbsp;시작과&nbsp;동시&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;이·미용&nbsp;및&nbsp;생활환경&nbsp;개선&nbsp;도우미제;&nbsp;임기&nbsp;개시&nbsp;동시&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;파크골프장&nbsp;실버쉼터&nbsp;설치;&nbsp;기존&nbsp;파크골프장&nbsp;환경&nbsp;정비&nbsp;및&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;성주군립병원&nbsp;설립;&nbsp;경상북도&nbsp;연계&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;2030년&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;가정돌봄&nbsp;시스템&nbsp;구축&nbsp;추정&nbsp;소요&nbsp;예산;&nbsp;약&nbsp;540억원/연<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;긴급돌봄센터체제&nbsp;구축;&nbsp;성주군&nbsp;일반회계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경로당&nbsp;회장&nbsp;수당&nbsp;지급&nbsp;및&nbsp;경로당&nbsp;무상급식;&nbsp;일반회계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;이·미용&nbsp;및&nbsp;생활환경&nbsp;개선;&nbsp;일반회계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;파크골프장&nbsp;실버쉼터&nbsp;설치;&nbsp;일반회계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성주군립병원&nbsp;설립;&nbsp;기존&nbsp;도립병원&nbsp;재개발-경상북도와&nbsp;협업</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	성주 산업단지 개발을 통한 일자리 창출과 성주경제 빌드업</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="성주 산업단지 개발을 통한 일자리 창출과 성주경제 빌드업">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표;&nbsp;일자리가&nbsp;살아나는&nbsp;경제&nbsp;성주가&nbsp;되도록&nbsp;성주산업단지&nbsp;육성<br>&nbsp;&nbsp;·&nbsp;성주산업단지&nbsp;개발=>&nbsp;대구시&nbsp;위성도시로&nbsp;지정(선남면/용암면)<br>&nbsp;&nbsp;·&nbsp;대구시&nbsp;지하철&nbsp;2호선&nbsp;성주읍까지&nbsp;연장=>대구의&nbsp;위성도시로&nbsp;성장<br>&nbsp;&nbsp;·&nbsp;서부지역&nbsp;가야산&nbsp;다목적&nbsp;체육관&nbsp;건립=>&nbsp;군민&nbsp;체육센터로&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;·&nbsp;반려동물&nbsp;특화단지&nbsp;조성;&nbsp;친화&nbsp;인프라&nbsp;구축과&nbsp;반려동물&nbsp;산업&nbsp;유치<br>&nbsp;&nbsp;·&nbsp;성주사랑카드&nbsp;사업&nbsp;확대;&nbsp;50만원->70만원으로&nbsp;10배&nbsp;투자효과<br>&nbsp;&nbsp;·&nbsp;소상공인&nbsp;세입자&nbsp;전세자금&nbsp;이차보전(상생협약)<br>&nbsp;&nbsp;·&nbsp;주차단속&nbsp;15분에서&nbsp;30분으로&nbsp;완화=>&nbsp;지역상권&nbsp;살리기<br>&nbsp;&nbsp;·&nbsp;광영삼거리&nbsp;회전교차로&nbsp;및&nbsp;동락리와&nbsp;다산면&nbsp;도로&nbsp;연결=>&nbsp;접근&nbsp;편의성&nbsp;제공<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;성주산업단지&nbsp;개발;&nbsp;대경발전&nbsp;프로젝트&nbsp;일환으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;지하철&nbsp;2호선&nbsp;성주읍&nbsp;연장&nbsp;운영;&nbsp;국토부&nbsp;발전계획과&nbsp;연계함<br>&nbsp;&nbsp;○&nbsp;서부지역&nbsp;가야산&nbsp;다목적&nbsp;체육관&nbsp;건립;&nbsp;3개년&nbsp;계획으로&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;반려동물&nbsp;특화단지&nbsp;조성;&nbsp;반려동물&nbsp;친화인프라&nbsp;구축으로&nbsp;관련&nbsp;산업&nbsp;유치&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=>&nbsp;반려동물&nbsp;관련&nbsp;유치를&nbsp;위한&nbsp;성주&nbsp;환경적&nbsp;우수성&nbsp;제시<br>&nbsp;&nbsp;○&nbsp;광영삼거리&nbsp;회전교차로&nbsp;및&nbsp;동락리와&nbsp;다산면&nbsp;도로&nbsp;연결;&nbsp;1차년도&nbsp;추진&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지역경제&nbsp;산업발전&nbsp;분야&nbsp;추정&nbsp;소요&nbsp;예산;&nbsp;약&nbsp;920억원/연<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업단지개발&nbsp;성주동부권&nbsp;대구위성도시&nbsp;건설;&nbsp;국토개발예산&nbsp;매칭<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;가야산&nbsp;다목적&nbsp;체육관&nbsp;건립;&nbsp;성주군&nbsp;일반회계&nbsp;연차적&nbsp;적용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반려동물&nbsp;특화단지&nbsp;조성;&nbsp;단지&nbsp;조성&nbsp;후&nbsp;관련&nbsp;산업&nbsp;유치&nbsp;분양&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=>&nbsp;동반&nbsp;클램핑,&nbsp;카페,&nbsp;팻푸드&nbsp;및&nbsp;팻용품&nbsp;기업&nbsp;유치로&nbsp;예산&nbsp;절감<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;회전교차로&nbsp;및&nbsp;다산면&nbsp;도로&nbsp;연결;&nbsp;일반회계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	출산지원금 전국 최고! 성주 초·중·고 졸업자 대학 등록금 전액 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="출산지원금 전국 최고! 성주 초·중·고 졸업자 대학 등록금 전액 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표;&nbsp;출산부터&nbsp;교육까지&nbsp;책임지는&nbsp;행정으로&nbsp;행복&nbsp;성주&nbsp;만들기<br>&nbsp;&nbsp;○&nbsp;출산지원금&nbsp;전국&nbsp;최고&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;성주에서&nbsp;초·중·고&nbsp;졸업후&nbsp;대학진학자&nbsp;등록금&nbsp;전액&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;장애인&nbsp;및&nbsp;가족&nbsp;복지&nbsp;지원=>&nbsp;예술,&nbsp;창작&nbsp;교육&nbsp;및&nbsp;고용&nbsp;기회&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;보육지원&nbsp;사업&nbsp;확대로&nbsp;서비스&nbsp;종사자&nbsp;실질적&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;성주군립도서관&nbsp;설립=>&nbsp;어린이·청소년,&nbsp;어르신&nbsp;맞춤형&nbsp;프로그램&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;한개마을&nbsp;등&nbsp;문화유산&nbsp;활용&nbsp;상설&nbsp;평생·인성교육&nbsp;프로그램&nbsp;운영<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;출산지원금;&nbsp;성주아이&nbsp;출산시&nbsp;전국&nbsp;최고액&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;대학등록금&nbsp;전액&nbsp;지원;&nbsp;성주에서&nbsp;초중고&nbsp;졸업자&nbsp;중&nbsp;대학진학자&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;장애자&nbsp;교육&nbsp;지원&nbsp;프로그램&nbsp;운영과&nbsp;성주도서관&nbsp;설립;&nbsp;임기시작&nbsp;동시&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;보육지원&nbsp;사업&nbsp;확대;&nbsp;유아교육&nbsp;지원으로&nbsp;성주&nbsp;인구&nbsp;확산&nbsp;기대<br>&nbsp;&nbsp;○&nbsp;성주&nbsp;군립도서관&nbsp;설립;&nbsp;1차년도&nbsp;개시에&nbsp;3년&nbsp;계획&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;한개마을&nbsp;등&nbsp;문화유산&nbsp;평생교육&nbsp;프로그램&nbsp;운영;&nbsp;임기&nbsp;시작과&nbsp;동시&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;2030년&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;출산과&nbsp;교육&nbsp;서비스&nbsp;행정&nbsp;지원&nbsp;추정&nbsp;소요&nbsp;예산;&nbsp;약&nbsp;280억원/연<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출산지원금;&nbsp;성주군&nbsp;일반회계&nbsp;약&nbsp;52억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학등록금&nbsp;전액&nbsp;지원;&nbsp;약&nbsp;15억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인&nbsp;가족&nbsp;지원&nbsp;및&nbsp;보육&nbsp;서비스&nbsp;지원;&nbsp;약&nbsp;28억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성주군립도서관&nbsp;설립;&nbsp;경상북도와&nbsp;연계하여&nbsp;매칭투자<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;평생교육&nbsp;프로그램&nbsp;운영;&nbsp;약&nbsp;5억원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	성주댐/가야산/낙동강 문화자원 연계 역동적 관광벨트 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="성주댐/가야산/낙동강 문화자원 연계 역동적 관광벨트 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표;&nbsp;머물고&nbsp;싶은&nbsp;성주!&nbsp;몸으로&nbsp;느끼는&nbsp;성주문화&nbsp;생명력!&nbsp;살리기<br>&nbsp;&nbsp;○&nbsp;세종대왕자태실&nbsp;유네스코&nbsp;세계문화유산&nbsp;지정&nbsp;지속적&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;18홀&nbsp;골프장&nbsp;2곳&nbsp;유치;&nbsp;일자리&nbsp;창출,&nbsp;지역균형개발<br>&nbsp;&nbsp;○&nbsp;전국최초&nbsp;내륙&nbsp;수상레저&nbsp;교육·면허시험장&nbsp;유치;&nbsp;1박2일&nbsp;체험&nbsp;패키지<br>&nbsp;&nbsp;○&nbsp;별고을&nbsp;택시&nbsp;운영&nbsp;확대를&nbsp;통한&nbsp;성주문화&nbsp;품격&nbsp;높이기&nbsp;홍보<br>&nbsp;&nbsp;○&nbsp;남부고속도로&nbsp;연계&nbsp;벽진/초전&nbsp;하이패스&nbsp;전용&nbsp;IC&nbsp;건설;&nbsp;접근성&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;성주버스정류장&nbsp;원래&nbsp;위치&nbsp;복원으로&nbsp;교통&nbsp;편의성&nbsp;제공<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;세종대왕자&nbsp;태실;&nbsp;전임자&nbsp;사업&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;18홀&nbsp;골프장&nbsp;2곳&nbsp;유치;&nbsp;행정력&nbsp;동원(골프장&nbsp;지방세&nbsp;수입&nbsp;10억/년)<br>&nbsp;&nbsp;○&nbsp;내륙&nbsp;최초&nbsp;수상레저&nbsp;교육·면허시험장&nbsp;유치;&nbsp;성주호에&nbsp;레저&nbsp;교육？면허장<br>&nbsp;&nbsp;○&nbsp;별고을&nbsp;택시&nbsp;운영&nbsp;확대;&nbsp;1차년도&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;내륙고속도로&nbsp;연계&nbsp;벽진/초전&nbsp;하이패스&nbsp;전용&nbsp;IC&nbsp;건설;&nbsp;1차년도&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;성주버스정류장&nbsp;복원;&nbsp;1차년도&nbsp;사업&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;문화·관광·지역개발&nbsp;연간&nbsp;추정&nbsp;소요&nbsp;예산;&nbsp;약&nbsp;980억/연<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;18홀&nbsp;골프장&nbsp;2곳&nbsp;유치;&nbsp;문화관광&nbsp;전문가(후보자)&nbsp;직접&nbsp;유치&nbsp;및&nbsp;투자<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;내륙&nbsp;최초&nbsp;수상레저&nbsp;교육·면허시험장&nbsp;유치;&nbsp;시설비&nbsp;매칭&nbsp;투자&nbsp;제안<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;별고을&nbsp;택시&nbsp;운영&nbsp;확대;&nbsp;일반회계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고속도로&nbsp;연계&nbsp;벽진/초전&nbsp;하이패스&nbsp;전용&nbsp;IC&nbsp;건설;&nbsp;국토교통부&nbsp;매칭<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성주버스정류장&nbsp;복원;&nbsp;성주군&nbsp;일반&nbsp;회계</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

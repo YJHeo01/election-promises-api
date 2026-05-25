@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김경대 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	거침없는 용산개발, 재개발·재건축·재정비 사업 신속 추진 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="거침없는 용산개발, 재개발·재건축·재정비 사업 신속 추진 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;구청장&nbsp;직속&nbsp;용산개발신속추진담당관&nbsp;신설을&nbsp;통한&nbsp;재개발·재건축·재정비&nbsp;등&nbsp;도시정비&nbsp;현안을&nbsp;전담하는&nbsp;컨트롤타워&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;정비사업&nbsp;지연&nbsp;구역&nbsp;해소&nbsp;및&nbsp;조합·주민&nbsp;원스톱&nbsp;행정&nbsp;지원&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;구청장&nbsp;직속&nbsp;용산개발신속추진담당관&nbsp;신설&nbsp;및&nbsp;전담&nbsp;인력&nbsp;배치<br>&nbsp;&nbsp;○&nbsp;구&nbsp;관내&nbsp;전체&nbsp;정비사업&nbsp;구역&nbsp;현황&nbsp;전수조사&nbsp;후&nbsp;지연&nbsp;원인&nbsp;분석&nbsp;및&nbsp;단계별&nbsp;맞춤&nbsp;지원&nbsp;계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;조합설립부터&nbsp;관리처분까지&nbsp;전&nbsp;과정&nbsp;전담&nbsp;공무원&nbsp;밀착&nbsp;배치,&nbsp;조합·주민&nbsp;원스톱&nbsp;민원&nbsp;창구&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;서울시·국토부와&nbsp;협력&nbsp;채널&nbsp;구축,&nbsp;인허가&nbsp;지연&nbsp;유발&nbsp;규제&nbsp;해소&nbsp;적극&nbsp;건의<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;담당관&nbsp;신설&nbsp;<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내(2026~2030)&nbsp;구&nbsp;관내&nbsp;전체&nbsp;정비구역&nbsp;밀착&nbsp;관리&nbsp;지속<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구비(담당관&nbsp;인건비·운영비)<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;정비사업&nbsp;지원&nbsp;보조금&nbsp;병행&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	용산국제업무지구 개발</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="용산국제업무지구 개발">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;용산국제업무지구&nbsp;원안&nbsp;(주거&nbsp;6,000세대)&nbsp;사수&nbsp;<br>&nbsp;&nbsp;○&nbsp;국제업무·주거·문화가&nbsp;균형을&nbsp;이루는&nbsp;서울&nbsp;도심&nbsp;핵심&nbsp;거점&nbsp;조성<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중앙정부의&nbsp;일방적&nbsp;계획&nbsp;변경&nbsp;시도에&nbsp;대한&nbsp;구의회에&nbsp;결의안&nbsp;채택&nbsp;촉구&nbsp;및&nbsp;구청장&nbsp;명의&nbsp;공식&nbsp;반대&nbsp;의견서&nbsp;제출<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;공론화&nbsp;체계&nbsp;구축&nbsp;및&nbsp;구민&nbsp;의견을&nbsp;중앙정부·서울시에&nbsp;공식&nbsp;전달<br>&nbsp;&nbsp;○&nbsp;국민의힘&nbsp;소속&nbsp;국회의원·서울시의원과&nbsp;공조하여&nbsp;국회&nbsp;및&nbsp;서울시의회&nbsp;차원의&nbsp;문제&nbsp;제기&nbsp;<br>&nbsp;&nbsp;○&nbsp;개발&nbsp;단계별&nbsp;구민&nbsp;수혜&nbsp;항목&nbsp;협의&nbsp;과정에&nbsp;구청장이&nbsp;직접&nbsp;참여<br>&nbsp;&nbsp;○&nbsp;개발이익&nbsp;환수분의&nbsp;용산구&nbsp;재투자&nbsp;방안&nbsp;구체화&nbsp;및&nbsp;이행&nbsp;관철<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;추진,&nbsp;완공&nbsp;목표&nbsp;시점(2035년)까지&nbsp;지속&nbsp;관리<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;비예산&nbsp;<br>&nbsp;&nbsp;○&nbsp;개발이익&nbsp;환수분&nbsp;:&nbsp;용산구&nbsp;재투자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	용산공원을 대한민국의 센트럴파크로</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="용산공원을 대한민국의 센트럴파크로">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;용산공원을&nbsp;남산·한강공원과&nbsp;연결되는&nbsp;대한민국&nbsp;대표&nbsp;문화·생태&nbsp;공원으로&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;공원&nbsp;조성&nbsp;취지를&nbsp;훼손하는&nbsp;모든&nbsp;개발·주거화&nbsp;시도&nbsp;차단<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;용산공원&nbsp;조성&nbsp;취지를&nbsp;훼손하는&nbsp;특별법&nbsp;개정&nbsp;시도에&nbsp;대해&nbsp;구의회에&nbsp;결의안&nbsp;채택&nbsp;촉구&nbsp;및&nbsp;구청장&nbsp;명의&nbsp;공식&nbsp;반대&nbsp;의견서&nbsp;제출<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;공론화&nbsp;체계&nbsp;구축&nbsp;및&nbsp;구민&nbsp;의견을&nbsp;중앙정부·서울시에&nbsp;공식&nbsp;전달<br>&nbsp;&nbsp;○&nbsp;국민의힘&nbsp;소속&nbsp;국회의원·서울시의원과&nbsp;공조하여&nbsp;국회&nbsp;및&nbsp;서울시의회&nbsp;차원의&nbsp;문제&nbsp;제기<br>&nbsp;&nbsp;○&nbsp;공원&nbsp;조성&nbsp;단계에&nbsp;맞춰&nbsp;남산-용산공원-한강공원을&nbsp;잇는&nbsp;도심&nbsp;녹지축&nbsp;완성을&nbsp;위해&nbsp;보행&nbsp;연계&nbsp;동선&nbsp;및&nbsp;주변&nbsp;환경&nbsp;정비를&nbsp;서울시와&nbsp;협력&nbsp;추진&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;추진,&nbsp;용산공원&nbsp;조성&nbsp;완료&nbsp;시점까지&nbsp;지속&nbsp;관리<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;비예산&nbsp;<br>&nbsp;&nbsp;○&nbsp;보행&nbsp;연계&nbsp;동선·주변&nbsp;환경&nbsp;정비&nbsp;:&nbsp;서울시&nbsp;및&nbsp;국비&nbsp;협력&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	일등 교육도시, 용산</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="일등 교육도시, 용산">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;서울시교육청과&nbsp;협의를&nbsp;통한&nbsp;학교&nbsp;신설·증설로&nbsp;교육&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;재개발·재건축으로&nbsp;변화한&nbsp;인구&nbsp;분포를&nbsp;반영한&nbsp;학군&nbsp;재배치로&nbsp;과밀학급&nbsp;해소<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;서울시교육청과&nbsp;학교&nbsp;신설·증설·부지&nbsp;확보&nbsp;방안&nbsp;적극&nbsp;협력&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;재개발·재건축으로&nbsp;변화한&nbsp;인구&nbsp;분포&nbsp;실태&nbsp;조사&nbsp;후&nbsp;서울시교육청에&nbsp;학군&nbsp;재배치&nbsp;공식&nbsp;건의<br>&nbsp;&nbsp;○&nbsp;대규모&nbsp;개발사업&nbsp;시행&nbsp;시&nbsp;교육시설&nbsp;부지&nbsp;확보&nbsp;의무화를&nbsp;교육청·국토부에&nbsp;강력&nbsp;촉구<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;학군&nbsp;재배치&nbsp;:&nbsp;취임&nbsp;즉시&nbsp;인구&nbsp;분포&nbsp;실태조사&nbsp;착수&nbsp;→&nbsp;임기&nbsp;내&nbsp;서울시교육청&nbsp;건의&nbsp;및&nbsp;협의&nbsp;완료&nbsp;<br>&nbsp;&nbsp;○&nbsp;학교&nbsp;신설·증설&nbsp;:&nbsp;서울시교육청&nbsp;협의&nbsp;착수&nbsp;후&nbsp;장기&nbsp;추진<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;학군&nbsp;재배치&nbsp;:&nbsp;비예산&nbsp;(행정&nbsp;협의&nbsp;중심)&nbsp;<br>&nbsp;&nbsp;○&nbsp;학교&nbsp;신설·증설:&nbsp;시비&nbsp;및&nbsp;국비,&nbsp;구는&nbsp;부지&nbsp;및&nbsp;행정&nbsp;지원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	용산 - 서울의 글로벌 게이트웨이로 (문화·관광 클러스터 완성)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="용산 - 서울의 글로벌 게이트웨이로 (문화·관광 클러스터 완성)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;용산국제업무지구·용산공원·국립중앙박물관·이태원·한강공원을&nbsp;잇는&nbsp;서울&nbsp;대표&nbsp;문화·관광&nbsp;클러스터&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;"서울의&nbsp;글로벌&nbsp;게이트웨이"&nbsp;브랜드&nbsp;정립으로&nbsp;용산을&nbsp;외국인이&nbsp;가장&nbsp;찾고&nbsp;싶은&nbsp;서울의&nbsp;거점으로&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;"서울의&nbsp;글로벌&nbsp;게이트웨이,&nbsp;용산"&nbsp;브랜드&nbsp;정립&nbsp;및&nbsp;서울시·한국관광공사와&nbsp;협력해&nbsp;국내외&nbsp;홍보&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;이태원·경리단길·용리단길·한강공원·국립중앙박물관을&nbsp;잇는&nbsp;관광&nbsp;동선&nbsp;정비&nbsp;및&nbsp;다국어&nbsp;안내&nbsp;체계&nbsp;고도화<br>&nbsp;&nbsp;○&nbsp;K-POP·다문화·역사를&nbsp;테마로&nbsp;한&nbsp;용산&nbsp;대표&nbsp;연간&nbsp;문화&nbsp;행사&nbsp;정례화<br>&nbsp;&nbsp;○&nbsp;관내&nbsp;외국&nbsp;대사관·문화원과&nbsp;협력&nbsp;프로그램&nbsp;구축으로&nbsp;글로벌&nbsp;도시&nbsp;이미지&nbsp;강화&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;브랜드&nbsp;전략&nbsp;수립&nbsp;및&nbsp;관계기관&nbsp;협의&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;클러스터&nbsp;기반&nbsp;구축&nbsp;및&nbsp;대표&nbsp;행사&nbsp;정례화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구비,&nbsp;서울시&nbsp;관광진흥기금&nbsp;및&nbsp;문화체육관광부&nbsp;국비&nbsp;공모&nbsp;병행&nbsp;활용</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

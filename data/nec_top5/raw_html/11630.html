@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김진 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	지역으로 돈이 돌아오는 수영구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="지역으로 돈이 돌아오는 수영구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;지역&nbsp;순환&nbsp;경제와&nbsp;좋은&nbsp;일자리&nbsp;1,000개로&nbsp;골고루&nbsp;잘사는&nbsp;수영구<br>-&nbsp;수영구&nbsp;지역&nbsp;순환&nbsp;경제센터&nbsp;설립&nbsp;-&nbsp;모두론(소상공인·청년창업자·경력단절여&nbsp;성·사회적기업&nbsp;대상&nbsp;저신용&nbsp;금융소외자&nbsp;우리동네&nbsp;든든&nbsp;대출)<br>-&nbsp;1인&nbsp;여성&nbsp;자영업자&nbsp;지원센터&nbsp;설치&nbsp;-&nbsp;점포임대보증금·시설운영금&nbsp;저금리&nbsp;지원,&nbsp;창업교육·컨설팅·마케팅&nbsp;지원,&nbsp;안전·돌봄&nbsp;연계<br>-&nbsp;수영구&nbsp;동백전&nbsp;-&nbsp;수영구민이&nbsp;수영에서&nbsp;쓰면&nbsp;3%&nbsp;추가&nbsp;적립,&nbsp;관광&nbsp;상생&nbsp;동백전(광&nbsp;안리&nbsp;숙박&nbsp;×&nbsp;골목식당&nbsp;패키지)<br>-&nbsp;봉사활동이&nbsp;보상받는&nbsp;수영구&nbsp;타임뱅크&nbsp;-&nbsp;이웃돌봄&nbsp;등&nbsp;봉사시간을&nbsp;동백전으로&nbsp;보상<br>-&nbsp;전통시장&nbsp;및&nbsp;골목상권&nbsp;지원&nbsp;-&nbsp;5권역(남천·광안·민락·수영·망미)&nbsp;골목형&nbsp;상점&nbsp;가&nbsp;지정,&nbsp;공동마케팅&nbsp;지원<br>-&nbsp;전통시장&nbsp;활성화&nbsp;-&nbsp;관광&nbsp;콘텐츠&nbsp;및&nbsp;스마트배송&nbsp;지원<br>-&nbsp;청년창업&nbsp;인큐베이팅&nbsp;-&nbsp;'광안XtoZ'를&nbsp;청년&nbsp;창업&nbsp;거점으로&nbsp;육성<br>-&nbsp;광안리&nbsp;관광특구&nbsp;지정&nbsp;추진&nbsp;-&nbsp;광안대교·광안리&nbsp;해변·민락수변공원&nbsp;연계&nbsp;관광&nbsp;인프라&nbsp;확충(숙박·교통)<br>-&nbsp;광안리&nbsp;시간제&nbsp;차없는&nbsp;거리&nbsp;확대&nbsp;실시&nbsp;-&nbsp;보행&nbsp;친화&nbsp;상권&nbsp;조성,&nbsp;주말·성수기&nbsp;문&nbsp;화&nbsp;공연&nbsp;연계<br>-&nbsp;수영구&nbsp;일자리&nbsp;1,000개:&nbsp;직접고용&nbsp;100개&nbsp;+&nbsp;파생고용&nbsp;400개&nbsp;+&nbsp;공공조달·사회적가&nbsp;치&nbsp;연계&nbsp;500개<br><br>□&nbsp;이행방법<br>○&nbsp;조례&nbsp;제정(지역화폐·타임뱅크·경제센터),&nbsp;부산광역시&nbsp;및&nbsp;부산경제진흥원&nbsp;협력,&nbsp;여성가족부·중소벤처기업부·행정안전부&nbsp;상권르네상스&nbsp;등&nbsp;중앙정부&nbsp;공모사업&nbsp;연계<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;완료&nbsp;(1차년도&nbsp;경제센터&nbsp;설립·동백전&nbsp;추가적립&nbsp;시행,&nbsp;2~3차년도&nbsp;일자리&nbsp;사다&nbsp;리&nbsp;구축,&nbsp;4차년도&nbsp;1,000개&nbsp;달성)<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비(중기부·행안부&nbsp;공모사업),&nbsp;시비,&nbsp;구비,&nbsp;동백전&nbsp;운영재원,&nbsp;민간&nbsp;협력</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	아이부터 어르신까지, 든든한 수영구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="아이부터 어르신까지, 든든한 수영구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;생애주기&nbsp;전&nbsp;과정을&nbsp;책임지는&nbsp;촘촘한&nbsp;돌봄&nbsp;안전망&nbsp;구축<br>-&nbsp;중학생&nbsp;무상저녁&nbsp;제공&nbsp;-&nbsp;수영구&nbsp;중학생&nbsp;전체&nbsp;대상<br>-&nbsp;아이돌봄서비스&nbsp;확대&nbsp;-&nbsp;하교&nbsp;후부터&nbsp;부모&nbsp;귀가까지&nbsp;픽업·돌봄&nbsp;원스톱,&nbsp;인근&nbsp;주&nbsp;민&nbsp;중심&nbsp;돌봄&nbsp;서포터즈단&nbsp;운영으로&nbsp;등하원·등하교&nbsp;지원&nbsp;등&nbsp;틈새&nbsp;돌봄&nbsp;확대<br>-&nbsp;어르신&nbsp;안전센터&nbsp;설치&nbsp;-&nbsp;건강·안전·돌봄&nbsp;원스톱&nbsp;센터&nbsp;+&nbsp;병원&nbsp;안심&nbsp;동행&nbsp;서비스&nbsp;(1인가구·고령자·만성질환자&nbsp;대상&nbsp;동행&nbsp;매니저&nbsp;운영)<br>-&nbsp;수영역&nbsp;실버카페&nbsp;운영&nbsp;-&nbsp;어르신&nbsp;일자리·사랑방&nbsp;역할<br>-&nbsp;B콘그라운드&nbsp;수다방&nbsp;2호&nbsp;설치&nbsp;-&nbsp;청소년&nbsp;소통·커뮤니티&nbsp;공간&nbsp;추가&nbsp;확보<br>-&nbsp;안전한&nbsp;통학로&nbsp;확보&nbsp;-&nbsp;스쿨존·통학로&nbsp;전수조사&nbsp;및&nbsp;안전시설&nbsp;보강,&nbsp;CCTV·가로&nbsp;등·비상벨&nbsp;등&nbsp;안전&nbsp;기반시설&nbsp;확대<br>-&nbsp;여성&nbsp;청소년&nbsp;생리용품&nbsp;지원&nbsp;및&nbsp;공공시설&nbsp;비치&nbsp;-&nbsp;저소득층&nbsp;자녀&nbsp;바우처&nbsp;지원,&nbsp;공&nbsp;공시설&nbsp;무상비치<br>-&nbsp;임산부·산모&nbsp;친환경&nbsp;농산물&nbsp;지원&nbsp;-&nbsp;임산부&nbsp;가구&nbsp;대상&nbsp;친환경&nbsp;농·축·수산물&nbsp;바&nbsp;우처&nbsp;제공<br>-&nbsp;우리아이자립펀드(더불어민주당&nbsp;공약&nbsp;연계)&nbsp;-&nbsp;출생부터&nbsp;성인까지&nbsp;정부가&nbsp;정기&nbsp;적립,&nbsp;교육·창업&nbsp;자금으로&nbsp;활용<br><br>□&nbsp;이행방법<br>○&nbsp;교육청·보건복지부·여성가족부·농림축산식품부&nbsp;협력&nbsp;사업,&nbsp;조례&nbsp;제정·정비,&nbsp;연차별&nbsp;예산&nbsp;확보,&nbsp;중앙당·시당&nbsp;공약과&nbsp;연계&nbsp;추진<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진&nbsp;(1차년도&nbsp;시범&nbsp;운영,&nbsp;2차년도&nbsp;전면&nbsp;확대,&nbsp;3~4차년도&nbsp;안정화·고도화)<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비,&nbsp;시비,&nbsp;구비,&nbsp;교육경비보조금</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	촘촘한 교통망, 막힘없는 수영구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="촘촘한 교통망, 막힘없는 수영구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;교통&nbsp;사각지대&nbsp;없는&nbsp;생활&nbsp;밀착형&nbsp;교통망&nbsp;구축<br>-&nbsp;41·62·83번&nbsp;버스&nbsp;노선&nbsp;연장&nbsp;(민락역&nbsp;→&nbsp;휴먼브릿지&nbsp;→&nbsp;센텀역)&nbsp;-&nbsp;민락동&nbsp;교통&nbsp;숙원&nbsp;해결<br>-&nbsp;수영구&nbsp;공공버스&nbsp;도입&nbsp;-&nbsp;교통&nbsp;소외지역&nbsp;맞춤형&nbsp;운행으로&nbsp;이동&nbsp;불편&nbsp;해소<br>-&nbsp;마을버스&nbsp;노선&nbsp;조정·신설로&nbsp;수영구&nbsp;실정에&nbsp;맞는&nbsp;촘촘한&nbsp;교통망&nbsp;구축<br>-&nbsp;버스&nbsp;정류장&nbsp;그늘막·벤치·안내판&nbsp;정비로&nbsp;어르신·주민&nbsp;이용&nbsp;편의&nbsp;개선<br>-&nbsp;광안해변로&nbsp;자전거도로·보행로&nbsp;완전&nbsp;분리&nbsp;-&nbsp;안전한&nbsp;보행·라이딩&nbsp;환경&nbsp;조성(부&nbsp;산시&nbsp;협의)<br>-&nbsp;광안리&nbsp;S자도로&nbsp;저속도로화&nbsp;추진&nbsp;-&nbsp;관광객·보행자&nbsp;안전&nbsp;확보(관계기관&nbsp;협의)<br>-&nbsp;보행자&nbsp;안전&nbsp;강화&nbsp;및&nbsp;어르신&nbsp;교통안전&nbsp;환경&nbsp;조성<br><br>□&nbsp;이행방법<br>○&nbsp;관계&nbsp;기관&nbsp;협의(부산광역시·부산교통공사·운수업체),&nbsp;조례&nbsp;정비,&nbsp;예산&nbsp;확보,&nbsp;연&nbsp;차별&nbsp;세부&nbsp;추진&nbsp;계획&nbsp;수립<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;완료&nbsp;(1차년도&nbsp;노선&nbsp;조정·정류장&nbsp;정비,&nbsp;2~3차년도&nbsp;공공버스&nbsp;도입&nbsp;및&nbsp;노선&nbsp;연장)<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비,&nbsp;시비,&nbsp;구비,&nbsp;민자&nbsp;협력&nbsp;(운수업체&nbsp;협의)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	읽고 즐기는 문화수영구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="읽고 즐기는 문화수영구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;역사·문화·지식이&nbsp;일상&nbsp;속에&nbsp;흐르는&nbsp;문화수영구&nbsp;조성<br>-&nbsp;수영세계인문도서관&nbsp;건립&nbsp;-&nbsp;금련산&nbsp;충무시설&nbsp;리모델링으로&nbsp;도서관&nbsp;+&nbsp;수영세계인&nbsp;문학축제&nbsp;거점화<br>-&nbsp;바다도서관·복합문화시설&nbsp;건립&nbsp;-&nbsp;옛&nbsp;청구마트&nbsp;부지&nbsp;활용<br>-&nbsp;좌수영길&nbsp;조성&nbsp;-&nbsp;휴먼브릿지·팔도시장·수영사적공원·B콘그라운드·F1963을&nbsp;잇는&nbsp;역사문화&nbsp;산책길<br>-&nbsp;구정혁신:&nbsp;AI구청&nbsp;'수영봇'&nbsp;도입으로&nbsp;24시간&nbsp;민원&nbsp;응대<br>-&nbsp;주민참여예산&nbsp;확대&nbsp;및&nbsp;주민자치회&nbsp;혁신<br><br>□&nbsp;이행방법<br>○&nbsp;기존&nbsp;시설(충무시설·청구마트&nbsp;부지)&nbsp;활용&nbsp;리모델링&nbsp;우선,&nbsp;부산광역시·문화체&nbsp;육관광부&nbsp;연계&nbsp;공모사업&nbsp;추진,&nbsp;도시계획&nbsp;절차&nbsp;이행<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진&nbsp;(1차년도&nbsp;기본계획·타당성&nbsp;검토,&nbsp;2~3차년도&nbsp;설계·착공,&nbsp;4&nbsp;차년도&nbsp;부분&nbsp;개관)<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비,&nbsp;시비,&nbsp;구비&nbsp;(문체부·행안부&nbsp;공모사업&nbsp;활용)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	걷기 좋고 살기 좋은 수영구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="걷기 좋고 살기 좋은 수영구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;기후위기&nbsp;대응과&nbsp;주민&nbsp;건강증진을&nbsp;함께&nbsp;잡는&nbsp;친환경&nbsp;생활도시<br>-&nbsp;러닝도시&nbsp;수영&nbsp;조성&nbsp;-&nbsp;오션러너스테이션(금련산역)&nbsp;지원&nbsp;+&nbsp;민락역&nbsp;리버러너스테&nbsp;이션&nbsp;유치<br>-&nbsp;3색&nbsp;맨발&nbsp;황토길&nbsp;조성&nbsp;-&nbsp;해변·강변·숲길&nbsp;세&nbsp;축을&nbsp;잇는&nbsp;맨발&nbsp;황토길<br>-&nbsp;어르신·주민&nbsp;건강증진을&nbsp;위한&nbsp;수영구&nbsp;파크골프장&nbsp;조기&nbsp;완공<br>-&nbsp;햇빛펀드·공용전기&nbsp;반값&nbsp;실현&nbsp;-&nbsp;태양광&nbsp;협동조합&nbsp;햇빛펀드&nbsp;조성으로&nbsp;전기요금&nbsp;부담&nbsp;절감<br>-&nbsp;하얀지붕사업&nbsp;추진&nbsp;-&nbsp;단독주택&nbsp;옥상&nbsp;차열페인트&nbsp;도포로&nbsp;열섬&nbsp;완화·냉방비&nbsp;절감<br>-&nbsp;재개발·재건축·인허가&nbsp;원스톱&nbsp;전담&nbsp;창구&nbsp;설치<br>-&nbsp;광안리&nbsp;공중화장실·흡연부스&nbsp;재정비&nbsp;-&nbsp;광안대교&nbsp;야경과&nbsp;조화로운&nbsp;디자인,&nbsp;관광&nbsp;객·주민&nbsp;모두&nbsp;만족하는&nbsp;도시미관&nbsp;조성<br>-&nbsp;기후보험&nbsp;도입(더불어민주당&nbsp;공약&nbsp;연계)&nbsp;-&nbsp;폭염·폭우&nbsp;등&nbsp;이상기후&nbsp;발생&nbsp;시&nbsp;손해&nbsp;사정&nbsp;없이&nbsp;즉시&nbsp;정액&nbsp;보험금&nbsp;지급<br><br>□&nbsp;이행방법<br>○&nbsp;환경부·산업통상자원부&nbsp;공모사업&nbsp;연계,&nbsp;협동조합&nbsp;설립&nbsp;지원,&nbsp;민관&nbsp;협력&nbsp;사업&nbsp;단계적&nbsp;추진,&nbsp;중앙당·시당&nbsp;공약과&nbsp;연계&nbsp;추진<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;완료&nbsp;(1차년도&nbsp;시범사업&nbsp;착수,&nbsp;2~3차년도&nbsp;확대&nbsp;시행,&nbsp;4차년도&nbsp;정착·평가)<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비,&nbsp;시비,&nbsp;구비,&nbsp;협동조합&nbsp;출자금,&nbsp;민간&nbsp;매칭</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;임택 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	쾌적하고 편리한 도시, 누구나 안심하는 동구로</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="쾌적하고 편리한 도시, 누구나 안심하는 동구로">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;편리한&nbsp;주차,&nbsp;쾌적한&nbsp;주거여건,&nbsp;빈틈없는&nbsp;안전으로&nbsp;시민의&nbsp;행복한&nbsp;일상을&nbsp;지키는&nbsp;스마트&nbsp;안심&nbsp;도시를&nbsp;구축한다.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;노후주택&nbsp;집수리&nbsp;지원&nbsp;및&nbsp;빈집&nbsp;정비를&nbsp;통한&nbsp;생활정원·동네주차장&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;주차난&nbsp;해소를&nbsp;위한&nbsp;공영주차장&nbsp;확충과&nbsp;공유주차&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;시내버스&nbsp;스마트정류장&nbsp;설치&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;냉난방·공기정화·안전비상벨&nbsp;등을&nbsp;갖춘&nbsp;스마트&nbsp;버스정류장&nbsp;확대&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;맨발걷기&nbsp;건강길&nbsp;조성&nbsp;및&nbsp;골목길·통학로·노약자&nbsp;보행환경&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;지하철·시내버스와&nbsp;연계한&nbsp;동행(동구행복)버스&nbsp;운영으로&nbsp;촘촘한&nbsp;마을교통체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;재난통합관제&nbsp;강화&nbsp;및&nbsp;폭우·화재·지진&nbsp;대응체계&nbsp;고도화<br>&nbsp;&nbsp;○&nbsp;악취저감&nbsp;스마트&nbsp;하수관로&nbsp;사업&nbsp;및&nbsp;오수·우수&nbsp;분리사업&nbsp;우선&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;공사&nbsp;소음·먼지&nbsp;관리&nbsp;강화&nbsp;및&nbsp;생활민원&nbsp;신속처리&nbsp;시스템&nbsp;구축<br><br>&nbsp;□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;단기·중기·장기&nbsp;분류하여&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;기초조사·연구용역·사업계획&nbsp;수립,&nbsp;2027년&nbsp;사업&nbsp;추진,&nbsp;2030년까지&nbsp;사업&nbsp;완료&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;시비&nbsp;공모사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;도시재생,&nbsp;생활SOC,&nbsp;스마트시티사업&nbsp;등&nbsp;국가&nbsp;지원사업&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;구비&nbsp;투자&nbsp;및&nbsp;연차별&nbsp;예산&nbsp;분산&nbsp;편성<br>&nbsp;&nbsp;○&nbsp;민간투자&nbsp;및&nbsp;주민참여형&nbsp;사업&nbsp;병행&nbsp;추진으로&nbsp;재정&nbsp;부담&nbsp;최소화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	AI와 신산업 기반의 활력있는 경제도시 동구로</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="AI와 신산업 기반의 활력있는 경제도시 동구로">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;인공지능(AI)&nbsp;혁신과&nbsp;신산업&nbsp;육성을&nbsp;통해&nbsp;지역&nbsp;경제의&nbsp;역동성을&nbsp;깨우고&nbsp;미래&nbsp;성장&nbsp;동력을&nbsp;확보한다.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;□&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;○&nbsp;공공보건·복지&nbsp;데이터를&nbsp;활용한&nbsp;AI&nbsp;돌봄테크&nbsp;실증센터&nbsp;구축&nbsp;및&nbsp;사업화&nbsp;지원체계&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;AI헬스케어&nbsp;창업·실증밸리&nbsp;조성&nbsp;및&nbsp;노화산업&nbsp;실증연구지원센터&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;금남밸리&nbsp;중심&nbsp;AI&nbsp;융복합&nbsp;문화콘텐츠&nbsp;산업&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;골목상권&nbsp;맞춤형&nbsp;교육,&nbsp;공동브랜딩,&nbsp;금융·마케팅&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;충장로&nbsp;몽키터미널&nbsp;내&nbsp;조선대학교&nbsp;도심캠퍼스&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;공실&nbsp;공간을&nbsp;활용한&nbsp;도심형&nbsp;스마트팜&nbsp;조성&nbsp;및&nbsp;미래농업&nbsp;모델&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;전통시장별&nbsp;문화·정보통신기술(ICT)&nbsp;융합&nbsp;특화사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;동구랑페이&nbsp;확대&nbsp;발행을&nbsp;통한&nbsp;지역&nbsp;내&nbsp;소비&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;동명동&nbsp;중심&nbsp;글로컬&nbsp;상권&nbsp;창출사업&nbsp;추진&nbsp;및&nbsp;K-로컬브랜드&nbsp;육성<br><br>&nbsp;□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;단기·중기·장기&nbsp;분류하여&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;기초조사·연구용역·사업계획&nbsp;수립,&nbsp;2027년&nbsp;사업&nbsp;추진,&nbsp;2030년까지&nbsp;사업&nbsp;완료&nbsp;<br><br>&nbsp;□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·시비&nbsp;공모사업&nbsp;및&nbsp;정부&nbsp;AI·디지털산업&nbsp;지원사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;중소벤처기업부,&nbsp;과학기술정보통신부&nbsp;등&nbsp;중앙부처&nbsp;연계사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;민간기업&nbsp;투자유치&nbsp;및&nbsp;산학연&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;도시재생사업&nbsp;및&nbsp;상권활성화&nbsp;사업과&nbsp;연계하여&nbsp;재정&nbsp;효율성&nbsp;강화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	일상이 예술이 되는 문화관광 동구로</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="일상이 예술이 되는 문화관광 동구로">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;주민들의&nbsp;생활문화예술활동을&nbsp;지원하여&nbsp;일상에&nbsp;영감을&nbsp;주고,&nbsp;다시&nbsp;찾고&nbsp;싶은&nbsp;관광&nbsp;매력이&nbsp;가득한&nbsp;활기찬&nbsp;도시를&nbsp;만든다.<br><br>&nbsp;□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;신양파크호텔&nbsp;부지&nbsp;내&nbsp;국립현대미술관&nbsp;광주관&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;무등산&nbsp;증심사&nbsp;권역&nbsp;관광기반시설&nbsp;정비&nbsp;및&nbsp;예술관광&nbsp;콘텐츠&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;아트패스를&nbsp;활용한&nbsp;예술여행&nbsp;관광상품&nbsp;개발&nbsp;및&nbsp;지역상권&nbsp;연계&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;생활문화예술&nbsp;동아리&nbsp;및&nbsp;주민&nbsp;문화예술&nbsp;활동&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;민주·인권·역사·인문&nbsp;자원의&nbsp;관광상품화&nbsp;및&nbsp;브랜드&nbsp;콘텐츠&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;충장로&nbsp;거점시설과&nbsp;명인명장·백년가게&nbsp;등을&nbsp;연계한&nbsp;관광벨트&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;동명동&nbsp;카페거리&nbsp;활성화&nbsp;및&nbsp;동명동-ACC-충장로&nbsp;MZ문화관광&nbsp;특구&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;야간&nbsp;버스킹·공연&nbsp;상설화&nbsp;및&nbsp;청년문화&nbsp;콘텐츠&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;파크골프장·족구장·탁구장·풋살장&nbsp;등&nbsp;생활체육시설&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;동명동&nbsp;커피축제의&nbsp;전국&nbsp;브랜드화&nbsp;추진<br><br>&nbsp;□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;단기·중기·장기&nbsp;분류하여&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;기초조사·연구용역·사업계획&nbsp;수립,&nbsp;2027년&nbsp;사업&nbsp;추진,&nbsp;2030년까지&nbsp;사업&nbsp;완료&nbsp;<br><br>&nbsp;□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;문화체육관광부&nbsp;및&nbsp;국토교통부&nbsp;등&nbsp;중앙부처&nbsp;공모사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;민간기업·문화기관·관광업계&nbsp;협력&nbsp;및&nbsp;투자유치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;축제·관광상품&nbsp;수익&nbsp;및&nbsp;지역화폐&nbsp;연계사업&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;구비&nbsp;예산의&nbsp;단계적&nbsp;투자&nbsp;및&nbsp;민관협력&nbsp;방식&nbsp;병행&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	모두를 지키는 촘촘한 복지와 따뜻한 돌봄 동구로</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="모두를 지키는 촘촘한 복지와 따뜻한 돌봄 동구로">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;누구도&nbsp;소외되지&nbsp;않는&nbsp;두터운&nbsp;돌봄과&nbsp;맞춤형&nbsp;보건&nbsp;서비스로&nbsp;전생애주기&nbsp;행복권을&nbsp;보장한다.&nbsp;<br>&nbsp;&nbsp;&nbsp;<br>&nbsp;□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;건강도시&nbsp;구축&nbsp;및&nbsp;복지사각지대&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;임산부&nbsp;가정을&nbsp;위한&nbsp;맘택시&nbsp;및&nbsp;교통취약지역&nbsp;행복동구택시&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;산후조리비&nbsp;및&nbsp;신생아&nbsp;건강관리&nbsp;지원을&nbsp;통한&nbsp;출산친화&nbsp;환경&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;ICT&nbsp;기반&nbsp;스마트경로당&nbsp;조성&nbsp;및&nbsp;디지털&nbsp;문해교육&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;국공립&nbsp;어린이집&nbsp;활용&nbsp;24시간&nbsp;돌봄체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;이동·진료·수납&nbsp;등&nbsp;원스톱&nbsp;병원&nbsp;안심동행&nbsp;서비스&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;공유공간&nbsp;활용&nbsp;‘동행(동구행복)라면&nbsp;카페’&nbsp;운영&nbsp;<br>&nbsp;&nbsp;○&nbsp;건강먹거리&nbsp;지원과&nbsp;로컬푸드&nbsp;순환체계&nbsp;구축을&nbsp;통한&nbsp;주민&nbsp;건강&nbsp;증진<br>&nbsp;&nbsp;○&nbsp;취약계층&nbsp;대상&nbsp;이불&nbsp;빨래방&nbsp;운영으로&nbsp;생활밀착형&nbsp;복지서비스&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;맞춤형&nbsp;일자리&nbsp;확대&nbsp;및&nbsp;품격&nbsp;있는&nbsp;안락한&nbsp;노후&nbsp;생활&nbsp;보장<br><br>&nbsp;□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;단기·중기·장기&nbsp;분류하여&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;기초조사·연구용역·사업계획&nbsp;수립,&nbsp;2027년&nbsp;사업&nbsp;추진,&nbsp;2030년까지&nbsp;사업&nbsp;완료&nbsp;<br><br>&nbsp;□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;보건복지부·과학기술정보통신부&nbsp;등&nbsp;중앙부처&nbsp;공모사업&nbsp;및&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;사회복지기금&nbsp;및&nbsp;지역사회보장협의체&nbsp;협력사업&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;민간기업·의료기관·복지기관과&nbsp;협력체계&nbsp;구축&nbsp;및&nbsp;후원&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;구비&nbsp;예산의&nbsp;단계적&nbsp;투자&nbsp;및&nbsp;민관협력&nbsp;방식&nbsp;병행&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	지속가능한 미래, 사람과 자연이 함께하는 동구로</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="지속가능한 미래, 사람과 자연이 함께하는 동구로">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;탄소중립을&nbsp;선도하는&nbsp;녹색&nbsp;생태계&nbsp;조성으로&nbsp;기후&nbsp;위기에&nbsp;강한&nbsp;지속&nbsp;가능한&nbsp;환경을&nbsp;실현한다.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;참여형&nbsp;탄소중립&nbsp;실천사업&nbsp;확대&nbsp;및&nbsp;동구형&nbsp;탄소포인트제&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;기후변화&nbsp;대응&nbsp;공유우산&nbsp;캠페인&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;전기차·수소차&nbsp;충전소&nbsp;지속&nbsp;확대를&nbsp;통한&nbsp;친환경&nbsp;교통&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;푸른길공원&nbsp;산책로·조명·편의시설&nbsp;개선&nbsp;등&nbsp;생활공원&nbsp;환경&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;쓰레기&nbsp;불법투기&nbsp;집중&nbsp;관리&nbsp;및&nbsp;CCTV&nbsp;설치&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;기후위기&nbsp;취약계층&nbsp;보호를&nbsp;위한&nbsp;기후복지사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;태양광·태양열&nbsp;등&nbsp;신재생에너지&nbsp;보급&nbsp;확대&nbsp;및&nbsp;융복합&nbsp;지원사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;빗물저금통&nbsp;설치&nbsp;지원을&nbsp;통한&nbsp;물&nbsp;순환&nbsp;도시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;생활권&nbsp;녹지공간&nbsp;확대&nbsp;및&nbsp;도심&nbsp;바람길숲&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;쿨링포그·그늘막·그늘길&nbsp;확대&nbsp;설치를&nbsp;통한&nbsp;도시&nbsp;열섬현상&nbsp;대응&nbsp;강화<br><br>&nbsp;□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;단기·중기·장기&nbsp;분류하여&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;기초조사·연구용역·사업계획&nbsp;수립,&nbsp;2027년&nbsp;사업&nbsp;추진,&nbsp;2030년까지&nbsp;사업&nbsp;완료&nbsp;<br><br>&nbsp;□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;환경부·산업통상자원부&nbsp;등&nbsp;중앙부처&nbsp;공모사업&nbsp;및&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;신재생에너지&nbsp;보급사업&nbsp;및&nbsp;녹색도시&nbsp;조성사업과&nbsp;연계한&nbsp;재정&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;공공기관·민간기업&nbsp;협력&nbsp;및&nbsp;주민참여형&nbsp;사업&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;탄소포인트제&nbsp;및&nbsp;지역화폐&nbsp;연계사업&nbsp;활용</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

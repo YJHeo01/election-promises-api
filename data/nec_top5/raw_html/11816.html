@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김병삼 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	영천 K-POP 돔 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="영천 K-POP 돔 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;K-POP&nbsp;공연&nbsp;거점&nbsp;도시&nbsp;조성<br>○&nbsp;연&nbsp;100만&nbsp;명&nbsp;방문객&nbsp;유치,&nbsp;지역경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>○&nbsp;완산동&nbsp;일대&nbsp;부지&nbsp;확정&nbsp;및&nbsp;기본계획&nbsp;수립<br>○&nbsp;민관합동(PPP)&nbsp;방식으로&nbsp;사업&nbsp;추진<br>○&nbsp;1만~1.5만석&nbsp;규모&nbsp;돔&nbsp;공연장&nbsp;건설<br>○&nbsp;교통·주차·상업시설&nbsp;등&nbsp;복합&nbsp;인프라&nbsp;구축<br>○&nbsp;글로벌&nbsp;공연기획사&nbsp;협력&nbsp;및&nbsp;공연&nbsp;유치<br><br>□&nbsp;이행기간<br>○&nbsp;1년:&nbsp;타당성&nbsp;조사·부지&nbsp;확정·투자유치<br>○&nbsp;2~3년:&nbsp;설계·인허가·착공<br>○&nbsp;4~5년:&nbsp;공사&nbsp;완료&nbsp;및&nbsp;개장<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;총사업비&nbsp;약&nbsp;3,000억원<br>○&nbsp;민자&nbsp;투자&nbsp;약&nbsp;1,500억원&nbsp;<br>○&nbsp;명명권,&nbsp;상업시설&nbsp;수익&nbsp;등으로&nbsp;추가&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	탄약창 부지 K-방산 산업단지 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="탄약창 부지 K-방산 산업단지 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;탄약창&nbsp;부지를&nbsp;K-방산&nbsp;산업&nbsp;거점으로&nbsp;전환<br>○&nbsp;방산기업&nbsp;집적&nbsp;및&nbsp;청년&nbsp;일자리&nbsp;3,000개&nbsp;창출<br>○&nbsp;지역&nbsp;산업을&nbsp;기계·부품&nbsp;중심에서&nbsp;방산&nbsp;고부가&nbsp;산업으로&nbsp;고도화<br><br>□&nbsp;이행방법<br>○&nbsp;군사시설&nbsp;해제&nbsp;및&nbsp;부지&nbsp;확보<br>&nbsp;○&nbsp;방산&nbsp;특화&nbsp;산업단지&nbsp;지정&nbsp;추진<br>&nbsp;○&nbsp;R&D-실증-생산&nbsp;연계&nbsp;클러스터&nbsp;구축<br>○&nbsp;방산기업&nbsp;및&nbsp;연구기관&nbsp;유치<br>&nbsp;○&nbsp;시험·인증&nbsp;인프라&nbsp;구축<br><br>□&nbsp;이행기간<br>○&nbsp;1~2년:&nbsp;부지&nbsp;협의·기본계획&nbsp;수립<br>&nbsp;○&nbsp;3~4년:&nbsp;산업단지&nbsp;지정·인허가·착공<br>&nbsp;○&nbsp;5~6년:&nbsp;기업&nbsp;유치&nbsp;및&nbsp;단계적&nbsp;운영<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비&nbsp;지원(국방부·산업통상자원부·중소벤처기업부)&nbsp;:&nbsp;약&nbsp;3,000억&nbsp;원<br>&nbsp;○&nbsp;경상북도·영천시&nbsp;지방비&nbsp;:&nbsp;약&nbsp;1,000억&nbsp;원<br>&nbsp;○&nbsp;민간기업&nbsp;투자&nbsp;유치&nbsp;:&nbsp;약&nbsp;2,000억&nbsp;원<br>○&nbsp;공공기관·연구기관&nbsp;참여&nbsp;:&nbsp;약&nbsp;500억&nbsp;원<br>○&nbsp;민간기업&nbsp;투자&nbsp;유치&nbsp;:&nbsp;약&nbsp;2,000억&nbsp;원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	영천하이테크파크지구 확대 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="영천하이테크파크지구 확대 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;하이테크파크&nbsp;확대&nbsp;조성&nbsp;및&nbsp;첨단산업&nbsp;집적화<br>○&nbsp;우량기업&nbsp;유치&nbsp;및&nbsp;양질의&nbsp;일자리&nbsp;창출<br>○&nbsp;영천을&nbsp;첨단산업&nbsp;중심&nbsp;도시로&nbsp;전환<br><br>□&nbsp;이행방법<br>○&nbsp;산업단지&nbsp;추가&nbsp;부지&nbsp;확보&nbsp;및&nbsp;단계적&nbsp;확장<br>○&nbsp;미래모빌리티·첨단부품&nbsp;등&nbsp;전략산업&nbsp;유치<br>○&nbsp;산학연&nbsp;협력&nbsp;기반&nbsp;기술혁신&nbsp;클러스터&nbsp;구축<br>○&nbsp;기업&nbsp;맞춤형&nbsp;인프라&nbsp;및&nbsp;지원체계&nbsp;강화<br>&nbsp;<br>□&nbsp;이행기간<br>○&nbsp;1~2년:&nbsp;확장&nbsp;계획&nbsp;수립&nbsp;및&nbsp;부지&nbsp;확보<br>○&nbsp;3~4년:&nbsp;인허가&nbsp;및&nbsp;기반시설&nbsp;조성<br>○&nbsp;5~6년:&nbsp;기업&nbsp;유치&nbsp;및&nbsp;본격&nbsp;운영<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비:&nbsp;약&nbsp;5000억원<br>○&nbsp;도비:&nbsp;약&nbsp;1,500억원,&nbsp;시비:&nbsp;약&nbsp;1,000억원<br>○&nbsp;공공기관&nbsp;투자:&nbsp;약&nbsp;1,000억원<br>○&nbsp;민간기관&nbsp;투자:&nbsp;약&nbsp;3,000억원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	경부고속도로 축, 영천 미래모빌리티 산업단지 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="경부고속도로 축, 영천 미래모빌리티 산업단지 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;경부고속도로&nbsp;축을&nbsp;활용한&nbsp;미래모빌리티&nbsp;산업&nbsp;거점&nbsp;구축<br>○&nbsp;자동차·부품&nbsp;산업을&nbsp;전기차·자율주행&nbsp;중심으로&nbsp;전환<br>○&nbsp;기업&nbsp;유치&nbsp;및&nbsp;양질의&nbsp;일자리&nbsp;창출<br><br>□&nbsp;이행방법<br>○&nbsp;경부고속도로&nbsp;인접&nbsp;부지&nbsp;산업단지&nbsp;지정<br>○&nbsp;전기차·자율주행·배터리&nbsp;등&nbsp;전략산업&nbsp;유치<br>○&nbsp;실증·시험·생산&nbsp;연계&nbsp;클러스터&nbsp;구축<br>○&nbsp;도로·물류&nbsp;등&nbsp;산업&nbsp;인프라&nbsp;확충<br>○&nbsp;기업&nbsp;맞춤형&nbsp;투자&nbsp;인센티브&nbsp;제공<br><br>□&nbsp;이행기간<br>○&nbsp;1~2년:&nbsp;부지&nbsp;선정&nbsp;및&nbsp;기본계획&nbsp;수립<br>○&nbsp;3~4년:&nbsp;인허가&nbsp;및&nbsp;착공<br>○&nbsp;5~6년:&nbsp;기업&nbsp;유치&nbsp;및&nbsp;단계적&nbsp;운영<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비:&nbsp;약&nbsp;5,000억<br>○&nbsp;도비:&nbsp;1,500억,&nbsp;시비:&nbsp;1,000억원<br>○&nbsp;공공기관&nbsp;투자:&nbsp;약&nbsp;1,000억원,&nbsp;민간기관&nbsp;투자:&nbsp;약&nbsp;1,000억원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	영천, 아이 1억 책임도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="영천, 아이 1억 책임도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;출생부터&nbsp;18세까지&nbsp;아이&nbsp;1인당&nbsp;1억&nbsp;원&nbsp;성장&nbsp;지원<br>○&nbsp;출산·양육&nbsp;부담&nbsp;완화&nbsp;및&nbsp;인구&nbsp;감소&nbsp;대응<br>○&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;도시&nbsp;조성<br><br>□&nbsp;이행방법<br>○&nbsp;출산·보육·교육&nbsp;전&nbsp;주기&nbsp;통합&nbsp;지원체계&nbsp;구축<br>○&nbsp;부모급여·아동수당&nbsp;등&nbsp;기존&nbsp;지원&nbsp;+&nbsp;영천형&nbsp;추가&nbsp;지원&nbsp;설계<br>○&nbsp;임산부&nbsp;교통비·보육·교육비&nbsp;지원&nbsp;확대<br>○&nbsp;영천형&nbsp;아이성장지원금(단계별&nbsp;지급)&nbsp;도입<br>○&nbsp;공공보육·돌봄&nbsp;인프라&nbsp;확충&nbsp;<br><br>□&nbsp;이행기간<br>○&nbsp;취임&nbsp;즉시&nbsp;제도&nbsp;설계&nbsp;및&nbsp;단계적&nbsp;시행<br>○&nbsp;연차별&nbsp;확대&nbsp;및&nbsp;정착<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;시비&nbsp;약&nbsp;300억원<br>○&nbsp;국가&nbsp;기존&nbsp;지원(아동수당,&nbsp;부모&nbsp;급여&nbsp;등)&nbsp;약&nbsp;150억원<br>○&nbsp;국비·&nbsp;도비(돌봄·교육·공공서비스&nbsp;환산)&nbsp;약&nbsp;150억원</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

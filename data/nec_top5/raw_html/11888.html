@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;서강석 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	신속한 재개발·재건축 추진으로 주거 명품도시를 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="신속한 재개발·재건축 추진으로 주거 명품도시를 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;:&nbsp;신속한&nbsp;재건축,&nbsp;재개발&nbsp;추진으로&nbsp;고품격&nbsp;주거환경&nbsp;조성<br><br>□&nbsp;이행방법&nbsp;:<br>&nbsp;&nbsp;▶&nbsp;규제행정에서&nbsp;지원행정으로&nbsp;대전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민선&nbsp;8기&nbsp;송파구는&nbsp;기존&nbsp;규제&nbsp;일변도&nbsp;행정을&nbsp;과감히&nbsp;철폐하고,&nbsp;재건축,&nbsp;재개발을&nbsp;적극&nbsp;돕는&nbsp;지원행정으로&nbsp;패러다임을&nbsp;전환,&nbsp;일관되고&nbsp;신속하게&nbsp;추진해&nbsp;하고&nbsp;있음.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구청장이&nbsp;직접&nbsp;나서&nbsp;관계기관과&nbsp;협의하고&nbsp;신속통합기획을&nbsp;유지하는&nbsp;등&nbsp;전방위적인&nbsp;노력을&nbsp;기울이고&nbsp;있음.<br>&nbsp;&nbsp;▶&nbsp;본궤도에&nbsp;오른&nbsp;총&nbsp;41개&nbsp;단지(재건축&nbsp;35곳·재개발&nbsp;6곳)&nbsp;정비사업&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;송파구&nbsp;최대&nbsp;주거&nbsp;취약지역인&nbsp;거여·마천에&nbsp;미니&nbsp;신도시급&nbsp;1만5000여&nbsp;가구가&nbsp;2033년까지&nbsp;준공될&nbsp;예정임.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘올림픽&nbsp;3대장’(아시아선수촌·올림픽훼밀리타운·올림픽선수기자촌)&nbsp;및&nbsp;잠실주공&nbsp;5단지,&nbsp;장미아파트&nbsp;등&nbsp;신속통합기획으로&nbsp;속속&nbsp;진행&nbsp;중임.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;잠실진주와&nbsp;미성·크로바는&nbsp;잠실래미안아이파크와&nbsp;잠실르엘&nbsp;등&nbsp;4500여&nbsp;가구로&nbsp;재건축&nbsp;돼&nbsp;입주&nbsp;진행&nbsp;중임.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재건축&nbsp;재개발&nbsp;신속&nbsp;추진&nbsp;TF&nbsp;구성<br>&nbsp;<br>□&nbsp;이행기간&nbsp;:<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘26&nbsp;~&nbsp;‘30&nbsp;지속&nbsp;추진<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	미래산업을 육성하여 한 차원 높은 도시 를 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="미래산업을 육성하여 한 차원 높은 도시 를 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;:&nbsp;송파를&nbsp;AI,&nbsp;IT,&nbsp;스포츠,&nbsp;글로벌&nbsp;관광&nbsp;등&nbsp;미래산업의&nbsp;중심지로&nbsp;조성<br><br>□&nbsp;이행방법&nbsp;:<br>&nbsp;&nbsp;▶&nbsp;잠실종합운동장&nbsp;일대&nbsp;약&nbsp;50만㎡&nbsp;스포츠·MICE&nbsp;복합공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전시컨벤션센터,&nbsp;호텔,&nbsp;스포츠콤플렉스&nbsp;조성으로&nbsp;서울&nbsp;동남권&nbsp;관광&nbsp;허브로&nbsp;육성.&nbsp;<br>&nbsp;&nbsp;▶&nbsp;문정이노베이션센터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예비(청년)&nbsp;창업자.&nbsp;스타트업&nbsp;대상&nbsp;창업&nbsp;공간&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·로봇·VR&nbsp;등&nbsp;디지털&nbsp;신기술&nbsp;전시,&nbsp;체험존&nbsp;운영<br>&nbsp;&nbsp;▶&nbsp;송파ICT&nbsp;보안클러스터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙전파관리소&nbsp;청사&nbsp;증축과&nbsp;정보통신·보안시설&nbsp;집약을&nbsp;통한&nbsp;ICT&nbsp;성장거점&nbsp;마련.&nbsp;<br>&nbsp;&nbsp;▶&nbsp;송파대로&nbsp;비즈니스&nbsp;벨트&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;잠실~석촌~ICT클러스터~문정비즈벨리&nbsp;기업&nbsp;간&nbsp;협력&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;▶&nbsp;송파·성남&nbsp;경계&nbsp;‘복정역세권’&nbsp;복합&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복정역&nbsp;일대&nbsp;대규모&nbsp;복합&nbsp;개발을&nbsp;통해&nbsp;산업·연구·유통&nbsp;중심도시로&nbsp;도약.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;화훼마을과&nbsp;연계한&nbsp;환승센터&nbsp;개발로&nbsp;주거환경&nbsp;개선하고,&nbsp;주차&nbsp;공간&nbsp;확보.<br>&nbsp;&nbsp;▶&nbsp;옛&nbsp;성동구치소&nbsp;부지&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;옛&nbsp;성동구치소&nbsp;부지에&nbsp;공동주택&nbsp;및&nbsp;신혼희망타운&nbsp;건립과&nbsp;오금역&nbsp;사거리를&nbsp;중심으로&nbsp;한&nbsp;가락동&nbsp;일대&nbsp;14만㎡를&nbsp;신규&nbsp;지구단위계획구역으로&nbsp;지정.&nbsp;<br><br>□&nbsp;이행기간&nbsp;:<br>&nbsp;&nbsp;-&nbsp;‘26&nbsp;~&nbsp;‘30&nbsp;지속&nbsp;추진<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	정원도시 송파를 조성하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="정원도시 송파를 조성하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;:&nbsp;일상&nbsp;속&nbsp;어디서나&nbsp;누리는&nbsp;정원도시&nbsp;조성<br><br>□&nbsp;이행방법&nbsp;:<br>&nbsp;&nbsp;▶&nbsp;가로변&nbsp;정원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;송파대로(석촌호수&nbsp;사거리~가락시장&nbsp;사거리)&nbsp;1.5km&nbsp;구간&nbsp;차선을&nbsp;축소하고&nbsp;보도를&nbsp;넓혀&nbsp;벚나무와&nbsp;계절&nbsp;꽃을&nbsp;식재한&nbsp;가로정원&nbsp;조성.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;석촌호수로·잠실역&nbsp;사거리·몽촌토성역&nbsp;삼거리&nbsp;등에도&nbsp;가로정원&nbsp;조성<br>&nbsp;&nbsp;▶&nbsp;수변감성정원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장지천·성내천·탄천&nbsp;등&nbsp;수변&nbsp;녹지&nbsp;정원화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장지천은&nbsp;'서울형&nbsp;수변감성도시&nbsp;프로젝트'로&nbsp;수변활력거점&nbsp;조성&nbsp;<br>&nbsp;<br>□&nbsp;이행기간&nbsp;:<br>&nbsp;&nbsp;-&nbsp;‘26&nbsp;~&nbsp;‘30&nbsp;지속&nbsp;추진<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	구민 모두 함께 누리는 문화예술·교육 도시를 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="구민 모두 함께 누리는 문화예술·교육 도시를 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;:&nbsp;문화예술과&nbsp;교육창달의&nbsp;도시&nbsp;조성<br><br>□&nbsp;이행방법&nbsp;:<br>&nbsp;&nbsp;▶&nbsp;석촌호수&nbsp;문화인프라&nbsp;활용&nbsp;계절별&nbsp;컬쳐데이&nbsp;프로젝트<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;더&nbsp;갤러리&nbsp;호수,&nbsp;더&nbsp;스피어,&nbsp;문화실험공간&nbsp;호수&nbsp;등&nbsp;인프라&nbsp;연계&nbsp;전시·공연·체험&nbsp;제공<br>&nbsp;&nbsp;▶&nbsp;문화·예술&nbsp;인프라&nbsp;개선&nbsp;및&nbsp;운영&nbsp;활성화송파문화예술회관&nbsp;활성화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재즈,&nbsp;클래식,&nbsp;뮤지컬&nbsp;등&nbsp;분기별&nbsp;다양한&nbsp;장르&nbsp;공연&nbsp;기획<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;MICE,&nbsp;올림픽공원&nbsp;활용한&nbsp;문화클러스터&nbsp;구축:&nbsp;K-POP공연,&nbsp;e스포츠&nbsp;대회&nbsp;개최<br>&nbsp;&nbsp;▶&nbsp;신기술&nbsp;산업&nbsp;육성&nbsp;및&nbsp;지원&nbsp;법제화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신기술&nbsp;산업&nbsp;체계적&nbsp;육성&nbsp;위한&nbsp;법적&nbsp;토대&nbsp;마련,&nbsp;기업&nbsp;유치,&nbsp;창업공간&nbsp;등&nbsp;인프라&nbsp;조성,&nbsp;인력양성&nbsp;<br>&nbsp;&nbsp;▶&nbsp;송파대로를&nbsp;축으로&nbsp;비즈니스&nbsp;벨트&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;잠실역~석촌역&nbsp;고밀복합개발단지~ICT보안클러스터~문정비즈벨리를&nbsp;잇는&nbsp;비즈니스&nbsp;벨트를&nbsp;조성해&nbsp;산업박람회,&nbsp;인큐베이션&nbsp;프로그램&nbsp;등&nbsp;기업&nbsp;협력&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;▶&nbsp;학교로&nbsp;찾아가는&nbsp;오케스트라&nbsp;공연.&nbsp;365일&nbsp;24시간&nbsp;운영되는&nbsp;스마트도서관&nbsp;확대&nbsp;설치<br>&nbsp;&nbsp;▶&nbsp;교육&nbsp;인프라&nbsp;확충,&nbsp;다양한&nbsp;교육기회&nbsp;제공까지&nbsp;미래인재&nbsp;양성&nbsp;지원<br>&nbsp;&nbsp;▶&nbsp;‘어린이집·유치원&nbsp;원어민&nbsp;영어교실’&nbsp;운영의&nbsp;전문성&nbsp;강화,&nbsp;‘초등학생&nbsp;원어민&nbsp;영어캠프’도&nbsp;활성화<br>&nbsp;&nbsp;▶&nbsp;효율적&nbsp;학교교육경비&nbsp;지원으로&nbsp;양질의&nbsp;교육환경&nbsp;조성<br>&nbsp;<br>□&nbsp;이행기간&nbsp;:<br>&nbsp;&nbsp;-&nbsp;‘26&nbsp;~&nbsp;‘30&nbsp;지속&nbsp;추진<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	청년들이 원하는 양질의 일자리를 청년과 함께 만드는 청년도시를 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="청년들이 원하는 양질의 일자리를 청년과 함께 만드는 청년도시를 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;:&nbsp;유망업종&nbsp;직업교육,&nbsp;역량강화&nbsp;멘토링&nbsp;등&nbsp;송파형&nbsp;청년취업지원&nbsp;<br><br>□&nbsp;이행방법&nbsp;:<br>&nbsp;&nbsp;▶&nbsp;청년&nbsp;스타트업&nbsp;기업&nbsp;지원,&nbsp;송파&nbsp;ICT&nbsp;‘청년지원센터’&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;ICT&nbsp;등&nbsp;4차산업에&nbsp;특화된&nbsp;창업지원센터&nbsp;운영을&nbsp;통해&nbsp;양질의&nbsp;청년&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;▶&nbsp;송파청년센터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년정책&nbsp;연계,&nbsp;취업역량&nbsp;개발,&nbsp;소통,&nbsp;교류&nbsp;등&nbsp;청년&nbsp;특화&nbsp;공간&nbsp;조성<br>&nbsp;&nbsp;▶&nbsp;구직&nbsp;단념&nbsp;청년&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구직을&nbsp;단념한&nbsp;청년들의&nbsp;자신감&nbsp;회복,&nbsp;동기&nbsp;부여(6개월&nbsp;이상&nbsp;취업&nbsp;교육&nbsp;지원)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단계별&nbsp;취약역량&nbsp;증진&nbsp;프로그램으로&nbsp;청년&nbsp;역량&nbsp;강화,&nbsp;노동시장&nbsp;진입&nbsp;지원<br>&nbsp;<br>□&nbsp;이행기간&nbsp;:<br>&nbsp;&nbsp;-&nbsp;‘26&nbsp;~&nbsp;‘30&nbsp;지속&nbsp;추진<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

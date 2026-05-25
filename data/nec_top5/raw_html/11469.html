@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;사순문 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	통합특별시 출범을 기회로, 장흥의 새로운 성장시대를 열겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="통합특별시 출범을 기회로, 장흥의 새로운 성장시대를 열겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;예산&nbsp;1조원&nbsp;시대&nbsp;달성<br>○&nbsp;전남·광주&nbsp;통합특별시&nbsp;출범에&nbsp;선제적으로&nbsp;대응하여&nbsp;장흥의&nbsp;성장&nbsp;기반&nbsp;확보<br>○&nbsp;해양·농생명&nbsp;특구&nbsp;지정&nbsp;추진<br>○&nbsp;광역&nbsp;관광·산업·교통의&nbsp;중심&nbsp;거점&nbsp;육성<br>○&nbsp;국비&nbsp;확보&nbsp;및&nbsp;외부자본&nbsp;유입&nbsp;확대<br>○&nbsp;인구&nbsp;감소&nbsp;대응과&nbsp;지역경제&nbsp;활성화&nbsp;기반&nbsp;구축<br><br>□&nbsp;&nbsp;이행방법<br>○&nbsp;통합특별시&nbsp;대응&nbsp;장흥&nbsp;미래전략&nbsp;추진체계&nbsp;구축<br>-&nbsp;통합특별시&nbsp;대응&nbsp;장흥&nbsp;미래전략&nbsp;추진체계&nbsp;구축<br>-&nbsp;「통합특별시&nbsp;대응&nbsp;TF」구성&nbsp;및&nbsp;분야별&nbsp;발전계획&nbsp;수립<br>-&nbsp;해양·농생명&nbsp;특구&nbsp;지정&nbsp;조례&nbsp;제정&nbsp;등&nbsp;제도적&nbsp;기반&nbsp;확보<br>-&nbsp;해상풍력&nbsp;O&M,&nbsp;데이터&nbsp;센터,&nbsp;친환경에너지&nbsp;산업&nbsp;유치&nbsp;추진<br>-&nbsp;보성·강진·고흥&nbsp;연계&nbsp;남해안&nbsp;광역관광벨트&nbsp;조성<br>-&nbsp;체류형&nbsp;관광&nbsp;확대&nbsp;및&nbsp;생활인구&nbsp;유입&nbsp;정책&nbsp;추진<br>-&nbsp;국비&nbsp;확보&nbsp;전담&nbsp;기능&nbsp;강화&nbsp;및&nbsp;중앙부처&nbsp;협력&nbsp;확대<br><br>□&nbsp;&nbsp;이행기간<br>○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진<br>-&nbsp;단기(1~2년):&nbsp;TF&nbsp;구성,&nbsp;기본계획&nbsp;수립,&nbsp;국비사업&nbsp;발굴<br>-&nbsp;중기(3~4년):&nbsp;관광·산업&nbsp;연계산업&nbsp;본격&nbsp;추진&nbsp;<br>-&nbsp;장기(5년&nbsp;이상):&nbsp;통합특별시&nbsp;연계&nbsp;성장거점&nbsp;완성<br><br>□&nbsp;&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비·도비·민간투자&nbsp;연계&nbsp;방식&nbsp;추진<br>-&nbsp;정부&nbsp;공모사업&nbsp;및&nbsp;균형발전특별회계&nbsp;적극&nbsp;확보<br>-&nbsp;전남도&nbsp;협력사업&nbsp;및&nbsp;특별교부세&nbsp;확보&nbsp;추진<br>-&nbsp;민간투자&nbsp;유치&nbsp;및&nbsp;SPC&nbsp;방식&nbsp;활용&nbsp;검토<br>-&nbsp;군비는&nbsp;단계별&nbsp;매칭&nbsp;방식으로&nbsp;재정부담&nbsp;최소화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	군민의 지갑을 두툼하게 하겠습니다．</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="군민의 지갑을 두툼하게 하겠습니다．">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;군민&nbsp;소득을&nbsp;높이고,&nbsp;지역&nbsp;안에서&nbsp;돈이&nbsp;돌고&nbsp;남는&nbsp;경제&nbsp;구조&nbsp;구축<br>○&nbsp;농어민·소상공인·청년·어르신이&nbsp;함께&nbsp;잘사는&nbsp;민생경제&nbsp;실현<br>○&nbsp;"버는&nbsp;장흥,&nbsp;소비되는&nbsp;장흥,&nbsp;다시&nbsp;돌아오는&nbsp;장흥&nbsp;"&nbsp;만들기<br><br>□&nbsp;이행방법<br>○&nbsp;군민기본소득&nbsp;단계적&nbsp;추진&nbsp;기반&nbsp;마련<br>-&nbsp;신재생에너지·지역개발&nbsp;수익과&nbsp;연계한&nbsp;군민&nbsp;환원체계&nbsp;구축<br>-&nbsp;지역화폐&nbsp;확대를&nbsp;통한&nbsp;골목장권&nbsp;활성화<br>○&nbsp;민생안정자금&nbsp;지원&nbsp;추진<br>-&nbsp;경기&nbsp;침체&nbsp;및&nbsp;물가&nbsp;상승&nbsp;대응&nbsp;긴급&nbsp;민생지원&nbsp;검토<br>-&nbsp;지역&nbsp;내&nbsp;소비&nbsp;촉진으로&nbsp;소상공인&nbsp;매출&nbsp;확대<br>○&nbsp;햇빛연금&nbsp;도입&nbsp;추진<br>-&nbsp;태양광&nbsp;등&nbsp;신재생에너지&nbsp;사업&nbsp;확대<br>-&nbsp;주민&nbsp;참여형&nbsp;수익배분&nbsp;구조&nbsp;마련<br>○&nbsp;외부자본&nbsp;유입형&nbsp;산업&nbsp;육성<br>-&nbsp;데이터센터,&nbsp;해상풍력&nbsp;유지보수(O&M)센터&nbsp;등&nbsp;미래&nbsp;산업&nbsp;유치<br>-&nbsp;축산&nbsp;바이오가스&nbsp;등&nbsp;친환경&nbsp;에너지&nbsp;산업&nbsp;육성<br><br>□&nbsp;이행기간<br>○&nbsp;민생안정자금&nbsp;및&nbsp;지역경세&nbsp;활성화&nbsp;정책&nbsp;:&nbsp;취임&nbsp;즉시&nbsp;∼&nbsp;1년<br>○&nbsp;햇빛연금&nbsp;및&nbsp;지역화폐&nbsp;확대&nbsp;:&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진<br>○&nbsp;해상풍력·&nbsp;데이터센터·바이오가스&nbsp;산업&nbsp;기반&nbsp;구축&nbsp;:&nbsp;임기&nbsp;내&nbsp;착수&nbsp;및&nbsp;중장기&nbsp;추진<br>○&nbsp;군민기본소득&nbsp;기반&nbsp;조성&nbsp;:&nbsp;재정&nbsp;여건과&nbsp;연계한&nbsp;단계적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국·도비&nbsp;공모사업&nbsp;적극&nbsp;확보<br>○&nbsp;신쟤생에너지&nbsp;개발이익&nbsp;군민&nbsp;환원&nbsp;구조&nbsp;마련<br>○&nbsp;민간투사&nbsp;및&nbsp;외부기업&nbsp;유치&nbsp;확대<br>○&nbsp;지역화폐&nbsp;순환경제를&nbsp;통한&nbsp;지역&nbsp;내&nbsp;소비&nbsp;활성화<br>○&nbsp;불필요한&nbsp;예산&nbsp;절감&nbsp;및&nbsp;선택과&nbsp;집중을&nbsp;통한&nbsp;재정&nbsp;효율화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	청년이 떠나지 않는 장홍 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="청년이 떠나지 않는 장홍 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;청년&nbsp;스스로&nbsp;미래를&nbsp;설계할&nbsp;수&nbsp;있는&nbsp;지역&nbsp;기반&nbsp;마련<br>○&nbsp;일자리·주거·창업·문화&nbsp;등&nbsp;정주&nbsp;여건&nbsp;조성<br>○&nbsp;청년&nbsp;인구&nbsp;유출&nbsp;감소&nbsp;및&nbsp;생활인구&nbsp;확대<br><br>□&nbsp;이행방법<br>○&nbsp;청년미래수당&nbsp;월&nbsp;15만원&nbsp;시급&nbsp;추진<br>○&nbsp;청년임대주택&nbsp;200호&nbsp;공급<br>○&nbsp;청년&nbsp;재도전&nbsp;펀드&nbsp;조성<br>○&nbsp;청년&nbsp;일자리·창업지원센터&nbsp;운영<br>○&nbsp;지역산업&nbsp;연계&nbsp;청년일자리&nbsp;확대<br>-&nbsp;관광·농수축산업·에너지산업&nbsp;연계<br>-&nbsp;데이터센터·해상풍력&nbsp;O&M&nbsp;등&nbsp;미래산업&nbsp;기반&nbsp;마련<br>○&nbsp;청년&nbsp;귀향·귀촌&nbsp;지원&nbsp;강화<br>-&nbsp;정착지원금&nbsp;및&nbsp;주거&nbsp;연계&nbsp;지원<br>-&nbsp;청년&nbsp;농업인·어업인&nbsp;육성&nbsp;확대<br>○&nbsp;청년&nbsp;문화·커뮤니티&nbsp;공간&nbsp;조성<br>-&nbsp;청년&nbsp;소통&nbsp;공간&nbsp;확대&nbsp;,&nbsp;문화·동아리·창작활동&nbsp;지원<br><br>□&nbsp;이행기간<br>○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;단계별&nbsp;추진<br>-&nbsp;1년&nbsp;차&nbsp;:&nbsp;청년정책&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;조례&nbsp;정비<br>-&nbsp;2년&nbsp;차&nbsp;:&nbsp;청년수당·임대주택·펀드&nbsp;시행<br>-&nbsp;3∼4년&nbsp;차&nbsp;:&nbsp;청년일자리·문화기반&nbsp;확대&nbsp;추진<br>-&nbsp;임기&nbsp;내&nbsp;청년&nbsp;정착&nbsp;기반&nbsp;가시화<br><br>□&nbsp;재원조달방안&nbsp;등<br>-&nbsp;군비&nbsp;및&nbsp;국·도비&nbsp;연계&nbsp;추진<br>-&nbsp;지방소멸대응기금&nbsp;적극&nbsp;활용<br>-&nbsp;청년정책&nbsp;정부&nbsp;공모사업&nbsp;유치<br>-&nbsp;민간&nbsp;투자&nbsp;및&nbsp;지역&nbsp;연계사업&nbsp;확대<br>-&nbsp;청년&nbsp;예산&nbsp;우선&nbsp;배치&nbsp;및&nbsp;단계적&nbsp;확대&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	어르신이 편안한 장홍 만들겠습니다．</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="어르신이 편안한 장홍 만들겠습니다．">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;아프면&nbsp;돌봐드리고,&nbsp;외로우면&nbsp;함께하는&nbsp;장흥<br>○&nbsp;어르신이&nbsp;오래&nbsp;건강하게&nbsp;살아가는&nbsp;장흥<br><br>□&nbsp;이행방법<br>○&nbsp;군민기본소득&nbsp;월&nbsp;10만&nbsp;원,&nbsp;연&nbsp;120만&nbsp;원&nbsp;시급&nbsp;추진<br>○&nbsp;AI&nbsp;어르신&nbsp;건강&nbsp;안심&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;24시간&nbsp;건강안전&nbsp;모니터링&nbsp;체계&nbsp;운영<br>&nbsp;&nbsp;-&nbsp;응급상황&nbsp;즉시&nbsp;대응&nbsp;시스템&nbsp;구축<br>○&nbsp;무릎·고관절&nbsp;수술비&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;의료비&nbsp;부담&nbsp;경감&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;이동과&nbsp;일상&nbsp;회복&nbsp;지원<br>○&nbsp;경로당&nbsp;돌보미&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;-&nbsp;식사·안부·생활지원&nbsp;강화<br>&nbsp;&nbsp;-&nbsp;홀로&nbsp;어르신&nbsp;돌봄&nbsp;체계&nbsp;구축<br>○&nbsp;어르신&nbsp;일자리&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;공익형·생활형&nbsp;일자리&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;지역&nbsp;맞춤형&nbsp;소득&nbsp;활동&nbsp;지원<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;즉시&nbsp;단계별&nbsp;추진<br>-&nbsp;1단계&nbsp;:&nbsp;건강·돌봄&nbsp;안전망&nbsp;구축<br>-&nbsp;2단계&nbsp;:&nbsp;의료·이동&nbsp;지원&nbsp;확대<br>-&nbsp;3단계&nbsp;:&nbsp;일자리·여가·공동체&nbsp;강화<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국·도비&nbsp;공모사업&nbsp;적극&nbsp;확보<br>○&nbsp;노인복지&nbsp;예산&nbsp;우선&nbsp;확대<br>○&nbsp;의료·복지&nbsp;통합형&nbsp;예산&nbsp;운영<br>○&nbsp;민관&nbsp;협력&nbsp;돌봄체계&nbsp;구축</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	누구도 차별 받지 않는 장홍 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="누구도 차별 받지 않는 장홍 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;장애,&nbsp;나이,&nbsp;성별,&nbsp;지역에&nbsp;따른&nbsp;차별과&nbsp;생활&nbsp;불편&nbsp;해소<br>○&nbsp;이동·돌봄·문화·행정&nbsp;접근성이&nbsp;보장되는&nbsp;포용도시&nbsp;구축<br>○&nbsp;군민&nbsp;누구나&nbsp;안전하고&nbsp;존중받는&nbsp;생활환경&nbsp;조성<br>○&nbsp;"함께&nbsp;살아가는&nbsp;장흥",&nbsp;약자와&nbsp;동행하는&nbsp;공동체&nbsp;실현<br><br>□&nbsp;이행방법<br>○&nbsp;무장애&nbsp;가족놀이터·무장애&nbsp;산책길·열린&nbsp;쉼터&nbsp;조성<br>○&nbsp;공공시설&nbsp;경사로·장애인&nbsp;화장실·엘리베이터&nbsp;확충<br>○&nbsp;저상버스&nbsp;확대&nbsp;및&nbsp;교통약자&nbsp;이동지원센터&nbsp;기능&nbsp;강화<br>○&nbsp;여성&nbsp;안심귀갓길·안심조명&nbsp;설치&nbsp;확대<br>○&nbsp;AI&nbsp;기반&nbsp;어르신&nbsp;건강&nbsp;안심&nbsp;시스템&nbsp;구축&nbsp;및&nbsp;24시간&nbsp;돌봄&nbsp;연계<br>○&nbsp;경로당&nbsp;돌보미&nbsp;확대&nbsp;및&nbsp;취약계층&nbsp;생활지원&nbsp;강화<br>○&nbsp;장애인·고령자&nbsp;맞춤형&nbsp;공공일자리&nbsp;확대<br>○&nbsp;문화·체육·관광시설의&nbsp;무장애&nbsp;환경&nbsp;개선<br>○&nbsp;읍·면&nbsp;찾아가는&nbsp;행정서비스&nbsp;및&nbsp;이동&nbsp;민원실&nbsp;운영<br>○&nbsp;장애인·다문화가정·한부모가정&nbsp;지원&nbsp;프로그램&nbsp;확대<br>○&nbsp;아이부터&nbsp;어르신까지&nbsp;함께&nbsp;이용&nbsp;가능한&nbsp;통합형&nbsp;생활공간&nbsp;조성<br><br>□&nbsp;이행기간<br>○&nbsp;민선&nbsp;8기&nbsp;출범&nbsp;즉시&nbsp;단계별&nbsp;추진<br>○&nbsp;단기적으로&nbsp;생활불편&nbsp;해소&nbsp;사업&nbsp;우선&nbsp;시행<br>○&nbsp;중장기적으로&nbsp;장흥형&nbsp;무장애&nbsp;생활환경&nbsp;체계&nbsp;구축<br>○&nbsp;임기&nbsp;내&nbsp;군민&nbsp;체감형&nbsp;복지·안전&nbsp;시스템&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비·도비&nbsp;공모사업&nbsp;적극&nbsp;확보<br>○&nbsp;보건복지부·국토부&nbsp;무장애&nbsp;환경사업&nbsp;연계&nbsp;추진<br>○&nbsp;사회서비스·교통약자&nbsp;지원&nbsp;예산&nbsp;확대&nbsp;반영<br>○&nbsp;군&nbsp;예산&nbsp;구조조정을&nbsp;통한&nbsp;생활복지&nbsp;투자&nbsp;강화<br>○&nbsp;민간&nbsp;복지기관·사회단체·의료기관&nbsp;협력체계&nbsp;구축</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

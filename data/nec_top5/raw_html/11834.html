@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;장지호 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	24시간 어린이 안심의료센터 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="24시간 어린이 안심의료센터 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;강북구&nbsp;내&nbsp;소아&nbsp;응급의료&nbsp;공백&nbsp;해소&nbsp;및&nbsp;출생률&nbsp;회복&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북구&nbsp;합계출산율&nbsp;0.45명(서울&nbsp;25개구&nbsp;중&nbsp;24위),&nbsp;출생아&nbsp;786명(2024년&nbsp;기준)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소아청소년과&nbsp;야간·휴일&nbsp;진료&nbsp;공백으로&nbsp;성북구&nbsp;원정진료&nbsp;의존&nbsp;구조&nbsp;탈피<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;24시간&nbsp;소아&nbsp;전문&nbsp;응급의료&nbsp;접근성&nbsp;100%&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[1단계]&nbsp;보건소&nbsp;산하&nbsp;「소아&nbsp;안심&nbsp;응급의료센터」&nbsp;거점&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북구보건소&nbsp;기존&nbsp;공간을&nbsp;리모델링하여&nbsp;야간·휴일&nbsp;소아&nbsp;전문&nbsp;진료실&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소아청소년과&nbsp;전문의&nbsp;위촉&nbsp;및&nbsp;응급&nbsp;처치&nbsp;장비(소아용&nbsp;제세동기·호흡기&nbsp;등)&nbsp;배치<br>&nbsp;&nbsp;○&nbsp;[2단계]&nbsp;관내&nbsp;의료기관&nbsp;「24시간&nbsp;어린이&nbsp;안심병원」&nbsp;지정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북구&nbsp;소재&nbsp;우수&nbsp;의료기관&nbsp;2~3개소를&nbsp;안심병원으로&nbsp;지정,&nbsp;야간·휴일&nbsp;운영비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구비·시비&nbsp;매칭으로&nbsp;인건비,&nbsp;운영비,&nbsp;약제비&nbsp;등&nbsp;파격&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;[3단계]&nbsp;서울&nbsp;대형병원과&nbsp;응급이송&nbsp;핫라인&nbsp;협약&nbsp;체결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고려대안암병원,&nbsp;서울아산병원&nbsp;등과&nbsp;소아&nbsp;중증환자&nbsp;즉시&nbsp;인계&nbsp;시스템&nbsp;제도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;「응급실&nbsp;뺑뺑이」&nbsp;차단을&nbsp;위한&nbsp;강북구&nbsp;전용&nbsp;응급의료&nbsp;정보망&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;2030년&nbsp;6월&nbsp;(구청장&nbsp;임기&nbsp;4년)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;하반기:&nbsp;보건소&nbsp;내&nbsp;소아&nbsp;응급의료센터&nbsp;설계&nbsp;및&nbsp;의료진&nbsp;위촉<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년&nbsp;상반기:&nbsp;센터&nbsp;개소&nbsp;및&nbsp;안심병원&nbsp;1차&nbsp;지정&nbsp;(2개소)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년&nbsp;~&nbsp;2030년:&nbsp;안심병원&nbsp;확대&nbsp;및&nbsp;대형병원&nbsp;핫라인&nbsp;협약&nbsp;단계적&nbsp;체결<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총&nbsp;소요예산:&nbsp;약&nbsp;80억&nbsp;원&nbsp;(4년간)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구비:&nbsp;30억&nbsp;(보건소&nbsp;리모델링·장비&nbsp;구축&nbsp;20억,&nbsp;운영비&nbsp;10억)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시비:&nbsp;40억&nbsp;(서울시&nbsp;「아이&nbsp;키우기&nbsp;좋은&nbsp;서울」&nbsp;사업&nbsp;매칭,&nbsp;응급의료기금&nbsp;활용)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비:&nbsp;10억&nbsp;(보건복지부&nbsp;응급의료기금&nbsp;및&nbsp;소아청소년&nbsp;의료체계&nbsp;강화&nbsp;사업&nbsp;신청)<br>&nbsp;&nbsp;○&nbsp;법적&nbsp;근거:&nbsp;「응급의료에&nbsp;관한&nbsp;법률」&nbsp;제13조의2,&nbsp;「지역보건법」&nbsp;제11조</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	북한산 고도지구 규제 완화 및 신속 재개발·재건축 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="북한산 고도지구 규제 완화 및 신속 재개발·재건축 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;규제로&nbsp;정체된&nbsp;강북&nbsp;주거환경&nbsp;혁신&nbsp;및&nbsp;구민&nbsp;재산권&nbsp;회복<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;북한산&nbsp;주변&nbsp;고도지구&nbsp;제한&nbsp;완화로&nbsp;노후&nbsp;저층&nbsp;주거지&nbsp;정비&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신속통합기획&nbsp;구역&nbsp;임기&nbsp;내&nbsp;2배&nbsp;이상&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재개발·재건축&nbsp;행정처리&nbsp;기간&nbsp;평균&nbsp;30%&nbsp;단축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[1단계]&nbsp;북한산&nbsp;고도지구&nbsp;규제&nbsp;완화&nbsp;서울시&nbsp;협의&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자연경관&nbsp;보존과&nbsp;재산권&nbsp;보호의&nbsp;균형&nbsp;원칙에&nbsp;따른&nbsp;지역별&nbsp;차등&nbsp;완화안&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;오세훈&nbsp;서울시장&nbsp;및&nbsp;도시계획위원회와&nbsp;정책&nbsp;협의&nbsp;정례화&nbsp;(분기별&nbsp;1회)<br>&nbsp;&nbsp;○&nbsp;[2단계]&nbsp;구청장&nbsp;직속&nbsp;「주거정비&nbsp;신속지원단」&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시계획·건축·법무&nbsp;전문인력&nbsp;10명&nbsp;규모&nbsp;TF&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;동의서&nbsp;징구,&nbsp;조합&nbsp;설립,&nbsp;인허가&nbsp;등&nbsp;행정절차&nbsp;원스톱&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정비구역&nbsp;지정&nbsp;신청&nbsp;시&nbsp;처리기간&nbsp;단축&nbsp;KPI&nbsp;관리<br>&nbsp;&nbsp;○&nbsp;[3단계]&nbsp;신속통합기획&nbsp;구역&nbsp;확대&nbsp;및&nbsp;모아주택·모아타운&nbsp;적극&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미아·번동·수유&nbsp;일대&nbsp;노후&nbsp;저층&nbsp;주거지&nbsp;우선&nbsp;발굴<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;설명회&nbsp;및&nbsp;동의율&nbsp;확보를&nbsp;위한&nbsp;구청&nbsp;직접&nbsp;지원&nbsp;체계&nbsp;가동<br>&nbsp;&nbsp;○&nbsp;[4단계]&nbsp;부동산&nbsp;규제&nbsp;합리화&nbsp;정부&nbsp;건의<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북구&nbsp;실거주&nbsp;비율·집값&nbsp;상승률&nbsp;데이터&nbsp;기반으로&nbsp;토지거래허가구역&nbsp;등&nbsp;재검토&nbsp;건의<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;2030년&nbsp;6월<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;하반기:&nbsp;신속지원단&nbsp;출범,&nbsp;고도지구&nbsp;완화&nbsp;서울시&nbsp;협의&nbsp;착수<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년:&nbsp;신속통합기획&nbsp;구역&nbsp;5개소&nbsp;추가&nbsp;지정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2028년&nbsp;이후:&nbsp;정비사업&nbsp;본격&nbsp;착수&nbsp;및&nbsp;모아타운&nbsp;단계적&nbsp;사업화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총&nbsp;소요예산:&nbsp;약&nbsp;50억&nbsp;원&nbsp;(4년간&nbsp;행정지원&nbsp;인건비·용역비)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구비:&nbsp;35억&nbsp;(신속지원단&nbsp;운영,&nbsp;도시계획&nbsp;용역,&nbsp;주민&nbsp;설명회)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시비:&nbsp;15억&nbsp;(서울시&nbsp;신속통합기획&nbsp;행정지원&nbsp;매칭)<br>&nbsp;&nbsp;○&nbsp;법적&nbsp;근거:&nbsp;「도시&nbsp;및&nbsp;주거환경정비법」,&nbsp;「국토의&nbsp;계획&nbsp;및&nbsp;이용에&nbsp;관한&nbsp;법률」,&nbsp;「빈집&nbsp;및&nbsp;소규모&nbsp;주택&nbsp;정비에&nbsp;관한&nbsp;특례법」</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	신강북선·동북선 조기 개통 및 ICT 주차공유 시스템 도입</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="신강북선·동북선 조기 개통 및 ICT 주차공유 시스템 도입">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;강북&nbsp;남북&nbsp;교통축&nbsp;완성&nbsp;및&nbsp;생활&nbsp;주차난&nbsp;근본&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동북선&nbsp;임기&nbsp;내&nbsp;조기&nbsp;개통,&nbsp;신강북선&nbsp;예비타당성&nbsp;통과&nbsp;및&nbsp;착공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;ICT&nbsp;주차공유&nbsp;시스템&nbsp;도입으로&nbsp;야간&nbsp;주차공급&nbsp;30%&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고지대&nbsp;교통약자&nbsp;이동권&nbsp;보장(친환경&nbsp;마을버스·경사형&nbsp;엘리베이터&nbsp;확충)<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[1단계]&nbsp;광역교통망&nbsp;조기&nbsp;추진&nbsp;정부·서울시&nbsp;협력<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국토교통부·기획재정부·서울시&nbsp;3자&nbsp;협의체&nbsp;구성,&nbsp;구청장&nbsp;직접&nbsp;협상&nbsp;채널&nbsp;가동&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동북선&nbsp;공기&nbsp;단축&nbsp;및&nbsp;신강북선&nbsp;예비타당성조사&nbsp;통과&nbsp;집중&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기재부&nbsp;예산담당관&nbsp;대상&nbsp;강북구&nbsp;광역교통&nbsp;수요&nbsp;데이터&nbsp;정기&nbsp;브리핑<br>&nbsp;&nbsp;○&nbsp;[2단계]&nbsp;ICT&nbsp;기반&nbsp;주차공유&nbsp;시스템&nbsp;전면&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학교·종교시설·상가&nbsp;등&nbsp;유휴&nbsp;주차면&nbsp;야간·주말&nbsp;공유&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;참여자&nbsp;인센티브&nbsp;제공(주차요금&nbsp;환급,&nbsp;지역화폐&nbsp;지급&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공부지&nbsp;지하화&nbsp;및&nbsp;주차타워&nbsp;신설(거주자&nbsp;우선주차&nbsp;부족&nbsp;지역&nbsp;우선)<br>&nbsp;&nbsp;○&nbsp;[3단계]&nbsp;고지대&nbsp;친환경&nbsp;마을교통&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미아·우이·인수동&nbsp;등&nbsp;언덕길에&nbsp;친환경&nbsp;소형&nbsp;마을버스&nbsp;신규&nbsp;노선&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;급경사지&nbsp;경사형&nbsp;엘리베이터·에스컬레이터&nbsp;설치(교통약자&nbsp;이동권&nbsp;보장)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;2030년&nbsp;6월<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;하반기:&nbsp;광역교통&nbsp;협의체&nbsp;출범,&nbsp;주차공유&nbsp;시범사업&nbsp;2개동&nbsp;착수<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년:&nbsp;주차공유&nbsp;강북구&nbsp;전역&nbsp;확대,&nbsp;마을버스&nbsp;신규&nbsp;노선&nbsp;2개&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2028~2030년:&nbsp;동북선&nbsp;개통&nbsp;추진,&nbsp;신강북선&nbsp;예비타당성&nbsp;통과&nbsp;및&nbsp;착공<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총&nbsp;소요예산:&nbsp;약&nbsp;120억&nbsp;원&nbsp;(4년간,&nbsp;광역교통&nbsp;사업비&nbsp;별도)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구비:&nbsp;50억&nbsp;(ICT&nbsp;주차공유&nbsp;플랫폼,&nbsp;인센티브,&nbsp;마을버스&nbsp;운영보조금)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시비:&nbsp;50억&nbsp;(서울시&nbsp;주차환경개선&nbsp;사업,&nbsp;경사형&nbsp;엘리베이터&nbsp;매칭사업)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비:&nbsp;20억&nbsp;(국토부&nbsp;친환경&nbsp;대중교통&nbsp;보조사업)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광역교통&nbsp;사업비(동북선·신강북선)는&nbsp;국가&nbsp;SOC&nbsp;예산으로&nbsp;별도&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;법적&nbsp;근거:&nbsp;「도시교통정비&nbsp;촉진법」,&nbsp;「주차장법」,&nbsp;「교통약자의&nbsp;이동편의&nbsp;증진법」</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	경로당 비대면 건강상담실 + 「손주 대신」 디지털 케어</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="경로당 비대면 건강상담실 + 「손주 대신」 디지털 케어">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;초고령사회&nbsp;진입&nbsp;강북구의&nbsp;어르신&nbsp;건강·디지털&nbsp;격차&nbsp;동시&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북구&nbsp;고령화율&nbsp;25%(서울&nbsp;25개구&nbsp;중&nbsp;1위,&nbsp;2024년&nbsp;기준)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관내&nbsp;경로당&nbsp;100여&nbsp;개를&nbsp;비대면&nbsp;건강상담&nbsp;거점으로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민센터&nbsp;「손주&nbsp;대신」&nbsp;도입으로&nbsp;디지털&nbsp;행정·금융&nbsp;사각지대&nbsp;해소<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[1단계]&nbsp;경로당&nbsp;비대면&nbsp;건강상담실&nbsp;시범&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관내&nbsp;100여&nbsp;개&nbsp;경로당&nbsp;중&nbsp;거점&nbsp;20개소부터&nbsp;비대면&nbsp;진료·상담&nbsp;부스&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;태블릿·혈압계·혈당계&nbsp;등&nbsp;측정장비&nbsp;비치,&nbsp;인근&nbsp;의원과&nbsp;연계&nbsp;상담<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보건소&nbsp;방문간호사&nbsp;정기&nbsp;순회로&nbsp;어르신&nbsp;디지털&nbsp;사용&nbsp;보조<br>&nbsp;&nbsp;○&nbsp;[2단계]&nbsp;「손주&nbsp;대신」&nbsp;디지털&nbsp;동행&nbsp;서비스&nbsp;전면&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;13개&nbsp;동&nbsp;주민센터에&nbsp;디지털&nbsp;지원&nbsp;전담&nbsp;인력&nbsp;배치(청년&nbsp;일자리&nbsp;연계)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트폰·키오스크·인터넷&nbsp;행정·모바일&nbsp;뱅킹&nbsp;등&nbsp;1:1&nbsp;안내<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;「스마트&nbsp;매니저」&nbsp;채용으로&nbsp;세대공감&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;[3단계]&nbsp;생활안전&nbsp;바우처&nbsp;및&nbsp;노후주택&nbsp;안전&nbsp;점검<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;홀몸&nbsp;어르신&nbsp;가구&nbsp;대상&nbsp;전기·가스·보일러·미끄럼방지&nbsp;등&nbsp;안전요소&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우선순위:&nbsp;75세&nbsp;이상&nbsp;1인&nbsp;가구&nbsp;→&nbsp;65세&nbsp;이상&nbsp;저소득&nbsp;가구&nbsp;순<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;2030년&nbsp;6월<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;하반기:&nbsp;거점&nbsp;경로당&nbsp;20개소&nbsp;시범사업,&nbsp;「손주&nbsp;대신」&nbsp;5개&nbsp;동&nbsp;우선&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년:&nbsp;13개&nbsp;동&nbsp;전면&nbsp;시행,&nbsp;경로당&nbsp;50개소로&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2028년&nbsp;이후:&nbsp;관내&nbsp;100여&nbsp;개&nbsp;경로당&nbsp;전면&nbsp;확대,&nbsp;복합실버타운&nbsp;조성&nbsp;검토<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총&nbsp;소요예산:&nbsp;약&nbsp;60억&nbsp;원&nbsp;(4년간)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구비:&nbsp;25억&nbsp;(경로당&nbsp;장비,&nbsp;청년&nbsp;스마트&nbsp;매니저&nbsp;인건비)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시비:&nbsp;20억&nbsp;(서울시&nbsp;디지털&nbsp;약자&nbsp;동행&nbsp;사업,&nbsp;어르신&nbsp;돌봄&nbsp;매칭)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비:&nbsp;15억&nbsp;(보건복지부&nbsp;노인&nbsp;의료·돌봄&nbsp;통합지원&nbsp;시범사업,&nbsp;과기부&nbsp;디지털&nbsp;배움터)<br>&nbsp;&nbsp;○&nbsp;법적&nbsp;근거:&nbsp;「노인복지법」,&nbsp;「의료법」&nbsp;(비대면진료&nbsp;관련&nbsp;개정안&nbsp;시행에&nbsp;따른&nbsp;조례&nbsp;제정&nbsp;병행),「지능정보화&nbsp;기본법」</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	강북 소상공인 살리기 + 북한산 관광형 특화시장 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="강북 소상공인 살리기 + 북한산 관광형 특화시장 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;골목상권&nbsp;회복과&nbsp;북한산&nbsp;관광&nbsp;자원의&nbsp;지역경제&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북&nbsp;안심&nbsp;지원금&nbsp;지급으로&nbsp;소상공인&nbsp;임대료·공과금&nbsp;부담&nbsp;경감<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;배달·SNS·간판&nbsp;디자인&nbsp;등&nbsp;디지털&nbsp;마케팅&nbsp;무료&nbsp;컨설팅&nbsp;1,000개&nbsp;점포<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;북한산&nbsp;입구&nbsp;~&nbsp;전통시장&nbsp;연계&nbsp;「관광형&nbsp;특화거리」&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[1단계]&nbsp;「강북&nbsp;안심&nbsp;지원금」&nbsp;신속&nbsp;지급&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;대상&nbsp;임대료·공과금&nbsp;부담&nbsp;경감용&nbsp;직접&nbsp;지원&nbsp;(서류&nbsp;절차&nbsp;대폭&nbsp;간소화)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;매출&nbsp;감소&nbsp;자영업자,&nbsp;청년·신규창업자,&nbsp;여성가장&nbsp;사업장&nbsp;등&nbsp;우선&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;[2단계]&nbsp;골목상권&nbsp;디지털&nbsp;마케팅&nbsp;무료&nbsp;컨설팅<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전문가&nbsp;매칭으로&nbsp;배달앱&nbsp;입점,&nbsp;인스타·블로그&nbsp;마케팅,&nbsp;간판·메뉴판&nbsp;디자인&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북구청&nbsp;직영&nbsp;「소상공인&nbsp;디지털&nbsp;지원센터」&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;[3단계]&nbsp;북한산&nbsp;관광형&nbsp;특화시장&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우이·수유&nbsp;등산로&nbsp;입구&nbsp;~&nbsp;인근&nbsp;전통시장&nbsp;잇는&nbsp;「먹거리·볼거리&nbsp;특화거리」&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시장별&nbsp;스토리텔링&nbsp;(예:&nbsp;청년&nbsp;막걸리거리,&nbsp;등산&nbsp;보양식거리&nbsp;등)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;축제·문화행사&nbsp;연계로&nbsp;외부&nbsp;방문객·외국인&nbsp;관광객&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;[4단계]&nbsp;전통시장&nbsp;아케이드·주차장·결제&nbsp;인프라&nbsp;현대화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관내&nbsp;전통시장&nbsp;시설&nbsp;현대화&nbsp;사업&nbsp;단계적&nbsp;추진&nbsp;-제로페이·지역화폐&nbsp;연계&nbsp;인센티브&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;2030년&nbsp;6월<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년&nbsp;하반기:&nbsp;강북&nbsp;안심&nbsp;지원금&nbsp;1차&nbsp;지급,&nbsp;디지털&nbsp;지원센터&nbsp;개소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년:&nbsp;디지털&nbsp;마케팅&nbsp;컨설팅&nbsp;500개&nbsp;점포&nbsp;달성,&nbsp;특화거리&nbsp;시범구역&nbsp;1곳&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2028~2030년:&nbsp;특화거리&nbsp;단계적&nbsp;확대,&nbsp;전통시장&nbsp;현대화&nbsp;사업&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총&nbsp;소요예산:&nbsp;약&nbsp;100억&nbsp;원&nbsp;(4년간)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구비:&nbsp;40억&nbsp;(안심&nbsp;지원금&nbsp;일부,&nbsp;디지털&nbsp;지원센터&nbsp;운영)&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시비:&nbsp;30억&nbsp;(서울시&nbsp;소상공인&nbsp;지원,&nbsp;전통시장&nbsp;활성화&nbsp;매칭사업)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비:&nbsp;30억&nbsp;(중소벤처기업부&nbsp;소상공인&nbsp;지원사업,&nbsp;문체부&nbsp;관광자원개발&nbsp;사업)<br>&nbsp;&nbsp;○&nbsp;법적&nbsp;근거:&nbsp;「소상공인&nbsp;보호&nbsp;및&nbsp;지원에&nbsp;관한&nbsp;법률」,&nbsp;「전통시장&nbsp;및&nbsp;상점가&nbsp;육성을&nbsp;위한&nbsp;특별법」,&nbsp;「관광진흥법」</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

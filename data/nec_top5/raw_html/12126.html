@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;배낙호 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	시민의 생명과 재산을 지키는 안전 행정 구현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="시민의 생명과 재산을 지키는 안전 행정 구현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시민의&nbsp;생명과&nbsp;재산&nbsp;그리고&nbsp;환경권을&nbsp;지키는&nbsp;안전한&nbsp;김천&nbsp;건설<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;80년이&nbsp;넘은&nbsp;"황금정수장&nbsp;신축이전(현대화)"<br>&nbsp;&nbsp;○&nbsp;김천하수처리장&nbsp;개량사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;평화지구&nbsp;우수저류시설&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;황금동&nbsp;자연재해위험지구&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;대곡지구&nbsp;자연재해위험개선지구&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;봉산&nbsp;신암지구&nbsp;풍수해생활권&nbsp;종합&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;개령&nbsp;광천지구&nbsp;풍수해생활권&nbsp;종합&nbsp;정비<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;2026.&nbsp;6&nbsp;~&nbsp;2032.&nbsp;5<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;사업비&nbsp;약&nbsp;4,200억&nbsp;원&nbsp;(국비1,990억&nbsp;원,&nbsp;지방비&nbsp;1,730억&nbsp;원,&nbsp;기타&nbsp;480억&nbsp;원)<br>&nbsp;&nbsp;○&nbsp;연차적&nbsp;재원&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	도시의 균형발전과 교육 의료인프라 확충</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="도시의 균형발전과 교육 의료인프라 확충">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;내&nbsp;불균형을&nbsp;완화하고&nbsp;원도심과&nbsp;혁신도시가&nbsp;함께&nbsp;성장하는&nbsp;김천건설<br>&nbsp;&nbsp;○&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;환경&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;김천역&nbsp;주변(하숙촌)&nbsp;환경정비&nbsp;사업<br>&nbsp;&nbsp;○&nbsp;평화&nbsp;첨단산업&nbsp;융복합단지&nbsp;조성(연탄공장일대)<br>&nbsp;&nbsp;○&nbsp;경북&nbsp;첨단콘텐츠&nbsp;혁신센터&nbsp;조성(구&nbsp;김천경찰서)<br>&nbsp;&nbsp;○&nbsp;모암지구&nbsp;도시재생사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;김천의료원&nbsp;주변&nbsp;도시&nbsp;환경&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;2차&nbsp;공공기관&nbsp;이전&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;어린이&nbsp;전문&nbsp;통합의료센터&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;농어촌&nbsp;특별전형학교&nbsp;지원(입시&nbsp;기회&nbsp;확대)<br>&nbsp;&nbsp;○&nbsp;김천도서관&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;혁신도시&nbsp;인근&nbsp;어린이&nbsp;물놀이장&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2026.&nbsp;6&nbsp;~&nbsp;2032.&nbsp;5<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;사업비&nbsp;약&nbsp;7,500억&nbsp;원&nbsp;(국비&nbsp;3,000억&nbsp;원,&nbsp;지방비&nbsp;3,800억&nbsp;원,&nbsp;기타&nbsp;700억&nbsp;원)<br>&nbsp;&nbsp;○&nbsp;연차적&nbsp;재원&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	생활인구 유입으로 상권활성화, 차별 없는 복지안전망 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="생활인구 유입으로 상권활성화, 차별 없는 복지안전망 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;사람이&nbsp;찾아오는&nbsp;도시&nbsp;김천,&nbsp;상권&nbsp;회복으로&nbsp;지역경제&nbsp;활성화&nbsp;<br>&nbsp;&nbsp;○&nbsp;시민이&nbsp;행복한&nbsp;복지도시&nbsp;김천&nbsp;건설<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;김천김밥축제&nbsp;대한민국&nbsp;대표&nbsp;축제&nbsp;지정(문화체육관광부)<br>&nbsp;&nbsp;○&nbsp;스포츠타운과&nbsp;연화지&nbsp;연계&nbsp;관광자원&nbsp;개발(스카이워크&nbsp;하늘길&nbsp;등)<br>&nbsp;&nbsp;○&nbsp;김산현&nbsp;청사건립+이색&nbsp;도서관&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;백두대간&nbsp;국립&nbsp;김천숲체원&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;각종&nbsp;국제&nbsp;스포츠대회&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;김천시&nbsp;노인회관&nbsp;신축<br>&nbsp;&nbsp;○&nbsp;장애인과&nbsp;비장애인&nbsp;함께하는&nbsp;공감&nbsp;문화&nbsp;확산<br>&nbsp;&nbsp;○&nbsp;의료·요양·돌봄&nbsp;통합지원(통합돌봄서비스)<br>&nbsp;&nbsp;○&nbsp;보훈대상자&nbsp;예우&nbsp;강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2026.&nbsp;6&nbsp;~&nbsp;2032.&nbsp;5&nbsp;<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;사업비&nbsp;약&nbsp;3,000억&nbsp;원&nbsp;(국비&nbsp;1,500억&nbsp;원&nbsp;지방비&nbsp;1,500억&nbsp;원)<br>&nbsp;&nbsp;○&nbsp;연차적&nbsp;재원&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	농업의 미래가치를 창출하는 거점도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="농업의 미래가치를 창출하는 거점도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;광역&nbsp;단위&nbsp;농산물&nbsp;유통중심지&nbsp;도약<br>&nbsp;&nbsp;○&nbsp;귀농&nbsp;귀촌인의&nbsp;안정적인&nbsp;영농&nbsp;정착과&nbsp;원활한&nbsp;인력·장비&nbsp;지원<br><br>□이행방법&nbsp;<br>&nbsp;&nbsp;○&nbsp;광역&nbsp;단위&nbsp;농산물&nbsp;종합유통센터&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;김천&nbsp;스마트농업타운&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;도립&nbsp;포도연구소&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;아포&nbsp;농기계&nbsp;임대사업소&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;농업근로자&nbsp;기숙사&nbsp;건립<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2026.&nbsp;6&nbsp;~&nbsp;2032.&nbsp;5<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;사업비&nbsp;약&nbsp;4,000억&nbsp;원&nbsp;(국비&nbsp;300억&nbsp;원&nbsp;지방비&nbsp;1,800억&nbsp;원&nbsp;기타&nbsp;,1900억&nbsp;원)<br>&nbsp;&nbsp;○&nbsp;연차적&nbsp;재원&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	미래 첨단산업 육성, 일자리가 많은 기업도시 김천건설 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="미래 첨단산업 육성, 일자리가 많은 기업도시 김천건설 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;미래&nbsp;먹거리를&nbsp;준비하는&nbsp;미래&nbsp;첨단&nbsp;산업도시&nbsp;도약<br>&nbsp;&nbsp;○&nbsp;산업용지의&nbsp;안정적인&nbsp;공급으로&nbsp;기업하기&nbsp;좋은&nbsp;도시&nbsp;김천&nbsp;건설<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;K-드론&nbsp;지원센터&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;스마트시티&nbsp;조성(원도심&nbsp;자가통신망&nbsp;구축)<br>&nbsp;&nbsp;○&nbsp;차세대&nbsp;모빌리티&nbsp;융합&nbsp;특구&nbsp;지정&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2026.&nbsp;8&nbsp;:&nbsp;차세대&nbsp;모빌리티&nbsp;특구&nbsp;지정&nbsp;제안서&nbsp;건의(국토교통부)<br>&nbsp;&nbsp;○&nbsp;친환경&nbsp;그린&nbsp;수소도시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;미래차&nbsp;튜닝&nbsp;선도도시&nbsp;건설<br>&nbsp;&nbsp;○&nbsp;김천1일반산업단지&nbsp;(4단계)&nbsp;조기&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;교통&nbsp;특화&nbsp;국가산업단지&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2026.&nbsp;6&nbsp;~&nbsp;2032.&nbsp;5&nbsp;<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;사업비&nbsp;약&nbsp;1조&nbsp;8,000억&nbsp;원&nbsp;(국비&nbsp;9,000억&nbsp;원,&nbsp;지방비&nbsp;6,000억&nbsp;원,&nbsp;기타&nbsp;3,000억&nbsp;원)<br>&nbsp;&nbsp;○&nbsp;연차적&nbsp;재원&nbsp;확보</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

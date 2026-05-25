@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박지원 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	해남군민의 피부노화를 멈추게 하여 20~30십대 피부로 대폭 향상시킨 기적을 드리겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="해남군민의 피부노화를 멈추게 하여 20~30십대 피부로 대폭 향상시킨 기적을 드리겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>&nbsp;&nbsp;피부가&nbsp;5살&nbsp;먹는&nbsp;아이&nbsp;피부처럼&nbsp;좋아진&nbsp;건강현상을&nbsp;드린다.<br><br>○&nbsp;상기와&nbsp;같은&nbsp;이행방법은&nbsp;천연&nbsp;자원이&nbsp;해남&nbsp;있고,&nbsp;없는&nbsp;것은&nbsp;재배&nbsp;및&nbsp;가축을&nbsp;길러야&nbsp;하고&nbsp;,&nbsp;식품제조&nbsp;공장을&nbsp;만들어야&nbsp;한다.<br><br>당뇨현상은&nbsp;바로&nbsp;없어진다.<br><br>상기&nbsp;내용을&nbsp;실천하고자&nbsp;법인사업소를&nbsp;만든다.<br><br>이재명&nbsp;대통령님&nbsp;&&nbsp;박지원&nbsp;과는&nbsp;중앙대학교&nbsp;법학과&nbsp;동문&nbsp;친구임으로&nbsp;중앙정부&nbsp;예산요청에&nbsp;도움이&nbsp;크게&nbsp;될&nbsp;것입니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	알카리성 미네랄 해남수(水)를 개발 판매한다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="알카리성 미네랄 해남수(水)를 개발 판매한다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;:&nbsp;제주에는&nbsp;‘암반수’가&nbsp;있다면,&nbsp;해남군에는&nbsp;건강에&nbsp;매우&nbsp;대단히&nbsp;좋은&nbsp;알카리성&nbsp;미네랄&nbsp;해남수(水)를&nbsp;개발하여&nbsp;무상배금&nbsp;및&nbsp;국내&nbsp;국외&nbsp;수출하여&nbsp;해남군의&nbsp;재정수입&nbsp;으로&nbsp;해남군의&nbsp;<br>경제발전&nbsp;및&nbsp;해남군민에게&nbsp;현금&nbsp;분배를&nbsp;하겠습니다.<br><br>○&nbsp;이행방법:&nbsp;해남군의&nbsp;입지&nbsp;조건상&nbsp;알카리성&nbsp;미네랄&nbsp;해남수(水)&nbsp;개발이&nbsp;용이하다.<br><br>요즘&nbsp;사람은&nbsp;과도한&nbsp;육류섭취로&nbsp;체질이&nbsp;산성화&nbsp;되어&nbsp;몸이&nbsp;무겁고&nbsp;면역성이&nbsp;저하되어&nbsp;있어&nbsp;각종질병에&nbsp;노출되어&nbsp;있습니다.<br><br>○&nbsp;이행기간&nbsp;:&nbsp;취임&nbsp;1년&nbsp;내&nbsp;실행가능이&nbsp;있음.<br><br>○&nbsp;재원조달방안&nbsp;등:&nbsp;예산은&nbsp;별로&nbsp;들지&nbsp;않을&nbsp;것으로&nbsp;판단다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	전(全)세계적으로 가장 맛있는 건강김치를 생산 판매한다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="전(全)세계적으로 가장 맛있는 건강김치를 생산 판매한다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;:&nbsp;해남군의&nbsp;입지조건에&nbsp;맞는&nbsp;천혜의&nbsp;사업은&nbsp;전(全)세계적으로&nbsp;가장&nbsp;맛있는&nbsp;건강김치를&nbsp;생산판매&nbsp;하여&nbsp;농가소득&nbsp;및&nbsp;해남군민&nbsp;현금배당수당이&nbsp;전국에서&nbsp;가장&nbsp;우수함을&nbsp;목표로&nbsp;한다.<br><br>○&nbsp;이행방법:&nbsp;1.&nbsp;해남배추전량을&nbsp;고가로&nbsp;매수하여&nbsp;초대형&nbsp;김치재조공장을&nbsp;만들어,&nbsp;유산균이&nbsp;풍무한&nbsp;건강김치를&nbsp;동굴&nbsp;속에서&nbsp;숙성하여&nbsp;국내&nbsp;및&nbsp;해외에&nbsp;수술하는&nbsp;과정에서&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;수익증대로&nbsp;발생된&nbsp;돈을&nbsp;해남군민에게&nbsp;충분히&nbsp;드리겠습니다.<br><br>&nbsp;사업을&nbsp;성공적으로&nbsp;이행할&nbsp;능력이&nbsp;있는&nbsp;증거는&nbsp;법학과&nbsp;졸업,&nbsp;26년&nbsp;행정전공,&nbsp;경영학과&nbsp;졸업,&nbsp;식품영양학과졸업,&nbsp;육군전투병과&nbsp;정보통신&nbsp;장교출신이기에&nbsp;박지원&nbsp;해남군수&nbsp;후보자는&nbsp;이러한&nbsp;사업을&nbsp;할&nbsp;수&nbsp;있는&nbsp;기본이&nbsp;되어&nbsp;있습니다.<br><br>○&nbsp;이행기간은&nbsp;:&nbsp;해남군민이&nbsp;저를&nbsp;선발해&nbsp;주시면,&nbsp;취임즉시&nbsp;계발계획을&nbsp;세워&nbsp;나아가겠습니다.<br><br>○&nbsp;재원조달방안&nbsp;등:&nbsp;이&nbsp;사업은&nbsp;국가적인&nbsp;대규모&nbsp;사업이라&nbsp;중앙정부의&nbsp;예산을&nbsp;받아&nbsp;시행해야&nbsp;한다.&nbsp;그래서&nbsp;제가&nbsp;취임즉시&nbsp;중앙대학교&nbsp;법학과&nbsp;출신이라&nbsp;청와대&nbsp;이재명&nbsp;대통령임도&nbsp;중앙대학교&nbsp;법학과&nbsp;출신이라.&nbsp;이런&nbsp;인맥을&nbsp;통해&nbsp;예산확보로&nbsp;5대공약이&nbsp;완성되어&nbsp;,해남군&nbsp;재정이&nbsp;차고&nbsp;넘치면,&nbsp;중앙정부로&nbsp;&nbsp;받은&nbsp;개발자금을&nbsp;중앙정부에&nbsp;국방비&nbsp;목으로&nbsp;갚겠습니다.<br>그래서&nbsp;대한민국의&nbsp;“부국&nbsp;강국의&nbsp;시작‘은&nbsp;해남군으로부터&nbsp;시작됨을&nbsp;국민이&nbsp;알&nbsp;것입니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	해남군민의 민원처리가 안되면 되게하여 완전무결한 해남군민 민원처리가 완전무결하게 언제나 되도록 박지원 후보자가  직접 공무원을 교육시키겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="해남군민의 민원처리가 안되면 되게하여 완전무결한 해남군민 민원처리가 완전무결하게 언제나 되도록 박지원 후보자가  직접 공무원을 교육시키겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;:&nbsp;해남군민을&nbsp;위한&nbsp;민원처리는&nbsp;완전무결하게&nbsp;속&nbsp;시원하게&nbsp;업무처리하여&nbsp;군민의&nbsp;행복지수를&nbsp;높이는&nbsp;목표입니다.<br><br>○&nbsp;이행방법:&nbsp;매월&nbsp;공무원이&nbsp;가져야&nbsp;할&nbsp;기초법령&nbsp;등,&nbsp;민원인의&nbsp;민원을&nbsp;경청하도록&nbsp;교육을&nbsp;시켜&nbsp;완전무결한&nbsp;민원&nbsp;해결이&nbsp;되도록&nbsp;하겠습니다.<br><br>○&nbsp;이행기간&nbsp;:&nbsp;취임부터&nbsp;퇴임&nbsp;날까지<br><br>○&nbsp;재원조달&nbsp;방안&nbsp;&nbsp;재원을&nbsp;들지&nbsp;아니한다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	마을마다 태양광 뜨거운 물 샤워장을 만들어 준다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="마을마다 태양광 뜨거운 물 샤워장을 만들어 준다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;:&nbsp;마을마다&nbsp;있는&nbsp;마을&nbsp;회관에&nbsp;태양광을&nbsp;이용한&nbsp;온수&nbsp;샤워장을&nbsp;만들어&nbsp;줌으로,&nbsp;들에서&nbsp;전답&nbsp;가꾸는&nbsp;사이&nbsp;흙먼지로&nbsp;덮어쓴&nbsp;몸을&nbsp;언제나&nbsp;씻는&nbsp;것은&nbsp;위생상&nbsp;좋고,&nbsp;무병장수의&nbsp;&nbsp;길이다.&nbsp;그래서&nbsp;전체적으로&nbsp;보면&nbsp;가구마다&nbsp;연료비&nbsp;절감도&nbsp;된다.<br><br>「&nbsp;맹지의&nbsp;논·밭에&nbsp;배추생산&nbsp;고구마&nbsp;생산물이&nbsp;대로이동이&nbsp;용이&nbsp;하도록&nbsp;농로&nbsp;정비를&nbsp;하여&nbsp;농민의&nbsp;생산물&nbsp;수확&nbsp;운반&nbsp;편리를&nbsp;준,&nbsp;공약을&nbsp;합니다.<br>자비&nbsp;및&nbsp;도비예산을&nbsp;받아&nbsp;추진한다.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

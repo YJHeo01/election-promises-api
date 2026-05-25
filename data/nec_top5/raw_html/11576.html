@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;양정무 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	지역소득 확충 및 산업 고도화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="지역소득 확충 및 산업 고도화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전북&nbsp;농·축·수산업의&nbsp;부가가치를&nbsp;높여&nbsp;지역&nbsp;소득&nbsp;증대<br>&nbsp;&nbsp;○&nbsp;생산&nbsp;중심&nbsp;경제&nbsp;구조를&nbsp;가공·제조&nbsp;중심&nbsp;산업&nbsp;구조로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;내&nbsp;일자리&nbsp;확대&nbsp;및&nbsp;청년&nbsp;인구&nbsp;유입&nbsp;기반&nbsp;구축<br><br>□&nbsp;주요공약<br>&nbsp;&nbsp;○&nbsp;2차&nbsp;가공&nbsp;산업&nbsp;즉시&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;지역별&nbsp;특화&nbsp;가공단지&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;인구증가의&nbsp;선순환&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;문화.관광&nbsp;연계&nbsp;산업&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시.군별&nbsp;특화산업&nbsp;전략&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;지역기업&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;가공시설&nbsp;현대화&nbsp;및&nbsp;스마트&nbsp;제조&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;중소기업.소상공인&nbsp;금융&nbsp;및&nbsp;판로지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;관광.유통&nbsp;통합&nbsp;플랫품&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;온라인&nbsp;유통망&nbsp;확대&nbsp;및&nbsp;브랜드화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;관광상품과&nbsp;특산물&nbsp;판매&nbsp;연계&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지역별&nbsp;특화사업&nbsp;선정&nbsp;및&nbsp;가공산업&nbsp;기반&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;중기(3~5년)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;산업단지&nbsp;및&nbsp;제조시설&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;장기(5년&nbsp;이상)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;전북형&nbsp;고부가가치&nbsp;산업&nbsp;생태계&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국가균형발전특별회계&nbsp;및&nbsp;지방비&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;농림축산식품부.중소기업부&nbsp;공모사업&nbsp;적극유치<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;투자&nbsp;및&nbsp;지역&nbsp;기업&nbsp;협력&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;관광.가공산업&nbsp;세수&nbsp;확대를&nbsp;통한&nbsp;재투자&nbsp;구조&nbsp;구축</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	새만금 활성화 및 비응항 에너지.물류허브 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="새만금 활성화 및 비응항 에너지.물류허브 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;새만금을&nbsp;대한민국&nbsp;미래&nbsp;성장&nbsp;거점으로&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;비응항을&nbsp;국제&nbsp;물류.에너지&nbsp;중심&nbsp;항만으로&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;전북&nbsp;경제&nbsp;재도약&nbsp;기반&nbsp;마련&nbsp;및&nbsp;일자리&nbsp;창출<br><br>□&nbsp;주요공약<br>&nbsp;&nbsp;○&nbsp;비응항&nbsp;글로벌&nbsp;물류항&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;대형화물선.유조선&nbsp;접안&nbsp;가능한&nbsp;국제물류항&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;새만금&nbsp;산업단지&nbsp;연계&nbsp;수출입&nbsp;거점&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;에너지&nbsp;자립&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;전력망&nbsp;확충&nbsp;및&nbsp;원전&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;태양광&nbsp;발전&nbsp;확대&nbsp;및&nbsp;에너지&nbsp;자립도&nbsp;향상<br>&nbsp;&nbsp;항만&nbsp;배후&nbsp;산업.물류단지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;물류.냉동.보관.가공&nbsp;기능&nbsp;집적화<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;기업&nbsp;유치&nbsp;및&nbsp;산업&nbsp;클러스터&nbsp;구축<br>&nbsp;&nbsp;해양관광&nbsp;복합도시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;대형&nbsp;크루즈선&nbsp;산업&nbsp;유치&nbsp;및&nbsp;마리나.수변&nbsp;관광활성화<br>&nbsp;&nbsp;○&nbsp;관광.산업&nbsp;수산업이&nbsp;공준하는&nbsp;복합&nbsp;해양도시&nbsp;구축<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중앙정부&nbsp;및&nbsp;관계기관&nbsp;협의체&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;항만&nbsp;및&nbsp;산업&nbsp;인프라&nbsp;단계별&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;투자&nbsp;유치&nbsp;확대<br><br>□&nbsp;이행기간<br>단기(1~2),중기(3~5),장기(5년이상)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;SOC예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;새만금&nbsp;특별회계&nbsp;및&nbsp;지방비&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;민자&nbsp;유치(PPP&nbsp;방식)&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;항만.산업단지&nbsp;개발&nbsp;수익&nbsp;재투자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	새만금 국제공항 건설 즉시 재개</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="새만금 국제공항 건설 즉시 재개">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;새만금&nbsp;국제공항&nbsp;건설&nbsp;정상화<br>&nbsp;&nbsp;○&nbsp;전북&nbsp;독자&nbsp;항공&nbsp;물류망&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;동북아&nbsp;국제&nbsp;물류&nbsp;중심지&nbsp;도약<br><br>주요공약<br>○&nbsp;공항&nbsp;건설&nbsp;즉시&nbsp;재개<br>○&nbsp;전북만의&nbsp;하늘길&nbsp;확보<br>○&nbsp;기업·물류&nbsp;중심&nbsp;경제&nbsp;구조&nbsp;전환<br><br>&nbsp;&nbsp;&nbsp;-<br>□&nbsp;□&nbsp;이행방법<br>○&nbsp;정부·국회&nbsp;협력&nbsp;강화<br>○&nbsp;통합&nbsp;교통망&nbsp;구축<br>○&nbsp;국제&nbsp;물류&nbsp;및&nbsp;관광&nbsp;전략&nbsp;병행<br><br>□&nbsp;이행기간<br>○&nbsp;단기(1~2년)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;사업&nbsp;재개&nbsp;및&nbsp;행정&nbsp;절차&nbsp;정상화<br>○&nbsp;중기(3~5년)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;연계&nbsp;교통망&nbsp;구축&nbsp;착수<br>○&nbsp;장기(5년&nbsp;이상)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;국제공항&nbsp;운영&nbsp;및&nbsp;물류&nbsp;중심지&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국토교통부&nbsp;국가사업&nbsp;예산&nbsp;확보<br>○&nbsp;국가균형발전&nbsp;예산&nbsp;활용<br>○&nbsp;공항&nbsp;연계&nbsp;개발사업&nbsp;민간&nbsp;투자&nbsp;유치<br>○&nbsp;물류·관광&nbsp;수익&nbsp;기반&nbsp;재정&nbsp;확충</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	교육 도시 도약 및 외국인 상생 복지</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="교육 도시 도약 및 외국인 상생 복지">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;인재&nbsp;유출&nbsp;방지&nbsp;및&nbsp;교육&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;외국인&nbsp;근로자·유학생과의&nbsp;상생&nbsp;환경&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;인재도시&nbsp;전북&nbsp;실현<br>&nbsp;&nbsp;주요공약<br>&nbsp;&nbsp;○&nbsp;대학&nbsp;중심&nbsp;지역&nbsp;인재&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;국립대·사립대&nbsp;중심&nbsp;교육&nbsp;거점&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;산학협력&nbsp;강화&nbsp;및&nbsp;취업&nbsp;연계&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;외국인&nbsp;근로자·유학생&nbsp;케어&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;의료·주거·교육·행정&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;장기&nbsp;체류&nbsp;및&nbsp;국적&nbsp;취득&nbsp;지원&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;교육·산업&nbsp;연계&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;원광대(첨단농생명과학)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;외국인&nbsp;전문인력&nbsp;정착&nbsp;기반&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대학·기업·지자체&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;외국인&nbsp;지원센터&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;정주&nbsp;지원&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;단기(1~2년),중기(3~5)자기(5년이상)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;대학&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;중기(3~5년)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지역&nbsp;맞춤형&nbsp;인재&nbsp;양성&nbsp;체계&nbsp;정착<br>&nbsp;&nbsp;○&nbsp;장기(5년&nbsp;이상)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;글로벌&nbsp;교육도시&nbsp;전북&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;교육부·법무부&nbsp;국비&nbsp;지원사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;지방비&nbsp;및&nbsp;대학&nbsp;협력&nbsp;예산&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;산학협력&nbsp;및&nbsp;기업&nbsp;후원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;외국인&nbsp;정착&nbsp;인구&nbsp;증가에&nbsp;따른&nbsp;세수&nbsp;확대</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	기업 유치 ‘인허가 고속도로팀’ 신설 및 대기업 세수 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="기업 유치 ‘인허가 고속도로팀’ 신설 및 대기업 세수 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;기업&nbsp;친화&nbsp;행정&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;대기업&nbsp;유치&nbsp;확대&nbsp;및&nbsp;세수&nbsp;증대<br>&nbsp;&nbsp;○&nbsp;양질의&nbsp;일자리&nbsp;창출과&nbsp;지역경제&nbsp;활성화<br>&nbsp;<br>주요공약<br>○&nbsp;인허가&nbsp;고속도로팀&nbsp;신설<br>○&nbsp;대기업&nbsp;유치&nbsp;및&nbsp;산업&nbsp;확대<br>○&nbsp;세수&nbsp;확대&nbsp;및&nbsp;경제&nbsp;선순환&nbsp;구축<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;도지사&nbsp;직속&nbsp;기업지원&nbsp;전담&nbsp;조직&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;투자·행정·법률·세무&nbsp;통합&nbsp;지원&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;전략산업&nbsp;중심&nbsp;투자&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;반도체·에너지·바이오·식품산업&nbsp;집중&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;기업&nbsp;규제&nbsp;혁신&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;불필요한&nbsp;행정&nbsp;절차&nbsp;간소화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;인허가&nbsp;고속도로팀&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;투자기업&nbsp;지원체계&nbsp;구축,&nbsp;기존&nbsp;MOU&nbsp;체결&nbsp;기업의&nbsp;실질적&nbsp;사업&nbsp;참여&nbsp;유도<br>&nbsp;&nbsp;○&nbsp;중기(3~5년)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;대기업&nbsp;및&nbsp;우량기업&nbsp;유치&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;산업단지&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;장기(5년&nbsp;이상)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;기업&nbsp;중심&nbsp;경제&nbsp;생태계&nbsp;정착<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;안정적&nbsp;세수&nbsp;기반&nbsp;확보<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;지방비&nbsp;및&nbsp;투자유치&nbsp;특별기금&nbsp;활용<br>○&nbsp;산업통상자원부·중소벤처기업부&nbsp;연계&nbsp;사업&nbsp;확보<br>○&nbsp;민간&nbsp;투자&nbsp;및&nbsp;기업&nbsp;협력&nbsp;확대<br>○&nbsp;기업&nbsp;유치에&nbsp;따른&nbsp;지방세&nbsp;증가분&nbsp;재투자</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

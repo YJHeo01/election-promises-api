@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김선광 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	머무는 사람이 돈이 되는 도시 "중구 체류형 문화관광 시대를 열겠습니다"</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="머무는 사람이 돈이 되는 도시 "중구 체류형 문화관광 시대를 열겠습니다"">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;정책목표<br>&nbsp;&nbsp;○&nbsp;중구를&nbsp;스쳐가는&nbsp;도시에서&nbsp;하루&nbsp;더&nbsp;머무는&nbsp;도시로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;보문산&nbsp;·&nbsp;오월드&nbsp;·&nbsp;원도심&nbsp;상권을&nbsp;연결한&nbsp;중부권&nbsp;대표&nbsp;관광벨트&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;관광&nbsp;·&nbsp;숙박&nbsp;·&nbsp;외식&nbsp;·&nbsp;문화&nbsp;소비&nbsp;확대를&nbsp;통한&nbsp;지역경제&nbsp;활성화&nbsp;및&nbsp;청년일자리&nbsp;창출&nbsp;<br><br>□&nbsp;이행절차<br>&nbsp;&nbsp;○&nbsp;보문산&nbsp;·&nbsp;오월드&nbsp;·&nbsp;뿌리공원&nbsp;·&nbsp;으능정이거리&nbsp;·&nbsp;중앙로를&nbsp;연결하는&nbsp;중구&nbsp;체류형&nbsp;관광벨트&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;사계절&nbsp;가족형&nbsp;물놀이&nbsp;·&nbsp;휴양&nbsp;·&nbsp;체험&nbsp;콘텐츠와&nbsp;숙박&nbsp;인프라를&nbsp;포함한&nbsp;복합관광단지&nbsp;단계별&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;야간경관&nbsp;·&nbsp;미디어아트&nbsp;·&nbsp;야간푸드거리&nbsp;등&nbsp;밤에도&nbsp;살아있는&nbsp;중구&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;한화생명볼파크&nbsp;·&nbsp;성심당&nbsp;·&nbsp;원도심&nbsp;상권과&nbsp;연계한&nbsp;관광&nbsp;소비&nbsp;동선&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;민간투자&nbsp;공모&nbsp;방식&nbsp;도입&nbsp;및&nbsp;관광형&nbsp;교통노선&nbsp;신설&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;청년창업&nbsp;·&nbsp;로컬브랜드&nbsp;·&nbsp;골목상권과&nbsp;연계한&nbsp;관광경제&nbsp;모델&nbsp;구축&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;(취임&nbsp;후&nbsp;6개월)&nbsp;:&nbsp;기본구상&nbsp;및&nbsp;민관협의체&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;2단계&nbsp;(1년&nbsp;이내)&nbsp;:&nbsp;사업성&nbsp;검토&nbsp;및&nbsp;민간투자&nbsp;구조&nbsp;확정<br>&nbsp;&nbsp;○&nbsp;3단계&nbsp;(2~3년차)&nbsp;:&nbsp;민간사업자&nbsp;공모&nbsp;및&nbsp;인허가&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;4단계&nbsp;(4년차&nbsp;이후)&nbsp;:&nbsp;단계별&nbsp;착공&nbsp;및&nbsp;운영&nbsp;개시<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민간투자&nbsp;중심&nbsp;추진&nbsp;및&nbsp;공공재정&nbsp;부담&nbsp;최소화<br>&nbsp;&nbsp;○&nbsp;국&nbsp;·&nbsp;시비&nbsp;관광개발사업&nbsp;공모&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;기반시설&nbsp;일부&nbsp;공공지원&nbsp;병행<br>&nbsp;&nbsp;○&nbsp;단계별&nbsp;개발방식&nbsp;적용으로&nbsp;재정&nbsp;리스크&nbsp;분산</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	아이 키우려고 이사 오는 교육도시 "중구 8학군 프로젝트 추진"</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="아이 키우려고 이사 오는 교육도시 "중구 8학군 프로젝트 추진"">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;정책목표<br>&nbsp;&nbsp;○&nbsp;중구를&nbsp;대전&nbsp;최고의&nbsp;교육&nbsp;·&nbsp;진학&nbsp;중심도시로&nbsp;육성&nbsp;<br>&nbsp;&nbsp;○&nbsp;사교육&nbsp;격차&nbsp;해소&nbsp;및&nbsp;공교육&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;학부모&nbsp;·&nbsp;학생이&nbsp;다시&nbsp;찾는&nbsp;원도심&nbsp;교육환경&nbsp;조성<br><br>□&nbsp;이행절차<br>&nbsp;&nbsp;○&nbsp;중구형&nbsp;교육컨트롤타워&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;진학&nbsp;·&nbsp;진로&nbsp;·&nbsp;자기주도학습&nbsp;·&nbsp;평생교육&nbsp;통합지원&nbsp;플랫폼&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;중구형&nbsp;인터넷&nbsp;강의&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유명&nbsp;강사진&nbsp;온라인&nbsp;강의&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;저소득층&nbsp;교육콘텐츠&nbsp;무상지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;권역별&nbsp;영어도서관&nbsp;및&nbsp;원어민&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;초&nbsp;·&nbsp;중&nbsp;·&nbsp;고&nbsp;통학&nbsp;안전환경&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;워킹스쿨버스&nbsp;·&nbsp;스쿨버스&nbsp;단계적&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학교&nbsp;주변&nbsp;보행안전시설&nbsp;전면&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;학원가&nbsp;·&nbsp;도서관&nbsp;·&nbsp;청소년&nbsp;문화공간&nbsp;연계&nbsp;교육특화거리&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;대학&nbsp;·&nbsp;기업&nbsp;연계&nbsp;진로체험&nbsp;프로그램&nbsp;확대&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;교육&nbsp;구성&nbsp;TF<br>&nbsp;&nbsp;○&nbsp;1년차&nbsp;교육컨트롤타워&nbsp;및&nbsp;온라인&nbsp;플랫폼&nbsp;구축&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;2~3년차&nbsp;:&nbsp;영어도서관&nbsp;·&nbsp;교육특화사업&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계별&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;교육부&nbsp;미래교육지구&nbsp;·&nbsp;평생학습도시&nbsp;공모사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;대전시&nbsp;교육협력사업&nbsp;및&nbsp;교육청&nbsp;협력&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;기업&nbsp;·&nbsp;대학&nbsp;연계&nbsp;후원&nbsp;및&nbsp;민관협력&nbsp;모델&nbsp;구축</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	20년 방치 흉물(메가시티), 대전의 랜드마크로 "중앙로 복합문화타운 조성"</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="20년 방치 흉물(메가시티), 대전의 랜드마크로 "중앙로 복합문화타운 조성"">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;정책목표<br>&nbsp;&nbsp;○&nbsp;20년&nbsp;넘게&nbsp;방치된&nbsp;구&nbsp;메가시티&nbsp;건물&nbsp;정상화<br>&nbsp;&nbsp;○&nbsp;원도심&nbsp;관광&nbsp;·&nbsp;문화&nbsp;·&nbsp;상업&nbsp;기능&nbsp;회복<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;·&nbsp;소상공인&nbsp;·&nbsp;관광객이&nbsp;함께&nbsp;모이는&nbsp;문화거점&nbsp;조성&nbsp;<br><br>□&nbsp;이행절차<br>&nbsp;&nbsp;○&nbsp;대전시&nbsp;·&nbsp;중구&nbsp;·&nbsp;민간기업&nbsp;참여&nbsp;4자&nbsp;협의체&nbsp;구성&nbsp;<br>&nbsp;&nbsp;○&nbsp;성심당&nbsp;·&nbsp;한화이글스&nbsp;·&nbsp;청년문화&nbsp;콘텐츠를&nbsp;연계한&nbsp;복합문화타운&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;청년창업&nbsp;마켓&nbsp;·&nbsp;로컬브랜드존&nbsp;·&nbsp;문화전시관&nbsp;·&nbsp;체험형&nbsp;콘텐츠&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;중앙로역&nbsp;은행동~선화동&nbsp;보행축&nbsp;연계&nbsp;활성화&nbsp;<br>&nbsp;&nbsp;○&nbsp;야간관광&nbsp;및&nbsp;체류형&nbsp;소비구조&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;공동투자&nbsp;및&nbsp;특수목적법인(SPC)&nbsp;방식&nbsp;검토&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;민관협의체&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;1년차&nbsp;:&nbsp;사업구조&nbsp;및&nbsp;투자협상&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2년차&nbsp;:&nbsp;설계&nbsp;·&nbsp;행정절차&nbsp;완료<br>&nbsp;&nbsp;○&nbsp;3~4년차&nbsp;:&nbsp;단계별&nbsp;착공&nbsp;및&nbsp;운영&nbsp;개시<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;공공+민간&nbsp;공동투자&nbsp;방식&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;대전시&nbsp;도시재생&nbsp;·&nbsp;관광활성화&nbsp;사업&nbsp;연계&nbsp;<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;콘텐츠&nbsp;기업&nbsp;참여&nbsp;유도<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;공모사업&nbsp;및&nbsp;도시혁신사업&nbsp;연계&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	낡은 청사는 바꾸고, 청년 주거는 늘리고 "중구 복합행정타운 재건축 추진"</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="낡은 청사는 바꾸고, 청년 주거는 늘리고 "중구 복합행정타운 재건축 추진"">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;정책목표<br>&nbsp;&nbsp;○&nbsp;노후&nbsp;청사&nbsp;문제&nbsp;해결&nbsp;및&nbsp;행정서비스&nbsp;혁신<br>&nbsp;&nbsp;○&nbsp;공공임대주택&nbsp;공급&nbsp;확대를&nbsp;통한&nbsp;청년&nbsp;·&nbsp;신혼부부&nbsp;정착&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;원도심&nbsp;활성화와&nbsp;도시기능&nbsp;재편&nbsp;동시&nbsp;추진<br><br>□&nbsp;이행절차<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;청사부지&nbsp;활용&nbsp;LH연계&nbsp;복합개발&nbsp;방식&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;신축청사&nbsp;+&nbsp;공공임대주택&nbsp;+&nbsp;주민편의시설&nbsp;복합개발<br>&nbsp;&nbsp;○&nbsp;공사&nbsp;기간&nbsp;중&nbsp;원도심&nbsp;공실&nbsp;임시청사&nbsp;활용으로&nbsp;상권&nbsp;활성화&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;주민커뮤니티&nbsp;·&nbsp;청년창업&nbsp;·&nbsp;생활SOC&nbsp;기능&nbsp;결합&nbsp;<br>&nbsp;&nbsp;○&nbsp;친환경&nbsp;·&nbsp;스마트&nbsp;행정청사&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;생활밀착형&nbsp;원스톱&nbsp;행정서비스&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1년차&nbsp;:&nbsp;LH&nbsp;·&nbsp;대전시&nbsp;협의&nbsp;및&nbsp;타당성&nbsp;용역<br>&nbsp;&nbsp;○&nbsp;2년차&nbsp;:&nbsp;개발계획&nbsp;수립&nbsp;및&nbsp;행정절차&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;3년차&nbsp;:&nbsp;착공&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;중장기&nbsp;단계별&nbsp;개발<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;LH&nbsp;공공개발&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;국토부&nbsp;도시재생&nbsp;·&nbsp;공공주택사업&nbsp;활용&nbsp;<br>&nbsp;&nbsp;○&nbsp;지방재정&nbsp;부담&nbsp;최소화&nbsp;방식&nbsp;적용<br>&nbsp;&nbsp;○&nbsp;임대수익&nbsp;및&nbsp;복합개발&nbsp;수익&nbsp;일부&nbsp;재투자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	사람도 동물도 함께 행복한 도시 "중구 반려동물 공공의료체계 구축"</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="사람도 동물도 함께 행복한 도시 "중구 반려동물 공공의료체계 구축"">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;정책목표<br>&nbsp;&nbsp;○&nbsp;반려동물&nbsp;의료비&nbsp;부담&nbsp;완화&nbsp;및&nbsp;공공복지&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;반려인&nbsp;·&nbsp;비반려인이&nbsp;공존하는&nbsp;성숙한&nbsp;반려문화&nbsp;조성&nbsp;<br>&nbsp;&nbsp;○&nbsp;대전&nbsp;최초&nbsp;중구형&nbsp;반려동물&nbsp;공공보건&nbsp;시스템&nbsp;구축<br><br>□&nbsp;이행절차<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;:&nbsp;우리동네&nbsp;협력&nbsp;동물병원&nbsp;사업&nbsp;우선&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;동물병원&nbsp;지정&nbsp;협약&nbsp;방식&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취약계층&nbsp;예방접종&nbsp;·&nbsp;기초검진&nbsp;·&nbsp;중성화&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;2단계&nbsp;:&nbsp;중구&nbsp;반려동물보건소&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공진료&nbsp;·&nbsp;교육&nbsp;·&nbsp;유기동물&nbsp;응급보호&nbsp;기능&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반려문화&nbsp;교육&nbsp;및&nbsp;커뮤니티&nbsp;공간&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;길고양이&nbsp;중성화(TNR)&nbsp;집중&nbsp;지원&nbsp;<br>&nbsp;&nbsp;○&nbsp;반려동물&nbsp;등록&nbsp;및&nbsp;공공방역&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;반려동물&nbsp;행동교육&nbsp;·&nbsp;펫티켓&nbsp;프로그램&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;민간협력사업&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;1년차&nbsp;:&nbsp;관련&nbsp;조례&nbsp;·&nbsp;예산&nbsp;·&nbsp;협력병원&nbsp;지정<br>&nbsp;&nbsp;○&nbsp;2~3년차&nbsp;:&nbsp;부지&nbsp;선정&nbsp;및&nbsp;설계&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;4년차&nbsp;:&nbsp;반려동물보건소&nbsp;개소&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;공모사업&nbsp;및&nbsp;시비&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;협력병원&nbsp;위탁방식&nbsp;우선&nbsp;추진으로&nbsp;초기&nbsp;재정부담&nbsp;최소화<br>&nbsp;&nbsp;○&nbsp;단계별&nbsp;예산투입&nbsp;및&nbsp;운영비&nbsp;분산&nbsp;구조&nbsp;적용<br>&nbsp;&nbsp;○&nbsp;반려동물&nbsp;공공보건사업&nbsp;연계&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김종규 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	해뜰마루네이처파크를 조성하여 부안읍을 살리겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="해뜰마루네이처파크를 조성하여 부안읍을 살리겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;부안읍의&nbsp;중심&nbsp;관광상품으로&nbsp;개발하여&nbsp;인간과&nbsp;자연이&nbsp;공존&nbsp;<br>&nbsp;&nbsp;○&nbsp;생태중심&nbsp;힐링관광의&nbsp;중심지로서&nbsp;자리매김&nbsp;<br>&nbsp;&nbsp;○&nbsp;치유농업+수생정원의&nbsp;생명력을&nbsp;증대시키는&nbsp;메카로&nbsp;자리매김<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국가정원&nbsp;및&nbsp;관광특구&nbsp;지정&nbsp;<br>&nbsp;&nbsp;○&nbsp;특수목적법인&nbsp;설립&nbsp;및&nbsp;단계적&nbsp;개발&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단계별&nbsp;개발&nbsp;:&nbsp;임기&nbsp;내&nbsp;1단계&nbsp;완료&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년~2030년&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총사업비&nbsp;:&nbsp;약&nbsp;300억&nbsp;원~500억&nbsp;원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;60%-국·도비&nbsp;공모&nbsp;+&nbsp;보통교부세&nbsp;+&nbsp;특교세로&nbsp;확보&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;40%-민간투자&nbsp;수익형&nbsp;구조&nbsp;<br><br>□&nbsp;기대효과&nbsp;<br>&nbsp;&nbsp;○&nbsp;부안읍이&nbsp;관광의&nbsp;중심지&nbsp;역할을&nbsp;함<br>&nbsp;&nbsp;○&nbsp;부안군&nbsp;생활인구(관광객)&nbsp;유입&nbsp;증대&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;부안소상공인&nbsp;경제활성화&nbsp;증대&nbsp;<br>&nbsp;&nbsp;○&nbsp;생태중심&nbsp;관광&nbsp;부안&nbsp;이미지&nbsp;제고</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	부안에너지공사를 설립하여 에너지 이익금을 군민월급으로 돌려드리겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="부안에너지공사를 설립하여 에너지 이익금을 군민월급으로 돌려드리겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;부안의&nbsp;자연&nbsp;자원인&nbsp;산·들·바다·갯벌을&nbsp;부안군민이&nbsp;전적으로&nbsp;이용할&nbsp;수&nbsp;있는&nbsp;에너지원으로&nbsp;삼아,&nbsp;여기에서&nbsp;발생하는&nbsp;에너지수익금을&nbsp;‘군민월급’으로&nbsp;직접&nbsp;지급할&nbsp;수&nbsp;있도록&nbsp;함.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계별&nbsp;개발&nbsp;방식에&nbsp;따라서&nbsp;이행할&nbsp;것임<br>&nbsp;&nbsp;○&nbsp;에너지수익금의&nbsp;중심으로&nbsp;풍력발전을&nbsp;구축할&nbsp;것임&nbsp;<br>&nbsp;&nbsp;○&nbsp;풍력발전&nbsp;40기를&nbsp;단계별&nbsp;구축할&nbsp;것임&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;:&nbsp;2026년(1~2년차)<br>&nbsp;&nbsp;○&nbsp;2단계&nbsp;:&nbsp;2027~2028(2~3년차)<br>&nbsp;&nbsp;○&nbsp;3단계&nbsp;:&nbsp;2028~2030(4~5년차)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총사업비&nbsp;:&nbsp;약&nbsp;9,400억&nbsp;원&nbsp;<br>&nbsp;&nbsp;○&nbsp;새만금&nbsp;RE100국가&nbsp;산단&nbsp;조성이&nbsp;국정과제로&nbsp;지정되어&nbsp;재정지원&nbsp;근거가&nbsp;마련됨<br>&nbsp;&nbsp;○&nbsp;육상풍력&nbsp;보급&nbsp;확대를&nbsp;위해&nbsp;PF대출금액의&nbsp;70%까지&nbsp;정부가&nbsp;보증&nbsp;확대&nbsp;추진&nbsp;<br><br>□&nbsp;기대효과&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;부안군민&nbsp;기본소득&nbsp;재원을&nbsp;직접&nbsp;마련하는&nbsp;계기가&nbsp;됨&nbsp;<br>&nbsp;&nbsp;○&nbsp;친환경&nbsp;에너지원이&nbsp;중심인&nbsp;에너지&nbsp;자립을&nbsp;기대</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	청호저수지 수상레저스포츠 파라다이스 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="청호저수지 수상레저스포츠 파라다이스 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청호저수지의&nbsp;광활한&nbsp;수상&nbsp;면적을&nbsp;활용한&nbsp;수상스포츠&nbsp;생태계를&nbsp;구축함<br>&nbsp;&nbsp;○&nbsp;체류형&nbsp;관광객을&nbsp;유입시킬&nbsp;수&nbsp;있는&nbsp;테마파크&nbsp;활용성&nbsp;증대&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;플라이보드,&nbsp;모터보트,&nbsp;바나나보트,&nbsp;제트스키,&nbsp;수상스키,&nbsp;모터글라이더&nbsp;수상&nbsp;레저스포츠&nbsp;단지를&nbsp;조성함<br>&nbsp;&nbsp;○&nbsp;수상태양광&nbsp;활용한&nbsp;에너지&nbsp;자립시설로&nbsp;구축함<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총사업비&nbsp;:&nbsp;3,000억&nbsp;원&nbsp;<br>&nbsp;&nbsp;○&nbsp;민자&nbsp;컨소시엄&nbsp;구성&nbsp;및&nbsp;개발&nbsp;<br><br>□&nbsp;기대효과&nbsp;<br>&nbsp;&nbsp;○&nbsp;각종&nbsp;수상레저&nbsp;체험활동을&nbsp;할&nbsp;수&nbsp;있는&nbsp;공간&nbsp;조성으로&nbsp;청년인구&nbsp;유입&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강사,&nbsp;안전요원,&nbsp;스텝,&nbsp;클럽하우스&nbsp;운영&nbsp;등&nbsp;청년&nbsp;일자리&nbsp;500개&nbsp;창출&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주변&nbsp;상권&nbsp;및&nbsp;지역경제&nbsp;활성화&nbsp;기대&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활인구&nbsp;증대&nbsp;특히&nbsp;수상레저동호회원&nbsp;방문&nbsp;기대</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	공기놀이의 메카를 구축하여 사람이 찾아오는 부안을 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="공기놀이의 메카를 구축하여 사람이 찾아오는 부안을 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;성서와&nbsp;그리스&nbsp;신화에도&nbsp;등장하는&nbsp;공기놀이는&nbsp;전&nbsp;세계&nbsp;100여&nbsp;개&nbsp;국가에서&nbsp;유행하는&nbsp;세대&nbsp;구분이&nbsp;없는&nbsp;놀이임&nbsp;<br>&nbsp;&nbsp;○&nbsp;오래된&nbsp;우리의&nbsp;전통놀이&nbsp;중&nbsp;세대&nbsp;구분&nbsp;없이&nbsp;누구나&nbsp;즐길&nbsp;수&nbsp;있는&nbsp;놀이임<br>&nbsp;&nbsp;○&nbsp;부안판&nbsp;오징어게임으로&nbsp;입지를&nbsp;구축하여&nbsp;스포츠로&nbsp;발전시켜&nbsp;갈&nbsp;것임&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;3대가&nbsp;함께하는&nbsp;경연대회(단계별&nbsp;운용)를&nbsp;개최함&nbsp;<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;:&nbsp;기반&nbsp;구축&nbsp;(1~2년/10억원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부안군&nbsp;공기놀이&nbsp;챔피언십(학생+주민,&nbsp;무료참가)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전용경기장인&nbsp;‘공기아레나’&nbsp;구축을&nbsp;위해&nbsp;기존&nbsp;체육관&nbsp;개보수&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;파트너십&nbsp;:&nbsp;유네스코&nbsp;무형문화유산&nbsp;등재&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;2단계&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;세계대회&nbsp;개최&nbsp;추진&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속적으로&nbsp;단계별&nbsp;추진&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;50%&nbsp;+&nbsp;도비&nbsp;30%&nbsp;+&nbsp;군비&nbsp;20%<br>&nbsp;&nbsp;○&nbsp;총사업비&nbsp;:&nbsp;문체부&nbsp;관광기금&nbsp;및&nbsp;행정안전부&nbsp;지역소멸기금(공모사업)활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	AI미래기술대학을 설립하여 미래산업 실증교육의 메카로 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="AI미래기술대학을 설립하여 미래산업 실증교육의 메카로 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;신재생에너지테마파크의&nbsp;현대적&nbsp;시설들을&nbsp;활용한&nbsp;AI기술이&nbsp;특화된&nbsp;대학<br>&nbsp;&nbsp;○&nbsp;미래산업에&nbsp;필요한&nbsp;인재&nbsp;양성을&nbsp;위해&nbsp;실증&nbsp;중심의&nbsp;교육과정&nbsp;운영&nbsp;<br>&nbsp;&nbsp;○&nbsp;우리&nbsp;아이들이&nbsp;당당히&nbsp;대학&nbsp;교육을&nbsp;받을&nbsp;수&nbsp;있는&nbsp;캠퍼스&nbsp;구축&nbsp;<br>&nbsp;&nbsp;○&nbsp;청년과&nbsp;돈이&nbsp;몰리는&nbsp;실증적&nbsp;교육기반을&nbsp;구축하여&nbsp;AI기술&nbsp;중심&nbsp;부안&nbsp;제고&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계별&nbsp;추진(연&nbsp;140억&nbsp;원)<br>&nbsp;&nbsp;○&nbsp;1단계(1~3년,&nbsp;400억&nbsp;원)&nbsp;:&nbsp;기반&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신재생에너지테마파크&nbsp;인프라&nbsp;업그레이드(실증동&nbsp;AI화,&nbsp;200억&nbsp;원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;프로젝트홀&nbsp;신축+기숙사&nbsp;1동(200억&nbsp;원)<br><br>□&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;○&nbsp;2027년~2030년(4년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원조달방안&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;초기&nbsp;70%&nbsp;공공(교육부+산업부+과기부+에너지부/도비+군비)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;후기&nbsp;민간투자(PF+기업)+크라우드+지역펀드&nbsp;&nbsp;&nbsp;<br><br>□&nbsp;기대효과&nbsp;<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;유입&nbsp;기대&nbsp;<br>&nbsp;&nbsp;○&nbsp;AI기술&nbsp;일등&nbsp;부안&nbsp;제고&nbsp;<br>&nbsp;&nbsp;○&nbsp;일자리&nbsp;창출&nbsp;기대</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

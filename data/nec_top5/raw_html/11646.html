@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이장섭 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	청주 100년 먹거리를 창출하는 국내(글로벌)첨단 대기업사업장 5개 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="청주 100년 먹거리를 창출하는 국내(글로벌)첨단 대기업사업장 5개 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청주시&nbsp;경제성장을&nbsp;위한&nbsp;재도약을&nbsp;견인할&nbsp;수&nbsp;있는&nbsp;글로벌,&nbsp;국내&nbsp;대기업&nbsp;사업장&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첨단전략산업을&nbsp;대표하는&nbsp;국내(글로벌)&nbsp;대기업을&nbsp;청주에&nbsp;유치하기&nbsp;위한&nbsp;핵심인프라&nbsp;선제&nbsp;준비<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;인력&nbsp;수급&nbsp;및&nbsp;접근성,&nbsp;물류&nbsp;및&nbsp;인프라,&nbsp;지방&nbsp;이전&nbsp;및&nbsp;첨단<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(행&nbsp;정)&nbsp;부지,&nbsp;인프라,&nbsp;입지지원,&nbsp;설비투자,&nbsp;지방세등&nbsp;인센티브&nbsp;등&nbsp;기업&nbsp;유치&nbsp;핵심&nbsp;요소를&nbsp;한&nbsp;번에&nbsp;해결하는&nbsp;청주&nbsp;원스톱&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(입지여건)&nbsp;산단&nbsp;·&nbsp;입지&nbsp;공급&nbsp;패스트트랙&nbsp;실행,&nbsp;용수·전력·교통&nbsp;선제&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;노후&nbsp;산업단지&nbsp;재정비&nbsp;등을&nbsp;통해&nbsp;입지&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(인재확보)&nbsp;청주형&nbsp;첨단산업&nbsp;계약학과&nbsp;및&nbsp;현장실습&nbsp;컨소시엄&nbsp;추진&nbsp;및&nbsp;지원과&nbsp;청주형&nbsp;일자리&nbsp;원스톱&nbsp;패키지&nbsp;등을&nbsp;통한&nbsp;인재&nbsp;양성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;직주근접&nbsp;등&nbsp;산단&nbsp;주변&nbsp;도시개발사업&nbsp;조속&nbsp;추진될&nbsp;수&nbsp;있도록&nbsp;행정&nbsp;집중&nbsp;및&nbsp;지도&nbsp;점건&nbsp;강화,&nbsp;문화생활과&nbsp;체육활동&nbsp;등&nbsp;산업과&nbsp;거주&nbsp;그리고&nbsp;교통망을&nbsp;구축해&nbsp;정주&nbsp;여건&nbsp;개선&nbsp;및&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(네트워크)&nbsp;청주&nbsp;출향&nbsp;기업가&nbsp;및&nbsp;지역&nbsp;전문가를&nbsp;중심으로&nbsp;‘청주형&nbsp;경제인&nbsp;네트워크’를&nbsp;구축하고,&nbsp;정책&nbsp;자문과&nbsp;투자·기업&nbsp;유치를&nbsp;연계하는&nbsp;통합&nbsp;플랫폼을&nbsp;적극&nbsp;활용해&nbsp;지역&nbsp;경제&nbsp;직접&nbsp;연결<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;지방비,&nbsp;원인자부담&nbsp;등&nbsp;민간</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	AI 안전특별시 청주 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="AI 안전특별시 청주 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;국지성&nbsp;집중호우&nbsp;등&nbsp;예측&nbsp;불가한&nbsp;자연&nbsp;재난&nbsp;상황에&nbsp;맞는&nbsp;즉각&nbsp;대응&nbsp;관리체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;관제요원&nbsp;부족으로&nbsp;실시간&nbsp;관제&nbsp;한계&nbsp;극복을&nbsp;위한&nbsp;관제&nbsp;시스템&nbsp;도입<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;홍수·재난&nbsp;안전&nbsp;통합&nbsp;플랫폼&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;통합&nbsp;플랫폼&nbsp;구축,&nbsp;SAAS&nbsp;클라우드&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청주시&nbsp;및&nbsp;유관기관&nbsp;재난관리시스템을&nbsp;포함한&nbsp;재난재해&nbsp;예·경보&nbsp;및&nbsp;하천&nbsp;관리시스템&nbsp;등을&nbsp;클라우드&nbsp;기반의&nbsp;AI&nbsp;플랫폼으로&nbsp;통합&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기구축&nbsp;사용화&nbsp;클라우드&nbsp;적극&nbsp;활용을&nbsp;통해&nbsp;시스템&nbsp;개발&nbsp;비용&nbsp;절감,&nbsp;구축&nbsp;기간&nbsp;단축&nbsp;및&nbsp;운영비용&nbsp;절감<br>&nbsp;&nbsp;○&nbsp;생성형&nbsp;AI&nbsp;VLM을&nbsp;이용한&nbsp;AI&nbsp;도시안전시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;VLM&nbsp;및&nbsp;VSS&nbsp;기반&nbsp;관제&nbsp;플랫폼&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;방범&nbsp;CCTV&nbsp;연계,&nbsp;AI&nbsp;침수&nbsp;CCTV&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;홀로그램&nbsp;경찰관&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;안전&nbsp;취약계층&nbsp;대상&nbsp;환경&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트&nbsp;횡단보도&nbsp;확대&nbsp;설치,&nbsp;초등학교&nbsp;인근&nbsp;안전펜스&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;안심귀가&nbsp;보안관,&nbsp;스마트&nbsp;보안등&nbsp;설치&nbsp;및&nbsp;어린이보호구역&nbsp;및&nbsp;학원&nbsp;밀집&nbsp;지역&nbsp;대상&nbsp;스마트&nbsp;통합&nbsp;안전시스템&nbsp;구축,&nbsp;아이&nbsp;보호&nbsp;SOS벨&nbsp;지급<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;등&nbsp;정부&nbsp;보조,&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	오송, 옥산, 오창을 잇는 ‘30만 미래 신도시’, 북서벨트 대개조</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="오송, 옥산, 오창을 잇는 ‘30만 미래 신도시’, 북서벨트 대개조">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;특화산업단지&nbsp;연계로&nbsp;산업구조변화와&nbsp;인구구조변화&nbsp;및&nbsp;수도권&nbsp;집중에&nbsp;대응할&nbsp;수&nbsp;있는&nbsp;혁신&nbsp;거점&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;산업,&nbsp;주거,&nbsp;문화&nbsp;그리고&nbsp;광역교통망&nbsp;등&nbsp;융합을&nbsp;통한&nbsp;고밀도&nbsp;혁신&nbsp;공간을&nbsp;조성해&nbsp;10년&nbsp;단위&nbsp;대규모&nbsp;사업&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;교육,&nbsp;의료서비스&nbsp;접근성을&nbsp;확보한&nbsp;우수한&nbsp;정주&nbsp;일자리&nbsp;거점&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;특화학교와&nbsp;병원,&nbsp;수영장&nbsp;및&nbsp;도서관&nbsp;생활&nbsp;인프라&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;창업과&nbsp;성장&nbsp;단계&nbsp;기업지원을&nbsp;위한&nbsp;공동&nbsp;연구시설·기업&nbsp;지원기관&nbsp;집적<br>&nbsp;&nbsp;○&nbsp;광역철도망&nbsp;등&nbsp;광역교통망&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;기회발전특구,&nbsp;연구개발특구,&nbsp;글로벌&nbsp;혁신특구&nbsp;등&nbsp;다양한&nbsp;특구&nbsp;중첩&nbsp;지정해&nbsp;세제&nbsp;및&nbsp;규제&nbsp;혜택&nbsp;등을&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;핵심사업에&nbsp;대한&nbsp;신속한&nbsp;예비타당성조사와&nbsp;용적률·건폐율&nbsp;완화&nbsp;등&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;등&nbsp;정부&nbsp;보조,&nbsp;지방비,&nbsp;민자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	모노레일 설치로 움직일수록 즐거운 도심 순환 관광벨트 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="모노레일 설치로 움직일수록 즐거운 도심 순환 관광벨트 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;가족&nbsp;단위&nbsp;복합&nbsp;여가&nbsp;공간&nbsp;수요가&nbsp;증가하고&nbsp;외부&nbsp;관광객&nbsp;유입&nbsp;요인을&nbsp;위한&nbsp;복합형&nbsp;공간&nbsp;구축&nbsp;필요성&nbsp;증대로&nbsp;이동&nbsp;자체가&nbsp;‘체험’,&nbsp;‘관광’이&nbsp;되는&nbsp;도시,&nbsp;걷고&nbsp;타고&nbsp;쉬면서&nbsp;즐기는&nbsp;청주&nbsp;3축&nbsp;도심&nbsp;순환&nbsp;관광벨트&nbsp;조성<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;문암생태공원(자연)~정북토성(역사)~복합쇼핑몰(소비·레저)&nbsp;연결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(기존&nbsp;여가)&nbsp;문암생태공원,&nbsp;정북토성,&nbsp;문화제조창&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(신설&nbsp;여가)&nbsp;테마를&nbsp;입힌&nbsp;공원,&nbsp;복합쇼핑몰<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(접근성)&nbsp;모노레일&nbsp;등&nbsp;제3의&nbsp;이동수단&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;도심&nbsp;순환형&nbsp;놀이·관광·소비&nbsp;네트워크&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;모노레일&nbsp;및&nbsp;순환형&nbsp;이동&nbsp;인프라&nbsp;도입을&nbsp;통한&nbsp;도심&nbsp;체류형&nbsp;관광,&nbsp;생활형&nbsp;관광&nbsp;구조<br>&nbsp;&nbsp;○&nbsp;문암생태공원&nbsp;국가&nbsp;정원&nbsp;규모&nbsp;업그레이드로&nbsp;‘청주&nbsp;센트럴파크’&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;정북토성,&nbsp;‘사유와&nbsp;쉼의&nbsp;역사&nbsp;플랫폼,&nbsp;생각이&nbsp;머무는&nbsp;도시&nbsp;공간’&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;복합쇼핑몰&nbsp;연계&nbsp;도심&nbsp;레저벨트,&nbsp;‘소비가&nbsp;관광이&nbsp;되는&nbsp;도시’&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;청주&nbsp;도심&nbsp;순환&nbsp;모노레일&nbsp;구축,&nbsp;‘이동&nbsp;자체가&nbsp;관광이&nbsp;되는&nbsp;도시’&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;테마공원&nbsp;신규&nbsp;조성&nbsp;검토,&nbsp;‘아이&nbsp;키우기&nbsp;좋은&nbsp;체험도시’&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;지방비,&nbsp;민간투자&nbsp;유치&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	20분 이음도시 청주 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="20분 이음도시 청주 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;버스&nbsp;노선&nbsp;개편을&nbsp;통한&nbsp;승용차&nbsp;대비&nbsp;대중교통의&nbsp;상대적&nbsp;효율성&nbsp;제고<br>&nbsp;&nbsp;○&nbsp;예측&nbsp;가능성과&nbsp;신뢰성&nbsp;기반한&nbsp;정시성&nbsp;확보&nbsp;및&nbsp;환승&nbsp;편의&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;CTX&nbsp;도심&nbsp;통과&nbsp;전후&nbsp;관내&nbsp;대중교통&nbsp;체계&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;복잡한&nbsp;도심&nbsp;내&nbsp;권역별&nbsp;주차장&nbsp;확대&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;‘스마트버스&nbsp;2.0’,&nbsp;촘촘&nbsp;지선,&nbsp;쾌속&nbsp;간선으로&nbsp;노선&nbsp;재설계<br>&nbsp;&nbsp;○&nbsp;도심&nbsp;내&nbsp;주차장&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;충청권&nbsp;광역철도&nbsp;청주&nbsp;도심&nbsp;통과&nbsp;조기&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;CTX&nbsp;연계&nbsp;버스&nbsp;등&nbsp;다층적&nbsp;대중&nbsp;교통체계&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;CTX&nbsp;도입&nbsp;후&nbsp;도시&nbsp;개발&nbsp;단계&nbsp;및&nbsp;발전&nbsp;방향을&nbsp;고려해&nbsp;교통흐름&nbsp;분석&nbsp;및&nbsp;대응<br>&nbsp;&nbsp;○&nbsp;스마트교차로&nbsp;시스템&nbsp;환경&nbsp;고도화&nbsp;및&nbsp;확대&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;버스&nbsp;정보&nbsp;시스템(BIS)&nbsp;정확도&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;청주콜버스&nbsp;서비스&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통취약지역의&nbsp;교통복지보장을&nbsp;위한&nbsp;복지형&nbsp;콜버스&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;읍면지역&nbsp;콜버스&nbsp;대기&nbsp;장소&nbsp;쉼터&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;오송역~청주공항&nbsp;급행&nbsp;노선&nbsp;차량&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;버스&nbsp;내부&nbsp;시설,&nbsp;캐리어&nbsp;등&nbsp;보관장소&nbsp;마련<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;지방비,&nbsp;민자유치&nbsp;등</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

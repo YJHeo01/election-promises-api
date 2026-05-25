@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;최기문 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	대구도시철도 1호선 영천 도심 연장</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="대구도시철도 1호선 영천 도심 연장">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▣&nbsp;추진배경&nbsp;:&nbsp;대구광역시와&nbsp;인접한&nbsp;개발계획(화룡지구&nbsp;도시개발사업,&nbsp;야사지구&nbsp;토지구획정리사업,&nbsp;영천하이테크파크지구,&nbsp;고경일반산업&nbsp;단지&nbsp;등)에&nbsp;따른&nbsp;지역간&nbsp;접근성&nbsp;용이&nbsp;및&nbsp;지역경제&nbsp;활성화&nbsp;및&nbsp;대구.&nbsp;영천&nbsp;상생&nbsp;협력의&nbsp;기틀을&nbsp;마련하고자&nbsp;함<br><br>▣&nbsp;사업개요<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2028~2034년<br>&nbsp;&nbsp;○&nbsp;사&nbsp;업&nbsp;비&nbsp;:&nbsp;3,260억원(국비70%,&nbsp;지방비30%)<br>&nbsp;&nbsp;○&nbsp;사&nbsp;업&nbsp;량&nbsp;:&nbsp;연장&nbsp;L=10km,&nbsp;정거장&nbsp;2개소<br><br>▣&nbsp;추진계획&nbsp;<br>&nbsp;&nbsp;대도시권&nbsp;광역교통&nbsp;관리에&nbsp;관한&nbsp;특별법에&nbsp;따른&nbsp;광역철도&nbsp;사업으로&nbsp;추진하고&nbsp;2028년&nbsp;착공을&nbsp;목표로&nbsp;신설&nbsp;정거장은&nbsp;북영천신호장&nbsp;인근과&nbsp;영천시청&nbsp;인근&nbsp;등&nbsp;역사&nbsp;2개소를&nbsp;신설할&nbsp;계획임<br>&nbsp;&nbsp;<br>▣&nbsp;기대효과<br>&nbsp;&nbsp;본&nbsp;사업&nbsp;추진을&nbsp;통해&nbsp;국내&nbsp;최대&nbsp;규모의&nbsp;영천경마공원,&nbsp;영천하이테크&nbsp;파크지구,&nbsp;금호·대창일반산업단지,&nbsp;화룡지구&nbsp;도시개발사업,&nbsp;서영천(금호·대창)IC&nbsp;등&nbsp;주요&nbsp;도시·산업·교통&nbsp;인프라와&nbsp;연계해&nbsp;큰&nbsp;시너지&nbsp;효과가&nbsp;발생할&nbsp;것으로&nbsp;전망됨</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	대구권 광역철도(동대구-영천-포항)구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="대구권 광역철도(동대구-영천-포항)구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▣&nbsp;추진배경&nbsp;<br>&nbsp;&nbsp;광역철도&nbsp;건설로&nbsp;철도&nbsp;이용성을&nbsp;향상시키고&nbsp;지방인구&nbsp;소멸&nbsp;대응&nbsp;및&nbsp;국가철도&nbsp;네트워크&nbsp;효율성&nbsp;제고를&nbsp;위한&nbsp;기존&nbsp;철도망&nbsp;연계성&nbsp;강화<br><br>▣&nbsp;사업개요<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2028~2035년<br>&nbsp;&nbsp;○&nbsp;사&nbsp;업&nbsp;비&nbsp;:&nbsp;1,335억원(국비70%,&nbsp;지방비30%)<br>&nbsp;&nbsp;○&nbsp;사&nbsp;업&nbsp;량&nbsp;:&nbsp;연장&nbsp;101km,&nbsp;정거장&nbsp;7개소(기존선로&nbsp;이용)<br><br>▣&nbsp;추진계획&nbsp;<br>&nbsp;&nbsp;국토교통부&nbsp;제5차&nbsp;국가철도망&nbsp;구축계획에&nbsp;따라&nbsp;동대구역~영천~포항을&nbsp;연결하는&nbsp;광역철도&nbsp;건설<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>▣&nbsp;기대효과<br>&nbsp;&nbsp;대구권광역철도망을&nbsp;구축하여&nbsp;안전하고&nbsp;편리한&nbsp;교통서비스&nbsp;제공으로&nbsp;지역경제&nbsp;활성화와&nbsp;균형발전,&nbsp;지역소멸&nbsp;대응을&nbsp;위한&nbsp;기반구축,&nbsp;지역&nbsp;산업&nbsp;인재채용등에&nbsp;크게&nbsp;이바지&nbsp;할&nbsp;것으로&nbsp;기대됨</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	영천경마공원 랜드마크 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="영천경마공원 랜드마크 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▣&nbsp;추진배경&nbsp;<br>&nbsp;&nbsp;영천경마공원의&nbsp;원활한&nbsp;운영을&nbsp;통한&nbsp;지역경제&nbsp;활성화&nbsp;및&nbsp;도시브랜드&nbsp;제고<br><br>▣&nbsp;사업개요<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2010~2026년(9월,&nbsp;1단계&nbsp;개장<br>&nbsp;&nbsp;○&nbsp;사&nbsp;업&nbsp;비&nbsp;:&nbsp;3,657억원(국비70%,&nbsp;지방비30%)<br>&nbsp;&nbsp;○&nbsp;면&nbsp;&nbsp;&nbsp;&nbsp;적&nbsp;:&nbsp;44만평(1단계&nbsp;경마시설20,&nbsp;2단계&nbsp;테마공원24)<br>&nbsp;&nbsp;○&nbsp;주요시설&nbsp;:&nbsp;관람대,경주로,마사,케뮤니티센터,동물병원&nbsp;등<br><br>▣&nbsp;추진계획&nbsp;<br>&nbsp;&nbsp;2026.9월&nbsp;1단계&nbsp;개장&nbsp;및&nbsp;레저세&nbsp;감면&nbsp;조례&nbsp;개정후&nbsp;2단계&nbsp;사업&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>▣&nbsp;기대효과<br>&nbsp;&nbsp;도시&nbsp;브랜브&nbsp;인지도&nbsp;제고&nbsp;및&nbsp;문화.관광.여가&nbsp;기능을&nbsp;갖춘&nbsp;복합문화&nbsp;레저&nbsp;공간으로&nbsp;신규&nbsp;일자리&nbsp;창출과&nbsp;지역경제&nbsp;활성화에&nbsp;기여하고&nbsp;관광객&nbsp;유입&nbsp;등&nbsp;다양한&nbsp;시너지&nbsp;효과가&nbsp;전망됨</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	금호 역세권 복합개발</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="금호 역세권 복합개발">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▣&nbsp;추진배경&nbsp;<br>&nbsp;&nbsp;○&nbsp;대구도시철도&nbsp;1호선&nbsp;개통에&nbsp;대비&nbsp;지역발전&nbsp;전략&nbsp;및&nbsp;미래구상<br>&nbsp;&nbsp;○&nbsp;역세권&nbsp;개발에&nbsp;대한&nbsp;선제적,&nbsp;체계적&nbsp;사업계획&nbsp;마련&nbsp;<br><br>▣&nbsp;사업개요<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2026&nbsp;~2032년&nbsp;<br>&nbsp;&nbsp;○&nbsp;사&nbsp;업&nbsp;비&nbsp;:&nbsp;약&nbsp;2,500억원<br>&nbsp;&nbsp;○&nbsp;개발면적&nbsp;:&nbsp;약&nbsp;12만평&nbsp;<br>&nbsp;&nbsp;○&nbsp;사업내용&nbsp;:&nbsp;공영개발(1단계:주택단지&nbsp;조성,&nbsp;2단계:역세권&nbsp;복합개발<br><br>▣&nbsp;추진계획&nbsp;<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7월&nbsp;:&nbsp;지방재정&nbsp;투자사업&nbsp;타당성조사<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;9월&nbsp;:&nbsp;농업진흥구역&nbsp;해제신청(경북도&nbsp;→농림축산식품부)<br>&nbsp;&nbsp;○&nbsp;2027.&nbsp;3월&nbsp;:도시개발구역지정&nbsp;및&nbsp;개발계획&nbsp;지정·고시<br>&nbsp;&nbsp;○&nbsp;2027~&nbsp;2032년&nbsp;:&nbsp;사업시행자&nbsp;지정&nbsp;및&nbsp;실시계획인가,&nbsp;공사착공&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>▣&nbsp;기대효과<br>&nbsp;&nbsp;대구도시철도&nbsp;영천(금호)연장&nbsp;개통에&nbsp;사전&nbsp;대비하고&nbsp;영천경마공원&nbsp;개장에&nbsp;따른&nbsp;선제적,&nbsp;체계적으로&nbsp;대응하여&nbsp;공영개발을&nbsp;통한&nbsp;주택단지를&nbsp;조성하여&nbsp;영천경마공원&nbsp;유입인구&nbsp;주거정착&nbsp;기반&nbsp;마련&nbsp;및&nbsp;지역&nbsp;균형&nbsp;발전&nbsp;도모</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	영천문화예술회관 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="영천문화예술회관 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▣&nbsp;추진배경&nbsp;<br>&nbsp;&nbsp;시민들의&nbsp;문화&nbsp;향유를&nbsp;높이고&nbsp;지역간&nbsp;문화격차&nbsp;해소를&nbsp;&nbsp;위해&nbsp;거점형&nbsp;복합문화&nbsp;예술&nbsp;공간&nbsp;필요<br><br>▣&nbsp;사업개요<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2022.&nbsp;~&nbsp;2030.(9년)<br>&nbsp;&nbsp;○&nbsp;위&nbsp;&nbsp;&nbsp;&nbsp;치&nbsp;:&nbsp;망정동&nbsp;48번지&nbsp;일원<br>&nbsp;&nbsp;○&nbsp;사&nbsp;업&nbsp;비&nbsp;:&nbsp;860억원(전환&nbsp;20,&nbsp;도비&nbsp;15,&nbsp;시비&nbsp;825)<br>&nbsp;&nbsp;○&nbsp;사업내용&nbsp;:&nbsp;부지&nbsp;36,650㎡/&nbsp;지하&nbsp;1층,&nbsp;지상&nbsp;3층<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시설&nbsp;:&nbsp;대공연장(1,000석),&nbsp;소공연장,&nbsp;야외공연장,&nbsp;부대시설&nbsp;<br><br>▣&nbsp;추진상황&nbsp;<br>&nbsp;&nbsp;○&nbsp;영천문화예술회관&nbsp;건립&nbsp;사업은&nbsp;2022년&nbsp;부터&nbsp;2030년&nbsp;완공을&nbsp;목표로&nbsp;추진하는&nbsp;중기&nbsp;사업으로,&nbsp;2025년&nbsp;12월&nbsp;행안부&nbsp;타당성&nbsp;조사&nbsp;완료&nbsp;후&nbsp;건축기획&nbsp;및&nbsp;타당성&nbsp;조사&nbsp;용역&nbsp;완료&nbsp;보고회를&nbsp;마쳤으며,&nbsp;<br>&nbsp;&nbsp;○&nbsp;향후&nbsp;행안부&nbsp;중앙투자심사&nbsp;후&nbsp;재해·환경영향&nbsp;평가&nbsp;시행,&nbsp;편입부지&nbsp;보상,&nbsp;문화재&nbsp;유존지역&nbsp;용역&nbsp;후&nbsp;설계공모&nbsp;등&nbsp;절차를&nbsp;거쳐&nbsp;2028년&nbsp;공사&nbsp;착공&nbsp;&nbsp;&nbsp;<br><br>▣&nbsp;기대효과<br>&nbsp;&nbsp;○&nbsp;수준&nbsp;높은&nbsp;문화공연&nbsp;및&nbsp;전시&nbsp;개최로&nbsp;시민&nbsp;문화생활&nbsp;만족도&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;다양한&nbsp;공연·문화행사&nbsp;유치로&nbsp;지역&nbsp;문화예술&nbsp;산업&nbsp;발달&nbsp;및&nbsp;경제&nbsp;활성화&nbsp;도모</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

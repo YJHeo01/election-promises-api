@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김태흠 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	돔 아레나 등 복합문화시설 건립과 지역축제 정례화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="돔 아레나 등 복합문화시설 건립과 지역축제 정례화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;공연·스포츠·쇼핑&nbsp;등의&nbsp;복합문화&nbsp;기능을&nbsp;갖춘&nbsp;돔&nbsp;아레나&nbsp;건립과&nbsp;백제&nbsp;미소의&nbsp;복원&nbsp;및&nbsp;지역&nbsp;축제&nbsp;활성화로&nbsp;K-문화&nbsp;중심지&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;ㅇ&nbsp;천안·아산&nbsp;돔&nbsp;아레나&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;천안·아산&nbsp;돔&nbsp;아레나를&nbsp;중심으로&nbsp;컨벤션&nbsp;센터와&nbsp;e스포츠&nbsp;경기장,&nbsp;디지털&nbsp;뮤지엄&nbsp;등&nbsp;복합문화시설&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;천안안서-터미널-천안시청-돔구장-탕정-아산시청-온양온천&nbsp;간&nbsp;트램&nbsp;연결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보도교&nbsp;등을&nbsp;통해&nbsp;각시설을&nbsp;연결하여&nbsp;편리하게&nbsp;접근할&nbsp;수&nbsp;있는&nbsp;유니버설&nbsp;타운으로&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;K-팝&nbsp;공연과&nbsp;메이저리그,&nbsp;대규모&nbsp;국제행사&nbsp;등을&nbsp;전천후로&nbsp;유치하여&nbsp;IT와&nbsp;문화를&nbsp;접목한&nbsp;K-컬쳐의&nbsp;메카로&nbsp;육성&nbsp;&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;백제&nbsp;미소의&nbsp;복원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;백제&nbsp;한옥&nbsp;및&nbsp;백제문화체험마을&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;백제&nbsp;고도(&nbsp;古都)&nbsp;상징로(路)&nbsp;및&nbsp;죽당리&nbsp;대지예술공원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;송국리&nbsp;유적지&nbsp;유네스코&nbsp;세계&nbsp;유산&nbsp;등재&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;대표적&nbsp;지역&nbsp;축제의&nbsp;정례화&nbsp;및&nbsp;문화시설&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역별&nbsp;고유성을&nbsp;살려&nbsp;백제문화,&nbsp;인삼,&nbsp;머드,&nbsp;국방문화&nbsp;등&nbsp;지역&nbsp;축제를&nbsp;정례화&nbsp;및&nbsp;글로벌화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예술의&nbsp;전당,&nbsp;미술관,&nbsp;유교전승공간,&nbsp;국립국악원&nbsp;분원&nbsp;유치&nbsp;등을&nbsp;통하여&nbsp;도민의&nbsp;문화&nbsp;수준&nbsp;향상&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;세계대학경기(27년),&nbsp;전국체육대회,&nbsp;장애인체육대회&nbsp;등&nbsp;각종&nbsp;체육대회&nbsp;유치로&nbsp;도민체육&nbsp;활성화.<br><br>□&nbsp;이행기간:&nbsp;임기&nbsp;내(2026~30년)<br><br>□&nbsp;재원조달방안&nbsp;등:국비,&nbsp;도비,&nbsp;민자,&nbsp;기타</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	충남형 인공지능(AI) 대전환, 전문인력 3만명 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="충남형 인공지능(AI) 대전환, 전문인력 3만명 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표:&nbsp;산업분야&nbsp;전반에&nbsp;인공지능&nbsp;기술을&nbsp;전면&nbsp;도입하고,&nbsp;재난·응급&nbsp;체계,&nbsp;농작업&nbsp;등&nbsp;따뜻한&nbsp;AI&nbsp;동시&nbsp;추진<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;ㅇ&nbsp;충남형&nbsp;인공지능(AI)&nbsp;대전환&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제조업·농축산·바이오·방산·안전분야·공공서비스&nbsp;등의&nbsp;AI&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첨단&nbsp;반도체&nbsp;후공정&nbsp;생산&nbsp;거점,&nbsp;수출기지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고성능&nbsp;연산장비(GPU)&nbsp;지원을&nbsp;통한&nbsp;중소기업&nbsp;생산성&nbsp;향상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;천안&nbsp;종축장&nbsp;글로벌&nbsp;빅테크&nbsp;기업&nbsp;유치&nbsp;및&nbsp;천안아산&nbsp;산업단지&nbsp;전국&nbsp;최저&nbsp;전기&nbsp;요금제&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;석유화학.&nbsp;철강산단의&nbsp;AI전환&nbsp;및&nbsp;탄소&nbsp;신산업&nbsp;육성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민선&nbsp;9기&nbsp;80조원&nbsp;투자유치,&nbsp;신산업단지&nbsp;조성(천안&nbsp;군서,&nbsp;아산&nbsp;경동&nbsp;배방,&nbsp;논산,&nbsp;홍성)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;충남과학원&nbsp;설립,&nbsp;도지사&nbsp;직속&nbsp;과학&nbsp;석좌교수&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업구조&nbsp;전환을&nbsp;위한&nbsp;탄소중립&nbsp;전환펀드&nbsp;1조원&nbsp;조성<br>&nbsp;&nbsp;ㅇ&nbsp;전문대학원&nbsp;설립을&nbsp;통한&nbsp;AI&nbsp;전문인력&nbsp;3만&nbsp;명&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학생&nbsp;연&nbsp;4,200명,&nbsp;대학원&nbsp;연120명,&nbsp;산업현장&nbsp;재직자&nbsp;2,000명<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간:&nbsp;임기&nbsp;내(2026~30년)<br><br>□&nbsp;재원조달방안&nbsp;등:국비,&nbsp;도비,&nbsp;기타</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	베이밸리 완성, 충남·대전 통합으로 경제과학수도 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="베이밸리 완성, 충남·대전 통합으로 경제과학수도 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표:&nbsp;대한민국&nbsp;성장&nbsp;엔진인&nbsp;베이밸리&nbsp;메가시티를&nbsp;완성하고&nbsp;충남·대전&nbsp;통합으로&nbsp;충청광역&nbsp;경제권&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;ㅇ&nbsp;대한민국&nbsp;경제&nbsp;성장&nbsp;엔진인&nbsp;베이밸리&nbsp;메가시티&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경제자유구역&nbsp;지정과&nbsp;경제자유구역청&nbsp;설치&nbsp;및&nbsp;지역경제&nbsp;육성을&nbsp;위한&nbsp;충청권투자공사&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인주&nbsp;신도시(10만명)&nbsp;건설,&nbsp;성환&nbsp;직산&nbsp;신도시(5만명)&nbsp;건설&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;글로벌&nbsp;베이밸리&nbsp;참여&nbsp;광역단체&nbsp;연합회의&nbsp;창설,&nbsp;국제학교&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;직산&nbsp;제3탄약창&nbsp;이전을&nbsp;통한&nbsp;첨단산업단지(230만&nbsp;평)와&nbsp;성환&nbsp;직산&nbsp;상수원&nbsp;보호구역&nbsp;해제&nbsp;신규&nbsp;산단&nbsp;용지(200만&nbsp;평)&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아산,&nbsp;삽교,&nbsp;대호호&nbsp;3대&nbsp;담수호&nbsp;광역&nbsp;물길체계&nbsp;구축&nbsp;및&nbsp;첨단&nbsp;항공모빌리티,&nbsp;도심교통(UAM)&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반도체,&nbsp;디스플레이,&nbsp;2차전지,&nbsp;수소경제&nbsp;등&nbsp;신산업을&nbsp;선도하는&nbsp;메가시티로&nbsp;육성<br>&nbsp;&nbsp;ㅇ&nbsp;충남·대전&nbsp;통합으로&nbsp;충청광역&nbsp;경제권&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;충남·대전&nbsp;통합,&nbsp;2028년&nbsp;총선시&nbsp;선&nbsp;주민투표&nbsp;후&nbsp;통합시장&nbsp;선출&nbsp;및&nbsp;통합&nbsp;제1청사&nbsp;홍성&nbsp;내포신도시(현&nbsp;충남도청)&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;충남&nbsp;제조업과&nbsp;대전권&nbsp;R&D&nbsp;자원&nbsp;결합,&nbsp;첨단산업&nbsp;생태계&nbsp;완성&nbsp;및&nbsp;연구개발특구법&nbsp;상&nbsp;특구(천안·아산·서산·당진)&nbsp;확대로&nbsp;투자&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;충청권&nbsp;광역급행철도(CTX)&nbsp;세종~천안·아산,&nbsp;세종~공주&nbsp;노선&nbsp;신설&nbsp;및&nbsp;수도권&nbsp;광역급행철도(GTX-&nbsp;C)&nbsp;신설노선(수원~천안~온양온천)&nbsp;착공<br>&nbsp;&nbsp;<br>□&nbsp;이행기간:&nbsp;임기&nbsp;내&nbsp;&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등:국비,&nbsp;도비,&nbsp;민자,&nbsp;기타</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	돈 되는 스마트 농업 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="돈 되는 스마트 농업 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표:&nbsp;강소농&nbsp;육성,&nbsp;쾌적한&nbsp;주거&nbsp;환경&nbsp;조성,&nbsp;돈&nbsp;되는&nbsp;농수산업으로&nbsp;농어촌&nbsp;대전환<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;ㅇ&nbsp;여성·청년&nbsp;농업인&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여성“공동경영주”제도&nbsp;도입&nbsp;및&nbsp;수당(20만원)&nbsp;신설과&nbsp;청년&nbsp;농업인(19-39세)&nbsp;수당&nbsp;지원(20만원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농촌형&nbsp;공공&nbsp;임대주택(리브&nbsp;투게더)&nbsp;30개&nbsp;지구&nbsp;조성&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;충남농산물유통공사&nbsp;설립,&nbsp;도내&nbsp;농수산물&nbsp;유통&nbsp;활성화와&nbsp;수출&nbsp;지원&nbsp;및&nbsp;남부권&nbsp;9개&nbsp;시·군&nbsp;청년(19-39세)&nbsp;내일채움공제&nbsp;지원&nbsp;(월14만원&nbsp;적립&nbsp;시&nbsp;기업·지자체&nbsp;추가&nbsp;적립으로&nbsp;3년&nbsp;후&nbsp;1천5백만원&nbsp;적금)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서산·당진·금산지역&nbsp;도시가스&nbsp;공급&nbsp;배관&nbsp;구축<br>&nbsp;&nbsp;ㅇ&nbsp;섬&nbsp;지역&nbsp;종합&nbsp;지원&nbsp;패키지&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;섬&nbsp;지역&nbsp;1,000원&nbsp;여객선&nbsp;운영&nbsp;및&nbsp;농산어촌&nbsp;택배비&nbsp;기본요금&nbsp;초과분&nbsp;지원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;섬&nbsp;지역(당진·보령·서천)&nbsp;상수도&nbsp;공급&nbsp;및&nbsp;농업정보&nbsp;제공을&nbsp;위한&nbsp;“농업&nbsp;방송국”&nbsp;설립&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;농업&nbsp;캠퍼스(농기계&nbsp;실증,&nbsp;AI&nbsp;종자뱅크&nbsp;단지)&nbsp;설립&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;육상&nbsp;양식&nbsp;김&nbsp;단지&nbsp;·&nbsp;수산식품&nbsp;클러스터&nbsp;조성(당진·&nbsp;서천)으로&nbsp;김&nbsp;수출&nbsp;10억&nbsp;달러&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트팜&nbsp;전문지구(서산·당진·예산)&nbsp;육성&nbsp;및&nbsp;인허가&nbsp;단축을&nbsp;위한&nbsp;우선&nbsp;심사&nbsp;허가제&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌&nbsp;교통&nbsp;오지&nbsp;운행시&nbsp;벽지수당,&nbsp;농산어촌&nbsp;이동형&nbsp;슈퍼마켓&nbsp;운영<br>&nbsp;&nbsp;<br>□&nbsp;이행기간:&nbsp;임기&nbsp;내&nbsp;&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등:국비,&nbsp;도비,&nbsp;기타</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	6개 권역, 15개 시군 지역 발전 공약 시행</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="6개 권역, 15개 시군 지역 발전 공약 시행">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표:&nbsp;15개&nbsp;시군별&nbsp;생활밀착형&nbsp;정책공약을&nbsp;발굴·추진함으로써&nbsp;주민&nbsp;삶&nbsp;향상에&nbsp;기여<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;ㅇ&nbsp;천안·아산권&nbsp;공약<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경부선&nbsp;철도&nbsp;천악역-두정&nbsp;구간&nbsp;지하화,&nbsp;천안외곽&nbsp;순환도로망&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;독립기념관&nbsp;서곡지구&nbsp;및&nbsp;아산온천&nbsp;내&nbsp;파크골프장&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;천안봉서산·아산영인산&nbsp;어린이&nbsp;숲체험교육원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;천안산단,&nbsp;신불당,&nbsp;온양재래시장,&nbsp;신창농공단지&nbsp;등&nbsp;혼잡지역&nbsp;주차장&nbsp;조성&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;당진·서산·태안권<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도비도·난지도&nbsp;해양관광&nbsp;복합단지&nbsp;조성,&nbsp;산재전문병원&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서산공항&nbsp;개항과&nbsp;항공&nbsp;모빌리티&nbsp;산단&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원예&nbsp;치유박람회&nbsp;정례&nbsp;개최&nbsp;및&nbsp;국제화훼&nbsp;경매장&nbsp;건립<br>&nbsp;&nbsp;ㅇ&nbsp;공주·부여·청양권<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;푸드테크지원센터·축산기술진흥원&nbsp;유치,&nbsp;식품안전관리인증원&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;왕흥사지&nbsp;복원,&nbsp;궁남지&nbsp;문화유적&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지천댐&nbsp;건설&nbsp;및&nbsp;둘레길&nbsp;조성<br>&nbsp;&nbsp;ㅇ&nbsp;보령·서천권<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보령-대전&nbsp;고속도로&nbsp;건설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해양바이오소재&nbsp;상용화를&nbsp;위한&nbsp;바이오&nbsp;클러스터&nbsp;완공<br>&nbsp;&nbsp;ㅇ&nbsp;논산·계룡·금산권<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합&nbsp;사관학교(육사,&nbsp;해사,&nbsp;공사)&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국제컨벤션센터&nbsp;건립,&nbsp;K-방위산업&nbsp;전시플랫폼&nbsp;글로벌화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양수발전소&nbsp;건립<br>&nbsp;&nbsp;ㅇ&nbsp;홍성·예산권<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;과학영재고&nbsp;설립,&nbsp;충남대·건양대&nbsp;캠퍼스&nbsp;구축,&nbsp;사회복지연수원&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;내포신도시&nbsp;확장&nbsp;및&nbsp;공공기관·충남대전&nbsp;제1청사&nbsp;유치&nbsp;<br><br>□&nbsp;이행기간:&nbsp;임기&nbsp;내&nbsp;&nbsp;&nbsp;&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등:국비,&nbsp;도비,&nbsp;기타</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

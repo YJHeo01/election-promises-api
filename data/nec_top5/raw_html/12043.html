@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이재수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	민생경제 활성화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="민생경제 활성화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;도농복합도시의&nbsp;포천은&nbsp;농촌경제의&nbsp;활성화와&nbsp;소상공인의&nbsp;경제회복이&nbsp;중요함.&nbsp;서민경제의&nbsp;활성화를&nbsp;통하여&nbsp;지역경제&nbsp;전반에&nbsp;대한&nbsp;활성화에&nbsp;기여<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;서민경제의&nbsp;소득지원을&nbsp;최우선으로&nbsp;지원정책을&nbsp;개발하고&nbsp;현행&nbsp;지원정책의&nbsp;방향을&nbsp;유지하면서&nbsp;상향&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.07.01.∼2027.12.31<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지방재정의&nbsp;전략적&nbsp;배분<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경상적&nbsp;지출을&nbsp;줄이고&nbsp;농업인이나&nbsp;소상공인을&nbsp;위한&nbsp;지원&nbsp;등&nbsp;경제순환&nbsp;효과가&nbsp;큰&nbsp;사업에&nbsp;예산을&nbsp;우선&nbsp;배정<br>&nbsp;&nbsp;○&nbsp;국가보조사업&nbsp;및&nbsp;각종&nbsp;공모사업&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙정부와&nbsp;경기도에서&nbsp;시행하는&nbsp;다양한&nbsp;공모사업을&nbsp;활용하여&nbsp;외부자원의&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	공공의료 및 교육강화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="공공의료 및 교육강화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;자역적으로&nbsp;교통소외&nbsp;지역의&nbsp;시민을&nbsp;위한&nbsp;대학병원&nbsp;규모의&nbsp;공공의료원을&nbsp;확대하여&nbsp;양질의&nbsp;의료혜택을&nbsp;제공,&nbsp;포천시민의&nbsp;삶의&nbsp;질&nbsp;향상을&nbsp;도모<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;현행&nbsp;운영중인&nbsp;경기도립&nbsp;의료원&nbsp;포천병원의&nbsp;확대이전<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.07.01.∼2030.12.31<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;공공의료&nbsp;확대를&nbsp;위한&nbsp;의료기금&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경기도와의&nbsp;지속적인&nbsp;정책협력을&nbsp;통한&nbsp;장기적&nbsp;재원&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;지방소멸&nbsp;대응기금의&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙정부에서&nbsp;시행하는&nbsp;인구소멸지역의&nbsp;지방소멸&nbsp;대응&nbsp;기금의&nbsp;적극적&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	소외계층 촘촘한 복지</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="소외계층 촘촘한 복지">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;소외계층&nbsp;중에서도&nbsp;중증장애인에&nbsp;대한&nbsp;이동권&nbsp;확보를&nbsp;강화하여&nbsp;자유로운&nbsp;이동권을&nbsp;부여<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중증장애인&nbsp;중&nbsp;원거리&nbsp;이동이나&nbsp;경제활동&nbsp;및&nbsp;교육을&nbsp;지원할&nbsp;수&nbsp;있도록&nbsp;공공&nbsp;이동편의&nbsp;서비스&nbsp;제공<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.07.01.∼2027.12.31<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지방재정의&nbsp;전략적&nbsp;배분<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경상적&nbsp;지출을&nbsp;줄이고&nbsp;각종&nbsp;행사성&nbsp;비용의&nbsp;지출을&nbsp;억제하여&nbsp;자원을&nbsp;마련하고&nbsp;중증장애인에&nbsp;대한&nbsp;이동권&nbsp;확보에&nbsp;집중&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;국가보조사업&nbsp;및&nbsp;각종&nbsp;공모사업&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙정부와&nbsp;경기도에서&nbsp;시행하는&nbsp;다양한&nbsp;공모사업을&nbsp;활용하여&nbsp;외부자원의&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	제대군인 정주지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="제대군인 정주지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;포천시의&nbsp;지역특성상&nbsp;군생활을&nbsp;마치고&nbsp;전역하는&nbsp;제대군인에&nbsp;대한&nbsp;안정적인&nbsp;정착을&nbsp;위해&nbsp;지원을&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;현재&nbsp;정주지원에&nbsp;다른&nbsp;정착금,&nbsp;전직지원금&nbsp;등&nbsp;외의&nbsp;지역유망기업&nbsp;취업기회&nbsp;부여&nbsp;및&nbsp;무주택자&nbsp;정책적&nbsp;지원을&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.07.01.∼2030.12.31<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;포천시의&nbsp;재정확보&nbsp;자체수입의&nbsp;한계를&nbsp;극복하기&nbsp;위해&nbsp;교보통교부세&nbsp;확보에&nbsp;주력</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	식량안보 농업지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="식량안보 농업지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;도농복합도시의&nbsp;포천은&nbsp;영농규모가&nbsp;소규모이며,&nbsp;농가소득은&nbsp;한정되어&nbsp;있어&nbsp;농업에&nbsp;투입되는&nbsp;비용의&nbsp;절감이&nbsp;절실함.&nbsp;소규모&nbsp;농가에&nbsp;대한&nbsp;소농기계&nbsp;지원을&nbsp;확대하여&nbsp;과다한&nbsp;영농지용&nbsp;지출을&nbsp;억제<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;현재&nbsp;시행하는&nbsp;소규모&nbsp;영농농가에&nbsp;대한&nbsp;소형농기계&nbsp;지원사업의&nbsp;방향을&nbsp;유지하면서&nbsp;대상&nbsp;농민&nbsp;확대&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.07.01.∼2030.12.31<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지방재정의&nbsp;전략적&nbsp;배분<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경상적&nbsp;지출을&nbsp;줄이고&nbsp;일회성&nbsp;행사&nbsp;등의&nbsp;재정지출을&nbsp;억제하여&nbsp;소형농기게의&nbsp;지원을&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;소형농기게의&nbsp;국고보조금과&nbsp;자부담금액의&nbsp;비율을&nbsp;조정하여&nbsp;농가부담&nbsp;완화</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

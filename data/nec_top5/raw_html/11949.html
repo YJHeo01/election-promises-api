@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;문경복 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	해상풍력 이익 공유 및 유지보수 전진기지 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="해상풍력 이익 공유 및 유지보수 전진기지 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            "바람을&nbsp;돈으로,&nbsp;옹진&nbsp;해상풍력&nbsp;군민연금&nbsp;시대&nbsp;실현"<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;해상풍력&nbsp;발전사업의&nbsp;수익을&nbsp;군민에게&nbsp;직접&nbsp;환원(연금화)하고,&nbsp;영흥·덕적·자월·연평에&nbsp;유지보수&nbsp;항만을&nbsp;조성하여&nbsp;지역&nbsp;경제&nbsp;활성화&nbsp;및&nbsp;일자리&nbsp;창출.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;'옹진군&nbsp;에너지&nbsp;기본&nbsp;조례'&nbsp;개정을&nbsp;통한&nbsp;수익&nbsp;공유&nbsp;모델&nbsp;법제화.<br>&nbsp;&nbsp;○&nbsp;민관&nbsp;협의체&nbsp;구성&nbsp;및&nbsp;주민&nbsp;참여&nbsp;기금&nbsp;조성.<br>&nbsp;&nbsp;○&nbsp;영흥,&nbsp;덕적,&nbsp;자월,연평&nbsp;권역별&nbsp;특성에&nbsp;맞춘&nbsp;유지보수&nbsp;전용&nbsp;항만(O&M)&nbsp;인프라&nbsp;구축.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년&nbsp;(착공&nbsp;후&nbsp;가동&nbsp;시점까지&nbsp;단계적&nbsp;추진)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;발전사&nbsp;자본&nbsp;유치(SPC)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	서해 5도 해상교통 혁신 및 편의 증진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="서해 5도 해상교통 혁신 및 편의 증진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            "끊김&nbsp;없는&nbsp;바닷길,&nbsp;대형&nbsp;카페리&nbsp;도입&nbsp;및&nbsp;백령&nbsp;항로&nbsp;최적화"<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;기상&nbsp;악화&nbsp;시에도&nbsp;운항&nbsp;가능한&nbsp;대형&nbsp;카페리를&nbsp;도입하여&nbsp;정주&nbsp;여건을&nbsp;개선하고,&nbsp;백령도&nbsp;오전&nbsp;출항&nbsp;여객선(프라이드호&nbsp;등)&nbsp;배치를&nbsp;통해&nbsp;주민&nbsp;이동권&nbsp;보장.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;백령~인천&nbsp;항로&nbsp;대형&nbsp;카페리선&nbsp;도입&nbsp;지원&nbsp;사업&nbsp;조속&nbsp;추진.<br>&nbsp;&nbsp;○&nbsp;선사와의&nbsp;협의를&nbsp;통해&nbsp;백령도&nbsp;오전&nbsp;출항&nbsp;선박의&nbsp;기종&nbsp;변경&nbsp;및&nbsp;운항&nbsp;체계&nbsp;<br>조정.<br>&nbsp;&nbsp;○&nbsp;운항&nbsp;체계&nbsp;조정을&nbsp;통해&nbsp;손실보전금&nbsp;최소화&nbsp;달성.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;완료&nbsp;(선박&nbsp;건조&nbsp;및&nbsp;도입&nbsp;기간&nbsp;고려)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;군비&nbsp;및&nbsp;민간&nbsp;선사&nbsp;투자&nbsp;유치.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	옹진군민 가족 및 출향민 여객선 운임 지원 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="옹진군민 가족 및 출향민 여객선 운임 지원 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            "&nbsp;연평·백령·대청·덕적·자월&nbsp;출향민·군민의&nbsp;가족&nbsp;여객선&nbsp;요금&nbsp;옹진군민&nbsp;운임&nbsp;적용"<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;옹진군&nbsp;출신&nbsp;출향민과&nbsp;거주&nbsp;군민&nbsp;가족의&nbsp;방문&nbsp;비용&nbsp;부담을&nbsp;획기적으로&nbsp;낮춰&nbsp;인구&nbsp;유입&nbsp;및&nbsp;지역&nbsp;공동체&nbsp;결속력&nbsp;강화.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;'옹진군&nbsp;여객선&nbsp;운임&nbsp;지원&nbsp;조례'&nbsp;개정.<br>&nbsp;&nbsp;○&nbsp;출향민&nbsp;인증&nbsp;시스템&nbsp;구축&nbsp;및&nbsp;가족&nbsp;관계&nbsp;증명&nbsp;연동&nbsp;시스템&nbsp;도입.<br>&nbsp;&nbsp;○&nbsp;인천시와&nbsp;협의를&nbsp;통한&nbsp;시비&nbsp;지원&nbsp;비율&nbsp;확대&nbsp;추진.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;시작&nbsp;후&nbsp;1년&nbsp;이내&nbsp;조례&nbsp;개정&nbsp;및&nbsp;시행.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;옹진군&nbsp;자체&nbsp;예산&nbsp;편성&nbsp;및&nbsp;인천광역시&nbsp;섬&nbsp;지역&nbsp;여객선&nbsp;운임&nbsp;지원금&nbsp;증액&nbsp;요청.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	권역별 복지·커뮤니티 인프라 확충</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="권역별 복지·커뮤니티 인프라 확충">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            "맞춤형&nbsp;복지,&nbsp;옹진군민회관(인천시내)&nbsp;건립&nbsp;및&nbsp;영흥&nbsp;커뮤니티센터&nbsp;건립"<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;영흥면&nbsp;커뮤니티센터,&nbsp;옹진군민&nbsp;회관&nbsp;건립을&nbsp;통해&nbsp;문화·복지&nbsp;사각지대&nbsp;해소&nbsp;및&nbsp;군민&nbsp;소속감&nbsp;고취.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;인천&nbsp;육지&nbsp;지역&nbsp;내&nbsp;다목적&nbsp;활용이&nbsp;가능한&nbsp;옹진군민&nbsp;회관&nbsp;신축&nbsp;추진.<br>&nbsp;&nbsp;○&nbsp;영흥면&nbsp;내&nbsp;커뮤니티센터&nbsp;건립.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;착공&nbsp;및&nbsp;단계적&nbsp;준공.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	장봉-모도 연도교 조기 착공 및 자월 관광유람선 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="장봉-모도 연도교 조기 착공 및 자월 관광유람선 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            "섬을&nbsp;잇고&nbsp;바다를&nbsp;열다!&nbsp;북도면&nbsp;영토&nbsp;통합&nbsp;및&nbsp;자월권역&nbsp;관광유람선&nbsp;시대&nbsp;개막"<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;북도면:&nbsp;신도~시도~모도에&nbsp;이어&nbsp;장봉도까지&nbsp;하나로&nbsp;연결하여&nbsp;'신·시·모·장봉'&nbsp;통합&nbsp;생활권을&nbsp;완성하고&nbsp;주민&nbsp;이동권&nbsp;보장.<br>&nbsp;&nbsp;○&nbsp;자월면:&nbsp;자월도의&nbsp;'힐링꽃섬(수목원&nbsp;및&nbsp;정원)'&nbsp;조성&nbsp;사업과&nbsp;연계한&nbsp;관광유람선을&nbsp;유치하여&nbsp;수도권&nbsp;최고의&nbsp;해양&nbsp;관광&nbsp;명소로&nbsp;도약.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[장봉~모도&nbsp;연도교]&nbsp;예비타당성&nbsp;조사&nbsp;결과에&nbsp;따른&nbsp;조기&nbsp;착공.<br>&nbsp;&nbsp;○&nbsp;[자월&nbsp;유람선]&nbsp;힐링꽃섬&nbsp;조성&nbsp;일정에&nbsp;맞춰&nbsp;유람선&nbsp;유치.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;연도교:&nbsp;임기&nbsp;내&nbsp;기본&nbsp;및&nbsp;실시설계&nbsp;완료&nbsp;후&nbsp;조기&nbsp;착공.<br>&nbsp;&nbsp;○&nbsp;유람선:&nbsp;힐링꽃섬&nbsp;준공&nbsp;시점에&nbsp;맞춰&nbsp;유람선&nbsp;유치<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;연도교:&nbsp;국비,&nbsp;시비,&nbsp;군비<br>&nbsp;&nbsp;○&nbsp;유람선:&nbsp;민간&nbsp;자본&nbsp;유치</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

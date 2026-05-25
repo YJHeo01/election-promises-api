@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이철우 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	함양형 기본소득 도입</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="함양형 기본소득 도입">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;정책목표&nbsp;:&nbsp;군민&nbsp;생활안정과&nbsp;지역경제&nbsp;선순환&nbsp;구조&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;생활안정을&nbsp;도모하고&nbsp;직접지원&nbsp;정책을&nbsp;통해&nbsp;지역&nbsp;내&nbsp;소비를&nbsp;확대하여&nbsp;지역경제&nbsp;선순환&nbsp;구조를&nbsp;구축함<br>&nbsp;&nbsp;○&nbsp;기본소득&nbsp;지급을&nbsp;지역&nbsp;상권과&nbsp;연계하여&nbsp;전통시장·소상공인들의&nbsp;매출&nbsp;증대&nbsp;및&nbsp;지역경제&nbsp;활성화를&nbsp;도모함<br><br>2.&nbsp;우선순위&nbsp;:&nbsp;단·중기<br><br>3.&nbsp;이행절차&nbsp;:<br>&nbsp;&nbsp;○&nbsp;전&nbsp;군민&nbsp;대상&nbsp;월&nbsp;10만원&nbsp;기본소득&nbsp;단계적&nbsp;지급<br>&nbsp;&nbsp;○&nbsp;어르신에게는&nbsp;장수수당을&nbsp;추가&nbsp;지원해&nbsp;안정된&nbsp;노후생활&nbsp;지원.<br>&nbsp;&nbsp;○&nbsp;고등학교&nbsp;졸업생&nbsp;대상&nbsp;운전실습비&nbsp;및&nbsp;장학금&nbsp;지원.<br><br>4.&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;~&nbsp;2028년<br><br>5.&nbsp;재원조달방법&nbsp;:&nbsp;총&nbsp;420억원&nbsp;중&nbsp;군비&nbsp;40%&nbsp;부담&nbsp;(국·도·군비)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	AI(인공지능) 중소·벤처기업 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="AI(인공지능) 중소·벤처기업 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;정책목표&nbsp;:&nbsp;미래&nbsp;산업&nbsp;기반구축&nbsp;및&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;공공·민간&nbsp;데이터를&nbsp;활용한&nbsp;AI&nbsp;기반&nbsp;산업을&nbsp;육성하여&nbsp;지역경제의&nbsp;신성장동력을&nbsp;확보함<br>&nbsp;&nbsp;○&nbsp;중소·벤처기업&nbsp;유치와&nbsp;디지털&nbsp;인재&nbsp;양성을&nbsp;통해&nbsp;청년&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;인구&nbsp;유입&nbsp;기반을&nbsp;마련함<br><br>2.&nbsp;우선순위&nbsp;:&nbsp;장기<br><br>3.&nbsp;이행절차&nbsp;:<br>&nbsp;&nbsp;○&nbsp;농업·관광·산림&nbsp;등&nbsp;지역&nbsp;데이터를&nbsp;활용한&nbsp;함양형&nbsp;디지털&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;항노화&nbsp;스마트농업과&nbsp;디지털&nbsp;산업&nbsp;육성으로&nbsp;함양의&nbsp;미래&nbsp;성장동력&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;대학과의&nbsp;MOU&nbsp;체결로&nbsp;군민&nbsp;모두가&nbsp;배울&nbsp;수&nbsp;있는&nbsp;AI&nbsp;교육공간&nbsp;및&nbsp;프로그램&nbsp;확대<br><br>4.&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;~&nbsp;2030년<br><br>5.&nbsp;재원조달방법&nbsp;:&nbsp;100억원&nbsp;(국·도·군비&nbsp;및&nbsp;민간투자)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	대전~함양~남해선 철도건설 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="대전~함양~남해선 철도건설 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;정책목표&nbsp;:&nbsp;교통&nbsp;인프라&nbsp;확충을&nbsp;통한&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;국가철도망&nbsp;구축을&nbsp;통해&nbsp;함양을&nbsp;내륙&nbsp;교통&nbsp;중심지로&nbsp;육성하고&nbsp;접근성을&nbsp;획기적으로&nbsp;개선함<br>&nbsp;&nbsp;○&nbsp;철도&nbsp;기반&nbsp;물류·산업·관광&nbsp;연계를&nbsp;통해&nbsp;기업&nbsp;유치&nbsp;및&nbsp;일자리&nbsp;창출&nbsp;기반을&nbsp;마련함<br><br>2.&nbsp;우선순위&nbsp;:&nbsp;장기<br><br>3.&nbsp;이행절차&nbsp;:<br>&nbsp;&nbsp;○&nbsp;국가철도망&nbsp;구축계획&nbsp;반영을&nbsp;위한&nbsp;중앙정부&nbsp;및&nbsp;관계기관&nbsp;협력&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;함양역&nbsp;중심&nbsp;물류·산업·관광&nbsp;연계&nbsp;개발계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;철도&nbsp;접근성&nbsp;기반&nbsp;기업&nbsp;유치&nbsp;및&nbsp;관광벨트&nbsp;조성&nbsp;추진<br><br>4.&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;~&nbsp;2035년<br><br>5.&nbsp;재원조달방법&nbsp;:&nbsp;5조4655억원&nbsp;(국비)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	농산물 가격안정기금 100억원 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="농산물 가격안정기금 100억원 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;정책목표&nbsp;:&nbsp;농가소득&nbsp;안정&nbsp;및&nbsp;지속가능한&nbsp;농업&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;농산물&nbsp;가격&nbsp;변동에&nbsp;대응할&nbsp;수&nbsp;있는&nbsp;안정기금을&nbsp;조성하여&nbsp;농가소득&nbsp;안정성을&nbsp;확보함<br>&nbsp;&nbsp;○&nbsp;유통구조&nbsp;개선과&nbsp;병행하여&nbsp;안정적인&nbsp;농업환경을&nbsp;조성하고&nbsp;지역&nbsp;농업&nbsp;경쟁력을&nbsp;강화함<br><br>2.&nbsp;우선순위&nbsp;:&nbsp;단·중기<br><br>3.&nbsp;이행절차&nbsp;:<br>&nbsp;&nbsp;○&nbsp;100억원&nbsp;규모&nbsp;농산물&nbsp;가격안정기금&nbsp;단계적&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;주요&nbsp;농산물&nbsp;가격&nbsp;하락&nbsp;시&nbsp;차액&nbsp;지원&nbsp;및&nbsp;긴급&nbsp;지원체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;계약재배&nbsp;및&nbsp;유통구조&nbsp;개선&nbsp;등&nbsp;농가소득&nbsp;안정&nbsp;정책&nbsp;병행&nbsp;추진<br><br>4.&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;~&nbsp;2028년<br><br>5.&nbsp;재원조달방법&nbsp;:&nbsp;100억원&nbsp;(군비)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	시내 공용주차장 공간 확대 및 무료화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="시내 공용주차장 공간 확대 및 무료화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;정책목표&nbsp;:&nbsp;도심&nbsp;생활환경&nbsp;개선&nbsp;및&nbsp;상권&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;공용주차장&nbsp;확충을&nbsp;통해&nbsp;만성적인&nbsp;주차난을&nbsp;해소하고,&nbsp;군민의&nbsp;생활편의를&nbsp;높이는&nbsp;쾌적한&nbsp;도심&nbsp;환경을&nbsp;조성함<br>&nbsp;&nbsp;○&nbsp;주차장&nbsp;무료화를&nbsp;통해&nbsp;전통시장과&nbsp;상권&nbsp;접근성을&nbsp;개선하고,&nbsp;관광객&nbsp;및&nbsp;생활인구&nbsp;유입&nbsp;확대를&nbsp;통한&nbsp;지역경제&nbsp;회복을&nbsp;도모함<br><br>2.&nbsp;우선순위&nbsp;:&nbsp;단기<br><br>3.&nbsp;이행절차&nbsp;:<br>&nbsp;&nbsp;○&nbsp;시내&nbsp;이면도로&nbsp;및&nbsp;노후·빈집&nbsp;부지&nbsp;활용&nbsp;공용주차장&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;공용주차장&nbsp;단계적&nbsp;무료화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;전통시장&nbsp;및&nbsp;상권&nbsp;연계&nbsp;주차환경&nbsp;개선&nbsp;추진<br><br>4.&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;~&nbsp;2027년<br><br>5.&nbsp;재원조달방법&nbsp;:&nbsp;30억&nbsp;(군비)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;류순철 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	합천르네상스 미래비전</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="합천르네상스 미래비전">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            합천의&nbsp;모든&nbsp;자원과&nbsp;역량을&nbsp;연결하여&nbsp;군민이&nbsp;체감하는&nbsp;지속가능한&nbsp;성장과&nbsp;새로운&nbsp;도약의&nbsp;시대를&nbsp;열겠습니다.<br><br>&#9642;&nbsp;&nbsp;남부내륙철도·광역교통망&nbsp;연계&nbsp;추진<br>&#9642;&nbsp;&nbsp;합천호·황매산·영상테마파크&nbsp;관광벨트&nbsp;완성<br>&#9642;&nbsp;&nbsp;체류형&nbsp;관광도시&nbsp;조성&nbsp;및&nbsp;관광경제&nbsp;활성화<br>&#9642;&nbsp;&nbsp;청년창업·미래산업&nbsp;지원으로&nbsp;청년이&nbsp;돌아오는&nbsp;합천&nbsp;구축<br>&#9642;&nbsp;&nbsp;농축산물&nbsp;브랜드&nbsp;고급화&nbsp;및&nbsp;스마트농업&nbsp;확대<br>&#9642;&nbsp;&nbsp;에너지&nbsp;산업&nbsp;기반&nbsp;미래먹거리&nbsp;육성<br>&#9642;&nbsp;&nbsp;소상공인·전통시장&nbsp;활성화&nbsp;지원&nbsp;확대<br>&#9642;&nbsp;&nbsp;어르신&nbsp;돌봄·의료·복지&nbsp;인프라&nbsp;강화<br>&#9642;&nbsp;&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;교육·보육&nbsp;환경&nbsp;조성<br>&#9642;&nbsp;&nbsp;군민&nbsp;생활밀착형&nbsp;도로·교통&nbsp;인프라&nbsp;확충<br>&#9642;&nbsp;&nbsp;중앙정부·경남도&nbsp;예산&nbsp;확보를&nbsp;통한&nbsp;대형사업&nbsp;추진<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;성장가능도시&nbsp;합천<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;취임직후&nbsp;순차적&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~2030<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비.&nbsp;도비.&nbsp;군비&nbsp;등&nbsp;각종&nbsp;개별법에&nbsp;의한&nbsp;재원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	합천 경제 대전환 시대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="합천 경제 대전환 시대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            파격적인&nbsp;지원과&nbsp;과감한&nbsp;투자&nbsp;유치로&nbsp;합천&nbsp;경제지도를&nbsp;새롭게&nbsp;바꾸겠습니다.<br><br>&#9642;&nbsp;&nbsp;우량기업&nbsp;유치를&nbsp;위한&nbsp;산업부지&nbsp;장기&nbsp;무상임대&nbsp;및&nbsp;세제&nbsp;혜택&nbsp;추진<br>&#9642;&nbsp;&nbsp;기업하기&nbsp;좋은&nbsp;합천&nbsp;조성을&nbsp;위한&nbsp;인허가&nbsp;원스톱&nbsp;지원체계&nbsp;구축<br>&#9642;&nbsp;&nbsp;더우드&nbsp;공장&nbsp;정상가동&nbsp;및&nbsp;지역기업&nbsp;애로&nbsp;해결&nbsp;전담&nbsp;패스트트랙&nbsp;운영<br>&#9642;&nbsp;&nbsp;민자&nbsp;유치를&nbsp;통한&nbsp;합천호&nbsp;수변&nbsp;리조트·웰니스&nbsp;산악호텔&nbsp;건립&nbsp;추진<br>&#9642;&nbsp;&nbsp;관광·레저·숙박&nbsp;산업&nbsp;활성화로&nbsp;지역경제&nbsp;성장&nbsp;기반&nbsp;확대<br>&#9642;&nbsp;&nbsp;청년창업&nbsp;및&nbsp;중소기업&nbsp;지원&nbsp;확대를&nbsp;통한&nbsp;양질의&nbsp;일자리&nbsp;창출<br>&#9642;&nbsp;&nbsp;소상공인·전통시장&nbsp;경쟁력&nbsp;강화를&nbsp;위한&nbsp;맞춤형&nbsp;지원&nbsp;확대<br>&#9642;&nbsp;&nbsp;미래&nbsp;에너지·첨단산업&nbsp;기반&nbsp;투자&nbsp;유치&nbsp;추진<br>&#9642;&nbsp;&nbsp;농특산물&nbsp;가공·유통산업&nbsp;육성으로&nbsp;농가소득&nbsp;증대<br>&#9642;&nbsp;&nbsp;기업과&nbsp;지역이&nbsp;함께&nbsp;성장하는&nbsp;지속가능&nbsp;경제도시&nbsp;합천&nbsp;실현<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;투자되는&nbsp;합천,&nbsp;살아나는&nbsp;경제<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;취임직후&nbsp;순차적&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~2030<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비.&nbsp;도비.&nbsp;군비&nbsp;등&nbsp;각종&nbsp;개별법에&nbsp;의한&nbsp;재원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	관광·스포츠 정책</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="관광·스포츠 정책">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1,000만&nbsp;관광&nbsp;시대와&nbsp;스포츠&nbsp;메카&nbsp;합천을&nbsp;만들겠습니다.<br><br>&#9642;&nbsp;&nbsp;황매산·합천호·영상테마파크를&nbsp;연계한&nbsp;‘합천형&nbsp;관광특구’&nbsp;조성<br>&#9642;&nbsp;&nbsp;체류형&nbsp;관광&nbsp;확대를&nbsp;위한&nbsp;리조트·숙박·힐링&nbsp;관광&nbsp;인프라&nbsp;구축<br>&#9642;&nbsp;&nbsp;주요&nbsp;관광지&nbsp;야간&nbsp;명소화&nbsp;및&nbsp;야간관광&nbsp;콘텐츠&nbsp;활성화<br>&#9642;&nbsp;&nbsp;야간&nbsp;음악식당·카페&nbsp;운영&nbsp;인센티브&nbsp;지원으로&nbsp;지역상권&nbsp;활성화<br>&#9642;&nbsp;&nbsp;사계절&nbsp;축제·문화행사&nbsp;확대를&nbsp;통한&nbsp;관광객&nbsp;유입&nbsp;강화<br>&#9642;&nbsp;&nbsp;전국&nbsp;최대&nbsp;규모&nbsp;피클볼&nbsp;전용코트&nbsp;조성&nbsp;추진<br>&#9642;&nbsp;&nbsp;전국&nbsp;단위&nbsp;스포츠대회&nbsp;및&nbsp;전지훈련&nbsp;유치&nbsp;확대<br>&#9642;&nbsp;&nbsp;생활체육·레저&nbsp;인프라&nbsp;확충으로&nbsp;스포츠&nbsp;도시&nbsp;기반&nbsp;강화<br>&#9642;&nbsp;&nbsp;합천호&nbsp;수상레저&nbsp;및&nbsp;친환경&nbsp;관광산업&nbsp;활성화<br>&#9642;&nbsp;&nbsp;지역&nbsp;먹거리·관광·숙박&nbsp;연계&nbsp;관광경제&nbsp;플랫폼&nbsp;구축<br>&#9642;&nbsp;&nbsp;관광이&nbsp;지역경제로&nbsp;이어지는&nbsp;합천형&nbsp;관광산업&nbsp;완성<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;대한민국&nbsp;관광·스포츠&nbsp;중심도시&nbsp;합천<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;취임직후&nbsp;순차적&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~2030<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비.&nbsp;도비.&nbsp;군비&nbsp;등&nbsp;각종&nbsp;개별법에&nbsp;의한&nbsp;재원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	군민이 행복한 민생합천</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="군민이 행복한 민생합천">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            군민의&nbsp;삶을&nbsp;든든하게&nbsp;지키는&nbsp;합천형&nbsp;민생복지를&nbsp;실현하겠습니다.<br><br>&#9642;&nbsp;전&nbsp;군민&nbsp;대상&nbsp;합천형&nbsp;농어촌&nbsp;기본소득&nbsp;월&nbsp;15만&nbsp;원&nbsp;지급&nbsp;추진<br>&#9642;&nbsp;군민&nbsp;생활안정&nbsp;및&nbsp;지역경제&nbsp;선순환&nbsp;기반&nbsp;강화<br>&#9642;&nbsp;소상공인·자영업자&nbsp;경영안정&nbsp;맞춤형&nbsp;지원&nbsp;확대<br>&#9642;&nbsp;노후&nbsp;점포&nbsp;리모델링&nbsp;및&nbsp;간판&nbsp;교체&nbsp;등&nbsp;시장환경&nbsp;개선&nbsp;지원<br>&#9642;&nbsp;전통시장&nbsp;활성화를&nbsp;위한&nbsp;시설&nbsp;현대화&nbsp;및&nbsp;편의환경&nbsp;확충<br>&#9642;&nbsp;1인&nbsp;소상공인&nbsp;안심콜&nbsp;보안시스템&nbsp;및&nbsp;안전장치&nbsp;구축&nbsp;지원<br>&#9642;&nbsp;골목상권·지역상권&nbsp;소비촉진&nbsp;정책&nbsp;확대<br>&#9642;&nbsp;어르신·취약계층&nbsp;생활밀착형&nbsp;복지&nbsp;강화<br>&#9642;&nbsp;농업·축산·소상공인이&nbsp;함께&nbsp;살아나는&nbsp;민생경제&nbsp;구축<br>&#9642;&nbsp;군민이&nbsp;체감하는&nbsp;따뜻한&nbsp;생활행정&nbsp;실현<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;생활이&nbsp;든든한&nbsp;합천<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;취임직후&nbsp;순차적&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~2030<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비.&nbsp;도비.&nbsp;군비&nbsp;등&nbsp;각종&nbsp;개별법에&nbsp;의한&nbsp;재원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	교육과 청년에 투자하는 도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="교육과 청년에 투자하는 도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            아이와&nbsp;청년이&nbsp;살아야&nbsp;합천의&nbsp;미래가&nbsp;살아납니다.<br><br>&#9642;&nbsp;&nbsp;방학&nbsp;중&nbsp;점심급식&nbsp;지원&nbsp;및&nbsp;돌봄&nbsp;사각지대&nbsp;해소<br>&#9642;&nbsp;&nbsp;아픈&nbsp;아이&nbsp;병원&nbsp;동행서비스&nbsp;및&nbsp;안심돌봄&nbsp;쉼터&nbsp;통합&nbsp;운영<br>&#9642;&nbsp;&nbsp;합천&nbsp;출신&nbsp;대학생&nbsp;장학지원&nbsp;및&nbsp;향토인재&nbsp;장학금&nbsp;대폭&nbsp;확대<br>&#9642;&nbsp;&nbsp;학생&nbsp;전용&nbsp;‘에듀버스’&nbsp;도입&nbsp;및&nbsp;통학&nbsp;교통비&nbsp;지원&nbsp;확대<br>&#9642;&nbsp;&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;교육·돌봄&nbsp;환경&nbsp;조성<br>&#9642;&nbsp;&nbsp;청년&nbsp;이사비&nbsp;및&nbsp;월세&nbsp;지원&nbsp;확대를&nbsp;통한&nbsp;주거부담&nbsp;완화<br>&#9642;&nbsp;&nbsp;기업·청년&nbsp;상생&nbsp;장려금&nbsp;지원으로&nbsp;양질의&nbsp;일자리&nbsp;창출<br>&#9642;&nbsp;&nbsp;청년창업&nbsp;100개&nbsp;집중&nbsp;육성&nbsp;및&nbsp;전문가&nbsp;밀착&nbsp;사후관리&nbsp;지원<br>&#9642;&nbsp;&nbsp;청년&nbsp;취업·창업·정착&nbsp;지원체계&nbsp;강화<br>&#9642;&nbsp;&nbsp;청년이&nbsp;돌아오고&nbsp;미래세대가&nbsp;머무는&nbsp;합천&nbsp;실현<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;미래세대를&nbsp;위한&nbsp;합천&nbsp;대전환<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;취임직후&nbsp;순차적&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~2030<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비.&nbsp;도비.&nbsp;군비&nbsp;등&nbsp;각종&nbsp;개별법에&nbsp;의한&nbsp;재원</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

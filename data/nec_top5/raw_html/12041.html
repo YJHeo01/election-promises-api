@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;문경신 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	동락천 복원과 고려촌 마을 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="동락천 복원과 고려촌 마을 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;&nbsp;<br>ㅇ&nbsp;강화의&nbsp;심장&nbsp;강화읍에&nbsp;복개되어있는&nbsp;‘동락천’을&nbsp;생태&nbsp;하천으로&nbsp;복원하고&nbsp;주변&nbsp;상권을&nbsp;상가를&nbsp;겸한&nbsp;‘고려촌’마을로&nbsp;조성하여&nbsp;아이들이&nbsp;뛰어놀고&nbsp;관광객이&nbsp;찾는,&nbsp;그래서&nbsp;잠들지&nbsp;않는&nbsp;강화읍&nbsp;상권을&nbsp;이뤄내&nbsp;지역&nbsp;경제를&nbsp;일으킬&nbsp;계획.<br><br>□&nbsp;주요사업&nbsp;&nbsp;<br>ㅇ&nbsp;주요&nbsp;관광지에서&nbsp;강화읍&nbsp;원도심으로&nbsp;들어오는&nbsp;관광&nbsp;셔틀버스&nbsp;노선을&nbsp;상시&nbsp;운영하겠습니다.&nbsp;관광객들이&nbsp;차를두고&nbsp;편하게&nbsp;들어와&nbsp;식사하고&nbsp;쇼핑할&nbsp;수&nbsp;있는&nbsp;환경을&nbsp;만들겠습니다.<br>ㅇ&nbsp;관청리와&nbsp;신문리&nbsp;일대를&nbsp;야간&nbsp;경관&nbsp;특화&nbsp;구역으로&nbsp;지정해서&nbsp;야시장,버스킹,미식축제를&nbsp;연계하여&nbsp;밤에도&nbsp;관광객과&nbsp;군민이&nbsp;모이는&nbsp;야간&nbsp;경제를&nbsp;활성화하겠습니다.<br>ㅇ&nbsp;강화읍내&nbsp;빈&nbsp;점포를&nbsp;군(郡)에서&nbsp;임대하여&nbsp;청년&nbsp;창업가들에게&nbsp;저렴하게&nbsp;제공하여&nbsp;문화와&nbsp;예술이&nbsp;결합된&nbsp;복합&nbsp;문화&nbsp;공간으로&nbsp;조성하여&nbsp;젊은층의&nbsp;발길을&nbsp;돌리겠습니다.<br>ㅇ&nbsp;전통시장과&nbsp;중심&nbsp;상권의&nbsp;고질적인&nbsp;문제인&nbsp;주차난을&nbsp;해결하기&nbsp;위해&nbsp;스마트&nbsp;공영주차장을&nbsp;확충하고,&nbsp;보행자&nbsp;중심의&nbsp;거리를&nbsp;조성하여&nbsp;쾌적한&nbsp;쇼핑환경을&nbsp;제공하겠습니다.<br><br>□&nbsp;이행방법<br>ㅇ&nbsp;계획수립&nbsp;후&nbsp;단계적&nbsp;추진<br><br>□&nbsp;이행기간<br>ㅇ&nbsp;2026년~2030년&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>ㅇ&nbsp;국비,&nbsp;시비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	강화시(市) 승격 및 행정/복지시설 신설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="강화시(市) 승격 및 행정/복지시설 신설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>‘도농복합시’를&nbsp;추진하되&nbsp;특례조항을&nbsp;신설하여,&nbsp;시(市)가&nbsp;되어도&nbsp;농어촌&nbsp;학생들이&nbsp;받는&nbsp;대입&nbsp;특별전형이나&nbsp;세금&nbsp;감면&nbsp;혜택은&nbsp;그대로&nbsp;유지되도록&nbsp;법적&nbsp;근거를&nbsp;마련할&nbsp;계획.<br><br>□&nbsp;주요사업<br>ㅇ&nbsp;선원면&nbsp;민원출장소&nbsp;신설&nbsp;및&nbsp;금융기관&nbsp;유치하여&nbsp;대단위&nbsp;아파트&nbsp;주민들의&nbsp;행정서비스를&nbsp;제공하겠습니다.<br>ㅇ&nbsp;움직이는&nbsp;케어센터를&nbsp;신설&nbsp;운영하여&nbsp;전문&nbsp;물리치료사가&nbsp;마을회관을&nbsp;직접&nbsp;방문해&nbsp;통증관리&nbsp;서비스를&nbsp;제공하겠습니다.<br>ㅇ&nbsp;실버&nbsp;스마트&nbsp;복지센터를&nbsp;유휴&nbsp;부지를&nbsp;이용해&nbsp;확충하여&nbsp;거동이&nbsp;불편한&nbsp;어르신을&nbsp;위한&nbsp;거점&nbsp;공간을&nbsp;마련하겠습니다.<br>ㅇ&nbsp;공무관&nbsp;맞춤형&nbsp;정책으로&nbsp;‘안전3인1조’&nbsp;조례&nbsp;제정으로&nbsp;부족한&nbsp;인력&nbsp;증원과&nbsp;‘강화형&nbsp;위험수당’&nbsp;신설을&nbsp;통해&nbsp;정당한&nbsp;임금&nbsp;체계를&nbsp;만들고,&nbsp;스마트&nbsp;‘클린하우스’와&nbsp;자동화&nbsp;장비를&nbsp;도입하여&nbsp;육체적&nbsp;노동을&nbsp;줄이겠습니다.<br><br>□&nbsp;이행방법<br>ㅇ&nbsp;계획수립&nbsp;후&nbsp;단계적&nbsp;추진<br><br>□&nbsp;이행기간<br>ㅇ&nbsp;2026년~2030년&nbsp;&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;ㅇ&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	교통, 관광 인프라 확충</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="교통, 관광 인프라 확충">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>ㅇ&nbsp;강화와&nbsp;김포를&nbsp;잇는&nbsp;도시철도&nbsp;연장사업&nbsp;추진과&nbsp;수도권&nbsp;최고의&nbsp;역사문화&nbsp;휴양지&nbsp;조성으로&nbsp;사계절&nbsp;깨어있는&nbsp;관광도시구축.&nbsp;<br>&nbsp;<br>□&nbsp;주요사업<br>ㅇ&nbsp;광역철도&nbsp;5호선을&nbsp;김포에서&nbsp;강화까지&nbsp;연결하는&nbsp;광역철도&nbsp;연장사업&nbsp;추진<br>ㅇ&nbsp;석모도&nbsp;온천휴양타운&nbsp;및&nbsp;관광특구지정<br>ㅇ&nbsp;동막&nbsp;‘골든머드’&nbsp;테마파크&nbsp;조성으로&nbsp;24시간&nbsp;안전한&nbsp;머드체험과&nbsp;물놀이&nbsp;환경조성<br>ㅇ&nbsp;화도&nbsp;선수항에서&nbsp;건평항,외포항,황청항을&nbsp;잇는&nbsp;해안&nbsp;해넘이&nbsp;산책&nbsp;데크로드&nbsp;조성과&nbsp;외포항에서&nbsp;석모도로&nbsp;연결하는&nbsp;케이블카를&nbsp;설치.<br>ㅇ&nbsp;관광객&nbsp;교통체증&nbsp;해소를&nbsp;위해&nbsp;민·관·경&nbsp;협약을&nbsp;통한&nbsp;합동&nbsp;교통&nbsp;관리&nbsp;체계&nbsp;시스템구축&nbsp;운영<br>ㅇ&nbsp;강화&nbsp;관문을&nbsp;고려궁지&nbsp;느낌의&nbsp;역사문화&nbsp;고품격&nbsp;명품거리로&nbsp;조성<br><br>□&nbsp;이행방법<br>ㅇ&nbsp;계획수립&nbsp;후&nbsp;단계적&nbsp;추진<br><br>□&nbsp;이행기간<br>ㅇ&nbsp;2026년~2030년&nbsp;&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>ㅇ&nbsp;국비,&nbsp;시비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	규제완화와 구도심 순환개발</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="규제완화와 구도심 순환개발">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>ㅇ&nbsp;저수지와&nbsp;문화재&nbsp;주변에&nbsp;묶여&nbsp;있던&nbsp;과도한&nbsp;규제들을&nbsp;법과&nbsp;조례&nbsp;개정을&nbsp;통해&nbsp;과감히&nbsp;풀어&nbsp;땅의&nbsp;가치를&nbsp;되찾는&nbsp;재산권&nbsp;보장을&nbsp;하겠으며,&nbsp;구도심의&nbsp;‘순환개발’을&nbsp;추진하겠습니다.&nbsp;<br><br>□&nbsp;주요사업<br>ㅇ&nbsp;군사,&nbsp;문화재&nbsp;보호구역&nbsp;규제를&nbsp;면밀히&nbsp;살펴&nbsp;규제를&nbsp;완화함으로써&nbsp;주민&nbsp;재산권을&nbsp;보호하겠습니다.<br>ㅇ&nbsp;방치중인&nbsp;국공유지를&nbsp;활용하여&nbsp;주민&nbsp;쉼터나&nbsp;공동&nbsp;농장으로&nbsp;활용하겠습니다.<br>ㅇ&nbsp;바다에&nbsp;퇴적된&nbsp;모래를&nbsp;활용하여&nbsp;민간합동사업을&nbsp;통한&nbsp;모래&nbsp;판매&nbsp;수익금&nbsp;전액을&nbsp;어민과&nbsp;군민&nbsp;복지&nbsp;예산으로&nbsp;환원하겠습니다.&nbsp;<br>ㅇ&nbsp;타&nbsp;시도에서&nbsp;전입해&nbsp;오시는&nbsp;군민들을&nbsp;위해&nbsp;'강화&nbsp;정착&nbsp;원스톱&nbsp;지원센터'를&nbsp;설치해&nbsp;전입신고부터&nbsp;생활&nbsp;정보&nbsp;안내까지&nbsp;한&nbsp;번에&nbsp;해결해&nbsp;드리겠습니다.<br>ㅇ&nbsp;군(郡)이&nbsp;직접&nbsp;농작업&nbsp;대행을&nbsp;확대하여&nbsp;일손부족&nbsp;농가와&nbsp;몸이&nbsp;불편한&nbsp;어르신을&nbsp;위해&nbsp;농기계작업을&nbsp;지원하겠습니다.<br>ㅇ&nbsp;강화&nbsp;농민&nbsp;5일장의&nbsp;권리를&nbsp;확보하여&nbsp;외지&nbsp;상인이&nbsp;아닌&nbsp;강화&nbsp;농민&nbsp;중심의&nbsp;직거래&nbsp;장터로&nbsp;구조를&nbsp;개선하겠습니다.<br><br>□&nbsp;이행방법<br>ㅇ&nbsp;계획수립&nbsp;후&nbsp;단계적&nbsp;추진<br><br>□&nbsp;이행기간<br>ㅇ&nbsp;2026년~2030년&nbsp;&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>ㅇ&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	청년 정착 지원책과 강화 군 장병을 위한 시스템 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="청년 정착 지원책과 강화 군 장병을 위한 시스템 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>ㅇ&nbsp;강화에서&nbsp;청년들이&nbsp;꿈을&nbsp;펼칠&nbsp;수&nbsp;있는&nbsp;환경조성으로&nbsp;지방인구소멸위기를&nbsp;극복하고&nbsp;지역경제의&nbsp;활성화를&nbsp;가져오며,&nbsp;강화&nbsp;군부대와&nbsp;지역&nbsp;주민이&nbsp;서로&nbsp;상생하는&nbsp;공동체&nbsp;문화를&nbsp;뿌리내리겠습니다.<br><br>□&nbsp;주요사업<br>ㅇ&nbsp;강화&nbsp;반값&nbsp;주택&nbsp;공급을&nbsp;위해&nbsp;공공&nbsp;유휴&nbsp;부지에&nbsp;청년·신혼부부를&nbsp;위한&nbsp;장기&nbsp;임대&nbsp;및&nbsp;분양&nbsp;주택을&nbsp;건설&nbsp;공급하겠습니다.<br>ㅇ&nbsp;디지털&nbsp;노마드&nbsp;유치를&nbsp;위해&nbsp;워케이션&nbsp;센터를&nbsp;건립하여&nbsp;젊은&nbsp;프리랜서들이&nbsp;유입되도록&nbsp;하겠습니다.<br>ㅇ&nbsp;희망&nbsp;두&nbsp;배&nbsp;통장을&nbsp;신설하여&nbsp;청년들의&nbsp;저축액에&nbsp;군(郡)&nbsp;예산을&nbsp;추가&nbsp;적립해&nbsp;자산&nbsp;형성을&nbsp;지원하겠습니다.<br>ㅇ&nbsp;청년&nbsp;프리랜서&nbsp;지역화폐를&nbsp;만들어&nbsp;강화에서&nbsp;일하는&nbsp;청년층에게&nbsp;실질적인&nbsp;경제적&nbsp;인센티브를&nbsp;제공하겠습니다.<br>ㅇ&nbsp;강화&nbsp;군&nbsp;장병에게는&nbsp;디지털&nbsp;플레폼&nbsp;'강화&nbsp;영웅&nbsp;앱'을&nbsp;구축하여&nbsp;앱&nbsp;하나로&nbsp;무료버스이용,&nbsp;식당&nbsp;할인,&nbsp;숙박&nbsp;할인예약까지&nbsp;한&nbsp;번에&nbsp;해결하는&nbsp;원스톱&nbsp;시스템을&nbsp;보급하겠습니다.<br><br>□&nbsp;이행방법<br>ㅇ&nbsp;계획수립&nbsp;후&nbsp;단계적&nbsp;추진<br><br>□&nbsp;이행기간<br>ㅇ&nbsp;2026년~2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>ㅇ&nbsp;시비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

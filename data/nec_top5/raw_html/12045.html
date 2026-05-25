@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;노관규 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	순천 5대 미래산업 경제축 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="순천 5대 미래산업 경제축 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;&nbsp;문화콘텐츠,&nbsp;우주항공,&nbsp;그린바이오,&nbsp;치유산업,&nbsp;RE100&nbsp;반도체&nbsp;산업을&nbsp;중심으로&nbsp;순천의&nbsp;미래&nbsp;먹거리&nbsp;산업&nbsp;기반을&nbsp;완성하겠습니다.&nbsp;이를&nbsp;통해&nbsp;청년일자리와&nbsp;기업&nbsp;유치,&nbsp;지역경제&nbsp;활력을&nbsp;동시에&nbsp;높이겠습니다.<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;애니메이션·웹툰·영상&nbsp;등&nbsp;문화콘텐츠&nbsp;산업&nbsp;클러스터를&nbsp;조성하고&nbsp;관련&nbsp;기업과&nbsp;인재가&nbsp;모이는&nbsp;기반을&nbsp;만들겠습니다.<br>&nbsp;&nbsp;○&nbsp;한화에어로스페이스&nbsp;등&nbsp;기존&nbsp;우주항공&nbsp;산업&nbsp;기반과&nbsp;연계해&nbsp;항공·우주·UAM&nbsp;관련&nbsp;산업&nbsp;생태계를&nbsp;확장하겠습니다.&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;그린바이오&nbsp;산업&nbsp;기반을&nbsp;강화하고,&nbsp;치유·&nbsp;웰니스&nbsp;산업과&nbsp;국가정원·순천만을&nbsp;연결해&nbsp;순천형&nbsp;미래산업으로&nbsp;육성하겠습니다.<br>&nbsp;&nbsp;○&nbsp;RE100&nbsp;반도체&nbsp;산업단지&nbsp;조성을&nbsp;추진해&nbsp;친환경&nbsp;에너지&nbsp;기반의&nbsp;미래형&nbsp;산업도시로&nbsp;도약하겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~2030&nbsp;:&nbsp;5대&nbsp;미래산업별&nbsp;실행계획&nbsp;수립&nbsp;및&nbsp;기반&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;2026~2030&nbsp;:&nbsp;기업&nbsp;유치,&nbsp;산업단지&nbsp;조성,&nbsp;인재양성&nbsp;사업&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2026~2030&nbsp;:&nbsp;순천형&nbsp;미래산업&nbsp;생태계&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비&nbsp;공모사업,&nbsp;지방비,&nbsp;민간투자,&nbsp;산업단지&nbsp;조성&nbsp;관련&nbsp;재원&nbsp;등을&nbsp;연계해&nbsp;추진하겠습니다.<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;미래산업&nbsp;육성사업과&nbsp;전남도&nbsp;전략산업&nbsp;예산&nbsp;확보에&nbsp;총력을&nbsp;다하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	체류형 정원관광도시 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="체류형 정원관광도시 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;2023순천만국제정원박람회의&nbsp;성공을&nbsp;바탕으로&nbsp;비약적으로&nbsp;늘어난&nbsp;관광을&nbsp;바탕으로,&nbsp;치유산업과&nbsp;특급호텔을&nbsp;유치하여&nbsp;순천을&nbsp;단순&nbsp;방문관광지가&nbsp;아니라&nbsp;오래&nbsp;머물고,&nbsp;소비하고,&nbsp;다시&nbsp;찾는&nbsp;체류형&nbsp;관광도시로&nbsp;만들겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국가정원,&nbsp;순천만습지,&nbsp;오천그린광장,&nbsp;그린아일랜드,&nbsp;원도심,&nbsp;음식,&nbsp;숙박,&nbsp;치유·웰니스&nbsp;자원을&nbsp;하나의&nbsp;관광동선으로&nbsp;연결하겠습니다.&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;국가정원&nbsp;인근&nbsp;특급호텔&nbsp;유치&nbsp;등&nbsp;숙박&nbsp;인프라를&nbsp;확충하고,&nbsp;야간관광·미식관광·도심관광&nbsp;콘텐츠를&nbsp;강화하겠습니다.<br>&nbsp;&nbsp;○&nbsp;정원후방산업과&nbsp;관광산업을&nbsp;함께&nbsp;육성해&nbsp;정원이&nbsp;지역경제와&nbsp;일자리로&nbsp;이어지도록&nbsp;하겠습니다.<br>&nbsp;&nbsp;○&nbsp;순천만과&nbsp;국가정원을&nbsp;중심으로&nbsp;생태수도&nbsp;순천의&nbsp;브랜드를&nbsp;더욱&nbsp;강화&nbsp;하겠습니다.<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~2027&nbsp;:&nbsp;체류형&nbsp;관광&nbsp;종합계획&nbsp;수립&nbsp;및&nbsp;핵심사업&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;2026~2030&nbsp;:&nbsp;숙박·교통·관광콘텐츠&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;2026~2030&nbsp;:&nbsp;정원관광과&nbsp;치유관광&nbsp;연계사업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;문화체육관광부,&nbsp;환경부,&nbsp;산림청&nbsp;등&nbsp;중앙부처&nbsp;공모사업과&nbsp;전남도&nbsp;관광·정원&nbsp;산업&nbsp;예산을&nbsp;적극&nbsp;확보하겠습니다.<br>&nbsp;&nbsp;○&nbsp;숙박시설과&nbsp;관광콘텐츠&nbsp;분야는&nbsp;민간투자를&nbsp;적극&nbsp;유치하고,&nbsp;필요한&nbsp;기반시설은&nbsp;국·도비와&nbsp;시비를&nbsp;연계해&nbsp;추진하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	차세대 공공자원화시설 적시건립과 시민편의시설 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="차세대 공공자원화시설 적시건립과 시민편의시설 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;국가정원&nbsp;인근&nbsp;연향들에&nbsp;들어서는&nbsp;시설은&nbsp;기존의&nbsp;낡은&nbsp;소각장&nbsp;개념을&nbsp;넘어,&nbsp;지하는&nbsp;차세대&nbsp;공공자원화시설로&nbsp;조성하고&nbsp;지상은&nbsp;공원화하여&nbsp;시민들이&nbsp;이용할&nbsp;수&nbsp;있는&nbsp;기대시설로&nbsp;만들겠습니다.&nbsp;아울러&nbsp;국제규격&nbsp;수영장,&nbsp;배드민턴전용구장,&nbsp;실내승마장&nbsp;등&nbsp;소각열을&nbsp;활용한&nbsp;냉난방&nbsp;시스템으로&nbsp;시민들의&nbsp;레저&nbsp;스포츠&nbsp;환경&nbsp;개선에도&nbsp;이바지&nbsp;하겠습니다.<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;차세대&nbsp;공공자원화시설은&nbsp;과학적&nbsp;검토와&nbsp;법적&nbsp;절차에&nbsp;따라&nbsp;안정적으로&nbsp;추진하겠습니다.<br>&nbsp;&nbsp;○&nbsp;시설은&nbsp;지하화하고,&nbsp;지상부는&nbsp;공원과&nbsp;시민휴식공간으로&nbsp;조성하겠습니다.<br>&nbsp;&nbsp;○&nbsp;소각열을&nbsp;활용한&nbsp;국제규격&nbsp;수영장&nbsp;등&nbsp;주민편의시설을&nbsp;함께&nbsp;조성해&nbsp;지역주민에게&nbsp;실질적인&nbsp;혜택이&nbsp;돌아가도록&nbsp;하겠습니다.<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;우려는&nbsp;충분히&nbsp;이해하되,&nbsp;정확한&nbsp;과학적&nbsp;정보와&nbsp;법적&nbsp;절차에&nbsp;근거해&nbsp;사업을&nbsp;추진하겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~2027&nbsp;:&nbsp;행정절차&nbsp;및&nbsp;실시설계&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2027~2029&nbsp;:&nbsp;시설&nbsp;공사&nbsp;및&nbsp;주민편의시설&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;2029~2030&nbsp;:&nbsp;시운전&nbsp;및&nbsp;정상&nbsp;운영<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;환경부&nbsp;국비,&nbsp;전남도비,&nbsp;시비를&nbsp;연계해&nbsp;추진하겠습니다.<br>&nbsp;&nbsp;○&nbsp;폐기물처리시설&nbsp;설치&nbsp;관련&nbsp;법정&nbsp;지원사업과&nbsp;주민편의시설&nbsp;조성&nbsp;재원을&nbsp;함께&nbsp;확보하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	명품 정주도시 순천 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="명품 정주도시 순천 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;오천그린광장,&nbsp;그린아일랜드,&nbsp;신대천에&nbsp;이어&nbsp;시민의&nbsp;일상이&nbsp;달라지는&nbsp;명품&nbsp;정주환경을&nbsp;완성하겠습니다.&nbsp;아이&nbsp;키우기&nbsp;좋고,&nbsp;걷기&nbsp;좋고,&nbsp;쉬기&nbsp;좋은도시를&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;연향&nbsp;센트럴파크,&nbsp;조례&nbsp;에코&nbsp;스포츠&nbsp;컴플렉스,&nbsp;신대&nbsp;미래문화복합센터,&nbsp;왕조&nbsp;복합커뮤니티&nbsp;공간&nbsp;등&nbsp;생활권별&nbsp;핵심&nbsp;정주&nbsp;인프라를&nbsp;조성하겠습니다.<br>&nbsp;&nbsp;○&nbsp;달빛어린이병원,&nbsp;공공산후조리원,&nbsp;지역필수의료체계&nbsp;등&nbsp;시민이&nbsp;체감하는&nbsp;보육·의료·복지&nbsp;정책을&nbsp;강화하겠습니다.<br>&nbsp;&nbsp;○&nbsp;교통체증&nbsp;해소를&nbsp;위한&nbsp;도로망&nbsp;확충,&nbsp;IC&nbsp;신설,&nbsp;주요&nbsp;간선도로&nbsp;개선&nbsp;등을&nbsp;추진하겠습니다.<br>&nbsp;&nbsp;○&nbsp;원도심과&nbsp;신도심이&nbsp;함께&nbsp;발전할&nbsp;수&nbsp;있도록&nbsp;생활SOC와&nbsp;문화·체육·교육&nbsp;기반을&nbsp;균형&nbsp;있게&nbsp;확충하겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~2027&nbsp;:&nbsp;생활권별&nbsp;정주환경&nbsp;개선사업&nbsp;설계&nbsp;및&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;2026~2030&nbsp;:&nbsp;공원,&nbsp;문화,&nbsp;체육,&nbsp;보육,&nbsp;의료&nbsp;인프라&nbsp;단계적&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;2026~2030&nbsp;:&nbsp;도시&nbsp;균형발전&nbsp;및&nbsp;교통환경&nbsp;개선&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국토교통부,&nbsp;보건복지부,&nbsp;문화체육관광부,&nbsp;교육부&nbsp;등&nbsp;중앙부처&nbsp;공모사업과&nbsp;전남도&nbsp;예산을&nbsp;적극&nbsp;확보하겠습니다.<br>&nbsp;&nbsp;○&nbsp;생활SOC&nbsp;복합화&nbsp;사업,&nbsp;도시재생사업,&nbsp;지방소멸대응기금&nbsp;등을&nbsp;연계해&nbsp;재원을&nbsp;마련하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	동부권 중심도시 순천의 위상 강화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="동부권 중심도시 순천의 위상 강화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;광주·전남&nbsp;통합,&nbsp;여수·광양&nbsp;산업위기&nbsp;등&nbsp;큰&nbsp;변화&nbsp;속에서&nbsp;순천이&nbsp;전남&nbsp;동부권의&nbsp;중심도시이자&nbsp;남해안&nbsp;남중권의&nbsp;핵심&nbsp;거점도시로&nbsp;도약하도록&nbsp;하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;2차&nbsp;공공기관&nbsp;이전을&nbsp;적극&nbsp;추진해&nbsp;순천의&nbsp;행정·산업·교육&nbsp;기능을&nbsp;강화하겠습니다.<br>&nbsp;&nbsp;○&nbsp;여수MBC&nbsp;순천&nbsp;이전,&nbsp;경전선&nbsp;문제,&nbsp;전남&nbsp;동부청사&nbsp;기능&nbsp;강화&nbsp;등&nbsp;지역의&nbsp;핵심&nbsp;현안을&nbsp;중단&nbsp;없이&nbsp;추진하겠습니다.<br>&nbsp;&nbsp;○&nbsp;순천대&nbsp;의대&nbsp;유치와&nbsp;대학병원급&nbsp;의료체계&nbsp;구축을&nbsp;위해&nbsp;가능한&nbsp;모든&nbsp;옵션을&nbsp;검토하고&nbsp;대응하겠습니다.<br>&nbsp;&nbsp;○&nbsp;여수·순천·광양을&nbsp;연결하는&nbsp;메가시티&nbsp;전략을&nbsp;통해&nbsp;순천이&nbsp;동부권&nbsp;발전의&nbsp;중심&nbsp;역할을&nbsp;하도록&nbsp;하겠습니다.<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~2027&nbsp;:&nbsp;핵심&nbsp;현안별&nbsp;추진전략&nbsp;수립&nbsp;및&nbsp;관계기관&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;2026~2030&nbsp;:&nbsp;공공기관&nbsp;이전,&nbsp;의대·의료체계,&nbsp;방송·교통&nbsp;현안&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2026~2030&nbsp;:&nbsp;전남&nbsp;동부권&nbsp;중심도시&nbsp;기능&nbsp;강화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국가균형발전사업,&nbsp;공공기관&nbsp;이전&nbsp;관련&nbsp;국비,&nbsp;전남도&nbsp;예산,&nbsp;시비를&nbsp;연계해&nbsp;추진하겠습니다.<br>&nbsp;&nbsp;○&nbsp;국회,&nbsp;중앙정부,&nbsp;전남도,&nbsp;관계기관과&nbsp;적극&nbsp;협의해&nbsp;순천에&nbsp;필요한&nbsp;예산과&nbsp;제도적&nbsp;지원을&nbsp;확보하겠습니다.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

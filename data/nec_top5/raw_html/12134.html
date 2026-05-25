@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;조한영 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	미래 신성장을 선도하는 첨단산업 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="미래 신성장을 선도하는 첨단산업 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;좋은&nbsp;일자리&nbsp;5,000개&nbsp;창출로&nbsp;청년유입과&nbsp;지역경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;첨단&nbsp;바이오·농생명&nbsp;국가산업단지&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농생명융합복합산업&nbsp;클러스터&nbsp;조성사업&nbsp;및&nbsp;우수기업&nbsp;유치&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동물의약품·바이오&nbsp;제조산업·펫산업&nbsp;연계&nbsp;융합&nbsp;클러스터&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;첨단&nbsp;신소재·전자부품·반도체&nbsp;소부장&nbsp;공급&nbsp;산업단지&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자동차·항공기·선박·AI·로봇&nbsp;산업&nbsp;첨단&nbsp;신소재·전자부품&nbsp;공급망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첨단&nbsp;신소재·전자부품·반도체&nbsp;소부장(소재·부품·장비)&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;산업단지&nbsp;AI·로봇&nbsp;기반&nbsp;디지털전환(DX)&nbsp;산업생태계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·로봇&nbsp;자동화&nbsp;전환&nbsp;지원,&nbsp;AI·로봇&nbsp;실증센터&nbsp;구축&nbsp;추진,&nbsp;스타트업&nbsp;창업&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·로봇&nbsp;기업&nbsp;이전&nbsp;시&nbsp;입지·세제&nbsp;지원,&nbsp;기술사업화&nbsp;및&nbsp;공동연구개발&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;산업단지&nbsp;RE100·탄소중립&nbsp;전력공급체계&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;태양광·바이오가스·수소연료전지&nbsp;등&nbsp;분산형&nbsp;재생에너지&nbsp;발전&nbsp;기반&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;에너지저장장치(ESS)&nbsp;및&nbsp;스마트&nbsp;전력관리시스템&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;초고압&nbsp;송전선로&nbsp;주민&nbsp;동의없는&nbsp;건설계획&nbsp;반대<br>&nbsp;&nbsp;○&nbsp;중소기업&nbsp;금융지원&nbsp;강화&nbsp;및&nbsp;스마트&nbsp;팩토리·디지털전환&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중소기업&nbsp;특례보증&nbsp;및&nbsp;이차보전·경영안정자금·긴급대출&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·디지털&nbsp;전환&nbsp;대응&nbsp;자격증&nbsp;교육&nbsp;및&nbsp;현장&nbsp;맞춤형&nbsp;직무교육&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;외국인&nbsp;근로자&nbsp;지원센터&nbsp;및&nbsp;기숙사&nbsp;운영&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;수도권·충청권&nbsp;연계&nbsp;광역철도망&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서해선&nbsp;복선전철~KTX&nbsp;연결&nbsp;및&nbsp;중부권&nbsp;동서횡단철도&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;충청내륙철도&nbsp;및&nbsp;서해안&nbsp;내포철도&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;산업단지&nbsp;접근성&nbsp;및&nbsp;교통인프라&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업단지·농공단지&nbsp;진·출입&nbsp;교통체계&nbsp;개선&nbsp;및&nbsp;병목구간&nbsp;도로&nbsp;정비&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;내포~정안IC·서부내륙고속도로&nbsp;연계&nbsp;광역도로망&nbsp;확충&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업단지·관광지·생활권&nbsp;연결&nbsp;읍면&nbsp;주요&nbsp;도로&nbsp;확장&nbsp;및&nbsp;위험구간&nbsp;정비&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;내포&nbsp;첨단산업&nbsp;산학연&nbsp;융합&nbsp;클러스터&nbsp;조성&nbsp;및&nbsp;협력&nbsp;생태계&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연구기관·공공기관·기업&nbsp;유치,&nbsp;첨단산업&nbsp;지역&nbsp;혁신펀드&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학·연구기관·기업&nbsp;연계&nbsp;공동&nbsp;R&D&nbsp;및&nbsp;첨단산업&nbsp;맞춤형&nbsp;인재양성&nbsp;프로그램&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첨단산업&nbsp;스타트업&nbsp;지원&nbsp;및&nbsp;실증&nbsp;테스트베드·사업화&nbsp;지원&nbsp;플랫폼&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;취업·창업지원센터&nbsp;설립&nbsp;및&nbsp;직무교육·창업멘토링·초기사업화&nbsp;지원&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;산업·농공단지&nbsp;탄소중립·친환경&nbsp;에너지&nbsp;전환&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;탄소중립지원센터&nbsp;설립&nbsp;추진,&nbsp;친환경&nbsp;공정&nbsp;전환&nbsp;및&nbsp;탄소저감&nbsp;설비&nbsp;도입&nbsp;지원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;탄소중립&nbsp;교육·홍보&nbsp;및&nbsp;군민&nbsp;참여&nbsp;실천운동&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;탄소절감&nbsp;생활실천&nbsp;포인트·인센티브&nbsp;제도&nbsp;도입&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;생활·농업·산업폐기물&nbsp;처리&nbsp;자립·책임·안전&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활폐기물&nbsp;처리시설(맑은누리센터)&nbsp;증설,&nbsp;농업폐기물&nbsp;집하장&nbsp;설치&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업폐기물&nbsp;발생지&nbsp;처리&nbsp;의무화&nbsp;및&nbsp;외부&nbsp;반출&nbsp;최소화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;건강조사·환경감시체계&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;이행,&nbsp;최우선,&nbsp;단기·중장기&nbsp;과제&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·군비&nbsp;확보&nbsp;및&nbsp;민간개발&nbsp;투자&nbsp;유치,&nbsp;필요시&nbsp;조례&nbsp;제개정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	고소득을 창출하는 AI·스마트 농업 혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="고소득을 창출하는 AI·스마트 농업 혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농가소득&nbsp;향상으로&nbsp;풍요로운&nbsp;농촌&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;농업&nbsp;자동화&nbsp;및&nbsp;스마트팜&nbsp;전환&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·스마트&nbsp;농업단지&nbsp;및&nbsp;스마트팜&nbsp;단지&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자동화&nbsp;농기계·스마트팜&nbsp;설비&nbsp;지원&nbsp;및&nbsp;설비정비&nbsp;순회서비스&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·로봇·토양센서·드론방제·관수자동화&nbsp;기반&nbsp;정밀농업&nbsp;도입&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;농촌&nbsp;융복합&nbsp;6차&nbsp;산업&nbsp;육성&nbsp;및&nbsp;고부가가치화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농산물&nbsp;6차산업지원센터&nbsp;설립,&nbsp;생산·가공·체험·관광·판매&nbsp;지역&nbsp;벨트&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;로컬푸드&nbsp;집하장·공동물류창고·농축산물&nbsp;가공센터&nbsp;설치&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농특산물&nbsp;기반&nbsp;푸트테크&nbsp;테스트&nbsp;키친&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;로컬푸드&nbsp;직거래&nbsp;복합&nbsp;파머스&nbsp;마켓(Farmers&nbsp;Macket)&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;직매장·주말장터·판매·체험·관광&nbsp;연계&nbsp;상설형&nbsp;복합시장&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;예산군&nbsp;전용&nbsp;농축산물&nbsp;인터넷&nbsp;직거래&nbsp;쇼핑몰&nbsp;구축·운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사과·한우·쪽파·가공식품&nbsp;등&nbsp;마을&nbsp;대표&nbsp;농특산물&nbsp;온라인&nbsp;판매체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상품촬영·웹&nbsp;제작·마케팅&nbsp;등&nbsp;온라인&nbsp;판매&nbsp;청년지원단&nbsp;운영&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;명품&nbsp;농특산물&nbsp;브랜드&nbsp;육성&nbsp;및&nbsp;글로벌&nbsp;수출&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;품종개량·고급화·차별화&nbsp;브랜드&nbsp;육성&nbsp;및&nbsp;프리미엄&nbsp;품질인증체계&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해외수출&nbsp;유통·물류체계&nbsp;구축&nbsp;및&nbsp;개척단&nbsp;운영&nbsp;추진,&nbsp;국제식품박람회&nbsp;참가&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;공공형&nbsp;농촌일손&nbsp;지원단&nbsp;운영&nbsp;및&nbsp;농기계&nbsp;공동이용&nbsp;체계&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농번기&nbsp;농촌일손&nbsp;지원단&nbsp;운영,&nbsp;외국인&nbsp;계절&nbsp;근로자&nbsp;숙소&nbsp;운영&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소형&nbsp;농기계&nbsp;대여&nbsp;마을관리소&nbsp;확대,&nbsp;중대형&nbsp;농기계&nbsp;공동이용센터&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;농작물&nbsp;재해보험&nbsp;자부담&nbsp;지원&nbsp;확대&nbsp;및&nbsp;재해예방시설&nbsp;설치비&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;우수&nbsp;종자&nbsp;개발·보급&nbsp;및&nbsp;지역특화&nbsp;품종&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기후·토양&nbsp;특성&nbsp;적합&nbsp;지역&nbsp;맞춤형&nbsp;고품질&nbsp;품종&nbsp;개발&nbsp;및&nbsp;보급&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;특화&nbsp;품종&nbsp;생산농가&nbsp;지원,&nbsp;쪽파&nbsp;등&nbsp;근교농업특화단지&nbsp;육성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;과수·원예·임산물·특화작물단지&nbsp;육성&nbsp;및&nbsp;공동&nbsp;가공·유통&nbsp;센터&nbsp;조성&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;농산물&nbsp;가격안정&nbsp;및&nbsp;수급조절&nbsp;통합관리&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;계약재배&nbsp;지원&nbsp;확대,&nbsp;공공수매&nbsp;확대,&nbsp;가격안정기금조성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;어르신-청년&nbsp;농가&nbsp;협업&nbsp;및&nbsp;세대상생&nbsp;농업체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농지·경험·기술과&nbsp;노동력·스마트·온라인&nbsp;역량&nbsp;연계&nbsp;세대협력&nbsp;영농모델&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신-청년&nbsp;농가&nbsp;공동영농&nbsp;구성&nbsp;시&nbsp;농기계·시설·공동작업장&nbsp;설치&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;귀농·창업농&nbsp;스마트&nbsp;영농&nbsp;실습단지&nbsp;조성&nbsp;및&nbsp;영농캠프&nbsp;운영&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;공공·기업연계형&nbsp;장애인&nbsp;전용&nbsp;스마트팜·자립농장&nbsp;운영&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;농업&nbsp;인프라&nbsp;확충&nbsp;및&nbsp;스마트&nbsp;축산환경&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상습&nbsp;침수농경지&nbsp;배수로&nbsp;정비,&nbsp;하천·세천·농경지·마을&nbsp;통합배수체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;드론&nbsp;공동방제&nbsp;시스템&nbsp;구축,&nbsp;농민&nbsp;쉼터&nbsp;및&nbsp;이동형&nbsp;간이&nbsp;화장실&nbsp;설치&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;축사&nbsp;ICT&nbsp;현대화&nbsp;및&nbsp;밀폐형&nbsp;스마트&nbsp;축사&nbsp;설치&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트&nbsp;축산가공&nbsp;특화단지&nbsp;및&nbsp;한우테마타운&nbsp;조성&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;낙농가&nbsp;유가공&nbsp;시설&nbsp;지원&nbsp;확대&nbsp;및&nbsp;수제치즈·요거트&nbsp;등&nbsp;로컬&nbsp;유제품&nbsp;육성&nbsp;<br>&nbsp;&nbsp;○&nbsp;태양광&nbsp;햇빛소득마을&nbsp;및&nbsp;바이오가스&nbsp;에너지&nbsp;자립마을&nbsp;조성&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;이행,&nbsp;최우선,&nbsp;단기·중장기&nbsp;과제&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·군비&nbsp;확보&nbsp;및&nbsp;민간개발&nbsp;투자&nbsp;유치,&nbsp;필요시&nbsp;조례&nbsp;제개정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	생애주기 맞춤지원으로 촘촘 복지 구현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="생애주기 맞춤지원으로 촘촘 복지 구현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;아이부터&nbsp;어르신까지&nbsp;평생복지&nbsp;실현으로&nbsp;군민&nbsp;삶의&nbsp;질&nbsp;향상<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;임신·출산&nbsp;장려&nbsp;및&nbsp;영유아&nbsp;양육&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임신축하금·출산장려금·산후조리비·영유아양육비&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공&nbsp;산후조리원&nbsp;건립&nbsp;추진,&nbsp;장난감·육아용품&nbsp;공유센터&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;국공립&nbsp;어린이집&nbsp;단계적&nbsp;확충&nbsp;및&nbsp;아이돌봄&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;저소득·다자녀·장애아·한부모&nbsp;가정&nbsp;대상&nbsp;돌봄지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간·주말·방학&nbsp;돌봄&nbsp;서비스&nbsp;확대,&nbsp;긴급·시간제&nbsp;아이돌봄&nbsp;서비스&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;급식품질&nbsp;향상&nbsp;및&nbsp;지역&nbsp;친환경&nbsp;식재료&nbsp;공급&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어린이집·유치원&nbsp;차량유지비&nbsp;등&nbsp;운영경비&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;어린이·청소년&nbsp;성장&nbsp;지원&nbsp;및&nbsp;청년&nbsp;자립지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어린이&nbsp;복합&nbsp;도서관&nbsp;건립&nbsp;추진,&nbsp;마을&nbsp;작은&nbsp;도서관&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중고생&nbsp;생활복·체육복&nbsp;지원&nbsp;및&nbsp;해외&nbsp;어학연수&nbsp;프로그램&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어린이·청소년&nbsp;복합문화센터&nbsp;건립&nbsp;추진,&nbsp;예산군&nbsp;출신&nbsp;대학생&nbsp;주거비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경계선&nbsp;지능&nbsp;아동·청소년&nbsp;및&nbsp;고립은둔&nbsp;청년&nbsp;지원체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;청장년&nbsp;재도약&nbsp;평생학습센터&nbsp;운영&nbsp;및&nbsp;지역산업&nbsp;맞춤형&nbsp;재취업&nbsp;인력&nbsp;양성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;행복·안심생활&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활설비&nbsp;무상수리&nbsp;서비스&nbsp;도입,&nbsp;경로당&nbsp;순회&nbsp;돌봄서비스&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군립&nbsp;요양시설&nbsp;설립&nbsp;추진,&nbsp;어르신&nbsp;주·야간&nbsp;돌봄기관&nbsp;본인부담금&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;치매가족&nbsp;돌봄수당&nbsp;지급&nbsp;추진,&nbsp;한방&nbsp;진료비&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;복지시설&nbsp;스마트&nbsp;안전&nbsp;화장실&nbsp;보급&nbsp;추진&nbsp;및&nbsp;청소·식사&nbsp;도우미&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;건강증진&nbsp;및&nbsp;생활체육&nbsp;복지&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방문형&nbsp;체력관리&nbsp;홈트레이닝&nbsp;지원,&nbsp;어르신&nbsp;생활체육&nbsp;동호회&nbsp;활동&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;파크골프장·게이트볼장&nbsp;시설&nbsp;개선·확충,&nbsp;실내&nbsp;파크골프&nbsp;시설&nbsp;지원&nbsp;<br>&nbsp;&nbsp;○&nbsp;여성&nbsp;삶의&nbsp;질&nbsp;향상&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여성특화&nbsp;건강검진·난임검사&nbsp;및&nbsp;치료지원&nbsp;확대,&nbsp;여성&nbsp;1인&nbsp;가구&nbsp;안심홈&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여성&nbsp;문화생활&nbsp;바우처&nbsp;지원,&nbsp;경력단절&nbsp;여성&nbsp;재취업&nbsp;준비수당&nbsp;지원&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;장애인&nbsp;자립생활&nbsp;및&nbsp;복지&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;채용기업&nbsp;고용지원금·주거개조비·보조기기&nbsp;구입비&nbsp;지원&nbsp;확대(정부지원금&nbsp;외)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인&nbsp;국내&nbsp;및&nbsp;해외여행&nbsp;지원,&nbsp;장애인&nbsp;체육관&nbsp;건립&nbsp;및&nbsp;종합복지관&nbsp;이전&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;다문화가족&nbsp;맞춤형&nbsp;정착지원&nbsp;및&nbsp;예산군가족센터&nbsp;기능&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;응급·필수&nbsp;의료&nbsp;기반&nbsp;확충&nbsp;및&nbsp;지역의료&nbsp;서비스&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산부인과&nbsp;진료&nbsp;확보&nbsp;추진,&nbsp;소아&nbsp;야간·휴일&nbsp;진료체계&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;응급의료&nbsp;핫라인&nbsp;이송체계&nbsp;구축&nbsp;추진,&nbsp;재활의료&nbsp;서비스&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;방범&nbsp;사각지대&nbsp;해소&nbsp;및&nbsp;스마트&nbsp;생활안전망&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;CCTV·LED&nbsp;가로등&nbsp;설치&nbsp;확대,&nbsp;안심&nbsp;귀갓길&nbsp;구역지정&nbsp;집중관리&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;무한천·삽교천&nbsp;상습&nbsp;침수지역&nbsp;범람&nbsp;제로화&nbsp;수해관리체계&nbsp;구축&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;역류방지&nbsp;스마트&nbsp;수문&nbsp;시스템&nbsp;도입&nbsp;추진,&nbsp;배수펌프장·저류시설&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;퇴적토&nbsp;준설·하폭&nbsp;확장&nbsp;추진,&nbsp;하수관로&nbsp;용량&nbsp;확대&nbsp;추진,&nbsp;하천&nbsp;병목구간&nbsp;정비&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;수해·화재·산불·가뭄&nbsp;등&nbsp;재난유형별&nbsp;예측·대응&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;예측·위험도&nbsp;분석&nbsp;시스템&nbsp;구축&nbsp;및&nbsp;24시간&nbsp;대응체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;읍면별·재난유형별&nbsp;스마트&nbsp;재난지도&nbsp;및&nbsp;AI&nbsp;기반&nbsp;대피경로&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;가뭄·수질사고&nbsp;대비&nbsp;비상&nbsp;원수&nbsp;확보&nbsp;안전망&nbsp;구축&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;이행,&nbsp;최우선,&nbsp;단기·중장기&nbsp;과제&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·군비&nbsp;확보&nbsp;및&nbsp;민간개발&nbsp;투자&nbsp;유치,&nbsp;필요시&nbsp;조례&nbsp;제개정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	누구나 살고 싶은 명품 정주환경 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="누구나 살고 싶은 명품 정주환경 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;주택&nbsp;5,000호&nbsp;공급과&nbsp;정주인구&nbsp;확대로&nbsp;활력있는&nbsp;예산&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;삶에&nbsp;힘이&nbsp;되는&nbsp;생활지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예산군&nbsp;내&nbsp;버스비&nbsp;무료&nbsp;단계적&nbsp;추진,&nbsp;농촌&nbsp;기본소득&nbsp;월&nbsp;15만원&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신혼부부&nbsp;생활수당&nbsp;월&nbsp;20만원&nbsp;지급&nbsp;및&nbsp;전입&nbsp;청년&nbsp;정착금&nbsp;월&nbsp;20만원&nbsp;지급&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신봉양가정·장애인가정·다문화가정&nbsp;생활비&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;수도권&nbsp;전철&nbsp;1호선&nbsp;예산역·삽교역&nbsp;연결&nbsp;추진,&nbsp;버스종합&nbsp;터미널&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;교통&nbsp;사각지대&nbsp;없는&nbsp;교통편의&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을&nbsp;콜버스&nbsp;무상&nbsp;추진,&nbsp;수소·전기버스&nbsp;단계적&nbsp;도입,&nbsp;전기차&nbsp;구매&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행복택시·섬김택시&nbsp;운영&nbsp;확대,&nbsp;역·시장·관광지·산업단지&nbsp;등&nbsp;DRT&nbsp;버스&nbsp;운영&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;행복주택(공공임대주택)&nbsp;공급&nbsp;확대&nbsp;및&nbsp;공동주택(아파트&nbsp;등)&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행복주택&nbsp;거주대상&nbsp;확대&nbsp;및&nbsp;최소&nbsp;4년&nbsp;주거&nbsp;보장,&nbsp;빈집&nbsp;리모델링&nbsp;공급&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후주택&nbsp;개선&nbsp;지원확대,&nbsp;공동주택관리지원센터&nbsp;운영,&nbsp;공동주택&nbsp;안전예산&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년농·귀농·창업농&nbsp;정착마을&nbsp;조성&nbsp;추진&nbsp;및&nbsp;정주환경&nbsp;개선&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예당호·삽교천&nbsp;등&nbsp;수변활용&nbsp;청년·신혼부부&nbsp;맞춤형&nbsp;주거단지&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;도시가스·광역&nbsp;상수도&nbsp;보급&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;외곽지역&nbsp;대안(LPG&nbsp;저장탱크&nbsp;등)&nbsp;공급&nbsp;병행&nbsp;추진,&nbsp;취약계층&nbsp;설치&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;마을&nbsp;중심&nbsp;생활거점&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄·의료·복지·행정·이동&nbsp;서비스&nbsp;통합&nbsp;생활서비스센터&nbsp;운영&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을&nbsp;주민&nbsp;근린생활거점&nbsp;및&nbsp;어르신&nbsp;공동생활홈&nbsp;조성&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;예산역세권&nbsp;원도심&nbsp;생활·상권&nbsp;거점&nbsp;재편&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후&nbsp;상가·주택&nbsp;단계별&nbsp;정비(리모델링·소규모&nbsp;재건축&nbsp;등)&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;역사-예산시장-골목&nbsp;보행&nbsp;중심&nbsp;상권&nbsp;구축(보행로&nbsp;확장,&nbsp;쉼터&nbsp;조성&nbsp;등)&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;삽교역세권&nbsp;산업·주거&nbsp;복합&nbsp;거점&nbsp;개발&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삽교역&nbsp;KTX&nbsp;정차&nbsp;추진,&nbsp;생활&nbsp;인프라&nbsp;확충&nbsp;및&nbsp;정주여건&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;예산시장&nbsp;‘프리미엄&nbsp;문화·관광&nbsp;복합시장’&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야시장&nbsp;명소화&nbsp;추진,&nbsp;점포&nbsp;리모델링&nbsp;및&nbsp;간판·경관&nbsp;개선&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전기·소방·배수&nbsp;등&nbsp;안전·위생시설&nbsp;개선&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공영주차장·공동물류창고&nbsp;확충,&nbsp;스마트&nbsp;행정지원센터&nbsp;운영&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;원도심&nbsp;활력을&nbsp;위한&nbsp;골목상권&nbsp;특화거리&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원도심&nbsp;골목&nbsp;카페·공방·음식점&nbsp;중심&nbsp;미식·판매·체험·문화&nbsp;특화거리&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원도심&nbsp;유휴&nbsp;점포·빈&nbsp;건물&nbsp;활용&nbsp;체류형&nbsp;소형&nbsp;숙박시설&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;금융지원&nbsp;강화,&nbsp;청년·문화예술인&nbsp;점포·공간&nbsp;임대료&nbsp;등&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;국민체육센터&nbsp;건립&nbsp;확대&nbsp;및&nbsp;마을&nbsp;소규모&nbsp;생활체육공간&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;은퇴자&nbsp;정착지원센터&nbsp;운영&nbsp;및&nbsp;은퇴자&nbsp;상생형&nbsp;마을&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;군민과&nbsp;함께하는&nbsp;참여형&nbsp;행정&nbsp;혁신&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예산군&nbsp;시설관리공단&nbsp;설립&nbsp;추진,&nbsp;정책&nbsp;거버넌스·평생학습지원&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민참여형&nbsp;주민위원회&nbsp;구성,&nbsp;생활밀착형&nbsp;조례&nbsp;정비&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인구전략전담부서&nbsp;신설,&nbsp;AI&nbsp;민원서비스&nbsp;도입&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노인회·부녀회·새마을회&nbsp;등&nbsp;주민자치·사회단체&nbsp;지도자&nbsp;처우&nbsp;및&nbsp;예우&nbsp;강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;이행,&nbsp;최우선,&nbsp;단기·중장기&nbsp;과제&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·군비&nbsp;확보&nbsp;및&nbsp;민간개발&nbsp;투자&nbsp;유치,&nbsp;필요시&nbsp;조례&nbsp;제개정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	사계절 찾아오는 글로벌 관광 인프라 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="사계절 찾아오는 글로벌 관광 인프라 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;관광객&nbsp;1,000만&nbsp;시대로&nbsp;관광경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;사계절&nbsp;관광이&nbsp;되는&nbsp;체류관광&nbsp;플랫폼&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;봄·여름·가을·겨울&nbsp;대표&nbsp;축제&nbsp;라인업&nbsp;구축,&nbsp;읍면별&nbsp;대표&nbsp;테마형&nbsp;축제&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광지&nbsp;체류형&nbsp;숙박시설&nbsp;단계적&nbsp;확대&nbsp;추진,&nbsp;관광지&nbsp;순환버스&nbsp;운영&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;삼국&nbsp;테마랜드&nbsp;조성&nbsp;및&nbsp;사계절&nbsp;관광명소화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국수체험관·밀밭단지·국화동산·국화재배지&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예산천&nbsp;수변&nbsp;문화공간&nbsp;조성&nbsp;추진,&nbsp;경관형&nbsp;꽃테마&nbsp;거리·공원&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;예당호·덕산온천&nbsp;복합관광&nbsp;클러스터&nbsp;및&nbsp;관광특구&nbsp;지정&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;호텔·리조트&nbsp;유치&nbsp;및&nbsp;MICE(회의·포상관광·컨벤션·전시·이벤트)&nbsp;산업&nbsp;육성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대형&nbsp;파크골프장&nbsp;확대&nbsp;조성&nbsp;추진&nbsp;및&nbsp;전국대회&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;드론&nbsp;라이트쇼&nbsp;운영&nbsp;추진,&nbsp;문화·레저·항공&nbsp;복합&nbsp;체험관&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수상레저&nbsp;체험존&nbsp;조성&nbsp;및&nbsp;수상레포츠&nbsp;캠프&nbsp;운영&nbsp;추진,&nbsp;봉수산&nbsp;전망대&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;덕산온천&nbsp;힐링테마순환길·성지순례관광거점&nbsp;조성&nbsp;및&nbsp;온천테라피센터&nbsp;운영&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;윤봉길&nbsp;의사·추사&nbsp;김정희&nbsp;글로벌&nbsp;문화&nbsp;브랜드&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;윤봉길&nbsp;국제청년·평화축제&nbsp;추진,&nbsp;추사&nbsp;국제문화예술축제&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영화·드라마·뮤지컬&nbsp;등&nbsp;문화콘텐츠&nbsp;제작&nbsp;지원&nbsp;및&nbsp;촬영지&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;예산&nbsp;역사·인물·전통문화&nbsp;자원&nbsp;발굴&nbsp;및&nbsp;관광&nbsp;콘텐츠&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의좋은&nbsp;형제&nbsp;전국&nbsp;나눔·공동체&nbsp;축제&nbsp;추진,&nbsp;덕산시장&nbsp;전국&nbsp;보부상&nbsp;문화축제&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임존성·대흥현사직단·강민첨장군·최익현·남연군&nbsp;등&nbsp;역사문화공원&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;문화예술&nbsp;창작촌&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유휴점포&nbsp;활용&nbsp;청년&nbsp;카페·공방·음식점·스튜디오·전시&nbsp;등&nbsp;공간&nbsp;전환&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년창업&nbsp;공공임대점포&nbsp;공급&nbsp;및&nbsp;청년&nbsp;문화예술&nbsp;복합&nbsp;커뮤니티센터&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;산림·하천&nbsp;연계&nbsp;생태관광벨트&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국립산림치유원&nbsp;유치,&nbsp;생활환경숲·트리하우스&nbsp;조성&nbsp;및&nbsp;산림치유캠프&nbsp;운영&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;숲길·둘레길·자전거길&nbsp;통합&nbsp;생태네트워크&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수변친화공원·가족생태공원·어린이&nbsp;수경공원&nbsp;조성&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;황새공원·생태농업·체류관광&nbsp;연계&nbsp;복합단지&nbsp;조성&nbsp;및&nbsp;생태체험캠프&nbsp;운영&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;장애인&nbsp;친화&nbsp;관광&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광지&nbsp;순환&nbsp;장애인&nbsp;전용차량&nbsp;운영&nbsp;지원&nbsp;및&nbsp;무장애&nbsp;관광&nbsp;편의시설&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;관광지&nbsp;휠체어&nbsp;동선&nbsp;확보&nbsp;추진,&nbsp;장애인&nbsp;관광도우미&nbsp;운영&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;반려동물&nbsp;동반&nbsp;관광환경&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예당호&nbsp;펫파크·덕산온천&nbsp;펫스파·전통시장&nbsp;펫보호&nbsp;시설&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반려동물&nbsp;동반&nbsp;숙박시설(펫호텔·펜션)·식당·카페&nbsp;확충&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예산군&nbsp;반려동물&nbsp;보호센터&nbsp;건립&nbsp;추진,&nbsp;반려동물&nbsp;중성화&nbsp;수술&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;체류형&nbsp;관광을&nbsp;위한&nbsp;지역순환&nbsp;관광경제&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;빈집&nbsp;활용&nbsp;숙소·공방·갤러리&nbsp;등&nbsp;전환&nbsp;시&nbsp;시설개선비&nbsp;지원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;템플스테이·체험캠프&nbsp;등&nbsp;웰니스&nbsp;관광&nbsp;패키지&nbsp;개발&nbsp;지원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농촌체험&nbsp;워케이션&nbsp;마을·세컨하우스&nbsp;마을&nbsp;운영&nbsp;지원&nbsp;및&nbsp;농촌체험캠프&nbsp;운영&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;이행,&nbsp;최우선,&nbsp;단기·중장기&nbsp;과제&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·군비&nbsp;확보&nbsp;및&nbsp;민간개발&nbsp;투자&nbsp;유치,&nbsp;필요시&nbsp;조례&nbsp;제개정</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

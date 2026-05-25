@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;황정재 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	서구 문화센터 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="서구 문화센터 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            부산광역시&nbsp;서구는&nbsp;원도심&nbsp;특성상&nbsp;문화·예술·생활체육&nbsp;인프라가&nbsp;상대적으로&nbsp;부족하여&nbsp;주민들의&nbsp;문화&nbsp;향유&nbsp;기회&nbsp;확대&nbsp;요구가&nbsp;지속적으로&nbsp;제기되어&nbsp;왔습니다.&nbsp;이에&nbsp;따라&nbsp;‘서구문화센터&nbsp;건립’은&nbsp;단순한&nbsp;건물&nbsp;신축이&nbsp;아닌,&nbsp;주민&nbsp;삶의&nbsp;질&nbsp;향상과&nbsp;지역&nbsp;공동체&nbsp;활성화를&nbsp;위한&nbsp;핵심&nbsp;정책으로&nbsp;추진하고자&nbsp;합니다.<br><br>□&nbsp;목&nbsp;표&nbsp;<br>서구문화센터는&nbsp;문화·예술·교육·복지&nbsp;기능이&nbsp;결합된&nbsp;복합문화공간으로&nbsp;조성하여,&nbsp;모든&nbsp;세대가&nbsp;함께&nbsp;이용할&nbsp;수&nbsp;있는&nbsp;주민&nbsp;중심&nbsp;문화플랫폼&nbsp;구축을&nbsp;목표로&nbsp;하고&nbsp;있습니다.<br>□&nbsp;이행방법&nbsp;<br>첫째,&nbsp;주민&nbsp;접근성이&nbsp;뛰어난&nbsp;부지를&nbsp;우선&nbsp;검토하여&nbsp;문화센터&nbsp;건립&nbsp;후보지를&nbsp;선정하겠습니다.&nbsp;둘째,&nbsp;주민설명회와&nbsp;전문가&nbsp;자문을&nbsp;병행하여&nbsp;서구&nbsp;주민들이&nbsp;실제로&nbsp;필요로&nbsp;하는&nbsp;공간과&nbsp;프로그램을&nbsp;설계&nbsp;단계부터&nbsp;반영하겠습니다.&nbsp;셋째,&nbsp;단순&nbsp;행정시설이&nbsp;아닌&nbsp;공연장·문화강좌실·북카페·청년창업&nbsp;및&nbsp;커뮤니티&nbsp;공간&nbsp;등을&nbsp;포함한&nbsp;복합문화시설&nbsp;형태로&nbsp;추진하겠습니다.&nbsp;넷째,&nbsp;부산시&nbsp;및&nbsp;중앙정부&nbsp;공모사업과&nbsp;연계하여&nbsp;문화체육관광부&nbsp;생활&nbsp;SOC&nbsp;사업,&nbsp;도시재생사업&nbsp;등과&nbsp;적극적으로&nbsp;연계&nbsp;추진하겠습니다.<br>□&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;문화센터&nbsp;건립은&nbsp;단계적으로&nbsp;추진할&nbsp;계획입니다.<br>&nbsp;*&nbsp;1단계(2026년)&nbsp;:&nbsp;부지&nbsp;검토&nbsp;및&nbsp;타당성&nbsp;조사,&nbsp;기본계획&nbsp;수립<br>&nbsp;*&nbsp;2단계(2027년)&nbsp;:&nbsp;예산&nbsp;확보&nbsp;및&nbsp;실시설계,&nbsp;행정절차&nbsp;완료<br>&nbsp;*&nbsp;3단계(2028~2029년)&nbsp;:&nbsp;착공&nbsp;및&nbsp;준공<br>&nbsp;*&nbsp;4단계(준공&nbsp;이후)&nbsp;:&nbsp;주민&nbsp;맞춤형&nbsp;문화프로그램&nbsp;본격&nbsp;운영<br>□&nbsp;재원조달방안&nbsp;등&nbsp;<br>&nbsp;&nbsp;재원은&nbsp;구비만으로&nbsp;추진하지&nbsp;않고&nbsp;국비·시비·구비&nbsp;포함한&nbsp;다각적&nbsp;방식으로&nbsp;확보할&nbsp;계획입니다.&nbsp;<br>&nbsp;&nbsp;우선&nbsp;문화체육관광부&nbsp;생활SOC&nbsp;복합화&nbsp;사업&nbsp;및&nbsp;도시재생&nbsp;관련&nbsp;국비&nbsp;공모사업에&nbsp;적극&nbsp;참여하여&nbsp;국비를&nbsp;확보하고,&nbsp;부산광역시&nbsp;특별조정교부금과&nbsp;시비&nbsp;지원을&nbsp;병행&nbsp;추진하겠습니다.&nbsp;<br>&nbsp;&nbsp;또한&nbsp;공공기관&nbsp;및&nbsp;민간기업&nbsp;협력&nbsp;모델도&nbsp;검토하여&nbsp;재정&nbsp;부담을&nbsp;최소화하고,&nbsp;장기적으로는&nbsp;문화센터&nbsp;운영&nbsp;수익과&nbsp;지역경제&nbsp;활성화&nbsp;효과를&nbsp;통해&nbsp;지속가능한&nbsp;운영체계를&nbsp;구축하겠습니다.&nbsp;<br>&nbsp;&nbsp;무엇보다&nbsp;주민들이&nbsp;“멀리&nbsp;가지&nbsp;않아도&nbsp;우리&nbsp;동네에서&nbsp;문화를&nbsp;누릴&nbsp;수&nbsp;있는&nbsp;서구”를&nbsp;만드는&nbsp;것이&nbsp;가장&nbsp;큰&nbsp;목표입니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	공동어시장 연계 수산가공 인프라 고도화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="공동어시장 연계 수산가공 인프라 고도화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            부산광역시&nbsp;서구는&nbsp;전국&nbsp;최대&nbsp;규모의&nbsp;수산물&nbsp;집산지인&nbsp;공동어시장을&nbsp;보유하고&nbsp;있음에&nbsp;도&nbsp;불구하고,&nbsp;원물&nbsp;유통&nbsp;중심&nbsp;구조에&nbsp;머물러&nbsp;있어&nbsp;고부가가치&nbsp;산업으로의&nbsp;전환이&nbsp;필요한&nbsp;시점입니다.&nbsp;이에&nbsp;따라&nbsp;‘공동어시장&nbsp;연계&nbsp;수산가공&nbsp;인프라&nbsp;고도화’는&nbsp;단순&nbsp;유통을&nbsp;넘어&nbsp;생산·가공·유통·관광이&nbsp;결합된&nbsp;미래형&nbsp;수산산업&nbsp;생태계를&nbsp;구축하기&nbsp;위한&nbsp;핵심&nbsp;전략사업으로&nbsp;추진하고자&nbsp;합니다.<br>□&nbsp;목&nbsp;표&nbsp;<br>공동어시장과&nbsp;연계한&nbsp;현대적&nbsp;수산가공&nbsp;인프라를&nbsp;구축하여&nbsp;서구를&nbsp;동북아&nbsp;대표&nbsp;수산가공·유통&nbsp;거점으로&nbsp;육성하는&nbsp;것이&nbsp;목표입니다.<br>□&nbsp;이행방법&nbsp;<br>&nbsp;첫째,&nbsp;공동어시장&nbsp;인근&nbsp;노후&nbsp;수산가공시설&nbsp;및&nbsp;물류환경에&nbsp;대한&nbsp;전수조사를&nbsp;실시하고&nbsp;단계적&nbsp;행정지원을&nbsp;추진하겠습니다.&nbsp;둘째,&nbsp;HACCP&nbsp;기반&nbsp;위생·냉동·저장&nbsp;시스템&nbsp;등&nbsp;첨단&nbsp;수산가공&nbsp;설비&nbsp;도입을&nbsp;지원근거를&nbsp;마련하여&nbsp;글로벌&nbsp;경쟁력을&nbsp;갖춘&nbsp;수산식품&nbsp;생산&nbsp;환경을&nbsp;조성하겠습니다.&nbsp;셋째,&nbsp;부산시·수협·민간기업과&nbsp;협력하여&nbsp;공동&nbsp;브랜드&nbsp;개발&nbsp;및&nbsp;온라인·해외&nbsp;판로&nbsp;확대&nbsp;사업을&nbsp;추진하겠습니다.&nbsp;넷째,&nbsp;청년창업&nbsp;및&nbsp;소규모&nbsp;수산가공업체&nbsp;지원센터를&nbsp;조성하여&nbsp;지역&nbsp;일자리&nbsp;창출과&nbsp;산업&nbsp;세대교체&nbsp;기반도&nbsp;함께&nbsp;마련하겠습니다.&nbsp;다섯째,&nbsp;송도·암남동&nbsp;관광자원과&nbsp;연계한&nbsp;수산식품&nbsp;체험·관광&nbsp;콘텐츠를&nbsp;개발하여&nbsp;관광산업과&nbsp;지역상권&nbsp;활성화&nbsp;효과까지&nbsp;확대하겠습니다.<br>□&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;사업은&nbsp;중장기&nbsp;계획에&nbsp;따라&nbsp;단계적으로&nbsp;추진할&nbsp;예정입니다.<br>&nbsp;*&nbsp;1단계(2026년)&nbsp;:&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;현황조사,&nbsp;관계기관&nbsp;협의<br>&nbsp;*&nbsp;2단계(2027년)&nbsp;:&nbsp;국·시비&nbsp;확보&nbsp;및&nbsp;인프라&nbsp;설계·행정절차&nbsp;추진<br>&nbsp;*&nbsp;3단계(2028~2029년)&nbsp;:&nbsp;수산가공시설&nbsp;현대화&nbsp;및&nbsp;스마트&nbsp;물류체계&nbsp;구축<br>&nbsp;*&nbsp;4단계(2030년&nbsp;이후)&nbsp;:&nbsp;브랜드화·관광연계&nbsp;및&nbsp;글로벌&nbsp;판로&nbsp;확대<br>□&nbsp;재원조달방안&nbsp;등&nbsp;<br>재원은&nbsp;국비·시비·민간투자를&nbsp;연계한&nbsp;복합&nbsp;재원&nbsp;방식으로&nbsp;마련할&nbsp;계획입니다.&nbsp;우선&nbsp;해양수산부&nbsp;수산식품산업&nbsp;육성사업,&nbsp;스마트&nbsp;수산가공&nbsp;종합단지&nbsp;사업&nbsp;등&nbsp;정부&nbsp;공모사업을&nbsp;적극&nbsp;활용하여&nbsp;국비를&nbsp;확보하겠습니다.&nbsp;또한&nbsp;부산광역시&nbsp;지원사업과&nbsp;특별교부세&nbsp;확보를&nbsp;병행하고,&nbsp;수협·민간기업과의&nbsp;협력&nbsp;투자&nbsp;모델도&nbsp;적극&nbsp;검토하겠습니다.&nbsp;특히&nbsp;민간&nbsp;참여를&nbsp;확대하여&nbsp;행정&nbsp;재정&nbsp;부담은&nbsp;줄이고,&nbsp;지역&nbsp;수산업계가&nbsp;함께&nbsp;성장할&nbsp;수&nbsp;있는&nbsp;지속&nbsp;가능한&nbsp;산업&nbsp;구조를&nbsp;구축하겠습니다.&nbsp;부산&nbsp;서구가&nbsp;단순한&nbsp;‘수산물&nbsp;집산지’를&nbsp;넘어,&nbsp;대한민국&nbsp;수산가공&nbsp;산업의&nbsp;미래를&nbsp;이끄는&nbsp;중심지로&nbsp;도약할&nbsp;수&nbsp;있도록&nbsp;반드시&nbsp;추진하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	서구보건소 및 부민 노인복지관 복합개발</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="서구보건소 및 부민 노인복지관 복합개발">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            부산광역시&nbsp;서구는&nbsp;고령화&nbsp;비율이&nbsp;높은&nbsp;원도심&nbsp;지역&nbsp;특성상&nbsp;보건·복지&nbsp;수요가&nbsp;지속적으로&nbsp;증가하고&nbsp;있습니다.&nbsp;그러나&nbsp;현재&nbsp;보건소와&nbsp;노인복지시설은&nbsp;공간&nbsp;협소와&nbsp;시설&nbsp;노후화&nbsp;문제로&nbsp;인해&nbsp;주민들이&nbsp;체감할&nbsp;수&nbsp;있는&nbsp;통합&nbsp;복지서비스&nbsp;제공에&nbsp;한계가&nbsp;있는&nbsp;상황입니다.&nbsp;이에&nbsp;따라&nbsp;‘서구&nbsp;보건소&nbsp;및&nbsp;부민&nbsp;노인복지관&nbsp;복합개발’은&nbsp;의료·복지·건강·여가&nbsp;기능을&nbsp;통합한&nbsp;원스톱&nbsp;공공복지&nbsp;플랫폼&nbsp;구축을&nbsp;목표로&nbsp;추진하고자&nbsp;합니다.<br>□&nbsp;목&nbsp;표&nbsp;<br>보건소와&nbsp;부민&nbsp;노인복지관을&nbsp;복합개발하여&nbsp;주민&nbsp;건강관리와&nbsp;어르신&nbsp;복지서비스를&nbsp;동시에&nbsp;강화하는&nbsp;것이&nbsp;핵심&nbsp;목표입니다.<br>□&nbsp;이행방법&nbsp;<br>첫째,&nbsp;기존&nbsp;보건소와&nbsp;부민&nbsp;노인복지관의&nbsp;시설&nbsp;현황&nbsp;및&nbsp;이용&nbsp;수요를&nbsp;종합&nbsp;분석하여&nbsp;주민&nbsp;중심의&nbsp;복합개발&nbsp;기본계획을&nbsp;수립하겠습니다.&nbsp;둘째,&nbsp;보건·복지&nbsp;기능을&nbsp;연계한&nbsp;통합&nbsp;동선&nbsp;설계를&nbsp;통해&nbsp;어르신과&nbsp;주민&nbsp;누구나&nbsp;편리하게&nbsp;이용할&nbsp;수&nbsp;있는&nbsp;스마트&nbsp;복합시설로&nbsp;조성하겠습니다.&nbsp;셋째,&nbsp;건강검진센터·재활프로그램실·치매예방센터·문화강좌실·경로식당·&nbsp;커뮤니티&nbsp;공간&nbsp;등을&nbsp;포함한&nbsp;복합서비스&nbsp;체계를&nbsp;구축하겠습니다.&nbsp;넷째,&nbsp;부산대학교병원&nbsp;등&nbsp;지역&nbsp;의료기관과&nbsp;연계하여&nbsp;예방&nbsp;중심&nbsp;건강관리&nbsp;프로그램과&nbsp;방문건강서비스를&nbsp;강화하겠습니다.&nbsp;다섯째,&nbsp;무장애(Barrier-Free)&nbsp;설계와&nbsp;친환경&nbsp;공공건축&nbsp;기준을&nbsp;적용하여&nbsp;안전하고&nbsp;지속가능한&nbsp;공공복지시설로&nbsp;건립하겠습니다.<br>□&nbsp;이행기간<br>&nbsp;*&nbsp;1단계(2026년)&nbsp;:&nbsp;타당성&nbsp;조사&nbsp;및&nbsp;기본계획&nbsp;수립,&nbsp;주민&nbsp;의견수렴<br>&nbsp;*&nbsp;2단계(2027년)&nbsp;:&nbsp;국·시비&nbsp;확보&nbsp;및&nbsp;설계·행정절차&nbsp;추진<br>&nbsp;*&nbsp;3단계(2028~2029년)&nbsp;:&nbsp;착공&nbsp;및&nbsp;복합시설&nbsp;건립<br>&nbsp;*&nbsp;4단계(2030년&nbsp;이후)&nbsp;:&nbsp;통합&nbsp;건강·복지&nbsp;프로그램&nbsp;본격&nbsp;운영&nbsp;<br>사업&nbsp;추진&nbsp;과정에서&nbsp;주민&nbsp;불편을&nbsp;최소화하고,&nbsp;임기&nbsp;내&nbsp;가시적인&nbsp;사업&nbsp;착공과&nbsp;예산&nbsp;확보&nbsp;성과를&nbsp;반드시&nbsp;이루어내겠습니다.<br>□&nbsp;재원조달방안&nbsp;등&nbsp;<br>재원은&nbsp;국비·시비·구비를&nbsp;연계한&nbsp;공공재원&nbsp;중심으로&nbsp;확보할&nbsp;계획입니다.&nbsp;우선&nbsp;보건복지부&nbsp;공공보건&nbsp;인프라&nbsp;확충사업과&nbsp;노인복지시설&nbsp;지원사업&nbsp;등&nbsp;중앙정부&nbsp;공모사업을&nbsp;적극&nbsp;활용하여&nbsp;국비를&nbsp;확보하겠습니다.&nbsp;또한&nbsp;부산광역시&nbsp;특별조정교부금과&nbsp;시비&nbsp;지원을&nbsp;병행&nbsp;추진하고,&nbsp;공공건축&nbsp;복합화&nbsp;사업&nbsp;등을&nbsp;통해&nbsp;예산&nbsp;효율성을&nbsp;높이겠습니다.&nbsp;아울러&nbsp;공공시설&nbsp;복합화를&nbsp;통해&nbsp;부지&nbsp;활용도를&nbsp;극대화하고&nbsp;유지관리&nbsp;비용을&nbsp;절감하여&nbsp;장기적으로&nbsp;재정&nbsp;부담을&nbsp;최소화하겠습니다.&nbsp;무엇보다&nbsp;서구&nbsp;주민&nbsp;누구나&nbsp;가까운&nbsp;곳에서&nbsp;건강과&nbsp;복지를&nbsp;함께&nbsp;누릴&nbsp;수&nbsp;있는&nbsp;‘사람&nbsp;중심&nbsp;복지도시&nbsp;서구’를&nbsp;만드는&nbsp;데&nbsp;최선을&nbsp;다하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	달빛 어린이 병원 적극추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="달빛 어린이 병원 적극추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            부산광역시&nbsp;서구는&nbsp;야간·휴일&nbsp;시간대&nbsp;소아진료&nbsp;공백&nbsp;문제로&nbsp;인해&nbsp;많은&nbsp;부모님들이&nbsp;응급실을&nbsp;찾거나&nbsp;타&nbsp;지역까지&nbsp;이동해야&nbsp;하는&nbsp;불편을&nbsp;겪고&nbsp;있습니다.&nbsp;특히&nbsp;아이가&nbsp;갑자기&nbsp;아픈&nbsp;상황에서&nbsp;신속한&nbsp;의료서비스를&nbsp;받을&nbsp;수&nbsp;있는&nbsp;환경&nbsp;조성은&nbsp;선택이&nbsp;아닌&nbsp;필수입니다.&nbsp;이에&nbsp;따라&nbsp;‘달빛&nbsp;어린이병원&nbsp;적극&nbsp;추진’은&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;서구,&nbsp;부모가&nbsp;안심할&nbsp;수&nbsp;있는&nbsp;의료도시&nbsp;서구를&nbsp;만들기&nbsp;위한&nbsp;핵심&nbsp;생활밀착형&nbsp;정책으로&nbsp;추진하고자&nbsp;합니다.<br>□&nbsp;목&nbsp;표&nbsp;<br>야간과&nbsp;휴일에도&nbsp;안정적인&nbsp;소아진료가&nbsp;가능한&nbsp;달빛&nbsp;어린이병원을&nbsp;유치·운영하여&nbsp;서구&nbsp;아동&nbsp;의료&nbsp;공백을&nbsp;해소하는&nbsp;것이&nbsp;핵심&nbsp;목표입니다.<br>□&nbsp;이행방법&nbsp;<br>첫째,&nbsp;서구&nbsp;내&nbsp;소아청소년과&nbsp;의료기관&nbsp;현황과&nbsp;야간진료&nbsp;수요를&nbsp;종합&nbsp;분석하여&nbsp;달빛&nbsp;어린이병원&nbsp;지정&nbsp;가능&nbsp;의료기관을&nbsp;적극&nbsp;발굴하겠습니다.&nbsp;둘째,&nbsp;부산시&nbsp;및&nbsp;보건복지부와&nbsp;긴밀히&nbsp;협의하여&nbsp;달빛&nbsp;어린이병원&nbsp;지정&nbsp;절차와&nbsp;운영&nbsp;지원을&nbsp;신속히&nbsp;추진하겠습니다.&nbsp;셋째,&nbsp;참여&nbsp;의료기관에&nbsp;대한&nbsp;행정·재정&nbsp;지원과&nbsp;홍보를&nbsp;강화하여&nbsp;안정적인&nbsp;운영&nbsp;기반을&nbsp;마련하겠습니다.&nbsp;넷째,&nbsp;부산대학교병원&nbsp;등&nbsp;지역&nbsp;상급의료기관과&nbsp;협력체계를&nbsp;구축하여&nbsp;응급환자&nbsp;이송&nbsp;및&nbsp;전문진료&nbsp;연계&nbsp;시스템도&nbsp;함께&nbsp;노력하겠습니다.&nbsp;다섯째,&nbsp;주민들이&nbsp;쉽게&nbsp;이용할&nbsp;수&nbsp;있도록&nbsp;야간진료&nbsp;정보&nbsp;제공&nbsp;시스템과&nbsp;온라인&nbsp;안내체계&nbsp;구축도&nbsp;병행&nbsp;추진&nbsp;하겠습니다.<br>□&nbsp;이행기간<br>&nbsp;*&nbsp;1단계(2026년&nbsp;상반기)&nbsp;:&nbsp;의료수요&nbsp;조사&nbsp;및&nbsp;참여&nbsp;의료기관&nbsp;협의<br>&nbsp;*&nbsp;2단계(2026년&nbsp;하반기)&nbsp;:&nbsp;부산시·보건복지부&nbsp;지정&nbsp;절차&nbsp;추진<br>&nbsp;*&nbsp;3단계(2027년)&nbsp;:&nbsp;종합병원과&nbsp;MOU&nbsp;체결<br>&nbsp;*&nbsp;4단계(이후&nbsp;지속)&nbsp;:&nbsp;운영&nbsp;평가&nbsp;및&nbsp;추가&nbsp;지원&nbsp;확대<br>□&nbsp;재원조달방안&nbsp;등&nbsp;<br>재원은&nbsp;보건복지부와&nbsp;부산광역시&nbsp;지원사업을&nbsp;적극&nbsp;활용하여&nbsp;마련할&nbsp;계획입니다.&nbsp;우선&nbsp;중앙정부&nbsp;달빛&nbsp;어린이병원&nbsp;지원사업을&nbsp;통해&nbsp;국비를&nbsp;확보하고,&nbsp;부산광역시&nbsp;의료지원&nbsp;예산과&nbsp;연계하여&nbsp;운영비&nbsp;지원을&nbsp;추진하겠습니다.&nbsp;또한&nbsp;서구&nbsp;차원의&nbsp;행정지원과&nbsp;일부&nbsp;운영&nbsp;지원을&nbsp;병행하여&nbsp;참여&nbsp;의료기관의&nbsp;부담을&nbsp;최소화하겠습니다.&nbsp;무엇보다&nbsp;과도한&nbsp;신규&nbsp;시설&nbsp;건립보다&nbsp;기존&nbsp;의료&nbsp;인프라를&nbsp;효율적으로&nbsp;활용하는&nbsp;방식으로&nbsp;추진하여&nbsp;예산&nbsp;효율&nbsp;성과&nbsp;실효성을&nbsp;동시에&nbsp;확보하겠습니다.&nbsp;아이&nbsp;아플&nbsp;때&nbsp;부모가&nbsp;가장&nbsp;먼저&nbsp;떠올릴&nbsp;수&nbsp;있는&nbsp;안심&nbsp;의료체계를&nbsp;만드는&nbsp;것,&nbsp;그것이&nbsp;바로&nbsp;달빛&nbsp;어린이병원&nbsp;추진의&nbsp;가장&nbsp;중요한&nbsp;이유입니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	천마산 복합전망대 및 관광 모노레일 조성사업 전면 재검토</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="천마산 복합전망대 및 관광 모노레일 조성사업 전면 재검토">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            천마산&nbsp;복합전망대&nbsp;및&nbsp;관광&nbsp;모노레일&nbsp;조성사업은&nbsp;서구&nbsp;관광&nbsp;활성화를&nbsp;위한&nbsp;취지로&nbsp;추진되어&nbsp;왔지만,&nbsp;사업성·재정&nbsp;부담·환경&nbsp;훼손&nbsp;우려와&nbsp;주민&nbsp;공감대&nbsp;부족&nbsp;등&nbsp;여러&nbsp;문제점에&nbsp;대한&nbsp;지적도&nbsp;지속적으로&nbsp;제기되어&nbsp;왔습니다.&nbsp;따라서&nbsp;저는&nbsp;단순한&nbsp;찬반&nbsp;접근이&nbsp;아니라,&nbsp;주민과&nbsp;서구의&nbsp;미래&nbsp;관점에서&nbsp;사업&nbsp;전반을&nbsp;객관적이고&nbsp;면밀하게&nbsp;재검토하는&nbsp;것이&nbsp;반드시&nbsp;필요하다고&nbsp;판단하고&nbsp;있습니다.<br>□&nbsp;목&nbsp;표&nbsp;<br>천마산&nbsp;복합전망대&nbsp;및&nbsp;관광&nbsp;모노레일&nbsp;사업의&nbsp;경제성·공공성·환경성·지속가능성을&nbsp;전면&nbsp;재검토하여,&nbsp;서구&nbsp;주민에게&nbsp;실질적으로&nbsp;도움이&nbsp;되는&nbsp;방향으로&nbsp;사업을&nbsp;재설계하는&nbsp;것이&nbsp;핵심&nbsp;목표입니다.<br>□&nbsp;이행방법&nbsp;<br>첫째,&nbsp;기존&nbsp;사업계획과&nbsp;예산&nbsp;구조,&nbsp;경제성&nbsp;분석&nbsp;자료&nbsp;등을&nbsp;전면&nbsp;재검증하겠습니다.&nbsp;둘째,&nbsp;외부&nbsp;전문기관을&nbsp;통한&nbsp;객관적&nbsp;타당성&nbsp;검토와&nbsp;함께&nbsp;주민설명회·공청회&nbsp;등을&nbsp;개최하여&nbsp;주민&nbsp;의견을&nbsp;충분히&nbsp;수렴하겠습니다.&nbsp;셋째,&nbsp;관광객&nbsp;수요&nbsp;전망과&nbsp;유지관리&nbsp;비용,&nbsp;향후&nbsp;운영&nbsp;적자&nbsp;가능성까지&nbsp;종합적으로&nbsp;분석하여&nbsp;현실적인&nbsp;사업&nbsp;추진&nbsp;여부를&nbsp;판단하겠습니다.&nbsp;넷째,&nbsp;환경&nbsp;훼손&nbsp;우려와&nbsp;안전&nbsp;문제에&nbsp;대한&nbsp;검토를&nbsp;강화하고,&nbsp;필요&nbsp;시&nbsp;친환경·소규모&nbsp;관광&nbsp;인프라&nbsp;중심으로&nbsp;대안을&nbsp;마련하겠습니다.&nbsp;다섯째,&nbsp;송도해수욕장·감천문화마을·암남공원&nbsp;등&nbsp;기존&nbsp;관광자원과&nbsp;연계&nbsp;가능한&nbsp;실효성&nbsp;높은&nbsp;관광정책으로&nbsp;방향을&nbsp;재정립하겠습니다.<br>□&nbsp;이행기간<br>&nbsp;*&nbsp;1단계(2026년&nbsp;상반기)&nbsp;:&nbsp;기존&nbsp;사업자료&nbsp;및&nbsp;예산&nbsp;구조&nbsp;전면&nbsp;분석<br>&nbsp;*&nbsp;2단계(2026년&nbsp;하반기)&nbsp;:&nbsp;전문기관&nbsp;타당성&nbsp;검토&nbsp;및&nbsp;주민&nbsp;의견수렴<br>&nbsp;*&nbsp;3단계(2027년)&nbsp;:&nbsp;사업&nbsp;지속·축소·대안사업&nbsp;여부&nbsp;최종&nbsp;결정<br>&nbsp;*&nbsp;4단계(이후)&nbsp;:&nbsp;결정&nbsp;결과에&nbsp;따른&nbsp;단계별&nbsp;후속&nbsp;추진<br>□&nbsp;재원조달방안&nbsp;등&nbsp;<br>우선&nbsp;재검토&nbsp;단계에서는&nbsp;불필요한&nbsp;신규&nbsp;예산&nbsp;투입을&nbsp;최소화하고,&nbsp;기존&nbsp;확보&nbsp;예산과&nbsp;행정&nbsp;절차&nbsp;범위&nbsp;내에서&nbsp;객관적&nbsp;검증을&nbsp;우선&nbsp;진행하겠습니다.&nbsp;향후&nbsp;사업&nbsp;추진이&nbsp;필요하다고&nbsp;판단될&nbsp;경우에는&nbsp;국비·시비&nbsp;확보&nbsp;가능성과&nbsp;민간투자&nbsp;적정성,&nbsp;장기&nbsp;운영&nbsp;수익성까지&nbsp;종합&nbsp;검토하여&nbsp;재정&nbsp;건전성을&nbsp;최우선으로&nbsp;고려하겠습니다.&nbsp;특히&nbsp;단순&nbsp;보여주기식&nbsp;대규모&nbsp;개발이&nbsp;아닌,&nbsp;유지관리까지&nbsp;책임질&nbsp;수&nbsp;있는&nbsp;현실적&nbsp;사업&nbsp;구조를&nbsp;만드는&nbsp;데&nbsp;집중하겠습니다.&nbsp;관광정책은&nbsp;‘크게&nbsp;짓는&nbsp;것’이&nbsp;아니라&nbsp;‘오래&nbsp;살아남는&nbsp;것’이&nbsp;중요합니다.&nbsp;주민&nbsp;부담은&nbsp;줄이고&nbsp;서구의&nbsp;경쟁력은&nbsp;높일&nbsp;수&nbsp;있는&nbsp;방향으로&nbsp;냉정하고&nbsp;책임&nbsp;있게&nbsp;판단하겠습니다.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

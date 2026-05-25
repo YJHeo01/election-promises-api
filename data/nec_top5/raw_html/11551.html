@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3">
+	<link rel="manifest" href="/images/favicon/manifest.json;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3">
+    <script src="/js/jquery-1.12.4.min.js;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3"></script>
+    <script src="/js/iscroll.min.js;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3"></script>
+    <script src="/js/jquery.bxslider.min.js;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3"></script>
+    <script src="/js/iscroll.min.js;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3"></script>
+    <script src="/js/jquery/jquery.paging.min.js;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3"></script>
+    <script src="/js/common.js;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3?v=20240222"></script>
+    <script src="/js/scripts.js;jsessionid=05ED1bYqy9zaA4Ta59UN3gat4WbqC7BsqD6PLcIPSCt9w1nTTJEkclw0wUtXh8au.elecapp8_servlet_engine3?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;정원오 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	30분 통근도시 실현으로 '시민에게 쉼표를'</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="30분 통근도시 실현으로 '시민에게 쉼표를'">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;'30분&nbsp;통근도시&nbsp;실현'을&nbsp;위한&nbsp;10분&nbsp;역세권&nbsp;및&nbsp;5분&nbsp;정류소를&nbsp;달성하고,&nbsp;기존&nbsp;철도망을&nbsp;유기적으로&nbsp;결합해&nbsp;대중교통&nbsp;간&nbsp;네트워크&nbsp;효율성을&nbsp;확대하며&nbsp;시민들에게&nbsp;교통비&nbsp;부담을&nbsp;완화하고자&nbsp;함<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;10분&nbsp;역세권&nbsp;달성)&nbsp;'격자형&nbsp;철도망'&nbsp;구축으로&nbsp;멈춰&nbsp;선&nbsp;철도사업을&nbsp;정상화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동부권의&nbsp;'(가칭)동부선'&nbsp;을&nbsp;신설하여&nbsp;교통소외지역의&nbsp;이동권을&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서부선은&nbsp;공사비&nbsp;현실화,&nbsp;강북횡단선은&nbsp;지역균형발전을&nbsp;반영하여&nbsp;재추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서부선과&nbsp;동부선을&nbsp;남북축으로,&nbsp;강북횡단선&nbsp;연결해&nbsp;격자형&nbsp;철도망을&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;5분&nbsp;정류소&nbsp;달성)&nbsp;버스노선&nbsp;전면&nbsp;개편&nbsp;및&nbsp;버스의존지역의&nbsp;서비스&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중복노선&nbsp;개편,&nbsp;지하철-시내버스-마을버스와&nbsp;유기적&nbsp;연결망&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고지대·산악지대는&nbsp;공공버스를&nbsp;투입<br>&nbsp;&nbsp;○&nbsp;교통비&nbsp;부담&nbsp;완화)&nbsp;기후동행카드를&nbsp;K-모두의기후동행카드로&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;K-모두의기후동행카드&nbsp;도입으로&nbsp;대중교통카드&nbsp;이용권역은&nbsp;전국으로&nbsp;확대,&nbsp;이용범위는&nbsp;광역교통&nbsp;(신분당선,&nbsp;광역버스&nbsp;등)&nbsp;까지&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;('26~'35)&nbsp;철도망&nbsp;계획사업은&nbsp;장기사업으로&nbsp;10년&nbsp;이상&nbsp;소요됨&nbsp;<br>&nbsp;&nbsp;○&nbsp;('26~'30)&nbsp;버스서비스&nbsp;및&nbsp;교통카드&nbsp;개선사업은&nbsp;순차적으로&nbsp;추진<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;철도사업은&nbsp;정부지원금&nbsp;확보&nbsp;및&nbsp;민간사업&nbsp;유치&nbsp;등&nbsp;별도&nbsp;논의&nbsp;필요<br>&nbsp;&nbsp;○&nbsp;버스사업은&nbsp;제도&nbsp;및&nbsp;정비개선&nbsp;사항으로&nbsp;효율성을&nbsp;높임</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	서울 공간 대전환 - 5도심·6광역중심 체계로의 전환 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="서울 공간 대전환 - 5도심·6광역중심 체계로의 전환 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>○&nbsp;3도심&nbsp;체계에서&nbsp;5도심&nbsp;·&nbsp;6광역중심&nbsp;체계로&nbsp;전환,&nbsp;서울&nbsp;잠재력&nbsp;2배&nbsp;확장&nbsp;<br>○&nbsp;GTX&nbsp;·&nbsp;광역철도&nbsp;연계로&nbsp;대서울권&nbsp;2,600만&nbsp;동반성장&nbsp;도시공간구조&nbsp;구축<br><br>□&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;○&nbsp;5도심&nbsp;·&nbsp;6광역중심&nbsp;체계&nbsp;확립&nbsp;및&nbsp;대서울&nbsp;성장축&nbsp;구축&nbsp;(경부선&nbsp;지하화&nbsp;선도)<br>&nbsp;&nbsp;○&nbsp;동북권&nbsp;혁신도심&nbsp;(4번째&nbsp;도심):&nbsp;성수&nbsp;·&nbsp;청량리&nbsp;·&nbsp;왕십리&nbsp;·&nbsp;창동&nbsp;·&nbsp;상계&nbsp;신경제&nbsp;첨단산업&nbsp;중심<br>&nbsp;&nbsp;○&nbsp;서북권&nbsp;혁신도심&nbsp;(5번째&nbsp;도심):&nbsp;신촌&nbsp;·&nbsp;홍대~상암·수색~연신내&nbsp;미디어·문화&nbsp;중심<br>&nbsp;&nbsp;○&nbsp;강북&nbsp;대학순환축:&nbsp;강북횡단선&nbsp;재추진,&nbsp;대학&nbsp;개방형&nbsp;순환망&nbsp;구축&nbsp;<br>&nbsp;&nbsp;○&nbsp;착착&nbsp;경제활력존&nbsp;시범운영:&nbsp;화이트&nbsp;조닝,&nbsp;인센티브&nbsp;차등&nbsp;등&nbsp;추진&nbsp;<br><br>□&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;○&nbsp;('26~'27)&nbsp;전문가&nbsp;그룹&nbsp;중심&nbsp;마스터플랜&nbsp;수립·발표,&nbsp;5도심·6광역중심&nbsp;지정<br>&nbsp;&nbsp;○&nbsp;('27~'28)&nbsp;사업체&nbsp;모집&nbsp;등&nbsp;구체적&nbsp;이행&nbsp;프로세스&nbsp;가동,&nbsp;착착&nbsp;경제활력존&nbsp;시범&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;('28~'30)&nbsp;경부선&nbsp;지하화·강북횡단선&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;투자&nbsp;인센티브&nbsp;활용으로&nbsp;시&nbsp;재정&nbsp;부담&nbsp;최소화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;용적률&nbsp;·&nbsp;용도복합&nbsp;인센티브&nbsp;활용,&nbsp;공공기여&nbsp;현물&nbsp;전환으로&nbsp;산업·창업&nbsp;공간&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	도전과 실패가 경력이 되고 자산이 되는 청년창업수도 서울!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="도전과 실패가 경력이 되고 자산이 되는 청년창업수도 서울!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;도전이&nbsp;경력이&nbsp;되는&nbsp;도시,&nbsp;청년&nbsp;스스로&nbsp;일자리를&nbsp;만드는&nbsp;서울&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창업&nbsp;경험을&nbsp;통해&nbsp;산업의&nbsp;질적&nbsp;전환을&nbsp;도모하고&nbsp;청년들의&nbsp;창조적&nbsp;마인드&nbsp;함양<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성공은&nbsp;스케일업으로,&nbsp;실패는&nbsp;재도전의&nbsp;경력으로&nbsp;연결되는&nbsp;선순환&nbsp;체계&nbsp;확립<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;'창업도전캠퍼스'&nbsp;조성&nbsp;및&nbsp;밀착형&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신촌·관악·청량리에&nbsp;창업도전캠퍼스&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학점제&nbsp;AI·창업&nbsp;교육과&nbsp;함께&nbsp;법률·세무·행정&nbsp;자문&nbsp;및&nbsp;전담&nbsp;매니저&nbsp;매칭을&nbsp;통한&nbsp;밀착형&nbsp;지원&nbsp;제공<br><br>&nbsp;&nbsp;○&nbsp;'창업도전수당'&nbsp;및&nbsp;'첫출발지원자금'&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창업도전자&nbsp;대상&nbsp;준비&nbsp;기간의&nbsp;생계&nbsp;유지를&nbsp;위한&nbsp;'창업도전수당&nbsp;(월&nbsp;100만&nbsp;원,&nbsp;12개월)'&nbsp;및&nbsp;사업화&nbsp;위한&nbsp;'첫출발지원자금&nbsp;(평균&nbsp;4,000만&nbsp;원)'&nbsp;지급<br><br>&nbsp;&nbsp;○&nbsp;경험의&nbsp;공공&nbsp;자산화&nbsp;및&nbsp;'청년창업펀드'를&nbsp;통한&nbsp;성장&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;'서울창업경험은행'을&nbsp;통해&nbsp;창업&nbsp;과정의&nbsp;데이터를&nbsp;축적하고,&nbsp;실패&nbsp;시에도&nbsp;'경력보유청년&nbsp;인정서'를&nbsp;발급하여&nbsp;취·창업&nbsp;시&nbsp;인센티브를&nbsp;부여<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;('26)&nbsp;관련&nbsp;조례&nbsp;제·개정&nbsp;등&nbsp;추진&nbsp;근거&nbsp;마련&nbsp;및&nbsp;권역별&nbsp;인프라&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;('27~)&nbsp;공간별&nbsp;순차적&nbsp;개소&nbsp;및&nbsp;운영,&nbsp;매년&nbsp;선발&nbsp;및&nbsp;지원<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;연간&nbsp;약&nbsp;600억&nbsp;원&nbsp;규모의&nbsp;일반회계&nbsp;예산&nbsp;편성&nbsp;(창업수당,&nbsp;사업화&nbsp;자금&nbsp;등)<br>&nbsp;&nbsp;○&nbsp;(펀드&nbsp;운용)&nbsp;시&nbsp;출자금을&nbsp;마중물로&nbsp;하여&nbsp;민간&nbsp;자금을&nbsp;매칭하는&nbsp;1,000억&nbsp;원&nbsp;규모의&nbsp;전용&nbsp;펀드&nbsp;운용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	24시간 공백 없는 아이돌봄 지원체계 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="24시간 공백 없는 아이돌봄 지원체계 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○초등&nbsp;돌봄&nbsp;시설&nbsp;확충&nbsp;및&nbsp;아이돌봄&nbsp;서비스&nbsp;개선을&nbsp;통해&nbsp;맞벌이&nbsp;가구의&nbsp;자녀&nbsp;돌봄&nbsp;공백&nbsp;해소<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;집&nbsp;가까이&nbsp;초등&nbsp;돌봄시설&nbsp;임기&nbsp;중&nbsp;200개소&nbsp;추가&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주거&nbsp;밀집&nbsp;지역&nbsp;중심의&nbsp;'골목형&nbsp;미니&nbsp;키움센터'&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄·학습·체험&nbsp;기능을&nbsp;결합한&nbsp;초등&nbsp;고학년&nbsp;'키움클럽'&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방학&nbsp;기간&nbsp;초등돌봄시설에서&nbsp;맞벌이·한부모가구&nbsp;초등생&nbsp;점심&nbsp;제공<br><br>&nbsp;&nbsp;○&nbsp;아이돌봄&nbsp;비용부담은&nbsp;낮추고&nbsp;대기시간은&nbsp;더&nbsp;짧게<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공&nbsp;아이돌봄&nbsp;기관&nbsp;추가&nbsp;지정&nbsp;및&nbsp;아이돌봄사&nbsp;4천명&nbsp;추가&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연령별&nbsp;지원체계를&nbsp;단순화하고&nbsp;소득기준&nbsp;완화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울형&nbsp;민간&nbsp;아이돌봄&nbsp;및&nbsp;손주돌봄&nbsp;바우처&nbsp;지원을&nbsp;초등&nbsp;3학년까지&nbsp;확대<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;야간·주말·휴일·병원동행&nbsp;긴급&nbsp;돌봄을&nbsp;30분&nbsp;이내&nbsp;연결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광역&nbsp;아이돌봄&nbsp;서비스기관에서&nbsp;아이돌봄사&nbsp;인력풀&nbsp;구축&nbsp;및&nbsp;수급관리<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아동&nbsp;병원동행&nbsp;전담&nbsp;'성동구&nbsp;우리아이&nbsp;안심동행센터'를&nbsp;전&nbsp;자치구로&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄종사자&nbsp;처우를&nbsp;개선하고&nbsp;서울형&nbsp;돌봄인&nbsp;수당&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;('26)&nbsp;아이돌봄서비스&nbsp;개편방안&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;('27~'30)&nbsp;초등&nbsp;돌봄시설&nbsp;및&nbsp;공공·민간&nbsp;아이돌봄&nbsp;서비스&nbsp;지원을&nbsp;단계적으로&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;어린이집·유치원&nbsp;통합을&nbsp;완료하고&nbsp;보육·돌봄&nbsp;재정을&nbsp;효율적으로&nbsp;재편<br>&nbsp;&nbsp;○&nbsp;공공성과&nbsp;안전성이&nbsp;확보된&nbsp;아이돌봄&nbsp;서비스를&nbsp;중심으로&nbsp;단계적&nbsp;확대</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	4050+센터와 시니어라이프캠퍼스로 서울시민 활력회복!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="4050+센터와 시니어라이프캠퍼스로 서울시민 활력회복!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;이중돌봄,&nbsp;심리위기에&nbsp;처한&nbsp;4050세대에&nbsp;대한&nbsp;종합&nbsp;지원체계&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;은퇴&nbsp;이후에도&nbsp;배우고&nbsp;일하며&nbsp;지역과&nbsp;함께하는&nbsp;활기찬&nbsp;노년환경&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;50플러스재단을&nbsp;'4050플러스재단'으로&nbsp;확대개편<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;중장년층&nbsp;일자리&nbsp;소개&nbsp;중심의&nbsp;센터를&nbsp;'4050플러스센터'로&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시&nbsp;인증&nbsp;교육기관&nbsp;자유&nbsp;선택,&nbsp;'징검다리&nbsp;일자리'를&nbsp;연계하여&nbsp;매칭하는&nbsp;원스톱&nbsp;서비스&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;센터&nbsp;내&nbsp;중장년&nbsp;커뮤니티&nbsp;조성하여&nbsp;지역사회&nbsp;내&nbsp;봉사활동,&nbsp;독거어르신&nbsp;안부&nbsp;확인하는&nbsp;이웃연결단,&nbsp;재능기부&nbsp;등&nbsp;사회참여&nbsp;프로젝트&nbsp;활성화&nbsp;지원<br><br>&nbsp;&nbsp;○&nbsp;액티브한&nbsp;노년을&nbsp;위한&nbsp;시니어라이프캠퍼스&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;폐교&nbsp;등&nbsp;유휴&nbsp;공공시설을&nbsp;활용해&nbsp;평생교육·문화·복지&nbsp;기능&nbsp;결합&nbsp;캠퍼스&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학습·일자리&nbsp;선순환형&nbsp;교육과정&nbsp;운영:&nbsp;디지털·금융·인문학&nbsp;등&nbsp;어르신&nbsp;맞춤형&nbsp;학년제&nbsp;교육,&nbsp;재취업·사회참여,&nbsp;맞춤형&nbsp;창업&nbsp;프로그램&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건강·복지·여가&nbsp;기능&nbsp;결합&nbsp;공간:&nbsp;상주형&nbsp;시니어&nbsp;건강관리센터&nbsp;및&nbsp;스마트&nbsp;헬스케어&nbsp;시스템,&nbsp;어르신&nbsp;맞춤형&nbsp;운동·재활&nbsp;시설,&nbsp;균형&nbsp;잡힌&nbsp;식단&nbsp;제공<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;4050플러스재단&nbsp;확대개편:&nbsp;('26)전담&nbsp;정책관&nbsp;지정&nbsp;및&nbsp;센터&nbsp;기능&nbsp;재편&nbsp;계획&nbsp;수립&nbsp;→&nbsp;('27~)&nbsp;경제·심리·사회&nbsp;처방&nbsp;기능&nbsp;순차&nbsp;도입,&nbsp;직업재설계&nbsp;바우처&nbsp;단계적&nbsp;지급<br>&nbsp;&nbsp;○&nbsp;시니어라이프캠퍼스&nbsp;조성:&nbsp;('26~'27)추진계획&nbsp;수립&nbsp;및&nbsp;기본·실시설계&nbsp;→&nbsp;('28~)&nbsp;폐교&nbsp;리모델링&nbsp;및&nbsp;시니어&nbsp;캠퍼스&nbsp;단계적&nbsp;조성&nbsp;→&nbsp;('29~'30)&nbsp;단계적&nbsp;운영<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;50플러스재단&nbsp;운영&nbsp;예산&nbsp;구조&nbsp;유지<br>&nbsp;&nbsp;○&nbsp;교육청과&nbsp;협력하여&nbsp;초·중·고&nbsp;폐교&nbsp;등&nbsp;유휴&nbsp;공공시설을&nbsp;활용함으로써&nbsp;부지&nbsp;매입&nbsp;및&nbsp;건축&nbsp;비용&nbsp;최소화</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

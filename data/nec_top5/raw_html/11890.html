@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;공한수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	의료관광특구 백·천·만 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="의료관광특구 백·천·만 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;대학병원&nbsp;3개소&nbsp;대형종합병원&nbsp;1개소&nbsp;등&nbsp;우수한&nbsp;의료&nbsp;인프라를&nbsp;바탕으로&nbsp;동남권&nbsp;의료R&D클러스터&nbsp;중심도시로&nbsp;도약&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;R&D기업&nbsp;유치,&nbsp;외국인&nbsp;환자유치&nbsp;확충,&nbsp;의료관광&nbsp;프로그램&nbsp;등으로&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;지역경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;의료관광클러스터&nbsp;구축을&nbsp;통한&nbsp;의료기업생태계&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지식산업센터&nbsp;건립&nbsp;및&nbsp;의료관련&nbsp;기업&nbsp;육성&nbsp;사업&nbsp;진행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업들을&nbsp;위한&nbsp;의료관광특구&nbsp;각종&nbsp;실증규제&nbsp;특례&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;의료기업&nbsp;1백개&nbsp;유치&nbsp;및&nbsp;일자리&nbsp;1천개&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;외국인&nbsp;환자&nbsp;등&nbsp;의료·관광객&nbsp;1만명&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;관광·힐링을&nbsp;결합한&nbsp;웰니스&nbsp;관광&nbsp;서비스&nbsp;제공<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.~2030.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2028.&nbsp;의료R&D지식산업센터&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026.~의료기업&nbsp;육성&nbsp;소프트웨어&nbsp;사업&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026.~의료기업&nbsp;유치&nbsp;및&nbsp;산업생태계&nbsp;구축을&nbsp;위한&nbsp;행정&nbsp;지원<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총&nbsp;사업비&nbsp;4,791.89억&nbsp;원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(국비&nbsp;2,148.43억&nbsp;원,&nbsp;시비&nbsp;92.04억&nbsp;원,&nbsp;구비&nbsp;380.94억&nbsp;원,&nbsp;민자&nbsp;2,170.48억&nbsp;원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기반사업&nbsp;조성을&nbsp;위한&nbsp;국시비&nbsp;사업&nbsp;신청<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;투자&nbsp;사업&nbsp;유치&nbsp;및&nbsp;적극적&nbsp;행정지원체계&nbsp;구축</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	해사법원유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="해사법원유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;해사법원&nbsp;유치를&nbsp;통해&nbsp;해운&nbsp;금융&nbsp;보험&nbsp;물류&nbsp;등&nbsp;연관&nbsp;해양산업&nbsp;생태계&nbsp;활성화&nbsp;및&nbsp;일자리&nbsp;창출<br><br>□&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;○&nbsp;해사법원&nbsp;임시&nbsp;청사&nbsp;유치&nbsp;공간&nbsp;및&nbsp;부지&nbsp;마련&nbsp;1,322㎡(400평)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027.&nbsp;임시&nbsp;청사&nbsp;마련&nbsp;확보&nbsp;후&nbsp;리모델링<br>&nbsp;&nbsp;○&nbsp;2028.&nbsp;해사법원&nbsp;개원<br>&nbsp;&nbsp;○&nbsp;2028.&nbsp;~&nbsp;해사법원&nbsp;본&nbsp;청사&nbsp;착공&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;용역&nbsp;및&nbsp;기본계획&nbsp;구비로&nbsp;&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;리모델링&nbsp;및&nbsp;공사&nbsp;관련&nbsp;비용&nbsp;국비&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	서구 문화회관 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="서구 문화회관 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역의&nbsp;정체성을&nbsp;강화하고&nbsp;지역&nbsp;주민들에게&nbsp;고품격&nbsp;문화&nbsp;향유&nbsp;기회를&nbsp;제공하는&nbsp;문화회관&nbsp;건립<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;위치:&nbsp;암남동&nbsp;135-23&nbsp;일원(송도오션파크)<br>&nbsp;&nbsp;○&nbsp;규모:&nbsp;대지면적&nbsp;18,335.3㎡,&nbsp;연면적&nbsp;10,000㎡<br><br>□&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;○&nbsp;사업기간:&nbsp;2027.~2031.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;설계&nbsp;및&nbsp;용역:&nbsp;2026.~<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공사&nbsp;착공:&nbsp;2027.~<br>&nbsp;&nbsp;○&nbsp;대규모&nbsp;공연장,&nbsp;전시장,&nbsp;해양문화&nbsp;체험공간,&nbsp;도서관,&nbsp;어린이&nbsp;놀이공간&nbsp;등&nbsp;복합문화공간&nbsp;조성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;사업비&nbsp;500억&nbsp;원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국시비&nbsp;발굴&nbsp;및&nbsp;구비&nbsp;매칭</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	대신동 생활악취 해결(분류식 하수관로 BTL 사업 추진)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="대신동 생활악취 해결(분류식 하수관로 BTL 사업 추진)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;남항의&nbsp;수질오염과&nbsp;악취의&nbsp;근원&nbsp;차단으로&nbsp;공공수역의&nbsp;환경&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;하수도&nbsp;처리효율&nbsp;개선을&nbsp;통한&nbsp;하수도&nbsp;처리비용&nbsp;감소<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;사업위치:&nbsp;서구&nbsp;동·서대신동&nbsp;일원<br>&nbsp;&nbsp;○&nbsp;사업규모:&nbsp;관로신설&nbsp;L=42.5km,&nbsp;배수설비&nbsp;7,122가구<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;사업기간:&nbsp;’26.&nbsp;~&nbsp;’31.(사전절차&nbsp;2년,&nbsp;공사기간&nbsp;3년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;사업비:&nbsp;952억&nbsp;원(민간투자)<br>&nbsp;&nbsp;○&nbsp;’26.&nbsp;3.&nbsp;사업신청(부산시→환경부)&nbsp;완료&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;’26.&nbsp;12.&nbsp;국회의결<br>&nbsp;&nbsp;○&nbsp;’27.&nbsp;8.&nbsp;~&nbsp;10.&nbsp;대상사업&nbsp;지정&nbsp;및&nbsp;시설사업&nbsp;기본계획&nbsp;고시<br>&nbsp;&nbsp;○&nbsp;’28.&nbsp;5.&nbsp;~&nbsp;’31.&nbsp;5.&nbsp;실시계획&nbsp;승인&nbsp;및&nbsp;공사&nbsp;시행</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	어린이 물놀이터 & 공공키즈카페 조성 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="어린이 물놀이터 & 공공키즈카페 조성 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;서구&nbsp;민방위&nbsp;교육장&nbsp;건축물&nbsp;노후화에&nbsp;따른&nbsp;시설&nbsp;활용도&nbsp;제고<br>&nbsp;&nbsp;○&nbsp;어린이&nbsp;물놀이터&nbsp;및&nbsp;공공키즈카페&nbsp;조성을&nbsp;통해&nbsp;주민들의&nbsp;생활&nbsp;문화시설&nbsp;접근성&nbsp;향상&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;위치:&nbsp;서구&nbsp;민방위&nbsp;교육장&nbsp;부지(서구&nbsp;꽃마을로&nbsp;88,&nbsp;7,537㎡)<br>&nbsp;&nbsp;○&nbsp;어린이&nbsp;물놀이터&nbsp;및&nbsp;공공키즈카페&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;하반기&nbsp;용역계획&nbsp;수립&nbsp;및&nbsp;市&nbsp;소유권&nbsp;이전&nbsp;협의<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;용역&nbsp;및&nbsp;기본계획&nbsp;구비로&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;공사&nbsp;관련&nbsp;비용&nbsp;국·시비&nbsp;확보&nbsp;및&nbsp;구비&nbsp;매칭</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

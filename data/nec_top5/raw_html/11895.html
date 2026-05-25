@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;맹의석 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	출퇴근 30분 혁명: 아산 교통·생활 인프라 대전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="출퇴근 30분 혁명: 아산 교통·생활 인프라 대전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;아산&nbsp;전역&nbsp;주요&nbsp;거점&nbsp;간&nbsp;평균&nbsp;출퇴근&nbsp;시간&nbsp;30분&nbsp;이내&nbsp;달성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;시민&nbsp;체감&nbsp;교통&nbsp;스트레스&nbsp;20%&nbsp;이상&nbsp;감소<br><br>□&nbsp;&nbsp;이행방법<br>○&nbsp;순환형&nbsp;광역버스&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;온양-배방-탕정&nbsp;3축&nbsp;순환&nbsp;노선&nbsp;신설&nbsp;(양방향)<br>&nbsp;&nbsp;&nbsp;&nbsp;출퇴근&nbsp;시간대&nbsp;10분&nbsp;간격&nbsp;/&nbsp;평시&nbsp;20분&nbsp;간격&nbsp;운행<br>&nbsp;&nbsp;&nbsp;&nbsp;천안·평택&nbsp;산업단지&nbsp;연결&nbsp;직행&nbsp;노선&nbsp;3개&nbsp;이상&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;주요&nbsp;정류장&nbsp;환승&nbsp;허브화&nbsp;(주차장&nbsp;+&nbsp;자전거&nbsp;연계)<br>○&nbsp;AI&nbsp;기반&nbsp;지능형&nbsp;교통체계&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;주요&nbsp;교차로&nbsp;AI&nbsp;신호제어&nbsp;시스템&nbsp;단계적&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;(1단계&nbsp;20개소&nbsp;→&nbsp;3년&nbsp;내&nbsp;60개소&nbsp;확대)<br>&nbsp;&nbsp;&nbsp;&nbsp;실시간&nbsp;교통량&nbsp;분석으로&nbsp;신호&nbsp;자동&nbsp;조정<br>&nbsp;&nbsp;&nbsp;&nbsp;평균&nbsp;교차로&nbsp;대기시간&nbsp;20%&nbsp;단축&nbsp;목표<br>○&nbsp;공영주차장&nbsp;대폭&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;전통시장·주거&nbsp;밀집지역&nbsp;중심&nbsp;공영주차장&nbsp;3배&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;유휴부지·공공부지&nbsp;활용한&nbsp;소규모&nbsp;분산형&nbsp;주차장&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;스마트&nbsp;주차&nbsp;시스템(빈자리&nbsp;안내)&nbsp;구축<br><br>□&nbsp;&nbsp;이행&nbsp;기간&nbsp;(1년,&nbsp;3년,&nbsp;임기&nbsp;내&nbsp;단계별)<br><br>□&nbsp;&nbsp;재원&nbsp;조달&nbsp;방식<br>&nbsp;&nbsp;&nbsp;&nbsp;국토부&nbsp;공모사업&nbsp;적극&nbsp;참여<br>&nbsp;&nbsp;&nbsp;&nbsp;민간&nbsp;참여&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;(국비/도비/시비/민자&nbsp;등)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	아이 키우기 가장 좋은 도시: 아산 안심 보육·교육 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="아이 키우기 가장 좋은 도시: 아산 안심 보육·교육 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;맞벌이&nbsp;가정&nbsp;돌봄&nbsp;공백&nbsp;완전&nbsp;해소&nbsp;(대기자&nbsp;0명)<br>&nbsp;&nbsp;&nbsp;&nbsp;부모&nbsp;돌봄&nbsp;시간&nbsp;부담&nbsp;30%&nbsp;감소<br>&nbsp;&nbsp;&nbsp;&nbsp;아산&nbsp;청년·신혼부부&nbsp;순유입&nbsp;증가<br><br>□&nbsp;&nbsp;이행방법<br>○&nbsp;맞벌이&nbsp;가정&nbsp;돌봄&nbsp;공백&nbsp;완전&nbsp;해소&nbsp;(대기자&nbsp;0명)<br>&nbsp;&nbsp;&nbsp;&nbsp;부모&nbsp;돌봄&nbsp;시간&nbsp;부담&nbsp;30%&nbsp;감소<br>&nbsp;&nbsp;&nbsp;&nbsp;아산&nbsp;청년·신혼부부&nbsp;순유입&nbsp;증가<br>○&nbsp;맞벌이&nbsp;대기자&nbsp;‘0명’&nbsp;시스템<br>&nbsp;&nbsp;&nbsp;&nbsp;실시간&nbsp;돌봄&nbsp;수요&nbsp;관리&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;긴급&nbsp;돌봄(당일&nbsp;신청&nbsp;가능)&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;민간&nbsp;돌봄기관과&nbsp;공공&nbsp;연계&nbsp;체계&nbsp;구축<br>○&nbsp;아산형&nbsp;교육바우처<br>&nbsp;&nbsp;&nbsp;&nbsp;초·중학생&nbsp;연&nbsp;50만&nbsp;원&nbsp;지급<br>&nbsp;&nbsp;&nbsp;사용처&nbsp;:&nbsp;학원&nbsp;/&nbsp;체험활동&nbsp;/&nbsp;코딩·디지털&nbsp;교육<br>○&nbsp;공공형&nbsp;키즈카페&nbsp;무료화<br>&nbsp;&nbsp;&nbsp;&nbsp;공공&nbsp;키즈카페&nbsp;주말&nbsp;무료&nbsp;이용<br>&nbsp;&nbsp;&nbsp;&nbsp;대형&nbsp;시설&nbsp;+&nbsp;소규모&nbsp;생활권&nbsp;시설&nbsp;병행<br>&nbsp;&nbsp;&nbsp;&nbsp;안전관리&nbsp;및&nbsp;예약&nbsp;시스템&nbsp;도입<br><br>□&nbsp;&nbsp;이행&nbsp;기간&nbsp;(1년,&nbsp;3년,&nbsp;임기&nbsp;내&nbsp;단계별)<br><br>□&nbsp;&nbsp;재원&nbsp;조달&nbsp;방식&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;교육부&nbsp;돌봄사업<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;보건복지부&nbsp;보육사업&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;민관협력<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(국비/도비/시비/민자&nbsp;등)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	월급 오르는 도시: 아산 소득 혁신 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="월급 오르는 도시: 아산 소득 혁신 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;아산&nbsp;근로자&nbsp;평균&nbsp;임금&nbsp;임기&nbsp;내&nbsp;15%&nbsp;이상&nbsp;상승<br>&nbsp;&nbsp;&nbsp;&nbsp;청년&nbsp;지역&nbsp;정착률&nbsp;20%&nbsp;증가&nbsp;/&nbsp;양질의&nbsp;일자리&nbsp;비중(중위임금&nbsp;이상)&nbsp;확대<br><br>□&nbsp;&nbsp;이행방법<br>○&nbsp;고임금&nbsp;산업&nbsp;중심&nbsp;클러스터&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;반도체·미래차&nbsp;중심&nbsp;첨단산업&nbsp;클러스터&nbsp;확장<br>&nbsp;&nbsp;&nbsp;&nbsp;연구개발(R&D)&nbsp;기업&nbsp;비중&nbsp;확대&nbsp;→&nbsp;고임금&nbsp;일자리&nbsp;유도<br>○&nbsp;삼성·현대&nbsp;협력사&nbsp;유치&nbsp;전담팀&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;기술력&nbsp;있는&nbsp;2·3차&nbsp;협력업체&nbsp;집중&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;납품단가&nbsp;협상&nbsp;지원&nbsp;및&nbsp;공정거래&nbsp;컨설팅&nbsp;제공<br>○&nbsp;투자&nbsp;속도&nbsp;혁신&nbsp;(인허가&nbsp;단축)<br>&nbsp;&nbsp;&nbsp;&nbsp;기업&nbsp;투자&nbsp;인허가&nbsp;처리&nbsp;기간&nbsp;50%&nbsp;단축<br>&nbsp;&nbsp;&nbsp;&nbsp;“원스톱&nbsp;투자&nbsp;지원&nbsp;센터”&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;규제&nbsp;사전&nbsp;컨설팅으로&nbsp;착공&nbsp;지연&nbsp;최소화<br>○&nbsp;청년&nbsp;우선&nbsp;채용&nbsp;협약제<br>&nbsp;&nbsp;&nbsp;&nbsp;기업&nbsp;유치&nbsp;시&nbsp;지역&nbsp;인재&nbsp;채용&nbsp;협약&nbsp;(미이행&nbsp;기업에는&nbsp;인센티브&nbsp;축소)<br>&nbsp;&nbsp;&nbsp;&nbsp;지역&nbsp;대학·직업교육기관과&nbsp;맞춤형&nbsp;인력&nbsp;양성&nbsp;연계<br>○&nbsp;아산형&nbsp;창업특구&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;창업기업에&nbsp;임대료·세제·금융&nbsp;패키지&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;기술창업&nbsp;중심&nbsp;(반도체&nbsp;소부장,&nbsp;미래차&nbsp;부품&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;실패&nbsp;부담&nbsp;완화&nbsp;위한&nbsp;재도전&nbsp;지원&nbsp;시스템&nbsp;구축<br><br>□&nbsp;&nbsp;이행&nbsp;기간&nbsp;(1년,&nbsp;3년,&nbsp;임기&nbsp;내&nbsp;단계별)<br><br>□&nbsp;&nbsp;재원&nbsp;조달&nbsp;방식&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;국가&nbsp;공모사업&nbsp;적극&nbsp;참여<br>&nbsp;&nbsp;&nbsp;&nbsp;민간&nbsp;참여형&nbsp;개발(PPP&nbsp;방식)<br>&nbsp;&nbsp;&nbsp;&nbsp;(국비/도비/시비/민자&nbsp;등)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	병원 걱정 없는 도시: 아산 스마트 의료·돌봄 혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="병원 걱정 없는 도시: 아산 스마트 의료·돌봄 혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;응급환자&nbsp;타지역&nbsp;전원&nbsp;비율&nbsp;대폭&nbsp;감소<br>&nbsp;&nbsp;&nbsp;&nbsp;거동&nbsp;불편&nbsp;어르신&nbsp;재택&nbsp;의료&nbsp;이용률&nbsp;2배&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;만성질환(고혈압·당뇨)&nbsp;관리율&nbsp;30%&nbsp;향상<br><br>□&nbsp;&nbsp;이행방법<br>○&nbsp;24시간&nbsp;공공응급&nbsp;대응체계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;기존&nbsp;응급의료기관&nbsp;+&nbsp;공공&nbsp;기능&nbsp;확대·보강<br>&nbsp;&nbsp;&nbsp;&nbsp;야간·주말&nbsp;진료&nbsp;공백&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;권역&nbsp;병원과&nbsp;이송·협진&nbsp;네트워크&nbsp;구축<br>○&nbsp;노인&nbsp;방문진료&nbsp;서비스&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;거동&nbsp;불편&nbsp;어르신&nbsp;대상&nbsp;의사·간호사&nbsp;방문진료<br>&nbsp;&nbsp;&nbsp;&nbsp;재가요양&nbsp;서비스와&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;퇴원&nbsp;환자&nbsp;재택&nbsp;관리&nbsp;프로그램&nbsp;운영<br>○&nbsp;AI&nbsp;기반&nbsp;건강관리&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;혈압·혈당&nbsp;등&nbsp;건강&nbsp;데이터&nbsp;상시&nbsp;관리<br>&nbsp;&nbsp;&nbsp;&nbsp;이상&nbsp;징후&nbsp;시&nbsp;병원&nbsp;자동&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;보호자·의료진과&nbsp;정보&nbsp;공유&nbsp;시스템<br><br>□&nbsp;&nbsp;이행&nbsp;기간&nbsp;(1년,&nbsp;3년,&nbsp;임기&nbsp;내&nbsp;단계별)<br><br>□&nbsp;&nbsp;재원&nbsp;조달&nbsp;방식&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;보건복지부&nbsp;재택의료·커뮤니티케어&nbsp;사업&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;건강관리&nbsp;시범사업&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;민간&nbsp;의료기관&nbsp;협력<br>&nbsp;&nbsp;&nbsp;&nbsp;(국비/도비/시비/민자&nbsp;등)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	돈 버는 관광도시: 아산 체류형 관광 혁신 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="돈 버는 관광도시: 아산 체류형 관광 혁신 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;관광객&nbsp;1인당&nbsp;소비액&nbsp;30%&nbsp;증가<br>&nbsp;&nbsp;&nbsp;&nbsp;평균&nbsp;체류시간&nbsp;당일&nbsp;→&nbsp;1박&nbsp;이상&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;지역&nbsp;상권&nbsp;매출&nbsp;실질&nbsp;증가<br><br>□&nbsp;&nbsp;이행방법<br>○&nbsp;온양온천&nbsp;야간&nbsp;관광&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;온양온천&nbsp;일대&nbsp;야간&nbsp;콘텐츠&nbsp;집중&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;주말&nbsp;야시장&nbsp;/&nbsp;경관조명&nbsp;/&nbsp;거리&nbsp;공연(청년&nbsp;버스킹)<br>&nbsp;&nbsp;&nbsp;&nbsp;주말&nbsp;야간&nbsp;시티투어버스&nbsp;운행<br>&nbsp;&nbsp;&nbsp;&nbsp;“저녁에도&nbsp;머무는&nbsp;관광지”로&nbsp;전환&nbsp;(낮&nbsp;관광&nbsp;→&nbsp;밤&nbsp;소비)<br>○&nbsp;관광객&nbsp;대상&nbsp;지역화폐&nbsp;소비&nbsp;유도<br>&nbsp;&nbsp;&nbsp;&nbsp;관광객&nbsp;전용&nbsp;지역화폐&nbsp;20%&nbsp;캐시백&nbsp;이벤트<br>&nbsp;&nbsp;&nbsp;&nbsp;사용처&nbsp;:&nbsp;전통시장&nbsp;/&nbsp;음식점&nbsp;/&nbsp;카페<br>&nbsp;&nbsp;&nbsp;&nbsp;단기&nbsp;이벤트&nbsp;→&nbsp;상시&nbsp;제도로&nbsp;단계&nbsp;확대<br><br>□&nbsp;&nbsp;이행&nbsp;기간&nbsp;(1년,&nbsp;3년,&nbsp;임기&nbsp;내&nbsp;단계별)<br><br>□&nbsp;&nbsp;재원&nbsp;조달&nbsp;방식&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;문화체육관광부&nbsp;관광&nbsp;활성화&nbsp;사업<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;충청남도&nbsp;관광&nbsp;개발&nbsp;예산<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;민간&nbsp;참여와&nbsp;시&nbsp;지원&nbsp;구조<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(국비/도비/시비/민자&nbsp;등)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;심재국 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	평창 농어촌 기본소득 도입(군민의 삶을 지키고, 지역경제를 살리는 평창형 기본소득)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="평창 농어촌 기본소득 도입(군민의 삶을 지키고, 지역경제를 살리는 평창형 기본소득)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;인구감소,&nbsp;고령화,&nbsp;소비&nbsp;위축&nbsp;등&nbsp;지역의&nbsp;구조적&nbsp;위기를&nbsp;극복하고&nbsp;군민&nbsp;생활안정&nbsp;및&nbsp;지역경제&nbsp;활성화&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민&nbsp;모두가&nbsp;체감할&nbsp;수&nbsp;있는&nbsp;직접적&nbsp;경제정책&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;내&nbsp;소비&nbsp;촉진&nbsp;및&nbsp;골목상권&nbsp;활성화&nbsp;기반&nbsp;마련<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;평창군&nbsp;전&nbsp;군민&nbsp;대상&nbsp;월&nbsp;15만&nbsp;원&nbsp;농어촌&nbsp;기본소득&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역화폐&nbsp;기반&nbsp;지급을&nbsp;통한&nbsp;소비의&nbsp;역외&nbsp;유출&nbsp;방지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전통시장,&nbsp;소상공인,&nbsp;농산물&nbsp;직거래&nbsp;활성화&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;읍면별&nbsp;맞춤형&nbsp;소비촉진&nbsp;정책&nbsp;병행&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기(2026년~2030년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·군비&nbsp;연계한&nbsp;안정적&nbsp;재원&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부공모사업&nbsp;및&nbsp;농촌활성화&nbsp;국비사업&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;친환경에너지&nbsp;사업을&nbsp;통한&nbsp;재정&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군&nbsp;자체&nbsp;세출&nbsp;구조조정&nbsp;및&nbsp;비효율&nbsp;예산&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방소멸대응기금&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강원특별자치도&nbsp;지원사업&nbsp;매칭&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	평창 N벨트 구축 (평창 전역을 하나로 잇는 미래 100년 성장축)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="평창 N벨트 구축 (평창 전역을 하나로 잇는 미래 100년 성장축)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;읍면별로&nbsp;분산된&nbsp;산업과&nbsp;생활권을&nbsp;하나의&nbsp;성장축으로&nbsp;연결하여&nbsp;평창군&nbsp;균형발전의&nbsp;새로운&nbsp;미래모델&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;간&nbsp;연결성&nbsp;강화&nbsp;및&nbsp;성장동력&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;평창&nbsp;미래&nbsp;100년을&nbsp;이끌&nbsp;지속가능한&nbsp;산업기반&nbsp;마련<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;『평창&nbsp;N벨트』&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광·스포츠·문화·농식품·물류&nbsp;산업벨트&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;읍면별&nbsp;특화산업&nbsp;육성&nbsp;및&nbsp;생활권&nbsp;통합&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;핵심&nbsp;도로망&nbsp;및&nbsp;정주&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;『평창&nbsp;N패스』&nbsp;도입을&nbsp;통한&nbsp;권역&nbsp;연계&nbsp;관광·체험·교통&nbsp;통합서비스&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기(2026년~2030년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·민간투자를&nbsp;연계한&nbsp;재원&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가균형발전특별회계&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방소멸대응기금&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간투자&nbsp;유치&nbsp;및&nbsp;공공·민간&nbsp;협력사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙정부&nbsp;공모사업&nbsp;적극&nbsp;참여</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	농업·축산·임업 혁신(농촌은 지키고, 소득은 높이는 강한 평창농업)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="농업·축산·임업 혁신(농촌은 지키고, 소득은 높이는 강한 평창농업)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농업&nbsp;생산비&nbsp;증가&nbsp;,&nbsp;인력&nbsp;부족&nbsp;,&nbsp;판로&nbsp;한계&nbsp;등&nbsp;농업·축산·임업의&nbsp;구조적&nbsp;문제를&nbsp;해결하고&nbsp;미래형&nbsp;고소득&nbsp;산업으로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농가&nbsp;소득&nbsp;증대&nbsp;및&nbsp;경영안정&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년농&nbsp;유입&nbsp;확대와&nbsp;지속가능한&nbsp;농촌&nbsp;기반&nbsp;마련<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;미래&nbsp;농업·축산·임업&nbsp;혁신정책&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업예산&nbsp;확대&nbsp;및&nbsp;현장&nbsp;체감형&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농자재&nbsp;반값&nbsp;지원사업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농기계&nbsp;무상임대&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;기반&nbsp;스마트농업&nbsp;시범단지&nbsp;조성&nbsp;및&nbsp;디지털&nbsp;농업&nbsp;전환&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년농·후계농&nbsp;창업&nbsp;및&nbsp;정착&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;축산·임업&nbsp;특화&nbsp;브랜드&nbsp;육성&nbsp;및&nbsp;유통체계&nbsp;혁신<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기(2026년~2030년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·민간&nbsp;협력사업을&nbsp;통한&nbsp;안정적&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농림축산식품부&nbsp;스마트농업&nbsp;국비사업&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업&nbsp;관련&nbsp;기존&nbsp;보조사업&nbsp;효율화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농협&nbsp;및&nbsp;생산자조합&nbsp;협력사업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강원특별자치도&nbsp;도비&nbsp;매칭사업&nbsp;적극&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	평창 3N 복지안전망 완성(아이부터 어르신까지, 생애 전 주기 복지도시)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="평창 3N 복지안전망 완성(아이부터 어르신까지, 생애 전 주기 복지도시)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;저출산·고령화&nbsp;시대에&nbsp;아이,&nbsp;청년,&nbsp;어르신,&nbsp;장애인&nbsp;가족&nbsp;모두가&nbsp;안심하고&nbsp;살아갈&nbsp;수&nbsp;있는&nbsp;평창형&nbsp;생애주기&nbsp;복지체계&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출산·보육·교육·돌봄·의료·노후까지&nbsp;촘촘한&nbsp;복지&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민&nbsp;삶의&nbsp;질&nbsp;향상과&nbsp;복지&nbsp;사각지대&nbsp;해소<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;평창형&nbsp;3N&nbsp;복지안전망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;다키워드림&nbsp;1억5천&nbsp;플랜&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해피700&nbsp;복지정책&nbsp;확대&nbsp;및&nbsp;맞춤형&nbsp;복지서비스&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아이·어르신·장애인&nbsp;가족&nbsp;대상&nbsp;통합돌봄&nbsp;시스템&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공의료&nbsp;확대&nbsp;및&nbsp;예방&nbsp;중심&nbsp;건강관리체계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·빅데이터&nbsp;기반&nbsp;복지&nbsp;사각지대&nbsp;발굴&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;읍면별&nbsp;찾아가는&nbsp;복지·건강&nbsp;상담서비스&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기(2026년~2030년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·군비&nbsp;연계를&nbsp;통한&nbsp;지속가능한&nbsp;복지재원&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보건복지부&nbsp;국고보조사업&nbsp;확대&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군&nbsp;복지예산&nbsp;구조개편&nbsp;및&nbsp;효율화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국민건강보험공단&nbsp;등&nbsp;공공기관&nbsp;협력사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특별교부세&nbsp;및&nbsp;강원특별자치도&nbsp;지원사업&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	청년친화도시 평창(청년이 떠나는 도시가 아니라, 돌아오는 평창)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="청년친화도시 평창(청년이 떠나는 도시가 아니라, 돌아오는 평창)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청년의&nbsp;유입과&nbsp;정착을&nbsp;통해&nbsp;지역소멸&nbsp;위기에&nbsp;대응하고,&nbsp;평창의&nbsp;미래&nbsp;성장&nbsp;동력을&nbsp;확보하는&nbsp;청년친화도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년이&nbsp;일하고,&nbsp;머물고,&nbsp;꿈을&nbsp;실현할&nbsp;수&nbsp;있는&nbsp;정주환경&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일자리·주거·창업·문화가&nbsp;함께하는&nbsp;청년&nbsp;생태계&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청년이&nbsp;머물고&nbsp;성장하는&nbsp;평창형&nbsp;청년정책&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년활력타운&nbsp;조성&nbsp;및&nbsp;청년&nbsp;커뮤니티·창업공간&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년창업·일자리·주거&nbsp;통합지원체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화예술·관광·디지털산업&nbsp;분야&nbsp;청년&nbsp;인재&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역기업과&nbsp;연계한&nbsp;청년&nbsp;맞춤형&nbsp;일자리&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;귀향·귀촌&nbsp;청년&nbsp;정착지원&nbsp;및&nbsp;생활안정&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년정책협의체&nbsp;운영&nbsp;및&nbsp;청년&nbsp;참여형&nbsp;정책&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기(2026년~2030년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·민간&nbsp;협력을&nbsp;통한&nbsp;청년정책&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중소벤처기업부&nbsp;청년창업&nbsp;지원사업&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국토교통부&nbsp;청년주거&nbsp;공모사업&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방소멸대응기금&nbsp;우선&nbsp;배정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학·기업·민간기관&nbsp;협력사업&nbsp;유치</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

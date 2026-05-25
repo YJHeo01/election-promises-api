@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김중남 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	첨단산업도시 강릉으로 대도약을 이루겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="첨단산업도시 강릉으로 대도약을 이루겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;빅테크&nbsp;AI데이터센터&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;첨단기술&nbsp;클러스터인&nbsp;‘강릉&nbsp;실리콘힐스’구축<br>&nbsp;&nbsp;○&nbsp;2030년까지&nbsp;1000개의&nbsp;청년기업&nbsp;창업<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;종합계획&nbsp;수립<br><br>□&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;○&nbsp;임기중&nbsp;연차별&nbsp;실행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	더 큰 강릉, 메가시티 강릉을 추진하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="더 큰 강릉, 메가시티 강릉을 추진하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;강릉시,&nbsp;동해시,&nbsp;양양군,&nbsp;대관령까지&nbsp;4개&nbsp;시군&nbsp;통합&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;영동의&nbsp;행정·생활·경제권을&nbsp;하나로&nbsp;30만&nbsp;인구의&nbsp;4조&nbsp;예산&nbsp;운영<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;종합계획&nbsp;수립<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기중&nbsp;연차별&nbsp;실행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	도시가 브랜드가 되는 문화창의 도시 강릉을 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="도시가 브랜드가 되는 문화창의 도시 강릉을 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;갑질&nbsp;문화행정&nbsp;근절&nbsp;및&nbsp;문화산업을&nbsp;통한&nbsp;창의적&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;러지던스&nbsp;확장과&nbsp;지원을&nbsp;통한&nbsp;창작생태계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;시민이&nbsp;참여·생산·체험하는&nbsp;생활문화&nbsp;플랫폼&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;종합계획&nbsp;수립<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기중&nbsp;연차별&nbsp;실행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	민생을 최우선으로, 먹고사는 걱정 없는 강릉을 실현하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="민생을 최우선으로, 먹고사는 걱정 없는 강릉을 실현하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;소상공인·자영업자&nbsp;지원을&nbsp;통해&nbsp;골목경제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;북부&nbsp;·중앙·남부·서부&nbsp;등&nbsp;강릉&nbsp;4대권역별&nbsp;대전환<br>&nbsp;&nbsp;○&nbsp;지역과&nbsp;대학의&nbsp;연계를&nbsp;통한&nbsp;강릉&nbsp;대학&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;원형교차로와&nbsp;주차장&nbsp;부족,&nbsp;도심공동화&nbsp;문제&nbsp;해결<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;종합계획&nbsp;수립<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기중&nbsp;연차별&nbsp;실행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	전국 최고의 기본사회 도시 강릉을 세우겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="전국 최고의 기본사회 도시 강릉을 세우겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;태양광과&nbsp;풍력으로&nbsp;시민배당·세대별&nbsp;행복연금<br>&nbsp;&nbsp;○&nbsp;배움·문화·체험&nbsp;기회를&nbsp;넓혀&nbsp;성장&nbsp;격차를&nbsp;줄이는&nbsp;청소년배당<br>&nbsp;&nbsp;○&nbsp;주거·교통·취업·창업&nbsp;준비&nbsp;부담을&nbsp;덜어&nbsp;드리는&nbsp;청년배당<br>&nbsp;&nbsp;○&nbsp;여성,&nbsp;장애인의&nbsp;삶의&nbsp;질을&nbsp;높이는&nbsp;토닥토닥&nbsp;응원배당<br>&nbsp;&nbsp;○&nbsp;일하는&nbsp;사람들이&nbsp;아프면&nbsp;맘&nbsp;편히&nbsp;쉴&nbsp;수&nbsp;있도록&nbsp;좀쉬자&nbsp;건강배당<br>&nbsp;&nbsp;○&nbsp;건강·돌봄·생활안정을&nbsp;두텁게&nbsp;해&nbsp;어르신이&nbsp;대접받는&nbsp;어르신&nbsp;행복배당<br>&nbsp;&nbsp;○&nbsp;농어촌기본소득을&nbsp;통해&nbsp;모두가&nbsp;행복한&nbsp;강릉&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;종합계획&nbsp;수립<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기중&nbsp;연차별&nbsp;실행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

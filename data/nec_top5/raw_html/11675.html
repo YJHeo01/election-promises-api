@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;현근택 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	용인 반도체 국가산단 삼성전자 1기 팹 조기 가동</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="용인 반도체 국가산단 삼성전자 1기 팹 조기 가동">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;‘용인&nbsp;첨단시스템반도체&nbsp;클러스터&nbsp;국가산업단지’&nbsp;내&nbsp;삼성전자&nbsp;1기&nbsp;팹(공장)을&nbsp;임기&nbsp;내&nbsp;가동<br>&nbsp;&nbsp;○&nbsp;2026년까지&nbsp;보상&nbsp;마무리하고,&nbsp;2027년&nbsp;부지&nbsp;조성&nbsp;공사&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;반도체&nbsp;국가산단&nbsp;성공을&nbsp;통한&nbsp;동서균형발전&nbsp;달성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시장&nbsp;직속&nbsp;‘조기&nbsp;가동&nbsp;상황실’&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;용인시&nbsp;주도&nbsp;‘용인반도체&nbsp;민·관·정&nbsp;협의체’&nbsp;확대&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;보상&nbsp;문제&nbsp;신속&nbsp;해결<br>&nbsp;&nbsp;○&nbsp;전력·용수&nbsp;공급&nbsp;등&nbsp;주도적&nbsp;해결<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;별도&nbsp;재원&nbsp;필요&nbsp;없음</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	강남권 30분대, 출퇴근 교통혁명</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="강남권 30분대, 출퇴근 교통혁명">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;반도체&nbsp;국가산단과&nbsp;도심·수도권을&nbsp;연결하는&nbsp;교통망&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;처인·기흥·수지&nbsp;등&nbsp;용인&nbsp;전역에서&nbsp;이용할&nbsp;수&nbsp;있는&nbsp;철도망&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;광역버스&nbsp;증차&nbsp;및&nbsp;전철역&nbsp;연계&nbsp;대중교통&nbsp;확충<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;용인분당급행철도·경기남부광역철도·중부권광역급행철도&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;분당선&nbsp;연장,&nbsp;용인선&nbsp;연장,&nbsp;동백신봉선&nbsp;신설&nbsp;등&nbsp;국가·경기도&nbsp;철도&nbsp;계획&nbsp;정상&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;서울·강남행&nbsp;광역버스&nbsp;출퇴근&nbsp;집중배차·증차&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;3개&nbsp;구&nbsp;순환버스&nbsp;도입&nbsp;및&nbsp;GTX구성역&nbsp;직통버스&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;생활거점&nbsp;연결형&nbsp;‘호출형&nbsp;똑버스’&nbsp;용인&nbsp;전역&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;신분당선&nbsp;요금&nbsp;인하&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;최우선&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;철도망&nbsp;구축은&nbsp;국가사업으로&nbsp;우선&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;광역버스&nbsp;증차,&nbsp;똑버스&nbsp;등&nbsp;대중교통은&nbsp;국·도비&nbsp;확보&nbsp;및&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	‘용인형 에너지기본소득’ 도입</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="‘용인형 에너지기본소득’ 도입">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;용인시&nbsp;주도&nbsp;‘용인에너지주식회사’(가칭)&nbsp;설립<br>&nbsp;&nbsp;○&nbsp;분산에너지특화지역(분산특구)&nbsp;지정&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;기후취약계층부터&nbsp;‘햇빛연금’&nbsp;우선&nbsp;지급&nbsp;후&nbsp;단계적&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;반도체&nbsp;기업들이&nbsp;요구하는&nbsp;RE100(Renewable&nbsp;Energy&nbsp;100%)을&nbsp;용인&nbsp;내에서&nbsp;해결하여&nbsp;‘녹색반도체’&nbsp;경쟁력&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;공공청사·주차장·유휴부지&nbsp;등에&nbsp;태양광&nbsp;발전시설&nbsp;설치&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;통합바이오가스화·풍력·폐열&nbsp;등&nbsp;친환경에너지&nbsp;생산&nbsp;체계&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;‘통합&nbsp;발전시스템(가상발전소·VPP·Virtual&nbsp;Power&nbsp;Plant)’&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;분산특구&nbsp;지정되면&nbsp;지역에서&nbsp;생산한&nbsp;전력을&nbsp;반도체&nbsp;산단&nbsp;등&nbsp;수요자와&nbsp;직접거래(PPA·Power&nbsp;Purchase&nbsp;Agreement)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;지원사업&nbsp;연계&nbsp;및&nbsp;공기업·민간&nbsp;투자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	반도체 배후도시 연계 경제자유구역 지정</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="반도체 배후도시 연계 경제자유구역 지정">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;소부장·장비·팹리스·R&D&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;국제&nbsp;초·중·고,&nbsp;기업지원시설&nbsp;확충으로&nbsp;글로벌&nbsp;도시&nbsp;도약<br>&nbsp;&nbsp;○&nbsp;공공주택지구에&nbsp;더해,&nbsp;반도체&nbsp;클러스터의&nbsp;중장기&nbsp;정주수요에&nbsp;대응할&nbsp;추가&nbsp;배후도시&nbsp;확보&nbsp;추진<br><br>□&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;○&nbsp;‘용인&nbsp;반도체&nbsp;경제자유구역’&nbsp;지정&nbsp;신청<br>&nbsp;&nbsp;○&nbsp;경기경제자유구역청&nbsp;내&nbsp;‘용인지구사업단’&nbsp;신설&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;LH·GH,&nbsp;용인도시공사&nbsp;참여&nbsp;사업시행자&nbsp;구성<br><br>□&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;<br>&nbsp;&nbsp;○&nbsp;국·도·시비&nbsp;및&nbsp;공기업·민간&nbsp;투자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	5,000억 원 규모 벤처 투자펀드 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="5,000억 원 규모 벤처 투자펀드 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;창업기업과&nbsp;기술&nbsp;기반&nbsp;스타트업의&nbsp;초기&nbsp;투자금&nbsp;부족&nbsp;문제&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;삼성전자,&nbsp;SK하이닉스를&nbsp;중심으로&nbsp;소부장·팹리스·AI반도체&nbsp;기업&nbsp;생태계&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;투자기업의&nbsp;용인&nbsp;이전,&nbsp;청년&nbsp;고용,&nbsp;연구소&nbsp;설립,&nbsp;산단&nbsp;입주와&nbsp;연계해&nbsp;지역&nbsp;내&nbsp;일자리&nbsp;창출과&nbsp;세수&nbsp;기반&nbsp;확대&nbsp;선순환&nbsp;체계&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;용인시가&nbsp;앵커&nbsp;출자자로&nbsp;참여하고,&nbsp;정부&nbsp;모태펀드,&nbsp;정책금융&nbsp;기관,&nbsp;민간&nbsp;VC&nbsp;등&nbsp;투자자&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;창업기업,&nbsp;초기&nbsp;스타트업,&nbsp;반도체&nbsp;소부장&nbsp;기업,&nbsp;팹리스,&nbsp;&nbsp;AI반도체,&nbsp;로봇·드론&nbsp;등&nbsp;ICT&nbsp;기업을&nbsp;우선&nbsp;투자&nbsp;대상&nbsp;설정<br>&nbsp;&nbsp;○&nbsp;반도체&nbsp;국가산단,&nbsp;플랫폼시티,&nbsp;반도체&nbsp;클러스터&nbsp;입주기업과&nbsp;연계해&nbsp;‘투자→입주→연구개발→고용창출’&nbsp;구조&nbsp;정착<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;용인시·용인시산업진흥원&nbsp;출자&nbsp;및&nbsp;정부&nbsp;모태펀드·정책금융,&nbsp;민간&nbsp;VC·금융기관·대기업&nbsp;출자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

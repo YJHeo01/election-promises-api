@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;한금석 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	농촌 기본소득 도입으로 살맛 나는 철원 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="농촌 기본소득 도입으로 살맛 나는 철원 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농업인구&nbsp;비중이&nbsp;높은&nbsp;철원군의&nbsp;지역&nbsp;특성을&nbsp;고려하여,&nbsp;농업인의&nbsp;소득&nbsp;안정을&nbsp;도모하고&nbsp;농촌&nbsp;소멸&nbsp;위기를&nbsp;극복.<br>&nbsp;&nbsp;○&nbsp;소득&nbsp;양극화&nbsp;해소와&nbsp;지역경제&nbsp;선순환&nbsp;구조를&nbsp;구축하여&nbsp;‘지속&nbsp;가능한&nbsp;농촌’&nbsp;모델을&nbsp;제시.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;지급&nbsp;대상&nbsp;확정:&nbsp;철원군&nbsp;내&nbsp;주소를&nbsp;두고&nbsp;실제&nbsp;거주하며&nbsp;전군민&nbsp;대상&nbsp;점진적으로&nbsp;전&nbsp;군민&nbsp;대상&nbsp;확대&nbsp;검토.<br>&nbsp;&nbsp;○&nbsp;지급&nbsp;형태:&nbsp;지역화폐(철원사랑상품권)로&nbsp;지급하여&nbsp;관내&nbsp;소상공인&nbsp;매출&nbsp;증대&nbsp;유도.<br>&nbsp;&nbsp;○&nbsp;조례&nbsp;제정:&nbsp;농촌&nbsp;기본소득&nbsp;지급을&nbsp;위한&nbsp;법적&nbsp;근거&nbsp;마련&nbsp;및&nbsp;운영위원회&nbsp;구성.<br>&nbsp;&nbsp;○&nbsp;거버넌스&nbsp;구축:&nbsp;강원특별자치도&nbsp;및&nbsp;중앙정부와&nbsp;협업하여&nbsp;시범&nbsp;예산&nbsp;확보.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2027년:&nbsp;관련&nbsp;조례&nbsp;제정&nbsp;및&nbsp;시범&nbsp;사업&nbsp;실시.<br>&nbsp;&nbsp;○&nbsp;2028년:&nbsp;전면&nbsp;시행&nbsp;및&nbsp;정착.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;철원군&nbsp;자체&nbsp;예산&nbsp;편성&nbsp;및&nbsp;강원특별자치도&nbsp;농업&nbsp;균형&nbsp;발전&nbsp;기금&nbsp;확보.<br>&nbsp;&nbsp;○&nbsp;불요불급&nbsp;한&nbsp;축제&nbsp;및&nbsp;일회성&nbsp;사업예산&nbsp;구조조정을&nbsp;통한&nbsp;재원확보.<br><br>□&nbsp;기대효과<br>&nbsp;&nbsp;○&nbsp;농가&nbsp;가계부채&nbsp;완화&nbsp;및&nbsp;기본권&nbsp;보장.<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;내&nbsp;소비&nbsp;촉진을&nbsp;통한&nbsp;소상공인&nbsp;활성화&nbsp;및&nbsp;인구&nbsp;유출&nbsp;방지.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	철원 평화경제특구 지정추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="철원 평화경제특구 지정추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;○『평화경제특구&nbsp;법』에&nbsp;근거하여&nbsp;철원을&nbsp;남북&nbsp;경제&nbsp;협력의&nbsp;거점&nbsp;및&nbsp;접경지역&nbsp;발전의&nbsp;허브로&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;규제&nbsp;완화와&nbsp;세재&nbsp;혜택을&nbsp;통해&nbsp;우수기업을&nbsp;유치하고&nbsp;미래&nbsp;먹거리를&nbsp;확보.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;특구&nbsp;지정&nbsp;신청:&nbsp;강원특별자치도와&nbsp;협력하여&nbsp;국토교통부&nbsp;및&nbsp;통일부에&nbsp;특구&nbsp;지정&nbsp;신청서&nbsp;제출<br>&nbsp;&nbsp;○&nbsp;인프라&nbsp;조성:&nbsp;스마트단지,&nbsp;물류단지,&nbsp;연구&nbsp;시설&nbsp;부지&nbsp;확보&nbsp;및&nbsp;기반&nbsp;시설(도로,&nbsp;용수,&nbsp;전기)&nbsp;확충.<br>&nbsp;&nbsp;○&nbsp;기업&nbsp;유치&nbsp;전략:&nbsp;ICT,&nbsp;바이오,&nbsp;스마트&nbsp;팜&nbsp;관련&nbsp;기업&nbsp;대상&nbsp;법인세&nbsp;감면&nbsp;등&nbsp;파격적인&nbsp;인센티브&nbsp;패키지&nbsp;제공.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년:&nbsp;특구&nbsp;지정&nbsp;타당성&nbsp;조사&nbsp;및&nbsp;기본계획&nbsp;수립.<br>&nbsp;&nbsp;○&nbsp;2027~2029년:&nbsp;부지&nbsp;조성&nbsp;및&nbsp;앵커기업&nbsp;유치&nbsp;활동<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(평화경제특구&nbsp;지원&nbsp;예산)&nbsp;및&nbsp;도비&nbsp;확보.<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;자본&nbsp;유치(BTL/BTO&nbsp;방식&nbsp;등)를&nbsp;통한&nbsp;민관&nbsp;합작&nbsp;개발&nbsp;추진.<br><br>□&nbsp;기대효과<br>&nbsp;&nbsp;○&nbsp;수만&nbsp;명의&nbsp;고용&nbsp;창출&nbsp;및&nbsp;인구&nbsp;유입&nbsp;효과.<br>&nbsp;&nbsp;○&nbsp;접경지역이라는&nbsp;지리적&nbsp;한계를&nbsp;‘기회의&nbsp;땅’으로&nbsp;전환하여&nbsp;지역&nbsp;가치&nbsp;상승.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	구리~포천 고속도로 철원 연장 조기 착공</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="구리~포천 고속도로 철원 연장 조기 착공">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;세종~포천&nbsp;고속도로의&nbsp;종점을&nbsp;포천에서&nbsp;철원까지&nbsp;조속히&nbsp;연장하여&nbsp;수도권&nbsp;1시간&nbsp;생활권을&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;물류비용&nbsp;절감과&nbsp;관광객&nbsp;접근성&nbsp;향상을&nbsp;통해&nbsp;지역&nbsp;경쟁력을&nbsp;극대화.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중앙정부&nbsp;건의:&nbsp;국토교통부&nbsp;‘제3차&nbsp;고속도로&nbsp;건설계획(2026~2030)’에&nbsp;중점&nbsp;사업으로&nbsp;반영&nbsp;추진.<br>&nbsp;&nbsp;○&nbsp;예비타당성&nbsp;조사&nbsp;통과:&nbsp;경제성(B/C)&nbsp;외에도&nbsp;정책성&nbsp;및&nbsp;지역&nbsp;균형&nbsp;발전&nbsp;점수를&nbsp;높여&nbsp;예타&nbsp;조기&nbsp;통과&nbsp;주력.<br>&nbsp;&nbsp;○&nbsp;범군민&nbsp;추진위원회&nbsp;결성:&nbsp;인근&nbsp;지자체(포천시&nbsp;등)와&nbsp;공동&nbsp;대응체계&nbsp;구축&nbsp;및&nbsp;국회&nbsp;농림축산식품해양수산위원회/국토교통위원회&nbsp;협력&nbsp;강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년:&nbsp;국가도로망&nbsp;계획&nbsp;반영<br>&nbsp;&nbsp;○&nbsp;2027~2028년:&nbsp;설계&nbsp;및&nbsp;착공&nbsp;준비&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;전액&nbsp;국비(국가재정사업)&nbsp;추진을&nbsp;원칙으로&nbsp;하되,&nbsp;필요시&nbsp;민자&nbsp;적격성&nbsp;검토&nbsp;병행<br><br>□&nbsp;기대효과<br>&nbsp;&nbsp;○&nbsp;수도권&nbsp;접근성&nbsp;혁명으로&nbsp;인한&nbsp;관광객&nbsp;폭발적&nbsp;증가<br>&nbsp;&nbsp;○&nbsp;물류&nbsp;인프라&nbsp;개선에&nbsp;따른&nbsp;기업&nbsp;유치&nbsp;가속화&nbsp;및&nbsp;주민&nbsp;교통&nbsp;복지&nbsp;실현.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	경원선 철도 복원 및 전철화 조속 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="경원선 철도 복원 및 전철화 조속 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;단절된&nbsp;경원선(연천~철원)&nbsp;구간을&nbsp;복원하고&nbsp;전철화하여&nbsp;철원을&nbsp;‘대륙&nbsp;철도의&nbsp;시발점’으로&nbsp;재정립.<br>&nbsp;&nbsp;○&nbsp;지하철&nbsp;1호선&nbsp;연계&nbsp;등&nbsp;수도권&nbsp;전철망&nbsp;편입을&nbsp;통해&nbsp;정주&nbsp;여건을&nbsp;획기적으로&nbsp;개선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중단된&nbsp;공사&nbsp;재개:&nbsp;남북&nbsp;관계&nbsp;변화에&nbsp;대응하여&nbsp;국방부·통일부와&nbsp;협의,&nbsp;중단된&nbsp;백마고지역&nbsp;이후&nbsp;구간&nbsp;복원&nbsp;촉구.<br>&nbsp;&nbsp;○&nbsp;수도권&nbsp;전철&nbsp;연장:&nbsp;경원선&nbsp;전철화&nbsp;사업(동두천~연천)의&nbsp;철원&nbsp;연장을&nbsp;위한&nbsp;제5차&nbsp;국가철도망&nbsp;구축계획&nbsp;반영<br>&nbsp;&nbsp;○&nbsp;역세권&nbsp;개발:&nbsp;백마고지역&nbsp;및&nbsp;철원역(예정)&nbsp;주변&nbsp;관광&nbsp;거점&nbsp;및&nbsp;복합&nbsp;환승센터&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년:&nbsp;철도망&nbsp;계획&nbsp;반영&nbsp;및&nbsp;타당성&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;2027~2030년:&nbsp;단계별&nbsp;착공&nbsp;및&nbsp;준공&nbsp;추진.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;철도&nbsp;구축&nbsp;사업&nbsp;예산(국비&nbsp;100%&nbsp;또는&nbsp;국비&nbsp;70%,&nbsp;도비&nbsp;30%)<br><br>□&nbsp;기대효과<br>&nbsp;&nbsp;○&nbsp;철도&nbsp;이용&nbsp;관광객&nbsp;증가로&nbsp;지역&nbsp;상권&nbsp;활성화.<br>&nbsp;&nbsp;○&nbsp;수도권&nbsp;출퇴근&nbsp;가능&nbsp;지역으로&nbsp;변모하여&nbsp;젊은&nbsp;층&nbsp;유입&nbsp;기반&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	철원 평화·스포츠 복합 파크 조성 및 글로벌 유소년 축구 허브 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="철원 평화·스포츠 복합 파크 조성 및 글로벌 유소년 축구 허브 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;철원의&nbsp;청정&nbsp;자연과&nbsp;넓은&nbsp;부지를&nbsp;활용하여&nbsp;세계적&nbsp;수준의&nbsp;스포츠&nbsp;전지훈련&nbsp;메카를&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;유소년&nbsp;축구&nbsp;및&nbsp;각종&nbsp;스포츠&nbsp;대회를&nbsp;상시&nbsp;유치하여&nbsp;‘사계절&nbsp;관광&nbsp;스포츠&nbsp;도시’로&nbsp;도약<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;남북체육교류특례법&nbsp;주도&nbsp;및&nbsp;체육교류협회&nbsp;철원지부&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;철원&nbsp;유소년팀의&nbsp;원산&nbsp;아리스포츠컵&nbsp;출전&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;인프라&nbsp;구축&nbsp;:&nbsp;국제규격&nbsp;축구장(천연/인조),&nbsp;다목적&nbsp;실내&nbsp;체육관,&nbsp;선수단&nbsp;전용&nbsp;숙박시설(유스호스텔)&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;특화프로그램:&nbsp;글로벌&nbsp;유명&nbsp;구단&nbsp;및&nbsp;축구&nbsp;아카데미와&nbsp;협약(MOU)&nbsp;체결하여&nbsp;‘철원컵&nbsp;유소년대회’&nbsp;브랜드화<br>&nbsp;&nbsp;○&nbsp;전지훈련&nbsp;유치:&nbsp;겨울철&nbsp;따뜻한&nbsp;실내&nbsp;훈련장&nbsp;및&nbsp;여름철&nbsp;고원&nbsp;기후를&nbsp;활용한&nbsp;연중무휴&nbsp;전지훈련&nbsp;마케팅<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년:&nbsp;부지선정&nbsp;및&nbsp;마스터플랜&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;2027~2029년&nbsp;:&nbsp;단계별&nbsp;시설&nbsp;준공&nbsp;및&nbsp;시범대회&nbsp;개최<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;문체부&nbsp;‘체육진흥시설&nbsp;지원사업&nbsp;공모를&nbsp;통한&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;행안부&nbsp;‘특수상황지역개발사업&nbsp;및&nbsp;접경지역&nbsp;발전종합계획’에&nbsp;공모&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;지방소멸&nbsp;대응&nbsp;기금&nbsp;및&nbsp;민간기업&nbsp;스폰서&nbsp;쉽&nbsp;유치<br><br>□&nbsp;기대효과<br>&nbsp;&nbsp;○&nbsp;연간&nbsp;수십만&nbsp;명의&nbsp;선수단&nbsp;및&nbsp;가족방문으로&nbsp;숙박·외식업&nbsp;매출&nbsp;급증<br>&nbsp;&nbsp;○&nbsp;철원의&nbsp;브랜드&nbsp;이미지를&nbsp;스포츠와&nbsp;평화의&nbsp;상징으로&nbsp;국제적&nbsp;홍보</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

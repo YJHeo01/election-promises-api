@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;장준용 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	AI+자연+안전이 결합된 부산형 교육친화 공원 조성(금강공원 재정비 사업)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="AI+자연+안전이 결합된 부산형 교육친화 공원 조성(금강공원 재정비 사업)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;조례&nbsp;제정을&nbsp;통한&nbsp;‘교육&nbsp;친화&nbsp;공원’&nbsp;지정<br>○&nbsp;미래&nbsp;세대를&nbsp;위한&nbsp;3대&nbsp;핵심&nbsp;시설&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;과학교육센터&nbsp;설립으로&nbsp;AI·디지털&nbsp;교육&nbsp;체험&nbsp;실습<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;숲속&nbsp;어린이&nbsp;도서관&nbsp;설립으로&nbsp;독서·자연·체험을&nbsp;통해&nbsp;창의성&nbsp;함양<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국립공원&nbsp;자연사&nbsp;박물관&nbsp;유치를&nbsp;통해&nbsp;금정산&nbsp;국립공원과&nbsp;연계해&nbsp;다양한&nbsp;프로그램&nbsp;운영<br><br>&nbsp;&nbsp;☞&nbsp;미래형&nbsp;체험&nbsp;교육으로&nbsp;창의·융합&nbsp;인재&nbsp;양성을&nbsp;통한&nbsp;교육&nbsp;혁신<br>&nbsp;&nbsp;☞&nbsp;AI&nbsp;연관기업&nbsp;유치&nbsp;및&nbsp;산업&nbsp;생태계&nbsp;활성화로&nbsp;지역&nbsp;발전<br>&nbsp;&nbsp;☞&nbsp;자연과&nbsp;기후&nbsp;위기&nbsp;대응&nbsp;체험&nbsp;교육의&nbsp;장&nbsp;마련<br>&nbsp;&nbsp;☞&nbsp;부산&nbsp;대표&nbsp;교육&nbsp;친화공원으로&nbsp;도시&nbsp;경쟁력&nbsp;강화<br><br>&nbsp;●&nbsp;목&nbsp;표&nbsp;:&nbsp;금강공원&nbsp;재정비를&nbsp;통한&nbsp;교육친화공원&nbsp;조성<br>&nbsp;●&nbsp;이행방법&nbsp;:&nbsp;교육부&nbsp;및&nbsp;과학기술정보통신부&nbsp;공모&nbsp;신청,&nbsp;국립대학과의&nbsp;연계<br>&nbsp;●&nbsp;이행기간&nbsp;:&nbsp;2026&nbsp;~&nbsp;임기&nbsp;후<br>&nbsp;●&nbsp;재원조달방안&nbsp;:&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	부산을 뜨겁게!! 동래를 핫하게!!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="부산을 뜨겁게!! 동래를 핫하게!!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;사직야구장&nbsp;재건축과&nbsp;동래온천을&nbsp;연결하는&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스포츠&nbsp;메디컬&nbsp;및&nbsp;힐링센터&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;프로구단과&nbsp;연계한&nbsp;전문&nbsp;스포츠&nbsp;인력&nbsp;양성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스포츠&nbsp;비즈니스&nbsp;교육&nbsp;프로그램&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행정안전부&nbsp;‘온천&nbsp;도시’&nbsp;지정의&nbsp;조속한&nbsp;추진<br><br>&nbsp;&nbsp;☞&nbsp;스포츠와&nbsp;힐링이&nbsp;만나는&nbsp;웰니스&nbsp;복합도시&nbsp;조성으로&nbsp;새로운&nbsp;도시&nbsp;경쟁력&nbsp;제고.<br><br>&nbsp;●&nbsp;목&nbsp;표&nbsp;:&nbsp;웰니스&nbsp;복합도시&nbsp;조성으로&nbsp;새로운&nbsp;도시&nbsp;경쟁력&nbsp;제고<br>&nbsp;●&nbsp;이행방법&nbsp;:&nbsp;행정안전부&nbsp;및&nbsp;부산시와&nbsp;협의&nbsp;/&nbsp;예산&nbsp;확보<br>&nbsp;●&nbsp;이행기간&nbsp;:&nbsp;2026&nbsp;~&nbsp;임기&nbsp;후<br>&nbsp;●&nbsp;재원조달방안&nbsp;:&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	대한민국 교육 1번지 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="대한민국 교육 1번지 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;미래형&nbsp;창의&nbsp;AI교육센터&nbsp;건립<br>○&nbsp;디지털&nbsp;인재&nbsp;양성&nbsp;인프라&nbsp;구축<br>○&nbsp;동래장학회&nbsp;지원&nbsp;확대<br>○&nbsp;학교별&nbsp;맞춤형&nbsp;교육&nbsp;환경&nbsp;개선&nbsp;조기&nbsp;완료<br>○&nbsp;권역별&nbsp;도서관&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동래구&nbsp;생활복합센터&nbsp;내&nbsp;도서관(27년&nbsp;준공&nbsp;예정)&nbsp;조속한&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;금강공원&nbsp;숲속&nbsp;도서관&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사직&nbsp;도서관&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사직야구장&nbsp;재건축&nbsp;부지&nbsp;도서관&nbsp;확충&nbsp;건의(부산시)<br><br>&nbsp;●&nbsp;목&nbsp;표&nbsp;:&nbsp;명품&nbsp;교육도시&nbsp;동래&nbsp;완성&nbsp;<br>&nbsp;●&nbsp;이행방법&nbsp;:&nbsp;부산시와&nbsp;협의&nbsp;/&nbsp;예산&nbsp;확보<br>&nbsp;●&nbsp;이행기간&nbsp;:&nbsp;2026&nbsp;~&nbsp;임기&nbsp;후<br>&nbsp;●&nbsp;재원조달방안&nbsp;:&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	글로벌 역사문화 관광 거점화로 활력 넘치는 지역 경제 생태계 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="글로벌 역사문화 관광 거점화로 활력 넘치는 지역 경제 생태계 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;동래읍성&nbsp;역사축제를&nbsp;글로벌&nbsp;축제로&nbsp;확대&nbsp;발전<br>○&nbsp;금정산&nbsp;국립공원과&nbsp;온천천을&nbsp;배경으로&nbsp;한&nbsp;글로벌&nbsp;브랜딩&nbsp;추진으로&nbsp;부산&nbsp;대표&nbsp;관광&nbsp;거점&nbsp;조성<br>○&nbsp;로컬&nbsp;노포&nbsp;브랜드의&nbsp;육성&nbsp;지원<br>○&nbsp;미슐랭&nbsp;식당&nbsp;유치&nbsp;및&nbsp;육성&nbsp;지원으로&nbsp;부산의&nbsp;미식&nbsp;관광&nbsp;명소로&nbsp;발전<br><br>&nbsp;●&nbsp;목&nbsp;표&nbsp;:&nbsp;역사&nbsp;문화관광&nbsp;거점화로&nbsp;지역경제&nbsp;활성화<br>&nbsp;●&nbsp;이행방법&nbsp;:&nbsp;시장조사&nbsp;/&nbsp;예산&nbsp;확보<br>&nbsp;●&nbsp;이행기간&nbsp;:&nbsp;2026년부터&nbsp;연자척&nbsp;시행<br>&nbsp;●&nbsp;재원조달방안&nbsp;:&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	안전하고 든든한 행정으로, 모두가 행복한 생활 구현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="안전하고 든든한 행정으로, 모두가 행복한 생활 구현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;제로(Zero)&nbsp;재해&nbsp;안심&nbsp;도시&nbsp;구축으로&nbsp;24시간&nbsp;안심&nbsp;일상&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI기반&nbsp;스마트하수도&nbsp;및&nbsp;침수&nbsp;예측&nbsp;시스템&nbsp;전면&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;CCTV&nbsp;관제센터의&nbsp;인공지능&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사각지대&nbsp;없는&nbsp;안심&nbsp;통학로&nbsp;조성<br>○&nbsp;촘촘한&nbsp;생애주기&nbsp;맞춤형&nbsp;복지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트&nbsp;헬스를&nbsp;접목한&nbsp;‘동래형&nbsp;통합돌봄사업’&nbsp;추진으로&nbsp;차별화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;254억&nbsp;원&nbsp;규모의&nbsp;청년&nbsp;정책&nbsp;5개년&nbsp;사업의&nbsp;조속한&nbsp;추진으로&nbsp;청년과&nbsp;함께&nbsp;성장하는&nbsp;동래<br><br>&nbsp;●&nbsp;목&nbsp;표&nbsp;:&nbsp;구민&nbsp;삶의&nbsp;질&nbsp;향상<br>&nbsp;●&nbsp;이행방법&nbsp;:&nbsp;국토교통부&nbsp;등&nbsp;협의&nbsp;/&nbsp;예산&nbsp;확보<br>&nbsp;●&nbsp;이행기간&nbsp;:&nbsp;2026년부터&nbsp;연차적&nbsp;시행<br>&nbsp;●&nbsp;재원조달방안&nbsp;:&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

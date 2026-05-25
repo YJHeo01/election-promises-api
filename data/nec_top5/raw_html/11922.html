@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;곽내경 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	고갈되는 부천시 재정 대개혁</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="고갈되는 부천시 재정 대개혁">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;불필요한&nbsp;예산&nbsp;전면&nbsp;재조정,&nbsp;시민중심&nbsp;필수예산&nbsp;확대,&nbsp;재정자립도&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부천시&nbsp;재정을&nbsp;원점에서&nbsp;재점검하여&nbsp;낭비성&nbsp;예산은&nbsp;과감히&nbsp;줄이고&nbsp;시민필수&nbsp;예산을&nbsp;확대하는&nbsp;책임재정&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;불필요한&nbsp;예산&nbsp;전면&nbsp;재조정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행사성&nbsp;예산&nbsp;및&nbsp;중복&nbsp;사업&nbsp;전면&nbsp;재검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불필요한&nbsp;용역&nbsp;발주&nbsp;축소&nbsp;및&nbsp;예산&nbsp;낭비&nbsp;차단<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;중심&nbsp;필수&nbsp;예산&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민&nbsp;체감도가&nbsp;낮은&nbsp;사업에&nbsp;대한&nbsp;우선순위&nbsp;조정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민&nbsp;생활과&nbsp;직결되는&nbsp;공공서비스&nbsp;품질&nbsp;향상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재난,&nbsp;안전&nbsp;대응&nbsp;예산&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;재정자립도&nbsp;강화&nbsp;정책&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;유치&nbsp;및&nbsp;첨단산업&nbsp;기반확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공기관&nbsp;운영&nbsp;효율화&nbsp;및&nbsp;경영혁신&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;투명한&nbsp;예산&nbsp;감시&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;사업&nbsp;예산&nbsp;공개&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불필요한&nbsp;사업,&nbsp;시민평가&nbsp;통해&nbsp;폐지&nbsp;검토<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기&nbsp;:&nbsp;예산재검토를&nbsp;위한&nbsp;TF팀&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;중기&nbsp;:&nbsp;재정&nbsp;구조조정&nbsp;및&nbsp;채무&nbsp;감축&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;장기&nbsp;:&nbsp;재정자립도&nbsp;향상&nbsp;및&nbsp;안정적&nbsp;재정제계<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;예산&nbsp;구조조정을&nbsp;통한&nbsp;재원학보<br>&nbsp;&nbsp;○&nbsp;세수기반&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;국도비&nbsp;확보&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;불필요한&nbsp;예산은&nbsp;과감히&nbsp;줄이고&nbsp;시민필수&nbsp;예산&nbsp;확대,&nbsp;채무는&nbsp;체계적으로&nbsp;줄이고&nbsp;기업유치와&nbsp;지역경제활성화로&nbsp;자립도&nbsp;향상,&nbsp;투명하고&nbsp;책임있는&nbsp;재정운영</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	연봉 1억 원 이상의 직장 2만개 이상 확보</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="연봉 1억 원 이상의 직장 2만개 이상 확보">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;아파트&nbsp;위주의&nbsp;개발에서&nbsp;벗어나&nbsp;기업과&nbsp;일자리가&nbsp;확보된&nbsp;활기찬&nbsp;경제&nbsp;도시&nbsp;구축,&nbsp;고부가치&nbsp;일자리&nbsp;창출,&nbsp;미래산업&nbsp;거점&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;부천&nbsp;실리콘밸리&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영상문화단지에서&nbsp;종합운동장을&nbsp;잇는&nbsp;첨단&nbsp;산업&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;기업&nbsp;친화적&nbsp;환경&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;과감한&nbsp;규제&nbsp;혁신을&nbsp;통해&nbsp;기업하기&nbsp;좋은&nbsp;도시&nbsp;환경&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;산업&nbsp;고도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;산업&nbsp;고도화&nbsp;:&nbsp;고도화&nbsp;및&nbsp;노후&nbsp;공장&nbsp;현대화&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;초기&nbsp;:&nbsp;재정&nbsp;개혁&nbsp;단행&nbsp;및&nbsp;규제&nbsp;완화&nbsp;전문&nbsp;지원팀&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;중기&nbsp;:&nbsp;기존산업&nbsp;및&nbsp;기업유치&nbsp;구체적&nbsp;협의&nbsp;및&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;후기&nbsp;:&nbsp;부천&nbsp;실리콘밸리&nbsp;인프라&nbsp;구축&nbsp;및&nbsp;스타트업&nbsp;펀드&nbsp;운용&nbsp;활성화<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;과감한&nbsp;재정&nbsp;개혁<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불필요한&nbsp;지출을&nbsp;정리하여&nbsp;시민의&nbsp;삶과&nbsp;경제&nbsp;활성화&nbsp;예산으로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;예산&nbsp;운용의&nbsp;효율화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래&nbsp;성장&nbsp;동력&nbsp;사업에&nbsp;집중&nbsp;투입<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;자본&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;투자&nbsp;활성화를&nbsp;통해&nbsp;시&nbsp;재정&nbsp;부담&nbsp;경감&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;부천의&nbsp;해답을&nbsp;'기업과&nbsp;일자리'에서&nbsp;찾고&nbsp;있으며,&nbsp;이를&nbsp;위해&nbsp;기존의&nbsp;비효율적인&nbsp;예산&nbsp;구조를&nbsp;완전히&nbsp;뜯어고치고,&nbsp;단순히&nbsp;사업&nbsp;나열이&nbsp;아닌&nbsp;'재정&nbsp;개혁을&nbsp;통한&nbsp;재원&nbsp;마련'과&nbsp;'성장&nbsp;도시로의&nbsp;체질&nbsp;개선'이라는&nbsp;연결&nbsp;고리를&nbsp;중점적으로&nbsp;제시</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	격차 없는 균형 발전 도시 공간재생</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="격차 없는 균형 발전 도시 공간재생">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;간&nbsp;균형&nbsp;발전&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후시설&nbsp;현대화&nbsp;및&nbsp;스마트&nbsp;기술&nbsp;접목을&nbsp;통해&nbsp;원도심과&nbsp;신도시&nbsp;사이의&nbsp;격차&nbsp;해소함.<br>&nbsp;&nbsp;○&nbsp;주거&nbsp;가치&nbsp;상승&nbsp;및&nbsp;분담금&nbsp;최소화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중동&nbsp;1기&nbsp;신도시&nbsp;및&nbsp;원도심&nbsp;재개발·재건축&nbsp;시&nbsp;주민들의&nbsp;경제적&nbsp;부담을&nbsp;대폭&nbsp;낮춤.<br>&nbsp;&nbsp;○&nbsp;도시&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;규제&nbsp;완화와&nbsp;전문적인&nbsp;지원을&nbsp;통해&nbsp;멈춰&nbsp;선&nbsp;부천의&nbsp;도시&nbsp;재생&nbsp;속도를&nbsp;높임.<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;행정&nbsp;및&nbsp;정책&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재건축·재개발&nbsp;규제&nbsp;완화&nbsp;및&nbsp;이를&nbsp;전담할&nbsp;'전문&nbsp;지원팀'&nbsp;구성.<br>&nbsp;&nbsp;○&nbsp;직접적&nbsp;재정&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공동주택&nbsp;유지보수&nbsp;및&nbsp;리모델링&nbsp;보조금을&nbsp;100억&nbsp;원&nbsp;규모로&nbsp;확대&nbsp;추진.&nbsp;원도심&nbsp;학교와&nbsp;공원&nbsp;지하&nbsp;공간을&nbsp;활용한&nbsp;공영주차장&nbsp;대폭&nbsp;확충.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;즉시&nbsp;착수&nbsp;및&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기&nbsp;시작과&nbsp;동시에&nbsp;재개발·재건축&nbsp;전문&nbsp;지원팀을&nbsp;구성,&nbsp;사업&nbsp;가속화.&nbsp;리모델링&nbsp;보조금&nbsp;확대&nbsp;등&nbsp;예산&nbsp;관련&nbsp;사업은&nbsp;차기&nbsp;예산안에&nbsp;즉시&nbsp;반영,&nbsp;원도심&nbsp;고도화&nbsp;및&nbsp;고도&nbsp;제한&nbsp;완화&nbsp;등은&nbsp;유관기관&nbsp;협의를&nbsp;통해&nbsp;단계별로&nbsp;성과&nbsp;도출.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;과감한&nbsp;재정&nbsp;개혁<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성과&nbsp;없는&nbsp;보여주기식&nbsp;사업과&nbsp;불필요한&nbsp;예산을&nbsp;정리하여&nbsp;도시재생&nbsp;및&nbsp;시&nbsp;민&nbsp;삶에&nbsp;직결되는&nbsp;재원&nbsp;확보.<br>&nbsp;&nbsp;○&nbsp;도시재생&nbsp;관련&nbsp;기금&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시재생&nbsp;기금&nbsp;및&nbsp;국·도비&nbsp;공모&nbsp;사업을&nbsp;통한&nbsp;외부&nbsp;재원&nbsp;확보&nbsp;병행&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;이&nbsp;공약은&nbsp;특히&nbsp;'보조금&nbsp;100억&nbsp;확대'와&nbsp;'분담금&nbsp;최소화'를&nbsp;약속하며,&nbsp;행정의&nbsp;효율성을&nbsp;높여&nbsp;재원을&nbsp;마련하겠다는&nbsp;점을&nbsp;분명히&nbsp;하고&nbsp;있음.&nbsp;'실질적인&nbsp;비용&nbsp;절감'과&nbsp;'전문적인&nbsp;행정&nbsp;지원'이&nbsp;결합&nbsp;된&nbsp;형태라는&nbsp;점이&nbsp;특화된&nbsp;공약</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	부천역의 재탄생, 제2의 부천역 전성기</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="부천역의 재탄생, 제2의 부천역 전성기">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;부천역&nbsp;상권&nbsp;활성화&nbsp;및&nbsp;막장유투버&nbsp;근절의&nbsp;근본적인&nbsp;대안마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상권의&nbsp;자생력&nbsp;강화,&nbsp;&nbsp;청년&nbsp;창업&nbsp;및&nbsp;스타트업&nbsp;육성,&nbsp;지역경제&nbsp;선순환<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;창업&nbsp;및&nbsp;스타트업&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창업&nbsp;공간&nbsp;제공&nbsp;및&nbsp;전용&nbsp;펀드&nbsp;조성을&nbsp;통한&nbsp;혁신&nbsp;기업&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부천역&nbsp;마루광장에&nbsp;'마루창업센터'&nbsp;설립<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;마케팅&nbsp;및&nbsp;특화사업&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;상권의&nbsp;활력을&nbsp;회복함<br>&nbsp;&nbsp;○&nbsp;마루광장의&nbsp;대변신을&nbsp;통한&nbsp;지역&nbsp;내&nbsp;소비&nbsp;촉진,&nbsp;유투버&nbsp;근절<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;초기&nbsp;:&nbsp;부천역&nbsp;개선을&nbsp;위한&nbsp;전문&nbsp;지원팀&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;중기&nbsp;:&nbsp;부천역&nbsp;마루광장&nbsp;계획의&nbsp;구체화<br>&nbsp;&nbsp;○&nbsp;후기&nbsp;:&nbsp;부천역&nbsp;마루창업센터&nbsp;등&nbsp;거점&nbsp;시설&nbsp;착공&nbsp;및&nbsp;대기업&nbsp;유치&nbsp;협의<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;과감한&nbsp;재정&nbsp;개혁&nbsp;:&nbsp;성과&nbsp;없는&nbsp;사업,&nbsp;보여주기식&nbsp;예산,&nbsp;불필요한&nbsp;지출을&nbsp;정리하여&nbsp;시민의&nbsp;삶과&nbsp;경제&nbsp;활성화&nbsp;예산으로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;예산&nbsp;운용의&nbsp;효율화&nbsp;:&nbsp;선심성&nbsp;예산&nbsp;배제를&nbsp;통해&nbsp;확보된&nbsp;가용&nbsp;재원을&nbsp;미래&nbsp;성장&nbsp;동력&nbsp;사업에&nbsp;집중&nbsp;투입<br>&nbsp;&nbsp;○&nbsp;국·도비&nbsp;확보&nbsp;:&nbsp;청년창업&nbsp;및&nbsp;소상공인&nbsp;지원을&nbsp;위한&nbsp;정부&nbsp;및&nbsp;경기도&nbsp;공모&nbsp;사업&nbsp;적극&nbsp;유치와&nbsp;매칭&nbsp;펀드&nbsp;활용&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;부천역을&nbsp;제2의&nbsp;전성기를&nbsp;계획하며,&nbsp;마루광장의&nbsp;대변신으로&nbsp;청년창업,&nbsp;기업유치,&nbsp;상권&nbsp;활성화까지&nbsp;돌아오는&nbsp;부천역으로&nbsp;만들&nbsp;구상임</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	'글로벌 반도체 기업 연계형 마이스터고'를 신설!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="'글로벌 반도체 기업 연계형 마이스터고'를 신설!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지능형·반응형&nbsp;행정&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;기반&nbsp;민원&nbsp;분석&nbsp;시스템을&nbsp;도입하여&nbsp;시민의&nbsp;요구에&nbsp;즉각&nbsp;대응하는&nbsp;효율적&nbsp;행정&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;미래&nbsp;핵심&nbsp;인재&nbsp;양성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육&nbsp;혁신과&nbsp;산업&nbsp;현장을&nbsp;연계하여&nbsp;부천의&nbsp;미래를&nbsp;책임질&nbsp;AI&nbsp;전문&nbsp;인력&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;산업&nbsp;기반&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부천형&nbsp;데이터&nbsp;센터&nbsp;구축&nbsp;및&nbsp;실증&nbsp;인프라&nbsp;지원을&nbsp;통해&nbsp;데이터&nbsp;중심의&nbsp;경제&nbsp;도시로&nbsp;도약<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;행정&nbsp;혁신&nbsp;:&nbsp;데이터&nbsp;기반의&nbsp;정밀한&nbsp;정책&nbsp;결정&nbsp;시스템&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;인재&nbsp;육성&nbsp;:&nbsp;'글로벌&nbsp;반도체&nbsp;기업&nbsp;연계형&nbsp;마이스터고'를&nbsp;신설,&nbsp;교육-취업-대학&nbsp;진학이&nbsp;선순환되는&nbsp;특화&nbsp;교육&nbsp;모델&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;산업&nbsp;육성&nbsp;:&nbsp;상동&nbsp;영상문화단지,&nbsp;춘의&nbsp;종합운동장,&nbsp;대장동을&nbsp;잇는&nbsp;'AI&nbsp;산업단지(부천&nbsp;실리콘밸리)'를&nbsp;조성하고&nbsp;부천형&nbsp;데이터&nbsp;센터&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;인프라&nbsp;지원&nbsp;:&nbsp;창업&nbsp;공간&nbsp;및&nbsp;펀드&nbsp;조성을&nbsp;통해&nbsp;AI&nbsp;관련&nbsp;혁신&nbsp;스타트업이&nbsp;성장할&nbsp;수&nbsp;있는&nbsp;생태계&nbsp;제공<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기:&nbsp;마이스터고&nbsp;설립을&nbsp;위한&nbsp;협력&nbsp;체계&nbsp;구축&nbsp;및&nbsp;산업단지&nbsp;계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;중기&nbsp;:&nbsp;마이스터고&nbsp;개교&nbsp;및&nbsp;AI&nbsp;실증&nbsp;인프라&nbsp;단계별&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;장기&nbsp;:&nbsp;AI&nbsp;산업단지&nbsp;완공을&nbsp;통한&nbsp;대기업&nbsp;유치&nbsp;및&nbsp;연봉&nbsp;1억&nbsp;원&nbsp;일자리&nbsp;창출&nbsp;실현<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;자본&nbsp;유치&nbsp;:&nbsp;대장동&nbsp;등&nbsp;주요&nbsp;거점에&nbsp;대기업을&nbsp;적극&nbsp;유치하여&nbsp;민간&nbsp;투자를&nbsp;활성화하고,&nbsp;지자체&nbsp;부담&nbsp;최소화<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;도비&nbsp;확보&nbsp;:&nbsp;국가&nbsp;AI&nbsp;정책과&nbsp;연계하여&nbsp;정부의&nbsp;데이터&nbsp;산업&nbsp;육성&nbsp;기금&nbsp;및&nbsp;경기도&nbsp;특화&nbsp;사업&nbsp;공모를&nbsp;통한&nbsp;재원&nbsp;매칭&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;이&nbsp;공약은&nbsp;단순히&nbsp;기술을&nbsp;도입하는&nbsp;것에&nbsp;그치지&nbsp;않고,&nbsp;'교육-일자리-산업'을&nbsp;하나로&nbsp;묶어&nbsp;부천을&nbsp;정체된&nbsp;도시에서&nbsp;성장하는&nbsp;도시로&nbsp;바꾸겠다는&nbsp;의지</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

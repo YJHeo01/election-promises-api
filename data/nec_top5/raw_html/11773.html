@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김시욱 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	대한민국 1호 K-교육문화산업단지 조성 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="대한민국 1호 K-교육문화산업단지 조성 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;<br>&nbsp;&nbsp;①&nbsp;정주&nbsp;여건&nbsp;대혁신&nbsp;:&nbsp;청년과&nbsp;가족이&nbsp;모여드는&nbsp;울주<br>수도권에&nbsp;집중된&nbsp;인프라의&nbsp;불균형을&nbsp;극복하고&nbsp;청년&nbsp;인구의&nbsp;유출을&nbsp;막아,&nbsp;가족이&nbsp;모여드는&nbsp;'살고&nbsp;싶은&nbsp;도시'를&nbsp;만들겠습니다.<br>&nbsp;&nbsp;②&nbsp;산업&nbsp;체질의&nbsp;진화&nbsp;&nbsp;:&nbsp;첨단&nbsp;지식산업&nbsp;메카<br>전통&nbsp;제조업이&nbsp;중심의&nbsp;울산&nbsp;산업&nbsp;생태계를&nbsp;AI,&nbsp;에듀테크&nbsp;,&nbsp;K-&nbsp;콘텐츠&nbsp;중심의&nbsp;'고부가&nbsp;가치&nbsp;청정&nbsp;산업'으로&nbsp;재편하겠습니다.<br>&nbsp;&nbsp;③&nbsp;남부권&nbsp;허브&nbsp;도약&nbsp;&nbsp;:&nbsp;부울경의&nbsp;중심<br>사통팔달의&nbsp;고속철도&nbsp;및&nbsp;광역도로망을&nbsp;바탕으로,&nbsp;울주를&nbsp;영남권&nbsp;최대의&nbsp;교육·문화&nbsp;융복합&nbsp;거점으로&nbsp;만들겠습니다.<br><br>○&nbsp;3단계&nbsp;이행방법&nbsp;및&nbsp;기간<br>&nbsp;&nbsp;①&nbsp;1단계(2026~2027)&nbsp;:&nbsp;교육발전특구&nbsp;지정&nbsp;및&nbsp;'혁신&nbsp;거점'&nbsp;선점<br>울산시·교육청·울산대가&nbsp;추진&nbsp;중인&nbsp;교육발전특구에&nbsp;'울주군&nbsp;+UNIST'가&nbsp;결합하겠습니다.&nbsp;2027년&nbsp;특구&nbsp;지정과&nbsp;함께&nbsp;거점예정지를&nbsp;'혁신교육문화특화거점'으로&nbsp;공식&nbsp;명시하여,&nbsp;대규모&nbsp;투자와&nbsp;교육&nbsp;인프라를&nbsp;구축하겠습니다.<br>&nbsp;&nbsp;②&nbsp;2단계(2028~2029)&nbsp;:&nbsp;K-컬처&nbsp;국책사업&nbsp;유치&nbsp;및&nbsp;'문화특구'&nbsp;지정<br>이재명&nbsp;대통령의&nbsp;타운홀미팅에서&nbsp;나왔던&nbsp;'K-컬처&nbsp;복합시설'을&nbsp;울주군에&nbsp;유치하겠습니다.&nbsp;또한&nbsp;'문화도시로&nbsp;지정받아,&nbsp;에듀테크와&nbsp;결합한&nbsp;울주만의&nbsp;독보적인&nbsp;융복합&nbsp;콘텐츠&nbsp;생태계를&nbsp;구축하겠습니다.<br>&nbsp;&nbsp;③&nbsp;3단계(2030~&nbsp;)&nbsp;:&nbsp;대한민국&nbsp;1호&nbsp;'K-교육문화산업단지'&nbsp;지정<br>1,&nbsp;2단계의&nbsp;성공적인&nbsp;투자와&nbsp;인프라를&nbsp;바탕으로&nbsp;국가산업단지&nbsp;승격을&nbsp;관철시켜,&nbsp;대한민국&nbsp;1호&nbsp;'K-교육문화산업단지'를&nbsp;완성하고,&nbsp;동남권&nbsp;글로벌&nbsp;교육·문화의&nbsp;핵심&nbsp;거점을&nbsp;완성하겠습니다.<br><br>○&nbsp;재원조달방안<br>&nbsp;&nbsp;①&nbsp;중앙부처&nbsp;예산&nbsp;지원&nbsp;:&nbsp;교육부&nbsp;(교육특구),&nbsp;문체부&nbsp;(문화도시),&nbsp;국토부(국가산단)&nbsp;등&nbsp;중앙부처의&nbsp;예산&nbsp;지원<br>&nbsp;&nbsp;②&nbsp;과감한&nbsp;지방비&nbsp;투자&nbsp;:&nbsp;울주군&nbsp;재원의&nbsp;대규모&nbsp;투자<br>&nbsp;&nbsp;③&nbsp;다양한&nbsp;민자&nbsp;유치&nbsp;특구&nbsp;:&nbsp;지정에&nbsp;따른&nbsp;여러&nbsp;혜택을&nbsp;통한&nbsp;다양한&nbsp;관련&nbsp;기업의&nbsp;민간투자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	500만 체류형 문화관광 도시 울주 달성 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="500만 체류형 문화관광 도시 울주 달성 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>&nbsp;&nbsp;①&nbsp;문화관광자원의&nbsp;삼각벨트&nbsp;:&nbsp;산&nbsp;바다&nbsp;역사를&nbsp;연결한&nbsp;체류형&nbsp;관광&nbsp;도시<br>'영남알프스'의&nbsp;산악&nbsp;힐링,&nbsp;'반구천'의&nbsp;천년&nbsp;역사,&nbsp;'간절곶과&nbsp;진하해수욕장'의&nbsp;해안&nbsp;절경을&nbsp;하나의&nbsp;문화관광&nbsp;콘텐츠로&nbsp;연결하여,&nbsp;스쳐&nbsp;가는&nbsp;관광이&nbsp;아닌&nbsp;'체류형&nbsp;문화관광&nbsp;도시'를&nbsp;완성하겠습니다.<br>&nbsp;&nbsp;②&nbsp;문화관광의&nbsp;산업화&nbsp;:&nbsp;'울주문화관광재단'&nbsp;설립&nbsp;및&nbsp;컨트롤타워&nbsp;격상&nbsp;<br>여러&nbsp;부서와&nbsp;기관으로&nbsp;흩어져&nbsp;있는&nbsp;문화관광&nbsp;정책을&nbsp;일원화하여&nbsp;'울주문화관광재단'을&nbsp;출범시키겠습니다.&nbsp;단순한&nbsp;관리&nbsp;기관이&nbsp;아니라,&nbsp;문화관광콘텐츠를&nbsp;개발·육성하고&nbsp;수익을&nbsp;창출하여&nbsp;문화관광의&nbsp;산업화를&nbsp;주도할&nbsp;컨트롤타워를&nbsp;만들겠습니다.&nbsp;&nbsp;<br>&nbsp;&nbsp;③&nbsp;지역경제&nbsp;선순환&nbsp;구조&nbsp;:&nbsp;돈이&nbsp;도는&nbsp;관광&nbsp;<br>지역&nbsp;상권에서만&nbsp;사용이&nbsp;가능한&nbsp;'지역상권상생쿠폰제도'를&nbsp;도입하여,&nbsp;관광객의&nbsp;돈이&nbsp;지역&nbsp;중소상인과&nbsp;군민의&nbsp;수익으로&nbsp;직결되게&nbsp;하여,&nbsp;관광&nbsp;활성화가&nbsp;지역경제의&nbsp;활력이&nbsp;되는&nbsp;선순환&nbsp;경제&nbsp;생태계를&nbsp;만들겠습니다.&nbsp;&nbsp;<br><br>○&nbsp;3단계&nbsp;이행&nbsp;방법&nbsp;및&nbsp;기간<br>&nbsp;&nbsp;①&nbsp;1단계(2026~2027)&nbsp;:&nbsp;'울주문화관광재단'&nbsp;출범&nbsp;및&nbsp;관광&nbsp;거버넌스&nbsp;일원화<br>흩어져&nbsp;있던&nbsp;문화·관광&nbsp;부서와&nbsp;산하&nbsp;기관들의&nbsp;중복&nbsp;업무를&nbsp;과감히&nbsp;정리하겠습니다.&nbsp;기존&nbsp;울주문화재단을&nbsp;'울주문화관광재단'으로&nbsp;확대&nbsp;개편하여,&nbsp;울주군&nbsp;전체의&nbsp;관광&nbsp;정책&nbsp;기획&nbsp;킬러,&nbsp;콘텐츠&nbsp;발굴,&nbsp;마케팅&nbsp;등을&nbsp;지휘하는&nbsp;일원화된&nbsp;체계를&nbsp;구축하겠습니다.&nbsp;<br>&nbsp;&nbsp;②&nbsp;2단계(2028~2029)&nbsp;:&nbsp;핵심&nbsp;'킬러&nbsp;콘텐츠'&nbsp;개발&nbsp;및&nbsp;초연결&nbsp;관광망&nbsp;구축<br>재단을&nbsp;중심으로&nbsp;울주만의&nbsp;압도적인&nbsp;콘텐츠를&nbsp;만들겠습니다.&nbsp;서부권의&nbsp;'영남알프스-&nbsp;반구대-꽃길-언양장&nbsp;미식투어'와&nbsp;남부권의&nbsp;'간절곶-진하-서생&nbsp;12km&nbsp;사계절&nbsp;해안&nbsp;꽃길'&nbsp;등&nbsp;체류형&nbsp;킬러&nbsp;콘텐츠를&nbsp;완성하겠습니다.&nbsp;또한&nbsp;입장료를&nbsp;지역화폐&nbsp;형태의&nbsp;상'생쿠폰'으로&nbsp;전액&nbsp;환급하여&nbsp;울주군&nbsp;지역경제&nbsp;전체에&nbsp;돈이&nbsp;돌게&nbsp;만드는&nbsp;'초연결&nbsp;관광&nbsp;벨트'를&nbsp;구축하겠습니다.<br>&nbsp;&nbsp;③&nbsp;3단계(2030~&nbsp;)&nbsp;:&nbsp;&nbsp;콘텐츠의&nbsp;안정적&nbsp;운영&nbsp;및&nbsp;'500만&nbsp;체류형&nbsp;생태계'&nbsp;안착<br>완성된&nbsp;콘텐츠가&nbsp;지속가능하도록&nbsp;재단&nbsp;산하에&nbsp;전문&nbsp;운영&nbsp;관리&nbsp;시스템을&nbsp;확립하겠습니다&nbsp;지역&nbsp;주민을&nbsp;상시&nbsp;관리&nbsp;인력&nbsp;및&nbsp;문화기획가로&nbsp;적극&nbsp;채용하고,&nbsp;재단&nbsp;주도의&nbsp;신규&nbsp;프로그램&nbsp;발굴을&nbsp;통해&nbsp;연간&nbsp;'500만&nbsp;관광객&nbsp;방문'과&nbsp;'수백억원의&nbsp;직접&nbsp;경제효과'가&nbsp;유지되는&nbsp;생태계를&nbsp;안착시키겠습니다.<br><br>○&nbsp;재원조달방안<br>&nbsp;&nbsp;①&nbsp;전략적&nbsp;국비&nbsp;공모&nbsp;:&nbsp;문화관광&nbsp;관련&nbsp;국비&nbsp;사업을&nbsp;재단&nbsp;주도로&nbsp;적극&nbsp;공모&nbsp;및&nbsp;유치<br>&nbsp;&nbsp;②&nbsp;과감한&nbsp;지방비&nbsp;투자&nbsp;:&nbsp;울주군&nbsp;재원의&nbsp;대규모&nbsp;투자<br>&nbsp;&nbsp;③&nbsp;수익&nbsp;창출형&nbsp;생태계&nbsp;:&nbsp;핵심&nbsp;문화관광&nbsp;콘텐츠의&nbsp;유료화&nbsp;및&nbsp;상생쿠폰&nbsp;연계를&nbsp;통해,&nbsp;스스로&nbsp;수익을&nbsp;창출하고&nbsp;재투자하는&nbsp;자생적&nbsp;재원&nbsp;모델&nbsp;확립</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	국민성장펀드 10조원 투자 유치를 통한 성장동력 확충 및 일자리 창출 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="국민성장펀드 10조원 투자 유치를 통한 성장동력 확충 및 일자리 창출 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>&nbsp;&nbsp;①&nbsp;국가&nbsp;미래&nbsp;자본&nbsp;선점&nbsp;:&nbsp;이재명&nbsp;정부&nbsp;'국민성장펀드'&nbsp;최우선&nbsp;유치<br>정부가&nbsp;미래&nbsp;전략&nbsp;산업&nbsp;육성을&nbsp;위해&nbsp;조성한&nbsp;150조&nbsp;원&nbsp;규모의&nbsp;'국민성장펀드'&nbsp;중,&nbsp;핵심&nbsp;10조원&nbsp;단위의&nbsp;메가프로젝트&nbsp;투자를&nbsp;울주군에&nbsp;유치하겠습니다.<br>&nbsp;&nbsp;②&nbsp;산업&nbsp;체질&nbsp;개선&nbsp;:&nbsp;굴뚝&nbsp;산업에서&nbsp;'AI·K-&nbsp;콘텐츠'의&nbsp;첨단&nbsp;지식산업으로&nbsp;진화<br>전통적인&nbsp;제조업&nbsp;중심인&nbsp;한계를&nbsp;넘어,&nbsp;범용성이&nbsp;높고&nbsp;폭발적인&nbsp;AI,&nbsp;K-&nbsp;콘텐츠,&nbsp;에듀테크&nbsp;등&nbsp;울주의&nbsp;새로운&nbsp;성장&nbsp;동력으로&nbsp;만들겠습니다.<br>&nbsp;&nbsp;③&nbsp;새로운&nbsp;청년&nbsp;일자리&nbsp;창출&nbsp;:&nbsp;청년이&nbsp;정착하는,&nbsp;활력&nbsp;넘치는&nbsp;울주<br>대규모&nbsp;국가&nbsp;자본&nbsp;투자와&nbsp;첨단&nbsp;지식산업&nbsp;생태계의&nbsp;결합으로,&nbsp;청년들이&nbsp;선호하는&nbsp;고부가가치&nbsp;양질의&nbsp;일자리를&nbsp;창출하겠습니다&nbsp;이를&nbsp;통해&nbsp;청년들이&nbsp;정착하고&nbsp;살아갈&nbsp;수&nbsp;있는,&nbsp;활력&nbsp;넘치는&nbsp;울주를&nbsp;완성하겠습니다.<br><br>○&nbsp;3단계&nbsp;이행&nbsp;방법&nbsp;및&nbsp;기간&nbsp;<br>&nbsp;&nbsp;①&nbsp;1단계(2026~2027)&nbsp;:&nbsp;메가프로젝트&nbsp;유치를&nbsp;위한&nbsp;행정적&nbsp;준비<br>군수&nbsp;직속으로&nbsp;'국가자본유치&nbsp;TF'를&nbsp;신설하여&nbsp;펀드&nbsp;유치에&nbsp;선제적으로&nbsp;대응하겠습니다&nbsp;또한&nbsp;‘K-&nbsp;교육문화산업단지'를&nbsp;펀드&nbsp;투자의&nbsp;최적&nbsp;특화구역으로&nbsp;지정하여,&nbsp;메가프로젝트&nbsp;유치의&nbsp;행정적·물리적&nbsp;기반을&nbsp;마련하겠습니다.<br>&nbsp;&nbsp;②&nbsp;2단계(2028~2029)&nbsp;:&nbsp;&nbsp;‘AI·&nbsp;에듀테크·K-&nbsp;콘텐츠'&nbsp;앵커&nbsp;기업&nbsp;집중&nbsp;육성<br>확보된&nbsp;펀드&nbsp;자금을&nbsp;울주의&nbsp;미래를&nbsp;주도할&nbsp;앵커&nbsp;기업에&nbsp;집중&nbsp;투자하겠습니다.&nbsp;특히&nbsp;플랫폼&nbsp;기반의&nbsp;에듀테크&nbsp;및&nbsp;K-콘텐츠&nbsp;혁신&nbsp;기업을&nbsp;집중&nbsp;육성하여,&nbsp;울주를&nbsp;거대한&nbsp;지식산업의&nbsp;중심을&nbsp;만들어가겠습니다.<br>&nbsp;&nbsp;③&nbsp;3단계(2030~&nbsp;)&nbsp;:&nbsp;&nbsp;양질의&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;기업&nbsp;성장&nbsp;과실의&nbsp;군민&nbsp;환원<br>펀드&nbsp;투자로&nbsp;집중&nbsp;육성된&nbsp;기업의&nbsp;성장을&nbsp;통해&nbsp;고부가가치&nbsp;양질의&nbsp;청년&nbsp;일자리를&nbsp;창출하겠습니다.&nbsp;또한&nbsp;'국민참여형&nbsp;펀'드&nbsp;제도를&nbsp;적극&nbsp;활용하여,&nbsp;군민이&nbsp;지역&nbsp;유망&nbsp;기업에&nbsp;투자해&nbsp;소득공제를&nbsp;받고&nbsp;그&nbsp;기업의&nbsp;성장&nbsp;이익이&nbsp;군민의&nbsp;이익으로&nbsp;이어지는&nbsp;'부의&nbsp;선순환&nbsp;경제&nbsp;생태계'를&nbsp;정착시키겠습니다.<br><br>○&nbsp;재원조달방안<br>&nbsp;&nbsp;①&nbsp;국민성장펀드의&nbsp;유치&nbsp;:&nbsp;정부&nbsp;메가프로젝트&nbsp;공모를&nbsp;통한&nbsp;최대&nbsp;10조&nbsp;원&nbsp;규모의&nbsp;국가재원&nbsp;확보<br>&nbsp;&nbsp;②&nbsp;울주형&nbsp;지역활성화펀드&nbsp;조성&nbsp;:&nbsp;울주군&nbsp;재원과&nbsp;지역&nbsp;내&nbsp;우량&nbsp;기업&nbsp;자본을&nbsp;결합한&nbsp;'울주형&nbsp;지역활성화펀드'&nbsp;조성<br>&nbsp;&nbsp;③&nbsp;민·관학&nbsp;거버넌스&nbsp;구축&nbsp;:&nbsp;&nbsp;군민과&nbsp;기업(투자)-울주군(행정&nbsp;지원)-&nbsp;UNIST(기술&nbsp;검증)의&nbsp;거버넌스를&nbsp;구축하여,&nbsp;펀드&nbsp;투자의&nbsp;안정성과&nbsp;수익률&nbsp;극대화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	버스노선 원상복귀와 전군민 버스 무료화 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="버스노선 원상복귀와 전군민 버스 무료화 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>&nbsp;&nbsp;①&nbsp;대중교통&nbsp;접근성&nbsp;회복&nbsp;:&nbsp;버스&nbsp;노선&nbsp;개편안&nbsp;재검토&nbsp;및&nbsp;기존&nbsp;노선&nbsp;정상화<br>울산시의&nbsp;시내버스&nbsp;노선&nbsp;개편은&nbsp;울주군의&nbsp;지역적&nbsp;특성을&nbsp;충분히&nbsp;반영하지&nbsp;못하여,&nbsp;군민들의&nbsp;대중교통&nbsp;접근성을&nbsp;크게&nbsp;하락시켰습니다.&nbsp;환승&nbsp;증가와&nbsp;배차&nbsp;간격&nbsp;연장&nbsp;등&nbsp;실질적&nbsp;불편을&nbsp;초래한&nbsp;노선&nbsp;개편을&nbsp;전면&nbsp;재검토하고,&nbsp;수요가&nbsp;입증된&nbsp;기존&nbsp;노선으로&nbsp;정상화하겠습니다.<br>&nbsp;&nbsp;②&nbsp;보편적&nbsp;교통&nbsp;복지&nbsp;실현&nbsp;:&nbsp;전&nbsp;군민&nbsp;시내버스&nbsp;전면&nbsp;무료화<br>서울&nbsp;면적의&nbsp;1.2배에&nbsp;달하는&nbsp;울주군에&nbsp;산다는&nbsp;이유로&nbsp;군민들이&nbsp;이동의&nbsp;불편과&nbsp;비용을&nbsp;감수해야&nbsp;하는&nbsp;현실을&nbsp;타파하겠습니다.&nbsp;군민의&nbsp;대중교통비&nbsp;부담을&nbsp;전면&nbsp;해소하여&nbsp;이동&nbsp;편의성을&nbsp;높이고,&nbsp;관내&nbsp;경제&nbsp;활동과&nbsp;소비를&nbsp;촉진하는&nbsp;지역&nbsp;경제&nbsp;선순환&nbsp;구조를&nbsp;구축하겠습니다.<br>&nbsp;&nbsp;③&nbsp;수요자&nbsp;중심&nbsp;교통&nbsp;체계&nbsp;:&nbsp;군민&nbsp;참여형&nbsp;노선&nbsp;결정&nbsp;시스템&nbsp;도입<br>행정&nbsp;중심의&nbsp;일방적&nbsp;노선&nbsp;결정을&nbsp;탈피하겠습니다.&nbsp;실제&nbsp;이용자인&nbsp;군민의&nbsp;수요와&nbsp;현장&nbsp;데이터가&nbsp;노선&nbsp;결정&nbsp;과정에&nbsp;반영되는&nbsp;'울주군&nbsp;맞춤형&nbsp;대중교통&nbsp;거버넌스'를&nbsp;확립하겠습니다.<br><br>○&nbsp;3대&nbsp;이행&nbsp;방법&nbsp;및&nbsp;기간<br>&nbsp;&nbsp;①&nbsp;1단계(2026)&nbsp;:&nbsp;&nbsp;실태&nbsp;조사를&nbsp;통한&nbsp;노선&nbsp;원상복귀&nbsp;및&nbsp;핀셋&nbsp;조정<br>태화강역&nbsp;및&nbsp;대학병원&nbsp;등&nbsp;주요&nbsp;거점을&nbsp;연결하던&nbsp;직행&nbsp;노선&nbsp;폐지,&nbsp;배차&nbsp;간격&nbsp;연장&nbsp;등&nbsp;군민의&nbsp;실질적&nbsp;불편&nbsp;및&nbsp;피해&nbsp;사례를&nbsp;전수&nbsp;조사하겠습니다.&nbsp;이를&nbsp;근거로&nbsp;울산시에&nbsp;노선&nbsp;개편의&nbsp;부당성을&nbsp;제기하고,&nbsp;군민&nbsp;수요가&nbsp;검증된&nbsp;기존&nbsp;노선으로의&nbsp;즉각적인&nbsp;원상복귀&nbsp;및&nbsp;지역별&nbsp;맞춤형&nbsp;핀셋&nbsp;조정을&nbsp;시행하겠습니다.<br>&nbsp;&nbsp;②&nbsp;2단계(2027~2028)&nbsp;:&nbsp;전&nbsp;군민&nbsp;버스&nbsp;무료화&nbsp;및&nbsp;관내&nbsp;고속도로&nbsp;통행료&nbsp;지원<br>울주군에&nbsp;주민등록을&nbsp;둔&nbsp;모든&nbsp;군민을&nbsp;대상으로&nbsp;시내버스&nbsp;요금을&nbsp;100%&nbsp;지원하는&nbsp;'전&nbsp;군민&nbsp;무료화'를&nbsp;전면&nbsp;시행하겠습니다.&nbsp;이에&nbsp;더해,&nbsp;넓은&nbsp;지역적&nbsp;특성을&nbsp;고려하여&nbsp;군민이&nbsp;관내&nbsp;고속도로를&nbsp;이동&nbsp;목적으로&nbsp;이용할&nbsp;시&nbsp;발생하는&nbsp;통행료를&nbsp;지원하여&nbsp;물리적·경제적&nbsp;거리감을&nbsp;동시에&nbsp;해소하겠습니다.<br>&nbsp;&nbsp;③&nbsp;3단계(2029~2030)&nbsp;:&nbsp;데이터&nbsp;기반&nbsp;'대중교통&nbsp;노선&nbsp;위원회'&nbsp;출범&nbsp;및&nbsp;맞춤&nbsp;증차&nbsp;<br>읍·면별&nbsp;군민과&nbsp;교통&nbsp;전문가가&nbsp;직접&nbsp;참여하는&nbsp;'대중교통&nbsp;노선&nbsp;위원회'를&nbsp;신설하겠습니다.&nbsp;통신사&nbsp;유동&nbsp;인구&nbsp;데이터와&nbsp;교통카드&nbsp;승하차&nbsp;기록&nbsp;등&nbsp;객관적&nbsp;지표를&nbsp;바탕으로,&nbsp;실근무자&nbsp;출퇴근&nbsp;및&nbsp;학생&nbsp;등하교&nbsp;시간대&nbsp;등&nbsp;꼭&nbsp;필요한&nbsp;시간과&nbsp;장소에&nbsp;버스를&nbsp;집중&nbsp;증차하는&nbsp;실용적&nbsp;교통&nbsp;시스템을&nbsp;완성하겠습니다.<br><br>○&nbsp;재원&nbsp;조달&nbsp;방안<br>&nbsp;&nbsp;①&nbsp;교통&nbsp;복지&nbsp;특별회계&nbsp;신설&nbsp;:&nbsp;버스&nbsp;및&nbsp;통행료&nbsp;지원에&nbsp;필요한&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;②&nbsp;울산시&nbsp;대중교통&nbsp;보조금&nbsp;재협상&nbsp;:&nbsp;울주군민의&nbsp;대중교통&nbsp;서비스&nbsp;소외&nbsp;데이터를&nbsp;명확히&nbsp;산출하여,&nbsp;울산시가&nbsp;분담하는&nbsp;대중교통&nbsp;보조금&nbsp;및&nbsp;인프라&nbsp;지원금의&nbsp;배정을&nbsp;대폭&nbsp;인상&nbsp;추진&nbsp;<br>&nbsp;&nbsp;③&nbsp;운영&nbsp;효율화를&nbsp;통한&nbsp;재투자&nbsp;:&nbsp;노선과&nbsp;운행시간을&nbsp;다각도로&nbsp;분석·재정비하여&nbsp;예산&nbsp;누수를&nbsp;막고,&nbsp;여기서&nbsp;절감된&nbsp;비용을&nbsp;전액&nbsp;노선&nbsp;증차&nbsp;및&nbsp;무료화&nbsp;지원금으로&nbsp;재투자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	울주교육지원청 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="울주교육지원청 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>&nbsp;&nbsp;①&nbsp;울주군맞춤형&nbsp;밀착&nbsp;교육행정&nbsp;실현&nbsp;:&nbsp;서울보다&nbsp;면적이&nbsp;넓은&nbsp;울주군은&nbsp;물리적&nbsp;한계로&nbsp;인해&nbsp;신속하고&nbsp;세밀한&nbsp;교육행정지원이&nbsp;이루어지지&nbsp;않고&nbsp;있습니다.&nbsp;따라서,&nbsp;울주군만을&nbsp;관장하는&nbsp;교육지원청을&nbsp;설치하여&nbsp;밀착형&nbsp;교육행정체계를&nbsp;구현하겠습니다.<br>&nbsp;&nbsp;②&nbsp;진학·진로&nbsp;지도&nbsp;강화로&nbsp;청년&nbsp;인구&nbsp;정착&nbsp;기반&nbsp;마련&nbsp;:&nbsp;우수한&nbsp;교육&nbsp;여건은&nbsp;청년과&nbsp;젊은&nbsp;가족들의&nbsp;정주&nbsp;요인이&nbsp;됩니다.&nbsp;울주교육지원청의&nbsp;다양한&nbsp;프로그램과&nbsp;지원센터를&nbsp;통해&nbsp;우수한&nbsp;교육&nbsp;여건을&nbsp;실현하겠습니다.<br>&nbsp;&nbsp;③&nbsp;생애주기&nbsp;평생학습&nbsp;체계를&nbsp;구축하여&nbsp;교육도시&nbsp;완성&nbsp;:&nbsp;교육의&nbsp;대상은&nbsp;학생에&nbsp;국한되지&nbsp;않습니다.&nbsp;중장년층과&nbsp;노년층을&nbsp;비롯한&nbsp;전&nbsp;세대가&nbsp;함께&nbsp;배우고&nbsp;성장하는&nbsp;울주군을&nbsp;만들기&nbsp;위해&nbsp;체계적인&nbsp;평생학습&nbsp;지원&nbsp;체계를&nbsp;구축하겠습니다.&nbsp;<br><br>○&nbsp;3단계&nbsp;이행&nbsp;방법&nbsp;및&nbsp;기간<br>&nbsp;&nbsp;①&nbsp;1단계(2026)&nbsp;:&nbsp;울주군청·울산교육청&nbsp;공동TF&nbsp;구성&nbsp;및&nbsp;관련조례&nbsp;개정<br>취임&nbsp;즉시&nbsp;실태조사&nbsp;및&nbsp;학교,&nbsp;학생수,&nbsp;교원배치,&nbsp;통학거리&nbsp;등&nbsp;객관적&nbsp;데이터를&nbsp;전면&nbsp;검토하겠습니다.&nbsp;교육지원청의&nbsp;실질적&nbsp;권한이&nbsp;있는&nbsp;울산시&nbsp;교육감과&nbsp;공식적인&nbsp;정책&nbsp;협의&nbsp;채널을&nbsp;확보하고,&nbsp;공동&nbsp;TF를&nbsp;구성하여&nbsp;교육지원청&nbsp;설립을&nbsp;위한&nbsp;조례&nbsp;개정을&nbsp;추진하겠습니다.&nbsp;울산광역시의회&nbsp;교육위원회&nbsp;소속&nbsp;의원과&nbsp;긴밀히&nbsp;연대하여&nbsp;시의회&nbsp;내&nbsp;우호적&nbsp;기반을&nbsp;조성하여&nbsp;교육지원청&nbsp;설립을&nbsp;위한&nbsp;조례개정이&nbsp;원만히&nbsp;추진될&nbsp;수&nbsp;있도록&nbsp;적극&nbsp;지원하겠습니다.<br>&nbsp;&nbsp;②&nbsp;2단계(2027~2028)&nbsp;:&nbsp;설치확정,&nbsp;청사부지&nbsp;선정&nbsp;및&nbsp;착공&nbsp;<br>울주군&nbsp;차원의&nbsp;지원방안을&nbsp;구체적으로&nbsp;마련하고,&nbsp;교육지원청&nbsp;신설에&nbsp;따른&nbsp;초기&nbsp;비용&nbsp;분담,&nbsp;청사부지&nbsp;제공&nbsp;등&nbsp;울주군이&nbsp;담당할&nbsp;수&nbsp;있는&nbsp;모든&nbsp;지원을&nbsp;아끼지&nbsp;않겠습니다.&nbsp;조례&nbsp;개정과&nbsp;병행하여&nbsp;교육지원청&nbsp;청사&nbsp;부지를&nbsp;울주군&nbsp;내&nbsp;행정&nbsp;접근성이&nbsp;우수한&nbsp;지역에&nbsp;선정하고&nbsp;기본설계에&nbsp;착수하겠습니다.&nbsp;<br>&nbsp;&nbsp;③&nbsp;3단계(2029~2030)&nbsp;:&nbsp;울주군&nbsp;교육지원청&nbsp;개청&nbsp;및&nbsp;기능&nbsp;고도화<br>임기&nbsp;내&nbsp;울주군&nbsp;교육지원청을&nbsp;개청하고&nbsp;모든&nbsp;교육행정&nbsp;업무의&nbsp;이관을&nbsp;완료하겠습니다.&nbsp;개청과&nbsp;동시에&nbsp;울주군&nbsp;전역에&nbsp;교육행정&nbsp;지원활동이&nbsp;활발하게&nbsp;이루어지는&nbsp;새로운&nbsp;시대를&nbsp;열겠습니다.&nbsp;<br><br>○&nbsp;재원조달방안<br>&nbsp;&nbsp;①&nbsp;교육부&nbsp;지방교육행정기관&nbsp;특별교부금&nbsp;:&nbsp;지원청&nbsp;설립을&nbsp;위한&nbsp;특별교부금&nbsp;확보<br>&nbsp;&nbsp;②&nbsp;지방재정&nbsp;투입&nbsp;:&nbsp;울주군의&nbsp;재원&nbsp;투입<br>&nbsp;&nbsp;③&nbsp;울산교육청&nbsp;지방교육재정교부금&nbsp;:&nbsp;지방재정교육교부금&nbsp;내&nbsp;신규항목&nbsp;편성&nbsp;협의</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

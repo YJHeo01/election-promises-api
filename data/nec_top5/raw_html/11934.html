@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이상호 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	탄탄페이 인센티브 20% 상시 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="탄탄페이 인센티브 20% 상시 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            카드형&nbsp;지역화폐인&nbsp;탄탄페이&nbsp;인센티브를&nbsp;연간&nbsp;상시&nbsp;20%를&nbsp;지원하는&nbsp;공약입니다.&nbsp;개인으로&nbsp;한&nbsp;달&nbsp;기준,&nbsp;75만&nbsp;원을&nbsp;충전해&nbsp;30억&nbsp;원&nbsp;이하&nbsp;관내&nbsp;탄탄페이&nbsp;가맹점으로&nbsp;등록된&nbsp;상점에&nbsp;사용할&nbsp;수&nbsp;있습니다.&nbsp;탄탄페이로&nbsp;결제&nbsp;시,&nbsp;인센티브가&nbsp;지급되며,&nbsp;현재,&nbsp;명절을&nbsp;제외하고&nbsp;기본적으로&nbsp;15%가&nbsp;지급되고&nbsp;있습니다.&nbsp;<br>&nbsp;&nbsp;&nbsp;따라서&nbsp;소비의&nbsp;지역&nbsp;촉진을&nbsp;확대하고,&nbsp;지역경제&nbsp;활성화와&nbsp;함께&nbsp;혜택은&nbsp;시민에게&nbsp;풍성하게&nbsp;드리기&nbsp;위해&nbsp;탄탄페이&nbsp;인센티브&nbsp;20%&nbsp;상시&nbsp;지원을&nbsp;제1공약으로&nbsp;선정했습니다.&nbsp;<br>&nbsp;&nbsp;&nbsp;민선9기&nbsp;출범&nbsp;후,&nbsp;즉시&nbsp;시행할&nbsp;예정이며,&nbsp;한&nbsp;달&nbsp;75만&nbsp;원을&nbsp;충전해&nbsp;모두&nbsp;사용하면,&nbsp;최대&nbsp;15만&nbsp;원의&nbsp;인센티브&nbsp;혜택을&nbsp;받을&nbsp;수&nbsp;있습니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역경제&nbsp;활성화&nbsp;-&nbsp;탄탄페이를&nbsp;통한&nbsp;소비&nbsp;촉진을&nbsp;통해&nbsp;지역에서&nbsp;발생&nbsp;된&nbsp;소득이&nbsp;다시&nbsp;지역에서&nbsp;소비되는&nbsp;선순환&nbsp;경제&nbsp;환경을&nbsp;더욱&nbsp;견고히&nbsp;구축하고자&nbsp;함.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;민선9기&nbsp;취임&nbsp;후,&nbsp;추가경정예산안을&nbsp;통해&nbsp;시행&nbsp;-&nbsp;현재,&nbsp;탄탄페이&nbsp;인센티브&nbsp;지원&nbsp;조례가&nbsp;마련되어&nbsp;있고,&nbsp;인센티브&nbsp;비율은&nbsp;차기&nbsp;출범하는&nbsp;태백시의회에&nbsp;수정&nbsp;조례안을&nbsp;제출해&nbsp;시행하려고&nbsp;함.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선9기&nbsp;기간인&nbsp;2026년&nbsp;7월부터&nbsp;2030년&nbsp;6월까지&nbsp;이행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1순위&nbsp;공약인&nbsp;만큼&nbsp;민선&nbsp;9기&nbsp;출범&nbsp;후,&nbsp;곧바로&nbsp;시행하고자&nbsp;함.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재원은&nbsp;강원랜드로부터&nbsp;얻는&nbsp;폐광기금&nbsp;및&nbsp;배당금과&nbsp;가덕산풍력발전단지&nbsp;배당금,&nbsp;지난&nbsp;10년간&nbsp;오투리조트&nbsp;보증&nbsp;채무를&nbsp;갚고자&nbsp;예산으로&nbsp;배정된&nbsp;채무상환금을&nbsp;활용해&nbsp;재원을&nbsp;차질이&nbsp;없이&nbsp;집행할&nbsp;계획임.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	태백URL 구축을 통한 글로벌 연구도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="태백URL 구축을 통한 글로벌 연구도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            6,475억&nbsp;원이&nbsp;투입되는&nbsp;태백URL(연구용&nbsp;지하연구시설)은&nbsp;민선8기&nbsp;태백시의&nbsp;미래&nbsp;성장동력을&nbsp;만들기&nbsp;위한&nbsp;가장&nbsp;큰&nbsp;성과&nbsp;중&nbsp;하나입니다.&nbsp;<br>&nbsp;&nbsp;전액&nbsp;국비로&nbsp;추진되는&nbsp;태백URL은&nbsp;단순한&nbsp;토목.건축&nbsp;사업이&nbsp;아니라&nbsp;과거&nbsp;대한&nbsp;민국&nbsp;산업화의&nbsp;중추적인&nbsp;역할을&nbsp;한&nbsp;태백시가&nbsp;앞으로&nbsp;고준위&nbsp;방폐장&nbsp;조성을&nbsp;위한&nbsp;글로벌&nbsp;석학들이&nbsp;모이는&nbsp;연구단지로서&nbsp;발돋움하는&nbsp;핵심적인&nbsp;프로젝트입니다.&nbsp;&nbsp;<br>&nbsp;&nbsp;따라서&nbsp;태백URL은&nbsp;전&nbsp;세계&nbsp;최초&nbsp;무탄소&nbsp;청정에너지를&nbsp;활용한&nbsp;시설로&nbsp;조성함과&nbsp;동시에&nbsp;원자력환경공단과&nbsp;함께&nbsp;석탄산업의&nbsp;중심지였던&nbsp;철암에&nbsp;대규모&nbsp;컨벤션&nbsp;센터&nbsp;건립은&nbsp;물론,&nbsp;각종&nbsp;인프라&nbsp;사업이&nbsp;추진해&nbsp;글로벌&nbsp;연구도시로&nbsp;조성하고자&nbsp;합니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;태백URL&nbsp;조기&nbsp;착공&nbsp;및&nbsp;준공&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;태백&nbsp;연구용&nbsp;지하연구시설은&nbsp;현재,&nbsp;오는&nbsp;2032년&nbsp;시설&nbsp;운영을&nbsp;목표로하고&nbsp;있음.&nbsp;태백의&nbsp;경제&nbsp;환경을&nbsp;고려해&nbsp;조기&nbsp;착공을&nbsp;위한&nbsp;원자력환경공단과&nbsp;구성한&nbsp;협의체를&nbsp;통해&nbsp;2030년에&nbsp;시설&nbsp;운영이&nbsp;시작될&nbsp;수&nbsp;있도록&nbsp;함.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;원자력환경공단&nbsp;및&nbsp;각종&nbsp;부처와&nbsp;협업&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;태백URL의&nbsp;조기&nbsp;착공을&nbsp;위해&nbsp;각종&nbsp;규제를&nbsp;비롯한&nbsp;인허가&nbsp;기간을&nbsp;앞당겨&nbsp;조기&nbsp;착공될&nbsp;수&nbsp;있게&nbsp;할&nbsp;계획.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선9기&nbsp;기간인&nbsp;2026년&nbsp;7월부터&nbsp;2030년&nbsp;6월까지&nbsp;이행&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민선8기부터&nbsp;이어져&nbsp;온&nbsp;프로젝트인&nbsp;만큼&nbsp;연속성을&nbsp;갖고&nbsp;추진.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원은&nbsp;전액&nbsp;국비&nbsp;및&nbsp;간접인프라&nbsp;조성을&nbsp;위한&nbsp;시비로&nbsp;구성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연구용&nbsp;지하연구시설&nbsp;재원은&nbsp;전액&nbsp;국비이며,&nbsp;재원조달은&nbsp;문제&nbsp;없음.&nbsp;연구용&nbsp;지하연구시설이&nbsp;들어오기&nbsp;위해&nbsp;필요한&nbsp;도로,&nbsp;상하수도&nbsp;등&nbsp;사회간접자본&nbsp;시설&nbsp;구축은&nbsp;시비로&nbsp;재원을&nbsp;마련할&nbsp;계획임.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	멈추지 않는 교통의 대전환 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="멈추지 않는 교통의 대전환 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            민선8기&nbsp;영월~태백~삼척&nbsp;동서고속도로&nbsp;미개통&nbsp;구간에&nbsp;대한&nbsp;정부의&nbsp;예타&nbsp;통과라는&nbsp;큰&nbsp;성과를&nbsp;시민과&nbsp;함께&nbsp;이뤄냈습니다.&nbsp;또한,&nbsp;태백선에&nbsp;EMU&nbsp;-&nbsp;150(ITX마음)을&nbsp;도입과&nbsp;강남고속버스터미널이&nbsp;종착지인&nbsp;고속버스를&nbsp;도입해&nbsp;수도권과의&nbsp;접근성을&nbsp;크게&nbsp;향상시켰습니다.&nbsp;<br>&nbsp;&nbsp;따라서&nbsp;민선9기에는&nbsp;동서고속도로&nbsp;노선이&nbsp;태백에&nbsp;가장&nbsp;유리한&nbsp;방향으로&nbsp;반영될&nbsp;수&nbsp;있도록&nbsp;적극&nbsp;추진할&nbsp;계획이며,&nbsp;여기에&nbsp;철도의&nbsp;경우,&nbsp;오는&nbsp;2030년까지&nbsp;무궁화호&nbsp;등&nbsp;일반&nbsp;열차를&nbsp;준고속열차인&nbsp;EMU-&nbsp;150으로&nbsp;전면&nbsp;교체를&nbsp;약속드립니다.&nbsp;<br>&nbsp;&nbsp;아울러&nbsp;제5차국가철도망구축계획에&nbsp;태백선&nbsp;직선화를&nbsp;반영시켜&nbsp;오는&nbsp;2035년까지&nbsp;고속열차인&nbsp;KTX이음을&nbsp;도입해&nbsp;수도권&nbsp;1시간대를&nbsp;실현,&nbsp;민선&nbsp;8기부터&nbsp;이어져&nbsp;온&nbsp;교통의&nbsp;대전환을&nbsp;마무리&nbsp;하겠습니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;수도권&nbsp;접근성&nbsp;향상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영월~태백~삼척고속도로&nbsp;조기&nbsp;착공&nbsp;및&nbsp;태백에&nbsp;유리한&nbsp;노선&nbsp;변경&nbsp;추진.&nbsp;제5차국가철도망구축계획에&nbsp;태백선&nbsp;직선화&nbsp;반영.&nbsp;오는&nbsp;2030년까지&nbsp;준고속열차&nbsp;도입&nbsp;및&nbsp;2035년&nbsp;KTX이음&nbsp;도입.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;교통망은&nbsp;국가&nbsp;사업인&nbsp;만큼&nbsp;국회,&nbsp;정부,&nbsp;강원특별자치도와&nbsp;소통을&nbsp;통해&nbsp;이행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;2026년&nbsp;7월부터&nbsp;2035년&nbsp;6월까지&nbsp;이행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가사업인&nbsp;만큼&nbsp;이행&nbsp;기간&nbsp;안에&nbsp;착공을&nbsp;목표로&nbsp;함.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원은&nbsp;국비&nbsp;사업인&nbsp;만큼&nbsp;국회,&nbsp;정부,&nbsp;강원특별자치도&nbsp;등과&nbsp;협업해&nbsp;관련&nbsp;예산&nbsp;확보.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	대학생 등록금 전액 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="대학생 등록금 전액 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            대학생&nbsp;장학금은&nbsp;민선8기&nbsp;매년&nbsp;100만&nbsp;원으로&nbsp;시작해&nbsp;큰&nbsp;호응을&nbsp;얻은&nbsp;바&nbsp;있습니다.&nbsp;앞으로&nbsp;민선9기&nbsp;출범과&nbsp;함께&nbsp;대학생&nbsp;장학금을&nbsp;매년&nbsp;200만&nbsp;원으로&nbsp;확대하는&nbsp;것을&nbsp;계획하고&nbsp;있습니다.&nbsp;<br>&nbsp;&nbsp;이를&nbsp;통해&nbsp;지역의&nbsp;중학생&nbsp;졸업&nbsp;예정자들의&nbsp;관내&nbsp;고등학교&nbsp;진학&nbsp;비율을&nbsp;더욱&nbsp;높이고&nbsp;더&nbsp;나아가&nbsp;대학생&nbsp;지원금이&nbsp;탄탄페이로&nbsp;지급되는&nbsp;만큼&nbsp;지역소비&nbsp;촉진&nbsp;및&nbsp;활성화에도&nbsp;크게&nbsp;기여할&nbsp;것으로&nbsp;내다보고&nbsp;있습니다.&nbsp;<br>&nbsp;&nbsp;따라서&nbsp;민선9기&nbsp;출범화&nbsp;함께&nbsp;대학생&nbsp;지원금&nbsp;200만&nbsp;원을&nbsp;곧바로&nbsp;달성하고,&nbsp;임기&nbsp;중에&nbsp;관내&nbsp;고등학교&nbsp;졸업생&nbsp;중&nbsp;대학교에&nbsp;진학하는&nbsp;학생들을&nbsp;대상으로&nbsp;대학생&nbsp;등&nbsp;록금&nbsp;전액&nbsp;지원&nbsp;정책으로&nbsp;확대해&nbsp;누구나&nbsp;걱정&nbsp;없이&nbsp;대학교에&nbsp;진학할&nbsp;수&nbsp;있는&nbsp;교육환경을&nbsp;조성하겠습니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;누구나&nbsp;걱정&nbsp;없는&nbsp;대학교&nbsp;진학<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1차&nbsp;대학생&nbsp;장학금&nbsp;200만&nbsp;원으로&nbsp;확대,&nbsp;관내&nbsp;중학교&nbsp;졸업생&nbsp;이탈&nbsp;최소화.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2단계&nbsp;사업으로&nbsp;전액&nbsp;대학교&nbsp;등록금&nbsp;추진으로&nbsp;확대.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대학생&nbsp;지원에&nbsp;대한&nbsp;기존&nbsp;조례를&nbsp;개정해&nbsp;바로&nbsp;이행할&nbsp;계획임.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선9기&nbsp;기간인&nbsp;2026년&nbsp;7월부터&nbsp;2030년&nbsp;6월까지&nbsp;이행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재원은&nbsp;강원랜드로부터&nbsp;얻는&nbsp;폐광기금&nbsp;및&nbsp;배당금과&nbsp;가덕산풍력발전단지&nbsp;배당금,&nbsp;지난&nbsp;10년간&nbsp;오투리조트&nbsp;보증&nbsp;채무를&nbsp;갚고자&nbsp;예산으로&nbsp;배정된&nbsp;채무상환금을&nbsp;활용해&nbsp;재원을&nbsp;차질없이&nbsp;집행할&nbsp;계획임.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	어르신 이미용 바우처 도입 및 도로 열선 설치 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="어르신 이미용 바우처 도입 및 도로 열선 설치 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            어르신들의&nbsp;사회생활&nbsp;참여&nbsp;확대&nbsp;및&nbsp;삶의&nbsp;질&nbsp;향상을&nbsp;위해&nbsp;매년&nbsp;24만&nbsp;원씩&nbsp;어르신&nbsp;이미용&nbsp;바우처를&nbsp;도입을&nbsp;공약합니다.&nbsp;이를&nbsp;통해&nbsp;어르신들에게&nbsp;삶에&nbsp;활력을&nbsp;불어놓고&nbsp;지역에&nbsp;있는&nbsp;미용실과&nbsp;목욕탕&nbsp;활성화도&nbsp;목표로&nbsp;하고&nbsp;있습니다.&nbsp;<br>&nbsp;&nbsp;또한,&nbsp;상습&nbsp;결빙&nbsp;구간에&nbsp;대한&nbsp;열선&nbsp;설치를&nbsp;확대하겠습니다.&nbsp;민선8기&nbsp;적극적인&nbsp;교부세&nbsp;확보&nbsp;등으로&nbsp;각&nbsp;동별&nbsp;상습&nbsp;결빙구간에&nbsp;대한&nbsp;열선&nbsp;설치&nbsp;결과,&nbsp;보행자&nbsp;및&nbsp;차량&nbsp;사고&nbsp;예방의&nbsp;효과가&nbsp;확인된&nbsp;만큼&nbsp;민생공약의&nbsp;일환으로&nbsp;민선9기&nbsp;도로&nbsp;열선&nbsp;설치를&nbsp;확대를&nbsp;약속드립니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;삶의&nbsp;질&nbsp;향상&nbsp;및&nbsp;시민&nbsp;안전&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신의&nbsp;사회&nbsp;활동을&nbsp;촉진과&nbsp;이미용업소&nbsp;활성화&nbsp;겨울철&nbsp;상습&nbsp;결빙으로&nbsp;인한&nbsp;시민&nbsp;안전&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;이미용&nbsp;바우처&nbsp;도입은&nbsp;조례&nbsp;신설로&nbsp;진행할&nbsp;계획임.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;도로&nbsp;열선의&nbsp;경우,&nbsp;교부세&nbsp;확보&nbsp;등&nbsp;예산&nbsp;확보를&nbsp;통해&nbsp;사업&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;민선9기&nbsp;기간인&nbsp;2026년&nbsp;7월부터&nbsp;2030년&nbsp;6월까지&nbsp;이행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재원은&nbsp;강원랜드로부터&nbsp;얻는&nbsp;폐광기금&nbsp;및&nbsp;배당금과&nbsp;가덕산풍력발전단지&nbsp;배당금,&nbsp;지난&nbsp;10년간&nbsp;오투리조트&nbsp;보증&nbsp;채무를&nbsp;갚고자&nbsp;예산으로&nbsp;배정된&nbsp;채무상환금을&nbsp;활용해&nbsp;재원을&nbsp;차질이&nbsp;없이&nbsp;집행할&nbsp;계획임.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박종효 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	만수천 소하천 복원 완성과 도심 생태하천 대전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="만수천 소하천 복원 완성과 도심 생태하천 대전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;1995년&nbsp;복개되어&nbsp;악취와&nbsp;수질&nbsp;오염이&nbsp;심각해진&nbsp;만수천&nbsp;구간(구월동&nbsp;1305&nbsp;~&nbsp;1318-5&nbsp;일원,&nbsp;0.75km)을&nbsp;맑은&nbsp;물이&nbsp;흐르는&nbsp;생태&nbsp;하천으로&nbsp;완전&nbsp;복원.&nbsp;집중호우&nbsp;등&nbsp;기후변화에&nbsp;대비한&nbsp;방재&nbsp;기능을&nbsp;강화하고,&nbsp;삭막한&nbsp;도심&nbsp;속&nbsp;구민&nbsp;휴식&nbsp;공간을&nbsp;대폭&nbsp;확충하여&nbsp;원도심&nbsp;활력&nbsp;증진.<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;복개구조물&nbsp;철거&nbsp;및&nbsp;하수암거(3.0×2.3@2)&nbsp;설치&nbsp;공사&nbsp;실시.&nbsp;만수천&nbsp;복원에&nbsp;따른&nbsp;기존&nbsp;주차&nbsp;공간&nbsp;부족&nbsp;문제를&nbsp;선제적으로&nbsp;해결할&nbsp;대체&nbsp;주차장&nbsp;확보&nbsp;병행.&nbsp;<br>열악한&nbsp;구&nbsp;재정&nbsp;부담을&nbsp;최소화하기&nbsp;위해&nbsp;굴포천&nbsp;등&nbsp;타&nbsp;사례를&nbsp;근거로&nbsp;인천시&nbsp;예산&nbsp;지원&nbsp;비율&nbsp;상향(50%→75%)을&nbsp;적극&nbsp;협의&nbsp;및&nbsp;관철.<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2022년&nbsp;~&nbsp;2030년&nbsp;(중앙투자심사&nbsp;등&nbsp;행정절차&nbsp;완료&nbsp;후&nbsp;본예산&nbsp;편성&nbsp;및&nbsp;공사&nbsp;추진).<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총&nbsp;487억&nbsp;원&nbsp;소요.&nbsp;시비&nbsp;보조율&nbsp;상향(75%)&nbsp;관철을&nbsp;통한&nbsp;국·시비&nbsp;집중&nbsp;확보로&nbsp;구비&nbsp;부담&nbsp;최소화.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	원도심 맞춤형 재개발·재건축 및 뉴빌리지 사업 적극 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="원도심 맞춤형 재개발·재건축 및 뉴빌리지 사업 적극 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;간석동,&nbsp;만수동&nbsp;등&nbsp;노후&nbsp;주거지의&nbsp;주거&nbsp;만족도를&nbsp;획기적으로&nbsp;높여&nbsp;신도시와의&nbsp;격차를&nbsp;줄이고&nbsp;균형&nbsp;발전을&nbsp;달성.&nbsp;지속&nbsp;가능한&nbsp;정주&nbsp;여건&nbsp;개선을&nbsp;통한&nbsp;인구&nbsp;유입&nbsp;도모.<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전담&nbsp;지원단&nbsp;가동&nbsp;및&nbsp;'신속&nbsp;통합&nbsp;기획'&nbsp;행정&nbsp;지원으로&nbsp;신속한&nbsp;재개발·재건축&nbsp;유도.&nbsp;만수주공&nbsp;등&nbsp;대단지&nbsp;아파트의&nbsp;재건축&nbsp;행정망을&nbsp;적극&nbsp;지원하고,&nbsp;만수역과&nbsp;단지&nbsp;내부를&nbsp;잇는&nbsp;지하&nbsp;연결통로&nbsp;신설.&nbsp;전면&nbsp;재개발이&nbsp;어려운&nbsp;노후&nbsp;다세대&nbsp;밀집&nbsp;지역(간석3동&nbsp;등)은&nbsp;국토부&nbsp;'뉴빌리지&nbsp;사업'을&nbsp;도입해&nbsp;주차장,&nbsp;건강문화센터,&nbsp;필수&nbsp;녹지&nbsp;등&nbsp;생활&nbsp;인프라&nbsp;집중&nbsp;조성.<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진&nbsp;(간석3동&nbsp;뉴빌리지&nbsp;사업:&nbsp;2025년&nbsp;~&nbsp;2028년&nbsp;완료).<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총&nbsp;276억&nbsp;원(간석3동&nbsp;뉴빌리지&nbsp;기준).&nbsp;국토부&nbsp;공모사업&nbsp;선정에&nbsp;따른&nbsp;국·시비&nbsp;지원&nbsp;및&nbsp;구비&nbsp;매칭,&nbsp;정비사업의&nbsp;민간&nbsp;자본&nbsp;유치.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	소래습지 '제1호 국가도시공원' 지정 및 주변 상생 개발 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="소래습지 '제1호 국가도시공원' 지정 및 주변 상생 개발 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;수도권&nbsp;유일의&nbsp;해양&nbsp;생태&nbsp;자원인&nbsp;소래습지를&nbsp;대한민국&nbsp;제1호&nbsp;'국가도시공원'으로&nbsp;지정받아&nbsp;국가적&nbsp;랜드마크로&nbsp;육성.&nbsp;동시에&nbsp;장기&nbsp;방치된&nbsp;주변&nbsp;사유지를&nbsp;구민&nbsp;맞춤형&nbsp;여가·휴양&nbsp;인프라로&nbsp;획기적으로&nbsp;탈바꿈.<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;인천시&nbsp;및&nbsp;국토부와의&nbsp;강력한&nbsp;정책&nbsp;공조(원팀)를&nbsp;통해&nbsp;복잡한&nbsp;공원&nbsp;지정&nbsp;행정&nbsp;절차를&nbsp;패스트트랙으로&nbsp;추진.&nbsp;논현동&nbsp;1-24번지&nbsp;일원의&nbsp;방치된&nbsp;주변&nbsp;지역은&nbsp;상생&nbsp;공영&nbsp;개발&nbsp;방식을&nbsp;적용,&nbsp;민간&nbsp;개발&nbsp;이익을&nbsp;공공기여로&nbsp;투명하게&nbsp;환수.&nbsp;확보된&nbsp;부지에&nbsp;다양한&nbsp;주민&nbsp;친화적&nbsp;시설&nbsp;조성.<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계(2021년~2028년,&nbsp;소래습지&nbsp;및&nbsp;해오름공원),&nbsp;2단계(2028년&nbsp;이후,&nbsp;주변&nbsp;공원&nbsp;및&nbsp;습지&nbsp;연계).<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;특혜&nbsp;논란&nbsp;없는&nbsp;투명한&nbsp;민관&nbsp;상생&nbsp;공영&nbsp;개발&nbsp;방식을&nbsp;통해&nbsp;막대한&nbsp;구&nbsp;예산&nbsp;투입&nbsp;없이&nbsp;공공기여로&nbsp;부지&nbsp;및&nbsp;재원&nbsp;확보,&nbsp;국가도시공원&nbsp;지정에&nbsp;따른&nbsp;국비&nbsp;지원.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	운연역 역세권 고밀도 개발 및 일자리 창출 단지 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="운연역 역세권 고밀도 개발 및 일자리 창출 단지 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;제2경인선&nbsp;광역철도와&nbsp;인천도시철도&nbsp;2호선이&nbsp;교차하게&nbsp;될&nbsp;운연역&nbsp;일대(운연동&nbsp;87,&nbsp;271번지&nbsp;일원)를&nbsp;남동구의&nbsp;핵심&nbsp;환승&nbsp;허브이자&nbsp;미래&nbsp;신성장&nbsp;거점으로&nbsp;탈바꿈.<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대중교통&nbsp;중심(TOD)의&nbsp;고밀도&nbsp;복합&nbsp;역세권으로&nbsp;개발하여&nbsp;쾌적한&nbsp;상업&nbsp;및&nbsp;주거&nbsp;인프라&nbsp;대폭&nbsp;확충.&nbsp;무분별한&nbsp;공장&nbsp;밀집&nbsp;지역과&nbsp;음실마을&nbsp;일대를&nbsp;준산업단지로&nbsp;지정·정비.&nbsp;이와&nbsp;결합하여&nbsp;AI&nbsp;등&nbsp;다양한&nbsp;첨단산업을&nbsp;유치해&nbsp;대규모&nbsp;청년&nbsp;일자리&nbsp;창출&nbsp;기반&nbsp;조성.<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;제2경인선&nbsp;추진&nbsp;일정&nbsp;및&nbsp;2040&nbsp;인천&nbsp;도시기본계획과&nbsp;연계하여&nbsp;임기&nbsp;내&nbsp;구역&nbsp;지정&nbsp;및&nbsp;행정절차&nbsp;중점&nbsp;추진.<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;투자&nbsp;적극&nbsp;유치&nbsp;및&nbsp;민관&nbsp;합동&nbsp;개발&nbsp;방식&nbsp;적용.&nbsp;역세권&nbsp;연계&nbsp;기반&nbsp;시설&nbsp;구축을&nbsp;위한&nbsp;국·시비&nbsp;확보.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	구월2지구 내 고품격 가칭 남동식물원 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="구월2지구 내 고품격 가칭 남동식물원 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;구월2지구&nbsp;복합공원&nbsp;내에&nbsp;약&nbsp;1만㎡(온실&nbsp;3천㎡,&nbsp;부대시설&nbsp;7천㎡&nbsp;등)&nbsp;규모의&nbsp;대형&nbsp;온실&nbsp;식물원&nbsp;건립.&nbsp;구민들이&nbsp;멀리&nbsp;외곽으로&nbsp;나갈&nbsp;필요&nbsp;없이&nbsp;도심&nbsp;속에서&nbsp;사계절&nbsp;자연을&nbsp;누릴&nbsp;수&nbsp;있는&nbsp;고품격&nbsp;테마&nbsp;공간&nbsp;마련.<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;최근&nbsp;증가하는&nbsp;반려식물&nbsp;관심도와&nbsp;생태&nbsp;휴식&nbsp;트렌드를&nbsp;반영하여&nbsp;남동구만의&nbsp;지역&nbsp;특색을&nbsp;담은&nbsp;식물원&nbsp;조성.&nbsp;구월2&nbsp;공공주택지구의&nbsp;지구계획&nbsp;및&nbsp;개발계획&nbsp;수립&nbsp;초기&nbsp;단계부터&nbsp;식물원이&nbsp;핵심&nbsp;공원&nbsp;시설로&nbsp;반드시&nbsp;반영되도록&nbsp;사업시행자(인천도시공사)&nbsp;및&nbsp;관계&nbsp;기관에&nbsp;적극&nbsp;요구&nbsp;및&nbsp;관철.<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2029년&nbsp;(구월2지구&nbsp;택지&nbsp;조성&nbsp;일정&nbsp;및&nbsp;훼손지&nbsp;복구사업&nbsp;시기와&nbsp;연계).<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;약&nbsp;100억&nbsp;원&nbsp;예상.&nbsp;개발사업&nbsp;시행자인&nbsp;인천도시공사&nbsp;사업에&nbsp;포함시켜는&nbsp;방안&nbsp;강구.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

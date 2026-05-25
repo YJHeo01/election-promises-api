@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;오중기 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	대구·경북 행정통합 기반 동북아 500만 메가 물류경제권 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="대구·경북 행정통합 기반 동북아 500만 메가 물류경제권 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;핵심추진과제<br>○&nbsp;‘대구·경북&nbsp;행정통합&nbsp;500만&nbsp;메가시티’&nbsp;추진&nbsp;및&nbsp;2028년&nbsp;대구경북특별시&nbsp;출범<br>○&nbsp;연간&nbsp;최대&nbsp;5조&nbsp;원&nbsp;규모&nbsp;국가&nbsp;재정지원&nbsp;확보와&nbsp;재정·행정&nbsp;자치권&nbsp;확대<br>○&nbsp;TK&nbsp;통합신공항&nbsp;조속&nbsp;건설&nbsp;및&nbsp;영일만항&nbsp;확충을&nbsp;통한&nbsp;동북아&nbsp;국제물류&nbsp;허브&nbsp;구축<br>○&nbsp;신공항·항만&nbsp;연계&nbsp;첨단산업·물류&nbsp;배후단지&nbsp;조성과&nbsp;대규모&nbsp;일자리&nbsp;창출<br>○&nbsp;북극항로·청정에너지&nbsp;기반&nbsp;항공·해운·물류&nbsp;복합경제권&nbsp;조성&nbsp;및&nbsp;2차&nbsp;공공기관&nbsp;이전&nbsp;추진<br><br>■&nbsp;목&nbsp;표<br>○&nbsp;대구·경북&nbsp;행정통합을&nbsp;기반으로&nbsp;500만&nbsp;메가시티와&nbsp;동북아&nbsp;물류경제권을&nbsp;구축하겠습니다.&nbsp;TK&nbsp;통합신공항과&nbsp;영일만항을&nbsp;양대&nbsp;축으로&nbsp;항공·해운·철도·에너지가&nbsp;결합된&nbsp;입체적&nbsp;산업·물류&nbsp;체계를&nbsp;완성하여&nbsp;대한민국&nbsp;균형발전의&nbsp;새로운&nbsp;성장엔진으로&nbsp;만들겠습니다.&nbsp;재정·행정&nbsp;자율성을&nbsp;강화하고&nbsp;첨단산업과&nbsp;글로벌&nbsp;물류기업을&nbsp;집적시켜&nbsp;산업·인구·일자리가&nbsp;선순환하는&nbsp;지속가능한&nbsp;경제&nbsp;생태계를&nbsp;조성하겠습니다.<br><br>■&nbsp;이행방법<br>○&nbsp;행정통합&nbsp;추진&nbsp;TF&nbsp;및&nbsp;메가경제권&nbsp;추진단&nbsp;구성,&nbsp;단계별&nbsp;로드맵&nbsp;수립<br>○&nbsp;국회·중앙정부와&nbsp;협력하여&nbsp;행정통합특별법&nbsp;제정&nbsp;및&nbsp;국가재정&nbsp;지원&nbsp;확보<br>○&nbsp;TK&nbsp;통합신공항&nbsp;공공자금&nbsp;투입과&nbsp;사업구조&nbsp;개편을&nbsp;통한&nbsp;안정적&nbsp;사업&nbsp;추진<br>○&nbsp;영일만항&nbsp;인프라&nbsp;확충과&nbsp;스마트·친환경&nbsp;항만물류&nbsp;시스템&nbsp;단계적&nbsp;구축<br>○&nbsp;신공항·항만&nbsp;배후단지에&nbsp;첨단&nbsp;제조·물류·에너지&nbsp;기업&nbsp;유치&nbsp;및&nbsp;공공기관&nbsp;이전&nbsp;연계&nbsp;추진<br><br>■&nbsp;이행기간<br>○&nbsp;2026년&nbsp;~&nbsp;2028년&nbsp;:&nbsp;대구경북특별시&nbsp;출범&nbsp;및&nbsp;핵심&nbsp;기반&nbsp;구축<br>○&nbsp;2028년&nbsp;이후&nbsp;:&nbsp;동북아&nbsp;물류·산업&nbsp;중심&nbsp;메가경제권&nbsp;단계적&nbsp;완성<br><br>■&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비&nbsp;+&nbsp;지방비&nbsp;+&nbsp;민자&nbsp;+&nbsp;공공자금&nbsp;+&nbsp;특별법&nbsp;기반&nbsp;국가재정&nbsp;지원<br>○&nbsp;신공항·항만·산업단지&nbsp;국가사업화&nbsp;및&nbsp;공공투자&nbsp;확대&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	제조AI·바이오 혁신과 국립의대로 완성하는 경북 미래생명산업 수도</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="제조AI·바이오 혁신과 국립의대로 완성하는 경북 미래생명산업 수도">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;핵심추진과제<br>○&nbsp;구미-포항&nbsp;제조&nbsp;AI·로봇&nbsp;특화벨트와&nbsp;안동-포항&nbsp;바이오&nbsp;클러스터&nbsp;조성<br>○&nbsp;제조데이터&nbsp;기반&nbsp;자립형&nbsp;AI&nbsp;산업생태계&nbsp;구축&nbsp;및&nbsp;초격차&nbsp;기술&nbsp;확보<br>○&nbsp;경북&nbsp;북부권&nbsp;국립의과대학·상급종합병원&nbsp;설립&nbsp;추진<br>○&nbsp;바이오·의료산업&nbsp;연계&nbsp;글로벌&nbsp;기업&nbsp;유치&nbsp;및&nbsp;연구개발(R&D)&nbsp;혁신&nbsp;확대<br>○&nbsp;전문인력&nbsp;양성과&nbsp;지역의사제&nbsp;도입을&nbsp;통한&nbsp;인재&nbsp;정착&nbsp;선순환&nbsp;체계&nbsp;구축<br><br>■&nbsp;목&nbsp;표<br>○&nbsp;제조&nbsp;AI·바이오&nbsp;산업과&nbsp;공공의료&nbsp;혁신을&nbsp;양대&nbsp;축으로&nbsp;경북의&nbsp;미래산업과&nbsp;생명안전&nbsp;체계를&nbsp;동시에&nbsp;대전환하겠습니다.&nbsp;구미·포항의&nbsp;첨단&nbsp;제조혁신과&nbsp;안동&nbsp;중심&nbsp;바이오·의료&nbsp;클러스터를&nbsp;연계하여&nbsp;글로벌&nbsp;초격차&nbsp;기술&nbsp;경쟁력을&nbsp;확보하고&nbsp;국립의과대학과&nbsp;상급종합병원&nbsp;설립으로&nbsp;의료격차를&nbsp;해소해&nbsp;도민&nbsp;누구나&nbsp;지역에서&nbsp;최고&nbsp;수준의&nbsp;의료서비스를&nbsp;누릴&nbsp;수&nbsp;있는&nbsp;미래생명산업&nbsp;수도&nbsp;경북을&nbsp;만들겠습니다.<br><br>■&nbsp;이행방법<br>○&nbsp;구미-포항&nbsp;제조&nbsp;AI·로봇&nbsp;클러스터와&nbsp;안동&nbsp;바이오·의료&nbsp;특화단지&nbsp;단계적&nbsp;구축<br>○&nbsp;산학연병&nbsp;협력&nbsp;기반&nbsp;연구개발(R&D)·실증·의료데이터&nbsp;인프라&nbsp;확대<br>○&nbsp;국립의대&nbsp;설립과&nbsp;상급종합병원&nbsp;유치를&nbsp;위한&nbsp;범정부&nbsp;협의체&nbsp;즉시&nbsp;가동<br>○&nbsp;글로벌&nbsp;바이오·AI&nbsp;기업&nbsp;유치와&nbsp;세제&nbsp;혜택·규제&nbsp;혁신&nbsp;패키지&nbsp;추진<br>○&nbsp;지역&nbsp;대학·연구기관&nbsp;연계&nbsp;전문인력&nbsp;및&nbsp;지역의사&nbsp;양성체계&nbsp;구축<br><br>■&nbsp;이행기간<br>○&nbsp;2026년&nbsp;~&nbsp;2030년&nbsp;:&nbsp;국립의대&nbsp;설립&nbsp;및&nbsp;미래산업&nbsp;기반&nbsp;구축<br>○&nbsp;2030년&nbsp;이후&nbsp;:&nbsp;글로벌&nbsp;미래생명산업&nbsp;거점&nbsp;단계적&nbsp;완성<br><br>■&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비&nbsp;+&nbsp;지방비&nbsp;+&nbsp;민자&nbsp;+&nbsp;정책금융&nbsp;+&nbsp;공공의료&nbsp;투자<br>○&nbsp;국가&nbsp;첨단전략산업·공공의료&nbsp;국가사업&nbsp;연계&nbsp;및&nbsp;투자&nbsp;확대&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	에너지 연금과 수소환원제철로 여는 경북 산업·에너지 대전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="에너지 연금과 수소환원제철로 여는 경북 산업·에너지 대전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;핵심추진과제<br>○&nbsp;재생에너지·원전을&nbsp;연계한&nbsp;‘경북형&nbsp;에너지&nbsp;연금’&nbsp;체계&nbsp;구축<br>○&nbsp;철강기업&nbsp;및&nbsp;에너지&nbsp;다소비&nbsp;산업&nbsp;전기요금&nbsp;긴급&nbsp;지원과&nbsp;고용&nbsp;안정&nbsp;추진<br>○&nbsp;수소환원제철&nbsp;중심&nbsp;저탄소&nbsp;철강산업&nbsp;전환&nbsp;및&nbsp;미래&nbsp;경쟁력&nbsp;확보<br>○&nbsp;발전&nbsp;수익&nbsp;도민&nbsp;환원과&nbsp;주민&nbsp;참여형&nbsp;에너지&nbsp;수익&nbsp;배분&nbsp;시스템&nbsp;구축<br>○&nbsp;에너지·철강&nbsp;산업&nbsp;연계&nbsp;기술개발,&nbsp;정책금융,&nbsp;전문인력&nbsp;재교육&nbsp;확대<br><br>■&nbsp;목&nbsp;표<br>○&nbsp;풍부한&nbsp;재생에너지와&nbsp;원전&nbsp;자원을&nbsp;기반으로&nbsp;발전&nbsp;수익을&nbsp;도민에게&nbsp;환원하는&nbsp;‘경북형&nbsp;에너지&nbsp;연금’을&nbsp;실현하겠습니다.&nbsp;동시에&nbsp;전기요금&nbsp;부담&nbsp;완화와&nbsp;수소환원제철&nbsp;중심의&nbsp;저탄소&nbsp;산업&nbsp;전환을&nbsp;통해&nbsp;철강산업의&nbsp;경쟁력을&nbsp;강화하고&nbsp;지속&nbsp;가능한&nbsp;미래산업&nbsp;체계를&nbsp;구축하겠습니다.&nbsp;에너지와&nbsp;산업이&nbsp;함께&nbsp;성장하는&nbsp;선순환&nbsp;구조를&nbsp;만들어&nbsp;경북을&nbsp;대한민국&nbsp;에너지·철강&nbsp;혁신의&nbsp;중심으로&nbsp;도약시키겠습니다.<br><br>■&nbsp;이행방법<br>○&nbsp;경북&nbsp;에너지&nbsp;주민협력센터&nbsp;설립&nbsp;및&nbsp;발전&nbsp;수익&nbsp;주민&nbsp;환원&nbsp;제도&nbsp;단계적&nbsp;구축<br>○&nbsp;중앙정부와&nbsp;협력한&nbsp;전기요금&nbsp;지원·세제&nbsp;감면·정책금융&nbsp;패키지&nbsp;즉각&nbsp;추진<br>○&nbsp;수소환원제철&nbsp;기술개발&nbsp;및&nbsp;저탄소&nbsp;공정&nbsp;실증&nbsp;인프라&nbsp;구축&nbsp;확대<br>○&nbsp;원전&nbsp;지역자원시설세&nbsp;활용과&nbsp;주민&nbsp;참여형&nbsp;에너지&nbsp;투자&nbsp;모델&nbsp;도입<br>○&nbsp;산업&nbsp;전환&nbsp;대응&nbsp;직무&nbsp;재교육&nbsp;및&nbsp;철강·에너지&nbsp;전문인력&nbsp;양성체계&nbsp;운영<br><br>■&nbsp;이행기간<br>○&nbsp;2026년&nbsp;~&nbsp;중장기&nbsp;단계적&nbsp;추진<br>○&nbsp;단계별&nbsp;에너지&nbsp;연금&nbsp;정착&nbsp;및&nbsp;철강산업&nbsp;저탄소&nbsp;전환&nbsp;완성<br><br>■&nbsp;재원조달방안&nbsp;등<br>○&nbsp;발전수익&nbsp;+&nbsp;국비&nbsp;+&nbsp;지방비&nbsp;+&nbsp;민자&nbsp;+&nbsp;정책금융&nbsp;+&nbsp;지역자원시설세&nbsp;활용<br>○&nbsp;에너지·산업&nbsp;전환&nbsp;국가사업&nbsp;연계&nbsp;및&nbsp;공공투자&nbsp;확대&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	초광역 교통망과 K-관광·K-푸드로 여는 글로벌 경북 시대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="초광역 교통망과 K-관광·K-푸드로 여는 글로벌 경북 시대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;핵심추진과제<br>○&nbsp;APEC&nbsp;성과&nbsp;기반&nbsp;K-관광·K-푸드&nbsp;글로벌&nbsp;확산&nbsp;및&nbsp;제2의&nbsp;한류&nbsp;창출<br>○&nbsp;경북&nbsp;5韓(한지·한글·한옥·한식·한복)&nbsp;세계화와&nbsp;문화산업&nbsp;브랜드&nbsp;육성<br>○&nbsp;경주&nbsp;글로벌&nbsp;역사문화관광&nbsp;거점&nbsp;조성&nbsp;및&nbsp;포스트&nbsp;APEC&nbsp;레거시&nbsp;구축<br>○&nbsp;수도권-경북-동해안을&nbsp;연결하는&nbsp;초광역&nbsp;철도·도로&nbsp;교통망&nbsp;구축<br>○&nbsp;농업·관광·물류·산업을&nbsp;연결하는&nbsp;경북형&nbsp;광역경제생활권&nbsp;조성<br><br>■&nbsp;목&nbsp;표<br>○&nbsp;APEC&nbsp;성과를&nbsp;발판으로&nbsp;경북의&nbsp;전통문화와&nbsp;K-푸드&nbsp;산업을&nbsp;세계적&nbsp;브랜드로&nbsp;육성하고&nbsp;초광역&nbsp;철도·도로망&nbsp;구축을&nbsp;통해&nbsp;수도권과&nbsp;경북&nbsp;전역을&nbsp;촘촘히&nbsp;연결하겠습니다.&nbsp;문화·관광·교통·농업이&nbsp;함께&nbsp;성장하는&nbsp;융합형&nbsp;발전전략으로&nbsp;경북을&nbsp;글로벌&nbsp;관광경제&nbsp;중심지이자&nbsp;대한민국&nbsp;균형발전의&nbsp;핵심축으로&nbsp;도약시키겠습니다.<br><br>■&nbsp;이행방법<br>○&nbsp;APEC&nbsp;이후&nbsp;글로벌&nbsp;관광·문화&nbsp;확산을&nbsp;위한&nbsp;종합&nbsp;실행계획&nbsp;수립&nbsp;및&nbsp;단계적&nbsp;추진<br>○&nbsp;5韓&nbsp;자산&nbsp;브랜드화와&nbsp;K-푸드&nbsp;수출&nbsp;확대를&nbsp;위한&nbsp;글로벌&nbsp;마케팅·유통체계&nbsp;구축<br>○&nbsp;중부권&nbsp;동서횡단철도,&nbsp;오송~안동&nbsp;고속철도·통합신공항&nbsp;광역철도&nbsp;등&nbsp;국가계획&nbsp;반영&nbsp;추진<br>○&nbsp;철도·도로·공항&nbsp;연계&nbsp;초광역&nbsp;교통망&nbsp;구축과&nbsp;경북&nbsp;1시간&nbsp;생활권&nbsp;단계적&nbsp;실현<br>○&nbsp;공동영농모델&nbsp;확산과&nbsp;관광·물류&nbsp;연계&nbsp;전략을&nbsp;통한&nbsp;지역경제&nbsp;활성화&nbsp;추진<br><br>■&nbsp;이행기간<br>○&nbsp;2026년&nbsp;~&nbsp;중장기&nbsp;단계적&nbsp;추진<br>○&nbsp;단계별&nbsp;초광역&nbsp;교통망&nbsp;구축&nbsp;및&nbsp;글로벌&nbsp;관광경제권&nbsp;완성<br><br>■&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비&nbsp;+&nbsp;지방비&nbsp;+&nbsp;민자&nbsp;+&nbsp;국가균형발전특별회계&nbsp;+&nbsp;관광·농업&nbsp;정책자금<br>○&nbsp;국가&nbsp;교통망&nbsp;사업&nbsp;및&nbsp;문화·관광&nbsp;국가전략사업&nbsp;연계&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	공공기관 이전과 혁신도시 대전환으로 여는 경북 균형발전 시대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="공공기관 이전과 혁신도시 대전환으로 여는 경북 균형발전 시대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;핵심추진과제<br>○&nbsp;2차&nbsp;공공기관&nbsp;및&nbsp;국책연구기관&nbsp;이전&nbsp;적극&nbsp;유치<br>○&nbsp;김천혁신도시·경북도청신도시를&nbsp;‘제2의&nbsp;세종특별시’로&nbsp;육성<br>○&nbsp;혁신도시·도청신도시&nbsp;연계&nbsp;광역&nbsp;성장축&nbsp;및&nbsp;자족형&nbsp;경제권&nbsp;구축<br>○&nbsp;에너지·원자력·산업기술&nbsp;등&nbsp;지역&nbsp;전략산업&nbsp;연계&nbsp;특화&nbsp;클러스터&nbsp;조성<br>○&nbsp;청년·기업·일자리가&nbsp;모이는&nbsp;정주형&nbsp;미래도시&nbsp;기반&nbsp;구축<br><br>■&nbsp;목&nbsp;표<br>○&nbsp;공공기관과&nbsp;국책연구기관&nbsp;이전을&nbsp;통해&nbsp;경북&nbsp;전역에&nbsp;새로운&nbsp;성장&nbsp;동력을&nbsp;만들고&nbsp;김천혁신도시와&nbsp;경북도청신도시를&nbsp;대한민국&nbsp;균형발전의&nbsp;핵심&nbsp;거점으로&nbsp;육성하겠습니다.&nbsp;행정·산업·주거·연구&nbsp;기능이&nbsp;결합된&nbsp;자족형&nbsp;미래도시를&nbsp;조성하여&nbsp;지방소멸&nbsp;위기를&nbsp;극복하고&nbsp;사람과&nbsp;기업이&nbsp;다시&nbsp;모이는&nbsp;경북&nbsp;대전환&nbsp;시대를&nbsp;열겠습니다.<br><br>■&nbsp;이행방법<br>○&nbsp;중앙정부와&nbsp;협력한&nbsp;2차&nbsp;공공기관&nbsp;이전&nbsp;및&nbsp;국책연구기관&nbsp;유치&nbsp;전략&nbsp;추진<br>○&nbsp;김천혁신도시·도청신도시&nbsp;공공기관·기업&nbsp;유치와&nbsp;상권&nbsp;활성화&nbsp;단계적&nbsp;추진<br>○&nbsp;혁신도시와&nbsp;도청신도시를&nbsp;연결하는&nbsp;산업·교통·생활&nbsp;연계체계&nbsp;구축<br>○&nbsp;청년창업·문화·주거&nbsp;인프라&nbsp;확충&nbsp;및&nbsp;기업&nbsp;투자&nbsp;인센티브&nbsp;강화<br>○&nbsp;국가균형발전&nbsp;정책과&nbsp;연계한&nbsp;동해안·북부권&nbsp;성장거점&nbsp;육성&nbsp;및&nbsp;민간투자&nbsp;활성화&nbsp;추진<br><br>■&nbsp;이행기간<br>○&nbsp;2026년&nbsp;~&nbsp;중장기&nbsp;단계적&nbsp;추진<br>○&nbsp;단계별&nbsp;공공기관&nbsp;이전&nbsp;및&nbsp;자족형&nbsp;미래도시&nbsp;완성<br>-<br><br>■&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비&nbsp;+&nbsp;지방비&nbsp;+&nbsp;민자&nbsp;+&nbsp;국가균형발전특별회계<br>○&nbsp;공공기관&nbsp;이전&nbsp;연계&nbsp;국가사업&nbsp;및&nbsp;도시활성화&nbsp;특별지원&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

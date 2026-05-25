@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김동욱 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	창동 경제 엔진 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="창동 경제 엔진 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>도봉을&nbsp;베드타운에서&nbsp;벗어나&nbsp;“일자리·소비·문화가&nbsp;지역&nbsp;안에서&nbsp;순환하는&nbsp;경제도시”로&nbsp;전환하겠습니다.&nbsp;서울아레나,&nbsp;GTX-C,&nbsp;창동&nbsp;민자역사,&nbsp;창동역&nbsp;복합환승센터,&nbsp;농협&nbsp;하나로마트&nbsp;부지&nbsp;개발&nbsp;등&nbsp;5대&nbsp;핵심사업을&nbsp;하나의&nbsp;도시&nbsp;패키지&nbsp;전략으로&nbsp;연결하여,&nbsp;창동을&nbsp;동북권&nbsp;경제&nbsp;중심지로&nbsp;만들겠습니다.<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;·&nbsp;서울아레나·GTX-C·민자역사·복합환승센터·역세권&nbsp;개발을&nbsp;연계한&nbsp;“창동&nbsp;경제권”&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;도시계획·지구단위계획&nbsp;단계부터&nbsp;도봉구가&nbsp;적극&nbsp;참여하여&nbsp;공공기여&nbsp;및&nbsp;지역환원&nbsp;구조&nbsp;마련<br>&nbsp;&nbsp;·&nbsp;서울아레나를&nbsp;공연장이&nbsp;아닌&nbsp;관광·상권·숙박·일자리를&nbsp;연결하는&nbsp;경제&nbsp;플랫폼으로&nbsp;육성<br>&nbsp;&nbsp;·&nbsp;공연&nbsp;관람객&nbsp;지역사랑상품권&nbsp;연계&nbsp;등&nbsp;지역상권&nbsp;활성화&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;창동역&nbsp;일대를&nbsp;“지나가는&nbsp;환승역”이&nbsp;아닌&nbsp;“머무르는&nbsp;경제&nbsp;중심지”로&nbsp;전환<br>&nbsp;&nbsp;·&nbsp;청년·중장년&nbsp;맞춤형&nbsp;일자리&nbsp;확대&nbsp;및&nbsp;지역&nbsp;우선채용&nbsp;협약&nbsp;추진<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;·&nbsp;2026년&nbsp;:&nbsp;창동&nbsp;민자역사&nbsp;준공&nbsp;및&nbsp;통합&nbsp;추진체계&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;2027년&nbsp;:&nbsp;서울아레나&nbsp;개장&nbsp;및&nbsp;상권&nbsp;연계사업&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;2028년&nbsp;:&nbsp;농협&nbsp;하나로마트&nbsp;부지&nbsp;복합개발&nbsp;착공<br>&nbsp;&nbsp;·&nbsp;2029년&nbsp;:&nbsp;GTX-C&nbsp;개통&nbsp;연계&nbsp;광역교통·상권&nbsp;활성화<br>&nbsp;&nbsp;·&nbsp;2030년&nbsp;:&nbsp;창동역&nbsp;복합환승센터&nbsp;완성&nbsp;및&nbsp;동북권&nbsp;경제거점&nbsp;구축<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안<br>&nbsp;&nbsp;·&nbsp;서울아레나·민자역사&nbsp;등&nbsp;민간투자사업(BTO)&nbsp;적극&nbsp;활용<br>&nbsp;&nbsp;·&nbsp;GTX-C·환승센터&nbsp;등&nbsp;국·시비&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;개발사업&nbsp;공공기여를&nbsp;활용한&nbsp;문화·돌봄·생활SOC&nbsp;확충<br>&nbsp;&nbsp;·&nbsp;관광·상권&nbsp;활성화를&nbsp;통한&nbsp;지역경제&nbsp;선순환&nbsp;및&nbsp;세수&nbsp;기반&nbsp;확대</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	도봉 공공부지 개발 정상화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="도봉 공공부지 개발 정상화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>장기간&nbsp;지연되거나&nbsp;방향성을&nbsp;잃은&nbsp;공공부지&nbsp;개발사업을&nbsp;정상화하여,&nbsp;도봉의&nbsp;미래&nbsp;성장동력과&nbsp;주민&nbsp;생활&nbsp;기반을&nbsp;동시에&nbsp;확충하겠습니다.&nbsp;화학부대&nbsp;이전부지,&nbsp;성대야구장&nbsp;부지,&nbsp;소방학교&nbsp;부지,&nbsp;서울시립도서관&nbsp;건립&nbsp;등&nbsp;4대&nbsp;핵심&nbsp;공공부지를&nbsp;연계&nbsp;개발하여,&nbsp;주거&nbsp;중심&nbsp;개발을&nbsp;넘어&nbsp;문화·체육·교육·상업·일자리가&nbsp;결합된&nbsp;도시&nbsp;재편&nbsp;전략으로&nbsp;추진하겠습니다.<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;·&nbsp;화학부대&nbsp;이전부지는&nbsp;주민협의체를&nbsp;구성하여&nbsp;개발제한구역&nbsp;해제&nbsp;및&nbsp;통합&nbsp;개발&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;성대야구장&nbsp;부지는&nbsp;단순&nbsp;주택공급이&nbsp;아닌&nbsp;방학역&nbsp;역세권&nbsp;경제거점으로&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;소방학교&nbsp;부지는&nbsp;공공주택·문화·체육·안전&nbsp;기능이&nbsp;결합된&nbsp;생활형&nbsp;복합거점으로&nbsp;조성<br>&nbsp;&nbsp;·&nbsp;지연된&nbsp;서울시립도서관&nbsp;건립을&nbsp;정상화하여&nbsp;동북권&nbsp;대표&nbsp;문화·교육거점으로&nbsp;육성<br>&nbsp;&nbsp;·&nbsp;주민설문·주민협의체·전문가&nbsp;협의를&nbsp;통한&nbsp;주민참여형&nbsp;개발체계&nbsp;구축<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;·&nbsp;2026년&nbsp;:&nbsp;공공부지별&nbsp;주민협의체&nbsp;및&nbsp;통합추진체계&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;2027년&nbsp;:&nbsp;화학부대·성대야구장&nbsp;개발&nbsp;기본계획&nbsp;및&nbsp;서울시&nbsp;협의&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;2028년&nbsp;:&nbsp;소방학교&nbsp;부지·서울시립도서관&nbsp;사업&nbsp;본격&nbsp;착공&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;2029년&nbsp;:&nbsp;방학역&nbsp;역세권&nbsp;복합개발&nbsp;및&nbsp;문화체육시설&nbsp;조성&nbsp;확대<br>&nbsp;&nbsp;·&nbsp;2030년&nbsp;:&nbsp;공공부지&nbsp;개발&nbsp;완료&nbsp;및&nbsp;동북권&nbsp;생활·문화&nbsp;거점&nbsp;조성<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안<br>&nbsp;&nbsp;·&nbsp;서울시·국비&nbsp;지원사업&nbsp;및&nbsp;도시계획&nbsp;공공기여&nbsp;적극&nbsp;활용<br>&nbsp;&nbsp;·&nbsp;역세권&nbsp;개발에&nbsp;따른&nbsp;용도지역&nbsp;상향&nbsp;및&nbsp;민간&nbsp;복합개발&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;문화체육시설·생활SOC는&nbsp;기부채납&nbsp;및&nbsp;공공환원&nbsp;방식&nbsp;병행<br>&nbsp;&nbsp;·&nbsp;공공주택·상업·문화&nbsp;기능&nbsp;결합을&nbsp;통한&nbsp;사업성&nbsp;확보&nbsp;및&nbsp;재정&nbsp;부담&nbsp;최소화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	도봉 미래 교통과 주거 혁신 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="도봉 미래 교통과 주거 혁신 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>GTX-C,&nbsp;경원선&nbsp;지하화,&nbsp;우이-방학&nbsp;경전철,&nbsp;마들·상계&nbsp;연계와&nbsp;고도지구&nbsp;완화·종상향을&nbsp;통해&nbsp;도봉의&nbsp;단절된&nbsp;도시&nbsp;구조를&nbsp;연결하고,&nbsp;교통·주거·상권이&nbsp;함께&nbsp;성장하는&nbsp;미래형&nbsp;도시로&nbsp;재편하겠습니다.&nbsp;<br>철도&nbsp;중심의&nbsp;단절된&nbsp;도시&nbsp;구조를&nbsp;개선하여,&nbsp;도봉을&nbsp;동북권&nbsp;광역교통&nbsp;중심지이자&nbsp;미래&nbsp;주거·생활&nbsp;거점으로&nbsp;육성하겠습니다.<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;·&nbsp;GTX-C&nbsp;조기&nbsp;착공&nbsp;및&nbsp;준공&nbsp;추진과&nbsp;함께&nbsp;경원선(1호선)&nbsp;지하화&nbsp;공동&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;방학역·녹천역·도봉역&nbsp;노후&nbsp;역사&nbsp;현대화&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;우이-방학&nbsp;경전철&nbsp;조기&nbsp;착공&nbsp;및&nbsp;마들·상계&nbsp;연장&nbsp;검토<br>&nbsp;&nbsp;·&nbsp;역세권&nbsp;중심&nbsp;상권&nbsp;활성화&nbsp;및&nbsp;철도&nbsp;접근성&nbsp;개선<br>&nbsp;&nbsp;·&nbsp;고도지구&nbsp;완화와&nbsp;지구단위계획&nbsp;종상향을&nbsp;통해&nbsp;재건축·재개발&nbsp;활성화&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;창동은&nbsp;경제거점,&nbsp;쌍문·방학은&nbsp;주거·생활SOC&nbsp;중심으로&nbsp;지역별&nbsp;맞춤형&nbsp;도시&nbsp;재편&nbsp;추진<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;·&nbsp;2026년&nbsp;:&nbsp;GTX-C&nbsp;본공사&nbsp;착공&nbsp;및&nbsp;우이-방학선&nbsp;사업&nbsp;추진&nbsp;지원<br>&nbsp;&nbsp;·&nbsp;2027년&nbsp;:&nbsp;경원선&nbsp;지하화&nbsp;국가계획&nbsp;반영&nbsp;및&nbsp;역세권&nbsp;종상향&nbsp;확대<br>&nbsp;&nbsp;·&nbsp;2028년&nbsp;:&nbsp;GTX-C&nbsp;개통&nbsp;연계&nbsp;창동&nbsp;광역교통&nbsp;중심지&nbsp;조성<br>&nbsp;&nbsp;·&nbsp;2029년&nbsp;:&nbsp;녹천·도봉역&nbsp;현대화&nbsp;예산&nbsp;확보&nbsp;및&nbsp;상부개발&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;·&nbsp;2030년&nbsp;이후&nbsp;:&nbsp;경원선&nbsp;단계별&nbsp;지하화&nbsp;및&nbsp;미래&nbsp;주거벨트&nbsp;조성&nbsp;추진<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안<br>&nbsp;&nbsp;·&nbsp;GTX-C&nbsp;및&nbsp;광역철도&nbsp;사업은&nbsp;국비·서울시&nbsp;예산&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;·&nbsp;역세권&nbsp;종상향&nbsp;및&nbsp;복합개발을&nbsp;통한&nbsp;민간투자&nbsp;유치<br>&nbsp;&nbsp;·&nbsp;고도지구&nbsp;완화에&nbsp;따른&nbsp;개발이익&nbsp;일부를&nbsp;도로·공원·문화시설&nbsp;등&nbsp;기반시설로&nbsp;환원<br>&nbsp;&nbsp;·&nbsp;한국철도공사·서울시·국토교통부&nbsp;협력을&nbsp;통한&nbsp;단계별&nbsp;사업&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	도봉 스마트 동행 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="도봉 스마트 동행 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>AI·IoT&nbsp;기반&nbsp;스마트&nbsp;돌봄과&nbsp;사람&nbsp;중심의&nbsp;현장&nbsp;복지를&nbsp;결합하여,&nbsp;도봉을&nbsp;고독사·돌봄&nbsp;공백·육아&nbsp;불안&nbsp;해소를&nbsp;추진하는&nbsp;생활복지&nbsp;도시로&nbsp;만들겠습니다.<br>어르신·저소득층·은둔가구·아이&nbsp;키우는&nbsp;가정·필수노동자까지,&nbsp;사회적&nbsp;약자를&nbsp;먼저&nbsp;찾아가고&nbsp;함께&nbsp;연결하는&nbsp;“도봉형&nbsp;통합&nbsp;돌봄&nbsp;도시”를&nbsp;구축하겠습니다.<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;·&nbsp;AI·IoT&nbsp;기반&nbsp;“도봉&nbsp;스마트&nbsp;돌봄&nbsp;3.0”&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;이상징후&nbsp;감지&nbsp;및&nbsp;돌봄센터·119&nbsp;연계&nbsp;스마트&nbsp;안부케어&nbsp;시스템&nbsp;운영<br>&nbsp;&nbsp;·&nbsp;“도봉&nbsp;생활돌봄&nbsp;매니저”&nbsp;방문서비스&nbsp;확대&nbsp;및&nbsp;24시간&nbsp;긴급&nbsp;돌봄체계&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;동주민센터&nbsp;중심&nbsp;생활권&nbsp;통합돌봄&nbsp;체계&nbsp;및&nbsp;돌봄&nbsp;코디네이터&nbsp;운영<br>&nbsp;&nbsp;·&nbsp;고독사&nbsp;위험군·은둔형&nbsp;청년·고립&nbsp;중장년&nbsp;대상&nbsp;선제&nbsp;발굴&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;“도봉&nbsp;복지&nbsp;파수꾼&nbsp;네트워크”를&nbsp;통한&nbsp;지역사회&nbsp;기반&nbsp;인적&nbsp;안전망&nbsp;강화<br>&nbsp;&nbsp;·&nbsp;야간보육·역세권&nbsp;임시보육·출산동행&nbsp;서비스&nbsp;등&nbsp;육아&nbsp;안전도시&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;필수노동자&nbsp;건강검진·심리상담·휴게시설&nbsp;개선&nbsp;및&nbsp;안전물품&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;·&nbsp;돌봄&nbsp;데이터&nbsp;기반&nbsp;“도봉&nbsp;돌봄지도(DB)”&nbsp;구축&nbsp;및&nbsp;선제적&nbsp;행정&nbsp;대응&nbsp;강화<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;·&nbsp;2026년&nbsp;:&nbsp;스마트&nbsp;돌봄&nbsp;통합플랫폼&nbsp;및&nbsp;선제발굴&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;2027년&nbsp;:&nbsp;생활돌봄&nbsp;매니저·복지&nbsp;파수꾼·야간보육&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;·&nbsp;2028년&nbsp;:&nbsp;스마트&nbsp;돌봄주택&nbsp;및&nbsp;통합&nbsp;건강관리&nbsp;체계&nbsp;시범&nbsp;운영<br>&nbsp;&nbsp;·&nbsp;2029년&nbsp;:&nbsp;AI&nbsp;기반&nbsp;돌봄·복지·건강&nbsp;데이터&nbsp;통합관리&nbsp;고도화<br>&nbsp;&nbsp;·&nbsp;2030년&nbsp;:&nbsp;스마트&nbsp;통합돌봄&nbsp;도시&nbsp;체계&nbsp;구축&nbsp;추진<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안<br>&nbsp;&nbsp;·&nbsp;보건복지부·행정안전부&nbsp;스마트돌봄&nbsp;및&nbsp;통합돌봄&nbsp;국비사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;·&nbsp;서울시&nbsp;복지·돌봄·저출생&nbsp;대응&nbsp;예산&nbsp;연계&nbsp;확대<br>&nbsp;&nbsp;·&nbsp;기존&nbsp;복지사업&nbsp;통합·조정을&nbsp;통한&nbsp;예산&nbsp;효율화&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;민간&nbsp;복지기관·의료기관·지역사회&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;단계별&nbsp;확대&nbsp;운영을&nbsp;통한&nbsp;재정&nbsp;부담&nbsp;최소화&nbsp;및&nbsp;지속가능한&nbsp;운영체계&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	결정권을 주민에게 - 도봉 주민주권 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="결정권을 주민에게 - 도봉 주민주권 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>행정이&nbsp;일방적으로&nbsp;결정하고&nbsp;주민이&nbsp;통보받는&nbsp;도시가&nbsp;아니라,&nbsp;주민이&nbsp;직접&nbsp;참여하고&nbsp;결정하는&nbsp;주민주권&nbsp;도시&nbsp;도봉을&nbsp;만들겠습니다.<br>재개발·재건축·공공부지&nbsp;개발·생활SOC·예산·교통&nbsp;문제까지&nbsp;주민&nbsp;의견이&nbsp;실제&nbsp;정책과&nbsp;행정에&nbsp;반영되는&nbsp;참여형&nbsp;행정체계를&nbsp;구축하겠습니다.<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;·&nbsp;주요&nbsp;개발사업별&nbsp;주민협의체&nbsp;및&nbsp;주민설명회&nbsp;의무화&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;주민참여예산&nbsp;확대&nbsp;및&nbsp;생활밀착형&nbsp;주민제안제&nbsp;활성화<br>&nbsp;&nbsp;·&nbsp;재개발·재건축&nbsp;갈등조정&nbsp;주민협의&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;온라인&nbsp;주민투표·주민설문&nbsp;시스템&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;·&nbsp;동별&nbsp;주민총회&nbsp;및&nbsp;생활권&nbsp;의제&nbsp;발굴&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;구청장&nbsp;주민소통회의&nbsp;및&nbsp;직통&nbsp;민원체계&nbsp;정례화<br>&nbsp;&nbsp;·&nbsp;공공갈등&nbsp;사전조정&nbsp;시스템&nbsp;구축&nbsp;및&nbsp;주민&nbsp;숙의&nbsp;절차&nbsp;강화<br>&nbsp;&nbsp;·&nbsp;주민감시·정보공개&nbsp;확대를&nbsp;통한&nbsp;투명행정&nbsp;추진<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;·&nbsp;2026년&nbsp;:&nbsp;주민참여&nbsp;플랫폼&nbsp;및&nbsp;주민협의체&nbsp;운영체계&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;2027년&nbsp;:&nbsp;주민참여예산&nbsp;및&nbsp;온라인&nbsp;주민투표&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;·&nbsp;2028년&nbsp;:&nbsp;개발사업&nbsp;주민숙의제&nbsp;시범&nbsp;운영<br>&nbsp;&nbsp;·&nbsp;2029년&nbsp;:&nbsp;생활권&nbsp;주민총회&nbsp;및&nbsp;갈등조정체계&nbsp;확대<br>&nbsp;&nbsp;·&nbsp;2030년&nbsp;:&nbsp;주민참여형&nbsp;지방행정&nbsp;체계&nbsp;정착&nbsp;추진<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안<br>&nbsp;&nbsp;·&nbsp;행정안전부&nbsp;주민자치·주민참여&nbsp;예산사업&nbsp;적극&nbsp;활용<br>&nbsp;&nbsp;·&nbsp;디지털&nbsp;행정체계&nbsp;구축을&nbsp;통한&nbsp;운영&nbsp;효율화&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;기존&nbsp;주민자치·마을공동체&nbsp;사업&nbsp;연계&nbsp;운영<br>&nbsp;&nbsp;·&nbsp;주민참여&nbsp;확대를&nbsp;통한&nbsp;갈등비용&nbsp;감소&nbsp;및&nbsp;행정&nbsp;효율성&nbsp;강화</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

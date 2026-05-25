@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김장호 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	구미산단 새 지평 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="구미산단 새 지평 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;대형&nbsp;국책사업과&nbsp;투자유치를&nbsp;통한&nbsp;국제비즈니스&nbsp;도시&nbsp;조성<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;신공항과&nbsp;연계한&nbsp;광역&nbsp;교통망을&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구미-&nbsp;군위&nbsp;고속도로&nbsp;건설&nbsp;조기&nbsp;착공(동구매C&nbsp;,&nbsp;서구미IC&nbsp;신설)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대구경북&nbsp;광역철도&nbsp;(서대구-의성)&nbsp;동구미역&nbsp;신설&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;남부내륙철도사업과&nbsp;연계한&nbsp;KTX&nbsp;구미역&nbsp;정차&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;'구미-신공항&nbsp;연결&nbsp;철도'&nbsp;국가계획&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국도&nbsp;85호선&nbsp;간설,&nbsp;지방도&nbsp;916호선&nbsp;확장&nbsp;,&nbsp;지방도&nbsp;923호선&nbsp;국도&nbsp;승격&nbsp;및&nbsp;확장&nbsp;추진<br><br>&nbsp;&nbsp;○&nbsp;반도체&nbsp;팹&nbsp;공장&nbsp;유치&nbsp;등&nbsp;성장엔진을&nbsp;더&nbsp;키우겠습니다．<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경북&nbsp;동부권&nbsp;전력망과&nbsp;연계한&nbsp;대기업&nbsp;반도체&nbsp;팹&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국방&nbsp;반도체&nbsp;클라스터&nbsp;,&nbsp;방산&nbsp;소재부품장비&nbsp;특화단지&nbsp;,&nbsp;로봇&nbsp;제조&nbsp;특화&nbsp;단지&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삼성SDS&nbsp;등&nbsp;데이터센터&nbsp;기반&nbsp;제조&nbsp;AX&nbsp;산단&nbsp;조성과&nbsp;기업의&nbsp;AI&nbsp;경쟁력&nbsp;강화<br><br>&nbsp;&nbsp;○&nbsp;구미산단&nbsp;지도를&nbsp;더&nbsp;넓혀&nbsp;나가겠습니다．<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장천&nbsp;일반산업단지&nbsp;조속&nbsp;완공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신공항과&nbsp;연계하는&nbsp;경제자유구역&nbsp;지정&nbsp;추진<br><br>□&nbsp;이행&nbsp;기간&nbsp;:&nbsp;2026&nbsp;∼&nbsp;계속<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등&nbsp;:&nbsp;국비,&nbsp;도비,&nbsp;시비&nbsp;예산&nbsp;확보&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	우리 동네 새 단장 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="우리 동네 새 단장 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;도시&nbsp;공간을&nbsp;새롭게&nbsp;재창조<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;구도심&nbsp;개개발·&nbsp;개건축의&nbsp;촉진제도&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상생발전&nbsp;사전협상에&nbsp;따른&nbsp;용도지역&nbsp;변경(종&nbsp;상향&nbsp;포함)&nbsp;제도&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합개발을&nbsp;통한&nbsp;절차&nbsp;간소화&nbsp;및&nbsp;기준&nbsp;완화&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특별건축구역&nbsp;지정을&nbsp;통한&nbsp;건폐율,&nbsp;용격률&nbsp;인센티브&nbsp;적용<br><br>&nbsp;&nbsp;○&nbsp;가칭&nbsp;.&nbsp;도시환경&nbsp;정비&nbsp;시범지구를&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후화된&nbsp;원룸빌라&nbsp;밀집&nbsp;지역의&nbsp;소규모&nbsp;주택정비&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소규모&nbsp;공동주택의&nbsp;공공&nbsp;관리쳬계&nbsp;혁신안&nbsp;마련·&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제2&nbsp;새마을운동,&nbsp;지역별&nbsp;특성을&nbsp;살린&nbsp;우리&nbsp;동네&nbsp;가꾸기&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;빈집&nbsp;등&nbsp;유휴부지를&nbsp;활용한&nbsp;주차장,&nbsp;돌봄&nbsp;시설,&nbsp;쌈지공원&nbsp;등&nbsp;편의시설&nbsp;확충<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;우리&nbsp;동네&nbsp;,&nbsp;골목상권&nbsp;주변의&nbsp;행복주차장&nbsp;대대적인&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민영&nbsp;주차장&nbsp;설치&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;캠핑카&nbsp;전용&nbsp;주차장&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;권역별&nbsp;화물&nbsp;차고지&nbsp;조성<br><br>□&nbsp;이행&nbsp;기간&nbsp;:&nbsp;2026~계속<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등&nbsp;:&nbsp;국비,&nbsp;도비,&nbsp;시비&nbsp;예산&nbsp;확보&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	낙동강 새 물결 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="낙동강 새 물결 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;낙동강을&nbsp;중심축으로&nbsp;낭만&nbsp;문화&nbsp;관광벨트&nbsp;조성<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;낙동강,&nbsp;금오산,&nbsp;천생산,&nbsp;선산권&nbsp;'4대&nbsp;권역별&nbsp;관광&nbsp;인프라'&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구미보&nbsp;수변레저파크,&nbsp;낙동강체육공원&nbsp;2단계&nbsp;스포츠&nbsp;힐링공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지산샛강&nbsp;일원&nbsp;에코밸리&nbsp;조성&nbsp;추진,&nbsp;도개면&nbsp;일원&nbsp;생태정원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;봉곡천-&nbsp;구미천-&nbsp;낙동강-&nbsp;한천을&nbsp;잇는&nbsp;자전거&nbsp;그린로드&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신라불교초전지를&nbsp;활용한&nbsp;명상&nbsp;순례길&nbsp;조성<br><br>&nbsp;&nbsp;○&nbsp;도시의&nbsp;문화&nbsp;경쟁력을&nbsp;높일&nbsp;문화선도&nbsp;신단&nbsp;랜드마크&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대한민국역사박물관&nbsp;분관&nbsp;'구미산업화&nbsp;역사관'&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구미&nbsp;대표&nbsp;시립&nbsp;갤러리&nbsp;조성&nbsp;-&nbsp;구미코&nbsp;제2전시관&nbsp;신축<br><br>&nbsp;&nbsp;○&nbsp;구미만의&nbsp;역사와&nbsp;유산을&nbsp;기반으로&nbsp;도시&nbsp;정쳬성&nbsp;확립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구미문화원&nbsp;이전·신축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;박정희&nbsp;대통령&nbsp;역사자료관&nbsp;제2관&nbsp;신축&nbsp;및&nbsp;생가보존재단&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;박정희&nbsp;대통령&nbsp;탄신제를&nbsp;문화예술제로&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구미&nbsp;박정희&nbsp;마라톤&nbsp;대회를&nbsp;국제&nbsp;대회로&nbsp;승격<br><br>&nbsp;&nbsp;○&nbsp;라면축제&nbsp;등&nbsp;축제의&nbsp;글로벌화와&nbsp;체류형&nbsp;관광콘텐츠&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;라면&nbsp;상설&nbsp;체험관&nbsp;조성&nbsp;-&nbsp;교촌1991로,&nbsp;역사&nbsp;자원과&nbsp;연계한&nbsp;축제&nbsp;패키지&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체류형&nbsp;관광을&nbsp;위한&nbsp;권역별&nbsp;인프라&nbsp;마련&nbsp;(호텔·리조트,&nbsp;케이블카&nbsp;추진&nbsp;등)<br><br>&nbsp;&nbsp;○&nbsp;생활체육&nbsp;인프라&nbsp;구축과&nbsp;스포츠&nbsp;대회&nbsp;유치를&nbsp;통한&nbsp;지역&nbsp;상권&nbsp;살리기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산동지역&nbsp;[복합스포츠&nbsp;문화타운]&nbsp;조성&nbsp;등&nbsp;권역별&nbsp;생활체육&nbsp;인프라&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스포츠클라이밍센터&nbsp;조성&nbsp;추진<br><br>□&nbsp;이행&nbsp;기간&nbsp;:&nbsp;2026~계속<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등&nbsp;:&nbsp;국비,&nbsp;도비,&nbsp;시비&nbsp;예산&nbsp;확보&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	농업혁신 새 아침 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="농업혁신 새 아침 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농업&nbsp;경쟁력&nbsp;강화를&nbsp;위한&nbsp;새&nbsp;희망&nbsp;농촌&nbsp;시대&nbsp;개막<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;기반을&nbsp;튼튼히!&nbsp;농업의&nbsp;힘을&nbsp;키우기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농토를&nbsp;되살리는&nbsp;땅심높이기&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농수로&nbsp;현대화&nbsp;개선&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노동력&nbsp;걸감&nbsp;공동방제&nbsp;시스템&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강동지역&nbsp;벼&nbsp;건조저장시설&nbsp;신축&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공형&nbsp;외국인&nbsp;계걸근로자&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업&nbsp;근로자&nbsp;기숙사&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;맞춤형&nbsp;농기자재&nbsp;지원사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트&nbsp;농업&nbsp;지원<br><br>○&nbsp;살기&nbsp;좋은&nbsp;농촌의&nbsp;정주&nbsp;환경을&nbsp;높이기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농촌&nbsp;공간&nbsp;정비&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;햇빛소득마을&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전원주택지&nbsp;개발&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;LPG&nbsp;소형저장탱크와&nbsp;배관망을&nbsp;단계적으로&nbsp;구축<br><br>○&nbsp;농식품산업의&nbsp;혁신으로&nbsp;가치를&nbsp;더하기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;푸드테크&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;먹거리&nbsp;통합지원센터&nbsp;활성화&nbsp;및&nbsp;유통혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특산물&nbsp;특화단지(직매장,&nbsp;카페&nbsp;등)&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농식품&nbsp;제조업&nbsp;특화단지&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;인증제&nbsp;도입&nbsp;등&nbsp;학교급식&nbsp;지역&nbsp;농산물&nbsp;공급&nbsp;확대<br><br>□&nbsp;이행&nbsp;기간&nbsp;:&nbsp;2026&nbsp;~계속<br><br>□&nbsp;재원조달방만&nbsp;등&nbsp;:&nbsp;국비,&nbsp;도비,&nbsp;시비&nbsp;예산&nbsp;확보&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	소상공인 새 바람 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="소상공인 새 바람 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청년의&nbsp;꿈을&nbsp;이루는&nbsp;창업&nbsp;성공시대&nbsp;완성<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;구미의&nbsp;상징인&nbsp;구도심을&nbsp;창업(벤처)&nbsp;밸리로&nbsp;지정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;공유&nbsp;오피스&nbsp;확대,&nbsp;사무실과&nbsp;주거가&nbsp;하나로&nbsp;'도전하우스'&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창업공간&nbsp;반값&nbsp;점포(가칭.&nbsp;천원점포)&nbsp;지원사업&nbsp;및&nbsp;매출&nbsp;연동&nbsp;착한&nbsp;임대제&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창업수당&nbsp;지급,&nbsp;여성창업가&nbsp;우대육성&nbsp;등&nbsp;청년&nbsp;우수&nbsp;창업가&nbsp;선정<br><br>&nbsp;&nbsp;○&nbsp;제조창업&nbsp;거점&nbsp;'스타트업&nbsp;필드'&nbsp;구축&nbsp;및&nbsp;공유&nbsp;공장&nbsp;조성<br><br>&nbsp;&nbsp;○&nbsp;스타트업&nbsp;지원&nbsp;예산&nbsp;확대&nbsp;및&nbsp;초기&nbsp;자금(펀드)&nbsp;지원&nbsp;강화<br><br>&nbsp;&nbsp;○&nbsp;지역&nbsp;상권&nbsp;회복을&nbsp;위한&nbsp;'&nbsp;K-온누리&nbsp;패스'&nbsp;사업&nbsp;확대<br><br>&nbsp;&nbsp;○&nbsp;골목형&nbsp;상점가&nbsp;확대&nbsp;및&nbsp;로컬크리에이터&nbsp;지원&nbsp;사업&nbsp;확대<br><br>&nbsp;&nbsp;○&nbsp;특례보증,&nbsp;리모델링&nbsp;지원&nbsp;등&nbsp;소상공인&nbsp;지원책&nbsp;확대·강화<br><br>□&nbsp;이행&nbsp;기간&nbsp;:&nbsp;2026~계속<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등&nbsp;:&nbsp;국비,&nbsp;도비,&nbsp;시비&nbsp;예산&nbsp;확보&nbsp;등</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

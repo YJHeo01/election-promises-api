@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이기만 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	TK 신공항 착공</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="TK 신공항 착공">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;TK&nbsp;신공항의&nbsp;조속한&nbsp;착공과&nbsp;2030년&nbsp;적기&nbsp;개항&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;군위군을&nbsp;대한민국&nbsp;남부권&nbsp;항공·물류&nbsp;중심도시로&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공항&nbsp;배후&nbsp;첨단산업단지&nbsp;및&nbsp;정주여건&nbsp;조성으로&nbsp;인구&nbsp;유입&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공항&nbsp;연계&nbsp;광역교통망&nbsp;구축으로&nbsp;대구·경북&nbsp;공동발전&nbsp;실현&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중앙정부·대구시·경북도와&nbsp;협력한&nbsp;사업&nbsp;추진체계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;TK신공항&nbsp;특별법에&nbsp;따른&nbsp;국가재정&nbsp;지원&nbsp;확대&nbsp;건의<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;토지보상·인허가&nbsp;등&nbsp;행정절차&nbsp;신속&nbsp;지원&nbsp;전담TF&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공항&nbsp;배후&nbsp;첨단산업·물류단지&nbsp;유치&nbsp;및&nbsp;기업&nbsp;투자&nbsp;설명회&nbsp;정례화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;군위&nbsp;스카이시티·공항신도시&nbsp;개발과&nbsp;연계한&nbsp;정주환경&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;군위~대구~의성&nbsp;광역교통망&nbsp;및&nbsp;철도망&nbsp;확충&nbsp;적극&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2026년&nbsp;:&nbsp;착공&nbsp;기반&nbsp;행정지원&nbsp;및&nbsp;보상&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2027년&nbsp;:&nbsp;배후산업단지·교통망&nbsp;연계사업&nbsp;본격&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2030년&nbsp;:&nbsp;TK&nbsp;신공항&nbsp;적기&nbsp;개항&nbsp;및&nbsp;공항도시&nbsp;기반&nbsp;조성&nbsp;지원<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·시비·기부대양여&nbsp;및&nbsp;민간투자&nbsp;병행&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;TK신공항&nbsp;특별법에&nbsp;따른&nbsp;국비&nbsp;지원&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;대구시·경북도&nbsp;연계사업&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;민간투자&nbsp;유치를&nbsp;통한&nbsp;산업단지·물류단지&nbsp;개발&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;정부&nbsp;공모사업&nbsp;및&nbsp;국가균형발전&nbsp;사업&nbsp;적극&nbsp;대응&nbsp;<br>TK신공항은&nbsp;군위군&nbsp;소보면·의성군&nbsp;비안면&nbsp;일원에&nbsp;조성되며,&nbsp;정부와&nbsp;대구시는&nbsp;2030년&nbsp;개항&nbsp;목표로&nbsp;추진&nbsp;중입니다.&nbsp;특별법&nbsp;기반의&nbsp;조기&nbsp;착공과&nbsp;공항&nbsp;배후도시&nbsp;개발이&nbsp;핵심&nbsp;과제로&nbsp;언급되고&nbsp;있습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	전 군민 기본소득 년 240만원 추진(월 20만원)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="전 군민 기본소득 년 240만원 추진(월 20만원)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;모두가&nbsp;함께&nbsp;누리는&nbsp;군위형&nbsp;기본소득&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;전&nbsp;군민&nbsp;대상&nbsp;월&nbsp;20만원&nbsp;기본소득&nbsp;단계적&nbsp;도입&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지역화폐&nbsp;기반&nbsp;소비&nbsp;활성화로&nbsp;골목경제·전통시장&nbsp;회복<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지방소멸&nbsp;대응&nbsp;및&nbsp;청년·고령층&nbsp;생활안정&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;군민&nbsp;생활안전망&nbsp;구축과&nbsp;지역&nbsp;내&nbsp;경제&nbsp;선순환&nbsp;체계&nbsp;확립<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;시범사업&nbsp;및&nbsp;민주당&nbsp;기본소득&nbsp;정책과&nbsp;연계한&nbsp;군위형&nbsp;모델&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;농림축산식품부&nbsp;‘농어촌&nbsp;기본소득&nbsp;시범사업’&nbsp;방식&nbsp;적극&nbsp;도입&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;영양군&nbsp;사례처럼&nbsp;전&nbsp;군민&nbsp;대상&nbsp;지역화폐&nbsp;정기&nbsp;지급체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;군위사랑상품권&nbsp;연계&nbsp;지급으로&nbsp;지역&nbsp;내&nbsp;소비&nbsp;의무화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;군민&nbsp;기본소득&nbsp;추진위원회&nbsp;및&nbsp;지원&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;청년·어르신·농업인&nbsp;지원정책과&nbsp;연계한&nbsp;단계별&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;실거주&nbsp;확인·신청·지급·환류까지&nbsp;통합관리&nbsp;시스템&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2026년&nbsp;:&nbsp;기본소득&nbsp;추진&nbsp;TF&nbsp;및&nbsp;연구용역&nbsp;착수<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2027년&nbsp;:&nbsp;시범사업&nbsp;및&nbsp;지역화폐&nbsp;지급체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2028년&nbsp;:&nbsp;전&nbsp;군민&nbsp;단계적&nbsp;확대&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2030년&nbsp;:&nbsp;전&nbsp;군민&nbsp;연&nbsp;240만원&nbsp;지급체계&nbsp;정착&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;확보와&nbsp;지역개발이익&nbsp;공유를&nbsp;통한&nbsp;재원&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;농림축산식품부&nbsp;농어촌&nbsp;기본소득&nbsp;시범사업&nbsp;공모&nbsp;적극&nbsp;대응<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지방소멸대응기금·국비·도비&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;TK신공항&nbsp;배후개발&nbsp;및&nbsp;산업단지&nbsp;개발이익&nbsp;일부&nbsp;군민&nbsp;환원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;태양광&nbsp;등&nbsp;재생에너지&nbsp;개발이익&nbsp;공유사업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;세출&nbsp;구조조정&nbsp;및&nbsp;특별회계&nbsp;설치로&nbsp;안정적&nbsp;재원&nbsp;확보<br><br>경북&nbsp;영양군은&nbsp;농림축산식품부&nbsp;‘농어촌&nbsp;기본소득&nbsp;시범사업’에&nbsp;선정되어&nbsp;전&nbsp;군민에게&nbsp;월&nbsp;20만원의&nbsp;지역화폐를&nbsp;지급하는&nbsp;정책을&nbsp;추진&nbsp;중이며,&nbsp;지역경제&nbsp;선순환과&nbsp;인구소멸&nbsp;대응&nbsp;모델로&nbsp;평가받고&nbsp;있습니다.&nbsp;<br>또한&nbsp;더불어민주당은&nbsp;지방선거&nbsp;핵심&nbsp;정책으로&nbsp;농어촌&nbsp;기본소득과&nbsp;지역&nbsp;기본소득&nbsp;시범사업&nbsp;확대를&nbsp;추진하고&nbsp;있습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	태양광(햇빛연금) 공동연금 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="태양광(햇빛연금) 공동연금 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;군민이&nbsp;함께&nbsp;참여하고&nbsp;수익을&nbsp;공유하는&nbsp;군위형&nbsp;햇빛연금&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;태양광&nbsp;발전수익을&nbsp;군민에게&nbsp;환원하는&nbsp;공동연금제&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;농촌&nbsp;고령층의&nbsp;안정적&nbsp;생활소득&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;유휴부지&nbsp;활용을&nbsp;통한&nbsp;친환경&nbsp;에너지&nbsp;자립도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지방소멸&nbsp;대응&nbsp;및&nbsp;지역경제&nbsp;활성화&nbsp;기반&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;주민참여형&nbsp;태양광&nbsp;발전&nbsp;및&nbsp;수익공유&nbsp;모델&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;전남&nbsp;신안군&nbsp;‘햇빛연금’&nbsp;성공사례를&nbsp;군위형&nbsp;모델로&nbsp;도입&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;마을·영농조합·주민협동조합&nbsp;중심의&nbsp;태양광&nbsp;발전사업&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;군&nbsp;유휴부지·폐시설·농업용&nbsp;저수지&nbsp;등을&nbsp;활용한&nbsp;태양광&nbsp;단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;발전수익&nbsp;일부를&nbsp;주민&nbsp;배당&nbsp;및&nbsp;공동연금&nbsp;형태로&nbsp;환원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;군민참여형&nbsp;SPC(특수목적법인)&nbsp;설립&nbsp;지원&nbsp;및&nbsp;주민&nbsp;우선&nbsp;투자제&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;군위형&nbsp;에너지기금&nbsp;조성&nbsp;및&nbsp;주민수익&nbsp;공유&nbsp;조례&nbsp;제정&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2026년&nbsp;:&nbsp;햇빛연금&nbsp;추진위원회&nbsp;구성&nbsp;및&nbsp;후보지&nbsp;발굴<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2027년&nbsp;:&nbsp;시범&nbsp;태양광단지&nbsp;및&nbsp;주민참여사업&nbsp;착수<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2028년&nbsp;:&nbsp;공동연금&nbsp;지급체계&nbsp;구축&nbsp;및&nbsp;참여&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2030년&nbsp;:&nbsp;전&nbsp;읍·면&nbsp;확대&nbsp;및&nbsp;군위형&nbsp;햇빛연금&nbsp;정착&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민관협력&nbsp;및&nbsp;발전수익&nbsp;공유형&nbsp;재원&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;정부&nbsp;신재생에너지&nbsp;공모사업&nbsp;및&nbsp;국·도비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;민간&nbsp;발전사업자&nbsp;투자&nbsp;유치&nbsp;및&nbsp;주민펀드&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;발전수익&nbsp;일부를&nbsp;군민&nbsp;공동연금&nbsp;재원으로&nbsp;적립<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;한국에너지공단&nbsp;및&nbsp;RE100&nbsp;연계사업&nbsp;적극&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;에너지협동조합&nbsp;및&nbsp;지역금융&nbsp;연계&nbsp;투자모델&nbsp;구축<br><br>전남&nbsp;신안군은&nbsp;태양광·해상풍력&nbsp;개발이익을&nbsp;주민에게&nbsp;배당하는&nbsp;‘햇빛연금’&nbsp;정책을&nbsp;시행해&nbsp;전국적인&nbsp;성공사례로&nbsp;평가받고&nbsp;있으며,&nbsp;주민소득&nbsp;증대와&nbsp;지역소멸&nbsp;대응&nbsp;모델로&nbsp;주목받고&nbsp;있습니다.&nbsp;주민참여형&nbsp;재생에너지&nbsp;수익공유제가&nbsp;핵심&nbsp;성공요인으로&nbsp;분석됩니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	군민 누구나 군내 시내버스 무료 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="군민 누구나 군내 시내버스 무료 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;교통복지&nbsp;실현과&nbsp;지역경제&nbsp;활성화를&nbsp;위한&nbsp;군내버스&nbsp;완전&nbsp;무료화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;군민&nbsp;교통비&nbsp;부담&nbsp;경감&nbsp;및&nbsp;이동권&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;어르신·청소년·농촌지역&nbsp;주민&nbsp;대중교통&nbsp;접근성&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;버스&nbsp;이용&nbsp;활성화를&nbsp;통한&nbsp;전통시장·상가&nbsp;소비&nbsp;진작<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;읍·면&nbsp;간&nbsp;교류&nbsp;활성화와&nbsp;지역공동체&nbsp;회복&nbsp;기반&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;승용차&nbsp;이용&nbsp;감소를&nbsp;통한&nbsp;친환경&nbsp;교통체계&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전국&nbsp;농어촌&nbsp;버스&nbsp;무료화&nbsp;성공사례를&nbsp;반영한&nbsp;군위형&nbsp;교통복지&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;군민&nbsp;대상&nbsp;군내&nbsp;농어촌버스&nbsp;전면&nbsp;무료&nbsp;이용체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;군민&nbsp;교통카드&nbsp;또는&nbsp;모바일&nbsp;인증&nbsp;기반&nbsp;무상승차&nbsp;시스템&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;버스노선&nbsp;개편&nbsp;및&nbsp;읍·면&nbsp;순환노선&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;장날·문화행사·전통시장&nbsp;연계&nbsp;특별노선&nbsp;운영&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;대구&nbsp;편입에&nbsp;따른&nbsp;광역환승체계&nbsp;개선&nbsp;및&nbsp;연계교통&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;교통약자&nbsp;맞춤형&nbsp;행복버스·수요응답형(DRT)&nbsp;교통&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2028년<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2026년&nbsp;:&nbsp;무료버스&nbsp;추진&nbsp;조례&nbsp;제정&nbsp;및&nbsp;운영체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2027년&nbsp;:&nbsp;군민&nbsp;무료승차&nbsp;시범운영&nbsp;및&nbsp;노선개편&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2028년&nbsp;:&nbsp;군내버스&nbsp;전면&nbsp;무료화&nbsp;시행&nbsp;및&nbsp;확대&nbsp;운영<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지방교통&nbsp;지원예산&nbsp;및&nbsp;교통복지&nbsp;재원&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;대구시&nbsp;교통지원&nbsp;예산&nbsp;및&nbsp;국·도비&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;농어촌&nbsp;대중교통&nbsp;지원사업&nbsp;적극&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;버스&nbsp;공영제&nbsp;및&nbsp;준공영제&nbsp;연계&nbsp;재정지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;교통복지&nbsp;특별회계&nbsp;및&nbsp;지방소멸대응기금&nbsp;활용&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;이용객&nbsp;증가에&nbsp;따른&nbsp;지역상권&nbsp;소비&nbsp;활성화로&nbsp;지역경제&nbsp;선순환&nbsp;유도<br>전국적으로&nbsp;전남&nbsp;완도군·진도군·신안군,&nbsp;경북&nbsp;청송군&nbsp;등&nbsp;농어촌&nbsp;지역에서는&nbsp;버스&nbsp;무료화&nbsp;정책을&nbsp;시행하거나&nbsp;확대하고&nbsp;있으며,&nbsp;고령층&nbsp;이동권&nbsp;보장과&nbsp;지역경제&nbsp;활성화&nbsp;효과가&nbsp;나타난다는&nbsp;평가를&nbsp;받고&nbsp;있습니다.&nbsp;특히&nbsp;무료버스&nbsp;시행&nbsp;이후&nbsp;전통시장&nbsp;방문&nbsp;증가와&nbsp;주민&nbsp;교류&nbsp;활성화,&nbsp;병원·문화시설&nbsp;이용&nbsp;확대&nbsp;등의&nbsp;긍정적&nbsp;효과가&nbsp;언론을&nbsp;통해&nbsp;보도되고&nbsp;있습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	국립 효령 항공고 개교추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="국립 효령 항공고 개교추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;TK신공항&nbsp;시대를&nbsp;대비한&nbsp;항공전문&nbsp;인재양성&nbsp;거점&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;군위를&nbsp;대한민국&nbsp;항공산업&nbsp;교육&nbsp;중심도시로&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;국립효령항공고&nbsp;설립을&nbsp;통한&nbsp;항공정비·드론·항공물류&nbsp;전문인력&nbsp;양성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지역&nbsp;학생들의&nbsp;취업·진학&nbsp;기회&nbsp;확대&nbsp;및&nbsp;청년&nbsp;유출&nbsp;방지<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;TK신공항&nbsp;배후산업과&nbsp;연계한&nbsp;미래형&nbsp;교육도시&nbsp;기반&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국립&nbsp;특성화&nbsp;항공고&nbsp;설립을&nbsp;위한&nbsp;중앙정부·교육청&nbsp;협력&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;교육부·국토교통부·대구시교육청과&nbsp;국립항공고&nbsp;설립&nbsp;협의&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;폐교·유휴학교&nbsp;활용&nbsp;및&nbsp;항공특성화&nbsp;교육과정&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;항공정비(MRO)·드론·항공물류·AI항공&nbsp;분야&nbsp;전문학과&nbsp;신설&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;한국공항공사·항공기업·대학과&nbsp;산학협력&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;TK신공항&nbsp;및&nbsp;항공산업단지와&nbsp;연계한&nbsp;현장실습·취업&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;기숙형&nbsp;공립&nbsp;특성화학교&nbsp;모델&nbsp;도입으로&nbsp;전국단위&nbsp;학생&nbsp;유치&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2026년&nbsp;:&nbsp;타당성&nbsp;조사&nbsp;및&nbsp;설립&nbsp;추진위원회&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2027년&nbsp;:&nbsp;교육부·대구시교육청&nbsp;설립&nbsp;협의&nbsp;및&nbsp;부지&nbsp;확정<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2028년&nbsp;:&nbsp;국립항공고&nbsp;설립&nbsp;승인&nbsp;및&nbsp;예산&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2030년&nbsp;:&nbsp;국립효령항공고&nbsp;개교&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·교육청&nbsp;예산&nbsp;및&nbsp;공공기관&nbsp;협력&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;교육부&nbsp;특성화고&nbsp;지원사업&nbsp;및&nbsp;국비&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;대구시교육청·대구시·경북도&nbsp;협력&nbsp;재정지원&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;TK신공항&nbsp;특별법&nbsp;연계&nbsp;교육인프라&nbsp;지원&nbsp;건의<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;항공기업·공공기관&nbsp;산학협력&nbsp;및&nbsp;장학지원&nbsp;확대&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지방소멸대응기금&nbsp;및&nbsp;지역균형발전사업&nbsp;연계&nbsp;추진<br>정부와&nbsp;대구시는&nbsp;TK신공항을&nbsp;중심으로&nbsp;항공물류·MRO·드론산업&nbsp;육성을&nbsp;추진하고&nbsp;있으며,&nbsp;항공산업&nbsp;전문인력&nbsp;양성&nbsp;필요성이&nbsp;지속적으로&nbsp;제기되고&nbsp;있습니다.&nbsp;전국적으로도&nbsp;항공정비·드론&nbsp;특성화&nbsp;교육&nbsp;수요가&nbsp;증가하면서&nbsp;지역&nbsp;전략산업과&nbsp;연계한&nbsp;특성화고&nbsp;설립&nbsp;필요성이&nbsp;언론과&nbsp;정책토론회&nbsp;등을&nbsp;통해&nbsp;논의되고&nbsp;있습니다.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

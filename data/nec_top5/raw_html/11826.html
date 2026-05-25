@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김용판 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	행정문화 대혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="행정문화 대혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;:&nbsp;존중이&nbsp;넘치는&nbsp;선진&nbsp;행정문화&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;&nbsp;조직&nbsp;내·외&nbsp;‘존중(尊重)문화’확산으로&nbsp;신명나는&nbsp;구정&nbsp;구현<br>&nbsp;&nbsp;○&nbsp;&nbsp;구청장과&nbsp;함께하는「달서구민&nbsp;대민원&nbsp;공감&nbsp;Day」개최&nbsp;정례화<br>&nbsp;&nbsp;○&nbsp;&nbsp;AI&nbsp;혁신단&nbsp;및&nbsp;자문위원회&nbsp;운영으로&nbsp;미래&nbsp;지향적&nbsp;행정&nbsp;도입<br>&nbsp;&nbsp;<br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;&nbsp;구청장&nbsp;결단으로&nbsp;즉시&nbsp;이행<br>&nbsp;&nbsp;○&nbsp;&nbsp;취임&nbsp;100일&nbsp;시행,&nbsp;분기별&nbsp;개최(달서&nbsp;공감&nbsp;Day)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;&nbsp;존중문화&nbsp;:&nbsp;임기&nbsp;동안<br>&nbsp;&nbsp;○&nbsp;&nbsp;달서&nbsp;공감&nbsp;day&nbsp;:&nbsp;임기&nbsp;동안<br>&nbsp;&nbsp;○&nbsp;&nbsp;AI&nbsp;조직&nbsp;:&nbsp;취임&nbsp;즉시&nbsp;AI&nbsp;혁신단&nbsp;및&nbsp;외부&nbsp;AI&nbsp;자문위원회&nbsp;구성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;&nbsp;국비&nbsp;및&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	성서공단을 DS밸리로 대혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="성서공단을 DS밸리로 대혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;:&nbsp;성서산단을&nbsp;DS밸리로&nbsp;대혁신<br>&nbsp;&nbsp;○&nbsp;&nbsp;노후&nbsp;성서산단을&nbsp;“&nbsp;직(職)·주(住)·락(樂)&nbsp;조화&nbsp;미래형&nbsp;거점으로&nbsp;탈바꿈<br>&nbsp;&nbsp;○&nbsp;&nbsp;성서산업단지&nbsp;주변&nbsp;글로벌타운&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;&nbsp;출퇴근&nbsp;10분대&nbsp;시대&nbsp;실현<br>&nbsp;<br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;&nbsp;취임&nbsp;즉시&nbsp;T/F팀&nbsp;구성,&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;&nbsp;대구시와&nbsp;긴밀&nbsp;협의&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;&nbsp;조직&nbsp;:&nbsp;임기&nbsp;동안&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;&nbsp;국비&nbsp;및&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	지역축제, 경제축제로 대전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="지역축제, 경제축제로 대전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;:&nbsp;전&nbsp;구민참여형&nbsp;축제로&nbsp;행복지수&nbsp;제고<br>&nbsp;&nbsp;○&nbsp;전&nbsp;세대&nbsp;동참&nbsp;경제&nbsp;선순환형&nbsp;대표&nbsp;축제&nbsp;개최<br>&nbsp;&nbsp;○&nbsp;문화예술&nbsp;중심&nbsp;달서구&nbsp;축제의&nbsp;통합&nbsp;브랜드화<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;&nbsp;구청장&nbsp;결단으로&nbsp;즉시&nbsp;이행<br>&nbsp;&nbsp;<br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;&nbsp;임기&nbsp;동안<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	힐링문화 대혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="힐링문화 대혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;:&nbsp;건강과&nbsp;문화와&nbsp;행복이&nbsp;넘치는&nbsp;자연환경&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;&nbsp;공원&nbsp;및&nbsp;둘레길&nbsp;입체적·종합적&nbsp;대정비<br>&nbsp;&nbsp;○&nbsp;&nbsp;도원지를&nbsp;가로지르는&nbsp;‘짚라인(Zip-line)’설치&nbsp;등&nbsp;친환경&nbsp;레저&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;&nbsp;학산공원을&nbsp;“달서숲”으로&nbsp;리브랜딩&nbsp;:&nbsp;대구의&nbsp;대표&nbsp;랜드마크로&nbsp;조성<br>&nbsp;&nbsp;<br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;&nbsp;대구시&nbsp;협의&nbsp;후&nbsp;실행(달서숲)<br>&nbsp;&nbsp;○&nbsp;&nbsp;취임&nbsp;후&nbsp;연구용역을&nbsp;통한&nbsp;계획&nbsp;수립<br>&nbsp;&nbsp;<br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;&nbsp;임기&nbsp;동안<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;&nbsp;국비&nbsp;및&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	주민복지 대혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="주민복지 대혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;:&nbsp;구민,&nbsp;특히&nbsp;소외계층&nbsp;복지서비스&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;「우리동네&nbsp;복지기동대」도입으로&nbsp;주민과&nbsp;함께&nbsp;실효성&nbsp;있는&nbsp;현장&nbsp;밀착형&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;&nbsp;온종일&nbsp;아이돌봄&nbsp;서비스&nbsp;강화&nbsp;및&nbsp;기존&nbsp;결혼&nbsp;장려&nbsp;문화&nbsp;승계&nbsp;발전<br>&nbsp;&nbsp;<br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;&nbsp;구청장&nbsp;결단으로&nbsp;이행<br>&nbsp;&nbsp;<br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;&nbsp;임기&nbsp;동안<br>&nbsp;&nbsp;<br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;&nbsp;국비와&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

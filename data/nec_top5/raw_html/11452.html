@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;송창훈 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	시간과 번거로움을 줄이는 대중교통</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="시간과 번거로움을 줄이는 대중교통">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;철도역&nbsp;접근&nbsp;시간을&nbsp;단축하고,&nbsp;생활권&nbsp;간&nbsp;이동&nbsp;불편을&nbsp;해소하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;용인시는&nbsp;신도시,&nbsp;기존&nbsp;시가지,&nbsp;외곽&nbsp;생활권이&nbsp;길게&nbsp;이어진&nbsp;구조라서&nbsp;“버스&nbsp;노선이&nbsp;있는지&nbsp;없는지”&nbsp;보다&nbsp;“기다림이&nbsp;덜하고&nbsp;갈아타기&nbsp;쉬운지”가&nbsp;중요합니다.&nbsp;따라서&nbsp;“새&nbsp;노선&nbsp;신설”도&nbsp;중요하지만,&nbsp;“기존&nbsp;노선과&nbsp;환승의&nbsp;질&nbsp;개선”도&nbsp;함께&nbsp;해야&nbsp;합니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;권역별&nbsp;노선을&nbsp;재편하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출퇴근&nbsp;혼잡&nbsp;노선은&nbsp;간선-지선&nbsp;구조로&nbsp;다시&nbsp;정리하고,&nbsp;중복&nbsp;노선을&nbsp;줄여&nbsp;환승&nbsp;부담을&nbsp;낮추겠습니다.&nbsp;"기다림이&nbsp;덜한&nbsp;연결"로&nbsp;체감이&nbsp;되는&nbsp;재편을&nbsp;하겠습니다.<br>&nbsp;&nbsp;○&nbsp;철도역&nbsp;환승&nbsp;품질을&nbsp;개선하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;철도가&nbsp;이어지지&nbsp;않은&nbsp;생활권으로&nbsp;철도&nbsp;노선을&nbsp;신설하고,&nbsp;역&nbsp;주변&nbsp;정류장&nbsp;위치,&nbsp;보행동선,&nbsp;막차&nbsp;연계를&nbsp;손보겠습니다.&nbsp;역에서&nbsp;집,&nbsp;학교,&nbsp;상권이&nbsp;이어지도록&nbsp;하겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기와&nbsp;중기로&nbsp;나누어&nbsp;진행하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단기에는&nbsp;노선&nbsp;조정,&nbsp;배차&nbsp;조정,&nbsp;정류장&nbsp;정비처럼&nbsp;바로&nbsp;손댈&nbsp;수&nbsp;있는&nbsp;개선을&nbsp;먼저&nbsp;하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중기에는&nbsp;환승센터&nbsp;정비와&nbsp;교통체계를&nbsp;확장하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;“당장&nbsp;불편을&nbsp;줄이는&nbsp;것”과&nbsp;“구조를&nbsp;바꾸는&nbsp;것”을&nbsp;같이&nbsp;담겠습니다.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시비를&nbsp;기본으로&nbsp;하되&nbsp;도비와&nbsp;국비&nbsp;연계를&nbsp;함께&nbsp;검토하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노선&nbsp;조정,&nbsp;배차&nbsp;조정,&nbsp;정류장&nbsp;정비는&nbsp;시비를&nbsp;기본으로&nbsp;하고,&nbsp;철도&nbsp;노선&nbsp;신설과&nbsp;광역버스&nbsp;등&nbsp;환승&nbsp;개선은&nbsp;도비와&nbsp;국비&nbsp;연계를&nbsp;함께&nbsp;검토하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단순&nbsp;운영&nbsp;개선과&nbsp;큰&nbsp;토목&nbsp;사업이&nbsp;모두&nbsp;이뤄져야&nbsp;하므로&nbsp;연차별로&nbsp;나눠&nbsp;예산을&nbsp;반영하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	복합문화거점 “머무는 용인”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="복합문화거점 “머무는 용인”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;체류형&nbsp;문화도시&nbsp;용인을&nbsp;구축하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;에버랜드,&nbsp;한국민속촌&nbsp;등&nbsp;용인이&nbsp;보유하고&nbsp;있는&nbsp;기존&nbsp;관광자산과&nbsp;연계한&nbsp;복합문화거점을&nbsp;조성해&nbsp;관광객&nbsp;체류시간을&nbsp;늘리고,&nbsp;시민의&nbsp;창작활동과&nbsp;생활문화를&nbsp;활성화하겠습니다.&nbsp;공연,&nbsp;체험,&nbsp;상권이&nbsp;연결되는&nbsp;복합문화거점&nbsp;용인을&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;K컬쳐&nbsp;문화단지를&nbsp;만들겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;K팝&nbsp;공연장을&nbsp;중심으로&nbsp;시민들이&nbsp;직접&nbsp;창작,&nbsp;전시,&nbsp;체험을&nbsp;할&nbsp;수&nbsp;있는&nbsp;시설을&nbsp;포함한&nbsp;문화단지를&nbsp;만들겠습니다.<br>&nbsp;&nbsp;○&nbsp;대표&nbsp;관광도시로&nbsp;만들겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;에버랜드,&nbsp;한국민속촌,&nbsp;지역상권을&nbsp;연결하는&nbsp;콘텐츠를&nbsp;개발하여&nbsp;관광객을&nbsp;유치하겠습니다.&nbsp;또한&nbsp;지역&nbsp;예술인,&nbsp;청년창업자,&nbsp;소상공인이&nbsp;참여하는&nbsp;지역&nbsp;축제를&nbsp;만들겠습니다.&nbsp;연계&nbsp;사업&nbsp;확대를&nbsp;통한&nbsp;지역경제&nbsp;환류&nbsp;구조를&nbsp;마련하겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기와&nbsp;중기로&nbsp;나누어&nbsp;진행하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단기에는&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;대상지&nbsp;선정,&nbsp;공모사업을&nbsp;추진하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중기에는&nbsp;복합문화거점&nbsp;조성&nbsp;및&nbsp;시범&nbsp;프로그램을&nbsp;운영하고,&nbsp;연중&nbsp;상설&nbsp;공연,&nbsp;관광&nbsp;프로그램을&nbsp;정착시켜&nbsp;지역상권과&nbsp;연계를&nbsp;확대하겠습니다.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비와&nbsp;도비&nbsp;및&nbsp;민간투자를&nbsp;유치하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비와&nbsp;도비&nbsp;공모사업을&nbsp;적극&nbsp;유치하고,&nbsp;민간투자&nbsp;및&nbsp;문화콘텐츠&nbsp;기업의&nbsp;협력을&nbsp;유치하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공연,&nbsp;체험,&nbsp;축제&nbsp;등&nbsp;운영&nbsp;수익&nbsp;일부를&nbsp;지역문화사업에&nbsp;재투자하는&nbsp;순환형&nbsp;운영&nbsp;모델을&nbsp;구축하고,&nbsp;지역상권&nbsp;협력&nbsp;및&nbsp;기업&nbsp;후원&nbsp;연계를&nbsp;통한&nbsp;지속가능&nbsp;재원을&nbsp;확보하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	반도체는 세계로, 일자리는 시민에게</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="반도체는 세계로, 일자리는 시민에게">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시민이&nbsp;함께&nbsp;성장하는&nbsp;반도체&nbsp;도시를&nbsp;조성하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;용인에서&nbsp;이미&nbsp;조성&nbsp;중인&nbsp;SK와&nbsp;삼성&nbsp;반도체&nbsp;산업단지를&nbsp;성공적으로&nbsp;완성하는&nbsp;것을&nbsp;넘어,&nbsp;용인&nbsp;시민에게&nbsp;양질의&nbsp;일자리를&nbsp;제공하여&nbsp;시민이&nbsp;체감하는&nbsp;경제성장을&nbsp;실현하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;산학협력&nbsp;기반&nbsp;반도체&nbsp;일자리를&nbsp;확대하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반도체&nbsp;인재양성센터를&nbsp;설립하고&nbsp;삼성,&nbsp;SK&nbsp;및&nbsp;협력기업과&nbsp;연계한&nbsp;취업,&nbsp;인턴쉽&nbsp;프로그램을&nbsp;운영하겠습니다.&nbsp;또한&nbsp;특성화고,&nbsp;대학과&nbsp;협력해&nbsp;반도체&nbsp;전문교육과&nbsp;창업,&nbsp;취업&nbsp;지원을&nbsp;확대하겠습니다.<br>&nbsp;&nbsp;○&nbsp;반도체&nbsp;관련&nbsp;기업&nbsp;유치&nbsp;및&nbsp;지역상생을&nbsp;강화하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반도체&nbsp;관련&nbsp;기업&nbsp;유치를&nbsp;확대하고,&nbsp;지역&nbsp;중소기업과의&nbsp;협력체계를&nbsp;구축하겠습니다.&nbsp;산업단지&nbsp;주변으로&nbsp;상권을&nbsp;조성,&nbsp;활성화하여&nbsp;반도체&nbsp;산업의&nbsp;성장&nbsp;효과가&nbsp;시민&nbsp;생활과&nbsp;지역경제에&nbsp;직접&nbsp;이어지도록&nbsp;하겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기와&nbsp;중기로&nbsp;나누어&nbsp;진행하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단기에는&nbsp;산학협력&nbsp;체계&nbsp;구축&nbsp;및&nbsp;교육,&nbsp;취업&nbsp;프로그램을&nbsp;시작하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중기에는&nbsp;인재양성센터를&nbsp;개관하여&nbsp;채용지원을&nbsp;더&nbsp;확대하고,&nbsp;산업단지&nbsp;주변&nbsp;상권을&nbsp;조성하겠습니다.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비와&nbsp;도비&nbsp;및&nbsp;민간투자를&nbsp;유치하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙정부&nbsp;공모사업과&nbsp;지원예산을&nbsp;적극&nbsp;유치하겠습니다.&nbsp;또한&nbsp;경기도&nbsp;일자리&nbsp;예산과&nbsp;연계해&nbsp;시비&nbsp;부담을&nbsp;최소화하고,&nbsp;삼성,&nbsp;SK&nbsp;및&nbsp;협력기업과의&nbsp;산학협력,&nbsp;사회공헌&nbsp;사업을&nbsp;통해&nbsp;교육,&nbsp;취업&nbsp;프로그램&nbsp;재원을&nbsp;확보하겠습니다.&nbsp;창업지원&nbsp;및&nbsp;인재양성&nbsp;사업은&nbsp;대학,&nbsp;기업,&nbsp;공공기관&nbsp;공동운영&nbsp;방식으로&nbsp;추진해&nbsp;지속&nbsp;가능한&nbsp;재정&nbsp;구조를&nbsp;마련하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	용인“특례”시, 권한을 키우겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="용인“특례”시, 권한을 키우겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;100만&nbsp;도시&nbsp;수준의&nbsp;행정,&nbsp;재정&nbsp;권한&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인구가&nbsp;100만이&nbsp;넘는&nbsp;용인특례시에&nbsp;걸맞은&nbsp;권한과&nbsp;재정을&nbsp;확보해&nbsp;교통,&nbsp;복지,&nbsp;도시개발&nbsp;등&nbsp;시민&nbsp;생활&nbsp;문제를&nbsp;더욱&nbsp;빠르고&nbsp;효율적으로&nbsp;해결하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;특례시&nbsp;권한&nbsp;확대&nbsp;및&nbsp;제도&nbsp;개선을&nbsp;추진하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙정부에&nbsp;국회에&nbsp;특례시&nbsp;권한&nbsp;이양을&nbsp;지속&nbsp;건의하고,&nbsp;광역시&nbsp;수준의&nbsp;행정,&nbsp;재정&nbsp;권한&nbsp;확보를&nbsp;추진하겠습니다.&nbsp;다른&nbsp;특례시들의&nbsp;단체장과도&nbsp;협력하여&nbsp;제도&nbsp;개선에&nbsp;적극&nbsp;나서겠습니다.<br>&nbsp;&nbsp;○&nbsp;특례시&nbsp;맞춤형&nbsp;행정체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;용인특례시의&nbsp;행정&nbsp;수요에&nbsp;맞춰&nbsp;교통,&nbsp;복지,&nbsp;도시계획&nbsp;분야의&nbsp;전담&nbsp;조직과&nbsp;전문인력을&nbsp;확대하겠습니다.<br>&nbsp;&nbsp;○&nbsp;구&nbsp;권한&nbsp;강화로&nbsp;시민&nbsp;밀착행정&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;처인구,&nbsp;기흥구,&nbsp;수지구의&nbsp;행정&nbsp;권한과&nbsp;기능을&nbsp;확대해&nbsp;광역시&nbsp;자치구&nbsp;수준의&nbsp;책임행정을&nbsp;추진하겠습니다.&nbsp;생활민원,&nbsp;복지,&nbsp;교통,&nbsp;지역개발&nbsp;업무를&nbsp;구&nbsp;단위에서&nbsp;신속하게&nbsp;처리할&nbsp;수&nbsp;있도록&nbsp;권한과&nbsp;조직을&nbsp;강화하여&nbsp;시민이&nbsp;가까운&nbsp;곳에서&nbsp;더&nbsp;빠르고&nbsp;편리한&nbsp;행정서비스를&nbsp;받을&nbsp;수&nbsp;있도록&nbsp;하겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기와&nbsp;중기로&nbsp;나누어&nbsp;진행하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단기에는&nbsp;특례시&nbsp;공동대응&nbsp;및&nbsp;법,&nbsp;제도&nbsp;개선&nbsp;건의를&nbsp;하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중기에는&nbsp;재정,&nbsp;도시계획&nbsp;권한&nbsp;확대를&nbsp;추진하고,&nbsp;실질적&nbsp;자치권&nbsp;강화&nbsp;및&nbsp;시민&nbsp;체감&nbsp;행정을&nbsp;실현하겠습니다.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;권한&nbsp;확대를&nbsp;통한&nbsp;재정&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;세금&nbsp;배분&nbsp;개선과&nbsp;특례시&nbsp;재정특례&nbsp;확대를&nbsp;추진하고,&nbsp;시민&nbsp;부담&nbsp;없이&nbsp;도시&nbsp;인프라와&nbsp;행정서비스를&nbsp;강화하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	살기 좋은 주거의 기준, 용인</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="살기 좋은 주거의 기준, 용인">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;친환경적이고&nbsp;쾌적한&nbsp;주거도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;친환경&nbsp;공동주택&nbsp;기준을&nbsp;강화해&nbsp;에너지&nbsp;절약과&nbsp;쾌적한&nbsp;실내환경을&nbsp;실현&nbsp;하고,&nbsp;시민이&nbsp;만족하며&nbsp;생활할&nbsp;수&nbsp;있는&nbsp;녹색도시&nbsp;용인을&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;층간소음&nbsp;저감&nbsp;기준&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;법으로&nbsp;정해진&nbsp;바닥충격음&nbsp;차단성능&nbsp;기준보다&nbsp;강화된&nbsp;기준을&nbsp;적용하여&nbsp;층간소음으로&nbsp;인한&nbsp;문제를&nbsp;줄이겠습니다.<br>&nbsp;&nbsp;○&nbsp;에너지&nbsp;절약형&nbsp;주거환경&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;환기설비&nbsp;열교환효율&nbsp;기준을&nbsp;높이는&nbsp;등,&nbsp;건축물&nbsp;에너지소비량을&nbsp;저감할&nbsp;수&nbsp;있는&nbsp;기준을&nbsp;적용하여&nbsp;공동주택&nbsp;관리비를&nbsp;줄여&nbsp;부담&nbsp;완화를&nbsp;추진하겠습니다.<br>&nbsp;&nbsp;○&nbsp;실내&nbsp;쾌적성&nbsp;향상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고성능&nbsp;외기청정필터&nbsp;적용&nbsp;기준&nbsp;등&nbsp;실내&nbsp;쾌적성을&nbsp;향상할&nbsp;수&nbsp;있는&nbsp;기준&nbsp;들을&nbsp;법으로&nbsp;정해진&nbsp;것보다&nbsp;강화하여,&nbsp;시민의&nbsp;주거&nbsp;만족도를&nbsp;높이겠습니다.<br>&nbsp;&nbsp;○&nbsp;친환경&nbsp;공동주택&nbsp;인센티브&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기준을&nbsp;충족한&nbsp;공동주택에는&nbsp;행정지원과&nbsp;인센티브를&nbsp;제공하고,&nbsp;우수단지&nbsp;인증제도를&nbsp;운영해&nbsp;모두가&nbsp;살고&nbsp;싶어하는&nbsp;도시&nbsp;용인으로&nbsp;만들겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기와&nbsp;중기로&nbsp;나누어&nbsp;진행하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단기에는&nbsp;친환경&nbsp;공동주택&nbsp;가이드라인&nbsp;마련&nbsp;및&nbsp;시범사업&nbsp;추진을&nbsp;하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중기에는&nbsp;신규&nbsp;친환경&nbsp;기준을&nbsp;확대&nbsp;적용하고,&nbsp;구축&nbsp;공동주택에도&nbsp;적용할&nbsp;수&nbsp;있는&nbsp;제도를&nbsp;마련하겠습니다.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;민간협력&nbsp;기반&nbsp;투자&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;친환경&nbsp;건축&nbsp;및&nbsp;탄소중립&nbsp;지원사업을&nbsp;적극&nbsp;유치하고,&nbsp;민간&nbsp;건설사와&nbsp;협력&nbsp;해&nbsp;설비&nbsp;투자&nbsp;확대&nbsp;유도,&nbsp;인센티브&nbsp;제공을&nbsp;통해&nbsp;재원을&nbsp;마련하겠습니다.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

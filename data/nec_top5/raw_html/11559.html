@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박수현 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	대한민국 AI수도, 충남!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="대한민국 AI수도, 충남!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;AI산업혁신·AI기본사회&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI를&nbsp;통한&nbsp;충남&nbsp;산업&nbsp;발전과&nbsp;충남도민&nbsp;삶&nbsp;곳곳을&nbsp;이롭게&nbsp;하는&nbsp;사람중심&nbsp;AI사회&nbsp;구현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;‘AI산업혁신’,&nbsp;AI로&nbsp;함께&nbsp;성장하는&nbsp;기업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중소기업·협력사&nbsp;AI원스톱&nbsp;지원&nbsp;체계&nbsp;구축,&nbsp;AI활용진단&nbsp;및&nbsp;맞춤&nbsp;전환&nbsp;로드맵&nbsp;제시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI도입을&nbsp;통한&nbsp;직무전환&nbsp;지원,&nbsp;배우고,&nbsp;일하고,&nbsp;전환하는&nbsp;‘AI산업&nbsp;연결사다리’&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI전환으로&nbsp;직무가&nbsp;전환되는&nbsp;노동자에&nbsp;대한&nbsp;재교육기간&nbsp;소득공백&nbsp;해소&nbsp;‘전환수당’&nbsp;지급&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불량과&nbsp;고장을&nbsp;줄이는&nbsp;AI를&nbsp;넘어,&nbsp;위험작업&nbsp;조기경보와&nbsp;안전관리까지&nbsp;함께&nbsp;이뤄지는&nbsp;‘안전한&nbsp;일터’&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;AI로&nbsp;만드는&nbsp;‘사람&nbsp;중심&nbsp;충남’<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;충남형&nbsp;생애주기AI:&nbsp;초·중·고&nbsp;학생,&nbsp;대학생,&nbsp;청년,&nbsp;노동자,&nbsp;농어민,&nbsp;어르신까지&nbsp;연령과&nbsp;직업에&nbsp;맞는&nbsp;AI&nbsp;기초·활용&nbsp;교육체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌·다문화&nbsp;AI&nbsp;학습지원:&nbsp;농어촌·다문화&nbsp;학생의&nbsp;학습&nbsp;격차를&nbsp;줄이기&nbsp;위해&nbsp;교육청·학교&nbsp;협력&nbsp;맞춤형&nbsp;학습&nbsp;지원&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우리마을&nbsp;안심주치의,&nbsp;AI:&nbsp;병원가는&nbsp;하루를&nbsp;줄이고,&nbsp;기초의료·돌봄·복지&nbsp;지원을&nbsp;함께하는&nbsp;AI&nbsp;주치의&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;안전이동·동행&nbsp;서비스:&nbsp;교통여건이&nbsp;어려운&nbsp;지역&nbsp;대상으로&nbsp;예약형&nbsp;자율주행&nbsp;동행셔틀&nbsp;도입&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어업&nbsp;AI&nbsp;현장코치&nbsp;양성:&nbsp;농어민도&nbsp;쉬운&nbsp;AI활용,&nbsp;마을별&nbsp;AI&nbsp;현장코치와&nbsp;농어업&nbsp;데이터&nbsp;매니저&nbsp;양성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;돌봄체계&nbsp;확립:&nbsp;어르신과&nbsp;고립가구&nbsp;대상&nbsp;AI&nbsp;돌봄기기&nbsp;지원,&nbsp;위험신호를&nbsp;사람이&nbsp;확인·연계하는&nbsp;지역&nbsp;돌봄&nbsp;일자리&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인·자영업&nbsp;AI&nbsp;활용지원:&nbsp;예약,&nbsp;홍보,&nbsp;재고관리,&nbsp;고객응대,&nbsp;회계&nbsp;등&nbsp;소상공인이&nbsp;바로&nbsp;쓸&nbsp;수&nbsp;있는&nbsp;생활형&nbsp;AI&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행정부담경감·AI리터러시&nbsp;교육:&nbsp;반복&nbsp;행정&nbsp;부담&nbsp;줄이고,&nbsp;어르신·다문화가정·농어민이&nbsp;AI를&nbsp;쉽게&nbsp;활용할&nbsp;수&nbsp;있도록&nbsp;교육&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;책임&nbsp;있는&nbsp;공공&nbsp;AI활용:&nbsp;공공&nbsp;AI&nbsp;서비스를&nbsp;책임&nbsp;있게&nbsp;설계·운영할&nbsp;수&nbsp;있도록&nbsp;공직자&nbsp;대상&nbsp;AI&nbsp;이해,&nbsp;개인정보&nbsp;보호,&nbsp;설명&nbsp;책임&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;역사문화유산&nbsp;AI&nbsp;디지털활용:&nbsp;충남의&nbsp;역사문화유산을&nbsp;AI와&nbsp;디지털&nbsp;트윈&nbsp;기술로&nbsp;복원,&nbsp;역사교육과&nbsp;관광&nbsp;콘텐츠로&nbsp;활용<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내(2026년~2030년)&nbsp;궤도&nbsp;안착,&nbsp;임기&nbsp;후&nbsp;지속&nbsp;기반&nbsp;마련<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;국비&nbsp;예산&nbsp;확보&nbsp;및&nbsp;도비,&nbsp;시군비&nbsp;예산,&nbsp;민자&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	충남·대전 통합특별시 완성!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="충남·대전 통합특별시 완성!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;충남·대전&nbsp;통합으로&nbsp;5극&nbsp;3특의&nbsp;핵심축&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;실질적&nbsp;지방자치&nbsp;구현과&nbsp;인구소멸&nbsp;위기&nbsp;극복<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수도권과&nbsp;경쟁할&nbsp;수&nbsp;있는&nbsp;광역경제권을&nbsp;형성하고&nbsp;교육·의료&nbsp;등&nbsp;고급&nbsp;인프라를&nbsp;집중&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료와&nbsp;복지,&nbsp;교육&nbsp;등&nbsp;변화가&nbsp;주민에게&nbsp;체감되는&nbsp;행정인프라&nbsp;집중&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대전의&nbsp;연구개발&nbsp;역량과&nbsp;충남의&nbsp;첨단&nbsp;제조·산업&nbsp;인프라의&nbsp;결합,&nbsp;글로벌&nbsp;경쟁력을&nbsp;갖춘&nbsp;초광역&nbsp;경제권&nbsp;형성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활권역&nbsp;통합,&nbsp;공공서비스&nbsp;효율&nbsp;극대화로&nbsp;‘60분&nbsp;생활권’&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4년간&nbsp;최대&nbsp;20조원의&nbsp;재정지원과&nbsp;서울시에&nbsp;준하는&nbsp;자치권&nbsp;부여,&nbsp;공공기관&nbsp;우선&nbsp;이전&nbsp;혜택과&nbsp;산업지원으로&nbsp;잘사는&nbsp;충남대전통합특별시&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;충남·대전&nbsp;행정통합&nbsp;협의체&nbsp;가동<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;26년&nbsp;충남·대전&nbsp;통합법&nbsp;당론&nbsp;채택&nbsp;및&nbsp;연내&nbsp;통과&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;28년&nbsp;충남·대전&nbsp;통합단체장&nbsp;선거&nbsp;추진&nbsp;(임기&nbsp;단축&nbsp;포함)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;향후&nbsp;충북·세종&nbsp;포함&nbsp;중부권&nbsp;통합&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내(2026년~2030년)&nbsp;통합&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;국비&nbsp;예산&nbsp;확보&nbsp;및&nbsp;도비&nbsp;예산,&nbsp;민자&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	역사문화관광을 통(通)한 야간경제 활성화!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="역사문화관광을 통(通)한 야간경제 활성화!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;충남&nbsp;관광&nbsp;체류시간&nbsp;연장→지역&nbsp;소비&nbsp;증가→골목상권&nbsp;활성화.&nbsp;세계&nbsp;관광지도에&nbsp;충남&nbsp;등재.&nbsp;문화산업&nbsp;일자리&nbsp;창출<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대표발의한&nbsp;백제왕도특별법의&nbsp;국회&nbsp;본회의&nbsp;통과와&nbsp;조속한&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공주·부여·논산을&nbsp;아우르는&nbsp;백제역사문화권의&nbsp;조사·연구·복원·활용을&nbsp;국가&nbsp;책임으로&nbsp;명확화<br>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;고대&nbsp;동아시아&nbsp;최대&nbsp;문화강국&nbsp;백제의&nbsp;역사와&nbsp;문화,&nbsp;세계인이&nbsp;찾는&nbsp;유산으로&nbsp;발전<br>&nbsp;&nbsp;○&nbsp;국립역사문화권진흥원&nbsp;충남&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우리나라&nbsp;9개의&nbsp;역사문화권(고구려·백제·신라·가야·마한·탐라·중원·예맥·후백제)&nbsp;조사와&nbsp;연구,&nbsp;통합적으로&nbsp;관리하고&nbsp;활용할&nbsp;전문기관&nbsp;충남에&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우리&nbsp;역사문화가&nbsp;연구실과&nbsp;논문&nbsp;밖으로&nbsp;나와&nbsp;문화관광산업에&nbsp;활용되고&nbsp;충남도민의&nbsp;삶을&nbsp;풍요롭게&nbsp;할&nbsp;자산이&nbsp;되도록&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;충남의&nbsp;종교&nbsp;문화&nbsp;관광자원화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027&nbsp;서울&nbsp;세계청년대회와&nbsp;연계한&nbsp;충남의&nbsp;치유순례여행·명소&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전통사찰,&nbsp;향교·서원&nbsp;우리고장&nbsp;국가유산&nbsp;활용사업&nbsp;선정&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;백제문화유산&nbsp;국가발굴&nbsp;확대,&nbsp;국외소재&nbsp;충남문화유산&nbsp;환수&nbsp;적극&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가&nbsp;발굴&nbsp;지원&nbsp;확대&nbsp;및&nbsp;백제군사박물관(논산),&nbsp;백제역사박물관(부여),&nbsp;백제문화체험박물관(청양),&nbsp;웅진백제역사관(공주)&nbsp;등&nbsp;충남&nbsp;백제역사문화시설&nbsp;연계한&nbsp;역사탐방&nbsp;코스&nbsp;설계<br>&nbsp;&nbsp;○&nbsp;계룡산,&nbsp;분청사기&nbsp;유네스코&nbsp;복합문화유산&nbsp;등재&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘분청사기·계룡산&nbsp;유네스코&nbsp;세계복합유산&nbsp;등재&nbsp;프로젝트’&nbsp;추진,&nbsp;세계&nbsp;관광지도에&nbsp;새로운&nbsp;이름을&nbsp;올리는&nbsp;충남<br>&nbsp;&nbsp;○&nbsp;서해안&nbsp;해양생태문화관광벨트&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;천혜의&nbsp;바다&nbsp;서해와&nbsp;내륙을&nbsp;잇는&nbsp;문화관광도시&nbsp;조성(서산,&nbsp;당진,&nbsp;태안,&nbsp;보령,&nbsp;서천)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생태관광자원&nbsp;적극&nbsp;육성,&nbsp;문화와&nbsp;레저가&nbsp;결합된&nbsp;복합&nbsp;관광자원&nbsp;활성화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내(2026년~2030년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;국비&nbsp;예산&nbsp;확보&nbsp;및&nbsp;도비&nbsp;예산,&nbsp;민자&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	생태환경이 통(通)하는, 정의로운 에너지 전환을 선도하는 충남!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="생태환경이 통(通)하는, 정의로운 에너지 전환을 선도하는 충남!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;충남&nbsp;생태환경&nbsp;개선,&nbsp;정의로운&nbsp;에너지&nbsp;전환&nbsp;구현,&nbsp;기후테크&nbsp;산업&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;‘정의로운&nbsp;에너지&nbsp;전환’을&nbsp;원칙으로,&nbsp;확실한&nbsp;석탄화력&nbsp;폐쇄·전환&nbsp;대책&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;화력발전&nbsp;폐지지역에&nbsp;대한&nbsp;집중투자,&nbsp;지역&nbsp;재생에너지&nbsp;산업&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노동자&nbsp;이직·전직&nbsp;전환교육&nbsp;강화,&nbsp;경제적&nbsp;위기&nbsp;최소화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역주민&nbsp;전기요금&nbsp;할인&nbsp;및&nbsp;재생에너지&nbsp;집중&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;금강하구&nbsp;해수유통,&nbsp;하구&nbsp;생태복원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기수역&nbsp;생태계&nbsp;복원,&nbsp;회유성&nbsp;어종&nbsp;회복과&nbsp;어민&nbsp;경제&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;토사퇴적&nbsp;문제를&nbsp;해소하고&nbsp;항구의&nbsp;기능을&nbsp;강화해&nbsp;물류·관광&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;농촌&nbsp;물·환경&nbsp;통합관리,&nbsp;충남&nbsp;클린형&nbsp;농촌&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방치&nbsp;쓰레기,&nbsp;영농폐기물&nbsp;감소유도로&nbsp;농촌의&nbsp;정주여건&nbsp;개선&nbsp;및&nbsp;산불,&nbsp;대기오염&nbsp;예방<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;친환경&nbsp;농가&nbsp;소득&nbsp;증대와&nbsp;청년&nbsp;귀농인&nbsp;증대<br>&nbsp;&nbsp;○&nbsp;충남형&nbsp;통합&nbsp;물관리&nbsp;2.0&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘충남&nbsp;통합물관리&nbsp;종합계획’&nbsp;수립,&nbsp;금강유역&nbsp;물관리위원회&nbsp;충남&nbsp;거버넌스와&nbsp;유기적&nbsp;연계·운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지하수&nbsp;함양량&nbsp;실측망&nbsp;구축을&nbsp;단계적으로&nbsp;확대,&nbsp;가뭄시&nbsp;비상&nbsp;지하수&nbsp;공급체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가전략&nbsp;첨단산업단지&nbsp;안정적&nbsp;용수공급&nbsp;기반&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상수원과&nbsp;농업용수의&nbsp;안정적&nbsp;확보로&nbsp;가뭄,&nbsp;녹조피해&nbsp;최소화<br>&nbsp;&nbsp;○&nbsp;충남&nbsp;금강&nbsp;하구벨트&nbsp;기후테크산업&nbsp;육성,&nbsp;충남&nbsp;그린에너지&nbsp;성장펀드&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;충남이&nbsp;주도하는&nbsp;기후변화&nbsp;대응·지역균형발전의&nbsp;새로운&nbsp;모델<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기후테크&nbsp;생태계&nbsp;구축,&nbsp;탄소중립&nbsp;기여<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해상풍력·그린수소·폐배터리&nbsp;재활용&nbsp;등&nbsp;기후테크&nbsp;핵심분야&nbsp;기업&nbsp;유치·연구지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;충남&nbsp;그린에너지&nbsp;성장펀드를&nbsp;조성해&nbsp;민·관·학·연이&nbsp;협력하는&nbsp;지속가능한&nbsp;기후테크&nbsp;산업&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국민성장펀드와&nbsp;연계한&nbsp;대규모&nbsp;정책자금&nbsp;투융자&nbsp;유치,&nbsp;충남&nbsp;균형발전&nbsp;구현<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내(2026년~2030년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;국비&nbsp;예산&nbsp;확보&nbsp;및&nbsp;도비&nbsp;예산,&nbsp;민자&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	하늘길·바닷길·도로·철도가 모두 통(通)하는 충남!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="하늘길·바닷길·도로·철도가 모두 통(通)하는 충남!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;사람과&nbsp;물류가&nbsp;자유롭게&nbsp;오가고,&nbsp;교통과&nbsp;경제가&nbsp;통하는&nbsp;충남&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사통팔달&nbsp;충남,&nbsp;충남&nbsp;15개&nbsp;시군&nbsp;모두의&nbsp;이동권&nbsp;보장,&nbsp;광역교통망&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중부권&nbsp;동서횡단철도&nbsp;구축&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;충청남부권&nbsp;광역철도&nbsp;조속&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;인천공항~내포&nbsp;서해선&nbsp;직결,&nbsp;내포~세종&nbsp;1시간&nbsp;연결&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;천안&nbsp;외곽&nbsp;순환도로&nbsp;조기&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;1호선&nbsp;내포신도시&nbsp;연장<br>&nbsp;&nbsp;○&nbsp;충남·대전·세종·충북을&nbsp;잇는&nbsp;통합환승체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;행복도시권&nbsp;BRT&nbsp;노선&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;충청&nbsp;동서축&nbsp;고속도로&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;서산공항&nbsp;민항&nbsp;건설,&nbsp;국제선&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;공공형&nbsp;미래&nbsp;모빌리티&nbsp;확산<br>&nbsp;&nbsp;○&nbsp;GTX-C&nbsp;천안,&nbsp;아산&nbsp;연장&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내(2026년~2030년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;국비&nbsp;예산&nbsp;확보&nbsp;및&nbsp;도비&nbsp;예산,&nbsp;민자&nbsp;등</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

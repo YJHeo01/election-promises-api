@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이동현 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	외국인 관광세 도입 및 관광·주민 선순환 체계 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="외국인 관광세 도입 및 관광·주민 선순환 체계 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;역사문화·K-컬처·쇼핑·먹거리&nbsp;등&nbsp;중구의&nbsp;관광&nbsp;자산을&nbsp;고도화하여&nbsp;'글로벌&nbsp;관광&nbsp;1번지'&nbsp;위상&nbsp;확립과&nbsp;외국인&nbsp;관광객&nbsp;유치&nbsp;확대<br>○&nbsp;늘어난&nbsp;관광&nbsp;수익을&nbsp;자체&nbsp;재원으로&nbsp;전환하는&nbsp;자립형&nbsp;재정사업&nbsp;추진(예산을&nbsp;'쓰는'&nbsp;사업이&nbsp;아닌,&nbsp;사업&nbsp;자체가&nbsp;재원을&nbsp;'창출'하는&nbsp;구조)<br>○&nbsp;「관광객&nbsp;유치&nbsp;→&nbsp;수익&nbsp;창출&nbsp;→&nbsp;주민&nbsp;환원&nbsp;→&nbsp;도시&nbsp;매력&nbsp;강화&nbsp;→&nbsp;재유치」&nbsp;의&nbsp;선순환&nbsp;체계&nbsp;구축<br><br>□&nbsp;이행방법<br>○&nbsp;[1.&nbsp;관광&nbsp;매력&nbsp;강화]&nbsp;<br>&nbsp;&nbsp;·&nbsp;덕수궁-명동성당-숭례문-청계천-남산을&nbsp;잇는&nbsp;'역사문화&nbsp;그린벨트'&nbsp;조성&nbsp;&nbsp;<br>&nbsp;&nbsp;·&nbsp;명동&nbsp;K-뷰티·K-컬처&nbsp;글로벌&nbsp;상권&nbsp;고도화,&nbsp;동대문&nbsp;패션·광희동&nbsp;다문화&nbsp;먹거리&nbsp;거리&nbsp;조성&nbsp;&nbsp;<br>&nbsp;&nbsp;·&nbsp;충무로&nbsp;영화제·정동야행&nbsp;등&nbsp;지역&nbsp;연계형&nbsp;축제&nbsp;정례화<br>○&nbsp;[2.&nbsp;시기별&nbsp;이행&nbsp;방식]&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;·&nbsp;(초기)&nbsp;별도&nbsp;법령&nbsp;개정&nbsp;없이&nbsp;즉시&nbsp;시작할&nbsp;수&nbsp;있는&nbsp;첫&nbsp;단계로,&nbsp;특급호텔&nbsp;등&nbsp;관광사업자와「관광&nbsp;상생협약」을&nbsp;체결하여&nbsp;숙박세&nbsp;부과&nbsp;근거&nbsp;마련<br>&nbsp;&nbsp;·&nbsp;(중기)&nbsp;제도&nbsp;기반&nbsp;마련&nbsp;:&nbsp;구&nbsp;조례&nbsp;개정&nbsp;및&nbsp;부담금·기금&nbsp;근거&nbsp;신설&nbsp;건의&nbsp;&nbsp;<br>&nbsp;&nbsp;·&nbsp;(장기)&nbsp;지방세법&nbsp;등&nbsp;관련&nbsp;법령&nbsp;개정&nbsp;건의&nbsp;:&nbsp;외국인&nbsp;관광세&nbsp;신설을&nbsp;위한&nbsp;관련법령&nbsp;개정&nbsp;추진&nbsp;(국회&nbsp;협의)<br><br>□&nbsp;이행기간&nbsp;:&nbsp;임기&nbsp;내&nbsp;최우선&nbsp;추진<br><br>□&nbsp;재원조달방안<br>○&nbsp;본&nbsp;공약은&nbsp;별도&nbsp;재정&nbsp;투입이&nbsp;아닌,&nbsp;사업&nbsp;자체가&nbsp;신규&nbsp;세입을&nbsp;창출하는&nbsp;'재원&nbsp;조달형&nbsp;공약’<br>○&nbsp;단기적으로는&nbsp;관광객&nbsp;숙박세&nbsp;부과를&nbsp;통해&nbsp;재원을&nbsp;확보,&nbsp;장기적으로는&nbsp;관광세&nbsp;제도화를&nbsp;추진하여&nbsp;안정적인&nbsp;재원&nbsp;기반을&nbsp;마련함</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	힘있는 여당 구청장의 '속도전'으로 완성하는 하이엔드 중구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="힘있는 여당 구청장의 '속도전'으로 완성하는 하이엔드 중구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;재개발·재건축·리모델링의&nbsp;행정&nbsp;지연을&nbsp;해소하여&nbsp;정비사업&nbsp;신속&nbsp;추진<br>○&nbsp;남산&nbsp;고도제한&nbsp;등&nbsp;지역&nbsp;불균형&nbsp;규제&nbsp;완화로&nbsp;주민&nbsp;재산권·행복추구권&nbsp;보장<br>○&nbsp;아파트&nbsp;외&nbsp;주거지의&nbsp;관리&nbsp;사각지대를&nbsp;해소하여&nbsp;모든&nbsp;주민의&nbsp;쾌적한&nbsp;거주환경&nbsp;보장<br>○&nbsp;15개&nbsp;행정동별&nbsp;특성에&nbsp;맞춘&nbsp;맞춤형&nbsp;발전&nbsp;전략으로&nbsp;균형&nbsp;있는&nbsp;하이엔드&nbsp;도시&nbsp;완성<br><br>□&nbsp;이행방법<br>○&nbsp;[1.&nbsp;서울시·중구&nbsp;정책&nbsp;공조]&nbsp;:&nbsp;더불어민주당&nbsp;정원오&nbsp;서울시장&nbsp;후보와의&nbsp;정책&nbsp;공조로&nbsp;인허가·도시계획&nbsp;협의&nbsp;속도&nbsp;극대화.&nbsp;<br>○&nbsp;[2.&nbsp;속도전·규제&nbsp;정상화]&nbsp;:&nbsp;행정절차&nbsp;단축과&nbsp;불균형&nbsp;규제&nbsp;철폐<br>&nbsp;&nbsp;·&nbsp;구청장&nbsp;직속&nbsp;「규제철폐위원회」&nbsp;설치<br>&nbsp;&nbsp;·&nbsp;인허가&nbsp;처리기간&nbsp;대폭&nbsp;단축,&nbsp;갈등조정&nbsp;플랫폼&nbsp;운영<br>&nbsp;&nbsp;·&nbsp;남산&nbsp;고도제한&nbsp;완화&nbsp;및&nbsp;용적률&nbsp;거래제&nbsp;서울시와&nbsp;공동&nbsp;추진<br>○&nbsp;[3.&nbsp;생활밀착&nbsp;정비·전략&nbsp;거점]&nbsp;:&nbsp;도심&nbsp;정비와&nbsp;생활&nbsp;인프라&nbsp;동시&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;주택&nbsp;밀집&nbsp;지역&nbsp;「우리동네&nbsp;관리사무소」&nbsp;고도화&nbsp;운영<br>&nbsp;&nbsp;·&nbsp;골목&nbsp;미세정비·노후주택&nbsp;집수리&nbsp;보조금&nbsp;전환,&nbsp;세운지구&nbsp;8개&nbsp;구역&nbsp;등&nbsp;정비사업&nbsp;속도감&nbsp;있게&nbsp;추진<br><br>□&nbsp;이행기간&nbsp;:&nbsp;임기&nbsp;내&nbsp;최우선&nbsp;추진<br><br>□&nbsp;재원조달방안<br>○&nbsp;정비사업&nbsp;자체는&nbsp;신규&nbsp;재정&nbsp;투입보다&nbsp;행정&nbsp;절차&nbsp;단축·규제&nbsp;정상화가&nbsp;핵심인&nbsp;'제도&nbsp;개혁형&nbsp;공약’<br>○&nbsp;국비(도시재생·생활&nbsp;SOC&nbsp;복합화&nbsp;등)&nbsp;+&nbsp;시비(정비사업&nbsp;지원기금·균형발전&nbsp;특별교부금)&nbsp;매칭&nbsp;공모사업&nbsp;적극&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	생애주기 통합 돌봄·교육·복지 ― 빈틈없는 '모두 돌봄' 중구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="생애주기 통합 돌봄·교육·복지 ― 빈틈없는 '모두 돌봄' 중구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;영유아·아동·청소년·중장년·어르신·장애인·1인&nbsp;가구까지&nbsp;생애주기&nbsp;전&nbsp;단계의&nbsp;돌봄·교육·복지&nbsp;사각지대&nbsp;해소<br>○&nbsp;공공돌봄·공공의료·공공교육의&nbsp;3대&nbsp;공공서비스를&nbsp;중구&nbsp;직영·중구형&nbsp;모델로&nbsp;정상화<br>○&nbsp;'돌봄의&nbsp;표준,&nbsp;중구가&nbsp;다시&nbsp;씁니다'&nbsp;―&nbsp;모든&nbsp;주민이&nbsp;체감하는&nbsp;'기필코&nbsp;체감행정'&nbsp;구현<br><br>□&nbsp;이행방법<br>○&nbsp;[1.&nbsp;아이&nbsp;돌봄]&nbsp;:&nbsp;중구형&nbsp;초등돌봄&nbsp;전면&nbsp;복원&nbsp;(지자체&nbsp;직영·운영시간&nbsp;야간&nbsp;9시까지&nbsp;연장)&nbsp;/&nbsp;긴급&nbsp;야간돌봄&nbsp;바우처&nbsp;도입&nbsp;/&nbsp;24시간&nbsp;안심&nbsp;소아진료&nbsp;구축&nbsp;/&nbsp;구청&nbsp;직영&nbsp;국공립&nbsp;어린이집&nbsp;확충&nbsp;/&nbsp;서울형&nbsp;키즈카페&nbsp;등&nbsp;공공&nbsp;실내&nbsp;놀이터&nbsp;4개소&nbsp;이상&nbsp;운영&nbsp;<br>○&nbsp;[2.&nbsp;어르신&nbsp;종합&nbsp;돌봄]&nbsp;「중구&nbsp;골든케어(Golden&nbsp;Care)」&nbsp;브랜드&nbsp;출범<br>&nbsp;&nbsp;·&nbsp;(안심)&nbsp;AI&nbsp;안부확인&nbsp;365일&nbsp;/&nbsp;(건강)&nbsp;우리가족&nbsp;주치의&nbsp;/&nbsp;(영양)&nbsp;어르신&nbsp;영양더하기&nbsp;/&nbsp;(주거)&nbsp;집수리·무장애&nbsp;리모델링&nbsp;각&nbsp;동&nbsp;골든케어&nbsp;코디네이터&nbsp;배치&nbsp;(이동)&nbsp;어르신&nbsp;교통비&nbsp;지원&nbsp;/&nbsp;(여가)&nbsp;주7일&nbsp;경로당&nbsp;운영&nbsp;및&nbsp;프로그램&nbsp;지원`<br>○&nbsp;[3.&nbsp;1인&nbsp;가구&nbsp;안심망]&nbsp;「중구&nbsp;1인&nbsp;가구&nbsp;5대&nbsp;기본권」&nbsp;선포<br>&nbsp;&nbsp;·&nbsp;안전권(AI&nbsp;안부확인+안심귀가)&nbsp;/&nbsp;건강권(1인가구&nbsp;건강검진&nbsp;확대)&nbsp;/&nbsp;먹거리권(동네부엌·소셜다이닝)&nbsp;/&nbsp;커뮤니티권(공동체&nbsp;텃밭·이웃&nbsp;매칭)&nbsp;/&nbsp;긴급지원권(72시간&nbsp;긴급복지)<br>○&nbsp;[4.&nbsp;교육&nbsp;인프라·안전·진로]&nbsp;학교&nbsp;시설부터&nbsp;통학·진로까지&nbsp;전&nbsp;과정&nbsp;지원<br>&nbsp;&nbsp;·&nbsp;관내&nbsp;초·중·고&nbsp;시설&nbsp;현대화&nbsp;/&nbsp;맞춤형&nbsp;진로·입시&nbsp;컨설팅&nbsp;지원&nbsp;/권역조정을&nbsp;통한&nbsp;학생유치&nbsp;및&nbsp;명문고&nbsp;유치&nbsp;/&nbsp;방과후&nbsp;AI·코딩·예술·체육&nbsp;특화프로그램&nbsp;대폭&nbsp;지원&nbsp;/&nbsp;스마트스쿨존&nbsp;확대&nbsp;/&nbsp;'중구형&nbsp;학교안전지키미'&nbsp;배치&nbsp;및&nbsp;'안심&nbsp;귀가&nbsp;학원통학버스'&nbsp;공공지원&nbsp;등<br>○&nbsp;[5.&nbsp;장애인&nbsp;통합지원]&nbsp;장애인의&nbsp;자립·이동·돌봄을&nbsp;함께&nbsp;보장하는&nbsp;중구형&nbsp;지원체계&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;주간활동서비스&nbsp;구비&nbsp;추가&nbsp;지원&nbsp;/&nbsp;장애인&nbsp;친화병원&nbsp;지정&nbsp;추진&nbsp;/&nbsp;발달장애인&nbsp;일상생활배상책임보험&nbsp;가입&nbsp;지원&nbsp;/&nbsp;장애인&nbsp;일자리&nbsp;통합지원체계&nbsp;구축<br><br>□&nbsp;이행기간&nbsp;:&nbsp;임기&nbsp;내&nbsp;최우선&nbsp;추진<br><br>□&nbsp;재원조달방안<br>○&nbsp;국비(보건복지부&nbsp;지역사회&nbsp;통합돌봄·교육부&nbsp;학교시설&nbsp;개선·1인&nbsp;가구&nbsp;안전망&nbsp;사업)&nbsp;+&nbsp;시비(서울형&nbsp;돌봄·서울형&nbsp;키즈카페·교육경비&nbsp;보조금)&nbsp;매칭&nbsp;적극&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	365일 깨어있는 도시안전망 : 일상이 안전하고 편리한 행복도시 중구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="365일 깨어있는 도시안전망 : 일상이 안전하고 편리한 행복도시 중구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;재난·화재·교통·기후&nbsp;등&nbsp;모든&nbsp;일상&nbsp;위험에&nbsp;대비하는&nbsp;365일&nbsp;깨어있는&nbsp;도시안전망&nbsp;구축<br>○&nbsp;보행자와&nbsp;운전자&nbsp;모두에게&nbsp;안전한&nbsp;'교통사고&nbsp;제로'&nbsp;도심&nbsp;구현<br>○&nbsp;'안전한&nbsp;20분&nbsp;도시'&nbsp;―&nbsp;어디서나&nbsp;20분이면&nbsp;닿는&nbsp;촘촘한&nbsp;교통체계&nbsp;완성<br>○&nbsp;폭염·기후위기에&nbsp;강한&nbsp;탄소중립&nbsp;도심&nbsp;모델&nbsp;'쿨(Cool)&nbsp;중구'&nbsp;실현<br><br>□&nbsp;이행방법<br>○&nbsp;[1.&nbsp;재난·화재&nbsp;안전]&nbsp;'중구&nbsp;재난안전시스템'&nbsp;완비<br>&nbsp;&nbsp;·&nbsp;(화재&nbsp;예방)&nbsp;화재&nbsp;취약&nbsp;건물&nbsp;전수조사,&nbsp;IoT&nbsp;화재감지센서&nbsp;전수&nbsp;설치,&nbsp;스프링클러·전기&nbsp;분전반·화재감지기&nbsp;설치&nbsp;의무화<br>&nbsp;&nbsp;·&nbsp;(안전사고&nbsp;예방)&nbsp;AI&nbsp;카메라&nbsp;인파&nbsp;관리,&nbsp;군중&nbsp;안전&nbsp;통합&nbsp;상황관리&nbsp;시스템&nbsp;구축<br>○&nbsp;[2.&nbsp;교통안전·체감&nbsp;1호&nbsp;공약]&nbsp;교통사고&nbsp;제로화&nbsp;+&nbsp;남산&nbsp;혼잡통행료&nbsp;중구민&nbsp;면제<br>&nbsp;&nbsp;·&nbsp;남산&nbsp;혼잡통행료&nbsp;중구민&nbsp;완전&nbsp;면제&nbsp;<br>&nbsp;&nbsp;·&nbsp;신호체계&nbsp;개선으로&nbsp;교통사고&nbsp;사전예방,&nbsp;AI&nbsp;실시간&nbsp;교통&nbsp;관리,&nbsp;PM(퀵보드&nbsp;<br>등)&nbsp;질서&nbsp;구역&nbsp;지정,&nbsp;공동&nbsp;집배송·공유&nbsp;하역<br>○&nbsp;[3.&nbsp;안전한&nbsp;20분&nbsp;도시]&nbsp;중구형&nbsp;공공버스&nbsp;시스템&nbsp;재정비<br>&nbsp;&nbsp;·&nbsp;중구&nbsp;공공버스&nbsp;노선&nbsp;전면&nbsp;재개편&nbsp;(저상버스&nbsp;확대·배차&nbsp;간격&nbsp;단축,&nbsp;고지대&nbsp;주민을&nbsp;위한&nbsp;전용&nbsp;노선&nbsp;신설&nbsp;등&nbsp;노선&nbsp;확충)<br>&nbsp;&nbsp;·&nbsp;촘촘한&nbsp;버스&nbsp;노선&nbsp;배치로&nbsp;어디서나&nbsp;20분이면&nbsp;닿는&nbsp;도시&nbsp;구현<br>○&nbsp;[4.&nbsp;기후·환경&nbsp;안전]&nbsp;'쿨(Cool)&nbsp;중구'&nbsp;및&nbsp;탄소중립&nbsp;도심&nbsp;모델<br>&nbsp;&nbsp;·&nbsp;폭염&nbsp;안전지도&nbsp;제작,&nbsp;무더위&nbsp;쉼터&nbsp;및&nbsp;건물&nbsp;벽면녹화&nbsp;확대,&nbsp;열기를&nbsp;낮추는&nbsp;도로·지붕&nbsp;개선<br>&nbsp;&nbsp;·&nbsp;기업과&nbsp;함께&nbsp;만드는&nbsp;기후숲&nbsp;조성,&nbsp;노후&nbsp;건물&nbsp;에너지&nbsp;효율화<br>&nbsp;&nbsp;·&nbsp;소상공인&nbsp;전기&nbsp;오토바이&nbsp;지원사업&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;골목길&nbsp;열선&nbsp;설치,&nbsp;재개발&nbsp;지역&nbsp;보행안전&nbsp;대책&nbsp;강화,&nbsp;구릉지&nbsp;에스컬레이터·엘리베이터&nbsp;설치&nbsp;등을&nbsp;통해&nbsp;주민&nbsp;이동권과&nbsp;보행권&nbsp;확대<br><br>□&nbsp;이행기간&nbsp;:&nbsp;임기&nbsp;내&nbsp;최우선&nbsp;추진<br><br>□&nbsp;재원조달방안<br>○&nbsp;국비(행정안전부&nbsp;재난안전·국토부&nbsp;교통안전·환경부&nbsp;폭염대응·산업부&nbsp;BRP)&nbsp;+&nbsp;시비(서울시&nbsp;안전예산·기후예산)&nbsp;매칭&nbsp;적극&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	일자리·소상공인·지역경제 통합 패키지 : 골목부터 도심까지 활력 넘치는 상생 중구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="일자리·소상공인·지역경제 통합 패키지 : 골목부터 도심까지 활력 넘치는 상생 중구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;어르신·장애인·청년·지역인재까지&nbsp;빈틈없는&nbsp;맞춤형&nbsp;일자리&nbsp;창출과&nbsp;사회적&nbsp;약자의&nbsp;자립&nbsp;보장<br>○&nbsp;소상공인·전통시장·노후상가의&nbsp;공공적&nbsp;보호망&nbsp;구축과&nbsp;젠트리피케이션&nbsp;방지<br>○&nbsp;지역&nbsp;기업·임대인·임차인·주민이&nbsp;함께&nbsp;만드는&nbsp;'타운&nbsp;매니지먼트'&nbsp;모델로&nbsp;골목경제&nbsp;활력&nbsp;회복<br>○&nbsp;옛&nbsp;산업유산&nbsp;보존과&nbsp;청년&nbsp;창업·MZ세대&nbsp;유입을&nbsp;결합한&nbsp;글로벌&nbsp;문화관광&nbsp;1번지&nbsp;실현<br><br>□&nbsp;이행방법<br>○&nbsp;[1.&nbsp;어르신·장애인&nbsp;맞춤&nbsp;일자리]&nbsp;<br>&nbsp;&nbsp;·&nbsp;어르신&nbsp;:&nbsp;을지로·방산시장&nbsp;숙련공&nbsp;멘토(청년&nbsp;멘토링),&nbsp;글로벌&nbsp;시니어&nbsp;도슨트,&nbsp;디지털&nbsp;리터러시&nbsp;튜터('디지털&nbsp;보안관')<br>&nbsp;&nbsp;·&nbsp;장애인&nbsp;:&nbsp;AI&nbsp;데이터&nbsp;라벨링·디지털&nbsp;큐레이션&nbsp;등&nbsp;고부가가치&nbsp;IT&nbsp;직무&nbsp;개발,&nbsp;관내&nbsp;대기업&nbsp;장애인&nbsp;의무고용&nbsp;분담금&nbsp;활용&nbsp;민관합동&nbsp;표준사업장&nbsp;설립<br>○&nbsp;[2.&nbsp;청년·지역인재&nbsp;일자리·창업]&nbsp;도심형&nbsp;창업·관내&nbsp;기업&nbsp;연계<br>&nbsp;&nbsp;·&nbsp;관내&nbsp;기업&nbsp;「지역인재&nbsp;우선&nbsp;채용&nbsp;상생&nbsp;협약」&nbsp;체결,&nbsp;을지로&nbsp;인쇄·충무로&nbsp;영화&nbsp;등&nbsp;옛&nbsp;유명산업&nbsp;청년&nbsp;고용&nbsp;연계&nbsp;지원,&nbsp;도심형&nbsp;청년&nbsp;창업&nbsp;공간&nbsp;공급,&nbsp;'메이커스&nbsp;르네상스'&nbsp;시제품&nbsp;제작&nbsp;지원<br>○&nbsp;[3.&nbsp;소상공인·전통시장&nbsp;보호]&nbsp;안정·활성화&nbsp;패키지<br>&nbsp;&nbsp;·&nbsp;소상공인·자영업자&nbsp;융자&nbsp;지원&nbsp;확대,&nbsp;AX·DX&nbsp;원스톱&nbsp;패키지&nbsp;지원,&nbsp;폐업&nbsp;전환&nbsp;지원(업종전환+재창업자금+직업훈련)<br>○&nbsp;[4.&nbsp;노후&nbsp;상가&nbsp;공공화·젠트리피케이션&nbsp;방지]&nbsp;「중구&nbsp;상생&nbsp;리츠(REITs)」&nbsp;설립<br>&nbsp;&nbsp;·&nbsp;중구&nbsp;상생&nbsp;리츠&nbsp;설립으로&nbsp;노후&nbsp;상가의&nbsp;공공적&nbsp;매입·관리,&nbsp;AI&nbsp;임대료&nbsp;모니터링,&nbsp;젠트리피케이션&nbsp;방지&nbsp;상생&nbsp;협약&nbsp;체결,&nbsp;안정&nbsp;임대&nbsp;확대<br>○&nbsp;[5.&nbsp;지역경제&nbsp;통합&nbsp;관리]&nbsp;「타운&nbsp;매니지먼트」&nbsp;+&nbsp;야간&nbsp;특별&nbsp;청소<br>&nbsp;&nbsp;·&nbsp;중구&nbsp;내&nbsp;기업·임대인·임차인·주민이&nbsp;함께하는&nbsp;「타운&nbsp;매니지먼트」&nbsp;설립&nbsp;―&nbsp;위생·환경관리·축제·브랜드화&nbsp;공동&nbsp;추진<br><br>□&nbsp;이행기간&nbsp;:&nbsp;임기&nbsp;내&nbsp;최우선&nbsp;추진<br><br>□&nbsp;재원조달방안<br>○&nbsp;사회성과연계채권(SIB)&nbsp;적용&nbsp;―&nbsp;'장애인&nbsp;자립&nbsp;성과'·'노인&nbsp;우울증&nbsp;감소'&nbsp;등&nbsp;사회적&nbsp;성과&nbsp;달성&nbsp;시&nbsp;민간&nbsp;투자&nbsp;유치&nbsp;및&nbsp;인센티브&nbsp;지급<br>○&nbsp;국비(중기부&nbsp;소상공인&nbsp;지원·고용부&nbsp;청년&nbsp;일자리·복지부&nbsp;사회서비스)&nbsp;+&nbsp;시비(서울시&nbsp;자영업&nbsp;지원·지역화폐)&nbsp;매칭&nbsp;적극&nbsp;활용</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

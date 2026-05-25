@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박청정 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	삼도수군 통제영 한산도 제승당 성지 순례지화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="삼도수군 통제영 한산도 제승당 성지 순례지화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;통영은&nbsp;이순신&nbsp;장군의&nbsp;한산대첩&nbsp;성지임으로&nbsp;통영인의&nbsp;자긍심이자&nbsp;관광의&nbsp;모티브입니다.&nbsp;그러나&nbsp;현재&nbsp;상황은&nbsp;우리만의&nbsp;장점을&nbsp;살리지&nbsp;못하고&nbsp;있습니다.&nbsp;뉴욕의&nbsp;자유의&nbsp;여신상을&nbsp;압도하는&nbsp;세계적인&nbsp;랜드마크를&nbsp;건설하여,&nbsp;통영을&nbsp;글로벌&nbsp;호국&nbsp;평화의&nbsp;도시로&nbsp;브랜드화하고&nbsp;지역&nbsp;경제의&nbsp;심장을&nbsp;다시&nbsp;뛰게&nbsp;해야&nbsp;합니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;제승당의&nbsp;현재&nbsp;관리권을&nbsp;경상남도&nbsp;문화체육광관부로&nbsp;이양한다.<br>&nbsp;&nbsp;○&nbsp;충무공정신이&nbsp;깃든&nbsp;호국의&nbsp;성지로&nbsp;자리매김한다.<br>&nbsp;&nbsp;○&nbsp;전&nbsp;국민의&nbsp;해양사상&nbsp;고취의&nbsp;장이&nbsp;되게&nbsp;한다.<br>&nbsp;&nbsp;○&nbsp;교육훈련과&nbsp;숙박시설을&nbsp;확대한다.<br>&nbsp;&nbsp;○&nbsp;제승당과&nbsp;내륙간의&nbsp;접근성을&nbsp;위하여&nbsp;주야불문하고&nbsp;여객선을&nbsp;투입한다.<br>&nbsp;&nbsp;○&nbsp;한산대첩제&nbsp;고유제는&nbsp;제승당에서&nbsp;한다.&nbsp;<br>&nbsp;&nbsp;○&nbsp;초·중·고등학교&nbsp;수학여행지로&nbsp;정례화한다.<br>&nbsp;&nbsp;○&nbsp;케이블카와&nbsp;복원된&nbsp;통제영&nbsp;그리고&nbsp;충렬사를&nbsp;묶어&nbsp;패키지&nbsp;투어&nbsp;코스로&nbsp;정립한다.&nbsp;<br>&nbsp;&nbsp;○&nbsp;해양레포츠&nbsp;및&nbsp;해양스포츠의&nbsp;메카를&nbsp;자리매김한다.<br>&nbsp;&nbsp;○&nbsp;한산도에&nbsp;있는&nbsp;유적지를&nbsp;개발한다.<br>&nbsp;&nbsp;○&nbsp;과거시험장&nbsp;재현<br>&nbsp;&nbsp;○&nbsp;400여명의&nbsp;병사의&nbsp;식사&nbsp;제공&nbsp;재현<br>&nbsp;&nbsp;○&nbsp;동양삼국(한국,일본,중국)의&nbsp;외교사절을&nbsp;위한&nbsp;선박제공&nbsp;재현<br>&nbsp;&nbsp;○&nbsp;교육&nbsp;및&nbsp;홍보관을&nbsp;건설한다.<br>&nbsp;&nbsp;○&nbsp;퇴역&nbsp;해군군함을&nbsp;계류시켜&nbsp;교육장&nbsp;및&nbsp;체험시설을&nbsp;활용한다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;타당성&nbsp;조사후&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이행절차&nbsp;및&nbsp;시기&nbsp;:&nbsp;2026~2029년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;일본자금&nbsp;협조</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	통영선적 어선의 통영항 출입항 통영경제 활성화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="통영선적 어선의 통영항 출입항 통영경제 활성화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;선박은&nbsp;하나의&nbsp;공장이다.&nbsp;더욱이&nbsp;외국에&nbsp;있을&nbsp;때는&nbsp;치외법권적인&nbsp;우리나라의&nbsp;영토이다.&nbsp;선박의&nbsp;침몰이나&nbsp;감척은&nbsp;거대한&nbsp;공장이&nbsp;사라지는&nbsp;것이다.&nbsp;선박&nbsp;한&nbsp;척이&nbsp;출입항&nbsp;한다는&nbsp;것은&nbsp;거대한&nbsp;공장이&nbsp;왔다갔다&nbsp;하는&nbsp;격이&nbsp;된다.&nbsp;물,&nbsp;기름,&nbsp;페인트&nbsp;부속품&nbsp;그리고&nbsp;소모품,&nbsp;식사류&nbsp;및&nbsp;부식물&nbsp;등&nbsp;가히&nbsp;부가가치는&nbsp;엄청나다.&nbsp;현재&nbsp;완도로&nbsp;가는&nbsp;선박을&nbsp;유류&nbsp;보전등&nbsp;보상을&nbsp;하며&nbsp;통영항에&nbsp;되돌려&nbsp;통영&nbsp;경제의&nbsp;활성화를&nbsp;꾀한다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;항만&nbsp;및&nbsp;부대시설&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;부두항만&nbsp;관리소&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;선주와의&nbsp;협조&nbsp;및&nbsp;애향심&nbsp;권유<br>&nbsp;&nbsp;○&nbsp;선장의&nbsp;물때이용으로&nbsp;항정단축&nbsp;및&nbsp;유류절약<br>&nbsp;&nbsp;○&nbsp;선박의&nbsp;안전항해&nbsp;및&nbsp;숙식&nbsp;편의시설&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;완도&nbsp;지방&nbsp;자치단체장과&nbsp;협조<br>&nbsp;&nbsp;○&nbsp;통영시청에서의&nbsp;보전&nbsp;및&nbsp;보상<br>&nbsp;&nbsp;○&nbsp;통영시민들이&nbsp;선원을&nbsp;격려하고&nbsp;지원한다.<br>&nbsp;&nbsp;○&nbsp;선원&nbsp;은퇴&nbsp;후&nbsp;생활안정방안<br>&nbsp;&nbsp;○&nbsp;선원은&nbsp;완도에서는&nbsp;왕,&nbsp;통영에서는&nbsp;뱃놈이라는&nbsp;인식을&nbsp;완전&nbsp;배제한다.<br>&nbsp;&nbsp;○&nbsp;30년이상&nbsp;승선선원에게&nbsp;연금혜택지원<br>&nbsp;&nbsp;○&nbsp;기관&nbsp;고장&nbsp;감소&nbsp;및&nbsp;태풍회피&nbsp;기동으로&nbsp;안전항해&nbsp;보장&nbsp;된다.<br>&nbsp;&nbsp;○&nbsp;바다로&nbsp;세계로라는&nbsp;슬로건을&nbsp;초등학교&nbsp;수영&nbsp;시작부터&nbsp;중고등학교&nbsp;학생들에게&nbsp;교육<br>&nbsp;&nbsp;○&nbsp;고등학교&nbsp;졸업&nbsp;후&nbsp;선원이&nbsp;될&nbsp;수&nbsp;있는&nbsp;시스템을&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;바다의&nbsp;땅을&nbsp;경작&nbsp;할&nbsp;수&nbsp;있는&nbsp;인재&nbsp;양성<br>&nbsp;&nbsp;○&nbsp;경상대학교&nbsp;해양과학대학&nbsp;협조&nbsp;체제를&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;통영을&nbsp;빛낸&nbsp;예술인,&nbsp;체육인&nbsp;뿐만&nbsp;아니라&nbsp;수산인도&nbsp;포함&nbsp;<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;타당성&nbsp;조사후&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이행절차&nbsp;및&nbsp;시기&nbsp;:&nbsp;2026~2029년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	스타링크 저궤도 위성통신 도입</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="스타링크 저궤도 위성통신 도입">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;통영은&nbsp;바다에&nbsp;&nbsp;의해&nbsp;이루어졌고,&nbsp;앞으로도&nbsp;바다를&nbsp;중심잡고&nbsp;발전해&nbsp;나아가야&nbsp;할&nbsp;해양수산&nbsp;도시입니다.&nbsp;햇볓과&nbsp;공기가&nbsp;통하여&nbsp;해양수산&nbsp;동식물이&nbsp;서식할&nbsp;수&nbsp;있는&nbsp;수심&nbsp;200미터&nbsp;이내의&nbsp;광범위한&nbsp;대륙붕과&nbsp;천혜의&nbsp;해양조건을&nbsp;갖추고&nbsp;있습니다.&nbsp;그리고&nbsp;41개의&nbsp;유인도서와&nbsp;567개의&nbsp;무인도로&nbsp;형성된&nbsp;761키로의&nbsp;긴&nbsp;해안선을&nbsp;가진&nbsp;전형적인&nbsp;해안&nbsp;도시이며&nbsp;임해&nbsp;도시입니다.&nbsp;더욱이&nbsp;필리핀에서&nbsp;북상하는&nbsp;난류와&nbsp;시베리아에서&nbsp;남하하는&nbsp;한류가&nbsp;부딪치는&nbsp;곳이&nbsp;통영&nbsp;&nbsp;앞바다입니다.&nbsp;청정한&nbsp;심층수에서&nbsp;올라오는&nbsp;산소는&nbsp;계절에&nbsp;관계없이&nbsp;밤낮주기로&nbsp;해상해저로&nbsp;퍼져&nbsp;양질의&nbsp;다종다양한&nbsp;물고기와&nbsp;해초류&nbsp;그리고&nbsp;어패류가&nbsp;풍부한&nbsp;곳입니다.&nbsp;주민들이&nbsp;거주하고&nbsp;있는&nbsp;섬들&nbsp;뿐만&nbsp;아니라&nbsp;연근해어업이&nbsp;발달해&nbsp;있어&nbsp;많은&nbsp;어선들과&nbsp;양식장이&nbsp;산재해&nbsp;있습니다.&nbsp;이러한&nbsp;섬과&nbsp;바다에&nbsp;디지털&nbsp;혈관을&nbsp;뻗게&nbsp;하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;저비용&nbsp;고효울로&nbsp;외해&nbsp;양식장의&nbsp;스마트화<br>&nbsp;&nbsp;○&nbsp;통신&nbsp;음영지역&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;해상재난&nbsp;신속&nbsp;대처<br>&nbsp;&nbsp;○&nbsp;섬주민&nbsp;안전&nbsp;및&nbsp;디지털&nbsp;복지<br>&nbsp;&nbsp;○&nbsp;즉각&nbsp;SOS&nbsp;발신<br>&nbsp;&nbsp;○&nbsp;우주기반&nbsp;안전망으로&nbsp;&nbsp;생명&nbsp;구조<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;타당성&nbsp;조사후&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이행절차&nbsp;및&nbsp;시기&nbsp;:&nbsp;2026~2029년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	안정 국가산단 중심 해양신산업 플랫폼 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="안정 국가산단 중심 해양신산업 플랫폼 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;안정국가산단(387만㎡)은&nbsp;일일&nbsp;용수&nbsp;10만톤,&nbsp;전력&nbsp;15만&nbsp;KW,&nbsp;수심&nbsp;13~18m&nbsp;접안시설을&nbsp;갖춘&nbsp;통영의&nbsp;핵심&nbsp;자산입니다.&nbsp;이를&nbsp;중심으로&nbsp;해양&nbsp;신산업&nbsp;생태계를&nbsp;구축하여&nbsp;청년&nbsp;일자리와&nbsp;지역&nbsp;경제&nbsp;재도약의&nbsp;발판을&nbsp;만들어&nbsp;가겠습니다.&nbsp;그리하여&nbsp;기업을&nbsp;조성하고&nbsp;경제&nbsp;활성화를&nbsp;이룩하겠습니다.<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;해양&nbsp;신산업&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;친환경&nbsp;선박개조(Retrofit)/&nbsp;데이터센터&nbsp;유치&nbsp;등<br>&nbsp;&nbsp;○&nbsp;3대&nbsp;지원시설&nbsp;구축&nbsp;및&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;패류부산물&nbsp;산업화&nbsp;센터<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트&nbsp;해양안전센터<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마리나&nbsp;비즈&nbsp;센터<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;정착&nbsp;및&nbsp;기업&nbsp;지원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주거지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;&nbsp;인센티브<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산학연계<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;타당성&nbsp;조사후&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이행절차&nbsp;및&nbsp;시기&nbsp;:&nbsp;2026~2029년<br>&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	법정 문화도시 정립을 위한 예상 비즈니스 모델  확립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="법정 문화도시 정립을 위한 예상 비즈니스 모델  확립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;통영은&nbsp;대한민구&nbsp;제&nbsp;1호&nbsp;야간관광&nbsp;특화도시(2022년&nbsp;지정)이자&nbsp;법정문화도시(2025년&nbsp;지정)이며,&nbsp;디피랑이&nbsp;한국관광&nbsp;100선에&nbsp;2회&nbsp;연속&nbsp;선정된&nbsp;검증된&nbsp;문화관광&nbsp;도시입니다.&nbsp;그러나&nbsp;단순&nbsp;관람형&nbsp;문화&nbsp;예술&nbsp;관광으로는&nbsp;체류&nbsp;시간이&nbsp;짧고&nbsp;지역경제&nbsp;파급효과가&nbsp;제한적입니다.&nbsp;개별&nbsp;여행객&nbsp;중심&nbsp;체류형.체험형&nbsp;문화&nbsp;소비&nbsp;트렌드와&nbsp;예술과&nbsp;상업을&nbsp;결합한&nbsp;예상(藝商)&nbsp;비즈니스&nbsp;모델을&nbsp;개발해&nbsp;나가겠습니다.<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;스토리텔링&nbsp;기반&nbsp;‘통영의&nbsp;이야기를&nbsp;파는&nbsp;관광’<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통영&nbsp;스토리&nbsp;아카이브&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;테마&nbsp;루트&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AR,&nbsp;VR&nbsp;몰입형&nbsp;콘텐츠<br>&nbsp;&nbsp;○&nbsp;야간관광&nbsp;생태계&nbsp;확장&nbsp;‘24시간&nbsp;관광도시’<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이순신&nbsp;호국타워&nbsp;야경<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시즌별&nbsp;테마&nbsp;전환&nbsp;여름&nbsp;가을&nbsp;겨울&nbsp;별<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통영&nbsp;나이트&nbsp;마켓(강구안)<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;타당성&nbsp;조사후&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이행절차&nbsp;및&nbsp;시기&nbsp;:&nbsp;2026~2029년<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

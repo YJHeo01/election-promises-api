@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;최화삼 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	군민주권실현, 생활안정 강화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="군민주권실현, 생활안정 강화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;참여&nbsp;중심의&nbsp;행정을&nbsp;실현하고,&nbsp;민생지원금과&nbsp;지역경제&nbsp;활성화&nbsp;정책을&nbsp;통해&nbsp;생활&nbsp;안정과&nbsp;지역경제&nbsp;회복의&nbsp;선순환&nbsp;구조를&nbsp;만들겠습니다．<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○군민&nbsp;참여를&nbsp;확대하고&nbsp;민생지원과&nbsp;복지&nbsp;강화를&nbsp;통해&nbsp;군민이&nbsp;체감하는&nbsp;생활안정과&nbsp;지역경제&nbsp;회복&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민참여예산&nbsp;확대&nbsp;및&nbsp;읍·면&nbsp;주민자치회&nbsp;권한&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민·전문가·행정이&nbsp;함께하는「군민주권위원회」상설&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;찾아가는&nbsp;군수실「담양&nbsp;소통함」정례화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복지&nbsp;사각지대&nbsp;발굴·지원&nbsp;시스템&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신·여성·다문화&nbsp;통합「복합형&nbsp;복지센터」구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;노인복지,&nbsp;보건,&nbsp;치매·정신건강,&nbsp;여성지원&nbsp;한&nbsp;곳에서<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전&nbsp;군민&nbsp;연&nbsp;50만&nbsp;원&nbsp;민생지원금&nbsp;지급(지역화폐)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;생활&nbsp;안정·소상공인&nbsp;매출&nbsp;증대·지역경제&nbsp;선순환&nbsp;구조&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2027년&nbsp;:&nbsp;주민참여&nbsp;제도&nbsp;확대,&nbsp;소통행정&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;2027&nbsp;~&nbsp;2028년&nbsp;:&nbsp;민생지원금&nbsp;추진,&nbsp;통합복지센터&nbsp;단계적&nbsp;추진&nbsp;및&nbsp;복지체계&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;2028&nbsp;~&nbsp;2030년&nbsp;:&nbsp;주민참여형&nbsp;군정&nbsp;정착&nbsp;및&nbsp;지역경제&nbsp;선순환&nbsp;안정화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원조달방안<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예산이&nbsp;많이&nbsp;소요되는&nbsp;민생지원금&nbsp;재원은&nbsp;예산&nbsp;집행잔액과&nbsp;시급하지&nbsp;않은&nbsp;예산&nbsp;구조조정,&nbsp;국·특별시비를&nbsp;확보하여&nbsp;재원&nbsp;충당계획<br><br>&nbsp;&nbsp;○&nbsp;기대효과<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민&nbsp;참여&nbsp;확대와&nbsp;신뢰받는&nbsp;군정&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;골목상권&nbsp;및&nbsp;소상공인&nbsp;매출&nbsp;회복<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활&nbsp;안정과&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복지&nbsp;사각지대&nbsp;해소&nbsp;및&nbsp;군민&nbsp;삶의&nbsp;질&nbsp;향상</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	통합시대 대응과 미래성장 기반 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="통합시대 대응과 미래성장 기반 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전남·광주&nbsp;통합시대에&nbsp;담양의&nbsp;몫을&nbsp;확보하고,&nbsp;전략산업과&nbsp;기업&nbsp;유치를&nbsp;통해&nbsp;지속&nbsp;가능한&nbsp;미래&nbsp;성장&nbsp;기반을&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;통합시대&nbsp;대응과&nbsp;전략산업&nbsp;유치를&nbsp;통해&nbsp;미래&nbsp;성장&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합시대&nbsp;담양&nbsp;몫&nbsp;확보&nbsp;및&nbsp;전략적&nbsp;예산&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농식품·문화·공공기관&nbsp;전략적&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;푸드테크&nbsp;등&nbsp;첨단&nbsp;농산업&nbsp;특화단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광주&nbsp;연계&nbsp;물류허브&nbsp;및&nbsp;산업&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;간선철도&nbsp;및&nbsp;간선교통망&nbsp;확충&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;재정&nbsp;확대와&nbsp;지속&nbsp;가능한&nbsp;성장&nbsp;기반&nbsp;마련<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2027년&nbsp;:&nbsp;통합&nbsp;대응&nbsp;전략&nbsp;수립&nbsp;및&nbsp;국·광역&nbsp;예산&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2027&nbsp;~&nbsp;2028년&nbsp;:&nbsp;첨단&nbsp;농산업&nbsp;특화단지&nbsp;및&nbsp;물류&nbsp;인프라&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2028&nbsp;~&nbsp;2030년&nbsp;:&nbsp;기업·공공기관&nbsp;유치&nbsp;확대&nbsp;및&nbsp;미래&nbsp;성장&nbsp;기반&nbsp;안정화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원조달방안<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비·특별시비&nbsp;및&nbsp;공모사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;투자&nbsp;유치&nbsp;및&nbsp;투자협약&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단계별&nbsp;사업&nbsp;추진을&nbsp;통한&nbsp;재정&nbsp;부담&nbsp;분산<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업단지·교통&nbsp;인프라&nbsp;관련&nbsp;특별교부세&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;기대효과<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합시대&nbsp;담양&nbsp;재정&nbsp;규모&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;유치&nbsp;및&nbsp;양질의&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첨단&nbsp;농산업&nbsp;및&nbsp;물류&nbsp;산업&nbsp;성장&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;유입과&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지속&nbsp;가능한&nbsp;미래&nbsp;성장도시&nbsp;기반&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	자족형 도시 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="자족형 도시 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;광주와&nbsp;연계한&nbsp;정주&nbsp;기반&nbsp;확층과&nbsp;양질의&nbsp;일자리&nbsp;창출을&nbsp;통해&nbsp;사람이&nbsp;모이고&nbsp;정착하는&nbsp;자족형&nbsp;성장도시&nbsp;담양을&nbsp;만들겠습니다．<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;사람과&nbsp;일자리가&nbsp;늘어나는&nbsp;정착형&nbsp;성장&nbsp;도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광주&nbsp;연계&nbsp;친환경&nbsp;주거벨트&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년·신혼부부&nbsp;공공주택&nbsp;및&nbsp;정착&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첨단&nbsp;산업단지&nbsp;조성을&nbsp;통한&nbsp;양질의&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공의료&nbsp;및&nbsp;응급의료&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육·문화·생활&nbsp;SOC&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인구&nbsp;유입과&nbsp;정착이&nbsp;이루어지는&nbsp;자족도시&nbsp;실현<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2027년&nbsp;:&nbsp;정주여건&nbsp;개선&nbsp;계획&nbsp;수립&nbsp;및&nbsp;주거지원&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2027&nbsp;~&nbsp;2028년&nbsp;:&nbsp;산업단지·의료·생활&nbsp;SOC&nbsp;단계적&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;2028&nbsp;~&nbsp;2030년&nbsp;:&nbsp;인구&nbsp;유입&nbsp;기반&nbsp;안정화&nbsp;및&nbsp;자족도시&nbsp;체계&nbsp;구축<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원조달방안<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비·특별시비&nbsp;및&nbsp;공공주택&nbsp;지원사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업단지&nbsp;조성&nbsp;관련&nbsp;민간&nbsp;투자&nbsp;유치&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활&nbsp;SOC&nbsp;및&nbsp;의료&nbsp;인프라&nbsp;공모사업&nbsp;적극&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단계별&nbsp;사업&nbsp;추진을&nbsp;통한&nbsp;재정&nbsp;부담&nbsp;분산<br>&nbsp;&nbsp;○&nbsp;기대효과<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년·신혼부부&nbsp;정착&nbsp;기반&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양질의&nbsp;일자리&nbsp;및&nbsp;인구&nbsp;유입&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료·교육·문화&nbsp;인프라&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정주&nbsp;만족도&nbsp;향상&nbsp;및&nbsp;지역&nbsp;활력&nbsp;증대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지속&nbsp;가능한&nbsp;자족형&nbsp;성장도시&nbsp;기반&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	농업 경챙력 강화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="농업 경챙력 강화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농업의&nbsp;경쟁력을&nbsp;강화하고&nbsp;스마트농업과&nbsp;가공·유통&nbsp;혁신을&nbsp;통해&nbsp;농업을&nbsp;고부가가치&nbsp;미래&nbsp;산업으로&nbsp;육성하겠습니다．<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;스마트농업&nbsp;확대와&nbsp;인프라&nbsp;개선으로&nbsp;농업을&nbsp;고부가가치&nbsp;산업으로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농기계&nbsp;'내&nbsp;집&nbsp;앞&nbsp;배달&nbsp;서비스&nbsp;'&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트팜&nbsp;확대&nbsp;및&nbsp;기후위기&nbsp;대응&nbsp;농업&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농산물&nbsp;가공·유통&nbsp;인프라&nbsp;확충&nbsp;및&nbsp;담양&nbsp;브랜드&nbsp;고도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;외국인·계절&nbsp;근로&nbsp;인력&nbsp;체계&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;농업&nbsp;고부가가치화&nbsp;및&nbsp;안정적&nbsp;농가&nbsp;소득&nbsp;기반&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2027년&nbsp;:&nbsp;농업&nbsp;지원체계&nbsp;개선&nbsp;및&nbsp;스마트능업&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2027&nbsp;~&nbsp;2028년&nbsp;:&nbsp;가공·유통&nbsp;인프라&nbsp;및&nbsp;인력&nbsp;지원체계&nbsp;단계적&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;2028&nbsp;~&nbsp;2030년&nbsp;:&nbsp;담양&nbsp;농업&nbsp;브랜드&nbsp;경쟁력&nbsp;강화&nbsp;및&nbsp;안정적&nbsp;소득&nbsp;기반&nbsp;확립<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원조달방안<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농림축산식품부&nbsp;및&nbsp;전남도&nbsp;농업&nbsp;관련&nbsp;국·도비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트농업&nbsp;및&nbsp;농촌지원&nbsp;공모사업&nbsp;적극&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농산물&nbsp;가공·유통&nbsp;분야&nbsp;민간&nbsp;투자&nbsp;연계&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단계별&nbsp;사업&nbsp;추진을&nbsp;통한&nbsp;재정&nbsp;효율화<br>&nbsp;&nbsp;○&nbsp;기대효과<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업&nbsp;생산성&nbsp;및&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농가&nbsp;소득&nbsp;중대와&nbsp;안정적&nbsp;영농&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트농업&nbsp;확산&nbsp;및&nbsp;기후위기&nbsp;대응&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;담양&nbsp;농산물&nbsp;브랜드&nbsp;가치&nbsp;향상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지속&nbsp;가능한&nbsp;미래농업&nbsp;기반&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	관광과 미래가 있는 담양 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="관광과 미래가 있는 담양 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;관광&nbsp;경챙력&nbsp;강화와&nbsp;교육·돌봄&nbsp;인프라&nbsp;확충을&nbsp;통해&nbsp;인구가&nbsp;유입되고&nbsp;정착하는&nbsp;미래형&nbsp;정주도시&nbsp;담양을&nbsp;실현하겠습니다．<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;관광&nbsp;활성화와&nbsp;교육·돌봄&nbsp;강화를&nbsp;통한&nbsp;정주여건&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간경관·미디어아트&nbsp;둥&nbsp;체류형&nbsp;관광&nbsp;콘텐츠&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;「1면&nbsp;1축제」브랜드화&nbsp;및&nbsp;관광&nbsp;분산&nbsp;전략&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미식·생태·체험&nbsp;관광&nbsp;확대&nbsp;및&nbsp;관광&nbsp;펀의시설&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-「담양&nbsp;패스」통합&nbsp;관광&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;·&nbsp;신혼부부&nbsp;주거&nbsp;지원&nbsp;확대&nbsp;및&nbsp;정착금&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;24시간&nbsp;돌봄체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역인재&nbsp;전형&nbsp;확대&nbsp;및&nbsp;장학금&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;코딩&nbsp;·&nbsp;AI&nbsp;교육&nbsp;강화로&nbsp;미래인재&nbsp;육정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광&nbsp;소비&nbsp;확대,&nbsp;인구&nbsp;유입,&nbsp;미래세대&nbsp;정착&nbsp;기반&nbsp;마련<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2027년&nbsp;:&nbsp;관광&nbsp;콘텐츠&nbsp;확대&nbsp;및&nbsp;교육·돌봄&nbsp;기반&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;2027∼2028년&nbsp;:&nbsp;정주여건&nbsp;개선사업&nbsp;및&nbsp;관광&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;2028&nbsp;~&nbsp;2030년&nbsp;:&nbsp;체류형&nbsp;관광&nbsp;정착&nbsp;및&nbsp;미래인재&nbsp;육성&nbsp;체계&nbsp;안정화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원조달방안<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화·관광·교육&nbsp;관련&nbsp;국비&nbsp;및&nbsp;특별시비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광&nbsp;인프라&nbsp;및&nbsp;체험&nbsp;콘텐츠&nbsp;공모사업&nbsp;척극&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;투자&nbsp;및&nbsp;관광사업&nbsp;연계&nbsp;수익&nbsp;모델&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단계별&nbsp;사업&nbsp;추진을&nbsp;통한&nbsp;재정&nbsp;효율화<br>&nbsp;&nbsp;○&nbsp;기대효과<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체류형&nbsp;관광&nbsp;활성화&nbsp;및&nbsp;관광&nbsp;소비&nbsp;증가<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년·신혼부부&nbsp;정착&nbsp;기반&nbsp;강화&nbsp;및&nbsp;인구&nbsp;유입&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄·교육&nbsp;인프라&nbsp;확충으로&nbsp;생활&nbsp;만족도&nbsp;향상&nbsp;및&nbsp;미래인재&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;경쟁력&nbsp;강화와&nbsp;지속&nbsp;가능한&nbsp;정주도시&nbsp;실현</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

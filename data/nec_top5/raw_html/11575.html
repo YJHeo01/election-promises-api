@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이장우 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	7대 전략산업 기반, 대전의 새로운 성장동력 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="7대 전략산업 기반, 대전의 새로운 성장동력 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;민선&nbsp;8기&nbsp;『2048&nbsp;그랜드&nbsp;플랜』을&nbsp;중심으로&nbsp;추진한&nbsp;A우주항공(Aerospace),&nbsp;B바이오헬스(Bio&nbsp;health),&nbsp;C반도체(Chips),&nbsp;D국방(Defense),&nbsp;E에너지(Energy),&nbsp;Q양자(Quantum),&nbsp;R로봇(Robot)&nbsp;등&nbsp;ABCDEQR&nbsp;7대&nbsp;전략산업을&nbsp;기반으로&nbsp;민선&nbsp;9기&nbsp;대한민국을&nbsp;대표하는&nbsp;균형&nbsp;발전&nbsp;신성장축&nbsp;육성<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;A&nbsp;우주항공(Aerospace)&nbsp;산업&nbsp;:&nbsp;‘우주기술혁신&nbsp;글로벌&nbsp;리더’&nbsp;마스터플랜수립,&nbsp;2028년까지&nbsp;총&nbsp;3,500억&nbsp;원&nbsp;투자,&nbsp;미래&nbsp;우주&nbsp;인력양성&nbsp;등&nbsp;대전형&nbsp;우주생태계&nbsp;구축,&nbsp;기업&nbsp;성장기반&nbsp;추진.&nbsp;<br>&nbsp;&nbsp;○&nbsp;B&nbsp;바이오헬스(Bio&nbsp;health)&nbsp;산업&nbsp;:&nbsp;신동·둔곡,&nbsp;대덕테크노밸리,&nbsp;탑립·전민,원촌&nbsp;첨단바이오메디컬&nbsp;지구&nbsp;등&nbsp;국가첨단전략산업&nbsp;바이오&nbsp;특화단지&nbsp;지정(891만㎡&nbsp;규모).&nbsp;<br>&nbsp;&nbsp;○&nbsp;C&nbsp;반도체(Chips)&nbsp;산업&nbsp;:&nbsp;대덕특구&nbsp;447개&nbsp;반도체&nbsp;설계,&nbsp;소재·부품·장비(소&nbsp;부장)&nbsp;기업,&nbsp;ETRI,&nbsp;KRISS,&nbsp;KIMM,&nbsp;나노종합기술원&nbsp;등&nbsp;반도체&nbsp;원천기술&nbsp;기반&nbsp;차세대&nbsp;반도체&nbsp;산업&nbsp;육성.&nbsp;2030년까지&nbsp;유성&nbsp;교촌동&nbsp;총&nbsp;3조&nbsp;4,585억&nbsp;원투입,&nbsp;총&nbsp;530만㎡&nbsp;규모&nbsp;나노반도체&nbsp;국가산단&nbsp;조성.&nbsp;<br>&nbsp;&nbsp;○&nbsp;D&nbsp;국방(Defense)&nbsp;산업&nbsp;:&nbsp;2026년&nbsp;착공&nbsp;‘안산&nbsp;첨단국방산업단지’를&nbsp;조성,&nbsp;총&nbsp;159만㎡,&nbsp;약&nbsp;1조&nbsp;4천억&nbsp;원&nbsp;투입.&nbsp;첨단센서산업&nbsp;등&nbsp;전략산업과&nbsp;국방산업융복합&nbsp;특화형&nbsp;국방산단&nbsp;개발&nbsp;추진.&nbsp;<br>&nbsp;&nbsp;○&nbsp;E&nbsp;에너지(Energy)&nbsp;산업&nbsp;:&nbsp;2037년&nbsp;대전&nbsp;전력자립도&nbsp;102%&nbsp;목표,&nbsp;대전광역시제7차&nbsp;지역에너지&nbsp;계획(2026~2030)&nbsp;수립추진.&nbsp;산업부&nbsp;전력수급기본계획500MW&nbsp;신규반영,&nbsp;2032년&nbsp;준공목표&nbsp;추진.&nbsp;<br>&nbsp;&nbsp;○&nbsp;Q&nbsp;양자(Quantum)&nbsp;산업&nbsp;:&nbsp;양자산업&nbsp;전주기&nbsp;클러스터&nbsp;구축,&nbsp;양자&nbsp;딥테크&nbsp;스타트업&nbsp;육성,&nbsp;양자기술&nbsp;전문인력양성&nbsp;및&nbsp;국제&nbsp;공동연구&nbsp;추진&nbsp;등&nbsp;육성.&nbsp;대전&nbsp;출연연과&nbsp;대학&nbsp;개발&nbsp;양자컴퓨팅&nbsp;원천기술&nbsp;기업&nbsp;이전,&nbsp;외국산&nbsp;장비·부품&nbsp;국산화&nbsp;및&nbsp;사업화&nbsp;지원.&nbsp;제품성능품질&nbsp;테스트&nbsp;시스템&nbsp;구축,&nbsp;상장(IPO)단계까지&nbsp;스케일업&nbsp;지원&nbsp;등&nbsp;3트랙&nbsp;양자산업&nbsp;육성&nbsp;추진.&nbsp;<br>&nbsp;&nbsp;○&nbsp;R&nbsp;로봇(Robot)&nbsp;산업&nbsp;:&nbsp;2025년부터&nbsp;5년간&nbsp;국비와&nbsp;공모사업&nbsp;연계,&nbsp;총&nbsp;1,285억&nbsp;원&nbsp;투입&nbsp;로드맵&nbsp;추진.&nbsp;차세대&nbsp;로봇&nbsp;선행연구&nbsp;실증센터&nbsp;설립,&nbsp;로봇&nbsp;드론&nbsp;복합지원센터&nbsp;구축&nbsp;등&nbsp;차세대&nbsp;로봇산업&nbsp;클러스터&nbsp;조성.&nbsp;특히&nbsp;로봇-드론&nbsp;중심&nbsp;특화전략&nbsp;및&nbsp;지원센터로&nbsp;기업통합&nbsp;플랫폼&nbsp;성장&nbsp;견인.&nbsp;<br><br>□&nbsp;이행&nbsp;기간&nbsp;:&nbsp;&nbsp;○&nbsp;민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;(2026~2030년)<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국토교통부,&nbsp;산업부,&nbsp;과학기술부&nbsp;등&nbsp;유관부처&nbsp;정부&nbsp;예산&nbsp;지원&nbsp;협의&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;민간&nbsp;자본&nbsp;등을&nbsp;결합하여&nbsp;사업별&nbsp;시행</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	청년이 찾고 여성이 살기 좋은 대전! 더 나아집니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="청년이 찾고 여성이 살기 좋은 대전! 더 나아집니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;대전형&nbsp;청년&nbsp;성장&nbsp;플랫폼&nbsp;복합개발&nbsp;사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;주거와&nbsp;일자리&nbsp;창출&nbsp;기능&nbsp;연계한&nbsp;복합개발사업을&nbsp;통한&nbsp;청년&nbsp;성장&nbsp;지원&nbsp;실현<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;대전&nbsp;중부&nbsp;경찰서&nbsp;이전&nbsp;유휴부지를&nbsp;활용하여&nbsp;청년&nbsp;주거와&nbsp;일자리&nbsp;창출&nbsp;기능을&nbsp;연계한&nbsp;복합개발사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업&nbsp;위치&nbsp;:&nbsp;대전광역시&nbsp;중구&nbsp;중앙로&nbsp;112(舊&nbsp;중부&nbsp;경찰서,&nbsp;또는&nbsp;원도심)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업&nbsp;규모&nbsp;:&nbsp;지하&nbsp;4층,&nbsp;지상&nbsp;32층/연면적&nbsp;40,314㎡&nbsp;(12,195평)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업비&nbsp;:&nbsp;약&nbsp;892억&nbsp;원&nbsp;(국비&nbsp;310,&nbsp;시비&nbsp;195,&nbsp;구비&nbsp;65,&nbsp;도시공사&nbsp;322)&nbsp;/&nbsp;토지비&nbsp;제외<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비지원&nbsp;:&nbsp;도시재생인정사업(50),&nbsp;임대주택&nbsp;건설(120),&nbsp;지식산업센터&nbsp;건립&nbsp;(140)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;토지비&nbsp;:&nbsp;기획재정부&nbsp;소유&nbsp;유휴부지&nbsp;공익사업&nbsp;추진&nbsp;시&nbsp;무상양여&nbsp;또는&nbsp;매각&nbsp;가능,&nbsp;도시&nbsp;재생&nbsp;공모&nbsp;및&nbsp;국비&nbsp;지원&nbsp;사업으로&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업내용&nbsp;:&nbsp;청년&nbsp;임대주택&nbsp;200호,&nbsp;공공임대형&nbsp;지식산업센터&nbsp;13,880㎡,&nbsp;돌봄센터&nbsp;및&nbsp;창업&nbsp;지원시설&nbsp;3,200㎡&nbsp;(생활&nbsp;SOC),&nbsp;상업&nbsp;및&nbsp;부대시설)<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;성장에&nbsp;필수적인&nbsp;주거,&nbsp;일자리&nbsp;창출&nbsp;기능을&nbsp;원도심&nbsp;중심지역에&nbsp;거점을&nbsp;조성하여,&nbsp;청년세대의&nbsp;역량&nbsp;성장과&nbsp;안정적인&nbsp;경제적&nbsp;자립&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;AI기반&nbsp;기업유치로&nbsp;‘일류경제도시’에&nbsp;걸맞은&nbsp;정책&nbsp;실현&nbsp;및&nbsp;원도심&nbsp;활력&nbsp;증진&nbsp;도모<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;관련&nbsp;규정을&nbsp;제정·개정&nbsp;후&nbsp;임기&nbsp;내&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;구비,&nbsp;도시공사&nbsp;가용&nbsp;예산&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	‘아이 기르기 좋은 대전’에서 ‘일류교육도시’로 / 대전형 인재육성 교육지원금 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="‘아이 기르기 좋은 대전’에서 ‘일류교육도시’로 / 대전형 인재육성 교육지원금 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;서울&nbsp;대비&nbsp;부족한&nbsp;입시정보&nbsp;및&nbsp;교육&nbsp;서비스&nbsp;밀착&nbsp;제공,&nbsp;교육&nbsp;양극화&nbsp;해소.<br>&nbsp;&nbsp;○&nbsp;우수&nbsp;교육&nbsp;인프라&nbsp;대전&nbsp;유치,&nbsp;지역&nbsp;학생들의&nbsp;학업&nbsp;성취도&nbsp;제고&nbsp;및&nbsp;교육&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;학부모&nbsp;사교육비&nbsp;및&nbsp;체험&nbsp;학습비&nbsp;부담&nbsp;실질적&nbsp;지원으로&nbsp;가계&nbsp;부담&nbsp;경감<br>&nbsp;&nbsp;○&nbsp;지원금&nbsp;사용처를&nbsp;지역&nbsp;교육&nbsp;서비스업으로&nbsp;제한,&nbsp;선순환&nbsp;구조&nbsp;구축&nbsp;및&nbsp;지역&nbsp;경제&nbsp;활성화<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;지원&nbsp;대상&nbsp;:&nbsp;대전광역시에&nbsp;거주&nbsp;관내&nbsp;학교&nbsp;재학&nbsp;초·중·고등학생<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;대입&nbsp;고교생(수험생)부터&nbsp;단계적&nbsp;시행&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;지원&nbsp;금액&nbsp;:&nbsp;대입시생&nbsp;1인&nbsp;연간&nbsp;50만원(1만명&nbsp;추정&nbsp;50억)<br>&nbsp;&nbsp;○&nbsp;지급&nbsp;방식&nbsp;:&nbsp;교육전용카드(대전&nbsp;에듀카드)&nbsp;발급&nbsp;및&nbsp;학기별&nbsp;분할&nbsp;지급<br>&nbsp;&nbsp;○&nbsp;바우처&nbsp;주요&nbsp;사용처&nbsp;및&nbsp;활용&nbsp;방안<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;입시·진로&nbsp;컨설팅&nbsp;:&nbsp;수도권&nbsp;전문가&nbsp;매칭,&nbsp;서울&nbsp;강남&nbsp;등&nbsp;유수&nbsp;컨설팅&nbsp;전문가&nbsp;초빙,&nbsp;또는&nbsp;줌&nbsp;컨설팅을&nbsp;받을&nbsp;수&nbsp;있도록&nbsp;비용&nbsp;지원을&nbsp;통해&nbsp;대입&nbsp;수시전형,&nbsp;생활기록부&nbsp;관리,&nbsp;면접&nbsp;대비&nbsp;등&nbsp;지방에서&nbsp;정보&nbsp;격차&nbsp;해소,&nbsp;우수&nbsp;인재&nbsp;진학&nbsp;활로&nbsp;개척.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;맞춤형&nbsp;학습&nbsp;인프라&nbsp;구축&nbsp;:&nbsp;국내&nbsp;유명&nbsp;인터넷&nbsp;강의(인강)&nbsp;프리패스&nbsp;및&nbsp;유료&nbsp;학습&nbsp;콘텐츠&nbsp;결제로&nbsp;온라인&nbsp;강의&nbsp;수강,&nbsp;교재&nbsp;및&nbsp;도서&nbsp;구입&nbsp;등&nbsp;활용.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예체능&nbsp;및&nbsp;특기&nbsp;적성&nbsp;교육&nbsp;:&nbsp;인공지능(AI)&nbsp;코딩,&nbsp;로봇,&nbsp;드론&nbsp;등&nbsp;AI&nbsp;관련&nbsp;교육&nbsp;및&nbsp;예술·체육&nbsp;레슨비&nbsp;지원.&nbsp;어학&nbsp;시험(TOEIC,&nbsp;HSK&nbsp;등)&nbsp;및&nbsp;국가&nbsp;공인&nbsp;자격증&nbsp;응시료·학원비&nbsp;등&nbsp;자격증&nbsp;취득&nbsp;장려.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;심리·정서&nbsp;케어&nbsp;:&nbsp;발달장애,&nbsp;시험&nbsp;불안,&nbsp;진로&nbsp;고민&nbsp;해결을&nbsp;위한&nbsp;전문&nbsp;심리상담소&nbsp;및&nbsp;검사&nbsp;비용&nbsp;및&nbsp;학습&nbsp;심리&nbsp;상담비&nbsp;지원.<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;관련&nbsp;규정을&nbsp;개정&nbsp;후&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;시행<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지방&nbsp;교육재정교부금&nbsp;효율화&nbsp;:&nbsp;학령인구&nbsp;감소로&nbsp;인한&nbsp;여유&nbsp;지방&nbsp;교육&nbsp;재정교부금(교육청)&nbsp;일부&nbsp;지자체&nbsp;매칭하여&nbsp;사업&nbsp;기금&nbsp;전환.<br>&nbsp;&nbsp;○&nbsp;시&nbsp;예산&nbsp;구조조정&nbsp;및&nbsp;기금&nbsp;활용&nbsp;:&nbsp;기존&nbsp;일회성&nbsp;행사&nbsp;및&nbsp;전시성&nbsp;사업&nbsp;예산&nbsp;절감,&nbsp;교육&nbsp;예산&nbsp;우선&nbsp;편성.&nbsp;대전&nbsp;인재&nbsp;육성기금&nbsp;운용&nbsp;수익&nbsp;및&nbsp;추가&nbsp;출연&nbsp;통한&nbsp;재원&nbsp;보조.<br>&nbsp;&nbsp;○&nbsp;고향사랑&nbsp;기부금&nbsp;연계&nbsp;:&nbsp;대전인재&nbsp;육성을&nbsp;지정&nbsp;기부&nbsp;항목으로&nbsp;설정,&nbsp;재원으로&nbsp;활용.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	빠르고 편리한 첨단 ‘무궤도 트램’ 3·4·5·6호선 임기내 완공</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="빠르고 편리한 첨단 ‘무궤도 트램’ 3·4·5·6호선 임기내 완공">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;첨단&nbsp;자율주행&nbsp;기술&nbsp;무궤도&nbsp;3칸&nbsp;굴절트램을&nbsp;대전&nbsp;도시철도&nbsp;3·4·5·6호선에&nbsp;전면&nbsp;도입&nbsp;궤도에&nbsp;얽매이지&nbsp;않는&nbsp;유연함과&nbsp;대형&nbsp;지하철급&nbsp;수송&nbsp;능력(최대&nbsp;230명)&nbsp;결합,&nbsp;대중교통&nbsp;사각지대&nbsp;없는&nbsp;‘초연결&nbsp;도시&nbsp;대전’을&nbsp;민선9기&nbsp;임기내&nbsp;개통.<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;도입&nbsp;차량&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3개칸&nbsp;연결&nbsp;3칸&nbsp;굴절&nbsp;방식,&nbsp;1회&nbsp;약&nbsp;230명&nbsp;수송능력&nbsp;보유(일반&nbsp;버스&nbsp;약&nbsp;4배)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;차량&nbsp;양단&nbsp;운전&nbsp;기능,&nbsp;방향&nbsp;환&nbsp;없이&nbsp;왕복&nbsp;운행&nbsp;가능,&nbsp;자율주행&nbsp;시스템을&nbsp;갖춘&nbsp;‘3무(무가선·무궤도·무탄소)’&nbsp;친환경&nbsp;차량<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국토교통부&nbsp;규제&nbsp;샌드박스&nbsp;실증&nbsp;특례&nbsp;승인&nbsp;받아&nbsp;30m&nbsp;넘는&nbsp;차량&nbsp;운행&nbsp;근거&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2호선&nbsp;트램&nbsp;차량&nbsp;대비&nbsp;1/2&nbsp;예산&nbsp;(수소트램&nbsp;1대&nbsp;약&nbsp;86억,&nbsp;무궤도&nbsp;트램&nbsp;1대&nbsp;약&nbsp;31억)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;수소트램&nbsp;제작비&nbsp;34편&nbsp;2,934억원&nbsp;:&nbsp;2,934억&nbsp;/&nbsp;34편&nbsp;=&nbsp;86.29억<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;3칸&nbsp;굴절차량&nbsp;제적비&nbsp;3대&nbsp;94억원&nbsp;:&nbsp;94억&nbsp;/&nbsp;3대&nbsp;=&nbsp;31.33억<br>&nbsp;&nbsp;○&nbsp;도입&nbsp;배경<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일반&nbsp;트램&nbsp;대비&nbsp;건설비&nbsp;약&nbsp;40%,&nbsp;운영비&nbsp;약&nbsp;65%&nbsp;수준&nbsp;기존&nbsp;도로(중앙버스전용차로&nbsp;등)&nbsp;활용,&nbsp;구축&nbsp;기간이&nbsp;단축<br>&nbsp;&nbsp;○&nbsp;추정&nbsp;예산&nbsp;/&nbsp;1호선&nbsp;당&nbsp;약&nbsp;449억원(추정)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;차량&nbsp;제작&nbsp;360억&nbsp;:&nbsp;1호선&nbsp;당&nbsp;차량&nbsp;8편,&nbsp;1량&nbsp;제작&nbsp;45억&nbsp;예상&nbsp;(물가&nbsp;상승률&nbsp;반영)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시설&nbsp;공사&nbsp;&nbsp;50억&nbsp;:&nbsp;차고지&nbsp;등&nbsp;건축공사비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기반&nbsp;시설&nbsp;&nbsp;16억&nbsp;:&nbsp;토목&nbsp;(노선,&nbsp;정거장&nbsp;등),&nbsp;전기&nbsp;(정류장,&nbsp;신호),&nbsp;통신&nbsp;(BIT)&nbsp;시설비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;충전인프라&nbsp;23억&nbsp;:&nbsp;전기&nbsp;(변전설비),&nbsp;충전인프라,&nbsp;감리비,&nbsp;부대비,&nbsp;예비비<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;민선9기&nbsp;임기내<br><br>□&nbsp;대전시&nbsp;도시철도&nbsp;3·4·5·6호선&nbsp;구간&nbsp;총연장&nbsp;63.43km&nbsp;<br>&nbsp;&nbsp;○&nbsp;대덕-유성-서구&nbsp;남북축&nbsp;연결&nbsp;도시철도&nbsp;3호선&nbsp;(신탄진역~재뜰네거리,&nbsp;L=15.7km)&nbsp;<br>&nbsp;&nbsp;○&nbsp;도시&nbsp;공간구조&nbsp;연결&nbsp;필수&nbsp;동서축&nbsp;연결&nbsp;4호선&nbsp;(덕명지구~송촌,&nbsp;L=19.0km)&nbsp;<br>&nbsp;&nbsp;○&nbsp;서구·동구·중구&nbsp;남북축&nbsp;연결&nbsp;도시철도&nbsp;5호선&nbsp;(재뜰네거리~산내동,&nbsp;L=13.5km)&nbsp;<br>&nbsp;&nbsp;○&nbsp;도심&nbsp;남북중심축&nbsp;연결&nbsp;6호선&nbsp;(컨벤션센터네거리~오월드,&nbsp;L=13.2km)<br>&nbsp;&nbsp;○&nbsp;도시철도&nbsp;2호선(트램)&nbsp;연장&nbsp;2개&nbsp;지선(교촌지선&nbsp;L=0.81km,&nbsp;회덕지선&nbsp;L=1.22km)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	문화예술 인프라 확충, 문화예술 활동 전폭 지원 / ‘K-문화예술 허브’ 도약,</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="문화예술 인프라 확충, 문화예술 활동 전폭 지원 / ‘K-문화예술 허브’ 도약,">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;Ⅰ.&nbsp;대전문화예술&nbsp;진흥&nbsp;‘제2문화예술복합단지’&nbsp;조성<br>&nbsp;&nbsp;Ⅱ.&nbsp;온국민의&nbsp;사랑&nbsp;받는&nbsp;3대&nbsp;역사·문화·예술&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;Ⅲ.&nbsp;대전&nbsp;첨단영상·웹툰&nbsp;문화산업&nbsp;클러스터<br>&nbsp;&nbsp;Ⅳ.&nbsp;대전형&nbsp;‘지정예술단’&nbsp;지원&nbsp;진흥&nbsp;<br>&nbsp;&nbsp;Ⅴ.&nbsp;3대&nbsp;클러스터&nbsp;및&nbsp;‘지정예술단’&nbsp;연계&nbsp;창작머뭄터&nbsp;활성화&nbsp;&nbsp;<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;중촌근린공원&nbsp;‘제2문화예술복합단지’&nbsp;조성&nbsp;사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;음악전용공연장(콘서트&nbsp;전용홀),&nbsp;제2시립미술관&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2025.06&nbsp;한국지방행정연구원&nbsp;타당성조사,&nbsp;2028&nbsp;경제성&nbsp;검토&nbsp;완료<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026~2028&nbsp;음악전용공연장,&nbsp;제2시립미술관&nbsp;설계&nbsp;공모·용역&nbsp;및&nbsp;설계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2029&nbsp;착공,&nbsp;2032&nbsp;개관&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;대전&nbsp;3대&nbsp;역사·문화·예술&nbsp;테마&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;1.&nbsp;대전역세권&nbsp;소제동&nbsp;역사·문화&nbsp;클러스터<br>&nbsp;&nbsp;&nbsp;&nbsp;2.&nbsp;대흥·은행권&nbsp;문화·전시·로컬컨벤션&nbsp;클러스터<br>&nbsp;&nbsp;&nbsp;&nbsp;3.&nbsp;대흥·대사동&nbsp;테미&nbsp;문학테마&nbsp;클러스터<br>&nbsp;&nbsp;○&nbsp;대전&nbsp;첨단영상·웹툰&nbsp;문화산업&nbsp;클러스터&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;1.&nbsp;대전도심융합특구&nbsp;웹툰IP첨단&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;2.&nbsp;엑스포공원&nbsp;특수영상&nbsp;융복합&nbsp;콘텐츠&nbsp;클러스터&nbsp;조성&nbsp;&nbsp;<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;문화예술·문화산업&nbsp;분야&nbsp;의겸&nbsp;수렴<br>&nbsp;&nbsp;○&nbsp;관련&nbsp;조례&nbsp;제정&nbsp;및&nbsp;개정<br>&nbsp;&nbsp;○&nbsp;대전시,&nbsp;관계&nbsp;부처&nbsp;기관,&nbsp;시민&nbsp;등&nbsp;연계한&nbsp;협의기구&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;재원조달&nbsp;:&nbsp;기존&nbsp;사업&nbsp;세출&nbsp;조정,&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

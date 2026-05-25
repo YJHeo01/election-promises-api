@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;전성균 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	압도적 교통개혁</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="압도적 교통개혁">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;병목교차로·정체·주차난·보행불편&nbsp;50개&nbsp;핵심&nbsp;지점을&nbsp;임기&nbsp;내&nbsp;단계적으로&nbsp;해결한다<br>&nbsp;&nbsp;-&nbsp;철도·역사·환승센터·광역교통&nbsp;사업을&nbsp;시장이&nbsp;직접&nbsp;챙기고&nbsp;진행&nbsp;상황을&nbsp;정례&nbsp;공개하는&nbsp;책임행정&nbsp;체계를&nbsp;만든다<br>&nbsp;&nbsp;-&nbsp;생활권&nbsp;중심으로&nbsp;노선을&nbsp;전면&nbsp;재편하고&nbsp;통학·출퇴근·새벽심야까지&nbsp;맞춤형&nbsp;버스체계를&nbsp;구축한다&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;시민불편&nbsp;50선&nbsp;선정&nbsp;및&nbsp;등급화하여&nbsp;출퇴근&nbsp;정체,&nbsp;보행위험,&nbsp;좌회전&nbsp;병목,&nbsp;불법주정차&nbsp;병목,&nbsp;주차난,&nbsp;학교&nbsp;앞&nbsp;위험구간을&nbsp;전수조사해&nbsp;우선순위를&nbsp;매긴다.<br>&nbsp;&nbsp;-&nbsp;시장&nbsp;직속&nbsp;교통현안&nbsp;점검회의&nbsp;상설화하여&nbsp;철도·역사·환승센터·광역교통&nbsp;주요&nbsp;사업을&nbsp;월&nbsp;단위로&nbsp;직접&nbsp;점검.&nbsp;정례&nbsp;브리핑&nbsp;제도&nbsp;도입하여&nbsp;운영분기별로&nbsp;공정률,&nbsp;지연&nbsp;사유,&nbsp;쟁점,&nbsp;향후&nbsp;일정,&nbsp;재원&nbsp;확보&nbsp;상황을&nbsp;공개한다<br>&nbsp;&nbsp;-&nbsp;생활권&nbsp;중심&nbsp;시내·마을·광역버스&nbsp;노선&nbsp;전면&nbsp;재편하고&nbsp;중·고등학생&nbsp;통학버스&nbsp;확대&nbsp;및&nbsp;새벽·심야·취약시간대&nbsp;맞춤형&nbsp;버스&nbsp;운영한다<br>&nbsp;&nbsp;-&nbsp;차고지·회차지&nbsp;권역별&nbsp;2~3개소&nbsp;단계&nbsp;조성하고&nbsp;데이터&nbsp;기반&nbsp;배차시스템&nbsp;도입으로&nbsp;정시&nbsp;성·연결성&nbsp;강화&nbsp;한다&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;이행&nbsp;기간&nbsp;:&nbsp;[4年]&nbsp;2026년&nbsp;8월&nbsp;-&nbsp;2030년&nbsp;7월&nbsp;<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;-&nbsp;국비,&nbsp;도비,&nbsp;시비(※세부금액은&nbsp;국ㆍ도ㆍ시&nbsp;협의진행&nbsp;後&nbsp;결정)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	동-서 잇는 글로벌 플랫폼시티</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="동-서 잇는 글로벌 플랫폼시티">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;동탄&nbsp;반도체&nbsp;기술축과&nbsp;서부&nbsp;첨단산업·바이오·관광&nbsp;축을&nbsp;잇는&nbsp;글로벌&nbsp;플랫폼&nbsp;도시로&nbsp;만든다.&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;동탄&nbsp;반도체&nbsp;기술축-서부&nbsp;첨단산업·바이오·관광축을&nbsp;이어&nbsp;동서&nbsp;투자거점&nbsp;연계&nbsp;전략&nbsp;수립한다.<br>&nbsp;&nbsp;-&nbsp;우정&nbsp;미래&nbsp;첨단&nbsp;일반산업단지&nbsp;조성&nbsp;가속화&nbsp;및&nbsp;서부권&nbsp;미래차·바이오&nbsp;융복합&nbsp;벨트&nbsp;조성하여&nbsp;첨단&nbsp;제조·바이오&nbsp;기업&nbsp;입지&nbsp;기반&nbsp;강화한다.<br>&nbsp;&nbsp;-&nbsp;경기경제자유구역&nbsp;추가&nbsp;지정을&nbsp;추진하여&nbsp;투자&nbsp;환경을&nbsp;극대화한다.<br>&nbsp;&nbsp;-&nbsp;코리요섬&nbsp;공룡테마파크,&nbsp;국제테마파크&nbsp;등&nbsp;서부권&nbsp;관광&nbsp;자원을&nbsp;비즈니스&nbsp;인프라와&nbsp;결합하여&nbsp;산업과&nbsp;정주,&nbsp;체류형&nbsp;관광이&nbsp;공존하는&nbsp;자족&nbsp;도시&nbsp;모델&nbsp;완성한다.&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;이행&nbsp;기간&nbsp;:&nbsp;[4年]&nbsp;2026년&nbsp;8월&nbsp;-&nbsp;2030년&nbsp;7월<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;국비,&nbsp;도비,&nbsp;시비(※세부금액은&nbsp;국ㆍ도ㆍ시&nbsp;협의진행&nbsp;後&nbsp;결정)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	아이들의 상상이 미래가 되는 도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="아이들의 상상이 미래가 되는 도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;권역별&nbsp;공학놀이터와&nbsp;미래기술&nbsp;체험거점을&nbsp;조성해&nbsp;아이들이&nbsp;생활권&nbsp;가까이서&nbsp;기술을&nbsp;체험하는&nbsp;도시를&nbsp;만든다.<br>&nbsp;&nbsp;-&nbsp;과학고·마이스터고&nbsp;확대와&nbsp;산업연계&nbsp;교육체계를&nbsp;만들고,&nbsp;국제화특구를&nbsp;학교&nbsp;중심의&nbsp;실효형&nbsp;체계로&nbsp;바꾼다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;권역&nbsp;중심&nbsp;거점&nbsp;1개소&nbsp;별&nbsp;거점형&nbsp;공학놀이터&nbsp;조성한다.<br>&nbsp;&nbsp;-&nbsp;학교·도서관·이음터&nbsp;연계&nbsp;미래기술&nbsp;체험공간&nbsp;확충하여&nbsp;로봇,&nbsp;AI,&nbsp;메이커,&nbsp;코딩,&nbsp;모빌리티&nbsp;체험&nbsp;프로그램&nbsp;운영한다.&nbsp;-&nbsp;폐교·유휴교실을&nbsp;미래기술&nbsp;이음센터·메이커&nbsp;실습공간·창의기술&nbsp;체험실로&nbsp;전환한다.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;-&nbsp;반도체,&nbsp;모빌리티,&nbsp;첨단제조,&nbsp;바이오&nbsp;분야&nbsp;중심으로&nbsp;특성화고·마이스터고&nbsp;유치&nbsp;및&nbsp;확대&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;이행&nbsp;기간:&nbsp;[4年]&nbsp;2026년&nbsp;8월&nbsp;-&nbsp;2030년&nbsp;7월<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;국비&nbsp;도비,&nbsp;시비(※세부금액은&nbsp;국ㆍ도ㆍ시&nbsp;협의진행&nbsp;後&nbsp;결정)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	소모성 복지에서 생산적 복지로 전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="소모성 복지에서 생산적 복지로 전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;산후도우미&nbsp;지원기간을&nbsp;1주일&nbsp;연장해&nbsp;산후조리의&nbsp;골든타임을&nbsp;더&nbsp;보장한다.<br>&nbsp;&nbsp;-&nbsp;서부권&nbsp;외상전문센터와&nbsp;필수의료&nbsp;기반을&nbsp;강화하고,&nbsp;소아·어르신·마음건강·발달지원까지&nbsp;생활권에서&nbsp;가까이&nbsp;이용할&nbsp;수&nbsp;있는&nbsp;촘촘한&nbsp;의료체계를&nbsp;구축한다.<br>&nbsp;&nbsp;-&nbsp;초등&nbsp;저학년&nbsp;자녀를&nbsp;둔&nbsp;부모를&nbsp;위한&nbsp;굿모닝·굿이브닝형&nbsp;시차출퇴근제를&nbsp;공공기관과&nbsp;협약기업&nbsp;중심으로&nbsp;확산시킨다.<br>&nbsp;&nbsp;-&nbsp;난임&nbsp;부부에&nbsp;대해서는&nbsp;시술비와&nbsp;비급여&nbsp;부담을&nbsp;더&nbsp;두텁게&nbsp;지원한다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;산후도우미&nbsp;지원기간&nbsp;1주&nbsp;연장하여&nbsp;초기&nbsp;산후회복과&nbsp;육아적응&nbsp;부담&nbsp;완화한다.<br>&nbsp;&nbsp;-&nbsp;서부권&nbsp;외상전문센터&nbsp;유치하여&nbsp;공공성&nbsp;있는&nbsp;필수의료&nbsp;기반&nbsp;확보한다<br>&nbsp;&nbsp;-&nbsp;야간·휴일&nbsp;소아의료&nbsp;권역을&nbsp;보완하고&nbsp;생활권&nbsp;접근성&nbsp;강화하는&nbsp;달빛어린이병원&nbsp;운영한다.<br>&nbsp;&nbsp;-&nbsp;공공기관&nbsp;및&nbsp;관내기업부터&nbsp;도입하여&nbsp;초등&nbsp;저학년&nbsp;부모&nbsp;굿모닝·굿이브닝&nbsp;시차출퇴근제&nbsp;확산한다.<br>&nbsp;&nbsp;-&nbsp;비급여&nbsp;항목&nbsp;보전&nbsp;확대하고&nbsp;정서적&nbsp;상담지원&nbsp;강화하는&nbsp;난임&nbsp;부부를&nbsp;전폭&nbsp;지원한다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;이행&nbsp;기간&nbsp;:&nbsp;[4年]&nbsp;2026년&nbsp;8월&nbsp;-&nbsp;2030년&nbsp;7월&nbsp;<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;-&nbsp;국비,&nbsp;도비,&nbsp;시비(※세부금액은&nbsp;국ㆍ도ㆍ시&nbsp;협의진행&nbsp;後&nbsp;결정)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	AI와 함께하는 깨끗하고 스마트한 행정혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="AI와 함께하는 깨끗하고 스마트한 행정혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;전시성&nbsp;행사와&nbsp;의전&nbsp;중심&nbsp;행정을&nbsp;줄이고,&nbsp;민원&nbsp;해결과&nbsp;현장&nbsp;대응&nbsp;중심의&nbsp;실무형&nbsp;시청&nbsp;으로&nbsp;전환한다.<br>&nbsp;&nbsp;-&nbsp;시장&nbsp;직속&nbsp;교통혁신담당관을&nbsp;설치해&nbsp;도로·버스·철도·환승&nbsp;현안을&nbsp;통합&nbsp;관리하고,&nbsp;AI&nbsp;기반&nbsp;행정점검&nbsp;시스템으로&nbsp;청소·용역·유지관리&nbsp;등&nbsp;계약과&nbsp;예산&nbsp;집행의&nbsp;이상&nbsp;징후를&nbsp;상시&nbsp;분석한다.<br>&nbsp;&nbsp;-&nbsp;뇌물&nbsp;공직자&nbsp;원스트라이크&nbsp;아웃제&nbsp;도입&nbsp;및&nbsp;출자·출연기관&nbsp;채용&nbsp;시&nbsp;퇴직&nbsp;공무원의&nbsp;관행적&nbsp;재취업을&nbsp;근절하고,&nbsp;시민과&nbsp;민간&nbsp;전문가에게&nbsp;공정한&nbsp;기회를&nbsp;보장한다.&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;반부패&nbsp;원칙&nbsp;강화하여&nbsp;뇌물&nbsp;공직자&nbsp;원스트라이크&nbsp;아웃&nbsp;및&nbsp;인사청탁·매관매직&nbsp;엄벌한다.<br>&nbsp;&nbsp;-&nbsp;AI&nbsp;기반&nbsp;계약·용역·예산&nbsp;이상&nbsp;징후&nbsp;점검&nbsp;시스템&nbsp;도입하여&nbsp;이상징후&nbsp;상시&nbsp;분석한다.<br>&nbsp;&nbsp;-&nbsp;출자·출연기관&nbsp;공정채용&nbsp;전면&nbsp;개편하고&nbsp;채용시스템&nbsp;표준화&nbsp;+&nbsp;외부검증&nbsp;도입한다.<br>&nbsp;&nbsp;-&nbsp;행사·의전&nbsp;감축과&nbsp;실무인력&nbsp;재배치&nbsp;및&nbsp;민원처리&nbsp;지연&nbsp;공개·부서별&nbsp;책임관리제를&nbsp;도입&nbsp;한다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;이행&nbsp;기간&nbsp;:&nbsp;[4年]&nbsp;2026년&nbsp;8월&nbsp;-&nbsp;2030년&nbsp;7월&nbsp;<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;-&nbsp;국비,&nbsp;도비,&nbsp;시비(※세부금액은&nbsp;국ㆍ도ㆍ시&nbsp;협의진행&nbsp;後&nbsp;결정)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

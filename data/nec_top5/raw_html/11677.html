@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;정명희 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	아이부터 노년까지 ― 북구 전 생애 동행 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="아이부터 노년까지 ― 북구 전 생애 동행 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;-출산·아동부터&nbsp;청년·중장년·노년까지&nbsp;생애&nbsp;전&nbsp;단계에&nbsp;끊김&nbsp;없는&nbsp;맞춤&nbsp;지원&nbsp;체계를&nbsp;구축하여,&nbsp;구민이&nbsp;북구에서&nbsp;태어나고&nbsp;자라고&nbsp;늙어도&nbsp;외롭지&nbsp;않은&nbsp;도시&nbsp;실현<br>&nbsp;<br>□&nbsp;이행방법<br>【출산·아동】<br>&nbsp;&nbsp;&nbsp;&nbsp;-아이맘택시:&nbsp;임산부·24개월&nbsp;이하&nbsp;영유아&nbsp;병원·공공시설&nbsp;이동&nbsp;연&nbsp;10회&nbsp;무료&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-야간·주말&nbsp;어린이&nbsp;상시&nbsp;진료&nbsp;체계&nbsp;구축&nbsp;및&nbsp;병원동행서비스&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-하교&nbsp;안심지원&nbsp;도우미&nbsp;전면&nbsp;투입(횡단보도&nbsp;수신호·승하차&nbsp;지도)<br>&nbsp;&nbsp;&nbsp;&nbsp;-AI교육&nbsp;1번지&nbsp;북구:&nbsp;AI&nbsp;학습&nbsp;플랫폼&nbsp;단체&nbsp;구독&nbsp;→&nbsp;초·중학생&nbsp;이용권&nbsp;무료&nbsp;지급<br>&nbsp;&nbsp;&nbsp;&nbsp;-중학교&nbsp;입학생&nbsp;신학기용품&nbsp;1:1&nbsp;맞춤&nbsp;지원(인당&nbsp;20만&nbsp;원,&nbsp;낙인&nbsp;없는&nbsp;맞춤&nbsp;복지)<br>【청년】<br>&nbsp;&nbsp;&nbsp;&nbsp;-월&nbsp;10만&nbsp;원대&nbsp;청년&nbsp;동행주택(LH&nbsp;협약·공실&nbsp;리모델링)&nbsp;및&nbsp;전·월세&nbsp;안심계약&nbsp;동행지원&nbsp;서비스<br>&nbsp;&nbsp;&nbsp;&nbsp;-로컬&nbsp;크리에이터&nbsp;창업&nbsp;인큐베이팅(낙동강·구포시장&nbsp;연계)<br>【중장년】<br>&nbsp;&nbsp;&nbsp;&nbsp;-N잡&nbsp;지원센터&nbsp;운영,&nbsp;신중년&nbsp;사회공헌&nbsp;일자리&nbsp;100명&nbsp;→&nbsp;200명&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-작은도서관&nbsp;강사&nbsp;일자리&nbsp;연계(중장년·지역&nbsp;예술인&nbsp;매칭)<br>【노년·돌봄】<br>&nbsp;&nbsp;&nbsp;&nbsp;-365일&nbsp;AI·디지털&nbsp;돌봄:&nbsp;AI&nbsp;근거리&nbsp;돌봄인력&nbsp;매칭&nbsp;+&nbsp;가정방문&nbsp;디지털&nbsp;인지&nbsp;재활&nbsp;+&nbsp;24시간&nbsp;무자각·비접촉&nbsp;센서링&nbsp;서비스<br>&nbsp;&nbsp;&nbsp;&nbsp;-돌봄&nbsp;SOS&nbsp;센터:&nbsp;신청&nbsp;후&nbsp;1시간&nbsp;내&nbsp;돌봄&nbsp;인력&nbsp;출동&nbsp;체계&nbsp;구축<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-2027년&nbsp;~&nbsp;임기&nbsp;내&nbsp;전&nbsp;생애&nbsp;체계&nbsp;완성<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-보건복지부·성평등가족부&nbsp;국고보조금&nbsp;및&nbsp;부산시&nbsp;매칭&nbsp;예산&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-AI&nbsp;학습&nbsp;플랫폼&nbsp;단체&nbsp;계약을&nbsp;통한&nbsp;비용&nbsp;절감(개인&nbsp;구독&nbsp;대비&nbsp;60~70%&nbsp;수준)<br>&nbsp;&nbsp;&nbsp;&nbsp;-교육부&nbsp;방과후&nbsp;돌봄&nbsp;예산&nbsp;연계&nbsp;및&nbsp;지역사회&nbsp;기업&nbsp;CSR&nbsp;협력<br>&nbsp;&nbsp;&nbsp;&nbsp;-노인일자리전문기관&nbsp;인력&nbsp;배치&nbsp;조정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	자영업자 희망회복 지원 ― 심폐소생기금 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="자영업자 희망회복 지원 ― 심폐소생기금 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;-지속적인&nbsp;경기침체로&nbsp;경영&nbsp;위기에&nbsp;처한&nbsp;북구&nbsp;자영업자의&nbsp;생존&nbsp;기반을&nbsp;지키고,&nbsp;폐업&nbsp;후에도&nbsp;재기할&nbsp;수&nbsp;있도록&nbsp;구청이&nbsp;직접&nbsp;지원하는&nbsp;촘촘한&nbsp;경영&nbsp;안전망&nbsp;구축<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-자영업자&nbsp;심폐소생기금&nbsp;조성:&nbsp;구청&nbsp;협약&nbsp;금융기관&nbsp;연계&nbsp;1%대&nbsp;소액&nbsp;긴급경영안정&nbsp;대출&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;-디지털&nbsp;마케팅&nbsp;지원:&nbsp;SNS&nbsp;홍보·배달앱&nbsp;입점&nbsp;컨설팅&nbsp;무료&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-일손&nbsp;지원:&nbsp;신중년&nbsp;사회공헌&nbsp;인력·노인일자리&nbsp;인력을&nbsp;영세&nbsp;자영업자&nbsp;매장에&nbsp;배치<br>&nbsp;&nbsp;&nbsp;&nbsp;-폐업&nbsp;희망지원&nbsp;서비스:&nbsp;폐업&nbsp;절차&nbsp;지원,&nbsp;재취업&nbsp;교육,&nbsp;새&nbsp;출발&nbsp;연계&nbsp;전&nbsp;과정&nbsp;동행<br>&nbsp;&nbsp;&nbsp;&nbsp;-골목쉼터(원목그늘벤치)&nbsp;조성을&nbsp;통해&nbsp;벤치면을&nbsp;자영업자&nbsp;전용&nbsp;홍보&nbsp;게시대&nbsp;운영<br>&nbsp;<br>□&nbsp;이행기간<br>【기금조성】&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-취임&nbsp;즉시&nbsp;기금&nbsp;운영조례&nbsp;제정&nbsp;착수,&nbsp;임기&nbsp;내&nbsp;50억&nbsp;기금조성&nbsp;<br>【디지털마케팅&nbsp;지원,&nbsp;골목쉼토&nbsp;조성&nbsp;통한&nbsp;자영업자&nbsp;홍보지원】<br>&nbsp;&nbsp;&nbsp;&nbsp;-2027년&nbsp;전면&nbsp;시행&nbsp;&nbsp;<br>【소액&nbsp;생계비&nbsp;대출,&nbsp;폐업지원서비스】&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-2028년&nbsp;전면&nbsp;시행<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-구청&nbsp;협약&nbsp;금융기관&nbsp;MOU&nbsp;체결을&nbsp;통한&nbsp;이차보전&nbsp;예산&nbsp;편성<br>&nbsp;&nbsp;&nbsp;&nbsp;-중소벤처기업부·부산시&nbsp;소상공인&nbsp;지원&nbsp;매칭&nbsp;예산&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-기존&nbsp;소상공인&nbsp;지원&nbsp;사업비&nbsp;재편·효율화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구비&nbsp;기금투자<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고향사랑기부제&nbsp;활성화를&nbsp;통한&nbsp;기금마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;CSR&nbsp;통한&nbsp;기금마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	어르신 무한일자리 책임제</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="어르신 무한일자리 책임제">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;-초고령&nbsp;가속화&nbsp;현상으로&nbsp;노인일자리&nbsp;증가&nbsp;수요가&nbsp;노인인구&nbsp;증가수요를&nbsp;따라&nbsp;가지&nbsp;못함에&nbsp;따라&nbsp;발생하는&nbsp;노인공공일자리&nbsp;탈락수요에&nbsp;대해&nbsp;다른&nbsp;일자리를&nbsp;이어주는&nbsp;‘무한일자리&nbsp;책임제’를&nbsp;실현하여&nbsp;노년의&nbsp;고립과&nbsp;빈곤을&nbsp;동시에&nbsp;해소<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-【공약1】AI&nbsp;근거리&nbsp;돌봄인력&nbsp;매칭&nbsp;+&nbsp;가정방문&nbsp;디지털&nbsp;인지재활&nbsp;+&nbsp;24시간&nbsp;무자각·비접촉&nbsp;센서링&nbsp;서비스&nbsp;통합&nbsp;운영을&nbsp;통해&nbsp;발생하는&nbsp;케어이코노미&nbsp;시장에&nbsp;필요한&nbsp;돌봄활동가&nbsp;수요&nbsp;→&nbsp;노인일자리&nbsp;탈락자&nbsp;연결매칭<br>&nbsp;&nbsp;&nbsp;&nbsp;☞&nbsp;디지털&nbsp;돌봄&nbsp;활동가&nbsp;양성<br>&nbsp;&nbsp;&nbsp;&nbsp;-노인일자리&nbsp;탈락&nbsp;어르신을&nbsp;N잡&nbsp;지원센터·신중년&nbsp;사회공헌&nbsp;일자리로&nbsp;연계<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-취임&nbsp;즉시&nbsp;돌봄SOS&nbsp;센터&nbsp;지정운영(관내&nbsp;2개소)&nbsp;및&nbsp;AI&nbsp;돌봄&nbsp;시스템&nbsp;구축&nbsp;착수&nbsp;→&nbsp;2027년&nbsp;전면&nbsp;운영<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-보건복지부&nbsp;노인돌봄&nbsp;국고보조금&nbsp;및&nbsp;부산시&nbsp;매칭&nbsp;예산&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-구청&nbsp;노인복지&nbsp;예산&nbsp;재편·디지털&nbsp;전환&nbsp;투자로&nbsp;효율화<br>&nbsp;&nbsp;&nbsp;&nbsp;-AI&nbsp;돌봄&nbsp;플랫폼&nbsp;운영기관&nbsp;모태펀드&nbsp;등의&nbsp;투자유치&nbsp;지원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	문화로 풍요로운 북구 ― 사회적 문화처방 플랫폼</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="문화로 풍요로운 북구 ― 사회적 문화처방 플랫폼">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;-기존&nbsp;유휴&nbsp;공간·민간&nbsp;시설을&nbsp;활용한&nbsp;거점형&nbsp;문화&nbsp;플랫폼을&nbsp;운영하고,&nbsp;구민이&nbsp;일상에서&nbsp;문화를&nbsp;누리는&nbsp;'슬세권&nbsp;문화&nbsp;환경'&nbsp;실현&nbsp;및&nbsp;유네스코&nbsp;글로벌&nbsp;학습&nbsp;도시&nbsp;네트워크&nbsp;가입&nbsp;추진<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-거점형&nbsp;문화향유&nbsp;플랫폼&nbsp;지정·운영:&nbsp;지역&nbsp;내&nbsp;유휴&nbsp;공간·민간&nbsp;시설을&nbsp;문화&nbsp;거점으로&nbsp;지정,&nbsp;예산&nbsp;절감과&nbsp;접근성&nbsp;동시&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-사회적&nbsp;문화처방전&nbsp;도입:&nbsp;외로움·육아&nbsp;스트레스·은퇴&nbsp;후&nbsp;상실감&nbsp;등을&nbsp;문화·예술로&nbsp;케어하는&nbsp;복지형&nbsp;문화&nbsp;서비스&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-북구형&nbsp;행복기본권&nbsp;보장:&nbsp;주민참여예산&nbsp;내&nbsp;문화&nbsp;분야&nbsp;신설&nbsp;+&nbsp;우리동네&nbsp;문화&nbsp;기획관&nbsp;제도&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-유네스코&nbsp;글로벌&nbsp;학습도시&nbsp;네트워크&nbsp;가입&nbsp;추진:&nbsp;2027년&nbsp;신청&nbsp;목표로&nbsp;북구의&nbsp;평생학습·공동체&nbsp;활동&nbsp;체계화<br>&nbsp;&nbsp;&nbsp;&nbsp;-1인&nbsp;1악기&nbsp;문화&nbsp;기본권:&nbsp;초등학생&nbsp;악기&nbsp;구입&nbsp;또는&nbsp;대여비·수강료&nbsp;바우처&nbsp;지급<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-2027년&nbsp;상반기&nbsp;내&nbsp;플랫폼&nbsp;거점&nbsp;지정&nbsp;+&nbsp;문화처방&nbsp;전면&nbsp;운영&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-2027년&nbsp;유네스코&nbsp;&nbsp;글로벌&nbsp;학습도시&nbsp;네트워크&nbsp;가입&nbsp;신청<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-문화체육관광부&nbsp;지역문화&nbsp;균형발전&nbsp;국고&nbsp;지원&nbsp;활용(문화한국&nbsp;2035&nbsp;연계)<br>&nbsp;&nbsp;&nbsp;&nbsp;-부산시&nbsp;문화도시&nbsp;사업&nbsp;예산&nbsp;매칭<br>&nbsp;&nbsp;&nbsp;&nbsp;-민간&nbsp;문화시설&nbsp;협약을&nbsp;통한&nbsp;공간&nbsp;비용&nbsp;절감,&nbsp;지역&nbsp;예술인&nbsp;매칭으로&nbsp;강사비&nbsp;최소화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	북구 생활인프라 완성 ― 함께 살기 편한 북구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="북구 생활인프라 완성 ― 함께 살기 편한 북구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;-교통·체육·상권·환경&nbsp;등&nbsp;구민의&nbsp;일상과&nbsp;직결된&nbsp;생활&nbsp;인프라를&nbsp;완성하고,&nbsp;반려동물·장애인&nbsp;등&nbsp;소외&nbsp;없는&nbsp;포용적&nbsp;생활&nbsp;환경&nbsp;구현<br>&nbsp;<br>□&nbsp;이행방법<br>【교통·환경】<br>&nbsp;&nbsp;&nbsp;&nbsp;-덕천역&nbsp;1번&nbsp;출구&nbsp;에스컬레이터&nbsp;조기&nbsp;완공(교통약자·고령&nbsp;주민&nbsp;이동권&nbsp;보장)<br>&nbsp;&nbsp;&nbsp;&nbsp;-강변도로&nbsp;과선교&nbsp;구간&nbsp;회차로&nbsp;조기&nbsp;준공<br>&nbsp;&nbsp;&nbsp;&nbsp;-덕천천(만덕천)&nbsp;악취&nbsp;해결:&nbsp;민관&nbsp;협의체&nbsp;즉시&nbsp;구성,&nbsp;원인&nbsp;규명&nbsp;후&nbsp;단계적&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-공유주차&nbsp;실시간&nbsp;플랫폼&nbsp;구축&nbsp;및&nbsp;골목주차난&nbsp;해소<br>【문화·체육·상권】<br>&nbsp;&nbsp;&nbsp;&nbsp;-덕천·만덕권역&nbsp;복합문화체육센터&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-백양체육관&nbsp;시설&nbsp;업그레이드<br>&nbsp;&nbsp;&nbsp;&nbsp;-금빛노을&nbsp;강변&nbsp;문화휴식&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-구포시장&nbsp;야시장&nbsp;활성화&nbsp;및&nbsp;덕천&nbsp;젊음의&nbsp;거리&nbsp;경관&nbsp;조성·문화&nbsp;상권&nbsp;활성화<br>【복지·공동체】<br>&nbsp;&nbsp;&nbsp;&nbsp;-반려동물&nbsp;안심&nbsp;의료&nbsp;체계&nbsp;구축(수의사회&nbsp;협약,&nbsp;진료비&nbsp;10~20%&nbsp;할인)<br>&nbsp;&nbsp;&nbsp;&nbsp;-장애인&nbsp;직업·권익&nbsp;안전망&nbsp;강화(발달장애인&nbsp;세이프가드·직업재활&nbsp;확대)<br>&nbsp;&nbsp;&nbsp;&nbsp;-자원봉사&nbsp;타임뱅크&nbsp;운영,&nbsp;골목쉼터(그늘벤치)&nbsp;조성<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-취임&nbsp;즉시&nbsp;착수&nbsp;사업(민관협의체·공유주차&nbsp;등)&nbsp;→&nbsp;2028년~임기내&nbsp;인프라&nbsp;단계적&nbsp;완성<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-국비·부산시비&nbsp;매칭을&nbsp;통한&nbsp;복합문화체육센터·에스컬레이터&nbsp;등&nbsp;대형&nbsp;사업비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-민간&nbsp;기업&nbsp;협약(반려동물&nbsp;의료비)&nbsp;및&nbsp;주민참여예산&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-기존&nbsp;구청&nbsp;예산&nbsp;재편·효율화로&nbsp;생활밀착형&nbsp;사업&nbsp;재원&nbsp;마련</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

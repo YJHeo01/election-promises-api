@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박세훈 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	시간주권이 회복되는 검단 교통 전면 재정비</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="시간주권이 회복되는 검단 교통 전면 재정비">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;단순히&nbsp;이동&nbsp;거리를&nbsp;줄이는&nbsp;것을&nbsp;넘어,&nbsp;구민들이&nbsp;가족과&nbsp;아침과&nbsp;저녁을&nbsp;함께하고&nbsp;온전히&nbsp;자신에게&nbsp;집중할&nbsp;수&nbsp;있는&nbsp;일상을&nbsp;지켜드리기&nbsp;위해&nbsp;꽉&nbsp;막힌&nbsp;검단의&nbsp;교통망을&nbsp;시원하게&nbsp;뚫겠습니다<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;서울&nbsp;지하철&nbsp;5호선&nbsp;검단&nbsp;연장&nbsp;조속&nbsp;추진&nbsp;:&nbsp;아라역,&nbsp;원당사거리역(가칭),&nbsp;신검단중앙역&nbsp;등&nbsp;3개&nbsp;역을&nbsp;유치하여&nbsp;서울&nbsp;접근성을&nbsp;획기적으로&nbsp;개선하겠습니다.<br>&nbsp;&nbsp;○&nbsp;광역&nbsp;철도망&nbsp;완수&nbsp;및&nbsp;유치&nbsp;:&nbsp;GTX-D&nbsp;노선을&nbsp;차질&nbsp;없이&nbsp;완수하고,&nbsp;대장·홍대선을&nbsp;검단으로&nbsp;유치하여&nbsp;사통팔달&nbsp;교통망을&nbsp;구축하겠습니다<br>&nbsp;&nbsp;○&nbsp;인천&nbsp;지하철&nbsp;네트워크&nbsp;강화&nbsp;:&nbsp;인천&nbsp;1호선&nbsp;100역&nbsp;신설&nbsp;및&nbsp;1·2호선&nbsp;환승역(신검단중앙역)을&nbsp;조성하고,&nbsp;인천&nbsp;3호선의&nbsp;조기&nbsp;착공을&nbsp;추진하겠습니다.<br>&nbsp;&nbsp;○&nbsp;대중교통&nbsp;서비스&nbsp;확대&nbsp;:&nbsp;출퇴근&nbsp;편의를&nbsp;위해&nbsp;M버스&nbsp;노선을&nbsp;현재보다&nbsp;2배&nbsp;확장하여&nbsp;운영하겠습니다.&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;유정복&nbsp;인천광역시장&nbsp;후보&nbsp;공약사업과&nbsp;연계하여&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;07&nbsp;~&nbsp;2030.&nbsp;06<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국,&nbsp;시비&nbsp;및&nbsp;일부&nbsp;구비&nbsp;포함</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	검단 거주는 삶의 큰 스펙(글로벌 교육 특화 도시 조성)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="검단 거주는 삶의 큰 스펙(글로벌 교육 특화 도시 조성)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;검단에서&nbsp;대학까지&nbsp;졸업할&nbsp;수&nbsp;있는&nbsp;독보적인&nbsp;글로벌&nbsp;교육&nbsp;환경을&nbsp;조성하여,&nbsp;우리&nbsp;아이들이&nbsp;스스로의&nbsp;삶을&nbsp;주도하는&nbsp;글로벌&nbsp;인재로&nbsp;성장할&nbsp;토양을&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;인재&nbsp;양성을&nbsp;위한&nbsp;특목고&nbsp;유치&nbsp;:&nbsp;검단출신의&nbsp;우수한&nbsp;인재들이&nbsp;지역&nbsp;내에서&nbsp;전문적인&nbsp;교육을&nbsp;받을&nbsp;수&nbsp;있도록&nbsp;특수목적고등학교&nbsp;유치를&nbsp;적극&nbsp;추진하겠습니다.<br>&nbsp;&nbsp;○&nbsp;아라&nbsp;영어교육특구&nbsp;지정&nbsp;:&nbsp;검단만의&nbsp;차별화된&nbsp;영어&nbsp;교육&nbsp;환경을&nbsp;조성하여&nbsp;아이들이&nbsp;넓은&nbsp;세계를&nbsp;꿈&nbsp;꿀&nbsp;수&nbsp;있는&nbsp;토양을&nbsp;만들겠습니다.<br>&nbsp;&nbsp;○&nbsp;해외&nbsp;명문&nbsp;대학&nbsp;연계&nbsp;프로그램(IPGS)&nbsp;시행&nbsp;:&nbsp;뉴욕주립대,&nbsp;조지메이슨대,&nbsp;겐트대학교와&nbsp;연계한&nbsp;인천&nbsp;글로벌캠퍼스&nbsp;교육&nbsp;커리큘럼을&nbsp;도입하여&nbsp;검단에서&nbsp;세계&nbsp;최고&nbsp;수준의&nbsp;교육을&nbsp;경험하게&nbsp;하겠습니다.<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;인재&nbsp;육성기금&nbsp;조성&nbsp;:&nbsp;인재&nbsp;양성을&nbsp;위한&nbsp;기금을&nbsp;마련하여&nbsp;인천&nbsp;글로벌캠퍼스&nbsp;대학&nbsp;등록금의&nbsp;50%&nbsp;지원을&nbsp;추진하겠습니다.<br>&nbsp;&nbsp;○&nbsp;검단형&nbsp;교육&nbsp;복지&nbsp;인프라&nbsp;구축&nbsp;:&nbsp;과밀학급&nbsp;문제를&nbsp;해소하고,&nbsp;고교학점제&nbsp;및&nbsp;수시&nbsp;컨설팅을&nbsp;지원하는&nbsp;‘구립&nbsp;자기주도삭습센터’와&nbsp;천원&nbsp;스터디&nbsp;카페를&nbsp;운영하겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;준비&nbsp;및&nbsp;시범실시(2026.&nbsp;07&nbsp;~&nbsp;2028.&nbsp;06)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;각&nbsp;학교&nbsp;및&nbsp;기관과&nbsp;업무협약&nbsp;및&nbsp;필요한&nbsp;시설&nbsp;및&nbsp;인력&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;전면실시(2028.&nbsp;07&nbsp;~)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국,&nbsp;시비&nbsp;및&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	생명을 지키는 방벽(의료 안전 및 생명 존중 시스템)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="생명을 지키는 방벽(의료 안전 및 생명 존중 시스템)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;증가하는&nbsp;검단구의&nbsp;의료&nbsp;수요를&nbsp;충족하고,&nbsp;구민의&nbsp;골든타임과&nbsp;모든&nbsp;생명을&nbsp;존중하는&nbsp;안심&nbsp;도시를&nbsp;만듭니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;상급종합병원&nbsp;조속&nbsp;유치&nbsp;:&nbsp;소아&nbsp;응급실을&nbsp;포함한&nbsp;상급종합병원을&nbsp;유치하여,&nbsp;검단&nbsp;내&nbsp;고품격&nbsp;의료망을&nbsp;확보하겠습니다.<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기반&nbsp;골든타임&nbsp;확보&nbsp;:&nbsp;긴급&nbsp;환자가&nbsp;발생했을&nbsp;때&nbsp;AI&nbsp;교통신호&nbsp;시스템을&nbsp;가동하여&nbsp;어디서든&nbsp;15분&nbsp;이내에&nbsp;병원에&nbsp;도착할&nbsp;수&nbsp;있는&nbsp;스마트&nbsp;의료&nbsp;신호&nbsp;체계를&nbsp;구축하겠습니다.<br>&nbsp;&nbsp;○&nbsp;생명&nbsp;존중&nbsp;복지&nbsp;실현&nbsp;:&nbsp;구립&nbsp;요양시설&nbsp;신설을&nbsp;통해&nbsp;어르신&nbsp;돌봄을&nbsp;강화하고,&nbsp;반려인들을&nbsp;위한&nbsp;구립&nbsp;반려동물&nbsp;공공&nbsp;진료&nbsp;및&nbsp;테마공원&nbsp;조성을&nbsp;통해&nbsp;사람과&nbsp;동물이&nbsp;공존하는&nbsp;품격있는&nbsp;도시를&nbsp;지향하겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;07&nbsp;~&nbsp;2030.&nbsp;06<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국,&nbsp;시비&nbsp;및&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	온 가족이 행복한 ‘검단형 맞춤 돌봄ㆍ복지’ 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="온 가족이 행복한 ‘검단형 맞춤 돌봄ㆍ복지’ 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;아이부터&nbsp;어르신까지,&nbsp;그리고&nbsp;소중한&nbsp;반려동물까지&nbsp;검단구민의&nbsp;모든&nbsp;일상을&nbsp;국가와&nbsp;지자체가&nbsp;세심하게&nbsp;책임지는&nbsp;따뜻한&nbsp;복지&nbsp;도시를&nbsp;만듭니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;검단형&nbsp;4대&nbsp;구립센터&nbsp;구축&nbsp;:&nbsp;조ㆍ석식&nbsp;셔틀을&nbsp;지원하는&nbsp;‘아이&nbsp;잘있어(돌봄센터),&nbsp;수영장과&nbsp;도서관을&nbsp;갖춘&nbsp;‘아이&nbsp;사랑해(문화체육센터)’&nbsp;학습&nbsp;컨설팅을&nbsp;제공하는&nbsp;‘아이&nbsp;똑똑해(자기주도학습센터)’,&nbsp;육아용품을&nbsp;대여해주는&nbsp;‘천원&nbsp;토이샵’을&nbsp;설립합니다.<br>&nbsp;&nbsp;○&nbsp;촘촘한&nbsp;생애주기별&nbsp;복지&nbsp;:&nbsp;구립&nbsp;요양시설을&nbsp;신설하고&nbsp;노인&nbsp;복지관의&nbsp;통합&nbsp;돌봄&nbsp;기능을&nbsp;강화하며,&nbsp;여성ㆍ노인ㆍ청년을&nbsp;위한&nbsp;‘일자리&nbsp;주식회사’를&nbsp;설립하여&nbsp;경제적&nbsp;자립을&nbsp;돕습니다.<br>&nbsp;&nbsp;○&nbsp;반려동물&nbsp;및&nbsp;생활&nbsp;밀착&nbsp;지원&nbsp;:&nbsp;반려동물&nbsp;공공&nbsp;진료를&nbsp;확대하고&nbsp;반려동물&nbsp;공원을&nbsp;조성하며,&nbsp;환경부담금&nbsp;환원을&nbsp;통해&nbsp;종량제봉투를&nbsp;무상으로&nbsp;지급하는&nbsp;등&nbsp;생활&nbsp;밀착형&nbsp;복지를&nbsp;실천합니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;07&nbsp;~&nbsp;2030.&nbsp;06<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국,&nbsp;시비&nbsp;및&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	세계의 문화를 검단으로, 검단의 문화는 세계로</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="세계의 문화를 검단으로, 검단의 문화는 세계로">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;검단의&nbsp;고유한&nbsp;자산과&nbsp;글로벌&nbsp;문화를&nbsp;융합하여&nbsp;구민의&nbsp;일상이&nbsp;예술이&nbsp;되고,&nbsp;세계인이&nbsp;찾아오는&nbsp;명품&nbsp;문화도시를&nbsp;만듭니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;문화&nbsp;거점&nbsp;확보&nbsp;:&nbsp;인천국제영화제를&nbsp;유치하고&nbsp;북부권&nbsp;문화예술회관을&nbsp;건립하여&nbsp;검단을&nbsp;인천&nbsp;문화예술의&nbsp;새로운&nbsp;중심지로&nbsp;세우겠습니다.<br>&nbsp;&nbsp;○&nbsp;검단형&nbsp;베네치아&nbsp;조성&nbsp;:&nbsp;검단의&nbsp;모든&nbsp;하천을&nbsp;아라뱃길과&nbsp;연결하고,&nbsp;수변&nbsp;공간을&nbsp;활용한&nbsp;‘검단형&nbsp;베네치아’를&nbsp;구축하여&nbsp;차별화된&nbsp;관광&nbsp;자원을&nbsp;확보하겠습니다.<br>&nbsp;&nbsp;○&nbsp;역사ㆍ문화ㆍ관광ㆍ벨트&nbsp;구축&nbsp;:&nbsp;호수공원을&nbsp;중심으로&nbsp;문화ㆍ소비ㆍ관광&nbsp;벨트를&nbsp;구성하고,&nbsp;검단&nbsp;선사박물관을&nbsp;조기에&nbsp;건립하여&nbsp;과거와&nbsp;미래가&nbsp;공존하는&nbsp;명소를&nbsp;만들겠습니다.<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;이벤트&nbsp;유치&nbsp;:&nbsp;ECO-EXPO를&nbsp;유치하여&nbsp;친환경&nbsp;도시&nbsp;이미지를&nbsp;전&nbsp;세계에&nbsp;알리고&nbsp;도시의&nbsp;품격을&nbsp;높이겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;07&nbsp;~&nbsp;2030.&nbsp;06<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국,&nbsp;시비&nbsp;및&nbsp;구비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

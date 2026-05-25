@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;최대호 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	위례과천선 및 서울서부선의 안양권 연장</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="위례과천선 및 서울서부선의 안양권 연장">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>위례과천선(과천정부청사~위례)과&nbsp;서울서부선(새절~서울대입구)의&nbsp;안양권&nbsp;연장을&nbsp;적기에&nbsp;추진하여&nbsp;안양시를&nbsp;수도권&nbsp;8개&nbsp;철도&nbsp;노선이&nbsp;교차하는&nbsp;서남권&nbsp;광역교통의&nbsp;핵심&nbsp;거점으로&nbsp;도약시키고,&nbsp;특히&nbsp;서울서부선&nbsp;연장을&nbsp;통해&nbsp;대학&nbsp;밀집&nbsp;노선의&nbsp;특성을&nbsp;살린&nbsp;피지컬&nbsp;AI&nbsp;분야의&nbsp;산학협력&nbsp;생태계를&nbsp;구축하여&nbsp;도시&nbsp;경쟁력을&nbsp;강화함<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;·&nbsp;'안양권&nbsp;철도망&nbsp;구축계획&nbsp;수립&nbsp;용역'&nbsp;결과를&nbsp;바탕으로&nbsp;기술적&nbsp;타당성과&nbsp;경제성(B/C)이&nbsp;확보된&nbsp;최적&nbsp;노선안을&nbsp;확정함<br>&nbsp;&nbsp;·&nbsp;국토교통부의&nbsp;'제5차&nbsp;국가철도망&nbsp;구축계획'에&nbsp;해당&nbsp;연장&nbsp;노선이&nbsp;반영되도록&nbsp;경기도&nbsp;및&nbsp;유관&nbsp;지자체와&nbsp;공동&nbsp;대응함<br>&nbsp;&nbsp;·&nbsp;서울서부선&nbsp;연장&nbsp;시&nbsp;관악산&nbsp;관통&nbsp;구간의&nbsp;환경&nbsp;영향을&nbsp;최소화하는&nbsp;공법을&nbsp;검토하고,&nbsp;주요&nbsp;대학들과&nbsp;피지컬&nbsp;AI&nbsp;산학협력&nbsp;거점을&nbsp;연계함<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2023.&nbsp;03.&nbsp;~&nbsp;(진행&nbsp;중)<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;·&nbsp;총&nbsp;소요예산:&nbsp;위례과천선&nbsp;연장(약&nbsp;1조&nbsp;9,356억&nbsp;원)+서울서부선&nbsp;연장(약&nbsp;1조&nbsp;688억&nbsp;원)<br>&nbsp;&nbsp;·&nbsp;조달&nbsp;방식:&nbsp;국비&nbsp;70%,&nbsp;지방비&nbsp;30%&nbsp;분담</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	박달스마트시티 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="박달스마트시티 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>안양시&nbsp;만안구&nbsp;박달동&nbsp;일원의&nbsp;노후&nbsp;군&nbsp;시설을&nbsp;지하화·현대화하여&nbsp;장기간&nbsp;정체된&nbsp;지역&nbsp;발전을&nbsp;가속화하고,&nbsp;탄약시설&nbsp;지하화로&nbsp;확보된&nbsp;지상&nbsp;부지에&nbsp;AI&nbsp;특화단지&nbsp;중심의&nbsp;산업과&nbsp;주거가&nbsp;어우러진&nbsp;복합&nbsp;도시를&nbsp;조성함으로써&nbsp;만안구의&nbsp;지속&nbsp;가능한&nbsp;성장과&nbsp;'피지컬&nbsp;AI&nbsp;중심도시'로의&nbsp;도약을&nbsp;실현함<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;·국방부와&nbsp;체결한&nbsp;합의각서를&nbsp;바탕으로&nbsp;탄약고&nbsp;등&nbsp;군사시설을&nbsp;최첨단&nbsp;안전시스템을&nbsp;구비한&nbsp;지하&nbsp;대체시설로&nbsp;건립하여&nbsp;기부함<br>&nbsp;&nbsp;·&nbsp;양여받은&nbsp;부지(약&nbsp;328만㎡)에&nbsp;삼성증권컨소시엄&nbsp;등&nbsp;민간&nbsp;참여자와&nbsp;협력하여&nbsp;첨단&nbsp;산업단지와&nbsp;고품격&nbsp;주거단지를&nbsp;조성함<br>&nbsp;&nbsp;·&nbsp;안양도시공사를&nbsp;중심으로&nbsp;한&nbsp;공공과&nbsp;민간의&nbsp;전략적&nbsp;파트너십을&nbsp;통해&nbsp;개발&nbsp;이익의&nbsp;지역사회&nbsp;환원&nbsp;체계를&nbsp;구축함<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2019.&nbsp;~&nbsp;2033.&nbsp;(2025년&nbsp;설계&nbsp;착수&nbsp;및&nbsp;단계적&nbsp;공사&nbsp;진행)<br><br>□&nbsp;재원조달방안<br>총&nbsp;사업비&nbsp;약&nbsp;2조&nbsp;2,000억&nbsp;원.&nbsp;공공(51%)과&nbsp;민간(49%)이&nbsp;분담하는&nbsp;구조로&nbsp;추진하며,&nbsp;공공&nbsp;부담분&nbsp;중&nbsp;일부는&nbsp;경기도비&nbsp;지원을&nbsp;통해&nbsp;확보함</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	안양권 경부선철도 지하화 및 지상공간 복합개발</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="안양권 경부선철도 지하화 및 지상공간 복합개발">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>안양시를&nbsp;남북으로&nbsp;관통하며&nbsp;도심을&nbsp;단절시켜&nbsp;온&nbsp;경부선&nbsp;철도&nbsp;구간(석수~명학,&nbsp;7.5km)을&nbsp;지하화하여&nbsp;소음과&nbsp;안전&nbsp;문제를&nbsp;근본적으로&nbsp;해결하고,&nbsp;확보된&nbsp;지상&nbsp;유휴&nbsp;부지를&nbsp;대규모&nbsp;녹지&nbsp;공간&nbsp;및&nbsp;신성장&nbsp;거점으로&nbsp;통합&nbsp;개발함으로써&nbsp;단절된&nbsp;도시를&nbsp;하나로&nbsp;잇고&nbsp;시민들에게&nbsp;쾌적한&nbsp;도심&nbsp;환경과&nbsp;미래형&nbsp;도시&nbsp;공간을&nbsp;선사함<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;·&nbsp;'철도&nbsp;지하화&nbsp;및&nbsp;철도부지&nbsp;통합개발에&nbsp;관한&nbsp;특별법'에&nbsp;근거하여&nbsp;국토교통부의&nbsp;선도사업&nbsp;구역으로&nbsp;최종&nbsp;선정될&nbsp;수&nbsp;있도록&nbsp;경기도와&nbsp;함께&nbsp;행정력을&nbsp;집중함<br>&nbsp;&nbsp;·&nbsp;석수·관악·안양·명학역&nbsp;일대&nbsp;상부&nbsp;공간(약&nbsp;49만㎡)에&nbsp;대한&nbsp;'지상공간&nbsp;통합개발&nbsp;<br>&nbsp;&nbsp;·&nbsp;기본계획'을&nbsp;수립하여&nbsp;랜드마크&nbsp;조성&nbsp;및&nbsp;신성장&nbsp;동력을&nbsp;확보함<br>&nbsp;&nbsp;·&nbsp;지하화&nbsp;공사&nbsp;중&nbsp;시민&nbsp;불편을&nbsp;최소화하기&nbsp;위한&nbsp;단계별&nbsp;시공&nbsp;계획을&nbsp;수립하고&nbsp;인근&nbsp;지자체와&nbsp;공동&nbsp;대응&nbsp;기구&nbsp;운영을&nbsp;강화함<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2024.&nbsp;~&nbsp;2035.&nbsp;(선도사업&nbsp;선정&nbsp;및&nbsp;특별법&nbsp;기반&nbsp;추진)<br><br>□&nbsp;재원조달방안<br>약&nbsp;7조&nbsp;3,000억&nbsp;원&nbsp;규모.&nbsp;'철도&nbsp;지하화&nbsp;및&nbsp;철도부지&nbsp;통합개발에&nbsp;관한&nbsp;특별법'에&nbsp;의거하여&nbsp;상부&nbsp;부지&nbsp;개발&nbsp;수익금을&nbsp;주요&nbsp;재원으로&nbsp;활용하는&nbsp;수익형&nbsp;모델로&nbsp;추진함</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	평촌신도시, 명품 신도시로 재탄생</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="평촌신도시, 명품 신도시로 재탄생">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>조성&nbsp;후&nbsp;30년이&nbsp;경과하여&nbsp;노후화된&nbsp;평촌신도시를&nbsp;'노후계획도시&nbsp;정비&nbsp;특별법'에&nbsp;따라&nbsp;자족&nbsp;기능과&nbsp;활력을&nbsp;갖춘&nbsp;스마트&nbsp;명품&nbsp;신도시로&nbsp;재창조하며,&nbsp;노후&nbsp;아파트&nbsp;정비를&nbsp;넘어&nbsp;급변하는&nbsp;미래&nbsp;주거&nbsp;환경에&nbsp;대응하는&nbsp;도시&nbsp;인프라&nbsp;확충과&nbsp;주거&nbsp;만족도&nbsp;극대화를&nbsp;통해&nbsp;안양의&nbsp;새로운&nbsp;100년을&nbsp;이끌&nbsp;명품&nbsp;주거&nbsp;단지를&nbsp;구축함<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;·&nbsp;'노후계획도시&nbsp;정비&nbsp;특별법'에&nbsp;따라&nbsp;지정된&nbsp;선도지구를&nbsp;필두로&nbsp;연차별&nbsp;정비&nbsp;물량을&nbsp;배정하여&nbsp;이주&nbsp;수요를&nbsp;관리하고&nbsp;신속한&nbsp;재정비를&nbsp;추진함<br>&nbsp;&nbsp;·&nbsp;기준&nbsp;용적률을&nbsp;330%로&nbsp;상향하여&nbsp;자족&nbsp;기능을&nbsp;위한&nbsp;산업·상업&nbsp;공간을&nbsp;확보하고,&nbsp;인구&nbsp;22만&nbsp;명&nbsp;수용에&nbsp;최적화된&nbsp;기반시설을&nbsp;확충함<br>&nbsp;&nbsp;·&nbsp;통합&nbsp;정비&nbsp;구역별로&nbsp;주민&nbsp;합의를&nbsp;지원하는&nbsp;컨설팅&nbsp;기구를&nbsp;운영하고,&nbsp;경기도의&nbsp;&nbsp;신속한&nbsp;인허가&nbsp;승인을&nbsp;위한&nbsp;사전&nbsp;협의&nbsp;체계를&nbsp;가동함<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2024.&nbsp;~&nbsp;2035.&nbsp;(선도지구&nbsp;착공&nbsp;및&nbsp;순차적&nbsp;정비)<br><br>□&nbsp;재원조달방안<br>민간&nbsp;주도&nbsp;개발&nbsp;방식(조합&nbsp;등)으로&nbsp;추진하며,&nbsp;공공은&nbsp;특별법에&nbsp;따른&nbsp;기반시설&nbsp;설치&nbsp;지원&nbsp;및&nbsp;허가&nbsp;관리를&nbsp;담당하여&nbsp;직접적&nbsp;재원&nbsp;부담을&nbsp;최소화함</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	안양천 국가정원 승격</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="안양천 국가정원 승격">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>의왕에서&nbsp;한강까지&nbsp;이어지는&nbsp;안양천(28.8km)&nbsp;구간을&nbsp;경기·서울권&nbsp;8개&nbsp;지자체와&nbsp;협력하여&nbsp;수도권&nbsp;대표&nbsp;친환경&nbsp;생태&nbsp;휴식&nbsp;공간으로&nbsp;조성하고,&nbsp;2030년까지&nbsp;국가정원&nbsp;지정을&nbsp;완료하여&nbsp;안양천의&nbsp;생태적&nbsp;가치를&nbsp;국가적&nbsp;수준으로&nbsp;격상시킴으로써&nbsp;시민들에게&nbsp;차별화된&nbsp;수변&nbsp;문화&nbsp;혜택을&nbsp;제공하고&nbsp;도시&nbsp;브랜드&nbsp;가치를&nbsp;제고함<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;·&nbsp;경기권&nbsp;4개&nbsp;시(안양·광명·군포·의왕)&nbsp;공동&nbsp;협의체를&nbsp;통해&nbsp;지방정원을&nbsp;먼저&nbsp;조성하고,&nbsp;지역별&nbsp;특성화&nbsp;정원(안양:&nbsp;교감·향기정원&nbsp;등)을&nbsp;구축함<br>&nbsp;&nbsp;·&nbsp;지방정원&nbsp;운영을&nbsp;통해&nbsp;생태적&nbsp;우수성을&nbsp;검증받은&nbsp;후,&nbsp;2030년까지&nbsp;산림청에&nbsp;국가정원&nbsp;승격을&nbsp;공식&nbsp;신청함<br>&nbsp;&nbsp;·&nbsp;홍수&nbsp;시&nbsp;침수&nbsp;피해를&nbsp;예방할&nbsp;수&nbsp;있는&nbsp;복구형&nbsp;식생을&nbsp;도입하고,&nbsp;서울권&nbsp;지자체와&nbsp;연계한&nbsp;안양천&nbsp;전체&nbsp;구간의&nbsp;생태&nbsp;연계망을&nbsp;완성함<br>&nbsp;<br>□&nbsp;이행기간&nbsp;:&nbsp;2024.&nbsp;~&nbsp;2030.&nbsp;(2030&nbsp;국가정원&nbsp;신청&nbsp;목표)<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;·&nbsp;지방정원&nbsp;조성을&nbsp;위해&nbsp;경기&nbsp;4개&nbsp;시가&nbsp;100억&nbsp;원을&nbsp;공동&nbsp;투입함<br>&nbsp;&nbsp;·&nbsp;국가정원&nbsp;승격&nbsp;이후에는&nbsp;국비를&nbsp;확보하여&nbsp;대규모&nbsp;운영&nbsp;관리&nbsp;및&nbsp;시설&nbsp;확충을&nbsp;추진함</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;한왕기 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	군민의 안정적인 기본소득 기반 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="군민의 안정적인 기본소득 기반 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;군민의&nbsp;균등&nbsp;기본소득사업을&nbsp;구축하여&nbsp;지역소멸&nbsp;위기&nbsp;극복&nbsp;및&nbsp;일자리&nbsp;다양화로&nbsp;인구유입&nbsp;기대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;평창형&nbsp;농어촌&nbsp;기본소득사업&nbsp;공모사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;신재생에너지&nbsp;햇빛소득(태양광),&nbsp;바람소득(풍력)&nbsp;주민참여제&nbsp;실시<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;~&nbsp;계속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기본소득사업&nbsp;기본계획&nbsp;수립&nbsp;:&nbsp;2026.&nbsp;7.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌&nbsp;기본소득사업&nbsp;공모&nbsp;:&nbsp;2027.&nbsp;1.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신재생에너지&nbsp;소득사업&nbsp;지역&nbsp;선정&nbsp;및&nbsp;추진&nbsp;:&nbsp;2027.&nbsp;1.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;+&nbsp;도비&nbsp;+&nbsp;군비&nbsp;+&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	서울대학교 평창분원 및 그린바이오 신산업단지 유치 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="서울대학교 평창분원 및 그린바이오 신산업단지 유치 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;평창거점&nbsp;지역의료센터를&nbsp;유치하여&nbsp;군민&nbsp;의료격차&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;서울대학교&nbsp;평창캠퍼스&nbsp;내&nbsp;그린바이오&nbsp;신산업단지를&nbsp;조성하여&nbsp;인구&nbsp;유입&nbsp;3만명으로&nbsp;7만&nbsp;인구시대&nbsp;달성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;서울대학교병원&nbsp;협의&nbsp;평창분원&nbsp;설치에&nbsp;따른&nbsp;행정지원<br>&nbsp;&nbsp;○&nbsp;그린바이오&nbsp;신산업단지&nbsp;조성을&nbsp;위한&nbsp;국토계획&nbsp;변경&nbsp;등&nbsp;행정지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;~&nbsp;2030.&nbsp;6.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울대학교병원&nbsp;평창분원&nbsp;설치&nbsp;협의&nbsp;:&nbsp;2026.&nbsp;7.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울대학교병원&nbsp;평창분원&nbsp;설치&nbsp;장소&nbsp;선정&nbsp;등&nbsp;본격&nbsp;추진&nbsp;:&nbsp;2027.&nbsp;7.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;그린바이오&nbsp;신산업단지&nbsp;조성에&nbsp;따른&nbsp;국토계획&nbsp;변경&nbsp;수립&nbsp;:&nbsp;2027.&nbsp;1.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;그린바이오&nbsp;신산업단지&nbsp;입주기업&nbsp;선정&nbsp;:&nbsp;2028.&nbsp;1.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;+&nbsp;도비&nbsp;+&nbsp;군비&nbsp;+&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	예산1조시대 완성으로 평창경제 대전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="예산1조시대 완성으로 평창경제 대전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;혁신적인&nbsp;농업&nbsp;생산기반&nbsp;확충&nbsp;및&nbsp;판로지원으로&nbsp;농업인&nbsp;소득을&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;스포츠를&nbsp;접목한&nbsp;관광지점&nbsp;육성(북부권)과&nbsp;산림&nbsp;및&nbsp;천연자원을&nbsp;활용한&nbsp;힐링과&nbsp;치유관광(남부권)으로&nbsp;관광산업&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;고령화&nbsp;및&nbsp;노동력&nbsp;문제&nbsp;해결을&nbsp;위한&nbsp;농기계&nbsp;지원,&nbsp;스마트팜&nbsp;확대,&nbsp;신기술&nbsp;시범사업&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;농산물&nbsp;온라인&nbsp;쇼핑몰&nbsp;지원을&nbsp;위한&nbsp;SNS등&nbsp;전담팀&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;재래시장&nbsp;활성화&nbsp;방안&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;장암산&nbsp;하늘자연휴양림&nbsp;모노레일&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;4계절&nbsp;가능&nbsp;동계&nbsp;스포츠&nbsp;시설&nbsp;사업&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027.&nbsp;1.&nbsp;~&nbsp;계속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민선9기&nbsp;농업인&nbsp;지원&nbsp;기본계획&nbsp;수립&nbsp;:&nbsp;2027.&nbsp;1.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;지원을&nbsp;위한&nbsp;종합계획&nbsp;수립&nbsp;:&nbsp;2027.&nbsp;1.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;평창군&nbsp;문화관광&nbsp;발전을&nbsp;위한&nbsp;기본계획&nbsp;수립&nbsp;:&nbsp;2027.&nbsp;1.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;+&nbsp;도비&nbsp;+&nbsp;군비&nbsp;+&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	평생안심 복지체계 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="평생안심 복지체계 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;임신에서&nbsp;육아,&nbsp;청소년,&nbsp;어르신까지&nbsp;돌봄의&nbsp;공공성&nbsp;강화를&nbsp;통해&nbsp;군민&nbsp;삶의&nbsp;질&nbsp;향상<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;평창형&nbsp;청소년&nbsp;돌봄&nbsp;체계&nbsp;구축&nbsp;및&nbsp;교육시스템&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;산모&nbsp;안전지원금,&nbsp;육아용품&nbsp;지원,&nbsp;군립산후조리원&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;관리&nbsp;전담팀&nbsp;신설,&nbsp;의료,&nbsp;복지,&nbsp;일상생활&nbsp;지원과&nbsp;맞춤형&nbsp;일자리&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;다문화&nbsp;가정과&nbsp;군민가족&nbsp;건강증진을&nbsp;위한&nbsp;평창군가족센터&nbsp;건립<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027.&nbsp;1.&nbsp;~&nbsp;계속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;평창형&nbsp;청소년&nbsp;돌봄&nbsp;기본계획&nbsp;수립&nbsp;:&nbsp;2027.&nbsp;1.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;관리&nbsp;전담팀&nbsp;신설&nbsp;:&nbsp;2027.&nbsp;1.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군립산후조리원,&nbsp;평창군가족센터&nbsp;건립&nbsp;예산&nbsp;확보&nbsp;:&nbsp;2027.&nbsp;1.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;+&nbsp;도비&nbsp;+&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	올림픽 유산시설을 활용한 동계스포츠 활성화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="올림픽 유산시설을 활용한 동계스포츠 활성화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;올림픽&nbsp;유산을&nbsp;기반으로&nbsp;평창의&nbsp;브랜드&nbsp;가치를&nbsp;세계적으로&nbsp;확장하고&nbsp;지역발전의&nbsp;새로운&nbsp;도약의&nbsp;기회로&nbsp;삼고자&nbsp;함.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;IOC&nbsp;및&nbsp;UN&nbsp;등&nbsp;국제기구&nbsp;협력으로&nbsp;평창평화포럼&nbsp;평화유산의&nbsp;제도화<br>&nbsp;&nbsp;○&nbsp;경기장&nbsp;시설의&nbsp;복합&nbsp;문화&nbsp;·&nbsp;레저&nbsp;공간&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;동계스포츠의&nbsp;저변&nbsp;지속&nbsp;확대를&nbsp;위한&nbsp;국제&nbsp;동계스포츠&nbsp;대회&nbsp;유치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;~&nbsp;계속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;평창평화포럼&nbsp;개최&nbsp;계획&nbsp;수립&nbsp;:&nbsp;2027.&nbsp;1.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;올림픽&nbsp;경기시설&nbsp;복합&nbsp;문화&nbsp;·&nbsp;레저&nbsp;조성&nbsp;추진계획&nbsp;수립&nbsp;:&nbsp;2027.&nbsp;1.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국제&nbsp;스포츠&nbsp;행사&nbsp;유치계획&nbsp;수립&nbsp;:&nbsp;2027.&nbsp;1.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;+&nbsp;도비&nbsp;+&nbsp;군비&nbsp;+&nbsp;민자</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;정재현 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	상주형 생활안정지원금 지급</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="상주형 생활안정지원금 지급">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목&nbsp;표<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;전&nbsp;시민의&nbsp;생활&nbsp;안정&nbsp;도모<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;경제&nbsp;활성화&nbsp;및&nbsp;소비&nbsp;촉진<br>&nbsp;&nbsp;○&nbsp;취약계층(장애인)&nbsp;추가&nbsp;지원을&nbsp;통한&nbsp;복지&nbsp;형평성&nbsp;제고<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;내&nbsp;자금&nbsp;순환으로&nbsp;상주시&nbsp;경제&nbsp;자립력&nbsp;강화<br>&nbsp;&nbsp;<br>&nbsp;■&nbsp;이행방법<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;상주시&nbsp;전&nbsp;시민에게&nbsp;지급&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;1인당&nbsp;100만원&nbsp;(장애인은&nbsp;120만원)<br>&nbsp;&nbsp;○&nbsp;상주화폐로&nbsp;지급(상주&nbsp;외&nbsp;지역&nbsp;사용불가)<br>&nbsp;&nbsp;&nbsp;<br>&nbsp;■&nbsp;이행기간<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;2026.08&nbsp;~&nbsp;2026.12<br>&nbsp;&nbsp;&nbsp;<br>&nbsp;■&nbsp;재원조달방안&nbsp;등<br>&nbsp;<br>&nbsp;&nbsp;○&nbsp;약950억원이&nbsp;필요<br>&nbsp;&nbsp;○&nbsp;순세계잉여금&nbsp;활용&nbsp;또는&nbsp;통합청사건립기금&nbsp;조례&nbsp;폐지</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	경천섬 · 경천대 · 낙동강 국가정원 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="경천섬 · 경천대 · 낙동강 국가정원 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목&nbsp;표<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;경천섬·경천대·낙동강&nbsp;일대를&nbsp;국가정원으로&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;상주시를&nbsp;대한민국&nbsp;최고의&nbsp;강변&nbsp;관광도시로&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;관광&nbsp;활성화(연간&nbsp;1천만명&nbsp;방문)를&nbsp;통한&nbsp;지역경제&nbsp;발전&nbsp;도모<br><br>■&nbsp;이행방법<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;현&nbsp;정권의&nbsp;권역별&nbsp;국가정원&nbsp;조성&nbsp;계획에&nbsp;상주&nbsp;포함&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;경천섬·경천대·낙동강&nbsp;연계&nbsp;관광&nbsp;인프라&nbsp;구축<br>&nbsp;<br>&nbsp;&nbsp;<br>■&nbsp;이행기간<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;2026.07&nbsp;~&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;<br>&nbsp;<br>&nbsp;■&nbsp;재원조달방안&nbsp;등<br>&nbsp;<br>&nbsp;&nbsp;○&nbsp;단기·중장기&nbsp;우선순위<br>&nbsp;&nbsp;○&nbsp;국비·도비·시&nbsp;예산&nbsp;범위&nbsp;내<br>&nbsp;&nbsp;○&nbsp;연차적&nbsp;국비&nbsp;확보&nbsp;및&nbsp;민간&nbsp;투자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	한국마사회 본부 상주 이전</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="한국마사회 본부 상주 이전">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목&nbsp;표<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;한국마사회&nbsp;본부를&nbsp;상주시로&nbsp;유치하여&nbsp;지역&nbsp;경제&nbsp;성장&nbsp;동력&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;말산업·축산&nbsp;분야와의&nbsp;연계를&nbsp;통한&nbsp;상주형&nbsp;마(馬)산업&nbsp;클러스터&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;공공기관&nbsp;이전을&nbsp;통한&nbsp;양질이&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;인구&nbsp;유입<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;농가&nbsp;소득&nbsp;증대&nbsp;및&nbsp;농촌&nbsp;복지&nbsp;재원&nbsp;확충<br><br>■&nbsp;이행방법<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;2차&nbsp;공공기관&nbsp;지방이전&nbsp;계획&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;국제승마장·국제대회&nbsp;개최&nbsp;실적,&nbsp;가용&nbsp;부지&nbsp;등&nbsp;입지&nbsp;경쟁력&nbsp;부각<br>&nbsp;&nbsp;○&nbsp;마사회&nbsp;수익금(축산·농촌복지&nbsp;60%&nbsp;사용)&nbsp;지역&nbsp;농가·복지에&nbsp;연결<br>&nbsp;&nbsp;<br>■&nbsp;이행기간<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;2027&nbsp;~&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;<br>■&nbsp;재원조달방안&nbsp;등<br>&nbsp;<br>&nbsp;&nbsp;○&nbsp;공공기관&nbsp;지방이전&nbsp;지원&nbsp;관련&nbsp;중앙정부&nbsp;예산&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;본부&nbsp;이전&nbsp;및&nbsp;시설&nbsp;구축&nbsp;비용(기관&nbsp;자체&nbsp;예산)<br>&nbsp;&nbsp;○&nbsp;부지&nbsp;제공·인프라&nbsp;조성&nbsp;등&nbsp;상주시&nbsp;유치&nbsp;지원&nbsp;예산<br>&nbsp;&nbsp;○&nbsp;이전&nbsp;후&nbsp;마사회&nbsp;수익금의&nbsp;지역&nbsp;환원분&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	국도 25호선 상주~관기 45Km 4차선 확장</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="국도 25호선 상주~관기 45Km 4차선 확장">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;수십년간&nbsp;방치된&nbsp;국도25호선&nbsp;상주~관기&nbsp;구간&nbsp;4차선&nbsp;확장&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;동·서축&nbsp;핵심&nbsp;교통망&nbsp;확보를&nbsp;통한&nbsp;물류·생활&nbsp;교통&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;지역균형발전&nbsp;실현&nbsp;및&nbsp;교통&nbsp;소외&nbsp;해소<br>&nbsp;<br>■&nbsp;이행방법<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;국도25호선&nbsp;상주~관기&nbsp;45Km구간&nbsp;4차선&nbsp;확장&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;1조원&nbsp;이상&nbsp;대규모&nbsp;국비&nbsp;사업으로&nbsp;중앙정부&nbsp;결단&nbsp;촉구&nbsp;<br>&nbsp;&nbsp;○&nbsp;국토교통부&nbsp;도로&nbsp;확장&nbsp;계획&nbsp;및&nbsp;국가재정계획에&nbsp;반영&nbsp;요청<br>&nbsp;&nbsp;○&nbsp;국회·정부&nbsp;협력&nbsp;채널&nbsp;활용,&nbsp;지역&nbsp;현안&nbsp;사업으로&nbsp;공론화<br><br>■&nbsp;이행기간<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;2026.07&nbsp;~&nbsp;지속&nbsp;추진(임기내&nbsp;착공)<br>&nbsp;&nbsp;&nbsp;<br>&nbsp;■&nbsp;재원조달방안&nbsp;등<br>&nbsp;<br>&nbsp;&nbsp;○&nbsp;1조원&nbsp;이상&nbsp;전액&nbsp;국비&nbsp;사업&nbsp;추진(국도&nbsp;사업&nbsp;특성상&nbsp;국가&nbsp;부담)<br>&nbsp;&nbsp;○&nbsp;중장기&nbsp;국가&nbsp;도로망&nbsp;계획에&nbsp;포함&nbsp;되도록&nbsp;적극&nbsp;건의<br>&nbsp;&nbsp;○&nbsp;필요시&nbsp;경상북도·상주시&nbsp;매칭&nbsp;예산&nbsp;편성&nbsp;검토</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	현장 맞춤형 농업정책 시행</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="현장 맞춤형 농업정책 시행">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목&nbsp;표<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;자연재해뿐&nbsp;아니라&nbsp;가격&nbsp;하락까지&nbsp;보상하는&nbsp;농가&nbsp;수입&nbsp;안전망&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;상주&nbsp;특화작물(곶감,&nbsp;배,&nbsp;오이)&nbsp;농가&nbsp;소득&nbsp;안정성&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;외국인&nbsp;근로자를&nbsp;위한&nbsp;‘공공&nbsp;기숙사’&nbsp;건립&nbsp;및&nbsp;직영관리<br>&nbsp;<br>&nbsp;■&nbsp;이행방법<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;상주형&nbsp;보험은&nbsp;가격&nbsp;하락으로&nbsp;인한&nbsp;수입&nbsp;감소까지&nbsp;확대&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;상주&nbsp;특화작물인&nbsp;곶감,&nbsp;배,&nbsp;오이를&nbsp;수입보장&nbsp;보험&nbsp;대상으로&nbsp;우선&nbsp;지정<br>&nbsp;&nbsp;○&nbsp;시에서&nbsp;직접&nbsp;외국인&nbsp;근로자&nbsp;기숙사를&nbsp;건립·운영하여&nbsp;주거문제&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;농가&nbsp;수요에&nbsp;맞춰&nbsp;적시에&nbsp;인력을&nbsp;배치하는&nbsp;상주형&nbsp;농촌&nbsp;인력&nbsp;뱅크&nbsp;구축<br>&nbsp;<br>■&nbsp;이행기간<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;2026.07&nbsp;~&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;<br>&nbsp;■&nbsp;재원조달방안&nbsp;등<br>&nbsp;<br>&nbsp;&nbsp;○&nbsp;농업기금&nbsp;활용&nbsp;및&nbsp;중앙정부&nbsp;예산&nbsp;지원&nbsp;요청</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

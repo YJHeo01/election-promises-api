@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박권현 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	민생혁신 - 주머니는 두둑하게, 민생은 든든하게</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="민생혁신 - 주머니는 두둑하게, 민생은 든든하게">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ●&nbsp;목&nbsp;표<br>&nbsp;&nbsp;:&nbsp;청도군&nbsp;농업,&nbsp;소상공인,&nbsp;관광,&nbsp;경제를&nbsp;“민생혁신”하나의&nbsp;전략으로&nbsp;통합,&nbsp;지역&nbsp;경제&nbsp;체질을&nbsp;근본적으로&nbsp;개선하여&nbsp;군민&nbsp;소득을&nbsp;실질적으로&nbsp;높임<br>&nbsp;&nbsp;○&nbsp;영남권&nbsp;농산물&nbsp;유통&nbsp;허브&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;저온창고,&nbsp;유통센터&nbsp;건립,&nbsp;가공→유통→수출&nbsp;원스톱&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한국농수산식품유통공사(aT)&nbsp;협력&nbsp;마케팅,&nbsp;교육&nbsp;지원(26.04&nbsp;초&nbsp;홍문표&nbsp;사장&nbsp;직접&nbsp;면담&nbsp;완료)<br><br>&nbsp;&nbsp;○&nbsp;전국&nbsp;최초&nbsp;기능성&nbsp;작물&nbsp;스마트팜&nbsp;밸리&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;에어돔&nbsp;스마트팜,&nbsp;기능성&nbsp;특작&nbsp;신품종&nbsp;육성,&nbsp;군&nbsp;직영&nbsp;플랫폼&nbsp;판로&nbsp;연계<br><br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;매출&nbsp;동행&nbsp;패키지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;저리대출&nbsp;+&nbsp;매케팅&nbsp;컨설팅&nbsp;+&nbsp;노후&nbsp;점포&nbsp;체질&nbsp;개선&nbsp;패키지&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청도시장,&nbsp;풍각시장,&nbsp;동곡시장&nbsp;전통시장&nbsp;리모델링&nbsp;및&nbsp;경영&nbsp;컨설팅<br><br>&nbsp;&nbsp;○&nbsp;청도군민&nbsp;평생연금&nbsp;햇빛연금&nbsp;보장제<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재생에너지&nbsp;수익&nbsp;군민&nbsp;배당,&nbsp;유휴&nbsp;부지&nbsp;활용&nbsp;안정적&nbsp;수익&nbsp;창출<br><br>&nbsp;&nbsp;○&nbsp;청도&nbsp;맛&nbsp;기행&nbsp;관광특구&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청도읍성,유천마을,운문사,청도향교,청도구길&nbsp;등&nbsp;거점&nbsp;관광지&nbsp;브랜드화&nbsp;및&nbsp;청도구길&nbsp;먹거리골목&nbsp;특화&nbsp;등&nbsp;‘청도&nbsp;맛&nbsp;기행’&nbsp;코스&nbsp;브랜드화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청도읍성&nbsp;뮤직&nbsp;페스티벌&nbsp;개최로&nbsp;지자체&nbsp;콘텐츠&nbsp;및&nbsp;관광&nbsp;수요&nbsp;창출<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;산동,산서&nbsp;국제규격&nbsp;36홀&nbsp;파크골프장&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국제대회&nbsp;유치&nbsp;가능한&nbsp;규모의&nbsp;파크&nbsp;골프장&nbsp;조성&nbsp;<br>●&nbsp;이행기간<br>&nbsp;&nbsp;:&nbsp;임기&nbsp;내(2026~2030)<br>●&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;:&nbsp;국비,&nbsp;도비,&nbsp;군비,&nbsp;민자&nbsp;복합&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	미래육성 - 아이들이 꿈꾸고, 청년이 남는 청도</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="미래육성 - 아이들이 꿈꾸고, 청년이 남는 청도">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ●&nbsp;목&nbsp;표<br>&nbsp;&nbsp;:&nbsp;청도의&nbsp;미래&nbsp;세대인&nbsp;아이,&nbsp;청년,&nbsp;학생이&nbsp;청도를&nbsp;떠나지&nbsp;않고&nbsp;꿈을&nbsp;키울&nbsp;수&nbsp;있도록&nbsp;교육,&nbsp;청년,&nbsp;돌봄&nbsp;환경을&nbsp;혁신<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;창업&nbsp;예산&nbsp;10배&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일자리,&nbsp;창업&nbsp;예산&nbsp;임기&nbsp;내&nbsp;500억&nbsp;목표.&nbsp;창업지원금&nbsp;2,000만원+멘토링<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연&nbsp;30개&nbsp;창업팀&nbsp;지원,&nbsp;소셜기업,&nbsp;1인&nbsp;창업&nbsp;등&nbsp;창업&nbsp;지원&nbsp;대상&nbsp;확대&nbsp;<br><br>&nbsp;&nbsp;○&nbsp;청도형&nbsp;미래인재&nbsp;디지털&nbsp;트랙&nbsp;도입&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전국&nbsp;최고수준&nbsp;코딩,&nbsp;AI&nbsp;교육&nbsp;프로그램&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수도권&nbsp;수준&nbsp;입시&nbsp;컨설팅,&nbsp;진로,&nbsp;취업&nbsp;연계&nbsp;적극&nbsp;지원<br><br>&nbsp;&nbsp;○&nbsp;어린이&nbsp;복합&nbsp;문화체육시설&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어린이,&nbsp;청소년&nbsp;전용&nbsp;복합&nbsp;문화체육시설&nbsp;건립으로&nbsp;연중&nbsp;상시&nbsp;체육/음악/미술&nbsp;재능&nbsp;발현&nbsp;공간&nbsp;조성<br><br>&nbsp;&nbsp;○&nbsp;금천고&nbsp;살리기:&nbsp;금천고&nbsp;특성화고&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트&nbsp;농업,&nbsp;물류,&nbsp;펫&nbsp;특성화고&nbsp;전환&nbsp;추진하여&nbsp;졸업&nbsp;후&nbsp;지역&nbsp;농가&nbsp;성장,&nbsp;취업&nbsp;연계&nbsp;선순환&nbsp;생태계&nbsp;확립<br><br>●&nbsp;이행기간<br>&nbsp;&nbsp;:&nbsp;임기&nbsp;내(2026~2030)<br>●&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;:&nbsp;국비,&nbsp;도비,&nbsp;군비,&nbsp;민자&nbsp;복합&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	공간도약 - 사통팔달 시원하게, 살기는 편안하게</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="공간도약 - 사통팔달 시원하게, 살기는 편안하게">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ●&nbsp;목&nbsp;표<br>&nbsp;&nbsp;:&nbsp;대구와&nbsp;경산을&nbsp;잇는&nbsp;광역&nbsp;교통망을&nbsp;확충하고,&nbsp;귀농취촌,&nbsp;신혼부부&nbsp;정착지원으로&nbsp;청도의&nbsp;인구&nbsp;구조를&nbsp;개선하며&nbsp;주거,&nbsp;인프라&nbsp;환경을&nbsp;획기적으로&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;대구권&nbsp;광역철도(대경선)&nbsp;청도역&nbsp;연장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경산~청도&nbsp;구간&nbsp;연장&nbsp;추진,&nbsp;제&nbsp;5차&nbsp;국가철도망&nbsp;구축계획&nbsp;반영&nbsp;건의(2026.07&nbsp;발표&nbsp;예정)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경북도,&nbsp;대구시,&nbsp;국토부&nbsp;등&nbsp;협의&nbsp;채널&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;헐티재&nbsp;터널&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대구,&nbsp;경산&nbsp;접근성&nbsp;개선,&nbsp;교통&nbsp;난구간&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;귀농귀촌&nbsp;정착&nbsp;원스톱&nbsp;지원센터&nbsp;+&nbsp;청도군&nbsp;통합&nbsp;행정&nbsp;생활&nbsp;앱<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주거,&nbsp;일자리,&nbsp;교육&nbsp;밀착&nbsp;케어,&nbsp;청도군&nbsp;공식&nbsp;앱&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;주거,&nbsp;생활&nbsp;인프라&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;화물집하단지&nbsp;및&nbsp;화물차전용주차장&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;하수종말처리장&nbsp;개선<br><br>●&nbsp;이행기간<br>&nbsp;&nbsp;:&nbsp;임기&nbsp;내(2026~2030)<br><br>●&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;:&nbsp;국비,&nbsp;도비,&nbsp;군비,&nbsp;민자&nbsp;복합&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;대경선&nbsp;연장:&nbsp;국비&nbsp;중심,&nbsp;경북도&nbsp;및&nbsp;청도군&nbsp;운영비&nbsp;부담&nbsp;구조<br>&nbsp;&nbsp;&nbsp;&nbsp;헐티재&nbsp;터널:&nbsp;국가계획&nbsp;반영&nbsp;후&nbsp;국비&nbsp;주도&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	상생동행 - 누구도 외롭지 않게, 다 함께 행복하게</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="상생동행 - 누구도 외롭지 않게, 다 함께 행복하게">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ●&nbsp;목&nbsp;표<br>&nbsp;&nbsp;:&nbsp;고령화,&nbsp;다문화,&nbsp;장애인&nbsp;등&nbsp;다양한&nbsp;삶의&nbsp;조건에서&nbsp;어떤&nbsp;군민도&nbsp;소외되지&nbsp;않도록&nbsp;촘촘한&nbsp;복지,&nbsp;돌봄,&nbsp;의료&nbsp;안전망을&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;경로당(각남면&nbsp;시범&nbsp;→&nbsp;전&nbsp;읍면&nbsp;확산)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;디지털&nbsp;기기&nbsp;보급,&nbsp;건강관리&nbsp;시스템&nbsp;연동,&nbsp;스마트워치,&nbsp;화상소통&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;각남면&nbsp;시범&nbsp;운영&nbsp;후&nbsp;성과&nbsp;검증,&nbsp;9개&nbsp;읍면&nbsp;순차&nbsp;확산<br><br>&nbsp;&nbsp;○&nbsp;24시간&nbsp;응급의료&nbsp;+&nbsp;어르신&nbsp;병원&nbsp;모심&nbsp;셔틀<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;응급체계&nbsp;24시간&nbsp;가동,&nbsp;집→병원&nbsp;전용&nbsp;셔틀&nbsp;운영&nbsp;의료&nbsp;접근성&nbsp;개선<br><br>&nbsp;&nbsp;○&nbsp;저소득,&nbsp;다문화,&nbsp;장애인&nbsp;가정&nbsp;맞춤형&nbsp;눈높이&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;세대공존형&nbsp;통합&nbsp;돌봄&nbsp;서비스로&nbsp;시니어&nbsp;연계&nbsp;거점돌봄&nbsp;제도화로&nbsp;아이&nbsp;돌봄망&nbsp;확충&nbsp;및&nbsp;시니어&nbsp;일자리&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;다문화&nbsp;경제자립프로그램&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인&nbsp;생활편의&nbsp;개선&nbsp;사업&nbsp;추진<br><br>●&nbsp;이행기간<br>&nbsp;&nbsp;:&nbsp;임기&nbsp;내(2026~2030)<br><br>●&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;:&nbsp;국비,&nbsp;도비,&nbsp;군비,&nbsp;민자&nbsp;복합&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	행정쇄신 - 군청의 문턱은 낮게, 군민은 하늘처럼</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="행정쇄신 - 군청의 문턱은 낮게, 군민은 하늘처럼">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ●&nbsp;목&nbsp;표<br>&nbsp;&nbsp;:&nbsp;군민이&nbsp;행정의&nbsp;주인이&nbsp;되는&nbsp;열린&nbsp;군정&nbsp;실현.&nbsp;불필요한&nbsp;절차를&nbsp;없애고,&nbsp;군수가&nbsp;현장에서&nbsp;직접&nbsp;소통하며,&nbsp;예산&nbsp;진행을&nbsp;투명하게&nbsp;공개<br>○&nbsp;군수&nbsp;직통전화,&nbsp;카톡&nbsp;신문고&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민&nbsp;건의사항을&nbsp;군수가&nbsp;직접&nbsp;확인&nbsp;및&nbsp;피드백하는&nbsp;소통&nbsp;채널&nbsp;운영<br><br>○&nbsp;군정&nbsp;모니터단&nbsp;100명&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공약&nbsp;이행&nbsp;감시,&nbsp;평가,&nbsp;예산&nbsp;낭비&nbsp;신고&nbsp;포상제&nbsp;운영<br><br>○&nbsp;청년,&nbsp;여성&nbsp;정책&nbsp;참여&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;예산위원회&nbsp;격상,&nbsp;청년&nbsp;예산&nbsp;심의&nbsp;의무화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여성&nbsp;관리직&nbsp;비율&nbsp;확대,&nbsp;여성&nbsp;정책&nbsp;위원회&nbsp;실질&nbsp;권한&nbsp;보장<br><br>○&nbsp;주민참여&nbsp;예산제&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민&nbsp;아이디어를&nbsp;예산에&nbsp;실질적으로&nbsp;반영,&nbsp;결정&nbsp;권한&nbsp;보장<br><br>○&nbsp;군수&nbsp;월례&nbsp;주민&nbsp;타운홀&nbsp;미팅(9개&nbsp;읍면&nbsp;순회)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;매달&nbsp;1회&nbsp;각&nbsp;읍면&nbsp;순회&nbsp;타운홀,&nbsp;100%&nbsp;주민&nbsp;참여&nbsp;주민&nbsp;건의&nbsp;청취&nbsp;및&nbsp;공약&nbsp;이행&nbsp;현황&nbsp;보고<br>○&nbsp;민원&nbsp;처리&nbsp;기간&nbsp;50%&nbsp;단축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불필요&nbsp;절차,&nbsp;규제&nbsp;폐지,&nbsp;인허가&nbsp;처리&nbsp;현황&nbsp;실시간&nbsp;투명&nbsp;공개<br><br>●&nbsp;이행기간<br>&nbsp;&nbsp;:&nbsp;임기&nbsp;내(2026~2030)<br><br>●&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;:&nbsp;국비,&nbsp;도비,&nbsp;군비,&nbsp;민자&nbsp;복합&nbsp;활용</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

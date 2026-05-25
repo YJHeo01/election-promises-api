@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;조현일 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	경산 5산업단지 조성 위한 경산-울산간 고속도로 연계 및 로봇클러스터 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="경산 5산업단지 조성 위한 경산-울산간 고속도로 연계 및 로봇클러스터 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;경산&nbsp;5일반산업단지&nbsp;조성을&nbsp;위한&nbsp;기반&nbsp;시설&nbsp;확충&nbsp;및&nbsp;물류&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경산JCT에서&nbsp;울주JCT를&nbsp;잇는&nbsp;49.8km&nbsp;구간(4차로)을&nbsp;건설하여&nbsp;물류&nbsp;거리를&nbsp;31.5%(약&nbsp;23km)&nbsp;단축하고,&nbsp;연간&nbsp;약&nbsp;716억&nbsp;원의&nbsp;물류비&nbsp;절감<br>&nbsp;&nbsp;○&nbsp;경산-울산간&nbsp;고속도로&nbsp;건설을&nbsp;통해&nbsp;산단&nbsp;접근성&nbsp;<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;미래&nbsp;전략&nbsp;산업&nbsp;육성을&nbsp;위한&nbsp;첨단&nbsp;로봇클러스터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;5산단&nbsp;내&nbsp;인공지능(AI)&nbsp;기반&nbsp;로봇&nbsp;부품&nbsp;실증&nbsp;센터를&nbsp;구축하고,&nbsp;제조&nbsp;창업&nbsp;공유&nbsp;공장을&nbsp;통해&nbsp;스마트&nbsp;제조&nbsp;생태계&nbsp;조성.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국토교통부&nbsp;‘고속도로&nbsp;건설계획'&nbsp;반영을&nbsp;위한&nbsp;계획&nbsp;및&nbsp;산업단지&nbsp;진입도로&nbsp;개설&nbsp;건의&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;로봇산업&nbsp;테스트베드&nbsp;구축을&nbsp;위한&nbsp;국책사업&nbsp;유치&nbsp;및&nbsp;기업&nbsp;MOU&nbsp;체결<br>&nbsp;&nbsp;○&nbsp;로봇클러스터&nbsp;기반시설&nbsp;착공&nbsp;및&nbsp;전문&nbsp;인력&nbsp;양성&nbsp;센터&nbsp;운영&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;계속사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비&nbsp;확보&nbsp;빛&nbsp;시비증액</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	아이행복재단 설립 및 24시 안심보육시스템 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="아이행복재단 설립 및 24시 안심보육시스템 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;임신-출산-육아-보육까지&nbsp;이어지는&nbsp;경산시&nbsp;특화&nbsp;생애주기별&nbsp;정책&nbsp;실행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산재된&nbsp;출산&nbsp;정책을&nbsp;통합&nbsp;관리하고&nbsp;경산시&nbsp;특화&nbsp;생애주기별&nbsp;맞춤형&nbsp;정책&nbsp;전담<br>&nbsp;&nbsp;○&nbsp;'365·24&nbsp;돌봄&nbsp;중단&nbsp;제로(Zero)'&nbsp;체계&nbsp;구축으로&nbsp;상시&nbsp;돌봄&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부모의&nbsp;긴급&nbsp;상황&nbsp;시&nbsp;언제든&nbsp;아이를&nbsp;맡길&nbsp;수&nbsp;있는&nbsp;24시간&nbsp;돌봄&nbsp;중단&nbsp;제로(Zero)&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;방과&nbsp;후&nbsp;교육<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;대학과&nbsp;연계하여&nbsp;임용&nbsp;합격&nbsp;청년&nbsp;교사를&nbsp;멘토로&nbsp;활용,&nbsp;사교육비&nbsp;절감&nbsp;및&nbsp;교육&nbsp;복지&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○관련&nbsp;조례&nbsp;제정&nbsp;및&nbsp;재단&nbsp;출연금&nbsp;예산&nbsp;편성,&nbsp;돌봄&nbsp;통합&nbsp;지원&nbsp;서비스&nbsp;전면&nbsp;시행<br>&nbsp;&nbsp;○거점형&nbsp;365일&nbsp;24시간&nbsp;돌봄&nbsp;거점&nbsp;센터&nbsp;지정&nbsp;및&nbsp;전담&nbsp;보육&nbsp;교사&nbsp;확충<br>&nbsp;&nbsp;○임신부터&nbsp;돌봄까지&nbsp;아우르는&nbsp;통합&nbsp;플랫폼&nbsp;서비스&nbsp;개시<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○2026년&nbsp;~&nbsp;계속사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비&nbsp;확보&nbsp;빛&nbsp;시비증액</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	부모 부담 ZERO ‘공공 키즈카페’ 단계적 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="부모 부담 ZERO ‘공공 키즈카페’ 단계적 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○저렴하고&nbsp;안전한&nbsp;공공&nbsp;실내&nbsp;놀이&nbsp;공간&nbsp;확충을&nbsp;통해&nbsp;양육&nbsp;경제적&nbsp;부담&nbsp;경감<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사설&nbsp;시설&nbsp;대비&nbsp;저렴한&nbsp;이용료로&nbsp;고품질&nbsp;놀이&nbsp;서비스를&nbsp;제공하여&nbsp;육아&nbsp;경제&nbsp;부담&nbsp;경감<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;경산&nbsp;관내&nbsp;공공&nbsp;유휴부지&nbsp;확보&nbsp;건립&nbsp;추진&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;육아종합지원센터와&nbsp;연계한&nbsp;전문&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;테마형&nbsp;실내&nbsp;놀이터&nbsp;설계&nbsp;및&nbsp;시민&nbsp;의견&nbsp;수렴&nbsp;공청회<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○2026년&nbsp;~&nbsp;2029년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비&nbsp;확보&nbsp;빛&nbsp;시비증액</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	대형아울렛 연계 체류형 관광 및 가든 시티 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="대형아울렛 연계 체류형 관광 및 가든 시티 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;대형&nbsp;유통시설(아울렛)&nbsp;유치와&nbsp;연계한&nbsp;관광&nbsp;시너지&nbsp;극대화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;약&nbsp;3,580억&nbsp;원을&nbsp;투자하여&nbsp;쇼핑,&nbsp;자연환경,&nbsp;지역&nbsp;상생이&nbsp;결합된&nbsp;하이엔드&nbsp;라이프스타일&nbsp;공간&nbsp;조성(2028년&nbsp;개점&nbsp;목표).<br>&nbsp;&nbsp;○&nbsp;단순&nbsp;쇼핑을&nbsp;넘어&nbsp;머무를&nbsp;수&nbsp;있는&nbsp;경산&nbsp;특화&nbsp;체류형&nbsp;관광&nbsp;인프라&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아울렛&nbsp;방문객을&nbsp;팔공산&nbsp;갓바위&nbsp;등&nbsp;인근&nbsp;관광지와&nbsp;연계하여&nbsp;지역&nbsp;숙박&nbsp;및&nbsp;소비로&nbsp;유도하는&nbsp;앵커&nbsp;시설&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;경산지식산업지구&nbsp;내&nbsp;프리미엄&nbsp;아울렛&nbsp;조기&nbsp;착공&nbsp;지원&nbsp;및&nbsp;주변&nbsp;경관&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;체류형&nbsp;관광객을&nbsp;위한&nbsp;숙박&nbsp;및&nbsp;문화&nbsp;체험&nbsp;시설&nbsp;민자&nbsp;유치&nbsp;활성화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○2026년&nbsp;~&nbsp;2028년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○국비,&nbsp;도비&nbsp;확보&nbsp;빛&nbsp;시비증액</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	장애인 생애주기별 “경산 안심 케어” 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="장애인 생애주기별 “경산 안심 케어” 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;영유아&nbsp;장애아부터&nbsp;고령&nbsp;장애인까지&nbsp;소외&nbsp;없는&nbsp;촘촘한&nbsp;돌봄망&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;및&nbsp;민간&nbsp;부문의&nbsp;장애인&nbsp;적합&nbsp;일자리&nbsp;창출을&nbsp;통해&nbsp;실질적인&nbsp;자립&nbsp;지원<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;장애아&nbsp;특화&nbsp;아이돌봄&nbsp;및&nbsp;방과후&nbsp;돌봄안심케어&nbsp;서비스&nbsp;모델시범&nbsp;도입&nbsp;후&nbsp;확대&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;치매&nbsp;등&nbsp;기저&nbsp;질환을&nbsp;가진&nbsp;고령&nbsp;장애인을&nbsp;위한&nbsp;전담&nbsp;요양&nbsp;시설&nbsp;확충&nbsp;및&nbsp;방문&nbsp;진료&nbsp;확대<br>&nbsp;&nbsp;○장애인&nbsp;직업&nbsp;재활&nbsp;시설&nbsp;지원&nbsp;강화&nbsp;및&nbsp;공공일자리&nbsp;확충<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○2026년&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비&nbsp;확보&nbsp;빛&nbsp;시비증액</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

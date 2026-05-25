@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;차화열 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	안전한 도시 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="안전한 도시 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;시민단체와&nbsp;주민이&nbsp;함께&nbsp;참여하는&nbsp;안전한&nbsp;도시를&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;법률&nbsp;강화:&nbsp;강력범죄에&nbsp;대한&nbsp;처벌을&nbsp;강화하고,&nbsp;관련&nbsp;법률을&nbsp;개정하여&nbsp;범죄&nbsp;억제력을&nbsp;높입니다.<br>&nbsp;&nbsp;○&nbsp;경찰력&nbsp;증대&nbsp;및&nbsp;첨단기술&nbsp;활용&nbsp;:&nbsp;경찰&nbsp;인력을&nbsp;확충하고,&nbsp;범죄&nbsp;예방&nbsp;및&nbsp;대응을&nbsp;위한&nbsp;전문&nbsp;교육을&nbsp;실시합니다.&nbsp;CCTV,&nbsp;드론,&nbsp;AI&nbsp;기반&nbsp;분석&nbsp;시스템&nbsp;등&nbsp;첨단&nbsp;기술을&nbsp;활용하여&nbsp;범죄&nbsp;감시&nbsp;및&nbsp;수사를&nbsp;강화합니다.&nbsp;또한&nbsp;인구&nbsp;밀집&nbsp;지역&nbsp;및&nbsp;범죄&nbsp;취약&nbsp;지역에&nbsp;지능형&nbsp;CCTV와&nbsp;비상벨&nbsp;시스템을&nbsp;촘촘히&nbsp;구축하여&nbsp;시민&nbsp;안전&nbsp;담보<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;사회&nbsp;참여:&nbsp;지역&nbsp;사회와&nbsp;협력하여&nbsp;범죄&nbsp;예방&nbsp;프로그램을&nbsp;운영하고,&nbsp;주민들의&nbsp;적극적인&nbsp;참여를&nbsp;유도합니다.<br>&nbsp;&nbsp;○&nbsp;피해자&nbsp;지원&nbsp;강화:&nbsp;피해자&nbsp;보호&nbsp;및&nbsp;지원&nbsp;시스템을&nbsp;강화하여,&nbsp;피해자들이&nbsp;신속히&nbsp;회복할&nbsp;수&nbsp;있도록&nbsp;돕습니다.<br>&nbsp;&nbsp;○&nbsp;국제&nbsp;협력:&nbsp;국제적인&nbsp;범죄&nbsp;조직에&nbsp;대응하기&nbsp;위해&nbsp;다른&nbsp;국가와의&nbsp;협력을&nbsp;강화하고,&nbsp;정보&nbsp;공유&nbsp;체계를&nbsp;구축합니다.<br><br>□&nbsp;이행기간&nbsp;:&nbsp;임기기간&nbsp;및&nbsp;이후&nbsp;지속추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기본&nbsp;운영비는&nbsp;지자체&nbsp;일반회계와&nbsp;행정개선&nbsp;예산으로&nbsp;충당합니다.<br>&nbsp;&nbsp;○&nbsp;시민참여&nbsp;플랫폼,&nbsp;공청회,&nbsp;간담회,&nbsp;위원회&nbsp;운영비는&nbsp;소규모&nbsp;사업비로&nbsp;편성<br>&nbsp;&nbsp;○&nbsp;규제개선&nbsp;성과를&nbsp;통해&nbsp;절감된&nbsp;행정비용을&nbsp;다시&nbsp;주민편의&nbsp;사업에&nbsp;재투입<br>&nbsp;&nbsp;○&nbsp;필요시&nbsp;주민참여예산과&nbsp;협치사업&nbsp;예산을&nbsp;활용해&nbsp;시민단체&nbsp;중심의&nbsp;운영&nbsp;기반&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	평택중심 K-반도체 클러스터 구축 방안</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="평택중심 K-반도체 클러스터 구축 방안">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;평택을&nbsp;중심으로&nbsp;반도체&nbsp;생산,&nbsp;소부장,&nbsp;첨단패키징,&nbsp;연구개발이&nbsp;연계되는&nbsp;산업생태계를&nbsp;조성하고,&nbsp;국가&nbsp;반도체&nbsp;경쟁력의&nbsp;핵심&nbsp;거점으로&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;반도체&nbsp;생산시설과&nbsp;소부장,&nbsp;팹리스,&nbsp;연구개발&nbsp;거점을&nbsp;함께&nbsp;묶고,&nbsp;인허가,&nbsp;전력,&nbsp;용수&nbsp;같은&nbsp;기반을&nbsp;지원하는&nbsp;방식<br>&nbsp;&nbsp;○&nbsp;전력,&nbsp;용수,&nbsp;도로,&nbsp;물류,&nbsp;폐수처리&nbsp;등&nbsp;필수&nbsp;기반시설을&nbsp;선제적으로&nbsp;확충하여&nbsp;대규모&nbsp;생산라인과&nbsp;협력&nbsp;업체가&nbsp;안정적으로&nbsp;운영될&nbsp;수&nbsp;있도록&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;특화단지&nbsp;지정,&nbsp;인허가&nbsp;간소화,&nbsp;규제완화,&nbsp;원스톱&nbsp;행정지원체계를&nbsp;통해&nbsp;기업의&nbsp;투자와&nbsp;착공&nbsp;속도를&nbsp;높임<br>&nbsp;&nbsp;○&nbsp;산학연&nbsp;협력체계를&nbsp;구축하여&nbsp;공동&nbsp;R&D,&nbsp;장비&nbsp;공동활용,&nbsp;실습/훈련&nbsp;프로그램을&nbsp;운영하고,&nbsp;지역&nbsp;내&nbsp;전문인력&nbsp;양성과&nbsp;정착을&nbsp;유도<br>&nbsp;&nbsp;○&nbsp;평택시와&nbsp;경기도,&nbsp;중앙정부가&nbsp;협력하여&nbsp;「반도체특별법」과&nbsp;연계된&nbsp;행정/재정&nbsp;지원을&nbsp;체계적으로&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2030년&nbsp;전후까지&nbsp;단계적으로&nbsp;조성하는&nbsp;장기&nbsp;사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비를&nbsp;활용하여&nbsp;전력망,&nbsp;용수시설,&nbsp;도로,&nbsp;산업단지&nbsp;같은&nbsp;공공&nbsp;기반시설을&nbsp;우선&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;지방비를&nbsp;통해&nbsp;지역&nbsp;도로&nbsp;연결,&nbsp;행정지원,&nbsp;정주여건&nbsp;개선,&nbsp;산단&nbsp;주변&nbsp;인프라를&nbsp;보완<br>&nbsp;&nbsp;○&nbsp;민간투자를&nbsp;유치하여&nbsp;삼성전다&nbsp;등&nbsp;앵커기업의&nbsp;설비투자와&nbsp;협력업체의&nbsp;동반투자를&nbsp;이끌어냄<br>&nbsp;&nbsp;○&nbsp;정책금융,&nbsp;세제지원,&nbsp;보조금,&nbsp;부담금&nbsp;완화&nbsp;등을&nbsp;결합하여&nbsp;초기&nbsp;투자비용&nbsp;부담을&nbsp;줄임</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	경기남부 광역교통허브 조성 방안</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="경기남부 광역교통허브 조성 방안">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;KTX&nbsp;경기남부역사&nbsp;조기&nbsp;유치,&nbsp;GTX-A,C&nbsp;노선의&nbsp;조기&nbsp;완공&nbsp;및&nbsp;연장,&nbsp;AI&nbsp;기반&nbsp;교통관리시스템&nbsp;도입을&nbsp;통해&nbsp;평택을&nbsp;포함한&nbsp;경기남부권을&nbsp;수도권&nbsp;남부의&nbsp;핵심&nbsp;교통허브로&nbsp;육성합니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;KTX&nbsp;경기남부역사&nbsp;조기&nbsp;유치를&nbsp;위해&nbsp;국가철도망&nbsp;구축계획&nbsp;밑&nbsp;대도시권&nbsp;광역교통시행계획&nbsp;반영을&nbsp;적극&nbsp;추진하고,&nbsp;평택을&nbsp;정차하는&nbsp;수원발&nbsp;KTX,&nbsp;서해&nbsp;KTX&nbsp;직결,&nbsp;평택부발선&nbsp;등과의&nbsp;연계성을&nbsp;높입니다.<br>&nbsp;&nbsp;○&nbsp;GTX-A,C&nbsp;노선은&nbsp;평택지제역&nbsp;연장을&nbsp;전제로,&nbsp;본선&nbsp;개통&nbsp;일정과&nbsp;최대한&nbsp;맞춰&nbsp;조기&nbsp;추진되도록&nbsp;국토교통부,&nbsp;경기도,&nbsp;평택시,&nbsp;인접&nbsp;지자체&nbsp;간&nbsp;협력체계를&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기반&nbsp;교통관리시스템은&nbsp;실시간&nbsp;교통량&nbsp;분석,&nbsp;신호&nbsp;최적화,&nbsp;버스/철도/환승정보&nbsp;통합,&nbsp;돌발상황&nbsp;대응,&nbsp;혼잡&nbsp;예측&nbsp;기능을&nbsp;포함하도록&nbsp;설계하고,&nbsp;교통&nbsp;빅데이터와&nbsp;연동한&nbsp;지능형&nbsp;관제체계를&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;시내/광역버스,&nbsp;통근버스,&nbsp;철도,&nbsp;환승주차장,&nbsp;도로망을&nbsp;함께&nbsp;묶어&nbsp;대중교통&nbsp;중심의&nbsp;통합&nbsp;이동체계를&nbsp;만들고,&nbsp;산업단지&nbsp;통근&nbsp;수요까지&nbsp;반영한&nbsp;맞춤형&nbsp;운영체계&nbsp;도입.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;2026년부터&nbsp;단계적으로&nbsp;추진하여&nbsp;2030년&nbsp;전후&nbsp;완성을&nbsp;목표로&nbsp;함<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비를&nbsp;활용하여&nbsp;철도&nbsp;노선&nbsp;반영,&nbsp;광역철도&nbsp;및&nbsp;복합환승시설,&nbsp;AI&nbsp;기반&nbsp;교통인프라&nbsp;구축비를&nbsp;우선&nbsp;확보합니다.<br>&nbsp;&nbsp;○&nbsp;지방비를&nbsp;통해&nbsp;환승센터&nbsp;주변&nbsp;도로,&nbsp;진입램프,&nbsp;주차장,&nbsp;버스정류장,&nbsp;관제시설&nbsp;등&nbsp;지역&nbsp;연계&nbsp;인프라를&nbsp;보완합니다.<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;교통관리시스템은&nbsp;국비&nbsp;R&D,&nbsp;지자체&nbsp;예산,&nbsp;공공기관&nbsp;협력,&nbsp;민간&nbsp;IT/모빌리티&nbsp;기업&nbsp;참여를&nbsp;결합한&nbsp;방식으로&nbsp;재원을&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;GTX&nbsp;연장과&nbsp;KTX&nbsp;유치는&nbsp;사업성이&nbsp;큰&nbsp;교통축이므로,&nbsp;중앙정부와&nbsp;지자체가&nbsp;공동으로&nbsp;사업비&nbsp;분담&nbsp;구조를&nbsp;만듭니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	경기남부 교육혁신 및 학습격차 해소 방안</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="경기남부 교육혁신 및 학습격차 해소 방안">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;경기남부에&nbsp;과학고등학교를&nbsp;신설하고,&nbsp;고덕국제학교를&nbsp;조기&nbsp;완공하며,&nbsp;권역별&nbsp;무료학습센터와&nbsp;학교시설&nbsp;기반&nbsp;방과후&nbsp;교육을&nbsp;확대하여&nbsp;과학인재&nbsp;양성,&nbsp;국제교육&nbsp;기반&nbsp;확충,&nbsp;사교육비&nbsp;절감을&nbsp;동시에&nbsp;달성합니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;경기남부&nbsp;과학고등학교&nbsp;신설을&nbsp;통해&nbsp;반도체,&nbsp;AI,&nbsp;바이오&nbsp;등&nbsp;첨단산업&nbsp;연계형&nbsp;과학인재를&nbsp;지역에서&nbsp;양성<br>&nbsp;&nbsp;○&nbsp;고덕국제학교&nbsp;조기완공을&nbsp;추진해&nbsp;평택&nbsp;고덕권의&nbsp;국제교육&nbsp;수요와&nbsp;정주여건을&nbsp;강화하고,&nbsp;외국인/국제화&nbsp;수요에&nbsp;대응합니다.<br>&nbsp;&nbsp;○&nbsp;무료학습센터를&nbsp;권역별로&nbsp;신설하고,&nbsp;학교시설을&nbsp;활용한&nbsp;방과후&nbsp;교육을&nbsp;확대해&nbsp;기초학력&nbsp;보강,&nbsp;진학&nbsp;지원,&nbsp;자기주도학습&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;세&nbsp;사업을&nbsp;각각&nbsp;따로&nbsp;보지&nbsp;않고,&nbsp;교육거점&nbsp;조성&nbsp;+&nbsp;국제교육&nbsp;기반&nbsp;+&nbsp;공교육&nbsp;내&nbsp;학습지원&nbsp;강화라는&nbsp;하나의&nbsp;패키지로&nbsp;묶어&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2026년부터&nbsp;추진하여&nbsp;2030년&nbsp;전후&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;과학고와&nbsp;국제학교는&nbsp;교육청/지자체&nbsp;예산과&nbsp;국가재정을&nbsp;중심으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;무료학습센터와&nbsp;방과후&nbsp;교육은&nbsp;교육경비보조금,&nbsp;지자체&nbsp;예산,&nbsp;학교시설&nbsp;활용,&nbsp;교육기부를&nbsp;결합합니다.<br>&nbsp;&nbsp;○&nbsp;민간의&nbsp;참여는&nbsp;장학금,&nbsp;신학협력,&nbsp;시설/운영&nbsp;지원&nbsp;형태로&nbsp;유도<br>&nbsp;&nbsp;○&nbsp;공공재원으로&nbsp;기반을&nbsp;만들고,&nbsp;민간협력으로&nbsp;운영의&nbsp;지속성을&nbsp;높이는&nbsp;구조가&nbsp;적합합니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	시민참여형 열린행정 및 주민불편 규제개혁 방안</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="시민참여형 열린행정 및 주민불편 규제개혁 방안">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;시민단체와&nbsp;주민이&nbsp;함께&nbsp;참여하는&nbsp;열린행정을&nbsp;구현하고,&nbsp;주민&nbsp;불편을&nbsp;유발하는&nbsp;불합리한&nbsp;규제를&nbsp;신속하게&nbsp;개선하여&nbsp;행정의&nbsp;투명성과&nbsp;체감&nbsp;만족도를&nbsp;높입니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시민단체,&nbsp;주민대표,&nbsp;전문가가&nbsp;함께&nbsp;참여하는&nbsp;상설&nbsp;협의체를&nbsp;구성해&nbsp;행정&nbsp;의제&nbsp;발굴과&nbsp;정책&nbsp;제안을&nbsp;공동으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;불편&nbsp;규제를&nbsp;상시&nbsp;점검하는&nbsp;규제개혁위원회를&nbsp;시민단체&nbsp;주도로&nbsp;운영해&nbsp;현장&nbsp;불편을&nbsp;직접&nbsp;수집하고&nbsp;개선&nbsp;과제를&nbsp;선정합니다.<br>&nbsp;&nbsp;○&nbsp;민원,&nbsp;생활불편,&nbsp;인허가&nbsp;지연,&nbsp;행정&nbsp;중복&nbsp;절차&nbsp;등을&nbsp;정기적으로&nbsp;조사해&nbsp;우선순위에&nbsp;따라&nbsp;개선합니다.<br>&nbsp;&nbsp;○&nbsp;행정정보&nbsp;공개를&nbsp;확대하고,&nbsp;주요&nbsp;정책은&nbsp;사전&nbsp;설명회와&nbsp;의견수렴&nbsp;절차를&nbsp;거쳐&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;시민참여&nbsp;예산,&nbsp;공론장,&nbsp;온라인&nbsp;제안창구를&nbsp;함께&nbsp;운영해&nbsp;지속적인&nbsp;참여&nbsp;구조를&nbsp;만듭니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2026년부터&nbsp;단계적으로&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기본&nbsp;운영비는&nbsp;지자체&nbsp;일반회계와&nbsp;행정개선&nbsp;예산으로&nbsp;충당합니다.<br>&nbsp;&nbsp;○&nbsp;시민참여&nbsp;플랫폼,&nbsp;공청회,&nbsp;간담회,&nbsp;위원회&nbsp;운영비는&nbsp;소규모&nbsp;사업비로&nbsp;편성<br>&nbsp;&nbsp;○&nbsp;규제개선&nbsp;성과를&nbsp;통해&nbsp;절감된&nbsp;행정비용을&nbsp;다시&nbsp;주민편의&nbsp;사업에&nbsp;재투입<br>&nbsp;&nbsp;○&nbsp;필요시&nbsp;주민참여예산과&nbsp;협치사업&nbsp;예산을&nbsp;활용해&nbsp;시민단체&nbsp;중심의&nbsp;운영&nbsp;기반&nbsp;마련</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

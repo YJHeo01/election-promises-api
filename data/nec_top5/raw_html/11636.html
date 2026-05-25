@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;손배찬 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	지하철 3호선(일산선) 파주 연장사업 임기 내 확정</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="지하철 3호선(일산선) 파주 연장사업 임기 내 확정">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;파주시민의&nbsp;‘출퇴근&nbsp;고통’을&nbsp;근본적으로&nbsp;해소하기&nbsp;위하여&nbsp;대화역에서&nbsp;멈춘&nbsp;지하철&nbsp;3호선을&nbsp;운정～금릉역까지&nbsp;연장하여&nbsp;환승&nbsp;없는&nbsp;서울진입&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;GTX-A,&nbsp;경의중앙선과&nbsp;연계된&nbsp;촘촘한&nbsp;‘파주&nbsp;격자형&nbsp;철도&nbsp;네트워크’&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;전담&nbsp;추진체계&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시장&nbsp;직속&nbsp;‘철도혁신&nbsp;TF(지하철&nbsp;3호선&nbsp;파주연장&nbsp;등)’&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;국회의원과&nbsp;연계한&nbsp;‘국가철도망계획&nbsp;반영’&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;‘26년&nbsp;수립예정인&nbsp;’제5차&nbsp;국가철도망&nbsp;구축계획‘에&nbsp;반영토록&nbsp;집중&nbsp;노력<br>&nbsp;&nbsp;○&nbsp;’민자적격성&nbsp;조사‘&nbsp;통과&nbsp;전략수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘26년1월&nbsp;개정된&nbsp;기획예산처의&nbsp;「예비타당성조사&nbsp;운용지침」을&nbsp;반영,&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;파주를&nbsp;’접경지역&nbsp;비수도권&nbsp;유형‘으로&nbsp;적용·관철하여&nbsp;경제성&nbsp;평가&nbsp;비중을&nbsp;낮추고(60~70%→30~45%),&nbsp;지역균형발전&nbsp;가능성(30~45%)을&nbsp;극대화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;운정신도시&nbsp;입주완료&nbsp;데이터와&nbsp;향후&nbsp;메디컬클러스터&nbsp;신규입주&nbsp;등&nbsp;장래&nbsp;인구수요를&nbsp;재산출하여&nbsp;경제성&nbsp;평가(B/C)&nbsp;상향&nbsp;도모<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;및&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민간투자<br>&nbsp;&nbsp;○&nbsp;광역교통개선대책&nbsp;분담금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	대형 종합병원 유치 및 24시간 응급의료체계 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="대형 종합병원 유치 및 24시간 응급의료체계 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;파주&nbsp;54만&nbsp;시민에게&nbsp;걸맞는&nbsp;500병상&nbsp;이상&nbsp;대형&nbsp;종합병원을&nbsp;유치하여&nbsp;서울,&nbsp;고양으로&nbsp;이동해야&nbsp;하는&nbsp;원정진료&nbsp;현상을&nbsp;근본적&nbsp;해결<br>&nbsp;&nbsp;○&nbsp;위급환자의&nbsp;생존율을&nbsp;높이고&nbsp;의료&nbsp;인프라&nbsp;확충을&nbsp;통한&nbsp;‘안심정주&nbsp;여건’&nbsp;마련<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;투트랙&nbsp;대형&nbsp;종합병원&nbsp;유치&nbsp;방안<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;운정신도시에는&nbsp;‘28년&nbsp;개원을&nbsp;목표로&nbsp;종합병원을&nbsp;유치하고&nbsp;24시간&nbsp;응급의료센터,&nbsp;심혈관&nbsp;등&nbsp;6대&nbsp;중점센터를&nbsp;운영하여&nbsp;중증&nbsp;및&nbsp;응급의료&nbsp;대응력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;파주메디컬클러스터에는&nbsp;대학병원급&nbsp;종합병원을&nbsp;유치하여&nbsp;경기북부&nbsp;의료체계구축&nbsp;및&nbsp;글로벌&nbsp;바이오&nbsp;혁신&nbsp;도시로&nbsp;도약<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학병원과&nbsp;연관된&nbsp;바이오&nbsp;기업군도&nbsp;병행&nbsp;유치하여&nbsp;신규&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;파주시&nbsp;항공의료체계&nbsp;구축으로&nbsp;경기북부권&nbsp;의료수송&nbsp;허브&nbsp;역할&nbsp;수행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국방부&nbsp;및&nbsp;보건복지부와&nbsp;협의하여&nbsp;병원&nbsp;옥상&nbsp;또는&nbsp;인접지에&nbsp;닥터헬기&nbsp;계류장을&nbsp;설치하고,&nbsp;상시&nbsp;가동&nbsp;시스템&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;및&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;비예산(민간자본&nbsp;유치)&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	금촌·금릉 역세권 콤팩트시티 개발 및 문화·복지 인프라 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="금촌·금릉 역세권 콤팩트시티 개발 및 문화·복지 인프라 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;운정신도시&nbsp;성장에&nbsp;따른&nbsp;상대적&nbsp;공동화&nbsp;현상을&nbsp;방지하고,&nbsp;파주의&nbsp;상징인&nbsp;금촌&nbsp;원도심을&nbsp;활력이&nbsp;넘치는&nbsp;역세권&nbsp;콤팩트시티로&nbsp;재탄생<br>&nbsp;&nbsp;○&nbsp;파주의&nbsp;정체성을&nbsp;담은&nbsp;박물관&nbsp;건립과&nbsp;중장년층&nbsp;건강을&nbsp;위한&nbsp;파크골프장,&nbsp;급증하는&nbsp;반려동물공원을&nbsp;조성하고&nbsp;지역사회&nbsp;화합을&nbsp;도모한&nbsp;커뮤니티시설&nbsp;등&nbsp;신축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;(역세권&nbsp;개발)&nbsp;마스터&nbsp;플랜&nbsp;수립&nbsp;이후&nbsp;민간참여&nbsp;촉진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;금촌,&nbsp;금릉역별&nbsp;특화된&nbsp;개발전략&nbsp;수립&nbsp;및&nbsp;입체복합구역&nbsp;지역<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;용적률&nbsp;거래제&nbsp;및&nbsp;기부채납&nbsp;등을&nbsp;통한&nbsp;민간참여&nbsp;유도&nbsp;및&nbsp;공공기여&nbsp;방식도입<br>&nbsp;&nbsp;○&nbsp;(문화·복지인프라&nbsp;구축)&nbsp;‘시민이&nbsp;행복한&nbsp;파주’를&nbsp;핵심가치로&nbsp;행정서비스&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고려역사박물관과&nbsp;연계한&nbsp;역사·문화&nbsp;관광벨트&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;하천변&nbsp;국공유지,&nbsp;근린공원&nbsp;등을&nbsp;활용&nbsp;파크골프장,&nbsp;반려동물공원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자원봉사센터·새마을회관&nbsp;건립&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;및&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;민관합동&nbsp;투자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	GTX-H 문산출발 및 KTX 파주연장 조기 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="GTX-H 문산출발 및 KTX 파주연장 조기 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;GTX-H노선&nbsp;기점을&nbsp;문산역으로&nbsp;확정하여&nbsp;서울접근성을&nbsp;20분대로&nbsp;단축하고&nbsp;KTX&nbsp;파주연장을&nbsp;통해&nbsp;파주에서&nbsp;환승&nbsp;없이&nbsp;전국으로&nbsp;연결되는&nbsp;광역교통망&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;전담&nbsp;추진체계&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시장&nbsp;직속&nbsp;‘철도혁신&nbsp;TF(GTX-H,&nbsp;KTX파주연장&nbsp;등)’&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;국회의원과&nbsp;연계한&nbsp;‘국가철도망계획&nbsp;반영’&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;‘26년&nbsp;수립예정인&nbsp;’제5차&nbsp;국가철도망&nbsp;구축계획’&nbsp;반영토록&nbsp;집중&nbsp;노력<br>&nbsp;&nbsp;○&nbsp;‘예비타당성&nbsp;조사’&nbsp;통과&nbsp;전략수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘26년1월&nbsp;개정된&nbsp;기획예산처의&nbsp;「예비타당성조사&nbsp;운용지침」을&nbsp;반영,&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;파주를&nbsp;‘접경지역&nbsp;비수도권&nbsp;유형’으로&nbsp;적용·관철하여&nbsp;경제성&nbsp;평가&nbsp;비중을&nbsp;낮추고(60~70%→30~45%),&nbsp;지역균형발전&nbsp;가능성(30~45%)을&nbsp;극대화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신규개발&nbsp;수요,&nbsp;파주북부&nbsp;인구&nbsp;증가추이&nbsp;등&nbsp;미래인구&nbsp;수요반영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;및&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	미군 반환 공여지 개발 대전환 및 렛츠런파크 파주 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="미군 반환 공여지 개발 대전환 및 렛츠런파크 파주 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;장기간&nbsp;개발이&nbsp;묶여&nbsp;있던&nbsp;미군반환&nbsp;공여지를&nbsp;경제도약의&nbsp;핵심거점으로&nbsp;대전환<br>&nbsp;&nbsp;○&nbsp;과천&nbsp;경마장&nbsp;유치로&nbsp;연간&nbsp;약&nbsp;500억원의&nbsp;지방세수&nbsp;확보와&nbsp;복지재원&nbsp;등으로&nbsp;전환하고&nbsp;연간&nbsp;400만명&nbsp;이상&nbsp;방문으로&nbsp;경제활성화&nbsp;도모&nbsp;및&nbsp;일자리&nbsp;창출<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;미군&nbsp;반환&nbsp;공여지&nbsp;복합개발&nbsp;마스터플랜&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광·레저&nbsp;거점&nbsp;:&nbsp;경마장&nbsp;연계&nbsp;호텔,&nbsp;컨벤션,&nbsp;캠핑장,&nbsp;승마체험&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첨단산업&nbsp;거점&nbsp;:&nbsp;방위산업,&nbsp;항공우주,&nbsp;드론,&nbsp;로봇&nbsp;등&nbsp;산업단지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생태·문화&nbsp;거점&nbsp;:&nbsp;DMZ&nbsp;평화관광&nbsp;연계&nbsp;생태공원,&nbsp;역사문화&nbsp;시설<br>&nbsp;&nbsp;○&nbsp;과천&nbsp;경마장&nbsp;파주유치&nbsp;집중&nbsp;공략<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취임&nbsp;즉시&nbsp;‘과천경마장&nbsp;파주&nbsp;유치&nbsp;전담TF’을&nbsp;구성하고,&nbsp;시장이&nbsp;직접&nbsp;한국마사회회장,&nbsp;농림축산식품부&nbsp;장관,&nbsp;경기도지사&nbsp;등과&nbsp;면담하여&nbsp;파주&nbsp;우선&nbsp;이전&nbsp;건의<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;파주&nbsp;후보지&nbsp;강점&nbsp;집중&nbsp;부각&nbsp;:&nbsp;부지&nbsp;적합성·접근성·개발규제&nbsp;완화·북부균형발전<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경마장&nbsp;부지&nbsp;이외에&nbsp;관광·숙박·상업&nbsp;복합단지&nbsp;개발계획(안)&nbsp;제시<br>&nbsp;&nbsp;○&nbsp;민관합동&nbsp;SPC&nbsp;설립&nbsp;및&nbsp;공공주도&nbsp;개발<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;및&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비지원&nbsp;확대,&nbsp;민간자본&nbsp;유치,&nbsp;민관합동&nbsp;투자</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

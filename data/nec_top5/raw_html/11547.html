@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;송순호 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	대한민국 제조수도를 넘어 세계로 도약하는 창원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="대한민국 제조수도를 넘어 세계로 도약하는 창원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;AI·디지털&nbsp;전환과&nbsp;미래&nbsp;첨단산업&nbsp;육성을&nbsp;통해&nbsp;창원을&nbsp;대한민국&nbsp;대표&nbsp;제조&nbsp;도시에서&nbsp;글로벌&nbsp;경쟁력을&nbsp;갖춘&nbsp;첨단&nbsp;제조혁신도시로&nbsp;도약시키고자&nbsp;함<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;창원&nbsp;제2국가산단&nbsp;조기&nbsp;착공&nbsp;및&nbsp;피지컬&nbsp;AI&nbsp;특화밸리&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;디지털&nbsp;마산자유무역지역&nbsp;기반&nbsp;AI·데이터&nbsp;산업&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;창원교도소&nbsp;이전&nbsp;부지,&nbsp;미래&nbsp;선도형&nbsp;첨단산업&nbsp;특화&nbsp;공간으로&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;북극항로&nbsp;대비&nbsp;조선·물류·에너지&nbsp;전진기지&nbsp;기반&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;소형모듈원자로(SMR)&nbsp;설계·제조·실증&nbsp;전주기&nbsp;산업&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;액화수소플랜트&nbsp;사업&nbsp;정상화<br>&nbsp;&nbsp;○&nbsp;중소조선&nbsp;함정&nbsp;유지·보수·정비(MRO)&nbsp;글로벌&nbsp;강소기업&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;RE100&nbsp;산단&nbsp;실현을&nbsp;위한&nbsp;재생에너지&nbsp;특화지역&nbsp;지정<br>&nbsp;&nbsp;○&nbsp;주력산업&nbsp;인공지능&nbsp;전환&nbsp;실증산단&nbsp;조기&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;국제기능올림픽대회&nbsp;유치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	교통복지 실현을 위한 시민 이동권 보장</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="교통복지 실현을 위한 시민 이동권 보장">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;누구나&nbsp;안전하고&nbsp;편리하게&nbsp;이동할&nbsp;수&nbsp;있도록&nbsp;대중교통·교통복지&nbsp;정책을&nbsp;강화하여&nbsp;시민&nbsp;이동권&nbsp;보장<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;창원&nbsp;지하고속도로〔서마산JCT~완암IC〕건설&nbsp;계획&nbsp;반영<br>&nbsp;&nbsp;○&nbsp;동대구~창원~가덕도신공항&nbsp;고속철&nbsp;반영&nbsp;및&nbsp;열차&nbsp;증편<br>&nbsp;&nbsp;○&nbsp;봉암교&nbsp;확장&nbsp;조기&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;주요&nbsp;간선도로(합성동∼동읍)&nbsp;개설<br>&nbsp;&nbsp;○&nbsp;의창구&nbsp;북면&nbsp;신도시&nbsp;상습&nbsp;정체구간&nbsp;도로&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;어르신(70세&nbsp;이상)·어린이·청소년&nbsp;시내버스&nbsp;전면&nbsp;무료화<br>&nbsp;&nbsp;○&nbsp;친환경&nbsp;저상버스&nbsp;보급률&nbsp;100%&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;교통약자&nbsp;특별교통수단&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;교통&nbsp;취약지역&nbsp;수요응답형&nbsp;버스&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;창원산단&nbsp;외곽&nbsp;주차장&nbsp;조성&nbsp;및&nbsp;자율주행&nbsp;셔틀&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;버스&nbsp;정류장&nbsp;환경개선(온열의자&nbsp;확대&nbsp;등)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	청년 희망·출산 친화도시 창원 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="청년 희망·출산 친화도시 창원 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;맞춤형&nbsp;취업·창업&nbsp;지원과&nbsp;주거·결혼·출산·보육&nbsp;정책을&nbsp;통해&nbsp;지역&nbsp;인재&nbsp;유출을&nbsp;막고&nbsp;미래세대&nbsp;성장&nbsp;기반을&nbsp;강화하고자&nbsp;함<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대기업&nbsp;채용조건형&nbsp;주력산업&nbsp;계약학과&nbsp;설립<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;운전면허&nbsp;취득&nbsp;비용&nbsp;지원(50만원)<br>&nbsp;&nbsp;○&nbsp;마산·진해&nbsp;원도심&nbsp;청년&nbsp;창업특구&nbsp;지정<br>&nbsp;&nbsp;○&nbsp;시내&nbsp;중심지&nbsp;청년특화주택&nbsp;1,000호&nbsp;공급<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;부부&nbsp;결혼식&nbsp;비용&nbsp;지원(100만원)<br>&nbsp;&nbsp;○&nbsp;모든&nbsp;출산가정&nbsp;산후조리원비&nbsp;지원(50만원)&nbsp;및&nbsp;공공산후조리원&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;공공시설&nbsp;이용료&nbsp;할인,&nbsp;1자녀&nbsp;가구까지&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;맞벌이·교대근무&nbsp;가정을&nbsp;위한&nbsp;야간보육&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	어르신 복지 강화 및 촘촘한 의료안전망 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="어르신 복지 강화 및 촘촘한 의료안전망 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;어르신의&nbsp;건강한&nbsp;노후와&nbsp;안정적인&nbsp;일상생활&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;내&nbsp;의료&nbsp;공백을&nbsp;해소하고&nbsp;응급·필수의료&nbsp;체계를&nbsp;강화하여&nbsp;시민&nbsp;누구나&nbsp;안심하고&nbsp;의료서비스를&nbsp;받을&nbsp;수&nbsp;있는&nbsp;환경을&nbsp;조성하고자&nbsp;함<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;노인&nbsp;의료·돌봄&nbsp;통합지원&nbsp;공공임대주택&nbsp;공급<br>&nbsp;&nbsp;○&nbsp;파크골프장&nbsp;대확충(504홀)&nbsp;및&nbsp;셔틀버스&nbsp;운행<br>&nbsp;&nbsp;○&nbsp;손주돌봄수당&nbsp;소득기준&nbsp;폐지&nbsp;및&nbsp;지급기간&nbsp;확대(2년)<br>&nbsp;&nbsp;○&nbsp;노인종합복지관&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;24시간&nbsp;운영&nbsp;소아과·산부인과&nbsp;전문병원&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;진해&nbsp;해군해양의료원&nbsp;확충·민간&nbsp;개방으로&nbsp;지역&nbsp;의료&nbsp;공백&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;응급의료&nbsp;대응&nbsp;체계&nbsp;강화&nbsp;및&nbsp;달빛어린이병원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;호스피스·완화의료&nbsp;전문센터&nbsp;설립<br>&nbsp;&nbsp;○&nbsp;차세대&nbsp;암&nbsp;양성자치료센터&nbsp;유치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	문화·여가가 함께하는 행복도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="문화·여가가 함께하는 행복도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;누구나&nbsp;일상&nbsp;속에서&nbsp;문화·휴식·여가를&nbsp;누릴&nbsp;수&nbsp;있도록&nbsp;해양·공원·녹지·문화&nbsp;인프라를&nbsp;확충하고자&nbsp;함<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;마산해양신도시&nbsp;달빛해수욕장&nbsp;조성&nbsp;및&nbsp;돝섬&nbsp;대관람차&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;국립현대미술관&nbsp;창원관&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;마산회원구&nbsp;합성동&nbsp;공설묘지,&nbsp;마산스포츠파크로&nbsp;대전환<br>&nbsp;&nbsp;○&nbsp;마산항&nbsp;불꽃축제&nbsp;개최&nbsp;및&nbsp;국제드래곤보트대회&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;창원대로변&nbsp;녹지공간&nbsp;테마형&nbsp;공원&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;주남저수지&nbsp;생태정원&nbsp;조성&nbsp;및&nbsp;국가정원&nbsp;등록&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;진해해양공원·소쿠리섬&nbsp;연계&nbsp;체류형&nbsp;해양관광&nbsp;허브&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;진해드림파크&nbsp;내&nbsp;산림휴양테마파크&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

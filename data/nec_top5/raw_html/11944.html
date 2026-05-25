@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이기재 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	양천의 지하철 부족 최우선으로 해결하겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="양천의 지하철 부족 최우선으로 해결하겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지하철&nbsp;노선&nbsp;확충을&nbsp;통해&nbsp;교통&nbsp;사각지대를&nbsp;해소하고&nbsp;인구&nbsp;유입과&nbsp;지역&nbsp;성장&nbsp;기반&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;목동선,&nbsp;사업성&nbsp;낮은&nbsp;기존&nbsp;L자(신월~당산)&nbsp;노선을&nbsp;T자(마곡~구로)&nbsp;노선으로&nbsp;재설계하여&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;강북횡단선,&nbsp;경제성&nbsp;확보&nbsp;및&nbsp;수도권서남부선과&nbsp;연결&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2호선&nbsp;신정지선&nbsp;김포&nbsp;연장,&nbsp;신월사거리역&nbsp;신설&nbsp;예타&nbsp;통과&nbsp;관철<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	재건축·재개발 완성, 시작한 이기재가 책임지고 매듭짓겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="재건축·재개발 완성, 시작한 이기재가 책임지고 매듭짓겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;재건축·재개발&nbsp;사업&nbsp;속도감&nbsp;있는&nbsp;추진으로&nbsp;주민의&nbsp;이익과&nbsp;이주대책&nbsp;최대한&nbsp;확보<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;&nbsp;서울시&nbsp;최고&nbsp;속도,&nbsp;‘중단없는&nbsp;패스트트랙’추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구청&nbsp;내&nbsp;재건축·재개발&nbsp;전담부서&nbsp;신설&nbsp;및&nbsp;전문인력&nbsp;대폭&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시기반시설&nbsp;사전&nbsp;계획·설계를&nbsp;통한&nbsp;개발&nbsp;지연요인&nbsp;최소화<br>&nbsp;&nbsp;○&nbsp;&nbsp;실속&nbsp;있는&nbsp;재건축·재개발&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업성&nbsp;취약지역에&nbsp;‘보정계수&nbsp;최대&nbsp;적용’으로&nbsp;주민&nbsp;사업&nbsp;분담금&nbsp;절감<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건설사·신탁사&nbsp;협상&nbsp;과정에서&nbsp;주민&nbsp;이익&nbsp;확보를&nbsp;위한&nbsp;정보지원&nbsp;및&nbsp;교육&nbsp;강화&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;걱정&nbsp;없는&nbsp;안정적&nbsp;주거&nbsp;이전&nbsp;지원&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양천구&nbsp;이주안정지원센터&nbsp;설치·운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아이들의&nbsp;교육권&nbsp;및&nbsp;통학&nbsp;안전&nbsp;완벽&nbsp;보장<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년&nbsp;:&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시비&nbsp;및&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	기업인프라 구축으로 지역경제 성장엔진 가동시키겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="기업인프라 구축으로 지역경제 성장엔진 가동시키겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;저활용·공공기여&nbsp;부지를&nbsp;활용한&nbsp;기업인프라&nbsp;구축을&nbsp;통해&nbsp;지역경제&nbsp;성장&nbsp;기반&nbsp;마련<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;목동운동장·유수지&nbsp;일대&nbsp;‘목동MICE&nbsp;단지’&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;▶&nbsp;1단계&nbsp;:&nbsp;공영주차장·유수지<br>&nbsp;&nbsp;&nbsp;&nbsp;▶&nbsp;2단계&nbsp;:&nbsp;목동운동장&nbsp;일대&nbsp;<br>&nbsp;&nbsp;○&nbsp;홈플러스&nbsp;부지와&nbsp;공공기여&nbsp;부지(KT·CBS·양천우체국)에&nbsp;미래형&nbsp;성장기업&nbsp;기반&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	공항소음피해 양천구가 앞장서 해결하겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="공항소음피해 양천구가 앞장서 해결하겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;공항소음&nbsp;피해&nbsp;주민에&nbsp;대한&nbsp;양천구의&nbsp;선제적&nbsp;지원을&nbsp;통해&nbsp;실질적&nbsp;피해지원&nbsp;강화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;재산세&nbsp;구세&nbsp;감면&nbsp;최대&nbsp;60%에&nbsp;더해,&nbsp;시세분&nbsp;최대&nbsp;60%&nbsp;감면&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;전기료&nbsp;1개월분&nbsp;양천구에서&nbsp;추가&nbsp;지원(4개월&nbsp;→&nbsp;5개월)&nbsp;<br>&nbsp;&nbsp;○&nbsp;설치&nbsp;후&nbsp;10년이&nbsp;경과된&nbsp;냉방기&nbsp;교체·수리&nbsp;지연을&nbsp;양천구가&nbsp;선조치&nbsp;후&nbsp;정부에&nbsp;비용&nbsp;청구<br>&nbsp;&nbsp;○&nbsp;김포공항&nbsp;항공기&nbsp;심야운영시간&nbsp;단축&nbsp;추진&nbsp;(06시~23시&nbsp;→&nbsp;06시~22시)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	아이키우기 좋은 환경·함께 성장하는 교육도시 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="아이키우기 좋은 환경·함께 성장하는 교육도시 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;안정적인&nbsp;보육&nbsp;환경&nbsp;조성과&nbsp;맞춤형&nbsp;교육&nbsp;지원&nbsp;강화를&nbsp;통한&nbsp;교육도시&nbsp;양천구&nbsp;브랜드&nbsp;강화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;어린이집&nbsp;문·예·체&nbsp;특별활동&nbsp;전문강사&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;어린이집&nbsp;체험학습&nbsp;버스&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;장난감도서관&nbsp;온라인신청-집앞&nbsp;배송서비스&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;교육지원센터&nbsp;학습·진학·진로&nbsp;1:1&nbsp;컨설팅&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;활용&nbsp;역량&nbsp;강화&nbsp;학습&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;문화체험·과학관&nbsp;견학&nbsp;바우처&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;평생학습포털&nbsp;이용&nbsp;수강권&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

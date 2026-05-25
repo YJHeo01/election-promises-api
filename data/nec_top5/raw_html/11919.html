@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;나동연 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	부울경 광역철도 조기착공</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="부울경 광역철도 조기착공">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;기획재정부&nbsp;예비타당성&nbsp;조사&nbsp;통과에&nbsp;따른&nbsp;사업&nbsp;확정성을&nbsp;바탕으로,&nbsp;후속&nbsp;행정&nbsp;절차를&nbsp;최단기간&nbsp;내&nbsp;완료,&nbsp;단순한&nbsp;연결을&nbsp;넘어&nbsp;웅상-&nbsp;부산,웅상울산간&nbsp;30분&nbsp;생활권을&nbsp;구축하여&nbsp;동부양산의&nbsp;비약적&nbsp;발전&nbsp;도모를&nbsp;목표로&nbsp;한다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국토교통부&nbsp;및&nbsp;국가철도공단과&nbsp;협의하여&nbsp;기본계획&nbsp;수립완료&nbsp;및&nbsp;설계예산을&nbsp;조기&nbsp;반영하여&nbsp;중앙정부에&nbsp;건의하여&nbsp;착공시점을&nbsp;최대한&nbsp;앞당긴다.&nbsp;광역철도&nbsp;건설비&nbsp;국비를&nbsp;차질없이&nbsp;확보하고,경상남도와&nbsp;긴밀한&nbsp;협의를&nbsp;통해&nbsp;양산시의&nbsp;재정부담을&nbsp;경감하는&nbsp;분담&nbsp;비율을&nbsp;협의한다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;환경영향평가&nbsp;등&nbsp;후속&nbsp;행정&nbsp;절차&nbsp;조기&nbsp;완료&nbsp;2028년&nbsp;실시설계&nbsp;완료&nbsp;및&nbsp;총사업비&nbsp;협의&nbsp;마리&nbsp;2029년초&nbsp;임기&nbsp;내&nbsp;반드시&nbsp;착공.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;중앙정부&nbsp;국가철도망&nbsp;구축&nbsp;사업에&nbsp;따른&nbsp;국비&nbsp;지원을&nbsp;차질없이&nbsp;확보하고&nbsp;경상남도와&nbsp;양산시&nbsp;,부산시,울산시가&nbsp;분담분을&nbsp;연차별로&nbsp;분산&nbsp;편성한다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	부울경 행정통합청사 양산 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="부울경 행정통합청사 양산 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;부산,울산,경남의&nbsp;지리적&nbsp;중심지이자&nbsp;교통&nbsp;요충지인&nbsp;양산에&nbsp;통합청사를&nbsp;유치하여&nbsp;실질적인&nbsp;허브도시&nbsp;위상을&nbsp;확립한다.&nbsp;통합청사&nbsp;상주&nbsp;인력&nbsp;및&nbsp;유동&nbsp;인구&nbsp;유입을&nbsp;통해&nbsp;증산신도시와&nbsp;원도심의&nbsp;상권&nbsp;활성화에&nbsp;기여하고&nbsp;단순주거&nbsp;배후도시를&nbsp;넘어&nbsp;부울경의&nbsp;정책을&nbsp;결정하고&nbsp;집행하는&nbsp;‘행정수도&nbsp;양산’&nbsp;브랜드를&nbsp;구축한다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;부울경&nbsp;3개&nbsp;시·도&nbsp;어디서든&nbsp;접근이&nbsp;용이한&nbsp;‘지리적&nbsp;중심성’과&nbsp;광역&nbsp;교통망(지하철,광역철도,고속도로)을&nbsp;핵심&nbsp;논리로&nbsp;정부와&nbsp;시·도&nbsp;협의체를&nbsp;설득하고&nbsp;시민,사회단체,전문가가&nbsp;참여하는&nbsp;추진위원회를&nbsp;구성하여&nbsp;시민역량을&nbsp;결집하고&nbsp;범시민&nbsp;유치&nbsp;열기를&nbsp;중앙정부에&nbsp;전달한다.&nbsp;접근성과&nbsp;확장성이&nbsp;뛰어난&nbsp;부산대&nbsp;유휴부지를&nbsp;선정하여&nbsp;부지&nbsp;확보&nbsp;방안&nbsp;마련과국민의힘&nbsp;도지사&nbsp;및&nbsp;지역&nbsp;국회의원과&nbsp;긴밀한&nbsp;소통을&nbsp;통하여&nbsp;양산이&nbsp;우선&nbsp;고려될&nbsp;수&nbsp;있도록&nbsp;행정력을&nbsp;집중한다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년부터&nbsp;청사&nbsp;유치&nbsp;타당성&nbsp;조사&nbsp;용역&nbsp;실시&nbsp;및&nbsp;범시민&nbsp;유치활동을&nbsp;전개하고&nbsp;부울경&nbsp;특별자치체(또는&nbsp;행정통합)&nbsp;추진&nbsp;일정에&nbsp;맞춰&nbsp;입지&nbsp;선정&nbsp;확정&nbsp;및&nbsp;부지&nbsp;확보&nbsp;협의로&nbsp;2028년이후&nbsp;행정통합이&nbsp;최종&nbsp;결정되는&nbsp;시기까지&nbsp;청사건립&nbsp;기본설계와&nbsp;착공을&nbsp;연계하여&nbsp;추진한다.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;행정통합에&nbsp;따른&nbsp;특별교부세&nbsp;및&nbsp;부울경&nbsp;3개&nbsp;시·도의&nbsp;공동분담금을&nbsp;주&nbsp;재원으로&nbsp;활용한다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	황산공원 국가정원 승격 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="황산공원 국가정원 승격 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;황산공원을&nbsp;순천만,태화강에&nbsp;이은&nbsp;대한민국&nbsp;제3호&nbsp;국가정원으로&nbsp;승격시켜&nbsp;양산의&nbsp;대표&nbsp;브랜드로&nbsp;육성한다.&nbsp;인근&nbsp;지자체와&nbsp;연계한&nbsp;&nbsp;낙동강&nbsp;수변&nbsp;관광&nbsp;자원화를&nbsp;통해&nbsp;연간&nbsp;방문객&nbsp;500만&nbsp;시대를&nbsp;개막하고&nbsp;고품격&nbsp;휴식&nbsp;공간&nbsp;제공과&nbsp;정원산업&nbsp;관련&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;지역&nbsp;소상공인&nbsp;매출&nbsp;증대&nbsp;도모에&nbsp;목표를&nbsp;둔다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국가정원&nbsp;승격의&nbsp;필수&nbsp;전제&nbsp;조건인&nbsp;‘지방정원&nbsp;등록’을&nbsp;최우선&nbsp;추진하고&nbsp;법적&nbsp;요건&nbsp;충족을&nbsp;위한&nbsp;기반&nbsp;시설&nbsp;확충&nbsp;경남도&nbsp;및&nbsp;낙동가유역환경청과&nbsp;협의하여&nbsp;규제&nbsp;완화&nbsp;및&nbsp;환경&nbsp;보전과&nbsp;개발의&nbsp;균형점을&nbsp;확보하고&nbsp;『수목원·정원의&nbsp;조성&nbsp;및&nbsp;진흥에&nbsp;관한&nbsp;법률』&nbsp;에&nbsp;근거하여&nbsp;산림청의&nbsp;국가정원&nbsp;지정&nbsp;심사에&nbsp;전략적으로&nbsp;대응한다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;지방정원&nbsp;지정&nbsp;및&nbsp;국가정원&nbsp;승격&nbsp;위한&nbsp;마스트플랜을&nbsp;수립하고&nbsp;2027년~2028년&nbsp;테마정원&nbsp;조성&nbsp;및&nbsp;편의시설&nbsp;확충,지방정원&nbsp;운영성과&nbsp;축적.&nbsp;2029년~2030년&nbsp;국가정원&nbsp;승겨&nbsp;신청&nbsp;및&nbsp;임기내&nbsp;가시적&nbsp;성과를&nbsp;도출한다.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;‘낙동강&nbsp;시대’&nbsp;광역&nbsp;협력&nbsp;사업&nbsp;예산&nbsp;및&nbsp;산림청&nbsp;정원&nbsp;조성&nbsp;지원금&nbsp;확보와&nbsp;양산시&nbsp;연차별&nbsp;재정운용계획에&nbsp;따라&nbsp;시설관리&nbsp;및&nbsp;조성&nbsp;비용&nbsp;편성하고&nbsp;부산,울산,경남&nbsp;등&nbsp;낙동강&nbsp;권역&nbsp;지자체&nbsp;간&nbsp;공동&nbsp;관광&nbsp;활성화&nbsp;기금을&nbsp;조성하여&nbsp;활용한다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	증산신도시 조기 착공</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="증산신도시 조기 착공">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;물금읍&nbsp;증산리&nbsp;일원(증산뜰)을&nbsp;단순한&nbsp;주거&nbsp;단지를&nbsp;넘어&nbsp;주거·문화·산업이&nbsp;어우러진&nbsp;지역으로&nbsp;개발하고&nbsp;인근&nbsp;황산공원,증산상권과&nbsp;연계하여&nbsp;양산신도시의&nbsp;외연을&nbsp;확장하고&nbsp;도시&nbsp;경쟁력을&nbsp;강화하여&nbsp;양산시도시&nbsp;완성의&nbsp;마지막&nbsp;퍼즐을&nbsp;맞추는데&nbsp;목표를&nbsp;둔다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;개발제한구역(GB)&nbsp;해제&nbsp;및&nbsp;사업시행자(특수목적법인,SPC)&nbsp;지정&nbsp;절차를&nbsp;마무리와&nbsp;양산시가&nbsp;대주주로&nbsp;참여하는&nbsp;PFV를&nbsp;설립하여&nbsp;공공성을&nbsp;확보하고&nbsp;민간&nbsp;자본의&nbsp;효율성을&nbsp;결합한&nbsp;책임&nbsp;준공을&nbsp;추진한다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;실시계획&nbsp;승인&nbsp;및&nbsp;보상&nbsp;협의&nbsp;착수&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2028년&nbsp;증산지구&nbsp;도시개발사업&nbsp;본격착공&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2030년&nbsp;사업준공으로&nbsp;조기&nbsp;완공을&nbsp;목표<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;양산시의&nbsp;자본금&nbsp;출자&nbsp;및&nbsp;행정지원과&nbsp;민간자본&nbsp;컨소시엄등&nbsp;사업자의&nbsp;재원&nbsp;조달&nbsp;(PF&nbsp;대출&nbsp;등)을&nbsp;통해&nbsp;사업비&nbsp;확보.개발&nbsp;과정에서&nbsp;밠생하는&nbsp;민간&nbsp;수익을&nbsp;공공시설물&nbsp;건립&nbsp;및&nbsp;지역내&nbsp;재투자&nbsp;예산으로&nbsp;환원하여&nbsp;시민&nbsp;혜택&nbsp;극대화한다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	도시철도개통·원도심 상권 활성화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="도시철도개통·원도심 상권 활성화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;양산도시철도(노포-&nbsp;북정)를&nbsp;차질없이&nbsp;개통하여&nbsp;시민의&nbsp;교통&nbsp;편의를&nbsp;획기적으로&nbsp;개선하고,역세권을&nbsp;중심으로&nbsp;침체된&nbsp;원도심의&nbsp;상권&nbsp;활력을&nbsp;회복한다.&nbsp;신도시와&nbsp;원도심을&nbsp;잇는&nbsp;철도망을&nbsp;축으로&nbsp;도시&nbsp;전체의&nbsp;연결성을&nbsp;강화하여&nbsp;지역간&nbsp;격차를&nbsp;해소한다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시행청인&nbsp;부산교통공사와&nbsp;긴밀한&nbsp;협조체계를&nbsp;가동하여&nbsp;시설물&nbsp;검증&nbsp;및&nbsp;시운전기간을&nbsp;준수하여&nbsp;2026년&nbsp;하반기&nbsp;개통에&nbsp;차질없이&nbsp;추진.&nbsp;부산2호선&nbsp;환승&nbsp;거점으로&nbsp;유동&nbsp;인구를&nbsp;흡수할&nbsp;수&nbsp;있는&nbsp;환승센터&nbsp;및&nbsp;원도심&nbsp;주변&nbsp;환경&nbsp;정비와&nbsp;주변&nbsp;상업시설&nbsp;유치.도시철도&nbsp;개통에&nbsp;맟춰&nbsp;신선&nbsp;역사와&nbsp;원도심&nbsp;구석구석을&nbsp;잇는&nbsp;환승중심의&nbsp;버스&nbsp;노선&nbsp;최적화.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;도시철도&nbsp;시운전&nbsp;완료&nbsp;및&nbsp;적기&nbsp;개통.역세권&nbsp;개발&nbsp;계획&nbsp;수립&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2027년~2028년&nbsp;역세권&nbsp;특화거리&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2029년&nbsp;이후&nbsp;원도심&nbsp;상권&nbsp;활성화&nbsp;성과&nbsp;분석&nbsp;및&nbsp;고도화&nbsp;작업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;역세권&nbsp;주변&nbsp;상업&nbsp;용지&nbsp;개발&nbsp;시&nbsp;민간&nbsp;투자를&nbsp;적극&nbsp;유치하여&nbsp;상업&nbsp;시설&nbsp;및&nbsp;편의&nbsp;시설&nbsp;확충,소상공인&nbsp;육성&nbsp;자금&nbsp;및&nbsp;상권&nbsp;활성화&nbsp;지원&nbsp;기금&nbsp;활용&nbsp;한다.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

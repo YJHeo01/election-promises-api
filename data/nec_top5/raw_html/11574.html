@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;추경호 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	반도체 산업단지 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="반도체 산업단지 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;비수도권&nbsp;최대&nbsp;반도체&nbsp;산업&nbsp;거점&nbsp;도시&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;설계-제조-소부장&nbsp;연계형&nbsp;반도체&nbsp;생산&nbsp;산업단지&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;글로벌&nbsp;기업&nbsp;참여&nbsp;기반&nbsp;개방형&nbsp;산업&nbsp;생태계&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;반도체&nbsp;생산&nbsp;거점(Fab)&nbsp;유치&nbsp;전략화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시장&nbsp;직속&nbsp;투자유치단&nbsp;통해&nbsp;삼성,&nbsp;SK하이닉스&nbsp;등&nbsp;반도체&nbsp;대기업&nbsp;팹(Fab)&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반도체&nbsp;특화&nbsp;규제특구&nbsp;지정을&nbsp;통한&nbsp;인허가&nbsp;기간&nbsp;획기적&nbsp;단축,&nbsp;기업·연구소·주거시설&nbsp;통합&nbsp;배치로&nbsp;반도체&nbsp;인력&nbsp;정착&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;개방형&nbsp;투자&nbsp;및&nbsp;기업&nbsp;참여&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;실증·상용화(대구지역&nbsp;신산업&nbsp;현장에&nbsp;지역&nbsp;생산&nbsp;반도체&nbsp;우선&nbsp;적용)<br>&nbsp;&nbsp;○&nbsp;반도체&nbsp;특화&nbsp;인재&nbsp;양성&nbsp;및&nbsp;D-Fab&nbsp;실무&nbsp;교육&nbsp;의무화&nbsp;&nbsp;&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;대기업&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2034년&nbsp;반도체&nbsp;메가&nbsp;클러스터&nbsp;완성&nbsp;목표<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;대구시&nbsp;부지&nbsp;제공,&nbsp;민간투자&nbsp;병행,&nbsp;국가전략사업으로&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가&nbsp;반도체&nbsp;공급망&nbsp;분산&nbsp;및&nbsp;균형발전을&nbsp;위한&nbsp;대규모&nbsp;투자&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;기업&nbsp;연계&nbsp;설계-제조-생산-소부장&nbsp;완결형&nbsp;밸류체인&nbsp;이점으로&nbsp;투자확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	대구를 국가대표 창업도시로 도약·발전</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="대구를 국가대표 창업도시로 도약·발전">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;창업&nbsp;활성화&nbsp;통해&nbsp;유니콘이&nbsp;배출되는&nbsp;창업도시&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시제품&nbsp;개발부터&nbsp;실증,&nbsp;매출&nbsp;창출까지의&nbsp;속도를&nbsp;높이는&nbsp;통합&nbsp;인프라&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민·관&nbsp;매칭&nbsp;지역&nbsp;펀드&nbsp;확충&nbsp;및&nbsp;창업기획사&nbsp;연계&nbsp;후속&nbsp;투자&nbsp;강화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;창업성장펀드&nbsp;및&nbsp;재기펀드&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;3대&nbsp;딥테크(AI·SW/바이오·의료/로봇·모빌리티)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;거점별&nbsp;특성에&nbsp;맞는&nbsp;공간·장비·네트워크&nbsp;등&nbsp;전문&nbsp;창업&nbsp;지원&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동·서대구&nbsp;초역세권&nbsp;창업밸리&nbsp;조성으로&nbsp;수도권&nbsp;2시간&nbsp;비즈니스&nbsp;환경&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;이병철&nbsp;창업센터(가칭)&nbsp;설립&nbsp;및&nbsp;글로벌&nbsp;스케일업&nbsp;허브&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삼성&nbsp;창업정신을&nbsp;기반으로&nbsp;창업&nbsp;랜드마크&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;대기업&nbsp;연계&nbsp;오픈이노베이션&nbsp;및&nbsp;공동사업화&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;해외&nbsp;VC·글로벌&nbsp;기업&nbsp;연계&nbsp;투자&nbsp;및&nbsp;파트너십&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;계속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창업성장펀드&nbsp;1조원&nbsp;규모로&nbsp;조성&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시&nbsp;자체&nbsp;창업성장펀드&nbsp;1조원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대구시&nbsp;전용&nbsp;모펀드&nbsp;2,500억원&nbsp;이상&nbsp;조성(연차별&nbsp;단계적&nbsp;조성)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성장&nbsp;단계별&nbsp;자펀드&nbsp;7,500억원&nbsp;이상&nbsp;결성(AC&nbsp;→&nbsp;VC로&nbsp;유치&nbsp;확대)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	대구경북 통합신공항 국가사업 전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="대구경북 통합신공항 국가사업 전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;TK&nbsp;신공항&nbsp;국가주도&nbsp;건설로&nbsp;조기&nbsp;개항&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(군&nbsp;공항)&nbsp;국방부&nbsp;(민간공항)&nbsp;국토부&nbsp;직접&nbsp;책임<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신공항&nbsp;특별법&nbsp;개정&nbsp;및&nbsp;토지보상&nbsp;등&nbsp;사업&nbsp;조기&nbsp;착수<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;TK&nbsp;신공항&nbsp;특별법&nbsp;개정&nbsp;추진&nbsp;(국가&nbsp;책임형&nbsp;투자구조&nbsp;전환)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;10년&nbsp;이내&nbsp;완성&nbsp;목표로&nbsp;추진(반도체&nbsp;산업단지&nbsp;사업과&nbsp;연계)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;늦어도&nbsp;2027년까지&nbsp;법&nbsp;개정&nbsp;완료<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년까지&nbsp;토지보상,&nbsp;임기&nbsp;내&nbsp;민간&nbsp;개항&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;10년&nbsp;이내&nbsp;완전&nbsp;개항&nbsp;및&nbsp;항공물류&nbsp;거점&nbsp;신도시&nbsp;조성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국가사업&nbsp;전환(전액&nbsp;국비)으로&nbsp;시&nbsp;재정&nbsp;부담&nbsp;및&nbsp;사업&nbsp;리스크&nbsp;차단<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(군&nbsp;공항)&nbsp;11조&nbsp;5천억원&nbsp;(민간&nbsp;공항)&nbsp;2조&nbsp;5천억원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	도시철도망 및 도로망 확충</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="도시철도망 및 도로망 확충">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;도시철도&nbsp;및&nbsp;도로망&nbsp;확충&nbsp;통해&nbsp;시민의&nbsp;이동편의성&nbsp;개선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;도시철도·도로망&nbsp;확충&nbsp;및&nbsp;교통&nbsp;흐름&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시철도&nbsp;1호선&nbsp;제2국가산단&nbsp;연장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시철도&nbsp;3호선&nbsp;혁신도시&nbsp;연장&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시철도&nbsp;4호선&nbsp;모노레일&nbsp;방식&nbsp;변경&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시철도&nbsp;5호선(순환선)&nbsp;조속&nbsp;추진&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;남대구&nbsp;IC&nbsp;개선&nbsp;및&nbsp;주요&nbsp;간선도로&nbsp;정비&nbsp;통한&nbsp;상습&nbsp;정체&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4차순환도로&nbsp;완전&nbsp;개통&nbsp;및&nbsp;연결도로&nbsp;확충(교통&nbsp;분산&nbsp;및&nbsp;이동시간&nbsp;단축)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상습혼잡구간&nbsp;도로&nbsp;개선,&nbsp;고속도로&nbsp;하이패스&nbsp;IC&nbsp;확충<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;착공&nbsp;목표<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;확보&nbsp;및&nbsp;민간&nbsp;투자&nbsp;적극&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	행정 대혁신으로 공공서비스의 질 개선</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="행정 대혁신으로 공공서비스의 질 개선">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;행정&nbsp;효율성&nbsp;및&nbsp;시민의&nbsp;행정&nbsp;만족도&nbsp;제고<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일하는&nbsp;조직으로&nbsp;대구시&nbsp;조직&nbsp;개편&nbsp;및&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기능·역할에&nbsp;기반한&nbsp;공공기관&nbsp;재구조화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민과&nbsp;소통하고,&nbsp;시민의&nbsp;힘으로&nbsp;현안&nbsp;해결<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시장&nbsp;직속&nbsp;비상경제상황실&nbsp;설치&nbsp;및&nbsp;비상경제대책회의&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취임&nbsp;즉시&nbsp;비상경제&nbsp;추경&nbsp;편성&nbsp;통해&nbsp;속도감&nbsp;있는&nbsp;민생&nbsp;챙기기&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ex.&nbsp;전통시장&nbsp;지원&nbsp;확대,&nbsp;영세자영업자·소상공인&nbsp;지원,&nbsp;택시&nbsp;카드수수료&nbsp;지원&nbsp;등)<br>&nbsp;&nbsp;○&nbsp;현장&nbsp;친화적&nbsp;공공기관&nbsp;지배구조&nbsp;및&nbsp;운영체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화·체육·관광·복지&nbsp;분야&nbsp;등&nbsp;공공기관&nbsp;거버넌스&nbsp;및&nbsp;운영체계&nbsp;개편&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(일방적&nbsp;통폐합으로&nbsp;인한&nbsp;행정&nbsp;비효율&nbsp;혁신)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출자·출연&nbsp;기관&nbsp;통합관리&nbsp;책임·투명경영위원회&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;조례&nbsp;대정비&nbsp;추진&nbsp;통해&nbsp;민생·서비스&nbsp;및&nbsp;기업활동에&nbsp;걸림돌이&nbsp;되는&nbsp;규제&nbsp;대혁신(조례혁신위원회&nbsp;신설)<br>&nbsp;&nbsp;○&nbsp;각계가&nbsp;참여하는&nbsp;원탁회의&nbsp;운영(시장,&nbsp;경제계,&nbsp;시민단체,&nbsp;언론,&nbsp;국회의원,시정&nbsp;관계자&nbsp;등&nbsp;참여)<br>&nbsp;&nbsp;○&nbsp;시장&nbsp;직속&nbsp;국내외&nbsp;투자유치단&nbsp;신설(경제계와&nbsp;함께&nbsp;노동계&nbsp;대표도&nbsp;참여)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;추경&nbsp;재원(지방교부세&nbsp;증액분&nbsp;등)&nbsp;및&nbsp;필요한&nbsp;경우&nbsp;지방채&nbsp;발행<br>&nbsp;&nbsp;○&nbsp;행정&nbsp;효율화를&nbsp;통한&nbsp;추가&nbsp;재정&nbsp;확보</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

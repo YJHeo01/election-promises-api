@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;추미애 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	수도권 30분 출근 대전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="수도권 30분 출근 대전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;길&nbsp;위에&nbsp;버리는&nbsp;시간을&nbsp;도민에게&nbsp;돌려주기&nbsp;위한&nbsp;광역교통망&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;이동에&nbsp;대한&nbsp;부담과&nbsp;피로도를&nbsp;덜어&nbsp;도민의&nbsp;보편적&nbsp;이동권&nbsp;보장을&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;GTX&nbsp;지체&nbsp;없는&nbsp;개통&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX-A·B:&nbsp;안정적&nbsp;사업&nbsp;추진&nbsp;및&nbsp;원활한&nbsp;공사&nbsp;행정지원&nbsp;지속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX-C·D:&nbsp;조속한&nbsp;착공을&nbsp;위해&nbsp;행정지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX-D·E·F:&nbsp;제5차&nbsp;국가철도망&nbsp;계획에&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX-G·H:&nbsp;국가철도망&nbsp;계획&nbsp;반영을&nbsp;위한&nbsp;타당성·당위성&nbsp;확보&nbsp;작업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;수도권&nbsp;원(One)패스<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수도권의&nbsp;다양한&nbsp;교통패스를&nbsp;하나의&nbsp;‘수도권&nbsp;원(One)패스’로&nbsp;통합<br>&nbsp;&nbsp;○&nbsp;어린이·청소년&nbsp;“든든&nbsp;교통”<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어린이·청소년들이&nbsp;부담&nbsp;없이&nbsp;도서관,&nbsp;아동·청소년&nbsp;활동&nbsp;시설을&nbsp;이용하도록&nbsp;수도권&nbsp;내&nbsp;모든&nbsp;대중교통&nbsp;이용에&nbsp;대한&nbsp;지원을&nbsp;대폭&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;출퇴근&nbsp;시간&nbsp;“경기&nbsp;편하G&nbsp;버스”&nbsp;운행&nbsp;노선&nbsp;및&nbsp;횟수&nbsp;증대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2027년,&nbsp;연구용역&nbsp;실시&nbsp;및&nbsp;도&nbsp;재정사업에&nbsp;대한&nbsp;사업계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가사무,&nbsp;타&nbsp;시도&nbsp;협의사항&nbsp;및&nbsp;기초사무에&nbsp;대해서는&nbsp;중앙정부,&nbsp;서울·인천,&nbsp;도내&nbsp;시·군과&nbsp;협의<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특히,&nbsp;국가철도망계획&nbsp;반영,&nbsp;GTX&nbsp;노선별&nbsp;착공&nbsp;등을&nbsp;위해&nbsp;국토부&nbsp;등&nbsp;관계&nbsp;기관과&nbsp;협력하고&nbsp;수도원&nbsp;원패스&nbsp;비용분담&nbsp;등을&nbsp;서울·인천&nbsp;등과&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;2028년~2030년,&nbsp;사업&nbsp;진행에&nbsp;대한&nbsp;모니터링&nbsp;및&nbsp;행정지원<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;2026년의&nbsp;경우&nbsp;기존&nbsp;예산의&nbsp;조정&nbsp;또는&nbsp;추가경정예산&nbsp;편성을&nbsp;통해&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2027년부터&nbsp;중앙정부&nbsp;재정지원&nbsp;확보,&nbsp;시·군과의&nbsp;분담,&nbsp;민간&nbsp;투자유치&nbsp;등을&nbsp;통해&nbsp;조달</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	교통생활권 주거</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="교통생활권 주거">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;쾌적하고&nbsp;편리한&nbsp;주거환경&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주거비,&nbsp;출퇴근&nbsp;부담을&nbsp;줄일&nbsp;수&nbsp;있는&nbsp;역세권,&nbsp;공공택지&nbsp;등에&nbsp;주택&nbsp;공급&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1기&nbsp;신도시,&nbsp;원도심&nbsp;및&nbsp;주거&nbsp;취약지역의&nbsp;주거환경&nbsp;개선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청년·신혼부부&nbsp;역세권&nbsp;주거&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;역세권&nbsp;중심으로&nbsp;출퇴근이&nbsp;편리한&nbsp;입지에&nbsp;공공(임대)주택&nbsp;집중&nbsp;공급<br>&nbsp;&nbsp;○&nbsp;공공주택&nbsp;공급&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3기&nbsp;신도시&nbsp;등&nbsp;공공택지&nbsp;중심의&nbsp;주택&nbsp;적기공급으로&nbsp;안정적&nbsp;주거기반&nbsp;확립<br>&nbsp;&nbsp;○&nbsp;역세권&nbsp;중심&nbsp;생활권&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;역세권을&nbsp;일자리·돌봄·생활&nbsp;서비스가&nbsp;집약된&nbsp;복합&nbsp;생활거점으로&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;1기&nbsp;신도시&nbsp;재건축&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;선도지구(15곳)&nbsp;인허가&nbsp;절차의&nbsp;신속&nbsp;추진을&nbsp;지원하고,&nbsp;후속지구도&nbsp;신속히&nbsp;사업이&nbsp;진행되도록&nbsp;사업&nbsp;착수&nbsp;초기&nbsp;단계부터&nbsp;사전자문과&nbsp;행정&nbsp;지원&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;정비사업&nbsp;공공지원&nbsp;강화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정비사업&nbsp;코디네이터(신설)와&nbsp;도·시·군&nbsp;합동조사단을&nbsp;파견해&nbsp;사업&nbsp;정상화&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;공공주도&nbsp;취약지역&nbsp;정비사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업성과&nbsp;추진&nbsp;동력이&nbsp;부족한&nbsp;노후·열악&nbsp;지역에서&nbsp;공공주도&nbsp;재개발사업,&nbsp;도심&nbsp;공공주택&nbsp;복합사업&nbsp;등을&nbsp;통해&nbsp;공공&nbsp;주도&nbsp;정비사업&nbsp;적극&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2027년,&nbsp;전담조직&nbsp;구성&nbsp;및&nbsp;실태조사,&nbsp;사업계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공택지&nbsp;주택사업&nbsp;및&nbsp;정비사업,&nbsp;모니터링&nbsp;및&nbsp;애로사항&nbsp;해소&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공주도&nbsp;정비사업,&nbsp;시범사업&nbsp;후보지&nbsp;발굴&nbsp;및&nbsp;시군&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;2028년~2030년,&nbsp;사업&nbsp;진행에&nbsp;대한&nbsp;모니터링&nbsp;및&nbsp;행정지원<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;2026년의&nbsp;경우&nbsp;기존&nbsp;예산의&nbsp;조정&nbsp;또는&nbsp;추가경정예산&nbsp;편성을&nbsp;통해&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2027년부터&nbsp;주택도시보증공사(HUG)&nbsp;재정지원&nbsp;확보,&nbsp;시·군과의&nbsp;분담,&nbsp;경기주택도시공사(GH)&nbsp;공사채&nbsp;발행&nbsp;및&nbsp;리츠&nbsp;등&nbsp;민간자본&nbsp;활용해&nbsp;조달</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	함께 성장하는 대한민국 경제 1번지</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="함께 성장하는 대한민국 경제 1번지">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;세계를&nbsp;선도하는&nbsp;K-반도체의&nbsp;초격차&nbsp;경쟁력&nbsp;공고화<br>&nbsp;&nbsp;○&nbsp;경기&nbsp;북부&nbsp;및&nbsp;농촌지역&nbsp;균형&nbsp;성장을&nbsp;위한&nbsp;거점&nbsp;및&nbsp;시스템&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;K-반도체&nbsp;생태계&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반도체&nbsp;설계(팹리스)에서&nbsp;생산,&nbsp;소·부·장,&nbsp;연구개발,&nbsp;후공정,&nbsp;R&D&nbsp;및&nbsp;실증까지&nbsp;포괄하는&nbsp;전주기형&nbsp;반도체산업&nbsp;생태계&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;수요&nbsp;맞춤형&nbsp;인재&nbsp;양성&nbsp;및&nbsp;취업·창업&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반도체기술원&nbsp;및&nbsp;반도체대학원&nbsp;유치·설립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전략산업&nbsp;육성을&nbsp;위한&nbsp;‘경기미래투자공사’(가칭)&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘AI&nbsp;반도체&nbsp;전략위원회’&nbsp;설치해&nbsp;추진체계&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;미래농업&nbsp;투자&nbsp;확대&nbsp;및&nbsp;햇빛소득마을&nbsp;확대&nbsp;등&nbsp;농업인&nbsp;생활안정&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;“특별한&nbsp;희생에는&nbsp;특별한&nbsp;보상을!”&nbsp;:&nbsp;평화지대&nbsp;발전계획&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첨단산업·스마트농업·관광산업을&nbsp;결합한&nbsp;평화경제특구&nbsp;지정을&nbsp;추진하고&nbsp;경기·인천·강원&nbsp;지역&nbsp;지자체가&nbsp;참여하는&nbsp;상설협의체&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;항공·우주,&nbsp;MRO&nbsp;등&nbsp;첨단산업&nbsp;특화단지&nbsp;조성&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2027년,&nbsp;연구용역&nbsp;실시&nbsp;및&nbsp;도&nbsp;재정사업에&nbsp;대한&nbsp;사업계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘AI&nbsp;반도체&nbsp;전략위원회’&nbsp;및&nbsp;경기·인천·강원&nbsp;상설협의체&nbsp;구성·운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간참여형&nbsp;정책펀드&nbsp;설립·운영&nbsp;후&nbsp;‘경기미래투자공사’(가칭)&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2028년~2030년,&nbsp;전담&nbsp;TF&nbsp;구성(계획&nbsp;이행,&nbsp;부지&nbsp;선정,&nbsp;정부&nbsp;협의&nbsp;등)&nbsp;후&nbsp;사업&nbsp;진행에&nbsp;대한&nbsp;모니터링&nbsp;및&nbsp;행정지원<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;2026년에는&nbsp;기존&nbsp;예산의&nbsp;조정&nbsp;또는&nbsp;추가경정예산&nbsp;편성을&nbsp;통해&nbsp;추진하고,&nbsp;민간참여형&nbsp;정책펀드(정책금융)를&nbsp;통한&nbsp;전략산업&nbsp;지원&nbsp;준비를&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;2027년부터&nbsp;중앙정부&nbsp;재정지원&nbsp;확보,&nbsp;민간의&nbsp;직접&nbsp;및&nbsp;간접&nbsp;투자금&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특히,&nbsp;반도체클러스터&nbsp;인프라&nbsp;및&nbsp;햇빛소득마을(행안부&nbsp;지방소멸대응기금)&nbsp;조성에&nbsp;국비&nbsp;확보&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	든든한 안심·복지 및 문화 향유</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="든든한 안심·복지 및 문화 향유">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;기본적&nbsp;삶을&nbsp;함께&nbsp;누릴&nbsp;수&nbsp;있는&nbsp;안전망&nbsp;강화&nbsp;및&nbsp;관련&nbsp;서비스&nbsp;접근성&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;실효적&nbsp;‘경기돌봄기준선’&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경기도민이라면&nbsp;누구나&nbsp;누려야&nbsp;하는&nbsp;‘필수&nbsp;돌봄서비스’를&nbsp;누릴&nbsp;수&nbsp;있도록&nbsp;분야별&nbsp;기준을&nbsp;설정<br>&nbsp;&nbsp;○&nbsp;복지생활권(G-Care)&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전&nbsp;세대&nbsp;돌봄수요를&nbsp;집약시킨&nbsp;‘돌봄&nbsp;SOC&nbsp;거점시설’&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;임산부&nbsp;원스톱&nbsp;서비스&nbsp;확대&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부의&nbsp;‘맘편한&nbsp;임신’,&nbsp;‘행복&nbsp;출산’과&nbsp;경기도&nbsp;및&nbsp;31개&nbsp;시·군&nbsp;자체&nbsp;사업을&nbsp;완전&nbsp;연계하여&nbsp;한&nbsp;번의&nbsp;동의(보건소·민원센터&nbsp;등에서&nbsp;접수)로&nbsp;일괄&nbsp;신청·처리<br>&nbsp;&nbsp;○&nbsp;공공산후조리원&nbsp;및&nbsp;공공요양원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;무장애(배리어프리)&nbsp;관광지&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경사로&nbsp;및&nbsp;장애인화장실&nbsp;설치&nbsp;등&nbsp;장애인？노인&nbsp;접근성을&nbsp;높인&nbsp;관광시설&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;문화격차&nbsp;해소를&nbsp;위한&nbsp;문화바우처&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;한예종&nbsp;유치&nbsp;및&nbsp;예술？교육&nbsp;융합&nbsp;클러스터&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인프라&nbsp;및&nbsp;지원책을&nbsp;마련하여&nbsp;한예종&nbsp;유치를&nbsp;적극&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2027년,&nbsp;연구용역·실태조사&nbsp;및&nbsp;도&nbsp;재정사업에&nbsp;대한&nbsp;사업계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공산후조리원,&nbsp;공공요양원,&nbsp;무장애&nbsp;관광지&nbsp;등&nbsp;시설&nbsp;지원이&nbsp;필요한&nbsp;지역&nbsp;선정(공모)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한예종&nbsp;유치&nbsp;희망&nbsp;시군&nbsp;경쟁력&nbsp;강화를&nbsp;위한&nbsp;지원계획&nbsp;등&nbsp;협의&nbsp;및&nbsp;조정<br>&nbsp;&nbsp;○&nbsp;2028년~2030년,&nbsp;사업&nbsp;진행에&nbsp;대한&nbsp;모니터링&nbsp;및&nbsp;행정지원<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;2026년의&nbsp;경우&nbsp;기존&nbsp;예산의&nbsp;조정&nbsp;또는&nbsp;추가경정&nbsp;예산&nbsp;편성을&nbsp;통해&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2027년부터&nbsp;지역균형발전특별회계&nbsp;등&nbsp;중앙정부&nbsp;재정지원&nbsp;확보,&nbsp;시·군과의&nbsp;예산&nbsp;분담&nbsp;등을&nbsp;통해&nbsp;조달</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	안심생활·안전일터 및 혁신행정</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="안심생활·안전일터 및 혁신행정">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;생명과&nbsp;안전이&nbsp;우선인&nbsp;경기도&nbsp;구현<br>&nbsp;&nbsp;○&nbsp;행정의&nbsp;투명성과&nbsp;문제해결&nbsp;능력&nbsp;제고<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;경기도&nbsp;노동감독관&nbsp;신속&nbsp;도입&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방&nbsp;감독관&nbsp;채용,&nbsp;현장&nbsp;밀착형&nbsp;감독&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;체불&nbsp;방지를&nbsp;위한&nbsp;임금&nbsp;직접지급제&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공부문부터&nbsp;온전한&nbsp;직접지급&nbsp;체계&nbsp;확립&nbsp;및&nbsp;민간&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;원·하청&nbsp;공동&nbsp;산업안전보건위원회&nbsp;구성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사내하청&nbsp;있는&nbsp;산하&nbsp;공공기관부터&nbsp;하청&nbsp;노동자의&nbsp;산업안전보건위원회&nbsp;참여를&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기반&nbsp;응급의료&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI를&nbsp;활용해&nbsp;신속하게&nbsp;이송할&nbsp;병원을&nbsp;결정,&nbsp;응급실&nbsp;‘뺑뺑이’&nbsp;근절<br>&nbsp;&nbsp;○&nbsp;도지사&nbsp;직속&nbsp;AI&nbsp;수석&nbsp;신설&nbsp;추진,&nbsp;도정&nbsp;전반의&nbsp;AI&nbsp;전환&nbsp;가속화<br>&nbsp;&nbsp;○&nbsp;도민과&nbsp;함께하는&nbsp;타운홀&nbsp;미팅&nbsp;정례화로&nbsp;도민&nbsp;정책참여&nbsp;및&nbsp;소통&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;경기도&nbsp;AI&nbsp;통합&nbsp;민원&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;경기&nbsp;공공데이터&nbsp;공개&nbsp;및&nbsp;이용&nbsp;환경&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;수도권행정협의회&nbsp;협의체&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통&nbsp;등&nbsp;서울·인천과의&nbsp;공동현안&nbsp;해결을&nbsp;위한&nbsp;상시협의&nbsp;체제&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2027년,&nbsp;사업계획&nbsp;수립,&nbsp;관련&nbsp;조례&nbsp;제·개정&nbsp;및&nbsp;필수&nbsp;인력&nbsp;충원&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙정부,&nbsp;서울·인천,&nbsp;도내&nbsp;시·군과의&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수도권행정협의회에서&nbsp;‘수도권&nbsp;원(One)패스’&nbsp;도입,&nbsp;광역버스&nbsp;증차,&nbsp;환승센터&nbsp;구축&nbsp;등&nbsp;현안&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;2028년~2030년,&nbsp;사업&nbsp;진행에&nbsp;대한&nbsp;모니터링&nbsp;및&nbsp;행정지원<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;2026년의&nbsp;경우&nbsp;기존&nbsp;예산의&nbsp;조정&nbsp;또는&nbsp;추가경정&nbsp;예산&nbsp;편성을&nbsp;통해&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특히,&nbsp;노동감독관&nbsp;인건비·운영비용과&nbsp;AI&nbsp;기반&nbsp;응급의료체제&nbsp;구축비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;2027년부터&nbsp;시·군과의&nbsp;분담&nbsp;기준을&nbsp;명확화</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

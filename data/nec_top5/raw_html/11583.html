@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김현욱 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	국민발의제도 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="국민발의제도 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;국민발의제도&nbsp;도입&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국민주권시대에&nbsp;부합하는&nbsp;국회&nbsp;또는&nbsp;지방자치단체의회에서&nbsp;법률&nbsp;및&nbsp;조례&nbsp;통과와&nbsp;공표에&nbsp;있어&nbsp;국민주권에&nbsp;반하는&nbsp;악법이&nbsp;통과되었을&nbsp;때&nbsp;국민의&nbsp;뜻에&nbsp;따른&nbsp;직접&nbsp;민주주의강화로&nbsp;법률과&nbsp;조례에&nbsp;대한&nbsp;유권자&nbsp;10%서명을&nbsp;받아&nbsp;법률에관한&nbsp;재심의를&nbsp;하는&nbsp;주민발의제도를&nbsp;신설하여&nbsp;국민주권&nbsp;시대&nbsp;실현<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국회&nbsp;또는&nbsp;지방의회&nbsp;승인의결과&nbsp;국민투표<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;1일&nbsp;~&nbsp;완료때까지&nbsp;끊임없는&nbsp;투쟁<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;자원의&nbsp;문제가&nbsp;아닌&nbsp;국민주권&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방선거&nbsp;또는&nbsp;총선때&nbsp;동시&nbsp;국민의견수렴의&nbsp;정책투표&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;절대거대독과점&nbsp;양당제&nbsp;청산&nbsp;및&nbsp;축소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;간접민주주의에서&nbsp;직접민주주의&nbsp;시대로</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	행정계층 및 행정구역 통폐합</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="행정계층 및 행정구역 통폐합">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;행정계층&nbsp;및&nbsp;행정구역&nbsp;통폐합으로&nbsp;국가&nbsp;대개조<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국회&nbsp;및&nbsp;지방자치단체의회&nbsp;의결승인으로&nbsp;행정계층&nbsp;2~3단계로&nbsp;축소&nbsp;및&nbsp;행정구역&nbsp;통폐합으로&nbsp;전국&nbsp;70여개&nbsp;지정시로&nbsp;통합<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;1일&nbsp;~&nbsp;시행시까지&nbsp;투쟁<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;행정개혁에&nbsp;관한&nbsp;입법사항으로&nbsp;특별한&nbsp;재원이&nbsp;발생치&nbsp;않습니다.<br>&nbsp;&nbsp;○&nbsp;행정개혁으로&nbsp;가용자산&nbsp;늘려야&nbsp;나라와&nbsp;국민이&nbsp;산다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	행정,소방,교육,경찰업무 통폐합</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="행정,소방,교육,경찰업무 통폐합">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전국민&nbsp;안전시대&nbsp;창출<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;소방,&nbsp;교육,&nbsp;행정,&nbsp;경찰의&nbsp;기초자치단체장&nbsp;지휘&nbsp;및&nbsp;예산시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;행정,&nbsp;경찰,&nbsp;소방,&nbsp;교육의&nbsp;일원화로&nbsp;책임정치&nbsp;구현<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;1일&nbsp;~&nbsp;시행시까지&nbsp;투쟁&nbsp;<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;행정,&nbsp;경찰,&nbsp;소방,&nbsp;교육제도&nbsp;개혁으로&nbsp;특별한&nbsp;재원조달&nbsp;불필요<br>&nbsp;&nbsp;○&nbsp;경찰,&nbsp;소방,&nbsp;교육지원청(기초자치단체)이&nbsp;법률&nbsp;및&nbsp;감사&nbsp;사각지대에&nbsp;있기에&nbsp;기초자치단체장과&nbsp;기초의회&nbsp;감사&nbsp;및&nbsp;인사,&nbsp;예산등&nbsp;행정개혁</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	무상의료 및 무상장례 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="무상의료 및 무상장례 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;무상의료&nbsp;및&nbsp;무상장례&nbsp;실현<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;의료보험&nbsp;사각지대에&nbsp;있는&nbsp;특이질환,&nbsp;난임치료,&nbsp;시험관아기시술&nbsp;등&nbsp;의료보험&nbsp;미적용분야&nbsp;전액&nbsp;국가&nbsp;또는&nbsp;지자체&nbsp;무상의료&nbsp;실현<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;1일&nbsp;~&nbsp;완료시까지&nbsp;투쟁<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;행정계층&nbsp;및&nbsp;행정구역&nbsp;통폐합에&nbsp;따른&nbsp;국가&nbsp;가용자산&nbsp;활용의&nbsp;생활정치&nbsp;정책</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	무상주택 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="무상주택 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;무상주택&nbsp;실현<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;분양주택제도를&nbsp;폐지하고&nbsp;공공임대주택만&nbsp;승인하여&nbsp;주택문제&nbsp;해결<br>&nbsp;&nbsp;○&nbsp;주택을&nbsp;소유의&nbsp;개념에서&nbsp;거주의&nbsp;개념으로&nbsp;인식의&nbsp;대전환<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;1일&nbsp;~&nbsp;완료시까지&nbsp;투쟁<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시군구&nbsp;기초자치단체에서&nbsp;임대주택&nbsp;소유권을&nbsp;가지고&nbsp;30년&nbsp;고정금리로&nbsp;주택공급의&nbsp;공공주택정책<br>&nbsp;&nbsp;○&nbsp;주택구입에&nbsp;따른&nbsp;비생산적&nbsp;사회에서&nbsp;국민의&nbsp;삶이&nbsp;행복한&nbsp;거주개념의&nbsp;생산복지&nbsp;대한민국&nbsp;실현</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;신동화 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	경기주택도시공사(GH) 주사무소 1년 내 이전 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="경기주택도시공사(GH) 주사무소 1년 내 이전 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목표&nbsp;:&nbsp;경기&nbsp;동·북부&nbsp;균형발전과&nbsp;구리시&nbsp;미래성장&nbsp;기반&nbsp;마련을&nbsp;위해&nbsp;경기주택도시공사(GH)&nbsp;주사무소&nbsp;이전&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;공공기관&nbsp;이전을&nbsp;통해&nbsp;일자리와&nbsp;생활인프라를&nbsp;확충하고,&nbsp;구리를&nbsp;경기&nbsp;동·북부&nbsp;균형발전&nbsp;거점도시로&nbsp;육성<br><br>■&nbsp;이행방법&nbsp;:&nbsp;경기도·GH·관계기관&nbsp;협의체를&nbsp;구성해&nbsp;이전부지&nbsp;확정&nbsp;및&nbsp;행정절차를&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;단계별&nbsp;이전계획&nbsp;수립과&nbsp;함께&nbsp;교통·생활&nbsp;인프라&nbsp;확충&nbsp;및&nbsp;지역경제&nbsp;활성화&nbsp;추진<br><br>■&nbsp;이행기간&nbsp;:&nbsp;연도별&nbsp;추진계획&nbsp;(2026~2030)<br>======================================================<br>&nbsp;&nbsp;연도&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;추진내용<br>--------------------------------------------------------------------------------------<br>2026년&nbsp;&nbsp;|&nbsp;GH&nbsp;이전&nbsp;추진협의체&nbsp;구성,&nbsp;임시청사&nbsp;및&nbsp;선이전&nbsp;가능부서&nbsp;협의<br>--------------------------------------------------------------------------------------<br>2027년&nbsp;&nbsp;|&nbsp;임시청사&nbsp;주사무소&nbsp;이전,&nbsp;기본계획·타당성&nbsp;검토&nbsp;추진<br>--------------------------------------------------------------------------------------<br>2028년&nbsp;&nbsp;|&nbsp;설계·인허가&nbsp;및&nbsp;예산&nbsp;반영,&nbsp;단계별&nbsp;이전&nbsp;협약&nbsp;체결<br>--------------------------------------------------------------------------------------<br>2029년&nbsp;&nbsp;|&nbsp;청사&nbsp;착공&nbsp;및&nbsp;일부&nbsp;기능·부서&nbsp;선이전&nbsp;추진<br>--------------------------------------------------------------------------------------<br>2030년&nbsp;&nbsp;|&nbsp;주사무소&nbsp;단계별&nbsp;이전&nbsp;및&nbsp;연관산업&nbsp;유치&nbsp;추진<br>======================================================<br><br>■&nbsp;재원조달&nbsp;방안&nbsp;:&nbsp;GH&nbsp;자체&nbsp;재원과&nbsp;경기도&nbsp;재정지원,&nbsp;국비&nbsp;공모사업을&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;청사&nbsp;이전&nbsp;비용은&nbsp;GH&nbsp;사업수익&nbsp;및&nbsp;공사채를&nbsp;활용하고,&nbsp;기반시설은&nbsp;국비·도비&nbsp;지원사업과&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;민간투자&nbsp;및&nbsp;공공·민간&nbsp;협력개발&nbsp;방식&nbsp;병행&nbsp;검토<br><br>■&nbsp;재원조달&nbsp;근거<br>&nbsp;&nbsp;·&nbsp;「지방공기업법」&nbsp;및&nbsp;경기도&nbsp;공공기관&nbsp;이전&nbsp;정책&nbsp;근거<br>&nbsp;&nbsp;·&nbsp;GH&nbsp;자체&nbsp;사업수익과&nbsp;공사채&nbsp;발행을&nbsp;통한&nbsp;재원&nbsp;조달&nbsp;가능<br>&nbsp;&nbsp;·&nbsp;경기&nbsp;동·북부&nbsp;균형발전&nbsp;정책과&nbsp;연계한&nbsp;국비&nbsp;지원사업&nbsp;활용&nbsp;가능</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	토평2지구 자족 기능 강화 및 미래산업 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="토평2지구 자족 기능 강화 및 미래산업 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목표&nbsp;:&nbsp;자족시설&nbsp;용지를&nbsp;확대하여&nbsp;AI·데이터·소프트웨어·디지털&nbsp;헬스케어·MICE&nbsp;산업&nbsp;중심의&nbsp;AI·디지털&nbsp;선도도시&nbsp;조성<br>&nbsp;&nbsp;·&nbsp;첨단산업과&nbsp;일자리가&nbsp;공존하는&nbsp;자족형&nbsp;도시를&nbsp;구축하여&nbsp;청년·기업&nbsp;유입과&nbsp;지역경제&nbsp;활성화&nbsp;실현<br><br>■&nbsp;이행방법&nbsp;:자족시설&nbsp;용지&nbsp;확대와&nbsp;첨단산업&nbsp;유치&nbsp;특화계획을&nbsp;수립하고,&nbsp;기업&nbsp;유치&nbsp;인센티브&nbsp;및&nbsp;산·학·연&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;AI·디지털&nbsp;헬스케어·문화·MICE&nbsp;산업&nbsp;중심의&nbsp;혁신클러스터&nbsp;조성과&nbsp;교통·정주여건&nbsp;개선&nbsp;병행&nbsp;추진<br>&nbsp;<br>■&nbsp;이행기간&nbsp;:&nbsp;연도별&nbsp;추진계획&nbsp;(2026~2030)<br>======================================================<br>&nbsp;&nbsp;연도&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;추진내용<br>--------------------------------------------------------------------------------------<br>2026년&nbsp;&nbsp;|&nbsp;토평2지구&nbsp;자족기능&nbsp;강화&nbsp;TF&nbsp;구성&nbsp;및&nbsp;LH&nbsp;협의&nbsp;착수<br>--------------------------------------------------------------------------------------<br>2027년&nbsp;&nbsp;|&nbsp;자족용지&nbsp;확대&nbsp;및&nbsp;첨단산업&nbsp;유치계획&nbsp;반영&nbsp;추진<br>--------------------------------------------------------------------------------------<br>2028년&nbsp;&nbsp;|&nbsp;기업유치&nbsp;전략&nbsp;수립&nbsp;및&nbsp;투자유치&nbsp;설명회&nbsp;개최<br>--------------------------------------------------------------------------------------<br>2029년&nbsp;&nbsp;|&nbsp;선도기업·창업지원시설&nbsp;유치<br>--------------------------------------------------------------------------------------<br>2030년&nbsp;&nbsp;|&nbsp;AI·디지털&nbsp;기반&nbsp;미래산업&nbsp;클러스터&nbsp;단계별&nbsp;조성&nbsp;추진<br>======================================================<br><br>■&nbsp;재원조달&nbsp;방안&nbsp;:&nbsp;공공개발&nbsp;재원과&nbsp;민간투자,&nbsp;국비&nbsp;공모사업&nbsp;및&nbsp;경기도&nbsp;지원사업을&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;LH·GH&nbsp;개발이익과&nbsp;도시개발&nbsp;특별회계를&nbsp;활용하고,&nbsp;첨단산업&nbsp;분야&nbsp;민간기업&nbsp;투자&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;AI·디지털&nbsp;헬스케어·MICE&nbsp;분야&nbsp;공공·민간&nbsp;협력개발&nbsp;방식&nbsp;도입&nbsp;검토<br><br>■&nbsp;재원조달&nbsp;근거<br>&nbsp;&nbsp;·&nbsp;「도시개발법」,&nbsp;「산업집적활성화&nbsp;및&nbsp;공장설립에&nbsp;관한&nbsp;법률」,&nbsp;「국가균형발전&nbsp;특별법」&nbsp;근거<br>&nbsp;&nbsp;·&nbsp;공공택지&nbsp;개발이익과&nbsp;지방공기업&nbsp;투자재원&nbsp;활용&nbsp;가능<br>&nbsp;&nbsp;·&nbsp;정부&nbsp;AI·디지털&nbsp;산업&nbsp;육성&nbsp;정책&nbsp;및&nbsp;경기&nbsp;동·북부&nbsp;균형발전&nbsp;전략과&nbsp;연계&nbsp;가능</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	수도권 동·북부 교통 허브 도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="수도권 동·북부 교통 허브 도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목표&nbsp;:&nbsp;서울&nbsp;도심&nbsp;및&nbsp;수도권&nbsp;주요&nbsp;거점&nbsp;접근&nbsp;시간을&nbsp;단축하여&nbsp;구리를&nbsp;수도권&nbsp;동·북부&nbsp;광역교통&nbsp;중심도시로&nbsp;육성<br>&nbsp;&nbsp;·&nbsp;GTX-B노선&nbsp;갈매역&nbsp;정차·지하철&nbsp;6호서&nbsp;연장을&nbsp;통해&nbsp;출퇴근&nbsp;교통난을&nbsp;해소하고,&nbsp;토평2지구·갈매지구와&nbsp;연계한&nbsp;광역교통체계&nbsp;구축<br><br>■&nbsp;이행방법&nbsp;:&nbsp;국가철도망&nbsp;및&nbsp;광역교통계획&nbsp;반영&nbsp;추진,&nbsp;경기도·서울시·국토교통부&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;광역교통&nbsp;수요&nbsp;분석과&nbsp;정책&nbsp;건의를&nbsp;통해&nbsp;사업&nbsp;타당성을&nbsp;확보하고,&nbsp;토평2지구&nbsp;광역교통대책과&nbsp;연계&nbsp;추진<br><br>■&nbsp;이행기간&nbsp;:&nbsp;연도별&nbsp;추진계획&nbsp;(2026~2030)<br>======================================================<br>&nbsp;&nbsp;연도&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;추진내용<br>--------------------------------------------------------------------------------------<br>2026년&nbsp;&nbsp;|&nbsp;GTX-B&nbsp;갈매역&nbsp;정차&nbsp;추진단&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;6호선·9호선·면목선&nbsp;연장&nbsp;추진협의체&nbsp;구성<br>--------------------------------------------------------------------------------------<br>2027년&nbsp;&nbsp;|&nbsp;국가철도망·광역교통계획&nbsp;반영&nbsp;건의&nbsp;및&nbsp;사전타당성&nbsp;협의<br>--------------------------------------------------------------------------------------<br>2028년&nbsp;&nbsp;|&nbsp;관계기관&nbsp;협의&nbsp;및&nbsp;정책성·경제성&nbsp;확보&nbsp;추진<br>--------------------------------------------------------------------------------------<br>2029년&nbsp;&nbsp;|&nbsp;예비타당성·기본계획&nbsp;반영&nbsp;공동&nbsp;대응<br>--------------------------------------------------------------------------------------<br>2030년&nbsp;&nbsp;|&nbsp;국가계획&nbsp;반영&nbsp;및&nbsp;단계별&nbsp;사업&nbsp;추진&nbsp;기반&nbsp;마련<br>======================================================<br><br>■&nbsp;재원조달&nbsp;방안&nbsp;:&nbsp;국비&nbsp;중심&nbsp;추진,&nbsp;경기도·구리시&nbsp;지방비&nbsp;및&nbsp;광역교통개선부담금&nbsp;연계&nbsp;활용<br>&nbsp;&nbsp;·&nbsp;GTX·광역철도는&nbsp;국비&nbsp;중심으로&nbsp;추진하고,&nbsp;도시철도&nbsp;연장사업은&nbsp;지방비와&nbsp;개발사업&nbsp;연계&nbsp;재원&nbsp;병행&nbsp;활용<br>&nbsp;&nbsp;·&nbsp;토평2지구&nbsp;및&nbsp;역세권&nbsp;개발과&nbsp;연계한&nbsp;민간투자·공공·민간&nbsp;협력방식&nbsp;검토<br><br>■&nbsp;재원조달&nbsp;근거<br>&nbsp;&nbsp;·&nbsp;「국가철도망&nbsp;구축계획」,&nbsp;「대도시권&nbsp;광역교통&nbsp;관리에&nbsp;관한&nbsp;특별법」,&nbsp;「도시철도법」&nbsp;근거<br>&nbsp;&nbsp;·&nbsp;국가철도사업&nbsp;국비&nbsp;지원&nbsp;및&nbsp;광역교통개선부담금&nbsp;활용&nbsp;가능<br>&nbsp;&nbsp;·&nbsp;수도권&nbsp;동·북부&nbsp;광역교통&nbsp;개선&nbsp;정책&nbsp;및&nbsp;토평2지구&nbsp;개발계획과&nbsp;연계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	사노동 e-커머스 복합개발 및 첨단물류 거점 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="사노동 e-커머스 복합개발 및 첨단물류 거점 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목표&nbsp;:&nbsp;사노동&nbsp;일대를&nbsp;첨단&nbsp;물류·유통·벤처산업이&nbsp;융합된&nbsp;수도권&nbsp;동·북부&nbsp;e-커머스&nbsp;핵심&nbsp;거점으로&nbsp;육성<br>&nbsp;&nbsp;·&nbsp;물류단지와&nbsp;벤처기업&nbsp;촉진지구를&nbsp;연계&nbsp;조성해&nbsp;양질의&nbsp;일자리&nbsp;창출과&nbsp;지역경제&nbsp;활성화&nbsp;추진<br><br>■&nbsp;이행방법&nbsp;:&nbsp;첨단&nbsp;물류단지&nbsp;및&nbsp;벤처기업&nbsp;집적화&nbsp;계획&nbsp;수립,&nbsp;스마트&nbsp;물류&nbsp;인프라&nbsp;및&nbsp;기업지원&nbsp;플랫폼&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;AI&nbsp;기반&nbsp;스마트물류&nbsp;시스템과&nbsp;스타트업·벤처기업&nbsp;지원시설을&nbsp;조성하고,&nbsp;광역교통망과&nbsp;연계한&nbsp;물류&nbsp;허브&nbsp;기능&nbsp;강화&nbsp;추진<br>&nbsp;<br>■&nbsp;이행기간&nbsp;:&nbsp;연도별&nbsp;추진계획&nbsp;(2026~2030)<br>======================================================<br>&nbsp;&nbsp;연도&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;추진내용<br>--------------------------------------------------------------------------------------<br>2026년&nbsp;&nbsp;|&nbsp;사노동&nbsp;e-커머스&nbsp;복합개발&nbsp;기본구상&nbsp;및&nbsp;주민협의&nbsp;추진<br>--------------------------------------------------------------------------------------<br>2027년&nbsp;&nbsp;|&nbsp;물류·벤처&nbsp;복합개발&nbsp;계획&nbsp;수립&nbsp;및&nbsp;관계기관&nbsp;협의<br>--------------------------------------------------------------------------------------<br>2028년&nbsp;&nbsp;|&nbsp;스마트물류·벤처기업&nbsp;유치&nbsp;전략&nbsp;및&nbsp;기반시설&nbsp;계획&nbsp;수립<br>--------------------------------------------------------------------------------------<br>2029년&nbsp;&nbsp;|&nbsp;단계별&nbsp;개발&nbsp;및&nbsp;기업유치&nbsp;추진<br>--------------------------------------------------------------------------------------<br>2030년&nbsp;&nbsp;|&nbsp;수도권&nbsp;동·북부&nbsp;첨단물류·벤처&nbsp;거점&nbsp;조성&nbsp;추진<br>======================================================<br>&nbsp;<br>■&nbsp;재원조달&nbsp;방안&nbsp;:&nbsp;공공개발&nbsp;재원과&nbsp;민간투자,&nbsp;국비&nbsp;공모사업&nbsp;및&nbsp;도시개발&nbsp;연계사업&nbsp;활용<br>&nbsp;&nbsp;·&nbsp;물류단지&nbsp;개발이익과&nbsp;지방공기업&nbsp;투자재원을&nbsp;활용하고,&nbsp;스마트물류·벤처산업&nbsp;관련&nbsp;정부&nbsp;지원사업&nbsp;및&nbsp;민간투자&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;e-커머스·물류·IT&nbsp;기업과&nbsp;연계한&nbsp;공공·민간&nbsp;협력개발&nbsp;방식&nbsp;도입&nbsp;검토<br>&nbsp;<br>■&nbsp;재원조달&nbsp;근거<br>&nbsp;&nbsp;·&nbsp;「물류시설의&nbsp;개발&nbsp;및&nbsp;운영에&nbsp;관한&nbsp;법률」,&nbsp;「벤처기업육성에&nbsp;관한&nbsp;특별조치법」,&nbsp;「도시개발법」근거<br>&nbsp;&nbsp;·&nbsp;공공택지&nbsp;개발이익과&nbsp;민간투자,&nbsp;국비&nbsp;지원사업&nbsp;연계&nbsp;활용&nbsp;가능</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	동구릉 역사문화관광지구 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="동구릉 역사문화관광지구 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목표&nbsp;:&nbsp;57사단&nbsp;일대를&nbsp;전통&nbsp;한옥마을과&nbsp;역사·문화·관광시설이&nbsp;어우러진&nbsp;수도권&nbsp;대표&nbsp;역사문화관광지로&nbsp;육성<br>&nbsp;&nbsp;·&nbsp;유네스코&nbsp;세계유산&nbsp;동구릉과&nbsp;연계한&nbsp;역사문화관광&nbsp;벨트를&nbsp;구축하여&nbsp;지역경제&nbsp;활성화와&nbsp;관광&nbsp;경쟁력&nbsp;강화&nbsp;추진<br><br>■&nbsp;이행방법&nbsp;:전통&nbsp;한옥마을,&nbsp;역사전시관,&nbsp;문화체험시설&nbsp;및&nbsp;관광&nbsp;편의시설&nbsp;단계별&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;동구릉&nbsp;역사자원과&nbsp;연계한&nbsp;체험형&nbsp;콘텐츠&nbsp;개발&nbsp;및&nbsp;문화·관광·상권&nbsp;활성화&nbsp;추진<br>&nbsp;<br>■&nbsp;이행기간&nbsp;:&nbsp;연도별&nbsp;추진계획&nbsp;(2026~2030)<br>======================================================<br>&nbsp;&nbsp;연도&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;추진내용<br>--------------------------------------------------------------------------------------<br>2026년&nbsp;&nbsp;|&nbsp;역사문화관광지구&nbsp;기본구상&nbsp;및&nbsp;57사단&nbsp;활용방안&nbsp;연구용역&nbsp;추진<br>--------------------------------------------------------------------------------------<br>2027년&nbsp;&nbsp;|&nbsp;관계기관·군부대&nbsp;협의&nbsp;및&nbsp;관광지구&nbsp;조성계획&nbsp;수립<br>--------------------------------------------------------------------------------------<br>2028년&nbsp;&nbsp;|&nbsp;역사문화&nbsp;콘텐츠&nbsp;및&nbsp;관광자원&nbsp;연계사업&nbsp;추진<br>--------------------------------------------------------------------------------------<br>2029년&nbsp;&nbsp;|&nbsp;단계별&nbsp;기반시설&nbsp;및&nbsp;관광&nbsp;인프라&nbsp;확충&nbsp;추진<br>--------------------------------------------------------------------------------------<br>2030년&nbsp;&nbsp;|&nbsp;수도권&nbsp;대표&nbsp;역사문화관광벨트&nbsp;조성&nbsp;기반&nbsp;마련<br>======================================================<br><br>■&nbsp;재원조달&nbsp;방안&nbsp;:&nbsp;국비·도비·시비&nbsp;및&nbsp;민간투자를&nbsp;연계한&nbsp;복합재원&nbsp;방식&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;문화체육관광부&nbsp;관광자원개발사업,&nbsp;국가유산&nbsp;활용사업,&nbsp;경기도&nbsp;관광개발사업&nbsp;재원&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;한옥&nbsp;숙박·전통문화&nbsp;체험시설·관광상업시설&nbsp;분야&nbsp;민간투자&nbsp;및&nbsp;공공·민간&nbsp;협력개발&nbsp;추진<br>&nbsp;<br>■&nbsp;재원조달&nbsp;근거<br>&nbsp;&nbsp;·&nbsp;「관광진흥법」,&nbsp;「국가유산기본법」,&nbsp;「도시개발법」근거<br>&nbsp;&nbsp;·&nbsp;국비&nbsp;관광개발사업&nbsp;및&nbsp;지방비&nbsp;지원&nbsp;활용&nbsp;가능</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

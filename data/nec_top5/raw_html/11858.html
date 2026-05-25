@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박정주 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	홍성경제 살리기 일자리 창출 (지역경제 32개 분야)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="홍성경제 살리기 일자리 창출 (지역경제 32개 분야)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■홍성전통시장&nbsp;내&nbsp;주차장&nbsp;확충&nbsp;(중기/2026~2030/도·군비)&nbsp;100억<br>■홍성읍과&nbsp;내포신도시를&nbsp;하나의&nbsp;생활경제권으로&nbsp;연결&nbsp;(중·장기/2026~2034/국·도·군비)&nbsp;50억<br>■국가산단&nbsp;완성과&nbsp;산업생태계&nbsp;혁신&nbsp;(중기/2026~2030/국비)&nbsp;6,000억<br>■내실있는&nbsp;공공기관&nbsp;이전&nbsp;유치&nbsp;(중기/2026~2030/국·도·군비)&nbsp;200억<br>■내포&nbsp;터미널&nbsp;신설&nbsp;(단기/2026~2030/민자)&nbsp;500억<br>■대중교통혁신&nbsp;시설개선&nbsp;(중기/2026~2030/국·도·군비)&nbsp;500억&nbsp;<br>■서해선-경부선,&nbsp;장항선-SRT&nbsp;조기&nbsp;연결&nbsp;(중기/2026~2030/국비)&nbsp;70억<br>■신창역-홍성역&nbsp;전철&nbsp;확장&nbsp;(중기/2026~2030/국비)&nbsp;250억<br>■반려동물&nbsp;클러스터&nbsp;및&nbsp;반려동물기관유치&nbsp;(중기/2026~2030/국·도·군비)&nbsp;800억<br>■홍성·광천&nbsp;전통&nbsp;및&nbsp;특화시장&nbsp;거점&nbsp;활성화&nbsp;(중기/2026~2030/국·도·군비)&nbsp;250억<br>■광천김&nbsp;특화산업&nbsp;및&nbsp;마른김&nbsp;생산·물류센터&nbsp;조성&nbsp;(중기/2026~2030/국·도·군비)&nbsp;380억<br>■내포신도시&nbsp;산업단지&nbsp;발전특구&nbsp;지정(중기/2026~2030)&nbsp;비예산<br>■돌봄&nbsp;노동자&nbsp;처우개선&nbsp;추진&nbsp;(매년/2027~2030/국·도·군비)&nbsp;10억<br>■경력단절자&nbsp;지원사업&nbsp;추진(매년/2027~2030/국·도·군비)&nbsp;5억<br>■제2일반산업단지&nbsp;활성화&nbsp;및&nbsp;첨단산업&nbsp;육성&nbsp;(단기/2026~2030/민자)&nbsp;1,000억<br>■제조업&nbsp;활성화로&nbsp;양질의&nbsp;일자리&nbsp;구현(중기/2026~2030/도·군비)50억<br>■기업유치,&nbsp;창업지원센터&nbsp;설치&nbsp;(중기/2026~2030/도·군비)&nbsp;20억<br>■소재·부품·장비&nbsp;혁신센터&nbsp;설치(중기/2026~2030/국·도·군비)&nbsp;100억<br>■KAIST&nbsp;연계&nbsp;AI&nbsp;창업&nbsp;생태계&nbsp;구축(중기/2026~2030/국·도·군비)&nbsp;200억<br>■청년&nbsp;창업&nbsp;지원&nbsp;프로그램&nbsp;운영(중기/2026~2030/국·도·군비)&nbsp;2억<br>■청년&nbsp;취업&nbsp;및&nbsp;구직&nbsp;교육&nbsp;프로그램&nbsp;운영(매년/2026~2031/도·군비)&nbsp;1.5억<br>■혁신도시&nbsp;개발예정지구&nbsp;지정&nbsp;및&nbsp;공공기관&nbsp;유치&nbsp;(단기/2026~2027)&nbsp;비예산<br>■홍성&nbsp;5일&nbsp;시장&nbsp;상설시장화(중기/2026~2030)50억<br>■원도심&nbsp;활성화(중기/2026~2030)&nbsp;300억<br>■내포신경교-상록아파트(홍성고사거리)&nbsp;교통환경개선&nbsp;(중기/2026~2029/도·군비)&nbsp;2억<br>■내포신도시&nbsp;주차타워&nbsp;건립&nbsp;및&nbsp;주차장확충&nbsp;주차단속&nbsp;유연화&nbsp;(중기/2026~2029/도·군비)&nbsp;200억<br>■덕산통사거리&nbsp;~&nbsp;봉신교&nbsp;왕복&nbsp;6차선&nbsp;확장&nbsp;(중기/2026~2030/국·도·군비)&nbsp;300억<br>■홍성해안관광&nbsp;순환도로&nbsp;추진(광천IC-목현-양곡-이호-광리)&nbsp;(중기/2026~2030/국·도·군비)&nbsp;200억<br>■건설&nbsp;경기&nbsp;활성화&nbsp;및&nbsp;지역&nbsp;장비&nbsp;순환&nbsp;구조&nbsp;구축&nbsp;(중기/2026~2030)&nbsp;비예산<br>■지구단위&nbsp;계획&nbsp;혁신,&nbsp;투자·상권&nbsp;활성화&nbsp;(&nbsp;중기/2026~2030/국비)&nbsp;500억<br>■지역&nbsp;소기업&nbsp;육성에&nbsp;하도급&nbsp;참여&nbsp;확대&nbsp;(중기/2026~2030)&nbsp;비예산<br>■청년주거&nbsp;패키지&nbsp;및&nbsp;청년창업&nbsp;세제지원&nbsp;프로그램&nbsp;(매년/2027~2030/국·도·군비)&nbsp;10억<br><br>&#8231;&nbsp;사업목표&nbsp;:&nbsp;지역경제를&nbsp;살리고&nbsp;좋은&nbsp;일자리를&nbsp;늘려&nbsp;활력&nbsp;넘치는&nbsp;홍성<br>&#8231;&nbsp;이행기간&nbsp;:&nbsp;임기내(2026년~2030년)<br>&#8231;&nbsp;우선순위&nbsp;:&nbsp;최우선<br>&#8231;&nbsp;재원조달방안&nbsp;:&nbsp;국+도+군비<br>&#8231;&nbsp;이행절차&nbsp;:&nbsp;관계법령(조례)제도&nbsp;정비등을&nbsp;통한&nbsp;예산확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	농어촌과 축산 경쟁력 강화 (농·축·수산·환경 32개 분야)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="농어촌과 축산 경쟁력 강화 (농·축·수산·환경 32개 분야)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■AI&nbsp;바이오&nbsp;모빌리티&nbsp;미래신산업&nbsp;대학(대학원)&nbsp;학과&nbsp;유치&nbsp;비예산<br>■농산물&nbsp;산지유통센터&nbsp;건립&nbsp;(중기/2026~2030/국·도·군비)&nbsp;50억<br>■농산물&nbsp;통합&nbsp;RPC(미곡종합처리장)&nbsp;추진&nbsp;(중기/2026~2030/국·도·군비)&nbsp;400억<br>■농기계&nbsp;반값&nbsp;공급&nbsp;프로젝트&nbsp;및&nbsp;수리지원&nbsp;(매년/2026~2030/도·군비)&nbsp;50억<br>■농산물&nbsp;품목별&nbsp;공동작업장&nbsp;설치&nbsp;(중기/2026~2030/국·도·군비)&nbsp;20억<br>■농어민수당&nbsp;및&nbsp;벼&nbsp;못자리&nbsp;상토지원&nbsp;(매년/2026~2030/국·군비)&nbsp;450억<br>■농업인&nbsp;일자리&nbsp;연계센터&nbsp;운영&nbsp;(매년/2026~2030/국·도·군비)&nbsp;30억<br>■농촌쓰레기&nbsp;처리반&nbsp;지원&nbsp;(매년/2026~2030/도·군비)&nbsp;5억<br>■면단위&nbsp;귀농&nbsp;리브투게더(분양,&nbsp;임대)&nbsp;건립&nbsp;(매년/2026~2030/국·도·군비)&nbsp;99억<br>■바이오산업&nbsp;수출&nbsp;센터&nbsp;구축&nbsp;(중기/2026~2030/국·도·군비)&nbsp;200억<br>■스마트&nbsp;가축분뇨공공처리시설&nbsp;설치&nbsp;(단기/2026~2027/국·도·군비)&nbsp;30억<br>■스마트팜&nbsp;육성&nbsp;조성&nbsp;(단기/2026~2027/국·도·군비)&nbsp;500억<br>■악취&nbsp;없는&nbsp;스마트축산&nbsp;환경&nbsp;조성&nbsp;(매년/2026~2027/국·도·군비)&nbsp;50억<br>■영농폐기물&nbsp;공동집하장&nbsp;확대&nbsp;운영&nbsp;(매년/2026~2030/도·군비)&nbsp;5억<br>■외국인&nbsp;농업근로자&nbsp;숙소&nbsp;건립&nbsp;(중기/2026~2030/국·도·군비)&nbsp;50억<br>■청년농업인&nbsp;육성&nbsp;및&nbsp;귀농주택지&nbsp;조성&nbsp;(매년/2026~2030/국·도·군비)&nbsp;40억<br>■축산&nbsp;바이오가스활용&nbsp;농촌&nbsp;에너지&nbsp;자립&nbsp;(중기/2026~2029/국·군비)&nbsp;150억<br>■탄소&nbsp;제로섬&nbsp;죽도&nbsp;체험마을&nbsp;조성&nbsp;(중장기/2026~2033/국·도·군비)&nbsp;30억&nbsp;<br>■홍성한우&nbsp;홍성한돈의&nbsp;저탄소&nbsp;브랜드&nbsp;강화&nbsp;(중기/2026~2030/군비)&nbsp;5억<br>■홍성&nbsp;로컬농특산물&nbsp;공동&nbsp;판매장&nbsp;건립&nbsp;(단기/2026~2027/국·도·군비)&nbsp;150억<br>■농작업&nbsp;재해&nbsp;안전보건관리&nbsp;체계&nbsp;구축&nbsp;(매년/2026~2030/국·도·군비)&nbsp;5억<br>■신촌&nbsp;자연재해위험개선지구&nbsp;정비&nbsp;(중기/2026~2028/국·도·군비)&nbsp;250억&nbsp;<br>■어사&nbsp;자연재해위험개선지구&nbsp;정비&nbsp;(중기/2026~2028/국·도·군비)&nbsp;250억&nbsp;<br>■장성&nbsp;자연재해위험개선지구&nbsp;정비&nbsp;(중기/2026~2030/국·도·군비)&nbsp;450억<br>■면&nbsp;단위&nbsp;홍성사랑상품권&nbsp;사용가능처&nbsp;확대&nbsp;추진&nbsp;(중기/2026~2030)&nbsp;비예산<br>■홍성,&nbsp;광천(한우·한돈)&nbsp;먹거리타운&nbsp;조성&nbsp;(중기/2026~2029/군비·민자)&nbsp;100억<br>■부천축산물공판장&nbsp;광천&nbsp;이전&nbsp;(중기/2026~2030)&nbsp;비예산<br>■공공토지&nbsp;활용&nbsp;적극&nbsp;추진&nbsp;(중기/2026~2030/도비)&nbsp;30억<br>■(구)홍고통&nbsp;및&nbsp;오관리,&nbsp;공영주차장&nbsp;조성&nbsp;(단기/2026~2027/도·군비)&nbsp;200억<br>■홍성상설시장,&nbsp;명동상가&nbsp;주차장&nbsp;확충&nbsp;(단기/2026~2027/국·도·군비)&nbsp;150억<br>■청년&nbsp;창업특구,&nbsp;로컬&nbsp;스타트&nbsp;빌리지&nbsp;조성&nbsp;(중기/2026~2030/도·군비)&nbsp;50억&nbsp;<br>■홍성종합터미널&nbsp;주변&nbsp;도시&nbsp;침수&nbsp;예방사업&nbsp;추진&nbsp;(중기/2026~2030/국·도·군비)&nbsp;350억<br><br>&#8231;&nbsp;사업목표&nbsp;:&nbsp;농어촌과&nbsp;축산&nbsp;경쟁력을&nbsp;높여&nbsp;활력&nbsp;있는&nbsp;홍성<br>&#8231;&nbsp;이행기간&nbsp;:&nbsp;임기내(2026년~2030년)<br>&#8231;&nbsp;우선순위&nbsp;:&nbsp;최우선<br>&#8231;&nbsp;재원조달방안&nbsp;:&nbsp;국+도+군비<br>&#8231;&nbsp;이행절차&nbsp;:&nbsp;관계법령(조례)제도&nbsp;정비등을&nbsp;통한&nbsp;예산확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	문화와 관광이 살아있는 홍성 (문화·체육·관광 28개 분야)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="문화와 관광이 살아있는 홍성 (문화·체육·관광 28개 분야)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■내포&nbsp;스포츠타운(배드민턴전용구장,&nbsp;테니스,&nbsp;풋살장)확충&nbsp;(중기/2026~2030/국·도·군비)&nbsp;2,500억<br>■용봉산&nbsp;자연휴양림&nbsp;휴양시설&nbsp;확장&nbsp;(중기/2026~2027/도·군비)&nbsp;60억<br>■결성&nbsp;제2야구장&nbsp;및&nbsp;다목적체육관&nbsp;조성&nbsp;(중기/2026~2027/국·도·군비)&nbsp;160억&nbsp;<br>■결성&nbsp;스포츠타운조성&nbsp;(중기/2026~2030/국·도·군비)&nbsp;100억&nbsp;<br>■광천&nbsp;문화터&nbsp;조성&nbsp;(중기/2026~2030/국·군비)&nbsp;50억&nbsp;<br>■김좌진장군&nbsp;생가지&nbsp;성역화&nbsp;완성&nbsp;및&nbsp;중국&nbsp;해림시&nbsp;교류&nbsp;활성화&nbsp;(단기/2026~2027/국·도·군비)&nbsp;150억<br>■내포&nbsp;청소년&nbsp;문화센터&nbsp;건립&nbsp;(중기/2026~2029/도·군비)&nbsp;250억<br>■노후&nbsp;체육시설&nbsp;일제&nbsp;정비로&nbsp;이용자&nbsp;불편&nbsp;제로화&nbsp;(중기/2026~2030/국·군비)&nbsp;100억&nbsp;<br>■대중골프장&nbsp;유치조성&nbsp;(중기/2026~2029/민자)&nbsp;4,000억&nbsp;<br>■로컬콘텐츠&nbsp;발굴&nbsp;및&nbsp;문화도시&nbsp;조성사업&nbsp;완성&nbsp;(단기/2026~2027/국·도·군비)&nbsp;200억<br>■속동&nbsp;생태탐방&nbsp;스카이브릿지&nbsp;조성&nbsp;(단기/2026~2027/도·군비)&nbsp;60억<br>■스포츠클럽&nbsp;육성&nbsp;지원&nbsp;(매년/2026~2030/군비)&nbsp;2억<br>■스포츠타운&nbsp;확장(축구,&nbsp;족구,&nbsp;야구,&nbsp;게이트볼장&nbsp;등)&nbsp;(중기/2026~2028/국·도·군비)&nbsp;250억&nbsp;<br>■&nbsp;지기산&nbsp;공원&nbsp;건립&nbsp;(단기/2026~2027/도·군비)&nbsp;20억<br>■체육대회&nbsp;지원&nbsp;및&nbsp;체육전문지도자&nbsp;육성&nbsp;확대&nbsp;(매년/2026~2030/도비)&nbsp;10억<br>■전국&nbsp;최초&nbsp;몰입형&nbsp;디스플레이&nbsp;명품&nbsp;공연시설&nbsp;조성&nbsp;(단기/2026~2027/국·군비)&nbsp;200억<br>■제110회&nbsp;전국체육대회&nbsp;성공개최&nbsp;(중기/2026~2031/국·도·군비)&nbsp;200억&nbsp;<br>■홍북·서부권·광천권&nbsp;파크골프장&nbsp;조성&nbsp;및&nbsp;홍성&nbsp;확장&nbsp;(단기/2026~2027/도·군비)&nbsp;90억&nbsp;<br>■홍주성&nbsp;주변&nbsp;문화,&nbsp;관광시설&nbsp;조성&nbsp;(중장기/2026~2030/국·도·군비&nbsp;민자)&nbsp;200억<br>■홍주성&nbsp;등&nbsp;주요&nbsp;관광지&nbsp;체류형&nbsp;관광객&nbsp;유치&nbsp;(매년/2026~2030/군비)&nbsp;2억&nbsp;<br>■홍주의사총&nbsp;국가&nbsp;시설로&nbsp;승격&nbsp;(국가관리&nbsp;전환)(중기/2026~2029)비예산<br>■원도심&nbsp;활성화(청년창업,&nbsp;리모델링지원,&nbsp;각종단체&nbsp;임대지원)&nbsp;(중기/2026~2029)&nbsp;300억<br>■자전거&nbsp;힐링코스,&nbsp;MTB인프라&nbsp;조성&nbsp;(중기/2026~2030/도·군비)&nbsp;20억<br>■문화예술단체&nbsp;지원&nbsp;확대&nbsp;(매년/2026~2030/군비)&nbsp;10억<br>■직능&nbsp;사회단체&nbsp;거점시설(사무실·회의실)확충&nbsp;(중기/2026~2030/군비)&nbsp;200억<br>■남당항&nbsp;레저타운&nbsp;개발&nbsp;전략&nbsp;수립&nbsp;(중기/2026~2030/민자)&nbsp;비예산<br>■용봉산,&nbsp;홍성,&nbsp;오서산&nbsp;등&nbsp;주변&nbsp;규제개선&nbsp;투자유치&nbsp;(중기/2026~2030/국·도·군비)&nbsp;300억<br>■폐교(홍여고,&nbsp;홍주초,&nbsp;오서초,&nbsp;광성초&nbsp;등)활용,&nbsp;문화·관광&nbsp;거점화&nbsp;(중기/2026~2030/국비)&nbsp;90억<br><br>&#8231;&nbsp;사업목표&nbsp;:&nbsp;문화와&nbsp;관광,&nbsp;체육이&nbsp;어우러진&nbsp;활기찬&nbsp;홍성<br>&#8231;&nbsp;이행기간&nbsp;:&nbsp;임기내(2026년~2030년)<br>&#8231;&nbsp;우선순위&nbsp;:&nbsp;최우선<br>&#8231;&nbsp;재원조달방안&nbsp;:&nbsp;국+도+군비<br>&#8231;&nbsp;이행절차&nbsp;:&nbsp;관계법령(조례)제도&nbsp;정비등을&nbsp;통한&nbsp;예산확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	신뢰받는 행정 경쟁력 있는 교육 따뜻하고 촘촘한 복지 (행정·교육·복지 31개 분야)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="신뢰받는 행정 경쟁력 있는 교육 따뜻하고 촘촘한 복지 (행정·교육·복지 31개 분야)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■KAIST&nbsp;영재학교&nbsp;조기&nbsp;설립&nbsp;(단기/2026~2028/국·도비)&nbsp;850억<br>■충남대&nbsp;내포캠퍼스&nbsp;조기정착&nbsp;지원&nbsp;및&nbsp;확대&nbsp;(중기/2026~2030/국·도·군비)&nbsp;80억<br>■청운대·혜전대·한국폴리텍대학&nbsp;충남캠퍼스&nbsp;협력,&nbsp;RISE사업&nbsp;확대&nbsp;(중기/2026~2030/국·도·군비)&nbsp;50억<br>■가족돌봄&nbsp;지원사업(수당&nbsp;보조)&nbsp;확대&nbsp;(계속/2026~2030/도·군비)&nbsp;3억<br>■감염취약계층&nbsp;주요&nbsp;예방접종률&nbsp;90%&nbsp;달성&nbsp;(계속/2026~2030/국·도·군비)&nbsp;130억&nbsp;<br>■방과후&nbsp;돌봄센터&nbsp;확충&nbsp;(단기/2026~2030/국·도·군비)&nbsp;3억<br>■내포신도시&nbsp;300병상&nbsp;종합병원&nbsp;유치&nbsp;(중기/2027~2031/국·도)&nbsp;3,000억<br>■내포신도시&nbsp;어린이&nbsp;전문&nbsp;종합병원&nbsp;건립&nbsp;(중기/2026~2028/국·도비)&nbsp;487억<br>■노인종합복지관&nbsp;신축&nbsp;(단기/2026~2028/국·군비)&nbsp;150억&nbsp;<br>■공공&nbsp;산후조리원&nbsp;확충&nbsp;(중기/2027~2030/도·군비)&nbsp;80억<br>■의료시설&nbsp;유치&nbsp;지원&nbsp;(매년/2026~2030/국·도·군비)&nbsp;10억<br>■소아&nbsp;응급의료체계&nbsp;강화&nbsp;(계속/2027~2030/국·도·군비)&nbsp;50억&nbsp;<br>■스마트&nbsp;경로당(마을회관)&nbsp;확충&nbsp;(중기/2027~2030/국·도·군비)&nbsp;200억<br>■홍성&nbsp;교육&nbsp;국제화&nbsp;특구&nbsp;내실화&nbsp;추진&nbsp;(중기/2026~2028/국·도·군비)&nbsp;20억<br>■어린이&nbsp;전문&nbsp;복합도서관&nbsp;건립,&nbsp;청소년복합센터&nbsp;건립&nbsp;(매년/2026~2030/국·도·군비)&nbsp;250억<br>■여성단체&nbsp;및&nbsp;자원봉사&nbsp;활성화&nbsp;지원&nbsp;확대&nbsp;(매년/2027~2030/국·도·군비)&nbsp;2억<br>■장애인·노후시설&nbsp;환경&nbsp;개선&nbsp;및&nbsp;일자리&nbsp;확대&nbsp;(매년/2027~2030/국·도·군비)&nbsp;20억<br>■이동약자&nbsp;전동보장구&nbsp;관리&nbsp;지원&nbsp;(단기/2026~2027/군비)&nbsp;7억&nbsp;<br>■취약계층&nbsp;방문건강관리&nbsp;강화&nbsp;(계속/2026~2030/국·도·군비)&nbsp;5억<br>■충남드론항공고&nbsp;등&nbsp;관내학교&nbsp;교육환경&nbsp;개선&nbsp;(매년/2026~2030/국·도·군비)&nbsp;20억<br>■돌봄·교육·특화형&nbsp;복합커뮤니티&nbsp;구축&nbsp;(매년/2026~2029/도·군비)&nbsp;30억<br>■홍성형&nbsp;통합돌봄&nbsp;시스템&nbsp;구축&nbsp;운영&nbsp;(매년/2026~2030/국·도·군비)&nbsp;40억<br>■홍성공고&nbsp;마이스터고&nbsp;전환&nbsp;지원&nbsp;(중기/2026~2030)&nbsp;비예산<br>■충남&nbsp;체육중학교&nbsp;유치&nbsp;(중기/2026~2030)&nbsp;비예산<br>■국가유공자&nbsp;등&nbsp;보훈단체&nbsp;지원확대&nbsp;(매년/2026~2030/국·도·군비&nbsp;5억<br>■어르신&nbsp;재택&nbsp;의료&nbsp;확대&nbsp;(매년/2026~2030/국·도·군비)&nbsp;50억<br>■24시간&nbsp;어린이집&nbsp;긴급돌봄&nbsp;시스템&nbsp;구축&nbsp;(매년/2026~2030/국·도·군비)&nbsp;20억<br>■다문화&nbsp;외국인&nbsp;가정&nbsp;지원시스템&nbsp;구축&nbsp;(매년/2026~2030/국·도·군비)&nbsp;10억<br>■읍·면학교&nbsp;특성화&nbsp;및&nbsp;순환&nbsp;통학버스&nbsp;운영&nbsp;지원&nbsp;(매년/2027~2030/국·도·군비)&nbsp;20억<br>■어르신&nbsp;효도택시&nbsp;서비스&nbsp;제공&nbsp;(매년/2027~2030/국·도·군비)&nbsp;10억<br>■중·고교생&nbsp;통학&nbsp;순환버스&nbsp;운영&nbsp;확충&nbsp;(매년/2027~2030/국·도·군비)&nbsp;10억<br><br>&#8231;&nbsp;사업목표&nbsp;:&nbsp;신뢰&nbsp;행정,&nbsp;미래&nbsp;교육,&nbsp;따뜻한&nbsp;복지를&nbsp;실현<br>&#8231;&nbsp;이행기간&nbsp;:&nbsp;임기내(2026년~2030년)<br>&#8231;&nbsp;우선순위&nbsp;:&nbsp;최우선<br>&#8231;&nbsp;재원조달방안&nbsp;:&nbsp;국+도+군비<br>&#8231;&nbsp;이행절차&nbsp;:&nbsp;관계법령(조례)제도&nbsp;정비등을&nbsp;통한&nbsp;예산확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	어느 지역도 소외되지 않는 균형 홍성 (읍·면 균형발전 31개 분야)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="어느 지역도 소외되지 않는 균형 홍성 (읍·면 균형발전 31개 분야)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■홍성군민과&nbsp;함께하는&nbsp;원도심&nbsp;활성화&nbsp;프로젝트&nbsp;(중기/2026~2029/군비·민자)&nbsp;50억<br>■충청내륙철도&nbsp;건설&nbsp;추진&nbsp;(중장기/2026~2030/국비)&nbsp;450억<br>■홍성&nbsp;북서부순환도로&nbsp;개설&nbsp;(단기/2026~2027/군비)&nbsp;80억<br>■아파트&nbsp;전기차&nbsp;안전시설&nbsp;지원&nbsp;및&nbsp;모범아파트&nbsp;지원&nbsp;(중기/2026~2029/도·군비)&nbsp;10억<br>■홍성군&nbsp;전체&nbsp;마을회관&nbsp;그린&nbsp;리모델링&nbsp;및&nbsp;급식비&nbsp;지원&nbsp;(매년/2026~2029/도·군비)&nbsp;100억&nbsp;<br>■홍성읍&nbsp;노후&nbsp;상수관&nbsp;정비&nbsp;(중기/2026~2029/국·도·군비)&nbsp;400억&nbsp;<br>■홍성읍&nbsp;지능형&nbsp;영상분석&nbsp;범죄예방&nbsp;사업&nbsp;(중기/2026~2030/도·군비)&nbsp;3억&nbsp;<br>■광천&nbsp;원촌마을&nbsp;도시재생사업&nbsp;(중기/2026~2030/국·도·군비)&nbsp;100억&nbsp;<br>■광천역사&nbsp;정비사업&nbsp;(중기/2026~2030/국·군비)&nbsp;100억<br>■광천읍&nbsp;줌벵이뜰&nbsp;개발&nbsp;용역&nbsp;(중기/2026~2030/군비)&nbsp;1억<br>■광천읍&nbsp;옹암&nbsp;숲공원&nbsp;조성&nbsp;(중기/2026~2030/도·군비)&nbsp;40억&nbsp;<br>■내포중심상업지구&nbsp;주차타워&nbsp;조성&nbsp;(중기/2026~2030/도·군비)&nbsp;300억&nbsp;<br>■홍북읍&nbsp;내포&nbsp;명품&nbsp;숲&nbsp;조성&nbsp;(중기/2026~2030/국·도·군비)&nbsp;50억&nbsp;<br>■홍북읍&nbsp;농촌공간정비사업&nbsp;(단기/2026~2029/국·도·군비)&nbsp;50억<br>■금마면&nbsp;신청사&nbsp;건립&nbsp;(중기/2026~2030/국·군비)&nbsp;100억&nbsp;<br>■금마면&nbsp;철마산&nbsp;3·1공원&nbsp;및&nbsp;홍양저수지&nbsp;개발&nbsp;(중기/2026~2030/국·군비)&nbsp;20억&nbsp;<br>■홍동면&nbsp;의료센터&nbsp;건립&nbsp;(중기/2026~2030/국·군비)&nbsp;50억&nbsp;<br>■홍동면&nbsp;유기농&nbsp;스마트농업센터&nbsp;(중기/2026~2031/국·군비)&nbsp;30억&nbsp;<br>■장곡면&nbsp;문화거점센터&nbsp;건립&nbsp;(중기/2026~2029/국·군비)&nbsp;50억&nbsp;<br>■장곡면&nbsp;다목적광장&nbsp;조성&nbsp;(중기/2026~2031/국·군비)&nbsp;50억<br>■은하면&nbsp;노인회관&nbsp;증축&nbsp;(중기/2026~2029/국·군비)&nbsp;30억&nbsp;<br>■은하면&nbsp;돌봄센터&nbsp;조성&nbsp;(중기/2026~2031/국·군비)&nbsp;50억&nbsp;<br>■결성면&nbsp;성남리&nbsp;생활여건&nbsp;개선사업&nbsp;(중기/2026~2030/국·도·군비)&nbsp;10억&nbsp;<br>■결성면&nbsp;스포츠인&nbsp;체류공간조성&nbsp;(중기/2026~2030/국·도·군비)&nbsp;50억&nbsp;<br>■서부면&nbsp;남당항&nbsp;관광특구&nbsp;지정&nbsp;(중기/2026~2029)&nbsp;비예산<br>■서부면&nbsp;스카이브릿지&nbsp;조성&nbsp;(단기/2026~2027/도·군비)&nbsp;60억<br>■갈산면&nbsp;백야&nbsp;김좌진장군&nbsp;동상건립&nbsp;(단기/2026~2027/도비)&nbsp;10억&nbsp;<br>■갈산면&nbsp;제2전문농공단지&nbsp;조성&nbsp;(단기/2026~2029/민자)&nbsp;200억&nbsp;<br>■구항면&nbsp;거북이마을&nbsp;관광자원화&nbsp;조성&nbsp;(중기/2026~2030/도·군비)&nbsp;3억&nbsp;<br>■구항면&nbsp;공리저수지&nbsp;힐링공원&nbsp;조성&nbsp;(중기/2026~2030/도·군비)&nbsp;10억&nbsp;<br>■홍성읍과&nbsp;내포신도시&nbsp;연계&nbsp;도로&nbsp;조성&nbsp;(중기/2026~2030/국·도·군비)&nbsp;100억<br><br>&#8231;&nbsp;사업목표&nbsp;:&nbsp;읍·면별&nbsp;특성에&nbsp;맞는&nbsp;균형발전으로&nbsp;어느&nbsp;지역도&nbsp;소외되지&nbsp;않는&nbsp;홍성<br>&#8231;&nbsp;이행기간&nbsp;:&nbsp;임기내(2026년~2030년)<br>&#8231;&nbsp;우선순위&nbsp;:&nbsp;최우선<br>&#8231;&nbsp;재원조달방안&nbsp;:&nbsp;국+도+군비<br>&#8231;&nbsp;이행절차&nbsp;:&nbsp;관계법령(조례)제도&nbsp;정비등을&nbsp;통한&nbsp;예산확보</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

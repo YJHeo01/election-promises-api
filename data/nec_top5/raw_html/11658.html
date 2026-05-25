@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;조재희 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	송파-위례 AI·R&D 혁신축 구축 : 디지털·교육특구 통합 추진   </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="송파-위례 AI·R&D 혁신축 구축 : 디지털·교육특구 통합 추진   ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표&nbsp;&nbsp;:<br>*&nbsp;송파와&nbsp;위례를&nbsp;연결하는&nbsp;첨단산업·교육&nbsp;중심축&nbsp;조성<br>*&nbsp;AI·바이오·ICT&nbsp;기반&nbsp;미래산업&nbsp;일자리&nbsp;창출<br>*&nbsp;청년·스타트업·교육기관이&nbsp;연계된&nbsp;미래형&nbsp;혁신도시&nbsp;구현<br><br>□&nbsp;이행방법&nbsp;&nbsp;:<br>*&nbsp;문정·장지·위례&nbsp;일대&nbsp;AI·R&D&nbsp;클러스터&nbsp;조성&nbsp;<br>*&nbsp;디지털&nbsp;특구와&nbsp;교육특구를&nbsp;연계한&nbsp;미래인재&nbsp;양성<br>*&nbsp;AI&nbsp;창업지원센터·청년&nbsp;스타트업&nbsp;허브&nbsp;설립<br>*&nbsp;기업·대학·연구기관&nbsp;협력&nbsp;플랫폼&nbsp;구축<br>*&nbsp;초·중·고&nbsp;AI코딩·디지털&nbsp;교육&nbsp;확대<br>*&nbsp;서울시·정부와&nbsp;협의해&nbsp;특구&nbsp;지정&nbsp;추진<br>*&nbsp;민간기업&nbsp;및&nbsp;대학&nbsp;산학협력&nbsp;유치<br>*&nbsp;공공&nbsp;유휴부지&nbsp;활용&nbsp;및&nbsp;복합개발&nbsp;추진<br>*&nbsp;지역기업&nbsp;인센티브&nbsp;및&nbsp;창업지원&nbsp;프로그램&nbsp;운영<br><br>□&nbsp;이행기간&nbsp;&nbsp;:&nbsp;2026~2030<br>*&nbsp;단기(2026~2027)&nbsp;:&nbsp;기본계획&nbsp;수립·특구&nbsp;추진협의체&nbsp;구성<br>*&nbsp;중기(2027~2029)&nbsp;:&nbsp;기업&nbsp;유치·창업지원시설&nbsp;조성<br>*&nbsp;장기(2029~2030)&nbsp;:&nbsp;AI&nbsp;혁신벨트&nbsp;완성&nbsp;및&nbsp;자족기능&nbsp;강화<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;<br>*&nbsp;국비&nbsp;(중기부·과기부·교육부&nbsp;공모사업)<br>*&nbsp;서울시&nbsp;투자&nbsp;및&nbsp;SH&nbsp;연계개발&nbsp;&nbsp;<br>*&nbsp;민간투자&nbsp;및&nbsp;산학협력&nbsp;기금&nbsp;활용&nbsp;<br>*&nbsp;도시개발&nbsp;수익&nbsp;재투자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	종합운동장 옆 백제고분로 지하화 및 잠실 MICE 글로벌 미디어로드 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="종합운동장 옆 백제고분로 지하화 및 잠실 MICE 글로벌 미디어로드 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표&nbsp;&nbsp;:<br>*&nbsp;잠실권&nbsp;국제도시&nbsp;경쟁력&nbsp;강화&nbsp;<br>*&nbsp;교통정체&nbsp;해소&nbsp;및&nbsp;보행친화도시&nbsp;조성&nbsp;<br>*&nbsp;서울&nbsp;동남권&nbsp;글로벌&nbsp;관광·문화&nbsp;중심지&nbsp;육성&nbsp;<br><br>□&nbsp;이행방법&nbsp;&nbsp;:<br>*&nbsp;종합운동장&nbsp;일대&nbsp;백제고분로&nbsp;일부&nbsp;구간&nbsp;지하화&nbsp;추진&nbsp;<br>*&nbsp;상부공간&nbsp;공원·광장·문화거리&nbsp;조성&nbsp;&nbsp;<br>*&nbsp;잠실&nbsp;MICE와&nbsp;연계한&nbsp;글로벌&nbsp;미디어로드&nbsp;구축<br>*&nbsp;디지털&nbsp;미디어·야간경관&nbsp;문화콘텐츠&nbsp;확대&nbsp;<br>*&nbsp;서울시&nbsp;MICE&nbsp;개발사업과&nbsp;연계&nbsp;추진&nbsp;&nbsp;<br>*&nbsp;민간개발사업&nbsp;공공기여&nbsp;활용<br>*&nbsp;교통영향평가&nbsp;및&nbsp;단계별&nbsp;공사&nbsp;시행<br>*&nbsp;관광·문화&nbsp;콘텐츠&nbsp;기업&nbsp;협력&nbsp;추진<br><br>□&nbsp;이행기간&nbsp;&nbsp;:<br>*&nbsp;단기(2026~2027)&nbsp;:&nbsp;타당성&nbsp;조사·서울시&nbsp;협의<br>*&nbsp;중기(2027~2030)&nbsp;:&nbsp;지하화&nbsp;및&nbsp;미디어로드&nbsp;착공<br>*&nbsp;장기(2030&nbsp;이후)&nbsp;:&nbsp;국제문화관광축&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;<br>*&nbsp;서울시&nbsp;광역교통·MICE&nbsp;예산<br>*&nbsp;민간개발&nbsp;공공기여금&nbsp;&nbsp;<br>*&nbsp;관광진흥기금&nbsp;및&nbsp;민자유치<br>*&nbsp;국비&nbsp;지원사업&nbsp;연계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	잠실주공5단지·올림픽3대장·장미·거여마천 등 재건축·재개발·리모델링 신속 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="잠실주공5단지·올림픽3대장·장미·거여마천 등 재건축·재개발·리모델링 신속 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표&nbsp;&nbsp;:<br>*&nbsp;노후주거지&nbsp;주거환경&nbsp;개선<br>*&nbsp;안전하고&nbsp;쾌적한&nbsp;도시환경&nbsp;조성<br>*&nbsp;주민&nbsp;재산권&nbsp;보호&nbsp;및&nbsp;도시경쟁력&nbsp;강화<br><br>□&nbsp;이행방법&nbsp;&nbsp;:<br>*&nbsp;재건축·재개발&nbsp;인허가&nbsp;신속지원센터&nbsp;운영&nbsp;<br>*&nbsp;정비사업&nbsp;행정절차&nbsp;원스톱&nbsp;지원<br>*&nbsp;공공기여&nbsp;합리화&nbsp;및&nbsp;사업성&nbsp;개선&nbsp;협의&nbsp;<br>*&nbsp;리모델링&nbsp;및&nbsp;소규모&nbsp;정비사업&nbsp;지원&nbsp;확대&nbsp;<br>*&nbsp;서울시와&nbsp;신속통합기획&nbsp;적극&nbsp;협력&nbsp;<br>*&nbsp;정비사업&nbsp;전담&nbsp;TF&nbsp;구성&nbsp;&nbsp;<br>*&nbsp;주민&nbsp;갈등조정&nbsp;및&nbsp;법률·행정&nbsp;지원<br>*&nbsp;기반시설&nbsp;확충&nbsp;병행&nbsp;추진&nbsp;<br><br>□&nbsp;이행기간&nbsp;&nbsp;:&nbsp;지속&nbsp;추진(정비사업별&nbsp;개별&nbsp;추진)&nbsp;<br>*&nbsp;단기(2026~2027)&nbsp;:&nbsp;전담조직&nbsp;설치·인허가&nbsp;지원&nbsp;강화<br>*&nbsp;중기(2027~2030)&nbsp;:&nbsp;주요&nbsp;단지&nbsp;사업&nbsp;본격화<br>*&nbsp;장기(2030&nbsp;이후)&nbsp;:&nbsp;단계별&nbsp;입주&nbsp;및&nbsp;도시재생&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;<br>*&nbsp;민간&nbsp;재건축·재개발&nbsp;사업비<br>*&nbsp;서울시&nbsp;기반시설&nbsp;지원&nbsp;<br>*&nbsp;공공기여&nbsp;및&nbsp;도시정비기금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	위례신사선 조기 착공 및 위례과천선 송파 연장노선 신설 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="위례신사선 조기 착공 및 위례과천선 송파 연장노선 신설 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표&nbsp;&nbsp;:<br>*&nbsp;송파&nbsp;동남권&nbsp;교통불균형&nbsp;해소<br>*&nbsp;위례·거여·마천&nbsp;지역&nbsp;교통&nbsp;접근성&nbsp;강화<br>*&nbsp;강남권&nbsp;출퇴근&nbsp;시간&nbsp;단축<br><br>□&nbsp;이행방법&nbsp;&nbsp;:<br>*&nbsp;위례신사선&nbsp;조기&nbsp;착공&nbsp;촉구&nbsp;및&nbsp;행정지원&nbsp;강화<br>*&nbsp;위례과천선&nbsp;송파&nbsp;연장노선&nbsp;신설&nbsp;추진<br>*&nbsp;광역교통망&nbsp;확충&nbsp;및&nbsp;환승체계&nbsp;개선<br>*&nbsp;버스·지하철&nbsp;연계&nbsp;스마트교통&nbsp;구축&nbsp;<br>*&nbsp;국토교통부·서울시·경기도&nbsp;공동협의체&nbsp;구성<br>*&nbsp;예비타당성·노선검토&nbsp;적극&nbsp;대응<br>*&nbsp;주민&nbsp;서명&nbsp;및&nbsp;정책건의&nbsp;추진<br>*&nbsp;광역교통계획&nbsp;반영&nbsp;추진<br><br>□&nbsp;이행기간&nbsp;&nbsp;:&nbsp;2026~2030<br>*&nbsp;단기(2026~2027)&nbsp;:&nbsp;정부·서울시&nbsp;협의&nbsp;및&nbsp;정책&nbsp;반영<br>*&nbsp;중기(2027~2030)&nbsp;:&nbsp;착공&nbsp;및&nbsp;기본설계&nbsp;추진<br>*&nbsp;장기(2030&nbsp;이후)&nbsp;:&nbsp;단계별&nbsp;개통&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;<br>*&nbsp;국비&nbsp;및&nbsp;광역교통특별회계&nbsp;<br>*&nbsp;서울시·경기도&nbsp;공동재원&nbsp;<br>*&nbsp;민자사업&nbsp;병행&nbsp;검토</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	삶의 질 향상을 위한 '생애주기별 돌봄재단' 설립 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="삶의 질 향상을 위한 '생애주기별 돌봄재단' 설립 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표&nbsp;&nbsp;:<br>*&nbsp;출산부터&nbsp;노후까지&nbsp;촘촘한&nbsp;돌봄체계&nbsp;구축<br>*&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;송파,&nbsp;노후가&nbsp;행복한&nbsp;송파&nbsp;실현<br>*&nbsp;복지&nbsp;사각지대&nbsp;최소화<br><br>□&nbsp;이행방법&nbsp;&nbsp;:<br>*&nbsp;영유아·아동·청소년·청년·중장년·어르신&nbsp;통합&nbsp;돌봄체계&nbsp;구축<br>*&nbsp;공공&nbsp;돌봄&nbsp;플랫폼&nbsp;및&nbsp;통합지원센터&nbsp;운영&nbsp;<br>*&nbsp;산후·육아·방과후·치매·노인돌봄&nbsp;연계&nbsp;강화<br>*&nbsp;긴급돌봄&nbsp;및&nbsp;1인가구&nbsp;지원&nbsp;확대&nbsp;<br>*&nbsp;송파형&nbsp;돌봄재단&nbsp;설립&nbsp;조례&nbsp;추진&nbsp;<br>*&nbsp;민간복지기관·의료기관&nbsp;협력체계&nbsp;구축<br>*&nbsp;동주민센터&nbsp;기반&nbsp;생활밀착형&nbsp;서비스&nbsp;확대&nbsp;<br>*&nbsp;디지털&nbsp;돌봄&nbsp;시스템&nbsp;구축<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026~2030,&nbsp;이후&nbsp;지속운영&nbsp;<br>*&nbsp;단기(2026~2028)&nbsp;:&nbsp;재단&nbsp;설립&nbsp;및&nbsp;조직&nbsp;구축&nbsp;&nbsp;<br>*&nbsp;중기(2028~2030)&nbsp;:&nbsp;권역별&nbsp;돌봄센터&nbsp;운영&nbsp;확대&nbsp;&nbsp;<br>*&nbsp;장기(2030&nbsp;이후)&nbsp;:&nbsp;통합&nbsp;돌봄도시&nbsp;완성&nbsp;&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>*&nbsp;송파구&nbsp;복지예산&nbsp;재구조화<br>*&nbsp;국비·서울시&nbsp;복지지원사업&nbsp;연계&nbsp;<br>*&nbsp;사회복지공동모금회&nbsp;및&nbsp;민간협력기금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

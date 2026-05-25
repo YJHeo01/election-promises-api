@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;홍태용 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	싱가포르와 경쟁하는 국제 비즈니스 도시 김해 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="싱가포르와 경쟁하는 국제 비즈니스 도시 김해 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목표<br>&nbsp;&nbsp;부산신항·진해신항·가덕신공항과&nbsp;연계한&nbsp;국제&nbsp;물류·비즈니스&nbsp;중심도시를&nbsp;조성하여&nbsp;김해를&nbsp;동남권&nbsp;경제·물류&nbsp;허브로&nbsp;육성<br><br>■&nbsp;이행방법<br>&nbsp;&nbsp;화목동&nbsp;일원&nbsp;약&nbsp;900만&nbsp;평&nbsp;개발<br>&nbsp;&nbsp;글로벌&nbsp;MICE·컨벤션&nbsp;복합지구&nbsp;조성<br>&nbsp;&nbsp;동북아&nbsp;복합물류&nbsp;허브&nbsp;구축<br>&nbsp;&nbsp;AI·로봇&nbsp;기반&nbsp;스마트물류&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;물류&nbsp;R&D·공공데이터센터&nbsp;유치<br>&nbsp;&nbsp;주거·교육·문화가&nbsp;결합된&nbsp;자족형&nbsp;국제신도시&nbsp;조성<br>&nbsp;&nbsp;부산·경남·김해&nbsp;공동&nbsp;TF&nbsp;및&nbsp;경제자유구역&nbsp;확대&nbsp;추진<br><br>■&nbsp;이행기간<br>&nbsp;&nbsp;2026~2027&nbsp;:&nbsp;국가계획&nbsp;반영·제도화&nbsp;및&nbsp;기반&nbsp;조성<br>&nbsp;&nbsp;2028~2030&nbsp;:&nbsp;핵심&nbsp;앵커시설&nbsp;및&nbsp;산업단지&nbsp;착공<br>&nbsp;&nbsp;2031년&nbsp;이후&nbsp;:&nbsp;국제&nbsp;비즈니스&nbsp;도시&nbsp;단계별&nbsp;완성<br><br>■&nbsp;재원조달방안<br>&nbsp;&nbsp;총사업비&nbsp;약&nbsp;64조&nbsp;원<br>&nbsp;&nbsp;국비·도비·시비&nbsp;및&nbsp;LH·경남개발공사&nbsp;등&nbsp;공공재원&nbsp;활용<br>&nbsp;&nbsp;민간투자&nbsp;유치(컨벤션·산업·연구·주거시설&nbsp;등)<br>&nbsp;&nbsp;공공&nbsp;35~45%,&nbsp;민간&nbsp;55~65%&nbsp;방식&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	일·집·문화·여가가 함께하는 김해 AI혁신도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="일·집·문화·여가가 함께하는 김해 AI혁신도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목표<br>&nbsp;&nbsp;장유권을&nbsp;AI·스마트제조·물류테크&nbsp;중심의&nbsp;동부경남&nbsp;혁신거점으로&nbsp;육성하고&nbsp;청년이&nbsp;머무는&nbsp;자족형&nbsp;도시&nbsp;조성<br><br>■&nbsp;이행방법<br>&nbsp;&nbsp;장유역&nbsp;중심&nbsp;TOD&nbsp;역세권&nbsp;개발<br>&nbsp;&nbsp;AI·제조DX·스마트물류&nbsp;클러스터&nbsp;구축<br>&nbsp;&nbsp;청년&nbsp;창업·R&D&nbsp;허브&nbsp;조성<br>&nbsp;&nbsp;AI&nbsp;중심&nbsp;교육·인재양성&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;국토부&nbsp;도심융합특구&nbsp;사업&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;광역교통망&nbsp;및&nbsp;생활SOC&nbsp;확충<br><br>■&nbsp;이행기간<br>&nbsp;&nbsp;2026~2027&nbsp;:&nbsp;도심융합특구&nbsp;공모&nbsp;및&nbsp;선정&nbsp;추진<br>&nbsp;&nbsp;2027~2028&nbsp;:&nbsp;1차&nbsp;사업&nbsp;착공&nbsp;및&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;2029~2030&nbsp;:&nbsp;복합개발&nbsp;확대&nbsp;및&nbsp;인구&nbsp;유입&nbsp;가속화<br>&nbsp;&nbsp;2031년&nbsp;이후&nbsp;:&nbsp;광역&nbsp;혁신권역&nbsp;완성<br><br>■&nbsp;재원조달방안<br>&nbsp;&nbsp;총사업비&nbsp;약&nbsp;6,300억&nbsp;원<br>&nbsp;&nbsp;국비·도비·시비&nbsp;및&nbsp;공기업&nbsp;투자<br>&nbsp;&nbsp;민간&nbsp;복합개발&nbsp;및&nbsp;기업&nbsp;투자&nbsp;유치<br>&nbsp;&nbsp;범부처&nbsp;연계사업&nbsp;예산&nbsp;확보&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	가야센트럴파크 조성 사업</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="가야센트럴파크 조성 사업">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목표<br>&nbsp;&nbsp;원도심&nbsp;역사·문화·녹지&nbsp;자원을&nbsp;연결해&nbsp;시민&nbsp;힐링공간과&nbsp;체류형&nbsp;관광거점을&nbsp;조성하고&nbsp;가야역사도시&nbsp;브랜드&nbsp;강화<br><br>■&nbsp;이행방법<br>&nbsp;구산동&nbsp;지석묘&nbsp;공원화<br>&nbsp;시민광장&nbsp;및&nbsp;전망대&nbsp;조성<br>&nbsp;연지공원~해반천~국립김해박물관&nbsp;보행&nbsp;브릿지&nbsp;구축<br>&nbsp;가야사&nbsp;2단계&nbsp;사업과&nbsp;연계한&nbsp;관광콘텐츠&nbsp;개발<br>&nbsp;학생체육관&nbsp;리모델링을&nbsp;통한&nbsp;문화거점&nbsp;조성<br>&nbsp;야간경관·축제·정원문화&nbsp;프로그램&nbsp;운영<br><br>■&nbsp;이행기간<br>&nbsp;&nbsp;2026~2027&nbsp;:&nbsp;기본계획&nbsp;및&nbsp;우선구간&nbsp;정비<br>&nbsp;&nbsp;2028~2030&nbsp;:&nbsp;핵심&nbsp;인프라&nbsp;조성&nbsp;및&nbsp;준공<br>&nbsp;&nbsp;2031년&nbsp;이후&nbsp;:&nbsp;국가정원&nbsp;승격&nbsp;추진&nbsp;및&nbsp;관광&nbsp;고도화<br><br>■&nbsp;재원조달방안<br>&nbsp;&nbsp;총사업비&nbsp;약&nbsp;1,800억~2,400억&nbsp;원<br>&nbsp;&nbsp;시비·도비·국비&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;정원도시·생활SOC·가야사&nbsp;사업&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;민간&nbsp;협력&nbsp;및&nbsp;상권&nbsp;연계&nbsp;투자&nbsp;병행</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	대중교통 대개조 프로젝트 (돌고 DRT · 달리고 BRT · 살리고 역세권 개발)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="대중교통 대개조 프로젝트 (돌고 DRT · 달리고 BRT · 살리고 역세권 개발)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목표<br>&nbsp;&nbsp;김해&nbsp;전역&nbsp;교통복지&nbsp;향상과&nbsp;광역통근&nbsp;개선,&nbsp;역세권&nbsp;중심&nbsp;도시&nbsp;경쟁력&nbsp;강화<br><br>■&nbsp;이행방법<br>&nbsp;&nbsp;장유·진영&nbsp;순환형&nbsp;DRT&nbsp;확대<br>&nbsp;&nbsp;읍면지역&nbsp;맞춤형&nbsp;교통복지&nbsp;DRT&nbsp;구축<br>&nbsp;&nbsp;김해~창원&nbsp;광역급행버스(BRT)&nbsp;조기&nbsp;추진<br>&nbsp;&nbsp;김해역·장유역·불암역&nbsp;중심&nbsp;역세권&nbsp;개발<br>&nbsp;&nbsp;자율주행&nbsp;셔틀&nbsp;및&nbsp;통합교통플랫폼(MaaS)&nbsp;구축<br>&nbsp;&nbsp;환승센터·전용차로·보행환경&nbsp;개선<br><br>■&nbsp;이행기간<br>&nbsp;&nbsp;2026~2027&nbsp;:&nbsp;DRT&nbsp;확대&nbsp;및&nbsp;BRT&nbsp;조기&nbsp;추진<br>&nbsp;&nbsp;2028~2030&nbsp;:&nbsp;광역교통&nbsp;인프라&nbsp;구축&nbsp;및&nbsp;역세권&nbsp;사업화<br>&nbsp;&nbsp;2031년&nbsp;이후&nbsp;:&nbsp;통합교통망&nbsp;고도화&nbsp;및&nbsp;운영&nbsp;안정화<br><br>■&nbsp;재원조달방안<br>&nbsp;&nbsp;총사업비&nbsp;약&nbsp;1.1조~1.7조&nbsp;원<br>&nbsp;&nbsp;국비·도비·시비&nbsp;매칭&nbsp;추진<br>&nbsp;&nbsp;역세권&nbsp;민간개발&nbsp;및&nbsp;SPC&nbsp;방식&nbsp;활용&nbsp;&nbsp;<br>&nbsp;&nbsp;개발이익&nbsp;일부를&nbsp;교통&nbsp;인프라에&nbsp;재투자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	시민 건강을 책임지는 최고의 의료도시 김해 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="시민 건강을 책임지는 최고의 의료도시 김해 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목표<br>&nbsp;&nbsp;응급·중증·소아·필수의료를&nbsp;김해&nbsp;안에서&nbsp;해결할&nbsp;수&nbsp;있는&nbsp;의료체계&nbsp;구축&nbsp;및&nbsp;공공의료&nbsp;강화<br><br>■&nbsp;이행방법<br>&nbsp;&nbsp;구&nbsp;김해중앙병원&nbsp;2027년&nbsp;9월&nbsp;재개원&nbsp;추진<br>&nbsp;&nbsp;암센터·심혈관센터·응급의료센터&nbsp;구축<br>&nbsp;&nbsp;대학병원급&nbsp;필수의료체계&nbsp;강화<br>&nbsp;&nbsp;진영건강증진센터&nbsp;확대&nbsp;신축<br>&nbsp;&nbsp;권역별&nbsp;달빛어린이병원&nbsp;확대&nbsp;지정<br>&nbsp;&nbsp;김해공공의료원&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;의료정보&nbsp;연계망&nbsp;구축<br><br>■&nbsp;이행기간<br>&nbsp;&nbsp;2026~2027&nbsp;:&nbsp;재개원&nbsp;협의·타당성&nbsp;검토·추가지정&nbsp;추진<br>&nbsp;&nbsp;2028~2030&nbsp;:&nbsp;전문센터&nbsp;구축&nbsp;및&nbsp;보건의료&nbsp;확충<br>&nbsp;&nbsp;2030년&nbsp;이후&nbsp;:&nbsp;공공의료원&nbsp;및&nbsp;권역&nbsp;연계망&nbsp;완성<br><br>■&nbsp;재원조달방안<br>&nbsp;&nbsp;총사업비&nbsp;약&nbsp;2,250억~3,350억&nbsp;원<br>&nbsp;&nbsp;국비(공공·응급·소아·필수의료&nbsp;지원사업)&nbsp;확보<br>&nbsp;&nbsp;도비·시비&nbsp;및&nbsp;의료법인&nbsp;협력&nbsp;투자<br>&nbsp;&nbsp;공공재원&nbsp;70~80%,&nbsp;협력재원&nbsp;20~30%&nbsp;방식&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

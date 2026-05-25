@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김정태 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	누구보다 빠른, 남들과는 다른 동작 재개발·재건축!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="누구보다 빠른, 남들과는 다른 동작 재개발·재건축!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;서울시와&nbsp;원팀&nbsp;핫라인체계&nbsp;구축으로&nbsp;빠르고&nbsp;정확한&nbsp;재개발·재건축!<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1,000세대&nbsp;미만&nbsp;정비사업&nbsp;인허가권&nbsp;서울시→동작구&nbsp;이관으로&nbsp;사업기간&nbsp;1년&nbsp;이상&nbsp;단축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공적기여&nbsp;합리화&nbsp;및&nbsp;국시비&nbsp;확보통한&nbsp;자기부담금&nbsp;최소화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사당·이수·노량진·동작&nbsp;4개&nbsp;환승역&nbsp;반경&nbsp;500m&nbsp;도심복합개발&nbsp;특례&nbsp;용적률&nbsp;1,300%&nbsp;1순위&nbsp;적용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;흑석뉴타운&nbsp;및&nbsp;노량진뉴타운&nbsp;모두&nbsp;차질없이&nbsp;착공·준공까지&nbsp;행정&nbsp;책임&nbsp;완수<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1가구&nbsp;1주택&nbsp;실수요자&nbsp;재산세·종부세&nbsp;부담&nbsp;우선&nbsp;경감&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;정비사업&nbsp;패스트트랙<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인허가권&nbsp;이관&nbsp;+&nbsp;통합심의TF<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1,000세대&nbsp;미만&nbsp;정비사업&nbsp;인허가권의&nbsp;동작구&nbsp;이관을&nbsp;위한&nbsp;조례&nbsp;개정&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재개발·재건축&nbsp;전문가&nbsp;영입&nbsp;및&nbsp;「정비사업&nbsp;통합심의&nbsp;TF」&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;공적기여&nbsp;비율의&nbsp;탄력적&nbsp;적용&nbsp;및&nbsp;국·시비&nbsp;투입<br>&nbsp;&nbsp;○&nbsp;신통기획·모아타운·역세권&nbsp;활성화&nbsp;일괄&nbsp;가속&nbsp;및&nbsp;갈등조정위원회&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신통기획·모아타운·역세권&nbsp;활성화,&nbsp;사당·이수·노량진·동작역&nbsp;반경&nbsp;500m&nbsp;"도심복합개발&nbsp;특례"&nbsp;용적률&nbsp;최대&nbsp;1,300%&nbsp;1순위&nbsp;신청<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;갈등조정위원회를&nbsp;통한&nbsp;주민&nbsp;협의&nbsp;진행&nbsp;및&nbsp;재개발·재건축&nbsp;조합원&nbsp;권리&nbsp;보호를&nbsp;위한&nbsp;행정&nbsp;정보공개·일정&nbsp;투명화<br>&nbsp;&nbsp;○&nbsp;동작구&nbsp;「세금폭탄&nbsp;대응&nbsp;TF」&nbsp;즉시&nbsp;가동,&nbsp;동작구&nbsp;평균&nbsp;1주택&nbsp;세부담&nbsp;실태조사&nbsp;및&nbsp;민원창구&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;계속&nbsp;사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;갈등조정위원회,&nbsp;정비사업통합심의TF,&nbsp;세금폭탄대응TF&nbsp;즉시&nbsp;설치&nbsp;및&nbsp;운영<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;일반회계&nbsp;조정&nbsp;및&nbsp;국비·시비&nbsp;지원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	글로벌 명품학군 동작! 0세부터 대학까지 동작이 함께 키우는 우리 아이</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="글로벌 명품학군 동작! 0세부터 대학까지 동작이 함께 키우는 우리 아이">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;글로벌키즈센터&nbsp;설치&nbsp;(테솔(TESOL)&nbsp;자격&nbsp;원어민&nbsp;상주)<br>&nbsp;&nbsp;○&nbsp;영아&nbsp;전용&nbsp;키즈카페&nbsp;및&nbsp;초록초록&nbsp;키즈카페&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;인가&nbsp;국제학교(초·중·고&nbsp;통합형)&nbsp;1개교&nbsp;유치&nbsp;및&nbsp;흑석&nbsp;입시지원센터&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;대학생&nbsp;새싹원룸&nbsp;1,000실&nbsp;확보&nbsp;및&nbsp;보증금&nbsp;무이자&nbsp;지원&nbsp;+&nbsp;캠퍼스&nbsp;주거혁신구역&nbsp;도입으로&nbsp;기숙사&nbsp;확충<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;글로벌키즈센터&nbsp;설치(10개소),&nbsp;테솔&nbsp;및&nbsp;범죄경력&nbsp;조회&nbsp;완료&nbsp;원어민&nbsp;상주<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정원&nbsp;100명&nbsp;규모(총&nbsp;1,000명)&nbsp;영어몰입&nbsp;환경&nbsp;조성,&nbsp;누리과정(오전)&nbsp;70%&nbsp;+&nbsp;영어(오후)&nbsp;30%&nbsp;공교육형&nbsp;구조<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;추첨자+대기&nbsp;순번&nbsp;100%&nbsp;공개로&nbsp;‘4세&nbsp;고시’·‘7세&nbsp;고시’&nbsp;입학난&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영아&nbsp;전용&nbsp;키즈카페/초록초록&nbsp;키즈카페&nbsp;동작구&nbsp;1순위&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;인가&nbsp;국제학교&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울특별시교육청&nbsp;인가&nbsp;초·중·고&nbsp;통합형&nbsp;국제학교&nbsp;설립&nbsp;추진&nbsp;및&nbsp;입학&nbsp;1년&nbsp;전&nbsp;동작구&nbsp;주민등록&nbsp;유지자&nbsp;우선&nbsp;선발&nbsp;쿼터제로&nbsp;지역&nbsp;학생&nbsp;보호<br>&nbsp;&nbsp;○&nbsp;새싹원룸&nbsp;1,000실&nbsp;확보&nbsp;및&nbsp;캠퍼스&nbsp;주거혁신구역&nbsp;도입(서울시&nbsp;연계)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;새싹원룸&nbsp;1,000실&nbsp;확보&nbsp;및&nbsp;보증금&nbsp;최대&nbsp;3,000만원&nbsp;무이자&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;캠퍼스&nbsp;주거혁신구역&nbsp;도입으로&nbsp;대학&nbsp;기숙사&nbsp;공급&nbsp;규제(용적률·건폐율·높이&nbsp;규제&nbsp;등)&nbsp;대폭&nbsp;완화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;계속&nbsp;사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;일반회계&nbsp;조정&nbsp;및&nbsp;국비·시비&nbsp;지원,&nbsp;공공기여분&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비·시비&nbsp;확보로&nbsp;단계별&nbsp;투입/해외&nbsp;명문&nbsp;교육재단&nbsp;투자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	막힘없는 동작! 오세훈 교통혁신, 김정태가 가속도로 더 빠르게!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="막힘없는 동작! 오세훈 교통혁신, 김정태가 가속도로 더 빠르게!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;교통체계&nbsp;입체화로&nbsp;미래교통&nbsp;중심축&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;신규&nbsp;도시철도&nbsp;가속&nbsp;및&nbsp;광역교통&nbsp;재편<br>&nbsp;&nbsp;○&nbsp;어르신·고지대·이동약자&nbsp;교통복지<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;9호선&nbsp;출퇴근&nbsp;혁신,&nbsp;배차&nbsp;2분&nbsp;1대&nbsp;+&nbsp;흑석역&nbsp;급행&nbsp;정차<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;CBTC&nbsp;무선통신&nbsp;시스템&nbsp;도입,&nbsp;동작구&nbsp;5개역(노량진·노들·흑석·동작·구반포)&nbsp;출퇴근&nbsp;배차&nbsp;2분&nbsp;1대&nbsp;우선&nbsp;적용/흑석역&nbsp;급행열차&nbsp;정차&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;서부선&nbsp;조기&nbsp;착공&nbsp;및&nbsp;난곡선&nbsp;경전철&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구민&nbsp;의사&nbsp;반영&nbsp;차량기지&nbsp;입지&nbsp;변경&nbsp;추진(주민&nbsp;의견수렴&nbsp;절차&nbsp;강화)<br>&nbsp;&nbsp;○&nbsp;광역교통&nbsp;재편,&nbsp;노들고가&nbsp;정비+노량진~여의도&nbsp;연결+1호선&nbsp;지하화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노들고가차도&nbsp;철거&nbsp;후속&nbsp;정비&nbsp;및&nbsp;한강철교&nbsp;남단&nbsp;지구단위계획&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;「철도지하화&nbsp;및&nbsp;철도부지&nbsp;통합개발에&nbsp;관한&nbsp;특별법」&nbsp;후속&nbsp;1차&nbsp;구간(대방역~노량진역)에&nbsp;동작&nbsp;구간&nbsp;우선&nbsp;포함되도록&nbsp;정부·서울시&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;신호등&nbsp;도입(스마트&nbsp;교차로)으로&nbsp;통행시간&nbsp;13~25%&nbsp;단축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이수~사당,&nbsp;상도~장승배기&nbsp;등&nbsp;주요&nbsp;정체&nbsp;연속&nbsp;교차로&nbsp;축&nbsp;우선&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통행시간&nbsp;평균&nbsp;13~25%&nbsp;단축/긴급차량&nbsp;우선신호&nbsp;자동&nbsp;부여<br>&nbsp;&nbsp;○&nbsp;어르신·고지대·이동약자&nbsp;교통복지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;70세&nbsp;이상&nbsp;시내버스&nbsp;무료(K-패스&nbsp;미이용·월&nbsp;15회&nbsp;미만&nbsp;어르신&nbsp;100%&nbsp;지원,&nbsp;동작구&nbsp;65세&nbsp;이상&nbsp;인구&nbsp;20%)&nbsp;및&nbsp;수요응답형&nbsp;"동행버스"&nbsp;확대&nbsp;등<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;계속&nbsp;사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;일반회계&nbsp;조정&nbsp;및&nbsp;국비·시비&nbsp;지원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	동작 비즈니스 코어, 베드타운에서 자족도시로!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="동작 비즈니스 코어, 베드타운에서 자족도시로!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;가까운&nbsp;일터!&nbsp;동작구&nbsp;옛&nbsp;청사부지&nbsp;"동작&nbsp;비즈니스&nbsp;코어"/노량진&nbsp;수협부지&nbsp;초고층&nbsp;문화복합쇼핑몰&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;여의도(금융)·용산(국제업무)·강남(IT)&nbsp;골든&nbsp;트라이앵글의&nbsp;정중앙!&nbsp;동작을&nbsp;자력&nbsp;자족도시로&nbsp;전환!<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;가까운&nbsp;일터!&nbsp;동작구&nbsp;옛&nbsp;청사부지&nbsp;"동작&nbsp;비즈니스&nbsp;코어",&nbsp;대형&nbsp;벤처캐피탈·유니콘&nbsp;기업·R&D&nbsp;센터&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동작형&nbsp;기업&nbsp;유치&nbsp;패키지(법인세·지방세&nbsp;혜택&nbsp;+&nbsp;거점&nbsp;오피스&nbsp;지원)로&nbsp;자발적&nbsp;기업&nbsp;유입&nbsp;견인<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동작형&nbsp;테크&nbsp;샌드박스&nbsp;운영(규제&nbsp;완화&nbsp;+&nbsp;인프라&nbsp;지원&nbsp;결합으로&nbsp;"제2의&nbsp;테헤란로"&nbsp;혁신&nbsp;생태계&nbsp;구축)<br>&nbsp;&nbsp;○&nbsp;원스톱&nbsp;생활!&nbsp;노량진&nbsp;수협부지&nbsp;문화복합쇼핑몰(스타필드·트레이더스)&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구청장&nbsp;직속&nbsp;‘노량진역·수산시장&nbsp;일대&nbsp;복합개발&nbsp;전담&nbsp;TF’&nbsp;신설,&nbsp;수협·신세계·코레일·SH&nbsp;등과&nbsp;상시&nbsp;협의<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상생매장&nbsp;20%&nbsp;의무&nbsp;배정,&nbsp;지역&nbsp;브랜드&nbsp;입점·공동&nbsp;마케팅/공동&nbsp;쿠폰북으로&nbsp;골목상권·전통시장&nbsp;보호<br>&nbsp;&nbsp;○&nbsp;자족도시&nbsp;정주환경,&nbsp;보육·교육·일자리&nbsp;동시&nbsp;해결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래금융·IT&nbsp;맞춤형&nbsp;인재&nbsp;육성(관내&nbsp;대학과&nbsp;산학협력,&nbsp;커리어센터를&nbsp;통한&nbsp;3040·경력단절·청년&nbsp;대상&nbsp;핀테크/데이터&nbsp;무료&nbsp;교육)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인근&nbsp;골목상권&nbsp;간판·도로&nbsp;정비,&nbsp;현대적&nbsp;인테리어&nbsp;지원으로&nbsp;상권&nbsp;리뉴얼<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;계속&nbsp;사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;일반회계&nbsp;조정&nbsp;및&nbsp;국비·시비&nbsp;지원,&nbsp;민간투자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	누구나 오고 싶은 동작, 한강·현충원·보라매 중심 문화 선도구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="누구나 오고 싶은 동작, 한강·현충원·보라매 중심 문화 선도구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;보라매&nbsp;그랜드가든&nbsp;상설화&nbsp;및&nbsp;K-팝&nbsp;연예기획사&nbsp;유치로&nbsp;청년&nbsp;문화&nbsp;1번지&nbsp;<br>&nbsp;&nbsp;○&nbsp;국립현충원을&nbsp;24시간&nbsp;열린&nbsp;호국&nbsp;공원으로!&nbsp;최대규모&nbsp;녹지축&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;한강&nbsp;‘도시&nbsp;속&nbsp;바다&nbsp;+&nbsp;테슬라&nbsp;다이너&nbsp;+&nbsp;노들&nbsp;글로벌예술섬’&nbsp;연계로&nbsp;동작&nbsp;한강&nbsp;야간&nbsp;문화&nbsp;회랑&nbsp;완성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;보라매&nbsp;그랜드가든&nbsp;상설화&nbsp;및&nbsp;K-팝&nbsp;대형&nbsp;연예기획사&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;12만&nbsp;평·111개&nbsp;정원,&nbsp;봄(튤립·벚꽃)~겨울(조명·설경)&nbsp;4계절&nbsp;테마&nbsp;운영,&nbsp;야간&nbsp;라이팅&nbsp;쇼·재즈&nbsp;in&nbsp;보라매·클래식&nbsp;피크닉&nbsp;등&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;K-팝&nbsp;대형&nbsp;연예기획사&nbsp;유치,&nbsp;K-팝&nbsp;아카데미·댄스&nbsp;스튜디오·녹음&nbsp;스튜디오·아티스트&nbsp;굿즈숍&nbsp;등&nbsp;청년&nbsp;창작&nbsp;생태계&nbsp;동시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;국립현충원&nbsp;개발&nbsp;―&nbsp;닫혀&nbsp;있던&nbsp;묘지에서&nbsp;열린&nbsp;호국&nbsp;공원으로<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;24시간&nbsp;개방,&nbsp;야간&nbsp;저조도&nbsp;경관조명·AI&nbsp;지능형&nbsp;CCTV·스마트&nbsp;가로등&nbsp;도입으로&nbsp;안전한&nbsp;야간&nbsp;산책&nbsp;환경&nbsp;조성&nbsp;및&nbsp;전통·현대&nbsp;통합&nbsp;수문장&nbsp;교대식&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;한강&nbsp;‘도시&nbsp;속&nbsp;바다&nbsp;+&nbsp;테슬라&nbsp;다이너&nbsp;+&nbsp;노들&nbsp;글로벌예술섬’&nbsp;연계로&nbsp;동작&nbsp;한강&nbsp;야간&nbsp;문화&nbsp;회랑<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한강&nbsp;‘도시&nbsp;속&nbsp;바다’&nbsp;조성,&nbsp;한강수변공원에&nbsp;노천&nbsp;푸드존,&nbsp;노량진수산시장과&nbsp;직결되는&nbsp;‘수산시장&nbsp;→&nbsp;한강&nbsp;푸드&nbsp;라인’&nbsp;워킹&nbsp;트레일<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;테슬라&nbsp;다이너&nbsp;드라이브인&nbsp;유치&nbsp;―&nbsp;슈퍼차저+스마트&nbsp;드라이브인&nbsp;시네마+레스토랑·루프탑&nbsp;바&nbsp;등&nbsp;서울&nbsp;최초&nbsp;미래형&nbsp;모빌리티&nbsp;복합공간<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;계속&nbsp;사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;일반회계&nbsp;조정&nbsp;및&nbsp;국비·시비&nbsp;지원,&nbsp;민간투자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

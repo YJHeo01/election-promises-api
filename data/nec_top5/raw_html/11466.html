@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;엄삼용 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	군민을 위한 예산은 군민의 품으로</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="군민을 위한 예산은 군민의 품으로">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;-&nbsp;영월&nbsp;전체&nbsp;예산&nbsp;재검토를&nbsp;통한&nbsp;전&nbsp;군민(출생~사망)&nbsp;생활복지&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;공공근로&nbsp;어르신들&nbsp;생활&nbsp;임금&nbsp;인상(30만원&nbsp;지급)<br>&nbsp;&nbsp;-&nbsp;출산,&nbsp;어린이&nbsp;돌봄,&nbsp;다문화&nbsp;가정&nbsp;지원예산&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;노인성&nbsp;질환&nbsp;의료비&nbsp;및&nbsp;첨단지킴이(화재,보안,낙상,돌봄)서비스&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;어르신&nbsp;이동권&nbsp;보장<br>&nbsp;&nbsp;-&nbsp;초·중·고·대학생&nbsp;교육&nbsp;소비&nbsp;쿠폰&nbsp;지급&nbsp;신설(연2회:2월,8월)<br>&nbsp;&nbsp;-&nbsp;군립&nbsp;Book&nbsp;카페&nbsp;건립&nbsp;및&nbsp;운영&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;평생교육&nbsp;거점&nbsp;공간&nbsp;단계적&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;예와&nbsp;효의&nbsp;영월&nbsp;사업:80세&nbsp;이상(20년&nbsp;거주)&nbsp;사망&nbsp;시·&nbsp;수의&nbsp;및&nbsp;영정사진&nbsp;무료쿠폰&nbsp;지급<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;&nbsp;추진&nbsp;및&nbsp;실행<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;-&nbsp;국비.도비.군비&nbsp;지원사업&nbsp;병행&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	영월 농민 부자 만들기 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="영월 농민 부자 만들기 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;-&nbsp;농업&nbsp;경쟁력&nbsp;강화로&nbsp;부자&nbsp;농민&nbsp;만들기<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;농민&nbsp;생활&nbsp;소비쿠폰&nbsp;지급(연2회:2월,&nbsp;8월)<br>&nbsp;&nbsp;-&nbsp;농어민&nbsp;수당&nbsp;추가&nbsp;지원:30만원<br>&nbsp;&nbsp;-&nbsp;농자재&nbsp;반값&nbsp;지원금&nbsp;인상<br>&nbsp;&nbsp;-&nbsp;비료/친환경농약&nbsp;지역내&nbsp;생산과&nbsp;공동구매&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;「근로자&nbsp;용역&nbsp;은행」&nbsp;도입으로&nbsp;일손지원&nbsp;강화<br>&nbsp;&nbsp;-&nbsp;수도권&nbsp;MOU&nbsp;협약(5개시)으로&nbsp;직거래판매장&nbsp;개설&nbsp;및&nbsp;판매지원<br>&nbsp;&nbsp;-&nbsp;영월&nbsp;브랜드&nbsp;스마트팜&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;청년&nbsp;농부&nbsp;적극&nbsp;육성<br>&nbsp;&nbsp;-&nbsp;군민&nbsp;환경권(난립개발&nbsp;방지)의&nbsp;실질적&nbsp;구현을&nbsp;위한&nbsp;시급&nbsp;대책&nbsp;마련<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;&nbsp;추진&nbsp;및&nbsp;실행<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;-&nbsp;국비.도비.군비&nbsp;지원사업&nbsp;병행&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	단종따라 물길따라 노젓자!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="단종따라 물길따라 노젓자!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;-&nbsp;세계적인&nbsp;역사문화&nbsp;관광도시로서의&nbsp;체류형&nbsp;관광&nbsp;인프라&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;스토리텔링형&nbsp;유적지&nbsp;연계&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;지역상권과&nbsp;연계한&nbsp;인프라&nbsp;구축&nbsp;:&nbsp;숙박,&nbsp;교통,&nbsp;식당&nbsp;등<br>&nbsp;&nbsp;-&nbsp;유튜버,&nbsp;블로거,&nbsp;SNS&nbsp;등&nbsp;촬영&nbsp;공간&nbsp;명소&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;외국인&nbsp;관광객&nbsp;지원&nbsp;인프라&nbsp;및&nbsp;지역민&nbsp;활용&nbsp;통역/가이드&nbsp;인력&nbsp;양성&nbsp;배치<br>&nbsp;&nbsp;-&nbsp;지역&nbsp;경제&nbsp;밀착형&nbsp;관광객&nbsp;체험장&nbsp;설치&nbsp;및&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;왕의&nbsp;밥상,&nbsp;유배&nbsp;밥상(비건,건강식)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;왕의&nbsp;숙소,&nbsp;유배&nbsp;황토방&nbsp;숙소(아토피&nbsp;치료&nbsp;효과)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;미래의&nbsp;왕만들기&nbsp;체험&nbsp;주말학교&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;레포츠&nbsp;체험<br>&nbsp;&nbsp;-&nbsp;축제&nbsp;문화를&nbsp;군민주도로&nbsp;운영<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;&nbsp;추진&nbsp;및&nbsp;실행<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;-&nbsp;국비.도비.군비&nbsp;지원사업&nbsp;병행&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	군민 참여 투명 행정체계 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="군민 참여 투명 행정체계 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;-&nbsp;군민의&nbsp;참여와&nbsp;소통강화를&nbsp;통해&nbsp;투명한&nbsp;책임&nbsp;행정&nbsp;체계&nbsp;구현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;소통형&nbsp;열린&nbsp;군수실&nbsp;운영<br>&nbsp;&nbsp;-&nbsp;군민&nbsp;참여형&nbsp;행정&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;사업&nbsp;초기&nbsp;단계부터&nbsp;군민&nbsp;참여운영&nbsp;방침<br>&nbsp;&nbsp;-&nbsp;군민&nbsp;모니터링&nbsp;홍보&nbsp;전문가&nbsp;제도&nbsp;신설&nbsp;운영<br>&nbsp;&nbsp;-&nbsp;행정혁신&nbsp;역량강화&nbsp;프로그램&nbsp;개발&nbsp;운영<br>&nbsp;&nbsp;-&nbsp;공무원&nbsp;직무&nbsp;능력&nbsp;향상&nbsp;및&nbsp;디지털&nbsp;역량&nbsp;강화&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;공공&nbsp;정년&nbsp;62세에서&nbsp;65세로&nbsp;시행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;&nbsp;추진&nbsp;및&nbsp;실행<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;-&nbsp;국비.도비.군비&nbsp;지원사업&nbsp;병행&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	돈이 도는 지역순환 생활 경제</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="돈이 도는 지역순환 생활 경제">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;영월의&nbsp;상권과&nbsp;일자리,&nbsp;지역기업의&nbsp;성장을&nbsp;통한&nbsp;시민&nbsp;삶의&nbsp;질&nbsp;향상<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;청년(20대~40대)을&nbsp;위한&nbsp;적극&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;주거:&nbsp;빈집&nbsp;및&nbsp;주택&nbsp;리모델링&nbsp;후&nbsp;저렴한&nbsp;월세&nbsp;제공(창업/취업&nbsp;연계시&nbsp;우선)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;창업&nbsp;:&nbsp;금융지원&nbsp;및&nbsp;보험제도&nbsp;운영,경영컨설트&nbsp;연계와&nbsp;실생활&nbsp;지원금&nbsp;지급<br>&nbsp;&nbsp;-&nbsp;청년&nbsp;취업·외국어&nbsp;강좌&nbsp;교육&nbsp;소비쿠폰&nbsp;지급&nbsp;신설(연4회)<br>&nbsp;&nbsp;-&nbsp;청년,&nbsp;여성,&nbsp;노인,&nbsp;장애인&nbsp;맞춤형&nbsp;일자리&nbsp;확대&nbsp;및&nbsp;처우&nbsp;개선<br>&nbsp;&nbsp;-&nbsp;지역소비&nbsp;촉진형&nbsp;지역화폐&nbsp;확대(매월&nbsp;20%로&nbsp;증액)<br>&nbsp;&nbsp;-&nbsp;전통시장과&nbsp;골목상권&nbsp;활성화&nbsp;및&nbsp;소상공인·지역기업&nbsp;성장지원<br>&nbsp;&nbsp;-&nbsp;중앙정부&nbsp;지원&nbsp;공모사업&nbsp;전문가&nbsp;영입으로&nbsp;적극적&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;-&nbsp;지역공동체&nbsp;협력조직&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;-&nbsp;사회적&nbsp;경제기업&nbsp;및&nbsp;마을공동체&nbsp;활성화&nbsp;적극&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;전&nbsp;&nbsp;군민&nbsp;민생지원금&nbsp;지급(연1회이상)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;&nbsp;추진&nbsp;및&nbsp;실행<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;-&nbsp;국비.도비.군비&nbsp;지원사업&nbsp;병행&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

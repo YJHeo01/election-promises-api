@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;조응천 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	전세대란 해법과 거주 이전 자유 회복, 자족도시 경기도로 가는 부동산 정책</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="전세대란 해법과 거주 이전 자유 회복, 자족도시 경기도로 가는 부동산 정책">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;현&nbsp;정부&nbsp;실정으로&nbsp;인한&nbsp;전세대란&nbsp;피해로부터&nbsp;도민&nbsp;보호<br>&nbsp;&nbsp;○&nbsp;규제&nbsp;중심&nbsp;시장&nbsp;억압&nbsp;정책&nbsp;타파,&nbsp;실수요자&nbsp;중심&nbsp;거주&nbsp;이전&nbsp;자유&nbsp;회복&nbsp;<br>&nbsp;&nbsp;○&nbsp;1기&nbsp;신도시&nbsp;재정비&nbsp;정상화<br>&nbsp;&nbsp;○&nbsp;임대&nbsp;일변도&nbsp;베드타운화&nbsp;거부,&nbsp;자족&nbsp;경기도&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;1기&nbsp;신도시&nbsp;재정비&nbsp;정상화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도지사&nbsp;직속&nbsp;1기&nbsp;신도시&nbsp;통합정비지원단&nbsp;설치,&nbsp;용적률&nbsp;인센티브&nbsp;부여로&nbsp;사업성&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;전세대란&nbsp;대응본부&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전세&nbsp;감소·월세&nbsp;전환으로&nbsp;인한&nbsp;도민&nbsp;피해&nbsp;실태조사&nbsp;및&nbsp;매달&nbsp;공개<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장기보유특별공제&nbsp;축소·폐지&nbsp;추진,&nbsp;1주택자&nbsp;전세대출&nbsp;보증한도&nbsp;차등,&nbsp;비거주&nbsp;1주택자&nbsp;대출규제&nbsp;검토&nbsp;등&nbsp;거주&nbsp;여부로&nbsp;1주택&nbsp;실수요자를&nbsp;가르는&nbsp;정책에&nbsp;반대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;토지거래허가제&nbsp;핀셋&nbsp;적용으로&nbsp;규제&nbsp;합리화,&nbsp;부당&nbsp;지정&nbsp;4곳&nbsp;피해&nbsp;데이터&nbsp;매달&nbsp;공개로&nbsp;정부&nbsp;압박<br>&nbsp;&nbsp;○&nbsp;자족&nbsp;경기도&nbsp;실현&nbsp;―&nbsp;베드타운화&nbsp;거부<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임대&nbsp;공공주택&nbsp;일변도가&nbsp;만드는&nbsp;베드타운화&nbsp;거부,&nbsp;동탄광역비지니스컴플렉스&nbsp;원안&nbsp;사수&nbsp;및&nbsp;3기&nbsp;신도시&nbsp;자족용지&nbsp;비율&nbsp;상향<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;전세대란&nbsp;대응본부&nbsp;설치&nbsp;및&nbsp;피해&nbsp;실태&nbsp;발표&nbsp;:&nbsp;취임&nbsp;후&nbsp;3개월&nbsp;이내<br>&nbsp;&nbsp;○&nbsp;토지거래허가제&nbsp;해제&nbsp;요청,&nbsp;1기&nbsp;신도시&nbsp;용적률&nbsp;기준&nbsp;마련,&nbsp;동탄&nbsp;광역비지니스컴플렉스&nbsp;3자&nbsp;협의체&nbsp;가동&nbsp;:&nbsp;취임&nbsp;후&nbsp;1년&nbsp;이내<br>&nbsp;&nbsp;○&nbsp;3기&nbsp;신도시&nbsp;자족용지&nbsp;상향&nbsp;:&nbsp;임기&nbsp;중<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;1기&nbsp;신도시&nbsp;재정비&nbsp;:&nbsp;도시계획&nbsp;조례&nbsp;개정&nbsp;추진,&nbsp;중앙정부&nbsp;재정&nbsp;지원&nbsp;사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;3기&nbsp;신도시&nbsp;자족용지&nbsp;:&nbsp;도시계획위&nbsp;의견&nbsp;제출,&nbsp;도비&nbsp;직접&nbsp;투입,&nbsp;LH·국토부&nbsp;협의</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	출퇴근 고통 해소와 반도체 광역망, 첨단경제 광역 거점 경기도로 가는 교통 정책</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="출퇴근 고통 해소와 반도체 광역망, 첨단경제 광역 거점 경기도로 가는 교통 정책">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;경기도&nbsp;광역&nbsp;교통&nbsp;문제&nbsp;신속&nbsp;해결로&nbsp;도민&nbsp;출퇴근&nbsp;고통&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;반도체산업&nbsp;관련&nbsp;교통망&nbsp;신설&nbsp;통해&nbsp;경기도를&nbsp;첨단산업&nbsp;광역&nbsp;거점으로&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;선계획&nbsp;교통&nbsp;원칙&nbsp;명문화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3기&nbsp;신도시·1기&nbsp;신도시&nbsp;재정비·신규&nbsp;산업단지&nbsp;등&nbsp;모든&nbsp;광역&nbsp;사업에&nbsp;입주·운영&nbsp;시점&nbsp;광역교통&nbsp;완성도&nbsp;평가&nbsp;후&nbsp;인허가&nbsp;조건&nbsp;부여하는&nbsp;'선교통·후입주'&nbsp;원칙&nbsp;도입.&nbsp;GTX&nbsp;개통에&nbsp;맞춘&nbsp;환승&nbsp;연계&nbsp;광역버스노선&nbsp;동시&nbsp;가동&nbsp;포함<br>&nbsp;&nbsp;○&nbsp;GTX&nbsp;조기&nbsp;착공&nbsp;및&nbsp;광역버스&nbsp;체계&nbsp;합리화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX&nbsp;통합대응본부&nbsp;설치.&nbsp;지연&nbsp;원인·환승·연계버스·인허가&nbsp;체계적&nbsp;점검&nbsp;및&nbsp;사업&nbsp;지연&nbsp;정보&nbsp;공개<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX-B·C&nbsp;적기&nbsp;개통&nbsp;사수,&nbsp;GTX-D·E·F의&nbsp;제5차&nbsp;국가철도망계획&nbsp;반영&nbsp;및&nbsp;조기&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정류장&nbsp;단말기&nbsp;태그로&nbsp;줄서지&nbsp;않고&nbsp;타는&nbsp;대기&nbsp;시스템(캐치버스)&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;강변북로&nbsp;지하화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;남양주&nbsp;수석동·수석대교&nbsp;예정부와&nbsp;한남대교&nbsp;북단을&nbsp;연결하는&nbsp;강변북로&nbsp;동북권&nbsp;지하축을&nbsp;국가계획에&nbsp;반영&nbsp;추진.&nbsp;남양주·구리&nbsp;등&nbsp;경기동북부&nbsp;도민의&nbsp;만성&nbsp;교통&nbsp;체증&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;반도체&nbsp;익스프레스&nbsp;신설&nbsp;-&nbsp;반도체&nbsp;벨트&nbsp;정주&nbsp;광역철도<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이천·용인·화성·수원·평택&nbsp;반도체&nbsp;벨트와&nbsp;경기남부국제공항&nbsp;후보지를&nbsp;직결하는&nbsp;GTX급&nbsp;광역철도&nbsp;추진.&nbsp;글로벌&nbsp;인재·연구인력의&nbsp;일상적&nbsp;입출국과&nbsp;협력업체·종사자의&nbsp;직주근접을&nbsp;한&nbsp;묶음으로&nbsp;확보<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;GTX&nbsp;통합대응본부&nbsp;설치&nbsp;및&nbsp;지연&nbsp;현황&nbsp;첫&nbsp;공개&nbsp;:&nbsp;취임&nbsp;후&nbsp;3개월&nbsp;이내<br>&nbsp;&nbsp;○&nbsp;캐치버스&nbsp;시범&nbsp;운영&nbsp;및&nbsp;반도체&nbsp;익스프레스·강변북로&nbsp;지하화&nbsp;국가철도망&nbsp;및&nbsp;국가계획&nbsp;반영&nbsp;요청&nbsp;:&nbsp;취임&nbsp;후&nbsp;1년&nbsp;이내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;GTX&nbsp;통합대응본부&nbsp;및&nbsp;캐치버스&nbsp;시스템은&nbsp;기존&nbsp;경기도&nbsp;교통&nbsp;행정&nbsp;예산&nbsp;재편&nbsp;및&nbsp;인력&nbsp;재배치로&nbsp;운영하여&nbsp;추가&nbsp;재정&nbsp;부담&nbsp;최소화<br>&nbsp;&nbsp;○&nbsp;반도체&nbsp;익스프레스는&nbsp;국비·광역교통시설부담금&nbsp;등&nbsp;국가&nbsp;재정&nbsp;지원과&nbsp;민자&nbsp;투자&nbsp;유치&nbsp;병행<br>&nbsp;&nbsp;○&nbsp;강변북로&nbsp;지하화는&nbsp;LH&nbsp;인근&nbsp;개발사업(토평·왕숙·양평)&nbsp;개발&nbsp;이익&nbsp;활용&nbsp;및&nbsp;민자&nbsp;투자&nbsp;유치,&nbsp;국비&nbsp;분담&nbsp;병행</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	경기남부공항·북부 규제혁신·K-방산·AI 의료특구, 대한민국 첨단경제 중심 경기도로 가는 산업·규제 정책</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="경기남부공항·북부 규제혁신·K-방산·AI 의료특구, 대한민국 첨단경제 중심 경기도로 가는 산업·규제 정책">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;도민&nbsp;이동권&nbsp;확대&nbsp;및&nbsp;남부&nbsp;반도체&nbsp;벨트&nbsp;글로벌&nbsp;경쟁력&nbsp;강화를&nbsp;위한&nbsp;경기남부국제공항&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;규제&nbsp;혁신과&nbsp;권역별&nbsp;산업&nbsp;특화로&nbsp;경기도&nbsp;모든&nbsp;지역을&nbsp;대한민국&nbsp;첨단경제의&nbsp;중심&nbsp;거점으로&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;시흥,&nbsp;일산에&nbsp;외국인&nbsp;의료관광·AI&nbsp;디지털헬스&nbsp;규제&nbsp;자유존으로&nbsp;글로벌&nbsp;환자·기업·연구진&nbsp;유치&nbsp;및&nbsp;지역경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;경기남부국제공항&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경기남부권&nbsp;도민&nbsp;이동&nbsp;편의&nbsp;및&nbsp;반도체&nbsp;물류거점으로서의&nbsp;역할&nbsp;위한&nbsp;경기남부국제공항&nbsp;신설&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;경기북부&nbsp;4대&nbsp;중첩규제&nbsp;통합&nbsp;정비&nbsp;및&nbsp;K-방산&nbsp;메가&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군사·접경·수도권·환경&nbsp;규제가&nbsp;겹친&nbsp;경기북부에&nbsp;도지사&nbsp;직속&nbsp;북부규제개혁&nbsp;정비특위&nbsp;설치,&nbsp;미군&nbsp;반환공여구역을&nbsp;5개&nbsp;시·군(의정부·양주·포천·동두천·연천)&nbsp;공동&nbsp;K-방산&nbsp;메가&nbsp;클러스터로&nbsp;전환하고&nbsp;방산혁신&nbsp;클러스터&nbsp;유치와&nbsp;연계해&nbsp;모빌리티·바이오&nbsp;등&nbsp;첨단&nbsp;산업&nbsp;확장<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;의료&nbsp;규제프리존&nbsp;지정&nbsp;추진,&nbsp;외국인&nbsp;환자&nbsp;유치&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시흥&nbsp;배곧·일산테크노밸리를&nbsp;'글로벌&nbsp;의료&nbsp;규제프리존'으로&nbsp;지정&nbsp;요청.&nbsp;시흥배곧서울대병원·국립암센터·일산병원&nbsp;등&nbsp;인프라&nbsp;기반으로&nbsp;미용의료·암·건강검진·치과&nbsp;등&nbsp;외국인&nbsp;진료&nbsp;광고·통역·비자&nbsp;규제&nbsp;합리화,&nbsp;'K-메디컬&nbsp;투어'&nbsp;연계&nbsp;지역경제&nbsp;활성화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;북부규제개혁정비특위&nbsp;설치&nbsp;및&nbsp;미군&nbsp;반환공여구역&nbsp;산업&nbsp;입지&nbsp;전환&nbsp;계획&nbsp;수립&nbsp;:&nbsp;취임&nbsp;후&nbsp;1년&nbsp;이내<br>&nbsp;&nbsp;○&nbsp;K-방산&nbsp;메가&nbsp;클러스터&nbsp;본격&nbsp;운영,&nbsp;경기남부국제공항&nbsp;예비타당성&nbsp;착수&nbsp;:&nbsp;임기&nbsp;중<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;K-방산&nbsp;메가&nbsp;클러스터·북부&nbsp;산업&nbsp;입지&nbsp;전환은&nbsp;국방부·국토부와&nbsp;협의해&nbsp;반환공여구역의&nbsp;장기임대,&nbsp;무상양여,&nbsp;매입비용&nbsp;경감&nbsp;등&nbsp;지방&nbsp;부담&nbsp;완화&nbsp;방안을&nbsp;추진하고&nbsp;방위사업청·산업부&nbsp;공모&nbsp;및&nbsp;민자&nbsp;유치&nbsp;병행.&nbsp;글로벌&nbsp;의료&nbsp;규제프리존은&nbsp;중기부·복지부·식약처·법무부&nbsp;협의&nbsp;기반&nbsp;국비&nbsp;매칭&nbsp;확보&nbsp;및&nbsp;기존&nbsp;인프라&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	지역의료 사각지대 해소와 돌봄 사각 메우기, 도민 삶과 밀착된 의료·복지 정책</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="지역의료 사각지대 해소와 돌봄 사각 메우기, 도민 삶과 밀착된 의료·복지 정책">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지방의료원&nbsp;기능강화&nbsp;통한&nbsp;지역&nbsp;의료사각지대&nbsp;해소&nbsp;및&nbsp;권역별&nbsp;진료&nbsp;네트워크&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;도민의&nbsp;실제&nbsp;삶에&nbsp;밀착한&nbsp;공공서비스로&nbsp;복지의&nbsp;질적&nbsp;전환&nbsp;달성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;지방의료원의&nbsp;중증,&nbsp;핵심의료체계&nbsp;관리&nbsp;기능&nbsp;강화를&nbsp;통한&nbsp;지역보건&nbsp;네트워크&nbsp;확립.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;초희소진료과&nbsp;권역별&nbsp;제병원&nbsp;내부&nbsp;핫라인&nbsp;구축,&nbsp;중증환자&nbsp;긴급&nbsp;수용&nbsp;위한&nbsp;중환자병상&nbsp;및&nbsp;격리병상&nbsp;공유체계&nbsp;도입,&nbsp;응급의료&nbsp;허브&nbsp;기능&nbsp;등&nbsp;역할&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중증소아&nbsp;단기&nbsp;의료돌봄&nbsp;병상&nbsp;‘경기도형&nbsp;도토리하우스’&nbsp;권역별&nbsp;설치&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;공공형&nbsp;임시놀이·돌봄시설&nbsp;‘맘편한&nbsp;놀이방’&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민센터&nbsp;등&nbsp;주요&nbsp;공공시설에&nbsp;예약&nbsp;절차&nbsp;없이,&nbsp;보호자&nbsp;동반&nbsp;입실&nbsp;없이&nbsp;1회&nbsp;최대&nbsp;3시간&nbsp;이용&nbsp;가능한&nbsp;임시&nbsp;아이돌봄시설&nbsp;설치하여&nbsp;긴급&nbsp;육아&nbsp;공백&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기반&nbsp;경기&nbsp;부모님&nbsp;복지&nbsp;알림&nbsp;서비스&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;복지&nbsp;안내체계&nbsp;활용,&nbsp;65세&nbsp;이상&nbsp;도민에게&nbsp;필요한&nbsp;복지서비스를&nbsp;분기별&nbsp;1회&nbsp;정기&nbsp;안내<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;본인&nbsp;및&nbsp;본인&nbsp;동의&nbsp;기반으로&nbsp;가족&nbsp;구성원에&nbsp;함께&nbsp;제도&nbsp;안내<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;권역별&nbsp;병상&nbsp;공유체계·핫라인&nbsp;구축&nbsp;및&nbsp;'맘편한&nbsp;놀이방'&nbsp;시범&nbsp;설치&nbsp;:&nbsp;취임&nbsp;후&nbsp;1년&nbsp;이내<br>&nbsp;&nbsp;○&nbsp;'경기도형&nbsp;도토리하우스'&nbsp;권역별&nbsp;설치&nbsp;및&nbsp;AI&nbsp;복지&nbsp;알림&nbsp;서비스&nbsp;전면&nbsp;운영&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;취임&nbsp;후&nbsp;2년&nbsp;이내<br>&nbsp;&nbsp;○&nbsp;전&nbsp;사업&nbsp;본격&nbsp;시행&nbsp;및&nbsp;이행&nbsp;점검체계&nbsp;구축&nbsp;:&nbsp;임기&nbsp;중<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지방의료원&nbsp;네트워크&nbsp;강화&nbsp;및&nbsp;도토리하우스는&nbsp;경기도&nbsp;공공보건의료&nbsp;예산&nbsp;재편과&nbsp;중앙정부&nbsp;응급의료기금·국비&nbsp;매칭사업&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;‘맘편한&nbsp;놀이방'은&nbsp;주민센터&nbsp;등&nbsp;기존&nbsp;공공시설&nbsp;유휴공간을&nbsp;우선&nbsp;활용하여&nbsp;별도&nbsp;부지·건축&nbsp;비용&nbsp;최소화<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;복지&nbsp;알림&nbsp;서비스는&nbsp;경기도&nbsp;기존&nbsp;복지정보시스템&nbsp;재편&nbsp;및&nbsp;민간&nbsp;AI&nbsp;기업과의&nbsp;공공협력&nbsp;모델로&nbsp;추진하여&nbsp;재정&nbsp;부담&nbsp;최소화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	AI 민원행정·악성민원 대응·1인 가구 안전망, 합리적이고 포용적인 경기도로 가는 시민 맞춤 정책</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="AI 민원행정·악성민원 대응·1인 가구 안전망, 합리적이고 포용적인 경기도로 가는 시민 맞춤 정책">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;효율성과&nbsp;포용성을&nbsp;동시에&nbsp;갖춘&nbsp;합리적&nbsp;행정&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;사회적&nbsp;고립&nbsp;예방&nbsp;및&nbsp;주거&nbsp;취약계층&nbsp;생활&nbsp;안전망&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기반&nbsp;민원행정&nbsp;체계&nbsp;구축&nbsp;및&nbsp;어르신&nbsp;배려&nbsp;창구&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지자체&nbsp;민원시스템과&nbsp;정부24&nbsp;연계,&nbsp;단순·반복&nbsp;민원은&nbsp;AI가&nbsp;처리하고&nbsp;중요&nbsp;판단·최종&nbsp;결정은&nbsp;공무원이&nbsp;담당하는&nbsp;'AI&nbsp;24&nbsp;민원센터'&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고령층&nbsp;민원&nbsp;접근성&nbsp;개선을&nbsp;위해&nbsp;'처음부터&nbsp;끝까지&nbsp;천천히&nbsp;응대'&nbsp;원칙&nbsp;적용&nbsp;어르신&nbsp;배려&nbsp;창구&nbsp;‘느린창구’&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;악성·과잉&nbsp;민원으로부터&nbsp;공적시스템&nbsp;및&nbsp;인력&nbsp;보호<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경기도청·산하&nbsp;공공기관&nbsp;악성민원&nbsp;대응&nbsp;전담부서&nbsp;신설,&nbsp;법적&nbsp;대응·피해자&nbsp;상담·치료·법률&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;‘1인&nbsp;가구&nbsp;생활커뮤니티센터'&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원룸·다세대·고시원&nbsp;1인&nbsp;가구&nbsp;밀집&nbsp;지역에&nbsp;생활커뮤니티센터&nbsp;조성.&nbsp;식사·건강·돌봄·여가&nbsp;프로그램을&nbsp;함께&nbsp;운영해&nbsp;사회적&nbsp;고립과&nbsp;고독사&nbsp;예방,&nbsp;청년·노인&nbsp;모두&nbsp;누리는&nbsp;생활&nbsp;안전망&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;24&nbsp;민원센터&nbsp;시범&nbsp;운영,&nbsp;어르신&nbsp;배려&nbsp;창구&nbsp;시범&nbsp;지정&nbsp;:&nbsp;취임&nbsp;후&nbsp;6개월&nbsp;이내<br>&nbsp;&nbsp;○&nbsp;악성민원&nbsp;전담부서&nbsp;신설,&nbsp;1인&nbsp;가구&nbsp;센터&nbsp;시범&nbsp;조성&nbsp;전면&nbsp;확대&nbsp;:&nbsp;임기&nbsp;중<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;24&nbsp;민원센터&nbsp;:&nbsp;행안부&nbsp;디지털정부&nbsp;혁신&nbsp;공모사업&nbsp;국비&nbsp;연계,&nbsp;기존&nbsp;민원행정&nbsp;예산&nbsp;재편<br>&nbsp;&nbsp;○&nbsp;악성민원&nbsp;전담부서&nbsp;예산&nbsp;강화&nbsp;:&nbsp;도&nbsp;일반회계&nbsp;반영,&nbsp;행안부&nbsp;협력사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;1인&nbsp;가구&nbsp;생활커뮤니티센터&nbsp;:&nbsp;공공시설&nbsp;유휴공간·민간&nbsp;협력&nbsp;우선&nbsp;활용,&nbsp;본예산·국비&nbsp;매칭사업&nbsp;연계</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

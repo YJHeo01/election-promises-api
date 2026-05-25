@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;노남수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	광주 북구 특례시 추진 및 예산 1조 시대 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="광주 북구 특례시 추진 및 예산 1조 시대 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;광주&nbsp;북구&nbsp;특례시&nbsp;추진을&nbsp;통한&nbsp;도시&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;시·도&nbsp;통합에&nbsp;따른&nbsp;추가&nbsp;예산&nbsp;확보&nbsp;및&nbsp;연간&nbsp;약&nbsp;1조&nbsp;원&nbsp;규모&nbsp;사업비&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;북구&nbsp;자체&nbsp;일자리&nbsp;사업&nbsp;확대&nbsp;및&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;도시&nbsp;인프라·복지·교통&nbsp;예산&nbsp;강화로&nbsp;주민&nbsp;삶의&nbsp;질&nbsp;향상<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중앙정부&nbsp;및&nbsp;관계기관과&nbsp;협의를&nbsp;통해&nbsp;북구&nbsp;특례시&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;관련&nbsp;기관&nbsp;및&nbsp;기업들과&nbsp;업무협약(MOU)&nbsp;체결&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;북구&nbsp;주민들과&nbsp;지속적으로&nbsp;논의하여&nbsp;단계적으로&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;북구형&nbsp;미래산업&nbsp;및&nbsp;일자리&nbsp;정책&nbsp;확대&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;북구청장&nbsp;임기&nbsp;중&nbsp;단계별&nbsp;추진<br><br>□&nbsp;재원&nbsp;조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;전남·광주시·도&nbsp;통합에&nbsp;따른&nbsp;연간&nbsp;약&nbsp;5조&nbsp;원&nbsp;규모의&nbsp;추가&nbsp;예산&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;북구&nbsp;특례시&nbsp;추진에&nbsp;따른&nbsp;자체&nbsp;사업비&nbsp;확보&nbsp;<br>&nbsp;&nbsp;○&nbsp;국비·시비&nbsp;및&nbsp;지방재정&nbsp;지원사업&nbsp;적극&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	현대아산병원 분원(제2병원) 유치 및 AI 최첨단 의료혁신단지 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="현대아산병원 분원(제2병원) 유치 및 AI 최첨단 의료혁신단지 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;현대아산병원&nbsp;분원(제2병원)&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기반&nbsp;최첨단&nbsp;의료혁신단지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;첨단&nbsp;의료·제약&nbsp;산업단지&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;고급&nbsp;일자리&nbsp;약&nbsp;2만5천&nbsp;개&nbsp;창출&nbsp;및&nbsp;지역경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대형&nbsp;의료기관&nbsp;및&nbsp;관련&nbsp;기업들과&nbsp;업무협약(MOU)&nbsp;체결&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;및&nbsp;민간&nbsp;투자유치&nbsp;적극&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;의료·AI·제약&nbsp;분야&nbsp;전문가&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;북구&nbsp;의료산업&nbsp;클러스터&nbsp;단계별&nbsp;조성&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;북구청장&nbsp;임기&nbsp;중&nbsp;단계별&nbsp;추진<br><br>□&nbsp;재원&nbsp;조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;민간투자&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;의료산업&nbsp;지원사업&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;공공·민간&nbsp;협력사업&nbsp;적극&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	KTX·SRT 광주역 진입 추진 및 북구 경제 활성화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="KTX·SRT 광주역 진입 추진 및 북구 경제 활성화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;KTX·SRT&nbsp;광주역&nbsp;진입&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;광주역&nbsp;중심&nbsp;상권&nbsp;및&nbsp;소상공인&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;대중교통&nbsp;개선&nbsp;및&nbsp;유동인구&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;광주역&nbsp;역세권&nbsp;경제&nbsp;활성화&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국토교통부&nbsp;및&nbsp;관계기관&nbsp;협의&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;광주역&nbsp;역세권&nbsp;활성화&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;교통&nbsp;전문가&nbsp;및&nbsp;주민&nbsp;의견&nbsp;수렴&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;철도&nbsp;및&nbsp;교통&nbsp;인프라&nbsp;개선사업&nbsp;단계별&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;북구청장&nbsp;임기&nbsp;중&nbsp;단계별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;광주시&nbsp;예산&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;철도&nbsp;및&nbsp;도시개발&nbsp;관련&nbsp;사업비&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;민간투자&nbsp;및&nbsp;정부&nbsp;지원사업&nbsp;적극&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	용봉IC 고속도로 진입로 개설 추진 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="용봉IC 고속도로 진입로 개설 추진 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;용봉·매곡·일곡지구&nbsp;교통체증&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;고속도로&nbsp;양방향&nbsp;진출입&nbsp;활성화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;교통&nbsp;접근성&nbsp;강화&nbsp;및&nbsp;지역균형발전&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;부동산&nbsp;및&nbsp;지역경제&nbsp;활성화&nbsp;기반&nbsp;마련<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;관계기관&nbsp;협의&nbsp;및&nbsp;교통영향&nbsp;검토&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;의견&nbsp;수렴&nbsp;및&nbsp;단계별&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;도로&nbsp;인프라&nbsp;개선사업&nbsp;적극&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;교통체계&nbsp;개선을&nbsp;통한&nbsp;이동&nbsp;편의&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;북구청장&nbsp;임기&nbsp;중&nbsp;단계별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;지방비&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;도로·교통&nbsp;관련&nbsp;정부&nbsp;지원사업&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;민간개발&nbsp;연계사업&nbsp;적극&nbsp;검토</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	31사단 이전 및 삼성기업 유치를 통한 청년 일자리 창출</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="31사단 이전 및 삼성기업 유치를 통한 청년 일자리 창출">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;31사단&nbsp;이전&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;삼성기업&nbsp;및&nbsp;대기업&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;대상&nbsp;양질의&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;청년·신혼부부&nbsp;공공임대주택&nbsp;공급&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중앙정부&nbsp;및&nbsp;국방부&nbsp;협의&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;삼성&nbsp;및&nbsp;대기업&nbsp;투자유치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;청년·신혼부부&nbsp;대상&nbsp;공공임대주택&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;기업&nbsp;유치를&nbsp;통한&nbsp;지역경제&nbsp;활성화&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;북구청장&nbsp;임기&nbsp;중&nbsp;단계별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·시비&nbsp;및&nbsp;민간투자&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;공공주택&nbsp;지원사업&nbsp;및&nbsp;도시개발사업&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;기업&nbsp;투자&nbsp;및&nbsp;지역개발사업&nbsp;연계&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

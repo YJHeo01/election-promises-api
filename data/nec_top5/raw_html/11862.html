@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;전상인 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	기찻길로 108년간 단절된 동쪽과 서쪽, 옥천역세권 신도시 건설!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="기찻길로 108년간 단절된 동쪽과 서쪽, 옥천역세권 신도시 건설!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표<br>-&nbsp;경부선&nbsp;철도로&nbsp;108년간&nbsp;단절된&nbsp;옥천&nbsp;동·서&nbsp;생활권을&nbsp;연결<br>-&nbsp;향수한우타운~원각&nbsp;구간(약&nbsp;2.5km)의&nbsp;철도&nbsp;상부를&nbsp;박스화하여&nbsp;도심공원화<br>-&nbsp;5,000호에서&nbsp;최대&nbsp;10,000호&nbsp;규모의&nbsp;미래형&nbsp;신도시&nbsp;조성<br>-&nbsp;주거,&nbsp;교육,&nbsp;체육,&nbsp;문화,&nbsp;의료,&nbsp;상업&nbsp;기능이&nbsp;결합된&nbsp;복합&nbsp;정주도시&nbsp;구축<br>-&nbsp;옥천&nbsp;인구&nbsp;5만&nbsp;회복과&nbsp;지역경제&nbsp;활성화&nbsp;기반&nbsp;마련<br>2.&nbsp;이행방법<br>-&nbsp;경부선&nbsp;철도&nbsp;상부를&nbsp;입체화(Cut&nbsp;&&nbsp;Cover&nbsp;방식)하여&nbsp;동·서&nbsp;지역을&nbsp;연결<br>-&nbsp;서남부&nbsp;6개&nbsp;권역(가화·양수·대천·삼청·소정·가풍리)을&nbsp;통합한&nbsp;계획도시&nbsp;조성<br>-&nbsp;LH,&nbsp;충북개발공사와&nbsp;공동&nbsp;시행&nbsp;및&nbsp;민·관&nbsp;합동&nbsp;SPC&nbsp;검토<br>-&nbsp;국토교통부&nbsp;콤팩트시티&nbsp;시범지구&nbsp;및&nbsp;도시재생&nbsp;혁신지구&nbsp;지정&nbsp;추진<br>-&nbsp;광역철도&nbsp;신설역&nbsp;유치와&nbsp;환승교통&nbsp;허브(P&R,&nbsp;K&R)&nbsp;조성<br>-&nbsp;단계별&nbsp;부지&nbsp;조성,&nbsp;설계,&nbsp;분양&nbsp;및&nbsp;기반시설&nbsp;구축<br>3.&nbsp;이행기간<br>-&nbsp;1단계(2026~2027년)/타당성&nbsp;조사&nbsp;및&nbsp;도시계획&nbsp;마스터플랜&nbsp;수립<br>-&nbsp;2단계(2028~2029년)/국비&nbsp;확보,&nbsp;기본설계&nbsp;및&nbsp;실시설계<br>-&nbsp;3단계(2030~2032년)/단계별&nbsp;개발,&nbsp;분양&nbsp;및&nbsp;입주<br>4.&nbsp;재원조달방안<br>-&nbsp;국비(약&nbsp;60%&nbsp;이상)<br>&nbsp;&nbsp;국토교통부&nbsp;도시재생사업,&nbsp;콤팩트시티&nbsp;시범사업,&nbsp;철도공단&nbsp;입체화&nbsp;사업&nbsp;활용<br>-&nbsp;도비(약&nbsp;15%)<br>&nbsp;&nbsp;충청북도&nbsp;균형발전&nbsp;특별회계&nbsp;및&nbsp;광역철도&nbsp;연계&nbsp;도시개발&nbsp;사업비<br>-&nbsp;군비(약&nbsp;15%)<br>&nbsp;&nbsp;옥천군&nbsp;자체&nbsp;예산을&nbsp;단계적으로&nbsp;투입<br>-&nbsp;민자(약&nbsp;10%)<br>&nbsp;&nbsp;LH·충북개발공사&nbsp;공동&nbsp;시행&nbsp;및&nbsp;민간&nbsp;분양&nbsp;수익&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	대청호 제2의 남이섬 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="대청호 제2의 남이섬 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표<br>-&nbsp;막지리·용호리&nbsp;일원의&nbsp;아름다운&nbsp;호반&nbsp;자원을&nbsp;활용하여&nbsp;‘옥천판&nbsp;남이섬’을&nbsp;조성<br>-&nbsp;당일&nbsp;관광지를&nbsp;1박&nbsp;2일&nbsp;체류형&nbsp;관광지로&nbsp;전환<br>-&nbsp;자연환경을&nbsp;훼손하지&nbsp;않는&nbsp;친환경&nbsp;호반산책로와&nbsp;치유의&nbsp;숲&nbsp;조성<br>-&nbsp;정지용&nbsp;문학과&nbsp;자연치유를&nbsp;결합한&nbsp;옥천&nbsp;대표&nbsp;관광브랜드&nbsp;구축<br>-&nbsp;지역경제&nbsp;활성화와&nbsp;관광객&nbsp;증가를&nbsp;통한&nbsp;새로운&nbsp;성장동력&nbsp;확보<br>2.&nbsp;이행방법<br>-&nbsp;막지리&nbsp;호반에&nbsp;자생식물을&nbsp;보존하는&nbsp;친환경&nbsp;산책로(1차&nbsp;2km)&nbsp;조성<br>-&nbsp;소정리·막지리&nbsp;선착장을&nbsp;정비하여&nbsp;친환경&nbsp;유람선&nbsp;및&nbsp;수상&nbsp;연결망&nbsp;구축<br>-&nbsp;봄꽃,&nbsp;카약,&nbsp;단풍길,&nbsp;눈꽃길&nbsp;등&nbsp;사계절&nbsp;관광&nbsp;콘텐츠&nbsp;운영<br>-&nbsp;정지용&nbsp;시인의&nbsp;작품을&nbsp;활용한&nbsp;‘호반&nbsp;시길’과&nbsp;치유의&nbsp;숲&nbsp;조성<br>-&nbsp;환경단체와&nbsp;함께하는&nbsp;「옥천호반&nbsp;환경거버넌스&nbsp;위원회」&nbsp;설치&nbsp;및&nbsp;공동&nbsp;운영<br>-&nbsp;콘크리트&nbsp;신축을&nbsp;최소화하고&nbsp;목재&nbsp;데크와&nbsp;흙길&nbsp;중심의&nbsp;자연친화적&nbsp;방식&nbsp;적용<br>3.&nbsp;이행기간<br>-&nbsp;1단계(2026~2027년)/환경단체&nbsp;협의,&nbsp;생태조사,&nbsp;마스터플랜&nbsp;수립<br>-&nbsp;2단계(2028~2029년)/막지리&nbsp;1차&nbsp;시범구간&nbsp;조성,&nbsp;선착장&nbsp;리노베이션<br>-&nbsp;3단계(2030~2032년)/산책로&nbsp;확장,&nbsp;치유의&nbsp;숲&nbsp;인증,&nbsp;사계절&nbsp;콘텐츠&nbsp;운영<br>4.&nbsp;재원조달방안<br>-&nbsp;국비(약&nbsp;55%)_환경부&nbsp;생태탐방로&nbsp;사업,&nbsp;산림청&nbsp;치유의&nbsp;숲,&nbsp;산림복지진흥원&nbsp;지원사업&nbsp;활용<br>-&nbsp;도비(약&nbsp;20%)_충청북도&nbsp;관광진흥기금&nbsp;및&nbsp;환경개선특별회계<br>-&nbsp;군비(약&nbsp;15%)_옥천군&nbsp;자체&nbsp;예산을&nbsp;단계적으로&nbsp;투입<br>-&nbsp;민자(약&nbsp;10%)_사회적기업&nbsp;및&nbsp;협동조합&nbsp;중심의&nbsp;친환경&nbsp;운영시설&nbsp;투자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	대전은 빵의성지, 옥천은 떡의 성지 : 떡문화 브랜드 도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="대전은 빵의성지, 옥천은 떡의 성지 : 떡문화 브랜드 도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표<br>-&nbsp;옥천을&nbsp;대한민국을&nbsp;대표하는&nbsp;떡문화&nbsp;산업도시로&nbsp;육성<br>-&nbsp;지역&nbsp;농산물(쌀,&nbsp;잡곡,&nbsp;과일&nbsp;등)을&nbsp;활용한&nbsp;고부가가치&nbsp;식품산업&nbsp;활성화<br>-&nbsp;전통&nbsp;떡을&nbsp;K-푸드와&nbsp;글루텐프리&nbsp;트렌드에&nbsp;맞춘&nbsp;글로벌&nbsp;디저트&nbsp;산업으로&nbsp;발전<br>-&nbsp;청년&nbsp;창업과&nbsp;일자리&nbsp;창출을&nbsp;통해&nbsp;지역경제&nbsp;활성화<br>-&nbsp;전국적인&nbsp;떡문화축제와&nbsp;관광&nbsp;콘텐츠를&nbsp;통해&nbsp;옥천의&nbsp;새로운&nbsp;도시&nbsp;브랜드&nbsp;구축<br>2.&nbsp;이행방법<br>-&nbsp;떡&nbsp;가공센터&nbsp;및&nbsp;청년창업&nbsp;보육센터를&nbsp;건립하여&nbsp;생산·가공·포장·유통&nbsp;기반&nbsp;조성<br>-&nbsp;떡&nbsp;카페&nbsp;및&nbsp;전시관을&nbsp;조성해&nbsp;체험·관광·판매가&nbsp;결합된&nbsp;복합문화공간&nbsp;구축<br>-&nbsp;옥천&nbsp;떡문화축제를&nbsp;개최하여&nbsp;전국적인&nbsp;브랜드&nbsp;인지도&nbsp;확보<br>-&nbsp;충북도립대학교&nbsp;관련&nbsp;학과를&nbsp;K-제과제빵·K-디저트&nbsp;전문학과로&nbsp;확대&nbsp;개편하여&nbsp;전문인력&nbsp;양성&nbsp;<br>-&nbsp;퓨전떡&nbsp;개발,&nbsp;HACCP&nbsp;인증,&nbsp;자동화&nbsp;생산,&nbsp;스마트팩토리&nbsp;및&nbsp;콜드체인&nbsp;구축<br>-&nbsp;온라인&nbsp;판매,&nbsp;대형&nbsp;유통망&nbsp;진출,&nbsp;해외&nbsp;이커머스(Amazon&nbsp;등)&nbsp;및&nbsp;수출&nbsp;확대&nbsp;추진<br>3.&nbsp;이행기간<br>-&nbsp;1단계(2026년)/브랜드&nbsp;구축,&nbsp;시장조사,&nbsp;제품&nbsp;개발&nbsp;및&nbsp;기본계획&nbsp;수립<br>-&nbsp;2단계(2027년)/생산라인&nbsp;구축,&nbsp;유통시장&nbsp;진입,&nbsp;축제&nbsp;및&nbsp;창업&nbsp;활성화<br>-&nbsp;3단계(2028년)/해외&nbsp;수출&nbsp;확대&nbsp;및&nbsp;글로벌&nbsp;브랜드&nbsp;도약<br>4.&nbsp;재원조달방안<br>-&nbsp;정부&nbsp;지원사업&nbsp;활용<br>&nbsp;&nbsp;농림축산식품부&nbsp;쌀가공산업&nbsp;육성지원,&nbsp;중소벤처기업부&nbsp;창업지원,&nbsp;수출바우처&nbsp;사업&nbsp;등&nbsp;적극&nbsp;활용<br>-&nbsp;민간&nbsp;투자&nbsp;유치<br>&nbsp;&nbsp;&nbsp;푸드테크&nbsp;기반&nbsp;엔젤투자&nbsp;및&nbsp;시리즈A&nbsp;투자&nbsp;유치<br>-&nbsp;크라우드&nbsp;펀딩<br>&nbsp;&nbsp;와디즈·텀블벅&nbsp;등을&nbsp;통한&nbsp;초기&nbsp;시장&nbsp;검증&nbsp;및&nbsp;제작비&nbsp;확보<br>-&nbsp;정책자금&nbsp;대출<br>&nbsp;&nbsp;기술보증기금,&nbsp;신용보증기금&nbsp;등&nbsp;정책금융&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	청산·청성·동이 지방도 575호선 직선화(약 16km)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="청산·청성·동이 지방도 575호선 직선화(약 16km)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표<br>-&nbsp;청산·청성과&nbsp;옥천읍을&nbsp;연결하는&nbsp;지방도&nbsp;575호선을&nbsp;직선화하여&nbsp;생활권&nbsp;통합<br>-&nbsp;궁촌재로&nbsp;인한&nbsp;교통&nbsp;단절과&nbsp;우회&nbsp;불편을&nbsp;해소<br>-&nbsp;청산·청성을&nbsp;영동·보은&nbsp;생활권이&nbsp;아닌&nbsp;옥천&nbsp;중심&nbsp;생활권으로&nbsp;회복<br>-&nbsp;통행시간을&nbsp;30~35분에서&nbsp;18~20분으로&nbsp;단축<br>-&nbsp;응급의료,&nbsp;통학,&nbsp;물류,&nbsp;행정&nbsp;접근성을&nbsp;획기적으로&nbsp;개선<br>2.&nbsp;이행방법<br>-&nbsp;청산면&nbsp;지전리에서&nbsp;청성면&nbsp;산계리,&nbsp;동이면&nbsp;적하리&nbsp;합수지점까지&nbsp;총&nbsp;16.4km&nbsp;도로&nbsp;개설<br>-&nbsp;기존도로&nbsp;확장&nbsp;6.2km,&nbsp;신규&nbsp;도로&nbsp;10.2km&nbsp;조성<br>-&nbsp;보청천&nbsp;횡단&nbsp;교량&nbsp;3개소&nbsp;신설<br>-&nbsp;설계속도&nbsp;60~80km/h의&nbsp;2차로&nbsp;도로와&nbsp;가변&nbsp;갓길&nbsp;확보<br>-&nbsp;충청북도가&nbsp;시행하고,&nbsp;옥천군과&nbsp;충북개발공사가&nbsp;보상&nbsp;및&nbsp;사업관리를&nbsp;담당<br>-&nbsp;동이&nbsp;하이패스&nbsp;IC와&nbsp;연계하여&nbsp;광역교통망&nbsp;구축<br>3.&nbsp;이행기간(6년)<br>-&nbsp;1단계(2027년)/타당성조사&nbsp;및&nbsp;기본계획&nbsp;수립<br>-&nbsp;2단계(2028년)/기본설계&nbsp;및&nbsp;환경영향평가<br>-&nbsp;3단계(2029년)/실시설계&nbsp;및&nbsp;보상&nbsp;협의<br>-&nbsp;4단계(2030~2032년)/공사&nbsp;착공&nbsp;및&nbsp;전&nbsp;구간&nbsp;개통<br>4.&nbsp;재원조달방안(총사업비:&nbsp;약&nbsp;580억&nbsp;원)<br>-&nbsp;국비&nbsp;348억&nbsp;원(60%)_지역균형발전특별회계&nbsp;및&nbsp;농산어촌&nbsp;SOC&nbsp;사업<br>-&nbsp;도비&nbsp;174억&nbsp;원(30%)_충청북도&nbsp;도로관리계정&nbsp;및&nbsp;교부세<br>-&nbsp;군비&nbsp;58억&nbsp;원(10%)_옥천군&nbsp;일반회계&nbsp;및&nbsp;일부&nbsp;군채&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	「아이키우기 좋은 옥천 동화마을」 브랜드 하에 3대 사업을 통합 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="「아이키우기 좋은 옥천 동화마을」 브랜드 하에 3대 사업을 통합 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;목표<br>-&nbsp;옥천을&nbsp;아이들이&nbsp;살고&nbsp;싶고&nbsp;부모가&nbsp;안심하는&nbsp;가족친화&nbsp;도시로&nbsp;조성<br>-&nbsp;인구소멸&nbsp;위기에&nbsp;대응하여&nbsp;젊은&nbsp;세대와&nbsp;다자녀&nbsp;가정의&nbsp;정착&nbsp;기반&nbsp;마련<br>-&nbsp;어린이&nbsp;놀이·교육·문화&nbsp;인프라와&nbsp;겨울&nbsp;관광&nbsp;콘텐츠를&nbsp;결합한&nbsp;새로운&nbsp;도시&nbsp;브랜드&nbsp;구축<br>-&nbsp;“우리&nbsp;아이가&nbsp;살고&nbsp;싶은&nbsp;마을,&nbsp;우리&nbsp;아이가&nbsp;자란&nbsp;동화”라는&nbsp;옥천의&nbsp;대표&nbsp;브랜드&nbsp;확립<br>2.&nbsp;이행방법<br>-&nbsp;옥천&nbsp;동화마을&nbsp;어린이놀이숲<br>-&nbsp;문정뜰&nbsp;100일&nbsp;동화겨울나라<br>-&nbsp;셋째아이&nbsp;카니발&nbsp;지원사업<br>-&nbsp;통합&nbsp;브랜드&nbsp;전략<br>3.&nbsp;이행기간<br>-&nbsp;1단계(2026년)/기본계획&nbsp;수립,&nbsp;부지&nbsp;선정,&nbsp;조례&nbsp;제정,&nbsp;민자&nbsp;및&nbsp;렌탈사&nbsp;협약<br>-&nbsp;2단계(2027년)/셋째아이&nbsp;카니발&nbsp;시범사업&nbsp;및&nbsp;기본설계<br>-&nbsp;3단계(2028년)/실시설계&nbsp;및&nbsp;본격&nbsp;사업&nbsp;착수<br>-&nbsp;4단계(2029~2030년)/어린이놀이숲&nbsp;및&nbsp;동화겨울나라&nbsp;개장<br>-&nbsp;5단계&nbsp;2031년&nbsp;전&nbsp;사업&nbsp;정상&nbsp;운영&nbsp;및&nbsp;확대&nbsp;검토<br>4.&nbsp;재원조달방안<br>-&nbsp;현실화&nbsp;수정안&nbsp;기준(군&nbsp;재정부담&nbsp;최소화)<br>&nbsp;&nbsp;총&nbsp;군&nbsp;실투자:&nbsp;128억&nbsp;원&nbsp;(기존&nbsp;375억&nbsp;원&nbsp;대비&nbsp;66%&nbsp;절감)<br>&nbsp;&nbsp;연간&nbsp;군&nbsp;실운영부담:&nbsp;25억&nbsp;원&nbsp;(기존&nbsp;78억&nbsp;원&nbsp;대비&nbsp;68%&nbsp;절감)<br>(재원&nbsp;구성)<br>-&nbsp;국비(60%)_여성가족부,&nbsp;보건복지부,&nbsp;문화체육관광부&nbsp;공모사업&nbsp;활용<br>-&nbsp;도비(20%)_충청북도&nbsp;인구활력&nbsp;시범사업&nbsp;및&nbsp;관련&nbsp;기금<br>-&nbsp;군비(20%)_옥천군&nbsp;일반회계&nbsp;및&nbsp;일부&nbsp;군채<br>-&nbsp;민간투자(BTO)_동화겨울나라&nbsp;시설비의&nbsp;약&nbsp;70%&nbsp;민자&nbsp;유치<br>-&nbsp;장기렌트&nbsp;협약_현대캐피탈,&nbsp;롯데렌탈,&nbsp;SK렌터카&nbsp;등과&nbsp;협약하여&nbsp;셋째아이&nbsp;지원비&nbsp;절감</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김정중 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	사계절 축제의 도시 조성 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="사계절 축제의 도시 조성 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;:&nbsp;단순히&nbsp;스쳐&nbsp;지나가는&nbsp;관광이&nbsp;아닌,&nbsp;지역&nbsp;주민과&nbsp;민·관이&nbsp;함께&nbsp;만드는&nbsp;체류형&nbsp;축제의&nbsp;도시&nbsp;조성<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;민·관&nbsp;협력&nbsp;거버넌스를&nbsp;통해&nbsp;양양의&nbsp;사계절&nbsp;스토리를&nbsp;발굴하고<br>&nbsp;&nbsp;-&nbsp;읍·면&nbsp;단위의&nbsp;풀뿌리&nbsp;체험을&nbsp;연결하여&nbsp;지역경제&nbsp;활성화를&nbsp;실현하는&nbsp;체류형&nbsp;축제를&nbsp;구축<br><br>○&nbsp;이행기간&nbsp;&nbsp;:&nbsp;2026년&nbsp;~<br><br>○&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;소규모&nbsp;단위&nbsp;축제&nbsp;:&nbsp;자체예산&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;군단위&nbsp;축제&nbsp;:&nbsp;공모를&nbsp;통한&nbsp;국도비&nbsp;확보&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	접경지특별법 개정 추진 등</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="접경지특별법 개정 추진 등">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;:&nbsp;양양의&nbsp;경제&nbsp;주권을&nbsp;지키고,&nbsp;그간&nbsp;폐광지특별법&nbsp;발의시&nbsp;“철”이&nbsp;제외되어&nbsp;양양&nbsp;철광산&nbsp;폐광&nbsp;등에&nbsp;따른&nbsp;양양주축&nbsp;경제권&nbsp;재건<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;“접경지역&nbsp;지원&nbsp;특별법”대상&nbsp;지역에&nbsp;양양이&nbsp;포함되도록&nbsp;대통령령&nbsp;개정을&nbsp;강력히&nbsp;요청？추진하여&nbsp;정부의&nbsp;지방교부세&nbsp;등&nbsp;국비&nbsp;예산을&nbsp;확보<br>&nbsp;&nbsp;-&nbsp;확보된&nbsp;예산을&nbsp;양양&nbsp;필요사업&nbsp;예산으로&nbsp;사용<br><br>○&nbsp;이행기간&nbsp;:&nbsp;2027년&nbsp;~<br><br>○&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;특별지원금&nbsp;:&nbsp;자체&nbsp;및&nbsp;정부&nbsp;특별교부세</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	낙산⇔양양 원스톱 경제벨트 구축 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="낙산⇔양양 원스톱 경제벨트 구축 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;:&nbsp;낙산의&nbsp;대규모&nbsp;숙박&nbsp;인프라와&nbsp;양양&nbsp;시내의&nbsp;먹거리를&nbsp;연결하여&nbsp;관광객의&nbsp;동선을&nbsp;시내권까지&nbsp;연결하고자&nbsp;함.<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;셔틀버스(낙산⇔양양시내)&nbsp;및&nbsp;남대천&nbsp;테마열차&nbsp;운행<br>&nbsp;&nbsp;-&nbsp;양양읍&nbsp;시내권&nbsp;특성화&nbsp;먹거리&nbsp;단지&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;남대천&nbsp;정원화(지방정원&nbsp;등록)&nbsp;및&nbsp;남대천을&nbsp;가로지르는&nbsp;집라인&nbsp;조성<br><br>○&nbsp;이행기간&nbsp;:&nbsp;2027년&nbsp;~<br><br>○&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;셔틀버스&nbsp;및&nbsp;테마열차&nbsp;구매&nbsp;:&nbsp;자체&nbsp;재원&nbsp;및&nbsp;국도비&nbsp;확보<br>&nbsp;&nbsp;-&nbsp;양양읍&nbsp;특성화&nbsp;단지&nbsp;조성&nbsp;:&nbsp;자체&nbsp;재원&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;남대천&nbsp;지방정원&nbsp;:&nbsp;자체&nbsp;재원&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;남대천&nbsp;집라인&nbsp;설치&nbsp;:&nbsp;공모를&nbsp;통한&nbsp;국도비&nbsp;확보&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	초·중·고등학생 자기계발비 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="초·중·고등학생 자기계발비 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;:&nbsp;양양의&nbsp;미래인&nbsp;학생(초·중·고등학생)들에게&nbsp;자기계발&nbsp;등의&nbsp;목적으로&nbsp;도서&nbsp;등&nbsp;구입&nbsp;유도하여&nbsp;지역인재&nbsp;육성에&nbsp;기여&nbsp;하고자&nbsp;함.<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;관내&nbsp;모든&nbsp;중·고등학생에게&nbsp;지역화폐&nbsp;또는&nbsp;교육&nbsp;바우처&nbsp;포인트(월&nbsp;5만원&nbsp;정도)를&nbsp;정기적으로&nbsp;지원<br><br>○&nbsp;이행기간&nbsp;:&nbsp;2027년&nbsp;~<br><br>○&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;기본지원금&nbsp;:&nbsp;자체&nbsp;재원&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	『고향사랑기부제 100억』실시로 양양이미지 제고 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="『고향사랑기부제 100억』실시로 양양이미지 제고 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;:&nbsp;『양양의&nbsp;고향사랑기부제&nbsp;100억』&nbsp;목표로&nbsp;하여&nbsp;애향심&nbsp;고취&nbsp;및&nbsp;양양이미지&nbsp;제고<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;출향민&nbsp;및&nbsp;군민&nbsp;기부금과&nbsp;양양을&nbsp;찾은&nbsp;여행객의&nbsp;양양지역&nbsp;소비로&nbsp;인해&nbsp;지급된&nbsp;적립금(payback)을&nbsp;기부받아&nbsp;모금<br><br>○&nbsp;이행기간&nbsp;:&nbsp;2028년&nbsp;상반기&nbsp;~<br><br>○&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;준비단계(시스템&nbsp;구축&nbsp;등)&nbsp;:&nbsp;자체&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;-&nbsp;시행단계&nbsp;:&nbsp;자체&nbsp;재원&nbsp;및&nbsp;국도비&nbsp;확보&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

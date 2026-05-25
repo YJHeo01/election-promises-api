@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박승원 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	광명의 미래 성장 동력, 교통이 편리해집니다.- 철도, 도로 및 교통개선 조기 추진으로 교통복지 향상</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="광명의 미래 성장 동력, 교통이 편리해집니다.- 철도, 도로 및 교통개선 조기 추진으로 교통복지 향상">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;재개발·재건축,&nbsp;대규모&nbsp;개발사업&nbsp;인프라&nbsp;구축&nbsp;계획&nbsp;간&nbsp;시차발생에&nbsp;따른&nbsp;시민&nbsp;불편&nbsp;최소화&nbsp;및&nbsp;교통&nbsp;흐름&nbsp;개선&nbsp;도모<br>&nbsp;&nbsp;○&nbsp;관내&nbsp;교통&nbsp;정체&nbsp;해소&nbsp;및&nbsp;대중교통&nbsp;이용&nbsp;편의&nbsp;개선&nbsp;등<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;신천-하안-신림선&nbsp;제5차&nbsp;국가철도망&nbsp;구추계획&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;신안산선,&nbsp;월곶판교선,&nbsp;광명시흥선,&nbsp;GTX-D,G&nbsp;광역철도망&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;수색~광명&nbsp;고속철도&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;서울방면&nbsp;직결도로&nbsp;4개&nbsp;신설&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서해안&nbsp;지하도로,&nbsp;철산로&nbsp;연결교량,&nbsp;디지털로&nbsp;지하차도,&nbsp;범안로&nbsp;지하차도<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;통합교통관제센터&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;구일역&nbsp;광명방면&nbsp;출입구&nbsp;환승시설&nbsp;설치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;목감교,&nbsp;광명대교&nbsp;확장<br>&nbsp;&nbsp;○&nbsp;출근형&nbsp;공공버스,&nbsp;공공시설&nbsp;셔틀버스&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;대중교통&nbsp;수요&nbsp;대응을&nbsp;위한&nbsp;버스&nbsp;증차&nbsp;및&nbsp;노선&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;광명동&nbsp;재개발&nbsp;지역&nbsp;및&nbsp;오리로&nbsp;교통정체&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;현충지하차도&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민간&nbsp;등&nbsp;협업</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	기업과 사람이 모이는, 일자리가 풍부한 경제도시 광명을 만들겠습니다.- 교통·경제·성장·미래가 연결되는 MEGA 광명시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="기업과 사람이 모이는, 일자리가 풍부한 경제도시 광명을 만들겠습니다.- 교통·경제·성장·미래가 연결되는 MEGA 광명시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;첨단산업과&nbsp;미래기업&nbsp;유치,&nbsp;청년창업주거와&nbsp;일자리창출로&nbsp;광명시&nbsp;지역경제를&nbsp;활성화하고&nbsp;광명시를&nbsp;대한민국&nbsp;핵심&nbsp;지식집약산업&nbsp;R&D의&nbsp;메카로&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;광명시&nbsp;전략산업인&nbsp;인공지능,&nbsp;미래&nbsp;모빌리티&nbsp;등&nbsp;외국인&nbsp;투자수요&nbsp;확보를&nbsp;통해&nbsp;경제자유구역&nbsp;지정과&nbsp;규제프리존을&nbsp;통한&nbsp;신산업&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;광명시는&nbsp;광역교통의&nbsp;요충지로&nbsp;주변에&nbsp;산업&nbsp;생태계가&nbsp;풍부하며&nbsp;지식집약산업&nbsp;중심&nbsp;모델&nbsp;구축에&nbsp;최적의&nbsp;조건으로&nbsp;산업&nbsp;클러스터의&nbsp;혁신&nbsp;촉진과&nbsp;산업&nbsp;경쟁력&nbsp;강화에&nbsp;기여<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;하안동&nbsp;K-청년혁신타운&nbsp;조성(청년창업허브센터,&nbsp;공공기관&nbsp;유치&nbsp;등)<br>&nbsp;&nbsp;○&nbsp;KTX광명역세권&nbsp;공간혁신지구&nbsp;사업&nbsp;추진(국제회의·비지니스·MICE&nbsp;기능&nbsp;조성&nbsp;등)<br>&nbsp;&nbsp;○&nbsp;광명시흥&nbsp;테크노밸리&nbsp;첨단산업·R&D&nbsp;중심&nbsp;거점&nbsp;조성&nbsp;및&nbsp;강소기업&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;산업진흥원&nbsp;설립<br>&nbsp;&nbsp;○&nbsp;광명시흥&nbsp;3기&nbsp;신도시&nbsp;경제자유구역&nbsp;지정&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;AX산단&nbsp;전환을&nbsp;위한&nbsp;AX지원센터&nbsp;신설<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민간&nbsp;등&nbsp;협업</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	시민 생활 복지 공간(체육·문화·예술 인프라)를 확대하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="시민 생활 복지 공간(체육·문화·예술 인프라)를 확대하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;광명시의&nbsp;부족한&nbsp;체육·문화·예술&nbsp;인프라를&nbsp;확대해&nbsp;시민들의&nbsp;체육,&nbsp;문화,&nbsp;예술&nbsp;복지&nbsp;향상&nbsp;도모<br>&nbsp;&nbsp;○&nbsp;시민들의&nbsp;체육·문화·예술&nbsp;활동&nbsp;접근성을&nbsp;높이기&nbsp;위해&nbsp;시민&nbsp;생활&nbsp;복지&nbsp;공간&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;광명시흥&nbsp;3기&nbsp;신도시&nbsp;K-아레나&nbsp;유치&nbsp;추진(5만석&nbsp;규모)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공연·스포츠·전시·문화복합시설&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;광명시립&nbsp;미술관&nbsp;건립&nbsp;추진(광명아트센터&nbsp;건립)<br>&nbsp;&nbsp;○&nbsp;광명&nbsp;역사문화박물관&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;광명&nbsp;반려동물&nbsp;문화복합센터&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;광명시흥&nbsp;3기&nbsp;신도시&nbsp;종합운동장&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;육상경기장,&nbsp;다목적구장,&nbsp;실내체육관,&nbsp;주차장&nbsp;조성&nbsp;등<br>&nbsp;&nbsp;○&nbsp;목감천&nbsp;저류지&nbsp;종합스포츠&nbsp;타운&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;테니스장,&nbsp;풋살장,&nbsp;파크골프장,&nbsp;축구장,&nbsp;배드민턴장&nbsp;등&nbsp;실외체육시설&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;장애인&nbsp;체육시설&nbsp;확충(반다비&nbsp;체육관&nbsp;건립&nbsp;등)<br>&nbsp;&nbsp;○&nbsp;유아친화형&nbsp;체육센터&nbsp;건립<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민간&nbsp;등&nbsp;협업</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	&lt;기본사회 1번지 광명시&gt; 광명에서의 삶이 더 편안하고 더 건강하고 더 행복해집니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="&lt;기본사회 1번지 광명시&gt; 광명에서의 삶이 더 편안하고 더 건강하고 더 행복해집니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;불평등,&nbsp;기후변화&nbsp;등&nbsp;급속한&nbsp;사회&nbsp;변화와&nbsp;복합적&nbsp;위기에&nbsp;대응해&nbsp;시민의&nbsp;기본적&nbsp;삶을&nbsp;위한&nbsp;안전망&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;국정기조에&nbsp;발맞춘&nbsp;기본사회를&nbsp;추진함으로써&nbsp;도시&nbsp;성장&nbsp;동력과&nbsp;지속&nbsp;가능성을&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;내&nbsp;지속가능한&nbsp;돌봄전달체계를&nbsp;확립하여&nbsp;분절된&nbsp;서비스를&nbsp;대상자&nbsp;중심&nbsp;맞춤형&nbsp;통합지원으로&nbsp;전환하여&nbsp;‘살던&nbsp;곳에서&nbsp;건강하게’를&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;광명시&nbsp;기본사회&nbsp;추진체계&nbsp;마련&nbsp;및&nbsp;정책강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광명시&nbsp;기본사회&nbsp;정책&nbsp;5개년&nbsp;계획&nbsp;수립&nbsp;등<br>&nbsp;&nbsp;○&nbsp;광명시&nbsp;통합돌봄&nbsp;체계&nbsp;구축&nbsp;및&nbsp;조기&nbsp;정착<br>&nbsp;&nbsp;○&nbsp;시니어건강생활지원센터&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;광명형&nbsp;주치의&nbsp;제도&nbsp;도입(광명형&nbsp;건강단골의사)<br>&nbsp;&nbsp;○&nbsp;고독사&nbsp;예방을&nbsp;위한&nbsp;AI기반&nbsp;스마트돌봄&nbsp;서비스&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;재택의료센터&nbsp;운영&nbsp;및&nbsp;협력병원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;광명형&nbsp;그냥드림,&nbsp;그냥해드림&nbsp;사업&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;광명메모리얼파크&nbsp;증축<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민간&nbsp;등&nbsp;협업</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	사람과 자연이 공존하는 지속가능 도시를 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="사람과 자연이 공존하는 지속가능 도시를 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;기후&nbsp;위기에&nbsp;능동적으로&nbsp;대응할&nbsp;수&nbsp;있도록&nbsp;지속가능한&nbsp;회복력을&nbsp;가진&nbsp;도시,&nbsp;시민&nbsp;중심&nbsp;기후적응&nbsp;사회&nbsp;광명&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;정원도시&nbsp;광명으로&nbsp;사람과&nbsp;자연이&nbsp;공존하는&nbsp;지속가능&nbsp;정원도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민이&nbsp;직접&nbsp;참여하는&nbsp;시민&nbsp;주도&nbsp;정원도시&nbsp;로드맵을&nbsp;추진&nbsp;및&nbsp;생활&nbsp;인프라&nbsp;확장,&nbsp;생태계&nbsp;보전을&nbsp;결합한&nbsp;도시&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;광명시&nbsp;도시정원화&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4대산(도덕산·구름산·가학산·서독산)&nbsp;산림형&nbsp;시민정원으로&nbsp;연결&nbsp;및&nbsp;둘레길&nbsp;재정비사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;안양천·목감천&nbsp;:&nbsp;국가정원&nbsp;추진,&nbsp;생태·문화벨트&nbsp;조성&nbsp;등<br>&nbsp;&nbsp;○&nbsp;도덕산&nbsp;공원&nbsp;현대화&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;영회원&nbsp;수변공원&nbsp;조성사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;소하문화공원&nbsp;조성사업<br>&nbsp;&nbsp;○&nbsp;정원지원센터&nbsp;설립&nbsp;및&nbsp;정원도시&nbsp;관리단&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;공간지원형&nbsp;햇빛발전소&nbsp;확대&nbsp;및&nbsp;제로에너지&nbsp;건축물&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;탄소중립&nbsp;친환경&nbsp;산업연구단지&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민간&nbsp;등&nbsp;협업</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

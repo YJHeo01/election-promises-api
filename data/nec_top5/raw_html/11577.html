@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김영환 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	돔구장 건설 및 프로야구 퓨처스 야구단 창단</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="돔구장 건설 및 프로야구 퓨처스 야구단 창단">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;국제&nbsp;공인규격을&nbsp;갖춘&nbsp;돔구장을&nbsp;건립하여&nbsp;국제경기&nbsp;및&nbsp;국제행사를&nbsp;통해&nbsp;전국적인&nbsp;스포츠·문화의&nbsp;메카로&nbsp;발전<br>&nbsp;&nbsp;○&nbsp;실내형&nbsp;돔구장은&nbsp;안정적&nbsp;환경&nbsp;제공으로&nbsp;경기&nbsp;취소&nbsp;리스크가&nbsp;적으며&nbsp;문화·공연·전시&nbsp;등&nbsp;복합&nbsp;행사&nbsp;공간으로&nbsp;활용&nbsp;가능<br>&nbsp;&nbsp;○&nbsp;돔구장&nbsp;건립과&nbsp;동시에&nbsp;충북의&nbsp;새로운&nbsp;연고구단을&nbsp;유치하여&nbsp;한화이글스&nbsp;청주경기에&nbsp;의존하던&nbsp;도민의&nbsp;문화·체육의&nbsp;갈증&nbsp;해소&nbsp;&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;돔구장&nbsp;및&nbsp;제2&nbsp;프로야구단&nbsp;창단을&nbsp;위한&nbsp;충청북도와&nbsp;청주시&nbsp;실무진&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문체부&nbsp;돔구장&nbsp;건립&nbsp;추진&nbsp;:&nbsp;&nbsp;용역&nbsp;/&nbsp;타당성&nbsp;조사,&nbsp;최적후보지&nbsp;검토&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돔구장&nbsp;건립&nbsp;기본구상&nbsp;및&nbsp;사전타당성&nbsp;조사&nbsp;용역&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돔구장&nbsp;건립&nbsp;자문위원회&nbsp;구성&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민협의회&nbsp;구성&nbsp;운영&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2034년&nbsp;준공<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2034년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제2구단&nbsp;창단&nbsp;:&nbsp;&nbsp;2030년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돔구장&nbsp;건설&nbsp;:&nbsp;&nbsp;2034년&nbsp;(임기내&nbsp;착공&nbsp;준비&nbsp;완료)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;10,100억원&nbsp;추정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비&nbsp;5,000억원,&nbsp;지방비&nbsp;2,000억원,&nbsp;민자&nbsp;3,100억원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	AI 충청북특별도 완성 AI Value Chain (AI 데이터센터 건립)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="AI 충청북특별도 완성 AI Value Chain (AI 데이터센터 건립)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;AI를&nbsp;잘&nbsp;쓰는&nbsp;지역을&nbsp;넘어,&nbsp;AI를&nbsp;만들고&nbsp;산업에&nbsp;적용하는&nbsp;대한민국&nbsp;AI실용&nbsp;중심지<br>&nbsp;&nbsp;○&nbsp;산업도&nbsp;삶도&nbsp;더&nbsp;똑똑하게&nbsp;중심&nbsp;충북<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;Value&nbsp;Chain&nbsp;:&nbsp;대한민국&nbsp;AI&nbsp;산업전환&nbsp;중심지&nbsp;충북<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;:&nbsp;청주(오송-오창)-충주축&nbsp;=&nbsp;바이오,&nbsp;반도체,&nbsp;이차전지,&nbsp;소부장,&nbsp;스마트제조&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;오송을&nbsp;대한민국&nbsp;바이오&nbsp;AI&nbsp;혁신거점&nbsp;/&nbsp;주력산업&nbsp;300개&nbsp;기업&nbsp;AI&nbsp;전환&nbsp;지원&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;스마트&nbsp;팩토리,&nbsp;휴머노이드&nbsp;공장&nbsp;등&nbsp;AI&nbsp;자동화&nbsp;시스템&nbsp;구축&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;New&nbsp;:&nbsp;충주-제천축&nbsp;=&nbsp;AI&nbsp;데이터&nbsp;센터&nbsp;유치&nbsp;/&nbsp;소프웨어&nbsp;기업&nbsp;및&nbsp;인력&nbsp;유치&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R&D&nbsp;생태계&nbsp;조성&nbsp;:&nbsp;망고부스트,&nbsp;KAIST&nbsp;등&nbsp;데이터&nbsp;센터&nbsp;활용&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AI&nbsp;인재개발&nbsp;거점&nbsp;=&nbsp;활용인력&nbsp;1만명,&nbsp;AI&nbsp;개발인력&nbsp;500명&nbsp;양성&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;⇒&nbsp;청정&nbsp;친환경&nbsp;에너지&nbsp;자립&nbsp;:&nbsp;수열&nbsp;또는&nbsp;수소산업&nbsp;특화단지&nbsp;등&nbsp;RE100&nbsp;달성&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;청주&nbsp;(중부)권과&nbsp;북부권역&nbsp;두&nbsp;개의&nbsp;수레바퀴로&nbsp;충북&nbsp;전역을&nbsp;견인하여&nbsp;균형발전&nbsp;촉진<br><br>&nbsp;&nbsp;○&nbsp;일상을&nbsp;디자인&nbsp;도민체감&nbsp;미리&nbsp;예측하고&nbsp;빠르게&nbsp;대응하는&nbsp;행정&nbsp;서비스<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;돌봄&nbsp;(독거노인,&nbsp;위기가구),&nbsp;AI&nbsp;이동병원&nbsp;(응급의료&nbsp;시스템&nbsp;구축)&nbsp;운영&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;교통체계,&nbsp;기후환경&nbsp;및&nbsp;재난안전&nbsp;관련&nbsp;AI&nbsp;조기예측&nbsp;경보&nbsp;체계&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;(산림·농업+한방+치유)&nbsp;문화관광&nbsp;플랫폼&nbsp;구축&nbsp;=&nbsp;국립산림치유원&nbsp;유치,&nbsp;생태숲정원&nbsp;조성&nbsp;<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;교육체계&nbsp;:&nbsp;창의교육을&nbsp;위해&nbsp;그림책&nbsp;정원,&nbsp;생태&nbsp;숲&nbsp;확대를&nbsp;통한&nbsp;생태적&nbsp;감수성&nbsp;제고<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2034년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;데이터&nbsp;센타,&nbsp;R&D&nbsp;생태계&nbsp;조성&nbsp;(망고부스트,&nbsp;KAIST&nbsp;등&nbsp;데이터&nbsp;센터&nbsp;활용)&nbsp;:&nbsp;2030년&nbsp;완공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일상을&nbsp;디지인,&nbsp;AI교육체계&nbsp;:&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;민자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	세계 최고·최대의 K-바이오스퀘어 완성 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="세계 최고·최대의 K-바이오스퀘어 완성 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;AI데이터와&nbsp;방사광가속기&nbsp;연계&nbsp;초고속&nbsp;신약개발&nbsp;허브&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;오송&nbsp;바이오&nbsp;페스타!&nbsp;R&D&nbsp;인재가&nbsp;모이고,&nbsp;연구하고,&nbsp;성공하다&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;AI바이오&nbsp;영재학교&nbsp;개교<br>&nbsp;&nbsp;○&nbsp;AI바이오데이터센터,&nbsp;다목적&nbsp;방사광가속기&nbsp;연계&nbsp;신약개발&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;서울대병원&nbsp;연계&nbsp;암치료&nbsp;특화&nbsp;중입자&nbsp;치료기&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;CTX&nbsp;K-바이오&nbsp;스퀘어&nbsp;정차역&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;KAIST&nbsp;바이오&nbsp;스퀘어&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;KAIST&nbsp;뇌과학연구소·대학원&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;한국생명공학연구원&nbsp;부설&nbsp;노화연구소&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;국립보건연구원&nbsp;산하&nbsp;국립건강노화연구소&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;창업촉진을&nbsp;위한&nbsp;보스턴&nbsp;연계&nbsp;美&nbsp;바이오랩스&nbsp;오송&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;K-바이오&nbsp;전국&nbsp;스타트업&nbsp;포럼&nbsp;개최,&nbsp;Osong&nbsp;Bio&nbsp;컨퍼런스&nbsp;개최&nbsp;<br>&nbsp;&nbsp;○&nbsp;전국&nbsp;최초&nbsp;5천억원&nbsp;규모&nbsp;K-바이오스타&nbsp;성장&nbsp;펀드&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;K-바이오&nbsp;스퀘어&nbsp;추진단&nbsp;신설<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030(5년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;1조5,000억원&nbsp;(국비&nbsp;6,000억&nbsp;지방비&nbsp;6,000억&nbsp;민자&nbsp;3,000억)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	청주공항 민간전용활주로 조기 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="청주공항 민간전용활주로 조기 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;공항&nbsp;이용객&nbsp;지속&nbsp;증가,&nbsp;장래&nbsp;수도권&nbsp;및&nbsp;중부권&nbsp;항공수요&nbsp;대응&nbsp;필요<br>&nbsp;&nbsp;○&nbsp;민간공항은&nbsp;軍에서&nbsp;슬롯&nbsp;7~8회를&nbsp;배정받아&nbsp;운영중이나,&nbsp;추가&nbsp;배정&nbsp;어려움<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;항공화물의&nbsp;9925%&nbsp;이상&nbsp;집중된&nbsp;인천공항의&nbsp;포화에&nbsp;대비&nbsp;필요<br>&nbsp;&nbsp;○&nbsp;청주국제공항&nbsp;民軍&nbsp;복합공항&nbsp;한계를&nbsp;극복하고,&nbsp;중부권&nbsp;거점&nbsp;·&nbsp;행정수도&nbsp;관문&nbsp;·&nbsp;수도권&nbsp;대체공항으로서&nbsp;역할과&nbsp;기능&nbsp;확대&nbsp;및&nbsp;국가균형발전&nbsp;도모<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국회토론회,&nbsp;「청주공항&nbsp;특별법」발의<br>&nbsp;&nbsp;○&nbsp;100만명&nbsp;서명&nbsp;(약&nbsp;116만명참여),&nbsp;서명부&nbsp;국토부&nbsp;전달('25.10.)<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;정부예산&nbsp;예타&nbsp;용역비&nbsp;반영('25.12.)<br>&nbsp;&nbsp;○&nbsp;「제7차&nbsp;공항개발&nbsp;종합계획」반영&nbsp;('26년&nbsp;下),&nbsp;<br>&nbsp;&nbsp;○&nbsp;국토부,&nbsp;사전타당성조사&nbsp;용역&nbsp;추진&nbsp;('26년&nbsp;下)&nbsp;<br>&nbsp;&nbsp;○&nbsp;「청주공항&nbsp;특별법」제정&nbsp;년&nbsp;('26년&nbsp;末)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2035년&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민자&nbsp;약&nbsp;1조&nbsp;5,000억원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	레이크파크 르네상스 문화관광 1억명 시대 개막</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="레이크파크 르네상스 문화관광 1억명 시대 개막">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;충북을&nbsp;방문하는&nbsp;관광객&nbsp;수의&nbsp;증가세를&nbsp;이어가고,&nbsp;관광&nbsp;활성화를&nbsp;통해&nbsp;어려운&nbsp;민생경제를&nbsp;회복하기&nbsp;위한&nbsp;다각적인&nbsp;방안&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;△도&nbsp;지정&nbsp;축제&nbsp;지정&nbsp;·&nbsp;육성,&nbsp;△충북&nbsp;숙박&nbsp;할인쿠폰&nbsp;지원사업&nbsp;조기&nbsp;추진,&nbsp;△외국인&nbsp;관광객유치&nbsp;인센티브&nbsp;지원,&nbsp;△인바운드&nbsp;관광&nbsp;세일즈마케팅&nbsp;강화&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;"충북의&nbsp;관광&nbsp;경쟁력을&nbsp;높이기&nbsp;위해&nbsp;체류형&nbsp;관광&nbsp;인프라&nbsp;확충과&nbsp;내수&nbsp;활성화를&nbsp;위한&nbsp;특색&nbsp;있는&nbsp;관광콘텐츠&nbsp;개발에&nbsp;더욱&nbsp;노력<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;속리산,&nbsp;청남대&nbsp;케이블카&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;(산림·농업+한방+치유)&nbsp;문화관광&nbsp;플랫폼&nbsp;구축&nbsp;=&nbsp;국립산림치유원&nbsp;유치,&nbsp;생태숲정원&nbsp;조성&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;레이크파크&nbsp;르네상스&nbsp;강화와&nbsp;1억&nbsp;관광&nbsp;시대&nbsp;개막<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청남대&nbsp;큰&nbsp;섬&nbsp;자연사&nbsp;박물관&nbsp;건립&nbsp;(청남대&nbsp;브랜드&nbsp;향상)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;충북관광공사&nbsp;설립,&nbsp;청주국제공항&nbsp;활성화,&nbsp;돔구장&nbsp;및&nbsp;프로구단&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;오스코&nbsp;개관,&nbsp;하계세계대학경기대회,&nbsp;아트센터&nbsp;건립&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2030년&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;5,000억&nbsp;(국비&nbsp;1,000억,&nbsp;지방비&nbsp;2,000억&nbsp;민자&nbsp;2,000억)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

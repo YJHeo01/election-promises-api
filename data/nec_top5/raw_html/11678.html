@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이기형 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	촘촘한 철도·도로망 구축으로 안전하고 편리한 교통도시 김포</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="촘촘한 철도·도로망 구축으로 안전하고 편리한 교통도시 김포">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시민의&nbsp;이동권이&nbsp;보장되는&nbsp;진짜&nbsp;교통도시&nbsp;김포를&nbsp;구현&nbsp;<br>&nbsp;&nbsp;○&nbsp;'김포골드라인&nbsp;사태'&nbsp;로&nbsp;상징되는&nbsp;출근길&nbsp;교통&nbsp;대란을&nbsp;철도&nbsp;및&nbsp;도로망&nbsp;확충과&nbsp;대중교통&nbsp;이용&nbsp;환경&nbsp;개선으로&nbsp;완전히&nbsp;해결<br><br>□&nbsp;이행방법<br>&nbsp;○&nbsp;철도&nbsp;확충으로&nbsp;출퇴근&nbsp;지옥&nbsp;해결!<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김포~강남&nbsp;직결&nbsp;GTX-D,&nbsp;제5차&nbsp;국가철도망&nbsp;구축계획&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;5호선&nbsp;김포연장&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;풍무2역,&nbsp;김포경찰서역,&nbsp;김포북부권(통진,&nbsp;대곶)&nbsp;역사&nbsp;신설&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김포~서울도심&nbsp;30분대&nbsp;직결&nbsp;서부권&nbsp;광역급행철도&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김포골드라인&nbsp;학운~검단&nbsp;연장추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인천&nbsp;2호선&nbsp;김포~&nbsp;고양&nbsp;연장&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;도로망&nbsp;확충으로&nbsp;인근&nbsp;도시&nbsp;연계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일산대교&nbsp;통행료&nbsp;전면&nbsp;무료화&nbsp;추진!&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;계양~강화&nbsp;고속도로,&nbsp;김포~파주&nbsp;고속도로&nbsp;적기&nbsp;개통!<br>&nbsp;&nbsp;○&nbsp;안전하고&nbsp;편리한&nbsp;대중교통<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;버스&nbsp;전용차로&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수요응답형&nbsp;버스(DRT)&nbsp;&nbsp;획기적&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;GTX-A&nbsp;(킨텍스등)&nbsp;연계버스&nbsp;및&nbsp;골드라인&nbsp;혼잡&nbsp;시간&nbsp;대&nbsp;버스&nbsp;투입&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;개인형&nbsp;이동장치&nbsp;안전&nbsp;규제&nbsp;강화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김포형&nbsp;전기&nbsp;자전거&nbsp;공유&nbsp;인프라&nbsp;구축<br><br>□&nbsp;이행기간&nbsp;및&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;조례&nbsp;&nbsp;제·개정&nbsp;사항은&nbsp;2026년&nbsp;7월부터&nbsp;준비하여&nbsp;단계적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;재정사업은&nbsp;2026년&nbsp;추경과&nbsp;2027년도&nbsp;예산&nbsp;수립부터&nbsp;단계적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;중앙정부와&nbsp;경기도의&nbsp;재정&nbsp;지원&nbsp;확대&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	모두 함께 발전하는 친환경 미래첨단전략산업의 거점도시 김포 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="모두 함께 발전하는 친환경 미래첨단전략산업의 거점도시 김포 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;기업이&nbsp;성장하고&nbsp;경제에&nbsp;활력이&nbsp;넘치는&nbsp;도시&nbsp;김포<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;친환경&nbsp;RE100&nbsp;미래첨단전략산업의&nbsp;거점도시&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신재생에너지기반&nbsp;AI·로봇·바이오&nbsp;등&nbsp;첨단산업&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대곶환경재생혁신복합단지&nbsp;~&nbsp;시네폴리스&nbsp;~&nbsp;학운산단&nbsp;삼각&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고촌&nbsp;아라마리나&nbsp;항만지구&nbsp;해양레저&nbsp;교육센터&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경기도&nbsp;평화경제특구&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제조업&nbsp;경쟁력&nbsp;강화&nbsp;지원&nbsp;:&nbsp;스마트&nbsp;공장&nbsp;지원,&nbsp;기술창업지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;대한민국을&nbsp;선도하는&nbsp;행정&nbsp;혁신&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김포한강신도시&nbsp;완성&nbsp;:&nbsp;제&nbsp;2청사&nbsp;건립&nbsp;및&nbsp;행정복합문화타운&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;행정도시&nbsp;김포,&nbsp;지능형&nbsp;통합&nbsp;플랫폼&nbsp;(Gimpo-AI)&nbsp;전면&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시장직속&nbsp;시민소통국&nbsp;및&nbsp;김포시민위원회&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민자치회&nbsp;및&nbsp;분야별&nbsp;전문가&nbsp;참여<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김포시정연구원&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;환경과&nbsp;소득&nbsp;모두&nbsp;잡는&nbsp;김포형&nbsp;햇빛소득마을&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌&nbsp;수익공유형&nbsp;태양광&nbsp;발전<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아파트&nbsp;등&nbsp;공동주택&nbsp;태양광&nbsp;보급&nbsp;지원-&nbsp;<br>&nbsp;&nbsp;○&nbsp;모두&nbsp;함께&nbsp;발전하는&nbsp;김포&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;취·창업&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김포청년채용기업&nbsp;인센티브,&nbsp;창업&nbsp;인큐베이팅·스타트업&nbsp;시스템&nbsp;대학연계취업&nbsp;강화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김포&nbsp;농수산물&nbsp;브랜딩&nbsp;및&nbsp;육성&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농촌&nbsp;체험관광&nbsp;콘텐츠&nbsp;활성화<br><br>□&nbsp;이행기간&nbsp;및&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;조례&nbsp;&nbsp;제·개정&nbsp;사항은&nbsp;2026년&nbsp;7월부터&nbsp;준비하여&nbsp;단계적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;재정사업은&nbsp;2026년&nbsp;추경과&nbsp;2027년도&nbsp;예산&nbsp;수립부터&nbsp;단계적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;중앙정부와&nbsp;경기도의&nbsp;재정&nbsp;지원&nbsp;확대&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	육아·돌봄 걱정 없는 아이 키우기 좋은 도시 김포</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="육아·돌봄 걱정 없는 아이 키우기 좋은 도시 김포">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;아이를&nbsp;낳고&nbsp;키우는&nbsp;것이&nbsp;부담이&nbsp;아니라&nbsp;행복이&nbsp;되는&nbsp;김포&nbsp;구현&nbsp;<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;늦은&nbsp;밤에도&nbsp;안심!<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;달빛어린이병원&nbsp;연계&nbsp;24시간&nbsp;소아의료시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;육아&nbsp;걱정&nbsp;NO!&nbsp;돌봄&nbsp;공백&nbsp;NO!<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출산지원금&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공산후조리원&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김포형&nbsp;육아용품&nbsp;지원&nbsp;및&nbsp;&nbsp;놀이공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;다함께돌봄센터&nbsp;아이발달지원센터&nbsp;운영지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;긴급·상시,&nbsp;시설·방문&nbsp;등&nbsp;통합돌봄&nbsp;연중지원&nbsp;<br>&nbsp;&nbsp;○&nbsp;아이들이&nbsp;마음놓고&nbsp;성장하는&nbsp;도시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학군배정&nbsp;과밀학급&nbsp;문제&nbsp;해결&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;초중고&nbsp;AI&nbsp;역량강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청소년&nbsp;복합문화센터&nbsp;조기&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우리아이&nbsp;자립펀드&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;잡월드&nbsp;김포센터&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;G스포츠(경기도형&nbsp;운동부)&nbsp;활성화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통소외지역&nbsp;통학버스·교통비지원<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간&nbsp;및&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;조례&nbsp;&nbsp;제·개정&nbsp;사항은&nbsp;2026년&nbsp;7월부터&nbsp;준비하여&nbsp;단계적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;재정사업은&nbsp;2026년&nbsp;추경과&nbsp;2027년도&nbsp;예산&nbsp;수립부터&nbsp;단계적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;중앙정부와&nbsp;경기도의&nbsp;재정&nbsp;지원&nbsp;확대&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	빈틈 없는 생활 인프라로 모두가 행복한 살기 좋은 도시 김포 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="빈틈 없는 생활 인프라로 모두가 행복한 살기 좋은 도시 김포 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;살기&nbsp;좋은&nbsp;김포를&nbsp;만들기&nbsp;위한&nbsp;생활&nbsp;인프라를&nbsp;확충&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대학병원&nbsp;유치&nbsp;!<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;풍무역세권&nbsp;인하대&nbsp;메디컬&nbsp;캠퍼스&nbsp;조성&nbsp;조속&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;김포시민이라&nbsp;누리는&nbsp;특별한&nbsp;혜택&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;결혼식&nbsp;부담↓,&nbsp;김포시&nbsp;웨딩라운지&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;가다실(HPV)&nbsp;9가&nbsp;백신&nbsp;무료&nbsp;접종지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역화폐&nbsp;할인&nbsp;충전금액&nbsp;2배&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김포FC&nbsp;K리그&nbsp;1&nbsp;승격&nbsp;위한&nbsp;지원&nbsp;체계&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;쾌적한&nbsp;도시,&nbsp;나들이&nbsp;명소&nbsp;김포<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김포국제조각공원&nbsp;및&nbsp;아트빌리지&nbsp;한옥마을&nbsp;명소화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;라베니체·금빛수로&nbsp;상권&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화예술회관,&nbsp;금빛체육센터&nbsp;건립&nbsp;조속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학교&nbsp;체육관&nbsp;시민친화형&nbsp;개방확대-&nbsp;CCTV,&nbsp;AI&nbsp;안전&nbsp;연계&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시공원&nbsp;내&nbsp;물놀이장&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한강변&nbsp;경계&nbsp;철책&nbsp;제거&nbsp;및&nbsp;친수형&nbsp;시민공원&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;빈틈없이,&nbsp;모두&nbsp;행복한&nbsp;도시&nbsp;김포&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;:&nbsp;AI&nbsp;헬스케어&nbsp;24시간&nbsp;원격&nbsp;모니터링,&nbsp;경로당&nbsp;주&nbsp;5일&nbsp;점심&nbsp;및&nbsp;운영지원&nbsp;확대,&nbsp;일자리&nbsp;지원확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인&nbsp;:&nbsp;저상버스·특별교통수단&nbsp;확대,&nbsp;작업장&nbsp;확충,&nbsp;무장애&nbsp;체육시설&nbsp;건립&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여성&nbsp;:&nbsp;경력보유&nbsp;여성&nbsp;취업지원&nbsp;및&nbsp;커뮤니티&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기후&nbsp;취약계층&nbsp;:&nbsp;에너지&nbsp;바우처&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간&nbsp;및&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;조례&nbsp;&nbsp;제·개정&nbsp;사항은&nbsp;2026년&nbsp;7월부터&nbsp;준비하여&nbsp;단계적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;재정사업은&nbsp;2026년&nbsp;추경과&nbsp;2027년도&nbsp;예산&nbsp;수립부터&nbsp;단계적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;중앙정부와&nbsp;경기도의&nbsp;재정&nbsp;지원&nbsp;확대&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	시민 곁에 닿는 행정으로 김포 구석구석 삶의 질 개선 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="시민 곁에 닿는 행정으로 김포 구석구석 삶의 질 개선 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;김포&nbsp;각&nbsp;지역의&nbsp;인프라&nbsp;개선으로&nbsp;주민의&nbsp;정주&nbsp;여건&nbsp;향상<br>&nbsp;<br>□&nbsp;주요&nbsp;이행방법<br>&nbsp;○&nbsp;미래&nbsp;성장&nbsp;동력,&nbsp;첨단전략산업&nbsp;거점&nbsp;도시&nbsp;&lt;서북부권><br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통진읍:&nbsp;&nbsp;통진&nbsp;여울&nbsp;복합&nbsp;문화교류센터&nbsp;조기&nbsp;착공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양촌읍:&nbsp;독립운동기념관&nbsp;활성화와&nbsp;3.1&nbsp;만세운동&nbsp;기념비&nbsp;일대&nbsp;재정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대곶면:&nbsp;대명항&nbsp;복합관광어항&nbsp;국가어항&nbsp;사업&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;월곶면:&nbsp;월곶(고막리)~용강&nbsp;시도&nbsp;22호선&nbsp;확·포장&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;하성면:&nbsp;전류리&nbsp;포구&nbsp;관광&nbsp;활성화<br>&nbsp;<br>&nbsp;&nbsp;○&nbsp;살기&nbsp;좋은&nbsp;명품도시&nbsp;&lt;한강신도시권><br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구래동:&nbsp;유수지&nbsp;활용&nbsp;둘레길&nbsp;조성&nbsp;및&nbsp;반려동물&nbsp;동반&nbsp;편의시설&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마산동:&nbsp;은여울&nbsp;공원&nbsp;시설&nbsp;보완&nbsp;및&nbsp;'맨발&nbsp;걷기&nbsp;황톳길'&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;운양동:&nbsp;모담산&nbsp;둘레길&nbsp;및&nbsp;조류생태공원&nbsp;환경&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장기·장기본동:&nbsp;청소년&nbsp;복합문화센터&nbsp;조기&nbsp;건립&nbsp;추진<br>&nbsp;<br>○&nbsp;생활·문화·상권이&nbsp;살아나는&nbsp;균형도시&nbsp;&lt;남부권><br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고촌읍&nbsp;:&nbsp;고촌읍&nbsp;복합문화센터&nbsp;리모델링&nbsp;및&nbsp;기능&nbsp;고도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;풍무동&nbsp;:&nbsp;공원하부&nbsp;공영주차장&nbsp;스마트&nbsp;복합공간조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사우동&nbsp;:&nbsp;뉴빌리지&nbsp;전신주&nbsp;지중화&nbsp;및&nbsp;보행&nbsp;특화&nbsp;거리&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김포본동&nbsp;:&nbsp;걸포북변역(인천2호선·골드라인)&nbsp;복합문화상업시설&nbsp;추진<br><br>□&nbsp;이행기간&nbsp;및&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;조례&nbsp;&nbsp;제·개정&nbsp;사항은&nbsp;2026년&nbsp;7월부터&nbsp;준비하여&nbsp;단계적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;재정사업은&nbsp;2026년&nbsp;추경과&nbsp;2027년도&nbsp;예산&nbsp;수립부터&nbsp;단계적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;중앙정부와&nbsp;경기도의&nbsp;재정&nbsp;지원&nbsp;확대&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

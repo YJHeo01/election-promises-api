@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;서영학 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	여수펀드 1,000억 원 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="여수펀드 1,000억 원 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            시가&nbsp;자체&nbsp;예산으로&nbsp;마중물로&nbsp;출자하고&nbsp;정책금융과&nbsp;민간&nbsp;자금을&nbsp;결합하여&nbsp;1,000억&nbsp;원&nbsp;규모의&nbsp;「여수펀드」를&nbsp;조성,&nbsp;청년·재도전&nbsp;창업과&nbsp;블루이코노미&nbsp;미래산업에&nbsp;집중&nbsp;투자하여&nbsp;여수&nbsp;경제의&nbsp;자생력&nbsp;및&nbsp;경쟁력을&nbsp;높인다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;누적&nbsp;1,000억&nbsp;원&nbsp;규모의&nbsp;「여수펀드」를&nbsp;조성,&nbsp;청년·재도전&nbsp;창업과&nbsp;블루이코노미&nbsp;미래산업(우주항공·드론·2차전지·해양바이오·소부장&nbsp;등)에&nbsp;독자적으로&nbsp;투자하여&nbsp;양질의&nbsp;일자리&nbsp;창출과&nbsp;본사·연구소&nbsp;유치&nbsp;기반을&nbsp;마련함<br>&nbsp;&nbsp;○&nbsp;여수에서&nbsp;창업한&nbsp;청년이&nbsp;"서울·부산으로&nbsp;가지&nbsp;않아도&nbsp;된다"고&nbsp;말할&nbsp;수&nbsp;있는&nbsp;지역&nbsp;정착형&nbsp;자금&nbsp;생태계&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;모펀드(母펀드)/자펀드&nbsp;구조로&nbsp;설계&nbsp;―&nbsp;시&nbsp;출자금을&nbsp;마중물로&nbsp;하고,&nbsp;정책금융기관과민간&nbsp;자금을&nbsp;결합하여&nbsp;단계적으로&nbsp;규모&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;:&nbsp;매년&nbsp;시&nbsp;50억&nbsp;출자<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2단계&nbsp;:&nbsp;한국벤처투자(모태펀드)&nbsp;및&nbsp;산업은행&nbsp;등&nbsp;정책&nbsp;자금&nbsp;우선&nbsp;매칭<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3단계&nbsp;:&nbsp;(지역)금융기관&nbsp;등&nbsp;참여후&nbsp;모펀드&nbsp;설립&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;운영&nbsp;거버넌스&nbsp;:&nbsp;외부&nbsp;운용사(VC)&nbsp;위탁&nbsp;―&nbsp;실력&nbsp;있고,&nbsp;자펀드&nbsp;운용금액의&nbsp;50%를&nbsp;매칭할&nbsp;수&nbsp;있는&nbsp;운용사를&nbsp;선정.&nbsp;시는&nbsp;출자자(LP)&nbsp;지위,&nbsp;정치적&nbsp;개입&nbsp;차단을&nbsp;위한&nbsp;독립적&nbsp;투자심의위원회&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;본사·연구소를&nbsp;여수로&nbsp;이전하거나&nbsp;여수에&nbsp;신설하는&nbsp;기업에&nbsp;우선&nbsp;투자하는&nbsp;'여수&nbsp;기여도'&nbsp;가중치를&nbsp;운용규약에&nbsp;명문화<br>&nbsp;&nbsp;○&nbsp;청년창업·재도전&nbsp;기회를&nbsp;부여하고,&nbsp;다양한&nbsp;산업&nbsp;기회를&nbsp;발굴하고,&nbsp;재투자&nbsp;등&nbsp;선순환&nbsp;구조&nbsp;창출<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1차년도&nbsp;:&nbsp;조례&nbsp;제정,&nbsp;출자&nbsp;근거&nbsp;마련,&nbsp;1단계&nbsp;50억&nbsp;원&nbsp;조성&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;2차년도&nbsp;:&nbsp;첫&nbsp;자펀드(200억&nbsp;이상)&nbsp;결성&nbsp;및&nbsp;첫&nbsp;투자&nbsp;집행&nbsp;개시<br>&nbsp;&nbsp;○&nbsp;임기말까지&nbsp;:&nbsp;총&nbsp;1,000억&nbsp;규모&nbsp;완성까지&nbsp;조성&nbsp;및&nbsp;운용&nbsp;안정화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시&nbsp;출자금&nbsp;:&nbsp;일반회계&nbsp;및&nbsp;지역개발기금에서&nbsp;단계별&nbsp;분할&nbsp;출자&nbsp;(매년&nbsp;50억)<br>&nbsp;&nbsp;○&nbsp;정책자금&nbsp;매칭&nbsp;:&nbsp;한국벤처투자&nbsp;모태펀드,&nbsp;산업은행&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;LP&nbsp;:&nbsp;(지역)금융기관,&nbsp;여수산단&nbsp;입주기업,&nbsp;광주·전남&nbsp;향토기업,&nbsp;연기금&nbsp;등&nbsp;다층적&nbsp;LP&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;광주전남통합특별법상&nbsp;특례&nbsp;자금(산업위기지역&nbsp;특례)&nbsp;연계&nbsp;검토</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	지역업체 우선 하도급 70% 의무제</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="지역업체 우선 하도급 70% 의무제">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            시&nbsp;발주&nbsp;공사·용역과&nbsp;시&nbsp;출자·출연기관&nbsp;사업의&nbsp;하도급&nbsp;70%&nbsp;이상을&nbsp;지역업체에&nbsp;의무&nbsp;배정하고,&nbsp;민간&nbsp;대형&nbsp;사업도「상생협약」을&nbsp;통해&nbsp;같은&nbsp;기준이&nbsp;적용되도록&nbsp;하여&nbsp;외지&nbsp;대형&nbsp;업체&nbsp;독식을&nbsp;차단하고&nbsp;지역업체의&nbsp;매출과&nbsp;일자리를&nbsp;지킨다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시&nbsp;발주&nbsp;공사·용역&nbsp;및&nbsp;시&nbsp;출자·출연기관&nbsp;사업에서&nbsp;지역업체&nbsp;하도급&nbsp;비율&nbsp;70%&nbsp;이상을&nbsp;의무화하여,&nbsp;여수에서&nbsp;나간&nbsp;세금이&nbsp;여수에서&nbsp;도는「지역자원&nbsp;순환&nbsp;경제」구조를&nbsp;확립함<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;대형&nbsp;사업(여수국가산단&nbsp;신·증설,&nbsp;대형&nbsp;건설사업,&nbsp;박람회·축제&nbsp;등)까지&nbsp;상생협약을&nbsp;통해&nbsp;같은&nbsp;원칙을&nbsp;확장&nbsp;적용하여,&nbsp;외지&nbsp;대형업체의&nbsp;독식&nbsp;구조를&nbsp;차단함<br>&nbsp;&nbsp;○&nbsp;지역업체의&nbsp;안정적&nbsp;수주를&nbsp;통해&nbsp;매출·고용·기술&nbsp;축적의&nbsp;선순환을&nbsp;만들고,&nbsp;청년이&nbsp;지역&nbsp;기업에서&nbsp;일자리를&nbsp;찾을&nbsp;수&nbsp;있는&nbsp;산업&nbsp;기반을&nbsp;마련함<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시&nbsp;발주&nbsp;공사·용역&nbsp;―「지역업체&nbsp;70%&nbsp;의무」직접&nbsp;적용<br>&nbsp;&nbsp;&nbsp;&nbsp;-「지역업체&nbsp;우선&nbsp;발주&nbsp;조례」제정&nbsp;―&nbsp;지역업체&nbsp;하도급&nbsp;70%&nbsp;이상&nbsp;의무,&nbsp;위반&nbsp;시&nbsp;입찰&nbsp;제한·계약&nbsp;해지&nbsp;등&nbsp;페널티&nbsp;명문화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;표준계약서에&nbsp;지역업체&nbsp;하도급&nbsp;70%&nbsp;조항&nbsp;의무&nbsp;삽입,&nbsp;하도급&nbsp;실적&nbsp;분기&nbsp;보고&nbsp;의무화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;「지역업체&nbsp;인증제」&nbsp;도입&nbsp;―&nbsp;본사&nbsp;소재지·고용&nbsp;기준·납세&nbsp;실적&nbsp;등&nbsp;복합&nbsp;요건으로&nbsp;인증,&nbsp;유령&nbsp;업체&nbsp;등&nbsp;차단<br>&nbsp;&nbsp;○&nbsp;시&nbsp;출자·출연기관&nbsp;―「지역업체&nbsp;70%&nbsp;의무」동일&nbsp;적용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시&nbsp;산하&nbsp;공기업·출연기관·재단·시설관리공단&nbsp;등&nbsp;발주&nbsp;사업&nbsp;전체에&nbsp;동일&nbsp;기준&nbsp;적용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출자·출연&nbsp;협약서·정관에&nbsp;명문화하여&nbsp;강제력&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;대형&nbsp;사업&nbsp;―「상생협약&nbsp;+&nbsp;인센티브」모델로&nbsp;70%&nbsp;사실상&nbsp;의무화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인허가·건축허가·환경영향평가&nbsp;단계에서「지역경제&nbsp;상생협약」체결&nbsp;유도&nbsp;(협약&nbsp;체결을&nbsp;인허가&nbsp;전제조건으로&nbsp;운영)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;협약&nbsp;체결&nbsp;기업에&nbsp;행정&nbsp;인센티브&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;협약&nbsp;이행률&nbsp;공개&nbsp;―&nbsp;시&nbsp;홈페이지에&nbsp;분기별&nbsp;지역업체&nbsp;하도급&nbsp;실적&nbsp;공개,&nbsp;시민&nbsp;감시&nbsp;기능&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;지역업체&nbsp;역량&nbsp;강화&nbsp;동시&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;70%&nbsp;의무를&nbsp;채울&nbsp;수&nbsp;있는&nbsp;시공·기술&nbsp;역량&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여수산업진흥원·상공회의소와&nbsp;협력하여&nbsp;지역업체&nbsp;DB&nbsp;상시&nbsp;관리<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;100일&nbsp;내&nbsp;:「지역업체&nbsp;우선&nbsp;발주&nbsp;조례」제정안&nbsp;시의회&nbsp;제출<br>&nbsp;&nbsp;○&nbsp;1차년도&nbsp;:&nbsp;조례&nbsp;시행,&nbsp;시&nbsp;발주&nbsp;사업&nbsp;70%&nbsp;의무&nbsp;본격&nbsp;적용<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내내&nbsp;:&nbsp;분기별&nbsp;실적&nbsp;공개,&nbsp;위반&nbsp;사업&nbsp;페널티&nbsp;적용,&nbsp;지역업체&nbsp;역량&nbsp;강화&nbsp;지속<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;시&nbsp;자체&nbsp;예산&nbsp;부담&nbsp;거의&nbsp;없음&nbsp;―&nbsp;본&nbsp;정책은&nbsp;신규&nbsp;재정&nbsp;투입이&nbsp;아닌「발주·계약&nbsp;제도&nbsp;개혁」으로,&nbsp;기존&nbsp;시&nbsp;예산&nbsp;집행&nbsp;구조&nbsp;안에서&nbsp;작동<br>&nbsp;&nbsp;○&nbsp;지역업체&nbsp;역량&nbsp;강화&nbsp;사업&nbsp;:&nbsp;중소벤처기업부&nbsp;「지역&nbsp;중소기업&nbsp;육성&nbsp;사업,&nbsp;산업통상자원부「지역산업&nbsp;거점&nbsp;기관&nbsp;지원사업」등&nbsp;국비&nbsp;매칭&nbsp;및&nbsp;전남도「지역&nbsp;중소기업&nbsp;지원&nbsp;사업」도비&nbsp;매칭</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	개방 행정 · 열린 행정</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="개방 행정 · 열린 행정">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            시민소통폰·간부회의&nbsp;공개·AI&nbsp;24시간&nbsp;행정·규제개혁&nbsp;원스톱을&nbsp;결합하여&nbsp;시장과&nbsp;시민이&nbsp;직접&nbsp;연결되고&nbsp;행정이&nbsp;멈추지&nbsp;않는&nbsp;도시를&nbsp;만든다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시장과&nbsp;시민&nbsp;사이의&nbsp;모든&nbsp;벽을&nbsp;허물고,&nbsp;시청의&nbsp;논의와&nbsp;집행&nbsp;과정을&nbsp;시민이&nbsp;직접&nbsp;보고&nbsp;참여하는「열린&nbsp;행정」체계&nbsp;구축함<br>&nbsp;&nbsp;○&nbsp;인공지능과&nbsp;데이터를&nbsp;기반으로&nbsp;24시간&nbsp;멈추지&nbsp;않는&nbsp;행정을&nbsp;실현하여,시민이&nbsp;체감하는&nbsp;행정&nbsp;서비스의&nbsp;속도와&nbsp;정밀도를&nbsp;근본적으로&nbsp;끌어올림<br>&nbsp;&nbsp;○&nbsp;위기의&nbsp;여수를&nbsp;살리기&nbsp;위해&nbsp;규제개혁의&nbsp;속도를&nbsp;높이는&nbsp;행정&nbsp;모델을&nbsp;정착시킴<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시장&nbsp;직통「시민소통폰」(문자전용)&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시장&nbsp;휴대전화&nbsp;번호(010&nbsp;-&nbsp;3938-&nbsp;1552,&nbsp;문자전용)를&nbsp;공개<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;담당&nbsp;부서에서&nbsp;풀리지&nbsp;않는&nbsp;민원은&nbsp;시장이&nbsp;직접&nbsp;챙기는&nbsp;에스컬레이션&nbsp;체계<br>&nbsp;&nbsp;○「간부회의&nbsp;공개」―&nbsp;여수&nbsp;시민은&nbsp;누구나&nbsp;간부회의를&nbsp;볼&nbsp;수&nbsp;있음<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정례&nbsp;간부회의·실국별&nbsp;업무보고를&nbsp;시청&nbsp;공식&nbsp;유튜브·홈페이지에서&nbsp;실시간&nbsp;송출,&nbsp;회의&nbsp;자료·회의록&nbsp;사후&nbsp;공개<br>&nbsp;&nbsp;&nbsp;※&nbsp;인사·감사·소송·개인정보&nbsp;등&nbsp;비공개&nbsp;사안은&nbsp;별도&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;민원&nbsp;최우선&nbsp;처리&nbsp;―&nbsp;공무원&nbsp;전보&nbsp;인사는&nbsp;필요할&nbsp;때&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;순환보직&nbsp;관행을&nbsp;탈피,&nbsp;시민&nbsp;민원과&nbsp;업무&nbsp;연속성을&nbsp;기준으로&nbsp;한&nbsp;인사<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전문관&nbsp;제도&nbsp;도입으로&nbsp;유능한&nbsp;공무원이&nbsp;자리를&nbsp;지키며&nbsp;책임지는&nbsp;구조<br>&nbsp;&nbsp;○&nbsp;데이터&nbsp;기반&nbsp;정밀한&nbsp;예산집행&nbsp;―&nbsp;행정&nbsp;집행&nbsp;시스템&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예산&nbsp;집행&nbsp;단계별&nbsp;데이터&nbsp;분석으로&nbsp;효율성·집행&nbsp;시기·성과를&nbsp;실시간&nbsp;점검<br>&nbsp;&nbsp;&nbsp;&nbsp;-「공약이행&nbsp;공개&nbsp;대시보드」와&nbsp;결합하여&nbsp;시민이&nbsp;진행&nbsp;상황을&nbsp;실시간&nbsp;확인<br>&nbsp;&nbsp;○&nbsp;인공지능과&nbsp;데이터&nbsp;기반「24시간&nbsp;멈추지&nbsp;않는&nbsp;행정」실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간·휴일에도&nbsp;단순&nbsp;민원은&nbsp;즉시&nbsp;처리,&nbsp;복잡&nbsp;민원은&nbsp;다음&nbsp;영업일&nbsp;자동&nbsp;배정&nbsp;원칙&nbsp;구현<br>&nbsp;&nbsp;○&nbsp;규제개혁「원스톱&nbsp;시스템」도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;투자·창업·인허가&nbsp;관련&nbsp;규제를&nbsp;한&nbsp;자리에서&nbsp;처리하는&nbsp;원스톱&nbsp;창구<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;위기의&nbsp;여수&nbsp;경제를&nbsp;살리기&nbsp;위한&nbsp;신속&nbsp;의사결정&nbsp;체계<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;당일&nbsp;:&nbsp;시민소통폰&nbsp;가동,&nbsp;시장실&nbsp;개방,&nbsp;1호&nbsp;업무보고&nbsp;생중계<br>&nbsp;&nbsp;○&nbsp;1차년도&nbsp;:<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;간부회의&nbsp;생중계&nbsp;운영&nbsp;매뉴얼&nbsp;확정,&nbsp;전보&nbsp;인사&nbsp;원칙&nbsp;공표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공약이행&nbsp;대시보드,&nbsp;규제개혁&nbsp;원스톱&nbsp;창구&nbsp;개설,&nbsp;행정&nbsp;플랫폼&nbsp;1차&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;2차년도&nbsp;:&nbsp;AI&nbsp;민원&nbsp;응대&nbsp;시범&nbsp;도입,&nbsp;&nbsp;AI&nbsp;24시간&nbsp;행정&nbsp;정착,&nbsp;시민예산학교&nbsp;권역별&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내내&nbsp;:&nbsp;정례&nbsp;운영&nbsp;및&nbsp;시민&nbsp;피드백&nbsp;반영&nbsp;개선<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;시청&nbsp;기존&nbsp;인력·예산&nbsp;활용이&nbsp;주축&nbsp;―&nbsp;시민소통폰·간부회의&nbsp;공개·인사&nbsp;개선은&nbsp;신규&nbsp;재원이&nbsp;거의&nbsp;들지&nbsp;않는&nbsp;행정혁신&nbsp;과제<br>&nbsp;&nbsp;○&nbsp;생중계&nbsp;영상&nbsp;장비·플랫폼&nbsp;운영비&nbsp;:&nbsp;공보·홍보&nbsp;예산에서&nbsp;우선&nbsp;편성<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;행정&nbsp;플랫폼&nbsp;구축&nbsp;:&nbsp;행정안전부「디지털&nbsp;정부혁신&nbsp;사업」,&nbsp;과학기술&nbsp;정보통신부「AI&nbsp;정부&nbsp;서비스&nbsp;고도화&nbsp;사업」공모&nbsp;수주적극&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;규제개혁&nbsp;원스톱&nbsp;창구&nbsp;:&nbsp;산업통상자원부·중기부&nbsp;규제혁신&nbsp;관련&nbsp;매칭사업&nbsp;활용,&nbsp;산업위기지역&nbsp;특례와&nbsp;연계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	새벽별 어린이병원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="새벽별 어린이병원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            시가&nbsp;지역&nbsp;소아과·소아청소년과&nbsp;의원과&nbsp;협약을&nbsp;체결하여&nbsp;아침&nbsp;7시부터&nbsp;문을&nbsp;여는&nbsp;「새벽별&nbsp;어린이병원」&nbsp;체계를&nbsp;만들고,&nbsp;부모가&nbsp;아이를&nbsp;진료받게&nbsp;한&nbsp;뒤&nbsp;정시에&nbsp;출근할&nbsp;수&nbsp;있는&nbsp;도시를&nbsp;만든다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;출근&nbsp;전&nbsp;아침&nbsp;시간대&nbsp;소아&nbsp;진료&nbsp;공백을&nbsp;메워,&nbsp;갑자기&nbsp;아이가&nbsp;아플&nbsp;때&nbsp;부모가&nbsp;휴가를&nbsp;내거나&nbsp;출근을&nbsp;포기하지&nbsp;않아도&nbsp;되는&nbsp;일·육아&nbsp;양립&nbsp;환경을&nbsp;마련함<br>&nbsp;&nbsp;○&nbsp;"아이&nbsp;키우기&nbsp;좋은&nbsp;도시"의&nbsp;실질적&nbsp;기반을&nbsp;의료에서부터&nbsp;구축하여,&nbsp;젊은&nbsp;부부가&nbsp;여수에&nbsp;정착하는정주환경의&nbsp;핵심&nbsp;자산을&nbsp;만듦<br>&nbsp;&nbsp;○&nbsp;2025년&nbsp;12월&nbsp;공공&nbsp;심야&nbsp;어린이병원&nbsp;운영&nbsp;중단으로&nbsp;드러난&nbsp;여수&nbsp;소아의료&nbsp;공백을&nbsp;시&nbsp;-&nbsp;의원&nbsp;협약이라는&nbsp;비용&nbsp;효율적&nbsp;모델로&nbsp;보완<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;운영&nbsp;모델&nbsp;―&nbsp;시&nbsp;직영&nbsp;신설이&nbsp;아닌「시&nbsp;-&nbsp;지역&nbsp;의원&nbsp;협약&nbsp;모델」채택<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;소아과·소아청소년과&nbsp;의원과&nbsp;시가&nbsp;협약&nbsp;체결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;협약&nbsp;의원은&nbsp;평일&nbsp;아침&nbsp;7시부터&nbsp;정상&nbsp;진료&nbsp;개시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시는&nbsp;조기개원&nbsp;운영비(인건비·운영비&nbsp;일부)를&nbsp;협약&nbsp;지원금으로&nbsp;보전<br>&nbsp;&nbsp;○&nbsp;권역&nbsp;배치&nbsp;―&nbsp;시민&nbsp;접근성을&nbsp;고려해&nbsp;권역별&nbsp;1~2곳씩&nbsp;균형&nbsp;배치&nbsp;(구도심·신도심·돌산·여천·소라&nbsp;등),&nbsp;출근&nbsp;동선에서&nbsp;진료&nbsp;후&nbsp;직장&nbsp;이동이&nbsp;가능한&nbsp;입지&nbsp;우선<br>&nbsp;&nbsp;○「커뮤니티&nbsp;기반&nbsp;공동육아&nbsp;시스템」과&nbsp;연계&nbsp;―&nbsp;학교·어린이집&nbsp;등원&nbsp;전&nbsp;진료&nbsp;동선과&nbsp;결합,&nbsp;'아픈&nbsp;아이돌봄&nbsp;지원'&nbsp;서비스와&nbsp;연동<br>&nbsp;&nbsp;○&nbsp;인근&nbsp;약국&nbsp;협업&nbsp;―&nbsp;협약&nbsp;의원&nbsp;인근&nbsp;약국의&nbsp;동시간대&nbsp;개점을&nbsp;약사회와&nbsp;협의하여&nbsp;진료→처방→출근연결&nbsp;동선&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;보건복지부&nbsp;협력&nbsp;―「소아의료&nbsp;전달체계&nbsp;개편」사업과&nbsp;연계하여&nbsp;국비&nbsp;매칭&nbsp;확보,&nbsp;모범&nbsp;모델로&nbsp;정착&nbsp;시&nbsp;타&nbsp;지자체&nbsp;확산&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;야간·심야&nbsp;응급&nbsp;진료&nbsp;공백은&nbsp;별도&nbsp;트랙으로&nbsp;권역&nbsp;거점병원·전남도와&nbsp;협의하여&nbsp;단계&nbsp;보완<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;6개월&nbsp;이내&nbsp;:&nbsp;지역&nbsp;소아과·소아청소년과&nbsp;의원&nbsp;수요조사,&nbsp;의사회&nbsp;협의&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;1차년도<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;협약&nbsp;모델·지원&nbsp;단가&nbsp;확정,&nbsp;1차&nbsp;협약&nbsp;의원&nbsp;선정&nbsp;및「새벽별&nbsp;어린이병원」협약&nbsp;의원&nbsp;운영&nbsp;개시<br>&nbsp;&nbsp;○&nbsp;2차년도&nbsp;:&nbsp;운영&nbsp;실적&nbsp;평가,&nbsp;협약&nbsp;확대&nbsp;및&nbsp;진료&nbsp;시간대&nbsp;보완(주말·휴일&nbsp;운영&nbsp;검토)<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내내&nbsp;:&nbsp;정례&nbsp;운영,&nbsp;시민·의료진&nbsp;피드백&nbsp;기반&nbsp;개선<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;시&nbsp;일반회계&nbsp;보건의료&nbsp;예산&nbsp;―&nbsp;협약&nbsp;의원&nbsp;조기개원&nbsp;지원금(인건비·운영비&nbsp;일부&nbsp;보전)&nbsp;안정&nbsp;편성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;직영&nbsp;병원&nbsp;신축·인력&nbsp;채용&nbsp;대비&nbsp;시&nbsp;재정&nbsp;부담이&nbsp;크게&nbsp;낮은&nbsp;구조<br>&nbsp;&nbsp;○&nbsp;보건복지부「소아의료체계&nbsp;강화&nbsp;사업」,「공공심야·휴일&nbsp;어린이병원&nbsp;지원&nbsp;사업」등&nbsp;국비&nbsp;매칭&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;도비(전남도)&nbsp;―「지역&nbsp;소아의료&nbsp;협력체계&nbsp;구축」관련&nbsp;도비&nbsp;매칭&nbsp;분담<br>&nbsp;&nbsp;○&nbsp;광주전남통합특별법상&nbsp;동부권&nbsp;의료&nbsp;특례를&nbsp;통한&nbsp;별도&nbsp;지원&nbsp;가능성&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;시설&nbsp;신축&nbsp;부담이&nbsp;없음&nbsp;―&nbsp;기존&nbsp;의원&nbsp;인프라를&nbsp;활용하므로&nbsp;자본&nbsp;지출&nbsp;최소</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	과학예술영재학교 설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="과학예술영재학교 설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            해양과학과&nbsp;예술이&nbsp;융합된「과학예술영재&nbsp;중·고등학교」를&nbsp;여수에&nbsp;신설하여,&nbsp;"교육&nbsp;때문에&nbsp;떠나는&nbsp;도시"를&nbsp;"아이를&nbsp;키우러&nbsp;오는&nbsp;도시"로&nbsp;전환한다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내「과학예술영재학교」를&nbsp;여수에&nbsp;신설하여,&nbsp;"교육&nbsp;때문에&nbsp;여수를&nbsp;떠나는&nbsp;도시"에서&nbsp;"여수로아이를&nbsp;키우러&nbsp;오는&nbsp;도시"로&nbsp;전환함<br>&nbsp;&nbsp;○&nbsp;블루이코노미·해양과학·예술이&nbsp;결합된&nbsp;여수만의&nbsp;특화&nbsp;영재교육&nbsp;모델을&nbsp;구축하여,&nbsp;광양·순천·고흥의&nbsp;일류&nbsp;인력이&nbsp;자녀&nbsp;교육을&nbsp;위해&nbsp;여수에&nbsp;정착하도록&nbsp;하는&nbsp;정주환경의&nbsp;핵심&nbsp;자산을&nbsp;만듦<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;학교&nbsp;유형&nbsp;결정&nbsp;―&nbsp;영재교육진흥법상「영재학교」(국가&nbsp;지정)를「과학예술영재학교」모델로&nbsp;추진,&nbsp;교육부·과학기술정보통신부와&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;교육&nbsp;내용&nbsp;―&nbsp;과학(해양과학·환경과학·우주과학)과&nbsp;예술(시각예술·음악·&nbsp;디자인)&nbsp;융합&nbsp;기반&nbsp;커리큘럼<br>&nbsp;&nbsp;○&nbsp;추진&nbsp;체계&nbsp;―&nbsp;시-&nbsp;전남도교육청-&nbsp;교육부&nbsp;협의체&nbsp;운영,&nbsp;청와대·중앙부처&nbsp;네트워크를&nbsp;활용한&nbsp;지정&nbsp;절차&nbsp;가속<br>&nbsp;&nbsp;○&nbsp;인천&nbsp;송도&nbsp;및&nbsp;세종시&nbsp;모델&nbsp;벤치마킹<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1차년도&nbsp;:&nbsp;추진&nbsp;TF&nbsp;구성,&nbsp;특별시,&nbsp;특별시&nbsp;교육청,&nbsp;교육부&nbsp;등&nbsp;사전&nbsp;협의&nbsp;착수,&nbsp;학교&nbsp;유형·입지&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;2차년도&nbsp;:&nbsp;영재학교&nbsp;지정&nbsp;신청,&nbsp;기본설계·타당성&nbsp;조사<br>&nbsp;&nbsp;○&nbsp;3-&nbsp;4차년도&nbsp;:&nbsp;부지&nbsp;확보&nbsp;및&nbsp;건축<br>&nbsp;&nbsp;○&nbsp;4년년도&nbsp;:&nbsp;개교&nbsp;(단계&nbsp;진행&nbsp;상황에&nbsp;따라&nbsp;조정)<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;:&nbsp;특별교부금&nbsp;등으로&nbsp;설계비,&nbsp;시설비,&nbsp;건축비&nbsp;일부(70%)&nbsp;정도<br>&nbsp;&nbsp;○&nbsp;도교육청&nbsp;:&nbsp;운영비&nbsp;및&nbsp;교원&nbsp;교육과정&nbsp;분담<br>&nbsp;&nbsp;○&nbsp;광역특별시&nbsp;및&nbsp;시&nbsp;분담&nbsp;:&nbsp;부지&nbsp;제공,&nbsp;인프라&nbsp;및&nbsp;운영비&nbsp;분담<br>&nbsp;&nbsp;○&nbsp;광주전남통합특별법&nbsp;:&nbsp;교육&nbsp;특례&nbsp;적용이&nbsp;가능하도록&nbsp;시행령에&nbsp;반영&nbsp;노력&nbsp;필요<br>&nbsp;&nbsp;○&nbsp;산학협력&nbsp;:&nbsp;여수국가산단&nbsp;입주기업,&nbsp;지역대학(전남대),&nbsp;연구소와의&nbsp;협력&nbsp;기금&nbsp;조성&nbsp;가능</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

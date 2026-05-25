@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;길기영 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	현장에서 답을 찾는 열린 구청장</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="현장에서 답을 찾는 열린 구청장">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;실제&nbsp;정치,&nbsp;행정&nbsp;활동으로&nbsp;단순&nbsp;구호가&nbsp;아닌&nbsp;‘어떻게&nbsp;열려&nbsp;있고,&nbsp;어떻게&nbsp;현장에서&nbsp;해결&nbsp;할&nbsp;것인가’를&nbsp;구체적으로&nbsp;해결한다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;매주&nbsp;현장의&nbsp;정검의날&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동별&nbsp;순회&nbsp;간담회&nbsp;(현장&nbsp;민원&nbsp;즉시&nbsp;접수처리&nbsp;후&nbsp;완료까지)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구청장&nbsp;직통&nbsp;온라인&nbsp;소통창구&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예산&nbsp;사용&nbsp;내역&nbsp;투명&nbsp;공개<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026.07.01.~&nbsp;2030.06.30까지<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;홍보·행사성&nbsp;예산을&nbsp;축소하고&nbsp;주민소통&nbsp;예산으로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;온라인&nbsp;민원·회의&nbsp;시스템&nbsp;활용을&nbsp;통한&nbsp;운영비&nbsp;절감<br>&nbsp;&nbsp;○&nbsp;구청&nbsp;기존&nbsp;행정&nbsp;인프라&nbsp;및&nbsp;주민센터&nbsp;공간&nbsp;활용으로&nbsp;추가&nbsp;예산&nbsp;최소화<br>&nbsp;&nbsp;○&nbsp;불필요한&nbsp;용역·중복&nbsp;보고&nbsp;절차&nbsp;축소를&nbsp;통한&nbsp;행정&nbsp;효율화&nbsp;예산&nbsp;재투입<br>&nbsp;&nbsp;○&nbsp;디지털&nbsp;민원&nbsp;플랫폼&nbsp;도입으로&nbsp;민원&nbsp;처리&nbsp;비용&nbsp;및&nbsp;행정&nbsp;낭비&nbsp;절감<br>&nbsp;&nbsp;○&nbsp;주민참여예산과&nbsp;연계한&nbsp;생활밀착형&nbsp;민원&nbsp;해결&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;관광·상권&nbsp;활성화에&nbsp;따른&nbsp;세수&nbsp;증가분&nbsp;일부를&nbsp;주민소통&nbsp;강화&nbsp;사업에&nbsp;재투자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	명동 7,900억을 골목까지 - 머무는 시장, 버티는 소상공인 만들기</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="명동 7,900억을 골목까지 - 머무는 시장, 버티는 소상공인 만들기">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;비용은&nbsp;절반으로,&nbsp;매출은&nbsp;두배로,&nbsp;중구&nbsp;상권의&nbsp;부활<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;명동의&nbsp;관광&nbsp;성과를&nbsp;골목&nbsp;상권으로&nbsp;연결하는&nbsp;‘중구&nbsp;경제&nbsp;일체화’를&nbsp;추진합니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;남대문(글로벌&nbsp;관광형)·중앙시장(생활형)·신중앙(디자인·청년형)으로&nbsp;시장&nbsp;역할을&nbsp;분리하고,&nbsp;명동·남대문·동대문을&nbsp;잇는&nbsp;체류형&nbsp;야간&nbsp;관광&nbsp;코스와&nbsp;콘텐츠&nbsp;개발하여&nbsp;‘스쳐가는&nbsp;관광’에서&nbsp;‘머무는&nbsp;관광’으로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;민생에너지&nbsp;복지를&nbsp;실천하고&nbsp;전통시장&nbsp;디지털&nbsp;매출을&nbsp;혁신적으로&nbsp;개선합니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영세&nbsp;소상공인&nbsp;대상&nbsp;전기요금&nbsp;50%&nbsp;지원을&nbsp;통해&nbsp;즉각적인&nbsp;경영&nbsp;부담&nbsp;완화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전용&nbsp;배송&nbsp;플랫폼과&nbsp;글로벌&nbsp;결제&nbsp;시스템을&nbsp;결합하여&nbsp;시장&nbsp;상인도&nbsp;‘글로벌&nbsp;판매자’가&nbsp;되는&nbsp;환경&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026.07.01.~&nbsp;2030.06.30까지<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;야간경제·관광특구&nbsp;활성화&nbsp;사업과&nbsp;연계한&nbsp;시비&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;명동&nbsp;관광객&nbsp;증가에&nbsp;따른&nbsp;지역상권&nbsp;세수&nbsp;확대분을&nbsp;골목상권&nbsp;활성화에&nbsp;재투자<br>&nbsp;&nbsp;○&nbsp;전시성&nbsp;행사·단기&nbsp;이벤트&nbsp;예산을&nbsp;축소하고&nbsp;상설형&nbsp;상권&nbsp;콘텐츠&nbsp;예산으로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;공공배달앱·민간&nbsp;플랫폼&nbsp;기업&nbsp;협약을&nbsp;통한&nbsp;디지털&nbsp;판매&nbsp;인프라&nbsp;공동&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;전통시장&nbsp;시설현대화&nbsp;사업&nbsp;및&nbsp;스마트시장&nbsp;지원사업&nbsp;국비&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;시장&nbsp;공용배송·공동물류&nbsp;시스템&nbsp;구축으로&nbsp;운영비&nbsp;절감&nbsp;및&nbsp;상인&nbsp;부담&nbsp;완화<br>&nbsp;&nbsp;○&nbsp;에너지&nbsp;효율&nbsp;개선사업을&nbsp;통해&nbsp;절감된&nbsp;공공요금을&nbsp;소상공인&nbsp;지원&nbsp;재원으로&nbsp;재투입</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	어르신 AI 기반 (돌봄) 허브센터 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="어르신 AI 기반 (돌봄) 허브센터 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;혼자사시는&nbsp;어르신도&nbsp;안심하고&nbsp;생활&nbsp;할&nbsp;수&nbsp;있는&nbsp;지역&nbsp;돌봄&nbsp;환경&nbsp;구성&nbsp;및&nbsp;복지,보건&nbsp;생활&nbsp;서비스를&nbsp;연계한&nbsp;통합&nbsp;돌봄&nbsp;플랫폼&nbsp;구축&nbsp;‘효전화’&nbsp;,&nbsp;어르신의&nbsp;삶의&nbsp;질&nbsp;향상과&nbsp;가족&nbsp;돌봄&nbsp;부담&nbsp;완화&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;병원&nbsp;안심&nbsp;동행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;응급&nbsp;상황&nbsp;발생시&nbsp;보호자,119,복지기관&nbsp;즉시&nbsp;연결되는&nbsp;스마트&nbsp;대응&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;안부&nbsp;시스템&nbsp;도입,&nbsp;어르신&nbsp;일상&nbsp;상태&nbsp;실시간&nbsp;확인<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;일상&nbsp;생활에&nbsp;필요한&nbsp;디지털&nbsp;교육&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026.07.01.~&nbsp;2030.06.30까지<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;중구&nbsp;복지·스마트돌봄&nbsp;관련&nbsp;예산&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;스마트복지·고독사&nbsp;예방&nbsp;공모사업&nbsp;및&nbsp;특별조정교부금&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;보건복지부&nbsp;지역사회&nbsp;통합돌봄&nbsp;사업&nbsp;등&nbsp;국·시비&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;중구&nbsp;보건소·복지기관·민간기업&nbsp;협력을&nbsp;통한&nbsp;운영비&nbsp;절감&nbsp;및&nbsp;단계적&nbsp;확대&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	중구가 책임지는 생애주기 통합교육,중구 자기주도학습센터 운영</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="중구가 책임지는 생애주기 통합교육,중구 자기주도학습센터 운영">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;중구가&nbsp;키우고&nbsp;끝까지&nbsp;책임진다.&nbsp;인구&nbsp;유출을&nbsp;막는&nbsp;복지·교육<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;주거,&nbsp;돌봄,&nbsp;이동,&nbsp;교육을&nbsp;묶은&nbsp;맞춤형&nbsp;정착&nbsp;패키지&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전&nbsp;생에&nbsp;돌봄&nbsp;루프&nbsp;:&nbsp;영유아·초·중·고&nbsp;‘내&nbsp;집&nbsp;앞&nbsp;돌봄’&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;자격증&nbsp;응시료&nbsp;지원,&nbsp;장애인&nbsp;전동보장구&nbsp;보험료&nbsp;전액지원&nbsp;등&nbsp;생애&nbsp;주기별&nbsp;필수&nbsp;복지&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자기주도&nbsp;학습&nbsp;지원센터&nbsp;설립&nbsp;:&nbsp;단순&nbsp;보충&nbsp;수업이&nbsp;아닌,&nbsp;AI&nbsp;기반&nbsp;맞춤형&nbsp;학습&nbsp;컨설팅을&nbsp;제공하여&nbsp;사교육비&nbsp;부담을&nbsp;0원으로&nbsp;수렴<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026.07.01.~&nbsp;2030.06.30까지<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;행사성·소모성&nbsp;예산&nbsp;구조조정을&nbsp;통한&nbsp;복지·교육&nbsp;예산&nbsp;우선&nbsp;재투자<br>&nbsp;&nbsp;○&nbsp;유사·중복&nbsp;복지사업&nbsp;통합&nbsp;운영으로&nbsp;행정비용&nbsp;절감&nbsp;및&nbsp;돌봄&nbsp;인력&nbsp;확충&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;서울시·교육청·보건복지부&nbsp;공모사업&nbsp;및&nbsp;특별교부금&nbsp;적극&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;공공시설&nbsp;유휴공간&nbsp;활용을&nbsp;통한&nbsp;학습센터&nbsp;운영비&nbsp;절감<br>&nbsp;&nbsp;○&nbsp;민간기업·대학·복지기관&nbsp;협약을&nbsp;통한&nbsp;교육·돌봄&nbsp;프로그램&nbsp;공동&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기반&nbsp;행정&nbsp;시스템&nbsp;도입으로&nbsp;절감된&nbsp;운영비를&nbsp;청년·아동&nbsp;복지에&nbsp;재투입<br>&nbsp;&nbsp;○&nbsp;주민참여예산&nbsp;및&nbsp;생활SOC&nbsp;연계사업을&nbsp;활용한&nbsp;단계적&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;단기성&nbsp;현금지원보다&nbsp;지속&nbsp;가능한&nbsp;돌봄·교육&nbsp;인프라&nbsp;중심으로&nbsp;예산&nbsp;재편</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	이순신의 중구, 을지로의 미래 - 역사 자산과 첨단 산업을 하나로 잇는다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="이순신의 중구, 을지로의 미래 - 역사 자산과 첨단 산업을 하나로 잇는다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;역사&nbsp;자산이&nbsp;경제&nbsp;자산으로,&nbsp;세계가&nbsp;찾아오는&nbsp;K-문화&nbsp;중심지&nbsp;중구<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;광화문&nbsp;동상에서&nbsp;건천동&nbsp;이순신&nbsp;생지를&nbsp;잇는&nbsp;‘K-역사관광&nbsp;벨트’를&nbsp;완성하겠습니다.<br>&nbsp;&nbsp;○&nbsp;을지유니크팩토리와&nbsp;도심&nbsp;장인&nbsp;기술&nbsp;계승으로&nbsp;을지로를&nbsp;‘제조+문화’&nbsp;혁신&nbsp;거점으로&nbsp;만들고,&nbsp;명동스퀘어&nbsp;야간경제&nbsp;특구를&nbsp;통해&nbsp;야간&nbsp;관광과&nbsp;상권&nbsp;매출을&nbsp;함께&nbsp;끌어올리겠습니다.<br>&nbsp;&nbsp;○&nbsp;세운·GTX&nbsp;연계&nbsp;복합&nbsp;개발로&nbsp;중구의&nbsp;미래&nbsp;부동산&nbsp;가치도&nbsp;선점하겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026.07.01.~&nbsp;2030.06.30까지<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;전시성·일회성&nbsp;축제&nbsp;예산을&nbsp;축소하고&nbsp;상설형&nbsp;역사·문화&nbsp;콘텐츠&nbsp;투자로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;명동·을지로&nbsp;관광&nbsp;활성화에&nbsp;따른&nbsp;지역상권&nbsp;세수&nbsp;증가분을&nbsp;문화관광&nbsp;인프라에&nbsp;재투자<br>&nbsp;&nbsp;○&nbsp;문화체육관광부&nbsp;관광특구·야간관광&nbsp;특화사업&nbsp;등&nbsp;국비&nbsp;공모사업&nbsp;적극&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;도시재생·도심활성화·생활SOC&nbsp;사업과&nbsp;연계한&nbsp;시비&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;민간기업·호텔·관광업계&nbsp;협력을&nbsp;통한&nbsp;민관&nbsp;공동투자&nbsp;모델&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;세운상가·을지로&nbsp;일대&nbsp;공공자산&nbsp;활용으로&nbsp;문화공간&nbsp;조성&nbsp;비용&nbsp;절감<br>&nbsp;&nbsp;○&nbsp;GTX·세운&nbsp;재개발&nbsp;연계&nbsp;개발이익의&nbsp;지역&nbsp;환원&nbsp;방안&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;예술인·장인&nbsp;창업&nbsp;지원사업과&nbsp;연계한&nbsp;창업지원기금&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;야간경제&nbsp;활성화로&nbsp;증가하는&nbsp;지역&nbsp;소비·관광&nbsp;수입을&nbsp;단계적으로&nbsp;문화예산에&nbsp;재투입</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

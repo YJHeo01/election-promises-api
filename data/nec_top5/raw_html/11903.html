@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;주석수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	연제종합운동장 건립 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="연제종합운동장 건립 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;추진배경&nbsp;<br>&nbsp;&nbsp;&#9702;&nbsp;생활체육&nbsp;수요의&nbsp;지속적&nbsp;증가에&nbsp;따라&nbsp;관내&nbsp;전용구장을&nbsp;포함한&nbsp;종합형&nbsp;체육시설&nbsp;확충&nbsp;필요<br>&nbsp;&nbsp;&#9702;&nbsp;부지&nbsp;확보&nbsp;제약&nbsp;등&nbsp;공공체육시설&nbsp;공급&nbsp;한계로&nbsp;인한&nbsp;지역&nbsp;간&nbsp;체육&nbsp;인프라&nbsp;격차&nbsp;해소&nbsp;및&nbsp;생활권&nbsp;중심의&nbsp;균형있는&nbsp;체육&nbsp;환경&nbsp;조성&nbsp;<br><br>□&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;&#9702;&nbsp;연제구&nbsp;물만골&nbsp;일대&nbsp;약&nbsp;5,000평&nbsp;규모로&nbsp;인조잔디구장&nbsp;및&nbsp;관람석,&nbsp;외곽순환&nbsp;러닝트랙,&nbsp;관리동(화장실,사무실&nbsp;등),&nbsp;주차장(50면),&nbsp;기타&nbsp;녹지&nbsp;조성<br>===================================================================================<br>|&nbsp;&nbsp;&#9702;&nbsp;약&nbsp;200여&nbsp;억원&nbsp;▷&nbsp;토지&nbsp;매입비,&nbsp;공사비,&nbsp;설계비,&nbsp;감리비&nbsp;등&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;건축기획용역&nbsp;후&nbsp;구체적인&nbsp;추정&nbsp;사업비&nbsp;산정&nbsp;가능&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;토목&nbsp;공사&nbsp;난이도&nbsp;공정&nbsp;및&nbsp;산지전용허가&nbsp;기준&nbsp;충족에&nbsp;따른&nbsp;사업비&nbsp;변동분&nbsp;발생&nbsp;시&nbsp;추후&nbsp;상승분&nbsp;반영&nbsp;필요&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;<br>===================================================================================<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&#9702;&nbsp;(‘26.&nbsp;하반기)&nbsp;건립&nbsp;기본계획&nbsp;수립,&nbsp;중기지방재정계획&nbsp;반영<br>&nbsp;&nbsp;&#9702;&nbsp;(’27.~‘28.)&nbsp;건축기획&nbsp;용역,&nbsp;타당성&nbsp;조사&nbsp;및&nbsp;도시관리계획&nbsp;심의&nbsp;및&nbsp;고시<br>&nbsp;&nbsp;&#9702;&nbsp;(’29.~‘30.)&nbsp;지방재정&nbsp;투자심사,&nbsp;설계공모&nbsp;및&nbsp;실시설계,&nbsp;토지&nbsp;보상<br>&nbsp;&nbsp;&#9702;&nbsp;(’31.~‘32.)&nbsp;공사&nbsp;착공&nbsp;및&nbsp;준공<br>========================================================================================<br>|&nbsp;&nbsp;&#9702;&nbsp;가용&nbsp;면적이&nbsp;넓고&nbsp;경사가&nbsp;완만한&nbsp;부지를&nbsp;중심으로&nbsp;최적&nbsp;입지를&nbsp;선정하여&nbsp;토목&nbsp;및&nbsp;사면&nbsp;보강&nbsp;공사비&nbsp;최소화.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&#9702;&nbsp;통합&nbsp;인허가&nbsp;전담&nbsp;TF&nbsp;구성&nbsp;및&nbsp;주민설명회&nbsp;조기&nbsp;개최를&nbsp;통한&nbsp;충분한&nbsp;사전&nbsp;소통&nbsp;및&nbsp;사업&nbsp;필요성&nbsp;공유&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&#9702;&nbsp;관계기관&nbsp;협의를&nbsp;통한&nbsp;계획도로&nbsp;조기&nbsp;개설&nbsp;추진&nbsp;및&nbsp;대체&nbsp;진입로&nbsp;확보&nbsp;방안&nbsp;병행&nbsp;검토&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&#9702;&nbsp;보상&nbsp;전담팀&nbsp;구축&nbsp;등&nbsp;보상&nbsp;협의률&nbsp;극대화&nbsp;및&nbsp;수용&nbsp;재결&nbsp;최소화를&nbsp;위한&nbsp;선제적&nbsp;협의&nbsp;채널&nbsp;운영&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>========================================================================================<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&#9702;&nbsp;2026년&nbsp;하반기&nbsp;(계획수립&nbsp;등)&nbsp;~2031(공사착공),&nbsp;2032년&nbsp;준공<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&#9702;&nbsp;특별&nbsp;교부세와&nbsp;특별조정교부금&nbsp;최대&nbsp;확보&nbsp;<br>&nbsp;&nbsp;&#9702;&nbsp;국·시비&nbsp;확보를&nbsp;위한&nbsp;연계&nbsp;공모사업&nbsp;적극&nbsp;발굴</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	종합운동장인근 레이카운티아파트 대로변 지하보도 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="종합운동장인근 레이카운티아파트 대로변 지하보도 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;추진배경<br>&nbsp;&nbsp;&#9702;&nbsp;통학로&nbsp;안전사고&nbsp;예방&nbsp;및&nbsp;아시아드대로&nbsp;교통개선&nbsp;필요&nbsp;<br>&nbsp;&nbsp;&#9702;&nbsp;대규모&nbsp;주거단지&nbsp;유입에&nbsp;따른&nbsp;정주&nbsp;여건&nbsp;개선<br><br>□&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;&#9702;&nbsp;종합운동장&nbsp;인근&nbsp;레이카운티아파트&nbsp;대로변은&nbsp;아시아드주경기장&nbsp;인접하여&nbsp;대규모&nbsp;인원들이&nbsp;통행하는&nbsp;곳으로,&nbsp;안전한&nbsp;통학로&nbsp;확보&nbsp;및&nbsp;아시아드대로&nbsp;교통체계&nbsp;개선<br>=================================================================<br>|&nbsp;&nbsp;&#9702;&nbsp;위&nbsp;&nbsp;치&nbsp;:&nbsp;종합운동장&nbsp;인근&nbsp;레이카운티A~창신초등학교&nbsp;인근&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&#9702;&nbsp;길&nbsp;&nbsp;이&nbsp;:&nbsp;L=200m&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&#9702;&nbsp;사업비&nbsp;:&nbsp;230억원&nbsp;(설계&nbsp;10&nbsp;공사&nbsp;200,&nbsp;감리&nbsp;20),&nbsp;(공사비)&nbsp;200억원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&nbsp;&nbsp;&#9657;&nbsp;지하보도&nbsp;단위공사비*:&nbsp;1억원(m당)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*2026년&nbsp;물가&nbsp;및&nbsp;부산시&nbsp;토목공사&nbsp;사례&nbsp;기준&nbsp;적용&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&nbsp;&nbsp;&#9657;&nbsp;1(억원/m)&nbsp;×&nbsp;200m&nbsp;=&nbsp;200억원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(설계비)&nbsp;10억원&nbsp;&nbsp;&nbsp;&#9657;&nbsp;공사비&nbsp;약&nbsp;5%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(감리비)&nbsp;20억원&nbsp;&nbsp;&nbsp;&#9657;&nbsp;공사비&nbsp;약&nbsp;10%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>=================================================================<br>□&nbsp;이행방법<br>&nbsp;&nbsp;&#9702;&nbsp;2027.&nbsp;타당성&nbsp;조사&nbsp;및&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;&#9702;&nbsp;2028.&nbsp;도시관리계획(시설:지하도로)&nbsp;결정&nbsp;및&nbsp;실시설계<br>&nbsp;&nbsp;&#9702;&nbsp;2029.&nbsp;사업시행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&#9702;&nbsp;2027년&nbsp;(타당성&nbsp;조사&nbsp;및&nbsp;기본계획수립)&nbsp;~2029(사업착공)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&#9702;&nbsp;특별&nbsp;교부세와&nbsp;특별조정교부금&nbsp;최대&nbsp;확보&nbsp;<br>&nbsp;&nbsp;&#9702;&nbsp;통학로&nbsp;안전시설&nbsp;조성&nbsp;국·시비&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	배산 숲속 영어캠프 및 유아숲터 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="배산 숲속 영어캠프 및 유아숲터 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ①&nbsp;배산숲속&nbsp;영어캠프&nbsp;“&nbsp;배산&nbsp;숲을&nbsp;교실로”&nbsp;<br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&#9702;&nbsp;부산시&nbsp;‘글로벌&nbsp;허브도시&nbsp;특별법’&nbsp;추진&nbsp;및&nbsp;‘영어하기&nbsp;편한&nbsp;도시’&nbsp;정책과&nbsp;발맞춰&nbsp;교육도시&nbsp;연제구만의&nbsp;특화된&nbsp;영어&nbsp;교육&nbsp;브랜드&nbsp;육성.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&#9702;&nbsp;운영형태&nbsp;:&nbsp;방학&nbsp;집중형,&nbsp;주말&nbsp;체험형,&nbsp;멘토링&nbsp;연계형<br>&nbsp;&nbsp;&#9702;&nbsp;운영장소&nbsp;:&nbsp;배산일원&nbsp;숲체험장,&nbsp;인근&nbsp;교육기관&nbsp;연계&nbsp;시설활용<br>&nbsp;&nbsp;&#9702;&nbsp;대&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;상&nbsp;:&nbsp;관내&nbsp;초등,&nbsp;중학생&nbsp;및&nbsp;가족단위&nbsp;<br>&nbsp;&nbsp;&#9702;&nbsp;주요내용&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자연을&nbsp;활용한&nbsp;미션&nbsp;수행형&nbsp;영어학습,&nbsp;‘숲&nbsp;+&nbsp;영어’&nbsp;체험&nbsp;프로그램&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학생&nbsp;멘토링&nbsp;글로벌&nbsp;프로그램<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;10월(계획수립&nbsp;등),&nbsp;2027년&nbsp;7월(시행)~<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;<br>&nbsp;&nbsp;&#9702;&nbsp;부산시&nbsp;정책사업과&nbsp;연계한&nbsp;공모사업&nbsp;및&nbsp;특별조정교부금&nbsp;등&nbsp;확보<br><br>②&nbsp;배산고분군&nbsp;유아숲터&nbsp;조성<br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&#9702;&nbsp;숲체험&nbsp;등&nbsp;다양한&nbsp;교육&nbsp;환경&nbsp;제공&nbsp;및&nbsp;유아숲교육&nbsp;정기&nbsp;숲반&nbsp;분산운영으로&nbsp;효율적인&nbsp;유아숲&nbsp;교육&nbsp;운영&nbsp;<br>====================================<br>|&nbsp;&nbsp;&#9702;&nbsp;사&nbsp;업&nbsp;비&nbsp;:&nbsp;200백만원&nbsp;&nbsp;※토지매입비&nbsp;별도&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&#9702;&nbsp;위&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;치&nbsp;:&nbsp;연산동&nbsp;산120-1번지&nbsp;일원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&#9702;&nbsp;사업내용&nbsp;:&nbsp;유아숲터&nbsp;조성&nbsp;A=약1,000㎡&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>====================================<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&#9702;&nbsp;2026.&nbsp;12.&nbsp;:&nbsp;도시관리계획(공원)&nbsp;결정&nbsp;및&nbsp;조성계획&nbsp;수립(市)<br>&nbsp;&nbsp;&#9702;&nbsp;2027.&nbsp;5.&nbsp;:&nbsp;실시설계용역&nbsp;완료,&nbsp;공사&nbsp;착공<br>&nbsp;&nbsp;&#9702;&nbsp;2027.&nbsp;6.&nbsp;:&nbsp;공사&nbsp;완료<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;12월~<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&#9702;&nbsp;특별조정교부금&nbsp;등&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	연제문화체육복합센터 건립 지속 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="연제문화체육복합센터 건립 지속 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;추진배경<br>&nbsp;&nbsp;&#9702;&nbsp;우리구가&nbsp;부산의&nbsp;지리적·행정적&nbsp;중심지임에도&nbsp;불구하고&nbsp;구민&nbsp;누구나&nbsp;일상에서&nbsp;문화와&nbsp;체육을&nbsp;함께&nbsp;누릴&nbsp;수&nbsp;있는&nbsp;대규모&nbsp;시설이&nbsp;부족한&nbsp;실정<br>&nbsp;&nbsp;&#9702;&nbsp;증가하는&nbsp;문화·체육&nbsp;수요에&nbsp;대응하고,&nbsp;공연·체육·행정&nbsp;기능이&nbsp;어우러진&nbsp;복합&nbsp;거점시설&nbsp;조성&nbsp;필요성&nbsp;제기<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&#9702;&nbsp;다양한&nbsp;공연과&nbsp;체육활동,&nbsp;여가&nbsp;프로그램을&nbsp;한&nbsp;공간에서&nbsp;누릴&nbsp;수&nbsp;있는&nbsp;복합&nbsp;인프라&nbsp;조성을&nbsp;통해&nbsp;구민의&nbsp;삶의&nbsp;질을&nbsp;한층&nbsp;높이고,&nbsp;일상&nbsp;속&nbsp;문화&nbsp;향유&nbsp;기회&nbsp;확대<br>&nbsp;&nbsp;&#9702;&nbsp;증가하는&nbsp;문화·체육&nbsp;수요에&nbsp;대응하고,&nbsp;공연·체육·행정&nbsp;기능과&nbsp;부족한&nbsp;청사시설까지&nbsp;포함한&nbsp;복합시설&nbsp;조성으로&nbsp;청사를&nbsp;찾아오는&nbsp;주민불편&nbsp;해소&nbsp;및&nbsp;지역&nbsp;상권&nbsp;활력을&nbsp;불어넣고,&nbsp;도시&nbsp;브랜드&nbsp;가치&nbsp;제고에도&nbsp;기여하고자&nbsp;함<br>===================================================<br>|&nbsp;&nbsp;&#9702;위&nbsp;&nbsp;&nbsp;&nbsp;치:&nbsp;연산동&nbsp;1555-1(연제구청&nbsp;서편주차장&nbsp;부지),&nbsp;3,991㎡&nbsp;&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&#9702;사업기간:&nbsp;2022년&nbsp;~&nbsp;2030년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&#9702;규&nbsp;&nbsp;&nbsp;&nbsp;모:&nbsp;지하2층&nbsp;~&nbsp;지상4층&nbsp;이내&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&#9702;시설배치:&nbsp;다목적&nbsp;체육(문화)시설,&nbsp;청사시설,&nbsp;주차장&nbsp;등&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>===================================================<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&#9702;&nbsp;2026.&nbsp;5월:&nbsp;건축기획&nbsp;보완&nbsp;용역&nbsp;착공<br>&nbsp;&nbsp;&#9702;&nbsp;2026.&nbsp;12월:&nbsp;건축기획&nbsp;보완&nbsp;용역&nbsp;준공<br>&nbsp;&nbsp;&#9702;&nbsp;2027.&nbsp;상반기:&nbsp;부산시&nbsp;지방재정투자심사&nbsp;의뢰&nbsp;및&nbsp;통과<br>&nbsp;&nbsp;&#9702;&nbsp;2027.&nbsp;하반기:&nbsp;공유재산&nbsp;심의&nbsp;등&nbsp;사전&nbsp;행정절차<br>&nbsp;&nbsp;&#9702;&nbsp;2028년:&nbsp;설계공모&nbsp;및&nbsp;실시설계&nbsp;용역,&nbsp;공사&nbsp;착공<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&#9702;&nbsp;2022년~2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&#9702;&nbsp;부산시&nbsp;지방재정투자심사&nbsp;완료&nbsp;및&nbsp;설계비&nbsp;편성&nbsp;이후&nbsp;특별교부세&nbsp;등&nbsp;신청</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	거제권역 공공도서관 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="거제권역 공공도서관 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;추진배경<br>&nbsp;&nbsp;&#9702;&nbsp;인구&nbsp;대비&nbsp;도서관&nbsp;인프라가&nbsp;부족한&nbsp;거제동&nbsp;생활권역에&nbsp;거점&nbsp;공공도서관을&nbsp;건립하여&nbsp;권역별&nbsp;문화&nbsp;격차&nbsp;해소<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&#9702;&nbsp;공공도서관&nbsp;인프라가&nbsp;부족한&nbsp;거제권역&nbsp;주민들에게&nbsp;양질의&nbsp;도서관&nbsp;서비스와&nbsp;문화향유의&nbsp;기회를&nbsp;제공할&nbsp;지역&nbsp;복합문화공간&nbsp;조성<br>&nbsp;&nbsp;&#9702;&nbsp;지역&nbsp;특성&nbsp;및&nbsp;주민요구도를&nbsp;반영한&nbsp;영어특화&nbsp;공간을&nbsp;구축하여&nbsp;지역주민의&nbsp;교육문화&nbsp;욕구를&nbsp;충족하는&nbsp;교육도시&nbsp;연제&nbsp;비전&nbsp;실현<br>======================================================&nbsp;&nbsp;&nbsp;<br>|&nbsp;&nbsp;&#9702;&nbsp;사&nbsp;업&nbsp;비:&nbsp;25,246백만원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&#9702;&nbsp;사업위치:&nbsp;연제구&nbsp;거제동&nbsp;1542번지&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&#9702;&nbsp;사업기간:&nbsp;2024년&nbsp;∼&nbsp;2030년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&#9702;&nbsp;건립규모:&nbsp;부지&nbsp;1,360㎡,&nbsp;연면적&nbsp;3,020㎡정도(지하1층~지상4층)&nbsp;&nbsp;&nbsp;|<br>|&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요시설:&nbsp;자료실,&nbsp;프로그램실,&nbsp;다목적홀,&nbsp;영어특화존,&nbsp;보존서고&nbsp;등&nbsp;&nbsp;|<br>======================================================<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&#9702;&nbsp;2026.&nbsp;5.:&nbsp;공공건축심의위원회&nbsp;심의,&nbsp;설계공모자료&nbsp;확정,&nbsp;계약심사<br>&nbsp;&nbsp;&#9702;&nbsp;2026.&nbsp;하반기&nbsp;~2027.:&nbsp;설계용역&nbsp;계약&nbsp;및&nbsp;착·준공<br>&nbsp;&nbsp;&#9702;&nbsp;2028.&nbsp;~&nbsp;2030.:&nbsp;공사&nbsp;입찰&nbsp;및&nbsp;건축공사&nbsp;착·준공<br>&nbsp;&nbsp;&#9702;&nbsp;2030.&nbsp;하반기&nbsp;:&nbsp;내부&nbsp;시스템&nbsp;구축&nbsp;등&nbsp;개관&nbsp;준비&nbsp;및&nbsp;도서관&nbsp;개관<br><br>□&nbsp;이행기간&nbsp;:&nbsp;~2030년&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&#9702;&nbsp;‘26년&nbsp;시비&nbsp;신청&nbsp;후&nbsp;연차별&nbsp;예산&nbsp;확보&nbsp;추진&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙투자심사&nbsp;통과&nbsp;후&nbsp;시비&nbsp;신청서류&nbsp;제출&nbsp;및&nbsp;편성&nbsp;요구&nbsp;&nbsp;<br>&nbsp;&nbsp;&#9702;&nbsp;특별교부세·특별조정교부금&nbsp;등을&nbsp;통해&nbsp;추가재원&nbsp;확보&nbsp;예정</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

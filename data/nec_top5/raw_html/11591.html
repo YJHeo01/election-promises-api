@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;강희린 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	안전한 대전 (화재,안전,체육,정신건강)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="안전한 대전 (화재,안전,체육,정신건강)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;제2의&nbsp;안전공업&nbsp;화재참사가&nbsp;없도록,&nbsp;안전관리시스템&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;대전&nbsp;체육&nbsp;시설&nbsp;및&nbsp;커뮤니티&nbsp;통합&nbsp;관리&nbsp;및&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;대전&nbsp;지역&nbsp;내&nbsp;약물,&nbsp;도박,&nbsp;피싱,&nbsp;사이비종교&nbsp;중독&nbsp;예방&nbsp;및&nbsp;회복&nbsp;지원&nbsp;(심리적&nbsp;건강)<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;화재안전관리&nbsp;통합&nbsp;데이터베이스&nbsp;플랫폼&nbsp;‘대전지킴이’&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;종이&nbsp;문서로&nbsp;파편화된&nbsp;화재안전관리를&nbsp;하나의&nbsp;플랫폼에서&nbsp;전산화하여&nbsp;데이터&nbsp;관리.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;FMS&nbsp;(시설물관리시스템)와&nbsp;연계하여&nbsp;시민들이&nbsp;안전&nbsp;상황을&nbsp;직접&nbsp;제보,&nbsp;확인,&nbsp;개선할&nbsp;수&nbsp;있도록&nbsp;공개.&nbsp;<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;지능형&nbsp;화재경보기,&nbsp;감지기&nbsp;개발&nbsp;등&nbsp;안전산업&nbsp;육성.&nbsp;<br>&nbsp;&nbsp;○&nbsp;소방관&nbsp;처우&nbsp;개선:&nbsp;퇴직후&nbsp;10년간&nbsp;특수건강검진비&nbsp;지원,&nbsp;부식비&nbsp;피복비&nbsp;야간출동간식비&nbsp;인상,&nbsp;면책규정&nbsp;도입&nbsp;등.<br>&nbsp;&nbsp;○&nbsp;소방시설&nbsp;확충:&nbsp;중부소방서&nbsp;신설,&nbsp;동별&nbsp;119안전센터&nbsp;신설&nbsp;등.&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;체육시설&nbsp;및&nbsp;체육&nbsp;커뮤니티&nbsp;통합&nbsp;관리&nbsp;운영&nbsp;시스템&nbsp;구축.&nbsp;(현재는&nbsp;분산되어&nbsp;관리되어&nbsp;현황&nbsp;파악&nbsp;및&nbsp;개선&nbsp;어려움)&nbsp;부족&nbsp;시설&nbsp;파악&nbsp;후&nbsp;체육시설&nbsp;(야외농구장,&nbsp;체육관&nbsp;등)&nbsp;신설.&nbsp;<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;약물,&nbsp;도박,&nbsp;피싱,&nbsp;사이비종교&nbsp;예방교육&nbsp;및&nbsp;피해회복지원&nbsp;대전시에서&nbsp;통합&nbsp;책임관리,&nbsp;피해자&nbsp;관련&nbsp;단체로&nbsp;연계&nbsp;지원.&nbsp;<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;시스템&nbsp;초기&nbsp;도입&nbsp;및&nbsp;개선:&nbsp;2026.07~2027.12&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;시스템&nbsp;정착&nbsp;및&nbsp;추가투자:&nbsp;2028.01~2030.06<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시비&nbsp;투입을&nbsp;기본으로&nbsp;하나&nbsp;신기술&nbsp;산업&nbsp;육성&nbsp;및&nbsp;소방시설&nbsp;확충&nbsp;등&nbsp;국비&nbsp;지원&nbsp;확보&nbsp;노력.&nbsp;(소방교부세&nbsp;전환&nbsp;등)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	소통하는 대전 (언론, 시민사회)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="소통하는 대전 (언론, 시민사회)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;대전시정의&nbsp;일방향&nbsp;소통체계&nbsp;탈피&nbsp;및&nbsp;언론,&nbsp;시민사회와의&nbsp;쌍방향&nbsp;소통&nbsp;활성화&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;대전&nbsp;지역언론에&nbsp;대한&nbsp;시민&nbsp;관심도&nbsp;증진&nbsp;및&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대전형&nbsp;통합&nbsp;언론&nbsp;구독플랫폼&nbsp;‘대플릭스’&nbsp;도입.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대플릭스&nbsp;웹사이트와&nbsp;어플리케이션&nbsp;뼈대&nbsp;구축.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;언론&nbsp;대상&nbsp;가맹사&nbsp;모집&nbsp;및&nbsp;가입&nbsp;및&nbsp;기사&nbsp;업로드<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역화폐&nbsp;앱과&nbsp;연계해&nbsp;충전금으로&nbsp;대플릭스&nbsp;구독&nbsp;유도.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구독료&nbsp;수익배분은&nbsp;구독자&nbsp;기사&nbsp;공감수에&nbsp;따라&nbsp;자동&nbsp;분배.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시청,의회&nbsp;기자회견,&nbsp;간담회&nbsp;등도&nbsp;플랫폼으로&nbsp;실시간&nbsp;중계&nbsp;및&nbsp;쌍방향&nbsp;소통&nbsp;도입.&nbsp;<br>&nbsp;&nbsp;○&nbsp;주&nbsp;1회&nbsp;이상&nbsp;직종별&nbsp;간담회,&nbsp;월&nbsp;1회&nbsp;시민단체&nbsp;간담회&nbsp;및&nbsp;분기&nbsp;1회&nbsp;대전&nbsp;시민들과&nbsp;끝장&nbsp;토론&nbsp;개최&nbsp;및&nbsp;실시간&nbsp;중계.&nbsp;<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;시스템&nbsp;초기&nbsp;도입&nbsp;및&nbsp;개선:&nbsp;2026.07~2027.12&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;시스템&nbsp;정착&nbsp;및&nbsp;추가투자:&nbsp;2028.01~2030.06<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;초기&nbsp;플랫폼&nbsp;구축&nbsp;및&nbsp;홍보&nbsp;비용&nbsp;시비&nbsp;투입.&nbsp;정착&nbsp;시&nbsp;시민&nbsp;납부&nbsp;구독료&nbsp;및&nbsp;광고비로&nbsp;운영&nbsp;목표.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	연결되는 대전 (커뮤니티, 교통)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="연결되는 대전 (커뮤니티, 교통)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;단절된&nbsp;원도심,&nbsp;구도심과&nbsp;청년&nbsp;커뮤니티,&nbsp;대덕연구단지와&nbsp;도심지를&nbsp;물리적,&nbsp;심리적으로&nbsp;연결&nbsp;<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;교통혁신&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(장기):&nbsp;충청권광역철도,&nbsp;CTX&nbsp;및&nbsp;지하철&nbsp;3호선&nbsp;조기착공.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(중기):&nbsp;차량공유&nbsp;서비스&nbsp;(우버,타다&nbsp;등),&nbsp;무인&nbsp;모빌리티&nbsp;실증&nbsp;및&nbsp;확대&nbsp;적용.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(단기):&nbsp;어린이보호구역&nbsp;및&nbsp;속도제한&nbsp;규제&nbsp;완화,&nbsp;공유자전거&nbsp;및&nbsp;PM&nbsp;(전동&nbsp;개인이동장치)&nbsp;활성화&nbsp;및&nbsp;관리&nbsp;체계화.&nbsp;<br>&nbsp;&nbsp;○&nbsp;커뮤니티&nbsp;연결&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;내&nbsp;취미활동,&nbsp;문화활동을&nbsp;중심으로&nbsp;한&nbsp;커뮤니티&nbsp;지원&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;지역&nbsp;대학&nbsp;및&nbsp;단체와&nbsp;연계해&nbsp;연결망&nbsp;활성화.&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;장기&nbsp;교통사업:&nbsp;2026.07~2031.07<br>&nbsp;&nbsp;○&nbsp;중기,단기&nbsp;교통사업:&nbsp;2026.07~2027.12(도입),&nbsp;2028.01~2031.07(정착&nbsp;및&nbsp;발전)&nbsp;<br>&nbsp;&nbsp;○&nbsp;커뮤니티&nbsp;연결사업:&nbsp;2026.07~2030.06&nbsp;임기&nbsp;동안&nbsp;지속추진.<br>&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;CTX&nbsp;국비투입&nbsp;신속추진을&nbsp;위해서는&nbsp;세종&nbsp;행정수도&nbsp;완성을&nbsp;촉구하는&nbsp;것이&nbsp;필수적.&nbsp;지하철&nbsp;및&nbsp;광역철도는&nbsp;국비,&nbsp;시비&nbsp;분담.&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;중기&nbsp;교통사업은&nbsp;시비&nbsp;투자&nbsp;및&nbsp;과기정통부&nbsp;국비지원&nbsp;노력,&nbsp;단기&nbsp;교통사업은&nbsp;시&nbsp;및&nbsp;구&nbsp;차원&nbsp;투자.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	살기좋은 대전 (일자리, 관광)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="살기좋은 대전 (일자리, 관광)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;대전&nbsp;지역&nbsp;산업&nbsp;육성으로&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;국내외&nbsp;관광객&nbsp;유치로&nbsp;부가가치&nbsp;창출.&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대전은행&nbsp;(충청권&nbsp;거점은행)&nbsp;및&nbsp;대전투자공사&nbsp;설립으로&nbsp;자본금&nbsp;및&nbsp;투자금&nbsp;확보&nbsp;후&nbsp;지역&nbsp;내&nbsp;산업&nbsp;재투자&nbsp;유도.&nbsp;관&nbsp;주도&nbsp;기업&nbsp;유치가&nbsp;아닌&nbsp;민간&nbsp;주도&nbsp;산업투자&nbsp;활성화&nbsp;기반&nbsp;마련.&nbsp;<br>&nbsp;&nbsp;○&nbsp;전통&nbsp;제조업&nbsp;공장과&nbsp;AI,&nbsp;드론&nbsp;등&nbsp;첨단&nbsp;신산업,&nbsp;연구단지&nbsp;기술형&nbsp;스타트업&nbsp;상호연계&nbsp;지원.&nbsp;대전은행이&nbsp;스타트업&nbsp;연구자,&nbsp;창업가에게&nbsp;투자하고&nbsp;전통제조업&nbsp;설비와&nbsp;매칭시켜&nbsp;이용해&nbsp;투자&nbsp;수익을&nbsp;배당&nbsp;형태로&nbsp;공장과&nbsp;은행,&nbsp;창업가가&nbsp;나누어&nbsp;갖는&nbsp;형태.&nbsp;<br>&nbsp;&nbsp;○&nbsp;드론&nbsp;및&nbsp;무인&nbsp;모빌리티&nbsp;규제완화&nbsp;특구지정으로&nbsp;관련&nbsp;산업&nbsp;활성화.<br>&nbsp;&nbsp;○&nbsp;빵&nbsp;축제&nbsp;확대&nbsp;및&nbsp;빵/국수/밀가루&nbsp;식문화&nbsp;기반&nbsp;실내&nbsp;테마파크&nbsp;빵타워&nbsp;조성.&nbsp;(중구&nbsp;문화동&nbsp;세이백화점&nbsp;공실&nbsp;리모델링&nbsp;계획)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;산업&nbsp;생태계&nbsp;초기&nbsp;구축&nbsp;및&nbsp;개선:&nbsp;2026.07~2027.12&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;시스템&nbsp;정착&nbsp;및&nbsp;추가투자:&nbsp;2028.01~2030.06<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;초기&nbsp;정착&nbsp;비용&nbsp;시비&nbsp;투자&nbsp;후&nbsp;민간&nbsp;투자&nbsp;활성화&nbsp;유도</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	똑똑한 대전 (교육, 과학)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="똑똑한 대전 (교육, 과학)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;대전을&nbsp;교육과&nbsp;과학의&nbsp;도시로&nbsp;특성화하여&nbsp;미래&nbsp;발전&nbsp;방향&nbsp;모색.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;과학기술부시장제&nbsp;도입:&nbsp;과학기술계&nbsp;전문가&nbsp;중&nbsp;대전광역시&nbsp;과학기술부시장에&nbsp;영입하여&nbsp;과학기술&nbsp;관련&nbsp;업무&nbsp;지휘&nbsp;총괄&nbsp;담당.&nbsp;<br>&nbsp;&nbsp;○&nbsp;대전&nbsp;관내&nbsp;대학별&nbsp;특성화&nbsp;학과&nbsp;지정&nbsp;및&nbsp;집중&nbsp;지원.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;모집&nbsp;공고&nbsp;후&nbsp;심사를&nbsp;통해&nbsp;선별&nbsp;학교/학과&nbsp;지정.&nbsp;(선택과&nbsp;집중으로&nbsp;최대&nbsp;10개&nbsp;이내의&nbsp;소수&nbsp;학과&nbsp;선발)&nbsp;<br>&nbsp;&nbsp;○&nbsp;대전형&nbsp;이공계&nbsp;장학금&nbsp;및&nbsp;과학적금&nbsp;신설.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대전&nbsp;지역&nbsp;이공계&nbsp;학부/대학원생&nbsp;대상으로&nbsp;소득&nbsp;무관&nbsp;장학금을&nbsp;신설해&nbsp;우수한&nbsp;인재&nbsp;확보&nbsp;유도.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대전&nbsp;지역&nbsp;이공계&nbsp;학부/대학원생/연구자&nbsp;대상&nbsp;과학적금을&nbsp;신설해&nbsp;시중&nbsp;이자보다&nbsp;높은&nbsp;금액으로&nbsp;혜택&nbsp;지원.&nbsp;(대전은행과&nbsp;연계)<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;초기&nbsp;시범&nbsp;운영&nbsp;기간:&nbsp;2026.07~2027.12&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;제도&nbsp;정착&nbsp;및&nbsp;확대&nbsp;투자:&nbsp;2028.01~2030.06<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시비&nbsp;투입&nbsp;및&nbsp;과기정통부&nbsp;예산&nbsp;추가&nbsp;확보&nbsp;노력.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

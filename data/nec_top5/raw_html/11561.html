@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;전재수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	행정·사법·금융·기업이 함께 완성하는 해양수도 부산</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="행정·사법·금융·기업이 함께 완성하는 해양수도 부산">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;주요내용<br>○&nbsp;'국가&nbsp;해양전략의&nbsp;컨트롤타워'로&nbsp;부산&nbsp;대전환<br>&nbsp;&nbsp;1)&nbsp;해양&nbsp;거버넌스&nbsp;혁신적&nbsp;체계&nbsp;구축&nbsp;:&nbsp;대통령&nbsp;직속&nbsp;‘국가&nbsp;해양전략위원회’&nbsp;부산&nbsp;설치,&nbsp;국가&nbsp;해양&nbsp;정책&nbsp;주도.&nbsp;부산시에&nbsp;‘해양경제부시장’직&nbsp;신설해&nbsp;실행력&nbsp;뒷받침<br>&nbsp;&nbsp;2)&nbsp;부산의&nbsp;강점을&nbsp;극대화한&nbsp;‘4대&nbsp;해양산업벨트’&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해양금융·지식벨트&nbsp;:&nbsp;해사전문법원,&nbsp;동남투자공사&nbsp;등&nbsp;고부가가치&nbsp;해양서비스산업&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해양비즈니스벨트&nbsp;:&nbsp;해운기업&nbsp;본사,&nbsp;해수부&nbsp;산하기관&nbsp;부산&nbsp;이전&nbsp;등&nbsp;신성장&nbsp;동력&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘트라이포트&nbsp;경제권’&nbsp;완성&nbsp;:&nbsp;북극항로&nbsp;거점&nbsp;플랫폼&nbsp;도시&nbsp;조성,&nbsp;가덕신공항&nbsp;중심&nbsp;항만-철도&nbsp;연계,&nbsp;글로벌&nbsp;허브&nbsp;도약<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;K-해양&nbsp;AI&nbsp;벨트&nbsp;조성&nbsp;:&nbsp;AI와&nbsp;기술&nbsp;혁신을&nbsp;통해&nbsp;산업&nbsp;체질&nbsp;개선,&nbsp;‘피지컬&nbsp;AI’를&nbsp;통한&nbsp;미래형&nbsp;첨단&nbsp;산업&nbsp;전환&nbsp;및&nbsp;양질의&nbsp;일자리&nbsp;창출<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;해양전략&nbsp;주도&nbsp;:&nbsp;대한민국&nbsp;재도약&nbsp;발판&nbsp;제2성장축&nbsp;‘해양수도&nbsp;부산’&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;고부가가치&nbsp;일자리&nbsp;창출&nbsp;:&nbsp;해운·항만&nbsp;산업을&nbsp;해양금융,&nbsp;사법서비스,&nbsp;첨단&nbsp;AI기술과&nbsp;결합,&nbsp;양질의&nbsp;일자리&nbsp;공급<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;경제&nbsp;구조&nbsp;체질&nbsp;개선&nbsp;:&nbsp;지식서비스&nbsp;및&nbsp;첨단기술&nbsp;중심&nbsp;해양플랫폼&nbsp;도시로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;경쟁력&nbsp;강화&nbsp;:&nbsp;세계적&nbsp;수준의&nbsp;해양·금융·물류&nbsp;허브&nbsp;도약<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;제도정비&nbsp;:&nbsp;‘북극항로특별법’,&nbsp;‘가덕도신공항특별법’,&nbsp;‘동남투자공사설립법’&nbsp;법안&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;조직&nbsp;개편&nbsp;:&nbsp;해양수도&nbsp;부시장&nbsp;신설&nbsp;및&nbsp;전담&nbsp;부서&nbsp;확대,&nbsp;'해양수도&nbsp;부산&nbsp;세일즈단'&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;민관협력모델&nbsp;구축&nbsp;:&nbsp;'100만시민×100만원'&nbsp;해양수도조성펀드&nbsp;및&nbsp;민관합동투자(PPP)&nbsp;유도<br>&nbsp;&nbsp;○&nbsp;인프라&nbsp;실증&nbsp;:&nbsp;영도구(모빌리티),&nbsp;센텀2지구(AI/로봇),&nbsp;강서구(미래항공)&nbsp;등&nbsp;특화&nbsp;클러스터&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계(2026년~2027년)&nbsp;:&nbsp;해양수도&nbsp;부시장&nbsp;도입,&nbsp;국가&nbsp;해양전략위원회&nbsp;설치&nbsp;제안,&nbsp;각&nbsp;산업벨트별&nbsp;마스터플랜&nbsp;수립&nbsp;및&nbsp;유치&nbsp;전략&nbsp;기획<br>&nbsp;&nbsp;○&nbsp;2단계(2027년~2029년)&nbsp;:&nbsp;해사법원&nbsp;유치&nbsp;확정,&nbsp;동남투자공사&nbsp;설립,&nbsp;해운기업&nbsp;본사&nbsp;이전&nbsp;인센티브(톤세제&nbsp;유지&nbsp;등)&nbsp;실행,&nbsp;가덕도신공항&nbsp;배후&nbsp;단지&nbsp;조성&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;3단계(2030년&nbsp;~&nbsp;)&nbsp;:&nbsp;북극항로&nbsp;상업&nbsp;운영&nbsp;지원,&nbsp;트라이포트&nbsp;통합&nbsp;물류&nbsp;시스템&nbsp;완성,&nbsp;전력반도체&nbsp;및&nbsp;양자(QX)&nbsp;클러스터&nbsp;본격&nbsp;가동<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비:해양&nbsp;AI&nbsp;벨트(6,000억),&nbsp;트라이포트&nbsp;인프라(22조),&nbsp;해양특구&nbsp;조성&nbsp;등&nbsp;SOC&nbsp;및&nbsp;R&D&nbsp;예산&nbsp;<br>&nbsp;&nbsp;○&nbsp;시비:부산시&nbsp;투자진흥기금&nbsp;및&nbsp;지방채&nbsp;발행을&nbsp;통한&nbsp;전략적&nbsp;선투자<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;및&nbsp;공공&nbsp;펀드:해양수도조성펀드(시민&nbsp;1조원&nbsp;+&nbsp;국비&nbsp;1조원),&nbsp;동남투자공사&nbsp;자본금(5조&nbsp;원&nbsp;규모),&nbsp;민관합동투자(PPP)&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	미래로 가는 AI 선도도시 부산</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="미래로 가는 AI 선도도시 부산">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;주요내용<br>&nbsp;&nbsp;○&nbsp;'해양'-'AI'&nbsp;결합,&nbsp;산업생태계를&nbsp;AI&nbsp;중심으로&nbsp;전면&nbsp;재편,&nbsp;글로벌&nbsp;주도권&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;'K-해양&nbsp;AI&nbsp;벨트'&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국방,&nbsp;항만,&nbsp;조선,&nbsp;문화&nbsp;등&nbsp;해양의&nbsp;4대&nbsp;핵심&nbsp;분야&nbsp;중심&nbsp;대규모&nbsp;국책&nbsp;사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국방&nbsp;분야&nbsp;AI&nbsp;전환(AX)&nbsp;거점&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;로봇&nbsp;기술&nbsp;결합&nbsp;피지컬&nbsp;AI&nbsp;기반&nbsp;스마트항만&nbsp;구현,&nbsp;초격차&nbsp;기술&nbsp;경쟁력&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘UN&nbsp;AI&nbsp;해양&nbsp;허브’&nbsp;유치,&nbsp;글로벌&nbsp;AI&nbsp;거점&nbsp;도시&nbsp;브랜딩,&nbsp;국제정책&nbsp;결정&nbsp;중심지로&nbsp;도약<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해양특화&nbsp;AX창업&nbsp;적극&nbsp;발굴·육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아시아&nbsp;창업&nbsp;엑스포&nbsp;'Fly&nbsp;ASIA'를&nbsp;해양AI&nbsp;특화&nbsp;글로벌벤처로드쇼로&nbsp;개편,&nbsp;글로벌&nbsp;투자환경&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해양AI데이터센터,&nbsp;전문연구기관&nbsp;유치로&nbsp;기술적&nbsp;토대&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;피지컬&nbsp;AI(로봇&nbsp;등)&nbsp;기반&nbsp;신기술&nbsp;실증&nbsp;및&nbsp;산업화&nbsp;클러스터(센텀2지구)&nbsp;조성<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;산업&nbsp;대전환:&nbsp;전통&nbsp;해양·제조업에&nbsp;AI를&nbsp;이식하여&nbsp;고부가가치&nbsp;미래&nbsp;산업으로&nbsp;체질&nbsp;개선&nbsp;<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;허브&nbsp;도약:&nbsp;UN&nbsp;AI&nbsp;허브&nbsp;유치로&nbsp;부산을&nbsp;제네바에&nbsp;버금가는&nbsp;국제적&nbsp;AI&nbsp;중심지로&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;일자리&nbsp;창출:&nbsp;AI딥테크&nbsp;스타트업&nbsp;육성,&nbsp;특화인재양성으로&nbsp;'힙(Hip)한'&nbsp;일자리&nbsp;공급<br>&nbsp;&nbsp;○&nbsp;기술&nbsp;주도권&nbsp;선점:&nbsp;자율운항,&nbsp;스마트항만,&nbsp;국방&nbsp;AI&nbsp;등&nbsp;해양특화&nbsp;AI분야&nbsp;세계&nbsp;시장&nbsp;선점<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;협력&nbsp;및&nbsp;예타&nbsp;추진:&nbsp;과기부·AI수석&nbsp;협의로&nbsp;'예타면제&nbsp;대형R&D&nbsp;사업'&nbsp;신속&nbsp;확정<br>&nbsp;&nbsp;○&nbsp;국제&nbsp;유치&nbsp;활동:&nbsp;UN본부&nbsp;긴밀협력으로&nbsp;'AI&nbsp;허브'&nbsp;유치제안서&nbsp;제출,&nbsp;범시민유치위원회&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;금융&nbsp;지원&nbsp;체계&nbsp;마련:&nbsp;5,000억&nbsp;원&nbsp;규모의&nbsp;'해양&nbsp;AX&nbsp;특화&nbsp;전주기&nbsp;기술사업화&nbsp;펀드'&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;공간적&nbsp;집적화:&nbsp;북항(행정/기구),&nbsp;센텀2지구(연구/실증),&nbsp;서부산(제조/적용)&nbsp;AI&nbsp;혁신&nbsp;거점&nbsp;연결<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계(2026년):&nbsp;사업&nbsp;기획&nbsp;완료,&nbsp;과기부&nbsp;사업적정성&nbsp;심사&nbsp;신청,&nbsp;UN&nbsp;AI&nbsp;허브&nbsp;유치&nbsp;전략&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;2단계(2027년):&nbsp;정부&nbsp;예산안&nbsp;반영&nbsp;및&nbsp;UN&nbsp;AI&nbsp;허브&nbsp;유치&nbsp;확정,&nbsp;AI&nbsp;창업&nbsp;지원&nbsp;체계&nbsp;개편<br>&nbsp;&nbsp;○&nbsp;3단계(2028년~2032년):&nbsp;K-해양AI벨트&nbsp;착수,&nbsp;AI데이터센터·클러스터&nbsp;조성&nbsp;완료,&nbsp;성과&nbsp;확산<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총&nbsp;사업비:&nbsp;약&nbsp;1조&nbsp;원&nbsp;규모&nbsp;(K-해양&nbsp;AI&nbsp;벨트&nbsp;기준)<br>&nbsp;&nbsp;○&nbsp;국비(6,000억&nbsp;원):&nbsp;정부&nbsp;대형&nbsp;R&D&nbsp;프로젝트&nbsp;및&nbsp;공모&nbsp;사업&nbsp;유치를&nbsp;통한&nbsp;확보&nbsp;<br>&nbsp;&nbsp;○&nbsp;시비(3,000억&nbsp;원):&nbsp;부산시&nbsp;일반&nbsp;회계&nbsp;및&nbsp;지방채&nbsp;발행,&nbsp;AI&nbsp;특화&nbsp;펀드&nbsp;출자<br>&nbsp;&nbsp;○&nbsp;민간(1,000억&nbsp;원):&nbsp;CVC(기업형&nbsp;벤처캐피탈)&nbsp;설립&nbsp;유도&nbsp;및&nbsp;민간&nbsp;VC&nbsp;공동&nbsp;투자&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;펀드&nbsp;운용:&nbsp;'국민성장펀드'와&nbsp;연계하여&nbsp;5,000억&nbsp;원&nbsp;규모의&nbsp;전주기&nbsp;투자&nbsp;시스템&nbsp;구축</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	동행하는 돌봄·상생하는 복지, 바로 돌봄 도시 부산</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="동행하는 돌봄·상생하는 복지, 바로 돌봄 도시 부산">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;주요내용<br>&nbsp;&nbsp;○&nbsp;'관계가&nbsp;자본이&nbsp;되는&nbsp;도시'&nbsp;:&nbsp;시설&nbsp;중심&nbsp;‘콘크리트&nbsp;복지’&nbsp;탈피,&nbsp;사람과&nbsp;사람을&nbsp;잇는&nbsp;‘관계의&nbsp;복지’&nbsp;실현,&nbsp;시민&nbsp;체감형&nbsp;통합&nbsp;돌봄&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;보편적&nbsp;돌봄&nbsp;지원(바로&nbsp;채움)&nbsp;:&nbsp;소득&nbsp;기준&nbsp;전면&nbsp;완화,&nbsp;12세&nbsp;이하&nbsp;아동&nbsp;및&nbsp;노인&nbsp;부양&nbsp;가구에&nbsp;'부산시민&nbsp;돌봄수당(Every-Care&nbsp;바우처)'을&nbsp;동백전&nbsp;포인트&nbsp;지급<br>&nbsp;&nbsp;○&nbsp;공공의료&nbsp;안전망(바로&nbsp;이음)&nbsp;:&nbsp;침례병원&nbsp;공공병원화로&nbsp;동부산권&nbsp;의료&nbsp;공백&nbsp;해소,&nbsp;서·중·동부산&nbsp;권별&nbsp;'지역책임의료기관'&nbsp;지정,&nbsp;공공의료벨트&nbsp;완성&nbsp;및&nbsp;의료&nbsp;뺑뺑이&nbsp;방지<br>&nbsp;&nbsp;○&nbsp;24시간&nbsp;완전한&nbsp;이동권을&nbsp;보장(바로연결)&nbsp;:&nbsp;장애인&nbsp;콜택시&nbsp;통합&nbsp;운영,&nbsp;고지대&nbsp;안심셔틀&nbsp;도입,&nbsp;‘전문&nbsp;동행&nbsp;매니저(부산&nbsp;돌보미)&nbsp;3,000명’&nbsp;고용으로&nbsp;병원·등하교&nbsp;밀착&nbsp;보조&nbsp;등<br>&nbsp;&nbsp;○&nbsp;생애주기별&nbsp;역량&nbsp;강화(바로&nbsp;도약)&nbsp;:&nbsp;직장인&nbsp;연간&nbsp;5일의&nbsp;'교육휴가제'&nbsp;도입,&nbsp;4050세대와&nbsp;신노년까지&nbsp;'평생교육&nbsp;바우처(연&nbsp;35만&nbsp;원)'&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;미래세대&nbsp;사회안전망(바로&nbsp;미래)&nbsp;:&nbsp;25세&nbsp;청년에게&nbsp;‘청년&nbsp;기본소득’&nbsp;지급,&nbsp;지역&nbsp;가치&nbsp;활동에&nbsp;참여하는&nbsp;청년에게&nbsp;'사회참여&nbsp;활동&nbsp;소득'&nbsp;지원으로&nbsp;자부심&nbsp;고취<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;돌봄&nbsp;사각지대&nbsp;제로화:&nbsp;소득·세대&nbsp;칸막이&nbsp;허물고&nbsp;맞벌이&nbsp;중산층까지&nbsp;포괄하는&nbsp;통합복지&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;사회적&nbsp;자본&nbsp;축적:&nbsp;시민이&nbsp;서로를&nbsp;돌보는&nbsp;'공동체적&nbsp;연결'&nbsp;회복,&nbsp;바로&nbsp;곁에서&nbsp;'커뮤니티&nbsp;케어'&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;공공의료벨트&nbsp;완성:&nbsp;'의료&nbsp;뺑뺑이'와&nbsp;지역&nbsp;간&nbsp;건강&nbsp;격차를&nbsp;해소하여&nbsp;시민의&nbsp;생명권&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;소멸&nbsp;대응:&nbsp;청년에게&nbsp;기본소득과&nbsp;사회적&nbsp;효능감&nbsp;제공,&nbsp;부산&nbsp;정주&nbsp;정서적·경제적&nbsp;결합&nbsp;시도.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;법적·제도적&nbsp;기반&nbsp;마련:&nbsp;'특별지방자치단체&nbsp;설치&nbsp;지원법'&nbsp;제정&nbsp;추진&nbsp;및&nbsp;부산시&nbsp;조례&nbsp;개정으로&nbsp;돌봄수당·기본소득&nbsp;근거&nbsp;마련,&nbsp;‘부산돌보미’&nbsp;3,000명을&nbsp;상시&nbsp;고용하여&nbsp;전문&nbsp;동행&nbsp;매니저&nbsp;양성&nbsp;<br>&nbsp;&nbsp;○&nbsp;'올케어&nbsp;동행&nbsp;플랫폼'&nbsp;구축:&nbsp;앱&nbsp;하나로&nbsp;차량&nbsp;호출,&nbsp;동행매니저&nbsp;예약,&nbsp;실시간&nbsp;위치&nbsp;공유까지&nbsp;해결<br>&nbsp;&nbsp;○&nbsp;의료네트워크&nbsp;거버넌스:&nbsp;부산대학교병원(권역)과&nbsp;공공의료원&nbsp;및&nbsp;민간종합병원이&nbsp;참여하는&nbsp;'지역전담&nbsp;의료네트워크'&nbsp;가동&nbsp;및&nbsp;대학,&nbsp;병원,&nbsp;시민단체가&nbsp;참여하는&nbsp;지역책임의료기관&nbsp;협의체&nbsp;구성&nbsp;<br>&nbsp;&nbsp;○&nbsp;지역화폐&nbsp;연계:&nbsp;돌봄수당·활동소득&nbsp;'동백전'으로&nbsp;추가지급,&nbsp;골목상권&nbsp;활성화와&nbsp;복지&nbsp;선순환&nbsp;유도<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계(2026년~2027년):&nbsp;침례병원&nbsp;공공병원화,&nbsp;교육휴가·평생교육&nbsp;바우처&nbsp;확대,&nbsp;동행&nbsp;매니저&nbsp;채용&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;2단계(2027년~2028년):&nbsp;부산시민&nbsp;돌봄수당&nbsp;및&nbsp;청년기본소득&nbsp;지급,&nbsp;올케어&nbsp;동행&nbsp;플랫폼서비스&nbsp;가동&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;3단계(2029년~&nbsp;):권역별&nbsp;지역책임의료기관&nbsp;지정&nbsp;완료,&nbsp;24시간&nbsp;완전이동지원시스템&nbsp;부산&nbsp;전역&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;복지&nbsp;예산&nbsp;질적&nbsp;전환:&nbsp;시설&nbsp;중심의&nbsp;'콘크리트&nbsp;복지'&nbsp;예산을&nbsp;'사람&nbsp;중심'의&nbsp;서비스&nbsp;복지로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;시민참여예산&nbsp;활용:&nbsp;시&nbsp;일반회계의&nbsp;1%&nbsp;수준으로&nbsp;확대한&nbsp;시민참여예산을&nbsp;마을&nbsp;돌봄&nbsp;모델&nbsp;등&nbsp;현장&nbsp;복지&nbsp;사업에&nbsp;우선&nbsp;배정<br>&nbsp;&nbsp;○&nbsp;중앙정부&nbsp;협업:&nbsp;공공병원&nbsp;건립&nbsp;및&nbsp;지역책임의료기관&nbsp;운영을&nbsp;위해&nbsp;국비&nbsp;및&nbsp;건보공단&nbsp;기금&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;민관협력:&nbsp;택시&nbsp;및&nbsp;모빌리티&nbsp;기업과의&nbsp;협력&nbsp;통해&nbsp;이동지원시스템&nbsp;운영&nbsp;효율화&nbsp;및&nbsp;비용&nbsp;분담</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	좋은 일자리가 넘쳐나는 부산</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="좋은 일자리가 넘쳐나는 부산">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;주요내용<br>&nbsp;&nbsp;○&nbsp;'미래&nbsp;성장동력&nbsp;확보'와&nbsp;'노동의&nbsp;질&nbsp;개선'을&nbsp;동시에&nbsp;추구하는&nbsp;입체적&nbsp;전략<br>&nbsp;&nbsp;○&nbsp;해양·항만·물류&nbsp;및&nbsp;첨단&nbsp;제조혁신(AI,&nbsp;바이오),&nbsp;고부가가치&nbsp;서비스업(게임,콘텐츠,&nbsp;MICE)을&nbsp;축으로&nbsp;전략산업&nbsp;생태계&nbsp;구축,&nbsp;미래&nbsp;성장동력&nbsp;일자리&nbsp;기반&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;해양수도&nbsp;완성&nbsp;및&nbsp;도심&nbsp;대전환을&nbsp;연계해&nbsp;북항을&nbsp;중심으로&nbsp;한&nbsp;7대&nbsp;권역&nbsp;거점&nbsp;특성화(해양비즈니스,&nbsp;금융지식벨트&nbsp;등)로&nbsp;양질의&nbsp;일자리를&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;대상자&nbsp;맞춤형&nbsp;지원&nbsp;:&nbsp;여성(해양일자리),&nbsp;청년(지역인재&nbsp;채용&nbsp;확대),&nbsp;시니어(Wisdom&nbsp;Bank)&nbsp;등&nbsp;세대별·계층별&nbsp;맞춤형&nbsp;패키지&nbsp;지원&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;노동존중&nbsp;및&nbsp;사각지대&nbsp;해소&nbsp;:&nbsp;5인&nbsp;미만&nbsp;사업장&nbsp;연차&nbsp;지원,&nbsp;취약노동자&nbsp;유급병가&nbsp;도입&nbsp;및&nbsp;소규모&nbsp;사업장&nbsp;산재&nbsp;예방&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;공공부문&nbsp;모범사용자&nbsp;역할&nbsp;:&nbsp;생활임금&nbsp;확대,&nbsp;상시업무&nbsp;정규직화,&nbsp;동일가치노동&nbsp;동일임금&nbsp;원칙&nbsp;적용<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;고용지표&nbsp;실질적&nbsp;개선:인구감소에&nbsp;따른&nbsp;착시효과&nbsp;극복,&nbsp;15~64세&nbsp;실질고용률·청년정주율&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;일자리&nbsp;질적&nbsp;저하&nbsp;해결:&nbsp;저임금노동자&nbsp;비율&nbsp;감소,&nbsp;장시간노동&nbsp;관행&nbsp;개선,&nbsp;산업재해&nbsp;사고사&nbsp;사망률&nbsp;획기적&nbsp;저감<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;경쟁력&nbsp;강화:&nbsp;청년·핵심인력&nbsp;역외&nbsp;유출&nbsp;방지,&nbsp;부·울·경&nbsp;메가시티&nbsp;경제적&nbsp;통합&nbsp;거점&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;거버넌스·조직&nbsp;혁신:&nbsp;일자리·노동&nbsp;정책&nbsp;컨트롤타워&nbsp;강화,&nbsp;전략산업별&nbsp;산·학·연·관&nbsp;협의체&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;인프라&nbsp;구축:&nbsp;AI영화영상센터(강서구),&nbsp;해양비즈니스&nbsp;클러스터(북항),&nbsp;AI·바이오&nbsp;혁신지구(범천),&nbsp;이스포츠진흥재단&nbsp;유치&nbsp;등&nbsp;산업별&nbsp;앵커&nbsp;시설&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;제도적&nbsp;뒷받침:&nbsp;'해양수도특별법'&nbsp;제정,&nbsp;관련&nbsp;조례&nbsp;정비로&nbsp;정책의&nbsp;지속가능성&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;패키지형&nbsp;지원:&nbsp;인력&nbsp;양성,&nbsp;R&D,&nbsp;창업&nbsp;촉진,&nbsp;사회서비스&nbsp;확충&nbsp;연계&nbsp;'부산형&nbsp;전략사업&nbsp;패키지'&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계(2026년):&nbsp;고용노동국&nbsp;신설,&nbsp;해양수도특별법&nbsp;발의,&nbsp;조례정비&nbsp;및&nbsp;지표&nbsp;재설계(기반&nbsp;구축)<br>&nbsp;&nbsp;○&nbsp;2단계(2027~2028년):&nbsp;권역별&nbsp;특성화&nbsp;사업&nbsp;착공,&nbsp;맞춤형&nbsp;일자리&nbsp;플랫폼&nbsp;구축,&nbsp;시범사업&nbsp;확대(실행,&nbsp;확산)<br>&nbsp;&nbsp;○&nbsp;3단계(2029년~):&nbsp;전략산업별&nbsp;고용성과&nbsp;가시화,&nbsp;공공부문&nbsp;모델&nbsp;민간&nbsp;확산,&nbsp;상시지원체계&nbsp;정착(성과&nbsp;안착)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;확보:&nbsp;중앙정부(문체부,&nbsp;과기부,&nbsp;해수부&nbsp;등)&nbsp;공모사업&nbsp;참여&nbsp;및&nbsp;'5극&nbsp;3특'&nbsp;체계에&nbsp;따른&nbsp;포괄보조금&nbsp;활용&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;시&nbsp;재정&nbsp;최적화:&nbsp;시비와&nbsp;공공기관&nbsp;협력&nbsp;재원을&nbsp;결합하고,&nbsp;불필요한&nbsp;단기&nbsp;수치&nbsp;관리용&nbsp;예산을&nbsp;구조조정하여&nbsp;핵심&nbsp;사업에&nbsp;투입<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;투자&nbsp;유치:&nbsp;도시혁신구역&nbsp;지정&nbsp;및&nbsp;공공기여&nbsp;협상제를&nbsp;통한&nbsp;민간&nbsp;자본&nbsp;유치,&nbsp;공공&nbsp;SPC&nbsp;설립을&nbsp;통한&nbsp;개발이익&nbsp;환류,&nbsp;조세증가분금융(TIF)&nbsp;도입&nbsp;검토</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	동서를 잇고 남북을 열고 세계로 뻗어가는 부산</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="동서를 잇고 남북을 열고 세계로 뻗어가는 부산">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;주요내용<br>&nbsp;&nbsp;○&nbsp;결합된&nbsp;'트라이포트(Tri-Port)'&nbsp;완성&nbsp;및&nbsp;도심&nbsp;공간&nbsp;대전환&nbsp;:&nbsp;가덕도신공항&nbsp;핵심&nbsp;엔진으로&nbsp;&nbsp;부산&nbsp;전역을&nbsp;하나의&nbsp;경제권으로&nbsp;묶고,&nbsp;항만·철도·항공&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신공항&nbsp;조기&nbsp;개항&nbsp;지원,&nbsp;공항&nbsp;배후&nbsp;단지와&nbsp;북항·부산항&nbsp;신항을&nbsp;잇는&nbsp;통합&nbsp;물류&nbsp;거점&nbsp;구축,&nbsp;가덕도신공항&nbsp;기반&nbsp;트라이포트&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신공항과&nbsp;연계된&nbsp;북항(해양비즈니스),&nbsp;부전역(메가스테이션),&nbsp;강서(미래항공·물류)&nbsp;등&nbsp;권역별&nbsp;맞춤형&nbsp;개발로&nbsp;7대&nbsp;권역별&nbsp;거점&nbsp;특화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;가덕도신공항에서&nbsp;부산&nbsp;도심과&nbsp;울산·경남을&nbsp;30~60분&nbsp;내로&nbsp;직결하는&nbsp;광역급행철도(TRX)&nbsp;및&nbsp;신공항&nbsp;배후&nbsp;철도망&nbsp;확충하여&nbsp;초연결&nbsp;교통망(TRX&nbsp;&&nbsp;C-Bay~Park)&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;미래&nbsp;모빌리티&nbsp;혁신&nbsp;:&nbsp;경부선(가야~부산진)&nbsp;지하화&nbsp;및&nbsp;지상부&nbsp;'그린웨이'&nbsp;조성,&nbsp;신공항~도심&nbsp;쾌적한&nbsp;진입&nbsp;환경&nbsp;조성,&nbsp;신공항~북항~이기대&nbsp;해상&nbsp;UAM&nbsp;및&nbsp;MaaS&nbsp;스마트&nbsp;교통&nbsp;시스템&nbsp;구축<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;관문&nbsp;도시&nbsp;도약:&nbsp;부산을&nbsp;세계2위&nbsp;환적항에서&nbsp;세계적인&nbsp;항공&nbsp;물류&nbsp;허브로&nbsp;육성.<br>&nbsp;&nbsp;○&nbsp;남부권&nbsp;경제&nbsp;공동체&nbsp;형성:&nbsp;부울경&nbsp;770만&nbsp;인구&nbsp;연결&nbsp;'30분&nbsp;생활권',&nbsp;초연결&nbsp;경제권&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;산업&nbsp;생태계&nbsp;고도화:&nbsp;항공·해양&nbsp;AI,&nbsp;물류&nbsp;신산업&nbsp;육성,&nbsp;청년선호&nbsp;고부가가치&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;국토&nbsp;균형&nbsp;발전의&nbsp;축:&nbsp;'남부권&nbsp;중추&nbsp;공항'으로서의&nbsp;위상&nbsp;확립&nbsp;및&nbsp;배후&nbsp;도시&nbsp;명소화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;행정·거버넌스&nbsp;통합:&nbsp;가덕도신공항건설공단-부울경광역교통공사&nbsp;협력,&nbsp;신공항&nbsp;접근&nbsp;교통망&nbsp;우선&nbsp;시공<br>&nbsp;&nbsp;○&nbsp;패스트트랙&nbsp;적용:&nbsp;해양수도특별법-가덕도신공항&nbsp;특별법&nbsp;연계,&nbsp;인프라-배후단지&nbsp;조성&nbsp;기간&nbsp;단축<br>&nbsp;&nbsp;○&nbsp;공공주도&nbsp;개발:&nbsp;공공&nbsp;SPC설립&nbsp;및&nbsp;토지임대부&nbsp;방식,&nbsp;북항,&nbsp;신공항&nbsp;배후&nbsp;부지에&nbsp;주택·산업&nbsp;용지&nbsp;공급<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;인프라&nbsp;구축:&nbsp;UAM실증&nbsp;단지&nbsp;및&nbsp;자율주행&nbsp;셔틀&nbsp;등&nbsp;신공항&nbsp;연계&nbsp;차세대&nbsp;교통&nbsp;체계&nbsp;도입<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계(2026~2027년):&nbsp;신공항&nbsp;접근철도-도로망&nbsp;착공,&nbsp;TRX&nbsp;선도사업구역&nbsp;지정,&nbsp;신공항&nbsp;배후&nbsp;도시&nbsp;마스터플랜&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;2단계(2028~2029년):&nbsp;경부선&nbsp;지하화&nbsp;추진,&nbsp;TRX차량&nbsp;도입-신호&nbsp;체계&nbsp;정비,&nbsp;신공항&nbsp;물류단지&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;3단계(2030년&nbsp;이후):&nbsp;가덕도신공항&nbsp;개항&nbsp;연계&nbsp;T-형&nbsp;직결&nbsp;운행체계&nbsp;완성,&nbsp;트라이포트&nbsp;통합&nbsp;물류&nbsp;시스템&nbsp;가동<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;최대&nbsp;확보:&nbsp;가덕도신공항&nbsp;건설&nbsp;및&nbsp;광역철도(TRX)&nbsp;사업에&nbsp;대한&nbsp;국가&nbsp;재정&nbsp;지원(국비&nbsp;70%&nbsp;등)&nbsp;및&nbsp;예타&nbsp;면제&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;개발이익&nbsp;선순환:&nbsp;범천차량기지-신공항&nbsp;배후&nbsp;부지&nbsp;개발&nbsp;수익을&nbsp;도심&nbsp;지하화와&nbsp;연계&nbsp;교통망&nbsp;사업에&nbsp;재투자(교차&nbsp;보전)<br>&nbsp;&nbsp;○&nbsp;블루&nbsp;본드&nbsp;&&nbsp;수익채권:&nbsp;신공항&nbsp;및&nbsp;해양특구의&nbsp;예상&nbsp;세수를&nbsp;담보로&nbsp;하는&nbsp;수익채권&nbsp;발행<br>&nbsp;&nbsp;○&nbsp;포괄보조금:&nbsp;'5극&nbsp;3특'&nbsp;체계에&nbsp;따른&nbsp;부울경&nbsp;특별지방자치단체&nbsp;지원&nbsp;예산&nbsp;활용,&nbsp;민간&nbsp;협력&nbsp;유치</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

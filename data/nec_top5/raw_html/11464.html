@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;유기상 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	농어촌군민 기본소득 500만원 시대 열겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="농어촌군민 기본소득 500만원 시대 열겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            농어업은&nbsp;단순히&nbsp;식량을&nbsp;생산하는&nbsp;기능을&nbsp;넘어&nbsp;토양·수자원·생물&nbsp;다양성을&nbsp;보호하는&nbsp;환경보전역할을&nbsp;하며,&nbsp;농촌&nbsp;지역의&nbsp;경관을&nbsp;형성하고&nbsp;유지며&nbsp;관광&nbsp;및&nbsp;지역경제에도&nbsp;긍정적&nbsp;영향을&nbsp;미치며,&nbsp;지역&nbsp;사회의&nbsp;전통과&nbsp;문화를&nbsp;보존하고,&nbsp;농촌&nbsp;공동체의&nbsp;결속력을&nbsp;강화하는&nbsp;등&nbsp;사회적&nbsp;안정성을&nbsp;기여하는&nbsp;등&nbsp;함과&nbsp;동시에&nbsp;농업의&nbsp;공익적&nbsp;가치는&nbsp;경제적으로도&nbsp;평가될&nbsp;수&nbsp;있습니다.&nbsp;따라서&nbsp;농업의&nbsp;지속성을&nbsp;높이고&nbsp;농촌인구&nbsp;감소를&nbsp;막기&nbsp;위한&nbsp;정책이&nbsp;필요함.&nbsp;<br>&nbsp;인구의&nbsp;90%&nbsp;이상이&nbsp;농어업에&nbsp;종사하는&nbsp;전형적인&nbsp;고창군민에게는&nbsp;안정적인&nbsp;소득원이&nbsp;필요함에&nbsp;따라&nbsp;농어민&nbsp;기본소득에&nbsp;태양광사업에&nbsp;참여하는&nbsp;햇빛소득과&nbsp;해상풍력사업으로&nbsp;배당되는&nbsp;바람소득정책으로&nbsp;군민&nbsp;1인당&nbsp;매년&nbsp;500만원의&nbsp;연금소득을&nbsp;점진적으로&nbsp;추진하여&nbsp;군민이&nbsp;지역을&nbsp;떠나지&nbsp;않고&nbsp;안정적인&nbsp;삶이&nbsp;유지될&nbsp;수&nbsp;있도록&nbsp;하겠습니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;모두가&nbsp;노후&nbsp;걱정없는&nbsp;행복한&nbsp;고창군&nbsp;만들기<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;계획&nbsp;→&nbsp;주민의견수렴&nbsp;및&nbsp;관계기관&nbsp;협의&nbsp;→&nbsp;실행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;중<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;+&nbsp;도비&nbsp;+&nbsp;군비&nbsp;+&nbsp;배당금&nbsp;+&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	소득 30% 올리고, 농어촌·자영업 소득 올리겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="소득 30% 올리고, 농어촌·자영업 소득 올리겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            세계경제가&nbsp;관세·무역정책의&nbsp;다변화에&nbsp;따라&nbsp;농업경제도&nbsp;불확실한&nbsp;상황임.<br>유가상승에&nbsp;편승하여&nbsp;농업생산비가&nbsp;늘어나며,&nbsp;쌀&nbsp;소비&nbsp;감소로&nbsp;수도작&nbsp;위주의&nbsp;우리군은&nbsp;새로운&nbsp;소득원&nbsp;개발과&nbsp;유통구조&nbsp;개선이&nbsp;절실한&nbsp;실정임.<br>&nbsp;&nbsp;새로운&nbsp;농업소득을&nbsp;창출하기&nbsp;위하여&nbsp;쌀&nbsp;대체작목&nbsp;개발에&nbsp;예산을&nbsp;투자하여&nbsp;농민의&nbsp;소득증대방안을&nbsp;강구하겠으며,&nbsp;농민은&nbsp;생산만&nbsp;하고&nbsp;판매는&nbsp;행정에서&nbsp;책임지는&nbsp;시스템을&nbsp;구축하겠으며,<br>&nbsp;&nbsp;농촌인구&nbsp;감소와&nbsp;고령화로&nbsp;인하여&nbsp;생활소비가&nbsp;급격히&nbsp;감소함과&nbsp;동시에&nbsp;코로나&nbsp;19이후&nbsp;건설자재&nbsp;급등과&nbsp;인건비&nbsp;상승으로&nbsp;인한&nbsp;건설경기&nbsp;불황으로&nbsp;소비가&nbsp;위축되어&nbsp;가계가&nbsp;폐업하여&nbsp;공실이&nbsp;많은&nbsp;실정임.<br>&nbsp;소상공인에게&nbsp;AI를&nbsp;접목하여&nbsp;인건비&nbsp;절감할&nbsp;수&nbsp;있도록&nbsp;로봇&nbsp;구입비를&nbsp;지원,&nbsp;택배비&nbsp;및&nbsp;상가&nbsp;임차료&nbsp;등을&nbsp;지원,&nbsp;생활안정자금을&nbsp;융자하여&nbsp;소상공인의&nbsp;영업기반이&nbsp;확립될&nbsp;수&nbsp;있도록&nbsp;하겠습니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농어업인의&nbsp;소득증대방안&nbsp;확충과&nbsp;소상공인의&nbsp;안정적인&nbsp;경제기반&nbsp;구축&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;계획&nbsp;→&nbsp;주민의견수렴&nbsp;및&nbsp;관계기관&nbsp;협의&nbsp;→&nbsp;실행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;중<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;+&nbsp;도비&nbsp;+&nbsp;군비&nbsp;+&nbsp;융자금</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	관광소득 1조원 시대 열겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="관광소득 1조원 시대 열겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            고창군은&nbsp;연간&nbsp;관광객&nbsp;1000만명&nbsp;방문의&nbsp;시대를&nbsp;열어&nbsp;많은&nbsp;관광객이&nbsp;방문하고&nbsp;있으나,&nbsp;관광객이&nbsp;장기간&nbsp;머무르며&nbsp;지역의&nbsp;문화,&nbsp;음식,&nbsp;자연등을&nbsp;깊이&nbsp;경험하는&nbsp;체류형&nbsp;관광&nbsp;형태로&nbsp;전환되지&nbsp;못하고&nbsp;지나가는&nbsp;형태를&nbsp;벗어나지&nbsp;못하는&nbsp;실정으로&nbsp;세계문화유산을&nbsp;7개나&nbsp;보유한&nbsp;우리군의&nbsp;관광소득이&nbsp;지역경제에&nbsp;미치는&nbsp;효과는&nbsp;미미한&nbsp;실정임.<br>&nbsp;고창을&nbsp;찾아&nbsp;체류하는&nbsp;관광객이&nbsp;반값&nbsp;관광을&nbsp;할&nbsp;수&nbsp;있도록&nbsp;소비금액의&nbsp;일정액을&nbsp;지원해&nbsp;주고,&nbsp;전주한옥마을의&nbsp;성공모델을&nbsp;우리군에&nbsp;반영하고,&nbsp;자연환경이&nbsp;아름다운&nbsp;우리군의&nbsp;장점을&nbsp;살려&nbsp;새로운&nbsp;여행트렌드를&nbsp;개발하고,&nbsp;농촌&nbsp;맛집을&nbsp;조성하며,&nbsp;바다와&nbsp;내륙을&nbsp;연결하는&nbsp;관광상품&nbsp;개발과&nbsp;노을대교&nbsp;개통에&nbsp;대비한&nbsp;주변&nbsp;관광지를&nbsp;개발함으로써&nbsp;지역경제활성화와&nbsp;삶의&nbsp;질을&nbsp;함께&nbsp;높일&nbsp;수&nbsp;있도록&nbsp;할&nbsp;것입니다.&nbsp;<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;관광객&nbsp;1인이&nbsp;20만원&nbsp;이상&nbsp;소비하는&nbsp;관광도시&nbsp;개발<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;계획&nbsp;→&nbsp;주민의견수렴&nbsp;및&nbsp;관계기관&nbsp;협의&nbsp;→&nbsp;실행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;중<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;+&nbsp;도비&nbsp;+&nbsp;군비&nbsp;+&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	건강소득 지급하는 생활체육도시 만들겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="건강소득 지급하는 생활체육도시 만들겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            군민의&nbsp;건강을&nbsp;보장하고&nbsp;건강수준을&nbsp;높이며,&nbsp;100세&nbsp;시대에&nbsp;노인장기요양으로&nbsp;어르신이&nbsp;노후를&nbsp;안심하고&nbsp;살&nbsp;수&nbsp;있도록&nbsp;어려운&nbsp;가정에&nbsp;의료비&nbsp;부담으로&nbsp;어려움을&nbsp;겪지&nbsp;않고&nbsp;꼭&nbsp;필요한&nbsp;의료서비스를&nbsp;충분히&nbsp;받을&nbsp;수&nbsp;있도록&nbsp;하고&nbsp;의료비를&nbsp;지원하고,&nbsp;<br>&nbsp;맨발걷기&nbsp;코스&nbsp;개발,&nbsp;파크골프장&nbsp;확충&nbsp;및&nbsp;정비,&nbsp;스마트워치&nbsp;지원,&nbsp;노후된&nbsp;운동기구&nbsp;정비&nbsp;등으로&nbsp;군민의&nbsp;건강증진&nbsp;인프라를&nbsp;구축하겠으며,&nbsp;<br>&nbsp;온천+걷기+칼리지+건강식단을&nbsp;개발하여&nbsp;고창형&nbsp;치유힐링&nbsp;프로그램을&nbsp;도입하겠습니다.&nbsp;<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;안전하고&nbsp;건강한&nbsp;도시&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;계획&nbsp;→&nbsp;주민의견수렴&nbsp;및&nbsp;관계기관&nbsp;협의&nbsp;→&nbsp;실행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;중<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;+&nbsp;도비&nbsp;+&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	고창을 더 고창답게 만들겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="고창을 더 고창답게 만들겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            유네스코가&nbsp;지정한&nbsp;세계유산&nbsp;7가지를&nbsp;가진&nbsp;우리&nbsp;군의&nbsp;장점과&nbsp;석정온천과&nbsp;지역의&nbsp;상생의&nbsp;정체성을&nbsp;강화하고,&nbsp;재해석하여&nbsp;새로운&nbsp;브랜드를&nbsp;개발하여&nbsp;더욱&nbsp;독보적으로&nbsp;만들어&nbsp;세계인이&nbsp;부러운&nbsp;고창을&nbsp;더&nbsp;고창답게&nbsp;만들겠습니다.<br>&nbsp;7개의&nbsp;세계유산&nbsp;보물을&nbsp;보유한&nbsp;고창군은&nbsp;국내에서&nbsp;유일한&nbsp;도시로서의&nbsp;브랜드를&nbsp;강화하고,&nbsp;단순히&nbsp;보고&nbsp;스치는&nbsp;관광이&nbsp;아닌&nbsp;갯벌에서&nbsp;직접&nbsp;자연을&nbsp;느끼는&nbsp;체험프로그램을&nbsp;확대&nbsp;재생산하고,&nbsp;생물&nbsp;다양성을&nbsp;연구·교육하는&nbsp;거점으로&nbsp;육성하여&nbsp;생태교육을&nbsp;타&nbsp;지역과&nbsp;차별화하고,&nbsp;풍천장어·복분자·수박&nbsp;등&nbsp;기존의&nbsp;먹거리를&nbsp;고창만의&nbsp;장점으로&nbsp;재개발하고,&nbsp;경관농업을&nbsp;확대&nbsp;개발하여&nbsp;자연과&nbsp;환경&nbsp;및&nbsp;테마가&nbsp;있는&nbsp;고창&nbsp;이미지를&nbsp;개발하여&nbsp;방문하는&nbsp;관광객이&nbsp;내&nbsp;고향보다&nbsp;더&nbsp;고향&nbsp;같은&nbsp;정과&nbsp;환대문화를&nbsp;조성하겠습니다.&nbsp;<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;“내가&nbsp;가장&nbsp;살고&nbsp;싶은&nbsp;지역은&nbsp;고창이다”라는&nbsp;도시육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;계획&nbsp;→&nbsp;주민의견수렴&nbsp;및&nbsp;관계기관&nbsp;협의&nbsp;→&nbsp;실행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;중<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;+&nbsp;도비&nbsp;+&nbsp;군비&nbsp;+&nbsp;민자</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

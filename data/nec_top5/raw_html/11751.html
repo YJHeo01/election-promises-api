@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;강부송 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	머무는 영덕(칠보산 ‘삼성숲’ 조성,워케이션 도시 구축)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="머무는 영덕(칠보산 ‘삼성숲’ 조성,워케이션 도시 구축)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;칠보산&nbsp;일대에&nbsp;삼성그룹&nbsp;ESG&nbsp;협력형&nbsp;‘삼성&nbsp;숲’을&nbsp;조성하여&nbsp;영덕을&nbsp;대한민국&nbsp;대표&nbsp;산림치유·체류형&nbsp;관광도시로&nbsp;육성하고,&nbsp;청년&nbsp;유입과&nbsp;지역경제&nbsp;활성화를&nbsp;실현하고자&nbsp;함.&nbsp;<br>&nbsp;&nbsp;칠보산&nbsp;일대는&nbsp;과거&nbsp;삼성그룹이&nbsp;‘삼성&nbsp;수목원’&nbsp;조성을&nbsp;위해&nbsp;부지를&nbsp;매입했던&nbsp;지역으로,&nbsp;군민들은&nbsp;지역&nbsp;발전에&nbsp;대한&nbsp;기대를&nbsp;가졌음.&nbsp;그러나&nbsp;현재는&nbsp;삼성&nbsp;연수원&nbsp;중심으로&nbsp;운영되며&nbsp;지역&nbsp;연계&nbsp;효과가&nbsp;제한적인&nbsp;상황임.&nbsp;본&nbsp;공약은&nbsp;삼성&nbsp;ESG&nbsp;경영과&nbsp;연계해&nbsp;화담숲&nbsp;형&nbsp;숲&nbsp;관광모델을&nbsp;조성하여&nbsp;관광&nbsp;활성화와&nbsp;청년&nbsp;유입,&nbsp;지역경제&nbsp;회복을&nbsp;추진하고자&nbsp;함.<br><br>□&nbsp;사업개요<br>&nbsp;&nbsp;보산&nbsp;‘삼성&nbsp;숲’&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;화담숲&nbsp;형&nbsp;숲길·테마정원&nbsp;조성&nbsp;산림치유·명상센터&nbsp;구축<br>&nbsp;&nbsp;체류형&nbsp;숙박시설&nbsp;및&nbsp;힐링&nbsp;관광&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;삼성&nbsp;연수원과&nbsp;지역&nbsp;관광&nbsp;연계&nbsp;확대<br>&nbsp;&nbsp;고래불&nbsp;워케이션&nbsp;거점&nbsp;및&nbsp;스마트&nbsp;공유&nbsp;오피스&nbsp;조성<br>&nbsp;&nbsp;청년&nbsp;원격근무·창업·정착&nbsp;지원&nbsp;확대<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;삼성&nbsp;그룹과&nbsp;ESG&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;삼성&nbsp;연수원·칠보산&nbsp;관광&nbsp;연계&nbsp;모델&nbsp;개발<br>&nbsp;&nbsp;화담숲&nbsp;벤치마킹&nbsp;산림&nbsp;관광&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;산림청·경상북도&nbsp;공모&nbsp;사업&nbsp;유치<br>&nbsp;&nbsp;민간투자&nbsp;및&nbsp;기업&nbsp;사회&nbsp;공헌&nbsp;사업&nbsp;연계<br>&nbsp;&nbsp;청년&nbsp;워케이션·창업지원&nbsp;정책&nbsp;병행&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;단기(2026~2027)<br>&nbsp;&nbsp;&nbsp;&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;협력&nbsp;추진<br>&nbsp;&nbsp;중기(2027~2029)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;숲길·정원·체류&nbsp;시설&nbsp;조성<br>&nbsp;&nbsp;장기(2030년&nbsp;이후)<br>&nbsp;&nbsp;&nbsp;&nbsp;산림&nbsp;관광&nbsp;브랜드&nbsp;정착&nbsp;및&nbsp;확대<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;삼성&nbsp;그룹&nbsp;ESG&nbsp;사회&nbsp;공헌&nbsp;협력사업<br>&nbsp;&nbsp;산림청&nbsp;산림&nbsp;관광·치유&nbsp;사업&nbsp;국비<br>&nbsp;&nbsp;민간투자&nbsp;및&nbsp;군비&nbsp;일부&nbsp;매칭<br><br>□&nbsp;기대효과<br>&nbsp;&nbsp;영덕&nbsp;대표&nbsp;산림관광&nbsp;랜드마크&nbsp;조성<br>&nbsp;&nbsp;체류형&nbsp;관광객&nbsp;증가&nbsp;및&nbsp;지역&nbsp;상권&nbsp;활성화<br>&nbsp;&nbsp;청년&nbsp;유입&nbsp;및&nbsp;워케이션&nbsp;산업&nbsp;확대<br>&nbsp;&nbsp;기업&nbsp;ESG&nbsp;협력을&nbsp;통한&nbsp;지역&nbsp;상생&nbsp;실현</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	청정관광 영덕 (오십천 국가정원 + 지역소득 관광 육성)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="청정관광 영덕 (오십천 국가정원 + 지역소득 관광 육성)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;오십천&nbsp;생태&nbsp;자원을&nbsp;활용한&nbsp;국가정원&nbsp;기반을&nbsp;조성하여&nbsp;관광객&nbsp;체류시간을&nbsp;늘리고,&nbsp;농어민&nbsp;소득과&nbsp;연계되는&nbsp;지역&nbsp;순환형&nbsp;관광&nbsp;경제를&nbsp;구축하고자&nbsp;함.<br><br>□&nbsp;사업&nbsp;개요<br>&nbsp;&nbsp;오십천&nbsp;생태복원&nbsp;및&nbsp;테마정원&nbsp;조성&nbsp;지방&nbsp;정원&nbsp;등록&nbsp;및&nbsp;<br>&nbsp;&nbsp;국가정원&nbsp;승격&nbsp;추진&nbsp;문화·공연·지역&nbsp;먹거리&nbsp;연계&nbsp;관광&nbsp;활성화<br>&nbsp;&nbsp;농어민&nbsp;참여형&nbsp;체험관광&nbsp;확대&nbsp;<br>&nbsp;&nbsp;지역&nbsp;특산물&nbsp;브랜드화&nbsp;및&nbsp;직거래&nbsp;활성화<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;환경부·산림청&nbsp;국가정원&nbsp;정책&nbsp;연계<br>&nbsp;&nbsp;지방&nbsp;정원&nbsp;등록&nbsp;추진위원회&nbsp;구성<br>&nbsp;&nbsp;주민&nbsp;참여형&nbsp;관광협의체&nbsp;운영<br>&nbsp;&nbsp;지역축제·먹거리·체험관광&nbsp;통합&nbsp;개발<br>&nbsp;&nbsp;농어민·소상공인&nbsp;연계&nbsp;관광상품&nbsp;개발<br><br>□&nbsp;이행&nbsp;기간&nbsp;<br>&nbsp;&nbsp;단기(2026~2027)<br>&nbsp;&nbsp;&nbsp;&nbsp;기본구상&nbsp;및&nbsp;지방&nbsp;정원&nbsp;등록&nbsp;추진<br>&nbsp;&nbsp;중기(2027~2029)<br>&nbsp;&nbsp;&nbsp;&nbsp;정원·관광&nbsp;인프라&nbsp;조성&nbsp;<br>&nbsp;&nbsp;장기(2030&nbsp;이후)<br>&nbsp;&nbsp;&nbsp;&nbsp;국가정원&nbsp;승격&nbsp;추진&nbsp;및&nbsp;관광&nbsp;브랜드&nbsp;정착<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안<br>&nbsp;&nbsp;환경부&nbsp;생태복원&nbsp;사업<br>&nbsp;&nbsp;지방&nbsp;정원&nbsp;조성&nbsp;국·도비&nbsp;지원<br>&nbsp;&nbsp;문화체육관광부&nbsp;관광개발&nbsp;사업&nbsp;지방소멸대응기금,&nbsp;군비&nbsp;매칭<br><br>□&nbsp;기대효과<br>&nbsp;&nbsp;관광객&nbsp;증가&nbsp;및&nbsp;체류형&nbsp;소비&nbsp;확대<br>&nbsp;&nbsp;농어민&nbsp;소득&nbsp;증대<br>&nbsp;&nbsp;지역&nbsp;특산물&nbsp;판매&nbsp;확대<br>&nbsp;&nbsp;영덕&nbsp;관광&nbsp;브랜드&nbsp;가치&nbsp;상승</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	에너지 영덕 (햇빛·바람 연금 + 군민소득 확대)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="에너지 영덕 (햇빛·바람 연금 + 군민소득 확대)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;풍력·태양광&nbsp;에너지&nbsp;수익을&nbsp;군민과&nbsp;공유하는&nbsp;영덕&nbsp;형&nbsp;에너지&nbsp;소득&nbsp;모델을&nbsp;구축하여&nbsp;군민&nbsp;기본소득&nbsp;기반을&nbsp;마련하고자&nbsp;함.<br><br>□&nbsp;사업&nbsp;개요<br>&nbsp;&nbsp;풍력·태양광&nbsp;수익&nbsp;주민&nbsp;배당제&nbsp;도입<br>&nbsp;&nbsp;영덕&nbsp;형&nbsp;에너지&nbsp;수익&nbsp;환원&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;제2변전소&nbsp;조기&nbsp;준공&nbsp;추진<br>&nbsp;&nbsp;에너지&nbsp;특화&nbsp;지구&nbsp;및&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;청년·농어민&nbsp;추가&nbsp;인센티브&nbsp;지원<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;주민&nbsp;참여형&nbsp;에너지&nbsp;개발&nbsp;모델&nbsp;구축<br>&nbsp;&nbsp;한국전력&nbsp;협력&nbsp;강화<br>&nbsp;&nbsp;에너지&nbsp;기업&nbsp;투자유치&nbsp;추진<br>&nbsp;&nbsp;발전&nbsp;수익&nbsp;공유제도&nbsp;마련<br>&nbsp;&nbsp;군민&nbsp;참여형&nbsp;기금&nbsp;운영체계&nbsp;구축<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;단기(2026~2027)<br>&nbsp;&nbsp;&nbsp;&nbsp;조례&nbsp;제정&nbsp;및&nbsp;사업&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;중기(2027~2029)<br>&nbsp;&nbsp;&nbsp;&nbsp;에너지&nbsp;특화사업&nbsp;확대&nbsp;및&nbsp;수익배당&nbsp;추진<br>&nbsp;&nbsp;장기(2030&nbsp;이후)<br>&nbsp;&nbsp;&nbsp;&nbsp;군민&nbsp;기본소득&nbsp;연계&nbsp;확대<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안<br>&nbsp;&nbsp;민간&nbsp;발전사업&nbsp;투자<br>&nbsp;&nbsp;산업통상자원부&nbsp;에너지&nbsp;사업&nbsp;지원<br>&nbsp;&nbsp;발전사업&nbsp;지역&nbsp;상생&nbsp;기금&nbsp;활용<br>&nbsp;&nbsp;지방재정&nbsp;일부&nbsp;매칭<br><br>□&nbsp;기대효과<br>&nbsp;&nbsp;군민&nbsp;에너지&nbsp;소득&nbsp;확대<br>&nbsp;&nbsp;청년·농어민&nbsp;소득&nbsp;안정<br>&nbsp;&nbsp;기업&nbsp;유치&nbsp;및&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;지역경제&nbsp;선순환&nbsp;구조&nbsp;구축</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	연결하는 영덕 의성-영덕 철도 + 물류·일자리 혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="연결하는 영덕 의성-영덕 철도 + 물류·일자리 혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;동서&nbsp;철도망과&nbsp;통합&nbsp;신공항&nbsp;연계&nbsp;교통망&nbsp;구축을&nbsp;통해&nbsp;영덕&nbsp;접근성을&nbsp;높이고&nbsp;산업·물류·관광&nbsp;경쟁력을&nbsp;강화하고자&nbsp;함.<br><br>□&nbsp;사업&nbsp;개요<br>&nbsp;&nbsp;의성~영덕&nbsp;동서&nbsp;연결&nbsp;철도&nbsp;추진<br>&nbsp;&nbsp;통합&nbsp;신공항&nbsp;연계&nbsp;교통망&nbsp;구축<br>&nbsp;&nbsp;역세권&nbsp;개발&nbsp;및&nbsp;상권&nbsp;활성화<br>&nbsp;&nbsp;농수산물&nbsp;물류체계&nbsp;개선<br>&nbsp;&nbsp;청년&nbsp;일자리&nbsp;기반&nbsp;확대<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;국가철도망&nbsp;계획&nbsp;반영&nbsp;건의<br>&nbsp;&nbsp;중앙정부·경북도&nbsp;공동&nbsp;대응<br>&nbsp;&nbsp;국회의원·관계&nbsp;기관&nbsp;협력&nbsp;강화<br>&nbsp;&nbsp;물류기업&nbsp;및&nbsp;산업단지&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;역세권&nbsp;도시개발계획&nbsp;수립<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;단기(2026~2027)<br>&nbsp;&nbsp;&nbsp;&nbsp;국가계획&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;중기(2027~2030)<br>&nbsp;&nbsp;&nbsp;&nbsp;기본조사&nbsp;및&nbsp;사업&nbsp;추진&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;장기(2030&nbsp;이후)<br>&nbsp;&nbsp;&nbsp;&nbsp;단계별&nbsp;사업&nbsp;추진<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안<br>&nbsp;&nbsp;국가철도망&nbsp;구축&nbsp;사업&nbsp;국비<br>&nbsp;&nbsp;국토교통부&nbsp;SOC&nbsp;사업<br>&nbsp;&nbsp;경상북도&nbsp;광역&nbsp;교통&nbsp;예산<br>&nbsp;&nbsp;민간개발&nbsp;투자&nbsp;유치<br><br>□&nbsp;기대&nbsp;효과<br>&nbsp;&nbsp;교통&nbsp;접근성&nbsp;향상<br>&nbsp;&nbsp;물류비&nbsp;절감&nbsp;및&nbsp;산업&nbsp;활성화<br>&nbsp;&nbsp;관광객&nbsp;증가<br>&nbsp;&nbsp;청년&nbsp;일자리&nbsp;확대</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	살고 싶은 영덕(기본소득 + 농어민·청년 정착 지원)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="살고 싶은 영덕(기본소득 + 농어민·청년 정착 지원)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;농어촌&nbsp;기본소득과&nbsp;청년&nbsp;정착&nbsp;지원을&nbsp;통해&nbsp;인구&nbsp;감소&nbsp;문제를&nbsp;해결하고&nbsp;지속가능한&nbsp;지역공동체를&nbsp;구축하고자&nbsp;함.<br><br>□&nbsp;사업&nbsp;개요<br>&nbsp;&nbsp;영덕&nbsp;형&nbsp;농어촌&nbsp;기본소득&nbsp;도입<br>&nbsp;&nbsp;지역화폐&nbsp;기반&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;청년&nbsp;농어업인&nbsp;정착&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;재해·보험·판로&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;스마트&nbsp;농어업&nbsp;전환&nbsp;지원<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;단계별&nbsp;기본소득&nbsp;시범&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;지역화폐&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;청년&nbsp;정착&nbsp;지원&nbsp;조례&nbsp;개정<br>&nbsp;&nbsp;농어업&nbsp;재해&nbsp;안전망&nbsp;확대<br>&nbsp;&nbsp;스마트농업&nbsp;교육·장비&nbsp;지원<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;단기(2026~2027)<br>&nbsp;&nbsp;&nbsp;&nbsp;제도&nbsp;설계&nbsp;및&nbsp;시범&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;중기(2027~2029)<br>&nbsp;&nbsp;&nbsp;&nbsp;지원&nbsp;사업&nbsp;확대<br>&nbsp;&nbsp;장기(2030&nbsp;이후)<br>&nbsp;&nbsp;&nbsp;&nbsp;지속&nbsp;가능한&nbsp;기본소득&nbsp;체계&nbsp;구축<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안<br>&nbsp;&nbsp;지방소멸대응기금<br>&nbsp;&nbsp;농림축산식품부·해양수산부&nbsp;지원사업<br>&nbsp;&nbsp;지역에너지&nbsp;수익&nbsp;연계&nbsp;재원<br>&nbsp;&nbsp;지방교부세&nbsp;및&nbsp;군비&nbsp;활용<br><br>□&nbsp;기대&nbsp;효과<br>&nbsp;&nbsp;청년·농어민&nbsp;정착&nbsp;확대<br>&nbsp;&nbsp;지역경제&nbsp;소비&nbsp;활성화<br>&nbsp;&nbsp;인구&nbsp;유출&nbsp;감소<br>&nbsp;&nbsp;지속&nbsp;가능한&nbsp;농어촌&nbsp;기반&nbsp;구축</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

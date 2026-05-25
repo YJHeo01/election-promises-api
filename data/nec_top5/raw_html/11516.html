@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;남명우 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	농어촌소득의 획기적 증대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="농어촌소득의 획기적 증대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            첫째&nbsp;농어촌소득의&nbsp;획기적증대&nbsp;입니다.<br><br>목&nbsp;표:&nbsp;전국&nbsp;평균&nbsp;이상의&nbsp;획기적&nbsp;농가소득&nbsp;달성<br><br>이행방법:&nbsp;갈사만&nbsp;매립지&nbsp;대단지&nbsp;생산시설,&nbsp;가공&nbsp;유통&nbsp;시스템,&nbsp;13개의&nbsp;읍면의&nbsp;생산,&nbsp;가공&nbsp;그리고&nbsp;유통&nbsp;시스템.<br><br>이행기간:&nbsp;2026년부터&nbsp;시작<br><br>재원조달방안&nbsp;등:&nbsp;투자자,&nbsp;행정.&nbsp;우리하동은&nbsp;농촌지역입니다.&nbsp;농어업이&nbsp;융성해져야합니다.&nbsp;농어업인이&nbsp;잘살게&nbsp;되면&nbsp;타&nbsp;산업도&nbsp;함께&nbsp;융성해지는&nbsp;것입니다.&nbsp;농업소득을&nbsp;증대시키는&nbsp;구체적인&nbsp;방안을&nbsp;실현시켜서&nbsp;선진농업지역으로&nbsp;발돋움&nbsp;시킬것입니다.&nbsp;농업소득의&nbsp;회기적&nbsp;증가는&nbsp;섬진강의&nbsp;기적과&nbsp;복지농어촌의&nbsp;중심.&nbsp;하동이&nbsp;되는&nbsp;지름길입니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	농어촌 관광의 활성화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="농어촌 관광의 활성화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            둘째,&nbsp;농어촌&nbsp;관광의&nbsp;활성화&nbsp;입니다.<br><br>목&nbsp;표:&nbsp;최고의&nbsp;농촌&nbsp;광관지로서&nbsp;머물고가는&nbsp;고장으로&nbsp;탈바꿈<br><br>이행방법:&nbsp;우리하동은&nbsp;천혜의&nbsp;관광자원이&nbsp;곳곳에&nbsp;널려있습니다.&nbsp;저는&nbsp;이&nbsp;자원을&nbsp;활성화시켜서&nbsp;관광객들이&nbsp;머물고&nbsp;갈&nbsp;수&nbsp;있도록&nbsp;할&nbsp;것입니다.&nbsp;그&nbsp;종착엔&nbsp;하동종합시장이&nbsp;있습니다.<br><br>1.&nbsp;화개.&nbsp;악양.&nbsp;청암.&nbsp;옥종.&nbsp;북천.&nbsp;횡천.&nbsp;적량을&nbsp;거쳐&nbsp;하동종합시장&nbsp;셔틀버스로&nbsp;화개&nbsp;화개장터&nbsp;화개차생산&nbsp;유통시설&nbsp;악양의&nbsp;평사리.&nbsp;삼한시대토성(솔바위.회치바위).상신마을(화사별서).회남재.&nbsp;청암의&nbsp;청학동.&nbsp;삼성궁&nbsp;옥종의&nbsp;궁항계곡&nbsp;북천&nbsp;횡천&nbsp;적량을&nbsp;거쳐&nbsp;하동종합시장까지.&nbsp;*악양뜰을&nbsp;장미.국화대단지&nbsp;조성.&nbsp;축제<br>2.&nbsp;진교.금남.금성.고전.양보.&nbsp;거쳐&nbsp;하동종합시장까지<br><br>이행기간:&nbsp;2026년부터&nbsp;시작<br>재원조달방안&nbsp;등:&nbsp;투자자,&nbsp;행정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	갈사만의 중장기적 발전전략</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="갈사만의 중장기적 발전전략">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            셋째,&nbsp;갈사만의&nbsp;중장기적&nbsp;발전전략&nbsp;입니다.<br><br>목&nbsp;표:&nbsp;갈사만지역을&nbsp;남해안&nbsp;벤트의&nbsp;중심도시로.<br><br>이행방법:&nbsp;저는&nbsp;종합적인&nbsp;전략을&nbsp;가지고&nbsp;있습니다.&nbsp;갈사만.대송단지.두우산&nbsp;그리고&nbsp;덕천지역등을&nbsp;묶은&nbsp;약&nbsp;1,155만㎡(350만평)을&nbsp;함께&nbsp;개발하여&nbsp;남해안&nbsp;중심도시로&nbsp;만들&nbsp;전략을&nbsp;가지고&nbsp;있습니다.&nbsp;두우단지-레저시설.콘도등숙소,&nbsp;초중등학생유치시설&nbsp;갈사매립지:&nbsp;대단지농업시설.&nbsp;조선기자재생산시설&nbsp;대송산단:&nbsp;2차전지등&nbsp;시설&nbsp;덕천:&nbsp;토치장.&nbsp;신도시부지<br><br>이행기간:&nbsp;2026년부터&nbsp;7년&nbsp;정도의&nbsp;기반조성<br><br>재원조달방안&nbsp;등:&nbsp;투자자,&nbsp;행정.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	하동종합시장의 활성화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="하동종합시장의 활성화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            넷째는&nbsp;하동종합시장의&nbsp;활성화&nbsp;입니다.<br><br>목&nbsp;표:&nbsp;하동시장이&nbsp;하동발전의&nbsp;심장역할<br><br>이행방법:&nbsp;<br>&nbsp;&nbsp;가.&nbsp;민관합동&nbsp;개발로&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;하동시장을&nbsp;명실상부한&nbsp;상설시장으로&nbsp;전환&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;하동농어특산물의&nbsp;집산지&nbsp;역할하는&nbsp;영어영농주식회사&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;기존&nbsp;상인분들은&nbsp;주식회사의&nbsp;중요한&nbsp;주주로&nbsp;참여토록&nbsp;함.<br><br>&nbsp;&nbsp;나.&nbsp;재개발&nbsp;추진일정은&nbsp;법적인&nbsp;문제가&nbsp;허락된다면&nbsp;임기시작과&nbsp;동시에&nbsp;추진.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;지금&nbsp;로드맵은&nbsp;시기상조이며&nbsp;참여자들이&nbsp;적극&nbsp;논의해서&nbsp;추진.<br><br>이행기간:&nbsp;2026년부터&nbsp;시작.<br><br>재원조달방안&nbsp;등:&nbsp;투자자,&nbsp;행정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	정이 넘치고 활력있는 하동 만들기</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="정이 넘치고 활력있는 하동 만들기">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            다섯째는&nbsp;정이&nbsp;넘치고&nbsp;활력있는&nbsp;하동&nbsp;만들기&nbsp;입니다.<br><br>목&nbsp;표:&nbsp;정이&nbsp;넘치고&nbsp;활력있는&nbsp;지역&nbsp;인생후반을&nbsp;안락하게&nbsp;생활할&nbsp;수&nbsp;있는&nbsp;최적지로&nbsp;만들기<br><br>이행방법:&nbsp;남녀노소가&nbsp;서로&nbsp;이해하고&nbsp;돕는&nbsp;분위기&nbsp;조성과&nbsp;친절교육병행<br><br>이행기간:&nbsp;항상<br><br>재원조달방안&nbsp;등:&nbsp;행정주도</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

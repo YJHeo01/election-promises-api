@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;차영수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	AI·에너지·연구 산업 확충을 통한 미래산업거점 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="AI·에너지·연구 산업 확충을 통한 미래산업거점 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □목&nbsp;표<br>○&nbsp;AI데이터센터·전남연구원·RE100&nbsp;산단을&nbsp;연계한&nbsp;강진&nbsp;미래산업거점&nbsp;조성<br><br>□&nbsp;이행방법<br>○&nbsp;AI&nbsp;데이터센터&nbsp;:&nbsp;병영댐&nbsp;건설을&nbsp;중앙정부·전남도&nbsp;건의사업으로&nbsp;추진하고,&nbsp;데이터센터&nbsp;입지&nbsp;전력·통신·용수·재해안전성&nbsp;타당성조사&nbsp;실시<br>○&nbsp;연구거점&nbsp;:&nbsp;구&nbsp;성화대&nbsp;일원,&nbsp;강진산단,&nbsp;성전권&nbsp;유휴부지를&nbsp;후보지로&nbsp;검토해&nbsp;전남연구원&nbsp;이전&nbsp;또는&nbsp;남부권&nbsp;분원·상주형&nbsp;연구캠퍼스&nbsp;유치<br>○&nbsp;개방&nbsp;연구캠퍼스&nbsp;:&nbsp;AI교육,&nbsp;창업지원,&nbsp;기후테크,&nbsp;농수산&nbsp;데이터,&nbsp;관광·지역정책&nbsp;연구&nbsp;기능을&nbsp;결합<br>○&nbsp;RE100&nbsp;산단&nbsp;:&nbsp;성전권&nbsp;산업입지에&nbsp;태양광·ESS·전력관리시스템·전력구매계약&nbsp;모델을&nbsp;도입하고,&nbsp;기후테크·AI·저탄소&nbsp;제조기업을&nbsp;우선&nbsp;유치<br><br>□&nbsp;이행기간<br>○&nbsp;2026년&nbsp;:&nbsp;병영댐·데이터센터&nbsp;입지&nbsp;조성&nbsp;계획&nbsp;수립,&nbsp;전남연구원&nbsp;이전&nbsp;협의체&nbsp;구성,&nbsp;RE100&nbsp;산단&nbsp;기본계획&nbsp;수립/&nbsp;2027~2028년:&nbsp;연구캠퍼스&nbsp;조성&nbsp;착수,&nbsp;데이터센터&nbsp;민간투자&nbsp;유치,&nbsp;RE100&nbsp;산단&nbsp;시범사업&nbsp;공모&nbsp;신청/2029~2030년:&nbsp;연구기관·기업&nbsp;입주,&nbsp;재생에너지&nbsp;기반&nbsp;산업단지&nbsp;운영,&nbsp;AI·기후테크&nbsp;산업&nbsp;생태계&nbsp;정착<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;총사업비&nbsp;약&nbsp;543억&nbsp;원&nbsp;공공재정&nbsp;투입&nbsp;및&nbsp;민간투자&nbsp;유치<br>-&nbsp;국비·기금&nbsp;190억&nbsp;원(35%)&nbsp;+&nbsp;도비&nbsp;170억&nbsp;원(31%)&nbsp;+&nbsp;군비&nbsp;115억&nbsp;원(21%)&nbsp;+&nbsp;민자·대학·출연기관&nbsp;68억&nbsp;원(13%)<br>-&nbsp;AI&nbsp;데이터센터,&nbsp;재생에너지·ESS,&nbsp;민간&nbsp;물류·관광시설은&nbsp;민간투자&nbsp;방식&nbsp;병행<br>*데이터센터&nbsp;준공&nbsp;예산은&nbsp;민간&nbsp;사업으로&nbsp;별도&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	농어촌 기본소득 및 군민참여 재생에너지 이익공유제 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="농어촌 기본소득 및 군민참여 재생에너지 이익공유제 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;기본소득·지역화폐·주민참여&nbsp;태양광을&nbsp;결합한&nbsp;농어촌&nbsp;소득안전망&nbsp;구축<br><br>□&nbsp;이행방법<br>○&nbsp;강진형&nbsp;농어촌&nbsp;기본소득&nbsp;시범사업으로&nbsp;우선&nbsp;추진하고,&nbsp;지급수단은&nbsp;모바일·카드형&nbsp;강진사랑상품권&nbsp;활용(월&nbsp;15만&nbsp;원)<br>○&nbsp;기본소득&nbsp;소비처는&nbsp;전통시장,&nbsp;농협·로컬푸드,&nbsp;음식점,&nbsp;생활서비스업,&nbsp;교통·돌봄서비스&nbsp;등&nbsp;생활밀착&nbsp;업종으로&nbsp;확대<br>○&nbsp;주민&nbsp;수익&nbsp;공유형&nbsp;태양광은&nbsp;햇빛소득마을&nbsp;사업,&nbsp;마을협동조합,&nbsp;주민참여펀드,&nbsp;공공부지&nbsp;임대&nbsp;등&nbsp;방식을&nbsp;결합<br>○&nbsp;발전수익은&nbsp;①참여&nbsp;주민&nbsp;배당,&nbsp;②마을공동기금,&nbsp;③취약계층&nbsp;에너지복지,&nbsp;④마을&nbsp;돌봄·교통·복지사업&nbsp;재원으로&nbsp;배분<br>○&nbsp;햇빛소득&nbsp;마을은&nbsp;공공시설,&nbsp;마을회관,&nbsp;유휴부지,&nbsp;영농형&nbsp;태양광&nbsp;가능&nbsp;부지를&nbsp;우선&nbsp;검토하고,&nbsp;초기&nbsp;자부담은&nbsp;군·도비&nbsp;출자와&nbsp;중앙정부&nbsp;저리융자로&nbsp;완화&nbsp;<br>○&nbsp;강진군&nbsp;신재생에너지&nbsp;융복합지원사업&nbsp;(총&nbsp;42억&nbsp;원&nbsp;규모)의&nbsp;태양광·태양열·지열&nbsp;설치&nbsp;지원을&nbsp;햇빛소득&nbsp;마을&nbsp;사업&nbsp;등으로&nbsp;조정&nbsp;검토<br><br>□&nbsp;이행기간<br>○&nbsp;2026년:&nbsp;농어촌&nbsp;기본소득&nbsp;시범모델&nbsp;공모,&nbsp;사회보장협의·조례&nbsp;정비,&nbsp;햇빛소득&nbsp;마을&nbsp;후보지&nbsp;조사&nbsp;및&nbsp;공모,&nbsp;주민설명회&nbsp;추진/&nbsp;2027~2028년:&nbsp;기본소득&nbsp;시범사업&nbsp;선정&nbsp;및&nbsp;지급,&nbsp;햇빛소득&nbsp;마을&nbsp;10개&nbsp;조성&nbsp;주민협동조합·발전수익&nbsp;배분체계&nbsp;구축<br>○&nbsp;2029~2030년:&nbsp;기본소득&nbsp;지급대상&nbsp;단계&nbsp;확대,&nbsp;햇빛소득&nbsp;마을&nbsp;최대&nbsp;20개&nbsp;완성,&nbsp;햇빛연금&nbsp;지급체계&nbsp;초기&nbsp;기반&nbsp;구축.<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;총사업비&nbsp;2,675억&nbsp;원&nbsp;공공재정&nbsp;투입&nbsp;및&nbsp;융자&nbsp;등<br>&nbsp;-&nbsp;국비&nbsp;1,068억&nbsp;원(40%)&nbsp;+&nbsp;도비&nbsp;786억&nbsp;원(29%)&nbsp;+&nbsp;군비795억&nbsp;원&nbsp;(30%)&nbsp;+&nbsp;주민펀드·정책융자&nbsp;26억&nbsp;원&nbsp;(1%)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	스마트기술을 통한 미래농어업 기반 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="스마트기술을 통한 미래농어업 기반 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;스마트&nbsp;농업·스마트&nbsp;양식·청년&nbsp;정착·친환경&nbsp;전환을&nbsp;결합한&nbsp;미래농어업&nbsp;기반&nbsp;구축<br><br>□&nbsp;이행방법<br>○&nbsp;모듈형&nbsp;스마트팜:&nbsp;시설채소,&nbsp;딸기,&nbsp;만감류,&nbsp;체리류,&nbsp;식물공장형&nbsp;재배&nbsp;등&nbsp;작목별&nbsp;모듈&nbsp;모델을&nbsp;구축하고&nbsp;청년농에게&nbsp;임대·분양&nbsp;<br>○&nbsp;스마트&nbsp;양식:&nbsp;AI기술,&nbsp;해수열&nbsp;히트펌프,&nbsp;수질·수온&nbsp;자동관리,&nbsp;질병예방,&nbsp;친환경&nbsp;양식장&nbsp;현대화,&nbsp;꼬막종자&nbsp;생산기반과&nbsp;연계<br>○&nbsp;청년농어업인&nbsp;통합지원:&nbsp;청년후계농&nbsp;영농정착지원,&nbsp;스마트단지&nbsp;입주자&nbsp;경쟁력&nbsp;향상,&nbsp;초기창업·시설개보수,&nbsp;주거·교육·컨설팅&nbsp;패키지화<br>○&nbsp;최저가격&nbsp;차액지원:&nbsp;청년&nbsp;스마트팜&nbsp;지정작목을&nbsp;정하고&nbsp;생산초기&nbsp;3년간&nbsp;기준가격&nbsp;이하&nbsp;하락분&nbsp;일부&nbsp;보전<br>○&nbsp;친환경&nbsp;전환:&nbsp;친환경농업&nbsp;인증비,&nbsp;친환경농업단지,&nbsp;유기농·무농약&nbsp;생산장려금,&nbsp;안전농산물&nbsp;식재료&nbsp;공급과&nbsp;연계<br><br>□&nbsp;이행기간<br>○&nbsp;2026년&nbsp;:&nbsp;스마트팜&nbsp;단지&nbsp;기본계획,&nbsp;스마트&nbsp;양식&nbsp;선도지구&nbsp;타당성&nbsp;검토,&nbsp;청년&nbsp;농어업인&nbsp;통합지원&nbsp;기준&nbsp;마련,&nbsp;친환경&nbsp;전환계획&nbsp;수립/&nbsp;2027~2028년:&nbsp;모듈형&nbsp;스마트팜&nbsp;시범단지&nbsp;조성,&nbsp;스마트&nbsp;양식&nbsp;기반시설&nbsp;공모&nbsp;신청,&nbsp;청년농어업인&nbsp;주거·시설·교육&nbsp;패키지&nbsp;운영&nbsp;/&nbsp;2029~2030년:&nbsp;스마트팜·스마트양식&nbsp;권역&nbsp;확대,&nbsp;최저가격&nbsp;차액지원&nbsp;정착,&nbsp;친환경·탄소중립&nbsp;농어업&nbsp;판로&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;총사업비&nbsp;220억&nbsp;원<br>-&nbsp;국비&nbsp;102억&nbsp;원(46%)&nbsp;+&nbsp;도비&nbsp;33억&nbsp;원(15%)&nbsp;+&nbsp;군비&nbsp;69억&nbsp;원&nbsp;(31%)&nbsp;+&nbsp;자담·융자·민자&nbsp;16억&nbsp;원(7%)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	사람이 모이고 돈이 도는 강진 상권 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="사람이 모이고 돈이 도는 강진 상권 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;체류형&nbsp;상권·로컬콘텐츠·지역화폐가&nbsp;결합된&nbsp;강진형&nbsp;소비순환&nbsp;경제&nbsp;구축<br><br>□&nbsp;이행방법<br>○&nbsp;강진읍&nbsp;중심상권과&nbsp;관광동선을&nbsp;연계해&nbsp;이색점포&nbsp;리모델링,&nbsp;골목상권&nbsp;디자인&nbsp;개선,&nbsp;야간·축제&nbsp;연계&nbsp;상권이벤트,&nbsp;청년·로컬&nbsp;창업점포&nbsp;입점&nbsp;지원<br>○&nbsp;강진읍&nbsp;자율상권&nbsp;활성화사업과&nbsp;연계해&nbsp;특색있는&nbsp;상권거리&nbsp;조성,&nbsp;환경개선,&nbsp;로컬&nbsp;상품&nbsp;개발&nbsp;추진.&nbsp;해당&nbsp;사업은&nbsp;"상권구역&nbsp;활력&nbsp;재생"과&nbsp;"로컬&nbsp;상품&nbsp;개발"을&nbsp;목표로&nbsp;추진&nbsp;중임.<br>○&nbsp;청자·다산·하멜·강진만·병영성·음식자원&nbsp;등을&nbsp;활용한&nbsp;로컬&nbsp;굿즈,&nbsp;관광기념품,&nbsp;대표&nbsp;먹거리,&nbsp;밀키트,&nbsp;하멜촌커피&nbsp;등&nbsp;상품화&nbsp;지원<br>○&nbsp;강진군은&nbsp;대표음식&nbsp;밀키트&nbsp;상품화,&nbsp;포장&nbsp;디자인&nbsp;제작,&nbsp;포장재·장비&nbsp;구입비&nbsp;지원,&nbsp;온라인&nbsp;상세페이지&nbsp;제작,&nbsp;온라인&nbsp;판매&nbsp;추진을&nbsp;계획하고&nbsp;있어&nbsp;대표&nbsp;먹거리&nbsp;개발&nbsp;공약과&nbsp;직접&nbsp;연계&nbsp;가능함.<br><br>□&nbsp;이행기간<br>○&nbsp;2026년&nbsp;:&nbsp;이색점포·로컬&nbsp;굿즈·대표&nbsp;먹거리&nbsp;공모,&nbsp;강진읍&nbsp;자율상권&nbsp;활성화&nbsp;2차년도&nbsp;추진,&nbsp;상품권&nbsp;후캐시백&nbsp;전환&nbsp;준비/&nbsp;2027~2028년:&nbsp;골목상권&nbsp;특화거리&nbsp;조성&nbsp;로컬상품·밀키트&nbsp;온라인&nbsp;판매&nbsp;확대,&nbsp;축제·야간관광·상권이벤트&nbsp;연계&nbsp;운영/2029~2030년:&nbsp;체류형&nbsp;상권&nbsp;브랜드&nbsp;정착,&nbsp;강진사랑상품권&nbsp;발행·가맹점&nbsp;확대,&nbsp;로컬&nbsp;굿즈·대표&nbsp;먹거리&nbsp;전국&nbsp;유통망&nbsp;구축<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;총사업비&nbsp;97억&nbsp;원<br>-&nbsp;국비&nbsp;33억&nbsp;원(34%)&nbsp;+&nbsp;도비3억&nbsp;원(3%)&nbsp;+&nbsp;군비&nbsp;61억&nbsp;원(63%)<br>-&nbsp;기존&nbsp;사업인&nbsp;지역사랑상품권,&nbsp;지역상권&nbsp;활성화&nbsp;관련&nbsp;사업&nbsp;조정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	소외 없는 안심 복지 강진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="소외 없는 안심 복지 강진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □목&nbsp;표&nbsp;<br>○&nbsp;노인·아동·여성·장애인&nbsp;등이&nbsp;군민이&nbsp;지역&nbsp;안에서&nbsp;안전하게&nbsp;돌봄받고&nbsp;일할&nbsp;수&nbsp;있는&nbsp;통합복지&nbsp;체계&nbsp;구축<br><br>□이행방법&nbsp;<br>○&nbsp;어르신:&nbsp;AI스마트돌봄,&nbsp;효도패키지,&nbsp;공동요양시설,&nbsp;고령자&nbsp;주택수리,&nbsp;건강관리,&nbsp;무료버스·공공순환차량,&nbsp;파크골프&nbsp;이동지원&nbsp;등을&nbsp;통합해&nbsp;생활권&nbsp;기반&nbsp;어르신&nbsp;안심복지&nbsp;체계&nbsp;구축<br>○&nbsp;아동·양육가정:&nbsp;유휴공간&nbsp;보육거점,&nbsp;영어놀이교육,&nbsp;난임·임신·출산&nbsp;지원,&nbsp;소아진료·병원동행,&nbsp;출생아&nbsp;보험·RSV&nbsp;예방접종,&nbsp;어린이&nbsp;보행안전&nbsp;개선을&nbsp;연계해&nbsp;양육안심&nbsp;환경&nbsp;조성<br>○&nbsp;여성&nbsp;여성농업인&nbsp;행복바우처&nbsp;인상,&nbsp;특수&nbsp;건강검진,&nbsp;직업훈련·재취업&nbsp;원스톱&nbsp;지원,&nbsp;여성&nbsp;뉴딜일자리,&nbsp;성폭력&nbsp;피해상담·보호체계를&nbsp;결합해&nbsp;여성친화&nbsp;강진&nbsp;조성<br>○&nbsp;청소년·청년:&nbsp;청소년&nbsp;지원센터,&nbsp;공공학습&nbsp;인프라,&nbsp;자격시험장&nbsp;유치,&nbsp;응시료&nbsp;지원,&nbsp;스마트&nbsp;건강관리,&nbsp;농촌&nbsp;유학마을을&nbsp;연계해&nbsp;교육기회&nbsp;보장도시&nbsp;기반&nbsp;구축<br>○&nbsp;이주민·다문화가정:&nbsp;여성위생용품,&nbsp;국적취득,&nbsp;초·중등교육&nbsp;이해,&nbsp;자녀&nbsp;언어발달,&nbsp;산후도우미,&nbsp;공동육아나눔터&nbsp;지원을&nbsp;통해&nbsp;정착·양육&nbsp;통합지원체계&nbsp;구축<br>○&nbsp;장애인:&nbsp;장애인기업&nbsp;생산품&nbsp;우선구매,&nbsp;발달장애인&nbsp;일자리,&nbsp;장애인&nbsp;공무원·공무직&nbsp;채용,&nbsp;배리어프리&nbsp;영화&nbsp;상영을&nbsp;확대해&nbsp;장애인&nbsp;일자리·사회참여&nbsp;문화접근권&nbsp;보장<br><br>□&nbsp;이행기간<br>○&nbsp;2026년:&nbsp;조사&nbsp;및&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;제도정비/&nbsp;2027년&nbsp;~2028년&nbsp;시범도입&nbsp;<br>2029&nbsp;~2030년:&nbsp;본사업화&nbsp;및&nbsp;전&nbsp;읍면&nbsp;확대<br><br>□재원조달방안&nbsp;등&nbsp;<br>○총사업비&nbsp;834억&nbsp;원<br>-&nbsp;국비&nbsp;257억&nbsp;원(31%)&nbsp;+&nbsp;도비·교육청&nbsp;145억&nbsp;원(17%)&nbsp;+&nbsp;군비&nbsp;401.24억&nbsp;원(48%)&nbsp;+&nbsp;민간참여&nbsp;등&nbsp;기타&nbsp;30억&nbsp;원(4%)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

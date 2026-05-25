@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;신영재 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	수도권 홍천 미래형 융합도시 기반 조성(산업과 생활 연결)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="수도권 홍천 미래형 융합도시 기반 조성(산업과 생활 연결)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;수도권&nbsp;통근이&nbsp;가능한&nbsp;산업,&nbsp;생활권&nbsp;도시&nbsp;수도권&nbsp;홍천을&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;역세권&nbsp;개발&nbsp;전담부서&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;용문~홍천&nbsp;광역철도&nbsp;조기&nbsp;착공&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;국회·중앙부처&nbsp;조기&nbsp;준공을&nbsp;위한&nbsp;국비를&nbsp;확보하고&nbsp;속도감&nbsp;있게&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;연구용역을&nbsp;통한&nbsp;역세권&nbsp;개발,&nbsp;도심&nbsp;재정비,&nbsp;산업단지&nbsp;사업&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년(4년간)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·도비&nbsp;확보,&nbsp;자체&nbsp;재원(철도유치기금&nbsp;조성)&nbsp;마련,&nbsp;민간기업&nbsp;투자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	국가항체클러스터 바이오 허브도시 도약 기반 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="국가항체클러스터 바이오 허브도시 도약 기반 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;국가항체&nbsp;바이오산업&nbsp;메가도시&nbsp;홍천&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;백신·진단·치료제&nbsp;중심의&nbsp;춘천과&nbsp;항체&nbsp;중심의&nbsp;홍천&nbsp;클러스터를&nbsp;연계해&nbsp;바이오산업&nbsp;가치&nbsp;선순환&nbsp;구조를&nbsp;구축하고,&nbsp;대한민국&nbsp;항체산업&nbsp;선도&nbsp;거점으로&nbsp;성장<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;첨단바이오산업&nbsp;활성화(지역&nbsp;선도기업&nbsp;육성)<br>&nbsp;&nbsp;○&nbsp;유명&nbsp;바이오벤처기업&nbsp;유치&nbsp;및&nbsp;창업&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;유망기업&nbsp;육성&nbsp;및&nbsp;안착화(근로자&nbsp;정주·생활환경&nbsp;개선)<br>&nbsp;&nbsp;○&nbsp;바이오&nbsp;전문대학원&nbsp;유치·설립&nbsp;및&nbsp;인재&nbsp;육성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년(4년간)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;바이오특구&nbsp;국·도비&nbsp;및&nbsp;국민성장펀드&nbsp;활용,&nbsp;자체&nbsp;재원(군비)&nbsp;확보,&nbsp;민간기업&nbsp;투자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	홍천형 농기계·농자재 산업 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="홍천형 농기계·농자재 산업 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;홍천&nbsp;농업&nbsp;경쟁력&nbsp;강화&nbsp;및&nbsp;농기계·농자재&nbsp;산업&nbsp;1번지&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국내·국제&nbsp;박람회&nbsp;개최<br>&nbsp;&nbsp;○&nbsp;소형·특화&nbsp;농기계&nbsp;산업&nbsp;집중&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;농자재산업&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;테스트베드(Test&nbsp;Bed)&nbsp;환경&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년(4년간)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기회발전특구&nbsp;국·도비&nbsp;확보,&nbsp;자체&nbsp;재원(군비)&nbsp;마련,&nbsp;민간기업&nbsp;투자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	홍천 도심 재정비, 미니뉴타운 조성 및 도시디자인 개선</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="홍천 도심 재정비, 미니뉴타운 조성 및 도시디자인 개선">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;수도권&nbsp;철도시대&nbsp;준비를&nbsp;위한&nbsp;홍천군&nbsp;경쟁력&nbsp;강화&nbsp;및&nbsp;지역소멸&nbsp;대응을&nbsp;위해&nbsp;낙후된&nbsp;홍천&nbsp;도심&nbsp;재정비와&nbsp;도시디자인&nbsp;개선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;연구용역을&nbsp;통한&nbsp;홍천&nbsp;도심&nbsp;재정비&nbsp;지정사업&nbsp;신청<br>&nbsp;&nbsp;○&nbsp;도심&nbsp;재정비&nbsp;사업(소규모&nbsp;주택정비,&nbsp;로컬관광&nbsp;시장&nbsp;정비,&nbsp;도시&nbsp;상징&nbsp;특화지구&nbsp;조성,&nbsp;주택&nbsp;재개발사업,&nbsp;홍천강&nbsp;문화지구&nbsp;개발사업,&nbsp;수변친화형&nbsp;도시개발사업)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년(4년간)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지방소멸대응기금,&nbsp;도시재정비&nbsp;지정(국·도비),&nbsp;자체&nbsp;재원(군비)&nbsp;확보,&nbsp;민간기<br>업&nbsp;투자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	농촌 기본소득수당 도입</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="농촌 기본소득수당 도입">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역소멸&nbsp;위험지역에서&nbsp;벗어나고&nbsp;인구&nbsp;유입을&nbsp;통한&nbsp;지역&nbsp;활성화&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;농촌기본소득&nbsp;지급&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;○&nbsp;지방소멸대응기금&nbsp;확보를&nbsp;위한&nbsp;사업&nbsp;신청<br>&nbsp;&nbsp;○&nbsp;귀농·귀촌&nbsp;정책을&nbsp;통한&nbsp;인구&nbsp;유입&nbsp;유도<br>&nbsp;&nbsp;○&nbsp;자주재원&nbsp;마련<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년(4년간)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지방소멸대응기금,&nbsp;국·도비&nbsp;확보&nbsp;및&nbsp;자체&nbsp;재원(군비)&nbsp;마련</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

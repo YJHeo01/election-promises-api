@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이승민 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	농민이 돈 버는 청도</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="농민이 돈 버는 청도">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◎목표:&nbsp;농가소득&nbsp;30%&nbsp;증가.&nbsp;농민&nbsp;소득을&nbsp;높이는&nbsp;민생농촌&nbsp;실현<br>생산&nbsp;중심&nbsp;농업에서&nbsp;벗어나,&nbsp;판매·유통까지&nbsp;책임지는&nbsp;소득&nbsp;중심&nbsp;농정을&nbsp;추진하겠습니다.<br><br>◈&nbsp;과수&nbsp;특작&nbsp;포장재&nbsp;지원사업&nbsp;확충&nbsp;-&nbsp;과수&nbsp;포장재&nbsp;지원사업&nbsp;50%&nbsp;지원<br>◈&nbsp;중/대형&nbsp;농기계&nbsp;구입비&nbsp;50%지원&nbsp;사업&nbsp;확충<br>◈&nbsp;임대형&nbsp;스마트팜&nbsp;단지&nbsp;조성사업&nbsp;8만평&nbsp;(매전면&nbsp;풍각면&nbsp;금천면&nbsp;이서면)<br>◈&nbsp;경관농업&nbsp;대규모&nbsp;확대<br>◈&nbsp;필수농자재&nbsp;대폭&nbsp;확대&nbsp;지원&nbsp;-&nbsp;신설,&nbsp;농약,&nbsp;비료,&nbsp;비닐<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;농자재&nbsp;지원사업비&nbsp;연50억으로&nbsp;효율화&nbsp;&nbsp;4년&nbsp;200억<br><br>◈&nbsp;농산물거점가공센타&nbsp;건립&nbsp;-&nbsp;신설.&nbsp;유휴시설&nbsp;활용&nbsp;(감,&nbsp;복숭아,&nbsp;미나리&nbsp;등등)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;가공센터&nbsp;2개소&nbsp;설치&nbsp;(120억&nbsp;/&nbsp;국비&nbsp;50%&nbsp;)<br><br>◈&nbsp;가축분뇨&nbsp;자원활성화&nbsp;시설&nbsp;-&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;악취해결&nbsp;+&nbsp;에너지&nbsp;생산&nbsp;모델로&nbsp;전환&nbsp;-&nbsp;민간&nbsp;참여&nbsp;유도,&nbsp;&nbsp;입지선정&nbsp;및&nbsp;주민참여공모&nbsp;<br>◈&nbsp;가축분뇨&nbsp;처리장&nbsp;-&nbsp;주민&nbsp;참여&nbsp;공모제&nbsp;도입&nbsp;<br>◈&nbsp;축산&nbsp;부산물&nbsp;퇴비시설&nbsp;지원<br>◈&nbsp;가축분뇨&nbsp;자원활성화&nbsp;주변주민&nbsp;무상&nbsp;지원화&nbsp;사업<br><br>◈&nbsp;청도&nbsp;우수농산물&nbsp;인증&nbsp;및&nbsp;보증제도&nbsp;활성화&nbsp;<br>◈&nbsp;청도&nbsp;우수농산물&nbsp;인증&nbsp;농가&nbsp;유통&nbsp;판로&nbsp;극대화<br><br>◈&nbsp;복숭아&nbsp;연구소&nbsp;포장시설&nbsp;확충&nbsp;(극조생종&nbsp;촉성재배시설)<br>◈&nbsp;과수&nbsp;특작&nbsp;포장재&nbsp;지원사업&nbsp;확충<br>◈&nbsp;과수&nbsp;포장재&nbsp;지원사업&nbsp;50%&nbsp;지원<br><br>◈&nbsp;농업기술센터&nbsp;실험&nbsp;포장&nbsp;연구시설&nbsp;확충<br><br>◈&nbsp;농업기술센터&nbsp;연구&nbsp;지도직&nbsp;확충&nbsp;-&nbsp;농촌지도소&nbsp;신설-&nbsp;유휴시설&nbsp;활용<br><br>◈&nbsp;청도&nbsp;반시&nbsp;비상품&nbsp;가공식품&nbsp;지원사업&nbsp;-&nbsp;비상품&nbsp;자원화센터&nbsp;활용방안<br><br>◈&nbsp;양봉&nbsp;비가림지원&nbsp;사업<br><br>◈&nbsp;농산물&nbsp;안정화&nbsp;기금&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;농산물&nbsp;가격안정기금&nbsp;140억원&nbsp;즉시&nbsp;시행<br>◈&nbsp;씨드플랜&nbsp;-&nbsp;토종씨앗&nbsp;전통씨앗&nbsp;보존고&nbsp;-&nbsp;유휴시설&nbsp;활용<br><br>○&nbsp;목&nbsp;표:&nbsp;청도&nbsp;발전<br>○&nbsp;이행방법:&nbsp;신규사업&nbsp;관계&nbsp;기관과&nbsp;협의<br>○&nbsp;이행기간:&nbsp;임기&nbsp;내&nbsp;완료,&nbsp;계속사업<br>○&nbsp;재원조달방안:&nbsp;국도비군비&nbsp;+민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	소상공인이 살아나는 청도</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="소상공인이 살아나는 청도">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◎목표:&nbsp;소상공인&nbsp;매출&nbsp;20%&nbsp;상승,&nbsp;장사되는&nbsp;청도&nbsp;살아나는&nbsp;민생경제&nbsp;구축&nbsp;<br>소상공인이&nbsp;버티는&nbsp;것이&nbsp;아니라,&nbsp;다시&nbsp;장사가&nbsp;되는&nbsp;환경을&nbsp;만들겠습니다.<br><br>◈&nbsp;소상공인&nbsp;점포홍보/군홍보&nbsp;키오스크&nbsp;보급사업&nbsp;-&nbsp;지원비&nbsp;지급&nbsp;80억원<br>◈&nbsp;마을별&nbsp;디지털&nbsp;스마트&nbsp;방송시스템&nbsp;완비-&nbsp;호별&nbsp;스피커&nbsp;시스템<br>◈&nbsp;마을&nbsp;우범지대&nbsp;바닥경관조명/&nbsp;파사드조명&nbsp;설치<br>◈&nbsp;전통시장&nbsp;활성화&nbsp;방안&nbsp;-장옥&nbsp;정비&nbsp;사업&nbsp;,&nbsp;동곡시장&nbsp;입구&nbsp;비가림&nbsp;시설<br><br>◈&nbsp;현대식&nbsp;민속LPC(축산물&nbsp;종합처리장)&nbsp;유치&nbsp;-&nbsp;전통시장&nbsp;인근&nbsp;교통접근성&nbsp;용이<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;민간기업&nbsp;유치(임대형&nbsp;또는&nbsp;투자형)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사업비&nbsp;300억원&nbsp;민자&nbsp;85%(255억)&nbsp;군비15%(45억)&nbsp;유치<br>◈&nbsp;청년/학생&nbsp;1천원&nbsp;택시비&nbsp;지원&nbsp;(안심귀가택시)<br><br>◈&nbsp;법정도로&nbsp;위험한&nbsp;인도&nbsp;이동권&nbsp;보장&nbsp;개선사업<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;경산~&nbsp;청도~울산&nbsp;고속도로&nbsp;&nbsp;&nbsp;동청도&nbsp;IC&nbsp;도출<br>◈&nbsp;금천면&nbsp;동곡리~신지리~&nbsp;매전면&nbsp;남양리&nbsp;인도&nbsp;개선사업<br>◈&nbsp;청도읍&nbsp;월곡~원리~신도리&nbsp;인도&nbsp;개선&nbsp;사업<br>◈&nbsp;과속방지턱&nbsp;전면&nbsp;재조사&nbsp;후&nbsp;재가설<br><br>◈&nbsp;빈집&nbsp;정비&nbsp;사업&nbsp;확대&nbsp;-&nbsp;국비사업&nbsp;연계&nbsp;&nbsp;50억원<br>◈&nbsp;빈집&nbsp;활용&nbsp;1만원&nbsp;임대&nbsp;주택&nbsp;확대<br>◈&nbsp;빈집&nbsp;정비&nbsp;마을&nbsp;커뮤니티/주차장/마을&nbsp;창고&nbsp;지원사업<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;운문&nbsp;마일리&nbsp;정상리&nbsp;봉화리&nbsp;*마일정&nbsp;커뮤니티센터&nbsp;건립(공모중)<br><br>◈&nbsp;9개읍면&nbsp;권역&nbsp;사업<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;각북면&nbsp;-&nbsp;각북터널&nbsp;750억&nbsp;5년간&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;삼평리&nbsp;우회도로&nbsp;4.5킬로&nbsp;265억원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;운문면&nbsp;-&nbsp;운문사&nbsp;주차장&nbsp;임대&nbsp;지원사업&nbsp;&nbsp;연간&nbsp;3천만<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;삼계리&nbsp;둘레길&nbsp;조성사업,&nbsp;주차장&nbsp;부지&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;각남면&nbsp;-&nbsp;마늘&nbsp;공판장&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;금천면&nbsp;-&nbsp;가스충전소&nbsp;유치,&nbsp;육가공민속LPC유치,&nbsp;대구~경산~울산간&nbsp;동청도&nbsp;인터체인지&nbsp;개설<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;풍각면&nbsp;-&nbsp;농산물&nbsp;거점&nbsp;가공센터&nbsp;(마늘&nbsp;공판장&nbsp;건립)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;이서면&nbsp;-&nbsp;팔조령&nbsp;주막촌&nbsp;(마늘&nbsp;공판장&nbsp;건립)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;매전면&nbsp;-&nbsp;스마트팜&nbsp;단지&nbsp;조성사업&nbsp;(농민&nbsp;임대형),&nbsp;감&nbsp;가공&nbsp;거점가공센터<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;화양읍&nbsp;-&nbsp;화양읍사무소&nbsp;신청사&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;청도읍&nbsp;-&nbsp;옥외간판&nbsp;전면&nbsp;교체사업,&nbsp;중앙분리대&nbsp;가변차로&nbsp;전면&nbsp;개편<br><br>○&nbsp;목&nbsp;표:&nbsp;청도&nbsp;발전<br>○&nbsp;이행방법:&nbsp;신규사업&nbsp;관계&nbsp;기관과&nbsp;협의<br>○&nbsp;이행기간:&nbsp;임기&nbsp;내&nbsp;완료,&nbsp;계속사업<br>○&nbsp;재원조달방안:&nbsp;국도비군비&nbsp;+민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	군민이 건강한 청도</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="군민이 건강한 청도">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◎목표:&nbsp;사람을&nbsp;위한&nbsp;복지·건강&nbsp;청도&nbsp;-&nbsp;여성,&nbsp;아이,&nbsp;어르신이&nbsp;안심하는&nbsp;청도<br>아이부터&nbsp;어르신까지&nbsp;모두가&nbsp;안심하고&nbsp;살&nbsp;수&nbsp;있는&nbsp;청도를&nbsp;만들겠습니다.<br>돌봄과&nbsp;보육을&nbsp;강화하고,&nbsp;여성과&nbsp;사회적&nbsp;약자가&nbsp;안전하게&nbsp;생활할&nbsp;수&nbsp;있도록&nbsp;지원하겠습니다.<br>의료·복지&nbsp;서비스를&nbsp;확대하여&nbsp;군민의&nbsp;건강과&nbsp;삶의&nbsp;질을&nbsp;높이겠습니다.<br>&nbsp;<br>◈&nbsp;청도&nbsp;군립&nbsp;의료원&nbsp;설립&nbsp;-&nbsp;응급처방과,&nbsp;산부인과,&nbsp;소아과,&nbsp;정형외과,&nbsp;내과<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사업비&nbsp;1,200억원&nbsp;&nbsp;재원구조&nbsp;국비720억(60%)&nbsp;지방채300억(25%)&nbsp;군비180억(15%)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;총&nbsp;기간&nbsp;5~6년&nbsp;(2026년&nbsp;현재&nbsp;350억&nbsp;보건소&nbsp;준공&nbsp;준비중)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;추진절차&nbsp;1.사전타당성조사(6개월)&nbsp;2.보건복지부&nbsp;협의&nbsp;및&nbsp;승인(1년)&nbsp;3.예타&nbsp;진행(필요&nbsp;시&nbsp;1년)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.설계&nbsp;및&nbsp;착공(2년)&nbsp;5.준공&nbsp;및&nbsp;운영(1년)<br><br>◈&nbsp;여성&nbsp;유방암,&nbsp;자궁경부암&nbsp;무료검진&nbsp;확대<br><br>◈&nbsp;여성&nbsp;건강센터&nbsp;-&nbsp;검진버스&nbsp;운영&nbsp;-&nbsp;유휴시설&nbsp;활용<br><br>◈&nbsp;여성&nbsp;커뮤니티&nbsp;센터&nbsp;설립&nbsp;-&nbsp;유휴시설&nbsp;활용<br><br>◈&nbsp;청도&nbsp;군립&nbsp;화장장&nbsp;건립&nbsp;-&nbsp;반드시&nbsp;광역&nbsp;공동화로&nbsp;군비&nbsp;절감!<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;보건복지부&nbsp;협의와&nbsp;주민&nbsp;수용성&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사업비&nbsp;광역&nbsp;공동형&nbsp;150억원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;재원&nbsp;도비40%(60억)&nbsp;군비30%(45억)&nbsp;인근지자체&nbsp;부담30%(45억)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;추진절차&nbsp;1.입지선정&nbsp;및&nbsp;주민참여&nbsp;공모와&nbsp;주민공청회(1년)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.광역&nbsp;협약&nbsp;체결(6개월)&nbsp;3.설계&nbsp;및&nbsp;공사(2년)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;총기간&nbsp;3~4년<br><br>◈&nbsp;24시간&nbsp;아이&nbsp;공공돌봄센터&nbsp;(야간,&nbsp;주말&nbsp;포함)<br><br>◈&nbsp;장애인&nbsp;자립&nbsp;지원,&nbsp;사회참여&nbsp;확대&nbsp;(일자리/문화/여가)<br><br>◈&nbsp;보훈가족&nbsp;처우개선&nbsp;대폭&nbsp;확대&nbsp;<br><br>◈&nbsp;공공돌봄&nbsp;전담과&nbsp;신설&nbsp;-&nbsp;중앙정부의&nbsp;기조에&nbsp;맞춰&nbsp;노인,&nbsp;어린아이,&nbsp;학생까지<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;민관&nbsp;협의체&nbsp;-&nbsp;관리는&nbsp;청도군,&nbsp;실무는&nbsp;민간기관<br><br>○&nbsp;목&nbsp;표:&nbsp;청도&nbsp;발전<br>○&nbsp;이행방법:&nbsp;신규사업&nbsp;관계&nbsp;기관과&nbsp;협의<br>○&nbsp;이행기간:&nbsp;임기&nbsp;내&nbsp;완료,&nbsp;계속사업<br>○&nbsp;재원조달방안:&nbsp;국도비군비&nbsp;+민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	환경·문화가 살아나는 청도</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="환경·문화가 살아나는 청도">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◎목표:&nbsp;하천과&nbsp;생활환경을&nbsp;정비하여&nbsp;깨끗하고&nbsp;안전한&nbsp;청도를&nbsp;만들겠습니다.<br>지역의&nbsp;자연과&nbsp;문화를&nbsp;관광&nbsp;자원으로&nbsp;연결하여,&nbsp;머무르고&nbsp;소비하는&nbsp;구조를&nbsp;만들겠습니다.&nbsp;<br>환경은&nbsp;보존하고,&nbsp;경관은&nbsp;지역&nbsp;경제에&nbsp;도움이&nbsp;되도록&nbsp;활용하겠습니다.<br><br>◈&nbsp;지역하천&nbsp;살리기&nbsp;프로젝트&nbsp;-&nbsp;동창천(국가하천)&nbsp;청도천(지방하천)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;지방하천&nbsp;소하천&nbsp;자연생태계&nbsp;살리기-&nbsp;가동보(이수,&nbsp;치수)&nbsp;관광레저,&nbsp;습지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;홍수예방+관광&nbsp;복합사업으로&nbsp;설계<br>&nbsp;&nbsp;&nbsp;&nbsp;하천&nbsp;정비&nbsp;관광화&nbsp;1,200억원&nbsp;국비840억(70%)도비240억(20%)군비120억(10%)<br>&nbsp;&nbsp;&nbsp;&nbsp;추진&nbsp;절차&nbsp;1.기본계획&nbsp;수립(1년)&nbsp;2.중앙부처&nbsp;협의(6개월)&nbsp;3.국가계획&nbsp;반영(1년)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.단계별&nbsp;공사(3년)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;총&nbsp;기간&nbsp;-&nbsp;5년<br><br>◈&nbsp;재실/서원&nbsp;보수복원&nbsp;프로젝트&nbsp;(306개소)&nbsp;-&nbsp;&nbsp;전면조사,&nbsp;재실&nbsp;관리인&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;방치된&nbsp;재실·서원·향교&nbsp;전통문화유산&nbsp;보존&nbsp;및&nbsp;계승<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;복원+활용(교육,&nbsp;체험,&nbsp;관광)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;문중·종중·민간&nbsp;참여형&nbsp;협치모델<br><br>◈&nbsp;옛고유지명&nbsp;되찾기&nbsp;프로젝트(일제강점기&nbsp;치유사업)<br><br>◈&nbsp;게임산업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대회&nbsp;유치&nbsp;계약&nbsp;선행으로&nbsp;투자&nbsp;유도<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사업비&nbsp;민자중심&nbsp;250억원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;재원&nbsp;민자70%&nbsp;군비30%<br>◈&nbsp;RC(무선조종)경기장&nbsp;-&nbsp;국제경기&nbsp;유치<br>◈&nbsp;로봇&nbsp;격투&nbsp;아레나&nbsp;경기장&nbsp;-&nbsp;국제경기&nbsp;규격&nbsp;-&nbsp;신화랑풍류마을,&nbsp;청도&nbsp;소싸움&nbsp;경기장<br><br>◈&nbsp;반려동물&nbsp;어질리티&nbsp;경기장&nbsp;-&nbsp;국제경기<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사업비&nbsp;250억원&nbsp;&nbsp;&nbsp;재원구조&nbsp;민자70%&nbsp;군비30%&nbsp;<br><br>◈&nbsp;가축&nbsp;축산&nbsp;지구벨트&nbsp;구상&nbsp;<br>&nbsp;-&nbsp;환경/문화가&nbsp;살아나는&nbsp;청도&nbsp;<br>&nbsp;<br>○&nbsp;목&nbsp;표:&nbsp;청도&nbsp;발전<br>○&nbsp;이행방법:&nbsp;신규사업&nbsp;관계&nbsp;기관과&nbsp;협의<br>○&nbsp;이행기간:&nbsp;임기&nbsp;내&nbsp;완료,&nbsp;계속사업<br>○&nbsp;재원조달방안:&nbsp;국도비군비&nbsp;+민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	신뢰받는 투명 행정 청도</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="신뢰받는 투명 행정 청도">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◎목표:&nbsp;신뢰받는&nbsp;투명&nbsp;행정&nbsp;청도----공무원도&nbsp;친절하고,&nbsp;일&nbsp;잘해야&nbsp;승진합니다!<br>군정은&nbsp;결과로&nbsp;평가받아야&nbsp;합니다.<br>예산과&nbsp;정책&nbsp;집행을&nbsp;군민에게&nbsp;투명하게&nbsp;공개하고,&nbsp;불필요한&nbsp;전시성&nbsp;행정을&nbsp;줄이겠습니다.<br>민생&nbsp;예산을&nbsp;우선으로&nbsp;배분하여&nbsp;군민이&nbsp;체감하는&nbsp;변화를&nbsp;만들겠습니다.<br>실적이&nbsp;좋은&nbsp;공무원은&nbsp;공무원노동조합과&nbsp;합의&nbsp;후&nbsp;공정한&nbsp;인사승진을&nbsp;하겠습니다.<br><br>◈&nbsp;군수가&nbsp;찾아가는&nbsp;다이렉트&nbsp;민원&nbsp;서비스&nbsp;-&nbsp;월별&nbsp;2개&nbsp;읍면&nbsp;방문&nbsp;서비스<br><br>◈&nbsp;공개적&nbsp;군정&nbsp;업무보고&nbsp;-&nbsp;실과소&nbsp;출자출현기과,&nbsp;공공기관&nbsp;전&nbsp;군민&nbsp;생중계<br><br>◈&nbsp;공무원&nbsp;처우개선&nbsp;확대&nbsp;-&nbsp;직장어린이집&nbsp;설치와&nbsp;보육지원&nbsp;확대<br><br>◈&nbsp;공무원&nbsp;공정한&nbsp;인사제도&nbsp;-&nbsp;공무원&nbsp;노동조합과&nbsp;협의&nbsp;후&nbsp;인사&nbsp;승진<br><br>◈&nbsp;악성민원인&nbsp;공무원&nbsp;보호&nbsp;-&nbsp;악성&nbsp;민원인&nbsp;법적&nbsp;대응&nbsp;<br><br>◈&nbsp;행정&nbsp;신속&nbsp;간편&nbsp;전자&nbsp;결재&nbsp;라인&nbsp;구축&nbsp;<br><br>◈&nbsp;공무원&nbsp;초가근무제도&nbsp;마련&nbsp;-&nbsp;재난,&nbsp;야간근무&nbsp;수당&nbsp;지급<br><br>◈&nbsp;공무원&nbsp;재난대응&nbsp;형사책임&nbsp;보호제도&nbsp;마련<br><br>◈&nbsp;공무원&nbsp;행사&nbsp;동원&nbsp;금지&nbsp;-&nbsp;예외)&nbsp;재난&nbsp;위급&nbsp;상황&nbsp;시&nbsp;동원<br><br>○&nbsp;목&nbsp;표:&nbsp;청도&nbsp;발전<br>○&nbsp;이행방법:&nbsp;신규사업&nbsp;관계&nbsp;기관과&nbsp;협의<br>○&nbsp;이행기간:&nbsp;임기&nbsp;내&nbsp;완료,&nbsp;계속사업<br>○&nbsp;재원조달방안:&nbsp;국도비군비&nbsp;+민자</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;유관곤 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	원도심 통합 재생 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="원도심 통합 재생 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;동부시장·먹자골·구&nbsp;터미널권을&nbsp;중심으로&nbsp;원도심&nbsp;경제와&nbsp;상권을&nbsp;회복하고&nbsp;사람이&nbsp;다시&nbsp;모이는&nbsp;구조를&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;복합&nbsp;환승센터&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;동부시장&nbsp;현대화&nbsp;및&nbsp;먹자골&nbsp;재편<br>&nbsp;&nbsp;○&nbsp;보행&nbsp;·&nbsp;상권&nbsp;·&nbsp;온라인&nbsp;판매&nbsp;구조&nbsp;개편<br>&nbsp;&nbsp;○&nbsp;국토교통부&nbsp;도시재생&nbsp;혁신지구&nbsp;공모&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;지역형&nbsp;배달앱과&nbsp;순환형&nbsp;지역화폐&nbsp;도입<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2023~2030&nbsp;단계별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지방비&nbsp;편성<br>&nbsp;&nbsp;○&nbsp;국토교통부&nbsp;도시재생&nbsp;혁신지구&nbsp;공모사업&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;도시&nbsp;매칭사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;복합환승센터&nbsp;민자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	천수만 AB지구 미래산업 육성(천수만 정주영 프로젝트)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="천수만 AB지구 미래산업 육성(천수만 정주영 프로젝트)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;스마트농업,&nbsp;식품·바이오,&nbsp;AI&nbsp;데이터,&nbsp;반도체&nbsp;등&nbsp;산업&nbsp;기반을&nbsp;구축하여&nbsp;서산&nbsp;경제구조를&nbsp;미래형&nbsp;산업도시로&nbsp;전환<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;농업&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;식품·바이오&nbsp;산업&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;반도체·AI&nbsp;데이터센터&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;산업부·농식품부·해수부&nbsp;패키지&nbsp;사업&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2030&nbsp;중장기&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지방비&nbsp;편성(시범사업)<br>&nbsp;&nbsp;○&nbsp;도비&nbsp;매칭<br>&nbsp;&nbsp;○&nbsp;국가계획&nbsp;반영(충남도&nbsp;+&nbsp;국회)<br>&nbsp;&nbsp;○&nbsp;농림축산식품부&nbsp;+&nbsp;산업통산자원부&nbsp;+&nbsp;국토교통부&nbsp;+&nbsp;기획재정부&nbsp;다부처&nbsp;패키지&nbsp;전략&nbsp;-&nbsp;국가프로젝트&nbsp;-&nbsp;예비타당성&nbsp;조사<br>&nbsp;&nbsp;○&nbsp;민자유치(현대그룹)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	대산항 산업·물류 전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="대산항 산업·물류 전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;대산항을&nbsp;국제&nbsp;물류&nbsp;허브&nbsp;및&nbsp;스마트&nbsp;물류&nbsp;항만으로&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국제&nbsp;물류항만&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;항만&nbsp;배후&nbsp;산업벨트&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;물류체계&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;국가관리항만&nbsp;개발사업&nbsp;연계<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2030&nbsp;단계별&nbsp;추진(국책사업)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비유치(해양수산부,&nbsp;국토교통부)<br>&nbsp;&nbsp;○&nbsp;지방비&nbsp;매칭<br>&nbsp;&nbsp;○&nbsp;도비&nbsp;매칭&nbsp;사업<br>&nbsp;&nbsp;○&nbsp;민자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	마을 돌봄·요양 시스템 구축( 효 동행센터 )</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="마을 돌봄·요양 시스템 구축( 효 동행센터 )">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시설&nbsp;중심이&nbsp;아닌&nbsp;지역&nbsp;중심&nbsp;통합&nbsp;돌봄&nbsp;체계를&nbsp;구축하여&nbsp;어르신&nbsp;삶의&nbsp;질&nbsp;향상<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;경로당&nbsp;+&nbsp;요양&nbsp;결합&nbsp;모델&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;마을&nbsp;단위&nbsp;돌봄센터&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;생활돌봄&nbsp;시스템&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;커뮤니티&nbsp;케어&nbsp;사업&nbsp;연계<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2030&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;유치(보건복지부)<br>&nbsp;&nbsp;○&nbsp;지방비&nbsp;편성<br>&nbsp;&nbsp;○&nbsp;도비&nbsp;매칭</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	청년 일자리 정착 도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="청년 일자리 정착 도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청년이&nbsp;떠나는&nbsp;도시가&nbsp;아닌&nbsp;머무르고&nbsp;정착하는&nbsp;도시&nbsp;구조&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;앵커기업&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;주거·창업&nbsp;연계&nbsp;지원&nbsp;<br>&nbsp;&nbsp;○&nbsp;지역주도형&nbsp;청년일자리&nbsp;확대&nbsp;<br>&nbsp;&nbsp;○&nbsp;창업지원&nbsp;프로그램&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2030&nbsp;단계&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비유치(산업통상자원부,&nbsp;고용노동부,&nbsp;중소벤처기업부)<br>&nbsp;&nbsp;○&nbsp;지방비&nbsp;편성<br>&nbsp;&nbsp;○&nbsp;도비&nbsp;매칭<br>&nbsp;&nbsp;○&nbsp;민자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

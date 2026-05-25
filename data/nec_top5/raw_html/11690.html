@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김형곤 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	초고속 재건축. 재개발 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="초고속 재건축. 재개발 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;재건축·재개발&nbsp;인허가&nbsp;및&nbsp;행정&nbsp;처리기간&nbsp;단축<br>&nbsp;&nbsp;○&nbsp;노후&nbsp;주거지의&nbsp;주거환경&nbsp;개선과&nbsp;자산가치&nbsp;회복<br>&nbsp;&nbsp;○&nbsp;사업&nbsp;지연&nbsp;최소화&nbsp;및&nbsp;주민&nbsp;불편&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;갈등&nbsp;조정과&nbsp;신속한&nbsp;행정지원&nbsp;체계&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;재건축·재개발&nbsp;신속추진&nbsp;TF&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;정비사업&nbsp;원스톱&nbsp;행정지원&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;서울시·관계기관&nbsp;협의&nbsp;전담창구&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;사업&nbsp;지연&nbsp;요인&nbsp;해소&nbsp;및&nbsp;인허가&nbsp;절차&nbsp;단축&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;주민·조합·세입자&nbsp;갈등조정&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;기반시설&nbsp;및&nbsp;교통대책&nbsp;사전&nbsp;협의&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;강남구-&nbsp;서울시-&nbsp;정부,&nbsp;유기적입&nbsp;소통을&nbsp;통합&nbsp;협업<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재건축·재개발&nbsp;신속추진&nbsp;TF&nbsp;확대&nbsp;및&nbsp;전담체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;상반기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원스톱&nbsp;행정지원&nbsp;및&nbsp;주민&nbsp;소통체계&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;하반기&nbsp;이후<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업별&nbsp;행정지원&nbsp;및&nbsp;갈등조정&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구비를&nbsp;통한&nbsp;전담조직&nbsp;운영&nbsp;및&nbsp;행정지원&nbsp;예산&nbsp;편성<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;정비사업&nbsp;지원예산&nbsp;및&nbsp;신속통합기획&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;국토부&nbsp;도시정비&nbsp;관련&nbsp;지원사업&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;조합&nbsp;사업비&nbsp;및&nbsp;민간재원&nbsp;중심&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;공공기여를&nbsp;통한&nbsp;기반시설&nbsp;재원&nbsp;일부&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	세계의 중심, 글로벌 강남 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="세계의 중심, 글로벌 강남 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;강남을&nbsp;아시아&nbsp;최고&nbsp;수준의&nbsp;경제·문화·관광&nbsp;중심도시로&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;의료·K컬처·MICE·쇼핑·스타트업&nbsp;산업&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;외국인&nbsp;관광객&nbsp;및&nbsp;글로벌&nbsp;기업&nbsp;유치&nbsp;기반&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;침체된&nbsp;골목상권과&nbsp;지역경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;코엑스-압구정-청담-가로수길&nbsp;글로벌&nbsp;관광벨트&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;GBC·영동대로&nbsp;복합개발과&nbsp;연계한&nbsp;국제업무&nbsp;중심지&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;의료관광·뷰티·K컬처&nbsp;연계&nbsp;체류형&nbsp;관광상품&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;기업·스타트업&nbsp;유치&nbsp;지원&nbsp;및&nbsp;투자유치&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;야간관광·문화행사·축제&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;강남형&nbsp;글로벌&nbsp;홍보&nbsp;플랫폼&nbsp;및&nbsp;다국어&nbsp;관광서비스&nbsp;강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기&nbsp;~&nbsp;2027년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광·경제&nbsp;활성화&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;민관협력체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;~&nbsp;2029년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광벨트·스타트업·문화행사&nbsp;확대&nbsp;및&nbsp;국제행사&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2029년&nbsp;이후<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;글로벌&nbsp;기업·관광·문화&nbsp;중심도시&nbsp;브랜드&nbsp;정착<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민간투자:&nbsp;GBC·MICE·관광·상업시설&nbsp;민간개발&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;시비&nbsp;:&nbsp;서울시&nbsp;관광·문화·MICE&nbsp;산업&nbsp;지원예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;:&nbsp;문화체육관광부·중기부·산업부&nbsp;공모사업&nbsp;및&nbsp;관광진흥예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;구비&nbsp;:&nbsp;축제·관광·상권활성화&nbsp;사업&nbsp;예산&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;공공·민간&nbsp;협력&nbsp;:&nbsp;기업&nbsp;후원&nbsp;및&nbsp;투자유치&nbsp;방식&nbsp;확대</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	강남구청 신청사 건립 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="강남구청 신청사 건립 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;노후&nbsp;청사의&nbsp;행정&nbsp;비효율&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;미래&nbsp;행정수요에&nbsp;대응하는&nbsp;스마트&nbsp;행정청사&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;편의시설·문화·복지&nbsp;기능이&nbsp;결합된&nbsp;복합공간&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;균형발전&nbsp;및&nbsp;공공서비스&nbsp;품질&nbsp;향상<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;신청사&nbsp;이전&nbsp;및&nbsp;개발&nbsp;타당성&nbsp;재검토<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;의견수렴&nbsp;및&nbsp;공론화&nbsp;절차&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;현&nbsp;청사&nbsp;부지&nbsp;활용방안과&nbsp;연계&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;문화·체육·복지&nbsp;기능을&nbsp;포함한&nbsp;복합개발&nbsp;방식&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;서울시·민간과&nbsp;협력한&nbsp;단계별&nbsp;개발모델&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;교통&nbsp;접근성과&nbsp;행정&nbsp;효율성&nbsp;중심의&nbsp;입지&nbsp;검토<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기&nbsp;~&nbsp;2027년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;타당성&nbsp;검토&nbsp;및&nbsp;주민&nbsp;의견수렴<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;~&nbsp;2028년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시&nbsp;협의&nbsp;및&nbsp;사업계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;2028년&nbsp;이후<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단계별&nbsp;사업&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구유재산&nbsp;활용&nbsp;:&nbsp;현&nbsp;청사&nbsp;부지&nbsp;개발수익&nbsp;활용&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;민간투자&nbsp;:&nbsp;복합개발&nbsp;방식의&nbsp;민간참여&nbsp;유도<br>&nbsp;&nbsp;○&nbsp;지방채&nbsp;:&nbsp;재정&nbsp;건전성을&nbsp;고려한&nbsp;제한적&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;시비&nbsp;지원&nbsp;:&nbsp;서울시&nbsp;공공청사·복합개발&nbsp;협력예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;구비&nbsp;:&nbsp;기본계획·설계&nbsp;등&nbsp;초기&nbsp;행정비용&nbsp;중심&nbsp;편성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	수서GTX-SRT 미래도시 개발</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="수서GTX-SRT 미래도시 개발">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;수서를&nbsp;동남권&nbsp;미래&nbsp;성장거점으로&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;GTX·SRT&nbsp;중심&nbsp;광역교통&nbsp;허브&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;업무·주거·상업·스타트업&nbsp;기능이&nbsp;결합된&nbsp;미래도시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;강남&nbsp;동남권의&nbsp;자족기능&nbsp;및&nbsp;일자리&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;수서&nbsp;차량기지&nbsp;입체복합개발&nbsp;추진&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;GTX·SRT·지하철·버스&nbsp;환승체계&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;AI·바이오·콘텐츠&nbsp;산업&nbsp;중심&nbsp;미래산업&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;세곡&nbsp;벤처밸리&nbsp;및&nbsp;제2&nbsp;테헤란밸리&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;서울시·국토부·코레일·LH&nbsp;등&nbsp;관계기관&nbsp;협의체&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;공공·민간&nbsp;복합개발&nbsp;방식&nbsp;적극&nbsp;검토<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기&nbsp;~&nbsp;2027년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기본구상&nbsp;및&nbsp;관계기관&nbsp;협의체&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;~&nbsp;2030년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광역교통·복합개발&nbsp;계획&nbsp;단계별&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2030년&nbsp;이후<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;본격&nbsp;개발&nbsp;및&nbsp;산업·업무&nbsp;기능&nbsp;확장<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;:&nbsp;GTX·광역교통망&nbsp;및&nbsp;철도&nbsp;연계&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;시비&nbsp;:&nbsp;광역교통·환승체계&nbsp;개선&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;공공기관&nbsp;투자&nbsp;:&nbsp;코레일·LH·SH&nbsp;등&nbsp;참여&nbsp;유도<br>&nbsp;&nbsp;○&nbsp;민간투자&nbsp;:&nbsp;복합개발·업무시설&nbsp;개발&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;구비&nbsp;:&nbsp;교통체계&nbsp;개선&nbsp;및&nbsp;행정지원&nbsp;중심&nbsp;편성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	강남구민 세금부담 완화추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="강남구민 세금부담 완화추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;실거주&nbsp;1주택자와&nbsp;장기보유자의&nbsp;세부담&nbsp;완화<br>&nbsp;&nbsp;○&nbsp;신혼부부·다자녀&nbsp;가구의&nbsp;주거&nbsp;부담&nbsp;경감<br>&nbsp;&nbsp;○&nbsp;지방세&nbsp;운영의&nbsp;합리성과&nbsp;예측&nbsp;가능성&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;징벌적&nbsp;과세가&nbsp;아닌&nbsp;실수요자&nbsp;보호&nbsp;중심&nbsp;세제&nbsp;개선&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;재산세&nbsp;감면&nbsp;확대를&nbsp;중앙정부·서울시에&nbsp;지속&nbsp;건의<br>&nbsp;&nbsp;○&nbsp;장기보유&nbsp;실거주자&nbsp;세부담&nbsp;완화&nbsp;정책&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;신혼부부·다자녀&nbsp;세제지원&nbsp;확대&nbsp;건의<br>&nbsp;&nbsp;○&nbsp;납세자&nbsp;권리&nbsp;보호&nbsp;및&nbsp;세무상담&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;세금&nbsp;사용내역&nbsp;공개&nbsp;강화&nbsp;및&nbsp;예산&nbsp;효율화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;불필요한&nbsp;예산&nbsp;낭비&nbsp;구조&nbsp;개선<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;세제지원&nbsp;TF&nbsp;및&nbsp;제도&nbsp;개선&nbsp;건의안&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;~&nbsp;2028년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시·정부&nbsp;협의&nbsp;및&nbsp;제도&nbsp;개선&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2028년&nbsp;이후<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단계적&nbsp;세부담&nbsp;완화&nbsp;및&nbsp;지원&nbsp;확대&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;세출&nbsp;구조조정:&nbsp;불필요·중복&nbsp;예산&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;지방세&nbsp;효율화:&nbsp;체납관리&nbsp;및&nbsp;세원관리&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;국·시비&nbsp;확보:&nbsp;복지·주거&nbsp;관련&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;민간협력&nbsp;확대:&nbsp;일부&nbsp;지원사업&nbsp;민관협력&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;단계적&nbsp;추진:&nbsp;재정&nbsp;건전성을&nbsp;고려한&nbsp;순차&nbsp;시행</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

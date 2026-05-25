@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;권오상 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	염색산단/서대구산단 대전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="염색산단/서대구산단 대전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □목표<br>&nbsp;&nbsp;○&nbsp;염색산단·서대구산단&nbsp;산업&nbsp;구조&nbsp;전환&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;약화된&nbsp;서구&nbsp;산업을&nbsp;미래&nbsp;산업중심으로&nbsp;전환하여&nbsp;좋은&nbsp;일자리가&nbsp;지역의&nbsp;발전&nbsp;기반이&nbsp;되도록&nbsp;하겠습니다.<br><br>□이행방법<br>&nbsp;&nbsp;○&nbsp;노후&nbsp;일반공업지역&nbsp;업종&nbsp;규제&nbsp;완화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;새로운&nbsp;산업이&nbsp;들어올&nbsp;수&nbsp;있는&nbsp;법적&nbsp;근거&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;공단&nbsp;기능&nbsp;재편으로&nbsp;고부가가치&nbsp;산업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시내&nbsp;중심권&nbsp;산단에&nbsp;걸맞는&nbsp;첨단기업,&nbsp;친환경기업&nbsp;입주&nbsp;유도<br>&nbsp;&nbsp;○&nbsp;교육&nbsp;및&nbsp;연수시설&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;역세권&nbsp;지역&nbsp;필지에&nbsp;교육시설&nbsp;및&nbsp;연수시설&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;역세권&nbsp;지역&nbsp;상업&nbsp;및&nbsp;창업관련&nbsp;시설&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상업&nbsp;및&nbsp;창업시설&nbsp;유치로&nbsp;유동인구&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;강변&nbsp;지역&nbsp;공원화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;달서천,&nbsp;금호강변&nbsp;공원화로&nbsp;수변공간&nbsp;개발&nbsp;및&nbsp;이용&nbsp;활성화<br><br>□이행기간<br>&nbsp;&nbsp;○&nbsp;단기/&nbsp;장기&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우선&nbsp;법적&nbsp;제도적&nbsp;기틀&nbsp;마련,&nbsp;장기적으로&nbsp;산업단지&nbsp;구조&nbsp;개혁<br><br>□재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비/시비/민간투자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	서대구역 부도심화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="서대구역 부도심화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □목표<br>&nbsp;&nbsp;○&nbsp;서대구역을&nbsp;대구&nbsp;중심지역으로&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사람이&nbsp;모이는&nbsp;교통&nbsp;중심지를&nbsp;넘어&nbsp;사람이&nbsp;머무는&nbsp;지역&nbsp;중심지로&nbsp;서대구역을&nbsp;키우겠습니다.<br><br>□이행방법<br>&nbsp;&nbsp;○&nbsp;서대구역&nbsp;복합환승센터&nbsp;신속추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복합환승센터&nbsp;해제&nbsp;저지&nbsp;및&nbsp;신속한&nbsp;재지정&nbsp;총력<br>&nbsp;&nbsp;○&nbsp;도시철도&nbsp;5호선&nbsp;및&nbsp;대중교통&nbsp;연계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수요창출&nbsp;및&nbsp;유동인구&nbsp;확보로&nbsp;역세권&nbsp;개발&nbsp;촉진<br>&nbsp;&nbsp;○&nbsp;전국&nbsp;철도&nbsp;운행&nbsp;개편에&nbsp;맞춘&nbsp;정차&nbsp;횟수&nbsp;확대&nbsp;KTX<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;KTX-SRT통합,&nbsp;평택&nbsp;복복선개통에&nbsp;따른&nbsp;시간표&nbsp;조정에&nbsp;선제&nbsp;대응<br>&nbsp;&nbsp;○&nbsp;역세권&nbsp;지역&nbsp;상업&nbsp;시설&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상업&nbsp;및&nbsp;복합문화시설&nbsp;유치로&nbsp;유동인구&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;서대구역&nbsp;광장,&nbsp;문화여가&nbsp;공간&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화공연&nbsp;등&nbsp;서대구역&nbsp;광장&nbsp;활용도&nbsp;제고<br><br>□이행기간<br>&nbsp;&nbsp;○&nbsp;단기/중기/장기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업의&nbsp;시급성에&nbsp;따라&nbsp;우선순위&nbsp;결정&nbsp;및&nbsp;이행<br><br>□재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비/시비/민간투자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	악취 해결</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="악취 해결">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □목표<br>&nbsp;&nbsp;○&nbsp;상쾌한&nbsp;가을바람&nbsp;프로젝트'을&nbsp;통한&nbsp;악취&nbsp;문제&nbsp;근본&nbsp;해결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서구의&nbsp;가치가&nbsp;인정받기&nbsp;위해&nbsp;필수적으로&nbsp;해결해야&nbsp;할&nbsp;문제,&nbsp;지금이&nbsp;해결할&nbsp;기회입니다.<br><br>□이행방법<br>&nbsp;&nbsp;○&nbsp;서구&nbsp;실정에&nbsp;맞는&nbsp;환경관리&nbsp;기준&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민이&nbsp;냄새가&nbsp;나지&nbsp;않는다고&nbsp;느낄&nbsp;정도의&nbsp;악취관리&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;음식물&nbsp;폐기물&nbsp;처리장&nbsp;폐쇄&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;악취&nbsp;원인&nbsp;근본적&nbsp;해소로&nbsp;주민&nbsp;체감&nbsp;환경개선&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;하수처리장&nbsp;통합&nbsp;지하화&nbsp;및&nbsp;생활&nbsp;체육공원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;하수처리장&nbsp;통합&nbsp;지하화로&nbsp;악취저감&nbsp;및&nbsp;상부공간&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;하수도&nbsp;우오수&nbsp;분류화&nbsp;사업&nbsp;본격&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;달서천&nbsp;구역&nbsp;사업&nbsp;본격화로&nbsp;악취&nbsp;해소&nbsp;및&nbsp;관리&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;노후&nbsp;하수관로&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;하수관로&nbsp;정비로&nbsp;골목&nbsp;하수도&nbsp;악취&nbsp;근절<br><br>□이행기간<br>&nbsp;&nbsp;○&nbsp;단기/중기/장기&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;조례제정&nbsp;및&nbsp;기존&nbsp;계획&nbsp;사업&nbsp;신속&nbsp;추진,&nbsp;환경기초시설&nbsp;개선&nbsp;및&nbsp;폐쇄&nbsp;추진<br><br>□재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비/시비/민간투자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	서구 교통 접근성 대폭 개선</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="서구 교통 접근성 대폭 개선">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □목표<br>&nbsp;&nbsp;○&nbsp;5호선&nbsp;조속&nbsp;개통,&nbsp;시내&nbsp;접근성&nbsp;대폭&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서구의&nbsp;압도적&nbsp;도심&nbsp;접근성,&nbsp;그&nbsp;장점이&nbsp;부각될&nbsp;수&nbsp;있도록&nbsp;교통&nbsp;접근성을&nbsp;개선하겠습니다.<br><br>□이행방법<br>&nbsp;&nbsp;○&nbsp;5호선&nbsp;조속&nbsp;개통&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지하철&nbsp;개통&nbsp;시기를&nbsp;앞당길&nbsp;수&nbsp;있도록&nbsp;총력<br>&nbsp;&nbsp;○&nbsp;비산역&nbsp;신설&nbsp;적극&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지하철&nbsp;사각지대&nbsp;및&nbsp;교통취약&nbsp;지역&nbsp;해소를&nbsp;위한&nbsp;도시철도역&nbsp;설치&nbsp;적극&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;교통&nbsp;혁신과&nbsp;접근성&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민의견&nbsp;반영된&nbsp;버스노선&nbsp;개편<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출퇴근&nbsp;시간&nbsp;교차로&nbsp;신호체계&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유턴&nbsp;지점&nbsp;등&nbsp;교통&nbsp;불편지역&nbsp;시설&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;달서천&nbsp;복개도로&nbsp;교통체계&nbsp;개선<br><br>□이행기간<br>&nbsp;&nbsp;○&nbsp;단기/중기/장기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;교통민원&nbsp;신속&nbsp;해결,&nbsp;대중교통&nbsp;체계&nbsp;및&nbsp;5호선&nbsp;조속개통에&nbsp;주민&nbsp;반드시&nbsp;반영되도록&nbsp;지속&nbsp;협의<br><br>□재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	도심 생활환경 변혁</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="도심 생활환경 변혁">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □목표<br>&nbsp;&nbsp;○&nbsp;신도시&nbsp;적극&nbsp;육성,&nbsp;구도심&nbsp;생활환경&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신도시&nbsp;개발을&nbsp;적극&nbsp;지원하고,&nbsp;구도심&nbsp;생활환경을&nbsp;대폭&nbsp;개선하겠습니다.<br><br>□이행방법<br>&nbsp;&nbsp;○&nbsp;공영주차장&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주차장&nbsp;신설로&nbsp;골목상권&nbsp;지원&nbsp;및&nbsp;구도심&nbsp;주차환경&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;신도시&nbsp;개발&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신도시&nbsp;개발을&nbsp;지원하여&nbsp;젊은&nbsp;세대의&nbsp;유입을&nbsp;더욱&nbsp;촉진<br>&nbsp;&nbsp;○&nbsp;골목&nbsp;보행환경&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어린이보호구역&nbsp;및&nbsp;보행&nbsp;안전시설&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;야간&nbsp;조명&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보행로,&nbsp;상권&nbsp;조명&nbsp;개선으로&nbsp;밝고&nbsp;안전한&nbsp;거리&nbsp;조성<br><br>□이행기간<br>&nbsp;&nbsp;○&nbsp;단기/중기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업의&nbsp;시급성에&nbsp;따라&nbsp;우선순위&nbsp;결정&nbsp;및&nbsp;이행<br><br>□재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비/시비/민간투자</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

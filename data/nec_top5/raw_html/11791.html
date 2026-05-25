@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김보경 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	[산업 대전환] 3조 3천억 원 규모 '첨단 경제 융합 특구' 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="[산업 대전환] 3조 3천억 원 규모 '첨단 경제 융합 특구' 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;본&nbsp;공약의&nbsp;핵심은&nbsp;단순한&nbsp;산업단지&nbsp;조성을&nbsp;넘어,&nbsp;AI,&nbsp;로봇,&nbsp;에너지,&nbsp;유통이&nbsp;결합된&nbsp;'첨단&nbsp;경제&nbsp;융합&nbsp;특구'를&nbsp;구축하여&nbsp;달성군을&nbsp;미래&nbsp;산업의&nbsp;메카로&nbsp;만드는&nbsp;데&nbsp;있습니다.<br>미래&nbsp;산업&nbsp;거점&nbsp;확보:&nbsp;AI&nbsp;기반의&nbsp;모빌리티&nbsp;및&nbsp;로봇&nbsp;산업&nbsp;생태계&nbsp;조성.<br>에너지&nbsp;자립&nbsp;및&nbsp;효율화:&nbsp;분산에너지&nbsp;특구&nbsp;지정을&nbsp;통한&nbsp;데이터센터&nbsp;유치&nbsp;및&nbsp;에너지&nbsp;선순환&nbsp;모델&nbsp;구축.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;①&nbsp;AI·전력&nbsp;융합&nbsp;거점&nbsp;조성&nbsp;(분산에너지&nbsp;특구)<br>&nbsp;&nbsp;특구&nbsp;지정&nbsp;추진:&nbsp;'분산에너지&nbsp;활성화&nbsp;특별법'을&nbsp;활용하여&nbsp;특구&nbsp;지정을&nbsp;신청<br>&nbsp;&nbsp;데이터센터&nbsp;유치:&nbsp;직접&nbsp;구매&nbsp;계약(PPA)을&nbsp;통해&nbsp;저렴한&nbsp;전력을&nbsp;공급함으로써&nbsp;글로벌&nbsp;민간&nbsp;데이터센터를&nbsp;유치<br>&nbsp;&nbsp;에너지&nbsp;재활용:&nbsp;데이터센터에서&nbsp;발생하는&nbsp;폐열을&nbsp;인근&nbsp;스마트팜에&nbsp;무상&nbsp;공급하는&nbsp;에너지&nbsp;상생&nbsp;모델을&nbsp;도입<br>&nbsp;②제2국가산단&nbsp;신속&nbsp;착공<br>&nbsp;&nbsp;인프라&nbsp;구축:&nbsp;예타&nbsp;통과가&nbsp;완료된&nbsp;만큼,&nbsp;행정&nbsp;절차를&nbsp;간소화하여&nbsp;조기&nbsp;착공을&nbsp;추진<br>&nbsp;&nbsp;특화&nbsp;산업&nbsp;육성:&nbsp;AI를&nbsp;접목한&nbsp;미래&nbsp;모빌리티와&nbsp;휴머노이드&nbsp;로봇&nbsp;산업을&nbsp;집중적으로&nbsp;배치하여&nbsp;클러스터를&nbsp;형성<br>&nbsp;③&nbsp;첨단&nbsp;유통&nbsp;허브&nbsp;(대구&nbsp;농수산물도매시장&nbsp;이전)<br>&nbsp;&nbsp;시설&nbsp;이전:&nbsp;하빈면&nbsp;일대로&nbsp;도매시장을&nbsp;적기에&nbsp;이전(약&nbsp;4,460억&nbsp;원&nbsp;투입)<br>&nbsp;&nbsp;스마트&nbsp;물류:&nbsp;단순&nbsp;이전을&nbsp;넘어&nbsp;AI&nbsp;기반의&nbsp;수급&nbsp;관리&nbsp;및&nbsp;스마트&nbsp;물류&nbsp;시스템을&nbsp;확충<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;착수기&nbsp;(현재&nbsp;~&nbsp;2025년):&nbsp;<br>제2국가산단&nbsp;보상&nbsp;및&nbsp;실시설계,&nbsp;분산에너지&nbsp;특구&nbsp;지정&nbsp;신청,&nbsp;도매시장&nbsp;이전&nbsp;기본계획&nbsp;확정.<br>&nbsp;&nbsp;집중&nbsp;추진기&nbsp;(2026년&nbsp;~&nbsp;2028년):&nbsp;<br>제2국가산단&nbsp;착공,&nbsp;도매시장&nbsp;이전지&nbsp;토목&nbsp;공사&nbsp;진행,&nbsp;데이터센터&nbsp;부지&nbsp;분양&nbsp;및&nbsp;유치.<br>완성기&nbsp;(2029년&nbsp;~&nbsp;2030년&nbsp;이후):&nbsp;<br>도매시장&nbsp;준공&nbsp;및&nbsp;개장,&nbsp;제2국가산단&nbsp;기업&nbsp;입주&nbsp;완료,&nbsp;첨단&nbsp;경제&nbsp;융합&nbsp;특구&nbsp;본격&nbsp;가동.<br><br>□&nbsp;재원조달방안&nbsp;등<br>국비·대구시비&nbsp;등&nbsp;공공재원을&nbsp;최대&nbsp;확보하고,&nbsp;데이터센터·물류·스마트팜&nbsp;분야에는&nbsp;민간&nbsp;투자와&nbsp;정책금융<br>을&nbsp;결합해&nbsp;군&nbsp;재정부담은&nbsp;최소화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	[교통·생태 혁명] 1조 5천억 원 광역교통망 및 '국가정원' 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="[교통·생태 혁명] 1조 5천억 원 광역교통망 및 '국가정원' 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;1조&nbsp;5천억&nbsp;원대&nbsp;광역&nbsp;철도망과&nbsp;수천억&nbsp;규모의&nbsp;달성습지·화원유원지·대명유수지&nbsp;통합&nbsp;‘국가정원’을&nbsp;중심으로,&nbsp;달성을&nbsp;광역교통·생태관광&nbsp;거점으로&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;·광역&nbsp;철도망<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;대구산업선(총사업비&nbsp;약&nbsp;1조&nbsp;5,5백억&nbsp;원,&nbsp;2030년&nbsp;개통&nbsp;목표)을&nbsp;국토부·국가철도공단과&nbsp;협력해&nbsp;차질&nbsp;없이&nbsp;공정&nbsp;관리하고,&nbsp;달성군&nbsp;내&nbsp;역사&nbsp;설치와&nbsp;연계&nbsp;교통망을&nbsp;강화합니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;도시철도&nbsp;1호선&nbsp;구지&nbsp;연장을&nbsp;‘제5차&nbsp;국가철도망&nbsp;구축계획’에&nbsp;반영하도록&nbsp;대구시·정부와&nbsp;공동&nbsp;대응하고,&nbsp;지상철&nbsp;방식&nbsp;등&nbsp;경제적&nbsp;대안을&nbsp;통해&nbsp;사업&nbsp;타당성을&nbsp;확보합니다.<br>&nbsp;&nbsp;·통합&nbsp;국가정원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;달성습지-화원유원지-대명유수지&nbsp;약&nbsp;248만㎡&nbsp;일대를&nbsp;생태·문화·수변축으로&nbsp;통합한&nbsp;‘대구&nbsp;서부권&nbsp;국가정원’&nbsp;기본구상을&nbsp;수립하고,&nbsp;지방정원&nbsp;등록&nbsp;및&nbsp;국가정원&nbsp;지정&nbsp;절차를&nbsp;단계적으로&nbsp;추진.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;에코전망대·보행교&nbsp;등&nbsp;친환경&nbsp;관광&nbsp;인프라를&nbsp;조성해&nbsp;기후위기&nbsp;대응형&nbsp;생태·관광&nbsp;랜드마크로&nbsp;육성.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;·1~2년차:&nbsp;대구산업선&nbsp;공정&nbsp;점검·달성권&nbsp;역사·연계교통&nbsp;계획&nbsp;확정,&nbsp;1호선&nbsp;구지&nbsp;연장&nbsp;국가계획반영&nbsp;관철&nbsp;활동,&nbsp;통합&nbsp;국가정원&nbsp;기본구상·지방정원&nbsp;등록&nbsp;추진.<br>&nbsp;&nbsp;·3~4년차:&nbsp;대구산업선&nbsp;공사&nbsp;진행&nbsp;상황에&nbsp;맞춘&nbsp;주변&nbsp;교통·개발계획&nbsp;실행,&nbsp;1호선&nbsp;구지&nbsp;연장&nbsp;사전타당성·예비타당성&nbsp;지원,&nbsp;국가정원&nbsp;지정을&nbsp;위한&nbsp;단계별&nbsp;조성사업(에코전망대·보행교&nbsp;등)&nbsp;착수.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;·&nbsp;광역&nbsp;철도망은&nbsp;국가철도망&nbsp;사업(국비)과&nbsp;대구시&nbsp;분담&nbsp;재원을&nbsp;최대&nbsp;활용하고,&nbsp;군은&nbsp;역사&nbsp;주변&nbsp;도로·환승시설&nbsp;등&nbsp;최소한의&nbsp;연계&nbsp;인프라에&nbsp;한정해&nbsp;투자해&nbsp;재정부담을&nbsp;완화.<br>&nbsp;&nbsp;·&nbsp;통합&nbsp;국가정원은&nbsp;산림청·환경부·문화체육관광부&nbsp;등&nbsp;공모사업과&nbsp;대구시비를&nbsp;우선&nbsp;활용하고,&nbsp;에코전망대·관광&nbsp;편의시설에는&nbsp;민자·정책금융을&nbsp;병행해&nbsp;단계적으로&nbsp;조성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	[청년·공간 혁신] 청년이 모이는 '지·산·학 및 공간 개발' 패키지</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="[청년·공간 혁신] 청년이 모이는 '지·산·학 및 공간 개발' 패키지">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;RISE,&nbsp;화원&nbsp;교도소&nbsp;후적지&nbsp;개발,&nbsp;청년&nbsp;펀드를&nbsp;묶어&nbsp;달성형&nbsp;청년&nbsp;정착&nbsp;패키지를&nbsp;구축하고,&nbsp;청년&nbsp;일자리·주거·창업·문화가&nbsp;한&nbsp;번에&nbsp;해결되는&nbsp;청년친화도시&nbsp;달성을&nbsp;만들겠습니다<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;대구형&nbsp;지·산·학&nbsp;플랫폼(RISE)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;대구시&nbsp;RISE(지역혁신&nbsp;중심&nbsp;대학&nbsp;지원체계,&nbsp;5년간&nbsp;약&nbsp;6천억·연&nbsp;1,200억&nbsp;규모)를&nbsp;활용해,&nbsp;지역&nbsp;대학-국가산단·제2국가산단&nbsp;간&nbsp;현장실습·인턴·채용&nbsp;연계&nbsp;프로그램을&nbsp;확대하고&nbsp;달성&nbsp;맞춤형&nbsp;인재양성&nbsp;트랙을&nbsp;운영.<br>&nbsp;&nbsp;화원&nbsp;교도소&nbsp;후적지&nbsp;개발(국유지&nbsp;위탁·복합개발)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;기재부·LH·대구시·달성군이&nbsp;합의한&nbsp;후적지&nbsp;개발방향을&nbsp;토대로,&nbsp;국유지&nbsp;위탁·복합개발&nbsp;방식(총&nbsp;4,700억&nbsp;원&nbsp;내외)으로&nbsp;‘달성&nbsp;아레나’와&nbsp;청년&nbsp;주거·창업·문화공간이&nbsp;결합된&nbsp;전국급&nbsp;복합&nbsp;랜드마크를&nbsp;단계적으로&nbsp;조성.<br>&nbsp;&nbsp;달성&nbsp;청년&nbsp;기회&nbsp;펀드·달성&nbsp;하우징<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;100억&nbsp;원&nbsp;규모&nbsp;‘달성&nbsp;청년&nbsp;기회&nbsp;펀드’를&nbsp;군·대구시·정책금융·민간이&nbsp;함께&nbsp;조성해&nbsp;청년창업·지·산·학&nbsp;연계&nbsp;스타트업에&nbsp;투자하고,&nbsp;대구시&nbsp;청년&nbsp;전·월세&nbsp;대출이자&nbsp;지원사업과&nbsp;연계한&nbsp;‘달성&nbsp;하우징’으로&nbsp;주거비&nbsp;부담을&nbsp;완화.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;·1~2년차<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;RISE&nbsp;기본계획과&nbsp;연계한&nbsp;‘달성형&nbsp;지·산·학&nbsp;프로젝트’&nbsp;기획·시범&nbsp;운영,&nbsp;국가산단·제2국가산단&nbsp;참여&nbsp;기업(인턴·채용&nbsp;협력사)&nbsp;선정.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;화원&nbsp;교도소&nbsp;후적지&nbsp;개발계획·실시설계·사업승인&nbsp;절차&nbsp;지원,&nbsp;달성&nbsp;아레나·청년공간&nbsp;기능&nbsp;배치&nbsp;확정.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;달성&nbsp;청년&nbsp;기회&nbsp;펀드&nbsp;설계·재원&nbsp;매칭&nbsp;및&nbsp;1차&nbsp;조성,&nbsp;달성&nbsp;하우징(전·월세&nbsp;이자&nbsp;지원)&nbsp;군&nbsp;단위&nbsp;연계체계&nbsp;구축.<br>&nbsp;&nbsp;·3~4년차<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지·산·학&nbsp;인턴·채용&nbsp;프로그램&nbsp;정례화,&nbsp;졸업-취업-정착까지&nbsp;이어지는&nbsp;청년&nbsp;인재&nbsp;선순환&nbsp;모델&nbsp;가동.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;화원&nbsp;교도소&nbsp;후적지&nbsp;기반공사·달성&nbsp;아레나&nbsp;및&nbsp;청년·문화&nbsp;공간&nbsp;착공,&nbsp;일부&nbsp;구역&nbsp;단계적&nbsp;개방&nbsp;준비.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;청년&nbsp;기회&nbsp;펀드&nbsp;투자&nbsp;본격&nbsp;집행과&nbsp;달성&nbsp;하우징&nbsp;지원&nbsp;확대,&nbsp;청년&nbsp;대상&nbsp;창업·정착&nbsp;패키지&nbsp;프로그램&nbsp;운영.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;지·산·학(RISE)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;교육부·대구시가&nbsp;재원을&nbsp;부담하는&nbsp;RISE&nbsp;예산(연&nbsp;1,200억&nbsp;규모)과&nbsp;기존&nbsp;청년·일자리&nbsp;국비·시비&nbsp;사업을&nbsp;최대한&nbsp;활용해,&nbsp;군&nbsp;재정은&nbsp;연계&nbsp;프로그램&nbsp;운영비·기업&nbsp;인센티브에&nbsp;한정<br>&nbsp;&nbsp;화원&nbsp;교도소&nbsp;후적지&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;국유지&nbsp;위탁·복합개발&nbsp;구조에&nbsp;따라&nbsp;LH가&nbsp;주택·상업·일부&nbsp;공공시설&nbsp;개발비를&nbsp;부담하고,&nbsp;군은&nbsp;달성&nbsp;아레나·공원·생활&nbsp;SOC&nbsp;등&nbsp;핵심&nbsp;공공시설과&nbsp;기반시설에&nbsp;선택·집중&nbsp;투자<br>&nbsp;&nbsp;달성&nbsp;청년&nbsp;기회&nbsp;펀드·달성&nbsp;하우징<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;군&nbsp;예산,&nbsp;대구시·정책금융기관(정책펀드·보증기구)·민간&nbsp;자금을&nbsp;매칭해&nbsp;100억&nbsp;규모&nbsp;펀드를&nbsp;조성하고,&nbsp;청년&nbsp;전·월세&nbsp;이자&nbsp;지원은&nbsp;대구시&nbsp;사업(청년&nbsp;전·월세&nbsp;이자&nbsp;지원)과&nbsp;연계해&nbsp;군&nbsp;재정부담을&nbsp;분산.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	[민생·복지 실현] 내 삶을 지키는 '3대 체감형 생활 밀착 복지'</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="[민생·복지 실현] 내 삶을 지키는 '3대 체감형 생활 밀착 복지'">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;연간&nbsp;1조&nbsp;원&nbsp;수준의&nbsp;군&nbsp;재정을&nbsp;“교통-안전보험-민생지원”&nbsp;3대&nbsp;체감형&nbsp;복지에&nbsp;집중해,&nbsp;이동·위험·생활비&nbsp;부담을&nbsp;눈에&nbsp;보이게&nbsp;줄이겠습니다<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;달성형&nbsp;무상교통<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;현재&nbsp;추진&nbsp;중인&nbsp;지역&nbsp;맞춤형&nbsp;교통혁신·수요응답형&nbsp;교통(DRT)·공공셔틀&nbsp;도입&nbsp;타당성&nbsp;용역&nbsp;결과를&nbsp;바탕으로,&nbsp;관내&nbsp;시내·마을버스를&nbsp;단계적으로&nbsp;무료&nbsp;또는&nbsp;0원&nbsp;환승에&nbsp;가깝게&nbsp;전환해&nbsp;대중교통&nbsp;사각지대를&nbsp;해소합니다.<br>&nbsp;&nbsp;전&nbsp;군민&nbsp;안심보험&nbsp;자동&nbsp;가입<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;대구시&nbsp;시민안전보험,&nbsp;달성군&nbsp;군복무&nbsp;상해보험,&nbsp;자전거&nbsp;보험&nbsp;등&nbsp;기존&nbsp;무료보험을&nbsp;통합·확대해,&nbsp;재난·사고·범죄&nbsp;피해&nbsp;시&nbsp;최대&nbsp;2,000만&nbsp;원&nbsp;수준까지&nbsp;보장하는&nbsp;‘달성형&nbsp;통합&nbsp;안심보험’을&nbsp;전&nbsp;군민&nbsp;자동&nbsp;가입으로&nbsp;운영합니다.<br>&nbsp;&nbsp;전&nbsp;군민&nbsp;민생지원금(지역화폐)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;이미&nbsp;시행&nbsp;중인&nbsp;고유가&nbsp;피해지원금·민생회복&nbsp;소비쿠폰&nbsp;등&nbsp;경험을&nbsp;바탕으로,&nbsp;경기&nbsp;상황에&nbsp;맞춰&nbsp;전&nbsp;군민에게&nbsp;달성사랑상품권(또는&nbsp;대구사랑상품권)&nbsp;형태의&nbsp;민생지원금을&nbsp;지급해&nbsp;골목상권&nbsp;소비를&nbsp;집중&nbsp;유도합니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;1~2년차<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지역&nbsp;맞춤형&nbsp;교통&nbsp;타당성&nbsp;용역&nbsp;완료&nbsp;후,&nbsp;노선·대상·연령을&nbsp;단계적으로&nbsp;넓히는&nbsp;‘달성형&nbsp;무상교통&nbsp;로드맵’&nbsp;수립&nbsp;및&nbsp;시범&nbsp;시행.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;기존&nbsp;시민안전보험·군복무&nbsp;상해보험·자전거&nbsp;보험&nbsp;분석&nbsp;후,&nbsp;보장&nbsp;한도·대상·담보를&nbsp;확대한&nbsp;‘통합&nbsp;안심보험’&nbsp;설계&nbsp;및&nbsp;재계약.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;정부·대구시와&nbsp;연계한&nbsp;민생회복&nbsp;지원금,&nbsp;고유가&nbsp;피해지원금&nbsp;등을&nbsp;지역화폐로&nbsp;반복&nbsp;시행해&nbsp;제도·시스템을&nbsp;안정화.<br>&nbsp;&nbsp;3~4년차<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;무상교통&nbsp;대상&nbsp;노선·시간대·연령층을&nbsp;확대해&nbsp;사실상&nbsp;“달성&nbsp;전역&nbsp;생활권&nbsp;무상교통”&nbsp;수준으로&nbsp;단계적&nbsp;구현.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;통합&nbsp;안심보험&nbsp;보장&nbsp;범위·한도를&nbsp;상향&nbsp;조정하고,&nbsp;대형&nbsp;재난·범죄&nbsp;피해까지&nbsp;실질&nbsp;보장이&nbsp;가능한&nbsp;구조로&nbsp;업그레이드.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지역경제&nbsp;상황에&nbsp;따라&nbsp;연&nbsp;1회&nbsp;이상&nbsp;민생지원금(지역화폐)을&nbsp;탄력&nbsp;지급해&nbsp;소상공인&nbsp;매출&nbsp;회복과&nbsp;소비&nbsp;촉진을&nbsp;지속&nbsp;지원.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;달성형&nbsp;무상교통<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;수요응답형&nbsp;교통·공공셔틀&nbsp;등&nbsp;국비·시비&nbsp;지원&nbsp;사업을&nbsp;최대&nbsp;활용하고,&nbsp;중복·비효율&nbsp;예산&nbsp;조정을&nbsp;통해&nbsp;연차별로&nbsp;군비&nbsp;부담을&nbsp;흡수하면서&nbsp;단계적으로&nbsp;무상교통&nbsp;비중을&nbsp;확대합니다.<br>&nbsp;&nbsp;전&nbsp;군민&nbsp;안심보험<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;대구시&nbsp;시민안전보험과&nbsp;연계&nbsp;계약을&nbsp;통해&nbsp;단가를&nbsp;낮추고,&nbsp;군&nbsp;예산으로&nbsp;추가&nbsp;담보·한도(재난·범죄&nbsp;피해&nbsp;등)를&nbsp;보강해도&nbsp;1인당&nbsp;소액&nbsp;예산으로&nbsp;전&nbsp;군민&nbsp;보장이&nbsp;가능하도록&nbsp;설계합니다.<br>&nbsp;&nbsp;전&nbsp;군민&nbsp;민생지원금<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;중앙정부의&nbsp;민생회복&nbsp;소비쿠폰·고유가&nbsp;피해지원금&nbsp;등&nbsp;국비&nbsp;프로그램을&nbsp;적극&nbsp;유치하고,&nbsp;경기&nbsp;침체&nbsp;시에는&nbsp;군&nbsp;예산&nbsp;일부와&nbsp;대구시&nbsp;협력&nbsp;재원을&nbsp;더해&nbsp;달성사랑상품권·대구사랑상품권으로&nbsp;지급합니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	[거버넌스·행정] '상생 거버넌스' 구축 및 일하는 책임 행정</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="[거버넌스·행정] '상생 거버넌스' 구축 및 일하는 책임 행정">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;가창권역·국책사업·예산&nbsp;분야에&nbsp;상설&nbsp;상생&nbsp;거버넌스와&nbsp;패스트트랙&nbsp;행정&nbsp;시스템을&nbsp;구축해,&nbsp;군&nbsp;단독&nbsp;행정으로&nbsp;풀지&nbsp;못하던&nbsp;묵은&nbsp;현안을&nbsp;“협의-조정-속도”로&nbsp;해결하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;가창권역&nbsp;특화&nbsp;상생&nbsp;거버넌스<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;대구시-달성군-수성구가&nbsp;참여하는&nbsp;가창권역&nbsp;공식&nbsp;협의체를&nbsp;조례&nbsp;또는&nbsp;협약&nbsp;형태로&nbsp;상설화하고,&nbsp;상수원·환경규제·교통·관광을&nbsp;통합&nbsp;논의하는&nbsp;‘가창권역&nbsp;상생&nbsp;거버넌스’를&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;협의체를&nbsp;기반으로&nbsp;행안부·대구시와&nbsp;협의해&nbsp;‘(가칭)&nbsp;가창&nbsp;특별행정협력지구’&nbsp;지정을&nbsp;추진하고,&nbsp;양&nbsp;구·군&nbsp;주민이&nbsp;함께&nbsp;쓰는&nbsp;생활·관광&nbsp;시설에&nbsp;대해&nbsp;‘가창-수성&nbsp;원패스’(요금·이용&nbsp;편익&nbsp;통합)&nbsp;도입을&nbsp;협의.&nbsp;<br>&nbsp;&nbsp;가창&nbsp;그린-스마트&nbsp;특구<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;중기부의&nbsp;규제자유특구·환경부&nbsp;그린·스마트&nbsp;정책을&nbsp;참고해,&nbsp;환경부-대구시-달성군&nbsp;3자&nbsp;협의체를&nbsp;구성하고&nbsp;친환경&nbsp;에코&nbsp;투어·스마트&nbsp;생태&nbsp;모니터링&nbsp;등의&nbsp;규제&nbsp;완화·실증이&nbsp;가능한&nbsp;‘가창&nbsp;그린-스마트&nbsp;특구’&nbsp;지정을&nbsp;추진.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;상수원&nbsp;보호와&nbsp;지역경제를&nbsp;함께&nbsp;살리는&nbsp;에코&nbsp;테마&nbsp;관광벨트(친환경&nbsp;숙박·산책로·생태교육·로컬푸드&nbsp;등)&nbsp;시범&nbsp;사업을&nbsp;단계적으로&nbsp;도입.<br>&nbsp;&nbsp;패스트트랙&nbsp;전담&nbsp;TF&nbsp;&&nbsp;예산&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;국책·광역&nbsp;현안(국가산단,&nbsp;산업선,&nbsp;국가정원,&nbsp;특구&nbsp;등)을&nbsp;전담할&nbsp;‘국책사업·규제혁신&nbsp;TF’를&nbsp;군수&nbsp;직속으로&nbsp;설치해,&nbsp;인허가·협의&nbsp;기간을&nbsp;줄이고&nbsp;중앙·대구시와&nbsp;1:1&nbsp;창구를&nbsp;일원화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;매년&nbsp;발생하는&nbsp;순세계잉여금(불용액·이월금&nbsp;포함)을&nbsp;점검해,&nbsp;불요불급&nbsp;사업을&nbsp;줄이고&nbsp;남는&nbsp;재원은&nbsp;우선적으로&nbsp;민생·청년·교통·복지&nbsp;예산에&nbsp;반영하는&nbsp;‘예산&nbsp;혁신&nbsp;원칙’을&nbsp;제도화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;1~2년차<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;가창권역&nbsp;3자(대구시-달성군-수성구)&nbsp;협의체&nbsp;구성&nbsp;및&nbsp;운영규약&nbsp;제정,&nbsp;특별행정협력지구&nbsp;지정·원패스&nbsp;도입에&nbsp;대한&nbsp;기본협약&nbsp;추진.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;환경부-대구시-달성군&nbsp;3자&nbsp;협의체를&nbsp;통해&nbsp;가창&nbsp;그린-스마트&nbsp;특구&nbsp;기본구상·후보사업(에코관광·스마트&nbsp;환경관리&nbsp;등)&nbsp;발굴.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;군수&nbsp;직속&nbsp;국책사업·규제혁신&nbsp;TF&nbsp;신설,&nbsp;순세계잉여금&nbsp;사용&nbsp;원칙(민생·청년&nbsp;우선)&nbsp;수립&nbsp;및&nbsp;관련&nbsp;규정·지침&nbsp;정비.<br>&nbsp;&nbsp;3~4년차<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;가창&nbsp;상생&nbsp;거버넌스&nbsp;정례화,&nbsp;공동&nbsp;숙원사업(도로·관광·환경시설&nbsp;등)&nbsp;패키지&nbsp;합의&nbsp;및&nbsp;일부&nbsp;사업&nbsp;착수,&nbsp;가창-수성&nbsp;원패스&nbsp;시범&nbsp;운영.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;가창&nbsp;그린-스마트&nbsp;특구&nbsp;지정&nbsp;신청&nbsp;및&nbsp;1단계&nbsp;에코&nbsp;테마&nbsp;관광벨트·스마트&nbsp;규제완화&nbsp;시범&nbsp;사업&nbsp;시행.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;패스트트랙&nbsp;TF를&nbsp;통한&nbsp;주요&nbsp;인허가&nbsp;기간&nbsp;단축&nbsp;성과&nbsp;창출,&nbsp;순세계잉여금을&nbsp;활용한&nbsp;민생·청년·교통·복지&nbsp;사업&nbsp;연차&nbsp;확대.<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;상생&nbsp;거버넌스·특별행정협력지구<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;협의체&nbsp;운영비·연구용역비는&nbsp;대구시·달성군·수성구&nbsp;공동&nbsp;분담으로&nbsp;최소한으로&nbsp;편성하고,&nbsp;실제&nbsp;사업비는&nbsp;대구시&nbsp;광역예산·국비&nbsp;공모사업(교통·환경·관광&nbsp;등)을&nbsp;최대&nbsp;활용&nbsp;<br>&nbsp;&nbsp;가창&nbsp;그린-스마트&nbsp;특구<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;규제자유특구·그린뉴딜·에코관광&nbsp;등&nbsp;중앙정부&nbsp;공모사업(국비)과&nbsp;대구시비를&nbsp;우선&nbsp;활용하고,&nbsp;민간&nbsp;관광·숙박·체험시설에는&nbsp;민간&nbsp;투자·정책금융(관광·녹색금융)을&nbsp;연계.&nbsp;패스트트랙&nbsp;TF&nbsp;&&nbsp;예산&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;TF&nbsp;운영은&nbsp;조직·인력&nbsp;재배치로&nbsp;인건비&nbsp;추가&nbsp;없이&nbsp;추진하고,&nbsp;타당성&nbsp;낮은&nbsp;사업&nbsp;조정·순세계&nbsp;잉여금&nbsp;재배분을&nbsp;통해&nbsp;민생·청년&nbsp;예산&nbsp;재원을&nbsp;내부적으로&nbsp;우선&nbsp;확보.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;필요&nbsp;시&nbsp;대구시와&nbsp;연계한&nbsp;특별교부세·특별조정교부금,&nbsp;국비&nbsp;공모사업을&nbsp;추가로&nbsp;확보해&nbsp;군&nbsp;재정&nbsp;부담을&nbsp;분산.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

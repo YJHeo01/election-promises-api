@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;하유정 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	농촌소득 혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="농촌소득 혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;농촌기본소득과&nbsp;햇빛연금을&nbsp;통해&nbsp;안정적인&nbsp;농촌&nbsp;생활소득&nbsp;기반을&nbsp;구축하겠습니다.<br>○&nbsp;농업소득&nbsp;중심의&nbsp;기존&nbsp;구조를&nbsp;넘어&nbsp;에너지소득·유통혁신·생활경제가&nbsp;결합된&nbsp;“보은형&nbsp;농촌소득&nbsp;혁신모델”을&nbsp;만들겠습니다.<br>○&nbsp;농업&nbsp;생산만으로는&nbsp;생활이&nbsp;어려운&nbsp;현실을&nbsp;개선하고,&nbsp;청년농업인과&nbsp;귀농귀촌&nbsp;인구가&nbsp;다시&nbsp;돌아오는&nbsp;지속가능한&nbsp;농촌경제&nbsp;기반을&nbsp;구축하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;농업소득&nbsp;+&nbsp;에너지소득&nbsp;+&nbsp;유통혁신&nbsp;+&nbsp;생활경제가&nbsp;연결되는&nbsp;미래형&nbsp;농촌경제&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;군민&nbsp;생활안정&nbsp;및&nbsp;지역&nbsp;내&nbsp;소비&nbsp;확대를&nbsp;통한&nbsp;골목상권&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;청년농업·후계농&nbsp;육성&nbsp;및&nbsp;인구&nbsp;유입&nbsp;기반&nbsp;마련<br><br>□&nbsp;이행방법<br>○&nbsp;농촌기본소득&nbsp;시범사업을&nbsp;단계적으로&nbsp;추진하겠습니다.&nbsp;:&nbsp;초고령화와&nbsp;인구감소로&nbsp;어려움을&nbsp;겪는&nbsp;농촌지역에&nbsp;기본적인&nbsp;생활안정&nbsp;기반을&nbsp;마련해&nbsp;지역&nbsp;내&nbsp;소비와&nbsp;경제순환을&nbsp;확대하겠습니다.<br>○&nbsp;주민참여형&nbsp;태양광과&nbsp;영농형&nbsp;태양광&nbsp;확대를&nbsp;통해&nbsp;“햇빛연금”&nbsp;체계를&nbsp;구축하겠습니다.&nbsp;<br>외부기업&nbsp;중심&nbsp;개발이&nbsp;아니라&nbsp;군민이&nbsp;직접&nbsp;참여하고&nbsp;수익을&nbsp;공유하는&nbsp;주민참여형&nbsp;모델로&nbsp;추진하겠습니다.&nbsp;전국&nbsp;약&nbsp;500여&nbsp;곳의&nbsp;후보지&nbsp;논의&nbsp;속에서&nbsp;보은은&nbsp;우선&nbsp;읍·면&nbsp;단위별&nbsp;단계적&nbsp;시범사업으로&nbsp;추진해&nbsp;안정성과&nbsp;주민&nbsp;수용성을&nbsp;확보하겠습니다.<br>○&nbsp;스마트농업과&nbsp;공공형&nbsp;유통플랫폼을&nbsp;구축하겠습니다.&nbsp;<br>스마트&nbsp;관수,&nbsp;환경관리,&nbsp;공동선별·유통&nbsp;시스템&nbsp;확대와&nbsp;함께&nbsp;온라인&nbsp;판매,&nbsp;로컬푸드,&nbsp;공공급식&nbsp;연계를&nbsp;통해&nbsp;농산물이&nbsp;제값&nbsp;받는&nbsp;구조를&nbsp;만들겠습니다.<br>○&nbsp;귀농귀촌&nbsp;원스톱지원&nbsp;행정을&nbsp;구축하겠습니다.&nbsp;<br>주거·농지·창업·교육·정착상담을&nbsp;통합&nbsp;지원해&nbsp;청년농업인과&nbsp;귀농귀촌&nbsp;인구가&nbsp;실제로&nbsp;정착할&nbsp;수&nbsp;있는&nbsp;기반을&nbsp;만들겠습니다.<br>○&nbsp;청년농부·후계농&nbsp;육성을&nbsp;확대하겠습니다.&nbsp;:&nbsp;스마트농업&nbsp;교육,&nbsp;창업지원,&nbsp;농업학교&nbsp;운영&nbsp;등을&nbsp;통해&nbsp;미래농업&nbsp;인재를&nbsp;체계적으로&nbsp;육성하겠습니다.<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;내&nbsp;단계별&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;1단계:&nbsp;농촌기본소득&nbsp;및&nbsp;햇빛연금&nbsp;시범사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;2단계:&nbsp;읍·면별&nbsp;주민참여형&nbsp;확대&nbsp;및&nbsp;스마트농업&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;3단계:&nbsp;보은형&nbsp;농촌소득&nbsp;혁신모델&nbsp;정착&nbsp;및&nbsp;지역순환경제&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;농림축산식품부&nbsp;공모사업&nbsp;및&nbsp;농촌협약사업&nbsp;적극&nbsp;추진<br>○&nbsp;신재생에너지&nbsp;지원사업&nbsp;및&nbsp;RE100&nbsp;연계사업&nbsp;활용<br>○&nbsp;지방소멸대응기금&nbsp;및&nbsp;충청북도&nbsp;지원사업&nbsp;연계<br>○&nbsp;주민참여형&nbsp;민간투자&nbsp;및&nbsp;군비&nbsp;매칭&nbsp;추진<br>○&nbsp;중앙정부·충청북도&nbsp;협력사업&nbsp;확대&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	보은 공공의료망 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="보은 공공의료망 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;“보은에서&nbsp;아파도&nbsp;안심할&nbsp;수&nbsp;있는&nbsp;의료안전도시”를&nbsp;만들겠습니다.<br>○&nbsp;초고령화&nbsp;지역인&nbsp;보은의&nbsp;현실에&nbsp;맞춰&nbsp;어린이·어르신&nbsp;응급의료,&nbsp;병원동행&nbsp;교통,&nbsp;공공의료&nbsp;접근성을&nbsp;획기적으로&nbsp;강화하겠습니다.<br>○&nbsp;의료를&nbsp;단순&nbsp;복지&nbsp;차원이&nbsp;아니라&nbsp;군민&nbsp;생명과&nbsp;직결된&nbsp;핵심&nbsp;민생정책으로&nbsp;추진하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;응급상황&nbsp;골든타임&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;어르신·교통약자&nbsp;의료&nbsp;접근성&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;청주·대전권&nbsp;상급병원&nbsp;연계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;충북&nbsp;남부권&nbsp;공공의료기관&nbsp;조성&nbsp;및&nbsp;기반&nbsp;구축<br><br>□&nbsp;이행방법<br>○&nbsp;보건소&nbsp;중심&nbsp;응급의료&nbsp;컨트롤타워를&nbsp;구축하겠습니다.<br>119,&nbsp;지역의료기관,&nbsp;청주·대전권&nbsp;상급병원을&nbsp;하나로&nbsp;연결하는&nbsp;보은형&nbsp;응급의료&nbsp;협력체계를&nbsp;만들겠습니다.&nbsp;응급환자&nbsp;발생&nbsp;시&nbsp;환자&nbsp;상태와&nbsp;병원&nbsp;수용&nbsp;가능&nbsp;정보를&nbsp;신속히&nbsp;공유해&nbsp;가장&nbsp;적합한&nbsp;병원으로&nbsp;빠르게&nbsp;이송될&nbsp;수&nbsp;있도록&nbsp;하겠습니다.<br>○&nbsp;청주·대전권&nbsp;병원&nbsp;협력망을&nbsp;강화하겠습니다.<br>충북대학교병원,&nbsp;청주의료원,&nbsp;청주권&nbsp;종합병원,&nbsp;충남대학교병원&nbsp;등과&nbsp;협력체계를&nbsp;구축해&nbsp;응급환자&nbsp;우선&nbsp;수용과&nbsp;신속&nbsp;전원&nbsp;체계를&nbsp;강화하겠습니다.<br>○&nbsp;병원동행&nbsp;교통서비스를&nbsp;단계적으로&nbsp;확대하겠습니다.<br>특히&nbsp;고령층과&nbsp;교통약자를&nbsp;위해&nbsp;병원&nbsp;예약,&nbsp;이동,&nbsp;귀가까지&nbsp;지원하는&nbsp;생활밀착형&nbsp;의료교통&nbsp;서비스를&nbsp;확대해&nbsp;실제&nbsp;군민들이&nbsp;체감할&nbsp;수&nbsp;있는&nbsp;의료안전망을&nbsp;구축하겠습니다.<br>○&nbsp;야간·주말&nbsp;응급의료&nbsp;공백&nbsp;최소화에&nbsp;나서겠습니다.<br>야간과&nbsp;주말&nbsp;응급환자&nbsp;대응체계를&nbsp;강화하고&nbsp;응급의료&nbsp;취약지&nbsp;지원사업과&nbsp;연계해&nbsp;의료&nbsp;사각지대를&nbsp;줄이겠습니다.<br>○&nbsp;충북&nbsp;남부권&nbsp;중간공공의료기관&nbsp;유치를&nbsp;추진하겠습니다.<br>보은·옥천·영동&nbsp;등&nbsp;충북&nbsp;남부권은&nbsp;공공의료&nbsp;접근성이&nbsp;매우&nbsp;취약한&nbsp;상황입니다.&nbsp;대통령&nbsp;공약&nbsp;및&nbsp;국가&nbsp;공공의료&nbsp;정책과&nbsp;연계해&nbsp;중간공공의료기관&nbsp;유치를&nbsp;적극&nbsp;추진하겠습니다.<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;초&nbsp;응급의료&nbsp;협력망&nbsp;구축&nbsp;착수<br>○&nbsp;1단계:&nbsp;보건소&nbsp;중심&nbsp;응급의료&nbsp;컨트롤타워&nbsp;구축<br>○&nbsp;2단계:&nbsp;병원동행&nbsp;교통서비스&nbsp;확대&nbsp;및&nbsp;야간·주말&nbsp;대응체계&nbsp;강화<br>○&nbsp;3단계:&nbsp;충북&nbsp;남부권&nbsp;중간공공의료기관&nbsp;유치&nbsp;기반&nbsp;마련&nbsp;및&nbsp;중앙정부&nbsp;협의&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;보건복지부&nbsp;공공의료&nbsp;확충사업&nbsp;활용<br>○&nbsp;응급의료&nbsp;취약지&nbsp;지원사업&nbsp;및&nbsp;지방소멸대응기금&nbsp;연계<br>○&nbsp;충청북도&nbsp;공공의료&nbsp;지원사업&nbsp;연계&nbsp;추진<br>○&nbsp;대통령&nbsp;공약&nbsp;및&nbsp;중앙정부&nbsp;협력사업&nbsp;적극&nbsp;반영<br>○&nbsp;군비&nbsp;및&nbsp;단계별&nbsp;국·도비&nbsp;확보&nbsp;추진<br>특히&nbsp;충북&nbsp;남부권&nbsp;공공의료&nbsp;확충은&nbsp;중앙정부와&nbsp;충청북도의&nbsp;협력이&nbsp;반드시&nbsp;필요한&nbsp;사업입니다.&nbsp;여당&nbsp;<br>후보로서&nbsp;중앙정부·충청북도·국회와&nbsp;긴밀히&nbsp;협력해&nbsp;실질적인&nbsp;사업과&nbsp;예산&nbsp;확보로&nbsp;연결하겠습니다</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	물주권 기반 산업경제 혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="물주권 기반 산업경제 혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;생활용수와&nbsp;공업용수를&nbsp;동시에&nbsp;확보해&nbsp;“산업이&nbsp;들어오는&nbsp;보은”,&nbsp;“청년이&nbsp;돌아오는&nbsp;보은”을&nbsp;만들겠습니다.<br>○&nbsp;안정적인&nbsp;광역상수도&nbsp;기반을&nbsp;구축해&nbsp;첨단산업단지와&nbsp;앵커기업&nbsp;유치&nbsp;기반을&nbsp;마련하겠습니다.<br>○&nbsp;기존&nbsp;지역기업과&nbsp;연계한&nbsp;산업생태계를&nbsp;육성해&nbsp;청년일자리와&nbsp;지역경제를&nbsp;함께&nbsp;살리겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;생활용수&nbsp;안정&nbsp;공급&nbsp;및&nbsp;물주권&nbsp;100%&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공업용수&nbsp;기반&nbsp;구축을&nbsp;통한&nbsp;기업&nbsp;유치&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;첨단산업단지&nbsp;및&nbsp;미래형&nbsp;산업생태계&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;청년&nbsp;일자리&nbsp;및&nbsp;지역상권&nbsp;동반성장&nbsp;기반&nbsp;마련<br><br>□&nbsp;이행방법<br>○&nbsp;대청댐&nbsp;광역상수도&nbsp;연계&nbsp;및&nbsp;공업용수&nbsp;공급체계를&nbsp;구축하겠습니다.<br>보은은&nbsp;현재&nbsp;공업용수&nbsp;부족으로&nbsp;인해&nbsp;첨단기업&nbsp;유치와&nbsp;산업단지&nbsp;확대에&nbsp;구조적&nbsp;한계를&nbsp;겪고&nbsp;있습니다.&nbsp;환경부·충청북도·K-water와&nbsp;협력해&nbsp;안정적인&nbsp;생활용수와&nbsp;공업용수를&nbsp;동시에&nbsp;확보하겠습니다.<br>○&nbsp;단계별&nbsp;광역상수도&nbsp;및&nbsp;산업기반&nbsp;확충을&nbsp;추진하겠습니다.<br>생활용수&nbsp;공급&nbsp;안정화와&nbsp;함께&nbsp;산업단지&nbsp;및&nbsp;기업&nbsp;수요에&nbsp;대응할&nbsp;수&nbsp;있는&nbsp;공업용수&nbsp;기반을&nbsp;단계적으로&nbsp;확대하겠습니다.<br>○&nbsp;지역기업&nbsp;중심&nbsp;산업생태계를&nbsp;육성하겠습니다.<br>보은에는&nbsp;세계적인&nbsp;방산기업&nbsp;한화에어로스페이스와&nbsp;AI로봇기업&nbsp;우진프라임&nbsp;등&nbsp;우수한&nbsp;기업&nbsp;기반이&nbsp;이미&nbsp;존재합니다.&nbsp;기존&nbsp;기업과&nbsp;연계한&nbsp;협력업체·연관기업&nbsp;유치를&nbsp;확대해&nbsp;방산·AI·친환경&nbsp;산업&nbsp;중심의&nbsp;산업생태계를&nbsp;육성하겠습니다.<br>○&nbsp;청년일자리와&nbsp;지역상권&nbsp;동반성장을&nbsp;추진하겠습니다.<br>첨단기업&nbsp;유치와&nbsp;함께&nbsp;지역인재&nbsp;채용&nbsp;확대,&nbsp;청년창업&nbsp;지원,&nbsp;지역업체&nbsp;우선&nbsp;참여&nbsp;등을&nbsp;통해&nbsp;산업&nbsp;성장&nbsp;효과가&nbsp;군민&nbsp;생활과&nbsp;골목상권으로&nbsp;연결될&nbsp;수&nbsp;있도록&nbsp;하겠습니다.<br>○&nbsp;“지역기업사랑&nbsp;주식갖기&nbsp;운동”&nbsp;등&nbsp;동반성장&nbsp;모델을&nbsp;검토하겠습니다.<br>기업과&nbsp;군민이&nbsp;함께&nbsp;성장하는&nbsp;지역경제&nbsp;구조를&nbsp;만들어&nbsp;산업&nbsp;성장의&nbsp;성과가&nbsp;지역사회&nbsp;전체로&nbsp;확산되도록&nbsp;하겠습니다.<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;내&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;중앙정부·충청북도&nbsp;협의&nbsp;착수<br>○&nbsp;1단계:&nbsp;광역상수도&nbsp;및&nbsp;공업용수&nbsp;기반&nbsp;타당성&nbsp;검토<br>○&nbsp;2단계:&nbsp;환경부·K-water·충청북도&nbsp;협력사업&nbsp;추진<br>○&nbsp;3단계:&nbsp;산업단지&nbsp;및&nbsp;첨단기업&nbsp;유치&nbsp;기반&nbsp;단계적&nbsp;확충<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;환경부&nbsp;광역상수도&nbsp;사업&nbsp;연계&nbsp;추진<br>○&nbsp;국가균형발전특별회계&nbsp;및&nbsp;산업단지&nbsp;국비사업&nbsp;활용<br>○&nbsp;충청북도&nbsp;지원사업&nbsp;및&nbsp;지방소멸대응기금&nbsp;연계<br>○&nbsp;민간투자&nbsp;및&nbsp;군비&nbsp;매칭&nbsp;추진<br>○&nbsp;대통령&nbsp;공약&nbsp;및&nbsp;중앙정부&nbsp;협력사업&nbsp;적극&nbsp;반영<br>특히&nbsp;광역상수도&nbsp;기반&nbsp;구축은&nbsp;보은군&nbsp;단독으로&nbsp;해결하기&nbsp;어려운&nbsp;국가&nbsp;기반사업입니다.&nbsp;여당&nbsp;후보로서&nbsp;중앙정부·충청북도·국회와&nbsp;긴밀히&nbsp;협력해&nbsp;반드시&nbsp;국가사업으로&nbsp;연결하고&nbsp;실질적인&nbsp;예산&nbsp;확보를&nbsp;추진하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	속리산 체류형 관광경제 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="속리산 체류형 관광경제 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;속리산&nbsp;관광객&nbsp;200만&nbsp;시대&nbsp;기반을&nbsp;조성하겠습니다.<br>○&nbsp;단순&nbsp;방문형&nbsp;관광을&nbsp;넘어&nbsp;숙박·소비·문화·스포츠·힐링이&nbsp;연결되는&nbsp;체류형&nbsp;관광경제로&nbsp;전환하겠습니다.<br>○&nbsp;관광객&nbsp;증가가&nbsp;실제&nbsp;지역상권과&nbsp;군민&nbsp;소득으로&nbsp;연결되는&nbsp;지역순환형&nbsp;관광경제를&nbsp;구축하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;숙박형·체류형&nbsp;관광&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;문화·예술·스포츠&nbsp;융합&nbsp;관광도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;속리산&nbsp;중심&nbsp;관광벨트&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;관광과&nbsp;골목상권이&nbsp;함께&nbsp;성장하는&nbsp;지역경제&nbsp;실현<br><br>□&nbsp;이행방법<br>○&nbsp;속리산&nbsp;힐링관광센터와&nbsp;워케이션센터를&nbsp;조성하겠습니다.<br>속리산의&nbsp;자연환경과&nbsp;치유자원을&nbsp;활용해&nbsp;힐링·명상·휴식&nbsp;중심&nbsp;관광을&nbsp;확대하고,&nbsp;장기&nbsp;체류형&nbsp;워케이션&nbsp;관광&nbsp;기반을&nbsp;구축하겠습니다.<br>○&nbsp;유소년축구센터&nbsp;및&nbsp;스포츠관광&nbsp;인프라를&nbsp;육성하겠습니다.<br>전지훈련,&nbsp;유소년&nbsp;스포츠대회,&nbsp;생활체육&nbsp;행사를&nbsp;유치해&nbsp;숙박·식당·지역상권과&nbsp;연계되는&nbsp;스포츠관광&nbsp;경제를&nbsp;만들겠습니다.<br>○&nbsp;K-문화영상드라마단지&nbsp;민간투자를&nbsp;유치하겠습니다.<br>보은의&nbsp;자연환경과&nbsp;속리산&nbsp;관광자원을&nbsp;활용해&nbsp;드라마·영화·OTT&nbsp;촬영단지,&nbsp;가상촬영&nbsp;스튜디오,&nbsp;영상교육센터&nbsp;등을&nbsp;단계적으로&nbsp;유치하겠습니다.<br>○&nbsp;문화예술과&nbsp;야간관광&nbsp;콘텐츠를&nbsp;확대하겠습니다.<br>버스킹,&nbsp;야시장,&nbsp;지역축제,&nbsp;문화예술&nbsp;프로그램을&nbsp;활성화해&nbsp;관광객이&nbsp;밤에도&nbsp;머물고&nbsp;소비하는&nbsp;체류형&nbsp;관광도시를&nbsp;만들겠습니다.<br>○&nbsp;전통시장·카페·숙박업과&nbsp;연계되는&nbsp;관광경제를&nbsp;구축하겠습니다.<br>관광객&nbsp;증가가&nbsp;실제&nbsp;지역상권&nbsp;매출&nbsp;증가로&nbsp;이어질&nbsp;수&nbsp;있도록&nbsp;전통시장,&nbsp;로컬푸드,&nbsp;카페거리와&nbsp;연계한&nbsp;지역순환형&nbsp;관광정책을&nbsp;추진하겠습니다.<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;초&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;민간투자&nbsp;협의&nbsp;추진<br>○&nbsp;1단계:&nbsp;힐링관광·워케이션&nbsp;기반&nbsp;구축<br>○&nbsp;2단계:&nbsp;스포츠관광&nbsp;및&nbsp;문화콘텐츠&nbsp;사업&nbsp;확대<br>○&nbsp;3단계:&nbsp;주요&nbsp;관광거점별&nbsp;체류형&nbsp;관광벨트&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;문화체육관광부&nbsp;관광개발사업&nbsp;및&nbsp;체류형&nbsp;관광&nbsp;지원사업&nbsp;활용<br>○&nbsp;충청북도&nbsp;관광사업&nbsp;및&nbsp;지방소멸대응기금&nbsp;연계<br>○&nbsp;민간투자&nbsp;유치&nbsp;및&nbsp;군비&nbsp;매칭&nbsp;추진<br>○&nbsp;대통령&nbsp;공약&nbsp;및&nbsp;중앙정부&nbsp;관광활성화&nbsp;정책&nbsp;연계&nbsp;추진<br><br>특히&nbsp;속리산&nbsp;관광&nbsp;활성화는&nbsp;보은군&nbsp;단독사업이&nbsp;아니라&nbsp;중앙정부&nbsp;관광정책과&nbsp;충청북도&nbsp;관광벨트&nbsp;전략이&nbsp;함께&nbsp;연결되어야&nbsp;합니다.&nbsp;여당&nbsp;후보로서&nbsp;중앙정부·충청북도와&nbsp;협력해&nbsp;관광&nbsp;인프라와&nbsp;예산&nbsp;확보를&nbsp;반드시&nbsp;추진하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	군민 행복복지 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="군민 행복복지 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;유아,&nbsp;어린이&nbsp;및&nbsp;60·70대&nbsp;이상&nbsp;어르신의&nbsp;의료·돌봄·생활소득·평생교육을&nbsp;통합&nbsp;지원하는&nbsp;보은형&nbsp;행복복지체계를&nbsp;구축하겠습니다.<br>○&nbsp;아이·청년·어르신&nbsp;모두가&nbsp;지역&nbsp;안에서&nbsp;안심하고&nbsp;살아갈&nbsp;수&nbsp;있는&nbsp;생활밀착형&nbsp;복지&nbsp;실현하겠습니다.<br>○&nbsp;단순&nbsp;지원&nbsp;중심&nbsp;복지를&nbsp;넘어&nbsp;“생활비&nbsp;부담을&nbsp;줄이고&nbsp;삶의&nbsp;질을&nbsp;높이는&nbsp;생활복지”&nbsp;추진하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;어린이,&nbsp;어르신&nbsp;의료·돌봄&nbsp;안전망&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;시니어&nbsp;생활일자리&nbsp;및&nbsp;평생생활소득&nbsp;기반&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;생활교통·생활SOC&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;세대가&nbsp;함께&nbsp;행복한&nbsp;공동체&nbsp;복지&nbsp;실현<br><br>□&nbsp;이행방법<br>○&nbsp;병원동행&nbsp;및&nbsp;응급의료&nbsp;연계체계를&nbsp;확대하겠습니다.<br>어린이,&nbsp;고령층과&nbsp;교통약자를&nbsp;위해&nbsp;병원&nbsp;예약·이동·귀가까지&nbsp;지원하는&nbsp;병원동행&nbsp;서비스를&nbsp;확대하고,&nbsp;보건소&nbsp;중심&nbsp;응급의료망과&nbsp;연계해&nbsp;의료&nbsp;불안을&nbsp;줄이겠습니다.<br>○&nbsp;마을&nbsp;중심&nbsp;돌봄체계를&nbsp;구축하겠습니다.<br>경로당,&nbsp;마을회관,&nbsp;복지시설과&nbsp;연계해&nbsp;어르신&nbsp;안부&nbsp;확인,&nbsp;생활지원,&nbsp;방문건강관리&nbsp;등을&nbsp;강화하고&nbsp;지역공동체&nbsp;돌봄&nbsp;기능을&nbsp;확대하겠습니다.<br>○&nbsp;어르신&nbsp;평생교육을&nbsp;확대하겠습니다.<br>디지털&nbsp;교육,&nbsp;건강교육,&nbsp;문화·취미&nbsp;프로그램&nbsp;등&nbsp;어르신&nbsp;평생교육을&nbsp;강화해&nbsp;활기차고&nbsp;건강한&nbsp;노후생활을&nbsp;지원하겠습니다.<br>○&nbsp;시니어&nbsp;생활일자리를&nbsp;확대하겠습니다.<br>단순&nbsp;단기&nbsp;공공근로가&nbsp;아니라&nbsp;마을환경&nbsp;관리,&nbsp;생활돌봄&nbsp;지원,&nbsp;관광안내,&nbsp;공공시설&nbsp;관리&nbsp;등&nbsp;어르신&nbsp;경험과&nbsp;역량을&nbsp;활용할&nbsp;수&nbsp;있는&nbsp;생활밀착형&nbsp;시니어&nbsp;일자리를&nbsp;확대하겠습니다.<br>특히&nbsp;농촌기본소득,&nbsp;햇빛연금과&nbsp;연계해&nbsp;안정적인&nbsp;평생생활소득&nbsp;기반을&nbsp;만들겠습니다.<br>○&nbsp;무료버스·생활교통·생활SOC를&nbsp;확충하겠습니다.<br>무료버스와&nbsp;생활교통&nbsp;확대를&nbsp;통해&nbsp;교통비&nbsp;부담을&nbsp;줄이고,&nbsp;생활문화시설·체육시설·복지시설을&nbsp;확충해&nbsp;군민&nbsp;삶의&nbsp;질을&nbsp;높이겠습니다.<br>군민&nbsp;1인당&nbsp;연간&nbsp;약&nbsp;100만&nbsp;원&nbsp;수준의&nbsp;생활비&nbsp;절감&nbsp;효과를&nbsp;목표로&nbsp;하겠습니다.<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;초&nbsp;어르신&nbsp;생활지원체계&nbsp;정비<br>○&nbsp;1단계:&nbsp;병원동행·생활교통·마을돌봄&nbsp;확대<br>○&nbsp;2단계:&nbsp;읍·면별&nbsp;평생교육&nbsp;및&nbsp;시니어&nbsp;일자리&nbsp;확대<br>○&nbsp;3단계:&nbsp;복지·돌봄·생활소득&nbsp;통합지원체계&nbsp;구축<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;보건복지부&nbsp;노인일자리사업&nbsp;및&nbsp;통합돌봄사업&nbsp;연계<br>○&nbsp;평생교육&nbsp;지원사업&nbsp;및&nbsp;지방소멸대응기금&nbsp;활용<br>○&nbsp;충청북도&nbsp;복지지원사업&nbsp;및&nbsp;군비&nbsp;매칭&nbsp;추진<br>○&nbsp;중앙정부&nbsp;고령사회&nbsp;대응정책&nbsp;및&nbsp;대통령&nbsp;공약&nbsp;연계&nbsp;추진<br>특히&nbsp;초고령화&nbsp;대응은&nbsp;군&nbsp;단위&nbsp;단독사업만으로는&nbsp;한계가&nbsp;있는&nbsp;만큼,&nbsp;중앙정부와&nbsp;충청북도&nbsp;협력사업을&nbsp;적극&nbsp;연계해&nbsp;지속가능한&nbsp;복지재원을&nbsp;확보하겠습니다.&nbsp;여당&nbsp;후보로서&nbsp;중앙정부&nbsp;정책과&nbsp;예산을&nbsp;보은군민의&nbsp;실질적&nbsp;삶의&nbsp;변화로&nbsp;연결하겠습니다.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

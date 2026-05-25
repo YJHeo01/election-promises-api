@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;임기진 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	스마트·데이터 중심 농업 대전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="스마트·데이터 중심 농업 대전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;사과&nbsp;중심&nbsp;주력작목을&nbsp;스마트·데이터&nbsp;농업으로&nbsp;전환해&nbsp;생산성·품질·수익&nbsp;안정화<br>○&nbsp;친환경·저탄소&nbsp;농업&nbsp;확산으로&nbsp;지속가능한&nbsp;농업경쟁력&nbsp;확보<br>○&nbsp;가공·체험·관광&nbsp;연계로&nbsp;농업&nbsp;부가가치(2차·3차&nbsp;산업)&nbsp;확대<br>○&nbsp;농가&nbsp;경영비&nbsp;부담을&nbsp;줄이는&nbsp;기자재&nbsp;지원&nbsp;체계&nbsp;구축(체감형&nbsp;지원)<br>○&nbsp;농민수당&nbsp;80만원&nbsp;시대,&nbsp;농업경영&nbsp;안정지원&nbsp;(현행&nbsp;60만원에서&nbsp;80만원으로)&nbsp;청송사랑화폐로&nbsp;지급<br><br>□&nbsp;이행방법<br>○&nbsp;스마트&nbsp;사과농장&nbsp;조성·확산(센서·관수·병해충&nbsp;모니터링·작황데이터&nbsp;기반)<br>○&nbsp;농업데이터&nbsp;관리·컨설팅·교육&nbsp;상설화(작목반/청년농&nbsp;중심)<br>○&nbsp;친환경&nbsp;인증&nbsp;전환&nbsp;지원(컨설팅·교육·사후관리)&nbsp;및&nbsp;저탄소&nbsp;생산기술&nbsp;보급<br>○&nbsp;농업용&nbsp;기자재&nbsp;50%&nbsp;지원(상한·품목&nbsp;기준&nbsp;고시)&nbsp;생산성/안전/친환경&nbsp;전환에&nbsp;기여하는&nbsp;품목&nbsp;중심,&nbsp;자부담&nbsp;50%&nbsp;매칭,공동이용&nbsp;기자재(영농조합/마을)&nbsp;지원&nbsp;병행(효율·형평&nbsp;확보)<br>○&nbsp;농가공·브랜딩·판로&nbsp;패키지(가공품&nbsp;개발,&nbsp;표준포장,&nbsp;온라인/로컬마켓/관광판매&nbsp;연계)<br>○&nbsp;농촌&nbsp;체험상품&nbsp;상설화(수확·가공·미식·교육&nbsp;체험,&nbsp;체류형&nbsp;프로그램)<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;중&nbsp;단계&nbsp;추진(2026~2030)<br>1년차:&nbsp;시범권역·품목&nbsp;선정,&nbsp;기자재&nbsp;지원기준(50%)&nbsp;확정,&nbsp;교육·데이터&nbsp;설계<br>2~3년차:&nbsp;스마트·친환경&nbsp;본사업&nbsp;확대,&nbsp;가공·체험&nbsp;상품&nbsp;운영&nbsp;개시<br>4년차:&nbsp;표준모델&nbsp;확산,&nbsp;성과평가&nbsp;및&nbsp;상설사업화<br>2026년&nbsp;예산&nbsp;반영&nbsp;후&nbsp;단계&nbsp;시행.&nbsp;임기&nbsp;내&nbsp;정례화.<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국·도비&nbsp;매칭(농업&nbsp;스마트화/친환경&nbsp;전환/농촌융복합&nbsp;공모사업&nbsp;중심)<br>○&nbsp;군비(마중물)&nbsp;+&nbsp;도비&nbsp;매칭(가능&nbsp;시)으로&nbsp;기자재&nbsp;지원계정&nbsp;편성<br>○&nbsp;가공·체험은&nbsp;민간(조합·기업)&nbsp;투자&nbsp;연계&nbsp;+&nbsp;공공은&nbsp;시설·인증·교육&nbsp;지원<br>○&nbsp;농민수당&nbsp;군비&nbsp;증액&nbsp;편성&nbsp;(자체예산&nbsp;활용)군&nbsp;비&nbsp;추가&nbsp;편성,&nbsp;농업예산&nbsp;구조조정,&nbsp;지방소멸대응기금&nbsp;일부&nbsp;연계&nbsp;검토,&nbsp;경북도&nbsp;농어민수당과&nbsp;군&nbsp;자체&nbsp;추가지원&nbsp;병행.<br>○&nbsp;세부&nbsp;추계는&nbsp;기본계획·타당성&nbsp;조사&nbsp;후&nbsp;조정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	지속가능한 에너지 경제 기본사회 도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="지속가능한 에너지 경제 기본사회 도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;에너지&nbsp;주권&nbsp;확립을&nbsp;통한&nbsp;주민&nbsp;기본소득(햇빛·바람연금)&nbsp;실현<br>○&nbsp;신재생에너지&nbsp;기반을&nbsp;확충하고&nbsp;주민참여·수익공유&nbsp;모델로&nbsp;지역소득&nbsp;기반&nbsp;강화<br>○&nbsp;에너지&nbsp;인프라를&nbsp;지역산업·일자리와&nbsp;연계해&nbsp;지속가능한&nbsp;성장동력&nbsp;확보<br>○&nbsp;공공-민간-주민이&nbsp;함께&nbsp;참여하는&nbsp;지역형&nbsp;에너지&nbsp;거버넌스&nbsp;확립<br>○&nbsp;기후위기&nbsp;대응을&nbsp;넘어선&nbsp;에너지&nbsp;자립형&nbsp;스마트시티&nbsp;완성<br>○&nbsp;유휴&nbsp;자산&nbsp;활용을통한&nbsp;에너지사업&nbsp;지역&nbsp;경제&nbsp;선순환&nbsp;구조&nbsp;마련<br>○&nbsp;에너지&nbsp;인프라&nbsp;기반의&nbsp;‘미래형&nbsp;일자리&nbsp;및&nbsp;신산업’&nbsp;육성<br><br>□&nbsp;이행방법<br>○&nbsp;주민참여형&nbsp;발전사업(태양광/풍력&nbsp;등)&nbsp;모델&nbsp;설계(협동조합·SPC&nbsp;등)<br>○&nbsp;발전&nbsp;수익공유&nbsp;표준모델&nbsp;마련(개인환원&nbsp;+&nbsp;마을공동기금&nbsp;병행)<br>○&nbsp;계통·부지·환경·경관&nbsp;기준&nbsp;사전&nbsp;정립&nbsp;및&nbsp;주민수용성&nbsp;절차(설명회/동의)&nbsp;체계화<br>○&nbsp;에너지&nbsp;연계&nbsp;산업기반(저장·운영·정비&nbsp;등)&nbsp;및&nbsp;인력양성&nbsp;연계<br>○&nbsp;농어촌&nbsp;햇빛&nbsp;연금&nbsp;마을사업&nbsp;즉시&nbsp;추진&nbsp;<br>○&nbsp;친환경&nbsp;스마트시티(에너지&nbsp;자립·효율)&nbsp;중&nbsp;“주민참여형&nbsp;수익공유”모델<br>○&nbsp;휴경지/유휴부지&nbsp;활용형&nbsp;재생에너지&nbsp;추진(농촌소득·마을기금)<br>○&nbsp;농공단지내&nbsp;신재생&nbsp;에너지&nbsp;특구&nbsp;지정을&nbsp;통한&nbsp;공유부&nbsp;수익모델&nbsp;추진<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;중&nbsp;단계&nbsp;추진(2026~2030)<br>1년차:&nbsp;후보지·사업성&nbsp;검토,&nbsp;표준모델·규정&nbsp;설계<br>2~3년차:&nbsp;착공·구축,&nbsp;주민참여&nbsp;구조&nbsp;확정<br>4년차:&nbsp;운영개시,&nbsp;수익공유&nbsp;안정화&nbsp;및&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;민자(프로젝트&nbsp;파이낸싱)&nbsp;중심&nbsp;+&nbsp;국·도비&nbsp;공모/기금&nbsp;+&nbsp;군비<br>○&nbsp;군&nbsp;단위&nbsp;기금(에너지/지역상생&nbsp;등)&nbsp;조성&nbsp;검토&nbsp;및&nbsp;운영수익&nbsp;재투자<br>○&nbsp;세부&nbsp;추계는&nbsp;기본계획·타당성&nbsp;조사&nbsp;후&nbsp;조정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	‘청송 스마트 스테이’  대한민국 1등 체류형 관광도시 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="‘청송 스마트 스테이’  대한민국 1등 체류형 관광도시 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;디지털&nbsp;관광(AR/VR)과&nbsp;체류형&nbsp;콘텐츠로&nbsp;“머무는&nbsp;관광”&nbsp;전환<br>○&nbsp;관광&nbsp;패러다임&nbsp;전환:&nbsp;‘잠깐&nbsp;들르는&nbsp;관광’에서&nbsp;‘2박&nbsp;이상&nbsp;머무는&nbsp;체류형&nbsp;관광’으로&nbsp;체질&nbsp;개선(연간&nbsp;체류&nbsp;숙박객&nbsp;20%&nbsp;증대).<br>○스마트&nbsp;관광&nbsp;생태계&nbsp;구축:&nbsp;AR·VR&nbsp;기술을&nbsp;접목한&nbsp;디지털&nbsp;콘텐츠로&nbsp;유네스코&nbsp;세계지질공원의&nbsp;가치를&nbsp;극대화하고&nbsp;전&nbsp;구역&nbsp;스마트&nbsp;안내망&nbsp;완성.<br>○관광&nbsp;소득의&nbsp;지역&nbsp;내&nbsp;선순환:&nbsp;관광객의&nbsp;소비가&nbsp;지역&nbsp;농가와&nbsp;소상공인의&nbsp;실질&nbsp;소득으로&nbsp;이어지는&nbsp;6차&nbsp;산업&nbsp;융복합&nbsp;관광&nbsp;경제&nbsp;실현.<br>○관광&nbsp;접근성&nbsp;혁명:&nbsp;소노벨-주왕산-청송읍을&nbsp;잇는&nbsp;통합&nbsp;교통망&nbsp;구축으로&nbsp;관광객&nbsp;이동&nbsp;편의&nbsp;및&nbsp;군민&nbsp;생활권&nbsp;교통복지&nbsp;동시&nbsp;실현.<br><br>□&nbsp;이행방법<br>○&nbsp;관광벨트&nbsp;핵심동선&nbsp;구축&nbsp;및&nbsp;순환형&nbsp;셔틀/교통&nbsp;연계<br>○스마트&nbsp;통합&nbsp;패스&nbsp;도입:&nbsp;셔틀&nbsp;이용,&nbsp;관광지&nbsp;입장,&nbsp;로컬푸드&nbsp;결제를&nbsp;하나로&nbsp;해결하는&nbsp;디지털&nbsp;통합&nbsp;결제&nbsp;시스템&nbsp;구축.<br>○&nbsp;AR/VR&nbsp;기반&nbsp;콘텐츠·스마트&nbsp;안내체계&nbsp;구축,&nbsp;사계절·야간&nbsp;콘텐츠&nbsp;확충<br>○청송&nbsp;별빛&nbsp;트레일:&nbsp;야간&nbsp;조명길&nbsp;및&nbsp;별자리&nbsp;관측&nbsp;명소&nbsp;조성으로&nbsp;야간&nbsp;관광&nbsp;활성화.<br>○&nbsp;로컬푸드·공예&nbsp;체험관/상설전시·판매&nbsp;연계(관광소비를&nbsp;지역소득으로&nbsp;전환)<br>○&nbsp;지질·생태·치유형&nbsp;프로그램&nbsp;개발&nbsp;및&nbsp;민간&nbsp;숙박·체험&nbsp;연계&nbsp;패키징<br>○&nbsp;관광&nbsp;통합브랜드·마케팅&nbsp;고도화(플랫폼/연계상품/데이터&nbsp;기반&nbsp;홍보)<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;중&nbsp;단계&nbsp;추진(2026~2030)<br>1년차:&nbsp;콘텐츠&nbsp;기획·노선&nbsp;설계·협약(MOU)<br>2~3년차:&nbsp;구축·시범운영·확대<br>4년차:&nbsp;상설화·고도화·성과평가<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국·도비&nbsp;공모(관광·디지털·문화&nbsp;분야)&nbsp;+&nbsp;군비&nbsp;매칭<br>○&nbsp;민간투자(리조트·관광기업·플랫폼)&nbsp;연계&nbsp;및&nbsp;운영수익&nbsp;재투자<br>○&nbsp;세부&nbsp;추계는&nbsp;기본계획·타당성&nbsp;조사&nbsp;후&nbsp;조정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	세대공존 패키지 올인원(ALL-IN-ONE)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="세대공존 패키지 올인원(ALL-IN-ONE)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>○&nbsp;청년·신혼이&nbsp;살&nbsp;수&nbsp;있는&nbsp;주거·일자리·생활&nbsp;기반&nbsp;조성(정착&nbsp;전환)<br>○&nbsp;노인의&nbsp;건강·안전·돌봄을&nbsp;강화하는&nbsp;고령친화&nbsp;서비스&nbsp;구축<br>○&nbsp;돌봄·관광·농업&nbsp;서비스&nbsp;일자리로&nbsp;세대공존형&nbsp;지역경제&nbsp;구현<br>○&nbsp;장기요양보험&nbsp;등급판정&nbsp;전(대기기간)&nbsp;돌봄&nbsp;공백&nbsp;‘제로(0)’&nbsp;실현<br>○&nbsp;산불피해&nbsp;주민&nbsp;주거안정&nbsp;4년&nbsp;보장&nbsp;및&nbsp;재난회복&nbsp;공공임대주택&nbsp;200세대&nbsp;건립<br>○&nbsp;결혼·출생&nbsp;친화&nbsp;청송:&nbsp;결혼&nbsp;장려와&nbsp;출생&nbsp;지원을&nbsp;강화해&nbsp;인구감소세&nbsp;완화<br><br>□&nbsp;이행방법<br>○&nbsp;장기요양&nbsp;신청&nbsp;등급판정&nbsp;대기&nbsp;‘브리지&nbsp;케어(Bridge-Care)’&nbsp;운영<br>빈틈&nbsp;없는&nbsp;지원:&nbsp;등급&nbsp;신청&nbsp;직후부터&nbsp;판정&nbsp;완료&nbsp;전까지&nbsp;가사·식사·이동&nbsp;지원&nbsp;및&nbsp;주야간&nbsp;보호&nbsp;임시&nbsp;이용&nbsp;서비스&nbsp;제공.<br>○&nbsp;군비&nbsp;우선&nbsp;투입:&nbsp;중앙정부&nbsp;제도의&nbsp;한계를&nbsp;넘어,&nbsp;청송군이&nbsp;직접&nbsp;예산을&nbsp;편성&nbsp;<br>○&nbsp;청년·신혼&nbsp;청송&nbsp;정착&nbsp;‘올인원(All-in-One)’&nbsp;패키지<br>주거&nbsp;지원:&nbsp;신혼부부&nbsp;및&nbsp;청년&nbsp;정착을&nbsp;위한&nbsp;파격적인&nbsp;임대주택&nbsp;공급&nbsp;및&nbsp;주거&nbsp;정착금&nbsp;지원.<br>일자리&nbsp;매칭:&nbsp;지역&nbsp;강소기업&nbsp;매칭&nbsp;및&nbsp;청년&nbsp;창업&nbsp;지원,&nbsp;워케이션&nbsp;거점&nbsp;구축<br>○&nbsp;노인·스마트&nbsp;IT&nbsp;기반&nbsp;‘안심&nbsp;돌봄’&nbsp;시스템&nbsp;고도화<br>○&nbsp;스마트&nbsp;헬스케어:&nbsp;IoT&nbsp;센서를&nbsp;활용한&nbsp;응급&nbsp;대응&nbsp;및&nbsp;방문&nbsp;건강관리&nbsp;시스템&nbsp;보급<br>○&nbsp;케어코디네이터&nbsp;배치:&nbsp;의료·복지·요양을&nbsp;개인별로&nbsp;맞춤&nbsp;설계&nbsp;운영<br>○사회적&nbsp;경제&nbsp;연계:&nbsp;돌봄·생활지원&nbsp;서비스를&nbsp;사회적기업이나&nbsp;협동조합&nbsp;형태로&nbsp;운영하여&nbsp;청년과&nbsp;어르신이&nbsp;함께&nbsp;일하는&nbsp;구조&nbsp;확립.<br>○&nbsp;특화&nbsp;사업:&nbsp;치유농업,&nbsp;청소년&nbsp;문화·스포츠&nbsp;센터와&nbsp;연계된&nbsp;복합&nbsp;복지&nbsp;인프라&nbsp;구축.<br>○&nbsp;출생수당&nbsp;강화(현&nbsp;정책&nbsp;“추가”&nbsp;방식)출생&nbsp;시&nbsp;500만원&nbsp;일시&nbsp;추가&nbsp;지급/출생&nbsp;후&nbsp;5년간&nbsp;200만원&nbsp;추가&nbsp;지원<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;중&nbsp;단계&nbsp;추진(2026~2030)<br>1년차:&nbsp;브리지&nbsp;케어&nbsp;제도&nbsp;설계(대상·급여·한도·중복방지),&nbsp;시범(읍면&nbsp;1~2권역)<br>2~3년차:&nbsp;인프라&nbsp;구축·확대(수행기관&nbsp;확충,&nbsp;사례관리&nbsp;고도화)<br>4년차:&nbsp;성과평가&nbsp;후&nbsp;전&nbsp;읍면&nbsp;표준화·조정<br><br>□&nbsp;재원조달방안<br>○국·도비(청년·주거·복지)&nbsp;+&nbsp;군비&nbsp;매칭<br>○브리지&nbsp;케어는&nbsp;군비&nbsp;중심(필요&nbsp;시&nbsp;도비/공모&nbsp;연계)으로&nbsp;“돌봄&nbsp;공백&nbsp;해소”&nbsp;목적&nbsp;예산&nbsp;항목화&nbsp;운영은&nbsp;민간&nbsp;참여(사회적기업/협동조합/위탁)&nbsp;병행으로&nbsp;지속가능성&nbsp;확보<br>○군비&nbsp;단계&nbsp;투입(우선순위&nbsp;예산&nbsp;재구조화)&nbsp;+&nbsp;도비/국비&nbsp;연계&nbsp;가능사업&nbsp;최대&nbsp;활용<br>○행안부&nbsp;특별교부세,&nbsp;재난안전특별교부세,&nbsp;국토부&nbsp;공공임대사업,&nbsp;LH·경북개발공사&nbsp;협력,&nbsp;지방소멸대응기금,&nbsp;경북도비,&nbsp;군비&nbsp;매칭.<br>○&nbsp;세부&nbsp;추계는&nbsp;기본계획·타당성&nbsp;조사&nbsp;후&nbsp;조정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	365 골든타임 책임행정 시스템·예산 1조원 시대 청송</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="365 골든타임 책임행정 시스템·예산 1조원 시대 청송">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □목표<br>○&nbsp;현장&nbsp;중심의&nbsp;‘즉시&nbsp;해결형’&nbsp;행정&nbsp;정착:&nbsp;군수가&nbsp;직접&nbsp;읍면을&nbsp;순회하며&nbsp;현장에서&nbsp;결단하고,&nbsp;고시된&nbsp;기한&nbsp;내(SLA)에&nbsp;민원을&nbsp;처리하는&nbsp;신속&nbsp;행정을&nbsp;구현<br>○&nbsp;행정&nbsp;투명성&nbsp;및&nbsp;군민&nbsp;검증&nbsp;강화:&nbsp;공약&nbsp;이행&nbsp;진도와&nbsp;민원&nbsp;처리&nbsp;데이터를&nbsp;실시간&nbsp;대시보드로&nbsp;공개하여&nbsp;군민이&nbsp;직접&nbsp;감시하고&nbsp;평가하는&nbsp;‘유리천장&nbsp;행정’을&nbsp;실현.<br>○&nbsp;사각지대&nbsp;없는&nbsp;생활SOC&nbsp;밀착&nbsp;관리:&nbsp;거창한&nbsp;사업보다&nbsp;군민의&nbsp;삶에&nbsp;직결된&nbsp;안전,&nbsp;교통,&nbsp;디지털&nbsp;접근성을&nbsp;최우선으로&nbsp;점검하고&nbsp;해결.<br>○&nbsp;예산&nbsp;1조원&nbsp;시대&nbsp;청송:&nbsp;국·도비·공모·민자·공기업투자&nbsp;패키지로&nbsp;성장재원&nbsp;확보<br><br>□이행방법<br>○&nbsp;현장군수실’&nbsp;정례화&nbsp;및&nbsp;민원처리&nbsp;골든타임(SLA)&nbsp;도입<br>○&nbsp;민원&nbsp;처리&nbsp;SLA&nbsp;고시:&nbsp;생활불편,&nbsp;안전위험&nbsp;등&nbsp;유형별&nbsp;조치&nbsp;기한을&nbsp;규정으로&nbsp;명문화.<br>○&nbsp;찾아가는&nbsp;디지털&nbsp;지원:&nbsp;고령층을&nbsp;위해&nbsp;스마트&nbsp;기기를&nbsp;활용한&nbsp;현장&nbsp;대리&nbsp;접수&nbsp;및&nbsp;민원&nbsp;서식&nbsp;작성을&nbsp;지원하는&nbsp;이동형&nbsp;민원실&nbsp;병행.<br>○&nbsp;책임&nbsp;원스톱&nbsp;현장&nbsp;TF&nbsp;및&nbsp;‘생활민원&nbsp;즉시예산(Small&nbsp;Budget)’&nbsp;편성<br>○&nbsp;부서&nbsp;칸막이&nbsp;제거:&nbsp;농정·복지·안전&nbsp;등&nbsp;복합&nbsp;사안&nbsp;발생&nbsp;시&nbsp;즉각적인&nbsp;합동&nbsp;TF&nbsp;가동&nbsp;<br>○&nbsp;스몰&nbsp;버짓(Small&nbsp;Budget)&nbsp;운영:&nbsp;배수로&nbsp;정비,&nbsp;가로등&nbsp;교체,&nbsp;안전난간&nbsp;설치&nbsp;등&nbsp;긴급&nbsp;생활&nbsp;민원을&nbsp;위해&nbsp;읍면별&nbsp;‘즉시&nbsp;집행&nbsp;예산’을&nbsp;별도&nbsp;편성하여&nbsp;체감도&nbsp;극대화.<br>○&nbsp;주민&nbsp;참여형&nbsp;‘공약&nbsp;점검단’&nbsp;및&nbsp;‘민원&nbsp;옴부즈만’&nbsp;제도화<br>○&nbsp;주민참여예산&nbsp;전산화:&nbsp;제안부터&nbsp;결과&nbsp;평가까지&nbsp;전&nbsp;과정을&nbsp;디지털로&nbsp;공개<br>○연&nbsp;2회&nbsp;“국·도비&nbsp;공모&nbsp;캘린더”&nbsp;운영(관광·농업·복지·안전·에너지&nbsp;패키지)<br>○기획단(가칭)&nbsp;설치:&nbsp;공모기획-타당성-파트너&nbsp;매칭(PF/공기업/민자)&nbsp;원스톱<br><br>□이행기간<br>○&nbsp;임기&nbsp;중&nbsp;단계&nbsp;추진(2026~2030)<br>1년차:&nbsp;운영규정(현장군수실·SLA·TF·대시보드&nbsp;표준)&nbsp;제정,&nbsp;시범&nbsp;운영(2~3개&nbsp;읍면)<br>2~3년차:&nbsp;전&nbsp;읍면&nbsp;확대,&nbsp;즉시예산&nbsp;계정화,&nbsp;주민점검단/옴부즈만&nbsp;정착<br>4년차:&nbsp;KPI&nbsp;고도화(재발률·만족도·예산&nbsp;효율),&nbsp;성과평가&nbsp;후&nbsp;제도&nbsp;보완<br>2026년&nbsp;전수조사·부지확보,&nbsp;2027년&nbsp;설계·착공,&nbsp;2028년&nbsp;1단계&nbsp;입주&nbsp;목표<br><br>□재원조달방안<br>○&nbsp;기존&nbsp;예산&nbsp;재구조화(운영혁신&nbsp;중심)&nbsp;+&nbsp;국·도비&nbsp;공모(안전·교통·디지털·재난)&nbsp;매칭<br>○&nbsp;대형사업은&nbsp;국·도비·민자·공기업투자·PF&nbsp;우선&nbsp;활용으로&nbsp;군비&nbsp;부담&nbsp;최소화<br>○&nbsp;예산&nbsp;1조원&nbsp;확보&nbsp;실적은&nbsp;대시보드&nbsp;공개로&nbsp;투명성&nbsp;확보(검증형&nbsp;재정운영)<br>○&nbsp;세부&nbsp;추계는&nbsp;기본계획·타당성&nbsp;조사&nbsp;후&nbsp;조정</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;공영민 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	산업은 키우고! 접근은 더 빠르게! ‘성장하는 고흥’</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="산업은 키우고! 접근은 더 빠르게! ‘성장하는 고흥’">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표:&nbsp;3대&nbsp;미래전략&nbsp;산업과&nbsp;3대&nbsp;교통인프라&nbsp;구축으로&nbsp;고흥&nbsp;변화&nbsp;발전을&nbsp;앞당기겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;3대&nbsp;미래전략&nbsp;산업&nbsp;→&nbsp;우주&nbsp;드론&nbsp;스마트팜&nbsp;산업으로&nbsp;지역성장&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;1.&nbsp;대한민국&nbsp;‘우주항공&nbsp;중심도시&nbsp;고흥!’&nbsp;비약,&nbsp;제2우주센터&nbsp;유치<br>&nbsp;&nbsp;&nbsp;2.&nbsp;고흥&nbsp;우주항공산업&nbsp;고도화&nbsp;견인할&nbsp;우주항공산업진흥원&nbsp;유치<br>&nbsp;&nbsp;&nbsp;3.&nbsp;우주발사체&nbsp;국가산업단지&nbsp;조성&nbsp;및&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;발사체(액체&nbsp;고체)&nbsp;기업&nbsp;입주공간&nbsp;및&nbsp;기업지원&nbsp;시설&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;RE100&nbsp;분산에너지&nbsp;특구&nbsp;지정<br>&nbsp;&nbsp;&nbsp;4.&nbsp;우주항공복합도시&nbsp;건설&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특별법&nbsp;제정,&nbsp;(장기)기반시설&nbsp;설치&nbsp;교육기관&nbsp;연구기관&nbsp;등&nbsp;조성<br>&nbsp;&nbsp;&nbsp;5.&nbsp;우주발사체&nbsp;사이언스&nbsp;콤플렉스&nbsp;조성<br>&nbsp;&nbsp;&nbsp;6.&nbsp;민간&nbsp;우주산업&nbsp;생태계&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간전용&nbsp;우주발사체&nbsp;엔진연소시험시설&nbsp;및&nbsp;민간전용&nbsp;발사장&nbsp;구축&nbsp;등<br>&nbsp;&nbsp;&nbsp;7.&nbsp;고흥&nbsp;드론특화단지&nbsp;경쟁력&nbsp;강화&nbsp;및&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;8.&nbsp;드론&nbsp;중심도시&nbsp;고흥&nbsp;입지&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도서&nbsp;취약지역&nbsp;중심&nbsp;드론&nbsp;배송&nbsp;서비스&nbsp;확대,&nbsp;고흥읍&nbsp;녹동항&nbsp;드론쇼&nbsp;활성화로&nbsp;야간관광&nbsp;콘텐츠&nbsp;활성화,&nbsp;드론&nbsp;분야&nbsp;일자리&nbsp;창출&nbsp;확대<br>&nbsp;&nbsp;&nbsp;9.&nbsp;고흥형&nbsp;대규모&nbsp;스마트팜혁신밸리&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;60~70만평의&nbsp;고흥형&nbsp;대규모&nbsp;스마트팜&nbsp;혁신밸리&nbsp;확대&nbsp;조성(축산,&nbsp;수산,&nbsp;원예&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고흥만&nbsp;스마트팜혁신밸리&nbsp;용수공급체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;3대&nbsp;교통인프라&nbsp;구축&nbsp;→&nbsp;지역발전을&nbsp;견인할&nbsp;획기적인&nbsp;접근성&nbsp;개선<br>&nbsp;&nbsp;&nbsp;10.&nbsp;광주~고흥&nbsp;간&nbsp;고속도로&nbsp;건설&nbsp;※제3차&nbsp;고속도로&nbsp;건설계획&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;&nbsp;11.&nbsp;고흥&nbsp;우주선철도&nbsp;건설&nbsp;※제5차&nbsp;국가철도망&nbsp;구축&nbsp;계획&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;&nbsp;12.&nbsp;국도15호선&nbsp;고흥읍~봉래&nbsp;간&nbsp;4차선&nbsp;확장<br>□&nbsp;이행기간:&nbsp;임기내&nbsp;지속<br>□&nbsp;재원조달방안:&nbsp;국비/시비/군비/민간투자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	농어업은 강하게! 소득은 두텁게! ‘풍요로운 고흥’</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="농어업은 강하게! 소득은 두텁게! ‘풍요로운 고흥’">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표:&nbsp;농수축산업을&nbsp;생산에서&nbsp;수출까지&nbsp;잇는&nbsp;소득산업으로&nbsp;키우겠습니다.<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;농수축산업&nbsp;→&nbsp;농수축산업의&nbsp;경쟁력&nbsp;향상을&nbsp;통한&nbsp;농어가&nbsp;소득&nbsp;증대<br>&nbsp;&nbsp;&nbsp;13.&nbsp;지역별&nbsp;특화&nbsp;브랜드&nbsp;육성<br>&nbsp;&nbsp;&nbsp;14.&nbsp;고흥유자의&nbsp;고부가가치화&nbsp;및&nbsp;신품종&nbsp;육성<br>&nbsp;&nbsp;&nbsp;15.&nbsp;조생&nbsp;복숭아&nbsp;생산기반&nbsp;확대&nbsp;구축<br>&nbsp;&nbsp;&nbsp;16.&nbsp;기후변화&nbsp;대응,&nbsp;스마트&nbsp;농업&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트원예단지&nbsp;조성,&nbsp;스마트농업&nbsp;기술보급<br>&nbsp;&nbsp;&nbsp;17.&nbsp;밀원숲&nbsp;조성을&nbsp;통한&nbsp;양봉기반&nbsp;확충<br>&nbsp;&nbsp;&nbsp;18.&nbsp;청정&nbsp;바다환경&nbsp;보전&nbsp;및&nbsp;관리&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청정바다&nbsp;오염원&nbsp;체계적&nbsp;관리&nbsp;및&nbsp;배출수&nbsp;정화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해양쓰레기&nbsp;수거&nbsp;처리,&nbsp;해파리&nbsp;불가사리&nbsp;등&nbsp;유해생물&nbsp;구제,&nbsp;양식어장&nbsp;정화&nbsp;등<br>&nbsp;&nbsp;&nbsp;19.&nbsp;미이용&nbsp;해조류&nbsp;자원화&nbsp;시설&nbsp;지원<br>&nbsp;&nbsp;&nbsp;20.&nbsp;스마트수산업&nbsp;혁신&nbsp;선도지구&nbsp;조성<br>&nbsp;&nbsp;&nbsp;21.&nbsp;청년&nbsp;창업·임대형&nbsp;양식단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;22.&nbsp;유자골&nbsp;고흥한우&nbsp;브랜드&nbsp;및&nbsp;유통&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;23.&nbsp;스마트&nbsp;축산&nbsp;ICT&nbsp;시범단지&nbsp;조성&nbsp;및&nbsp;가축분뇨&nbsp;공동자원화시설&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;가공&nbsp;유통&nbsp;→&nbsp;농수축산업의&nbsp;가공&nbsp;유통&nbsp;혁신을&nbsp;통한&nbsp;고부가가치화<br>&nbsp;&nbsp;&nbsp;24.&nbsp;김&nbsp;수출&nbsp;전문단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;25.&nbsp;녹동신항&nbsp;스마트&nbsp;공동물류센터&nbsp;건립<br>&nbsp;&nbsp;&nbsp;26.&nbsp;농수산물&nbsp;해외&nbsp;수출&nbsp;확대&nbsp;및&nbsp;국내&nbsp;판로&nbsp;개척<br>&nbsp;&nbsp;&nbsp;27.&nbsp;농어가&nbsp;계절근로자&nbsp;확대&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공형&nbsp;등&nbsp;계절근로자&nbsp;지속&nbsp;확대,&nbsp;업무협약&nbsp;및&nbsp;결혼이민자&nbsp;가족&nbsp;친척&nbsp;초청,재입국&nbsp;적극&nbsp;추진,&nbsp;근로환경&nbsp;개선<br>&nbsp;&nbsp;&nbsp;28.&nbsp;농기계&nbsp;임대&nbsp;서비스&nbsp;확대<br>□&nbsp;이행기간:&nbsp;임기내&nbsp;지속<br>□&nbsp;재원조달방안:&nbsp;국비/시비/군비/민간투자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	체류는 늘리고! 관광은 품격있게! ‘다시 찾는 고흥’</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="체류는 늘리고! 관광은 품격있게! ‘다시 찾는 고흥’">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표:&nbsp;보고&nbsp;즐기고&nbsp;머무는&nbsp;‘돈이&nbsp;되는&nbsp;관광&nbsp;고흥’을&nbsp;만들겠습니다.<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;관광&nbsp;인프라&nbsp;확충&nbsp;→&nbsp;남해안권&nbsp;명품&nbsp;해양관광&nbsp;도시로&nbsp;입지&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;29.&nbsp;국립&nbsp;다도해&nbsp;산림치유원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;30.&nbsp;우도&nbsp;섬&nbsp;관광&nbsp;개발(노을전망공원,&nbsp;명상의&nbsp;숲,&nbsp;자전거&nbsp;도로&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;31.&nbsp;‘연홍도&nbsp;가고싶은&nbsp;섬’&nbsp;프로젝트(리빌딩)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;조형물벽화&nbsp;정비,&nbsp;포토존전망대&nbsp;리모델링,&nbsp;해안&nbsp;산책로&nbsp;정비,&nbsp;야간경관&nbsp;조성&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;32.&nbsp;고흥지구&nbsp;선셋가든&nbsp;관광경관&nbsp;명소화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전망대&nbsp;및&nbsp;카페,&nbsp;사계절&nbsp;테마정원&nbsp;및&nbsp;휴게쉼터<br>&nbsp;&nbsp;&nbsp;&nbsp;33.&nbsp;거금도&nbsp;명품&nbsp;생태관광길&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;거금도&nbsp;명품&nbsp;비단&nbsp;둘레길,&nbsp;거금&nbsp;적대봉&nbsp;생태&nbsp;탐방로<br>&nbsp;&nbsp;&nbsp;&nbsp;34.&nbsp;대규모&nbsp;휴양&nbsp;숙박&nbsp;시설&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대중골프장(18홀)&nbsp;리조트&nbsp;조성,&nbsp;휴양빌리지(수목원&nbsp;미술관&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;35.&nbsp;「고흥&nbsp;갯벌」&nbsp;세계유산&nbsp;등재&nbsp;및&nbsp;생태&nbsp;복원<br>&nbsp;&nbsp;&nbsp;&nbsp;36.&nbsp;선택과&nbsp;집중을&nbsp;통한&nbsp;권역별&nbsp;관광&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;관광콘텐츠&nbsp;→&nbsp;지역자원을&nbsp;활용한&nbsp;관광콘텐츠&nbsp;다각화<br>&nbsp;&nbsp;&nbsp;&nbsp;37.&nbsp;‘고흥&nbsp;관광&nbsp;방문의&nbsp;해’&nbsp;지정&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;38.&nbsp;‘돈&nbsp;되는&nbsp;축제’&nbsp;정착&nbsp;및&nbsp;사계절&nbsp;민간&nbsp;축제&nbsp;개최<br>&nbsp;&nbsp;&nbsp;&nbsp;39.&nbsp;고흥형&nbsp;반값&nbsp;여행&nbsp;확대로&nbsp;관광&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;역사.문화&nbsp;→&nbsp;지역의&nbsp;역사.문화&nbsp;자원과&nbsp;연계한&nbsp;관광&nbsp;자원화<br>&nbsp;&nbsp;&nbsp;&nbsp;40.&nbsp;고흥군&nbsp;역사&nbsp;가치&nbsp;재조명<br>&nbsp;&nbsp;&nbsp;&nbsp;41.&nbsp;고흥예술인&nbsp;선양사업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;42.&nbsp;청소년&nbsp;복합문화시설&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;43.&nbsp;대한민국&nbsp;3대&nbsp;도자,&nbsp;분청사기&nbsp;위상&nbsp;확립<br>&nbsp;&nbsp;○&nbsp;체육시설&nbsp;→&nbsp;체육&nbsp;기반시설&nbsp;확충&nbsp;및&nbsp;스포츠&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;44.&nbsp;2027년&nbsp;전남광주통합특별시(장애인)체육대회&nbsp;및&nbsp;2028&nbsp;생활체전&nbsp;성공적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;45.&nbsp;권역별&nbsp;군민체육시설&nbsp;지속&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도양&nbsp;스포츠파크,&nbsp;도화&nbsp;야구&nbsp;전용구장,&nbsp;포두&nbsp;남양&nbsp;대서&nbsp;파크골프장&nbsp;등<br>□&nbsp;이행기간:&nbsp;임기내&nbsp;지속<br>□&nbsp;재원조달방안:&nbsp;국비/시비/군비/민간투자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	돌봄은 촘촘하게! 미래는 든든하게! ‘행복한 고흥’</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="돌봄은 촘촘하게! 미래는 든든하게! ‘행복한 고흥’">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표:&nbsp;삶의&nbsp;모든&nbsp;순간을&nbsp;책임지는&nbsp;든든한&nbsp;기반을&nbsp;갖추겠습니다.<br>□&nbsp;이행방법:&nbsp;AI기반&nbsp;빅데이터&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;→&nbsp;어르신이&nbsp;가장&nbsp;살기좋은&nbsp;고흥&nbsp;만들기<br>&nbsp;&nbsp;&nbsp;&nbsp;46.&nbsp;대기자&nbsp;없는&nbsp;노인일자리사업&nbsp;지속&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;47.&nbsp;어르신&nbsp;병원&nbsp;동행&nbsp;서비스&nbsp;확대&nbsp;&nbsp;48.&nbsp;국제&nbsp;고령친화도시&nbsp;지정<br>&nbsp;&nbsp;○&nbsp;사회적&nbsp;약자&nbsp;→&nbsp;사회적&nbsp;약자의&nbsp;안정적인&nbsp;생활정착&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;49.&nbsp;여성&nbsp;안심귀가&nbsp;등&nbsp;범죄예방&nbsp;환경&nbsp;확대&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;50.&nbsp;다문화가정&nbsp;등&nbsp;사회적&nbsp;약자를&nbsp;위한&nbsp;정보센터&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;51.&nbsp;장애인&nbsp;생활안정&nbsp;및&nbsp;자립&nbsp;기반&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;52.&nbsp;취약계층&nbsp;의료급여&nbsp;수급자&nbsp;간병비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;53.&nbsp;청소년&nbsp;대중교통&nbsp;완전&nbsp;무료화(초&nbsp;중&nbsp;고&nbsp;학생&nbsp;군내버스&nbsp;무료&nbsp;제공)<br>&nbsp;&nbsp;&nbsp;&nbsp;54.&nbsp;자원봉사의&nbsp;성지화&nbsp;추진&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;55.&nbsp;공공&nbsp;빨래방&nbsp;운영&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;→&nbsp;청년이&nbsp;정착하고&nbsp;성장하는&nbsp;활력도시&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;56.&nbsp;청년&nbsp;친화도시&nbsp;지정<br>&nbsp;&nbsp;&nbsp;&nbsp;57.&nbsp;각종&nbsp;위원회,&nbsp;청년위원&nbsp;할당제&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;→&nbsp;소상공인.자영업자&nbsp;경쟁력&nbsp;강화&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;58.&nbsp;사회적경제기업&nbsp;육성&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;59.&nbsp;영세소상공인&nbsp;경영회복&nbsp;원스톱&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;60.&nbsp;고흥사랑상품권&nbsp;운영&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;귀농귀촌&nbsp;외국인&nbsp;→&nbsp;귀농귀촌인과&nbsp;외국인이&nbsp;함께&nbsp;정착하는&nbsp;환경&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;61.&nbsp;귀농귀촌인&nbsp;포괄적&nbsp;지원책&nbsp;확대&nbsp;&nbsp;&nbsp;&nbsp;62.&nbsp;외국인&nbsp;정착&nbsp;안정&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;보건&nbsp;→&nbsp;군민건강&nbsp;맞춤형&nbsp;보건의료서비스&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;63.&nbsp;생애주기별&nbsp;의료지원&nbsp;확대(아이부터&nbsp;어르신까지&nbsp;의료&nbsp;서비스&nbsp;확대)<br>&nbsp;&nbsp;&nbsp;&nbsp;64.&nbsp;권역별&nbsp;건강생활지원센터&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;교육&nbsp;→&nbsp;미래인재&nbsp;육성을&nbsp;위한&nbsp;교육환경&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;65.&nbsp;고흥&nbsp;출신&nbsp;대학생&nbsp;등록금&nbsp;지원&nbsp;확대&nbsp;및&nbsp;우수&nbsp;학생&nbsp;생활비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;66.&nbsp;관내&nbsp;초&nbsp;중&nbsp;고&nbsp;학생&nbsp;입학축하금&nbsp;지원&nbsp;확대<br>□&nbsp;이행기간:&nbsp;임기내&nbsp;지속<br>□&nbsp;재원조달방안:&nbsp;국비/시비/군비/민간투자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	생활은 편하게! 안전은 빈틈없이! ‘살기 좋은 고흥’</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="생활은 편하게! 안전은 빈틈없이! ‘살기 좋은 고흥’">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표:&nbsp;군민의&nbsp;하루하루가&nbsp;달라지는&nbsp;변화를&nbsp;일상에서&nbsp;보여드리겠습니다.<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;정주여건&nbsp;→&nbsp;주민&nbsp;삶의&nbsp;질&nbsp;향상을&nbsp;위한&nbsp;생활&nbsp;기반시설&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;67.&nbsp;도양~포두&nbsp;국도77호선&nbsp;선형&nbsp;개량<br>&nbsp;&nbsp;&nbsp;&nbsp;68.&nbsp;국도15호선&nbsp;동강&nbsp;한천교차로&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;69.&nbsp;도양읍&nbsp;도시가스&nbsp;공급기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;70.&nbsp;고흥군&nbsp;국가어항&nbsp;정비&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;71.&nbsp;고흥읍&nbsp;구도심&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;72.&nbsp;친환경&nbsp;에너지&nbsp;생활환경&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;73.&nbsp;고흥읍&nbsp;봉황산&nbsp;도시공원&nbsp;조성(트래킹&nbsp;코스,&nbsp;힐링쉼터&nbsp;등)<br>&nbsp;&nbsp;○&nbsp;도시기반&nbsp;확충&nbsp;→&nbsp;미래&nbsp;성장을&nbsp;이끄는&nbsp;공공·주거&nbsp;기반&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;74.&nbsp;소록도&nbsp;관리권,&nbsp;고흥군&nbsp;이관&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;75.&nbsp;고흥해양경찰서&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;76.&nbsp;고흥군&nbsp;공공기관&nbsp;신축&nbsp;이전&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;77.&nbsp;권역별&nbsp;공공임대주택&nbsp;500호&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;78.&nbsp;주민편의&nbsp;증진을&nbsp;위한&nbsp;노후&nbsp;청사&nbsp;신축&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;79.&nbsp;군민&nbsp;에너지연금&nbsp;지급&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;안전관리&nbsp;→&nbsp;각종&nbsp;재난재해&nbsp;예방으로‘군민&nbsp;안전’&nbsp;집중<br>&nbsp;&nbsp;&nbsp;&nbsp;80.&nbsp;풍수해생활권&nbsp;종합정비<br>&nbsp;&nbsp;&nbsp;&nbsp;81.&nbsp;고흥읍&nbsp;도양읍&nbsp;도시침수&nbsp;예방&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;82.&nbsp;재해위험지구&nbsp;정비사업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;83.&nbsp;군민&nbsp;생활안전&nbsp;강화&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;소통&nbsp;신뢰&nbsp;행정&nbsp;→&nbsp;참여와&nbsp;신뢰를&nbsp;바탕으로&nbsp;한&nbsp;열린&nbsp;군정&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;84.&nbsp;군민통합의&nbsp;고흥&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;85.&nbsp;신뢰받는&nbsp;군정,&nbsp;청렴도&nbsp;1등급&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;86.&nbsp;정책반영&nbsp;중심의&nbsp;주민참여예산&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;87.&nbsp;군수&nbsp;직속&nbsp;소통창구&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;88.&nbsp;군민과&nbsp;함께하는&nbsp;토크콘서트&nbsp;정례화<br>&nbsp;&nbsp;&nbsp;&nbsp;89.&nbsp;찾아가는&nbsp;현장행정&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;90.&nbsp;적극·공정·소통&nbsp;기반&nbsp;조직혁신<br>□&nbsp;이행기간:&nbsp;임기내&nbsp;지속<br>□&nbsp;재원조달방안:&nbsp;국비/시비/군비/민간투자유치</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

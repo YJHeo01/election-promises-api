@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김두환 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	경산지역 대학 교수협의회설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="경산지역 대학 교수협의회설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ***1번째&nbsp;선거공약;<br>&nbsp;&nbsp;○&nbsp;목&nbsp;표;---*경산시의&nbsp;전지역에서&nbsp;타지역에&nbsp;비해서&nbsp;풍부한&nbsp;자원이자&nbsp;재원은&nbsp;유일한&nbsp;수많은&nbsp;대학재단과&nbsp;시민이&nbsp;협력하여서&nbsp;국내&nbsp;유일한&nbsp;발전협의회의에&nbsp;의한&nbsp;미래지향적인&nbsp;정책개발을&nbsp;목표로&nbsp;함.<br><br>&nbsp;&nbsp;○이행방법;----*경산&nbsp;시민&nbsp;전체가&nbsp;진정한&nbsp;경산시의&nbsp;영원한&nbsp;발전과&nbsp;평안과&nbsp;자유를&nbsp;누릴수&nbsp;있는&nbsp;비전을&nbsp;경산에&nbsp;산재해&nbsp;있는&nbsp;풍부한&nbsp;자원중의&nbsp;자원인;*대학재단의&nbsp;발전협의회의&nbsp;비전을&nbsp;청탁받아서&nbsp;오로지&nbsp;청탁받은&nbsp;청사진을&nbsp;성립시킬&nbsp;수&nbsp;있는&nbsp;물심양면의&nbsp;희생과&nbsp;노력으로&nbsp;투자되어져야함.<br><br>&nbsp;&nbsp;○이행기간;---**국가의&nbsp;국민이&nbsp;존속하는&nbsp;동안&nbsp;진정한&nbsp;행복과&nbsp;평안을&nbsp;누릴려면;&nbsp;국가의&nbsp;국민이&nbsp;존재하는&nbsp;동안&nbsp;세월과&nbsp;일치됨을&nbsp;요함.<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○재원조달방안&nbsp;등;----*특별한&nbsp;물질적&nbsp;조달은&nbsp;없는&nbsp;반면에&nbsp;국민의&nbsp;삶에&nbsp;대하여서&nbsp;하나님께서&nbsp;열납되어&nbsp;짐을&nbsp;받으실&nbsp;수&nbsp;있는&nbsp;;&nbsp;온전한&nbsp;감사와&nbsp;찬송과&nbsp;영광을&nbsp;&nbsp;올려드릴&nbsp;수&nbsp;있는&nbsp;믿음의&nbsp;생활과&nbsp;함께&nbsp;;&nbsp;“하나님께서&nbsp;열납받으실&nbsp;수&nbsp;있는&nbsp;생활의&nbsp;온전한&nbsp;십일조와&nbsp;감사한&nbsp;일에&nbsp;대하여서;&nbsp;온전하게&nbsp;비례되는&nbsp;감사헌금생활이&nbsp;동반되어&nbsp;져야합니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	“불의(不義)한 파업(罷業)이 없는”“노(勞)·사(使)·정(政)의)”미래지향적  정책 공약.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="“불의(不義)한 파업(罷業)이 없는”“노(勞)·사(使)·정(政)의)”미래지향적  정책 공약.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ***정책공약;&nbsp;2번째;<br>&nbsp;2.헌법(憲法)전문(前文)의&nbsp;정의문의&nbsp;정의와&nbsp;법률문의&nbsp;정의에&nbsp;근거된&nbsp;*비행기를&nbsp;세우고&nbsp;자동차를&nbsp;세우고&nbsp;기차를&nbsp;세우는&nbsp;등의&nbsp;“불의(不義)한&nbsp;파업(罷業)이&nbsp;없는”“노(勞)·사(使)·정(政)의)”미래지향적&nbsp;&nbsp;정책&nbsp;공약.<br><br>&nbsp;&nbsp;○&nbsp;목&nbsp;표;----3.1운동의&nbsp;선열분들의&nbsp;희생의&nbsp;제단으로부터&nbsp;;&nbsp;유산으로&nbsp;물러받은&nbsp;*한반도와&nbsp;자유&nbsp;민주주의를&nbsp;영원히&nbsp;누리면서&nbsp;지킬&nbsp;수&nbsp;있는&nbsp;노,사,정에&nbsp;대한&nbsp;미래지향적&nbsp;정책공약.<br><br>&nbsp;&nbsp;○이행방법;----*3.1운동으로&nbsp;물러&nbsp;받은&nbsp;*한반도와&nbsp;자유&nbsp;민주주의를&nbsp;영원히&nbsp;누리면서&nbsp;지킬&nbsp;수&nbsp;있는&nbsp;*방법은&nbsp;3.1운동의&nbsp;선열분들의&nbsp;희생의&nbsp;이념의&nbsp;정의에&nbsp;대하여서;&nbsp;*선열분들의&nbsp;희생의&nbsp;이념의&nbsp;정의에&nbsp;대한;&nbsp;*“유신교육정책론”에&nbsp;근거된;&nbsp;*“유아교육에서&nbsp;부터&nbsp;성인교육을&nbsp;국민교육헌장으로&nbsp;정착시켜서”;&nbsp;*비행기를&nbsp;세우고,기차를&nbsp;세우고,기업을&nbsp;세우는&nbsp;등등의&nbsp;*불의한&nbsp;노.사.정의&nbsp;행위가&nbsp;없도록&nbsp;교육개념으로&nbsp;정착요함&nbsp;<br><br>&nbsp;&nbsp;○이행기간;-----*국가의&nbsp;국민이&nbsp;존속하는&nbsp;동안&nbsp;“영원한&nbsp;행복과&nbsp;평안을&nbsp;누리면서&nbsp;지킬&nbsp;수&nbsp;있는&nbsp;그때까지&nbsp;요함”.<br><br>&nbsp;&nbsp;○재원조달방안&nbsp;등;----*3.1운동으로&nbsp;물러&nbsp;받은&nbsp;*한반도와&nbsp;자유&nbsp;민주주의를&nbsp;영원히&nbsp;누리면서&nbsp;지킬&nbsp;수&nbsp;있는&nbsp;교육이념을&nbsp;정착시킬&nbsp;수&nbsp;있는&nbsp;;&nbsp;교육정책과&nbsp;동시에&nbsp;그에&nbsp;따르는&nbsp;교육시설과&nbsp;교육자의&nbsp;양성이&nbsp;요함.*동시에“하나님께서&nbsp;열납받으실&nbsp;수&nbsp;있는&nbsp;*전국민과&nbsp;교육자의&nbsp;생활의&nbsp;온전한&nbsp;십일조와&nbsp;감사한&nbsp;일에&nbsp;대하여서;&nbsp;온전하게&nbsp;비례되는&nbsp;감사&nbsp;헌금생활이&nbsp;동반되어&nbsp;져야합니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	“오직 정의(正義)가 물같이 흐르게하고-----”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="“오직 정의(正義)가 물같이 흐르게하고-----”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표;--*후보자&nbsp;김&nbsp;두환의&nbsp;일생일대기에서&nbsp;“동명이인(同名異人)의&nbsp;지문(指紋)과&nbsp;필체(筆體)로&nbsp;작성되어진&nbsp;공소기소문(公訴起訴文)”으로&nbsp;*3번의&nbsp;구속사건에&nbsp;대하여서&nbsp;이&nbsp;나라&nbsp;이땅에&nbsp;영원한&nbsp;하나님의&nbsp;나라가&nbsp;정착되어질&nbsp;수&nbsp;있는&nbsp;;&nbsp;“성경;”오직&nbsp;정의(正義)가&nbsp;물같이&nbsp;흐르게&nbsp;하고&nbsp;공의(公義)가&nbsp;마르지&nbsp;않는&nbsp;강같이&nbsp;할지어다“의&nbsp;말씀과&nbsp;일치된&nbsp;나의&nbsp;조국과&nbsp;국가의&nbsp;국민과&nbsp;경산&nbsp;시민이&nbsp;될&nbsp;수&nbsp;있는&nbsp;정책공약을&nbsp;목표로&nbsp;함.<br><br>&nbsp;&nbsp;○&nbsp;이행방법;---*오직&nbsp;정의가&nbsp;물같이&nbsp;흐르게&nbsp;하고&nbsp;공의가&nbsp;마르지않는&nbsp;강같이&nbsp;할지어다“를&nbsp;정착시킬&nbsp;수&nbsp;있는&nbsp;방법은;&nbsp;”하나님께서&nbsp;열납받을&nbsp;수&nbsp;있는&nbsp;온전한&nbsp;순종으로만“이&nbsp;문제해결의&nbsp;방법이&nbsp;됨.<br><br>&nbsp;&nbsp;○&nbsp;이행기간;---*국가의&nbsp;국민이&nbsp;존속하는&nbsp;동안&nbsp;진정한&nbsp;행복과&nbsp;평안을&nbsp;누릴려면;&nbsp;국가의&nbsp;국민이&nbsp;존재하는&nbsp;동안&nbsp;세월과&nbsp;일치된&nbsp;동행을&nbsp;요함.<br><br>&nbsp;&nbsp;○&nbsp;재원조달방안&nbsp;등;---**특별한&nbsp;물질적&nbsp;조달은&nbsp;없는&nbsp;반면에&nbsp;국민의&nbsp;삶에&nbsp;대하여서&nbsp;하나님께서&nbsp;열납되어&nbsp;짐을&nbsp;받을&nbsp;수&nbsp;있는&nbsp;;&nbsp;”온전한&nbsp;감사와&nbsp;찬송과&nbsp;영광을&nbsp;&nbsp;올려드릴&nbsp;수&nbsp;있는&nbsp;믿음의&nbsp;생활과&nbsp;함께&nbsp;;&nbsp;“하나님께서&nbsp;열납되어짐을&nbsp;받을&nbsp;수&nbsp;있는&nbsp;생활의&nbsp;온전한&nbsp;십일조와&nbsp;감사한&nbsp;일에&nbsp;대하여서;&nbsp;온전하게&nbsp;비례되는&nbsp;감사헌금생활이&nbsp;동반되어&nbsp;져야합니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	경산시의 고아들을 새마을 일꾼으로 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="경산시의 고아들을 새마을 일꾼으로 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ***정책공약;&nbsp;4번째;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.&nbsp;경산시에서&nbsp;발생되어지는&nbsp;고아는&nbsp;경산시에서&nbsp;고아원을&nbsp;설립하여서&nbsp;&nbsp;*5技(해외유학포함)와&nbsp;함께&nbsp;;(*“하나님의&nbsp;사랑의&nbsp;원자핵폭탄을&nbsp;소유할수&nbsp;있는&nbsp;조건을&nbsp;갖춘”&nbsp;&nbsp;*새마을&nbsp;일꾼으로&nbsp;&nbsp;정착&nbsp;시킬&nbsp;수&nbsp;있는&nbsp;정책공약;&nbsp;<br><br>&nbsp;&nbsp;○&nbsp;목&nbsp;표;----*불우한&nbsp;인생을&nbsp;“하나님의&nbsp;사랑의&nbsp;원자핵폭탄을&nbsp;소유하여서&nbsp;국가의&nbsp;국민과&nbsp;경산시민의&nbsp;새마을&nbsp;일꾼으로&nbsp;육성목표<br><br>&nbsp;&nbsp;○이행방법;----*하나님의&nbsp;원자핵폭탄을&nbsp;부여&nbsp;받을&nbsp;수&nbsp;있는&nbsp;국민과&nbsp;경산시민이&nbsp;될&nbsp;수&nbsp;있는&nbsp;”온전한&nbsp;믿음의&nbsp;소유자의&nbsp;생활이&nbsp;될&nbsp;때에만“&nbsp;성립가능함.<br><br>&nbsp;&nbsp;○이행기간;-----*국가의&nbsp;국민이&nbsp;존속하는&nbsp;동안&nbsp;진정한&nbsp;행복과&nbsp;평안을&nbsp;누릴려면;&nbsp;국가의&nbsp;국민이&nbsp;존재하는&nbsp;동안&nbsp;세월과&nbsp;일치됨을&nbsp;요함.<br><br>&nbsp;&nbsp;○재원조달방안&nbsp;등;-----*특별한&nbsp;물질적&nbsp;조달은&nbsp;없는&nbsp;반면에&nbsp;국민의&nbsp;삶에&nbsp;대하여서&nbsp;하나님께서&nbsp;열납되어&nbsp;짐을&nbsp;받으실&nbsp;수&nbsp;있는&nbsp;;&nbsp;온전한&nbsp;감사와&nbsp;찬송과&nbsp;영광을&nbsp;&nbsp;올려드릴&nbsp;수&nbsp;있는&nbsp;믿음의&nbsp;생활과&nbsp;함께&nbsp;;&nbsp;하나님께서&nbsp;열납받으실&nbsp;수&nbsp;있는&nbsp;생활의&nbsp;온전한&nbsp;십일조와&nbsp;감사한&nbsp;일에&nbsp;대하여서;&nbsp;온전하게&nbsp;비례되는&nbsp;감사헌금생활이&nbsp;동반되어&nbsp;져야합니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	”세계적 두 아들로 성공시킨 두 어머님의 교육비전”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="”세계적 두 아들로 성공시킨 두 어머님의 교육비전”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○목&nbsp;표;----아들을&nbsp;낳지&nbsp;못하던;“한나”의&nbsp;어머님의&nbsp;기도의&nbsp;목적과&nbsp;*죽음을&nbsp;앞둔;&nbsp;A.링컨의&nbsp;어머니가&nbsp;9살난&nbsp;어린&nbsp;아들&nbsp;A.링컨에&nbsp;대하여서&nbsp;하나님깨서&nbsp;쓰임을&nbsp;받을&nbsp;수&nbsp;있는&nbsp;아들이&nbsp;되기를&nbsp;원하셨던;&nbsp;두&nbsp;어머님의&nbsp;기도가&nbsp;*세계적인&nbsp;두아들로&nbsp;성공시킨&nbsp;;&nbsp;두어머님의&nbsp;기도와&nbsp;교육비전을&nbsp;도입하여서&nbsp;제2의&nbsp;한국의&nbsp;사무엘과&nbsp;A.링컨대통령이&nbsp;될&nbsp;수&nbsp;있는&nbsp;&nbsp;정책비전을&nbsp;목표로&nbsp;했음&nbsp;<br><br>&nbsp;&nbsp;○이행방법;----**하나님의&nbsp;사랑의&nbsp;원자핵폭탄을&nbsp;부여&nbsp;받을&nbsp;수&nbsp;있는&nbsp;국민과&nbsp;경산시민이&nbsp;될&nbsp;수&nbsp;있는&nbsp;“온전한&nbsp;믿음의&nbsp;기도자의&nbsp;소유자의&nbsp;생활이&nbsp;될&nbsp;때에만”성립가능함.<br><br>&nbsp;&nbsp;○이행기간;----**국가의&nbsp;국민과&nbsp;부모형제가&nbsp;존속하는&nbsp;동안&nbsp;진정한&nbsp;행복과&nbsp;평안을&nbsp;누릴려면;&nbsp;국가의&nbsp;국민과&nbsp;부모형제가&nbsp;존재하는&nbsp;동안&nbsp;하나님의&nbsp;말씀에&nbsp;온전한&nbsp;순종의&nbsp;생활과&nbsp;일치됨을&nbsp;요함.<br><br>&nbsp;&nbsp;○재원조달방안&nbsp;등;-----*특별한&nbsp;물질적&nbsp;조달은&nbsp;없는&nbsp;반면에&nbsp;국민의&nbsp;삶에&nbsp;대하여서&nbsp;하나님께서&nbsp;열납되어&nbsp;짐을&nbsp;받으실&nbsp;수&nbsp;있는&nbsp;;&nbsp;“온전한&nbsp;감사와&nbsp;찬송과&nbsp;영광을&nbsp;&nbsp;올려드릴&nbsp;수&nbsp;있는&nbsp;믿음의&nbsp;생활과&nbsp;함께&nbsp;;&nbsp;”하나님께서&nbsp;열납받으실&nbsp;수&nbsp;있는&nbsp;생활의&nbsp;온전한&nbsp;십일조와&nbsp;감사한&nbsp;일에&nbsp;대하여서는;&nbsp;온전하게&nbsp;비례되는&nbsp;감사헌금생활이&nbsp;동반되어&nbsp;져야합니다.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

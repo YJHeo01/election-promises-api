@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박승호 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	영일만 친환경 특수선 조선클러스터 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="영일만 친환경 특수선 조선클러스터 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;포항&nbsp;영일만항&nbsp;중심의&nbsp;친환경&nbsp;특수선&nbsp;조선산업&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;철강·배터리·수소산업과&nbsp;연계한&nbsp;동해안&nbsp;신성장&nbsp;엔진&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;양질의&nbsp;일자리&nbsp;1만5천개&nbsp;창출&nbsp;및&nbsp;인구&nbsp;유입&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;영일만항&nbsp;배후부지&nbsp;중심&nbsp;친환경&nbsp;특수선&nbsp;조선단지&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;LNG·암모니아&nbsp;운반선,&nbsp;해양플랜트,&nbsp;북극항로&nbsp;선박&nbsp;산업&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;포스코&nbsp;철강산업&nbsp;및&nbsp;이차전지&nbsp;산업과&nbsp;연계한&nbsp;K-스틸십&nbsp;산업&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;국책사업&nbsp;지정&nbsp;및&nbsp;정부·민간&nbsp;투자&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;산학연&nbsp;협력&nbsp;기반&nbsp;조선&nbsp;전문인력&nbsp;양성&nbsp;체계&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~2028년&nbsp;:&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;국가사업&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2028~2030년&nbsp;:&nbsp;산업단지&nbsp;및&nbsp;배후&nbsp;인프라&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;2030년&nbsp;이후&nbsp;:&nbsp;기업&nbsp;유치&nbsp;및&nbsp;본격&nbsp;산업&nbsp;클러스터&nbsp;운영<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;확보&nbsp;및&nbsp;민간투자&nbsp;병행&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;단계별&nbsp;시비&nbsp;투입<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;공모사업&nbsp;및&nbsp;국가균형발전&nbsp;사업&nbsp;연계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	해병 WITH 복합테마파크 조성 및 오천 미래성장축 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="해병 WITH 복합테마파크 조성 및 오천 미래성장축 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;오천&nbsp;해병대&nbsp;사격장&nbsp;이전&nbsp;부지를&nbsp;시민&nbsp;중심&nbsp;복합테마파크로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;해병대&nbsp;정신·안보·관광·체육·교육이&nbsp;결합된&nbsp;전국&nbsp;대표&nbsp;명소&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;오천권을&nbsp;포항&nbsp;남부권&nbsp;미래&nbsp;성장축으로&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;해병대&nbsp;기념관·해병대회관·전우&nbsp;만남의&nbsp;광장&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;전국&nbsp;및&nbsp;세계&nbsp;해병&nbsp;예비역이&nbsp;찾는&nbsp;해병&nbsp;상징&nbsp;공간&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;키즈랜드&nbsp;및&nbsp;AI&nbsp;미래체험관&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;가족&nbsp;캠핑·과학체험·1일&nbsp;병영체험&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;세계&nbsp;최대&nbsp;규모&nbsp;270홀&nbsp;파크골프장&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;전국&nbsp;단위&nbsp;파크골프&nbsp;대회&nbsp;및&nbsp;체류형&nbsp;스포츠&nbsp;관광&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;영일만&nbsp;관광벨트와&nbsp;연계한&nbsp;남부권&nbsp;관광&nbsp;활성화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;포은&nbsp;정몽주관&nbsp;건립으로&nbsp;포항의&nbsp;충절·애국&nbsp;정신을&nbsp;계승하는&nbsp;역사문화&nbsp;랜드마크&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;:&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;관계기관&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;2027~2028년&nbsp;:&nbsp;부지&nbsp;정비&nbsp;및&nbsp;단계별&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;2029년&nbsp;이후&nbsp;:&nbsp;관광·체육·교육시설&nbsp;본격&nbsp;운영<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;국가보훈·관광·체육&nbsp;연계사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;경북도&nbsp;및&nbsp;포항시&nbsp;예산&nbsp;단계적&nbsp;투입<br>&nbsp;&nbsp;○&nbsp;민간투자&nbsp;및&nbsp;관광개발사업&nbsp;연계&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	스틸야드 도심 이전 및 원도심 대개조 프로젝트 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="스틸야드 도심 이전 및 원도심 대개조 프로젝트 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;스틸야드&nbsp;도심&nbsp;이전을&nbsp;통한&nbsp;원도심&nbsp;경제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;중앙상가·죽도시장·북구&nbsp;상권&nbsp;회복&nbsp;및&nbsp;체류형&nbsp;도시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;스포츠·문화·상업이&nbsp;결합된&nbsp;포항형&nbsp;도시재생&nbsp;모델&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;도심&nbsp;접근성이&nbsp;뛰어난&nbsp;지역에&nbsp;신개념&nbsp;복합&nbsp;스틸야드&nbsp;이전&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;경기장과&nbsp;쇼핑·문화·공연·청년공간&nbsp;결합한&nbsp;복합문화타운&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;스틸야드&nbsp;부지&nbsp;재개발&nbsp;및&nbsp;시민공원화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;중앙상가·죽도시장·해도동·오광장&nbsp;상권&nbsp;연계&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;야간경제&nbsp;및&nbsp;축구&nbsp;관광&nbsp;콘텐츠&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;대중교통·주차장·보행환경&nbsp;개선&nbsp;병행&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;:&nbsp;기본구상&nbsp;및&nbsp;타당성&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;2027~2028년&nbsp;:&nbsp;부지선정&nbsp;및&nbsp;사업계획&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2029년&nbsp;이후&nbsp;:&nbsp;단계별&nbsp;개발&nbsp;및&nbsp;상권&nbsp;활성화&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민간투자&nbsp;및&nbsp;스포츠·문화&nbsp;복합개발&nbsp;방식&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;경북도&nbsp;및&nbsp;포항시&nbsp;예산&nbsp;단계적&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;도시재생&nbsp;및&nbsp;국토부&nbsp;연계사업&nbsp;적극&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	미군반환공여구역 개발 및 북구 미래신도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="미군반환공여구역 개발 및 북구 미래신도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;장성동&nbsp;미군반환공여구역의&nbsp;조속한&nbsp;개발&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;북구권&nbsp;신성장&nbsp;거점&nbsp;및&nbsp;미래형&nbsp;복합도시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;주거·상업·문화·공원이&nbsp;결합된&nbsp;시민&nbsp;중심&nbsp;도시&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;장기&nbsp;미개발&nbsp;상태인&nbsp;반환공여구역&nbsp;개발계획&nbsp;전면&nbsp;재정비<br>&nbsp;&nbsp;○&nbsp;청년주거·복합쇼핑·문화시설·공원&nbsp;인프라&nbsp;단계적&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;기업유치&nbsp;및&nbsp;첨단산업&nbsp;연계&nbsp;복합개발&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;북구&nbsp;교통망&nbsp;및&nbsp;주차&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;휴식형&nbsp;녹지공간&nbsp;및&nbsp;체육시설&nbsp;확대&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;민간투자&nbsp;유치를&nbsp;통한&nbsp;체류형&nbsp;생활권&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;:&nbsp;개발&nbsp;기본계획&nbsp;및&nbsp;관계기관&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;2027~2028년&nbsp;:&nbsp;부지&nbsp;정비&nbsp;및&nbsp;단계별&nbsp;개발&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2029년&nbsp;이후&nbsp;:&nbsp;상업·주거·문화시설&nbsp;본격&nbsp;조성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;도시개발&nbsp;연계사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;민간투자&nbsp;및&nbsp;공공개발&nbsp;방식&nbsp;병행&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;경북도&nbsp;및&nbsp;포항시&nbsp;예산&nbsp;단계적&nbsp;투입</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	포항 해양신도시 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="포항 해양신도시 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;환동헤권&nbsp;중심도시&nbsp;포항의&nbsp;새로운&nbsp;장기발전전략<br>&nbsp;&nbsp;○&nbsp;해양도시를&nbsp;건설하여&nbsp;아시아권&nbsp;관광휴양&nbsp;거점도시로&nbsp;발전<br>&nbsp;&nbsp;○&nbsp;관광객&nbsp;100만명&nbsp;아상이&nbsp;찾는&nbsp;셰계적인&nbsp;해양&nbsp;관관도시로&nbsp;도약<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;영일만항에&nbsp;접한&nbsp;여남동&nbsp;일원에&nbsp;도시계획을&nbsp;수립하여&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;시에서&nbsp;개발계획을&nbsp;수립하여&nbsp;도시계획에&nbsp;반영<br>&nbsp;&nbsp;○&nbsp;국내&nbsp;민간건설&nbsp;대기업을&nbsp;유치&nbsp;민자사업으로&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2027년&nbsp;:&nbsp;기본계획수립&nbsp;및&nbsp;도시계획반영<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;~&nbsp;2028년&nbsp;:&nbsp;민자유치<br>&nbsp;&nbsp;○&nbsp;2028년&nbsp;~&nbsp;2035년&nbsp;:&nbsp;개발계획승인&nbsp;및&nbsp;사업준공<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기본계획수립&nbsp;및&nbsp;도시계획반영&nbsp;시까지&nbsp;시비&nbsp;투입<br>&nbsp;&nbsp;○&nbsp;개발사업&nbsp;실시계획수립부터&nbsp;민자&nbsp;투지</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

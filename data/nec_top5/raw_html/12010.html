@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;정희성 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	광산구의 거대한 도약, ‘광산특례시’ 승격</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="광산구의 거대한 도약, ‘광산특례시’ 승격">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;현재&nbsp;광산구&nbsp;인구는&nbsp;약&nbsp;40만&nbsp;명으로,&nbsp;웬만한&nbsp;도(道)&nbsp;산하&nbsp;기초시(市)보다&nbsp;큼<br>&nbsp;&nbsp;-&nbsp;구(區)'라는&nbsp;행정구역의&nbsp;한계&nbsp;때문에&nbsp;재정&nbsp;자립도와&nbsp;행정&nbsp;권한이&nbsp;묶여&nbsp;있어&nbsp;도시&nbsp;성장의&nbsp;발목을&nbsp;잡고&nbsp;있음<br>&nbsp;&nbsp;-&nbsp;광주송정역(KTX),&nbsp;광주공항,&nbsp;빛그린국가산단,&nbsp;첨단3지구&nbsp;등&nbsp;호남의&nbsp;핵심&nbsp;교통·산업&nbsp;인프라가&nbsp;모두&nbsp;광산에&nbsp;집중되어&nbsp;있음.&nbsp;이에&nbsp;걸맞은&nbsp;독자적인&nbsp;행정·재정권이&nbsp;필요함<br><br>①&nbsp;행정&nbsp;권한&nbsp;확대&nbsp;및&nbsp;재정&nbsp;자립&nbsp;구축<br>-&nbsp;광주광역시&nbsp;산하의&nbsp;자치구에서&nbsp;도(道)&nbsp;직할&nbsp;또는&nbsp;광역시에&nbsp;준하는&nbsp;독립적&nbsp;재정권과&nbsp;인허가권을&nbsp;가진&nbsp;'광산시'로&nbsp;승격&nbsp;<br>-&nbsp;세수&nbsp;다변화를&nbsp;통해&nbsp;광산에서&nbsp;걷힌&nbsp;세금이&nbsp;광산의&nbsp;복지,&nbsp;도로,&nbsp;교육에&nbsp;집중&nbsp;투자되도록&nbsp;함.<br>-&nbsp;시청을&nbsp;거치지&nbsp;않는&nbsp;독자적&nbsp;인허가권&nbsp;확보로&nbsp;기업&nbsp;유치와&nbsp;빠른&nbsp;민원&nbsp;해결<br>②&nbsp;KTX&nbsp;송정역세권&nbsp;중심의&nbsp;'호남&nbsp;제1의&nbsp;교통·물류&nbsp;허브'&nbsp;완성<br>광산시&nbsp;승격과&nbsp;동시에&nbsp;송정역&nbsp;복합환승센터&nbsp;개발을&nbsp;속도감&nbsp;있게&nbsp;추진.<br>투자유치&nbsp;촉진지구&nbsp;지정을&nbsp;통해&nbsp;대기업&nbsp;및&nbsp;미래&nbsp;모빌리티&nbsp;기업의&nbsp;본사를&nbsp;적극&nbsp;유치.<br>③&nbsp;송정·삼도·본량&nbsp;등&nbsp;구도심&nbsp;및&nbsp;농촌&nbsp;지역에는&nbsp;'광산시&nbsp;주도'의&nbsp;도시재생&nbsp;사업과&nbsp;맞춤형&nbsp;인프라를&nbsp;신속하게&nbsp;지원.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;전문가/&nbsp;시민이&nbsp;참여하는&nbsp;투자위원회&nbsp;구성<br>&nbsp;&nbsp;-&nbsp;법적&nbsp;절차(지방자치법&nbsp;개정&nbsp;등)가&nbsp;동반되어야&nbsp;하므로,&nbsp;"행정안전부&nbsp;및&nbsp;국회와의&nbsp;긴밀한&nbsp;공조를&nbsp;통해&nbsp;'광산시&nbsp;승격&nbsp;특례법'&nbsp;발의&nbsp;추진“<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기&nbsp;내</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	선운 복합문화체육센터 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="선운 복합문화체육센터 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◆&nbsp;선운지구&nbsp;인구&nbsp;증가&nbsp;대비&nbsp;체육·문화&nbsp;인프라&nbsp;부족:&nbsp;<br>&nbsp;&nbsp;-&nbsp;선운지구는&nbsp;대규모&nbsp;주거&nbsp;단지와&nbsp;대학가,&nbsp;산업단지가&nbsp;인접해&nbsp;인구가&nbsp;꾸준히&nbsp;유입되고&nbsp;있으나,&nbsp;주민들이&nbsp;일상에서&nbsp;쉽게&nbsp;이용할&nbsp;수&nbsp;있는&nbsp;다목적&nbsp;복합&nbsp;체육·문화&nbsp;시설이&nbsp;절대적으로&nbsp;부족<br>&nbsp;&nbsp;-&nbsp;주민&nbsp;삶의&nbsp;질&nbsp;향상&nbsp;요구&nbsp;증가:&nbsp;건강&nbsp;증진과&nbsp;문화생활에&nbsp;대한&nbsp;주민들의&nbsp;눈높이는&nbsp;높아졌지만,&nbsp;관련&nbsp;시설이&nbsp;멀리&nbsp;떨어져&nbsp;있어&nbsp;접근성이&nbsp;떨어지는&nbsp;불편을&nbsp;겪고&nbsp;있음<br>&nbsp;&nbsp;-&nbsp;도보권에서&nbsp;건강,&nbsp;문화,&nbsp;휴식을&nbsp;동시에&nbsp;누리는&nbsp;'생애주기별&nbsp;맞춤형&nbsp;복합&nbsp;공간'을&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;"걸어서&nbsp;10분"&nbsp;내에&nbsp;체육·문화&nbsp;활동이&nbsp;가능한&nbsp;선운지구&nbsp;중심의&nbsp;생활밀착형&nbsp;복합&nbsp;공간&nbsp;탄생<br>&nbsp;&nbsp;-&nbsp;유아부터&nbsp;어르신까지&nbsp;모든&nbsp;세대가&nbsp;함께&nbsp;어우러지는&nbsp;지역&nbsp;공동체의&nbsp;중심지&nbsp;역할<br>&nbsp;&nbsp;-&nbsp;주민들의&nbsp;건강&nbsp;증진과&nbsp;여가&nbsp;만족도&nbsp;향상으로&nbsp;‘살기&nbsp;좋은&nbsp;명품&nbsp;도시&nbsp;선운’의&nbsp;가치&nbsp;극대화<br><br>○&nbsp;[체육시설]&nbsp;스마트&nbsp;다목적&nbsp;체육관<br>&nbsp;&nbsp;-&nbsp;수영장(유아풀&nbsp;포함),&nbsp;배드민턴,&nbsp;농구,&nbsp;탁구&nbsp;등&nbsp;다목적&nbsp;구장&nbsp;조성<br><br>○&nbsp;[문화·돌봄]&nbsp;문화예술&nbsp;및&nbsp;커뮤니티&nbsp;공간<br>평생교육,&nbsp;요가,&nbsp;미술,&nbsp;악기&nbsp;연주&nbsp;등이&nbsp;가능한&nbsp;다목적&nbsp;문화&nbsp;강좌실<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(문화체육관광부&nbsp;생활SOC&nbsp;복합화&nbsp;사업&nbsp;등)&nbsp;및&nbsp;시&nbsp;교부세&nbsp;증가</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	농민수당 년 120만원 인상,농산물직거래장터개설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="농민수당 년 120만원 인상,농산물직거래장터개설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;공약&nbsp;&nbsp;농민수당&nbsp;연&nbsp;120만&nbsp;원&nbsp;인상,대규모&nbsp;'농산물&nbsp;직거래&nbsp;장터'&nbsp;상설&nbsp;개설<br>&nbsp;&nbsp;-&nbsp;농업의&nbsp;공익적&nbsp;가치&nbsp;인정,&nbsp;농업을&nbsp;지속가능하게&nbsp;하여&nbsp;농민의&nbsp;삶&nbsp;보장<br>&nbsp;&nbsp;-&nbsp;도,농&nbsp;복합지역인&nbsp;광산구,&nbsp;기후&nbsp;위기로&nbsp;농업&nbsp;재해&nbsp;증가,&nbsp;원자재&nbsp;및&nbsp;인건비&nbsp;상승으로&nbsp;농가&nbsp;경영부담&nbsp;가중.&nbsp;현행&nbsp;농민수당으로는&nbsp;농가의&nbsp;최소한의&nbsp;소득&nbsp;안정&nbsp;보장에&nbsp;한계가&nbsp;있음<br>&nbsp;&nbsp;-&nbsp;현행&nbsp;농민수당을&nbsp;연&nbsp;120만&nbsp;원(월&nbsp;10만&nbsp;원)&nbsp;수준으로&nbsp;대폭&nbsp;인상하여&nbsp;지급.<br>&nbsp;&nbsp;-&nbsp;생산자와&nbsp;소비자가&nbsp;직접&nbsp;만나는&nbsp;대규모&nbsp;상설·정기&nbsp;직거래&nbsp;장터(로컬푸드&nbsp;마켓)를&nbsp;개설<br>&nbsp;&nbsp;-&nbsp;지자체가&nbsp;물류비,&nbsp;부지,&nbsp;마케팅을&nbsp;적극&nbsp;지원하여&nbsp;유통마진&nbsp;0%&nbsp;도전.<br><br>기대&nbsp;효과:&nbsp;안정적인&nbsp;농민수당을&nbsp;농민의&nbsp;자긍심&nbsp;고취,&nbsp;농촌&nbsp;인구&nbsp;유입&nbsp;유도&nbsp;및&nbsp;지속&nbsp;가능한&nbsp;농업&nbsp;기반&nbsp;마련.&nbsp;농가는&nbsp;안정적인&nbsp;판로&nbsp;확보와&nbsp;소득&nbsp;증대,&nbsp;소비자는&nbsp;저렴하고&nbsp;신선한&nbsp;고품질&nbsp;먹거리&nbsp;확보.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;지자체&nbsp;재정&nbsp;조정을&nbsp;통한&nbsp;농업&nbsp;예산&nbsp;비중&nbsp;확대&nbsp;및&nbsp;관련&nbsp;조례&nbsp;개정.<br>&nbsp;&nbsp;-&nbsp;지역사랑상품권(지지역화폐)으로&nbsp;지급하여&nbsp;농가&nbsp;소득&nbsp;보전과&nbsp;지역&nbsp;골목상권&nbsp;활성화의&nbsp;선순환&nbsp;구조&nbsp;구축.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;임기&nbsp;시작부터<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;광산시&nbsp;승격을&nbsp;통한&nbsp;교부세&nbsp;증가</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	공공이 책임지는 돌봄, 의료“우리동네 요양원”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="공공이 책임지는 돌봄, 의료“우리동네 요양원”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;"어르신에게는&nbsp;존엄한&nbsp;노후를,&nbsp;가족에게는&nbsp;안심을!&nbsp;우리&nbsp;동네&nbsp;명품&nbsp;실버케어&nbsp;구축"<br>&nbsp;&nbsp;-<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;도심형·친환경&nbsp;공공&nbsp;마을요양원&nbsp;건립<br>&nbsp;&nbsp;-&nbsp;정겨운&nbsp;우리&nbsp;동네에서&nbsp;노후를:&nbsp;멀리&nbsp;외곽으로&nbsp;떠나지&nbsp;않고,&nbsp;평생&nbsp;살던&nbsp;동네에서&nbsp;가족들과&nbsp;자주&nbsp;만나며&nbsp;지낼&nbsp;수&nbsp;있는&nbsp;공공&nbsp;요양원을&nbsp;건립<br>&nbsp;&nbsp;-&nbsp;최고&nbsp;수준의&nbsp;‘스마트&nbsp;의료·돌봄&nbsp;시스템’&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;24시간&nbsp;안심&nbsp;모니터링:&nbsp;AI&nbsp;반려로봇&nbsp;및&nbsp;웨어러블&nbsp;기기를&nbsp;도입하여&nbsp;어르신의&nbsp;낙상&nbsp;사고를&nbsp;예방하고&nbsp;바이탈&nbsp;사인을&nbsp;실시간으로&nbsp;체크<br><br>&nbsp;&nbsp;○&nbsp;보호자&nbsp;부담&nbsp;제로(Zero)&nbsp;및&nbsp;종사자&nbsp;처우&nbsp;개선<br>&nbsp;&nbsp;-&nbsp;보호자&nbsp;휴식(Respite)&nbsp;제도:&nbsp;간병에&nbsp;지친&nbsp;가족들이&nbsp;재충전할&nbsp;수&nbsp;있도록&nbsp;단기&nbsp;보호&nbsp;및&nbsp;주말&nbsp;주간보호&nbsp;서비스를&nbsp;강화<br>&nbsp;&nbsp;-&nbsp;돌봄&nbsp;종사자&nbsp;처우&nbsp;개선:&nbsp;요양보호사와&nbsp;간호인력의&nbsp;처우를&nbsp;개선하고&nbsp;적정&nbsp;인력을&nbsp;배치하여,&nbsp;현장의&nbsp;피로도를&nbsp;낮추고&nbsp;그것이&nbsp;곧&nbsp;어르신에&nbsp;대한&nbsp;‘고품격&nbsp;서비스’제공<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;시작부터<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;보건복지부와&nbsp;연계,&nbsp;국비·시비<br>&nbsp;&nbsp;○&nbsp;광산시&nbsp;승격을&nbsp;통한&nbsp;교부세&nbsp;증가</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	공공 반려동물 케어센터 설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="공공 반려동물 케어센터 설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;공공&nbsp;반려동물&nbsp;케어센터&nbsp;설립<br>&nbsp;&nbsp;-&nbsp;2025년&nbsp;기준&nbsp;한국의&nbsp;반려동물&nbsp;가구는&nbsp;약&nbsp;600만&nbsp;가구,&nbsp;전체&nbsp;가구의&nbsp;26.7%&nbsp;수준이며,&nbsp;반려인은&nbsp;약&nbsp;1,546만&nbsp;명으로&nbsp;추정<br>&nbsp;&nbsp;-&nbsp;반려가구&nbsp;최대&nbsp;관심사&nbsp;1위는&nbsp;'건강관리’<br>&nbsp;&nbsp;-&nbsp;과잉진료&nbsp;없는&nbsp;표준&nbsp;진료:&nbsp;센터&nbsp;내&nbsp;공공&nbsp;수의사를&nbsp;배치하여&nbsp;투명한&nbsp;적정&nbsp;진료&nbsp;서비스&nbsp;제공.<br>&nbsp;&nbsp;-&nbsp;공공&nbsp;위탁&nbsp;돌봄&nbsp;서비스<br>&nbsp;&nbsp;-&nbsp;반려인의&nbsp;갑작스러운&nbsp;입원,&nbsp;출장,&nbsp;명절&nbsp;연휴&nbsp;등으로&nbsp;돌봄&nbsp;공백이&nbsp;생길&nbsp;때&nbsp;안심하고&nbsp;맡길&nbsp;수&nbsp;있는&nbsp;단기&nbsp;위탁(호텔링)&nbsp;서비스&nbsp;<br>&nbsp;&nbsp;-&nbsp;치료,&nbsp;훈련,&nbsp;상담까지&nbsp;통합케어<br>&nbsp;&nbsp;-&nbsp;의료비&nbsp;부담&nbsp;완화<br>&nbsp;&nbsp;-&nbsp;독거노인등&nbsp;취약계층&nbsp;가구의&nbsp;반려동물을&nbsp;위한&nbsp;필수&nbsp;예방접종&nbsp;및&nbsp;기초&nbsp;진료비&nbsp;감면&nbsp;혜택&nbsp;제공<br>&nbsp;&nbsp;-&nbsp;반려동물&nbsp;쉼표&nbsp;운동장&nbsp;건설<br>&nbsp;&nbsp;-&nbsp;길고양이&nbsp;돌봄등&nbsp;노인일자리&nbsp;창출<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;시작부터<br>&nbsp;&nbsp;&nbsp;&nbsp;-<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;광산시&nbsp;승격을&nbsp;통한&nbsp;교부세&nbsp;증가</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

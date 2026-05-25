@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;류성식 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	해저터널 시대, 남해읍 상권 발전을 위한 봉영산 개발</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="해저터널 시대, 남해읍 상권 발전을 위한 봉영산 개발">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;;&nbsp;해저터널&nbsp;개통&nbsp;시대에&nbsp;대비해&nbsp;봉영산을&nbsp;남해읍&nbsp;상권과&nbsp;연계한&nbsp;체류형&nbsp;관광·문화·미식&nbsp;거점으로&nbsp;개발하고,&nbsp;전통시장·신청사·봉영산&nbsp;공원을&nbsp;연결해&nbsp;남해읍&nbsp;중심&nbsp;상권의&nbsp;활력&nbsp;회복을&nbsp;목표함<br><br>□&nbsp;세부&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;해저터널&nbsp;시대&nbsp;남해읍&nbsp;중심상권&nbsp;활성화&nbsp;공원&nbsp;조성(10만㎥&nbsp;정도)<br>&nbsp;&nbsp;○&nbsp;봉영산을&nbsp;남해읍&nbsp;대표&nbsp;관광거점으로&nbsp;조성&nbsp;:&nbsp;전망&nbsp;타워<br>&nbsp;&nbsp;○&nbsp;체류형&nbsp;관광&nbsp;기반&nbsp;구축&nbsp;:&nbsp;한옥워케이션마을<br>&nbsp;&nbsp;○&nbsp;남해&nbsp;전통문화와&nbsp;지역&nbsp;정체성&nbsp;강화&nbsp;:&nbsp;전시관·공방거리<br>&nbsp;&nbsp;○&nbsp;미식&nbsp;관광과&nbsp;골목상권&nbsp;육성&nbsp;:&nbsp;야간경관,&nbsp;카페,&nbsp;숙박,&nbsp;상업시설&nbsp;등<br>&nbsp;&nbsp;○&nbsp;전통시장-신청사-봉영산&nbsp;연결&nbsp;동선&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;기본구상&nbsp;및&nbsp;타당성&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;도시관리계획&nbsp;변경&nbsp;결정<br>&nbsp;&nbsp;○&nbsp;공원조성계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;지방재정투자심사&nbsp;및&nbsp;공유재산&nbsp;심의<br>&nbsp;&nbsp;○&nbsp;사업시행자&nbsp;지정<br>&nbsp;&nbsp;○&nbsp;실시설계&nbsp;및&nbsp;실시계획&nbsp;인가<br>&nbsp;&nbsp;○&nbsp;토지&nbsp;매입·보상&nbsp;및&nbsp;관련&nbsp;인허가&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;공사&nbsp;발주&nbsp;및&nbsp;사업&nbsp;시행&nbsp;<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026~2029<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;;&nbsp;재원은&nbsp;국비&nbsp;50%,&nbsp;도비&nbsp;15%,&nbsp;군비&nbsp;15%와&nbsp;민간&nbsp;20%&nbsp;투자를&nbsp;결합한&nbsp;복합&nbsp;재원&nbsp;방식으로&nbsp;조달하며,&nbsp;공원,&nbsp;보행로,&nbsp;전통문화&nbsp;전시관,&nbsp;야간경관&nbsp;등&nbsp;공공&nbsp;기반시설은&nbsp;중앙부처&nbsp;공모사업과&nbsp;경남도&nbsp;관광·지역균형발전&nbsp;사업을&nbsp;통해&nbsp;국·도비를&nbsp;확보하고,&nbsp;군비는&nbsp;기본계획&nbsp;수립과&nbsp;기반&nbsp;정비&nbsp;등&nbsp;필수&nbsp;분야에&nbsp;우선&nbsp;투입하며,&nbsp;한옥&nbsp;워케이션마을,&nbsp;화전&nbsp;미식&nbsp;거리,&nbsp;카페·숙박·상업시설&nbsp;등&nbsp;수익형&nbsp;시설은&nbsp;민간투자를&nbsp;유치해&nbsp;군&nbsp;재정&nbsp;부담을&nbsp;줄이고,&nbsp;남해읍&nbsp;상권&nbsp;활성화와&nbsp;체류형&nbsp;관광&nbsp;효과를&nbsp;높이겠음</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	한·중·일 평화공원 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="한·중·일 평화공원 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;;&nbsp;남해를&nbsp;한·중·일&nbsp;평화와&nbsp;역사문화가&nbsp;만나는&nbsp;대표&nbsp;관광거점으로&nbsp;조성하여,&nbsp;평화의&nbsp;가치를&nbsp;확산하고&nbsp;지역경제&nbsp;활성화를&nbsp;이끄는&nbsp;체류형&nbsp;관광명소로&nbsp;육성하는&nbsp;것을&nbsp;목표로&nbsp;추진함<br><br>□&nbsp;세부&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;평화&nbsp;상징&nbsp;랜드마크&nbsp;조성&nbsp;:&nbsp;남해를&nbsp;대표하는&nbsp;평화&nbsp;상징&nbsp;공간을&nbsp;조성하여&nbsp;지역의&nbsp;새로운&nbsp;관광&nbsp;브랜드<br>&nbsp;&nbsp;○&nbsp;역사·평화&nbsp;교육&nbsp;콘텐츠&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해전&nbsp;시뮬레이션&nbsp;영상관&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;평화&nbsp;전략의&nbsp;전당<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;위대한&nbsp;지도&nbsp;전시실&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한·중·일&nbsp;평화역사관&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복합&nbsp;체류형&nbsp;평화관광시설&nbsp;도입&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미디어아트&nbsp;기반&nbsp;평화&nbsp;전시·공연&nbsp;콘텐츠&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;체류형&nbsp;평화관광&nbsp;기반&nbsp;구축&nbsp;:&nbsp;전시·공연·미디어아트·교육·체험이&nbsp;결합된&nbsp;복합&nbsp;관광시설을&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;한·중·일&nbsp;평화&nbsp;스토리텔링&nbsp;확립&nbsp;:&nbsp;한·중·일을&nbsp;잇는&nbsp;평화&nbsp;이야기와&nbsp;관광&nbsp;콘텐츠를&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;지역경제&nbsp;활성화&nbsp;및&nbsp;관광&nbsp;경쟁력&nbsp;제고&nbsp;:&nbsp;관광자원으로&nbsp;육성하여&nbsp;일자리&nbsp;창출,&nbsp;상권&nbsp;활성화,&nbsp;관광소득&nbsp;증대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;기본계획&nbsp;수립(면적,&nbsp;핵심&nbsp;시설,&nbsp;총공사비&nbsp;등)<br>&nbsp;&nbsp;○&nbsp;군관리계획(지구단위계획)수립&nbsp;결정&nbsp;<br>&nbsp;&nbsp;○&nbsp;환경영향&nbsp;검토&nbsp;및&nbsp;입지&nbsp;적정성&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;관광지&nbsp;지정(정부&nbsp;공모사업&nbsp;연계)&nbsp;절차&nbsp;이행<br>&nbsp;&nbsp;○&nbsp;지방재정&nbsp;투자&nbsp;심사,&nbsp;공유재산&nbsp;관리계획&nbsp;변경·승인,&nbsp;부지매입<br>&nbsp;&nbsp;○&nbsp;실시설계&nbsp;및&nbsp;실시계획&nbsp;인가<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026~2029<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;;&nbsp;재원은&nbsp;국비&nbsp;50%,&nbsp;도비&nbsp;15%,&nbsp;군비&nbsp;35%의&nbsp;재원&nbsp;방식으로&nbsp;조달하며,&nbsp;국비는&nbsp;중앙부처&nbsp;공모사업과&nbsp;남해안&nbsp;관광벨트·평화관광·역사문화관광&nbsp;사업과&nbsp;연계해&nbsp;확보하고,&nbsp;도비는&nbsp;경남&nbsp;남해안권&nbsp;관광거점&nbsp;사업으로&nbsp;반영하며,&nbsp;군비는&nbsp;기본계획&nbsp;수립과&nbsp;기반&nbsp;정비&nbsp;등&nbsp;필수&nbsp;분야에&nbsp;투입</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	농·어·축산업 생산기반 혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="농·어·축산업 생산기반 혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;;&nbsp;농·어·축산업&nbsp;생산기반을&nbsp;혁신하고&nbsp;생산비&nbsp;부담을&nbsp;완화하여&nbsp;경영&nbsp;안정을&nbsp;지원하며,&nbsp;생산-가공-유통-관광-브랜드화를&nbsp;연계한&nbsp;고부가가치&nbsp;산업구조를&nbsp;구축.&nbsp;또한&nbsp;기후·해양환경&nbsp;변화에&nbsp;대응하고,&nbsp;고소득&nbsp;특화작목과&nbsp;농어촌&nbsp;체험관광,&nbsp;생산&nbsp;기반시설&nbsp;확충으로&nbsp;농어민&nbsp;소득&nbsp;증대와&nbsp;지역경제&nbsp;활성화에&nbsp;기여<br><br>□&nbsp;세부&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;농·어업&nbsp;육성&nbsp;:&nbsp;정보화,&nbsp;재해&nbsp;대응,&nbsp;유통&nbsp;혁신,&nbsp;드론·로봇&nbsp;자동화&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;농작업&nbsp;기반&nbsp;혁신&nbsp;:&nbsp;농작업&nbsp;대행사업단&nbsp;운영,&nbsp;토양개량,&nbsp;관수시설&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;마늘·시금치·고사리&nbsp;고도화&nbsp;:&nbsp;품질&nbsp;표준화,&nbsp;가공품&nbsp;개발,&nbsp;판로&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;잡는&nbsp;어업&nbsp;→기르는&nbsp;어업&nbsp;전환&nbsp;및&nbsp;생계형&nbsp;어업&nbsp;보호<br>&nbsp;&nbsp;○&nbsp;해양재해&nbsp;예방&nbsp;:&nbsp;적조·고수온&nbsp;대응체계&nbsp;강화와&nbsp;양식보험&nbsp;국비&nbsp;지원&nbsp;건의<br>&nbsp;&nbsp;○&nbsp;어촌&nbsp;인프라&nbsp;확충&nbsp;:&nbsp;수산물&nbsp;가공공장,&nbsp;공동&nbsp;저온저장시설,&nbsp;어업&nbsp;장비&nbsp;구입&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;축산업&nbsp;단지화&nbsp;및&nbsp;조사료&nbsp;생산기반&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;임산물&nbsp;소득화&nbsp;및&nbsp;산림관광&nbsp;활성화&nbsp;:&nbsp;임산물&nbsp;생산·가공·유통&nbsp;기반강화,&nbsp;힐링임도와&nbsp;산림레포츠&nbsp;관광&nbsp;연계<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;농·어·축산업&nbsp;실태조사,&nbsp;품목별&nbsp;수요조사,&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;농산물&nbsp;가공·유통&nbsp;지원,&nbsp;스마트&nbsp;장비,&nbsp;토양개량,&nbsp;관수시설&nbsp;시범&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;어촌&nbsp;인프라,&nbsp;양식&nbsp;어업&nbsp;전환,&nbsp;고소득&nbsp;어종&nbsp;방류<br>&nbsp;&nbsp;○&nbsp;축산업&nbsp;단지화&nbsp;추진,&nbsp;조사료&nbsp;생산기반&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;임산물&nbsp;소득화,&nbsp;산림관광,&nbsp;농어촌&nbsp;체험관광과&nbsp;연계&nbsp;확대<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026~2029<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;;&nbsp;재원은&nbsp;국비&nbsp;50%,&nbsp;도비&nbsp;20%,&nbsp;군비&nbsp;30%를&nbsp;기본으로&nbsp;하되,&nbsp;농림축산식품부,&nbsp;해양수산부,&nbsp;행정안전부,&nbsp;환경부&nbsp;등&nbsp;중앙부처&nbsp;보조사업과&nbsp;공모사업을&nbsp;적극&nbsp;활용하고,&nbsp;경상남도&nbsp;농정·해양수산·축산&nbsp;시책사업과&nbsp;연계해&nbsp;도비를&nbsp;확보,&nbsp;군비는&nbsp;고령&nbsp;농작업&nbsp;대행,&nbsp;농로&nbsp;정비,&nbsp;해양환경&nbsp;정화&nbsp;등&nbsp;현장&nbsp;체감도가&nbsp;높은&nbsp;사업에&nbsp;우선&nbsp;투입</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	우주항공 배후도시 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="우주항공 배후도시 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;;&nbsp;우주항공청&nbsp;개청과&nbsp;서부경남&nbsp;우주항공산업&nbsp;성장에&nbsp;대응하여&nbsp;남해를&nbsp;우주항공&nbsp;산업의&nbsp;배후&nbsp;주거·연수·휴양·관광&nbsp;거점도시로&nbsp;육성하고,&nbsp;청년&nbsp;일자리와&nbsp;지역&nbsp;경제&nbsp;활성화의&nbsp;새로운&nbsp;성장동력&nbsp;창출<br><br>□&nbsp;세부&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;우주항공산업&nbsp;배후&nbsp;기능&nbsp;확보&nbsp;:&nbsp;우주항공&nbsp;관련&nbsp;연수원·교육시설·워케이션·근로자&nbsp;숙소를&nbsp;유치해&nbsp;남해를&nbsp;차별화된&nbsp;산업&nbsp;배후도시로&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;인재양성과&nbsp;취업&nbsp;연계&nbsp;:&nbsp;지역대학·기업·연구기관과&nbsp;협력해&nbsp;우주항공·드론&nbsp;인재를&nbsp;양성하고&nbsp;교육-취업-정착&nbsp;연계&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;항공·드론&nbsp;기반&nbsp;신산업&nbsp;육성&nbsp;:&nbsp;드론&nbsp;촬영·물류·모니터링·재난안전&nbsp;등&nbsp;활용&nbsp;산업을&nbsp;육성해&nbsp;관광·농어업·산림·해양&nbsp;분야&nbsp;디지털&nbsp;전환&nbsp;촉진<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;정착과&nbsp;지역경제&nbsp;활성화&nbsp;:&nbsp;우주항공&nbsp;종사자와&nbsp;청년&nbsp;인재의&nbsp;체류&nbsp;기반을&nbsp;확충해&nbsp;연수·숙박·관광&nbsp;소비를&nbsp;지역경제&nbsp;활성화로&nbsp;연결<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;기본구상&nbsp;및&nbsp;타당성&nbsp;검토(우주항공&nbsp;TF&nbsp;설치)<br>&nbsp;&nbsp;○&nbsp;후보지&nbsp;선정(대상면적&nbsp;규모조사,&nbsp;관계법령&nbsp;규제&nbsp;검토)<br>&nbsp;&nbsp;○&nbsp;투자유치&nbsp;및&nbsp;기업&nbsp;협약<br>&nbsp;&nbsp;○&nbsp;산업단지&nbsp;지정&nbsp;절차,&nbsp;개발방식&nbsp;결정<br>&nbsp;&nbsp;○&nbsp;기반시설&nbsp;확보&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026~2029<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;;&nbsp;재원은&nbsp;국비&nbsp;50%,&nbsp;도비&nbsp;20%,&nbsp;군비&nbsp;10%,&nbsp;민자&nbsp;20%의&nbsp;복합&nbsp;재원&nbsp;방식으로&nbsp;조달하며,&nbsp;국비는&nbsp;우주항공산업&nbsp;육성,&nbsp;청년&nbsp;인재양성,&nbsp;드론&nbsp;실증·교육,&nbsp;스마트&nbsp;관광,&nbsp;지역소멸&nbsp;대응&nbsp;관련&nbsp;중앙부처&nbsp;공모사업과&nbsp;연계해&nbsp;확보하고,&nbsp;도비는&nbsp;경남&nbsp;우주항공산업벨트와&nbsp;남해안&nbsp;관광·산업&nbsp;연계사업으로&nbsp;반영,&nbsp;군비는&nbsp;기본계획&nbsp;수립과&nbsp;시범사업&nbsp;등&nbsp;필수&nbsp;분야에&nbsp;투입하며,&nbsp;기업&nbsp;연수원·근로자&nbsp;숙소·워케이션&nbsp;시설·체류형&nbsp;관광시설은&nbsp;민간투자를&nbsp;유치해&nbsp;추진함</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	남해 인구증대 방안 - 남해 시니어 메디-컬처 복합타운 조성, 작은 학교 살리기 -</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="남해 인구증대 방안 - 남해 시니어 메디-컬처 복합타운 조성, 작은 학교 살리기 -">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;남해&nbsp;시니어&nbsp;메디-컬처&nbsp;복합타운&nbsp;조성을&nbsp;통해&nbsp;고령친화&nbsp;주거·의료·요양·재활·문화&nbsp;거점을&nbsp;구축하고,&nbsp;근무자·가족·입주자·이용자&nbsp;유입으로&nbsp;일자리&nbsp;창출,&nbsp;지역경제&nbsp;활성화&nbsp;도모<br>&nbsp;&nbsp;○&nbsp;작은&nbsp;학교&nbsp;살리기를&nbsp;통해&nbsp;교육·일자리·문화가&nbsp;함께&nbsp;움직이는&nbsp;지역재생&nbsp;전략을&nbsp;추진하고,&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;교육환경을&nbsp;조성하여&nbsp;가족&nbsp;단위&nbsp;전입과&nbsp;청년층&nbsp;정착을&nbsp;유도함으로써&nbsp;남해군&nbsp;인구&nbsp;증대&nbsp;기반을&nbsp;마련<br><br>□&nbsp;세부&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;남해&nbsp;시니어&nbsp;메디-컬처&nbsp;복합타운&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노블레스&nbsp;시니어&nbsp;레지던스(주거·문화&nbsp;공간)&nbsp;건립&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트&nbsp;메디컬&nbsp;센터(요양병원+요양원+재활센터&nbsp;기능)&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;작은&nbsp;학교&nbsp;살리기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전국에서&nbsp;찾아오는&nbsp;남해&nbsp;유학마을&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원어민&nbsp;수준의&nbsp;영어교육과&nbsp;영재교육&nbsp;프로그램을&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생태·해양·문화·예술·영어교육&nbsp;등&nbsp;학교별&nbsp;특성화&nbsp;프로그램&nbsp;운영<br><br>□&nbsp;이행방법<br>&nbsp;【복합타운&nbsp;조성】&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【작은&nbsp;학교&nbsp;살리기】<br>&nbsp;&nbsp;○&nbsp;기본구상,&nbsp;타당성&nbsp;검토&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;대상지&nbsp;선정,&nbsp;수요조사,&nbsp;운영협의체&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;입지선정,&nbsp;수요조사,&nbsp;경제성&nbsp;검토&nbsp;&nbsp;&nbsp;○&nbsp;시범&nbsp;유학마을&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;부지확보,&nbsp;군관리계획&nbsp;변경&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;방과후·방학&nbsp;영어프로그램&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;사업방식&nbsp;결정&nbsp;및&nbsp;투지유치&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;체험·문화&nbsp;프로그램&nbsp;연계&nbsp;및&nbsp;전입&nbsp;정착&nbsp;지원<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026~2029<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;;&nbsp;국비&nbsp;30%,&nbsp;도비&nbsp;10%,&nbsp;군비&nbsp;10%,&nbsp;민자&nbsp;50%로&nbsp;조달하고,&nbsp;국비는&nbsp;고령친화·지역활력타운·지역소멸&nbsp;대응&nbsp;등&nbsp;정부&nbsp;공모사업과&nbsp;연계해&nbsp;확보</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

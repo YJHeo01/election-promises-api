@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;임택수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	수출형 반도체 소부장 국가산단 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="수출형 반도체 소부장 국가산단 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◎&nbsp;목적<br>&nbsp;미·중&nbsp;기술패권&nbsp;경쟁&nbsp;심화&nbsp;등으로&nbsp;글로벌&nbsp;반도체&nbsp;공급망이&nbsp;재편되어&nbsp;국가차원의&nbsp;대책이&nbsp;시급한&nbsp;상황에&nbsp;맞추어&nbsp;평택·이천·용인·청주&nbsp;등&nbsp;핵심&nbsp;생산기지의&nbsp;배후지원&nbsp;산업단지를&nbsp;조성해&nbsp;지속적인&nbsp;일자리&nbsp;확충과&nbsp;정주여건&nbsp;개선&nbsp;등&nbsp;지역발전을&nbsp;꾀하기&nbsp;위함<br><br>◎&nbsp;사업개요<br>-&nbsp;사업명&nbsp;:&nbsp;음성&nbsp;반도체&nbsp;소부장&nbsp;국가산업단지&nbsp;조성<br>-&nbsp;위치&nbsp;:&nbsp;음성군&nbsp;금왕읍·대소면·맹동면&nbsp;일원(혁신도시&nbsp;인접,&nbsp;100만평)<br>-&nbsp;유형&nbsp;:&nbsp;국가산업단지(국가전략산업&nbsp;특화)<br>-&nbsp;주요기능&nbsp;:&nbsp;반도체&nbsp;클러스터&nbsp;지원,&nbsp;복합형(연구·실증·제조·물류&nbsp;등)산업플랫폼<br>-&nbsp;입지여건&nbsp;:&nbsp;청주공항&nbsp;활용,&nbsp;충북혁신도시&nbsp;연구기관·오창과학산업단지&nbsp;등&nbsp;연계&nbsp;<br>기술인력&nbsp;생태계&nbsp;구축&nbsp;용이<br><br>========================================<br>구&nbsp;&nbsp;분&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;내&nbsp;&nbsp;용<br>-----------------------------------------------------------------<br>공약목표&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;일자리확충&nbsp;및&nbsp;정주여건&nbsp;개선<br>-----------------------------------------------------------------<br>우선순위&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;최우선과제<br>-----------------------------------------------------------------<br>이행절차&nbsp;및&nbsp;기한&nbsp;&nbsp;|&nbsp;국토교통부장관지정,&nbsp;임기내&nbsp;지정<br>-----------------------------------------------------------------<br>재원조달&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;방안&nbsp;국비,&nbsp;지자체예산<br>========================================</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	교육 강군(强郡) 기반 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="교육 강군(强郡) 기반 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◎&nbsp;목적<br>산업단지&nbsp;유치와&nbsp;도시화에&nbsp;불구하고&nbsp;인구&nbsp;유입이&nbsp;정체되고&nbsp;있는&nbsp;이유는&nbsp;자녀&nbsp;교육환경&nbsp;미흡으로&nbsp;진단됨,&nbsp;시대&nbsp;변화에&nbsp;따른&nbsp;교육여건&nbsp;개선을&nbsp;통해&nbsp;젊은&nbsp;도시로의&nbsp;도약을&nbsp;꾀하고자&nbsp;함<br><br>◎&nbsp;사업개요<br>-&nbsp;지원대상&nbsp;:&nbsp;취학전&nbsp;아동,&nbsp;학생,&nbsp;청년,&nbsp;시니어&nbsp;등<br>-&nbsp;중점분야&nbsp;:&nbsp;영유아&nbsp;발달지원,&nbsp;초·중학생의&nbsp;학습의욕&nbsp;고취&nbsp;및&nbsp;AI&nbsp;기초와&nbsp;응용능력&nbsp;지원,&nbsp;고등학생의&nbsp;특기&nbsp;적성교육&nbsp;및&nbsp;진학·취업&nbsp;컨설팅,&nbsp;명문고&nbsp;육성,&nbsp;청년의&nbsp;취업지원&nbsp;등<br>-&nbsp;추진방법&nbsp;:&nbsp;교육청과&nbsp;협업,&nbsp;추진협의체&nbsp;구성,&nbsp;음성군미래세대재단&nbsp;설립,&nbsp;장학사업&nbsp;등과&nbsp;연계<br><br>=============================================<br>구&nbsp;&nbsp;분&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;내&nbsp;&nbsp;용<br>------------------------------------------------------------------------<br>공약목표&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;자녀&nbsp;등&nbsp;교육여건&nbsp;및&nbsp;정주여건&nbsp;개선<br>------------------------------------------------------------------------<br>우선순위&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;최우선과제<br>------------------------------------------------------------------------<br>이행절차&nbsp;및&nbsp;기한&nbsp;&nbsp;|&nbsp;교육지원조례제정,&nbsp;재단설립&nbsp;임기내&nbsp;실시<br>------------------------------------------------------------------------<br>재원조달&nbsp;방안&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;지자체예산<br>=============================================</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	스포츠 경제도시 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="스포츠 경제도시 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◎&nbsp;목적<br>&nbsp;희소한&nbsp;벨로드롬을&nbsp;보유하고&nbsp;있음에도&nbsp;활용이&nbsp;미흡하고,&nbsp;음성권역의&nbsp;잠재력이&nbsp;소진된&nbsp;상황을&nbsp;타개하기&nbsp;위해&nbsp;인근&nbsp;반다비&nbsp;체육시설을&nbsp;개선하고&nbsp;추가&nbsp;시설을&nbsp;집중하여&nbsp;스포츠를&nbsp;매개로&nbsp;음성권역의&nbsp;향후&nbsp;미래&nbsp;먹거리를&nbsp;준비하고자&nbsp;함<br><br>◎&nbsp;사업개요<br>-&nbsp;추진방법&nbsp;:&nbsp;음성&nbsp;복합스포츠타운&nbsp;조성&nbsp;&nbsp;&nbsp;<br>-&nbsp;주요시설&nbsp;:&nbsp;벨로드롬&nbsp;경기장,&nbsp;종합운동장,&nbsp;축구장,&nbsp;실내체육관,&nbsp;파크골프장,&nbsp;시니어&nbsp;체육시설,&nbsp;미니선수촌,&nbsp;산악자전거도로&nbsp;등<br>-&nbsp;시설확보&nbsp;:&nbsp;벨로드롬&nbsp;돔&nbsp;개선,&nbsp;파크골프장·미니선수촌·시니어체육시설&nbsp;신설,&nbsp;반다비&nbsp;시설개선,&nbsp;&nbsp;산악자전거도로&nbsp;정비&nbsp;등<br>-&nbsp;활용방안&nbsp;:&nbsp;전국&nbsp;단위&nbsp;대회(전문체육,생활체육,시니어,청소년&nbsp;등)&nbsp;유치,&nbsp;군수배&nbsp;대회&nbsp;개최,&nbsp;유소년&nbsp;축구대회&nbsp;개최,&nbsp;종목별&nbsp;전지훈련팀&nbsp;유치&nbsp;등<br><br>=====================================================================<br>구&nbsp;&nbsp;분&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;내&nbsp;&nbsp;용<br>-------------------------------------------------------------------------------------------------------------<br>공약목표&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;지역경제활성화<br>-------------------------------------------------------------------------------------------------------------<br>우선순위&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;최우선과제<br>-------------------------------------------------------------------------------------------------------------<br>이행절차&nbsp;및&nbsp;기한&nbsp;&nbsp;|&nbsp;군수배대회&nbsp;조례제정,&nbsp;임기내&nbsp;반다비·&nbsp;벨로드롬&nbsp;시설개선,&nbsp;선수촌&nbsp;설치<br>-------------------------------------------------------------------------------------------------------------<br>재원조달&nbsp;방안&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;지자체예산,&nbsp;국비(기금)<br>=====================================================================</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	월급 받는 농민 1,000가구 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="월급 받는 농민 1,000가구 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◎&nbsp;목적<br>&nbsp;농촌의&nbsp;고령화와&nbsp;지속가능성에&nbsp;대한&nbsp;타개책이&nbsp;없는&nbsp;상황을&nbsp;감안할&nbsp;때&nbsp;현실적인&nbsp;대안은&nbsp;로컬푸드&nbsp;사업의&nbsp;성공뿐이라는&nbsp;확신으로&nbsp;&nbsp;본격적인&nbsp;로컬푸드&nbsp;사업을&nbsp;추진&nbsp;(완주군,세종시&nbsp;성공사례)하여&nbsp;농업소득의&nbsp;안정성과&nbsp;안전한&nbsp;농산물&nbsp;공급체계를&nbsp;확립하고자&nbsp;함<br><br>◎&nbsp;사업개요<br>-&nbsp;기본방향&nbsp;:&nbsp;로컬푸드사업의&nbsp;전&nbsp;군민&nbsp;참여를&nbsp;통해&nbsp;농산물의&nbsp;생산&nbsp;소비와&nbsp;가공&nbsp;유통등의&nbsp;선순환&nbsp;체계를&nbsp;확립하여&nbsp;고령농과&nbsp;소규모농의&nbsp;지속적인&nbsp;농업경영이&nbsp;가능토록&nbsp;하고,&nbsp;귀농&nbsp;귀촌의&nbsp;마중물이&nbsp;되도록&nbsp;함<br>&nbsp;※&nbsp;농산물가공지원센터&nbsp;·&nbsp;공공급식지원센터&nbsp;운영&nbsp;병행&nbsp;추진<br>-&nbsp;전문&nbsp;직매장&nbsp;설치&nbsp;:&nbsp;2개소(혁신도시&lt;임기내&nbsp;완료>,&nbsp;타지역1)<br>-&nbsp;성과목표&nbsp;:&nbsp;참여&nbsp;농가별&nbsp;농산물&nbsp;판매&nbsp;대금으로&nbsp;매월&nbsp;150만원∼1,000만원을&nbsp;받는&nbsp;농민&nbsp;1,000농가&nbsp;이상&nbsp;육성<br><br>===============================================================<br>구&nbsp;&nbsp;분&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;내&nbsp;&nbsp;용<br>-----------------------------------------------------------------------------------------------------<br>공약목표&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;농촌의&nbsp;지속가능성&nbsp;강화,&nbsp;안전한&nbsp;농산물&nbsp;공급<br>-----------------------------------------------------------------------------------------------------<br>우선순위&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;최우선과제<br>-----------------------------------------------------------------------------------------------------<br>이행절차&nbsp;및&nbsp;기한&nbsp;&nbsp;|&nbsp;로컬푸드지원조례제정임기내&nbsp;직매장&nbsp;1개소&nbsp;설치,&nbsp;운영법인설립<br>-----------------------------------------------------------------------------------------------------<br>재원조달&nbsp;방안&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;지자체예산,&nbsp;국비,&nbsp;민자유치<br>===============================================================</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	군민이 안심하는 공동체 구현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="군민이 안심하는 공동체 구현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◎&nbsp;목적<br>&nbsp;산업단지&nbsp;및&nbsp;공장의&nbsp;노후화로&nbsp;인해&nbsp;각종&nbsp;재난&nbsp;발생이&nbsp;급증하여&nbsp;군민의&nbsp;불안이&nbsp;심각한&nbsp;상황이므로&nbsp;이에&nbsp;대한&nbsp;선제적인&nbsp;예방&nbsp;조치&nbsp;및&nbsp;재난&nbsp;대응&nbsp;지원제도를&nbsp;강구하여&nbsp;군민&nbsp;안전과&nbsp;사업자의&nbsp;재산&nbsp;보호를&nbsp;병행하고자&nbsp;함<br><br>◎&nbsp;사업개요<br>-&nbsp;기본방향&nbsp;:&nbsp;예측&nbsp;가능한&nbsp;재난의&nbsp;사전&nbsp;예방&nbsp;최우선,&nbsp;재난&nbsp;발생시&nbsp;신속한&nbsp;대응체계&nbsp;구축&nbsp;및&nbsp;피해&nbsp;신속&nbsp;지원<br>-&nbsp;예방&nbsp;조치&nbsp;방안<br>&nbsp;&nbsp;&#9657화재에&nbsp;취약한&nbsp;노후한&nbsp;산단&nbsp;및&nbsp;공장에&nbsp;대한&nbsp;전면적인&nbsp;소방안전&nbsp;컨설팅과&nbsp;안전진단&nbsp;지원<br>&nbsp;&nbsp;&#9657노후산단&nbsp;재생&nbsp;등&nbsp;산업단지&nbsp;환경개선&nbsp;지원<br>&nbsp;&nbsp;&#9657유해화학물질&nbsp;감시시스템&nbsp;도입<br>&nbsp;&nbsp;&#9657유해화학물질&nbsp;취급&nbsp;업체&nbsp;일제&nbsp;점검<br>-&nbsp;재난&nbsp;대응&nbsp;및&nbsp;재난&nbsp;피해&nbsp;지원<br>&nbsp;&nbsp;&#9657재난구호&nbsp;활동시&nbsp;자원봉사자의&nbsp;상해와&nbsp;장비&nbsp;피해&nbsp;등에&nbsp;보상&nbsp;조치<br>&nbsp;&nbsp;&#9657군민&nbsp;피해&nbsp;발생시&nbsp;신속한&nbsp;지원&nbsp;후&nbsp;구상권&nbsp;행사&nbsp;등&nbsp;강구<br><br>======================================================<br>구&nbsp;&nbsp;분&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;내&nbsp;&nbsp;용<br>-------------------------------------------------------------------------------------<br>공약목표&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;재난의&nbsp;사전&nbsp;예방<br>-------------------------------------------------------------------------------------<br>우선순위&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;최우선과제<br>-------------------------------------------------------------------------------------<br>이행절차&nbsp;및&nbsp;기한&nbsp;&nbsp;|&nbsp;재난피해보상등지원&nbsp;조례&nbsp;제정임기1년차부터&nbsp;시행<br>-------------------------------------------------------------------------------------<br>재원조달&nbsp;방안&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;지자체예산,&nbsp;국비<br>======================================================</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

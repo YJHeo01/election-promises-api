@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;전문학 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	‘MY서구 앱’ 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="‘MY서구 앱’ 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;흩어져&nbsp;있는&nbsp;행정&nbsp;서비스와&nbsp;민원&nbsp;채널을&nbsp;하나로&nbsp;통합&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·주민&nbsp;투표,&nbsp;정책&nbsp;제안,&nbsp;참여예산&nbsp;결정&nbsp;등&nbsp;주민이&nbsp;권한을&nbsp;직접&nbsp;행사할&nbsp;수&nbsp;있는&nbsp;실질적인&nbsp;디지털&nbsp;소통&nbsp;창구를&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;기본사회&nbsp;정산&nbsp;시스템&nbsp;완비&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·생태참여수당,&nbsp;햇빛기본소득,&nbsp;돌봄참여소득&nbsp;등&nbsp;각종&nbsp;참여&nbsp;포인트의&nbsp;실시간&nbsp;적립과&nbsp;지역화폐&nbsp;정산을&nbsp;지원<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[통합&nbsp;서비스&nbsp;구현]&nbsp;민원&nbsp;신청,&nbsp;서류&nbsp;발급,&nbsp;피드백&nbsp;확인을&nbsp;앱&nbsp;내에서&nbsp;일괄&nbsp;처리하고&nbsp;'구청장&nbsp;직통&nbsp;창구'와&nbsp;연계하여&nbsp;푸시&nbsp;알림으로&nbsp;진행&nbsp;상황&nbsp;안내.<br>&nbsp;&nbsp;○&nbsp;[서구&nbsp;이음&nbsp;지갑]&nbsp;자발적&nbsp;참여로&nbsp;얻은&nbsp;각종&nbsp;수당&nbsp;포인트를&nbsp;지역화폐로&nbsp;즉시&nbsp;전환하여&nbsp;관내&nbsp;소상공인&nbsp;가맹점에서&nbsp;사용할&nbsp;수&nbsp;있는&nbsp;시스템&nbsp;탑재.<br>&nbsp;&nbsp;○&nbsp;[디지털&nbsp;민주주의]&nbsp;앱을&nbsp;통한&nbsp;실시간&nbsp;주민&nbsp;투표&nbsp;및&nbsp;참여예산&nbsp;사업&nbsp;제안&nbsp;기능을&nbsp;통해&nbsp;구민의&nbsp;의사가&nbsp;정책에&nbsp;즉각&nbsp;반영되는&nbsp;체계&nbsp;구축.<br>&nbsp;&nbsp;○&nbsp;[스마트&nbsp;정보&nbsp;제공]&nbsp;도시철도&nbsp;2호선&nbsp;이음정거장&nbsp;정보,&nbsp;스마트&nbsp;주차장&nbsp;빈자리&nbsp;안내&nbsp;등&nbsp;실시간&nbsp;생활&nbsp;정보를&nbsp;지도&nbsp;기반으로&nbsp;제공.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1년차):&nbsp;정보화&nbsp;전략&nbsp;계획&nbsp;수립,관련&nbsp;조례&nbsp;제정&nbsp;및&nbsp;부서&nbsp;간&nbsp;통합&nbsp;거버넌스&nbsp;구성.<br>&nbsp;&nbsp;○&nbsp;중기(2년차):&nbsp;앱&nbsp;시스템&nbsp;및&nbsp;AI&nbsp;챗봇&nbsp;개발,&nbsp;보안&nbsp;체계&nbsp;검증&nbsp;및&nbsp;주민&nbsp;체험단&nbsp;피드백<br>&nbsp;&nbsp;○&nbsp;장기(3년차~):&nbsp;정식&nbsp;출시&nbsp;및&nbsp;구민&nbsp;보급,&nbsp;각종&nbsp;참여소득&nbsp;연계&nbsp;고도화&nbsp;및&nbsp;지능형&nbsp;행정서비스&nbsp;상시&nbsp;제공.<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;소요&nbsp;예산&nbsp;:&nbsp;20억원&nbsp;(플랫폼&nbsp;아키텍처&nbsp;설계·메인&nbsp;시스템&nbsp;개발,&nbsp;AI&nbsp;챗봇엔진&nbsp;도입·보안인프라&nbsp;구축,&nbsp;유지보수·데이터&nbsp;연계·홍보&nbsp;및&nbsp;운영)<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;공모사업&nbsp;확보,&nbsp;지방비&nbsp;매칭<br>&nbsp;&nbsp;○&nbsp;행정안전부&nbsp;디지털&nbsp;정부&nbsp;혁신&nbsp;사업·과기정통부&nbsp;스마트시티&nbsp;공모&nbsp;등을&nbsp;통해&nbsp;국비&nbsp;확보&nbsp;총력<br>&nbsp;&nbsp;○&nbsp;시와&nbsp;협력하여&nbsp;광역<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기초&nbsp;간&nbsp;데이터&nbsp;연계&nbsp;사업으로&nbsp;추진·시비&nbsp;지원&nbsp;유도</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	유휴시설 ‘그린 오아시스’ 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="유휴시설 ‘그린 오아시스’ 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;도심&nbsp;녹지율&nbsp;향상:&nbsp;방치된&nbsp;유휴&nbsp;공간&nbsp;50개소&nbsp;이상을&nbsp;녹색&nbsp;쉼터로&nbsp;재생하여&nbsp;미세먼지&nbsp;저감&nbsp;및&nbsp;도심&nbsp;열섬&nbsp;현상&nbsp;완화.<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;체감&nbsp;복지&nbsp;확대:&nbsp;집&nbsp;앞&nbsp;5분&nbsp;거리&nbsp;내에서&nbsp;누구나&nbsp;이용&nbsp;가능한&nbsp;‘포켓&nbsp;공원'&nbsp;확보.<br>&nbsp;&nbsp;○&nbsp;공동체&nbsp;회복:&nbsp;주민들이&nbsp;함께&nbsp;식물을&nbsp;가꾸고&nbsp;소통하는&nbsp;'마을&nbsp;정원'&nbsp;문화를&nbsp;확산시켜&nbsp;지역&nbsp;유대감&nbsp;강화.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;유휴&nbsp;공간&nbsp;전수&nbsp;조사&nbsp;및&nbsp;DB&nbsp;구축:&nbsp;공공&nbsp;소유&nbsp;유휴지,&nbsp;노후&nbsp;옥상,&nbsp;고가&nbsp;하부,&nbsp;폐가&nbsp;부지&nbsp;등을&nbsp;파악하여&nbsp;'그린&nbsp;오아시스'&nbsp;적지&nbsp;발굴.<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;가드닝(Smart&nbsp;Gardening)&nbsp;도입:&nbsp;AI&nbsp;에너지·자원&nbsp;관리&nbsp;시스템과&nbsp;연계하여&nbsp;태양광&nbsp;조명,&nbsp;자동&nbsp;급수&nbsp;시스템이&nbsp;설치된&nbsp;저관리형&nbsp;스마트&nbsp;정원&nbsp;구축.<br>&nbsp;&nbsp;○&nbsp;수직&nbsp;정원&nbsp;및&nbsp;옥상&nbsp;녹화:&nbsp;공간이&nbsp;협소한&nbsp;지역은&nbsp;건물&nbsp;벽면을&nbsp;활용한&nbsp;수직&nbsp;정원&nbsp;(Vertical&nbsp;Garden)이나&nbsp;옥상&nbsp;정원을&nbsp;조성하여&nbsp;시각적&nbsp;개방감&nbsp;제공.<br>&nbsp;&nbsp;○&nbsp;‘이음정거장'&nbsp;연계형&nbsp;쉼터:&nbsp;내&nbsp;집&nbsp;앞&nbsp;이음정거장&nbsp;주변에&nbsp;그린&nbsp;오아시스를&nbsp;배치하여&nbsp;대중교통&nbsp;대기&nbsp;시간이&nbsp;즐거운&nbsp;공간으로&nbsp;조성.<br>&nbsp;&nbsp;○&nbsp;반려식물&nbsp;병원&nbsp;및&nbsp;정원&nbsp;학교&nbsp;운영:&nbsp;1동-1대학&nbsp;모델과&nbsp;연계하여&nbsp;주민들에게&nbsp;정원&nbsp;관리&nbsp;기술을&nbsp;교육하고,&nbsp;반려식물을&nbsp;관리해&nbsp;주는&nbsp;서비스&nbsp;제공.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(발굴&nbsp;및&nbsp;설계,&nbsp;1년차):&nbsp;서구&nbsp;내&nbsp;유휴&nbsp;시설&nbsp;실태&nbsp;조사&nbsp;및&nbsp;'서구형&nbsp;그린&nbsp;오아시스'&nbsp;표준&nbsp;디자인&nbsp;가이드라인&nbsp;수립.<br>&nbsp;&nbsp;○&nbsp;중기(공간&nbsp;조성,&nbsp;2~3년차):&nbsp;권역별&nbsp;주요&nbsp;유휴&nbsp;부지&nbsp;대상&nbsp;순차적&nbsp;조성&nbsp;및&nbsp;주민&nbsp;참여형&nbsp;'마을&nbsp;정원사'&nbsp;모집·운영.<br>&nbsp;&nbsp;○&nbsp;장기&nbsp;(네트워크&nbsp;연결,&nbsp;4년차):&nbsp;개별&nbsp;오아시스를&nbsp;녹지축으로&nbsp;연결하는&nbsp;'그린&nbsp;네트워크'&nbsp;완성&nbsp;및&nbsp;우수&nbsp;관리&nbsp;정원&nbsp;시상제&nbsp;도입.<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;소요:&nbsp;80억원&nbsp;(유휴시설&nbsp;리모델링·정원&nbsp;조성비,&nbsp;스마트&nbsp;관리&nbsp;시스템·기자재&nbsp;도입,&nbsp;마을정원사&nbsp;운영·생태참여수당)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산림청&nbsp;‘생활&nbsp;밀착형&nbsp;숲&nbsp;조성’,&nbsp;환경부&nbsp;‘도시&nbsp;생태축&nbsp;복원&nbsp;사업’&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산림복지진흥원의&nbsp;녹색자금(복권기금)&nbsp;공모를&nbsp;통해&nbsp;복지시설&nbsp;내&nbsp;정원&nbsp;조성&nbsp;예산&nbsp;조달<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생태참여수당&nbsp;재원&nbsp;마련을&nbsp;위해&nbsp;민간&nbsp;기업의&nbsp;ESG&nbsp;스폰서십(명명권,&nbsp;Park-PFI)&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	대상별 맞춤형 돌봄 사업</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="대상별 맞춤형 돌봄 사업">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;생애주기별&nbsp;돌봄&nbsp;공백&nbsp;해소:&nbsp;영유아부터&nbsp;어르신까지&nbsp;개인의&nbsp;환경과&nbsp;연령에&nbsp;맞는&nbsp;촘촘한&nbsp;서비스를&nbsp;제공하여&nbsp;돌봄의&nbsp;사각지대를&nbsp;원천적으로&nbsp;차단<br>&nbsp;&nbsp;○&nbsp;공공의&nbsp;사회적&nbsp;책임&nbsp;강화:&nbsp;기존의&nbsp;가족&nbsp;중심&nbsp;돌봄&nbsp;체계만으로는&nbsp;감당하기&nbsp;어려운&nbsp;육아&nbsp;및&nbsp;간병&nbsp;부담을&nbsp;보완하기&nbsp;위해&nbsp;지방정부&nbsp;차원의&nbsp;'사회적&nbsp;돌봄'&nbsp;책임을&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;보편적&nbsp;기본권으로서의&nbsp;돌봄&nbsp;보장:&nbsp;소득&nbsp;수준과&nbsp;관계없이&nbsp;모든&nbsp;구민이&nbsp;존엄한&nbsp;삶을&nbsp;유지할&nbsp;수&nbsp;있도록&nbsp;생애&nbsp;맞춤형&nbsp;복지&nbsp;전달&nbsp;체계를&nbsp;완성하여&nbsp;정성&nbsp;행정을&nbsp;구현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[아동·양육&nbsp;가구]:&nbsp;맞벌이&nbsp;부부의&nbsp;갑작스러운&nbsp;공백을&nbsp;메우기&nbsp;위해&nbsp;전문&nbsp;매니저가&nbsp;병원&nbsp;이동과&nbsp;진료&nbsp;보조를&nbsp;대행하는&nbsp;'아픈&nbsp;아이&nbsp;병원&nbsp;동행&nbsp;서비스'를&nbsp;도입하고,&nbsp;24시간&nbsp;긴급&nbsp;돌봄&nbsp;거점을&nbsp;확대함.<br>&nbsp;&nbsp;○&nbsp;[청년·1인&nbsp;가구]:&nbsp;고독사&nbsp;위험이&nbsp;높은&nbsp;1인&nbsp;가구를&nbsp;대상으로&nbsp;AI&nbsp;안부&nbsp;확인과&nbsp;인적&nbsp;네트워크를&nbsp;결합한&nbsp;'돌봄&nbsp;마음지킴이'를&nbsp;운영하며,&nbsp;공유&nbsp;주방&nbsp;기반의&nbsp;'소셜&nbsp;다이닝'&nbsp;활동을&nbsp;지원함.<br>&nbsp;&nbsp;○&nbsp;[어르신·장애인]:&nbsp;살던&nbsp;집에서&nbsp;건강&nbsp;관리와&nbsp;가사&nbsp;지원을&nbsp;원스톱으로&nbsp;받는&nbsp;'존엄한&nbsp;재가&nbsp;돌봄(AIP)'&nbsp;체계를&nbsp;구축하고,&nbsp;경로당을&nbsp;디지털&nbsp;건강&nbsp;거점인&nbsp;스마트&nbsp;경로당으로&nbsp;전환함.<br>&nbsp;&nbsp;○&nbsp;[인프라&nbsp;및&nbsp;인력]:&nbsp;육아·간병&nbsp;경험을&nbsp;공적&nbsp;경력으로&nbsp;인정하는&nbsp;'돌봄&nbsp;경력&nbsp;인정제'를&nbsp;도입하고,&nbsp;교육을&nbsp;마친&nbsp;주민을&nbsp;'마을&nbsp;매니저'로&nbsp;양성하여&nbsp;전문&nbsp;일자리와&nbsp;연결함.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기&nbsp;(2026년,&nbsp;기반&nbsp;구축):&nbsp;보편적&nbsp;돌봄&nbsp;지원&nbsp;조례를&nbsp;제정하고&nbsp;지역별&nbsp;돌봄&nbsp;수요에&nbsp;대한&nbsp;전수&nbsp;조사를&nbsp;실시<br>&nbsp;&nbsp;&nbsp;-&nbsp;중기&nbsp;(2027년,&nbsp;시범&nbsp;운영):&nbsp;아픈&nbsp;아이&nbsp;병원&nbsp;동행&nbsp;서비스&nbsp;및&nbsp;어르신&nbsp;품위유지비&nbsp;지급&nbsp;등&nbsp;지역&nbsp;맞춤형&nbsp;시범&nbsp;사업을&nbsp;본격&nbsp;운영<br>&nbsp;&nbsp;&nbsp;-&nbsp;장기&nbsp;(2028년~,&nbsp;제도&nbsp;확대):&nbsp;마을&nbsp;돌봄&nbsp;일자리&nbsp;모델을&nbsp;고도화하여&nbsp;서구만의&nbsp;독창적인&nbsp;복지&nbsp;브랜드로&nbsp;안착<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;소요&nbsp;예산:&nbsp;23억원(통합돌봄&nbsp;거점(마을학교&nbsp;등)&nbsp;환경&nbsp;개선&nbsp;및&nbsp;장비&nbsp;확충,&nbsp;인건비&nbsp;및&nbsp;사업&nbsp;운영비,&nbsp;디지털&nbsp;돌봄&nbsp;플랫폼&nbsp;연동&nbsp;및&nbsp;스마트&nbsp;안전&nbsp;시스템&nbsp;구축)<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;공모사업&nbsp;확보,&nbsp;교육행정&nbsp;협력&nbsp;기금&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;보건복지부&nbsp;스마트&nbsp;돌봄&nbsp;사업,&nbsp;교육부&nbsp;평생학습도시&nbsp;지원사업&nbsp;등&nbsp;국비&nbsp;확보&nbsp;총력<br>&nbsp;&nbsp;○&nbsp;시&nbsp;교육청과의&nbsp;분담&nbsp;협약을&nbsp;통해&nbsp;학교&nbsp;밖&nbsp;돌봄&nbsp;사업에&nbsp;대한&nbsp;재정&nbsp;지원&nbsp;협의&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	서구 농인 쉼터(청각장애인 복합 커뮤니티 센터) 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="서구 농인 쉼터(청각장애인 복합 커뮤니티 센터) 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농인&nbsp;전용&nbsp;쉼터&nbsp;조성을&nbsp;통한&nbsp;지역사회&nbsp;소통&nbsp;공간&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서구&nbsp;내&nbsp;농인이&nbsp;자유롭게&nbsp;이용할&nbsp;수&nbsp;있는&nbsp;쉼터&nbsp;및&nbsp;커뮤니티&nbsp;공간&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;정보·문화&nbsp;접근성&nbsp;강화&nbsp;및&nbsp;심리·정서&nbsp;지원&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수어&nbsp;기반&nbsp;정보&nbsp;제공과&nbsp;문화·여가&nbsp;프로그램&nbsp;운영을&nbsp;통한&nbsp;사회참여&nbsp;기회&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상담&nbsp;및&nbsp;자조모임&nbsp;활성화를&nbsp;통한&nbsp;고립감&nbsp;해소와&nbsp;정서적&nbsp;안정&nbsp;지원<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;농인&nbsp;전용&nbsp;쉼터&nbsp;및&nbsp;커뮤니티&nbsp;공간&nbsp;조성·운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공유휴&nbsp;공간을&nbsp;활용한&nbsp;쉼터&nbsp;리모델링&nbsp;및&nbsp;운영&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;수어&nbsp;기반&nbsp;통합&nbsp;지원&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수어&nbsp;안내&nbsp;시스템&nbsp;구축과&nbsp;문화·여가·AI&nbsp;활용&nbsp;프로그램&nbsp;운영으로&nbsp;정보&nbsp;접근성&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전문&nbsp;상담사&nbsp;배치&nbsp;및&nbsp;자조모임&nbsp;운영을&nbsp;통한&nbsp;심리·정서&nbsp;지원&nbsp;체계&nbsp;마련<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기·중기(1~3년차)&nbsp;기반&nbsp;구축&nbsp;및&nbsp;본격&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(1년차)&nbsp;농아인&nbsp;이용&nbsp;실태&nbsp;조사,&nbsp;쉼터&nbsp;부지&nbsp;확보&nbsp;및&nbsp;운영&nbsp;조례&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(2~3년차)&nbsp;쉼터&nbsp;개소,&nbsp;수어&nbsp;기반&nbsp;프로그램&nbsp;운영&nbsp;확대&nbsp;및&nbsp;AI&nbsp;기반&nbsp;정보&nbsp;접근&nbsp;시스템&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;장기(4년차)&nbsp;확산&nbsp;및&nbsp;네트워크화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;권역별&nbsp;농아인&nbsp;커뮤니티&nbsp;네트워크&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;무장애&nbsp;문화·관광&nbsp;연계&nbsp;플랫폼&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;소요예산&nbsp;5억&nbsp;원&nbsp;확보&nbsp;및&nbsp;입법·제도&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(예산&nbsp;활용)&nbsp;공공유휴&nbsp;공간&nbsp;리모델링,&nbsp;수어&nbsp;안내&nbsp;시스템&nbsp;및&nbsp;스마트&nbsp;정보기기&nbsp;구축,&nbsp;프로그램&nbsp;운영비·전문&nbsp;인력&nbsp;인건비,&nbsp;문화·체험&nbsp;프로그램&nbsp;및&nbsp;홍보비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(재원&nbsp;조달)&nbsp;보건복지부&nbsp;장애인&nbsp;복지&nbsp;공모사업과&nbsp;대전시&nbsp;매칭사업을&nbsp;기본&nbsp;재원으로&nbsp;활용&nbsp;및&nbsp;민간&nbsp;후원·지역&nbsp;기업&nbsp;ESG&nbsp;협력<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인&nbsp;평생교육·문화예술&nbsp;지원사업&nbsp;공모&nbsp;참여로&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농아인쉼터&nbsp;설치·운영&nbsp;지원&nbsp;조례&nbsp;제정&nbsp;등&nbsp;입법&nbsp;근거&nbsp;마련&nbsp;병행</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	서구 베테랑주식회사 설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="서구 베테랑주식회사 설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;은퇴&nbsp;세대의&nbsp;자아실현&nbsp;및&nbsp;삶의&nbsp;질&nbsp;향상:&nbsp;전문&nbsp;지식과&nbsp;실무&nbsp;경력을&nbsp;갖춘&nbsp;은퇴자들이&nbsp;사회&nbsp;구성원으로서&nbsp;존엄을&nbsp;유지하고&nbsp;노후&nbsp;고립감을&nbsp;예방할&nbsp;수&nbsp;있는&nbsp;기회&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;고부가가치형&nbsp;일자리&nbsp;창출:&nbsp;단순&nbsp;노무&nbsp;위주의&nbsp;노인&nbsp;일자리에서&nbsp;벗어나,&nbsp;경력을&nbsp;바탕으로&nbsp;정당한&nbsp;보상을&nbsp;받는&nbsp;‘기본사회형’&nbsp;일자리&nbsp;모델&nbsp;확립<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;서비스의&nbsp;질적&nbsp;향상:&nbsp;행정의&nbsp;손길이&nbsp;부족한&nbsp;공익&nbsp;분야(마을&nbsp;컨설팅,&nbsp;시설&nbsp;안전&nbsp;점검&nbsp;등)에&nbsp;민간&nbsp;전문가의&nbsp;경험을&nbsp;결합하여&nbsp;행정&nbsp;효율화&nbsp;및&nbsp;비용&nbsp;절감<br>&nbsp;&nbsp;○&nbsp;지역사회&nbsp;공동체&nbsp;모델&nbsp;정립:&nbsp;주민이&nbsp;스스로&nbsp;지역&nbsp;문제를&nbsp;전문적으로&nbsp;해결하는&nbsp;'구민&nbsp;주권'의&nbsp;핵심&nbsp;동력&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;조직&nbsp;및&nbsp;플랫폼&nbsp;구축:&nbsp;은퇴&nbsp;전문가의&nbsp;경력을&nbsp;관리하고&nbsp;수요처와&nbsp;연결하는&nbsp;‘서구형&nbsp;사회적&nbsp;일자리&nbsp;법인’&nbsp;설립<br>&nbsp;&nbsp;○&nbsp;분야별&nbsp;전문가&nbsp;인력풀인&nbsp;‘경력&nbsp;뱅크’&nbsp;구축&nbsp;및&nbsp;전문성&nbsp;신뢰&nbsp;확보를&nbsp;위한&nbsp;‘베테랑&nbsp;인증제’&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;마을&nbsp;컨설팅:&nbsp;주민자치회&nbsp;지원,&nbsp;마을&nbsp;의제&nbsp;발굴&nbsp;및&nbsp;참여예산&nbsp;기획&nbsp;자문<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;안전&nbsp;점검:&nbsp;노후&nbsp;건축물&nbsp;자문,&nbsp;소상공인&nbsp;전기·소방&nbsp;안전&nbsp;점검&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;교육·멘토링:&nbsp;취약계층&nbsp;아동&nbsp;학습&nbsp;지원,&nbsp;청년&nbsp;창업가&nbsp;멘토링&nbsp;및&nbsp;경영&nbsp;컨설팅<br>&nbsp;&nbsp;○&nbsp;보상&nbsp;체계&nbsp;운영:&nbsp;활동&nbsp;시간과&nbsp;전문성에&nbsp;따라&nbsp;지역화폐&nbsp;형태의&nbsp;참여소득&nbsp;또는&nbsp;실비&nbsp;지급<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계:&nbsp;기반&nbsp;구축&nbsp;(2026년):&nbsp;관련&nbsp;설립&nbsp;조례&nbsp;제정&nbsp;및&nbsp;분야별&nbsp;은퇴&nbsp;전문가&nbsp;실태&nbsp;조사&nbsp;실시<br>&nbsp;&nbsp;○&nbsp;2단계:&nbsp;시범&nbsp;운영&nbsp;(2027년):&nbsp;'서구베테랑주식회사(가칭)'&nbsp;법인&nbsp;출범&nbsp;및&nbsp;4대&nbsp;권역별&nbsp;시범&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;3단계:&nbsp;제도&nbsp;확대&nbsp;(2028년~):&nbsp;공공기관&nbsp;위탁&nbsp;사업&nbsp;수주,&nbsp;수익형&nbsp;모델(유료&nbsp;컨설팅&nbsp;등)&nbsp;다각화&nbsp;및&nbsp;참여&nbsp;규모&nbsp;확대<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;총&nbsp;소요&nbsp;예산:&nbsp;10억&nbsp;원<br>&nbsp;&nbsp;○&nbsp;국비·시비&nbsp;공모사업&nbsp;적극&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;내&nbsp;기업&nbsp;및&nbsp;금융기관과&nbsp;협력하여&nbsp;사회공헌기금(CSR)&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;민관&nbsp;협력&nbsp;매칭&nbsp;펀드&nbsp;조성을&nbsp;통한&nbsp;지속&nbsp;가능한&nbsp;재원&nbsp;확보</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

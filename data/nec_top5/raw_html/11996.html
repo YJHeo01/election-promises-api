@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;차석호 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	1.5조 원 규모 'RE100 첨단 산단' 및 물류 수출 거점 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="1.5조 원 규모 'RE100 첨단 산단' 및 물류 수출 거점 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>●&nbsp;미래형&nbsp;산업&nbsp;생태계&nbsp;구축:&nbsp;재생에너지를&nbsp;기반으로&nbsp;하는&nbsp;'RE100&nbsp;산업단지'&nbsp;를&nbsp;조성하여&nbsp;글로벌&nbsp;규제에&nbsp;대응하고&nbsp;우량&nbsp;기업&nbsp;유치&nbsp;기반&nbsp;마련.<br>●&nbsp;영·호남&nbsp;물류&nbsp;허브&nbsp;도약:&nbsp;칠서IC&nbsp;및&nbsp;철도망&nbsp;등&nbsp;교통&nbsp;요충지&nbsp;강점을&nbsp;활용하여&nbsp;남부권&nbsp;최대의&nbsp;물류&nbsp;유통&nbsp;및&nbsp;중고차&nbsp;수출&nbsp;거점&nbsp;확보.<br>●&nbsp;청년&nbsp;일자리&nbsp;창출:&nbsp;첨단&nbsp;산업&nbsp;유치를&nbsp;통해&nbsp;양질의&nbsp;일자리를&nbsp;제공하고,&nbsp;청년들이&nbsp;정착하고&nbsp;싶은&nbsp;'직주근접'&nbsp;환경&nbsp;완성.<br><br>□&nbsp;이행방법<br>-&nbsp;RE100&nbsp;스마트그린&nbsp;산단&nbsp;조성&nbsp;:<br>●&nbsp;칠서산업단지&nbsp;등&nbsp;노후&nbsp;산단을&nbsp;스마트그린&nbsp;산단으로&nbsp;전환하고&nbsp;재생에너지&nbsp;자립률&nbsp;제고.<br>●&nbsp;우주항공,&nbsp;방산,&nbsp;수소&nbsp;산업&nbsp;등&nbsp;미래&nbsp;먹거리&nbsp;분야의&nbsp;선도&nbsp;기업(앵커&nbsp;기업)&nbsp;유치&nbsp;전략&nbsp;수립.<br>-&nbsp;광역&nbsp;물류.유통&nbsp;거점&nbsp;및&nbsp;수출&nbsp;단지&nbsp;구축&nbsp;:<br>●&nbsp;칠서IC&nbsp;인근&nbsp;및&nbsp;유휴&nbsp;부지를&nbsp;활용한&nbsp;대규모&nbsp;물류&nbsp;유통단지&nbsp;조성.<br>●&nbsp;중고차&nbsp;수출&nbsp;단지&nbsp;및&nbsp;관련&nbsp;부품&nbsp;산업&nbsp;클러스터&nbsp;유치로&nbsp;지역&nbsp;경제&nbsp;활성화.<br>-&nbsp;청년&nbsp;정착&nbsp;지원&nbsp;인프라&nbsp;확충&nbsp;:<br>●&nbsp;산단&nbsp;내&nbsp;'청년&nbsp;창업&nbsp;허브'&nbsp;및&nbsp;'문화가&nbsp;있는&nbsp;산단'&nbsp;조성으로&nbsp;근로&nbsp;환경&nbsp;개선.<br>●&nbsp;청년·신혼부부&nbsp;특화&nbsp;행복주택&nbsp;500호&nbsp;공급&nbsp;및&nbsp;정주&nbsp;여건&nbsp;획기적&nbsp;개선.<br><br>□&nbsp;이행기간<br>●&nbsp;임기&nbsp;전반기&nbsp;(1~2년차):&nbsp;산단&nbsp;조성&nbsp;계획&nbsp;수립&nbsp;및&nbsp;타당성&nbsp;조사,&nbsp;기업&nbsp;유치를&nbsp;위한&nbsp;투자&nbsp;유치&nbsp;위원회&nbsp;가동,&nbsp;국도비&nbsp;지원&nbsp;협의.<br>●&nbsp;임기&nbsp;후반기&nbsp;(3~4년차):&nbsp;부지&nbsp;조성&nbsp;및&nbsp;기반&nbsp;시설&nbsp;착공,&nbsp;주요&nbsp;기업&nbsp;업무협약(MOU)&nbsp;체결&nbsp;및&nbsp;입주&nbsp;시작,&nbsp;물류&nbsp;거점&nbsp;단지&nbsp;본격&nbsp;운영.<br><br>□&nbsp;재원조달방안&nbsp;등<br>●&nbsp;국비&nbsp;및&nbsp;도비&nbsp;확보:&nbsp;산자부&nbsp;'스마트그린산단&nbsp;전환&nbsp;사업'&nbsp;등&nbsp;정부&nbsp;공모사업을&nbsp;통한&nbsp;국비&nbsp;집중&nbsp;유치.<br>●&nbsp;민간&nbsp;자본&nbsp;유치&nbsp;(PF):&nbsp;산업단지&nbsp;개발&nbsp;및&nbsp;물류센터&nbsp;구축&nbsp;시&nbsp;역량&nbsp;있는&nbsp;민간&nbsp;투자자&nbsp;유치를&nbsp;통한&nbsp;민관&nbsp;합동&nbsp;개발&nbsp;방식(SPC)&nbsp;추진.<br>●&nbsp;지방비&nbsp;및&nbsp;기금:&nbsp;군비&nbsp;&nbsp;투입을&nbsp;최소화하되,&nbsp;필요시&nbsp;'지방소멸&nbsp;대응기금'&nbsp;및&nbsp;'중소기업&nbsp;육성&nbsp;기금'&nbsp;활용.<br>●&nbsp;수익&nbsp;환수:&nbsp;산단&nbsp;&nbsp;분양&nbsp;수익&nbsp;및&nbsp;임대료&nbsp;수입을&nbsp;통한&nbsp;재정&nbsp;건전성&nbsp;확보&nbsp;및&nbsp;재투자&nbsp;재원&nbsp;마련.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	'바이오 첨단 농업복합단지' 스마트 영농 지원체계 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="'바이오 첨단 농업복합단지' 스마트 영농 지원체계 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>●&nbsp;고부가가치&nbsp;농업&nbsp;기반&nbsp;마련:&nbsp;그린바이오&nbsp;산업&nbsp;육성을&nbsp;통해&nbsp;농업의&nbsp;미래&nbsp;경쟁력을&nbsp;확보하고&nbsp;농가&nbsp;소득&nbsp;다각화&nbsp;실현.<br>●&nbsp;청년&nbsp;농부&nbsp;및&nbsp;귀농&nbsp;정착률&nbsp;향상:&nbsp;실전&nbsp;교육과&nbsp;주거&nbsp;지원이&nbsp;결합된&nbsp;원스톱&nbsp;지원&nbsp;체계로&nbsp;젊은&nbsp;인력의&nbsp;농촌&nbsp;유입&nbsp;가속화.<br>●&nbsp;안정적인&nbsp;영농&nbsp;환경&nbsp;조성:&nbsp;고질적인&nbsp;인력난&nbsp;해소&nbsp;및&nbsp;재해&nbsp;대응&nbsp;시스템&nbsp;구축으로&nbsp;지속&nbsp;가능한&nbsp;농업&nbsp;경영&nbsp;환경&nbsp;보장.<br><br>□&nbsp;이행방법<br>-&nbsp;그린바이오&nbsp;첨단&nbsp;농업&nbsp;클러스터&nbsp;조성:<br>●&nbsp;2030년까지&nbsp;대규모&nbsp;바이오&nbsp;첨단&nbsp;농업복합단지를&nbsp;조성하여&nbsp;연구·개발&nbsp;및&nbsp;관련&nbsp;기업&nbsp;유치&nbsp;추진.<br>●&nbsp;폐교를&nbsp;활용한&nbsp;농업창업보육센터&nbsp;신설로&nbsp;귀농&nbsp;희망&nbsp;도시민에게&nbsp;1년간&nbsp;영농&nbsp;기술&nbsp;및&nbsp;실전&nbsp;농사&nbsp;교육&nbsp;기회&nbsp;제공.<br>-&nbsp;스마트&nbsp;영농&nbsp;인프라&nbsp;확대:<br>●&nbsp;&nbsp;ICT&nbsp;기반&nbsp;스마트팜&nbsp;보급을&nbsp;확대하고&nbsp;임대형&nbsp;스마트팜을&nbsp;구축하여&nbsp;초기&nbsp;투자&nbsp;부담&nbsp;경감.<br>●&nbsp;드론&nbsp;및&nbsp;AI를&nbsp;활용한&nbsp;정밀&nbsp;농업&nbsp;도입과&nbsp;고부가가치&nbsp;특화&nbsp;작목&nbsp;육성&nbsp;지원.<br>-&nbsp;농업&nbsp;경영&nbsp;안정화&nbsp;및&nbsp;인력&nbsp;지원:<br>●&nbsp;외국인&nbsp;계절&nbsp;근로자&nbsp;관리&nbsp;전담부서를&nbsp;신설하여&nbsp;이탈률을&nbsp;개선하고&nbsp;주거·의료지원&nbsp;강화.<br>●&nbsp;농어민&nbsp;재해보험&nbsp;확대&nbsp;지원&nbsp;및&nbsp;농산물&nbsp;공동&nbsp;선별·포장센터&nbsp;확충으로&nbsp;유통&nbsp;경쟁력&nbsp;확보.<br><br>□&nbsp;이행기간<br>●&nbsp;임기&nbsp;전반기&nbsp;(1~2년차):&nbsp;농업창업보육센터&nbsp;신설&nbsp;착수&nbsp;외국인&nbsp;,&nbsp;근로자&nbsp;전담&nbsp;부서&nbsp;설치,&nbsp;스마트팜&nbsp;보급&nbsp;확대를&nbsp;위한&nbsp;조례&nbsp;개정.<br>●&nbsp;임기&nbsp;후반기&nbsp;(3~4년차):&nbsp;바이오&nbsp;첨단&nbsp;농업복합단지&nbsp;기반&nbsp;조성&nbsp;완료,&nbsp;작목&nbsp;브랜드화&nbsp;성공&nbsp;및&nbsp;로컬푸드&nbsp;창업&nbsp;IT&nbsp;센터&nbsp;설치&nbsp;운영.<br><br>□&nbsp;재원조달방안&nbsp;등<br>●&nbsp;국·도비&nbsp;유치:&nbsp;농림축산식품부&nbsp;&nbsp;'스마트팜&nbsp;혁신밸리'&nbsp;및&nbsp;'그린바이오&nbsp;벤처&nbsp;캠퍼스&nbsp;유치'&nbsp;사업비&nbsp;확보.<br>●&nbsp;지방비&nbsp;활용:&nbsp;'함안&nbsp;미래세대&nbsp;행복기금'&nbsp;연계&nbsp;및&nbsp;군&nbsp;예산&nbsp;1조&nbsp;원&nbsp;시대&nbsp;달성에&nbsp;따른&nbsp;농업&nbsp;지원&nbsp;예산&nbsp;증액&nbsp;편성.<br>●&nbsp;공동기금&nbsp;조성:&nbsp;영농형&nbsp;태양광&nbsp;사업&nbsp;유치&nbsp;등을&nbsp;통한&nbsp;발전&nbsp;수익을&nbsp;마을&nbsp;공동기금으로&nbsp;활용하여&nbsp;농가&nbsp;소득&nbsp;보전.<br>●&nbsp;사회적&nbsp;금융&nbsp;활용:&nbsp;농업·농촌형&nbsp;사회적&nbsp;기업&nbsp;육성을&nbsp;위한&nbsp;민관&nbsp;협동&nbsp;펀드&nbsp;조성&nbsp;및&nbsp;경영&nbsp;안정&nbsp;자금&nbsp;지원&nbsp;확대.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	24시 '달빛 어린이병원' 유치 및 사통팔달 광역 교통망 확충</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="24시 '달빛 어린이병원' 유치 및 사통팔달 광역 교통망 확충">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>●&nbsp;안심&nbsp;보육&nbsp;의료&nbsp;환경&nbsp;조성:&nbsp;야간&nbsp;및&nbsp;주말에도&nbsp;소아청소년과&nbsp;진료가&nbsp;가능한&nbsp;시스템을&nbsp;구축하여&nbsp;맞벌이&nbsp;부부와&nbsp;영유아&nbsp;가정의&nbsp;의료&nbsp;불안&nbsp;해소.<br>●&nbsp;창원&nbsp;10분&nbsp;생활권&nbsp;실현:&nbsp;함안과&nbsp;창원을&nbsp;잇는&nbsp;주요&nbsp;도로&nbsp;및&nbsp;터널을&nbsp;조기&nbsp;완공하여&nbsp;인적·물적&nbsp;교류를&nbsp;활성화하고&nbsp;지역&nbsp;경쟁력&nbsp;강화.<br>●&nbsp;교통&nbsp;복지&nbsp;및&nbsp;접근성&nbsp;강화:&nbsp;대중교통&nbsp;이용&nbsp;편의성을&nbsp;극대화하고&nbsp;주요&nbsp;거점&nbsp;간&nbsp;연결성을&nbsp;강화하여&nbsp;군민&nbsp;이동권&nbsp;보장.&nbsp;<br><br>□&nbsp;이행방법<br>-&nbsp;취약&nbsp;의료&nbsp;인프라&nbsp;혁신:<br>●&nbsp;평일&nbsp;밤&nbsp;12시,&nbsp;주말&nbsp;오후&nbsp;6시까지&nbsp;운영하는&nbsp;달빛&nbsp;어린이병원을&nbsp;지정&nbsp;및&nbsp;운영&nbsp;지원.<br>●&nbsp;공공&nbsp;산후조리원&nbsp;건립&nbsp;및&nbsp;찾아가는&nbsp;소아과·산부인과&nbsp;검진&nbsp;버스&nbsp;정례&nbsp;운영.<br>●&nbsp;AI&nbsp;기반&nbsp;응급&nbsp;알림&nbsp;시스템&nbsp;구축으로&nbsp;어르신&nbsp;및&nbsp;취약계층&nbsp;돌봄&nbsp;사각지대&nbsp;해소.<br>-&nbsp;광역&nbsp;교통망&nbsp;조기&nbsp;구축&nbsp;및&nbsp;정상화:<br>●&nbsp;천주산&nbsp;터널(함안&nbsp;칠원&nbsp;~&nbsp;창원&nbsp;소)&nbsp;조기&nbsp;건설&nbsp;및&nbsp;여항~내서&nbsp;간&nbsp;국지도&nbsp;조기&nbsp;개통&nbsp;추진.<br>●&nbsp;가야읍의&nbsp;숙원인&nbsp;더&nbsp;퍼스트&nbsp;아파트&nbsp;건립&nbsp;문제를&nbsp;2년&nbsp;내&nbsp;정상화하여&nbsp;도시&nbsp;미관&nbsp;및&nbsp;주거&nbsp;환경&nbsp;개선.<br>-&nbsp;대중교통&nbsp;서비스&nbsp;고도화:<br>●&nbsp;함안역&nbsp;KTX&nbsp;정차&nbsp;재개&nbsp;추진&nbsp;및&nbsp;역세권&nbsp;미니&nbsp;신도시&nbsp;건설로&nbsp;인구&nbsp;유입&nbsp;유도.<br>●&nbsp;함안~창원&nbsp;간&nbsp;광역&nbsp;시내버스&nbsp;증차&nbsp;및&nbsp;스마트&nbsp;버스정류장&nbsp;확충으로&nbsp;이용객&nbsp;편의&nbsp;증대.&nbsp;<br><br>□&nbsp;이행기간<br>●&nbsp;임기&nbsp;전반기&nbsp;(1~2년차):&nbsp;달빛&nbsp;어린이병원&nbsp;지정&nbsp;및&nbsp;지원&nbsp;조례&nbsp;제정,&nbsp;더&nbsp;퍼스트&nbsp;아파트&nbsp;공사재개&nbsp;및&nbsp;정상화&nbsp;완료,&nbsp;터널&nbsp;공사&nbsp;행정&nbsp;절차&nbsp;마무리.<br>●&nbsp;임기&nbsp;후반기&nbsp;(3~4년차):&nbsp;공공&nbsp;산후조리원&nbsp;및&nbsp;천주산&nbsp;터널&nbsp;완공,&nbsp;정차&nbsp;,&nbsp;KTX&nbsp;정차&nbsp;재개&nbsp;확정,&nbsp;광역&nbsp;교통&nbsp;환승&nbsp;체계&nbsp;전면&nbsp;개편.&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>●&nbsp;국·도비&nbsp;유치:&nbsp;국토교통부의&nbsp;'제6차&nbsp;국도·국지도&nbsp;건설&nbsp;계획'&nbsp;반영을&nbsp;통한&nbsp;대규모&nbsp;예산확보&nbsp;및&nbsp;복지부&nbsp;'달빛&nbsp;어린이병원'&nbsp;운영&nbsp;보조금&nbsp;수령.<br>●&nbsp;지방비&nbsp;및&nbsp;기금&nbsp;활용:&nbsp;군&nbsp;예산&nbsp;1조&nbsp;원&nbsp;시대를&nbsp;바탕으로&nbsp;한&nbsp;복지·교통&nbsp;특별회계&nbsp;편성&nbsp;및&nbsp;'함안&nbsp;미래세대&nbsp;행복기금'&nbsp;활용&nbsp;.<br>●&nbsp;민관&nbsp;협력&nbsp;및&nbsp;수익&nbsp;환수:&nbsp;아파트&nbsp;정상화&nbsp;및&nbsp;역세권&nbsp;개발&nbsp;시&nbsp;민간&nbsp;자본&nbsp;유치를&nbsp;극대화하고,&nbsp;발생&nbsp;수익을&nbsp;대중교통&nbsp;인프라에&nbsp;재투자.<br>●&nbsp;광역&nbsp;협력&nbsp;재원:&nbsp;경상남도&nbsp;및&nbsp;창원시의&nbsp;광역&nbsp;교통망&nbsp;분담금&nbsp;협의를&nbsp;통한&nbsp;공동&nbsp;재원&nbsp;마련.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	창원·함안 '행정통합' 추진  및 예산 1조 원 시대 개막</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="창원·함안 '행정통합' 추진  및 예산 1조 원 시대 개막">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>●&nbsp;광역시급&nbsp;행정&nbsp;서비스&nbsp;구현:&nbsp;자치권이&nbsp;보장되는&nbsp;형태의&nbsp;함안·창원&nbsp;행정통합을&nbsp;통해&nbsp;인프라&nbsp;공유&nbsp;및&nbsp;광역&nbsp;교통망&nbsp;연결의&nbsp;선결&nbsp;과제&nbsp;해결.<br>●&nbsp;재정&nbsp;규모의&nbsp;획기적&nbsp;확대:&nbsp;2025년&nbsp;기준&nbsp;약&nbsp;7,500억&nbsp;원&nbsp;규모의&nbsp;예산을&nbsp;임기&nbsp;내&nbsp;1조&nbsp;원&nbsp;이상으로&nbsp;확대하여&nbsp;지역&nbsp;발전의&nbsp;동력&nbsp;확보.<br>●&nbsp;지역&nbsp;불균형&nbsp;해소:&nbsp;통합&nbsp;추진을&nbsp;동력으로&nbsp;가야권과&nbsp;삼칠권의&nbsp;행정·심리적&nbsp;융화를&nbsp;도모하고&nbsp;동시&nbsp;발전을&nbsp;실현.<br><br>□&nbsp;이행방법<br>-&nbsp;행정통합&nbsp;추진체계&nbsp;가동:<br>●&nbsp;시장&nbsp;군수&nbsp;및&nbsp;민간&nbsp;전문가가&nbsp;참여하는&nbsp;'함안·창원&nbsp;통합추진&nbsp;공동위원회'&nbsp;구성.<br>●&nbsp;'함안군&nbsp;특별자치권&nbsp;유지'를&nbsp;전제로&nbsp;한&nbsp;특별법&nbsp;제정&nbsp;건의&nbsp;및&nbsp;조례&nbsp;마련.<br>●&nbsp;주민&nbsp;공청회&nbsp;및&nbsp;투명한&nbsp;정보&nbsp;공개를&nbsp;통해&nbsp;군민&nbsp;합의&nbsp;도출.<br>-&nbsp;예산&nbsp;1조원&nbsp;달성&nbsp;전략:<br>●&nbsp;국도비&nbsp;확보&nbsp;전담&nbsp;TF팀&nbsp;신설&nbsp;및&nbsp;정부&nbsp;공모사업&nbsp;상시&nbsp;모니터링&nbsp;체계&nbsp;구축.<br>●&nbsp;미래&nbsp;전략&nbsp;산업&nbsp;산단(RE100&nbsp;산단,&nbsp;물류거점&nbsp;등)&nbsp;유치를&nbsp;통한&nbsp;지방세수&nbsp;증대<br>●&nbsp;선심성&nbsp;예산&nbsp;구조조정&nbsp;및&nbsp;성과&nbsp;중심의&nbsp;예산&nbsp;편성&nbsp;체계&nbsp;확립.<br>-&nbsp;스마트&nbsp;행정&nbsp;인프라&nbsp;구축&nbsp;:<br>●&nbsp;행정&nbsp;서비스&nbsp;원스톱&nbsp;앱&nbsp;개발&nbsp;및&nbsp;AI&nbsp;민원&nbsp;처리&nbsp;시스템&nbsp;도입으로&nbsp;행정&nbsp;효율&nbsp;극대화.<br><br>□&nbsp;이행기간<br>●&nbsp;임기&nbsp;전반기&nbsp;(1~2년차):&nbsp;통합추진위원회&nbsp;구성,&nbsp;특별법&nbsp;검토&nbsp;및&nbsp;정부&nbsp;공모사업&nbsp;집중&nbsp;응모를&nbsp;통한&nbsp;예산&nbsp;확보&nbsp;기반&nbsp;마련.<br>●&nbsp;임기&nbsp;후반기&nbsp;(3~4년차):&nbsp;행정통합&nbsp;모델&nbsp;확정&nbsp;및&nbsp;특별법&nbsp;입법&nbsp;추진,&nbsp;군&nbsp;예산&nbsp;1조&nbsp;원&nbsp;달성&nbsp;및&nbsp;스마트&nbsp;행정&nbsp;시스템&nbsp;전면&nbsp;시행.<br><br>□&nbsp;재원조달방안&nbsp;등<br>●&nbsp;&nbsp;국·도비&nbsp;확보:&nbsp;중앙정부의&nbsp;'지역소멸&nbsp;대응기금'&nbsp;및&nbsp;'광역권&nbsp;통합&nbsp;인센티브'&nbsp;적극&nbsp;확보.<br>●&nbsp;&nbsp;지방세수&nbsp;증대:&nbsp;첨단&nbsp;산업단지&nbsp;기업&nbsp;유치&nbsp;및&nbsp;물류&nbsp;단지&nbsp;조성에&nbsp;따른&nbsp;취등록세&nbsp;지방소득세&nbsp;수입&nbsp;확대.<br>●&nbsp;&nbsp;민자&nbsp;유치:&nbsp;대규모&nbsp;인프라&nbsp;및&nbsp;관광&nbsp;단지&nbsp;조성&nbsp;시&nbsp;민간&nbsp;자본(BT,&nbsp;BTO&nbsp;등)&nbsp;적극&nbsp;활용<br>●&nbsp;&nbsp;예산&nbsp;효율화:&nbsp;기존&nbsp;사업&nbsp;전면&nbsp;재검토를&nbsp;통한&nbsp;불용예산&nbsp;최소화&nbsp;및&nbsp;재정자립도&nbsp;향상을&nbsp;위한&nbsp;수익&nbsp;모델&nbsp;발굴.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	'아라가야 역사문화 관광특구 및 체류형 웰니스 도시 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="'아라가야 역사문화 관광특구 및 체류형 웰니스 도시 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>●&nbsp;세계적&nbsp;역사문화&nbsp;거점&nbsp;확보:&nbsp;말이산&nbsp;고분군&nbsp;유네스코&nbsp;세계유산&nbsp;등재를&nbsp;기점으로&nbsp;아라가야의&nbsp;역사적&nbsp;가치를&nbsp;브랜드화하여&nbsp;글로벌&nbsp;관광객&nbsp;유치.&nbsp;<br>●&nbsp;관광&nbsp;패러다임&nbsp;전환:&nbsp;'경유형'&nbsp;관광에서&nbsp;'체류형'&nbsp;관광으로&nbsp;전환하여&nbsp;지역&nbsp;내&nbsp;소비를&nbsp;진작시키고&nbsp;지역&nbsp;경제&nbsp;활성화&nbsp;도모.&nbsp;<br>●&nbsp;군민&nbsp;삶의&nbsp;질&nbsp;향상:&nbsp;역사와&nbsp;자연이&nbsp;어우러진&nbsp;휴양&nbsp;공간을&nbsp;조성하여&nbsp;군민들에게&nbsp;수준&nbsp;높은&nbsp;문화예술&nbsp;향유&nbsp;기회&nbsp;제공.&nbsp;<br><br>□&nbsp;이행방법<br>-&nbsp;아라가야&nbsp;역사문화&nbsp;관광벨트&nbsp;및&nbsp;웰니스&nbsp;단지&nbsp;조성:<br>●&nbsp;말이산&nbsp;고분군&nbsp;주변&nbsp;정비&nbsp;및&nbsp;가야~칠원&nbsp;간&nbsp;역사도로&nbsp;개설로&nbsp;관광&nbsp;인프라&nbsp;확충<br>●&nbsp;빈집을&nbsp;활용한&nbsp;민박시설&nbsp;조성&nbsp;및&nbsp;입곡&nbsp;군립공원&nbsp;내&nbsp;체류형&nbsp;관광숙박시설단지&nbsp;개발.&nbsp;<br>●&nbsp;힐링과&nbsp;역사체험이&nbsp;결합된&nbsp;'아라가야&nbsp;웰니스&nbsp;관광휴양단지&nbsp;조성'.&nbsp;<br>-&nbsp;함안&nbsp;대표&nbsp;축제&nbsp;및&nbsp;콘텐츠&nbsp;육성:<br>●&nbsp;무진정&nbsp;낙화놀이의&nbsp;횟수를&nbsp;늘리고&nbsp;상설화하여&nbsp;대한민국&nbsp;대표&nbsp;K-컬처&nbsp;콘텐츠로&nbsp;육성.<br>●&nbsp;문화관광재단을&nbsp;설립하여&nbsp;지역&nbsp;축제&nbsp;및&nbsp;문화예술&nbsp;단체&nbsp;활동을&nbsp;통합&nbsp;지원<br>-&nbsp;디지털&nbsp;관광&nbsp;및&nbsp;생태&nbsp;인프라&nbsp;구축&nbsp;:<br>●&nbsp;국가유산&nbsp;디지털&nbsp;복원사업(AR/VR)&nbsp;추진&nbsp;및&nbsp;위치기반&nbsp;함안&nbsp;관광&nbsp;해설&nbsp;앱&nbsp;개발.<br>●&nbsp;남강·낙동강&nbsp;합강권역&nbsp;풍류공원&nbsp;조기&nbsp;착공&nbsp;및&nbsp;광려천&nbsp;명품&nbsp;생태정원&nbsp;개발.&nbsp;<br><br>□&nbsp;이행기간<br>●&nbsp;임기&nbsp;전반기&nbsp;(1~2년차):&nbsp;문화관광재단&nbsp;설립,&nbsp;역사문화&nbsp;관광특구&nbsp;지정&nbsp;신청&nbsp;및&nbsp;웰니스&nbsp;단지&nbsp;타당성&nbsp;조사&nbsp;착수.&nbsp;<br>●&nbsp;임기&nbsp;후반기&nbsp;(3~4년차):&nbsp;역사도로&nbsp;및&nbsp;숙박시설&nbsp;완공,&nbsp;낙화놀이&nbsp;상설&nbsp;공연장&nbsp;건립&nbsp;및&nbsp;디지털&nbsp;복원&nbsp;콘텐츠&nbsp;상용화.&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>●&nbsp;&nbsp;국·도비&nbsp;확보:&nbsp;문화체육관광부&nbsp;'관광거점도시'&nbsp;및&nbsp;'문화도시'&nbsp;지정&nbsp;사업비&nbsp;확보,&nbsp;가야문화권&nbsp;정비사업&nbsp;국비&nbsp;유치.&nbsp;<br>●&nbsp;&nbsp;지방비&nbsp;편성:&nbsp;군&nbsp;예산&nbsp;1조&nbsp;원&nbsp;달성과&nbsp;연계하여&nbsp;관광&nbsp;인프라&nbsp;구축을&nbsp;위한&nbsp;특별&nbsp;예산&nbsp;편성.&nbsp;<br>●&nbsp;&nbsp;민자&nbsp;유치:&nbsp;숙박시설&nbsp;및&nbsp;웰니스&nbsp;휴양단지&nbsp;조성&nbsp;시&nbsp;대형&nbsp;호텔·리조트&nbsp;등&nbsp;민간&nbsp;자본&nbsp;투자유치.&nbsp;<br>●&nbsp;&nbsp;수익&nbsp;창출:&nbsp;승마공원&nbsp;흑자경영&nbsp;전환&nbsp;및&nbsp;관광&nbsp;상품&nbsp;판매&nbsp;수익의&nbsp;지역&nbsp;사회&nbsp;재투자</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

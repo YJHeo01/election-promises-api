@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;강철민 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	녹색미래를 여는 ‘스마트 혁신경제’ 태안 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="녹색미래를 여는 ‘스마트 혁신경제’ 태안 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;석탄&nbsp;화력발전&nbsp;중심의&nbsp;산업&nbsp;구조에서&nbsp;바람과&nbsp;태양&nbsp;중심의&nbsp;신재생에너지로의&nbsp;대전환<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;및&nbsp;에너지&nbsp;집적단지&nbsp;조성을&nbsp;통한&nbsp;미래형&nbsp;고부가가치&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;지역&nbsp;소멸&nbsp;위기&nbsp;극복<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;복합&nbsp;에너지&nbsp;산업&nbsp;기반시설&nbsp;구축을&nbsp;통한&nbsp;신재생에너지&nbsp;집적단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역경제의&nbsp;새로운&nbsp;동력&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;기회발전특구&nbsp;및&nbsp;분산에너지&nbsp;전환특구&nbsp;지정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부&nbsp;지원을&nbsp;이끌어낼&nbsp;특구&nbsp;지정에&nbsp;행정력&nbsp;집중<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI산단과&nbsp;RE100산단&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘태안항’을&nbsp;국가관리무역항으로의&nbsp;승격<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기&nbsp;~&nbsp;2030년&nbsp;(지속&nbsp;추진)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(지방시대위원회&nbsp;특구예산&nbsp;포함),&nbsp;도비,&nbsp;군비&nbsp;및&nbsp;대규모&nbsp;민간&nbsp;자본&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	생애주기별 맞춤형 ‘든든한 돌봄 울타리’ 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="생애주기별 맞춤형 ‘든든한 돌봄 울타리’ 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;어르신의&nbsp;노후&nbsp;존엄과&nbsp;청년의&nbsp;미래가&nbsp;공존하는&nbsp;‘두물머리&nbsp;복지’&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;태안군민이라면&nbsp;누구나&nbsp;전&nbsp;생애에&nbsp;걸쳐&nbsp;촘촘한&nbsp;복지&nbsp;안전망을&nbsp;체감하도록&nbsp;지원<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;통합돌봄체계&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사각지대&nbsp;없는&nbsp;생애주기별&nbsp;맞춤형&nbsp;복지&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;건강권&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임플란트&nbsp;비용&nbsp;지원&nbsp;등&nbsp;예방의학적&nbsp;의료&nbsp;서비스&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;미래세대&nbsp;육성기금&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청소년&nbsp;수당&nbsp;지급&nbsp;및&nbsp;꿈을&nbsp;키우는&nbsp;교육환경&nbsp;투자<br>&nbsp;&nbsp;○&nbsp;삶의&nbsp;안전판&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;세대별&nbsp;체감형&nbsp;복지&nbsp;인프라&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기&nbsp;~&nbsp;2030년&nbsp;(임기&nbsp;내&nbsp;제도&nbsp;정착)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;군비(일반회계),&nbsp;충청남도&nbsp;복지&nbsp;보조금&nbsp;및&nbsp;사회복지기금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	사통팔달 균형발전으로 ‘서해안 중심도시’ 도약</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="사통팔달 균형발전으로 ‘서해안 중심도시’ 도약">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;교통&nbsp;소외&nbsp;지역&nbsp;없는&nbsp;편리한&nbsp;생활&nbsp;환경&nbsp;조성으로&nbsp;군민&nbsp;삶의&nbsp;질&nbsp;혁신<br>&nbsp;&nbsp;○&nbsp;권역별&nbsp;균형&nbsp;발전을&nbsp;통한&nbsp;지역&nbsp;경제&nbsp;활성화&nbsp;및&nbsp;정주&nbsp;여건&nbsp;개선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;광역교통망&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;가로림만&nbsp;해상교량&nbsp;건설,&nbsp;태안-서산&nbsp;고속도로&nbsp;조기&nbsp;개설,&nbsp;충청내륙철도&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;시내버스&nbsp;완전&nbsp;공영제&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민의&nbsp;발이&nbsp;되는&nbsp;대중교통의&nbsp;공공성&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;그냥&nbsp;해드림&nbsp;센터&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활&nbsp;밀착형&nbsp;민원&nbsp;해결&nbsp;및&nbsp;원스톱&nbsp;지원&nbsp;서비스<br>&nbsp;&nbsp;○&nbsp;수요응답형(DRT)&nbsp;버스&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통&nbsp;약자를&nbsp;위한&nbsp;맞춤형&nbsp;이동&nbsp;수단&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;백화산&nbsp;랜드마크화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;태안의&nbsp;상징성을&nbsp;회복하고&nbsp;정주&nbsp;여건&nbsp;개선<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;상반기&nbsp;~&nbsp;2030년&nbsp;(단계별&nbsp;시행)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(교통체계&nbsp;개선&nbsp;사업),&nbsp;도비&nbsp;및&nbsp;군비&nbsp;매칭&nbsp;펀드&nbsp;조성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	생태·치유·문화가 어우러진 ‘활력 넘치는 쉼표도시’ 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="생태·치유·문화가 어우러진 ‘활력 넘치는 쉼표도시’ 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;생활인구&nbsp;300만&nbsp;명&nbsp;시대를&nbsp;열어&nbsp;지역&nbsp;경제의&nbsp;선순환&nbsp;구조&nbsp;확립<br>&nbsp;&nbsp;○&nbsp;태안&nbsp;고유의&nbsp;자연유산을&nbsp;활용한&nbsp;세계적인&nbsp;관광&nbsp;브랜드화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;가로림만&nbsp;국가해양생태공원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;세계적&nbsp;생태&nbsp;관광의&nbsp;거점으로&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;안면도&nbsp;국가정원&nbsp;승격&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;명품&nbsp;정원&nbsp;조성을&nbsp;통한&nbsp;지역&nbsp;경제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;생활문화&nbsp;향유권&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특별한&nbsp;날이&nbsp;아닌&nbsp;매일&nbsp;누리는&nbsp;생활문화&nbsp;정착<br>&nbsp;&nbsp;○&nbsp;활력&nbsp;넘치는&nbsp;로컬&nbsp;콘텐츠<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동네마다&nbsp;색깔있는&nbsp;축제와&nbsp;문화&nbsp;공간&nbsp;확충<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기&nbsp;~&nbsp;2030년&nbsp;(중장기&nbsp;전략&nbsp;추진)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;문화체육관광부·환경부&nbsp;국비&nbsp;사업&nbsp;공모&nbsp;및&nbsp;관광개발진흥기금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	소통과 혁신으로 군민이 주인인 ‘정의로운 신뢰공동체’ 구현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="소통과 혁신으로 군민이 주인인 ‘정의로운 신뢰공동체’ 구현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;관행적인&nbsp;인사&nbsp;청탁과&nbsp;행정&nbsp;불신을&nbsp;타파하고&nbsp;투명한&nbsp;지방정부&nbsp;모델&nbsp;정립<br>&nbsp;&nbsp;○&nbsp;군민이&nbsp;예산&nbsp;편성부터&nbsp;정책&nbsp;결정까지&nbsp;참여하는&nbsp;진정한&nbsp;주민주권&nbsp;시대&nbsp;개막<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;행정&nbsp;대개혁&nbsp;단행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인사&nbsp;청탁&nbsp;등&nbsp;낡은&nbsp;관행을&nbsp;타파하고&nbsp;실무&nbsp;중심&nbsp;조직&nbsp;개편<br>&nbsp;&nbsp;○&nbsp;인사·감사&nbsp;기능&nbsp;독립성&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;내부&nbsp;통제&nbsp;시스템&nbsp;강화로&nbsp;청렴도&nbsp;1위&nbsp;달성<br>&nbsp;&nbsp;○&nbsp;주민참여예산제&nbsp;실질화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민이&nbsp;직접&nbsp;예산과&nbsp;정책의&nbsp;틀을&nbsp;세우는&nbsp;진정한&nbsp;자치<br>&nbsp;&nbsp;○&nbsp;정의로운&nbsp;지방정부&nbsp;모델<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공정과&nbsp;정의가&nbsp;살아&nbsp;숨&nbsp;쉬는&nbsp;신뢰&nbsp;행정&nbsp;구현<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기&nbsp;~&nbsp;2027년&nbsp;상반기&nbsp;(취임&nbsp;즉시&nbsp;착수)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;별도&nbsp;재원&nbsp;소요&nbsp;최소화&nbsp;(기존&nbsp;일반행정&nbsp;예산&nbsp;효율화를&nbsp;통한&nbsp;예산&nbsp;절감분&nbsp;활용)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

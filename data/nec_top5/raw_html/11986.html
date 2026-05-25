@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;서태원 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	경기도 정원박람회 성공 개최와 자라섬 국가정원 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="경기도 정원박람회 성공 개최와 자라섬 국가정원 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;경기도&nbsp;정원박람회&nbsp;성공&nbsp;개최를&nbsp;발판으로&nbsp;자라섬&nbsp;정원관광&nbsp;경쟁력을&nbsp;높이고&nbsp;국가정원&nbsp;추진&nbsp;기반을&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정원관광·지역축제·체류형&nbsp;관광을&nbsp;연계해&nbsp;지역경제&nbsp;활성화와&nbsp;대외&nbsp;인지도&nbsp;제고&nbsp;도모<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;자라섬&nbsp;정원&nbsp;인프라를&nbsp;확충하고&nbsp;박람회&nbsp;준비체계를&nbsp;단계적으로&nbsp;구축하며&nbsp;기존&nbsp;축제와&nbsp;연계한&nbsp;운영전략&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정원&nbsp;콘텐츠&nbsp;보강&nbsp;,&nbsp;교통&nbsp;·&nbsp;안전&nbsp;·&nbsp;관람&nbsp;동선&nbsp;점검&nbsp;,&nbsp;홍보&nbsp;강화&nbsp;,&nbsp;관계기관&nbsp;협력으로&nbsp;국가정원&nbsp;도약&nbsp;기반&nbsp;마련<br><br>□&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;기반&nbsp;정비와&nbsp;박람회&nbsp;준비를&nbsp;본격화하고&nbsp;2027년&nbsp;행사&nbsp;연계&nbsp;및&nbsp;후속&nbsp;국가정원&nbsp;추진&nbsp;기반&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단계별&nbsp;준비와&nbsp;정원&nbsp;인프라&nbsp;보완을&nbsp;통해&nbsp;정원도시&nbsp;가평&nbsp;비전&nbsp;실현<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;도비·군비와&nbsp;관련&nbsp;공모·지원사업을&nbsp;연계하고&nbsp;관광·정원&nbsp;기반시설&nbsp;예산을&nbsp;활용해&nbsp;추진&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;축제·관광·정원&nbsp;사업&nbsp;연계로&nbsp;투자&nbsp;효과를&nbsp;높이고&nbsp;민관&nbsp;협력&nbsp;실행력&nbsp;강화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	2025년 수해복구사업의 신속하고 차질 없는 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="2025년 수해복구사업의 신속하고 차질 없는 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>&nbsp;&nbsp;○&nbsp;2025년&nbsp;호우&nbsp;피해지역&nbsp;복구사업을&nbsp;신속하고&nbsp;차질&nbsp;없이&nbsp;추진해&nbsp;군민&nbsp;생활&nbsp;기반을&nbsp;조속히&nbsp;회복하고&nbsp;재난&nbsp;불안&nbsp;해소&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복구와&nbsp;재해예방&nbsp;정비를&nbsp;병행해&nbsp;반복&nbsp;피해를&nbsp;줄이는&nbsp;안전&nbsp;기반&nbsp;강화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;복구계획,&nbsp;실시설계,&nbsp;공사착공,&nbsp;추진실태&nbsp;점검&nbsp;등&nbsp;행정&nbsp;절차를&nbsp;체계적으로&nbsp;관리하고&nbsp;우선&nbsp;복구&nbsp;구간부터&nbsp;순차&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;배수로&nbsp;준설,&nbsp;하천&nbsp;정비,&nbsp;진입차단시설,&nbsp;안내체계&nbsp;보강&nbsp;등&nbsp;재발방지&nbsp;조치를&nbsp;병행해&nbsp;생활·관광·영농&nbsp;기반&nbsp;회복<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;장마철&nbsp;이전&nbsp;우선&nbsp;복구를&nbsp;목표로&nbsp;추진하고&nbsp;미완료&nbsp;구간은&nbsp;연중&nbsp;단계적으로&nbsp;정비해&nbsp;복구와&nbsp;예방&nbsp;사업&nbsp;병행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복구&nbsp;공사와&nbsp;사전&nbsp;점검을&nbsp;지속&nbsp;추진해&nbsp;여름철&nbsp;재난&nbsp;대응력&nbsp;강화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·군비&nbsp;및&nbsp;재난복구&nbsp;관련&nbsp;예산을&nbsp;연계해&nbsp;재원을&nbsp;확보하고&nbsp;피해&nbsp;규모와&nbsp;우선순위에&nbsp;따라&nbsp;단계&nbsp;집행&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관계기관&nbsp;협의와&nbsp;복구사업&nbsp;점검으로&nbsp;예산&nbsp;집행&nbsp;효율과&nbsp;사업&nbsp;실행력&nbsp;제고</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	가평군 공공의료기관 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="가평군 공공의료기관 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;가평군&nbsp;공공의료기관&nbsp;건립으로&nbsp;군민의&nbsp;공공의료&nbsp;접근성을&nbsp;높이고&nbsp;응급·필수의료&nbsp;공백을&nbsp;줄여&nbsp;지역&nbsp;의료안전망&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청평권&nbsp;등&nbsp;의료&nbsp;취약지역&nbsp;진료&nbsp;불편을&nbsp;완화하고&nbsp;군민&nbsp;기본의료체계&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;타당성조사와&nbsp;부지·시설&nbsp;계획을&nbsp;토대로&nbsp;단계적&nbsp;건립&nbsp;절차를&nbsp;추진하고&nbsp;관계기관&nbsp;협력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민&nbsp;수요를&nbsp;반영한&nbsp;진료체계와&nbsp;운영기반을&nbsp;마련해&nbsp;공공의료&nbsp;서비스&nbsp;제공&nbsp;기반&nbsp;구축<br><br>□&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년부터&nbsp;행정절차와&nbsp;기반&nbsp;조성을&nbsp;본격&nbsp;추진하고&nbsp;증기&nbsp;계획에&nbsp;따라&nbsp;단계적&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부지&nbsp;확보,&nbsp;설계,&nbsp;예산&nbsp;반영,&nbsp;운영&nbsp;준비를&nbsp;순차&nbsp;추진해&nbsp;안정적으로&nbsp;사업&nbsp;진행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;군비를&nbsp;기본으로&nbsp;도비·국비와&nbsp;공공의료&nbsp;관련&nbsp;지원사업을&nbsp;연계해&nbsp;단계별&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공의료&nbsp;기반&nbsp;확충&nbsp;사업과&nbsp;연계해&nbsp;재정&nbsp;부담을&nbsp;분산하고&nbsp;지속&nbsp;가능한&nbsp;운영&nbsp;구조&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	인재육성 기반 조성 및 장학지원 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="인재육성 기반 조성 및 장학지원 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;장학지원&nbsp;확대와&nbsp;평생학습&nbsp;기반&nbsp;강화를&nbsp;통해&nbsp;지역&nbsp;인재를&nbsp;체계적으로&nbsp;육성하고&nbsp;청소년·군민의&nbsp;성장&nbsp;기회&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육·장학·평생학습을&nbsp;연계해&nbsp;지역에서&nbsp;배우고&nbsp;성장하며&nbsp;정착할&nbsp;수&nbsp;있는&nbsp;기반&nbsp;마련<br><br>□&nbsp;이행방법<br>&nbsp;인재육성재단&nbsp;운영&nbsp;기반을&nbsp;강화하고&nbsp;장학사업,&nbsp;진로·학습&nbsp;지원,&nbsp;평생학습관&nbsp;연계&nbsp;프로그램을&nbsp;단계적으로&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청소년·청년·군민&nbsp;대상&nbsp;장학지원과&nbsp;학습&nbsp;프로그램을&nbsp;체계화해&nbsp;지역&nbsp;맞춤형&nbsp;인재육성&nbsp;체계&nbsp;구축<br><br>□&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;장학지원과&nbsp;인재육성&nbsp;기반&nbsp;조성을&nbsp;본격화하고&nbsp;2027년&nbsp;이후&nbsp;평생학습&nbsp;기반과&nbsp;연계해&nbsp;단계적&nbsp;확대&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재단&nbsp;운영,&nbsp;프로그램&nbsp;정비,&nbsp;힉습&nbsp;인프라&nbsp;확충을&nbsp;순차&nbsp;추진해&nbsp;실효성&nbsp;있는&nbsp;지원체계&nbsp;마련<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;군비와&nbsp;재단&nbsp;운영재원,&nbsp;장학기금&nbsp;및&nbsp;관련&nbsp;지원사업&nbsp;재원을&nbsp;연계해&nbsp;장학·평생학습&nbsp;사업을&nbsp;안정적으로&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공재원과&nbsp;민간&nbsp;협력&nbsp;재원을&nbsp;함께&nbsp;활용해&nbsp;지속&nbsp;가능한&nbsp;인재육성&nbsp;기반&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	2026년 경기도생활체육대축전의 성공척 개최</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="2026년 경기도생활체육대축전의 성공척 개최">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;경기도생활체육대축전을&nbsp;성공적으로&nbsp;개최해&nbsp;군민&nbsp;화합과&nbsp;가평의&nbsp;대외&nbsp;인지도를&nbsp;높이고&nbsp;지역경제&nbsp;활성화&nbsp;도모&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민이&nbsp;함께&nbsp;참여하는&nbsp;체육축제로&nbsp;운영해&nbsp;생활체육&nbsp;기반&nbsp;강화와&nbsp;지역&nbsp;홍보&nbsp;효과&nbsp;제고<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;경기장,&nbsp;교통,&nbsp;주차,&nbsp;안전,&nbsp;자원봉사,&nbsp;숙박,&nbsp;홍보&nbsp;분야별&nbsp;준비체계를&nbsp;구축하고&nbsp;종목별&nbsp;운영계획을&nbsp;체계&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경기장&nbsp;정비,&nbsp;운영인력&nbsp;확보,&nbsp;교통·안전관리&nbsp;강화,&nbsp;상권&nbsp;연계&nbsp;프로그램&nbsp;운영,&nbsp;군민&nbsp;참여형&nbsp;홍보&nbsp;추진<br><br>□&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;5월부터&nbsp;준비를&nbsp;본격화하고&nbsp;사전점검과&nbsp;시설&nbsp;보완을&nbsp;거쳐&nbsp;2026년&nbsp;9월&nbsp;대회를&nbsp;차질&nbsp;없이&nbsp;개최&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대회기간:&nbsp;2026.&nbsp;9.&nbsp;11.&nbsp;∼&nbsp;9.&nbsp;13.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;도비·군비&nbsp;및&nbsp;관련&nbsp;체육행사&nbsp;예산을&nbsp;활용해&nbsp;운영&nbsp;재원을&nbsp;확보하고&nbsp;시설&nbsp;보완과&nbsp;대회&nbsp;지원체계를&nbsp;단계적으로&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;체육&nbsp;인프라&nbsp;개선,&nbsp;관계기관&nbsp;협력,&nbsp;지역사회&nbsp;참여를&nbsp;통해&nbsp;성공&nbsp;개최&nbsp;기반&nbsp;조성</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

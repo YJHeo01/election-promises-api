@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;최민호 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	행정수도 기필고 완성하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="행정수도 기필고 완성하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;행정수도&nbsp;완성은&nbsp;대한민국의&nbsp;국토&nbsp;균형발전과&nbsp;국가&nbsp;경쟁력&nbsp;강화를&nbsp;위한&nbsp;전략적&nbsp;국가&nbsp;과제이며&nbsp;국정&nbsp;운영의&nbsp;효율성&nbsp;극대화와&nbsp;실질적인&nbsp;‘지방화시대’&nbsp;실현하기&nbsp;위한&nbsp;19개&nbsp;시책을&nbsp;추진하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;1.&nbsp;행정수도의&nbsp;상징으로서&nbsp;전국&nbsp;최고의&nbsp;「태극기&nbsp;게양대&nbsp;및&nbsp;태극&nbsp;공원」&nbsp;조성<br>&nbsp;&nbsp;2.&nbsp;행정수도&nbsp;헌법&nbsp;명문화,&nbsp;개헌&nbsp;<br>&nbsp;&nbsp;3.&nbsp;행정수도&nbsp;특별법&nbsp;제정&nbsp;추진<br>&nbsp;&nbsp;4.&nbsp;지방교부세법&nbsp;개정을&nbsp;통한&nbsp;보통교부세&nbsp;확보<br>&nbsp;&nbsp;5.&nbsp;국회의사당,&nbsp;대통령세종집무실,&nbsp;세종지방법원&nbsp;일정대로&nbsp;이전<br>&nbsp;&nbsp;6.&nbsp;중앙행정기관(법무부,&nbsp;성평등가족부,&nbsp;경찰청&nbsp;등)&nbsp;조속&nbsp;이전&nbsp;추진<br>&nbsp;&nbsp;7.&nbsp;세종시&nbsp;특성(세종학당&nbsp;재단,&nbsp;한국행정연구원&nbsp;등)에&nbsp;맞는&nbsp;공공기관이전&nbsp;추진<br>&nbsp;&nbsp;8.&nbsp;「언론·미디어단지」&nbsp;(&nbsp;방송,&nbsp;신문,&nbsp;뉴미디어&nbsp;기업&nbsp;등)&nbsp;조성<br>&nbsp;&nbsp;9.&nbsp;CTX(광역급행철도)&nbsp;확충으로&nbsp;「세종&nbsp;지하철&nbsp;시대」&nbsp;개막&nbsp;촉진<br>&nbsp;&nbsp;10.세종～청주&nbsp;고속도로,&nbsp;부강역～북대전&nbsp;IC연결&nbsp;도로를&nbsp;조속&nbsp;추진&nbsp;지원<br>&nbsp;&nbsp;11.&nbsp;국회&nbsp;세종의사당&nbsp;연결하는&nbsp;「금강&nbsp;횡단교량」&nbsp;신설<br>&nbsp;&nbsp;12.&nbsp;대전&nbsp;～&nbsp;당진&nbsp;간&nbsp;고속도로&nbsp;‘첫마을&nbsp;하이패스&nbsp;IC&nbsp;신설’을&nbsp;추진<br>&nbsp;&nbsp;13.&nbsp;「제천&nbsp;횡단&nbsp;지하차도&nbsp;신설」&nbsp;국지도&nbsp;96호&nbsp;직선화&nbsp;<br>&nbsp;&nbsp;14.&nbsp;「도시상징광장&nbsp;보행육교」&nbsp;신설<br>&nbsp;&nbsp;15.&nbsp;이응패스&nbsp;고도화(청소년·장애인&nbsp;대상&nbsp;간편&nbsp;등록&nbsp;페이지&nbsp;개설&nbsp;등)<br>&nbsp;&nbsp;16.&nbsp;세종～공주&nbsp;간&nbsp;BRT노선&nbsp;금년&nbsp;하반기&nbsp;운행,&nbsp;오송역,&nbsp;청주도심,&nbsp;대전권&nbsp;증차&nbsp;연장&nbsp;<br>&nbsp;&nbsp;17.&nbsp;시민&nbsp;맞춤형&nbsp;스마트서비스(시티앱,&nbsp;세종엔)&nbsp;확대&nbsp;<br>&nbsp;&nbsp;18.&nbsp;공무원&nbsp;공공주택&nbsp;특별공급&nbsp;제도의&nbsp;부활<br>&nbsp;&nbsp;19.&nbsp;공무원&nbsp;전용&nbsp;임대주택&nbsp;3천&nbsp;세대&nbsp;공급<br><br>□&nbsp;이행기간&nbsp;:&nbsp;&nbsp;2026&nbsp;.&nbsp;7.&nbsp;1&nbsp;∼&nbsp;2030.&nbsp;6.&nbsp;30(중장기&nbsp;계획은&nbsp;일정에&nbsp;맞게&nbsp;추진)<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;:&nbsp;국비(국가사업),&nbsp;지방비,&nbsp;민자,&nbsp;제3섹터&nbsp;방식&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	저녁과 휴일이 있는 행복한 가족의 삶이 있는 세종을 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="저녁과 휴일이 있는 행복한 가족의 삶이 있는 세종을 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;적은&nbsp;자녀,&nbsp;바쁜&nbsp;일상,&nbsp;디지털&nbsp;환경에&nbsp;소외되고&nbsp;외로운&nbsp;가족들의&nbsp;삶을&nbsp;“가족이&nbsp;함께하여&nbsp;행복한&nbsp;삶”으로&nbsp;바꾸어&nbsp;낼&nbsp;&nbsp;18개&nbsp;시책을&nbsp;추진하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;1.&nbsp;가족&nbsp;캠핑장&nbsp;확충(목표&nbsp;20개소&nbsp;신설)<br>&nbsp;&nbsp;2.&nbsp;가족이&nbsp;즐길&nbsp;수&nbsp;있는&nbsp;「도시&nbsp;순환형&nbsp;세종&nbsp;올레길」&nbsp;조성<br>&nbsp;&nbsp;3.&nbsp;가족이&nbsp;함께하는&nbsp;생활권별&nbsp;가족&nbsp;주말농장&nbsp;조성(신규&nbsp;10개소)<br>&nbsp;&nbsp;4.&nbsp;읍면지역&nbsp;빈집의&nbsp;재탄생,&nbsp;세종형&nbsp;스테이&nbsp;「촌캉스」&nbsp;브랜드화<br>&nbsp;&nbsp;5.&nbsp;가족들이&nbsp;함께하는&nbsp;다양한&nbsp;이벤트(사진전,&nbsp;영상전시회,&nbsp;요리,&nbsp;노래자랑&nbsp;등)&nbsp;마련<br>&nbsp;&nbsp;6.&nbsp;1인&nbsp;가구도&nbsp;‘1인&nbsp;가족’으로&nbsp;존중받을&nbsp;수&nbsp;있는&nbsp;「행복누림터」로&nbsp;개발<br>&nbsp;&nbsp;7.&nbsp;가족이&nbsp;함께&nbsp;즐기는&nbsp;「아름다운&nbsp;수변도시&nbsp;세종」&nbsp;건설<br>&nbsp;&nbsp;8.&nbsp;나성동&nbsp;백화점&nbsp;부지에&nbsp;「대형&nbsp;가족&nbsp;테마파크&nbsp;복합&nbsp;쇼핑몰」&nbsp;유치<br>&nbsp;&nbsp;9.&nbsp;가족이&nbsp;함께&nbsp;하는&nbsp;「세종&nbsp;펫밀리(Pet-mily)&nbsp;친화&nbsp;도시&nbsp;조성」&nbsp;<br>&nbsp;&nbsp;10.&nbsp;중앙공원을&nbsp;「국가도시공원」으로&nbsp;지정&nbsp;추진<br>&nbsp;&nbsp;11.&nbsp;공공&nbsp;가족&nbsp;승마&nbsp;체육공원&nbsp;조성&nbsp;<br>&nbsp;&nbsp;12.&nbsp;가족이&nbsp;편리하게&nbsp;이용할&nbsp;수&nbsp;있는&nbsp;「가족&nbsp;친화&nbsp;인증제도」&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인증된&nbsp;가족&nbsp;친화&nbsp;시설에는&nbsp;여민전&nbsp;캐시백&nbsp;확대(1,500억원&nbsp;→&nbsp;3,000억원)&nbsp;우대&nbsp;조치<br>&nbsp;&nbsp;13.&nbsp;「세종&nbsp;육아&nbsp;돌봄&nbsp;체계」&nbsp;구축하여&nbsp;육아맘의&nbsp;건강,&nbsp;휴식,&nbsp;휴일을&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출생에서&nbsp;아이돌봄까지&nbsp;365일,&nbsp;24시간&nbsp;완전&nbsp;돌봄<br>&nbsp;&nbsp;14.&nbsp;소아·아동의&nbsp;건강을&nbsp;책임지는&nbsp;「세종&nbsp;아이케어(I-care)&nbsp;복지&nbsp;체계」&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;「어린이&nbsp;복합의료&nbsp;복지센터」를&nbsp;국비&nbsp;재원으로&nbsp;건립&nbsp;등<br>&nbsp;&nbsp;15.&nbsp;가족&nbsp;사랑&nbsp;치유를&nbsp;위한&nbsp;심리&nbsp;상담&nbsp;치료&nbsp;지원체계&nbsp;구축<br>&nbsp;&nbsp;16.&nbsp;안전한&nbsp;가정을&nbsp;위한&nbsp;「아동·청소년&nbsp;안전도시」&nbsp;만들기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자율&nbsp;방범대,&nbsp;자전거&nbsp;순찰단,&nbsp;시니어&nbsp;경찰,&nbsp;반려견&nbsp;순찰대&nbsp;등&nbsp;보강<br>&nbsp;&nbsp;17.&nbsp;긴급한&nbsp;가사&nbsp;노동&nbsp;대체&nbsp;서비스를&nbsp;위한&nbsp;「세종&nbsp;가사&nbsp;노동&nbsp;바우처」&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연간&nbsp;12일&nbsp;수준(육아,&nbsp;취약계층,&nbsp;건강&nbsp;상태),&nbsp;가사&nbsp;노동자의&nbsp;긴요한&nbsp;휴일<br>&nbsp;&nbsp;18.&nbsp;「세종특별자치시&nbsp;가족&nbsp;친화&nbsp;지원&nbsp;조례」를&nbsp;제정하여&nbsp;지원체계&nbsp;구축<br><br>□&nbsp;이행기간&nbsp;:&nbsp;&nbsp;2026&nbsp;.&nbsp;7.&nbsp;1&nbsp;∼&nbsp;2030.&nbsp;6.&nbsp;30(중장기&nbsp;계획은&nbsp;일정에&nbsp;맞게&nbsp;추진)<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;:&nbsp;국비(국가사업),&nbsp;지방비,&nbsp;민자,&nbsp;제3섹터&nbsp;방식&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	건강과 도전, 꿈이 있는 「미래세대」를 육성하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="건강과 도전, 꿈이 있는 「미래세대」를 육성하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;어린이부터&nbsp;청소년,&nbsp;청년까지&nbsp;미래세대가&nbsp;건강하면서도&nbsp;도전&nbsp;정신과&nbsp;인내심까지&nbsp;갖춘&nbsp;인재로&nbsp;자라날&nbsp;수&nbsp;있도록&nbsp;16개&nbsp;시책을&nbsp;추진하겠습니다.&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;1.&nbsp;난임부부에&nbsp;대한&nbsp;시술비&nbsp;추가(20회&nbsp;→&nbsp;25회,&nbsp;체외&nbsp;200만원,&nbsp;인공수종&nbsp;50만원)&nbsp;지원<br>&nbsp;&nbsp;2.&nbsp;출생&nbsp;미등록&nbsp;아동&nbsp;등록&nbsp;및&nbsp;지원<br>&nbsp;&nbsp;3.&nbsp;생애&nbsp;초기&nbsp;건강관리&nbsp;사업(통합적인&nbsp;아동&nbsp;보호·지원&nbsp;서비스)&nbsp;육성&nbsp;확대<br>&nbsp;&nbsp;4.&nbsp;‘아이&nbsp;키우기&nbsp;좋은&nbsp;세종’을&nbsp;위한&nbsp;「세종&nbsp;보육서비스&nbsp;3대&nbsp;시책」&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;①&nbsp;공립유치원&nbsp;교직원&nbsp;수준을&nbsp;고려하여&nbsp;4년간&nbsp;단계적&nbsp;인상<br>&nbsp;&nbsp;&nbsp;&nbsp;②&nbsp;국제도시&nbsp;세종에&nbsp;걸맞는&nbsp;외국인&nbsp;영유아&nbsp;보육료&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;③&nbsp;부모&nbsp;보육료&nbsp;외&nbsp;‘추가&nbsp;부담금’(특별활동비,&nbsp;현장&nbsp;학습비&nbsp;등)&nbsp;지원&nbsp;방안&nbsp;강구<br>&nbsp;&nbsp;5.&nbsp;맞벌이&nbsp;부부의&nbsp;눈물&nbsp;닦아주는&nbsp;「세종형&nbsp;365&nbsp;완전&nbsp;돌봄&nbsp;생태계」&nbsp;구축<br>&nbsp;&nbsp;6.&nbsp;청소년&nbsp;국제&nbsp;교류재단&nbsp;설립<br>&nbsp;&nbsp;7.&nbsp;「국립체육영재학교」&nbsp;설치&nbsp;및&nbsp;「예술중학교」&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;8.&nbsp;청소년&nbsp;「창의와&nbsp;도전&nbsp;캠퍼스」&nbsp;운영<br>&nbsp;&nbsp;9.&nbsp;「세종형&nbsp;원어민&nbsp;글로벌&nbsp;방학&nbsp;캠프」&nbsp;운영<br>&nbsp;&nbsp;10.&nbsp;글로벌&nbsp;도전&nbsp;정신을&nbsp;키우는&nbsp;청소년&nbsp;단체(보이스카웃&nbsp;등)&nbsp;활성화&nbsp;지원<br>&nbsp;&nbsp;11.&nbsp;청소년&nbsp;창작&nbsp;AI&nbsp;영화&nbsp;비엔날레&nbsp;개최&nbsp;<br>&nbsp;&nbsp;12.&nbsp;「세종형&nbsp;청년&nbsp;일자리&nbsp;4대&nbsp;과정」&nbsp;개설&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;①&nbsp;기업&nbsp;참여형&nbsp;청년&nbsp;인력&nbsp;양성&nbsp;②&nbsp;청년&nbsp;한글&nbsp;교사&nbsp;과정&nbsp;개설&nbsp;운영&nbsp;③&nbsp;폴리텍대학&nbsp;국제기술교육센터에&nbsp;청년&nbsp;일자리&nbsp;과정&nbsp;개설&nbsp;운영&nbsp;④&nbsp;세종연구원(평생교육실)<br>&nbsp;&nbsp;13.&nbsp;청년주택&nbsp;1천호&nbsp;건립&nbsp;추진,&nbsp;월세&nbsp;지원&nbsp;대폭&nbsp;확대<br>&nbsp;&nbsp;14.&nbsp;청년&nbsp;자영업자&nbsp;경영(청년&nbsp;창업&nbsp;무이자&nbsp;대출,&nbsp;청년&nbsp;경영자금&nbsp;이차보전&nbsp;지원)<br>&nbsp;&nbsp;15.&nbsp;군&nbsp;전역&nbsp;청년&nbsp;「명예&nbsp;콘서트」로&nbsp;자긍심&nbsp;고취&nbsp;및&nbsp;취업&nbsp;지원<br>&nbsp;&nbsp;16.&nbsp;「세종&nbsp;청년&nbsp;서바이벌&nbsp;게임장」&nbsp;조성<br><br>□&nbsp;이행기간&nbsp;:&nbsp;&nbsp;2026&nbsp;.&nbsp;7.&nbsp;1&nbsp;∼&nbsp;2030.&nbsp;6.&nbsp;30(중장기&nbsp;계획은&nbsp;일정에&nbsp;맞게&nbsp;추진)<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;:&nbsp;국비(국가사업),&nbsp;지방비,&nbsp;민자,&nbsp;제3섹터&nbsp;방식&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	자족경제의 활발한 젊은 도시 세종을 건설하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="자족경제의 활발한 젊은 도시 세종을 건설하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;행정도시라는&nbsp;구조적인&nbsp;성격을&nbsp;극복,&nbsp;민생문제를&nbsp;해결하고&nbsp;자족경제의&nbsp;기틀을&nbsp;갖출&nbsp;수&nbsp;있는&nbsp;미래&nbsp;먹거리&nbsp;산업을&nbsp;성장시켜&nbsp;「활력있는&nbsp;젊은&nbsp;도시」가&nbsp;되기&nbsp;위한&nbsp;&nbsp;19개&nbsp;시책을&nbsp;추진하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;1.&nbsp;‘26년&nbsp;하반기&nbsp;내&nbsp;「소상공인&nbsp;긴급&nbsp;구조&nbsp;자금」&nbsp;(무이자&nbsp;대출&nbsp;200억원)&nbsp;지원<br>&nbsp;&nbsp;2.&nbsp;상가&nbsp;공실&nbsp;문제&nbsp;해소를&nbsp;위한&nbsp;「5대시책」&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;①&nbsp;상권별&nbsp;활성화&nbsp;방안&nbsp;도출&nbsp;및&nbsp;전문가&nbsp;특화&nbsp;전략&nbsp;②&nbsp;포켓&nbsp;주차장&nbsp;확충,&nbsp;안전펜스&nbsp;정비&nbsp;③업태별,&nbsp;개별적인&nbsp;맞춤형&nbsp;컨설팅&nbsp;④&nbsp;공실이&nbsp;밀집된&nbsp;지역은&nbsp;과감한&nbsp;용도&nbsp;변경&nbsp;추진&nbsp;⑤&nbsp;일반상업지역&nbsp;내&nbsp;미매각&nbsp;토지를&nbsp;상업용도&nbsp;이외의&nbsp;용도로&nbsp;변경<br>&nbsp;&nbsp;3.&nbsp;세종형&nbsp;「시민&nbsp;생활비&nbsp;절감&nbsp;3대&nbsp;사업」&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이응패스·여민전&nbsp;확대(1,500억→&nbsp;3,000억원),&nbsp;충청알뜰폰&nbsp;신규&nbsp;출시<br>&nbsp;&nbsp;4.&nbsp;「야간부시장」&nbsp;제도&nbsp;강화를&nbsp;통한&nbsp;야간경제&nbsp;활성화&nbsp;<br>&nbsp;&nbsp;5.&nbsp;「소상공인&nbsp;종합지원센터」&nbsp;기능&nbsp;확대<br>&nbsp;&nbsp;6.&nbsp;우체국&nbsp;쇼핑몰&nbsp;등&nbsp;온라인&nbsp;공공판로&nbsp;지원<br>&nbsp;&nbsp;7.&nbsp;100개의&nbsp;기업&nbsp;투자&nbsp;유치,&nbsp;일자리&nbsp;1만개&nbsp;창출<br>&nbsp;&nbsp;8.&nbsp;민·관&nbsp;협력&nbsp;「세종&nbsp;부동산&nbsp;정보&nbsp;플랫폼」으로&nbsp;거래촉진&nbsp;및&nbsp;자산가치&nbsp;제고<br>&nbsp;&nbsp;9.&nbsp;「세종청년취업박람회」&nbsp;정기적&nbsp;개최로&nbsp;일자리&nbsp;기회&nbsp;제공<br>&nbsp;&nbsp;10.&nbsp;중소기업·사회적경제기업&nbsp;전시,&nbsp;판로&nbsp;「세종&nbsp;상생누리」&nbsp;지원<br>&nbsp;&nbsp;11.&nbsp;중부권&nbsp;메가&nbsp;싱크탱크&nbsp;육성<br>&nbsp;&nbsp;12.&nbsp;대전·세종&nbsp;경제자유구역&nbsp;지정<br>&nbsp;&nbsp;13.&nbsp;세종테크밸리를&nbsp;창업벤처&nbsp;허브로&nbsp;집중&nbsp;육성<br>&nbsp;&nbsp;14.&nbsp;월하리&nbsp;비행장&nbsp;국방&nbsp;테마파크(서바이벌게임&nbsp;등)&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;15.&nbsp;행정수도의&nbsp;「MICE&nbsp;산업」을&nbsp;통해&nbsp;탄탄한&nbsp;경제&nbsp;기반을&nbsp;구축<br>&nbsp;&nbsp;16.&nbsp;한글을&nbsp;이용한&nbsp;새로운&nbsp;「한글문화산업」&nbsp;창출<br>&nbsp;&nbsp;17.&nbsp;2029년&nbsp;세종&nbsp;국제정원도시박람회&nbsp;개최<br>&nbsp;&nbsp;18.&nbsp;새로운&nbsp;문화&nbsp;소비&nbsp;트랜드를&nbsp;반영한&nbsp;「박물관&nbsp;중심&nbsp;문화산업」을&nbsp;육성<br>&nbsp;&nbsp;19.&nbsp;AI를&nbsp;기반으로&nbsp;한&nbsp;「스마트&nbsp;산업」&nbsp;육성<br><br>□&nbsp;이행기간&nbsp;:&nbsp;&nbsp;2026&nbsp;.&nbsp;7.&nbsp;1&nbsp;∼&nbsp;2030.&nbsp;6.&nbsp;30(중장기&nbsp;계획은&nbsp;일정에&nbsp;맞게&nbsp;추진)<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;:&nbsp;국비(국가사업),&nbsp;지방비,&nbsp;민자,&nbsp;제3섹터&nbsp;방식&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	「주 4일 근무 시대」를 여는 ‘한국 최초 AI 혁신도시 세종’을 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="「주 4일 근무 시대」를 여는 ‘한국 최초 AI 혁신도시 세종’을 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;행정수도를&nbsp;뛰어넘어&nbsp;「주&nbsp;4일&nbsp;근무&nbsp;시대」를&nbsp;열어&nbsp;가는&nbsp;‘AI&nbsp;시대의&nbsp;미래&nbsp;전략&nbsp;도시&nbsp;세종’이&nbsp;되기&nbsp;위한&nbsp;15개&nbsp;시책을&nbsp;추진하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;1.&nbsp;행정·기업&nbsp;민원을&nbsp;「AI가&nbsp;처리하는&nbsp;시스템」으로&nbsp;전환<br>&nbsp;&nbsp;2.&nbsp;「정책&nbsp;시뮬레이션&nbsp;기반」&nbsp;사전&nbsp;검증&nbsp;시스템으로&nbsp;낭비&nbsp;없는&nbsp;시정&nbsp;실현<br>&nbsp;&nbsp;3.&nbsp;「주&nbsp;4일&nbsp;근무&nbsp;시대」를&nbsp;세종에서&nbsp;시작할&nbsp;수&nbsp;있는&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;4.&nbsp;도시가&nbsp;스스로&nbsp;판단하는&nbsp;‘지능형&nbsp;도시’구현<br>&nbsp;&nbsp;5.&nbsp;「AI&nbsp;재난&nbsp;안전관리&nbsp;시스템」을&nbsp;구축으로&nbsp;전국&nbsp;제일의&nbsp;안전&nbsp;도시&nbsp;정착<br>&nbsp;&nbsp;6.&nbsp;「빅데이터&nbsp;기반」&nbsp;지역경제&nbsp;운영체계&nbsp;구축<br>&nbsp;&nbsp;7.&nbsp;「체류형&nbsp;소비&nbsp;도시」&nbsp;유도&nbsp;전략&nbsp;(체류형&nbsp;소비분석&nbsp;시스템&nbsp;구축&nbsp;등)&nbsp;마련&nbsp;<br>&nbsp;&nbsp;8.&nbsp;상권별&nbsp;맞춤형&nbsp;정책지원·평가&nbsp;및&nbsp;환류&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;9.&nbsp;AI&nbsp;분석에&nbsp;따른&nbsp;‘소상공인&nbsp;경영’&nbsp;지원<br>&nbsp;&nbsp;10.&nbsp;AI거브테크(정부+기술)&nbsp;산업&nbsp;육성<br>&nbsp;&nbsp;11.&nbsp;AI&nbsp;산업&nbsp;클러스터(로봇산업,&nbsp;양자컴퓨터산업,&nbsp;자율주행차&nbsp;시범도시)&nbsp;조성<br>&nbsp;&nbsp;12.&nbsp;공무원&nbsp;AI&nbsp;업무&nbsp;의무&nbsp;교육&nbsp;제도&nbsp;전면&nbsp;도입&nbsp;<br>&nbsp;&nbsp;13.&nbsp;시민&nbsp;누구나&nbsp;AI를&nbsp;활용할&nbsp;수&nbsp;있는&nbsp;평생교육&nbsp;확대<br>&nbsp;&nbsp;14.&nbsp;「세종특별시&nbsp;인공지능&nbsp;운영&nbsp;및&nbsp;지원에&nbsp;관한&nbsp;조례」&nbsp;제정<br>&nbsp;&nbsp;15.&nbsp;「AI&nbsp;혁신센터&nbsp;설립」&nbsp;인공지능&nbsp;정책의&nbsp;주축으로&nbsp;역할토록&nbsp;보장<br><br>□&nbsp;이행기간&nbsp;:&nbsp;&nbsp;2026&nbsp;.&nbsp;7.&nbsp;1&nbsp;∼&nbsp;2030.&nbsp;6.&nbsp;30(중장기&nbsp;계획은&nbsp;일정에&nbsp;맞게&nbsp;추진)<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;:&nbsp;국비(국가사업),&nbsp;지방비,&nbsp;민자,&nbsp;제3섹터&nbsp;방식&nbsp;등</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

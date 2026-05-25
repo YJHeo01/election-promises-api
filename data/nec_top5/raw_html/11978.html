@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이현재 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	이현재가 시작한 하남 지하철, 5철시대 완성 총력</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="이현재가 시작한 하남 지하철, 5철시대 완성 총력">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ‘5호선&nbsp;유치’,&nbsp;‘9호선&nbsp;확정’&nbsp;하남지하철&nbsp;주역&nbsp;이현재가&nbsp;△9·3호선&nbsp;적기개통&nbsp;△위례신사선&nbsp;하남연장&nbsp;△GTX-D&nbsp;황산&nbsp;경유&nbsp;△5호선&nbsp;배차시간&nbsp;5분대&nbsp;단축으로&nbsp;하남지하철&nbsp;5철시대를&nbsp;완성하고,&nbsp;광역환승센터를&nbsp;중심으로&nbsp;광역·지역간&nbsp;연계&nbsp;교통체계를&nbsp;구축하는&nbsp;SUPER(초)&nbsp;광역교통체계&nbsp;완성<br><br>□&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;5호선&nbsp;배차시간&nbsp;5분대&nbsp;단축<br>&nbsp;&nbsp;○&nbsp;9호선&nbsp;강일~미사&nbsp;선개통(2031년),&nbsp;무빙워크,&nbsp;지하&nbsp;보행로&nbsp;연결&nbsp;등&nbsp;주민요구&nbsp;반영&nbsp;<br>&nbsp;&nbsp;○&nbsp;3호선&nbsp;적기개통(2032년)&nbsp;및&nbsp;단샘초&nbsp;출구&nbsp;연장,&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만남의광장&nbsp;드림휴게소&nbsp;보행통로&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;위례신사선&nbsp;하남&nbsp;연장&nbsp;추진&nbsp;총력&nbsp;<br>&nbsp;&nbsp;○&nbsp;GTX-D&nbsp;국가&nbsp;철도망&nbsp;계획반영&nbsp;및&nbsp;황산사거리&nbsp;경유&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;단절없는&nbsp;지역간&nbsp;연계&nbsp;도로망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광역도로&nbsp;신설,&nbsp;순환버스&nbsp;노선&nbsp;신설,&nbsp;황산~초이&nbsp;간&nbsp;도로&nbsp;연장<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;9호선:&nbsp;2공구&nbsp;재분할(한강이남,&nbsp;한강~다산지구)&nbsp;및&nbsp;사업자&nbsp;선정&nbsp;조속&nbsp;추진으로&nbsp;‘강일~미사’&nbsp;선개통&nbsp;추진&nbsp;및&nbsp;944정거장&nbsp;출입구(약580m)&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;3호선:&nbsp;교산지구&nbsp;입주&nbsp;전&nbsp;선개통&nbsp;및&nbsp;원도심과&nbsp;104정거장&nbsp;보행테크&nbsp;최단거리&nbsp;설치&nbsp;및&nbsp;101정거장&nbsp;출입구&nbsp;연장&nbsp;설치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;위례신사선:&nbsp;위례중앙역~위례하남~감일지구(3호선&nbsp;101정거장)&nbsp;5km&nbsp;3개소&nbsp;연장안을&nbsp;제5차&nbsp;광역교통시행계획&nbsp;반영<br>&nbsp;&nbsp;○&nbsp;GTX-D:&nbsp;제5차&nbsp;국가철도망&nbsp;구축계획에&nbsp;하남시&nbsp;연장을&nbsp;반영하고,&nbsp;세부&nbsp;계획수립&nbsp;시&nbsp;황산사거리&nbsp;경유를&nbsp;추진,&nbsp;하남지하철&nbsp;5철&nbsp;시대를&nbsp;완성&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;광역도로&nbsp;신설(동서축,&nbsp;남북축)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동서축:&nbsp;서울&nbsp;송파↔감북↔초이↔교산↔천현동&nbsp;(동서)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;남북축:&nbsp;위례·감일↔교산↔원도심↔미사&nbsp;(남북)<br>&nbsp;&nbsp;○&nbsp;순환버스&nbsp;노선&nbsp;신설:&nbsp;미사↔초이↔감북↔감일↔위례↔교산↔덕풍동↔신장동<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;3·9호선:&nbsp;임기&nbsp;내&nbsp;착공,&nbsp;위례신사선·GTX-D&nbsp;임기&nbsp;내&nbsp;확정<br>&nbsp;&nbsp;○&nbsp;동서축:&nbsp;‘32년&nbsp;준공,&nbsp;남북축:&nbsp;취임후&nbsp;지속&nbsp;검토&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;운행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;3·9호선&nbsp;국비확보,&nbsp;기타&nbsp;출입구&nbsp;개설&nbsp;등&nbsp;시비&nbsp;조달<br>&nbsp;&nbsp;○&nbsp;지역간&nbsp;연계&nbsp;도로망&nbsp;구축:&nbsp;국·도비&nbsp;확보&nbsp;및&nbsp;시비&nbsp;조달<br>&nbsp;&nbsp;○&nbsp;시비&nbsp;조달</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	2030년 10조 원 투자 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="2030년 10조 원 투자 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            하남시&nbsp;최초&nbsp;종합병원인&nbsp;△연세하남병원&nbsp;유치&nbsp;△캠프&nbsp;콜번&nbsp;△교산&nbsp;AI&nbsp;혁신&nbsp;클러스터&nbsp;조성,&nbsp;대기업&nbsp;유치&nbsp;등을&nbsp;통해&nbsp;하남을&nbsp;수도권&nbsp;최고의&nbsp;경제&nbsp;거점이자&nbsp;직주락&nbsp;도시를&nbsp;완성하고자&nbsp;함.<br><br>[연세하남병원&nbsp;유치]<br>□&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;하남시&nbsp;최초&nbsp;종합병원&nbsp;유치를&nbsp;통해&nbsp;응급의료&nbsp;등&nbsp;필수&nbsp;의료&nbsp;역량&nbsp;강화&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;필수&nbsp;진료과목(정형외과,소아과,내과&nbsp;등)&nbsp;다양화,&nbsp;응급실&nbsp;10개실,&nbsp;음압병실&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;‘27.&nbsp;하반기&nbsp;준공을&nbsp;목표로&nbsp;정상&nbsp;공정&nbsp;추진&nbsp;중(‘28.&nbsp;개원&nbsp;예정)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민간자본&nbsp;활용<br><br>[캠프콜번]<br>□&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;20년간&nbsp;방치되었던&nbsp;캠프콜번&nbsp;부지는&nbsp;민선&nbsp;8기&nbsp;들어&nbsp;사업&nbsp;방식&nbsp;확정&nbsp;및&nbsp;공모&nbsp;조건&nbsp;정비를&nbsp;통해&nbsp;‘26년&nbsp;2월&nbsp;우선협상대상자가&nbsp;선정되었고&nbsp;종합쇼핑몰,&nbsp;문화·유통시설,&nbsp;업무시설이&nbsp;결합된&nbsp;복합도시공간을&nbsp;조성하고자&nbsp;함<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;내&nbsp;출자타당성&nbsp;검토&nbsp;및&nbsp;SPC&nbsp;설립&nbsp;완료&nbsp;예정.&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;GB&nbsp;해제,&nbsp;2028년&nbsp;도시개발구역&nbsp;지정을&nbsp;거쳐&nbsp;2029년&nbsp;착공,&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2030년&nbsp;완공을&nbsp;목표로&nbsp;함.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민관합동&nbsp;사업&nbsp;방식&nbsp;(총사업비&nbsp;약&nbsp;2,800억&nbsp;원)<br><br>[교산AI클러스터&nbsp;조성]<br>□&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;AI,&nbsp;디지털,&nbsp;문화콘텐츠&nbsp;산업&nbsp;등&nbsp;미래&nbsp;성장&nbsp;분야의&nbsp;우량&nbsp;기업을&nbsp;유치하여&nbsp;청년&nbsp;선호도가&nbsp;높은&nbsp;양질의&nbsp;일자리를&nbsp;창출.&nbsp;AI&nbsp;중심의&nbsp;인재&nbsp;양성과&nbsp;기업&nbsp;연계&nbsp;시스템을&nbsp;구축하고,&nbsp;창업에서&nbsp;성장까지&nbsp;지원하는&nbsp;대규모&nbsp;스타트업&nbsp;단지를&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;’25.12.&nbsp;포스텍,&nbsp;카네기멜론,&nbsp;KT&nbsp;클라우드&nbsp;등&nbsp;컨소시엄&nbsp;선정<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년말&nbsp;컨소시엄&nbsp;토지매매&nbsp;체결&nbsp;및&nbsp;인허가&nbsp;후&nbsp;2027년&nbsp;착공<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국책&nbsp;사업&nbsp;연계&nbsp;예산&nbsp;확보,&nbsp;지자체&nbsp;미래산업&nbsp;육성&nbsp;기금&nbsp;활용,&nbsp;교산신도시&nbsp;자족용지&nbsp;개발&nbsp;관련&nbsp;대규모&nbsp;민간&nbsp;자본&nbsp;유치(2030년까지&nbsp;10조&nbsp;원&nbsp;목표)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	최고의 교육, 2030년 주요대학 합격자 1000명 시대 달성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="최고의 교육, 2030년 주요대학 합격자 1000명 시대 달성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            하남교육지원청&nbsp;신설로&nbsp;독자적인&nbsp;교육&nbsp;행정&nbsp;체계&nbsp;구축과&nbsp;주요대학&nbsp;입학&nbsp;1,000명&nbsp;시대&nbsp;달성을&nbsp;위한&nbsp;△‘학생&nbsp;실력&nbsp;키우기’&nbsp;△‘미래&nbsp;인재&nbsp;특화&nbsp;교육’&nbsp;지원&nbsp;△고교&nbsp;석식비&nbsp;지원&nbsp;등을&nbsp;강화하고,&nbsp;권역별&nbsp;영어도서관&nbsp;캠퍼스&nbsp;신설,&nbsp;‘도서관&nbsp;문해력&nbsp;교실’&nbsp;등&nbsp;운영으로&nbsp;아이들의&nbsp;잠재력을&nbsp;꽃피우는&nbsp;교육&nbsp;선진&nbsp;도시&nbsp;완성<br><br>[주요대학&nbsp;합격자&nbsp;1,000명&nbsp;시대&nbsp;달성&nbsp;및&nbsp;미래&nbsp;인재&nbsp;육성]<br>□&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;고교&nbsp;경쟁력&nbsp;강화를&nbsp;통한&nbsp;주요&nbsp;대학&nbsp;입학&nbsp;인원&nbsp;1,000명&nbsp;시대&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;특성화고&nbsp;및&nbsp;자율형&nbsp;공립고&nbsp;지원을&nbsp;통한&nbsp;미래&nbsp;인재&nbsp;특화&nbsp;교육&nbsp;기반&nbsp;마련<br><br>□&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;○&nbsp;‘학생&nbsp;실력&nbsp;키우기’,&nbsp;‘미래&nbsp;인재&nbsp;특화&nbsp;교육’&nbsp;지원&nbsp;확대&nbsp;(총&nbsp;20억&nbsp;원&nbsp;규모)<br>&nbsp;&nbsp;○&nbsp;고교&nbsp;석식비&nbsp;지원&nbsp;사업(연&nbsp;3억&nbsp;원)&nbsp;단계적&nbsp;증액&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;특성화&nbsp;교육&nbsp;강화:&nbsp;자율형&nbsp;공립고&nbsp;2.0(남한고),&nbsp;경기형&nbsp;과학중점학교(미사강변고),&nbsp;지역연계&nbsp;상생형&nbsp;특성화고(하남경영고)&nbsp;지원&nbsp;확대<br><br>□&nbsp;이행기간:&nbsp;2026.&nbsp;7.&nbsp;~&nbsp;2030.&nbsp;6.&nbsp;(임기&nbsp;내,&nbsp;지속)<br><br>□&nbsp;재원조달방안:&nbsp;시비(교육지원경비&nbsp;약&nbsp;230억&nbsp;원),&nbsp;경기도교육청&nbsp;협력&nbsp;예산&nbsp;확보<br><br>[독립&nbsp;교육지원청&nbsp;신설&nbsp;및&nbsp;영재교육&nbsp;인프라&nbsp;구축]<br>□&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;하남&nbsp;교육의&nbsp;독립성과&nbsp;전문성&nbsp;확보를&nbsp;위한&nbsp;‘하남교육지원청’&nbsp;단독&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;창의적&nbsp;미래&nbsp;인재&nbsp;양성을&nbsp;위한&nbsp;‘하남영재교육원’&nbsp;설립<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;교육지원청&nbsp;신설:&nbsp;하남교육지원청&nbsp;분리·신설&nbsp;추진(광주하남교육지원청)<br>&nbsp;&nbsp;○&nbsp;영재교육원&nbsp;설립:&nbsp;설립&nbsp;계획&nbsp;수립&nbsp;및&nbsp;2028년&nbsp;개원&nbsp;목표&nbsp;추진<br><br>□&nbsp;이행기간:&nbsp;교육지원청&nbsp;신설(2026.&nbsp;하반기&nbsp;완료),&nbsp;영재교육원&nbsp;설립(2028.&nbsp;개원)<br><br>□&nbsp;재원조달방안:&nbsp;국비,&nbsp;도교육청&nbsp;예산&nbsp;및&nbsp;시비&nbsp;매칭<br><br>[어린이&nbsp;영어특화&nbsp;교육&nbsp;및&nbsp;문해력&nbsp;향상&nbsp;지원]<br>□&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;인재&nbsp;양성을&nbsp;위한&nbsp;영어&nbsp;교육&nbsp;인프라&nbsp;확충&nbsp;및&nbsp;기초&nbsp;학력(문해력)&nbsp;강화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;영어특화도서관:&nbsp;2026년&nbsp;10월&nbsp;개관,&nbsp;영어캠퍼스&nbsp;권역별(원도심,&nbsp;감일,&nbsp;위례)&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;문해력&nbsp;교실:&nbsp;5개&nbsp;거점도서관(신장,&nbsp;나룰,&nbsp;미사,&nbsp;감일,&nbsp;위례)<br><br>□&nbsp;이행기간:&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;2027.&nbsp;12.&nbsp;(도서관&nbsp;개관&nbsp;및&nbsp;프로그램&nbsp;조기&nbsp;정착)<br><br>□&nbsp;재원조달방안:&nbsp;시비,&nbsp;문화체육관광부&nbsp;국비&nbsp;지원&nbsp;사업&nbsp;공모<br><br>[교육환경&nbsp;개선&nbsp;및&nbsp;과밀학급&nbsp;해소]<br>□&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;학교&nbsp;신설&nbsp;및&nbsp;과밀학급&nbsp;해소,&nbsp;통학&nbsp;편의를&nbsp;위한&nbsp;학생&nbsp;통학&nbsp;전용&nbsp;버스&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;미사4고&nbsp;2027년&nbsp;3월&nbsp;적기&nbsp;개교&nbsp;및&nbsp;교산&nbsp;학교복합시설(돌봄센터+수영장)&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;‘도심형&nbsp;캠퍼스&nbsp;협의체’&nbsp;운영,&nbsp;학생&nbsp;통학&nbsp;순환버스&nbsp;확대(5대→11대)<br><br>□&nbsp;이행기간:&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;2030.&nbsp;06.&nbsp;(단계적&nbsp;시행)<br><br>□&nbsp;재원조달방안:&nbsp;시비,&nbsp;LH공사(교산&nbsp;학교복합시설),&nbsp;교육청&nbsp;예산(학교&nbsp;신설)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	K-스타월드 및 국가정원 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="K-스타월드 및 국가정원 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            미사&nbsp;아일랜드&nbsp;내&nbsp;K-스타월드&nbsp;조성과&nbsp;이와&nbsp;연계한&nbsp;국가&nbsp;정원&nbsp;조성&nbsp;본격화<br><br>[K-스타월드(K-컬처&nbsp;복합콤플렉스)&nbsp;조성]<br>□&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;영상·공연·콘텐츠&nbsp;산업&nbsp;중심의&nbsp;K-컬처&nbsp;특구를&nbsp;조성으로&nbsp;공연&nbsp;문화&nbsp;중심도시&nbsp;도약<br>&nbsp;&nbsp;○&nbsp;약&nbsp;3만&nbsp;개의&nbsp;양질의&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;연간&nbsp;2조&nbsp;5,000억&nbsp;원의&nbsp;경제&nbsp;파급효과&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;사업규모:&nbsp;하남시&nbsp;미사동(미사섬)&nbsp;일원&nbsp;약&nbsp;118만㎡&nbsp;(SPC&nbsp;방식으로&nbsp;추진)<br>&nbsp;&nbsp;○&nbsp;주요시설:&nbsp;2~3만&nbsp;석&nbsp;규모&nbsp;대형&nbsp;공연장,&nbsp;영상문화&nbsp;산업단지&nbsp;등<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;06월:&nbsp;사업참여의향서&nbsp;접수&nbsp;및&nbsp;민간참여자&nbsp;공모<br>&nbsp;&nbsp;○&nbsp;2028년:&nbsp;GB&nbsp;해제&nbsp;고시&nbsp;및&nbsp;도시개발사업&nbsp;인허가&nbsp;완료<br>&nbsp;&nbsp;○&nbsp;2029년:&nbsp;토지&nbsp;보상&nbsp;실시&nbsp;및&nbsp;단지&nbsp;조성공사&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;2030년:&nbsp;K-공연장(아레나)&nbsp;건축&nbsp;착공<br><br>□&nbsp;재원조달방안:&nbsp;약&nbsp;13조&nbsp;원<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;자본&nbsp;및&nbsp;외자&nbsp;유치:&nbsp;대규모&nbsp;민간&nbsp;투자(SPC)를&nbsp;통한&nbsp;사업비&nbsp;조달<br><br>[국가정원&nbsp;조성]<br>□&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;미사동&nbsp;둔치&nbsp;일원의&nbsp;우수한&nbsp;자연경관을&nbsp;활용한&nbsp;대표적인&nbsp;국가정원&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;위&nbsp;&nbsp;&nbsp;&nbsp;치:&nbsp;미사동&nbsp;일원&nbsp;약&nbsp;93만㎡&nbsp;(당정둔치,&nbsp;신장둔치,&nbsp;당정근린공원&nbsp;포함)<br>&nbsp;&nbsp;○&nbsp;주요시설:&nbsp;캠핑장,&nbsp;5개&nbsp;테마별&nbsp;주제공원,&nbsp;시민&nbsp;참여형&nbsp;정원&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경기도&nbsp;'2026&nbsp;정원문화산업&nbsp;종합계획'&nbsp;반영을&nbsp;통한&nbsp;광역&nbsp;단위&nbsp;지원&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산림청&nbsp;'국가정원&nbsp;예정지&nbsp;지정'&nbsp;및&nbsp;조성계획&nbsp;승인&nbsp;절차&nbsp;이행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2027년:&nbsp;정원진흥기본계획&nbsp;수립&nbsp;및&nbsp;경기도&nbsp;종합계획&nbsp;반영&nbsp;완료<br>&nbsp;&nbsp;○&nbsp;2029년:&nbsp;정원&nbsp;조성계획&nbsp;수립·승인&nbsp;및&nbsp;영향평가,&nbsp;인허가&nbsp;절차&nbsp;완료<br>&nbsp;&nbsp;○&nbsp;2030년:&nbsp;미사동&nbsp;국가정원&nbsp;최종&nbsp;개장<br><br>□&nbsp;재원조달방안:&nbsp;총&nbsp;소요예산:&nbsp;약&nbsp;800억&nbsp;원(국가정원&nbsp;지정&nbsp;기준)<br>&nbsp;&nbsp;○&nbsp;지방정원&nbsp;우선&nbsp;추진&nbsp;시:&nbsp;10만㎡&nbsp;당&nbsp;약&nbsp;230억&nbsp;원&nbsp;소요&nbsp;예상<br>&nbsp;&nbsp;○&nbsp;조달&nbsp;방식<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비&nbsp;지원:&nbsp;산림청&nbsp;국가정원&nbsp;조성&nbsp;및&nbsp;운영&nbsp;예산&nbsp;확보&nbsp;(전액&nbsp;또는&nbsp;매칭)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도비&nbsp;및&nbsp;시비:&nbsp;경기도&nbsp;정원산업&nbsp;관련&nbsp;예산,&nbsp;하남시&nbsp;환경개선&nbsp;특별회계&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	세대를 아우르는 맞춤형 복지</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="세대를 아우르는 맞춤형 복지">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            아이부터&nbsp;어르신까지&nbsp;소외&nbsp;없는&nbsp;전&nbsp;생애주기별&nbsp;맞춤형&nbsp;핀셋&nbsp;복지&nbsp;실현으로&nbsp;촘촘한&nbsp;돌봄망과&nbsp;두터운&nbsp;경제적&nbsp;지원을&nbsp;통해&nbsp;'시민&nbsp;모두가&nbsp;존중받고&nbsp;노후가&nbsp;품격&nbsp;있는&nbsp;복지&nbsp;중심&nbsp;도시&nbsp;하남'&nbsp;실현.&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;환경&nbsp;조성&nbsp;및&nbsp;청소년과&nbsp;청년들의&nbsp;꿈과&nbsp;자립을&nbsp;힘껏&nbsp;돕고&nbsp;차별&nbsp;없는&nbsp;복지를&nbsp;실현<br>&nbsp;<br>[임신·출산·다자녀&nbsp;가정:&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;환경&nbsp;조성]<br>□&nbsp;목표:&nbsp;출산&nbsp;및&nbsp;양육의&nbsp;경제적&nbsp;부담을&nbsp;획기적으로&nbsp;낮추고,&nbsp;건강한&nbsp;가족&nbsp;형성&nbsp;지원<br><br>□&nbsp;이행방법:&nbsp;산후조리비&nbsp;150만&nbsp;원으로&nbsp;확대,&nbsp;출산장려금&nbsp;증액(최대&nbsp;2,000만&nbsp;원)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;원도심&nbsp;심야&nbsp;어린이병원&nbsp;확대,&nbsp;자녀&nbsp;이상&nbsp;가구&nbsp;수도요금&nbsp;감면(’26.&nbsp;7.)<br><br>□&nbsp;이행기간:&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;2030.&nbsp;06.&nbsp;(임기&nbsp;내&nbsp;지속)<br><br>□&nbsp;재원조달방안:&nbsp;시비&nbsp;및&nbsp;도비&nbsp;매칭<br><br>[유아~초등학생:&nbsp;공백&nbsp;없는&nbsp;365일&nbsp;돌봄&nbsp;시스템]<br>□&nbsp;목표:&nbsp;부모의&nbsp;일·가정&nbsp;양립을&nbsp;위한&nbsp;고품격&nbsp;보육&nbsp;인프라&nbsp;및&nbsp;24시간&nbsp;돌봄&nbsp;체계&nbsp;구축<br><br>□&nbsp;이행방법:&nbsp;어린이&nbsp;영어특화도서관(’26.&nbsp;10.),&nbsp;어린이&nbsp;회관(’27.&nbsp;10.&nbsp;키자니아&nbsp;협업)&nbsp;개관<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;야간&nbsp;긴급돌봄(24:00~07:00),&nbsp;휴일돌봄,&nbsp;위례&nbsp;다함께돌봄센터&nbsp;신설<br><br>□&nbsp;이행기간:&nbsp;임기&nbsp;중<br><br>□&nbsp;재원조달방안:&nbsp;하남시&nbsp;교육경비,&nbsp;국·도비&nbsp;공모사업&nbsp;확보<br><br>[청소년·청년:&nbsp;미래&nbsp;세대의&nbsp;자립과&nbsp;성장&nbsp;지원]<br>□&nbsp;목표:&nbsp;청년의&nbsp;경제적&nbsp;자립&nbsp;기반&nbsp;마련과&nbsp;청소년의&nbsp;건강한&nbsp;자아&nbsp;성장&nbsp;조력<br><br>□&nbsp;이행방법:&nbsp;청년&nbsp;교통비(연&nbsp;24만원),&nbsp;성년&nbsp;축하금(30만원),&nbsp;스터디카페&nbsp;이용료(월&nbsp;3만원)<br><br>□&nbsp;이행기간:&nbsp;임기&nbsp;중<br><br>□&nbsp;재원조달방안:&nbsp;시비&nbsp;및&nbsp;국도비<br><br>[어르신복지(존엄하고&nbsp;활기찬&nbsp;노후&nbsp;보장)]<br>□&nbsp;목표:&nbsp;건강,&nbsp;이동권,&nbsp;생활&nbsp;편의를&nbsp;모두&nbsp;갖춘&nbsp;초고령&nbsp;사회&nbsp;대비&nbsp;안전망&nbsp;구축<br><br>□&nbsp;이행방법:&nbsp;권역별&nbsp;시니어헬스센터,&nbsp;치매&nbsp;진료비(연&nbsp;36만원),&nbsp;독감&nbsp;무료접종&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;효기동대(긴급&nbsp;출동&nbsp;서비스),&nbsp;어르신&nbsp;교통비&nbsp;증액(’30.&nbsp;30만원)&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;하남·광주&nbsp;공동&nbsp;종합장사시설(화장장)&nbsp;건립&nbsp;추진(’31.&nbsp;준공&nbsp;목표)<br><br>□&nbsp;이행기간:&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;2030.<br><br>□&nbsp;재원조달방안:&nbsp;시비&nbsp;및&nbsp;광주시&nbsp;공동&nbsp;분담,&nbsp;보건복지부&nbsp;국비&nbsp;확보<br><br>[장애인·다문화·반려동물:&nbsp;포용적&nbsp;복지&nbsp;및&nbsp;공존&nbsp;문화]<br>□&nbsp;목표:&nbsp;사회적&nbsp;약자의&nbsp;이동권&nbsp;보장과&nbsp;다문화&nbsp;가정&nbsp;정착,&nbsp;성숙한&nbsp;반려&nbsp;문화&nbsp;조성<br><br>□&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;○&nbsp;장애인:&nbsp;경증장애인&nbsp;교통비(연&nbsp;24만원),&nbsp;반다비&nbsp;체육관&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;다문화:&nbsp;특성화&nbsp;사업&nbsp;예산&nbsp;증액(3억),&nbsp;멘토링&nbsp;및&nbsp;고향&nbsp;방문&nbsp;사업&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;반려동물:&nbsp;반려동물&nbsp;보험가입비&nbsp;50%&nbsp;지원,&nbsp;공공형&nbsp;위탁&nbsp;돌봄&nbsp;서비스(명절/휴가철)<br><br>□&nbsp;이행기간:&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;2032.&nbsp;(체육관&nbsp;준공&nbsp;등&nbsp;중장기)<br><br>□&nbsp;재원조달방안:&nbsp;시비&nbsp;및&nbsp;국비(반다비&nbsp;체육관)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

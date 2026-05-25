@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;류봉진 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	“군민이 주인인 고흥”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="“군민이 주인인 고흥”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;군민이&nbsp;직접&nbsp;참여하는&nbsp;열린&nbsp;행정&nbsp;실현<br>&nbsp;&nbsp;&nbsp;읍·면&nbsp;현장&nbsp;중심의&nbsp;생활행정&nbsp;강화<br>&nbsp;&nbsp;&nbsp;투명하고&nbsp;공정한&nbsp;공개&nbsp;행정&nbsp;구축<br>&nbsp;&nbsp;&nbsp;군민과&nbsp;상시&nbsp;소통하는&nbsp;행정체계&nbsp;마련<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;군민참여위원회&nbsp;설치&nbsp;및&nbsp;정책&nbsp;참여&nbsp;확대<br>&nbsp;&nbsp;&nbsp;읍·면장&nbsp;주민숙원사업&nbsp;시행으로&nbsp;권한과&nbsp;책임&nbsp;환원<br>&nbsp;&nbsp;&nbsp;주민숙원사업&nbsp;예산·공정&nbsp;공개<br>&nbsp;&nbsp;&nbsp;군수&nbsp;집무상황&nbsp;군수실앞&nbsp;CCTV&nbsp;공개로&nbsp;열린&nbsp;군수실&nbsp;운영&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;취임&nbsp;즉시&nbsp;군민소통&nbsp;체계&nbsp;구축&nbsp;(내외부&nbsp;이메일&nbsp;소통강화)<br>&nbsp;&nbsp;&nbsp;1년&nbsp;내&nbsp;참여위원회·청원시스템&nbsp;운영<br>&nbsp;&nbsp;&nbsp;2년&nbsp;내&nbsp;읍·면&nbsp;반기별&nbsp;순회회의&nbsp;정착<br>&nbsp;&nbsp;&nbsp;임기&nbsp;내&nbsp;주민참여&nbsp;예산&nbsp;전면&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;행사성&nbsp;예산&nbsp;조정&nbsp;및&nbsp;행정예산&nbsp;효율화<br>&nbsp;&nbsp;&nbsp;국·도비&nbsp;공모사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;&nbsp;민관&nbsp;협력체계&nbsp;구축&nbsp;및&nbsp;군민&nbsp;참여&nbsp;확대</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	“돈이 도는 고흥”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="“돈이 도는 고흥”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농수축산업&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;상권&nbsp;및&nbsp;전통시장&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;보호&nbsp;및&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유통&nbsp;혁신&nbsp;관내&nbsp;협동조합과의&nbsp;협력기반&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역발전위원회&nbsp;구성&nbsp;및&nbsp;경제정책&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농수산물&nbsp;유통혁신센터&nbsp;구축&nbsp;및&nbsp;온라인&nbsp;판매&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;경영안정자금&nbsp;및&nbsp;골목상권&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년창업&nbsp;공간&nbsp;조성&nbsp;및&nbsp;귀농·귀촌&nbsp;지원&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취임&nbsp;즉시&nbsp;지역경제&nbsp;활성화&nbsp;대책&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1년&nbsp;내&nbsp;유통혁신&nbsp;및&nbsp;소상공인&nbsp;지원체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;청년창업&nbsp;및&nbsp;지역상권&nbsp;활성화&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역경제&nbsp;활성화&nbsp;예산&nbsp;우선&nbsp;편성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국·도비&nbsp;공모사업&nbsp;및&nbsp;정책자금&nbsp;확보&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;협력&nbsp;및&nbsp;지역&nbsp;투자&nbsp;연계&nbsp;추진<br><br>□&nbsp;기대효과<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민&nbsp;실질소득&nbsp;증가<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;자금의&nbsp;외부&nbsp;유출&nbsp;감소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;경제활동&nbsp;및&nbsp;창업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지속가능한&nbsp;지역경제&nbsp;선순환&nbsp;구조&nbsp;형성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	“미래 먹거리를 만드는 고흥”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="“미래 먹거리를 만드는 고흥”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우주항공&nbsp;산업&nbsp;기반&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·드론&nbsp;산업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래형&nbsp;청년&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트&nbsp;농수산업&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우주항공&nbsp;연계&nbsp;산업단지&nbsp;조성&nbsp;및&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;드론·AI&nbsp;실증특구&nbsp;추진&nbsp;및&nbsp;스마트&nbsp;산업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;기술인재&nbsp;양성&nbsp;및&nbsp;취업&nbsp;연계&nbsp;교육&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트팜·AI&nbsp;양식&nbsp;등&nbsp;미래형&nbsp;농수산업&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취임&nbsp;즉시&nbsp;미래산업&nbsp;추진단&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1년&nbsp;내&nbsp;기업&nbsp;유치&nbsp;및&nbsp;인재양성&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;스마트&nbsp;산업&nbsp;및&nbsp;농수산업&nbsp;전환&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국책사업&nbsp;및&nbsp;공모사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국·도비&nbsp;및&nbsp;민간투자&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산학연&nbsp;협력체계&nbsp;구축<br><br>□&nbsp;기대효과<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래형&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;인구&nbsp;유입&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첨단산업&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고흥&nbsp;미래&nbsp;성장동력&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	 “머물고 싶은 고흥”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title=" “머물고 싶은 고흥”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            -추진&nbsp;배경<br>고흥은&nbsp;아름다운&nbsp;자연환경과&nbsp;역사·문화&nbsp;자원을&nbsp;보유하고&nbsp;있지만&nbsp;체류형&nbsp;관광&nbsp;인프라가&nbsp;부족합니다.&nbsp;문화와&nbsp;관광을&nbsp;지역경제와&nbsp;연결해&nbsp;다시&nbsp;찾고&nbsp;머물고&nbsp;싶은&nbsp;고흥을&nbsp;만들겠습니다.<br><br>□&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체류형&nbsp;관광&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;문화콘텐츠&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해양관광&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;축제&nbsp;경쟁력&nbsp;강화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해양·우주&nbsp;관광벨트&nbsp;조성&nbsp;및&nbsp;관광코스&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;예술인&nbsp;및&nbsp;지역&nbsp;문화공연&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사계절&nbsp;축제&nbsp;및&nbsp;야간관광&nbsp;콘텐츠&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;캠핑·카라반·해양레저&nbsp;등&nbsp;관광&nbsp;인프라&nbsp;확충<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취임&nbsp;즉시&nbsp;관광&nbsp;활성화&nbsp;추진단&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1년&nbsp;내&nbsp;관광콘텐츠&nbsp;및&nbsp;축제&nbsp;개선&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;체류형&nbsp;관광&nbsp;인프라&nbsp;단계적&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화관광&nbsp;공모사업&nbsp;및&nbsp;국·도비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;투자&nbsp;및&nbsp;지역&nbsp;연계사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광특화사업&nbsp;예산&nbsp;우선&nbsp;지원<br><br>□&nbsp;기대효과<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광객&nbsp;체류시간&nbsp;증가<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역상권&nbsp;및&nbsp;숙박업&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화예술&nbsp;활동&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고흥&nbsp;관광&nbsp;브랜드&nbsp;가치&nbsp;상승</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	 “군민이 안심하는 고흥”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title=" “군민이 안심하는 고흥”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            -&nbsp;추진&nbsp;배경<br>고령화와&nbsp;인구&nbsp;감소&nbsp;속에서&nbsp;군민&nbsp;삶의&nbsp;질&nbsp;향상을&nbsp;위한&nbsp;복지·의료·안전&nbsp;시스템&nbsp;강화가&nbsp;필요합니다.<br>특히&nbsp;어르신과&nbsp;취약계층이&nbsp;안심하고&nbsp;생활할&nbsp;수&nbsp;있는&nbsp;촘촘한&nbsp;복지체계&nbsp;구축이&nbsp;중요합니다.<br><br>□&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;복지&nbsp;강화,&nbsp;공공의료&nbsp;확대,&nbsp;생활&nbsp;안전망&nbsp;구축,&nbsp;교통·주거&nbsp;환경&nbsp;개선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경로당&nbsp;지원&nbsp;및&nbsp;방문&nbsp;돌봄&nbsp;서비스&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;응급의료&nbsp;대응&nbsp;및&nbsp;이동&nbsp;진료체계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;CCTV&nbsp;및&nbsp;방범시설&nbsp;확대&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행복택시&nbsp;및&nbsp;교통약자&nbsp;이동지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시·군경계&nbsp;보성·순천등&nbsp;군·시내버스&nbsp;환승개념&nbsp;도입&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취임&nbsp;즉시&nbsp;복지·안전&nbsp;정책&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1년&nbsp;내&nbsp;돌봄&nbsp;및&nbsp;의료지원&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;생활안전·교통복지&nbsp;단계적&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복지·안전&nbsp;예산&nbsp;우선&nbsp;편성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국·도비&nbsp;복지사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민관&nbsp;협력&nbsp;돌봄체계&nbsp;구축<br><br>□&nbsp;기대효과<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민&nbsp;삶의&nbsp;질&nbsp;향상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료&nbsp;접근성&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;안전한&nbsp;생활환경&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복지&nbsp;체감도&nbsp;향상</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

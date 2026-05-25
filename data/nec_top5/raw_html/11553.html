@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김경수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	[교통대전환] 부울경 메가시티를 즉시 복원하고, 4대 철도망을 중심으로 부울경 메가시티 30분 생활권을 구현하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="[교통대전환] 부울경 메가시티를 즉시 복원하고, 4대 철도망을 중심으로 부울경 메가시티 30분 생활권을 구현하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;광역철도망을&nbsp;중심으로&nbsp;부울경의&nbsp;주요&nbsp;도시들을&nbsp;30분대로&nbsp;연결하고,&nbsp;촘촘한&nbsp;교통망과&nbsp;첨단&nbsp;대중교통&nbsp;시스템&nbsp;구축으로&nbsp;대중교통&nbsp;사각지대&nbsp;최소화,&nbsp;교통&nbsp;이용&nbsp;편의성&nbsp;극대화<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;부울경&nbsp;전체를&nbsp;하나의&nbsp;생활권으로&nbsp;묶는&nbsp;4대&nbsp;광역&nbsp;철도망&nbsp;+&nbsp;3개&nbsp;철도노선&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서부경남&nbsp;KTX&nbsp;조기&nbsp;완공&nbsp;및&nbsp;가덕도신공항&nbsp;연장&nbsp;추진,&nbsp;동부경남&nbsp;KTX&nbsp;고속화,&nbsp;남해안권&nbsp;광역급행철도&nbsp;도입(GTX급&nbsp;급행철도,&nbsp;부산~진주,&nbsp;부전-마산선&nbsp;신속개통),&nbsp;달빛철도&nbsp;조기&nbsp;착공&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대전-남해선,&nbsp;우주항공선,&nbsp;창녕-창원-신공항&nbsp;CTX&nbsp;신설로&nbsp;촘촘한&nbsp;철도망&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;진주,&nbsp;고성,&nbsp;통영,&nbsp;거제,&nbsp;창원중앙,&nbsp;김해역&nbsp;등&nbsp;주요&nbsp;거점&nbsp;역세권&nbsp;개발&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기반의&nbsp;ART&nbsp;시스템으로&nbsp;대중교통&nbsp;사각지대&nbsp;제로<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*ART:&nbsp;AI/All-Demand&nbsp;Responsive&nbsp;Transportation<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌&nbsp;등&nbsp;대중교통&nbsp;소외지역&nbsp;및&nbsp;대상&nbsp;맞춤형&nbsp;대중교통&nbsp;시스템&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전국&nbsp;최초&nbsp;AI&nbsp;기반&nbsp;수요&nbsp;응답형&nbsp;대중교통&nbsp;플랫폼(ART)&nbsp;도입으로&nbsp;장소와&nbsp;시간을&nbsp;구애받지&nbsp;않고&nbsp;목적지와&nbsp;목적지를&nbsp;직접&nbsp;연결,&nbsp;대중교통&nbsp;편의성&nbsp;극대화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도심교통&nbsp;무궤도트램(TRT)&nbsp;도입&nbsp;및&nbsp;국산화,&nbsp;100원·바우처·장애인콜택시&nbsp;등&nbsp;도시부터&nbsp;농어촌&nbsp;교통취약지역,&nbsp;교통약자까지&nbsp;모두를&nbsp;위한&nbsp;대중교통&nbsp;체계&nbsp;확립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복합환승센터,&nbsp;경남패스&nbsp;개편&nbsp;및&nbsp;고도화&nbsp;등&nbsp;환승&nbsp;편의성&nbsp;개선(신규노선&nbsp;검토,&nbsp;운행&nbsp;횟수&nbsp;확대,&nbsp;배차간격&nbsp;단축&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;가덕도신공항,&nbsp;KTX역,&nbsp;주요&nbsp;산업단지&nbsp;등&nbsp;주요&nbsp;거점&nbsp;연계&nbsp;교통망&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;교통비&nbsp;부담&nbsp;대폭&nbsp;완화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부울경&nbsp;광역교통공사&nbsp;설립을&nbsp;통한&nbsp;광역&nbsp;대중교통&nbsp;시스템&nbsp;확립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산단·기회발전특구&nbsp;등&nbsp;광역&nbsp;통근버스&nbsp;확충&nbsp;및&nbsp;청년·노동자&nbsp;교통지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경남&nbsp;지역&nbsp;대학&nbsp;장거리&nbsp;통학하는&nbsp;대학생에&nbsp;시외버스&nbsp;요금&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;섬&nbsp;지역&nbsp;거주민&nbsp;승선&nbsp;요금&nbsp;무료화&nbsp;단계적&nbsp;확대&nbsp;<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년,&nbsp;사업&nbsp;규모와&nbsp;절차&nbsp;등을&nbsp;고려하여&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;부울경&nbsp;메가시티&nbsp;복원&nbsp;및&nbsp;광역교통공사&nbsp;설립,&nbsp;대중교통&nbsp;체계&nbsp;혁신&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업계획&nbsp;수립,&nbsp;국가계획&nbsp;반영,&nbsp;타당성&nbsp;조사&nbsp;등&nbsp;사업별&nbsp;행정절차&nbsp;추진<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;철도·광역교통망은&nbsp;국가계획&nbsp;반영&nbsp;및&nbsp;국비&nbsp;확보&nbsp;중심으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;부울경&nbsp;메가시티&nbsp;복원을&nbsp;통한&nbsp;초광역협력&nbsp;포괄보조금&nbsp;등&nbsp;국비&nbsp;확보,&nbsp;부울경&nbsp;공동부담&nbsp;체계&nbsp;확립,&nbsp;지출&nbsp;효율화,&nbsp;세수·교부세&nbsp;증가&nbsp;등을&nbsp;통해&nbsp;도비&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	[산업대전환] 경남 5대 주력산업(SMR·방산·우주항공·조선해양·전력기기)을 세계 1등으로 키우겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="[산업대전환] 경남 5대 주력산업(SMR·방산·우주항공·조선해양·전력기기)을 세계 1등으로 키우겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;(양질의&nbsp;일자리)&nbsp;100조&nbsp;GRDP증가,&nbsp;15만개&nbsp;양질의&nbsp;일자리&nbsp;창출,&nbsp;도민&nbsp;직접소득&nbsp;증대<br>&nbsp;&nbsp;○&nbsp;(대중소기업&nbsp;상생)&nbsp;역외유출방지&nbsp;이익&nbsp;공유,&nbsp;도민의&nbsp;소득환류&nbsp;확대,&nbsp;대중소&nbsp;임금격차&nbsp;완화<br>&nbsp;&nbsp;○&nbsp;(경남성장펀드)&nbsp;국민성장펀드+도민참여형&nbsp;=&nbsp;(가칭)&nbsp;경남형&nbsp;국민성장펀트,&nbsp;도민&nbsp;수익&nbsp;환원<br><br>□&nbsp;이행&nbsp;방법&nbsp;<br>&nbsp;&nbsp;○&nbsp;경남&nbsp;5대&nbsp;주력산업(SMR·방산·우주항공·조선해양·전력기기)을&nbsp;세계&nbsp;1등으로<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(SMR)&nbsp;K-SMR&nbsp;제조에서&nbsp;응용까지,&nbsp;SMR&nbsp;혁신제조&nbsp;국산화,&nbsp;응용혁신&nbsp;부울경&nbsp;메가특구<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(방산)&nbsp;방사청&nbsp;산하&nbsp;방산연구진흥원&nbsp;신설,&nbsp;방산&nbsp;앵커기업&nbsp;R&D센터&nbsp;경남&nbsp;이전&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(우주항공)&nbsp;남해안&nbsp;우주항공방산&nbsp;산업벨트,&nbsp;인구&nbsp;100만&nbsp;우주항공복합도시,&nbsp;남부권&nbsp;국가연구단지&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(조선해양)&nbsp;친환경&nbsp;신규&nbsp;건조&nbsp;패키지&nbsp;산업화,&nbsp;선박-함정&nbsp;MRO&nbsp;통합&nbsp;상생&nbsp;클러스터,&nbsp;경남형&nbsp;MRO&nbsp;상생&nbsp;펀드&nbsp;조성·운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(전력기기)&nbsp;재료연구원,&nbsp;전기연구원&nbsp;등&nbsp;기존&nbsp;연구기관&nbsp;확대로&nbsp;실증·인증&nbsp;체계&nbsp;확대,&nbsp;글로벌&nbsp;슈퍼클러스터&nbsp;고도화,&nbsp;인증기관&nbsp;인력&nbsp;및&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;대전환&nbsp;5000&nbsp;프로젝트,&nbsp;AI&nbsp;운영직·데이터분석가·로봇&nbsp;관리자&nbsp;등&nbsp;새로운&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(수요)&nbsp;경남&nbsp;기업&nbsp;5,000개사&nbsp;AI전환&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(공급)&nbsp;AI&nbsp;만드는&nbsp;기업&nbsp;100곳&nbsp;유치&nbsp;및&nbsp;발굴&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(인프라)&nbsp;엣지&nbsp;AI데이터센터&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(결과)&nbsp;경남&nbsp;전체를&nbsp;AI산단으로&nbsp;대전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(新가치)&nbsp;휴머노이드&nbsp;소부장&nbsp;공급기지로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;산업대전환&nbsp;3대&nbsp;기반&nbsp;=&nbsp;물류&nbsp;+&nbsp;소부장&nbsp;+&nbsp;거버넌스&nbsp;구축으로&nbsp;시너지&nbsp;극대화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(물류)&nbsp;진해신항·항만배후단지&nbsp;조기&nbsp;지정개발,&nbsp;AI스마트항만·물류&nbsp;데이터허브&nbsp;구축,&nbsp;마산항SMR·중전기기&nbsp;수출&nbsp;특화&nbsp;부두&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(소부장)&nbsp;소부장&nbsp;자립을&nbsp;위한&nbsp;경남&nbsp;핵심자산&nbsp;소재·부품·장비&nbsp;100&nbsp;선정&nbsp;및&nbsp;내재화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(거버넌스)&nbsp;도지사&nbsp;직속&nbsp;컨트롤타워,&nbsp;중앙-지방-부울경&nbsp;메가시티&nbsp;원팀&nbsp;체제<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;2030년까지&nbsp;임기&nbsp;내&nbsp;성과&nbsp;창출을&nbsp;위해&nbsp;신속하게&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부와&nbsp;긴밀한&nbsp;협의로&nbsp;국가계획&nbsp;반영,&nbsp;규제&nbsp;특례&nbsp;지정,&nbsp;조례&nbsp;제·개정&nbsp;병행<br>&nbsp;&nbsp;○&nbsp;대규모&nbsp;인프라·R&D&nbsp;사업은&nbsp;타당성&nbsp;검토&nbsp;등&nbsp;행정절차에&nbsp;따라&nbsp;단계적&nbsp;추진<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;R&D·실증·기반시설,&nbsp;공모,&nbsp;정부&nbsp;계획&nbsp;반영&nbsp;등&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;기업·공공기관&nbsp;등&nbsp;투자유치&nbsp;및&nbsp;교부세·세수&nbsp;증가,&nbsp;지출&nbsp;효율화&nbsp;등&nbsp;도비&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	[의료대전환] 골든타임 1·3·6 법칙'으로 의료 사각지대 없는 경남을 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="[의료대전환] 골든타임 1·3·6 법칙'으로 의료 사각지대 없는 경남을 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;지역·필수·공공의료&nbsp;강화로&nbsp;전&nbsp;도민&nbsp;의료&nbsp;접근성&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;골든타임&nbsp;안에&nbsp;기초·응급·중증&nbsp;치료가&nbsp;가능한&nbsp;의료체계·안전망&nbsp;구축<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;(골든타임&nbsp;10분)&nbsp;10분&nbsp;내&nbsp;응급처치&nbsp;받을&nbsp;수&nbsp;있는&nbsp;‘기초안전망’&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;병·의원&nbsp;없는&nbsp;읍면동&nbsp;대상&nbsp;공공종합의원&nbsp;설치&nbsp;및&nbsp;방문&nbsp;외래센터&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;거동&nbsp;불편&nbsp;고령자·장애인·교통&nbsp;취약지역&nbsp;주민&nbsp;대상&nbsp;방문·순회진료&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을곳곳,&nbsp;엘리베이터,&nbsp;도서지역&nbsp;선박,&nbsp;산단까지&nbsp;제세동기(AED)·응급키트&nbsp;배치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘경남&nbsp;생명지킴이&nbsp;앱’&nbsp;구축,&nbsp;이웃을&nbsp;‘마을&nbsp;생명지킴이’로&nbsp;키우고&nbsp;봉사자에게&nbsp;지역화폐&nbsp;인센티브&nbsp;지급<br>&nbsp;&nbsp;○&nbsp;(골든타임&nbsp;30분)&nbsp;30분&nbsp;내&nbsp;진료가&nbsp;가능한&nbsp;‘필수의료망’&nbsp;책임&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;달빛&nbsp;어린이병원&nbsp;추가&nbsp;설치,&nbsp;새벽별&nbsp;어린이병원&nbsp;도입으로&nbsp;24시&nbsp;소아진료체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서부경남&nbsp;공공병원&nbsp;조기개원,&nbsp;김해의료원&nbsp;설치,&nbsp;마산의료원&nbsp;증축(예타신속해결)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;환자를&nbsp;볼수록&nbsp;병원에도&nbsp;이익,&nbsp;공공의료&nbsp;특별회계&nbsp;및&nbsp;중증&nbsp;응급&nbsp;책임진료지원금&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경남도·소방·병원을&nbsp;잇는&nbsp;‘광역상황실’&nbsp;운영&nbsp;및&nbsp;응급&nbsp;협의&nbsp;체계&nbsp;구축,&nbsp;닥터헬기&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;질환별·요일별&nbsp;인근&nbsp;병원과&nbsp;책임&nbsp;당번제,&nbsp;준응급&nbsp;환자&nbsp;야간클리닉&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;(골든타임&nbsp;60분)&nbsp;60분내&nbsp;상급의료&nbsp;서비스,&nbsp;3대&nbsp;국립대병원을&nbsp;서울&nbsp;빅5&nbsp;수준으로&nbsp;육성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3대&nbsp;거점&nbsp;국립대병원에&nbsp;중증응급&nbsp;통합지료센터&nbsp;구축,&nbsp;첨단&nbsp;장비&nbsp;전폭&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경남필수공공의료재단&nbsp;설립,&nbsp;경남형&nbsp;지역필수의사제&nbsp;실시,&nbsp;공중보건장학제도&nbsp;확대,&nbsp;의료인력지원센터&nbsp;설치&nbsp;등&nbsp;경남이&nbsp;책임지고&nbsp;지역&nbsp;의사를&nbsp;키우고&nbsp;우수&nbsp;의료인력&nbsp;확보&nbsp;전략<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;2030년까지&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기&nbsp;초&nbsp;법령&nbsp;제·개정&nbsp;및&nbsp;관계기관&nbsp;협의체&nbsp;구성&nbsp;등&nbsp;추진&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;종합계획&nbsp;수립,&nbsp;사업개발&nbsp;및&nbsp;계획&nbsp;수립,&nbsp;실행&nbsp;등&nbsp;행정절차&nbsp;실행&nbsp;<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정부의&nbsp;지역필수의사제&nbsp;도입,&nbsp;지역의료&nbsp;지원&nbsp;정책,&nbsp;공모사업&nbsp;등&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;지역·필수·공공의료&nbsp;특별회계&nbsp;신설&nbsp;등&nbsp;안정적인&nbsp;재원&nbsp;확보&nbsp;방안&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	[서부경남대전환] 사천·진주 인구 100만 첨단 우주항공 복합도시, 남해안 우주항공방산 메가클러스터를 조성하겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="[서부경남대전환] 사천·진주 인구 100만 첨단 우주항공 복합도시, 남해안 우주항공방산 메가클러스터를 조성하겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;사천·진주&nbsp;중심의&nbsp;100만&nbsp;첨단&nbsp;우주항공&nbsp;복합도시,&nbsp;남해안&nbsp;우주항공방산&nbsp;메가클러스터&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;발사·소재·제조·시험·인증·방산·물류&nbsp;거점으로&nbsp;조성하고,&nbsp;국내&nbsp;최초의&nbsp;우주항공&nbsp;방산&nbsp;통합&nbsp;가치사슬&nbsp;구축<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;사천·진주&nbsp;100만&nbsp;첨단&nbsp;우주항공&nbsp;복합도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우주항공청,&nbsp;연구기관,&nbsp;대학,&nbsp;기업&nbsp;R&D센터,&nbsp;시험·인증기관,&nbsp;교통,&nbsp;학교,&nbsp;병원,&nbsp;주거,&nbsp;문화·MICE&nbsp;기능이&nbsp;결합된&nbsp;K-Space&nbsp;City&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;남부권&nbsp;국가연구단지(연구기관,&nbsp;대학,&nbsp;기업&nbsp;R&D센터,&nbsp;국제학교,&nbsp;의료,&nbsp;주거,&nbsp;외국인&nbsp;행정지원이&nbsp;결합된&nbsp;연구·교육·창업&nbsp;국제도시)&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경상국립대&nbsp;우주항공&nbsp;특성화&nbsp;대학(원)을&nbsp;KAIST급&nbsp;연구기관으로&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;세라믹연구원&nbsp;등&nbsp;기존&nbsp;국가연구기관&nbsp;확대&nbsp;및&nbsp;기능&nbsp;강화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘에어로밸리&nbsp;정주지원단’&nbsp;설치,&nbsp;일터-삶터-배움터가&nbsp;결합된&nbsp;글로벌&nbsp;정주도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서부의료원&nbsp;조기&nbsp;개원으로&nbsp;공공의료&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;남해안&nbsp;우주항공방산&nbsp;벨트&nbsp;구축,&nbsp;전&nbsp;세계의&nbsp;투자처로&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사천·진주(연구·실증·제조),&nbsp;고성(무인기·드론·해양항공),&nbsp;하동(소재·에너지),&nbsp;창원(항공엔진·방산),&nbsp;거제(함정)&nbsp;등&nbsp;남해안권&nbsp;우주항공방산&nbsp;가치사슬&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;남해안권&nbsp;광역급행철도(GTX-G)로&nbsp;진주-창원-부산을&nbsp;하나의&nbsp;광역교통망으로&nbsp;연결,&nbsp;서부경남KTX로&nbsp;이어지는&nbsp;우주항공철도&nbsp;건설로&nbsp;사람과&nbsp;물자가&nbsp;이동하는&nbsp;실질적인&nbsp;산업벨트&nbsp;구축,&nbsp;도시와&nbsp;산업발전을&nbsp;동시에&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우주항공방산&nbsp;유니콘&nbsp;기업&nbsp;육성,&nbsp;공동개발&nbsp;공동연구의&nbsp;창업생태계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국제&nbsp;항공우주&nbsp;방위산업&nbsp;전시회(ADEX)를&nbsp;사천·진주로&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;부울경&nbsp;메가시티의&nbsp;날개&nbsp;-&nbsp;우주항공산업을&nbsp;미래&nbsp;성장엔진으로<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;2030년까지&nbsp;임기&nbsp;내&nbsp;성과&nbsp;창출을&nbsp;목표로&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;조속한&nbsp;우주항공복합도시특별법&nbsp;제정과&nbsp;종합계획&nbsp;수립,&nbsp;공공기관&nbsp;신설·이전&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연구·실증·시험·인증,&nbsp;기업지원,&nbsp;정주&nbsp;여건&nbsp;개선&nbsp;등&nbsp;순차적&nbsp;사업&nbsp;추진<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;우주항공·방산·산업·교통&nbsp;등&nbsp;관계부처&nbsp;및&nbsp;중앙정부와&nbsp;연계해&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;R&D,&nbsp;메가특구,&nbsp;기반시설,&nbsp;공모사업,&nbsp;정책금융&nbsp;등&nbsp;적극적으로&nbsp;활용,&nbsp;세수&nbsp;확대에&nbsp;따른&nbsp;교부세·(포괄)보조금,&nbsp;도비&nbsp;확보,&nbsp;민간투자&nbsp;유치&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	[청년대전환] 경남이 청년의 든든한 뒷배가 되겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="[청년대전환] 경남이 청년의 든든한 뒷배가 되겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;양질의&nbsp;일자리,&nbsp;창업,&nbsp;주거,&nbsp;자산형성,&nbsp;문화&nbsp;등&nbsp;청년을&nbsp;위한&nbsp;다양한&nbsp;기회&nbsp;확대<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;경남&nbsp;산업대전환을&nbsp;통한&nbsp;일자리&nbsp;6만&nbsp;개&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주력산업&nbsp;AI&nbsp;대전환+5대&nbsp;산업&nbsp;세계&nbsp;1등&nbsp;전략을&nbsp;목표로&nbsp;경남&nbsp;산업대전환을&nbsp;통해&nbsp;양질의&nbsp;청년&nbsp;일자리&nbsp;규모&nbsp;있게&nbsp;창출,&nbsp;신규&nbsp;일자리&nbsp;15만&nbsp;개&nbsp;중&nbsp;청년·여성&nbsp;일자리&nbsp;비중&nbsp;40%(6만&nbsp;개)로&nbsp;추정<br>&nbsp;&nbsp;○&nbsp;경남이&nbsp;청년의&nbsp;투자자가&nbsp;됩니다&nbsp;-&nbsp;청년창업&nbsp;모태펀드&nbsp;3천억&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;모태펀드&nbsp;3,000억&nbsp;+&nbsp;VC·AC&nbsp;인프라&nbsp;동시&nbsp;구축,&nbsp;경남&nbsp;산학연&nbsp;연합기술지주&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수도권&nbsp;엑셀러레이터(AC)&nbsp;도내&nbsp;거점&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;모두의&nbsp;챌린지&nbsp;5종&nbsp;거점화&nbsp;연계&nbsp;―&nbsp;AI·방산·로봇·바이오·기후테크<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;청년주택&nbsp;3,000호&nbsp;공급(청년주택&nbsp;3,000호+기숙사&nbsp;500실)&nbsp;-&nbsp;청년&nbsp;매입&nbsp;임대,&nbsp;노후산단&nbsp;연계,&nbsp;일자리&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;월세&nbsp;지원,&nbsp;임차보증금&nbsp;이자,&nbsp;전세&nbsp;반환보증&nbsp;보험료&nbsp;지원&nbsp;확대·신설<br>&nbsp;&nbsp;○&nbsp;경남형&nbsp;청년미래적금&nbsp;-&nbsp;최대&nbsp;3,000만&nbsp;원&nbsp;목돈마련&nbsp;지원으로&nbsp;청년&nbsp;자산형성&nbsp;기회&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;경남&nbsp;청년&nbsp;반값&nbsp;도캉스&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대한민국&nbsp;반값&nbsp;여행&nbsp;지원대상&nbsp;및&nbsp;경남&nbsp;시군&nbsp;연계&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년문화기획&nbsp;스쿨&nbsp;+&nbsp;축제기획단&nbsp;(사전교육&nbsp;실제→축제&nbsp;기획·운영),&nbsp;공공경력&nbsp;인증<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;주권도시&nbsp;경남,&nbsp;도지사&nbsp;직속&nbsp;청년전담조직&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도지사&nbsp;직속&nbsp;청년담당관&nbsp;신설,&nbsp;청년정책네트워크&nbsp;재활성화&nbsp;등&nbsp;거버넌스&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년센터&nbsp;3개소&nbsp;신설(동부·중부·서부권),&nbsp;공공경력&nbsp;앵커기관&nbsp;역할&nbsp;병행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경남연구원&nbsp;내&nbsp;청년LAB&nbsp;신설,&nbsp;데이터&nbsp;근거&nbsp;기반&nbsp;청년&nbsp;정책&nbsp;설계<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;2030년까지&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;조직&nbsp;및&nbsp;기구&nbsp;신설부터&nbsp;사업기획&nbsp;및&nbsp;계획&nbsp;수립,&nbsp;실행&nbsp;단계로&nbsp;순차적&nbsp;추진<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국가사업과&nbsp;연계한&nbsp;국비&nbsp;확보,&nbsp;LH·사학기금&nbsp;등&nbsp;공공기관&nbsp;자금&nbsp;연계&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교부세·세수&nbsp;확대,&nbsp;지출&nbsp;효율화&nbsp;등&nbsp;도비&nbsp;예산확보</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

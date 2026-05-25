@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;유명현 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	농어촌 기본소득 시범사업 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="농어촌 기본소득 시범사업 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농어촌&nbsp;활력&nbsp;제고를&nbsp;위해&nbsp;단순&nbsp;현금&nbsp;지원을&nbsp;넘어&nbsp;지역&nbsp;내&nbsp;소비&nbsp;선순환을&nbsp;유도하고&nbsp;인구&nbsp;감소로&nbsp;인한&nbsp;농어촌&nbsp;소멸&nbsp;위기에&nbsp;대응<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;일정&nbsp;기간(30일)이상&nbsp;해당&nbsp;군&nbsp;주민등록&nbsp;거주자&nbsp;대상&nbsp;개인당&nbsp;월&nbsp;15만원씩&nbsp;지역사랑상품권으로&nbsp;지급<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2027년&nbsp;(2년간&nbsp;시범사업&nbsp;시행)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;인당&nbsp;월&nbsp;15만원&nbsp;지급&nbsp;기준'26~27년'&nbsp;시범사업&nbsp;총&nbsp;사업비&nbsp;약&nbsp;8,500억원(국비&nbsp;40%,&nbsp;시·도비&nbsp;30%,&nbsp;군비&nbsp;30%)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재원분담&nbsp;비율&nbsp;국비&nbsp;40%→80%&nbsp;상향,&nbsp;26년&nbsp;전국&nbsp;추가&nbsp;시범사업&nbsp;3개&nbsp;선정&nbsp;건의</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	그린바이오 우주항공 기업유치 및 창업 활성화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="그린바이오 우주항공 기업유치 및 창업 활성화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;우주항공복합도시&nbsp;배후&nbsp;산단(20만평),&nbsp;세라믹특화단지(20만평)&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;산업단지&nbsp;조성:&nbsp;우주항공복합도시&nbsp;배후산단(20만평,&nbsp;우주항공부품,&nbsp;AAV기체&nbsp;개발&nbsp;부품산업&nbsp;유치),&nbsp;세라믹특화단지(20만평,&nbsp;첨단&nbsp;세라믹&nbsp;기업&nbsp;유치)<br>&nbsp;&nbsp;○&nbsp;투자&nbsp;인센티브&nbsp;강화:&nbsp;지방투자촉진보조금(수도권&nbsp;이전,&nbsp;신.증설,&nbsp;상생형지역&nbsp;일자리&nbsp;기업)&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;창업&nbsp;활성화:&nbsp;웰니스산업&nbsp;및&nbsp;관광서비스산업&nbsp;창업활동&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;산청&nbsp;웰니스관광협동조합(3년전,&nbsp;웰니스코디네이트&nbsp;중심,&nbsp;동의보감촌내&nbsp;대중적),&nbsp;K-웰니스협동조합(25년,&nbsp;고급화,&nbsp;마이스&nbsp;병행)<br>&nbsp;&nbsp;○&nbsp;정주여건&nbsp;조성&nbsp;교육&nbsp;문화&nbsp;의료<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;단계별&nbsp;산단&nbsp;조성&nbsp;및&nbsp;기업&nbsp;유치&nbsp;본격화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;미정(국도비,&nbsp;민자유치&nbsp;등)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	농업예산 배 확대 강소농 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="농업예산 배 확대 강소농 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지자체&nbsp;주도&nbsp;인프라&nbsp;구축으로&nbsp;농가&nbsp;자부담&nbsp;최소화&nbsp;및&nbsp;기술&nbsp;주권&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;임대형&nbsp;인프라&nbsp;구축&nbsp;지방소멸대응기금을&nbsp;투입하여&nbsp;산청군이&nbsp;직접&nbsp;스마트팜&nbsp;온실을&nbsp;조성&nbsp;청년에게&nbsp;자부담을&nbsp;최소화&nbsp;하여&nbsp;장기&nbsp;임대<br>&nbsp;&nbsp;○&nbsp;소재&nbsp;장비&nbsp;국산화&nbsp;및&nbsp;R&D&nbsp;경남테크노파크(TP)와&nbsp;협업하여&nbsp;에너지&nbsp;절감,&nbsp;세라믹&nbsp;배지&nbsp;등&nbsp;국산&nbsp;혁신&nbsp;제품&nbsp;도입&nbsp;시&nbsp;비용의&nbsp;80~90%&nbsp;파격&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;현대화&nbsp;자부담&nbsp;경감&nbsp;정부&nbsp;지원사업&nbsp;(자부담&nbsp;40~60%)에&nbsp;군비를&nbsp;추가&nbsp;매칭하여&nbsp;농가&nbsp;실제&nbsp;부담률을&nbsp;10~20%로&nbsp;대폭&nbsp;축소<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2035년(10년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;관계법령:&nbsp;「스마트농업&nbsp;육성&nbsp;및&nbsp;지원에&nbsp;관한&nbsp;법률」,&nbsp;「지방소멸&nbsp;대응기금&nbsp;배분&nbsp;및&nbsp;관리&nbsp;지침」<br>&nbsp;&nbsp;○&nbsp;공모계획공고:&nbsp;농식품부&nbsp;'스마트농업&nbsp;육성지구'&nbsp;지정&nbsp;공모,&nbsp;행안부&nbsp;'지방소멸대응기금'&nbsp;연계&nbsp;사업</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	환지리산권 관광벨트 구축사업</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="환지리산권 관광벨트 구축사업">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;남해안권&nbsp;해양관광&nbsp;연계&nbsp;환지리산권&nbsp;체류형&nbsp;산악관광&nbsp;거점&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;친환경&nbsp;산악&nbsp;모빌리티&nbsp;구축:&nbsp;친환경&nbsp;지리산&nbsp;케이블카(중산리-장터목),&nbsp;자율주행버스/산악용&nbsp;트램(중산리&nbsp;주차장~환경교육원&nbsp;등),&nbsp;해양-산악관광&nbsp;연계&nbsp;UAM&nbsp;버티포트(Verti&nbsp;Port)설치(장터목&nbsp;등)<br>&nbsp;&nbsp;○&nbsp;세계&nbsp;유일의&nbsp;문화콘텐츠&nbsp;민자&nbsp;유치:&nbsp;산중미술관,&nbsp;산악공연장(콘서트&nbsp;트럭),&nbsp;산중&nbsp;수족관,&nbsp;고라니&nbsp;국책연구소&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;환지리산권&nbsp;접근성&nbsp;개선:&nbsp;벽소령(2KM,&nbsp;함양&nbsp;마천·하동&nbsp;화개)&nbsp;및&nbsp;중산리-뱀사골&nbsp;터널(12KM,&nbsp;2조&nbsp;1천억원)&nbsp;개설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;남해-대전&nbsp;고속철도(KTX.&nbsp;26~35,&nbsp;5조&nbsp;6천억원)&nbsp;산청&nbsp;노선&nbsp;반영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2035년(10년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;미정(국도비,&nbsp;민자유치)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	세계적인 휴양도시 (웰니스 리트리트) 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="세계적인 휴양도시 (웰니스 리트리트) 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;한방치유&nbsp;자산의&nbsp;과학화(동의보감촌)와&nbsp;자연&nbsp;(지리산)을&nbsp;결합한&nbsp;투트랙(Two-track)웰니스&nbsp;생태계&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대한민국&nbsp;제&nbsp;호&nbsp;치유관광산업지구&nbsp;지정(동의보감촌&nbsp;리모델링)<br>&nbsp;&nbsp;○&nbsp;세계적인&nbsp;웰니스&nbsp;리트리트&nbsp;조성&nbsp;및&nbsp;민간&nbsp;투자&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;캐니언랜치(미국)나&nbsp;치바솜(태국)같은&nbsp;글로벌&nbsp;리트리트&nbsp;운영사&nbsp;기업유치(파격적&nbsp;세제&nbsp;혜택,&nbsp;규제&nbsp;완화)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2035년(10년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;약&nbsp;2,000억원&nbsp;이상(잠정,&nbsp;국비/지방비,&nbsp;민간자본)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

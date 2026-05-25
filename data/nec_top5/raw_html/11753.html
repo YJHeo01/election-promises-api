@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김성 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	인구 증가로 지속 가능한 장홍</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="인구 증가로 지속 가능한 장홍">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;인구&nbsp;4만&nbsp;명&nbsp;시대&nbsp;회복<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국&nbsp;·&nbsp;공립&nbsp;공공기관&nbsp;적극&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전남&nbsp;·&nbsp;광주통합청사&nbsp;신축&nbsp;시&nbsp;전남과&nbsp;광주의&nbsp;중앙인&nbsp;장홍군으로의&nbsp;이전을&nbsp;강력히&nbsp;추진하고&nbsp;연관기관&nbsp;유치에&nbsp;총력<br>&nbsp;&nbsp;○&nbsp;농어촌&nbsp;기본소득&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전남&nbsp;·&nbsp;광주&nbsp;통합에&nbsp;따라&nbsp;주어지는&nbsp;연간&nbsp;5조원의&nbsp;재정지원&nbsp;중&nbsp;장홍에&nbsp;기본소득&nbsp;예산이&nbsp;반영되도록&nbsp;모든&nbsp;역량&nbsp;집중<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌&nbsp;기본소득&nbsp;조례를&nbsp;제정하고&nbsp;,&nbsp;군유지와&nbsp;유휴&nbsp;부지를&nbsp;활용한&nbsp;신재생&nbsp;단지&nbsp;조성&nbsp;등&nbsp;에너지&nbsp;수익올&nbsp;기금으로&nbsp;적립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예산의&nbsp;구조&nbsp;개혁과&nbsp;불요불급한&nbsp;예산&nbsp;절감으로&nbsp;기금&nbsp;적립<br>&nbsp;&nbsp;○&nbsp;다양한&nbsp;인구&nbsp;정책&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;소멸&nbsp;대응기금&nbsp;활용&nbsp;및&nbsp;청년&nbsp;유입&nbsp;,&nbsp;결혼부터&nbsp;출산&nbsp;·&nbsp;양육에&nbsp;따른&nbsp;부담&nbsp;경감을&nbsp;위한&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;정추&nbsp;여건&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중심지&nbsp;활성화&nbsp;및&nbsp;농촌&nbsp;공간&nbsp;정비&nbsp;사업&nbsp;,&nbsp;행복한&nbsp;삶터&nbsp;조성&nbsp;사업&nbsp;등을&nbsp;통해&nbsp;청년은&nbsp;물론&nbsp;군민이&nbsp;장흥을&nbsp;떠나지&nbsp;않고&nbsp;편리한&nbsp;삶을&nbsp;영위할&nbsp;수&nbsp;있도록&nbsp;정주&nbsp;여건&nbsp;개선<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026.&nbsp;7&nbsp;∼&nbsp;2030.&nbsp;6<br><br>□&nbsp;재원&nbsp;조달방안&nbsp;둥<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국&nbsp;·&nbsp;공립&nbsp;공공기관&nbsp;유치&nbsp;:&nbsp;비예산<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌&nbsp;기본소득&nbsp;실현&nbsp;:&nbsp;300억&nbsp;원(기금）<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인구&nbsp;정책&nbsp;:&nbsp;543억&nbsp;원(국비&nbsp;419,&nbsp;지방비&nbsp;119,&nbsp;민자&nbsp;5)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정주여건&nbsp;개선&nbsp;:&nbsp;682억&nbsp;원(국비&nbsp;422,&nbsp;지방비&nbsp;260)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	아름답고 픔격 있는 장흥 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="아름답고 픔격 있는 장흥 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;2030까지&nbsp;관광객&nbsp;500만명&nbsp;시대&nbsp;진입<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전국&nbsp;최고의&nbsp;힐링과&nbsp;치유의&nbsp;고장으로&nbsp;정착<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장흥만이&nbsp;가진&nbsp;유일&nbsp;무이한&nbsp;자산을&nbsp;“독특하고,&nbsp;유일하고,&nbsp;차별화된&nbsp;전략"&nbsp;으로&nbsp;발전<br>&nbsp;&nbsp;○&nbsp;K-&nbsp;노벨&nbsp;문학의&nbsp;메카로&nbsp;발돋음<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국립&nbsp;노벨&nbsp;문학센터&nbsp;건립&nbsp;,&nbsp;장흥문학상&nbsp;위상&nbsp;제고,&nbsp;노벨&nbsp;문학&nbsp;페스티벌과&nbsp;노벨&nbsp;백일장&nbsp;대회&nbsp;개최,&nbsp;노벨&nbsp;해안&nbsp;문학&nbsp;산책로&nbsp;및&nbsp;노벨&nbsp;문학&nbsp;조각공원&nbsp;조성&nbsp;등&nbsp;다양한&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전남&nbsp;·&nbsp;쾅주&nbsp;통합시대가&nbsp;열리면&nbsp;우리&nbsp;장홍을&nbsp;"K-&nbsp;노벨&nbsp;문학과&nbsp;역사&nbsp;·&nbsp;문화&nbsp;·관광&nbsp;특구"&nbsp;지정받을&nbsp;수&nbsp;있도록&nbsp;노력<br>&nbsp;&nbsp;○&nbsp;역사&nbsp;·&nbsp;문화&nbsp;·&nbsp;관쾅&nbsp;·&nbsp;스포츠&nbsp;산업&nbsp;집중&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해동사의&nbsp;전시관과&nbsp;쳬험장&nbsp;추가&nbsp;설치&nbsp;,&nbsp;빠삐용&nbsp;ZIP의&nbsp;프리즌&nbsp;호텔&nbsp;등&nbsp;콘텐츠&nbsp;보강&nbsp;,&nbsp;회령친성&nbsp;복원&nbsp;및&nbsp;이순신&nbsp;장군&nbsp;공원화&nbsp;,&nbsp;동학&nbsp;기념관&nbsp;활성화&nbsp;및&nbsp;묘역&nbsp;성역화&nbsp;,&nbsp;이청준&nbsp;문학관&nbsp;건립&nbsp;,&nbsp;한승원&nbsp;문학테마공원&nbsp;조성&nbsp;,&nbsp;우드랜드&nbsp;전국&nbsp;최대&nbsp;어싱길&nbsp;조성&nbsp;,&nbsp;보림사&nbsp;종합개발&nbsp;및&nbsp;비자림&nbsp;복원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체육인재&nbsp;개발원&nbsp;활성화&nbsp;및&nbsp;전국&nbsp;스포츠대회&nbsp;유치&nbsp;둥을&nbsp;통해&nbsp;관광&nbsp;·&nbsp;스포츠&nbsp;도시로&nbsp;도약<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026.&nbsp;7&nbsp;~&nbsp;2030.&nbsp;6<br><br>□&nbsp;재원&nbsp;조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;K-&nbsp;노벨&nbsp;문학의&nbsp;메카로&nbsp;발돋음&nbsp;:&nbsp;706억&nbsp;원(국비&nbsp;436,&nbsp;지방비&nbsp;270)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화·&nbsp;관쾅&nbsp;자원&nbsp;휵성&nbsp;:&nbsp;1,076억&nbsp;원(국비&nbsp;221,&nbsp;지방비&nbsp;782,&nbsp;기금73)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전국&nbsp;스포츠&nbsp;대희&nbsp;유치&nbsp;:&nbsp;비예산</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	잘사는 농어촌 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="잘사는 농어촌 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;고소득&nbsp;농어가&nbsp;1천&nbsp;가구(5천만원&nbsp;500가구，&nbsp;1억원&nbsp;이상&nbsp;500가구）육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;농업의&nbsp;부가가치&nbsp;제고<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트괌&nbsp;확대와&nbsp;친환경&nbsp;농업&nbsp;전환으로&nbsp;지속&nbsp;가능한&nbsp;농업&nbsp;기반을&nbsp;구축하고&nbsp;,&nbsp;품목별&nbsp;집단화&nbsp;·&nbsp;단지화를&nbsp;통한&nbsp;6차&nbsp;산업화<br>&nbsp;&nbsp;○&nbsp;수산업의&nbsp;경챙력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;득량만&nbsp;생태&nbsp;산업&nbsp;특구&nbsp;활성화&nbsp;,&nbsp;수산물&nbsp;기자재&nbsp;지원&nbsp;확대&nbsp;,&nbsp;김&nbsp;산업육성과&nbsp;가공시설&nbsp;현대화를&nbsp;통해&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;지속&nbsp;가능한&nbsp;축산업&nbsp;및&nbsp;명품&nbsp;한우&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생태&nbsp;스마트&nbsp;축산단지&nbsp;조성과&nbsp;가축&nbsp;질병&nbsp;예방시스템&nbsp;구축&nbsp;,&nbsp;우량&nbsp;수정란&nbsp;공급&nbsp;확대,&nbsp;장홍&nbsp;한우&nbsp;명품화&nbsp;둥&nbsp;전국&nbsp;최고의&nbsp;명품&nbsp;한우&nbsp;고장으로&nbsp;발돋음<br>&nbsp;&nbsp;○&nbsp;임업의&nbsp;소득&nbsp;증대&nbsp;및&nbsp;관쾅&nbsp;자원화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;표고버섯의&nbsp;6차&nbsp;산업화를&nbsp;통한&nbsp;고부가가치화와&nbsp;새로운&nbsp;임산물&nbsp;소득작물&nbsp;발굴&nbsp;,&nbsp;산림자원의&nbsp;관광화를&nbsp;통한&nbsp;소득&nbsp;증대<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;농수산&nbsp;특구로&nbsp;지정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전남&nbsp;·&nbsp;광주&nbsp;통합시를&nbsp;4핵&nbsp;4축으로&nbsp;발전전략을&nbsp;수립토록&nbsp;하고&nbsp;,&nbsp;장홍을&nbsp;포함한&nbsp;중남부권을&nbsp;스마트&nbsp;농수산&nbsp;특구로&nbsp;가정하여&nbsp;농업&nbsp;경챙력&nbsp;강화와&nbsp;농어민&nbsp;소득중대<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026.&nbsp;7&nbsp;∼&nbsp;2030.&nbsp;6<br><br>□&nbsp;재원&nbsp;조달방안&nbsp;둥<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업&nbsp;:&nbsp;1,709억&nbsp;원(국비&nbsp;142,&nbsp;치방비&nbsp;717,&nbsp;민자&nbsp;850)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수산업&nbsp;:&nbsp;2,476억&nbsp;원(국비&nbsp;220,&nbsp;지방비&nbsp;421,&nbsp;민자&nbsp;1,835)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;축산업&nbsp;:&nbsp;704억&nbsp;원(국비&nbsp;214,&nbsp;지방비&nbsp;366,&nbsp;자담&nbsp;124)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임업&nbsp;:&nbsp;156억&nbsp;원&nbsp;(국비&nbsp;101,&nbsp;지방비&nbsp;47,&nbsp;자담&nbsp;8)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	인프라 구축을 통한 장홍 성장 기반 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="인프라 구축을 통한 장홍 성장 기반 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;지역경제&nbsp;활성화&nbsp;(바이오&nbsp;산단&nbsp;분양율&nbsp;100%&nbsp;달성,&nbsp;청년&nbsp;일자리&nbsp;500개&nbsp;이상&nbsp;창출)<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;사통팔달의&nbsp;도로망&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장평&nbsp;봉림-장동&nbsp;배산&nbsp;간&nbsp;지방도&nbsp;4차선&nbsp;확·포장,&nbsp;유치-영암&nbsp;금정&nbsp;간&nbsp;국도&nbsp;시설개량,&nbsp;장흥&nbsp;순지-대덕&nbsp;연지&nbsp;간&nbsp;국도&nbsp;23호선&nbsp;4차선&nbsp;확장&nbsp;등&nbsp;<br>&nbsp;&nbsp;○&nbsp;철도망&nbsp;및&nbsp;연륙교&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경전선&nbsp;（목포-&nbsp;장홍-&nbsp;부산）&nbsp;및&nbsp;광주&nbsp;송정-&nbsp;보성-&nbsp;장홍&nbsp;간&nbsp;철도&nbsp;고속화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;안양&nbsp;수문-&nbsp;고흥&nbsp;녹동&nbsp;,&nbsp;회진&nbsp;노력도-&nbsp;9t｝&nbsp;도&nbsp;금당&nbsp;간&nbsp;연륙교&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;미래&nbsp;먹거리&nbsp;산업&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산림&nbsp;바이오&nbsp;가공단지&nbsp;조성&nbsp;,&nbsp;천연물&nbsp;소재&nbsp;전주기&nbsp;표준화&nbsp;허브&nbsp;사업&nbsp;등을&nbsp;통해&nbsp;바이오와&nbsp;천연물&nbsp;소재를&nbsp;미래&nbsp;먹거리&nbsp;산업으로&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장흥&nbsp;바이오&nbsp;산단을&nbsp;활성화하여&nbsp;기업&nbsp;유치&nbsp;및&nbsp;일자리&nbsp;창출&nbsp;,&nbsp;토요시장&nbsp;구조&nbsp;개선과&nbsp;소상공인&nbsp;지원을&nbsp;통해&nbsp;지역상권&nbsp;활성화<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026.&nbsp;7&nbsp;∼&nbsp;2030.&nbsp;6<br><br>□&nbsp;재원&nbsp;조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통망&nbsp;확충&nbsp;:&nbsp;22,031억원(국비&nbsp;22,031)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래&nbsp;먹거리&nbsp;산업&nbsp;육성&nbsp;:&nbsp;1,550억&nbsp;원(국고&nbsp;1,010,&nbsp;지방비&nbsp;540)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역상권&nbsp;활성화&nbsp;:&nbsp;217억&nbsp;원(국비&nbsp;90,&nbsp;지방비&nbsp;127)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;바이오&nbsp;산단&nbsp;활성화&nbsp;:&nbsp;67억&nbsp;원(국비&nbsp;9,&nbsp;지방비&nbsp;58)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	군민 모두가 더불어 으뜸 복지 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="군민 모두가 더불어 으뜸 복지 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;생애&nbsp;전주기를&nbsp;아우르는&nbsp;촘촘한&nbsp;복지정책&nbsp;추진<br><br>□&nbsp;이행방법<br>○&nbsp;아동과&nbsp;청소년이&nbsp;꿈을&nbsp;키우는&nbsp;환경&nbsp;조성<br>-&nbsp;1~18세까지&nbsp;월&nbsp;20만&nbsp;원의&nbsp;출생&nbsp;기본소득&nbsp;치원을&nbsp;비롯하여&nbsp;초등학교&nbsp;입학&nbsp;장려금과&nbsp;중&nbsp;·&nbsp;고등학생&nbsp;학습&nbsp;장려금&nbsp;지원&nbsp;확대&nbsp;,&nbsp;중&nbsp;·&nbsp;고등학섕들의&nbsp;문화&nbsp;쳬험&nbsp;활동과&nbsp;해외&nbsp;비전&nbsp;캠프를&nbsp;확대&nbsp;운영<br>○&nbsp;청년이&nbsp;정착하고&nbsp;미래를&nbsp;설계할&nbsp;수&nbsp;있도록&nbsp;맞춤형&nbsp;정책&nbsp;지원<br>-&nbsp;청년&nbsp;·&nbsp;신혼부부&nbsp;맞춤형&nbsp;주거&nbsp;지원&nbsp;,&nbsp;청년&nbsp;공동쳬&nbsp;및&nbsp;동아리&nbsp;지원&nbsp;,&nbsp;청년&nbsp;자립&nbsp;프로그램&nbsp;운영<br>○&nbsp;여성&nbsp;친화&nbsp;및&nbsp;보훈&nbsp;시책&nbsp;확대<br>-&nbsp;경력&nbsp;단절&nbsp;여성의&nbsp;맞춤형&nbsp;교육&nbsp;및&nbsp;구인&nbsp;·&nbsp;구직&nbsp;연계&nbsp;프로그램을&nbsp;운영하고,&nbsp;국가&nbsp;유공자에&nbsp;대한&nbsp;보훈&nbsp;수당&nbsp;점진척&nbsp;인상<br>○&nbsp;노인&nbsp;·&nbsp;장애인&nbsp;등&nbsp;취약계층&nbsp;지원&nbsp;확대<br>-&nbsp;노인&nbsp;일자리&nbsp;및&nbsp;돌봄&nbsp;지원,&nbsp;장애인&nbsp;주거&nbsp;편의&nbsp;및&nbsp;활동&nbsp;·&nbsp;돌봄&nbsp;지원,&nbsp;장애인&nbsp;일자리&nbsp;사업&nbsp;,&nbsp;취약&nbsp;계층&nbsp;자활&nbsp;능력&nbsp;배양&nbsp;등<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026.&nbsp;7&nbsp;-2030.&nbsp;6<br><br>□&nbsp;재원&nbsp;조달방안&nbsp;둥<br>-&nbsp;아동&nbsp;·&nbsp;청소년&nbsp;지원&nbsp;:&nbsp;59억&nbsp;원(지방비）<br>-&nbsp;청년&nbsp;맞춤형&nbsp;정책&nbsp;:&nbsp;117억&nbsp;원(지방비)<br>-&nbsp;여성&nbsp;친화&nbsp;·&nbsp;보훈&nbsp;정책&nbsp;:&nbsp;5억&nbsp;원(지방비）<br>-&nbsp;취약계층&nbsp;지원&nbsp;:&nbsp;544억&nbsp;원(국비&nbsp;228,&nbsp;지방비&nbsp;316)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

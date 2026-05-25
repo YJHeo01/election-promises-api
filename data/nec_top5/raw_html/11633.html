@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;맹정호 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	시장 직속 ‘서산경제비상대책기구’ 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="시장 직속 ‘서산경제비상대책기구’ 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;현재의&nbsp;산업.고용&nbsp;위기(산업위기&nbsp;선제대응지역,&nbsp;고용위기&nbsp;선제대응지역)와&nbsp;인구감소&nbsp;그로인한&nbsp;소상공인&nbsp;위기&nbsp;극복<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;1호&nbsp;시정&nbsp;명령&nbsp;‘비상경제대책기구’&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;위기&nbsp;극복&nbsp;대응방안&nbsp;마련&nbsp;및&nbsp;관련&nbsp;사업&nbsp;기획<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;중&nbsp;서산경제비상대책기구&nbsp;구성&nbsp;~&nbsp;사업평가&nbsp;및&nbsp;종료&nbsp;시까지<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;일반운영비&nbsp;및&nbsp;연구개발비&nbsp;등을&nbsp;활용(기구&nbsp;운영비)<br>&nbsp;&nbsp;○&nbsp;비상경제대책기구&nbsp;기획&nbsp;사업&nbsp;중&nbsp;시급성을&nbsp;요하는&nbsp;경우&nbsp;2026년&nbsp;하반기&nbsp;추경&nbsp;편성<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;예산&nbsp;수립부터&nbsp;관련&nbsp;사업&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;대규모&nbsp;투자&nbsp;사업의&nbsp;경우&nbsp;정부&nbsp;공모사업&nbsp;등으로&nbsp;국비&nbsp;및&nbsp;도비&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	서산초 교육문화복합시설 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="서산초 교육문화복합시설 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;학교와&nbsp;지역사회가&nbsp;공존하는&nbsp;미래형&nbsp;도시&nbsp;모델<br>&nbsp;&nbsp;○&nbsp;시민의&nbsp;교육문화&nbsp;접근성&nbsp;제고<br>&nbsp;&nbsp;○&nbsp;원도심&nbsp;공동화&nbsp;해소&nbsp;및&nbsp;정주&nbsp;여건&nbsp;개선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;거버넌스&nbsp;구축&nbsp;및&nbsp;MOU&nbsp;체결&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;­&nbsp;서산시,&nbsp;충남도교육청,&nbsp;충남도가&nbsp;참여하는&nbsp;서산초&nbsp;복합화&nbsp;추진단&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;­&nbsp;도지사&nbsp;및&nbsp;교육감과&nbsp;‘서산초&nbsp;미래학교&nbsp;조성&nbsp;공동&nbsp;선언’&nbsp;및&nbsp;업무협약&nbsp;체결<br>&nbsp;&nbsp;○&nbsp;교육부&nbsp;‘학교복합시설&nbsp;활성화&nbsp;사업’&nbsp;공모&nbsp;신청<br>&nbsp;&nbsp;&nbsp;&nbsp;­&nbsp;건축비&nbsp;최대&nbsp;50%&nbsp;국비&nbsp;지원&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;­&nbsp;서산초를&nbsp;‘충남형&nbsp;그린스마트&nbsp;미래학교’의&nbsp;거점&nbsp;모델로&nbsp;지정<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;참여형&nbsp;설계&nbsp;및&nbsp;도시재생&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학부모,&nbsp;교사,&nbsp;학생과&nbsp;지역&nbsp;주민이&nbsp;설계&nbsp;과정에&nbsp;참여&nbsp;‘아이들의&nbsp;안전한&nbsp;동선&nbsp;확보,&nbsp;주민이&nbsp;선호하는&nbsp;도서관&nbsp;프로그램&nbsp;등&nbsp;생활밀착형&nbsp;요구&nbsp;설계&nbsp;반영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;읍내동,&nbsp;동문동&nbsp;도시재생&nbsp;사업과&nbsp;연계&nbsp;학교&nbsp;주변&nbsp;보행환경&nbsp;및&nbsp;도로망&nbsp;정비,&nbsp;원도심&nbsp;상권과의&nbsp;연결성&nbsp;강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기&nbsp;:&nbsp;연관&nbsp;기관과&nbsp;실무협의체&nbsp;구성&nbsp;및&nbsp;업무협약&nbsp;체결,&nbsp;학교복합시설&nbsp;공모사업&nbsp;신청<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;공유재산&nbsp;심의&nbsp;등&nbsp;행정절차&nbsp;완료&nbsp;후&nbsp;2029년&nbsp;하반기&nbsp;완공&nbsp;목표로&nbsp;단계적&nbsp;사업추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;토지매입비&nbsp;0원&nbsp;-&nbsp;기존&nbsp;초등학교&nbsp;부지&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;부처별&nbsp;예산&nbsp;‘패키지&nbsp;딜’&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육부&nbsp;및&nbsp;교육청&nbsp;예산&nbsp;:&nbsp;그린스마트&nbsp;미래학교<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문체부&nbsp;공모사업&nbsp;:&nbsp;중앙도서관<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국토부&nbsp;또는&nbsp;행안부&nbsp;:&nbsp;지하주차장&nbsp;‘생활SOC&nbsp;복합화’&nbsp;예산<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보건복지부&nbsp;및&nbsp;여성가족부&nbsp;예산&nbsp;:&nbsp;시민센터,&nbsp;돌봄센터<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;관련&nbsp;예산&nbsp;반영부터&nbsp;단계적&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	온 가족 온 만족 ‘하루정원’ 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="온 가족 온 만족 ‘하루정원’ 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;사계절&nbsp;내내&nbsp;원스톱으로&nbsp;아이와&nbsp;함께&nbsp;여가를&nbsp;보낼&nbsp;수&nbsp;있는&nbsp;공간&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;위로&nbsp;인한&nbsp;정주여건&nbsp;개선으로&nbsp;인구&nbsp;유출&nbsp;방지<br>&nbsp;&nbsp;○&nbsp;도시&nbsp;균형발전&nbsp;및&nbsp;지역&nbsp;경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;부지&nbsp;확보&nbsp;및&nbsp;행정&nbsp;절차&nbsp;신속화<br>&nbsp;&nbsp;&nbsp;&nbsp;­&nbsp;온석공원&nbsp;조성계획&nbsp;변경&nbsp;:&nbsp;현재의&nbsp;온석공원&nbsp;조성계획에&nbsp;실내체육관,&nbsp;북카페&nbsp;등&nbsp;시설이&nbsp;포함될&nbsp;수&nbsp;있도록&nbsp;토지이용계획&nbsp;변경<br>&nbsp;&nbsp;&nbsp;&nbsp;­&nbsp;도시계획시설&nbsp;결정&nbsp;:&nbsp;장기&nbsp;미집행&nbsp;공원&nbsp;부지&nbsp;활용을&nbsp;위해&nbsp;실시계획&nbsp;인가,&nbsp;보상절차&nbsp;명행<br>&nbsp;&nbsp;○&nbsp;온석동&nbsp;공공주택지구&nbsp;사업과&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;­&nbsp;하루정원을&nbsp;공공주택지구의&nbsp;‘핵심&nbsp;앵커&nbsp;시설’로&nbsp;설정<br>&nbsp;&nbsp;&nbsp;&nbsp;­&nbsp;주택지구&nbsp;사업의&nbsp;경제성&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;­&nbsp;공공주택&nbsp;개발&nbsp;민간&nbsp;수익&nbsp;환수로&nbsp;공원&nbsp;조성&nbsp;재투자<br>&nbsp;&nbsp;○&nbsp;공론화&nbsp;위원회를&nbsp;통한&nbsp;사업타당성&nbsp;및&nbsp;예산규모&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전문가&nbsp;및&nbsp;시민&nbsp;참여를&nbsp;통해&nbsp;사업타당성&nbsp;및&nbsp;예산규모&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;개념설계를&nbsp;공론회&nbsp;위원회의&nbsp;의견을&nbsp;반영하여&nbsp;수용자의&nbsp;만족도&nbsp;향상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;에너지&nbsp;효율을&nbsp;높인&nbsp;친환경&nbsp;설계를&nbsp;적용&nbsp;유지&nbsp;관리비를&nbsp;절감<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기&nbsp;:공론화&nbsp;위원회&nbsp;구성,&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;타당성&nbsp;조사,&nbsp;행정절차&nbsp;검토,&nbsp;2028년&nbsp;하반기&nbsp;완공&nbsp;목표로&nbsp;2027년부터&nbsp;관련&nbsp;예산&nbsp;반영하여&nbsp;단계적으로&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;생활SOC&nbsp;복합화&nbsp;사업&nbsp;신청&nbsp;등&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;충남도&nbsp;지역균형발전사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;공공지원&nbsp;민간임대주택&nbsp;사업&nbsp;연계&nbsp;기부채납&nbsp;방식&nbsp;민간&nbsp;투자&nbsp;유도<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;예산&nbsp;반영하여&nbsp;단계적&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	대학생 중식비·어르신 간병비 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="대학생 중식비·어르신 간병비 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;경제적&nbsp;약자인&nbsp;청년과&nbsp;어르신의&nbsp;경제적&nbsp;부담&nbsp;경감<br>&nbsp;&nbsp;○&nbsp;대학생의&nbsp;생활비&nbsp;지원&nbsp;및&nbsp;미진학&nbsp;청년의&nbsp;취업&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;간병비&nbsp;부담으로&nbsp;인한&nbsp;어르신과&nbsp;가족들의&nbsp;경제적&nbsp;파산&nbsp;예방<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대학생&nbsp;중식비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;­&nbsp;서산&nbsp;출신&nbsp;대학생에게&nbsp;학기당&nbsp;50만원(연간&nbsp;100만원)&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;­&nbsp;미진학&nbsp;미취업&nbsp;20대&nbsp;청년&nbsp;위&nbsp;금액&nbsp;지원<br><br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;간병비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;­&nbsp;만&nbsp;65세&nbsp;이상&nbsp;어르신&nbsp;간병비&nbsp;1일&nbsp;3만원&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기&nbsp;세부계획&nbsp;및&nbsp;예산안&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;2027년부터&nbsp;시행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;&nbsp;2027년&nbsp;예산안부터&nbsp;반영</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	과감한 행정혁신으로 ‘시민의 서산’ 구현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="과감한 행정혁신으로 ‘시민의 서산’ 구현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시정의&nbsp;시민참여&nbsp;확대&nbsp;통한&nbsp;진정한&nbsp;지방자치&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;과시용&nbsp;낭비&nbsp;예산&nbsp;절감,&nbsp;시민의&nbsp;삶에&nbsp;도움이&nbsp;되는&nbsp;효능감&nbsp;있는&nbsp;행정&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;실시간&nbsp;온라인&nbsp;민원처리&nbsp;시스템&nbsp;‘온통서산2.0’&nbsp;부활<br>&nbsp;&nbsp;&nbsp;&nbsp;­&nbsp;민선&nbsp;7기&nbsp;온라인&nbsp;민원처리&nbsp;시스템&nbsp;‘온통서산’의&nbsp;부활&nbsp;및&nbsp;2,0으로&nbsp;업그레이드<br>&nbsp;&nbsp;&nbsp;&nbsp;­&nbsp;다양한&nbsp;SNS&nbsp;채널&nbsp;및&nbsp;실시간&nbsp;민원처리&nbsp;과정&nbsp;확인&nbsp;가능<br>&nbsp;&nbsp;○&nbsp;타운홀&nbsp;미팅&nbsp;정례화,&nbsp;간부화의&nbsp;및&nbsp;주요&nbsp;보고.&nbsp;설명회&nbsp;인터넷&nbsp;생중계<br>&nbsp;&nbsp;&nbsp;&nbsp;­&nbsp;찾아가는&nbsp;시민의&nbsp;의견&nbsp;청취<br>&nbsp;&nbsp;&nbsp;&nbsp;­&nbsp;시정에&nbsp;대한&nbsp;시민의&nbsp;이해도&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;레드팀&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시장의&nbsp;행정에&nbsp;의도적으로&nbsp;비판적&nbsp;의견을&nbsp;내는&nbsp;팀을&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행정의&nbsp;실패,&nbsp;부작용&nbsp;방지<br>&nbsp;&nbsp;○&nbsp;시장&nbsp;의전의&nbsp;간소화&nbsp;및&nbsp;홍보성&nbsp;행사&nbsp;자제<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;실무중심의&nbsp;행정으로&nbsp;낭비성&nbsp;예산&nbsp;감축&nbsp;및&nbsp;행정&nbsp;효율제고<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;중&nbsp;즉시&nbsp;시행(온통서산20&nbsp;등은&nbsp;준비기간을&nbsp;거쳐&nbsp;즉시&nbsp;시행)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;‘온통서산20’&nbsp;개발비,&nbsp;각종&nbsp;회의&nbsp;등&nbsp;실시간&nbsp;중계&nbsp;시스템&nbsp;구축&nbsp;비용&nbsp;등을&nbsp;2027년&nbsp;예산&nbsp;반영&nbsp;후&nbsp;시행</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

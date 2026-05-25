@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김영욱 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	청년과 일자리가 살아나는 경제활력도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="청년과 일자리가 살아나는 경제활력도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;부산진구를&nbsp;가로지르는&nbsp;경부선의&nbsp;도시적&nbsp;한계를&nbsp;최소화하고&nbsp;기능적&nbsp;효율성을&nbsp;극대화하여&nbsp;도시공간의&nbsp;기능을&nbsp;회복하고&nbsp;미래산업기반&nbsp;확충&nbsp;및&nbsp;지역&nbsp;경제&nbsp;활성화의&nbsp;기반을&nbsp;확립하는&nbsp;동시에&nbsp;세대별&nbsp;창업,&nbsp;취업&nbsp;정책을&nbsp;대폭&nbsp;강화하고&nbsp;권역별&nbsp;특성을&nbsp;살린&nbsp;상권&nbsp;활성화를&nbsp;통해&nbsp;부산진구를&nbsp;경제활력도시로&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;부전역&nbsp;KTX&nbsp;정차역&nbsp;지정&nbsp;및&nbsp;복합환승센터&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;범천철도시설&nbsp;이전부지&nbsp;개발&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부산진구보건소,&nbsp;문화회관&nbsp;등의&nbsp;공공시설&nbsp;건립&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시재생&nbsp;기반&nbsp;시설&nbsp;확충을&nbsp;통한&nbsp;미래산업형&nbsp;글로벌&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;부산진구&nbsp;창업지원센터&nbsp;조성&nbsp;및&nbsp;중장년,&nbsp;계층별&nbsp;일자리&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;상권&nbsp;경쟁력&nbsp;강화를&nbsp;통한&nbsp;권역별&nbsp;자율상권&nbsp;구역&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내&nbsp;추진&nbsp;:&nbsp;부산진구&nbsp;창업지원센터&nbsp;조성,&nbsp;세대별&nbsp;일자리&nbsp;지원&nbsp;강화,&nbsp;자율상권구역의&nbsp;상권&nbsp;활성화&nbsp;<br>&nbsp;&nbsp;○&nbsp;중단기&nbsp;추진&nbsp;:&nbsp;범천철도시설&nbsp;이전부지&nbsp;개발,&nbsp;부전역&nbsp;KTX&nbsp;정차역&nbsp;지정&nbsp;및&nbsp;복합환승센터&nbsp;개발<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;지방비&nbsp;및&nbsp;민간자본&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	아이키우기 좋은 가족행복도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="아이키우기 좋은 가족행복도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;공공의료&nbsp;서비스&nbsp;확대를&nbsp;통해&nbsp;언제&nbsp;어디서든&nbsp;아동&nbsp;의료&nbsp;서비스를&nbsp;제공하고,&nbsp;청년·신혼부부들의&nbsp;주거비&nbsp;부담을&nbsp;경감시키고&nbsp;양질의&nbsp;평생교육&nbsp;기반을&nbsp;구축하여&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;부산진구를&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;공공산후조리원&nbsp;건립&nbsp;및&nbsp;달빛어린이병원&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보건소&nbsp;이전과&nbsp;함께&nbsp;공공산후조리원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;의료기관&nbsp;공모&nbsp;및&nbsp;지정,&nbsp;달빛어린이병원&nbsp;운영비&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;청년·신혼부부&nbsp;행복주택&nbsp;공급<br>&nbsp;&nbsp;○&nbsp;권역별&nbsp;평생학습관&nbsp;및&nbsp;공공도서관&nbsp;확충<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내&nbsp;추진&nbsp;:&nbsp;달빛어린이병원&nbsp;지원,&nbsp;청년·신혼부부&nbsp;행복주택&nbsp;공급,&nbsp;권역별&nbsp;평생학습관&nbsp;및&nbsp;공공도서관&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;중단기&nbsp;추진&nbsp;:&nbsp;공공산후조리원&nbsp;건립<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;지방비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;부산도시공사&nbsp;협업&nbsp;및&nbsp;행정지원&nbsp;강화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	누구도 소외되지 않는 복지건강도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="누구도 소외되지 않는 복지건강도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;주민들의&nbsp;수요에&nbsp;맞는&nbsp;생활체육&nbsp;공간을&nbsp;확충하고&nbsp;주민생활&nbsp;복합공간을&nbsp;조성하여&nbsp;주민&nbsp;모두의&nbsp;삶의&nbsp;질을&nbsp;높이는&nbsp;동시에,&nbsp;장애인들의&nbsp;자활을&nbsp;지원하고&nbsp;어르신·1인&nbsp;가구&nbsp;돌봄서비스&nbsp;강화를&nbsp;통해&nbsp;부산&nbsp;진구를&nbsp;복지건강도시로&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;생활체육공간&nbsp;확충을&nbsp;통한&nbsp;생활스포츠&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;DRMO부지&nbsp;내&nbsp;레일스포츠파크&nbsp;및&nbsp;엄광체육공원&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;노후&nbsp;주민센터&nbsp;리모델링을&nbsp;통한&nbsp;생활복합공간&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;장애인&nbsp;작업센터&nbsp;조성&nbsp;및&nbsp;장애인&nbsp;체육회&nbsp;설립&nbsp;지원&nbsp;<br>&nbsp;&nbsp;○&nbsp;찾아가는&nbsp;생활밀착형&nbsp;행정서비스&nbsp;도입&nbsp;및&nbsp;돌봄서비스&nbsp;강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내&nbsp;추진&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	편안하고 쾌적한 생활안전도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="편안하고 쾌적한 생활안전도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;고가도로&nbsp;철거&nbsp;및&nbsp;재활용사업소&nbsp;지하화&nbsp;등을&nbsp;통해&nbsp;도시&nbsp;경관&nbsp;및&nbsp;주민생활환경개선,&nbsp;동천의&nbsp;수질개선&nbsp;및&nbsp;친수공간을&nbsp;확보하는&nbsp;등&nbsp;도심&nbsp;속&nbsp;생태공간을&nbsp;조성하여&nbsp;편안하고&nbsp;쾌적한&nbsp;부산진구를&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;동서고가도로&nbsp;철거&nbsp;계획&nbsp;확정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사상~해운대&nbsp;고속도로&nbsp;건설과&nbsp;함께&nbsp;동시에&nbsp;추진하여&nbsp;신속한&nbsp;전면&nbsp;철거&nbsp;협의를&nbsp;통해&nbsp;도심단절&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;재활용사업소&nbsp;지하화&nbsp;추진&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재활용선별장과&nbsp;자원회수센터를&nbsp;통합하여&nbsp;시설&nbsp;현대화&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;동천&nbsp;수질개선&nbsp;및&nbsp;친수공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동천&nbsp;수질개선&nbsp;및&nbsp;악취저감&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동천&nbsp;둘레길&nbsp;확대&nbsp;및&nbsp;테마거리&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;안심마을&nbsp;만들기&nbsp;확대&nbsp;추진&nbsp;&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;중장기&nbsp;추진&nbsp;&nbsp;&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	일상이 풍요로운 문화관광도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="일상이 풍요로운 문화관광도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;부산진구만의&nbsp;참신하고&nbsp;독특한&nbsp;문화관광&nbsp;콘텐츠&nbsp;개발을&nbsp;통하여&nbsp;주민&nbsp;모두가&nbsp;문화생활을&nbsp;즐기는&nbsp;한편,&nbsp;누구나&nbsp;머물다&nbsp;갈&nbsp;수&nbsp;있는&nbsp;문화관광도시&nbsp;부산진구를&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;서면&nbsp;의료관광&nbsp;특구&nbsp;지정&nbsp;추진&nbsp;및&nbsp;복합&nbsp;의료관광&nbsp;클러스터&nbsp;조성&nbsp;<br>&nbsp;&nbsp;○&nbsp;부산진구&nbsp;관광체계&nbsp;대전환&nbsp;프로젝트&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;「보~go·사고·먹고·자고」&nbsp;gogogo&nbsp;로컬&nbsp;관광자원&nbsp;발굴<br>&nbsp;&nbsp;○&nbsp;e-스포츠&nbsp;전국대회&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;e-스포츠&nbsp;중심&nbsp;콘텐츠&nbsp;산업&nbsp;육성&nbsp;및&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;부산진&nbsp;문화거리&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년·지역예술가-상권&nbsp;연계형&nbsp;문화콘텐츠&nbsp;모델&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내&nbsp;추진&nbsp;&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

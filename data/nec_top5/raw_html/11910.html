@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;권기창 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	국립의과대학 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="국립의과대학 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;ㅇ&nbsp;지역&nbsp;간&nbsp;의료격차&nbsp;해소와&nbsp;시민&nbsp;건강권&nbsp;보장을&nbsp;위한&nbsp;공공의료&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;ㅇ&nbsp;상급종합병원&nbsp;건립을&nbsp;통해&nbsp;경상북도&nbsp;북부권&nbsp;의료거점&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;ㅇ&nbsp;국립경국대에&nbsp;의과대학&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보건복지부&nbsp;‘지역필수공공의료&nbsp;인력&nbsp;단계적&nbsp;증원’에&nbsp;따란&nbsp;신규&nbsp;정원&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;약&nbsp;100명의&nbsp;정원을&nbsp;활용한&nbsp;의과대학&nbsp;신규&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;ㅇ&nbsp;상급종합병원&nbsp;건립&nbsp;또는&nbsp;지역&nbsp;내&nbsp;의료기관과&nbsp;협력으로&nbsp;의료거점&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공동수련제도,&nbsp;의료기관&nbsp;간&nbsp;협진체계&nbsp;등&nbsp;확대&nbsp;도모<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인접&nbsp;지역과의&nbsp;교통망&nbsp;확충으로&nbsp;생활인구&nbsp;유입&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;2026.&nbsp;~&nbsp;2029.&nbsp;:&nbsp;국립의과대학&nbsp;유치&nbsp;및&nbsp;대학&nbsp;캠퍼스&nbsp;조성<br>&nbsp;&nbsp;ㅇ&nbsp;2030.&nbsp;~&nbsp;:&nbsp;보건복지부&nbsp;증원&nbsp;계획에&nbsp;따라&nbsp;신입생&nbsp;모집<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;ㅇ&nbsp;지역의사전형&nbsp;적용에&nbsp;따른&nbsp;국비의&nbsp;전폭적&nbsp;지원&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;의과대학&nbsp;유치&nbsp;및&nbsp;조기&nbsp;정착을&nbsp;위해&nbsp;청년&nbsp;지원을&nbsp;위한&nbsp;예산&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	안동바이오생명 국가산업단지 조기 완공</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="안동바이오생명 국가산업단지 조기 완공">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;ㅇ&nbsp;안동바이오생명국가산업단지&nbsp;신속&nbsp;조성<br>&nbsp;&nbsp;ㅇ&nbsp;지역&nbsp;특화산업(바이오·백신·헴프)&nbsp;활성화를&nbsp;위한&nbsp;기업투자&nbsp;여건&nbsp;조성<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;ㅇ&nbsp;안동바이오생명국가산업단지&nbsp;조성을&nbsp;위한&nbsp;절차&nbsp;신속&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙투자심사&nbsp;완료&nbsp;및&nbsp;실시협약&nbsp;체결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가산업단지&nbsp;승인&nbsp;및&nbsp;지정(국토해양부)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;토지보상&nbsp;착수&nbsp;및&nbsp;착공<br>&nbsp;&nbsp;ㅇ&nbsp;지역&nbsp;특화산업(바이오·백신·헴프)&nbsp;성장을&nbsp;위한&nbsp;여건&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해외&nbsp;우수연구소&nbsp;유치(백신&nbsp;외&nbsp;재생의료&nbsp;분야&nbsp;등&nbsp;산업영역&nbsp;확장)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;바이오분야&nbsp;국가첨단전략산업&nbsp;특화단지,&nbsp;국가첨단백신개발센터&nbsp;조성·운용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업용&nbsp;헴프&nbsp;규제자유특구&nbsp;특례&nbsp;확장&nbsp;및&nbsp;산업화를&nbsp;위한&nbsp;생산기반&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;2026.&nbsp;~&nbsp;:&nbsp;바이오·백신·헴프산업&nbsp;성장&nbsp;여건&nbsp;확장<br>&nbsp;&nbsp;ㅇ&nbsp;2026.&nbsp;~&nbsp;2027.&nbsp;:&nbsp;국토해양부&nbsp;국가산업단지&nbsp;승인·지정&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;2028.&nbsp;~&nbsp;:&nbsp;토지보상&nbsp;및&nbsp;착공<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;ㅇ&nbsp;풍산읍&nbsp;일원&nbsp;약&nbsp;100만&nbsp;㎡&nbsp;규모&nbsp;조성&nbsp;/&nbsp;약&nbsp;3,465억&nbsp;원&nbsp;예산&nbsp;소요<br>&nbsp;&nbsp;ㅇ&nbsp;안동시를&nbsp;비롯해&nbsp;한국토지주택공사(LH),&nbsp;경상북도개발공사를&nbsp;공동시행자로&nbsp;선정함에&nbsp;따라&nbsp;안정적인&nbsp;재원&nbsp;확보&nbsp;및&nbsp;사업&nbsp;시행&nbsp;가능</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	청년 천원주택 100호 공급</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="청년 천원주택 100호 공급">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;ㅇ&nbsp;양질의&nbsp;일자리&nbsp;창출과&nbsp;더불어&nbsp;청년&nbsp;정주여건을&nbsp;개선하여&nbsp;청년&nbsp;이탈&nbsp;방지&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;보육,&nbsp;커뮤니티&nbsp;등&nbsp;생활&nbsp;인프라를&nbsp;통합&nbsp;구축하여&nbsp;청년&nbsp;체감형&nbsp;정책&nbsp;구현<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;ㅇ&nbsp;공공임대주택(신축매입형&nbsp;등)&nbsp;사업&nbsp;참여를&nbsp;통해&nbsp;주택&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신축&nbsp;공공임대주택의&nbsp;활용을&nbsp;우선으로,&nbsp;향후&nbsp;기존주택&nbsp;활용도&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신축&nbsp;공공임대주택은&nbsp;청년층&nbsp;주거만족도&nbsp;제고를&nbsp;위해&nbsp;면적&nbsp;기준&nbsp;상향<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(청년가구&nbsp;약&nbsp;17평형,&nbsp;신혼가구&nbsp;약&nbsp;28평형&nbsp;건립&nbsp;추진)<br>&nbsp;&nbsp;ㅇ&nbsp;청년&nbsp;주거&nbsp;만족도&nbsp;제고와&nbsp;체감형&nbsp;정책&nbsp;구현을&nbsp;위한&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보육,&nbsp;입주민간&nbsp;소통이&nbsp;단지&nbsp;내에서&nbsp;가능토록&nbsp;생활&nbsp;인프라&nbsp;통합&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임대료&nbsp;지원을&nbsp;통해&nbsp;획기적인&nbsp;주거비&nbsp;절감(하루&nbsp;1천원)&nbsp;및&nbsp;청년&nbsp;도약&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;2026.&nbsp;~&nbsp;2027.&nbsp;:&nbsp;공공임대주택&nbsp;등&nbsp;건립<br>&nbsp;&nbsp;ㅇ&nbsp;2028.&nbsp;~&nbsp;:&nbsp;입주자&nbsp;공고&nbsp;및&nbsp;임대료&nbsp;지원<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;ㅇ&nbsp;약&nbsp;230억&nbsp;원의&nbsp;건축비와&nbsp;연간&nbsp;3~4억&nbsp;원의&nbsp;지원&nbsp;예산&nbsp;소요<br>&nbsp;&nbsp;ㅇ&nbsp;신축매입형&nbsp;공공임대주택의&nbsp;경우&nbsp;건축비는&nbsp;공공주택사업자가&nbsp;매입하며&nbsp;소요됨에&nbsp;따라&nbsp;市의&nbsp;재원투입&nbsp;없이도&nbsp;가능<br>&nbsp;&nbsp;ㅇ&nbsp;보육·커뮤니티&nbsp;등&nbsp;생활인프라&nbsp;구축비(약&nbsp;50억)&nbsp;및&nbsp;연간&nbsp;지원금(3~4억&nbsp;예상)은&nbsp;지방소멸대응기금&nbsp;또는&nbsp;시비로&nbsp;충당</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	안동시 초중고생 반값 교통비 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="안동시 초중고생 반값 교통비 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;ㅇ&nbsp;정부가&nbsp;추진하는&nbsp;K-패스&nbsp;제도를&nbsp;지역&nbsp;실정에&nbsp;맞게&nbsp;보완하여&nbsp;청소년&nbsp;이동권보장&nbsp;및&nbsp;대중교통&nbsp;활성화<br>&nbsp;&nbsp;ㅇ&nbsp;교통비&nbsp;환급을&nbsp;통해&nbsp;가계&nbsp;부담&nbsp;완화&nbsp;및&nbsp;지역화폐를&nbsp;통한&nbsp;골목상권&nbsp;활성화<br>&nbsp;&nbsp;<br>□&nbsp;이행방법(K-패스&nbsp;한시적&nbsp;완화&nbsp;기준&nbsp;미적용)<br>&nbsp;&nbsp;ㅇ&nbsp;K-패스&nbsp;제도를&nbsp;지역&nbsp;실정에&nbsp;맞게&nbsp;보완&nbsp;및&nbsp;활성화를&nbsp;위한&nbsp;지원체계&nbsp;확립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대상&nbsp;확대&nbsp;:&nbsp;만&nbsp;19세&nbsp;이상&nbsp;⇒&nbsp;만&nbsp;7세&nbsp;이상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;환급&nbsp;기준&nbsp;완화&nbsp;:&nbsp;월&nbsp;15회&nbsp;이상&nbsp;⇒&nbsp;10회&nbsp;이상,&nbsp;30%&nbsp;환급&nbsp;⇒&nbsp;50%&nbsp;환급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;환급&nbsp;방법&nbsp;차별화:&nbsp;현금(카드사&nbsp;청구할인&nbsp;등)&nbsp;환급&nbsp;⇒&nbsp;지역화폐&nbsp;환급<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(K-패스&nbsp;환급&nbsp;대상은&nbsp;‘기존&nbsp;방식의&nbsp;환급&nbsp;30%’&nbsp;+&nbsp;‘차액&nbsp;환급&nbsp;20%&nbsp;지역화폐’)<br>&nbsp;&nbsp;ㅇ&nbsp;지역회폐를&nbsp;활용한&nbsp;환급으로&nbsp;지역&nbsp;상권&nbsp;활성화&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;2026.&nbsp;~&nbsp;2027.&nbsp;:&nbsp;별도&nbsp;플랫폼&nbsp;구축&nbsp;및&nbsp;K-패스·지역화폐&nbsp;플랫폼과&nbsp;연계<br>&nbsp;&nbsp;ㅇ&nbsp;2027.&nbsp;~&nbsp;:&nbsp;사업&nbsp;시행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;ㅇ&nbsp;초기&nbsp;플랫폼&nbsp;구축비&nbsp;포함&nbsp;약&nbsp;25억&nbsp;정도의&nbsp;사업비가&nbsp;소요되며,&nbsp;향후&nbsp;연간10억&nbsp;내외의&nbsp;지원&nbsp;예산&nbsp;소요<br>&nbsp;&nbsp;ㅇ&nbsp;K-패스&nbsp;제도와&nbsp;병합&nbsp;시행으로&nbsp;국비&nbsp;확보&nbsp;가능<br>&nbsp;&nbsp;ㅇ&nbsp;타&nbsp;지역(現.&nbsp;8개&nbsp;광역단체가&nbsp;지역&nbsp;K-패스&nbsp;시행&nbsp;中)에&nbsp;비해&nbsp;지역&nbsp;K-패스&nbsp;제도가&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;시행되지&nbsp;않는&nbsp;경상북도의&nbsp;선도&nbsp;사례로&nbsp;정착시켜&nbsp;도비&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	외국인 계절근로자 사업 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="외국인 계절근로자 사업 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;ㅇ&nbsp;외국인&nbsp;계절근로자&nbsp;도입을&nbsp;지속&nbsp;확대하여&nbsp;농촌의&nbsp;고령화와&nbsp;인력난&nbsp;대응<br>&nbsp;&nbsp;ㅇ&nbsp;농기계&nbsp;숙련&nbsp;외국인&nbsp;계절근로자&nbsp;도입으로&nbsp;실질적&nbsp;영농&nbsp;지원&nbsp;체계&nbsp;확립<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;ㅇ&nbsp;외국인&nbsp;계절근로자&nbsp;도입&nbsp;지속&nbsp;확대&nbsp;추진(민선&nbsp;9기&nbsp;내&nbsp;2천&nbsp;명&nbsp;도입)<br>&nbsp;&nbsp;&nbsp;=============================================================<br>&nbsp;&nbsp;&nbsp;|&nbsp;연&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;도&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;2025년&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;2026년&nbsp;&nbsp;|&nbsp;&nbsp;2027년&nbsp;&nbsp;|&nbsp;&nbsp;2028년&nbsp;&nbsp;|&nbsp;&nbsp;2029년&nbsp;&nbsp;|&nbsp;&nbsp;2030년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>&nbsp;&nbsp;&nbsp;=============================================================<br>&nbsp;&nbsp;&nbsp;|&nbsp;도입규모&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;1,288명&nbsp;&nbsp;|&nbsp;1,400명&nbsp;&nbsp;|&nbsp;1,550명&nbsp;&nbsp;|&nbsp;1,700명&nbsp;&nbsp;|&nbsp;&nbsp;1,850명&nbsp;&nbsp;|&nbsp;&nbsp;2,000명&nbsp;&nbsp;&nbsp;|<br>&nbsp;&nbsp;&nbsp;=============================================================<br><br>&nbsp;&nbsp;ㅇ&nbsp;농기계&nbsp;숙련&nbsp;외국인&nbsp;계절근로자&nbsp;도입으로&nbsp;영농복지&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농민&nbsp;편의&nbsp;증진을&nbsp;위해&nbsp;시행&nbsp;중인&nbsp;농기계&nbsp;배달서비스와&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘농기계&nbsp;숙련&nbsp;외국인&nbsp;계절근로자’를&nbsp;‘고령농&nbsp;및&nbsp;영세농’을&nbsp;중심으로&nbsp;배정하여&nbsp;‘농기계&nbsp;배달&nbsp;+&nbsp;농작업&nbsp;대행&nbsp;+&nbsp;인력난&nbsp;해소’를&nbsp;통합&nbsp;지원하는&nbsp;‘안동형&nbsp;농업&nbsp;협력&nbsp;모델’&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;2026.&nbsp;~&nbsp;:&nbsp;외국인&nbsp;계절근로자&nbsp;지속&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;ㅇ&nbsp;2026.&nbsp;~&nbsp;:&nbsp;안동형&nbsp;농업&nbsp;협력&nbsp;모델&nbsp;시범&nbsp;시행&nbsp;및&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;ㅇ&nbsp;농기계&nbsp;배달서비스는&nbsp;기&nbsp;시행&nbsp;중인&nbsp;제도이며,&nbsp;외국인&nbsp;계절근로자에&nbsp;인건비는&nbsp;이용&nbsp;농가가&nbsp;전적으로&nbsp;부담함에&nbsp;따라&nbsp;추가적인&nbsp;예산&nbsp;소요의&nbsp;가능성&nbsp;낮음<br>&nbsp;&nbsp;ㅇ&nbsp;외국인&nbsp;계절근로자에&nbsp;대한&nbsp;간접적&nbsp;지원비(보험료,&nbsp;검사비&nbsp;등)는&nbsp;일부&nbsp;증액될수&nbsp;있으나,&nbsp;연간&nbsp;인건비&nbsp;절감&nbsp;효과와&nbsp;농가&nbsp;만족도에&nbsp;비하면&nbsp;미미함.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

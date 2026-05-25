@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;정택균 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	구례군민 월 30만원 연금지급</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="구례군민 월 30만원 연금지급">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▶목표&nbsp;:&nbsp;군민에게는&nbsp;여유를&nbsp;지역에는&nbsp;활력을&nbsp;불어넣는&nbsp;구례형&nbsp;사회보장:&nbsp;<br>제도&nbsp;선도모델&nbsp;구축<br>군민에게는&nbsp;최소한의&nbsp;소득&nbsp;안전망이자&nbsp;안정된&nbsp;생활의&nbsp;버팀목이&nbsp;되고,&nbsp;청년들에게는&nbsp;구례로&nbsp;다시&nbsp;돌아올&nbsp;이유와&nbsp;명분이&nbsp;될&nbsp;것이다&nbsp;지역경제에는&nbsp;소비를&nbsp;촉진하고&nbsp;쇠락해가는&nbsp;지역경제에&nbsp;선순환&nbsp;구조로&nbsp;이끌어내는&nbsp;마중물이자&nbsp;성장엔진의&nbsp;역할을&nbsp;할&nbsp;것이다&nbsp;최종적인&nbsp;목표는&nbsp;구례에&nbsp;사람을&nbsp;남기기&nbsp;위한&nbsp;정책이다.<br><br>▶이행방법&nbsp;:&nbsp;지역주도의&nbsp;혁신과&nbsp;성장을&nbsp;실현하기&nbsp;위해서는&nbsp;중앙정부의&nbsp;하청기관이&nbsp;아닌&nbsp;구례군수도&nbsp;성장안의&nbsp;청사진을&nbsp;들고가서&nbsp;적극적으로&nbsp;요구해야&nbsp;한다.&nbsp;특별자치도(강원,전북,제주특별자치도)처럼&nbsp;특별한&nbsp;방식의&nbsp;자치권과&nbsp;발전&nbsp;전략을&nbsp;요구하여&nbsp;관철하여야&nbsp;한다.<br><br>▶이행기간&nbsp;<br>√2026년&nbsp;10월&nbsp;구례군민&nbsp;기본소득&nbsp;만원&nbsp;지급&nbsp;&nbsp;&nbsp;<br>√2027년&nbsp;1월부터&nbsp;년&nbsp;월까지&nbsp;월&nbsp;만원&nbsp;구례군민&nbsp;연금지급&nbsp;&nbsp;<br>√2028년&nbsp;3월부터&nbsp;월&nbsp;만원&nbsp;구례군민&nbsp;연금지급&nbsp;&nbsp;<br><br>▶재원조달&nbsp;방안&nbsp;<br>√농어촌&nbsp;기본소득&nbsp;2차&nbsp;시범사업&nbsp;수혜&nbsp;(국비&nbsp;연180억&nbsp;)<br>√전남광주특별시&nbsp;인센티브&nbsp;유치&nbsp;(연300억원)<br>√지방비&nbsp;100억원&nbsp;유치,&nbsp;군비&nbsp;150억원&nbsp;출연</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	구례군민 장례비 500만원 선지급 및 현대식 장례문 화원 건축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="구례군민 장례비 500만원 선지급 및 현대식 장례문 화원 건축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▶&nbsp;목표&nbsp;:&nbsp;고인에&nbsp;대한&nbsp;최선의&nbsp;예우와&nbsp;품격있는&nbsp;장례&nbsp;지원<br>구례군민으로서&nbsp;고인의&nbsp;지역사회&nbsp;공헌에&nbsp;깊은&nbsp;감사와&nbsp;"가족과&nbsp;함께하는&nbsp;마지막&nbsp;소중한&nbsp;시간"을&nbsp;더욱&nbsp;밝은&nbsp;이미지로&nbsp;추억하기&nbsp;위한&nbsp;장례지원으로&nbsp;유가족과&nbsp;조문객에게&nbsp;편의증진&nbsp;제공&nbsp;및&nbsp;차별화된&nbsp;현대식&nbsp;장례문화원&nbsp;건축.<br><br>▶이행방법&nbsp;<br>√장례지원&nbsp;전담팀&nbsp;구성&nbsp;&nbsp;<br>√기존사업자와&nbsp;민관합동으로&nbsp;사업추진&nbsp;&nbsp;<br>√장례문화원&nbsp;신축은&nbsp;구례군에서&nbsp;시행하고&nbsp;운영관리는&nbsp;기존&nbsp;민간업자가&nbsp;수행<br><br>▶이행기간&nbsp;:&nbsp;장례비는&nbsp;취임즉시&nbsp;시행하고&nbsp;장례문화원&nbsp;건축은&nbsp;2027년&nbsp;12월&nbsp;준공&nbsp;목표<br><br>▶재원조달&nbsp;방안<br>√장례문화원&nbsp;건설비&nbsp;100억원&nbsp;군비&nbsp;조달&nbsp;&nbsp;<br>√장례비용&nbsp;연20억원&nbsp;군비&nbsp;조달&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;(연도별&nbsp;사망인원&nbsp;-&nbsp;2024년&nbsp;401명,&nbsp;2025년&nbsp;399명)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	구례군민 자녀 대학교 학자금 년 전액지급</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="구례군민 자녀 대학교 학자금 년 전액지급">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▶목표&nbsp;:&nbsp;지역의&nbsp;꿈나무&nbsp;자녀&nbsp;전출&nbsp;방지&nbsp;및&nbsp;청년&nbsp;장학제도&nbsp;수립<br>지역&nbsp;청소년의&nbsp;타지역&nbsp;유출을&nbsp;방지하고&nbsp;경제적인&nbsp;이유로&nbsp;교육환경이&nbsp;어려운&nbsp;인재들에게&nbsp;보다&nbsp;나은&nbsp;고등교육&nbsp;기회를&nbsp;제공한다&nbsp;또한&nbsp;.&nbsp;농산어촌유학&nbsp;활성화&nbsp;정책과&nbsp;연계하여&nbsp;구례군에&nbsp;안착시킬&nbsp;수&nbsp;있도록&nbsp;장학제도를&nbsp;장려한다.<br><br>▶이행방법&nbsp;:&nbsp;1&nbsp;300&nbsp;.&nbsp;학기당&nbsp;만원&nbsp;한도내&nbsp;실비&nbsp;지원<br>&nbsp;&nbsp;√&nbsp;서울&nbsp;소재의&nbsp;구례&nbsp;기숙&nbsp;학사&nbsp;지원&nbsp;확대&nbsp;및&nbsp;홍보<br>&nbsp;&nbsp;√&nbsp;구례청년마을&nbsp;수숲기간&nbsp;선정과&nbsp;시너지&nbsp;연계&nbsp;지속&nbsp;확대<br>※청년마을은&nbsp;행안부가&nbsp;추진하는&nbsp;청년마을&nbsp;만들기&nbsp;사업으로&nbsp;청년단체&nbsp;기업이&nbsp;지역에서&nbsp;활동을&nbsp;기획.&nbsp;운영하도록&nbsp;&nbsp;지원하는&nbsp;공모형&nbsp;사업<br>&nbsp;&nbsp;√&nbsp;전국단위&nbsp;모집&nbsp;구례군&nbsp;자율중학교(&nbsp;기숙형&nbsp;자율학교&nbsp;)&nbsp;설립&nbsp;&nbsp;→전북완주군&nbsp;화산중학교&nbsp;벤치마킹<br>&nbsp;&nbsp;√&nbsp;지역내&nbsp;10개&nbsp;초등학교&nbsp;폐교위기&nbsp;탈출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;.출생인구&nbsp;:&nbsp;2024년&nbsp;52명&nbsp;2025년&nbsp;60명&nbsp;(합계&nbsp;출산율&nbsp;0.93으로&nbsp;전남&nbsp;꼴지)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;.초등학교&nbsp;입학인원&nbsp;:&nbsp;2026년&nbsp;3월&nbsp;81명&nbsp;입학.&nbsp;농산어촌&nbsp;유학생&nbsp;14명제외시&nbsp;순수&nbsp;지역아동&nbsp;67명&nbsp;입학<br>(2019년&nbsp;구례군&nbsp;출생아&nbsp;103명으로&nbsp;36명&nbsp;타지역&nbsp;전출)<br><br>▶이행기간&nbsp;:&nbsp;취임&nbsp;즉시&nbsp;시행<br>&nbsp;&nbsp;√&nbsp;2026년&nbsp;하반기&nbsp;등록금부터&nbsp;지급<br><br>▶재원조달&nbsp;방안&nbsp;:&nbsp;최대&nbsp;연간&nbsp;18억원&nbsp;군비&nbsp;출연&nbsp;(&nbsp;연&nbsp;300명,&nbsp;1인당&nbsp;연&nbsp;600만원&nbsp;한도&nbsp;)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	군내버스 공영화와 무료화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="군내버스 공영화와 무료화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▶목표&nbsp;:&nbsp;무료&nbsp;시내버스&nbsp;체계도입<br>교통이&nbsp;어르신의&nbsp;고립을&nbsp;재생산한다<br>신안군&nbsp;시내버스&nbsp;공영화(2007년)·무료화&nbsp;했고,&nbsp;현재&nbsp;시내버스&nbsp;요금&nbsp;전부&nbsp;무료화를&nbsp;시행하고&nbsp;인슨&nbsp;자치단체는&nbsp;전남&nbsp;완도·진도·영암,&nbsp;경북&nbsp;청송·봉화·문경·상주·의성·울진,&nbsp;충북&nbsp;진천·음성·보은,&nbsp;강원양구·정선,&nbsp;경남산청&nbsp;등&nbsp;15곳이다.<br><br>&nbsp;저조한&nbsp;좌석이용율과&nbsp;요금징수&nbsp;정산&nbsp;관리&nbsp;비용이&nbsp;전체운영비에&nbsp;10~15%이상되는&nbsp;상황에서는&nbsp;요금을&nbsp;받는것보다&nbsp;차라리&nbsp;무료로&nbsp;운영하는&nbsp;것이&nbsp;더&nbsp;효율적이다.<br><br>▶이행방법&nbsp;:&nbsp;시범사업후&nbsp;단계별로&nbsp;확산&nbsp;전략&nbsp;시행<br>장애인·노인&nbsp;등&nbsp;교통약자와&nbsp;수요응답형&nbsp;버스도&nbsp;담당하기&nbsp;어려운&nbsp;지역은&nbsp;택시가&nbsp;대중교통을&nbsp;담당하게&nbsp;한다.<br><br>▶이행기간&nbsp;:&nbsp;6&nbsp;월간의&nbsp;시범사업후&nbsp;정확한&nbsp;통계자료에&nbsp;기반한&nbsp;2027년&nbsp;전면&nbsp;시행<br><br>▶재원조달&nbsp;방안&nbsp;등<br>√&nbsp;&nbsp;예상비용&nbsp;:&nbsp;초기&nbsp;인수비용&nbsp;약&nbsp;70억&nbsp;(자산매입)&nbsp;→&nbsp;&nbsp;전남광주특별시&nbsp;부담<br>√&nbsp;매년&nbsp;운영비용&nbsp;약35억원&nbsp;(무료운행&nbsp;및&nbsp;유지관리)&nbsp;→&nbsp;군비&nbsp;출연</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	지리산온천 관광단지 재개발 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="지리산온천 관광단지 재개발 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▶목표&nbsp;:&nbsp;"가고싶은&nbsp;온천",&nbsp;"치유와&nbsp;요양의&nbsp;성지&nbsp;온천마을"&nbsp;조성&nbsp;<br>콘크리트&nbsp;온천탕이&nbsp;아닌&nbsp;스토리(STORY)&nbsp;가&nbsp;있는&nbsp;생태온천마을로&nbsp;조성하여&nbsp;일본&nbsp;벳푸나&nbsp;유후인처럼&nbsp;소소하지만&nbsp;확실한&nbsp;행복을&nbsp;느끼며&nbsp;걷고&nbsp;보고,&nbsp;먹고&nbsp;즐기는&nbsp;연간&nbsp;만300명의&nbsp;관광객을&nbsp;유치하는&nbsp;진정한&nbsp;온천도시를&nbsp;조성하여&nbsp;지역경제를&nbsp;살릴&nbsp;수&nbsp;있는&nbsp;국내&nbsp;최고의&nbsp;게르마늄&nbsp;온천여행명소를&nbsp;조성한다.<br><br>▶이행방법<br>√국내&nbsp;온천분야&nbsp;최고&nbsp;전문가,&nbsp;특급호텔&nbsp;출신&nbsp;운영전문가&nbsp;공간기획자&nbsp;등&nbsp;새로운&nbsp;감각을&nbsp;가진&nbsp;창의적인&nbsp;인재&nbsp;영입.<br>√지리산에서&nbsp;솟아나는&nbsp;맑고&nbsp;깨끗한&nbsp;게르마늄&nbsp;성분&nbsp;효과(암예방&nbsp;및&nbsp;치료,&nbsp;피부질환,&nbsp;노화방지,&nbsp;신경통&nbsp;등&nbsp;탁월한&nbsp;효과&nbsp;증명)를&nbsp;홍보하여&nbsp;장기요양을&nbsp;원하는&nbsp;사람들이&nbsp;선호하는&nbsp;진정한&nbsp;온천마을&nbsp;조성<br>&nbsp;√살기도&nbsp;좋고,&nbsp;놀러가도&nbsp;좋은&nbsp;온천마을에서&nbsp;즐길&nbsp;수&nbsp;있는&nbsp;각종&nbsp;꺼리&nbsp;만들기&nbsp;(야간&nbsp;컨텐츠,&nbsp;&nbsp;다양한&nbsp;장르의&nbsp;음악제.&nbsp;문화와&nbsp;예술행사&nbsp;등)<br><br>▶이행기간&nbsp;:&nbsp;취임후&nbsp;최우선&nbsp;시행<br>√민간사업자&nbsp;공모&nbsp;및&nbsp;시행자&nbsp;선정&nbsp;2026년&nbsp;12월말<br>√2028년&nbsp;10월&nbsp;개장<br><br>▶재원조달&nbsp;방안&nbsp;:&nbsp;2,500&nbsp;총&nbsp;억원&nbsp;재원&nbsp;확보<br>√전남광주특별시&nbsp;인센티브&nbsp;1천억원&nbsp;유치<br>√민간자본&nbsp;재원조달&nbsp;1&nbsp;천억원(미래에셋&nbsp;자산운용&nbsp;500억,&nbsp;KB금융&nbsp;자산&nbsp;운영&nbsp;500억)<br>√군비&nbsp;300억원,&nbsp;지역개발&nbsp;채권발행&nbsp;200억원</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;육동한 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	산업과 민생이 완성되는 첨단경제산업 도시 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="산업과 민생이 완성되는 첨단경제산업 도시 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;“바이오·AI·양자·데이터”를&nbsp;결합한&nbsp;첨단산업&nbsp;융합클러스터&nbsp;조성&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;바이오&nbsp;메가특구&nbsp;유치&nbsp;및&nbsp;AI&nbsp;정밀의료&nbsp;허브&nbsp;구축&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;기업혁신파크,&nbsp;거두일반산업단지,&nbsp;수열에너지융복합클러스터&nbsp;등&nbsp;완성<br>&nbsp;&nbsp;ㅇ&nbsp;AI컴퓨팅&nbsp;센터&nbsp;및&nbsp;RE100&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;ㅇ&nbsp;기업유치를&nbsp;통한&nbsp;첨단&nbsp;일자리&nbsp;확충<br>&nbsp;<br>□&nbsp;소상공인,&nbsp;중소기업,&nbsp;원도심&nbsp;및&nbsp;전통시장&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;ㅇ&nbsp;스마트&nbsp;그린산단&nbsp;및&nbsp;AX&nbsp;실증산단&nbsp;등&nbsp;중소기업&nbsp;고도화&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;ㅇ&nbsp;지역사랑상품권&nbsp;확대&nbsp;및&nbsp;전통시장&nbsp;활성화&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;ㅇ&nbsp;원도심&nbsp;재도약&nbsp;프로젝트&nbsp;추진<br>&nbsp;&nbsp;ㅇ&nbsp;지하상가&nbsp;일원&nbsp;청년&nbsp;창업&nbsp;허브&nbsp;조성<br>&nbsp;<br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;ㅇ&nbsp;AI&nbsp;기반&nbsp;신성장&nbsp;동력과&nbsp;미래먹거리&nbsp;창출을&nbsp;통한&nbsp;춘천의&nbsp;미래&nbsp;경쟁력&nbsp;제고<br>&nbsp;&nbsp;ㅇ&nbsp;소상공인,&nbsp;중소기업,&nbsp;원도심&nbsp;및&nbsp;전통시장&nbsp;등&nbsp;민생경제&nbsp;활성화<br>&nbsp;<br>□&nbsp;이행방법&nbsp;&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;AI,&nbsp;바이오,&nbsp;양자,&nbsp;데이터&nbsp;등&nbsp;미래&nbsp;먹거리&nbsp;산업의&nbsp;육성을&nbsp;위해&nbsp;산·학·관·연&nbsp;역량&nbsp;집결&nbsp;및&nbsp;실행을&nbsp;위한&nbsp;협의체&nbsp;구성&nbsp;운영<br>&nbsp;&nbsp;ㅇ&nbsp;연관기업&nbsp;유치,&nbsp;국책사업&nbsp;선정&nbsp;등을&nbsp;통한&nbsp;인프라&nbsp;강화&nbsp;&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;투자&nbsp;및&nbsp;창업&nbsp;지원,&nbsp;펀드조성&nbsp;확대<br>&nbsp;&nbsp;ㅇ&nbsp;세제지원,&nbsp;지원&nbsp;인센티브,&nbsp;토지매입&nbsp;지원,&nbsp;인력지원&nbsp;등&nbsp;강화<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;임기중(2026&nbsp;~&nbsp;2030)<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;ㅇ&nbsp;연구개발특구&nbsp;비즈센터&nbsp;유치,&nbsp;연구개발&nbsp;국비사업에&nbsp;확보<br>&nbsp;&nbsp;ㅇ&nbsp;기업유치를&nbsp;통한&nbsp;세수&nbsp;증대의&nbsp;선순환적&nbsp;기업&nbsp;투자&nbsp;강화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	과학기술 중심의 최고의 교육도시 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="과학기술 중심의 최고의 교육도시 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;과학기술&nbsp;및&nbsp;연구개발&nbsp;역량&nbsp;강화&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;강원과학기술원&nbsp;설립&nbsp;및&nbsp;대학의&nbsp;연구개발&nbsp;역량&nbsp;강화<br>&nbsp;&nbsp;ㅇ&nbsp;강원연구개발특구&nbsp;비즈센터&nbsp;유치&nbsp;&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;정부출연연구기관&nbsp;분원&nbsp;및&nbsp;센터&nbsp;유치를&nbsp;통한&nbsp;연구개발&nbsp;인프라&nbsp;강화<br>&nbsp;&nbsp;ㅇ&nbsp;대학의&nbsp;연구개발&nbsp;및&nbsp;인력양성&nbsp;지원&nbsp;강화<br><br>□&nbsp;최고의&nbsp;교육도시&nbsp;완성&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;교육발전특구&nbsp;본지정을&nbsp;통한&nbsp;최고의&nbsp;교육도시&nbsp;모델&nbsp;완성<br>&nbsp;&nbsp;ㅇ&nbsp;북부도서관&nbsp;완성&nbsp;및&nbsp;도서관&nbsp;기반&nbsp;돌봄&nbsp;모델의&nbsp;정립&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;전생애&nbsp;평생학습&nbsp;플랫폼&nbsp;구축&nbsp;및&nbsp;독서도시&nbsp;완성<br>&nbsp;&nbsp;ㅇ&nbsp;청소년&nbsp;통학&nbsp;지원&nbsp;강화&nbsp;및&nbsp;주말&nbsp;대중교통&nbsp;이용&nbsp;패스&nbsp;확대<br>&nbsp;<br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;ㅇ&nbsp;과학기술&nbsp;및&nbsp;연구개발&nbsp;역량&nbsp;강화를&nbsp;통한&nbsp;첨단산업&nbsp;육성&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;ㅇ&nbsp;최고의&nbsp;교육도시&nbsp;조성을&nbsp;통한&nbsp;지역&nbsp;경쟁력&nbsp;강화<br>&nbsp;<br>□&nbsp;이행방법&nbsp;&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;강원특별법에&nbsp;강원과학기술원&nbsp;설립&nbsp;근거&nbsp;마련&nbsp;및&nbsp;강원과학기술원&nbsp;특별법&nbsp;제정<br>&nbsp;&nbsp;ㅇ&nbsp;강원연구개발특구&nbsp;본부&nbsp;유치&nbsp;및&nbsp;교육발전특구&nbsp;본지정&nbsp;선정<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;임기중(2026&nbsp;~&nbsp;2030)<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;ㅇ&nbsp;연구개발특구&nbsp;비즈센터&nbsp;유치,&nbsp;공모사업&nbsp;선정을&nbsp;통한&nbsp;국비사업에&nbsp;확보<br>&nbsp;&nbsp;ㅇ&nbsp;강원과학기술원&nbsp;설립&nbsp;등&nbsp;정부기관&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	교통과 공간 혁신을 통한 직주락 도시 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="교통과 공간 혁신을 통한 직주락 도시 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;광역&nbsp;및&nbsp;내부&nbsp;교통망&nbsp;완성&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;서면대교,&nbsp;소양8교,&nbsp;제2경춘국도&nbsp;연계&nbsp;내부교통망&nbsp;구축<br>&nbsp;&nbsp;ㅇ&nbsp;춘천-속초&nbsp;고속철도&nbsp;및&nbsp;GTX-B,&nbsp;제2경춘국도&nbsp;개통<br>&nbsp;&nbsp;ㅇ&nbsp;철원-춘천-원주&nbsp;철도&nbsp;및&nbsp;춘천-철원&nbsp;중앙고속도로&nbsp;국가사업&nbsp;반영<br>&nbsp;&nbsp;ㅇ&nbsp;자율주행&nbsp;본격운영&nbsp;및&nbsp;AI&nbsp;기반&nbsp;관리체계&nbsp;고도화<br><br>□&nbsp;청년이&nbsp;살고싶은&nbsp;직주락&nbsp;도시&nbsp;완성&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;춘천역&nbsp;중심의&nbsp;도시재생혁신지구&nbsp;및&nbsp;역세권&nbsp;개발사업&nbsp;추진<br>&nbsp;&nbsp;ㅇ&nbsp;청년&nbsp;정주여건&nbsp;개선을&nbsp;위한&nbsp;공동주택&nbsp;공급&nbsp;강화<br>&nbsp;&nbsp;ㅇ&nbsp;청년창업&nbsp;거점공간&nbsp;조성&nbsp;및&nbsp;“Station&nbsp;C”&nbsp;지원&nbsp;강화<br>&nbsp;<br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;ㅇ&nbsp;교통을&nbsp;통한&nbsp;연결&nbsp;강화를&nbsp;통한&nbsp;지역&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;ㅇ&nbsp;도시재생혁신지구&nbsp;및&nbsp;역세권&nbsp;개발을&nbsp;통한&nbsp;도시&nbsp;경쟁력&nbsp;제고<br>&nbsp;&nbsp;ㅇ&nbsp;청년&nbsp;창업&nbsp;및&nbsp;정주여건&nbsp;개선<br>&nbsp;<br>□&nbsp;이행방법&nbsp;&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;강원특별자치도&nbsp;원팀&nbsp;구성을&nbsp;통한&nbsp;도로&nbsp;및&nbsp;철도&nbsp;국가계획&nbsp;반영<br>&nbsp;&nbsp;ㅇ&nbsp;기&nbsp;선정된&nbsp;도시재생혁신지구&nbsp;및&nbsp;역세권&nbsp;개발사업&nbsp;적기&nbsp;사업&nbsp;추진<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;임기중(2026&nbsp;~&nbsp;2030)<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;ㅇ&nbsp;교통망&nbsp;확충&nbsp;사업의&nbsp;경우&nbsp;대부분&nbsp;국비&nbsp;사업.&nbsp;매칭&nbsp;지방비&nbsp;투입<br>&nbsp;&nbsp;ㅇ&nbsp;철도공단&nbsp;등&nbsp;참여기업&nbsp;지원&nbsp;및&nbsp;국비&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	시민이 행복한 고품격 돌봄공동체 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="시민이 행복한 고품격 돌봄공동체 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;춘천&nbsp;愛&nbsp;온몸&nbsp;통합돌봄&nbsp;체계&nbsp;완성<br>&nbsp;&nbsp;ㅇ&nbsp;통합돌봄과&nbsp;도내&nbsp;최초신설<br>&nbsp;&nbsp;ㅇ&nbsp;춘천보건소&nbsp;완성<br>&nbsp;&nbsp;ㅇ&nbsp;동남권&nbsp;복지센터&nbsp;완성<br>&nbsp;&nbsp;ㅇ&nbsp;반려동물&nbsp;키우기&nbsp;좋은&nbsp;인프라&nbsp;구축<br><br>□&nbsp;고령화&nbsp;사회&nbsp;대응기반&nbsp;마련&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;전국1호&nbsp;은퇴자&nbsp;마을&nbsp;국가사업&nbsp;선정<br>&nbsp;&nbsp;ㅇ&nbsp;양질의&nbsp;노인일자리&nbsp;확충<br>&nbsp;&nbsp;ㅇ&nbsp;AI&nbsp;기반&nbsp;노인케어&nbsp;및&nbsp;경로당&nbsp;고도화<br><br>□&nbsp;재생에너지&nbsp;확대&nbsp;등&nbsp;탄소중립&nbsp;기반&nbsp;강화<br>&nbsp;&nbsp;ㅇ&nbsp;재생에너지&nbsp;확대를&nbsp;통한&nbsp;“햇빛·물연금”&nbsp;확대<br>&nbsp;&nbsp;ㅇ&nbsp;자원재활용&nbsp;및&nbsp;재난안전&nbsp;도시&nbsp;기반&nbsp;강화<br>&nbsp;<br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;ㅇ&nbsp;계획된&nbsp;돌봄&nbsp;인프라&nbsp;확충을&nbsp;통한&nbsp;시민이&nbsp;행복한&nbsp;춘천&nbsp;조성<br>&nbsp;<br>□&nbsp;이행방법&nbsp;&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;고령화&nbsp;시대에&nbsp;대응한&nbsp;일자리&nbsp;및&nbsp;돌봄&nbsp;체계&nbsp;강화&nbsp;&nbsp;<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;임기중(2026~2030)<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;ㅇ&nbsp;국비&nbsp;공모사업&nbsp;선정을&nbsp;통한&nbsp;재원&nbsp;확충</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	문화, 관광, 체육 인프라 구축을 통한 글로벌 도시 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="문화, 관광, 체육 인프라 구축을 통한 글로벌 도시 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;문화관광&nbsp;시설의&nbsp;확충&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;호수지방정원의&nbsp;완성&nbsp;및&nbsp;국가정원&nbsp;승격&nbsp;토대&nbsp;마련<br>&nbsp;&nbsp;ㅇ&nbsp;의암호&nbsp;및&nbsp;소양호&nbsp;일원&nbsp;관광기반&nbsp;확충<br>&nbsp;&nbsp;ㅇ&nbsp;춘천시립미술관&nbsp;완성&nbsp;및&nbsp;공연&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;ㅇ&nbsp;시민과&nbsp;함께&nbsp;즐기는&nbsp;문화예술축제&nbsp;<br><br>□&nbsp;국제&nbsp;스포츠&nbsp;인프라&nbsp;완성&nbsp;&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;세계태권도연맹&nbsp;본부&nbsp;건립&nbsp;완성&nbsp;및&nbsp;국제대회&nbsp;유치<br>&nbsp;&nbsp;ㅇ&nbsp;대한체육회&nbsp;빙상경기장&nbsp;유치<br>&nbsp;&nbsp;ㅇ&nbsp;축구전용경기장&nbsp;건립<br>&nbsp;&nbsp;ㅇ&nbsp;다목적체육관&nbsp;건립<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;ㅇ&nbsp;문화,&nbsp;관광,&nbsp;체육&nbsp;인프라&nbsp;구축을&nbsp;통한&nbsp;글로벌&nbsp;도시&nbsp;완성<br><br>□&nbsp;이행방법&nbsp;&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;정부,&nbsp;대한체육회,&nbsp;강원특별자치도,&nbsp;춘춘시&nbsp;원팀&nbsp;가동을&nbsp;통한&nbsp;국가사업&nbsp;선정<br>&nbsp;&nbsp;ㅇ&nbsp;기존&nbsp;축제&nbsp;등의&nbsp;컨텐츠&nbsp;고도화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;임기중(2026~2030)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;ㅇ&nbsp;대규모&nbsp;국비&nbsp;공모사업&nbsp;선정을&nbsp;통한&nbsp;재원&nbsp;투입</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

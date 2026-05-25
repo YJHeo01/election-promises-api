@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김두겸 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	미래 100년 산업을 키우겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="미래 100년 산업을 키우겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;AI&nbsp;수도로&nbsp;도약<br>&nbsp;&nbsp;-&nbsp;미래&nbsp;신산업&nbsp;전략적&nbsp;육성<br>&nbsp;&nbsp;-&nbsp;에너지&nbsp;산업&nbsp;주도<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;SK-아마존&nbsp;웹서비스&nbsp;AI데이터&nbsp;센터&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;주력&nbsp;제조산업&nbsp;AI&nbsp;대전환<br>&nbsp;&nbsp;-&nbsp;소버리&nbsp;AI&nbsp;집적단지&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;AI·과학기술&nbsp;인재&nbsp;양성<br>&nbsp;&nbsp;-&nbsp;수중&nbsp;데이터센터&nbsp;실증모델&nbsp;개발&nbsp;<br>&nbsp;&nbsp;-&nbsp;양자융합원&nbsp;신설&nbsp;및&nbsp;지원&nbsp;강화와&nbsp;양자&nbsp;나노팹&nbsp;확충<br>&nbsp;&nbsp;-&nbsp;도심항공모빌리티(UAM)&nbsp;통합실증&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;석유화학산업&nbsp;구조&nbsp;전환&nbsp;및&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;-&nbsp;K-배터리&nbsp;기술혁신&nbsp;허브&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;해저공간&nbsp;수중&nbsp;ICT&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;친환경&nbsp;분산에너지&nbsp;선로거점&nbsp;차등요금제&nbsp;도입<br>&nbsp;&nbsp;-&nbsp;청정수소&nbsp;선도도시&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;부유식&nbsp;풍력&nbsp;발전단지&nbsp;조성&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;암모니아&nbsp;선박&nbsp;벙커링&nbsp;핵심&nbsp;기자재&nbsp;및&nbsp;안전기준&nbsp;개발·실증<br>&nbsp;&nbsp;-&nbsp;첨단&nbsp;이차전지&nbsp;데스터배드&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;북극항로&nbsp;시대&nbsp;거점항만&nbsp;구축<br>&nbsp;<br>□&nbsp;이행기간&nbsp;&nbsp;<br>&nbsp;&nbsp;-&nbsp;민선9기&nbsp;임기&nbsp;내(2026∼2030)<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등&nbsp;&nbsp;<br>&nbsp;&nbsp;-&nbsp;국·시비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	일하기 좋은 도시로 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="일하기 좋은 도시로 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;산업단지&nbsp;확대와&nbsp;기업&nbsp;유치로&nbsp;양질의&nbsp;일자리&nbsp;창출&nbsp;<br>&nbsp;&nbsp;-&nbsp;산업&nbsp;다각화를&nbsp;통해&nbsp;세대별,&nbsp;계층별&nbsp;일자리&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;RE100&nbsp;산업단지&nbsp;조성&nbsp;및&nbsp;기업유치<br>&nbsp;&nbsp;-&nbsp;국가산업단지&nbsp;확장&nbsp;<br>&nbsp;&nbsp;-&nbsp;권역별&nbsp;일반산업단지&nbsp;조성&nbsp;및&nbsp;산단&nbsp;재생&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;데이터센터&nbsp;등&nbsp;신산업&nbsp;유치<br>&nbsp;&nbsp;-&nbsp;친환경&nbsp;분산에너지&nbsp;차등요금제로&nbsp;전력&nbsp;다소비&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;-&nbsp;첨단&nbsp;이차전지&nbsp;테스트배드&nbsp;조성과&nbsp;K-배터리&nbsp;기술혁신&nbsp;허브&nbsp;구축&nbsp;<br>&nbsp;&nbsp;-&nbsp;주력산업&nbsp;고도화&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;청년&nbsp;일자리&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;-&nbsp;중장년·신중년&nbsp;일자리&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;문화·관광·&nbsp;서비스&nbsp;산업&nbsp;육성으로&nbsp;청년&nbsp;여성&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;-&nbsp;울산형&nbsp;창업생태계&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;소상공인&nbsp;경영·안전망&nbsp;확충&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;민선9기&nbsp;임기&nbsp;내(2026～2030년)<br>&nbsp;<br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;국·시비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	즐겁고 품격있는 도시로 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="즐겁고 품격있는 도시로 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;대한민국&nbsp;대표&nbsp;관광도시로&nbsp;도약<br>&nbsp;&nbsp;-&nbsp;세계속&nbsp;문화도시로&nbsp;성장<br>&nbsp;&nbsp;-&nbsp;스포츠&nbsp;메카로&nbsp;부상<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;2028&nbsp;국제정원박람회&nbsp;성공적&nbsp;개최<br>&nbsp;&nbsp;-&nbsp;남부권&nbsp;광역관광개발<br>&nbsp;&nbsp;-&nbsp;울산&nbsp;해양산악레저&nbsp;특구&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;세계적&nbsp;공연장&nbsp;(THE&nbsp;HALL&nbsp;1962)&nbsp;건립<br>&nbsp;&nbsp;-&nbsp;학성공원&nbsp;물길&nbsp;복원<br>&nbsp;&nbsp;-&nbsp;반구천의&nbsp;암각화&nbsp;세계유산&nbsp;역사문화단지&nbsp;조성&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;-&nbsp;국립&nbsp;한글박물관&nbsp;울산&nbsp;분원&nbsp;유치<br>&nbsp;&nbsp;-&nbsp;청소년&nbsp;문화회관,&nbsp;청소년광장&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;국립&nbsp;탄소중립&nbsp;전문과학관&nbsp;유치<br>&nbsp;&nbsp;-&nbsp;울산&nbsp;프로야구단&nbsp;및&nbsp;문수야구장&nbsp;활성화<br>&nbsp;&nbsp;-&nbsp;세계&nbsp;궁도거점&nbsp;도시&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;카누&nbsp;슬라럼센터&nbsp;건립&nbsp;및&nbsp;세계대회&nbsp;개최<br>&nbsp;&nbsp;-&nbsp;세계&nbsp;명문대학&nbsp;조성&nbsp;페스티벌&nbsp;육성<br>&nbsp;&nbsp;-&nbsp;명품&nbsp;공공파크골프장&nbsp;건립<br>&nbsp;&nbsp;-&nbsp;권역별&nbsp;다목적&nbsp;에어돔&nbsp;구장&nbsp;건립<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;민선9기&nbsp;임기&nbsp;내(2026∼2030년)<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;국·시비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	누구나 머물고 싶은 활기찬 도시로 바꾸겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="누구나 머물고 싶은 활기찬 도시로 바꾸겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;빠르고&nbsp;편리한&nbsp;철도·항공망&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;사통팔달&nbsp;도로망&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;충분한&nbsp;주거공간&nbsp;확보<br>&nbsp;&nbsp;-&nbsp;도시공간&nbsp;효율적으로&nbsp;재구성<br>&nbsp;&nbsp;-&nbsp;안전하고&nbsp;편리한&nbsp;생활<br><br>□&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;-&nbsp;수소트램&nbsp;건설<br>&nbsp;&nbsp;-&nbsp;울산~양산~부산&nbsp;광역철도&nbsp;건설<br>&nbsp;&nbsp;-&nbsp;동남권&nbsp;순환광역철도&nbsp;건설<br>&nbsp;&nbsp;-&nbsp;태화강역&nbsp;KTX-산천/SRT&nbsp;고속철도&nbsp;유치<br>&nbsp;&nbsp;-&nbsp;도심공항터미널&nbsp;유치<br>&nbsp;&nbsp;-&nbsp;울산~양산&nbsp;고속도로&nbsp;건설<br>&nbsp;&nbsp;-&nbsp;간선도로&nbsp;및&nbsp;원전대피로&nbsp;개설<br>&nbsp;&nbsp;-&nbsp;문수로&nbsp;등&nbsp;우회도로&nbsp;개설,&nbsp;다운·굴화&nbsp;연결&nbsp;도로&nbsp;개설<br>&nbsp;&nbsp;-&nbsp;쾌적한&nbsp;공공주택지구&nbsp;건설<br>&nbsp;&nbsp;-&nbsp;무주택&nbsp;청년·신혼부부·어르신&nbsp;주거&nbsp;안정&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;도시재생사업&nbsp;활성화<br>&nbsp;&nbsp;-&nbsp;남부권&nbsp;신도시&nbsp;건설<br>&nbsp;&nbsp;-&nbsp;북울산역세권&nbsp;개발<br>&nbsp;&nbsp;-&nbsp;65세이상&nbsp;어르신&nbsp;시내버스&nbsp;무료화,&nbsp;중·고등생&nbsp;시내버스&nbsp;요금&nbsp;인하<br>&nbsp;&nbsp;-&nbsp;부울경&nbsp;통합환승할인&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;스마트&nbsp;쉼터형&nbsp;버스정류장&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;OK&nbsp;생활민원&nbsp;서비스&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;석유화학산단&nbsp;안전관리&nbsp;고도화<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;민선9기&nbsp;임기&nbsp;내(2026∼2030년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;국·시비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	투자유치의 결실이 복지로 연결되도록 하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="투자유치의 결실이 복지로 연결되도록 하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;임신·출산·육아&nbsp;지원&nbsp;확대로&nbsp;출산과&nbsp;양육&nbsp;부담&nbsp;해소<br>&nbsp;&nbsp;-&nbsp;아동·청소년의&nbsp;성장&nbsp;사다리&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;청·중·장년기&nbsp;도약의&nbsp;발판&nbsp;마련<br>&nbsp;&nbsp;-&nbsp;여성&nbsp;역량&nbsp;강화&nbsp;및&nbsp;일자리&nbsp;확충<br>&nbsp;&nbsp;-&nbsp;장애인과&nbsp;함께하는&nbsp;복지<br>&nbsp;&nbsp;-&nbsp;어르신&nbsp;노후생활&nbsp;보장<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;24시간&nbsp;365일&nbsp;영유아&nbsp;돌봄&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;임신·출산&nbsp;지원&nbsp;확대와&nbsp;다자녀&nbsp;가정&nbsp;가사&nbsp;지원&nbsp;서비스&nbsp;실시<br>&nbsp;&nbsp;-&nbsp;어린이치료특화&nbsp;울산의료원&nbsp;설립<br>&nbsp;&nbsp;-&nbsp;어린이&nbsp;복합&nbsp;교육&nbsp;놀이공간&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;어린이청소년도서관&nbsp;인공지능(AI)특화&nbsp;교육프로그램&nbsp;운영<br>&nbsp;&nbsp;-&nbsp;우리&nbsp;아이&nbsp;안심&nbsp;급식&nbsp;지원&nbsp;확대와&nbsp;어린이집&nbsp;식판&nbsp;세척·소독비&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;초·중·고학생&nbsp;1,000원의&nbsp;아침밥&nbsp;시범&nbsp;실시<br>&nbsp;&nbsp;-&nbsp;아이문화패스카드&nbsp;초·중·고등학생으로&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;중·고등학생&nbsp;시내버스&nbsp;요금&nbsp;50%&nbsp;인하<br>&nbsp;&nbsp;-&nbsp;청년&nbsp;구직지원금&nbsp;지원,&nbsp;청년&nbsp;연령&nbsp;39세에서&nbsp;45세로&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;울산시민연금&nbsp;도입,&nbsp;10분거리&nbsp;건강&nbsp;생활권&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;취약&nbsp;노동자&nbsp;보호&nbsp;강화<br>&nbsp;&nbsp;-&nbsp;여성&nbsp;맞춤형&nbsp;취·창업&nbsp;지원존&nbsp;운영<br>&nbsp;&nbsp;-&nbsp;장애인&nbsp;통합지원센터&nbsp;운영&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;울산형&nbsp;장애인&nbsp;배움돌봄센터&nbsp;운영과&nbsp;일자리&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;특수장애(시각&nbsp;등)&nbsp;지원&nbsp;센터&nbsp;설립<br>&nbsp;&nbsp;-&nbsp;65세이상&nbsp;어르신&nbsp;시내버스&nbsp;무료화&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;울산형&nbsp;노인&nbsp;통합돌봄체계&nbsp;구축<br>&nbsp;<br>□&nbsp;이행기간:&nbsp;민선9기&nbsp;임기&nbsp;내(2026∼2030년)<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등:&nbsp;<br>&nbsp;&nbsp;-&nbsp;국·시비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

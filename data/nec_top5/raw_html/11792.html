@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;함명준 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	고성형 기본사회 모델 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="고성형 기본사회 모델 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;(경제)&nbsp;에너지&nbsp;주권&nbsp;기반의&nbsp;‘군민&nbsp;기본소득’&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;(교통·안전)&nbsp;이동권과&nbsp;안전이&nbsp;보장되는&nbsp;‘스마트&nbsp;생활망’&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;(교육·성장)&nbsp;요람에서&nbsp;무덤까지&nbsp;‘전&nbsp;생애&nbsp;맞춤형&nbsp;돌봄’&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;(생활)&nbsp;주거와&nbsp;먹거리를&nbsp;해결하는&nbsp;‘생활&nbsp;밀착형&nbsp;복지’&nbsp;구현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;‘군민&nbsp;기본소득’&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;에너지&nbsp;기본&nbsp;조례&nbsp;제정,&nbsp;군유지&nbsp;내&nbsp;발전&nbsp;시설&nbsp;확충,&nbsp;주민참여형&nbsp;이익&nbsp;공유&nbsp;모델&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;‘스마트&nbsp;생활망’&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;다람쥐&nbsp;버스&nbsp;및&nbsp;DRT(희망택시)&nbsp;고도화,&nbsp;초·중·고교생&nbsp;교통&nbsp;바우처&nbsp;지급,&nbsp;AI&nbsp;스마트&nbsp;가로등&nbsp;및&nbsp;'디지털&nbsp;손주'&nbsp;모니터링&nbsp;시스템&nbsp;전면&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;‘전&nbsp;생애&nbsp;맞춤형&nbsp;돌봄’&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;미래인재&nbsp;자립펀드&nbsp;조성,&nbsp;신중년(50~70대)&nbsp;재취업&nbsp;교육&nbsp;센터&nbsp;운영,&nbsp;글로벌&nbsp;리더십(유럽&nbsp;연수)&nbsp;교육&nbsp;브랜드화<br>&nbsp;&nbsp;○&nbsp;‘생활&nbsp;밀착형&nbsp;복지’&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년·귀농인용&nbsp;만원&nbsp;주택&nbsp;프로젝트&nbsp;시행,&nbsp;어르신·1인&nbsp;가구&nbsp;대상&nbsp;반찬&nbsp;나눔&nbsp;제도&nbsp;확대,&nbsp;군민&nbsp;문화&nbsp;누리&nbsp;카드&nbsp;지원액&nbsp;상향<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계:&nbsp;기반&nbsp;구축&nbsp;및&nbsp;조례&nbsp;제정&nbsp;(2026.&nbsp;07.&nbsp;~&nbsp;2027.&nbsp;06.)<br>&nbsp;&nbsp;○&nbsp;2단계:&nbsp;인프라&nbsp;확충&nbsp;및&nbsp;시범&nbsp;사업&nbsp;(2027.&nbsp;07.&nbsp;~&nbsp;2028.&nbsp;12.)<br>&nbsp;&nbsp;○&nbsp;3단계:&nbsp;모델&nbsp;완성&nbsp;및&nbsp;성과&nbsp;확산&nbsp;(2029.&nbsp;01.&nbsp;~&nbsp;2030.&nbsp;06.)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·도비&nbsp;및&nbsp;외부&nbsp;기금&nbsp;유치&nbsp;(외부&nbsp;자원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;평화경제특구&nbsp;및&nbsp;남북협력기금,&nbsp;지방소멸대응기금&nbsp;활용,&nbsp;공모&nbsp;사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;고성군&nbsp;자체&nbsp;예산&nbsp;및&nbsp;기금&nbsp;운용&nbsp;(내부&nbsp;자원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합재정안정화기금&nbsp;활용,&nbsp;복지&nbsp;예산&nbsp;효율화,&nbsp;향토장학금&nbsp;및&nbsp;자립펀드</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	‘스쳐가는 관광’에서 ‘머무는 관광’으로의 대전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="‘스쳐가는 관광’에서 ‘머무는 관광’으로의 대전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;미식과&nbsp;치유,&nbsp;야간&nbsp;관광이&nbsp;어우러진&nbsp;대한민국&nbsp;제1의&nbsp;체류형&nbsp;관광&nbsp;도시&nbsp;고성&nbsp;완성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;‘대진항&nbsp;중심의&nbsp;‘글로벌&nbsp;미식&nbsp;및&nbsp;야간&nbsp;문화’&nbsp;거점화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대진항&nbsp;마린&nbsp;스퀘어&nbsp;‘글로벌&nbsp;푸드&nbsp;마켓’&nbsp;조성,&nbsp;오션뷰&nbsp;복합&nbsp;공연장&nbsp;및&nbsp;야간&nbsp;스테이지&nbsp;구축을&nbsp;통한&nbsp;‘밤이&nbsp;즐거운&nbsp;고성’&nbsp;실현.<br>&nbsp;&nbsp;○&nbsp;1,500만&nbsp;반려&nbsp;가구를&nbsp;위한&nbsp;‘K-&nbsp;펫&nbsp;관광’&nbsp;성지&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반려견&nbsp;전용&nbsp;해변(Pet&nbsp;Beach)&nbsp;및&nbsp;전용&nbsp;숙박&nbsp;단지&nbsp;조성,&nbsp;관광객을&nbsp;위한&nbsp;스마트&nbsp;펫&nbsp;케어&nbsp;센터&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;해양심층수를&nbsp;활용한&nbsp;‘글로벌&nbsp;웰니스·치유’&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해양심층수&nbsp;힐링·치유&nbsp;센터&nbsp;설립(수중&nbsp;운동&nbsp;풀,&nbsp;스파,&nbsp;사우나&nbsp;등),&nbsp;미네랄&nbsp;성분을&nbsp;활용한&nbsp;탈라소테라피(Thalassotherapy)&nbsp;프로그램&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;획기적인&nbsp;‘체류형&nbsp;관광&nbsp;인프라&nbsp;및&nbsp;스마트&nbsp;교통’&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;화진포&nbsp;국제휴양관광지&nbsp;및&nbsp;해솔리아&nbsp;관광단지&nbsp;조성,&nbsp;울산바위&nbsp;케이블카&nbsp;설치,&nbsp;동해북부선(간성역·화진포역)&nbsp;역세권&nbsp;개발&nbsp;및&nbsp;관광&nbsp;네비게이션&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계:&nbsp;마스터플랜&nbsp;수립&nbsp;및&nbsp;인허가&nbsp;(2026.&nbsp;07.&nbsp;~&nbsp;2027.&nbsp;06.)<br>&nbsp;&nbsp;○&nbsp;2단계:&nbsp;핵심&nbsp;랜드마크&nbsp;및&nbsp;인프라&nbsp;구축&nbsp;(2027.&nbsp;07.&nbsp;~&nbsp;2029.&nbsp;06.)<br>&nbsp;&nbsp;○&nbsp;3단계:&nbsp;광역&nbsp;교통망&nbsp;연계&nbsp;및&nbsp;글로벌&nbsp;마케팅&nbsp;(2029.&nbsp;07.&nbsp;~&nbsp;2030.&nbsp;06.)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;도비&nbsp;확보&nbsp;(공공&nbsp;인프라)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부&nbsp;공모&nbsp;사업&nbsp;활용&nbsp;및&nbsp;해양수산부&nbsp;지원,&nbsp;평화경제특구&nbsp;지정&nbsp;및&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;자본&nbsp;유치&nbsp;및&nbsp;민관&nbsp;협력&nbsp;(대형&nbsp;단지)<br>&nbsp;&nbsp;○&nbsp;군&nbsp;자체&nbsp;예산&nbsp;및&nbsp;수익&nbsp;사업&nbsp;(콘텐츠&nbsp;및&nbsp;운영)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	해양심층수국가산단 승격 및 일자리 1,000개 창출</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="해양심층수국가산단 승격 및 일자리 1,000개 창출">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;대한민국&nbsp;해양심층수&nbsp;산업의&nbsp;메카&nbsp;도약을&nbsp;통한&nbsp;경제&nbsp;지도&nbsp;재편&nbsp;및&nbsp;지속&nbsp;가능한&nbsp;일자리&nbsp;1,000개&nbsp;창출<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;해양심층수&nbsp;국가산업단지&nbsp;승격&nbsp;및&nbsp;기업&nbsp;유치&nbsp;기반&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;세제&nbsp;혜택,&nbsp;물류비&nbsp;지원&nbsp;등&nbsp;원스톱&nbsp;기업&nbsp;지원&nbsp;패키지&nbsp;마련&nbsp;및&nbsp;산단&nbsp;연계&nbsp;물류&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;웰니스&nbsp;거점&nbsp;‘해양심층수&nbsp;헬스케어’&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전문&nbsp;해수&nbsp;치유&nbsp;공간인&nbsp;탈라소테라피(Thalassotherapy)&nbsp;조성&nbsp;및&nbsp;프리미엄&nbsp;스파·테라피&nbsp;프로그램&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;연어·바이오·뷰티&nbsp;등&nbsp;‘신성장&nbsp;미래&nbsp;산업’&nbsp;집중&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연어&nbsp;양식&nbsp;및&nbsp;심층수&nbsp;활용&nbsp;기능성&nbsp;화장품(K-뷰티)&nbsp;클러스터&nbsp;구축,&nbsp;재생에너지를&nbsp;100%&nbsp;사용하는&nbsp;RE100&nbsp;전용&nbsp;단지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;창업&nbsp;및&nbsp;벤처&nbsp;생태계&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;저렴한&nbsp;비용으로&nbsp;시제품&nbsp;제작이&nbsp;가능한&nbsp;‘청년&nbsp;벤처&nbsp;공장’&nbsp;지원&nbsp;및&nbsp;지역&nbsp;내&nbsp;전문&nbsp;인력&nbsp;양성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계:&nbsp;행정&nbsp;절차&nbsp;및&nbsp;국가산단&nbsp;승격&nbsp;추진&nbsp;(2026.&nbsp;07.&nbsp;~&nbsp;2027.&nbsp;06.)<br>&nbsp;&nbsp;○&nbsp;2단계:&nbsp;기반&nbsp;시설&nbsp;공사&nbsp;및&nbsp;선도&nbsp;기업&nbsp;유치&nbsp;(2027.&nbsp;07.&nbsp;~&nbsp;2028.&nbsp;12.)<br>&nbsp;&nbsp;○&nbsp;3단계:&nbsp;클러스터&nbsp;완성&nbsp;및&nbsp;일자리&nbsp;목표&nbsp;달성&nbsp;(2029.&nbsp;01.&nbsp;~&nbsp;2030.&nbsp;06.)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;중앙정부&nbsp;지원&nbsp;유치&nbsp;(핵심&nbsp;재원)<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;투자&nbsp;활성화&nbsp;(산업&nbsp;생태계&nbsp;자금)<br>&nbsp;&nbsp;○&nbsp;지방비&nbsp;및&nbsp;기금&nbsp;활용&nbsp;(마중물&nbsp;예산)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지방소멸대응기금&nbsp;및&nbsp;기업&nbsp;세제&nbsp;혜택&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	글로벌 교육·외교 거점 도시 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="글로벌 교육·외교 거점 도시 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전&nbsp;생애&nbsp;맞춤형&nbsp;교육&nbsp;인프라&nbsp;구축과&nbsp;글로벌&nbsp;외교&nbsp;네트워크&nbsp;강화를&nbsp;통한&nbsp;세계&nbsp;수준의&nbsp;교육&nbsp;거점&nbsp;도시&nbsp;고성&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;고성이&nbsp;책임지는&nbsp;‘아이&nbsp;키우기&nbsp;좋은&nbsp;도시’&nbsp;기초&nbsp;확립&nbsp;(영유아)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창의·놀이&nbsp;중심의&nbsp;특화&nbsp;유아&nbsp;교육&nbsp;도입,&nbsp;야간·긴급&nbsp;돌봄&nbsp;서비스&nbsp;강화,&nbsp;유아기&nbsp;디지털&nbsp;리터러시&nbsp;환경&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;세계를&nbsp;무대로&nbsp;꿈꾸는&nbsp;‘고성형&nbsp;글로벌&nbsp;인재’&nbsp;육성&nbsp;(청소년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고교&nbsp;1학년&nbsp;‘무상&nbsp;유럽&nbsp;연수’&nbsp;브랜드화,&nbsp;EU&nbsp;현지&nbsp;교육&nbsp;기관&nbsp;자매결연,&nbsp;향토장학금&nbsp;상·하반기&nbsp;증액&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;배움의&nbsp;벽이&nbsp;없는&nbsp;‘무장애&nbsp;평생학습’&nbsp;환경&nbsp;조성&nbsp;(보편&nbsp;교육)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;배리어&nbsp;프리(Barrier&nbsp;-&nbsp;free)&nbsp;학습&nbsp;공간&nbsp;구축,&nbsp;생애주기별&nbsp;맞춤형&nbsp;커리큘럼(시니어&nbsp;디지털·재취업&nbsp;등)&nbsp;운영,&nbsp;면&nbsp;단위&nbsp;‘찾아가는&nbsp;평생학습교실’&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;EU&nbsp;네트워크&nbsp;연계&nbsp;‘글로벌&nbsp;소통&nbsp;거점’&nbsp;완성&nbsp;(대외&nbsp;외교)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주한&nbsp;EU&nbsp;대사관&nbsp;협력&nbsp;체계&nbsp;구축&nbsp;및&nbsp;글로벌&nbsp;이벤트&nbsp;정례화,&nbsp;유럽&nbsp;선진&nbsp;도시와의&nbsp;실질적&nbsp;자매결연,&nbsp;‘국제&nbsp;평화&nbsp;포럼’&nbsp;유치&nbsp;기반&nbsp;마련<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계:&nbsp;인프라&nbsp;및&nbsp;법적&nbsp;근거&nbsp;마련&nbsp;(2026.&nbsp;07.&nbsp;~&nbsp;2027.&nbsp;06.)<br>&nbsp;&nbsp;○&nbsp;2단계:&nbsp;브랜드화&nbsp;및&nbsp;특화&nbsp;프로그램&nbsp;개시&nbsp;(2027.&nbsp;07.&nbsp;~&nbsp;2028.&nbsp;12.)<br>&nbsp;&nbsp;○&nbsp;3단계:&nbsp;글로벌&nbsp;소통&nbsp;거점&nbsp;완성&nbsp;및&nbsp;성과&nbsp;확산&nbsp;(2029.&nbsp;01.&nbsp;~&nbsp;2030.&nbsp;06.)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;군&nbsp;자체&nbsp;예산&nbsp;및&nbsp;교육&nbsp;기금&nbsp;활용&nbsp;(핵심&nbsp;재원)<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;도비&nbsp;확보&nbsp;(보조금&nbsp;재원)<br>&nbsp;&nbsp;○&nbsp;대외&nbsp;협력&nbsp;및&nbsp;민간&nbsp;연계&nbsp;(전략적&nbsp;재원)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	미래 평화도시 및 SOC 구축  </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="미래 평화도시 및 SOC 구축  ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;고성의&nbsp;지정학적&nbsp;강점인&nbsp;'평화'를&nbsp;경제&nbsp;동력으로&nbsp;전환하고,&nbsp;수도권과의&nbsp;접근성을&nbsp;혁신적으로&nbsp;개선하는&nbsp;광역&nbsp;교통망&nbsp;및&nbsp;필수&nbsp;SOC(의료,&nbsp;복지,&nbsp;환경)를&nbsp;완비하여&nbsp;군민의&nbsp;삶의&nbsp;질을&nbsp;국가&nbsp;표준&nbsp;이상으로&nbsp;높임<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;금강산&nbsp;관광&nbsp;재개&nbsp;및&nbsp;‘평화경제특구’&nbsp;지정을&nbsp;통한&nbsp;경제&nbsp;도약<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;금강산&nbsp;관광&nbsp;재개&nbsp;선제적&nbsp;수용&nbsp;태세&nbsp;확립&nbsp;및&nbsp;범군민&nbsp;추진위원회&nbsp;구성,&nbsp;평화경제특구&nbsp;지정을&nbsp;통한&nbsp;규제&nbsp;완화와&nbsp;세제&nbsp;혜택&nbsp;확보,&nbsp;DMZ&nbsp;평화&nbsp;생태공원&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;고속도로&nbsp;연장&nbsp;및&nbsp;‘AI&nbsp;스마트&nbsp;역세권’&nbsp;기반의&nbsp;교통&nbsp;혁명<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;속초~간성&nbsp;고속도로&nbsp;연장&nbsp;추진,&nbsp;KTX(동해북부선)&nbsp;간성·화진포역&nbsp;주변을&nbsp;주거·상업·문화가&nbsp;결합된&nbsp;AI&nbsp;스마트&nbsp;역세권(TOD)으로&nbsp;복합&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;제생병원&nbsp;조기&nbsp;개원&nbsp;및&nbsp;‘24시간&nbsp;응급&nbsp;의료’&nbsp;안전망&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장기&nbsp;미집행된&nbsp;제생병원의&nbsp;조기&nbsp;개원을&nbsp;위한&nbsp;행정&nbsp;지원&nbsp;패스트트랙&nbsp;가동,&nbsp;24시간&nbsp;응급의료&nbsp;체계&nbsp;구축&nbsp;및&nbsp;AI&nbsp;스마트&nbsp;안심&nbsp;시스템&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;장애인&nbsp;전용&nbsp;‘하모니&nbsp;밸리’&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;주민참여형&nbsp;‘공공하수처리장’&nbsp;설치&nbsp;등&nbsp;생활&nbsp;SOC&nbsp;현대화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계:&nbsp;행정&nbsp;절차&nbsp;및&nbsp;거버넌스&nbsp;구축&nbsp;(2026.&nbsp;07.&nbsp;~&nbsp;2027.&nbsp;06.)<br>&nbsp;&nbsp;○&nbsp;2단계:&nbsp;인프라&nbsp;착공&nbsp;및&nbsp;국책&nbsp;사업&nbsp;유치&nbsp;(2027.&nbsp;07.&nbsp;~&nbsp;2029.&nbsp;06.)<br>&nbsp;&nbsp;○&nbsp;3단계:&nbsp;시설&nbsp;완공&nbsp;및&nbsp;평화&nbsp;경제&nbsp;활성화&nbsp;(2029.&nbsp;07.&nbsp;~&nbsp;2030.&nbsp;06.)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;국가&nbsp;기금&nbsp;유치&nbsp;(주력&nbsp;재원)<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;투자&nbsp;및&nbsp;법인&nbsp;자산&nbsp;활용&nbsp;(민관&nbsp;협력)<br>&nbsp;&nbsp;○&nbsp;지방비&nbsp;및&nbsp;환경&nbsp;기금&nbsp;(자체&nbsp;예산)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

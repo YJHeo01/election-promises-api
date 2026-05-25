@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;손훈모 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	방위산업 특화단지 조성 통해 청장년 일자리 확보, 산업생태계 복원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="방위산업 특화단지 조성 통해 청장년 일자리 확보, 산업생태계 복원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;순천을&nbsp;차세대&nbsp;방위산업의&nbsp;메카로&nbsp;육성하여&nbsp;양질의&nbsp;청장년&nbsp;일자리를&nbsp;확보하고&nbsp;침체에에&nbsp;빠진&nbsp;지역&nbsp;중소기업&nbsp;산업&nbsp;생태계를&nbsp;복원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업&nbsp;구조&nbsp;고도화:&nbsp;전통적인&nbsp;소비·관광&nbsp;중심의&nbsp;산업&nbsp;구조를&nbsp;차세대&nbsp;방위&nbsp;산업&nbsp;및&nbsp;첨단&nbsp;부품&nbsp;산업으로&nbsp;대전환하여&nbsp;도시&nbsp;경쟁력을&nbsp;근본적으로&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광역&nbsp;경제권&nbsp;통합&nbsp;주도:&nbsp;순천의&nbsp;배후&nbsp;거점&nbsp;기능,&nbsp;여수의&nbsp;화학,&nbsp;광양의&nbsp;금속소재와&nbsp;물류를&nbsp;잇는&nbsp;동부권&nbsp;경제공동체&nbsp;상생&nbsp;모델&nbsp;구축과&nbsp;산업&nbsp;활력&nbsp;제고<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고부가가치&nbsp;일자리&nbsp;창출&nbsp;:&nbsp;청년들이&nbsp;선호하는&nbsp;첨단&nbsp;기술&nbsp;기반의&nbsp;대기업&nbsp;및앵커기업을&nbsp;유치하여&nbsp;지역&nbsp;내&nbsp;인재&nbsp;유출을&nbsp;막고&nbsp;인구&nbsp;소멸&nbsp;위기에&nbsp;대응<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;(방위산업&nbsp;특화단지&nbsp;지정&nbsp;추진)&nbsp;해룡산업단지&nbsp;및&nbsp;인근&nbsp;배후&nbsp;부지를&nbsp;활용하여&nbsp;방위산업&nbsp;혁신&nbsp;클러스터&nbsp;및&nbsp;차세대&nbsp;소부장&nbsp;특화단지&nbsp;지정&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방산&nbsp;부품&nbsp;국산화&nbsp;및&nbsp;앵커&nbsp;대기업&nbsp;유치,&nbsp;차세대&nbsp;방산&nbsp;특화단지&nbsp;연계&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;(순천·여수·광양&nbsp;산업&nbsp;대전환&nbsp;행정협의체&nbsp;가동)&nbsp;3개&nbsp;시의&nbsp;시장이&nbsp;참여하는&nbsp;광양만권&nbsp;경제공동체&nbsp;협의회를&nbsp;상설화하여&nbsp;산업&nbsp;공동&nbsp;유치&nbsp;추진전략&nbsp;협력<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광양만권경제자유구역청과의&nbsp;긴밀한&nbsp;협력을&nbsp;통한&nbsp;규제&nbsp;완화&nbsp;및&nbsp;원스톱&nbsp;행정&nbsp;서비스<br>&nbsp;&nbsp;○&nbsp;(R&D&nbsp;인프라&nbsp;및&nbsp;인재&nbsp;양성&nbsp;생태계&nbsp;구축)&nbsp;순천대&nbsp;및&nbsp;지역&nbsp;전문대학&nbsp;내&nbsp;기업&nbsp;맞춤형&nbsp;인력양성&nbsp;프로그램&nbsp;운영&nbsp;및&nbsp;첨단&nbsp;부품&nbsp;시험평가센터&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;(파격적인&nbsp;기업&nbsp;유치&nbsp;인센티브&nbsp;도입)&nbsp;기업유치&nbsp;추진단을&nbsp;만들고&nbsp;시장이&nbsp;단장이&nbsp;되어,&nbsp;순천형&nbsp;투자&nbsp;촉진&nbsp;패키지를&nbsp;통한&nbsp;인센티브&nbsp;제공<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;계획기(취임&nbsp;~&nbsp;27.&nbsp;06)&nbsp;:&nbsp;특화단지&nbsp;타당성&nbsp;조사,&nbsp;국책사업&nbsp;반영&nbsp;건의&nbsp;협의체&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;조성기('27.&nbsp;07.&nbsp;~&nbsp;29.&nbsp;12.)&nbsp;:&nbsp;산단&nbsp;인프라&nbsp;고도화&nbsp;및&nbsp;방산&nbsp;기업&nbsp;MOU&nbsp;체결<br>&nbsp;&nbsp;○&nbsp;가동기(30.&nbsp;01.&nbsp;~&nbsp;임기후)&nbsp;:&nbsp;기업&nbsp;입주&nbsp;완료,&nbsp;통합&nbsp;산업생태계&nbsp;본격&nbsp;활성화&nbsp;<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;확보&nbsp;:&nbsp;정부&nbsp;각&nbsp;부처&nbsp;클러스터&nbsp;조성&nbsp;사업&nbsp;및&nbsp;R&D&nbsp;공모사업&nbsp;적극&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;투자&nbsp;유치&nbsp;:&nbsp;방산&nbsp;대기업&nbsp;및&nbsp;부품&nbsp;강소기업의&nbsp;직접&nbsp;투자를&nbsp;유도하고,&nbsp;민관&nbsp;공동&nbsp;개발&nbsp;방식(SPC)을&nbsp;통한&nbsp;산단&nbsp;개발&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;지방비&nbsp;및&nbsp;기금&nbsp;:&nbsp;전남&nbsp;전략산업&nbsp;육성&nbsp;기금&nbsp;등&nbsp;지자체&nbsp;매칭&nbsp;펀드&nbsp;조성<br><br>□&nbsp;기대효과&nbsp;:&nbsp;순천의&nbsp;경제&nbsp;지도를&nbsp;바꾸는&nbsp;담대한&nbsp;도전,&nbsp;그&nbsp;시작이&nbsp;방위산업<br>&nbsp;&nbsp;○&nbsp;순천은&nbsp;주변도시와&nbsp;협력체계&nbsp;구축&nbsp;통해&nbsp;산업&nbsp;대전환을&nbsp;설계하는&nbsp;거점도시</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	소상공인 최저소득 보장제 시행 및 민생경제 회복</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="소상공인 최저소득 보장제 시행 및 민생경제 회복">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;벼랑&nbsp;끝에&nbsp;선&nbsp;소상공인의&nbsp;생존권&nbsp;보장과&nbsp;지역&nbsp;경제의&nbsp;선순환&nbsp;구조&nbsp;확립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사회안전망&nbsp;구축&nbsp;:&nbsp;고물가·고금리·고환율의&nbsp;3고&nbsp;위기&nbsp;속에서&nbsp;소상공인들에게&nbsp;최소&nbsp;생활비를&nbsp;지원하여&nbsp;폐업&nbsp;위기를&nbsp;방지하고&nbsp;재기&nbsp;기회&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;경제&nbsp;활성화&nbsp;:&nbsp;지원금을&nbsp;지역화폐로&nbsp;지급하여&nbsp;지역&nbsp;내&nbsp;자본&nbsp;유출을&nbsp;막고,&nbsp;소상공인과&nbsp;소비자&nbsp;간의&nbsp;상생&nbsp;모델을&nbsp;구축하여&nbsp;골목상권에&nbsp;활력&nbsp;제고<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보편적&nbsp;민생&nbsp;복지&nbsp;실현&nbsp;:&nbsp;소상공인을&nbsp;시정의&nbsp;핵심&nbsp;파트너로&nbsp;선정하고,&nbsp;이들의&nbsp;안정적인&nbsp;소득&nbsp;기반을&nbsp;마련하여&nbsp;지역경제&nbsp;선순환&nbsp;구조의&nbsp;초석&nbsp;마련<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;(법적&nbsp;근거&nbsp;마련&nbsp;및&nbsp;기준&nbsp;수립)&nbsp;순천시&nbsp;소상공인&nbsp;지원&nbsp;및&nbsp;최저소득&nbsp;보장&nbsp;조례&nbsp;제정을&nbsp;통해&nbsp;지원의&nbsp;법적&nbsp;근거와&nbsp;투명한&nbsp;대상&nbsp;선정&nbsp;기준&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관내&nbsp;소상공인&nbsp;대상&nbsp;전수&nbsp;조사를&nbsp;실시하여&nbsp;소득&nbsp;하위&nbsp;구간&nbsp;및&nbsp;경영&nbsp;위기업종&nbsp;등&nbsp;구체적인&nbsp;지원&nbsp;대상&nbsp;확정<br>&nbsp;&nbsp;○&nbsp;(지급&nbsp;체계&nbsp;및&nbsp;소득&nbsp;보전&nbsp;방식&nbsp;설계)&nbsp;기준&nbsp;중위소득&nbsp;및&nbsp;가구원&nbsp;수를&nbsp;기준으로&nbsp;'순천형&nbsp;최저&nbsp;소득선'을&nbsp;설정하고,&nbsp;실제&nbsp;소득과의&nbsp;차액&nbsp;일부를&nbsp;보전<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지급&nbsp;수단은&nbsp;'순천사랑상품권'으로&nbsp;한정하여&nbsp;지급된&nbsp;예산이&nbsp;다시&nbsp;지역&nbsp;내&nbsp;소상공인&nbsp;매출로&nbsp;연결되는&nbsp;순환&nbsp;구조&nbsp;설계<br>&nbsp;&nbsp;○&nbsp;(통합&nbsp;지원&nbsp;플랫폼&nbsp;운영)&nbsp;현금&nbsp;지원에&nbsp;그치지&nbsp;않고,&nbsp;소상공인&nbsp;맞춤형&nbsp;경영&nbsp;컨설팅,&nbsp;폐업&nbsp;및&nbsp;재창업&nbsp;지원&nbsp;등&nbsp;소상공인&nbsp;종합지원센터&nbsp;기능&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;(민관&nbsp;협력&nbsp;거버넌스&nbsp;구축)&nbsp;소상공인연합회,&nbsp;전통시장&nbsp;상인회&nbsp;등이&nbsp;참여하는&nbsp;'민생경제회복위원회'를&nbsp;구성하여&nbsp;정책의&nbsp;실효성을&nbsp;주기적으로&nbsp;점검&nbsp;보완<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;도입기(취임~&nbsp;26.&nbsp;12.)&nbsp;:&nbsp;전담팀&nbsp;구성,&nbsp;조례&nbsp;제정&nbsp;및&nbsp;소상공인&nbsp;실태조사<br>&nbsp;&nbsp;○&nbsp;시범기('27.&nbsp;01.&nbsp;~&nbsp;27.&nbsp;06)&nbsp;:&nbsp;특정&nbsp;소득&nbsp;구간&nbsp;대상&nbsp;시범사업&nbsp;및&nbsp;효과&nbsp;분석<br>&nbsp;&nbsp;○&nbsp;확산기('27.&nbsp;07.&nbsp;~&nbsp;임기)&nbsp;:&nbsp;단계적&nbsp;확대&nbsp;및&nbsp;정례화,&nbsp;소득&nbsp;보전&nbsp;시스템&nbsp;안정화<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;공공재원&nbsp;확보&nbsp;:&nbsp;일반회계&nbsp;예산&nbsp;조정&nbsp;및&nbsp;불요불급&nbsp;예산&nbsp;민생분야&nbsp;우선&nbsp;편성<br>&nbsp;&nbsp;○&nbsp;특별&nbsp;기금&nbsp;조성&nbsp;:&nbsp;기업&nbsp;메세나&nbsp;자금&nbsp;일부를&nbsp;'민생경제&nbsp;회복기금'으로&nbsp;출연<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;지원비&nbsp;공모&nbsp;:&nbsp;소상공인&nbsp;지원&nbsp;공모사업&nbsp;및&nbsp;지방&nbsp;소멸&nbsp;대응기금&nbsp;확보&nbsp;<br><br>□&nbsp;기대효과&nbsp;:&nbsp;전국&nbsp;최초&nbsp;소상공인&nbsp;최저소득보장제&nbsp;실현&nbsp;도시&nbsp;순천<br>&nbsp;&nbsp;○&nbsp;대형&nbsp;쇼핑몰&nbsp;입점에&nbsp;따른&nbsp;소비&nbsp;환경&nbsp;변화&nbsp;대응&nbsp;상생을&nbsp;위한&nbsp;민생경제&nbsp;표준을&nbsp;제시</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	순천관광공사 설립을 통한 수익 순환형 지방재정 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="순천관광공사 설립을 통한 수익 순환형 지방재정 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;돈&nbsp;버는&nbsp;관광산업으로&nbsp;관광&nbsp;수익이&nbsp;시민의&nbsp;복지가&nbsp;되는&nbsp;선순환&nbsp;구조&nbsp;확립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;흩어져&nbsp;있는&nbsp;관광&nbsp;자원을&nbsp;통합&nbsp;관리하여&nbsp;전문성과&nbsp;경영&nbsp;효율성을&nbsp;제고<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공사가&nbsp;직접&nbsp;수익&nbsp;사업을&nbsp;전개하고,&nbsp;그&nbsp;이익금을&nbsp;복지&nbsp;예산으로&nbsp;환원하는&nbsp;한편&nbsp;양질의&nbsp;관광자원확보를&nbsp;위한&nbsp;재투자&nbsp;등&nbsp;재정&nbsp;선순환&nbsp;모델&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체류형&nbsp;관광&nbsp;콘텐츠&nbsp;개발을&nbsp;통해&nbsp;지역&nbsp;소상공인&nbsp;매출&nbsp;증대&nbsp;및&nbsp;양질의&nbsp;서비스&nbsp;관광&nbsp;일자리&nbsp;창출<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;(법적·제도적&nbsp;기반&nbsp;마련&nbsp;및&nbsp;조직&nbsp;구성)&nbsp;순천&nbsp;관광공사&nbsp;설립&nbsp;타당성&nbsp;검토&nbsp;용역&nbsp;실시&nbsp;및&nbsp;관련&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;전문가&nbsp;중심의&nbsp;조직&nbsp;구성으로&nbsp;관료주의적&nbsp;행정을&nbsp;탈피하고,&nbsp;마케팅&nbsp;중심의&nbsp;전문&nbsp;경영&nbsp;체제&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;(관광&nbsp;자원&nbsp;위탁&nbsp;및&nbsp;신규&nbsp;수익&nbsp;사업&nbsp;개발&nbsp;및&nbsp;콘텐츠&nbsp;발굴)&nbsp;순천만국가정원,&nbsp;낙안읍성&nbsp;등&nbsp;주요&nbsp;관광&nbsp;시설물&nbsp;운영권&nbsp;순천&nbsp;관광공사로&nbsp;이관<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;순천&nbsp;특산물&nbsp;브랜드화&nbsp;및&nbsp;상품&nbsp;판매,&nbsp;야간관광&nbsp;테마파크&nbsp;조성,&nbsp;순천형&nbsp;한옥&nbsp;숙박&nbsp;시설&nbsp;운영,&nbsp;파크&nbsp;골프장&nbsp;조성&nbsp;등&nbsp;공사&nbsp;직영&nbsp;수익&nbsp;사업&nbsp;전개<br>&nbsp;&nbsp;○&nbsp;(민관&nbsp;협력&nbsp;네트워크&nbsp;및&nbsp;통합&nbsp;마케팅)&nbsp;소상공인,&nbsp;숙박업,&nbsp;외식업체&nbsp;연계&nbsp;'순천&nbsp;통합&nbsp;관광&nbsp;패스'&nbsp;출시&nbsp;및&nbsp;지역&nbsp;소비&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;글로벌&nbsp;OTT&nbsp;플랫폼&nbsp;및&nbsp;SNS&nbsp;활용한&nbsp;해외&nbsp;마케팅으로&nbsp;외국인&nbsp;관광객&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;(수익금&nbsp;환원&nbsp;시스템&nbsp;구축)&nbsp;관광공사&nbsp;이익금의&nbsp;일정&nbsp;비율을&nbsp;시민이&nbsp;체감할&nbsp;수&nbsp;있는&nbsp;민생사업에&nbsp;우선&nbsp;투자<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;준비기(취임&nbsp;~&nbsp;2026.&nbsp;12.):&nbsp;시장&nbsp;직속&nbsp;설립&nbsp;추진단&nbsp;구성,&nbsp;타당성&nbsp;검토&nbsp;용역&nbsp;및&nbsp;시의회&nbsp;협의,&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;○&nbsp;출범기(2027.&nbsp;01.&nbsp;~&nbsp;2027.&nbsp;06):&nbsp;자본금&nbsp;확보,&nbsp;공사&nbsp;설립&nbsp;등기&nbsp;및&nbsp;출범<br>&nbsp;&nbsp;○&nbsp;도약기(2027.&nbsp;07.&nbsp;~&nbsp;임기):&nbsp;신규&nbsp;수익모델&nbsp;론칭,&nbsp;수익금&nbsp;환원&nbsp;및&nbsp;재투자사업&nbsp;개시&nbsp;<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;초기&nbsp;설립&nbsp;자본금&nbsp;:&nbsp;순천시&nbsp;일반회계&nbsp;및&nbsp;특별회계&nbsp;출연금을&nbsp;통해&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;운영&nbsp;재원&nbsp;:&nbsp;국가정원&nbsp;등&nbsp;주요&nbsp;시설&nbsp;입장료&nbsp;수익&nbsp;및&nbsp;위탁&nbsp;관리&nbsp;수수료<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공사&nbsp;자체&nbsp;수익&nbsp;사업,&nbsp;정부&nbsp;지원&nbsp;사업&nbsp;국비&nbsp;유치,&nbsp;투자&nbsp;유치&nbsp;<br><br>□&nbsp;기대효과&nbsp;:&nbsp;순천&nbsp;관광자원이&nbsp;시&nbsp;재정을&nbsp;튼튼하게&nbsp;만드는&nbsp;혁신적인&nbsp;공약</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	공공의료 및 돌봄 강화를 위한 24시간 응급의료체계 인프라 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="공공의료 및 돌봄 강화를 위한 24시간 응급의료체계 인프라 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;아이부터&nbsp;어르신까지,&nbsp;병원&nbsp;찾아&nbsp;헤매지&nbsp;않는&nbsp;'안심&nbsp;의료&nbsp;도시'&nbsp;순천&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료&nbsp;공백&nbsp;해소&nbsp;:&nbsp;야간·휴일&nbsp;소아&nbsp;진료&nbsp;공백을&nbsp;메우고,&nbsp;암과&nbsp;중증&nbsp;환자들이&nbsp;타&nbsp;지역으로&nbsp;원정&nbsp;진료를&nbsp;떠나야&nbsp;하는&nbsp;불편과&nbsp;경제적&nbsp;부담을&nbsp;근본적으로&nbsp;해결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공&nbsp;돌봄&nbsp;확대&nbsp;:&nbsp;단순한&nbsp;치료를&nbsp;넘어&nbsp;예방부터&nbsp;사후&nbsp;관리까지&nbsp;책임지는&nbsp;국가&nbsp;수준의&nbsp;의료&nbsp;서비스&nbsp;체계를&nbsp;순천에&nbsp;정착<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;의료&nbsp;자치&nbsp;실현&nbsp;:&nbsp;전남&nbsp;동부권의&nbsp;의료&nbsp;거점&nbsp;역할을&nbsp;수행하며,&nbsp;시민들이&nbsp;주거지&nbsp;인근에서&nbsp;최고&nbsp;수준의&nbsp;의료&nbsp;서비스를&nbsp;누릴&nbsp;권리를&nbsp;보장<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;(24시간&nbsp;소아응급&nbsp;거점센터&nbsp;구축&nbsp;및&nbsp;운영&nbsp;지원)&nbsp;지역&nbsp;대형병원과&nbsp;협력하여&nbsp;365일&nbsp;24시간&nbsp;전문의가&nbsp;상주하는&nbsp;소아응급실&nbsp;운영&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소아과&nbsp;전문의&nbsp;확보를&nbsp;위한&nbsp;인건비&nbsp;지원&nbsp;및&nbsp;최첨단&nbsp;소아&nbsp;의료&nbsp;장비&nbsp;확충을&nbsp;위한&nbsp;시비&nbsp;매칭&nbsp;펀드&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;(국가&nbsp;암&nbsp;치료센터&nbsp;유치&nbsp;및&nbsp;공공&nbsp;의료원&nbsp;기능&nbsp;고도화)&nbsp;전남&nbsp;동부권의&nbsp;높은&nbsp;암&nbsp;발병률&nbsp;및&nbsp;의료&nbsp;수요&nbsp;근거로&nbsp;국가&nbsp;암치료센터&nbsp;분원&nbsp;또는&nbsp;거점센터&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학병원급&nbsp;의료기관과의&nbsp;MOU를&nbsp;통해&nbsp;암&nbsp;수술&nbsp;및&nbsp;항암&nbsp;치료&nbsp;전문&nbsp;인력&nbsp;유치&nbsp;및&nbsp;협진&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;(통합&nbsp;돌봄&nbsp;시스템&nbsp;순천형&nbsp;돌봄&nbsp;모델&nbsp;가동)&nbsp;병원&nbsp;&nbsp;&nbsp;&nbsp;-보건소&nbsp;지역사회를&nbsp;잇는&nbsp;퇴원환자&nbsp;연계&nbsp;돌봄&nbsp;서비스를&nbsp;통해&nbsp;퇴원&nbsp;후&nbsp;체계적인&nbsp;관리&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Al·LOT&nbsp;기반&nbsp;어르신&nbsp;건강&nbsp;관리&nbsp;및&nbsp;치매&nbsp;안심&nbsp;돌봄&nbsp;서비스&nbsp;최고&nbsp;수준&nbsp;확대<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;착수기(취임&nbsp;~&nbsp;27.&nbsp;06)&nbsp;:&nbsp;소아&nbsp;응급&nbsp;거점센터&nbsp;우선&nbsp;지정&nbsp;및&nbsp;운영·지원&nbsp;개시,&nbsp;국가&nbsp;암&nbsp;치료센터&nbsp;유치&nbsp;범시민&nbsp;추진&nbsp;위원회&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;확산기(27.&nbsp;07.~'28.&nbsp;12.)&nbsp;:&nbsp;정부&nbsp;공공보건&nbsp;의료&nbsp;기본계획&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;정착기(29.&nbsp;01.&nbsp;~&nbsp;임기)&nbsp;:&nbsp;국책사업&nbsp;반영,&nbsp;부지&nbsp;확보&nbsp;및&nbsp;인허가&nbsp;절차&nbsp;완료&nbsp;<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;유치&nbsp;:&nbsp;정부&nbsp;응급의료기관&nbsp;지원&nbsp;사업,&nbsp;권역별&nbsp;암&nbsp;센터&nbsp;국책&nbsp;사업&nbsp;공모<br>&nbsp;&nbsp;○&nbsp;지방비&nbsp;매칭&nbsp;:&nbsp;전남광주특별시&nbsp;지원과&nbsp;의료복지기금조성&nbsp;운영비&nbsp;지속&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;민관&nbsp;협력&nbsp;투자&nbsp;:&nbsp;지역&nbsp;내&nbsp;거점&nbsp;대학병원&nbsp;공동&nbsp;투자를&nbsp;통한&nbsp;시설&nbsp;고도화<br><br>□&nbsp;기대효과&nbsp;:&nbsp;밤늦게&nbsp;아픈&nbsp;아이를&nbsp;안고&nbsp;타&nbsp;도시로&nbsp;달려가는&nbsp;부모&nbsp;눈물&nbsp;닦아&nbsp;주고,&nbsp;고된&nbsp;항암으로&nbsp;대도시로&nbsp;이동해야&nbsp;했던&nbsp;시민들의&nbsp;부담을&nbsp;덜어&nbsp;줌</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	시민중심 행정혁신을 위한 인사시스템 및 조직문화 개혁</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="시민중심 행정혁신을 위한 인사시스템 및 조직문화 개혁">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;줄&nbsp;서기·밀실&nbsp;인사를&nbsp;근절하고,&nbsp;일&nbsp;잘하는&nbsp;공무원이&nbsp;대우받는&nbsp;청렴&nbsp;순천&nbsp;확립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공정가치&nbsp;실현&nbsp;:&nbsp;학연,&nbsp;지연,&nbsp;정치적&nbsp;인연을&nbsp;배제하고&nbsp;오직&nbsp;능력과&nbsp;성과에&nbsp;기반한&nbsp;인사시스템을&nbsp;구축하여&nbsp;공직&nbsp;내부의&nbsp;불신을&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민&nbsp;편익&nbsp;극대화&nbsp;:&nbsp;공무원이&nbsp;상급자의&nbsp;눈치를&nbsp;보지&nbsp;않고&nbsp;오직&nbsp;시민의&nbsp;이익과&nbsp;법령에&nbsp;근거하여&nbsp;소신&nbsp;있게&nbsp;일할&nbsp;수&nbsp;있는&nbsp;환경을&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;조직&nbsp;활력&nbsp;제고&nbsp;:&nbsp;수직적이고&nbsp;권위적인&nbsp;조직&nbsp;문화를&nbsp;수평적이고&nbsp;창의적인&nbsp;문화로&nbsp;개혁하여&nbsp;현장&nbsp;행정&nbsp;수요에&nbsp;유연&nbsp;대응,&nbsp;기피&nbsp;및&nbsp;전문분야&nbsp;장기근속&nbsp;우대<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;(인사&nbsp;혁신&nbsp;및&nbsp;투명성&nbsp;강화)&nbsp;시장의&nbsp;인사권을&nbsp;분산하고,&nbsp;외부&nbsp;전문가&nbsp;및&nbsp;공무원&nbsp;노조가&nbsp;참여하는&nbsp;인사검증위원회의&nbsp;실질적&nbsp;운영&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;보직&nbsp;공모제&nbsp;확대&nbsp;및&nbsp;인사&nbsp;대상자&nbsp;사전&nbsp;공개를&nbsp;통한&nbsp;공정성&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;잦은&nbsp;순환&nbsp;보직을&nbsp;지양하고&nbsp;전문&nbsp;직위제&nbsp;확대,&nbsp;산업&nbsp;및&nbsp;투자유치&nbsp;등&nbsp;전문화<br>&nbsp;&nbsp;○&nbsp;(소신&nbsp;행정&nbsp;보호&nbsp;및&nbsp;적극&nbsp;행정&nbsp;면책&nbsp;명분화)&nbsp;법령&nbsp;범위&nbsp;내에서&nbsp;소신&nbsp;업무로&nbsp;발생한&nbsp;과실에&nbsp;대해&nbsp;시장이&nbsp;직접&nbsp;책임지는&nbsp;적무행정&nbsp;보호&nbsp;시스템&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민&nbsp;삶의&nbsp;질&nbsp;향상을&nbsp;위해&nbsp;적극적으로&nbsp;업무를&nbsp;추진한&nbsp;우수&nbsp;공무원에게는&nbsp;승진&nbsp;가점&nbsp;및&nbsp;파격적인&nbsp;포상&nbsp;휴가&nbsp;등&nbsp;인센티브&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;(수평적&nbsp;조직문화&nbsp;및&nbsp;근무환경&nbsp;개선)&nbsp;MZ&nbsp;세대&nbsp;공직자와&nbsp;시장이&nbsp;직접&nbsp;소통하는&nbsp;정례&nbsp;소통&nbsp;회의로&nbsp;하향식&nbsp;의사결정&nbsp;구조&nbsp;개선,&nbsp;스마트&nbsp;오피스&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;(시민&nbsp;참여형&nbsp;열린&nbsp;행정&nbsp;구현)&nbsp;주요&nbsp;정책&nbsp;결정&nbsp;시&nbsp;시민들이&nbsp;직접&nbsp;참여하여&nbsp;의견을&nbsp;내는&nbsp;시민&nbsp;배심원단&nbsp;및&nbsp;디지털&nbsp;민주주의&nbsp;플랫폼&nbsp;활성화<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;정비기(취임&nbsp;~&nbsp;26.&nbsp;12.)&nbsp;:&nbsp;인사&nbsp;혁신&nbsp;선언,&nbsp;규정&nbsp;개정&nbsp;및&nbsp;인사검증위원회&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;정착기(27.&nbsp;01.&nbsp;~&nbsp;27.&nbsp;12)&nbsp;:&nbsp;전문&nbsp;직위제&nbsp;실시&nbsp;등&nbsp;조직&nbsp;진단&nbsp;및&nbsp;기능&nbsp;조정<br>&nbsp;&nbsp;○&nbsp;확산기('28.&nbsp;01.&nbsp;~&nbsp;임기)&nbsp;:&nbsp;적극행정&nbsp;문화&nbsp;정착,&nbsp;청렴도&nbsp;평가&nbsp;최상위권&nbsp;달성<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;행정&nbsp;운영&nbsp;경비&nbsp;활용&nbsp;:&nbsp;인건비&nbsp;및&nbsp;행정&nbsp;운영&nbsp;경비를&nbsp;효율적으로&nbsp;재편&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;인센티브&nbsp;기금&nbsp;:&nbsp;성과금&nbsp;및&nbsp;포상금&nbsp;예산을&nbsp;적극행정&nbsp;포인트와&nbsp;연계&nbsp;배분&nbsp;<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;공모&nbsp;:&nbsp;행안부&nbsp;혁신성과&nbsp;창출&nbsp;지원사업&nbsp;등&nbsp;국비&nbsp;공모사업&nbsp;예산&nbsp;확보<br><br>□&nbsp;기대효과&nbsp;:&nbsp;행정의&nbsp;주인인&nbsp;시민에게&nbsp;최고의&nbsp;행정&nbsp;서비스&nbsp;제공하는&nbsp;마중물<br>&nbsp;&nbsp;○&nbsp;시민이&nbsp;주인이&nbsp;되는&nbsp;대한민국&nbsp;1둥&nbsp;지방정부&nbsp;순천&nbsp;실현</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

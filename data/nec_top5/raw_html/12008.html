@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박봉열 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	김해형 직접 민주주의 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="김해형 직접 민주주의 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;&nbsp;주민의&nbsp;관심과&nbsp;참여를&nbsp;통한&nbsp;실질적인&nbsp;주민주권&nbsp;실현<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;&nbsp;가칭&nbsp;‘김해시민이합니다위원회’를&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;시정&nbsp;현안에&nbsp;대해&nbsp;시민들이&nbsp;직접&nbsp;토론하고&nbsp;결정할&nbsp;수&nbsp;있도록&nbsp;행정적&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;가칭&nbsp;‘김해시민이합니다위원회’설치에&nbsp;관한&nbsp;조례&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민들의&nbsp;토론&nbsp;결과&nbsp;결정&nbsp;사항을&nbsp;행정이&nbsp;반드시&nbsp;따르도록&nbsp;제도적&nbsp;근거&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;주민총회,&nbsp;주민대회&nbsp;등&nbsp;주민&nbsp;공론장&nbsp;활성화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	주민주권 예산 비율 2%로 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="주민주권 예산 비율 2%로 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;&nbsp;예산&nbsp;권한의&nbsp;일부를&nbsp;행정에서&nbsp;주민에게&nbsp;이양하여&nbsp;실질적&nbsp;주민주권&nbsp;실현<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;주민주권예산&nbsp;비율&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김해시&nbsp;예산의&nbsp;최소&nbsp;2%를&nbsp;주민이&nbsp;결정하는&nbsp;예산으로&nbsp;의무화<br>&nbsp;&nbsp;○&nbsp;주민예산학교&nbsp;개설&nbsp;및&nbsp;시민&nbsp;전문가&nbsp;지원단&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민예산학교:&nbsp;주민이&nbsp;예산&nbsp;서류를&nbsp;읽고&nbsp;정책을&nbsp;설계할&nbsp;수&nbsp;있도록&nbsp;교육&nbsp;진행하여&nbsp;주민&nbsp;역량&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민&nbsp;전문가&nbsp;지원단:&nbsp;주민이&nbsp;자신의&nbsp;아이디어를&nbsp;정책으로&nbsp;설계할&nbsp;수&nbsp;있도록&nbsp;자문<br>&nbsp;○&nbsp;주민참여결산제<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민주권예산으로&nbsp;편성된&nbsp;사업에&nbsp;대한&nbsp;평가&nbsp;사업&nbsp;전개<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;차기&nbsp;예산의&nbsp;확대,&nbsp;유지,&nbsp;축소,&nbsp;폐지의&nbsp;근거&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	김해형 일자리 보장제</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="김해형 일자리 보장제">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;&nbsp;공공부문에서&nbsp;청년&nbsp;일자리를&nbsp;직접&nbsp;창출하여&nbsp;고용&nbsp;안정망&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;&nbsp;지역&nbsp;소멸을&nbsp;막고,&nbsp;지역&nbsp;기반&nbsp;산업·서비스&nbsp;생태계&nbsp;재구성<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;사회&nbsp;필수일자리&nbsp;중심의&nbsp;공공일자리&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄·요양·복지,&nbsp;보건·의료,&nbsp;기후·환경&nbsp;대응,&nbsp;교통·에너지·폐기물&nbsp;등&nbsp;지자체&nbsp;위탁·용역·하청&nbsp;일자리부터&nbsp;단계적으로&nbsp;직접고용&nbsp;전환으로&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지자체가&nbsp;지역&nbsp;필요&nbsp;기반&nbsp;공공일자리를&nbsp;직접&nbsp;설계·운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단순&nbsp;임시&nbsp;일자리가&nbsp;아닌&nbsp;상시·지속&nbsp;업무를&nbsp;중심으로&nbsp;설계<br>&nbsp;&nbsp;○&nbsp;양질의&nbsp;노동조건&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활임금,&nbsp;4대&nbsp;보험&nbsp;전면&nbsp;적용&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주거,&nbsp;교통,&nbsp;문화,&nbsp;복지&nbsp;등의&nbsp;정주여건&nbsp;보장</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	아동 전담 야간 응급 체계 마련</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="아동 전담 야간 응급 체계 마련">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;어린이&nbsp;건강의&nbsp;지자체&nbsp;책임&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;아이가&nbsp;밤에&nbsp;아플&nbsp;때&nbsp;우리&nbsp;동네에서&nbsp;바로&nbsp;진료받을&nbsp;수&nbsp;있는&nbsp;소아&nbsp;의료체계&nbsp;구축<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;달빛어린이병원&nbsp;및&nbsp;김해형&nbsp;야간&nbsp;지정&nbsp;의료기관&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부&nbsp;달빛&nbsp;어린이&nbsp;병원&nbsp;사업과&nbsp;연계해서&nbsp;지역&nbsp;차원에서&nbsp;확대하고&nbsp;자체&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간과&nbsp;휴일에도&nbsp;운영하는&nbsp;소아의료체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소아&nbsp;야간&nbsp;지료&nbsp;인력&nbsp;지원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	시내버스 공영화 : 버스를 시민의 버스로!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="시내버스 공영화 : 버스를 시민의 버스로!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;버스를&nbsp;노선관리형&nbsp;준공영제로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;노선결정에&nbsp;주민참여&nbsp;보장<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;「시내버스&nbsp;공공관리제&nbsp;운영에&nbsp;관한&nbsp;조례」&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현행&nbsp;버스면허를&nbsp;조건부&nbsp;한정면허로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;직영형·노선입찰형&nbsp;공공관리제로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민참여&nbsp;노선결정위원회&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;표준운송원가&nbsp;산정&nbsp;및&nbsp;정산<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;운수종사자의&nbsp;처우개선</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이수동 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	민생 회복 ( 농어촌 기본소득+영동형 통합복지+소상공인 동행)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="민생 회복 ( 농어촌 기본소득+영동형 통합복지+소상공인 동행)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◆&nbsp;농어촌&nbsp;기본소득&nbsp;―&nbsp;군민&nbsp;누구나&nbsp;매달&nbsp;15만원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;더불어민주당&nbsp;집권여당의&nbsp;국비·도비&nbsp;지원&nbsp;연계로&nbsp;안정적&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;농어촌&nbsp;기본소득&nbsp;공모&nbsp;→&nbsp;예산&nbsp;분석&nbsp;후&nbsp;단계적&nbsp;지급&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;4인&nbsp;가구&nbsp;기준&nbsp;연&nbsp;720만원&nbsp;추가소득,&nbsp;지역화폐&nbsp;지급으로&nbsp;군내&nbsp;상권&nbsp;활성화<br><br>◆&nbsp;영동형&nbsp;통합복지&nbsp;―&nbsp;치우침&nbsp;없이&nbsp;고르게,&nbsp;빈틈없이&nbsp;든든하게<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;일라이트&nbsp;특화&nbsp;공공목욕탕·사우나&nbsp;운영,&nbsp;전&nbsp;군민·인접지역&nbsp;버스비&nbsp;무료화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;어르신&nbsp;119안심시계&nbsp;보급&nbsp;+&nbsp;병원&nbsp;동행&nbsp;서비스&nbsp;확대(대전·김천·옥천)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;권역별&nbsp;노인교실&nbsp;인프라&nbsp;강화,&nbsp;노인일자리&nbsp;공동체사업단(개소당&nbsp;1억원&nbsp;연계)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;장애인&nbsp;특수체육·바우처&nbsp;다양화,&nbsp;아동&nbsp;병원&nbsp;동행&nbsp;서비스&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;돌봄&nbsp;종사자&nbsp;처우개선,&nbsp;실거주&nbsp;공무원&nbsp;정착제도&nbsp;마련<br><br>◆&nbsp;소상공인&nbsp;동행&nbsp;패키지&nbsp;―&nbsp;전통시장과&nbsp;소상공인이&nbsp;살아나는&nbsp;영동<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;전통시장&nbsp;시설&nbsp;현대화·주차편의&nbsp;확충,&nbsp;청년&nbsp;점포·로컬푸드&nbsp;매장&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;디지털&nbsp;골목상권&nbsp;구축(배달·온라인&nbsp;입점·스마트&nbsp;결제&nbsp;지원)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;육성자금&nbsp;최대&nbsp;7,000만원(착한가격업소&nbsp;1억원),&nbsp;이차보전&nbsp;연&nbsp;2%<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공공기관&nbsp;지역물품&nbsp;의무구매&nbsp;확대<br><br>●&nbsp;목표&nbsp;군민&nbsp;누구나&nbsp;매달&nbsp;15만원&nbsp;농어촌&nbsp;기본소득&nbsp;지급(4인&nbsp;가구&nbsp;연&nbsp;720만원&nbsp;추가소득),&nbsp;영동형&nbsp;통합복지&nbsp;완성,&nbsp;전통시장·소상공인&nbsp;자생력&nbsp;강화로&nbsp;따뜻하고&nbsp;활력&nbsp;있는&nbsp;민생경제&nbsp;회복<br>●&nbsp;이행방법&nbsp;단계적시행(관련&nbsp;협의체&nbsp;구성)<br>●&nbsp;이행기간&nbsp;2026~2030까지<br>●&nbsp;재원조달방안&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	 농업 대전환 (부자농촌! 스마트농업으로 농가소득 2배)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title=" 농업 대전환 (부자농촌! 스마트농업으로 농가소득 2배)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◆&nbsp;군립&nbsp;스마트&nbsp;APC(농산물&nbsp;산지유통센터)&nbsp;+&nbsp;농산물&nbsp;유통센터&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;생산-선별-출하-유통을&nbsp;한&nbsp;번에&nbsp;처리,&nbsp;저온창고&nbsp;증설로&nbsp;농가소득&nbsp;2배&nbsp;증대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;경매·유통·판매&nbsp;통합&nbsp;운영으로&nbsp;농산물&nbsp;가격결정권을&nbsp;농민에게&nbsp;―&nbsp;농민주권&nbsp;회복<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;내수·수출·급식·가공&nbsp;판로&nbsp;확대&nbsp;및&nbsp;수출&nbsp;전담기구&nbsp;조성<br><br>◆&nbsp;농산물&nbsp;가격&nbsp;안정&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;농산물&nbsp;안정화&nbsp;기금&nbsp;100억&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;최소&nbsp;소득&nbsp;보전제&nbsp;도입(3년)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;스마트팜&nbsp;통합&nbsp;운영센터&nbsp;구축으로&nbsp;영동&nbsp;농업의&nbsp;디지털&nbsp;전환&nbsp;가속화<br><br>◆&nbsp;기대효과<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;농가&nbsp;실질&nbsp;소득&nbsp;2배&nbsp;증대,&nbsp;농업의&nbsp;산업화·수출산업화&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;청년&nbsp;농업인&nbsp;유입&nbsp;기반&nbsp;마련,&nbsp;영동&nbsp;농산물&nbsp;브랜드&nbsp;가치&nbsp;제고<br><br>●&nbsp;목표&nbsp;군립&nbsp;스마트&nbsp;APC와&nbsp;농산물&nbsp;안정화&nbsp;기금&nbsp;100억&nbsp;조성으로&nbsp;농가&nbsp;실질소득&nbsp;2배&nbsp;증대,&nbsp;농민이&nbsp;가격결정권을&nbsp;갖는&nbsp;농민주권&nbsp;회복&nbsp;및&nbsp;영동&nbsp;농업의&nbsp;디지털·수출산업화&nbsp;전환<br>●&nbsp;이행방법&nbsp;단계적시행(관련&nbsp;협의체&nbsp;구성)<br>●&nbsp;이행기간&nbsp;2026~2030까지<br>●&nbsp;재원조달방안&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	AI 행정혁신+ 광역 철도망(더 똑똑한 군정, 더 넓어진 생활권)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="AI 행정혁신+ 광역 철도망(더 똑똑한 군정, 더 넓어진 생활권)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◆&nbsp;낭비&nbsp;없는&nbsp;AI&nbsp;예산혁신&nbsp;―&nbsp;전담팀&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공무원&nbsp;+&nbsp;외부&nbsp;전문가&nbsp;구성,&nbsp;신규·대규모&nbsp;예산사업&nbsp;시행&nbsp;전&nbsp;의무&nbsp;검증<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;외부&nbsp;용역보고서,&nbsp;중복사업,&nbsp;사업비&nbsp;과다계상&nbsp;집중&nbsp;점검<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;AI·데이터&nbsp;기반&nbsp;정책&nbsp;분석&nbsp;시스템&nbsp;도입(인구·복지·농업·관광&nbsp;통합관리)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;사후&nbsp;평가로&nbsp;실효성&nbsp;없는&nbsp;사업&nbsp;정리&nbsp;→&nbsp;농업·복지·청년&nbsp;등&nbsp;핵심&nbsp;분야&nbsp;집중<br><br>◆&nbsp;광역&nbsp;철도망&nbsp;구축&nbsp;―&nbsp;영동의&nbsp;경제&nbsp;영토를&nbsp;확장<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;제5차&nbsp;국가철도망&nbsp;추가&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;충청권·대구권&nbsp;광역철도&nbsp;연결,&nbsp;영동역&nbsp;거점화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;수도권&nbsp;접근성&nbsp;개선으로&nbsp;생활권&nbsp;확대,&nbsp;농산물&nbsp;유통허브&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;관광·워케이션&nbsp;거점화로&nbsp;인구유입&nbsp;효과&nbsp;극대화<br><br>◆&nbsp;기대효과<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;세금&nbsp;누수&nbsp;차단&nbsp;+&nbsp;광역&nbsp;인프라&nbsp;확충&nbsp;=&nbsp;작지만&nbsp;강한&nbsp;영동&nbsp;행정&nbsp;실현<br><br>●&nbsp;목표&nbsp;AI·데이터&nbsp;기반&nbsp;예산혁신으로&nbsp;세금&nbsp;누수&nbsp;차단,&nbsp;충청권·대구권&nbsp;광역철도&nbsp;연결&nbsp;및&nbsp;영동역&nbsp;거점화로&nbsp;수도권&nbsp;접근성&nbsp;개선,&nbsp;작지만&nbsp;강한&nbsp;영동&nbsp;행정&nbsp;실현<br>●&nbsp;이행방법&nbsp;단계적시행(관련&nbsp;협의체&nbsp;구성)<br>●&nbsp;이행기간&nbsp;2026~2030까지<br>●&nbsp;재원조달방안&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	 K-국악 문화·관광도시 (영동을 대한민국 국악 1번지로)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title=" K-국악 문화·관광도시 (영동을 대한민국 국악 1번지로)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◆&nbsp;국악&nbsp;인프라&nbsp;―&nbsp;대한민국&nbsp;국악&nbsp;1번지&nbsp;영동<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;국립국악원&nbsp;영동분원&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;국악기념관&nbsp;및&nbsp;체험형&nbsp;관광시설&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;국악&nbsp;전용&nbsp;유튜브&nbsp;채널&nbsp;개설(지역&nbsp;홍보&nbsp;+&nbsp;국악&nbsp;콘텐츠&nbsp;개발)<br><br>◆&nbsp;관광도시&nbsp;영동<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;축제·관광·지역마케팅&nbsp;전문&nbsp;경영체제&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;모노레일&nbsp;설치&nbsp;―&nbsp;이재명&nbsp;대통령&nbsp;영동군&nbsp;선거공약&nbsp;연계&nbsp;추진<br><br>◆&nbsp;문화·레포츠&nbsp;도시&nbsp;영동<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;파크골프장&nbsp;조성·확장&nbsp;및&nbsp;전국&nbsp;대회&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;영동읍&nbsp;야구장&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;레포츠&nbsp;시설&nbsp;유치(서바이벌&nbsp;체험장,&nbsp;산악오토바이&nbsp;대회&nbsp;유치)<br><br>◆&nbsp;기대효과<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;사계절&nbsp;관광객&nbsp;유입,&nbsp;지역&nbsp;상권&nbsp;활성화,&nbsp;영동&nbsp;브랜드&nbsp;가치&nbsp;제고<br><br>●&nbsp;목표&nbsp;국립국악원&nbsp;영동분원&nbsp;유치와&nbsp;체험형&nbsp;국악&nbsp;인프라&nbsp;구축으로&nbsp;'대한민국&nbsp;국악&nbsp;1번지'&nbsp;위상&nbsp;확립,&nbsp;축제·관광·레포츠가&nbsp;어우러진&nbsp;사계절&nbsp;관광도시&nbsp;조성<br>●&nbsp;이행방법&nbsp;단계적시행(관련&nbsp;협의체&nbsp;구성)<br>●&nbsp;이행기간&nbsp;2026~2030까지<br>●&nbsp;재원조달방안&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	미래세대 영동 (교육 + 청년 정착 + 여성친화도시)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="미래세대 영동 (교육 + 청년 정착 + 여성친화도시)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◆&nbsp;맞춤형&nbsp;교육&nbsp;―&nbsp;정보격차&nbsp;제로,&nbsp;영동형&nbsp;입시&nbsp;관제탑<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;진로진학센터&nbsp;운영&nbsp;―&nbsp;입시제도&nbsp;안내,&nbsp;학생부&nbsp;종합관리,&nbsp;수도권&nbsp;수준&nbsp;컨설팅<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;작은학교&nbsp;살리기&nbsp;―&nbsp;농촌유학&nbsp;확대&nbsp;+&nbsp;주거&nbsp;플랫폼&nbsp;+&nbsp;5년간&nbsp;최대&nbsp;8,000만원&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;청소년&nbsp;지원:&nbsp;중학생&nbsp;1인&nbsp;50만원&nbsp;확대,&nbsp;교육&nbsp;바우처&nbsp;20→30만원,&nbsp;1인&nbsp;1회&nbsp;해외연수&nbsp;보장<br><br>◆&nbsp;청년&nbsp;정착&nbsp;4종&nbsp;패키지&nbsp;―&nbsp;청년이&nbsp;떠나지&nbsp;않는,&nbsp;돌아오는&nbsp;영동<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;주거:&nbsp;월세&nbsp;지원&nbsp;+&nbsp;전세자금&nbsp;이자매칭&nbsp;+&nbsp;빈집&nbsp;리모델링&nbsp;청년주택<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;창업:&nbsp;농업·관광·국악&nbsp;연계&nbsp;원스톱&nbsp;창업&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;결혼:&nbsp;신혼부부&nbsp;전세대출&nbsp;이자(연&nbsp;최대&nbsp;100만원)&nbsp;3년&nbsp;→&nbsp;10년&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;일자리:&nbsp;황간&nbsp;산업단지&nbsp;우량기업(현대로템&nbsp;협력사&nbsp;등)&nbsp;유치,&nbsp;인턴십&nbsp;월&nbsp;최대&nbsp;200만원<br><br>◆&nbsp;여성친화도시&nbsp;―&nbsp;아동과&nbsp;여성에게&nbsp;차별&nbsp;없는&nbsp;안전한&nbsp;영동<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;성평등&nbsp;정책&nbsp;추진,&nbsp;여성기업&nbsp;우대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;골목길&nbsp;정비·CCTV&nbsp;사각지대&nbsp;점검으로&nbsp;안전한&nbsp;보행환경&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;단독&nbsp;육아&nbsp;부담&nbsp;해소를&nbsp;위한&nbsp;지원체계&nbsp;강화<br><br>●&nbsp;목표&nbsp;수도권&nbsp;수준&nbsp;진로진학&nbsp;교육체계&nbsp;구축,&nbsp;청년&nbsp;정착&nbsp;4종&nbsp;패키지(주거·창업·결혼·일자리)로&nbsp;청년이&nbsp;떠나지&nbsp;않고&nbsp;돌아오는&nbsp;영동,&nbsp;아동과&nbsp;여성이&nbsp;안전한&nbsp;여성친화도시&nbsp;실현<br>●&nbsp;이행방법&nbsp;단계적시행(관련&nbsp;협의체&nbsp;구성)<br>●&nbsp;이행기간&nbsp;2026~2030까지<br>●&nbsp;재원조달방안&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

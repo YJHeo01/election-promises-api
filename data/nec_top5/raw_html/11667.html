@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;조문관 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	청년창업 거점도시 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="청년창업 거점도시 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            19~29세&nbsp;청년들이&nbsp;일할&nbsp;곳을&nbsp;찾지&nbsp;못해&nbsp;‘좌절의&nbsp;도시’&nbsp;양산을&nbsp;떠나고&nbsp;있습니다.&nbsp;3년&nbsp;연속&nbsp;청년&nbsp;인구가&nbsp;큰폭으로&nbsp;감소&nbsp;중인&nbsp;양산을&nbsp;‘기회의&nbsp;도시’로&nbsp;바꾸겠습니다.&nbsp;청년창업&nbsp;거점을&nbsp;육성하고&nbsp;지속&nbsp;지원해&nbsp;청년&nbsp;성장&nbsp;사다리를&nbsp;우뚝&nbsp;세우겠습니다.<br><br>□&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;‘청년도시&nbsp;양산’&nbsp;브랜드&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘청년’&nbsp;하면&nbsp;양산을&nbsp;떠올리게&nbsp;될&nbsp;정도로,&nbsp;일할&nbsp;거리와&nbsp;누리고&nbsp;즐길&nbsp;산업·문화&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청년창업&nbsp;거점도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공유&nbsp;오피스,&nbsp;실험&nbsp;기기,&nbsp;시제품&nbsp;제작&nbsp;설비&nbsp;등&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI,&nbsp;로봇,&nbsp;드론,&nbsp;E스포츠,&nbsp;게임&nbsp;등&nbsp;청년&nbsp;스타트업,&nbsp;벤처기업&nbsp;집중&nbsp;육성·관련&nbsp;분야&nbsp;대회&nbsp;개최&nbsp;및&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;귀농&nbsp;스마트&nbsp;팜,&nbsp;체험농장&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;하반기~계속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026&nbsp;하반기&nbsp;현황&nbsp;파악,&nbsp;계획&nbsp;수립,&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027&nbsp;사업&nbsp;착수<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2028~&nbsp;사업&nbsp;지속&nbsp;추진&nbsp;및&nbsp;프로그램&nbsp;개발<br><br>□&nbsp;재원&nbsp;조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국,&nbsp;도,&nbsp;시비&nbsp;및&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	‘무상 버스’ 단계적 시행</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="‘무상 버스’ 단계적 시행">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ‘무상&nbsp;버스’가&nbsp;양산에서&nbsp;시동을&nbsp;겁니다.&nbsp;대중교통&nbsp;무료화는,&nbsp;교통혼잡&nbsp;해소&nbsp;와&nbsp;탄소배출&nbsp;저감&nbsp;등으로&nbsp;사회적&nbsp;비용을&nbsp;줄이면서&nbsp;환경을&nbsp;살리는&nbsp;정책입니다.&nbsp;최상의&nbsp;대중교통&nbsp;정책은&nbsp;완전&nbsp;공영제를&nbsp;통한&nbsp;‘무상&nbsp;버스’운행입니다.&nbsp;다만&nbsp;우리&nbsp;시의&nbsp;재정&nbsp;상황을&nbsp;고려하여&nbsp;첫&nbsp;단계에서는&nbsp;초·중·고등학생,&nbsp;70대&nbsp;이상&nbsp;어르신들들부터&nbsp;시행하고,&nbsp;대상을&nbsp;점차&nbsp;확대해&nbsp;나가겠습니다.<br><br>□&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;공영제를&nbsp;목표로&nbsp;한&nbsp;‘무상&nbsp;버스’&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;단계별&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단계/초등학생&nbsp;-&nbsp;현재&nbsp;아미&nbsp;무료승차&nbsp;시행&nbsp;중(통합&nbsp;운영)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중·고생&nbsp;매달&nbsp;교통카드&nbsp;사용액을&nbsp;익월에&nbsp;충전&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;70세&nbsp;이상&nbsp;현행&nbsp;월&nbsp;‘3만&nbsp;원&nbsp;이내’&nbsp;지원에서&nbsp;상한을&nbsp;폐지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2단계/마을버스&nbsp;무료&nbsp;승차<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;하반기&nbsp;내&nbsp;1단계&nbsp;시행&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2027~계속&nbsp;시행&nbsp;및&nbsp;단계별&nbsp;확대<br><br>□&nbsp;재원&nbsp;조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;1단계/중·고생,&nbsp;청소년&nbsp;및&nbsp;70세&nbsp;이상&nbsp;어르신&nbsp;추가&nbsp;소요&nbsp;연간&nbsp;약&nbsp;116억&nbsp;5천만&nbsp;원&nbsp;내외<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026~27&nbsp;전액&nbsp;시비,&nbsp;추후&nbsp;확대&nbsp;시행&nbsp;과정에&nbsp;도비&nbsp;지원&nbsp;모색.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	부산대 공대 유치 재추진(목표년도 2032)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="부산대 공대 유치 재추진(목표년도 2032)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            20여&nbsp;년&nbsp;전&nbsp;부산지역의&nbsp;강한&nbsp;반대여론으로&nbsp;양산&nbsp;이전이&nbsp;무산된&nbsp;부산대&nbsp;공대,&nbsp;그러나&nbsp;이제는&nbsp;여건이&nbsp;변했습니다.&nbsp;부울경&nbsp;통합이&nbsp;추진되면&nbsp;‘역외&nbsp;이전’&nbsp;이라는&nbsp;반대&nbsp;명분이&nbsp;사라지는데다&nbsp;장전동&nbsp;캠퍼스가&nbsp;심각한&nbsp;공간부족에&nbsp;시달리고&nbsp;있기&nbsp;때문입니다.&nbsp;정부의&nbsp;지방&nbsp;살리기&nbsp;정책&nbsp;일환인&nbsp;‘서울대&nbsp;10개&nbsp;만들기’&nbsp;거점대학으로&nbsp;전폭적인&nbsp;지원도&nbsp;기대할&nbsp;수&nbsp;있습니다.<br><br>□&nbsp;목표&nbsp;-&nbsp;부산공대&nbsp;이전으로&nbsp;‘지·학(地學)&nbsp;상생’<br>&nbsp;&nbsp;○&nbsp;부산공대는&nbsp;건물,&nbsp;시설,&nbsp;장비&nbsp;등을&nbsp;첨단화해&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;양산은&nbsp;부울경&nbsp;성장엔진과&nbsp;연계한&nbsp;지·산·학·연&nbsp;협력&nbsp;기반&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;현황-국토교통부&nbsp;‘공간혁신구역&nbsp;선도사업’&nbsp;최종&nbsp;후보지로&nbsp;선정된&nbsp;상태<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국토부,&nbsp;교육부,&nbsp;재정경제부&nbsp;등&nbsp;관련&nbsp;부처가&nbsp;많고&nbsp;실&nbsp;사용자인&nbsp;부산대&nbsp;측&nbsp;입장도&nbsp;무시할&nbsp;수&nbsp;없는&nbsp;등&nbsp;다각적인&nbsp;논의,&nbsp;협의&nbsp;필요.<br>&nbsp;&nbsp;○&nbsp;이행-더불어민주당&nbsp;민주연구원&nbsp;‘지·학(地學)&nbsp;상생’&nbsp;연구과제&nbsp;선정해&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;결과물을&nbsp;여당에&nbsp;제안해&nbsp;‘5극&nbsp;3특’&nbsp;지방&nbsp;살리기&nbsp;정책에&nbsp;반영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부산대측과&nbsp;양산&nbsp;민·관&nbsp;협의체&nbsp;구성,&nbsp;결론과&nbsp;실행&nbsp;방안&nbsp;도출<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;민주연구원&nbsp;연구과제&nbsp;선정<br>&nbsp;&nbsp;○&nbsp;2027~28&nbsp;민주연구원&nbsp;연구&nbsp;결과물&nbsp;수립,&nbsp;국회(여당)&nbsp;등&nbsp;이전&nbsp;여론&nbsp;조성&nbsp;여당-정부&nbsp;논의&nbsp;시작&nbsp;및&nbsp;장애요소&nbsp;파악&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2029~부산대:양산&nbsp;민·관&nbsp;협상단체&nbsp;구성&nbsp;및&nbsp;논의&nbsp;시작&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2030&nbsp;협상&nbsp;완료,&nbsp;이전&nbsp;준비(추진)단계&nbsp;진입<br><br>□&nbsp;재원&nbsp;조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;전액&nbsp;국비<br>&nbsp;&nbsp;○&nbsp;양산시&nbsp;행정&nbsp;지원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	보육·교육은 사회 공동의 의무</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="보육·교육은 사회 공동의 의무">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;보육·교육을&nbsp;부모의&nbsp;희생에만&nbsp;기대어서는&nbsp;출산율&nbsp;저하와&nbsp;지역&nbsp;소멸&nbsp;위기&nbsp;를&nbsp;해결할&nbsp;수&nbsp;없습니다.&nbsp;웃으며&nbsp;왔다가&nbsp;교육&nbsp;때문에&nbsp;울며&nbsp;떠난다는&nbsp;양산,&nbsp;우리&nbsp;아이들과&nbsp;부모의&nbsp;얼굴에&nbsp;웃음꽃을&nbsp;피워&nbsp;드리겠습니다.<br><br>□&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;보육·교육&nbsp;때문에&nbsp;떠나는&nbsp;양산에서&nbsp;교육&nbsp;위해&nbsp;찾아오는&nbsp;양산으로<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;산후조리비&nbsp;지원&nbsp;100%&nbsp;인상(현&nbsp;50만→100만&nbsp;원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;비용이&nbsp;민간&nbsp;절반&nbsp;수준인&nbsp;공공산후조리원&nbsp;건립.<br>&nbsp;&nbsp;○&nbsp;돌봄교실&nbsp;대상&nbsp;인원&nbsp;확대,&nbsp;운영시간&nbsp;연장(인건비&nbsp;지원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘온종일&nbsp;돌봄시설(오후&nbsp;1시~8시&nbsp;운영)’&nbsp;현재&nbsp;20여&nbsp;곳에서&nbsp;자속&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;어린이&nbsp;동화마을&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소극장,&nbsp;숲속&nbsp;도서관,&nbsp;작은&nbsp;동물원&nbsp;등으로&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;손바닥&nbsp;농장,&nbsp;책&nbsp;만들기&nbsp;등&nbsp;다양한&nbsp;체험시설&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;AI,&nbsp;코딩,&nbsp;창의공부&nbsp;등&nbsp;미래분야&nbsp;교육&nbsp;초등과정에서부터&nbsp;확대&nbsp;시행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;후반기&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;2027~시행<br><br>□&nbsp;재원&nbsp;조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국,&nbsp;도,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	“날자, 웅상!” 웅상 도약 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="“날자, 웅상!” 웅상 도약 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            올해는&nbsp;웅상의&nbsp;양산&nbsp;편입&nbsp;2갑자(120년)를&nbsp;맞는&nbsp;뜻깊은&nbsp;해입니다.&nbsp;그런데도&nbsp;여전히&nbsp;‘웅상&nbsp;소외론’이&nbsp;뿌리&nbsp;깊고,&nbsp;시장은&nbsp;이를&nbsp;‘식민지&nbsp;사고’로&nbsp;비하해&nbsp;주민들의&nbsp;분노를&nbsp;샀습니다.&nbsp;심지어&nbsp;주민들은&nbsp;웅상을&nbsp;양산에서&nbsp;분리하자는&nbsp;‘웅상군’&nbsp;독립을&nbsp;요구할&nbsp;정도입니다.&nbsp;신라&nbsp;건국&nbsp;전&nbsp;이미&nbsp;‘우시산국(于&nbsp;尸山國)이&nbsp;자리했던&nbsp;역사고도&nbsp;웅상,&nbsp;양산의&nbsp;뿌리&nbsp;지역&nbsp;웅상에&nbsp;날개를&nbsp;달겠습니다.<br><br>□&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;환경,&nbsp;교육,&nbsp;복지&nbsp;인프라&nbsp;확충으로&nbsp;정주여건&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;정책&nbsp;배려&nbsp;통한&nbsp;시민&nbsp;동질감,&nbsp;소속감&nbsp;고취<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;한국승강기대학교&nbsp;양산캠퍼스(웅상)&nbsp;개설<br>&nbsp;&nbsp;○&nbsp;회야강&nbsp;상류&nbsp;하천&nbsp;유지수&nbsp;방류(일/2만톤),&nbsp;수생태&nbsp;복원<br>&nbsp;&nbsp;○&nbsp;웅상문화예술회관,&nbsp;육아종합지원센터,&nbsp;실내수영장&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;'농어촌&nbsp;특별전형'&nbsp;혜택&nbsp;없어진&nbsp;3개&nbsp;고교&nbsp;지원&nbsp;강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;후반기&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;2027~시행<br><br>□&nbsp;재원&nbsp;조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;회야강&nbsp;하천유지수-도,&nbsp;시비&nbsp;및&nbsp;울산시비<br>&nbsp;&nbsp;○&nbsp;공공시설-국,&nbsp;도,&nbsp;시비<br>&nbsp;&nbsp;○&nbsp;한국승강기대학&nbsp;양산캠퍼스-민자</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

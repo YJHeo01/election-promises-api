@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;최우영 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	북구형 트라이앵글 클러스터 조성 및 첨단 산업도시 도약</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="북구형 트라이앵글 클러스터 조성 및 첨단 산업도시 도약">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;낡은&nbsp;공단&nbsp;이미지를&nbsp;벗고&nbsp;제3공단,&nbsp;도심융합특구,&nbsp;금호워터폴리스를&nbsp;3축으로&nbsp;연결해&nbsp;로봇·AI&nbsp;기반의&nbsp;'대구&nbsp;첨단산업&nbsp;심장'으로&nbsp;부활시킵니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;제3공단은&nbsp;AI와&nbsp;로봇이&nbsp;결합된&nbsp;첨단&nbsp;산업단지로&nbsp;조기&nbsp;전환하고,&nbsp;도심융합특구는&nbsp;연구&nbsp;및&nbsp;창업&nbsp;인재&nbsp;육성&nbsp;거점으로,&nbsp;금호워터폴리스는&nbsp;첨단&nbsp;제조업의&nbsp;중심으로&nbsp;육성합니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기&nbsp;특구&nbsp;지정&nbsp;및&nbsp;마스터플랜&nbsp;수립&nbsp;~&nbsp;2030년&nbsp;1단계&nbsp;클러스터&nbsp;구축&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구청의&nbsp;세금&nbsp;투입을&nbsp;최소화합니다.&nbsp;대신&nbsp;금호워터폴리스의&nbsp;'기회발전특구'&nbsp;지정에&nbsp;따른&nbsp;파격적인&nbsp;세제&nbsp;혜택과&nbsp;규제&nbsp;완화를&nbsp;무기로&nbsp;대규모&nbsp;민간&nbsp;기업의&nbsp;직접&nbsp;투자를&nbsp;수조&nbsp;원대&nbsp;규모로&nbsp;유치합니다.&nbsp;또한,&nbsp;'청년&nbsp;창업&nbsp;특례보증&nbsp;제도'를&nbsp;적극&nbsp;활용해&nbsp;자체&nbsp;예산&nbsp;부담&nbsp;없이&nbsp;초기&nbsp;창업&nbsp;생태계&nbsp;자본을&nbsp;튼튼하게&nbsp;조성합니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	주요 후적지 전면 개발을 통한 명품 신도시 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="주요 후적지 전면 개발을 통한 명품 신도시 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;오랜&nbsp;기간&nbsp;이전을&nbsp;앞두고&nbsp;방치되거나&nbsp;지역&nbsp;단절의&nbsp;원인이었던&nbsp;경북농업기술원,&nbsp;대구소년원,&nbsp;50사단&nbsp;등&nbsp;거대&nbsp;유휴&nbsp;부지를&nbsp;북구의&nbsp;새로운&nbsp;성장&nbsp;동력으로&nbsp;만듭니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;농업기술원&nbsp;부지는&nbsp;칠곡경북대병원과&nbsp;연계한&nbsp;'의료&nbsp;메디컬&nbsp;시티'로,&nbsp;소년원은&nbsp;청년&nbsp;창작&nbsp;및&nbsp;공적&nbsp;임대&nbsp;주거단지로,&nbsp;50사단은&nbsp;'대구공항&nbsp;배후&nbsp;첨단&nbsp;거점단지'로&nbsp;맞춤형&nbsp;복합&nbsp;개발을&nbsp;추진합니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2027년&nbsp;부지별&nbsp;지구단위계획&nbsp;수립&nbsp;및&nbsp;인허가&nbsp;~&nbsp;2030년&nbsp;순차적&nbsp;착공&nbsp;및&nbsp;분양<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;50사단&nbsp;등&nbsp;대규모&nbsp;부지는&nbsp;민간&nbsp;건설사가&nbsp;상업·주거&nbsp;시설을&nbsp;개발하면서&nbsp;얻는&nbsp;이익의&nbsp;상당&nbsp;부분을&nbsp;도로,&nbsp;공원&nbsp;등&nbsp;공공&nbsp;인프라로&nbsp;짓게&nbsp;하는&nbsp;'공공기여(개발&nbsp;이익&nbsp;환수)&nbsp;방식'을&nbsp;적용해&nbsp;구비&nbsp;부담을&nbsp;원천&nbsp;차단합니다.&nbsp;농업기술원&nbsp;부지는&nbsp;국가&nbsp;의료&nbsp;R&D&nbsp;클러스터로&nbsp;지정받아&nbsp;중앙정부의&nbsp;막대한&nbsp;국비를&nbsp;직접&nbsp;매칭하여&nbsp;재원을&nbsp;확충합니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	사통팔달 광역교통망 확충 및 '내 집 앞 10분 역세권' 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="사통팔달 광역교통망 확충 및 '내 집 앞 10분 역세권' 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;출퇴근&nbsp;체증을&nbsp;완전히&nbsp;해소하기&nbsp;위해&nbsp;도시철도&nbsp;4호선을&nbsp;주민이&nbsp;원하는&nbsp;모노&nbsp;레일&nbsp;방식으로&nbsp;신속히&nbsp;재추진하고,&nbsp;5호선&nbsp;신설과&nbsp;굵직한&nbsp;광역도로망을&nbsp;조기에&nbsp;뚫습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;숙원인&nbsp;4호선&nbsp;모노레일&nbsp;전환을&nbsp;최우선&nbsp;추진하고,&nbsp;만평역에서&nbsp;엑스코역을&nbsp;연결하는&nbsp;5호선&nbsp;신설을&nbsp;본격화합니다.&nbsp;아울러&nbsp;조야~동명&nbsp;간&nbsp;광역도로를&nbsp;조기&nbsp;개통해&nbsp;도심과&nbsp;외곽을&nbsp;시원하게&nbsp;연결합니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;노선망&nbsp;확정&nbsp;및&nbsp;타당성&nbsp;조사&nbsp;착수&nbsp;~&nbsp;2030년&nbsp;핵심&nbsp;구간&nbsp;조기&nbsp;개통<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;대규모&nbsp;교통망은&nbsp;국토교통부의&nbsp;'국가철도망&nbsp;및&nbsp;대도시권&nbsp;광역교통망&nbsp;계획'에&nbsp;1순위로&nbsp;반영시켜&nbsp;총사업비의&nbsp;대부분을&nbsp;국비로&nbsp;충당합니다.&nbsp;과거&nbsp;매천시장&nbsp;화재&nbsp;당시&nbsp;단숨에&nbsp;복구비&nbsp;34억&nbsp;원의&nbsp;국비를&nbsp;끌어온&nbsp;정치력과&nbsp;중앙&nbsp;네트워크를&nbsp;총동원해&nbsp;대구시비와&nbsp;국비&nbsp;매칭&nbsp;비율을&nbsp;최고&nbsp;수준으로&nbsp;확보하겠습니다</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	'매천대교~서대구역' 직통 고가도로 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="'매천대교~서대구역' 직통 고가도로 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;단절된&nbsp;매천대교&nbsp;북단에서&nbsp;서대구역을&nbsp;직접&nbsp;잇는&nbsp;전용&nbsp;고가도로를&nbsp;2030년까지&nbsp;완공하여&nbsp;서대구&nbsp;KTX&nbsp;역세권의&nbsp;경제&nbsp;혜택을&nbsp;북구&nbsp;주민들의&nbsp;일상으로&nbsp;끌어옵니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;신호&nbsp;대기나&nbsp;우회&nbsp;없이&nbsp;서대구역에&nbsp;10분&nbsp;내로&nbsp;도착할&nbsp;수&nbsp;있도록&nbsp;직선고가도로를&nbsp;신설하여&nbsp;물류&nbsp;흐름을&nbsp;개선하고&nbsp;KTX&nbsp;접근성을&nbsp;획기적으로&nbsp;높입니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;기본&nbsp;및&nbsp;실시설계&nbsp;착수&nbsp;~&nbsp;2028년&nbsp;착공&nbsp;~&nbsp;2030년&nbsp;완공<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;이&nbsp;구간의&nbsp;고가도로&nbsp;건설을&nbsp;단순한&nbsp;지자체&nbsp;도로망이&nbsp;아닌&nbsp;'대통령&nbsp;공약&nbsp;이행&nbsp;연계&nbsp;사업(서대구&nbsp;역세권&nbsp;거점&nbsp;개발)'으로&nbsp;격상시킵니다.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;명확한&nbsp;명분을&nbsp;바탕으로&nbsp;기획재정부와&nbsp;국토교통부를&nbsp;집중&nbsp;설득하여&nbsp;전액&nbsp;국비&nbsp;혹은&nbsp;국·시비&nbsp;매칭&nbsp;비율을&nbsp;극대화하여&nbsp;열악한&nbsp;구청&nbsp;재정을&nbsp;보호합니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	고품격 문화·체육 인프라 및 전 세대 맞춤형 돌봄망 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="고품격 문화·체육 인프라 및 전 세대 맞춤형 돌봄망 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;(구)경북도청&nbsp;터를&nbsp;글로벌&nbsp;복합문화허브로&nbsp;만들고,&nbsp;동네마다&nbsp;걸어서&nbsp;누리는&nbsp;체육시설과&nbsp;1인&nbsp;가구&nbsp;및&nbsp;어르신을&nbsp;위한&nbsp;촘촘한&nbsp;스마트&nbsp;복지망을&nbsp;구축합니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;(구)도청&nbsp;터에&nbsp;국립근대미술관과&nbsp;국립뮤지컬컴플렉스를&nbsp;유치하고,&nbsp;구&nbsp;시민운동장(대구복합스포츠타운)에는&nbsp;국제규격&nbsp;수영장&nbsp;복합스포츠센터를&nbsp;건립합니다.&nbsp;또한,&nbsp;독거&nbsp;어르신&nbsp;등&nbsp;1인&nbsp;가구의&nbsp;안전과&nbsp;건강을&nbsp;챙기는&nbsp;'지역&nbsp;스마트&nbsp;돌봄센터'를&nbsp;동별로&nbsp;운영합니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;예비타당성&nbsp;면제&nbsp;신청&nbsp;및&nbsp;설계&nbsp;공모&nbsp;~&nbsp;2029년&nbsp;주요&nbsp;시설&nbsp;순차&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;개관<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국립&nbsp;문화시설&nbsp;건립은&nbsp;'예비타당성&nbsp;조사&nbsp;면제'를&nbsp;적극&nbsp;추진하여&nbsp;수년이&nbsp;걸리는&nbsp;행정&nbsp;절차를&nbsp;대폭&nbsp;생략하고&nbsp;막대한&nbsp;국가&nbsp;예산을&nbsp;즉시&nbsp;투입시킵니다.&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;수영장&nbsp;등&nbsp;지역&nbsp;체육시설은&nbsp;비싼&nbsp;사유지를&nbsp;사지&nbsp;않고&nbsp;'구&nbsp;시민운동장&nbsp;부지&nbsp;등&nbsp;기존&nbsp;100%&nbsp;공유지'를&nbsp;재활용하여&nbsp;수백억&nbsp;원의&nbsp;땅값을&nbsp;절감하며,&nbsp;여기서&nbsp;아낀&nbsp;예산은&nbsp;복지와&nbsp;돌봄&nbsp;인프라에&nbsp;전액&nbsp;재투자합니다</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;방세환 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	3대가 행복한 복지도시 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="3대가 행복한 복지도시 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>주민참여&nbsp;거버넌스&nbsp;강화&nbsp;및&nbsp;공동체&nbsp;회복을&nbsp;위한&nbsp;계층별&nbsp;복지&nbsp;강화&nbsp;&nbsp;<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어린이안전센터&nbsp;건립(교통·소방·지진체험),&nbsp;다함께&nbsp;돌봄센터&nbsp;확충,&nbsp;경기도&nbsp;동부유아체험교육원(유치확정)&nbsp;건립,&nbsp;광주시&nbsp;아이바른성장센터&nbsp;운영&nbsp;내실화,&nbsp;어린이집생애최초&nbsp;입소료&nbsp;지원,&nbsp;초등학교&nbsp;입학축하금&nbsp;30만원&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청소년·청년&nbsp;전담&nbsp;부서&nbsp;신설,&nbsp;청년&nbsp;공동작업·창업공간&nbsp;권역별&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역사회&nbsp;통합&nbsp;돌봄체계&nbsp;구축,&nbsp;동부권&nbsp;노인복지타운&nbsp;조기&nbsp;건립,&nbsp;70세&nbsp;이상&nbsp;대중교통비&nbsp;지원,&nbsp;어르신&nbsp;대상포진&nbsp;무료접종,&nbsp;치매안심&nbsp;시니어대학&nbsp;신설,&nbsp;노인복지관·보훈회관&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인가족지원센터&nbsp;확대,&nbsp;광주&nbsp;최초&nbsp;국공립장애어린이집&nbsp;운영&nbsp;내실화,&nbsp;산후조리비&nbsp;300만원&nbsp;지원,&nbsp;독감무료예방&nbsp;접종<br>&nbsp;<br>○&nbsp;이행기간<br>2026.&nbsp;7&nbsp;~&nbsp;(지속&nbsp;사업)<br><br>○&nbsp;재원조달방안&nbsp;등<br>국비/도비/시비/민자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	도약하는 교통체계 구축(광역교통망 개선 및 권역별 인프라 연결)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="도약하는 교통체계 구축(광역교통망 개선 및 권역별 인프라 연결)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;철도중심&nbsp;교통도시(6개&nbsp;철도망)&nbsp;+&nbsp;사통팔달&nbsp;스파이더웹&nbsp;도로망&nbsp;구축&nbsp;<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;철도망을&nbsp;촘촘하게<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;JTX&nbsp;광역급행&nbsp;(잠실~태전고산역~청주공항)&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;수서~광주&nbsp;(수서~모란~경기광주역)&nbsp;복선전철&nbsp;조기&nbsp;착공<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;위례~삼동&nbsp;광역철도&nbsp;추진(위례~을지대~삼동역)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;GTX-D&nbsp;추진(삼성~수서~광주~이천~여주~원주)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;경강선&nbsp;연장&nbsp;추진(경기광주역~태전고산역~양벌역~용인&nbsp;남사)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;판교-오포선&nbsp;(판교~신현~능평)&nbsp;예비타당성&nbsp;조기&nbsp;신청<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;철도건설기금&nbsp;500억&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;도로망도&nbsp;빠짐없이<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;태전~분당&nbsp;도로&nbsp;개설&nbsp;(왕복&nbsp;4차로,&nbsp;터널&nbsp;2개소)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;태전~직동IC&nbsp;도로&nbsp;개설&nbsp;(왕복&nbsp;4차로,&nbsp;교량&nbsp;2개소)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;신현~능평&nbsp;태재고개&nbsp;터널&nbsp;추진(용인~광주&nbsp;고속화도로)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;오포~초월&nbsp;연결도로&nbsp;태전고산IC&nbsp;신설&nbsp;(의왕~광주&nbsp;민자도로)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;국도&nbsp;43,&nbsp;45호선&nbsp;우회도로&nbsp;(양벌~송정)&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;광동~무갑~신월~산이&nbsp;도로&nbsp;확장&nbsp;(지방도&nbsp;325호선)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;광주&nbsp;도척~용인&nbsp;양지(4차로)&nbsp;도로&nbsp;확장&nbsp;(국지도&nbsp;98호선)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;경기광주&nbsp;TG&nbsp;전면&nbsp;입체화&nbsp;조기&nbsp;착공<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;성남~장호원&nbsp;전용도로&nbsp;램프&nbsp;개통<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;AI&nbsp;스마트&nbsp;교통센터&nbsp;(CCTV&nbsp;통합관제,&nbsp;택시&nbsp;쉼터,&nbsp;콜센터)&nbsp;건립<br><br>○&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2026.&nbsp;7&nbsp;~&nbsp;(지속&nbsp;사업)<br><br>○&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;관계&nbsp;중앙부처,경기도,주변&nbsp;도시와&nbsp;긴밀한&nbsp;협력&nbsp;및&nbsp;국비/도비/시비/민자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	민생경제 활력을 잇다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="민생경제 활력을 잇다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;지역&nbsp;특화산업&nbsp;육성&nbsp;및&nbsp;지역&nbsp;공공시설&nbsp;확충<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;산업·일자리&nbsp;성과&nbsp;기반&nbsp;선순환&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;-&nbsp;거점별&nbsp;2개&nbsp;축&nbsp;관광벨트&nbsp;조성(여가&nbsp;휴양형&nbsp;벨트,&nbsp;산업&nbsp;관광형&nbsp;벨트)<br>&nbsp;&nbsp;-&nbsp;규제&nbsp;합리화&nbsp;지속추진(수변구역지정&nbsp;재정비)<br>&nbsp;&nbsp;-&nbsp;행정복합시설&nbsp;건립<br>&nbsp;&nbsp;-&nbsp;소상공인·중소기업&nbsp;경영자금&nbsp;및&nbsp;판로&nbsp;개척&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;청년&nbsp;경제·정주&nbsp;기반&nbsp;구축(일터&nbsp;+&nbsp;주거&nbsp;동시실현&nbsp;청년혁신타운&nbsp;건립)<br>&nbsp;&nbsp;-&nbsp;자연채&nbsp;푸드팜센터&nbsp;운영&nbsp;활성화<br>&nbsp;&nbsp;-&nbsp;지역특산물&nbsp;브랜드&nbsp;육성&nbsp;및&nbsp;홍보&nbsp;강화<br>&nbsp;&nbsp;-&nbsp;체육&nbsp;인프라&nbsp;확충&nbsp;및&nbsp;활용&nbsp;민생경제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;(G-스타디움&nbsp;랜드마크:&nbsp;국내외&nbsp;스포츠대회&nbsp;및&nbsp;복합문화&nbsp;이벤트&nbsp;유치)<br><br>○&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2026.&nbsp;7&nbsp;~&nbsp;(지속&nbsp;사업)<br><br>○&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;관계&nbsp;중앙부처,&nbsp;경기도와&nbsp;긴밀한&nbsp;협력&nbsp;및&nbsp;국비/도비/시비/민자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	미래를 여는 교육·문화도시 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="미래를 여는 교육·문화도시 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;권역별&nbsp;균형있는&nbsp;교육·문화·생활환경&nbsp;인프라&nbsp;조성&nbsp;및&nbsp;프로그램&nbsp;활성화<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;하천문화&nbsp;생태계&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;과밀학급&nbsp;해소(삼동초,&nbsp;쌍령중,&nbsp;매양고&nbsp;등&nbsp;조기&nbsp;신설)<br>&nbsp;&nbsp;-&nbsp;IB인증학교&nbsp;및&nbsp;자율형공립고등학교&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;경안동&nbsp;평생학습관&nbsp;프로그램&nbsp;확대&nbsp;및&nbsp;운영&nbsp;시간&nbsp;연장<br>&nbsp;&nbsp;-&nbsp;스포츠헬스센터&nbsp;복합건물&nbsp;건립,&nbsp;경안공설운동장&nbsp;재정비<br>&nbsp;&nbsp;-&nbsp;권역별&nbsp;지역균형&nbsp;문화·체육·문화시설&nbsp;지속&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;(문화복지센터,&nbsp;중대물빛공원&nbsp;문화시설,&nbsp;무장애나눔길·유아숲체험원&nbsp;국립&nbsp;치유의&nbsp;숲&nbsp;유치&nbsp;등)<br>&nbsp;&nbsp;-&nbsp;펫파크&nbsp;조성&nbsp;/&nbsp;'With&nbsp;반려동물'&nbsp;축제&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;파크골프장&nbsp;/&nbsp;스크린파크골프장&nbsp;대폭&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;영상&nbsp;미디어&nbsp;센터&nbsp;건립<br><br>○&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2026.&nbsp;7&nbsp;~&nbsp;(지속&nbsp;사업)<br><br>○&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;관계&nbsp;중앙부처와&nbsp;긴밀한&nbsp;협력&nbsp;및&nbsp;국비/도비/시비/민자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	이제부터 50만 자족도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="이제부터 50만 자족도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>지속가능&nbsp;도시계획수립으로&nbsp;정주환경&nbsp;개선&nbsp;및&nbsp;생활&nbsp;SOC확충<br>&nbsp;&nbsp;&nbsp;<br>○&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광주역세권&nbsp;상업·산업지구&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(종합병원,&nbsp;대형쇼핑몰,&nbsp;컨벤션센터,&nbsp;환승센터)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;역세권&nbsp;도시개발사업&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;그레이트&nbsp;경안천&nbsp;프로젝트&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공장밀집지역&nbsp;정비&nbsp;및&nbsp;산업거점&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첨단클러스터&nbsp;조성&nbsp;및&nbsp;AI&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;스마트&nbsp;교통체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(교통안전통합센터&nbsp;건립,&nbsp;똑버스&nbsp;확대,&nbsp;친환경&nbsp;저상버스&nbsp;100%&nbsp;도입)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공주차공간&nbsp;확충&nbsp;(경안시장/경안동/공설운동장&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년·신혼부부&nbsp;임대주택&nbsp;건립(확대)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광주형&nbsp;산림복지&nbsp;4대&nbsp;거점시설&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(너른골&nbsp;휴양림,&nbsp;태화산&nbsp;학술림,&nbsp;목재교육종합센터,&nbsp;국립&nbsp;치유의숲)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생태하천&nbsp;복원(친수공간&nbsp;조성)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;풍수해&nbsp;생활권&nbsp;종합정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광주시&nbsp;종합폐기물처리시설&nbsp;조속&nbsp;완공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;탄소중립&nbsp;기회소득&nbsp;확대&nbsp;(탄소&nbsp;저감&nbsp;활동시&nbsp;'광주사랑카드'&nbsp;포인트&nbsp;지급)<br><br>○&nbsp;이행기간<br>2026.&nbsp;7&nbsp;~&nbsp;(지속&nbsp;사업)<br><br>○&nbsp;재원조달방안&nbsp;등<br>관계&nbsp;중앙부처,&nbsp;경기도와&nbsp;긴밀한&nbsp;협력&nbsp;및&nbsp;국비/도비/시비/민자유치</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;조재구 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	남구의 품격과 가치를 높이는 경쟁력 있는 “지속가능도시”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="남구의 품격과 가치를 높이는 경쟁력 있는 “지속가능도시”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;미래형&nbsp;복합행정공간&nbsp;조성<br>○&nbsp;미래형&nbsp;남구청&nbsp;신청사&nbsp;조성<br>○&nbsp;이천동·대명2동&nbsp;행정복지센터&nbsp;건립<br>○&nbsp;캠프조지&nbsp;후적지에&nbsp;행정복합타운&nbsp;조성<br>○&nbsp;AI시대에&nbsp;맞는&nbsp;행정시스템&nbsp;조기&nbsp;도입<br><br>■&nbsp;걷고&nbsp;싶은&nbsp;특화거리&nbsp;조성<br>○&nbsp;미군특화거리&nbsp;한미단길&nbsp;조성<br>○&nbsp;대명중&nbsp;북편&nbsp;일대&nbsp;능소화&nbsp;거리&nbsp;조성<br>○&nbsp;무장애&nbsp;나눔길&nbsp;조성<br><br>■&nbsp;안정적인&nbsp;정착&nbsp;기반&nbsp;마련<br>○&nbsp;청년&nbsp;월세&nbsp;지원사업&nbsp;및&nbsp;청년둥지&nbsp;사업<br>○&nbsp;신혼부부&nbsp;주택구입&nbsp;및&nbsp;전세&nbsp;대출이자&nbsp;지원<br>○&nbsp;남구형&nbsp;고품격&nbsp;매입임대주택&nbsp;조성<br>○&nbsp;배려&nbsp;끝판&nbsp;보육지원<br>○&nbsp;전세사기&nbsp;피해자&nbsp;재정지원<br><br>■&nbsp;미래&nbsp;투자를&nbsp;위한&nbsp;경쟁력&nbsp;확보<br>○&nbsp;역세권&nbsp;개발(도시철도&nbsp;5호선)<br>○&nbsp;공공실내수영장&nbsp;건립(심인고&nbsp;후적지)<br>○&nbsp;남구&nbsp;파크골프장&nbsp;조성<br>○&nbsp;실내&nbsp;체육관&nbsp;및&nbsp;유스호스텔&nbsp;건립&nbsp;계획수립<br>○&nbsp;대명배수지&nbsp;공영주차장&nbsp;및&nbsp;체육시설&nbsp;조성계획&nbsp;수립<br>○&nbsp;장등산&nbsp;주변&nbsp;자연경관지구&nbsp;해제<br><br>□&nbsp;목표<br>○&nbsp;20만&nbsp;자족도시&nbsp;남구시대,&nbsp;인구&nbsp;유입&nbsp;활성화를&nbsp;위한&nbsp;도시&nbsp;경쟁력&nbsp;강화<br>○&nbsp;남구&nbsp;지역&nbsp;내&nbsp;공정한&nbsp;균형발전&nbsp;도모,&nbsp;지속&nbsp;가능한&nbsp;도시로의&nbsp;성장<br><br>□&nbsp;이행방법<br>○&nbsp;재건축·재개발&nbsp;사업&nbsp;적극적&nbsp;지원<br>○&nbsp;초기검토&nbsp;및&nbsp;숙의기간&nbsp;→&nbsp;기본계획수립&nbsp;→&nbsp;관련기관&nbsp;협의&nbsp;→&nbsp;주민과&nbsp;비전&nbsp;공유&nbsp;→&nbsp;의회보고&nbsp;→&nbsp;주민대표&nbsp;참여&nbsp;방안&nbsp;수립&nbsp;→&nbsp;사업&nbsp;추진<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;중&nbsp;공약&nbsp;이행(예산확보,&nbsp;착공,&nbsp;준공&nbsp;등)<br>○&nbsp;공약&nbsp;이행&nbsp;후&nbsp;주민&nbsp;생활과&nbsp;밀접한&nbsp;사업은&nbsp;지속적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;목표&nbsp;이행&nbsp;달성을&nbsp;위한&nbsp;국·시비&nbsp;확보&nbsp;추진,&nbsp;부족분은&nbsp;구비(기금)로&nbsp;충당<br>○&nbsp;정부지원,&nbsp;공모사업&nbsp;응모·참여로&nbsp;재원&nbsp;확보&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	남구만의 콘텐츠로 어우러진 매력적인 “문화·관광도시”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="남구만의 콘텐츠로 어우러진 매력적인 “문화·관광도시”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;문화관광&nbsp;정책&nbsp;기반&nbsp;구축<br>○&nbsp;앞산&nbsp;문화·관광&nbsp;일자리&nbsp;플랫폼&nbsp;조성<br>○&nbsp;남구&nbsp;문화·관광재단&nbsp;설립<br>○&nbsp;앞산&nbsp;관광&nbsp;명소화&nbsp;사업&nbsp;계획&nbsp;수립<br><br>■&nbsp;생활밀착형&nbsp;인프라&nbsp;조성<br>○&nbsp;대구도서관&nbsp;평화공원&nbsp;조성<br>○&nbsp;앞산&nbsp;레포츠산업&nbsp;활성화<br>○&nbsp;세대공감&nbsp;어린이공원&nbsp;리모델링&nbsp;사업<br><br>■&nbsp;고산골&nbsp;관광자원&nbsp;활성화<br>○&nbsp;고산골&nbsp;공룡공원&nbsp;확장<br>○&nbsp;맨발&nbsp;걷기&nbsp;힐링&nbsp;로드&nbsp;조성<br>○&nbsp;고산골&nbsp;버스&nbsp;정류장&nbsp;조성<br><br>■&nbsp;뉴&nbsp;판타지&nbsp;남구&nbsp;프로젝트<br>○&nbsp;1시간&nbsp;야행길&nbsp;조성(워라벨&nbsp;특화&nbsp;관광코스)<br>○&nbsp;남구&nbsp;호국보훈로드&nbsp;조성<br>○&nbsp;숲도서관&nbsp;내&nbsp;푸드갤러리&nbsp;및&nbsp;시장&nbsp;음식&nbsp;온라인&nbsp;주문&nbsp;배달&nbsp;시스템&nbsp;도입<br>○&nbsp;영선시장&nbsp;특성화&nbsp;전통시장&nbsp;개발<br>○&nbsp;앞산&nbsp;타임스스퀘어&nbsp;조성<br>○&nbsp;남구&nbsp;청년&nbsp;인성문화&nbsp;역점사업&nbsp;계획<br>○&nbsp;“남구에&nbsp;살아요”&nbsp;도시이미지&nbsp;캠페인&nbsp;실시<br>○&nbsp;안지랑&nbsp;곱창거리&nbsp;“능소화&nbsp;축제”&nbsp;개최<br><br>□&nbsp;목표<br>○&nbsp;남구&nbsp;지역&nbsp;명소만의&nbsp;뉴브랜딩으로&nbsp;모두가&nbsp;머물고&nbsp;싶은&nbsp;문화도시로의&nbsp;성장<br>○&nbsp;야간관광과&nbsp;도시재생&nbsp;사업을&nbsp;통해&nbsp;모두가&nbsp;찾아오는&nbsp;관광도시로의&nbsp;성장<br><br>□&nbsp;이행방법<br>○&nbsp;남구&nbsp;지역&nbsp;명소&nbsp;뉴브랜딩,&nbsp;문화관광&nbsp;콘텐츠&nbsp;개발&nbsp;및&nbsp;인프라&nbsp;구축<br>○&nbsp;초기검토&nbsp;및&nbsp;숙의기간&nbsp;→&nbsp;기본계획수립&nbsp;→&nbsp;관련기관&nbsp;협의&nbsp;→&nbsp;주민과&nbsp;비전&nbsp;공유&nbsp;→&nbsp;의회보고&nbsp;→&nbsp;주민대표&nbsp;참여&nbsp;방안&nbsp;수립&nbsp;→&nbsp;사업&nbsp;추진<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;중&nbsp;공약&nbsp;이행(예산확보,&nbsp;착공,&nbsp;준공&nbsp;등)<br>○&nbsp;공약&nbsp;이행&nbsp;후&nbsp;주민&nbsp;생활과&nbsp;밀접한&nbsp;사업은&nbsp;지속적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;목표&nbsp;이행&nbsp;달성을&nbsp;위한&nbsp;국·시비&nbsp;확보&nbsp;추진,&nbsp;부족분은&nbsp;구비(기금)로&nbsp;충당<br>○&nbsp;정부지원,&nbsp;공모사업&nbsp;응모·참여로&nbsp;재원&nbsp;확보&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	미래와 평생교육이 공존하고 꿈이 자라는 “명문교육도시”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="미래와 평생교육이 공존하고 꿈이 자라는 “명문교육도시”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;체험형&nbsp;미래교육&nbsp;확대<br>○&nbsp;글로벌&nbsp;앞산&nbsp;캠프&nbsp;운영(미군부대&nbsp;내)<br>○&nbsp;남구&nbsp;과학&nbsp;캠프&nbsp;운영<br>○&nbsp;내일은&nbsp;도시&nbsp;농부&nbsp;“스마트&nbsp;팜”&nbsp;운영<br>○&nbsp;청소년&nbsp;정신건강&nbsp;교실&nbsp;운영<br><br>■&nbsp;평생학습&nbsp;체계&nbsp;구축&nbsp;및&nbsp;운영<br>○&nbsp;AI활용&nbsp;스마트&nbsp;라이프교실&nbsp;운영<br>○&nbsp;평생학습&nbsp;나눔&nbsp;FESTA&nbsp;개최<br>○&nbsp;주민&nbsp;활력&nbsp;배움터&nbsp;평생학습관&nbsp;운영<br>○&nbsp;분야별&nbsp;전문가&nbsp;정책발굴단&nbsp;운영<br><br>■&nbsp;교육&nbsp;경쟁력&nbsp;강화&nbsp;및&nbsp;교육&nbsp;공백&nbsp;해소<br>○&nbsp;에듀드림&nbsp;지원사업&nbsp;및&nbsp;원어민&nbsp;보조교사&nbsp;지원<br>○&nbsp;인터넷&nbsp;수능방송&nbsp;수강권&nbsp;지원<br>○&nbsp;진로&nbsp;및&nbsp;학습코칭&nbsp;지원사업<br>○&nbsp;꿈자람&nbsp;마을학교&nbsp;확대&nbsp;운영<br><br>■&nbsp;시니어&nbsp;및&nbsp;청년&nbsp;평생교육&nbsp;활성화<br>○&nbsp;어르신(성인)&nbsp;문해교육&nbsp;운영<br>○&nbsp;주민&nbsp;쳇GPT&nbsp;인재양성&nbsp;교육프로그램<br>○&nbsp;시니어&nbsp;디지털&nbsp;아카데미&nbsp;개설<br>○&nbsp;“청년&nbsp;AI정책&nbsp;포럼”&nbsp;운영<br><br>□&nbsp;목표<br>○&nbsp;꿈을&nbsp;키울&nbsp;수&nbsp;있는&nbsp;미래형&nbsp;교육시스템을&nbsp;체험할&nbsp;수&nbsp;있는&nbsp;남구<br>○&nbsp;시니어&nbsp;평생학습으로&nbsp;지속&nbsp;가능한&nbsp;배움의&nbsp;터전을&nbsp;마련하는&nbsp;도시<br><br>□&nbsp;이행방법<br>○&nbsp;체험형&nbsp;교육&nbsp;확대를&nbsp;위한&nbsp;민·관·학&nbsp;거버넌스&nbsp;구축&nbsp;<br>○&nbsp;디지털&nbsp;교육&nbsp;확대를&nbsp;위한&nbsp;학습관&nbsp;기능&nbsp;보강&nbsp;및&nbsp;확대&nbsp;사업&nbsp;추진<br>○&nbsp;초기검토&nbsp;및&nbsp;숙의기간&nbsp;→&nbsp;기본계획수립&nbsp;→&nbsp;관련기관&nbsp;협의&nbsp;→&nbsp;주민과&nbsp;비전&nbsp;공유&nbsp;→&nbsp;의회보고&nbsp;→&nbsp;주민대표&nbsp;참여&nbsp;방안&nbsp;수립&nbsp;→&nbsp;사업&nbsp;추진<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;중&nbsp;공약&nbsp;이행(예산확보,&nbsp;착공,&nbsp;준공&nbsp;등)<br>○&nbsp;공약&nbsp;이행&nbsp;후&nbsp;주민&nbsp;생활과&nbsp;밀접한&nbsp;사업은&nbsp;지속적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;목표&nbsp;이행&nbsp;달성을&nbsp;위한&nbsp;국·시비&nbsp;확보&nbsp;추진,&nbsp;부족분은&nbsp;구비(기금)로&nbsp;충당<br>○&nbsp;정부지원,&nbsp;공모사업&nbsp;응모·참여로&nbsp;재원&nbsp;확보&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	누구나 일상이 풍요로워지는 모두가 행복한 “복지도시”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="누구나 일상이 풍요로워지는 모두가 행복한 “복지도시”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;남구형&nbsp;통합복지체계&nbsp;구축<br>○&nbsp;남구&nbsp;보훈회관&nbsp;및&nbsp;이천·봉덕권&nbsp;노인복지관&nbsp;건립<br>○&nbsp;돌봄통합지원사업&nbsp;시행<br>○&nbsp;돌봄서비스&nbsp;활성화사업&nbsp;추진<br>○&nbsp;일사천리&nbsp;복지기동단&nbsp;운영<br>○&nbsp;앞산&nbsp;힐링테라스(정신건강)&nbsp;프로그램&nbsp;운영<br><br>■&nbsp;맞춤형&nbsp;돌봄정책&nbsp;운영<br>○&nbsp;생애&nbsp;최초&nbsp;어린이집&nbsp;입학축하금&nbsp;지원<br>○&nbsp;임신·출산&nbsp;가정&nbsp;가사서비스&nbsp;지원사업&nbsp;및&nbsp;종사원&nbsp;교육<br>○&nbsp;남구형&nbsp;산후&nbsp;조리비&nbsp;지원<br>○&nbsp;자녀&nbsp;가정정책&nbsp;정기&nbsp;간담회&nbsp;실시<br>○&nbsp;자녀&nbsp;국가책임&nbsp;양육정책&nbsp;요청&nbsp;및&nbsp;맘키즈센터&nbsp;조성<br><br>■&nbsp;남구형&nbsp;K-복지정책&nbsp;운영<br>○&nbsp;고독사&nbsp;예방을&nbsp;위한&nbsp;“스마트빌리지”&nbsp;사업<br>○&nbsp;1인&nbsp;가구&nbsp;지원센터&nbsp;건립&nbsp;및&nbsp;운영<br>○&nbsp;주거&nbsp;지원형&nbsp;시니어&nbsp;일자리&nbsp;하우스&nbsp;‘이룸채’운영&nbsp;및&nbsp;‘돌봄채’&nbsp;운영계획&nbsp;수립<br><br>■&nbsp;어르신&nbsp;활력프로그램&nbsp;운영<br>○&nbsp;어르신&nbsp;디지털&nbsp;배움터&nbsp;센터&nbsp;운영<br>○&nbsp;시니어&nbsp;레지던스&nbsp;주거타운&nbsp;조성계획&nbsp;수립<br>○&nbsp;공공실버타운&nbsp;조성&nbsp;계획&nbsp;수립<br>○&nbsp;시니어&nbsp;뷰티아카데미&nbsp;및&nbsp;요가&nbsp;프로그램&nbsp;운영<br><br>□&nbsp;목표<br>○&nbsp;취약계층&nbsp;지원과&nbsp;돌봄통합체계&nbsp;복지&nbsp;운영으로&nbsp;구민&nbsp;삶을&nbsp;존중하는&nbsp;남구<br><br>□&nbsp;이행방법<br>○&nbsp;사회취약계층&nbsp;자립&nbsp;및&nbsp;기초생활&nbsp;보장&nbsp;사업&nbsp;추진<br>○&nbsp;매입임대주택&nbsp;사업과&nbsp;연계한&nbsp;신혼·임신·출산가정&nbsp;복지증진사업&nbsp;운영<br>○&nbsp;노인복지사업을&nbsp;통한&nbsp;건강한&nbsp;노후생활&nbsp;보장<br>○&nbsp;돌봄통합체계&nbsp;복지&nbsp;제공을&nbsp;통한&nbsp;구민&nbsp;삶의&nbsp;질&nbsp;향상<br>○&nbsp;초기검토&nbsp;및&nbsp;숙의기간&nbsp;→&nbsp;기본계획수립&nbsp;→&nbsp;관련기관&nbsp;협의&nbsp;→&nbsp;주민과&nbsp;비전&nbsp;공유&nbsp;→&nbsp;의회보고&nbsp;→&nbsp;주민대표&nbsp;참여&nbsp;방안&nbsp;수립&nbsp;→&nbsp;사업&nbsp;추진<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;중&nbsp;공약&nbsp;이행(예산확보,&nbsp;착공,&nbsp;준공&nbsp;등)<br>○&nbsp;공약&nbsp;이행&nbsp;후&nbsp;주민&nbsp;생활과&nbsp;밀접한&nbsp;사업은&nbsp;지속적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;목표&nbsp;이행&nbsp;달성을&nbsp;위한&nbsp;국·시비&nbsp;확보&nbsp;추진,&nbsp;부족분은&nbsp;구비(기금)로&nbsp;충당<br>○&nbsp;정부지원,&nbsp;공모사업&nbsp;응모·참여로&nbsp;재원&nbsp;확보&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	누구나 차별받지 않는 AI 기반 “스마트 안전도시”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="누구나 차별받지 않는 AI 기반 “스마트 안전도시”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;24시간&nbsp;재난&nbsp;대응체계&nbsp;구축<br>○&nbsp;24시간&nbsp;재난안전상황실&nbsp;운영<br>○&nbsp;재해&nbsp;예·경보시스템&nbsp;설치<br>○&nbsp;AI&nbsp;안전지킴이&nbsp;로봇보안관&nbsp;운영<br>○&nbsp;제설전진기지&nbsp;이전&nbsp;조성&nbsp;사업<br><br>■&nbsp;선제적&nbsp;안전관리&nbsp;시스템&nbsp;구축<br>○&nbsp;앞산&nbsp;등산로&nbsp;도심형&nbsp;산불&nbsp;진화시설&nbsp;설치<br>○&nbsp;고산골&nbsp;스마트&nbsp;쉼터&nbsp;설치<br>○&nbsp;스마트&nbsp;그늘막&nbsp;설치&nbsp;및&nbsp;노후&nbsp;그늘막&nbsp;교체<br>○&nbsp;안심귀갓길·안전마을&nbsp;정비<br>○&nbsp;신천둔치&nbsp;지하통로&nbsp;연결&nbsp;건설공사<br><br>■&nbsp;명품&nbsp;교통환경&nbsp;조성<br>○&nbsp;성당시장&nbsp;공영주차장&nbsp;확장&nbsp;신축<br>○&nbsp;마을단위&nbsp;공영주차장&nbsp;조성<br>○&nbsp;실시간&nbsp;소통&nbsp;스마트&nbsp;교통안전교육&nbsp;실시<br>○&nbsp;무단방치차량&nbsp;상시&nbsp;신고체계&nbsp;구축<br><br>■&nbsp;미래주도적&nbsp;교통환경과&nbsp;청렴행정<br>○&nbsp;자율주행버스&nbsp;계획&nbsp;수립&nbsp;및&nbsp;정주환경&nbsp;인프라&nbsp;개선<br>○&nbsp;공무원&nbsp;워케이션&nbsp;포상제&nbsp;실시(청렴도&nbsp;향상&nbsp;및&nbsp;복무&nbsp;혁신)<br>○&nbsp;주민&nbsp;체감&nbsp;대외&nbsp;청렴시책&nbsp;“클린&nbsp;톡&nbsp;모니터링”&nbsp;운영<br><br>□&nbsp;목표<br>○&nbsp;인공지능&nbsp;시대에&nbsp;발맞춘&nbsp;스마트한&nbsp;도시&nbsp;구현,&nbsp;사회&nbsp;안전망&nbsp;구축<br>○&nbsp;주민이&nbsp;체감하는&nbsp;청렴한&nbsp;행정&nbsp;운영,&nbsp;자부심을&nbsp;느낄&nbsp;수&nbsp;있는&nbsp;남구<br><br>□&nbsp;이행방법<br>○&nbsp;스마트&nbsp;기술&nbsp;기반의&nbsp;안전관리&nbsp;시스템&nbsp;인프라&nbsp;구축<br>○&nbsp;시민&nbsp;중심의&nbsp;청렴·안전&nbsp;행정&nbsp;실천<br>○&nbsp;초기검토&nbsp;및&nbsp;숙의기간&nbsp;→&nbsp;기본계획수립&nbsp;→&nbsp;관련기관&nbsp;협의&nbsp;→&nbsp;주민과&nbsp;비전&nbsp;공유&nbsp;→&nbsp;의회보고&nbsp;→&nbsp;주민대표&nbsp;참여&nbsp;방안&nbsp;수립&nbsp;→&nbsp;사업&nbsp;추진<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;중&nbsp;공약&nbsp;이행(예산확보,&nbsp;착공,&nbsp;준공&nbsp;등)<br>○&nbsp;공약&nbsp;이행&nbsp;후&nbsp;주민&nbsp;생활과&nbsp;밀접한&nbsp;사업은&nbsp;지속적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;목표&nbsp;이행&nbsp;달성을&nbsp;위한&nbsp;국·시비&nbsp;확보&nbsp;추진,&nbsp;부족분은&nbsp;구비(기금)로&nbsp;충당<br>○&nbsp;정부지원,&nbsp;공모사업&nbsp;응모·참여로&nbsp;재원&nbsp;확보&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

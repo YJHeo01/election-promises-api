@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;신효철 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	미래를 여는 경제도시 동구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="미래를 여는 경제도시 동구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표:&nbsp;대구공항&nbsp;후적지&nbsp;중심의&nbsp;글로벌&nbsp;경제&nbsp;거점&nbsp;도약<br>대구공항&nbsp;후적지&nbsp;'글로벌&nbsp;AI&nbsp;하이테크&nbsp;밸리'&nbsp;조성<br>공항&nbsp;이전부지를&nbsp;인공지능(AI),&nbsp;로봇,&nbsp;모빌리티&nbsp;등&nbsp;첨단&nbsp;산업이&nbsp;집결한&nbsp;미래형&nbsp;복합도시로&nbsp;개발&nbsp;<br>50조&nbsp;규모&nbsp;글로벌&nbsp;자본&nbsp;유치&nbsp;및&nbsp;일자리&nbsp;1만&nbsp;개&nbsp;창출<br>글로벌&nbsp;앵커&nbsp;기업(선도&nbsp;기업)&nbsp;적극&nbsp;유치를&nbsp;통해&nbsp;양질의&nbsp;미래형&nbsp;일자리&nbsp;확보&nbsp;및&nbsp;지역&nbsp;경제&nbsp;활성화&nbsp;고도제한&nbsp;해제를&nbsp;통한&nbsp;구민&nbsp;재산권&nbsp;완전&nbsp;회복<br>수십&nbsp;년간&nbsp;동구&nbsp;발전의&nbsp;걸림돌이었던&nbsp;고도제한&nbsp;해제를&nbsp;강력&nbsp;추진하여&nbsp;주거&nbsp;환경&nbsp;개선&nbsp;및&nbsp;사유재산권&nbsp;보호<br><br>개발이익&nbsp;10%&nbsp;‘동구주민&nbsp;행복기금’&nbsp;조성&nbsp;및&nbsp;명문화<br>후적지&nbsp;개발&nbsp;이익의&nbsp;10%를&nbsp;환수하여&nbsp;구민&nbsp;복지&nbsp;증진을&nbsp;위한&nbsp;기금으로&nbsp;편성,&nbsp;이를&nbsp;조례로&nbsp;명문화&nbsp;<br><br>혁신도시&nbsp;내&nbsp;공공기관&nbsp;추가&nbsp;유치<br>2차&nbsp;공공기관&nbsp;지방&nbsp;이전을&nbsp;선제적으로&nbsp;준비하여&nbsp;혁신도시의&nbsp;완성도를&nbsp;높이고&nbsp;지역&nbsp;균형발전&nbsp;견인<br><br>□&nbsp;이행방법<br>전략적&nbsp;투자&nbsp;유치:&nbsp;글로벌&nbsp;자본&nbsp;및&nbsp;앵커&nbsp;기업&nbsp;유치를&nbsp;위한&nbsp;특별&nbsp;전담팀(TF)&nbsp;구성&nbsp;및&nbsp;인센티브&nbsp;패키지&nbsp;마련<br>법제도&nbsp;개선:&nbsp;국회&nbsp;및&nbsp;유관&nbsp;부처와&nbsp;협력하여&nbsp;고도제한&nbsp;해제&nbsp;및&nbsp;개발이익&nbsp;환수&nbsp;조례&nbsp;제정&nbsp;추진<br>중앙정부&nbsp;협조:&nbsp;국토교통부&nbsp;등과&nbsp;공공기관&nbsp;추가&nbsp;이전을&nbsp;위한&nbsp;긴밀한&nbsp;행정&nbsp;협의&nbsp;및&nbsp;부지&nbsp;확보<br><br>□&nbsp;이행기간<br>2022년&nbsp;~&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진&nbsp;및&nbsp;중장기&nbsp;로드맵&nbsp;확립<br><br>□&nbsp;재원조달방안&nbsp;등<br>민관&nbsp;협력&nbsp;모델:&nbsp;민간&nbsp;자본&nbsp;유치(50조&nbsp;규모)&nbsp;및&nbsp;공공개발&nbsp;방식&nbsp;병행<br>재정&nbsp;확보:&nbsp;국비&nbsp;지원,&nbsp;시비&nbsp;및&nbsp;구비&nbsp;일반회계,&nbsp;특별회계&nbsp;예산&nbsp;편성<br>기금&nbsp;운용:&nbsp;개발이익&nbsp;환수금&nbsp;기반의&nbsp;'동구주민&nbsp;행복기금'&nbsp;운용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	자연과 공존하는 생태도시, 대구 동구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="자연과 공존하는 생태도시, 대구 동구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;금호강&nbsp;제3호&nbsp;국가정원&nbsp;지정을&nbsp;추진하여&nbsp;대구&nbsp;동구를&nbsp;명실상부한&nbsp;생태&nbsp;관광&nbsp;거점으로&nbsp;도약<br>팔현습지&nbsp;보도교&nbsp;사업&nbsp;전면&nbsp;백지화&nbsp;및&nbsp;생태&nbsp;보전<br>생태계&nbsp;파괴&nbsp;우려가&nbsp;큰&nbsp;보도교&nbsp;사업을&nbsp;백지화(수성구&nbsp;협의)하고,&nbsp;팔현습지의&nbsp;원형을&nbsp;보존하여&nbsp;자연&nbsp;친화적&nbsp;가치&nbsp;수호<br>지능형&nbsp;햇빛·기후&nbsp;연금&nbsp;주민&nbsp;직접&nbsp;배당<br>신재생&nbsp;에너지&nbsp;및&nbsp;탄소&nbsp;배출권&nbsp;수익을&nbsp;지능형&nbsp;시스템으로&nbsp;관리하여&nbsp;구민들에게&nbsp;직접&nbsp;배당하는&nbsp;공유&nbsp;경제&nbsp;모델&nbsp;구축<br>팔공산&nbsp;자연을&nbsp;닮은&nbsp;‘친환경&nbsp;상생&nbsp;치유&nbsp;인프라’&nbsp;구축<br>국립공원&nbsp;팔공산의&nbsp;자연환경을&nbsp;훼손하지&nbsp;않는&nbsp;범위&nbsp;내에서&nbsp;숲&nbsp;치유,&nbsp;명상&nbsp;센터&nbsp;등&nbsp;힐링&nbsp;인프라를&nbsp;조성하여&nbsp;지역&nbsp;상권과&nbsp;상생<br><br>□&nbsp;이행방법<br>행정&nbsp;협력&nbsp;및&nbsp;지정&nbsp;추진:&nbsp;산림청&nbsp;및&nbsp;대구시와&nbsp;협력하여&nbsp;국가정원&nbsp;지정을&nbsp;위한&nbsp;타당성&nbsp;조사&nbsp;및&nbsp;마스터플랜&nbsp;수립<br><br>갈등&nbsp;관리&nbsp;및&nbsp;정책&nbsp;조정:&nbsp;수성구&nbsp;및&nbsp;환경&nbsp;단체와의&nbsp;긴밀한&nbsp;협의를&nbsp;통해&nbsp;사업&nbsp;백지화&nbsp;및&nbsp;생태계&nbsp;보전&nbsp;대책&nbsp;수립<br><br>에너지&nbsp;플랫폼&nbsp;구축:&nbsp;IT&nbsp;기술&nbsp;기반의&nbsp;지능형&nbsp;에너지&nbsp;관리&nbsp;플랫폼을&nbsp;도입하여&nbsp;기후&nbsp;연금&nbsp;배당&nbsp;시스템&nbsp;마련<br><br>□&nbsp;이행기간<br>2022년&nbsp;~&nbsp;임기&nbsp;내&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>국·시비&nbsp;공모사업:&nbsp;국가정원&nbsp;및&nbsp;치유&nbsp;인프라&nbsp;조성을&nbsp;위한&nbsp;국토부,&nbsp;환경부&nbsp;공모&nbsp;예산&nbsp;확보<br><br>에너지&nbsp;펀드&nbsp;및&nbsp;기금:&nbsp;민간&nbsp;투자&nbsp;유치&nbsp;및&nbsp;신재생&nbsp;에너지&nbsp;관련&nbsp;기금&nbsp;활용<br>지방재정:&nbsp;일반회계&nbsp;및&nbsp;환경보전&nbsp;관련&nbsp;기금&nbsp;투입</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	막힘없는 사통팔달, 교통중심 대구 동구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="막힘없는 사통팔달, 교통중심 대구 동구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표:&nbsp;광역&nbsp;교통망&nbsp;확충&nbsp;및&nbsp;스마트&nbsp;대중교통&nbsp;체계&nbsp;완성<br>도시철도&nbsp;3호선&nbsp;혁신도시&nbsp;연장&nbsp;추진<br>-&nbsp;혁신도시의&nbsp;정주&nbsp;여건&nbsp;개선과&nbsp;접근성&nbsp;향상을&nbsp;위해&nbsp;3호선&nbsp;연장&nbsp;노선을&nbsp;조기&nbsp;확정하여&nbsp;교통&nbsp;사각지대&nbsp;해소<br>-&nbsp;도시철도&nbsp;4호선(엑스코선)&nbsp;원안&nbsp;사수&nbsp;및&nbsp;조기&nbsp;완공<br>주민&nbsp;의견이&nbsp;반영된&nbsp;기존&nbsp;노선&nbsp;안을&nbsp;사수하고,&nbsp;철저한&nbsp;공정&nbsp;관리로&nbsp;사업&nbsp;기간을&nbsp;단축하여&nbsp;조기&nbsp;개통&nbsp;추진<br>-&nbsp;평광~백안&nbsp;터널&nbsp;및&nbsp;대구~군위&nbsp;고속도로&nbsp;조기&nbsp;건설<br>대구·경북&nbsp;통합신공항&nbsp;시대를&nbsp;대비한&nbsp;동북권&nbsp;핵심&nbsp;도로망을&nbsp;조기에&nbsp;확충하여&nbsp;도심&nbsp;정체&nbsp;해소&nbsp;및&nbsp;물류&nbsp;효율&nbsp;극대화<br>-&nbsp;스마트&nbsp;마을버스(DRT)&nbsp;및&nbsp;스마트&nbsp;공영주차장&nbsp;확대<br>수요응답형&nbsp;대중교통(DRT)&nbsp;도입으로&nbsp;교통&nbsp;소외지역&nbsp;맞춤형&nbsp;이동권&nbsp;보장&nbsp;및&nbsp;스마트&nbsp;주차&nbsp;시스템을&nbsp;통한&nbsp;주차난&nbsp;근본적&nbsp;해결<br><br>□&nbsp;이행방법<br>광역&nbsp;교통망&nbsp;조기&nbsp;구축:&nbsp;국토교통부,&nbsp;대구시&nbsp;등&nbsp;상급&nbsp;기관과&nbsp;긴밀히&nbsp;협의하여&nbsp;예비타당성&nbsp;조사&nbsp;통과&nbsp;및&nbsp;국비&nbsp;우선&nbsp;확보<br>첨단&nbsp;교통&nbsp;시스템&nbsp;도입:&nbsp;IT&nbsp;기술을&nbsp;접목한&nbsp;스마트&nbsp;마을버스&nbsp;플랫폼&nbsp;구축&nbsp;및&nbsp;노후&nbsp;주차장의&nbsp;스마트화&nbsp;추진<br>행정&nbsp;동력&nbsp;집중:&nbsp;도로&nbsp;건설&nbsp;및&nbsp;도시철도&nbsp;연장을&nbsp;위한&nbsp;전담&nbsp;부서&nbsp;기능&nbsp;강화&nbsp;및&nbsp;주민&nbsp;의견&nbsp;수렴&nbsp;창구&nbsp;상설화<br><br>□&nbsp;이행기간<br>2022년&nbsp;~&nbsp;임기&nbsp;내&nbsp;착공&nbsp;및&nbsp;완공&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>중앙정부&nbsp;예산&nbsp;확보:&nbsp;국가철도망&nbsp;구축계획&nbsp;및&nbsp;도로건설계획&nbsp;반영을&nbsp;통한&nbsp;대규모&nbsp;국비&nbsp;유치<br>시·구비&nbsp;매칭:&nbsp;대구시&nbsp;광역교통시설부담금&nbsp;및&nbsp;일반회계&nbsp;예산&nbsp;편성<br>민간&nbsp;투자&nbsp;유치:&nbsp;스마트&nbsp;주차장&nbsp;및&nbsp;부대시설&nbsp;조성을&nbsp;위한&nbsp;민관&nbsp;협력&nbsp;사업(PPP)&nbsp;검토</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	아이키우기 좋은도시 교육동구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="아이키우기 좋은도시 교육동구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표:&nbsp;공교육&nbsp;강화와&nbsp;미래형&nbsp;교육&nbsp;인프라&nbsp;확충<br>-&nbsp;혁신도시&nbsp;내&nbsp;명품&nbsp;공립학교&nbsp;설립&nbsp;및&nbsp;유치<br>혁신도시&nbsp;내&nbsp;정주&nbsp;여건의&nbsp;핵심인&nbsp;고품격&nbsp;공립학교를&nbsp;설립·유치하여&nbsp;정주&nbsp;만족도&nbsp;향상&nbsp;및&nbsp;우수&nbsp;인재&nbsp;유입&nbsp;유도<br>-&nbsp;청구중&nbsp;남녀공학&nbsp;전환&nbsp;및&nbsp;‘이음학교(통합운영학교)’&nbsp;건립&nbsp;추진<br>급변하는&nbsp;교육&nbsp;환경에&nbsp;대응하기&nbsp;위해&nbsp;청구중학교의&nbsp;남녀공학&nbsp;전환을&nbsp;지원하고,&nbsp;단절&nbsp;없는&nbsp;교육을&nbsp;위한&nbsp;이음학교&nbsp;모델&nbsp;구축<br>-&nbsp;구청&nbsp;운영&nbsp;무상&nbsp;공립&nbsp;학원&nbsp;‘동구&nbsp;드림&nbsp;런(Dream-Learn)’&nbsp;시행사교육비&nbsp;부담&nbsp;절감을&nbsp;위해&nbsp;구청이&nbsp;직접&nbsp;운영하는&nbsp;고품질&nbsp;무상&nbsp;공립&nbsp;학원&nbsp;시스템을&nbsp;도입하여&nbsp;교육&nbsp;기회&nbsp;균등&nbsp;실현<br>-&nbsp;‘생태돌봄으로&nbsp;키우는&nbsp;아이’&nbsp;-&nbsp;생태돌봄교육&nbsp;지원&nbsp;사업<br>동구의&nbsp;자연환경을&nbsp;활용한&nbsp;생태&nbsp;체험형&nbsp;돌봄&nbsp;교육&nbsp;서비스를&nbsp;제공하여&nbsp;아이들의&nbsp;정서&nbsp;발달과&nbsp;건강한&nbsp;성장을&nbsp;지원<br>-&nbsp;AI·코딩&nbsp;교육센터&nbsp;건립&nbsp;및&nbsp;안심&nbsp;등하교&nbsp;셔틀버스&nbsp;확대<br>4차&nbsp;산업혁명&nbsp;시대&nbsp;필수&nbsp;역량인&nbsp;AI·코딩&nbsp;교육&nbsp;거점&nbsp;센터를&nbsp;조성하고,&nbsp;안전한&nbsp;통학&nbsp;환경을&nbsp;위한&nbsp;셔틀버스&nbsp;노선&nbsp;대폭&nbsp;확대<br><br>□&nbsp;이행방법<br>교육행정&nbsp;협력:&nbsp;대구시교육청&nbsp;및&nbsp;지역&nbsp;교육지원청과&nbsp;긴밀한&nbsp;협의체를&nbsp;구성하여&nbsp;학교&nbsp;설립&nbsp;및&nbsp;남녀공학&nbsp;전환&nbsp;추진<br>지자체&nbsp;주도&nbsp;교육&nbsp;서비스:&nbsp;구청&nbsp;직영&nbsp;또는&nbsp;위탁&nbsp;형태의&nbsp;'드림&nbsp;런'&nbsp;운영&nbsp;조례&nbsp;제정&nbsp;및&nbsp;우수&nbsp;강사&nbsp;인력풀&nbsp;확보<br>인프라&nbsp;구축:&nbsp;유휴&nbsp;공간&nbsp;등을&nbsp;활용한&nbsp;AI&nbsp;교육센터&nbsp;조성&nbsp;및&nbsp;권역별&nbsp;등하교&nbsp;셔틀버스&nbsp;운영&nbsp;최적화&nbsp;노선&nbsp;설계<br><br>□&nbsp;이행기간<br>2022년&nbsp;~&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>교육경비&nbsp;보조금&nbsp;확대:&nbsp;구&nbsp;일반회계&nbsp;예산&nbsp;중&nbsp;교육경비&nbsp;보조금&nbsp;비중&nbsp;상향&nbsp;조정<br>지방교육재정교부금:&nbsp;교육청과의&nbsp;협력을&nbsp;통한&nbsp;국·시비&nbsp;공동&nbsp;투자<br>기업&nbsp;사회공헌&nbsp;연계:&nbsp;AI·코딩&nbsp;교육센터&nbsp;운영&nbsp;시&nbsp;지역&nbsp;IT&nbsp;기업과의&nbsp;산학협력&nbsp;및&nbsp;후원&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	소외없는 따뜻한 복지 도시 - 대구 동구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="소외없는 따뜻한 복지 도시 - 대구 동구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표:&nbsp;전&nbsp;세대를&nbsp;아우르는&nbsp;체감형&nbsp;복지&nbsp;및&nbsp;의료&nbsp;인프라&nbsp;확충<br>-&nbsp;공공&nbsp;산후조리원&nbsp;설립&nbsp;및&nbsp;이용료&nbsp;100%&nbsp;지원<br>아이&nbsp;낳기&nbsp;좋은&nbsp;환경&nbsp;조성을&nbsp;위해&nbsp;공공&nbsp;산후조리원을&nbsp;건립하고,&nbsp;동구&nbsp;주민&nbsp;대상&nbsp;이용료&nbsp;전액&nbsp;지원&nbsp;추진<br>-&nbsp;어르신&nbsp;급식&nbsp;‘1,000원&nbsp;식당’&nbsp;및&nbsp;공공&nbsp;무료급식소&nbsp;예산&nbsp;확대<br>어르신들의&nbsp;영양&nbsp;불균형&nbsp;해소와&nbsp;경제적&nbsp;부담&nbsp;완화를&nbsp;위해&nbsp;고품질&nbsp;천원&nbsp;급식&nbsp;및&nbsp;무료급식&nbsp;서비스&nbsp;대폭&nbsp;강화<br>-&nbsp;장애인&nbsp;24시간&nbsp;긴급&nbsp;돌봄&nbsp;센터&nbsp;운영&nbsp;및&nbsp;종합복지관&nbsp;건립<br>장애인&nbsp;가족의&nbsp;돌봄&nbsp;부담을&nbsp;덜기&nbsp;위한&nbsp;24시간&nbsp;긴급&nbsp;돌봄&nbsp;체계를&nbsp;구축하고,&nbsp;숙원&nbsp;사업인&nbsp;‘동구&nbsp;장애인&nbsp;종합복지관’&nbsp;조기&nbsp;건립<br>-&nbsp;군&nbsp;복무&nbsp;청년&nbsp;상해보험&nbsp;지원&nbsp;및&nbsp;장애인&nbsp;전동&nbsp;휠체어&nbsp;보급&nbsp;확대<br>국방의&nbsp;의무를&nbsp;다하는&nbsp;동구&nbsp;청년들을&nbsp;위한&nbsp;상해보험&nbsp;가입&nbsp;지원&nbsp;및&nbsp;교통약자인&nbsp;장애인의&nbsp;이동권&nbsp;보장을&nbsp;위한&nbsp;보조기기&nbsp;지원&nbsp;강화<br>-&nbsp;동구&nbsp;종합실내체육관&nbsp;건립<br>날씨와&nbsp;상관없이&nbsp;모든&nbsp;세대가&nbsp;생활체육을&nbsp;즐길&nbsp;수&nbsp;있는&nbsp;다목적&nbsp;종합실내체육관&nbsp;건립으로&nbsp;구민&nbsp;건강&nbsp;증진<br>-&nbsp;종합병원급&nbsp;의료기관&nbsp;및&nbsp;어린이&nbsp;응급센터&nbsp;유치<br>응급상황&nbsp;대응력을&nbsp;높이기&nbsp;위해&nbsp;대형&nbsp;종합병원&nbsp;유치&nbsp;및&nbsp;24시간&nbsp;소아·어린이&nbsp;응급의료&nbsp;체계&nbsp;구축<br><br>□&nbsp;이행방법<br>복지&nbsp;거점&nbsp;조성:&nbsp;공공&nbsp;산후조리원,&nbsp;장애인&nbsp;복지관,&nbsp;체육관&nbsp;건립을&nbsp;위한&nbsp;부지&nbsp;확보&nbsp;및&nbsp;중앙정부&nbsp;투자&nbsp;심사&nbsp;통과&nbsp;추진<br>제도적&nbsp;뒷받침:&nbsp;산후조리원&nbsp;이용료&nbsp;지원&nbsp;및&nbsp;군&nbsp;복무&nbsp;청년&nbsp;보험&nbsp;지원을&nbsp;위한&nbsp;관련&nbsp;조례&nbsp;제정&nbsp;및&nbsp;예산&nbsp;편성<br>전략적&nbsp;유치&nbsp;활동:&nbsp;대형&nbsp;의료재단&nbsp;및&nbsp;대학병원과의&nbsp;긴밀한&nbsp;협력을&nbsp;통해&nbsp;의료&nbsp;인프라&nbsp;유치&nbsp;인센티브&nbsp;제공<br><br>□&nbsp;이행기간<br>2022년&nbsp;~&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;달성<br><br>□&nbsp;재원조달방안&nbsp;등<br>국·시비&nbsp;확보:&nbsp;보건복지부,&nbsp;문화체육관광부&nbsp;등&nbsp;중앙부처&nbsp;공모사업&nbsp;참여&nbsp;및&nbsp;시비&nbsp;매칭&nbsp;예산&nbsp;확보<br>일반회계&nbsp;및&nbsp;기금:&nbsp;복지&nbsp;사각지대&nbsp;해소를&nbsp;위한&nbsp;구&nbsp;일반회계&nbsp;예산&nbsp;우선&nbsp;배정&nbsp;및&nbsp;복지&nbsp;기금&nbsp;활용<br>민간&nbsp;자본:&nbsp;종합병원&nbsp;유치&nbsp;시&nbsp;부지&nbsp;제공&nbsp;및&nbsp;민간&nbsp;자본&nbsp;투자&nbsp;유치(BTL&nbsp;등)&nbsp;검토</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

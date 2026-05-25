@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;안재민 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	국가농식품클러스터 및 식품대기업 유치를 통한식품산업도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="국가농식품클러스터 및 식품대기업 유치를 통한식품산업도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▣&nbsp;목&nbsp;표<br>▷&nbsp;상주의&nbsp;풍부한&nbsp;농축산물&nbsp;생산&nbsp;기반과&nbsp;전국&nbsp;최고&nbsp;수준의&nbsp;농업&nbsp;수준,&nbsp;사통팔달&nbsp;교통망과&nbsp;고속철도&nbsp;개통&nbsp;예정,&nbsp;청주공항·통합신공항과&nbsp;인접한&nbsp;입지적&nbsp;강점을&nbsp;바탕으로&nbsp;국가식품클러스터와&nbsp;식품대기업&nbsp;유치를&nbsp;추진하여&nbsp;대규모&nbsp;일자리&nbsp;창출과&nbsp;농가소득&nbsp;안정,&nbsp;청년&nbsp;인구&nbsp;유입을&nbsp;실현하는&nbsp;지속가능한&nbsp;식품산업도시&nbsp;조성.<br><br>▣&nbsp;이행방법<br>▷&nbsp;국가농식품클러스터&nbsp;유치<br>&nbsp;&nbsp;-&nbsp;다양한&nbsp;농축산물&nbsp;생산&nbsp;기반과&nbsp;스마트농업&nbsp;인프라를&nbsp;바탕으로&nbsp;식품산업&nbsp;입지&nbsp;최적<br>&nbsp;&nbsp;-&nbsp;사통팔달&nbsp;광역&nbsp;교통망(고속철도·청주공항·통합신공항)&nbsp;기반&nbsp;물류·유통&nbsp;경쟁력&nbsp;확보<br>&nbsp;&nbsp;-&nbsp;대통령&nbsp;및&nbsp;경상북도지사&nbsp;공약과&nbsp;연계한&nbsp;국가사업&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;국회의원·도지사·시도의원·시장&nbsp;협력체계&nbsp;기반&nbsp;중앙부처&nbsp;협의&nbsp;및&nbsp;사업&nbsp;유치<br>&nbsp;&nbsp;<br>▷&nbsp;국가농식품&nbsp;클러스터&nbsp;기반&nbsp;식품기업&nbsp;투자유치&nbsp;및&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;-&nbsp;식품&nbsp;대기업&nbsp;중심&nbsp;앵커기업&nbsp;유치&nbsp;및&nbsp;중견·중소&nbsp;식품기업&nbsp;집적화<br>&nbsp;&nbsp;-&nbsp;기업&nbsp;맞춤형&nbsp;인허가&nbsp;원스톱&nbsp;지원&nbsp;및&nbsp;투자&nbsp;인센티브&nbsp;제공<br>&nbsp;&nbsp;-&nbsp;지역&nbsp;인재&nbsp;채용&nbsp;연계&nbsp;일자리&nbsp;창출<br><br>▷&nbsp;근로자·청년&nbsp;정착&nbsp;기반&nbsp;구축&nbsp;및&nbsp;정주환경&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;청년&nbsp;공공임대(만원주택)&nbsp;도입&nbsp;및&nbsp;청년·근로자&nbsp;주거비&nbsp;지원&nbsp;정책&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;생활·교육·문화&nbsp;인프라&nbsp;확충을&nbsp;통한&nbsp;주거환경&nbsp;개선<br><br>▷&nbsp;고속철&nbsp;연계&nbsp;저온&nbsp;물류체계&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;고속철도&nbsp;연계&nbsp;저온&nbsp;물류&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;산지&nbsp;집하·선별·유통&nbsp;통합&nbsp;운영체계&nbsp;마련&nbsp;<br>&nbsp;&nbsp;-&nbsp;수도권&nbsp;유통망&nbsp;연계&nbsp;및&nbsp;농산물&nbsp;브랜드화<br><br>▣&nbsp;이행기간<br>▷&nbsp;2026~2034년<br>&nbsp;&nbsp;&nbsp;<br>▣&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;국가균형발전특별회계,&nbsp;지방소멸대응기금&nbsp;등&nbsp;국·도·시비&nbsp;매칭&nbsp;확보<br>&nbsp;&nbsp;-&nbsp;관련&nbsp;중앙부처(농식품부,&nbsp;국토부&nbsp;등)&nbsp;예산&nbsp;선제적&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;앵커기업&nbsp;중심의&nbsp;민간&nbsp;자본&nbsp;적극&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	관광 활성화 및 소비 순환체계 구축을 통한 체류형 관광도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="관광 활성화 및 소비 순환체계 구축을 통한 체류형 관광도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▣&nbsp;목&nbsp;표<br>▷&nbsp;축제·관광&nbsp;자원&nbsp;연계를&nbsp;통한&nbsp;체류형&nbsp;관광&nbsp;활성화와&nbsp;상주사랑앱&nbsp;기반&nbsp;지역화폐&nbsp;환류체계&nbsp;구축으로&nbsp;관광&nbsp;소비가&nbsp;지역&nbsp;상권으로&nbsp;지속적으로&nbsp;이어지는&nbsp;순환경제&nbsp;구조&nbsp;확립.<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>▣&nbsp;이행방법<br>▷&nbsp;축제·관광&nbsp;연계&nbsp;체류형&nbsp;문화관광도시&nbsp;조성<br>&nbsp;&nbsp;ㅇ&nbsp;축제&nbsp;기반&nbsp;관광&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전국민&nbsp;참여형&nbsp;공모를&nbsp;통한&nbsp;대표축제&nbsp;발굴<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;축제·전통시장·지역&nbsp;관광자원&nbsp;연계를&nbsp;통한&nbsp;유동인구&nbsp;유입&nbsp;및&nbsp;소비&nbsp;촉진<br>&nbsp;&nbsp;ㅇ&nbsp;지역자원&nbsp;활용&nbsp;관광&nbsp;콘텐츠&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성주봉&nbsp;한방&nbsp;웰니스&nbsp;관광지&nbsp;및&nbsp;속리산&nbsp;스테이타운&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;낙동강&nbsp;수상레저(K-레저스포츠)&nbsp;및&nbsp;백화산&nbsp;체험형&nbsp;관광&nbsp;콘텐츠&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;전통·문화&nbsp;자원&nbsp;활용&nbsp;체험형·가족친화&nbsp;관광&nbsp;콘텐츠&nbsp;확충(곶감공원·중덕지·한복진흥원&nbsp;등)<br>&nbsp;&nbsp;ㅇ&nbsp;체류형&nbsp;관광&nbsp;전환을&nbsp;위한&nbsp;숙박&nbsp;인프라&nbsp;확충&nbsp;및&nbsp;지역&nbsp;소비&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광&nbsp;거점&nbsp;중심&nbsp;호텔&nbsp;및&nbsp;민간&nbsp;숙박시설&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체류&nbsp;관광객의&nbsp;전통시장&nbsp;및&nbsp;지역&nbsp;상권&nbsp;이용을&nbsp;유도하여&nbsp;지역&nbsp;내&nbsp;소비&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수요&nbsp;맞춤형&nbsp;숙박&nbsp;서비스&nbsp;다양화<br><br>▷&nbsp;상주사랑앱&nbsp;기반&nbsp;소비&nbsp;환류&nbsp;플랫폼&nbsp;구축&nbsp;<br>&nbsp;&nbsp;-&nbsp;축제·숙박·체험&nbsp;통합&nbsp;예약·결제&nbsp;시스템&nbsp;도입&nbsp;및&nbsp;결제금액&nbsp;10%&nbsp;지역화폐&nbsp;환급<br>&nbsp;&nbsp;-&nbsp;환급된&nbsp;지역화폐를&nbsp;전통시장&nbsp;및&nbsp;관광지&nbsp;소비로&nbsp;연계하여&nbsp;지역경제&nbsp;활성화&nbsp;도모<br>&nbsp;&nbsp;-&nbsp;사용&nbsp;후&nbsp;잔여&nbsp;금액은&nbsp;어플을&nbsp;통해&nbsp;온라인으로&nbsp;지역&nbsp;농축산물을&nbsp;구매할&nbsp;수&nbsp;있도록&nbsp;하여,&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;지역&nbsp;농축산물&nbsp;홍보&nbsp;및&nbsp;지속적인&nbsp;소비&nbsp;기반&nbsp;구축<br>&nbsp;<br>▷&nbsp;중앙·광역·기초&nbsp;협력&nbsp;추진체계&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;국회의원·도지사·시도의원·시장&nbsp;협력체계&nbsp;기반&nbsp;국가&nbsp;및&nbsp;광역&nbsp;관광사업&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;중앙부처(문화체육관광부&nbsp;등)&nbsp;및&nbsp;경상북도&nbsp;관광개발&nbsp;사업과&nbsp;연계한&nbsp;통합&nbsp;추진<br>&nbsp;<br>▣&nbsp;이행기간<br>&nbsp;&nbsp;▷&nbsp;2026~2034년<br>&nbsp;<br>▣&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비&nbsp;확보(문화체육관광부&nbsp;관광개발사업&nbsp;및&nbsp;국가균형발전특별회계&nbsp;반영&nbsp;추진)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도비·시비&nbsp;매칭&nbsp;투자&nbsp;및&nbsp;경상북도&nbsp;관광&nbsp;인프라&nbsp;사업&nbsp;연계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	국토의 중심 상주, 스포츠는 미래! 스포츠 메가시티 프로젝트 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="국토의 중심 상주, 스포츠는 미래! 스포츠 메가시티 프로젝트 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▣&nbsp;목&nbsp;표<br>▷&nbsp;엘리트&nbsp;체육&nbsp;기반&nbsp;강화와&nbsp;전국·국제대회&nbsp;유치를&nbsp;통한&nbsp;지역경제&nbsp;활성화&nbsp;및&nbsp;노인·장애인&nbsp;포함&nbsp;전&nbsp;세대가&nbsp;참여하는&nbsp;포용형&nbsp;스포츠·여가&nbsp;도시&nbsp;구현.<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>▣&nbsp;이행방법<br>▷&nbsp;엘리트&nbsp;체육&nbsp;육성&nbsp;<br>&nbsp;&nbsp;-&nbsp;초·중·고&nbsp;및&nbsp;지역&nbsp;대학&nbsp;연계&nbsp;전문&nbsp;지도자&nbsp;및&nbsp;엘리트&nbsp;체육&nbsp;인재&nbsp;육성&nbsp;지원<br>&nbsp;<br>▷&nbsp;전지훈련&nbsp;및&nbsp;전국·국제대회&nbsp;유치&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;-&nbsp;전지훈련&nbsp;유치를&nbsp;위한&nbsp;종합&nbsp;훈련시설&nbsp;및&nbsp;경기장&nbsp;확충<br>&nbsp;&nbsp;-&nbsp;전국대회&nbsp;및&nbsp;종목별&nbsp;대회&nbsp;유치&nbsp;확대&nbsp;및&nbsp;정례화<br>&nbsp;&nbsp;-&nbsp;종목단체·체육회&nbsp;협력&nbsp;기반&nbsp;대회&nbsp;유치&nbsp;네트워크&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;숙박시설(호텔&nbsp;등)&nbsp;확충을&nbsp;통한&nbsp;체류형&nbsp;스포츠&nbsp;환경&nbsp;조성<br><br>▷&nbsp;아시안게임&nbsp;유치,&nbsp;광역&nbsp;공동프로젝트&nbsp;추진&nbsp;제안&nbsp;및&nbsp;기대효과<br>&nbsp;&nbsp;-&nbsp;통합신공항&nbsp;개항에&nbsp;따른&nbsp;접근성&nbsp;향상&nbsp;기반&nbsp;국제대회&nbsp;유치&nbsp;경쟁력&nbsp;확보<br>&nbsp;&nbsp;-&nbsp;경북&nbsp;시·군&nbsp;간&nbsp;특화&nbsp;종목&nbsp;연계&nbsp;기반&nbsp;국제대회&nbsp;유치&nbsp;여건&nbsp;확보<br>&nbsp;&nbsp;-&nbsp;도지사·국회의원·시장군수·시도의원&nbsp;협력을&nbsp;통해&nbsp;아시안게임&nbsp;등&nbsp;국제대회&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;국제대회&nbsp;유치&nbsp;시&nbsp;국·도비&nbsp;지원을&nbsp;바탕으로&nbsp;체육&nbsp;인프라&nbsp;및&nbsp;숙박시설&nbsp;확충&nbsp;가능<br>&nbsp;&nbsp;-&nbsp;방문객&nbsp;증가에&nbsp;따른&nbsp;지역경제&nbsp;및&nbsp;상권&nbsp;활성화&nbsp;기대<br><br>▷&nbsp;장애인&nbsp;생활·재활체육&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;국비&nbsp;공모&nbsp;기반&nbsp;‘반다비&nbsp;체육관&nbsp;유치’및&nbsp;무장애&nbsp;놀이시설&nbsp;확충<br>&nbsp;&nbsp;-&nbsp;장애인&nbsp;전국&nbsp;규모&nbsp;체육대회&nbsp;유치<br>&nbsp;&nbsp;-&nbsp;생활체육·재활체육&nbsp;연계&nbsp;프로그램&nbsp;및&nbsp;종목&nbsp;육성<br><br>▣&nbsp;이행기간<br>&nbsp;▷&nbsp;2026~2034년<br>&nbsp;<br>▣&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;국비&nbsp;확보(문화체육관광부&nbsp;국제대회&nbsp;지원사업&nbsp;등&nbsp;반영)<br>&nbsp;&nbsp;-&nbsp;도비·시비&nbsp;매칭&nbsp;투자&nbsp;및&nbsp;경상북도&nbsp;체육정책&nbsp;연계&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	심뇌혈관·소아응급센터 구축을 통한 의료 안심도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="심뇌혈관·소아응급센터 구축을 통한 의료 안심도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▣&nbsp;목&nbsp;표<br>▷기존&nbsp;의료기관과의&nbsp;협의&nbsp;기반&nbsp;심뇌혈관&nbsp;및&nbsp;소아응급&nbsp;진료&nbsp;기능&nbsp;강화를&nbsp;통한&nbsp;골든타임&nbsp;대응이&nbsp;가능한&nbsp;지역완결형&nbsp;응급의료체계&nbsp;확립<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>▣&nbsp;이행방법<br>▷&nbsp;심뇌혈관센터&nbsp;구축&nbsp;및&nbsp;응급의료&nbsp;체계&nbsp;확립<br>&nbsp;&nbsp;-&nbsp;기존&nbsp;의료기관과의&nbsp;협의를&nbsp;통해&nbsp;심뇌혈관센터&nbsp;구축&nbsp;및&nbsp;골든타임&nbsp;대응&nbsp;응급치료체계&nbsp;확립<br>&nbsp;&nbsp;-&nbsp;병상·의료장비&nbsp;확충&nbsp;지원을&nbsp;통한&nbsp;응급&nbsp;진료역량&nbsp;강화<br>&nbsp;&nbsp;-&nbsp;필수&nbsp;의료진&nbsp;확보&nbsp;및&nbsp;24시간&nbsp;상시&nbsp;대응체계&nbsp;운영&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;권역&nbsp;협력병원&nbsp;및&nbsp;상급병원&nbsp;연계&nbsp;진료체계&nbsp;구축<br><br>▷&nbsp;소아응급센터&nbsp;구축&nbsp;및&nbsp;진료체계&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;기존&nbsp;병원&nbsp;내&nbsp;소아응급&nbsp;진료&nbsp;기능&nbsp;구축&nbsp;및&nbsp;응급·입원&nbsp;진료체계&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;야간&nbsp;진료&nbsp;→&nbsp;24시간&nbsp;진료체계&nbsp;단계적&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;중증&nbsp;소아환자&nbsp;발생&nbsp;시&nbsp;상급병원&nbsp;연계&nbsp;이송&nbsp;시스템&nbsp;구축<br><br>▷&nbsp;필수&nbsp;의료진&nbsp;확보&nbsp;및&nbsp;운영&nbsp;지원체계&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;소아응급센터&nbsp;및&nbsp;심뇌혈관센터&nbsp;운영을&nbsp;위한&nbsp;전문&nbsp;의료진&nbsp;확보지원<br>&nbsp;&nbsp;-&nbsp;의료진&nbsp;인건비&nbsp;및&nbsp;당직·야간근무&nbsp;지원&nbsp;등&nbsp;안정적&nbsp;운영비&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;간호&nbsp;인력&nbsp;및&nbsp;응급구조사&nbsp;등&nbsp;필수&nbsp;의료인력&nbsp;확충&nbsp;지원<br>&nbsp;<br>▣&nbsp;이행기간<br>&nbsp;&nbsp;▷&nbsp;2026~2030년<br>&nbsp;&nbsp;&nbsp;<br>&nbsp;▣&nbsp;재원조달방안&nbsp;등<br>====================================================================================================<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;구분&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;초기&nbsp;구축비(1회)&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;연간&nbsp;운영비&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;국비&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;도비&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;시비&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;민간&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;재원조달방안&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>---------------------------------------------------------------------------------------------------------------------------------------------------------------<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;심뇌혈관센터&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;약&nbsp;50억&nbsp;원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8~12억&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;30~40&nbsp;&nbsp;|&nbsp;&nbsp;20~30&nbsp;|&nbsp;20~30&nbsp;|&nbsp;10~20&nbsp;|응급의료기관&nbsp;기능보강사업&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;구축&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;%&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;%&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;%&nbsp;&nbsp;&nbsp;&nbsp;|중증&nbsp;응급질환&nbsp;진료협력&nbsp;네트워크&nbsp;사업&nbsp;|<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|지역&nbsp;심뇌혈관센터&nbsp;지정사업&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>---------------------------------------------------------------------------------------------------------------------------------------------------------------<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;소아응급센터&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10억&nbsp;원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7~8억&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;40~50&nbsp;&nbsp;|&nbsp;&nbsp;20~30&nbsp;|&nbsp;20~30&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|소아응급&nbsp;책임의료기관&nbsp;육성사업&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;구축&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;내외&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;%&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;%&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|달빛어린이병원&nbsp;지원사업&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|야간&nbsp;·&nbsp;휴일&nbsp;소아진료&nbsp;지원사업&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>====================================================================================================<br><br>*기존&nbsp;의료기관&nbsp;기능&nbsp;강화&nbsp;및&nbsp;운영&nbsp;지원&nbsp;방식으로&nbsp;추진,&nbsp;재정&nbsp;부담&nbsp;최소화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	농촌 인력혁신 및 가격안정 기반 구축을 통한 지속가능 농업 도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="농촌 인력혁신 및 가격안정 기반 구축을 통한 지속가능 농업 도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▣&nbsp;목&nbsp;표<br>▷&nbsp;농업&nbsp;인력난&nbsp;해소와&nbsp;농축산물&nbsp;가격안정,&nbsp;농업환경&nbsp;개선을&nbsp;통해&nbsp;안정적인&nbsp;생산&nbsp;기반을&nbsp;구축하고,&nbsp;지속가능한&nbsp;농업&nbsp;구조와&nbsp;농가&nbsp;소득&nbsp;안정&nbsp;체계&nbsp;확립<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>▣&nbsp;이행방법<br>▷&nbsp;시장&nbsp;직속&nbsp;농촌&nbsp;인력&nbsp;컨트롤타워&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;농촌인력&nbsp;수급·배치&nbsp;전담&nbsp;조직&nbsp;설치&nbsp;및&nbsp;통합&nbsp;운영체계&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;전산&nbsp;기반&nbsp;업무처리&nbsp;시스템&nbsp;구축을&nbsp;통한&nbsp;서류업무&nbsp;경감&nbsp;및&nbsp;행정&nbsp;효율성&nbsp;제고<br>&nbsp;&nbsp;-&nbsp;시·군&nbsp;간&nbsp;경계&nbsp;완화,&nbsp;광역&nbsp;단위&nbsp;인력&nbsp;운영&nbsp;및&nbsp;도시&nbsp;유휴인력&nbsp;연계&nbsp;맞춤형&nbsp;인력&nbsp;매칭&nbsp;<br>&nbsp;&nbsp;-&nbsp;외국인&nbsp;계절근로자&nbsp;확대(2,800&nbsp;→&nbsp;5,000명)&nbsp;및&nbsp;전담&nbsp;운영체계&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;체류기간&nbsp;연장,&nbsp;장기근무&nbsp;유도&nbsp;및&nbsp;공공형&nbsp;기숙사·숙소&nbsp;지원<br><br>▷&nbsp;농축산물&nbsp;가격안정&nbsp;및&nbsp;소득&nbsp;안전망&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;주요&nbsp;농축산물에&nbsp;대한&nbsp;가격안정기금&nbsp;설치&nbsp;및&nbsp;생산비&nbsp;기반&nbsp;최저가격&nbsp;보장<br>&nbsp;&nbsp;-&nbsp;가격&nbsp;하락&nbsp;시&nbsp;차액&nbsp;지원&nbsp;및&nbsp;품목별&nbsp;탄력적&nbsp;운영<br>&nbsp;&nbsp;-&nbsp;주요&nbsp;품목&nbsp;수급&nbsp;조절&nbsp;및&nbsp;시장&nbsp;대응형&nbsp;가격관리&nbsp;체계&nbsp;구축<br><br>▷&nbsp;한국환경공단&nbsp;상주수거사업소&nbsp;설치<br>&nbsp;&nbsp;-&nbsp;수거사업소&nbsp;부재와&nbsp;수거인력&nbsp;부족,&nbsp;이송체계&nbsp;변경(구미&nbsp;→&nbsp;성주)으로&nbsp;수거&nbsp;여건&nbsp;악화&nbsp;→&nbsp;불법소각&nbsp;등&nbsp;환경오염&nbsp;문제가&nbsp;발생함에&nbsp;따라&nbsp;사업소&nbsp;설치&nbsp;필요성&nbsp;증대<br>&nbsp;&nbsp;-&nbsp;농약병·폐비닐&nbsp;수거체계&nbsp;구축&nbsp;및&nbsp;상시&nbsp;운영<br>&nbsp;&nbsp;-&nbsp;불법&nbsp;소각&nbsp;방지&nbsp;및&nbsp;농업환경&nbsp;개선<br><br>▣&nbsp;이행기간<br>&nbsp;&nbsp;▷&nbsp;2026~2030년<br><br>▣&nbsp;재원조달방안&nbsp;등<br>=================================================================================================<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;구분&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;초기&nbsp;구축비(1회)&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;연간&nbsp;운영비&nbsp;&nbsp;|&nbsp;&nbsp;국비&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;도비&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;시비&nbsp;&nbsp;|&nbsp;&nbsp;민간&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;재원조달방안&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>-----------------------------------------------------------------------------------------------------------------------------------------------------------<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;농촌&nbsp;인력&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10~15억&nbsp;원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6~7억&nbsp;원&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;40%&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;30%&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;30%&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;|농촌인력중개센터&nbsp;사업&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>&nbsp;&nbsp;&nbsp;지원체계&nbsp;구축&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|공공형&nbsp;계절근로외국인&nbsp;근로자&nbsp;숙소지원&nbsp;|<br>-----------------------------------------------------------------------------------------------------------------------------------------------------------<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;농축산물&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;총&nbsp;50억&nbsp;원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;10%&nbsp;&nbsp;|&nbsp;&nbsp;70%&nbsp;|&nbsp;&nbsp;20%&nbsp;|도&nbsp;농정사업&nbsp;연계&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>&nbsp;가격안정기금&nbsp;조성&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(단계적)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|농&nbsp;·&nbsp;축협&nbsp;출연&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>-----------------------------------------------------------------------------------------------------------------------------------------------------------<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;환경공단&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;약10억&nbsp;원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;약3억&nbsp;원&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;30%&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;30%&nbsp;&nbsp;|&nbsp;&nbsp;40%&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;|영농폐기물&nbsp;수거&nbsp;·&nbsp;처리사업&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>&nbsp;수거사업소&nbsp;설치&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|공동집하장&nbsp;확충사업&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>=================================================================================================</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

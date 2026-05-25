@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이윤희 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	시민이 주인 되는 문경</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="시민이 주인 되는 문경">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◈&nbsp;공약의&nbsp;주요&nbsp;내용<br>&nbsp;&nbsp;1)&nbsp;공무원이&nbsp;신념을&nbsp;가지고&nbsp;일하는&nbsp;조직문화&nbsp;만들기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;획일적이고&nbsp;정형화된&nbsp;업무&nbsp;관행&nbsp;타파<br>&nbsp;&nbsp;2)&nbsp;예산&nbsp;집행의&nbsp;적정성&nbsp;평가&nbsp;및&nbsp;투명성&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시장&nbsp;주재&nbsp;주요&nbsp;회의&nbsp;공개(언론중계)&nbsp;진행&nbsp;및&nbsp;시민&nbsp;감시단&nbsp;참관<br>&nbsp;&nbsp;3)&nbsp;VOC&nbsp;Process&nbsp;도입&nbsp;운용<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;VOC&nbsp;:&nbsp;Voice&nbsp;of&nbsp;Citizen<br>&nbsp;&nbsp;4)&nbsp;시민의&nbsp;참여,&nbsp;감시,&nbsp;의사결정&nbsp;권한의&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;사회와&nbsp;정책을&nbsp;스스로&nbsp;주도하는&nbsp;방향&nbsp;모색&nbsp;<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시민의&nbsp;참여의식&nbsp;함양과&nbsp;시민과&nbsp;공무원&nbsp;상호&nbsp;간의&nbsp;신뢰&nbsp;형성을&nbsp;통한&nbsp;투명하고&nbsp;깨끗한&nbsp;문경&nbsp;만들기<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;교육과&nbsp;시행착오를&nbsp;거치면서&nbsp;완성형에&nbsp;다가가는&nbsp;방법(Trial&nbsp;&&nbsp;Error)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우수&nbsp;시민&nbsp;및&nbsp;부서&nbsp;발굴&nbsp;포상제<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;시장으로&nbsp;집무하는&nbsp;전&nbsp;기간에&nbsp;바르게&nbsp;정착시킬&nbsp;예정<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;특별히&nbsp;소요되는&nbsp;비용&nbsp;없음</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	1등 관광도시 문경</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="1등 관광도시 문경">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◈&nbsp;공약의&nbsp;주요&nbsp;내용<br>&nbsp;&nbsp;1)&nbsp;문경새재&nbsp;도립공원을&nbsp;국립공원으로&nbsp;격상&nbsp;지정&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광지역&nbsp;벨트화&nbsp;및&nbsp;숙박,&nbsp;체험,&nbsp;휴식&nbsp;등&nbsp;머물고&nbsp;즐길&nbsp;수&nbsp;있는&nbsp;공간을&nbsp;자연&nbsp;친화적인&nbsp;환경으로&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생태관광을&nbsp;통한&nbsp;자연보전과&nbsp;지역&nbsp;주민의&nbsp;복지&nbsp;고려<br>&nbsp;&nbsp;2)&nbsp;동서&nbsp;5축&nbsp;고속도로를&nbsp;고속도로&nbsp;건설&nbsp;계획에&nbsp;반영/조기&nbsp;시행&nbsp;촉구<br>&nbsp;&nbsp;3)&nbsp;구시가지&nbsp;민간&nbsp;합동&nbsp;개발을&nbsp;통한&nbsp;공원화,&nbsp;관광&nbsp;단지화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;(창업)사업&nbsp;지원,&nbsp;사업&nbsp;특성화&nbsp;거리&nbsp;조성&nbsp;<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;문경의&nbsp;브랜드&nbsp;가치와&nbsp;경제가치를&nbsp;높혀&nbsp;시민&nbsp;삶의&nbsp;질&nbsp;향상<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;정당(더불어민주당)&nbsp;및&nbsp;정부와&nbsp;원활한&nbsp;소통을&nbsp;통한&nbsp;방향성&nbsp;확보와&nbsp;지역의&nbsp;관계&nbsp;기관과&nbsp;연계&nbsp;<br><br>□&nbsp;이행&nbsp;기간&nbsp;<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;초기부터&nbsp;임기&nbsp;만료까지<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;<br>&nbsp;&nbsp;○&nbsp;재원의&nbsp;필요&nbsp;규모는&nbsp;본격&nbsp;검토&nbsp;중&nbsp;판단&nbsp;및&nbsp;확보&nbsp;방안&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;필요성과&nbsp;방향성이&nbsp;중요</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	문경형 햇빛 기본소득</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="문경형 햇빛 기본소득">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◈&nbsp;공약의&nbsp;주요&nbsp;내용<br>1)&nbsp;문경형&nbsp;에너지-소득&nbsp;통합모델&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;130개&nbsp;동리&nbsp;마을을&nbsp;중심으로&nbsp;햇빛&nbsp;소득&nbsp;기반&nbsp;조성<br>2)&nbsp;2027년&nbsp;반드시&nbsp;혜택을&nbsp;입게&nbsp;이행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;당선&nbsp;즉시&nbsp;조직&nbsp;및&nbsp;재정과&nbsp;예산&nbsp;확보에&nbsp;착수<br>3)&nbsp;모든&nbsp;시민이&nbsp;누리는&nbsp;햇빛&nbsp;소득<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을&nbsp;모두가&nbsp;햇빛&nbsp;이익을&nbsp;함께&nbsp;나누는&nbsp;지속&nbsp;가능한&nbsp;문경&nbsp;만들기<br>4)&nbsp;영농형,&nbsp;공공부지&nbsp;기반&nbsp;주민&nbsp;사업도&nbsp;확대&nbsp;&nbsp;&nbsp;<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시민이&nbsp;주도하며&nbsp;시민&nbsp;모두가&nbsp;햇빛에&nbsp;의한&nbsp;소득의&nbsp;혜택을&nbsp;누리도록&nbsp;지역경제&nbsp;활성화&nbsp;및&nbsp;농촌&nbsp;소멸&nbsp;방지&nbsp;및&nbsp;지연&nbsp;유도<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;당선&nbsp;즉시&nbsp;조직&nbsp;및&nbsp;예산을&nbsp;확보하고&nbsp;중앙&nbsp;정부와&nbsp;긴밀한&nbsp;협조&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민들과&nbsp;컨센서스를&nbsp;이루고&nbsp;제1과제로&nbsp;추진<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;당선&nbsp;직후부터&nbsp;임기가&nbsp;끝나는&nbsp;날까지&nbsp;<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;당선과&nbsp;함께&nbsp;예산&nbsp;및&nbsp;제반적&nbsp;계획을&nbsp;포함한&nbsp;Master&nbsp;Plan에&nbsp;의한&nbsp;조달</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	농민이 행복한 문경</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="농민이 행복한 문경">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◈&nbsp;공약의&nbsp;주요&nbsp;내용&nbsp;<br>1)&nbsp;청년&nbsp;후계농을&nbsp;위한&nbsp;Menti-Mento&nbsp;System&nbsp;도입&nbsp;지원/운용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;농민에게&nbsp;스며들기&nbsp;프로그램&nbsp;개발&nbsp;<br>2)&nbsp;귀농인을&nbsp;대상으로&nbsp;한&nbsp;금융지원&nbsp;체계&nbsp;점검&nbsp;및&nbsp;재설계<br>3)&nbsp;농촌&nbsp;어린이와&nbsp;청소년을&nbsp;위한&nbsp;원스톱&nbsp;복합&nbsp;문화&nbsp;교육&nbsp;공간&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육&nbsp;환경의&nbsp;혁신적&nbsp;개선으로&nbsp;함께&nbsp;어울리는&nbsp;학습&nbsp;풍토&nbsp;조성<br>4)&nbsp;계절&nbsp;근로자의&nbsp;확대&nbsp;및&nbsp;운영체계&nbsp;고도화<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;안정적인&nbsp;정착지원을&nbsp;통한&nbsp;후계&nbsp;인력&nbsp;양성과&nbsp;영농창업&nbsp;활성화로&nbsp;차별화된&nbsp;선진&nbsp;농업의&nbsp;장(場)&nbsp;형성<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;일괄&nbsp;혹은&nbsp;일회성이&nbsp;아닌&nbsp;상황과&nbsp;단계에&nbsp;맞는&nbsp;맞춤형&nbsp;지원으로&nbsp;실질적으로&nbsp;체감할&nbsp;수&nbsp;있는&nbsp;정책으로&nbsp;정착<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;당선이&nbsp;된&nbsp;순간부터&nbsp;임기를&nbsp;마칠&nbsp;때까지&nbsp;제도적&nbsp;정착을&nbsp;위한&nbsp;완성도있는&nbsp;체계를&nbsp;마련<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;<br>&nbsp;&nbsp;○&nbsp;관련&nbsp;예산&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	젊은이가 넘치는 문경</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="젊은이가 넘치는 문경">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ◈&nbsp;공약의&nbsp;주요내용<br>1)&nbsp;출산에서&nbsp;초등학교&nbsp;저학년까지&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;환경&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산부인과-산후조리원-양육,&nbsp;탁아-돌봄에&nbsp;이르는&nbsp;원스톱&nbsp;시스템&nbsp;구축<br>2)&nbsp;청년(신혼)&nbsp;부부에게&nbsp;공공&nbsp;임대주택&nbsp;보급&nbsp;확대<br>3)&nbsp;청년&nbsp;및&nbsp;외국인&nbsp;노동자를&nbsp;위한&nbsp;빈집&nbsp;Remodeling&nbsp;사업&nbsp;전개<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;젊은이들이&nbsp;살기&nbsp;좋은&nbsp;환경&nbsp;조성으로&nbsp;인구&nbsp;유출&nbsp;방지와&nbsp;유입&nbsp;유도<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;유관부서&nbsp;연계&nbsp;TF&nbsp;구성&nbsp;및&nbsp;현&nbsp;수준&nbsp;대비&nbsp;필요&nbsp;수준&nbsp;설계/도달&nbsp;방안&nbsp;<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;당선&nbsp;즉시&nbsp;본&nbsp;사업을&nbsp;위한&nbsp;검토에&nbsp;착수하여&nbsp;제대로&nbsp;정착될&nbsp;때까지<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;<br>&nbsp;&nbsp;○&nbsp;각&nbsp;계획별&nbsp;필요&nbsp;예산&nbsp;우선&nbsp;편성&nbsp;사용</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

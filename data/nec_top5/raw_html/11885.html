@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김대권 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	문화로 사람이 찾아오는 목적지가 되는 도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="문화로 사람이 찾아오는 목적지가 되는 도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;수성못&nbsp;수상무대&nbsp;및&nbsp;브릿지<br>■&nbsp;예술촌&nbsp;조성<br>■&nbsp;미술관클러스터&nbsp;조성<br>■&nbsp;미디어아트&nbsp;테마파크&nbsp;조성<br>■&nbsp;육상진흥센터&nbsp;→&nbsp;아레나&nbsp;활용방안&nbsp;제시<br>■&nbsp;동물원&nbsp;조성<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;인구&nbsp;감소에&nbsp;대응한&nbsp;집객으로&nbsp;소비&nbsp;확충&nbsp;→&nbsp;민간투자&nbsp;→&nbsp;일자리&nbsp;창출<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;수미창조포럼(초기검토&nbsp;및&nbsp;숙의기간)&nbsp;→&nbsp;기본계획수립&nbsp;→&nbsp;대구시&nbsp;등&nbsp;관련&nbsp;기관&nbsp;협의&nbsp;→&nbsp;주민과&nbsp;비전공유&nbsp;→&nbsp;구의회보고&nbsp;→&nbsp;사업추진&nbsp;및&nbsp;주민대표&nbsp;참여&nbsp;방안&nbsp;마련&nbsp;→&nbsp;평가&nbsp;관리<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월부터&nbsp;계속<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총&nbsp;사업비&nbsp;2,280억&nbsp;(국시비&nbsp;1,900억&nbsp;구비&nbsp;310억&nbsp;민자&nbsp;70억,&nbsp;시·구&nbsp;부지&nbsp;무상&nbsp;제공)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	스마트 미래교통도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="스마트 미래교통도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;5군수지원사령부&nbsp;후적지에&nbsp;드론택시(UAM)&nbsp;버티&nbsp;허브포트&nbsp;입지안&nbsp;확정<br>■&nbsp;도시철도&nbsp;4호선&nbsp;엑스코선&nbsp;건설&nbsp;<br>■&nbsp;도시철도&nbsp;3호선&nbsp;연장,&nbsp;5호선,&nbsp;6호선&nbsp;대구시&nbsp;도시철도&nbsp;구축&nbsp;계획&nbsp;반영<br>■&nbsp;범안삼거리~황금고가교&nbsp;건설<br>■&nbsp;공영주차장&nbsp;1,000면&nbsp;건설<br>■&nbsp;수성못&nbsp;↔&nbsp;범이산&nbsp;간&nbsp;드론&nbsp;택시&nbsp;시범사업&nbsp;추진&nbsp;<br>■&nbsp;두봉골~청수로&nbsp;간&nbsp;도로&nbsp;건설<br><br>□&nbsp;목&nbsp;표<br>○&nbsp;미래교통&nbsp;중심<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;수미창조포럼(초기검토&nbsp;및&nbsp;숙의기간)&nbsp;→&nbsp;기본계획구상&nbsp;→&nbsp;관련기관&nbsp;협의&nbsp;→&nbsp;주민과&nbsp;비전공유&nbsp;→&nbsp;구의회보고&nbsp;→&nbsp;대구시&nbsp;제출&nbsp;→&nbsp;대구시와&nbsp;중앙정부간&nbsp;협의&nbsp;→&nbsp;사업&nbsp;시행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월부터&nbsp;계속<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총&nbsp;사업비&nbsp;12,553억&nbsp;(국시비&nbsp;12,253억&nbsp;구비&nbsp;300억,&nbsp;도시철도&nbsp;4호선&nbsp;엑스코선을&nbsp;제외한&nbsp;노선은&nbsp;교통망&nbsp;구축&nbsp;계획안&nbsp;확정까지)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	제2알파시티 조성 및 AI전사 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="제2알파시티 조성 및 AI전사 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;제2수성알파시티&nbsp;조성&nbsp;지원<br>■&nbsp;수성알파시티&nbsp;AX혁신사업&nbsp;지원<br>■&nbsp;수성알파시티&nbsp;데이터규제프리존&nbsp;구상제안<br>■&nbsp;AI&nbsp;도시정부&nbsp;구현<br>■&nbsp;주민AI&nbsp;크레에이터&nbsp;육성<br>■&nbsp;청년&nbsp;AI기반&nbsp;1인&nbsp;창업&nbsp;육성<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;경제활성화&nbsp;및&nbsp;고용증대,&nbsp;균형발전&nbsp;위한&nbsp;우월적&nbsp;지위&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;수미창조포럼(초기검토&nbsp;및&nbsp;숙의기간)&nbsp;→&nbsp;기본계획구상&nbsp;→&nbsp;관련기관&nbsp;협의&nbsp;→&nbsp;주민과&nbsp;비전공유&nbsp;→&nbsp;구의회보고&nbsp;→&nbsp;대구시&nbsp;제출&nbsp;→&nbsp;사업시행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월부터&nbsp;계속<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총&nbsp;사업비&nbsp;17,508억&nbsp;(국시비&nbsp;17,500억&nbsp;구비&nbsp;8억,&nbsp;구비사업은&nbsp;국시비&nbsp;공모대응사업)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	미래교육 선도도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="미래교육 선도도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;수성미래학교&nbsp;구축<br>-&nbsp;유치원&nbsp;초·중·고&nbsp;학년별&nbsp;AI대응&nbsp;프로그램(수&nbsp;아카데미,&nbsp;뇌&nbsp;아카데미&nbsp;등)<br>-&nbsp;정신·건강&nbsp;교육(차명상,&nbsp;전통문화,&nbsp;생태교육)<br>-&nbsp;“또다른&nbsp;학교”&nbsp;지원&nbsp;운영(중독·우울&nbsp;등으로&nbsp;부터의&nbsp;회복)<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;한국&nbsp;제1교육도시의&nbsp;지속성&nbsp;확보&nbsp;→&nbsp;전입인구&nbsp;증가<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;수미창조포럼(초기검토&nbsp;및&nbsp;숙의기간)&nbsp;→&nbsp;기본계획수립&nbsp;→&nbsp;주민과&nbsp;비전공유&nbsp;→&nbsp;관련기관&nbsp;협의&nbsp;→&nbsp;구의회보고&nbsp;→&nbsp;대구시&nbsp;및&nbsp;교육청과&nbsp;협의&nbsp;→&nbsp;사업추진&nbsp;및&nbsp;주민과&nbsp;지속적&nbsp;피드백<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월부터&nbsp;계속<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총&nbsp;사업비&nbsp;15억&nbsp;(국시비&nbsp;5억&nbsp;구비&nbsp;10억,&nbsp;구비사업&nbsp;일부는&nbsp;교육발전특구사업비,&nbsp;또는&nbsp;국시비&nbsp;공모대응사업)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	수성구형 복지체계 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="수성구형 복지체계 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;어르신&nbsp;건강관리체계&nbsp;(검사+운동+식단)&nbsp;구축<br>■&nbsp;고독과&nbsp;우울해소&nbsp;프로그램&nbsp;구축<br>■&nbsp;어르신&nbsp;일자리&nbsp;확충<br>■&nbsp;대기없는&nbsp;돌봄<br>■&nbsp;응급의료&nbsp;네트워크&nbsp;구축<br>■&nbsp;어린이·청소년&nbsp;치유,&nbsp;회복탄력성&nbsp;제고<br>■&nbsp;청소년&nbsp;성장프로그램<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;어르신과&nbsp;어린이가&nbsp;행복한&nbsp;도시<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;수미창조포럼(초기검토&nbsp;및&nbsp;숙의기간)&nbsp;→&nbsp;기본계획수립(주민대표위원회&nbsp;참여)&nbsp;→&nbsp;관련기관&nbsp;협의&nbsp;→&nbsp;구의회보고&nbsp;→&nbsp;사업추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월부터&nbsp;계속<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총&nbsp;사업비&nbsp;18억&nbsp;(국시비&nbsp;5억&nbsp;구비&nbsp;13억,&nbsp;구비는&nbsp;국시비&nbsp;공모대응사업)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

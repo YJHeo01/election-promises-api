@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;정영덕 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	무안반도 통합 및 통합시 청사 무안 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="무안반도 통합 및 통합시 청사 무안 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;우선순위<br>&nbsp;&nbsp;○&nbsp;목포·무안·신안&nbsp;무안반도의&nbsp;통합<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;무안반도는&nbsp;예전부터&nbsp;무안군으로&nbsp;한뿌리이나&nbsp;2014년&nbsp;목포&nbsp;분리,&nbsp;1969년&nbsp;신안이&nbsp;분리되면서&nbsp;3개&nbsp;시군으로&nbsp;현재에&nbsp;이름<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도청이전과&nbsp;무안국제공항&nbsp;등이&nbsp;있음에도&nbsp;목포를&nbsp;제외한&nbsp;지역에서&nbsp;인구소멸&nbsp;현상이&nbsp;일어나&nbsp;도시의&nbsp;경쟁력이&nbsp;상실되고&nbsp;있음.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;무안반도의&nbsp;통합은&nbsp;도시의&nbsp;경쟁력을&nbsp;키우고&nbsp;상생&nbsp;발전하는&nbsp;원동력이&nbsp;되어&nbsp;기업유치,&nbsp;목포대학병원유치&nbsp;등에&nbsp;큰&nbsp;역할을&nbsp;하게&nbsp;됨<br>&nbsp;&nbsp;○&nbsp;공항인근&nbsp;1만&nbsp;신도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;무안국제공항은&nbsp;3개&nbsp;시·군의&nbsp;중심지로&nbsp;고속도로,&nbsp;고속철도&nbsp;등&nbsp;인프라가&nbsp;잘&nbsp;구축되어있는&nbsp;지역임<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공항&nbsp;및&nbsp;시&nbsp;청사&nbsp;공무원&nbsp;및&nbsp;종사자의&nbsp;거주안정을&nbsp;위해&nbsp;신&nbsp;도시조성이&nbsp;필요함.<br>&nbsp;&nbsp;○&nbsp;신도시에&nbsp;통합시&nbsp;청사유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국제공항은&nbsp;신안의&nbsp;임자도,&nbsp;지도&nbsp;등&nbsp;주민의&nbsp;이용이&nbsp;편리하고&nbsp;무안의&nbsp;일로,&nbsp;삼향주민,&nbsp;목포시민&nbsp;등&nbsp;인용이&nbsp;편리한&nbsp;중심지임.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국제공항인근&nbsp;신&nbsp;도시조성은&nbsp;인구소멸지역을&nbsp;없애고&nbsp;균형발전&nbsp;유도<br><br>□&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;무안반도의&nbsp;균형발전과&nbsp;기업유치로&nbsp;일자리&nbsp;창출<br><br>□&nbsp;이행&nbsp;절차<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연구용역실시,&nbsp;공무원조직&nbsp;구축,&nbsp;입지조사,&nbsp;주민설명회,&nbsp;기본설계&nbsp;등<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연구용역&nbsp;2023년&nbsp;종료,&nbsp;206년까지&nbsp;상시&nbsp;추진<br><br>□&nbsp;재원&nbsp;조달<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연구용역&nbsp;(군비&nbsp;10억원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업비(세부사업은&nbsp;국비,&nbsp;도비,&nbsp;군비로&nbsp;하되&nbsp;예산구조조정)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	무안국제공항을 국제물류유통 허브공항으로 전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="무안국제공항을 국제물류유통 허브공항으로 전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;우선순위<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인천공항의&nbsp;대체공항으로&nbsp;여객운송의&nbsp;한계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;무안공항은&nbsp;고속도로,&nbsp;무안-&nbsp;부산,&nbsp;무안-&nbsp;서울,&nbsp;무안-&nbsp;인천&nbsp;등을&nbsp;연결하는&nbsp;고속철도가&nbsp;완성되면&nbsp;물류유통&nbsp;전진기지로&nbsp;손색이&nbsp;없음<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;무안공항의&nbsp;인프라는&nbsp;국제&nbsp;물류유통을&nbsp;위한&nbsp;가장&nbsp;좋은&nbsp;여건으로&nbsp;수출입을&nbsp;위해&nbsp;대기업&nbsp;등&nbsp;각종&nbsp;회사에서&nbsp;물류창고&nbsp;건설에&nbsp;많은&nbsp;투자가&nbsp;이루어&nbsp;짐<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;투자는&nbsp;곧&nbsp;인구유입으로&nbsp;이어지며,&nbsp;일자리가&nbsp;많이&nbsp;발생하여&nbsp;무안을&nbsp;떠났던&nbsp;젊은&nbsp;층이&nbsp;돌아오는&nbsp;효과가&nbsp;있음.<br><br>□&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체계적인&nbsp;행정지원을&nbsp;통한&nbsp;항공화물&nbsp;전진기지로&nbsp;대&nbsp;전환&nbsp;<br><br>□&nbsp;이행절차<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연구용역&nbsp;후&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공항기본계획&nbsp;변경&nbsp;및&nbsp;국가화물유통&nbsp;공항으로&nbsp;시스템&nbsp;변경<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년까지&nbsp;상시추진<br><br>□&nbsp;재원조달<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소요예산&nbsp;2,000억원(전액국비)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관련사업&nbsp;국가예산지원요청</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	임성지구 택지개발 및 임성역 KTX·버스 환승 복합터미널 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="임성지구 택지개발 및 임성역 KTX·버스 환승 복합터미널 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;우선순위<br>&nbsp;&nbsp;○&nbsp;임성지구&nbsp;택지개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;목포&nbsp;임성지구&nbsp;택지개발계획은&nbsp;이미&nbsp;수립되어&nbsp;실시계획인가를&nbsp;득해&nbsp;2023년&nbsp;착공할&nbsp;예정임.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임성지구의&nbsp;택지개발은&nbsp;목포와&nbsp;무안이&nbsp;공동개발&nbsp;해야하나&nbsp;목포시가&nbsp;LH공사에&nbsp;의뢰하였으며,&nbsp;무안의&nbsp;개발&nbsp;늦장으로&nbsp;반쪽공사&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2단계&nbsp;사업으로&nbsp;무안&nbsp;임성지구&nbsp;개발이&nbsp;절실히&nbsp;요구되며,&nbsp;개발방식으로는&nbsp;전면매수&nbsp;방식과&nbsp;환지방식을&nbsp;병행해야&nbsp;함.<br>&nbsp;&nbsp;○&nbsp;임성역&nbsp;KTX·버스&nbsp;환승&nbsp;복합터미널&nbsp;건설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;당초&nbsp;호남고속철도는&nbsp;임성역이&nbsp;종착역으로&nbsp;계획되어&nbsp;있었으나&nbsp;목포&nbsp;원도심활성화란&nbsp;명목으로&nbsp;종착역이&nbsp;목포역으로&nbsp;변경됨<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임성역은&nbsp;목포권&nbsp;인구의&nbsp;70%이상&nbsp;거주하며,&nbsp;목포역&nbsp;이용시&nbsp;주차·교통문제&nbsp;등이&nbsp;많이&nbsp;일어나고&nbsp;있음<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도청소재지&nbsp;인근지역인&nbsp;임성역에&nbsp;KTX&nbsp;정차역은&nbsp;반드시&nbsp;필요하며,&nbsp;시민의&nbsp;지역이기주의&nbsp;보다는&nbsp;주민편의가&nbsp;우선시되어야&nbsp;함.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;또한,&nbsp;목포권&nbsp;인근지역&nbsp;주민들의&nbsp;kTX이용&nbsp;편의를&nbsp;위해서&nbsp;버스를&nbsp;환승할&nbsp;수&nbsp;있는&nbsp;시스템이&nbsp;도입되어야&nbsp;하므로&nbsp;목포시외버스&nbsp;터미널을&nbsp;임성역으로&nbsp;이전하여야&nbsp;함.<br><br>□&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;목포권&nbsp;주민들의&nbsp;교통이용&nbsp;편익증진&nbsp;도모<br><br>□&nbsp;이행절차<br>&nbsp;&nbsp;○&nbsp;타당성&nbsp;도사&nbsp;및&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;사업자&nbsp;지정&nbsp;및&nbsp;택지개발계획&nbsp;수립&nbsp;등<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2025년&nbsp;착공&nbsp;2027년&nbsp;준공<br><br>□&nbsp;재원조달<br>&nbsp;&nbsp;○&nbsp;소요예산&nbsp;2,000억원(지방비)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	오룡고등학교 설립 및 무안·남악 청소년 힐링테마파크 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="오룡고등학교 설립 및 무안·남악 청소년 힐링테마파크 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;우선순위<br>&nbsp;&nbsp;○&nbsp;오룡고등학교&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유입인구&nbsp;2.5만명이&nbsp;거주함에도&nbsp;목포권&nbsp;학생수&nbsp;감소라는&nbsp;사유로&nbsp;고등학교&nbsp;신설이&nbsp;어려운&nbsp;실정임.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;무안읍&nbsp;백제고등학교를&nbsp;남악으로&nbsp;이전하여&nbsp;학습권과&nbsp;통학권을&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;무안·남악&nbsp;청소년&nbsp;힐링테마파크&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청소년들의&nbsp;대부분&nbsp;놀이&nbsp;공간이&nbsp;PC방이나&nbsp;카페&nbsp;등&nbsp;편안한&nbsp;생활권과&nbsp;자유로운&nbsp;힐링&nbsp;공간이&nbsp;찾기&nbsp;어려운&nbsp;실정임.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청소년&nbsp;힐링테마파크는&nbsp;청소년들이&nbsp;즐기고&nbsp;배우고&nbsp;운동할&nbsp;수&nbsp;있는&nbsp;모든&nbsp;공간을&nbsp;마련하여&nbsp;정신적&nbsp;육체적&nbsp;힐링공간을&nbsp;마련<br><br>□&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;교육환경개선&nbsp;및&nbsp;청소년들의&nbsp;편안한&nbsp;생활&nbsp;공간마련<br><br>□&nbsp;이행절차<br>&nbsp;&nbsp;○&nbsp;학교&nbsp;신설&nbsp;협양체결&nbsp;및&nbsp;투자&nbsp;양해각서&nbsp;각성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2022년까지&nbsp;상시추진<br><br>□&nbsp;재원조달<br>&nbsp;&nbsp;○&nbsp;소요예산&nbsp;400억원(국비&nbsp;200,&nbsp;지방비&nbsp;100,&nbsp;민자&nbsp;100)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	농업기술 연구소 설립 및 농·수·축산 기금 마련</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="농업기술 연구소 설립 및 농·수·축산 기금 마련">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;우선순위<br>&nbsp;&nbsp;○&nbsp;농업기술&nbsp;연구소&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기후변화에&nbsp;대체작물&nbsp;보급&nbsp;및&nbsp;곤충산업&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우리지역에&nbsp;적합한&nbsp;대체작물이&nbsp;무엇인지&nbsp;수요예측을&nbsp;통해&nbsp;장단기&nbsp;계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;식용곤충,&nbsp;가공공장&nbsp;설치와&nbsp;대량사육유통&nbsp;및&nbsp;가공화하여&nbsp;곤충산업의&nbsp;6차사업으로&nbsp;육성<br><br>&nbsp;&nbsp;○&nbsp;농·수·축산&nbsp;기금&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농산물&nbsp;가격&nbsp;폭락,&nbsp;축산농가의&nbsp;위기,&nbsp;태풍&nbsp;등&nbsp;자연재해로&nbsp;수산자원&nbsp;소실&nbsp;등에&nbsp;대비하기&nbsp;위해&nbsp;기금&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군과&nbsp;농수축협&nbsp;자부담을&nbsp;통해&nbsp;기금마련하고&nbsp;위기에&nbsp;기금을&nbsp;활용<br><br>□&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;생명산업의&nbsp;관리&nbsp;및&nbsp;육성으로&nbsp;지역&nbsp;농수축산물&nbsp;소득증대<br>&nbsp;&nbsp;○&nbsp;농수축산업&nbsp;위기에&nbsp;능동적으로&nbsp;대처<br><br>□&nbsp;이행절차<br>&nbsp;&nbsp;○&nbsp;관계기관단체&nbsp;설명회&nbsp;및&nbsp;의견수렴(농·축·어업인&nbsp;등)<br>&nbsp;&nbsp;○&nbsp;지원기준마련&nbsp;및&nbsp;참여&nbsp;가능업체&nbsp;모집(유통전문업체&nbsp;등)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년까지&nbsp;상시추진<br><br>□&nbsp;재원조달<br>&nbsp;&nbsp;○&nbsp;소요예산&nbsp;250억원(지방비40,&nbsp;농수축협30&nbsp;민자30)<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;공모사업&nbsp;응모,&nbsp;시설비,&nbsp;행사성&nbsp;경비등&nbsp;절감</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

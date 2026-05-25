@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;탁영일 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	초일류 교육도시 동래 - 교육 OS 업그레이드</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="초일류 교육도시 동래 - 교육 OS 업그레이드">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;동래를&nbsp;명품교육도시를&nbsp;넘어&nbsp;국내&nbsp;10대&nbsp;교육도시로&nbsp;육성하고,&nbsp;미래인재&nbsp;발굴부터&nbsp;취업·정착까지&nbsp;책임지는&nbsp;교육&nbsp;생태계를&nbsp;구축한다.<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;학습코칭센터&nbsp;및&nbsp;AI&nbsp;교육&nbsp;허브&nbsp;구축,&nbsp;전&nbsp;구민&nbsp;AI&nbsp;리터러시&nbsp;프로그램&nbsp;운영&nbsp;(학생·직장인·어르신)<br>&nbsp;&nbsp;○&nbsp;복합문화&nbsp;라키비움&nbsp;도서관&nbsp;건립,&nbsp;온천천&nbsp;야외&nbsp;독서&nbsp;페스티벌&nbsp;개최,&nbsp;생애주기별&nbsp;책선물&nbsp;바우처&nbsp;발급&nbsp;(지역&nbsp;서점&nbsp;상생)<br>&nbsp;&nbsp;○&nbsp;미래동래장학금&nbsp;확대(역외&nbsp;우수&nbsp;인재&nbsp;유치),&nbsp;지역&nbsp;인재&nbsp;→&nbsp;취업&nbsp;→&nbsp;정착&nbsp;연계&nbsp;시스템&nbsp;구축,&nbsp;명륜초&nbsp;등&nbsp;과밀학급&nbsp;해소를&nbsp;위한&nbsp;도시형&nbsp;캠퍼스&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;5060&nbsp;앙코르커리어&nbsp;지원센터&nbsp;설치&nbsp;및&nbsp;재교육·재취업&nbsp;연계&nbsp;평생교육&nbsp;확대<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내(2026~2030),&nbsp;1단계&nbsp;AI&nbsp;교육&nbsp;허브&nbsp;및&nbsp;라키비움&nbsp;도서관&nbsp;착공(2027년),&nbsp;2단계&nbsp;도시형&nbsp;캠퍼스&nbsp;조성(2028년)<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;<br>&nbsp;&nbsp;○&nbsp;구&nbsp;자체&nbsp;예산,&nbsp;교육부·문체부&nbsp;공모사업&nbsp;연계,&nbsp;민간&nbsp;기부·장학재단&nbsp;협력,&nbsp;국비·시비&nbsp;매칭&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	청년이 머무는 동래 - 청년정착 패키지 및 일자리, 주거 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="청년이 머무는 동래 - 청년정착 패키지 및 일자리, 주거 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;동래를&nbsp;떠나는&nbsp;청년의&nbsp;발길을&nbsp;돌리고,&nbsp;서울이&nbsp;아니어도&nbsp;꿈을&nbsp;펼칠&nbsp;수&nbsp;있는&nbsp;청년&nbsp;친화&nbsp;도시를&nbsp;만들어&nbsp;청년&nbsp;인구&nbsp;유출을&nbsp;막고&nbsp;정착률을&nbsp;높인다<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;청년정착&nbsp;패키지&nbsp;시행:&nbsp;청년&nbsp;주거비·이사비&nbsp;지원,&nbsp;청년&nbsp;지역화폐&nbsp;발급,&nbsp;반값&nbsp;주거&nbsp;실현(청년&nbsp;공유·사회주택&nbsp;건립&nbsp;추진)<br>&nbsp;&nbsp;○&nbsp;빈집&nbsp;리모델링을&nbsp;통한&nbsp;청년공간&nbsp;조성,&nbsp;청년&nbsp;창업·코워킹·워케이션&nbsp;복합공간&nbsp;구축,&nbsp;청년&nbsp;창업&nbsp;월세&nbsp;지원&nbsp;및&nbsp;초기&nbsp;창업비용&nbsp;부담&nbsp;완화<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;인재&nbsp;취업,&nbsp;정착&nbsp;연계&nbsp;시스템&nbsp;구축,&nbsp;미래동래장학금&nbsp;확대(역외&nbsp;우수&nbsp;인재&nbsp;유치),&nbsp;청년&nbsp;일자리&nbsp;매칭&nbsp;플랫폼&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;안심거리&nbsp;조성,&nbsp;청소년·청년&nbsp;자율학습·휴식&nbsp;공간&nbsp;확충,&nbsp;마음&nbsp;돌봄&nbsp;상담&nbsp;공간&nbsp;및&nbsp;청년&nbsp;문화&nbsp;프로그램&nbsp;확대<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진,&nbsp;청년정착&nbsp;패키지&nbsp;및&nbsp;주거&nbsp;지원&nbsp;1단계&nbsp;시행(2027년),&nbsp;청년복합공간&nbsp;조성&nbsp;완료(2028년)<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;<br>&nbsp;&nbsp;○&nbsp;국토부·고용노동부·중기부&nbsp;청년&nbsp;지원&nbsp;국비&nbsp;연계,&nbsp;부산시&nbsp;청년정책&nbsp;예산&nbsp;매칭,&nbsp;구비&nbsp;자체&nbsp;배정,&nbsp;LH&nbsp;협력</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	온천장 부활 프로젝트 - 대한민국 대표 웰니스·체류형 관광도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="온천장 부활 프로젝트 - 대한민국 대표 웰니스·체류형 관광도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;온천·자연·미식을&nbsp;결합한&nbsp;체류형&nbsp;관광&nbsp;인프라를&nbsp;구축하여&nbsp;동래&nbsp;온천장을&nbsp;대한민국&nbsp;대표&nbsp;웰니스&nbsp;관광지로&nbsp;육성한다<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;시티버스&nbsp;동래&nbsp;유치,&nbsp;금정산&nbsp;국립공원&nbsp;관리사무소&nbsp;정식&nbsp;유치&nbsp;추진&nbsp;및&nbsp;역명&nbsp;병기(금정산&nbsp;국립공원&nbsp;관리사무소역)<br>&nbsp;&nbsp;○&nbsp;온천천~온천장~금정산&nbsp;관광벨트&nbsp;구축,&nbsp;금강공원&nbsp;'치유의&nbsp;숲'&nbsp;조성,&nbsp;스파·미식·자연&nbsp;연계&nbsp;체류형&nbsp;관광&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;온천도시&nbsp;선정&nbsp;및&nbsp;브랜드화&nbsp;추진,&nbsp;온천카페거리·미식&nbsp;콘텐츠&nbsp;육성,&nbsp;권역별&nbsp;특화&nbsp;상권&nbsp;및&nbsp;골목상점가&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;온천패스&nbsp;등&nbsp;지역&nbsp;소비촉진&nbsp;정책&nbsp;시행,&nbsp;관광·상권&nbsp;데이터&nbsp;기반&nbsp;지원&nbsp;시스템&nbsp;구축,&nbsp;노포거리문화박물관&nbsp;조성<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계적&nbsp;추진,&nbsp;관광벨트&nbsp;기본계획&nbsp;수립(2027년),&nbsp;주요&nbsp;거점&nbsp;조성&nbsp;완료(2029년)<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;<br>&nbsp;&nbsp;○&nbsp;문화체육관광부·국토부&nbsp;공모&nbsp;연계,&nbsp;부산시&nbsp;관광진흥기금&nbsp;활용,&nbsp;민간투자&nbsp;유치,&nbsp;구비&nbsp;매칭</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	골목상권 르네상스 - 소상공인·전통시장 활성화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="골목상권 르네상스 - 소상공인·전통시장 활성화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;노포와&nbsp;골목이&nbsp;살아&nbsp;숨쉬는&nbsp;대한민국&nbsp;대표&nbsp;생활상권&nbsp;도시&nbsp;동래를&nbsp;만들어,&nbsp;소상공인이&nbsp;월세&nbsp;걱정&nbsp;없이&nbsp;영업할&nbsp;수&nbsp;있는&nbsp;환경을&nbsp;조성한다&nbsp;<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;빈집·골목&nbsp;재생&nbsp;창업·문화공간&nbsp;조성,&nbsp;서원시장&nbsp;등&nbsp;전통시장&nbsp;특화사업&nbsp;추진,&nbsp;온천카페거리&nbsp;등&nbsp;글로컬&nbsp;상권&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;임차료&nbsp;지원·경영안정&nbsp;패키지&nbsp;확대,&nbsp;지역화폐·온천패스&nbsp;연계&nbsp;소비&nbsp;촉진&nbsp;캠페인&nbsp;정기&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;디자인&nbsp;동래&nbsp;종합계획&nbsp;수립,&nbsp;골목·공간&nbsp;재생&nbsp;기반&nbsp;FUN&CREATIVE&nbsp;디자인&nbsp;도시&nbsp;조성,&nbsp;온천천&nbsp;러너스테이션&nbsp;등&nbsp;생활문화&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;관광·상권&nbsp;데이터&nbsp;기반&nbsp;지원&nbsp;시스템&nbsp;구축,&nbsp;노포거리문화박물관&nbsp;조성,&nbsp;공공&nbsp;와이파이·간판&nbsp;정비&nbsp;등&nbsp;상권&nbsp;환경&nbsp;개선<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;임기내&nbsp;추진,&nbsp;특화상권&nbsp;지정&nbsp;및&nbsp;지원체계&nbsp;구축(2027년),&nbsp;노포거리문화박물관&nbsp;조성(2028년)<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;<br>&nbsp;&nbsp;○&nbsp;중소벤처기업부&nbsp;전통시장&nbsp;지원&nbsp;국비&nbsp;연계,&nbsp;부산시&nbsp;상권활성화&nbsp;사업&nbsp;매칭,&nbsp;구비&nbsp;자체&nbsp;배정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	세대통합 복지 - 아이부터 어르신까지 누구도 소외 없는 동래</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="세대통합 복지 - 아이부터 어르신까지 누구도 소외 없는 동래">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;어린이·청소년·청년·중장년·어르신·장애인&nbsp;모든&nbsp;세대가&nbsp;동래에서&nbsp;안심하고&nbsp;살아갈&nbsp;수&nbsp;있는&nbsp;촘촘한&nbsp;복지·돌봄&nbsp;체계를&nbsp;구축한다<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;○&nbsp;동래형&nbsp;공공&nbsp;키즈카페&nbsp;설치·확대,&nbsp;금강공원&nbsp;어린이&nbsp;놀이&nbsp;숲&nbsp;조성,&nbsp;아동·청소년&nbsp;방과후&nbsp;돌봄&nbsp;공간&nbsp;확충&nbsp;및&nbsp;통학로&nbsp;안전&nbsp;대책&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;청년정착&nbsp;패키지(청년&nbsp;주거·이사비&nbsp;지원,&nbsp;지역화폐)&nbsp;시행,&nbsp;청년&nbsp;창업·코워킹·워케이션&nbsp;공간&nbsp;조성,&nbsp;5060&nbsp;앙코르커리어&nbsp;지원센터&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;독거노인&nbsp;방문·안부&nbsp;확인&nbsp;인원&nbsp;확충,&nbsp;동래형&nbsp;해드림센터&nbsp;설치,&nbsp;어르신&nbsp;방문&nbsp;건강관리·주치의&nbsp;연계,&nbsp;동래방네&nbsp;천원&nbsp;택시&nbsp;시범&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;경사로·계단&nbsp;손잡이·미끄럼&nbsp;방지&nbsp;전면&nbsp;보수,&nbsp;장애인&nbsp;이동권·돌봄권&nbsp;보장&nbsp;통합지원&nbsp;체계&nbsp;구축,&nbsp;방범&nbsp;CCTV·비상벨&nbsp;단계적&nbsp;확충<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진,&nbsp;1단계&nbsp;긴급&nbsp;복지&nbsp;인프라&nbsp;우선&nbsp;개선(취임&nbsp;100일),&nbsp;2단계&nbsp;세대별&nbsp;통합&nbsp;시스템&nbsp;구축(2028년)<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;<br>&nbsp;&nbsp;○&nbsp;보건복지부·여성가족부&nbsp;국비&nbsp;연계,&nbsp;부산시&nbsp;복지기금&nbsp;활용,&nbsp;구비&nbsp;자체&nbsp;배정,&nbsp;민간&nbsp;사회복지법인&nbsp;협력</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

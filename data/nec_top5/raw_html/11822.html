@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김장연 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	100만평 안성맞춤 신도시 건설 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="100만평 안성맞춤 신도시 건설 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            안성맞춤&nbsp;신도시&nbsp;건설&nbsp;추진<br><br>목&nbsp;표<br>○&nbsp;난개발을&nbsp;방지하고&nbsp;계획적인&nbsp;도시성장을&nbsp;유도하기&nbsp;위한&nbsp;대규모&nbsp;신도시&nbsp;조성<br>&nbsp;&nbsp;·&nbsp;최소&nbsp;330만㎡(100만&nbsp;평)&nbsp;규모의&nbsp;‘안성맞춤&nbsp;신도시’&nbsp;개발&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;1만7,000가구,&nbsp;약&nbsp;5만&nbsp;명&nbsp;수용이&nbsp;가능한&nbsp;자족형&nbsp;미래도시&nbsp;조성<br>&nbsp;&nbsp;·&nbsp;주거·산업·교통·교육·문화&nbsp;기능이&nbsp;융합된&nbsp;신성장&nbsp;거점&nbsp;마련<br><br>이행방법<br>○&nbsp;신도시&nbsp;개발&nbsp;기본구상&nbsp;및&nbsp;후보지&nbsp;선정&nbsp;용역&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;용역비&nbsp;2억&nbsp;원&nbsp;투입을&nbsp;통한&nbsp;개발&nbsp;타당성&nbsp;및&nbsp;입지&nbsp;검토<br>&nbsp;&nbsp;·&nbsp;국토계획&nbsp;및&nbsp;광역교통체계와&nbsp;연계한&nbsp;개발계획&nbsp;수립<br>&nbsp;&nbsp;·&nbsp;시민&nbsp;의견수렴&nbsp;및&nbsp;전문가&nbsp;자문을&nbsp;통한&nbsp;최적&nbsp;후보지&nbsp;선정<br>&nbsp;&nbsp;·&nbsp;경기도&nbsp;및&nbsp;중앙정부와&nbsp;협의를&nbsp;통한&nbsp;사업&nbsp;추진&nbsp;기반&nbsp;마련<br><br>이행기간<br>○&nbsp;민선&nbsp;임기&nbsp;내&nbsp;후보지&nbsp;확정&nbsp;및&nbsp;사업&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;2026년&nbsp;:&nbsp;기본구상&nbsp;및&nbsp;타당성&nbsp;검토&nbsp;용역&nbsp;착수<br>&nbsp;&nbsp;·&nbsp;2027년&nbsp;:&nbsp;개발&nbsp;후보지&nbsp;검토&nbsp;및&nbsp;주민&nbsp;의견수렴<br>&nbsp;&nbsp;·&nbsp;2028년&nbsp;:&nbsp;관계기관&nbsp;협의&nbsp;및&nbsp;개발계획&nbsp;구체화<br>&nbsp;&nbsp;·&nbsp;2030년&nbsp;:&nbsp;임기&nbsp;내&nbsp;최종&nbsp;후보지&nbsp;확정&nbsp;추진<br><br>재원조달방안&nbsp;등<br>○&nbsp;단계별&nbsp;재원&nbsp;확보를&nbsp;통한&nbsp;안정적&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;초기&nbsp;용역비&nbsp;2억&nbsp;원은&nbsp;시비&nbsp;편성&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;향후&nbsp;공공·민간&nbsp;협력개발&nbsp;및&nbsp;광역개발사업&nbsp;방식&nbsp;검토<br>&nbsp;&nbsp;·&nbsp;국·도비&nbsp;지원사업&nbsp;및&nbsp;민간투자&nbsp;유치&nbsp;병행&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;장기적으로&nbsp;도시개발&nbsp;수익을&nbsp;활용한&nbsp;자족도시&nbsp;기반&nbsp;조성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	기업유치, 일자리·세원 창출 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="기업유치, 일자리·세원 창출 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            기업유치&nbsp;및&nbsp;지역우선&nbsp;일자리&nbsp;창출<br><br>목&nbsp;표<br>○&nbsp;우량기업&nbsp;유치를&nbsp;통한&nbsp;지역경제&nbsp;활성화&nbsp;및&nbsp;양질의&nbsp;일자리&nbsp;확대<br>&nbsp;&nbsp;·&nbsp;산업단지&nbsp;활성화를&nbsp;통해&nbsp;기업&nbsp;투자&nbsp;및&nbsp;세원&nbsp;확충&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;청년·중장년층&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;지역경제&nbsp;선순환&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;·&nbsp;모든&nbsp;신규&nbsp;일자리에&nbsp;안성&nbsp;주민&nbsp;우선&nbsp;채용&nbsp;원칙&nbsp;적용<br>&nbsp;&nbsp;·&nbsp;기업과&nbsp;지역이&nbsp;함께&nbsp;성장하는&nbsp;지속가능&nbsp;산업도시&nbsp;조성<br><br>이행방법<br>○&nbsp;주요&nbsp;산업단지를&nbsp;중심으로&nbsp;전략적&nbsp;기업유치&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;안성&nbsp;제5일반산업단지,&nbsp;동신일반산업단지,&nbsp;삼죽&nbsp;에코퓨전파크중심&nbsp;기업유치&nbsp;활동&nbsp;강화&nbsp;<br>&nbsp;&nbsp;·&nbsp;안성&nbsp;제1테크노밸리,&nbsp;안성&nbsp;제2테크노밸리첨단·미래산업&nbsp;기업&nbsp;유치&nbsp;확대&nbsp;<br>&nbsp;&nbsp;·&nbsp;투자유치&nbsp;설명회&nbsp;및&nbsp;맞춤형&nbsp;행정지원&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;기업협약&nbsp;시&nbsp;지역인재&nbsp;우선채용&nbsp;협약&nbsp;병행&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;산학협력&nbsp;및&nbsp;직업교육&nbsp;연계를&nbsp;통한&nbsp;맞춤형&nbsp;인력양성&nbsp;지원<br><br>이행기간<br>○&nbsp;민선&nbsp;임기&nbsp;내&nbsp;기업유치&nbsp;완료&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;2026년&nbsp;:&nbsp;투자유치&nbsp;전략&nbsp;수립&nbsp;및&nbsp;대상기업&nbsp;발굴<br>&nbsp;&nbsp;·&nbsp;2027년&nbsp;:&nbsp;기업&nbsp;투자협약&nbsp;및&nbsp;입주&nbsp;협의&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;2028년&nbsp;:&nbsp;산업단지별&nbsp;기업유치&nbsp;확대&nbsp;및&nbsp;고용&nbsp;연계&nbsp;강화<br>&nbsp;&nbsp;·&nbsp;2030년&nbsp;:&nbsp;임기&nbsp;내&nbsp;주요&nbsp;기업유치&nbsp;완료&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;비예산&nbsp;사업&nbsp;/&nbsp;임기&nbsp;내&nbsp;기업유치&nbsp;완료&nbsp;추진<br><br>재원조달방안&nbsp;<br>○&nbsp;기존&nbsp;행정역량&nbsp;및&nbsp;산업단지&nbsp;기반을&nbsp;활용한&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;투자유치&nbsp;전담체계&nbsp;운영&nbsp;및&nbsp;관계기관&nbsp;협력&nbsp;강화<br>&nbsp;&nbsp;·&nbsp;기업&nbsp;인허가&nbsp;원스톱&nbsp;지원을&nbsp;통한&nbsp;행정&nbsp;효율화&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;국·도비&nbsp;공모사업&nbsp;및&nbsp;민간투자&nbsp;연계&nbsp;적극&nbsp;활용<br>&nbsp;&nbsp;·&nbsp;지역주민&nbsp;우선채용&nbsp;기반&nbsp;마련을&nbsp;통한&nbsp;지역경제&nbsp;활성화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	경기도 유일 철도 없는 도시! 임기 내 철도 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="경기도 유일 철도 없는 도시! 임기 내 철도 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            철도망&nbsp;확충&nbsp;및&nbsp;철도&nbsp;유치&nbsp;추진<br><br>목&nbsp;표<br>○&nbsp;경기도&nbsp;내&nbsp;유일한&nbsp;철도&nbsp;미연결&nbsp;도시의&nbsp;한계를&nbsp;극복하고&nbsp;광역교통망&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;수도권&nbsp;접근성&nbsp;향상&nbsp;및&nbsp;시민&nbsp;교통편의&nbsp;증대<br>&nbsp;&nbsp;·&nbsp;산업·물류·관광&nbsp;경쟁력&nbsp;강화를&nbsp;통한&nbsp;지역발전&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;·&nbsp;철도&nbsp;중심&nbsp;교통체계&nbsp;구축으로&nbsp;균형발전&nbsp;실현<br>&nbsp;&nbsp;·&nbsp;민선&nbsp;임기&nbsp;내&nbsp;신규&nbsp;철도노선&nbsp;유치&nbsp;가시화&nbsp;추진<br><br>이행방법<br>○&nbsp;국가철도망&nbsp;계획&nbsp;반영&nbsp;및&nbsp;관계기관&nbsp;협력&nbsp;강화<br>&nbsp;&nbsp;·&nbsp;수도권&nbsp;광역급행철도(GTX)&nbsp;안성&nbsp;연계방안&nbsp;적극&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;평택~안성~부발선&nbsp;일반철도&nbsp;사업&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;잠실~청주공항&nbsp;급행철도&nbsp;노선&nbsp;연계&nbsp;건의<br>&nbsp;&nbsp;·&nbsp;동탄~안성~청주공항&nbsp;내륙철도&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;경강선&nbsp;광주~안성&nbsp;연장사업&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;중앙정부·경기도·인접&nbsp;지자체와&nbsp;공동협력체계&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;시민&nbsp;공감대&nbsp;형성과&nbsp;정책건의&nbsp;활동&nbsp;지속&nbsp;추진<br><br>이행기간<br>○&nbsp;민선&nbsp;임기&nbsp;내&nbsp;철도사업&nbsp;유치&nbsp;성과&nbsp;도출&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;2026년&nbsp;:&nbsp;철도망&nbsp;구축&nbsp;전략&nbsp;및&nbsp;정책건의&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;2027년&nbsp;:&nbsp;국가철도망계획&nbsp;반영&nbsp;협의&nbsp;및&nbsp;타당성&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;2028년&nbsp;:&nbsp;관계기관&nbsp;공동대응&nbsp;및&nbsp;사업화&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;2030년&nbsp;:&nbsp;임기&nbsp;내&nbsp;핵심&nbsp;철도노선&nbsp;유치&nbsp;가시화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;비예산&nbsp;사업&nbsp;/&nbsp;임기&nbsp;내&nbsp;1개&nbsp;이상&nbsp;철도노선&nbsp;우선&nbsp;유치&nbsp;추진<br><br>재원조달방안&nbsp;<br>○&nbsp;국가철도망&nbsp;및&nbsp;광역교통계획&nbsp;연계를&nbsp;통한&nbsp;재원&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;국비&nbsp;중심의&nbsp;국가철도사업&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;경기도&nbsp;및&nbsp;관계&nbsp;지자체&nbsp;공동협력&nbsp;방식&nbsp;검토<br>&nbsp;&nbsp;·&nbsp;중앙정부&nbsp;정책사업과&nbsp;연계한&nbsp;단계별&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;철도&nbsp;유치를&nbsp;통한&nbsp;지역경제&nbsp;및&nbsp;도시경쟁력&nbsp;강화&nbsp;기대</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	출산지원 확대 및 우리아이 교육바우처 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="출산지원 확대 및 우리아이 교육바우처 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            출산지원&nbsp;확대&nbsp;및&nbsp;우리아이&nbsp;교육바우처&nbsp;지원<br><br>목&nbsp;표<br>○&nbsp;아이&nbsp;낳고&nbsp;키우기&nbsp;좋은&nbsp;안성&nbsp;조성&nbsp;및&nbsp;교육복지&nbsp;강화<br>&nbsp;&nbsp;·&nbsp;첫째&nbsp;아이부터&nbsp;실질적인&nbsp;출산지원&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;결혼·출산&nbsp;장려를&nbsp;통한&nbsp;인구감소&nbsp;대응&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;·&nbsp;영유아&nbsp;및&nbsp;초·중·고&nbsp;학생&nbsp;대상&nbsp;교육지원&nbsp;강화<br>&nbsp;&nbsp;·&nbsp;학부모&nbsp;교육비&nbsp;부담&nbsp;완화와&nbsp;지역경제&nbsp;활성화&nbsp;동시&nbsp;추진<br><br>이행방법<br>○&nbsp;결혼·출산지원금&nbsp;확대&nbsp;및&nbsp;교육바우처&nbsp;신설&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;현재&nbsp;둘째아&nbsp;이상&nbsp;중심&nbsp;지원체계를&nbsp;첫째아까지&nbsp;확대<br>&nbsp;&nbsp;·&nbsp;결혼&nbsp;시&nbsp;100만&nbsp;원,&nbsp;출산&nbsp;시&nbsp;200만&nbsp;원&nbsp;지원&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;기존&nbsp;출산지원&nbsp;예산&nbsp;14억7,500만&nbsp;원을&nbsp;23억&nbsp;원&nbsp;규모로&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;영유아&nbsp;및&nbsp;초·중·고&nbsp;학생&nbsp;2만2,600명&nbsp;전원&nbsp;대상&nbsp;교육바우처&nbsp;지원<br>&nbsp;&nbsp;·&nbsp;지역&nbsp;내&nbsp;사용&nbsp;가능한&nbsp;교육·돌봄·문화&nbsp;바우처&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;지역&nbsp;소상공인&nbsp;및&nbsp;교육&nbsp;관련&nbsp;업체와&nbsp;연계&nbsp;운영&nbsp;추진<br><br>이행기간<br>○&nbsp;단계적&nbsp;확대를&nbsp;통한&nbsp;안정적&nbsp;제도&nbsp;시행&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;2026년&nbsp;:&nbsp;지원체계&nbsp;개편&nbsp;및&nbsp;세부&nbsp;운영계획&nbsp;수립<br>&nbsp;&nbsp;·&nbsp;2027년&nbsp;:&nbsp;결혼·출산지원&nbsp;확대&nbsp;및&nbsp;교육바우처&nbsp;사업&nbsp;시행&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;2028년&nbsp;이후&nbsp;:&nbsp;지원대상&nbsp;및&nbsp;혜택&nbsp;확대&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;2027년&nbsp;본예산&nbsp;편성&nbsp;추진<br><br>재원조달방안&nbsp;<br>○&nbsp;시&nbsp;재정&nbsp;조정&nbsp;및&nbsp;단계적&nbsp;예산&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;출산지원&nbsp;예산&nbsp;증액을&nbsp;통한&nbsp;안정적&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;·&nbsp;교육바우처&nbsp;사업비&nbsp;연간&nbsp;약&nbsp;81억&nbsp;원&nbsp;규모&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;지역화폐·지역업체&nbsp;연계&nbsp;방식&nbsp;검토로&nbsp;지역경제&nbsp;활성화&nbsp;도모<br>&nbsp;&nbsp;·&nbsp;아이·부모·지역업체가&nbsp;함께&nbsp;혜택을&nbsp;누리는&nbsp;선순환&nbsp;구조&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	공공의대 및 500병상 공공의료체계 구축 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="공공의대 및 500병상 공공의료체계 구축 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            공공의대&nbsp;및&nbsp;500병상&nbsp;공공의료체계&nbsp;구축&nbsp;추진<br><br>목&nbsp;표<br>○&nbsp;공공의료&nbsp;인프라&nbsp;확충을&nbsp;통한&nbsp;시민&nbsp;의료서비스&nbsp;향상<br>&nbsp;&nbsp;·&nbsp;한경국립대학교&nbsp;공공의대&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;24시간&nbsp;응급의료체계&nbsp;구축&nbsp;및&nbsp;의료&nbsp;사각지대&nbsp;해소<br>&nbsp;&nbsp;·&nbsp;출산&nbsp;가능한&nbsp;산부인과·소아과·응급실을&nbsp;갖춘&nbsp;500병상&nbsp;규모&nbsp;종합병원&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;시민&nbsp;누구나&nbsp;안심하고&nbsp;이용할&nbsp;수&nbsp;있는&nbsp;공공의료&nbsp;기반&nbsp;마련<br><br>이행방법<br>○&nbsp;공공의료기관&nbsp;및&nbsp;의료인력&nbsp;기반&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;한경국립대학&nbsp;공공의대&nbsp;설립&nbsp;필요성&nbsp;공동&nbsp;대응&nbsp;및&nbsp;정책&nbsp;건의&nbsp;<br>&nbsp;&nbsp;·&nbsp;중앙정부·경기도·대학·의료기관&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;·&nbsp;공공병원&nbsp;유치&nbsp;및&nbsp;종합의료시설&nbsp;건립&nbsp;타당성&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;산부인과·소아과·응급실&nbsp;등&nbsp;필수의료&nbsp;중심&nbsp;운영체계&nbsp;마련<br>&nbsp;&nbsp;·&nbsp;지역응급의료체계&nbsp;및&nbsp;권역의료기관&nbsp;연계&nbsp;강화<br><br>이행기간<br>○&nbsp;민선&nbsp;임기&nbsp;내&nbsp;공공의료&nbsp;기반&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;2026년&nbsp;:&nbsp;공공의료&nbsp;확충&nbsp;기본계획&nbsp;및&nbsp;관계기관&nbsp;협의&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;2027년&nbsp;:&nbsp;공공의대&nbsp;및&nbsp;공공병원&nbsp;유치&nbsp;공동대응&nbsp;강화<br>&nbsp;&nbsp;·&nbsp;2028년&nbsp;:&nbsp;사업화&nbsp;기반&nbsp;및&nbsp;정책&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;2030년&nbsp;:&nbsp;공공의료체계&nbsp;구축&nbsp;가시화&nbsp;추진<br><br>재원조달방안&nbsp;<br>○&nbsp;중앙정부&nbsp;및&nbsp;공공의료&nbsp;정책사업&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;국비&nbsp;중심&nbsp;공공의료사업&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;경기도·대학·의료기관&nbsp;협력&nbsp;방식&nbsp;검토<br>&nbsp;&nbsp;·&nbsp;공공병원&nbsp;건립&nbsp;관련&nbsp;국가재정사업&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;시민&nbsp;의료&nbsp;접근성&nbsp;향상&nbsp;및&nbsp;지역의료&nbsp;경쟁력&nbsp;강화&nbsp;기대</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

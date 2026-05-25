@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김호열 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	생활인구 10만 워케이션 스마트 타운 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="생활인구 10만 워케이션 스마트 타운 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;양양의&nbsp;아름다운&nbsp;자연환경과&nbsp;해양관광&nbsp;자원을&nbsp;활용하여&nbsp;단순&nbsp;관광지를&nbsp;넘어&nbsp;“머물며&nbsp;일하고&nbsp;살아가는&nbsp;도시”로&nbsp;전환하고,&nbsp;청년·기업·관광객이&nbsp;함께&nbsp;체류하는&nbsp;생활인구&nbsp;10만&nbsp;시대&nbsp;기반을&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;특히,&nbsp;수도권&nbsp;중심의&nbsp;원격근무&nbsp;확산과&nbsp;워케이션&nbsp;수요&nbsp;증가에&nbsp;대응하여&nbsp;하조대&nbsp;지역을&nbsp;중심으로&nbsp;업무·휴식·문화·주거가&nbsp;결합된&nbsp;대한민국&nbsp;대표&nbsp;해양&nbsp;워케이션&nbsp;거점도시로&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;워케이션&nbsp;복합공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;카페·문화공간·휴식공간&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트&nbsp;업무환경(Wi<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Fi·AI회의&nbsp;시스템)&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;창업&nbsp;및&nbsp;스타트업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;IT·콘텐츠·디자인&nbsp;분야&nbsp;스타트업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;창업지원센터&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;체류형&nbsp;관광도시&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서핑·요가·해양레저&nbsp;프로그램&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사계절&nbsp;관광&nbsp;콘텐츠&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;스마트타운&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;친환경&nbsp;에너지&nbsp;기반&nbsp;시설&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;디지털&nbsp;행정·예약&nbsp;시스템&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;&nbsp;2026&nbsp;~&nbsp;2030년&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;:<br>&nbsp;&nbsp;○&nbsp;총사업비&nbsp;:&nbsp;500억&nbsp;∼&nbsp;1,000억원&nbsp;규모<br>&nbsp;&nbsp;○&nbsp;재원&nbsp;조달&nbsp;계획<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비,도비,군비,민간투자&nbsp;유치&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지방소멸대응기금&nbsp;:&nbsp;청년정착·생활인구&nbsp;확대사업&nbsp;연계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	전통시장 및 소상공인 경제회복 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="전통시장 및 소상공인 경제회복 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;양양전통시장과&nbsp;지역&nbsp;소상공인을&nbsp;단순&nbsp;생계형&nbsp;상권이&nbsp;아닌&nbsp;“관광·문화·지역&nbsp;경제가&nbsp;융합된&nbsp;지역경제&nbsp;중심축”으로&nbsp;육성하여&nbsp;침체된&nbsp;골목경제를&nbsp;회복하고&nbsp;지속가능한&nbsp;지역경제&nbsp;기반을&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;특히,&nbsp;관광객&nbsp;증가가&nbsp;실제&nbsp;지역상권&nbsp;소비로&nbsp;연결될&nbsp;수&nbsp;있도록&nbsp;전통시장·&nbsp;오일장·소상공인·청년창업을&nbsp;연계한&nbsp;양양형&nbsp;지역경제&nbsp;활성화&nbsp;모델을&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전통시장&nbsp;현대화&nbsp;및&nbsp;시설개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후&nbsp;아케이드<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공영주차장&nbsp;및&nbsp;고객편의시설&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;화장실·휴게공간&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트&nbsp;결제·디지털&nbsp;안내시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;관광형&nbsp;전통시장&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주말&nbsp;플리마켓&nbsp;상설운영&nbsp;및&nbsp;문화예술&nbsp;공연&nbsp;정례화<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;경영안정&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;에너지&nbsp;비용&nbsp;지원사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;맞춤형&nbsp;컨설팅&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;로컬창업&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;로컬브랜드&nbsp;창업&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창업&nbsp;교육&nbsp;및&nbsp;멘토링&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;셰프·청년상인&nbsp;육성사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년창업&nbsp;임대료&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;오일장&nbsp;문화관광&nbsp;콘텐츠&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;오일장&nbsp;문화공연&nbsp;상설화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전통시장&nbsp;야시장&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농수산물&nbsp;직거래&nbsp;행사&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역예술인·동아리&nbsp;참여&nbsp;프로그램&nbsp;운영<br><br>□&nbsp;이행기간&nbsp;(2026&nbsp;-&nbsp;2030)<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;&nbsp;2026년&nbsp;~&nbsp;2030년&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총사업비&nbsp;:&nbsp;100억&nbsp;규모<br>&nbsp;&nbsp;○&nbsp;재원&nbsp;조달&nbsp;계획<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비,&nbsp;도비,&nbsp;군비,&nbsp;&nbsp;민간투자&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;확보&nbsp;사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중소벤처기업부&nbsp;:&nbsp;문화관광형시장&nbsp;육성사업,&nbsp;전통시장&nbsp;현대화&nbsp;사업,&nbsp;시장경영패키지&nbsp;지원사업</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	생활체감형 복지 확대 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="생활체감형 복지 확대 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;누구나&nbsp;일상에서&nbsp;직접&nbsp;체감할&nbsp;수&nbsp;있는&nbsp;“생활밀착형&nbsp;복지체계”를&nbsp;구축하여&nbsp;어르신·아이·청년·취약계층&nbsp;모두가&nbsp;행복한&nbsp;따뜻한&nbsp;복지도시&nbsp;양양&nbsp;만들기<br>&nbsp;&nbsp;○&nbsp;특히,&nbsp;단순&nbsp;지원&nbsp;중심이&nbsp;아니라&nbsp;의료·교통·돌봄·생활편의&nbsp;서비스를&nbsp;통합한&nbsp;양양형&nbsp;생활복지&nbsp;시스템&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;대중교통&nbsp;무료&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌버스&nbsp;무료&nbsp;이용&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통카드&nbsp;기반&nbsp;자동&nbsp;지원체계&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통취약지역&nbsp;희망택시&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;건강검진센터&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보건소&nbsp;내&nbsp;건강검진센터&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학병원·전문&nbsp;의료기관&nbsp;협약&nbsp;체결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;기반&nbsp;건강관리&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;경로당&nbsp;확대&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경로당&nbsp;냉난방·스마트&nbsp;건강관리&nbsp;시스템&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;화상&nbsp;건강상담&nbsp;서비스&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;운동·건강,문화·여가&nbsp;프로그램&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;목욕시설&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;휴식과&nbsp;건강&nbsp;시설&nbsp;연계&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;통합돌봄센터&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영유아·노인&nbsp;통합&nbsp;돌봄체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;맞벌이&nbsp;가정&nbsp;긴급&nbsp;돌봄&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;병원&nbsp;동행&nbsp;서비스&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;생활민원&nbsp;즉시처리단&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;읍·면&nbsp;현장&nbsp;민원&nbsp;즉시&nbsp;처리팀&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도로·가로등·생활불편&nbsp;신속&nbsp;처리<br><br>□&nbsp;이행기간&nbsp;(2026&nbsp;-&nbsp;2030)<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;&nbsp;2026년&nbsp;~&nbsp;2028년까지&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총사업비&nbsp;:&nbsp;100억<br>&nbsp;&nbsp;○&nbsp;재원&nbsp;조달&nbsp;계획<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비,&nbsp;도비,&nbsp;군비&nbsp;:&nbsp;보건복지부·행안부&nbsp;공모사업&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;보건복지부&nbsp;:&nbsp;지역사회&nbsp;통합돌봄&nbsp;사업,&nbsp;노인복지&nbsp;지원사업</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	해양레포츠 및 문화예술 도시 조성 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="해양레포츠 및 문화예술 도시 조성 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;양양의&nbsp;해양·관광·문화&nbsp;자원을&nbsp;융합하여&nbsp;사계절&nbsp;체류형&nbsp;관광도시이자&nbsp;대한민국&nbsp;대표&nbsp;해양레포츠·문화예술&nbsp;도시를&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;단순한&nbsp;여름&nbsp;관광지가&nbsp;아니라&nbsp;서핑·스포츠·문화예술·야간관광·해양레저가&nbsp;공존하는&nbsp;“365일&nbsp;활력&nbsp;있는&nbsp;해양문화도시&nbsp;양양”&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;낙산&nbsp;문화&nbsp;복합&nbsp;공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해양문화&nbsp;공연·축제&nbsp;공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;버스킹·청년예술&nbsp;공연&nbsp;상설&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;파이어페스티벌&nbsp;개최(사계절&nbsp;축제)<br>&nbsp;&nbsp;○&nbsp;죽도,인구,하조대&nbsp;서핑등&nbsp;해양레포츠&nbsp;특화사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국제&nbsp;서핑대회&nbsp;유치&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서핑&nbsp;아카데미&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;스포츠&nbsp;창업&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스포츠&nbsp;브랜드&nbsp;기업&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;남애항&nbsp;수중레저&nbsp;관광&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수중테마&nbsp;공원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스킨스쿠버·프리다이빙&nbsp;체험&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;파크골프·생활체육&nbsp;관광도시&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;파크골프장&nbsp;100홀&nbsp;규모&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국내외&nbsp;대회&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;숙박·음식&nbsp;연계&nbsp;스포츠마케팅&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활체육&nbsp;전지훈련&nbsp;특화도시&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;문화&nbsp;예술도시&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화예술&nbsp;창작공간&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양양문화재단&nbsp;중심&nbsp;지역&nbsp;축제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;거리예술·청년예술&nbsp;지원사업&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;사계절&nbsp;체류형&nbsp;여행&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;봄·여름·가을·겨울&nbsp;계절축제&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간관광&nbsp;및&nbsp;체험형&nbsp;콘텐츠&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;-&nbsp;2030&nbsp;1단계별&nbsp;사업추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총사업비&nbsp;:&nbsp;500억<br>&nbsp;&nbsp;○&nbsp;재원&nbsp;조달&nbsp;계획<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비,&nbsp;도비,&nbsp;군비,&nbsp;민간투자&nbsp;유치&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화체육관광부&nbsp;:&nbsp;야간관광&nbsp;특화도시&nbsp;사업,&nbsp;문화도시&nbsp;조성사업,<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해양수산부&nbsp;:&nbsp;해양레저관광&nbsp;활성화&nbsp;사업</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	청렴·책임행정 혁신 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="청렴·책임행정 혁신 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;흔들린&nbsp;군정&nbsp;신뢰를&nbsp;회복하고&nbsp;군민&nbsp;중심의&nbsp;투명하고&nbsp;책임&nbsp;있는&nbsp;행정을&nbsp;구축하여&nbsp;“군민이&nbsp;믿을&nbsp;수&nbsp;있는&nbsp;양양&nbsp;군정”&nbsp;확립<br>&nbsp;&nbsp;○&nbsp;단순한&nbsp;행정&nbsp;운영이&nbsp;아니라&nbsp;군민과&nbsp;직접&nbsp;소통하고,&nbsp;민원을&nbsp;신속하게&nbsp;해결하며,&nbsp;공직사회의&nbsp;청렴성과&nbsp;책임성을&nbsp;강화하는&nbsp;양양형&nbsp;혁신행정&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;특히&nbsp;“닫힌&nbsp;행정”에서&nbsp;벗어나&nbsp;군민과&nbsp;함께하는&nbsp;열린&nbsp;행정·현장행정·디지털&nbsp;행정으로&nbsp;전환하는&nbsp;데&nbsp;중점<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;열린&nbsp;군수실&nbsp;상설&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민과&nbsp;직접&nbsp;소통하는&nbsp;정례&nbsp;간담회&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;읍·면&nbsp;순회&nbsp;현장&nbsp;군수실&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;청렴&nbsp;옴부즈맨&nbsp;제도&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;외부&nbsp;전문가&nbsp;중심&nbsp;독립&nbsp;운영체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부패·비리&nbsp;신고센터&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;사업&nbsp;사전&nbsp;점검&nbsp;시스템&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;생활민원&nbsp;원스톱&nbsp;처리&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;처리기간&nbsp;실시간&nbsp;공개<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;읍·면&nbsp;즉시처리&nbsp;현장대응반&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;기반&nbsp;민원&nbsp;상담&nbsp;시스템&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활불편&nbsp;신고&nbsp;앱&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;정책&nbsp;참여&nbsp;플랫폼&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민&nbsp;정책제안&nbsp;온라인&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;참여&nbsp;예산&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년·어르신&nbsp;정책자문단&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;공직사회&nbsp;책임행정&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민원&nbsp;및&nbsp;업무추진&nbsp;메뉴얼&nbsp;작성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;다면평가&nbsp;및&nbsp;조직평가&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;적극행정&nbsp;우수공무원&nbsp;인센티브&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;디지털&nbsp;행정&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;기반&nbsp;행정서비스&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;모바일&nbsp;민원처리&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;빅데이터&nbsp;기반&nbsp;정책&nbsp;관리&nbsp;체계&nbsp;구축<br><br>□&nbsp;이행기간&nbsp;(2026&nbsp;-&nbsp;2030)<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2030년&nbsp;단계별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총사업비&nbsp;:&nbsp;100억<br>&nbsp;&nbsp;○&nbsp;재원&nbsp;조달&nbsp;계획<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비,&nbsp;도비,&nbsp;군비&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공협력&nbsp;5%&nbsp;공공기관·민간&nbsp;전문기관&nbsp;협력</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박찬대 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	신산업 집중육성, 2030년 평균연봉 5500만원 전국 TOP5</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="신산업 집중육성, 2030년 평균연봉 5500만원 전국 TOP5">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;등&nbsp;신산업&nbsp;집중육성을&nbsp;통해&nbsp;대한민국&nbsp;G3&nbsp;시대&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;ABC+E&nbsp;산업전략을&nbsp;통한&nbsp;고임금&nbsp;일자리&nbsp;창출,&nbsp;첨단&nbsp;산업&nbsp;자족&nbsp;도시&nbsp;완성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;AI로&nbsp;돈을&nbsp;버는&nbsp;도시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인천공항·인천항&nbsp;물류AI자동화,&nbsp;국가&nbsp;물류AI&nbsp;거점도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI커넥티드카와&nbsp;사이버보안&nbsp;기술&nbsp;선도로,&nbsp;AI기술&nbsp;기반&nbsp;자족도시&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;글로벌&nbsp;AI&nbsp;오토밸리&nbsp;조성,&nbsp;중고차&nbsp;수출산업을&nbsp;미래&nbsp;물류AI산업으로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;Bio,&nbsp;차세대&nbsp;신약의&nbsp;산실,&nbsp;세계적&nbsp;바이오&nbsp;허브<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인천바이오과학기술원·인천공공의대&nbsp;유치로&nbsp;바이오&nbsp;신약·빅파마&nbsp;산실&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국제기준&nbsp;인증기관,&nbsp;K-바이오랩허브를&nbsp;집적한&nbsp;‘인천바이오사이언스파크’&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인천바이오펀드&nbsp;조성으로&nbsp;보스턴형&nbsp;창업·투자&nbsp;선순환&nbsp;생태계&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;Culture,&nbsp;사람이&nbsp;모이고&nbsp;돈이&nbsp;도는&nbsp;‘문화경제’<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문학경기장을&nbsp;K-콘텐츠&nbsp;복합&nbsp;문화&nbsp;산업&nbsp;메카인&nbsp;K-컬처&nbsp;스타디움으로&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;K-팝·K-드라마&nbsp;등&nbsp;11개&nbsp;K콘텐츠&nbsp;클러스터&nbsp;구축으로&nbsp;문화산업&nbsp;생태계&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강화도,&nbsp;3대&nbsp;거점지역(제물포·문학·부평)연결,&nbsp;인천&nbsp;외국&nbsp;관광객&nbsp;3백만&nbsp;시대<br>&nbsp;&nbsp;○&nbsp;Energy,&nbsp;산업&nbsp;경쟁력&nbsp;강화와&nbsp;에너지&nbsp;주권<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해상풍력&nbsp;산업생태계&nbsp;선점&nbsp;및&nbsp;수도권&nbsp;에너지&nbsp;신산업&nbsp;허브&nbsp;도약<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;차등요금제&nbsp;실현을&nbsp;통한&nbsp;산단&nbsp;에너지&nbsp;비용&nbsp;절감,&nbsp;수도권&nbsp;내&nbsp;산업경쟁력&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;분산에너지&nbsp;특구&nbsp;재추진&nbsp;및&nbsp;기업유치와&nbsp;에너지&nbsp;서비스&nbsp;산업&nbsp;육성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;물류AI&nbsp;:&nbsp;특구&nbsp;지정&nbsp;및&nbsp;중앙정부&nbsp;예산&nbsp;유치&nbsp;→&nbsp;산업&nbsp;집접&nbsp;→&nbsp;생태계조성<br>&nbsp;&nbsp;○&nbsp;바이오·에너지&nbsp;:&nbsp;법률정비,&nbsp;펀드조성&nbsp;→&nbsp;우수&nbsp;기업&nbsp;유치&nbsp;→&nbsp;생태계&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;K-컬쳐&nbsp;:&nbsp;사업기획&nbsp;→&nbsp;재원&nbsp;및&nbsp;실행방안&nbsp;마련&nbsp;→&nbsp;산업&nbsp;집적&nbsp;및&nbsp;인프라&nbsp;구축<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;신산업&nbsp;집중육성을&nbsp;통한&nbsp;지방세&nbsp;자연증가분(법인·개인&nbsp;지방소득세&nbsp;등)&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;만성적인&nbsp;이월금&nbsp;등&nbsp;지출&nbsp;구조조정&nbsp;활용&nbsp;및&nbsp;민간자본&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;대기업&nbsp;본사의&nbsp;인천&nbsp;유치를&nbsp;통한&nbsp;지방세(지방소득세,&nbsp;취득세&nbsp;등)&nbsp;증가</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	제문부 프로젝트로 원도심 대도약</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="제문부 프로젝트로 원도심 대도약">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;제물포·문학·부평을&nbsp;3대&nbsp;원도심&nbsp;대전환&nbsp;혁신&nbsp;지구로&nbsp;하여&nbsp;지역의&nbsp;장점을&nbsp;극대화하는&nbsp;개발&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;부동산&nbsp;개발과&nbsp;함께&nbsp;산업,&nbsp;교통,&nbsp;생활서비스,&nbsp;운영체계&nbsp;등&nbsp;통합&nbsp;설계<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;제물포,&nbsp;인천&nbsp;관광&nbsp;중심지로&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;개항장과&nbsp;내항을&nbsp;잇는&nbsp;수변&nbsp;관광&nbsp;명소,&nbsp;상상플랫폼&nbsp;활성화,&nbsp;역사거리,&nbsp;산업유산&nbsp;활용&nbsp;등으로&nbsp;역사&nbsp;관광지로&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동인천역사&nbsp;철거와&nbsp;행정중심복합개발(제물포구청&nbsp;등)&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;문학,&nbsp;K-컬쳐&nbsp;문화중심지로&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;5만&nbsp;석&nbsp;K-컬처&nbsp;스타디움&nbsp;신축&nbsp;및&nbsp;K-팝,&nbsp;e스포츠&nbsp;등&nbsp;11개&nbsp;핵심&nbsp;콘텐츠&nbsp;집적<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;MICE,&nbsp;엑스포&nbsp;등을&nbsp;통해&nbsp;콘텐츠&nbsp;확산&nbsp;및&nbsp;청년&nbsp;예술가&nbsp;마을&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;부평,&nbsp;고품격&nbsp;생활문화공원으로&nbsp;육성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;캠프마켓&nbsp;부지에&nbsp;고품격&nbsp;도서관&nbsp;및&nbsp;문화시설을&nbsp;접목한&nbsp;공원&nbsp;건설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보존가치가&nbsp;있는&nbsp;건물은&nbsp;역사문화관,&nbsp;카페&nbsp;등으로&nbsp;보존&nbsp;활용&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;제물포권역(제물포구)&nbsp;:&nbsp;기존&nbsp;계획&nbsp;검토&nbsp;→&nbsp;시범사업&nbsp;추진&nbsp;→&nbsp;순차&nbsp;착공&nbsp;<br>&nbsp;&nbsp;○&nbsp;문학권역(미추홀구,&nbsp;연수구,&nbsp;남동구)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;(스타디움)&nbsp;계획&nbsp;수립,&nbsp;타당성&nbsp;조사&nbsp;→&nbsp;설계&nbsp;→&nbsp;착공<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(콘텐츠)&nbsp;산업&nbsp;조례&nbsp;제정,&nbsp;영화&nbsp;촬영지&nbsp;활용&nbsp;<br>&nbsp;&nbsp;○&nbsp;부평권역(부평구)&nbsp;:&nbsp;계획수립,&nbsp;타당성&nbsp;조사&nbsp;→&nbsp;설계&nbsp;→&nbsp;착공&nbsp;<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;신산업&nbsp;집중육성을&nbsp;통한&nbsp;지방세&nbsp;자연증가분(법인·개인&nbsp;지방소득세&nbsp;등)&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;만성적인&nbsp;이월금&nbsp;등&nbsp;지출&nbsp;구조조정&nbsp;활용&nbsp;및&nbsp;민간자본&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;대기업&nbsp;본사의&nbsp;인천&nbsp;유치를&nbsp;통한&nbsp;지방세(지방소득세,&nbsp;취득세&nbsp;등)&nbsp;증가</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	수도권·인천 어디든 1시간!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="수도권·인천 어디든 1시간!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;광역철도망&nbsp;구축으로&nbsp;인천으로&nbsp;더&nbsp;빠르게&nbsp;도착<br>&nbsp;&nbsp;○&nbsp;인천&nbsp;전역&nbsp;격자형&nbsp;철도망으로&nbsp;인천&nbsp;어디든&nbsp;1시간&nbsp;도착<br>&nbsp;&nbsp;○&nbsp;동서남북&nbsp;5X6&nbsp;격자형&nbsp;순환도로망&nbsp;구축으로&nbsp;막힘&nbsp;없는&nbsp;도로<br>&nbsp;&nbsp;○&nbsp;세계에서,&nbsp;전국에서,&nbsp;인천으로&nbsp;빠르고&nbsp;쉽게&nbsp;도착<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;광역교통망&nbsp;구축·경인선&nbsp;지하화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX-B노선&nbsp;적시&nbsp;개통&nbsp;및&nbsp;GTX-D(Y자)&nbsp;·&nbsp;E노선&nbsp;제5차국가철도망계획&nbsp;반영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제2경인선(수도권서남부광역철도)&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경인선&nbsp;지하화&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;인천&nbsp;신규&nbsp;철도&nbsp;노선의&nbsp;보강&nbsp;및&nbsp;조기&nbsp;착공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인천&nbsp;3호선(송도검단선)&nbsp;신설로&nbsp;남북&nbsp;철도축&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주안연수선,&nbsp;용현서창선,&nbsp;가좌송도선&nbsp;보강&nbsp;및&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;송도트램,&nbsp;영종트램&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;인천&nbsp;도로망&nbsp;대개조로&nbsp;막힘없는&nbsp;도로<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동서5축(1·2경인고속도로,&nbsp;공항고속도로,&nbsp;제4경인고속화도로(신설),&nbsp;아암대로)&nbsp;및&nbsp;남북6축(중봉대로,&nbsp;인천대로,&nbsp;중부·동부간선도로(신설),&nbsp;수도권1·2순환고속도로)&nbsp;격자형&nbsp;순환도로망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영종~강화&nbsp;평화도로&nbsp;국도&nbsp;추진,&nbsp;강화~계양&nbsp;고속도로&nbsp;적시&nbsp;개통<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인천공항-도심&nbsp;셔틀버스&nbsp;확대,&nbsp;연안여객선&nbsp;대형화&nbsp;및&nbsp;선착장&nbsp;정비<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;도시철도망&nbsp;구축&nbsp;:　기존&nbsp;계획&nbsp;검토&nbsp;→&nbsp;국가철도망&nbsp;계획&nbsp;반영&nbsp;→&nbsp;순차&nbsp;착공&nbsp;<br>&nbsp;&nbsp;○&nbsp;도로망&nbsp;구축&nbsp;:&nbsp;기존&nbsp;도로&nbsp;현황&nbsp;검토&nbsp;→&nbsp;계획&nbsp;수립&nbsp;및&nbsp;타당성&nbsp;조사&nbsp;→&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;버스&nbsp;노선&nbsp;확충&nbsp;:&nbsp;기존&nbsp;및&nbsp;신규&nbsp;노선&nbsp;검토&nbsp;→&nbsp;노선&nbsp;추가&nbsp;및&nbsp;조정<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;신산업&nbsp;집중육성을&nbsp;통한&nbsp;지방세&nbsp;자연증가분(법인·개인&nbsp;지방소득세&nbsp;등)&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;만성적인&nbsp;이월금&nbsp;등&nbsp;지출&nbsp;구조조정&nbsp;활용&nbsp;및&nbsp;민간자본&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;대기업&nbsp;본사의&nbsp;인천&nbsp;유치를&nbsp;통한&nbsp;지방세(지방소득세,&nbsp;취득세&nbsp;등)&nbsp;증가</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	기후·안전·의료·돌봄의 든든한 울타리</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="기후·안전·의료·돌봄의 든든한 울타리">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;기후위기&nbsp;대응을&nbsp;선도하는&nbsp;바람과&nbsp;태양의&nbsp;도시&nbsp;인천<br>&nbsp;&nbsp;○&nbsp;더&nbsp;빠르게&nbsp;대응하고&nbsp;더&nbsp;넓게&nbsp;보호하는&nbsp;AI&nbsp;안전&nbsp;도시<br>&nbsp;&nbsp;○&nbsp;어디서나&nbsp;걱정&nbsp;없는&nbsp;의료서비스&nbsp;구축으로&nbsp;공공의료&nbsp;선진도시&nbsp;인천<br>&nbsp;&nbsp;○&nbsp;통합돌봄&nbsp;체계&nbsp;완성으로&nbsp;빈틈없이&nbsp;더&nbsp;가까운&nbsp;안심도시&nbsp;인천<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;기후위기&nbsp;대응&nbsp;초록라이프&nbsp;인천<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기후위기를&nbsp;기회로,&nbsp;기후·환경AI&nbsp;녹색융합클러스터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민참여&nbsp;탄소중립&nbsp;활동시&nbsp;인천형&nbsp;탄소포인트&nbsp;설치(e음&nbsp;적립)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해상풍력&nbsp;단지&nbsp;조성&nbsp;및&nbsp;태양광&nbsp;발전&nbsp;수익으로&nbsp;인천형&nbsp;햇빛연금&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;사각지대&nbsp;없는&nbsp;안전라이프&nbsp;인천<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;기반&nbsp;도시안전망&nbsp;‘I-safety’&nbsp;구축으로&nbsp;사고&nbsp;징후&nbsp;실시간&nbsp;포착&nbsp;및&nbsp;예방<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전동킥보드&nbsp;특정지역&nbsp;금지&nbsp;등으로&nbsp;보행자&nbsp;안전&nbsp;대책&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;공공주도&nbsp;의료복지&nbsp;및&nbsp;인천형&nbsp;통합돌봄으로&nbsp;안심라이프&nbsp;인천<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공산후조리원,&nbsp;공공어린이병원&nbsp;등이&nbsp;집적된&nbsp;공공의료복지타운&nbsp;건설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영종병원&nbsp;설립으로&nbsp;감염병&nbsp;대응&nbsp;및&nbsp;도서&nbsp;지역&nbsp;의료복지&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노인·장애인·아동·청년&nbsp;등&nbsp;생애주기별&nbsp;맞춤형&nbsp;복지체계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복지서비스&nbsp;일원화&nbsp;및&nbsp;AI&nbsp;기반&nbsp;지원체계로&nbsp;인천형&nbsp;통합돌봄&nbsp;시스템&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;AI기반&nbsp;안전&nbsp;및&nbsp;돌봄사업&nbsp;:&nbsp;시범사업&nbsp;→&nbsp;취약지역&nbsp;우선&nbsp;적용&nbsp;→&nbsp;전역&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;의료기관&nbsp;설립&nbsp;:&nbsp;계획&nbsp;수립&nbsp;→&nbsp;신고&nbsp;및&nbsp;허가&nbsp;절차&nbsp;→&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;재생에너지&nbsp;전환&nbsp;:&nbsp;신규&nbsp;부지&nbsp;검토&nbsp;→&nbsp;산단&nbsp;및&nbsp;생활&nbsp;인프라&nbsp;공간&nbsp;확보<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;신산업&nbsp;집중육성을&nbsp;통한&nbsp;지방세&nbsp;자연증가분(법인·개인&nbsp;지방소득세&nbsp;등)&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;만성적인&nbsp;이월금&nbsp;등&nbsp;지출&nbsp;구조조정&nbsp;활용&nbsp;및&nbsp;민간자본&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;대기업&nbsp;본사의&nbsp;인천&nbsp;유치를&nbsp;통한&nbsp;지방세(지방소득세,&nbsp;취득세&nbsp;등)&nbsp;증가</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	인천에서 일하고 먹고 사는, 모두를 위한 도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="인천에서 일하고 먹고 사는, 모두를 위한 도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;좋은&nbsp;일자리&nbsp;창출로&nbsp;떠나가는&nbsp;도시에서&nbsp;머물고&nbsp;일하는&nbsp;도시로<br>&nbsp;&nbsp;○&nbsp;실질적&nbsp;주거&nbsp;환경&nbsp;개선,&nbsp;전세사기&nbsp;피해자&nbsp;지원,&nbsp;인천시민리츠&nbsp;도입&nbsp;<br>&nbsp;&nbsp;○&nbsp;청년,&nbsp;어르신,&nbsp;소상공인,&nbsp;장애인,&nbsp;농어업인,&nbsp;문화예술인&nbsp;등&nbsp;계층별&nbsp;맞춤&nbsp;지원&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;ABC+E&nbsp;산업에서&nbsp;연구개발·금융·기획&nbsp;등&nbsp;양질의&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;인천형&nbsp;생애주기&nbsp;맞춤형&nbsp;주택&nbsp;공급&nbsp;:&nbsp;청년&nbsp;특화&nbsp;주택,&nbsp;시니어&nbsp;특화&nbsp;주택&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인천형&nbsp;사회주택&nbsp;업그레이드,&nbsp;인천시민리츠&nbsp;활용,&nbsp;원도심&nbsp;역세권&nbsp;복합개발<br>&nbsp;&nbsp;○&nbsp;계층별&nbsp;맞춤&nbsp;공약<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;생활비&nbsp;부담&nbsp;완화를&nbsp;위한&nbsp;월세지원&nbsp;등&nbsp;생활밀착형&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;치매·정신건강&nbsp;통합돌봄&nbsp;연계체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;대상&nbsp;정책금융&nbsp;및&nbsp;이음카드&nbsp;혜택&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인천&nbsp;전역의&nbsp;거점&nbsp;전통시장을&nbsp;관광객이&nbsp;찾는&nbsp;‘랜드마크’화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인천시&nbsp;청각·언어장애인&nbsp;지원시설&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인천&nbsp;농수산물&nbsp;브랜딩&nbsp;및&nbsp;직판장&nbsp;도입&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어업인&nbsp;수당&nbsp;인상(2026년&nbsp;2차&nbsp;추경을&nbsp;통해&nbsp;한시적&nbsp;대폭&nbsp;확대)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화예술종사자&nbsp;범위&nbsp;확대를&nbsp;통한&nbsp;예술인&nbsp;복지&nbsp;체계&nbsp;사각지대&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인천형&nbsp;노동권익·감독&nbsp;체제&nbsp;구축,&nbsp;필수노동자&nbsp;노동조건&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성별·연령별·집단별&nbsp;수요를&nbsp;반영한&nbsp;체감형&nbsp;성평등&nbsp;문화&nbsp;확산<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;주택&nbsp;공급&nbsp;:&nbsp;계획&nbsp;수립&nbsp;→&nbsp;도심복합리츠&nbsp;본격&nbsp;추진,&nbsp;착공&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;인천시민리츠&nbsp;:&nbsp;기획&nbsp;→&nbsp;1단계&nbsp;사업&nbsp;및&nbsp;투자&nbsp;시작&nbsp;→&nbsp;2단계&nbsp;사업<br>&nbsp;&nbsp;○&nbsp;계층별&nbsp;맞춤&nbsp;공약&nbsp;:&nbsp;경기&nbsp;상황에&nbsp;맞춰&nbsp;계획&nbsp;수립<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;신산업&nbsp;집중육성을&nbsp;통한&nbsp;지방세&nbsp;자연증가분(법인·개인&nbsp;지방소득세&nbsp;등)&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;만성적인&nbsp;이월금&nbsp;등&nbsp;지출&nbsp;구조조정&nbsp;활용&nbsp;및&nbsp;민간자본&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;대기업&nbsp;본사의&nbsp;인천&nbsp;유치를&nbsp;통한&nbsp;지방세(지방소득세,&nbsp;취득세&nbsp;등)&nbsp;증가</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

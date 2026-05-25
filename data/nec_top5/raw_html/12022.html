@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;남진복 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	여객선 운임 지원대상 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="여객선 운임 지원대상 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;관광객&nbsp;유치를&nbsp;통한&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;만성적자에&nbsp;허덕이는&nbsp;여객선사의&nbsp;경영&nbsp;개선&nbsp;<br>&nbsp;&nbsp;○&nbsp;궁극적으로&nbsp;해상교통의&nbsp;안정화&nbsp;도모<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;운임지원&nbsp;대상&nbsp;확대&nbsp;-&nbsp;경찰·해양경찰·소방관·교직원&nbsp;가족,&nbsp;출향인&nbsp;등&nbsp;<br>&nbsp;&nbsp;○&nbsp;군&nbsp;장병&nbsp;가족&nbsp;이미&nbsp;시행&nbsp;중,&nbsp;효과분석&nbsp;후&nbsp;대상별&nbsp;순차적&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;경찰&nbsp;등&nbsp;특정&nbsp;직종&nbsp;종사자&nbsp;가족&nbsp;-&nbsp;주민요금<br>&nbsp;&nbsp;○&nbsp;출향인&nbsp;등&nbsp;-&nbsp;50&nbsp;%<br>&nbsp;&nbsp;○&nbsp;비수기&nbsp;전&nbsp;국민&nbsp;-&nbsp;70&nbsp;%<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2027년부터&nbsp;시행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지방비&nbsp;확보(도비&nbsp;40&nbsp;%,&nbsp;군비40&nbsp;%)&nbsp;및&nbsp;선사부담&nbsp;20&nbsp;%<br>&nbsp;&nbsp;○&nbsp;공영제&nbsp;또는&nbsp;준공영제&nbsp;차원에서&nbsp;국비지원&nbsp;요청</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	성인봉 케이블카 및 깃대봉 모노레일 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="성인봉 케이블카 및 깃대봉 모노레일 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;천혜의&nbsp;사연경관을&nbsp;조망할&nbsp;수&nbsp;있는&nbsp;편의시설&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;공항개항과&nbsp;100만&nbsp;관광시대&nbsp;다양한&nbsp;관광수요&nbsp;충족<br><br>□&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;○&nbsp;전담기구&nbsp;발족&nbsp;및&nbsp;추진기반&nbsp;조기&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;성인봉&nbsp;케이블카&nbsp;기본계획&nbsp;용역&nbsp;<br>&nbsp;&nbsp;○&nbsp;깃대봉&nbsp;모노레일&nbsp;실행계획&nbsp;조기&nbsp;집행<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;케이블카&nbsp;기본계획&nbsp;용역비&nbsp;20&nbsp;억원(군비)<br>&nbsp;&nbsp;○&nbsp;모노레일&nbsp;설치&nbsp;사업&nbsp;100억원(민사유치,&nbsp;군비)<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;타&nbsp;시도&nbsp;사례&nbsp;집중분석&nbsp;후&nbsp;대규모&nbsp;투자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	주택 500호 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="주택 500호 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;주택보급률&nbsp;75%&nbsp;→&nbsp;85％선&nbsp;상향<br>&nbsp;&nbsp;○&nbsp;10년&nbsp;내&nbsp;1천호&nbsp;공급으로&nbsp;보급률&nbsp;100%&nbsp;달성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;매입임대주택&nbsp;300호&nbsp;공급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건설사가&nbsp;주택을&nbsp;짓고&nbsp;경북개발공사가&nbsp;매입&nbsp;후&nbsp;임대하는&nbsp;방식<br>&nbsp;&nbsp;○&nbsp;공항공사&nbsp;기숙사&nbsp;100호&nbsp;공급<br>&nbsp;&nbsp;○&nbsp;소방서&nbsp;기숙사&nbsp;50호&nbsp;공급<br>&nbsp;&nbsp;○&nbsp;공무원&nbsp;주택&nbsp;등&nbsp;50호<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026년∼2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;매입임대주택&nbsp;-&nbsp;국비,&nbsp;지방비(도.&nbsp;군비)&nbsp;매칭사업<br>&nbsp;&nbsp;○&nbsp;공항공사&nbsp;기숙사&nbsp;-&nbsp;자체사업<br>&nbsp;&nbsp;○&nbsp;소방서&nbsp;기속사&nbsp;-&nbsp;도비&nbsp;사업(2028년&nbsp;울릉소방서&nbsp;개청)<br>&nbsp;&nbsp;○&nbsp;공무원&nbsp;주택&nbsp;-&nbsp;자체사업</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	의료 환경 개선</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="의료 환경 개선">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;울릉의료원&nbsp;전문의&nbsp;확보&nbsp;및&nbsp;필수의료&nbsp;공급<br>&nbsp;&nbsp;○&nbsp;응급의료체계&nbsp;확립<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전문의&nbsp;인건비&nbsp;확보&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;공중보건의&nbsp;확보&nbsp;의료공백&nbsp;최소화<br>&nbsp;&nbsp;○&nbsp;응급실&nbsp;파견&nbsp;근무제&nbsp;확대&nbsp;-&nbsp;대구경북&nbsp;의료기관&nbsp;교류<br>&nbsp;&nbsp;○&nbsp;외부의료기관&nbsp;진료&nbsp;협력&nbsp;체제&nbsp;강화&nbsp;-&nbsp;도립의료원,&nbsp;대학병원<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026년~2031년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;인건비&nbsp;등&nbsp;사업예산&nbsp;-&nbsp;도비&nbsp;연간&nbsp;20억&nbsp;원<br>&nbsp;&nbsp;○&nbsp;의료시설보강&nbsp;등&nbsp;예산&nbsp;-&nbsp;국비&nbsp;연간&nbsp;20억&nbsp;원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	문화관광재단 설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="문화관광재단 설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;출자출연기관&nbsp;타당성&nbsp;조사&nbsp;등&nbsp;사전준비<br>&nbsp;&nbsp;○&nbsp;문화관광사업&nbsp;쳬계화&nbsp;기본계획&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;인가&nbsp;및&nbsp;재단&nbsp;출범<br><br>□&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;○&nbsp;설립타당성&nbsp;조사&nbsp;및&nbsp;행정안전부&nbsp;협의&nbsp;<br>&nbsp;&nbsp;○&nbsp;조직구성,&nbsp;사업범위,&nbsp;기능조정&nbsp;등&nbsp;사전절차&nbsp;진행<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026년~2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;조사용역비&nbsp;등&nbsp;소요예산&nbsp;확보&nbsp;-&nbsp;군비&nbsp;10&nbsp;억&nbsp;원<br>&nbsp;&nbsp;○&nbsp;사업추진단&nbsp;구성&nbsp;운영</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

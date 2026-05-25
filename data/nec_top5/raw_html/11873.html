@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;임광식 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	횡성군 반다비 체육관 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="횡성군 반다비 체육관 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;장애인의&nbsp;체육활동&nbsp;참여&nbsp;및&nbsp;건강증진<br>&nbsp;&nbsp;○&nbsp;재활·생활체육·문화복지&nbsp;기능&nbsp;통합<br>&nbsp;&nbsp;○&nbsp;장애인&nbsp;가족&nbsp;삶의&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;전국·도&nbsp;단위&nbsp;장애인&nbsp;체육대회&nbsp;유치&nbsp;기반&nbsp;조성<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;장애인&nbsp;반다비&nbsp;체육관&nbsp;건립&nbsp;공모사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;사업계획&nbsp;주민설명회&nbsp;실시<br>&nbsp;&nbsp;○&nbsp;사업부지&nbsp;전문가&nbsp;중심&nbsp;선정<br>&nbsp;&nbsp;○&nbsp;시설배치&nbsp;및&nbsp;운영&nbsp;프로그램&nbsp;주민참여&nbsp;구상<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;:&nbsp;타당성&nbsp;조사&nbsp;및&nbsp;기본계획&nbsp;:&nbsp;2026년<br>&nbsp;&nbsp;○&nbsp;2단계&nbsp;:&nbsp;공모사업&nbsp;및&nbsp;예산&nbsp;확보&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2026년<br>&nbsp;&nbsp;○&nbsp;3단계&nbsp;:&nbsp;실시설계&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2027년<br>&nbsp;&nbsp;○&nbsp;4단계&nbsp;:&nbsp;사업착공&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2027년<br>&nbsp;&nbsp;○&nbsp;5단계&nbsp;:&nbsp;사업준공&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2028년<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(단위&nbsp;:&nbsp;백만원)<br>====================================================<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;구&nbsp;&nbsp;&nbsp;&nbsp;분&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;계&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;국&nbsp;&nbsp;&nbsp;&nbsp;비&nbsp;&nbsp;|&nbsp;&nbsp;도&nbsp;&nbsp;&nbsp;&nbsp;비&nbsp;&nbsp;|&nbsp;&nbsp;군&nbsp;&nbsp;&nbsp;&nbsp;비&nbsp;&nbsp;|&nbsp;&nbsp;비&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;고<br>----------------------------------------------------------------------------------<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;계&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;14,000&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;6,500&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2,600&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;4,900&nbsp;|<br>----------------------------------------------------------------------------------<br>&nbsp;토지매입비&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1,000&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;1,000&nbsp;|<br>----------------------------------------------------------------------------------<br>&nbsp;시&nbsp;설&nbsp;비&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;13,000&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6,500&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;2,600&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;3.000&nbsp;|<br>====================================================</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	횡성군⇔서울시 협력형 체육시설 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="횡성군⇔서울시 협력형 체육시설 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;스포츠는&nbsp;숙박·외식·관광·일자리까지&nbsp;연결되는&nbsp;지역경제&nbsp;산업임<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;공공체육시설을&nbsp;유치·건립하여&nbsp;체육&nbsp;인프라&nbsp;확충을&nbsp;넘어선&nbsp;광역&nbsp;협력형&nbsp;경제&nbsp;프로젝트&nbsp;추진<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;횡성군과&nbsp;서울시,&nbsp;국회,&nbsp;강원도와&nbsp;사전&nbsp;협약&nbsp;체결<br>&nbsp;&nbsp;○&nbsp;횡성군은&nbsp;부지를&nbsp;제공하고,&nbsp;서울시는&nbsp;체육시설을&nbsp;조성.<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;자치단체&nbsp;협의&nbsp;:&nbsp;2026.&nbsp;&nbsp;8월<br>&nbsp;&nbsp;○&nbsp;사업이행&nbsp;협약&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10월<br>&nbsp;&nbsp;○&nbsp;사업구체성&nbsp;확보&nbsp;:&nbsp;2027.&nbsp;1월<br>&nbsp;&nbsp;○&nbsp;사업절차&nbsp;이행&nbsp;:&nbsp;2027.&nbsp;3월<br>&nbsp;&nbsp;○&nbsp;부지매입&nbsp;:&nbsp;2027.&nbsp;10월<br>&nbsp;&nbsp;○&nbsp;사업설계&nbsp;:&nbsp;2028.&nbsp;3월<br>&nbsp;&nbsp;○&nbsp;사업착공&nbsp;:&nbsp;2028.&nbsp;10월<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(단위&nbsp;:&nbsp;백만원)<br>====================================================<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;구&nbsp;&nbsp;&nbsp;&nbsp;분&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;계&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;국&nbsp;&nbsp;&nbsp;&nbsp;비&nbsp;&nbsp;|&nbsp;&nbsp;도&nbsp;&nbsp;&nbsp;&nbsp;비&nbsp;&nbsp;|&nbsp;&nbsp;횡성군&nbsp;&nbsp;|&nbsp;&nbsp;서울시<br>----------------------------------------------------------------------------------<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;계&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;18,000&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;2,500&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2,500&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;3,000&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;10,000<br>----------------------------------------------------------------------------------<br>&nbsp;토지매입비&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3,000&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3,000&nbsp;|<br>----------------------------------------------------------------------------------<br>&nbsp;시&nbsp;설&nbsp;비&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;15,000&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2,500&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;2,600&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;10,000<br>====================================================</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	횡성베이스볼파크 활성화 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="횡성베이스볼파크 활성화 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전지훈련&nbsp;유치&nbsp;→&nbsp;지역경제&nbsp;직접&nbsp;효과&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;생활체육&nbsp;활성화&nbsp;→&nbsp;군민&nbsp;건강&nbsp;정주여건&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;“훈련&nbsp;-&nbsp;대회&nbsp;-&nbsp;체험-&nbsp;관광”&nbsp;선순환&nbsp;구조&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전지훈련&nbsp;특화&nbsp;거점화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;프로·대학·고교&nbsp;야구팀&nbsp;전지훈련&nbsp;패키지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;숙박·식사·훈련·재활&nbsp;포함&nbsp;올인원&nbsp;시스템<br>&nbsp;&nbsp;○&nbsp;생활체육&nbsp;상시&nbsp;개방<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민·동호회·학생&nbsp;대상&nbsp;시설&nbsp;이용&nbsp;시간&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활야구&nbsp;리그&nbsp;정례화<br>&nbsp;&nbsp;○&nbsp;스포츠&nbsp;관광&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;횡성한우,&nbsp;전통시장,&nbsp;농촌체험&nbsp;연결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;가족&nbsp;동반&nbsp;프로그램&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;훈련+관광&nbsp;패키지&nbsp;상품화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;전지훈련기간&nbsp;:&nbsp;2026.&nbsp;10&nbsp;∼&nbsp;2027년&nbsp;3월(매년&nbsp;개최)<br>&nbsp;&nbsp;○&nbsp;생활체육대회&nbsp;:&nbsp;2027.&nbsp;&nbsp;4&nbsp;∼&nbsp;9월&nbsp;(매년&nbsp;개최)<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;시설&nbsp;개선&nbsp;예산<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시설&nbsp;환경정비&nbsp;:&nbsp;500백만원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;홍보&nbsp;및&nbsp;예약&nbsp;시스템&nbsp;구축&nbsp;:&nbsp;100백만원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	 횡성 야구학교 설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title=" 횡성 야구학교 설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전국&nbsp;단위&nbsp;야구&nbsp;인재&nbsp;육성,&nbsp;전지훈련&nbsp;대회&nbsp;중심&nbsp;스포츠&nbsp;도시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;인구&nbsp;유입&nbsp;및&nbsp;지역경제&nbsp;활성화,&nbsp;스포츠&nbsp;교육도시&nbsp;브랜드&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;1단계&nbsp;:&nbsp;기반&nbsp;조성기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;타당성&nbsp;조사&nbsp;및&nbsp;기본계획,&nbsp;교육청,&nbsp;KBO&nbsp;대한야구소프트볼협회&nbsp;회의&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;학교법인&nbsp;또는&nbsp;공공형&nbsp;운영모델&nbsp;구축,&nbsp;부지&nbsp;확보&nbsp;및&nbsp;행정절차<br>&nbsp;&nbsp;○&nbsp;2단계&nbsp;:&nbsp;건립기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야구학교&nbsp;본관&nbsp;건립,&nbsp;기숙사&nbsp;실내훈련장&nbsp;조성,&nbsp;재활·웨이트센터&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AI&nbsp;데이터&nbsp;분석&nbsp;훈련시스템&nbsp;도입<br><br>&nbsp;&nbsp;○&nbsp;3단계&nbsp;:&nbsp;운영&nbsp;확대기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전국&nbsp;유소년리그&nbsp;유치,&nbsp;KBO&nbsp;연계&nbsp;캠프&nbsp;운영,&nbsp;일본,&nbsp;대만&nbsp;국제교류&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;스포츠&nbsp;관광&nbsp;연계,&nbsp;훈련+관광&nbsp;패키지&nbsp;상품화<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;기반조성기&nbsp;:&nbsp;2027&nbsp;-&nbsp;2029년<br>&nbsp;&nbsp;○&nbsp;건립기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2027&nbsp;-&nbsp;2029년<br>&nbsp;&nbsp;○&nbsp;운영확대기&nbsp;:&nbsp;2029&nbsp;-&nbsp;2032년<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;재원&nbsp;구분&nbsp;:&nbsp;국비&nbsp;40%,&nbsp;도비&nbsp;20%,&nbsp;군비&nbsp;20%,&nbsp;기타&nbsp;15%<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;☞&nbsp;사업은&nbsp;강원교육감,&nbsp;횡성교육지원청&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	횡성 미래 숲 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="횡성 미래 숲 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;탄소흡수원&nbsp;확대(2050&nbsp;탄소중립&nbsp;대응)<br>&nbsp;&nbsp;○&nbsp;산림&nbsp;기반&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;삶의&nbsp;질&nbsp;향상(휴양&nbsp;치유)<br>&nbsp;&nbsp;○&nbsp;지속&nbsp;가능한&nbsp;산림관리&nbsp;체계&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;단기계획(1&nbsp;∼&nbsp;2년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;시범&nbsp;숲&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비사업&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;중기계획(3&nbsp;∼&nbsp;5년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;권역별&nbsp;숲&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산림치유·관광&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;장기계획(5년&nbsp;이상)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전국&nbsp;대표&nbsp;‘숲&nbsp;도시&nbsp;횡성’&nbsp;브랜드&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;탄소중림&nbsp;선도&nbsp;지자체&nbsp;도약<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1-&nbsp;2년)&nbsp;:&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;시섬&nbsp;숲&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;중기(3&nbsp;-&nbsp;5년)&nbsp;:&nbsp;권역별&nbsp;숲&nbsp;조성&nbsp;확대,&nbsp;산림치유&nbsp;관광&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;장기(5년&nbsp;이상)&nbsp;:&nbsp;전국&nbsp;대표&nbsp;‘숲&nbsp;도시&nbsp;횡성’&nbsp;브랜드&nbsp;완성<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;사&nbsp;&nbsp;업&nbsp;&nbsp;비&nbsp;:&nbsp;10,000백만원<br>&nbsp;&nbsp;○&nbsp;재원내역&nbsp;:&nbsp;국비&nbsp;7,000백만원,&nbsp;도비&nbsp;1,000백만원,&nbsp;군비&nbsp;2,000백만원</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

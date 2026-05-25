@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;장세일 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	영광의 미래 100년 먹거리, 수소특화단지 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="영광의 미래 100년 먹거리, 수소특화단지 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영광을&nbsp;단순한&nbsp;에너지&nbsp;생산지를&nbsp;넘어&nbsp;청정수소&nbsp;생산-저장-운송-활용이&nbsp;집적된&nbsp;대한민국&nbsp;서남권&nbsp;핵심&nbsp;산업&nbsp;거점으로&nbsp;도약<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수소&nbsp;관련&nbsp;기업&nbsp;유치와&nbsp;산업&nbsp;생태계&nbsp;조성을&nbsp;통해&nbsp;양질의&nbsp;일자리&nbsp;창출과&nbsp;군민이&nbsp;체감하는&nbsp;지역경제&nbsp;활성화를&nbsp;동시에&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한빛원전의&nbsp;기저전력과&nbsp;풍부한&nbsp;신재생에너지를&nbsp;활용해&nbsp;수소를&nbsp;저렴하게&nbsp;대량으로&nbsp;생산하는&nbsp;수전해시설&nbsp;설치(정부&nbsp;공모사업&nbsp;선정)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단계로&nbsp;500MW급&nbsp;청정수소&nbsp;생산시설&nbsp;구축&nbsp;후,&nbsp;2035년까지&nbsp;1GW&nbsp;규모로&nbsp;단계적&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수전해&nbsp;기반&nbsp;수소&nbsp;생산기업,&nbsp;저장·운송&nbsp;기업,&nbsp;연구기관을&nbsp;유치하여&nbsp;산·학·연집적&nbsp;클러스터&nbsp;조성&nbsp;및&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광주,&nbsp;여수,&nbsp;광양&nbsp;등&nbsp;산업단지와&nbsp;연계한&nbsp;광역&nbsp;수소&nbsp;공급망&nbsp;구축&nbsp;및&nbsp;전용&nbsp;배관망&nbsp;연결&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수소&nbsp;관련&nbsp;공공기관&nbsp;및&nbsp;시험·인증센터&nbsp;유치를&nbsp;통해&nbsp;산업&nbsp;생태계&nbsp;고도화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(기후에너지환경부)&nbsp;수소특화단지&nbsp;지정&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2026년~2027년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수소특화단지&nbsp;관련&nbsp;시설&nbsp;착공&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2027년~2028년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;총사업비&nbsp;:&nbsp;2조&nbsp;7천억원(국비&nbsp;7,000억,&nbsp;지방비&nbsp;1,000억,&nbsp;민자&nbsp;19,000억)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부&nbsp;공모사업&nbsp;선정&nbsp;및&nbsp;관련&nbsp;부처&nbsp;사업&nbsp;추진(수소&nbsp;특화도시&nbsp;지정&nbsp;등)으로&nbsp;국비,&nbsp;시비&nbsp;등&nbsp;외부재원&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수소생산&nbsp;희망&nbsp;대기업&nbsp;유치로&nbsp;대규모&nbsp;민자&nbsp;유치&nbsp;및&nbsp;일자리&nbsp;창출</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	 대한민국 대표 햇빛바람 기본소득 도시, 영광</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title=" 대한민국 대표 햇빛바람 기본소득 도시, 영광">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영광군이&nbsp;보유한&nbsp;풍부한&nbsp;햇빛과&nbsp;바람,&nbsp;해상풍력&nbsp;자원을&nbsp;군민&nbsp;모두의&nbsp;공유자산으로&nbsp;전환하여,&nbsp;신재생에너지&nbsp;개발이익이&nbsp;특정&nbsp;사업자에게만&nbsp;집중되지&nbsp;않고&nbsp;군민에게&nbsp;공정하게&nbsp;환원되는&nbsp;전국&nbsp;최초&nbsp;에너지&nbsp;기본소득&nbsp;도시를&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민선&nbsp;8기에서&nbsp;마련한&nbsp;제도·조직·시범사업&nbsp;기반을&nbsp;바탕으로,&nbsp;민선&nbsp;9기에는&nbsp;해상&nbsp;풍력&nbsp;발전사업&nbsp;수익과&nbsp;주민참여&nbsp;이익을&nbsp;실제&nbsp;군민&nbsp;혜택으로&nbsp;연결하여&nbsp;신재생에너지&nbsp;발전사업에서&nbsp;발생한&nbsp;수익을&nbsp;재원으로&nbsp;하는&nbsp;기본소득&nbsp;지급&nbsp;단계로&nbsp;전환<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해상풍력&nbsp;발전사업과&nbsp;태양광&nbsp;등&nbsp;신재생에너지&nbsp;개발사업의&nbsp;추진&nbsp;상황을&nbsp;체계적으로&nbsp;관리하고,&nbsp;발전사업에서&nbsp;발생하는&nbsp;개발이익이&nbsp;주민들에게&nbsp;기본소득의&nbsp;형태로&nbsp;지급될&nbsp;수&nbsp;있도록&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전&nbsp;군민의&nbsp;계층별&nbsp;대표성이&nbsp;균형&nbsp;있게&nbsp;반영될&nbsp;수&nbsp;있도록&nbsp;군민조합&nbsp;구성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;발전사업자,&nbsp;군민조합,&nbsp;행정,&nbsp;전문가가&nbsp;함께&nbsp;참여하는&nbsp;협의체를&nbsp;활성화하여&nbsp;주민&nbsp;수용성&nbsp;확보,&nbsp;이익공유&nbsp;방식,&nbsp;지급&nbsp;대상,&nbsp;지급&nbsp;주기,&nbsp;지급&nbsp;방식&nbsp;등을&nbsp;단계적으로&nbsp;구체화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민조합&nbsp;구성&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2026년~2027년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해상풍력&nbsp;발전사업&nbsp;가동을&nbsp;통한&nbsp;기본소득&nbsp;재원&nbsp;확보&nbsp;추진&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2026년~2027년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;햇빛바람&nbsp;기본소득&nbsp;지급&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2028년~<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해상풍력&nbsp;발전사업&nbsp;주민참여&nbsp;수익,&nbsp;개발이익&nbsp;공유금,&nbsp;신재생에너지&nbsp;관련&nbsp;기금&nbsp;등을&nbsp;활용하여&nbsp;기본소득&nbsp;재원&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	 농어민이 웃는 지속가능 농축수산업 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title=" 농어민이 웃는 지속가능 농축수산업 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업·축산·수산&nbsp;전&nbsp;분야에&nbsp;걸친&nbsp;맞춤형&nbsp;지원과&nbsp;인프라&nbsp;개선을&nbsp;통해&nbsp;생산비&nbsp;절감과&nbsp;생산성&nbsp;향상을&nbsp;동시에&nbsp;달성하고,&nbsp;유통·방역·기반시설까지&nbsp;아우르는&nbsp;종합&nbsp;지원체계를&nbsp;구축하여&nbsp;농어민&nbsp;소득&nbsp;증대와&nbsp;경영&nbsp;안정&nbsp;기반&nbsp;확립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌의&nbsp;고령화와&nbsp;인구감소에&nbsp;대응하여&nbsp;농기계&nbsp;지원,&nbsp;방역체계&nbsp;고도화,&nbsp;어촌&nbsp;인프라&nbsp;개선&nbsp;등&nbsp;생활밀착형&nbsp;지원을&nbsp;강화하고,&nbsp;지속가능한&nbsp;농축수산업&nbsp;기반을&nbsp;조성함으로써&nbsp;농어민이&nbsp;안정적으로&nbsp;생업을&nbsp;이어가고&nbsp;미래세대가&nbsp;유입되는&nbsp;활력&nbsp;있는&nbsp;농어촌&nbsp;구현<br><br>□&nbsp;이행방법<br>1.&nbsp;농업&nbsp;지원방안<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업인&nbsp;수요가&nbsp;높은&nbsp;맞춤형&nbsp;농기계&nbsp;지원&nbsp;규모&nbsp;및&nbsp;범위&nbsp;확대(120대→160대)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;3천만원×160대×50%=24억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래농업자원육성센터(묘량면&nbsp;일원)&nbsp;완공&nbsp;및&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중소농&nbsp;농기계&nbsp;농작업&nbsp;대행&nbsp;규모&nbsp;확대<br>2.&nbsp;축산업&nbsp;지원방안<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사전예방&nbsp;중심&nbsp;선제적&nbsp;가축방역체계&nbsp;구축(17억원)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;거점&nbsp;세척소독시설&nbsp;신규&nbsp;설치(2개소,&nbsp;8억원)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;송아지&nbsp;초유&nbsp;면역제&nbsp;지원&nbsp;확대(4억원)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;감보로병&nbsp;전염성기관지염&nbsp;백신&nbsp;지원(5억원)<br>3.&nbsp;수산업&nbsp;지원방안<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어촌&nbsp;인프라&nbsp;개선사업&nbsp;조속&nbsp;추진(계마항,&nbsp;월곡·칠곡·항월항&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;섬&nbsp;주민&nbsp;여객선&nbsp;차량이동&nbsp;비용&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농기계&nbsp;지원&nbsp;확대&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2027년~지속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래농업자원육성센터&nbsp;완공&nbsp;및&nbsp;활성화&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2026년~지속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;선제적&nbsp;가축방역체계&nbsp;구축&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2026년~지속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어촌&nbsp;인프라&nbsp;개선&nbsp;추진&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2026년~지속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;섬&nbsp;주민&nbsp;여객선&nbsp;차량이동&nbsp;비용&nbsp;지원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2026년~지속<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;총사업비&nbsp;:&nbsp;241억원(국비&nbsp;170억,&nbsp;시비&nbsp;9억,&nbsp;군비&nbsp;62억)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	체감 UP! 소상공인 패키지 지원 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="체감 UP! 소상공인 패키지 지원 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고금리·고물가·소비위축&nbsp;등&nbsp;복합적&nbsp;경제위기로&nbsp;어려움을&nbsp;겪고&nbsp;있는&nbsp;관내&nbsp;소상공인의&nbsp;경영&nbsp;부담을&nbsp;실질적으로&nbsp;완화하기&nbsp;위해&nbsp;점포&nbsp;임대료와&nbsp;카드수수료&nbsp;지원,&nbsp;리모델링&nbsp;및&nbsp;배달수수료&nbsp;지원을&nbsp;확대하여&nbsp;피부에&nbsp;와닿는&nbsp;체감도&nbsp;높은&nbsp;직접&nbsp;지원체계를&nbsp;구축하고,&nbsp;폐업률&nbsp;감소&nbsp;및&nbsp;안정적인&nbsp;영업환경&nbsp;조성을&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특히&nbsp;영세&nbsp;소상공인을&nbsp;중심으로&nbsp;실질적인&nbsp;비용&nbsp;절감&nbsp;효과를&nbsp;제공하여&nbsp;경영&nbsp;안정성을&nbsp;높이고,&nbsp;지역&nbsp;내&nbsp;창업과&nbsp;재도전&nbsp;환경을&nbsp;개선함으로써&nbsp;소상공인이&nbsp;다시&nbsp;살아나는&nbsp;‘지역경제&nbsp;회복의&nbsp;핵심&nbsp;축’으로&nbsp;자리매김하도록&nbsp;지원<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;지원사업&nbsp;대폭&nbsp;확대(현&nbsp;2.5억원&nbsp;→&nbsp;7.5억원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;점포&nbsp;임대료&nbsp;지원&nbsp;확대(개소당&nbsp;60만원→100만원)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;(연)&nbsp;1,000,000원&nbsp;×&nbsp;250개소&nbsp;=&nbsp;2.5억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;카드수수료&nbsp;지원&nbsp;확대(개소당&nbsp;50만원→100만원,&nbsp;200개소→250개소)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;(연)&nbsp;1,000,000원&nbsp;×&nbsp;250개소&nbsp;=&nbsp;2.5억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;배달수수료&nbsp;규모&nbsp;확대(80개소→100개소)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;(연)&nbsp;1,000,000원&nbsp;×&nbsp;100개소&nbsp;=&nbsp;1억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;소규모&nbsp;경영환경개선&nbsp;규모&nbsp;확대(13개소→15개소)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;(연)&nbsp;10,000,000원&nbsp;×&nbsp;15개소&nbsp;=&nbsp;1.5억원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;지원&nbsp;확대&nbsp;계획&nbsp;수립&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2026년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;지원&nbsp;패키지&nbsp;확대&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2027년~지속<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;총사업비:&nbsp;30억원(연&nbsp;7.5억&nbsp;×&nbsp;4년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군비&nbsp;자체&nbsp;반영(연&nbsp;2.5억&nbsp;→&nbsp;7.5억)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	한 단계 도약하는 체류형 관광도시 조성 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="한 단계 도약하는 체류형 관광도시 조성 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현재&nbsp;불갑사,&nbsp;백수해안,&nbsp;법성포&nbsp;등&nbsp;주요&nbsp;관광지가&nbsp;‘짧게&nbsp;보고&nbsp;돌아가는&nbsp;관광지’에&nbsp;머무르고&nbsp;있는&nbsp;한계를&nbsp;극복하고,&nbsp;숙박·체험·야간관광이&nbsp;결합된&nbsp;관광체계를&nbsp;구축하여&nbsp;관광객&nbsp;체류시간&nbsp;증가,&nbsp;숙박률&nbsp;상승,&nbsp;지역&nbsp;내&nbsp;소비&nbsp;확대를&nbsp;통한&nbsp;지역&nbsp;관광경제&nbsp;활성화&nbsp;및&nbsp;소상공인&nbsp;매출&nbsp;증대&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;당일방문&nbsp;중심의&nbsp;관광구조에서&nbsp;벗어나&nbsp;반값여행&nbsp;확대(소프트웨어)와&nbsp;물무산&nbsp;휴림원,&nbsp;백수해안·불갑사&nbsp;관광개발(하드웨어)을&nbsp;연계하여&nbsp;머무르고&nbsp;소비하는&nbsp;체류형&nbsp;관광도시로&nbsp;전환<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반값&nbsp;할인&nbsp;쉼표&nbsp;여행&nbsp;규모&nbsp;확대(연&nbsp;10억원&nbsp;→&nbsp;연&nbsp;15억원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민과&nbsp;관광객&nbsp;모두&nbsp;즐기는&nbsp;물무산&nbsp;일원&nbsp;휴림원(지방정원)&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;남부권&nbsp;광역관광(백수해안&nbsp;관광경관&nbsp;명소화,&nbsp;종교순례&nbsp;테마관광&nbsp;명소화)&nbsp;개발사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;교감형&nbsp;미디어아트&nbsp;노을플랫폼,&nbsp;칠산타워&nbsp;미디어라이트(사계절&nbsp;야간경관&nbsp;연출)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;4색&nbsp;4안&nbsp;순례여행&nbsp;플랫폼&nbsp;및&nbsp;순례길&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불갑산&nbsp;일원&nbsp;관광&nbsp;개발사업&nbsp;임기&nbsp;내&nbsp;완성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반값여행&nbsp;지원규모&nbsp;확대&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2027년~지속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;물무산&nbsp;휴림원(지방정원)&nbsp;조성&nbsp;추진&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2026년~<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;남부권&nbsp;광역관광&nbsp;개발사업&nbsp;추진&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2026년~<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불갑사&nbsp;일원&nbsp;관광개발&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;2027년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;총사업비&nbsp;:&nbsp;839억원(국비&nbsp;307억,&nbsp;시비&nbsp;158억,&nbsp;군비&nbsp;374억)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;(반값여행)&nbsp;사업비&nbsp;60억원(연&nbsp;15억&nbsp;×&nbsp;4년)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;(남부권&nbsp;광역관광&nbsp;개발)&nbsp;사업비&nbsp;589억원(국비&nbsp;295억,&nbsp;시비&nbsp;88억,&nbsp;군비&nbsp;206억)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;(불갑사&nbsp;야간경관&nbsp;조성)&nbsp;사업비&nbsp;40억원(시비&nbsp;20억,&nbsp;군비&nbsp;20억)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;(물무산&nbsp;휴림원&nbsp;조성)&nbsp;사업비&nbsp;150억원(시비&nbsp;50억,&nbsp;군비&nbsp;100억)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

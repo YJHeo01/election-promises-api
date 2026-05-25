@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;정명시 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	기장 맘택시 도입으로 출산·육아 부담 완화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="기장 맘택시 도입으로 출산·육아 부담 완화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;아이&nbsp;낳고&nbsp;키우기&nbsp;좋은&nbsp;기장&nbsp;만들기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임산부나&nbsp;육아&nbsp;초기&nbsp;엄마들의&nbsp;안전한&nbsp;이동을&nbsp;돕고&nbsp;경제적&nbsp;부담을&nbsp;완화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출산을&nbsp;장려하는&nbsp;홍보&nbsp;기능도&nbsp;제고<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기장군&nbsp;내에서&nbsp;병원을&nbsp;가거나&nbsp;장보기&nbsp;등&nbsp;출산&nbsp;및&nbsp;육아와&nbsp;관련된&nbsp;모든&nbsp;활동에&nbsp;택시&nbsp;이용&nbsp;가능<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;임신&nbsp;진단일&nbsp;~&nbsp;출산&nbsp;후&nbsp;1년&nbsp;기간&nbsp;동안&nbsp;택시비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전용&nbsp;앱&nbsp;또는&nbsp;보건소&nbsp;방문을&nbsp;통해&nbsp;승인&nbsp;후&nbsp;이용&nbsp;가능<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1,000원부터&nbsp;최대&nbsp;3,000원(거리&nbsp;비례)까지&nbsp;저렴하게&nbsp;이용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;월&nbsp;10회까지&nbsp;이용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기장군에서&nbsp;맘택시의&nbsp;손실을&nbsp;보전<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;관련&nbsp;시스템을&nbsp;구축하고&nbsp;연내&nbsp;운영&nbsp;계획<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기장군에서&nbsp;‘기장&nbsp;맘&nbsp;택시’에&nbsp;가입한&nbsp;택시&nbsp;운영자에게&nbsp;손실&nbsp;보전<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현재&nbsp;실시중인&nbsp;사례를&nbsp;볼&nbsp;때&nbsp;연&nbsp;2~3억원의&nbsp;예산&nbsp;투입으로&nbsp;가능&nbsp;추정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	24시간 안심 아이돌봄센터 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="24시간 안심 아이돌봄센터 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;24시간&nbsp;안심&nbsp;아이돌봄센터&nbsp;설치로&nbsp;보육&nbsp;사각지대&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;맞벌이&nbsp;부모나&nbsp;긴급&nbsp;돌봄이&nbsp;필요한&nbsp;경우&nbsp;(야근,&nbsp;경조사,&nbsp;질병&nbsp;등&nbsp;긴급한&nbsp;볼일)이&nbsp;발생했을&nbsp;경우&nbsp;365일&nbsp;24시간&nbsp;안심하고&nbsp;아이를&nbsp;맡길&nbsp;수&nbsp;있는&nbsp;센터&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현재&nbsp;부산지역에는&nbsp;구포,&nbsp;영도,&nbsp;다대,&nbsp;해운대&nbsp;등&nbsp;4개의&nbsp;24시간&nbsp;돌봄&nbsp;센터가&nbsp;운영&nbsp;중에&nbsp;있음<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시간당&nbsp;1,000원으로&nbsp;원하는&nbsp;시간만큼&nbsp;안심하고&nbsp;아이를&nbsp;맡길&nbsp;수&nbsp;있게&nbsp;함<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보육교사,&nbsp;사회복지사&nbsp;등&nbsp;전문인력이&nbsp;8시간씩&nbsp;3교대로&nbsp;상주<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;0~6세&nbsp;아이를&nbsp;1차적으로&nbsp;돌보도록&nbsp;하고,&nbsp;향후&nbsp;7~12세&nbsp;초등학생으로&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;조례&nbsp;제정&nbsp;후&nbsp;2027년&nbsp;시범운영&nbsp;목표&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1개소&nbsp;시범&nbsp;운영&nbsp;후&nbsp;향후&nbsp;5개&nbsp;읍면동&nbsp;전&nbsp;지역으로&nbsp;확대&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;아이돌봄&nbsp;관련&nbsp;국비예산을&nbsp;토대로&nbsp;시비와&nbsp;군비를&nbsp;더해&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보육교사&nbsp;10여명&nbsp;인건비&nbsp;(연간&nbsp;2~3억원)&nbsp;외<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보육관련&nbsp;재단&nbsp;위탁&nbsp;운영&nbsp;등&nbsp;시설&nbsp;설치&nbsp;및&nbsp;운영&nbsp;방안&nbsp;다각도&nbsp;검토</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	등교는 가볍게, 지원은 50만원까지</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="등교는 가볍게, 지원은 50만원까지">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;기장군내&nbsp;중·고등학생&nbsp;약&nbsp;1만명에게&nbsp;1인당&nbsp;50만원까지&nbsp;교통비를&nbsp;지급하는&nbsp;‘청소년&nbsp;교통패스’를&nbsp;도입&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;먼&nbsp;거리를&nbsp;통학하는&nbsp;학생들의&nbsp;교통비&nbsp;부담을&nbsp;줄이고&nbsp;안전한&nbsp;등하교길을&nbsp;보장하기&nbsp;위해&nbsp;교통비를&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학부모들의&nbsp;교육비&nbsp;부담을&nbsp;일부&nbsp;해소하기&nbsp;위한&nbsp;방안<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;1년간&nbsp;학생&nbsp;1인당&nbsp;50만원까지&nbsp;교통카드&nbsp;선불&nbsp;충전식으로&nbsp;사용&nbsp;가능<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;등교하는&nbsp;평일에&nbsp;한정해&nbsp;맞춤형으로&nbsp;사용이&nbsp;가능하도록&nbsp;조정&nbsp;계획&nbsp;&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;관련&nbsp;조례를&nbsp;정비해&nbsp;연내&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육청&nbsp;및&nbsp;관계&nbsp;기관과&nbsp;협의&nbsp;후&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;약&nbsp;50억&nbsp;원&nbsp;(중고등학생&nbsp;수&nbsp;약&nbsp;1만&nbsp;명&nbsp;×&nbsp;50만&nbsp;원)&nbsp;이내<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연간&nbsp;사용&nbsp;후&nbsp;잔액이&nbsp;남았을&nbsp;경우,&nbsp;다음&nbsp;연도로&nbsp;이월해&nbsp;사용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	70세 이상 어르신 버스비 매달 2만원 지급</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="70세 이상 어르신 버스비 매달 2만원 지급">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;기장군내&nbsp;70세&nbsp;이상&nbsp;어르신&nbsp;약&nbsp;2만&nbsp;5천명에게&nbsp;매달&nbsp;버스비&nbsp;2만원씩&nbsp;지급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현재&nbsp;전국적으로&nbsp;65세&nbsp;이상의&nbsp;어르신에게&nbsp;지하철&nbsp;무료&nbsp;이용이&nbsp;시행되고&nbsp;있으나,&nbsp;지하철이&nbsp;없는&nbsp;비수도권에서는&nbsp;버스비&nbsp;무료&nbsp;이용에&nbsp;대한&nbsp;요구가&nbsp;높은&nbsp;편임<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기장군은&nbsp;부산의&nbsp;도시철도가&nbsp;다니지&nbsp;않아,&nbsp;어르신이&nbsp;자주&nbsp;이용하는&nbsp;버스비&nbsp;부담을&nbsp;줄여드리는&nbsp;것이&nbsp;기장의&nbsp;현실을&nbsp;반영한&nbsp;맞춤형&nbsp;교통복지&nbsp;방안임<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;교통카드&nbsp;충전&nbsp;방식으로&nbsp;매달&nbsp;2만원을&nbsp;지급해&nbsp;드림<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미사용&nbsp;금액은&nbsp;이월하는&nbsp;방식을&nbsp;우선&nbsp;추진하고,&nbsp;버스를&nbsp;더&nbsp;많이&nbsp;이용하시는&nbsp;분들에게&nbsp;더&nbsp;많은&nbsp;혜택이&nbsp;돌아갈&nbsp;수&nbsp;있도록&nbsp;향후&nbsp;추진과정에서&nbsp;보완<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;당선&nbsp;즉시&nbsp;TF를&nbsp;구성해&nbsp;버스&nbsp;운영사업자&nbsp;등과&nbsp;논의해&nbsp;구체적&nbsp;실시계획을&nbsp;수립하고,&nbsp;조기에&nbsp;재원을&nbsp;마련하는&nbsp;즉시&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;향후&nbsp;정부나&nbsp;국회에서&nbsp;70세&nbsp;이상&nbsp;어르신&nbsp;교통비&nbsp;전면&nbsp;무료가&nbsp;추진될&nbsp;경우&nbsp;이행을&nbsp;재조정할&nbsp;계획<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기장군&nbsp;자체재원과&nbsp;시비·국비를&nbsp;연계해&nbsp;추진할&nbsp;계획<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현재&nbsp;기장군의&nbsp;70세&nbsp;이상&nbsp;어르신이&nbsp;약&nbsp;2만&nbsp;5천명이므로,&nbsp;매달&nbsp;2만원씩&nbsp;지급할&nbsp;경우&nbsp;한달에&nbsp;약&nbsp;5억원이&nbsp;소요.&nbsp;연간&nbsp;총&nbsp;60억원의&nbsp;예산&nbsp;소요<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미사용&nbsp;금액을&nbsp;이월할&nbsp;경우,&nbsp;소요&nbsp;예산은&nbsp;줄어들&nbsp;것으로&nbsp;추정됨</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	기장 문화재단 설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="기장 문화재단 설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;참여도를&nbsp;높이고&nbsp;지역&nbsp;고유&nbsp;문화자원&nbsp;활용을&nbsp;최대화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행정주도&nbsp;문화&nbsp;운영을&nbsp;민관&nbsp;협치&nbsp;참여형&nbsp;구조로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;고유&nbsp;문화자원(해양문화,&nbsp;생태환경,&nbsp;역사유산)&nbsp;발굴&nbsp;및&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전문&nbsp;인력&nbsp;확보를&nbsp;통한&nbsp;문화예술&nbsp;행정의&nbsp;전문성·지속성&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수익사업&nbsp;병행으로&nbsp;재단&nbsp;재정&nbsp;자립도&nbsp;단계적&nbsp;향상<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;문화예술&nbsp;지원&nbsp;및&nbsp;진흥을&nbsp;위한&nbsp;문화재단&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민참여형&nbsp;민관협치&nbsp;방식으로&nbsp;예산&nbsp;편성&nbsp;및&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민&nbsp;대상&nbsp;생활문화&nbsp;프로그램&nbsp;연&nbsp;100여개&nbsp;이상&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화시설을&nbsp;위탁&nbsp;운영해&nbsp;자체&nbsp;수익성&nbsp;향상&nbsp;및&nbsp;신진&nbsp;예술인&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기장&nbsp;대표&nbsp;브랜드&nbsp;문화축제·행사&nbsp;기획&nbsp;및&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화예술과&nbsp;연관된&nbsp;체육,&nbsp;장애인&nbsp;등&nbsp;정책&nbsp;등과도&nbsp;연계해&nbsp;종합계획&nbsp;수립<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기에&nbsp;준비위원회&nbsp;구성해&nbsp;2027년&nbsp;출범&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2028년부터&nbsp;핵심&nbsp;사업&nbsp;본격화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;초기&nbsp;출연금&nbsp;군비&nbsp;30억원&nbsp;확보&nbsp;후&nbsp;출범&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2030년부터&nbsp;자체&nbsp;수익사업&nbsp;확대&nbsp;및&nbsp;재정&nbsp;자립도&nbsp;30%&nbsp;이상&nbsp;달성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중복&nbsp;사업&nbsp;등&nbsp;군비&nbsp;투입&nbsp;낭비&nbsp;사업&nbsp;축소해&nbsp;예산&nbsp;효율성&nbsp;강화</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

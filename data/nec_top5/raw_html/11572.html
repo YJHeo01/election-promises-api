@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이정현 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	대기업 10개 유치 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="대기업 10개 유치 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;통합시&nbsp;정부&nbsp;특별지원&nbsp;예산과&nbsp;민간&nbsp;투자를&nbsp;연계하여&nbsp;4년간&nbsp;총&nbsp;20조원&nbsp;규모의&nbsp;투자유치&nbsp;추진<br>○&nbsp;드론&nbsp;등&nbsp;항공우주·의생명·농생명·미래차·AI에너지·데이터·레이져와&nbsp;센서&nbsp;방위산업·첨단소부장&nbsp;분야&nbsp;대기업&nbsp;10개&nbsp;이상&nbsp;유치&nbsp;<br>○&nbsp;양질의&nbsp;청년&nbsp;일자리&nbsp;대량&nbsp;창출&nbsp;및&nbsp;지역경제&nbsp;구조&nbsp;전환<br><br>□&nbsp;이행방법<br>○&nbsp;전남광주통합특별시&nbsp;출범과&nbsp;동시에&nbsp;대통령&nbsp;직속&nbsp;지원체계&nbsp;및&nbsp;국가균형발전&nbsp;특별지원&nbsp;건의<br>○&nbsp;국가&nbsp;AI·에너지·미래차&nbsp;국가전략특구&nbsp;지정&nbsp;추진<br>○&nbsp;광주공항&nbsp;이전부지·산단·항만&nbsp;배후부지&nbsp;등을&nbsp;활용한&nbsp;대규모&nbsp;산업용지&nbsp;확보<br>○&nbsp;국내외&nbsp;대기업·중견기업&nbsp;대상&nbsp;투자유치&nbsp;전담단&nbsp;운영<br>○&nbsp;법인세&nbsp;감면,&nbsp;전력·용수·부지&nbsp;지원&nbsp;등&nbsp;투자&nbsp;인센티브&nbsp;확대<br>○&nbsp;한전·에너지&nbsp;공기업·대학·연구기관과&nbsp;연계한&nbsp;산업생태계&nbsp;구축<br><br>□&nbsp;이행기간<br>○&nbsp;2026년~2030년&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;-1단계&nbsp;:&nbsp;산업부지&nbsp;및&nbsp;제도&nbsp;정비<br>&nbsp;&nbsp;-2단계&nbsp;:&nbsp;투자협약&nbsp;및&nbsp;기업유치<br>&nbsp;&nbsp;-3단계&nbsp;:&nbsp;생산라인&nbsp;및&nbsp;협력업체&nbsp;집적화<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국가균형발전특별회계&nbsp;및&nbsp;정부&nbsp;특별지원&nbsp;확보<br>○&nbsp;민간투자&nbsp;및&nbsp;기업&nbsp;투자유치<br>○&nbsp;산업단지&nbsp;개발&nbsp;수익&nbsp;활용<br>○&nbsp;정책금융기관&nbsp;및&nbsp;지역혁신펀드&nbsp;연계&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	전남·광주 종합진단 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="전남·광주 종합진단 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;지방자치&nbsp;30년&nbsp;동안의&nbsp;예산·인사·인허가·보조금·축제·산하기관&nbsp;운영&nbsp;전반&nbsp;종합점검<br>○&nbsp;비효율과&nbsp;낭비를&nbsp;바로잡고&nbsp;공정·투명&nbsp;행정체계&nbsp;구축<br>○&nbsp;경쟁과&nbsp;견제가&nbsp;살아있는&nbsp;행정혁신&nbsp;추진<br><br>□&nbsp;이행방법<br>○&nbsp;시민·전문가·회계법인·청년이&nbsp;참여하는&nbsp;통합혁신진단위원회&nbsp;설치<br>○&nbsp;예산&nbsp;낭비사업&nbsp;및&nbsp;중복사업&nbsp;전면&nbsp;재검토<br>○&nbsp;산하기관&nbsp;기능&nbsp;및&nbsp;성과&nbsp;평가&nbsp;실시<br>○&nbsp;대규모&nbsp;축제·보조금&nbsp;사업&nbsp;공개&nbsp;평가제&nbsp;도입<br>○&nbsp;공공데이터&nbsp;공개&nbsp;확대&nbsp;및&nbsp;시민감시&nbsp;시스템&nbsp;구축<br>○&nbsp;감사&nbsp;결과와&nbsp;개선사항&nbsp;시민&nbsp;공개<br><br>□&nbsp;이행기간<br>○&nbsp;취임&nbsp;즉시&nbsp;착수<br>&nbsp;&nbsp;-&nbsp;1년&nbsp;이내&nbsp;1차&nbsp;종합진단&nbsp;완료<br>&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;단계별&nbsp;개선&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;기존&nbsp;감사·평가&nbsp;예산&nbsp;활용<br>○&nbsp;불필요한&nbsp;예산&nbsp;절감분&nbsp;재투자<br>○&nbsp;행정&nbsp;효율화에&nbsp;따른&nbsp;재정절감&nbsp;효과&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	청년도시 구축 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="청년도시 구축 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;청년이&nbsp;떠나는&nbsp;도시에서&nbsp;청년이&nbsp;모이는&nbsp;도시로&nbsp;전환<br>○&nbsp;청년&nbsp;일자리·주거·문화·창업&nbsp;종합지원체계&nbsp;구축<br>○&nbsp;청년&nbsp;참여&nbsp;중심의&nbsp;행정혁신&nbsp;추진<br><br>□&nbsp;이행방법<br>○&nbsp;지명직&nbsp;공직&nbsp;및&nbsp;위원회의&nbsp;51%&nbsp;이상&nbsp;청년&nbsp;참여&nbsp;추진<br>○&nbsp;전체&nbsp;예산의&nbsp;10%(2.5조×4=10조)를&nbsp;청년혁신예산으로&nbsp;운영<br>○&nbsp;청년&nbsp;창업특구&nbsp;및&nbsp;스타트업&nbsp;지원센터&nbsp;조성,&nbsp;&nbsp;도시를&nbsp;청년들이&nbsp;디자인<br>○&nbsp;공공임대주택&nbsp;및&nbsp;청년주거&nbsp;지원&nbsp;확대<br>○&nbsp;대학·기업&nbsp;연계&nbsp;취업프로그램&nbsp;확대<br>○&nbsp;문화·예술·축제·스포츠&nbsp;등&nbsp;청년문화&nbsp;활성화<br><br>□&nbsp;이행기간<br>○&nbsp;취임&nbsp;즉시&nbsp;청년도시&nbsp;추진단&nbsp;구성<br>○&nbsp;4년간&nbsp;단계별&nbsp;확대&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;청년정책&nbsp;국비사업&nbsp;적극&nbsp;확보<br>○&nbsp;지방비&nbsp;및&nbsp;민간협력사업&nbsp;연계<br>○&nbsp;창업펀드&nbsp;및&nbsp;투자유치&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	아시아 국가 충장로 동남아 페스티벌 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="아시아 국가 충장로 동남아 페스티벌 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;충장축제를&nbsp;아시아&nbsp;대표&nbsp;국제문화축제로&nbsp;육성<br>○&nbsp;동남아&nbsp;12개국과&nbsp;12달&nbsp;연계한&nbsp;글로벌&nbsp;문화·관광도시&nbsp;조성<br>○&nbsp;관광객&nbsp;유치&nbsp;및&nbsp;지역상권&nbsp;활성화<br><br>□&nbsp;이행방법<br>○&nbsp;아시아문화전당과&nbsp;연계한&nbsp;국제축제&nbsp;추진<br>○&nbsp;동남아&nbsp;국가별&nbsp;문화·음식·공연·관광&nbsp;콘텐츠&nbsp;운영(매&nbsp;달1개&nbsp;국)<br>○&nbsp;K-POP·청년문화·e스포츠&nbsp;연계&nbsp;프로그램&nbsp;확<br>○&nbsp;해외&nbsp;관광객&nbsp;유치를&nbsp;위한&nbsp;국제홍보&nbsp;강화<br>○&nbsp;지역&nbsp;상인·예술인&nbsp;참여&nbsp;확대<br>○&nbsp;광주·전남&nbsp;관광벨트와&nbsp;연계한&nbsp;체류형&nbsp;관광&nbsp;추진<br><br>□&nbsp;이행기간<br>○&nbsp;취임&nbsp;후&nbsp;준비&nbsp;즉시&nbsp;착수<br>○&nbsp;연례&nbsp;국제축제로&nbsp;확대&nbsp;운영<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;문화체육관광부&nbsp;및&nbsp;관광진흥기금&nbsp;지원<br>○&nbsp;민간기업&nbsp;후원&nbsp;및&nbsp;국제협력사업&nbsp;연계<br>○&nbsp;축제&nbsp;수익&nbsp;및&nbsp;관광수입&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	발전 설비 산업단지 조성 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="발전 설비 산업단지 조성 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;AI·데이터센터·미래산업&nbsp;기반이&nbsp;되는&nbsp;전력설비&nbsp;산업벨트&nbsp;구축<br>○&nbsp;초고압케이블·변압기·ESS·블래이드ㆍ터빈ㆍ&nbsp;타워ㆍ케이블&nbsp;등&nbsp;전력ㆍ발전&nbsp;ㅇ&nbsp;기자재&nbsp;산업&nbsp;육성<br>○&nbsp;에너지산업&nbsp;중심도시&nbsp;조성&nbsp;및&nbsp;일자리&nbsp;창출<br><br>□&nbsp;이행방법<br>○&nbsp;한전&nbsp;및&nbsp;에너지&nbsp;공기업과&nbsp;연계한&nbsp;산업단지&nbsp;조성<br>○&nbsp;RE100&nbsp;대응&nbsp;산업&nbsp;및&nbsp;전력설비&nbsp;기업&nbsp;유치<br>○&nbsp;전력망·변전소·에너지저장장치&nbsp;산업&nbsp;육성<br>○&nbsp;전문인력&nbsp;양성을&nbsp;위한&nbsp;대학·연구기관&nbsp;협력체계&nbsp;구축<br>○&nbsp;해상풍력·태양광·원전&nbsp;연계&nbsp;에너지산업&nbsp;생태계&nbsp;조성<br>○&nbsp;수출형&nbsp;전력설비&nbsp;기업&nbsp;집중&nbsp;육성<br><br>□&nbsp;이행기간<br>○&nbsp;2026년&nbsp;착수<br>○&nbsp;산업단지&nbsp;조성&nbsp;및&nbsp;기업유치&nbsp;단계적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;산업통상자원부&nbsp;국비사업&nbsp;확보<br>○&nbsp;민간투자&nbsp;및&nbsp;공기업&nbsp;협력사업&nbsp;추진<br>○&nbsp;산업단지&nbsp;개발이익&nbsp;재투자<br>○&nbsp;정책금융&nbsp;및&nbsp;지역투자펀드&nbsp;활용</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

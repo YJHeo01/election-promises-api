@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;신동진 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	수돗물 반값 실현-무능 행정이 빼앗긴 물값 환수 및 광역 상수도 편입</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="수돗물 반값 실현-무능 행정이 빼앗긴 물값 환수 및 광역 상수도 편입">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;가평&nbsp;군민의&nbsp;수도&nbsp;요금&nbsp;50%&nbsp;즉시&nbsp;감면&nbsp;및&nbsp;맑은&nbsp;물&nbsp;공급&nbsp;원가&nbsp;혁신<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;고립된&nbsp;지방상수도를&nbsp;수고권&nbsp;광역상수도&nbsp;망으로&nbsp;즉시&nbsp;편입시켜&nbsp;생산&nbsp;원가&nbsp;대폭&nbsp;절감.<br>&nbsp;&nbsp;○&nbsp;서울&nbsp;시민의&nbsp;상수원&nbsp;보호를&nbsp;위해&nbsp;가평이&nbsp;매년&nbsp;부담해&nbsp;온&nbsp;하수처리&nbsp;적자(연200억원)를&nbsp;‘상수원&nbsp;유지관리비’로&nbsp;명문화하여&nbsp;중앙정부&nbsp;및&nbsp;서울시에&nbsp;정식&nbsp;청구&nbsp;및&nbsp;환수<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내&nbsp;(2026년&nbsp;하반기~2030년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;환경영수증&nbsp;청구를&nbsp;통한&nbsp;국·&nbsp;시비&nbsp;보전금&nbsp;환수&nbsp;및&nbsp;기존&nbsp;비효율&nbsp;상수도&nbsp;운영&nbsp;예산&nbsp;절감(추가&nbsp;군비&nbsp;증세&nbsp;없음)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	가평 사람 0원 버스_ 가평교통공사 설립 및 전 군민 대중교통 무료화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="가평 사람 0원 버스_ 가평교통공사 설립 및 전 군민 대중교통 무료화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;빈&nbsp;버스에&nbsp;낭비되던&nbsp;세금을&nbsp;차단하여&nbsp;가평&nbsp;군민의&nbsp;완벽한&nbsp;이동권&nbsp;보장<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;‘가평교동공사’를&nbsp;설립하여&nbsp;운수업체에&nbsp;관행적으로&nbsp;퍼주던&nbsp;적자&nbsp;노선&nbsp;손실&nbsp;보전금&nbsp;체계&nbsp;전면&nbsp;폐기<br>&nbsp;&nbsp;○&nbsp;교통공사&nbsp;직영&nbsp;체제&nbsp;및&nbsp;수요응답현&nbsp;셔틀(AI후출)&nbsp;도입으로&nbsp;노선&nbsp;효율&nbsp;극대화<br>&nbsp;&nbsp;○&nbsp;절감된&nbsp;대중교통&nbsp;운영&nbsp;예산을&nbsp;활용해&nbsp;가평&nbsp;군민의&nbsp;전체&nbsp;노선버스&nbsp;요금&nbsp;0원(무료)&nbsp;전면&nbsp;실시<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;개시&nbsp;후&nbsp;1년&nbsp;이내&nbsp;교통&nbsp;공사&nbsp;설립&nbsp;및&nbsp;단계적&nbsp;무상교통&nbsp;이행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;민간&nbsp;운수업체&nbsp;지급&nbsp;보조금&nbsp;전용&nbsp;및&nbsp;교통공사&nbsp;자체&nbsp;수익&nbsp;모델(광고,&nbsp;부대사업&nbsp;등)&nbsp;창출.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	자부담 0원 ‘내 마을 요양원’_24시간 마을밀착형 통합돌봄센터 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="자부담 0원 ‘내 마을 요양원’_24시간 마을밀착형 통합돌봄센터 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;낮선&nbsp;요양원으로&nbsp;떠나지&nbsp;않고,&nbsp;평생&nbsp;살던&nbsp;마을에서&nbsp;존엄한&nbsp;노후와&nbsp;돌봄&nbsp;보장<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;마을회관&nbsp;및&nbsp;경로당을&nbsp;리모델링하여&nbsp;간호사와&nbsp;요양보호사가&nbsp;24시간&nbsp;상주하는&nbsp;소규모&nbsp;‘내&nbsp;마을&nbsp;요양원’으로&nbsp;전면&nbsp;개조.<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;노인장기요양보험&nbsp;외에&nbsp;발생하는&nbsp;개인&nbsp;부담금을&nbsp;가평군&nbsp;예산으로&nbsp;전액&nbsp;상쇄하여&nbsp;군민&nbsp;자부담&nbsp;0원&nbsp;달성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기&nbsp;시범사업&nbsp;실시&nbsp;후&nbsp;임기&nbsp;내&nbsp;전&nbsp;읍·면으로&nbsp;확대&nbsp;적용<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;일회성&nbsp;축제&nbsp;및&nbsp;전시성&nbsp;토건&nbsp;예산&nbsp;삭감분&nbsp;활용,&nbsp;보건복지부&nbsp;지역사회&nbsp;통합돌봄&nbsp;시범&nbsp;사업&nbsp;국비&nbsp;매칭.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	월세 없는 내 집 ‘가평형 K-칫 ’_원가 공급 및 시세차익 50% 보장 환매</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="월세 없는 내 집 ‘가평형 K-칫 ’_원가 공급 및 시세차익 50% 보장 환매">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;분양가&nbsp;거품을&nbsp;뺀&nbsp;공정주택&nbsp;공급으로&nbsp;가평&nbsp;청년과&nbsp;신혼부부의&nbsp;주거&nbsp;독립&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;가평&nbsp;유휴&nbsp;군유지를&nbsp;활용해&nbsp;땅값과&nbsp;분양가&nbsp;거품을&nbsp;뺀&nbsp;원가&nbsp;수준의&nbsp;‘가평&nbsp;공정주택’&nbsp;공급<br>&nbsp;&nbsp;○&nbsp;입주&nbsp;시&nbsp;분양&nbsp;대금&nbsp;0원으로&nbsp;시작하여,&nbsp;건축비만&nbsp;20년&nbsp;장기&nbsp;저리&nbsp;모기지로&nbsp;상환.<br>&nbsp;&nbsp;○&nbsp;이주나&nbsp;평수&nbsp;확대&nbsp;시,&nbsp;주택공사가&nbsp;납입&nbsp;원금과&nbsp;시세차익의&nbsp;50%를&nbsp;얹어&nbsp;되사는&nbsp;'손실&nbsp;제로&nbsp;환매제'&nbsp;도입으로&nbsp;자산&nbsp;형성&nbsp;보장.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;부지&nbsp;확보&nbsp;및&nbsp;관련&nbsp;조례&nbsp;제정,&nbsp;2028년&nbsp;1호&nbsp;단지&nbsp;입주<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;가평&nbsp;군유지&nbsp;무상&nbsp;제공,&nbsp;주택도시기금&nbsp;융자,&nbsp;가평금융공사&nbsp;보증을&nbsp;통한&nbsp;저리&nbsp;자금&nbsp;조달.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	군림 행정 타파 _ '손발주무관' 신설 및 '시시콜콜' 원스톱 콜센터 가동</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="군림 행정 타파 _ '손발주무관' 신설 및 '시시콜콜' 원스톱 콜센터 가동">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;책상머리&nbsp;탁상행정을&nbsp;끝내고&nbsp;군민의&nbsp;안방과&nbsp;현장으로&nbsp;찾아가는&nbsp;완벽한&nbsp;서비스&nbsp;행정&nbsp;구현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;6급&nbsp;팀장&nbsp;진급&nbsp;필수&nbsp;요건으로,&nbsp;마을&nbsp;현장에서&nbsp;어르신들의&nbsp;물리적&nbsp;궂은&nbsp;일을&nbsp;직접&nbsp;돕고&nbsp;해결하는&nbsp;'손발주무관'&nbsp;보직&nbsp;의무화.<br>&nbsp;&nbsp;○&nbsp;전화&nbsp;한&nbsp;통으로&nbsp;민원&nbsp;접수부터&nbsp;처리&nbsp;결과&nbsp;통보까지&nbsp;책임지는&nbsp;'시시콜콜'&nbsp;원스톱&nbsp;콜센터&nbsp;신설.<br>&nbsp;&nbsp;○&nbsp;입주&nbsp;시&nbsp;분양&nbsp;대금&nbsp;0원으로&nbsp;시작하여,&nbsp;건축비만&nbsp;20년&nbsp;장기&nbsp;저리&nbsp;모기지로&nbsp;상환.<br>&nbsp;&nbsp;○&nbsp;이주나&nbsp;평수&nbsp;확대&nbsp;시,&nbsp;주택공사가&nbsp;납입&nbsp;원금과&nbsp;시세차익의&nbsp;50%를&nbsp;얹어&nbsp;되사는&nbsp;'손실&nbsp;제로&nbsp;환매제'&nbsp;도입으로&nbsp;자산&nbsp;형성&nbsp;보장.<br>&nbsp;&nbsp;○&nbsp;콜센터&nbsp;상담사로&nbsp;이동이&nbsp;불편한&nbsp;장애인,&nbsp;경력&nbsp;단절&nbsp;주부&nbsp;등을&nbsp;유연&nbsp;재택&nbsp;근무&nbsp;형태로&nbsp;우선&nbsp;채용.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;개시&nbsp;즉시&nbsp;행정&nbsp;조직&nbsp;개편&nbsp;및&nbsp;콜센터&nbsp;시범&nbsp;가동<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;군청&nbsp;행정&nbsp;운영비&nbsp;효율화&nbsp;및&nbsp;부서별&nbsp;인력·예산&nbsp;재배치.&nbsp;(추가&nbsp;예산&nbsp;소요&nbsp;최소화)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

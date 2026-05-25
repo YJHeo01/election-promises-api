@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;강경모 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	강소기업 유치와 스타트업 개척 도시 신성장 동력 확충</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="강소기업 유치와 스타트업 개척 도시 신성장 동력 확충">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목&nbsp;표<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;미래산업&nbsp;기반&nbsp;구축을&nbsp;통한&nbsp;상주&nbsp;경제&nbsp;성장<br>&nbsp;&nbsp;○&nbsp;권역별&nbsp;특성화된&nbsp;첨단전략산업&nbsp;혁신&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;정주&nbsp;여건&nbsp;개선<br>&nbsp;&nbsp;<br>■&nbsp;이행방법<br>&nbsp;<br>&nbsp;&nbsp;○&nbsp;기업유치&nbsp;전담&nbsp;시스템&nbsp;구축과&nbsp;투자&nbsp;인센티브&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;창업&nbsp;보육센터&nbsp;및&nbsp;지원센터&nbsp;설립<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;농업&nbsp;클러스터&nbsp;구축(문화·관광&nbsp;연계&nbsp;미래산업&nbsp;육성)<br>&nbsp;&nbsp;&nbsp;<br>■&nbsp;이행기간<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;2026.07&nbsp;~&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;<br>■&nbsp;재원조달방안&nbsp;등<br>&nbsp;<br>&nbsp;&nbsp;○&nbsp;단기·중장기&nbsp;우선순위<br>&nbsp;&nbsp;○&nbsp;국비·도비·시&nbsp;예산&nbsp;범위&nbsp;내<br>&nbsp;&nbsp;○&nbsp;연차적&nbsp;국비&nbsp;확보&nbsp;및&nbsp;민간&nbsp;투자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	상주 미래 100년 명품도시 계획 설계</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="상주 미래 100년 명품도시 계획 설계">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목&nbsp;표<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;도심재생과&nbsp;농촌지역&nbsp;활성화를&nbsp;통한&nbsp;균형&nbsp;성장<br>&nbsp;&nbsp;○&nbsp;상주의&nbsp;도시&nbsp;경쟁력&nbsp;강화&nbsp;및&nbsp;정주&nbsp;여건&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;스마트농업과&nbsp;미래&nbsp;산업&nbsp;육성을&nbsp;통한&nbsp;경제도시&nbsp;발전<br><br>&nbsp;■&nbsp;이행방법<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;중부내륙&nbsp;고속철도&nbsp;역사&nbsp;신축<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;도심&nbsp;리모델링&nbsp;사업(도심&nbsp;환경&nbsp;개선&nbsp;및&nbsp;공공디자인&nbsp;도입)<br>&nbsp;&nbsp;○&nbsp;전통시장&nbsp;활성화&nbsp;프로젝트(문화예술&nbsp;접목&nbsp;및&nbsp;특화&nbsp;거리&nbsp;조성)<br>&nbsp;&nbsp;<br>■&nbsp;이행기간<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;2026.07&nbsp;~&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;<br>&nbsp;<br>&nbsp;■&nbsp;재원조달방안&nbsp;등<br>&nbsp;<br>&nbsp;&nbsp;○&nbsp;단기·중장기&nbsp;우선순위<br>&nbsp;&nbsp;○&nbsp;국비·도비·시&nbsp;예산&nbsp;범위&nbsp;내<br>&nbsp;&nbsp;○&nbsp;연차적&nbsp;국비&nbsp;확보&nbsp;및&nbsp;민간&nbsp;투자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	생애주기별 맞춤 복지 서비스 제공</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="생애주기별 맞춤 복지 서비스 제공">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목&nbsp;표<br><br>&nbsp;&nbsp;○&nbsp;아이키우기&nbsp;좋은&nbsp;출산·보육&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;필수&nbsp;의료&nbsp;및&nbsp;복지&nbsp;인프라&nbsp;확충&nbsp;시민&nbsp;삶의&nbsp;질&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;취약계층과&nbsp;어르신들을&nbsp;위한&nbsp;맞춤형&nbsp;정책&nbsp;강화<br><br>■&nbsp;이행방법<br><br>&nbsp;&nbsp;○&nbsp;소아전문병원&nbsp;및&nbsp;24시간&nbsp;응급센터&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;공공산후조리원&nbsp;확충&nbsp;및&nbsp;산모·영유아&nbsp;수당&nbsp;강화&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;면&nbsp;단위&nbsp;복지관·어르신&nbsp;목욕탕&nbsp;건립<br>&nbsp;&nbsp;<br>■&nbsp;이행기간<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;2026.07&nbsp;~&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;<br>■&nbsp;재원조달방안&nbsp;등<br>&nbsp;<br>&nbsp;&nbsp;○&nbsp;단기·중장기&nbsp;우선순위<br>&nbsp;&nbsp;○&nbsp;국비·도비·시&nbsp;예산&nbsp;범위&nbsp;내<br>&nbsp;&nbsp;○&nbsp;연차적&nbsp;국비&nbsp;확보&nbsp;및&nbsp;민간&nbsp;투자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	소상공인에게 희망을, 상주 미래형 농업기반 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="소상공인에게 희망을, 상주 미래형 농업기반 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;소상공인·자영업자&nbsp;생존권&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;농업은&nbsp;우리경제의&nbsp;머릿돌·공익기능&nbsp;약속<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;창업농&nbsp;육성,&nbsp;스마트&nbsp;농업&nbsp;메카로&nbsp;농촌인구&nbsp;증대<br><br>&nbsp;■&nbsp;이행방법<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;에너지(전기·가스)지원대책&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;전통시장·상점가&nbsp;활성화&nbsp;지원사업&nbsp;대책&nbsp;수립&nbsp;성장&nbsp;동력&nbsp;제시&nbsp;<br>&nbsp;&nbsp;○&nbsp;농기계임대사업&nbsp;확대&nbsp;및&nbsp;임대사업소&nbsp;증설<br>&nbsp;&nbsp;○&nbsp;농·축·임산물&nbsp;명품브랜드&nbsp;육성<br><br>■&nbsp;이행기간<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;2026.07&nbsp;~&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;<br>&nbsp;■&nbsp;재원조달방안&nbsp;등<br>&nbsp;<br>&nbsp;&nbsp;○&nbsp;단기·중장기&nbsp;우선순위<br>&nbsp;&nbsp;○&nbsp;국비·도비·시&nbsp;예산&nbsp;범위&nbsp;내<br>&nbsp;&nbsp;○&nbsp;연차적&nbsp;국비&nbsp;확보&nbsp;및&nbsp;민간&nbsp;투자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	스포츠·관광·레저 융합 체류형 관광 도시로 도약</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="스포츠·관광·레저 융합 체류형 관광 도시로 도약">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목&nbsp;표<br><br>&nbsp;&nbsp;○&nbsp;체험형&nbsp;콘텐츠&nbsp;결합,&nbsp;마을&nbsp;단위&nbsp;스토리텔링&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;체류형&nbsp;관광&nbsp;활성화를&nbsp;통한&nbsp;지역&nbsp;경제&nbsp;성장<br>&nbsp;&nbsp;○&nbsp;먹거리·볼거리&nbsp;확충&nbsp;레포츠&nbsp;도시&nbsp;브랜드&nbsp;상승&nbsp;추진<br>&nbsp;<br>&nbsp;■&nbsp;이행방법<br><br>&nbsp;&nbsp;○&nbsp;갑장산&nbsp;관광&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;권역별&nbsp;파크골프장·게이트볼장&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;전통시장·관광지를&nbsp;연결하는&nbsp;무료&nbsp;셔틀버스&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;북천의&nbsp;청계천화&nbsp;프로젝트&nbsp;추진(도심&nbsp;속&nbsp;친환경&nbsp;수변공간&nbsp;조성)<br>&nbsp;<br>■&nbsp;이행기간<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;2026.07&nbsp;~&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;<br>&nbsp;■&nbsp;재원조달방안&nbsp;등<br>&nbsp;<br>&nbsp;&nbsp;○&nbsp;단기·중장기&nbsp;우선순위<br>&nbsp;&nbsp;○&nbsp;국비·도비·시&nbsp;예산&nbsp;범위&nbsp;내<br>&nbsp;&nbsp;○&nbsp;연차적&nbsp;국비&nbsp;확보&nbsp;및&nbsp;민간&nbsp;투자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

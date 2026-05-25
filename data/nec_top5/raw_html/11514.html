@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;정인준 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	공공의료 강화 및 밀착형 돌봄: "빈틈 Zero 케어"</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="공공의료 강화 및 밀착형 돌봄: "빈틈 Zero 케어"">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ‘소외받는&nbsp;군민이&nbsp;없는&nbsp;임실’을&nbsp;만들겠습니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;완결형&nbsp;의료&nbsp;환경:&nbsp;대도시&nbsp;원정&nbsp;진료&nbsp;없이&nbsp;지역&nbsp;내에서&nbsp;필수&nbsp;의료를&nbsp;해결하는&nbsp;고품질&nbsp;의료&nbsp;서비스&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;복지&nbsp;현장의&nbsp;질적&nbsp;성장:&nbsp;복지시설&nbsp;종사자&nbsp;처우&nbsp;개선을&nbsp;통해&nbsp;수혜자인&nbsp;군민의&nbsp;만족도&nbsp;극대화<br>&nbsp;&nbsp;○&nbsp;이동권&nbsp;및&nbsp;돌봄&nbsp;보장:&nbsp;취약계층의&nbsp;발이&nbsp;되어주는&nbsp;교통망과&nbsp;촘촘한&nbsp;통합&nbsp;돌봄&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[의료&nbsp;전문]&nbsp;지역&nbsp;거점&nbsp;의료&nbsp;인프라&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우수&nbsp;전문의&nbsp;인력&nbsp;확보:&nbsp;소아청소년과,&nbsp;안과,&nbsp;정형외과&nbsp;전문의&nbsp;채용을&nbsp;위한&nbsp;경쟁력&nbsp;있는&nbsp;인건비&nbsp;지원&nbsp;및&nbsp;안정적인&nbsp;정주&nbsp;여건(관사,&nbsp;교육&nbsp;지원)&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장비&nbsp;및&nbsp;인프라&nbsp;현대화:&nbsp;고해상도&nbsp;영상&nbsp;진단&nbsp;장비&nbsp;및&nbsp;정밀&nbsp;검진&nbsp;기기&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;입원&nbsp;및&nbsp;응급&nbsp;체계&nbsp;내실화:&nbsp;24시간&nbsp;응급실&nbsp;전문의&nbsp;상주&nbsp;체계&nbsp;확립&nbsp;및&nbsp;간호간병&nbsp;통합서비스&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;맞춤형&nbsp;질환&nbsp;예방&nbsp;및&nbsp;검진:&nbsp;농업&nbsp;종사자&nbsp;대상&nbsp;근골격계&nbsp;질환&nbsp;예방&nbsp;물리치료&nbsp;및&nbsp;스트레칭&nbsp;프로그램&nbsp;보급,&nbsp;65세&nbsp;이상&nbsp;어르신&nbsp;대상&nbsp;안질환(백내장,&nbsp;녹내장&nbsp;등)&nbsp;정기&nbsp;무료&nbsp;검진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소아·청소년&nbsp;의료&nbsp;체계&nbsp;강화:&nbsp;24시간&nbsp;소아·청소년&nbsp;응급&nbsp;진료&nbsp;체계&nbsp;강화,&nbsp;거점&nbsp;대학병원과의&nbsp;MOU를&nbsp;통한&nbsp;신속&nbsp;이송&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;[복지·이동]&nbsp;현장&nbsp;중심의&nbsp;밀착형&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복지&nbsp;현장의&nbsp;사기&nbsp;진작을&nbsp;위해&nbsp;복지시설&nbsp;종사자&nbsp;활력&nbsp;수당&nbsp;‘월&nbsp;10만&nbsp;원’&nbsp;수당&nbsp;지급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합&nbsp;돌봄&nbsp;센터:&nbsp;노인·장애인·아동&nbsp;복지를&nbsp;통합&nbsp;관리하는&nbsp;‘원스톱&nbsp;통합돌봄센터’&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행복콜&nbsp;서비스&nbsp;확대:&nbsp;이동&nbsp;취약계층을&nbsp;위한&nbsp;‘행복콜’&nbsp;서비스&nbsp;지역&nbsp;전면&nbsp;확대<br><br>□&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진&nbsp;(2026년&nbsp;하반기&nbsp;~&nbsp;2030년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;예산&nbsp;활용:&nbsp;보건복지부&nbsp;‘지역사회&nbsp;통합돌봄’&nbsp;예산&nbsp;및&nbsp;‘지역거점&nbsp;공공병원&nbsp;활성화&nbsp;사업’&nbsp;공모&nbsp;참여를&nbsp;통한&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;조례&nbsp;및&nbsp;예산&nbsp;편성:&nbsp;지자체&nbsp;자체&nbsp;예산&nbsp;구조조정을&nbsp;통해&nbsp;복지시설&nbsp;종사자&nbsp;처우&nbsp;개선&nbsp;및&nbsp;전문의&nbsp;인건비&nbsp;고정&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	‘떠나지 않는 임실, 살고 싶은 임실’ 실현 3대 안심 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="‘떠나지 않는 임실, 살고 싶은 임실’ 실현 3대 안심 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;[경제안심]&nbsp;보편적&nbsp;기본소득&nbsp;지급으로&nbsp;민생&nbsp;경제&nbsp;안전망&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;[성장안심]&nbsp;출산부터&nbsp;고교&nbsp;졸업까지&nbsp;군이&nbsp;책임지는&nbsp;하이-패스(High-Pass)&nbsp;보육<br>&nbsp;&nbsp;○&nbsp;[자립안심]&nbsp;만&nbsp;49세까지&nbsp;청년&nbsp;범위를&nbsp;확대하고&nbsp;자산&nbsp;형성&nbsp;및&nbsp;정착&nbsp;지원<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[경제]&nbsp;소득&nbsp;걱정&nbsp;없는&nbsp;'민생&nbsp;경제&nbsp;안전망'&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전&nbsp;군민&nbsp;대상&nbsp;‘임실N&nbsp;행복&nbsp;배당금&nbsp;100만&nbsp;원’&nbsp;지역화폐로&nbsp;신속&nbsp;지급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;가계&nbsp;소득&nbsp;보전&nbsp;및&nbsp;소상공인&nbsp;매출&nbsp;증대로&nbsp;지역&nbsp;경제&nbsp;선순환&nbsp;구조&nbsp;확립<br>&nbsp;&nbsp;○&nbsp;[성장]&nbsp;임실형&nbsp;하이-패스&nbsp;교육복지:&nbsp;고등학교(High&nbsp;School)까지&nbsp;막힘없이(Pass)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임실N&nbsp;성장페이:&nbsp;1세~17세까지&nbsp;모든&nbsp;아동·청소년에게&nbsp;월&nbsp;10만원씩&nbsp;보편&nbsp;지급&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘임실에서&nbsp;공부해도&nbsp;충분하다’&nbsp;:&nbsp;농촌유학생&nbsp;가족&nbsp;지원&nbsp;확대&nbsp;및&nbsp;글로벌&nbsp;교육&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출산장려금&nbsp;상향&nbsp;조정으로&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;도시&nbsp;브랜드&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;[자립]&nbsp;임실N&nbsp;내일도&nbsp;맑음:&nbsp;임실에선&nbsp;49세까지&nbsp;청년!&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년내일통장:&nbsp;만&nbsp;18세~49세&nbsp;근로&nbsp;청년&nbsp;대상,&nbsp;본인&nbsp;저축액과&nbsp;군비&nbsp;1:1&nbsp;매칭&nbsp;지원&nbsp;(월&nbsp;최대&nbsp;30만&nbsp;원&nbsp;저축&nbsp;시,&nbsp;3년&nbsp;만기&nbsp;약&nbsp;2,200만&nbsp;원&nbsp;이상의&nbsp;목돈&nbsp;마련)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주거&nbsp;지원:&nbsp;청년·신혼부부&nbsp;대상&nbsp;‘월세&nbsp;10만원’&nbsp;임대&nbsp;주택&nbsp;공급&nbsp;및&nbsp;주택&nbsp;자금&nbsp;이자&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자립&nbsp;지원:&nbsp;창업지원센터&nbsp;중심의&nbsp;맞춤형&nbsp;재무·경제&nbsp;교육&nbsp;연계&nbsp;및&nbsp;창업&nbsp;공간&nbsp;무상&nbsp;지원<br><br>□&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;○&nbsp;1단계(도입기):&nbsp;당선&nbsp;즉시&nbsp;「임실군&nbsp;청년&nbsp;기본&nbsp;조례」&nbsp;및&nbsp;관련&nbsp;복지&nbsp;조례&nbsp;개정,&nbsp;법적&nbsp;근거&nbsp;및&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;2단계(실행기):&nbsp;임기&nbsp;1년&nbsp;차&nbsp;내&nbsp;‘군민&nbsp;행복&nbsp;배당금’&nbsp;및&nbsp;‘성장페이’&nbsp;즉시&nbsp;시행,&nbsp;관내&nbsp;금융기관(농협&nbsp;등)과&nbsp;협력하여&nbsp;‘청년내일통장’&nbsp;전용&nbsp;상품&nbsp;출시<br>&nbsp;&nbsp;○&nbsp;3단계(정착기):&nbsp;임기&nbsp;2~3년&nbsp;차&nbsp;내&nbsp;청년&nbsp;임대&nbsp;주택&nbsp;공급&nbsp;및&nbsp;창업&nbsp;공간&nbsp;운영&nbsp;활성화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·도비&nbsp;확보:&nbsp;지방소멸대응기금(인구&nbsp;감소&nbsp;지역&nbsp;지원금)&nbsp;및&nbsp;부처별&nbsp;복지&nbsp;공모사업&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;예산&nbsp;구조조정:&nbsp;전시성&nbsp;축제&nbsp;및&nbsp;중복·선심성&nbsp;사업&nbsp;정비를&nbsp;통한&nbsp;복지&nbsp;재원&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;군비:&nbsp;임실군&nbsp;자체&nbsp;인구정책&nbsp;및&nbsp;청년&nbsp;발전&nbsp;기금&nbsp;최우선&nbsp;편성.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	산림 자원 활용 프로젝트 ‘대한민국 대표 웰니스 관광 도시 조성’</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="산림 자원 활용 프로젝트 ‘대한민국 대표 웰니스 관광 도시 조성’">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;임실군&nbsp;면적의&nbsp;70%인&nbsp;산림&nbsp;자원을&nbsp;경제적&nbsp;가치(임산물&nbsp;산업)와&nbsp;사회적&nbsp;가치(복지&nbsp;관광)로&nbsp;동시&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;산림&nbsp;산업과&nbsp;관광,&nbsp;레저,&nbsp;숙박이&nbsp;결합된&nbsp;산림&nbsp;융복합&nbsp;르네상스&nbsp;실현으로&nbsp;지역&nbsp;소멸&nbsp;위기&nbsp;극복&nbsp;및&nbsp;더&nbsp;잘&nbsp;사는&nbsp;임실&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;'프리미엄&nbsp;임실&nbsp;밤'&nbsp;육성으로&nbsp;농가&nbsp;소득을&nbsp;증대하고,&nbsp;국내&nbsp;최대&nbsp;'산림&nbsp;치유&nbsp;클러스터'&nbsp;구축으로&nbsp;대한민국&nbsp;대표&nbsp;웰니스&nbsp;관광&nbsp;도시&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;산림&nbsp;웰니스화:&nbsp;치유&nbsp;클러스터&nbsp;및&nbsp;프리미엄&nbsp;레저·숙박&nbsp;인프라<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;숲&nbsp;테라피,&nbsp;명상&nbsp;센터,&nbsp;아토피&nbsp;치유&nbsp;센터&nbsp;등&nbsp;국내&nbsp;최대&nbsp;산림&nbsp;치유&nbsp;클러스터&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지형&nbsp;훼손을&nbsp;최소화한&nbsp;고품격&nbsp;자연형&nbsp;골프장&nbsp;및&nbsp;호텔형&nbsp;연수동,&nbsp;가족형&nbsp;숲속의&nbsp;집&nbsp;등&nbsp;프리미엄&nbsp;숙박단지&nbsp;대거&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;산림&nbsp;복지화:&nbsp;공공&nbsp;연수원&nbsp;유치&nbsp;및&nbsp;스마트&nbsp;산림&nbsp;워케이션(Workation)센터&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산림조합중앙회,&nbsp;사회복지&nbsp;연수원&nbsp;등&nbsp;국가급&nbsp;교육·연수&nbsp;기관&nbsp;유치로&nbsp;안정적&nbsp;방문객&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;숲속&nbsp;공유&nbsp;오피스와&nbsp;장기&nbsp;체류형&nbsp;숙박&nbsp;시설을&nbsp;결합하여&nbsp;도시&nbsp;직장인&nbsp;및&nbsp;IT&nbsp;인력&nbsp;유입<br>&nbsp;&nbsp;○&nbsp;산림&nbsp;산업화:&nbsp;‘프리미엄&nbsp;임실N&nbsp;밤'&nbsp;스마트&nbsp;산업&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;유실수&nbsp;재배&nbsp;단지의&nbsp;품종&nbsp;갱신&nbsp;및&nbsp;AI&nbsp;드론·자동&nbsp;기계화&nbsp;수확&nbsp;시스템을&nbsp;도입한&nbsp;임실형&nbsp;AI&nbsp;스마트&nbsp;재배&nbsp;단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;저온&nbsp;저장·선별&nbsp;시스템,&nbsp;깐밤&nbsp;·&nbsp;밤&nbsp;분말&nbsp;가공&nbsp;시설&nbsp;등&nbsp;고부가가치&nbsp;거점&nbsp;유통&nbsp;인프라&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;'밤&nbsp;치즈&nbsp;디저트'&nbsp;등&nbsp;임실&nbsp;치즈&nbsp;연계&nbsp;신제품&nbsp;개발&nbsp;및&nbsp;체험&nbsp;관광&nbsp;활성화로&nbsp;6차&nbsp;산업화<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내&nbsp;(2026년&nbsp;~&nbsp;2030년)&nbsp;연차별&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	천혜의 환경을 활용한 체류형 관광도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="천혜의 환경을 활용한 체류형 관광도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            "임실의&nbsp;물길과&nbsp;자연,&nbsp;그리고&nbsp;생명이&nbsp;어우러진&nbsp;대한민국&nbsp;최고의&nbsp;체류형&nbsp;관광&nbsp;시대를&nbsp;열겠습니다."<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;단순&nbsp;경유형&nbsp;관광지에서&nbsp;'먹고,&nbsp;자고,&nbsp;즐기는'&nbsp;체류형&nbsp;복합&nbsp;관광&nbsp;거점&nbsp;도시로&nbsp;도약<br>&nbsp;&nbsp;○&nbsp;사선대에서&nbsp;섬진강까지,&nbsp;지역&nbsp;맞춤형&nbsp;관광&nbsp;특화&nbsp;벨트&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;유동&nbsp;인구&nbsp;증대와&nbsp;반려동물&nbsp;신산업&nbsp;육성을&nbsp;통한&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;인구&nbsp;소멸&nbsp;위기&nbsp;극복<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;강진면~덕치면:&nbsp;‘섬진강&nbsp;첫-물길&nbsp;힐링로드’&nbsp;및&nbsp;'전북의&nbsp;화개장터'&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강진&nbsp;시장을&nbsp;뉴트로&nbsp;감성의&nbsp;'전북판&nbsp;화개장터'로&nbsp;현대화하여&nbsp;호국원&nbsp;방문객&nbsp;및&nbsp;생태&nbsp;관광객&nbsp;흡수&nbsp;(성묘용품&nbsp;존,&nbsp;섬진강&nbsp;다슬기&nbsp;특화)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;섬진강&nbsp;상류를&nbsp;중심으로&nbsp;한&nbsp;생태&nbsp;관광&nbsp;브랜드&nbsp;확립&nbsp;(자전거&nbsp;도로&nbsp;및&nbsp;트레킹&nbsp;코스&nbsp;정비)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘강진장터’와&nbsp;연계한&nbsp;‘섬진강&nbsp;매화&nbsp;물길&nbsp;투어'&nbsp;등&nbsp;강진면과&nbsp;덕치면을&nbsp;잇는&nbsp;특화&nbsp;소프트웨어&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;관촌면:&nbsp;더&nbsp;가까워진&nbsp;사선대,&nbsp;더&nbsp;환해진&nbsp;관촌의&nbsp;밤<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통&nbsp;혁신:&nbsp;순천완주고속도로&nbsp;사선대&nbsp;IC&nbsp;신설로&nbsp;도심&nbsp;연계성&nbsp;강화&nbsp;및&nbsp;물류&nbsp;센터&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;'빛의&nbsp;특구(Light&nbsp;Zone)'&nbsp;조성:&nbsp;사선대&nbsp;레이저&nbsp;분수쇼&nbsp;및&nbsp;오원천&nbsp;멀티미디어&nbsp;아트&nbsp;산책로&nbsp;구축,&nbsp;관촌&nbsp;시내&nbsp;레트로&nbsp;조명&nbsp;거리&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청소년&nbsp;수련원&nbsp;개방&nbsp;및&nbsp;레포츠&nbsp;시설&nbsp;확대로&nbsp;전&nbsp;세대가&nbsp;즐기는&nbsp;휴양지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;오수면:&nbsp;세계적&nbsp;'반려동물&nbsp;메카'&nbsp;클러스터&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업&nbsp;육성:&nbsp;임실&nbsp;치즈&nbsp;활용&nbsp;프리미엄&nbsp;펫푸드&nbsp;생산&nbsp;단지&nbsp;및&nbsp;반려동물&nbsp;R&D&nbsp;센터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료·복지:&nbsp;24시간&nbsp;응급&nbsp;진료&nbsp;전문&nbsp;동물병원&nbsp;유치&nbsp;및&nbsp;카페형&nbsp;유기견&nbsp;입양&nbsp;센터&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체류&nbsp;시설:&nbsp;민자&nbsp;유치를&nbsp;통한&nbsp;대규모&nbsp;펫&nbsp;리조트&nbsp;및&nbsp;어질리티&nbsp;경기장&nbsp;등&nbsp;테마파크&nbsp;고도화<br>&nbsp;&nbsp;○&nbsp;권역별&nbsp;순환&nbsp;교통망&nbsp;구축&nbsp;및&nbsp;‘임실N&nbsp;마실&nbsp;택시’&nbsp;도입&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;관광&nbsp;거점과&nbsp;임실읍내&nbsp;상권을&nbsp;잇는&nbsp;순환&nbsp;셔틀버스&nbsp;노선&nbsp;신설로&nbsp;관광객&nbsp;접근성&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘임실N&nbsp;마실&nbsp;택시’&nbsp;도입:&nbsp;택시&nbsp;자체가&nbsp;하나의&nbsp;관광&nbsp;콘텐츠가&nbsp;되어&nbsp;‘주요&nbsp;관광명소·치즈&nbsp;맛집·로컬&nbsp;카페·스토리텔링&nbsp;가이드’를&nbsp;연결하는&nbsp;관광객&nbsp;맞춤형&nbsp;투어&nbsp;서비스<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진&nbsp;(2026년&nbsp;하반기&nbsp;~&nbsp;2030년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;도비&nbsp;확보:<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중소벤처기업부&nbsp;'전통시장&nbsp;시설현대화&nbsp;사업'&nbsp;(강진)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화체육관광부&nbsp;'야간관광&nbsp;특화도시'&nbsp;및&nbsp;'관광벨트&nbsp;구축&nbsp;사업'&nbsp;(관촌)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농림축산식품부&nbsp;'반려동물&nbsp;산업&nbsp;육성&nbsp;지원&nbsp;사업'&nbsp;(오수)<br>&nbsp;&nbsp;○&nbsp;지방비&nbsp;매칭:&nbsp;임실군&nbsp;특별회계&nbsp;및&nbsp;전북특별자치도&nbsp;관광기금&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;리조트&nbsp;및&nbsp;병원&nbsp;건립을&nbsp;위한&nbsp;민간&nbsp;투자&nbsp;유치&nbsp;및&nbsp;기업&nbsp;투자&nbsp;세제&nbsp;혜택&nbsp;제공</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	임실 농업 혁신 2030 : 차세대 스마트팜 거점 및 화훼 복합 클러스터 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="임실 농업 혁신 2030 : 차세대 스마트팜 거점 및 화훼 복합 클러스터 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            청웅의&nbsp;기술과&nbsp;신평의&nbsp;향기가&nbsp;만나&nbsp;임실&nbsp;농업의&nbsp;미래를&nbsp;엽니다!&nbsp;<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;기술&nbsp;혁신:&nbsp;청웅·신평을&nbsp;중심으로&nbsp;AI·로봇&nbsp;기반&nbsp;3세대&nbsp;스마트팜&nbsp;기술을&nbsp;전면&nbsp;도입하여&nbsp;생산성을&nbsp;30%&nbsp;이상&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;산업&nbsp;고도화:&nbsp;고부가가치&nbsp;작물(애플망고,&nbsp;화훼&nbsp;등)&nbsp;육성을&nbsp;통해&nbsp;농가&nbsp;소득을&nbsp;현재&nbsp;대비&nbsp;2배로&nbsp;증대<br>&nbsp;&nbsp;○&nbsp;관광&nbsp;융합:&nbsp;생산-유통-관광이&nbsp;결합된&nbsp;'에듀-투어리즘'&nbsp;모델로&nbsp;연간&nbsp;방문객&nbsp;20만&nbsp;명&nbsp;유치&nbsp;및&nbsp;지역&nbsp;경제&nbsp;활성화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;신평&nbsp;권역&nbsp;-&nbsp;"전북&nbsp;최대&nbsp;화훼&nbsp;융복합&nbsp;클러스터"<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;ICT&nbsp;기반&nbsp;스마트&nbsp;화훼&nbsp;단지:&nbsp;농업기술센터와&nbsp;연계하여&nbsp;고부가가치&nbsp;화훼(수출용&nbsp;장미,&nbsp;반려식물&nbsp;등)&nbsp;특화&nbsp;생산지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;화훼&nbsp;유통&nbsp;혁신&nbsp;플랫폼:&nbsp;B2B/B2C&nbsp;통합&nbsp;직거래&nbsp;장터&nbsp;및&nbsp;상설&nbsp;전시관&nbsp;건립으로&nbsp;유통&nbsp;단계&nbsp;축소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;에듀·투어리즘&nbsp;거점화:&nbsp;가드닝&nbsp;클래스,&nbsp;반려식물&nbsp;병원&nbsp;등&nbsp;체험&nbsp;시설을&nbsp;구축하여&nbsp;'꽃과&nbsp;쉼이&nbsp;있는&nbsp;공간'&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;청웅&nbsp;권역&nbsp;-&nbsp;"차세대&nbsp;지능형&nbsp;시설재배&nbsp;전진기지"<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;기반&nbsp;3세대&nbsp;스마트팜&nbsp;표준&nbsp;모델&nbsp;보급:&nbsp;애플망고,&nbsp;딸기,&nbsp;토마토&nbsp;하우스에&nbsp;AI&nbsp;생육&nbsp;제어&nbsp;및&nbsp;자율주행&nbsp;방제&nbsp;로봇&nbsp;시스템&nbsp;도입&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래형&nbsp;품종&nbsp;세대교체:&nbsp;내열성이&nbsp;강한&nbsp;신품종&nbsp;애플망고&nbsp;및&nbsp;수출&nbsp;경쟁력을&nbsp;갖춘&nbsp;고당도&nbsp;딸기·기능성&nbsp;토마토&nbsp;종묘&nbsp;보급&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;글로벌&nbsp;풀필먼트&nbsp;센터&nbsp;구축:&nbsp;산지에서&nbsp;선별-포장-물류를&nbsp;일괄&nbsp;처리하여&nbsp;국내&nbsp;온·오프라인&nbsp;직거래&nbsp;및&nbsp;해외&nbsp;수출&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;통합&nbsp;시너지&nbsp;추진&nbsp;과제&nbsp;(Innovation)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;[유통·판로]&nbsp;'임실&nbsp;스마트팜&nbsp;통합&nbsp;브랜드'&nbsp;런칭&nbsp;및&nbsp;NFT&nbsp;기반&nbsp;생산&nbsp;이력제로&nbsp;소비자&nbsp;신뢰도&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;[관광벨트]&nbsp;옥정호-사선대-청웅-신평을&nbsp;잇는&nbsp;'임실&nbsp;그린&nbsp;로드(Green&nbsp;Road)'&nbsp;관광&nbsp;코스&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;[미래인재]&nbsp;청년&nbsp;농업인을&nbsp;위한&nbsp;임대형&nbsp;스마트팜&nbsp;제공&nbsp;및&nbsp;저가형&nbsp;AI&nbsp;농기계&nbsp;대여&nbsp;서비스&nbsp;도입.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진&nbsp;(2026년&nbsp;하반기&nbsp;~&nbsp;2030년)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·도비&nbsp;확보:&nbsp;농식품부&nbsp;'스마트팜&nbsp;혁신밸리'&nbsp;연계&nbsp;사업&nbsp;및&nbsp;전북특별자치도&nbsp;전략&nbsp;산업&nbsp;지원금&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;민관&nbsp;협력(PPP):&nbsp;지역&nbsp;농협,&nbsp;화훼&nbsp;유통&nbsp;대기업과의&nbsp;협력을&nbsp;통한&nbsp;민간&nbsp;투자&nbsp;유도&nbsp;및&nbsp;공동&nbsp;마케팅&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;전경태 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	왕시루봉 선교사 유적지 복원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="왕시루봉 선교사 유적지 복원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;왕시루봉&nbsp;선교유적지&nbsp;복원을&nbsp;통하여&nbsp;문화유산의&nbsp;보존과&nbsp;기독교성지를&nbsp;만들어&nbsp;관광자원&nbsp;활용<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;현재&nbsp;잔존&nbsp;건축물등은&nbsp;문화재&nbsp;지정보존&nbsp;주친&nbsp;선교문화&nbsp;유적지&nbsp;조성&nbsp;기독교&nbsp;성도들의&nbsp;성지순례코스&nbsp;조정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;2028.&nbsp;07.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;군비&nbsp;50%자부담(개발주체&nbsp;:&nbsp;50%)<br>&nbsp;&nbsp;&nbsp;&nbsp;-</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	사성암 좌불상 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="사성암 좌불상 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;사성암&nbsp;좌불상&nbsp;건립<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;불교성지를&nbsp;만들어&nbsp;관광자원으로&nbsp;활용하고자&nbsp;함<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;2028.&nbsp;07.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;화엄사&nbsp;19교구&nbsp;본사&nbsp;사찰<br>&nbsp;&nbsp;&nbsp;&nbsp;-</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	지리산 미니어처 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="지리산 미니어처 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○지리산&nbsp;미니어처&nbsp;건립<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○지리산을&nbsp;50/1&nbsp;축소하여&nbsp;관광자원으로&nbsp;활용하고자&nbsp;함<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○2026.&nbsp;07.&nbsp;~&nbsp;2028.&nbsp;07.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○군비<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	신장투석기계 구입</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="신장투석기계 구입">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;신장투석기계&nbsp;구입<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;관내에&nbsp;신장투석환자가&nbsp;있는데도&nbsp;외지로&nbsp;다니는&nbsp;불편한&nbsp;실정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;2028.&nbsp;07.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	 의료원에 산부인과 의사를 근무토록 함</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title=" 의료원에 산부인과 의사를 근무토록 함">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;의료원에&nbsp;신부인과&nbsp;의사를&nbsp;근무토록&nbsp;함<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;구례에&nbsp;산부인과&nbsp;의사가&nbsp;없어&nbsp;여러모로&nbsp;불편한&nbsp;실정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;2028.&nbsp;07.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;군비<br>&nbsp;&nbsp;&nbsp;&nbsp;-</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

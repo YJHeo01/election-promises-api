@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;강진원 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	강진군 기본소득사회 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="강진군 기본소득사회 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            사업명&nbsp;:&nbsp;강진군&nbsp;기본소득사회&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;농어민수당&nbsp;70만원&nbsp;→&nbsp;100만원&nbsp;인상&nbsp;지급<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;농어민기본소득&nbsp;가구당&nbsp;연&nbsp;240만원&nbsp;지급(AI데이터센터&nbsp;완공시)<br><br>&nbsp;□&nbsp;목&nbsp;표&nbsp;:&nbsp;군민의&nbsp;인간답게&nbsp;살&nbsp;권리&nbsp;보장&nbsp;및&nbsp;소득증대&nbsp;기여<br>&nbsp;<br>&nbsp;□&nbsp;우선순위&nbsp;:&nbsp;최우선<br><br>&nbsp;□&nbsp;이행방법&nbsp;:&nbsp;현황조사&nbsp;→&nbsp;군민의견&nbsp;수렴&nbsp;→&nbsp;계획수립&nbsp;→&nbsp;사업시행<br>&nbsp;&nbsp;<br>&nbsp;□&nbsp;이행기간&nbsp;:&nbsp;2027&nbsp;~&nbsp;2030<br>&nbsp;&nbsp;&nbsp;<br>&nbsp;□&nbsp;재원조달방안&nbsp;:&nbsp;국비,&nbsp;지방비(특별시비&nbsp;+&nbsp;군비)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	전남광주특별시, 중남부권 「관광·AI 산업 거점 강진」 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="전남광주특별시, 중남부권 「관광·AI 산업 거점 강진」 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;사업명&nbsp;:&nbsp;전남광주특별시,&nbsp;중남부권&nbsp;「관광·AI&nbsp;산업&nbsp;거점&nbsp;강진」&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;AI데이터센터·연관산업&nbsp;추가&nbsp;유치&nbsp;통해&nbsp;&nbsp;중심&nbsp;연관&nbsp;산업&nbsp;거점&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;강진·장흥&nbsp;관광자원&nbsp;활용&nbsp;통해&nbsp;지역경제&nbsp;활성화&nbsp;도모<br><br>□&nbsp;목&nbsp;표&nbsp;:&nbsp;지역발전&nbsp;新성장&nbsp;동력&nbsp;확보<br><br>□&nbsp;우선순위&nbsp;:&nbsp;최우선<br><br>□&nbsp;이행방법&nbsp;:&nbsp;현황조사&nbsp;→&nbsp;군민의견&nbsp;수렴&nbsp;→&nbsp;계획수립&nbsp;→&nbsp;사업시행<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2027&nbsp;~&nbsp;2030<br><br>□&nbsp;재원조달방안&nbsp;:&nbsp;국비,&nbsp;지방비(특별시비&nbsp;+&nbsp;군비),&nbsp;민자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	대규모 SOC 확충, 광주-강진 경제공동체 실현 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="대규모 SOC 확충, 광주-강진 경제공동체 실현 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;사업명&nbsp;:&nbsp;대규모&nbsp;SOC&nbsp;확충,&nbsp;광주-강진&nbsp;경제공동체&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;강진-광주&nbsp;고속도로&nbsp;완공&nbsp;및&nbsp;남해선&nbsp;강진역&nbsp;활성화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;강진만&nbsp;횡단대교(대구면-도암면)&nbsp;건설&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;광주-강진&nbsp;공동생활권&nbsp;구축&nbsp;위한&nbsp;「GG프로젝트」&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;강진·광주&nbsp;상생형&nbsp;지역화폐·빈집&nbsp;브릿지·문화&nbsp;공유&nbsp;사업&nbsp;추진<br><br>□&nbsp;목&nbsp;표&nbsp;:&nbsp;지역발전&nbsp;新성장&nbsp;동력&nbsp;확보<br><br>□&nbsp;우선순위&nbsp;:&nbsp;최우선<br><br>□&nbsp;이행방법&nbsp;:&nbsp;도시기본계획&nbsp;변경&nbsp;추진&nbsp;→&nbsp;사업시행<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2027&nbsp;~&nbsp;2030<br><br>□&nbsp;재원조달방안&nbsp;:&nbsp;국비,&nbsp;지방비(특별시비&nbsp;+&nbsp;군비)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	1차~4차 산업혁명 융복합 발전 기틀 마련해 강진 대도약!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="1차~4차 산업혁명 융복합 발전 기틀 마련해 강진 대도약!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;사업명&nbsp;:&nbsp;1차~4차&nbsp;산업혁명&nbsp;융복합&nbsp;발전&nbsp;기틀&nbsp;마련해&nbsp;강진&nbsp;대도약!<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;1·2차&nbsp;산업(농림축수산업&nbsp;+&nbsp;소상공업)&nbsp;발전&nbsp;종합지원대책&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;3차&nbsp;산업(외식·유통·서비스업·온라인)&nbsp;활성화&nbsp;방안&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;4차&nbsp;산업혁명(AI·첨단기술)&nbsp;성장&nbsp;기반&nbsp;구축으로&nbsp;군민소득&nbsp;증대&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;1~4차&nbsp;산업혁명&nbsp;+&nbsp;군민&nbsp;역량&nbsp;총집결,&nbsp;강진군&nbsp;대도약&nbsp;발판&nbsp;마련<br><br>□&nbsp;목&nbsp;표&nbsp;:&nbsp;지역발전&nbsp;新성장&nbsp;동력&nbsp;확보<br><br>□&nbsp;우선순위&nbsp;:&nbsp;최우선<br><br>□&nbsp;이행방법&nbsp;:&nbsp;기본계획&nbsp;변경&nbsp;추진&nbsp;→&nbsp;조례&nbsp;제·개정&nbsp;→&nbsp;사업시행<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2027&nbsp;~&nbsp;2030<br><br>□&nbsp;재원조달방안&nbsp;:&nbsp;국비,&nbsp;지방비(특별시비&nbsp;+&nbsp;군비),&nbsp;민자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	「더 많이, 더 특별하게! 」 농림축수산업 투자 대폭 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="「더 많이, 더 특별하게! 」 농림축수산업 투자 대폭 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;사업명&nbsp;:&nbsp;「더&nbsp;많이,&nbsp;더&nbsp;특별하게!&nbsp;」&nbsp;농림축수산업&nbsp;투자&nbsp;대폭&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;벼&nbsp;경영안정자금,&nbsp;농어민공익수당,&nbsp;한우산업·임업·수산업&nbsp;소득지원&nbsp;대폭&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;스마트농업·노지&nbsp;디지털&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;스마트농업&nbsp;육성지구&nbsp;유치&nbsp;+&nbsp;청년임대형&nbsp;스마트팜&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;청년&nbsp;일자리&nbsp;확대&nbsp;및&nbsp;농어촌&nbsp;인력&nbsp;부족&nbsp;문제&nbsp;해소&nbsp;대책&nbsp;시행<br><br>□&nbsp;목&nbsp;표&nbsp;:&nbsp;농어민&nbsp;기본권&nbsp;보장&nbsp;및&nbsp;소득증대&nbsp;기여<br><br>□&nbsp;우선순위&nbsp;:&nbsp;최우선<br><br>□&nbsp;이행방법&nbsp;:&nbsp;실태조사&nbsp;→&nbsp;군민&nbsp;의견&nbsp;수렴&nbsp;→&nbsp;사업&nbsp;확대&nbsp;시행<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026&nbsp;~&nbsp;2030<br><br>□&nbsp;재원조달방안&nbsp;:&nbsp;국비,&nbsp;지방비(특별시비&nbsp;+&nbsp;군비)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

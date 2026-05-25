@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박태경 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	시민과의 소통, 박태경의 일상이 되다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="시민과의 소통, 박태경의 일상이 되다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;:&nbsp;시민과&nbsp;직접&nbsp;소통하기&nbsp;위한&nbsp;다양한&nbsp;방법을&nbsp;찾아&nbsp;시민분들이&nbsp;편하게&nbsp;시장에게&nbsp;직접&nbsp;제안&nbsp;또는&nbsp;건의할&nbsp;수&nbsp;있는&nbsp;시스템을&nbsp;갖추고,&nbsp;시민&nbsp;입장에서는&nbsp;민원에&nbsp;대한&nbsp;빠른&nbsp;응답과&nbsp;해결로&nbsp;책임행정,&nbsp;신뢰행정&nbsp;그리고&nbsp;빠른&nbsp;응답과&nbsp;행정을&nbsp;실천하겠습니다.<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;시민&nbsp;참여형&nbsp;AI민원&nbsp;플랫폼&nbsp;설치(민원해결&nbsp;전담조직&nbsp;신설)<br>&nbsp;&nbsp;-&nbsp;일과시간&nbsp;중&nbsp;1/2은&nbsp;시민의&nbsp;삶의&nbsp;현장에서&nbsp;머무르겠습니다.<br>&nbsp;&nbsp;-&nbsp;SNS를&nbsp;통한&nbsp;양방향&nbsp;24시간&nbsp;소통채널&nbsp;마련<br>&nbsp;&nbsp;-&nbsp;단체별,&nbsp;계층별&nbsp;지역별&nbsp;시민단체와의&nbsp;정례적&nbsp;대화&nbsp;채널&nbsp;마련<br>&nbsp;&nbsp;-&nbsp;정례적인&nbsp;언론인과의&nbsp;시정&nbsp;브리핑&nbsp;운영<br><br>○&nbsp;이행기간&nbsp;:&nbsp;2026.07.01.~&nbsp;2030.06.30.(4년)<br><br>○&nbsp;재원조달방안&nbsp;등&nbsp;:&nbsp;비&nbsp;예산</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	교통혁신을 통한 시민의 자유로운 이동권 보장</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="교통혁신을 통한 시민의 자유로운 이동권 보장">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;:&nbsp;도·농&nbsp;복합시로서&nbsp;화성지역의&nbsp;가장&nbsp;큰&nbsp;현안인&nbsp;교통문제를&nbsp;시민분들이&nbsp;즉시&nbsp;성과를&nbsp;느낄실&nbsp;수&nbsp;있도록&nbsp;쉬운&nbsp;것부터,&nbsp;그리고&nbsp;시급한&nbsp;지역부터&nbsp;촘촘하게&nbsp;확인하고&nbsp;설계하여&nbsp;화성시&nbsp;전체&nbsp;교통망을&nbsp;혁신적으로&nbsp;개선하려는&nbsp;것임.<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;단계별추진<br>&nbsp;&nbsp;&nbsp;&nbsp;(1단계)&nbsp;교통관련&nbsp;신호,&nbsp;운행속도,&nbsp;광역버스&nbsp;증차&nbsp;등&nbsp;해결&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;(2단계)&nbsp;환승센터,&nbsp;버스노선,&nbsp;도로선형,&nbsp;공영주차장&nbsp;등&nbsp;문제&nbsp;해결<br>&nbsp;&nbsp;&nbsp;&nbsp;(3단계)&nbsp;추진중인&nbsp;사업&nbsp;조속하게&nbsp;완공,&nbsp;대중&nbsp;노선&nbsp;확충(도로&nbsp;등)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;(4단계)&nbsp;신설도로&nbsp;및&nbsp;화성시&nbsp;전역&nbsp;철도&nbsp;신설&nbsp;계획&nbsp;정부&nbsp;건의&nbsp;활동&nbsp;등<br>&nbsp;&nbsp;-&nbsp;GTX-A,&nbsp;GTX-C,&nbsp;분당선,&nbsp;신분당선&nbsp;조속추진,&nbsp;경기남부광역철도&nbsp;반영&nbsp;등<br>&nbsp;&nbsp;-&nbsp;교통&nbsp;소외지역&nbsp;대중교통&nbsp;노선&nbsp;확충<br>&nbsp;&nbsp;-&nbsp;구청별&nbsp;교통안전&nbsp;관제센터&nbsp;건립<br>&nbsp;&nbsp;-&nbsp;화성시&nbsp;전역&nbsp;시민&nbsp;생활을&nbsp;이어주는&nbsp;순환철도&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;경제&nbsp;흐름을&nbsp;이어주는&nbsp;동·서간&nbsp;반도체(향남↔이천)&nbsp;노선&nbsp;신설<br>&nbsp;&nbsp;-&nbsp;경부선&nbsp;복선&nbsp;철도&nbsp;평택&nbsp;연장<br>&nbsp;&nbsp;-&nbsp;한강&nbsp;연결&nbsp;자전거&nbsp;도로&nbsp;신설(신리천-오산천&nbsp;구간)<br><br>○&nbsp;이행기간&nbsp;:&nbsp;2026.07.01.~&nbsp;2030.06.30.(4년)<br><br>○&nbsp;재원조달방안&nbsp;등&nbsp;:&nbsp;도로&nbsp;및&nbsp;철도관련&nbsp;국·도비&nbsp;및&nbsp;지방재원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	아이들이 행복한 보육과 교육환경 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="아이들이 행복한 보육과 교육환경 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;:&nbsp;보육료와&nbsp;교육비&nbsp;지원을&nbsp;통하여&nbsp;어린이의&nbsp;안전한&nbsp;보육환경과&nbsp;교육&nbsp;환경&nbsp;그리고&nbsp;학부모의&nbsp;경제적&nbsp;부담을&nbsp;줄여주고자&nbsp;합니다.&nbsp;특히&nbsp;젊은&nbsp;부모들이&nbsp;안심&nbsp;하고&nbsp;경제활동에&nbsp;전념하며&nbsp;자녀를&nbsp;양육할&nbsp;수&nbsp;있는&nbsp;환경을&nbsp;조성하겠습니다.&nbsp;특히&nbsp;정규&nbsp;교육과정에서는&nbsp;지역&nbsp;내&nbsp;최고의&nbsp;명문학교로&nbsp;자리잡고&nbsp;있는&nbsp;학교의&nbsp;우수한&nbsp;교육시스템을&nbsp;다른&nbsp;학교에도&nbsp;전파하여&nbsp;지역에&nbsp;훌륭한&nbsp;인재가&nbsp;더&nbsp;많이&nbsp;양성되는&nbsp;교육적&nbsp;토양을&nbsp;만들어&nbsp;내겠습니다.&nbsp;이와는&nbsp;별개로&nbsp;산업분야에&nbsp;있어서도&nbsp;AI로&nbsp;급변하는&nbsp;산업계의&nbsp;작업환경&nbsp;변화에&nbsp;근로자분들이&nbsp;충분하게&nbsp;준비할&nbsp;수&nbsp;있도록&nbsp;데이터&nbsp;관리자,&nbsp;AI운영자&nbsp;등에&nbsp;관한&nbsp;교육비&nbsp;전액을&nbsp;지원하여,&nbsp;화성시민분들이&nbsp;혹시나&nbsp;직장을&nbsp;잃게&nbsp;될&nbsp;위험이&nbsp;없도록&nbsp;하겠습니다.<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;초등학교&nbsp;입교&nbsp;전&nbsp;현장&nbsp;교육비&nbsp;등에&nbsp;보육료&nbsp;전액&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;일반계&nbsp;고등학교&nbsp;학습&nbsp;능력&nbsp;상향&nbsp;평준화&nbsp;도모<br>&nbsp;&nbsp;-&nbsp;국립대학교&nbsp;분교&nbsp;설치&nbsp;및&nbsp;글로벌&nbsp;대학&nbsp;캠퍼스&nbsp;유치<br>&nbsp;&nbsp;-&nbsp;화성시&nbsp;인재개발원&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;직업훈련&nbsp;및&nbsp;어학&nbsp;자격증&nbsp;취득&nbsp;비용&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;이공계&nbsp;고등학교&nbsp;신설&nbsp;및&nbsp;계약학과&nbsp;신설<br><br>○&nbsp;이행기간&nbsp;:&nbsp;2026.07.01.~&nbsp;2030.06.30.(4년)<br><br>○&nbsp;재원조달방안&nbsp;등&nbsp;:&nbsp;보육&nbsp;및&nbsp;교육관련&nbsp;국·도비&nbsp;및&nbsp;지방재원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	지역특성이 고려된 동·서의 균형 발전</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="지역특성이 고려된 동·서의 균형 발전">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;:&nbsp;화성시&nbsp;각&nbsp;구청별&nbsp;지리적&nbsp;특성과&nbsp;시민의&nbsp;정체성이&nbsp;고려된&nbsp;특화&nbsp;전략으로&nbsp;동·서의&nbsp;균형&nbsp;발전을&nbsp;이루고자&nbsp;합니다.&nbsp;특히&nbsp;만세구의&nbsp;경우&nbsp;관광&nbsp;및&nbsp;산업&nbsp;인프라&nbsp;자원을&nbsp;활용한&nbsp;특구&nbsp;전략으로,&nbsp;효행구의&nbsp;경우&nbsp;화성의&nbsp;정체성과&nbsp;역사&nbsp;스토리를&nbsp;바탕으로&nbsp;한&nbsp;문화&nbsp;특화단지로,&nbsp;병점구의&nbsp;경우&nbsp;구도심&nbsp;개발과&nbsp;역세권&nbsp;개발로&nbsp;새롭게&nbsp;성장하는&nbsp;병점구로,&nbsp;동탄구는&nbsp;기술·연구&nbsp;그리고&nbsp;R/D&nbsp;관련&nbsp;글로벌&nbsp;기업의&nbsp;유치로&nbsp;구청별&nbsp;발전&nbsp;전략이&nbsp;화성시의&nbsp;성장을&nbsp;이뤄낼&nbsp;수&nbsp;있도록&nbsp;하겠습니다.<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;만세구&nbsp;:&nbsp;관광특구&nbsp;및&nbsp;기술&nbsp;중심의&nbsp;첨단산업과&nbsp;기존산업의&nbsp;특화지원<br>&nbsp;&nbsp;-&nbsp;효행구&nbsp;:&nbsp;지리적&nbsp;영사와&nbsp;정통성을&nbsp;바탕으로&nbsp;한&nbsp;역사문화단지&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;병점구&nbsp;:&nbsp;구도심&nbsp;활성화&nbsp;및&nbsp;역세권&nbsp;개발로&nbsp;새로운&nbsp;병점구로<br>&nbsp;&nbsp;-&nbsp;동탄구&nbsp;:&nbsp;기술&nbsp;중심&nbsp;연구단지&nbsp;및&nbsp;실증단지&nbsp;조성<br><br>○&nbsp;이행기간&nbsp;:&nbsp;2026.07.01.~&nbsp;2030.06.30.(4년)<br><br>○&nbsp;재원조달방안&nbsp;등&nbsp;:&nbsp;지역개발관련&nbsp;국·도비&nbsp;및&nbsp;지방재원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	지역경제 살리는 소상공인과 기업인 중심 정책지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="지역경제 살리는 소상공인과 기업인 중심 정책지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;:&nbsp;화성시&nbsp;경제의&nbsp;든든한&nbsp;버팀목인&nbsp;10만&nbsp;소상공인과&nbsp;2만5천여&nbsp;제조업이&nbsp;소재한&nbsp;화성시에서는&nbsp;기술&nbsp;및&nbsp;연구&nbsp;중심&nbsp;벤처스타트업과&nbsp;창업&nbsp;그리고&nbsp;자영업자들이&nbsp;지역경제&nbsp;활성화에&nbsp;크게&nbsp;기여하고&nbsp;있으므로&nbsp;경제의&nbsp;선순환을&nbsp;통하여&nbsp;시민의&nbsp;삶이&nbsp;더욱&nbsp;안정될&nbsp;수&nbsp;있도록&nbsp;다양한&nbsp;정책과&nbsp;금융적&nbsp;지원을&nbsp;하고자&nbsp;합니다.<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;AI,&nbsp;AI피지컬,&nbsp;로봇,&nbsp;바이오&nbsp;등&nbsp;신규로&nbsp;기술개발&nbsp;기업에&nbsp;연구비&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;화재&nbsp;및&nbsp;안전사고&nbsp;취약지에&nbsp;대한&nbsp;아전&nbsp;지킴이&nbsp;활동&nbsp;재개<br>&nbsp;&nbsp;-&nbsp;소공인&nbsp;공동&nbsp;집적지구&nbsp;전용산단&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;소상공인&nbsp;정책연구&nbsp;센터&nbsp;건립<br>&nbsp;&nbsp;-&nbsp;뿌리산업&nbsp;집중&nbsp;육성<br>&nbsp;&nbsp;-&nbsp;외국인&nbsp;근로자&nbsp;양성화&nbsp;및&nbsp;처우&nbsp;개선<br>&nbsp;&nbsp;-&nbsp;화성시&nbsp;기업지원센터&nbsp;건립&nbsp;등<br><br>○&nbsp;이행기간&nbsp;:&nbsp;2026.07.01.~&nbsp;2030.06.30.(4년)<br><br>○&nbsp;재원조달방안&nbsp;등&nbsp;:&nbsp;지역경제&nbsp;활성와&nbsp;관련&nbsp;국·도비&nbsp;및&nbsp;지방재원</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

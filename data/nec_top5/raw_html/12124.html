@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;나영민 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	AI 미래산업도시 김천 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="AI 미래산업도시 김천 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;침체된&nbsp;지역경제에&nbsp;미래산업&nbsp;기반을&nbsp;구축해&nbsp;청년&nbsp;일자리와&nbsp;기업&nbsp;투자&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;한국전력기술·산단·교통망을&nbsp;연계한&nbsp;첨단산업&nbsp;중심도시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;수도권&nbsp;집중&nbsp;데이터산업의&nbsp;지방&nbsp;분산에&nbsp;대응해&nbsp;김천&nbsp;미래&nbsp;성장동력&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;데이터센터&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기반&nbsp;자동차·모빌리티&nbsp;산업&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;산업단지&nbsp;및&nbsp;유휴부지&nbsp;활용&nbsp;첨단산업단지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;한국전력기술&nbsp;연계&nbsp;전력기반&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;AI&nbsp;전문인력&nbsp;양성&nbsp;체계&nbsp;구축&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2027년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;후보지&nbsp;선정&nbsp;및&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙부처&nbsp;및&nbsp;경상북도&nbsp;협의&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;투자유치&nbsp;및&nbsp;공모사업&nbsp;대응<br>&nbsp;&nbsp;○&nbsp;2028&nbsp;~&nbsp;2029년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기반시설&nbsp;조성&nbsp;및&nbsp;관련&nbsp;산업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인력양성&nbsp;및&nbsp;산학협력&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;데이터센터&nbsp;및&nbsp;연계산업&nbsp;단계별&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2030년&nbsp;이후&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;산업클러스터&nbsp;고도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;일자리&nbsp;및&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김천&nbsp;미래산업&nbsp;거점도시&nbsp;완성&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·민간투자&nbsp;연계&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;산업통상자원부·과학기술정보통신부&nbsp;공모사업&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;경상북도&nbsp;및&nbsp;민간기업&nbsp;협력체계&nbsp;구축</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	민생경제 회복 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="민생경제 회복 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;소상공인·농업인·청년이&nbsp;함께&nbsp;살아나는&nbsp;지역순환&nbsp;경제&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;시민이&nbsp;체감하는&nbsp;생활밀착형&nbsp;민생경제&nbsp;회복&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;배달료·마케팅·온라인&nbsp;판로&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;전통시장&nbsp;및&nbsp;골목상권&nbsp;활성화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;스마트농업&nbsp;확대&nbsp;및&nbsp;청년농&nbsp;육성사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;비닐하우스·농약·비료&nbsp;등&nbsp;영농부담&nbsp;경감&nbsp;지원&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;기업유치&nbsp;및&nbsp;지역일자리&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2027년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인·농업인&nbsp;실태조사&nbsp;및&nbsp;지원체계&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전통시장·골목상권&nbsp;지원사업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;비닐하우스·농자재&nbsp;지원사업&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년농&nbsp;및&nbsp;로컬마켓&nbsp;시범사업&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;2028&nbsp;~&nbsp;2029년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트농업&nbsp;확대&nbsp;및&nbsp;공동브랜드&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민공동수익형&nbsp;마을사업&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업유치&nbsp;및&nbsp;지역일자리&nbsp;연계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농산물&nbsp;온라인&nbsp;판로&nbsp;및&nbsp;공공급식&nbsp;연계&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;2030년&nbsp;이후&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농촌·도심&nbsp;연계&nbsp;지역순환경제&nbsp;정착<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지속가능한&nbsp;스마트농업&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년·소상공인·농업인이&nbsp;함께&nbsp;성장하는&nbsp;경제&nbsp;도시&nbsp;실현&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·민간투자&nbsp;연계&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;중소벤처기업부·농림축산식품부&nbsp;공모사업&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;경상북도&nbsp;및&nbsp;관계기관&nbsp;협력체계&nbsp;구축</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	대경선 직지역 연장 및 광역교통망 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="대경선 직지역 연장 및 광역교통망 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;대경선&nbsp;연계&nbsp;확대를&nbsp;위한&nbsp;김천&nbsp;접근성&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;혁신도시·원도심·읍면지역을&nbsp;연결하는&nbsp;교통체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;이동편의와&nbsp;지역상권&nbsp;활성화&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대경선&nbsp;직지역&nbsp;연장&nbsp;추진&nbsp;및&nbsp;관계기관&nbsp;협의&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;김천역·KTX김천구미역&nbsp;연계&nbsp;교통망&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;출·퇴근&nbsp;급행버스&nbsp;및&nbsp;읍면&nbsp;순환교통&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;직지사·전통시장·축제&nbsp;연계&nbsp;교통체계&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;김밥축제&nbsp;등&nbsp;대형행사&nbsp;교통혼잡&nbsp;대응체계&nbsp;구축&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2027년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광역교통&nbsp;협의체&nbsp;구성&nbsp;및&nbsp;교통체계&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;급행버스·순환교통&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2028&nbsp;~&nbsp;2029년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김천역&nbsp;연계&nbsp;교통망&nbsp;및&nbsp;환승체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광·상권&nbsp;연계&nbsp;교통&nbsp;개선사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2030년&nbsp;이후&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대경선&nbsp;직지역&nbsp;연장&nbsp;및&nbsp;광역교통체계&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·민간투자&nbsp;연계&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;국토교통부&nbsp;광역교통사업&nbsp;및&nbsp;공모사업&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;경상북도·국가철도공단&nbsp;등&nbsp;관계기관&nbsp;협력&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	24시간 안심 의료·복지 도시 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="24시간 안심 의료·복지 도시 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;김천시민&nbsp;누구나&nbsp;안심할&nbsp;수&nbsp;있는&nbsp;생활권&nbsp;의료·복지체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;의료&nbsp;사각지대&nbsp;해소&nbsp;및&nbsp;생활밀착형&nbsp;돌봄&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;고령화&nbsp;시대에&nbsp;대응하는&nbsp;김천형&nbsp;통합복지&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;24시간&nbsp;어린이&nbsp;진료체계&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;의료취약지역&nbsp;방문건강·돌봄서비스&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;장애아동&nbsp;돌봄&nbsp;및&nbsp;보조기기&nbsp;지원&nbsp;바우처&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;복합&nbsp;시니어&nbsp;캠퍼스&nbsp;및&nbsp;세대통합형&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;다문화·취약계층&nbsp;맞춤형&nbsp;지원&nbsp;강화&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2027년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어린이&nbsp;야간·휴일&nbsp;진료&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취약계층&nbsp;돌봄&nbsp;지원&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2028&nbsp;~&nbsp;2029년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애아동·어르신&nbsp;통합복지사업&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방문건강·생활돌봄&nbsp;체계&nbsp;강화&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;2030년&nbsp;이후&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김천형&nbsp;통합&nbsp;의료·복지&nbsp;안전망&nbsp;구축<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·민간투자&nbsp;연계&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;보건복지부&nbsp;공공의료&nbsp;및&nbsp;통합돌봄사업&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;경상북도·김천의료원&nbsp;등&nbsp;관계기관&nbsp;협력&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	머물고 싶은 문화·관광·체육도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="머물고 싶은 문화·관광·체육도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;머물고&nbsp;싶은&nbsp;체류형&nbsp;관광도시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;문화·관광·체육을&nbsp;연계한&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;시민이&nbsp;함께&nbsp;즐기는&nbsp;생활문화·생활체육&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;부항댐&nbsp;체류형&nbsp;관광&nbsp;활성화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;직지사·원도심&nbsp;연계&nbsp;관광&nbsp;및&nbsp;상권&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;파크골프&nbsp;전국대회&nbsp;등&nbsp;체육행사&nbsp;유치&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;국제규격&nbsp;야구장&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;생활축구&nbsp;및&nbsp;생활체육&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;드론쇼·야외공연&nbsp;등&nbsp;생활밀착형&nbsp;문화축제&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2027년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체류형&nbsp;관광&nbsp;및&nbsp;체육시설&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활문화축제&nbsp;및&nbsp;체육행사&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2028&nbsp;~&nbsp;2029년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광·상권&nbsp;연계사업&nbsp;및&nbsp;체육인프라&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;파크골프·생활체육&nbsp;활성화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2030년&nbsp;이후&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체류형&nbsp;문화관광도시&nbsp;기반&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전국단위&nbsp;문화·체육도시&nbsp;브랜드&nbsp;구축<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·민간투자&nbsp;연계&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;문화체육관광부&nbsp;생활체육·관광활성화&nbsp;사업&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;경상북도&nbsp;및&nbsp;관계기관&nbsp;협력체계&nbsp;구축</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

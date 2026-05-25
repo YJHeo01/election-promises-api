@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;서준오 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	창동차량기지 일대 '서울디지털바이오시티(S-DBC)' 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="창동차량기지 일대 '서울디지털바이오시티(S-DBC)' 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;창동차량기지&nbsp;이전<br>&nbsp;&nbsp;○&nbsp;800여&nbsp;개&nbsp;기업과&nbsp;8만&nbsp;5천&nbsp;개&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;바이오·ICT&nbsp;대기업&nbsp;중심의&nbsp;첨단&nbsp;산업&nbsp;클러스터&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;동북권&nbsp;최대의&nbsp;경제&nbsp;거점&nbsp;조성&nbsp;및&nbsp;지역&nbsp;내&nbsp;양질의&nbsp;일자리&nbsp;대거&nbsp;창출<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;창동차량기지&nbsp;신속&nbsp;이전&nbsp;완료&nbsp;및&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;및&nbsp;정부와&nbsp;협력하여&nbsp;기업지원시설&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;제약기업,&nbsp;앵커&nbsp;기업(대기업)&nbsp;및&nbsp;연구소&nbsp;투자&nbsp;유치&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;’26년~&nbsp;:&nbsp;진접차량기지&nbsp;이전&nbsp;완료&nbsp;및&nbsp;산업단지&nbsp;지정&nbsp;고시<br>&nbsp;&nbsp;○&nbsp;’27.12~&nbsp;:&nbsp;창동차량기지&nbsp;일대&nbsp;토지보상&nbsp;완료<br>&nbsp;&nbsp;○&nbsp;’28~&nbsp;:&nbsp;창동차량기지&nbsp;철거&nbsp;및&nbsp;기반시설&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;’30~&nbsp;:&nbsp;(민간)건축&nbsp;인허가&nbsp;및&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;’31.12.~&nbsp;:&nbsp;글로벌&nbsp;바이오&nbsp;센터&nbsp;준공<br>&nbsp;&nbsp;○&nbsp;’32.~&nbsp;:&nbsp;준공&nbsp;및&nbsp;입주<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시·구비&nbsp;일반회계,&nbsp;기금&nbsp;및&nbsp;민간자본&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	광운대역세권 개발을 통한 동북권 거점 신중심 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="광운대역세권 개발을 통한 동북권 거점 신중심 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;광운대역세권에&nbsp;대기업&nbsp;본사와&nbsp;관련&nbsp;기업&nbsp;입주&nbsp;및&nbsp;상업·문화&nbsp;시설을&nbsp;유치해&nbsp;동북권&nbsp;거점&nbsp;중심지역으로&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;현대산업개발&nbsp;본사&nbsp;및&nbsp;관련&nbsp;기업&nbsp;입주<br>&nbsp;&nbsp;○&nbsp;호텔,&nbsp;대형쇼핑몰&nbsp;유치로&nbsp;주거·상업·문화가&nbsp;완벽하게&nbsp;결합된&nbsp;명품주거단지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;실내수영장,&nbsp;라이프스타일&nbsp;도서관,&nbsp;청년창업지원&nbsp;등&nbsp;문화복합공간&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;동일로-광운대&nbsp;연결로&nbsp;설치&nbsp;및&nbsp;한천교&nbsp;확장을&nbsp;통한&nbsp;월계-공릉&nbsp;생활권&nbsp;통합<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;’26.~&nbsp;:&nbsp;(공공용지)&nbsp;건축허가&nbsp;및&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;’28.&nbsp;:&nbsp;준공<br>&nbsp;&nbsp;○&nbsp;~’29.&nbsp;:&nbsp;기반시설&nbsp;및&nbsp;문화복합공간&nbsp;조성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;개발&nbsp;공공기여금&nbsp;등&nbsp;민간자본&nbsp;활용&nbsp;및&nbsp;국·시·구비&nbsp;일반회계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	노후 주거지 신속 재건축·재개발 원스톱 지원체계 마련</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="노후 주거지 신속 재건축·재개발 원스톱 지원체계 마련">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;1기&nbsp;신도시&nbsp;당시&nbsp;조성된&nbsp;노후&nbsp;주거지의&nbsp;신속한&nbsp;재건축·재개발&nbsp;촉진을&nbsp;통한&nbsp;주민&nbsp;주거환경&nbsp;개선&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;건축·재개발&nbsp;신속&nbsp;추진을&nbsp;위한&nbsp;원스톱&nbsp;지원&nbsp;조직&nbsp;체계&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;인접공원&nbsp;활용,&nbsp;사업성보정계수&nbsp;개선&nbsp;등&nbsp;정비사업&nbsp;사업성&nbsp;제고<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시·구비&nbsp;일반회계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	GTX-C 노선 조기준공 및 SRT 의정부 연장 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="GTX-C 노선 조기준공 및 SRT 의정부 연장 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;수도권&nbsp;광역급행철도망&nbsp;적기&nbsp;개통으로&nbsp;서울&nbsp;중심부&nbsp;및&nbsp;전국&nbsp;1일&nbsp;생활권&nbsp;연결<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;광운대역을&nbsp;통과하는&nbsp;GTX-C&nbsp;노선을&nbsp;차질&nbsp;없이&nbsp;개통<br>&nbsp;&nbsp;○&nbsp;SRT(수서고속철도)&nbsp;의정부까지&nbsp;연장을&nbsp;추진하여&nbsp;노원구&nbsp;교통&nbsp;접근성&nbsp;향상<br><br>□&nbsp;이행기간<br>[GTX-C노선&nbsp;조기준공]<br>&nbsp;&nbsp;○&nbsp;~26.&nbsp;:&nbsp;GTX-C&nbsp;실착공<br>&nbsp;&nbsp;○&nbsp;~31.&nbsp;:&nbsp;GTX-C&nbsp;준공<br>[SRT&nbsp;의정부&nbsp;연장&nbsp;추진]<br>&nbsp;&nbsp;○&nbsp;26.~&nbsp;:&nbsp;국가철도망&nbsp;계획&nbsp;반영&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시비,&nbsp;기금&nbsp;및&nbsp;민간투자사업(BTO)&nbsp;자금</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	당현천 상류구간 복원 및 4호선 지상구간 방음터널 설치 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="당현천 상류구간 복원 및 4호선 지상구간 방음터널 설치 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;당현천&nbsp;상류(당고개입구오거리~불암산역)&nbsp;750m&nbsp;구간&nbsp;생태하천&nbsp;복원&nbsp;및&nbsp;수변&nbsp;휴게공간&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;4호선&nbsp;지상(노원역~불암산역)&nbsp;1.2km&nbsp;구간&nbsp;소음&nbsp;저감을&nbsp;위한&nbsp;방음터널&nbsp;설치&nbsp;<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;수요&nbsp;충족을&nbsp;통한&nbsp;지속&nbsp;가능한&nbsp;친환경&nbsp;생태,&nbsp;명품주거&nbsp;도시&nbsp;완성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;당현천&nbsp;상류&nbsp;복개구조물&nbsp;철거&nbsp;및&nbsp;자연&nbsp;친화적&nbsp;호안&nbsp;정비,&nbsp;유지용수관로&nbsp;부설<br>&nbsp;&nbsp;○&nbsp;산책로&nbsp;연장,&nbsp;주민&nbsp;휴게공간&nbsp;정비&nbsp;및&nbsp;구조물공&nbsp;정비(교량&nbsp;3개소&nbsp;신설&nbsp;등)<br>&nbsp;&nbsp;○&nbsp;4호선&nbsp;지상구간(노원역~불암산역)&nbsp;터널형&nbsp;방음벽&nbsp;설치&nbsp;및&nbsp;하부&nbsp;보강<br><br>□&nbsp;이행기간<br>[당현천&nbsp;상류구간&nbsp;복원]<br>&nbsp;&nbsp;○&nbsp;~‘26&nbsp;:&nbsp;하천기본계획(변경)&nbsp;고시&nbsp;추진(당현천&nbsp;복원)<br>&nbsp;&nbsp;○&nbsp;’26&nbsp;~&nbsp;‘27&nbsp;:&nbsp;기본&nbsp;및&nbsp;실시설계&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;’28&nbsp;~&nbsp;:&nbsp;생태하천&nbsp;복원&nbsp;본&nbsp;공사&nbsp;착공&nbsp;추진<br>[4호선&nbsp;지상구간&nbsp;방음터널&nbsp;설치]<br>&nbsp;&nbsp;○&nbsp;’26&nbsp;~&nbsp;‘27&nbsp;:&nbsp;사전&nbsp;절차(기본&nbsp;및&nbsp;실시설계)&nbsp;이행&nbsp;및&nbsp;예산확보&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;’28&nbsp;~&nbsp;:&nbsp;방음터널&nbsp;공사&nbsp;및&nbsp;하부보강&nbsp;공사&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시·구비&nbsp;일반회계&nbsp;및&nbsp;특별회계</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

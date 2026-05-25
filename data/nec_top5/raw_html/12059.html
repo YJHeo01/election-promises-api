@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;국영석 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	공공주도 산림·농촌 탄소자산화로 완주형 탄소연금 도입 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="공공주도 산림·농촌 탄소자산화로 완주형 탄소연금 도입 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;완주군&nbsp;산림&nbsp;및&nbsp;농촌&nbsp;자원을&nbsp;활용한&nbsp;공공주도&nbsp;탄소자산화&nbsp;및&nbsp;막대한&nbsp;배출권&nbsp;수익&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;창출된&nbsp;수익을&nbsp;통해&nbsp;연&nbsp;1회&nbsp;전&nbsp;군민&nbsp;탄소배당(지역화폐)&nbsp;지급<br>&nbsp;&nbsp;○&nbsp;탄소&nbsp;데이터&nbsp;모니터링&nbsp;등&nbsp;청년·임업&nbsp;특화&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;K-그린연금&nbsp;국가&nbsp;표준&nbsp;모델&nbsp;도약<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;군유림·공유림,&nbsp;농촌&nbsp;유휴지&nbsp;등&nbsp;전수조사&nbsp;후&nbsp;정부&nbsp;산림탄소상쇄사업&nbsp;및&nbsp;배출권&nbsp;외부&nbsp;사업&nbsp;공식&nbsp;등록&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;관내&nbsp;산업단지&nbsp;및&nbsp;수도권&nbsp;ESG&nbsp;기업과&nbsp;탄소배출권&nbsp;장기&nbsp;구매계약(MOU)&nbsp;체결<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;모니터링단&nbsp;고용&nbsp;및&nbsp;숲&nbsp;관리&nbsp;참여&nbsp;농민·마을에&nbsp;배당&nbsp;가중치(인센티브)&nbsp;부여<br>&nbsp;&nbsp;○&nbsp;수익의&nbsp;10%를&nbsp;에너지&nbsp;빈곤층&nbsp;및&nbsp;농·축산인&nbsp;기후&nbsp;재난&nbsp;보호망으로&nbsp;환원<br>&nbsp;&nbsp;○&nbsp;수익의&nbsp;20~40%를&nbsp;공공&nbsp;재생에너지에&nbsp;재투자하여&nbsp;배출권&nbsp;수익&nbsp;및&nbsp;군민&nbsp;배당금&nbsp;지속&nbsp;확대<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내(5개년&nbsp;로드맵)&nbsp;배당금&nbsp;지급&nbsp;개시&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군수&nbsp;취임&nbsp;즉시&nbsp;전수조사&nbsp;착수&nbsp;및&nbsp;1~4차년도&nbsp;단계별&nbsp;로드맵&nbsp;이행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;기업&nbsp;판매&nbsp;수익&nbsp;기금화&nbsp;및&nbsp;군민&nbsp;탄소연금&nbsp;지급&nbsp;개시<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;산림청&nbsp;시범지역&nbsp;지정&nbsp;연계로&nbsp;초기&nbsp;조사&nbsp;국비&nbsp;확보&nbsp;및&nbsp;자체&nbsp;군비&nbsp;투입&nbsp;최소화<br>&nbsp;&nbsp;○&nbsp;배출권&nbsp;판매&nbsp;수익의&nbsp;50~70%&nbsp;배당&nbsp;환원&nbsp;및&nbsp;사업&nbsp;재투자&nbsp;등&nbsp;완벽한&nbsp;자립형&nbsp;선순환&nbsp;구조&nbsp;확립</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	500억 농민 든든기금 조성 및 현장 농정으로 스마트 농업 허브 완성  </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="500억 농민 든든기금 조성 및 현장 농정으로 스마트 농업 허브 완성  ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;500억&nbsp;규모의&nbsp;기금&nbsp;조성을&nbsp;통해&nbsp;기후·가격&nbsp;등&nbsp;4대&nbsp;농업&nbsp;위기&nbsp;전방위&nbsp;대응<br>&nbsp;&nbsp;○&nbsp;완주군-조합-농민단체&nbsp;3자&nbsp;협력을&nbsp;통한&nbsp;농민&nbsp;주권&nbsp;실현&nbsp;및&nbsp;소통&nbsp;농정&nbsp;구현&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;데이터&nbsp;기반&nbsp;유통센터&nbsp;및&nbsp;청년&nbsp;스마트팜·축산&nbsp;선순환&nbsp;거점&nbsp;완성<br><br>&nbsp;□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[농민&nbsp;든든기금&nbsp;500억]&nbsp;4대&nbsp;위기(기후·가격·병해충·경영비)&nbsp;대응&nbsp;기금&nbsp;조성,&nbsp;생산비&nbsp;보장&nbsp;및&nbsp;긴급생활안정자금&nbsp;지원시스템&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;[농민&nbsp;주권&nbsp;농정]&nbsp;3자&nbsp;농정협의체&nbsp;상설화&nbsp;및&nbsp;농정&nbsp;심의·의결&nbsp;권한&nbsp;부여,&nbsp;농업예산&nbsp;10%&nbsp;범위&nbsp;내&nbsp;농민&nbsp;제안&nbsp;의무&nbsp;반영제&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;[완주형&nbsp;재해&nbsp;공제]&nbsp;국가&nbsp;재해보험의&nbsp;사각지대를&nbsp;해소하는&nbsp;자체&nbsp;농작물&nbsp;재해&nbsp;공제회&nbsp;설립&nbsp;및&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;[스마트&nbsp;유통&nbsp;거점]&nbsp;이서&nbsp;농공단지&nbsp;중심&nbsp;AI&nbsp;도매유통센터(스마트&nbsp;APC)&nbsp;구축&nbsp;및&nbsp;청년농&nbsp;ICT&nbsp;스마트팜·축산&nbsp;실증단지&nbsp;조성<br><br>&nbsp;□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;착수기(취임&nbsp;1년&nbsp;차&nbsp;)&nbsp;:&nbsp;3자&nbsp;농정협의체&nbsp;조례&nbsp;제정,&nbsp;든든기금&nbsp;조성&nbsp;및&nbsp;재해&nbsp;공제회&nbsp;설립&nbsp;발의,&nbsp;스마트&nbsp;유통센터&nbsp;타당성&nbsp;용역&nbsp;착수&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;실행기(임기&nbsp;내)&nbsp;:&nbsp;기금&nbsp;500억&nbsp;확보&nbsp;달성,&nbsp;반값&nbsp;농자재&nbsp;지원&nbsp;본격화,&nbsp;스마트&nbsp;혁신타운&nbsp;준공&nbsp;및&nbsp;부분&nbsp;가동&nbsp;개시<br><br>&nbsp;□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;군&nbsp;예산&nbsp;+&nbsp;농협&nbsp;상생기금&nbsp;+&nbsp;로컬푸드&nbsp;환원금&nbsp;+&nbsp;고향사랑기부금(지정기부)&nbsp;매칭으로&nbsp;든든기금&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;농식품부&nbsp;스마트&nbsp;APC&nbsp;및&nbsp;스마트&nbsp;축산단지&nbsp;조성&nbsp;등&nbsp;농·축산&nbsp;분야&nbsp;핵심&nbsp;국비&nbsp;전방위&nbsp;유치&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;군수가&nbsp;직접&nbsp;챙기는&nbsp;분기별&nbsp;'현장&nbsp;농정&nbsp;브리핑'&nbsp;정례화&nbsp;및&nbsp;전담&nbsp;TF&nbsp;구성을&nbsp;통한&nbsp;신속&nbsp;인허가&nbsp;지원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	올인원(All-in-One) 돌봄·교육 및 수소특화 맞춤형 인재 양성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="올인원(All-in-One) 돌봄·교육 및 수소특화 맞춤형 인재 양성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;맞벌이&nbsp;부부&nbsp;육아&nbsp;공백&nbsp;제로화를&nbsp;위한&nbsp;지자체&nbsp;중심&nbsp;온종일&nbsp;돌봄&nbsp;체계&nbsp;완비<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;거점&nbsp;명문고&nbsp;육성&nbsp;및&nbsp;사교육비&nbsp;부담&nbsp;없는&nbsp;공교육&nbsp;환경&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;수소특화&nbsp;국가산단&nbsp;조기&nbsp;조성과&nbsp;연계한&nbsp;맞춤형&nbsp;인재&nbsp;양성으로&nbsp;지역&nbsp;정착&nbsp;일자리&nbsp;창출&nbsp;&nbsp;&nbsp;&nbsp;<br><br>&nbsp;□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[수소경제&nbsp;핵심&nbsp;거점]&nbsp;수소특화&nbsp;국가산단&nbsp;조기&nbsp;조성&nbsp;및&nbsp;관련&nbsp;앵커&nbsp;기업&nbsp;선제적&nbsp;유치&nbsp;추진&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;[맞춤형&nbsp;인재&nbsp;양성]&nbsp;수소기술교육원(폴리텍)&nbsp;설립&nbsp;및&nbsp;일자리사관학교&nbsp;운영으로&nbsp;&nbsp;현장&nbsp;실무형&nbsp;전문&nbsp;인력&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;[온종일&nbsp;돌봄&nbsp;체계]&nbsp;아침·틈새·저녁·긴급&nbsp;등&nbsp;시간대별&nbsp;맞춤형&nbsp;돌봄&nbsp;및&nbsp;읍면&nbsp;단위&nbsp;우리동네&nbsp;돌봄센터&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;[명문고&nbsp;육성&nbsp;및&nbsp;복지]&nbsp;거점&nbsp;명문고&nbsp;시범학교&nbsp;집중&nbsp;지원(1타&nbsp;강사&nbsp;연계&nbsp;등),&nbsp;1인&nbsp;1예체능&nbsp;특성화&nbsp;교육&nbsp;및&nbsp;전주권&nbsp;통학버스&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;[산학연&nbsp;연계&nbsp;교육]&nbsp;수소에너지고&nbsp;등&nbsp;직업계고&nbsp;교육&nbsp;혁신&nbsp;및&nbsp;지역대학&nbsp;연계&nbsp;수소&nbsp;전문학과&nbsp;육성<br>&nbsp;&nbsp;<br>&nbsp;□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;착수기(취임&nbsp;1년&nbsp;차):&nbsp;수소기술교육원&nbsp;유치&nbsp;승인&nbsp;및&nbsp;완주&nbsp;하루종일&nbsp;돌봄센터&nbsp;설립&nbsp;착수&nbsp;<br>&nbsp;&nbsp;○&nbsp;추진기(임기&nbsp;내):&nbsp;수소특화&nbsp;국가산단&nbsp;착공&nbsp;및&nbsp;명문고&nbsp;육성&nbsp;가시화,&nbsp;맞춤형&nbsp;인재&nbsp;양성&nbsp;프로그램&nbsp;본격&nbsp;가동&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;[국·도비&nbsp;확보]&nbsp;수소특화&nbsp;국가산단&nbsp;조성비&nbsp;및&nbsp;교육부·고용노동부&nbsp;공모사업비(폴리텍&nbsp;등)&nbsp;최우선&nbsp;확보&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;[군비&nbsp;전략&nbsp;투입]&nbsp;돌봄센터&nbsp;운영,&nbsp;명문고&nbsp;인프라&nbsp;개선&nbsp;및&nbsp;보편적&nbsp;교육복지(전주권&nbsp;통학버스&nbsp;등)에&nbsp;군비&nbsp;집중</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	공공의료·사법·행정·교통 인프라 확충으로 행정 주권 및 안전 자립 도시 완비</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="공공의료·사법·행정·교통 인프라 확충으로 행정 주권 및 안전 자립 도시 완비">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전주에&nbsp;의존하던&nbsp;핵심&nbsp;공공서비스를&nbsp;완주&nbsp;내에서&nbsp;해결하는&nbsp;지역&nbsp;완결형&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;공공기관&nbsp;유치와&nbsp;교통망&nbsp;혁신을&nbsp;통해&nbsp;'진짜&nbsp;10만&nbsp;자족도시&nbsp;완주'의&nbsp;위상&nbsp;정립<br>&nbsp;&nbsp;<br>&nbsp;□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[공공의료&nbsp;체계]&nbsp;24시간&nbsp;응급실·소아과·분만실&nbsp;완비&nbsp;공공의료원&nbsp;설립&nbsp;및&nbsp;응급&nbsp;핫라인&nbsp;구축&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;[행정&nbsp;주권&nbsp;확보]&nbsp;전주로&nbsp;갈&nbsp;필요&nbsp;없는&nbsp;생활형&nbsp;공공기관&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;세무지서,&nbsp;고용복지플러스센터,&nbsp;법원·등기소,&nbsp;선거관리위원회&nbsp;유치&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건강보험공단,&nbsp;농산물품질관리원,&nbsp;농어촌공사&nbsp;완주지사&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;[교통·치안&nbsp;인프라]&nbsp;안전하고&nbsp;뻥&nbsp;뚫린&nbsp;생활환경&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삼봉파출소&nbsp;신설로&nbsp;촘촘한&nbsp;골목&nbsp;치안&nbsp;및&nbsp;정주&nbsp;안전성&nbsp;확보&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이서&nbsp;하이패스&nbsp;IC&nbsp;신설&nbsp;및&nbsp;삼례&nbsp;IC&nbsp;진출입로&nbsp;확장을&nbsp;통한&nbsp;고속도로&nbsp;접근성&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;KTX&nbsp;삼례역&nbsp;정차&nbsp;및&nbsp;용진~우아&nbsp;도로&nbsp;조속&nbsp;개통으로&nbsp;광역&nbsp;교통&nbsp;중심지&nbsp;도약<br><br>&nbsp;□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;준비기(취임&nbsp;즉시&nbsp;):&nbsp;완주형&nbsp;공공기관&nbsp;유치단&nbsp;및&nbsp;교통혁신&nbsp;TF&nbsp;가동,&nbsp;부지&nbsp;선정&nbsp;공론화&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;실행기(임기&nbsp;내):&nbsp;핵심&nbsp;기관&nbsp;유치&nbsp;확정&nbsp;및&nbsp;교통&nbsp;인프라(하이패스&nbsp;IC,&nbsp;도로&nbsp;등)&nbsp;착공·개통&nbsp;완료<br><br>&nbsp;□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;[국비&nbsp;우선&nbsp;확보]&nbsp;'필수의료&nbsp;특별법'&nbsp;및&nbsp;국유재산기금&nbsp;등&nbsp;국가&nbsp;특별회계&nbsp;재원&nbsp;집중&nbsp;매칭&nbsp;<br>&nbsp;&nbsp;○&nbsp;[지자체&nbsp;지원]&nbsp;유휴&nbsp;군유지&nbsp;활용&nbsp;및&nbsp;무상&nbsp;임대&nbsp;조건&nbsp;제공으로&nbsp;공공기관&nbsp;유치&nbsp;진입&nbsp;장벽&nbsp;완화<br>&nbsp;&nbsp;○&nbsp;[입법·정책&nbsp;공조]&nbsp;법원&nbsp;설치&nbsp;등&nbsp;법적&nbsp;근거&nbsp;마련을&nbsp;위한&nbsp;중앙당&nbsp;차원의&nbsp;입법&nbsp;협력&nbsp;및&nbsp;경찰청·국토부&nbsp;전방위&nbsp;협의</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	K-로컬디저트 중심지 및 완주형 모두의 창업밸리 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="K-로컬디저트 중심지 및 완주형 모두의 창업밸리 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;우수&nbsp;농특산물(딸기,&nbsp;생강,&nbsp;곶감&nbsp;등)을&nbsp;활용한&nbsp;K-로컬디저트&nbsp;산업&nbsp;육성과&nbsp;세대·성별&nbsp;맞춤형&nbsp;지원으로&nbsp;아이디어&nbsp;하나로&nbsp;도전하는&nbsp;기회균등&nbsp;창업&nbsp;생태계&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;지정&nbsp;국가창업도시&nbsp;선정을&nbsp;통해&nbsp;창업&nbsp;인재가&nbsp;모여드는&nbsp;활력&nbsp;도시&nbsp;구축<br><br>&nbsp;□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[장벽&nbsp;없는&nbsp;창업&nbsp;지원]&nbsp;무서류&nbsp;아이디어&nbsp;챌린지&nbsp;및&nbsp;매년&nbsp;유망&nbsp;창업가&nbsp;선발&nbsp;<br>&nbsp;&nbsp;W-스타트업&nbsp;100&nbsp;오디션&nbsp;개최&nbsp;(초기&nbsp;활동금&nbsp;및&nbsp;최대&nbsp;2천만&nbsp;원&nbsp;씨앗&nbsp;자금&nbsp;지원)<br>&nbsp;&nbsp;○&nbsp;[맞춤형&nbsp;3-Track&nbsp;육성]&nbsp;청년(테크·디저트·로컬),&nbsp;신중년(경험·스마트팜),&nbsp;여성(생활&nbsp;밀착형&nbsp;소자본)&nbsp;세대별·성별&nbsp;맞춤&nbsp;창업&nbsp;인큐베이팅&nbsp;및&nbsp;무상&nbsp;공유&nbsp;오피스&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;[로컬디저트&nbsp;특화]&nbsp;딸기&nbsp;케이크,&nbsp;곶감&nbsp;티라미수,&nbsp;생강&nbsp;마카롱&nbsp;등&nbsp;시그니처R&D&nbsp;지원&nbsp;및&nbsp;파티시에·바리스타&nbsp;전문&nbsp;인력&nbsp;양성<br>&nbsp;&nbsp;○&nbsp;[상권&nbsp;및&nbsp;공간&nbsp;혁신]&nbsp;삼례(예술)·고산(미식)·소양(감성)·구이(힐링)&nbsp;자원을&nbsp;연계한&nbsp;글로컬&nbsp;상권&nbsp;조성&nbsp;및&nbsp;전국&nbsp;규모&nbsp;완주&nbsp;디저트&nbsp;페스타&nbsp;개최<br>&nbsp;&nbsp;○&nbsp;[재도전&nbsp;안전망&nbsp;구축]&nbsp;실패를&nbsp;스펙으로&nbsp;인정하고&nbsp;재창업을&nbsp;돕는&nbsp;재도전&nbsp;응원센터&nbsp;및&nbsp;재기&nbsp;지원&nbsp;펀드&nbsp;운영<br>&nbsp;&nbsp;<br>&nbsp;□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;준비기(취임&nbsp;즉시)&nbsp;:&nbsp;글로컬&nbsp;상권&nbsp;창출&nbsp;전담&nbsp;TF&nbsp;가동&nbsp;및&nbsp;디저트·창업&nbsp;육성&nbsp;5개년&nbsp;종합계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;실행기(임기&nbsp;내)&nbsp;:&nbsp;정부&nbsp;지정&nbsp;10대&nbsp;국가&nbsp;창업도시&nbsp;선정&nbsp;총력&nbsp;추진&nbsp;및&nbsp;완주형&nbsp;창업&nbsp;오디션·생태계&nbsp;전면&nbsp;가동<br><br>&nbsp;□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;중소벤처기업부&nbsp;모두의&nbsp;창업&nbsp;프로젝트&nbsp;및&nbsp;글로컬&nbsp;상권(전국&nbsp;17곳)&nbsp;공모사업&nbsp;최우선&nbsp;확보로&nbsp;예산&nbsp;효율&nbsp;극대화<br>&nbsp;&nbsp;○&nbsp;예비&nbsp;도전자&nbsp;창업&nbsp;씨앗&nbsp;자금&nbsp;지원,&nbsp;로컬디저트&nbsp;R&D&nbsp;지원,&nbsp;유휴&nbsp;공간(청사&nbsp;등)&nbsp;리모델링에&nbsp;군비&nbsp;전략&nbsp;투입</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

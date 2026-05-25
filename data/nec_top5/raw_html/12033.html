@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;황세연 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	6.25 미군기 오폭 사고 및 1977년 이리역 폭발 사고 손해배상 청구 등</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="6.25 미군기 오폭 사고 및 1977년 이리역 폭발 사고 손해배상 청구 등">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;이리역&nbsp;국가적&nbsp;참사(6·25&nbsp;미군기&nbsp;오폭&nbsp;사고&nbsp;·&nbsp;1977년&nbsp;이리역&nbsp;폭발&nbsp;사고)&nbsp;진상규명&nbsp;및&nbsp;피해&nbsp;회복&nbsp;추진이&nbsp;절대적으로&nbsp;필요합니다.<br><br>&nbsp;&nbsp;○&nbsp;개인차원&nbsp;:&nbsp;70년&nbsp;동안&nbsp;묻혀&nbsp;있던&nbsp;억울함이&nbsp;풀린다.&nbsp;희생자&nbsp;유가족들은&nbsp;국가로부터&nbsp;공식적인&nbsp;사과와&nbsp;배상을&nbsp;받게&nbsp;된다.&nbsp;생존&nbsp;피해자들은&nbsp;경제적&nbsp;보상과&nbsp;함께&nbsp;명예를&nbsp;회복합니다.&nbsp;<br><br>&nbsp;&nbsp;○&nbsp;가족&nbsp;차원:&nbsp;희생자&nbsp;자녀와&nbsp;손자녀들은&nbsp;더&nbsp;이상&nbsp;사고&nbsp;피해자&nbsp;가족이&nbsp;아니라&nbsp;국가&nbsp;폭력&nbsp;희생자&nbsp;유가족으로서&nbsp;정당한&nbsp;대우를&nbsp;받는다.&nbsp;세대를&nbsp;넘어&nbsp;전승된&nbsp;트라우마가&nbsp;치유됩니다.&nbsp;<br><br>&nbsp;&nbsp;○&nbsp;지역사회&nbsp;차원&nbsp;:&nbsp;익산시는&nbsp;수천억&nbsp;원의&nbsp;배상금을&nbsp;확보해&nbsp;도시&nbsp;재정에&nbsp;숨통이&nbsp;트인다.&nbsp;추모&nbsp;공원과&nbsp;위령비는&nbsp;새로운&nbsp;역사교육의&nbsp;장이&nbsp;되고,&nbsp;평화·인권&nbsp;도시&nbsp;익산의&nbsp;상징이&nbsp;된다.&nbsp;이리역&nbsp;참사는&nbsp;더&nbsp;이상‘익산의&nbsp;수치’가&nbsp;아니라,‘국가가&nbsp;책임진&nbsp;역사적&nbsp;법률&nbsp;검토&nbsp;단계&nbsp;12~24개월&nbsp;배상&nbsp;청구&nbsp;대상&nbsp;확정,&nbsp;소송&nbsp;전략&nbsp;수립,&nbsp;법률&nbsp;의견서&nbsp;작성.<br><br>□&nbsp;이행방법&nbsp;:&nbsp;제3기&nbsp;진실·화해를위한과거사정리위원회&nbsp;출범&nbsp;시&nbsp;공식&nbsp;진상조사&nbsp;신청.&nbsp;②익산시청&nbsp;내「국가책임&nbsp;소송&nbsp;전담&nbsp;TF」설치.&nbsp;③&nbsp;법률&nbsp;전문가·&nbsp;역사&nbsp;전문가&nbsp;공동&nbsp;자문단&nbsp;구성.&nbsp;피해자·유가족&nbsp;실태&nbsp;전수조사.&nbsp;④&nbsp;국가&nbsp;및&nbsp;관련&nbsp;책임&nbsp;주체에&nbsp;대한&nbsp;법률적&nbsp;책임&nbsp;검토&nbsp;후&nbsp;손해배상&nbsp;청구&nbsp;추진.&nbsp;⑤&nbsp;이리역&nbsp;국가참사&nbsp;기념일&nbsp;⑥&nbsp;현재&nbsp;추모탑을&nbsp;눈에&nbsp;띄는&nbsp;곳으로&nbsp;이전&nbsp;또는&nbsp;재건립&nbsp;추진.<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간&nbsp;:&nbsp;2026년~2030년&nbsp;(5년)<br><br>□&nbsp;재원조달방안&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	 한방과 양방이 함께하는 세계 유일 장수 도시로 계획, 기네스북 도전</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title=" 한방과 양방이 함께하는 세계 유일 장수 도시로 계획, 기네스북 도전">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;익산&nbsp;시민의&nbsp;평균&nbsp;연령은&nbsp;해마다&nbsp;높아지고&nbsp;있습니다.&nbsp;2026년&nbsp;현재&nbsp;익산시&nbsp;65세&nbsp;이상&nbsp;인구&nbsp;비율은&nbsp;23.4%로,&nbsp;이미&nbsp;초고령사회에&nbsp;진입했다.&nbsp;고령&nbsp;시민들의&nbsp;가장&nbsp;큰&nbsp;불안은‘아프면&nbsp;어디로&nbsp;가야&nbsp;하나?’&nbsp;입니다.&nbsp;큰&nbsp;병에&nbsp;걸리면&nbsp;서울이나&nbsp;전주로&nbsp;가야&nbsp;한다는&nbsp;인식이&nbsp;여전합니다.&nbsp;익산에는&nbsp;놀라운&nbsp;의료&nbsp;자산이&nbsp;있다.&nbsp;원광대학교병원은&nbsp;대한민국에서,&nbsp;아니&nbsp;전&nbsp;세계에서&nbsp;유일하게&nbsp;한방병원과&nbsp;양방병원이&nbsp;같은&nbsp;캠퍼스에서&nbsp;운영되는&nbsp;곳입니다.&nbsp;한의사와&nbsp;의사가&nbsp;협진하고,&nbsp;수술&nbsp;후&nbsp;한방&nbsp;재활을&nbsp;받을&nbsp;수&nbsp;있는&nbsp;시스템이&nbsp;이미&nbsp;존재합니다.&nbsp;그런데도&nbsp;익산은&nbsp;이&nbsp;강점을&nbsp;제대로&nbsp;활용하지&nbsp;못하고&nbsp;있습니다.&nbsp;암&nbsp;진단을&nbsp;받은&nbsp;환자는&nbsp;수술과&nbsp;항암&nbsp;치료를&nbsp;받습니다.&nbsp;하지만&nbsp;그&nbsp;후가&nbsp;문제입니다.&nbsp;재발&nbsp;방지,&nbsp;면역력&nbsp;회복,&nbsp;삶의&nbsp;질&nbsp;개선이&nbsp;필요하지만,&nbsp;양방만으로는&nbsp;한계가&nbsp;있습니다.&nbsp;한방&nbsp;치료는&nbsp;이&nbsp;부분에서&nbsp;탁월한&nbsp;효과가&nbsp;입증되고&nbsp;있습니다.&nbsp;익산은&nbsp;이미&nbsp;이&nbsp;두&nbsp;가지를&nbsp;모두&nbsp;갖추고&nbsp;있습니다.&nbsp;이제&nbsp;필요한&nbsp;것은확장과&nbsp;특성화입니다.&nbsp;<br><br>□&nbsp;이행방법&nbsp;:&nbsp;원광대병원·익산시·전북도·보건복지부&nbsp;4자&nbsp;협의체&nbsp;구성<br>&nbsp;&nbsp;&nbsp;의료관광&nbsp;전문가,&nbsp;한방·양방&nbsp;전문의,&nbsp;마케팅&nbsp;전문가&nbsp;자문단&nbsp;구성제도&nbsp;연계&nbsp;및&nbsp;지역보건법&nbsp;제11조(보건의료&nbsp;발전&nbsp;계획)&nbsp;및&nbsp;관광진흥법&nbsp;제48조(의료관광&nbsp;활성화)&nbsp;국가균형발전특별법&nbsp;제18조(특화&nbsp;발전&nbsp;특구)를&nbsp;활용.<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간&nbsp;:&nbsp;2026년~2030년&nbsp;(5년)<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	KTX 익산역을 지킨다 : 익산 교통 허브 기능 유지 및 강화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="KTX 익산역을 지킨다 : 익산 교통 허브 기능 유지 및 강화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;익산은&nbsp;호남선&nbsp;철도의&nbsp;심장이다.&nbsp;KTX&nbsp;익산역은&nbsp;서울↔목포,&nbsp;서울↔여수를&nbsp;잇는&nbsp;모든&nbsp;열차가&nbsp;지나가는&nbsp;필수&nbsp;경유지입니다.&nbsp;하루&nbsp;평균&nbsp;100편&nbsp;이상의&nbsp;열차가&nbsp;익산역을&nbsp;거쳐&nbsp;간다.&nbsp;이것은&nbsp;익산의&nbsp;정체성이자,&nbsp;경제의&nbsp;생명줄이다.&nbsp;그런데&nbsp;지금&nbsp;전주시는&nbsp;KTX&nbsp;직선화&nbsp;사업을&nbsp;추진하고&nbsp;있습니다.&nbsp;익산을&nbsp;우회해서&nbsp;전주로&nbsp;곧장&nbsp;가는&nbsp;노선을&nbsp;만들겠다는&nbsp;것입니다.&nbsp;만약&nbsp;이&nbsp;사업이&nbsp;추진되면,&nbsp;익산역을&nbsp;지나는&nbsp;KTX는&nbsp;대폭&nbsp;줄어들&nbsp;것입니다.&nbsp;역&nbsp;주변&nbsp;상권은&nbsp;무너지고,&nbsp;숙박업과&nbsp;외식업은&nbsp;직격탄을&nbsp;맞게&nbsp;됩니다.&nbsp;익산은&nbsp;'경유&nbsp;도시’에서&nbsp;'소외&nbsp;도시’로&nbsp;전락합니다.&nbsp;이것은&nbsp;단순한&nbsp;교통&nbsp;문제가&nbsp;아니다.&nbsp;익산의&nbsp;생존이&nbsp;걸린&nbsp;문제입니다.&nbsp;역사적으로도&nbsp;익산은&nbsp;철도&nbsp;도시로&nbsp;성장해&nbsp;왔습니다.&nbsp;1977년&nbsp;이리역&nbsp;폭발&nbsp;사고의&nbsp;아픔을&nbsp;딛고&nbsp;다시&nbsp;일어선&nbsp;것도&nbsp;철도가&nbsp;있었기&nbsp;때문입니다.&nbsp;KTX&nbsp;직선화는&nbsp;익산의&nbsp;과거를&nbsp;부정하고,&nbsp;미래를&nbsp;포기하라는&nbsp;것과&nbsp;같습니다.&nbsp;<br><br>□&nbsp;이행방법&nbsp;:&nbsp;현재&nbsp;익산시는&nbsp;KTX&nbsp;직선화&nbsp;문제에&nbsp;대해&nbsp;소극적으로&nbsp;대응하고&nbsp;있습니다.&nbsp;전주시와&nbsp;전북도가&nbsp;주도하는&nbsp;상황에서&nbsp;익산시는&nbsp;명확한&nbsp;입장조차&nbsp;내지&nbsp;못하고&nbsp;있습니다.&nbsp;경제성&nbsp;분석,&nbsp;환경&nbsp;영향&nbsp;평가,&nbsp;문화재&nbsp;보호&nbsp;논리&nbsp;등&nbsp;익산의&nbsp;이익을&nbsp;방어할&nbsp;수&nbsp;있는&nbsp;근거&nbsp;자료도&nbsp;부족합니다.&nbsp;도지사와&nbsp;전주시장은&nbsp;직선화를&nbsp;밀어붙이고,&nbsp;익산시장은&nbsp;애매모호한&nbsp;태도로&nbsp;일관합니다.&nbsp;시민들은&nbsp;불안해하지만,&nbsp;시&nbsp;정부는&nbsp;대책이&nbsp;없습니다.&nbsp;이대로&nbsp;가면&nbsp;익산은&nbsp;싸워보지도&nbsp;못하고&nbsp;패배합니다.&nbsp;따라서&nbsp;경제성·균형발전&nbsp;영향&nbsp;분석&nbsp;연구용역&nbsp;실시.&nbsp;전북도&nbsp;및&nbsp;중앙정부와&nbsp;정책&nbsp;협의,&nbsp;문화재·환경&nbsp;영향&nbsp;평가&nbsp;철저&nbsp;검토.&nbsp;대안&nbsp;노선&nbsp;제시&nbsp;및&nbsp;상생&nbsp;방안&nbsp;마련하여&nbsp;합리적인&nbsp;결과를&nbsp;얻어내도록&nbsp;시장이&nbsp;직접&nbsp;앞장서야&nbsp;한다고&nbsp;판단하고&nbsp;있습니다.&nbsp;그리고&nbsp;익산역을&nbsp;지하화하고&nbsp;1,2&nbsp;층은&nbsp;쇼핑몰&nbsp;그&nbsp;이상은&nbsp;지식산업센터를&nbsp;유치하려는&nbsp;계획을&nbsp;지니고&nbsp;있습니다.&nbsp;&nbsp;&nbsp;&nbsp;<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026년~2030년&nbsp;(5년)&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	전주보다 더 가고 싶은 역사문화 도시로 만들겠다!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="전주보다 더 가고 싶은 역사문화 도시로 만들겠다!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;익산은&nbsp;백제의&nbsp;왕도(王都)였습나다.&nbsp;무왕은&nbsp;익산에&nbsp;왕궁을&nbsp;짓고,&nbsp;미륵사를&nbsp;세웠다.&nbsp;한반도에서&nbsp;가장&nbsp;큰&nbsp;석탑인&nbsp;미륵사지&nbsp;석탑이&nbsp;익산에&nbsp;있고,&nbsp;백제&nbsp;왕궁터가&nbsp;익산에&nbsp;있습니다.&nbsp;이것은&nbsp;역사적&nbsp;사실입니다.&nbsp;그런데도&nbsp;사람들은&nbsp;'전라북도&nbsp;여행’이라고&nbsp;하면&nbsp;전주를&nbsp;먼저&nbsp;떠올립니다.&nbsp;익산은‘전주&nbsp;가는&nbsp;길에&nbsp;잠깐&nbsp;들르는&nbsp;곳’정도로&nbsp;인식됩니다.&nbsp;왜&nbsp;그럴까요?&nbsp;전주는&nbsp;한옥마을을&nbsp;만들고,&nbsp;비빔밥을&nbsp;브랜드화하고,&nbsp;관광객을&nbsp;끌어들이기&nbsp;위해&nbsp;전략적으로&nbsp;움직였습니다.&nbsp;익산은?&nbsp;미륵사지와&nbsp;왕궁리&nbsp;유적은&nbsp;있지만,&nbsp;복원은&nbsp;느리고,&nbsp;관광코스는&nbsp;체계적이지&nbsp;않고,&nbsp;마케팅은&nbsp;전무합니다.&nbsp;문화&nbsp;재청과&nbsp;익산시는‘복원’만&nbsp;하고&nbsp;있지,&nbsp;'활용’은&nbsp;하지&nbsp;않고&nbsp;있습니다.&nbsp;익산&nbsp;시민들은&nbsp;알고&nbsp;있습니다.&nbsp;우리&nbsp;땅&nbsp;밑에&nbsp;백제의&nbsp;역사가&nbsp;묻혀&nbsp;있다는&nbsp;것을,&nbsp;그런데도&nbsp;관광객은&nbsp;전주로만&nbsp;다.&nbsp;이것은&nbsp;역사의&nbsp;문제가&nbsp;아니라&nbsp;전략의&nbsp;문제입니다.&nbsp;익산이&nbsp;백제&nbsp;왕도로서의&nbsp;자존심을&nbsp;되찾고,&nbsp;경주처럼&nbsp;역사문화&nbsp;관광도시로&nbsp;거듭나려면,&nbsp;지금&nbsp;당장&nbsp;변화해야&nbsp;합니다.“전주를&nbsp;가면&nbsp;익산을&nbsp;반드시&nbsp;가야&nbsp;하는&nbsp;도시”가&nbsp;아니라,“익산을&nbsp;가면&nbsp;전주도&nbsp;가고&nbsp;싶어지는&nbsp;도시”로&nbsp;만들겠습니다.&nbsp;<br><br>□&nbsp;이행방법&nbsp;:&nbsp;1단계(1년&nbsp;차)&nbsp;:&nbsp;문화재청·전북도와&nbsp;협약,&nbsp;복원&nbsp;사업&nbsp;국비&nbsp;추가&nbsp;확보,&nbsp;관광코스&nbsp;개발&nbsp;착수<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2단계(2년&nbsp;차)&nbsp;:&nbsp;미륵사지·왕궁리&nbsp;담장&nbsp;복원&nbsp;완료,&nbsp;야간관광&nbsp;프로그램&nbsp;시범&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3단계(3년&nbsp;차)&nbsp;:&nbsp;순환&nbsp;관광코스&nbsp;정식&nbsp;개통,&nbsp;숙박·외식&nbsp;인프라&nbsp;확충,&nbsp;국내외&nbsp;마케팅&nbsp;본격화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4단계(4년&nbsp;차)&nbsp;:&nbsp;연간&nbsp;관광객&nbsp;100만&nbsp;명&nbsp;돌파,&nbsp;2036&nbsp;올림픽&nbsp;대비&nbsp;인프라&nbsp;완성&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;관광코스&nbsp;예시&nbsp;:&nbsp;오전엔&nbsp;미륵사지&nbsp;석탑·미륵사지&nbsp;유물전시관&nbsp;관람&nbsp;(2시간)&nbsp;→&nbsp;점심:&nbsp;백제&nbsp;음식&nbsp;체험관에서&nbsp;전통&nbsp;한정식&nbsp;(1시간)&nbsp;→&nbsp;오후&nbsp;엔&nbsp;왕궁리&nbsp;유적·왕궁리&nbsp;오층석탑&nbsp;관람&nbsp;→&nbsp;보석박물관&nbsp;→&nbsp;함라산성&nbsp;(3시간)&nbsp;→&nbsp;저녁엔&nbsp;미륵사지&nbsp;야간&nbsp;조명&nbsp;쇼&nbsp;관람&nbsp;(1시간)&nbsp;→&nbsp;숙박&nbsp;:&nbsp;역사&nbsp;문화&nbsp;테마&nbsp;및&nbsp;게스트&nbsp;하우스&nbsp;또는&nbsp;한옥&nbsp;스테이&nbsp;등.<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026년~2030년&nbsp;(5년)<br><br>□&nbsp;재원조달방안&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	제2혁신도시를 익산으로, 공공기관 20개 유치로 인구 30만 회복</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="제2혁신도시를 익산으로, 공공기관 20개 유치로 인구 30만 회복">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;익산시&nbsp;인구는&nbsp;계속&nbsp;줄어들고&nbsp;있다.&nbsp;2010년&nbsp;30만&nbsp;명이었던&nbsp;인구는&nbsp;2026년&nbsp;현재&nbsp;26만&nbsp;명으로&nbsp;감소하였습니다.&nbsp;매년&nbsp;2,000명&nbsp;이상이&nbsp;익산을&nbsp;떠납니다.&nbsp;특히&nbsp;청년&nbsp;인구&nbsp;유출이&nbsp;심각합니다.&nbsp;일자리가&nbsp;없으니,&nbsp;대학을&nbsp;졸업하면&nbsp;서울,&nbsp;대전,&nbsp;광주로&nbsp;떠나게&nbsp;됩니다.&nbsp;이대로&nbsp;가면&nbsp;익산은&nbsp;10년&nbsp;후&nbsp;20만&nbsp;명&nbsp;도시로&nbsp;전락하고&nbsp;말&nbsp;것입니다.&nbsp;인구&nbsp;감소는&nbsp;단순한&nbsp;숫자의&nbsp;문제가&nbsp;아닙니다.&nbsp;인구가&nbsp;줄면&nbsp;상권이&nbsp;무너지고,&nbsp;학교가&nbsp;폐교되고,&nbsp;재정이&nbsp;악화되고,&nbsp;도시&nbsp;전체가&nbsp;쇠퇴하게&nbsp;됩니다.&nbsp;익산은&nbsp;지금&nbsp;악순환의&nbsp;고리에&nbsp;갇혀&nbsp;있습니다.&nbsp;그런데&nbsp;기회가&nbsp;있습니다.&nbsp;정부는&nbsp;전북특별자치도에&nbsp;공공기관&nbsp;50여&nbsp;개를&nbsp;추가로&nbsp;이전하겠다고&nbsp;발표한&nbsp;바&nbsp;있습니다.&nbsp;그리고&nbsp;익산시는&nbsp;제2혁신도시&nbsp;조성&nbsp;계획도&nbsp;추진&nbsp;중입니다.&nbsp;이것은&nbsp;익산에게&nbsp;마지막&nbsp;기회입니다.&nbsp;공공기관&nbsp;20개만&nbsp;유치해도&nbsp;인구&nbsp;7만~10만&nbsp;명이&nbsp;늘어납니다.&nbsp;익산은&nbsp;다시&nbsp;30만&nbsp;도시로&nbsp;돌아갈&nbsp;수&nbsp;있습니다.&nbsp;하지만&nbsp;익산시가&nbsp;적극적으로&nbsp;나서지&nbsp;않으면,&nbsp;이&nbsp;기회도&nbsp;전주와&nbsp;다른&nbsp;도시에&nbsp;빼앗기게&nbsp;됩니다.&nbsp;<br><br>□&nbsp;이행방법&nbsp;:&nbsp;조직&nbsp;구성&nbsp;:&nbsp;익산시청&nbsp;내&nbsp;「제2혁신도시&nbsp;및&nbsp;공공기관&nbsp;유치&nbsp;TF」&nbsp;신설&nbsp;(기획예산과&nbsp;내&nbsp;10명)&nbsp;:&nbsp;국회의원(익산&nbsp;출신)·전북도지사·익산시장&nbsp;3자&nbsp;공동&nbsp;TF&nbsp;구성.&nbsp;유치&nbsp;전략&nbsp;전문가,&nbsp;도시계획&nbsp;전문가,&nbsp;부동산&nbsp;전문가,&nbsp;로비&nbsp;전문가&nbsp;자문단&nbsp;구성.&nbsp;제도&nbsp;연계&nbsp;:&nbsp;국가균형발전특별법&nbsp;제17조(혁신도시&nbsp;개발)&nbsp;공공기관&nbsp;지방이&nbsp;에&nbsp;따른&nbsp;혁신도시&nbsp;건설&nbsp;및&nbsp;지원에&nbsp;관한&nbsp;특별법&nbsp;전라북도&nbsp;특별자치도법&nbsp;제47조(공공기관&nbsp;유치&nbsp;지원)&nbsp;&nbsp;&nbsp;&nbsp;<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026년~2030년&nbsp;(5년)&nbsp;<br>□&nbsp;재원조달방안&nbsp;등</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;정순욱 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	서울구치소 축소·재배치를 통한 ‘경기 남부 KINTEX’ 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="서울구치소 축소·재배치를 통한 ‘경기 남부 KINTEX’ 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;서울구치소&nbsp;축소·재배치를&nbsp;통해&nbsp;‘경기&nbsp;남부&nbsp;KINTEX’&nbsp;조성&nbsp;및&nbsp;핵심기업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유휴부지&nbsp;확보&nbsp;후&nbsp;포일산업단지와&nbsp;연계한&nbsp;KINTEX&복합단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복합단지&nbsp;내&nbsp;AI·반도체·로봇&nbsp;등&nbsp;핵심&nbsp;첨단기업&nbsp;유치<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;서울구치소&nbsp;축소.재배치를&nbsp;통한&nbsp;유휴부지&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;법무부&nbsp;협의를&nbsp;통한&nbsp;교정시설&nbsp;축소·재배치&nbsp;및&nbsp;부지&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;‘경기&nbsp;남부&nbsp;KINTEX’&nbsp;조성&nbsp;및&nbsp;첨단기업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;확보된&nbsp;부지와&nbsp;포일산업단지&nbsp;연계하여&nbsp;전시·컨벤션·호텔·상업·오피스&nbsp;등&nbsp;조성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·반도체·로봇&nbsp;등&nbsp;첨단기업&nbsp;유치를&nbsp;통한&nbsp;미래산업&nbsp;거점공간&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;법무부·기재부와&nbsp;서울구치소&nbsp;축소&nbsp;협의&nbsp;및&nbsp;포일산단&nbsp;연계&nbsp;마스터플랜&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;중기(3~4년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교정시설&nbsp;축소·재배치를&nbsp;통한&nbsp;경기&nbsp;남부&nbsp;KINTEX&nbsp;착공&nbsp;및&nbsp;핵심기업&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;장기(4년&nbsp;이상)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘경기&nbsp;남부&nbsp;KINTEX’&nbsp;준공&nbsp;및&nbsp;핵심기업&nbsp;유치를&nbsp;통한&nbsp;미래산업&nbsp;생태계&nbsp;조성&nbsp;&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;공공시설은&nbsp;공적재원,&nbsp;기업유치는&nbsp;민간투자로&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울구치소&nbsp;재배치&nbsp;및&nbsp;‘경기&nbsp;남부&nbsp;KINTEX’&nbsp;조성은&nbsp;국비·도비·시비로&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·반도체·로봇&nbsp;등&nbsp;핵심기업&nbsp;유치는&nbsp;민간투자&nbsp;방식으로&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	의왕역 철도 지하화를 통한 지상부지 대규모 복합개발 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="의왕역 철도 지하화를 통한 지상부지 대규모 복합개발 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;의왕역&nbsp;철도&nbsp;지하화로&nbsp;지상부지&nbsp;대규모&nbsp;복합개발&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가&nbsp;철도지하화&nbsp;정책&nbsp;연계로&nbsp;의왕역&nbsp;지상선로&nbsp;지하화&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상업·업무·문화·녹지가&nbsp;어우러진&nbsp;지상부지&nbsp;복합개발&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단절된&nbsp;주민생활권&nbsp;연결&nbsp;및&nbsp;현대차&nbsp;의왕연구소&nbsp;연계&nbsp;첨단기업&nbsp;유치&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국가철도&nbsp;지하화&nbsp;정책과&nbsp;연계한&nbsp;의왕역&nbsp;구간&nbsp;지하화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국토교통부&nbsp;및&nbsp;관계기관과&nbsp;협의하여&nbsp;사업&nbsp;반영&nbsp;및&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;지상부지&nbsp;통합&nbsp;마스터플랜&nbsp;수립&nbsp;및&nbsp;복합개발&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상업·업무시설,&nbsp;문화·여가공간,&nbsp;공공시설이&nbsp;결합된&nbsp;복합단지&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가계획&nbsp;반영&nbsp;및&nbsp;사업&nbsp;추진&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;중기(3~5년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지하화&nbsp;및&nbsp;복합개발&nbsp;사업계획&nbsp;수립,&nbsp;단계적&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;장기(5년&nbsp;이상)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지하화&nbsp;완료&nbsp;및&nbsp;지상부지&nbsp;복합개발&nbsp;준공·운영<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;공공·민간&nbsp;협력&nbsp;방식으로&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;철도&nbsp;지하화는&nbsp;국비&nbsp;중심&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지상부지&nbsp;개발은&nbsp;민간투자&nbsp;및&nbsp;공공개발&nbsp;병행</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	의왕-양재 간 ‘국가 미래산업 고속도로’ 건설 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="의왕-양재 간 ‘국가 미래산업 고속도로’ 건설 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;수도권&nbsp;남부&nbsp;핵심&nbsp;거점을&nbsp;연결하는&nbsp;‘국가&nbsp;미래산업&nbsp;고속도로’&nbsp;건설&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양재&nbsp;AI혁신지구~과천&nbsp;AI테크노밸리~의왕&nbsp;경기남부&nbsp;KINTEX~의왕·군포·안산&nbsp;신도시~서해안&nbsp;고속도로를&nbsp;연결하는&nbsp;산업·물류·연구개발(R&D)&nbsp;라인&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국가도로계획&nbsp;반영&nbsp;및&nbsp;기존&nbsp;추진&nbsp;도로계획&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가도로망계획에&nbsp;‘국가&nbsp;미래산업&nbsp;고속도로’&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;추진&nbsp;중인&nbsp;고속도로와&nbsp;연계한&nbsp;효율적&nbsp;노선&nbsp;설계<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기본구상&nbsp;수립&nbsp;및&nbsp;국가계획&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;중기(3~5년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예비타당성조사&nbsp;및&nbsp;사업계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구간&nbsp;별&nbsp;단계적&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;장기(5년&nbsp;이상)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전&nbsp;구간&nbsp;개통&nbsp;및&nbsp;산업벨트&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;중심의&nbsp;광역&nbsp;인프라&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가&nbsp;기간교통망으로서&nbsp;국비&nbsp;투입을&nbsp;원칙으로&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	빈틈없는 광역철도망 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="빈틈없는 광역철도망 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;빈틈없는&nbsp;촘촘한&nbsp;광역철도망&nbsp;구축을&nbsp;통해&nbsp;수도권&nbsp;남부&nbsp;핵심&nbsp;철도허브로&nbsp;도약<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;위례과천선·신분당선&nbsp;의왕&nbsp;연장,&nbsp;GTX-C,&nbsp;월판선·인동선,&nbsp;KTX의왕역,&nbsp;월암역&nbsp;등&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국가철도망&nbsp;구축계획&nbsp;반영&nbsp;및&nbsp;신규&nbsp;노선&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;위례과천선&nbsp;및&nbsp;신분당선&nbsp;의왕&nbsp;연장&nbsp;노선&nbsp;제5차&nbsp;국가철도망&nbsp;구축계획&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;주요&nbsp;광역철도&nbsp;사업&nbsp;정상&nbsp;추진&nbsp;및&nbsp;속도&nbsp;제고<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX-C&nbsp;신속한&nbsp;공사&nbsp;정상화&nbsp;및&nbsp;월판선·인동선&nbsp;적기&nbsp;개통&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;공공주택지구&nbsp;조성에&nbsp;따른&nbsp;역사&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의왕역&nbsp;KTX&nbsp;정차&nbsp;및&nbsp;월암역(1호선)&nbsp;신설을&nbsp;위한&nbsp;관계기관&nbsp;협의&nbsp;진행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;위례과천선&nbsp;및&nbsp;신분당선&nbsp;의왕&nbsp;연장&nbsp;2026년&nbsp;제5차&nbsp;국가철도망&nbsp;반영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX-C&nbsp;2026년&nbsp;공사&nbsp;정상화&nbsp;및&nbsp;월암역(1호선)&nbsp;정차&nbsp;위한&nbsp;관계기관&nbsp;협의&nbsp;진행<br>&nbsp;&nbsp;○&nbsp;중기(3~5년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX-C&nbsp;개통시점에&nbsp;맞춰&nbsp;KTX&nbsp;의왕역&nbsp;개통&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;월판선·인동선&nbsp;2028~2029년&nbsp;개통&nbsp;및&nbsp;월암역(1호선)&nbsp;개통&nbsp;추진&nbsp;&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;및&nbsp;민간투자노선&nbsp;별&nbsp;재원&nbsp;투입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공재원&nbsp;:&nbsp;월판선·인동선,&nbsp;KTX의왕역,&nbsp;월암역(1호선)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간투자&nbsp;:&nbsp;GTX-C<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;위례과천선&nbsp;및&nbsp;신분당선&nbsp;의왕&nbsp;연장선은&nbsp;사업&nbsp;추진방식에&nbsp;따라&nbsp;결정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	의왕ICD 미래산업 거점화 및 교통환경 획기적 개선 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="의왕ICD 미래산업 거점화 및 교통환경 획기적 개선 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;의왕ICD&nbsp;축소·재배치를&nbsp;통한&nbsp;미래산업&nbsp;기업유치&nbsp;및&nbsp;교통환경&nbsp;개선&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의왕ICD&nbsp;축소·재배치로&nbsp;유휴부지&nbsp;내&nbsp;AI·첨단기업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대형&nbsp;화물차&nbsp;시내&nbsp;진입&nbsp;최소화를&nbsp;위한&nbsp;우회·전용도로&nbsp;구축으로&nbsp;도심&nbsp;교통&nbsp;혼잡·소음&nbsp;등&nbsp;시민불편&nbsp;근본적&nbsp;해결<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;유휴부지&nbsp;내&nbsp;미래산업&nbsp;기업유치,&nbsp;녹지공간&nbsp;조성&nbsp;및&nbsp;교통환경&nbsp;개선&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의왕ICD&nbsp;축소&nbsp;및&nbsp;재배치를&nbsp;통한&nbsp;2터미널&nbsp;유휴부지&nbsp;확보&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의왕ICD&nbsp;2터미널에&nbsp;AI·첨단기업&nbsp;클러스터&nbsp;및&nbsp;녹지공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;우회·전용도로&nbsp;구축&nbsp;및&nbsp;교통환경개선으로&nbsp;대형&nbsp;화물차&nbsp;시내&nbsp;진입&nbsp;최소화&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관계기관&nbsp;협의&nbsp;및&nbsp;기본구상&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;중기(3~5년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의왕ICD&nbsp;축소&nbsp;및&nbsp;시설&nbsp;재배치를&nbsp;통한&nbsp;유휴부지&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래산업&nbsp;기업유치&nbsp;및&nbsp;녹지공간&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;장기(5년&nbsp;이상)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래산업&nbsp;기업&nbsp;생태계&nbsp;조성&nbsp;및&nbsp;녹지공간&nbsp;공원화로&nbsp;주민&nbsp;개방<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;공공·민간&nbsp;역할&nbsp;분담을&nbsp;통한&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통&nbsp;인프라&nbsp;및&nbsp;기반시설,&nbsp;녹지공간은&nbsp;국비·도비·시비&nbsp;등&nbsp;공적재원으로&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래산업&nbsp;기업&nbsp;유치는&nbsp;민간투자&nbsp;중심&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

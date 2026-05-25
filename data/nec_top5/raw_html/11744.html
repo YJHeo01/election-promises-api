@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이상식 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	농어촌 기본소득 지급</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="농어촌 기본소득 지급">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;떠나는&nbsp;곳이&nbsp;아닌&nbsp;'살고&nbsp;싶은&nbsp;고장',&nbsp;'소멸의&nbsp;대명사가&nbsp;아닌&nbsp;기본소득의&nbsp;성지'로&nbsp;우리&nbsp;지역의&nbsp;미래를&nbsp;다시&nbsp;쓰겠습니다.&nbsp;주민의&nbsp;지갑을&nbsp;채우고&nbsp;지역의&nbsp;활력을&nbsp;되찾는&nbsp;일,&nbsp;반드시&nbsp;완수하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;인근&nbsp;영양군과&nbsp;동일한&nbsp;수준인&nbsp;월&nbsp;20만&nbsp;원의&nbsp;기본소득을&nbsp;즉시&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;지속&nbsp;가능한&nbsp;재원&nbsp;마련을&nbsp;위해&nbsp;태양광풍력&nbsp;등&nbsp;재생에너지의&nbsp;공공개발&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;기본소득&nbsp;지급액을&nbsp;최대&nbsp;월&nbsp;50만원까지&nbsp;단계적으로&nbsp;증액<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;(계속&nbsp;사업)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;군청&nbsp;예산&nbsp;집행&nbsp;상황&nbsp;점검&nbsp;후&nbsp;전용이&nbsp;가능한&nbsp;예산을&nbsp;확보하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	3대 맞춤형 돌봄</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="3대 맞춤형 돌봄">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;어르신이&nbsp;평생&nbsp;살아온&nbsp;정든&nbsp;동네에서&nbsp;건강하고&nbsp;품격&nbsp;있는&nbsp;노후를&nbsp;보내실&nbsp;수&nbsp;있도록&nbsp;국가와&nbsp;지역사회의&nbsp;책임을&nbsp;대폭&nbsp;강화하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;'어르신&nbsp;전담&nbsp;주치의&nbsp;제도'를&nbsp;도입하겠습니다.&nbsp;<br>&nbsp;&nbsp;○&nbsp;'재택의료&nbsp;및&nbsp;방문간호&nbsp;서비스'를&nbsp;대폭&nbsp;확대하겠습니다.<br>&nbsp;&nbsp;○&nbsp;'경로당&nbsp;주&nbsp;5일&nbsp;점심&nbsp;밥상'을&nbsp;완성하겠습니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;(계속&nbsp;사업)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;중앙정부에&nbsp;취약지역&nbsp;공공의료&nbsp;체계&nbsp;강화를&nbsp;강력히&nbsp;요구할&nbsp;것<br>&nbsp;&nbsp;○&nbsp;3번&nbsp;공약과&nbsp;연계한&nbsp;봉화군전체를&nbsp;아우르는&nbsp;치유&nbsp;특구&nbsp;건설<br>&nbsp;&nbsp;○&nbsp;침,&nbsp;뜸,&nbsp;교정,&nbsp;명상&nbsp;등&nbsp;전통의학&nbsp;및&nbsp;대체의학&nbsp;현대가&nbsp;어우러지는&nbsp;봉화건설을&nbsp;통하여&nbsp;어르신들의&nbsp;편안한&nbsp;노후가&nbsp;될&nbsp;수&nbsp;있도록&nbsp;추진하겠습니다.<br>&nbsp;&nbsp;○&nbsp;재원조달방안은&nbsp;중앙정부와&nbsp;긴밀히&nbsp;소통하여&nbsp;마련하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	군민의 건강한 삶</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="군민의 건강한 삶">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;군민의&nbsp;건강한&nbsp;삶,&nbsp;봉화의&nbsp;청정&nbsp;자연이&nbsp;약이&nbsp;되는&nbsp;시대를&nbsp;열겠습니다<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;동·서양&nbsp;의료서비스가&nbsp;융합된&nbsp;'전천후&nbsp;종합&nbsp;치유&nbsp;특구'&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;산림&nbsp;인프라를&nbsp;활용한&nbsp;'힐링&nbsp;플랫폼'&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;치유&nbsp;농업과&nbsp;치유&nbsp;식단&nbsp;개발을&nbsp;연계한&nbsp;'먹는&nbsp;것부터&nbsp;치료까지'&nbsp;원스톱&nbsp;케어<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;(계속&nbsp;사업)<br><br>□&nbsp;재원조달방안&nbsp;등<br>공공의료체계를&nbsp;강화하고&nbsp;다양한&nbsp;공모사업을&nbsp;발굴하여&nbsp;추진하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	농업의 선순환 구조</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="농업의 선순환 구조">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농민은&nbsp;생산에만&nbsp;전념하고&nbsp;판매는&nbsp;군이&nbsp;책임지는&nbsp;선순환&nbsp;구조를&nbsp;만들겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;봉화&nbsp;농산물&nbsp;유통공사&nbsp;설립<br>&nbsp;&nbsp;○&nbsp;과수묘목산업육성<br>&nbsp;&nbsp;○&nbsp;사과연구소&nbsp;설립<br>&nbsp;&nbsp;○&nbsp;'청정봉화'라는&nbsp;이름&nbsp;아래&nbsp;하나로&nbsp;통합하여&nbsp;브랜드&nbsp;파워를&nbsp;강화시킴<br><br>□&nbsp;이행기간<br>&nbsp;○&nbsp;2026&nbsp;~&nbsp;(계속&nbsp;사업)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;관내&nbsp;3개&nbsp;농협과&nbsp;협의를&nbsp;통한&nbsp;전략수립&nbsp;후&nbsp;대도시&nbsp;농산물유통자본을&nbsp;끌어들여&nbsp;공사설립<br>&nbsp;&nbsp;○&nbsp;농촌진흥청과&nbsp;협의하고&nbsp;농림축산식품부와&nbsp;협의를&nbsp;통한&nbsp;재원조달과&nbsp;추진방안&nbsp;수립</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	생태와 환경, 공존과 정의</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="생태와 환경, 공존과 정의">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;생태와&nbsp;환경:&nbsp;공존과&nbsp;정의를&nbsp;위한&nbsp;약속<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;낙동강&nbsp;물줄기&nbsp;재&nbsp;자연화<br>&nbsp;&nbsp;○&nbsp;상생&nbsp;중심의&nbsp;영풍석포제련소&nbsp;오염&nbsp;문제&nbsp;해결<br>&nbsp;&nbsp;○&nbsp;산업폐기물&nbsp;매립장&nbsp;결사&nbsp;반대<br>&nbsp;&nbsp;○&nbsp;친환경&nbsp;'경축&nbsp;순환&nbsp;농업'&nbsp;정착&nbsp;및&nbsp;생태&nbsp;농업실천&nbsp;농가&nbsp;소득&nbsp;보전&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;(계속&nbsp;사업)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;환경&nbsp;보전의&nbsp;가치를&nbsp;공유하는&nbsp;환경부&nbsp;및&nbsp;하류&nbsp;지역과의&nbsp;합리적인&nbsp;비용&nbsp;분담을&nbsp;통해&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;군&nbsp;재정&nbsp;부담은&nbsp;덜고,&nbsp;상·하류가&nbsp;함께&nbsp;책임지는&nbsp;'생태&nbsp;정의'를&nbsp;실현하여&nbsp;깨끗한&nbsp;물과&nbsp;건강한&nbsp;농업의&nbsp;선순환&nbsp;구조를&nbsp;만듦</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

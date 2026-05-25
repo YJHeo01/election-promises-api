@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;손태영 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	농어촌 기본소득 월15만원 지급</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="농어촌 기본소득 월15만원 지급">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;인구&nbsp;유지&nbsp;및&nbsp;지역&nbsp;정착&nbsp;유도로&nbsp;지역&nbsp;소멸&nbsp;대응<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;경제&nbsp;활성화&nbsp;및&nbsp;선순환&nbsp;구조&nbsp;형성<br>&nbsp;&nbsp;○&nbsp;사회적&nbsp;기본권&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;경제적&nbsp;불안&nbsp;해소로&nbsp;구직,창업등&nbsp;경제활동&nbsp;촉진<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;농민&nbsp;기본소득&nbsp;보장제&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1인당&nbsp;월&nbsp;15만원&nbsp;지급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인구&nbsp;유출&nbsp;방지&nbsp;및&nbsp;정주&nbsp;유도<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌&nbsp;고립감,&nbsp;사회적&nbsp;배제&nbsp;문제&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자연재해,&nbsp;농산물&nbsp;가격&nbsp;변동등&nbsp;위기&nbsp;상황시&nbsp;대응&nbsp;능력&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;화폐&nbsp;지급으로&nbsp;지역&nbsp;경제&nbsp;순환&nbsp;및&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;소득&nbsp;불안&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구직,&nbsp;창업,&nbsp;농업&nbsp;지속&nbsp;기반&nbsp;마련&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;법률&nbsp;제·개정&nbsp;사항은&nbsp;2026년&nbsp;6월부터&nbsp;준비하여&nbsp;단계적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;재정사업은&nbsp;2026년&nbsp;추경과&nbsp;2027년도&nbsp;예산&nbsp;수립부터&nbsp;단계적으로&nbsp;&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;인구&nbsp;소멸&nbsp;대응&nbsp;예산&nbsp;국비&nbsp;40%,&nbsp;경상남도비&nbsp;30%,&nbsp;군비&nbsp;30%&nbsp;조달</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	남북 6축 고속도로 합천 의령·함안·구간 연장 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="남북 6축 고속도로 합천 의령·함안·구간 연장 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;간선도로망&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;물류&nbsp;효율성&nbsp;및&nbsp;산업&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;균형&nbsp;발전&nbsp;및&nbsp;지방&nbsp;소멸&nbsp;대응<br>&nbsp;&nbsp;○&nbsp;관광&nbsp;산업&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;재난,&nbsp;응급&nbsp;대응&nbsp;능력&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;단순&nbsp;도로가&nbsp;아닌&nbsp;지역&nbsp;생존&nbsp;인프라&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;항만(남해안)↔내륙&nbsp;산업단지&nbsp;연결&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;산업단지와&nbsp;항만을&nbsp;직결&nbsp;생산→수출&nbsp;흐름을&nbsp;효율적으로&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;도로&nbsp;인프라&nbsp;확충으로&nbsp;기업&nbsp;투자&nbsp;유치&nbsp;가능성&nbsp;증가<br>&nbsp;&nbsp;○&nbsp;접근성&nbsp;개선으로&nbsp;관광객&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;주변&nbsp;지역&nbsp;관광지와&nbsp;연계,&nbsp;종합&nbsp;관광&nbsp;산업&nbsp;발전<br>&nbsp;&nbsp;○&nbsp;교통망&nbsp;확충으로&nbsp;병목&nbsp;구간&nbsp;완화&nbsp;및&nbsp;전체&nbsp;네트워크&nbsp;효율&nbsp;증가<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;법률&nbsp;제·개정&nbsp;사항은&nbsp;2026년&nbsp;6월부터&nbsp;준비하여&nbsp;단계적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;재정사업은&nbsp;2026년&nbsp;추경과&nbsp;2027년도&nbsp;예산&nbsp;수립부터&nbsp;단계적으로&nbsp;&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;선정&nbsp;사업으로&nbsp;국비&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	국립 국어사전 박물관 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="국립 국어사전 박물관 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;조선어학회&nbsp;조선말&nbsp;큰&nbsp;사전의&nbsp;뿌리로써&nbsp;지역&nbsp;정체성&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;교육&nbsp;체험&nbsp;관광&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;경제&nbsp;활성화로&nbsp;지방&nbsp;소멸&nbsp;대응<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;의령은&nbsp;충절과&nbsp;국어,한글의&nbsp;고장이라는&nbsp;명확한&nbsp;정체성&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의령은&nbsp;고루&nbsp;이극로&nbsp;남저&nbsp;이우식&nbsp;&nbsp;한뫼&nbsp;안호상선생의&nbsp;출생지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주시경&nbsp;선생을&nbsp;계승한&nbsp;조선어학회&nbsp;핵심인물들로&nbsp;국어학&nbsp;연구와&nbsp;조선말&nbsp;큰&nbsp;사전&nbsp;편찬등&nbsp;국어사전&nbsp;편찬과&nbsp;표준어&nbsp;정립에&nbsp;큰&nbsp;역할을&nbsp;하심<br>&nbsp;&nbsp;○&nbsp;의령만의&nbsp;고유&nbsp;브랜드&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단순&nbsp;관광지가&nbsp;아닌&nbsp;학문,문화&nbsp;중심&nbsp;도시&nbsp;이미지&nbsp;형성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광+체험+숙박+특산물&nbsp;장터등&nbsp;종합&nbsp;관광&nbsp;단지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;국어사전&nbsp;제작&nbsp;과정&nbsp;체험<br>&nbsp;&nbsp;○&nbsp;언어&nbsp;관련&nbsp;교육&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;한글&nbsp;및&nbsp;의령&nbsp;상징&nbsp;캐릭터&nbsp;및&nbsp;굿즈&nbsp;사업&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;서울의&nbsp;국립한글박물관과&nbsp;차별점&nbsp;강조<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울의&nbsp;한글(문자)중심의&nbsp;전시와는&nbsp;달리&nbsp;체험형&nbsp;테마파크로&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;조선어학회&nbsp;계보&nbsp;중심으로&nbsp;현대&nbsp;국어와의&nbsp;연결성&nbsp;강조<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;백산&nbsp;안희제선생등&nbsp;독립운동과&nbsp;연결,충절의&nbsp;고장&nbsp;의령&nbsp;브랜드와&nbsp;연계<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;법률&nbsp;제·개정&nbsp;사항은&nbsp;2026년&nbsp;6월부터&nbsp;준비하여&nbsp;단계적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;재정사업은&nbsp;2026년&nbsp;추경과&nbsp;2027년도&nbsp;예산&nbsp;수립부터&nbsp;단계적으로&nbsp;&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;선정&nbsp;사업으로&nbsp;국비&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	스마트 물류센터 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="스마트 물류센터 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;의령을&nbsp;산업·물류&nbsp;거점으로&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;물류산업&nbsp;육성으로&nbsp;젊은&nbsp;일자리&nbsp;생성<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;군형&nbsp;발전&nbsp;및&nbsp;지방&nbsp;소멸&nbsp;대응<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;진주&nbsp;우주&nbsp;항공단지와&nbsp;창원&nbsp;방산&nbsp;산업단지를&nbsp;연결하는&nbsp;부품&nbsp;가공&nbsp;물류산업단지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;남부내륙&nbsp;교통망과&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;진주&nbsp;창원&nbsp;김해&nbsp;부산을&nbsp;연결하는&nbsp;중간축으로&nbsp;경남&nbsp;복합물류거점으로&nbsp;양성<br>&nbsp;&nbsp;○&nbsp;유휴부지&nbsp;및&nbsp;농공단지&nbsp;적극&nbsp;활용을&nbsp;통해&nbsp;지역&nbsp;균형발전&nbsp;도모<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;물류단지&nbsp;조성으로&nbsp;전문&nbsp;인재&nbsp;양성&nbsp;및&nbsp;일자리&nbsp;창출<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;법률&nbsp;제·개정&nbsp;사항은&nbsp;2026년&nbsp;6월부터&nbsp;준비하여&nbsp;단계적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;재정사업은&nbsp;2026년&nbsp;추경과&nbsp;2027년도&nbsp;예산&nbsp;수립부터&nbsp;단계적으로&nbsp;&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;선정&nbsp;사업으로&nbsp;국비&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	5대 특화 산업 및 2대 혁신 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="5대 특화 산업 및 2대 혁신 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;큰&nbsp;줄&nbsp;실내전시관&nbsp;전시&nbsp;-&nbsp;백야오거리&nbsp;일원<br>&nbsp;&nbsp;○&nbsp;자굴산,&nbsp;한우산&nbsp;출렁다리&nbsp;조성&nbsp;-&nbsp;의병탑형&nbsp;호텔&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;삼성&nbsp;호암&nbsp;이병철&nbsp;생가&nbsp;브랜드&nbsp;특화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삼성&nbsp;신입사원&nbsp;교육관&nbsp;신축,&nbsp;홍단풍&nbsp;300만평&nbsp;조성&nbsp;<br>&nbsp;&nbsp;○&nbsp;홍의&nbsp;곽재우&nbsp;~백산&nbsp;안희재&nbsp;생가&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;광역&nbsp;역사&nbsp;상생&nbsp;특화&nbsp;-&nbsp;합강&nbsp;권역&nbsp;관광벨트&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;공정한&nbsp;인사,&nbsp;책임&nbsp;있는&nbsp;행정<br>&nbsp;&nbsp;○&nbsp;법&nbsp;테두리&nbsp;안에서&nbsp;실질적인&nbsp;복지&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;의령&nbsp;사랑&nbsp;승진&nbsp;인센티브&nbsp;제도&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;능력&nbsp;중심&nbsp;인사체계&nbsp;확립&nbsp;<br>&nbsp;&nbsp;○&nbsp;군민참여형&nbsp;인사위원회&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;대형버스&nbsp;주차장&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;기념품·농특산물&nbsp;판매장&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;축제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;태양광&nbsp;지붕&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;의령·창녕·함안&nbsp;연결&nbsp;2단&nbsp;다리&nbsp;설치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;법률&nbsp;제·개정&nbsp;사항은&nbsp;2026년&nbsp;6월부터&nbsp;준비하여&nbsp;단계적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;재정사업은&nbsp;2026년&nbsp;추경과&nbsp;2027년도&nbsp;예산&nbsp;수립부터&nbsp;단계적으로&nbsp;&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;의령군&nbsp;자체&nbsp;예산&nbsp;:&nbsp;매년&nbsp;400억원&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;국·도비&nbsp;지역소멸&nbsp;대응&nbsp;예산&nbsp;:&nbsp;매년&nbsp;400억원&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연간&nbsp;총&nbsp;800억원&nbsp;확보&nbsp;및&nbsp;3년간&nbsp;총&nbsp;2400억원&nbsp;확보</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

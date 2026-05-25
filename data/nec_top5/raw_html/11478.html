@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;정철원 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	미래 천년 도약을 위한 담양형 발전 전략 수립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="미래 천년 도약을 위한 담양형 발전 전략 수립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            관광·농업·산업·복지를&nbsp;연결하여&nbsp;군민&nbsp;소득을&nbsp;높이는&nbsp;‘지역경제&nbsp;선순환&nbsp;구조’를&nbsp;구축<br>(관광&nbsp;→&nbsp;소비&nbsp;→&nbsp;소득&nbsp;→&nbsp;일자리&nbsp;→&nbsp;정착)<br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;미래&nbsp;담양의&nbsp;발전&nbsp;전략을&nbsp;수립하여&nbsp;지역경제의&nbsp;핵심축과&nbsp;정주&nbsp;여건의&nbsp;획기적&nbsp;개선<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;담양&nbsp;발전&nbsp;권역별&nbsp;중장기&nbsp;발전&nbsp;계획&nbsp;수립(2027~2036)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;실용주의에&nbsp;기반한&nbsp;읍면별·권역별&nbsp;중기&nbsp;투자·발전&nbsp;계획<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;조례&nbsp;법제화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙·도(공모&nbsp;사업&nbsp;포함),&nbsp;군&nbsp;자체&nbsp;사업,&nbsp;지방&nbsp;소멸&nbsp;대응&nbsp;기금&nbsp;사업&nbsp;근거&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;AI와&nbsp;첨단산업으로&nbsp;일자리&nbsp;만드는&nbsp;담양<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·데이터&nbsp;기반&nbsp;미래산업&nbsp;육성&nbsp;전략&nbsp;반영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제2&nbsp;산단&nbsp;및&nbsp;첨단산업&nbsp;유치&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;로컬&nbsp;크리에이터&nbsp;중심&nbsp;지역경제&nbsp;생태계&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;광주·전남&nbsp;행정&nbsp;통합에&nbsp;대응한&nbsp;분권형&nbsp;행정&nbsp;모델&nbsp;조기&nbsp;정착<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광주·전남&nbsp;통합&nbsp;대응&nbsp;T/F&nbsp;설치&nbsp;-&nbsp;대응&nbsp;전략&nbsp;및&nbsp;핵심과제&nbsp;발굴<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인근&nbsp;자치단체와의&nbsp;협력&nbsp;강화(전남&nbsp;북부권,&nbsp;광역&nbsp;단위&nbsp;협의회&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·달빛&nbsp;철도&nbsp;조기&nbsp;착공,&nbsp;경전철·호남권&nbsp;경마&nbsp;공원(말&nbsp;관련&nbsp;체험&nbsp;시설:&nbsp;목장,&nbsp;승마장,&nbsp;농특산물&nbsp;판매장&nbsp;등)&nbsp;유치,&nbsp;광역&nbsp;교통망&nbsp;확충&nbsp;협의<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·지역&nbsp;성장을&nbsp;저해하는&nbsp;GB&nbsp;단계적&nbsp;해제&nbsp;강력&nbsp;요구(통합에&nbsp;따른&nbsp;광주&nbsp;연접&nbsp;전남지역)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1단계)&nbsp;선별&nbsp;해제(특례):&nbsp;대전면&nbsp;일원(한솔제지,&nbsp;전차포&nbsp;사격장,&nbsp;첨단지구&nbsp;접경지)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2단계)&nbsp;전면&nbsp;해제,&nbsp;규제&nbsp;완화:&nbsp;광주&nbsp;인근지역(고서,&nbsp;가사문학,&nbsp;창평,&nbsp;봉산)<br>&nbsp;&nbsp;○&nbsp;농촌형&nbsp;생활&nbsp;서비스&nbsp;구축&nbsp;및&nbsp;정주&nbsp;여건의&nbsp;획기적&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;내&nbsp;환경&nbsp;저해&nbsp;시설&nbsp;정비&nbsp;박차(담양&nbsp;삼만·가산,&nbsp;금성&nbsp;덕성)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·악취&nbsp;문제&nbsp;해결을&nbsp;위한&nbsp;종합&nbsp;전략&nbsp;수립&nbsp;및&nbsp;장기적&nbsp;구조&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;참여형&nbsp;신재생&nbsp;에너지&nbsp;보급&nbsp;추진(주민&nbsp;참여형,&nbsp;영농형,&nbsp;공익형&nbsp;병행)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을회관·경로당을&nbsp;마을&nbsp;복지&nbsp;거점으로,&nbsp;매니저&nbsp;단계적&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농촌&nbsp;버스&nbsp;맞춤&nbsp;노선&nbsp;전면&nbsp;재검토(마을회관·경로당&nbsp;연계&nbsp;정류장&nbsp;조성&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;수요를&nbsp;기반으로&nbsp;한&nbsp;행복택시&nbsp;운행&nbsp;대상&nbsp;지역&nbsp;지속&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기후&nbsp;위기에&nbsp;대응할&nbsp;수&nbsp;있는&nbsp;취수원&nbsp;확대&nbsp;및&nbsp;수질개선을&nbsp;위한&nbsp;상수도관&nbsp;단계적&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;지역발전을&nbsp;견인할&nbsp;주요&nbsp;현안&nbsp;사업&nbsp;내실&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제2&nbsp;일반산단(첨단&nbsp;부품소재&nbsp;등),&nbsp;음식&nbsp;특화&nbsp;농공단지&nbsp;조기&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고서&nbsp;보촌지구(2,700세대),&nbsp;대덕&nbsp;매산지구(500세대),&nbsp;삼만지구(94세대)<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;공약&nbsp;및&nbsp;추진&nbsp;전략&nbsp;우선순위&nbsp;결정,&nbsp;사업별&nbsp;투자계획&nbsp;수립(2026년&nbsp;한)&nbsp;후&nbsp;추진<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;중앙정부&nbsp;및&nbsp;전라남도&nbsp;예산&nbsp;우선&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군&nbsp;예산&nbsp;자체&nbsp;사업&nbsp;우선순위에&nbsp;따른&nbsp;연차&nbsp;투자(군비,&nbsp;지방소멸대응기금&nbsp;등)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	세대와 계층을 포용하는 행복 담양 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="세대와 계층을 포용하는 행복 담양 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;세대&nbsp;간·계층&nbsp;간&nbsp;격차&nbsp;해소로&nbsp;모두가&nbsp;행복한&nbsp;복지&nbsp;공동체&nbsp;건설&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;담양형&nbsp;통합&nbsp;돌봄서비스&nbsp;확충(가족형&nbsp;복지로&nbsp;확대)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을&nbsp;급식&nbsp;경로식당&nbsp;확대(100개소),&nbsp;공동&nbsp;급식센터&nbsp;운영,&nbsp;도시락&nbsp;배달&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;병원&nbsp;동행·퇴원&nbsp;서비스&nbsp;확대,&nbsp;주치의&nbsp;방문&nbsp;건강관리,&nbsp;장기&nbsp;요양&nbsp;의사&nbsp;파견(재택)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노인회관&nbsp;전면&nbsp;리모델링&nbsp;지원,&nbsp;미등록&nbsp;경로당(청전아파트&nbsp;등)&nbsp;지원&nbsp;근거&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;면&nbsp;단위&nbsp;목욕장&nbsp;전문업체&nbsp;위탁관리&nbsp;지원(면별·요일별&nbsp;교차&nbsp;운영&nbsp;방식)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경로당&nbsp;매니저&nbsp;연계&nbsp;시니어&nbsp;일자리&nbsp;창출,&nbsp;근로일수&nbsp;확대(15일)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농촌&nbsp;마을&nbsp;생필품&nbsp;이동장터&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;담양형&nbsp;기본소득&nbsp;단계적&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;주거(1&nbsp;만원&nbsp;주택)&nbsp;및&nbsp;월세&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;돌봄&nbsp;및&nbsp;스마트&nbsp;복지&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;인구&nbsp;소멸에&nbsp;대응한&nbsp;3040&nbsp;세대&nbsp;성장&nbsp;정책&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년정책&nbsp;담당관&nbsp;신설(정책+예산&nbsp;일원화),&nbsp;청년&nbsp;기금&nbsp;확대&nbsp;조성(20억→30억&nbsp;원)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·청년&nbsp;주택자금&nbsp;지원,&nbsp;빈집&nbsp;정비&nbsp;전세&nbsp;지원(이차보전&nbsp;2%&nbsp;지원)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·만원&nbsp;공공임대주택&nbsp;지원(3개소),&nbsp;청년&nbsp;취업자&nbsp;원룸&nbsp;월&nbsp;임대료&nbsp;일부&nbsp;지원&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년(취·창업)센터&nbsp;신설로&nbsp;담양형&nbsp;청년&nbsp;취업&nbsp;및&nbsp;창업&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;자녀&nbsp;돌봄&nbsp;서비스&nbsp;확대(80%→100%),&nbsp;청년&nbsp;첫걸음&nbsp;인턴십&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;귀농&nbsp;귀촌&nbsp;청년&nbsp;숙련&nbsp;농업인으로&nbsp;성장할&nbsp;때까지&nbsp;1:1&nbsp;밀착&nbsp;교육&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;군민이&nbsp;행복한&nbsp;사회안전망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;살던&nbsp;마을에서&nbsp;생애&nbsp;말기까지&nbsp;책임지는&nbsp;지역&nbsp;돌봄&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자활센터·자활근로&nbsp;사업단,&nbsp;공공근로,&nbsp;자원봉사&nbsp;단체&nbsp;등&nbsp;확대&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여성회관&nbsp;운영&nbsp;전면&nbsp;개편(여성단체협의회&nbsp;중심&nbsp;운영&nbsp;검토)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;다문화&nbsp;시간제&nbsp;일자리&nbsp;확충&nbsp;및&nbsp;고향&nbsp;방문(친정&nbsp;방문)&nbsp;지원&nbsp;확대(연&nbsp;4회)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인&nbsp;단체&nbsp;사회활동&nbsp;지원&nbsp;강화,&nbsp;반다비&nbsp;체육관&nbsp;건립&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;건강&nbsp;증진을&nbsp;위한&nbsp;지역&nbsp;의료시스템&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보건소&nbsp;이전,&nbsp;거점&nbsp;소아&nbsp;외래&nbsp;진료센터&nbsp;및&nbsp;산부인과&nbsp;유치&nbsp;지원(지역병원&nbsp;협업)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체육회관&nbsp;건립&nbsp;및&nbsp;공공&nbsp;체육시설&nbsp;민간&nbsp;위탁&nbsp;검토(체육시설관리공단&nbsp;설치)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도민&nbsp;체전·생활체육&nbsp;대회&nbsp;유치(체육시설&nbsp;및&nbsp;구장&nbsp;확보&nbsp;주력)<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;공약&nbsp;및&nbsp;추진&nbsp;전략&nbsp;우선순위&nbsp;결정,&nbsp;사업별&nbsp;투자계획&nbsp;수립(2026년&nbsp;한)&nbsp;후&nbsp;추진&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;중앙정부&nbsp;및&nbsp;전라남도&nbsp;예산&nbsp;우선&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군&nbsp;예산&nbsp;자체&nbsp;사업&nbsp;우선순위에&nbsp;따른&nbsp;연차&nbsp;투자(군비,&nbsp;지방소멸대응기금&nbsp;등)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	자치 농정 강화로 농민이 돈 버는 담양 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="자치 농정 강화로 농민이 돈 버는 담양 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농업인의&nbsp;안정적&nbsp;소득&nbsp;보장과&nbsp;농업경제&nbsp;기반&nbsp;구축으로&nbsp;농업의&nbsp;자생력&nbsp;강화<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;농업소득&nbsp;기반&nbsp;확립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;친환경농업&nbsp;육성&nbsp;5개년&nbsp;계획&nbsp;수립(자치&nbsp;농정위원회·관·농협&nbsp;협의체&nbsp;중심)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후&nbsp;비닐하우스&nbsp;교체&nbsp;10개년&nbsp;계획&nbsp;수립(전국&nbsp;시범&nbsp;사업&nbsp;농림부&nbsp;협의)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;특화&nbsp;작목&nbsp;및&nbsp;틈새&nbsp;작목&nbsp;육성(지역별·품목별&nbsp;경쟁력&nbsp;확보)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업용수&nbsp;취약지&nbsp;중소형&nbsp;관정&nbsp;개발&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공&nbsp;급식센터를&nbsp;친환경&nbsp;농산물&nbsp;공급기지로&nbsp;확대&nbsp;개편(농협&nbsp;협의)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영농&nbsp;부산물&nbsp;안전&nbsp;처리&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;수출·고소득&nbsp;작목&nbsp;중심의&nbsp;첨단화·규모화&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;담양&nbsp;농특산물&nbsp;유통·가공센터&nbsp;조성(담양형&nbsp;먹거리&nbsp;종합&nbsp;지원),&nbsp;가공&nbsp;기술지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고품질&nbsp;딸기&nbsp;공동&nbsp;육묘장&nbsp;확대,&nbsp;공동선별&nbsp;조직화·규모화&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첨단&nbsp;영농시스템&nbsp;확대&nbsp;지원,&nbsp;임대형&nbsp;스마트팜&nbsp;시범&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기능성&nbsp;작물&nbsp;확대&nbsp;보급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;죽향,&nbsp;메리퀸,&nbsp;루비벨,&nbsp;항암&nbsp;브로콜리&nbsp;새싹&nbsp;등<br>&nbsp;&nbsp;○&nbsp;담양&nbsp;쌀&nbsp;고급&nbsp;브랜드화&nbsp;및&nbsp;유통&nbsp;체계&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;친환경&nbsp;쌀&nbsp;생산단지&nbsp;확대&nbsp;조성(2,000ha),&nbsp;생산지원단&nbsp;확대(농기계&nbsp;지원&nbsp;및&nbsp;농번기&nbsp;인력난&nbsp;해소&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업&nbsp;분야&nbsp;각종&nbsp;재해보험&nbsp;전액&nbsp;지원(100%)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;쌀&nbsp;경영&nbsp;안정을&nbsp;위한&nbsp;공공&nbsp;비축미&nbsp;매입가&nbsp;보전&nbsp;확대(전국&nbsp;평균가&nbsp;이상)<br>&nbsp;&nbsp;○&nbsp;동물복지형&nbsp;친환경&nbsp;축산기반&nbsp;확대로&nbsp;소비자&nbsp;신뢰&nbsp;제고<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트&nbsp;축산단지&nbsp;조성(1개소,&nbsp;36억&nbsp;원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청정&nbsp;축산인증제&nbsp;도입&nbsp;및&nbsp;친환경&nbsp;축산브랜드&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;축사&nbsp;환경&nbsp;개선&nbsp;보조&nbsp;사업&nbsp;확대,&nbsp;TMR&nbsp;복합&nbsp;사료&nbsp;지원&nbsp;규모화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·악취&nbsp;저감&nbsp;집중&nbsp;사업&nbsp;및&nbsp;분뇨&nbsp;자원화&nbsp;체계&nbsp;구축,&nbsp;축산환경&nbsp;관리지원단&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;담양형&nbsp;자치&nbsp;농정&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업&nbsp;회의소&nbsp;자치&nbsp;농정위원회&nbsp;위상&nbsp;강화(정책&nbsp;결정&nbsp;및&nbsp;예산편성,&nbsp;인력&nbsp;연계&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;담양형&nbsp;농업&nbsp;기본소득제&nbsp;실시(군민&nbsp;의견&nbsp;수렴&nbsp;통한&nbsp;확정)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;농업소득&nbsp;토대로&nbsp;영세농가&nbsp;최저생계비&nbsp;우선&nbsp;지원과&nbsp;보편적&nbsp;지급&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고령&nbsp;영세농&nbsp;농작업&nbsp;대행비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대나무&nbsp;공예&nbsp;명인·후계자&nbsp;지원&nbsp;현실화(예산&nbsp;확대)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양봉산업&nbsp;지원&nbsp;확대&nbsp;및&nbsp;밀원&nbsp;숲&nbsp;확대&nbsp;조성(100ha)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;에너지&nbsp;기본권&nbsp;확대&nbsp;및&nbsp;수익형&nbsp;에너지&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업&nbsp;+&nbsp;관광&nbsp;+&nbsp;가공&nbsp;결합&nbsp;6차&nbsp;산업,&nbsp;농촌&nbsp;기본소득&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;대나무&nbsp;산업화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;식품산업:&nbsp;죽순&nbsp;가공식품,&nbsp;발효식품,&nbsp;기능성식품<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;바이오&nbsp;헬스:&nbsp;화장품&nbsp;원료,&nbsp;주류&nbsp;원료<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광&nbsp;문화&nbsp;체험:&nbsp;탄소중립&nbsp;산업&nbsp;→&nbsp;제2&nbsp;죽녹원&nbsp;조성<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;공약&nbsp;및&nbsp;추진&nbsp;전략&nbsp;우선순위&nbsp;결정,&nbsp;사업별&nbsp;투자계획&nbsp;수립(2026년&nbsp;한)&nbsp;후&nbsp;추진<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;중앙정부&nbsp;및&nbsp;전라남도&nbsp;예산&nbsp;우선&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군&nbsp;예산&nbsp;자체&nbsp;사업&nbsp;우선순위에&nbsp;따른&nbsp;연차&nbsp;투자(군비,&nbsp;지방소멸대응기금&nbsp;등)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	소득을 창출하는 치유 거점 관광 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="소득을 창출하는 치유 거점 관광 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;농촌·산림·음식·전통문화&nbsp;자원을&nbsp;기반으로&nbsp;소득&nbsp;높은&nbsp;관광&nbsp;담양&nbsp;조성<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;2천만&nbsp;관광객이&nbsp;찾는&nbsp;남도&nbsp;관광&nbsp;르네상스&nbsp;시대&nbsp;개막<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체류형&nbsp;관광도시&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;남도&nbsp;명품&nbsp;3대&nbsp;권역별&nbsp;명품화&nbsp;전략&nbsp;추진(도시&nbsp;휴양권+역사&nbsp;문화권+생태문화권)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;관광지&nbsp;전면&nbsp;리뉴얼(야간&nbsp;디지털&nbsp;정원,&nbsp;시설&nbsp;개선&nbsp;등)&nbsp;추진,&nbsp;메타&nbsp;음악분수&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;누정·원림과&nbsp;어우러진&nbsp;사계절&nbsp;꽃피는&nbsp;남도&nbsp;정원&nbsp;1번지&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;담양시장&nbsp;전문&nbsp;야시장&nbsp;개장(제주&nbsp;동문시장&nbsp;사례)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역민&nbsp;우선&nbsp;참여&nbsp;유도<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌&nbsp;민박&nbsp;활성화&nbsp;지원(민박협의체,&nbsp;음식업소에&nbsp;준하는&nbsp;지원&nbsp;확대)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;관광지&nbsp;입장료&nbsp;지역화폐&nbsp;환원으로&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;메타&nbsp;랜드·프로방스&nbsp;주변&nbsp;교통난&nbsp;해소를&nbsp;위한&nbsp;도로&nbsp;여건&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체류형&nbsp;관광&nbsp;(2박&nbsp;3일&nbsp;구조)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광&nbsp;페이백&nbsp;제도&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반려동물&nbsp;관광&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;대나무&nbsp;축제의&nbsp;전국화·세계화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대나무의&nbsp;가치로&nbsp;문화와&nbsp;소득을&nbsp;함께&nbsp;키우는&nbsp;체류형&nbsp;글로벌&nbsp;축제&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역민&nbsp;중심의&nbsp;향토&nbsp;문화&nbsp;축제,&nbsp;중국,&nbsp;일본&nbsp;등&nbsp;참여&nbsp;유도로&nbsp;세계화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;축제&nbsp;주무대&nbsp;등&nbsp;고정&nbsp;시설물&nbsp;연차적&nbsp;설치로&nbsp;중장기적&nbsp;예산&nbsp;절감&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;특화된&nbsp;소규모축제&nbsp;단계적&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산타&nbsp;축제를&nbsp;대한민국&nbsp;대표&nbsp;크리스마스&nbsp;브랜드로&nbsp;확장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;면&nbsp;단위&nbsp;유망&nbsp;축제를&nbsp;경쟁력&nbsp;있는&nbsp;군&nbsp;대표&nbsp;축제로&nbsp;단계적&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;지역의&nbsp;문화·예술&nbsp;자원&nbsp;역량&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화재단&nbsp;기능&nbsp;전면&nbsp;개편&nbsp;⇒&nbsp;문화관광재단으로&nbsp;확대<br>·지역&nbsp;내&nbsp;문화예술인&nbsp;역량&nbsp;강화,&nbsp;소득형&nbsp;관광&nbsp;창출로&nbsp;문화관광&nbsp;시너지&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화예술공간(해동&nbsp;문화촌,&nbsp;담빛&nbsp;창고,&nbsp;담빛&nbsp;음악당)&nbsp;활성화&nbsp;방안&nbsp;강구<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;추성경기장&nbsp;생활체육공간으로&nbsp;개방&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대나무박물관&nbsp;이전(죽녹원&nbsp;인근)&nbsp;장기&nbsp;발전&nbsp;계획&nbsp;검토&nbsp;및&nbsp;주민&nbsp;의견&nbsp;수렴&nbsp;병행&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;죽녹원&nbsp;내&nbsp;야외&nbsp;웨딩홀&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;담양읍&nbsp;중심거리&nbsp;관광&nbsp;특화&nbsp;지구&nbsp;발전&nbsp;전략&nbsp;수립&nbsp;(먹거리·카페&nbsp;특화)<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;공약&nbsp;및&nbsp;추진&nbsp;전략&nbsp;우선순위&nbsp;결정,&nbsp;사업별&nbsp;투자계획&nbsp;수립(2026년&nbsp;한)&nbsp;후&nbsp;추진<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;중앙정부&nbsp;및&nbsp;전라남도&nbsp;예산&nbsp;우선&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군&nbsp;예산&nbsp;자체&nbsp;사업&nbsp;우선순위에&nbsp;따른&nbsp;연차&nbsp;투자(군비,&nbsp;지방소멸대응기금&nbsp;등)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	군민과 동행하는 열린 행정 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="군민과 동행하는 열린 행정 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;군민과&nbsp;함께&nbsp;소통·화합하고&nbsp;군민의&nbsp;삶을&nbsp;최우선하는&nbsp;민생행정&nbsp;정착<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;군민의&nbsp;삶을&nbsp;최우선하는&nbsp;대통합&nbsp;원년&nbsp;선포(지방분권·지방자치&nbsp;강화)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고향&nbsp;사랑·이웃사랑·담양&nbsp;사랑의&nbsp;3사랑&nbsp;운동으로&nbsp;지역&nbsp;대통합&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;지역&nbsp;현안&nbsp;결정&nbsp;시&nbsp;군의회,&nbsp;군민&nbsp;의견&nbsp;수렴(군민&nbsp;원탁회의,&nbsp;군정자문단)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이장단·주민자치회&nbsp;활동&nbsp;지원&nbsp;및&nbsp;예우&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;민생을&nbsp;최우선하는&nbsp;실사구시형&nbsp;책임행정&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민생&nbsp;중심의&nbsp;실용주의&nbsp;정책&nbsp;및&nbsp;예산편성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농촌&nbsp;기본소득(민생&nbsp;지원금)&nbsp;단계별&nbsp;지원방안&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;(1단계)&nbsp;영유아·청소년&nbsp;자녀&nbsp;양육&nbsp;가정,&nbsp;65세&nbsp;이상,&nbsp;취약계층&nbsp;등&nbsp;생계비&nbsp;우선&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;(2단계)&nbsp;전&nbsp;군민&nbsp;민생&nbsp;지원금&nbsp;지원(예산&nbsp;여건&nbsp;감안&nbsp;분기별&nbsp;지급&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;생활&nbsp;중심의&nbsp;현장&nbsp;행정&nbsp;강화,&nbsp;민원&nbsp;만족도&nbsp;평가&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;담양&nbsp;교육의&nbsp;미래는&nbsp;학생과&nbsp;학부모가&nbsp;결정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래&nbsp;교육&nbsp;발전위원회&nbsp;신설(정책&nbsp;결정+예산&nbsp;지원&nbsp;권한&nbsp;부여)<br>&nbsp;&nbsp;&nbsp;&nbsp;·주민·학부모·관·학이&nbsp;참여하는&nbsp;의사결정&nbsp;기구화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군립&nbsp;공공&nbsp;도서관&nbsp;건립,&nbsp;국제학교&nbsp;연계로&nbsp;도농&nbsp;간&nbsp;어학&nbsp;능력&nbsp;격차&nbsp;해소&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농촌&nbsp;유학&nbsp;활성화&nbsp;-&nbsp;가족&nbsp;체류형&nbsp;주택&nbsp;공급&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;성과지향의&nbsp;생산적&nbsp;조직&nbsp;관리<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군청사&nbsp;이전&nbsp;용역&nbsp;착수<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제2군청사&nbsp;건립(현&nbsp;대나무박물관&nbsp;인근)&nbsp;우선&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행정&nbsp;전반에&nbsp;대한&nbsp;기능&nbsp;중심의&nbsp;과감한&nbsp;조직개편&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;·부군수의&nbsp;업무관장&nbsp;기능&nbsp;강화&nbsp;(직속&nbsp;기관제&nbsp;운영)<br>&nbsp;&nbsp;&nbsp;&nbsp;·3국장&nbsp;체제&nbsp;→&nbsp;전문성을&nbsp;강화한&nbsp;과감한&nbsp;조직개편&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경영평가를&nbsp;통한&nbsp;민간&nbsp;위탁&nbsp;등&nbsp;시행&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;·민간&nbsp;위탁&nbsp;대행(공공&nbsp;하수&nbsp;관리),&nbsp;공공시설&nbsp;관리공단&nbsp;신설(체육&nbsp;시설물&nbsp;관리&nbsp;운영)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공무원&nbsp;국내·외&nbsp;연수&nbsp;확대&nbsp;-&nbsp;혁신&nbsp;사례&nbsp;벤치마킹으로&nbsp;정책&nbsp;기획&nbsp;역량&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;혁신&nbsp;행정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;참여&nbsp;예산&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;데이터&nbsp;기반&nbsp;스마트&nbsp;행정<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;공약&nbsp;및&nbsp;추진&nbsp;전략&nbsp;우선순위&nbsp;결정,&nbsp;사업별&nbsp;투자계획&nbsp;수립(2026년&nbsp;한)&nbsp;후&nbsp;추진<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;중앙정부&nbsp;및&nbsp;전라남도&nbsp;예산&nbsp;우선&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군&nbsp;예산&nbsp;자체&nbsp;사업&nbsp;우선순위에&nbsp;따른&nbsp;연차&nbsp;투자(군비,&nbsp;지방소멸대응기금&nbsp;등)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

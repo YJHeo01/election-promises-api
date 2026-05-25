@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이승로 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	일상의 생활권에서 누리는 돌봄과 건강</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="일상의 생활권에서 누리는 돌봄과 건강">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;생활권&nbsp;안에서&nbsp;생애주기형&nbsp;돌봄·건강·관계망&nbsp;서비스&nbsp;통합&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;복지&nbsp;인프라&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일상의&nbsp;생활권에서&nbsp;통합&nbsp;연계되는&nbsp;통합돌봄&nbsp;안정적&nbsp;정착<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노인종합복지관&nbsp;개관,&nbsp;경로당&nbsp;운영&nbsp;관리&nbsp;및&nbsp;고령자&nbsp;주택&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고독사예방,&nbsp;대상포진&nbsp;접종&nbsp;지원,&nbsp;일자리&nbsp;지속&nbsp;발굴&nbsp;<br>&nbsp;&nbsp;○&nbsp;아동청소년&nbsp;성장&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;키즈랜드·키즈카페·키움센터&nbsp;확충&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;온종일돌봄&nbsp;시스템&nbsp;안정적&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건강&nbsp;및&nbsp;성장&nbsp;지원&nbsp;<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대상기관&nbsp;확인&nbsp;및&nbsp;관리<br>&nbsp;&nbsp;○&nbsp;민관&nbsp;협력&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;설계용역&nbsp;및&nbsp;공사<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~임기&nbsp;내&nbsp;달성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시·구비&nbsp;일반회계&nbsp;및&nbsp;기금&nbsp;활용&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	생활권 인프라 확충으로 지역발전 격차 해소</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="생활권 인프라 확충으로 지역발전 격차 해소">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;권역별&nbsp;생활&nbsp;인프라&nbsp;확충으로&nbsp;주민&nbsp;주거환경&nbsp;개선과&nbsp;이용편의&nbsp;제고<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공용청사(삼선,&nbsp;정릉2,&nbsp;정릉3,&nbsp;길음2,&nbsp;장위2)&nbsp;5개소&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;권역별&nbsp;복합시설(길음7단지,&nbsp;정릉차고지&nbsp;등)&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;신속한&nbsp;정비사업&nbsp;추진을&nbsp;위한&nbsp;행정적&nbsp;지원&nbsp;및&nbsp;정비완료&nbsp;구역의&nbsp;생활여건&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;갈등조정위원회,&nbsp;찾아가는주민아카데미&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정비권역&nbsp;도로환경&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교통약자&nbsp;시설(에스컬레이터.&nbsp;엘리베이터&nbsp;등)&nbsp;조성<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;계획수립,&nbsp;주민간담회<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;조사&nbsp;및&nbsp;연구&nbsp;<br>&nbsp;&nbsp;○&nbsp;단계별&nbsp;설계&nbsp;및&nbsp;사업&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;관계&nbsp;기관&nbsp;협의&nbsp;추진<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~임기&nbsp;내&nbsp;달성<br>&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시·구비&nbsp;일반회계&nbsp;및&nbsp;기금&nbsp;활용&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	편리하고 안전한 생활여건 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="편리하고 안전한 생활여건 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;교통여건&nbsp;개선으로&nbsp;지역발전&nbsp;기반&nbsp;강화&nbsp;및&nbsp;주차·보행환경&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강북횡단선.&nbsp;동북선으로&nbsp;발전&nbsp;동력&nbsp;견인<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;권역별&nbsp;공영주차장&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을버스&nbsp;노선&nbsp;신설&nbsp;및&nbsp;조정&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;길음역&nbsp;환승정류소&nbsp;환경개선&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;월곡램프&nbsp;상습정체&nbsp;해소를&nbsp;위한&nbsp;도로교통체계&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;교통약자&nbsp;교통환경&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;워킹스쿨버스&nbsp;확대&nbsp;및&nbsp;어린이보호구역&nbsp;정비&nbsp;관리<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정비사업&nbsp;연계&nbsp;교통약자시설(엘리베이터,&nbsp;에스컬레이터&nbsp;등)&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;도심형&nbsp;재난&nbsp;예방&nbsp;및&nbsp;대응&nbsp;체계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;침수·다중인파밀집·싱크홀&nbsp;등&nbsp;도심형&nbsp;재난&nbsp;예방&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재난&nbsp;조기예측&nbsp;및&nbsp;대응을&nbsp;위한&nbsp;스마트&nbsp;행정체계&nbsp;강화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;설계용역&nbsp;및&nbsp;단계별&nbsp;공사<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;간담회&nbsp;및&nbsp;지역&nbsp;현황&nbsp;조사<br>&nbsp;&nbsp;○&nbsp;관계기관&nbsp;협의&nbsp;및&nbsp;사업&nbsp;연계<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~임기&nbsp;내&nbsp;달성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시·구비&nbsp;일반회계&nbsp;및&nbsp;기금&nbsp;활용&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	풍요로운 경제, 지속가능한 일자리</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="풍요로운 경제, 지속가능한 일자리">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역상권&nbsp;활성화를&nbsp;위한&nbsp;소상공인&nbsp;지원&nbsp;확대&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;골목상권&nbsp;육성지원(성북사랑상품권,&nbsp;소상공인융자&nbsp;등)&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역상권&nbsp;활성화를&nbsp;위한&nbsp;맞춤형&nbsp;지원&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;대학과&nbsp;청년의&nbsp;지역상생으로&nbsp;지역정착&nbsp;유도&nbsp;위한&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년창업거리·스마트창업센터·캠퍼스타운&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공안심상가&nbsp;조성&nbsp;및&nbsp;지역상품권&nbsp;활용&nbsp;확대를&nbsp;위한&nbsp;골목형상점가&nbsp;기준&nbsp;완화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학·지역&nbsp;협력체계&nbsp;구축,&nbsp;대학&nbsp;전담&nbsp;조직&nbsp;마련<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;및&nbsp;청년창업&nbsp;지원사업&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;대학·지역&nbsp;연계&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;관계기관&nbsp;협의&nbsp;및&nbsp;제도&nbsp;개선&nbsp;추진<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~임기&nbsp;내&nbsp;달성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시·구비&nbsp;일반회계&nbsp;및&nbsp;기금&nbsp;활용&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	내 집 앞에서 만나는 동네문화·일상예술</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="내 집 앞에서 만나는 동네문화·일상예술">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;장위권역의&nbsp;문화복합&nbsp;명품도시&nbsp;조성&nbsp;위한&nbsp;인프라&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공문화도서관,&nbsp;문화예술회관,&nbsp;제2문화마루,&nbsp;성북문화유산센터&nbsp;등<br>&nbsp;&nbsp;○&nbsp;성북동&nbsp;문화자원&nbsp;활용&nbsp;확대&nbsp;및&nbsp;컨텐츠&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;누리마실&nbsp;테마&nbsp;다양화,&nbsp;시티투어&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성북동&nbsp;별서&nbsp;개방&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성북동길&nbsp;로컬브랜드&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;일상&nbsp;속&nbsp;문화&nbsp;향유&nbsp;기회&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야외도서관&nbsp;다양화&nbsp;및&nbsp;운영기간&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년불패영화제&nbsp;활성화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화가&nbsp;흐르는&nbsp;성북천&nbsp;수변감성거리&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;개운산&nbsp;제2숲속도서관&nbsp;개관&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;설계용역&nbsp;및&nbsp;공사<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;유휴공간&nbsp;공유&nbsp;등&nbsp;커뮤니티&nbsp;공간&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;문화기관&nbsp;및&nbsp;지역예술인&nbsp;협력체계&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~임기&nbsp;내&nbsp;달성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시·구비&nbsp;일반회계&nbsp;및&nbsp;기금&nbsp;활용&nbsp;등</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;장기수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	365일 시민이 행복한 일상</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="365일 시민이 행복한 일상">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;-&nbsp;적극적이고&nbsp;다양한&nbsp;행정&nbsp;서비스를&nbsp;통해&nbsp;시민의&nbsp;삶의&nbsp;질&nbsp;향상<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;365일&nbsp;공공시설&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도서관·수영장·청소년센터&nbsp;등&nbsp;공공시설&nbsp;휴관&nbsp;없이&nbsp;365일&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;이웃과&nbsp;함께&nbsp;하는&nbsp;아파트&nbsp;생활<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유휴공간&nbsp;주민&nbsp;복지시설로&nbsp;전환,&nbsp;오전&nbsp;7시~저녁&nbsp;9시&nbsp;육아돌봄&nbsp;확대,&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;노후&nbsp;아파트&nbsp;선도지구&nbsp;지정(리모델링)<br>&nbsp;&nbsp;○&nbsp;전&nbsp;시민&nbsp;무료&nbsp;자율주행&nbsp;전기버스<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시범운행&nbsp;확대,&nbsp;주행레벨&nbsp;단계에&nbsp;따라&nbsp;점진&nbsp;도입,&nbsp;디지털&nbsp;트램&nbsp;방식&nbsp;운행<br>&nbsp;&nbsp;○&nbsp;10분이면&nbsp;닿는&nbsp;생활&nbsp;체육<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;집에서&nbsp;10분&nbsp;안에&nbsp;운동할&nbsp;수&nbsp;있는&nbsp;생활&nbsp;체육&nbsp;인프라를&nbsp;천안&nbsp;전역에&nbsp;제공(우리&nbsp;동네&nbsp;1인&nbsp;1운동&nbsp;인프라)<br>&nbsp;&nbsp;○&nbsp;반려동물&nbsp;테마파크&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구릉지를&nbsp;활용한&nbsp;자연친화적&nbsp;설계&nbsp;(훈련장,&nbsp;놀이터,&nbsp;쉼터&nbsp;등&nbsp;복합공간)&nbsp;<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임직후&nbsp;365일&nbsp;공공시설&nbsp;개방&nbsp;조례'&nbsp;개정&nbsp;및&nbsp;시범&nbsp;운영&nbsp;착수(‘26년&nbsp;하반기)<br>&nbsp;&nbsp;○&nbsp;여타&nbsp;사업은&nbsp;임기내&nbsp;시행(단,&nbsp;자율주행&nbsp;전기버스는&nbsp;레벨&nbsp;단계에&nbsp;따름)<br>&nbsp;&nbsp;○&nbsp;3개년&nbsp;계획을&nbsp;세워&nbsp;시범실시&nbsp;등&nbsp;단계별&nbsp;추진<br>&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;문화체육관광부&nbsp;공모사업&nbsp;및&nbsp;국민체육진흥기금&nbsp;적극&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;직후&nbsp;불급예산&nbsp;전수&nbsp;조사&nbsp;→&nbsp;천안대전환&nbsp;예산확보&nbsp;→&nbsp;&nbsp;사업추진<br>&nbsp;&nbsp;○&nbsp;자율주행&nbsp;버스는&nbsp;민간&nbsp;기업의&nbsp;'기술&nbsp;테스트베드'&nbsp;유치를&nbsp;통해&nbsp;사업비&nbsp;분담<br>&nbsp;&nbsp;○&nbsp;반려동물테마파크&nbsp;조성은&nbsp;농림축산식품부(균형발전특별회계)&nbsp;공모사업&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	더 나은 천안 360도 균형발전 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="더 나은 천안 360도 균형발전 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;-&nbsp;도시&nbsp;전체를&nbsp;넓게&nbsp;쓰되,&nbsp;균형과&nbsp;조화롭게&nbsp;개발<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;독립기념관&nbsp;서곡지구,&nbsp;시민의&nbsp;품으로<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방치된&nbsp;서곡지구&nbsp;30만&nbsp;평을&nbsp;국립미술관·자연생태공원·독립평화&nbsp;비엔날레&nbsp;등으로&nbsp;개발하여&nbsp;세계적인&nbsp;문화&nbsp;도시로&nbsp;飛上(비상)<br>&nbsp;&nbsp;○&nbsp;외곽순환도로&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국도&nbsp;1호선&nbsp;우회도로&nbsp;우선&nbsp;개통&nbsp;및&nbsp;상습&nbsp;정체구간&nbsp;입체교차로&nbsp;건설하여&nbsp;도심&nbsp;정체&nbsp;해소,&nbsp;산업&nbsp;경제&nbsp;활력<br>&nbsp;&nbsp;○&nbsp;도심&nbsp;철도&nbsp;지하화&nbsp;및&nbsp;GTX-C<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;천안역&nbsp;경부선&nbsp;지하화와&nbsp;GTX&nbsp;연장으로&nbsp;신속한&nbsp;광역&nbsp;교통망&nbsp;확보&nbsp;<br>&nbsp;&nbsp;○&nbsp;'28년&nbsp;천안&nbsp;신역사&nbsp;준공,&nbsp;대중교통&nbsp;대전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단순&nbsp;증개축을&nbsp;넘어&nbsp;신역사&nbsp;준공을&nbsp;계기로&nbsp;원도심&nbsp;개발과&nbsp;광역&nbsp;교통망을&nbsp;전면&nbsp;재개편하여&nbsp;신속·편리한&nbsp;대중교통,&nbsp;원도심&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;북부권&nbsp;트라이앵글&nbsp;균형발전<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성성호수&nbsp;주변&nbsp;아파트단지와&nbsp;부성역&nbsp;조기&nbsp;준공,&nbsp;직산&nbsp;에코&nbsp;신도시,&nbsp;성환&nbsp;AI&nbsp;모빌리티&nbsp;국가산업단지를&nbsp;종합적으로&nbsp;계획&nbsp;개발하여&nbsp;큰&nbsp;천안&nbsp;프로젝트&nbsp;완성<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;독립기념관&nbsp;개발은&nbsp;국가보훈부&nbsp;소관으로&nbsp;국회,&nbsp;충남도,&nbsp;중앙정부와&nbsp;협의&nbsp;진행하되,&nbsp;천안시의&nbsp;서곡지구&nbsp;환원권을&nbsp;적극&nbsp;행사할&nbsp;계획(3년내&nbsp;기본설계)<br>&nbsp;&nbsp;○&nbsp;도심&nbsp;경부철도는&nbsp;정부의&nbsp;선도사업&nbsp;공모&nbsp;추진,&nbsp;GTX-C는&nbsp;평택시와&nbsp;공조<br>&nbsp;&nbsp;○&nbsp;천안&nbsp;교통&nbsp;대전환은&nbsp;2년내&nbsp;계획수립,&nbsp;28년&nbsp;준공과&nbsp;함께&nbsp;실행<br>&nbsp;&nbsp;○&nbsp;북부권&nbsp;트라이앵글은&nbsp;정부&nbsp;사업추진에&nbsp;맞춰&nbsp;단계별&nbsp;추진<br>&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;철도지하화&nbsp;특별법에&nbsp;따른&nbsp;개발이익&nbsp;공유제&nbsp;도입&nbsp;(민자유치,&nbsp;재정부담&nbsp;최소화)<br>&nbsp;&nbsp;○&nbsp;독립기념관&nbsp;서곡&nbsp;30만평&nbsp;개발은&nbsp;국책사업과&nbsp;연계하여&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	골목경제와 첨단산업 동행</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="골목경제와 첨단산업 동행">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;-&nbsp;소상공인·자영업자의&nbsp;민생경제와&nbsp;AI&nbsp;첨단산업의&nbsp;조화를&nbsp;이루는&nbsp;천안&nbsp;경제<br><br>□&nbsp;이행방법<br>&nbsp;○&nbsp;소상공인&nbsp;자영업자&nbsp;민생펀드<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민생&nbsp;펀드(기금)&nbsp;조성으로&nbsp;자영업자를&nbsp;지원하고,&nbsp;지역화폐&nbsp;2배로&nbsp;늘려&nbsp;바닥&nbsp;경제를&nbsp;진흥하여&nbsp;기업·상인·시민이&nbsp;넉넉한&nbsp;살림<br>&nbsp;○&nbsp;글로벌&nbsp;스트릿·푸드타운&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;낙후된&nbsp;원도심을&nbsp;MZ&nbsp;세대&nbsp;등&nbsp;세계인이&nbsp;찾는&nbsp;글로벌&nbsp;스트릿으로&nbsp;개발,&nbsp;세계&nbsp;각국의&nbsp;미식·문화&nbsp;거리로&nbsp;부활,&nbsp;전국·세계에서&nbsp;찾아오는&nbsp;글로벌&nbsp;명소화<br>&nbsp;○&nbsp;성환&nbsp;AI&nbsp;첨단국가산업단지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성환&nbsp;종축장&nbsp;부지를&nbsp;AI&nbsp;첨단&nbsp;국가산업단지로&nbsp;조성하고,&nbsp;AI자율주행시범단지,&nbsp;&nbsp;AI센터를&nbsp;유치하여&nbsp;중부권&nbsp;AI&nbsp;산업&nbsp;메카로&nbsp;발전<br>&nbsp;&nbsp;○&nbsp;천안아산역&nbsp;하부,&nbsp;AI벤처&nbsp;르네상스<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수도권&nbsp;30분,&nbsp;전국&nbsp;2시간&nbsp;접근성을&nbsp;극대화하여&nbsp;하부&nbsp;900m에&nbsp;무빙워크&nbsp;설치하고,&nbsp;AI전문&nbsp;전시관,&nbsp;반도체&nbsp;박물관&nbsp;및&nbsp;비즈니스&nbsp;공간으로&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;가젤기업&nbsp;집중&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;빠르고&nbsp;강하게&nbsp;성장하는&nbsp;가젤기업(매출&nbsp;100억&nbsp;내외)을&nbsp;집중&nbsp;지원·육성하여&nbsp;중소기업&nbsp;생태계&nbsp;조성과&nbsp;지역경제에&nbsp;실질적&nbsp;기여&nbsp;&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;‘26년&nbsp;하반기&nbsp;계획수립,&nbsp;“27년부터&nbsp;추진(민생펀드,&nbsp;원도심&nbsp;개발,&nbsp;가젤기업)<br>&nbsp;&nbsp;○&nbsp;천안아산역&nbsp;하부&nbsp;무빙워크&nbsp;등,&nbsp;충남도와&nbsp;공동&nbsp;추진(예산&nbsp;50%&nbsp;분담)<br>&nbsp;&nbsp;○&nbsp;성환&nbsp;AI&nbsp;첨단국가산업단지,&nbsp;국토부와&nbsp;지역&nbsp;국회의원과&nbsp;연대하여&nbsp;추진<br>&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민생펀드,&nbsp;특별회계&nbsp;기금조성(일반회계&nbsp;잉여금+상장사&nbsp;ESG&nbsp;기탁금)<br>&nbsp;&nbsp;○&nbsp;천안아산역&nbsp;무빙워크&nbsp;추계액&nbsp;300억,&nbsp;충남도와&nbsp;50%씩&nbsp;매칭(각&nbsp;150억)<br>&nbsp;&nbsp;○&nbsp;성환AI국가산단은&nbsp;국토부&nbsp;등&nbsp;관련부처와&nbsp;협력(공사비&nbsp;약&nbsp;1조6천억&nbsp;추정)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	요람에서 무덤까지 '생애주기별 맞춤복지'</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="요람에서 무덤까지 '생애주기별 맞춤복지'">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;-&nbsp;촘촘한&nbsp;복지를&nbsp;누리면서,&nbsp;문화·예술&nbsp;도시의&nbsp;자긍심&nbsp;고취<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;동부권&nbsp;역사문화관광&nbsp;특구&nbsp;지정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;독립기념관·유관순·이동녕·홍대용을&nbsp;잇는&nbsp;역사&nbsp;벨트와&nbsp;용연저수지&nbsp;어린이&nbsp;생태학습공원을&nbsp;조성,&nbsp;온&nbsp;가족이&nbsp;함께하는&nbsp;역사·자연&nbsp;학습장<br>&nbsp;○&nbsp;24시간&nbsp;소아진료·야간&nbsp;돌봄<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;다른&nbsp;도시에&nbsp;가지&nbsp;않고&nbsp;밤에도&nbsp;아픈&nbsp;아이가&nbsp;진료받는&nbsp;야간&nbsp;클리닉&nbsp;지원,&nbsp;&nbsp;새벽부터&nbsp;야간까지&nbsp;아이를&nbsp;맡길&nbsp;수&nbsp;있는&nbsp;걱정&nbsp;없는&nbsp;복지&nbsp;도시<br>&nbsp;○&nbsp;보증금&nbsp;없는&nbsp;33평형&nbsp;아파트<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3자녀&nbsp;가정을&nbsp;위한&nbsp;국민주택&nbsp;규모의&nbsp;임대주택을&nbsp;공급하되,&nbsp;파격적으로&nbsp;보증금&nbsp;없는&nbsp;재무설계로&nbsp;출산을&nbsp;적극&nbsp;장려(출산,&nbsp;주거를&nbsp;공공이&nbsp;책임짐)<br>&nbsp;○&nbsp;내&nbsp;집에서&nbsp;건강하게,&nbsp;지역에서&nbsp;존엄하게<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출산&nbsp;엄마(2030),&nbsp;어르신(7090)을&nbsp;공공이&nbsp;함께&nbsp;돌보는&nbsp;천안형&nbsp;통합돌봄센터&nbsp;확대&nbsp;운영함으로써&nbsp;요람에서&nbsp;무덤까지&nbsp;함께&nbsp;동행<br>&nbsp;○&nbsp;무장애&nbsp;스마트&nbsp;자립도시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인·어르신·임산부&nbsp;누구나&nbsp;불편&nbsp;없이&nbsp;다니는&nbsp;도시를&nbsp;만들어&nbsp;누구도&nbsp;소외되지&nbsp;않고&nbsp;이동하는&nbsp;천안<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;‘26년&nbsp;하반기&nbsp;계획수립,&nbsp;“27년부터&nbsp;단계별&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;24시간&nbsp;소아진료는&nbsp;’26년&nbsp;하반기&nbsp;관내&nbsp;대학병원과&nbsp;협업&nbsp;체결<br>&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;행정개혁으로&nbsp;행정&nbsp;경상&nbsp;경비&nbsp;10%&nbsp;절감&nbsp;예산&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;성과가&nbsp;낮은&nbsp;반복사업&nbsp;일몰&nbsp;등&nbsp;예산&nbsp;재편으로&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;'지방소멸대응기금'&nbsp;및&nbsp;'사회보장&nbsp;특별교부세'&nbsp;집중&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	시민 중심의 AI 행정</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="시민 중심의 AI 행정">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;-&nbsp;대대적이고&nbsp;전폭적인&nbsp;AI&nbsp;행정대개혁&nbsp;추진으로&nbsp;가장&nbsp;효율적인&nbsp;천안&nbsp;행정<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;AI행정&nbsp;추진본부&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시장&nbsp;직속&nbsp;‘AI컨트롤&nbsp;타워’를&nbsp;설치하고,&nbsp;민간전문가&nbsp;개방형&nbsp;임용하여&nbsp;강력한&nbsp;혁신을&nbsp;추진하며,&nbsp;천안형&nbsp;GPT&nbsp;구축(무늬만&nbsp;스마트가&nbsp;아닌&nbsp;진짜&nbsp;AI&nbsp;행정)<br>&nbsp;&nbsp;○&nbsp;전국&nbsp;최고&nbsp;수준의&nbsp;민원서비스<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단순&nbsp;반복&nbsp;민원은&nbsp;AI&nbsp;자동화로&nbsp;즉시&nbsp;처리하고,&nbsp;유휴인력과&nbsp;장비는&nbsp;민원과&nbsp;복지,&nbsp;기획부문에&nbsp;재배치하고&nbsp;전국에서&nbsp;가장&nbsp;친절한&nbsp;천안&nbsp;시청으로&nbsp;탈바꿈<br>&nbsp;&nbsp;○&nbsp;공공부문&nbsp;주&nbsp;4.5일제&nbsp;시범&nbsp;실시&nbsp;및&nbsp;공무원&nbsp;역량&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공부문부터&nbsp;주&nbsp;4.5일&nbsp;근무제&nbsp;시범&nbsp;도입(월&nbsp;2회,&nbsp;단계별&nbsp;확대&nbsp;추진)하고,&nbsp;&nbsp;대기업&nbsp;수준의&nbsp;교육비&nbsp;2배&nbsp;증액으로&nbsp;존경받는&nbsp;행정&nbsp;전문가로&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;천안·아산&nbsp;생활권&nbsp;통합&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;갈등이&nbsp;심한&nbsp;행정통합&nbsp;대신&nbsp;이미&nbsp;하나된&nbsp;천안·아산&nbsp;공동생활권에&nbsp;맞게&nbsp;시민이&nbsp;불편한&nbsp;부분부터&nbsp;통합·공동이용(대중교통·지역화폐&nbsp;통합,&nbsp;공공시설·도로&nbsp;확대)<br>&nbsp;&nbsp;○&nbsp;먹거리재단&nbsp;설립&nbsp;및&nbsp;로컬푸드&nbsp;직매장&nbsp;설치&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;먹거리&nbsp;재단을&nbsp;통해&nbsp;분산된&nbsp;정책을&nbsp;통합관리하고,&nbsp;천안시&nbsp;직영&nbsp;로컬푸드&nbsp;직매장을&nbsp;설치,&nbsp;농촌공간계획&nbsp;및&nbsp;마을공동체지원,&nbsp;외국인&nbsp;근로자&nbsp;지원센터&nbsp;설치&nbsp;운영하여&nbsp;농민은&nbsp;제값&nbsp;받고,&nbsp;시민은&nbsp;안심&nbsp;먹거리를&nbsp;제공받아&nbsp;건강한&nbsp;삶&nbsp;유지&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;추진본부는&nbsp;‘26년&nbsp;하반기(6개월내&nbsp;전&nbsp;공무원&nbsp;AI교육)<br>&nbsp;&nbsp;○&nbsp;천안아산&nbsp;생활통합은&nbsp;취임&nbsp;직후&nbsp;두&nbsp;도시&nbsp;시장&nbsp;협약&nbsp;<br>&nbsp;&nbsp;○&nbsp;먹거리&nbsp;재단,&nbsp;공무원&nbsp;역량&nbsp;강화는&nbsp;’26년&nbsp;하반기&nbsp;계획수립&nbsp;후&nbsp;점진적&nbsp;시행<br>&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;행정개혁(저성과&nbsp;반복사업&nbsp;일몰)으로&nbsp;절감된&nbsp;예산&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;정부의&nbsp;'디지털&nbsp;플랫폼&nbsp;정부'&nbsp;정책과&nbsp;연계,&nbsp;대규모&nbsp;국비(공모사업)&nbsp;우선&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;로컬푸드&nbsp;직매장은&nbsp;아파트&nbsp;밀집지역&nbsp;공용주차타워&nbsp;신축과&nbsp;연계&nbsp;추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

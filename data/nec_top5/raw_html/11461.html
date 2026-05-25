@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김민영 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	한국마사회 본사 정읍유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="한국마사회 본사 정읍유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;한국마사회를&nbsp;정읍에&nbsp;유치하여&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;인구증대,&nbsp;지역경제&nbsp;활성화&nbsp;기여<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;정읍유치&nbsp;타당성용역<br>&nbsp;&nbsp;○&nbsp;정읍유치&nbsp;타당성&nbsp;논리개발&nbsp;한국마사회&nbsp;정읍유치&nbsp;신청<br>&nbsp;&nbsp;○&nbsp;조국혁신당&nbsp;차원에서&nbsp;정읍유치&nbsp;지원&nbsp;약속<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;위&nbsp;&nbsp;치&nbsp;:&nbsp;정읍시&nbsp;일원&nbsp;(적의&nbsp;장소는&nbsp;투기우려&nbsp;때문에&nbsp;아직&nbsp;미발표)<br>&nbsp;&nbsp;○&nbsp;부&nbsp;&nbsp;지&nbsp;:&nbsp;50만평<br>&nbsp;&nbsp;○&nbsp;사업시행&nbsp;:&nbsp;한국마사회&nbsp;/&nbsp;정읍시&nbsp;:&nbsp;행정지원&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;2027년~2030년(4년&nbsp;연차사업)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;건립비용&nbsp;:&nbsp;한국마사회부담(정부공공기관&nbsp;지방이전시&nbsp;공공기관&nbsp;매각,&nbsp;부담)<br>&nbsp;&nbsp;※&nbsp;정읍시&nbsp;행정지원(지구단위계획,&nbsp;부지매입&nbsp;대행&nbsp;등)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	전자선가속기로 축산악취 해결</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="전자선가속기로 축산악취 해결">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;축산악취&nbsp;해결로&nbsp;쾌적하고,&nbsp;살기&nbsp;좋은&nbsp;정읍&nbsp;건설<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;방사선연구소에서&nbsp;개발한&nbsp;신기술(전자선가속기를&nbsp;활용한&nbsp;축산악취&nbsp;제거&nbsp;기술)활용,&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전자선가속기&nbsp;설치&nbsp;:&nbsp;4대&nbsp;/&nbsp;약&nbsp;200억원&nbsp;(농식품부&nbsp;특수시책으로&nbsp;추진)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;탱크로리&nbsp;4대&nbsp;구입&nbsp;⇒&nbsp;권역별&nbsp;축산폐수&nbsp;수거⇒&nbsp;전자선가속기로&nbsp;처리·배출<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;위&nbsp;&nbsp;치&nbsp;:&nbsp;권역별(동부권,&nbsp;서부권,&nbsp;남부권,&nbsp;북부권)&nbsp;1대씩&nbsp;4대&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;부&nbsp;&nbsp;지&nbsp;:&nbsp;300평씩<br>&nbsp;&nbsp;○&nbsp;사업시행&nbsp;:&nbsp;정읍시&nbsp;/&nbsp;농림수산식품부&nbsp;:&nbsp;정읍시를&nbsp;시범지역으로&nbsp;선정,&nbsp;국비지원<br>&nbsp;&nbsp;○&nbsp;2027년~2030년(4년&nbsp;연차사업)<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;전자선가속기&nbsp;설치비용&nbsp;:&nbsp;200억원(50억원×4대)<br>&nbsp;&nbsp;○&nbsp;제원조달&nbsp;:&nbsp;국비(농식품부&nbsp;특수시책으로&nbsp;추진)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	햇빛이용 소득증대로 평생 시민연급 지급</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="햇빛이용 소득증대로 평생 시민연급 지급">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;정읍시&nbsp;관내&nbsp;유휴지에&nbsp;태양광을&nbsp;설치(최종&nbsp;8GW)를&nbsp;설치하여,&nbsp;그&nbsp;수익으로&nbsp;매년&nbsp;시민연금&nbsp;100만원씩&nbsp;지급<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;1.&nbsp;선로확보&nbsp;추진&nbsp;(정읍에&nbsp;변전소&nbsp;조기&nbsp;설치)<br>&nbsp;&nbsp;2.&nbsp;거리완화&nbsp;:&nbsp;조례개정&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-현재&nbsp;:&nbsp;주택&nbsp;:&nbsp;100m이상&nbsp;/&nbsp;2차선도로&nbsp;:&nbsp;100m이상&nbsp;이격&nbsp;→&nbsp;이격&nbsp;제한없음<br>&nbsp;&nbsp;3.&nbsp;시민펀드&nbsp;조성&nbsp;:&nbsp;1인당&nbsp;1만원씩&nbsp;가입(1회만&nbsp;가입하면&nbsp;됨)<br>&nbsp;&nbsp;4.&nbsp;시민&nbsp;햇빛연금&nbsp;사업추진&nbsp;(약&nbsp;8GW&nbsp;설치&nbsp;/&nbsp;설치비&nbsp;:&nbsp;국·도·시비&nbsp;활용)<br>&nbsp;&nbsp;&nbsp;-&nbsp;시&nbsp;소유&nbsp;유휴지&nbsp;등에&nbsp;태양광발전사업을&nbsp;추진&nbsp;시민에게&nbsp;연금으로&nbsp;지급<br>&nbsp;&nbsp;※&nbsp;기&nbsp;태양광&nbsp;설치&nbsp;허가받은&nbsp;곳&nbsp;:&nbsp;조기&nbsp;설치&nbsp;할&nbsp;수&nbsp;있도록&nbsp;선로확보&nbsp;추진해주겠음.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2027년~2033년(7년&nbsp;연차사업)<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시민펀드&nbsp;조성&nbsp;:&nbsp;10억원(1인&nbsp;1만원씩)<br>&nbsp;&nbsp;○&nbsp;재원조달&nbsp;:&nbsp;국비,&nbsp;도비,&nbsp;시비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기&nbsp;추진&nbsp;지자체┏&nbsp;전남&nbsp;신안군(햇빛연금누적&nbsp;100억원&nbsp;돌파)&nbsp;:&nbsp;최종&nbsp;8GW설치&nbsp;계획<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗&nbsp;전남&nbsp;영암군&nbsp;:&nbsp;2025년&nbsp;시작</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	어르신· 장애인 돌봄 강화로 삶의 질 향상(UP↑)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="어르신· 장애인 돌봄 강화로 삶의 질 향상(UP↑)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;어르신,&nbsp;장애인&nbsp;돌봄을&nbsp;위해&nbsp;최일선에서&nbsp;묵묵히&nbsp;헌신하고&nbsp;있는&nbsp;요양보호사,&nbsp;생활지원사,&nbsp;장애인활동지원사들에게&nbsp;활동수당을&nbsp;증액지원하여&nbsp;더욱더&nbsp;열심히&nbsp;활동할&nbsp;수&nbsp;있도록&nbsp;격려.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;1.&nbsp;조례&nbsp;재·개정<br>&nbsp;&nbsp;2.&nbsp;돌봄사&nbsp;활동인원&nbsp;및&nbsp;실태파악&nbsp;&nbsp;<br>&nbsp;&nbsp;3.&nbsp;시민의견&nbsp;수렴<br>&nbsp;&nbsp;4.&nbsp;시의회&nbsp;동의<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2027년~2030년(4년&nbsp;연차사업)<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;년말&nbsp;순세계잉여급&nbsp;활용&nbsp;(보통&nbsp;매년&nbsp;700~800억원&nbsp;발생)<br>&nbsp;&nbsp;○&nbsp;소요예산액&nbsp;--------------------------------------&nbsp;16억3천2백만원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;요양보호사(약&nbsp;400명)&nbsp;:&nbsp;10만원×400명×12월&nbsp;=&nbsp;480,000,000원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활지원사(약&nbsp;300명)&nbsp;:&nbsp;10만원×300명×12월&nbsp;=&nbsp;360,000,000원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인활동지원사(약&nbsp;660명)&nbsp;:&nbsp;10만원×660명×12월&nbsp;=&nbsp;792,000,000원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	전국 제일의 생활체육도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="전국 제일의 생활체육도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;생활체육&nbsp;활성화로&nbsp;시민들의&nbsp;건강증진과&nbsp;삶의&nbsp;질&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;2036&nbsp;전주하계올림픽&nbsp;유치시,&nbsp;일부&nbsp;종목&nbsp;정읍시에&nbsp;유치,&nbsp;지역경제활성화&nbsp;도모<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;1.&nbsp;국제&nbsp;규격의&nbsp;정읍복합체육관&nbsp;건립(국비지원&nbsp;건의&nbsp;또는&nbsp;공모사업&nbsp;선정)<br>&nbsp;&nbsp;2.&nbsp;파크골프장&nbsp;권역별&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기조성&nbsp;:&nbsp;신태인(북부권)&nbsp;/&nbsp;정읍천&nbsp;고수부지(시내권)&nbsp;/&nbsp;황토현(서부권)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신규조성&nbsp;:&nbsp;내장&nbsp;생태공원인근(시내권)&nbsp;/&nbsp;칠보(동부권)<br>&nbsp;&nbsp;3.&nbsp;축구장,&nbsp;테니스장,&nbsp;족구장(기존시설&nbsp;중&nbsp;국제규격&nbsp;미달된&nbsp;부분&nbsp;국제규격화)<br>&nbsp;&nbsp;4.&nbsp;배드민턴장&nbsp;(기존시설&nbsp;중&nbsp;국제규격&nbsp;미달된&nbsp;부분&nbsp;국제규격화)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2027년~2030년(4년&nbsp;연차사업)<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;○&nbsp;복합체육관&nbsp;:&nbsp;약&nbsp;500억원(국가공모사업으로&nbsp;신청)/&nbsp;국·도·시비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;○&nbsp;기타&nbsp;체육시설&nbsp;:&nbsp;2027년부터&nbsp;연차사업으로&nbsp;시비를&nbsp;투입&nbsp;사업추진</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;오태완 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	남북6축 고속도로 의령 연장, 의령IC 신설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="남북6축 고속도로 의령 연장, 의령IC 신설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;남북6축&nbsp;고속도로&nbsp;합천~의령~함안&nbsp;연장&nbsp;및&nbsp;의령IC&nbsp;신설을&nbsp;제2차&nbsp;국가도로망종합계획&nbsp;수정계획에&nbsp;반영해&nbsp;광역교통망을&nbsp;구축하고&nbsp;지역&nbsp;성장&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;도로&nbsp;개설을&nbsp;넘어&nbsp;의령IC를&nbsp;중심으로&nbsp;산업·물류·관광&nbsp;기능이&nbsp;연계되는&nbsp;미래&nbsp;성장축&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;합천·함안과&nbsp;공동&nbsp;건의문&nbsp;채택&nbsp;등공동&nbsp;대응체계를&nbsp;구축하고&nbsp;주민&nbsp;서명운동,&nbsp;정책&nbsp;간담회,&nbsp;중앙부처·국회&nbsp;방문&nbsp;등을&nbsp;지속&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;제2차&nbsp;국가도로망종합계획&nbsp;수정계획&nbsp;반영을&nbsp;위한&nbsp;타당성과&nbsp;균형발전&nbsp;논리를&nbsp;적극&nbsp;건의하고&nbsp;범군민&nbsp;추진위원회를&nbsp;중심으로&nbsp;정책&nbsp;대응을&nbsp;강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;~&nbsp;2030.&nbsp;12.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;소요재원:&nbsp;1조&nbsp;5천억원<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;간선도로망&nbsp;구축사업인&nbsp;만큼&nbsp;기본적으로&nbsp;국비&nbsp;중심의&nbsp;국가재정&nbsp;사업으로&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;합천·함안&nbsp;등&nbsp;인접&nbsp;지자체와&nbsp;공동&nbsp;건의체계를&nbsp;구축하고,&nbsp;경상남도와&nbsp;협력을&nbsp;통해&nbsp;국가&nbsp;균형발전&nbsp;및&nbsp;지역소멸&nbsp;대응&nbsp;논리로&nbsp;국비&nbsp;확보&nbsp;당위성&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제2차&nbsp;국가도로망종합계획&nbsp;수정계획을&nbsp;통해&nbsp;국가사업으로&nbsp;확정&nbsp;후&nbsp;정부고속도로&nbsp;건설계획&nbsp;조속&nbsp;반영.&nbsp;이후&nbsp;예비타당성조사와&nbsp;기본계획&nbsp;수립&nbsp;단계에서&nbsp;국토교통부&nbsp;등&nbsp;관련&nbsp;기관과&nbsp;긴밀히&nbsp;협의</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	농어촌 기본 소득 도입</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="농어촌 기본 소득 도입">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농어촌&nbsp;기본소득&nbsp;도입을&nbsp;통해&nbsp;군민&nbsp;생활&nbsp;안정을&nbsp;지원하고&nbsp;지역&nbsp;내&nbsp;소비&nbsp;활성화로&nbsp;지역경제에&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;지역에&nbsp;정착할&nbsp;수&nbsp;있는&nbsp;기반&nbsp;마련과&nbsp;인구&nbsp;유출&nbsp;방지에도&nbsp;기여<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;농림축산식품부&nbsp;시범사업&nbsp;공모에&nbsp;적극&nbsp;대응하고&nbsp;지역사랑상품권&nbsp;기반&nbsp;지급체계를&nbsp;마련&nbsp;<br>&nbsp;&nbsp;○&nbsp;관련&nbsp;조례&nbsp;정비와&nbsp;재원&nbsp;확보&nbsp;방안을&nbsp;추진하고&nbsp;지역&nbsp;실정에&nbsp;맞는&nbsp;지속&nbsp;가능한&nbsp;기본소득&nbsp;정책&nbsp;모델을&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;~&nbsp;2027.&nbsp;12.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;중앙정부&nbsp;농어촌&nbsp;기본소득&nbsp;시범사업&nbsp;공모사업을&nbsp;통한&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;국·도비&nbsp;확보&nbsp;및&nbsp;자주재원&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;연차별&nbsp;투자계획<br>===========================================================================================<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;2026년(7~12월)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;2027년(1~12월)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;<br>&nbsp;총사업비&nbsp;&nbsp;&nbsp;|-------------------------------------------------------------------------------------------------------------------------|&nbsp;비고<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;인구수&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;계&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;국비&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;도비&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;군비&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;인구&nbsp;수&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;계&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;국비&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;도비&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;군비&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;신청서기준&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;(40%)&nbsp;&nbsp;|&nbsp;(30%)&nbsp;&nbsp;|&nbsp;(30%)&nbsp;&nbsp;|&nbsp;신청서기준&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;(40%)&nbsp;&nbsp;|&nbsp;(30%)&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;(30%)&nbsp;&nbsp;&nbsp;&nbsp;|<br>-------------------------------------------------------------------------------------------------------------------------------------------------<br>702억&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;26,000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;234&nbsp;&nbsp;&nbsp;|&nbsp;94&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;70&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;70&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;26,000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;468&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;188&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;140&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;140&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>===========================================================================================</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	다자녀 튼튼수당 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="다자녀 튼튼수당 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;다자녀&nbsp;튼튼수당&nbsp;지원&nbsp;대상을&nbsp;1자녀&nbsp;가정까지&nbsp;확대해&nbsp;보편적&nbsp;아동복지를&nbsp;강화하고&nbsp;양육&nbsp;부담&nbsp;경감<br>&nbsp;&nbsp;○&nbsp;실질직인&nbsp;양육비&nbsp;지원으로&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;환경조성&nbsp;및&nbsp;정주&nbsp;인구&nbsp;증가&nbsp;기여<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;지원&nbsp;대상과&nbsp;기준을&nbsp;확대&nbsp;개편하고&nbsp;안정적인&nbsp;재원&nbsp;확보와&nbsp;단계적&nbsp;지원&nbsp;체계&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;셋째아&nbsp;양육수당,&nbsp;아동급식&nbsp;지원사업&nbsp;등&nbsp;기존&nbsp;아동복지&nbsp;정책과&nbsp;연계해&nbsp;출산·양육&nbsp;친화&nbsp;환경&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027.&nbsp;1.&nbsp;~&nbsp;계속<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;불필요한&nbsp;관행성·중복성&nbsp;예산&nbsp;정비를&nbsp;통한&nbsp;세출구조조정으로&nbsp;실질적인&nbsp;양육비&nbsp;부담&nbsp;완화<br>&nbsp;&nbsp;○&nbsp;연차별&nbsp;투자계획<br>==============================================<br>구&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;분&nbsp;|&nbsp;총사업비&nbsp;&nbsp;|&nbsp;2027년&nbsp;&nbsp;|&nbsp;2028년&nbsp;&nbsp;|&nbsp;2029년&nbsp;&nbsp;|&nbsp;2030년<br>--------------------------------------------------------------------------<br>군&nbsp;비&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;64&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;16&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;16&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;16&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;16<br>==============================================</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	일자리 연계형 청년 임대아파트 100세대 조속 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="일자리 연계형 청년 임대아파트 100세대 조속 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;공공주택&nbsp;공급을&nbsp;통해&nbsp;청년층의&nbsp;유입·유지&nbsp;기반을&nbsp;강화하여&nbsp;지역활력&nbsp;회복<br>&nbsp;&nbsp;○&nbsp;청년계층&nbsp;및&nbsp;중소기업근로자의&nbsp;지역&nbsp;정주여건&nbsp;개선으로&nbsp;주거&nbsp;안정화&nbsp;도모&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;의령읍&nbsp;동동택지지구&nbsp;내&nbsp;청년&nbsp;임대아파트&nbsp;건립사업을&nbsp;차질&nbsp;없이&nbsp;추진하고&nbsp;일자리·생활&nbsp;인프라와&nbsp;연계한&nbsp;정주환경&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;경남개발공사&nbsp;등&nbsp;관계기관과&nbsp;협력해&nbsp;안정적인&nbsp;주거&nbsp;공급과&nbsp;청년&nbsp;친화&nbsp;정책을&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;~&nbsp;2029.&nbsp;6.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국토부&nbsp;일자리연계형&nbsp;지원주택&nbsp;건립&nbsp;공모사업으로&nbsp;선정<br>&nbsp;&nbsp;○&nbsp;연차별&nbsp;투자계획<br>===========================================================<br>구&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;분&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;총사업비&nbsp;&nbsp;&nbsp;|&nbsp;2025년&nbsp;이전&nbsp;&nbsp;|&nbsp;2026년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;2027년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;2028년<br>----------------------------------------------------------------------------------------------<br>계&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;388&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;27.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;122&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;151.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;87.4<br>----------------------------------------------------------------------------------------------<br>국&nbsp;비&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;91.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;18.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;45.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;27.4<br>----------------------------------------------------------------------------------------------<br>특&nbsp;&nbsp;교&nbsp;&nbsp;세&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>----------------------------------------------------------------------------------------------<br>군&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;비&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;205.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;68.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;60&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;60<br>----------------------------------------------------------------------------------------------<br>도시주택기금&nbsp;|&nbsp;91.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;91.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>===========================================================</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	시니어 친화형 국민체육센터 조속 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="시니어 친화형 국민체육센터 조속 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시니어&nbsp;친화형&nbsp;국민체육센터를&nbsp;건립해&nbsp;어르신&nbsp;맞춤형&nbsp;건강·여가·재활복합체육시설&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;세대간&nbsp;체육인프라&nbsp;불균형을&nbsp;해소하고&nbsp;고령층의&nbsp;삶의&nbsp;질&nbsp;향상에&nbsp;기여<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;의령읍&nbsp;서동행정타운&nbsp;일원을&nbsp;중심으로&nbsp;시니어&nbsp;친화형&nbsp;국민체육센터&nbsp;건립사업을&nbsp;차질&nbsp;없이&nbsp;추진하고&nbsp;고령층&nbsp;이용&nbsp;특성을&nbsp;고려하여&nbsp;단순&nbsp;체육시설을&nbsp;넘어&nbsp;건강·여가·재활이&nbsp;통합된&nbsp;지역&nbsp;거점&nbsp;공간&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;의병문화체육관,&nbsp;미래교육원,&nbsp;교육지원청&nbsp;등&nbsp;서동행정타운&nbsp;일대&nbsp;시설관&nbsp;연계한&nbsp;복합생활&nbsp;거점으로&nbsp;발전시켜,&nbsp;생활체육&nbsp;활성화와&nbsp;정주여건&nbsp;개선&nbsp;효과&nbsp;실현&nbsp;&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;~&nbsp;2028.&nbsp;12.&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국도비&nbsp;기&nbsp;확보,&nbsp;군비&nbsp;부담분은&nbsp;가능한&nbsp;범위에서&nbsp;단계적&nbsp;투입&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;연차별&nbsp;투자계획<br>=========================================================<br>구&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;분&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;총사업비&nbsp;&nbsp;&nbsp;|&nbsp;2025년&nbsp;이전&nbsp;&nbsp;&nbsp;|&nbsp;2026년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;2027년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;2028&nbsp;&nbsp;&nbsp;&nbsp;<br>-------------------------------------------------------------------------------------------<br>계&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;86.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;51&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;32.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;1<br>-------------------------------------------------------------------------------------------<br>국&nbsp;비&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>-------------------------------------------------------------------------------------------<br>도비&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;7.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;4.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>-------------------------------------------------------------------------------------------<br>군&nbsp;비&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;49.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;16.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;1<br>=========================================================</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;진교훈 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	모두가 살기좋고 상생하는 균형성장을 이루어내겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="모두가 살기좋고 상생하는 균형성장을 이루어내겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목표&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김포공항&nbsp;고도제한&nbsp;완화&nbsp;조기시행으로&nbsp;재산권&nbsp;보장과&nbsp;도시개발&nbsp;촉진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원도심의&nbsp;재개발·개건축&nbsp;추진과&nbsp;문화편의시설&nbsp;확충&nbsp;통한&nbsp;삶의&nbsp;질&nbsp;향상&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미개발지&nbsp;및&nbsp;가용부지&nbsp;개발&nbsp;통해&nbsp;미래&nbsp;성장동력&nbsp;확보&nbsp;및&nbsp;문화편의시설&nbsp;조성&nbsp;<br><br>■&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;1)&nbsp;[고도제한]&nbsp;김포공항&nbsp;고도제한&nbsp;완화&nbsp;조기시행&nbsp;대응<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강서구&nbsp;최적안&nbsp;적용,&nbsp;주택정비&nbsp;전략&nbsp;연계&nbsp;등&nbsp;조기시행&nbsp;대응방안&nbsp;시행&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대응역량&nbsp;전문성&nbsp;강화.&nbsp;관계기관&nbsp;긴밀&nbsp;협력.&nbsp;범시민&nbsp;협력체계&nbsp;구축<br><br>&nbsp;&nbsp;2)&nbsp;[주택정비]&nbsp;원도심&nbsp;재개발·개건축&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국회대로&nbsp;인근&nbsp;및&nbsp;화곡1·2·3구역&nbsp;도심공공주택복합사업&nbsp;본격&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;택지개발지구(가양·등촌),&nbsp;모아타운,&nbsp;재정비촉진,&nbsp;준공업지역&nbsp;등&nbsp;사업별&nbsp;맞춤형&nbsp;행정지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지구단위계획&nbsp;주민제안&nbsp;반영,&nbsp;공정점검회의&nbsp;공개&nbsp;및&nbsp;주민설명회&nbsp;개최<br><br>&nbsp;&nbsp;3)&nbsp;[명품개발]&nbsp;미개발지&nbsp;등&nbsp;산업·문화&nbsp;복합개발&nbsp;및&nbsp;생태공원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마곡유보지&nbsp;AI융합&nbsp;첨단클러스터&nbsp;및&nbsp;문화편의시설&nbsp;조성&nbsp;-&nbsp;AI<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(구)시민청&nbsp;부지&nbsp;MCT시민플라자&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방화차량기지/건설폐기물처리장&nbsp;이전&nbsp;및&nbsp;개발&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국회대로&nbsp;지하화&nbsp;및&nbsp;상부&nbsp;공원화&nbsp;<br><br>&nbsp;&nbsp;4)&nbsp;[생활SOC]&nbsp;원도심&nbsp;생활SOC&nbsp;확충&nbsp;및&nbsp;도시재생&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공항동&nbsp;도시재생(주차장/도로정비)&nbsp;및&nbsp;생활SOC(체육센터/도서관)&nbsp;조성&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;화곡&nbsp;1동&nbsp;전통시장&nbsp;연계&nbsp;도시재생사업&nbsp;및&nbsp;화곡1·2동&nbsp;휴먼타운(주거환경개선)&nbsp;추진<br><br>&nbsp;&nbsp;5)&nbsp;[공공자산]&nbsp;공공자산&nbsp;문화복합&nbsp;및&nbsp;주민편의시설&nbsp;조성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현청사&nbsp;부지&nbsp;문화복합시설(공연장/도서관/체육시설/업무시설)&nbsp;건립&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구민회관(리모델링),&nbsp;(구)강서문화센터,&nbsp;등촌2동청사&nbsp;부지&nbsp;문화체육복합시설&nbsp;조성&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강서보건소&nbsp;부지&nbsp;건강·편의시설&nbsp;설치.&nbsp;서서울문화플라자(도서관/체육시설/키즈카페)&nbsp;조성<br><br>■&nbsp;이행기간&nbsp;및&nbsp;재원방안&nbsp;<br>&nbsp;&nbsp;1)&nbsp;[고도제한]&nbsp;취임&nbsp;직후&nbsp;추진.&nbsp;조기시행&nbsp;시기는&nbsp;정부&nbsp;방침&nbsp;따라&nbsp;변동.&nbsp;구비&nbsp;편성<br>&nbsp;&nbsp;2)&nbsp;[주택정비]&nbsp;취임&nbsp;직후&nbsp;추진.&nbsp;행정적&nbsp;지원&nbsp;및&nbsp;일부&nbsp;구비&nbsp;편성&nbsp;<br>&nbsp;&nbsp;3)&nbsp;[명품개발]&nbsp;서울시&nbsp;의사결정&nbsp;따라&nbsp;시기&nbsp;변동.&nbsp;사업비는&nbsp;민간개발&nbsp;또는&nbsp;국·시비&nbsp;편성&nbsp;<br>&nbsp;&nbsp;4)&nbsp;[생활SOC]&nbsp;취임&nbsp;직후&nbsp;추진.&nbsp;임기&nbsp;내&nbsp;조성&nbsp;목표.&nbsp;시비&nbsp;및&nbsp;구비&nbsp;편성&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;5)&nbsp;[공공자산]&nbsp;취임&nbsp;직후&nbsp;추진.임기&nbsp;내&nbsp;조성&nbsp;목표.&nbsp;공공개발&nbsp;및&nbsp;구비&nbsp;편성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	일자리가 넘쳐나는 글로벌 혁신경제도시를 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="일자리가 넘쳐나는 글로벌 혁신경제도시를 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목표&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마곡지구&nbsp;고도화,&nbsp;공항지구&nbsp;개발,&nbsp;MICE&nbsp;경쟁력&nbsp;강화&nbsp;통한&nbsp;서남권&nbsp;글로벌&nbsp;혁신경제도시&nbsp;도약<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI융합&nbsp;첨단산업/행정혁신/생활서비스로&nbsp;강서&nbsp;AI특화도시&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생산적&nbsp;일자리&nbsp;확충,&nbsp;지역상권&nbsp;발전,&nbsp;강소기업&nbsp;스케일업&nbsp;등&nbsp;통해&nbsp;지역경제&nbsp;활성화<br><br>■&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;1)&nbsp;[마곡지구]&nbsp;마곡지구&nbsp;AI융합&nbsp;고도화&nbsp;및&nbsp;MICE&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI융합&nbsp;첨단산업기술&nbsp;R&D단지&nbsp;조성&nbsp;및&nbsp;&nbsp;리서치타운&nbsp;인재양성&nbsp;프로젝트<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마곡지구&nbsp;MCT(Magok&nbsp;Culture&nbsp;&&nbsp;Tech)&nbsp;브랜드화&nbsp;및&nbsp;가치상승<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;MICE&nbsp;글로벌비즈니스센터&nbsp;조성&nbsp;및&nbsp;통상네트워킹&nbsp;거점화<br><br>&nbsp;&nbsp;2)&nbsp;[공항지구]&nbsp;김포공항&nbsp;도시재생혁신지구&nbsp;순차&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도심공항교통(UAM)&nbsp;복합환승시설&nbsp;및&nbsp;모빌리티&nbsp;미래혁신산업&nbsp;클러스터&nbsp;조성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국제업무시설,&nbsp;문화·상업시설,&nbsp;주민편의시설&nbsp;등&nbsp;조성&nbsp;추진&nbsp;<br><br>&nbsp;&nbsp;3)&nbsp;[강서AI]&nbsp;AI행정혁신&nbsp;및&nbsp;AI특화도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI행정&nbsp;활용,&nbsp;AI미래교육,&nbsp;AI실증사업,&nbsp;강서AI비전&nbsp;수립&nbsp;등&nbsp;AI특화도시&nbsp;고도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;안심캐어/위험탐지/순찰로봇,&nbsp;AI도서관,&nbsp;신청사&nbsp;AI존,&nbsp;AI챗봇민원&nbsp;등&nbsp;생활AI서비스<br><br>&nbsp;&nbsp;4)&nbsp;[지역경제]&nbsp;시장·골목&nbsp;상권&nbsp;활성화&nbsp;및&nbsp;중소기업&nbsp;스케일Up<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전통시장&nbsp;주차장&nbsp;확충,&nbsp;골목형&nbsp;상점가&nbsp;확대,&nbsp;로컬브랜드&nbsp;육성,&nbsp;지역상품권&nbsp;발행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중소기업&nbsp;융자/보증&nbsp;확대,&nbsp;판로&nbsp;지원,&nbsp;창업허브센터&nbsp;활성화,&nbsp;스케일업센터&nbsp;운영<br><br>&nbsp;&nbsp;5)&nbsp;[일자리]&nbsp;생산적&nbsp;일자리&nbsp;확충&nbsp;및&nbsp;취업·창직&nbsp;지원&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공형&nbsp;일자리&nbsp;지속&nbsp;확대,&nbsp;민원해결형/계층자립형/경력활용형&nbsp;일자리&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취업매치업,&nbsp;창직(創職)&nbsp;경연대회,&nbsp;지역자활센터&nbsp;확대&nbsp;등&nbsp;<br><br>■&nbsp;이행기간&nbsp;및&nbsp;재원방안&nbsp;<br>&nbsp;&nbsp;1)&nbsp;[혁신경제]&nbsp;취임&nbsp;직후&nbsp;추진.&nbsp;시비&nbsp;및&nbsp;구비&nbsp;편성<br>&nbsp;&nbsp;2)&nbsp;[공항지구]&nbsp;행정절차&nbsp;따라&nbsp;시기&nbsp;변동.&nbsp;공기업&nbsp;시행사업으로&nbsp;구비&nbsp;해당&nbsp;없음&nbsp;<br>&nbsp;&nbsp;3)&nbsp;[강서AI]&nbsp;취임&nbsp;직후&nbsp;추진.&nbsp;구비&nbsp;편성<br>&nbsp;&nbsp;4)&nbsp;[지역경제]&nbsp;취임&nbsp;직후&nbsp;추진.&nbsp;국·시비&nbsp;및&nbsp;구비&nbsp;편성<br>&nbsp;&nbsp;5)&nbsp;[일자리]&nbsp;취임&nbsp;직후&nbsp;추진.&nbsp;시비&nbsp;및&nbsp;구비&nbsp;편성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	사통팔달 교통망을 확충하고 안전한 일상생활을 지키겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="사통팔달 교통망을 확충하고 안전한 일상생활을 지키겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목표&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수직형&nbsp;철도망&nbsp;구축&nbsp;및&nbsp;교통인프라&nbsp;조성으로&nbsp;편리한&nbsp;사통팔달&nbsp;완성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주차인프라&nbsp;확충과&nbsp;보행환경&nbsp;개선으로&nbsp;편리하고&nbsp;안전한&nbsp;일상생활&nbsp;보장&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재난재해&nbsp;예방&nbsp;및&nbsp;신속&nbsp;회복을&nbsp;통한&nbsp;안전안심사회&nbsp;실현&nbsp;<br><br>■&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;1)&nbsp;[철도망]&nbsp;사통팔달&nbsp;거미줄&nbsp;철도망&nbsp;구축&nbsp;및&nbsp;역사&nbsp;설치&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대장홍대선&nbsp;공사&nbsp;진척&nbsp;및&nbsp;강북횡단선&nbsp;재추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;김포연장&nbsp;신정지선&nbsp;신방화역&nbsp;및&nbsp;목동경전철&nbsp;마곡나루역&nbsp;경유&nbsp;추진<br>&nbsp;&nbsp;2)&nbsp;[교통인프라]&nbsp;간선도로&nbsp;완비&nbsp;및&nbsp;공공교통&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방화대로&nbsp;군부대&nbsp;구간&nbsp;완전개통&nbsp;및&nbsp;염창동/마곡중앙로&nbsp;올림픽대로&nbsp;연결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을버스&nbsp;최적노선&nbsp;변경&nbsp;및&nbsp;강서형&nbsp;공공셔틀버스&nbsp;운영&nbsp;<br>&nbsp;&nbsp;3)&nbsp;[상생주차]&nbsp;권역별&nbsp;주차장&nbsp;확충&nbsp;및&nbsp;상생적&nbsp;주차단속행정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;화곡초교,&nbsp;전통시장,&nbsp;(현)구청사,&nbsp;내집앞,&nbsp;캠핑카&nbsp;전용&nbsp;등&nbsp;원도심&nbsp;주차장&nbsp;확충&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;거주자우선주차&nbsp;순환배정&nbsp;강화,&nbsp;상생적&nbsp;주차단속&nbsp;및&nbsp;민관협의체&nbsp;운영<br>&nbsp;&nbsp;4)&nbsp;[보행안전]&nbsp;보행환경&nbsp;개선&nbsp;및&nbsp;안전·안심보행&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보행장애&nbsp;정비,&nbsp;공중선&nbsp;지중화,&nbsp;CCTV&nbsp;지능형&nbsp;관제,&nbsp;퀵보드&nbsp;안전관리,&nbsp;거리가게&nbsp;정비&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;등하교/산책길/귀갓길&nbsp;안심보행,&nbsp;우리동네&nbsp;안전지킴이,&nbsp;여성&nbsp;안심동행&nbsp;<br>&nbsp;&nbsp;5)&nbsp;[재난예방]&nbsp;재난재해&nbsp;예방&nbsp;및&nbsp;사업장&nbsp;안전보건&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재난재해&nbsp;예방시스템,&nbsp;스마트&nbsp;재난소통,&nbsp;재난피해&nbsp;신속&nbsp;회복&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전기차&nbsp;화재예방&nbsp;기반&nbsp;조성,&nbsp;사업장&nbsp;안전보건관리&nbsp;강화<br><br>■&nbsp;이행기간&nbsp;및&nbsp;재원방안<br>&nbsp;&nbsp;1)&nbsp;[철도망]&nbsp;취임&nbsp;직후&nbsp;추진.&nbsp;의사결정/공사진척&nbsp;따라&nbsp;시기변동.&nbsp;구비&nbsp;해당&nbsp;없음&nbsp;<br>&nbsp;&nbsp;2)&nbsp;[교통인프라]&nbsp;취임&nbsp;직후&nbsp;추진.&nbsp;의사결정&nbsp;따라&nbsp;시기&nbsp;변동.&nbsp;시비&nbsp;편성&nbsp;및&nbsp;일부&nbsp;위탁&nbsp;시행&nbsp;&nbsp;<br>&nbsp;&nbsp;3)&nbsp;[상생주차]&nbsp;취임&nbsp;직후&nbsp;추진.&nbsp;시비&nbsp;및&nbsp;구비&nbsp;편성&nbsp;<br>&nbsp;&nbsp;4)&nbsp;[보행안전]&nbsp;취임&nbsp;직후&nbsp;추진.시비&nbsp;및&nbsp;구비&nbsp;편성&nbsp;<br>&nbsp;&nbsp;5)&nbsp;[재난예방]&nbsp;취임&nbsp;직후&nbsp;추진.&nbsp;국·시비&nbsp;및&nbsp;구비&nbsp;편성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	출산에서 노년까지 든든한 생애복지를 실현하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="출산에서 노년까지 든든한 생애복지를 실현하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목표&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출산,&nbsp;아동/청소년,&nbsp;청년,&nbsp;어르신에&nbsp;이르는&nbsp;생애복지&nbsp;증진&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여성/장애인/보훈/노동자&nbsp;복지증진&nbsp;및&nbsp;권익보호&nbsp;통한&nbsp;사회복지&nbsp;실현<br><br>■&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;1)&nbsp;[아동친화]&nbsp;아동친화도시&nbsp;실현&nbsp;및&nbsp;청소년&nbsp;활동공간&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어린이집&nbsp;입학축하금&nbsp;및&nbsp;이부자리&nbsp;공공관리,&nbsp;키높이&nbsp;프로그램,&nbsp;물놀이장/스케이트장&nbsp;운영&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;키즈카페/키움센터,&nbsp;지역아동센터,&nbsp;시끄러운&nbsp;도서관,&nbsp;진로체험&nbsp;키자니아&nbsp;등&nbsp;조성&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청소년&nbsp;문화의&nbsp;집&nbsp;개관,&nbsp;푸른들청소년도서관&nbsp;재건축&nbsp;등&nbsp;청소년문화교육시설&nbsp;확충&nbsp;&nbsp;<br>&nbsp;&nbsp;2)&nbsp;[청년도약]&nbsp;청년도약&nbsp;지원&nbsp;및&nbsp;청년정책&nbsp;참여&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년임대,&nbsp;청년월세,&nbsp;청년이사,&nbsp;청년중개,&nbsp;청년둥지,&nbsp;청년상담,&nbsp;청년취업,&nbsp;청년인턴,&nbsp;청년예술,&nbsp;청년센터&nbsp;등&nbsp;청년도약&nbsp;패키지&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대학생&nbsp;'천원의&nbsp;아침밥',&nbsp;휴가장병&nbsp;식사한끼,&nbsp;예비군&nbsp;수송버스&nbsp;등&nbsp;청년응원사업&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강서청년네트워크(강청넷),&nbsp;청년정책위원회&nbsp;운영,&nbsp;청년예산&nbsp;자율결정&nbsp;등&nbsp;정책참여&nbsp;강화&nbsp;<br>&nbsp;&nbsp;3)&nbsp;[어르신복지]&nbsp;인생백세&nbsp;장수만세&nbsp;고령친화도시&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신일자리&nbsp;확대,&nbsp;사랑방/노인회&nbsp;지원,&nbsp;발산어르신행복센터&nbsp;재건축,&nbsp;노인대학&nbsp;지원,&nbsp;디지털스마트교육&nbsp;확대,&nbsp;까치의자(보행편의)&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트(휴먼/IoT/AI로봇)&nbsp;안심케어,&nbsp;치매안심&nbsp;프로그램,&nbsp;보청기&nbsp;지원,&nbsp;독거어르신&nbsp;효장례&nbsp;&nbsp;<br>&nbsp;&nbsp;4)&nbsp;[사회복지]&nbsp;여성/장애인/보훈/노동자&nbsp;복지증진&nbsp;및&nbsp;통합돌봄<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여성일자리&nbsp;확대,&nbsp;난임/임신/산후&nbsp;지원,&nbsp;디지털성범죄&nbsp;예방,&nbsp;여성화장실&nbsp;확대&nbsp;등&nbsp;여성복지&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인복지회관&nbsp;건립,&nbsp;어울림플라자&nbsp;운영&nbsp;개선,&nbsp;장애인&nbsp;친화시설&nbsp;확대,&nbsp;장애인일자리&nbsp;확충&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보훈회관&nbsp;운영&nbsp;지원,&nbsp;보훈단체&nbsp;지원&nbsp;확대,&nbsp;광복절&nbsp;행사&nbsp;지원,&nbsp;보훈가족&nbsp;예우&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이동노동자&nbsp;쉼터&nbsp;확충,&nbsp;노동권익&nbsp;증진,&nbsp;노동복지센터&nbsp;운영&nbsp;등&nbsp;노동복지&nbsp;향상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;'살던&nbsp;곳에서&nbsp;건강하게'&nbsp;어르신,&nbsp;장애인,&nbsp;취약계층&nbsp;통합돌봄&nbsp;<br>&nbsp;&nbsp;5)&nbsp;[주거복지]&nbsp;공동주택,&nbsp;1인가구,&nbsp;전세사기&nbsp;지원을&nbsp;통한&nbsp;주거복지&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공동주택&nbsp;공용시설&nbsp;개선,&nbsp;마을관리사무소&nbsp;확대,&nbsp;위반건축물&nbsp;양성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1인가구&nbsp;전수조사&nbsp;실시,&nbsp;기본계획&nbsp;수립,&nbsp;네트워킹&nbsp;지원,&nbsp;주거복지센터&nbsp;기능&nbsp;강화&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전세사기&nbsp;피해유형별&nbsp;맞춤&nbsp;지원,&nbsp;피해주택&nbsp;안전관리&nbsp;지원,&nbsp;안심계약&nbsp;상담<br><br>■이행기간&nbsp;및&nbsp;재원방안&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;취임&nbsp;직후&nbsp;추진.&nbsp;국·시비&nbsp;및&nbsp;구비&nbsp;편성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	품격있고 지속가능한 교육문화도시를 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="품격있고 지속가능한 교육문화도시를 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ■&nbsp;목표&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자치단체의&nbsp;공공교육&nbsp;책임을&nbsp;다하는&nbsp;미래인재&nbsp;양성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화예술을&nbsp;향유하고&nbsp;생활체육을&nbsp;즐기는&nbsp;풍요롭고&nbsp;건강한&nbsp;일상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민자치&nbsp;및&nbsp;구정참여&nbsp;확대를&nbsp;통한&nbsp;주민주권행정&nbsp;실현<br><br>■&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;1)&nbsp;[미래교육]&nbsp;학교교육&nbsp;지원&nbsp;및&nbsp;미래인재&nbsp;양성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어린이집&nbsp;지원,&nbsp;학교예산&nbsp;증액,&nbsp;유아교육진흥원(본원)&nbsp;이전,&nbsp;에코스쿨&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원스탑&nbsp;입시박람회,&nbsp;AI미래인재&nbsp;양성,&nbsp;지하철&nbsp;책두레,&nbsp;평생교육&nbsp;확대&nbsp;<br>&nbsp;&nbsp;2)&nbsp;[문화예술]&nbsp;문화예술축제&nbsp;지원&nbsp;및&nbsp;지역문화&nbsp;진흥&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;허준축제/마곡MCT축제/강서사계(四季)축제,&nbsp;동(洞)축제,&nbsp;시장축제&nbsp;등&nbsp;지원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강서문화재단&nbsp;설립,&nbsp;문화예술인&nbsp;창작·공연&nbsp;지원,&nbsp;역사문화자산&nbsp;관광자원화&nbsp;<br>&nbsp;&nbsp;3)&nbsp;[생활체육]&nbsp;생활체육&nbsp;인프라&nbsp;확대&nbsp;및&nbsp;e스포츠&nbsp;활성화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;종합체육공원(마곡유수지),&nbsp;생활체육센터,&nbsp;파크골프장(공항구역/물재생센터)&nbsp;등&nbsp;조성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공체육시설&nbsp;야밤운동,&nbsp;학교체육시설&nbsp;개방,&nbsp;생애주기&nbsp;생활체육,&nbsp;e스포츠&nbsp;경기대회&nbsp;지원<br>&nbsp;&nbsp;4)&nbsp;[기후생태]&nbsp;녹지친수공원&nbsp;조성&nbsp;및&nbsp;기후친화도시&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;둘레길/황톳길&nbsp;확대,&nbsp;등마루근린공원&nbsp;조성,&nbsp;한강둔치&nbsp;편의시설&nbsp;조성,&nbsp;반려인프라&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자원순환&nbsp;기반&nbsp;조성,&nbsp;김포공항&nbsp;소음피해&nbsp;대책,&nbsp;신재생에너지&nbsp;확대,&nbsp;어르신&nbsp;에너지복지&nbsp;등<br>&nbsp;&nbsp;5)&nbsp;[주민주권]&nbsp;주민자치&nbsp;및&nbsp;구정참여&nbsp;확대를&nbsp;통한&nbsp;주민주권행정&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구민참여예산&nbsp;계층결정권&nbsp;강화,&nbsp;민원소통&nbsp;강화,&nbsp;AI맞춤형&nbsp;정책정보&nbsp;제공,&nbsp;정책결정과정&nbsp;공개&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민자치권&nbsp;강화,&nbsp;자원봉사문화&nbsp;확산,&nbsp;마을공동체&nbsp;활성화,&nbsp;민주시민교육&nbsp;활성화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민원주치의&nbsp;확대,&nbsp;통합신청사&nbsp;주민개방(예식장/회의장),&nbsp;강서구정연구단&nbsp;운영&nbsp;&nbsp;<br><br>■&nbsp;이행기간&nbsp;및&nbsp;재원방안&nbsp;<br>&nbsp;&nbsp;1)&nbsp;[미래교육]&nbsp;취임&nbsp;직후.&nbsp;추진&nbsp;시비&nbsp;및&nbsp;구비&nbsp;편성&nbsp;<br>&nbsp;&nbsp;2)&nbsp;[문화예술]&nbsp;취임&nbsp;직후.&nbsp;추진&nbsp;구비&nbsp;편성&nbsp;<br>&nbsp;&nbsp;3)&nbsp;[생활체육]&nbsp;취임&nbsp;직후.추진&nbsp;일부&nbsp;민간개발&nbsp;및&nbsp;시·구비&nbsp;편성<br>&nbsp;&nbsp;4)&nbsp;[기후생태]&nbsp;취임&nbsp;직후.&nbsp;추진&nbsp;국·시비&nbsp;및&nbsp;구비&nbsp;편성&nbsp;<br>&nbsp;&nbsp;5)&nbsp;[주민주권]&nbsp;취임&nbsp;직후.&nbsp;추진&nbsp;구비&nbsp;편성</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

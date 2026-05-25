@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;최동민 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	전농-청량리 고밀도 업무지구 조성 및 사통팔달 광역교통망 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="전농-청량리 고밀도 업무지구 조성 및 사통팔달 광역교통망 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전농·청량리&nbsp;일대&nbsp;공간&nbsp;구조를&nbsp;개편하여&nbsp;양질의&nbsp;일자리를&nbsp;창출하는&nbsp;동대문구의&nbsp;새로운&nbsp;경제&nbsp;심장으로&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;청량리역&nbsp;중심의&nbsp;철도망&nbsp;확충으로&nbsp;수도권&nbsp;동북부&nbsp;최고의&nbsp;교통&nbsp;허브를&nbsp;완성하고,&nbsp;지역&nbsp;경제&nbsp;파급효과를&nbsp;극대화&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전농-청량리&nbsp;고밀도&nbsp;업무지구&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;베드타운&nbsp;성격을&nbsp;탈피하고&nbsp;자족&nbsp;기능을&nbsp;갖춘&nbsp;경제도시로&nbsp;도약하기&nbsp;위해&nbsp;대규모&nbsp;상업·업무&nbsp;단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;바이오,&nbsp;IT&nbsp;등&nbsp;첨단산업&nbsp;앵커기업&nbsp;유치를&nbsp;위한&nbsp;특별&nbsp;인센티브&nbsp;제공&nbsp;및&nbsp;민관&nbsp;합동&nbsp;투자유치단&nbsp;출범<br>&nbsp;&nbsp;○&nbsp;3대&nbsp;핵심&nbsp;철도망&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(수인분당선&nbsp;복선화&nbsp;등&nbsp;증편)&nbsp;청량리-왕십리&nbsp;구간&nbsp;복선화&nbsp;조기&nbsp;추진으로&nbsp;출퇴근&nbsp;시간대&nbsp;배차&nbsp;간격&nbsp;획기적&nbsp;단축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(동부선&nbsp;추진)&nbsp;신이문역-휘경역-장안사거리역-강남을&nbsp;연결하는&nbsp;동북부&nbsp;교통망&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;전농-청량리&nbsp;고밀도&nbsp;업무지구&nbsp;마스터플랜&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;수인분당선&nbsp;복선화&nbsp;및&nbsp;면목선&nbsp;임기&nbsp;내&nbsp;조기&nbsp;착공&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;동부선&nbsp;추진&nbsp;임기&nbsp;내&nbsp;예비타당성&nbsp;조사&nbsp;통과&nbsp;목표<br><br>□&nbsp;재원조달&nbsp;(약&nbsp;1조&nbsp;5000억원&nbsp;이상&nbsp;/&nbsp;국·시비&nbsp;및&nbsp;민자)<br>&nbsp;&nbsp;○&nbsp;고밀도&nbsp;업무지구&nbsp;개발&nbsp;:&nbsp;민간투자&nbsp;유치(BTO등)&nbsp;및&nbsp;공공기여금&nbsp;확보로&nbsp;구비&nbsp;부담&nbsp;최소화<br>&nbsp;&nbsp;○&nbsp;광역환승센터&nbsp;및&nbsp;철도&nbsp;인프라&nbsp;:&nbsp;국비&nbsp;및&nbsp;시비(국가철도공단,&nbsp;서울시&nbsp;예산)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;최우선&nbsp;확보&nbsp;및&nbsp;민간자본(BTL)&nbsp;연계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	내 집 앞 10분 거리에 조성되는 생활 인프라</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="내 집 앞 10분 거리에 조성되는 생활 인프라">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;구민&nbsp;누구나&nbsp;집에서&nbsp;도보&nbsp;및&nbsp;대중교통으로&nbsp;10분&nbsp;이내에&nbsp;교통·교육·문화·복지시설을&nbsp;누릴&nbsp;수&nbsp;있는&nbsp;‘동대문형&nbsp;10분&nbsp;생활권&nbsp;구축’<br>&nbsp;&nbsp;○&nbsp;단절된&nbsp;지역&nbsp;간&nbsp;연결성을&nbsp;강화하여&nbsp;생활&nbsp;격차를&nbsp;해소하고,&nbsp;구민의&nbsp;일상&nbsp;만족도를&nbsp;획기적으로&nbsp;향상<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;10분&nbsp;출퇴근&nbsp;역세권&nbsp;순환버스&nbsp;노선&nbsp;신설·확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주거&nbsp;밀집&nbsp;지역과&nbsp;지하철역&nbsp;간&nbsp;긴&nbsp;이동시간으로&nbsp;인한&nbsp;출퇴근&nbsp;불편&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청량리역·제기동역·답십리역&nbsp;등&nbsp;주요&nbsp;환승&nbsp;거점과&nbsp;주거지를&nbsp;10분내로&nbsp;연결하는&nbsp;지역&nbsp;순환버스&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;도보&nbsp;10분&nbsp;내&nbsp;복합&nbsp;문화·복지&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구유지&nbsp;및&nbsp;노후&nbsp;공공청사를&nbsp;활용하여&nbsp;국공립어린이집·다함께돌봄센터·작은도서관·주민문화공간·소규모&nbsp;체육센터&nbsp;등으로&nbsp;구성된&nbsp;「동대문&nbsp;10분&nbsp;복합센터」를&nbsp;권역별&nbsp;신축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관내&nbsp;대학·종교시설·대형&nbsp;상업시설과&nbsp;유휴공간&nbsp;공유&nbsp;협약&nbsp;체결로&nbsp;예산&nbsp;부담을&nbsp;최소화하면서&nbsp;주민이&nbsp;즉시&nbsp;이용할&nbsp;수&nbsp;있는&nbsp;개방형&nbsp;문화·체육공간&nbsp;확보<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;역세권&nbsp;순환버스&nbsp;신설·개편&nbsp;:&nbsp;2027년&nbsp;시범운행&nbsp;후&nbsp;전면&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;복합&nbsp;문화복지&nbsp;인프라&nbsp;:&nbsp;2027년&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;공공부지&nbsp;선정,&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2028년&nbsp;이후&nbsp;순차&nbsp;착공<br><br>□&nbsp;재원조달&nbsp;(약&nbsp;350억원&nbsp;내외&nbsp;/&nbsp;국·시·구비)<br>&nbsp;&nbsp;○&nbsp;순환버스&nbsp;:&nbsp;구비&nbsp;우선&nbsp;반영&nbsp;및&nbsp;서울시&nbsp;대중교통&nbsp;재정지원금&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;복합&nbsp;문화복지&nbsp;인프라&nbsp;:&nbsp;정부&nbsp;생활&nbsp;밀착형&nbsp;기반시설&nbsp;국비&nbsp;공모사업&nbsp;적극&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;신답-마장&nbsp;연육교&nbsp;설치&nbsp;:&nbsp;국비&nbsp;및&nbsp;서울특별시&nbsp;조정교부금&nbsp;확보&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	구민이 직접 결정하는 풀뿌리 자치, ‘주민중심 동대문’ 구현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="구민이 직접 결정하는 풀뿌리 자치, ‘주민중심 동대문’ 구현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;관&nbsp;주도의&nbsp;일방통행식&nbsp;행정에서&nbsp;벗어나&nbsp;구민이&nbsp;예산과&nbsp;정책&nbsp;결정에&nbsp;직접&nbsp;참여하는&nbsp;투명한&nbsp;자치분권&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;온·오프라인을&nbsp;아우르는&nbsp;주민&nbsp;소통&nbsp;채널을&nbsp;구축,&nbsp;직접민주주의&nbsp;요소를&nbsp;구정에&nbsp;적극&nbsp;도입<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;주민참여예산&nbsp;대폭&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존의&nbsp;주민참여예산&nbsp;운영방식은&nbsp;주민이&nbsp;체감할&nbsp;동네&nbsp;숙원사업&nbsp;해결에&nbsp;한계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민참여예산&nbsp;총액&nbsp;규모를&nbsp;연간&nbsp;50억&nbsp;이상으로&nbsp;확대,&nbsp;동별&nbsp;인프라&nbsp;개선&nbsp;및&nbsp;생활밀착형&nbsp;사업&nbsp;실질&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘예산학교’&nbsp;운영&nbsp;강화로&nbsp;사업&nbsp;&nbsp;안의&nbsp;질적&nbsp;수준&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;의사결정&nbsp;참여&nbsp;모바일&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시간,&nbsp;장소,&nbsp;연령에&nbsp;관계없이&nbsp;누구나&nbsp;구정에&nbsp;참여할&nbsp;수&nbsp;있는&nbsp;동대문&nbsp;전용&nbsp;양방향&nbsp;소통&nbsp;앱&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;구정&nbsp;현안&nbsp;발생&nbsp;시&nbsp;플랫폼을&nbsp;통한&nbsp;모바일&nbsp;주민투표&nbsp;실시로&nbsp;갈등&nbsp;사전&nbsp;예방&nbsp;및&nbsp;여론&nbsp;수렴<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민이&nbsp;직접&nbsp;정책&nbsp;아이디어를&nbsp;제안하고&nbsp;일정&nbsp;공감을&nbsp;얻으면&nbsp;구청장이&nbsp;직접&nbsp;답변·실행하는&nbsp;‘동대문&nbsp;청원’&nbsp;기능&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;‘동대문구형&nbsp;주민자치회’&nbsp;출범&nbsp;및&nbsp;실질적&nbsp;권한&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;관변&nbsp;성격이&nbsp;강한&nbsp;주민자치위원회를&nbsp;권한과&nbsp;책임이&nbsp;강화된&nbsp;‘주민자치회’로&nbsp;전면&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;각&nbsp;동&nbsp;특성과&nbsp;현안에&nbsp;맞는&nbsp;마을&nbsp;의제를&nbsp;주민자치회가&nbsp;직접&nbsp;발굴·집행할&nbsp;수&nbsp;있도록&nbsp;별도&nbsp;사업예산&nbsp;편성&nbsp;및&nbsp;행정지원&nbsp;전담&nbsp;인력&nbsp;배치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;주민참여예산&nbsp;확대·조례&nbsp;개정&nbsp;:&nbsp;2026년&nbsp;하반기&nbsp;조례&nbsp;개정&nbsp;후&nbsp;2027년&nbsp;예산&nbsp;반영<br>&nbsp;&nbsp;○&nbsp;모바일&nbsp;플랫폼&nbsp;구축&nbsp;:&nbsp;2026년&nbsp;예산&nbsp;확보·개발,&nbsp;2027년&nbsp;시범&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;동대문구형&nbsp;주민자치회&nbsp;출범&nbsp;:&nbsp;2026년&nbsp;하반기&nbsp;조례&nbsp;재정비&nbsp;후&nbsp;동&nbsp;일괄&nbsp;전환<br><br>□&nbsp;재원조달&nbsp;(약&nbsp;65억원&nbsp;내외&nbsp;/&nbsp;연간&nbsp;/&nbsp;국·구비)<br>&nbsp;&nbsp;○&nbsp;주민참여예산&nbsp;:&nbsp;행사성·소모성&nbsp;일반&nbsp;구정예산&nbsp;낭비&nbsp;요인&nbsp;조정을&nbsp;통한&nbsp;자체&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;모바일&nbsp;플랫폼&nbsp;:&nbsp;행정안전부&nbsp;‘지역&nbsp;디지털기반&nbsp;조성’&nbsp;관련&nbsp;특별교부세&nbsp;공모사업&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;주민자치회&nbsp;운영&nbsp;지원금&nbsp;:&nbsp;구비&nbsp;일반회계&nbsp;반영</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	모든 세대가 안심하는 보건복지 동대문</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="모든 세대가 안심하는 보건복지 동대문">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;임신·출산·육아에&nbsp;이르는&nbsp;전&nbsp;과정의&nbsp;경제적&nbsp;부담을&nbsp;덜어&nbsp;아이&nbsp;낳고&nbsp;키우기&nbsp;좋은&nbsp;환경조성<br>&nbsp;&nbsp;○&nbsp;취약계층과&nbsp;어르신의&nbsp;의료비&nbsp;부담을&nbsp;구청이&nbsp;함께&nbsp;나누고,&nbsp;공공의료&nbsp;인프라를&nbsp;확충하여&nbsp;돈&nbsp;걱정&nbsp;없이&nbsp;치료받을&nbsp;수&nbsp;있는&nbsp;따뜻한&nbsp;의료&nbsp;안전망&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;산후조리&nbsp;지원&nbsp;비용&nbsp;대폭&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;저출산의&nbsp;핵심&nbsp;원인&nbsp;중&nbsp;하나인&nbsp;출산&nbsp;직후&nbsp;막대한&nbsp;산후조리&nbsp;비용&nbsp;부담&nbsp;완화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;모든&nbsp;출산&nbsp;가정에&nbsp;소득&nbsp;기준&nbsp;없이&nbsp;‘동대문&nbsp;안심&nbsp;산후조리&nbsp;지원금’&nbsp;대폭&nbsp;인상&nbsp;지급<br>&nbsp;&nbsp;○&nbsp;취약계층을&nbsp;위한&nbsp;의료비&nbsp;후불제&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;저소득층·홀몸어르신·기초생활수급자&nbsp;등이&nbsp;중증질환수술·입원&nbsp;치료&nbsp;시&nbsp;비용&nbsp;걱정&nbsp;없이&nbsp;먼저&nbsp;치료받을&nbsp;수&nbsp;있는&nbsp;제도&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구청&nbsp;협약&nbsp;의료기관에서&nbsp;발생하는&nbsp;본인부담금을&nbsp;관내&nbsp;금융기관과&nbsp;연계하여&nbsp;일시&nbsp;대납<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;치료&nbsp;회복&nbsp;후&nbsp;소득&nbsp;상황에&nbsp;따라&nbsp;최장&nbsp;36개월간&nbsp;무이자&nbsp;분할&nbsp;상환으로&nbsp;의료&nbsp;사각지대&nbsp;해소<br>&nbsp;&nbsp;○&nbsp;권역별&nbsp;보건지소&nbsp;신설&nbsp;및&nbsp;달빛어린이병원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보건소&nbsp;(용두동)과&nbsp;거리가&nbsp;멀어&nbsp;이용이&nbsp;불편한&nbsp;이문·장안&nbsp;권역&nbsp;등에&nbsp;‘거점형&nbsp;보건지소’를&nbsp;신설하여&nbsp;어르신&nbsp;만성질환&nbsp;관리·물리치료&nbsp;등&nbsp;밀착형&nbsp;예방의료&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간·휴일도&nbsp;부모가&nbsp;안심하고&nbsp;아이를&nbsp;맡길&nbsp;수&nbsp;있는&nbsp;‘동대문형&nbsp;달빛어린이병원’&nbsp;지정&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지정&nbsp;병원·약국&nbsp;의료진의&nbsp;휴일&nbsp;근무&nbsp;수당&nbsp;등&nbsp;재정적&nbsp;지원으로&nbsp;자발적&nbsp;참여&nbsp;유도<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;산후&nbsp;조리&nbsp;지원&nbsp;확대&nbsp;:&nbsp;2026년&nbsp;하반기&nbsp;보건복지부&nbsp;사회보장제도&nbsp;변경&nbsp;협의&nbsp;완료&nbsp;후&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;의료비&nbsp;후불제&nbsp;:&nbsp;2027년&nbsp;병원·금융기관&nbsp;협약&nbsp;후&nbsp;본격&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;보건지소&nbsp;신설·어린이병원&nbsp;확대&nbsp;:&nbsp;2026년&nbsp;어린이병원&nbsp;지원&nbsp;즉시&nbsp;시행,&nbsp;보건지소는&nbsp;2027년&nbsp;이후&nbsp;단계별&nbsp;개소<br><br>□&nbsp;재원조달&nbsp;(약&nbsp;120억원&nbsp;내외&nbsp;/&nbsp;연간&nbsp;/&nbsp;국·시·구비,&nbsp;기금)<br>&nbsp;&nbsp;○&nbsp;산후조리&nbsp;지원·어린이&nbsp;병원&nbsp;:&nbsp;국·시비&nbsp;매칭&nbsp;사업&nbsp;활용&nbsp;및&nbsp;구비&nbsp;추가&nbsp;편성<br>&nbsp;&nbsp;○&nbsp;의료비&nbsp;후불제&nbsp;:&nbsp;관내&nbsp;금융기관&nbsp;협약&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;보건지소&nbsp;확충&nbsp;:&nbsp;보건복지부&nbsp;도시&nbsp;보건기관&nbsp;이전·신축&nbsp;국비&nbsp;지원&nbsp;적극&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	구민의 일상을 책임지는 밀착 행정, ‘곁에 있는 동대문’</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="구민의 일상을 책임지는 밀착 행정, ‘곁에 있는 동대문’">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;행정의&nbsp;문턱을&nbsp;낮추고&nbsp;구민의&nbsp;기본적인&nbsp;수요를&nbsp;해결하는&nbsp;체감형&nbsp;생활&nbsp;민원서비스&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;다세대·빌라&nbsp;등&nbsp;저층&nbsp;주거지&nbsp;거주민&nbsp;삶의&nbsp;질을&nbsp;높이고,&nbsp;AI&nbsp;기술을&nbsp;접목하여&nbsp;행정처리&nbsp;속도를&nbsp;획기적으로&nbsp;단축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;주거환경개선&nbsp;‘그냥&nbsp;해드림&nbsp;센터’&nbsp;설치·운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;형광등&nbsp;교체,&nbsp;배관&nbsp;막힘,&nbsp;방충망&nbsp;보수&nbsp;등&nbsp;혼자&nbsp;해결하기&nbsp;어려운&nbsp;생활&nbsp;불편&nbsp;신속&nbsp;해결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동&nbsp;주민센터&nbsp;내&nbsp;기술&nbsp;전문&nbsp;인력으로&nbsp;구성된&nbsp;전담&nbsp;기동반&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;홀몸어르신·장애인&nbsp;등&nbsp;취약계층에는&nbsp;재료비&nbsp;포함&nbsp;무상서비스,&nbsp;일반&nbsp;구민은&nbsp;소정의&nbsp;재료비만&nbsp;받고&nbsp;수리&nbsp;인력&nbsp;파견<br>&nbsp;&nbsp;○&nbsp;공동주택&nbsp;지원&nbsp;강화&nbsp;및&nbsp;저층주택&nbsp;마을관리소&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아파트&nbsp;등&nbsp;공동주택&nbsp;노후&nbsp;공용&nbsp;시설&nbsp;유지보수&nbsp;지원금&nbsp;예산&nbsp;매년&nbsp;증액&nbsp;편성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관리사무소가&nbsp;없는&nbsp;빌라·다세대주택&nbsp;밀집&nbsp;지역에&nbsp;‘마을관리소’&nbsp;거점별&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;쓰레기&nbsp;분리배출&nbsp;관리·무인택배함&nbsp;운영·안심귀가&nbsp;순찰&nbsp;등&nbsp;아파트&nbsp;수준의&nbsp;주거관리&nbsp;서비스&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;초고속&nbsp;AI&nbsp;민원대응&nbsp;서비스&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생성형&nbsp;AI&nbsp;기술&nbsp;도입으로&nbsp;민원&nbsp;처리의&nbsp;정확성과&nbsp;속도&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불법주정차&nbsp;신고·쓰레기&nbsp;수거&nbsp;등&nbsp;단순&nbsp;반복&nbsp;민원은&nbsp;즉시&nbsp;접수·배차&nbsp;처리&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;복잡한&nbsp;인허가·갈등&nbsp;민원은&nbsp;AI가&nbsp;과거&nbsp;유사&nbsp;사례&nbsp;및&nbsp;법령을&nbsp;담당공무원에게&nbsp;자동&nbsp;제공,&nbsp;업무&nbsp;부담&nbsp;경감&nbsp;및&nbsp;회신&nbsp;기간&nbsp;단축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;‘그냥&nbsp;해드림&nbsp;센터’&nbsp;:&nbsp;2027년&nbsp;2~3개&nbsp;동&nbsp;시범&nbsp;운영&nbsp;후&nbsp;단계적&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;공동주택&nbsp;지원·마을관리소&nbsp;구축&nbsp;:&nbsp;지원금&nbsp;2027년&nbsp;예산부터&nbsp;증액,&nbsp;마을관리소는&nbsp;저층주택&nbsp;밀집&nbsp;지역&nbsp;중심으로&nbsp;연차별&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;민원대응&nbsp;서비스&nbsp;:&nbsp;2026년&nbsp;하반기&nbsp;시스템&nbsp;설계&nbsp;및&nbsp;용역,&nbsp;2027년&nbsp;하반기&nbsp;개시<br><br>□&nbsp;재원조달&nbsp;(약&nbsp;80억원&nbsp;/&nbsp;국·시·구비)<br>&nbsp;&nbsp;○&nbsp;‘그냥&nbsp;해드림&nbsp;센터’·마을관리소&nbsp;:&nbsp;지역&nbsp;주도형&nbsp;청년·중장년&nbsp;일자리&nbsp;창출사업&nbsp;연계로&nbsp;인건비&nbsp;절감<br>&nbsp;&nbsp;○&nbsp;공동주택&nbsp;지원금&nbsp;:&nbsp;구비&nbsp;일반회계&nbsp;확대&nbsp;편성<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;민원대응&nbsp;서비스&nbsp;:&nbsp;과학기술정보통신부·행정안전부&nbsp;‘디지털플랫폼&nbsp;정부&nbsp;선도사업’&nbsp;국비&nbsp;공모&nbsp;적극&nbsp;참여</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

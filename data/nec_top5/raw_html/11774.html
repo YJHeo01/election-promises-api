@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;전춘성 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	 진안형 기본사회 위한 군민 기본권 보장</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title=" 진안형 기본사회 위한 군민 기본권 보장">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;기본&nbsp;생활권&nbsp;전&nbsp;분야에&nbsp;걸친&nbsp;군민&nbsp;복지를&nbsp;위한&nbsp;“진안형&nbsp;기본사회”&nbsp;구축&nbsp;&nbsp;<br>&nbsp;&nbsp;<br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;&nbsp;&nbsp;1)&nbsp;[기본소득]&nbsp;기본사회&nbsp;재단&nbsp;설립을&nbsp;통한&nbsp;진안군&nbsp;자립도시&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;진안군&nbsp;자립도시&nbsp;'기본사회&nbsp;재단'&nbsp;설립&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;2)&nbsp;[기본주거]&nbsp;공공형&nbsp;주거&nbsp;복지&nbsp;확대를&nbsp;통한&nbsp;진안군&nbsp;정주&nbsp;가치&nbsp;제고<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;진안형&nbsp;평생&nbsp;안심주택&nbsp;11개&nbsp;읍·면으로&nbsp;전면&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;3)&nbsp;[기본이동]&nbsp;사각지대&nbsp;없는&nbsp;체감형&nbsp;교통&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민과&nbsp;진안&nbsp;방문객&nbsp;누구나&nbsp;버스&nbsp;무료&nbsp;탑승&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료용&nbsp;전동보조기기&nbsp;(노인전동차/전동휠체어)&nbsp;수리&nbsp;지원&nbsp;전면&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;4)&nbsp;[기본의료]&nbsp;공공의료&nbsp;인프라&nbsp;확충&nbsp;및&nbsp;수혜자&nbsp;맞춤형&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보건진료소&nbsp;신설&nbsp;및&nbsp;관리의사&nbsp;채용&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대상포진&nbsp;예방접종&nbsp;지원&nbsp;대상&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;만&nbsp;70세&nbsp;이상&nbsp;취약계층&nbsp;인공무릎관절&nbsp;수술비&nbsp;최대&nbsp;240만원&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;5)&nbsp;[기본생활]&nbsp;더&nbsp;나은&nbsp;생활환경&nbsp;조성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유기동물&nbsp;관리센터&nbsp;설치로&nbsp;농촌&nbsp;환경&nbsp;개선&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;진안읍&nbsp;공공목욕탕&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부귀면&nbsp;군민&nbsp;체육관·체련공원&nbsp;및&nbsp;백운면&nbsp;체련공원&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동부권&nbsp;장애인&nbsp;체력증진&nbsp;인증센터&nbsp;설치&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;요양돌봄&nbsp;종사자&nbsp;근무여건&nbsp;개선&nbsp;지원&nbsp;강화&nbsp;<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2030<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	부자농촌 만들기로 농촌경제 도약</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="부자농촌 만들기로 농촌경제 도약">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;안정적&nbsp;영농&nbsp;생태계&nbsp;구축을&nbsp;통한&nbsp;진안군&nbsp;농업&nbsp;자립&nbsp;및&nbsp;활력&nbsp;제고<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;&nbsp;&nbsp;1)&nbsp;농업&nbsp;생산&nbsp;기반&nbsp;현대화&nbsp;및&nbsp;고부가가치&nbsp;유통&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후&nbsp;비닐하우스&nbsp;교체&nbsp;확대&nbsp;및&nbsp;기능성&nbsp;농자재&nbsp;지원&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전략작물&nbsp;확대&nbsp;및&nbsp;집중육성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업용&nbsp;드론&nbsp;방제단&nbsp;창설&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;2)&nbsp;지역&nbsp;먹거리의&nbsp;안정적인&nbsp;기획생산&nbsp;및&nbsp;소비&nbsp;체계를&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;진안군&nbsp;먹거리&nbsp;통합지원센터&nbsp;운영&nbsp;위한&nbsp;통한&nbsp;공공형&nbsp;컨트롤타워&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;3)&nbsp;농산물&nbsp;유통구조&nbsp;혁신&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대도시&nbsp;직송&nbsp;물류체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;'농산물&nbsp;최저가격&nbsp;보장제'&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;4)&nbsp;농업&nbsp;지속성&nbsp;확보를&nbsp;위한&nbsp;인력&nbsp;기반&nbsp;확충&nbsp;및&nbsp;신성장&nbsp;동력&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;외국인&nbsp;농촌인력&nbsp;확대&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;진안고원&nbsp;치유농업&nbsp;경관작물&nbsp;단지&nbsp;조성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;농업인&nbsp;창업&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;5)&nbsp;농·임업인&nbsp;전용&nbsp;복지·행정&nbsp;복합공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농·임업인&nbsp;회관&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2030<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비(균특),&nbsp;군비,&nbsp;민자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	 경제가 돌아가는 진안 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title=" 경제가 돌아가는 진안 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;지역&nbsp;경제&nbsp;자생력&nbsp;확보&nbsp;기반&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;민생&nbsp;상권&nbsp;활성화를&nbsp;통한&nbsp;선순환&nbsp;성장&nbsp;체계&nbsp;구축<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;&nbsp;&nbsp;1)&nbsp;투자유치&nbsp;인프라&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국내외&nbsp;기업&nbsp;유치를&nbsp;위한&nbsp;홍보·지원하는&nbsp;“진안투자&nbsp;홍보관”&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업에&nbsp;홍보&nbsp;기회&nbsp;제공,&nbsp;군민에&nbsp;양질의&nbsp;일자리&nbsp;정보&nbsp;제공하는&nbsp;경제&nbsp;컨트롤타워&nbsp;역할&nbsp;수행<br>&nbsp;&nbsp;&nbsp;&nbsp;2)&nbsp;산림&nbsp;행정&nbsp;인프라&nbsp;확충&nbsp;및&nbsp;특화&nbsp;산업&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산림청&nbsp;출장소&nbsp;유치로&nbsp;산림&nbsp;관련&nbsp;국가예산·사업을&nbsp;진안에&nbsp;집중<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산림&nbsp;자원화&nbsp;센터를&nbsp;통한&nbsp;친환경&nbsp;자원&nbsp;생산&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;3)&nbsp;소상공인&nbsp;및&nbsp;자영업자&nbsp;운영&nbsp;지원·안전망&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;점포&nbsp;리모델링&nbsp;지원&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;밀집&nbsp;상가&nbsp;구역&nbsp;소상공인&nbsp;화재&nbsp;보험료&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;4)&nbsp;지역&nbsp;생활경제&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마령면&nbsp;악취/취수원&nbsp;문제해결로&nbsp;주거환경&nbsp;기반&nbsp;개선&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;면소재지&nbsp;생활&nbsp;편의시설&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을공동체의&nbsp;하천유휴공간&nbsp;활용&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;진안고원시장&nbsp;종합개발&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;용담호&nbsp;수변구역&nbsp;추가&nbsp;해제&nbsp;추진<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2030<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비(균특),&nbsp;군비,&nbsp;민자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	치유 특화도시로 지역관광 활성화 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="치유 특화도시로 지역관광 활성화 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;진안고원&nbsp;관광&nbsp;브랜드&nbsp;가치&nbsp;제고&nbsp;및&nbsp;체류형&nbsp;관광&nbsp;경제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;군민의&nbsp;일상이&nbsp;안전하고&nbsp;편리한,&nbsp;체감형&nbsp;복지&nbsp;행정&nbsp;구현<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;&nbsp;&nbsp;1)&nbsp;세계적&nbsp;수준의&nbsp;K-치유(Healing)&nbsp;메카&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;진안고원&nbsp;치유단지&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;치유&nbsp;음식(Food&nbsp;Therapy)&nbsp;브랜드화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;세계&nbsp;고원도시&nbsp;연맹&nbsp;결성으로&nbsp;국제&nbsp;고원&nbsp;포럼,<br>&nbsp;&nbsp;&nbsp;&nbsp;2)&nbsp;관광트렌드를&nbsp;반영한&nbsp;스마트관광&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;진안고원&nbsp;관광&nbsp;시스템&nbsp;고도화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;워케이션(Workation)&nbsp;관광&nbsp;기반&nbsp;조성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;3)&nbsp;지역특화&nbsp;관광자원&nbsp;개발로&nbsp;치유도시&nbsp;완성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부귀&nbsp;메타세콰이어길&nbsp;관광명소&nbsp;조성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;권역별&nbsp;파크골프장&nbsp;신설(백운면,&nbsp;마령면,&nbsp;성수면)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부귀&nbsp;황금지구&nbsp;무장애&nbsp;나눔길&nbsp;조성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;걷고,&nbsp;달리고,&nbsp;쉬는&nbsp;용담호&nbsp;자전거,바이크&nbsp;둘레길&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대한민국&nbsp;1호&nbsp;국가호수공원&nbsp;추진&nbsp;<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2030<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비(균특),&nbsp;군비,&nbsp;민자유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	책임지는 교육 안전망 및 군민 체감 행정 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="책임지는 교육 안전망 및 군민 체감 행정 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;돌봄부터&nbsp;진로까지&nbsp;이어지는&nbsp;교육&nbsp;지원체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;군민의&nbsp;일상이&nbsp;안전하고&nbsp;편리한,&nbsp;체감형&nbsp;복지&nbsp;행정&nbsp;구현<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;&nbsp;&nbsp;1)&nbsp;&nbsp;빈틈없는&nbsp;돌봄체계&nbsp;구축&nbsp;(4세∼초등생)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간·공휴일&nbsp;및&nbsp;긴급&nbsp;돌봄서비스&nbsp;“365열린&nbsp;어린이집”&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘소아과&nbsp;전문병원&nbsp;동행’&nbsp;원스톱&nbsp;서비스&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;2)&nbsp;&nbsp;청소년&nbsp;도전&nbsp;지원&nbsp;체계&nbsp;및&nbsp;농촌유학&nbsp;거점확대&nbsp;&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고등학교&nbsp;재학&nbsp;중&nbsp;예·체능계&nbsp;입시&nbsp;학원비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취업준비&nbsp;고등학생&nbsp;관련&nbsp;학원비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국외&nbsp;대학&nbsp;진학&nbsp;시&nbsp;국내&nbsp;대학과&nbsp;동일한&nbsp;장학금&nbsp;최대&nbsp;4년간&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고등학교&nbsp;졸업&nbsp;후&nbsp;직업기술&nbsp;학원비&nbsp;및&nbsp;입시(재수)학원비&nbsp;1년간&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체류형&nbsp;농촌&nbsp;유학&nbsp;주거단지&nbsp;추가&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;4)&nbsp;행정&nbsp;혁신&nbsp;-&nbsp;군민&nbsp;편의&nbsp;중심&nbsp;행정&nbsp;환경&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;진안군청사&nbsp;확장&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영유아&nbsp;자녀&nbsp;공무원&nbsp;주&nbsp;4.5일&nbsp;근무제&nbsp;시범&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군청내&nbsp;여자&nbsp;화장실&nbsp;파우더룸&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘Ai형&nbsp;통합&nbsp;검색&nbsp;시스템’&nbsp;도입으로&nbsp;정보&nbsp;서비스&nbsp;선진화<br>&nbsp;&nbsp;&nbsp;&nbsp;5)&nbsp;통합돌봄&nbsp;및&nbsp;안전&nbsp;행정&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;진안&nbsp;통합돌봄&nbsp;관제센터&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간&nbsp;보행자&nbsp;교통사고&nbsp;제로화를&nbsp;위한&nbsp;“반사안전팔찌”&nbsp;보급<br><br>□&nbsp;이행&nbsp;기간<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2030<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

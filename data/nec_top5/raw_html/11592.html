@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;정이한 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	일자리 3대 공약</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="일자리 3대 공약">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;부산의&nbsp;일자리&nbsp;문제를&nbsp;단순한&nbsp;일자리&nbsp;숫자가&nbsp;아니라,&nbsp;청년이&nbsp;가고&nbsp;싶고&nbsp;자랑할&nbsp;수&nbsp;있는&nbsp;좋은&nbsp;일자리&nbsp;부족으로&nbsp;보고,&nbsp;기업유치·인재정착·지역기업&nbsp;성장을&nbsp;함께&nbsp;추진한다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부산&nbsp;제로-백&nbsp;프로젝트로&nbsp;대기업&nbsp;본사급&nbsp;조직과&nbsp;연구·기획·디지털·전략&nbsp;기능을&nbsp;가진&nbsp;핵심&nbsp;조직을&nbsp;유치하고,&nbsp;뉴-갈매기&nbsp;프로젝트로&nbsp;부산&nbsp;복귀&nbsp;청년과&nbsp;전입&nbsp;근로자의&nbsp;정착&nbsp;부담을&nbsp;낮춘다.&nbsp;부산&nbsp;051&nbsp;프로젝트로&nbsp;부산&nbsp;향토기업과&nbsp;유망기업&nbsp;51개사를&nbsp;수출주도형&nbsp;대표기업으로&nbsp;육성한다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;제로-백&nbsp;프로젝트로&nbsp;부산&nbsp;이전&nbsp;기업에&nbsp;취득세·재산세&nbsp;감면을&nbsp;추진하되,&nbsp;부산&nbsp;청년&nbsp;채용과&nbsp;핵심&nbsp;기능&nbsp;유지&nbsp;약속을&nbsp;협약에&nbsp;반영하고&nbsp;미이행&nbsp;시&nbsp;환수한다.<br>&nbsp;&nbsp;○&nbsp;뉴-갈매기&nbsp;프로젝트로&nbsp;부산&nbsp;전입&nbsp;청년·근로자에게&nbsp;개인지방소득세&nbsp;연동&nbsp;동백전&nbsp;환급,&nbsp;정착기숙사,&nbsp;KTX&nbsp;반값&nbsp;바우처를&nbsp;지원한다.<br>&nbsp;&nbsp;○&nbsp;부산&nbsp;051&nbsp;프로젝트로&nbsp;임기&nbsp;내&nbsp;51개&nbsp;기업을&nbsp;선정해&nbsp;제품개발,&nbsp;판로개척,&nbsp;디지털전환,&nbsp;부산항&nbsp;연계&nbsp;수출물류를&nbsp;패키지로&nbsp;지원한다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계&nbsp;추진한다.&nbsp;1년차에는&nbsp;조례·지원기준&nbsp;정비와&nbsp;051&nbsp;기업&nbsp;1기&nbsp;선발,&nbsp;2~3년차에는&nbsp;기업유치·정착지원·수출지원&nbsp;확대,&nbsp;4년차에는&nbsp;성과&nbsp;점검&nbsp;후&nbsp;상설화한다.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;기업지원·청년정착·중소기업&nbsp;수출지원&nbsp;예산을&nbsp;조정하고,&nbsp;국비&nbsp;공모사업,&nbsp;부산항만공사,&nbsp;지역&nbsp;금융기관,&nbsp;민간&nbsp;물류기업&nbsp;협력&nbsp;재원을&nbsp;활용한다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	침례병원 재개원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="침례병원 재개원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;10년&nbsp;가까이&nbsp;멈춰&nbsp;선&nbsp;舊&nbsp;침례병원을&nbsp;조속히&nbsp;재개장해&nbsp;금정구와&nbsp;동부산권의&nbsp;의료공백을&nbsp;해소한다.&nbsp;수천억&nbsp;원&nbsp;규모의&nbsp;신축·대규모&nbsp;리모델링&nbsp;방식이&nbsp;아니라,&nbsp;기존&nbsp;건물과&nbsp;시설을&nbsp;최대한&nbsp;활용한&nbsp;약&nbsp;280억&nbsp;원&nbsp;실비운영&nbsp;모델을&nbsp;검증·추진한다.&nbsp;응급실,&nbsp;수술실,&nbsp;중환자실,&nbsp;병동,&nbsp;필수&nbsp;의료장비를&nbsp;우선&nbsp;갖추고&nbsp;부산시·금정구&nbsp;소유,&nbsp;민간&nbsp;종합병원&nbsp;운영의&nbsp;공공·민간&nbsp;협력형&nbsp;병원으로&nbsp;정상화한다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;舊&nbsp;침례병원&nbsp;부지는&nbsp;이미&nbsp;부산시가&nbsp;확보한&nbsp;만큼,&nbsp;추가&nbsp;부지&nbsp;매입이나&nbsp;대규모&nbsp;신축보다&nbsp;기존&nbsp;병원&nbsp;건물의&nbsp;재가동&nbsp;가능성을&nbsp;우선&nbsp;검토한다.&nbsp;의료&nbsp;현장&nbsp;전문가들이&nbsp;검토한&nbsp;280억&nbsp;원&nbsp;실비운영&nbsp;모델을&nbsp;공식&nbsp;검증하고,&nbsp;인테리어,&nbsp;외부&nbsp;보강,&nbsp;냉난방&nbsp;설비,&nbsp;응급실·수술실·중환자실&nbsp;정비,&nbsp;의료장비&nbsp;도입을&nbsp;단계적으로&nbsp;추진한다.&nbsp;운영은&nbsp;부산시와&nbsp;금정구가&nbsp;공공성을&nbsp;책임지고,&nbsp;병원&nbsp;운영&nbsp;경험이&nbsp;있는&nbsp;민간&nbsp;종합병원이&nbsp;맡는&nbsp;방식으로&nbsp;설계한다.&nbsp;장례식장&nbsp;직영&nbsp;등&nbsp;안정적&nbsp;수익&nbsp;구조를&nbsp;함께&nbsp;마련해,&nbsp;개원&nbsp;이후에도&nbsp;지속&nbsp;가능한&nbsp;병원이&nbsp;되도록&nbsp;한다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계적으로&nbsp;추진한다.&nbsp;취임&nbsp;즉시&nbsp;부산시의&nbsp;기존&nbsp;3천억&nbsp;원대&nbsp;사업비&nbsp;산출&nbsp;근거를&nbsp;재검토하고,&nbsp;280억&nbsp;원&nbsp;실비운영&nbsp;모델에&nbsp;대한&nbsp;공식&nbsp;검증&nbsp;절차에&nbsp;착수한다.&nbsp;1년차에는&nbsp;건물&nbsp;안전진단,&nbsp;시설&nbsp;점검,&nbsp;운영기관&nbsp;선정,&nbsp;실시설계와&nbsp;필수&nbsp;시설&nbsp;정비를&nbsp;추진한다.&nbsp;2년차에는&nbsp;응급실과&nbsp;필수&nbsp;진료&nbsp;기능을&nbsp;우선&nbsp;개방하고,&nbsp;이후&nbsp;병동·수술실·중환자실·검진&nbsp;기능을&nbsp;단계적으로&nbsp;확대한다.&nbsp;임기&nbsp;내&nbsp;500병상&nbsp;규모의&nbsp;종합병원&nbsp;기능&nbsp;회복을&nbsp;목표로&nbsp;한다.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원은&nbsp;부산시&nbsp;기존&nbsp;공공의료·병원&nbsp;정상화&nbsp;관련&nbsp;예산을&nbsp;우선&nbsp;조정해&nbsp;마련한다.&nbsp;대규모&nbsp;신축&nbsp;예산을&nbsp;한&nbsp;번에&nbsp;투입하는&nbsp;방식이&nbsp;아니라,&nbsp;280억&nbsp;원&nbsp;수준의&nbsp;실비운영&nbsp;예산을&nbsp;중심으로&nbsp;필수&nbsp;시설과&nbsp;장비부터&nbsp;단계적으로&nbsp;투입한다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	넷플릭스 하우스 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="넷플릭스 하우스 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;K-콘텐츠의&nbsp;글로벌&nbsp;흥행을&nbsp;부산&nbsp;관광수익과&nbsp;청년&nbsp;일자리로&nbsp;연결하기&nbsp;위해&nbsp;북항·기장·센텀을&nbsp;잇는&nbsp;K-콘텐츠&nbsp;트라이앵글을&nbsp;조성한다.&nbsp;북항은&nbsp;상설&nbsp;콘텐츠&nbsp;관광거점,&nbsp;기장은&nbsp;촬영·제작거점,&nbsp;센텀은&nbsp;후반작업·기업성장·청년일자리&nbsp;거점으로&nbsp;육성한다.&nbsp;이를&nbsp;통해&nbsp;부산을&nbsp;1년&nbsp;내내&nbsp;콘텐츠를&nbsp;즐기고&nbsp;만들고&nbsp;완성하는&nbsp;글로벌&nbsp;콘텐츠&nbsp;수도로&nbsp;도약시킨다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;북항에는&nbsp;IT·영상·전시지구를&nbsp;활용해&nbsp;미국&nbsp;외&nbsp;세계&nbsp;첫&nbsp;넷플릭스&nbsp;하우스&nbsp;부산&nbsp;유치를&nbsp;추진하고,&nbsp;흥행&nbsp;콘텐츠에&nbsp;따라&nbsp;테마가&nbsp;바뀌는&nbsp;상설&nbsp;실내형&nbsp;콘텐츠&nbsp;체험공간을&nbsp;조성한다.&nbsp;기장에는&nbsp;부산촬영소와&nbsp;연계한&nbsp;제작&nbsp;인프라를&nbsp;강화해&nbsp;글로벌&nbsp;콘텐츠&nbsp;제작기지로&nbsp;육성한다.&nbsp;센텀에는&nbsp;영상산업센터,&nbsp;영화의전당,&nbsp;문화산업진흥지구를&nbsp;기반으로&nbsp;편집·특수효과·후반작업&nbsp;기업을&nbsp;유치하고,&nbsp;지역&nbsp;대학과&nbsp;연계한&nbsp;청년인재&nbsp;양성&nbsp;및&nbsp;취업&nbsp;지원체계를&nbsp;구축한다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계적으로&nbsp;추진한다.&nbsp;1년차에는&nbsp;북항·기장·센텀&nbsp;거점별&nbsp;유치전략을&nbsp;수립하고,&nbsp;정부·민간기업·글로벌&nbsp;콘텐츠&nbsp;기업과&nbsp;협의체를&nbsp;구성한다.&nbsp;2~3년차에는&nbsp;북항&nbsp;콘텐츠&nbsp;체험거점&nbsp;유치&nbsp;협상,&nbsp;기장&nbsp;제작기지&nbsp;기능&nbsp;강화,&nbsp;센텀&nbsp;후반작업&nbsp;기업&nbsp;유치와&nbsp;청년인재&nbsp;양성사업을&nbsp;본격&nbsp;추진한다.&nbsp;4년차에는&nbsp;3대&nbsp;거점을&nbsp;연계한&nbsp;관광·제작·일자리&nbsp;패키지를&nbsp;완성하고&nbsp;상설화한다.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총사업비는&nbsp;민관합동&nbsp;약&nbsp;2,400억&nbsp;원&nbsp;규모로&nbsp;추진한다.&nbsp;북항&nbsp;넷플릭스&nbsp;하우스&nbsp;및&nbsp;거점&nbsp;시설&nbsp;구축은&nbsp;민간투자를&nbsp;중심으로&nbsp;하고,&nbsp;기장&nbsp;제작기지&nbsp;기능&nbsp;강화와&nbsp;센텀&nbsp;기업&nbsp;유치·공간&nbsp;확충은&nbsp;국비·시비·민간투자를&nbsp;연계한다.&nbsp;청년&nbsp;인재&nbsp;양성과&nbsp;취업&nbsp;지원은&nbsp;기존&nbsp;콘텐츠산업·청년일자리·지역대학&nbsp;협력&nbsp;예산을&nbsp;조정하고,&nbsp;중앙정부&nbsp;공모사업과&nbsp;민간기업&nbsp;협력&nbsp;재원을&nbsp;활용한다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	사직돔구장 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="사직돔구장 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;부산&nbsp;야구의&nbsp;상징인&nbsp;사직야구장을&nbsp;3만&nbsp;석&nbsp;규모의&nbsp;개폐형&nbsp;돔구장으로&nbsp;재검토해,&nbsp;야구&nbsp;경기뿐&nbsp;아니라&nbsp;콘서트,&nbsp;e스포츠,&nbsp;대형&nbsp;문화행사,&nbsp;시민축제가&nbsp;가능한&nbsp;복합&nbsp;스포츠·문화&nbsp;플랫폼으로&nbsp;조성한다.&nbsp;현재&nbsp;부산시가&nbsp;추진&nbsp;중인&nbsp;사직야구장&nbsp;재건축은&nbsp;2만1,000석&nbsp;규모&nbsp;개방형&nbsp;구장,&nbsp;2028년&nbsp;착공·2031년&nbsp;개장&nbsp;목표로&nbsp;진행되고&nbsp;있으나,&nbsp;정이한&nbsp;후보는&nbsp;부산의&nbsp;야구&nbsp;열기와&nbsp;기후&nbsp;변화,&nbsp;시민&nbsp;편의를&nbsp;고려해&nbsp;개폐형&nbsp;돔&nbsp;전환을&nbsp;추진한다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;이미&nbsp;행정절차가&nbsp;진행&nbsp;중인&nbsp;사직야구장&nbsp;재건축&nbsp;사업을&nbsp;전면&nbsp;백지화하는&nbsp;것이&nbsp;아니라,&nbsp;현&nbsp;사직&nbsp;부지를&nbsp;중심으로&nbsp;개폐형&nbsp;돔&nbsp;전환&nbsp;가능성을&nbsp;재검토한다.&nbsp;기존&nbsp;2만1,000석&nbsp;개방형&nbsp;계획을&nbsp;3만&nbsp;석&nbsp;규모&nbsp;개폐형&nbsp;돔구장으로&nbsp;확대&nbsp;검토하고,&nbsp;주차면수&nbsp;5,000면&nbsp;이상&nbsp;확보,&nbsp;대중교통&nbsp;연계,&nbsp;복합&nbsp;주차타워·지하공간&nbsp;재설계&nbsp;등을&nbsp;함께&nbsp;추진한다.&nbsp;사직권&nbsp;상권과&nbsp;동래권&nbsp;생활문화가&nbsp;함께&nbsp;살아나는&nbsp;도시재생형&nbsp;스포츠&nbsp;공약으로&nbsp;설계한다<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계적으로&nbsp;추진한다.&nbsp;1년차에는&nbsp;기존&nbsp;사직야구장&nbsp;재건축&nbsp;계획의&nbsp;설계·사업비·교통·주차&nbsp;계획을&nbsp;재검토하고,&nbsp;개폐형&nbsp;돔&nbsp;전환&nbsp;타당성&nbsp;조사와&nbsp;시민·전문가&nbsp;의견수렴을&nbsp;추진한다.&nbsp;2~3년차에는&nbsp;중앙투자심사&nbsp;변경,&nbsp;실시설계&nbsp;조정,&nbsp;민간투자&nbsp;및&nbsp;운영수익&nbsp;모델&nbsp;협의를&nbsp;진행한다.&nbsp;4년차에는&nbsp;착공&nbsp;준비와&nbsp;임시구장&nbsp;운영계획을&nbsp;확정하고,&nbsp;2031년&nbsp;개장&nbsp;목표가&nbsp;흔들리지&nbsp;않도록&nbsp;사업&nbsp;일정을&nbsp;관리한다.<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;현재&nbsp;사직야구장&nbsp;재건축은&nbsp;총사업비&nbsp;2,924억&nbsp;원&nbsp;규모로,&nbsp;국비&nbsp;299억&nbsp;원과&nbsp;롯데&nbsp;측&nbsp;분담금&nbsp;817억&nbsp;원&nbsp;등이&nbsp;반영된&nbsp;계획이다.&nbsp;개폐형&nbsp;돔&nbsp;전환에&nbsp;따른&nbsp;추가&nbsp;재원은&nbsp;시비만으로&nbsp;부담하지&nbsp;않고,&nbsp;국비&nbsp;추가&nbsp;확보,&nbsp;롯데&nbsp;구단&nbsp;분담,&nbsp;네이밍권,&nbsp;복합상업시설&nbsp;임대수익,&nbsp;민간투자&nbsp;유치&nbsp;등을&nbsp;종합적으로&nbsp;활용한다.&nbsp;대규모&nbsp;재정사업인&nbsp;만큼&nbsp;사업비와&nbsp;운영수익&nbsp;구조를&nbsp;시민에게&nbsp;공개하고,&nbsp;재정&nbsp;부담을&nbsp;최소화하는&nbsp;방식으로&nbsp;추진한다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	아이 낳고 키우기 좋은 부산 패키지</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="아이 낳고 키우기 좋은 부산 패키지">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;부산&nbsp;최초의&nbsp;시립&nbsp;산후조리원을&nbsp;건립하고,&nbsp;민간&nbsp;인증&nbsp;조리원과&nbsp;연계해&nbsp;산후조리&nbsp;비용을&nbsp;반값&nbsp;수준으로&nbsp;낮춘다.&nbsp;24시간&nbsp;달빛어린이병원을&nbsp;1구·군&nbsp;1곳&nbsp;이상&nbsp;구축해&nbsp;야간&nbsp;소아진료&nbsp;공백을&nbsp;줄이고,&nbsp;부부&nbsp;재충전을&nbsp;위한&nbsp;단기&nbsp;돌봄&nbsp;바우처를&nbsp;도입한다.&nbsp;출산지원금&nbsp;중심이&nbsp;아니라,&nbsp;산후조리·야간진료·육아휴식까지&nbsp;실제&nbsp;이용&nbsp;가능한&nbsp;돌봄&nbsp;인프라&nbsp;구축을&nbsp;목표로&nbsp;한다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시립&nbsp;산후조리원을&nbsp;우선&nbsp;조성하고,&nbsp;위생·인력·가격&nbsp;기준을&nbsp;충족하는&nbsp;민간&nbsp;산후조리원은&nbsp;‘안심&nbsp;인증&nbsp;파트너’로&nbsp;지정해&nbsp;이용료&nbsp;지원을&nbsp;연계한다.&nbsp;실시간&nbsp;공석&nbsp;확인,&nbsp;이용료&nbsp;확인,&nbsp;지원금&nbsp;정산이&nbsp;가능한&nbsp;통합&nbsp;플랫폼도&nbsp;구축한다.&nbsp;야간&nbsp;소아진료는&nbsp;구·군별&nbsp;달빛어린이병원&nbsp;확대,&nbsp;야간&nbsp;진료&nbsp;수가&nbsp;보전,&nbsp;권역별&nbsp;당직&nbsp;순환체계,&nbsp;119&nbsp;소아&nbsp;전담&nbsp;응급&nbsp;연계를&nbsp;함께&nbsp;추진한다.&nbsp;부부&nbsp;다시&nbsp;봄&nbsp;사업은&nbsp;영화,&nbsp;외식,&nbsp;휴식&nbsp;등&nbsp;부부&nbsp;재충전에도&nbsp;사용할&nbsp;수&nbsp;있는&nbsp;단기&nbsp;돌봄&nbsp;바우처로&nbsp;운영한다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;단계&nbsp;추진한다.&nbsp;1년차에는&nbsp;입지&nbsp;선정,&nbsp;인증기준&nbsp;마련,&nbsp;수요조사,&nbsp;바우처&nbsp;운영기준을&nbsp;확정한다.&nbsp;2~3년차에는&nbsp;시립&nbsp;산후조리원&nbsp;조성,&nbsp;민간&nbsp;인증&nbsp;조리원&nbsp;확대,&nbsp;소아진료&nbsp;거점&nbsp;구축,&nbsp;돌봄&nbsp;바우처&nbsp;시범사업을&nbsp;시행한다.&nbsp;4년차에는&nbsp;이용률과&nbsp;만족도를&nbsp;점검해&nbsp;부산&nbsp;전역으로&nbsp;확대한다.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;출산장려,&nbsp;모자보건,&nbsp;아동돌봄,&nbsp;야간·휴일&nbsp;진료&nbsp;지원&nbsp;예산을&nbsp;조정해&nbsp;재원을&nbsp;마련한다.&nbsp;시비,&nbsp;국비&nbsp;공모사업,&nbsp;구·군비,&nbsp;기존&nbsp;아이돌봄·시간제&nbsp;보육&nbsp;예산,&nbsp;민간&nbsp;플랫폼&nbsp;협력&nbsp;재원을&nbsp;연계해&nbsp;추진한다.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

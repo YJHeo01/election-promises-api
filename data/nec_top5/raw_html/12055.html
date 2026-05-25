@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김성현 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	산업안전 강화 및 적극행정 강화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="산업안전 강화 및 적극행정 강화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            사고없고&nbsp;빈틈없는&nbsp;안심도시&nbsp;재난예방으로&nbsp;‘사고&nbsp;없는&nbsp;안전도시&nbsp;북구’<br>민관&nbsp;합동&nbsp;안전&nbsp;거버넌스,&nbsp;교통중심&nbsp;안전도시,&nbsp;산업안전&nbsp;사고&nbsp;Zero<br>선제적&nbsp;예방&nbsp;시스템&nbsp;구축,&nbsp;건설·토목&nbsp;현장&nbsp;‘안전책임&nbsp;실명제’&nbsp;및&nbsp;정기<br>점검&nbsp;의무화&nbsp;생활정비&nbsp;노후&nbsp;인프라&nbsp;정밀&nbsp;진단&nbsp;및&nbsp;즉시&nbsp;대응<br><br>구민&nbsp;중심,&nbsp;신속·책임&nbsp;행정&nbsp;구현,&nbsp;빠르고&nbsp;정확한&nbsp;적극행정<br>기다림은&nbsp;줄이고,&nbsp;행정으르&nbsp;빠르게,&nbsp;‘대기&nbsp;시간&nbsp;제로’&nbsp;적극&nbsp;행정&nbsp;실현<br>구민참여&nbsp;정책설계,&nbsp;신속한&nbsp;현장행정,&nbsp;민관&nbsp;협업&nbsp;행정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	민생경제 강화 및 소통경청 강화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="민생경제 강화 및 소통경청 강화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            소상공인·자영업자&nbsp;활력,&nbsp;일자리&nbsp;넘치는&nbsp;지역경제,&nbsp;골목경제&nbsp;살리고,&nbsp;일자리&nbsp;키운다.<br>AI·에너지&nbsp;신산업&nbsp;유치,&nbsp;도시농업·먹거리&nbsp;유통&nbsp;활성화,&nbsp;청년·중장년을&nbsp;위한&nbsp;맞춤형&nbsp;일자리&nbsp;매칭&nbsp;시스템&nbsp;구축<br>민생경제&nbsp;회복,&nbsp;활기&nbsp;넘치는&nbsp;경제도시,&nbsp;정책·운전자금&nbsp;지원&nbsp;확대&nbsp;및&nbsp;전통시장·소상공인&nbsp;자생력&nbsp;강화<br>지역&nbsp;화폐&nbsp;및&nbsp;유통망&nbsp;활성화를&nbsp;통한&nbsp;내수&nbsp;경기&nbsp;진작<br><br>온·오프라인&nbsp;소통창구,&nbsp;현장&nbsp;집무,&nbsp;24시간&nbsp;열린행정<br>혁신행정&nbsp;북구&nbsp;중심&nbsp;시대,&nbsp;행정&nbsp;체계&nbsp;재편으로&nbsp;‘북구&nbsp;자부심’&nbsp;회복</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	사회복지 강화 및 구민화합 강화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="사회복지 강화 및 구민화합 강화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            돌봄·나눔·섬김·동행이&nbsp;살아있는&nbsp;복지공동체,&nbsp;소외&nbsp;없는&nbsp;복지도시<br>생애주기별&nbsp;돌봄,&nbsp;취약계층&nbsp;보호,&nbsp;민관&nbsp;협력&nbsp;복지체계,&nbsp;섬김의&nbsp;따뜻한&nbsp;복지도시<br>영유아·장애인&nbsp;돌봄&nbsp;체계&nbsp;강화&nbsp;및&nbsp;‘1천&nbsp;원&nbsp;밥상’&nbsp;나눔&nbsp;확산<br>독거노인&nbsp;방문&nbsp;케어&nbsp;및&nbsp;전&nbsp;세대&nbsp;통합&nbsp;복지&nbsp;거버넌스&nbsp;구축<br><br>함께&nbsp;만드는&nbsp;화합&nbsp;행사&nbsp;지속가능한&nbsp;공동체<br>위원회·간담회·TF&nbsp;운영,&nbsp;구민&nbsp;참여형&nbsp;행사,&nbsp;함께하는&nbsp;공동체</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	문화역사 강화 및 정체성 강화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="문화역사 강화 및 정체성 강화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            의향·예향이&nbsp;살아&nbsp;숨&nbsp;쉬는&nbsp;문화도시,&nbsp;역사가&nbsp;자산이&nbsp;되는&nbsp;도시,&nbsp;품격&nbsp;있는&nbsp;소통도시&nbsp;<br>축제·공연·인문학,&nbsp;예술·박물관&nbsp;활성화,&nbsp;의향·예향&nbsp;콘텐츠<br>문화역사&nbsp;의향·예향의&nbsp;자부심,&nbsp;명품&nbsp;관광&nbsp;도시,&nbsp;체류형&nbsp;관광&nbsp;상품&nbsp;개발<br>인문학&nbsp;아카데미&nbsp;및&nbsp;지역&nbsp;대학&nbsp;연계&nbsp;전문&nbsp;교육&nbsp;활성화<br><br>‘충효·의향·예향’의&nbsp;중심,&nbsp;북구의&nbsp;위상&nbsp;재정립<br>충효·건국·용봉&nbsp;정체성&nbsp;확립&nbsp;·&nbsp;도시&nbsp;브랜드&nbsp;강화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	생활체육 강화 및 환경정화 강화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="생활체육 강화 및 환경정화 강화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            일상&nbsp;속&nbsp;건강한&nbsp;삶,&nbsp;걷기부터&nbsp;대회까지,&nbsp;모두가&nbsp;즐기는&nbsp;생활체육&nbsp;도시<br>둘레길·등산로&nbsp;정비,&nbsp;구민&nbsp;참여형&nbsp;체육대회,&nbsp;구청장배&nbsp;종목별&nbsp;대회&nbsp;활성화로&nbsp;구민&nbsp;화합의&nbsp;장&nbsp;마련<br>생활체육&nbsp;매일이&nbsp;건강한&nbsp;스포츠&nbsp;일상화,&nbsp;생활체육&nbsp;프로그램&nbsp;확대<br><br>골목부터&nbsp;공원까지,&nbsp;깨끗하고&nbsp;쾌적한&nbsp;생활환경&nbsp;조성,&nbsp;청결&nbsp;북구<br>하천·등산로&nbsp;정비&nbsp;확대,&nbsp;민·관협업&nbsp;‘우리&nbsp;동네&nbsp;환경&nbsp;지킴이’&nbsp;활성화<br>생활쓰레기&nbsp;신속처리,&nbsp;상시&nbsp;환경정화,&nbsp;민관&nbsp;협력&nbsp;클린도시</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

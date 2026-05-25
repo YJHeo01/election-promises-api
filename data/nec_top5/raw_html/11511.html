@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이충선 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	새로운 관광산업의 개발로 소득향상을 이끌겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="새로운 관광산업의 개발로 소득향상을 이끌겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;관광경영학,&nbsp;관광개발학,&nbsp;호텔조리학&nbsp;등&nbsp;관광학과&nbsp;국내&nbsp;최고&nbsp;유명대학&nbsp;중&nbsp;하나인&nbsp;저의&nbsp;모교&nbsp;경기대학교&nbsp;관광대학&nbsp;교수진들과&nbsp;긴밀한&nbsp;협력,&nbsp;협조&nbsp;체계를&nbsp;구축하여&nbsp;기존&nbsp;가평관광의&nbsp;장점과&nbsp;경쟁력을&nbsp;더욱&nbsp;공고히&nbsp;하며&nbsp;새로운&nbsp;관광상품,&nbsp;관광자원,&nbsp;안보관광지를&nbsp;개발·조성하여&nbsp;실질적으로&nbsp;가평군&nbsp;전체에&nbsp;골고루&nbsp;관광&nbsp;수입의&nbsp;증대에&nbsp;따른&nbsp;소득&nbsp;향상이&nbsp;이루어질&nbsp;수&nbsp;있도록&nbsp;하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-<br><br>□&nbsp;이행방법<br><br>&nbsp;&nbsp;&nbsp;&nbsp;-<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○<br>&nbsp;&nbsp;&nbsp;&nbsp;-<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○<br>&nbsp;&nbsp;&nbsp;&nbsp;-<br>&nbsp;&nbsp;※&nbsp;공약에&nbsp;필요한&nbsp;표,&nbsp;도표,&nbsp;그림&nbsp;등&nbsp;가능(후보자&nbsp;사진&nbsp;등&nbsp;홍보&nbsp;자료&nbsp;제외)<br>&nbsp;&nbsp;※&nbsp;글씨체,&nbsp;글씨색&nbsp;선택&nbsp;가능</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	기후변화에 따른 선진영농기술의 개발과 보급에 힘쓰겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="기후변화에 따른 선진영농기술의 개발과 보급에 힘쓰겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;평군&nbsp;기온&nbsp;상승으로&nbsp;인한&nbsp;대응&nbsp;방안으로&nbsp;열대성&nbsp;작물,&nbsp;수경작물&nbsp;재배&nbsp;등&nbsp;특화작물&nbsp;육성사업을&nbsp;적극적으로&nbsp;장려,&nbsp;지원하여&nbsp;오랜&nbsp;기간&nbsp;농·축산업에&nbsp;종사하시는&nbsp;농민&nbsp;여러분의&nbsp;어려움을&nbsp;정상적인&nbsp;소득향상을&nbsp;통해&nbsp;넉넉한&nbsp;경제생활을&nbsp;영위할&nbsp;수&nbsp;있도록&nbsp;최대한&nbsp;모든&nbsp;대책을&nbsp;마련하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;이와&nbsp;함께&nbsp;안정적인&nbsp;영농생활을&nbsp;위한&nbsp;농·축산업&nbsp;재해보험의&nbsp;확대를&nbsp;위해서&nbsp;노력을&nbsp;다할&nbsp;것입니다.&nbsp;가뭄,&nbsp;홍수,&nbsp;냉해,&nbsp;폭설&nbsp;등으로&nbsp;인한&nbsp;농·축산업&nbsp;여러분의&nbsp;손실을&nbsp;최소화&nbsp;하고&nbsp;생활의안정성을&nbsp;농축산업&nbsp;재해보험을&nbsp;장려하고&nbsp;중앙정부의&nbsp;지원을&nbsp;긴급&nbsp;요청하겠습니다.&nbsp;또한&nbsp;농축산업의&nbsp;자립을&nbsp;지원하고&nbsp;실질적인&nbsp;혜택을&nbsp;위한&nbsp;정부보조금을&nbsp;확보하여&nbsp;건전한&nbsp;농가소득을&nbsp;이루도록&nbsp;적극적인&nbsp;대책을&nbsp;수립하며&nbsp;최선을&nbsp;다하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○<br>&nbsp;&nbsp;&nbsp;&nbsp;-<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○<br>&nbsp;&nbsp;&nbsp;&nbsp;-<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○<br>&nbsp;&nbsp;&nbsp;&nbsp;-<br>&nbsp;&nbsp;※&nbsp;공약에&nbsp;필요한&nbsp;표,&nbsp;도표,&nbsp;그림&nbsp;등&nbsp;가능(후보자&nbsp;사진&nbsp;등&nbsp;홍보&nbsp;자료&nbsp;제외)<br>&nbsp;&nbsp;※&nbsp;글씨체,&nbsp;글씨색&nbsp;선택&nbsp;가능</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	세밀하고 폭넓은 복지정책으로 따뜻한 가평을 이루겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="세밀하고 폭넓은 복지정책으로 따뜻한 가평을 이루겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;현재&nbsp;가평군은&nbsp;도시와&nbsp;농촌의&nbsp;복합적&nbsp;단계입니다.&nbsp;상대적으로&nbsp;복지의&nbsp;혜택이&nbsp;주민들의&nbsp;요구에&nbsp;부족한&nbsp;현실입니다.&nbsp;우리&nbsp;가평군의&nbsp;중간지역에&nbsp;건강보험&nbsp;직영병원의&nbsp;자매병원을&nbsp;유치하여&nbsp;의료서비스의&nbsp;수준을&nbsp;높이기&nbsp;위해&nbsp;노력할&nbsp;것이며,&nbsp;먼&nbsp;지역에는&nbsp;접근성이&nbsp;편리한&nbsp;의료행정을&nbsp;펼치면서&nbsp;보건진료서의&nbsp;보완과&nbsp;이동보건&nbsp;진료의&nbsp;기회를&nbsp;넓히겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;상대적으로&nbsp;구성비율이&nbsp;높으신&nbsp;어르신들과&nbsp;다문화&nbsp;가정,&nbsp;결손가정&nbsp;등&nbsp;불우,&nbsp;소외&nbsp;계층을&nbsp;위한&nbsp;종합적인&nbsp;지원&nbsp;정책을&nbsp;꼼꼼히&nbsp;세우며&nbsp;보살피겠습니다.&nbsp;그리고&nbsp;장애우들의&nbsp;편의시설&nbsp;확충과&nbsp;어르신들의&nbsp;이동권&nbsp;확보를&nbsp;위해&nbsp;대중교통&nbsp;관련&nbsp;추가예산의&nbsp;계획을&nbsp;수립하겠습니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○<br>&nbsp;&nbsp;&nbsp;&nbsp;-<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○<br>&nbsp;&nbsp;&nbsp;&nbsp;-<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○<br>&nbsp;&nbsp;&nbsp;&nbsp;-<br>&nbsp;&nbsp;※&nbsp;공약에&nbsp;필요한&nbsp;표,&nbsp;도표,&nbsp;그림&nbsp;등&nbsp;가능(후보자&nbsp;사진&nbsp;등&nbsp;홍보&nbsp;자료&nbsp;제외)<br>&nbsp;&nbsp;※&nbsp;글씨체,&nbsp;글씨색&nbsp;선택&nbsp;가능</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	내실있는 교육정책 지원으로 인구유입을 장려하겠습니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="내실있는 교육정책 지원으로 인구유입을 장려하겠습니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;경기대학교에서&nbsp;경영학&nbsp;전공과&nbsp;함께&nbsp;교육학을&nbsp;부전공하며&nbsp;중,&nbsp;고등학교&nbsp;교사&nbsp;자격증을&nbsp;소지하고&nbsp;있는&nbsp;저는&nbsp;오래전부터&nbsp;우리&nbsp;가평&nbsp;관내&nbsp;중,&nbsp;고등학교&nbsp;역량&nbsp;강화에&nbsp;큰&nbsp;관심을&nbsp;이어왔습니다.&nbsp;상황에&nbsp;따랄&nbsp;직접&nbsp;경기도교육청을&nbsp;방문하고&nbsp;우리&nbsp;가평군교육청과의&nbsp;긴밀한&nbsp;협력을&nbsp;통해&nbsp;긴밀한&nbsp;협력을&nbsp;통해&nbsp;미래에&nbsp;우리의&nbsp;학생들이&nbsp;꿈과&nbsp;희망을&nbsp;마음껏&nbsp;펼칠&nbsp;수&nbsp;있으며&nbsp;자질과&nbsp;능력에&nbsp;맞는&nbsp;다양한&nbsp;분야의&nbsp;직업에&nbsp;도전하는&nbsp;기회로&nbsp;국내,&nbsp;외&nbsp;명문대학에&nbsp;진학할&nbsp;수&nbsp;있도록&nbsp;지원하겠습니다.&nbsp;이를&nbsp;통하여&nbsp;우리&nbsp;가평군과&nbsp;대한민국의&nbsp;큰&nbsp;인재로&nbsp;성장할&nbsp;수&nbsp;있는&nbsp;체계적인&nbsp;교육환경을&nbsp;만들겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○<br>&nbsp;&nbsp;&nbsp;&nbsp;-<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○<br>&nbsp;&nbsp;&nbsp;&nbsp;-<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○<br>&nbsp;&nbsp;&nbsp;&nbsp;-<br>&nbsp;&nbsp;※&nbsp;공약에&nbsp;필요한&nbsp;표,&nbsp;도표,&nbsp;그림&nbsp;등&nbsp;가능(후보자&nbsp;사진&nbsp;등&nbsp;홍보&nbsp;자료&nbsp;제외)<br>&nbsp;&nbsp;※&nbsp;글씨체,&nbsp;글씨색&nbsp;선택&nbsp;가능</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	검소하고 정직한 군정 활동을 실천하겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="검소하고 정직한 군정 활동을 실천하겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;생활&nbsp;속에&nbsp;정치인으로서&nbsp;불합리와&nbsp;불협치가&nbsp;많은&nbsp;기존정당의&nbsp;상황에&nbsp;흔들리지&nbsp;않고&nbsp;가평군민을&nbsp;위해&nbsp;헌신하는&nbsp;처음의&nbsp;마음으로&nbsp;가평군과&nbsp;가평군민을&nbsp;위해&nbsp;열정적으로&nbsp;일하겠습니다.&nbsp;국가에&nbsp;봉사하고&nbsp;군민&nbsp;<br>여러분을&nbsp;위해&nbsp;모든&nbsp;것을&nbsp;다하는&nbsp;희생정신으로&nbsp;불의와&nbsp;타협하지&nbsp;않고&nbsp;당당한&nbsp;군정을&nbsp;펼치겠습니다.&nbsp;누구에게나&nbsp;떳떳하게&nbsp;살아왔듯이&nbsp;앞으로도&nbsp;바른&nbsp;길만을&nbsp;추구하고&nbsp;가평군민을&nbsp;위한&nbsp;뜨거운&nbsp;마음으로&nbsp;공정한&nbsp;가평군정을&nbsp;이끌겠습니다.&nbsp;임기를&nbsp;마치는&nbsp;날까지&nbsp;처음의&nbsp;마음을&nbsp;지켜내겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○<br>&nbsp;&nbsp;&nbsp;&nbsp;-<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○<br>&nbsp;&nbsp;&nbsp;&nbsp;-<br>&nbsp;&nbsp;※&nbsp;공약에&nbsp;필요한&nbsp;표,&nbsp;도표,&nbsp;그림&nbsp;등&nbsp;가능(후보자&nbsp;사진&nbsp;등&nbsp;홍보&nbsp;자료&nbsp;제외)<br>&nbsp;&nbsp;※&nbsp;글씨체,&nbsp;글씨색&nbsp;선택&nbsp;가능</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

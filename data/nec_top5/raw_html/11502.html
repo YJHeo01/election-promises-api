@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이황석 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	민중의술제도화와 건강 복지 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="민중의술제도화와 건강 복지 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □목표<br>봉침&nbsp;등&nbsp;민간&nbsp;전통의술을&nbsp;제도화하여&nbsp;군민&nbsp;건강을&nbsp;책임지겠습니다.<br><br>□이행방법<br>‘민중의술&nbsp;특별조례’&nbsp;제정&nbsp;추진<br>봉침&nbsp;치료의&nbsp;제도권&nbsp;편입&nbsp;및&nbsp;연구&nbsp;지원<br>지역&nbsp;의료&nbsp;자원과&nbsp;연계한&nbsp;치매&nbsp;예방·관리&nbsp;체계&nbsp;구축<br><br>□이행&nbsp;기간<br>2027년&nbsp;하반기<br>그동안&nbsp;산청&nbsp;의료원에서&nbsp;군민을&nbsp;대상으로&nbsp;의료계의&nbsp;반발에&nbsp;대응할&nbsp;임상&nbsp;경험의&nbsp;자료&nbsp;축척.<br><br>□재원&nbsp;조달&nbsp;방안&nbsp;등<br>별다른&nbsp;재원의&nbsp;소요가&nbsp;없음<br>군수의&nbsp;판공비&nbsp;만으로도&nbsp;충분히&nbsp;대체가&nbsp;가능&nbsp;함.<br><br>□기대&nbsp;효과<br>고령화&nbsp;시대&nbsp;맞춤형&nbsp;건강&nbsp;관리&nbsp;실현<br>의료비&nbsp;부담&nbsp;완화<br>지역&nbsp;의료&nbsp;모델&nbsp;구축&nbsp;및&nbsp;대외&nbsp;홍보&nbsp;기반&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	농산물 판매 책임제 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="농산물 판매 책임제 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □목표<br>농민이&nbsp;생산하면,&nbsp;판매는&nbsp;군이&nbsp;책임지겠습니다.<br><br>□실행&nbsp;방법<br>고속도로&nbsp;입간판을&nbsp;활용한&nbsp;산청&nbsp;농산물&nbsp;홍보<br>곶감,&nbsp;딸기,&nbsp;쌀,&nbsp;약초,&nbsp;레프팅&nbsp;등&nbsp;지역&nbsp;자원&nbsp;통합&nbsp;마케팅<br>서울&nbsp;등&nbsp;대형&nbsp;경매시장&nbsp;출하&nbsp;체계&nbsp;구축<br>출하&nbsp;조절&nbsp;시스템으로&nbsp;가격&nbsp;폭락&nbsp;방지<br><br>□이행기간<br>임기가&nbsp;시작되면&nbsp;곧바로&nbsp;순차적으로&nbsp;시행<br>전담&nbsp;공무원&nbsp;배정<br><br>□재원&nbsp;조달방안<br>공무원의&nbsp;업무&nbsp;조절,<br>업무가&nbsp;과도하면&nbsp;전담&nbsp;공무원&nbsp;채용.<br><br>□기대&nbsp;효과<br>농가&nbsp;소득&nbsp;안정<br>지역&nbsp;브랜드&nbsp;가치&nbsp;상승<br>판로&nbsp;걱정&nbsp;없는&nbsp;농업&nbsp;환경&nbsp;조성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	농업 기술 혁신과 품질 고급화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="농업 기술 혁신과 품질 고급화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □목표<br>기술로&nbsp;승부하는&nbsp;농업,&nbsp;전국&nbsp;최고&nbsp;품질을&nbsp;만들겠습니다.<br><br>□실행&nbsp;방법<br>우수&nbsp;농업인의&nbsp;기술&nbsp;공유&nbsp;시스템&nbsp;구축<br>지역&nbsp;맞춤형&nbsp;영농기술&nbsp;개발&nbsp;지원<br>교육·컨설팅&nbsp;확대<br><br>□이행기간.<br>임기가&nbsp;시작되면&nbsp;곧바로&nbsp;시행<br><br>□재원&nbsp;조달&nbsp;방법<br>특별한&nbsp;비용이&nbsp;발생하지&nbsp;않음<br><br>□기대&nbsp;효과<br>농산물&nbsp;품질&nbsp;향상<br>경쟁력&nbsp;있는&nbsp;프리미엄&nbsp;농업&nbsp;실현<br>지속&nbsp;가능한&nbsp;농업&nbsp;기반&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	덕산댐 건설, 군민 뜻으로 결정</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="덕산댐 건설, 군민 뜻으로 결정">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □목표<br>지역&nbsp;주민이&nbsp;찬성하면&nbsp;맑은물&nbsp;공급용&nbsp;다목적&nbsp;댐&nbsp;건설<br>물&nbsp;이용&nbsp;분담금으로&nbsp;산청군의&nbsp;난재를&nbsp;해결&nbsp;가능&nbsp;함<br>물&nbsp;이용&nbsp;분담금을&nbsp;출산&nbsp;육아&nbsp;교육에&nbsp;지원하면&nbsp;저출산&nbsp;인구&nbsp;소멸을&nbsp;방지할수&nbsp;있음<br><br>□실행&nbsp;방법<br>시천·삼장·단성면&nbsp;주민&nbsp;대상&nbsp;공식&nbsp;여론조사&nbsp;실시<br>찬성률&nbsp;70%&nbsp;이상&nbsp;시&nbsp;적극&nbsp;추진<br><br>□이행&nbsp;기간<br>2026년&nbsp;하반기부터<br>부산&nbsp;경남&nbsp;산청&nbsp;등&nbsp;관계자&nbsp;TF&nbsp;구성후<br>투명한&nbsp;정보&nbsp;공개&nbsp;및&nbsp;주민&nbsp;참여&nbsp;보장<br><br>□재원&nbsp;조달&nbsp;방안등<br>대규모&nbsp;국책&nbsp;사업으로&nbsp;국토부&nbsp;부산시&nbsp;등과&nbsp;협의<br><br>□기대&nbsp;효과<br>수자원&nbsp;확보&nbsp;및&nbsp;지역&nbsp;개발&nbsp;기반&nbsp;마련<br>갈등&nbsp;최소화<br>민주적&nbsp;의사결정&nbsp;실현</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	지역 리더 처우 개선</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="지역 리더 처우 개선">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □목표<br>새마을&nbsp;지도자.&nbsp;부녀회장&nbsp;수당&nbsp;지급<br>봉사만&nbsp;강요하지&nbsp;않겠습니다.&nbsp;정당한&nbsp;예우를&nbsp;하겠습니다.<br><br>□실행&nbsp;방법<br>새마을지도자·부녀회장&nbsp;처우&nbsp;개선&nbsp;정책&nbsp;마련<br>활동&nbsp;지원금&nbsp;및&nbsp;제도적&nbsp;지원&nbsp;검토<br>군의회와&nbsp;협력한&nbsp;현실적인&nbsp;지원&nbsp;방안&nbsp;추진<br><br>□이행기간<br>2026년&nbsp;하반기.<br>군&nbsp;의회&nbsp;의원님과&nbsp;함께&nbsp;조례제정<br><br>□재원&nbsp;조달&nbsp;방안&nbsp;등<br>년간&nbsp;20여억원의&nbsp;재원이&nbsp;필요&nbsp;할것으로&nbsp;예상됨<br>필요&nbsp;재원은&nbsp;지방비&nbsp;충당<br><br>□기대&nbsp;효과<br>지역&nbsp;조직&nbsp;활성화<br>지속&nbsp;가능한&nbsp;마을&nbsp;운영<br>공동체&nbsp;회복</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

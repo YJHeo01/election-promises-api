@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박완수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	행복 UP 복지 - 경남도민 멤버십 카드</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="행복 UP 복지 - 경남도민 멤버십 카드">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>&nbsp;&nbsp;·&nbsp;경남&nbsp;멤버십&nbsp;카드&nbsp;한&nbsp;장으로&nbsp;경남패스,&nbsp;쇼핑할인,&nbsp;공공이용료&nbsp;할인,&nbsp;복지바우처&nbsp;제공&nbsp;등&nbsp;혜택제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공시설&nbsp;이용&nbsp;할인(주차장,&nbsp;미술관,&nbsp;체육관,&nbsp;교통&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;제휴&nbsp;할인(극장,&nbsp;마트,&nbsp;병원,&nbsp;통신요금&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도정&nbsp;복지시책&nbsp;등&nbsp;플랫폼으로&nbsp;활용<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;·&nbsp;사업자(카드사)&nbsp;협의를&nbsp;통한&nbsp;사업설계&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;할인&nbsp;및&nbsp;카드의&nbsp;기능&nbsp;등&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관련&nbsp;예산&nbsp;추계&nbsp;및&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;조례&nbsp;등&nbsp;사업&nbsp;근거&nbsp;마련<br><br>○&nbsp;이행기간<br>&nbsp;&nbsp;·&nbsp;2026년&nbsp;추경을&nbsp;통한&nbsp;관련&nbsp;초기&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;·&nbsp;2027년&nbsp;사업&nbsp;계획&nbsp;수립&nbsp;등&nbsp;준비<br>&nbsp;&nbsp;·&nbsp;2028년&nbsp;시행<br><br>○&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;·&nbsp;일반&nbsp;예산&nbsp;및&nbsp;도민행복기금&nbsp;조성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	경남과 대도시를 잇는 G-버스 도입 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="경남과 대도시를 잇는 G-버스 도입 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>&nbsp;&nbsp;·&nbsp;경남·부산·울산의&nbsp;주요&nbsp;도시를&nbsp;하나로&nbsp;잇는&nbsp;광역급행&nbsp;및&nbsp;지역내&nbsp;급형버스&nbsp;도입&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;창원,&nbsp;김해,&nbsp;양산과&nbsp;부산,&nbsp;울산을&nbsp;오가는&nbsp;급행버스&nbsp;도입을&nbsp;통해&nbsp;도민의&nbsp;교통&nbsp;편의&nbsp;증진&nbsp;<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;·&nbsp;경남형&nbsp;급행버스(GTG·GTU·GTB)&nbsp;도입:&nbsp;창원-김해-양산(A노선),&nbsp;합천-진주-창원(B노선)&nbsp;등&nbsp;주요&nbsp;거점&nbsp;연결하는&nbsp;노선&nbsp;신설&nbsp;추진<br>&nbsp;&nbsp;·&nbsp;부산,&nbsp;울산&nbsp;등과&nbsp;협의&nbsp;및&nbsp;대도시권&nbsp;광역&nbsp;교통위원회&nbsp;승인&nbsp;추진<br><br>○&nbsp;이행기간<br>&nbsp;&nbsp;·&nbsp;2026년&nbsp;하반기&nbsp;사업계획&nbsp;수립&nbsp;및&nbsp;예산확보,&nbsp;2027년부터&nbsp;확정된&nbsp;노선&nbsp;우선&nbsp;운영<br><br>○&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;·&nbsp;일반예산&nbsp;및&nbsp;해당&nbsp;지역&nbsp;분담금</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	글로벌 제조 피지컬 AI 기반 확충</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="글로벌 제조 피지컬 AI 기반 확충">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표<br>&nbsp;&nbsp;·&nbsp;경남의&nbsp;강점인&nbsp;제조&nbsp;현장(HW)과&nbsp;인공지능(SW)을&nbsp;결합한&nbsp;‘피지컬&nbsp;AI’&nbsp;시대&nbsp;선도<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경남의&nbsp;풍부한&nbsp;제조데이터와&nbsp;AX&nbsp;수요를&nbsp;기반으로&nbsp;경남에도&nbsp;판교테크노밸리와&nbsp;같이&nbsp;청년이&nbsp;선호하는&nbsp;AI기업이&nbsp;성장·창업·도내&nbsp;이전할&nbsp;수&nbsp;있도록&nbsp;AI&nbsp;산업&nbsp;생태계&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화가&nbsp;있고&nbsp;AI기업·인재가&nbsp;찾아오는&nbsp;AI&nbsp;산업&nbsp;생태계&nbsp;조성<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;·&nbsp;제조&nbsp;피지컬&nbsp;AI&nbsp;개발&nbsp;및&nbsp;실증사업:&nbsp;창원국가산단&nbsp;내&nbsp;AI&nbsp;파운데이션&nbsp;모델&nbsp;개발&nbsp;및&nbsp;현장&nbsp;실증&nbsp;기반&nbsp;구축<br><br>○&nbsp;이행기간<br>&nbsp;&nbsp;·&nbsp;2027년&nbsp;~&nbsp;2031년&nbsp;<br><br>○&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;·&nbsp;총&nbsp;1조원&nbsp;이상&nbsp;규모:&nbsp;이미&nbsp;확정된&nbsp;정부&nbsp;예타&nbsp;면제&nbsp;사업을&nbsp;통해&nbsp;국비,&nbsp;민간&nbsp;투자로&nbsp;사업비&nbsp;조달</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	경남 청년연금</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="경남 청년연금">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표:&nbsp;수도권으로&nbsp;이동한&nbsp;비수도권&nbsp;청년의&nbsp;소득이&nbsp;잔류&nbsp;청년보다&nbsp;약&nbsp;23%&nbsp;높게&nbsp;나타나는&nbsp;등&nbsp;지역&nbsp;간&nbsp;소득&nbsp;격차가&nbsp;청년&nbsp;유출로&nbsp;이어지고&nbsp;있음<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;-&nbsp;청년&nbsp;자산형성&nbsp;지원을&nbsp;통한&nbsp;경제적&nbsp;격차&nbsp;완화&nbsp;및&nbsp;경남&nbsp;정착을&nbsp;유도하고&nbsp;경남도에서&nbsp;경제활동을&nbsp;하는&nbsp;청년의&nbsp;미래&nbsp;준비를&nbsp;지원하고자&nbsp;함<br><br>○&nbsp;이행방법&nbsp;:&nbsp;민간&nbsp;은행&nbsp;관련&nbsp;금융상품&nbsp;개발&nbsp;및&nbsp;협약을&nbsp;통해&nbsp;사업&nbsp;추진<br><br>○&nbsp;이행기간&nbsp;:<br>&nbsp;&nbsp;-&nbsp;2026년&nbsp;하반기&nbsp;사업계획&nbsp;수립/&nbsp;2027년&nbsp;당초예산&nbsp;사업비&nbsp;편성<br>&nbsp;&nbsp;-&nbsp;2028년&nbsp;초기&nbsp;가입자&nbsp;모집&nbsp;시작<br><br>○&nbsp;재원조달방안&nbsp;등:&nbsp;1단계로&nbsp;일반예산&nbsp;및&nbsp;기금&nbsp;조성,&nbsp;2단계&nbsp;국비&nbsp;확보&nbsp;노력</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	경남 여성 HPV 접종 사업</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="경남 여성 HPV 접종 사업">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표:&nbsp;자궁경부암&nbsp;등&nbsp;부인&nbsp;관련&nbsp;암&nbsp;예방을&nbsp;위해&nbsp;HPV&nbsp;접종&nbsp;실시.&nbsp;이를&nbsp;통한&nbsp;도민의&nbsp;건강&nbsp;증진&nbsp;도모<br>&nbsp;&nbsp;<br>○&nbsp;이행방법&nbsp;:&nbsp;의료기관&nbsp;협약을&nbsp;통한&nbsp;시군별&nbsp;지정&nbsp;접종&nbsp;기관&nbsp;선정<br><br>○&nbsp;이행기간&nbsp;:<br>&nbsp;&nbsp;-&nbsp;2026년&nbsp;하반기&nbsp;사업계획&nbsp;수립/&nbsp;2027년&nbsp;당초예산&nbsp;사업비&nbsp;편성<br>&nbsp;&nbsp;-&nbsp;2027년&nbsp;하반기&nbsp;최초&nbsp;접종&nbsp;시작<br><br>○&nbsp;재원조달방안&nbsp;등:&nbsp;일반예산&nbsp;및&nbsp;기금&nbsp;조성</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

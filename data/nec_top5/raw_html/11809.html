@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;주윤식 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	농어촌 기본소득 월 15만원 지급</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="농어촌 기본소득 월 15만원 지급">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;■&nbsp;생애주기별&nbsp;기본소득&nbsp;보장&nbsp;체계를&nbsp;만들어&nbsp;지역민들이&nbsp;안정된&nbsp;삶을&nbsp;누릴수&nbsp;있는&nbsp;창녕을&nbsp;새롭게&nbsp;디자인&nbsp;함.<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;■&nbsp;헌세대&nbsp;미래세대&nbsp;간의&nbsp;공정한&nbsp;자원&nbsp;배분과&nbsp;기회의&nbsp;평등보장,&nbsp;우포늪과&nbsp;탄소중립경제정립,&nbsp;발굴,&nbsp;햇빛바람소득체재로&nbsp;지역경제의&nbsp;대전환을&nbsp;유도하겠습니다.<br><br>○&nbsp;이행기간<br>&nbsp;&nbsp;■&nbsp;2027년~&nbsp;농촌기본소득&nbsp;시범지구&nbsp;특정&nbsp;면단위&nbsp;선정<br>&nbsp;&nbsp;■&nbsp;2028년~&nbsp;월&nbsp;15만원&nbsp;농어민기본소득&nbsp;시행<br>&nbsp;&nbsp;■&nbsp;2029년~&nbsp;월&nbsp;20만원&nbsp;전군민으로&nbsp;확대<br><br>○&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;■&nbsp;정부지원&nbsp;50%<br>&nbsp;&nbsp;■&nbsp;경상남도&nbsp;20%<br>&nbsp;&nbsp;■&nbsp;창녕군&nbsp;30%</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	우포늪 국립 자연사 박물관 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="우포늪 국립 자연사 박물관 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;■&nbsp;우포는&nbsp;국내최대습지,&nbsp;그&nbsp;자체가&nbsp;거대한&nbsp;자연사&nbsp;박물관<br>&nbsp;&nbsp;■&nbsp;생태습지&nbsp;연구&nbsp;데이터베이스&nbsp;확보,&nbsp;교육학습,체험,연구,관광,휴양&nbsp;테마복합시설&nbsp;건립.<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;■&nbsp;인류습지&nbsp;자연사&nbsp;생태과학&nbsp;캠퍼스(박물관포함)<br>&nbsp;&nbsp;■&nbsp;인간과&nbsp;습지&nbsp;생활사&nbsp;캠퍼스(박물관포함)<br>&nbsp;&nbsp;■&nbsp;레지텐셜&nbsp;호텔&nbsp;유치,&nbsp;글로벌&nbsp;네트워크&nbsp;확대(미래환경산업&nbsp;컨벤션)<br>&nbsp;&nbsp;■&nbsp;유스호스텔&nbsp;300실&nbsp;건립<br><br>○&nbsp;이행기간<br>&nbsp;&nbsp;■&nbsp;2029년&nbsp;추진<br><br>○&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;■&nbsp;환경부&nbsp;50%<br>&nbsp;&nbsp;■&nbsp;경상남도&nbsp;20%<br>&nbsp;&nbsp;■&nbsp;창녕군&nbsp;10%<br>&nbsp;&nbsp;■&nbsp;민자유치&nbsp;20%</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	부곡온천 연계 낙동강 레저 휴양시설 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="부곡온천 연계 낙동강 레저 휴양시설 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;■&nbsp;치유와&nbsp;휴양&nbsp;컨텐츠&nbsp;확보<br>&nbsp;&nbsp;■&nbsp;인접대도시와의&nbsp;접근성&nbsp;개선<br>&nbsp;&nbsp;■&nbsp;이용객&nbsp;눈높이에&nbsp;맞는&nbsp;시설과&nbsp;서비스&nbsp;개선<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;■&nbsp;부곡하와이&nbsp;한국관&nbsp;글로벌&nbsp;문화예술&nbsp;공연&nbsp;시설<br>&nbsp;&nbsp;■&nbsp;온천&nbsp;폐열&nbsp;활용&nbsp;열대과일&nbsp;재배&nbsp;첨단시설<br>&nbsp;&nbsp;■&nbsp;낙동강&nbsp;스포츠레저&nbsp;타운<br>&nbsp;&nbsp;■&nbsp;부곡온천과&nbsp;인접&nbsp;대도시간&nbsp;셔틀버스&nbsp;운행<br><br>○&nbsp;이행기간<br>&nbsp;&nbsp;■&nbsp;2028년~<br><br>○&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;■&nbsp;문화체육관광부&nbsp;40%<br>&nbsp;&nbsp;■&nbsp;경상남도&nbsp;20%<br>&nbsp;&nbsp;■&nbsp;창녕군&nbsp;20%<br>&nbsp;&nbsp;■&nbsp;민자유치&nbsp;20%</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	대합 기회발전특구 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="대합 기회발전특구 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;■&nbsp;K문화&nbsp;후광을&nbsp;받는&nbsp;K-FOOD&nbsp;수출기반&nbsp;조성<br>&nbsp;&nbsp;■&nbsp;남부권&nbsp;농산물의&nbsp;유통가공단지<br>&nbsp;&nbsp;■&nbsp;피지컬&nbsp;AI&nbsp;실행단지<br>&nbsp;&nbsp;■&nbsp;귀화&nbsp;고려인&nbsp;유치와&nbsp;체류단지<br>&nbsp;&nbsp;■&nbsp;인구소멸&nbsp;해소와&nbsp;성장거점&nbsp;기반조성<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;■&nbsp;방위산업특구&nbsp;(국방벤쳐센터유치)<br>&nbsp;&nbsp;■&nbsp;친환경&nbsp;자동차,&nbsp;미래모빌리티&nbsp;소재&nbsp;부품&nbsp;산업<br>&nbsp;&nbsp;■&nbsp;탄소거래센터&nbsp;건립<br>&nbsp;&nbsp;■&nbsp;낙동강&nbsp;햇빛발전소&nbsp;자력생산<br><br>○&nbsp;이행기간<br>&nbsp;&nbsp;■&nbsp;2027년&nbsp;하반기&nbsp;:&nbsp;지구단위&nbsp;계획&nbsp;확정<br>&nbsp;&nbsp;■&nbsp;2028년~&nbsp;연차별&nbsp;착공&nbsp;및&nbsp;조성<br><br>○&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;■&nbsp;산업통상자원부&nbsp;30%<br>&nbsp;&nbsp;■&nbsp;국토부&nbsp;30%<br>&nbsp;&nbsp;■&nbsp;경상남도&nbsp;20%<br>&nbsp;&nbsp;■&nbsp;창녕군&nbsp;20%</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	2차 공공기관 이전 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="2차 공공기관 이전 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;표<br>&nbsp;&nbsp;■&nbsp;대구와&nbsp;근접해있는&nbsp;지리적&nbsp;장,단점&nbsp;극복,&nbsp;경남중북부권&nbsp;지역균형&nbsp;발전을&nbsp;위한&nbsp;미니신도시&nbsp;조성.<br>&nbsp;&nbsp;■&nbsp;국가균형&nbsp;발전에&nbsp;부합하는&nbsp;공공기관&nbsp;이전유치<br><br>○&nbsp;이행방법<br>&nbsp;&nbsp;■&nbsp;대합면&nbsp;영남산단(기회발전특구)&nbsp;이방,대합,성산&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;■&nbsp;미니신도시&nbsp;(공공기관&nbsp;이전)&nbsp;조성<br>&nbsp;&nbsp;■&nbsp;지구단위&nbsp;개발계획&nbsp;확대&nbsp;보완<br><br>○&nbsp;이행기간<br>&nbsp;&nbsp;■&nbsp;2029년~<br><br>○&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;■&nbsp;국토부&nbsp;40%<br>&nbsp;&nbsp;■&nbsp;환경부&nbsp;20%<br>&nbsp;&nbsp;■&nbsp;경상남도&nbsp;20%<br>&nbsp;&nbsp;■&nbsp;창녕군&nbsp;10%<br>&nbsp;&nbsp;■&nbsp;민간자본&nbsp;10%</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

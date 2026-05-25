@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김재웅 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	공공기관 기업유치 통합 서울사무소 운영</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="공공기관 기업유치 통합 서울사무소 운영">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;<br>&nbsp;서울사무소를&nbsp;중심으로&nbsp;투자유치&nbsp;원스톱&nbsp;TF를&nbsp;구축하여&nbsp;중앙정부·공공기관·기업을&nbsp;대상으로&nbsp;한&nbsp;상시&nbsp;투자유치&nbsp;활동을&nbsp;체계적으로&nbsp;추진하겠습니다.&nbsp;특히&nbsp;교육연수원과&nbsp;수도권&nbsp;기업&nbsp;유치를&nbsp;통해&nbsp;사람이&nbsp;오고,&nbsp;기업이&nbsp;들어오는&nbsp;구조를&nbsp;만들겠습니다.&nbsp;기업&nbsp;상담·설명·협상&nbsp;기능까지&nbsp;전담&nbsp;수행하여&nbsp;실질적인&nbsp;유치&nbsp;성과를&nbsp;만들어내겠습니다.&nbsp;성과에&nbsp;따라&nbsp;울산까지&nbsp;연계해&nbsp;권역별&nbsp;투자유치&nbsp;거점도&nbsp;확대하겠습니다.<br><br>&nbsp;&nbsp;○&nbsp;이행방법<br>-&nbsp;함양&nbsp;투자유치&nbsp;원스톱&nbsp;TF&nbsp;구축<br>-&nbsp;중앙·공공기관&nbsp;교육연수원&nbsp;유치<br>-&nbsp;수도권&nbsp;기업&nbsp;대상&nbsp;상시&nbsp;투자유치&nbsp;활동<br>-&nbsp;기업상담·설명·협상&nbsp;기능&nbsp;수행<br>-&nbsp;중앙정부·공공기관&nbsp;네트워크&nbsp;확보<br>-&nbsp;기업유치효과에&nbsp;따라&nbsp;울산고속도로&nbsp;연계&nbsp;울산사무소&nbsp;확대<br><br>&nbsp;&nbsp;○&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;2026&nbsp;~&nbsp;&nbsp;<br><br>&nbsp;&nbsp;○&nbsp;재원조달방안&nbsp;등&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;국비.&nbsp;도비.&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	함양 내륙 복합물류센터 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="함양 내륙 복합물류센터 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;<br>&nbsp;집배송·보관·중계&nbsp;기능을&nbsp;통합한&nbsp;물류거점센터를&nbsp;구축하여&nbsp;물류&nbsp;효율을&nbsp;높이고&nbsp;비용을&nbsp;획기적으로&nbsp;절감하겠습니다.&nbsp;농산물과&nbsp;일반&nbsp;화물을&nbsp;함께&nbsp;처리하는&nbsp;시스템으로&nbsp;농가의&nbsp;유통&nbsp;부담을&nbsp;줄이고&nbsp;경쟁력을&nbsp;강화하겠습니다.&nbsp;이를&nbsp;통해&nbsp;기업이&nbsp;찾아오는&nbsp;기반을&nbsp;만들고,&nbsp;일자리와&nbsp;지역경제를&nbsp;동시에&nbsp;살리겠습니다.<br><br>&nbsp;&nbsp;○&nbsp;이행방법<br>-&nbsp;내륙&nbsp;물류거점센터&nbsp;구축<br>-&nbsp;집배송·보관·중계&nbsp;기능&nbsp;통합<br>-&nbsp;농산물&nbsp;+&nbsp;일반&nbsp;화물&nbsp;공동&nbsp;처리<br>-&nbsp;지역물류비&nbsp;절감&nbsp;및　기업유치&nbsp;기반마련<br><br>&nbsp;&nbsp;○&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;2026&nbsp;~<br><br>&nbsp;&nbsp;○&nbsp;재원조달방안&nbsp;등&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;국비.&nbsp;도비.&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	농어촌 기본소득 시범사업 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="농어촌 기본소득 시범사업 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;<br>&nbsp;국비&nbsp;시범사업을&nbsp;위한&nbsp;운영전담&nbsp;TF를&nbsp;취임&nbsp;즉시&nbsp;구성하여,&nbsp;함양이&nbsp;국가&nbsp;정책의&nbsp;선도&nbsp;모델이&nbsp;되도록&nbsp;하겠습니다.&nbsp;전&nbsp;군민에게&nbsp;1인당&nbsp;15만&nbsp;원을&nbsp;지역화폐로&nbsp;지급해&nbsp;지역&nbsp;내&nbsp;소비를&nbsp;늘리고&nbsp;소상공인&nbsp;매출을&nbsp;직접&nbsp;살리겠습니다.&nbsp;이미&nbsp;남해·곡성·장수&nbsp;등에서&nbsp;유치에&nbsp;성공해,&nbsp;재정에&nbsp;큰&nbsp;부담없이&nbsp;인구증가와&nbsp;지역경제&nbsp;살리기라는&nbsp;가시적인&nbsp;효과가&nbsp;확인된&nbsp;만큼,&nbsp;함양에서도&nbsp;반드시&nbsp;유치에&nbsp;성공하도록&nbsp;하겠습니다.<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;이행방법<br>-&nbsp;국비&nbsp;시범사업&nbsp;유치&nbsp;운영전담&nbsp;TF&nbsp;즉각&nbsp;구성<br>-&nbsp;전군민&nbsp;기본소득&nbsp;지급(1인&nbsp;15만원,&nbsp;지역화폐)<br>-&nbsp;인구감소&nbsp;대응&nbsp;및&nbsp;소상공인&nbsp;매출&nbsp;직접증가<br><br>&nbsp;&nbsp;○&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;취임&nbsp;후&nbsp;즉시&nbsp;이행<br><br>&nbsp;&nbsp;○&nbsp;재원조달방안&nbsp;등&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;국비.&nbsp;도비.&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	함양형 출산 정착 패키지 도입</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="함양형 출산 정착 패키지 도입">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;<br>&nbsp;출산부터&nbsp;정착,&nbsp;돌봄까지&nbsp;이어지는&nbsp;통합&nbsp;지원으로&nbsp;첫째&nbsp;500만&nbsp;원,&nbsp;둘째&nbsp;1,200만&nbsp;원,&nbsp;셋째&nbsp;이상&nbsp;2,000만&nbsp;원을&nbsp;일시금과&nbsp;분할&nbsp;방식으로&nbsp;지원하겠습니다.&nbsp;또한&nbsp;일정&nbsp;기간&nbsp;거주&nbsp;시&nbsp;추가&nbsp;인센티브를&nbsp;제공해&nbsp;아이를&nbsp;낳고&nbsp;떠나지&nbsp;않는,&nbsp;계속&nbsp;살&nbsp;수&nbsp;있는&nbsp;정착&nbsp;구조를&nbsp;만들겠습니다.&nbsp;전남&nbsp;영광군의&nbsp;출산증가율은&nbsp;5년&nbsp;연속&nbsp;전국&nbsp;1위를&nbsp;달성했습니다.&nbsp;인근&nbsp;합천군도&nbsp;전국&nbsp;최고수준의&nbsp;출산정책을&nbsp;펼치고&nbsp;있습니다.&nbsp;저는&nbsp;우리&nbsp;함양군의&nbsp;재정여건만&nbsp;허락된다면&nbsp;이보다&nbsp;더&nbsp;많고&nbsp;적극적인&nbsp;출산&nbsp;정책을&nbsp;생각하고&nbsp;있습니다.&nbsp;결국&nbsp;인구가&nbsp;늘어나야&nbsp;함양은&nbsp;존재하게&nbsp;됩니다.<br><br>&nbsp;&nbsp;○&nbsp;이행방법<br>-&nbsp;출산·정착·돌봄을&nbsp;아우르는&nbsp;통합&nbsp;지원&nbsp;패키지<br>-&nbsp;첫째&nbsp;500만&nbsp;원,&nbsp;둘째&nbsp;1,200만&nbsp;원,&nbsp;셋째&nbsp;이상&nbsp;2,000만&nbsp;원(일시금+분할)<br>-&nbsp;3년·5년&nbsp;이상&nbsp;거주&nbsp;시&nbsp;추가&nbsp;돌봄&nbsp;인센티브를&nbsp;제공해&nbsp;정착유도<br>-&nbsp;전세자금&nbsp;이자&nbsp;지원과&nbsp;공공임대&nbsp;우선&nbsp;공급&nbsp;등&nbsp;주거&nbsp;연계&nbsp;지원<br>-&nbsp;24시간&nbsp;긴급돌봄,&nbsp;산후조리비,&nbsp;기저귀·분유&nbsp;바우처&nbsp;등&nbsp;돌봄·양육&nbsp;지원체계&nbsp;구축<br><br>&nbsp;&nbsp;○&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;2026&nbsp;~<br><br>&nbsp;&nbsp;○&nbsp;재원조달방안&nbsp;등&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;국비.&nbsp;도비.&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	함양형 노인복지체계 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="함양형 노인복지체계 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;목&nbsp;표&nbsp;<br>&nbsp;함양형&nbsp;노인복지체계는&nbsp;어르신이&nbsp;존중받고&nbsp;편안하게&nbsp;살&nbsp;수&nbsp;있는&nbsp;함양을&nbsp;만드는&nbsp;것이&nbsp;목표입니다.&nbsp;경노모당&nbsp;중식&nbsp;제공을&nbsp;통해&nbsp;어르신들의&nbsp;기본적인&nbsp;식사를&nbsp;책임지고,&nbsp;바우처택시&nbsp;확대와&nbsp;생활동행&nbsp;서비스로&nbsp;이동과&nbsp;일상을&nbsp;돕겠습니다.&nbsp;또한&nbsp;독거노인을&nbsp;위한&nbsp;소규모&nbsp;주거수리&nbsp;지원으로&nbsp;안전하고&nbsp;편안한&nbsp;생활환경을&nbsp;만들겠습니다.&nbsp;어르신이&nbsp;외롭지&nbsp;않고&nbsp;불편하지&nbsp;않은&nbsp;함양,&nbsp;노후가&nbsp;든든한&nbsp;함양을&nbsp;만들겠습니다.<br><br>&nbsp;&nbsp;○&nbsp;이행방법<br>-&nbsp;경노모당&nbsp;식사제공(중식)<br>-&nbsp;바우처택시&nbsp;횟수&nbsp;증가<br>-&nbsp;독거노인&nbsp;소규모&nbsp;집&nbsp;수리지원<br>-&nbsp;어르신&nbsp;생활동행&nbsp;바우처(시장보기,&nbsp;민원도우미등)<br><br>&nbsp;&nbsp;○&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;2026&nbsp;~<br><br>&nbsp;&nbsp;○&nbsp;재원조달방안&nbsp;등&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;국비.&nbsp;도비.&nbsp;군비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

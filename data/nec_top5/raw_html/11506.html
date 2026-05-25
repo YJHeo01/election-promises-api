@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;임명배 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	20조 원 금융 공급</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="20조 원 금융 공급">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;“돈이&nbsp;도는&nbsp;산단,&nbsp;일자리가&nbsp;넘치는&nbsp;구미”20조&nbsp;원&nbsp;금융&nbsp;공급으로&nbsp;구미&nbsp;경제의&nbsp;심장을&nbsp;다시&nbsp;뛰게&nbsp;하겠습니다.<br>&nbsp;&nbsp;○&nbsp;경제&nbsp;수혈&nbsp;:&nbsp;4년간&nbsp;총&nbsp;20조&nbsp;원&nbsp;규모&nbsp;금융&nbsp;공급으로&nbsp;기업과&nbsp;민생&nbsp;경제&nbsp;회복<br>&nbsp;&nbsp;○&nbsp;산단&nbsp;대개조&nbsp;:&nbsp;노후&nbsp;산단을&nbsp;AI·반도체&nbsp;중심의&nbsp;**‘제2의&nbsp;G밸리’**로&nbsp;재구조화<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;정주&nbsp;:&nbsp;청년이&nbsp;일하고&nbsp;싶은&nbsp;첨단&nbsp;산업&nbsp;생태계&nbsp;및&nbsp;주거·문화&nbsp;환경&nbsp;조성<br><br>□&nbsp;이행방법&nbsp;:&nbsp;금융&nbsp;근육&nbsp;행정과&nbsp;산학연&nbsp;혁신<br>&nbsp;&nbsp;○&nbsp;금융&nbsp;지원&nbsp;:&nbsp;소상공인&nbsp;특례보증&nbsp;및&nbsp;중소기업&nbsp;설비&nbsp;투자&nbsp;및&nbsp;운영자금&nbsp;집중&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;미래&nbsp;산업&nbsp;:&nbsp;AI,&nbsp;반도체,&nbsp;로봇&nbsp;등&nbsp;고부가가치&nbsp;첨단&nbsp;산업&nbsp;클러스터&nbsp;구축<br><br>□&nbsp;이행기간&nbsp;:&nbsp;4개년&nbsp;단계별&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;100일&nbsp;:‘경제&nbsp;심폐소생&nbsp;TF’&nbsp;출범&nbsp;및&nbsp;금융기관·보증기관&nbsp;협약&nbsp;체결<br>&nbsp;&nbsp;○&nbsp;1년&nbsp;이내&nbsp;:&nbsp;분야별&nbsp;금융&nbsp;지원&nbsp;개시&nbsp;및&nbsp;산학연&nbsp;협력&nbsp;프로그램&nbsp;가동<br>&nbsp;&nbsp;○&nbsp;4년&nbsp;이내&nbsp;:&nbsp;20조&nbsp;원&nbsp;금융&nbsp;공급&nbsp;체계&nbsp;완성&nbsp;및&nbsp;경제&nbsp;재도약&nbsp;기반&nbsp;구축<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정책&nbsp;금융&nbsp;:&nbsp;신용보증재단·기술보증기금&nbsp;연계&nbsp;및&nbsp;정책자금&nbsp;우선&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;민관&nbsp;협력&nbsp;:&nbsp;시중은행&nbsp;협약&nbsp;대출&nbsp;유치&nbsp;및&nbsp;민간&nbsp;투자(VC)&nbsp;적극&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;예산&nbsp;:&nbsp;국비·도비&nbsp;공모사업&nbsp;참여&nbsp;및&nbsp;시&nbsp;예산&nbsp;이차보전&nbsp;지원<br><br>“금융이&nbsp;살아야&nbsp;구미가&nbsp;삽니다.&nbsp;기업과&nbsp;시민이&nbsp;함께&nbsp;웃는&nbsp;경제,&nbsp;반드시&nbsp;만들겠습니다.”</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	구미의 이익을 시민의 통장으로 직접 연결</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="구미의 이익을 시민의 통장으로 직접 연결">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:“세대당&nbsp;연&nbsp;50만&nbsp;원&nbsp;수익&nbsp;시대”<br>&nbsp;&nbsp;○&nbsp;이익&nbsp;환수&nbsp;:&nbsp;개발&nbsp;이익의&nbsp;외부&nbsp;유출을&nbsp;방지하고&nbsp;시민에게&nbsp;직접&nbsp;배당하는&nbsp;구조확립<br>&nbsp;&nbsp;○&nbsp;자산&nbsp;형성&nbsp;:&nbsp;소액&nbsp;투자로도&nbsp;재산을&nbsp;불릴&nbsp;수&nbsp;있는&nbsp;‘시민&nbsp;부자&nbsp;도시’&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;경제&nbsp;선순환&nbsp;:&nbsp;시민의&nbsp;배당&nbsp;수익이&nbsp;지역&nbsp;내&nbsp;소비로&nbsp;이어지는&nbsp;선순환&nbsp;경제&nbsp;구축<br><br>□&nbsp;이행방법&nbsp;:&nbsp;시민&nbsp;참여형&nbsp;투자&nbsp;및&nbsp;배당<br>&nbsp;&nbsp;○&nbsp;에너지&nbsp;주권&nbsp;:&nbsp;공공부지·산단&nbsp;활용&nbsp;태양광(100MW)·풍력단지&nbsp;조성&nbsp;및&nbsp;발전&nbsp;수익&nbsp;배당<br>&nbsp;&nbsp;○&nbsp;투자&nbsp;플랫폼&nbsp;:&nbsp;토큰증권(STO)&nbsp;기반&nbsp;플랫폼&nbsp;구축으로&nbsp;산단·관광&nbsp;개발에&nbsp;소액&nbsp;참여&nbsp;기회&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;수익&nbsp;공유&nbsp;:&nbsp;운영&nbsp;수익을&nbsp;시&nbsp;예산에&nbsp;귀속시키지&nbsp;않고&nbsp;투자&nbsp;시민에게&nbsp;직접&nbsp;환원<br><br>□&nbsp;이행기간&nbsp;:&nbsp;4개년&nbsp;단계별&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;1년차&nbsp;(설계)&nbsp;:&nbsp;시민주권&nbsp;경제&nbsp;TF&nbsp;출범&nbsp;및&nbsp;투자&nbsp;플랫폼&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;2~3년차&nbsp;(구축)&nbsp;:&nbsp;디지털&nbsp;플랫폼&nbsp;개발&nbsp;완료&nbsp;및&nbsp;1호&nbsp;시민참여형&nbsp;에너지&nbsp;사업&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;4년차&nbsp;(실현)&nbsp;:&nbsp;시민&nbsp;배당&nbsp;및&nbsp;수익&nbsp;환원&nbsp;체계&nbsp;본격&nbsp;운영&nbsp;(수익금&nbsp;지급&nbsp;개시)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;재원&nbsp;:&nbsp;국비(정부&nbsp;공모사업)&nbsp;확보&nbsp;및&nbsp;시비·공기업&nbsp;공동&nbsp;출자<br>&nbsp;&nbsp;○&nbsp;민간·시민&nbsp;자본&nbsp;:&nbsp;금융권&nbsp;협약&nbsp;자금&nbsp;유치&nbsp;및&nbsp;**시민&nbsp;펀드(소액&nbsp;참여)**를&nbsp;통한&nbsp;자본&nbsp;조달<br>&nbsp;&nbsp;○&nbsp;수익&nbsp;구조&nbsp;:&nbsp;사업&nbsp;순이익을&nbsp;투자&nbsp;비율에&nbsp;따라&nbsp;시민에게&nbsp;직접&nbsp;배당하는&nbsp;독립&nbsp;체계&nbsp;구축<br><br>“구미의&nbsp;성장이&nbsp;시민의&nbsp;재산이&nbsp;되는&nbsp;시대,&nbsp;임명배가&nbsp;반드시&nbsp;약속을&nbsp;지키겠습니다.”</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	스쳐가는 도시에서 머무는 도시로!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="스쳐가는 도시에서 머무는 도시로!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;금오산·낙동강·해평국가정원을&nbsp;연결한&nbsp;체류형&nbsp;관광도시&nbsp;조성,&nbsp;철도·고속도로&nbsp;지하화를&nbsp;통한&nbsp;단절&nbsp;없는&nbsp;통합도시&nbsp;구축,&nbsp;BRT·DRT&nbsp;기반의&nbsp;구미형&nbsp;광역&nbsp;교통체계&nbsp;구축,&nbsp;골목상권&nbsp;활성화와&nbsp;시민&nbsp;삶의&nbsp;질&nbsp;향상<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;관광&nbsp;혁신&nbsp;:&nbsp;금오산&nbsp;케이블카&nbsp;추진,&nbsp;낙동강&nbsp;수변&nbsp;야간관광&nbsp;및&nbsp;문화콘텐츠&nbsp;개발,&nbsp;해평&nbsp;국가정원&nbsp;연계&nbsp;관광벨트&nbsp;구축,&nbsp;체류형&nbsp;숙박·먹거리·축제&nbsp;산업&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;도심&nbsp;연결&nbsp;혁신&nbsp;:&nbsp;철도&nbsp;및&nbsp;고속도로&nbsp;단계적&nbsp;지하화&nbsp;추진,&nbsp;상부&nbsp;공간&nbsp;공원·산책로·문화광장&nbsp;조성,&nbsp;단절된&nbsp;생활권&nbsp;및&nbsp;상권&nbsp;연결,&nbsp;녹지축&nbsp;복원&nbsp;및&nbsp;도시경관&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;교통&nbsp;혁신&nbsp;:&nbsp;&nbsp;BRT(광역급행버스)&nbsp;도입,&nbsp;DRT(수요응답형&nbsp;버스)&nbsp;확대,&nbsp;구미형&nbsp;통합교통공사&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;어르신·청년&nbsp;단계적&nbsp;무료교통&nbsp;시행&nbsp;취임&nbsp;후&nbsp;100일&nbsp;:&nbsp;도시·교통&nbsp;혁신&nbsp;TF&nbsp;출범<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년)&nbsp;:&nbsp;BRT·DRT&nbsp;시범사업&nbsp;추진,&nbsp;관광&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;국가사업&nbsp;협의&nbsp;착수,&nbsp;낙동강&nbsp;관광·야간&nbsp;콘텐츠&nbsp;우선&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;중기(3~5년)&nbsp;:&nbsp;철도·도로&nbsp;지하화&nbsp;국가계획&nbsp;반영&nbsp;추진,&nbsp;금오산&nbsp;관광&nbsp;인프라&nbsp;구축,&nbsp;통합&nbsp;교통체계&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;장기(5년&nbsp;이상)&nbsp;:&nbsp;지하화&nbsp;상부&nbsp;공원·문화공간&nbsp;완성,&nbsp;체류형&nbsp;관광도시&nbsp;기반&nbsp;완성,&nbsp;구미&nbsp;전역&nbsp;20분&nbsp;생활권&nbsp;실현<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국가재정&nbsp;확보&nbsp;:&nbsp;국토교통부·환경부·문화체육관광부&nbsp;국가사업&nbsp;연계,&nbsp;도시재생·광역교통·국가정원&nbsp;사업&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;투자&nbsp;유치&nbsp;:&nbsp;관광·상업&nbsp;복합개발&nbsp;민간&nbsp;참여&nbsp;확대,&nbsp;수변관광&nbsp;및&nbsp;복합개발투자&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;공공재원&nbsp;활용&nbsp;:&nbsp;지방채&nbsp;및&nbsp;도시개발기금&nbsp;활용,&nbsp;공공기관&nbsp;협력&nbsp;및&nbsp;정책금융&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;운영&nbsp;효율화&nbsp;:&nbsp;구미형&nbsp;교통공사&nbsp;설립을&nbsp;통한&nbsp;운영&nbsp;효율&nbsp;개선,&nbsp;교통·관광&nbsp;수익재투자&nbsp;구조&nbsp;구축&nbsp;공공&nbsp;민간&nbsp;재원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	대구 안 가도 되는 구미, 삶과 일자리가 바뀝니다</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="대구 안 가도 되는 구미, 삶과 일자리가 바뀝니다">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;교육&nbsp;자립&nbsp;및&nbsp;청년&nbsp;정주&nbsp;도시&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;자생력&nbsp;강화&nbsp;:&nbsp;교육·의료·일자리를&nbsp;구미&nbsp;안에서&nbsp;완결하여&nbsp;인구&nbsp;유출&nbsp;방지.<br>&nbsp;&nbsp;○&nbsp;미래&nbsp;선점&nbsp;:&nbsp;반도체·AI&nbsp;산업&nbsp;인재&nbsp;양성으로&nbsp;기업&nbsp;성장과&nbsp;일자리&nbsp;동시&nbsp;해결.<br><br>□&nbsp;이행방법&nbsp;:&nbsp;민생·교육·산업&nbsp;3대&nbsp;혁신<br>&nbsp;&nbsp;○&nbsp;민생&nbsp;:&nbsp;대학병원급&nbsp;의료기관&nbsp;유치,&nbsp;24시간&nbsp;공공&nbsp;돌봄&nbsp;확대,&nbsp;청년&nbsp;공공주택&nbsp;보급.<br>&nbsp;&nbsp;○&nbsp;교육&nbsp;:&nbsp;국제고&nbsp;유치,&nbsp;패션·디자인(S모드)&nbsp;스쿨&nbsp;설립,&nbsp;사교육비&nbsp;절감&nbsp;공교육&nbsp;혁신.<br>&nbsp;&nbsp;○&nbsp;산업&nbsp;:&nbsp;대학-기업-연구소&nbsp;연결&nbsp;‘BIRD&nbsp;프로그램’&nbsp;가동&nbsp;및&nbsp;반도체·AI&nbsp;실무&nbsp;교육.<br><br>□&nbsp;이행기간&nbsp;:&nbsp;100일의&nbsp;실행,&nbsp;4년의&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;즉시&nbsp;(100일)&nbsp;:&nbsp;교육·산업&nbsp;혁신&nbsp;TF&nbsp;출범&nbsp;및&nbsp;대학병원&nbsp;유치&nbsp;위원회&nbsp;구성.<br>&nbsp;&nbsp;○&nbsp;중기&nbsp;(2년)&nbsp;:&nbsp;BIRD&nbsp;프로그램&nbsp;운영,&nbsp;특성화&nbsp;교육&nbsp;및&nbsp;돌봄&nbsp;센터&nbsp;거점&nbsp;확충.<br>&nbsp;&nbsp;○&nbsp;완성&nbsp;(4년)&nbsp;:&nbsp;미래인재&nbsp;도시&nbsp;인프라&nbsp;완공&nbsp;및&nbsp;정주&nbsp;모델&nbsp;정착.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;정부예산&nbsp;:&nbsp;교육발전특구·산학융합지구&nbsp;등&nbsp;교육부&nbsp;및&nbsp;산업부&nbsp;공모사업&nbsp;국비&nbsp;확보.<br>&nbsp;&nbsp;○&nbsp;민간재원&nbsp;:&nbsp;기업의&nbsp;산학협력&nbsp;투자&nbsp;유도&nbsp;및&nbsp;정책금융&nbsp;연계&nbsp;지원.<br><br>“이사&nbsp;고민&nbsp;없는&nbsp;구미,&nbsp;청년의&nbsp;꿈이&nbsp;일자리가&nbsp;되는&nbsp;구미!&nbsp;&nbsp;임명배가&nbsp;반드시&nbsp;만듭니다.”</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	구미 스마트 농산업·복지 혁신 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="구미 스마트 농산업·복지 혁신 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;:&nbsp;돈&nbsp;버는&nbsp;농업,&nbsp;돌보는&nbsp;농촌<br>&nbsp;&nbsp;○&nbsp;농가&nbsp;실질&nbsp;소득&nbsp;증대&nbsp;:&nbsp;원물&nbsp;판매에서&nbsp;가공·유통&nbsp;중심의&nbsp;고부가가치&nbsp;산업&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;농촌&nbsp;활력&nbsp;제고&nbsp;:&nbsp;스마트&nbsp;농업&nbsp;도입으로&nbsp;고령화&nbsp;및&nbsp;일력&nbsp;부족&nbsp;문제&nbsp;해결<br>&nbsp;&nbsp;○&nbsp;민생&nbsp;복지&nbsp;실현&nbsp;:&nbsp;지역&nbsp;농산물과&nbsp;연계한&nbsp;어르신&nbsp;건강급식&nbsp;및&nbsp;안심돌봄&nbsp;완성<br><br>□&nbsp;이행방법&nbsp;:&nbsp;3대&nbsp;혁신&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;제조·가공&nbsp;:&nbsp;지역별&nbsp;거점&nbsp;'스마트&nbsp;농산물&nbsp;제조공장'&nbsp;구축&nbsp;(밀키트,&nbsp;HMR&nbsp;개발)<br>&nbsp;&nbsp;○&nbsp;유통·물류&nbsp;:&nbsp;구미시&nbsp;전담&nbsp;AI&nbsp;물류&nbsp;시스템&nbsp;및&nbsp;새벽배송·직거래망&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;특화·복지&nbsp;:&nbsp;선산(멜론),&nbsp;해평·도개(쌀),&nbsp;장천(감자)&nbsp;등&nbsp;지역별&nbsp;특화&nbsp;브랜드&nbsp;육성&nbsp;및&nbsp;경로당&nbsp;건강급식&nbsp;지원<br><br>□&nbsp;이행기간&nbsp;:&nbsp;4개년&nbsp;단계별&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;1년차&nbsp;(기반&nbsp;조성)&nbsp;:&nbsp;스마트&nbsp;농산업&nbsp;TF&nbsp;출범&nbsp;및&nbsp;제조·물류&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;2년차&nbsp;(시행)&nbsp;:&nbsp;거점별&nbsp;스마트&nbsp;제조공장&nbsp;및&nbsp;AI&nbsp;물류센터&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;3년차&nbsp;(확산)&nbsp;:&nbsp;지역별&nbsp;특화&nbsp;단지&nbsp;조성&nbsp;및&nbsp;어르신&nbsp;건강급식&nbsp;전면&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;4년차&nbsp;(완성)&nbsp;:&nbsp;농산업·복지&nbsp;선순환&nbsp;체계&nbsp;완성&nbsp;및&nbsp;글로벌&nbsp;수출&nbsp;판로&nbsp;안착<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;재원&nbsp;:&nbsp;국비(농식품부&nbsp;스마트농업&nbsp;공모사업)&nbsp;+&nbsp;도비·시비&nbsp;매칭&nbsp;펀드&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;투자&nbsp;:&nbsp;식품&nbsp;가공&nbsp;및&nbsp;물류&nbsp;대기업&nbsp;유치,&nbsp;금융기관&nbsp;협력을&nbsp;통한&nbsp;민간자본&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;운영&nbsp;수익&nbsp;:&nbsp;가공&nbsp;상품&nbsp;판매&nbsp;수익&nbsp;및&nbsp;유통&nbsp;수수료&nbsp;절감을&nbsp;통한&nbsp;재투자&nbsp;재원&nbsp;확보<br><br>“체계적인&nbsp;계획과&nbsp;확실한&nbsp;재원&nbsp;마련으로&nbsp;구미&nbsp;농업의&nbsp;미래를&nbsp;책임지겠습니다.”</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

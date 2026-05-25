@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;강석주 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	시민 1인당 33만원 민생지원금 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="시민 1인당 33만원 민생지원금 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;경기침체와&nbsp;물가상승&nbsp;장기화로&nbsp;시민들의&nbsp;생활비&nbsp;부담이&nbsp;커지고&nbsp;있으며,&nbsp;특히&nbsp;식료품·외식비·교육비·교통비&nbsp;등&nbsp;일상생활에&nbsp;필요한&nbsp;지출&nbsp;압박&nbsp;증대<br>&nbsp;&nbsp;○&nbsp;통영의&nbsp;전통시장,&nbsp;골목상권,&nbsp;소상공인&nbsp;매출&nbsp;역시&nbsp;소비&nbsp;위축의&nbsp;영향을&nbsp;직접&nbsp;받고&nbsp;있어&nbsp;시민&nbsp;생활&nbsp;안정과&nbsp;지역경제&nbsp;회복을&nbsp;동시에&nbsp;해소할&nbsp;수&nbsp;있는&nbsp;직접&nbsp;지원&nbsp;정책&nbsp;필요<br>&nbsp;&nbsp;○&nbsp;통영시도&nbsp;시민&nbsp;1인당&nbsp;33만원&nbsp;민생지원금을&nbsp;통영사랑상품권&nbsp;또는&nbsp;지역화폐&nbsp;방식으로&nbsp;지급할&nbsp;경우&nbsp;▲가계&nbsp;부담&nbsp;완화&nbsp;▲전통시장·골목상권&nbsp;매출&nbsp;회복&nbsp;▲소비&nbsp;진작&nbsp;▲지역경제&nbsp;선순환&nbsp;효과&nbsp;기대<br>&nbsp;&nbsp;<br>[&nbsp;타&nbsp;기초자치단체&nbsp;사례&nbsp;]<br>·&nbsp;(전북&nbsp;완주군)&nbsp;2025년&nbsp;전&nbsp;군민에게&nbsp;1인당&nbsp;30만원의&nbsp;민생안정지원금을&nbsp;완주사랑&nbsp;선불카드로&nbsp;지급<br>·&nbsp;(경기&nbsp;파주시)&nbsp;전&nbsp;시민에게&nbsp;1인당&nbsp;10만원을&nbsp;파주페이로&nbsp;지급하는&nbsp;방식으로&nbsp;지역&nbsp;내&nbsp;소비&nbsp;진작&nbsp;정책을&nbsp;시행<br>☞&nbsp;현금성&nbsp;지원이&nbsp;아닌&nbsp;지역화폐형&nbsp;지급을&nbsp;통해&nbsp;생활안정과&nbsp;지역상권&nbsp;활성화를&nbsp;함께&nbsp;도모<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;통영시&nbsp;전&nbsp;시민&nbsp;대상&nbsp;1인당&nbsp;33만원&nbsp;민생지원금&nbsp;지급&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(주요내용)&nbsp;지급&nbsp;기준일을&nbsp;정해&nbsp;대상자를&nbsp;확정하고,&nbsp;통영사랑상품권·선불카드·모바일&nbsp;지역화폐&nbsp;등&nbsp;지역&nbsp;내&nbsp;사용이&nbsp;가능한&nbsp;방식으로&nbsp;지급<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(추진방식)&nbsp;관련&nbsp;조례&nbsp;정비&nbsp;및&nbsp;추경예산&nbsp;편성을&nbsp;통해&nbsp;신속&nbsp;집행하고,&nbsp;읍·면·동&nbsp;행정복지센터와&nbsp;연계한&nbsp;현장&nbsp;신청체계&nbsp;운영<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;내&nbsp;<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원조달&nbsp;:&nbsp;통영시비,&nbsp;재정안정화기금&nbsp;활용&nbsp;검토,&nbsp;추경예산&nbsp;편성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	한산대첩교 조기착공 및 통영KTX 임기내 개통</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="한산대첩교 조기착공 및 통영KTX 임기내 개통">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;이재명정부&nbsp;출범&nbsp;이후&nbsp;잘사는&nbsp;지방시대를&nbsp;위한&nbsp;남부&nbsp;내륙철도&nbsp;개통에&nbsp;박차를&nbsp;가하고&nbsp;있음<br>&nbsp;&nbsp;&nbsp;&nbsp;-지난&nbsp;2월&nbsp;종착지인&nbsp;남부내륙철도의&nbsp;종착역인&nbsp;거제에서&nbsp;착공식이&nbsp;열림,&nbsp;이재명&nbsp;대통령은&nbsp;임기&nbsp;내&nbsp;개통을&nbsp;약속(2030년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-거제시와&nbsp;통영시를&nbsp;연결하는&nbsp;국도&nbsp;5호선&nbsp;해상구간은&nbsp;일명&nbsp;'한산대첩교'는&nbsp;국도&nbsp;5호선&nbsp;기점인&nbsp;통영시&nbsp;도남동∼한산도∼거제시&nbsp;동부면&nbsp;가배&nbsp;구간&nbsp;10.1㎞&nbsp;구간에&nbsp;걸쳐&nbsp;해상교량&nbsp;2개를&nbsp;포함해&nbsp;왕복&nbsp;2차선&nbsp;도로를&nbsp;내는&nbsp;사업으로&nbsp;기재부&nbsp;일괄예비타당성&nbsp;대상에&nbsp;선정<br>&nbsp;&nbsp;○&nbsp;한산대첩교&nbsp;조기착공&nbsp;및&nbsp;임기내&nbsp;남부내륙철도&nbsp;교통개통&nbsp;▲수도권&nbsp;접근성&nbsp;반나절(2시간30분)&nbsp;&nbsp;▲초&nbsp;광역권&nbsp;성장의&nbsp;인프라&nbsp;구축&nbsp;▲&nbsp;고속철과&nbsp;트램,&nbsp;수요응답형&nbsp;선박과&nbsp;함께&nbsp;차세대&nbsp;관광형&nbsp;MaSS&nbsp;구축<br><br>·&nbsp;이재명정부&nbsp;123대&nbsp;국정과제&nbsp;/&nbsp;39.&nbsp;교통혁신&nbsp;인프라&nbsp;확충<br>수도권&nbsp;GTX의&nbsp;차질&nbsp;없는&nbsp;추진과&nbsp;더불어,&nbsp;지방&nbsp;메가시티를&nbsp;잇는&nbsp;광역철도망&nbsp;확충을&nbsp;다룹니다.&nbsp;전국을&nbsp;2시간&nbsp;생활권으로&nbsp;묶는&nbsp;고속철도망&nbsp;확대<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;예비타당성&nbsp;조사&nbsp;면제&nbsp;추진:&nbsp;관광&nbsp;혁신과&nbsp;지역&nbsp;균형&nbsp;발전이라는&nbsp;국정&nbsp;기조에&nbsp;맞춰&nbsp;국가&nbsp;정책적&nbsp;사업으로&nbsp;분류,&nbsp;예타&nbsp;면제를&nbsp;통해&nbsp;사업&nbsp;기간을&nbsp;2~3년&nbsp;이상&nbsp;단축하는&nbsp;방안을&nbsp;검토<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;이행기간&nbsp;:&nbsp;2026년~2030년&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원조달&nbsp;:&nbsp;국·도·시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	친환경 스마트 선박 클러스터 조성(안정산단)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="친환경 스마트 선박 클러스터 조성(안정산단)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;조선&nbsp;및&nbsp;조선기자재&nbsp;중심으로&nbsp;발전한&nbsp;안정국가산업단지는&nbsp;2015년&nbsp;전후&nbsp;조선산업&nbsp;장기&nbsp;침체를&nbsp;겪으며&nbsp;통영의&nbsp;대표&nbsp;조선소인&nbsp;성동조선해양이&nbsp;법정관리(기업회생절차)에&nbsp;들어가자&nbsp;산단&nbsp;내부&nbsp;생산활동은&nbsp;물론&nbsp;협력업체,&nbsp;주변&nbsp;상권까지&nbsp;연쇄적으로&nbsp;위축<br>&nbsp;&nbsp;○&nbsp;조선업&nbsp;불황에&nbsp;따른&nbsp;통영시&nbsp;지역경제의&nbsp;위기를&nbsp;다시&nbsp;겪지&nbsp;않기&nbsp;위하여&nbsp;안정국가산업단지의&nbsp;산업구조를&nbsp;다변화&nbsp;시키는&nbsp;고도화가&nbsp;필요<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(중소형&nbsp;선박&nbsp;조선의&nbsp;메카)&nbsp;조선기자재&nbsp;전문생산기지인&nbsp;안정국가산업단지&nbsp;내외로&nbsp;조선&nbsp;관련&nbsp;기업과&nbsp;생산&nbsp;인프라가&nbsp;집적된&nbsp;통영은&nbsp;중소형&nbsp;선박&nbsp;조선을&nbsp;위한&nbsp;현장&nbsp;기반을&nbsp;갖추고&nbsp;있음<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(친환경&nbsp;선박·에너지&nbsp;클러스터&nbsp;조성)&nbsp;국가&nbsp;정책과&nbsp;시장&nbsp;방향이&nbsp;친환경&nbsp;선박&nbsp;쪽으로&nbsp;빠르게&nbsp;이동&nbsp;중으로&nbsp;전통적인&nbsp;조선업&nbsp;활성화&nbsp;역사와&nbsp;인프라를&nbsp;기반으로&nbsp;친환경&nbsp;선박&nbsp;및&nbsp;에너지&nbsp;산업(기업)&nbsp;유치에&nbsp;유리<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(대기업&nbsp;자율운항&nbsp;기술개발센터&nbsp;유치)&nbsp;삼성중공업과&nbsp;HD현대중공업&nbsp;등&nbsp;대기업&nbsp;조선사들은&nbsp;미래&nbsp;먹거리로&nbsp;자율운항&nbsp;등&nbsp;스마트&nbsp;선박&nbsp;기술개발에&nbsp;적극&nbsp;투자&nbsp;중으로&nbsp;개발중인&nbsp;기술을&nbsp;바로&nbsp;확인(실험)할&nbsp;수&nbsp;있는&nbsp;실증&nbsp;지역을&nbsp;확보하는&nbsp;것이&nbsp;필수적으로&nbsp;섬과&nbsp;중소형&nbsp;선박이&nbsp;많은&nbsp;통영은&nbsp;최고의&nbsp;입지조건을&nbsp;보유&nbsp;<br><br>·&nbsp;이재명정부&nbsp;123대&nbsp;국정과제&nbsp;/&nbsp;56.&nbsp;북극항로&nbsp;시대를&nbsp;주도하는&nbsp;K-해양강국&nbsp;건설<br>(K-조선업&nbsp;도약)&nbsp;‘완전’&nbsp;자율운항선박,&nbsp;무탄소&nbsp;선박,&nbsp;스마트·자동화&nbsp;등&nbsp;기술을&nbsp;개발하고,&nbsp;중소조선사&nbsp;지원&nbsp;및&nbsp;美&nbsp;선박·함정&nbsp;유지·보수·운영&nbsp;등&nbsp;신시장&nbsp;개척<br>(해운&nbsp;경쟁력&nbsp;제고)&nbsp;친환경&nbsp;선박&nbsp;중심으로&nbsp;국가수송력을&nbsp;확충하고,&nbsp;국적선사&nbsp;경영안정,&nbsp;이용률&nbsp;제고&nbsp;등을&nbsp;지원하며,&nbsp;선원&nbsp;육성&nbsp;및&nbsp;매력도&nbsp;제고<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;「노후거점산업단지&nbsp;경쟁력강화사업지구」선정&nbsp;△(주요내용)&nbsp;국토교통부·산업통상자원부&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;‘노후거점산업단지&nbsp;경쟁력강화추진위원회’를&nbsp;통한&nbsp;「노후거점산업단지&nbsp;경쟁력강화사업지구」선정으로&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;이행기간&nbsp;:&nbsp;2026년~2030년&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원조달&nbsp;:&nbsp;국·도·시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	대학등록금 전액지원+ 학생기본소득+ 저소득 대학생 생활비 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="대학등록금 전액지원+ 학생기본소득+ 저소득 대학생 생활비 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;통영시는&nbsp;인재육성기금을&nbsp;조성&nbsp;통영의&nbsp;학생&nbsp;전원에게&nbsp;대학등록금을&nbsp;지원하고&nbsp;있음&nbsp;<br>&nbsp;&nbsp;○&nbsp;지방소멸&nbsp;시대에&nbsp;지역의&nbsp;교육환경은&nbsp;상대적으로&nbsp;더욱&nbsp;열악해지고&nbsp;있음.&nbsp;이로&nbsp;인해&nbsp;인구의&nbsp;유출은&nbsp;더욱&nbsp;심해지고&nbsp;교육인프라는&nbsp;부족해지는&nbsp;악순환의&nbsp;고리에&nbsp;놓여&nbsp;있음<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전남의&nbsp;경우&nbsp;학생기본소득을&nbsp;도입하여&nbsp;학생들의&nbsp;교육환경을&nbsp;개선&nbsp;함으로써&nbsp;인구의&nbsp;유출을&nbsp;막고&nbsp;인구&nbsp;유입의&nbsp;기제로&nbsp;작용하고&nbsp;있음<br>&nbsp;&nbsp;○&nbsp;통영형&nbsp;학생기본소득을&nbsp;추진하여&nbsp;&nbsp;▲교복여벌&nbsp;지원,&nbsp;▲문화생활&nbsp;지원,&nbsp;▲초.중.고&nbsp;진학생&nbsp;대상&nbsp;입학준비금&nbsp;1인당&nbsp;50만원&nbsp;지원,&nbsp;▲진학컨설팅&nbsp;지원&nbsp;▲참고서&nbsp;지원,&nbsp;▲온라인&nbsp;강의&nbsp;등을&nbsp;지원함으로써&nbsp;통영의&nbsp;교육환경을&nbsp;개선할&nbsp;것으로&nbsp;기대&nbsp;<br>&nbsp;&nbsp;○&nbsp;또한&nbsp;저소득층&nbsp;대학생을&nbsp;대상으로&nbsp;생활비까지&nbsp;지원&nbsp;함으로써&nbsp;통영시는&nbsp;아이가&nbsp;성인이&nbsp;되어&nbsp;사회에&nbsp;나갈떄까지&nbsp;케어하는&nbsp;도시로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>·&nbsp;이재명정부&nbsp;123대&nbsp;국정과제&nbsp;/&nbsp;77.&nbsp;기본적&nbsp;삶을&nbsp;위한&nbsp;안전망&nbsp;강화<br>(기본사회&nbsp;추진체계&nbsp;마련)&nbsp;헌법상&nbsp;행복추구권&nbsp;실현을&nbsp;위해&nbsp;국민의&nbsp;기본적&nbsp;삶&nbsp;보장을&nbsp;지향하는&nbsp;기본사회의&nbsp;법적·제도적&nbsp;기반&nbsp;및&nbsp;추진체계&nbsp;마련<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;통영시&nbsp;청소년&nbsp;대상&nbsp;매달&nbsp;10만원의&nbsp;학생기본소득을&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;통영시&nbsp;초.중.고&nbsp;진학생&nbsp;대상&nbsp;입학준비금&nbsp;1인당&nbsp;50만원&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(입학준비금.&nbsp;진학컨설팅,&nbsp;교복,&nbsp;참고서,&nbsp;문화생활,&nbsp;온라인강의&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;저소득&nbsp;대학생&nbsp;생활비&nbsp;지원&nbsp;학기별&nbsp;30만원&nbsp;지원<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;이행기간&nbsp;:&nbsp;2026년~<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원조달&nbsp;:&nbsp;도·시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	신아조선소 부지 컨벤션형 LH연수원 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="신아조선소 부지 컨벤션형 LH연수원 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;옛&nbsp;신아조선소&nbsp;부지는&nbsp;경제기반형&nbsp;도시재생을&nbsp;진행하였지만,&nbsp;환경정화&nbsp;문제와&nbsp;더딘&nbsp;사업진행으로&nbsp;여전히&nbsp;슬럼화&nbsp;되어&nbsp;있음<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이&nbsp;부지를&nbsp;활용&nbsp;컨벤션형&nbsp;LH연수원을&nbsp;유치하여&nbsp;미륵도&nbsp;일대의&nbsp;경제기반을&nbsp;다시&nbsp;조성하여&nbsp;지역&nbsp;경제의&nbsp;동력을&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;컨벤션형&nbsp;LH연수원을&nbsp;옛&nbsp;신아조선소&nbsp;부지에&nbsp;유치하여&nbsp;&nbsp;▲LH직원&nbsp;연수,&nbsp;▲대규모&nbsp;컨벤션&nbsp;유치,&nbsp;▲숙박시설&nbsp;확대를&nbsp;통한&nbsp;전지훈련&nbsp;인프라&nbsp;확대,&nbsp;▲단체(학생,&nbsp;기관,&nbsp;지자체)&nbsp;연수&nbsp;및&nbsp;워크숍&nbsp;관광&nbsp;확대를&nbsp;통한&nbsp;지역경제&nbsp;활성화&nbsp;도모<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>·&nbsp;이재명정부&nbsp;123대&nbsp;국정과제&nbsp;/&nbsp;107.&nbsp;도시재생&nbsp;뉴딜의&nbsp;고도화와&nbsp;주거복지&nbsp;강화<br>(보존&nbsp;중심에서&nbsp;거점개발)&nbsp;'경제적&nbsp;실효성'과&nbsp;'거점&nbsp;개발'을&nbsp;결합하여&nbsp;쇠퇴한&nbsp;도심에&nbsp;실질적인&nbsp;활력을&nbsp;불어넣는&nbsp;것을&nbsp;지원<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;옛&nbsp;신아조선소&nbsp;부지를&nbsp;활용&nbsp;컨벤션형&nbsp;LH연수원&nbsp;조성<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;이행기간&nbsp;:&nbsp;2026년~<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원조달&nbsp;:&nbsp;LH기금</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

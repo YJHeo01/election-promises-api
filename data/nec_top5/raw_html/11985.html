@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;신상진 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	재건축·재개발 직접 지원 2조 원 및 10조 원 기금 조성 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="재건축·재개발 직접 지원 2조 원 및 10조 원 기금 조성 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;ㅇ&nbsp;1기&nbsp;신도시와&nbsp;원도심&nbsp;통합개발을&nbsp;통한&nbsp;쾌적한&nbsp;주거환경&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;분담금·금리&nbsp;부담&nbsp;완화로&nbsp;시민&nbsp;재산권&nbsp;보호&nbsp;및&nbsp;정비사업&nbsp;문턱&nbsp;완화<br>&nbsp;&nbsp;ㅇ&nbsp;총&nbsp;10조&nbsp;원&nbsp;규모의&nbsp;전방위&nbsp;금융&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시&nbsp;재정&nbsp;2조&nbsp;원을&nbsp;마중물로&nbsp;민간&nbsp;금융&nbsp;및&nbsp;간접&nbsp;지원&nbsp;결합&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;ㅇ&nbsp;특별회계&nbsp;신설&nbsp;및&nbsp;인프라&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘노후계획도시정비&nbsp;특별회계’&nbsp;신설&nbsp;및&nbsp;시&nbsp;재정&nbsp;직접&nbsp;투입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도로,&nbsp;상·하수도&nbsp;등&nbsp;필수&nbsp;인프라&nbsp;및&nbsp;학급&nbsp;증설비&nbsp;등&nbsp;5조&nbsp;원&nbsp;규모&nbsp;간접&nbsp;지원&nbsp;연계&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;이주금융&nbsp;및&nbsp;초기&nbsp;비용&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이주금융&nbsp;:&nbsp;6,568억&nbsp;원의&nbsp;이자지원&nbsp;→&nbsp;이주비&nbsp;및&nbsp;세입자&nbsp;보상&nbsp;부담&nbsp;경감<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;초기비용&nbsp;:&nbsp;정비계획용역비&nbsp;등&nbsp;842억&nbsp;선제&nbsp;지원&nbsp;→&nbsp;사업&nbsp;동력&nbsp;확보&nbsp;<br>&nbsp;&nbsp;ㅇ&nbsp;사업성&nbsp;및&nbsp;행정속도&nbsp;극대화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합인가&nbsp;도입:&nbsp;건축·교통·교육&nbsp;심의&nbsp;동시&nbsp;처리&nbsp;→&nbsp;사업&nbsp;기간&nbsp;단축&nbsp;및&nbsp;비용&nbsp;절감<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;규제&nbsp;완화:&nbsp;용적률&nbsp;산정&nbsp;방식&nbsp;재검토&nbsp;및&nbsp;공공기여&nbsp;부담&nbsp;완화&nbsp;추진&nbsp;→&nbsp;사업성&nbsp;극대화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;2027~2040년(단계적&nbsp;집행)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단계(2027-2030):&nbsp;선도지구&nbsp;및&nbsp;원도심&nbsp;긴급&nbsp;구역&nbsp;우선&nbsp;지원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2단계(2031-2040):&nbsp;구역별&nbsp;순차적&nbsp;지원확대&nbsp;및&nbsp;이주&nbsp;대책&nbsp;안정적&nbsp;운영<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;ㅇ&nbsp;공공&nbsp;재원&nbsp;투입:&nbsp;자체예산&nbsp;2조원을&nbsp;핵심재원으로&nbsp;편성(일반회계&nbsp;및&nbsp;정비기금&nbsp;활용)<br>&nbsp;&nbsp;ㅇ&nbsp;민간&nbsp;금융&nbsp;협력:&nbsp;시&nbsp;이차보전&nbsp;연계&nbsp;민간&nbsp;저리&nbsp;융자&nbsp;유도(총&nbsp;10조&nbsp;효과)<br>&nbsp;&nbsp;ㅇ&nbsp;선순환&nbsp;구조:&nbsp;개발이익&nbsp;및&nbsp;공공기여금을&nbsp;특별회계로&nbsp;환원&nbsp;→&nbsp;지속&nbsp;가능한&nbsp;지원&nbsp;기반&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	성남 글로벌 첨단산업 다이아몬드형 벨트 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="성남 글로벌 첨단산업 다이아몬드형 벨트 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;ㅇ&nbsp;연&nbsp;매출&nbsp;500조&nbsp;성남&nbsp;시대&nbsp;개막<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;“대한민국&nbsp;경제의&nbsp;심장,&nbsp;성남을&nbsp;첨단&nbsp;산업의&nbsp;메카로&nbsp;만들겠습니다”<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI·반도체·바이오&nbsp;등&nbsp;미래&nbsp;산업&nbsp;유치로&nbsp;글로벌&nbsp;경제&nbsp;도시&nbsp;도약<br><br>□&nbsp;이행방법&nbsp;(다이아몬드&nbsp;벨트&nbsp;구축)<br>&nbsp;&nbsp;ㅇ&nbsp;권역별&nbsp;첨단&nbsp;산업&nbsp;연결:&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&lt;성남&nbsp;위례&nbsp;포스코>-&lt;시흥동&nbsp;LIG넥스원&nbsp;방위산업단지>-&lt;판교(1·2·3테크노밸리)>-&lt;백현&nbsp;마이스>-&lt;오리역&nbsp;4테크노밸리>-&lt;정자&nbsp;바이오클러스터>-&lt;야탑&nbsp;첨단산업단지>-&lt;상대원&nbsp;하이테크밸리>를&nbsp;잇는&nbsp;다이아몬드형&nbsp;첨단산업&nbsp;벨트&nbsp;완성<br>&nbsp;&nbsp;ㅇ&nbsp;핵심&nbsp;거점&nbsp;개발:<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;위례&nbsp;포스코&nbsp;글로벌&nbsp;센터(10년간&nbsp;16조&nbsp;파급효과)&nbsp;완수<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;LIG&nbsp;넥스원&nbsp;방산&nbsp;R&D&nbsp;단지&nbsp;조성&nbsp;및&nbsp;야탑밸리&nbsp;도시첨단산단&nbsp;구축<br>&nbsp;&nbsp;ㅇ&nbsp;오리역세권&nbsp;혁신:&nbsp;시&nbsp;직접&nbsp;개발&nbsp;방식을&nbsp;통한&nbsp;제4테크노밸리&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;2040년&nbsp;완성&nbsp;목표&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기&nbsp;시행&nbsp;중인&nbsp;판교&nbsp;테크노밸리와&nbsp;연계,&nbsp;오리역세권&nbsp;등&nbsp;단계적&nbsp;추진<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;ㅇ&nbsp;공공·민간&nbsp;협력&nbsp;모델:&nbsp;LH,&nbsp;경기도,&nbsp;성남시&nbsp;등&nbsp;공공기관과&nbsp;민간사업자&nbsp;공동&nbsp;참여<br>&nbsp;&nbsp;ㅇ&nbsp;복합&nbsp;개발&nbsp;방식:&nbsp;택지개발지구,&nbsp;도시첨단산업단지&nbsp;등&nbsp;다양한&nbsp;사업방식&nbsp;활용&nbsp;→&nbsp;효율적&nbsp;재원&nbsp;운용&nbsp;및&nbsp;인프라&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	청년 기초자산 쌓기 5종 세트(청년 미래 희망 프로젝트)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="청년 기초자산 쌓기 5종 세트(청년 미래 희망 프로젝트)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;ㅇ&nbsp;미래세대&nbsp;자산&nbsp;형성&nbsp;기회&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;“성남에서&nbsp;나고&nbsp;자란&nbsp;것이&nbsp;청년의&nbsp;자부심이&nbsp;되게&nbsp;하겠습니다”<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신생아부터&nbsp;청년까지&nbsp;자산&nbsp;불평등을&nbsp;완화하고&nbsp;안정적인&nbsp;사회&nbsp;진출&nbsp;지원<br><br>□&nbsp;이행방법&nbsp;(청년&nbsp;자산&nbsp;5종&nbsp;세트)<br>&nbsp;&nbsp;ㅇ&nbsp;성남&nbsp;베이비&nbsp;펀드:&nbsp;출생아에게&nbsp;초기&nbsp;기초자산을&nbsp;지급하는&nbsp;생애&nbsp;첫&nbsp;펀드<br>&nbsp;&nbsp;ㅇ&nbsp;청년특별회계&nbsp;및&nbsp;리츠:&nbsp;지역&nbsp;상생&nbsp;리츠를&nbsp;통한&nbsp;수익형&nbsp;자산&nbsp;형성&nbsp;지원<br>&nbsp;&nbsp;ㅇ&nbsp;청년&nbsp;참여&nbsp;예산제:&nbsp;청년이&nbsp;직접&nbsp;제안,&nbsp;참여하는&nbsp;예산&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;ㅇ&nbsp;청년패스카드:&nbsp;청년의&nbsp;이동권과&nbsp;생활&nbsp;만족도를&nbsp;높이는&nbsp;전용&nbsp;카드&nbsp;도입<br>&nbsp;&nbsp;ㅇ&nbsp;청년주거단지:&nbsp;주거&nbsp;안정을&nbsp;위한&nbsp;성남형&nbsp;청년&nbsp;행복보금자리&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;2028년&nbsp;시행&nbsp;목표&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년까지&nbsp;조례&nbsp;개정&nbsp;등&nbsp;법적&nbsp;근거&nbsp;마련&nbsp;및&nbsp;세부&nbsp;계획&nbsp;수립&nbsp;후&nbsp;본격&nbsp;시행<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;ㅇ&nbsp;공공&nbsp;및&nbsp;민간&nbsp;협업:&nbsp;시&nbsp;일반회계&nbsp;재정&nbsp;투입&nbsp;및&nbsp;금융권&nbsp;연계&nbsp;협력&nbsp;모델&nbsp;모색<br>&nbsp;&nbsp;ㅇ&nbsp;안정적&nbsp;운용:&nbsp;청년특별회계&nbsp;신설&nbsp;→&nbsp;지속&nbsp;가능한&nbsp;재원&nbsp;관리&nbsp;체계&nbsp;구축</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	존엄한 죽음을 맞이하는 성남형 「내집 생애말기 케어」및 무료접종 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="존엄한 죽음을 맞이하는 성남형 「내집 생애말기 케어」및 무료접종 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;ㅇ&nbsp;예방부터&nbsp;임종까지&nbsp;책임지는&nbsp;‘안심&nbsp;의료&nbsp;성남’<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;“품격&nbsp;있는&nbsp;삶의&nbsp;마무리와&nbsp;건강한&nbsp;일상,&nbsp;성남시가&nbsp;끝까지&nbsp;함께합니다.”<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;선제적&nbsp;예방&nbsp;접종으로&nbsp;시민&nbsp;건강권을&nbsp;확보하고,&nbsp;소외&nbsp;없는&nbsp;생애말기&nbsp;복지&nbsp;서비스&nbsp;제공<br><br>□&nbsp;이행방법&nbsp;(의료복지&nbsp;체계&nbsp;고도화)<br>&nbsp;&nbsp;ㅇ&nbsp;성남형&nbsp;‘내집&nbsp;생애말기&nbsp;케어’&nbsp;도입:&nbsp;거동이&nbsp;힘든&nbsp;환자와&nbsp;가족의&nbsp;간병&nbsp;고통을&nbsp;실질적으로&nbsp;덜어드리기&nbsp;위해&nbsp;‘왕진&nbsp;의료&nbsp;서비스’&nbsp;‘방문&nbsp;요양&nbsp;시간’을&nbsp;대폭&nbsp;확대,&nbsp;내&nbsp;집에서도&nbsp;전문적인&nbsp;치료가&nbsp;가능한&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;ㅇ&nbsp;무료&nbsp;예방접종&nbsp;확대:&nbsp;대상자&nbsp;및&nbsp;접종&nbsp;항목을&nbsp;대폭&nbsp;넓혀&nbsp;질병&nbsp;예방을&nbsp;통한&nbsp;사회적&nbsp;의료&nbsp;비용&nbsp;절감&nbsp;및&nbsp;건강&nbsp;격차&nbsp;해소<br>&nbsp;&nbsp;ㅇ&nbsp;맞춤형&nbsp;의료&nbsp;서비스:&nbsp;기시행&nbsp;중인&nbsp;복지&nbsp;사업의&nbsp;범위를&nbsp;확대하고,&nbsp;시민&nbsp;체감도가&nbsp;높은&nbsp;의료&nbsp;정책을&nbsp;발굴하여&nbsp;보건복지&nbsp;사각지대&nbsp;해소<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;민선&nbsp;9기&nbsp;2년차&nbsp;시행&nbsp;목표&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관련&nbsp;사업&nbsp;확대를&nbsp;위한&nbsp;시&nbsp;조례&nbsp;개정&nbsp;및&nbsp;세부&nbsp;가이드라인&nbsp;수립&nbsp;후&nbsp;2027년&nbsp;부터&nbsp;본격&nbsp;추진<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;ㅇ&nbsp;시&nbsp;일반회계&nbsp;재정&nbsp;투입:&nbsp;성남시&nbsp;자체&nbsp;재정을&nbsp;최우선으로&nbsp;편성하여&nbsp;시민의&nbsp;생명과&nbsp;직결된&nbsp;의료&nbsp;복지의&nbsp;안정성&nbsp;확보<br>&nbsp;&nbsp;ㅇ&nbsp;효율적&nbsp;예산&nbsp;집행:&nbsp;기존&nbsp;보건&nbsp;사업의&nbsp;구조&nbsp;조정,&nbsp;효율화를&nbsp;통해&nbsp;중복&nbsp;지출을&nbsp;방지하고&nbsp;복지&nbsp;수혜&nbsp;범위&nbsp;극대화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	지하철 사각지대 해소 및 철도망 확충</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="지하철 사각지대 해소 및 철도망 확충">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;ㅇ&nbsp;내&nbsp;집&nbsp;앞&nbsp;철도역&nbsp;완성&nbsp;및&nbsp;교통&nbsp;사각지대&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;“기다림은&nbsp;끝났습니다.&nbsp;막힌&nbsp;혈맥을&nbsp;뚫어&nbsp;시민께&nbsp;여유로운&nbsp;아침을&nbsp;돌려&nbsp;드리겠습니다.”<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;남북으로&nbsp;단절된&nbsp;도시를&nbsp;연결하고,&nbsp;철도&nbsp;중심의&nbsp;촘촘한&nbsp;교통망&nbsp;구축<br><br>□&nbsp;이행방법&nbsp;(철도망&nbsp;혁신)<br>&nbsp;&nbsp;ㅇ&nbsp;촘촘한&nbsp;철도역&nbsp;신설&nbsp;추진:&nbsp;SRT&nbsp;오리역&nbsp;신설을&nbsp;비롯해&nbsp;판교동역,&nbsp;도촌야탑역,&nbsp;성남시청역,&nbsp;백현마이스역&nbsp;등&nbsp;시민의&nbsp;숙원&nbsp;사업&nbsp;실현&nbsp;→&nbsp;도심&nbsp;내&nbsp;사각지대&nbsp;해소<br>&nbsp;&nbsp;ㅇ&nbsp;신규노선유치:&nbsp;「경기남부광역철도」유치,&nbsp;「8호선&nbsp;(판교-모란-오포)&nbsp;연장」완성<br>&nbsp;&nbsp;ㅇ&nbsp;정비사업&nbsp;연계:&nbsp;1기&nbsp;신도시&nbsp;재건축&nbsp;및&nbsp;원도심&nbsp;재개발&nbsp;계획과&nbsp;연계,&nbsp;최적의&nbsp;철도&nbsp;중심&nbsp;교통&nbsp;대책&nbsp;수립<br>&nbsp;&nbsp;ㅇ&nbsp;출퇴근&nbsp;환경&nbsp;개선:&nbsp;주요&nbsp;거점&nbsp;간&nbsp;연결성을&nbsp;강화하여&nbsp;출퇴근&nbsp;시간을&nbsp;단축하고&nbsp;삶의&nbsp;질&nbsp;향상<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;ㅇ&nbsp;2040년&nbsp;완성&nbsp;목표&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기&nbsp;추진&nbsp;중인&nbsp;노선과&nbsp;신설&nbsp;계획&nbsp;노선을&nbsp;정비사업&nbsp;단계에&nbsp;맞춰&nbsp;순차적&nbsp;완공<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;ㅇ&nbsp;철도건설기금&nbsp;조성:&nbsp;시&nbsp;자체적으로&nbsp;5,000억&nbsp;원&nbsp;규모의&nbsp;철도건설기금&nbsp;조성<br>&nbsp;&nbsp;ㅇ&nbsp;공공기여금&nbsp;활용:&nbsp;1기&nbsp;신도시&nbsp;재개발·재건축&nbsp;시&nbsp;발생하는&nbsp;공공기여금을&nbsp;교통&nbsp;인프라&nbsp;확충&nbsp;재원으로&nbsp;적극&nbsp;활용,&nbsp;안정적&nbsp;예산&nbsp;확보</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

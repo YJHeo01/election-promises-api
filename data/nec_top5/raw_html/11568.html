@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박형준 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	부산찬스 - 30세에 1억, 청년이 부산에서 시작합니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="부산찬스 - 30세에 1억, 청년이 부산에서 시작합니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시민이&nbsp;적립한&nbsp;돈에&nbsp;부산시가&nbsp;매칭하고,&nbsp;운용수익이&nbsp;쌓이고,&nbsp;환수금이&nbsp;다시&nbsp;돌아오는&nbsp;자기순환&nbsp;펀드를&nbsp;조성해&nbsp;부산에서&nbsp;자란&nbsp;청년이&nbsp;30세에&nbsp;1억&nbsp;자산으로&nbsp;인생을&nbsp;시작할&nbsp;수&nbsp;있는&nbsp;도시<br>&nbsp;&nbsp;○&nbsp;18~39세&nbsp;청년&nbsp;자산형성&nbsp;트랙&nbsp;+&nbsp;39세&nbsp;이상&nbsp;시민&nbsp;세대연대&nbsp;기금&nbsp;+&nbsp;출산·돌봄&nbsp;연동<br>&nbsp;&nbsp;○&nbsp;도달&nbsp;경로&nbsp;:&nbsp;시민&nbsp;적립&nbsp;+&nbsp;시&nbsp;매칭&nbsp;+&nbsp;운용수익(국민연금&nbsp;38년&nbsp;평균&nbsp;8.04%&nbsp;벤치마크)&nbsp;+&nbsp;환수&nbsp;재투입<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;①&nbsp;부산찬스&nbsp;조례&nbsp;제정&nbsp;및&nbsp;청년미래기금&nbsp;설립<br>&nbsp;&nbsp;○&nbsp;②&nbsp;만&nbsp;19세&nbsp;첫씨앗계좌&nbsp;자동&nbsp;가입(만&nbsp;19세&nbsp;약&nbsp;2.5만&nbsp;명,&nbsp;Y1&nbsp;750억&nbsp;규모&nbsp;현금&nbsp;지출&nbsp;설계)<br>&nbsp;&nbsp;○&nbsp;③&nbsp;청년미래기금&nbsp;운용&nbsp;―&nbsp;Y1&nbsp;1.5%&nbsp;→&nbsp;Y2&nbsp;3%&nbsp;→&nbsp;Y3&nbsp;4%&nbsp;→&nbsp;Y4&nbsp;4.5%&nbsp;→&nbsp;Y5&nbsp;5%&nbsp;단계적&nbsp;수익&nbsp;확산(보수안&nbsp;기준)<br>&nbsp;&nbsp;○&nbsp;④&nbsp;4축&nbsp;브릿지&nbsp;재원&nbsp;:&nbsp;청년사업&nbsp;통합&nbsp;+&nbsp;배당금&nbsp;환수&nbsp;+&nbsp;공유재산&nbsp;매각&nbsp;+&nbsp;SOC&nbsp;환류<br>&nbsp;&nbsp;○&nbsp;⑤&nbsp;운용&nbsp;거버넌스&nbsp;―&nbsp;독립&nbsp;운용이사회&nbsp;+&nbsp;시정·시의회·감사원&nbsp;3중&nbsp;견제,&nbsp;동백전&nbsp;지역&nbsp;락(받은&nbsp;돈&nbsp;100%&nbsp;부산&nbsp;가맹점&nbsp;결제)<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년중&nbsp;조례&nbsp;제정·기금&nbsp;설립&nbsp;→&nbsp;2027&nbsp;가입자&nbsp;5.2만&nbsp;명&nbsp;→&nbsp;2028&nbsp;13.5만&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;2029&nbsp;시민펀드&nbsp;1기&nbsp;5조&nbsp;/&nbsp;누적&nbsp;23.8만&nbsp;→&nbsp;2030&nbsp;누적&nbsp;33.5만&nbsp;명<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;추가&nbsp;시민세금&nbsp;0원&nbsp;―&nbsp;자기순환&nbsp;펀드&nbsp;원칙<br>&nbsp;&nbsp;○&nbsp;청년사업&nbsp;통합&nbsp;400억(부산청년&nbsp;기쁨두배통장&nbsp;216억&nbsp;+&nbsp;청년&nbsp;월세&nbsp;지원&nbsp;100억&nbsp;+&nbsp;청년&nbsp;일하는&nbsp;기쁨카드&nbsp;20억&nbsp;+&nbsp;중개보수·이사비&nbsp;10억)&nbsp;+&nbsp;부산도시공사&nbsp;환수&nbsp;500억&nbsp;=&nbsp;연&nbsp;900억&nbsp;/&nbsp;5년&nbsp;5,500억<br>&nbsp;&nbsp;○&nbsp;4.5%&nbsp;수익률&nbsp;하한&nbsp;시나리오&nbsp;30년&nbsp;누적&nbsp;흑자&nbsp;+18.7조&nbsp;/&nbsp;10년&nbsp;누적&nbsp;순수지&nbsp;+20,605억&nbsp;흑자&nbsp;검증&nbsp;완료<br>&nbsp;&nbsp;○&nbsp;안전장치&nbsp;:&nbsp;보수안&nbsp;미달&nbsp;시&nbsp;시&nbsp;일반회계&nbsp;보전,&nbsp;동일&nbsp;가맹점&nbsp;반복·고액&nbsp;결제&nbsp;자동&nbsp;플래그,&nbsp;시&nbsp;일반회계&nbsp;0.5%&nbsp;초과&nbsp;시&nbsp;자동&nbsp;검토&nbsp;트리거</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	월드클래스도시 부산 -가덕도신공항에서 글로벌 산업, 천만 관광도시까지</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="월드클래스도시 부산 -가덕도신공항에서 글로벌 산업, 천만 관광도시까지">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;가덕신공항·BuTX(부산형&nbsp;광역급행철도)·산업은행&nbsp;부산이전&nbsp;3대&nbsp;동맥을&nbsp;매듭짓고,&nbsp;부산역-북항&nbsp;통합&nbsp;환승체계와&nbsp;트라이포트(공항·항만·전시장)&nbsp;동시&nbsp;가동&nbsp;도시를&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;외국인&nbsp;관광객&nbsp;1천만&nbsp;시대&nbsp;+&nbsp;미식·커피·아트&nbsp;도시&nbsp;+&nbsp;글로벌&nbsp;정주환경&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;①&nbsp;가덕신공항&nbsp;―&nbsp;2032년&nbsp;조기개항&nbsp;/&nbsp;2035년&nbsp;준공.&nbsp;글로벌허브도시&nbsp;특별법&nbsp;통과&nbsp;→&nbsp;부지조성공사&nbsp;착공&nbsp;가속&nbsp;→&nbsp;임기&nbsp;내&nbsp;활주로&nbsp;1본&nbsp;개항<br>&nbsp;&nbsp;○&nbsp;②&nbsp;BuTX&nbsp;1단계&nbsp;2032년&nbsp;완공&nbsp;―&nbsp;7개&nbsp;정거장(가덕신공항·명지·하단·북항·부전·센텀시티·오시리아).&nbsp;기재부&nbsp;예타&nbsp;통과&nbsp;+&nbsp;5호선&nbsp;가속화<br>&nbsp;&nbsp;○&nbsp;③&nbsp;산업은행&nbsp;부산&nbsp;이전&nbsp;단일&nbsp;표기&nbsp;매듭&nbsp;―&nbsp;글로벌허브도시&nbsp;특별법&nbsp;인센티브&nbsp;+&nbsp;이전&nbsp;입법&nbsp;동시&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;④&nbsp;부산역-북항&nbsp;통합&nbsp;환승·주차체계&nbsp;―&nbsp;친수공원&nbsp;지하&nbsp;즉시&nbsp;개방(464면)&nbsp;+&nbsp;코레일&nbsp;주차빌딩(600~650면)&nbsp;+&nbsp;복합환승센터&nbsp;조기&nbsp;개방(1,545면)&nbsp;=&nbsp;4년간&nbsp;누적&nbsp;2,659면&nbsp;+&nbsp;보행데크(L=502.9m)&nbsp;전&nbsp;구간&nbsp;공용.&nbsp;&nbsp;시장&nbsp;직속&nbsp;「부산역-북항&nbsp;환승체계&nbsp;통합&nbsp;추진단」(시·코레일·BPA&nbsp;3자&nbsp;협의체)&nbsp;분기&nbsp;시장&nbsp;주재<br>&nbsp;&nbsp;○&nbsp;⑤&nbsp;제2&nbsp;해안도로&nbsp;임기내&nbsp;착공목표,&nbsp;가덕-다대-영도-이기대-해운대-울산&nbsp;하나의&nbsp;해안축으로&nbsp;연결&nbsp;<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;1년차&nbsp;글로벌허브도시&nbsp;특별법&nbsp;인센티브&nbsp;가동·BuTX&nbsp;예타&nbsp;+&nbsp;친수공원&nbsp;지하&nbsp;464면&nbsp;즉시&nbsp;개방<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;2~3년차&nbsp;가덕&nbsp;부지조성·BuTX&nbsp;정거장&nbsp;착공·산업은행&nbsp;이전&nbsp;입법&nbsp;가시화<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;4년차&nbsp;가덕&nbsp;활주로&nbsp;1본&nbsp;개항·BuTX&nbsp;1단계&nbsp;완공·환승체계&nbsp;누적&nbsp;2,659면&nbsp;매듭<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시민세금&nbsp;0원&nbsp;―&nbsp;코레일·BPA&nbsp;기존&nbsp;사업비&nbsp;활용(환승체계),&nbsp;시는&nbsp;협의·인허가&nbsp;키만&nbsp;잡음<br>&nbsp;&nbsp;○&nbsp;가덕신공항&nbsp;부지조성공사&nbsp;국비&nbsp;/&nbsp;BuTX&nbsp;민간투자&nbsp;유치&nbsp;/&nbsp;산업은행&nbsp;이전&nbsp;입법&nbsp;인센티브&nbsp;/&nbsp;MICE&nbsp;신규&nbsp;재원&nbsp;3년&nbsp;합산&nbsp;217억(시&nbsp;일반회계&nbsp;0.1%&nbsp;이내,&nbsp;부산찬스&nbsp;메가펀드와&nbsp;자금&nbsp;충돌&nbsp;없음)&nbsp;/&nbsp;벡스코&nbsp;제3전시장&nbsp;2,900억(기존&nbsp;사업비)<br>&nbsp;&nbsp;○&nbsp;2029&nbsp;KPI:&nbsp;국제회의&nbsp;80건&nbsp;/&nbsp;파급효과&nbsp;2.9조&nbsp;/&nbsp;ICCA&nbsp;60위권&nbsp;/&nbsp;MICE&nbsp;일자리&nbsp;200명+</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	부산형 AI- 부산의 미래 먹거리, 데이터산업과 AI로 만들겠습니다 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="부산형 AI- 부산의 미래 먹거리, 데이터산업과 AI로 만들겠습니다 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;○&nbsp;1999년&nbsp;한국이&nbsp;ADSL&nbsp;초고속인터넷을&nbsp;설치해&nbsp;IT&nbsp;강국으로&nbsp;도약했듯,&nbsp;2026년&nbsp;부산이&nbsp;공공데이터를&nbsp;도로망처럼&nbsp;구축해&nbsp;AI&nbsp;산업의&nbsp;원유로&nbsp;활용.&nbsp;부산만이&nbsp;갖춘&nbsp;데이터를&nbsp;기반으로&nbsp;부산만이&nbsp;만들&nbsp;수&nbsp;있는&nbsp;버티컬&nbsp;AI로&nbsp;비수도권&nbsp;최대&nbsp;AI&nbsp;클러스터&nbsp;완성&nbsp;―&nbsp;AI&nbsp;일자리&nbsp;5만&nbsp;개&nbsp;시대&nbsp;개막<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;①&nbsp;6대&nbsp;버티컬&nbsp;데이터&nbsp;인프라&nbsp;―&nbsp;항만(BPA·세계&nbsp;7위&nbsp;컨테이너)&nbsp;/&nbsp;해양·조선(국가해양데이터센터&nbsp;+&nbsp;부산&nbsp;조선소)&nbsp;/&nbsp;제조(영남권&nbsp;동남권&nbsp;데이터)&nbsp;/&nbsp;금융(BIFC&nbsp;25개&nbsp;금융기관)&nbsp;/&nbsp;시민생활(에코델타&nbsp;+&nbsp;빅-데이터웨이브)&nbsp;/&nbsp;관광·MICE<br>&nbsp;&nbsp;○&nbsp;②&nbsp;AI&nbsp;Hub-Busan&nbsp;신설&nbsp;―&nbsp;NIA&nbsp;AI&nbsp;Hub&nbsp;부산&nbsp;분원형,&nbsp;부산형&nbsp;학습&nbsp;데이터&nbsp;200종+&nbsp;무료&nbsp;개방,&nbsp;청년&nbsp;데이터&nbsp;라벨링·검수&nbsp;직접&nbsp;일자리&nbsp;1단계&nbsp;1,000명<br>&nbsp;&nbsp;○&nbsp;③&nbsp;R&D&nbsp;센터&nbsp;5개&nbsp;+&nbsp;권역&nbsp;5대&nbsp;창업허브(북항·센텀·부전역·하단역·노포역)&nbsp;+&nbsp;1000대&nbsp;기업&nbsp;R&D&nbsp;100개&nbsp;/&nbsp;중견기업&nbsp;300개&nbsp;/&nbsp;개방형&nbsp;혁신기업&nbsp;100<br>&nbsp;&nbsp;○&nbsp;④&nbsp;부산&nbsp;AI&nbsp;1만&nbsp;인재&nbsp;양성&nbsp;―&nbsp;청년&nbsp;2천·재직자&nbsp;5천·중장년&nbsp;3천&nbsp;(글로벌허브도시&nbsp;특별법&nbsp;인센티브)<br>&nbsp;&nbsp;○&nbsp;⑤&nbsp;AI&nbsp;산업&nbsp;일자리&nbsp;5만개&nbsp;완성,&nbsp;분야:&nbsp;공공&nbsp;및&nbsp;산업&nbsp;데이터&nbsp;정비&nbsp;전문&nbsp;일자리,&nbsp;AI&nbsp;모델&nbsp;및&nbsp;시민&nbsp;서비스&nbsp;개발&nbsp;일자리,&nbsp;항만·해양·조선·제조&nbsp;산업&nbsp;AI&nbsp;전문&nbsp;일자리,&nbsp;피지컬&nbsp;AI&nbsp;로봇&nbsp;실증·운영·정비&nbsp;일자리,&nbsp;금융·관광·시민생활&nbsp;서비스&nbsp;AI·데이터&nbsp;분석&nbsp;일자리&nbsp;등<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;4단계&nbsp;누적&nbsp;로드맵<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단계(2026~2027)&nbsp;항만·해양&nbsp;+&nbsp;8,000&nbsp;=&nbsp;누적&nbsp;8,000<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2단계(2028~2029)&nbsp;조선·제조&nbsp;+12,000&nbsp;=&nbsp;누적&nbsp;20,000<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3단계(2030~2031)&nbsp;금융&nbsp;+15,000&nbsp;=&nbsp;누적&nbsp;35,000<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4단계(2032~2035)&nbsp;시민생활·트라이포트&nbsp;+15,000&nbsp;=&nbsp;누적&nbsp;50,000<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;1·2단계&nbsp;누적&nbsp;2만&nbsp;가시화&nbsp;/&nbsp;3·4단계&nbsp;3만은&nbsp;임기&nbsp;내&nbsp;길을&nbsp;트고&nbsp;다음&nbsp;시정이&nbsp;매듭<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;캠프&nbsp;신규&nbsp;5년&nbsp;1,900억&nbsp;+&nbsp;부산시&nbsp;기&nbsp;확정분&nbsp;4,233억(마스터플랜&nbsp;503억&nbsp;+&nbsp;정보화&nbsp;기본계획&nbsp;3,730억)&nbsp;=&nbsp;총&nbsp;6,133억<br>&nbsp;&nbsp;○&nbsp;시&nbsp;부산&nbsp;AI&nbsp;종합전략&nbsp;5년&nbsp;4,877억&nbsp;+&nbsp;민간투자&nbsp;7,587억과&nbsp;정합성&nbsp;검증&nbsp;완료<br>&nbsp;&nbsp;○&nbsp;부산&nbsp;AI&nbsp;펀드&nbsp;신설(시&nbsp;+&nbsp;시중·지방은행&nbsp;+&nbsp;산업은행&nbsp;매칭)&nbsp;+&nbsp;AI&nbsp;솔루션&nbsp;바우처&nbsp;부산&nbsp;기업&nbsp;우대<br>&nbsp;&nbsp;○&nbsp;시&nbsp;일반회계&nbsp;0.4%&nbsp;수준,&nbsp;데이터&nbsp;영향평가&nbsp;의무화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	동서남북 골고루 - 부산 어느곳이라도 더 가깝게 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="동서남북 골고루 - 부산 어느곳이라도 더 가깝게 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;어느&nbsp;한&nbsp;지역도&nbsp;늦지&nbsp;않게,&nbsp;어느&nbsp;한&nbsp;지역도&nbsp;앞서&nbsp;나가지&nbsp;않게&nbsp;―&nbsp;5대&nbsp;권역&nbsp;13가지&nbsp;약속으로&nbsp;부산&nbsp;어디서나&nbsp;가까운&nbsp;생활권&nbsp;도시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;24시간&nbsp;시민&nbsp;이동권&nbsp;보장&nbsp;―&nbsp;일반버스는&nbsp;앉아서,&nbsp;밤길은&nbsp;안심버스로,&nbsp;라스트&nbsp;마일은&nbsp;전기자전거로<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;①&nbsp;서부산(강서)&nbsp;―&nbsp;낙동강&nbsp;5대&nbsp;공원·국가도시정원&nbsp;1호·에코델타시티&nbsp;첨단산업단지&nbsp;/&nbsp;사상&nbsp;모라&nbsp;통합체육센터(장애인&nbsp;통합돌봄,&nbsp;이동시간&nbsp;18분→7분)&nbsp;/&nbsp;사상&nbsp;청년주택<br>&nbsp;&nbsp;○&nbsp;②&nbsp;원도심&nbsp;―&nbsp;산복도로&nbsp;직선화&nbsp;/&nbsp;K-pop&nbsp;아레나&nbsp;2만석&nbsp;/&nbsp;동천축&nbsp;6대&nbsp;거점(성지곡→서면→부전천→광무교→국제금융단지→동천&nbsp;하구)&nbsp;/&nbsp;부산형&nbsp;브로드웨이&nbsp;메가&nbsp;거점(남포동,&nbsp;부산문화재단&nbsp;위탁&nbsp;+&nbsp;시민회관&nbsp;모회사&nbsp;+&nbsp;소공연장연합회&nbsp;협력&nbsp;3층&nbsp;거버넌스)<br>&nbsp;&nbsp;○&nbsp;③&nbsp;북부산(동래·금정·북구)&nbsp;―&nbsp;만덕대로&nbsp;상부공원&nbsp;1차(만덕IC~만덕사거리,&nbsp;600m·15,000㎡)&nbsp;―&nbsp;구만덕-신만덕&nbsp;40년&nbsp;단절&nbsp;해소.&nbsp;26.4.5&nbsp;싱크홀&nbsp;사고&nbsp;이후&nbsp;주기적&nbsp;지하&nbsp;탐사&nbsp;체계&nbsp;강화&nbsp;후&nbsp;착공(조건부&nbsp;실행)&nbsp;/&nbsp;보행&nbsp;도달&nbsp;12분&nbsp;→&nbsp;5분<br>&nbsp;&nbsp;○&nbsp;④&nbsp;동부산(해운대·기장)&nbsp;―&nbsp;BTX&nbsp;센텀역·오시리아&nbsp;종점&nbsp;/&nbsp;해운대&nbsp;응급의료복합센터(임기&nbsp;1년차&nbsp;사업비&nbsp;확정·2년차&nbsp;착공·4년차&nbsp;1단계&nbsp;개원)&nbsp;/&nbsp;기장&nbsp;중입자가속기병원·정관&nbsp;학교&nbsp;인프라<br>&nbsp;&nbsp;○&nbsp;⑤&nbsp;시민&nbsp;이동권(B-Night&nbsp;Bus)&nbsp;―&nbsp;여성·대학생&nbsp;야간&nbsp;안심버스(23시~새벽2시,&nbsp;대학가·원룸·병원,&nbsp;AI&nbsp;안심귀가&nbsp;SafeWalk&nbsp;연동)&nbsp;/&nbsp;일반버스&nbsp;2열&nbsp;좌석형&nbsp;1년&nbsp;100대·3년&nbsp;전면&nbsp;전환&nbsp;/&nbsp;19~39세&nbsp;청년&nbsp;전기자전거·킥보드&nbsp;월&nbsp;1시간&nbsp;무료(동백전&nbsp;시민증&nbsp;연동)&nbsp;/&nbsp;부산불꽃축제·BIFF·콘서트&nbsp;종료&nbsp;후&nbsp;시민&nbsp;우선&nbsp;셔틀<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;1년차&nbsp;만덕대로&nbsp;상부공원&nbsp;설계·안전&nbsp;검증·B-Night&nbsp;Bus&nbsp;시범&nbsp;운행&nbsp;/&nbsp;해운대&nbsp;응급복합센터&nbsp;사업비&nbsp;확정<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;2~3년차&nbsp;권역별&nbsp;거점&nbsp;착공·공원화&nbsp;면적&nbsp;15,000㎡&nbsp;조성&nbsp;(낙동5원,&nbsp;영도&nbsp;아레나,&nbsp;동천축&nbsp;6대거점&nbsp;등)&nbsp;/&nbsp;일반버스&nbsp;2열&nbsp;좌석형&nbsp;전면&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;4년차&nbsp;만덕대로&nbsp;상부공원&nbsp;1단계&nbsp;매듭&nbsp;/&nbsp;권역별&nbsp;사업&nbsp;1단계&nbsp;완성<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;만덕대로&nbsp;상부공원&nbsp;1차&nbsp;약&nbsp;380억&nbsp;―&nbsp;국비&nbsp;152억(국토부&nbsp;도시재생&nbsp;뉴딜&nbsp;공모&nbsp;40%)&nbsp;+&nbsp;시비&nbsp;190억(15분&nbsp;도시&nbsp;핵심&nbsp;공원&nbsp;지정&nbsp;50%)&nbsp;+&nbsp;민간&nbsp;매칭&nbsp;38억(부산&nbsp;소재&nbsp;건설사&nbsp;사회공헌&nbsp;기부&nbsp;10%)<br>&nbsp;&nbsp;○&nbsp;권역별&nbsp;사업&nbsp;―&nbsp;도시재생&nbsp;뉴딜·국가도시정원&nbsp;1호&nbsp;공모·BuTX&nbsp;국비·해운대&nbsp;응급의료복합센터&nbsp;사업비&nbsp;등&nbsp;국비&nbsp;매칭&nbsp;다원화,&nbsp;시&nbsp;일반회계&nbsp;재배분</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	부산최고시민 - 출발선부터 마지막 새벽까지, 부산이 곁에</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="부산최고시민 - 출발선부터 마지막 새벽까지, 부산이 곁에">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;출생·양육·일·학업·돌봄·노후&nbsp;―&nbsp;시민의&nbsp;일생&nbsp;모든&nbsp;시점에&nbsp;부산이&nbsp;곁에&nbsp;있는&nbsp;도시<br>&nbsp;&nbsp;○&nbsp;5대&nbsp;핵심&nbsp;패키지로&nbsp;둘째를&nbsp;망설이는&nbsp;엄마,&nbsp;등록금에&nbsp;무너지는&nbsp;대학생,&nbsp;30·40대&nbsp;직장인,&nbsp;연금공백&nbsp;은퇴자·가족돌봄청년을&nbsp;촘촘히&nbsp;지원<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;①&nbsp;부산&nbsp;다둥이찬스&nbsp;―&nbsp;자녀기준&nbsp;「18세&nbsp;이하」로&nbsp;통일,&nbsp;동백전&nbsp;다둥이&nbsp;카드(둘째&nbsp;월&nbsp;30만원&nbsp;/&nbsp;셋째&nbsp;월&nbsp;60만원,&nbsp;동백전&nbsp;지역&nbsp;락&nbsp;―&nbsp;받은&nbsp;돈&nbsp;100%&nbsp;부산&nbsp;동네&nbsp;마트·약국·학원&nbsp;결제)&nbsp;+&nbsp;다자녀&nbsp;상하수도&nbsp;감면&nbsp;확장(34·35번&nbsp;기준&nbsp;확장)&nbsp;+&nbsp;전기·가스&nbsp;자녀기준&nbsp;「18세&nbsp;이하」&nbsp;완화&nbsp;중앙&nbsp;건의.&nbsp;부산&nbsp;다자녀&nbsp;148,546세대&nbsp;/&nbsp;14.8만&nbsp;세대&nbsp;직접&nbsp;수혜<br>&nbsp;&nbsp;○&nbsp;②&nbsp;부산&nbsp;공공학습관&nbsp;구군별&nbsp;설치&nbsp;:&nbsp;AI&nbsp;기반&nbsp;글로벌&nbsp;교육과정&nbsp;학습&nbsp;플랫폼&nbsp;구축,&nbsp;IB&nbsp;·&nbsp;A-Level&nbsp;·&nbsp;AP/SAT&nbsp;글로벌&nbsp;진학&nbsp;트랙&nbsp;안내,&nbsp;영어&nbsp;·&nbsp;수학&nbsp;·&nbsp;과학&nbsp;·&nbsp;논술&nbsp;맞춤형&nbsp;AI&nbsp;튜터&nbsp;제공,&nbsp;해외&nbsp;대학&nbsp;진학&nbsp;로드맵&nbsp;·&nbsp;에세이&nbsp;·&nbsp;인터뷰&nbsp;지원,&nbsp;유치원부터&nbsp;초·중·고로&nbsp;이어지는&nbsp;상향식&nbsp;생태계<br>&nbsp;&nbsp;○&nbsp;③&nbsp;부산&nbsp;최고&nbsp;시민패스&nbsp;-&nbsp;부산시민우선배정&nbsp;10%,&nbsp;취약계층&nbsp;30%&nbsp;유지&nbsp;+&nbsp;노쇼&nbsp;좌석&nbsp;전환,&nbsp;당일&nbsp;잔여석&nbsp;시민가&nbsp;오픈<br>&nbsp;&nbsp;○&nbsp;④&nbsp;문화예술,&nbsp;생활체육·해양레저,&nbsp;생활서비스&nbsp;바우처&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;1년차&nbsp;5종&nbsp;조례·시스템&nbsp;설계·대상자&nbsp;선정·시범,&nbsp;학습관&nbsp;추진단&nbsp;출범&nbsp;→&nbsp;임기&nbsp;2년차&nbsp;본격&nbsp;운영(다둥이&nbsp;카드&nbsp;발급·안심&nbsp;일터&nbsp;개소·등록금&nbsp;세이브&nbsp;1차&nbsp;지원·바우처&nbsp;60%&nbsp;참여·행복소득&nbsp;1년차&nbsp;280억&nbsp;지급),&nbsp;12개&nbsp;구·군&nbsp;학습관&nbsp;완성&nbsp;→&nbsp;임기&nbsp;3~4년차&nbsp;연계&nbsp;완성·5년&nbsp;시점&nbsp;정책&nbsp;효과&nbsp;평가,&nbsp;16개&nbsp;구·군&nbsp;학습관&nbsp;전부&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;다둥이찬스&nbsp;연&nbsp;약&nbsp;320억&nbsp;(시&nbsp;직영&nbsp;22개&nbsp;시설&nbsp;가족&nbsp;통합&nbsp;할인&nbsp;8억&nbsp;+&nbsp;K-패스&nbsp;부산&nbsp;자체&nbsp;환급률&nbsp;+10%p&nbsp;12억&nbsp;+&nbsp;다둥이&nbsp;카드&nbsp;본예산)<br>&nbsp;&nbsp;○&nbsp;액티브바우처&nbsp;시&nbsp;체육·건강&nbsp;예산&nbsp;재편&nbsp;+&nbsp;가맹점&nbsp;인센티브&nbsp;구조<br>&nbsp;&nbsp;○&nbsp;&nbsp;6대&nbsp;공약&nbsp;합산&nbsp;시&nbsp;일반회계&nbsp;0.4~0.5%&nbsp;이내&nbsp;―&nbsp;부산찬스&nbsp;재정&nbsp;설계&nbsp;내에서&nbsp;흡수&nbsp;가능</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

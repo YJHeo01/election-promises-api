@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;엄윤순 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	접경지역 희망 상생 지원금 지급</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="접경지역 희망 상생 지원금 지급">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>○&nbsp;국가안보를&nbsp;위해&nbsp;각종&nbsp;군사규제와&nbsp;개발제한을&nbsp;감내해&nbsp;온&nbsp;접경지역&nbsp;주민에게&nbsp;상생지원금을&nbsp;지급하여,&nbsp;생활안정을&nbsp;돕고&nbsp;지역경제를&nbsp;활성화하겠습니다.<br>&nbsp;군사시설&nbsp;보호구역,&nbsp;사격장,&nbsp;비행훈련&nbsp;등으로&nbsp;인한&nbsp;직·간접&nbsp;피해&nbsp;보전.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;접경지역&nbsp;주민의&nbsp;생활&nbsp;안정&nbsp;및&nbsp;실질소득&nbsp;증대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역화폐&nbsp;지급을&nbsp;통한&nbsp;소상공인·전통시장&nbsp;매출&nbsp;증대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인구&nbsp;유출&nbsp;방지&nbsp;및&nbsp;정주&nbsp;여건&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가안보에&nbsp;대한&nbsp;주민&nbsp;희생에&nbsp;대한&nbsp;실질적&nbsp;보상<br><br>□&nbsp;이행방법<br>○&nbsp;지급&nbsp;대상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지급&nbsp;기준일&nbsp;현재&nbsp;인제군에&nbsp;주민등록을&nbsp;두고&nbsp;실제&nbsp;거주하는&nbsp;군&nbsp;민일정&nbsp;기간&nbsp;계속&nbsp;거주자&nbsp;우선<br>○&nbsp;지급&nbsp;방식<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;개인당&nbsp;지역화폐&nbsp;또는&nbsp;인제사랑상품권으로&nbsp;지급<br>○&nbsp;지급&nbsp;주기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재정&nbsp;여건에&nbsp;따라&nbsp;결정하고&nbsp;명절&nbsp;전&nbsp;추가&nbsp;지급&nbsp;검토<br><br>□&nbsp;이행기간<br>================================================<br>구분&nbsp;&nbsp;|&nbsp;&nbsp;기간&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;내용<br>----------------------------------------------------------------------------<br>단기&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;취임&nbsp;후&nbsp;3개월&nbsp;이내&nbsp;&nbsp;|&nbsp;&nbsp;타당성&nbsp;검토&nbsp;및&nbsp;기본계획&nbsp;수립&nbsp;<br>----------------------------------------------------------------------------<br>중기&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;취임&nbsp;후&nbsp;6개월&nbsp;이내&nbsp;&nbsp;|&nbsp;&nbsp;주민의견&nbsp;수립&nbsp;및&nbsp;조례제정&nbsp;<br>----------------------------------------------------------------------------<br>시행&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;취임&nbsp;후&nbsp;1년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;예산&nbsp;확보&nbsp;후&nbsp;1차&nbsp;지급<br>================================================<br><br>□&nbsp;재원조달방안<br>○&nbsp;군비:&nbsp;일반회계&nbsp;구조조정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행사성·소모성&nbsp;예산&nbsp;절감<br>○&nbsp;도비:강원특별자치도&nbsp;접경지역&nbsp;지원사업&nbsp;연계로&nbsp;재원확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	메가 파크 골프장 36+36, 72홀 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="메가 파크 골프장 36+36, 72홀 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>우선적으로&nbsp;남북리에&nbsp;36홀&nbsp;규모&nbsp;파크&nbsp;골프장을&nbsp;조성한&nbsp;후&nbsp;다시&nbsp;살구미&nbsp;일원에&nbsp;36&nbsp;홀&nbsp;규모로&nbsp;추가&nbsp;조성해&nbsp;전국&nbsp;최고&nbsp;수준의&nbsp;72홀&nbsp;규모&nbsp;파크골프장을&nbsp;단계적으로&nbsp;조성해,&nbsp;생활체육&nbsp;활성화와&nbsp;체류형&nbsp;스포츠&nbsp;관광을&nbsp;육성하고&nbsp;지역경제에&nbsp;새로운&nbsp;성장&nbsp;동력을&nbsp;만듦.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전국&nbsp;대회&nbsp;유치가&nbsp;가능한&nbsp;스포츠&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;숙박·음식업·전통시장&nbsp;연계로&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인제를&nbsp;대한민국&nbsp;대표&nbsp;파크골프&nbsp;메카로&nbsp;육성<br><br>□&nbsp;이행방법<br>○&nbsp;단계별&nbsp;조성:<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단계:&nbsp;36홀&nbsp;남북리에&nbsp;우선&nbsp;조성.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2단계:&nbsp;수요와&nbsp;재정&nbsp;여건을&nbsp;고려해&nbsp;추가&nbsp;36홀&nbsp;확장.<br>○&nbsp;대회&nbsp;유치&nbsp;전략:<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전국&nbsp;및&nbsp;도&nbsp;단위&nbsp;파크골프대회&nbsp;개최동호회&nbsp;전지훈련&nbsp;유치<br>○&nbsp;관광&nbsp;연계:<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;설악산,&nbsp;원대리&nbsp;자작나무숲&nbsp;등과&nbsp;연계&nbsp;숙박·음식업·농특산물&nbsp;판매&nbsp;활성화<br>○&nbsp;운영&nbsp;체계&nbsp;구축:<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전문&nbsp;위탁&nbsp;운영&nbsp;또는&nbsp;직영,&nbsp;예약&nbsp;시스템&nbsp;도입<br><br>□&nbsp;이행기간<br>========================================================<br>구분&nbsp;&nbsp;|&nbsp;&nbsp;기간&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;내용<br>------------------------------------------------------------------------------------------<br>단기&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;취임&nbsp;후&nbsp;6개월&nbsp;이내&nbsp;&nbsp;|&nbsp;&nbsp;후보지&nbsp;검토,&nbsp;타당성&nbsp;조사,&nbsp;기본계획&nbsp;수립<br>------------------------------------------------------------------------------------------<br>중기&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;취임&nbsp;후&nbsp;1~2년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;1단계&nbsp;36홀&nbsp;조성&nbsp;<br>------------------------------------------------------------------------------------------<br>장기&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;취임&nbsp;후&nbsp;3~4년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;2단계&nbsp;36홀&nbsp;확장&nbsp;및&nbsp;대회&nbsp;유치<br>========================================================<br><br>□&nbsp;재원조달방안<br>○&nbsp;국비&nbsp;확보:&nbsp;문화체육관광부&nbsp;생활체육시설&nbsp;확충사업,&nbsp;국민체육진흥공단&nbsp;체육&nbsp;진흥기금.<br>○&nbsp;도비&nbsp;확보:&nbsp;강원특별자치도&nbsp;체육시설&nbsp;지원사업<br>○&nbsp;군비&nbsp;분할&nbsp;투자:&nbsp;연차별&nbsp;단계&nbsp;투자&nbsp;구분&nbsp;기간&nbsp;내용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	군수 좀 만납시다, 열린 군수실 운영</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="군수 좀 만납시다, 열린 군수실 운영">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표&nbsp;<br>군민&nbsp;누구나&nbsp;형식과&nbsp;절차에&nbsp;얽매이지&nbsp;않고&nbsp;군수를&nbsp;직접&nbsp;만나&nbsp;생활&nbsp;불편과&nbsp;지역&nbsp;현안을&nbsp;이야기할&nbsp;수&nbsp;있는&nbsp;‘열린&nbsp;군수실’을&nbsp;운영하여,&nbsp;소통과&nbsp;현장&nbsp;중심의&nbsp;행정을&nbsp;실현.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민과&nbsp;군수가&nbsp;직접&nbsp;소통하는&nbsp;상시&nbsp;대화&nbsp;창구&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민원&nbsp;해결&nbsp;속도와&nbsp;행정&nbsp;신뢰도&nbsp;향상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현장&nbsp;중심의&nbsp;문제&nbsp;해결&nbsp;행정&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정책&nbsp;결정&nbsp;과정에&nbsp;군민&nbsp;참여&nbsp;확대<br><br>□&nbsp;이행방법<br>○&nbsp;정례&nbsp;운영&nbsp;-&nbsp;매월&nbsp;마지막&nbsp;금요일&nbsp;‘군수&nbsp;좀&nbsp;만납시다’&nbsp;운영<br>○&nbsp;다양한&nbsp;참여&nbsp;방식<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사전&nbsp;예약&nbsp;없이&nbsp;군수실&nbsp;선착순&nbsp;접수로&nbsp;군수&nbsp;면담<br>○&nbsp;실무부서&nbsp;동행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관련&nbsp;부서장&nbsp;및&nbsp;담당자&nbsp;배석,&nbsp;현장&nbsp;답변&nbsp;및&nbsp;즉시&nbsp;조치<br>○&nbsp;사후관리&nbsp;시스템<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;접수&nbsp;→&nbsp;검토&nbsp;→&nbsp;처리&nbsp;→&nbsp;결과&nbsp;통보처리&nbsp;상황&nbsp;공개&nbsp;및&nbsp;이&nbsp;행&nbsp;점검<br>○&nbsp;취약계층&nbsp;우선&nbsp;배려<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고령자,&nbsp;장애인,&nbsp;교통취약지역&nbsp;주민&nbsp;대상&nbsp;찾아가는&nbsp;상담&nbsp;시스템&nbsp;추가&nbsp;보완<br><br>□&nbsp;이행기간<br>=======================================<br>구분&nbsp;&nbsp;|&nbsp;&nbsp;기간&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;내용<br>---------------------------------------------------------------<br>단기&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;취임&nbsp;후&nbsp;1개월&nbsp;이내&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;운영계획&nbsp;수립&nbsp;도입<br>---------------------------------------------------------------<br>도입&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;취임&nbsp;후&nbsp;2개월&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;첫&nbsp;운영&nbsp;<br>---------------------------------------------------------------<br>지속&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;임기&nbsp;내&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;상시&nbsp;운영<br>========================================<br><br>□&nbsp;재원조달방안<br>○&nbsp;기존&nbsp;예산&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민소통,&nbsp;주민참여&nbsp;예산&nbsp;활용<br>○&nbsp;최소&nbsp;운영비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;홍보물,&nbsp;현장&nbsp;운영비&nbsp;등&nbsp;소액&nbsp;예산<br>○&nbsp;인력&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;공무원과&nbsp;민원&nbsp;부서&nbsp;중심&nbsp;운영&nbsp;구분&nbsp;기간&nbsp;내용&nbsp;계획</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	인제 앞강 종합개발 사업 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="인제 앞강 종합개발 사업 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>소양강&nbsp;상류인&nbsp;인제&nbsp;앞강을&nbsp;자연·문화·관광이&nbsp;어우러진&nbsp;친수공간으로&nbsp;조성하여&nbsp;군민의&nbsp;휴식&nbsp;공간을&nbsp;확충하고&nbsp;지역경제를&nbsp;활성화.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군민&nbsp;누구나&nbsp;찾는&nbsp;수변&nbsp;힐링&nbsp;공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간&nbsp;경관과&nbsp;문화시설&nbsp;확충으로&nbsp;체류형&nbsp;관광&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전통시장·상가와&nbsp;연계한&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;각종&nbsp;축제와&nbsp;공연이&nbsp;가능한&nbsp;복합&nbsp;문화공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인제읍의&nbsp;대표&nbsp;랜드마크&nbsp;육성<br><br>□&nbsp;이행방법<br>○&nbsp;기본계획&nbsp;및&nbsp;타당성&nbsp;조사<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소양강&nbsp;상류에&nbsp;대한&nbsp;구간별&nbsp;현황&nbsp;조사&nbsp;및&nbsp;주민&nbsp;의견수렴과&nbsp;친수공간&nbsp;조성,&nbsp;야간경관,&nbsp;문화시설&nbsp;도입&nbsp;계획&nbsp;수립<br>○&nbsp;단계별&nbsp;시설&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산책로·자전거도로&nbsp;정비,&nbsp;수변광장,&nbsp;쉼터,&nbsp;어린이&nbsp;물놀이장&nbsp;설치,&nbsp;음악분수,&nbsp;경관조명,&nbsp;포토존&nbsp;조성,&nbsp;소규모&nbsp;공연장&nbsp;및&nbsp;플리마켓&nbsp;공간&nbsp;조성<br>○&nbsp;지역상권&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인제전통시장,&nbsp;음식점,&nbsp;카페와&nbsp;연계한&nbsp;관광&nbsp;동선&nbsp;구축축제&nbsp;및&nbsp;야간&nbsp;이벤트&nbsp;운영.<br>○&nbsp;유지관리&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;참여형&nbsp;관리조직&nbsp;운영,&nbsp;계절별&nbsp;프로그램&nbsp;운영<br><br>□&nbsp;이행기간<br>===============================================<br>구분&nbsp;&nbsp;|&nbsp;&nbsp;기간&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;내용<br>---------------------------------------------------------------------------<br>단기&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;취임&nbsp;후&nbsp;6개월&nbsp;이내&nbsp;&nbsp;|&nbsp;&nbsp;기본구상&nbsp;및&nbsp;주민&nbsp;의견&nbsp;수렴<br>---------------------------------------------------------------------------<br>중기&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;취임&nbsp;후&nbsp;1~2년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;기본&nbsp;및&nbsp;실시설계,&nbsp;예산&nbsp;확보&nbsp;<br>---------------------------------------------------------------------------<br>장기&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;취임&nbsp;후&nbsp;~4년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;단계별&nbsp;시설&nbsp;조성&nbsp;완료<br>===============================================<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;국비&nbsp;확보&nbsp;:환경부&nbsp;생태하천복원사업,&nbsp;문화체육관광부&nbsp;관광자원개발사업<br>○&nbsp;도비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강원특별자치도&nbsp;지역균형발전사업&nbsp;및&nbsp;관광&nbsp;인프라&nbsp;사업<br>○&nbsp;군비&nbsp;투입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연차별&nbsp;분할&nbsp;투자,&nbsp;본예산&nbsp;및&nbsp;추경&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	농산물 최저 가격 보장제</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="농산물 최저 가격 보장제">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>농산물&nbsp;가격&nbsp;폭락으로&nbsp;인한&nbsp;농가&nbsp;소득&nbsp;불안을&nbsp;줄이고,&nbsp;안정적인&nbsp;영농활동을&nbsp;지원하기&nbsp;위해&nbsp;주요&nbsp;농산물에&nbsp;대해&nbsp;최저가격을&nbsp;보장하겠습니다.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시장가격이&nbsp;기준가격&nbsp;이하로&nbsp;하락할&nbsp;경우&nbsp;차액&nbsp;일부&nbsp;또는&nbsp;전부&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농가의&nbsp;경영&nbsp;불안&nbsp;해소&nbsp;및&nbsp;소득&nbsp;안정적&nbsp;생산&nbsp;기반&nbsp;유지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업인의&nbsp;재생산&nbsp;의욕&nbsp;고취<br><br>□&nbsp;이행방법<br>○&nbsp;지원&nbsp;대상&nbsp;품목&nbsp;선정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인제군&nbsp;5대&nbsp;명품&nbsp;등&nbsp;주요&nbsp;전략작목&nbsp;중심&nbsp;운영<br>○&nbsp;기준가격&nbsp;설정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;최근&nbsp;3~5년&nbsp;평균&nbsp;생산비와&nbsp;평균&nbsp;시장가격을&nbsp;반영해&nbsp;품목별&nbsp;기준가격&nbsp;결정<br>○&nbsp;차액&nbsp;보전<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출하&nbsp;시&nbsp;실제&nbsp;거래가격이&nbsp;기준가격보다&nbsp;낮을&nbsp;경우&nbsp;차액의&nbsp;일정&nbsp;비율&nbsp;지원<br>○&nbsp;참여&nbsp;조건<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생산자단체&nbsp;출하,&nbsp;농협&nbsp;계통출하,&nbsp;계약재배&nbsp;농가&nbsp;우선&nbsp;지원<br>○&nbsp;심의위원회&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업인·전문가·행정이&nbsp;참여하는&nbsp;가격보장위원회&nbsp;설치<br><br>□&nbsp;이행기간<br>==============================================<br>구분&nbsp;&nbsp;|&nbsp;&nbsp;기간&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;내용<br>-------------------------------------------------------------------------<br>단기&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;취임&nbsp;후&nbsp;6개월&nbsp;이내&nbsp;&nbsp;|&nbsp;&nbsp;실태조사&nbsp;및&nbsp;조례제정<br>-------------------------------------------------------------------------<br>중기&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;취임&nbsp;후&nbsp;1년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;시범사업&nbsp;시행<br>-------------------------------------------------------------------------<br>확대&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;취임&nbsp;후&nbsp;2년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;2년&nbsp;품목확대&nbsp;및&nbsp;제도&nbsp;정착<br>-------------------------------------------------------------------------<br>지속&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;매년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;정례운영<br>==============================================<br><br>□&nbsp;재원조달방안<br>○&nbsp;농업예산&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;보조사업&nbsp;구조조정<br>○&nbsp;도비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강원특별자치도&nbsp;농정사업&nbsp;연계<br>○&nbsp;국비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농림축산식품부&nbsp;사업&nbsp;연계&nbsp;및&nbsp;공모<br>○&nbsp;기금&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업발전기금&nbsp;활용&nbsp;또는&nbsp;별도&nbsp;적립</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

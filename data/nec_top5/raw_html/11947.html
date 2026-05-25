@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김성제 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	명품 대규모 도시개발사업 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="명품 대규모 도시개발사업 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;대규모&nbsp;공공주택지구&nbsp;사업&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고천&nbsp;행복타운,&nbsp;초평&nbsp;신혼희망타운&nbsp;및&nbsp;공공주택지구&nbsp;사업&nbsp;완료<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3기&nbsp;신도시&nbsp;(의왕·군포·안산&nbsp;공공주택지구)&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;오전·왕곡&nbsp;공공주택지구&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;재건축&nbsp;재개발&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재개발&nbsp;재건축&nbsp;적극지원&nbsp;:&nbsp;내손&nbsp;마지역&nbsp;외&nbsp;9개소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;내손&nbsp;가·나&nbsp;지역&nbsp;공공개발&nbsp;지원&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;쾌적한&nbsp;주거&nbsp;환경조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;오전&nbsp;역세권&nbsp;복합개발사업&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한전&nbsp;이전&nbsp;부지&nbsp;도시개발&nbsp;및&nbsp;생활&nbsp;편의시설로&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;내손동&nbsp;예비군&nbsp;훈련장&nbsp;부지&nbsp;친화적&nbsp;공간으로&nbsp;조성&nbsp;등&nbsp;<br>&nbsp;&nbsp;○&nbsp;체계적으로&nbsp;개발사업을&nbsp;추진하여&nbsp;도시의&nbsp;상생발전과&nbsp;지역경제가&nbsp;활성화&nbsp;될&nbsp;수&nbsp;있도록&nbsp;사업추진<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;단위&nbsp;사업별&nbsp;계획&nbsp;수립&nbsp;후&nbsp;집행<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;취임&nbsp;후&nbsp;추진&nbsp;(중장기)<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시비&nbsp;+&nbsp;도비&nbsp;+&nbsp;국비&nbsp;+&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	첨단 자족도시 구현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="첨단 자족도시 구현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;제2산업단지를&nbsp;조성하여&nbsp;의료&nbsp;및&nbsp;바이오&nbsp;관련기업&nbsp;유치&nbsp;(포일동)<br>&nbsp;&nbsp;○&nbsp;제3산업단지를&nbsp;조성하여&nbsp;첨단&nbsp;4차산업&nbsp;관련기업&nbsp;유치&nbsp;(부곡동)<br>&nbsp;&nbsp;○&nbsp;의왕&nbsp;산업진흥원&nbsp;건립&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;재건축&nbsp;재개발&nbsp;주변지역&nbsp;상권&nbsp;활성화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;일자리&nbsp;확대를&nbsp;위한&nbsp;상원&nbsp;활성화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;단위사업별&nbsp;계획&nbsp;수립&nbsp;후&nbsp;집행&nbsp;<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;취임&nbsp;후&nbsp;추진&nbsp;(중기,&nbsp;장기과제)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;&nbsp;시비&nbsp;+&nbsp;도비&nbsp;+&nbsp;국비&nbsp;+&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	광역 교통체계로 혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="광역 교통체계로 혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;광역&nbsp;철도체계&nbsp;및&nbsp;인프라&nbsp;확충&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인동선,&nbsp;월판선&nbsp;복선전철&nbsp;적기&nbsp;개통&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;위례~&nbsp;과천선&nbsp;의왕&nbsp;연장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX-C(의왕역&nbsp;정차)&nbsp;본격&nbsp;추진&nbsp;및&nbsp;복합환승센터&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;월암역치&nbsp;왕곡역&nbsp;추가&nbsp;신설&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의왕역&nbsp;환승센터&nbsp;구축&nbsp;및&nbsp;민자역사&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의왕역&nbsp;철도&nbsp;지하화&nbsp;및&nbsp;복합개발<br>&nbsp;&nbsp;○&nbsp;교통흐름&nbsp;개선을&nbsp;위한&nbsp;도로망&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;버스&nbsp;정류장&nbsp;단계적&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;경기도&nbsp;똑버스&nbsp;노선확대&nbsp;및&nbsp;마을버스&nbsp;증차<br>&nbsp;&nbsp;○&nbsp;의왕시&nbsp;전역&nbsp;버스&nbsp;노선확대<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;단위사업별&nbsp;계획수립&nbsp;후&nbsp;집행&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;취임&nbsp;후&nbsp;추진(중기,&nbsp;장기과제)<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시비&nbsp;+&nbsp;도비&nbsp;+&nbsp;국비&nbsp;+&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	양질의 교육 및 보육환경 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="양질의 교육 및 보육환경 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;독립적인&nbsp;의왕&nbsp;교육지원청&nbsp;설립지원<br>&nbsp;&nbsp;○&nbsp;미래교육센터&nbsp;및&nbsp;창의인재센터&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;내손&nbsp;청소년&nbsp;문화의&nbsp;집&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;초·중·고교&nbsp;입학&nbsp;준비금,&nbsp;중·고교&nbsp;수학여행비,&nbsp;청소년&nbsp;교통비지원<br>&nbsp;&nbsp;○&nbsp;초·중·고교&nbsp;전자칠판&nbsp;단계적&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;국공립&nbsp;어린이집,&nbsp;다함께&nbsp;돌봄센터,&nbsp;유아나눔터&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;인재센터,&nbsp;수학클리닉센터,&nbsp;진로진학센터&nbsp;지원<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;단위&nbsp;사업별&nbsp;계획&nbsp;수립&nbsp;후&nbsp;집행<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;취임&nbsp;후&nbsp;추진&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시비&nbsp;+&nbsp;도비&nbsp;+&nbsp;국비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	시민이 행복한 문화·체육·복지도시 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="시민이 행복한 문화·체육·복지도시 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;문화예술회관&nbsp;개관&nbsp;및&nbsp;활성화,&nbsp;문화재단설립<br>&nbsp;&nbsp;○&nbsp;백운호수&nbsp;음악분수&nbsp;설치&nbsp;<br>&nbsp;&nbsp;○&nbsp;왕송호수변&nbsp;명품호수공원&nbsp;조성&nbsp;<br>&nbsp;&nbsp;○&nbsp;안양천&nbsp;산책로&nbsp;개방&nbsp;및&nbsp;정원조정<br>&nbsp;&nbsp;○&nbsp;반려견&nbsp;테마파크&nbsp;조성&nbsp;<br>&nbsp;&nbsp;○&nbsp;파크&nbsp;골프장,&nbsp;청계체육공원(축구장)조성<br>&nbsp;&nbsp;○&nbsp;부곡종합복지관&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;장애인&nbsp;편의시설&nbsp;및&nbsp;쉼터&nbsp;확충&nbsp;<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;일자리&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;단위&nbsp;사업별&nbsp;계획&nbsp;수립&nbsp;후&nbsp;집행<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;취임&nbsp;후&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;&nbsp;시비&nbsp;+&nbsp;도비&nbsp;+&nbsp;국비&nbsp;등</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

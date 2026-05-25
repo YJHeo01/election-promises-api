@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김돈곤 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	농어촌 기본소득 시범사업 지속 기반 마련</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="농어촌 기본소득 시범사업 지속 기반 마련">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;지역소멸&nbsp;위기&nbsp;극복<br>&nbsp;&nbsp;-&nbsp;인구증가<br>&nbsp;&nbsp;-&nbsp;도시&nbsp;지속&nbsp;발전&nbsp;동력&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;스마트&nbsp;청양&nbsp;범군민&nbsp;운동&nbsp;확산<br>&nbsp;&nbsp;-&nbsp;‘다-돌봄’&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;주민심부름꾼&nbsp;‘부르면&nbsp;달려가유’&nbsp;정책&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;에너지&nbsp;자립마을&nbsp;육성<br>&nbsp;&nbsp;-&nbsp;산동·산서&nbsp;이동&nbsp;슈퍼마켓&nbsp;운영<br>&nbsp;&nbsp;-&nbsp;경로당&nbsp;무상급식&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;지역&nbsp;공동체&nbsp;회복&nbsp;및&nbsp;상권&nbsp;활성화를&nbsp;통한&nbsp;시범사업&nbsp;성과&nbsp;창출<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;2026년&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;정부의&nbsp;농어촌&nbsp;기본소득&nbsp;시범사업&nbsp;확대&nbsp;방침에&nbsp;따른&nbsp;지역&nbsp;성과&nbsp;창출로&nbsp;지속적인&nbsp;기본소득&nbsp;지원&nbsp;체계&nbsp;마련(국비,&nbsp;도비&nbsp;확보)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	전 경로당 무상급식 및 전 군민 시내버스 무료화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="전 경로당 무상급식 및 전 군민 시내버스 무료화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;군민&nbsp;삶의&nbsp;질&nbsp;향상<br>&nbsp;&nbsp;-&nbsp;먹거리&nbsp;및&nbsp;이동&nbsp;복지&nbsp;실현<br>&nbsp;&nbsp;-&nbsp;편안한&nbsp;복지&nbsp;환경&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;푸드플랜&nbsp;고도화에&nbsp;따른&nbsp;먹거리&nbsp;생산&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;지역활성화재단&nbsp;활성화로&nbsp;경로당&nbsp;배송&nbsp;시스템&nbsp;마련<br>&nbsp;&nbsp;-&nbsp;시내버스&nbsp;무료화를&nbsp;위한&nbsp;단말기&nbsp;설치&nbsp;및&nbsp;시범운행<br>&nbsp;&nbsp;-&nbsp;‘다-돌봄’&nbsp;체계&nbsp;조기&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;2026년&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;국비,&nbsp;기금(지역소멸대응기금&nbsp;등),&nbsp;도비&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	청양군 보건의료원 기능 강화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="청양군 보건의료원 기능 강화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;군민&nbsp;보건·예방&nbsp;환경&nbsp;개선<br>&nbsp;&nbsp;-&nbsp;양질의&nbsp;의료&nbsp;서비스&nbsp;제공<br>&nbsp;&nbsp;-&nbsp;노년&nbsp;건강&nbsp;복지&nbsp;실현&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;응급실&nbsp;및&nbsp;입원실&nbsp;신축<br>&nbsp;&nbsp;-&nbsp;MRI(자기공명영상)&nbsp;도입<br>&nbsp;&nbsp;-&nbsp;혈액투석실&nbsp;설치<br>&nbsp;&nbsp;-&nbsp;노년전문병동&nbsp;신설<br>&nbsp;&nbsp;-&nbsp;보건&nbsp;+&nbsp;의료&nbsp;기능&nbsp;일부&nbsp;분리&nbsp;이전<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;2026년&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;국비,&nbsp;지방비&nbsp;등&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	스포츠 중심 도시 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="스포츠 중심 도시 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;생활·관계인구&nbsp;유입&nbsp;증대<br>&nbsp;&nbsp;-&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;-&nbsp;도시&nbsp;브랜딩&nbsp;강화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;공설운동장&nbsp;이전&nbsp;및&nbsp;기존&nbsp;체육시설&nbsp;집적화<br>&nbsp;&nbsp;-&nbsp;청양읍&nbsp;백세공원&nbsp;파크골프장&nbsp;이전<br>&nbsp;&nbsp;-&nbsp;탁구전용체육관&nbsp;건립<br>&nbsp;&nbsp;-&nbsp;가족체류형&nbsp;주거단지&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;공영수영장&nbsp;건립<br>&nbsp;&nbsp;-&nbsp;스포츠&nbsp;마케팅&nbsp;강화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;2026년&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;국비,&nbsp;기금(체육진흥기금&nbsp;등),&nbsp;도비&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	청양형 교육 도시 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="청양형 교육 도시 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;-&nbsp;지역&nbsp;인재&nbsp;육성&nbsp;및&nbsp;유출&nbsp;방지<br>&nbsp;&nbsp;-&nbsp;양질의&nbsp;교육&nbsp;환경&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;인구&nbsp;유입&nbsp;증대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;초·중·고&nbsp;행복택시&nbsp;운영<br>&nbsp;&nbsp;-&nbsp;다문화가정&nbsp;자녀&nbsp;한글&nbsp;교육&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;AI&nbsp;학습&nbsp;지원&nbsp;서비스&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;AI&nbsp;디지털&nbsp;학습&nbsp;라운지&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;AI&nbsp;기반&nbsp;글로벌&nbsp;체험&nbsp;센터&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;지역&nbsp;전문&nbsp;인력(의료&nbsp;등)&nbsp;양성&nbsp;장학금&nbsp;제도&nbsp;신설<br>&nbsp;&nbsp;-&nbsp;숲속&nbsp;치유&nbsp;도서관&nbsp;건립&nbsp;<br><br>□&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;-&nbsp;2026년&nbsp;~&nbsp;2035년<br><br>□&nbsp;재원&nbsp;조달&nbsp;방안&nbsp;등<br>&nbsp;&nbsp;-&nbsp;국비,&nbsp;도비&nbsp;확보&nbsp;및&nbsp;청양사랑인재육성장학금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김홍규 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	미래산업 기반 확충과 일자리 창출.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="미래산업 기반 확충과 일자리 창출.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;강릉의&nbsp;산업구조&nbsp;개편을&nbsp;통한&nbsp;체질&nbsp;개선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국가물류&nbsp;거점&nbsp;도약을&nbsp;위한&nbsp;항만&nbsp;고도화&nbsp;및&nbsp;철송장&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가산단&nbsp;및&nbsp;옥계일반산단의&nbsp;활성화를&nbsp;위한&nbsp;기반&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;옥계항의&nbsp;지속적&nbsp;물동량&nbsp;확보를&nbsp;위한&nbsp;배후&nbsp;기반&nbsp;시설&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;국가산업단지&nbsp;조기&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신속한&nbsp;토지&nbsp;보상&nbsp;협의&nbsp;등&nbsp;선행절차&nbsp;완료&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;대규모&nbsp;AI데이터센터&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;SPC&nbsp;설립·직접&nbsp;투자<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;진입로&nbsp;및&nbsp;전력공급,&nbsp;상하수도&nbsp;등&nbsp;인프라&nbsp;구축&nbsp;지자체&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;AI특화&nbsp;시범도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;ITS세계총회로&nbsp;구축된&nbsp;고도화된&nbsp;하드웨어를&nbsp;도시&nbsp;운영&nbsp;전반&nbsp;관장하는&nbsp;AI도시로&nbsp;통합<br>&nbsp;&nbsp;○&nbsp;첨단&nbsp;신산업&nbsp;테스트베드&nbsp;및&nbsp;규제자유특구&nbsp;지정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;기술&nbsp;발전&nbsp;속도에&nbsp;대응하기&nbsp;위한&nbsp;신속한&nbsp;규제&nbsp;및&nbsp;절차&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;공무원과&nbsp;기업&nbsp;1:1&nbsp;매칭을&nbsp;통한&nbsp;기업유치&nbsp;및&nbsp;애로사항&nbsp;해결&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행정적&nbsp;지원&nbsp;정책으로,&nbsp;기업&nbsp;민원&nbsp;접수&nbsp;시스템&nbsp;등&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;강릉<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삼척간&nbsp;동해선&nbsp;고속철도&nbsp;복선화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동해안&nbsp;인적·물적&nbsp;이동&nbsp;원활화를&nbsp;위한&nbsp;복선화&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년(임기&nbsp;내)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	MICE산업을 융합한 사계절 글로벌 관광 도시 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="MICE산업을 융합한 사계절 글로벌 관광 도시 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;국제행사&nbsp;유치&nbsp;및&nbsp;체류형&nbsp;관광인프라와&nbsp;등을&nbsp;통한&nbsp;관광을&nbsp;더욱&nbsp;매력&nbsp;있게&nbsp;발전<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;관광산업&nbsp;인프라&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마이스&nbsp;산업&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강릉역&nbsp;연결축&nbsp;보행로&nbsp;개선&nbsp;및&nbsp;녹지&nbsp;조성을&nbsp;통한&nbsp;여행자&nbsp;거리&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강릉&nbsp;고유&nbsp;정체성&nbsp;담은&nbsp;주문진&nbsp;향호&nbsp;정원&nbsp;조성사업&nbsp;본격&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;안목&nbsp;죽도봉&nbsp;‘스카이밸리’2단계&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;도시브랜드의&nbsp;글로벌&nbsp;위상&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강릉&nbsp;e스포츠&nbsp;중심도시&nbsp;도약&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국제대회기반&nbsp;탁구&nbsp;거점&nbsp;도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;각종&nbsp;세계대회유치를&nbsp;통한&nbsp;글로벌&nbsp;위상&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;쾌적한&nbsp;도시환경&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시바람길&nbsp;숲&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경포&nbsp;솔향&nbsp;생태누리&nbsp;도시생태축&nbsp;복원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강릉의&nbsp;매력을&nbsp;담은&nbsp;강릉시립도서관&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;남대천&nbsp;강변(우측)&nbsp;자전거도로&nbsp;연결<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년(임기&nbsp;내)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	문화와 교육은 더 깊게, 복지와 안전은 더 촘촘하게 챙기겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="문화와 교육은 더 깊게, 복지와 안전은 더 촘촘하게 챙기겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;강릉시민&nbsp;여러분의&nbsp;삶&nbsp;속에&nbsp;더&nbsp;깊이&nbsp;들어가겠습니다.&nbsp;<br>&nbsp;<br>&nbsp;□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;강릉문화·체육&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강릉&nbsp;문화유산&nbsp;보존&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역예술가&nbsp;자립기반&nbsp;구축&nbsp;및&nbsp;창작공간&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관리기관,&nbsp;단체,&nbsp;협회,&nbsp;예술인,&nbsp;기업&nbsp;등을&nbsp;연결하는&nbsp;문화예술&nbsp;거버넌스&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;청소년·청년을&nbsp;위한&nbsp;성장사다리&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특성화고&nbsp;학생을&nbsp;위한&nbsp;다양한&nbsp;직업프로그램&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;IB교육기반&nbsp;구축을&nbsp;통한&nbsp;미래인재&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년정착&nbsp;올인원&nbsp;지원&nbsp;및&nbsp;인재육성기금&nbsp;200억&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;따뜻한&nbsp;복지공동체&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강릉형&nbsp;아동&nbsp;긴급&nbsp;안심&nbsp;돌봄사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보육교사,&nbsp;사회복지사&nbsp;및&nbsp;요양보호사&nbsp;처우개선&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;택배비&nbsp;지원&nbsp;및&nbsp;중장년&nbsp;재기를&nbsp;위한&nbsp;창업지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시니어&nbsp;통합&nbsp;복지사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;종합&nbsp;장애인&nbsp;평생&nbsp;돌봄센터&nbsp;설립&nbsp;및&nbsp;장애예술인&nbsp;지원&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합보건타운&nbsp;건립&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;안정적&nbsp;용수공급을&nbsp;위한&nbsp;인프라&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연곡·남대천&nbsp;지하수&nbsp;저류댐,&nbsp;대형관정&nbsp;설치&nbsp;등&nbsp;용수공급&nbsp;인프라&nbsp;구축&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연곡정수장&nbsp;현대화&nbsp;및&nbsp;증설사업<br>&nbsp;&nbsp;○&nbsp;안전한&nbsp;강릉&nbsp;만들기<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전기자동차&nbsp;전용구역&nbsp;화재예방&nbsp;안전시설&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어린이보호구역&nbsp;안전펜스&nbsp;설치&nbsp;등&nbsp;안전시설&nbsp;개선&nbsp;<br>&nbsp;<br>&nbsp;□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년(임기&nbsp;내)<br><br>&nbsp;□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	농어촌 환경 개선을 통한 삶의 질 향상</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="농어촌 환경 개선을 통한 삶의 질 향상">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;도농격차&nbsp;해소&nbsp;및&nbsp;지속가능한&nbsp;지역공동체&nbsp;유지<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;온라인&nbsp;도매시장&nbsp;통합물류센터&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강릉농산물도매시장에&nbsp;공동집하,&nbsp;재분류,&nbsp;공동배송&nbsp;체계&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;고령농민&nbsp;온열질환&nbsp;예방을&nbsp;위한&nbsp;냉감조끼&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;온열질환&nbsp;예방은&nbsp;물론&nbsp;쾌적한&nbsp;작업환경&nbsp;제공을&nbsp;위한&nbsp;작업용&nbsp;냉감조끼&nbsp;구입&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;농촌공간정비사업&nbsp;공모&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농촌공간계획&nbsp;수립을&nbsp;통해&nbsp;난개발&nbsp;등&nbsp;재구조화&nbsp;방향&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;강릉&nbsp;농어업인&nbsp;특화건강검진&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어업인에&nbsp;특히&nbsp;문제가&nbsp;되는&nbsp;질환까지&nbsp;포함한&nbsp;건강검진&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;태양광&nbsp;햇빛소득마을&nbsp;조성사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;태양광&nbsp;발전수익을&nbsp;통한&nbsp;주민소득&nbsp;증대&nbsp;및&nbsp;마을공동기금&nbsp;조성으로&nbsp;지역공동체&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;귀농·귀어·귀촌&nbsp;활성화를&nbsp;위한&nbsp;정착지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방치된&nbsp;빈집&nbsp;정비를&nbsp;통해&nbsp;도심&nbsp;슬럼화&nbsp;방지&nbsp;및&nbsp;마을&nbsp;미관&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;농산물&nbsp;비축기지&nbsp;건림<br>&nbsp;&nbsp;○&nbsp;필수농어업자재&nbsp;확대&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년(임기&nbsp;내)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	신뢰받는 행정 구현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="신뢰받는 행정 구현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시민이&nbsp;주인되는&nbsp;공정하고&nbsp;투명한&nbsp;강릉&nbsp;행정<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시민중심&nbsp;열린&nbsp;시정을&nbsp;위한&nbsp;‘찾아가는&nbsp;시장실’&nbsp;지속&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시청방문이&nbsp;어려운&nbsp;고령층이나&nbsp;원거리&nbsp;거주&nbsp;시민들의&nbsp;불편&nbsp;해소를&nbsp;위해&nbsp;시장이&nbsp;직접&nbsp;현장에서&nbsp;부서장들과&nbsp;함께&nbsp;민원&nbsp;청취&nbsp;및&nbsp;답변<br>&nbsp;&nbsp;○&nbsp;민원처리&nbsp;담당부서의&nbsp;신속한&nbsp;지정&nbsp;및&nbsp;회신을&nbsp;통한&nbsp;친절&nbsp;행정&nbsp;기능&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민원&nbsp;접수&nbsp;후&nbsp;담당자&nbsp;지정까지&nbsp;걸리는&nbsp;시간을&nbsp;단축함으로써&nbsp;행정에&nbsp;대한&nbsp;불필요한&nbsp;오해와&nbsp;불신&nbsp;제거<br>&nbsp;&nbsp;○&nbsp;강원특별자치도청&nbsp;제2청사&nbsp;기능&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영서와&nbsp;영동간의&nbsp;물리적&nbsp;거리에&nbsp;따른&nbsp;지리적&nbsp;소외감&nbsp;해소&nbsp;및&nbsp;행정&nbsp;접근성&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;강원특별자치도청&nbsp;제2소방본부&nbsp;신설&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대형&nbsp;재난&nbsp;발생&nbsp;시&nbsp;소방본부장의&nbsp;신속한&nbsp;초동지휘&nbsp;한계&nbsp;보완을&nbsp;위해&nbsp;영동지역&nbsp;소방자원&nbsp;총괄하는&nbsp;지역본부장&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;중앙정부&nbsp;2차&nbsp;공공기관&nbsp;이전에&nbsp;따른&nbsp;공공기관&nbsp;유치&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~&nbsp;2030년(임기&nbsp;내)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박맹우 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	울산 경제주체가 참여하는 “울산경제진흥확대회의” 설립 및 운영</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="울산 경제주체가 참여하는 “울산경제진흥확대회의” 설립 및 운영">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;울산경제진흥확대회의&nbsp;설립&nbsp;및&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주력산업&nbsp;침체와&nbsp;지역경제&nbsp;성장&nbsp;둔화에&nbsp;대응하기&nbsp;위해&nbsp;기업,&nbsp;노동계,&nbsp;소상공인,&nbsp;학계,&nbsp;연구기관,&nbsp;금융기관,&nbsp;시민사회&nbsp;등&nbsp;지역&nbsp;경제주체들이&nbsp;함께&nbsp;참여하는&nbsp;협력&nbsp;거버넌스&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;경제현안을&nbsp;신속하게&nbsp;논의하고,&nbsp;산업구조&nbsp;고도화,&nbsp;일자리&nbsp;창출,&nbsp;중소기업&nbsp;및&nbsp;소상공인&nbsp;지원&nbsp;정책을&nbsp;체계적으로&nbsp;마련함으로써&nbsp;울산경제의&nbsp;지속&nbsp;가능한&nbsp;성장&nbsp;기반&nbsp;강화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;울산경제진흥확대회의&nbsp;설치&nbsp;및&nbsp;정례&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시장&nbsp;직속&nbsp;협의기구로&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대기업,&nbsp;중소기업,&nbsp;소상공인,&nbsp;노동계,&nbsp;상공계,&nbsp;대학,&nbsp;연구기관,&nbsp;금융권&nbsp;등&nbsp;참여<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;분기별&nbsp;정례회의&nbsp;및&nbsp;긴급&nbsp;현안회의&nbsp;개최<br>&nbsp;&nbsp;○&nbsp;산업별&nbsp;현안&nbsp;대응&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자동차·조선·석유화학&nbsp;등&nbsp;주력산업&nbsp;경쟁력&nbsp;강화&nbsp;대책&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신산업&nbsp;육성&nbsp;전략&nbsp;발굴(반도체산업,&nbsp;전력산업,&nbsp;수소,&nbsp;친환경에너지,&nbsp;미래모빌리티&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;애로사항&nbsp;상시&nbsp;발굴&nbsp;및&nbsp;해결&nbsp;지원&nbsp;<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;일자리&nbsp;및&nbsp;민생경제&nbsp;대책&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;일자리&nbsp;창출&nbsp;방안&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;경영&nbsp;안정&nbsp;지원책&nbsp;논의<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;소비&nbsp;활성화&nbsp;정책&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;경제정책&nbsp;실행&nbsp;점검&nbsp;시스템&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정책&nbsp;추진상황&nbsp;정기&nbsp;점검<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성과&nbsp;평가&nbsp;및&nbsp;제도&nbsp;개선&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민&nbsp;의견&nbsp;수렴&nbsp;체계&nbsp;마련<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(취임&nbsp;후&nbsp;6개월&nbsp;이내)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;추진&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;위원&nbsp;구성&nbsp;완료<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출범식&nbsp;및&nbsp;첫&nbsp;회의&nbsp;개최<br>&nbsp;&nbsp;○&nbsp;중기(취임&nbsp;후&nbsp;1~2년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업별&nbsp;지원대책&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경제현안&nbsp;해결&nbsp;시스템&nbsp;정착<br>&nbsp;&nbsp;○&nbsp;장기(취임&nbsp;후&nbsp;3~4년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지속&nbsp;가능한&nbsp;민관&nbsp;협력&nbsp;경제&nbsp;거버넌스&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역경제&nbsp;성장&nbsp;성과&nbsp;창출<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;경제&nbsp;관련&nbsp;행정조직&nbsp;및&nbsp;정책협의&nbsp;예산&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;회의&nbsp;운영비&nbsp;등&nbsp;최소&nbsp;행정비용은&nbsp;시&nbsp;예산&nbsp;반영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;경제기관&nbsp;협력사업&nbsp;연계를&nbsp;통한&nbsp;추가&nbsp;재원&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	울산 산업 AI 대전환 및 신산업 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="울산 산업 AI 대전환 및 신산업 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;울산&nbsp;주력산업인&nbsp;조선·자동차·석유화학&nbsp;산업의&nbsp;경쟁력을&nbsp;강화하고,&nbsp;AI·반도체·전력·피지컬&nbsp;AI&nbsp;등&nbsp;미래&nbsp;신산업을&nbsp;육성하여&nbsp;울산을&nbsp;대한민국&nbsp;최고의&nbsp;AI&nbsp;산업&nbsp;수도로&nbsp;재도약<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;울산산업&nbsp;AI&nbsp;대전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;조선·자동차·석유화학&nbsp;산업&nbsp;전반에&nbsp;AI&nbsp;기반&nbsp;스마트&nbsp;제조&nbsp;시스템&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;산업혁신&nbsp;거점센터&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;연구개발,&nbsp;실증,&nbsp;창업지원&nbsp;기능을&nbsp;갖춘&nbsp;산업혁신&nbsp;거점&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;파워(전력)&nbsp;도시&nbsp;울산&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전고체&nbsp;밧데리&nbsp;등&nbsp;소재&nbsp;기업&nbsp;중점&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전력(Power)&nbsp;공급&nbsp;역량&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원전&nbsp;2기&nbsp;추가&nbsp;유치&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부유식&nbsp;해상풍력&nbsp;발전소&nbsp;건설<br>&nbsp;&nbsp;○&nbsp;울산형&nbsp;반도체&nbsp;산업&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대규모&nbsp;반도체&nbsp;투자&nbsp;유치(50조~100조)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반도체&nbsp;소재산업,&nbsp;자동차·전력·이차전지&nbsp;특화&nbsp;반도체&nbsp;파운드리(Foundry)&nbsp;집중&nbsp;지원&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;피지컬(Physical)&nbsp;AI&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자동차&nbsp;부품회사&nbsp;중심,&nbsp;액츄에이터(actuator),&nbsp;드라이버,&nbsp;모터기업&nbsp;적극&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;글로벌&nbsp;로봇산업의&nbsp;주요&nbsp;공급망으로&nbsp;발전<br>&nbsp;&nbsp;○&nbsp;조선산업&nbsp;구조&nbsp;고도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방위산업&nbsp;및&nbsp;에너지산업으로&nbsp;확대&nbsp;발전<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미&nbsp;해군&nbsp;MRO(maintenance,&nbsp;repair,&nbsp;operation)&nbsp;및&nbsp;군함&nbsp;건조&nbsp;대비&nbsp;협력업체&nbsp;기술&nbsp;및&nbsp;인력&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;초고압&nbsp;변압기&nbsp;및&nbsp;발전용&nbsp;선박엔진&nbsp;주요&nbsp;산업으로&nbsp;발전<br>&nbsp;&nbsp;○&nbsp;석유화학&nbsp;구조&nbsp;고도화&nbsp;및&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;친환경·고부가가치&nbsp;석유화학&nbsp;산업&nbsp;전환&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년)&nbsp;:&nbsp;기반&nbsp;구축&nbsp;및&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;중기(3~3년)&nbsp;:&nbsp;산업&nbsp;클러스터&nbsp;조성&nbsp;및&nbsp;기술&nbsp;확산<br>&nbsp;&nbsp;○&nbsp;장기(5년이상)&nbsp;:&nbsp;산업&nbsp;고도화&nbsp;및&nbsp;글로벌&nbsp;경쟁력&nbsp;확보<br><br>□&nbsp;재원조달&nbsp;방안&nbsp;<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;국비&nbsp;및&nbsp;공모사업&nbsp;적극&nbsp;확보,&nbsp;지방비&nbsp;투자&nbsp;확대,&nbsp;민간기업&nbsp;투자&nbsp;유치&nbsp;정책금융&nbsp;및&nbsp;산업기금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	저출산 정책, 아이키우기 좋은 도시 울산</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="저출산 정책, 아이키우기 좋은 도시 울산">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;출산&nbsp;양육비용&nbsp;경감&nbsp;및&nbsp;임신·출산&nbsp;의료지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부지원과&nbsp;울산형&nbsp;지원을&nbsp;통해&nbsp;출산·양육&nbsp;가계부담&nbsp;완화&nbsp;및&nbsp;분만비,&nbsp;산후조리비&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;아이키우기&nbsp;좋은&nbsp;돌봄환경&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공보육확대&nbsp;및&nbsp;돌봄체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;결혼·출산기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신혼부부&nbsp;전세자금&nbsp;이자지원&nbsp;및&nbsp;공공주택&nbsp;우선&nbsp;공급<br>&nbsp;&nbsp;○&nbsp;교육비&nbsp;경감으로&nbsp;양육부담&nbsp;완화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2~7세까지&nbsp;무상교육&nbsp;확대,&nbsp;영·유아&nbsp;활동복&nbsp;및&nbsp;교구·교재비&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;울산형&nbsp;공공키즈카페&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;5개&nbsp;구·군별&nbsp;공공키즈카페&nbsp;설치<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;출산지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첫째&nbsp;출생지원금&nbsp;300만원,&nbsp;둘째&nbsp;출산지원금&nbsp;800만원,&nbsp;셋째&nbsp;이상&nbsp;특별&nbsp;지원금&nbsp;2,000만원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첫&nbsp;만남&nbsp;이용권&nbsp;지급(정부&nbsp;200만&nbsp;원+울산시&nbsp;50만&nbsp;원)&nbsp;<br>&nbsp;&nbsp;○&nbsp;임신·출산&nbsp;의료지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;분만비(자연분만·제왕절개)&nbsp;본인부담금&nbsp;전액&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산후조리비&nbsp;200만&nbsp;원&nbsp;<br>&nbsp;&nbsp;○&nbsp;양육비&nbsp;부담&nbsp;완화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;0세&nbsp;유아&nbsp;부모&nbsp;급여&nbsp;월&nbsp;100만&nbsp;원&nbsp;지급,&nbsp;1세&nbsp;유아&nbsp;부모&nbsp;수당&nbsp;월&nbsp;70만원&nbsp;지급,&nbsp;2세&nbsp;유아&nbsp;조부모&nbsp;양육&nbsp;수당&nbsp;월&nbsp;30만원&nbsp;지급,&nbsp;만&nbsp;8세&nbsp;이하&nbsp;아동수당&nbsp;월&nbsp;10만&nbsp;원&nbsp;이상&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;돌봄&nbsp;인프라&nbsp;확충&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;24시간&nbsp;긴급&nbsp;돌봄&nbsp;쳬계&nbsp;단계적&nbsp;구축,&nbsp;야간·주말&nbsp;돌봄&nbsp;서비스&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;신혼부부&nbsp;정착&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신혼부부&nbsp;전세자금&nbsp;이자&nbsp;지원&nbsp;확대&nbsp;및&nbsp;공공임대주택&nbsp;우선&nbsp;공급&nbsp;<br>&nbsp;&nbsp;○&nbsp;교육비&nbsp;경감&nbsp;정책<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2~7세&nbsp;무상교육(어린이집,&nbsp;유치원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;초등&nbsp;입학&nbsp;축하금&nbsp;20만&nbsp;원&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방과&nbsp;후·돌봄&nbsp;무상&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영·유아&nbsp;교구·교재비&nbsp;지원(어린이집&nbsp;및&nbsp;유치원)<br>&nbsp;&nbsp;○&nbsp;울산형&nbsp;공공키즈카페&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;5개&nbsp;구·군별&nbsp;1개소&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시설별&nbsp;약&nbsp;500~1,000평&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년)&nbsp;:&nbsp;제도&nbsp;설계&nbsp;및&nbsp;조례&nbsp;개정,&nbsp;예산&nbsp;확보&nbsp;및&nbsp;시범사업&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;중기(3~4년)&nbsp;:&nbsp;핵심&nbsp;지원정책&nbsp;전면&nbsp;시행,&nbsp;인프라&nbsp;확충&nbsp;<br>&nbsp;&nbsp;○&nbsp;장기(5년&nbsp;이상)&nbsp;:&nbsp;정책&nbsp;안정화&nbsp;및&nbsp;전국&nbsp;최고&nbsp;수준&nbsp;정착<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;출산·복지&nbsp;예산&nbsp;구조조정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비&nbsp;매칭사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불필요한&nbsp;예산&nbsp;절감&nbsp;및&nbsp;재배분<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;협력&nbsp;및&nbsp;사회공헌&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중·장기적으로&nbsp;인구&nbsp;증가에&nbsp;따른&nbsp;세수&nbsp;확대</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	역사와 미래가 공존하는 체류형 문화·관광 도시 울산</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="역사와 미래가 공존하는 체류형 문화·관광 도시 울산">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;태화강&nbsp;재정비<br>&nbsp;&nbsp;○&nbsp;태화강&nbsp;국가정원과&nbsp;연계한&nbsp;복합&nbsp;관광벨트&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;카약·조정·소형요트,&nbsp;국제공인&nbsp;카누&nbsp;스프린트&nbsp;경기장&nbsp;등&nbsp;수상레저&nbsp;복합지구&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;체류형&nbsp;관광&nbsp;및&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;숙박·상업·문화시설과&nbsp;연계한&nbsp;체류형&nbsp;관광&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전통&nbsp;나루터&nbsp;복원<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;태화강&nbsp;재정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;준설,&nbsp;지천관리,&nbsp;하수관&nbsp;재정비<br>&nbsp;&nbsp;○&nbsp;태화강&nbsp;수상레저&nbsp;복합지구&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;태화강&nbsp;주요&nbsp;구간&nbsp;수상레저&nbsp;특화지구&nbsp;지정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;계류시설,&nbsp;수변&nbsp;진출입&nbsp;시설,&nbsp;안전&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;수상체험&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;카약,&nbsp;조정(로잉),&nbsp;소형요트&nbsp;체험&nbsp;공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민&nbsp;및&nbsp;관광객&nbsp;대상&nbsp;체험&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육·체험·훈련이&nbsp;결합된&nbsp;다목적&nbsp;수상공간&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;국제공인&nbsp;카누&nbsp;스프린트&nbsp;경기장&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국제&nbsp;규격&nbsp;수로&nbsp;및&nbsp;경기시설&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국내외&nbsp;수상스포츠&nbsp;대회&nbsp;개최&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가대표&nbsp;및&nbsp;해외팀&nbsp;전지훈련&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국제&nbsp;스포츠&nbsp;이벤트&nbsp;개최&nbsp;가능한&nbsp;인프라&nbsp;확보&nbsp;<br>&nbsp;&nbsp;○&nbsp;태화강&nbsp;국가정원&nbsp;연계&nbsp;관광벨트&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가정원과&nbsp;수변레저지구&nbsp;간&nbsp;보행·자전거·수상&nbsp;동선&nbsp;연결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가정원·수변·문화공간을&nbsp;연결하는&nbsp;통합&nbsp;관광루트&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간경관&nbsp;및&nbsp;테마형&nbsp;관광&nbsp;콘텐츠&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가정원&nbsp;방문객의&nbsp;수상레저&nbsp;체험&nbsp;연계&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;체류형&nbsp;관광&nbsp;및&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;숙박·상업·문화시설과&nbsp;연계한&nbsp;체류형&nbsp;관광&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가정원&nbsp;기반&nbsp;관광객의&nbsp;체류시간&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;태화강&nbsp;나루터&nbsp;복원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년):&nbsp;기본계획&nbsp;수립,&nbsp;국가정원&nbsp;연계구간&nbsp;설정,&nbsp;시범사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;중기(3~4년):&nbsp;수상레저&nbsp;시설&nbsp;및&nbsp;체험&nbsp;인프라&nbsp;구축,&nbsp;연계&nbsp;동선&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;장기(5년&nbsp;이상):&nbsp;국제경기장&nbsp;완공&nbsp;및&nbsp;국제대회·관광벨트&nbsp;완성<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;지원사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가&nbsp;전략사업&nbsp;및&nbsp;지역균형발전사업&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화체육관광부·국토교통부&nbsp;공모사업&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;하천정비,&nbsp;체육시설&nbsp;조성,&nbsp;국가정원&nbsp;연계&nbsp;관광개발<br>&nbsp;&nbsp;○&nbsp;울산시&nbsp;및&nbsp;지방정부&nbsp;예산&nbsp;투입<br>&nbsp;&nbsp;○&nbsp;공공기관&nbsp;및&nbsp;체육진흥기금&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;민간투자(PPP)&nbsp;방식&nbsp;통한&nbsp;관광·레저시설&nbsp;개발</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	청년이 떠나지 않는 도시 울산</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="청년이 떠나지 않는 도시 울산">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;&nbsp;표<br>&nbsp;&nbsp;○&nbsp;핵심&nbsp;목표&nbsp;3가지&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;탈울산구조&nbsp;차단<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;일자리&nbsp;정착<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활기반확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;문화인프라&nbsp;확충<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;울산&nbsp;3대&nbsp;주력산업,&nbsp;신산업과&nbsp;연계한&nbsp;청년취업&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반도체&nbsp;산업,&nbsp;전력&nbsp;에너지&nbsp;산업,&nbsp;AI&nbsp;산업&nbsp;중심&nbsp;청년&nbsp;채용&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;인턴확대&nbsp;및&nbsp;정규직&nbsp;전환지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;창업펀드&nbsp;5,000억&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;주거&nbsp;부담&nbsp;경감<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;월세&nbsp;지원&nbsp;30만원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;임대아파트&nbsp;건립(구·군별&nbsp;1,000세대)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신혼부부&nbsp;전세&nbsp;대출이자&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;창업특구&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;울산&nbsp;도심&nbsp;유휴공간&nbsp;활용&nbsp;창업거리&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창업&nbsp;임대료&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스타트업&nbsp;투자&nbsp;연계&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;창업&nbsp;실패&nbsp;재도전&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;문화·여가&nbsp;도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간&nbsp;문화거리&nbsp;및&nbsp;공연장·전시&nbsp;공간&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;스포츠&nbsp;시설&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화·여가&nbsp;활동지원(문화·체육·자기개발&nbsp;프로그램&nbsp;확대)<br>&nbsp;&nbsp;○&nbsp;결혼·출산·육아&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신혼부부&nbsp;주택&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출산지원금&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공&nbsp;돌봄&nbsp;시설&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;청년정책&nbsp;통합&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;원스톱&nbsp;청년지원&nbsp;플랫폼&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;의견수렴&nbsp;및&nbsp;정책반영&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년)&nbsp;:&nbsp;청년정책&nbsp;전담조직&nbsp;강화,&nbsp;통합&nbsp;플랫폼&nbsp;구축,&nbsp;월세&nbsp;및&nbsp;취업지원&nbsp;확대&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;중기(3~4년)&nbsp;:&nbsp;청년주택&nbsp;확대,&nbsp;자산형성&nbsp;사업&nbsp;시행,&nbsp;기업연계&nbsp;취업&nbsp;시스템&nbsp;본격화<br>&nbsp;&nbsp;○&nbsp;장기(5년&nbsp;이상)&nbsp;:&nbsp;성과&nbsp;평가&nbsp;및&nbsp;확대&nbsp;시행,&nbsp;지속&nbsp;가능한&nbsp;청년&nbsp;정착&nbsp;시스템&nbsp;완성<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;-&nbsp;국비&nbsp;지원사업&nbsp;적극&nbsp;확보<br>&nbsp;&nbsp;-&nbsp;지방&nbsp;청년·일자리&nbsp;관련&nbsp;예산&nbsp;구조조정&nbsp;<br>&nbsp;&nbsp;-&nbsp;산업체&nbsp;협력&nbsp;재원&nbsp;연계<br>&nbsp;&nbsp;-&nbsp;민간&nbsp;투자&nbsp;유치&nbsp;확대</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

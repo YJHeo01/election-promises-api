@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;장인홍 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	도약하는 구로</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="도약하는 구로">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;중장기&nbsp;구로구&nbsp;발전을&nbsp;선도할&nbsp;신성장동력을&nbsp;구축하고,&nbsp;낡은&nbsp;주거&nbsp;및&nbsp;도시기반시설을&nbsp;재정비하여&nbsp;구로의&nbsp;가치를&nbsp;제고함.<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;중심의&nbsp;재개발·재건축사업&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;철도&nbsp;지하화&nbsp;적극&nbsp;추진&nbsp;및&nbsp;복합개발계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;구로차량기지&nbsp;이전&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;신구로선&nbsp;조속&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;온수역세권&nbsp;및&nbsp;온수&nbsp;럭비구장(특별계획구역)&nbsp;복합개발&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;오류시장&nbsp;안전&nbsp;조치&nbsp;및&nbsp;상생하는&nbsp;대안적&nbsp;개발&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;구로동&nbsp;캠코&nbsp;부지&nbsp;복합개발&nbsp;계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;가리봉&nbsp;구(舊)시장부지&nbsp;복합시설&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;개봉역&nbsp;역세권&nbsp;활성화&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;구로역&nbsp;및&nbsp;신도림역세권&nbsp;개발을&nbsp;위한&nbsp;지구단위계획&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;신도림역&nbsp;남측광장&nbsp;개발(신도림역&nbsp;구로1유수지&nbsp;공영주차장&nbsp;조성&nbsp;포함)<br>&nbsp;&nbsp;○&nbsp;고척동&nbsp;교정시설&nbsp;이적지&nbsp;내&nbsp;복합시설,&nbsp;구로세무서,&nbsp;공원,&nbsp;주차장&nbsp;조성&nbsp;<br>&nbsp;&nbsp;○&nbsp;G밸리&nbsp;바이오,&nbsp;신산업,&nbsp;직주융합&nbsp;개발(생활권&nbsp;보행환경&nbsp;종합정비&nbsp;포함)<br>&nbsp;&nbsp;○&nbsp;온수산단&nbsp;현대화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;16개동&nbsp;현안·숙원&nbsp;사업&nbsp;적극&nbsp;해결&nbsp;&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;2030년&nbsp;6월&nbsp;임기&nbsp;내&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;계속&nbsp;추진&nbsp;:&nbsp;사업기간이&nbsp;4년이&nbsp;초과되는&nbsp;중장기&nbsp;사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시·구비&nbsp;일반회계&nbsp;및&nbsp;기금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	기본이 튼튼한 사회</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="기본이 튼튼한 사회">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;넘어져도&nbsp;다시&nbsp;일어날&nbsp;수&nbsp;있는&nbsp;지역사회의&nbsp;사회적&nbsp;안전망을&nbsp;강화하는&nbsp;동시에&nbsp;주민&nbsp;누구나&nbsp;차별받지&nbsp;않고&nbsp;인간다운&nbsp;삶을&nbsp;살아갈&nbsp;수&nbsp;있는&nbsp;기본권을&nbsp;보장함.<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;구로사회서비스재단&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;사는&nbsp;곳&nbsp;가까운&nbsp;곳에&nbsp;돌봄서비스를&nbsp;받는&nbsp;통합돌봄사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;개봉동&nbsp;종합사회복지관&nbsp;조속&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;여성친화&nbsp;안심도시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;여성&nbsp;청소년&nbsp;위생용품&nbsp;맞춤형&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;공공산후조리원&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;출산가정&nbsp;산후조리비용&nbsp;확대&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;대상포진&nbsp;예방접종&nbsp;지원사업<br>&nbsp;&nbsp;○&nbsp;경로당&nbsp;지원&nbsp;확대&nbsp;및&nbsp;환경개선&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;여성·청년&nbsp;1인&nbsp;가구&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;구립&nbsp;장애인종합복지관&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;발달장애인&nbsp;일상생활배상책임보험&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;장애인평생학습도시&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;사회연대경제&nbsp;활성화를&nbsp;통해&nbsp;대안적&nbsp;지역경제공동체&nbsp;구축&nbsp;<br>&nbsp;&nbsp;○&nbsp;교통약자와&nbsp;사각지대&nbsp;해소를&nbsp;위한&nbsp;공공시설&nbsp;순환버스&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;보건지소&nbsp;한방진료실&nbsp;설치&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;일차의료&nbsp;방문진료&nbsp;본인부담금&nbsp;지원<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;2030년&nbsp;6월&nbsp;임기&nbsp;내&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;계속&nbsp;추진&nbsp;:&nbsp;사업기간이&nbsp;4년이&nbsp;초과되는&nbsp;중장기&nbsp;사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시·구비&nbsp;일반회계&nbsp;및&nbsp;기금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	활력이 넘치는 지역경제</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="활력이 넘치는 지역경제">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;정년·여성·중장년을&nbsp;위한&nbsp;일자리&nbsp;정책과&nbsp;소상공인&nbsp;정책을&nbsp;확대&nbsp;강화하여&nbsp;근로소득과&nbsp;사업소득을&nbsp;증대하고&nbsp;삶의&nbsp;경제적&nbsp;토대를&nbsp;더&nbsp;단단하게&nbsp;만듦.&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;새로운&nbsp;일자리&nbsp;주식회사&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;지역경제의&nbsp;마중물&nbsp;‘구로사랑상품권’&nbsp;지속·확대&nbsp;발행<br>&nbsp;&nbsp;○&nbsp;중소기업·소상공인&nbsp;경영&nbsp;자금&nbsp;융자&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;전통시장&nbsp;활성화&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;고척근린시장&nbsp;고객지원센터&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;골목상권&nbsp;활성화&nbsp;지원(골목상권&nbsp;지표개발)<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;창업지원센터&nbsp;운영&nbsp;및&nbsp;청년창업&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;다시&nbsp;시작할&nbsp;수&nbsp;있도록&nbsp;도와주는&nbsp;청년도전&nbsp;지원사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;국가자격시험&nbsp;응시료&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;경력보유여성&nbsp;일자리창출&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;중장년&nbsp;일자리창출&nbsp;지원&nbsp;사업<br>&nbsp;&nbsp;○&nbsp;공공일자리&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;사회적&nbsp;일자리&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;2030년&nbsp;6월&nbsp;임기&nbsp;내&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;계속&nbsp;추진&nbsp;:&nbsp;사업기간이&nbsp;4년이&nbsp;초과되는&nbsp;중장기&nbsp;사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시·구비&nbsp;일반회계&nbsp;및&nbsp;기금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	지속가능한 발전</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="지속가능한 발전">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지속가능한&nbsp;사회를&nbsp;위해&nbsp;교육·생태·생활체육·장애·안전분야에&nbsp;사회투자를&nbsp;강화하고&nbsp;기반&nbsp;시설을&nbsp;구축함.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;구로&nbsp;지속가능발전&nbsp;종합계획&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;학교&nbsp;교육환경&nbsp;개선사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;안전한&nbsp;학교환경&nbsp;조성사업&nbsp;확대&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;기초학력&nbsp;향상&nbsp;지원사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;구로교육협력특화지구&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;청소년&nbsp;활동시설&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;나이와&nbsp;상관없이&nbsp;배우고&nbsp;싶은&nbsp;누구나&nbsp;배울&nbsp;수&nbsp;있는&nbsp;평생학습도시&nbsp;기반&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;민주시민교육&nbsp;등&nbsp;평생학습프로그램의&nbsp;다양화<br>&nbsp;&nbsp;○&nbsp;기후위기&nbsp;대응&nbsp;탄소중립&nbsp;도시&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;안양천ㆍ도림천ㆍ목감천&nbsp;명품&nbsp;생태문화&nbsp;하천화사업<br>&nbsp;&nbsp;○&nbsp;기후위기&nbsp;인식전환과&nbsp;체험교육을&nbsp;위한&nbsp;기후위기&nbsp;체험센터&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;항동&nbsp;국민체육센터&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;신도림차고지&nbsp;이전부지&nbsp;체육·문화&nbsp;복합시설&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;신구로유수지&nbsp;체육·문화&nbsp;복합시설&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;반려동물&nbsp;친화도시&nbsp;조성(목감천변&nbsp;등&nbsp;반려동물&nbsp;놀이터)<br>&nbsp;&nbsp;○&nbsp;싱크홀로부터&nbsp;안전한&nbsp;사회&nbsp;만들기(지반침하&nbsp;위험구간&nbsp;공동조사&nbsp;용역)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;2030년&nbsp;6월&nbsp;임기&nbsp;내&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;계속&nbsp;추진&nbsp;:&nbsp;사업기간이&nbsp;4년이&nbsp;초과되는&nbsp;중장기&nbsp;사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시·구비&nbsp;일반회계&nbsp;및&nbsp;기금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	AI·자치 혁신행정</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="AI·자치 혁신행정">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;AI·데이터기반의&nbsp;행정&nbsp;혁신을&nbsp;추진하여&nbsp;행정의&nbsp;책임성·대응성·신뢰성을&nbsp;높여&nbsp;행정서비스&nbsp;질&nbsp;제고<br>&nbsp;&nbsp;○&nbsp;주민참여&nbsp;및&nbsp;민관거버넌스&nbsp;방식을&nbsp;행정&nbsp;전반에&nbsp;확대하여&nbsp;진정한&nbsp;주민자치&nbsp;발전을&nbsp;도모.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;AI·데이터기반행정&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;기후위기·저출생고령화·청년·노동문제에&nbsp;책임성과&nbsp;대응성을&nbsp;높이는&nbsp;행정기구&nbsp;개편&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;주민이&nbsp;구로구의&nbsp;주인되는&nbsp;주민자치회&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;민관협치&nbsp;사업방식의&nbsp;내실화&nbsp;및&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;실질적&nbsp;재정민주주의를&nbsp;구현하는&nbsp;주민참여예산제도&nbsp;혁신<br>&nbsp;&nbsp;○&nbsp;주민참여&nbsp;및&nbsp;혁신과제&nbsp;발굴을&nbsp;위한&nbsp;주민정책제안제도&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;주민이&nbsp;참여하고&nbsp;주도하는&nbsp;문화예술프로그램&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;다문화&nbsp;및&nbsp;외국인&nbsp;구정&nbsp;참여&nbsp;활성화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;2030년&nbsp;6월&nbsp;임기&nbsp;내&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;7월&nbsp;~&nbsp;계속&nbsp;추진&nbsp;:&nbsp;사업기간이&nbsp;4년이&nbsp;초과되는&nbsp;중장기&nbsp;사업<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시·구비&nbsp;일반회계&nbsp;및&nbsp;기금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김태성 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	전 군민 택배비 추가요금 0원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="전 군민 택배비 추가요금 0원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신안군&nbsp;전&nbsp;군민을&nbsp;대상으로&nbsp;도서&nbsp;지역&nbsp;택배&nbsp;추가요금을&nbsp;전면&nbsp;폐지합니다.&nbsp;섬&nbsp;주민이&nbsp;육지와&nbsp;동일한&nbsp;조건으로&nbsp;택배&nbsp;서비스를&nbsp;이용할&nbsp;수&nbsp;있도록&nbsp;물류&nbsp;불평등&nbsp;구조를&nbsp;근본적으로&nbsp;해소합니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;택배사&nbsp;통합&nbsp;협약&nbsp;체결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도서지역&nbsp;공동&nbsp;물류센터&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공동&nbsp;배송체계&nbsp;도입으로&nbsp;물류비&nbsp;절감<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군&nbsp;재정&nbsp;지원으로&nbsp;추가요금&nbsp;전면&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현황조사&nbsp;→&nbsp;군민의견&nbsp;수렴&nbsp;→&nbsp;계획수립&nbsp;→&nbsp;사업시행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026~2030&nbsp;(민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;완료)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비,&nbsp;도ㆍ군비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	어르신 택시비 1,000원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="어르신 택시비 1,000원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고령자&nbsp;및&nbsp;교통약자를&nbsp;대상으로&nbsp;택시&nbsp;이용요금을&nbsp;1,000원으로&nbsp;지원하여&nbsp;의료·복지&nbsp;이동권을&nbsp;보장하고&nbsp;섬&nbsp;주민의&nbsp;교통&nbsp;불편을&nbsp;해소합니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고령자&nbsp;및&nbsp;교통약자&nbsp;대상자&nbsp;기준&nbsp;설정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;택시업계&nbsp;협약&nbsp;및&nbsp;이용체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;바우처·카드&nbsp;기반&nbsp;결제&nbsp;시스템&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료·복지&nbsp;이동권&nbsp;보장&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026~2030&nbsp;(민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;완료)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비,&nbsp;도ㆍ군비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	농수산물 통합 직거래 유통·판매센터 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="농수산물 통합 직거래 유통·판매센터 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신안군&nbsp;농수산물의&nbsp;생산부터&nbsp;판매까지&nbsp;통합&nbsp;직거래&nbsp;유통&nbsp;체계를&nbsp;군&nbsp;직영으로&nbsp;구축하여&nbsp;생산자&nbsp;소득을&nbsp;높이고&nbsp;지역&nbsp;경제를&nbsp;활성화합니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산지&nbsp;중심&nbsp;통합&nbsp;유통·물류센터&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;온라인&nbsp;직거래&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생산자&nbsp;조직화&nbsp;및&nbsp;협동조합&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대형&nbsp;유통망&nbsp;및&nbsp;해외&nbsp;수출&nbsp;연계<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026~2030&nbsp;(민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;시행)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비(매칭사업),&nbsp;도ㆍ군비,&nbsp;민자(플렛폼&nbsp;구축)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	 0원(입주비) 하우스 조성 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title=" 0원(입주비) 하우스 조성 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            4&nbsp;&nbsp;제목&nbsp;:&nbsp;0원(입주비)&nbsp;하우스&nbsp;조성<br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방치된&nbsp;빈집을&nbsp;활용하여&nbsp;청년·귀촌인에게&nbsp;무상&nbsp;또는&nbsp;저렴한&nbsp;주거를&nbsp;제공하고,&nbsp;인구&nbsp;유입과&nbsp;지역&nbsp;정착을&nbsp;촉진합니다.<br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방치&nbsp;빈집&nbsp;전수조사&nbsp;및&nbsp;체계적&nbsp;DB&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공&nbsp;매입&nbsp;및&nbsp;장기임대&nbsp;방식&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;리모델링&nbsp;및&nbsp;에너지&nbsp;효율&nbsp;개선&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년·귀촌인&nbsp;정착&nbsp;및&nbsp;창업&nbsp;연계&nbsp;프로그램&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026~2030&nbsp;(민선&nbsp;9기&nbsp;임기&nbsp;내&nbsp;완료)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비,&nbsp;도ㆍ군비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	대기업이 신안에서 돈을 벌면 군민의 지갑으로</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="대기업이 신안에서 돈을 벌면 군민의 지갑으로">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;RE100·재생에너지&nbsp;산업을&nbsp;기반으로&nbsp;대기업을&nbsp;신안에&nbsp;유치하고,&nbsp;기업&nbsp;이익이&nbsp;군민&nbsp;소득으로&nbsp;환원되는&nbsp;지역&nbsp;순환경제&nbsp;ESG&nbsp;구조를&nbsp;구축합니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;RE100·재생에너지&nbsp;특화&nbsp;산업단지&nbsp;지정&nbsp;및&nbsp;전략적&nbsp;ESG&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;투자유치&nbsp;전담&nbsp;조직&nbsp;운영&nbsp;및&nbsp;맞춤형&nbsp;인센티브&nbsp;패키지&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;참여형&nbsp;발전사업(지분·배당)&nbsp;의무화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;이익이&nbsp;군민&nbsp;소득으로&nbsp;환원되는&nbsp;지역&nbsp;순환경제&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현황조사&nbsp;→&nbsp;군민의견&nbsp;수렴&nbsp;→&nbsp;계획수립&nbsp;→&nbsp;사업시행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026~2030&nbsp;(민선&nbsp;9기&nbsp;임기&nbsp;내)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비,&nbsp;도ㆍ군비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;손화정 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	GTX-D·GTX-E 영종 직결 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="GTX-D·GTX-E 영종 직결 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;수도권&nbsp;광역교통망&nbsp;혁신을&nbsp;통해&nbsp;영종의&nbsp;접근성과&nbsp;도시경쟁력을&nbsp;획기적으로&nbsp;향상하고자&nbsp;함<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;GTX-D·GTX-E&nbsp;노선의&nbsp;영종&nbsp;연계를&nbsp;적극&nbsp;추진하여&nbsp;영종~서울&nbsp;주요&nbsp;업무지구&nbsp;이동시간&nbsp;단축&nbsp;기반&nbsp;마련&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공항철도&nbsp;중심&nbsp;교통체계의&nbsp;한계를&nbsp;보완하고&nbsp;주민&nbsp;출퇴근&nbsp;교통&nbsp;불편&nbsp;해소&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;국제공항&nbsp;배후도시에&nbsp;걸맞은&nbsp;광역교통&nbsp;인프라&nbsp;확충으로&nbsp;정주여건&nbsp;및&nbsp;도시&nbsp;경쟁력&nbsp;강화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;영종을&nbsp;수도권&nbsp;서부권&nbsp;핵심&nbsp;교통거점으로&nbsp;육성하여&nbsp;미래&nbsp;성장&nbsp;기반&nbsp;확보&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국가철도망&nbsp;계획과&nbsp;연계한&nbsp;단계적&nbsp;정책&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;제5차&nbsp;국가철도망&nbsp;구축계획&nbsp;및&nbsp;수도권&nbsp;광역교통계획&nbsp;반영&nbsp;건의&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;인천시·국토교통부·국회&nbsp;등&nbsp;관계기관과&nbsp;협력체계&nbsp;구축&nbsp;및&nbsp;정책&nbsp;대응&nbsp;강화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공항철도·GTX&nbsp;연계&nbsp;방안&nbsp;및&nbsp;환승체계&nbsp;개선&nbsp;검토&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;영종국제도시의&nbsp;인구&nbsp;증가와&nbsp;교통수요를&nbsp;반영한&nbsp;정책&nbsp;논리&nbsp;및&nbsp;타당성&nbsp;확보&nbsp;추진&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;중장기&nbsp;단계별&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;단기&nbsp;:&nbsp;국가계획&nbsp;반영&nbsp;및&nbsp;정책협의&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;중기&nbsp;:&nbsp;노선&nbsp;검토·예비타당성&nbsp;및&nbsp;관계기관&nbsp;협의&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;장기&nbsp;:&nbsp;광역철도&nbsp;연계체계&nbsp;구축&nbsp;및&nbsp;단계적&nbsp;사업&nbsp;추진&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;광역철도사업&nbsp;및&nbsp;광역교통&nbsp;재정체계&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;국비&nbsp;중심&nbsp;국가철도사업&nbsp;반영&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;광역교통개선대책&nbsp;및&nbsp;특별회계&nbsp;활용&nbsp;검토&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;인천시&nbsp;및&nbsp;국가균형발전&nbsp;정책사업과&nbsp;연계&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	영종 공공종합병원 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="영종 공공종합병원 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;응급·야간&nbsp;의료&nbsp;공백&nbsp;없는&nbsp;공공의료체계를&nbsp;구축하여&nbsp;주민&nbsp;생명과&nbsp;안전을&nbsp;보호하고자&nbsp;함<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공공종합병원&nbsp;유치&nbsp;기반을&nbsp;마련하여&nbsp;지역&nbsp;의료&nbsp;접근성&nbsp;향상&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;응급·야간&nbsp;진료체계&nbsp;강화를&nbsp;통해&nbsp;의료&nbsp;취약시간대&nbsp;주민&nbsp;불편&nbsp;최소화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공항&nbsp;이용객과&nbsp;지역주민&nbsp;수요를&nbsp;함께&nbsp;반영한&nbsp;공공의료&nbsp;인프라&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지속가능한&nbsp;지역&nbsp;의료체계&nbsp;조성으로&nbsp;정주환경&nbsp;경쟁력&nbsp;강화&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;공공의료&nbsp;기반&nbsp;확충&nbsp;및&nbsp;의료협력체계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공공병원&nbsp;설립&nbsp;타당성&nbsp;확보&nbsp;및&nbsp;정책협의&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;인천시·보건복지부·의료기관&nbsp;간&nbsp;협력체계&nbsp;구축&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;권역응급의료기관&nbsp;및&nbsp;상급병원&nbsp;연계체계&nbsp;강화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;응급·야간&nbsp;진료&nbsp;기능&nbsp;확대&nbsp;및&nbsp;의료&nbsp;접근성&nbsp;개선&nbsp;추진&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단계별&nbsp;중장기&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;단기&nbsp;:&nbsp;의료수요&nbsp;조사&nbsp;및&nbsp;정책협의&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;중기&nbsp;:&nbsp;병원&nbsp;유치&nbsp;및&nbsp;행정절차&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;장기&nbsp;:&nbsp;의료&nbsp;인프라&nbsp;구축&nbsp;및&nbsp;안정적&nbsp;운영체계&nbsp;마련&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·시비&nbsp;및&nbsp;공공보건의료사업&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공공보건의료&nbsp;확충&nbsp;관련&nbsp;정책사업&nbsp;적극&nbsp;활용&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지방재정&nbsp;및&nbsp;민간협력&nbsp;병행&nbsp;추진&nbsp;검토&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;의료시설&nbsp;투자유치&nbsp;및&nbsp;국비&nbsp;확보&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	공항경제권 미래일자리 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="공항경제권 미래일자리 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;공항경제권&nbsp;중심의&nbsp;미래산업&nbsp;육성과&nbsp;양질의&nbsp;일자리&nbsp;창출을&nbsp;통해&nbsp;자족도시&nbsp;기반을&nbsp;강화하고자&nbsp;함<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;항공·물류·관광&nbsp;산업&nbsp;경쟁력&nbsp;강화&nbsp;및&nbsp;미래&nbsp;성장동력&nbsp;확보&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;청년&nbsp;중심&nbsp;미래일자리&nbsp;확대와&nbsp;안정적&nbsp;정착&nbsp;기반&nbsp;마련&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지역상권&nbsp;활성화&nbsp;및&nbsp;소상공인&nbsp;경쟁력&nbsp;강화&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공항과&nbsp;연계된&nbsp;첨단산업&nbsp;생태계&nbsp;조성으로&nbsp;지속가능한&nbsp;지역경제&nbsp;기반&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;공항&nbsp;기반&nbsp;산업·일자리&nbsp;플랫폼&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;항공·물류·MICE·관광&nbsp;산업&nbsp;연계&nbsp;확대&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;청년&nbsp;창업&nbsp;지원&nbsp;및&nbsp;기업&nbsp;유치&nbsp;기반&nbsp;강화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;산학협력&nbsp;및&nbsp;지역인재&nbsp;연계&nbsp;일자리&nbsp;지원&nbsp;확대&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공항경제권과&nbsp;연계한&nbsp;서비스·첨단산업&nbsp;육성&nbsp;추진&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단계별&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;단기&nbsp;:&nbsp;청년·기업&nbsp;지원&nbsp;확대&nbsp;및&nbsp;일자리&nbsp;기반&nbsp;강화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;중기&nbsp;:&nbsp;공항경제권&nbsp;산업생태계&nbsp;조성&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;장기&nbsp;:&nbsp;미래산업&nbsp;중심&nbsp;자족도시&nbsp;기반&nbsp;구축&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시비&nbsp;및&nbsp;민관협력사업&nbsp;병행&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공항경제권&nbsp;및&nbsp;산업지원&nbsp;정책사업&nbsp;적극&nbsp;활용&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;기업투자&nbsp;및&nbsp;산업연계&nbsp;재원&nbsp;확보&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;민간투자&nbsp;및&nbsp;기업협력&nbsp;확대&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	환승관광·관광특구 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="환승관광·관광특구 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;영종을&nbsp;글로벌&nbsp;관광·문화&nbsp;중심도시로&nbsp;육성하여&nbsp;지역경제&nbsp;활성화&nbsp;기반을&nbsp;구축하고자&nbsp;함<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;환승관광&nbsp;활성화를&nbsp;통한&nbsp;체류형&nbsp;관광산업&nbsp;확대&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;관광특구&nbsp;지정&nbsp;기반&nbsp;마련&nbsp;및&nbsp;관광경쟁력&nbsp;강화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;K-콘텐츠와&nbsp;문화관광&nbsp;산업&nbsp;연계를&nbsp;통한&nbsp;미래&nbsp;관광도시&nbsp;기반&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;관광산업&nbsp;활성화를&nbsp;통한&nbsp;지역상권&nbsp;및&nbsp;경제&nbsp;활력&nbsp;제고&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;공항&nbsp;연계&nbsp;관광·문화산업&nbsp;융합전략&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;환승관광&nbsp;프로그램&nbsp;및&nbsp;관광코스&nbsp;확대&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;관광특구&nbsp;지정&nbsp;추진&nbsp;및&nbsp;제도&nbsp;기반&nbsp;마련&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;K-콘텐츠·문화예술·해양관광&nbsp;연계사업&nbsp;확대&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;복합관광&nbsp;인프라&nbsp;및&nbsp;관광편의시설&nbsp;확충&nbsp;추진&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단계별&nbsp;중장기&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;단기&nbsp;:&nbsp;관광&nbsp;활성화&nbsp;기반&nbsp;및&nbsp;프로그램&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;중기&nbsp;:&nbsp;관광특구&nbsp;지정&nbsp;및&nbsp;관광인프라&nbsp;확충&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;장기&nbsp;:&nbsp;글로벌&nbsp;관광산업&nbsp;생태계&nbsp;구축&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;관광진흥사업&nbsp;및&nbsp;민관협력&nbsp;재원&nbsp;활용&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;문화체육관광부&nbsp;관광사업&nbsp;및&nbsp;공모사업&nbsp;적극&nbsp;활용&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;관광특구·지역관광&nbsp;활성화&nbsp;사업&nbsp;연계&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;민간투자&nbsp;및&nbsp;관광기업&nbsp;협력&nbsp;확대&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	영종 행정타운 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="영종 행정타운 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;행정자립&nbsp;기반&nbsp;구축과&nbsp;주민&nbsp;중심&nbsp;행정서비스&nbsp;향상을&nbsp;추진하고자&nbsp;함<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;영종구&nbsp;중심&nbsp;행정체계&nbsp;구축&nbsp;및&nbsp;행정&nbsp;효율성&nbsp;강화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;주민&nbsp;접근형&nbsp;공공행정서비스&nbsp;확대&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;복합행정&nbsp;기능&nbsp;확충을&nbsp;통한&nbsp;도시&nbsp;자족성&nbsp;강화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;미래&nbsp;행정수요에&nbsp;대응하는&nbsp;지속가능한&nbsp;행정&nbsp;인프라&nbsp;구축&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;복합행정&nbsp;중심의&nbsp;행정타운&nbsp;단계적&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공공청사&nbsp;및&nbsp;행정지원시설&nbsp;단계적&nbsp;확충&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;주민편의&nbsp;중심&nbsp;복합행정&nbsp;기능&nbsp;도입&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공공기관&nbsp;유치&nbsp;및&nbsp;생활SOC&nbsp;연계&nbsp;강화&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단계별&nbsp;중장기&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;단기&nbsp;:&nbsp;행정타운&nbsp;조성&nbsp;행정절차&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;중기&nbsp;:&nbsp;공공행정&nbsp;중심축&nbsp;구축&nbsp;및&nbsp;운영체계&nbsp;확립<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지방재정&nbsp;및&nbsp;공공개발사업&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;지방비&nbsp;및&nbsp;특별교부금&nbsp;확보&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공공청사&nbsp;건립&nbsp;및&nbsp;도시개발사업&nbsp;연계&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;국·시비&nbsp;및&nbsp;민관협력&nbsp;재원&nbsp;병행&nbsp;검토</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

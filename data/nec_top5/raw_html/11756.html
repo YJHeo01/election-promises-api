@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;최창열 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	거창형 농어촌기본소득 도입</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="거창형 농어촌기본소득 도입">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농어촌&nbsp;인구감소&nbsp;및&nbsp;고령화&nbsp;대응<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;기본소비&nbsp;유지&nbsp;및&nbsp;지역상권&nbsp;보호<br>&nbsp;&nbsp;○&nbsp;농가&nbsp;및&nbsp;소상공인&nbsp;생산투입&nbsp;여력&nbsp;보전<br>&nbsp;&nbsp;○&nbsp;“거창에&nbsp;살면&nbsp;최소한의&nbsp;소득&nbsp;기반이&nbsp;보장된다”라는&nbsp;정착신호&nbsp;마련<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;정부&nbsp;농어촌기본소득&nbsp;시범사업&nbsp;선정&nbsp;적극대응<br>&nbsp;&nbsp;○&nbsp;개인당&nbsp;월&nbsp;15만&nbsp;원&nbsp;지급&nbsp;체계&nbsp;구축&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;내&nbsp;소비&nbsp;순환을&nbsp;위해&nbsp;지역사랑상품권&nbsp;등&nbsp;지역화폐&nbsp;중심&nbsp;지급<br>&nbsp;&nbsp;○&nbsp;미선정&nbsp;시&nbsp;군&nbsp;재정&nbsp;범위&nbsp;내&nbsp;‘거창형&nbsp;기본소득’&nbsp;우선&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;이후&nbsp;도비·국비&nbsp;추가&nbsp;확보를&nbsp;통한&nbsp;단계적&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~임기내<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;&nbsp;국비<br>&nbsp;&nbsp;○&nbsp;&nbsp;도비<br>&nbsp;&nbsp;○&nbsp;&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	거창적십자병원 이전·신축 사업 완수(권역 의료체계 구축)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="거창적십자병원 이전·신축 사업 완수(권역 의료체계 구축)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;거창권&nbsp;응급·필수의료&nbsp;공백해소<br>&nbsp;&nbsp;○&nbsp;거창적십자병원&nbsp;이전·신축사업&nbsp;예비타당성조사&nbsp;통과<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;착공&nbsp;및&nbsp;정상&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;거창&nbsp;중심의&nbsp;경남&nbsp;북부권&nbsp;필수의료&nbsp;거점&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;‘1·3·6골든타임’&nbsp;의료체계&nbsp;실현<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;사업규모와&nbsp;기능&nbsp;조정&nbsp;등을&nbsp;통한&nbsp;예타&nbsp;대응력&nbsp;제고<br>&nbsp;&nbsp;○&nbsp;경남도·기획예산처·보건복지부·국회&nbsp;연계&nbsp;합동&nbsp;TF&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;거창적십자병원을&nbsp;30분&nbsp;필수의료&nbsp;거점으로&nbsp;기능&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;진주·양산·창원&nbsp;등&nbsp;상급병원과&nbsp;60분&nbsp;전원체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;도·소방·병원&nbsp;연계&nbsp;광역상황실&nbsp;및&nbsp;이송&nbsp;컨트롤타워&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;의료인력&nbsp;확보를&nbsp;위한&nbsp;지방근무&nbsp;인센티브&nbsp;및&nbsp;정주&nbsp;지원&nbsp;추진<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~임기내<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;&nbsp;국비<br>&nbsp;&nbsp;○&nbsp;&nbsp;도비<br>&nbsp;&nbsp;○&nbsp;&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	‘농촌 특화형’ 출입국·외국인사무소 거창출장소 신설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="‘농촌 특화형’ 출입국·외국인사무소 거창출장소 신설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;서부경남,&nbsp;전북(무주·진안·장수)권역을&nbsp;아우르는&nbsp;농촌지역&nbsp;출입국·외국인&nbsp;행정&nbsp;접근성&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;계절근로자&nbsp;농업인력&nbsp;행정수요&nbsp;대응<br>&nbsp;&nbsp;○&nbsp;외국인&nbsp;체류·고용&nbsp;관련&nbsp;행정&nbsp;부담&nbsp;완화<br>&nbsp;&nbsp;○&nbsp;농가&nbsp;인력수급&nbsp;안정&nbsp;및&nbsp;농촌형&nbsp;출입국&nbsp;행정서비스&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;거창법조타운&nbsp;유휴부지&nbsp;등을&nbsp;활용한&nbsp;거창출장소&nbsp;신설&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;농촌&nbsp;특화형&nbsp;출장소&nbsp;설치&nbsp;법적&nbsp;근거&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;국회-중앙정부-경남도-서북경남&nbsp;4개&nbsp;군&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;초기에는&nbsp;체류심사&nbsp;등&nbsp;핵심&nbsp;업무&nbsp;중심의&nbsp;출장소&nbsp;또는&nbsp;시범사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;공공형&nbsp;근로자&nbsp;기숙사&nbsp;확충&nbsp;및&nbsp;읍면&nbsp;단위&nbsp;소규모&nbsp;분산형&nbsp;기숙사&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;주거·이동·행정·통역·보험·안전&nbsp;통합&nbsp;지원체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;계절근로자&nbsp;고충상담&nbsp;및&nbsp;갈등관리&nbsp;원스톱&nbsp;시스템&nbsp;운영<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~임기내<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;&nbsp;국비<br>&nbsp;&nbsp;○&nbsp;&nbsp;도비<br>&nbsp;&nbsp;○&nbsp;&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	“배우고, 머물고 싶은 거창”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="“배우고, 머물고 싶은 거창”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;맞춤형&nbsp;교육혁신&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;청년이&nbsp;배우고&nbsp;일하며&nbsp;정착할&nbsp;수&nbsp;있는&nbsp;기반&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;장학재단을&nbsp;인재육성재단으로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;일자리,&nbsp;주거,&nbsp;교육&nbsp;패키지&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;배움에서&nbsp;취업,&nbsp;창업,&nbsp;정착으로&nbsp;이어지는&nbsp;지역&nbsp;교육&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전생애주기를&nbsp;포괄하는&nbsp;교육혁신&nbsp;체계&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도서관,&nbsp;평생학습,&nbsp;청소년·청년&nbsp;교육공간&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;장학재단을&nbsp;인재육성재단으로&nbsp;전환해&nbsp;지역&nbsp;인재&nbsp;지원&nbsp;기능&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;지역출신&nbsp;유력인사와&nbsp;청소년·청년을&nbsp;연결하는&nbsp;멘토멘티&nbsp;제도&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;정착을&nbsp;위한&nbsp;일자리·주거·교육&nbsp;통합&nbsp;패키지&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;창업,&nbsp;지역기업&nbsp;취업,&nbsp;농업·문화·관광&nbsp;분야&nbsp;진입&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;대학&nbsp;연계&nbsp;지역산업&nbsp;맞춤형&nbsp;교육과정&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;거창캠퍼스&nbsp;스마트농업협동학부&nbsp;설립&nbsp;지원&nbsp;및&nbsp;군정&nbsp;3축&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;애그테크&nbsp;중심&nbsp;연구&nbsp;역량&nbsp;증진&nbsp;및&nbsp;지역&nbsp;문제&nbsp;해결&nbsp;연구&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취·창업&nbsp;테스트베드&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수혜자,&nbsp;군정,&nbsp;씽크탱크(거창캠퍼스)&nbsp;3축&nbsp;체계&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~임기내<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;&nbsp;국비<br>&nbsp;&nbsp;○&nbsp;&nbsp;도비<br>&nbsp;&nbsp;○&nbsp;&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	“생산부터 소비까지, 농업이 돈이 되는 구조”</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="“생산부터 소비까지, 농업이 돈이 되는 구조”">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농산물&nbsp;최저가격&nbsp;보장을&nbsp;통한&nbsp;농가소득&nbsp;안정<br>&nbsp;&nbsp;○&nbsp;농자재&nbsp;통합&nbsp;바우처를&nbsp;통한&nbsp;생산비&nbsp;절감&nbsp;<br>&nbsp;&nbsp;○&nbsp;학교,&nbsp;마을&nbsp;공공기관을&nbsp;잇는&nbsp;로컬푸드&nbsp;공급체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;농민은&nbsp;생산에&nbsp;집중하고,&nbsp;군정은&nbsp;유통을&nbsp;책임지는&nbsp;구조&nbsp;마련&nbsp;<br>&nbsp;&nbsp;○&nbsp;농업의&nbsp;생산·유통·소비&nbsp;전&nbsp;과정을&nbsp;지역경제와&nbsp;연결<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;가격&nbsp;하락&nbsp;시&nbsp;농가&nbsp;소득을&nbsp;보전하는&nbsp;안정장치&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요&nbsp;농산물&nbsp;최저가격&nbsp;보장제&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;농자재&nbsp;통합&nbsp;바우처&nbsp;도입으로&nbsp;비료,&nbsp;농약,&nbsp;자재&nbsp;등&nbsp;생산비&nbsp;부담&nbsp;완화<br>&nbsp;&nbsp;○&nbsp;산지&nbsp;조직화,&nbsp;공동선별,&nbsp;공동판매,&nbsp;직거래&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;로컬푸드&nbsp;공급망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학교급식,&nbsp;공공급식,&nbsp;마을공동급식과&nbsp;지역&nbsp;농산물&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;먹거리&nbsp;순환체계&nbsp;구축으로&nbsp;농가소득과&nbsp;군민&nbsp;먹거리&nbsp;안전&nbsp;동시&nbsp;확보<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~임기내<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;&nbsp;국비<br>&nbsp;&nbsp;○&nbsp;&nbsp;도비<br>&nbsp;&nbsp;○&nbsp;&nbsp;군비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이재준 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	반값생활비 추진(교통, 교육, 의료비)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="반값생활비 추진(교통, 교육, 의료비)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;①&nbsp;환상형&nbsp;수원투어&nbsp;무상버스&nbsp;추진&nbsp;:&nbsp;주요&nbsp;지하철역&nbsp;및&nbsp;관광지를&nbsp;순환하는&nbsp;투어버스를&nbsp;통해&nbsp;대중교통&nbsp;환승체계와&nbsp;관광도시&nbsp;교통인프라&nbsp;확충<br>&nbsp;&nbsp;②&nbsp;초·중·고·청년·신중년&nbsp;무상인강&nbsp;확대&nbsp;:&nbsp;초·중·고(교과과정&nbsp;연계),&nbsp;청년(자격증,&nbsp;어학,&nbsp;공무원&nbsp;등),&nbsp;신중년(자격증,&nbsp;독서&nbsp;등)&nbsp;생애주기별&nbsp;맞춤형&nbsp;인터넷강의&nbsp;수강&nbsp;무상&nbsp;지원<br>&nbsp;&nbsp;③&nbsp;어르신&nbsp;백내장&nbsp;수술비&nbsp;지원&nbsp;등&nbsp;시민건강닥터&nbsp;추진&nbsp;:&nbsp;AI&nbsp;기반&nbsp;찾아가는&nbsp;건강검진&nbsp;버스&nbsp;서비스를&nbsp;통해&nbsp;안과검진,&nbsp;폐기능검사,&nbsp;혈압,&nbsp;심전도&nbsp;등을&nbsp;측정하고,&nbsp;고위험군&nbsp;환자&nbsp;대상&nbsp;백내장&nbsp;수술비&nbsp;지원,&nbsp;치매&nbsp;치료&nbsp;지원,&nbsp;정신건강&nbsp;상담&nbsp;등&nbsp;시민건강닥터&nbsp;사업&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;①&nbsp;환상형&nbsp;수원투어&nbsp;무상버스&nbsp;추진&nbsp;:&nbsp;민관협력사업으로&nbsp;공공버스&nbsp;20대&nbsp;확보,&nbsp;운수사업자&nbsp;등과의&nbsp;협의를&nbsp;통해&nbsp;무상운영&nbsp;추진<br>&nbsp;&nbsp;②&nbsp;초·중·고·청년·신중년&nbsp;무상인강&nbsp;확대&nbsp;:&nbsp;민간&nbsp;교육플랫폼의&nbsp;수강권을&nbsp;시민들에게&nbsp;지원(저소득층&nbsp;공공사업,&nbsp;저소득층&nbsp;외&nbsp;민관협력사업)<br>&nbsp;&nbsp;③&nbsp;어르신&nbsp;백내장&nbsp;수술비&nbsp;지원&nbsp;등&nbsp;시민건강닥터&nbsp;추진&nbsp;:&nbsp;경로당,&nbsp;복지관&nbsp;등&nbsp;찾아가는&nbsp;건강검진버스&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;①&nbsp;환상형&nbsp;수원투어&nbsp;무상버스&nbsp;추진&nbsp;:&nbsp;2027년&nbsp;추진&nbsp;목표<br>&nbsp;&nbsp;②&nbsp;초·중·고·청년·신중년&nbsp;무상인강&nbsp;확대&nbsp;:&nbsp;2026년&nbsp;하반기부터&nbsp;추진<br>&nbsp;&nbsp;③&nbsp;어르신&nbsp;백내장&nbsp;수술비&nbsp;지원&nbsp;등&nbsp;시민건강닥터&nbsp;추진&nbsp;:&nbsp;2026년&nbsp;하반기부터&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민간재원&nbsp;등과&nbsp;연계한&nbsp;시비&nbsp;투입</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	첨단과학 연구도시 수원 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="첨단과학 연구도시 수원 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;①&nbsp;수원&nbsp;경제자유구역&nbsp;추진&nbsp;:&nbsp;AI·반도체·바이오&nbsp;등의&nbsp;국가전략산업,&nbsp;국제학교&nbsp;및&nbsp;글로벌&nbsp;앵커기업&nbsp;유치를&nbsp;통해&nbsp;산업통상부&nbsp;경제자유구역&nbsp;지정&nbsp;추진<br>&nbsp;&nbsp;②&nbsp;탑동&nbsp;이노베이션밸리,&nbsp;수원&nbsp;R&D사이언스파크&nbsp;조속&nbsp;추진&nbsp;:&nbsp;AI·반도체·바이오·헬스케어&nbsp;등&nbsp;첨단R&D기반&nbsp;복합업무단지&nbsp;조성을&nbsp;통한&nbsp;경제자유구역&nbsp;선도사업<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;①&nbsp;수원&nbsp;경제자유구역&nbsp;추진&nbsp;:&nbsp;산업통상부&nbsp;경제자유구역&nbsp;지정&nbsp;후&nbsp;수원&nbsp;경제자유구역&nbsp;단지별&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;②&nbsp;탑동&nbsp;이노베이션밸리,&nbsp;수원&nbsp;R&D사이언스파크&nbsp;조속&nbsp;추진&nbsp;:&nbsp;글로벌&nbsp;앵커기업&nbsp;유치와&nbsp;함께&nbsp;앵커기업의&nbsp;협력사를&nbsp;유치하여&nbsp;첨단산업&nbsp;생태계&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;①&nbsp;수원&nbsp;경제자유구역&nbsp;추진&nbsp;:&nbsp;2027년&nbsp;경제자유구역&nbsp;지정&nbsp;추진<br>&nbsp;&nbsp;②&nbsp;탑동&nbsp;이노베이션밸리,&nbsp;수원&nbsp;R&D사이언스파크&nbsp;조속&nbsp;추진&nbsp;:&nbsp;행정절차&nbsp;조속&nbsp;추진으로&nbsp;임기&nbsp;내&nbsp;준공&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민간재원&nbsp;등과&nbsp;연계한&nbsp;시비&nbsp;투입</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	K-글로벌 문화관광 산업 허브 조성 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="K-글로벌 문화관광 산업 허브 조성 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;①&nbsp;K-컬처로드(정조대왕&nbsp;능행차)&nbsp;글로벌&nbsp;3대&nbsp;축제화&nbsp;추진&nbsp;:&nbsp;서울-안양-수원-화성&nbsp;연계&nbsp;정조대왕&nbsp;능행차와&nbsp;K-컬쳐를&nbsp;함께&nbsp;체험할&nbsp;수&nbsp;있는&nbsp;축제로&nbsp;글로벌&nbsp;3대&nbsp;축제화<br>&nbsp;&nbsp;②&nbsp;수원종합운동장,&nbsp;스포츠&nbsp;복합&nbsp;콤플렉스&nbsp;조성&nbsp;추진(수원&nbsp;돔구장&nbsp;등)&nbsp;:&nbsp;수원종합운동장을&nbsp;스포츠&nbsp;복합&nbsp;콤플렉스로&nbsp;조성.&nbsp;수원&nbsp;돔구장,&nbsp;주경기장,&nbsp;다목적&nbsp;실내&nbsp;복합&nbsp;체육센터&nbsp;신축&nbsp;등&nbsp;스포츠·공연·이벤트·체험&nbsp;콘텐츠가&nbsp;결합된&nbsp;차세대&nbsp;복합&nbsp;테마파크&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;③&nbsp;K-팝&nbsp;수원아레나&nbsp;조성&nbsp;및&nbsp;시그니처&nbsp;공연&nbsp;신설&nbsp;추진&nbsp;:&nbsp;글로벌&nbsp;공연·스포츠·전시&nbsp;복합&nbsp;문화&nbsp;인프라&nbsp;구축을&nbsp;통해&nbsp;지역상권과&nbsp;상생할&nbsp;수&nbsp;있는&nbsp;거점공간&nbsp;조성&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;①&nbsp;K-컬처로드(정조대왕&nbsp;능행차)&nbsp;글로벌&nbsp;3대&nbsp;축제화&nbsp;추진&nbsp;:&nbsp;지자체&nbsp;공동협력&nbsp;기반&nbsp;K-컬처로드&nbsp;브랜드화,&nbsp;K-팝·푸드·영화·공연·의상·무용&nbsp;등을&nbsp;함께&nbsp;즐길&nbsp;수&nbsp;있는&nbsp;축제로&nbsp;승화시켜&nbsp;추진<br>&nbsp;&nbsp;②&nbsp;수원종합운동장,&nbsp;스포츠&nbsp;복합&nbsp;콤플렉스&nbsp;조성&nbsp;추진(수원&nbsp;돔구장&nbsp;등)&nbsp;:&nbsp;민간참여를&nbsp;통한&nbsp;재원조달,&nbsp;국제현상설계를&nbsp;통한&nbsp;품격있는&nbsp;공간,&nbsp;행정처리&nbsp;혁신을&nbsp;통한&nbsp;사업기간&nbsp;단축을&nbsp;통해&nbsp;북수원&nbsp;경제·스포츠·문화&nbsp;거점으로&nbsp;추진<br>&nbsp;&nbsp;③&nbsp;K-팝&nbsp;수원아레나&nbsp;조성&nbsp;및&nbsp;시그니처&nbsp;공연&nbsp;신설&nbsp;추진&nbsp;:&nbsp;강소형&nbsp;아레나&nbsp;국가공모사업을&nbsp;통해&nbsp;국비&nbsp;확보와&nbsp;연계&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;①&nbsp;K-컬처로드(정조대왕&nbsp;능행차)&nbsp;글로벌&nbsp;3대&nbsp;축제화&nbsp;추진&nbsp;:&nbsp;2027년&nbsp;본격시행&nbsp;목표<br>&nbsp;&nbsp;②&nbsp;수원종합운동장,&nbsp;스포츠&nbsp;복합&nbsp;콤플렉스&nbsp;조성&nbsp;추진(수원&nbsp;돔구장&nbsp;등)&nbsp;:&nbsp;임기&nbsp;내&nbsp;민간사업자&nbsp;공모&nbsp;완료&nbsp;추진<br>&nbsp;&nbsp;③&nbsp;K-팝&nbsp;수원아레나&nbsp;조성&nbsp;및&nbsp;시그니처&nbsp;공연&nbsp;신설&nbsp;추진&nbsp;:&nbsp;임기&nbsp;내&nbsp;착공&nbsp;목표<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민간재원&nbsp;등과&nbsp;연계한&nbsp;시비&nbsp;투입</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	광역교통망 조기 완성 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="광역교통망 조기 완성 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;GTX-C,&nbsp;동탄인덕원선,&nbsp;신분당선의&nbsp;조기&nbsp;개통으로&nbsp;지역&nbsp;간&nbsp;균형&nbsp;발전&nbsp;도모<br>&nbsp;&nbsp;○&nbsp;출퇴근&nbsp;편의&nbsp;극대화&nbsp;및&nbsp;철도&nbsp;중심&nbsp;교통체계&nbsp;확립<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;①&nbsp;GTX-C&nbsp;:&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업기간&nbsp;:&nbsp;2023.&nbsp;~&nbsp;2028.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업위치&nbsp;:&nbsp;수원역&nbsp;~&nbsp;삼성역&nbsp;~&nbsp;덕정역&nbsp;구간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사&nbsp;업&nbsp;량&nbsp;:&nbsp;총&nbsp;L=86.4km,&nbsp;수원시&nbsp;구간&nbsp;5.8km<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;총사업비&nbsp;:&nbsp;4조&nbsp;6084억원(수원시&nbsp;분담금&nbsp;85억원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재원확보방안&nbsp;:&nbsp;자체재원&nbsp;및&nbsp;국·도비&nbsp;매칭,&nbsp;민간투자<br>&nbsp;&nbsp;②&nbsp;동탄인덕원선&nbsp;:&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업기간&nbsp;:&nbsp;2021.&nbsp;~&nbsp;2028.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업위치&nbsp;:&nbsp;인덕원&nbsp;~&nbsp;수원&nbsp;~&nbsp;서동탄&nbsp;구간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사&nbsp;업&nbsp;량&nbsp;:&nbsp;총&nbsp;L=38.3km,&nbsp;수원시&nbsp;구간&nbsp;13.6km<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;총사업비&nbsp;:&nbsp;4조&nbsp;2,733억원(수원시&nbsp;분담금&nbsp;737억원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재원확보방안&nbsp;:&nbsp;자체재원&nbsp;및&nbsp;국·도비&nbsp;매칭,&nbsp;민간투자<br>&nbsp;&nbsp;③&nbsp;신분당선&nbsp;:&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업기간&nbsp;:&nbsp;2024.&nbsp;~&nbsp;2029.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업위치&nbsp;:&nbsp;광교&nbsp;~&nbsp;화서&nbsp;~&nbsp;호매실&nbsp;구간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사&nbsp;업&nbsp;량&nbsp;:&nbsp;총&nbsp;L=9.88km<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;총사업비&nbsp;:&nbsp;1조&nbsp;2,533억원(수원시&nbsp;분담금&nbsp;2,325억원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재원확보방안&nbsp;:&nbsp;자체재원&nbsp;및&nbsp;국·도비&nbsp;매칭,&nbsp;민간투자<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;조기&nbsp;개통&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국,&nbsp;도비,&nbsp;시비&nbsp;등을&nbsp;통한&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	1인가구 생활커뮤니티 공간 구축(공유주방, 세탁, 학습)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="1인가구 생활커뮤니티 공간 구축(공유주방, 세탁, 학습)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;1인가구&nbsp;밀집지역&nbsp;내&nbsp;생활밀착형&nbsp;거점&nbsp;공간&nbsp;조성을&nbsp;통한&nbsp;사회적&nbsp;고립&nbsp;예방<br>&nbsp;&nbsp;○&nbsp;생애주기별(신중년&nbsp;·&nbsp;청년&nbsp;등)&nbsp;특성을&nbsp;고려한&nbsp;맞춤형&nbsp;커뮤니티&nbsp;지원체계&nbsp;마련&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;사업기간&nbsp;:&nbsp;2026.&nbsp;~&nbsp;2030.<br>&nbsp;&nbsp;○&nbsp;사업대상&nbsp;:&nbsp;관내&nbsp;1인가구<br>&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;관내&nbsp;1인가구&nbsp;약&nbsp;18만명,&nbsp;시&nbsp;전체가구의&nbsp;36.2%&nbsp;(참고&nbsp;용인&nbsp;33.4%,&nbsp;화성&nbsp;30.8%)<br>&nbsp;&nbsp;○&nbsp;사업규모&nbsp;:&nbsp;총&nbsp;44개소(동별&nbsp;1개소,&nbsp;연면적&nbsp;각&nbsp;약&nbsp;200㎡&nbsp;내외)<br>&nbsp;&nbsp;○&nbsp;사업내용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(LH연계&nbsp;거점&nbsp;조성)&nbsp;LH&nbsp;매입임대주택&nbsp;유휴공간&nbsp;임대&nbsp;및&nbsp;새빛청년존&nbsp;내&nbsp;커뮤니티&nbsp;공간&nbsp;적극&nbsp;활용&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(공통&nbsp;필수시설)&nbsp;코인세탁실,&nbsp;공유주방&nbsp;등&nbsp;1인가구&nbsp;생활&nbsp;편의&nbsp;시설&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(지역&nbsp;특화시설)&nbsp;동별&nbsp;수요에&nbsp;따른&nbsp;특화&nbsp;기능&nbsp;부여(공유학습실,&nbsp;취미&nbsp;스튜디오,&nbsp;힐링&nbsp;라운지&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(공공서비스&nbsp;연계)&nbsp;수원새빛돌봄&nbsp;및&nbsp;건강&nbsp;가이드와&nbsp;연계하여&nbsp;고립&nbsp;위험군&nbsp;조기&nbsp;발견&nbsp;및&nbsp;맞춤&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기&nbsp;시범운영을&nbsp;통해&nbsp;2027년&nbsp;본격&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;민간재원&nbsp;등과&nbsp;연계한&nbsp;시비&nbsp;투입</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

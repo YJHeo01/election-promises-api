@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박은미 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	종합응급실 설치 및 양평형 종합의료체계 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="종합응급실 설치 및 양평형 종합의료체계 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;<br>양평군민이&nbsp;응급상황&nbsp;발생&nbsp;시&nbsp;서울·수도권&nbsp;대형병원으로&nbsp;장거리&nbsp;이동하지&nbsp;않고,&nbsp;양평&nbsp;안에서&nbsp;365일&nbsp;24시간&nbsp;기본&nbsp;응급진료를&nbsp;받을&nbsp;수&nbsp;있는&nbsp;의료체계를&nbsp;구축한다.&nbsp;국립교통재활병원&nbsp;등&nbsp;관내&nbsp;의료자원을&nbsp;중심으로&nbsp;종합응급실&nbsp;설치를&nbsp;추진하고,&nbsp;서울대병원&nbsp;등&nbsp;상급종합병원과&nbsp;협력체계를&nbsp;구축해&nbsp;응급진료,&nbsp;중증환자&nbsp;이송,&nbsp;전문&nbsp;진료&nbsp;연계가&nbsp;가능한&nbsp;양평형&nbsp;종합의료체계를&nbsp;마련한다.&nbsp;장기적으로는&nbsp;응급실&nbsp;기능을&nbsp;넘어&nbsp;내과·외과·소아청소년과·산부인과&nbsp;등&nbsp;필수&nbsp;진료과목을&nbsp;보강한&nbsp;지역&nbsp;거점&nbsp;종합병원&nbsp;수준의&nbsp;의료&nbsp;인프라를&nbsp;단계적으로&nbsp;확충한다.<br><br>□&nbsp;이행방법<br>-&nbsp;양평군&nbsp;응급의료체계&nbsp;구축&nbsp;기본계획&nbsp;수립<br>-&nbsp;국립교통재활병원&nbsp;등&nbsp;관내&nbsp;의료기관과&nbsp;종합응급실&nbsp;설치&nbsp;협의<br>-&nbsp;서울대병원&nbsp;등&nbsp;상급종합병원과&nbsp;진료&nbsp;협력&nbsp;및&nbsp;의료인력&nbsp;지원&nbsp;협약&nbsp;추진<br>-&nbsp;양평군&nbsp;응급의료인프라기금&nbsp;조성&nbsp;조례&nbsp;제정<br>-&nbsp;응급의료&nbsp;전문인력&nbsp;확보를&nbsp;위한&nbsp;인건비·운영비&nbsp;지원체계&nbsp;마련<br>-&nbsp;야간·휴일&nbsp;진료&nbsp;공백&nbsp;해소를&nbsp;위한&nbsp;단계별&nbsp;당직·응급진료&nbsp;지원사업&nbsp;시행<br>-&nbsp;경기도&nbsp;및&nbsp;중앙정부에&nbsp;응급의료취약지&nbsp;지원사업,&nbsp;공공보건의료&nbsp;지원사업&nbsp;반영&nbsp;요청<br><br>□&nbsp;이행기간&nbsp;<br>2026년&nbsp;:&nbsp;기본계획&nbsp;수립,&nbsp;조례&nbsp;제정,&nbsp;관계기관&nbsp;협의&nbsp;및&nbsp;업무협약&nbsp;추진&nbsp;<br>2027년&nbsp;:&nbsp;부지·시설·운영계획&nbsp;확정,&nbsp;경기도·중앙정부&nbsp;예산&nbsp;확보,&nbsp;설계&nbsp;및&nbsp;준비&nbsp;착수&nbsp;<br>2028년&nbsp;:&nbsp;종합응급실&nbsp;개설&nbsp;및&nbsp;24시간&nbsp;응급대응체계&nbsp;운영&nbsp;개시<br>2029년&nbsp;이후&nbsp;:&nbsp;필수&nbsp;진료과목&nbsp;확대&nbsp;및&nbsp;지역&nbsp;거점&nbsp;종합의료체계&nbsp;단계적&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;<br>양평군&nbsp;일반회계,&nbsp;응급의료인프라기금,&nbsp;경기도&nbsp;공공보건의료&nbsp;지원예산,&nbsp;보건복지부&nbsp;응급의료취약지&nbsp;지원사업,&nbsp;농어촌의료서비스&nbsp;개선사업,&nbsp;특별교부세,&nbsp;특별조정교부금&nbsp;등을&nbsp;연계해&nbsp;재원을&nbsp;마련한다.<br>종합응급실&nbsp;설치&nbsp;및&nbsp;초기&nbsp;인프라&nbsp;조성비는&nbsp;국비·도비·군비&nbsp;매칭&nbsp;방식으로&nbsp;추진하고,&nbsp;운영비와&nbsp;의료인력&nbsp;확보&nbsp;비용은&nbsp;양평군&nbsp;응급의료인프라기금을&nbsp;활용해&nbsp;안정적으로&nbsp;지원한다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	서울-양평고속도로 정상화 및 2027년 조기착공 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="서울-양평고속도로 정상화 및 2027년 조기착공 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;<br>서울-양평고속도로를&nbsp;정쟁의&nbsp;대상이&nbsp;아닌&nbsp;양평군민의&nbsp;생활도로,&nbsp;생업도로,&nbsp;지역발전도로로&nbsp;정상화하고,&nbsp;2027년&nbsp;착공을&nbsp;목표로&nbsp;행정절차와&nbsp;예산&nbsp;확보를&nbsp;신속히&nbsp;추진한다.&nbsp;군민&nbsp;합의안을&nbsp;존중하고,&nbsp;양평군&nbsp;내&nbsp;IC&nbsp;설치를&nbsp;반영해&nbsp;양평을&nbsp;단순&nbsp;통과하는&nbsp;도로가&nbsp;아니라&nbsp;군민이&nbsp;실제로&nbsp;이용하고&nbsp;지역경제&nbsp;활성화에&nbsp;기여하는&nbsp;고속도로로&nbsp;만든다.<br><br>□&nbsp;이행방법<br>-&nbsp;서울·양평고속도로&nbsp;조기착공을&nbsp;위한&nbsp;양평군&nbsp;전담TF&nbsp;설치<br>-&nbsp;국토교통부,&nbsp;기획재정부,&nbsp;경기도,&nbsp;국회&nbsp;국토교통위원회와&nbsp;상시&nbsp;협의체계&nbsp;구축<br>-&nbsp;타당성조사,&nbsp;전략환경영향평가,&nbsp;기본·실시설계&nbsp;등&nbsp;행정절차&nbsp;조속&nbsp;추진&nbsp;요구<br>-&nbsp;2027년&nbsp;착공을&nbsp;위한&nbsp;국비&nbsp;예산&nbsp;반영&nbsp;건의<br>-&nbsp;양평군&nbsp;내&nbsp;IC&nbsp;설치&nbsp;필요성에&nbsp;대한&nbsp;교통수요·지역경제&nbsp;효과&nbsp;분석자료&nbsp;마련<br>-&nbsp;군민&nbsp;합의안&nbsp;존중을&nbsp;원칙으로&nbsp;노선&nbsp;및&nbsp;IC&nbsp;관련&nbsp;군민&nbsp;의견&nbsp;수렴<br>-&nbsp;국회·중앙정부·경기도와&nbsp;연계한&nbsp;예산&nbsp;확보&nbsp;및&nbsp;행정절차&nbsp;점검회의&nbsp;정례화<br>-&nbsp;사업&nbsp;추진상황을&nbsp;군민에게&nbsp;정기적으로&nbsp;공개<br><br>□&nbsp;이행기간&nbsp;<br>2026년&nbsp;:&nbsp;전담TF&nbsp;구성,&nbsp;중앙정부·국회·경기도&nbsp;협의&nbsp;착수,&nbsp;군민&nbsp;의견&nbsp;수렴&nbsp;<br>2027년&nbsp;:&nbsp;타당성조사·환경영향평가·설계&nbsp;등&nbsp;행정절차&nbsp;완료&nbsp;지원&nbsp;및&nbsp;착공&nbsp;예산&nbsp;반영&nbsp;추진&nbsp;<br>2028년&nbsp;이후&nbsp;:&nbsp;공사&nbsp;추진상황&nbsp;점검,&nbsp;IC&nbsp;설치&nbsp;및&nbsp;지역&nbsp;연계도로망&nbsp;계획&nbsp;병행&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;서울<br>양평고속도로는&nbsp;국가기간교통망&nbsp;사업으로&nbsp;국비&nbsp;확보를&nbsp;기본으로&nbsp;추진한다.&nbsp;<br>양평군은&nbsp;군민&nbsp;의견&nbsp;수렴,&nbsp;IC&nbsp;설치&nbsp;타당성&nbsp;보완자료&nbsp;마련,&nbsp;연계도로&nbsp;정비,&nbsp;행정협의&nbsp;지원&nbsp;등에&nbsp;필요한&nbsp;군비를&nbsp;반영한다.&nbsp;<br>국비는&nbsp;국토교통부&nbsp;도로사업&nbsp;예산,&nbsp;기획재정부&nbsp;예산심의,&nbsp;국회&nbsp;예산심사&nbsp;과정에서&nbsp;반영을&nbsp;추진하고,&nbsp;군내&nbsp;접속도로·주변&nbsp;기반시설&nbsp;정비는&nbsp;경기도&nbsp;특별조정교부금과&nbsp;양평군&nbsp;예산을&nbsp;병행&nbsp;활용한다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	한국마사회 양평 유치 및 말산업·관광복합단지 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="한국마사회 양평 유치 및 말산업·관광복합단지 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>한국마사회&nbsp;관련&nbsp;기능과&nbsp;말산업&nbsp;기반시설을&nbsp;양평에&nbsp;유치해&nbsp;양평의&nbsp;새로운&nbsp;성장동력을&nbsp;만들고,&nbsp;말산업·관광·체험·교육·컨벤션이&nbsp;결합된&nbsp;복합산업단지를&nbsp;조성한다.&nbsp;<br>단순&nbsp;경마장&nbsp;유치가&nbsp;아니라&nbsp;지역경제,&nbsp;관광,&nbsp;일자리,&nbsp;농업,&nbsp;숙박·외식업이&nbsp;함께&nbsp;성장하는&nbsp;양평형&nbsp;말산업&nbsp;클러스터를&nbsp;구축한다.<br><br>□&nbsp;이행방법<br>-&nbsp;한국마사회&nbsp;이전·유치&nbsp;가능성&nbsp;검토를&nbsp;위한&nbsp;양평군&nbsp;전담기구&nbsp;설치<br>-&nbsp;경기도,&nbsp;농림축산식품부,&nbsp;한국마사회와&nbsp;실무협의&nbsp;추진<br>-&nbsp;후보지&nbsp;입지&nbsp;타당성&nbsp;조사&nbsp;및&nbsp;교통·환경·지역경제&nbsp;영향&nbsp;분석<br>-&nbsp;사행성&nbsp;우려를&nbsp;최소화하기&nbsp;위한&nbsp;가족형&nbsp;말문화·승마·관광·교육&nbsp;중심&nbsp;개발계획&nbsp;수립<br>-&nbsp;지역주민&nbsp;의견&nbsp;수렴&nbsp;및&nbsp;주민상생협약&nbsp;체결<br>-&nbsp;말산업&nbsp;관련&nbsp;교육기관,&nbsp;승마체험장,&nbsp;말치유센터,&nbsp;관광·숙박·외식&nbsp;연계사업&nbsp;추진<br>-&nbsp;지역&nbsp;농산물·로컬푸드·공예·문화예술과&nbsp;연계한&nbsp;관광소비&nbsp;구조&nbsp;마련<br>-&nbsp;지방세수,&nbsp;일자리,&nbsp;지역상권&nbsp;활성화&nbsp;효과&nbsp;분석&nbsp;및&nbsp;단계별&nbsp;추진<br><br>□&nbsp;이행기간<br>2026년&nbsp;:&nbsp;유치&nbsp;전담기구&nbsp;설치,&nbsp;관계기관&nbsp;협의,&nbsp;후보지&nbsp;검토,&nbsp;주민&nbsp;의견&nbsp;수렴<br>2027년&nbsp;:&nbsp;타당성조사,&nbsp;기본구상&nbsp;수립,&nbsp;경기도·중앙정부&nbsp;협의&nbsp;본격화<br>2028년&nbsp;:&nbsp;유치계획&nbsp;확정&nbsp;및&nbsp;행정절차&nbsp;추진<br>2029년&nbsp;이후&nbsp;:&nbsp;말산업·관광복합단지&nbsp;단계별&nbsp;조성<br><br>□&nbsp;재원조달방안&nbsp;등<br>한국마사회&nbsp;및&nbsp;관련&nbsp;공공기관&nbsp;투자,&nbsp;국비,&nbsp;도비,&nbsp;민간투자,&nbsp;양평군&nbsp;기반시설&nbsp;지원&nbsp;예산을&nbsp;연계해&nbsp;추진한다.&nbsp;<br>군비는&nbsp;후보지&nbsp;검토,&nbsp;타당성조사,&nbsp;주민&nbsp;의견&nbsp;수렴,&nbsp;기반시설&nbsp;계획&nbsp;수립&nbsp;등&nbsp;초기&nbsp;행정비용&nbsp;중심으로&nbsp;투입하고,&nbsp;대규모&nbsp;시설&nbsp;조성은&nbsp;한국마사회&nbsp;자체재원,&nbsp;공공기관&nbsp;이전&nbsp;관련&nbsp;재원,&nbsp;민간투자,&nbsp;중앙정부·경기도&nbsp;지원사업을&nbsp;활용한다.&nbsp;<br>단,&nbsp;사행산업&nbsp;확대&nbsp;우려를&nbsp;줄이기&nbsp;위해&nbsp;승마·치유·교육·관광&nbsp;중심의&nbsp;공공성&nbsp;강화&nbsp;모델을&nbsp;병행&nbsp;추진한다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	양평군 수도요금 반값 추진 및 물이용 부담 형평성 개선</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="양평군 수도요금 반값 추진 및 물이용 부담 형평성 개선">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>수도권&nbsp;주민에게&nbsp;깨끗한&nbsp;수돗물을&nbsp;공급하기&nbsp;위해&nbsp;각종&nbsp;규제를&nbsp;감내해&nbsp;온&nbsp;양평군민의&nbsp;부담을&nbsp;줄이고,&nbsp;과도한&nbsp;수도요금&nbsp;문제를&nbsp;개선한다.&nbsp;<br>양평군&nbsp;수도요금의&nbsp;단계적&nbsp;인하와&nbsp;감면제도&nbsp;확대를&nbsp;통해&nbsp;군민&nbsp;생활비&nbsp;부담을&nbsp;완화하고,&nbsp;한강수계기금&nbsp;등&nbsp;물&nbsp;관련&nbsp;재원을&nbsp;주민&nbsp;생활&nbsp;인프라&nbsp;개선에&nbsp;더&nbsp;많이&nbsp;활용할&nbsp;수&nbsp;있도록&nbsp;제도&nbsp;개선을&nbsp;추진한다.<br><br>□&nbsp;이행방법<br>-&nbsp;양평군&nbsp;수도요금&nbsp;원가&nbsp;및&nbsp;부과체계&nbsp;전면&nbsp;진단<br>-&nbsp;가정용&nbsp;수도요금&nbsp;단계적&nbsp;인하&nbsp;및&nbsp;취약계층&nbsp;감면&nbsp;확대<br>-&nbsp;한강수계기금&nbsp;주민지원사업&nbsp;확대를&nbsp;통한&nbsp;상수도·수도요금&nbsp;부담&nbsp;완화&nbsp;방안&nbsp;마련<br>-&nbsp;환경부,&nbsp;경기도,&nbsp;한강유역환경청과&nbsp;물이용&nbsp;부담&nbsp;형평성&nbsp;개선&nbsp;협의<br>-&nbsp;수도요금&nbsp;인하에&nbsp;따른&nbsp;재정&nbsp;보전대책&nbsp;마련<br>-&nbsp;노후&nbsp;상수관로&nbsp;정비,&nbsp;누수율&nbsp;저감,&nbsp;상수도&nbsp;운영&nbsp;효율화&nbsp;추진<br>-&nbsp;상수도&nbsp;미보급&nbsp;지역&nbsp;보급&nbsp;확대와&nbsp;병행해&nbsp;군민&nbsp;물복지&nbsp;체계&nbsp;강화<br><br>□&nbsp;이행기간<br>2026년&nbsp;:&nbsp;수도요금&nbsp;원가&nbsp;진단,&nbsp;감면·인하&nbsp;방안&nbsp;수립,&nbsp;조례&nbsp;개정&nbsp;검토<br>2027년&nbsp;:&nbsp;취약계층&nbsp;감면&nbsp;확대&nbsp;및&nbsp;가정용&nbsp;수도요금&nbsp;단계적&nbsp;인하&nbsp;시행<br>2028년&nbsp;:&nbsp;한강수계기금&nbsp;주민지원사업&nbsp;확대&nbsp;및&nbsp;수도요금&nbsp;부담&nbsp;완화&nbsp;연계<br>2029년&nbsp;이후&nbsp;:&nbsp;수도요금&nbsp;반값&nbsp;수준&nbsp;달성을&nbsp;위한&nbsp;단계적&nbsp;재정&nbsp;보전&nbsp;및&nbsp;제도&nbsp;개선&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>양평군&nbsp;상수도특별회계,&nbsp;일반회계&nbsp;전입금,&nbsp;한강수계기금&nbsp;주민지원사업,&nbsp;환경부&nbsp;상수도시설&nbsp;개선사업,&nbsp;경기도물복지&nbsp;관련&nbsp;지원사업,&nbsp;특별교부세&nbsp;등을&nbsp;활용한다.&nbsp;<br>수도요금&nbsp;인하로&nbsp;발생할&nbsp;수&nbsp;있는&nbsp;재정&nbsp;부족분은&nbsp;누수율&nbsp;저감,&nbsp;노후관&nbsp;정비,&nbsp;운영효율화,&nbsp;국·도비&nbsp;확보,&nbsp;한강&nbsp;수계기금&nbsp;활용&nbsp;확대를&nbsp;통해&nbsp;보전한다.<br>중장기적으로는&nbsp;수도권&nbsp;상수원&nbsp;보호에&nbsp;따른&nbsp;양평군민의&nbsp;부담을&nbsp;국가와&nbsp;경기도가&nbsp;함께&nbsp;책임지도록&nbsp;제도&nbsp;개선을&nbsp;추진한다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	양동 미식특화산업 조성 및 동부권 로컬푸드 관광경제 활성화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="양동 미식특화산업 조성 및 동부권 로컬푸드 관광경제 활성화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>양동면을&nbsp;중심으로&nbsp;양평&nbsp;동부권의&nbsp;농산물,&nbsp;한우,&nbsp;산나물,&nbsp;전통식품,&nbsp;로컬푸드,&nbsp;미식관광&nbsp;자원을&nbsp;결합한&nbsp;미식&nbsp;특화산업&nbsp;거점으로&nbsp;육성한다.&nbsp;<br>농업을&nbsp;단순&nbsp;생산&nbsp;중심에서&nbsp;가공·외식·체험·관광이&nbsp;결합된&nbsp;고부가가치&nbsp;산업으로&nbsp;전환하고,&nbsp;양동을&nbsp;양평&nbsp;동부권의&nbsp;대표&nbsp;미식관광&nbsp;지역으로&nbsp;발전시킨다.<br><br>□&nbsp;이행방법<br>-&nbsp;양동&nbsp;미식특화산업&nbsp;기본계획&nbsp;수립<br>-&nbsp;지역&nbsp;농산물·축산물·임산물&nbsp;조사&nbsp;및&nbsp;대표&nbsp;미식자원&nbsp;발굴<br>-&nbsp;로컬푸드&nbsp;가공센터,&nbsp;공유주방,&nbsp;청년창업형&nbsp;미식공방&nbsp;조성&nbsp;검토<br>-&nbsp;양동&nbsp;한우·산나물·전통장류·발효식품·로컬음식&nbsp;브랜드&nbsp;개발<br>-&nbsp;음식점,&nbsp;농가,&nbsp;가공업체,&nbsp;예술가,&nbsp;공예가가&nbsp;참여하는&nbsp;미식관광&nbsp;협의체&nbsp;구성<br>-&nbsp;양동역·전통시장·농촌체험마을과&nbsp;연계한&nbsp;미식투어&nbsp;코스&nbsp;개발<br>-&nbsp;주말&nbsp;미식장터,&nbsp;로컬푸드&nbsp;페어,&nbsp;양동&nbsp;미식축제&nbsp;개최<br>-&nbsp;청년&nbsp;셰프,&nbsp;귀농·귀촌인,&nbsp;지역&nbsp;여성·시니어&nbsp;창업&nbsp;지원<br>-&nbsp;위생·브랜딩·포장·온라인&nbsp;판매·관광마케팅&nbsp;통합&nbsp;지원<br><br>□&nbsp;이행기간<br>2026년&nbsp;:&nbsp;기본계획&nbsp;수립,&nbsp;미식자원&nbsp;조사,&nbsp;주민·상인·농가&nbsp;협의체&nbsp;구성<br>2027년&nbsp;:&nbsp;로컬푸드&nbsp;가공·판매·체험&nbsp;기반시설&nbsp;조성,&nbsp;대표&nbsp;브랜드&nbsp;개발<br>2028년&nbsp;:&nbsp;양동&nbsp;미식장터&nbsp;및&nbsp;미식축제&nbsp;정례화,&nbsp;관광코스&nbsp;운영<br>2029년&nbsp;이후&nbsp;:&nbsp;양평&nbsp;동부권&nbsp;미식관광벨트&nbsp;확대&nbsp;및&nbsp;전국&nbsp;대표&nbsp;로컬미식&nbsp;브랜드화<br><br>□&nbsp;재원조달방안&nbsp;등<br>양평군&nbsp;농업·관광·지역경제&nbsp;예산,&nbsp;농림축산식품부&nbsp;농촌융복합산업&nbsp;지원사업,&nbsp;농촌협약,&nbsp;지역활력타운,&nbsp;중소벤처기업부&nbsp;전통시장·소상공인&nbsp;지원사업,&nbsp;경기도&nbsp;로컬푸드·관광·창업&nbsp;지원사업,&nbsp;특별조정교부금&nbsp;등을&nbsp;활용한다.&nbsp;<br>민간&nbsp;참여가&nbsp;가능한&nbsp;가공·외식·체험시설은&nbsp;민간투자와&nbsp;협동조합·사회적경제&nbsp;방식도&nbsp;병행한다.&nbsp;군은&nbsp;초기&nbsp;기반조성,&nbsp;브랜드&nbsp;개발,&nbsp;위생·교육·마케팅&nbsp;지원을&nbsp;담당하고,&nbsp;지역&nbsp;농가와&nbsp;상인은&nbsp;생산·가공·판매·체험&nbsp;운영의&nbsp;주체가&nbsp;되도록&nbsp;지원한다.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김광종 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	국민연금 5,000조 및 서민 부채 300조 전면 탕감</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="국민연금 5,000조 및 서민 부채 300조 전면 탕감">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;국민연금을&nbsp;단순한&nbsp;연금&nbsp;기관이&nbsp;아닌&nbsp;5,000조&nbsp;자산을&nbsp;보유한&nbsp;국부의&nbsp;중심으로&nbsp;육성.<br>&nbsp;&nbsp;○&nbsp;확보된&nbsp;자산&nbsp;수익으로&nbsp;신용등급&nbsp;4등급&nbsp;이하&nbsp;서민&nbsp;부채&nbsp;300조원을&nbsp;즉각&nbsp;탕감하여&nbsp;경제적&nbsp;자유&nbsp;선포.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;자산&nbsp;인수&nbsp;및&nbsp;분양:&nbsp;국민연금이&nbsp;LH/SH(전북개발공사&nbsp;포함)의&nbsp;노후&nbsp;임대아파트&nbsp;단지들을&nbsp;전량&nbsp;매입.&nbsp;기존&nbsp;임차인에게는&nbsp;현재&nbsp;보증금&nbsp;수준으로&nbsp;건물&nbsp;소유권만&nbsp;이전하는&nbsp;'토지임대부&nbsp;분양'&nbsp;실시.<br>&nbsp;&nbsp;○&nbsp;초고층&nbsp;재건축&nbsp;:&nbsp;해당&nbsp;단지들을&nbsp;용적률&nbsp;1,000%를&nbsp;적용하여&nbsp;50층&nbsp;이상&nbsp;초고층으로&nbsp;재건축.<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;임대&nbsp;및&nbsp;보증금&nbsp;확보:&nbsp;재건축을&nbsp;통해&nbsp;늘어난&nbsp;수백만&nbsp;호의&nbsp;추가&nbsp;물량을&nbsp;민간&nbsp;임대로&nbsp;전환하여&nbsp;수천조&nbsp;원의&nbsp;임대&nbsp;보증금을&nbsp;국민연금&nbsp;자산으로&nbsp;확보.<br>&nbsp;&nbsp;&nbsp;○&nbsp;부채&nbsp;전면&nbsp;탕감:&nbsp;확보된&nbsp;보증금과&nbsp;자산&nbsp;수익을&nbsp;활용해&nbsp;서민&nbsp;무담보&nbsp;대출&nbsp;300조&nbsp;원을&nbsp;인수하여&nbsp;즉시&nbsp;탕감.<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;실시<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;재건축&nbsp;용적률&nbsp;상향에&nbsp;따른&nbsp;신규&nbsp;임대&nbsp;보증금&nbsp;수입</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	행정복합고속철도 기반 전주를 제2행정복합도시로</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="행정복합고속철도 기반 전주를 제2행정복합도시로">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;과천-세종-전수-진안-장수-진주/대구까지&nbsp;고속철&nbsp;연결하여&nbsp;행정복합고속철도&nbsp;기반&nbsp;전주를&nbsp;제2행정&nbsp;복합도시로&nbsp;만들고&nbsp;이를&nbsp;이용하여&nbsp;전주-전북을&nbsp;동아시아&nbsp;중심지로&nbsp;<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;보건복지부,&nbsp;농림식품부&nbsp;이전<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;이를&nbsp;위해&nbsp;열악한&nbsp;고속철&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;전주를&nbsp;김제,&nbsp;부안과&nbsp;통합하여&nbsp;전주를&nbsp;바다를&nbsp;가진&nbsp;해양&nbsp;도시로<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;전주역-경기장역-전북도청사역-김제KTX역&nbsp;무선트램<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;중국,&nbsp;일본과&nbsp;연결하여&nbsp;동아시아의&nbsp;중심지로<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해저터널로&nbsp;중국&nbsp;산둥반도로&nbsp;연결<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;진주에서&nbsp;대마도로&nbsp;해저터널&nbsp;연결<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;새만금&nbsp;대규모&nbsp;유류&nbsp;및&nbsp;곡류저장(국가위기&nbsp;대응)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;웅주/항공용&nbsp;반도체&nbsp;전문&nbsp;테라팹<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반도체&nbsp;과학고&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;특별법&nbsp;제정&nbsp;및&nbsp;고속철도&nbsp;노선&nbsp;착공.<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;국가&nbsp;균형&nbsp;발전&nbsp;예산&nbsp;등&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;국민연금&nbsp;기금의&nbsp;인프라&nbsp;투자&nbsp;연계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	국민연금 부지 행정복합몰 개발 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="국민연금 부지 행정복합몰 개발 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;행정복합청사로&nbsp;활용하여&nbsp;다양한&nbsp;기관을&nbsp;집중하여&nbsp;기관간&nbsp;시너지&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;전주를&nbsp;지식과&nbsp;상업이&nbsp;결합된&nbsp;아시아의&nbsp;문화&nbsp;거점으로&nbsp;변모시킴<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;고층&nbsp;:&nbsp;국민연금,&nbsp;보건복지부,&nbsp;농림수산식품부&nbsp;등&nbsp;행정복합청사<br>&nbsp;&nbsp;○&nbsp;중층&nbsp;:&nbsp;쇼핑몰&nbsp;등&nbsp;상업시설&nbsp;<br>&nbsp;&nbsp;○&nbsp;1~5층&nbsp;:&nbsp;대규모의&nbsp;세계적인&nbsp;도서관&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국립중앙도서관(1,400만권)을&nbsp;능가하는&nbsp;대규모&nbsp;도서관&nbsp;신설(2,000~3,000만권의&nbsp;장서&nbsp;보유)&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;뉴욕&nbsp;맨하튼의&nbsp;대형&nbsp;도서관의&nbsp;뉴욕공립도서관&nbsp;벤치마킹<br>&nbsp;&nbsp;○&nbsp;지하&nbsp;:&nbsp;행정복합고속철&nbsp;역사&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;고층타워&nbsp;:&nbsp;모악산과&nbsp;케이블카&nbsp;연결&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;특별법&nbsp;제정&nbsp;및&nbsp;고속철도&nbsp;기본계획&nbsp;반영.<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;<br>&nbsp;&nbsp;○&nbsp;국민연금&nbsp;5천조&nbsp;자산화&nbsp;방안을&nbsp;통한&nbsp;재원&nbsp;마련</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	대형도서관, 과학관, 국제학교를 품은 교육 도시로</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="대형도서관, 과학관, 국제학교를 품은 교육 도시로">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전북이&nbsp;살길은&nbsp;세계적인&nbsp;교육도시화,&nbsp;미국&nbsp;어바인&nbsp;같은&nbsp;도시,&nbsp;뮌헨과&nbsp;같은&nbsp;전략을&nbsp;펼치는데&nbsp;있음&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전북도청사역에&nbsp;5층&nbsp;규모,&nbsp;장서&nbsp;2~3천만권&nbsp;보유한&nbsp;세계적&nbsp;도서관건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;완주도서관&nbsp;:&nbsp;장서&nbsp;17만권<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삼천도서관&nbsp;:&nbsp;장서&nbsp;7만7천권<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전주&nbsp;전체&nbsp;도서관&nbsp;:&nbsp;114만권(8~9개)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전주시민&nbsp;1인당&nbsp;2권&nbsp;이하&nbsp;책&nbsp;보유&nbsp;<br>&nbsp;&nbsp;○&nbsp;전고&nbsp;앞&nbsp;홈플러스&nbsp;자리&nbsp;전주시청이&nbsp;매입&nbsp;후&nbsp;세게적&nbsp;과학관&nbsp;신설&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전라북도청사역-전주시청역-전주역을&nbsp;무선&nbsp;트램으로&nbsp;연결&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한옥마을&nbsp;관광객이&nbsp;도서관,&nbsp;과학관,&nbsp;교육&nbsp;Tour까지&nbsp;가능하게<br>&nbsp;&nbsp;○&nbsp;국제&nbsp;어린이집,&nbsp;유치원,&nbsp;초중고&nbsp;등&nbsp;국제학교&nbsp;유치&nbsp;및&nbsp;반도체&nbsp;과학고&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;세계적인&nbsp;자산운용사들이&nbsp;전주에&nbsp;오게&nbsp;하기&nbsp;위해서&nbsp;자녀들에게&nbsp;필요한&nbsp;교육여건&nbsp;제공&nbsp;필요<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전북교육청,&nbsp;전라북도와&nbsp;전주시,&nbsp;지역대학들의&nbsp;공조&nbsp;<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;설계&nbsp;완료&nbsp;및&nbsp;착공<br>&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국민연금&nbsp;자산&nbsp;개발&nbsp;수익&nbsp;및&nbsp;민간&nbsp;자본&nbsp;유치(PPP&nbsp;방식).</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	기본자산 제공 및 자녀 양육비 등 기타 공약   </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="기본자산 제공 및 자녀 양육비 등 기타 공약   ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;50년마다&nbsp;가난한&nbsp;국민들에게&nbsp;기본&nbsp;자산&nbsp;제공으로&nbsp;가난의&nbsp;대물리&nbsp;방지<br>&nbsp;&nbsp;○&nbsp;양육&nbsp;부담을&nbsp;국가와&nbsp;지방정부가&nbsp;책임지는&nbsp;구조를&nbsp;만들어&nbsp;저출산&nbsp;문제를&nbsp;근본적으로&nbsp;해결<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;기본자산&nbsp;제공&nbsp;및&nbsp;자영업자들을&nbsp;위한&nbsp;채무&nbsp;탕감<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;매7년마다&nbsp;부채탕감(신명기&nbsp;7장)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;매50년마다&nbsp;가난한&nbsp;국민들에게&nbsp;기본&nbsp;자산&nbsp;제공&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;기본&nbsp;소득으로는&nbsp;이&nbsp;문제&nbsp;해결&nbsp;불가,&nbsp;기본자산&nbsp;필요함<br>&nbsp;&nbsp;○&nbsp;육아수당&nbsp;등&nbsp;기타&nbsp;공약<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;육아수당&nbsp;자녀&nbsp;1인당&nbsp;100만원(월)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;효도수당&nbsp;100만원(월,&nbsp;75세&nbsp;이상)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공도서관&nbsp;무료&nbsp;급식&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성매매&nbsp;특별법&nbsp;폐지&nbsp;및&nbsp;탈성매매&nbsp;여성&nbsp;지원&nbsp;특별법&nbsp;신설<br><br>□&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;후&nbsp;1년&nbsp;내&nbsp;관련&nbsp;조례&nbsp;제정&nbsp;및&nbsp;단계적&nbsp;지급&nbsp;개시.<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;공약&nbsp;1의&nbsp;재건축&nbsp;수익금&nbsp;환수&nbsp;<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;비효율적인&nbsp;출산&nbsp;장려&nbsp;예산&nbsp;통폐합.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;양희 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	편리한 일상에서 안전한 환경까지. 안심 동구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="편리한 일상에서 안전한 환경까지. 안심 동구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;안전하게&nbsp;부담&nbsp;없이&nbsp;‘나&nbsp;혼자&nbsp;산다’<br>&nbsp;&nbsp;○&nbsp;출·퇴근(등·하교)이&nbsp;편리한&nbsp;도시에서&nbsp;남부권&nbsp;교통&nbsp;허브로<br>&nbsp;&nbsp;○&nbsp;여성이&nbsp;범죄와&nbsp;폭력으로부터&nbsp;안전한&nbsp;일상&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;1인&nbsp;가구&nbsp;지원&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(돌봄)&nbsp;병원동행서비스,&nbsp;AI&nbsp;스마트&nbsp;센서로&nbsp;위급상황&nbsp;대처&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(범죄예방)&nbsp;‘안심벨’,&nbsp;‘홈방범’&nbsp;서비스&nbsp;확대,&nbsp;안심귀가&nbsp;동행&nbsp;서비스&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(주거)&nbsp;공공임대&nbsp;확대,&nbsp;청년&nbsp;주거수당&nbsp;및&nbsp;안심&nbsp;계약&nbsp;지원.&nbsp;안전·생활동반자&nbsp;지원&nbsp;확대등<br>&nbsp;&nbsp;○&nbsp;전세사기&nbsp;피해&nbsp;원스톱&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구청&nbsp;전담&nbsp;밀착&nbsp;지원팀&nbsp;‘피해조사-신청-인정-대응(법률,&nbsp;행정)’까지&nbsp;원스톱&nbsp;지원&nbsp;체계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;찾아가는&nbsp;피해&nbsp;구제&nbsp;컨설팅으로&nbsp;피해자별&nbsp;맞춤형&nbsp;피해&nbsp;대응&nbsp;안내<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;가장&nbsp;취약한&nbsp;보증금&nbsp;미&nbsp;반환&nbsp;다가구&nbsp;건물에&nbsp;대해선&nbsp;구청이&nbsp;선제적으로&nbsp;현장을&nbsp;파악하고,&nbsp;위험&nbsp;징후를&nbsp;고지하는&nbsp;‘동구형&nbsp;조기&nbsp;경보&nbsp;시스템’&nbsp;가동으로&nbsp;제2,&nbsp;제3의&nbsp;피해를&nbsp;원천&nbsp;차단<br>&nbsp;&nbsp;○&nbsp;지역연결형&nbsp;마을버스&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;혁신도시와&nbsp;팔공산,&nbsp;동구&nbsp;중심을&nbsp;잇는&nbsp;마을버스&nbsp;도입으로&nbsp;버스-지하철&nbsp;환승&nbsp;시스템&nbsp;강화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공항,&nbsp;철도,&nbsp;지하철,&nbsp;버스의&nbsp;연계&nbsp;시스템을&nbsp;통한&nbsp;한반도&nbsp;남부&nbsp;교통의&nbsp;허브로&nbsp;발돋움&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상습&nbsp;정체&nbsp;구역(율하천쪽&nbsp;상방향&nbsp;진입로,&nbsp;반야월&nbsp;네거리등)&nbsp;입체화&nbsp;도로&nbsp;및&nbsp;우회&nbsp;도로&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;‘학교가자&nbsp;딸들아!’&nbsp;신암&nbsp;뉴타운&nbsp;등에&nbsp;중-고등학교&nbsp;신설로&nbsp;등·하교&nbsp;접근성&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;‘별과&nbsp;모래가&nbsp;있는&nbsp;동구’&nbsp;팔현습지&nbsp;보호&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보도교&nbsp;설치&nbsp;철회하고,&nbsp;팔현습지부터&nbsp;안심습지까지&nbsp;이어지는&nbsp;도심&nbsp;속&nbsp;생태습지&nbsp;보호&nbsp;조례.&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·시비&nbsp;확보,&nbsp;지출&nbsp;구조&nbsp;조정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	태어난 순간부터 존중받는 동구 주민</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="태어난 순간부터 존중받는 동구 주민">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○태어나는&nbsp;순간부터&nbsp;지역사회가&nbsp;함께&nbsp;키워내는&nbsp;공공돌봄의&nbsp;시작<br>&nbsp;&nbsp;○청소년&nbsp;건강부터&nbsp;재생산&nbsp;건강까지&nbsp;최소한의&nbsp;기본권을&nbsp;책임&nbsp;<br>&nbsp;&nbsp;○개인의&nbsp;일상부터&nbsp;특성까지&nbsp;존중받는&nbsp;사회&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;‘기적의&nbsp;100일!’&nbsp;산모도우미&nbsp;지원&nbsp;사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소득별&nbsp;차등&nbsp;없이&nbsp;최대&nbsp;100일까지&nbsp;산모와&nbsp;신생아&nbsp;건강&nbsp;관리&nbsp;지원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여성장애인&nbsp;전문&nbsp;산부인과&nbsp;지정하고,&nbsp;자녀&nbsp;양육&nbsp;지원하는&nbsp;홈헬퍼&nbsp;사업&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;‘아침이&nbsp;있는&nbsp;동구’&nbsp;맞춤&nbsp;도시락&nbsp;서비스와&nbsp;동구형&nbsp;아침&nbsp;서비스<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;만성질환&nbsp;어르신과&nbsp;취약계층을&nbsp;위한&nbsp;‘맞춤&nbsp;도시락&nbsp;서비스’.&nbsp;고령화로&nbsp;인한&nbsp;만성질환자&nbsp;지속&nbsp;증가.&nbsp;기초&nbsp;생활&nbsp;수급&nbsp;가구&nbsp;등은&nbsp;예방&nbsp;관리&nbsp;쉽지&nbsp;않음.&nbsp;영양사들이&nbsp;짠&nbsp;식단으로&nbsp;하루&nbsp;한&nbsp;끼&nbsp;만성질환&nbsp;맞춤식&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청소년&nbsp;및&nbsp;결식가정&nbsp;아침식사&nbsp;지원으로&nbsp;사회적&nbsp;돌봄으로&nbsp;가정의&nbsp;돌봄&nbsp;노동의&nbsp;피로도&nbsp;감소<br>&nbsp;&nbsp;○&nbsp;채식의&nbsp;날&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공기관,&nbsp;보육시설&nbsp;주1회&nbsp;채식&nbsp;식단&nbsp;의무화로&nbsp;채식&nbsp;선택권&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;‘우리&nbsp;동네&nbsp;예술관’,&nbsp;‘모두의&nbsp;도서관’,&nbsp;‘동구&nbsp;시네마테크’&nbsp;사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동마다&nbsp;작은&nbsp;전시관,&nbsp;도서관,&nbsp;공연장,&nbsp;문화교육시설&nbsp;설치(유휴공간과&nbsp;폐시설&nbsp;활용)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공연,&nbsp;전시,&nbsp;동아리,&nbsp;문화예술&nbsp;강의&nbsp;등을&nbsp;종합&nbsp;제공하는&nbsp;문화마을&nbsp;포털&nbsp;개설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공도서관,&nbsp;학교&nbsp;도서관&nbsp;동네서점&nbsp;우선&nbsp;구매제<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도서관&nbsp;상주&nbsp;작가&nbsp;확대&nbsp;및&nbsp;사서&nbsp;인력&nbsp;확충&nbsp;및&nbsp;처우&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동구지역&nbsp;시네마테크&nbsp;건립으로&nbsp;야외커뮤니티상영&nbsp;활성화&nbsp;및&nbsp;지역&nbsp;로케이션&nbsp;지원&nbsp;사업<br>&nbsp;&nbsp;○&nbsp;여성청소년&nbsp;월경용품&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공기관&nbsp;월경용품&nbsp;무상&nbsp;비치,&nbsp;바우처&nbsp;월&nbsp;3만원&nbsp;확대&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·시비&nbsp;확보,&nbsp;지출&nbsp;구조&nbsp;조정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	모두가 함께 사는 마을 공동체 동구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="모두가 함께 사는 마을 공동체 동구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;공공이&nbsp;직접&nbsp;운영하는&nbsp;돌봄&nbsp;인프라&nbsp;구축으로&nbsp;돌봄&nbsp;공공책임화&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;가족의&nbsp;짐을&nbsp;지역사회가&nbsp;나누는&nbsp;공동체&nbsp;돌봄의&nbsp;제도화<br>&nbsp;&nbsp;○&nbsp;공공서비스&nbsp;개선으로&nbsp;노동자,&nbsp;주민&nbsp;모두의&nbsp;삶의&nbsp;질&nbsp;개선&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;찾아가는&nbsp;돌봄&nbsp;서비스와&nbsp;공공부문&nbsp;통역지원&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;'찾아가는&nbsp;돌봄'&nbsp;이주민-이주아동&nbsp;생활&nbsp;지원&nbsp;서비스<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;결혼&nbsp;이민자를&nbsp;다문화&nbsp;강사로&nbsp;발굴&nbsp;및&nbsp;양성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공부문&nbsp;통역지원&nbsp;조례&nbsp;-&nbsp;보육,&nbsp;교육,&nbsp;의료기관&nbsp;전화·화상&nbsp;통역&nbsp;서비스/공공번역시스템&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;장애인&nbsp;친화&nbsp;도시&nbsp;동구<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘장애인&nbsp;통합&nbsp;돌봄&nbsp;전면&nbsp;확대’&nbsp;장애인&nbsp;전용&nbsp;‘병원&nbsp;동행&nbsp;서비스’&nbsp;및&nbsp;찾아가는&nbsp;재택&nbsp;의료&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1인&nbsp;고령&nbsp;장애인을&nbsp;위한&nbsp;‘365&nbsp;동구&nbsp;안심고리’&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;LH&nbsp;공공임대주택&nbsp;내&nbsp;장기&nbsp;공실을&nbsp;장애인&nbsp;자립주택으로&nbsp;전환&nbsp;공급.&nbsp;안심&nbsp;권역&nbsp;빈집&nbsp;리모델링을&nbsp;통한&nbsp;장애인&nbsp;지원주택&nbsp;공급.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘동구형&nbsp;24시간&nbsp;활동지원’으로&nbsp;최중증&nbsp;장애인&nbsp;자립생활&nbsp;보장.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘장애인&nbsp;권리중심&nbsp;공공일자리&nbsp;확대’로&nbsp;생활임금,&nbsp;4대&nbsp;보험,&nbsp;노동법상&nbsp;휴가와&nbsp;교육&nbsp;동일&nbsp;보장.&nbsp;장애&nbsp;유형별&nbsp;맞춤형&nbsp;직무&nbsp;개발과&nbsp;동료&nbsp;지원&nbsp;체계&nbsp;구축.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;작은&nbsp;가게&nbsp;장애인&nbsp;고용&nbsp;유지&nbsp;장려금&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;지역노동조합과&nbsp;정례&nbsp;정책&nbsp;협의<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공·교통·사회서비스&nbsp;노동자와&nbsp;정례&nbsp;정책협의를&nbsp;통해&nbsp;노동조건&nbsp;개선과&nbsp;주민&nbsp;서비스&nbsp;질&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;반려동물&nbsp;친화도시&nbsp;동구<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동물&nbsp;보건소&nbsp;설치,&nbsp;반려동물&nbsp;놀이터&nbsp;확대.&nbsp;반려동물&nbsp;공영장례비&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;그린&nbsp;리모델링과&nbsp;제로&nbsp;에너지&nbsp;건축&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후주택과&nbsp;공공임대주택에&nbsp;그린&nbsp;리모델링&nbsp;지원.&nbsp;신축건물은&nbsp;제로에너지&nbsp;건물&nbsp;의무화&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·시비&nbsp;확보,&nbsp;지출&nbsp;구조&nbsp;조정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	다양성을 보장하는 품격 있는 동구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="다양성을 보장하는 품격 있는 동구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;모든&nbsp;주민의&nbsp;권리를&nbsp;동등하게&nbsp;보장하는&nbsp;차별&nbsp;없는&nbsp;제도&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;다양한&nbsp;존재,&nbsp;삶,&nbsp;관계,&nbsp;문화를&nbsp;존중하는&nbsp;사회&nbsp;구현&nbsp;(“다양성&nbsp;공존&nbsp;사회계약”)<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;유니버셜&nbsp;디자인&nbsp;행정&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신규&nbsp;사업&nbsp;정책&nbsp;영향&nbsp;평가&nbsp;시,&nbsp;접근성을&nbsp;검토하는&nbsp;배리어프리영향검토&nbsp;단계&nbsp;신설&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;버스정류장&nbsp;접근권&nbsp;전면&nbsp;정비&nbsp;‘무장애&nbsp;정류장’<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유모차·휠체어&nbsp;통행&nbsp;보장을&nbsp;위한&nbsp;‘무장애&nbsp;보행로’&nbsp;골목&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;모든&nbsp;행정&nbsp;정보를&nbsp;쉬운&nbsp;언어·그림으로&nbsp;제작<br>&nbsp;&nbsp;○&nbsp;디지털&nbsp;동행&nbsp;지원단&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행정복지센터와&nbsp;생활권&nbsp;중심으로&nbsp;디지털&nbsp;기기에&nbsp;능숙해지도록&nbsp;디지털&nbsp;동행지원단&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;찾아가는&nbsp;디지털&nbsp;지원&nbsp;서비스와&nbsp;주민센터,&nbsp;경로당&nbsp;등&nbsp;공공공간에&nbsp;디지털&nbsp;안심&nbsp;연습&nbsp;공간&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;포괄적&nbsp;차별금지&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;성별·장애·인종·성적지향·학력&nbsp;등&nbsp;어떤&nbsp;이유로도&nbsp;차별받지&nbsp;않는&nbsp;원칙을&nbsp;명문화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동구&nbsp;차별금지센터&nbsp;설치.&nbsp;상담·조사·시정&nbsp;권고·제재(공공사업&nbsp;참여&nbsp;제한등)&nbsp;즉각적&nbsp;구체&nbsp;절차<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;HIV감염인&nbsp;친화&nbsp;의료기관&nbsp;지정.&nbsp;장기요양·돌봄&nbsp;시설&nbsp;운영&nbsp;<br>&nbsp;&nbsp;○&nbsp;국적이&nbsp;아닌&nbsp;거주로&nbsp;주민이&nbsp;되는&nbsp;동구<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재난지원금·아동수당&nbsp;등&nbsp;거주&nbsp;기준&nbsp;복지서비스&nbsp;적용&nbsp;원칙&nbsp;확립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미등록이주아동&nbsp;별도코드&nbsp;발급으로&nbsp;의료·교육·돌봄&nbsp;지원&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이주노동자&nbsp;임금체불&nbsp;구제기금&nbsp;운영과&nbsp;노동조건,&nbsp;숙식기준&nbsp;점검&nbsp;강화&nbsp;<br>&nbsp;&nbsp;○&nbsp;젠더폭력&nbsp;피해자&nbsp;지원센터&nbsp;(신고부터&nbsp;지원까지&nbsp;종합서비스)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(이주여성)&nbsp;성폭력/가정폭력&nbsp;종합센터&nbsp;설치.&nbsp;피해자&nbsp;쉽터&nbsp;확충&nbsp;및&nbsp;운영비&nbsp;지원&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·시비&nbsp;확보,&nbsp;지출&nbsp;구조&nbsp;조정</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	공존과 공정으로 도약하는 동구 경제</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="공존과 공정으로 도약하는 동구 경제">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;소상공인·자영업자를&nbsp;보호하는&nbsp;공정&nbsp;시장거래&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;돌봄을&nbsp;좋은&nbsp;일자리이자&nbsp;산업으로&nbsp;만들어&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;지역의&nbsp;자원이&nbsp;지역&nbsp;내에서&nbsp;소비·생산·투자되는&nbsp;구조&nbsp;만들기<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;에너지&nbsp;자립과&nbsp;자원순환으로&nbsp;기후&nbsp;위기&nbsp;대응<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;소상공인,&nbsp;자영업자&nbsp;3대&nbsp;사회안전망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자영업자&nbsp;고용보험&nbsp;보험료&nbsp;구청이&nbsp;직접&nbsp;지원.&nbsp;1인&nbsp;생계형&nbsp;자영업자의&nbsp;산재보험&nbsp;가입&nbsp;지원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;아프면&nbsp;쉴&nbsp;권리,&nbsp;지역&nbsp;상병수당을&nbsp;자영업자에게&nbsp;우선&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;“공존&nbsp;경제&nbsp;사회&nbsp;계약”&nbsp;돌봄을&nbsp;좋은&nbsp;일자리이자&nbsp;산업으로&nbsp;만들어&nbsp;지역&nbsp;경제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄&nbsp;노동자&nbsp;처우&nbsp;개선.&nbsp;직접&nbsp;고용&nbsp;또는&nbsp;그에&nbsp;준하는&nbsp;안정적&nbsp;지위&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공&nbsp;돌봄&nbsp;플래너&nbsp;배치.&nbsp;주민의&nbsp;생애주기와&nbsp;건강,&nbsp;가구&nbsp;구성&nbsp;맞춤형&nbsp;돌봄&nbsp;서비스&nbsp;설계,&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재생에너지&nbsp;설비&nbsp;점검사,&nbsp;동네&nbsp;단열&nbsp;진단사,&nbsp;마을&nbsp;돌봄&nbsp;코디네이터,&nbsp;도시&nbsp;자원&nbsp;순환&nbsp;매니저&nbsp;등&nbsp;지역&nbsp;일자리보장제로&nbsp;기후·돌봄&nbsp;분야에서&nbsp;새로운&nbsp;직업을&nbsp;규정하고&nbsp;직접&nbsp;고용&nbsp;및&nbsp;창업&nbsp;지원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간&nbsp;및&nbsp;중증&nbsp;장애인&nbsp;돌봄&nbsp;시&nbsp;2인&nbsp;1조&nbsp;근무&nbsp;의무화<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;기반&nbsp;사회&nbsp;연대&nbsp;경제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;필수&nbsp;공공서비스(돌봄,&nbsp;에너지,&nbsp;주거)&nbsp;사회연대&nbsp;경제&nbsp;조직&nbsp;우선&nbsp;위탁<br>&nbsp;&nbsp;○&nbsp;K-가스&nbsp;공공&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동구&nbsp;신서동&nbsp;일대에&nbsp;‘운영(가스공사)-기술(가스기술공사)-안전·규제(가스안전공사)’를&nbsp;하나로&nbsp;합친&nbsp;K-가스&nbsp;공공&nbsp;클러스터&nbsp;조성.&nbsp;거래비용&nbsp;감소&nbsp;및&nbsp;‘단일&nbsp;루프(Short-loop)’&nbsp;체계&nbsp;구축.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;물리적&nbsp;집적으로&nbsp;인한&nbsp;수소&nbsp;및&nbsp;탄소중립&nbsp;신산업&nbsp;플랫폼&nbsp;효율화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산학연&nbsp;협력&nbsp;및&nbsp;지역&nbsp;경제&nbsp;활성화.&nbsp;지역&nbsp;대학과&nbsp;연계하여&nbsp;전문&nbsp;인력&nbsp;풀(Pool)을&nbsp;형성하고&nbsp;지역&nbsp;인재&nbsp;채용&nbsp;확대.&nbsp;지역&nbsp;중소기업과의&nbsp;상생&nbsp;협력&nbsp;플랫폼&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;참여&nbsp;에너지&nbsp;협동조합&nbsp;설립&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;에너지&nbsp;협동조합&nbsp;원스톱&nbsp;지원&nbsp;센터&nbsp;설치(발전사업&nbsp;허가,&nbsp;부지&nbsp;확보&nbsp;등&nbsp;지원)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;에너지&nbsp;기금,&nbsp;이자지원,&nbsp;공공부지&nbsp;지원&nbsp;시&nbsp;주민&nbsp;협동조합&nbsp;우선권&nbsp;부여<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;참여형&nbsp;이익&nbsp;공유&nbsp;모델&nbsp;도입하여&nbsp;마을기금,&nbsp;지역화폐&nbsp;등으로&nbsp;수익&nbsp;환원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;안심&nbsp;햇빛&nbsp;발전소&nbsp;모델을&nbsp;확장,&nbsp;발전시켜,&nbsp;공공&nbsp;유휴부지&nbsp;활용&nbsp;햇빛&nbsp;발전소&nbsp;확대<br><br>□&nbsp;이행기간&nbsp;:&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;:&nbsp;국비·시비&nbsp;확보,&nbsp;지출&nbsp;구조&nbsp;조정</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;전진선 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	강하IC 포함 서울~양평고속도로(개군~용문으로 연장) 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="강하IC 포함 서울~양평고속도로(개군~용문으로 연장) 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;강하IC&nbsp;포함&nbsp;서울~양평고속도로(개군~용문으로&nbsp;연장)&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;양평&nbsp;균형발전&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강하IC를&nbsp;포함하여&nbsp;양평군민이&nbsp;실제로&nbsp;이용할&nbsp;수&nbsp;있는&nbsp;진출입로(IC)&nbsp;확보를&nbsp;핵심&nbsp;목표로&nbsp;제시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강하면·강상면·양평군&nbsp;동부권&nbsp;발전을&nbsp;위한&nbsp;핵심&nbsp;사유&nbsp;강조<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(남한강&nbsp;관광벨트&nbsp;활성화,&nbsp;기업&nbsp;유치&nbsp;및&nbsp;지역경제&nbsp;활성화,&nbsp;전원주택·정주여건&nbsp;개선)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역경제를&nbsp;살리는,&nbsp;양평에&nbsp;실질적&nbsp;이익이&nbsp;되는&nbsp;노선이어야&nbsp;한다는&nbsp;입장을&nbsp;지속적으로&nbsp;표명<br>&nbsp;&nbsp;○&nbsp;서울&nbsp;접근성&nbsp;획기적&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울&nbsp;동부권과&nbsp;양평을&nbsp;연결하는&nbsp;핵심&nbsp;광역교통망&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출퇴근&nbsp;교통난&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국도6호선&nbsp;및&nbsp;양근대교&nbsp;일대&nbsp;상습&nbsp;정체&nbsp;완화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수도권&nbsp;생활권&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;염원&nbsp;사업으로&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;범군민&nbsp;서명운동&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부&nbsp;및&nbsp;국회에&nbsp;지속적&nbsp;건의<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;인근&nbsp;지자체&nbsp;공동&nbsp;대용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;6만여&nbsp;명&nbsp;서명부&nbsp;전달&nbsp;등&nbsp;재추진&nbsp;활동&nbsp;지속<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내&nbsp;순차적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	군민 건강을 위한 군립병원 설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="군민 건강을 위한 군립병원 설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;의료의&nbsp;중심이자&nbsp;미래세대를&nbsp;위한&nbsp;선진&nbsp;공공의료&nbsp;인프라의&nbsp;초석&nbsp;마련&nbsp;<br>&nbsp;&nbsp;○&nbsp;양평군&nbsp;의료인프라&nbsp;발전<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;군립병원&nbsp;설립&nbsp;전환&nbsp;이전&nbsp;응급진단&nbsp;장비&nbsp;확충&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군립병원&nbsp;설립&nbsp;전환(인수&nbsp;타당성&nbsp;조사)&nbsp;이전&nbsp;단계의&nbsp;즉시&nbsp;실행&nbsp;카드<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;길병원&nbsp;내&nbsp;뇌질환&nbsp;측정기&nbsp;등&nbsp;고가&nbsp;응급&nbsp;진단장비를&nbsp;군비&nbsp;매칭으로&nbsp;두&nbsp;배&nbsp;확충하여,&nbsp;상급병원&nbsp;이송&nbsp;전&nbsp;자체·진단1차&nbsp;처치&nbsp;역량&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;군립병원&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임기&nbsp;초&nbsp;인수&nbsp;타당성&nbsp;조사·추진위원회&nbsp;구성&nbsp;즉시&nbsp;착수&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;길병원&nbsp;인수&nbsp;협상·실사를&nbsp;병행하며,&nbsp;공공병원&nbsp;전환&nbsp;시&nbsp;보건복지부&nbsp;지역거점공공병원&nbsp;지정으로&nbsp;국비&nbsp;지원&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;시설&nbsp;고도화와&nbsp;인력&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;응급실,&nbsp;건강검진센터,&nbsp;수술실,&nbsp;재활치료실&nbsp;등&nbsp;수도권&nbsp;내&nbsp;주요&nbsp;병원&nbsp;수준의&nbsp;규모&nbsp;및&nbsp;품질&nbsp;향상<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양질의&nbsp;인력&nbsp;다수&nbsp;확충을&nbsp;통한&nbsp;지역의료&nbsp;발전의&nbsp;구심점으로&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;응급&nbsp;진단장비&nbsp;투자로&nbsp;골든타임&nbsp;환자&nbsp;자체&nbsp;대응&nbsp;체계&nbsp;구축을&nbsp;통한&nbsp;응급의료체계&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;체계적인&nbsp;응급대응시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재난,&nbsp;다수사상자&nbsp;사고,&nbsp;응급상황&nbsp;발생&nbsp;시&nbsp;신속한&nbsp;대처로&nbsp;골든타임&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;찾아가는&nbsp;의료&nbsp;서비스<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이동진료차량&nbsp;전&nbsp;농촌&nbsp;정기&nbsp;운행<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보건복지부&nbsp;농촌&nbsp;의료취약지&nbsp;지원사업&nbsp;+&nbsp;경기도&nbsp;의사회&nbsp;MOU로&nbsp;의사&nbsp;파견&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;소아과·산부인과&nbsp;야간·주말&nbsp;진료&nbsp;체계&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;의사회&nbsp;순번제&nbsp;야간&nbsp;진료&nbsp;협약&nbsp;+&nbsp;야간&nbsp;수당&nbsp;지원을&nbsp;통한&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;분만&nbsp;가능한&nbsp;산부인과&nbsp;유치&nbsp;재추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;분만&nbsp;취약지&nbsp;지원사업&nbsp;공모&nbsp;재신청,&nbsp;아이&nbsp;낳는&nbsp;양평을&nbsp;위한&nbsp;기본&nbsp;인프라&nbsp;구축<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내&nbsp;순차적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;군비&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	용문산 사격장 부지에 경마테마공원 유치를 통한 친환경 생태·레저 복합지역 도약</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="용문산 사격장 부지에 경마테마공원 유치를 통한 친환경 생태·레저 복합지역 도약">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;40년&nbsp;소음&nbsp;피해를&nbsp;넘어,&nbsp;대한민국&nbsp;최고의&nbsp;친환경&nbsp;생태·레저&nbsp;복합지역으로&nbsp;도약<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;사업&nbsp;방식<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국방부&nbsp;↔&nbsp;국토부&nbsp;↔&nbsp;마사회&nbsp;↔&nbsp;양평군&nbsp;간의&nbsp;다자간&nbsp;협약(MOU)<br>&nbsp;&nbsp;○&nbsp;명분&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국토부&nbsp;:&nbsp;과천&nbsp;경마장&nbsp;이전을&nbsp;통한&nbsp;신속한&nbsp;수도권&nbsp;1만&nbsp;호&nbsp;주택&nbsp;공급&nbsp;목표&nbsp;달성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국방부&nbsp;:&nbsp;40년간&nbsp;지속된&nbsp;용문산&nbsp;사격장&nbsp;민원의&nbsp;평화적&nbsp;해결&nbsp;및&nbsp;현대화된&nbsp;대체&nbsp;사격장&nbsp;조성&nbsp;재원&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한국마사회&nbsp;:&nbsp;압도적&nbsp;규모의&nbsp;국공유지&nbsp;활용으로&nbsp;천문학적인&nbsp;사유지&nbsp;매입&nbsp;비용&nbsp;절감&nbsp;및&nbsp;글로벌&nbsp;수준의&nbsp;친환경&nbsp;말&nbsp;산업&nbsp;생태계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양평군&nbsp;:&nbsp;사격장&nbsp;피해를&nbsp;종식하고&nbsp;연간&nbsp;최대&nbsp;천&nbsp;억원의&nbsp;지방&nbsp;재정&nbsp;확보&nbsp;및&nbsp;수도권&nbsp;동부&nbsp;최대&nbsp;관광·레저&nbsp;허브로&nbsp;도약<br>&nbsp;&nbsp;○&nbsp;광역&nbsp;교통망&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;철도망&nbsp;:&nbsp;양평역&nbsp;↔&nbsp;렛츠런&nbsp;파크&nbsp;간&nbsp;직통&nbsp;친환경&nbsp;전기&nbsp;셔틀버스(BRT&nbsp;수준)&nbsp;대규모&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도로망&nbsp;:&nbsp;사업지&nbsp;진입을&nbsp;위한&nbsp;전용&nbsp;IC&nbsp;개설&nbsp;또는&nbsp;접속도로&nbsp;왕복&nbsp;4~6차선&nbsp;확장&nbsp;필수<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래&nbsp;모빌리티&nbsp;:&nbsp;자율주행&nbsp;환승&nbsp;시스템&nbsp;등&nbsp;미래모빌리티&nbsp;선제적&nbsp;도입&nbsp;검토를&nbsp;통해&nbsp;첨단&nbsp;관광형&nbsp;교통수단으로&nbsp;프리미엄&nbsp;고객&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;수질&nbsp;및&nbsp;환경&nbsp;규제&nbsp;돌파<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;오폐수&nbsp;무방류&nbsp;시스템&nbsp;돌파<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국가정책사업&nbsp;지정을&nbsp;통한&nbsp;규제&nbsp;특례&nbsp;적용<br>&nbsp;&nbsp;○&nbsp;사행&nbsp;시설이&nbsp;아닌&nbsp;가족&nbsp;휴양지로&nbsp;격상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;A존(코어&nbsp;구역)&nbsp;:&nbsp;첨단&nbsp;지하화&nbsp;마사,&nbsp;국제&nbsp;규격&nbsp;친환경&nbsp;경주로,&nbsp;스마트&nbsp;관람대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;B존(시민&nbsp;개방&nbsp;구역)&nbsp;:&nbsp;용문산&nbsp;자연환경과&nbsp;연계한&nbsp;‘국가정원’급&nbsp;생태공원,&nbsp;피크닉장,&nbsp;승마&nbsp;체험장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;C존(상생/수익&nbsp;구역)&nbsp;:&nbsp;말&nbsp;치유(재활)센터,&nbsp;실버타운&nbsp;연계형&nbsp;요양시설,&nbsp;지역&nbsp;농특산물(친환경&nbsp;농산물)&nbsp;직거래&nbsp;복합&nbsp;쇼핑몰<br>&nbsp;&nbsp;○&nbsp;단계별&nbsp;추진&nbsp;로드맵<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단계(공감대&nbsp;형성&nbsp;및&nbsp;추진위&nbsp;발족),&nbsp;2단계(다자간&nbsp;실무협의체&nbsp;구성),&nbsp;3단계(규제&nbsp;해소&nbsp;및&nbsp;부지&nbsp;양여&nbsp;협약),&nbsp;4단계(인허가&nbsp;및&nbsp;착공)<br>&nbsp;&nbsp;○&nbsp;일자리&nbsp;확대&nbsp;및&nbsp;연계한&nbsp;체류형&nbsp;관광벨트&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양평군민&nbsp;우선&nbsp;채용을&nbsp;통해&nbsp;청년과&nbsp;시니어&nbsp;일자리&nbsp;확대&nbsp;및&nbsp;양평&nbsp;내&nbsp;관광지와&nbsp;연계한&nbsp;체류형&nbsp;관광벨트&nbsp;완성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내&nbsp;순차적&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;연간&nbsp;약&nbsp;5~700억원&nbsp;규모의&nbsp;지방세(군세)&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	군 기관 용문 이전, 양평 동부권 발전의 초석</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="군 기관 용문 이전, 양평 동부권 발전의 초석">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;수도사업소,&nbsp;환경사업소,&nbsp;정원산림과&nbsp;이전을&nbsp;통한&nbsp;동부&nbsp;균형&nbsp;발전<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;이전&nbsp;타당성&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부서별&nbsp;업무&nbsp;특성&nbsp;분석,&nbsp;민원&nbsp;접근성&nbsp;검토,&nbsp;기반시설&nbsp;가능&nbsp;여부&nbsp;분석,&nbsp;예산&nbsp;규모&nbsp;산정으로&nbsp;현장&nbsp;대응&nbsp;효율을&nbsp;중심으로&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;조직진단&nbsp;및&nbsp;통합&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현재&nbsp;조직과&nbsp;운영체계를&nbsp;분석을&nbsp;통한&nbsp;현장&nbsp;대응력&nbsp;강화를&nbsp;중심으로&nbsp;방향&nbsp;설정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;군청사의&nbsp;과포화&nbsp;상태&nbsp;해소와&nbsp;본청&nbsp;공간의&nbsp;효율적&nbsp;재배치&nbsp;가능<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;조직&nbsp;진단&nbsp;및&nbsp;개편으로&nbsp;확보된&nbsp;공간을&nbsp;활용하여&nbsp;신규&nbsp;조직이나&nbsp;주민&nbsp;편의&nbsp;공간&nbsp;조성&nbsp;가능<br>&nbsp;&nbsp;○&nbsp;통합&nbsp;조직체계&nbsp;및&nbsp;스마트&nbsp;행정체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;분리된&nbsp;기능을&nbsp;통합&nbsp;체계로&nbsp;재편하여&nbsp;시너지&nbsp;효과&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합&nbsp;상황실,&nbsp;스마트&nbsp;관제,&nbsp;GIS&nbsp;기반&nbsp;시설관리,&nbsp;재난대응&nbsp;통합체계&nbsp;구축으로&nbsp;행정&nbsp;혁신&nbsp;효과&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행정시설&nbsp;재배치를&nbsp;통한&nbsp;지역&nbsp;균형발전과&nbsp;생활권&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합&nbsp;관리&nbsp;시스템&nbsp;구축으로&nbsp;중복&nbsp;행정을&nbsp;방지하고&nbsp;의사결정&nbsp;속도&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;인력&nbsp;및&nbsp;업무&nbsp;재배치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중복&nbsp;행정업무&nbsp;최소화,&nbsp;현장인력&nbsp;강화,&nbsp;긴급출동체계&nbsp;일원화,&nbsp;기술직&nbsp;전문성&nbsp;강화,&nbsp;야간·재난&nbsp;대응&nbsp;통합&nbsp;운영을&nbsp;통한&nbsp;현장&nbsp;효율화<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;균형&nbsp;발전&nbsp;및&nbsp;경제&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;양평군청&nbsp;내&nbsp;주요&nbsp;조직&nbsp;(수도사업소,&nbsp;환경사업소,&nbsp;정원산림과)의&nbsp;용문&nbsp;이전을&nbsp;통해&nbsp;행정&nbsp;인프라를&nbsp;분산하여&nbsp;지역&nbsp;불균형&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행정기구&nbsp;이전으로&nbsp;동부권&nbsp;성장&nbsp;동력&nbsp;확보&nbsp;및&nbsp;지역&nbsp;자산&nbsp;가치&nbsp;상승&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;인력,&nbsp;예산,&nbsp;시설관리가&nbsp;이원화되어&nbsp;중복업무가&nbsp;발생할&nbsp;수&nbsp;있는&nbsp;단점&nbsp;보완<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시설관리&nbsp;체계&nbsp;일원화,&nbsp;공사·유지보수&nbsp;업무&nbsp;통합,&nbsp;관로관리데이터&nbsp;통합,&nbsp;예산&nbsp;편성&nbsp;및&nbsp;집행&nbsp;효율화,&nbsp;중복&nbsp;행정&nbsp;축소&nbsp;등으로&nbsp;업무속도와&nbsp;의사결정&nbsp;효율이&nbsp;높아짐<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;즉시&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	임기 중 양평군 내 화장장 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="임기 중 양평군 내 화장장 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;군&nbsp;종합장사시설&nbsp;건립&nbsp;(3기&nbsp;이상&nbsp;화장시설,&nbsp;봉안당,&nbsp;자연장지,&nbsp;주민편의&nbsp;시설)<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;후보지&nbsp;선정&nbsp;절차&nbsp;본격화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1차&nbsp;심사&nbsp;후보지&nbsp;10곳에서&nbsp;8곳으로&nbsp;압축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2차&nbsp;심사에서&nbsp;현장&nbsp;평가를&nbsp;포함한&nbsp;점수를&nbsp;합산하여&nbsp;하위&nbsp;3곳&nbsp;제외한&nbsp;5개&nbsp;지역&nbsp;선정&nbsp;계획&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;6월&nbsp;말&nbsp;확정되는&nbsp;최종&nbsp;5개&nbsp;후보지의&nbsp;주민&nbsp;대상으로&nbsp;공청회와&nbsp;선진시설&nbsp;벤치마킹,&nbsp;주민&nbsp;토론회&nbsp;등&nbsp;진행으로&nbsp;12월까지&nbsp;최종부지&nbsp;선정<br>&nbsp;&nbsp;○&nbsp;사업추진에&nbsp;대한&nbsp;부정적&nbsp;인식전환&nbsp;및&nbsp;공감대&nbsp;형성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지속적인&nbsp;공설화장시설&nbsp;건립&nbsp;홍보,&nbsp;주민설명회,&nbsp;벤치마킹&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;타당성&nbsp;검토&nbsp;단계&nbsp;전부터&nbsp;공론화&nbsp;절차를&nbsp;통한&nbsp;의견수렴&nbsp;과정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업추진에&nbsp;대한&nbsp;충분한&nbsp;정보공개로&nbsp;절차적&nbsp;문제요소&nbsp;제거<br>&nbsp;&nbsp;○&nbsp;갈등해소를&nbsp;위한&nbsp;단계별&nbsp;주민&nbsp;참여&nbsp;유도<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부지선정의&nbsp;공정성&nbsp;확보를&nbsp;위해&nbsp;선정과정에&nbsp;반드시&nbsp;주민&nbsp;대표&nbsp;참여<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;갈등&nbsp;해소를&nbsp;위한&nbsp;소위원회&nbsp;및&nbsp;갈등&nbsp;전문가&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;건립추진위원회&nbsp;및&nbsp;소위원회의&nbsp;적극&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건립추진위원회&nbsp;:&nbsp;종합장사시설&nbsp;건립&nbsp;모형&nbsp;및&nbsp;규모&nbsp;심의·자문,&nbsp;건립대상지&nbsp;선정에&nbsp;관한&nbsp;심의·자문,&nbsp;건립대상지&nbsp;인접지역&nbsp;주민지원&nbsp;대책&nbsp;심의·자문<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소위원회&nbsp;:&nbsp;후보지&nbsp;마을&nbsp;선정&nbsp;시&nbsp;주민의견&nbsp;수렴&nbsp;및&nbsp;대면&nbsp;설득,&nbsp;분야별&nbsp;자문가로서의&nbsp;역할<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2025&nbsp;~&nbsp;2031&nbsp;(2032년&nbsp;개원&nbsp;목표)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;군비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

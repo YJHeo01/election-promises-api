@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박승영 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	돈이 돌고 활력 넘치는 10만 홍천강 철도시대!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="돈이 돌고 활력 넘치는 10만 홍천강 철도시대!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;생산,&nbsp;소비,&nbsp;일자리가&nbsp;선순환&nbsp;하는&nbsp;지역순환경제&nbsp;구현으로&nbsp;소득&nbsp;두&nbsp;배,&nbsp;행복&nbsp;두&nbsp;배&nbsp;홍천을&nbsp;구현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;농촌기본소득&nbsp;즉시도입<br>&nbsp;&nbsp;○&nbsp;공공기관&nbsp;유치,&nbsp;문화관광재단&nbsp;설치(관광산업&nbsp;활성화)<br>&nbsp;&nbsp;○&nbsp;경제산업진흥원&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;지역활성화&nbsp;재단설립<br>&nbsp;&nbsp;○&nbsp;지역화폐&nbsp;활성화&nbsp;및&nbsp;확대발행&nbsp;소상공인&nbsp;지원금&nbsp;대폭&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;사회적&nbsp;기업.&nbsp;마을기업&nbsp;육성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.06~2030.05까지&nbsp;순차&nbsp;진행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;자체재원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	청정 자연을 지키고 미래에너지를 준비하는 홍천</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="청정 자연을 지키고 미래에너지를 준비하는 홍천">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;미래&nbsp;에너지&nbsp;및&nbsp;첨단&nbsp;산업&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;청정&nbsp;자연&nbsp;보존&nbsp;및&nbsp;흡수원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;생활&nbsp;밀착형&nbsp;에너지&nbsp;전환:<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;햇빛소득&nbsp;마을&nbsp;단계적&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;신재생에너지&nbsp;기금&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;신재생에너지&nbsp;협동조합&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;수소&nbsp;기반&nbsp;에너지&nbsp;거점화<br>&nbsp;&nbsp;○&nbsp;바이오매스&nbsp;및&nbsp;순환경제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;첨단&nbsp;산업&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;거버넌스&nbsp;및&nbsp;참여형&nbsp;행정<br>&nbsp;&nbsp;○&nbsp;생태&nbsp;관광의&nbsp;고도화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.06~2030.05까지&nbsp;순차&nbsp;진행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;자체재원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	대한민국 농업수도 홍천</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="대한민국 농업수도 홍천">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농업의&nbsp;경쟁력을&nbsp;높여&nbsp;미래성장&nbsp;동력으로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;농업인이&nbsp;잘&nbsp;살고&nbsp;지역경제가&nbsp;함께&nbsp;성장&nbsp;추구<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;반값&nbsp;농자재&nbsp;규모&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;유통전담부서&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;농산물&nbsp;최저가보장제&nbsp;실행<br>&nbsp;&nbsp;○&nbsp;로컬푸드&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;기후위기&nbsp;대응&nbsp;AI&nbsp;기반&nbsp;스마트&nbsp;농.축산업&nbsp;확대화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.06~2030.05까지&nbsp;순차&nbsp;진행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;자체재원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	생애주기별, 맞춤형 복지 구현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="생애주기별, 맞춤형 복지 구현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;아이들에게는&nbsp;더&nbsp;큰&nbsp;꿈을,&nbsp;학부모에게는&nbsp;더&nbsp;큰&nbsp;안심을&nbsp;누리게&nbsp;해줌.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;다자녀&nbsp;올패스&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;내&nbsp;가족&nbsp;돌봄&nbsp;인정&nbsp;UP,&nbsp;손주&nbsp;돌봄&nbsp;인정<br>&nbsp;&nbsp;○&nbsp;임신&nbsp;출산&nbsp;가사도우미&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;교육예산&nbsp;총예산의&nbsp;5%까지&nbsp;인상<br>&nbsp;&nbsp;○&nbsp;홍천형&nbsp;영어학교&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;홍천형&nbsp;농촌&nbsp;유학지원(초등&nbsp;6년,&nbsp;중등&nbsp;3년)<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;보금자리&nbsp;공공임대&nbsp;주택&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;스마트&nbsp;팜&nbsp;인큐베이팅&nbsp;플랫폼&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;농업·지역경제·에너지&nbsp;연계&nbsp;청년&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;오지마을&nbsp;어르신&nbsp;의료&nbsp;이동지원&nbsp;차량&nbsp;운영&nbsp;:&nbsp;9개소<br>&nbsp;&nbsp;○&nbsp;경로당(208개소)&nbsp;식재료&nbsp;및&nbsp;반찬&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;주도&nbsp;소득창출&nbsp;모델&nbsp;지원(시니어협동조합&nbsp;설립)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.6~2030.5까지&nbsp;순차&nbsp;진행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;자체재원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	누구나 행복도시, 홍천</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="누구나 행복도시, 홍천">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;국민의&nbsp;생명과&nbsp;건강을&nbsp;가장&nbsp;먼저&nbsp;지키는&nbsp;홍천<br>&nbsp;&nbsp;○&nbsp;복지의&nbsp;사각지대&nbsp;없는&nbsp;홍천<br>&nbsp;&nbsp;○&nbsp;주민과&nbsp;가까운&nbsp;군부대,&nbsp;신뢰받는&nbsp;지역공동체<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;홍천&nbsp;종합병원&nbsp;현대화&nbsp;및&nbsp;규모화<br>&nbsp;&nbsp;○&nbsp;공공의료&nbsp;접근성&nbsp;강화&nbsp;(보건지소&nbsp;강화)<br>&nbsp;&nbsp;○&nbsp;원격의료&nbsp;시스템&nbsp;확대&nbsp;(일반병원&nbsp;연계)<br>&nbsp;&nbsp;○&nbsp;그냥&nbsp;해드림센터&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;사회봉사단체&nbsp;활동&nbsp;공간&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;스쿨존&nbsp;탄력적&nbsp;속도&nbsp;제한<br>&nbsp;&nbsp;○&nbsp;군인가족&nbsp;복합지원센터&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;군인가족&nbsp;경력단절&nbsp;해소를&nbsp;위한&nbsp;교육프로그램&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;국가유공자&nbsp;지원&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.06~2030.05까지&nbsp;순차&nbsp;진행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;자체재원</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

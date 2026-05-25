@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박찬우 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	경제 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="경제 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            〈민생경제〉<br>1.&nbsp;일자리&nbsp;12만개&nbsp;창출<br>2.&nbsp;소상공인&nbsp;경영안정자금&nbsp;확대<br>-소상공인&nbsp;특례보증&nbsp;확대(480억원→1000억원)<br>-저금리&nbsp;경영안정자금&nbsp;확대(1~2%)<br>-이자차액&nbsp;보전지원<br>3.&nbsp;소상공인&nbsp;종합지원센터&nbsp;설치<br>-창업&nbsp;상담,&nbsp;세무·노무·법률&nbsp;상담,&nbsp;온라인&nbsp;판매교육&nbsp;등<br>4.&nbsp;골목상권&nbsp;30곳&nbsp;육성&nbsp;프로젝트<br>-지역경제&nbsp;핵심&nbsp;생활상권으로&nbsp;육성(불당동·두정동·신부동·쌍용동&nbsp;등)<br>-상권별&nbsp;특화거리&nbsp;조성<br>-골목상권&nbsp;전담지원센터&nbsp;설치<br>5.&nbsp;전통시장&nbsp;시설&nbsp;현대화&nbsp;및&nbsp;관광시장화<br>-공영주차장&nbsp;확충,&nbsp;청년푸드존&nbsp;조성&nbsp;등<br>-버스킹&nbsp;공연&nbsp;및&nbsp;문화행사<br>6.&nbsp;천안사랑&nbsp;상품권&nbsp;발행규모&nbsp;확대(4,100억원→6,000억원)<br>7.&nbsp;청년상인&nbsp;300명&nbsp;육성&nbsp;프로젝트(청년상인&nbsp;창업&nbsp;지원&nbsp;등)<br><br>〈메가시티&nbsp;경제〉<br>1.&nbsp;미래&nbsp;모빌리티&nbsp;국가산단&nbsp;조기&nbsp;조성<br>2.&nbsp;4대&nbsp;전략산업&nbsp;육성(반도체·이차전지·모빌리티·바이오)<br>13.&nbsp;기업&nbsp;유치와&nbsp;투자&nbsp;확대를&nbsp;통한&nbsp;일자리&nbsp;창출&nbsp;기반&nbsp;구축<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;기업이&nbsp;모이고&nbsp;일자리가&nbsp;늘어나는&nbsp;경제&nbsp;중심도시&nbsp;조성&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;현황조사→계획&nbsp;수립→사업시행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내·후<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비+도비+시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	복지</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="복지">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;천안형&nbsp;통합돌봄시스템&nbsp;구축(의료·요양·돌봄&nbsp;원스톱)<br>2.&nbsp;노인&nbsp;일자리&nbsp;확대(6,500개)<br>3.&nbsp;치매·건강&nbsp;통합관리(75세&nbsp;이상&nbsp;치매&nbsp;조기검진&nbsp;확대)<br>4.&nbsp;읍면지역&nbsp;찾아가는&nbsp;의료·복지&nbsp;서비스&nbsp;확대<br>5.&nbsp;경로당&nbsp;운영&nbsp;지원&nbsp;강화(노인회장·사무장&nbsp;수당&nbsp;현실화)<br>6.&nbsp;365일·24시간&nbsp;돌봄체계&nbsp;구축(야간·주말·긴급돌봄)<br>7.&nbsp;출산부터&nbsp;양육까지&nbsp;원스톱&nbsp;지원(출생축하금+방문돌봄+육아지원&nbsp;패키지)<br>8.&nbsp;일하는&nbsp;부모&nbsp;부담&nbsp;완화(긴급·시간제&nbsp;돌봄&nbsp;확대)<br>9.&nbsp;장애인&nbsp;이동·의료·돌봄·교육·일자리&nbsp;통합&nbsp;체계&nbsp;구축<br>10.&nbsp;장애인&nbsp;이동권&nbsp;확대(이동지원차량·저상버스)<br>11.&nbsp;장애인&nbsp;일자리&nbsp;확대(500개→1,000개)<br>12.&nbsp;장애인&nbsp;지역사회&nbsp;중심&nbsp;자립지원&nbsp;강화<br>13.&nbsp;다문화가족&nbsp;맞춤형&nbsp;일자리&nbsp;확대(직업훈련+취업연계)<br>14.&nbsp;다문화가족&nbsp;주거·돌봄&nbsp;패키지(공동임대,&nbsp;아이돌봄&nbsp;서비스&nbsp;확대)<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;복지&nbsp;증진&nbsp;및&nbsp;삶의&nbsp;질&nbsp;향상<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;현황조사→계획&nbsp;수립→사업시행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내·후<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비+도비+시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	교육·문화·체육</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="교육·문화·체육">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            〈교육〉<br>1.&nbsp;과밀학급&nbsp;해소&nbsp;및&nbsp;학교&nbsp;신설증축(불당동·성성동·차암동·업성동&nbsp;등)<br>2.&nbsp;어린이보호구역&nbsp;스마트&nbsp;안전시설&nbsp;확대(스마트&nbsp;횡단보도,&nbsp;바닥신호등&nbsp;등)<br>3.&nbsp;천안형&nbsp;온종일&nbsp;돌봄체계&nbsp;구축(늘봄학교·초등돌봄교실·지역아동센터&nbsp;등)<br>4.&nbsp;AI·디지털·과학&nbsp;중심&nbsp;미래교육도시&nbsp;조성<br>5.&nbsp;안서동&nbsp;대학가&nbsp;청년문화·창업거점&nbsp;조성<br><br>〈문화〉<br>1.&nbsp;핵심&nbsp;문화인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-천안문화예술센터·성성아트센터·시립미술관,&nbsp;서북구문화원·시립문학관&nbsp;등<br>2.&nbsp;권역별&nbsp;문화시설&nbsp;확충(도서관·미술관·공연전시장&nbsp;등)<br>3.&nbsp;K-콘텐츠&nbsp;복합문화단지&nbsp;조성<br>4.&nbsp;중부권&nbsp;최대&nbsp;가족형&nbsp;테마파크&nbsp;조성(에버랜드&nbsp;in&nbsp;천안)<br>5.&nbsp;용연저수지&nbsp;관광&nbsp;인프라&nbsp;조성<br><br>〈체육〉<br>1.&nbsp;권역별&nbsp;체육&nbsp;인프라&nbsp;확충(수영장·다목적체육관·파크골프장·테니스장&nbsp;등)<br>2.&nbsp;동남권&nbsp;오룡지구&nbsp;제2종합체육관&nbsp;건립<br>2.&nbsp;자전거&nbsp;일주도로&nbsp;완성<br>3.&nbsp;학교체육시설&nbsp;전면&nbsp;개방(야간·주말&nbsp;체육관&nbsp;확대)<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;교육도시,&nbsp;창조&nbsp;문화체육도시&nbsp;구현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;현황조사→계획&nbsp;수립→사업시행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내·후<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비+도비+시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	도로교통</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="도로교통">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            〈단기&nbsp;교통개선〉<br>1.&nbsp;출퇴근&nbsp;시간&nbsp;버스우선차로&nbsp;시범&nbsp;운영<br>2.&nbsp;산업단지&nbsp;직행&nbsp;출퇴근버스&nbsp;운영<br>3.&nbsp;상습정체&nbsp;교차로&nbsp;교통신호&nbsp;최적화<br>4.&nbsp;화물차&nbsp;이동시간&nbsp;분산&nbsp;협약<br>5.&nbsp;병목구간&nbsp;구조개선&nbsp;작업<br><br>〈중기&nbsp;교통혁신〉<br>1.&nbsp;천안역·두정역·천안아산역의&nbsp;환승&nbsp;체계&nbsp;구축<br>2.&nbsp;도시형&nbsp;BRT(간선급행버스)&nbsp;4대&nbsp;간선망&nbsp;구축<br>3.&nbsp;버스&nbsp;교통체계&nbsp;전면&nbsp;개편(노선&nbsp;구조)<br>4.&nbsp;버스&nbsp;준공영제&nbsp;단계적&nbsp;도입<br>5.&nbsp;버스&nbsp;연계&nbsp;대중교통&nbsp;체계&nbsp;구축(급행버스+BRT+환승센터&nbsp;통합&nbsp;운영)<br><br>〈장기교통&nbsp;인프라&nbsp;혁신〉<br>1.&nbsp;경부선&nbsp;철도&nbsp;지하화&nbsp;및&nbsp;도시공간&nbsp;구조&nbsp;혁신(상부공간&nbsp;공원·도로&nbsp;등&nbsp;조성)<br>2.&nbsp;역세권&nbsp;중심&nbsp;생활권&nbsp;재편(역&nbsp;중심&nbsp;15분&nbsp;생활권&nbsp;구축)<br>3.&nbsp;외곽순환망&nbsp;구축&nbsp;및&nbsp;교통기능&nbsp;분리(외곽&nbsp;순환도로·국도대체우회도로&nbsp;확충)<br>4.&nbsp;GTX-C&nbsp;천안&nbsp;연장·광역철도망&nbsp;확충<br>5.&nbsp;수도권&nbsp;전철&nbsp;신규역사&nbsp;단계적&nbsp;신설(복모역,&nbsp;매주역,&nbsp;부성역,&nbsp;청수역)<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;출퇴근이&nbsp;편안한&nbsp;교통도시&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;현황조사→계획&nbsp;수립→사업시행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내·후<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비+도비+시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	농업·환경</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="농업·환경">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            〈농업〉<br>1.&nbsp;스마트농업·청년농업인&nbsp;육성<br>2.&nbsp;로컬푸드&nbsp;지원&nbsp;확대&nbsp;및&nbsp;유통체계&nbsp;개선<br>3,&nbsp;정주여건&nbsp;개선&nbsp;및&nbsp;소득안정&nbsp;지원<br>4.&nbsp;농업예산&nbsp;단계적&nbsp;확대<br>5.&nbsp;외국인&nbsp;고용체계&nbsp;개선을&nbsp;통한&nbsp;농·축산업의&nbsp;인력난&nbsp;해소<br>6.&nbsp;청년농업인·축산인&nbsp;공공주택&nbsp;우선&nbsp;배정&nbsp;확대<br>7.&nbsp;사료가격&nbsp;안정화&nbsp;대책&nbsp;추진<br><br>〈환경〉<br>1.&nbsp;미세먼지·기후위기&nbsp;대응&nbsp;강화<br>2.&nbsp;생활환경&nbsp;개선&nbsp;및&nbsp;친환경&nbsp;도시&nbsp;조성<br>3.&nbsp;생활폐기물&nbsp;수거·처리체계&nbsp;개선<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지속가능한&nbsp;환경도시,&nbsp;농업·농촌이&nbsp;살아나는&nbsp;미래농업도시&nbsp;구현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;현황조사→계획&nbsp;수립→사업시행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기내·후<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비+도비+시비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

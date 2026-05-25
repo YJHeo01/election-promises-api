@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이남형 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	[재정자립]스마트 자원순환 복합센터 건립 및 세수 증대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="[재정자립]스마트 자원순환 복합센터 건립 및 세수 증대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>재정&nbsp;확보:&nbsp;연간&nbsp;폐기물&nbsp;처리&nbsp;비용&nbsp;절감&nbsp;및&nbsp;재활용&nbsp;자원&nbsp;판매&nbsp;수익&nbsp;창출.<br>-&nbsp;관악구&nbsp;년간&nbsp;쓰레기&nbsp;매립&nbsp;비용&nbsp;약&nbsp;400억&nbsp;절약<br>-&nbsp;인근&nbsp;자치구&nbsp;쓰레기&nbsp;처리로,&nbsp;년간&nbsp;약&nbsp;2,000억&nbsp;세수&nbsp;확보<br>상징성:&nbsp;관악구의&nbsp;'탄소중립&nbsp;랜드마크'&nbsp;조성으로&nbsp;지역&nbsp;가치&nbsp;상승.<br><br>□&nbsp;이행방법<br>○&nbsp;부지&nbsp;최적화:&nbsp;남현동&nbsp;내&nbsp;유휴&nbsp;부지를&nbsp;활용,&nbsp;지하에는&nbsp;고효율&nbsp;자원재생&nbsp;시설을&nbsp;설치하고&nbsp;지상에는&nbsp;주민&nbsp;편의시설(공원,&nbsp;카페)을&nbsp;배치하는&nbsp;'입체적&nbsp;복합&nbsp;설계'&nbsp;적용.<br>-&nbsp;민관&nbsp;협력(PPP)&nbsp;모델:&nbsp;전문&nbsp;재활용&nbsp;기업과&nbsp;컨소시엄을&nbsp;구성하여&nbsp;운영&nbsp;효율성을&nbsp;높이고,&nbsp;기업으로부터&nbsp;시설&nbsp;점용료&nbsp;및&nbsp;수익&nbsp;배분금&nbsp;수령.<br>-&nbsp;지상은&nbsp;친환경&nbsp;복합&nbsp;문화&nbsp;타운&nbsp;및&nbsp;산책로&nbsp;등&nbsp;문화&nbsp;시설&nbsp;유치<br><br>□&nbsp;이행기간<br>○당선&nbsp;즉시&nbsp;시행<br>-&nbsp;임기내&nbsp;완료&nbsp;/&nbsp;최우선&nbsp;목표<br><br>□&nbsp;재원조달방안&nbsp;등<br>○&nbsp;총&nbsp;사업비:&nbsp;약&nbsp;250억&nbsp;원&nbsp;~&nbsp;350억&nbsp;원&nbsp;(부지&nbsp;매입비&nbsp;제외&nbsp;시)<br>-&nbsp;공사비:&nbsp;180억&nbsp;원&nbsp;(지하화&nbsp;및&nbsp;특수&nbsp;설비&nbsp;포함)<br>-&nbsp;설비&nbsp;및&nbsp;시스템&nbsp;구축비:&nbsp;70억&nbsp;원<br>-&nbsp;설계&nbsp;및&nbsp;기타&nbsp;용역비:&nbsp;30억&nbsp;원<br>○&nbsp;재원&nbsp;조달:&nbsp;<br>-&nbsp;환경부&nbsp;'스마트&nbsp;자원순환&nbsp;마을'&nbsp;또는&nbsp;'자원순환&nbsp;클러스터'&nbsp;공모를&nbsp;통해&nbsp;국비&nbsp;50%&nbsp;확보.<br>-&nbsp;서울시&nbsp;특별교부금:&nbsp;서울시&nbsp;'기후위기&nbsp;대응'&nbsp;및&nbsp;'청정도시&nbsp;조성'&nbsp;예산&nbsp;매칭&nbsp;(약&nbsp;30%).<br>-&nbsp;민간&nbsp;자본&nbsp;유치:&nbsp;ESG&nbsp;경영&nbsp;실천이&nbsp;필요한&nbsp;대기업의&nbsp;사회공헌기금&nbsp;또는&nbsp;운영권&nbsp;부여를&nbsp;조건으로&nbsp;한&nbsp;민간&nbsp;투자&nbsp;유치&nbsp;(20%).</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	[교통 개선]난곡선 조기착공 및 신림선연계 교통망 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="[교통 개선]난곡선 조기착공 및 신림선연계 교통망 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>난곡선:&nbsp;예비타당성&nbsp;조사&nbsp;조기&nbsp;통과&nbsp;및&nbsp;임기&nbsp;내&nbsp;착공.<br>신림선:&nbsp;운영&nbsp;효율&nbsp;극대화&nbsp;및&nbsp;서부선·난곡선과의&nbsp;연계&nbsp;환승&nbsp;체계&nbsp;완성.<br>교통&nbsp;복지:&nbsp;관악구&nbsp;교통&nbsp;사각지대(난곡동,&nbsp;미성동,&nbsp;난향동&nbsp;등)&nbsp;해소.&nbsp;강남권&nbsp;및&nbsp;여의도&nbsp;20분&nbsp;이내&nbsp;연결<br><br>□&nbsp;이행방법<br>○&nbsp;패스트트랙(Fast-Track)&nbsp;적용:&nbsp;국토부·서울시와&nbsp;협의하여&nbsp;설계와&nbsp;시공을&nbsp;병행하거나&nbsp;인허가&nbsp;절차를&nbsp;간소화하는&nbsp;행정&nbsp;절차&nbsp;단축&nbsp;추진.<br>-&nbsp;기술적&nbsp;설계&nbsp;보완:&nbsp;건설&nbsp;엔지니어링&nbsp;전문가로서&nbsp;지형적&nbsp;특성(난곡로&nbsp;일대&nbsp;지하&nbsp;매설물&nbsp;등)을&nbsp;고려한&nbsp;최적&nbsp;공법을&nbsp;제안하여&nbsp;공사&nbsp;기간&nbsp;연장&nbsp;리스크&nbsp;최소화.<br>-&nbsp;지하철역&nbsp;연계&nbsp;마을버스&nbsp;노선&nbsp;전면&nbsp;재설계:&nbsp;철도&nbsp;개통&nbsp;전까지&nbsp;주민&nbsp;불편을&nbsp;최소화할&nbsp;수&nbsp;있는&nbsp;'지하철&nbsp;직결&nbsp;셔틀망'&nbsp;구축.<br><br>□&nbsp;이행기간<br>○&nbsp;임기중&nbsp;완료&nbsp;/&nbsp;최우선&nbsp;목표<br><br>□&nbsp;재원조달방안&nbsp;<br>○&nbsp;서울시&nbsp;재정사업&nbsp;예산&nbsp;확보:&nbsp;난곡선은&nbsp;시비&nbsp;60%,&nbsp;국비&nbsp;40%로&nbsp;구성되므로,&nbsp;서울시의회&nbsp;및&nbsp;기재부와&nbsp;협력하여&nbsp;연차별&nbsp;예산&nbsp;우선&nbsp;배정&nbsp;추진.<br>-&nbsp;역세권&nbsp;고밀도&nbsp;개발(TOD)&nbsp;이익&nbsp;환수:&nbsp;주요&nbsp;역세권&nbsp;복합&nbsp;개발을&nbsp;통해&nbsp;발생하는&nbsp;공공기여금을&nbsp;주민&nbsp;편의시설&nbsp;및&nbsp;철도&nbsp;운영&nbsp;보조금으로&nbsp;활용.<br>-&nbsp;중앙정부&nbsp;특별교부세&nbsp;유치:&nbsp;교통&nbsp;소외지역&nbsp;인프라&nbsp;확충&nbsp;명분으로&nbsp;행안부&nbsp;특별교부세&nbsp;확보.<br><br>·&nbsp;비용은&nbsp;국·시비&nbsp;중심,&nbsp;구비는&nbsp;역세권&nbsp;활성화&nbsp;및&nbsp;부대시설&nbsp;설치에&nbsp;집중&nbsp;투입.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	[지역경제] 역세권 용적률 1,000% 상향을 통한 '관악 테크노폴리스' 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="[지역경제] 역세권 용적률 1,000% 상향을 통한 '관악 테크노폴리스' 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>·&nbsp;경제&nbsp;활성화:&nbsp;역세권&nbsp;고밀도&nbsp;개발로&nbsp;지역&nbsp;내&nbsp;총생산(GRDP)&nbsp;및&nbsp;지방세수&nbsp;획기적&nbsp;증대.&nbsp;지역경제&nbsp;활성화<br>·&nbsp;기업&nbsp;유치:&nbsp;대기업&nbsp;R&D&nbsp;센터&nbsp;및&nbsp;글로벌&nbsp;테크&nbsp;기업&nbsp;유치로&nbsp;양질의&nbsp;일자리&nbsp;창출.<br>·&nbsp;청년&nbsp;지원:&nbsp;청년&nbsp;벤처&nbsp;창업가를&nbsp;위한&nbsp;공공형&nbsp;오피스&nbsp;및&nbsp;주거·문화&nbsp;복합&nbsp;공간&nbsp;제공.<br><br>□&nbsp;이행방법<br>○&nbsp;용도지역&nbsp;상향(종상향):&nbsp;서울시&nbsp;'역세권&nbsp;활성화&nbsp;사업'과&nbsp;연계하여&nbsp;주요&nbsp;역세권(서울대입구역,&nbsp;신림역,&nbsp;사당역&nbsp;인근)을&nbsp;일반상업지역&nbsp;등으로&nbsp;상향,&nbsp;용적률&nbsp;최대&nbsp;1,000%&nbsp;확보.<br>-&nbsp;입체적&nbsp;복합&nbsp;설계:&nbsp;저층부는&nbsp;주민&nbsp;편의&nbsp;및&nbsp;상업시설,&nbsp;중층부는&nbsp;공공형&nbsp;벤처&nbsp;오피스,&nbsp;고층부는&nbsp;대기업&nbsp;R&D&nbsp;센터와&nbsp;직주근접형&nbsp;청년주택으로&nbsp;구성하는&nbsp;'수직형&nbsp;복합도시'&nbsp;설계.<br>-&nbsp;기부체납의&nbsp;전략적&nbsp;활용:&nbsp;고밀&nbsp;개발에&nbsp;따른&nbsp;기부체납분을&nbsp;현금이&nbsp;아닌&nbsp;'창업지원&nbsp;공공&nbsp;오피스'&nbsp;및&nbsp;'R&D&nbsp;연구&nbsp;시설'&nbsp;공간으로&nbsp;확보하여&nbsp;예산&nbsp;절감.<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;중&nbsp;실시&nbsp;/&nbsp;최우선&nbsp;목표<br><br>□&nbsp;재원조달방안&nbsp;<br>○&nbsp;민간&nbsp;자본&nbsp;투자&nbsp;유치:&nbsp;용적률&nbsp;혜택을&nbsp;매개로&nbsp;민간&nbsp;시행사&nbsp;및&nbsp;대기업&nbsp;건설&nbsp;자본&nbsp;유치&nbsp;(PF&nbsp;방식&nbsp;등).<br>-&nbsp;중소벤처기업부&nbsp;'벤처기업육성촉진지구'&nbsp;예산:&nbsp;인프라구축비&nbsp;국비지원&nbsp;확보.<br>-&nbsp;서울시&nbsp;'창조산업'&nbsp;육성&nbsp;자금:&nbsp;벤처밸리&nbsp;운영&nbsp;및&nbsp;스타트업&nbsp;육성&nbsp;펀드&nbsp;연계.<br>-&nbsp;도시재생&nbsp;혁신지구&nbsp;지정:&nbsp;국토부로부터&nbsp;국가&nbsp;예산&nbsp;지원을&nbsp;받는&nbsp;혁신지구&nbsp;공모&nbsp;추진.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	[관악구 가치 상승] 봉천천 생태하천 복원 및 도로 입체화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="[관악구 가치 상승] 봉천천 생태하천 복원 및 도로 입체화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>·&nbsp;환경&nbsp;복원:&nbsp;복개된&nbsp;봉천천을&nbsp;생태하천으로&nbsp;복원하여&nbsp;도심&nbsp;열섬&nbsp;현상&nbsp;완화&nbsp;및&nbsp;친수&nbsp;공간&nbsp;조성.<br>·&nbsp;교통&nbsp;혁신:&nbsp;하천&nbsp;복원과&nbsp;동시에&nbsp;인근&nbsp;도로망을&nbsp;입체적으로&nbsp;재설계하여&nbsp;봉천로&nbsp;일대&nbsp;상습&nbsp;정체&nbsp;해소.<br>·&nbsp;지역&nbsp;경제:&nbsp;수(水)변&nbsp;산책로와&nbsp;연계한&nbsp;지역&nbsp;상권(현대시장&nbsp;등)&nbsp;활성화&nbsp;및&nbsp;지가&nbsp;상승&nbsp;유도.<br><br>□&nbsp;이행방법<br>○&nbsp;입체적&nbsp;복합&nbsp;설계:&nbsp;하천&nbsp;상부는&nbsp;수변&nbsp;공원으로&nbsp;복원하되,&nbsp;기존&nbsp;도로&nbsp;기능을&nbsp;유지하기&nbsp;위해&nbsp;'지하차도&nbsp;신설'&nbsp;또는&nbsp;'측도&nbsp;확장'을&nbsp;포함한&nbsp;엔지니어링&nbsp;설계&nbsp;적용.<br>-&nbsp;스마트&nbsp;치수&nbsp;시스템:&nbsp;기습&nbsp;폭우에&nbsp;대비한&nbsp;대형&nbsp;저류조&nbsp;및&nbsp;스마트&nbsp;수위&nbsp;조절&nbsp;시스템&nbsp;구축으로&nbsp;침수&nbsp;피해&nbsp;제로화.<br>-&nbsp;단계별&nbsp;구간&nbsp;사업:&nbsp;원당초등학교&nbsp;인근부터&nbsp;보라매공원&nbsp;연결&nbsp;구간까지&nbsp;단계적&nbsp;착공으로&nbsp;공사&nbsp;중&nbsp;주민&nbsp;불편&nbsp;최소화.<br><br>□&nbsp;이행기간<br>○&nbsp;임기&nbsp;중&nbsp;착공&nbsp;/&nbsp;단계별&nbsp;시행<br><br>□&nbsp;재원조달방안&nbsp;<br>○&nbsp;환경부&nbsp;'생태하천&nbsp;복원사업'&nbsp;공모:&nbsp;총&nbsp;사업비의&nbsp;50%&nbsp;국비&nbsp;확보&nbsp;<br>서울시&nbsp;'지천&nbsp;르네상스'&nbsp;프로젝트&nbsp;연계:&nbsp;서울시&nbsp;수변&nbsp;감성도시&nbsp;예산&nbsp;유치&nbsp;(30%).<br>지역발전&nbsp;특별교부세:&nbsp;국회&nbsp;및&nbsp;행안부&nbsp;협의를&nbsp;통한&nbsp;특별예산&nbsp;확보&nbsp;(10%).<br>민간&nbsp;기여&nbsp;및&nbsp;구비:&nbsp;주변&nbsp;개발&nbsp;사업과&nbsp;연계한&nbsp;공공기여금&nbsp;및&nbsp;연차별&nbsp;구&nbsp;예산&nbsp;편성&nbsp;(10%).</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	[교육/복지] 관악 교육·복지 대전환: '서울대 연계 명문학교' 및 '관악 행복콜택시'</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="[교육/복지] 관악 교육·복지 대전환: '서울대 연계 명문학교' 및 '관악 행복콜택시'">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>·&nbsp;교육:&nbsp;서울대&nbsp;사대부고&nbsp;수준의&nbsp;'서울대&nbsp;연계&nbsp;관악형&nbsp;공립&nbsp;명문고'&nbsp;육성으로&nbsp;교육&nbsp;격차&nbsp;해소&nbsp;및&nbsp;인구&nbsp;유입&nbsp;유도.<br>·&nbsp;복지:&nbsp;장애인,&nbsp;어르신&nbsp;등&nbsp;교통약자의&nbsp;이동권을&nbsp;보장하는&nbsp;'관악&nbsp;행복콜택시'&nbsp;도입으로&nbsp;복지&nbsp;사각지대&nbsp;제로화.<br><br>□&nbsp;이행방법<br>[교육]&nbsp;서울대&nbsp;연계&nbsp;교육&nbsp;거점&nbsp;조성<br>·&nbsp;학교&nbsp;공간&nbsp;혁신:&nbsp;노후&nbsp;학교&nbsp;리모델링&nbsp;또는&nbsp;적정&nbsp;규모&nbsp;학교&nbsp;통합을&nbsp;통해&nbsp;스마트&nbsp;캠퍼스&nbsp;구축<br>·&nbsp;서울대-관악구&nbsp;교육&nbsp;협약(MOU):&nbsp;서울대&nbsp;사범대&nbsp;및&nbsp;주요&nbsp;학과가&nbsp;참여하는&nbsp;'교과&nbsp;과정&nbsp;자문'&nbsp;및&nbsp;'대학생&nbsp;멘토링'&nbsp;상설화.<br>·&nbsp;공공형&nbsp;입시&nbsp;컨설팅:&nbsp;서울대&nbsp;인프라를&nbsp;활용한&nbsp;관악구&nbsp;전용&nbsp;진로·진학&nbsp;지원&nbsp;프로그램&nbsp;운영.<br>[복지]&nbsp;관악&nbsp;행복콜택시&nbsp;시스템&nbsp;구축<br>·&nbsp;바우처형&nbsp;택시&nbsp;운영:&nbsp;기존&nbsp;장애인&nbsp;콜택시의&nbsp;대기&nbsp;시간을&nbsp;획기적으로&nbsp;줄이기&nbsp;위해&nbsp;민간&nbsp;택시와&nbsp;연계한&nbsp;바우처&nbsp;시스템&nbsp;도입.<br>·&nbsp;AI&nbsp;관제&nbsp;시스템:&nbsp;구청&nbsp;내&nbsp;스마트&nbsp;교통&nbsp;관제&nbsp;센터를&nbsp;활용하여&nbsp;교통&nbsp;약자의&nbsp;호출에&nbsp;즉각&nbsp;대응하는&nbsp;효율적&nbsp;배차&nbsp;설계.<br><br>□&nbsp;이행기간<br>○&nbsp;임기내&nbsp;단계적&nbsp;완료&nbsp;/&nbsp;최우선&nbsp;목표<br><br>□&nbsp;재원조달방안&nbsp;<br>·&nbsp;교육&nbsp;부문:&nbsp;서울시&nbsp;교육청&nbsp;'학교&nbsp;공간&nbsp;혁신&nbsp;사업'&nbsp;예산&nbsp;유치(국비·시교육청비&nbsp;80%)&nbsp;및&nbsp;관악구&nbsp;교육경비&nbsp;보조금&nbsp;활용.<br>·&nbsp;복지&nbsp;부문:&nbsp;보건복지부&nbsp;'교통약자&nbsp;이동지원'&nbsp;국비&nbsp;공모&nbsp;및&nbsp;서울시&nbsp;'동행택시'&nbsp;사업&nbsp;예산&nbsp;매칭.<br>사회적&nbsp;기여:&nbsp;지역&nbsp;내&nbsp;기업&nbsp;및&nbsp;서울대&nbsp;산학협력단의&nbsp;교육&nbsp;공헌&nbsp;기금&nbsp;유치.</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

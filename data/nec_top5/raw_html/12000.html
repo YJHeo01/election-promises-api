@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이장우 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	HD현대 본사기능 동구환원으로 지역순환경제 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="HD현대 본사기능 동구환원으로 지역순환경제 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;<br>물적분할로&nbsp;인한&nbsp;현대중공업&nbsp;본사기능&nbsp;수도권&nbsp;이전&nbsp;7년,&nbsp;영업·기획·연구&nbsp;등&nbsp;핵심기능은&nbsp;빠져나가고&nbsp;울산동구는&nbsp;생산기지로&nbsp;전락.&nbsp;울산지역&nbsp;총&nbsp;소득의&nbsp;21.3%가&nbsp;외지로&nbsp;빠져나가며&nbsp;조선업이&nbsp;호황이더라도&nbsp;울산&nbsp;동구는&nbsp;불황의&nbsp;늪을&nbsp;벗어나기&nbsp;어려운&nbsp;현실.&nbsp;HD현대&nbsp;본사기능&nbsp;동구환원으로&nbsp;동구에서&nbsp;발생한&nbsp;수익의&nbsp;역외유출을&nbsp;막고&nbsp;동구에서&nbsp;발생한&nbsp;수익이&nbsp;동구지역에&nbsp;재투자&nbsp;되면서&nbsp;동구&nbsp;경제를&nbsp;활성화&nbsp;시키는&nbsp;동구순환경제&nbsp;완성.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;HD현대&nbsp;본사기능&nbsp;동구&nbsp;환원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역순환경제전국네트워크와&nbsp;동구청이&nbsp;함께&nbsp;대기업&nbsp;본사기능&nbsp;지방&nbsp;환원&nbsp;운동&nbsp;전국적&nbsp;전개<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;HD현대&nbsp;본사기능&nbsp;동구환원&nbsp;10만&nbsp;동구주민&nbsp;서명운동&nbsp;전개<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동구청이&nbsp;중심이&nbsp;되어&nbsp;‘HD현대&nbsp;본사기능&nbsp;동구환원&nbsp;대책위’&nbsp;구성<br><br>&nbsp;&nbsp;○&nbsp;‘동구지역&nbsp;재투자&nbsp;촉진&nbsp;조례’&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동구지역에서&nbsp;발생한&nbsp;자본을&nbsp;동구지역에&nbsp;재투자&nbsp;유도,&nbsp;동구지역&nbsp;공공&nbsp;발주를&nbsp;지역&nbsp;내&nbsp;업체에&nbsp;우선하고&nbsp;민간발주까지&nbsp;지역내에서&nbsp;소화할&nbsp;수&nbsp;있도록&nbsp;조례&nbsp;제정&nbsp;지원<br><br>&nbsp;&nbsp;○&nbsp;동구&nbsp;지역화폐&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동구청-노동조합-기업-소상공인이&nbsp;함께&nbsp;동구지역화폐&nbsp;활성화&nbsp;협약&nbsp;체결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노동조합은&nbsp;임금의&nbsp;일부분(성과급등)을&nbsp;동구지역화폐로&nbsp;받는&nbsp;것에&nbsp;동의하고,&nbsp;기업은&nbsp;동구지역화폐의&nbsp;할인율(5~10%)&nbsp;부담,&nbsp;동구청은&nbsp;동구화폐&nbsp;운영에&nbsp;책임을&nbsp;지고,&nbsp;상공인&nbsp;단체는&nbsp;동구화폐&nbsp;운영과&nbsp;활성화에&nbsp;협조하는&nbsp;협약.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	사내하청 1만명 정규직 전환 및 노동자 중심 동구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="사내하청 1만명 정규직 전환 및 노동자 중심 동구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;<br>현대중공업&nbsp;본사이전과&nbsp;구조조정은&nbsp;정규직&nbsp;노동자&nbsp;감소,&nbsp;하청노동자&nbsp;임금&nbsp;저하,&nbsp;이주노동자&nbsp;증가로&nbsp;이어지고&nbsp;이것은&nbsp;자영업&nbsp;폐업,&nbsp;건물&nbsp;공실률&nbsp;증가,&nbsp;부동산&nbsp;지속하락,&nbsp;세수감소로&nbsp;지역&nbsp;소멸위기&nbsp;악순환으로&nbsp;나타남.&nbsp;HD현대&nbsp;본사기능&nbsp;환원과&nbsp;함께&nbsp;사내하청&nbsp;1만명&nbsp;정규직&nbsp;전환이&nbsp;동구경제&nbsp;활성화의&nbsp;핵심&nbsp;목표임.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;사내하청노동자&nbsp;1만명&nbsp;정규직&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사내하청노동자&nbsp;2만&nbsp;5천명&nbsp;중,&nbsp;내국인과&nbsp;만60세&nbsp;이하&nbsp;하청노동자&nbsp;약&nbsp;1만&nbsp;여명&nbsp;정규직화&nbsp;우선&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동구청이&nbsp;직접&nbsp;나서&nbsp;사내하청&nbsp;정규직&nbsp;전환의&nbsp;여론&nbsp;형성&nbsp;주도<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동구청&nbsp;및&nbsp;산하&nbsp;공공기관&nbsp;모든&nbsp;상시지속업무&nbsp;정규직화(공무직&nbsp;전환)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사내하청노동자의&nbsp;노동조합&nbsp;가입&nbsp;독려&nbsp;및&nbsp;노동조합&nbsp;강화&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘부당노동행위&nbsp;방지&nbsp;조례’&nbsp;제정&nbsp;및&nbsp;불법적인&nbsp;노조가입&nbsp;방해&nbsp;엄벌.<br><br>&nbsp;&nbsp;○&nbsp;동구청&nbsp;내&nbsp;‘노동지원과’&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노동지원과를&nbsp;설치하고&nbsp;지원과내에&nbsp;“노동조합&nbsp;설립지원계”&nbsp;설치&nbsp;미조직&nbsp;노동자&nbsp;조직사업,&nbsp;“산업안전&nbsp;담당계”&nbsp;설치&nbsp;산업재해&nbsp;노동자&nbsp;지원,&nbsp;“노동자&nbsp;법률지원계”&nbsp;설치&nbsp;노동자&nbsp;법률지원,&nbsp;“이주노동자&nbsp;지원계”&nbsp;설치&nbsp;이주노동자&nbsp;불이익&nbsp;근절&nbsp;및&nbsp;처우개선&nbsp;지원,&nbsp;“노동인권&nbsp;교육계”&nbsp;설치&nbsp;노동자&nbsp;기본권리&nbsp;교육&nbsp;진행,&nbsp;향후&nbsp;‘노동지원과’를&nbsp;‘노동지원국’으로&nbsp;승격&nbsp;발전<br><br>&nbsp;&nbsp;○&nbsp;‘동구지역&nbsp;노동자&nbsp;연대회의’&nbsp;구성&nbsp;노동자&nbsp;단결력&nbsp;향상<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노동자들이&nbsp;만나고,&nbsp;정보를&nbsp;얻고,&nbsp;연대하며&nbsp;협상력을&nbsp;키우는&nbsp;기반&nbsp;제공,&nbsp;정규직-비정규직,&nbsp;원청-하청노동자,&nbsp;내국인-이주노동자의&nbsp;단결을&nbsp;가능케&nbsp;하는&nbsp;공공&nbsp;기반&nbsp;구축.&nbsp;구청&nbsp;노동지원과를&nbsp;중심으로&nbsp;노동조합,&nbsp;노동지원단체,&nbsp;노동전문가로&nbsp;구성하여&nbsp;노동의제를&nbsp;논의,&nbsp;결정,&nbsp;실천하는&nbsp;조직운영</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	울산대 의대·대학원 완전환원, 건강하고 안전한 동구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="울산대 의대·대학원 완전환원, 건강하고 안전한 동구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;<br>10여&nbsp;년간의&nbsp;노력으로&nbsp;울산대&nbsp;의대&nbsp;2026년부터&nbsp;일부&nbsp;동구&nbsp;환원(아산의학관에서&nbsp;3년&nbsp;과정)&nbsp;이후&nbsp;의대&nbsp;본과&nbsp;전과정과&nbsp;대학원(545명)까지&nbsp;동구&nbsp;환원&nbsp;완성.&nbsp;울산대&nbsp;의대·대학원&nbsp;동구&nbsp;환원으로&nbsp;동구를&nbsp;의학교육·산업의&nbsp;중심지로&nbsp;도약.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;울산대&nbsp;의대·대학원&nbsp;완전&nbsp;환원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고등교육법을&nbsp;어기며&nbsp;편법운영하는&nbsp;울산대&nbsp;의대·대학원&nbsp;완전&nbsp;환원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;울산대&nbsp;의대·대학원의&nbsp;동구&nbsp;안착을&nbsp;위한&nbsp;기반&nbsp;조성.&nbsp;대학원&nbsp;이전으로&nbsp;인한&nbsp;각종&nbsp;의료&nbsp;연구&nbsp;기반&nbsp;시설&nbsp;인프라&nbsp;조성&nbsp;지원<br><br>&nbsp;&nbsp;○&nbsp;울산의료원&nbsp;설립,&nbsp;지역의사제&nbsp;울산&nbsp;적용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공병원이&nbsp;없는&nbsp;울산,&nbsp;중단된&nbsp;울산의료원&nbsp;설립&nbsp;추진&nbsp;완성.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역의사제&nbsp;시행됐으나&nbsp;울산은&nbsp;배제.&nbsp;지역의무배치&nbsp;의사&nbsp;울산&nbsp;적용&nbsp;추진<br><br>&nbsp;&nbsp;○&nbsp;소아응급&nbsp;의료문제&nbsp;해결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;울산대병원&nbsp;소아&nbsp;24시간&nbsp;진료&nbsp;지원체계&nbsp;방안&nbsp;마련(달빛어린이&nbsp;병원&nbsp;기능)<br><br>&nbsp;&nbsp;○&nbsp;유해화학물질&nbsp;문제&nbsp;해결,&nbsp;건강한&nbsp;동구&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유해화학물질&nbsp;배출&nbsp;1위&nbsp;지역&nbsp;오명을&nbsp;벗어나기&nbsp;위해&nbsp;정기적인&nbsp;유해물질&nbsp;조사&nbsp;평가&nbsp;및&nbsp;신고제도&nbsp;운영.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현재&nbsp;동구&nbsp;1개소인&nbsp;유해화학물질&nbsp;계측기를&nbsp;8기&nbsp;추가&nbsp;설치하여&nbsp;동별&nbsp;1개소&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동구&nbsp;여성&nbsp;기대수명&nbsp;전국&nbsp;최하위&nbsp;원인&nbsp;규명을&nbsp;위한&nbsp;특별&nbsp;역학조사&nbsp;진행.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정기적&nbsp;주민건강&nbsp;조사&nbsp;및&nbsp;건강생활지원센터&nbsp;확충</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	동별 공공돌봄센터 설립 및 완전한 통합돌봄 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="동별 공공돌봄센터 설립 및 완전한 통합돌봄 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;<br>26년&nbsp;3월부터&nbsp;‘의료·요양&nbsp;등&nbsp;지역&nbsp;돌봄&nbsp;통합지원법’&nbsp;시행.&nbsp;지자체장의&nbsp;통합&nbsp;돌봄&nbsp;권한&nbsp;강화.&nbsp;동구의&nbsp;급속한&nbsp;노령인구&nbsp;증가&nbsp;및&nbsp;돌봄&nbsp;인프라&nbsp;부족&nbsp;해결&nbsp;동구지역의&nbsp;완전한&nbsp;통합&nbsp;돌봄&nbsp;체계&nbsp;완성.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;동별&nbsp;공공돌봄센터&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동구&nbsp;3개&nbsp;권역에&nbsp;공공돌봄센터&nbsp;설립,&nbsp;이후&nbsp;9개동에&nbsp;1개소씩&nbsp;공공돌봄센터&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영아/아동/청소년/노인/장애인을&nbsp;아우르는&nbsp;공공돌봄&nbsp;체계&nbsp;구축.<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간위탁&nbsp;사회서비스기관의&nbsp;단계적&nbsp;공영화&nbsp;및&nbsp;공공돌봄센터로의&nbsp;통합<br><br>&nbsp;&nbsp;○&nbsp;노인&nbsp;돌봄&nbsp;체계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노인&nbsp;질환&nbsp;전문병원&nbsp;설립(유치),&nbsp;어르신&nbsp;방문&nbsp;진료&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노인주거&nbsp;개선,&nbsp;노인시설,&nbsp;요양기관&nbsp;확대&nbsp;및&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동별&nbsp;마을식당&nbsp;설치&nbsp;및&nbsp;지원확대,&nbsp;마을&nbsp;경로당에&nbsp;대한&nbsp;공적&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;줄서지&nbsp;않아도&nbsp;식권&nbsp;살&nbsp;수&nbsp;있는&nbsp;제도&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노인&nbsp;인구&nbsp;급증에&nbsp;따른&nbsp;어른신&nbsp;쉼터&nbsp;부족&nbsp;문제&nbsp;해결<br><br>&nbsp;&nbsp;○&nbsp;영아/아동&nbsp;돌봄&nbsp;체계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동구가&nbsp;직접&nbsp;운영하는&nbsp;영아전문&nbsp;어린이집&nbsp;개설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아동&nbsp;주치의&nbsp;제도&nbsp;도입(취약아동&nbsp;치과&nbsp;주치의&nbsp;제도부터&nbsp;시행)<br><br>&nbsp;&nbsp;○&nbsp;장애인&nbsp;돌봄&nbsp;체계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장애인&nbsp;활동지원서비스&nbsp;추가지원제도&nbsp;보장성&nbsp;강화,&nbsp;발달장애인&nbsp;위기가구&nbsp;지원체계&nbsp;구축.<br><br>&nbsp;&nbsp;○&nbsp;돌봄&nbsp;교사,&nbsp;돌봄&nbsp;노동자&nbsp;인력&nbsp;확대&nbsp;및&nbsp;민주적&nbsp;지역돌봄시스템&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄&nbsp;노동자&nbsp;인력&nbsp;확대&nbsp;및&nbsp;노동기본권,&nbsp;생활임금&nbsp;보장(돌봄노동자&nbsp;조례&nbsp;제정),&nbsp;지자체-이용자-해당노동자-지역시민&nbsp;사회의&nbsp;공동의사결정과&nbsp;민주적&nbsp;지역돌봄&nbsp;시스템&nbsp;운영</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	교통·관광·역사·자연이 어우러진 살기 좋은 동구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="교통·관광·역사·자연이 어우러진 살기 좋은 동구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;대중교통의&nbsp;혁신과&nbsp;역사·관광·자연이&nbsp;어우러진&nbsp;살기&nbsp;좋은&nbsp;동구&nbsp;완성.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;교통&nbsp;:&nbsp;언제,&nbsp;어디서나,&nbsp;누구나&nbsp;대중교통&nbsp;교통혁명<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;버스&nbsp;완전공영제&nbsp;시행을&nbsp;위해&nbsp;동구지역&nbsp;마을버스부터&nbsp;완전공영제&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;무상&nbsp;동구순환버스&nbsp;운영&nbsp;및&nbsp;무상&nbsp;마을버스&nbsp;노선&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동해선(전철)과&nbsp;버스&nbsp;환승체계&nbsp;구축,&nbsp;택시·버스&nbsp;환승제도&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;사내주차장&nbsp;의무&nbsp;설치&nbsp;조례&nbsp;제정,&nbsp;주차·교통문제&nbsp;해결<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;봉수로·아산로&nbsp;버스노선&nbsp;확대&nbsp;및&nbsp;개편<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;울산대교&nbsp;통행료&nbsp;인하,&nbsp;염포산터널&nbsp;교통체증&nbsp;개선,&nbsp;응급차로&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미포&nbsp;동문&nbsp;삼거리&nbsp;교통체계&nbsp;개선<br><br>&nbsp;&nbsp;○&nbsp;관광&nbsp;:&nbsp;역사와&nbsp;연계한&nbsp;스토리&nbsp;관광&nbsp;인프라,&nbsp;울산의&nbsp;관광&nbsp;중심지로<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1987&nbsp;노동자&nbsp;대투쟁&nbsp;스토리&nbsp;관광인프라&nbsp;:&nbsp;1987&nbsp;노동자&nbsp;대투쟁&nbsp;역사관&nbsp;설립,&nbsp;1987&nbsp;노동자&nbsp;대투쟁의&nbsp;생생한&nbsp;증언과&nbsp;현장을&nbsp;체함하는&nbsp;스토리&nbsp;관광&nbsp;상품&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;항일&nbsp;운동&nbsp;스토리&nbsp;관광&nbsp;인프라&nbsp;:&nbsp;일제&nbsp;강점기&nbsp;방어진과&nbsp;일산지,&nbsp;보성학교와&nbsp;서진문&nbsp;열사묘역을&nbsp;따라가는&nbsp;항일&nbsp;역사&nbsp;스토리&nbsp;관광상품&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마성을&nbsp;중심으로&nbsp;말문화&nbsp;스토리&nbsp;관광&nbsp;인프라&nbsp;:&nbsp;마성의&nbsp;역사를&nbsp;재조명하고&nbsp;말키우기,&nbsp;말타기&nbsp;체험을&nbsp;테마로한&nbsp;관광&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어풍대-일산지-대왕암-슬도-방어진항-염포산전망대-주전봉화대-주전몽돌해변을&nbsp;연결하는&nbsp;안전한&nbsp;둘레길&nbsp;조성<br><br>&nbsp;&nbsp;○&nbsp;문화&nbsp;:&nbsp;소확행(소소하지만&nbsp;확실한&nbsp;행복)&nbsp;동구<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;라이딩:&nbsp;자전거&nbsp;전용도로&nbsp;정비&nbsp;및&nbsp;확충,&nbsp;라이딩&nbsp;크루&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;러닝:&nbsp;현대중공업&nbsp;앞&nbsp;횡단보도&nbsp;추가&nbsp;설치,&nbsp;동구&nbsp;둘레길&nbsp;달리기&nbsp;코스&nbsp;개발&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;워킹:&nbsp;동구의&nbsp;훌륭한&nbsp;자연경관을&nbsp;즐길&nbsp;수&nbsp;있는&nbsp;둘레길&nbsp;코스&nbsp;정비&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;피싱:&nbsp;안전한&nbsp;낚시터&nbsp;마련,&nbsp;바다숲&nbsp;조성으로&nbsp;해양&nbsp;정화&nbsp;및&nbsp;다양한&nbsp;포인트&nbsp;개발</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

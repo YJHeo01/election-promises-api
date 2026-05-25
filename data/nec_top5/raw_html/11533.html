@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김명국 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	A.I.C.T 융복합 산업 클러스트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="A.I.C.T 융복합 산업 클러스트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○고령의&nbsp;미래먹거리&nbsp;A.I.C.T&nbsp;산업&nbsp;생태계&nbsp;구축&nbsp;필요<br>&nbsp;&nbsp;&nbsp;&nbsp;·IT&nbsp;제조&nbsp;산업&nbsp;고령&nbsp;대표기업&nbsp;유치&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·IT&nbsp;협력기업&nbsp;공동&nbsp;R&D&nbsp;연구소&nbsp;유치&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;■&nbsp;1단계&nbsp;→&nbsp;2026년&nbsp;8월부터<br>&nbsp;&nbsp;&nbsp;&nbsp;·국비&nbsp;예산확보를&nbsp;위한&nbsp;군청&nbsp;직속의&nbsp;산업진흥원&nbsp;설립<br>&nbsp;&nbsp;&nbsp;&nbsp;·관내&nbsp;고등학교와&nbsp;A.I.C.T&nbsp;전문&nbsp;인재&nbsp;양성&nbsp;프로그램&nbsp;시작<br>&nbsp;&nbsp;■&nbsp;2단계&nbsp;→&nbsp;2027년&nbsp;3월부터&nbsp;고령군&nbsp;미래산업&nbsp;확대를&nbsp;위한&nbsp;TF팀&nbsp;가동<br>&nbsp;&nbsp;&nbsp;&nbsp;·첫&nbsp;사업으로&nbsp;첨단&nbsp;제조&nbsp;공장&nbsp;및&nbsp;공동&nbsp;R&D&nbsp;센터&nbsp;착공&nbsp;<br>&nbsp;&nbsp;■&nbsp;3단계&nbsp;→&nbsp;2028~2029년&nbsp;산업별&nbsp;시설&nbsp;준공&nbsp;및&nbsp;협력기업&nbsp;입주&nbsp;시작<br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;·2026&nbsp;하반기:&nbsp;국가&nbsp;정책산업으로&nbsp;예비타당성&nbsp;면제&nbsp;+&nbsp;본격&nbsp;시행&nbsp;착수<br>&nbsp;&nbsp;&nbsp;&nbsp;·2027년:&nbsp;TF팀&nbsp;협력기업과&nbsp;전문인력&nbsp;확보&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·2028년:&nbsp;A.I.C.T&nbsp;산업기술에&nbsp;기반한&nbsp;전문&nbsp;기업&nbsp;유치&nbsp;및&nbsp;착공<br>&nbsp;&nbsp;&nbsp;&nbsp;·2029&nbsp;~&nbsp;2030년:&nbsp;A.I.C.T&nbsp;1차&nbsp;클러스터&nbsp;완공<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;·총사업비&nbsp;:&nbsp;연&nbsp;1천억원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·지방소멸대응기금:&nbsp;50%<br>&nbsp;&nbsp;&nbsp;&nbsp;·국가균형발전&nbsp;지원예산:&nbsp;30%<br>&nbsp;&nbsp;&nbsp;&nbsp;·인구감소지역&nbsp;특례사업:&nbsp;20%</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	우륵교 ‘단계적 안전 개통 프로잭트’</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="우륵교 ‘단계적 안전 개통 프로잭트’">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;·2027년까지&nbsp;제한적&nbsp;차량&nbsp;통행&nbsp;개시<br>&nbsp;&nbsp;&nbsp;·2030년까지&nbsp;상시&nbsp;통행&nbsp;기반&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이동시간&nbsp;40분&nbsp;→&nbsp;5분&nbsp;단축<br>□&nbsp;이행방법<br>&nbsp;&nbsp;①&nbsp;1단계&nbsp;(2026~2027)&nbsp;:&nbsp;시범&nbsp;개통<br>&nbsp;&nbsp;&nbsp;&nbsp;·출퇴근&nbsp;시간&nbsp;시간제&nbsp;통행&nbsp;허용<br>&nbsp;&nbsp;&nbsp;&nbsp;·응급차·농업차&nbsp;우선&nbsp;통행<br>②&nbsp;2단계&nbsp;(2027~2028)&nbsp;:&nbsp;안전&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·CCTV·과속단속·신호체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·보행자·자전거&nbsp;동선&nbsp;분리<br>③&nbsp;3단계&nbsp;(2028~2030)&nbsp;:&nbsp;상시&nbsp;통행&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;·통행시간&nbsp;전면&nbsp;확대&nbsp;또는&nbsp;상시&nbsp;개통<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;·2026&nbsp;하반기:&nbsp;타당성&nbsp;검토&nbsp;+&nbsp;협의&nbsp;착수,&nbsp;시범&nbsp;개통&nbsp;준비<br>&nbsp;&nbsp;&nbsp;&nbsp;·2027년:&nbsp;1단계&nbsp;시행&nbsp;(부분&nbsp;개통)<br>&nbsp;&nbsp;&nbsp;&nbsp;·2028~30년:&nbsp;인프라&nbsp;확충&nbsp;상시&nbsp;통행&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;·총사업비&nbsp;:&nbsp;약&nbsp;30~40억<br>&nbsp;&nbsp;&nbsp;&nbsp;·재원&nbsp;:&nbsp;국비&nbsp;60%&nbsp;+&nbsp;도비&nbsp;20%&nbsp;+&nbsp;군비&nbsp;20%<br>&nbsp;&nbsp;&nbsp;&nbsp;·확보&nbsp;방식&nbsp;:&nbsp;국토부&nbsp;광역교통사업,&nbsp;특별교부세</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	대구산업선.대구지하철 1호선 대가야읍 연장 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="대구산업선.대구지하철 1호선 대가야읍 연장 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;·고령군은&nbsp;대구&nbsp;생활권임에도&nbsp;철도&nbsp;미연결&nbsp;지역<br>&nbsp;&nbsp;&nbsp;&nbsp;·현재&nbsp;대구산업선(서대구~국가산단)&nbsp;추진&nbsp;중&nbsp;→&nbsp;연장&nbsp;기반&nbsp;확보<br>①&nbsp;1단계&nbsp;:&nbsp;대구산업선&nbsp;완공(기반&nbsp;구축)<br>&nbsp;&nbsp;&nbsp;&nbsp;·서대구~국가산단&nbsp;구간&nbsp;안정적&nbsp;완공&nbsp;지원<br>②&nbsp;2단계&nbsp;:&nbsp;다산면&nbsp;연장<br>&nbsp;&nbsp;&nbsp;&nbsp;·대구&nbsp;인접&nbsp;생활권(다산면)&nbsp;우선&nbsp;연결<br>&nbsp;&nbsp;&nbsp;&nbsp;·예비타당성조사(B/C)&nbsp;통과&nbsp;전략&nbsp;추진<br>③&nbsp;3단계&nbsp;:&nbsp;대가야읍까지&nbsp;확장<br>&nbsp;&nbsp;&nbsp;&nbsp;·대가야읍까지&nbsp;노선&nbsp;최종&nbsp;연장<br>□&nbsp;이행방법<br>①&nbsp;국가계획&nbsp;반영<br>&nbsp;&nbsp;&nbsp;&nbsp;·국가철도망&nbsp;구축계획&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·국토교통부·기획재정부&nbsp;협의<br>&nbsp;②정치·행정&nbsp;협력-대구시·경상북도&nbsp;협력&nbsp;사업&nbsp;추진<br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;·2026~2028년&nbsp;:&nbsp;산업선&nbsp;완공&nbsp;및&nbsp;연장&nbsp;타당성&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;·2028~2031년&nbsp;:&nbsp;다산면&nbsp;구간&nbsp;착공<br>&nbsp;&nbsp;&nbsp;&nbsp;·2031~2035년&nbsp;:&nbsp;대가야읍까지&nbsp;최종&nbsp;연장<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;·국비(국가철도사업)<br>&nbsp;&nbsp;&nbsp;&nbsp;·지방비&nbsp;매칭(경북·대구&nbsp;공동&nbsp;부담)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	아이. 청소년. 청년이 돌아오는 고령군</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="아이. 청소년. 청년이 돌아오는 고령군">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;·2030년까지&nbsp;청년·아동&nbsp;인구&nbsp;10%&nbsp;증가<br>&nbsp;&nbsp;·전입&nbsp;인구&nbsp;연&nbsp;1,000명&nbsp;이상&nbsp;유치<br>&nbsp;&nbsp;·청년&nbsp;농업인&nbsp;100명&nbsp;육성<br>□&nbsp;이행방법<br>①교통&nbsp;환경&nbsp;혁신<br>&nbsp;&nbsp;·대가야읍~다산면,&nbsp;고령~대구&nbsp;서문시장,&nbsp;고령~달성군&nbsp;테크노폴리스,<br>&nbsp;&nbsp;&nbsp;&nbsp;고령~서대구&nbsp;KTX역까지&nbsp;버스노선&nbsp;추가<br>&nbsp;&nbsp;·수요응답형(DRT)&nbsp;호출형&nbsp;택시&nbsp;전면&nbsp;확대<br>②&nbsp;군립&nbsp;자연&nbsp;아이&nbsp;스쿨&nbsp;설립<br>&nbsp;&nbsp;·어린이집&nbsp;+&nbsp;유아교육&nbsp;통합형&nbsp;공공시설&nbsp;설립<br>&nbsp;&nbsp;·자연&nbsp;체험&nbsp;중심&nbsp;교육(숲·텃밭·생태교육)<br>&nbsp;&nbsp;·영어&nbsp;원어민&nbsp;상시&nbsp;프로그램&nbsp;운영<br>③스마트팜&nbsp;기반&nbsp;청년&nbsp;농업&nbsp;혁신<br>&nbsp;&nbsp;·8개&nbsp;읍·면&nbsp;공동&nbsp;스마트팜&nbsp;단지&nbsp;조성<br>&nbsp;&nbsp;·AI·ICT&nbsp;기반&nbsp;농업&nbsp;교육&nbsp;무료&nbsp;제공<br>&nbsp;&nbsp;·임대형&nbsp;스마트팜&nbsp;(청년&nbsp;창업용)<br>&nbsp;&nbsp;·QR코드&nbsp;기반&nbsp;직거래&nbsp;플랫폼&nbsp;구축<br>□&nbsp;이행기간<br>&nbsp;&nbsp;·2026년:&nbsp;2개&nbsp;읍면&nbsp;수요조사&nbsp;및&nbsp;시범사업<br>&nbsp;&nbsp;·2027년:&nbsp;장소&nbsp;선정&nbsp;및&nbsp;리모델링&nbsp;착공,<br>&nbsp;&nbsp;·2028년:&nbsp;1호&nbsp;개원(정원&nbsp;100명&nbsp;규모),<br>&nbsp;&nbsp;·2029년:&nbsp;직거래&nbsp;플랫폼&nbsp;운영<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;·총사업비(자연아이스쿨):&nbsp;약&nbsp;80억<br>&nbsp;&nbsp;·국비50%&nbsp;+&nbsp;도비&nbsp;20%&nbsp;+&nbsp;군비&nbsp;30%<br>&nbsp;&nbsp;·총사업비(스마트농업):&nbsp;약&nbsp;300억<br>&nbsp;&nbsp;·국비60%&nbsp;+&nbsp;도비&nbsp;20%&nbsp;+&nbsp;군비&nbsp;20%</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	“낙동강 40km를 관광자산으로”수변관광 대전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="“낙동강 40km를 관광자산으로”수변관광 대전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;·고령군은&nbsp;낙동강&nbsp;약&nbsp;40km&nbsp;수변&nbsp;보유<br>&nbsp;&nbsp;·현재는&nbsp;‘통과형&nbsp;강변’&nbsp;→&nbsp;체류형&nbsp;관광&nbsp;자산으로&nbsp;전환&nbsp;필요<br>&nbsp;&nbsp;·개경포(개관형),&nbsp;부례관광지(체험형)&nbsp;관광벨트&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수변&nbsp;관광객&nbsp;연&nbsp;100만명&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;체류형&nbsp;관광&nbsp;비율&nbsp;50%&nbsp;이상<br>□&nbsp;이행방법<br>&nbsp;&nbsp;①&nbsp;수변&nbsp;관광&nbsp;인프라&nbsp;구축:&nbsp;수변&nbsp;데크길·자전거길&nbsp;조성<br>&nbsp;&nbsp;②&nbsp;수상&nbsp;레저&nbsp;관광&nbsp;산업&nbsp;도입:&nbsp;카약·패들보드&nbsp;등&nbsp;레저&nbsp;운영<br>&nbsp;&nbsp;③&nbsp;야간&nbsp;경관&nbsp;관광&nbsp;조성<br>&nbsp;&nbsp;④&nbsp;이벤트·캠핑&nbsp;복합&nbsp;관광존&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;중점&nbsp;사업지구<br>&nbsp;&nbsp;&nbsp;&nbsp;·다산면&nbsp;좌학리&nbsp;생태레저단지(핵심&nbsp;거점)<br>&nbsp;&nbsp;&nbsp;&nbsp;·낙동강&nbsp;주요&nbsp;구간별&nbsp;테마&nbsp;존&nbsp;설정(체험·휴식·숙박&nbsp;분산&nbsp;배치)<br>&nbsp;&nbsp;&nbsp;&nbsp;·개경포와&nbsp;부례관광지&nbsp;관광축&nbsp;연결(MTB자전거&nbsp;코스&nbsp;등)<br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;·2026년&nbsp;:&nbsp;기본계획&nbsp;및&nbsp;시범구간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·2027~2028년&nbsp;:&nbsp;인프라·레저시설&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·2029~2030년&nbsp;:&nbsp;야간관광&nbsp;및&nbsp;체류형&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;·총사업비:&nbsp;약&nbsp;85억원<br>&nbsp;&nbsp;&nbsp;&nbsp;·국비(문화관광·하천·레저&nbsp;사업)50%<br>&nbsp;&nbsp;&nbsp;&nbsp;·경상북도&nbsp;관광개발&nbsp;예산&nbsp;30%<br>&nbsp;&nbsp;&nbsp;&nbsp;·지방소멸대응기금&nbsp;20%</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

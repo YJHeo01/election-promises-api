@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;최원철 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	사람이 넘쳐나는 명품안전도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="사람이 넘쳐나는 명품안전도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;인구대책에&nbsp;따른&nbsp;도시&nbsp;활성화&nbsp;정책<br>&nbsp;&nbsp;(1)&nbsp;국책공공기관&nbsp;합동연수단지&nbsp;조성<br>&nbsp;&nbsp;(2)&nbsp;세종국회&nbsp;건립에&nbsp;따른&nbsp;유관기관&nbsp;이전,&nbsp;식품안전클러스터&nbsp;조성<br><br>○&nbsp;광역&nbsp;교통망&nbsp;구축&nbsp;및&nbsp;확대<br>&nbsp;&nbsp;(1)&nbsp;충청권&nbsp;광역급행철도&nbsp;(CTX+@)&nbsp;건설<br>&nbsp;&nbsp;(2)&nbsp;수소차충전소,&nbsp;대형차량&nbsp;주차장,&nbsp;BRT차고지&nbsp;등&nbsp;교통수단&nbsp;필수&nbsp;복합시설&nbsp;조성<br>&nbsp;&nbsp;(3)&nbsp;미래&nbsp;모빌리티(K-UAM)&nbsp;도입&nbsp;기반조성&nbsp;및&nbsp;실증센터&nbsp;구축<br>&nbsp;&nbsp;(4)&nbsp;공주&nbsp;의당~세종&nbsp;장군&nbsp;광역도로&nbsp;건설<br><br>○&nbsp;시민&nbsp;안전망&nbsp;확대&nbsp;<br>&nbsp;&nbsp;(1)&nbsp;옥룡동&nbsp;침수관리지역&nbsp;및&nbsp;전막&nbsp;우수유출저감시설&nbsp;조기&nbsp;준공<br>&nbsp;&nbsp;(2)&nbsp;소방&nbsp;및&nbsp;재난&nbsp;안전(AI)클러스터&nbsp;조성<br>&nbsp;&nbsp;(3)&nbsp;지방&nbsp;상수도&nbsp;현대화&nbsp;및&nbsp;확충<br>&nbsp;&nbsp;(4)&nbsp;하천환경정비사업&nbsp;확대<br>&nbsp;&nbsp;(5)&nbsp;AI공공&nbsp;안심&nbsp;화장실&nbsp;실시&nbsp;및&nbsp;안전관련&nbsp;법정단체&nbsp;교육,지원&nbsp;확대<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;인구증가를&nbsp;통한&nbsp;도시기능&nbsp;활성화&nbsp;및&nbsp;시민&nbsp;안전망&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;유관기관&nbsp;및&nbsp;관계부처,&nbsp;충남도와&nbsp;협력<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~2035&nbsp;(장기과제&nbsp;2040년까지)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비+도비+시비+민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	활력이 샘솟는 경제도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="활력이 샘솟는 경제도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;청년이&nbsp;선호하는&nbsp;기업으로&nbsp;동반&nbsp;성장<br>&nbsp;&nbsp;(1)&nbsp;유구산단,&nbsp;탄천&nbsp;제2산단,&nbsp;송선·동현&nbsp;산단&nbsp;조기&nbsp;착공&nbsp;및&nbsp;분양<br>&nbsp;&nbsp;(2)&nbsp;태안~내포~대전&nbsp;간&nbsp;충청내륙철도&nbsp;구축에&nbsp;의한&nbsp;쌍신&nbsp;역세권&nbsp;개발<br>&nbsp;&nbsp;(3)&nbsp;공주&nbsp;입주기업&nbsp;행정&nbsp;편의제공&nbsp;및&nbsp;차세대&nbsp;경영인&nbsp;지원<br>&nbsp;&nbsp;(4)&nbsp;KTX공주역&nbsp;인접지역&nbsp;기회발전특구&nbsp;지정<br>&nbsp;&nbsp;(5)&nbsp;미래자동차&nbsp;인프라산업&nbsp;실증평가센터&nbsp;구축<br><br>○&nbsp;도시브랜드&nbsp;정비로&nbsp;상권&nbsp;활성화<br>&nbsp;&nbsp;(1)&nbsp;고도&nbsp;상징&nbsp;가로&nbsp;조성,&nbsp;제민천&nbsp;변&nbsp;시설&nbsp;경관&nbsp;개선&nbsp;<br>&nbsp;&nbsp;(2)&nbsp;전통시장&nbsp;시설&nbsp;현대화&nbsp;단지&nbsp;조성<br>&nbsp;&nbsp;(3)&nbsp;공주페이&nbsp;할인율&nbsp;및&nbsp;페이백&nbsp;탄력적&nbsp;운영,&nbsp;온누리&nbsp;상품권&nbsp;가맹점&nbsp;확대<br>&nbsp;&nbsp;(4)&nbsp;소학동&nbsp;수변&nbsp;청벽&nbsp;음식특화거리&nbsp;조성<br><br>○&nbsp;돈버는&nbsp;농업으로&nbsp;전환,&nbsp;농업&nbsp;시스템&nbsp;변화와&nbsp;농업환경&nbsp;개선<br>&nbsp;&nbsp;(1)&nbsp;농촌특화지구형&nbsp;농촌공간정비사업<br>&nbsp;&nbsp;(2)&nbsp;통합바이오가스화시설&nbsp;설치<br>&nbsp;&nbsp;(3)&nbsp;농민부담&nbsp;경감을&nbsp;위한&nbsp;지속&nbsp;지원&nbsp;(재해보험,&nbsp;계절근로자,&nbsp;귀농귀촌&nbsp;정책)<br>&nbsp;&nbsp;(4)&nbsp;반려동물&nbsp;친화도시&nbsp;지정&nbsp;및&nbsp;테마파크&nbsp;조성<br>&nbsp;&nbsp;(5)&nbsp;중부권&nbsp;자율주행&nbsp;농기계테스트베드&nbsp;시범단지&nbsp;조성<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;도시&nbsp;경제,&nbsp;상업&nbsp;활성화&nbsp;및&nbsp;기업&nbsp;유치와&nbsp;성장&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;관계부처,&nbsp;충남도와&nbsp;협력,&nbsp;민간기업&nbsp;협력&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~2035<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비+도비+시비+민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	품격있는 문화·관광도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="품격있는 문화·관광도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;도시브랜드&nbsp;강화와&nbsp;체류형&nbsp;관광도시&nbsp;조성<br>(1)&nbsp;백제왕도&nbsp;세계유산&nbsp;탐방거점&nbsp;조성,&nbsp;백제&nbsp;한옥단지&nbsp;조성<br>(2)&nbsp;웅진&nbsp;백제호텔(민자SPC&nbsp;활용)을&nbsp;포함한&nbsp;숙박시설&nbsp;조성<br>(3)&nbsp;백제왕도특별법&nbsp;제정에&nbsp;따른&nbsp;백제왕도추진단&nbsp;설치<br>(4)&nbsp;부여~공주~세종&nbsp;간&nbsp;국가&nbsp;관광도로&nbsp;조성<br><br>○&nbsp;왕도심&nbsp;관광&nbsp;활성화<br>&nbsp;&nbsp;(1)&nbsp;제민천&nbsp;문화&nbsp;산책코스&nbsp;조성&nbsp;및&nbsp;추억의&nbsp;포장마차&nbsp;거리&nbsp;활성화<br>&nbsp;&nbsp;(2)&nbsp;종교문화&nbsp;교육&nbsp;관광&nbsp;개발&nbsp;(왕도심&nbsp;종교문화&nbsp;순례길,&nbsp;천주교&nbsp;성지&nbsp;관광&nbsp;개발&nbsp;등)<br><br>○&nbsp;국제밤산업박람회&nbsp;유치&nbsp;및&nbsp;지역&nbsp;축제&nbsp;활성화,&nbsp;수변&nbsp;활용&nbsp;관광산업&nbsp;육성&nbsp;<br>&nbsp;&nbsp;(1)&nbsp;유구수국축제,&nbsp;백제문화제,&nbsp;인절미축제&nbsp;등&nbsp;지역특화&nbsp;축제&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;(2)&nbsp;금강(어천~죽당)&nbsp;정원&nbsp;신속&nbsp;추진<br>&nbsp;&nbsp;(3)&nbsp;금강&nbsp;옛&nbsp;뱃길복원&nbsp;및&nbsp;열기구&nbsp;사업,&nbsp;시민친화형&nbsp;금강신관공원&nbsp;단계별&nbsp;조성<br>&nbsp;&nbsp;(4)&nbsp;석장리&nbsp;전망대,&nbsp;세계구석기공원&nbsp;연내&nbsp;준공<br><br>○&nbsp;읍면별&nbsp;맞춤&nbsp;테마&nbsp;관광&nbsp;개발<br>&nbsp;&nbsp;(1)&nbsp;지역문화예술인&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;(2)&nbsp;반포면&nbsp;도자기&nbsp;문화단지&nbsp;조성<br>&nbsp;&nbsp;(3)&nbsp;계룡산&nbsp;종합관광개발&nbsp;및&nbsp;지질공원&nbsp;등재<br>&nbsp;&nbsp;(4)&nbsp;유구&nbsp;지역특화재생사업,&nbsp;정안&nbsp;밤꽃축제&nbsp;조성&nbsp;<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;문화관광&nbsp;활성화&nbsp;및&nbsp;축제&nbsp;브랜드&nbsp;강화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;유관기관&nbsp;및&nbsp;관계부처,&nbsp;충남도와&nbsp;협력<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~2035&nbsp;(장기과제&nbsp;2040년까지)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비+도비+시비+민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	시민이 행복한 교육·복지도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="시민이 행복한 교육·복지도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;교육도시&nbsp;재건,&nbsp;평생교육도시&nbsp;구축<br>&nbsp;&nbsp;(1)&nbsp;교육발전특구&nbsp;정식&nbsp;특구&nbsp;지정<br>&nbsp;&nbsp;(2)&nbsp;365일&nbsp;24시간&nbsp;아이맘&nbsp;돌봄센터&nbsp;구성<br>&nbsp;&nbsp;(3)&nbsp;보육교직원&nbsp;처우개선&nbsp;및&nbsp;인건비&nbsp;지원,&nbsp;어린이집&nbsp;지원&nbsp;등<br>&nbsp;&nbsp;(4)&nbsp;공주대,공주교대&nbsp;지역교육&nbsp;협력센터&nbsp;설립<br>&nbsp;&nbsp;(5)&nbsp;장애인&nbsp;평생학습&nbsp;및&nbsp;자활&nbsp;프로그램&nbsp;확대&nbsp;운영<br><br>○&nbsp;복지사각지대&nbsp;해소,&nbsp;실질적&nbsp;보탬이&nbsp;되는&nbsp;복지&nbsp;구축<br>&nbsp;&nbsp;(1)&nbsp;보건의료서비스&nbsp;확대,&nbsp;달빛병원(심야소아과)&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;(2)&nbsp;공공산후조리원&nbsp;설립,&nbsp;임산부&nbsp;교통비&nbsp;바우처&nbsp;제공<br><br>○&nbsp;일자리는&nbsp;늘리고,&nbsp;예우는&nbsp;높이는&nbsp;어르신&nbsp;복지<br>&nbsp;&nbsp;(1)&nbsp;스마트&nbsp;경로당&nbsp;확대&nbsp;운영,&nbsp;시니어리더&nbsp;노인복지&nbsp;헌신&nbsp;수당&nbsp;지급(회장,총무등)<br>&nbsp;&nbsp;(2)&nbsp;지역&nbsp;폐교를&nbsp;활용한&nbsp;노인유치원&nbsp;조성<br>&nbsp;&nbsp;(3)&nbsp;노인일자리,&nbsp;단순&nbsp;공익활동에서&nbsp;역량&nbsp;활용형&nbsp;일자리로&nbsp;내실&nbsp;확대<br>&nbsp;&nbsp;(4)&nbsp;보훈가족,&nbsp;참전유공자&nbsp;예우&nbsp;전국&nbsp;최고&nbsp;수준으로&nbsp;상향&nbsp;<br><br>○&nbsp;평등과&nbsp;권리&nbsp;보장,&nbsp;사회적&nbsp;약자&nbsp;정책<br>&nbsp;&nbsp;(1)&nbsp;장애인&nbsp;가족‘쉼표’&nbsp;프로젝트&nbsp;하루&nbsp;온&nbsp;힐링센터&nbsp;조성<br>&nbsp;&nbsp;(2)&nbsp;장애인&nbsp;콜택시&nbsp;증차,&nbsp;휠체어&nbsp;비보조&nbsp;장애인&nbsp;대상&nbsp;택시바우처&nbsp;운영<br>&nbsp;&nbsp;(3)&nbsp;공공형&nbsp;계절근로자&nbsp;확대로&nbsp;외국인근로자&nbsp;처우개선,&nbsp;민간기업&nbsp;한글교육&nbsp;확대<br>&nbsp;&nbsp;(4)&nbsp;다문화가정&nbsp;가족문화센터&nbsp;운영,&nbsp;역차별&nbsp;없는&nbsp;지원체계&nbsp;구축<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;교육도시,&nbsp;복지&nbsp;강화&nbsp;및&nbsp;기반&nbsp;시설&nbsp;확충<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;유관기관&nbsp;및&nbsp;관계부처,&nbsp;충남도와&nbsp;협력<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~2030<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비+도비+시비+민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	청년이 살맛나는 도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="청년이 살맛나는 도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ○&nbsp;현실&nbsp;밀착&nbsp;청년&nbsp;융자지원&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;(1)&nbsp;시설작목반&nbsp;(오이,토마토,딸기&nbsp;등)&nbsp;융자&nbsp;지원<br>&nbsp;&nbsp;(2)&nbsp;임대형&nbsp;스마트팜을&nbsp;거친&nbsp;청년농&nbsp;실질적&nbsp;육성&nbsp;<br>&nbsp;&nbsp;(3)&nbsp;청년&nbsp;창업&nbsp;융자지원,&nbsp;창농&nbsp;수준으로&nbsp;상향&nbsp;<br>&nbsp;&nbsp;(4)&nbsp;기창업자&nbsp;융자&nbsp;진입장벽&nbsp;해소<br><br>○&nbsp;공주워케이션&nbsp;센터&nbsp;조성<br>&nbsp;&nbsp;(1)&nbsp;기업&nbsp;예술인&nbsp;적극&nbsp;유치,&nbsp;IT인력,&nbsp;청년프리랜서가&nbsp;머무르는&nbsp;도시&nbsp;조성<br><br>○&nbsp;청년&nbsp;공유주택&nbsp;확대&nbsp;및&nbsp;신도시&nbsp;공공임대&nbsp;주택&nbsp;제공<br>&nbsp;&nbsp;(1)&nbsp;청년공유주택&nbsp;확대<br>&nbsp;&nbsp;(2)&nbsp;공주시&nbsp;거주&nbsp;경제&nbsp;활동&nbsp;청년&nbsp;공유주택&nbsp;입주권&nbsp;및&nbsp;공공임대주택&nbsp;우선&nbsp;제공<br><br>○&nbsp;청년&nbsp;친화도시‘청년센터’&nbsp;개편&nbsp;및&nbsp;신관&nbsp;청년센터&nbsp;조성<br>&nbsp;&nbsp;(1)&nbsp;청년센터&nbsp;역할&nbsp;및&nbsp;권한&nbsp;확장<br>&nbsp;&nbsp;(2)&nbsp;대학로&nbsp;청년공유공간,&nbsp;신관&nbsp;청년센터로&nbsp;승격<br><br>○&nbsp;청년단체협의회&nbsp;신설<br>&nbsp;&nbsp;(1)&nbsp;공주시&nbsp;청년&nbsp;단체&nbsp;교류&nbsp;및&nbsp;정보&nbsp;공유<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;‘주거-일자리-자산&nbsp;형성’의&nbsp;선순환&nbsp;구조&nbsp;구축,&nbsp;경제적&nbsp;자립&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;유관기관&nbsp;및&nbsp;관계부처,&nbsp;충남도와&nbsp;협력<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026~2030<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비+도비+시비+민자</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

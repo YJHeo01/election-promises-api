@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이진용 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	체류형 치유관광도시 완성으로 관광객 2천만시대 달성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="체류형 치유관광도시 완성으로 관광객 2천만시대 달성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;스쳐지나가는&nbsp;가평에서&nbsp;체험하고&nbsp;머무르는&nbsp;체류형&nbsp;관광가평&nbsp;건설<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전담&nbsp;컨트롤&nbsp;타워&nbsp;관광사업단&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;6개읍면&nbsp;관광벨트&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;웰니스&nbsp;관광클러스터&nbsp;활성화&nbsp;사업<br>&nbsp;&nbsp;○&nbsp;농촌협약&nbsp;및&nbsp;농촌재생지원사업(농림수산식품부)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;6.&nbsp;~<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;준비·설계비&nbsp;군비<br>&nbsp;&nbsp;○&nbsp;행안부&nbsp;특수상황지역&nbsp;개발사업&nbsp;&nbsp;국비&nbsp;50~70%<br>&nbsp;&nbsp;○&nbsp;관광자원&nbsp;개발사업&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;국비&nbsp;30~50%<br>&nbsp;&nbsp;○&nbsp;산림형숲길조성사업&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;국비&nbsp;50~70%<br>&nbsp;&nbsp;○&nbsp;경기도&nbsp;지역균형발전사업<br>&nbsp;&nbsp;○&nbsp;경기도&nbsp;공모사업</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	여성, 노인 복지 강화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="여성, 노인 복지 강화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;여성&nbsp;및&nbsp;어르신의&nbsp;삶의&nbsp;질&nbsp;개선으로&nbsp;살고싶은&nbsp;가평&nbsp;만들기<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;여성,&nbsp;노인&nbsp;일자리&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;공동육아&nbsp;나눔터&nbsp;<br>&nbsp;&nbsp;○&nbsp;여성건강증진공적사업&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;노인복지회관&nbsp;프로그램비,&nbsp;식사비&nbsp;무료지원<br>&nbsp;&nbsp;○&nbsp;70세&nbsp;이상&nbsp;노인&nbsp;교통비,&nbsp;이발,&nbsp;미용비&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;6.&nbsp;~<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지방소멸대음기금<br>&nbsp;&nbsp;○&nbsp;노인·여성&nbsp;일자리&nbsp;사업&nbsp;예산&nbsp;50%&nbsp;국비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	영농환경혁신과 스마트농업(6차산업)육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="영농환경혁신과 스마트농업(6차산업)육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지속가능한&nbsp;농업,&nbsp;활력있는&nbsp;농촌으로&nbsp;농업의&nbsp;선순환을&nbsp;만들어&nbsp;갑니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;농촌&nbsp;일손&nbsp;지원&nbsp;<br>&nbsp;&nbsp;○&nbsp;스마트팜(6차산업)&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;농기계&nbsp;임대확대<br>&nbsp;&nbsp;○&nbsp;농업지원인력&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;청년농&nbsp;육성&nbsp;정착지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;6.&nbsp;~<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;청년농&nbsp;및&nbsp;창업지원&nbsp;<br>&nbsp;&nbsp;○&nbsp;후계농업경영인&nbsp;육성자금(최대&nbsp;5억)<br>&nbsp;&nbsp;○&nbsp;보급형&nbsp;스마트팜&nbsp;지원사업(총비용&nbsp;75%를&nbsp;국가와&nbsp;농협이&nbsp;지원)<br>&nbsp;&nbsp;○&nbsp;저탄소&nbsp;에너지&nbsp;전환</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	호명호수 권역 테마파크 조성과 우수축제 개발</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="호명호수 권역 테마파크 조성과 우수축제 개발">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;상천리&nbsp;하천리&nbsp;청평리&nbsp;호명리&nbsp;고성리&nbsp;복장리&nbsp;산유리&nbsp;등&nbsp;호명산&nbsp;일대를&nbsp;테마파크로&nbsp;조성하여&nbsp;관광가평의&nbsp;허브&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;농촌테마파크,&nbsp;영화박물관,&nbsp;자라섬&nbsp;씽씽축제&nbsp;복원,&nbsp;읍내방향&nbsp;토끼굴&nbsp;개통<br>&nbsp;&nbsp;○&nbsp;남이섬,&nbsp;자라섬,&nbsp;보납산&nbsp;생태&nbsp;관광&nbsp;연결<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;6.&nbsp;~<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;행안부&nbsp;특수상황지역개발사업(접경지원지원법)&nbsp;국비&nbsp;&nbsp;80%<br>&nbsp;&nbsp;○&nbsp;농촌진흥형&nbsp;농촌테마파크조성사업&nbsp;(160억규모)<br>&nbsp;&nbsp;○&nbsp;경기도&nbsp;지역균형발전사업<br>&nbsp;&nbsp;○&nbsp;민자~집와이어,&nbsp;UFO테마파크</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	AI 산업으로 일자리, 청년 중심도시 가평</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="AI 산업으로 일자리, 청년 중심도시 가평">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;AI데이터센터&nbsp;및&nbsp;AI미래학습관&nbsp;구축으로&nbsp;일자리,&nbsp;주거&nbsp;안정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;유출방지&nbsp;및&nbsp;젊은층&nbsp;유입<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대학생&nbsp;장학금&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강원대,&nbsp;한림대,&nbsp;차의과학대&nbsp;지역의사제&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;가평고,&nbsp;청평고,&nbsp;조종고,&nbsp;설악고&nbsp;AI&nbsp;레저&nbsp;특성화고<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;6.&nbsp;부터<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지방소멸대응기금<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;미래학습관&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;민자사업~AI&nbsp;클라우드&nbsp;데이터센터</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

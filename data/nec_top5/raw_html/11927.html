@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김정헌 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	제2공항철도 건설 및 영종하늘도시역 신설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="제2공항철도 건설 및 영종하늘도시역 신설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;공항~하늘도시~내륙을&nbsp;잇는&nbsp;철도축&nbsp;조성으로&nbsp;지역&nbsp;경제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;접근성이&nbsp;낮은&nbsp;하늘도시&nbsp;주민을&nbsp;위한&nbsp;'영종하늘도시역(가칭)'&nbsp;신설로&nbsp;교통&nbsp;복지&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;인천발&nbsp;KTX&nbsp;공항&nbsp;연장으로&nbsp;환승&nbsp;없는&nbsp;전국&nbsp;단위&nbsp;연결망&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;하반기&nbsp;제5차&nbsp;국가철도망&nbsp;구축계획&nbsp;반영<br>&nbsp;&nbsp;○&nbsp;영종트램과&nbsp;환승&nbsp;체계&nbsp;구축&nbsp;및&nbsp;인천국제공항공사&nbsp;사업비&nbsp;분담&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;일부&nbsp;구간&nbsp;GTX-D·E&nbsp;노선과&nbsp;공유하여&nbsp;건설비&nbsp;절감&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2035년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;인천국제공항공사&nbsp;개발이익금</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	대학병원 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="대학병원 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;24시간&nbsp;응급의료가&nbsp;가능한&nbsp;대학병원급&nbsp;의료기관&nbsp;유치&nbsp;및&nbsp;영종&nbsp;의료&nbsp;체계&nbsp;독립<br>&nbsp;&nbsp;○&nbsp;항공사고&nbsp;및&nbsp;감염병&nbsp;유입에&nbsp;즉각&nbsp;대응하는&nbsp;'공항형&nbsp;종합병원'&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;내륙&nbsp;이동&nbsp;위험을&nbsp;제거한&nbsp;골든타임&nbsp;사수&nbsp;원스톱&nbsp;의료&nbsp;서비스&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;영종권(영종·옹진&nbsp;도서지역)을&nbsp;별도&nbsp;독립&nbsp;중진료권으로&nbsp;신설하여&nbsp;대학병원&nbsp;진입&nbsp;근거&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;‘공항형&nbsp;종합병원’&nbsp;유치&nbsp;TF&nbsp;구성&nbsp;및&nbsp;'국립&nbsp;인천대학교&nbsp;병원'&nbsp;건립&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;경제자유구역&nbsp;내&nbsp;병원&nbsp;부지&nbsp;조성원가&nbsp;이하&nbsp;공급,&nbsp;건축비&nbsp;지원&nbsp;및&nbsp;지방세&nbsp;감면&nbsp;혜택&nbsp;제공&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;구비,&nbsp;인천국제공항공사&nbsp;분담금,&nbsp;민간/대학자본</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	생활인프라 확충 (문화회관·도서관·복합체육시설 건립)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="생활인프라 확충 (문화회관·도서관·복합체육시설 건립)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;영종구&nbsp;신청사&nbsp;부지&nbsp;내&nbsp;'영종&nbsp;문화회관'을&nbsp;동시&nbsp;건립하여&nbsp;행정·문화&nbsp;융복합&nbsp;허브&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;인구&nbsp;밀집&nbsp;지역과&nbsp;교통&nbsp;거점에&nbsp;도서관&nbsp;및&nbsp;체육관&nbsp;분산&nbsp;배치로&nbsp;균형&nbsp;발전&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;국비와&nbsp;시비&nbsp;집중&nbsp;투입으로&nbsp;재정&nbsp;부담&nbsp;최소화&nbsp;및&nbsp;정주&nbsp;여건&nbsp;대폭&nbsp;개선<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;신청사를&nbsp;'행정·문화&nbsp;복합청사'&nbsp;형태로&nbsp;설계,&nbsp;인천시&nbsp;권역별&nbsp;문화회관&nbsp;확충&nbsp;계획과&nbsp;연계&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;'생활&nbsp;SOC&nbsp;복합화&nbsp;사업'&nbsp;공모를&nbsp;통한&nbsp;송산공원&nbsp;'다목적&nbsp;도서관'&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;문체부&nbsp;공모를&nbsp;통한&nbsp;운서동·공항신도시&nbsp;권역&nbsp;다목적&nbsp;체육시설&nbsp;건립&nbsp;<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	학교·인천공항·전철역 직통 공영버스 운행 및 영종 트램 조기 착공</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="학교·인천공항·전철역 직통 공영버스 운행 및 영종 트램 조기 착공">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;학생들의&nbsp;안전과&nbsp;통학권을&nbsp;보장하는&nbsp;안심&nbsp;등하교&nbsp;버스&nbsp;상설화<br>&nbsp;&nbsp;○&nbsp;공항&nbsp;직통&nbsp;셔틀&nbsp;운행으로&nbsp;출퇴근&nbsp;정시성&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;역세권&nbsp;직통&nbsp;라인&nbsp;구축을&nbsp;통한&nbsp;서울&nbsp;및&nbsp;내륙&nbsp;접근&nbsp;시간&nbsp;단축<br>&nbsp;&nbsp;○&nbsp;영종트램&nbsp;조기&nbsp;착공으로&nbsp;내부&nbsp;순환&nbsp;교통망&nbsp;완성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;(학교&nbsp;직통)&nbsp;주요&nbsp;학교를&nbsp;잇는&nbsp;학생&nbsp;전용&nbsp;순환&nbsp;'영종&nbsp;에듀-버스'&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;(공항&nbsp;직통)&nbsp;터미널&nbsp;및&nbsp;화물단지를&nbsp;논스톱으로&nbsp;잇는&nbsp;'에어포트&nbsp;워커&nbsp;라인'&nbsp;도입&nbsp;(24시간/탄력&nbsp;배차)<br>&nbsp;&nbsp;○&nbsp;(전철역&nbsp;직통)&nbsp;출퇴근&nbsp;시간대&nbsp;영종역·운서역&nbsp;최단거리&nbsp;'영종-스테이션&nbsp;익스프레스'&nbsp;&nbsp;출퇴근&nbsp;5~8분&nbsp;&nbsp;간격&nbsp;배차<br>&nbsp;&nbsp;○&nbsp;(서울·내륙&nbsp;직통)&nbsp;광역(M)버스&nbsp;노선&nbsp;확대,&nbsp;동막·가정·석남·검암&nbsp;등&nbsp;거점&nbsp;직통&nbsp;노선&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;(영종트램)&nbsp;내부&nbsp;교통망&nbsp;완성을&nbsp;위한&nbsp;조기&nbsp;착공&nbsp;및&nbsp;2단계&nbsp;노선&nbsp;반영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	보육·교육·돌봄 혁신도시 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="보육·교육·돌봄 혁신도시 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;친환경&nbsp;식재료&nbsp;공급&nbsp;및&nbsp;급식&nbsp;질&nbsp;향상으로&nbsp;성장기&nbsp;아이들의&nbsp;건강권&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;온라인&nbsp;교육&nbsp;플랫폼&nbsp;구축,&nbsp;전문가&nbsp;컨설팅&nbsp;지원으로&nbsp;사교육비&nbsp;절감<br>&nbsp;&nbsp;○&nbsp;영종형&nbsp;돌봄&nbsp;모델&nbsp;도입&nbsp;등으로&nbsp;맞벌이&nbsp;부부&nbsp;보육&nbsp;공백&nbsp;제로화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;친환경&nbsp;식재료&nbsp;및&nbsp;급식&nbsp;단가&nbsp;인상&nbsp;차액을&nbsp;지원하는&nbsp;'영종&nbsp;그린-급식'&nbsp;프로젝트&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;온라인&nbsp;플랫폼&nbsp;구축,&nbsp;영어캠프,&nbsp;대입&nbsp;전문가&nbsp;컨설팅&nbsp;및&nbsp;지역&nbsp;대학생&nbsp;멘토링&nbsp;등&nbsp;'영종&nbsp;퍼블릭-에듀'&nbsp;시스템&nbsp;가동<br>&nbsp;&nbsp;○&nbsp;다함께돌봄센터&nbsp;확대,&nbsp;권역별&nbsp;365&nbsp;24시간&nbsp;긴급&nbsp;돌봄&nbsp;센터&nbsp;운영&nbsp;및&nbsp;지역&nbsp;공공시설을&nbsp;활용한&nbsp;'영종형&nbsp;늘봄&nbsp;공유학교'&nbsp;제공<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026&nbsp;~&nbsp;2030년<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

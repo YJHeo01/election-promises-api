@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이대훈 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	제2벡스코 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="제2벡스코 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;사상&nbsp;발전의&nbsp;완성&nbsp;프로젝트&nbsp;대&nbsp;핵심&nbsp;비전<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;낙동강변의&nbsp;우수한&nbsp;교통망과&nbsp;입지를&nbsp;활용해&nbsp;서부산권&nbsp;전시ㆍ컨벤션&nbsp;허브&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전시ㆍ컨벤션&nbsp;기능과&nbsp;산업기능&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부산시,&nbsp;중앙정부,&nbsp;관련&nbsp;공공기관과&nbsp;제2벡스코&nbsp;건립&nbsp;필요성&nbsp;및&nbsp;입지&nbsp;타당성&nbsp;협의<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;중장기&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건립&nbsp;필요성&nbsp;검토&nbsp;및&nbsp;관계기관&nbsp;협의&nbsp;후&nbsp;단계별&nbsp;사업&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비ㆍ시비&nbsp;중심&nbsp;민간투자&nbsp;병행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비&nbsp;및&nbsp;시비&nbsp;확보&nbsp;후&nbsp;부대시설은&nbsp;민간투자&nbsp;방식을&nbsp;검토해&nbsp;재정&nbsp;부담&nbsp;완화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	서부산 행정복합타운 완공 및 활성화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="서부산 행정복합타운 완공 및 활성화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;사상&nbsp;발전의&nbsp;완성&nbsp;프로젝트&nbsp;대&nbsp;핵심&nbsp;비전&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제2&nbsp;청사&nbsp;조기&nbsp;완공&nbsp;후&nbsp;부산&nbsp;행정의&nbsp;중심축을&nbsp;사상으로&nbsp;이동,&nbsp;사상드림스마트시티와&nbsp;연계해&nbsp;노후공단&nbsp;재정비&nbsp;및&nbsp;복합행정경제중심구역&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;부산시ㆍ중앙정부ㆍ관계기관과&nbsp;협력체계&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제2&nbsp;청사&nbsp;건립&nbsp;일정과&nbsp;연계해&nbsp;기반시설,&nbsp;교통,&nbsp;보행환경,&nbsp;주차시설&nbsp;등&nbsp;주변&nbsp;인프라&nbsp;단계적&nbsp;정리<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관계기관&nbsp;협의,&nbsp;기본계획&nbsp;및&nbsp;세부&nbsp;추진계획&nbsp;정비,&nbsp;제2&nbsp;청사&nbsp;조기&nbsp;완공&nbsp;지원&nbsp;및&nbsp;기반시설&nbsp;정비&nbsp;착수<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비ㆍ시비ㆍ구비&nbsp;및&nbsp;민간투자&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제2청사&nbsp;관련&nbsp;국비와&nbsp;시비&nbsp;지원사업&nbsp;적극&nbsp;확보,&nbsp;민간투자&nbsp;유치와&nbsp;공공기관&nbsp;협력사업을&nbsp;병행해&nbsp;재정&nbsp;부담&nbsp;최소화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	리버프런트시티 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="리버프런트시티 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;사상&nbsp;발전의&nbsp;완성&nbsp;프로젝트&nbsp;6대&nbsp;핵심&nbsp;비전<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삼락생태공원&nbsp;국가정원&nbsp;승격&nbsp;추진,&nbsp;낙동강&nbsp;수변공간을&nbsp;사상만의&nbsp;대표&nbsp;랜드마크로&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○낙동강&nbsp;수변공간&nbsp;통합&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삼락생태공원&nbsp;국가정원&nbsp;승격을&nbsp;위한&nbsp;행정절차와&nbsp;기반시설&nbsp;정비&nbsp;추진,&nbsp;괘법동과&nbsp;삼락동을&nbsp;연결하는&nbsp;사상&nbsp;리버브릿지와&nbsp;리버타워를&nbsp;조성해&nbsp;접근성을&nbsp;높임<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;중장기&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;삼락생태공원&nbsp;국가정원&nbsp;승격&nbsp;추진계획&nbsp;수립&nbsp;및&nbsp;관계기관&nbsp;협의,&nbsp;이후&nbsp;관련&nbsp;시설&nbsp;기본설계&nbsp;및&nbsp;예산&nbsp;확보<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비ㆍ시비ㆍ구비&nbsp;및&nbsp;공모사업&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;낙동강권&nbsp;개발사업과&nbsp;연계해&nbsp;사업비를&nbsp;분산&nbsp;확보,&nbsp;민간참여가&nbsp;가능한&nbsp;문화&nbsp;관광&nbsp;시설은&nbsp;민자&nbsp;유치&nbsp;검토</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	사상문화회관 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="사상문화회관 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;사상&nbsp;발전의&nbsp;완성&nbsp;프로젝트&nbsp;6대&nbsp;핵심&nbsp;비전<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유휴부지를&nbsp;재생해&nbsp;수준&nbsp;높은&nbsp;공연과&nbsp;전시가&nbsp;열리는&nbsp;복합문화공간&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;유휴부지&nbsp;활용&nbsp;및&nbsp;복합문화시설&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사상문화회관&nbsp;건립&nbsp;대상&nbsp;부지&nbsp;검토,&nbsp;공연장ㆍ전시장ㆍ교육공간ㆍ아동친화&nbsp;공간을&nbsp;포함한&nbsp;복합문화계획&nbsp;수립<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부지&nbsp;검토&nbsp;및&nbsp;기본계획&nbsp;수립,&nbsp;주민&nbsp;의견&nbsp;수렴&nbsp;후&nbsp;단계별&nbsp;개관&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비ㆍ시비ㆍ구비&nbsp;및&nbsp;문화시설&nbsp;공모사업&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구비는&nbsp;필수&nbsp;기반사업&nbsp;중심으로&nbsp;투입,&nbsp;운영&nbsp;단계에서는&nbsp;민관협력&nbsp;프로그램&nbsp;확대</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	사상 3대 테마하천 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="사상 3대 테마하천 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;사상&nbsp;발전의&nbsp;완성&nbsp;프로젝트&nbsp;6대&nbsp;핵심&nbsp;비전<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학장천ㆍ감전천ㆍ삼락천을&nbsp;스토리가&nbsp;있는&nbsp;쉼터로&nbsp;탈바꿈,&nbsp;구민에게&nbsp;집&nbsp;앞에서&nbsp;누리는&nbsp;고품격&nbsp;휴식공간&nbsp;제공<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;하천별&nbsp;특성에&nbsp;맞는&nbsp;테마형&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;하천별로&nbsp;역사ㆍ생태ㆍ문화&nbsp;테마를&nbsp;부여하고,&nbsp;주거지&nbsp;생활권과&nbsp;연결해&nbsp;일상형&nbsp;친수공간으로&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년부터&nbsp;단계적&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;하천별&nbsp;실태조사&nbsp;및&nbsp;기본계획&nbsp;수립,&nbsp;우선&nbsp;정비구간&nbsp;설정&nbsp;후&nbsp;실시설계&nbsp;및&nbsp;예산&nbsp;확보<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비ㆍ시비ㆍ구비&nbsp;및&nbsp;하천정비사업&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생태하천&nbsp;복원,&nbsp;도시침수&nbsp;예방,&nbsp;생활권&nbsp;녹지확충,&nbsp;도시재생&nbsp;관련&nbsp;국비ㆍ시비&nbsp;확보</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

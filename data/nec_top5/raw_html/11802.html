@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;오세현 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	돈이돌고, 청년이 머무는 도시를 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="돈이돌고, 청년이 머무는 도시를 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;지역경제&nbsp;순환&nbsp;플랫폼으로&nbsp;자리&nbsp;잡은&nbsp;아산페이의&nbsp;안정적인&nbsp;운영으로&nbsp;지역&nbsp;소비&nbsp;촉진과&nbsp;지역&nbsp;자금의&nbsp;역외&nbsp;유출&nbsp;방지<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;일자리·주거·미래&nbsp;기회&nbsp;지원을&nbsp;통한&nbsp;청년&nbsp;정착&nbsp;기반&nbsp;강화<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;1.&nbsp;임기&nbsp;내&nbsp;아산페이&nbsp;1&nbsp;조&nbsp;원&nbsp;시대&nbsp;추진<br>&nbsp;&nbsp;&nbsp;-&nbsp;아산페이&nbsp;연&nbsp;4,000∼4,500억&nbsp;원&nbsp;규모의&nbsp;안정적인&nbsp;발행<br>&nbsp;&nbsp;&nbsp;-&nbsp;임기&nbsp;내&nbsp;누적&nbsp;1&nbsp;조&nbsp;원&nbsp;규모&nbsp;발행&nbsp;달성<br><br>&nbsp;&nbsp;2.&nbsp;소상공인&nbsp;지원&nbsp;정책&nbsp;강화<br>&nbsp;&nbsp;&nbsp;-&nbsp;소상공인&nbsp;특례보증&nbsp;및&nbsp;사회보험료&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;-&nbsp;권역별&nbsp;지역상권활성화센터&nbsp;운영을&nbsp;통한&nbsp;골목상권&nbsp;활성화&nbsp;추진<br><br>&nbsp;&nbsp;3.&nbsp;미래인재가&nbsp;성장하는&nbsp;청년&nbsp;친화도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;-&nbsp;AX&nbsp;인재양성&nbsp;‘청년&nbsp;실리콘밸리&nbsp;직무체험’&nbsp;프로그램&nbsp;추진<br>&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;취·창업&nbsp;전담부서&nbsp;신설<br>&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;맞춤형&nbsp;주거지원&nbsp;및&nbsp;행복주택&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;중앙부처&nbsp;승인&nbsp;및&nbsp;기관&nbsp;협의,&nbsp;관련&nbsp;조례&nbsp;제정&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;중&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;1&nbsp;.&nbsp;(최우선&nbsp;순위)&nbsp;국비,&nbsp;도비,&nbsp;시비<br>&nbsp;&nbsp;2&nbsp;.&nbsp;(최우선&nbsp;순위)&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;비예산&nbsp;사업<br>&nbsp;&nbsp;3&nbsp;.&nbsp;(최우선&nbsp;순위)&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자,&nbsp;비예산&nbsp;사업</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	대한민국 제2의 실리콘밸리로 도약시키겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="대한민국 제2의 실리콘밸리로 도약시키겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;대한민국&nbsp;미래&nbsp;모빌리티&nbsp;산업의&nbsp;중심도시로&nbsp;도약<br>&nbsp;&nbsp;○&nbsp;첨단산업&nbsp;클러스터&nbsp;구축과&nbsp;기업&nbsp;지원체계&nbsp;강화를&nbsp;통한&nbsp;전국&nbsp;최고의&nbsp;기업도시&nbsp;조성<br>&nbsp;<br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;&nbsp;1.&nbsp;1조&nbsp;규모&nbsp;AI&nbsp;자율주행차&nbsp;실증단지&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년부터&nbsp;2034년까지&nbsp;배방&nbsp;세교리&nbsp;일원에&nbsp;약&nbsp;1조&nbsp;원&nbsp;규모&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비&nbsp;6,790억&nbsp;원을&nbsp;포함해&nbsp;총&nbsp;9,900억&nbsp;원&nbsp;투자&nbsp;예정&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;SDV(소프트웨어&nbsp;중심&nbsp;자동차)&nbsp;기반&nbsp;미래차&nbsp;기술개발,&nbsp;AI&nbsp;기반&nbsp;제조&nbsp;최적화&nbsp;기술&nbsp;및&nbsp;실증&nbsp;인프라&nbsp;구축<br>&nbsp;<br>&nbsp;&nbsp;2.&nbsp;반도체,&nbsp;디스플레이,&nbsp;바이오&nbsp;국가&nbsp;첨단산업&nbsp;클러스터&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;첨단&nbsp;디스플레이&nbsp;국가연구플랫폼,&nbsp;자율주행·차량용&nbsp;반도체&nbsp;종합지원센터&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마이크로바이옴&nbsp;상용화센터&nbsp;및&nbsp;충남&nbsp;천안아산&nbsp;강소연구개발특구&nbsp;2단계&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래차·반도체·디스플레이·바이오&nbsp;중심&nbsp;국가&nbsp;첨단산업&nbsp;생태계&nbsp;조성<br><br>&nbsp;&nbsp;&nbsp;3.&nbsp;제조AI&nbsp;스타트업파크&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제조AI&nbsp;혁신센터&nbsp;및&nbsp;지식산업센터&nbsp;등을&nbsp;활용한&nbsp;창업공간·R&D&nbsp;연구소&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업성장펀드&nbsp;조성과&nbsp;글로벌&nbsp;인재&nbsp;양성&nbsp;멘토링&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제조AI&nbsp;기반&nbsp;미래산업&nbsp;창업&nbsp;생태계&nbsp;활성화<br><br>□&nbsp;이행절차&nbsp;및&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;중앙부처&nbsp;승인&nbsp;및&nbsp;기관&nbsp;협의,&nbsp;관련&nbsp;조례&nbsp;제정&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;중&nbsp;지속&nbsp;추진&nbsp;및&nbsp;중장기&nbsp;과제&nbsp;병행&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;1.&nbsp;(최우선&nbsp;순위)&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자<br>&nbsp;&nbsp;2.&nbsp;(최우선&nbsp;순위)&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자<br>&nbsp;&nbsp;3.&nbsp;(최우선&nbsp;순위)&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	문화 · 체육 · 교육이 살아있는 도시를 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="문화 · 체육 · 교육이 살아있는 도시를 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;대한민국&nbsp;문화와&nbsp;K-POP을&nbsp;대표하는&nbsp;문화도시로&nbsp;도약&nbsp;<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;누구나&nbsp;누릴&nbsp;수&nbsp;있는&nbsp;문화·예술·체육&nbsp;인프라&nbsp;확충<br>&nbsp;<br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;1.&nbsp;5만&nbsp;석&nbsp;규모&nbsp;스포츠·공연&nbsp;다목적&nbsp;돔&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;단순한&nbsp;지역&nbsp;공약이&nbsp;아닌,&nbsp;이재명&nbsp;정부의&nbsp;국가&nbsp;차원&nbsp;문화·관광&nbsp;전략&nbsp;사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘K-POP&nbsp;아레나&nbsp;사업구상’과&nbsp;‘K-WAVE&nbsp;CITY’&nbsp;전략&nbsp;수립에&nbsp;발맞춘&nbsp;연구용역&nbsp;및&nbsp;기본계획&nbsp;마련&nbsp;추친<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수도권과&nbsp;충청권을&nbsp;연결하는&nbsp;전국&nbsp;1시간&nbsp;생활권의&nbsp;뛰어난&nbsp;접근성과&nbsp;대규모&nbsp;개발&nbsp;가능&nbsp;부지&nbsp;등을&nbsp;기반으로&nbsp;최적의&nbsp;입지&nbsp;조성<br>&nbsp;<br>&nbsp;2.&nbsp;아산&nbsp;예술의&nbsp;전당&nbsp;조속&nbsp;건립&nbsp;및&nbsp;AI&nbsp;체험관&nbsp;조성&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공연·전시·예술&nbsp;창작&nbsp;기능이&nbsp;결합된&nbsp;시민&nbsp;문화예술&nbsp;공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;20년&nbsp;넘게&nbsp;이어진&nbsp;시민&nbsp;숙원사업의&nbsp;조속&nbsp;추진으로&nbsp;임기&nbsp;내&nbsp;완성&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래세대&nbsp;AI&nbsp;교육과&nbsp;체험이&nbsp;가능한&nbsp;첨단&nbsp;문화교육&nbsp;공간&nbsp;조성<br>&nbsp;<br>&nbsp;3.&nbsp;종목별&nbsp;스포츠&nbsp;전용&nbsp;경기장&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;배드민턴,&nbsp;족구,&nbsp;볼링&nbsp;등&nbsp;전용경기장을&nbsp;포함환&nbsp;복합체육시설&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활체육&nbsp;수요에&nbsp;맞춘&nbsp;맞춤형&nbsp;스포츠&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민&nbsp;건강&nbsp;증진과&nbsp;생활체육&nbsp;저변&nbsp;확대&nbsp;추진<br>&nbsp;<br>□&nbsp;이행절차&nbsp;및&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;중앙부처&nbsp;승인&nbsp;및&nbsp;기관&nbsp;협의,&nbsp;관련&nbsp;조례&nbsp;제정&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;중&nbsp;지속&nbsp;추진&nbsp;및&nbsp;중장기&nbsp;과제&nbsp;병행&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;1.&nbsp;(최우선&nbsp;순위)&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자<br>&nbsp;&nbsp;2.&nbsp;(최우선&nbsp;순위)&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자<br>&nbsp;&nbsp;3.&nbsp;(최우선&nbsp;순위)&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	50만 자족도시, 어디서나 잘 사는 아산을 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="50만 자족도시, 어디서나 잘 사는 아산을 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;기업과&nbsp;사람이&nbsp;함께&nbsp;모이는&nbsp;50만&nbsp;자족도시&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;균형&nbsp;있는&nbsp;도시개발과&nbsp;공공&nbsp;인프라&nbsp;확충을&nbsp;통한&nbsp;정주여건&nbsp;개선<br>&nbsp;<br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;1.&nbsp;108만&nbsp;평&nbsp;탕정신도시&nbsp;등&nbsp;차질없는&nbsp;도시개발&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중부권&nbsp;최대&nbsp;규모의&nbsp;108만&nbsp;평의&nbsp;탕정신도시의&nbsp;차질없는&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;17개의&nbsp;도시개발&nbsp;추진을&nbsp;통한&nbsp;명품주거단지&nbsp;조성&nbsp;및&nbsp;정주여건&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;계획적&nbsp;도시개발을&nbsp;통한&nbsp;생활·교육·문화&nbsp;인프라&nbsp;확충<br><br>&nbsp;&nbsp;2.&nbsp;산업단지&nbsp;조기&nbsp;조성&nbsp;및&nbsp;우량기업&nbsp;유치&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;17개&nbsp;산업단지의&nbsp;조속한&nbsp;조성으로&nbsp;우량기업&nbsp;유치&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;미래&nbsp;첨단산업&nbsp;중심&nbsp;기업&nbsp;유치를&nbsp;통한&nbsp;양질의&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;투자&nbsp;확대와&nbsp;인구&nbsp;유입&nbsp;기반&nbsp;구축으로&nbsp;자족도시&nbsp;성장&nbsp;기반&nbsp;강화<br>&nbsp;<br>&nbsp;&nbsp;3.&nbsp;제2중앙경찰학교&nbsp;유치&nbsp;추진&nbsp;및&nbsp;국립아산경찰병원&nbsp;조속&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;충남도·경찰&nbsp;유관기관·국회의원과의&nbsp;유기적&nbsp;협력&nbsp;통한&nbsp;제2중앙경찰학교&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국립아산경찰병원&nbsp;예비타당성조사&nbsp;통과에&nbsp;따른&nbsp;조속한&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공의료&nbsp;및&nbsp;치안&nbsp;인프라&nbsp;확충을&nbsp;통한&nbsp;시민&nbsp;생활&nbsp;안전&nbsp;강화<br><br>□&nbsp;이행절차&nbsp;및&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;중앙부처&nbsp;승인&nbsp;및&nbsp;기관&nbsp;협의,&nbsp;관련&nbsp;조례&nbsp;제정&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;중&nbsp;지속&nbsp;추진&nbsp;및&nbsp;중장기&nbsp;과제&nbsp;병행&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;1.&nbsp;(최우선&nbsp;순위)&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자&nbsp;<br>&nbsp;&nbsp;2.&nbsp;(최우선&nbsp;순위)&nbsp;국비,&nbsp;도비,&nbsp;시비,&nbsp;민자<br>&nbsp;&nbsp;3.&nbsp;(최우선&nbsp;순위)&nbsp;국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	아이부터 어르신까지, 모두가 누리는 기본사회를 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="아이부터 어르신까지, 모두가 누리는 기본사회를 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;생애주기별&nbsp;맞춤형&nbsp;돌봄·복지&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;모두가&nbsp;안전하고&nbsp;안정적으로&nbsp;살아갈&nbsp;수&nbsp;있는&nbsp;생활·주거&nbsp;기반&nbsp;강화<br><br>□&nbsp;이행&nbsp;방법<br>&nbsp;&nbsp;1.&nbsp;복지&nbsp;·&nbsp;기본사회&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;효도우대권(목욕권)&nbsp;지원&nbsp;단가&nbsp;현실화&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;65세이상&nbsp;어르신&nbsp;시내버스&nbsp;무제한&nbsp;무료&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경로당&nbsp;주&nbsp;5일&nbsp;이동급식&nbsp;체계화&nbsp;및&nbsp;스마트&nbsp;경로당&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;KTX&nbsp;천안아산역&nbsp;하부공간&nbsp;장애인&nbsp;스마트&nbsp;승강장&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;외국인·다문화&nbsp;맞춤형&nbsp;취업지원&nbsp;및&nbsp;직업상담·교육&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사회복지시설&nbsp;종사자,&nbsp;요양보호사&nbsp;처우&nbsp;개선&nbsp;<br>&nbsp;&nbsp;<br>2.&nbsp;돌봄&nbsp;·&nbsp;의료&nbsp;안전망&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아이부터&nbsp;어르신까지&nbsp;전&nbsp;생애&nbsp;간병비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;밤에도&nbsp;병원&nbsp;걱정&nbsp;없는&nbsp;24시간&nbsp;‘달빛어린이병원’&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출산장려금&nbsp;대폭&nbsp;상향&nbsp;지원&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;초등학교&nbsp;통학로&nbsp;스마트&nbsp;가로등&nbsp;설치&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아파트&nbsp;중심,&nbsp;초등&nbsp;돌봄센터&nbsp;확대&nbsp;및&nbsp;노후&nbsp;도서관&nbsp;개선&nbsp;<br><br>&nbsp;&nbsp;3.&nbsp;시민&nbsp;중심&nbsp;주거안정&nbsp;지원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공동주택&nbsp;주거환경&nbsp;개선&nbsp;및&nbsp;활성화&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주거&nbsp;취약계층&nbsp;보호를&nbsp;위한&nbsp;부동산&nbsp;안심동행&nbsp;서비스&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전세&nbsp;사기&nbsp;예방&nbsp;·&nbsp;단속&nbsp;체계&nbsp;강화<br><br>□&nbsp;이행절차&nbsp;및&nbsp;기간<br>&nbsp;&nbsp;○&nbsp;기관&nbsp;협의,&nbsp;관련&nbsp;조례&nbsp;제정&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;중&nbsp;지속&nbsp;추진&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;1.&nbsp;(최우선&nbsp;순위)&nbsp;국비,&nbsp;도비,&nbsp;시비<br>&nbsp;&nbsp;2.&nbsp;(최우선&nbsp;순위)&nbsp;국비,&nbsp;도비,&nbsp;시비<br>&nbsp;&nbsp;3.&nbsp;(최우선&nbsp;순위)&nbsp;국비,&nbsp;도비,&nbsp;시비.&nbsp;비예산&nbsp;사업</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

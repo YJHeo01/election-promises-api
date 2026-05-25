@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;조용익 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	상동특별계획구역 AI 콤팩트 시티 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="상동특별계획구역 AI 콤팩트 시티 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;새정부&nbsp;국정&nbsp;과제와&nbsp;연계한&nbsp;‘AI&nbsp;시티’&nbsp;미래도시&nbsp;모델&nbsp;적용<br>&nbsp;&nbsp;○&nbsp;K-콘텐츠&nbsp;창작·제작·유통&nbsp;원스톱&nbsp;지원&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;인재&nbsp;유입을&nbsp;위한&nbsp;주거&nbsp;공간과&nbsp;맞춤형&nbsp;생활&nbsp;기반&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;기업·문화·주거가&nbsp;연계된&nbsp;자족형&nbsp;도시&nbsp;생태계&nbsp;구현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;(기본계획)&nbsp;2040&nbsp;부천도시기본계획에&nbsp;정합한&nbsp;고밀개발<br>&nbsp;&nbsp;○&nbsp;(산업·주거)&nbsp;산업기능&nbsp;집적&nbsp;및&nbsp;공익시설&nbsp;복합&nbsp;계획<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상징성&nbsp;있는&nbsp;랜드마크타워(미디어&nbsp;전망대,&nbsp;호텔,&nbsp;컨벤션&nbsp;센터&nbsp;등)&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;융·복합센터(CJ,&nbsp;EBS&nbsp;등&nbsp;국내외&nbsp;기업&nbsp;입주,&nbsp;E-sports&nbsp;경기장&nbsp;등)&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영상콘텐츠&nbsp;기업&nbsp;용지&nbsp;조성(콘텐츠&nbsp;관련&nbsp;기업&nbsp;30%&nbsp;이상&nbsp;입주)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;AI&nbsp;등&nbsp;신산업과&nbsp;기존&nbsp;문화산업&nbsp;인프라(만화영상진흥원,&nbsp;웹툰융합센터&nbsp;등)&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;(도로·교통)&nbsp;대규모&nbsp;시설&nbsp;입지로&nbsp;교통량&nbsp;분산&nbsp;위한&nbsp;연결축&nbsp;형성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기반&nbsp;시설(도로,&nbsp;문화공원&nbsp;등&nbsp;약&nbsp;10만㎡)&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;(공원·녹지)&nbsp;유수지&nbsp;연동&nbsp;중심&nbsp;녹지&nbsp;축&nbsp;이동&nbsp;배치<br>콤팩트한&nbsp;고밀복합&nbsp;도시&nbsp;&nbsp;→&nbsp;&nbsp;&nbsp;·&nbsp;산업·주거·교통&nbsp;거점&nbsp;등이&nbsp;공존하는&nbsp;입체적&nbsp;자족도시&nbsp;구현<br>우수한&nbsp;미래교육&nbsp;도시&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;&nbsp;&nbsp;·&nbsp;산학협력&nbsp;기반의&nbsp;창의인재&nbsp;전문&nbsp;인력&nbsp;육성&nbsp;생태계&nbsp;마련&nbsp;<br>여유있는&nbsp;일상문화&nbsp;도시&nbsp;&nbsp;→&nbsp;&nbsp;&nbsp;·&nbsp;보행과&nbsp;휴식,&nbsp;문화생활이&nbsp;일상화된&nbsp;공간&nbsp;구조&nbsp;기획&nbsp;<br>친환경&nbsp;자연친화&nbsp;도시&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;&nbsp;&nbsp;·&nbsp;굴포천과&nbsp;호수공원을&nbsp;잇는&nbsp;도심&nbsp;속&nbsp;센트럴파크&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;(2026&nbsp;~&nbsp;2027)&nbsp;(변경)&nbsp;사업&nbsp;협약체결&nbsp;및&nbsp;도시관리계획&nbsp;결정(변경)&nbsp;고시&nbsp;등&nbsp;관련&nbsp;절차&nbsp;이행<br>&nbsp;&nbsp;○&nbsp;(2028&nbsp;~&nbsp;2032)&nbsp;단지&nbsp;내&nbsp;공사&nbsp;착공&nbsp;및&nbsp;준공<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;사업&nbsp;시행자(부천영상단지개발(주))&nbsp;민간투자를&nbsp;통한&nbsp;재원&nbsp;조달</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	종합운동장 일원 도시혁신공간 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="종합운동장 일원 도시혁신공간 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;5중&nbsp;역세권&nbsp;부천종합운동장&nbsp;일원&nbsp;광역&nbsp;교통·문화·체육&nbsp;복합&nbsp;거점&nbsp;도약<br>&nbsp;&nbsp;○&nbsp;도시&nbsp;성장동력&nbsp;확보를&nbsp;위한&nbsp;직주근접&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;기업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;5중&nbsp;역세권&nbsp;교통요충지로&nbsp;급부상한&nbsp;부천종합운동장역&nbsp;일원의&nbsp;스포츠·문화&nbsp;복합형&nbsp;돔구장&nbsp;건립&nbsp;사업&nbsp;및&nbsp;도시혁신구역&nbsp;지정을&nbsp;통한&nbsp;공간&nbsp;활용도&nbsp;제고로&nbsp;수도권&nbsp;서부&nbsp;최고의&nbsp;산업·문화·체육&nbsp;복합형&nbsp;거점도시&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;5중&nbsp;역세권의&nbsp;교통&nbsp;요충지로&nbsp;급부상한&nbsp;부천종합운동장역&nbsp;일원의&nbsp;도시&nbsp;변화&nbsp;흐름에&nbsp;맞춰&nbsp;창의적인&nbsp;도시&nbsp;성장&nbsp;거점으로&nbsp;조성하기&nbsp;위한&nbsp;국토교통부&nbsp;주관&nbsp;도시혁신구역(화이트존)&nbsp;지정&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;여기에&nbsp;문화·체육의&nbsp;기능&nbsp;고도화를&nbsp;위해&nbsp;국민체육진흥공단이&nbsp;추진&nbsp;예정인&nbsp;‘스포츠·공연&nbsp;복합형&nbsp;돔구장&nbsp;건립&nbsp;후보지&nbsp;공모사업’&nbsp;지원을&nbsp;통해&nbsp;현재&nbsp;문화체육시설용지로&nbsp;설정된&nbsp;구역에&nbsp;돔구장(아레나+축구)를&nbsp;비롯한&nbsp;호텔,&nbsp;복합문화상업시설,&nbsp;업무시설(오피스텔&nbsp;포함)&nbsp;등을&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아울러,&nbsp;도시혁신구역&nbsp;지정을&nbsp;통해&nbsp;현재&nbsp;산업시설용지&nbsp;구역에&nbsp;부천시&nbsp;미래&nbsp;전략산업인&nbsp;지능형&nbsp;로봇·자동화,&nbsp;첨단소재·정밀화학,&nbsp;스마트&nbsp;전자기기&nbsp;등의&nbsp;AX&nbsp;촉진&nbsp;산업을&nbsp;집적화해&nbsp;차세대&nbsp;지역&nbsp;산업의&nbsp;성장&nbsp;거점으로&nbsp;포지셔닝<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;(2026.&nbsp;7.&nbsp;~&nbsp;12.)&nbsp;스포츠·공연&nbsp;복합형&nbsp;돔구장&nbsp;건립&nbsp;후보지&nbsp;공모&nbsp;신청<br>&nbsp;&nbsp;○&nbsp;(2027.&nbsp;1.&nbsp;~&nbsp;12.)&nbsp;도시혁신(예비)구역&nbsp;특화방안&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;(2028.&nbsp;1.&nbsp;~&nbsp;12.)&nbsp;도시혁신구역&nbsp;지정,&nbsp;혁신계획&nbsp;수립(공간&nbsp;재구조화&nbsp;계획&nbsp;수립&nbsp;용역&nbsp;추진)&nbsp;및&nbsp;도시혁신구역&nbsp;지정&nbsp;고시<br>&nbsp;&nbsp;○&nbsp;(2029.&nbsp;1.&nbsp;~&nbsp;)&nbsp;부천종합운동장&nbsp;도시혁신구역&nbsp;조성&nbsp;사업&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원&nbsp;분담은&nbsp;국민체육진흥공단&nbsp;‘스포츠·공연&nbsp;복합형&nbsp;돔구장&nbsp;건립&nbsp;후보지&nbsp;공모사업’&nbsp;지원을&nbsp;통한&nbsp;국비&nbsp;확보&nbsp;검토<br>&nbsp;&nbsp;○&nbsp;그&nbsp;외&nbsp;산업시설의&nbsp;경우&nbsp;국토교통부&nbsp;‘공간혁신구역&nbsp;선도사업’&nbsp;지정&nbsp;신청&nbsp;등&nbsp;K-컬처&nbsp;조성&nbsp;관련&nbsp;국·도비&nbsp;사업과&nbsp;지속적인&nbsp;연계&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	청년 취·창업 통합 지원센터 운영 및 청년드림센터 조성 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="청년 취·창업 통합 지원센터 운영 및 청년드림센터 조성 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청년들의&nbsp;취·창업,&nbsp;교육,&nbsp;문화&nbsp;활동을&nbsp;한곳에&nbsp;집적해&nbsp;청년들이&nbsp;한곳에서&nbsp;모든&nbsp;활동을&nbsp;지원받고&nbsp;활용할&nbsp;수&nbsp;있는&nbsp;복합공간&nbsp;조성을&nbsp;통한&nbsp;청년친화도시&nbsp;부천&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;취·창업&nbsp;통합&nbsp;지원센터&nbsp;운영(1단계)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부천청년리더샵을&nbsp;활용한&nbsp;청년&nbsp;취·창업&nbsp;통합&nbsp;지원센터&nbsp;운영&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;청년드림센터&nbsp;조성&nbsp;완료&nbsp;후,&nbsp;청년&nbsp;취·창업&nbsp;통합&nbsp;지원센터&nbsp;이전&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;청년드림센터&nbsp;조성(2단계)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;원종빌딩&nbsp;5층에&nbsp;조성된&nbsp;‘오정청년공간과’&nbsp;연계한&nbsp;청년&nbsp;집적화&nbsp;공간&nbsp;조성을&nbsp;통해&nbsp;청년&nbsp;취업,&nbsp;창업,&nbsp;교육,&nbsp;문화&nbsp;활동&nbsp;종합&nbsp;공간으로&nbsp;운영&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;층별&nbsp;구성도(안)<br>==========================================================================<br>구분&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;구성&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;주요&nbsp;내용<br>----------------------------------------------------------------------------------------------------------------------<br>2층&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;청년&nbsp;역량강화&nbsp;센터&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ICT·디자인·영상·콘텐츠&nbsp;교육실,&nbsp;강의실&nbsp;등<br>----------------------------------------------------------------------------------------------------------------------<br>3층&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;청년&nbsp;취업·진로&nbsp;지원센터&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;취업상담실(1:1&nbsp;및&nbsp;집단),&nbsp;직업체험&nbsp;부스,&nbsp;모의&nbsp;면접실&nbsp;등<br>----------------------------------------------------------------------------------------------------------------------<br>4층&nbsp;&nbsp;|&nbsp;&nbsp;청년&nbsp;창업·비즈니스&nbsp;지원센터&nbsp;&nbsp;|&nbsp;&nbsp;창업상담실,&nbsp;스타트업&nbsp;입주공간,&nbsp;IR피칭룸,&nbsp;법률상담실&nbsp;등<br>----------------------------------------------------------------------------------------------------------------------<br>5층&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;오정청년공간(기(旣)&nbsp;조성)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;프로그램실,&nbsp;카페,&nbsp;상담실,&nbsp;세미나실,&nbsp;멀티미디어실&nbsp;등<br>==========================================================================<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;(2026.&nbsp;7.&nbsp;~&nbsp;2027.&nbsp;12.)&nbsp;청년&nbsp;취·창업&nbsp;통합&nbsp;지원센터&nbsp;시범&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;(2027.&nbsp;1.&nbsp;~&nbsp;2028.&nbsp;12.)&nbsp;청년드림센터&nbsp;설계&nbsp;및&nbsp;리모델링<br>&nbsp;&nbsp;○&nbsp;(2029.&nbsp;1.&nbsp;~&nbsp;)&nbsp;청년드림센터&nbsp;조성&nbsp;및&nbsp;청년&nbsp;지원&nbsp;통합&nbsp;공간&nbsp;운영<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시비&nbsp;우선&nbsp;조달을&nbsp;통해&nbsp;조성하되&nbsp;‘경기&nbsp;생활쏙(SOC)&nbsp;환원사업*’&nbsp;공모&nbsp;신청&nbsp;및&nbsp;특별조정교부금&nbsp;확보&nbsp;등을&nbsp;통한&nbsp;차질&nbsp;없는&nbsp;재원확보&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;경기&nbsp;생활쏙(SOC)&nbsp;환원사업&nbsp;:&nbsp;경기도내&nbsp;생활인프라&nbsp;취약지역을&nbsp;대상으로&nbsp;도민환원기금을&nbsp;활용한&nbsp;생활SOC(체육,&nbsp;문화,&nbsp;복지,&nbsp;교육,&nbsp;교통&nbsp;등)&nbsp;복합화&nbsp;사업으로&nbsp;신증축은&nbsp;160억원&nbsp;범위&nbsp;내,&nbsp;리모델링은&nbsp;60억원&nbsp;범위&nbsp;내&nbsp;설계·공사비&nbsp;전액&nbsp;지원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	부천형 키즈카페 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="부천형 키즈카페 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;아동의&nbsp;놀&nbsp;권리&nbsp;보장&nbsp;및&nbsp;건강한&nbsp;성장환경&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;부모의&nbsp;양육&nbsp;부담&nbsp;완화를&nbsp;통한&nbsp;생활&nbsp;복지&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;내&nbsp;안전하고&nbsp;저렴한&nbsp;공공&nbsp;돌봄&nbsp;인프라&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;(공간&nbsp;조성)&nbsp;유휴&nbsp;공간(주민센터,&nbsp;도서관,&nbsp;체육시설&nbsp;일부&nbsp;공간&nbsp;등)을&nbsp;활용한&nbsp;권역별(區&nbsp;단위)&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;연령별&nbsp;놀이공간&nbsp;분리&nbsp;:&nbsp;영유아존&nbsp;/&nbsp;어린이존<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보호자&nbsp;휴식&nbsp;공간&nbsp;별도&nbsp;조성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;지난해&nbsp;개장한&nbsp;‘부천루미나래’&nbsp;내에&nbsp;조성을&nbsp;통해,&nbsp;아이들은&nbsp;안전한&nbsp;놀이공간을&nbsp;부모들은&nbsp;자연을&nbsp;벗&nbsp;삼은&nbsp;편안한&nbsp;휴식을&nbsp;취할&nbsp;수&nbsp;있는&nbsp;형식의&nbsp;부천만의&nbsp;차별화된&nbsp;부천형&nbsp;키즈카페&nbsp;조성도&nbsp;고려<br>&nbsp;&nbsp;○&nbsp;(기능&nbsp;보강)&nbsp;놀이+돌봄+부모&nbsp;휴식&nbsp;결합형&nbsp;키즈카페&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;놀이지도사&nbsp;배치&nbsp;및&nbsp;놀이프로그램&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보육교사&nbsp;의무&nbsp;배치<br>&nbsp;&nbsp;○&nbsp;(운영&nbsp;방식)&nbsp;아동의&nbsp;안전&nbsp;및&nbsp;쾌적한&nbsp;시설&nbsp;운영&nbsp;고려,&nbsp;공공성&nbsp;강조<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사전&nbsp;예약제+시간제&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(이용료)&nbsp;아동&nbsp;1인과&nbsp;보호자&nbsp;포함&nbsp;최대&nbsp;5천원&nbsp;이하<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;(2026.&nbsp;7.&nbsp;~&nbsp;12.)&nbsp;유휴공간&nbsp;활용&nbsp;가능&nbsp;여부&nbsp;검토&nbsp;및&nbsp;공간&nbsp;확정<br>&nbsp;&nbsp;○&nbsp;(2027.&nbsp;1.&nbsp;~&nbsp;12.)&nbsp;리모델링&nbsp;및&nbsp;어린이&nbsp;놀이시설&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;(2028.&nbsp;1.&nbsp;~&nbsp;)&nbsp;키즈카페&nbsp;개소&nbsp;및&nbsp;운영<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;총사업비&nbsp;약&nbsp;33억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(설치비)&nbsp;2,000천원~3,000천원/㎡,&nbsp;시설규모&nbsp;:&nbsp;300㎡~500㎡<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(운영비)&nbsp;月&nbsp;10,000천원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(재원조달)&nbsp;도비&nbsp;50%,&nbsp;시비&nbsp;50%&nbsp;계획(경기도&nbsp;맘대로&nbsp;A+&nbsp;놀이터&nbsp;사업&nbsp;지원기준&nbsp;참고)&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;(사업비&nbsp;참고)&nbsp;2025년&nbsp;서울형&nbsp;키즈카페&nbsp;운영&nbsp;안전&nbsp;매뉴얼&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;(시립형&nbsp;설치비)&nbsp;2,809천원/㎡&nbsp;(구립형&nbsp;리모델링&nbsp;설치비)&nbsp;2,000천원/㎡&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;(시립형&nbsp;운영비)&nbsp;10,000천원/월</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	부천 반려견 테마파크 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="부천 반려견 테마파크 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;반려견&nbsp;양육가구&nbsp;증가에&nbsp;따른&nbsp;공공&nbsp;생활기반시설&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;반려동물과&nbsp;사람이&nbsp;공존하는&nbsp;도시환경&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주거지&nbsp;내&nbsp;반려견&nbsp;시설(놀이터)&nbsp;운영에&nbsp;따른&nbsp;주민&nbsp;불편&nbsp;및&nbsp;반려견&nbsp;비양육가구와의&nbsp;갈등&nbsp;해소<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;동부천&nbsp;IC&nbsp;부지&nbsp;일원을&nbsp;활용한&nbsp;테마파크&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;절골공원과&nbsp;동부천&nbsp;IC&nbsp;램프&nbsp;구간&nbsp;일부&nbsp;저촉에&nbsp;따라&nbsp;대체&nbsp;제공부지를&nbsp;무상귀속&nbsp;받아&nbsp;반려견을&nbsp;주제로&nbsp;한&nbsp;공원(테마파크)&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시계획&nbsp;및&nbsp;GB&nbsp;관리계획&nbsp;변경,&nbsp;공원조성계획&nbsp;수립&nbsp;등&nbsp;행정절차&nbsp;추진<br><br>&nbsp;&nbsp;&nbsp;&nbsp;[조성개요]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;면&nbsp;&nbsp;&nbsp;&nbsp;적&nbsp;:&nbsp;22,000㎡&nbsp;&nbsp;※&nbsp;원형&nbsp;램프&nbsp;안쪽&nbsp;유휴부지&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;총사업비&nbsp;:&nbsp;60억원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주요시설&nbsp;:&nbsp;커뮤니티센터,&nbsp;반려견&nbsp;교육·훈련·놀이시설,&nbsp;피크닉&nbsp;쉼터,&nbsp;전망데크,&nbsp;계류&nbsp;시설,&nbsp;정원&nbsp;등&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;(2026.&nbsp;~&nbsp;2027.)&nbsp;대체&nbsp;제공&nbsp;부지에&nbsp;대한&nbsp;행정절차*&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도시계획&nbsp;및&nbsp;GB&nbsp;관리계획&nbsp;변경,&nbsp;공원&nbsp;조성계획&nbsp;수립&nbsp;등&nbsp;절차&nbsp;진행<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;동&nbsp;사업은&nbsp;절골공원&nbsp;제척에&nbsp;따른&nbsp;대체&nbsp;제공부지에&nbsp;테마파크를&nbsp;조성하려는&nbsp;사업으로&nbsp;행정절차&nbsp;추진&nbsp;주체&nbsp;협의&nbsp;등&nbsp;절차&nbsp;진행&nbsp;필요<br>&nbsp;&nbsp;○&nbsp;(2028.&nbsp;1.&nbsp;~&nbsp;12.)&nbsp;반려견&nbsp;테마파크&nbsp;및&nbsp;공원&nbsp;조성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;동부천IC&nbsp;민자고속도로&nbsp;사업&nbsp;시행자&nbsp;부담&nbsp;공원&nbsp;조성을&nbsp;목표로&nbsp;관리청&nbsp;및&nbsp;사업&nbsp;시행자와&nbsp;적극&nbsp;협의&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;아울러&nbsp;행정안전부&nbsp;특별교부세&nbsp;및&nbsp;경기도&nbsp;특별조정교부금&nbsp;적극&nbsp;확보&nbsp;노력&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※&nbsp;(참고)&nbsp;남양주시&nbsp;반려견&nbsp;놀이터&nbsp;조성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;(평내&nbsp;반려견&nbsp;놀이터)&nbsp;2,214㎡,&nbsp;행안부&nbsp;특교세&nbsp;5억원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;(진접&nbsp;반려견&nbsp;놀이터)&nbsp;964㎡,&nbsp;경기도&nbsp;특조금&nbsp;2억원&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;(별내&nbsp;반려견&nbsp;놀이터)&nbsp;규모&nbsp;미정,&nbsp;경기도&nbsp;특조금&nbsp;3억원</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

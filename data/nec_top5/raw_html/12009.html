@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;송영주 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	지역순환경제로 민생 살리기</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="지역순환경제로 민생 살리기">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역경제의&nbsp;자립성과&nbsp;활력&nbsp;증진<br>&nbsp;&nbsp;○&nbsp;지역에서&nbsp;번&nbsp;돈이&nbsp;지역&nbsp;안에서&nbsp;돌고&nbsp;다시&nbsp;시민에게&nbsp;돌아오는&nbsp;경제구조<br>&nbsp;&nbsp;○&nbsp;시민의&nbsp;소비와&nbsp;금융이&nbsp;고양시에서&nbsp;순환<br>&nbsp;&nbsp;○&nbsp;지역화폐를&nbsp;통한&nbsp;동네&nbsp;상권&nbsp;소비&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;고양시의&nbsp;내수경제가&nbsp;지역&nbsp;소상공인,&nbsp;주민,&nbsp;공공사업에&nbsp;투자<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;고양&nbsp;공공은행&nbsp;설립<br>&nbsp;&nbsp;○&nbsp;지역재투자&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;○&nbsp;고양페이&nbsp;인센티브&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;우리동네&nbsp;가계부채&nbsp;상담센터<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;후&nbsp;즉시&nbsp;착수<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	지역순환교통</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="지역순환교통">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시민의&nbsp;기본&nbsp;이동권&nbsp;보장하는&nbsp;공공서비스&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;돈이&nbsp;되는&nbsp;노선이&nbsp;아닌&nbsp;누구나&nbsp;이용하는&nbsp;공공&nbsp;교통<br>&nbsp;&nbsp;○&nbsp;대중교통&nbsp;이용&nbsp;향상으로&nbsp;기후위기&nbsp;시대&nbsp;극복<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청소년·어르신&nbsp;100원&nbsp;버스<br>&nbsp;&nbsp;○&nbsp;필수시설(행정기관,&nbsp;의료기관&nbsp;등)&nbsp;공공순환버스<br>&nbsp;&nbsp;○&nbsp;마을버스&nbsp;공영화<br>&nbsp;&nbsp;○&nbsp;자전거-보행&nbsp;네트워크&nbsp;완성.&nbsp;덕양일산자전거&nbsp;전용도로&nbsp;단절구간&nbsp;해소<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;후&nbsp;즉시&nbsp;착수<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	여성이 안전하고 빛나는 고양</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="여성이 안전하고 빛나는 고양">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;여성들이&nbsp;일상과&nbsp;사회&nbsp;전반에서&nbsp;안전하게&nbsp;생활<br>&nbsp;&nbsp;○&nbsp;여성들이&nbsp;자신의&nbsp;역량을&nbsp;마음껏&nbsp;펼칠&nbsp;수&nbsp;있는&nbsp;고양<br>&nbsp;&nbsp;○&nbsp;보호의&nbsp;존재가&nbsp;아닌&nbsp;능력을&nbsp;발휘하며&nbsp;삶의&nbsp;질&nbsp;향상<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;주부국민연금&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;돌봄경력&nbsp;인증제&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;성평등&nbsp;임금공시제<br>&nbsp;&nbsp;○&nbsp;여성&nbsp;생애주기별&nbsp;건강지원<br>&nbsp;&nbsp;○&nbsp;디지털&nbsp;성범죄&nbsp;피해자&nbsp;원스톱&nbsp;지원체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;여성청소년&nbsp;생리대&nbsp;보편지원&nbsp;정상화&nbsp;및&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;차별금지조례&nbsp;제정<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;후&nbsp;즉시&nbsp;착수<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	일하는 사람들의 고양</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="일하는 사람들의 고양">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;노동이&nbsp;권리가&nbsp;되고&nbsp;안전이&nbsp;보장되는&nbsp;고양시<br>&nbsp;&nbsp;○&nbsp;양질의&nbsp;안정적인&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;고양시에서&nbsp;일하고&nbsp;고양시에서&nbsp;소비하는&nbsp;구조<br>&nbsp;&nbsp;○&nbsp;지역주민&nbsp;일자리&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;경력단절,&nbsp;조기퇴직에&nbsp;노후&nbsp;걱정&nbsp;없는&nbsp;삶<br>&nbsp;&nbsp;○&nbsp;청년의&nbsp;고양시&nbsp;정주율&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;청년의&nbsp;주거&nbsp;부담&nbsp;완화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;노동일자리&nbsp;부시장&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;생활임금&nbsp;인상&nbsp;및&nbsp;대상확대<br>&nbsp;&nbsp;○&nbsp;프리랜서&nbsp;온라인&nbsp;플랫폼&nbsp;노동자의&nbsp;경력인정&nbsp;및&nbsp;권리&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;노동자의&nbsp;작업중지권&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;공공발주&nbsp;계약기준,&nbsp;안전기준&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;고양형&nbsp;일자리&nbsp;보장제<br>&nbsp;&nbsp;○&nbsp;지역주민&nbsp;우선고용&nbsp;조례<br>&nbsp;&nbsp;○&nbsp;중장년&nbsp;인생이모작센터<br>&nbsp;&nbsp;○&nbsp;고양시-시민-전문가&nbsp;고용거버넌스&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;청년공동주택&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;관내기업&nbsp;고용인센티브&nbsp;지급<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;후&nbsp;즉시&nbsp;착수<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	돌봄이 행복한 고양</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="돌봄이 행복한 고양">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;아동,&nbsp;노인,&nbsp;장애인&nbsp;등&nbsp;돌봄이&nbsp;필요한&nbsp;시민&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;지역사회&nbsp;중심의&nbsp;촘촘한&nbsp;돌봄&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;돌봄&nbsp;부담&nbsp;완화와&nbsp;공공&nbsp;돌봄&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;안전하고&nbsp;건강한&nbsp;생활환경&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;돌봄&nbsp;종사자의&nbsp;처우와&nbsp;노동환경&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;"함께&nbsp;돌보는&nbsp;공동체"&nbsp;문화&nbsp;확산<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;마을통합돌봄&nbsp;커뮤니티<br>&nbsp;&nbsp;○&nbsp;돌봄&nbsp;SOS&nbsp;통합콜센터<br>&nbsp;&nbsp;○&nbsp;우리동네&nbsp;아이돌봄센터&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;동네마다&nbsp;마을도서관<br>&nbsp;&nbsp;○&nbsp;마을공동체·평생교육&nbsp;활성화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;후&nbsp;즉시&nbsp;착수<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

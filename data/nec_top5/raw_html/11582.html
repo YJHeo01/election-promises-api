@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이강산 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	자국민 보호 우선주의</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="자국민 보호 우선주의">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;복지&nbsp;운영&nbsp;원칙을&nbsp;자국민&nbsp;우선으로&nbsp;재정립<br>&nbsp;&nbsp;○&nbsp;외국인&nbsp;복지·의료&nbsp;지출&nbsp;실태를&nbsp;시민에게&nbsp;투명&nbsp;공개하고&nbsp;제도적&nbsp;손실&nbsp;차단<br>&nbsp;&nbsp;○&nbsp;자국민&nbsp;청년·신혼·다자녀&nbsp;가정&nbsp;우선&nbsp;지원체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;외국인&nbsp;밀집&nbsp;지역&nbsp;치안·행정&nbsp;사각지대&nbsp;해소<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;「서울시&nbsp;사회복지&nbsp;기본조례」&nbsp;개정&nbsp;―&nbsp;자국민&nbsp;우선&nbsp;원칙&nbsp;1호&nbsp;명문화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시의회&nbsp;발의&nbsp;→&nbsp;본회의&nbsp;의결&nbsp;→&nbsp;공포·시행<br>&nbsp;&nbsp;○&nbsp;외국인&nbsp;복지&nbsp;지출&nbsp;전수조사&nbsp;및&nbsp;결과&nbsp;공개<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;최근&nbsp;5년간&nbsp;서울시&nbsp;외국인&nbsp;복지·의료·교육&nbsp;지출&nbsp;항목별&nbsp;조사<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;결과를&nbsp;서울시&nbsp;홈페이지&nbsp;상시&nbsp;공개,&nbsp;시민&nbsp;감시체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;외국인&nbsp;밀집&nbsp;지역&nbsp;치안·행정&nbsp;특별관리구역&nbsp;지정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자치경찰&nbsp;집중&nbsp;배치,&nbsp;다국어&nbsp;민원·범죄&nbsp;대응&nbsp;전담반&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;자국민&nbsp;청년·신혼·다자녀&nbsp;우선&nbsp;지원&nbsp;패키지&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울형&nbsp;주거·돌봄·교육&nbsp;지원의&nbsp;자국민&nbsp;우선&nbsp;배정&nbsp;기준&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;건강보험&nbsp;재정&nbsp;손실&nbsp;실태&nbsp;공개&nbsp;및&nbsp;중앙정부&nbsp;제도&nbsp;개선&nbsp;공식&nbsp;건의<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시&nbsp;의료기관&nbsp;외국인&nbsp;진료&nbsp;통계&nbsp;분석&nbsp;→&nbsp;국회·복지부&nbsp;건의서&nbsp;제출<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;30일&nbsp;내&nbsp;:&nbsp;사회복지&nbsp;기본조례&nbsp;개정안&nbsp;발의<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;100일&nbsp;내&nbsp;:&nbsp;외국인&nbsp;복지&nbsp;지출&nbsp;전수조사&nbsp;착수,&nbsp;특별관리구역&nbsp;지정<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;6개월&nbsp;내&nbsp;:&nbsp;자국민&nbsp;우선&nbsp;지원&nbsp;패키지&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;1년&nbsp;내&nbsp;:&nbsp;건강보험&nbsp;제도&nbsp;개선&nbsp;중앙정부&nbsp;공식&nbsp;건의<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내(2026.7.&nbsp;~&nbsp;2030.6.)&nbsp;지속&nbsp;점검·확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;일반회계&nbsp;내&nbsp;외국인&nbsp;복지&nbsp;지출&nbsp;항목&nbsp;재편성으로&nbsp;추가&nbsp;재정&nbsp;부담&nbsp;최소화<br>&nbsp;&nbsp;○&nbsp;자국민&nbsp;우선&nbsp;지원체계&nbsp;전환에&nbsp;따라&nbsp;절감되는&nbsp;예산을&nbsp;청년·신혼·다자녀&nbsp;패키지에&nbsp;우선&nbsp;투입<br>&nbsp;&nbsp;○&nbsp;특별관리구역&nbsp;운영비는&nbsp;기존&nbsp;자치경찰&nbsp;예산&nbsp;내&nbsp;조정<br>&nbsp;&nbsp;○&nbsp;조례&nbsp;제정·전수조사&nbsp;비용은&nbsp;서울시&nbsp;예비비&nbsp;및&nbsp;일반회계&nbsp;우선순위&nbsp;조정으로&nbsp;충당</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	종교 자유 수호</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="종교 자유 수호">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;서울시를&nbsp;종교&nbsp;자유&nbsp;특별&nbsp;수호&nbsp;구역으로&nbsp;공식&nbsp;선포<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;행정·세무·치안&nbsp;권한&nbsp;차원의&nbsp;종교시설&nbsp;보호&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;위헌&nbsp;종교&nbsp;탄압&nbsp;입법에&nbsp;대한&nbsp;서울시&nbsp;차원의&nbsp;적극적&nbsp;법적&nbsp;대응<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;종교&nbsp;자유&nbsp;특별&nbsp;수호&nbsp;구역&nbsp;선포&nbsp;―&nbsp;시장&nbsp;명의&nbsp;공식&nbsp;선언<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취임식과&nbsp;동시에&nbsp;공식&nbsp;선언,&nbsp;서울시&nbsp;모든&nbsp;자치구&nbsp;적용<br>&nbsp;&nbsp;○&nbsp;「서울시&nbsp;종교시설&nbsp;보호&nbsp;조례」&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;행정·세무&nbsp;압박&nbsp;원천&nbsp;차단&nbsp;조항&nbsp;명문화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정당한&nbsp;사유&nbsp;없는&nbsp;종교시설&nbsp;행정처분&nbsp;시&nbsp;시장&nbsp;사전&nbsp;검토&nbsp;의무화<br>&nbsp;&nbsp;○&nbsp;종교단체&nbsp;해산법&nbsp;반대&nbsp;공동&nbsp;입법&nbsp;청원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한교총·한기총&nbsp;등&nbsp;교계&nbsp;연합체와&nbsp;공동&nbsp;주도,&nbsp;서울시장&nbsp;명의&nbsp;청원<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;종교자유&nbsp;전담&nbsp;부서&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교계&nbsp;민원&nbsp;즉시&nbsp;처리&nbsp;체계&nbsp;구축,&nbsp;종교계와&nbsp;상시&nbsp;소통&nbsp;창구&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;서울시장&nbsp;명의&nbsp;헌법재판소&nbsp;탄원서&nbsp;제출&nbsp;―&nbsp;위헌법률심판&nbsp;촉구<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;종교&nbsp;탄압&nbsp;입법&nbsp;통과&nbsp;시&nbsp;즉시&nbsp;탄원서·의견서&nbsp;제출<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;:&nbsp;종교&nbsp;자유&nbsp;특별&nbsp;수호&nbsp;구역&nbsp;선포<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;30일&nbsp;내&nbsp;:&nbsp;종교단체&nbsp;해산법&nbsp;반대&nbsp;공동&nbsp;입법&nbsp;청원<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;100일&nbsp;내&nbsp;:&nbsp;종교시설&nbsp;보호&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;6개월&nbsp;내&nbsp;:&nbsp;종교자유&nbsp;전담&nbsp;부서&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;필요&nbsp;시&nbsp;즉시&nbsp;:&nbsp;헌법재판소&nbsp;탄원서&nbsp;제출&nbsp;(위헌&nbsp;입법&nbsp;발의&nbsp;단계부터&nbsp;대응)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;종교자유&nbsp;전담&nbsp;부서는&nbsp;행정조직&nbsp;개편을&nbsp;통한&nbsp;기존&nbsp;인력&nbsp;재배치로&nbsp;충당<br>&nbsp;&nbsp;○&nbsp;조례&nbsp;제정·헌법&nbsp;대응&nbsp;등&nbsp;법무&nbsp;비용은&nbsp;서울시&nbsp;법무행정&nbsp;예산&nbsp;내&nbsp;조정<br>&nbsp;&nbsp;○&nbsp;공식&nbsp;선언·입법&nbsp;청원은&nbsp;시장&nbsp;권한&nbsp;행사&nbsp;사항으로&nbsp;별도&nbsp;예산&nbsp;불요<br>&nbsp;&nbsp;○&nbsp;교계&nbsp;협력&nbsp;사업은&nbsp;종교계&nbsp;자율&nbsp;협력으로&nbsp;추진하여&nbsp;추가&nbsp;재정&nbsp;부담&nbsp;최소화</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	공공장소의 가치회복</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="공공장소의 가치회복">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;서울광장&nbsp;사용&nbsp;원칙을&nbsp;시민&nbsp;다수&nbsp;가치관&nbsp;기반으로&nbsp;재정립<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;교육·복지·행정에서&nbsp;특정&nbsp;이념&nbsp;강요&nbsp;행위&nbsp;차단<br>&nbsp;&nbsp;○&nbsp;건강한&nbsp;가정&nbsp;문화&nbsp;진흥&nbsp;및&nbsp;학부모&nbsp;결정권&nbsp;보장<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;「서울광장&nbsp;사용&nbsp;원칙&nbsp;재정립&nbsp;조례」&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민&nbsp;다수&nbsp;가치관&nbsp;기반&nbsp;사용&nbsp;기준&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;허가&nbsp;심의&nbsp;시&nbsp;시민의견&nbsp;수렴&nbsp;절차&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;「학생인권조례」&nbsp;개정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특정&nbsp;성별&nbsp;이념&nbsp;교육&nbsp;강요&nbsp;금지&nbsp;조항&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;학부모&nbsp;사전&nbsp;동의·선택권&nbsp;보장&nbsp;명문화<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;성평등&nbsp;정책&nbsp;전면&nbsp;재검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;편향&nbsp;이념&nbsp;확산&nbsp;사업&nbsp;예산&nbsp;전액&nbsp;삭감&nbsp;및&nbsp;사업&nbsp;재편성<br>&nbsp;&nbsp;○&nbsp;「서울시&nbsp;가정문화&nbsp;진흥&nbsp;조례」&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건강한&nbsp;가정&nbsp;지원&nbsp;예산&nbsp;신설,&nbsp;가정의&nbsp;달&nbsp;사업&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;학부모·가정&nbsp;단체&nbsp;상설&nbsp;정책&nbsp;협의체&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육·복지&nbsp;정책&nbsp;결정&nbsp;단계&nbsp;참여&nbsp;보장<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;100일&nbsp;내&nbsp;:&nbsp;서울광장&nbsp;사용&nbsp;원칙&nbsp;재정립&nbsp;조례,&nbsp;학부모·가정&nbsp;단체&nbsp;상설&nbsp;협의체&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;6개월&nbsp;내&nbsp;:&nbsp;서울시&nbsp;성평등&nbsp;정책&nbsp;전면&nbsp;재검토&nbsp;완료&nbsp;및&nbsp;예산&nbsp;재편성<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;1년&nbsp;내&nbsp;:&nbsp;학생인권조례&nbsp;개정,&nbsp;가정문화&nbsp;진흥&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;점검&nbsp;및&nbsp;단계적&nbsp;시행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;성평등&nbsp;정책&nbsp;예산&nbsp;재편성을&nbsp;통해&nbsp;가정문화&nbsp;진흥&nbsp;사업&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;편향&nbsp;이념&nbsp;확산&nbsp;사업&nbsp;예산&nbsp;삭감분을&nbsp;건강한&nbsp;가정·학부모&nbsp;지원&nbsp;예산으로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;조례&nbsp;제정·정책&nbsp;협의체&nbsp;운영은&nbsp;서울시&nbsp;일반회계&nbsp;내&nbsp;우선순위&nbsp;조정으로&nbsp;충당<br>&nbsp;&nbsp;○&nbsp;추가&nbsp;재정&nbsp;부담&nbsp;없이&nbsp;예산&nbsp;구조조정&nbsp;중심으로&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	생명 존중·출산 장려</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="생명 존중·출산 장려">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;위기&nbsp;임신·출산&nbsp;여성에&nbsp;대한&nbsp;24시간&nbsp;지원체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;유치원~고교&nbsp;생명&nbsp;존중&nbsp;교육&nbsp;정착<br>&nbsp;&nbsp;○&nbsp;입양·가정&nbsp;위탁&nbsp;활성화로&nbsp;모든&nbsp;아이의&nbsp;가정&nbsp;안&nbsp;양육&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;미혼모·위기가정&nbsp;자립&nbsp;지원&nbsp;통합&nbsp;패키지&nbsp;시행<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;위기&nbsp;임신·출산&nbsp;지원센터&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;24시간&nbsp;위기&nbsp;상담·연계&nbsp;핫라인&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산부인과·복지기관·민간단체&nbsp;통합&nbsp;연계망&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;「서울시&nbsp;생명&nbsp;존중&nbsp;교육&nbsp;지원&nbsp;조례」&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유치원~고교&nbsp;생명&nbsp;가치&nbsp;교육&nbsp;지원&nbsp;예산&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;입양·가정&nbsp;위탁&nbsp;지원&nbsp;대폭&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울시&nbsp;입양&nbsp;지원금&nbsp;현실화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;가정&nbsp;위탁&nbsp;가정&nbsp;양육·의료비&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;미혼모·위기가정&nbsp;자립&nbsp;지원&nbsp;패키지<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주거·양육비·취업·법률&nbsp;지원의&nbsp;통합&nbsp;원스톱&nbsp;서비스&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;학교&nbsp;성교육&nbsp;지침&nbsp;개정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생명&nbsp;선택권&nbsp;중심으로&nbsp;전환,&nbsp;입양·출산&nbsp;정보&nbsp;균형&nbsp;제공<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;100일&nbsp;내&nbsp;:&nbsp;위기&nbsp;임신·출산&nbsp;지원센터&nbsp;확대&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;6개월&nbsp;내&nbsp;:&nbsp;입양&nbsp;지원금&nbsp;현실화&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;1년&nbsp;내&nbsp;:&nbsp;생명&nbsp;존중&nbsp;교육&nbsp;지원&nbsp;조례&nbsp;제정,&nbsp;자립&nbsp;지원&nbsp;패키지&nbsp;본격&nbsp;시행,&nbsp;학교&nbsp;성교육&nbsp;지침&nbsp;개정<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;확대&nbsp;운영<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;출산장려·인구정책&nbsp;예산&nbsp;통합&nbsp;확대&nbsp;재편성<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;저출생&nbsp;대응&nbsp;예산&nbsp;효율화로&nbsp;위기&nbsp;임신&nbsp;지원·입양&nbsp;지원&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;중앙정부&nbsp;모자보건·아동복지&nbsp;매칭&nbsp;사업&nbsp;적극&nbsp;신청·확보<br>&nbsp;&nbsp;○&nbsp;입양&nbsp;지원금&nbsp;현실화는&nbsp;서울시&nbsp;일반회계&nbsp;내&nbsp;우선순위&nbsp;편성<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;입양·생명&nbsp;단체와&nbsp;협력하여&nbsp;운영&nbsp;효율&nbsp;제고</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	법치 수호·사법 파괴 저지</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="법치 수호·사법 파괴 저지">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;위헌&nbsp;행정명령에&nbsp;대한&nbsp;서울시&nbsp;불복종&nbsp;원칙&nbsp;명문화<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;자치경찰&nbsp;권한&nbsp;강화로&nbsp;불법&nbsp;점거·집회&nbsp;즉시&nbsp;대응<br>&nbsp;&nbsp;○&nbsp;법치&nbsp;파괴&nbsp;입법에&nbsp;대한&nbsp;서울시&nbsp;차원의&nbsp;상시&nbsp;헌법&nbsp;대응<br>&nbsp;&nbsp;○&nbsp;공정&nbsp;선거를&nbsp;위한&nbsp;부정선거&nbsp;방지&nbsp;감시&nbsp;체계&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;법치행정&nbsp;수호&nbsp;선언<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;위헌&nbsp;행정명령&nbsp;불복종&nbsp;원칙&nbsp;명문화,&nbsp;시장&nbsp;취임&nbsp;즉시&nbsp;공식&nbsp;선언<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;자치경찰&nbsp;권한&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;불법&nbsp;집회·점거에&nbsp;대한&nbsp;즉시&nbsp;행정대집행&nbsp;매뉴얼&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;서울시장&nbsp;명의&nbsp;위헌법률&nbsp;헌법재판소&nbsp;탄원&nbsp;상시화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;법치&nbsp;파괴&nbsp;입법&nbsp;발의·통과&nbsp;단계마다&nbsp;즉시&nbsp;탄원서·의견서&nbsp;제출<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;법치교육&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공무원·교원&nbsp;대상&nbsp;법치행정&nbsp;의무&nbsp;교육&nbsp;신설&nbsp;및&nbsp;정기&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;부정선거&nbsp;방지&nbsp;특별&nbsp;감시단&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;투개표&nbsp;이중&nbsp;감시&nbsp;체계&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;차기&nbsp;선거&nbsp;전&nbsp;시민·전문가&nbsp;합동&nbsp;감시단&nbsp;구성·운영<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;:&nbsp;법치행정&nbsp;수호&nbsp;선언,&nbsp;헌법재판소&nbsp;탄원&nbsp;상시화&nbsp;체계&nbsp;가동<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;100일&nbsp;내&nbsp;:&nbsp;자치경찰&nbsp;권한&nbsp;강화&nbsp;매뉴얼&nbsp;정비&nbsp;및&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;1년&nbsp;내&nbsp;:&nbsp;법치교육&nbsp;정착<br>&nbsp;&nbsp;○&nbsp;차기&nbsp;선거&nbsp;전&nbsp;:&nbsp;부정선거&nbsp;방지&nbsp;특별&nbsp;감시단&nbsp;구성·운영<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;운영&nbsp;및&nbsp;법치&nbsp;파괴&nbsp;입법&nbsp;즉시&nbsp;대응<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;자치경찰&nbsp;권한&nbsp;강화는&nbsp;기존&nbsp;자치경찰&nbsp;예산&nbsp;내&nbsp;운영체계&nbsp;개편으로&nbsp;충당<br>&nbsp;&nbsp;○&nbsp;법치교육은&nbsp;서울시&nbsp;인재개발원&nbsp;기존&nbsp;교육&nbsp;예산&nbsp;내&nbsp;편성<br>&nbsp;&nbsp;○&nbsp;헌법재판소&nbsp;탄원·법무&nbsp;대응은&nbsp;서울시&nbsp;법무행정&nbsp;예산&nbsp;내&nbsp;조정<br>&nbsp;&nbsp;○&nbsp;부정선거&nbsp;방지&nbsp;감시단은&nbsp;선거&nbsp;시&nbsp;한시적&nbsp;운영으로&nbsp;추가&nbsp;재정&nbsp;부담&nbsp;최소화<br>&nbsp;&nbsp;○&nbsp;시민·전문가&nbsp;자원봉사&nbsp;협력으로&nbsp;운영&nbsp;효율&nbsp;제고</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

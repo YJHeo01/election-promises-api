@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;우상호 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	청년 공공주거 지원 확대 및 청년 마을 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="청년 공공주거 지원 확대 및 청년 마을 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;청년&nbsp;공공주거&nbsp;지원&nbsp;확대와&nbsp;청년마을&nbsp;조성&nbsp;통합&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;일터&nbsp;옆&nbsp;내&nbsp;집&nbsp;컨셉의&nbsp;청년&nbsp;공공지원주택&nbsp;공급&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;장기&nbsp;공공임대주택&nbsp;공급,&nbsp;청년&nbsp;셰어하우스와&nbsp;창업거점,&nbsp;청년마을&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활&nbsp;정착형(주거+일자리+창업+생활서비스)&nbsp;청년정책&nbsp;추진<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;공공주택&nbsp;공급→유휴공간&nbsp;재생→로컬창업형&nbsp;청년마을&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강원특별자치도,&nbsp;LH,&nbsp;강원개발공사,&nbsp;시군&nbsp;협력사업으로&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;U-턴&nbsp;청년&nbsp;정착&nbsp;패키지&nbsp;지원&nbsp;:&nbsp;청년&nbsp;정착&nbsp;관련&nbsp;지원금&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공유주거·로컬창업·지역자원&nbsp;활용,&nbsp;생태전환형&nbsp;청년마을&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비·도비·시군비·LH&nbsp;및&nbsp;공공기관&nbsp;협력&nbsp;재원&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;※지방소멸대응기금&nbsp;활용,&nbsp;행정안전부·농식품부·문체부&nbsp;정부사업&nbsp;연계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	청정에너지 고속도로 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="청정에너지 고속도로 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;민통선&nbsp;5km&nbsp;북상에&nbsp;따른,&nbsp;새로운&nbsp;철책길을&nbsp;청정에너지&nbsp;고속도로&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신규&nbsp;설치되는&nbsp;새로운&nbsp;민통선&nbsp;철책을&nbsp;태양광-풍력&nbsp;고속도로로&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중앙정부&nbsp;재생에너지&nbsp;정책과&nbsp;연계해&nbsp;강원&nbsp;RE100&nbsp;고속도로&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군사규제지역&nbsp;주민에게&nbsp;고정적&nbsp;“강원청정연금”지급<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;사업타당성&nbsp;검토&nbsp;→&nbsp;1단계&nbsp;지역&nbsp;선정&nbsp;→&nbsp;강원&nbsp;전&nbsp;구간&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신규&nbsp;민통선&nbsp;철책의&nbsp;청정에너지&nbsp;고속도로화&nbsp;사업타당성&nbsp;확인<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1단계&nbsp;파일럿&nbsp;구간&nbsp;선정&nbsp;→&nbsp;시범사업&nbsp;추진&nbsp;→&nbsp;전&nbsp;구간&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강원특별법을&nbsp;통해&nbsp;군사규제&nbsp;해소와&nbsp;합리화&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진&nbsp;(2027년까지&nbsp;사업타당성&nbsp;확인)<br>&nbsp;&nbsp;&nbsp;&nbsp;※사업타당성이확보될경우,&nbsp;2028년부터1단계구간청정에너지고속도로추진<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;확보&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;※청정에너지고속도로구축은민간투자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	강원형 식품융합 산업클러스터 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="강원형 식품융합 산업클러스터 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;18개&nbsp;시군과&nbsp;연계된&nbsp;산학연관&nbsp;식품가공&nbsp;전진기지&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농산품&nbsp;품질&nbsp;유지를&nbsp;위한&nbsp;‘반값농자재’&nbsp;지원사업&nbsp;강화로&nbsp;농가부담&nbsp;완화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역~대학~기업~연구소~지자체&nbsp;간&nbsp;강원식품가공&nbsp;협력네트워크&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도를&nbsp;중심으로&nbsp;식품&nbsp;관련&nbsp;공공·연구기관,&nbsp;대학,&nbsp;기업,&nbsp;지원기관&nbsp;등&nbsp;참여<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘강원&nbsp;푸드’&nbsp;공동&nbsp;브랜드&nbsp;개발&nbsp;및&nbsp;국내·외&nbsp;온·오프라인&nbsp;판로&nbsp;개척&nbsp;지원<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;강원형&nbsp;식품브랜드전략&nbsp;수립,&nbsp;광역단위&nbsp;식품융합&nbsp;클러스터&nbsp;조성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;반값농자재&nbsp;지원사업예산&nbsp;증액&nbsp;및&nbsp;공동구매·공급&nbsp;체계&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강원형&nbsp;식품브랜드&nbsp;산업전략&nbsp;수립&nbsp;및&nbsp;광역단위&nbsp;식품융합&nbsp;클러스터&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육,&nbsp;창업,&nbsp;기획,&nbsp;기술개발,&nbsp;시제품&nbsp;제작,&nbsp;제품&nbsp;상용화,&nbsp;마케팅&nbsp;등&nbsp;통합&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강원&nbsp;거점별&nbsp;공유공장,&nbsp;지역네트워킹,&nbsp;패키지형&nbsp;지원사업&nbsp;등&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;확보&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	강원형 숲경제 산업벨트 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="강원형 숲경제 산업벨트 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;강원&nbsp;목재가공&nbsp;고도화,&nbsp;목재산업(건축/목공예/가구&nbsp;등)&nbsp;활성화&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생산&nbsp;측면에서,&nbsp;임업&nbsp;첨단장비를&nbsp;통한&nbsp;목재수집센터&nbsp;및&nbsp;목재가공센터&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업&nbsp;측면에서,&nbsp;강원&nbsp;생산&nbsp;목재&nbsp;이용촉진&nbsp;제도&nbsp;도입&nbsp;및&nbsp;목재산업&nbsp;활성화&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기업&nbsp;측면에서,&nbsp;가구&nbsp;브랜드&nbsp;기업육성&nbsp;및&nbsp;생활&nbsp;목공예&nbsp;산업&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;숲경제&nbsp;산업클러스터&nbsp;추진조직&nbsp;구축,&nbsp;산림목재산업&nbsp;활성화&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광역단위의&nbsp;컨트롤타워기구&nbsp;조직화&nbsp;및&nbsp;시군&nbsp;연계협력&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;산림목재클러스터를&nbsp;포함하는&nbsp;강원형&nbsp;숲경제&nbsp;산업클러스터&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;숲관리,&nbsp;임도조성,&nbsp;목재가공,&nbsp;산업육성,&nbsp;산림관광,&nbsp;목공예판매의&nbsp;선순환경제&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;확보&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	세계적 복합 관광단지 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="세계적 복합 관광단지 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;365일&nbsp;지속가능한&nbsp;세계적&nbsp;복합&nbsp;관광단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;강원도&nbsp;계절&nbsp;및&nbsp;지역&nbsp;편중을&nbsp;완화하는&nbsp;사계절&nbsp;세계적&nbsp;관광단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;숙박,&nbsp;휴양,&nbsp;문화,&nbsp;운동,&nbsp;오락,&nbsp;상가,&nbsp;편익&nbsp;시설의&nbsp;복합단지&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;환경친화적&nbsp;개발을&nbsp;통한&nbsp;지역&nbsp;생태계&nbsp;보전&nbsp;실천<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;강원특별법&nbsp;3차&nbsp;개정&nbsp;특례&nbsp;지역특화&nbsp;관광산업&nbsp;육성&nbsp;적용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;1&nbsp;step&nbsp;:&nbsp;지역에&nbsp;특화된&nbsp;관광&nbsp;상품&nbsp;및&nbsp;서비스&nbsp;등의&nbsp;발굴<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2&nbsp;step&nbsp;:&nbsp;세계적&nbsp;복합&nbsp;관광단지&nbsp;타당성&nbsp;조사&nbsp;및&nbsp;입지&nbsp;선정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3&nbsp;step&nbsp;:&nbsp;인프라&nbsp;구축&nbsp;및&nbsp;복합&nbsp;관광단지&nbsp;조성(관광기업&nbsp;유치)<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;추진<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;확보&nbsp;및&nbsp;민자유치</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

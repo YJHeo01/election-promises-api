@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;정용래 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	미래를 선도하는 글로벌 혁신도시 유성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="미래를 선도하는 글로벌 혁신도시 유성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;스타트업&nbsp;투자지원&nbsp;→&nbsp;공공실증&nbsp;→&nbsp;판로개척으로&nbsp;연결되는&nbsp;창업중심도시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;출자를&nbsp;통해&nbsp;초기기업부터&nbsp;성장기업까지&nbsp;이어지는&nbsp;성장사다리&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;골목상권&nbsp;활성화&nbsp;및&nbsp;청년·외국인&nbsp;정주여건&nbsp;개선을&nbsp;통한&nbsp;글로벌&nbsp;도시&nbsp;경쟁력&nbsp;강화<br><br>&nbsp;&nbsp;①&nbsp;(혁신성장)&nbsp;글로벌&nbsp;스타기업&nbsp;육성을&nbsp;위한&nbsp;지역투자&nbsp;펀드&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;스타트업&nbsp;및&nbsp;딥테크&nbsp;성장기업의&nbsp;투자공백&nbsp;해소&nbsp;및&nbsp;지역투자생태계&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;정책펀드&nbsp;조성(앵커출자형&nbsp;및&nbsp;모태·광역펀드&nbsp;연계),&nbsp;실증&nbsp;및&nbsp;판로개척&nbsp;지원&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;운용사&nbsp;공모&nbsp;→&nbsp;단계별&nbsp;출자&nbsp;→&nbsp;회수&nbsp;및&nbsp;재투자&nbsp;/&nbsp;운용기간&nbsp;8년<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;기금.민간.모태&nbsp;연계&nbsp;등&nbsp;(출자&nbsp;10~20억원)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;중기·장기&nbsp;과제)<br>&nbsp;&nbsp;②&nbsp;(로컬창업)&nbsp;도전과&nbsp;혁신,&nbsp;지역기반(LOCAL)&nbsp;창업타운&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;청년인재&nbsp;유입·정착을&nbsp;촉진하고,&nbsp;직주락&nbsp;결합된&nbsp;지역기반&nbsp;창업생태계&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;청년특화주택&nbsp;조성(궁동),&nbsp;공공시설·빈점포&nbsp;활용&nbsp;도심속&nbsp;창업교육,&nbsp;청년&nbsp;문화공연&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;공모(청년특화주택),&nbsp;지산학&nbsp;협력(창업교육),&nbsp;청년커뮤니티&nbsp;발굴(청년&nbsp;문화공연)&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;100억원(국비·시비·구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;중기·장기&nbsp;과제)<br>&nbsp;&nbsp;③&nbsp;(상권활력)&nbsp;지역경제&nbsp;활성화를&nbsp;위한&nbsp;골목상권&nbsp;업그레이드<br>&nbsp;&nbsp;○&nbsp;전지역&nbsp;골목형&nbsp;상점가&nbsp;확대&nbsp;지정&nbsp;등&nbsp;골목상권&nbsp;경쟁력&nbsp;강화&nbsp;및&nbsp;소비&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;골목형&nbsp;상점가&nbsp;확대,&nbsp;상권특화거리&nbsp;조성,&nbsp;체류형&nbsp;소비촉진&nbsp;사업&nbsp;추진,&nbsp;스마트상점가&nbsp;시범&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;상권별&nbsp;컨설팅&nbsp;및&nbsp;환경개선,&nbsp;소비쿠폰&nbsp;등&nbsp;소비촉진&nbsp;정책&nbsp;연계,&nbsp;상인회&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;8억원(구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;단기·중기과제)<br>&nbsp;&nbsp;④&nbsp;(열린도시)&nbsp;외국인&nbsp;정주여건&nbsp;개선,&nbsp;글로벌&nbsp;포용도시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;인재&nbsp;유입을&nbsp;통한&nbsp;지역경쟁력&nbsp;강화와&nbsp;문화&nbsp;다양성이&nbsp;공존하는&nbsp;포용도시&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;외국인&nbsp;통합지원&nbsp;플랫폼&nbsp;구축,&nbsp;네트워킹&nbsp;프로그램,&nbsp;생활서비스&nbsp;제공&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;외국인전담&nbsp;지원창구&nbsp;운영(청년센터,&nbsp;안녕센터&nbsp;등),&nbsp;외국인&nbsp;커뮤니티&nbsp;지원&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;4억원(구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;단기·중기과제)<br>&nbsp;&nbsp;⑤&nbsp;(뉴시니어)&nbsp;스마트한&nbsp;배움과&nbsp;여가,&nbsp;스마트경로당&nbsp;3.0<br>&nbsp;&nbsp;○&nbsp;단순한&nbsp;기기조작을&nbsp;넘어&nbsp;AI기술의&nbsp;실생활&nbsp;활용으로&nbsp;행복한&nbsp;시니어라이프&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;세대융합형&nbsp;AI&nbsp;창작학습,&nbsp;맞춤형&nbsp;인지강화&nbsp;프로그램&nbsp;등&nbsp;건강증진과&nbsp;디지털&nbsp;역량&nbsp;향상<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;스마트경로당(120개소)&nbsp;수요조사,&nbsp;기관별&nbsp;연계&nbsp;콘텐츠&nbsp;개발,&nbsp;맞춤형&nbsp;프로그램&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;12억원(구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;단기·중기과제)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	다 함께 만들어 가는 주민자치도시 유성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="다 함께 만들어 가는 주민자치도시 유성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;관계형성&nbsp;→&nbsp;공동체활성화&nbsp;→&nbsp;지역정주로&nbsp;이어지는&nbsp;주민자치도시&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;주민이&nbsp;구정&nbsp;기획&nbsp;및&nbsp;운영에&nbsp;참여하는&nbsp;실행&nbsp;중심의&nbsp;주민자치체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;서점·도서관·녹지공간&nbsp;등&nbsp;생활공간을&nbsp;연계한&nbsp;마을공동체&nbsp;문화&nbsp;활성화<br>&nbsp;&nbsp;<br>&nbsp;&nbsp;①&nbsp;(마을공간)&nbsp;우리동네&nbsp;마을커뮤니티&nbsp;시설&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;생활권&nbsp;내&nbsp;공동체&nbsp;거점&nbsp;확충,&nbsp;공동체플랫폼+지역문제&nbsp;해결&nbsp;거점&nbsp;공간으로&nbsp;기능&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;민선9기&nbsp;단계적&nbsp;확충(20개소→30개소),&nbsp;생활권&nbsp;커뮤니티&nbsp;조성(돌봄형·문화형·주민소통형&nbsp;등),&nbsp;공간별&nbsp;기능&nbsp;특화&nbsp;및&nbsp;활동&nbsp;지원(신중년센터,&nbsp;청소년&nbsp;자유공간,&nbsp;학교밖&nbsp;청소년&nbsp;전용공간&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;공간수요&nbsp;분석을&nbsp;통한&nbsp;권역별&nbsp;균형&nbsp;배치(민관협력,&nbsp;마을자립형),&nbsp;프로그램&nbsp;운영지원&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;20억원(국비·시비·구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;중기·장기&nbsp;과제)<br>&nbsp;&nbsp;②&nbsp;(관계형성)&nbsp;동네서점과&nbsp;도서관,&nbsp;마을공동체&nbsp;문화&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;문화거점(서점·도서관)을&nbsp;중심으로&nbsp;공동체&nbsp;문화&nbsp;형성&nbsp;및&nbsp;일상&nbsp;속&nbsp;관계&nbsp;형성&nbsp;촉진<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;서점-도서관-지역작가를&nbsp;연계한&nbsp;독서·인문·문화&nbsp;프로그램&nbsp;공동&nbsp;기획&nbsp;운영,&nbsp;서점&nbsp;경영안정지원,&nbsp;주민주도&nbsp;독서모임&nbsp;발굴&nbsp;지원&nbsp;등을&nbsp;통한&nbsp;일상&nbsp;속&nbsp;공동체&nbsp;문화&nbsp;확산<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;서점(30개소),&nbsp;지역작가,&nbsp;독서단체,&nbsp;주민&nbsp;등이&nbsp;참여하는&nbsp;협의체&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;28억원(시비·구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;단기·중기과제)<br>&nbsp;&nbsp;③&nbsp;(성장지원)&nbsp;지역공동체지원센터&nbsp;활성화&nbsp;및&nbsp;마을공동체&nbsp;성장지원<br>&nbsp;&nbsp;○&nbsp;지역공동체지원센터(어은동)&nbsp;기능&nbsp;고도화로&nbsp;마을공동체의&nbsp;지속가능한&nbsp;실행&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;의제&nbsp;발굴-기획-실행-확산&nbsp;전&nbsp;과정을&nbsp;지원하고,&nbsp;단계별&nbsp;맞춤형&nbsp;성장체계와&nbsp;협업&nbsp;네트워크를&nbsp;구축,&nbsp;개별&nbsp;공동체의&nbsp;경험을&nbsp;지역&nbsp;전체의&nbsp;자산으로&nbsp;축적<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;마을활동&nbsp;전문기관&nbsp;위탁운영을&nbsp;통해&nbsp;전문성&nbsp;및&nbsp;실행력&nbsp;확보&nbsp;+&nbsp;행정지원<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;28억원(시비·구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;단기·중기과제&nbsp;)<br>&nbsp;&nbsp;④&nbsp;(공동체)&nbsp;함께&nbsp;가꾸는&nbsp;모두의&nbsp;정원,&nbsp;유성가든(마을정원)&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;주민참여형&nbsp;도시정원&nbsp;조성으로&nbsp;마을공동체&nbsp;회복과&nbsp;머물고&nbsp;싶은&nbsp;도시환경&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;&nbsp;전민·온천2·상대동&nbsp;등&nbsp;공공용지&nbsp;정원&nbsp;+&nbsp;하천꽃길&nbsp;=&nbsp;가드닝&nbsp;3개소(총&nbsp;약&nbsp;3.5만㎡)&nbsp;정원공동체를&nbsp;통한&nbsp;주민참여&nbsp;운영(가드너),&nbsp;공원하천&nbsp;등&nbsp;도시전반&nbsp;정원도시&nbsp;확산<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;&nbsp;정원&nbsp;조성과&nbsp;문화·커뮤니티&nbsp;프로그램을&nbsp;연계&nbsp;운영,&nbsp;단계별&nbsp;조성&nbsp;및&nbsp;운영&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;&nbsp;50억원(국비.시비.구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;단기·중기과제)<br>&nbsp;&nbsp;⑤&nbsp;(자립지원)&nbsp;힘찬&nbsp;도약(jump-up)과&nbsp;지역&nbsp;정착,&nbsp;청소년&nbsp;첫걸음&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;청소년의&nbsp;건강한&nbsp;성장&nbsp;지원&nbsp;및&nbsp;지역&nbsp;공동체&nbsp;진입·자립&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;청소년&nbsp;지역&nbsp;공동체&nbsp;진입&nbsp;축하&nbsp;웰컴박스&nbsp;증정,&nbsp;검정고시&nbsp;합격&nbsp;축하금&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;학습·자기개발&nbsp;물품&nbsp;지원&nbsp;및&nbsp;축하카드&nbsp;발송,&nbsp;지역상점과&nbsp;연계한&nbsp;지역화폐&nbsp;지급<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;5억원(시비·구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;단기·중기과제)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	기후위기 대응 안전하고 지속가능한 도시 유성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="기후위기 대응 안전하고 지속가능한 도시 유성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;재생에너지,&nbsp;스마트기술을&nbsp;활용&nbsp;도시&nbsp;전반을&nbsp;친환경·에너지자립&nbsp;구조로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;스마트복합쉼터,&nbsp;재난대비&nbsp;취약지도&nbsp;등&nbsp;주민&nbsp;체감형&nbsp;생활안전&nbsp;정책&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;주민참여형&nbsp;교육·체험·챌린지로&nbsp;탄소중립·안전문화를&nbsp;생활&nbsp;속에&nbsp;정착<br><br>&nbsp;&nbsp;①&nbsp;(에너지혁신)&nbsp;지속가능한&nbsp;마을의&nbsp;힘,&nbsp;햇빛복지마을&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;민관협력의&nbsp;도심&nbsp;속&nbsp;에너지&nbsp;수익모델&nbsp;창출로&nbsp;재생에너지&nbsp;중심의&nbsp;에너지&nbsp;대전환<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;공공부지&nbsp;등&nbsp;유휴부지&nbsp;태양광&nbsp;설치,&nbsp;에너지&nbsp;수익은&nbsp;저소득층&nbsp;대상&nbsp;복지기금&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;공영주차장,&nbsp;공공기관&nbsp;단계별&nbsp;시범추진&nbsp;후&nbsp;민간&nbsp;확대,&nbsp;협동조합+민간투자&nbsp;운용<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;20억원(국비.시비.구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;중기·장기과제)&nbsp;*설치&nbsp;40kw&nbsp;1개소&nbsp;80백만원<br>&nbsp;&nbsp;②&nbsp;(공감실천)&nbsp;생활&nbsp;속&nbsp;탄소중립&nbsp;실천캠페인&nbsp;확산<br>&nbsp;&nbsp;○&nbsp;자원순환을&nbsp;넘어&nbsp;생활의&nbsp;변화를&nbsp;이끄는&nbsp;탄소중립&nbsp;환경교육으로&nbsp;패러다임&nbsp;전환<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;유아기,&nbsp;학령기,&nbsp;성인,&nbsp;기관&nbsp;대상&nbsp;체험형&nbsp;생활교육,&nbsp;실천챌린지,&nbsp;탈탄소&nbsp;보상체계&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;보육시설·학교&nbsp;등&nbsp;찾아가는&nbsp;맞춤형&nbsp;체험교육,&nbsp;탈탄소연구모임·동아리&nbsp;활성화,&nbsp;탈탄소&nbsp;마일리지&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;16억원(국비·시비·구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;단기·중기과제)<br>&nbsp;&nbsp;③&nbsp;(스마트안전)&nbsp;폭염·한파에도&nbsp;안전하게,&nbsp;스마트복합쉼터&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;폭염.한파&nbsp;등&nbsp;급작스러운&nbsp;기후변화에&nbsp;대응하는&nbsp;스마트복합쉼터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;방재디자인과&nbsp;공기정화설비,&nbsp;냉·온풍&nbsp;시스템,&nbsp;정보시스템&nbsp;구비&nbsp;/&nbsp;동별&nbsp;1개소(11개소&nbsp;추가&nbsp;조성)<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;(대상지)&nbsp;동별&nbsp;1개소(11개소&nbsp;추가조성)&nbsp;(설치)&nbsp;조달청&nbsp;혁신제품&nbsp;(이용)&nbsp;만족도환류&nbsp;→&nbsp;기능&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;22억&nbsp;원(재난기금)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;단기·중기과제)<br>&nbsp;&nbsp;④&nbsp;(선제대응)&nbsp;데이터로&nbsp;지켜내는&nbsp;주민안전,&nbsp;재난&nbsp;취약지도&nbsp;제작<br>&nbsp;&nbsp;○&nbsp;기후변화로&nbsp;심화되는&nbsp;자연재해에&nbsp;선제적&nbsp;대응,&nbsp;주민의&nbsp;인명과&nbsp;재산피해&nbsp;최소화<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;기존&nbsp;공공데이터와&nbsp;동별&nbsp;재해데이터&nbsp;통합,&nbsp;실시간&nbsp;확인이&nbsp;가능한&nbsp;유성구&nbsp;취약지도&nbsp;제작<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;생활안전지도.홍수정보(國)&nbsp;+&nbsp;폭염취약지도(市)&nbsp;+&nbsp;침수흔적도(區)&nbsp;→&nbsp;자체&nbsp;통합플랫폼<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;4억원(구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;단기·중기과제)<br>&nbsp;&nbsp;⑤&nbsp;(신속처리)&nbsp;도로안전의&nbsp;컨트롤타워,&nbsp;도로안전통합센터&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;분산된&nbsp;방재시설&nbsp;일원화로&nbsp;통합관제&nbsp;등&nbsp;도로관리&nbsp;현장대응&nbsp;신속성&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;분산·자재보관&nbsp;중심&nbsp;방재시설을&nbsp;통합,&nbsp;기능개편&nbsp;/&nbsp;사고예측,&nbsp;긴급보수까지&nbsp;즉각조치<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;방재시설(3개소/외삼,화암,죽동)&nbsp;→&nbsp;통합(화암,6,485㎡),&nbsp;제설&nbsp;등&nbsp;각종&nbsp;데이터&nbsp;통합관리<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;35억&nbsp;원(시비·구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;단기·중기과제)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	아이부터 어른까지 모두 행복한 복지도시 유성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="아이부터 어른까지 모두 행복한 복지도시 유성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;출생의&nbsp;기쁨부터&nbsp;활력&nbsp;넘치는&nbsp;노후까지&nbsp;생애주기별&nbsp;맞춤형&nbsp;돌봄체계&nbsp;고도화<br>&nbsp;&nbsp;○&nbsp;계층별·지역별&nbsp;균형있는&nbsp;복지전달체계&nbsp;거점마련으로&nbsp;다함께&nbsp;누리는&nbsp;복지인프라<br>&nbsp;&nbsp;○&nbsp;AI를&nbsp;기반으로&nbsp;한&nbsp;헬스케어,&nbsp;스마트경로당&nbsp;3.0&nbsp;등&nbsp;건강복지&nbsp;생태계&nbsp;조성<br><br>&nbsp;&nbsp;①&nbsp;(미래희망)&nbsp;아이들의&nbsp;상상놀이터,&nbsp;새로운&nbsp;어린이공원&nbsp;확대&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;획일적인&nbsp;놀이시설을&nbsp;탈피한&nbsp;새로운&nbsp;어린이&nbsp;체험형&nbsp;놀이터&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;아동친화형&nbsp;놀이기구와&nbsp;공간구성&nbsp;‘상상놀이터’&nbsp;/&nbsp;연도별&nbsp;2개소(총&nbsp;10개소)<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;(입지)&nbsp;수요조사&nbsp;(기획·설계)&nbsp;주민·전문가&nbsp;참여&nbsp;(시공&nbsp;및&nbsp;피드백)&nbsp;이용만족도&nbsp;조사<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;50.5억&nbsp;원(국비·시비·구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;단기·중기과제)<br>&nbsp;&nbsp;②&nbsp;(보육안전)&nbsp;보육&nbsp;종사자&nbsp;지원·역량&nbsp;강화,&nbsp;안전한&nbsp;보육환경&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;보육&nbsp;기관·종사자들의&nbsp;보육역량&nbsp;강화&nbsp;및&nbsp;안전을&nbsp;더하는&nbsp;안심&nbsp;보육&nbsp;패키지&nbsp;제공<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;현장학습&nbsp;야외활동&nbsp;시&nbsp;안전사고&nbsp;위험&nbsp;최소화,&nbsp;보육의&nbsp;질적&nbsp;향상&nbsp;도모<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;현장학습&nbsp;안전도우미&nbsp;배치&nbsp;지원,&nbsp;보조교사&nbsp;연장&nbsp;근무&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;30억&nbsp;원(시비.구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;중기·장기과제)<br>&nbsp;&nbsp;③&nbsp;(행복동행)&nbsp;복지인프라&nbsp;확충,&nbsp;제2장애인종합복지관&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;장애인&nbsp;이동접근성&nbsp;확보&nbsp;및&nbsp;돌봄부담&nbsp;완화,&nbsp;지역별&nbsp;균형있는&nbsp;장애인복지&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;유성구&nbsp;제2장애인종합복지관(장애아동양육지원센터)&nbsp;3층&nbsp;3,000㎡&nbsp;규모&nbsp;/&nbsp;서남부&nbsp;개발권역<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;(부지)&nbsp;27년&nbsp;&nbsp;→&nbsp;(설계)&nbsp;28년&nbsp;상반기&nbsp;→&nbsp;(착공)&nbsp;29년&nbsp;상반기&nbsp;→&nbsp;(준공)&nbsp;30년<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;250억&nbsp;원(국비.시비.구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;중기·장기과제)<br>&nbsp;&nbsp;④&nbsp;(든든노후)&nbsp;의료·요양·돌봄을&nbsp;함께,&nbsp;시니어주택&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;주거·의료·식사&nbsp;등&nbsp;통합서비스&nbsp;제공할&nbsp;수&nbsp;있는&nbsp;노인친화형&nbsp;시니어주택&nbsp;&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;케어안심주택&nbsp;/&nbsp;주거공간,&nbsp;공유주방,&nbsp;프로그램실,&nbsp;커뮤니티공간&nbsp;등으로&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;(LH)&nbsp;건물매입&nbsp;및&nbsp;임대주택&nbsp;제공&nbsp;(區)&nbsp;입주자&nbsp;모집&nbsp;및&nbsp;프로그램&nbsp;운영&nbsp;(입주자)&nbsp;임대료&nbsp;납부<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;10억원(구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;중기·장기과제)<br>&nbsp;&nbsp;⑤&nbsp;(건강복지)&nbsp;다함께&nbsp;누리는&nbsp;건강복지,&nbsp;건강생활지원센터&nbsp;기능&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;건강생활지원센터를&nbsp;북부-중부-남부로&nbsp;연결,&nbsp;촘촘한&nbsp;주민&nbsp;건강복지망&nbsp;형성<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;북부(구즉),&nbsp;중부(보건소)&nbsp;남부(진잠)&nbsp;권역별&nbsp;주민&nbsp;맞춤형&nbsp;건강생활서비스&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;주민참여&nbsp;프로그램&nbsp;기획,&nbsp;기관연계(생활체육,&nbsp;병의원),&nbsp;건강동아리&nbsp;운영&nbsp;등&nbsp;지속성&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;12억원(구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;단기·중기과제)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	AX 시대 문화를 선도하는 도시 유성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="AX 시대 문화를 선도하는 도시 유성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;과학도시&nbsp;유성의&nbsp;강점을&nbsp;문화·예술로&nbsp;확장,&nbsp;주민체감형&nbsp;미래문화도시로&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;주민&nbsp;누구나&nbsp;일상에서&nbsp;문화를&nbsp;경험할&nbsp;수&nbsp;있도록&nbsp;축제·공연&nbsp;등&nbsp;문화콘텐츠&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;자연,&nbsp;휴식,&nbsp;치유와&nbsp;연계한&nbsp;힐링&nbsp;문화공간&nbsp;조성으로&nbsp;주민의&nbsp;삶의&nbsp;질&nbsp;향상<br><br>&nbsp;&nbsp;①&nbsp;(테크아트)&nbsp;과학과&nbsp;예술의&nbsp;만남,&nbsp;테크아트&nbsp;문화도시<br>&nbsp;&nbsp;○&nbsp;과학과&nbsp;예술이&nbsp;결합된&nbsp;공공복합청사(구암동)&nbsp;건립,&nbsp;미래도시&nbsp;정체성&nbsp;및&nbsp;경쟁력&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;행정,&nbsp;문화,&nbsp;전시&nbsp;기능의&nbsp;복합청사&nbsp;조성(구암동)&nbsp;,&nbsp;테크아트&nbsp;콘텐츠&nbsp;공간&nbsp;구축(미디어아트&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;단계별&nbsp;추진(~’30.&nbsp;건립계획,&nbsp;부지매입,&nbsp;착공&nbsp;및&nbsp;준공),&nbsp;문화·기술전문가&nbsp;참여&nbsp;기획&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;459억&nbsp;원(국비.시비.구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;중기·장기과제)<br>&nbsp;&nbsp;○&nbsp;봉명동&nbsp;온천로&nbsp;일원&nbsp;‘테크아트&nbsp;로드’&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;온천로&nbsp;일원&nbsp;미디어아트,&nbsp;인터랙티브&nbsp;등&nbsp;테크아트&nbsp;기반&nbsp;조형물&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;핵심동선&nbsp;구축(온천로)&nbsp;→&nbsp;&nbsp;단계별&nbsp;확장&nbsp;/&nbsp;궁동(스타트업파크,&nbsp;테크기업),&nbsp;엑스포공원&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;20억원(국비.시비.구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;중기·장기과제)<br>&nbsp;&nbsp;②&nbsp;(문화거점)&nbsp;문화예술의&nbsp;허브,&nbsp;유성복합문화예술센터&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;문화예술&nbsp;인프라&nbsp;확충으로&nbsp;누구나&nbsp;일상에서&nbsp;문화를&nbsp;향유할&nbsp;수&nbsp;있는&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;유성복합문화예술센터(학하동,&nbsp;3,900㎡)&nbsp;/&nbsp;공연장(350석&nbsp;내외),&nbsp;전시실(4실),&nbsp;다목적실&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;단계별&nbsp;추진(~’30.건축심의,&nbsp;설계용역,&nbsp;착공&nbsp;및&nbsp;운영),&nbsp;공공&nbsp;조성&nbsp;+&nbsp;민간·전문기관&nbsp;협력&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;240억&nbsp;원(국비·시비·구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;준공,&nbsp;중기·장기과제)<br>&nbsp;&nbsp;③&nbsp;(매력도시)&nbsp;유성의&nbsp;즐거움,&nbsp;사계절축제&nbsp;업그레이드<br>&nbsp;&nbsp;○&nbsp;유성의&nbsp;대표&nbsp;축제를&nbsp;지역특색과&nbsp;세계적&nbsp;감각으로&nbsp;결합,&nbsp;매력&nbsp;넘치는&nbsp;축제문화&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;온천·재즈·국화·크리스마스&nbsp;등&nbsp;유성&nbsp;대표&nbsp;사계절&nbsp;축제를&nbsp;테마별로&nbsp;특화·브랜드화<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;사계절축제&nbsp;글로벌기획&nbsp;및&nbsp;통합브랜드&nbsp;구축&nbsp;운영,&nbsp;외국인&nbsp;커뮤니티·지역상인&nbsp;민간&nbsp;협업&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;52억원(시비·구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;단기·중기과제)<br>&nbsp;&nbsp;④&nbsp;(힐링치유)&nbsp;유성의&nbsp;자연,&nbsp;방동·성북동&nbsp;숲치유&nbsp;클러스터&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;유성의&nbsp;숲을&nbsp;치유·휴식이&nbsp;가능한&nbsp;자연친화&nbsp;공간으로&nbsp;조성,&nbsp;생태관광&nbsp;거점&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;방동윤슬거리-성북동유아숲·야영장과&nbsp;연계한&nbsp;치유의&nbsp;길(여가숲,&nbsp;무장애나눔길,&nbsp;누리길)&nbsp;추가&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;단계별&nbsp;추진(~’30.&nbsp;2단계&nbsp;치유길,&nbsp;3단계&nbsp;산수누리길)&nbsp;및&nbsp;시설간&nbsp;연계로&nbsp;숲치유&nbsp;클러스터&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;157억원(국비·시비·구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;중기·장기과제)<br>&nbsp;&nbsp;⑤&nbsp;(일상활력)&nbsp;구민의&nbsp;건강한&nbsp;일상,&nbsp;공공&nbsp;생활체육&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;권역별&nbsp;생활체육시설&nbsp;확충으로&nbsp;일상에서&nbsp;누리는&nbsp;건강한&nbsp;여가문화&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[내&nbsp;용]&nbsp;축구장(덕명동,&nbsp;어은동,&nbsp;관평동),&nbsp;족구장(관평동),&nbsp;테니스장(학하동),&nbsp;파크골프장(관평동)&nbsp;등&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[방&nbsp;식]&nbsp;권역별&nbsp;조성&nbsp;/&nbsp;남부권(축구장,&nbsp;테니스장,&nbsp;파크골프연습장),&nbsp;북부권(족구장,&nbsp;축구장,&nbsp;파크골프장)<br>&nbsp;&nbsp;&nbsp;&nbsp;▷&nbsp;[재&nbsp;원]&nbsp;29억원(시비·구비)&nbsp;→&nbsp;이행계획(2026~2030,&nbsp;임기중&nbsp;완료,&nbsp;단기·중기과제)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

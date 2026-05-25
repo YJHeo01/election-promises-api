@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박재범 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	청년의 든든한 버팀목이 되는 남구</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="청년의 든든한 버팀목이 되는 남구">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;청년기본소득&nbsp;및&nbsp;맞춤창업지원을&nbsp;통해&nbsp;청년들의&nbsp;경제적&nbsp;자립&nbsp;기반을&nbsp;마련,&nbsp;지역&nbsp;내&nbsp;정착을&nbsp;유도하고&nbsp;남구&nbsp;특성에&nbsp;맞는&nbsp;맞춤형&nbsp;창업&nbsp;생태계를&nbsp;조성하여&nbsp;지역&nbsp;경제&nbsp;활력&nbsp;제고.<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;청년기본소득&nbsp;도입:&nbsp;남구&nbsp;거주&nbsp;특정&nbsp;연령대&nbsp;청년에게&nbsp;분기별/연별&nbsp;일정&nbsp;금액의&nbsp;청년기본소득을&nbsp;지역화폐(오륙도페이)로&nbsp;지급.<br>&nbsp;&nbsp;○&nbsp;맞춤형&nbsp;창업지원:&nbsp;남구형&nbsp;청년창업&nbsp;인큐베이팅&nbsp;센터&nbsp;설립,&nbsp;해양·신산업&nbsp;등&nbsp;남구&nbsp;미래&nbsp;먹거리와&nbsp;연계한&nbsp;창업&nbsp;컨설팅&nbsp;및&nbsp;초기&nbsp;창업&nbsp;자금&nbsp;지원.<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○1년&nbsp;차:&nbsp;청년기본소득&nbsp;지급&nbsp;및&nbsp;창업지원&nbsp;조례&nbsp;제·개정,&nbsp;창업&nbsp;수요조사<br>&nbsp;&nbsp;○2년&nbsp;차:&nbsp;청년기본소득&nbsp;시범&nbsp;도입&nbsp;및&nbsp;창업&nbsp;인큐베이팅&nbsp;센터&nbsp;개소<br>&nbsp;&nbsp;○3~4년&nbsp;차:&nbsp;대상자&nbsp;확대&nbsp;및&nbsp;창업&nbsp;지원&nbsp;성과&nbsp;공유·고도화<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○남구&nbsp;일반회계&nbsp;예산(불요불급한&nbsp;예산&nbsp;절감&nbsp;및&nbsp;재구조화)<br>&nbsp;&nbsp;○부산시&nbsp;청년&nbsp;지원&nbsp;매칭&nbsp;사업비&nbsp;확보&nbsp;및&nbsp;중소벤처기업부&nbsp;창업지원&nbsp;국비&nbsp;공모</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	지역경제를 살리는 착한 소비 : 오륙도페이 혜택 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="지역경제를 살리는 착한 소비 : 오륙도페이 혜택 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;남구&nbsp;지역화폐인&nbsp;‘오륙도페이’의&nbsp;활용도를&nbsp;극대화하여&nbsp;골목상권을&nbsp;활성화하고&nbsp;소상공인&nbsp;매출&nbsp;증대&nbsp;및&nbsp;구민의&nbsp;가계&nbsp;부담&nbsp;완화.<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;인센티브(캐시백)&nbsp;확대:&nbsp;명절&nbsp;및&nbsp;소비&nbsp;촉진&nbsp;기간(가정의&nbsp;달&nbsp;등)&nbsp;인센티브&nbsp;할인율&nbsp;상향&nbsp;(예:&nbsp;10%&nbsp;→&nbsp;최대&nbsp;15%&nbsp;탄력&nbsp;운영).<br>&nbsp;&nbsp;○&nbsp;가맹점&nbsp;확대&nbsp;및&nbsp;편의성&nbsp;개선:&nbsp;영세&nbsp;소상공인&nbsp;중심의&nbsp;가맹점&nbsp;집중&nbsp;발굴,&nbsp;배달앱(공공배달앱&nbsp;등)&nbsp;및&nbsp;택시&nbsp;결제&nbsp;등과&nbsp;연계&nbsp;확대.<br>&nbsp;&nbsp;○&nbsp;정책수당&nbsp;연계:&nbsp;각종&nbsp;복지수당&nbsp;및&nbsp;공로금&nbsp;등을&nbsp;오륙도페이로&nbsp;지급하여&nbsp;지역&nbsp;내&nbsp;소비&nbsp;선순환&nbsp;구조&nbsp;정착.<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;시작&nbsp;후&nbsp;예산편성&nbsp;및&nbsp;용역&nbsp;시행&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(매년&nbsp;지속&nbsp;운영&nbsp;및&nbsp;혜택&nbsp;확대&nbsp;방안&nbsp;상시&nbsp;검토)<br>&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;행정안전부&nbsp;지역사랑상품권&nbsp;발행&nbsp;지원&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;부산시&nbsp;시비&nbsp;매칭&nbsp;및&nbsp;남구&nbsp;자체&nbsp;지역경제&nbsp;활성화&nbsp;예산&nbsp;추가&nbsp;편성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	남구체육시설 우선예약제 실시 및 시설 현대화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="남구체육시설 우선예약제 실시 및 시설 현대화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;구민의&nbsp;건강권&nbsp;보장과&nbsp;쾌적한&nbsp;체육&nbsp;활동&nbsp;지원을&nbsp;위해&nbsp;남구민의&nbsp;공공체육시설&nbsp;이용&nbsp;권리를&nbsp;최우선으로&nbsp;보장하고&nbsp;노후화된&nbsp;시설을&nbsp;안전하게&nbsp;개선.<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;우선예약제&nbsp;실시:&nbsp;체육시설(백운포체육공원,&nbsp;남구국민체육센터&nbsp;등)&nbsp;이용&nbsp;시&nbsp;남구&nbsp;주민&nbsp;대상&nbsp;사전&nbsp;우선&nbsp;예약제&nbsp;시행.&nbsp;<br>&nbsp;&nbsp;○&nbsp;시설&nbsp;현대화:&nbsp;노후&nbsp;체육시설&nbsp;안전진단&nbsp;실시,&nbsp;조명&nbsp;탑&nbsp;LED&nbsp;교체,&nbsp;샤워실&nbsp;등&nbsp;편의시설&nbsp;확충&nbsp;및&nbsp;리모델링.<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○1년&nbsp;차:&nbsp;체육시설&nbsp;운영&nbsp;조례&nbsp;개정&nbsp;및&nbsp;우선예약제&nbsp;전면&nbsp;도입,&nbsp;시설&nbsp;실태조사<br>&nbsp;&nbsp;○2~4년&nbsp;차:&nbsp;우선순위에&nbsp;따른&nbsp;체육시설&nbsp;단계별&nbsp;현대화&nbsp;공사&nbsp;착공&nbsp;및&nbsp;준공<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○문화체육관광부(국민체육진흥공단)&nbsp;공공체육시설&nbsp;개보수&nbsp;지원&nbsp;기금&nbsp;확보<br>&nbsp;&nbsp;○부산시&nbsp;특별조정교부금&nbsp;신청&nbsp;및&nbsp;남구&nbsp;생활체육&nbsp;환경개선&nbsp;자체&nbsp;예산&nbsp;편성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	아이 낳고 키우기 좋은 맘(Mom) 편한 도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="아이 낳고 키우기 좋은 맘(Mom) 편한 도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○부모의&nbsp;양육비·의료비&nbsp;부담을&nbsp;줄이고&nbsp;야간·휴일&nbsp;의료&nbsp;공백&nbsp;해소&nbsp;및&nbsp;안심&nbsp;급식&nbsp;환경&nbsp;조성을&nbsp;통해&nbsp;부모와&nbsp;아이&nbsp;모두가&nbsp;행복한&nbsp;'보육·건강&nbsp;기본권'&nbsp;보장.<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○만&nbsp;6세&nbsp;아동&nbsp;병원비&nbsp;지원:&nbsp;남구&nbsp;거주&nbsp;만&nbsp;6세&nbsp;이하&nbsp;아동의&nbsp;병원비&nbsp;본인부담금을&nbsp;지원하여&nbsp;영유아&nbsp;의료비&nbsp;부담을&nbsp;획기적으로&nbsp;경감.<br>&nbsp;&nbsp;○달빛어린이병원&nbsp;확대&nbsp;지정:&nbsp;야간&nbsp;및&nbsp;휴일에도&nbsp;부모들이&nbsp;안심하고&nbsp;소아&nbsp;진료를&nbsp;받을&nbsp;수&nbsp;있도록&nbsp;남구&nbsp;관내&nbsp;달빛어린이병원&nbsp;추가&nbsp;지정&nbsp;추진&nbsp;및&nbsp;행·재정적&nbsp;지원&nbsp;강화.<br>&nbsp;&nbsp;○식판&nbsp;세척·소독&nbsp;사업&nbsp;유치원&nbsp;확대:&nbsp;기존&nbsp;어린이집에&nbsp;한정되었던&nbsp;'영유아&nbsp;식기(식판)&nbsp;세척&nbsp;및&nbsp;소독&nbsp;지원&nbsp;사업'을&nbsp;유치원까지&nbsp;전면&nbsp;확대하여&nbsp;위생적이고&nbsp;안전한&nbsp;급식&nbsp;환경&nbsp;조성.<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○1년&nbsp;차:&nbsp;만&nbsp;6세&nbsp;아동&nbsp;병원비&nbsp;지원&nbsp;관련&nbsp;조례&nbsp;제·개정,&nbsp;달빛어린이병원&nbsp;추가&nbsp;지정&nbsp;협의,&nbsp;유치원&nbsp;식판&nbsp;세척&nbsp;수요&nbsp;및&nbsp;실태&nbsp;조사<br>&nbsp;&nbsp;○2년&nbsp;차:&nbsp;만&nbsp;6세&nbsp;아동&nbsp;병원비&nbsp;지원&nbsp;개시,&nbsp;식판&nbsp;세척·소독&nbsp;사업&nbsp;유치원&nbsp;확대&nbsp;시행,&nbsp;달빛어린이병원&nbsp;신규&nbsp;운영&nbsp;개시<br>&nbsp;&nbsp;○3~4년&nbsp;차:&nbsp;각&nbsp;사업별&nbsp;운영&nbsp;성과&nbsp;모니터링&nbsp;주민&nbsp;만족도&nbsp;조사를&nbsp;통한&nbsp;지원&nbsp;체계&nbsp;고도화&nbsp;및&nbsp;정착<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○남구&nbsp;보건·의료&nbsp;및&nbsp;교육&nbsp;보조&nbsp;예산&nbsp;자체&nbsp;편성&nbsp;(불필요한&nbsp;예산&nbsp;절감분&nbsp;활용)<br>&nbsp;&nbsp;○보건복지부&nbsp;및&nbsp;부산시&nbsp;달빛어린이병원&nbsp;지정&nbsp;관련&nbsp;국·시비&nbsp;지원금&nbsp;확보<br>&nbsp;&nbsp;○유치원&nbsp;지원&nbsp;관련&nbsp;교육청&nbsp;협력&nbsp;사업비&nbsp;매칭&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	어르신 불편해소, 그냥해드림 사업 시행</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="어르신 불편해소, 그냥해드림 사업 시행">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○어르신들의&nbsp;일상&nbsp;속&nbsp;사소한&nbsp;불편을&nbsp;행정이&nbsp;직접&nbsp;찾아가&nbsp;해결해&nbsp;드리는&nbsp;'체감형&nbsp;생활&nbsp;밀착&nbsp;복지'&nbsp;실현.<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○전담&nbsp;기동대&nbsp;구성:&nbsp;형광등&nbsp;교체,&nbsp;수도꼭지&nbsp;수리,&nbsp;무거운&nbsp;짐&nbsp;이동&nbsp;등&nbsp;일상&nbsp;불편을&nbsp;전화&nbsp;한&nbsp;통으로&nbsp;해결해&nbsp;주는&nbsp;‘(가칭)그냥해드림&nbsp;기동대’&nbsp;동별(또는&nbsp;권역별)&nbsp;운영.<br>&nbsp;&nbsp;○디지털&nbsp;격차&nbsp;해소:&nbsp;키오스크,&nbsp;스마트폰&nbsp;사용에&nbsp;어려움을&nbsp;겪는&nbsp;어르신을&nbsp;위한&nbsp;1:1&nbsp;맞춤형&nbsp;찾아가는&nbsp;디지털&nbsp;교육&nbsp;'그냥알려드림'&nbsp;병행.<br>&nbsp;&nbsp;○일자리&nbsp;연계:&nbsp;해당&nbsp;사업&nbsp;수행&nbsp;인력으로&nbsp;지역&nbsp;내&nbsp;청장년&nbsp;및&nbsp;기술&nbsp;보유&nbsp;은퇴자를&nbsp;채용하여&nbsp;세대&nbsp;통합형&nbsp;일자리&nbsp;창출.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○1년&nbsp;차:&nbsp;'그냥해드림'&nbsp;사업단&nbsp;발족&nbsp;및&nbsp;권역별&nbsp;시범사업&nbsp;실시<br>&nbsp;&nbsp;○2~4년&nbsp;차:&nbsp;전&nbsp;동으로&nbsp;확대&nbsp;운영&nbsp;및&nbsp;서비스&nbsp;다각화(복지&nbsp;사각지대&nbsp;발굴&nbsp;연계)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○남구&nbsp;노인복지&nbsp;예산&nbsp;및&nbsp;취약계층&nbsp;생활안정&nbsp;지원&nbsp;예산&nbsp;활용<br>&nbsp;&nbsp;○행정안전부&nbsp;공공근로&nbsp;및&nbsp;지역주도형&nbsp;일자리&nbsp;사업&nbsp;국/시비&nbsp;연계</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

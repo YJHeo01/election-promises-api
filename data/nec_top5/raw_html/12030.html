@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이현창 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	구례형 기본소득 30만원 도입</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="구례형 기본소득 30만원 도입">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;신재생에너지&nbsp;단지&nbsp;조성,&nbsp;연&nbsp;100억~200억&nbsp;원&nbsp;자주&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;수익으로&nbsp;전&nbsp;군민에&nbsp;구례형&nbsp;기본소득&nbsp;30만원&nbsp;지급&nbsp;체계&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;기본소득&nbsp;일부를&nbsp;지역화폐로&nbsp;지급,&nbsp;자본&nbsp;순환·소상공인&nbsp;매출&nbsp;증대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;신재생에너지&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;풍력발전&nbsp;단지를&nbsp;조성하고&nbsp;안정적인&nbsp;전력&nbsp;생산·판매&nbsp;체계&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;수익&nbsp;공유&nbsp;및&nbsp;기본소득&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;발생하는&nbsp;수익을&nbsp;재원으로&nbsp;편성,&nbsp;전&nbsp;군민에게&nbsp;30만원&nbsp;의&nbsp;기본소득&nbsp;지급<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;경제&nbsp;선순환&nbsp;구조&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기본소득&nbsp;일부를&nbsp;지역화폐로&nbsp;지급,&nbsp;소비&nbsp;촉진과&nbsp;지역경제&nbsp;활성화&nbsp;도모<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년)&nbsp;:&nbsp;기본계획·인허가&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;중기(3~4년)&nbsp;:&nbsp;단지&nbsp;조성·시험운영,&nbsp;지급기준&nbsp;정비<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;장기(4년이상)&nbsp;:&nbsp;수익&nbsp;기반&nbsp;확보,&nbsp;기본소득·지역화폐&nbsp;정착<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;주요&nbsp;재원<br>&nbsp;&nbsp;전력·REC&nbsp;판매&nbsp;등&nbsp;사업&nbsp;운영&nbsp;수익금<br>&nbsp;&nbsp;○&nbsp;재원&nbsp;관리<br>&nbsp;&nbsp;별도&nbsp;체계로&nbsp;투명&nbsp;운영,&nbsp;매년&nbsp;결과&nbsp;공개<br>&nbsp;&nbsp;○&nbsp;법적&nbsp;근거<br>「신에너지·재생에너지법」&nbsp;및&nbsp;관련&nbsp;조례&nbsp;준수</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	전남형 농촌 유학의 메카, 구례</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="전남형 농촌 유학의 메카, 구례">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전남형&nbsp;농촌&nbsp;유학&nbsp;중심지로&nbsp;도약,&nbsp;가족&nbsp;단위&nbsp;체류&nbsp;인구&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;공동학습센터&nbsp;운영으로&nbsp;사교육&nbsp;부담&nbsp;없는&nbsp;교육&nbsp;환경&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;빈집&nbsp;활용으로&nbsp;저렴한&nbsp;정주&nbsp;공간&nbsp;제공&nbsp;및&nbsp;인구&nbsp;유입&nbsp;촉진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;농촌&nbsp;유학&nbsp;프로그램&nbsp;확대&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;공동학습센터&nbsp;설립·운영,&nbsp;맞춤형&nbsp;교육&nbsp;프로그램&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;빈집&nbsp;리모델링으로&nbsp;'1만원&nbsp;주택'&nbsp;등&nbsp;정주&nbsp;공간&nbsp;확충<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년)&nbsp;:&nbsp;프로그램&nbsp;기획,&nbsp;센터&nbsp;설립&nbsp;추진,&nbsp;빈집&nbsp;실태&nbsp;조사<br>&nbsp;&nbsp;○&nbsp;중기(3~4년)&nbsp;:&nbsp;프로그램&nbsp;본격&nbsp;운영,&nbsp;센터&nbsp;개소,&nbsp;리모델링·주택&nbsp;공급<br>&nbsp;&nbsp;○&nbsp;장기(4년이상)&nbsp;:&nbsp;사업&nbsp;정착,&nbsp;유학·정주&nbsp;인구&nbsp;지속&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;주요&nbsp;재원&nbsp;:&nbsp;국·도비&nbsp;보조금,&nbsp;지방비,&nbsp;민간&nbsp;지원금<br>&nbsp;&nbsp;○&nbsp;재원&nbsp;관리&nbsp;:&nbsp;별도&nbsp;계정&nbsp;운영,&nbsp;집행&nbsp;내역&nbsp;투명&nbsp;공개<br>&nbsp;&nbsp;○&nbsp;법적&nbsp;근거&nbsp;:「농촌유치지원법」,「지방교육재정교부금법」등관련법령&nbsp;준수</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	냉천IC ~ 화개장터 구간 4차선 확장</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="냉천IC ~ 화개장터 구간 4차선 확장">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;냉천IC~화개장터&nbsp;4차선&nbsp;확장,간전~광양&nbsp;간&nbsp;터널&nbsp;개설로&nbsp;교통&nbsp;접근성&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;관광·물류&nbsp;경쟁력&nbsp;강화로&nbsp;지속&nbsp;가능한&nbsp;성장&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;교통&nbsp;인프라&nbsp;확충으로&nbsp;지역&nbsp;균형발전,&nbsp;소상공인&nbsp;매출&nbsp;증대,&nbsp;관광&nbsp;활성화&nbsp;도모<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;도로&nbsp;확장&nbsp;및&nbsp;터널&nbsp;개설&nbsp;사업&nbsp;기본계획&nbsp;수립·노선&nbsp;확정<br>&nbsp;&nbsp;○&nbsp;국토교통부·전남도와&nbsp;협의,&nbsp;사업&nbsp;반영&nbsp;및&nbsp;인허가&nbsp;절차&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;단계별&nbsp;공사&nbsp;시행&nbsp;및&nbsp;교통&nbsp;체계&nbsp;연결·정비<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년)&nbsp;:&nbsp;기본계획·타당성&nbsp;조사,&nbsp;국가계획&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;중기(3~5년)&nbsp;:&nbsp;실시설계·공사&nbsp;착공,&nbsp;터널&nbsp;및&nbsp;도로&nbsp;공사&nbsp;본격&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;장기(5년&nbsp;이상)&nbsp;:&nbsp;공사&nbsp;완료·개통,&nbsp;교통&nbsp;효율&nbsp;및&nbsp;경제&nbsp;효과&nbsp;분석·보완<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;주요&nbsp;재원&nbsp;:&nbsp;국비&nbsp;보조금,&nbsp;도비·군비,&nbsp;민간&nbsp;투자&nbsp;및&nbsp;특별회계<br>&nbsp;&nbsp;○&nbsp;재원&nbsp;관리&nbsp;:&nbsp;사업별&nbsp;분리&nbsp;회계&nbsp;운영,&nbsp;집행&nbsp;내역&nbsp;투명&nbsp;공개<br>&nbsp;&nbsp;○&nbsp;법적&nbsp;근거&nbsp;:&nbsp;「도로법」,&nbsp;「국토의&nbsp;계획&nbsp;및&nbsp;이용에&nbsp;관한&nbsp;법률」&nbsp;등&nbsp;관련&nbsp;법령&nbsp;준수</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	서시천 사계절 꽃단지</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="서시천 사계절 꽃단지">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;365일&nbsp;꽃&nbsp;피는&nbsp;환경&nbsp;조성으로&nbsp;연중&nbsp;관광객&nbsp;유입&nbsp;및&nbsp;체류형&nbsp;관광&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;편의·경관·특화시설&nbsp;확충으로&nbsp;구례만의&nbsp;매력적인&nbsp;관광&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;관광&nbsp;연계&nbsp;시스템&nbsp;운영으로&nbsp;지역경제와&nbsp;관광산업&nbsp;동반&nbsp;성장<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;연중&nbsp;꽃&nbsp;단지&nbsp;조성,&nbsp;전망대·포토존·야간경관&nbsp;명소&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;관광&nbsp;페이백·플리마켓&nbsp;운영으로&nbsp;소비&nbsp;촉진<br>&nbsp;&nbsp;○&nbsp;자전거·킥보드&nbsp;거점&nbsp;구축,&nbsp;서시천&nbsp;펫스테이션&nbsp;등&nbsp;반려동물&nbsp;공공시설&nbsp;마련<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년)&nbsp;:&nbsp;기본계획&nbsp;수립,&nbsp;시설&nbsp;설계,&nbsp;제도&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;중기(3~4년)&nbsp;:&nbsp;시설&nbsp;설치·운영&nbsp;시작,&nbsp;프로그램&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;장기(4년이상)&nbsp;:&nbsp;사업&nbsp;확대·정착,&nbsp;관광&nbsp;인프라&nbsp;전면&nbsp;완비<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;주요&nbsp;재원&nbsp;:&nbsp;국·도비&nbsp;보조금,&nbsp;군비,&nbsp;관광진흥기금<br>&nbsp;&nbsp;○&nbsp;재원&nbsp;관리&nbsp;:&nbsp;사업별&nbsp;분리&nbsp;관리,&nbsp;집행&nbsp;결과&nbsp;투명&nbsp;공개<br>&nbsp;&nbsp;○&nbsp;법적&nbsp;근거&nbsp;:&nbsp;「관광진흥법」,&nbsp;「지방재정법」&nbsp;등&nbsp;관련&nbsp;법령&nbsp;준수</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	구례형 문화관광재단 설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="구례형 문화관광재단 설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전문&nbsp;재단&nbsp;설립으로&nbsp;축제·상품&nbsp;개발&nbsp;전담&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;지리산·섬진강·화엄사&nbsp;연계&nbsp;통합상품으로&nbsp;체류형&nbsp;관광&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;성과관리&nbsp;및&nbsp;군민&nbsp;참여&nbsp;평가로&nbsp;책임&nbsp;있고&nbsp;투명한&nbsp;사업&nbsp;운영<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전문&nbsp;재단&nbsp;설립·운영,&nbsp;축제&nbsp;및&nbsp;특화&nbsp;상품&nbsp;전문&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;명소&nbsp;연계&nbsp;코스&nbsp;개발,&nbsp;통합&nbsp;관광상품&nbsp;기획·운영<br>&nbsp;&nbsp;○&nbsp;KPI&nbsp;설정,&nbsp;모바일&nbsp;기반&nbsp;군민&nbsp;참여형&nbsp;평가&nbsp;시스템&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년)&nbsp;:&nbsp;재단&nbsp;설립&nbsp;준비,&nbsp;상품&nbsp;기획,&nbsp;시스템&nbsp;설계<br>&nbsp;&nbsp;○&nbsp;중기(3~4년)&nbsp;:&nbsp;재단&nbsp;운영&nbsp;시작,&nbsp;상품&nbsp;출시,&nbsp;평가시스템&nbsp;본격&nbsp;가동<br>&nbsp;&nbsp;○&nbsp;장기(4년이상)&nbsp;:&nbsp;사업&nbsp;안정화,&nbsp;지속적&nbsp;상품&nbsp;개선&nbsp;및&nbsp;품질&nbsp;향상<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;주요&nbsp;재원&nbsp;:&nbsp;국·도비&nbsp;보조금,&nbsp;군비,&nbsp;민간&nbsp;출연금,&nbsp;관광수익금<br>&nbsp;&nbsp;○&nbsp;재원&nbsp;관리&nbsp;:&nbsp;별도&nbsp;회계&nbsp;운영,&nbsp;성과&nbsp;연계&nbsp;예산&nbsp;집행<br>&nbsp;&nbsp;○&nbsp;법적&nbsp;근거&nbsp;:&nbsp;「지방문화진흥법」,&nbsp;「관광진흥법」&nbsp;등&nbsp;관련&nbsp;법령&nbsp;준수</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김종무 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	구청장 직속「주택정비사업 신속 지원단」운영</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="구청장 직속「주택정비사업 신속 지원단」운영">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;&nbsp;<br>&nbsp;&lt;재건축·재개발&nbsp;속도를&nbsp;획기적으로&nbsp;높이겠습니다.><br>&nbsp;&nbsp;○&nbsp;현재&nbsp;강동구에는&nbsp;재건축·재개발&nbsp;등이&nbsp;다수&nbsp;진행되고&nbsp;있어,&nbsp;주택정비사업에&nbsp;대한&nbsp;관심도가&nbsp;&nbsp;매우&nbsp;높음<br>&nbsp;&nbsp;○&nbsp;명일·상일·성내ㆍ천호&nbsp;등&nbsp;재건축&nbsp;및&nbsp;재개발&nbsp;주택정비사업&nbsp;수요&nbsp;증가&nbsp;예상<br>&nbsp;&nbsp;○&nbsp;그동안&nbsp;재건축&nbsp;및&nbsp;재개발&nbsp;사업이&nbsp;속도감&nbsp;있게&nbsp;진행되지&nbsp;않는다는&nbsp;지적이&nbsp;있고&nbsp;,&nbsp;전담&nbsp;대응&nbsp;업무를&nbsp;담당하는&nbsp;기관의&nbsp;역할도&nbsp;부족해&nbsp;주택정비사업&nbsp;전담&nbsp;지원단&nbsp;신설&nbsp;필요<br>&nbsp;&nbsp;○&nbsp;구청장&nbsp;직속으로&nbsp;「주택정비사업&nbsp;신속&nbsp;지원단」신설&nbsp;,&nbsp;서울시ㆍ주민과의&nbsp;소통&nbsp;확대,&nbsp;갈등&nbsp;등&nbsp;사전&nbsp;조율로&nbsp;사업의&nbsp;속도&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;현재&nbsp;재개발·재건축&nbsp;추진&nbsp;상황&nbsp;점검&nbsp;이후&nbsp;추가&nbsp;재개발&nbsp;·&nbsp;재건축&nbsp;필요&nbsp;지역&nbsp;지정,&nbsp;업무&nbsp;범위&nbsp;대상&nbsp;등을&nbsp;충분히&nbsp;반영하여&nbsp;업무설계<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;경험과&nbsp;실력을&nbsp;갖춘&nbsp;전문가를&nbsp;헤드쿼터&nbsp;책임자로&nbsp;임명하고,&nbsp;전문가ㆍ관련&nbsp;부서장ㆍ이해관계인을&nbsp;포함하여&nbsp;협의창구를&nbsp;운영하되,&nbsp;구청장이&nbsp;최종&nbsp;책임자로서&nbsp;직접&nbsp;업무&nbsp;지휘&nbsp;감독<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;사업&nbsp;부서의&nbsp;기능을&nbsp;유지하되,&nbsp;공직자에&nbsp;대한&nbsp;법적&nbsp;책임&nbsp;때문에&nbsp;업무처리가&nbsp;경직되지&nbsp;않도록&nbsp;권한과&nbsp;책임에&nbsp;대해&nbsp;규정을&nbsp;마련할&nbsp;것임<br><br>□&nbsp;이행기간<br>&nbsp;○&nbsp;구청장&nbsp;당선&nbsp;직후&nbsp;첫&nbsp;번째&nbsp;업무로「주택정비사업&nbsp;신속&nbsp;지원단」신설<br>====================================================================<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;구&nbsp;분&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2026년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;2027년&nbsp;&nbsp;|&nbsp;2028년&nbsp;&nbsp;|&nbsp;2029년&nbsp;&nbsp;|&nbsp;2030년<br>-------------------------------------------------------------------------------------------------------------<br>&nbsp;「주택정비사업&nbsp;신속&nbsp;지원단」|&nbsp;&nbsp;-&nbsp;지원단&nbsp;신설&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정상&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;-&nbsp;추진계획&nbsp;수립&nbsp;&nbsp;&nbsp;|&nbsp;<br>====================================================================<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;(구비)&nbsp;강동구&nbsp;추경&nbsp;또는&nbsp;본예산안&nbsp;수립&nbsp;시&nbsp;관련&nbsp;사업예산&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	GTX-D노선 조기 착공</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="GTX-D노선 조기 착공">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;&nbsp;<br>&nbsp;&lt;사통팔달&nbsp;강동을&nbsp;만들겠습니다.><br>&nbsp;&nbsp;○&nbsp;그동안&nbsp;GTX-D&nbsp;노선&nbsp;강동&nbsp;경유를&nbsp;위한&nbsp;정책토론회를&nbsp;열고&nbsp;공동유치위원회를&nbsp;구성해&nbsp;10만&nbsp;명의&nbsp;주민&nbsp;서명을&nbsp;국토부&nbsp;장관에게&nbsp;직접&nbsp;전달하는&nbsp;등&nbsp;노선&nbsp;유치를&nbsp;위해&nbsp;직접&nbsp;발로&nbsp;뛰어왔음<br>&nbsp;&nbsp;○&nbsp;수도권과&nbsp;서울&nbsp;동서간&nbsp;교통&nbsp;이동&nbsp;편익증대,&nbsp;출퇴근&nbsp;혼잡완화을&nbsp;위해&nbsp;&nbsp;GTX-D&nbsp;조기&nbsp;착공&nbsp;노력<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;(국토부&nbsp;발표)&nbsp;현재&nbsp;GTX-D&nbsp;노선이&nbsp;강동을&nbsp;경유하는&nbsp;것까지&nbsp;확정된&nbsp;상황<br>&nbsp;&nbsp;○&nbsp;「국가철도망&nbsp;구축계획」에&nbsp;포함돼야&nbsp;본격적으로&nbsp;사업이&nbsp;시작되는&nbsp;됨.&nbsp;국토교통부·서울시&nbsp;등&nbsp;관련&nbsp;기관장&nbsp;면담을&nbsp;통해&nbsp;진행&nbsp;상황을&nbsp;체크하고,&nbsp;상시&nbsp;점검체계&nbsp;유지<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;구청장&nbsp;당선&nbsp;직후부터&nbsp;GTX-D&nbsp;조기&nbsp;착공&nbsp;시까지<br>=========================================================================<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;구&nbsp;분&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2026년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2027년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;2028년&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;2029년&nbsp;&nbsp;|&nbsp;2030년<br>---------------------------------------------------------------------------------------------------------------------<br>GTX-D노선&nbsp;조기&nbsp;착공&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;-&nbsp;진행&nbsp;상황&nbsp;점검&nbsp;&nbsp;&nbsp;|&nbsp;-&nbsp;&nbsp;지원방안&nbsp;마련&nbsp;|&nbsp;-&nbsp;조기&nbsp;착공&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;-&nbsp;관련&nbsp;기관&nbsp;면담&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>=========================================================================<br>&nbsp;<br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;(국비)&nbsp;국회&nbsp;건의&nbsp;및&nbsp;협의를&nbsp;통해&nbsp;GTX-D&nbsp;조기&nbsp;착공&nbsp;위한&nbsp;국비&nbsp;예산&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	365 긴급 아이돌봄 센터 권역별 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="365 긴급 아이돌봄 센터 권역별 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;&nbsp;<br>&nbsp;&lt;안심하고&nbsp;아이를&nbsp;맡길&nbsp;수&nbsp;있는&nbsp;강동을&nbsp;만들겠습니다.><br>&nbsp;&nbsp;○&nbsp;재건축&nbsp;·재개발로&nbsp;인해&nbsp;젊은&nbsp;맞벌이&nbsp;부부가&nbsp;많이&nbsp;유입돼&nbsp;돌봄&nbsp;수요&nbsp;증가&nbsp;추세<br>&nbsp;&nbsp;○&nbsp;아이를&nbsp;키우는&nbsp;맞벌이&nbsp;부모의&nbsp;경우&nbsp;급하게&nbsp;아이를&nbsp;맡기고&nbsp;업무&nbsp;또는&nbsp;외출&nbsp;등을&nbsp;해야&nbsp;하는&nbsp;불가피한&nbsp;상황을&nbsp;자주&nbsp;직면<br>&nbsp;&nbsp;○&nbsp;현재&nbsp;천호동에&nbsp;서울시의&nbsp;지원을&nbsp;받아&nbsp;365&nbsp;긴급&nbsp;아이돌봄&nbsp;센터가&nbsp;운영&nbsp;중에&nbsp;있으나,&nbsp;인구가&nbsp;50만명을&nbsp;넘는&nbsp;것을&nbsp;고려할&nbsp;때&nbsp;수요&nbsp;증가가&nbsp;불가피&nbsp;할&nbsp;것으로&nbsp;보임<br>&nbsp;&nbsp;○&nbsp;따라서&nbsp;365일&nbsp;아이를&nbsp;긴급하게&nbsp;돌봐줄&nbsp;수&nbsp;있는&nbsp;센터를&nbsp;권역별로&nbsp;설치하고자&nbsp;함<br>&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시와&nbsp;협의하여&nbsp;시설비,&nbsp;운영비에&nbsp;대한&nbsp;지원과&nbsp;분담을&nbsp;요청하여&nbsp;수요에&nbsp;부응<br>&nbsp;&nbsp;○&nbsp;협의완료&nbsp;전이라도&nbsp;구비를&nbsp;마련하여&nbsp;고덕·강일&nbsp;권역과&nbsp;둔촌·성내&nbsp;권역에&nbsp;1개소씩&nbsp;추가&nbsp;설치에&nbsp;적극&nbsp;노력하고자&nbsp;함<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;구청장&nbsp;당선&nbsp;직후부터&nbsp;365&nbsp;긴급아이돌봄센터&nbsp;설치&nbsp;시까지<br>=============================================================================<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;구&nbsp;분&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2026년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2027년&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;2028년&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;2029년&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;2030년<br>---------------------------------------------------------------------------------------------------------------------------<br>&nbsp;365&nbsp;긴급&nbsp;아이돌봄&nbsp;센터&nbsp;설치&nbsp;&nbsp;|&nbsp;&nbsp;-&nbsp;상황&nbsp;점검&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;-&nbsp;예산안&nbsp;편성&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정상&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;-&nbsp;추진계획&nbsp;수립&nbsp;&nbsp;|&nbsp;-&nbsp;설치및운영&nbsp;&nbsp;&nbsp;|<br>=============================================================================<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;(시비·구비)&nbsp;서울시와&nbsp;강동구&nbsp;본예산안&nbsp;수립&nbsp;시&nbsp;365&nbsp;긴급&nbsp;아이돌봄&nbsp;센터&nbsp;설치&nbsp;예산&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	강동종합실내체육관 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="강동종합실내체육관 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;&nbsp;<br>&nbsp;&lt;스포츠를&nbsp;더&nbsp;넓고&nbsp;쾌적하게&nbsp;즐길&nbsp;수&nbsp;있도록&nbsp;준비하겠습니다.><br>&nbsp;&nbsp;○&nbsp;강동구&nbsp;내&nbsp;공공체육시설은&nbsp;수영장,&nbsp;체육도장,&nbsp;골프연습장&nbsp;등&nbsp;종목별&nbsp;개별&nbsp;시설로&nbsp;설치됨<br>&nbsp;&nbsp;○&nbsp;다양한&nbsp;스포츠&nbsp;활동을&nbsp;한&nbsp;곳에서&nbsp;즐길&nbsp;수&nbsp;있는&nbsp;종합실내체육관&nbsp;형태&nbsp;인프라&nbsp;부재<br>&nbsp;&nbsp;○&nbsp;특히&nbsp;최근&nbsp;고덕·강일지구&nbsp;등&nbsp;대규모&nbsp;신규&nbsp;아파트&nbsp;단지의&nbsp;입주가&nbsp;이어지면서&nbsp;인구가&nbsp;지속적으로&nbsp;유입되고&nbsp;있으며&nbsp;이에&nbsp;따라&nbsp;생활&nbsp;체육&nbsp;시설에&nbsp;대한&nbsp;주민들의&nbsp;수요&nbsp;급격히&nbsp;증가<br>&nbsp;&nbsp;○&nbsp;배드민턴협회&nbsp;등&nbsp;생활체육&nbsp;단체들은&nbsp;강동구&nbsp;내에&nbsp;대회를&nbsp;치를&nbsp;수&nbsp;있는&nbsp;규모의&nbsp;체육시설이&nbsp;없어&nbsp;남양주,&nbsp;송파&nbsp;잠실체육관&nbsp;등에서&nbsp;대회를&nbsp;개최하고&nbsp;있음<br>&nbsp;&nbsp;○&nbsp;기관협의를&nbsp;통해&nbsp;고덕강일2지구&nbsp;체육시설&nbsp;부지&nbsp;확대&nbsp;추진,&nbsp;&nbsp;그&nbsp;외&nbsp;고덕차량사업소,&nbsp;강일차고지&nbsp;등에&nbsp;대한&nbsp;활용안을&nbsp;종합적으로&nbsp;검토하여&nbsp;추진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;민간자본&nbsp;유치,&nbsp;중앙정부·서울시와의&nbsp;협력&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;구청장&nbsp;당선&nbsp;직후부터&nbsp;강동종합실내체육관&nbsp;착공&nbsp;시까지<br>=================================================================================<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;구&nbsp;분&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2026년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2027년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;2028년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;2029년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;2030년<br>----------------------------------------------------------------------------------------------------------------------------------<br>강동종합실내체육관&nbsp;건립&nbsp;&nbsp;&nbsp;|&nbsp;-&nbsp;부지&nbsp;확보&nbsp;노력&nbsp;&nbsp;&nbsp;|&nbsp;-&nbsp;타당성&nbsp;조사&nbsp;&nbsp;|&nbsp;&nbsp;-&nbsp;설계&nbsp;시행&nbsp;&nbsp;&nbsp;|&nbsp;-&nbsp;공사&nbsp;착공&nbsp;&nbsp;&nbsp;&nbsp;|<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;-&nbsp;추진계획&nbsp;수립&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;-&nbsp;설계&nbsp;공모&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>=================================================================================<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;(국비·시비·구비)&nbsp;국비&nbsp;예산편성&nbsp;과정과&nbsp;서울시·강동구&nbsp;본예산&nbsp;편성시&nbsp;강동종합실내체육관&nbsp;건립&nbsp;예산&nbsp;확보&nbsp;노력<br>&nbsp;&nbsp;○&nbsp;장기임대&nbsp;및&nbsp;운영권을&nbsp;담보로&nbsp;민자&nbsp;투자&nbsp;적극&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	둘레길 테마숲길 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="둘레길 테마숲길 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&lt;명품&nbsp;테마숲길로&nbsp;삶의&nbsp;질을&nbsp;높이겠습니다.><br>&nbsp;&nbsp;○&nbsp;고덕근린공원·명일근린공원·일자산은&nbsp;강동의&nbsp;핵심&nbsp;녹지&nbsp;자산이나&nbsp;도로와&nbsp;주거지로&nbsp;인해&nbsp;생태&nbsp;흐름&nbsp;및&nbsp;보행&nbsp;동선이&nbsp;단절된&nbsp;상태<br>&nbsp;&nbsp;○&nbsp;단순한&nbsp;산책로를&nbsp;넘어,&nbsp;각&nbsp;공원의&nbsp;특색을&nbsp;살린&nbsp;테마를&nbsp;부여하여&nbsp;구민들에게&nbsp;고품격&nbsp;휴식&nbsp;공간&nbsp;제공<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;녹지축&nbsp;수직&nbsp;연결&nbsp;:&nbsp;고덕근린공원~명일근린공원~일자산공원을&nbsp;잇는&nbsp;단절&nbsp;구간에&nbsp;에코브릿지(생태통로)&nbsp;및&nbsp;공중&nbsp;무장애&nbsp;보행&nbsp;데크&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;&nbsp;3대&nbsp;거점별&nbsp;맞춤형&nbsp;테마&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;고덕권(치유의숲)&nbsp;:&nbsp;숲속&nbsp;명상&nbsp;공간&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;명일권(문화의숲)&nbsp;:&nbsp;인근&nbsp;학교&nbsp;및&nbsp;주거지와&nbsp;연계한&nbsp;숲속&nbsp;도서관,&nbsp;야외&nbsp;갤러리&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;일자산권(활력의숲)&nbsp;:&nbsp;기존&nbsp;인프라&nbsp;활용한&nbsp;스마트&nbsp;야간&nbsp;산책로&nbsp;및&nbsp;무장애&nbsp;숲길&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;맨발&nbsp;걷기&nbsp;힐링&nbsp;로드&nbsp;확충&nbsp;:&nbsp;최근&nbsp;중장년층&nbsp;수요가&nbsp;있는&nbsp;‘황톳길&nbsp;및&nbsp;맨발&nbsp;산책로’를&nbsp;각&nbsp;테마숲길&nbsp;주요&nbsp;구간에&nbsp;배치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;숲길&nbsp;접근성&nbsp;업그레이드&nbsp;:&nbsp;아파트&nbsp;단지나&nbsp;골목길에서&nbsp;숲길로&nbsp;바로&nbsp;진입할&nbsp;수&nbsp;있는&nbsp;‘동네&nbsp;연결&nbsp;샛길’&nbsp;정비&nbsp;및&nbsp;안내&nbsp;체계&nbsp;통합<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;구청장&nbsp;당선&nbsp;직후부터&nbsp;테마숲길&nbsp;개발시까지<br>=========================================================================<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;구&nbsp;분&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2026년&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;2027년&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;2028년&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;2029년&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;2030년<br>---------------------------------------------------------------------------------------------------------------------<br>「둘레길&nbsp;테마숲길&nbsp;개발」&nbsp;|&nbsp;-&nbsp;추진계획&nbsp;수립&nbsp;&nbsp;|&nbsp;1단계&nbsp;시행&nbsp;&nbsp;|&nbsp;2단계&nbsp;시행&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;관리&nbsp;운영<br>=========================================================================&nbsp;<br><br>□&nbsp;재원조달방안<br>&nbsp;&nbsp;○&nbsp;(시비·구비)&nbsp;서울시와&nbsp;강동구&nbsp;본예산&nbsp;편성시&nbsp;테마숲길&nbsp;조성&nbsp;예산&nbsp;확보</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

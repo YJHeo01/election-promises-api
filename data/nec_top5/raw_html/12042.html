@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;남한권 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	울릉공항으로 열어젖힐 전천후 교통 혁명</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="울릉공항으로 열어젖힐 전천후 교통 혁명">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;하늘길이&nbsp;열려&nbsp;내륙과&nbsp;1시간&nbsp;생활권이&nbsp;연결되고,&nbsp;언제든&nbsp;육지를&nbsp;오갈&nbsp;수&nbsp;있도록&nbsp;'섬의&nbsp;한계'가&nbsp;사라진&nbsp;울릉도&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;저동∼도동∼사동간&nbsp;도심교통형&nbsp;곤돌라(로프택시)&nbsp;설치<br>&nbsp;&nbsp;○&nbsp;북극항로&nbsp;대비&nbsp;국제크루즈&nbsp;및&nbsp;국제물류&nbsp;유치를&nbsp;위한&nbsp;사동항&nbsp;3단계&nbsp;건설&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;울릉공항&nbsp;배후부지(상업·유통&nbsp;멀티허브)&nbsp;개발&nbsp;및&nbsp;도시계획&nbsp;개정비<br>&nbsp;&nbsp;○&nbsp;저동항&nbsp;∼&nbsp;속초항&nbsp;여객선&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;연안여객선&nbsp;공영제&nbsp;및&nbsp;국가보조항로&nbsp;지정&nbsp;도입&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;'울릉도&nbsp;등&nbsp;먼섬지원&nbsp;특별법'&nbsp;및&nbsp;'해운법'&nbsp;개정(현재&nbsp;국회&nbsp;계류중)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;울릉해상교통공사(가칭)&nbsp;설립&nbsp;및&nbsp;인프라&nbsp;구축&nbsp;등<br>&nbsp;&nbsp;○&nbsp;심야&nbsp;시간&nbsp;전용&nbsp;자율주행&nbsp;콜버스&nbsp;운행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;12인승&nbsp;자율주행&nbsp;전기&nbsp;셔틀버스&nbsp;도입&nbsp;및&nbsp;스마트&nbsp;호출시스템,&nbsp;통합관제센터&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;공항/항만-숙소&nbsp;다이렉트&nbsp;배송&nbsp;서비스&nbsp;'스마트&nbsp;수화물&nbsp;패스'&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;스마트&nbsp;물류&nbsp;배송&nbsp;앱&nbsp;및&nbsp;관제&nbsp;시스템&nbsp;IT&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공항,&nbsp;항만&nbsp;수화물&nbsp;위탁&nbsp;카운터&nbsp;및&nbsp;스마트&nbsp;보관함&nbsp;조성,&nbsp;전용&nbsp;배송차량&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;항공·선박&nbsp;결항&nbsp;대비&nbsp;체류객&nbsp;지원&nbsp;스마트&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;위기대응&nbsp;앱&nbsp;개발&nbsp;및&nbsp;키오스크,&nbsp;상황판,&nbsp;콜센터&nbsp;인력&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;태하-현포웅포간&nbsp;터널&nbsp;건설<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br>&nbsp;&nbsp;○&nbsp;사동항3단계의&nbsp;경우&nbsp;2040&nbsp;까지<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;울릉도&nbsp;등&nbsp;먼섬지원&nbsp;특별법과&nbsp;제5차&nbsp;섬종합발전계획을&nbsp;활용하여&nbsp;국도비&nbsp;재원조달<br>&nbsp;&nbsp;○&nbsp;인구소멸대응기금과&nbsp;사업별&nbsp;해당&nbsp;공모사업을&nbsp;반영하여&nbsp;국도비&nbsp;재원조달</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	특별법으로 채워나가는 든든한 정주환경 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="특별법으로 채워나가는 든든한 정주환경 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;국가적&nbsp;지원의&nbsp;법적&nbsp;의무화로&nbsp;전&nbsp;분야에&nbsp;대한&nbsp;내륙&nbsp;수준의&nbsp;기본권을&nbsp;당당히&nbsp;누리는&nbsp;울릉&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;울룽도&nbsp;먼섬지원&nbsp;특별법&nbsp;개정을&nbsp;통한&nbsp;먼섬&nbsp;지킴이&nbsp;수당(정주지원금)&nbsp;지급&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;'울릉도&nbsp;등&nbsp;먼섬지원&nbsp;특별법'&nbsp;개정(현재&nbsp;국회&nbsp;계류중)<br>&nbsp;&nbsp;○&nbsp;소형항공기&nbsp;전용&nbsp;면세구역&nbsp;지정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;’울릉도&nbsp;등&nbsp;먼섬지원&nbsp;특별법'&nbsp;개정(현재&nbsp;국회&nbsp;계류중)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;면세구역&nbsp;기본&nbsp;공간&nbsp;및&nbsp;프리미엄&nbsp;인테리어&nbsp;조성,&nbsp;관세청&nbsp;연계&nbsp;통합&nbsp;IT관리&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;장기&nbsp;체류형&nbsp;직장인&nbsp;수요&nbsp;창출을&nbsp;위한&nbsp;기업형&nbsp;워케이션&nbsp;센터&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;내륙&nbsp;수준의&nbsp;가격&nbsp;실현을&nbsp;위한&nbsp;생필품&nbsp;물류비&nbsp;지원&nbsp;대폭&nbsp;상향<br>&nbsp;&nbsp;○&nbsp;도서맞춤형&nbsp;스마트물류&nbsp;배송시스템&nbsp;'울릉드론&nbsp;익스프레스'&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;거점&nbsp;드론&nbsp;배송센터&nbsp;및&nbsp;무인배달함&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;울릉도&nbsp;맞춤형&nbsp;특수&nbsp;드론&nbsp;개발&nbsp;및&nbsp;스마트&nbsp;관제실,&nbsp;전용&nbsp;호출앱&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;임산물&nbsp;6차&nbsp;산업화&nbsp;스마트&nbsp;가공센터&nbsp;건립&nbsp;및&nbsp;산림개조&nbsp;특화사업&nbsp;실시<br>&nbsp;&nbsp;○&nbsp;명품&nbsp;산채나물&nbsp;품질&nbsp;등급제도입과&nbsp;대형유통센터&nbsp;건립으로&nbsp;고급화&nbsp;판매전략&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;생활체육공원/군민통합체육관&nbsp;건설<br>&nbsp;&nbsp;○&nbsp;천연바다&nbsp;양식장&nbsp;기르는&nbsp;어업&nbsp;고부가가치&nbsp;수산물/국제낚시터,&nbsp;해상레저,&nbsp;관광명소<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대형실내&nbsp;양식장,&nbsp;해수&nbsp;취수관로,&nbsp;Al순환여과식&nbsp;스마트&nbsp;수조&nbsp;구축,&nbsp;고부가가치&nbsp;품종&nbsp;배양<br>&nbsp;&nbsp;○&nbsp;경제력을&nbsp;갖춘&nbsp;은퇴자&nbsp;및&nbsp;시니어&nbsp;맞춤형&nbsp;장기&nbsp;체류&nbsp;마을&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;남양,&nbsp;통구미&nbsp;해수욕장&nbsp;특화사업&nbsp;및&nbsp;구암&nbsp;캠핑대단지&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;울릉도&nbsp;등&nbsp;먼섬지원&nbsp;특별법에&nbsp;따른&nbsp;제1차&nbsp;종합발전계획(2026~2030)&nbsp;반영&nbsp;후&nbsp;재원조달<br>&nbsp;&nbsp;○&nbsp;제5차&nbsp;섬종합발전계획(2027~2036)&nbsp;시행에&nbsp;따른&nbsp;사업&nbsp;반영&nbsp;후&nbsp;재원조달<br>&nbsp;&nbsp;○&nbsp;인구감소지역&nbsp;특별법에&nbsp;따른&nbsp;인구소멸대응기금&nbsp;및&nbsp;해당&nbsp;공모사업&nbsp;반영&nbsp;후&nbsp;재원조달</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	머무르는 자연생태 관쾅시대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="머무르는 자연생태 관쾅시대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전&nbsp;세계가&nbsp;주목하는&nbsp;생태&nbsp;관쾅의&nbsp;메카로&nbsp;거듭나고,&nbsp;관광&nbsp;수익이&nbsp;마을&nbsp;지주회사를&nbsp;통해&nbsp;지역&nbsp;자본으로&nbsp;선순환되어&nbsp;군민&nbsp;소득&nbsp;증가&nbsp;및&nbsp;경제적&nbsp;자생력&nbsp;확장<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;K-관광섬&nbsp;생태관광&nbsp;본격화,&nbsp;에메랄드&nbsp;로드(트래킹코스&nbsp;재정비)&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;축제&nbsp;대전환!&nbsp;에메랄드&nbsp;페스타&nbsp;개최(하이킹,&nbsp;카약킹,&nbsp;프리다이빙&nbsp;대회&nbsp;등）<br>&nbsp;&nbsp;○&nbsp;야간관광&nbsp;특화&nbsp;콘텐츠&nbsp;및&nbsp;미디어아트&nbsp;숲길&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;친환경&nbsp;빔프로젝터&nbsp;및&nbsp;특수&nbsp;조명,&nbsp;센서&nbsp;설치와&nbsp;을릉&nbsp;맞춤형&nbsp;3D&nbsp;미디어아트&nbsp;콘텐츠&nbsp;제작<br>&nbsp;&nbsp;○&nbsp;해양쓰레기&nbsp;업사이클링&nbsp;복합센터&nbsp;건립&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자원순환&nbsp;공장&nbsp;및&nbsp;체험센터,&nbsp;해양쓰레기&nbsp;전처리&nbsp;및&nbsp;업사이클링&nbsp;자동화&nbsp;라인&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;멸종위기&nbsp;고유&nbsp;회귀&nbsp;식물자원&nbsp;보존&nbsp;스마트&nbsp;식물원&nbsp;건립&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;을릉도&nbsp;기후&nbsp;맞춤형&nbsp;에코돔,&nbsp;고유종&nbsp;증식&nbsp;및&nbsp;제어&nbsp;시스템,&nbsp;생태&nbsp;테마&nbsp;조경&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;남-북,&nbsp;깃대봉,&nbsp;나리&nbsp;등&nbsp;관광&nbsp;케이블카&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특수&nbsp;토목&nbsp;및&nbsp;궤도&nbsp;공사,&nbsp;친환경&nbsp;케이블카&nbsp;도입,&nbsp;테마형&nbsp;정거장&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;저동항&nbsp;어촌&nbsp;복합&nbsp;관광타운&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;나리분지&nbsp;국립&nbsp;숲&nbsp;체원&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;관·민&nbsp;공동&nbsp;출자·투자하는&nbsp;’마을&nbsp;지주회사(울릉&nbsp;유니콘)'&nbsp;설립<br>&nbsp;&nbsp;○&nbsp;주말장터&nbsp;및&nbsp;울릉&nbsp;농수산특산물&nbsp;야외&nbsp;먹거리시장&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;카지노유치<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내/카지노&nbsp;유치는&nbsp;대구·경북&nbsp;행정통합&nbsp;추친후<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;울릉도&nbsp;등&nbsp;먼섬지원&nbsp;특별법에&nbsp;따른&nbsp;제1차&nbsp;종합발전계획(2026~2030)&nbsp;반영&nbsp;후&nbsp;재원조달<br>&nbsp;&nbsp;○&nbsp;제5차&nbsp;섬종합발전계획(2027~2036)&nbsp;시행에&nbsp;따른&nbsp;사업&nbsp;반영&nbsp;후&nbsp;재원조달<br>&nbsp;&nbsp;○&nbsp;인구감소지역&nbsp;특별법에&nbsp;따른&nbsp;인구소멸대응기금&nbsp;및&nbsp;해당&nbsp;공모사업&nbsp;반영&nbsp;후&nbsp;재원조달</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	스마트 에너지로 밝혀질 자립형 안심 도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="스마트 에너지로 밝혀질 자립형 안심 도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;친환경&nbsp;에너지&nbsp;자립과&nbsp;마을&nbsp;구석구석&nbsp;AI&nbsp;스마트&nbsp;시스템&nbsp;도입으로&nbsp;쾌적한&nbsp;주거&nbsp;환경&nbsp;및&nbsp;지속가능한&nbsp;미래형&nbsp;스마트&nbsp;시티&nbsp;조성&nbsp;<br><br>□&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;○&nbsp;울룽맞춤형&nbsp;초소형원자로(MMR)&nbsp;국가시범단지&nbsp;추진&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;한국전력&nbsp;MOU체결&nbsp;정부주도&nbsp;시범단지&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;융합&nbsp;스마트&nbsp;도로&nbsp;안전망&nbsp;구축&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취약구간&nbsp;스마트&nbsp;센서&nbsp;및&nbsp;실시간&nbsp;경고&nbsp;전광판&nbsp;설치&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Al&nbsp;통합관제센터&nbsp;및&nbsp;재난&nbsp;예측&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;해양수호&nbsp;드론&nbsp;순찰대&nbsp;운영&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;울릉도&nbsp;맞춤형&nbsp;내풍성&nbsp;구명드론&nbsp;및&nbsp;스테이션&nbsp;도입&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지능형&nbsp;영상&nbsp;분석&nbsp;Al&nbsp;및&nbsp;해경&nbsp;관제&nbsp;연동&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;마을단위&nbsp;LPG배관망&nbsp;사업&nbsp;및&nbsp;알뜰주유소&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;공공임대형&nbsp;주택&nbsp;400호&nbsp;건립&nbsp;및&nbsp;공공형&nbsp;택지개발(만원주택)&nbsp;100호&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;태하,&nbsp;현포항&nbsp;요트&nbsp;계류장&nbsp;등&nbsp;해양&nbsp;레저시설&nbsp;국제&nbsp;마리나항&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;울릉도&nbsp;등&nbsp;먼섬지원&nbsp;특별법에&nbsp;따른&nbsp;제1차&nbsp;종합발전계획(2026~2030)&nbsp;반영&nbsp;후&nbsp;재원조달<br>&nbsp;&nbsp;○&nbsp;제5차&nbsp;섬종합발전계획(2027~2036)&nbsp;시행에&nbsp;따른&nbsp;사업&nbsp;반영&nbsp;후&nbsp;재원조달<br>&nbsp;&nbsp;○&nbsp;인구감소지역&nbsp;특별법에&nbsp;따른&nbsp;인구소멸대응기금&nbsp;및&nbsp;해당&nbsp;공모사업&nbsp;반영&nbsp;후&nbsp;재원조달<br>&nbsp;&nbsp;○&nbsp;대구경북행정통합&nbsp;특별법에&nbsp;따른&nbsp;에너지&nbsp;특례사업&nbsp;반영&nbsp;후&nbsp;재원조달</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	전섕애 돌봄으로 활력 넘치는 복</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="전섕애 돌봄으로 활력 넘치는 복">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;태어나서&nbsp;백세까치&nbsp;책임지는&nbsp;복지쳬계&nbsp;구축으로&nbsp;아이,&nbsp;청년,&nbsp;어르신&nbsp;모두&nbsp;어우러진&nbsp;울릉&nbsp;조성<br><br>□&nbsp;이행방법&nbsp;<br>&nbsp;&nbsp;1.&nbsp;공통<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;보건의료원&nbsp;치료&nbsp;불가&nbsp;시&nbsp;내륙병원&nbsp;이동을&nbsp;위한&nbsp;숙박비&nbsp;등&nbsp;2박3일&nbsp;체류비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;내륙병뭔&nbsp;협약&nbsp;강화&nbsp;및&nbsp;보건의료원&nbsp;기능&nbsp;향상<br>&nbsp;&nbsp;2.&nbsp;영유아<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;공동&nbsp;육아·돌봄&nbsp;복합커뮤니티&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;전문&nbsp;산후도우미&nbsp;지원&nbsp;및&nbsp;대형&nbsp;장난감&nbsp;무상대여,&nbsp;자외선&nbsp;멸균&nbsp;배달<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;동절기&nbsp;여객선&nbsp;결항&nbsp;대비&nbsp;분유,&nbsp;기저귀,&nbsp;해열제&nbsp;등&nbsp;영유아&nbsp;필수품&nbsp;비축센터&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;영유아&nbsp;정기검진,&nbsp;내륙&nbsp;대형&nbsp;문화시설&nbsp;방문을&nbsp;위한&nbsp;나들이&nbsp;패스권&nbsp;지급<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;울릉도&nbsp;친환경&nbsp;자연을&nbsp;활용한&nbsp;'숲&nbsp;속&nbsp;유치원'&nbsp;활성화&nbsp;<br>&nbsp;&nbsp;3.&nbsp;청소년<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;인재육성재단&nbsp;고도화를&nbsp;통한&nbsp;장학금&nbsp;확대,&nbsp;글로벌&nbsp;연수&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;청소년&nbsp;꿈&nbsp;키움&nbsp;용돈&nbsp;지급(청소년&nbsp;기본소득)<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;강남&nbsp;일타강사&nbsp;온라인&nbsp;국제학교&nbsp;교육체계&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;실내&nbsp;암벽등반,&nbsp;풋살장,&nbsp;야구연습장,&nbsp;VR스포츠&nbsp;등&nbsp;청소년&nbsp;전용&nbsp;스포츠&nbsp;클럽&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;해외&nbsp;자매도시,&nbsp;국제기구&nbsp;등&nbsp;독도&nbsp;수호를&nbsp;위한&nbsp;청소년&nbsp;대사관&nbsp;파견<br>&nbsp;&nbsp;4.&nbsp;청년&nbsp;및&nbsp;신혼부부,&nbsp;중장년층<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;공항&nbsp;인근&nbsp;주거,&nbsp;업무&nbsp;문화가&nbsp;결합된&nbsp;현대적&nbsp;주상복합&nbsp;건립<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;청년을&nbsp;위한&nbsp;전월세&nbsp;보증금&nbsp;최대&nbsp;1억&nbsp;원&nbsp;안심&nbsp;대출&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;빈&nbsp;점포&nbsp;및&nbsp;폐창고&nbsp;리모델링&nbsp;후&nbsp;청년&nbsp;무상임대&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;다양한&nbsp;취미생활&nbsp;공유를&nbsp;위한&nbsp;'달빛&nbsp;다방'&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;은퇴&nbsp;전&nbsp;관광가이드,&nbsp;드론정비&nbsp;등&nbsp;인생&nbsp;2막을&nbsp;위한&nbsp;맞춤형&nbsp;기술&nbsp;교육&nbsp;지원&nbsp;<br>&nbsp;&nbsp;5.&nbsp;어르신<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;대형&nbsp;세탁,&nbsp;건조&nbsp;트럭&nbsp;마을&nbsp;정기&nbsp;순회&nbsp;및&nbsp;안부&nbsp;확인&nbsp;서비스&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;어르신&nbsp;댁내&nbsp;미끄럼&nbsp;방지&nbsp;타일&nbsp;및&nbsp;욕조&nbsp;옆&nbsp;손잡이&nbsp;무상&nbsp;시공<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;사투리&nbsp;인식&nbsp;가능한&nbsp;Al반려&nbsp;로봇&nbsp;및&nbsp;정해진&nbsp;시간&nbsp;약&nbsp;배출,&nbsp;섭취&nbsp;확인가능한&nbsp;스마트&nbsp;약통&nbsp;보급<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;실시간&nbsp;심박수,&nbsp;혈압,&nbsp;낙상&nbsp;감지가&nbsp;가능한&nbsp;스마트&nbsp;워치&nbsp;지급&nbsp;및&nbsp;의료원&nbsp;연동<br>&nbsp;&nbsp;&nbsp;&nbsp;○&nbsp;어르신&nbsp;삶의&nbsp;지혜와&nbsp;역사를&nbsp;기록으로&nbsp;남기는&nbsp;영상&nbsp;제작&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;울릉도&nbsp;등&nbsp;먼섬지원&nbsp;특별법에&nbsp;따른&nbsp;제1차&nbsp;종합발전계획(2026~2030)&nbsp;반영&nbsp;후&nbsp;재원조달<br>&nbsp;&nbsp;○&nbsp;제5차&nbsp;섬종합발전계획(2027~2036)&nbsp;시행에&nbsp;따른&nbsp;사업&nbsp;반영&nbsp;후&nbsp;재원조달<br>&nbsp;&nbsp;○&nbsp;인구감소지역&nbsp;특별법에&nbsp;따른&nbsp;인구소멸대응기금&nbsp;및&nbsp;해당&nbsp;공모사업&nbsp;반영&nbsp;후&nbsp;재원조달</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

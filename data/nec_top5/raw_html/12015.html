@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;강명상 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	[경제] 창원 경제 엔진 재점화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="[경제] 창원 경제 엔진 재점화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;방산산업&nbsp;및&nbsp;방산부품&nbsp;산업&nbsp;육성<br><br>[목표]&nbsp;<br>세계가&nbsp;찾는&nbsp;‘글로벌&nbsp;방산수도’로&nbsp;육성하여,&nbsp;미래&nbsp;방산&nbsp;경제&nbsp;중심도시를&nbsp;완성하겠습니다.<br>[이행방법]&nbsp;<br>-&nbsp;KOTRA&nbsp;창원지역본부를&nbsp;유치하여&nbsp;해외&nbsp;마케팅부터&nbsp;계약·통관까지&nbsp;원스톱&nbsp;수출&nbsp;지원&nbsp;체계를&nbsp;구축<br>-&nbsp;핵심&nbsp;부품&nbsp;국산화를&nbsp;주도할&nbsp;‘방산부품연구원’을&nbsp;반드시&nbsp;유치하여&nbsp;기술&nbsp;자립도를&nbsp;높이겠습니다.<br>-&nbsp;대기업-중소&nbsp;부품사&nbsp;간&nbsp;기술&nbsp;공유를&nbsp;지원하는&nbsp;‘창원형&nbsp;방산&nbsp;상생&nbsp;클러스터’를&nbsp;조성하겠습니다.<br>[이행기간]&nbsp;2026년&nbsp;~&nbsp;임기&nbsp;내&nbsp;지속<br>[재원조달]&nbsp;국비(산자부·방사청)&nbsp;우선&nbsp;확보<br><br>2.&nbsp;마산해양신도시&nbsp;미래산업&nbsp;거점화<br><br>[목표]&nbsp;대한민국&nbsp;대표&nbsp;‘e스포츠&nbsp;및&nbsp;디지털&nbsp;콘텐츠&nbsp;혁신&nbsp;거점’으로&nbsp;육성하여,&nbsp;마산의&nbsp;새로운&nbsp;미래&nbsp;성장&nbsp;엔진으로&nbsp;만들겠습니다.<br>[이행방법]&nbsp;<br>-&nbsp;국내외&nbsp;대형&nbsp;게임사&nbsp;및&nbsp;영상·웹툰&nbsp;기업&nbsp;유치를&nbsp;위해&nbsp;파격적&nbsp;세제&nbsp;혜택과&nbsp;임대료&nbsp;지원하겠습니다.<br>-&nbsp;글로벌&nbsp;e스포츠&nbsp;아레나를&nbsp;건립하여&nbsp;연중&nbsp;상시&nbsp;대회를&nbsp;개최하겠습니다.&nbsp;<br>-&nbsp;마창대교와&nbsp;원도심의&nbsp;야경을&nbsp;관광&nbsp;자산으로&nbsp;재구성하겠습니다.<br>-&nbsp;한류&nbsp;테마&nbsp;관광정원,&nbsp;해양레저를&nbsp;결합해&nbsp;체류형&nbsp;K-컬쳐&nbsp;관광&nbsp;거점으로&nbsp;만들겠습니다.<br>[이행기간]&nbsp;2026년&nbsp;~&nbsp;2030년&nbsp;<br>[재원조달]&nbsp;문체부&nbsp;국비&nbsp;공모&nbsp;및&nbsp;도비&nbsp;확보,&nbsp;민간&nbsp;게임사&nbsp;투자&nbsp;유치(민관합동&nbsp;개발&nbsp;방식)<br><br>3.&nbsp;피지컬&nbsp;AI&nbsp;실증&nbsp;허브&nbsp;구축&nbsp;및&nbsp;기업&nbsp;유치<br><br>[목표]&nbsp;피지컬&nbsp;AI&nbsp;산업도시로&nbsp;재도약&nbsp;하겠습니다.<br>[이행방법]&nbsp;<br>-&nbsp;글로벌&nbsp;AI&nbsp;제조기업&nbsp;유치&nbsp;프로젝트를&nbsp;본격화하겠습니다.<br>-&nbsp;피지컬&nbsp;AI&nbsp;실증&nbsp;허브&nbsp;중심&nbsp;지역&nbsp;컨소시엄&nbsp;확대하겠습니다.<br>-&nbsp;국가의&nbsp;연구개발(R&D)&nbsp;투자&nbsp;확대와&nbsp;산업부&nbsp;지정&nbsp;스마트&nbsp;제조&nbsp;특구를&nbsp;만들겠습니다.<br>-&nbsp;대통령&nbsp;직속&nbsp;국가&nbsp;AI&nbsp;전략&nbsp;위원회&nbsp;시범도시&nbsp;지정시키겠습니다.<br>[이행기간]&nbsp;2026년&nbsp;~&nbsp;2029년&nbsp;<br>[재원조달]&nbsp;과기부·산자부&nbsp;국비&nbsp;공모&nbsp;적극&nbsp;참여</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	[청년] 청년이 떠나지 않는 창원, 아이 키우기 좋은 도시를 만들겠습니다.</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="[청년] 청년이 떠나지 않는 창원, 아이 키우기 좋은 도시를 만들겠습니다.">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;창원&nbsp;청년&nbsp;턴어라운드<br><br>[목표]<br>창원&nbsp;청년의&nbsp;양질의&nbsp;일자리,&nbsp;주거,&nbsp;결혼,&nbsp;출산&nbsp;연계한&nbsp;선순환&nbsp;패키지를&nbsp;달성하겠습니다.<br><br>[이행방법]<br>-&nbsp;각종&nbsp;지원&nbsp;정책의&nbsp;수혜&nbsp;대상인&nbsp;청년&nbsp;기준을&nbsp;만&nbsp;45세까지&nbsp;하는&nbsp;조례를&nbsp;전격&nbsp;개정&nbsp;하겠습니다.<br>-&nbsp;방산,&nbsp;원전,&nbsp;첨단&nbsp;제조업&nbsp;분야&nbsp;기업이&nbsp;지역&nbsp;졸업생을&nbsp;정규직으로&nbsp;채용할&nbsp;경우,&nbsp;법인세·지방세&nbsp;감면&nbsp;혜택을&nbsp;제공하고&nbsp;산업단지&nbsp;임대료를&nbsp;파격적으로&nbsp;감면해&nbsp;청년&nbsp;채용을&nbsp;유도하겠습니다.<br>-&nbsp;청년&nbsp;신규&nbsp;채용시&nbsp;연봉&nbsp;4,000만&nbsp;원&nbsp;이상을&nbsp;지급하는&nbsp;기업에&nbsp;세제감면과&nbsp;임대료&nbsp;혜택을&nbsp;제공<br>-&nbsp;‘창원&nbsp;청년&nbsp;정착&nbsp;도약&nbsp;펀드’를&nbsp;신설하겠습니다.<br>&nbsp;&nbsp;&nbsp;(창원에서&nbsp;첫&nbsp;취·창업한&nbsp;청년+창원&nbsp;거주&nbsp;3년&nbsp;이상/최대&nbsp;5년간&nbsp;1,500만원&nbsp;지급)<br>-&nbsp;방산·로봇/e-스포츠·게임·AI·웹툰&nbsp;스타트업&nbsp;특구&nbsp;조성으로&nbsp;청년&nbsp;미래&nbsp;산업을&nbsp;육성하겠습니다.<br>-&nbsp;신혼&nbsp;부부에게&nbsp;공공임대주택&nbsp;및&nbsp;분양주택&nbsp;우선&nbsp;공급&nbsp;자격을&nbsp;부여하겠습니다.<br>-&nbsp;결혼&nbsp;시&nbsp;주택&nbsp;대출&nbsp;이자&nbsp;감면,&nbsp;출산&nbsp;시&nbsp;임대료&nbsp;및&nbsp;관리비&nbsp;경감하겠습니다.<br>-&nbsp;2자녀&nbsp;이상&nbsp;다자녀&nbsp;가정에&nbsp;국공립&nbsp;어린이집&nbsp;우선&nbsp;배정&nbsp;보장하고,&nbsp;민간&nbsp;보육시설&nbsp;이용시&nbsp;보육비&nbsp;일부를&nbsp;지원하겠습니다.<br><br>[이행기간]<br>2026년&nbsp;~&nbsp;임기&nbsp;내&nbsp;지속&nbsp;<br><br>[재원조달방안]<br>청년세대&nbsp;국비&nbsp;확보&nbsp;TF를&nbsp;조성하여,<br>고용노동부·중기부·행안부·교육부의&nbsp;청년&nbsp;지원&nbsp;국비&nbsp;사업을&nbsp;적극&nbsp;확보하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	[복지] 단 한 사람도 소외 없는 품격있는 노후도시 창원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="[복지] 단 한 사람도 소외 없는 품격있는 노후도시 창원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;촘촘한&nbsp;‘창원형&nbsp;사회&nbsp;안전망’&nbsp;구축<br><br>[목표]<br>급격한&nbsp;고령화에&nbsp;대응하여&nbsp;어르신의&nbsp;품격있는&nbsp;노후와&nbsp;독거노인&nbsp;안전망을&nbsp;구축하겠습니다.<br><br>[이행방법]<br>-&nbsp;'인생&nbsp;2막&nbsp;지원센터'를&nbsp;설립하여&nbsp;퇴직&nbsp;경력자&nbsp;대상&nbsp;맞춤형&nbsp;재교육·일자리&nbsp;연계·복지&nbsp;상담을&nbsp;한&nbsp;공간에서&nbsp;통합&nbsp;제공합니다.<br>-&nbsp;교통카드&nbsp;기반&nbsp;이용&nbsp;관리&nbsp;시스템을&nbsp;도입하고,&nbsp;70세&nbsp;이상&nbsp;어르신부터&nbsp;단계적으로&nbsp;무상&nbsp;버스&nbsp;이용&nbsp;범위를&nbsp;확대하여&nbsp;65세&nbsp;범위까지&nbsp;지원토록&nbsp;하겠습니다.<br>-&nbsp;정류장&nbsp;환경을&nbsp;어르신&nbsp;친화형으로&nbsp;개선하고,&nbsp;저상버스&nbsp;확충&nbsp;및&nbsp;장애인&nbsp;택시&nbsp;연계&nbsp;이동&nbsp;지원&nbsp;서비스를&nbsp;강화합니다.<br>-&nbsp;소득&nbsp;기준에&nbsp;관계&nbsp;없이&nbsp;창원의&nbsp;모든&nbsp;독거&nbsp;어르신&nbsp;가정에&nbsp;IoT&nbsp;감지&nbsp;기기와&nbsp;AI&nbsp;건강&nbsp;이상&nbsp;예측&nbsp;시스템을&nbsp;설치합니다.<br>-&nbsp;이상&nbsp;징후&nbsp;발생&nbsp;시&nbsp;시청&nbsp;관제센터·전담&nbsp;복지사·병원이&nbsp;즉시&nbsp;연계되는&nbsp;24시간&nbsp;통합&nbsp;대응&nbsp;체계를&nbsp;구축합니다.<br>-&nbsp;기존&nbsp;서비스&nbsp;사각지대에&nbsp;놓인&nbsp;중산층&nbsp;독거&nbsp;어르신을&nbsp;위한&nbsp;자부담&nbsp;최소화&nbsp;지원&nbsp;모델을&nbsp;새롭게&nbsp;도입합니다.<br><br>[이행기간]<br>2026년&nbsp;~&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진&nbsp;<br><br>[재원조달방안]<br>보건복지부&nbsp;노인&nbsp;맞춤&nbsp;돌봄서비스와&nbsp;경남&nbsp;스마트&nbsp;돌봄의&nbsp;비중을&nbsp;높여&nbsp;재원을&nbsp;조달.<br>창원시&nbsp;노인복지기금을&nbsp;활용.<br>통신사&nbsp;사회&nbsp;공헌기금을&nbsp;활용,<br>불요불급예산&nbsp;횔용.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	[균형] 창원도시개발공사 설립 및 ‘시민 중심’ 지역 균형발전 단행</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="[균형] 창원도시개발공사 설립 및 ‘시민 중심’ 지역 균형발전 단행">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;균형&nbsp;발전을&nbsp;통한&nbsp;지역갈등&nbsp;해소<br><br>[목표]&nbsp;공공의&nbsp;개발이익을&nbsp;시민들에게&nbsp;환원&nbsp;시켜주고,&nbsp;진정한&nbsp;통합&nbsp;창원을&nbsp;만들어&nbsp;내겠습니다.<br><br>[이행방법]<br>-&nbsp;창원시&nbsp;100%&nbsp;출자&nbsp;'창원도시개발공사'를&nbsp;설립하여&nbsp;도심&nbsp;내&nbsp;핵심&nbsp;부지&nbsp;약&nbsp;20만&nbsp;평의&nbsp;핵심&nbsp;개발&nbsp;자산을&nbsp;공공이&nbsp;직접&nbsp;관리합니다.<br>-&nbsp;경기도·부산·김해&nbsp;등&nbsp;타&nbsp;지자체의&nbsp;도시공사&nbsp;운영&nbsp;모델을&nbsp;벤치마킹하여&nbsp;창원형&nbsp;공공개발&nbsp;체계를&nbsp;설계하고&nbsp;조례&nbsp;제정을&nbsp;추진합니다.<br>-&nbsp;'창원시&nbsp;공공개발이익&nbsp;시민환원기금&nbsp;조례'를&nbsp;제정하여&nbsp;개발&nbsp;수익을&nbsp;별도&nbsp;기금으로&nbsp;분리&nbsp;관리하고&nbsp;시민에게&nbsp;공공의&nbsp;이익을&nbsp;되돌려&nbsp;주겠습니다.<br>-&nbsp;기금의&nbsp;우선&nbsp;사용처를&nbsp;공공임대주택&nbsp;확충,&nbsp;청년&nbsp;주거&nbsp;지원,&nbsp;교육재단&nbsp;종잣돈,&nbsp;단독주택지&nbsp;주거환경&nbsp;개선&nbsp;등&nbsp;5대&nbsp;분야로&nbsp;명확히&nbsp;지정합니다.<br>-&nbsp;노후&nbsp;단독주택지&nbsp;재생을&nbsp;위해&nbsp;도시개발공사&nbsp;수익&nbsp;일부를&nbsp;주거&nbsp;재생&nbsp;재원으로&nbsp;직접&nbsp;연결하는&nbsp;구조를&nbsp;제도화합니다.<br>-&nbsp;과거&nbsp;39사단&nbsp;부지&nbsp;개발과&nbsp;같은&nbsp;민간&nbsp;독점&nbsp;이익&nbsp;구조가&nbsp;재발하지&nbsp;않도록,&nbsp;개발&nbsp;전&nbsp;과정을&nbsp;공개하고&nbsp;시민이&nbsp;참여하는&nbsp;투명한&nbsp;공공개발&nbsp;플랫폼으로&nbsp;운영합니다.<br><br>[이행기간]<br>2026년&nbsp;하반기&nbsp;~&nbsp;2029년<br><br>[재원조달방안]<br>공공&nbsp;지분&nbsp;51%&nbsp;이상을&nbsp;확보하는&nbsp;‘창원형&nbsp;민관협력(PPP)’&nbsp;방식을&nbsp;통할&nbsp;것이고&nbsp;민간&nbsp;자본을&nbsp;효율적으로&nbsp;유치하되&nbsp;개발&nbsp;이익&nbsp;환수권을&nbsp;법적으로&nbsp;보장하며&nbsp;민간투자자의&nbsp;리스크를&nbsp;감소하여&nbsp;적극적&nbsp;참여를&nbsp;위해&nbsp;지역&nbsp;활성화&nbsp;투자펀드를&nbsp;활용하겠습니다.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	[의료] 창원 의과대학 유치 해법은 선제적으로 임상 교육 캠퍼스 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="[의료] 창원 의과대학 유치 해법은 선제적으로 임상 교육 캠퍼스 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            1.&nbsp;의과대학유치<br><br>[목표]&nbsp;<br>창원&nbsp;시민의&nbsp;30년&nbsp;뜨거운&nbsp;염원&nbsp;실행&nbsp;가능한&nbsp;모델로&nbsp;창원의과대학을&nbsp;유치하겠습니다.<br><br>[이행방법]<br>-&nbsp;경상국립대학&nbsp;의과대학의&nbsp;정원증가를&nbsp;창원&nbsp;지역&nbsp;의료&nbsp;인프라와&nbsp;연계<br>-&nbsp;창원경상국립대학교병원,&nbsp;창원한마음병원&nbsp;등&nbsp;지역&nbsp;내&nbsp;주요&nbsp;수련&nbsp;병원&nbsp;기반으로&nbsp;창원&nbsp;임상&nbsp;교육&nbsp;캠퍼스를&nbsp;구축하겠습니다.<br>-&nbsp;&nbsp;대학&nbsp;본부와&nbsp;연계해서&nbsp;독립적&nbsp;교육·연구&nbsp;시설&nbsp;신축을&nbsp;추진하겠습니다.<br><br>[이행기간]<br>1단계(취임&nbsp;6개월&nbsp;내):&nbsp;경상국립대&nbsp;MOU&nbsp;체결&nbsp;및&nbsp;지역&nbsp;의료기관&nbsp;협의체&nbsp;구성&nbsp;완료<br>2단계(취임&nbsp;1년&nbsp;내):&nbsp;창원형&nbsp;임상캠퍼스&nbsp;기본계획&nbsp;수립&nbsp;및&nbsp;운영&nbsp;모델&nbsp;확정<br>3단계(취임&nbsp;1년&nbsp;6개월&nbsp;내):&nbsp;정부&nbsp;인허가&nbsp;절차&nbsp;완료&nbsp;및&nbsp;세부&nbsp;연계&nbsp;계획&nbsp;구체화<br>4단계(취임&nbsp;3년&nbsp;내):&nbsp;캠퍼스&nbsp;부지&nbsp;선정&nbsp;완료&nbsp;및&nbsp;독립&nbsp;교육&nbsp;시설&nbsp;착공<br><br>[재원조달방안]<br>「공유재산&nbsp;및&nbsp;물품&nbsp;관리법」에&nbsp;근거하여&nbsp;창원시&nbsp;보유&nbsp;유휴&nbsp;부지를&nbsp;대학&nbsp;측에&nbsp;무상&nbsp;제공하거나&nbsp;장기&nbsp;무상&nbsp;대부(최장&nbsp;50년)하여&nbsp;초기&nbsp;건립&nbsp;비용을&nbsp;획기적으로&nbsp;절감하겠습니다.<br>교육부&nbsp;국립대&nbsp;시설&nbsp;확충&nbsp;예산&nbsp;활용</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

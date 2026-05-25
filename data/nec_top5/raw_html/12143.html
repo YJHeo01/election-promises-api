@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김종천 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	과천AI테크노밸리·과천과천지구·지식정보타운 연계 국가 미래산업 허브 육성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="과천AI테크노밸리·과천과천지구·지식정보타운 연계 국가 미래산업 허브 육성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;과천형&nbsp;미래산업&nbsp;육성&nbsp;프로젝트(GGP,&nbsp;Great&nbsp;Gwacheon&nbsp;Project)&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;과천AI테크노밸리는&nbsp;양재&nbsp;AI혁신지구와&nbsp;연계한&nbsp;AI·첨단기술&nbsp;거점으로&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;과천&nbsp;재창조&nbsp;프로젝트&nbsp;AI·로봇&nbsp;등&nbsp;미래산업&nbsp;R&D센터&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;바이오·제약&nbsp;산업&nbsp;기반&nbsp;지식정보타운과&nbsp;연계,&nbsp;AI&nbsp;바이오·헬스케어&nbsp;산업&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국내외&nbsp;기업·연구기관·글로벌&nbsp;공공기관&nbsp;유치로&nbsp;일자리&nbsp;창출과&nbsp;세수&nbsp;기반&nbsp;확대<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;과천AI테크노밸리·과천과천지구·지식정보타운&nbsp;연계&nbsp;국가&nbsp;미래산업&nbsp;허브&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경마장·방첩사&nbsp;부지&nbsp;일대&nbsp;과천AI테크노밸리&nbsp;조성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;과천과천지구&nbsp;R&D·기업&nbsp;입주공간&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지식정보타운&nbsp;AI&nbsp;바이오헬스&nbsp;R&D&nbsp;거점으로&nbsp;집중&nbsp;지원<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부&nbsp;주도&nbsp;과천AI테크노밸리·과천과천지구·지정타등&nbsp;AI&nbsp;선도지구&nbsp;발굴용역&nbsp;진행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관계기관&nbsp;협의&nbsp;착수&nbsp;및&nbsp;AI/바이오&nbsp;기업·연구기관&nbsp;유치에&nbsp;행정력&nbsp;집중<br>&nbsp;&nbsp;○&nbsp;중기(3~5년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;과천AI테크노밸리&nbsp;조성계획&nbsp;구체화&nbsp;및&nbsp;단계적&nbsp;사업&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;과천과천지구와&nbsp;연계한&nbsp;R&D·기업&nbsp;부지&nbsp;확보&nbsp;및&nbsp;핵심기업&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지식정보타운&nbsp;바이오·제약&nbsp;R&D&nbsp;고도화&nbsp;및&nbsp;AI&nbsp;헬스케어&nbsp;산업&nbsp;확장&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국제기구·핵심기업·연구기관&nbsp;집적을&nbsp;통한&nbsp;과천형&nbsp;미래산업&nbsp;클러스터&nbsp;기반&nbsp;구축<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;AI산업&nbsp;육성&nbsp;프로젝트와&nbsp;연계한&nbsp;국비&nbsp;중심&nbsp;재원&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부지&nbsp;및&nbsp;기반시설&nbsp;등은&nbsp;공공재원,&nbsp;민간기업&nbsp;유치는&nbsp;공공·민간투자&nbsp;병행</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	‘과천지식정보타운-양재 직결 고속도로’ 건설 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="‘과천지식정보타운-양재 직결 고속도로’ 건설 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지식정보타운-강남권을&nbsp;10분대로&nbsp;잇는&nbsp;‘첨단산업&nbsp;고속도로’&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;과천지식정보타운과&nbsp;양재&nbsp;AI&nbsp;혁신지구를&nbsp;직접&nbsp;연결하는&nbsp;고속도로&nbsp;건설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고질적인&nbsp;과천대로&nbsp;및&nbsp;남태령,&nbsp;양재IC&nbsp;일대&nbsp;병목&nbsp;현상&nbsp;근본적으로&nbsp;해결<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;상위계획&nbsp;반영&nbsp;및&nbsp;기존&nbsp;추진노선과의&nbsp;연계방안&nbsp;마련&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국토부&nbsp;「국가도로망종합계획」&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;현재&nbsp;진행&nbsp;중인&nbsp;노선과&nbsp;연계해&nbsp;노선&nbsp;추가,&nbsp;변경&nbsp;등&nbsp;신속&nbsp;추진방안&nbsp;마련<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기&nbsp;(1~2년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국토부&nbsp;‘수도권&nbsp;남부권·동부권&nbsp;광역교통체계&nbsp;연구용역’에&nbsp;지식정보타운-양재&nbsp;직결&nbsp;고속도로&nbsp;신설안&nbsp;즉각&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국토부&nbsp;용역&nbsp;결과&nbsp;기반,&nbsp;국가도로망&nbsp;종합계획&nbsp;반영&nbsp;혹은&nbsp;기존&nbsp;노선&nbsp;수정안&nbsp;마련에&nbsp;과천시&nbsp;행정역량&nbsp;집중<br>&nbsp;&nbsp;○&nbsp;중기&nbsp;(3~5년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;노선&nbsp;수정안&nbsp;사업추진&nbsp;확정&nbsp;혹은&nbsp;국가도로망&nbsp;종합계획&nbsp;반영&nbsp;확정&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;수정&nbsp;노선&nbsp;혹은&nbsp;신설&nbsp;노선&nbsp;예비타당성조사&nbsp;대상사업&nbsp;선정&nbsp;및&nbsp;통과&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;장기&nbsp;(5년&nbsp;이상)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;예비타당성조사&nbsp;통과&nbsp;후&nbsp;기본계획&nbsp;수립,&nbsp;실시설계&nbsp;및&nbsp;착공&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국가&nbsp;전략도로망으로&nbsp;추진해&nbsp;국비&nbsp;중심&nbsp;재원&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존&nbsp;추진&nbsp;중&nbsp;노선&nbsp;변경안&nbsp;혹은&nbsp;신설안으로&nbsp;전액&nbsp;재정사업(국비&nbsp;100%)&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	빈틈없는 과천 광역철도망 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="빈틈없는 과천 광역철도망 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;빈틈없는&nbsp;광역교통망&nbsp;구축으로&nbsp;서울&nbsp;접근성과&nbsp;수도권&nbsp;남부&nbsp;연결성&nbsp;획기적&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX-C&nbsp;신속&nbsp;착공,&nbsp;위례과천선&nbsp;과천시&nbsp;요구안&nbsp;반영&nbsp;및&nbsp;지식정보타운&nbsp;연장,&nbsp;신림선&nbsp;과천청사&nbsp;및&nbsp;지식정보타운&nbsp;연장&nbsp;추진&nbsp;<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;국가철도망&nbsp;구축계획&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;위례과천선&nbsp;지식정보타운&nbsp;연장&nbsp;및&nbsp;신림선&nbsp;연장&nbsp;제5차&nbsp;국가철도망&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;주요&nbsp;광역철도&nbsp;사업&nbsp;정상화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX-C&nbsp;신속한&nbsp;공사&nbsp;정상화&nbsp;및&nbsp;적기&nbsp;개통&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;위례과천선&nbsp;과천시&nbsp;요구안&nbsp;반영하여&nbsp;국토부&nbsp;제3자&nbsp;공고&nbsp;진행&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;노선&nbsp;불편&nbsp;해소&nbsp;및&nbsp;서울대&여의도&nbsp;방면&nbsp;노선&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4호선&nbsp;증차&nbsp;및&nbsp;신림선&nbsp;지정타&nbsp;연장&nbsp;포함&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;위례과천선&nbsp;지식정보타운&nbsp;연장&nbsp;및&nbsp;신림선&nbsp;연장&nbsp;제5차&nbsp;국가철도망&nbsp;반영&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;GTX-C&nbsp;2026년&nbsp;공사&nbsp;정상화&nbsp;및&nbsp;위례과천선&nbsp;과천시&nbsp;요구안으로&nbsp;제3자&nbsp;공고&nbsp;진행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4호선&nbsp;증차&nbsp;및&nbsp;신림선&nbsp;지식정보타운&nbsp;연장&nbsp;용역&nbsp;진행&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;중기(3~5년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;위례과천선&nbsp;착공/신림선&nbsp;지정타&nbsp;연장안&nbsp;예비타당성조사&nbsp;추진/GTX-C&nbsp;개통&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;사업별&nbsp;추진방식에&nbsp;따라&nbsp;공공·민간투자&nbsp;방식으로&nbsp;재원&nbsp;조달<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공재원&nbsp;:&nbsp;4호선&nbsp;증차,&nbsp;신림선&nbsp;연장(공공재원&nbsp;확보방안&nbsp;검토)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간투자&nbsp;:&nbsp;GTX-C,&nbsp;위례과천선,&nbsp;위례과천선&nbsp;지식정보타운&nbsp;연장선</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	과천 중·고교 교육체계 개편 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="과천 중·고교 교육체계 개편 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;과천지역&nbsp;중·고교&nbsp;배치&nbsp;불균형&nbsp;문제를&nbsp;해소하고,&nbsp;학생·학부모의&nbsp;교육&nbsp;선택권&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;과천은&nbsp;재건축,&nbsp;지식정보타운,&nbsp;3기&nbsp;신도시&nbsp;등으로&nbsp;생활권과&nbsp;학령인구&nbsp;구조가&nbsp;빠르게&nbsp;변화하고&nbsp;있음.&nbsp;일부&nbsp;학교의&nbsp;과밀,&nbsp;일부&nbsp;학교의&nbsp;미달,&nbsp;생활권·통학권에&nbsp;따른&nbsp;교육&nbsp;선택&nbsp;제약&nbsp;등&nbsp;복합적인&nbsp;문제를&nbsp;종합적으로&nbsp;검토할&nbsp;필요가&nbsp;있음.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;관계기관&nbsp;협의체&nbsp;구성&nbsp;및&nbsp;상시&nbsp;협의체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;과천여고&nbsp;이사회,&nbsp;경기도교육청,&nbsp;안양과천교육지원청,&nbsp;과천교육지원센터,&nbsp;과천시,&nbsp;학부모·동문&nbsp;등&nbsp;관계자가&nbsp;참여하는&nbsp;협의체&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;대안별&nbsp;타당성&nbsp;검토&nbsp;및&nbsp;실행&nbsp;우선순위&nbsp;설정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;교육청&nbsp;승인&nbsp;가능성,&nbsp;학교&nbsp;구성원&nbsp;수용성,&nbsp;재원조달&nbsp;가능성을&nbsp;기준으로&nbsp;실행&nbsp;가능한&nbsp;대안부터&nbsp;단계적으로&nbsp;추진,&nbsp;학생·학부모·교직원·동문&nbsp;의견수렴을&nbsp;통해&nbsp;갈등을&nbsp;최소화하고&nbsp;검토&nbsp;결과를&nbsp;투명하게&nbsp;공유<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기&nbsp;1~2년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관계기관&nbsp;협의체&nbsp;구성,&nbsp;대안별&nbsp;타당성&nbsp;검토&nbsp;및&nbsp;실행&nbsp;가능&nbsp;대안&nbsp;압축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경기도교육청&nbsp;및&nbsp;안양과천교육지원청과&nbsp;행정절차&nbsp;협의&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;중기&nbsp;3~5년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;과천형&nbsp;중·고교&nbsp;교육체계&nbsp;개편안&nbsp;확정,&nbsp;학교&nbsp;간&nbsp;불균형&nbsp;완화&nbsp;및&nbsp;교육&nbsp;선택권&nbsp;확대<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;경기도교육청&nbsp;예산&nbsp;및&nbsp;관련&nbsp;지원사업&nbsp;연계<br>&nbsp;&nbsp;○&nbsp;학교법인·교육청·과천시&nbsp;협력&nbsp;방식&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	신천지 대형 집회시설 대응 및 내란 종식, 시민 생활권과 민주주의 수호</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="신천지 대형 집회시설 대응 및 내란 종식, 시민 생활권과 민주주의 수호">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;신천지&nbsp;대형&nbsp;집회시설로부터&nbsp;과천&nbsp;도심&nbsp;생활권과&nbsp;시민&nbsp;안전&nbsp;보호<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민이&nbsp;체감하는&nbsp;조례,&nbsp;행정조치,&nbsp;관계기관&nbsp;협력체계를&nbsp;마련하여&nbsp;실질적&nbsp;대응&nbsp;추진&nbsp;<br>&nbsp;&nbsp;○&nbsp;내란&nbsp;세력&nbsp;종식과&nbsp;민주주의&nbsp;기본질서&nbsp;수호<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2020년&nbsp;코로나&nbsp;팬데믹&nbsp;당시&nbsp;신천지&nbsp;대응처럼,&nbsp;이재명·이소영·김종천&nbsp;민주당&nbsp;원팀이&nbsp;다시&nbsp;한&nbsp;번&nbsp;과천&nbsp;시민의&nbsp;안전과&nbsp;민주주의를&nbsp;지키는&nbsp;제도적&nbsp;해법을&nbsp;완성.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;신천지&nbsp;등&nbsp;도심&nbsp;대형&nbsp;집회시설&nbsp;입지&nbsp;제한&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상업지역&nbsp;내&nbsp;대규모&nbsp;집회시설&nbsp;용도변경&nbsp;시&nbsp;주민&nbsp;의견수렴,&nbsp;주민공청회,&nbsp;시의회&nbsp;동의&nbsp;절차&nbsp;강화,&nbsp;교통·안전·상권&nbsp;영향&nbsp;검토를&nbsp;의무화하고,&nbsp;시민&nbsp;생활권을&nbsp;우선하는&nbsp;입지&nbsp;기준&nbsp;마련,&nbsp;국토부·경기도와&nbsp;협력해&nbsp;대형&nbsp;집회시설의&nbsp;건축·용도변경&nbsp;요건&nbsp;강화&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;다중이용건축물&nbsp;안전관리&nbsp;상시&nbsp;모니터링&nbsp;체계&nbsp;구축,&nbsp;민주당&nbsp;원팀&nbsp;대응체계&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기&nbsp;1~2년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도심&nbsp;대형&nbsp;집회시설&nbsp;입지&nbsp;제한&nbsp;조례안&nbsp;마련,&nbsp;시민·상인·전문가&nbsp;의견수렴<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;「과천도심&nbsp;생활안전&nbsp;협의체」&nbsp;설치,&nbsp;국토부·경기도와&nbsp;건축·용도변경&nbsp;제도개선&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;중기&nbsp;3~5년<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도심&nbsp;대형&nbsp;집회시설&nbsp;입지·용도변경&nbsp;관리기준&nbsp;시행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;다중이용건축물&nbsp;안전관리&nbsp;및&nbsp;교통혼잡&nbsp;대응체계&nbsp;정착,&nbsp;법령·제도&nbsp;개선&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;과천시&nbsp;일반회계&nbsp;및&nbsp;기존&nbsp;안전·교통·도시계획&nbsp;예산&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;국비·도비&nbsp;및&nbsp;관계기관&nbsp;협력사업&nbsp;연계</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

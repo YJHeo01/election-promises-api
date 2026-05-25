@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;서흥원 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	희망차고 행복한 농촌!  농업소득 증대 프로젝트!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="희망차고 행복한 농촌!  농업소득 증대 프로젝트!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;농자재&nbsp;80%&nbsp;지원&nbsp;및&nbsp;기본소득&nbsp;연금&nbsp;도입을&nbsp;통해&nbsp;농가&nbsp;소득을&nbsp;획기적으로&nbsp;높이고,&nbsp;생산부터&nbsp;유통까지&nbsp;이어지는&nbsp;유통&nbsp;활성화를&nbsp;통해&nbsp;실질적인&nbsp;농업소득&nbsp;증대를&nbsp;실현하여&nbsp;돌아오는&nbsp;행복&nbsp;농촌&nbsp;조성이&nbsp;목표임.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;농어촌&nbsp;기본소득&nbsp;연금&nbsp;도입으로&nbsp;정주&nbsp;인구&nbsp;유입<br>&nbsp;&nbsp;○&nbsp;농자재&nbsp;80%&nbsp;지원&nbsp;확대&nbsp;및&nbsp;바우처&nbsp;카드&nbsp;지급<br>&nbsp;&nbsp;○&nbsp;스마트팜&nbsp;·&nbsp;계약재배&nbsp;·&nbsp;공동수매&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;외국인&nbsp;계절&nbsp;근로자&nbsp;안정&nbsp;수급&nbsp;지속적&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;농산물&nbsp;명품관&nbsp;확대와&nbsp;판매·유통&nbsp;기반&nbsp;온·오프라인&nbsp;활성화<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;재임기간&nbsp;중&nbsp;[2026.07.01.&nbsp;∼&nbsp;2030.06.30.]<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;교부금&nbsp;및&nbsp;통합재정&nbsp;안정화&nbsp;기금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	경제활력으로 일자리 창출 및 스포츠 마케팅 내실화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="경제활력으로 일자리 창출 및 스포츠 마케팅 내실화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;일자리&nbsp;창출과&nbsp;스포츠&nbsp;관광이&nbsp;결합&nbsp;된&nbsp;신성장&nbsp;동력&nbsp;확보로&nbsp;지역&nbsp;경제에&nbsp;활력을&nbsp;불어넣고,&nbsp;군민이&nbsp;풍요롭고&nbsp;살기&nbsp;좋은&nbsp;양구군&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;적극적&nbsp;유수기업&nbsp;유치로&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;인구&nbsp;유입<br>&nbsp;&nbsp;○&nbsp;제2농공단지&nbsp;조성&nbsp;확장<br>&nbsp;&nbsp;○&nbsp;스포츠&nbsp;마케팅을&nbsp;통한&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;국토정중앙면&nbsp;·&nbsp;동면&nbsp;·&nbsp;해안면&nbsp;파크골프장&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;재임기간&nbsp;중&nbsp;[2026.07.01.&nbsp;∼&nbsp;2030.06.30.]<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;도비&nbsp;외&nbsp;군비&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	현역군인 및 제대군인이 행복한 양구 만들기</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="현역군인 및 제대군인이 행복한 양구 만들기">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;현역&nbsp;및&nbsp;제대&nbsp;군인에&nbsp;대한&nbsp;문화&nbsp;혜택&nbsp;확대와,&nbsp;취·창업&nbsp;역량&nbsp;강화를&nbsp;지원하고,&nbsp;지역&nbsp;주민과의&nbsp;화합을&nbsp;통해&nbsp;민·군이&nbsp;상생하는&nbsp;행복한&nbsp;양구&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;관광·문화&nbsp;시설&nbsp;입장료&nbsp;50%&nbsp;할인&nbsp;<br>&nbsp;&nbsp;○&nbsp;군장병들의&nbsp;양구&nbsp;사랑&nbsp;프로젝트&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;현역&nbsp;군인&nbsp;및&nbsp;제대&nbsp;군인&nbsp;자격증&nbsp;반&nbsp;운영&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;제대군인의&nbsp;창업&nbsp;교육&nbsp;및&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;지역민과&nbsp;함께하는&nbsp;융합프로그램&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;재임기간&nbsp;중&nbsp;[2026.07.01.&nbsp;∼&nbsp;2030.06.30.]<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;군비&nbsp;기금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	미래 교육을 품은 양구!  교육도시 양구!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="미래 교육을 품은 양구!  교육도시 양구!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;대학생&nbsp;등록금&nbsp;및&nbsp;거주비&nbsp;지원과&nbsp;양록장학금&nbsp;수혜&nbsp;확대로&nbsp;교육비&nbsp;제로화에&nbsp;도전하며,&nbsp;내실&nbsp;있는&nbsp;방과&nbsp;후&nbsp;교육&nbsp;시스템&nbsp;구축으로&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;명품&nbsp;교육도시&nbsp;환경&nbsp;조성을&nbsp;목표로&nbsp;함.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대학생&nbsp;등록금&nbsp;4년간&nbsp;전액&nbsp;지원&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;대학생&nbsp;생활·거주비&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;양록장학금&nbsp;수혜&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;방과&nbsp;후&nbsp;교육&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;유·초·중·고&nbsp;교육활동&nbsp;지원비&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;재임기간&nbsp;중&nbsp;[2026.07.01.&nbsp;∼&nbsp;2030.06.30.]<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;도비&nbsp;및&nbsp;군비&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	주거·출산·문화가 함께하는 행복한 양구!</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="주거·출산·문화가 함께하는 행복한 양구!">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;안정적인&nbsp;주택&nbsp;공급을&nbsp;통해&nbsp;정주&nbsp;인구를&nbsp;늘리고,&nbsp;임신부터&nbsp;육아까지&nbsp;이어지는&nbsp;전폭적인&nbsp;복지와,&nbsp;반려동물&nbsp;테마공원&nbsp;등&nbsp;차별화된&nbsp;문화&nbsp;공간이&nbsp;어우러진&nbsp;살기&nbsp;좋은&nbsp;양구&nbsp;구축이&nbsp;목표임.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중·대형&nbsp;아파트&nbsp;300세대&nbsp;건립으로&nbsp;정주&nbsp;인구&nbsp;증가<br>&nbsp;&nbsp;○&nbsp;산후조리원&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;안심&nbsp;출산&nbsp;및&nbsp;양육비&nbsp;지원&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;반려동물이&nbsp;함께하는&nbsp;테마공원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;재임기간&nbsp;중&nbsp;[2026.07.01.&nbsp;∼&nbsp;2030.06.30.]<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국가사업&nbsp;공모&nbsp;<br>&nbsp;&nbsp;○&nbsp;국·도비&nbsp;및&nbsp;군비와&nbsp;민자유치</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

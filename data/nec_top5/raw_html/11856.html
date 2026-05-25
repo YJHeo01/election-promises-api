@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;최기영 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	6차 산업 농업단지 조성사업</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="6차 산업 농업단지 조성사업">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농업&nbsp;생산&nbsp;중심&nbsp;구조&nbsp;→&nbsp;가공·유통·체험·관광이&nbsp;결합된&nbsp;6차&nbsp;산업구조<br>&nbsp;&nbsp;○&nbsp;농산물의&nbsp;부가가치를&nbsp;창출·순환시키는&nbsp;자립형&nbsp;농업경제&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;청년과&nbsp;농업법인이&nbsp;참여하는&nbsp;지속가능한&nbsp;농업&nbsp;생태게&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;농업을&nbsp;봉화군의&nbsp;핵심&nbsp;전략&nbsp;산업으로&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;거점&nbsp;농업&nbsp;복합센터&nbsp;구축&nbsp;(1개소)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;가공·유통·창업&nbsp;기능&nbsp;통합<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공동브랜드&nbsp;및&nbsp;통합&nbsp;물류체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;체험형&nbsp;시범단지&nbsp;조성&nbsp;(2개소)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;팜투어,&nbsp;농촌체험,&nbsp;소형&nbsp;숙박시설&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광&nbsp;연계형&nbsp;농업단지&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;유통·브랜드&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공동브랜드&nbsp;개발&nbsp;및&nbsp;온라인·직거래&nbsp;유통망&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;청년·농업법인&nbsp;참여&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창업지원센터&nbsp;운영&nbsp;및&nbsp;농업&nbsp;스타트업&nbsp;육성&nbsp;<br>※&nbsp;"대규모&nbsp;단지&nbsp;→&nbsp;거점+위성형&nbsp;분산&nbsp;클러스터로&nbsp;전환"<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기&nbsp;(1~2년):&nbsp;기본계획&nbsp;수립,&nbsp;대상지&nbsp;선정,&nbsp;시범사업&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;중기&nbsp;(3~5년):&nbsp;거점센터&nbsp;및&nbsp;위성단지&nbsp;조성&nbsp;완료,&nbsp;운영&nbsp;개시<br>&nbsp;&nbsp;○&nbsp;장기&nbsp;(5년&nbsp;이후):&nbsp;성공모델&nbsp;확산&nbsp;및&nbsp;권역&nbsp;확대<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;총사업비&nbsp;:&nbsp;400억원&nbsp;~&nbsp;700억원<br>&nbsp;&nbsp;○&nbsp;재원구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비(50%)&nbsp;:&nbsp;200억원&nbsp;~&nbsp;350억원&nbsp;→&nbsp;농림축산식품부&nbsp;공모사업(농촌융복합산업지구,&nbsp;스마트농업&nbsp;등)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도비·군비(30%)&nbsp;:&nbsp;120억원&nbsp;~&nbsp;210억원&nbsp;→&nbsp;기반시설(도로,&nbsp;용수,&nbsp;전력&nbsp;등)&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간투자(20%)&nbsp;:&nbsp;80억원&nbsp;~&nbsp;140억원&nbsp;→&nbsp;SPC(특수목적법인)&nbsp;설립을&nbsp;통한&nbsp;민간&nbsp;참여&nbsp;→&nbsp;식품기업·유통기업·관광기업&nbsp;투자&nbsp;유치&nbsp;※&nbsp;정책금융&nbsp;활용&nbsp;및&nbsp;운영수익&nbsp;재투자&nbsp;구조<br>&nbsp;&nbsp;○&nbsp;군비&nbsp;부담&nbsp;:&nbsp;약&nbsp;100억원&nbsp;내외&nbsp;(5년&nbsp;분산시&nbsp;년간&nbsp;20억원)<br>&nbsp;&nbsp;○&nbsp;세부&nbsp;사업비&nbsp;투자&nbsp;내용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;거점센터&nbsp;:&nbsp;150억원&nbsp;~&nbsp;250억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시범단지&nbsp;:&nbsp;100억원&nbsp;~&nbsp;150억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유통·브랜드&nbsp;:&nbsp;50억원&nbsp;~&nbsp;100억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;창업지원&nbsp;:&nbsp;50억원&nbsp;~&nbsp;100억원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	산림휴양단지 조성사업</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="산림휴양단지 조성사업">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;산림자원을&nbsp;활용한&nbsp;휴양·치유·숙박&nbsp;연계형&nbsp;체류&nbsp;관광&nbsp;기반&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;방문&nbsp;중심&nbsp;관광&nbsp;구조를&nbsp;체류형으로&nbsp;전환,&nbsp;지역경제&nbsp;활성화&nbsp;도모<br>&nbsp;&nbsp;○&nbsp;산림&nbsp;기반&nbsp;산업&nbsp;육성&nbsp;및&nbsp;지역&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;봉화를&nbsp;산림휴양&nbsp;거점&nbsp;지역으로&nbsp;단계적&nbsp;육성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;산림휴양&nbsp;거점&nbsp;1개&nbsp;권역&nbsp;조성&nbsp;(문수산&nbsp;청량산&nbsp;권역&nbsp;중&nbsp;선정)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;숲길,&nbsp;산림치유시설,&nbsp;방문자센터&nbsp;등&nbsp;기반시설&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;공공형&nbsp;체류시설&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자연휴양림,&nbsp;숲속의&nbsp;집&nbsp;등&nbsp;공공&nbsp;숙박&nbsp;인프라&nbsp;단계적&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;산림치유&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문수산명상센터·웰니스·고령층&nbsp;맞춤형&nbsp;프로그램&nbsp;도입&nbsp;및&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;민간&nbsp;참여&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;소규모&nbsp;숙박시설&nbsp;등&nbsp;민간투자&nbsp;유치&nbsp;지원&nbsp;※&nbsp;공공&nbsp;주도&nbsp;기반&nbsp;구축&nbsp;후&nbsp;민간&nbsp;참여를&nbsp;통한&nbsp;보완적&nbsp;개발&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년):&nbsp;&nbsp;기본계획&nbsp;수립,&nbsp;대상지&nbsp;확정,&nbsp;일부&nbsp;시범사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;중기(3~5년):&nbsp;주요&nbsp;시설&nbsp;조성&nbsp;및&nbsp;운영&nbsp;개시<br>&nbsp;&nbsp;○&nbsp;장기(5~10년):&nbsp;체류형&nbsp;관광지로&nbsp;정착&nbsp;및&nbsp;기능&nbsp;확대<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;총사업비&nbsp;억원&nbsp;억원&nbsp;:&nbsp;500억원&nbsp;~&nbsp;900억원<br>&nbsp;&nbsp;○&nbsp;재원구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비(50%)&nbsp;:&nbsp;250&nbsp;~&nbsp;450억원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;산림청&nbsp;:&nbsp;자연휴양림&nbsp;조성,&nbsp;산림치유의&nbsp;숲&nbsp;조성,&nbsp;숲길&nbsp;네트워크&nbsp;사업<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;문화체육관광부&nbsp;:&nbsp;지역관광개발사업,&nbsp;계획공모형&nbsp;지역관광개발사업<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;행정안전부&nbsp;:&nbsp;지방소멸대응기금,&nbsp;특별교부세&nbsp;(기반시설&nbsp;투자)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;농림축산식품부&nbsp;:&nbsp;농촌협약,&nbsp;농촌공간정비사업(체험.&nbsp;숙박&nbsp;자금)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도비·군비(30%)&nbsp;:&nbsp;150&nbsp;~&nbsp;270억원&nbsp;억원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;경상북도&nbsp;:&nbsp;관광개발사업,&nbsp;산림레포츠·치유사업,&nbsp;지역균형발전사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간투자(20%)&nbsp;:&nbsp;100억원&nbsp;&nbsp;~&nbsp;180억원<br>&nbsp;&nbsp;○&nbsp;군비&nbsp;부담&nbsp;:&nbsp;약&nbsp;120&nbsp;억원&nbsp;~&nbsp;180억원(5~7년&nbsp;분산시&nbsp;년간&nbsp;25억원)<br>&nbsp;&nbsp;○&nbsp;세부&nbsp;사업비&nbsp;투자내용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산림휴양&nbsp;거점&nbsp;조성&nbsp;:&nbsp;200억원&nbsp;&nbsp;~&nbsp;300억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공형&nbsp;숙박시설&nbsp;확충&nbsp;:&nbsp;100억원&nbsp;~&nbsp;150억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산림&nbsp;치유&nbsp;체험프로그램&nbsp;구축&nbsp;:&nbsp;50억원&nbsp;~&nbsp;100억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;숙박시설&nbsp;투자&nbsp;유도&nbsp;:&nbsp;150억원&nbsp;&nbsp;~&nbsp;300억원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	전통시장 현대화 및 활성화 사업</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="전통시장 현대화 및 활성화 사업">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;노후&nbsp;전통시장의&nbsp;환경&nbsp;개선을&nbsp;통해&nbsp;이용&nbsp;편의성&nbsp;및&nbsp;안전성&nbsp;제고<br>&nbsp;&nbsp;○&nbsp;전통시장&nbsp;구매&nbsp;중심<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;체험&nbsp;문화&nbsp;기능이&nbsp;결합된&nbsp;상권으로&nbsp;단계적&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;경쟁력&nbsp;강화&nbsp;및&nbsp;지역경제&nbsp;활성화&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;청년상인&nbsp;유입을&nbsp;통한&nbsp;지속가능한&nbsp;상권&nbsp;구조&nbsp;형성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시설&nbsp;현대화&nbsp;및&nbsp;환경&nbsp;개선&nbsp;안전하고&nbsp;쾌적한&nbsp;이용&nbsp;환경&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지붕,&nbsp;바닥,&nbsp;배수,&nbsp;전기,&nbsp;위생시설&nbsp;등&nbsp;노후&nbsp;인프라&nbsp;단계적&nbsp;정비<br>&nbsp;&nbsp;○&nbsp;편의시설&nbsp;확충&nbsp;:&nbsp;접근성&nbsp;및&nbsp;체류&nbsp;편의성&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공영주차장,&nbsp;공중화장실,&nbsp;휴게공간&nbsp;등&nbsp;기반시설&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;디지털&nbsp;상거래&nbsp;기반&nbsp;구축&nbsp;공동&nbsp;판매채널&nbsp;및&nbsp;통합&nbsp;운영체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;카드·간편결제&nbsp;시스템&nbsp;확대&nbsp;온라인&nbsp;주문&nbsp;및&nbsp;배송&nbsp;체계&nbsp;도입&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;상권&nbsp;활성화&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년상인&nbsp;창업&nbsp;지원&nbsp;및&nbsp;점포&nbsp;입점&nbsp;유도<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시장&nbsp;특성에&nbsp;맞는&nbsp;특화구역(먹거리,&nbsp;청년몰&nbsp;등)&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;체험형&nbsp;콘텐츠&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야시장,&nbsp;플리마켓,&nbsp;문화행사&nbsp;등&nbsp;정례화&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광자원과&nbsp;연계한&nbsp;체험&nbsp;프로그램&nbsp;운영&nbsp;지원&nbsp;<br>&nbsp;&nbsp;※&nbsp;시설&nbsp;개선,&nbsp;상권&nbsp;전략,&nbsp;콘텐츠&nbsp;운영을&nbsp;연계한&nbsp;통합형&nbsp;현대화&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년):&nbsp;기본계획&nbsp;수립,&nbsp;일부&nbsp;시설&nbsp;개선&nbsp;및&nbsp;시범사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;중기(3~5년):&nbsp;주요&nbsp;시장&nbsp;단계적&nbsp;정비&nbsp;및&nbsp;활성화&nbsp;사업&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;장기(5년&nbsp;이후):&nbsp;&nbsp;시장별&nbsp;특성화&nbsp;정착&nbsp;및&nbsp;운영&nbsp;고도화<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;총사업비&nbsp;:&nbsp;150억원&nbsp;~&nbsp;300억원<br>&nbsp;&nbsp;○&nbsp;재원구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비(60%)&nbsp;90억원&nbsp;~&nbsp;180억원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;중소벤처기업부&nbsp;:&nbsp;전통시장&nbsp;및&nbsp;상점가&nbsp;시설&nbsp;현대화&nbsp;사업<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;문화체육관광부&nbsp;:&nbsp;지역문화관광&nbsp;콘텐츠&nbsp;사업<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;행정안전부&nbsp;:&nbsp;특별교부세&nbsp;지방소멸대응기금&nbsp;(기반시설)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;과학기술정보통신부/중기부&nbsp;연계&nbsp;:&nbsp;전통시장&nbsp;디지털&nbsp;전환&nbsp;지원사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도비·군비(30%)&nbsp;:&nbsp;&nbsp;45억원&nbsp;~&nbsp;90억원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;경상북도&nbsp;:&nbsp;전통시장&nbsp;시설&nbsp;개선,&nbsp;지역상권&nbsp;활성화,&nbsp;관광연계&nbsp;상권개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간&nbsp;및&nbsp;자부담(10%)&nbsp;:&nbsp;15억원&nbsp;~&nbsp;30억원<br>&nbsp;&nbsp;○&nbsp;군비&nbsp;부담&nbsp;:&nbsp;약&nbsp;40억&nbsp;~&nbsp;80억원&nbsp;수준&nbsp;(5년&nbsp;분산시&nbsp;년간&nbsp;10억원)<br>&nbsp;&nbsp;○&nbsp;세부&nbsp;사업비&nbsp;투자내용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시설&nbsp;현대화&nbsp;:&nbsp;80~150억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주차장&nbsp;편의시설&nbsp;:&nbsp;30억원&nbsp;~70억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;디지털&nbsp;시스템&nbsp;구축&nbsp;:&nbsp;10&nbsp;~30억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화&nbsp;관광&nbsp;콘텐츠&nbsp;;&nbsp;10&nbsp;~&nbsp;20억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년상인&nbsp;및&nbsp;상권&nbsp;활성화&nbsp;:&nbsp;20&nbsp;~&nbsp;50억원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	공공의료 및 방문의료 서비스 확대</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="공공의료 및 방문의료 서비스 확대">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;중심의&nbsp;지역&nbsp;의료체계&nbsp;구축을&nbsp;통한&nbsp;의료&nbsp;접근성&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;의료취약지역&nbsp;해소,&nbsp;응급의료&nbsp;대응체계&nbsp;강화를&nbsp;통한&nbsp;군민&nbsp;생명&nbsp;보호<br>&nbsp;&nbsp;○&nbsp;고령화&nbsp;대응&nbsp;방문의료·돌봄&nbsp;연계&nbsp;서비스&nbsp;기반&nbsp;마련<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;공공의료기관&nbsp;기능&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;보건지소&nbsp;기능&nbsp;단계적&nbsp;확대,&nbsp;지역&nbsp;거점&nbsp;중심&nbsp;협진&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;필수&nbsp;진료과목&nbsp;운영&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;내과·외과&nbsp;등&nbsp;필수&nbsp;진료&nbsp;기능&nbsp;보강,&nbsp;순환진료&nbsp;등&nbsp;탄력적&nbsp;진료체계&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;응급의료&nbsp;대응체계&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;응급&nbsp;대응체계&nbsp;보강&nbsp;및&nbsp;이송체계&nbsp;정비,&nbsp;인근&nbsp;의료기관과&nbsp;연계&nbsp;협력&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;방문의료&nbsp;서비스&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이동진료&nbsp;및&nbsp;방문&nbsp;건강관리&nbsp;서비스&nbsp;확대,&nbsp;의료취약지역&nbsp;중심&nbsp;단계적&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;의료&nbsp;협력체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지역&nbsp;병·의원&nbsp;협력&nbsp;네트워크&nbsp;강화,&nbsp;비대면&nbsp;진료&nbsp;보조&nbsp;시스템&nbsp;도입&nbsp;검토&nbsp;※&nbsp;시설·인력&nbsp;·방문의료·협력체계를&nbsp;연계한&nbsp;통합&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기(1~2년)&nbsp;:&nbsp;실태조사&nbsp;및&nbsp;기본계획&nbsp;수립,&nbsp;방문의료&nbsp;시범사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;중기(3~5년)&nbsp;:&nbsp;공공의료&nbsp;기능&nbsp;보강&nbsp;및&nbsp;응급의료&nbsp;체계&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;장기(5년&nbsp;이후&nbsp;)&nbsp;:&nbsp;지역&nbsp;의료서비스&nbsp;안정화&nbsp;및&nbsp;운영&nbsp;고도화<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;총사업비&nbsp;:&nbsp;200억원&nbsp;~&nbsp;400억원<br>&nbsp;&nbsp;○&nbsp;재원구성&nbsp;(계획&nbsp;기준)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비&nbsp;120억원&nbsp;~&nbsp;240&nbsp;억원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;보건복지부,&nbsp;소방청&nbsp;:&nbsp;지역거점&nbsp;공공병원&nbsp;기능보강&nbsp;의료취약지&nbsp;지원사업,&nbsp;응급의료기관&nbsp;지원&nbsp;응급의료&nbsp;전용&nbsp;장비&nbsp;및&nbsp;시스템&nbsp;구축,&nbsp;구급차&nbsp;및&nbsp;이송체계&nbsp;개선&nbsp;(24시간&nbsp;대응체계&nbsp;재원&nbsp;확보)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;행정안전부&nbsp;;&nbsp;지방소멸대응기금,&nbsp;특별교부세<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;과학기술정보통신부&nbsp;:&nbsp;원격의료·디지털&nbsp;헬스케어&nbsp;시범사업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도비·군비(30%)&nbsp;:&nbsp;60억원&nbsp;~&nbsp;120억원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;경상북도&nbsp;:&nbsp;공공의료&nbsp;강화&nbsp;사업,&nbsp;응급의료&nbsp;지원&nbsp;사업&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기타&nbsp;재원(10%)&nbsp;:&nbsp;20억원&nbsp;~&nbsp;40억원<br>&nbsp;&nbsp;○&nbsp;군비&nbsp;부담&nbsp;:&nbsp;50억원&nbsp;~&nbsp;100억원&nbsp;수준&nbsp;(5년&nbsp;분산&nbsp;투자시&nbsp;년간&nbsp;10억&nbsp;~&nbsp;20억원)<br>&nbsp;&nbsp;○&nbsp;주요&nbsp;투자&nbsp;분야<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공의료기관&nbsp;기능&nbsp;강화&nbsp;:&nbsp;80억원&nbsp;~&nbsp;150억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료장비&nbsp;및&nbsp;시설&nbsp;확충&nbsp;:&nbsp;30억원&nbsp;~&nbsp;70억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;응급의료&nbsp;체계&nbsp;구축&nbsp;:&nbsp;30억원&nbsp;~&nbsp;60억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이동진료&nbsp;및&nbsp;방문의료&nbsp;:&nbsp;20억원&nbsp;~&nbsp;50억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;의료&nbsp;인력&nbsp;확보&nbsp;및&nbsp;운영&nbsp;:&nbsp;40억원&nbsp;~&nbsp;70억원</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	봉화군개발공사 설립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="봉화군개발공사 설립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;지역개발사업의&nbsp;전문성과&nbsp;지속성&nbsp;확보&nbsp;:&nbsp;공공&nbsp;개발&nbsp;전담&nbsp;조직&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;산림·관광·주거·산업&nbsp;등&nbsp;지역&nbsp;핵심사업의&nbsp;통합&nbsp;추진&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;주도&nbsp;개발을&nbsp;통한&nbsp;민간투자&nbsp;유도&nbsp;및&nbsp;지역경제&nbsp;활성화<br>&nbsp;&nbsp;○&nbsp;수익사업과&nbsp;공익사업을&nbsp;병행하는&nbsp;자립형&nbsp;공기업&nbsp;모델&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;설립&nbsp;타당성&nbsp;검토&nbsp;및&nbsp;기본계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;단계적&nbsp;설립&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;초기에는&nbsp;시설관리공단&nbsp;또는&nbsp;출자·출연기관&nbsp;형태&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이후&nbsp;개발공사로&nbsp;단계적&nbsp;전환&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;핵심&nbsp;사업&nbsp;설정&nbsp;및&nbsp;추진&nbsp;:&nbsp;추모공원,&nbsp;실버타운&nbsp;개발&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공공&nbsp;주도&nbsp;개발&nbsp;후&nbsp;민간&nbsp;참여&nbsp;확대&nbsp;구조&nbsp;설계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;출자금&nbsp;기반&nbsp;설립&nbsp;후&nbsp;사업별&nbsp;SPC(특수목적법인)&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;수익사업&nbsp;(임대,&nbsp;분양,&nbsp;운영)과&nbsp;공익사업&nbsp;병행<br>&nbsp;&nbsp;○&nbsp;전문&nbsp;인력&nbsp;확보&nbsp;:&nbsp;전문가&nbsp;채용,&nbsp;외부&nbsp;전문기관&nbsp;협력체계&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;단기&nbsp;(1~2년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;타당성&nbsp;조사&nbsp;및&nbsp;기본계획&nbsp;수립,&nbsp;조직&nbsp;형태&nbsp;결정&nbsp;및&nbsp;설립&nbsp;절차&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;중기(&nbsp;3~5년)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공사&nbsp;설립&nbsp;및&nbsp;시범사업&nbsp;추진,&nbsp;주요&nbsp;개발사업&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;장기&nbsp;(5년&nbsp;이후)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;사업&nbsp;확대&nbsp;및&nbsp;수익구조&nbsp;안정화,&nbsp;지역개발&nbsp;플랫폼으로&nbsp;기능&nbsp;정착<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;총사업비&nbsp;:&nbsp;100억원&nbsp;~&nbsp;300억원<br>&nbsp;&nbsp;○&nbsp;재원구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군&nbsp;출자금(50%)&nbsp;:&nbsp;&nbsp;50억원&nbsp;~&nbsp;150억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비·도비(20%)&nbsp;:&nbsp;20억원&nbsp;~&nbsp;60억원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;국토교통부&nbsp;:&nbsp;도시재생사업,&nbsp;공공주택사업&nbsp;등&nbsp;개발사업&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;행정안전부&nbsp;:&nbsp;지방공기업&nbsp;경영혁신&nbsp;지원사업,&nbsp;특별교부세&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→&nbsp;산업통상자원부·중소벤처기업부&nbsp;:&nbsp;산업단지,&nbsp;지역상권&nbsp;개발사업&nbsp;연계&nbsp;※&nbsp;"지방소멸&nbsp;대응&nbsp;+&nbsp;지역개발&nbsp;플랫폼&nbsp;논리&nbsp;적용"<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간투자&nbsp;및&nbsp;금융(30%)&nbsp;:&nbsp;30억원&nbsp;~&nbsp;90억원<br>&nbsp;&nbsp;○&nbsp;군비&nbsp;부담<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;50억&nbsp;~150억원&nbsp;수준(단계적&nbsp;출자,&nbsp;5년&nbsp;분산투자시&nbsp;년간&nbsp;10억~&nbsp;20억원)<br>&nbsp;&nbsp;○&nbsp;주요&nbsp;재원&nbsp;사용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;초기&nbsp;자본금&nbsp;및&nbsp;운영비&nbsp;:&nbsp;30억원&nbsp;~&nbsp;90억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;개발사업&nbsp;투자&nbsp;재원&nbsp;:&nbsp;50억원&nbsp;150억원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전문인력&nbsp;확보&nbsp;및&nbsp;조직&nbsp;운영&nbsp;:&nbsp;20억원&nbsp;~&nbsp;60억원</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

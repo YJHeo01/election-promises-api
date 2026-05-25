@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;서필상 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	함양역사 유치 및 광역 철도망 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="함양역사 유치 및 광역 철도망 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;대전~함양~진주&nbsp;간&nbsp;노선의&nbsp;국가&nbsp;계획&nbsp;반영&nbsp;및&nbsp;철도&nbsp;교차&nbsp;구간&nbsp;내&nbsp;함양역사&nbsp;설치&nbsp;추진으로&nbsp;교통편익&nbsp;및&nbsp;유통&nbsp;물류의&nbsp;거점&nbsp;확보<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;중앙정부&nbsp;협력을&nbsp;통한&nbsp;국가&nbsp;철도망&nbsp;구축&nbsp;계획&nbsp;반영&nbsp;및&nbsp;관련&nbsp;부처&nbsp;협의<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제6차&nbsp;국가&nbsp;철도망&nbsp;구축계획&nbsp;대전&nbsp;함양&nbsp;진주&nbsp;간&nbsp;노선&nbsp;신청<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대구&nbsp;광주간&nbsp;달빛&nbsp;철도&nbsp;함양역&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광역시도&nbsp;및&nbsp;해당&nbsp;지자체&nbsp;공동&nbsp;추진위&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지리산권&nbsp;함양-&nbsp;산청-&nbsp;하동-&nbsp;구례-&nbsp;남원&nbsp;순환&nbsp;열차&nbsp;신설<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;중&nbsp;지속<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	농어촌 기본소득 및 햇빛 연금소득 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="농어촌 기본소득 및 햇빛 연금소득 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농어촌&nbsp;기본소득&nbsp;월&nbsp;15만&nbsp;원&nbsp;지급&nbsp;및&nbsp;마을&nbsp;단위&nbsp;햇빛&nbsp;연금&nbsp;모델&nbsp;구축을&nbsp;통한&nbsp;소득&nbsp;증대&nbsp;및&nbsp;지역소멸&nbsp;인구소멸&nbsp;해소<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;도비&nbsp;매칭&nbsp;사업&nbsp;추진&nbsp;및&nbsp;마을별&nbsp;태양광&nbsp;발전&nbsp;등&nbsp;수익&nbsp;공유&nbsp;시스템&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광역도와&nbsp;매칭&nbsp;기본소득&nbsp;지원조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;햇빛&nbsp;연금소득&nbsp;및&nbsp;에너지&nbsp;자립마을&nbsp;100개&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;마을별&nbsp;협동조합&nbsp;설립&nbsp;및&nbsp;청년&nbsp;마을활동가&nbsp;발굴<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농어촌기본소득&nbsp;사용처&nbsp;확대&nbsp;및&nbsp;기본소득지원팀&nbsp;신설<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;중&nbsp;지속<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;연간&nbsp;630억&nbsp;원&nbsp;(국비&nbsp;40%,&nbsp;도비&nbsp;30%,&nbsp;군비&nbsp;30%)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	군민 소통 중심의 열린 행정 혁신</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="군민 소통 중심의 열린 행정 혁신">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;군수실&nbsp;1층&nbsp;이전&nbsp;및&nbsp;행정&nbsp;정보(전화번호,&nbsp;업무추진비)&nbsp;투명&nbsp;공개로&nbsp;문턱&nbsp;낮은&nbsp;군정&nbsp;실현으로&nbsp;군민이&nbsp;주인인&nbsp;행정&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;군청사&nbsp;내&nbsp;군수실&nbsp;재배치&nbsp;및&nbsp;상시&nbsp;정보&nbsp;공개&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군수실&nbsp;개방&nbsp;및&nbsp;군수실&nbsp;cctv&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;업무추진비&nbsp;공개&nbsp;및&nbsp;간부회의&nbsp;공개<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군수직속&nbsp;공공갈등&nbsp;조정위원회&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;sns&nbsp;소통&nbsp;담당관&nbsp;및&nbsp;군청사내&nbsp;언론&nbsp;브리핑&nbsp;룸&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;군청&nbsp;읍사무소&nbsp;민원인&nbsp;전용&nbsp;주차공간&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;찾아가는&nbsp;원스톱&nbsp;행정&nbsp;민원봉사실&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;~<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	상림 숲 유네스코 세계문화유산 등재</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="상림 숲 유네스코 세계문화유산 등재">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;상림&nbsp;숲의&nbsp;역사적·문화적&nbsp;가치를&nbsp;세계적으로&nbsp;인정받아&nbsp;브랜드&nbsp;가치&nbsp;제고&nbsp;및&nbsp;문화&nbsp;역사&nbsp;관광의&nbsp;중심도시로&nbsp;성장<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;학술&nbsp;연구,&nbsp;보존&nbsp;관리&nbsp;계획&nbsp;수립&nbsp;및&nbsp;유네스코&nbsp;등재&nbsp;절차&nbsp;이행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;유네스코&nbsp;세계문화유산&nbsp;등재&nbsp;범군민&nbsp;추진위&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;전국&nbsp;단위&nbsp;홍보&nbsp;활동&nbsp;전개&nbsp;(&nbsp;기념&nbsp;마라톤대회&nbsp;등&nbsp;)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상림&nbsp;소하천&nbsp;친환경&nbsp;물레방아&nbsp;단지&nbsp;조성&nbsp;및&nbsp;재생에너지&nbsp;발전<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;하림&nbsp;도축장&nbsp;및&nbsp;군부대&nbsp;이전계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상림숲&nbsp;내&nbsp;상수도&nbsp;취수원&nbsp;저수지&nbsp;이전<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;~<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;군비/도비/국비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	교통 복지 실현을 위한 교통 운영 체계 개편</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="교통 복지 실현을 위한 교통 운영 체계 개편">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;군내버스&nbsp;공영제&nbsp;실시&nbsp;및&nbsp;전통시장~터미널&nbsp;간&nbsp;저상&nbsp;셔틀버스&nbsp;운행으로&nbsp;군민의&nbsp;이동권&nbsp;및&nbsp;안전확보&nbsp;교통&nbsp;편익&nbsp;제공<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;버스&nbsp;운영&nbsp;체계&nbsp;공공&nbsp;전환&nbsp;및&nbsp;교통&nbsp;약자를&nbsp;위한&nbsp;맞춤형&nbsp;셔틀&nbsp;노선&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;버스요금&nbsp;무료&nbsp;및&nbsp;버스노선&nbsp;확보&nbsp;배차시간&nbsp;조정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;버스터미널&nbsp;시설개선&nbsp;및&nbsp;셔틀버스&nbsp;승강장&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공영주차장&nbsp;주차료&nbsp;면제&nbsp;및&nbsp;무료이용&nbsp;전동자전거&nbsp;운행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;링형&nbsp;건널목&nbsp;설치&nbsp;및&nbsp;회전교차로&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영유아&nbsp;청소년&nbsp;바우처&nbsp;택시&nbsp;확대&nbsp;및&nbsp;이용한도&nbsp;조정<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;중&nbsp;지속<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;군비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;홍희진 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	모두의 안심주거도시 성북</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="모두의 안심주거도시 성북">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;주거를&nbsp;권리로&nbsp;보장하는&nbsp;성북&nbsp;―&nbsp;청년부터&nbsp;세입자까지,&nbsp;누구도&nbsp;집&nbsp;때문에&nbsp;내몰리지&nbsp;않는&nbsp;안전한&nbsp;주거도시&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;상생학사·반값기숙사&nbsp;공급<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관내&nbsp;대학·SH공사&nbsp;협약&nbsp;체결,&nbsp;공실·매입임대&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;청년주거감독관&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구청&nbsp;내&nbsp;전담&nbsp;감독관&nbsp;신설,&nbsp;불법·열악&nbsp;주거환경&nbsp;점검&nbsp;및&nbsp;관리<br>&nbsp;&nbsp;○&nbsp;전세사기&nbsp;피해자&nbsp;지원&nbsp;및&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;'전세사기&nbsp;피해자&nbsp;지원&nbsp;및&nbsp;주거안정에&nbsp;관한&nbsp;조례'&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;피해자&nbsp;전담팀&nbsp;운영(법률·심리·이주비&nbsp;원스톱&nbsp;지원)<br>&nbsp;&nbsp;○&nbsp;정릉골&nbsp;재개발구역&nbsp;세입자&nbsp;주거대책<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;임시거주시설&nbsp;및&nbsp;이주&nbsp;지원&nbsp;대책&nbsp;수립,&nbsp;선대책&nbsp;후철거&nbsp;의무화<br>&nbsp;&nbsp;○&nbsp;특별&nbsp;낙후지역&nbsp;재개발&nbsp;지원&nbsp;제도&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;세입자&nbsp;우선&nbsp;보호&nbsp;지원&nbsp;제도&nbsp;마련<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년&nbsp;(임기&nbsp;내&nbsp;지속&nbsp;추진)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시·구비&nbsp;일반회계&nbsp;및&nbsp;주택도시기금&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;SH공사·LH&nbsp;협력&nbsp;사업&nbsp;매칭&nbsp;예산&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;순세계잉여금&nbsp;일부&nbsp;주거&nbsp;안전망&nbsp;예산&nbsp;우선&nbsp;편성</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	모든 노동자가 존중받는 성북</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="모든 노동자가 존중받는 성북">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;일하는&nbsp;모두의&nbsp;건강과&nbsp;권리가&nbsp;보장되는&nbsp;성북&nbsp;―&nbsp;플랫폼·필수·공무원&nbsp;노동자&nbsp;모두가&nbsp;안전하고&nbsp;공정한&nbsp;조건에서&nbsp;일할&nbsp;수&nbsp;있는&nbsp;노동환경&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;필수·플랫폼&nbsp;노동자&nbsp;쉼터&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;배달·돌봄·청소&nbsp;등&nbsp;필수·플랫폼&nbsp;노동자&nbsp;전용&nbsp;쉼터&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;야간·불안정노동자&nbsp;추가&nbsp;건강검진&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간·불안정&nbsp;노동자&nbsp;대상&nbsp;연1회&nbsp;추가&nbsp;건강검진&nbsp;비용&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;공무원&nbsp;노동조건&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정치기본권·노동기본권&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공무원&nbsp;노동자&nbsp;노동조건&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;'쉬었음&nbsp;청년'&nbsp;지원&nbsp;정책<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구직단념&nbsp;청년&nbsp;맞춤&nbsp;상담·취업&nbsp;연계·심리&nbsp;지원&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년&nbsp;(임기&nbsp;내&nbsp;지속&nbsp;추진)<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시·구비&nbsp;및&nbsp;일반회계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	차별 없이 모두가 함께하는 성북</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="차별 없이 모두가 함께하는 성북">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;&nbsp;장애를&nbsp;이유로&nbsp;배제되지&nbsp;않는&nbsp;성북&nbsp;―&nbsp;이동·교육·일자리·자립·건강&nbsp;등&nbsp;삶의&nbsp;전&nbsp;영역에서&nbsp;장애인&nbsp;권리가&nbsp;실현되는&nbsp;완전한&nbsp;사회참여&nbsp;보장<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;성북구장애인차별철폐선거연대&nbsp;중점요구안&nbsp;이행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이동권:&nbsp;저상버스&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;평생교육:&nbsp;장애인&nbsp;평생교육&nbsp;시설·프로그램&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;권리중심&nbsp;공공일자리&nbsp;대폭&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;탈시설&nbsp;권리&nbsp;실현:&nbsp;탈시설&nbsp;지원&nbsp;전담팀&nbsp;운영&nbsp;및&nbsp;지역사회&nbsp;자립생활&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;권리기반&nbsp;활동지원&nbsp;강화:&nbsp;활동지원&nbsp;시간&nbsp;확대&nbsp;및&nbsp;서비스&nbsp;질&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;자립생활&nbsp;지원:&nbsp;자립생활센터&nbsp;확충&nbsp;및&nbsp;운영&nbsp;예산&nbsp;증액<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건강권&nbsp;보장:&nbsp;장애인&nbsp;건강검진&nbsp;접근성&nbsp;강화&nbsp;및&nbsp;전문&nbsp;의료&nbsp;연계<br>&nbsp;○&nbsp;이동약자&nbsp;접근성&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경사로&nbsp;설치&nbsp;지원사업&nbsp;대상·예산&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;지원사업&nbsp;신청&nbsp;절차&nbsp;간소화&nbsp;등&nbsp;운영&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경사로&nbsp;지원사업&nbsp;홈페이지&nbsp;구축(정보&nbsp;접근성&nbsp;제고)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;경사로&nbsp;설치&nbsp;참여&nbsp;유도&nbsp;인센티브&nbsp;정책&nbsp;시행<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년&nbsp;(임기&nbsp;내&nbsp;지속&nbsp;추진)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시·구비&nbsp;및&nbsp;일반회계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	문화권리가 꽃피는 성북</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="문화권리가 꽃피는 성북">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;&nbsp;예술인과&nbsp;시민이&nbsp;함께&nbsp;만드는&nbsp;성북&nbsp;―&nbsp;창작하는&nbsp;사람의&nbsp;권리와&nbsp;향유하는&nbsp;사람의&nbsp;권리가&nbsp;동시에&nbsp;보장되는&nbsp;문화민주주의&nbsp;실현<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;문화예술&nbsp;기반&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;'성북구&nbsp;지역문화&nbsp;활성화를&nbsp;위한&nbsp;기본&nbsp;조례'&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;'성북구&nbsp;예술인의&nbsp;지위와&nbsp;권리&nbsp;보장을&nbsp;위한&nbsp;조례'&nbsp;제정<br>&nbsp;&nbsp;○&nbsp;성북&nbsp;시민&nbsp;문화권&nbsp;선언&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;모든&nbsp;구민의&nbsp;문화&nbsp;향유&nbsp;권리&nbsp;공식&nbsp;선언<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;문화소외지역·취약계층&nbsp;대상&nbsp;찾아가는&nbsp;문화&nbsp;프로그램&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;문화민주주의&nbsp;거버넌스&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;민간-지방정부-의회&nbsp;문화정책&nbsp;협의체&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;시민&nbsp;참여형&nbsp;문화예산&nbsp;편성&nbsp;및&nbsp;공개&nbsp;심의&nbsp;제도&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년&nbsp;(임기&nbsp;내&nbsp;지속&nbsp;추진)<br>&nbsp;&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시·구비&nbsp;및&nbsp;일반회계</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	돌봄과 인권이 살아있는 성북</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="돌봄과 인권이 살아있는 성북">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;공공이&nbsp;책임지는&nbsp;돌봄,&nbsp;다양한&nbsp;삶을&nbsp;존중하는&nbsp;인권&nbsp;―&nbsp;생애주기와&nbsp;관계&nbsp;형태에&nbsp;상관없이&nbsp;누구나&nbsp;돌봄받고&nbsp;존엄하게&nbsp;살&nbsp;수&nbsp;있는&nbsp;도시&nbsp;실현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;통합돌봄국&nbsp;신설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구청&nbsp;내&nbsp;통합돌봄국&nbsp;신설,&nbsp;의료-요양-복지&nbsp;원스톱&nbsp;총괄<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;돌봄&nbsp;노동자&nbsp;처우&nbsp;개선&nbsp;및&nbsp;전용&nbsp;쉼터·심리상담&nbsp;지원&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;성북인권조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘성북구&nbsp;인권&nbsp;조례'&nbsp;제정,&nbsp;인권영향평가제&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;생활동반자&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;혼인·혈연&nbsp;외&nbsp;다양한&nbsp;생활동반자&nbsp;관계&nbsp;지원&nbsp;조례&nbsp;제정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;생활동반자&nbsp;등록제를&nbsp;통한&nbsp;행정&nbsp;서비스&nbsp;접근권&nbsp;보장<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년~2030년&nbsp;(임기&nbsp;내&nbsp;지속&nbsp;추진)<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국·시비&nbsp;통합돌봄&nbsp;시범사업&nbsp;매칭&nbsp;예산&nbsp;및&nbsp;구비&nbsp;사회복지기금&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;서울시&nbsp;사회서비스원&nbsp;연계를&nbsp;통한&nbsp;인건비·운영비&nbsp;효율화<br>&nbsp;&nbsp;○&nbsp;순세계잉여금&nbsp;일부&nbsp;돌봄·인권&nbsp;분야&nbsp;예산&nbsp;우선&nbsp;편성</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

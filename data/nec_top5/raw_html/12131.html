@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김선민 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	부산항 제3신항 거제 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="부산항 제3신항 거제 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br><br>&nbsp;&nbsp;○&nbsp;국가&nbsp;물류&nbsp;공급절벽&nbsp;해소&nbsp;및&nbsp;북극항로(NSR)시대&nbsp;선제&nbsp;대응<br>&nbsp;&nbsp;○&nbsp;제5세대&nbsp;복합항만&nbsp;구축을&nbsp;통한&nbsp;거제&nbsp;항만&nbsp;경쟁력&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;10만&nbsp;일자리&nbsp;창출&nbsp;및&nbsp;40조&nbsp;원&nbsp;규모의&nbsp;경제효과&nbsp;기대<br><br>□&nbsp;이행방법&nbsp;<br><br>&nbsp;&nbsp;단계별&nbsp;로드맵에&nbsp;따라&nbsp;임기&nbsp;내&nbsp;국가계획&nbsp;반영을&nbsp;추구한다.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;·2026~2027년(준비기)&nbsp;:&nbsp;타당성&nbsp;확보를&nbsp;위한&nbsp;조사용역&nbsp;발주,&nbsp;경상남도&nbsp;및&nbsp;해양수산부에&nbsp;공식적&nbsp;제기·공론화<br><br>&nbsp;&nbsp;&nbsp;&nbsp;·2028~2029년(결정기)&nbsp;:&nbsp;제5차&nbsp;항만기본계획(2031~2040)&nbsp;반영을&nbsp;위해&nbsp;장목·대금·구영&nbsp;해역&nbsp;등&nbsp;후보지를&nbsp;선정하고&nbsp;행정·정치적&nbsp;역량&nbsp;집중<br><br>&nbsp;&nbsp;&nbsp;&nbsp;·2030년(확정기)&nbsp;:&nbsp;부산항&nbsp;제3신항&nbsp;거제&nbsp;유치의&nbsp;국가계획&nbsp;최종&nbsp;반영·고시&nbsp;및&nbsp;예비&nbsp;타당성조사&nbsp;추진<br><br>□&nbsp;이행기간&nbsp;<br>&nbsp;&nbsp;○임기&nbsp;중&nbsp;지속추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	철도·공항·항만. 관광 연계 AI 시대 기반 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="철도·공항·항만. 관광 연계 AI 시대 기반 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br><br>&nbsp;&nbsp;○&nbsp;거제발전&nbsp;AI&nbsp;데이터&nbsp;플랫폼&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;KTX역세권&nbsp;환승센터&nbsp;완비&nbsp;및&nbsp;‘데이터&nbsp;각(閣)&nbsp;거제’&nbsp;유치&nbsp;<br>&nbsp;&nbsp;○&nbsp;체류형&nbsp;관광&nbsp;산업단지&nbsp;조기조성<br>&nbsp;&nbsp;○&nbsp;가덕&nbsp;신공항&nbsp;배후도시&nbsp;조성&nbsp;및&nbsp;광역&nbsp;교통망&nbsp;조기완성<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기반&nbsp;도심&nbsp;안전·교통&nbsp;스마트&nbsp;시티&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;도로·교통,&nbsp;문화·관광,&nbsp;도시개발,&nbsp;보건·복지,&nbsp;교육·체육,&nbsp;환경·안전을&nbsp;총괄하는&nbsp;거제&nbsp;미래전략&nbsp;싱트탱크&nbsp;운영&nbsp;<br>&nbsp;&nbsp;○&nbsp;고현터미널~KTX&nbsp;거제역을&nbsp;연계한&nbsp;효율적&nbsp;환승체계&nbsp;마련&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;기업혁신파크&nbsp;조기추진&nbsp;및&nbsp;데이터센터&nbsp;유치를&nbsp;위한&nbsp;네이버클라우드&nbsp;등&nbsp;기업과&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;거가대교&nbsp;운영권&nbsp;인수.반값&nbsp;통행료<br>&nbsp;&nbsp;○&nbsp;거제~마산(국도5호선)육상부,해상부&nbsp;전체&nbsp;조기개통&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;거제-가덕신공항&nbsp;연결&nbsp;철도의&nbsp;제5차&nbsp;국가철도망&nbsp;구축계획&nbsp;반영<br>&nbsp;&nbsp;○&nbsp;거제-통영&nbsp;고속도로&nbsp;연장&nbsp;조기&nbsp;완공<br>&nbsp;&nbsp;○&nbsp;거제&nbsp;남부관광단지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;한.아세안&nbsp;국가정원&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;신공항배후도시&nbsp;문화관광산업특구&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기반&nbsp;수요응답형&nbsp;도심&nbsp;콜버스&nbsp;도입&nbsp;및&nbsp;공영주차장&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;거제&nbsp;전지역&nbsp;AI기반&nbsp;대중교통&nbsp;체계&nbsp;전면개편<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○임기&nbsp;중&nbsp;지속추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	조선산업 상생·동반성장 모델 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="조선산업 상생·동반성장 모델 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br><br>&nbsp;&nbsp;○&nbsp;조선&nbsp;호황이&nbsp;지역경제회복으로&nbsp;이어지는&nbsp;선순환&nbsp;구조&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;미래성장동력&nbsp;확보를&nbsp;위한&nbsp;중·소규모&nbsp;산업단지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;내국인&nbsp;근로자&nbsp;채용&nbsp;확대&nbsp;및&nbsp;청년&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;조선업&nbsp;노동자&nbsp;복지향상&nbsp;추진<br><br>□&nbsp;이행방법<br><br>&nbsp;&nbsp;○&nbsp;외국인&nbsp;노동자&nbsp;성과급·인센티브의&nbsp;30%를&nbsp;선택형으로&nbsp;참여,&nbsp;참여자에게는&nbsp;일정비율&nbsp;시와&nbsp;매칭&nbsp;거제사랑상품권으로&nbsp;지급&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;직영+협력사&nbsp;상생임금제&nbsp;단계적&nbsp;도입,협력체결&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;거제&nbsp;소·부·장&nbsp;특화단지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;거제공업고등학교·거제대학교&nbsp;학생&nbsp;대상&nbsp;양대&nbsp;조선소&nbsp;연&nbsp;50명&nbsp;채용&nbsp;확대&nbsp;협약&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;내국인&nbsp;채용&nbsp;확대&nbsp;기업에&nbsp;대한&nbsp;세금&nbsp;감면&nbsp;등&nbsp;인센티브&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;청년·숙련공&nbsp;정착을&nbsp;위한&nbsp;주거·통근·보육&nbsp;패키지&nbsp;지원확대&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;거제&nbsp;심혈관&nbsp;센터&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;주52시간제&nbsp;탄력적&nbsp;운용을&nbsp;위한&nbsp;입법&nbsp;건의&nbsp;및&nbsp;국회협력단&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;KTX&nbsp;역세권에&nbsp;해양·조선·모빌리티&nbsp;클러스터&nbsp;및&nbsp;해상풍력&nbsp;등&nbsp;신규&nbsp;해양&nbsp;에너지&nbsp;산업&nbsp;유치(양대&nbsp;조선소&nbsp;협약&nbsp;추진)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○임기&nbsp;중&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○도비,&nbsp;시비,&nbsp;민자</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	지역경제 활성화 및 소상공인 지원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="지역경제 활성화 및 소상공인 지원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br><br>&nbsp;&nbsp;○&nbsp;지역경제&nbsp;내수&nbsp;진작&nbsp;및&nbsp;골목상권&nbsp;회복<br>&nbsp;&nbsp;○&nbsp;소상공인·자영업자의&nbsp;경영&nbsp;안정&nbsp;및&nbsp;활력&nbsp;제고<br>&nbsp;&nbsp;○&nbsp;시민&nbsp;체감형&nbsp;생활경제&nbsp;여건&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;민생위기&nbsp;지원&nbsp;상시조례제정,&nbsp;재난과&nbsp;경제위기&nbsp;상황시&nbsp;최대100만원&nbsp;규모&nbsp;민생지원금&nbsp;지급&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;거제사랑상품권&nbsp;발행&nbsp;규모&nbsp;4,000억&nbsp;원대&nbsp;확대&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;공공회의&nbsp;수당,&nbsp;장려금,&nbsp;외국인&nbsp;노동자&nbsp;지원금&nbsp;등을&nbsp;지역화폐로&nbsp;지급&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;민간기업의&nbsp;수당&nbsp;지급&nbsp;시&nbsp;지역화폐&nbsp;참여&nbsp;협약&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;카드수수료&nbsp;지원(최대&nbsp;40만원)<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;운영비&nbsp;전용카드&nbsp;발급<br>&nbsp;&nbsp;&nbsp;&nbsp;(한도&nbsp;1,000만원&nbsp;6개월&nbsp;무이자.&nbsp;연회비&nbsp;면제,&nbsp;연&nbsp;10만원&nbsp;한도&nbsp;3%캐시백)<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;상시형&nbsp;안심통장&nbsp;개설<br>&nbsp;&nbsp;&nbsp;&nbsp;(한도&nbsp;1,000만&nbsp;원,&nbsp;마이너스통장&nbsp;방식,&nbsp;저매출·저신용&nbsp;직전&nbsp;구간&nbsp;우선&nbsp;지원)<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;반값&nbsp;택배비&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;(구조적&nbsp;지원,&nbsp;집화센터&nbsp;직접&nbsp;접수&nbsp;1,500원.&nbsp;사업장&nbsp;방문&nbsp;픽업&nbsp;2,500원)<br>&nbsp;&nbsp;○&nbsp;거제시민&nbsp;행복&nbsp;멤버십&nbsp;카드&nbsp;발행<br>&nbsp;&nbsp;&nbsp;&nbsp;(19세&nbsp;이상&nbsp;연&nbsp;15만&nbsp;원,&nbsp;쇼핑·진료·문화시설&nbsp;할인,&nbsp;임산비&nbsp;및&nbsp;70세&nbsp;이상&nbsp;대중교통&nbsp;전액&nbsp;면제&nbsp;등)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○임기&nbsp;중&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	시민 모두가 행복한 생활복지</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="시민 모두가 행복한 생활복지">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표&nbsp;<br>&nbsp;&nbsp;○&nbsp;아동&nbsp;안전&nbsp;최우선&nbsp;환경&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;자녀&nbsp;키우기&nbsp;좋은&nbsp;양육&nbsp;친화&nbsp;도시&nbsp;구현<br>&nbsp;&nbsp;○&nbsp;청소년&nbsp;문화.교육.진로.복지환경&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;장애인의&nbsp;삶이&nbsp;곧&nbsp;도시의&nbsp;폼격이되며,누구도&nbsp;배제되지&nbsp;않는&nbsp;포용도시실현<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;공경을&nbsp;통한&nbsp;노년의&nbsp;행복&nbsp;증진<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;종합병원&nbsp;연계&nbsp;산부인과(분만실)&nbsp;운영&nbsp;및&nbsp;공공산후조리원&nbsp;건립&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;달빛어린이&nbsp;병원확대&nbsp;지정&nbsp;및&nbsp;24시간&nbsp;소아응급실&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;AI&nbsp;기반&nbsp;아동&nbsp;안전·교통&nbsp;스마트시티&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;거제&nbsp;자녀&nbsp;교육지원비&nbsp;최대&nbsp;50만원&nbsp;지급&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;거제형&nbsp;자녀쑥쑥지원금&nbsp;연령별&nbsp;단계적&nbsp;확대&nbsp;지급&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;(1~7세&nbsp;연100만원,&nbsp;8~18세&nbsp;월15만원)<br>&nbsp;&nbsp;○&nbsp;거제&nbsp;놀토피아&nbsp;및&nbsp;진로체험관(키자니아형)&nbsp;건립추진<br>&nbsp;&nbsp;○&nbsp;어린이&nbsp;중앙도서관,&nbsp;공공영어도서관&nbsp;및&nbsp;영어체험센터&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;사립어린이집&nbsp;반별&nbsp;운영비&nbsp;현실화(월30만원)&nbsp;및&nbsp;급·간식비&nbsp;인상&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;KAIST&nbsp;연계&nbsp;사이언스&nbsp;영재원&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;청소년&nbsp;복합문화센터&nbsp;건립<br>&nbsp;&nbsp;○&nbsp;생애주기별&nbsp;맞춤형&nbsp;통합지원체계&nbsp;구축/참여와&nbsp;자립을&nbsp;기반으로&nbsp;한&nbsp;지속가능한&nbsp;복지모델&nbsp;확립/권리&nbsp;중심&nbsp;장애인정책&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;노인&nbsp;일자리&nbsp;확대&nbsp;및&nbsp;마을&nbsp;경로당&nbsp;리모델링(노후)&nbsp;및&nbsp;부식지원비&nbsp;인상(30만원)<br>&nbsp;&nbsp;○&nbsp;노인회관&nbsp;신축&nbsp;및&nbsp;권역별&nbsp;메가&nbsp;파크&nbsp;골프장&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;효도밥상&nbsp;주7일&nbsp;경로당&nbsp;무료점심&nbsp;제공<br>&nbsp;&nbsp;○&nbsp;국가유공자&nbsp;지원금&nbsp;인상(40만원)<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○임기&nbsp;중&nbsp;지속추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○국비,&nbsp;도비,&nbsp;시비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

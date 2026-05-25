@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;정영두 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	전 시민 대상 ‘민생지원금’ 지급</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="전 시민 대상 ‘민생지원금’ 지급">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;후&nbsp;100일&nbsp;이내,&nbsp;김해&nbsp;시민&nbsp;56만&nbsp;명&nbsp;전원에게&nbsp;'민생회복지원금(1인당&nbsp;10만&nbsp;원)'&nbsp;지급<br>&nbsp;&nbsp;○&nbsp;전액&nbsp;'김해사랑상품권(지역화폐)'&nbsp;지급을&nbsp;통한&nbsp;지역&nbsp;자금&nbsp;역외&nbsp;유출&nbsp;100%&nbsp;차단<br>&nbsp;&nbsp;○&nbsp;지원금&nbsp;사용&nbsp;기한(3개월)&nbsp;설정을&nbsp;통한&nbsp;단기&nbsp;골목상권&nbsp;매출&nbsp;수백억&nbsp;원&nbsp;즉각&nbsp;증대<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;소득에&nbsp;상관없이&nbsp;모든&nbsp;시민에게&nbsp;취임&nbsp;100일&nbsp;이내에&nbsp;시민1인당&nbsp;10만원'민생지원금&nbsp;지급<br>&nbsp;&nbsp;○&nbsp;골목상권&nbsp;타겟팅&nbsp;'착한&nbsp;소비'&nbsp;강제화:&nbsp;대형마트,&nbsp;유흥업소,&nbsp;프랜차이즈&nbsp;직영점에서는&nbsp;사용할&nbsp;수&nbsp;없는&nbsp;'지역화폐(김해페이)'로만&nbsp;지급하고,&nbsp;3개월&nbsp;이내&nbsp;사용하지&nbsp;않으면&nbsp;소멸하도록&nbsp;설계하여&nbsp;동네&nbsp;슈퍼,&nbsp;시장,&nbsp;식당으로의&nbsp;즉각적인&nbsp;소비&nbsp;강제&nbsp;견인.<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;취임&nbsp;100일&nbsp;이내&nbsp;지급완료<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;후속&nbsp;상권&nbsp;활성화&nbsp;정책으로&nbsp;전환<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;2026년도&nbsp;순세계&nbsp;잉여금&nbsp;교부세&nbsp;증가분&nbsp;기타&nbsp;지방세를&nbsp;활용하여&nbsp;전액&nbsp;자체&nbsp;조달</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	KTX 및 광역철도 교차 '김해역' 전격 신설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="KTX 및 광역철도 교차 '김해역' 전격 신설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;KTX와&nbsp;SRT,&nbsp;부울경&nbsp;광역전철이&nbsp;정차하는&nbsp;초광역&nbsp;환승&nbsp;거점&nbsp;'김해역'&nbsp;신설을&nbsp;국토부&nbsp;기본계획에&nbsp;반영하고,&nbsp;칠산&nbsp;서부동&nbsp;일원&nbsp;100만&nbsp;평&nbsp;규모를&nbsp;스마트&nbsp;역세권&nbsp;복합신도시로&nbsp;개발합니다.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;부울경&nbsp;광역철도와&nbsp;남부내륙철도&nbsp;노선이&nbsp;만나는&nbsp;칠산&nbsp;서부동&nbsp;일원에&nbsp;'김해역'을&nbsp;신설하고,&nbsp;국토교통부&nbsp;철도망&nbsp;구축계획에&nbsp;필수&nbsp;정차역으로&nbsp;반영합니다&nbsp;<br>&nbsp;&nbsp;○&nbsp;김해&nbsp;통합&nbsp;모빌리티(MaaS)&nbsp;터미널을&nbsp;구축하여&nbsp;UAM&nbsp;버티포트,&nbsp;자율주행&nbsp;버스&nbsp;환승&nbsp;센터&nbsp;등을&nbsp;연계합니다&nbsp;.<br>&nbsp;&nbsp;○&nbsp;농경지로&nbsp;방치된&nbsp;칠산&nbsp;서부동&nbsp;일대&nbsp;부지를&nbsp;그린벨트&nbsp;해제하여&nbsp;100만&nbsp;평&nbsp;규모의&nbsp;'스마트&nbsp;복합신도시'로&nbsp;지정하고,&nbsp;물류&nbsp;플랫폼&nbsp;및&nbsp;비즈니스&nbsp;타운을&nbsp;조성합니다.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;타당성&nbsp;조사&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;2029년&nbsp;스마트&nbsp;복합신도시&nbsp;부지조성&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;2030년&nbsp;KTX&nbsp;김해역&nbsp;전격&nbsp;개통<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;김해역&nbsp;철도&nbsp;역사&nbsp;신설은&nbsp;국토교통부&nbsp;국비로&nbsp;전액&nbsp;조달<br>&nbsp;&nbsp;○&nbsp;역세권&nbsp;개발은&nbsp;공공기관&nbsp;공영개발과&nbsp;민간&nbsp;건설사&nbsp;자본&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	장유터미널 조기 개통</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="장유터미널 조기 개통">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;취임&nbsp;즉시&nbsp;민관&nbsp;합동&nbsp;TF를&nbsp;가동하여&nbsp;장유터미널&nbsp;조기&nbsp;개통을&nbsp;완수하고,&nbsp;서울&nbsp;및&nbsp;공항&nbsp;등&nbsp;주요&nbsp;시외·고속버스&nbsp;노선&nbsp;유치<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;시장&nbsp;직속&nbsp;'장유터미널&nbsp;정상화&nbsp;기동반'을&nbsp;투입하여&nbsp;시공&nbsp;및&nbsp;운영상의&nbsp;갈등,&nbsp;행정&nbsp;규제&nbsp;문제를&nbsp;즉시&nbsp;해결합니다&nbsp;.<br>&nbsp;&nbsp;○&nbsp;터미널&nbsp;개통에&nbsp;발맞춰&nbsp;국토부&nbsp;및&nbsp;운수업체와&nbsp;협의하여&nbsp;서울,&nbsp;인천공항,&nbsp;김해공항&nbsp;등을&nbsp;잇는&nbsp;핵심&nbsp;노선을&nbsp;집중&nbsp;배차합니다&nbsp;.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;장유터미널&nbsp;조기&nbsp;개통&nbsp;및&nbsp;핵심&nbsp;노선&nbsp;운행&nbsp;개시<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;장거리&nbsp;노선&nbsp;확대&nbsp;및&nbsp;환승&nbsp;체계&nbsp;완성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시&nbsp;예산(지방비)은&nbsp;신규&nbsp;노선&nbsp;운행&nbsp;초기의&nbsp;손실&nbsp;보전과&nbsp;주변&nbsp;진입&nbsp;인프라&nbsp;정비&nbsp;마중물&nbsp;예산으로&nbsp;집중&nbsp;투입</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	동부경남 김해공공의료원 유치 및 개원</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="동부경남 김해공공의료원 유치 및 개원">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;중증&nbsp;및&nbsp;응급&nbsp;상황을&nbsp;총괄할&nbsp;김해·밀양·양산&nbsp;권역의&nbsp;종합병원급&nbsp;'동부경남&nbsp;김해공공의료원'&nbsp;유치를&nbsp;확정하고,&nbsp;필수의료&nbsp;중심의&nbsp;지역&nbsp;완결형&nbsp;의료&nbsp;체계를&nbsp;완성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;접근성이&nbsp;뛰어난&nbsp;관내&nbsp;유휴&nbsp;부지를&nbsp;선제적으로&nbsp;제시하여&nbsp;경상남도의&nbsp;공공의료원&nbsp;건립&nbsp;결정을&nbsp;확정&nbsp;<br>&nbsp;&nbsp;○&nbsp;24시간&nbsp;소아응급센터,&nbsp;감염병&nbsp;음압병동&nbsp;등&nbsp;수익성이&nbsp;낮아&nbsp;민간이&nbsp;기피하는&nbsp;필수의료&nbsp;중심&nbsp;첨단&nbsp;종합병원으로&nbsp;설계<br>&nbsp;&nbsp;○&nbsp;양산부산대병원은&nbsp;고난도&nbsp;중증&nbsp;진료와&nbsp;전문의&nbsp;수련에&nbsp;집중하고,&nbsp;김해공공의료원은&nbsp;응급&nbsp;초기대응,&nbsp;감염병&nbsp;재난&nbsp;대응,&nbsp;재활,&nbsp;호스피스,&nbsp;소아&nbsp;야간진료&nbsp;등&nbsp;시민의&nbsp;삶에&nbsp;밀착된&nbsp;필수&nbsp;의료와&nbsp;돌봄을&nbsp;전담<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026-2027년&nbsp;부지&nbsp;확정&nbsp;및&nbsp;건립&nbsp;발표<br>&nbsp;&nbsp;○&nbsp;2028년&nbsp;착공식&nbsp;개최&nbsp;<br>&nbsp;&nbsp;○&nbsp;2030년&nbsp;의료원&nbsp;준공&nbsp;및&nbsp;전면&nbsp;개원<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;보건복지부&nbsp;예비타당성&nbsp;조사&nbsp;면제(또는&nbsp;통과)를&nbsp;통해&nbsp;국도비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;시&nbsp;예산으로는&nbsp;부지&nbsp;제공&nbsp;및&nbsp;기반&nbsp;시설&nbsp;조성을&nbsp;담당</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	시 직영 유기동물 보호소 및 반려동식물복지센터 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="시 직영 유기동물 보호소 및 반려동식물복지센터 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;유기동물&nbsp;보호소를&nbsp;100%&nbsp;시&nbsp;직영&nbsp;체제로&nbsp;전면&nbsp;전환하고,&nbsp;안락사율&nbsp;제로화&nbsp;및&nbsp;입양률&nbsp;50%&nbsp;이상&nbsp;달성을&nbsp;목표로&nbsp;하는&nbsp;'김해형&nbsp;반려동물&nbsp;종합&nbsp;복지센터'를&nbsp;건립<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;현재의&nbsp;민간&nbsp;위탁&nbsp;구조를&nbsp;폐지하고&nbsp;직영&nbsp;전환을&nbsp;통해&nbsp;관리&nbsp;감독을&nbsp;강화하며,&nbsp;운영&nbsp;및&nbsp;안락사&nbsp;현황&nbsp;데이터를&nbsp;상시&nbsp;투명하게&nbsp;공개<br>&nbsp;&nbsp;○&nbsp;'안락사&nbsp;심의&nbsp;위원회'를&nbsp;설치하여&nbsp;기준을&nbsp;엄격화하고,&nbsp;입양&nbsp;가정에는&nbsp;초기&nbsp;진료비&nbsp;및&nbsp;펫&nbsp;보험료를&nbsp;파격적으로&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;선진국형&nbsp;입양&nbsp;센터,&nbsp;동물병원,&nbsp;펫티켓&nbsp;교육장을&nbsp;통합한&nbsp;종합&nbsp;복지센터를&nbsp;조성하며,&nbsp;1인&nbsp;가구&nbsp;등을&nbsp;위한&nbsp;'찾아가는&nbsp;반려동·식물&nbsp;복지&nbsp;차량'을&nbsp;운영<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026년&nbsp;실태조사&nbsp;및&nbsp;직영&nbsp;전환&nbsp;착수<br>&nbsp;&nbsp;○&nbsp;2027년&nbsp;복지센터&nbsp;착공&nbsp;및&nbsp;직영&nbsp;출범<br>&nbsp;&nbsp;○&nbsp;2028년&nbsp;복지센터&nbsp;개관<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;복지센터&nbsp;건립은&nbsp;농식품부&nbsp;국비를&nbsp;유치하고,&nbsp;직영&nbsp;전환에&nbsp;따른&nbsp;예산은&nbsp;기존&nbsp;위탁&nbsp;비용의&nbsp;재분배&nbsp;및&nbsp;특별회계를&nbsp;통하여&nbsp;안정적으로&nbsp;마련</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

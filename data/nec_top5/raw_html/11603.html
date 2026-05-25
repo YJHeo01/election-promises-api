@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김재준 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	신재생에너지 수도 완성 : 새만금 RE100 첨단산업도시 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="신재생에너지 수도 완성 : 새만금 RE100 첨단산업도시 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;추진목적&nbsp;및&nbsp;배경<br>&nbsp;&nbsp;○&nbsp;새만금은&nbsp;국내&nbsp;최대&nbsp;규모의&nbsp;신재생에너지(태양광·해상풍력·그린수소)&nbsp;인프라를&nbsp;갖춘&nbsp;국가산업&nbsp;전략적&nbsp;요충지<br>&nbsp;&nbsp;○&nbsp;글로벌&nbsp;기업은&nbsp;RE100(재생에너지&nbsp;100%&nbsp;사용)&nbsp;달성이&nbsp;수출의&nbsp;필수&nbsp;조건<br>&nbsp;&nbsp;○&nbsp;군산을&nbsp;대한민국&nbsp;대표&nbsp;탄소중립&nbsp;모델로&nbsp;『친환경&nbsp;첨단&nbsp;산업도시』를&nbsp;만들어&nbsp;국가&nbsp;경쟁력을&nbsp;견인하고&nbsp;대규모&nbsp;양질의&nbsp;일자리&nbsp;창출<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;새만금&nbsp;산단&nbsp;내&nbsp;『RE100&nbsp;산업단지』및&nbsp;인공지능(AI),&nbsp;데이터센터,&nbsp;이차전지(배터리),&nbsp;수소산업&nbsp;등&nbsp;미래&nbsp;첨단산업&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;새만금을&nbsp;에너지&nbsp;생산,&nbsp;첨단&nbsp;제조(이차전지·모빌리티),&nbsp;스마트&nbsp;소비로&nbsp;이어지는&nbsp;밸류체인(Value&nbsp;Chain)&nbsp;집적화<br>&nbsp;&nbsp;○&nbsp;스마트&nbsp;에너지&nbsp;관리시스템(SEMS),&nbsp;친환경&nbsp;교통&nbsp;인프라&nbsp;등&nbsp;첨단산업&nbsp;맞춤핵심&nbsp;인프라&nbsp;조기&nbsp;구축<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;행정&nbsp;체계&nbsp;개편&nbsp;:&nbsp;취임&nbsp;직후&nbsp;시장&nbsp;직속&nbsp;『원스톱&nbsp;기업유치단(TF)』&nbsp;신설,&nbsp;패스트트랙을&nbsp;가동&nbsp;기업&nbsp;인허가&nbsp;절차&nbsp;기존&nbsp;대비&nbsp;50%&nbsp;이상&nbsp;단축<br>&nbsp;&nbsp;○&nbsp;법·제도적&nbsp;지원&nbsp;:&nbsp;기회&nbsp;발전&nbsp;특구(조세감면,&nbsp;규제특례&nbsp;등)&nbsp;지정을&nbsp;위한전북도&nbsp;및&nbsp;중앙정부와&nbsp;협의,&nbsp;새만금&nbsp;투자&nbsp;기업&nbsp;파격적인&nbsp;세제&nbsp;혜택<br>&nbsp;&nbsp;○&nbsp;산·학·연&nbsp;연계&nbsp;협력&nbsp;:&nbsp;신재생에너지와&nbsp;첨단소재&nbsp;분야&nbsp;전문인력&nbsp;양성,&nbsp;입주기업에&nbsp;맞춤형&nbsp;인력공급과&nbsp;청년이&nbsp;군산에&nbsp;머무르며&nbsp;일하는&nbsp;선순환구조&nbsp;완성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;하반기&nbsp;TF&nbsp;구성&nbsp;및&nbsp;기본계획&nbsp;수립,&nbsp;2030년&nbsp;까지&nbsp;인프라&nbsp;구축&nbsp;및&nbsp;기업&nbsp;입주&nbsp;본격화<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원조달&nbsp;:&nbsp;국비(산업부&nbsp;RE100산단&nbsp;지원,&nbsp;기후에너지환경부&nbsp;재생에너지사업,&nbsp;교육부&nbsp;인재양성&nbsp;부트캠프&nbsp;예산&nbsp;등),&nbsp;도·시비(인센티브&nbsp;지원),&nbsp;기업(직접&nbsp;투자&nbsp;민간&nbsp;자본&nbsp;유치)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	현대차 미래산업 9조 투자 연계 산업벨트 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="현대차 미래산업 9조 투자 연계 산업벨트 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;추진목적&nbsp;및&nbsp;배경<br>&nbsp;&nbsp;○&nbsp;‘26.2.27&nbsp;현대자동차그룹이&nbsp;새만금&nbsp;일대에&nbsp;수소&nbsp;생태계,&nbsp;이차전지,&nbsp;미래모빌리티를&nbsp;중심으로&nbsp;9조&nbsp;원&nbsp;규모의&nbsp;초대형&nbsp;투자&nbsp;협약&nbsp;체결<br>&nbsp;&nbsp;○&nbsp;16조&nbsp;원의&nbsp;경제&nbsp;유발&nbsp;효과와&nbsp;7만&nbsp;1천&nbsp;명의&nbsp;고용&nbsp;창출이&nbsp;기대되는&nbsp;역사적인&nbsp;투자를&nbsp;군산의&nbsp;기존&nbsp;조선·자동차&nbsp;산업과&nbsp;강력히&nbsp;연계,&nbsp;군산을&nbsp;명실상부한&nbsp;「대한민국&nbsp;첨단산업&nbsp;거점&nbsp;도시」로&nbsp;도약<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;군산&nbsp;국가산업단지를&nbsp;전기차·수소차·자율주행&nbsp;중심의&nbsp;'미래모빌리티&nbsp;특화&nbsp;산업벨트'로&nbsp;구조&nbsp;고도화<br>&nbsp;&nbsp;○&nbsp;대기업&nbsp;투자와&nbsp;연계된&nbsp;배터리&nbsp;전구체,&nbsp;경량화&nbsp;소재&nbsp;등&nbsp;1·2차&nbsp;벤더&nbsp;기업&nbsp;대규모&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;수소&nbsp;생산·저장·운송&nbsp;인프라&nbsp;선도&nbsp;구축을&nbsp;통한&nbsp;상용차&nbsp;중심&nbsp;수소&nbsp;모빌리티&nbsp;생태계&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;내&nbsp;내연기관&nbsp;부품업체들이&nbsp;미래차&nbsp;부품사로&nbsp;성공적인&nbsp;산업&nbsp;전환&nbsp;촉진<br>&nbsp;&nbsp;○&nbsp;현대차&nbsp;그룹과&nbsp;연계,&nbsp;연간&nbsp;3만&nbsp;대&nbsp;로봇&nbsp;생산&nbsp;가능한&nbsp;로봇클러스터&nbsp;구축&nbsp;및&nbsp;연구기관&nbsp;유치,&nbsp;보세구역&nbsp;지정을&nbsp;통한&nbsp;대한민국&nbsp;로봇&nbsp;수출거점&nbsp;도시&nbsp;도약<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;범정부&nbsp;공조&nbsp;강화&nbsp;:&nbsp;현재&nbsp;가동&nbsp;중인&nbsp;국무총리&nbsp;주재&nbsp;'새만금·전북&nbsp;대혁신TF'&nbsp;및&nbsp;전북도&nbsp;'투자&nbsp;지원단'과&nbsp;긴밀히&nbsp;공조,&nbsp;부지&nbsp;공급과&nbsp;인프라&nbsp;확충의&nbsp;속&nbsp;도전을&nbsp;군산이&nbsp;주도<br>&nbsp;&nbsp;○&nbsp;상생형&nbsp;투자&nbsp;생태계&nbsp;조성&nbsp;:&nbsp;대기업&nbsp;투자가&nbsp;지역&nbsp;중소기업의&nbsp;납품&nbsp;확대로<br>직결되도록&nbsp;'연쇄&nbsp;투자&nbsp;유도형&nbsp;인센티브&nbsp;조례'&nbsp;제정&nbsp;및&nbsp;지역&nbsp;상생&nbsp;펀드&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;기존&nbsp;부품사&nbsp;밀착&nbsp;지원&nbsp;:&nbsp;자금&nbsp;및&nbsp;기술력이&nbsp;부족한&nbsp;기존&nbsp;부품업체에&nbsp;스마트&nbsp;공장&nbsp;도입&nbsp;비용,&nbsp;기술&nbsp;전환&nbsp;맞춤형&nbsp;컨설팅,&nbsp;R&D&nbsp;바우처&nbsp;폭넓게&nbsp;지원&nbsp;동반&nbsp;성장&nbsp;기반&nbsp;마련<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;7월(미래산업유치&nbsp;TF&nbsp;가동)&nbsp;~&nbsp;2029년(산업벨트&nbsp;1단계고도화완료)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원조달&nbsp;:&nbsp;국비(국토부,&nbsp;산업부,&nbsp;과기부&nbsp;등),&nbsp;시비(부품사&nbsp;전환&nbsp;R&D&nbsp;기금),&nbsp;민간자본(기업&nbsp;투자금)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	조선산업 부활 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="조선산업 부활 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;추진목적&nbsp;및&nbsp;배경<br>&nbsp;&nbsp;○&nbsp;뼈아픈&nbsp;장기&nbsp;침체를&nbsp;견뎌낸&nbsp;군산의&nbsp;조선산업이&nbsp;글로벌&nbsp;친환경&nbsp;선박&nbsp;교체라는&nbsp;'슈퍼&nbsp;사이클'을&nbsp;맞아&nbsp;완벽한&nbsp;재도약&nbsp;기회&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;제조업&nbsp;고용의&nbsp;든든한&nbsp;버팀목인&nbsp;조선산업을&nbsp;고부가가치&nbsp;친환경&nbsp;선박&nbsp;중심으로&nbsp;신속히&nbsp;재건,&nbsp;무너진&nbsp;지역&nbsp;산업&nbsp;생태&nbsp;복원&nbsp;및&nbsp;대규모&nbsp;일자리&nbsp;창출<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;HJ중공업&nbsp;등&nbsp;지역&nbsp;내&nbsp;핵심&nbsp;조선소&nbsp;및&nbsp;협력업체&nbsp;완전한&nbsp;정상&nbsp;가동을&nbsp;위한&nbsp;전방위적&nbsp;행정·재정&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;LNG,&nbsp;암모니아&nbsp;등&nbsp;차세대&nbsp;친환경&nbsp;중소형&nbsp;선박&nbsp;기술&nbsp;실증&nbsp;센터&nbsp;유치&nbsp;및&nbsp;특화산업&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;붕괴된&nbsp;조선기자재&nbsp;블록&nbsp;산업&nbsp;회복을&nbsp;위한&nbsp;물류비&nbsp;인하&nbsp;및&nbsp;경영&nbsp;안정&nbsp;자금&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;현장&nbsp;맞춤형&nbsp;조선업&nbsp;특화&nbsp;숙련&nbsp;인력(용접,&nbsp;도장&nbsp;등)&nbsp;집중&nbsp;양성&nbsp;및&nbsp;재취업&nbsp;지원<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;선박&nbsp;발주를&nbsp;위한&nbsp;지역주도형&nbsp;금융&nbsp;지원&nbsp;:&nbsp;수주&nbsp;물량&nbsp;확보의&nbsp;핵심인&nbsp;선수금환급보증(RG)&nbsp;발급이&nbsp;원활히&nbsp;이루어지도록&nbsp;정부&nbsp;및&nbsp;금융권&nbsp;직접&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;기술&nbsp;고도화&nbsp;지원&nbsp;:&nbsp;선박해양플랜트연구소&nbsp;등&nbsp;국책&nbsp;연구기관과&nbsp;연계하여&nbsp;친환경&nbsp;선박&nbsp;기자재&nbsp;국산화&nbsp;및&nbsp;자율운항&nbsp;선박&nbsp;상용화&nbsp;실증단지&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;일자리&nbsp;매칭&nbsp;및&nbsp;지원&nbsp;:&nbsp;『조선업&nbsp;일자리&nbsp;매칭&nbsp;센터』&nbsp;설립,&nbsp;산학&nbsp;연계&nbsp;직업&nbsp;훈련&nbsp;이수자&nbsp;채용&nbsp;시&nbsp;기업과&nbsp;근로자&nbsp;양측에&nbsp;인건비&nbsp;보조&nbsp;및&nbsp;정착&nbsp;지원금&nbsp;과감하게&nbsp;지급<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;이행기간&nbsp;:&nbsp;2026년(조선업&nbsp;금융·인력&nbsp;긴급&nbsp;지원&nbsp;시행)&nbsp;~&nbsp;2028년(친환경&nbsp;선박&nbsp;특화&nbsp;단지&nbsp;안착)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원조달&nbsp;:&nbsp;국비(해양&nbsp;모빌리티&nbsp;AX&nbsp;혁신허브&nbsp;구축사업&nbsp;등),&nbsp;도·시비(물류비&nbsp;보조,&nbsp;일자리&nbsp;매칭&nbsp;예산)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	시민 체감 민생회복 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="시민 체감 민생회복 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;추진목적&nbsp;및&nbsp;배경<br>&nbsp;&nbsp;○&nbsp;고물가·고금리&nbsp;장기화로&nbsp;영세&nbsp;소상공인&nbsp;생존권이&nbsp;위협받고,&nbsp;서민들의&nbsp;가계&nbsp;경제가&nbsp;벼랑&nbsp;끝&nbsp;위기&nbsp;직면<br>&nbsp;&nbsp;○&nbsp;거창한&nbsp;개발&nbsp;공약&nbsp;이전에,&nbsp;당장&nbsp;시민들의&nbsp;고단한&nbsp;삶을&nbsp;위로하고&nbsp;지갑을&nbsp;든든하게&nbsp;채워주는&nbsp;『핀셋형&nbsp;즉각&nbsp;지원』과&nbsp;골목상권&nbsp;선순환&nbsp;경제&nbsp;구축이&nbsp;군산시정의&nbsp;최우선&nbsp;과제<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;취약계층&nbsp;및&nbsp;영세&nbsp;소상공인&nbsp;대상&nbsp;『비상경제민생지원금』&nbsp;즉시&nbsp;지급<br>&nbsp;&nbsp;○&nbsp;태양광·해상풍력&nbsp;발전&nbsp;수익을&nbsp;시민의&nbsp;기본소득으로&nbsp;돌려주는&nbsp;『RE-turn&nbsp;시민에너지연금』&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;에너지(전기료)&nbsp;비용&nbsp;부담&nbsp;완화&nbsp;및&nbsp;3無(무보증·무이자·무담보)&nbsp;특례&nbsp;보증&nbsp;대폭&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;전통시장&nbsp;현대화·온라인&nbsp;판로&nbsp;지원<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;과감한&nbsp;예산&nbsp;구조조정&nbsp;:&nbsp;취임&nbsp;즉시&nbsp;불요불급한&nbsp;예산과&nbsp;전시성&nbsp;행사&nbsp;전면&nbsp;재검토,&nbsp;제1회&nbsp;추가경정예산&nbsp;민생회복지원금&nbsp;최우선&nbsp;편성&nbsp;및&nbsp;집행<br>&nbsp;&nbsp;○&nbsp;에너지&nbsp;이익&nbsp;공유&nbsp;법제화&nbsp;:&nbsp;공공&nbsp;유휴부지&nbsp;및&nbsp;해상풍력&nbsp;사업에&nbsp;시민&nbsp;지분&nbsp;참여를&nbsp;의무화하는&nbsp;조례&nbsp;제정,&nbsp;발생&nbsp;수익&nbsp;기금화하여&nbsp;전&nbsp;시민에게&nbsp;『지역화폐』&nbsp;형태로&nbsp;정기&nbsp;배당할&nbsp;수&nbsp;있는&nbsp;구조&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;소상공인&nbsp;금융&nbsp;방어막&nbsp;구축&nbsp;:&nbsp;지역&nbsp;신용보증재단&nbsp;및&nbsp;시중&nbsp;은행과&nbsp;협약,&nbsp;긴급&nbsp;경영안정자금&nbsp;대출&nbsp;문턱을&nbsp;낮추고,&nbsp;보증료&nbsp;전액&nbsp;시에서&nbsp;대납<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;7월(비상경제&nbsp;추경&nbsp;즉시&nbsp;편성)&nbsp;~&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진(에너지연금&nbsp;시스템&nbsp;안착)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원조달&nbsp;:&nbsp;시비(자체&nbsp;세출&nbsp;구조조정&nbsp;재원),&nbsp;신재생에너지&nbsp;발전&nbsp;수익금(에너지연금&nbsp;기금)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	시민주권 혁신행정·균형발전 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="시민주권 혁신행정·균형발전 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;추진목적&nbsp;및&nbsp;배경<br>&nbsp;&nbsp;○&nbsp;관&nbsp;중심의&nbsp;폐쇄적인&nbsp;탁상행정을&nbsp;타파하고,&nbsp;시민이&nbsp;시정의&nbsp;진정한&nbsp;주인이&nbsp;되는&nbsp;투명하고&nbsp;열린&nbsp;소통&nbsp;행정으로&nbsp;대전환<br>&nbsp;&nbsp;○&nbsp;신도심&nbsp;위주의&nbsp;개발에서&nbsp;소외된&nbsp;원도심과&nbsp;농어촌&nbsp;지역의&nbsp;정주&nbsp;여건을&nbsp;획기적으로&nbsp;개선하여,&nbsp;군산&nbsp;시민&nbsp;누구나&nbsp;차별&nbsp;없는&nbsp;혜택을&nbsp;누릴&nbsp;수&nbsp;있는『균형&nbsp;잡힌&nbsp;자족도시』&nbsp;완성<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;시장실&nbsp;시청&nbsp;1층&nbsp;전면&nbsp;이전&nbsp;개방&nbsp;및&nbsp;『시민&nbsp;직통&nbsp;핫라인(앱/SNS)』&nbsp;창구&nbsp;상시&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;복합&nbsp;민원&nbsp;및&nbsp;기업&nbsp;투자&nbsp;인허가를&nbsp;원스톱으로&nbsp;처리하는&nbsp;『패스트트랙』&nbsp;전담&nbsp;부서신설<br>&nbsp;&nbsp;○&nbsp;외부&nbsp;시민검증단을&nbsp;통한&nbsp;선거&nbsp;공약&nbsp;이행률&nbsp;및&nbsp;예산&nbsp;집행&nbsp;내역&nbsp;분기별&nbsp;평가<br>&nbsp;&nbsp;○&nbsp;원도심&nbsp;근대문화유산&nbsp;연계&nbsp;상권&nbsp;재생&nbsp;확대&nbsp;및&nbsp;농어촌&nbsp;생활&nbsp;SOC&nbsp;집중&nbsp;확충<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;속도&nbsp;혁신&nbsp;:&nbsp;시장실&nbsp;1층&nbsp;이전·갈등조정위원회&nbsp;상설화로&nbsp;장기&nbsp;민원&nbsp;직접&nbsp;해결,&nbsp;패스트트랙&nbsp;부서&nbsp;신설로&nbsp;인허가&nbsp;기간&nbsp;50%&nbsp;단축<br>&nbsp;&nbsp;○&nbsp;투명&nbsp;혁신&nbsp;:&nbsp;수의계약&nbsp;전&nbsp;과정&nbsp;시민&nbsp;공개&nbsp;포털&nbsp;구축,&nbsp;외부&nbsp;시민검증단&nbsp;분기별&nbsp;예산&nbsp;감시<br>&nbsp;&nbsp;○&nbsp;참여&nbsp;혁신&nbsp;:&nbsp;시민참여&nbsp;예산제&nbsp;비중&nbsp;2배&nbsp;확대로&nbsp;재정&nbsp;운영&nbsp;주도권을&nbsp;시민에게&nbsp;환원,&nbsp;민원&nbsp;처리&nbsp;전&nbsp;과정&nbsp;카카오&nbsp;알림톡&nbsp;자동&nbsp;발송&nbsp;『민원&nbsp;투명&nbsp;알림&nbsp;시스템』구축<br>&nbsp;&nbsp;○&nbsp;공간&nbsp;혁신&nbsp;:&nbsp;원도심의&nbsp;빈집&nbsp;및&nbsp;폐공장을&nbsp;청년&nbsp;창업&nbsp;공간&nbsp;및&nbsp;문화&nbsp;복합시설로&nbsp;리모델링&nbsp;체류형&nbsp;도시재생&nbsp;사업&nbsp;공격적으로&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;일상&nbsp;혁신&nbsp;:&nbsp;농어촌&nbsp;등&nbsp;대중교통&nbsp;소외지역&nbsp;스마트폰&nbsp;호출형&nbsp;『공공&nbsp;콜버스』&nbsp;전면&nbsp;도입,&nbsp;고령층을&nbsp;위한&nbsp;비대면&nbsp;진료&nbsp;중심의&nbsp;스마트&nbsp;보건지소&nbsp;확충<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;이행기간&nbsp;:&nbsp;2026년&nbsp;7월(시장실&nbsp;이전&nbsp;및&nbsp;조직&nbsp;개편)&nbsp;~&nbsp;2030년(도시재생&nbsp;및농어촌&nbsp;SOC&nbsp;확충&nbsp;완료)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;재원조달&nbsp;:&nbsp;자체&nbsp;시비(행정&nbsp;플랫폼&nbsp;구축),&nbsp;국비(국토부&nbsp;도시재생사업,&nbsp;농식품부&nbsp;농촌협약&nbsp;매칭,&nbsp;문체부&nbsp;공모&nbsp;대응)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

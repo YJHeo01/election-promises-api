@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김기웅 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	지역별 균형 발전과 성장</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="지역별 균형 발전과 성장">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▷&nbsp;상권·전통시장&nbsp;경쟁력&nbsp;강화<br>&nbsp;&nbsp;-&nbsp;현대적인&nbsp;서천특화시장&nbsp;재건축&nbsp;조기&nbsp;완성<br>&nbsp;&nbsp;-&nbsp;소상공인&nbsp;지원으로&nbsp;골목상권&nbsp;활성화<br>▷&nbsp;농업인&nbsp;소득·경영&nbsp;안정<br>&nbsp;&nbsp;-&nbsp;트랙터&nbsp;농지&nbsp;진입로&nbsp;확장<br>&nbsp;&nbsp;-&nbsp;고품질·기능성&nbsp;쌀&nbsp;보급종자&nbsp;지원으로&nbsp;생산경쟁력&nbsp;강화<br>&nbsp;&nbsp;-&nbsp;농업인&nbsp;월급제&nbsp;보조로&nbsp;연중&nbsp;안정적&nbsp;소득&nbsp;지원<br>▷&nbsp;국가산업단지&nbsp;지원센터&nbsp;조성&nbsp;<br>&nbsp;&nbsp;-&nbsp;기업&nbsp;지원&nbsp;및&nbsp;근로자&nbsp;복지시설&nbsp;확충을&nbsp;통한&nbsp;산업단지&nbsp;경쟁력&nbsp;강화<br>▷&nbsp;김&nbsp;산업&nbsp;경쟁력&nbsp;강화&nbsp;기반&nbsp;마련<br>&nbsp;&nbsp;-&nbsp;마른김&nbsp;산업&nbsp;제조시설&nbsp;단지화&nbsp;/&nbsp;고도화로&nbsp;경쟁력&nbsp;강화<br>▷&nbsp;수산업&nbsp;기반&nbsp;강화<br>&nbsp;&nbsp;-&nbsp;홍원항&nbsp;위판장&nbsp;현대화로&nbsp;수산물&nbsp;품질&nbsp;경쟁력&nbsp;제고<br>&nbsp;&nbsp;-&nbsp;주요&nbsp;항구별&nbsp;어구&nbsp;수선소&nbsp;마련<br><br>□&nbsp;목&nbsp;표&nbsp;:<br><br>□&nbsp;이행방법&nbsp;:&nbsp;단계별&nbsp;세부계획&nbsp;수립<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026&nbsp;~&nbsp;2030<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;:&nbsp;국비&nbsp;/&nbsp;도비&nbsp;/&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	계속되는 서천 경제의 진화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="계속되는 서천 경제의 진화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▷&nbsp;국가산단을&nbsp;첨단산업&nbsp;클러스터로&nbsp;발전<br>&nbsp;&nbsp;-&nbsp;연구-개발-생산이&nbsp;연계된&nbsp;산업&nbsp;성장축&nbsp;고도화<br>▷&nbsp;농공단지&nbsp;기업/임직원&nbsp;지원&nbsp;강화<br>&nbsp;&nbsp;-&nbsp;지원센터&nbsp;건립&nbsp;/&nbsp;근로자&nbsp;기숙사&nbsp;건립&nbsp;/&nbsp;행정지원&nbsp;강화<br>▷&nbsp;스마트농업·인력&nbsp;육성<br>&nbsp;&nbsp;-&nbsp;농업인력&nbsp;체계적&nbsp;육성으로&nbsp;지속&nbsp;가능한&nbsp;농업&nbsp;기반&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;스마트팜&nbsp;확충으로&nbsp;노동력&nbsp;절감&nbsp;및&nbsp;미래농업&nbsp;전환&nbsp;가속화<br>▷&nbsp;생태&nbsp;기반&nbsp;미래&nbsp;성장축&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;국가습지복원사업&nbsp;/&nbsp;해수유통&nbsp;추진<br>▷&nbsp;지역&nbsp;인재&nbsp;양성&nbsp;및&nbsp;미래&nbsp;동력&nbsp;확보<br>&nbsp;&nbsp;-&nbsp;한국폴리텍대학&nbsp;분원&nbsp;유치&nbsp;/&nbsp;서천사랑장학회&nbsp;출연&nbsp;/&nbsp;학교&nbsp;특색사업&nbsp;지원<br>▷&nbsp;농어촌경제&nbsp;활성화<br>&nbsp;&nbsp;-&nbsp;길산천&nbsp;-&nbsp;판교천&nbsp;물길&nbsp;복원으로&nbsp;수자원&nbsp;확보<br>&nbsp;&nbsp;-&nbsp;수산업과&nbsp;관광&nbsp;/&nbsp;축제&nbsp;/&nbsp;숙박을&nbsp;연계로&nbsp;어촌&nbsp;경제&nbsp;활력&nbsp;증진<br><br>□&nbsp;목&nbsp;표&nbsp;:<br><br>□&nbsp;이행방법&nbsp;:&nbsp;단계별&nbsp;세부계획&nbsp;수립<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026&nbsp;~&nbsp;2030<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;:&nbsp;국비&nbsp;/&nbsp;도비&nbsp;/&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	여유로운 힐링관광의 명소</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="여유로운 힐링관광의 명소">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▷&nbsp;수변&nbsp;·&nbsp;해양관광&nbsp;거점&nbsp;육성<br>&nbsp;&nbsp;-&nbsp;스카이워크&nbsp;하늘길&nbsp;연장&nbsp;100m<br>&nbsp;&nbsp;-&nbsp;금강하구&nbsp;수상레포츠타운&nbsp;조성사업<br>&nbsp;&nbsp;-&nbsp;봉선저수지&nbsp;물버들길&nbsp;둘레길&nbsp;확장&nbsp;/&nbsp;스테이&nbsp;기반&nbsp;조성<br>▷&nbsp;북부권&nbsp;여가&nbsp;관광&nbsp;활성화<br>&nbsp;&nbsp;-&nbsp;판교&nbsp;근대역사문화공간&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;동백정&nbsp;성경전래지&nbsp;관광&nbsp;연계&nbsp;개발<br>&nbsp;&nbsp;-&nbsp;희리산&nbsp;어린이숲&nbsp;어드벤처파크&nbsp;추진<br>▷&nbsp;한산모시&nbsp;·&nbsp;한산소곡주&nbsp;고부가가치화<br>&nbsp;&nbsp;-&nbsp;2030&nbsp;세계&nbsp;천연섬유&nbsp;국제&nbsp;박람회&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;소곡주&nbsp;명품화&nbsp;/&nbsp;홍보&nbsp;강화로&nbsp;전국&nbsp;최고&nbsp;명주&nbsp;위상&nbsp;확립<br>▷&nbsp;지역별&nbsp;특성에&nbsp;맞는&nbsp;관광&nbsp;자원화&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;신성리&nbsp;갈대숲&nbsp;관광지&nbsp;지정<br>&nbsp;&nbsp;-&nbsp;서천읍성-성안마을-군청로&nbsp;거리정원&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;굴뚝산,&nbsp;홍원항&nbsp;등&nbsp;바다&nbsp;전망대&nbsp;설치<br><br>□&nbsp;목&nbsp;표&nbsp;:<br><br>□&nbsp;이행방법&nbsp;:&nbsp;단계별&nbsp;세부계획&nbsp;수립<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026&nbsp;~&nbsp;2030<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;:&nbsp;국비&nbsp;/&nbsp;도비&nbsp;/&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	쾌적하고 안전한 군민의 삶</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="쾌적하고 안전한 군민의 삶">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▷&nbsp;상습&nbsp;침수지역의&nbsp;근본적&nbsp;문제&nbsp;해결<br>&nbsp;&nbsp;-&nbsp;비인&nbsp;/&nbsp;판교&nbsp;/&nbsp;종천&nbsp;/&nbsp;장항&nbsp;마을&nbsp;하수도&nbsp;정비&nbsp;및&nbsp;용배수로&nbsp;확충<br>▷&nbsp;군민&nbsp;문화&nbsp;/&nbsp;예술활동을&nbsp;위한&nbsp;기반&nbsp;확대<br>&nbsp;&nbsp;-&nbsp;[서천]&nbsp;문화예술회관&nbsp;건립&nbsp;<br>&nbsp;&nbsp;-&nbsp;[장항]&nbsp;아우름회관&nbsp;건립&nbsp;및&nbsp;성주마을&nbsp;사이상생터&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;[비인]&nbsp;군부대&nbsp;부지&nbsp;교환&nbsp;및&nbsp;개발<br>&nbsp;&nbsp;-&nbsp;[문산,&nbsp;화양]&nbsp;농어촌&nbsp;취약지역&nbsp;생활여건&nbsp;개선<br>▷&nbsp;스포츠를&nbsp;통한&nbsp;지역&nbsp;활력&nbsp;증진<br>&nbsp;&nbsp;-&nbsp;[마서]&nbsp;유소년&nbsp;축구장<br>&nbsp;&nbsp;-&nbsp;[한산]&nbsp;유소년&nbsp;야구장<br>&nbsp;&nbsp;-&nbsp;[문산]&nbsp;동부권역&nbsp;농업인&nbsp;다목적&nbsp;체육관<br>▷&nbsp;교통&nbsp;/&nbsp;생활&nbsp;환경&nbsp;개선<br>&nbsp;&nbsp;-&nbsp;북서천&nbsp;하이패스IC&nbsp;설치<br>&nbsp;&nbsp;-&nbsp;각종&nbsp;폐기물의&nbsp;선순환체계&nbsp;구축<br>▷&nbsp;노후&nbsp;마을회관&nbsp;리모델링&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;경로당&nbsp;·&nbsp;마을회관&nbsp;신축&nbsp;·&nbsp;보수&nbsp;등&nbsp;생활공간&nbsp;환경개선<br><br>□&nbsp;목&nbsp;표&nbsp;:<br><br>□&nbsp;이행방법&nbsp;:&nbsp;단계별&nbsp;세부계획&nbsp;수립<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026&nbsp;~&nbsp;2030<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;:&nbsp;국비&nbsp;/&nbsp;도비&nbsp;/&nbsp;군비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	군민을 사랑하는 꼼꼼한 준비</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="군민을 사랑하는 꼼꼼한 준비">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            ▷&nbsp;군민을&nbsp;촘촘히&nbsp;살피는&nbsp;복지&nbsp;강화<br>&nbsp;&nbsp;-&nbsp;「충남형&nbsp;공동생활홈」&nbsp;조성으로&nbsp;노인&nbsp;주거·돌봄&nbsp;강화<br>&nbsp;&nbsp;-&nbsp;서천읍&nbsp;제&nbsp;2&nbsp;장애인&nbsp;복지회관&nbsp;건립<br>&nbsp;&nbsp;-&nbsp;여성&nbsp;취업&nbsp;역량&nbsp;강화&nbsp;지원<br>&nbsp;&nbsp;-&nbsp;요양보호사&nbsp;복지&nbsp;/&nbsp;스트레스&nbsp;해소&nbsp;프로그램&nbsp;구축<br>▷&nbsp;보건서비스&nbsp;안전망&nbsp;개선<br>&nbsp;&nbsp;-&nbsp;응급의료권역&nbsp;조정&nbsp;및&nbsp;이송&nbsp;체계&nbsp;개선<br>&nbsp;&nbsp;-&nbsp;주요&nbsp;질병&nbsp;면역&nbsp;서비스&nbsp;지속&nbsp;확대<br>▷&nbsp;아이&nbsp;키우기&nbsp;좋은&nbsp;서천&nbsp;만들기<br>&nbsp;&nbsp;-&nbsp;어린이&nbsp;AI형&nbsp;미니어처&nbsp;마을놀이터&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;초등학교&nbsp;1인&nbsp;1예술가&nbsp;양성시스템&nbsp;구축<br>▷&nbsp;서천군&nbsp;일자리&nbsp;통합&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;노인&nbsp;일자리&nbsp;통합&nbsp;관리&nbsp;시스템&nbsp;구축<br>&nbsp;&nbsp;-&nbsp;수요자&nbsp;입장의&nbsp;맞춤형&nbsp;고용&nbsp;서비스&nbsp;제공<br>▷&nbsp;군민&nbsp;교통&nbsp;불편&nbsp;완화<br>&nbsp;&nbsp;-&nbsp;희망택시,&nbsp;보건택시&nbsp;등&nbsp;다양한&nbsp;대책&nbsp;마련<br><br>□&nbsp;목&nbsp;표&nbsp;:<br><br>□&nbsp;이행방법&nbsp;:&nbsp;단계별&nbsp;세부계획&nbsp;수립<br><br>□&nbsp;이행기간&nbsp;:&nbsp;2026&nbsp;~&nbsp;2030<br><br>□&nbsp;재원조달방안&nbsp;등&nbsp;:&nbsp;국비&nbsp;/&nbsp;도비&nbsp;/&nbsp;군비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

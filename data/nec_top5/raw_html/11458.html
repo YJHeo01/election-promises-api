@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;박홍률 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	에너지 융복합 경제도시로 대전환, 젊은 목포 구현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="에너지 융복합 경제도시로 대전환, 젊은 목포 구현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;-&nbsp;목포형&nbsp;에너지산업&nbsp;융복합&nbsp;국가산업단지&nbsp;유치,&nbsp;AI&nbsp;기반&nbsp;에너지&nbsp;관리&nbsp;·&nbsp;연관산업&nbsp;육성&nbsp;및&nbsp;창업&nbsp;지원으로&nbsp;일자리&nbsp;·&nbsp;소득&nbsp;·주거&nbsp;·&nbsp;재투자의&nbsp;선순환&nbsp;구조&nbsp;완성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;국가산단&nbsp;유치&nbsp;T/F팀&nbsp;구성&nbsp;운영&nbsp;:&nbsp;전문가,&nbsp;대학교수,&nbsp;공무원&nbsp;등으로&nbsp;구성<br>&nbsp;&nbsp;-&nbsp;단기&nbsp;:&nbsp;입지&nbsp;현황조사&nbsp;분석<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;목포&nbsp;신항&nbsp;배후&nbsp;부지&nbsp;및&nbsp;허사·고하도&nbsp;일원,&nbsp;2,000천㎡&nbsp;(약&nbsp;60만&nbsp;평)<br>&nbsp;&nbsp;-&nbsp;중기&nbsp;:&nbsp;대상&nbsp;산업&nbsp;확정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;재생에너지&nbsp;·&nbsp;AI&nbsp;·&nbsp;RE100&nbsp;·&nbsp;에너지&nbsp;배터리&nbsp;기업(ESS)&nbsp;및&nbsp;연관기업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산업별&nbsp;입지&nbsp;수요&nbsp;조사,&nbsp;유치&nbsp;대상&nbsp;업종&nbsp;앵커&nbsp;기업&nbsp;투자&nbsp;의향서&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주무&nbsp;부처에&nbsp;목포형&nbsp;국가산단&nbsp;유치&nbsp;필요성&nbsp;및&nbsp;타당성&nbsp;건의<br>&nbsp;&nbsp;-&nbsp;장기&nbsp;:&nbsp;국가산단&nbsp;유치&nbsp;및&nbsp;조성&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산단조성&nbsp;및&nbsp;기업&nbsp;유치에&nbsp;필요한&nbsp;지방정부&nbsp;지원&nbsp;조례&nbsp;제.개정&nbsp;등&nbsp;조치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;해상풍력&nbsp;발전&nbsp;→&nbsp;연관산업&nbsp;→&nbsp;신항만&nbsp;물류&nbsp;선순환&nbsp;구조&nbsp;완성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;단기&nbsp;:&nbsp;2026년&nbsp;~&nbsp;2027년<br>&nbsp;&nbsp;-&nbsp;중기&nbsp;:&nbsp;2027년&nbsp;~&nbsp;2030년<br>&nbsp;&nbsp;-&nbsp;장기&nbsp;:&nbsp;2030년&nbsp;이후<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;-&nbsp;국비&nbsp;+통합특별시비&nbsp;+&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	유엔 AI 허브 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="유엔 AI 허브 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;-&nbsp;인류가&nbsp;직면한&nbsp;기후&nbsp;위기,&nbsp;전염병,&nbsp;빈곤,&nbsp;불평등&nbsp;등&nbsp;거대&nbsp;난제를&nbsp;인공지능&nbsp;기술로&nbsp;해결하기&nbsp;위해&nbsp;유엔의&nbsp;주요&nbsp;전문&nbsp;기구들이&nbsp;협력하는&nbsp;글로벌&nbsp;AI&nbsp;공동캠퍼스를&nbsp;유치함으로써&nbsp;경제적&nbsp;파급효과&nbsp;확산&nbsp;및&nbsp;목포의&nbsp;국제도시화<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;유엔&nbsp;AI&nbsp;허브&nbsp;목포&nbsp;유치&nbsp;추진&nbsp;기획단&nbsp;.&nbsp;위원회&nbsp;구성&nbsp;유치&nbsp;활동,&nbsp;목포&nbsp;유치&nbsp;타당성&nbsp;등&nbsp;조사&nbsp;분석&nbsp;.유치&nbsp;의향서&nbsp;작성&nbsp;제출<br>&nbsp;&nbsp;-&nbsp;서남권의&nbsp;글로벌&nbsp;접근성,&nbsp;산업&nbsp;시너지,&nbsp;RE100&nbsp;인프라&nbsp;등&nbsp;입지&nbsp;여건&nbsp;체계화&nbsp;집중&nbsp;홍보<br>&nbsp;&nbsp;-&nbsp;순차적&nbsp;유엔&nbsp;AI&nbsp;허브&nbsp;구축&nbsp;대비&nbsp;해상풍력&nbsp;.&nbsp;수산&nbsp;.&nbsp;항만&nbsp;등에&nbsp;AI를&nbsp;접목한&nbsp;실행형&nbsp;AI&nbsp;허브&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;2026년&nbsp;~&nbsp;2027년&nbsp;유치&nbsp;타당성&nbsp;.의향서&nbsp;.보고서&nbsp;작성&nbsp;정부기관&nbsp;제출,&nbsp;대대적&nbsp;홍보&nbsp;<br>&nbsp;&nbsp;-&nbsp;초기&nbsp;선정&nbsp;후&nbsp;2028년&nbsp;이후&nbsp;유엔&nbsp;AI&nbsp;허브&nbsp;유치&nbsp;단계별&nbsp;목표&nbsp;이행<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;-&nbsp;국비+&nbsp;통합특별시비&nbsp;+&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	서남권 통합으로 큰 목포 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="서남권 통합으로 큰 목포 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;-&nbsp;서남권&nbsp;통합으로&nbsp;규모의&nbsp;경제&nbsp;실현,&nbsp;지역주민의&nbsp;통합이익&nbsp;공유<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;(1단계)&nbsp;서남권&nbsp;광역사무&nbsp;특별자치단체&nbsp;(연합)&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서남권&nbsp;9개&nbsp;시군&nbsp;교통,&nbsp;관광,&nbsp;환경&nbsp;등&nbsp;광역&nbsp;사무,&nbsp;집행기관&nbsp;및&nbsp;의회&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광역교통망&nbsp;.&nbsp;해상풍력&nbsp;.&nbsp;에너지&nbsp;.&nbsp;수산식품&nbsp;클러스터&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서남해&nbsp;해양관광벨트&nbsp;조성&nbsp;,&nbsp;공동&nbsp;관광플랫폼&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국책&nbsp;사업&nbsp;유치,&nbsp;교통&nbsp;.&nbsp;관광&nbsp;.&nbsp;경제&nbsp;.&nbsp;해양수산&nbsp;통합&nbsp;이익&nbsp;공유<br>&nbsp;&nbsp;-&nbsp;(2단계)&nbsp;목포&nbsp;.&nbsp;무안&nbsp;.&nbsp;신안&nbsp;.&nbsp;영암&nbsp;.&nbsp;해남&nbsp;&nbsp;행정통합<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;광역버스&nbsp;등&nbsp;교통인프라&nbsp;국가지원&nbsp;확대&nbsp;요청<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;대도시&nbsp;특례&nbsp;적용,&nbsp;규제&nbsp;완화&nbsp;및&nbsp;국비&nbsp;직접&nbsp;지원사업&nbsp;확대&nbsp;요청<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;통합&nbsp;도시&nbsp;인지도&nbsp;상승으로&nbsp;부동산&nbsp;.&nbsp;자산&nbsp;가치&nbsp;상승&nbsp;주민&nbsp;이익&nbsp;제고<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;중복투자&nbsp;예방&nbsp;재원의&nbsp;시민&nbsp;이익&nbsp;사업&nbsp;투자비&nbsp;전환<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;1단계&nbsp;:&nbsp;2026년&nbsp;~&nbsp;2027년<br>&nbsp;&nbsp;-&nbsp;2단계&nbsp;:&nbsp;2027년&nbsp;~&nbsp;2029년&nbsp;<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;-&nbsp;국비&nbsp;+&nbsp;통합특별시비&nbsp;+&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	 목포대 의과대학 및 대학병원 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title=" 목포대 의과대학 및 대학병원 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;-&nbsp;목포대학&nbsp;의과대학&nbsp;신설&nbsp;및&nbsp;대학병원&nbsp;유치로&nbsp;서남권&nbsp;주민의&nbsp;생명&nbsp;.&nbsp;건강권&nbsp;제고<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;지역&nbsp;인프라&nbsp;조성&nbsp;등&nbsp;목포&nbsp;유치의&nbsp;타당성&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건립부지&nbsp;확보,&nbsp;옥암동&nbsp;대학부지&nbsp;또는&nbsp;목포대&nbsp;용해캠퍼스<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서울대&nbsp;병원과&nbsp;목포시&nbsp;의료원&nbsp;간&nbsp;협진&nbsp;.&nbsp;원격진료&nbsp;추진<br>&nbsp;&nbsp;-&nbsp;의료취약지의&nbsp;생명권&nbsp;보장&nbsp;집중&nbsp;부각<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도서지역&nbsp;특성&nbsp;상&nbsp;응급&nbsp;.&nbsp;중증환자&nbsp;발생&nbsp;시&nbsp;진료&nbsp;취약<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서남권&nbsp;주민의&nbsp;수도권&nbsp;원정&nbsp;진료&nbsp;심각,&nbsp;시간적&nbsp;.&nbsp;경제적&nbsp;손실&nbsp;과다&nbsp;발생<br>&nbsp;&nbsp;-&nbsp;목포대&nbsp;의대&nbsp;및&nbsp;대학병원&nbsp;유치&nbsp;서남권&nbsp;공동대응<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;서남권&nbsp;의료계&nbsp;.&nbsp;기관단체장&nbsp;유치결의문&nbsp;.&nbsp;건의문&nbsp;채택&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정치권,&nbsp;목포대&nbsp;의대&nbsp;및&nbsp;의대병원&nbsp;건립&nbsp;당론&nbsp;채택&nbsp;촉구<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;목대&nbsp;의대&nbsp;및&nbsp;의대병원&nbsp;설립&nbsp;학&nbsp;.&nbsp;민&nbsp;.&nbsp;관&nbsp;.&nbsp;정&nbsp;공동&nbsp;대응<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;의대&nbsp;및&nbsp;의대&nbsp;병원&nbsp;정부&nbsp;일정&nbsp;:&nbsp;2026년에&nbsp;입지&nbsp;지역&nbsp;선정,&nbsp;2030년&nbsp;개교<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;-&nbsp;국비&nbsp;+&nbsp;통합특별시비&nbsp;+&nbsp;시비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	관광객이 머무는 전국 제1의 해양 관광 도시 건설</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="관광객이 머무는 전국 제1의 해양 관광 도시 건설">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목표<br>&nbsp;&nbsp;-&nbsp;해양&nbsp;관광·문화예술·음식&nbsp;등&nbsp;목포의&nbsp;불루오션을&nbsp;콘텐츠화,&nbsp;체류형&nbsp;관광객이&nbsp;찾는&nbsp;국제적인&nbsp;해양관광도시로&nbsp;도약<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;-&nbsp;(단기)&nbsp;야간·체험&nbsp;관광&nbsp;콘텐츠&nbsp;개발,&nbsp;AI&nbsp;맞춤형&nbsp;스마트&nbsp;관광&nbsp;서비스&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;야간&nbsp;체험·볼거리&nbsp;상시&nbsp;추진(야간&nbsp;시장&nbsp;·공연,&nbsp;경관조명),&nbsp;체험형&nbsp;콘텐츠&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-‘앱&nbsp;하나로&nbsp;즐기는&nbsp;관광’스마트&nbsp;관광앱&nbsp;개발&nbsp;보급<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관광패스카드&nbsp;도입,&nbsp;입장료+교통+관광지&nbsp;할인&nbsp;등&nbsp;통합<br>&nbsp;&nbsp;-&nbsp;(중&nbsp;·&nbsp;장기)&nbsp;섬과&nbsp;해양&nbsp;주제&nbsp;관광콘텐츠&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-‘대한민국섬박물관’&nbsp;유치,&nbsp;‘서남해안&nbsp;섬벨트&nbsp;트리엔날레’&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;목포항을&nbsp;중심으로&nbsp;한&nbsp;-&nbsp;중&nbsp;-&nbsp;일&nbsp;국제훼리(물류&nbsp;포함)&nbsp;항로&nbsp;개설<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;평화광장&nbsp;·남항&nbsp;요트마리나,&nbsp;구)&nbsp;수협위&nbsp;판장&nbsp;인근&nbsp;친수공간&nbsp;조성<br>&nbsp;&nbsp;-&nbsp;(중&nbsp;.&nbsp;장기)&nbsp;가족친화형&nbsp;인프라,&nbsp;목포음식&nbsp;관광자원화<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;갓바위&nbsp;일원&nbsp;가족친화형&nbsp;콘텐츠의&nbsp;에코&nbsp;뮤지엄&nbsp;폴리스&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;향토음식진흥센터&nbsp;조기&nbsp;완공,&nbsp;세계음식축제&nbsp;개최<br>&nbsp;&nbsp;-&nbsp;(중&nbsp;.&nbsp;장기)&nbsp;관광복지&nbsp;및&nbsp;MICE&nbsp;관광&nbsp;기반&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;갓바위&nbsp;일원&nbsp;가족친화형&nbsp;콘텐츠의&nbsp;에코&nbsp;뮤지엄&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;누구나&nbsp;누리는&nbsp;무장애&nbsp;관광인프라&nbsp;확충<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;목고.목여고통합&nbsp;이전&nbsp;후&nbsp;부지&nbsp;교육·문화·관광&nbsp;복합&nbsp;컨벤션&nbsp;시설,&nbsp;MICE&nbsp;관광&nbsp;기반&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;-&nbsp;단기&nbsp;:&nbsp;1년&nbsp;이내<br>&nbsp;&nbsp;-&nbsp;중장기&nbsp;:&nbsp;2&nbsp;~&nbsp;4년<br><br>□&nbsp;재원조달&nbsp;방안<br>&nbsp;&nbsp;-&nbsp;국비&nbsp;+&nbsp;통합특별시비&nbsp;+&nbsp;시비</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

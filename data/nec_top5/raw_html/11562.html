@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;위성곤 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	7월 민생 추경 3000억원 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="7월 민생 추경 3000억원 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;유류비&nbsp;부담&nbsp;경감을&nbsp;통한&nbsp;가계&nbsp;가처분&nbsp;소득&nbsp;증대&nbsp;및&nbsp;소비&nbsp;진작<br>&nbsp;&nbsp;○&nbsp;도정이&nbsp;민생&nbsp;현안을&nbsp;최우선으로&nbsp;챙긴다는&nbsp;강력한&nbsp;'민생&nbsp;안정'&nbsp;의지&nbsp;전달<br>&nbsp;&nbsp;○&nbsp;영세&nbsp;소상공인과&nbsp;취약계층의&nbsp;원리금&nbsp;상환&nbsp;부담&nbsp;완화<br>&nbsp;&nbsp;○&nbsp;소규모&nbsp;공사&nbsp;활성화를&nbsp;통해&nbsp;지역&nbsp;내&nbsp;기능공&nbsp;및&nbsp;일용직&nbsp;근로자의&nbsp;소득&nbsp;보전<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;민생추경&nbsp;편성&nbsp;기준&nbsp;및&nbsp;원칙<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3대&nbsp;핵심&nbsp;지원&nbsp;대상&nbsp;설정&nbsp;:&nbsp;유류비&nbsp;상승에&nbsp;경제적&nbsp;어려움을&nbsp;겪는&nbsp;계층,&nbsp;농어업인,&nbsp;소상공인&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3대&nbsp;맞춤형&nbsp;지원&nbsp;방식&nbsp;:&nbsp;유류비·물류비·항공료&nbsp;직접&nbsp;지원,&nbsp;금융지원(이차보전&nbsp;및&nbsp;특별보증),&nbsp;소액&nbsp;민생&nbsp;공사&nbsp;조기&nbsp;발주<br>&nbsp;&nbsp;○&nbsp;3,000억&nbsp;원&nbsp;규모의&nbsp;민생&nbsp;추경&nbsp;편성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신속&nbsp;집행&nbsp;:&nbsp;추경&nbsp;통과&nbsp;후&nbsp;3개월&nbsp;이내&nbsp;예산의&nbsp;70%&nbsp;이상&nbsp;집행&nbsp;등&nbsp;신속&nbsp;집행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;'제주형&nbsp;민생&nbsp;행복&nbsp;카드'&nbsp;연계&nbsp;:&nbsp;유류비나&nbsp;물류비&nbsp;지원을&nbsp;현금이&nbsp;아닌&nbsp;지역화폐(탐나는전)나&nbsp;전용&nbsp;바우처&nbsp;카드&nbsp;지급&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제주&nbsp;지역&nbsp;내&nbsp;상권에서&nbsp;소비되는&nbsp;선순환&nbsp;구조&nbsp;설계<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;(2027~)&nbsp;민생추경&nbsp;편성&nbsp;및&nbsp;신속&nbsp;집행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지방비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;도&nbsp;예산&nbsp;구조조정,&nbsp;순세계잉여금&nbsp;등&nbsp;재원&nbsp;활용&nbsp;방안&nbsp;검토&nbsp;후&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	제주기본사회 선도지역 육성 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="제주기본사회 선도지역 육성 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;소득&nbsp;불평등&nbsp;완화와&nbsp;보편적&nbsp;기본서비스&nbsp;제공으로&nbsp;사회안전망&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;주거·의료비&nbsp;등&nbsp;고정&nbsp;지출&nbsp;감소,&nbsp;실질가처분&nbsp;소득&nbsp;증대로&nbsp;도민의&nbsp;삶의&nbsp;질&nbsp;향상<br>&nbsp;&nbsp;○&nbsp;정주&nbsp;여건&nbsp;혁신으로&nbsp;인구&nbsp;유입&nbsp;및&nbsp;정착,&nbsp;저출생&nbsp;문제&nbsp;해결로&nbsp;인구&nbsp;소멸&nbsp;대응<br>&nbsp;&nbsp;○&nbsp;제주가&nbsp;만드는&nbsp;대한민국&nbsp;'기본사회'&nbsp;로서&nbsp;정부&nbsp;정책&nbsp;표준모델&nbsp;주도<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;조례&nbsp;개정&nbsp;및&nbsp;전담&nbsp;조직&nbsp;구성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기본사회추진단,&nbsp;기본사회위원회,&nbsp;조례개정&nbsp;등&nbsp;<br>&nbsp;&nbsp;○&nbsp;제주형&nbsp;기본사회계획&nbsp;종합계획.시행계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노동,&nbsp;주거,&nbsp;교육,&nbsp;돌봄,&nbsp;보건의료,&nbsp;여가문화,&nbsp;교통,&nbsp;에너지&nbsp;등&nbsp;기본사회&nbsp;핵심&nbsp;과제&nbsp;사업&nbsp;추진으로&nbsp;기본사회&nbsp;모델&nbsp;개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기본사회&nbsp;통합&nbsp;기금&nbsp;조성&nbsp;및&nbsp;공공기여&nbsp;이익공유&nbsp;확대&nbsp;방안&nbsp;등&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기본사회&nbsp;구현을&nbsp;위한&nbsp;가이드라인,&nbsp;핵심&nbsp;과제&nbsp;이행&nbsp;계획,&nbsp;기본사회&nbsp;지표&nbsp;개발&nbsp;등<br>&nbsp;&nbsp;○&nbsp;제주형&nbsp;기본사회&nbsp;민관협치&nbsp;포럼<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;(2026)&nbsp;조례&nbsp;개정&nbsp;및&nbsp;전담&nbsp;조직&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;(2027~2028)&nbsp;제주형&nbsp;기본사회계획&nbsp;종합계획.시행계획&nbsp;수립<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비/지방비<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특별자치도&nbsp;포괄보조금(국비)&nbsp;및&nbsp;지방소멸기금&nbsp;등</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	365 민생경제 비상상황실 운영</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="365 민생경제 비상상황실 운영">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;고물가&nbsp;시기에도&nbsp;소상공인의&nbsp;원자재&nbsp;구매&nbsp;및&nbsp;취약계층의&nbsp;식비&nbsp;부담을&nbsp;최소화하여&nbsp;기본적&nbsp;삶의&nbsp;질&nbsp;보장<br>&nbsp;&nbsp;○&nbsp;소상공인의&nbsp;원자재&nbsp;조달&nbsp;비용을&nbsp;절감하여&nbsp;지역&nbsp;상권의&nbsp;생존권&nbsp;및&nbsp;자생력&nbsp;강화<br>&nbsp;&nbsp;○&nbsp;현장의&nbsp;목소리가&nbsp;즉각&nbsp;정책에&nbsp;반영되는&nbsp;과정을&nbsp;통해&nbsp;도민이&nbsp;신뢰하는&nbsp;'결과&nbsp;중심&nbsp;행정'&nbsp;모델&nbsp;정립<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;도지사가&nbsp;직접&nbsp;지휘하는&nbsp;'민생경제&nbsp;비상상황실'&nbsp;상설&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;상황실&nbsp;내&nbsp;기동팀을&nbsp;배치하여&nbsp;부당&nbsp;배송비,&nbsp;불공정&nbsp;거래&nbsp;등&nbsp;현장의&nbsp;병목&nbsp;현상을&nbsp;실시간&nbsp;모니터링<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;물가안정&nbsp;기동&nbsp;권한&nbsp;부여:&nbsp;위기&nbsp;징후&nbsp;포착&nbsp;시&nbsp;도지사가&nbsp;즉각적인&nbsp;[재정&nbsp;투입권]과&nbsp;[공공&nbsp;비축물량&nbsp;방출&nbsp;명령권]을&nbsp;행사하여&nbsp;골든타임&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;관련&nbsp;조례&nbsp;개정<br>&nbsp;&nbsp;○&nbsp;물가안정기금&nbsp;조성&nbsp;및&nbsp;운용&nbsp;:&nbsp;1,000억&nbsp;원<br>&nbsp;&nbsp;○&nbsp;제주형&nbsp;10대&nbsp;생필품을&nbsp;선정하여&nbsp;전국&nbsp;평균&nbsp;이하의&nbsp;가격을&nbsp;유지하도록&nbsp;집중&nbsp;관리<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;(2026)&nbsp;365&nbsp;민생경제&nbsp;비상상황실&nbsp;설치&nbsp;및&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;(2027~2028)&nbsp;조례&nbsp;개정&nbsp;및&nbsp;물가안정기금&nbsp;조성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	제주형 민생 119 도입</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="제주형 민생 119 도입">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전화&nbsp;한&nbsp;통으로&nbsp;일상&nbsp;불편이&nbsp;해결되는&nbsp;'내&nbsp;삶을&nbsp;돌보는&nbsp;생활&nbsp;도정'&nbsp;실현<br>&nbsp;&nbsp;○&nbsp;독거노인&nbsp;등&nbsp;소외&nbsp;계층의&nbsp;주거&nbsp;환경&nbsp;개선&nbsp;및&nbsp;고독사&nbsp;예방을&nbsp;위한&nbsp;선제적&nbsp;방문<br>&nbsp;&nbsp;○&nbsp;은퇴자의&nbsp;숙련된&nbsp;기술&nbsp;및&nbsp;청년층의&nbsp;지역&nbsp;내&nbsp;정착을&nbsp;돕는&nbsp;세대&nbsp;공감&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;공급자&nbsp;중심의&nbsp;행정에서&nbsp;수요자&nbsp;중심의&nbsp;'민생&nbsp;119&nbsp;기동형&nbsp;생활&nbsp;행정'&nbsp;구현<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전담&nbsp;조직과&nbsp;민간&nbsp;전문가가&nbsp;결합&nbsp;된&nbsp;(제주&nbsp;생활&nbsp;SOS/119)기동&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;4개&nbsp;권역별로&nbsp;각&nbsp;10명&nbsp;내외의&nbsp;전문인력을&nbsp;배치,&nbsp;민원&nbsp;접수,&nbsp;배분,&nbsp;현장&nbsp;출동&nbsp;관리<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;읍면동&nbsp;단위로&nbsp;순회하며&nbsp;현장&nbsp;밀착형&nbsp;서비스를&nbsp;수행하는&nbsp;기동팀&nbsp;구성&nbsp;&nbsp;<br>&nbsp;&nbsp;○&nbsp;원스톱&nbsp;콜센터(제주&nbsp;생활&nbsp;SOS/119&nbsp;센터)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;'생활&nbsp;SOS&nbsp;전용&nbsp;번호'&nbsp;운영으로&nbsp;접근성&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;촘촘한&nbsp;생활&nbsp;밀착형&nbsp;서비스&nbsp;제공&nbsp;:&nbsp;전기/조명,&nbsp;수도/배수,&nbsp;안전/방범,&nbsp;이동&nbsp;지원&nbsp;등&nbsp;<br>&nbsp;&nbsp;○&nbsp;세대&nbsp;융합형&nbsp;일자리&nbsp;생태계&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;은퇴&nbsp;기술자&nbsp;:&nbsp;숙련된&nbsp;기술력을&nbsp;가진&nbsp;시니어&nbsp;전문가를&nbsp;채용하여&nbsp;노하우&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;청년&nbsp;기술자&nbsp;:&nbsp;기동력을&nbsp;갖춘&nbsp;청년&nbsp;인력을&nbsp;배치하여&nbsp;청년&nbsp;일자리&nbsp;제공&nbsp;및&nbsp;세대&nbsp;간&nbsp;협력&nbsp;모델&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;(2026~2027)&nbsp;'민생&nbsp;119&nbsp;기동형&nbsp;생활&nbsp;행정'&nbsp;준비단&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;(2028~&nbsp;)&nbsp;'민생&nbsp;119&nbsp;기동형&nbsp;생활&nbsp;행정'&nbsp;시범&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;(2029~&nbsp;)&nbsp;'민생&nbsp;119&nbsp;기동형&nbsp;생활&nbsp;행정'&nbsp;전면&nbsp;시행&nbsp;<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지방비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	주민참여예산제 2.0, 직접민주주의의 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="주민참여예산제 2.0, 직접민주주의의 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;예산&nbsp;집행의&nbsp;효율성&nbsp;및&nbsp;투명성&nbsp;제고<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민&nbsp;밀착형&nbsp;사업&nbsp;발굴을&nbsp;통해&nbsp;예산&nbsp;낭비&nbsp;방지&nbsp;및&nbsp;실질적인&nbsp;지역&nbsp;문제&nbsp;해결<br>&nbsp;&nbsp;○&nbsp;제주형&nbsp;직접민주주의&nbsp;완성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;공동체의&nbsp;미래를&nbsp;도민이&nbsp;직접&nbsp;설계하는&nbsp;권리,&nbsp;책임이&nbsp;공존하는&nbsp;자치분권&nbsp;전환<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;주민참여조례&nbsp;및&nbsp;운영가이드가인&nbsp;개정&nbsp;등&nbsp;제도&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민자치회&nbsp;주민참여예산&nbsp;예산&nbsp;권한&nbsp;및&nbsp;숙의&nbsp;과정의&nbsp;상설화&nbsp;등&nbsp;개정&nbsp;사항&nbsp;반영&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민참여예산&nbsp;배분의&nbsp;경직성&nbsp;등&nbsp;개선&nbsp;등&nbsp;가이드라인&nbsp;개정&nbsp;<br>&nbsp;&nbsp;○&nbsp;보조금의&nbsp;심의&nbsp;구조&nbsp;개선&nbsp;및&nbsp;예산&nbsp;배분&nbsp;모델&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민참여예산&nbsp;보조금&nbsp;포괄적&nbsp;승인&nbsp;제도&nbsp;및&nbsp;인구·지역&nbsp;격차&nbsp;연동&nbsp;배분&nbsp;기준&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;탄소중립,&nbsp;재생에너지&nbsp;등&nbsp;주민&nbsp;제안&nbsp;전환&nbsp;의제&nbsp;우선&nbsp;배정&nbsp;<br>&nbsp;&nbsp;○&nbsp;숙의&nbsp;과정의&nbsp;고도화&nbsp;및&nbsp;환류체계&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;다양한&nbsp;주민&nbsp;구성원이&nbsp;참여하는&nbsp;숙의&nbsp;과정&nbsp;설계<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;주민참여예산&nbsp;모니터링단&nbsp;상설화&nbsp;및&nbsp;환류기능&nbsp;강화&nbsp;<br>&nbsp;&nbsp;○&nbsp;재정&nbsp;민주주의를&nbsp;실현하는&nbsp;풀뿌리&nbsp;자치&nbsp;모델&nbsp;구현<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;(2026~2027)&nbsp;주민참여조례&nbsp;및&nbsp;운영가이드가인&nbsp;개정&nbsp;등의&nbsp;제도&nbsp;개선<br>&nbsp;&nbsp;○&nbsp;(2028~)&nbsp;주민참여예산제&nbsp;2.0&nbsp;제도&nbsp;시행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;지방비&nbsp;일반회계&nbsp;1%</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

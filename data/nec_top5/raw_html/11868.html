@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;김길수 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	군민통합 「힘있는 영월」</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="군민통합 「힘있는 영월」">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;대통합&nbsp;:&nbsp;7만군민(거주군민+&nbsp;출향군민)을&nbsp;하나로<br>&nbsp;&nbsp;○&nbsp;년&nbsp;예산규모&nbsp;1조원&nbsp;시대&nbsp;개막<br>&nbsp;&nbsp;○&nbsp;공직자&nbsp;청렴도&nbsp;1등급&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;고향사랑기부금&nbsp;년간&nbsp;10억원&nbsp;목표<br>&nbsp;&nbsp;○&nbsp;공직자&nbsp;최고의&nbsp;직무역량&nbsp;배양<br>-<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;군민통합을&nbsp;위한&nbsp;다양한&nbsp;군정&nbsp;시책&nbsp;개발&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;예산&nbsp;1조원&nbsp;시대를&nbsp;위한&nbsp;지역개발사업을&nbsp;통한&nbsp;국도비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;청렴도&nbsp;1등급을&nbsp;위한&nbsp;리더의&nbsp;역할과&nbsp;간부&nbsp;공무원의&nbsp;솔선수범<br>&nbsp;&nbsp;○&nbsp;고향사랑기부금&nbsp;모금을&nbsp;위한&nbsp;출향군민의&nbsp;애향심,자긍심&nbsp;고취<br>&nbsp;&nbsp;○&nbsp;공직자&nbsp;직무역량&nbsp;배양을&nbsp;위한&nbsp;다양한&nbsp;교육훈련기회&nbsp;제공<br>-<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;1&nbsp;~&nbsp;2030.&nbsp;6.&nbsp;30<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;영월군의&nbsp;특성을&nbsp;살린&nbsp;다양한&nbsp;지역개발사업&nbsp;발굴로&nbsp;국·도비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;고향사랑기부금&nbsp;모금&nbsp;총력<br>&nbsp;&nbsp;○&nbsp;행안부&nbsp;등&nbsp;중앙부처&nbsp;및&nbsp;강원특별자치도의&nbsp;공모사업&nbsp;선정노력<br>&nbsp;&nbsp;○&nbsp;특별교부세&nbsp;확보와&nbsp;교부세&nbsp;확보를&nbsp;위한&nbsp;기준의&nbsp;개발</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	핵심소재 산업의 중심도시 영월</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="핵심소재 산업의 중심도시 영월">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;산솔면&nbsp;첨단핵심소재&nbsp;산업단지&nbsp;조성(기회발전특구&nbsp;활용)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;알몬티&nbsp;대한중석을&nbsp;연계한&nbsp;선광장&nbsp;등&nbsp;첨단기업&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;100개&nbsp;기업유치&nbsp;및&nbsp;일자리&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;제4농공단지&nbsp;조성(남면&nbsp;북쌍리&nbsp;20만&nbsp;4,030㎡)<br>&nbsp;&nbsp;○&nbsp;한국&nbsp;소방마이스터고&nbsp;연계,&nbsp;소방,안전기업&nbsp;집중&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;재생&nbsp;에너지&nbsp;RE100&nbsp;사업&nbsp;추진으로&nbsp;친환경&nbsp;도시&nbsp;조성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;알몬티&nbsp;대한중석의&nbsp;사업&nbsp;재개에&nbsp;맞추어&nbsp;중동면&nbsp;산솔면&nbsp;일대에&nbsp;첨단&nbsp;핵심소재&nbsp;산업단지&nbsp;조성(2024.11&nbsp;기회발전특구로&nbsp;지정)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;100개&nbsp;시업유치&nbsp;목표&nbsp;설정<br>&nbsp;&nbsp;○&nbsp;제4농공단지&nbsp;조성을&nbsp;통한&nbsp;친환경&nbsp;산업중심의&nbsp;기업유치&nbsp;총력<br>&nbsp;&nbsp;○&nbsp;한국소방마이스터고&nbsp;졸업생의&nbsp;지역일자리&nbsp;확보&nbsp;및&nbsp;고용<br>&nbsp;&nbsp;○&nbsp;쌍용폐기물&nbsp;매립장&nbsp;부지를&nbsp;활용한&nbsp;기업유치,&nbsp;공공개발사업&nbsp;구상&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;1&nbsp;~&nbsp;2030.&nbsp;6.&nbsp;30<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;산업단지&nbsp;조성에&nbsp;필요한&nbsp;재원확보를&nbsp;위해&nbsp;국비,&nbsp;도비,&nbsp;군비&nbsp;매칭사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;매칭사업비&nbsp;확보를&nbsp;위해&nbsp;고향사랑기부금&nbsp;배가&nbsp;노력,&nbsp;기업유치에&nbsp;따른&nbsp;법인세&nbsp;세수&nbsp;확보&nbsp;노력&nbsp;배가<br>&nbsp;&nbsp;○&nbsp;행정안전부장관,&nbsp;강원특별도지사의&nbsp;특별교부세&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	100세 시대의 선도 도시 영월</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="100세 시대의 선도 도시 영월">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;영월군민&nbsp;전용&nbsp;초저가&nbsp;요양원&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영월의료원&nbsp;이전에&nbsp;따른&nbsp;기존&nbsp;건물&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;노인회지회&nbsp;사무공간&nbsp;환경&nbsp;개선&nbsp;및&nbsp;노인회관&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노인회관&nbsp;확보를&nbsp;위한&nbsp;적정&nbsp;건물&nbsp;리모델링&nbsp;및&nbsp;신규건설&nbsp;부지&nbsp;모색<br>&nbsp;&nbsp;○&nbsp;군민&nbsp;건강검진대상&nbsp;검진비&nbsp;바우처(1인&nbsp;30만원&nbsp;범위내)&nbsp;지급<br>&nbsp;&nbsp;○&nbsp;어르신&nbsp;건강증진&nbsp;등&nbsp;여가시간&nbsp;활용프로그램&nbsp;확대<br>&nbsp;&nbsp;○&nbsp;경로당&nbsp;취사준비&nbsp;도우미&nbsp;지원<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;의료원이전&nbsp;건물을&nbsp;활용한&nbsp;저가&nbsp;군민전용&nbsp;요양원&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;열악한&nbsp;환경에서&nbsp;운영되고&nbsp;있는&nbsp;노인회지회&nbsp;사무실&nbsp;확보를&nbsp;위한&nbsp;적정한&nbsp;장소&nbsp;검토<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비,&nbsp;도비&nbsp;확보를&nbsp;위한&nbsp;다양한&nbsp;방안&nbsp;마련&nbsp;및&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;군민건강검진&nbsp;대상&nbsp;선정&nbsp;및&nbsp;1인&nbsp;30만원&nbsp;범위&nbsp;내&nbsp;검진비&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;평소&nbsp;건강&nbsp;증진을&nbsp;위한&nbsp;다양한&nbsp;프로그램&nbsp;시행<br>&nbsp;&nbsp;○&nbsp;어르신들이&nbsp;함께&nbsp;생활하는&nbsp;경로당의&nbsp;식사&nbsp;도우미&nbsp;지원방안&nbsp;마련<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;1&nbsp;~&nbsp;2030.&nbsp;6.&nbsp;30<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비&nbsp;및&nbsp;도비&nbsp;확보&nbsp;총력<br>&nbsp;&nbsp;○&nbsp;고향사랑기부금&nbsp;제도의&nbsp;적극&nbsp;활용<br>&nbsp;&nbsp;○&nbsp;강원랜드&nbsp;사회공헌기금,&nbsp;시멘트&nbsp;기금&nbsp;적극&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	1천만 관광객이 찾는 특별관광 도시</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="1천만 관광객이 찾는 특별관광 도시">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;영화&nbsp;“왕과사는&nbsp;남자의&nbsp;후속효과를&nbsp;위한&nbsp;”왕과사는&nbsp;영월“프로젝트&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;난고&nbsp;김삿갓&nbsp;방랑시인&nbsp;세계화사업&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;영월&nbsp;10경을&nbsp;중심으로한&nbsp;체류형&nbsp;관광상품&nbsp;개발<br>&nbsp;&nbsp;○&nbsp;정례적인&nbsp;야간&nbsp;드론쇼&nbsp;공연&nbsp;및&nbsp;드론실증도시&nbsp;실용화&nbsp;방안<br>&nbsp;&nbsp;○&nbsp;운탄고도길&nbsp;명품화&nbsp;사업&nbsp;추진&nbsp;→&nbsp;관광객&nbsp;천만시대의&nbsp;개막<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;왕과사는&nbsp;영월&nbsp;프로젝트를&nbsp;위한&nbsp;TF팀&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;영월&nbsp;10경을&nbsp;중심으로&nbsp;한&nbsp;관광상품개발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영월군,&nbsp;강원도,&nbsp;한국관광공사,&nbsp;여행업체&nbsp;공동<br>&nbsp;&nbsp;○&nbsp;야간&nbsp;드론쇼&nbsp;정례화를&nbsp;위한&nbsp;프로그램&nbsp;개발&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;강원도와&nbsp;협의&nbsp;영월구간&nbsp;운탄고도길&nbsp;명품화&nbsp;추진<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;1&nbsp;~&nbsp;2030.&nbsp;6.&nbsp;30<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;분야별&nbsp;국비지원&nbsp;신청<br>&nbsp;&nbsp;○&nbsp;강원도지사의&nbsp;특별교부금&nbsp;요청<br>&nbsp;&nbsp;○&nbsp;한국관광공사&nbsp;관광진흥기금&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;고향사랑기부금&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	전국 최고의 농업경쟁력과 기후변화 대응</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="전국 최고의 농업경쟁력과 기후변화 대응">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;농기계&nbsp;임대사업소&nbsp;확대&nbsp;및&nbsp;저온&nbsp;저장고&nbsp;시설&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;사과,&nbsp;포도,&nbsp;콩,&nbsp;산채&nbsp;등&nbsp;영월특화작물&nbsp;집중&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;농업용수&nbsp;확보를&nbsp;위한&nbsp;농수로&nbsp;등&nbsp;농업기반&nbsp;시설&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;강원특별법에&nbsp;의한&nbsp;농촌활력지역&nbsp;지정&nbsp;및&nbsp;절대농지&nbsp;해제<br>&nbsp;&nbsp;○&nbsp;청년농업인&nbsp;지원정책&nbsp;수립&nbsp;및&nbsp;지원확대<br>&nbsp;&nbsp;○&nbsp;영월농업&nbsp;기후변화&nbsp;대책&nbsp;수립&nbsp;및&nbsp;도&nbsp;기후변화연구원&nbsp;분원&nbsp;유치<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;농기계&nbsp;임대사업확대를&nbsp;위한&nbsp;현장상황&nbsp;파악&nbsp;및&nbsp;의견수렴<br>&nbsp;&nbsp;○&nbsp;영월특화작물&nbsp;재배&nbsp;확대를&nbsp;위한&nbsp;다양한&nbsp;정책&nbsp;자문&nbsp;및&nbsp;컨설팅<br>&nbsp;&nbsp;○&nbsp;절대농지&nbsp;해제를&nbsp;위한&nbsp;농촌활력지역&nbsp;지정&nbsp;신청<br>&nbsp;&nbsp;○&nbsp;청년농업인&nbsp;지원정책&nbsp;확대를&nbsp;위한&nbsp;강원도농업기술센터&nbsp;지원요청<br>&nbsp;&nbsp;○&nbsp;기후변화연구원&nbsp;분원&nbsp;설치를&nbsp;위한&nbsp;강원도와&nbsp;협의<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;7.&nbsp;1&nbsp;~&nbsp;2030.&nbsp;6.&nbsp;30<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;농업관련&nbsp;도비확보를&nbsp;위한&nbsp;강원도&nbsp;농정부서&nbsp;긴밀한&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;특화작물재배&nbsp;확대를&nbsp;위한&nbsp;국도비&nbsp;지원방안&nbsp;강구<br>&nbsp;&nbsp;○&nbsp;우선순위에&nbsp;의한&nbsp;도비&nbsp;및&nbsp;군비&nbsp;투자를&nbsp;위한&nbsp;장단기&nbsp;재정계획&nbsp;수립<br>&nbsp;&nbsp;○&nbsp;농업관련&nbsp;각종&nbsp;국가&nbsp;공모사업&nbsp;적극&nbsp;활용</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

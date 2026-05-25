@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;이원택 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	국제에너지 도시 조성과 첨단산업 육성으로 전북 산업구조 대전환</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="국제에너지 도시 조성과 첨단산업 육성으로 전북 산업구조 대전환">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전북특별법&nbsp;개정으로&nbsp;‘국제&nbsp;에너지&nbsp;도시’&nbsp;근거&nbsp;신설&nbsp;및&nbsp;도지사&nbsp;규제&nbsp;특례&nbsp;권한&nbsp;이양을&nbsp;통한&nbsp;자율적&nbsp;에너지·산업&nbsp;거버넌스&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;재생에너지&nbsp;생산기반&nbsp;확대&nbsp;및&nbsp;RE100&nbsp;산단을&nbsp;구축해&nbsp;피지컬&nbsp;AI,&nbsp;그린수소,&nbsp;농생명,&nbsp;방산&nbsp;등&nbsp;첨단산업&nbsp;중심으로&nbsp;전북&nbsp;산업구조&nbsp;혁신<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;전북특별법&nbsp;내&nbsp;'국제&nbsp;에너지&nbsp;도시'&nbsp;명시,&nbsp;새만금&nbsp;배후부지&nbsp;수출형&nbsp;자유무역구역&nbsp;지정&nbsp;및&nbsp;에너지·디지털&nbsp;규제&nbsp;완화&nbsp;권한&nbsp;도지사&nbsp;위임&nbsp;조항&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;RE100&nbsp;산단&nbsp;조성,&nbsp;피지컬&nbsp;AI&nbsp;실증&nbsp;거점&nbsp;및&nbsp;그린수소&nbsp;생태계&nbsp;구축,&nbsp;전북의&nbsp;집적된&nbsp;첨단&nbsp;케미컬&nbsp;생태계를&nbsp;토대로&nbsp;한&nbsp;반도체&nbsp;실증·패키징&nbsp;공장&nbsp;유치&nbsp;및&nbsp;방위산업&nbsp;집중&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;한국식품산업클러스터와&nbsp;연계한&nbsp;‘K-푸드벨트’를&nbsp;구축하고,&nbsp;K-컬처&nbsp;산업&nbsp;고도화로&nbsp;글로벌&nbsp;문화·관광의&nbsp;중심지로&nbsp;육성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;핵심&nbsp;제도&nbsp;기반&nbsp;마련은&nbsp;임기&nbsp;내&nbsp;속도감&nbsp;있게&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;대규모&nbsp;재생에너지&nbsp;생산시설&nbsp;구축&nbsp;등은&nbsp;연차별·단계적&nbsp;이행<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;제도&nbsp;정비는&nbsp;자체&nbsp;행정력으로&nbsp;추진,&nbsp;첨단산업&nbsp;실증단지&nbsp;조성&nbsp;초기&nbsp;비용은&nbsp;국비&nbsp;확보&nbsp;및&nbsp;도비&nbsp;매칭으로&nbsp;충당<br>&nbsp;&nbsp;○&nbsp;자유무역구역&nbsp;지정과&nbsp;RE100&nbsp;인프라,&nbsp;도지사&nbsp;규제&nbsp;특례를&nbsp;지렛대로&nbsp;활용해&nbsp;국내외&nbsp;우수&nbsp;기업의&nbsp;대규모&nbsp;민간&nbsp;투자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	피지컬 AI 실증·테스트베드 구축</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="피지컬 AI 실증·테스트베드 구축">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전북의&nbsp;4대&nbsp;핵심&nbsp;산업군인&nbsp;제조,&nbsp;농업,&nbsp;특장차,&nbsp;건설기계를&nbsp;하나의&nbsp;지능형&nbsp;생태계로&nbsp;묶는&nbsp;피지컬AI&nbsp;4대&nbsp;실증지구로&nbsp;확대하고&nbsp;규제자유특구로&nbsp;지정<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;피지컬AI&nbsp;4대&nbsp;실증지구&nbsp;확대&nbsp;및&nbsp;규제자유특구&nbsp;지정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;피지컬AI&nbsp;통합&nbsp;관제센터:&nbsp;이종로봇&nbsp;통합관제,&nbsp;피지컬AI&nbsp;데이터센터&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제조:&nbsp;이동식&nbsp;로봇&nbsp;안전&nbsp;기준,&nbsp;AI자동&nbsp;하역,&nbsp;위험공정&nbsp;AI자율제조&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;농업:&nbsp;자율주행&nbsp;농기계&nbsp;일반도로&nbsp;군집주행,&nbsp;농기계&nbsp;무인작업&nbsp;허용&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;특장차:&nbsp;무인화물트럭&nbsp;및&nbsp;특장차&nbsp;도로운행&nbsp;허용,&nbsp;고중량&nbsp;화물&nbsp;드론&nbsp;야간비행&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;건설기계:&nbsp;디지털&nbsp;트윈&nbsp;기반&nbsp;무인&nbsp;굴착&nbsp;및&nbsp;토목&nbsp;자동화&nbsp;시스템&nbsp;실증<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;실증지구확대&nbsp;계획수립(2026):4대실증지구확대&nbsp;계획수립&nbsp;및&nbsp;세부&nbsp;규제특례&nbsp;발굴<br>&nbsp;&nbsp;○&nbsp;부처&nbsp;협의(2027):4대실증지구&nbsp;확대,&nbsp;규제자유특구를&nbsp;위한&nbsp;부처&nbsp;협의<br>&nbsp;&nbsp;○&nbsp;규제자유특구&nbsp;신청(2028):중소벤처기업부&nbsp;신청&nbsp;및&nbsp;지정<br>&nbsp;&nbsp;○&nbsp;실증&nbsp;및&nbsp;사업화(2029~):인프라&nbsp;구축,&nbsp;피지컬AI&nbsp;분야별&nbsp;실증,&nbsp;사업화&nbsp;지원,&nbsp;안전관리<br><br>&nbsp;□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;예산&nbsp;:&nbsp;800억원(국비&nbsp;600,&nbsp;지방비&nbsp;200)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	새만금 핵심 SOC 이재명 정부 임기내 완공 추진</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="새만금 핵심 SOC 이재명 정부 임기내 완공 추진">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;새만금&nbsp;핵심&nbsp;SOC를&nbsp;이재명&nbsp;대통령&nbsp;임기&nbsp;내에&nbsp;실질적으로&nbsp;완공하여&nbsp;지체된&nbsp;새만금&nbsp;사업을&nbsp;정상화<br>&nbsp;&nbsp;○&nbsp;SOC&nbsp;시대를&nbsp;마무리하고,&nbsp;새만금을&nbsp;재생에너지&nbsp;기반의&nbsp;첨단&nbsp;산업지대이자&nbsp;대한민국에서&nbsp;가장&nbsp;기업하기&nbsp;좋은&nbsp;인프라를&nbsp;갖춘&nbsp;곳으로&nbsp;전환<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;새만금국제공항은&nbsp;2029년&nbsp;개항&nbsp;목표에&nbsp;맞춰&nbsp;연차별&nbsp;국비를&nbsp;안정적으로&nbsp;확보하여&nbsp;신속&nbsp;완성<br>&nbsp;&nbsp;○&nbsp;새만금항인입철도는&nbsp;기존&nbsp;2033년&nbsp;개통&nbsp;목표를&nbsp;2029년으로&nbsp;앞당겨&nbsp;추진<br>&nbsp;&nbsp;○&nbsp;지역간&nbsp;연결도로&nbsp;1차&nbsp;개통&nbsp;및&nbsp;남북&nbsp;3축&nbsp;도로&nbsp;착공을&nbsp;임기내&nbsp;마무리하고&nbsp;광역&nbsp;도로·철도망&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;새만금신항만은&nbsp;현재&nbsp;추진&nbsp;중인&nbsp;2선석(5만톤급)&nbsp;외&nbsp;나머지&nbsp;4선석(5만톤급)과&nbsp;배후부지&nbsp;조성을&nbsp;국가재정으로&nbsp;전환,&nbsp;속도감&nbsp;있게&nbsp;추진하여&nbsp;임기&nbsp;내&nbsp;절반&nbsp;이상&nbsp;개항<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;이재명&nbsp;대통령&nbsp;임기&nbsp;내&nbsp;핵심&nbsp;SOC&nbsp;실질적&nbsp;완공&nbsp;및&nbsp;착공&nbsp;완료<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;새만금&nbsp;국제공항,&nbsp;새만금항&nbsp;인입철도,&nbsp;지역간&nbsp;연결도로,&nbsp;남북&nbsp;3축&nbsp;도로의&nbsp;조기&nbsp;구축을&nbsp;위한&nbsp;연차별&nbsp;국비&nbsp;예산&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;새만금&nbsp;신항만&nbsp;사업을&nbsp;국가재정으로&nbsp;전면&nbsp;전환하여&nbsp;안정적인&nbsp;사업&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	도민주권 정부 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="도민주권 정부 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;도민이&nbsp;직접&nbsp;정책&nbsp;의제를&nbsp;제안하고&nbsp;예산&nbsp;편성부터&nbsp;집행·평가까지&nbsp;전&nbsp;과정에&nbsp;참여하는&nbsp;실질적&nbsp;도민주권&nbsp;거버넌스&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;도지사&nbsp;및&nbsp;고위&nbsp;공직자의&nbsp;현장&nbsp;소통을&nbsp;강화하고&nbsp;정례화하여&nbsp;전북도가&nbsp;추진하는&nbsp;주요&nbsp;정책의&nbsp;민주성,&nbsp;투명성,&nbsp;실효성을&nbsp;높이고&nbsp;도민&nbsp;체감형&nbsp;현장&nbsp;중심&nbsp;행정&nbsp;정착<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;도지사&nbsp;직속&nbsp;‘도민정책·사회적대화&nbsp;추진단’을&nbsp;설치하여&nbsp;온·오프라인(AI&nbsp;플랫폼&nbsp;등)&nbsp;숙의&nbsp;기구를&nbsp;운영하고&nbsp;이&nbsp;기구에서&nbsp;논의된&nbsp;내용을&nbsp;도정&nbsp;예산과&nbsp;정책에&nbsp;반영<br>&nbsp;&nbsp;○&nbsp;‘도민&nbsp;주도형&nbsp;프로젝트&nbsp;공모제’를&nbsp;전면&nbsp;도입하여&nbsp;전북의&nbsp;대도약·대전환을&nbsp;위한&nbsp;전략&nbsp;추진&nbsp;과제를&nbsp;도민이&nbsp;직접&nbsp;제안&nbsp;및&nbsp;하고&nbsp;심사<br>&nbsp;&nbsp;○&nbsp;도지사의&nbsp;14개&nbsp;시·군&nbsp;현장&nbsp;방문&nbsp;및&nbsp;실국장급&nbsp;현장&nbsp;순회제를&nbsp;의무화<br>&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026년:&nbsp;추진단&nbsp;설치,&nbsp;관련&nbsp;조례&nbsp;제정,&nbsp;AI&nbsp;플랫폼&nbsp;구축&nbsp;착수&nbsp;및&nbsp;1차&nbsp;도민&nbsp;프로젝트&nbsp;공모·심사,&nbsp;현장&nbsp;소통&nbsp;시범&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2027년&nbsp;~&nbsp;2028년:&nbsp;정책&nbsp;환류&nbsp;시스템&nbsp;전면&nbsp;시행,&nbsp;민관협력&nbsp;사업&nbsp;집행,&nbsp;도민&nbsp;제안&nbsp;예산&nbsp;규모&nbsp;확대&nbsp;등&nbsp;제도&nbsp;고도화<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2029년&nbsp;~&nbsp;2030년:&nbsp;위기&nbsp;대응&nbsp;현장상황실&nbsp;상시&nbsp;운영&nbsp;등&nbsp;도민&nbsp;주권&nbsp;시스템의&nbsp;정착<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;연간&nbsp;약&nbsp;200억&nbsp;원&nbsp;규모의&nbsp;도비를&nbsp;우선&nbsp;편성하여&nbsp;안정적&nbsp;추진</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	지갑은 채우고 골목은 살리는 ‘체감형 경제’ 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="지갑은 채우고 골목은 살리는 ‘체감형 경제’ 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;소상공인·자영업자의&nbsp;자생력을&nbsp;높이고,&nbsp;농어민·예술인&nbsp;등&nbsp;전&nbsp;도민의&nbsp;실질적&nbsp;가처분&nbsp;소득을&nbsp;직접&nbsp;증대시키는&nbsp;'체감형&nbsp;경제'로&nbsp;도정&nbsp;패러다임&nbsp;대전환<br>&nbsp;&nbsp;○&nbsp;튼튼한&nbsp;골목상권&nbsp;금융&nbsp;안전망&nbsp;구축과&nbsp;함께,&nbsp;기본소득&nbsp;및&nbsp;재생에너지&nbsp;이익&nbsp;공유를&nbsp;통해&nbsp;지역&nbsp;내에&nbsp;돈이&nbsp;돌고&nbsp;도민의&nbsp;삶을&nbsp;지탱하는&nbsp;선순환&nbsp;경제&nbsp;생태계&nbsp;완성<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;골목상권&nbsp;생태계&nbsp;회복:&nbsp;지역&nbsp;유망&nbsp;식당&nbsp;프랜차이즈화,&nbsp;공동구매·물류&nbsp;도입,&nbsp;수수료&nbsp;제로&nbsp;배달앱&nbsp;및&nbsp;재소비&nbsp;쿠폰&nbsp;발행을&nbsp;통해&nbsp;지역&nbsp;내&nbsp;연속적인&nbsp;소비&nbsp;창출<br>&nbsp;&nbsp;○&nbsp;민생&nbsp;금융&nbsp;안전망&nbsp;구축:&nbsp;고금리&nbsp;대출자를&nbsp;위한&nbsp;'초저금리&nbsp;대환대출'&nbsp;실시&nbsp;및&nbsp;소상공인&nbsp;흑자&nbsp;부도&nbsp;방지를&nbsp;위한&nbsp;긴급&nbsp;'구제금융'&nbsp;운영<br>&nbsp;&nbsp;○&nbsp;농어촌·예술인&nbsp;기본소득:&nbsp;농어촌&nbsp;소멸&nbsp;방지와&nbsp;농어업의&nbsp;공익적&nbsp;가치&nbsp;보상,&nbsp;지역&nbsp;예술인의&nbsp;안정적&nbsp;창작&nbsp;보장을&nbsp;위한&nbsp;기본소득&nbsp;전면&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;에너지&nbsp;배당을&nbsp;통한&nbsp;도민&nbsp;자산화:&nbsp;재생에너지&nbsp;발전&nbsp;수익을&nbsp;도민에게&nbsp;환원하는&nbsp;'햇빛·바람&nbsp;연금'&nbsp;및&nbsp;주민&nbsp;주도형&nbsp;공동&nbsp;소득&nbsp;창출을&nbsp;위한&nbsp;'햇빛소득마을'&nbsp;집중&nbsp;조성<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;관행적&nbsp;예산&nbsp;통폐합&nbsp;및&nbsp;중앙정부&nbsp;국비&nbsp;확보<br>&nbsp;&nbsp;○&nbsp;전북미래성장펀드&nbsp;조성과&nbsp;신용보증&nbsp;확대로&nbsp;초저금리&nbsp;대환대출&nbsp;및&nbsp;재원&nbsp;뒷받침<br>&nbsp;&nbsp;○&nbsp;재생에너지&nbsp;공공&nbsp;수익&nbsp;기금화&nbsp;및&nbsp;민간&nbsp;이익&nbsp;공유제&nbsp;제도화</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

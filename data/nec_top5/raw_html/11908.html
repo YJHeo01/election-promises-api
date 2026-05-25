@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;강철호 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	북항재개발 신속 추진 및 랜드마크 돔형 문화·스포츠 콤플렉스 유치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="북항재개발 신속 추진 및 랜드마크 돔형 문화·스포츠 콤플렉스 유치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>북항재개발&nbsp;사업&nbsp;조기&nbsp;완성&nbsp;및&nbsp;동구민&nbsp;실질적&nbsp;수혜&nbsp;확보<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;부산시·해양수산부와&nbsp;적극&nbsp;협력하여&nbsp;북항재개발&nbsp;사업&nbsp;일정&nbsp;지연&nbsp;없이&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;북항재개발&nbsp;사업에서&nbsp;발생하는&nbsp;일자리에&nbsp;대한&nbsp;동구민&nbsp;우선&nbsp;채용&nbsp;MOU&nbsp;체결<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;동구민이&nbsp;체감할&nbsp;수&nbsp;있는&nbsp;상업·문화·여가&nbsp;공간의&nbsp;조기&nbsp;개방&nbsp;추진<br>북항&nbsp;랜드마크부지&nbsp;돔형&nbsp;문화·스포츠&nbsp;콤플렉스&nbsp;유치<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;랜드마크&nbsp;부지에&nbsp;대형&nbsp;돔형&nbsp;문화·스포츠&nbsp;복합시설을&nbsp;유치하여&nbsp;공연·전시·스포츠·관광이&nbsp;어우러지는&nbsp;부산&nbsp;대표&nbsp;랜드마크&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;국제&nbsp;크루즈&nbsp;관광객&nbsp;유입과&nbsp;연계한&nbsp;관광·MICE&nbsp;산업&nbsp;활성화&nbsp;거점&nbsp;구축<br><br>□&nbsp;이행방법<br>북항재개발&nbsp;조기&nbsp;완성&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;부산시·해양수산부·BPA&nbsp;등&nbsp;관계기관과&nbsp;정기&nbsp;협의체&nbsp;구성,&nbsp;사업&nbsp;일정&nbsp;점검&nbsp;및&nbsp;애로사항&nbsp;해소<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;동구민&nbsp;우선&nbsp;채용&nbsp;MOU를&nbsp;재개발&nbsp;시행사·협력업체와&nbsp;체결,&nbsp;동구&nbsp;고용센터&nbsp;연계&nbsp;취업&nbsp;매칭<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;단계별&nbsp;개방&nbsp;가능&nbsp;구역(친수공간,&nbsp;보행로,&nbsp;상업지구&nbsp;등)&nbsp;조기&nbsp;시민&nbsp;개방&nbsp;협의<br>돔형&nbsp;문화·스포츠&nbsp;콤플렉스&nbsp;유치&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;부산시·문화체육관광부와&nbsp;협력하여&nbsp;랜드마크&nbsp;부지&nbsp;활용&nbsp;계획에&nbsp;돔형&nbsp;복합시설&nbsp;반영&nbsp;건의<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;민간투자(PPP)&nbsp;및&nbsp;국제&nbsp;스포츠·엔터테인먼트&nbsp;기업&nbsp;유치를&nbsp;위한&nbsp;글로벌&nbsp;네트워크&nbsp;가동<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;크루즈&nbsp;관광&nbsp;활성화와&nbsp;연계한&nbsp;국제&nbsp;공연·전시·스포츠&nbsp;이벤트&nbsp;유치&nbsp;추진<br><br>□&nbsp;이행기간<br>================================================<br>추진과제&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;1년차&nbsp;|&nbsp;2년차&nbsp;|&nbsp;3년차&nbsp;|&nbsp;4년차<br>-----------------------------------------------------------------------------<br>관계기관&nbsp;협의체&nbsp;구성&nbsp;및&nbsp;운영&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●<br>-----------------------------------------------------------------------------<br>동구민&nbsp;우선&nbsp;채용&nbsp;MOU&nbsp;체결&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>-----------------------------------------------------------------------------<br>돔형&nbsp;콤플렉스&nbsp;유치&nbsp;타당성&nbsp;검토&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>-----------------------------------------------------------------------------<br>민간투자&nbsp;유치&nbsp;및&nbsp;설계&nbsp;착수&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●<br>================================================<br><br>□&nbsp;재원조달방안&nbsp;등<br>재원조달&nbsp;계획<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;북항재개발:&nbsp;기&nbsp;확보&nbsp;국비·시비&nbsp;예산의&nbsp;적기&nbsp;집행&nbsp;관리&nbsp;및&nbsp;추가&nbsp;국비&nbsp;확보&nbsp;건의<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;돔형&nbsp;콤플렉스:&nbsp;민간투자(PPP·BTO)&nbsp;방식&nbsp;중심,&nbsp;문체부·부산시&nbsp;국비·시비&nbsp;매칭&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;동구민&nbsp;채용&nbsp;MOU:&nbsp;별도&nbsp;재원&nbsp;불요&nbsp;(행정&nbsp;협약&nbsp;사항)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;협의체&nbsp;운영:&nbsp;구비&nbsp;(기존&nbsp;예산&nbsp;내&nbsp;운영&nbsp;가능)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	범일·좌천 재개발 구청장 직속 TF 구성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="범일·좌천 재개발 구청장 직속 TF 구성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>재개발&nbsp;사업&nbsp;추진&nbsp;체계&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;구청장&nbsp;직속&nbsp;전담&nbsp;TF를&nbsp;구성하여&nbsp;범일·좌천&nbsp;재개발&nbsp;사업의&nbsp;컨트롤타워&nbsp;일원화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;주민&nbsp;민원&nbsp;48시간&nbsp;이내&nbsp;초동&nbsp;응답&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;재개발&nbsp;관련&nbsp;인·허가&nbsp;처리&nbsp;기간&nbsp;단축을&nbsp;위한&nbsp;원스톱&nbsp;행정&nbsp;창구&nbsp;운영<br>주민&nbsp;의견&nbsp;반영&nbsp;및&nbsp;이주&nbsp;대책&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;정기&nbsp;주민설명회&nbsp;및&nbsp;소통&nbsp;채널(온·오프라인)&nbsp;상시&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;이주&nbsp;대상&nbsp;주민의&nbsp;주거&nbsp;안정&nbsp;대책&nbsp;마련&nbsp;및&nbsp;동구&nbsp;내&nbsp;임시&nbsp;주거&nbsp;지원<br><br>□&nbsp;이행방법<br>구청장&nbsp;직속&nbsp;TF&nbsp;구성&nbsp;및&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;취임&nbsp;즉시&nbsp;도시재생과·건축과·주민지원과&nbsp;합동&nbsp;TF팀&nbsp;구성&nbsp;(전담&nbsp;공무원&nbsp;배치)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;TF팀장은&nbsp;구청장이&nbsp;직접&nbsp;주재,&nbsp;주간&nbsp;진행상황&nbsp;점검&nbsp;회의&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;조합·시공사·관계기관&nbsp;간&nbsp;정기&nbsp;협의체를&nbsp;통한&nbsp;사업&nbsp;일정&nbsp;관리<br>주민&nbsp;소통&nbsp;및&nbsp;행정&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;재개발&nbsp;구역별&nbsp;주민&nbsp;소통&nbsp;담당관&nbsp;배치,&nbsp;현장&nbsp;민원&nbsp;접수&nbsp;및&nbsp;즉시&nbsp;처리<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;인·허가&nbsp;원스톱&nbsp;처리&nbsp;시스템&nbsp;도입으로&nbsp;행정&nbsp;처리&nbsp;기간&nbsp;30%&nbsp;이상&nbsp;단축&nbsp;목표<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;이주&nbsp;대상&nbsp;주민&nbsp;대상&nbsp;동구&nbsp;관내&nbsp;공공임대·순환이주&nbsp;주택&nbsp;우선&nbsp;배정<br><br>□&nbsp;이행기간<br>================================================<br>추진과제&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;1년차&nbsp;|&nbsp;2년차&nbsp;|&nbsp;3년차&nbsp;|&nbsp;4년차<br>-----------------------------------------------------------------------------<br>구청장&nbsp;직속&nbsp;TF&nbsp;구성&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>-----------------------------------------------------------------------------<br>주민&nbsp;소통&nbsp;채널&nbsp;구축·운영&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●<br>-----------------------------------------------------------------------------<br>인·허가&nbsp;원스톱&nbsp;시스템&nbsp;도입&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>-----------------------------------------------------------------------------<br>재개발&nbsp;단계별&nbsp;추진&nbsp;관리&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●<br>================================================<br><br>□&nbsp;재원조달방안&nbsp;등<br>재원조달&nbsp;계획<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;TF&nbsp;운영:&nbsp;구비&nbsp;(기존&nbsp;인력&nbsp;재배치&nbsp;및&nbsp;조직&nbsp;개편으로&nbsp;추가&nbsp;인건비&nbsp;최소화)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;인·허가&nbsp;시스템&nbsp;개선:&nbsp;구비&nbsp;(행정&nbsp;프로세스&nbsp;개선&nbsp;중심,&nbsp;별도&nbsp;대규모&nbsp;예산&nbsp;불요)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;주민&nbsp;소통&nbsp;채널:&nbsp;구비&nbsp;연간&nbsp;약&nbsp;5천만&nbsp;원&nbsp;(설명회·홍보물·온라인&nbsp;플랫폼&nbsp;운영)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;이주&nbsp;지원:&nbsp;부산시&nbsp;공공임대&nbsp;연계,&nbsp;LH&nbsp;순환이주&nbsp;프로그램&nbsp;활용&nbsp;(국비·시비&nbsp;매칭)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	경부선 철도지하화 조속 추진 및 상부 체육시설·공원 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="경부선 철도지하화 조속 추진 및 상부 체육시설·공원 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>경부선&nbsp;철도지하화&nbsp;사업의&nbsp;조속한&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;동구&nbsp;관내&nbsp;경부선&nbsp;철도&nbsp;구간의&nbsp;지하화&nbsp;사업&nbsp;조기&nbsp;착공을&nbsp;위한&nbsp;중앙정부·부산시&nbsp;협력&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;철도&nbsp;지하화를&nbsp;통한&nbsp;동구&nbsp;동서&nbsp;도심&nbsp;단절&nbsp;해소&nbsp;및&nbsp;생활권&nbsp;통합<br>상부&nbsp;공간&nbsp;활용:&nbsp;체육시설&nbsp;및&nbsp;도심&nbsp;공원&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;철도&nbsp;상부&nbsp;공간에&nbsp;주민&nbsp;체육시설(다목적&nbsp;운동장,&nbsp;생활체육센터&nbsp;등)&nbsp;설치<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;녹지&nbsp;공원·보행로&nbsp;조성으로&nbsp;쾌적한&nbsp;도심&nbsp;환경&nbsp;구현<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;주변&nbsp;주거지역과&nbsp;연결하는&nbsp;보행&nbsp;네트워크&nbsp;구축<br><br>□&nbsp;이행방법<br>중앙정부·부산시&nbsp;협력&nbsp;및&nbsp;사업&nbsp;추진&nbsp;가속화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;국토교통부·한국철도시설공단과의&nbsp;정기&nbsp;협의를&nbsp;통해&nbsp;사업&nbsp;일정&nbsp;관리&nbsp;및&nbsp;조기&nbsp;착공&nbsp;건의<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;부산시&nbsp;및&nbsp;국회&nbsp;부산&nbsp;지역구&nbsp;의원과&nbsp;연대하여&nbsp;사업비&nbsp;확보&nbsp;공동&nbsp;대응<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;동구&nbsp;차원의&nbsp;도시관리계획&nbsp;변경(용도지역&nbsp;변경&nbsp;등)&nbsp;선제적&nbsp;준비<br>상부&nbsp;공간&nbsp;활용&nbsp;계획&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;주민&nbsp;수요조사를&nbsp;통한&nbsp;상부&nbsp;공간&nbsp;활용&nbsp;마스터플랜&nbsp;수립<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;체육시설·공원&nbsp;설계&nbsp;시&nbsp;주민&nbsp;참여&nbsp;설계(디자인&nbsp;워크숍)&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;주변&nbsp;범일·좌천&nbsp;재개발과&nbsp;연계한&nbsp;통합&nbsp;도시계획&nbsp;수립<br><br>□&nbsp;이행기간<br>=================================================<br>추진과제&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;1년차&nbsp;|&nbsp;2년차&nbsp;|&nbsp;3년차&nbsp;|&nbsp;4년차<br>------------------------------------------------------------------------------<br>중앙정부·부산시&nbsp;협의&nbsp;및&nbsp;건의&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●<br>------------------------------------------------------------------------------<br>도시관리계획&nbsp;변경&nbsp;선제&nbsp;준비&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>------------------------------------------------------------------------------<br>상부공간&nbsp;마스터플랜&nbsp;수립&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>------------------------------------------------------------------------------<br>주민참여&nbsp;설계&nbsp;및&nbsp;기본설계&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●<br>=================================================<br><br>□&nbsp;재원조달방안&nbsp;등<br>재원조달&nbsp;계획<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;철도지하화&nbsp;사업:&nbsp;국비&nbsp;중심&nbsp;(국토교통부&nbsp;SOC&nbsp;예산),&nbsp;부산시비&nbsp;매칭<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;상부&nbsp;체육시설:&nbsp;국민체육진흥기금·부산시&nbsp;체육시설&nbsp;지원사업비&nbsp;확보&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;도심공원&nbsp;조성:&nbsp;국비(도시재생뉴딜&nbsp;등)·시비·구비&nbsp;분담<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;마스터플랜&nbsp;수립:&nbsp;구비&nbsp;(용역비&nbsp;약&nbsp;3억&nbsp;원)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	산복도로 단계적 고도제한 폐지 및 빈집 정비·순환 임대주택 활성화</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="산복도로 단계적 고도제한 폐지 및 빈집 정비·순환 임대주택 활성화">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>고도제한&nbsp;단계적&nbsp;폐지로&nbsp;재개발·재건축&nbsp;활성화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;거점지역&nbsp;이외&nbsp;산복도로&nbsp;일대&nbsp;고도제한을&nbsp;단계적으로&nbsp;전면&nbsp;해제<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;고도제한&nbsp;해제에&nbsp;따른&nbsp;재개발·재건축&nbsp;사업성&nbsp;확보로&nbsp;민간&nbsp;투자&nbsp;유도<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;재개발&nbsp;시&nbsp;주변&nbsp;기반시설(도로·상하수도·주차장&nbsp;등)&nbsp;대폭&nbsp;확충<br>빈집&nbsp;정비&nbsp;및&nbsp;고령층&nbsp;순환&nbsp;임대주택<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;방치&nbsp;빈집의&nbsp;체계적&nbsp;실태조사&nbsp;및&nbsp;정비·철거·리모델링&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;고령층&nbsp;세대를&nbsp;위한&nbsp;순환&nbsp;임대주택&nbsp;확보&nbsp;및&nbsp;입주&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;산복도로&nbsp;구간&nbsp;왕복&nbsp;4차선&nbsp;도로&nbsp;확장&nbsp;조속&nbsp;추진<br><br>□&nbsp;이행방법<br>고도제한&nbsp;폐지&nbsp;행정&nbsp;절차&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;부산시&nbsp;도시계획위원회와&nbsp;협의하여&nbsp;거점지역&nbsp;외&nbsp;고도지구&nbsp;해제&nbsp;건의<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;동구&nbsp;도시관리계획&nbsp;변경(안)&nbsp;수립&nbsp;및&nbsp;주민&nbsp;공람·의견&nbsp;수렴<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;해제&nbsp;지역별&nbsp;재개발&nbsp;추진&nbsp;시&nbsp;기반시설&nbsp;확충&nbsp;의무화&nbsp;조례&nbsp;제정<br>빈집&nbsp;정비&nbsp;및&nbsp;주거&nbsp;안정<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;빈집&nbsp;정비&nbsp;전담반&nbsp;구성,&nbsp;동별&nbsp;빈집&nbsp;전수조사&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;철거&nbsp;가능&nbsp;빈집은&nbsp;소규모&nbsp;공영주차장·쌈지공원으로&nbsp;활용<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;LH·부산도시공사와&nbsp;연계한&nbsp;고령층&nbsp;순환&nbsp;임대주택&nbsp;확보&nbsp;(관내&nbsp;공공임대&nbsp;우선&nbsp;배정)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;산복도로-중앙로&nbsp;4차선&nbsp;도로개설:&nbsp;부산시&nbsp;도로사업&nbsp;연계&nbsp;추진,&nbsp;국비·시비&nbsp;확보&nbsp;건의<br><br>□&nbsp;이행기간<br>=================================================<br>추진과제&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;1년차&nbsp;|&nbsp;2년차&nbsp;|&nbsp;3년차&nbsp;|&nbsp;4년차<br>------------------------------------------------------------------------------<br>고도제한&nbsp;해제&nbsp;건의·협의&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>------------------------------------------------------------------------------<br>빈집&nbsp;전수조사&nbsp;및&nbsp;정비&nbsp;착수&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>------------------------------------------------------------------------------<br>순환&nbsp;임대주택&nbsp;확보·운영&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●<br>------------------------------------------------------------------------------<br>산복도로&nbsp;4차선&nbsp;확장&nbsp;추진&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●<br>=================================================<br><br>□&nbsp;재원조달방안&nbsp;등<br>재원조달&nbsp;계획<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;고도제한&nbsp;해제:&nbsp;행정&nbsp;절차&nbsp;사항&nbsp;(별도&nbsp;대규모&nbsp;예산&nbsp;불요)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;빈집&nbsp;정비:&nbsp;국비(빈집정비사업)·구비&nbsp;매칭,&nbsp;연간&nbsp;약&nbsp;5억&nbsp;원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;순환&nbsp;임대주택:&nbsp;LH·부산도시공사&nbsp;공공임대&nbsp;예산&nbsp;연계,&nbsp;구비&nbsp;일부&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;산복도로&nbsp;4차선:&nbsp;국비(SOC&nbsp;예산)·시비&nbsp;중심,&nbsp;구비&nbsp;분담</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	명품 교육도시 동구 완성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="명품 교육도시 동구 완성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>교육&nbsp;인프라&nbsp;확충&nbsp;및&nbsp;학교&nbsp;환경&nbsp;혁신<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;노후&nbsp;학교&nbsp;시설&nbsp;현대화&nbsp;및&nbsp;스마트&nbsp;교실&nbsp;환경&nbsp;구축&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;등하교길&nbsp;통학안전&nbsp;인프라&nbsp;대폭&nbsp;강화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;방과후&nbsp;돌봄·교육&nbsp;프로그램&nbsp;확대로&nbsp;맞벌이&nbsp;가정&nbsp;양육&nbsp;부담&nbsp;경감<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;동구&nbsp;관내&nbsp;공공&nbsp;도서관·자습실&nbsp;확충&nbsp;및&nbsp;운영시간&nbsp;연장<br>미래&nbsp;인재&nbsp;육성&nbsp;및&nbsp;청년&nbsp;교육&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;AI·코딩·창의교육&nbsp;등&nbsp;미래형&nbsp;교육&nbsp;프로그램&nbsp;도입&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;대학&nbsp;연계&nbsp;청소년&nbsp;멘토링·진로탐색&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;저소득층&nbsp;학생&nbsp;교육비·급식비&nbsp;지원&nbsp;확대<br><br>□&nbsp;이행방법<br>교육&nbsp;환경&nbsp;개선<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;부산시교육청과&nbsp;협력하여&nbsp;관내&nbsp;노후&nbsp;학교&nbsp;리모델링&nbsp;우선&nbsp;선정&nbsp;건의<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;구청-교육청-학교&nbsp;협력&nbsp;체계&nbsp;구축,&nbsp;교육환경&nbsp;개선&nbsp;공동&nbsp;추진위원회&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;유휴&nbsp;공공시설을&nbsp;활용한&nbsp;마을&nbsp;돌봄센터·공부방&nbsp;확대&nbsp;(권역별&nbsp;1개소&nbsp;이상)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;학교&nbsp;인근&nbsp;통학&nbsp;안전&nbsp;인프라&nbsp;시설&nbsp;대폭&nbsp;개선&nbsp;및&nbsp;강화<br>미래형&nbsp;교육&nbsp;및&nbsp;청년&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;동구&nbsp;청소년문화센터&nbsp;기능&nbsp;강화,&nbsp;AI·SW&nbsp;교육&nbsp;특화&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;동구&nbsp;관내&nbsp;대학·전문대와&nbsp;연계한&nbsp;청소년&nbsp;멘토링·인턴십&nbsp;프로그램&nbsp;체결<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;저소득층&nbsp;교육비&nbsp;지원&nbsp;대상&nbsp;확대&nbsp;및&nbsp;신청&nbsp;절차&nbsp;간소화<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;글로벌&nbsp;인재&nbsp;육성을&nbsp;위한&nbsp;영어&nbsp;체험센터·국제교류&nbsp;프로그램&nbsp;운영<br><br>□&nbsp;이행기간<br>=================================================<br>추진과제&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;1년차&nbsp;|&nbsp;2년차&nbsp;|&nbsp;3년차&nbsp;|&nbsp;4년차<br>------------------------------------------------------------------------------<br>교육청&nbsp;협력&nbsp;체계&nbsp;구축&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>------------------------------------------------------------------------------<br>노후&nbsp;학교&nbsp;리모델링&nbsp;추진&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●<br>------------------------------------------------------------------------------<br>마을&nbsp;돌봄센터&nbsp;확대&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>------------------------------------------------------------------------------<br>미래형&nbsp;교육&nbsp;프로그램&nbsp;도입&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●<br>------------------------------------------------------------------------------<br>영어&nbsp;체험센터·국제교류&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;●<br>=================================================<br><br>□&nbsp;재원조달방안&nbsp;등<br>재원조달&nbsp;계획<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;학교&nbsp;시설&nbsp;현대화:&nbsp;교육청&nbsp;예산&nbsp;(교육환경개선사업비),&nbsp;구비&nbsp;매칭&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;마을&nbsp;돌봄센터:&nbsp;여성가족부&nbsp;돌봄사업&nbsp;국비·구비&nbsp;(개소당&nbsp;약&nbsp;1~2억&nbsp;원)<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;미래형&nbsp;교육&nbsp;프로그램:&nbsp;구비&nbsp;연간&nbsp;약&nbsp;3억&nbsp;원,&nbsp;기업&nbsp;사회공헌(CSR)&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;저소득층&nbsp;교육비&nbsp;지원:&nbsp;구비·부산시&nbsp;복지예산&nbsp;연계<br>&nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;영어&nbsp;체험센터:&nbsp;구비·교육청&nbsp;공동&nbsp;투자,&nbsp;유휴&nbsp;공공시설&nbsp;활용으로&nbsp;비용&nbsp;절감</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

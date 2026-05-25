@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;유지곤 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	일자리 창업도시 서구 유니콘(Unicorn) 프로젝트</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="일자리 창업도시 서구 유니콘(Unicorn) 프로젝트">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            “KAIST의&nbsp;기술,&nbsp;대기업의&nbsp;투자,&nbsp;서구의&nbsp;열정이&nbsp;만납니다!&nbsp;유지곤이&nbsp;서구를&nbsp;대한민국&nbsp;제2의&nbsp;판교로&nbsp;만들겠습니다.”&nbsp;<br>단순한&nbsp;창업&nbsp;지원을&nbsp;넘어,&nbsp;카이스트의&nbsp;원천&nbsp;기술과&nbsp;대기업의&nbsp;자본,&nbsp;그리고&nbsp;글로벌&nbsp;투자&nbsp;네트워크를&nbsp;서구로&nbsp;집결시키겠습니다.&nbsp;서구의&nbsp;청년들이&nbsp;세계적인&nbsp;유니콘&nbsp;기업을&nbsp;꿈꿀&nbsp;수&nbsp;있도록,&nbsp;1,000억&nbsp;규모의&nbsp;펀드를&nbsp;통해&nbsp;서구의&nbsp;경제&nbsp;지도를&nbsp;다시&nbsp;그리겠습니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;대기업이&nbsp;참여하는&nbsp;1,000억&nbsp;원&nbsp;규모의&nbsp;창업&nbsp;펀드&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;KAIST&nbsp;창업원과&nbsp;매년&nbsp;50개&nbsp;이상의&nbsp;기술&nbsp;스타트업&nbsp;발굴,&nbsp;유망&nbsp;기업의&nbsp;성장&nbsp;단계별&nbsp;자금&nbsp;지원,&nbsp;해외&nbsp;박람회&nbsp;참가&nbsp;및&nbsp;대기업&nbsp;협업을&nbsp;통해&nbsp;서구&nbsp;기업의&nbsp;글로벌&nbsp;시장&nbsp;진출&nbsp;성공&nbsp;사례&nbsp;창출.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;현대자동차그룹&nbsp;등&nbsp;대기업&nbsp;창업&nbsp;프로그램과&nbsp;협업하여&nbsp;지역&nbsp;스타트업의&nbsp;제품&nbsp;및&nbsp;서비스&nbsp;지원<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;KAIST&nbsp;창업원&nbsp;기술&nbsp;이전&nbsp;밀착&nbsp;지원→구민들이&nbsp;지역&nbsp;유망&nbsp;기업에&nbsp;직접&nbsp;투자하고&nbsp;수익을&nbsp;향유하는&nbsp;서구올패스&nbsp;기반&nbsp;펀딩&nbsp;플랫폼&nbsp;구축.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;임기&nbsp;내&nbsp;지속<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취임&nbsp;즉시&nbsp;KAIST와&nbsp;MOU&nbsp;체결&nbsp;및&nbsp;2027년&nbsp;창업&nbsp;펀드&nbsp;1호&nbsp;결성<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(중소벤처기업부&nbsp;스타트업&nbsp;파크&nbsp;및&nbsp;K-유니콘&nbsp;공모사업),&nbsp;시비(창업지원&nbsp;기금&nbsp;및&nbsp;지역&nbsp;특화&nbsp;스타트업&nbsp;매칭&nbsp;펀드),&nbsp;구비(중소기업&nbsp;육성&nbsp;기금&nbsp;및&nbsp;일반회계&nbsp;출연),&nbsp;민간:&nbsp;대기업&nbsp;사회공헌기금(CVC),&nbsp;벤처캐피털&nbsp;매칭&nbsp;투자&nbsp;및&nbsp;구민&nbsp;참여&nbsp;크라우드펀딩</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	첨단 ICT 기반 서구형 스마트 공공산후조리원 건립</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="첨단 ICT 기반 서구형 스마트 공공산후조리원 건립">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            “대전&nbsp;최초의&nbsp;공공산후조리원,&nbsp;서구가&nbsp;가장&nbsp;먼저&nbsp;시작하겠습니다!&nbsp;기술로&nbsp;아이와&nbsp;산모를&nbsp;지키겠습니다.”&nbsp;<br>그동안&nbsp;대전에&nbsp;단&nbsp;한&nbsp;곳도&nbsp;없었던&nbsp;공공산후조리원을&nbsp;서구가&nbsp;선도적으로&nbsp;건립하겠습니다.&nbsp;단순히&nbsp;저렴한&nbsp;시설을&nbsp;넘어,&nbsp;AI와&nbsp;IoT&nbsp;등&nbsp;첨단&nbsp;ICT&nbsp;기술을&nbsp;접목하여&nbsp;산모에게는&nbsp;최상의&nbsp;휴식을,&nbsp;신생아에게는&nbsp;빈틈없는&nbsp;안전을&nbsp;제공합니다.&nbsp;경제적&nbsp;부담은&nbsp;낮추고&nbsp;안전&nbsp;수준은&nbsp;전국&nbsp;최고로&nbsp;높여&nbsp;서구를&nbsp;대한민국&nbsp;산후조리&nbsp;서비스의&nbsp;새로운&nbsp;표준으로&nbsp;만들겠습니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;대전&nbsp;최초&nbsp;공공산후조리원&nbsp;건립을&nbsp;통한&nbsp;산후조리&nbsp;사각지대&nbsp;해소&nbsp;및&nbsp;경제적&nbsp;부담&nbsp;경감,&nbsp;AI·IoT&nbsp;모니터링&nbsp;시스템&nbsp;도입으로&nbsp;신생아&nbsp;건강&nbsp;이상&nbsp;징후&nbsp;조기&nbsp;발견&nbsp;및&nbsp;사고&nbsp;예방,&nbsp;AI&nbsp;공기살균&nbsp;시스템을&nbsp;통한&nbsp;청정&nbsp;산후케어&nbsp;실현.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;대전&nbsp;최초&nbsp;공공산후조리원&nbsp;설치&nbsp;선언&nbsp;및&nbsp;운영&nbsp;조례&nbsp;제정→AI·IoT&nbsp;통합&nbsp;모니터링&nbsp;시스템을&nbsp;구축하여&nbsp;신생아의&nbsp;심박·호흡을&nbsp;24시간&nbsp;감지하고,&nbsp;AI가&nbsp;아기의&nbsp;표정을&nbsp;인식해&nbsp;기록하는&nbsp;베스트&nbsp;샷&nbsp;베베캠&nbsp;고도화→신생아실&nbsp;AI&nbsp;공기살균&nbsp;시스템&nbsp;도입으로&nbsp;바이러스&nbsp;프리(Virus-Free)&nbsp;환경&nbsp;조성→산모가&nbsp;거동&nbsp;불편&nbsp;없이&nbsp;음성으로&nbsp;실내&nbsp;환경을&nbsp;제어하는&nbsp;스마트&nbsp;케어룸&nbsp;구축<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;08.&nbsp;~&nbsp;2029.&nbsp;03.&nbsp;(취임&nbsp;즉시&nbsp;설계&nbsp;착수&nbsp;및&nbsp;2028년&nbsp;상반기&nbsp;준공&nbsp;목표)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(보건복지부&nbsp;공공산후조리원&nbsp;설치&nbsp;지원&nbsp;사업&nbsp;및&nbsp;행안부&nbsp;지방소멸대응&nbsp;기금&nbsp;확보),&nbsp;시비(대전시&nbsp;출산&nbsp;장려&nbsp;및&nbsp;산후조리&nbsp;지원&nbsp;예산&nbsp;확보),&nbsp;구비(일반회&nbsp;계&nbsp;편성&nbsp;및&nbsp;서구&nbsp;출산&nbsp;장려&nbsp;기금),&nbsp;민간:(국내&nbsp;주요&nbsp;ICT&nbsp;기업&nbsp;및&nbsp;헬스케어&nbsp;기&nbsp;업과의&nbsp;기술&nbsp;협력(PPP)을&nbsp;통한&nbsp;첨단&nbsp;장비&nbsp;기부&nbsp;및&nbsp;공동&nbsp;운영&nbsp;모델&nbsp;개발)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	우리 아이를 세계적 리더로 키우는 ‘서구 글로벌 어학당’</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="우리 아이를 세계적 리더로 키우는 ‘서구 글로벌 어학당’">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            “비싼&nbsp;어학연수&nbsp;대신&nbsp;서구&nbsp;‘글로벌&nbsp;어학당’으로&nbsp;오세요!&nbsp;우리&nbsp;아이를&nbsp;영어·중국어에&nbsp;능통한&nbsp;세계적&nbsp;리더로&nbsp;키우겠습니다.”<br>부모의&nbsp;소득&nbsp;격차가&nbsp;아이의&nbsp;언어&nbsp;격차로&nbsp;이어지지&nbsp;않도록,&nbsp;전국&nbsp;최고&nbsp;수준의&nbsp;공공&nbsp;외국어&nbsp;교육&nbsp;시스템을&nbsp;구축하겠습니다.&nbsp;원어민&nbsp;프리토킹부터&nbsp;AI&nbsp;튜터링까지,&nbsp;서구의&nbsp;모든&nbsp;아이가&nbsp;집&nbsp;근처에서&nbsp;수준&nbsp;높은&nbsp;어학&nbsp;교육을&nbsp;무상으로&nbsp;누리는&nbsp;‘글로벌&nbsp;교육&nbsp;특구&nbsp;서구’를&nbsp;실현하겠습니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;공공&nbsp;외국어&nbsp;교육&nbsp;인프라&nbsp;확충으로&nbsp;어학&nbsp;사교육비&nbsp;절감,&nbsp;영어·중국어&nbsp;이중&nbsp;언어&nbsp;사용이&nbsp;가능한&nbsp;미래&nbsp;인재&nbsp;육성,&nbsp;소외&nbsp;지역&nbsp;어린이까지&nbsp;찾아가는&nbsp;'딜리버리'&nbsp;서비스로&nbsp;교육&nbsp;사각지대&nbsp;제로화.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;어린이&nbsp;전용&nbsp;어학당&nbsp;건립(원어민과&nbsp;함께하는&nbsp;프리토킹&nbsp;데이&nbsp;및&nbsp;방학&nbsp;맞이&nbsp;영어&nbsp;캠프를&nbsp;상설&nbsp;운영)→원어민&nbsp;강사가&nbsp;직접&nbsp;어린이집·유치원을&nbsp;찾아가는&nbsp;어학&nbsp;딜리버리→단순&nbsp;흥미를&nbsp;넘어&nbsp;중국어&nbsp;기초·심화반&nbsp;및&nbsp;자격증&nbsp;대비반을&nbsp;운영하여&nbsp;실질적인&nbsp;어학&nbsp;경쟁력&nbsp;확보→서구&nbsp;올패스&nbsp;앱&nbsp;및&nbsp;AI&nbsp;에듀테크&nbsp;센터와&nbsp;연계하여&nbsp;AI&nbsp;튜터&nbsp;대화,&nbsp;AR&nbsp;동화책&nbsp;읽기&nbsp;등&nbsp;최첨단&nbsp;어학&nbsp;실습&nbsp;환경&nbsp;제공.<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;08.&nbsp;~&nbsp;2027.&nbsp;12.&nbsp;(조례&nbsp;제정&nbsp;및&nbsp;강사단&nbsp;구성&nbsp;후&nbsp;어학당&nbsp;개관)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;시비(교육발전특구&nbsp;예산,&nbsp;글로벌&nbsp;인재&nbsp;육성&nbsp;매칭&nbsp;펀드),&nbsp;구비(교육경비&nbsp;보조금),&nbsp;민간(글로벌&nbsp;에듀테크&nbsp;기업&nbsp;최신&nbsp;교육&nbsp;콘텐츠&nbsp;및&nbsp;시스템&nbsp;후원&nbsp;유도)</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	노후 아파트 스마트 정비 신속지원단 설치</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="노후 아파트 스마트 정비 신속지원단 설치">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            “낡은&nbsp;규제는&nbsp;비우고&nbsp;스마트&nbsp;기술은&nbsp;채워,&nbsp;관리비&nbsp;20%를&nbsp;돌려드리겠습니다!&nbsp;”&nbsp;<br>재산권은&nbsp;높이고&nbsp;주거비는&nbsp;낮추는&nbsp;도시.&nbsp;AI&nbsp;스마트시티&nbsp;기술&nbsp;도입으로&nbsp;공동주택&nbsp;관리비&nbsp;부담을&nbsp;낮추고,&nbsp;구청장의&nbsp;인허가권을&nbsp;주민의&nbsp;실질적&nbsp;이익을&nbsp;위한&nbsp;‘방패’로&nbsp;사용하여&nbsp;대한민국&nbsp;노후계획도시&nbsp;정비의&nbsp;퍼스트&nbsp;무버로&nbsp;도약<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;재건축&nbsp;시&nbsp;인허가&nbsp;절차&nbsp;단축&nbsp;및&nbsp;인허가&nbsp;조기&nbsp;달성.&nbsp;AI&nbsp;에너지&nbsp;관리&nbsp;시스템&nbsp;도입으로&nbsp;공동주택&nbsp;관리비&nbsp;20%&nbsp;절감.&nbsp;공사비&nbsp;검증&nbsp;및&nbsp;용적률&nbsp;인센티브&nbsp;협상을&nbsp;통해&nbsp;조합원&nbsp;분담금&nbsp;획기적&nbsp;경감.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;구청장&nbsp;직속&nbsp;둔산&nbsp;정비&nbsp;신속통합&nbsp;지원단&nbsp;설치,&nbsp;혁신&nbsp;테크&nbsp;기업의&nbsp;공동주택&nbsp;에너지&nbsp;관리&nbsp;시스템(EMS)을&nbsp;아파트&nbsp;단지에&nbsp;접목,&nbsp;서구형&nbsp;공사비&nbsp;검증&nbsp;센터&nbsp;운영,&nbsp;시공사의&nbsp;부당한&nbsp;증액&nbsp;요구&nbsp;행정적으로&nbsp;중재,&nbsp;용적률&nbsp;최대한도&nbsp;적용&nbsp;및&nbsp;기부채납&nbsp;비율의&nbsp;합리적&nbsp;조정<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;임기&nbsp;내&nbsp;지속&nbsp;(취임&nbsp;즉시&nbsp;지원단&nbsp;구성&nbsp;및&nbsp;시범&nbsp;단지&nbsp;패스트트랙&nbsp;가동)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;구비(도시정비기금),&nbsp;시비(노후계획도시&nbsp;정비&nbsp;특별회계&nbsp;및&nbsp;주거환경개선기금&nbsp;확보),&nbsp;국비(국토부&nbsp;스마트시티&nbsp;조성&nbsp;사업&nbsp;및&nbsp;에너지&nbsp;효율화(EE)&nbsp;지원금&nbsp;유치),&nbsp;테크기업&nbsp;및&nbsp;시공사&nbsp;사회공헌기금(CSR)&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	전세사기 제로, 서구 ‘주거권 수호’ 행정명령</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="전세사기 제로, 서구 ‘주거권 수호’ 행정명령">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            “서구민의&nbsp;전세금은&nbsp;서구청이&nbsp;지킵니다!&nbsp;”&nbsp;<br>사기꾼은&nbsp;발붙일&nbsp;곳&nbsp;없고,&nbsp;피해자는&nbsp;일상을&nbsp;회복하는&nbsp;'안심&nbsp;서구’&nbsp;전세사기는&nbsp;단순한&nbsp;부동산&nbsp;사고가&nbsp;아닙니다.&nbsp;청년의&nbsp;꿈을&nbsp;무너뜨리고,&nbsp;신혼부부의&nbsp;미래를&nbsp;빼앗고,&nbsp;평범한&nbsp;시민의&nbsp;삶을&nbsp;한순간에&nbsp;붕괴시키는&nbsp;생활&nbsp;파괴&nbsp;범죄입니다.&nbsp;서구청이&nbsp;직접&nbsp;나서&nbsp;예방하고,&nbsp;추적하고,&nbsp;보호하고,&nbsp;회복시키는&nbsp;‘주거권&nbsp;수호&nbsp;행정’을&nbsp;시작하겠습니다.<br><br>□&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;전세사기&nbsp;ZERO화&nbsp;및&nbsp;피해자&nbsp;일상회복&nbsp;100%&nbsp;달성,&nbsp;부적격&nbsp;부동산&nbsp;중개업소&nbsp;완전&nbsp;퇴출&nbsp;및&nbsp;투명하고&nbsp;신뢰받는&nbsp;서구&nbsp;부동산&nbsp;상권&nbsp;조성,&nbsp;피해자&nbsp;주거&nbsp;안정을&nbsp;위한&nbsp;긴급&nbsp;자금&nbsp;지원&nbsp;및&nbsp;공공&nbsp;주거&nbsp;인프라&nbsp;우선&nbsp;제공.<br><br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;구청장&nbsp;직속&nbsp;'전세사기&nbsp;특별조사단'&nbsp;구성&nbsp;및&nbsp;조례&nbsp;긴급&nbsp;제정→관내&nbsp;다가구·다세대&nbsp;밀집&nbsp;지역&nbsp;부동산&nbsp;중개업소&nbsp;전수조사&nbsp;및&nbsp;위반업소&nbsp;행정처분→서구청&nbsp;내&nbsp;전용&nbsp;법률&nbsp;상담&nbsp;창구&nbsp;개설&nbsp;및&nbsp;긴급&nbsp;주거&nbsp;지원금&nbsp;지급&nbsp;개시→LH·대전도시공사와&nbsp;공공임대주택&nbsp;우선&nbsp;배정&nbsp;업무협약(MOU)&nbsp;체결<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;○&nbsp;2026.&nbsp;07.&nbsp;~&nbsp;임기&nbsp;내&nbsp;지속&nbsp;(취임&nbsp;100일&nbsp;이내&nbsp;조사단&nbsp;구성&nbsp;및&nbsp;지원금&nbsp;지급&nbsp;즉시&nbsp;개시)&nbsp;·<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;○&nbsp;국비(국토부&nbsp;전세피해&nbsp;지원센터&nbsp;운영&nbsp;보조금&nbsp;및&nbsp;주택도시기금),&nbsp;시비(대전시&nbsp;주거약자&nbsp;지원&nbsp;예산&nbsp;및&nbsp;청년&nbsp;주거&nbsp;안정&nbsp;지원금&nbsp;매칭),&nbsp;구비(주거복지기금&nbsp;신설&nbsp;및&nbsp;예비비&nbsp;긴급&nbsp;편성,&nbsp;기타(부동산&nbsp;위반&nbsp;행위&nbsp;과태료&nbsp;및&nbsp;행정&nbsp;처분&nbsp;수익금을&nbsp;피해&nbsp;지원&nbsp;재원으로&nbsp;투입)</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

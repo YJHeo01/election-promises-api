@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>공약 조회 | 정책·공약마당</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="subject" content=" ">
+    <meta name="keywords" content="">
+    <meta name="author" content=" ">
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <link rel="icon" href="/images/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script type="text/javascript">
+	var _CTX_PATH	= "";
+	
+	var _COMMON_PDF_FILE_URL_PATH = "";	//PDF FILE 경로
+	var _COMMON_CANDIDATE_FILE_URL_PATH = "/photo_";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV1 = "/elected_photo/";
+	var _COMMON_ELECTED_FILE_URL_PATH_LV2 = "/candidate/o/";
+	var _HBJ_PLC_OPEN_YN = "";	//후보자 공약 공개여부
+	var _PARTY_PLC_OPEN_YN = "";	//정당 정책 공개여부
+	</script>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/jquery-1.12.4.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script src="/js/iscroll.min.js"></script>
+    <script src="/js/jquery/jquery.paging.min.js"></script>
+    <script src="/js/common.js?v=20240222"></script>
+    <script src="/js/scripts.js?version=20220502"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			_FN_TITLE("공약 조회 | 정책·공약마당");
+			_FN_RESIZE_CALL();
+
+		});
+
+		
+		var bAccordion = [
+
+false,
+
+false,
+
+false,
+
+false,
+
+false,
+
+		                  ];
+
+		function fnAccordion(index) {
+			if (index > bAccordion.length) return;
+
+			for (var i = 0; i < bAccordion.length; i++) {
+				if (i == index) {
+					bAccordion[index] = !bAccordion[index];
+				} else {
+					bAccordion[i] = false;
+				}
+
+				if (bAccordion[i]) {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 접기");
+					$("#btnAccordion" + i).text("공약 내용 접기");
+				} else {
+					//$("#btnAccordion" + i).attr('title', sAccordion[i] + " 공약 내용 펼치기");
+					$("#btnAccordion" + i).text("공약 내용 펼치기");
+				}
+			}
+		}
+	</script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false">
+    <div class="wrapper">
+        <div class="container sub">
+            <div class="contents">
+                <h1 class="policy-title">제9회 전국동시지방선거&nbsp;안성민 공약목록</h1>
+                <div class="accordion policy-list">
+                	<div class="accordion-title" onclick="fnAccordion(0);">
+                        <p class="accordion-questions">
+                        	1.
+                        	신규 일자리 5,000개 창출 (영도 경제 부활)</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion0" title="신규 일자리 5,000개 창출 (영도 경제 부활)">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;신성장&nbsp;해양·수산&nbsp;산업&nbsp;및&nbsp;글로벌&nbsp;관광·커피&nbsp;산업&nbsp;집중&nbsp;육성을&nbsp;통한&nbsp;양질의&nbsp;일자리&nbsp;5,000개&nbsp;창출&nbsp;및&nbsp;정주&nbsp;인구&nbsp;회복&nbsp;기반&nbsp;마련<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[행정&nbsp;혁신]&nbsp;돈&nbsp;끌어오고&nbsp;기업&nbsp;모셔오는&nbsp;'일&nbsp;잘하는&nbsp;구청'<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘기업&nbsp;유치&nbsp;및&nbsp;국·시비&nbsp;예산&nbsp;확보&nbsp;전담팀’&nbsp;최우선&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;[선박·조선]&nbsp;첨단&nbsp;기술로&nbsp;다시&nbsp;뛰는&nbsp;영도&nbsp;노후&nbsp;공업지역<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;노후&nbsp;공업지역&nbsp;재편,&nbsp;친환경&nbsp;선박·방산&nbsp;MRO&nbsp;클러스터&nbsp;육성<br>&nbsp;&nbsp;○&nbsp;[해양&nbsp;신산업]&nbsp;미래&nbsp;해양수산의&nbsp;심장,&nbsp;영도의&nbsp;새로운&nbsp;먹거리&nbsp;창출<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;제&nbsp;2차&nbsp;해양수산&nbsp;공공기관&nbsp;및&nbsp;AI&nbsp;데이터센터&nbsp;유치<br>&nbsp;&nbsp;○&nbsp;[디지털&nbsp;전환]&nbsp;4차&nbsp;산업&nbsp;기술로&nbsp;진화하는&nbsp;수리조선업<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;3D&nbsp;매핑&nbsp;등&nbsp;4차&nbsp;산업&nbsp;기술&nbsp;융합으로&nbsp;수리조선&nbsp;및&nbsp;선용품&nbsp;산업&nbsp;고도화<br>&nbsp;&nbsp;○&nbsp;[관광&nbsp;인프라]&nbsp;발길&nbsp;닿는&nbsp;곳마다&nbsp;그림이&nbsp;되는&nbsp;명품&nbsp;해양&nbsp;관광<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;절영해안~태종대&nbsp;관광벨트&nbsp;및&nbsp;중리·감지해변&nbsp;해양레저&nbsp;특화단지&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;[체류형&nbsp;관광]&nbsp;스쳐&nbsp;가는&nbsp;영도에서,&nbsp;머무는&nbsp;영도로<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;(구)곤포가든&nbsp;부지&nbsp;프리미엄&nbsp;리조트&nbsp;유치&nbsp;및&nbsp;봉산마을&nbsp;숙박&nbsp;인프라&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;[관광&nbsp;랜드마크]&nbsp;부산의&nbsp;스카이라인을&nbsp;바꾸는&nbsp;영도의&nbsp;자존심<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;봉래산&nbsp;정상&nbsp;노후&nbsp;송신시설&nbsp;전면&nbsp;철거&nbsp;및&nbsp;부산&nbsp;최고&nbsp;랜드마크&nbsp;타워&nbsp;건립&nbsp;(민자&nbsp;유치)<br>&nbsp;&nbsp;○&nbsp;[골목&nbsp;상권]&nbsp;상인과&nbsp;관광객이&nbsp;함께&nbsp;웃는&nbsp;활기찬&nbsp;상권<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영도&nbsp;특화형&nbsp;'원도심&nbsp;관광재단'&nbsp;설립,&nbsp;흰여울문화마을&nbsp;대형&nbsp;주차장&nbsp;신설&nbsp;및&nbsp;골목상권&nbsp;상생을&nbsp;위한&nbsp;전통시장&nbsp;주차&nbsp;허용&nbsp;시간&nbsp;대폭&nbsp;확대&nbsp;(전선&nbsp;지중화&nbsp;등&nbsp;야간&nbsp;경관&nbsp;개선&nbsp;병행)<br>&nbsp;&nbsp;○&nbsp;[커피·물류&nbsp;거점화]&nbsp;아시아를&nbsp;대표하는&nbsp;글로벌&nbsp;커피&nbsp;산업&nbsp;허브<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국내&nbsp;최대&nbsp;디카페인&nbsp;가공·로스터리&nbsp;클러스터&nbsp;및&nbsp;R&D&nbsp;센터&nbsp;구축<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026.&nbsp;7&nbsp;~&nbsp;2030.&nbsp;06.&nbsp;(임기&nbsp;내&nbsp;지속&nbsp;추진&nbsp;및&nbsp;완료)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비,&nbsp;시비,&nbsp;구비,&nbsp;민간&nbsp;투자&nbsp;(BTL/BTO&nbsp;등)&nbsp;및&nbsp;지방소멸대응기금&nbsp;적극&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(1);">
+                        <p class="accordion-questions">
+                        	2.
+                        	정주 인구 12만 명 회복 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion1" title="정주 인구 12만 명 회복 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;열악한&nbsp;주거·정주&nbsp;여건의&nbsp;획기적&nbsp;개선을&nbsp;통해&nbsp;떠나는&nbsp;영도에서&nbsp;'돌아오는&nbsp;영도'로&nbsp;전환&nbsp;및&nbsp;정주&nbsp;인구&nbsp;12만&nbsp;명&nbsp;선&nbsp;회복<br>&nbsp;&nbsp;○&nbsp;지역&nbsp;골칫거리인&nbsp;빈집,&nbsp;무허가&nbsp;건축물,&nbsp;폐교를&nbsp;지역&nbsp;자산으로&nbsp;재창조하여&nbsp;인구&nbsp;소멸&nbsp;위기&nbsp;극복&nbsp;및&nbsp;청년&nbsp;인구&nbsp;유입<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[대책&nbsp;기구&nbsp;신설]&nbsp;묵은&nbsp;과제&nbsp;해결을&nbsp;위한&nbsp;구청장&nbsp;직속&nbsp;컨트롤타워<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구청장&nbsp;직속&nbsp;‘빈집·무허가·폐교&nbsp;해결&nbsp;전담&nbsp;민관&nbsp;대책위원회’&nbsp;즉각&nbsp;구성<br>&nbsp;&nbsp;○&nbsp;[빈집·폐공가&nbsp;대개조]&nbsp;골칫거리&nbsp;빈집을&nbsp;청년의&nbsp;꿈과&nbsp;주민의&nbsp;쉼터로<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;철거&nbsp;후&nbsp;공원·주차장&nbsp;조성&nbsp;및&nbsp;청년&nbsp;창업·워케이션&nbsp;거점으로&nbsp;전면&nbsp;전환<br>&nbsp;&nbsp;○&nbsp;[무허가&nbsp;건축물&nbsp;양성화]&nbsp;억울함&nbsp;없는&nbsp;합법적&nbsp;재산권&nbsp;행사&nbsp;보장<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;정부&nbsp;조치&nbsp;맞춤형&nbsp;선제적&nbsp;행정&nbsp;지원으로&nbsp;합법적&nbsp;수익&nbsp;창출(민박,&nbsp;카페)&nbsp;유도<br>&nbsp;&nbsp;○&nbsp;[재개발·재건축&nbsp;가속화]&nbsp;기다림&nbsp;없는&nbsp;초고속&nbsp;인허가&nbsp;패스트트랙<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;신속한&nbsp;인허가&nbsp;및&nbsp;행정&nbsp;절차&nbsp;단축을&nbsp;위한&nbsp;구청&nbsp;내&nbsp;‘원스톱&nbsp;전담&nbsp;창구’&nbsp;신설<br>&nbsp;&nbsp;○&nbsp;[폐교의&nbsp;자원화]&nbsp;닫힌&nbsp;학교&nbsp;문을&nbsp;열어&nbsp;구민의&nbsp;활력&nbsp;공간으로<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;방치된&nbsp;폐교&nbsp;부지를&nbsp;구민을&nbsp;위한&nbsp;복합&nbsp;스포츠(전지훈련장)&nbsp;및&nbsp;문화예술&nbsp;거점&nbsp;공간으로&nbsp;재조성<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026.&nbsp;7&nbsp;~&nbsp;2030.&nbsp;06.&nbsp;(임기&nbsp;내&nbsp;지속&nbsp;추진)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비,&nbsp;시비,&nbsp;구비,&nbsp;민간&nbsp;투자&nbsp;자본(BTL/BTO&nbsp;등)&nbsp;및&nbsp;지방소멸대응기금&nbsp;적극&nbsp;활용</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(2);">
+                        <p class="accordion-questions">
+                        	3.
+                        	어린이와 어른이 편하고 안전한 교통 인프라 구축 </p>
+                        <button class="accordion-control icon-spr" id="btnAccordion2" title="어린이와 어른이 편하고 안전한 교통 인프라 구축 ">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;영도구의&nbsp;지형적&nbsp;특성(고지대&nbsp;산복도로,&nbsp;좁은&nbsp;이면도로)을&nbsp;극복하는&nbsp;영도&nbsp;맞춤형&nbsp;신교통&nbsp;체계&nbsp;확립<br>&nbsp;&nbsp;○&nbsp;대중교통&nbsp;취약지역&nbsp;해소&nbsp;및&nbsp;교통약자(어린이,&nbsp;어르신)의&nbsp;완전한&nbsp;이동권&nbsp;보장으로&nbsp;보행자&nbsp;중심의&nbsp;걷기&nbsp;좋은&nbsp;도시&nbsp;조성<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[핵심&nbsp;신교통망]&nbsp;예비타당성&nbsp;조사&nbsp;신속&nbsp;통과&nbsp;및&nbsp;조기&nbsp;착공<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;영도선&nbsp;트램(도시철도)&nbsp;예비타당성&nbsp;조사&nbsp;신속&nbsp;통과&nbsp;및&nbsp;조기&nbsp;착공<br>&nbsp;&nbsp;○&nbsp;[맞춤형&nbsp;대중교통]&nbsp;고지대&nbsp;구석구석을&nbsp;누비는&nbsp;스마트&nbsp;발<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;산복도로&nbsp;등&nbsp;교통&nbsp;취약&nbsp;권역&nbsp;맞춤형(DRT)&nbsp;'영도&nbsp;콜버스'&nbsp;전면&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;[수직&nbsp;이동망&nbsp;구축]&nbsp;가파른&nbsp;언덕길도&nbsp;평지처럼&nbsp;편안하게<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;고지대&nbsp;주민&nbsp;보행&nbsp;단절&nbsp;해소를&nbsp;위한&nbsp;경사형&nbsp;엘리베이터&nbsp;등&nbsp;편의시설&nbsp;확충<br>&nbsp;&nbsp;○&nbsp;[어르신&nbsp;교통&nbsp;복지]&nbsp;어르신의&nbsp;발걸음을&nbsp;가볍게,&nbsp;병원&nbsp;가는&nbsp;길도&nbsp;든든하게<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;65세&nbsp;이상&nbsp;교통비&nbsp;지원&nbsp;및&nbsp;병원&nbsp;동행&nbsp;연계&nbsp;‘1천&nbsp;원&nbsp;택시’&nbsp;도입<br>&nbsp;&nbsp;○&nbsp;[안전한&nbsp;보행로&nbsp;확보]&nbsp;아이들도&nbsp;어르신도&nbsp;마음&nbsp;놓고&nbsp;걷는&nbsp;길<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;이면도로&nbsp;일방통행&nbsp;확대&nbsp;및&nbsp;도로&nbsp;다이어트로&nbsp;안전한&nbsp;통학로·보행로&nbsp;조성<br>&nbsp;&nbsp;○&nbsp;[공영주차장&nbsp;확충]&nbsp;주차&nbsp;전쟁&nbsp;없는&nbsp;쾌적하고&nbsp;여유로운&nbsp;영도<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;흰여울문화마을,&nbsp;전통시장,&nbsp;주차난&nbsp;심각&nbsp;주거지&nbsp;등&nbsp;거점별&nbsp;대규모&nbsp;주차장&nbsp;신설<br>&nbsp;&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026.&nbsp;7&nbsp;~&nbsp;2030.&nbsp;06.&nbsp;(구청장&nbsp;임기&nbsp;내&nbsp;지속&nbsp;추진&nbsp;및&nbsp;예산&nbsp;반영)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비(트램&nbsp;등&nbsp;대형&nbsp;SOC&nbsp;사업&nbsp;및&nbsp;주차환경개선사업&nbsp;공모),&nbsp;시비,&nbsp;구비&nbsp;및&nbsp;특별교부세&nbsp;확보</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(3);">
+                        <p class="accordion-questions">
+                        	4.
+                        	자녀 교육 걱정 없는 ‘미래 교육 특화 도시’ 영도 조성</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion3" title="자녀 교육 걱정 없는 ‘미래 교육 특화 도시’ 영도 조성">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;학군&nbsp;문제로&nbsp;인한&nbsp;청년·가족&nbsp;단위&nbsp;인구&nbsp;유출을&nbsp;원천&nbsp;차단하고,&nbsp;돌아오는&nbsp;영도를&nbsp;위한&nbsp;공교육&nbsp;정상화<br>&nbsp;&nbsp;○&nbsp;'교육혁신선도지구'&nbsp;지정을&nbsp;통한&nbsp;명문&nbsp;학군&nbsp;조성&nbsp;및&nbsp;어린이부터&nbsp;어르신까지&nbsp;소외&nbsp;없는&nbsp;미래형·맞춤형&nbsp;평생학습&nbsp;생태계&nbsp;구축<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[핵심&nbsp;전략]&nbsp;'영도&nbsp;교육혁신선도지구'&nbsp;지정&nbsp;및&nbsp;적극&nbsp;추진<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;부산시교육청과&nbsp;MOU&nbsp;체결을&nbsp;통한&nbsp;'영도&nbsp;교육혁신선도지구'&nbsp;신속&nbsp;지정<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;폐교&nbsp;위기의&nbsp;학교를&nbsp;살리고&nbsp;행정·재정적&nbsp;통합&nbsp;지원&nbsp;체계&nbsp;마련<br>&nbsp;&nbsp;○&nbsp;[명문&nbsp;학군&nbsp;조성]&nbsp;기숙형&nbsp;명문&nbsp;고등학교&nbsp;집중&nbsp;육성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;'기숙형&nbsp;학교'&nbsp;전환&nbsp;및&nbsp;'자율형&nbsp;공립고'&nbsp;등&nbsp;특화&nbsp;모델&nbsp;유치&nbsp;적극&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;[미래·글로벌&nbsp;교육]&nbsp;영도형&nbsp;미래&nbsp;인재&nbsp;양성&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;‘지역&nbsp;AI&nbsp;교육원’&nbsp;설립&nbsp;및&nbsp;맞춤형&nbsp;디지털/AI&nbsp;역량&nbsp;강화&nbsp;교육&nbsp;실시<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;동삼동&nbsp;놀이마당의&nbsp;'원어민&nbsp;영어교실'을&nbsp;거점형&nbsp;글로벌&nbsp;외국어&nbsp;학습&nbsp;센터로&nbsp;확대&nbsp;개편<br>&nbsp;&nbsp;○&nbsp;[안전한&nbsp;통학권&nbsp;보장]&nbsp;관내&nbsp;초·중학교&nbsp;스마트&nbsp;스쿨버스&nbsp;전면&nbsp;도입<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구청과&nbsp;교육청이&nbsp;연계한&nbsp;권역별&nbsp;통합&nbsp;스쿨버스&nbsp;운행&nbsp;지원<br>&nbsp;&nbsp;○&nbsp;[세대&nbsp;통합&nbsp;평생교육]&nbsp;고신대&nbsp;'하하&nbsp;캠퍼스(가칭)'&nbsp;조성&nbsp;및&nbsp;평생학습&nbsp;확대<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관내&nbsp;대학(고신대&nbsp;등)의&nbsp;유휴&nbsp;공간을&nbsp;구민&nbsp;공유형&nbsp;캠퍼스로&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;취미,&nbsp;어학,&nbsp;재취업을&nbsp;위한&nbsp;직업&nbsp;훈련&nbsp;등&nbsp;전&nbsp;생애주기별&nbsp;맞춤형&nbsp;평생&nbsp;교육&nbsp;예산&nbsp;확대<br><br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026.&nbsp;7&nbsp;~&nbsp;2030.&nbsp;06.&nbsp;(임기&nbsp;내&nbsp;조례&nbsp;제정&nbsp;및&nbsp;교육청&nbsp;협의&nbsp;완료)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비(교육부&nbsp;특구&nbsp;지원금&nbsp;등),&nbsp;부산광역시교육청&nbsp;협력&nbsp;기금,&nbsp;시비,&nbsp;구비</p>
+                        </div>
+                    </div>
+                    <div class="accordion-title" onclick="fnAccordion(4);">
+                        <p class="accordion-questions">
+                        	5.
+                        	모두가 행복한 ‘영도형 생활 밀착 돌봄·복지’ 실현</p>
+                        <button class="accordion-control icon-spr" id="btnAccordion4" title="모두가 행복한 ‘영도형 생활 밀착 돌봄·복지’ 실현">공약 내용 펼치기</button>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>
+                            □&nbsp;목&nbsp;표<br>&nbsp;&nbsp;○&nbsp;단순&nbsp;현금성&nbsp;지원(돈&nbsp;주는&nbsp;복지)을&nbsp;탈피하고,&nbsp;교육·의료·주거·생활이&nbsp;융합된&nbsp;보편적이고&nbsp;실질적인&nbsp;돌봄&nbsp;서비스망&nbsp;구축<br>&nbsp;&nbsp;○&nbsp;구민&nbsp;누구나&nbsp;일상에서&nbsp;누릴&nbsp;수&nbsp;있는&nbsp;치유(Therapy)&nbsp;및&nbsp;생활&nbsp;스포츠&nbsp;인프라&nbsp;확충으로&nbsp;건강하고&nbsp;활기찬&nbsp;영도&nbsp;조성<br>&nbsp;<br>□&nbsp;이행방법<br>&nbsp;&nbsp;○&nbsp;[복지&nbsp;패러다임&nbsp;전환]&nbsp;영도형&nbsp;맞춤&nbsp;돌봄&nbsp;체계&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;기존의&nbsp;단편적&nbsp;현금&nbsp;복지를&nbsp;지양하고,&nbsp;맞벌이&nbsp;가정&nbsp;긴급&nbsp;돌봄,&nbsp;의료,&nbsp;주거&nbsp;환경&nbsp;개선을&nbsp;아우르는&nbsp;'서비스&nbsp;중심'의&nbsp;복지&nbsp;체계로&nbsp;전면&nbsp;개편<br>&nbsp;&nbsp;○&nbsp;[1인&nbsp;가구&nbsp;및&nbsp;취약계층&nbsp;보호]&nbsp;혼자&nbsp;계셔도&nbsp;안심,&nbsp;24시간&nbsp;든든한&nbsp;보호막<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;거동&nbsp;불편&nbsp;어르신&nbsp;대상&nbsp;‘의료기관&nbsp;진료&nbsp;동행&nbsp;서비스’&nbsp;전면&nbsp;도입&nbsp;(1천&nbsp;원&nbsp;택시&nbsp;연계)<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관내&nbsp;1인&nbsp;가구&nbsp;및&nbsp;독거노인&nbsp;주택&nbsp;대상&nbsp;사물인터넷(IoT)&nbsp;기반&nbsp;스마트&nbsp;안전&nbsp;센서&nbsp;보급&nbsp;확대를&nbsp;통한&nbsp;24시간&nbsp;사회안전망&nbsp;구축&nbsp;및&nbsp;고독사&nbsp;예방<br>&nbsp;&nbsp;○&nbsp;[메디-테라피&nbsp;영도&nbsp;조성]&nbsp;해양·산림&nbsp;자원&nbsp;활용&nbsp;치유&nbsp;인프라&nbsp;구축<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;감지해변&nbsp;일원&nbsp;'해양치유센터'&nbsp;신속&nbsp;건립&nbsp;및&nbsp;구민&nbsp;대상&nbsp;해양&nbsp;치유&nbsp;프로그램&nbsp;운영<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;절영해안산책로&nbsp;조기&nbsp;개통&nbsp;및&nbsp;태종대를&nbsp;잇는&nbsp;'해양&nbsp;테라피&nbsp;힐링&nbsp;산책로'&nbsp;특화&nbsp;조성<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;봉래산&nbsp;둘레길&nbsp;노후&nbsp;시설(화장실,&nbsp;안내판&nbsp;등)&nbsp;전면&nbsp;정비&nbsp;및&nbsp;'치유의&nbsp;숲'&nbsp;테마파크화<br>&nbsp;&nbsp;○&nbsp;[생활&nbsp;체육&nbsp;복지&nbsp;확충]&nbsp;누구나&nbsp;쉽게&nbsp;즐기는&nbsp;활기찬&nbsp;생활&nbsp;스포츠<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;어르신&nbsp;생활&nbsp;체육&nbsp;저변&nbsp;확대를&nbsp;위한&nbsp;친환경&nbsp;'파크골프장'&nbsp;추가&nbsp;건설<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;구민&nbsp;접근성&nbsp;및&nbsp;편의성&nbsp;극대화를&nbsp;위한&nbsp;‘영도&nbsp;국민체육센터&nbsp;셔틀버스’&nbsp;노선&nbsp;전면&nbsp;운행<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;관내&nbsp;노후&nbsp;아파트&nbsp;단지&nbsp;대상&nbsp;야외&nbsp;운동&nbsp;시설&nbsp;설치&nbsp;및&nbsp;개보수&nbsp;지원&nbsp;예산&nbsp;확대<br>&nbsp;&nbsp;<br>□&nbsp;이행기간<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;2026.&nbsp;7~&nbsp;~&nbsp;2030.&nbsp;6.&nbsp;(구청장&nbsp;임기&nbsp;내&nbsp;조례&nbsp;제정&nbsp;및&nbsp;시설&nbsp;확충&nbsp;완료)<br><br>□&nbsp;재원조달방안&nbsp;등<br>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;국비(보건복지부,&nbsp;산림청,&nbsp;문체부&nbsp;공모사업&nbsp;등&nbsp;적극&nbsp;활용),&nbsp;시비,&nbsp;구비&nbsp;및&nbsp;민자&nbsp;유치</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
