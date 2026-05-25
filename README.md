@@ -44,9 +44,11 @@ uvicorn app.main:app --reload
 ```env
 CUSTOM_GPT_API_KEY=change-me
 DATABASE_URL=sqlite:///./election_promises.db
+PUBLIC_BASE_URL=https://gong-yak.sk14cj.dev
 ```
 
 `CUSTOM_GPT_API_KEY`는 Custom GPT Action에서 보낼 Bearer 토큰입니다. 운영 환경에서는 충분히 긴 임의 문자열을 사용하세요.
+`PUBLIC_BASE_URL`은 OpenAPI `servers`에 들어가는 공개 HTTPS 주소입니다. Custom GPT Actions가 이 주소를 기준으로 API를 호출합니다.
 
 Windows에서 프로젝트가 OneDrive 같은 동기화 폴더 안에 있고 SQLite가 `disk I/O error`를 내면, `.env`의 DB 경로를 동기화되지 않는 로컬 경로로 바꿔 실행하세요.
 

@@ -29,6 +29,7 @@ app = FastAPI(
         "election promise context without generating final answer text."
     ),
     version="0.1.0",
+    servers=[{"url": settings.public_base_url.rstrip("/")}],
 )
 
 

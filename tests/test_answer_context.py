@@ -30,6 +30,13 @@ def test_health_is_public(client):
     assert response.json() == {"status": "ok"}
 
 
+def test_openapi_includes_public_server_url(client):
+    response = client.get("/openapi.json")
+
+    assert response.status_code == 200
+    assert response.json()["servers"] == [{"url": "https://gong-yak.sk14cj.dev"}]
+
+
 def test_privacy_is_public(client):
     response = client.get("/privacy")
 

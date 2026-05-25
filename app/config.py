@@ -17,6 +17,11 @@ class Settings(BaseSettings):
         validation_alias="DATABASE_URL",
         description="SQLAlchemy database URL.",
     )
+    public_base_url: str = Field(
+        default="https://gong-yak.sk14cj.dev",
+        validation_alias="PUBLIC_BASE_URL",
+        description="Public HTTPS base URL advertised in OpenAPI servers.",
+    )
     app_name: str = Field(
         default="Election Promise Context API",
         validation_alias="APP_NAME",
