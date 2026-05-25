@@ -98,6 +98,7 @@ async def request_logging_middleware(request: Request, call_next):  # noqa: ANN0
                 "path": request.url.path,
                 "status_code": response.status_code,
             },
+            "response_content_length": response.headers.get("content-length"),
             "duration_ms": round(duration_ms, 2),
             "client_host": request.client.host if request.client else None,
         },

@@ -71,6 +71,7 @@ TOPIC_KEYWORDS: dict[str, list[str]] = {
 }
 
 CORE_CATEGORIES = {"핵심", "대표공약", "주요공약"}
+GENERIC_PROMISE_TOPICS = {"공약", "정책", "전체", "전체 공약", "주요 공약", "핵심 공약"}
 
 
 class PromiseSearchService:
@@ -85,7 +86,7 @@ class PromiseSearchService:
     ) -> list[PromiseChunk]:
         chunks = self._list_chunks(candidate.id)
 
-        if topic:
+        if topic and not self._is_generic_promise_topic(topic):
             keywords = self._keywords_for_topic(topic)
             matches = [chunk for chunk in chunks if self._matches_keywords(chunk, keywords)]
             return matches[:limit]
@@ -113,7 +114,14 @@ class PromiseSearchService:
 
         return [normalized_topic]
 
+    def _is_generic_promise_topic(self, topic: str) -> bool:
+        normalized_topic = " ".join(topic.strip().split())
+        compact_topic = normalized_topic.replace(" ", "")
+        return (
+            normalized_topic in GENERIC_PROMISE_TOPICS
+            or compact_topic in {generic.replace(" ", "") for generic in GENERIC_PROMISE_TOPICS}
+        )
+
     def _matches_keywords(self, chunk: PromiseChunk, keywords: list[str]) -> bool:
         haystack = f"{chunk.category or ''} {chunk.title} {chunk.text}".casefold()
         return any(keyword.casefold() in haystack for keyword in keywords)
-

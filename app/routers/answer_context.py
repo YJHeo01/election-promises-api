@@ -22,6 +22,7 @@ router = APIRouter(tags=["promise-context"])
     "/answer-context",
     response_model=AnswerContextResponse,
     response_model_by_alias=True,
+    response_model_exclude_none=True,
     operation_id="getPromiseContext",
     summary="Return official-material context for a Custom GPT answer",
     dependencies=[Depends(verify_api_key)],
