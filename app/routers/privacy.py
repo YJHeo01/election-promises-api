@@ -174,6 +174,11 @@ PRIVACY_POLICY_HTML = """<!doctype html>
 """
 
 
-@router.get("/privacy", response_class=HTMLResponse, summary="Privacy policy")
+@router.get(
+    "/privacy",
+    response_class=HTMLResponse,
+    summary="Privacy policy",
+    include_in_schema=False,
+)
 def privacy_policy() -> str:
     return PRIVACY_POLICY_HTML

@@ -12,14 +12,22 @@ class HealthResponse(BaseModel):
     status: str = Field(..., examples=["ok"])
 
 
+class DebugActionRequest(BaseModel):
+    ping: str = Field(default="ping", examples=["ping"])
+
+
 class DebugActionResponse(BaseModel):
     status: str = Field(..., examples=["ok"])
     message: str = Field(..., examples=["debug action reached"])
-    method: str = Field(..., examples=["POST"])
-    body_length: int = Field(..., alias="bodyLength", examples=[17])
+    received_ping: str = Field(..., examples=["ping"])
 
 
-@router.get("/health", summary="Health check", response_model=HealthResponse)
+@router.get(
+    "/health",
+    summary="Health check",
+    response_model=HealthResponse,
+    include_in_schema=False,
+)
 def health_check() -> HealthResponse:
     return HealthResponse(status="ok")
 
@@ -31,7 +39,10 @@ def health_check() -> HealthResponse:
     response_model=DebugActionResponse,
     openapi_extra={"x-openai-isConsequential": False},
 )
-async def debug_action_connectivity(request: Request) -> DebugActionResponse:
+async def debug_action_connectivity(
+    payload: DebugActionRequest,
+    request: Request,
+) -> DebugActionResponse:
     body = await request.body()
     logger.warning(
         "Debug action endpoint reached.",
@@ -47,11 +58,11 @@ async def debug_action_connectivity(request: Request) -> DebugActionResponse:
             "user_agent": request.headers.get("user-agent"),
             "body_length": len(body),
             "body_preview": body[:500].decode("utf-8", errors="replace"),
+            "ping": payload.ping,
         },
     )
     return DebugActionResponse(
         status="ok",
         message="debug action reached",
-        method=request.method,
-        bodyLength=len(body),
+        received_ping=payload.ping,
     )
