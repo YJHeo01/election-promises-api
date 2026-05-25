@@ -25,6 +25,7 @@ router = APIRouter(tags=["promise-context"])
     operation_id="getPromiseContext",
     summary="Return official-material context for a Custom GPT answer",
     dependencies=[Depends(verify_api_key)],
+    openapi_extra={"x-openai-isConsequential": False},
 )
 def get_promise_context(
     payload: AnswerContextRequest,
@@ -90,4 +91,3 @@ def get_promise_context(
             status_code=500,
             content=response.model_dump(by_alias=True, exclude_none=True),
         )
-

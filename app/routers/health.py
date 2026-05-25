@@ -29,6 +29,7 @@ def health_check() -> HealthResponse:
     operation_id="debugActionConnectivity",
     summary="Debug Custom GPT Action connectivity",
     response_model=DebugActionResponse,
+    openapi_extra={"x-openai-isConsequential": False},
 )
 async def debug_action_connectivity(request: Request) -> DebugActionResponse:
     body = await request.body()
